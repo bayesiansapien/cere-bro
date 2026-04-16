@@ -97,66 +97,118 @@ Run periodically (or on request):
 
 ## Daily Digest
 
-The daily digest is the most important output of the wiki. The reader (Amit) reads this first every morning to decide what to dig into. It must be worth reading on its own — not a table of contents.
+The daily digest is the most important output of the wiki. Amit reads it first every morning. It must be worth reading on its own — not a log, not a summary table, but a newsletter that makes him *want* to click through.
 
 ### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
 
-```
+```markdown
 # cere-bro | YYYY-MM-DD
 
-> One-sentence framing of today's theme or the most interesting tension in today's batch.
+> One-sentence framing of today's sharpest tension, surprise, or theme.
 
 ---
 
 ## The Big Picture
 
-2–3 paragraphs connecting today's sources into a coherent narrative. What thread runs through the day? Are multiple papers attacking the same problem from different angles? Does a blog post contradict or validate a paper? What does today's batch say about where the field is heading? Write this like the opening of a good newsletter — lead with the most interesting observation, not a summary.
+2–3 paragraphs. Lead with the most interesting observation, not a list of what arrived.
+What thread runs through today's batch? Do multiple papers attack the same problem from
+different angles? Does a blog contradict a paper? What does today say about where the
+field is heading? Write this like the opening of a good essay — pull the reader in.
 
 ---
 
 ## Deep Dives
 
-One section per source worth reading in depth. Not every source needs one — skip routine releases (changelogs, minor updates). Focus on the 5–8 most substantive pieces.
+5–8 most substantive sources. Skip changelogs, minor updates, routine releases.
 
-### [Paper/Post Title]
-**Source:** huggingface / rss/interconnects-ai / etc. | **Date:** YYYY-MM-DD
+---
 
-2–4 paragraphs. Cover: what they did, why it matters, what's surprising or counterintuitive, what it implies for the field. Don't just restate the abstract — add interpretation. End each section with a **"Why it matters"** line.
+### [Title of Paper or Post]
 
-Link to wiki summary page if one exists.
+> [One-line hook — the most counterintuitive or surprising thing about this work]
+
+**Source:** HuggingFace / Interconnects AI / etc.
+**Links:** [Paper](https://arxiv.org/abs/XXXX.XXXXX) · [Wiki](../../<concept>/<slug>.md)
+**Tier:** 1 — Routing / KV Cache / Compression / GPU  ← (or Tier 2, etc.)
+
+[VISUAL BLOCK — include one of the following when it adds clarity:]
+
+Option A — Embed a real figure from the paper (if architecture diagram exists in raw/assets/):
+  ![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)
+
+Option B — Text-based HLD when no figure is available but the design is non-obvious:
+  ┌─────────────┐     query      ┌──────────────┐
+  │  Router     │ ─────────────► │  Model Pool  │
+  │  (cheap)    │ ◄───────────── │  A / B / C   │
+  └─────────────┘    confidence  └──────────────┘
+  Use boxes (┌┐└┘─│), arrows (►◄↑↓→←), labels. Keep it under 10 lines.
+
+Option C — Relationship map for "Connecting the Dots" cross-paper diagrams:
+  PreRL (expand horizon) ──► DSRL (combine) ──► TIP (distill cheaply)
+       └─────── all three compose into a new training pipeline ───────┘
+
+2–4 paragraphs (4–6 for Tier 1). Cover: what they built, why the mechanism works
+(not just what it achieves), what's surprising or counterintuitive, what it implies.
+Don't restate the abstract — add interpretation.
+
+**Why it matters:** One sentence, punchy. What changes if this paper is right?
+
+**Research angle:** ← Tier 1 only. What open problem does this point at? What would a
+follow-up need to solve? What's still missing?
+
+→ [Full summary](../../<concept>/<slug>.md)
 
 ---
 
 ## Connecting the Dots
 
-A section that only appears when ≥2 sources are clearly related. Explicitly draw the connection: "Both UI-Copilot and TREX are attacking the same problem from different sides — the former in GUI execution, the latter in training automation. Together they sketch an emerging picture of fully automated AI workflows..." This is the most valuable part of the digest.
+Only when ≥2 sources are clearly related. Draw the connection explicitly.
+If a text diagram helps show the relationship, add one (Option C above).
+This is the most valuable section — synthesis nobody else can give the reader.
 
 ---
 
 ## Worth Watching
 
-2–4 bullet points on implications, open questions, or things to follow up on. Not summaries — observations and predictions.
+- **[Specific claim or trend]** — Why it matters and what to check in 30/60/90 days.
+  Keep predictions falsifiable. Prioritize Tier 1 open problems.
 
 ---
 
 ## Quick Hits
 
-One-paragraph entries for minor but notable items that don't warrant a deep dive. Changelog items, brief quotes, small papers.
+One tight paragraph per minor-but-notable item. Tier 3 papers, blog asides,
+changelogs, tool releases. Tier 4 items get one sentence here or nothing.
 
 ---
 
 *Sources ingested today: N | Wiki pages updated: N*
 ```
 
+---
+
 ### Writing rules
 
-- **Calibrate depth to the Reader Profile tier.** Tier 1 papers (routing, KV cache, compression, GPU) get the most space. Go deep on mechanism — not just "they improved latency" but *how* (kernel fusion? smarter eviction? speculative execution?). End Tier 1 Deep Dives with a **Research angle** note: what open problem does this point at, what would a follow-up paper need to solve?
-- **Write for curiosity, not completeness.** If a paper is boring, say so briefly and move on. If it's fascinating, give it space.
-- **Connect before you summarize.** The Big Picture and Connecting the Dots sections are the unique value — any reader can get a summary from the abstract. What they can't get is synthesis.
-- **Be opinionated.** "This is the third paper this week showing that benchmark scores don't capture robustness — there's clearly a measurement problem brewing." That kind of observation is what makes a digest worth reading.
-- **Chronological storytelling where it applies.** If today's sources build on each other, say so explicitly.
-- **Skip the boring stuff.** Simon Willison's datasette changelog doesn't need a deep dive. Marcus on AI ranting about hype gets a sentence. Tier 4 topics (3D, spatial, robotics) get one line at most.
-- **Future implications.** End the digest with what to watch — not vague "this is important" but specific "if DSRL's pre-train RL approach generalizes to non-math tasks, it could replace standard RLVR by Q3." Prioritize Tier 1 predictions.
+**1. Link everything directly.**
+Every Deep Dive must include the direct URL to the paper (arxiv) or post in the **Links** line — not just the wiki summary. The reader should be one click from the source without ever leaving the digest.
+
+**2. Show the architecture, don't just describe it.**
+For every Deep Dive, ask: would a diagram make this clearer? If yes, either embed a figure downloaded from the source to `raw/assets/`, or draw a text-based HLD using box-and-arrow notation. Architecture papers, routing systems, and training pipelines especially benefit from this. A 6-line text diagram communicates more than two paragraphs of prose.
+
+**3. Calibrate depth to the Reader Profile tier.**
+Tier 1 (routing, KV cache, compression, GPU): 4–6 paragraphs, deep on mechanism — not just "latency improved" but *how* (kernel fusion? smarter eviction? speculative decoding?). Always end with a **Research angle** note. Tier 2: 2–4 paragraphs, flag Tier 1 intersections. Tier 3: Quick Hit unless it touches routing or efficiency. Tier 4: one sentence or nothing.
+
+**4. Connect before you summarize.**
+Big Picture and Connecting the Dots are the unique value of this digest. Any reader can get a summary from the abstract. They can't get synthesis elsewhere. Use text relationship maps when ≥2 papers compose into something bigger than either alone.
+
+**5. Be opinionated and specific.**
+"This is the third paper this month showing that benchmark accuracy doesn't predict deployment robustness — a measurement crisis is forming." That's worth reading. "This paper is interesting" is not. Name the tension, take the position.
+
+**6. Future implications must be falsifiable.**
+Worth Watching bullets should name a specific claim and a timeframe — "if DSRL generalizes beyond math to open-ended reasoning, it could replace SFT→RLVR by Q3 2026." Not "this is important to watch." Prioritize Tier 1 predictions.
+
+**7. Skip the boring stuff without apology.**
+Datasette changelogs get a sentence. Hype posts get nothing. Tier 4 spatial/3D work gets one line in Quick Hits at most. Length is not depth.
 
 ---
 
