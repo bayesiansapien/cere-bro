@@ -49,7 +49,7 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 1. Read the source. For papers, read abstract + key sections; for videos, read the transcript; for blogs, read in full.
 2. **Write a summary page** in the appropriate `wiki/<concept>/` subdirectory. Filename: `<YYYY-MM-DD>-<slug>.md`. Include: one-paragraph TL;DR, key findings or claims, links to related wiki pages, link back to the raw source.
 3. **Update concept pages** — for every AI concept significantly discussed in the source, update or create `wiki/<concept>/<concept-name>.md`. Add what the source contributes: new evidence, a contradiction, a refinement.
-4. **Update the daily digest** — append a one-liner to `wiki/daily-digest.md` under today's date header.
+4. **Write/update the daily digest** — write to `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`. This is a newsletter, not a log. See the Daily Digest section below for the full format.
 5. **Update index.md** — add the new summary page with its one-line description.
 6. **Append to log.md** — format: `## [YYYY-MM-DD] ingest | <title> | <source-type>`
 
