@@ -63,7 +63,7 @@ Ingest one source at a time. A single source may touch 5–15 wiki pages. Always
 
 **Concept pages** (`wiki/<concept>/<concept-name>.md`) — one page per AI concept (e.g. "Mixture of Experts", "KV Cache", "Chain-of-Thought"). Synthesizes everything ingested so far. Updated every time a new source touches the concept.
 
-**Daily digest** (`wiki/daily-digest.md`) — rolling log of what came in each day. One line per source under a date header. The pulse of the wiki.
+**Daily digest** (`wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`) — one file per day, structured as a newsletter. Written for the reader, not as a log. See the Daily Digest section below for the full format and writing rules.
 
 ---
 
