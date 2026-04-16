@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+
+# Farmer state (not synced — cloud runs use fallback window)
+.farmer-state/
