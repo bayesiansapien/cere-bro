@@ -15,6 +15,9 @@ wiki/       ← LLM-owned synthesis (you write everything here)
   multimodal/
   inference-efficiency/
   ai-routing/
+  daily-digest/
+    YYYY-MM/
+      YYYY-MM-DD.md  ← one newsletter per day
   index.md  ← catalog of every wiki page with one-line summaries
   log.md    ← append-only ingest + lint timeline
 ```
