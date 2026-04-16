@@ -6,3 +6,6 @@
 
 # Farmer state (not synced — cloud runs use fallback window)
 .farmer-state/
+
+# Secrets
+.env
