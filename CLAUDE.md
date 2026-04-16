@@ -150,12 +150,13 @@ One-paragraph entries for minor but notable items that don't warrant a deep dive
 
 ### Writing rules
 
+- **Calibrate depth to the Reader Profile tier.** Tier 1 papers (routing, KV cache, compression, GPU) get the most space. Go deep on mechanism — not just "they improved latency" but *how* (kernel fusion? smarter eviction? speculative execution?). End Tier 1 Deep Dives with a **Research angle** note: what open problem does this point at, what would a follow-up paper need to solve?
 - **Write for curiosity, not completeness.** If a paper is boring, say so briefly and move on. If it's fascinating, give it space.
 - **Connect before you summarize.** The Big Picture and Connecting the Dots sections are the unique value — any reader can get a summary from the abstract. What they can't get is synthesis.
 - **Be opinionated.** "This is the third paper this week showing that benchmark scores don't capture robustness — there's clearly a measurement problem brewing." That kind of observation is what makes a digest worth reading.
 - **Chronological storytelling where it applies.** If today's sources build on each other, say so explicitly.
-- **Skip the boring stuff.** Simon Willison's datasette changelog doesn't need a deep dive. Marcus on AI ranting about hype gets a sentence.
-- **Future implications.** End the digest with what to watch — not vague "this is important" but specific "if DSRL's pre-train RL approach generalizes to non-math tasks, it could replace standard RLVR by Q3."
+- **Skip the boring stuff.** Simon Willison's datasette changelog doesn't need a deep dive. Marcus on AI ranting about hype gets a sentence. Tier 4 topics (3D, spatial, robotics) get one line at most.
+- **Future implications.** End the digest with what to watch — not vague "this is important" but specific "if DSRL's pre-train RL approach generalizes to non-math tasks, it could replace standard RLVR by Q3." Prioritize Tier 1 predictions.
 
 ---
 
