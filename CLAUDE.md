@@ -201,25 +201,31 @@ changelogs, tool releases. Tier 4 items get one sentence here or nothing.
 
 ### Writing rules
 
-**1. Link everything directly.**
+**1. Write simply. Keep every technical term.**
+The digest is a lightweight daily read — for Amit, and potentially for a public audience too. Use short sentences. One idea per sentence. Active voice. No nested clauses. When a technical term appears for the first time in a section, give it a one-phrase gloss in plain English right next to it — for example: "KV cache (the memory store that saves previous attention computations so they don't get recomputed)". The term stays. The sentence around it should be easy to follow even for a smart reader outside the subfield. Think: clear, not dumbed down.
+
+Bad: *"The standard approach to on-policy distillation, whereby the student model generates rollouts under teacher supervision at the token level, has been shown to be massively wasteful in terms of learning signal density."*
+Good: *"Standard distillation trains on every token the teacher generates. TIP found that most of those tokens carry no real signal. You only need 10%."*
+
+**2. Link everything directly.**
 Every Deep Dive must include the direct URL to the paper (arxiv) or post in the **Links** line — not just the wiki summary. The reader should be one click from the source without ever leaving the digest.
 
-**2. Show the architecture, don't just describe it.**
+**3. Show the architecture, don't just describe it.**
 For every Deep Dive, ask: would a diagram make this clearer? If yes, either embed a figure downloaded from the source to `raw/assets/`, or draw a text-based HLD using box-and-arrow notation. Architecture papers, routing systems, and training pipelines especially benefit from this. A 6-line text diagram communicates more than two paragraphs of prose.
 
-**3. Calibrate depth to the Reader Profile tier.**
+**4. Calibrate depth to the Reader Profile tier.**
 Tier 1 (routing, KV cache, compression, GPU): 4–6 paragraphs, deep on mechanism — not just "latency improved" but *how* (kernel fusion? smarter eviction? speculative decoding?). Always end with a **Research angle** note. Tier 2: 2–4 paragraphs, flag Tier 1 intersections. Tier 3: Quick Hit unless it touches routing or efficiency. Tier 4: one sentence or nothing.
 
-**4. Connect before you summarize.**
+**5. Connect before you summarize.**
 Big Picture and Connecting the Dots are the unique value of this digest. Any reader can get a summary from the abstract. They can't get synthesis elsewhere. Use text relationship maps when ≥2 papers compose into something bigger than either alone.
 
-**5. Be opinionated and specific.**
+**6. Be opinionated and specific.**
 "This is the third paper this month showing that benchmark accuracy doesn't predict deployment robustness — a measurement crisis is forming." That's worth reading. "This paper is interesting" is not. Name the tension, take the position.
 
-**6. Future implications must be falsifiable.**
+**7. Future implications must be falsifiable.**
 Worth Watching bullets should name a specific claim and a timeframe — "if DSRL generalizes beyond math to open-ended reasoning, it could replace SFT→RLVR by Q3 2026." Not "this is important to watch." Prioritize Tier 1 predictions.
 
-**7. Skip the boring stuff without apology.**
+**8. Skip the boring stuff without apology.**
 Datasette changelogs get a sentence. Hype posts get nothing. Tier 4 spatial/3D work gets one line in Quick Hits at most. Length is not depth.
 
 ---
