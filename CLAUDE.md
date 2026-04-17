@@ -173,11 +173,29 @@ follow-up need to solve? What's still missing?
 
 ---
 
+## Industry Pulse
+
+What's happening in AI beyond the lab. Cover company moves, product launches,
+funding rounds, policy, regulation, and anything that shapes the business and
+deployment landscape of AI. Sources: TLDR AI, The Decoder, VentureBeat AI,
+The Information, Pragmatic Engineer.
+
+Format: 3–6 bullet points. Each one is 2–3 sentences max — enough context to
+understand what happened and why it matters. Lead with the most consequential
+item. Skip pure PR/marketing noise. Flag anything that intersects Tier 1 research
+areas (e.g. a new chip announcement, a routing product launch, a KV cache patent).
+
+- **[Company/Product/Event]** — what happened. Why it matters in one sentence.
+
+---
+
 ## Connecting the Dots
 
 Only when ≥2 sources are clearly related. Draw the connection explicitly.
 If a text diagram helps show the relationship, add one (Option C above).
 This is the most valuable section — synthesis nobody else can give the reader.
+Also draw connections between Industry Pulse items and research papers when relevant
+(e.g. a VC funding a routing startup the same week a routing paper drops).
 
 ---
 
