@@ -12,9 +12,23 @@ TODAY=$(date +%Y-%m-%d)
 
 mkdir -p "$REPO/.claude/logs"
 
-echo "[$TODAY $(date +%H:%M:%S)] Starting morning digest..." >> "$LOG"
-
 cd "$REPO"
+
+# Guard 1: only run if it's 8 AM or later
+CURRENT_HOUR=$(date +%H)
+if [ "$CURRENT_HOUR" -lt 8 ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Before 8 AM — skipping." >> "$LOG"
+  exit 0
+fi
+
+# Guard 2: skip if today's digest already exists
+DIGEST_PATH="$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md"
+if [ -f "$DIGEST_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Digest already exists — skipping." >> "$LOG"
+  exit 0
+fi
+
+echo "[$TODAY $(date +%H:%M:%S)] Starting morning digest..." >> "$LOG"
 
 # Pull latest before starting
 git pull --rebase origin main >> "$LOG" 2>&1 || true
