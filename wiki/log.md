@@ -2,6 +2,19 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-17] ingest | TRACER: Trace-Based LLM Routing (arxiv 2604.14531) | huggingface
+## [2026-04-17] ingest | KV Packet: Recomputation-Free KV Cache Reuse (arxiv 2604.13226) | huggingface
+## [2026-04-17] ingest | Cross-Tokenizer Distillation via Byte-Level Interface (arxiv 2604.07466) | huggingface
+## [2026-04-17] ingest | Model Capability Dominates Inference-Time Optimization / AIMO 3 (arxiv 2603.27844) | huggingface
+## [2026-04-17] ingest | Dive into Claude Code Architecture (arxiv 2604.14228) | huggingface
+## [2026-04-17] ingest | SuperLocalMemory V3.3: Biologically-Inspired Agent Memory (arxiv 2604.04514) | huggingface
+## [2026-04-17] ingest | LongAct: Saliency-Guided Sparse Updates for Long-Context RL (arxiv 2604.14922) | huggingface
+## [2026-04-17] ingest | TESSY: Teacher-Student SFT Data Synthesis (arxiv 2604.14164) | huggingface
+## [2026-04-17] ingest | DR3-Eval: Deep Research Agent Benchmark (arxiv 2604.14683) | huggingface
+## [2026-04-17] ingest | Tokenmaxxing as a weird new trend | rss/pragmatic-engineer
+## [2026-04-17] ingest | llm-anthropic 0.25 release | rss/simon-willison
+## [2026-04-17] ingest | Qwen3.6-35B-A3B local run | rss/simon-willison
+
 ## [2026-04-16] ingest | UI-Copilot (arxiv 2604.13822) | huggingface
 ## [2026-04-16] ingest | TREX: LLM Fine-tuning Automation (arxiv 2604.14116) | huggingface
 ## [2026-04-16] ingest | Exploration/Exploitation Errors in LM Agents (arxiv 2604.13151) | huggingface
