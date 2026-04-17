@@ -223,6 +223,9 @@ changelogs, tool releases. Tier 4 items get one sentence here or nothing.
 
 ### Writing rules
 
+**0. Every item must link to its source.**
+Every Deep Dive, every Industry Pulse bullet, every Quick Hit — include a hyperlink to the original paper, post, or article. No exceptions. Format: `([Source Name](URL))` inline, or `[Paper](URL)` in the Links line for Deep Dives. If the item came from a newsletter that covered a story (e.g. AI Breakfast covering an OpenAI announcement), link to the newsletter post — not a vague attribution. Never write "(Source Name)" without a URL. Never group items by source with a separator header — all items go directly into the section they belong in.
+
 **1. Write simply. Keep every technical term.**
 The digest is a lightweight daily read — for Amit, and potentially for a public audience too. Use short sentences. One idea per sentence. Active voice. No nested clauses. When a technical term appears for the first time in a section, give it a one-phrase gloss in plain English right next to it — for example: "KV cache (the memory store that saves previous attention computations so they don't get recomputed)". The term stays. The sentence around it should be easy to follow even for a smart reader outside the subfield. Think: clear, not dumbed down.
 
