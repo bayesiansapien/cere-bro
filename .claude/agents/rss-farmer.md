@@ -30,7 +30,19 @@ import feedparser, os, re
 from datetime import datetime, timezone, timedelta
 
 FEEDS = {
-    # Substack subscriptions
+    # ── AI News & Industry ──────────────────────────────────────────────────
+    # Daily curated AI headlines — product launches, research, funding, policy
+    "tldr-ai":              "https://tldr.tech/api/rss/ai",
+    # In-depth AI news articles, multiple per day (English, The Decoder Germany)
+    "the-decoder":          "https://the-decoder.com/feed/",
+    # VC funding, startups, enterprise AI adoption
+    "venturebeat-ai":       "https://venturebeat.com/category/ai/feed/",
+    # Critical analysis of AI hype vs reality (Kapoor & Narayanan)
+    "ai-snake-oil":         "https://aisnakeoil.substack.com/feed",
+    # Premium AI industry intelligence — company strategies, chip deals, M&A
+    "the-information":      "https://www.theinformation.com/feed",
+
+    # ── Research Blogs & Newsletters ────────────────────────────────────────
     "agentic-ai":           "https://kenhuangus.substack.com/feed",
     "ahead-of-ai":          "https://magazine.sebastianraschka.com/feed",
     "ai-research-strategy": "https://deliprao.substack.com/feed",
@@ -54,15 +66,24 @@ FEEDS = {
     "nlp-news":             "https://newsletter.ruder.io/feed",
     "pragmatic-engineer":   "https://newsletter.pragmaticengineer.com/feed",
     "the-gradient":         "https://thegradientpub.substack.com/feed",
-    # Blogs
+
+    # ── Blogs ───────────────────────────────────────────────────────────────
     "huggingface-blog":     "https://huggingface.co/blog/feed.xml",
     "karpathy-blog":        "http://karpathy.github.io/feed.xml",
     "lilian-weng":          "https://lilianweng.github.io/index.xml",
     "simon-willison":       "https://simonwillison.net/atom/everything/",
-    # Hardware / infrastructure
+
+    # ── Hardware / Infrastructure ────────────────────────────────────────────
     "semianalysis":         "https://newsletter.semianalysis.com/feed",
-    # AI community
+
+    # ── AI Community ────────────────────────────────────────────────────────
     "dair-ai":              "https://medium.com/feed/dair-ai",
+
+    # ── NOT ADDED (blocked/unavailable) ─────────────────────────────────────
+    # "ai-breakfast":       beehiiv Cloudflare blocks RSS readers
+    # "bens-bites":         beehiiv Cloudflare blocks RSS readers
+    # "mit-tech-review":    feed URL unresponsive
+    # "the-rundown-ai":     feed URL unresponsive
 }
 ```
 
