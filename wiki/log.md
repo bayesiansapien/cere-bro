@@ -14,6 +14,12 @@ Append-only timeline of ingests and lint passes.
 ## [2026-04-17] ingest | Tokenmaxxing as a weird new trend | rss/pragmatic-engineer
 ## [2026-04-17] ingest | llm-anthropic 0.25 release | rss/simon-willison
 ## [2026-04-17] ingest | Qwen3.6-35B-A3B local run | rss/simon-willison
+## [2026-04-17] ingest | OpenAI Codex always-on screen agent | rss/the-decoder
+## [2026-04-17] ingest | Claude Opus 4.7 coding leap | rss/the-decoder
+## [2026-04-17] ingest | CRUX: open-world evaluations + iOS App Store agent | rss/ai-snake-oil
+## [2026-04-17] ingest | Google Gemini native Mac app | rss/the-decoder
+## [2026-04-17] ingest | Apple sends Siri devs to AI coding bootcamp | rss/the-decoder
+## [2026-04-17] ingest | OpenAI ads in ChatGPT | rss/the-decoder
 
 ## [2026-04-16] ingest | UI-Copilot (arxiv 2604.13822) | huggingface
 ## [2026-04-16] ingest | TREX: LLM Fine-tuning Automation (arxiv 2604.14116) | huggingface
