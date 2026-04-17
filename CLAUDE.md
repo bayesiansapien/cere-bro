@@ -111,9 +111,10 @@ The daily digest is the most important output of the wiki. Amit reads it first e
 
 ## TL;DR
 
-3–5 bullets. One line each. The things worth knowing even if you read nothing else today.
-Lead with Tier 1 findings. Write the punchline, not the setup — assume the reader is
-skimming before deciding what to read in depth.
+3–6 bullets. One line each. The things worth knowing even if you read nothing else today.
+Lead with Tier 1 research findings, then the most important industry news item.
+Write the punchline, not the setup — assume the reader is skimming before deciding
+what to read in depth.
 
 - **[Paper/concept]** — what it found or did, in one punchy clause
 - **[Paper/concept]** — what it found or did
