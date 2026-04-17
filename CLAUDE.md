@@ -31,6 +31,7 @@ wiki/       ← LLM-owned synthesis (you write everything here)
   inference-efficiency/   ← compression, quantization, distillation, KV cache, GPU opt
   ai-routing/             ← LLM routing, multimodal routing, agent trajectory routing
   hardware/               ← GPU architecture, new chips, memory hierarchy
+  ai-industry/            ← company news, product launches, funding, policy, regulation
   daily-digest/
     YYYY-MM/
       YYYY-MM-DD.md  ← one newsletter per day
