@@ -9,3 +9,6 @@
 
 # Secrets
 .env
+
+# Runtime logs (local only)
+.claude/logs/
