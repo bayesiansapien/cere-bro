@@ -51,11 +51,13 @@ Farmers pull from these daily:
 
 | Source | Type | Notes |
 |--------|------|-------|
-| HuggingFace Daily Papers | Web/RSS | hf.co/papers — daily ML digest |
-| arXiv | RSS | cs.AI, cs.LG, cs.CL category feeds |
+| HuggingFace Daily Papers | Web/RSS | hf.co/papers — daily ML paper digest |
 | YouTube channels | local-cli (yt-dlp) | AI creators curated by user |
-| Blogs / newsletters | RSS | Lilian Weng, Andrej Karpathy, Sebastian Raschka, etc. |
+| **AI News** | RSS | TLDR AI (daily), The Decoder (in-depth), VentureBeat AI (industry), The Information (premium intel) |
+| **Research blogs** | RSS | Lilian Weng, Karpathy, Sebastian Raschka, Interconnects AI, SemiAnalysis, Import AI, etc. |
+| **Critical / opinion** | RSS | AI Snake Oil, Marcus on AI, Algorithmic Bridge |
 | Twitter | Web | AI researchers and labs the user follows |
+| AI Breakfast / Ben's Bites | — | Blocked by Cloudflare — not available via RSS |
 
 ---
 
