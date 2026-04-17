@@ -17,6 +17,8 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-16-do-ai-coding-agents-log-like-humans.md](agents-tool-use/2026-04-16-do-ai-coding-agents-log-like-humans.md) | AI coding agents fail logging instructions 67% of the time |
 | [2026-04-16-defenseclaw-maestro-agentic-security.md](agents-tool-use/2026-04-16-defenseclaw-maestro-agentic-security.md) | DefenseClaw: security control plane for OpenClaw + MAESTRO threat model |
 | [2026-04-16-vakra-agent-reasoning-failure-modes.md](agents-tool-use/2026-04-16-vakra-agent-reasoning-failure-modes.md) | VAKRA: tool-use failure modes in agents |
+| [2026-04-17-claude-code-architecture.md](agents-tool-use/2026-04-17-claude-code-architecture.md) | Claude Code v2.1.88 architecture: while-loop core + 5 surrounding systems |
+| [2026-04-17-superlocalmemory-agent-memory.md](agents-tool-use/2026-04-17-superlocalmemory-agent-memory.md) | SuperLocalMemory V3.3: biologically-inspired local agent memory with forgetting curves |
 
 ## llms-foundation-models
 
@@ -40,5 +42,16 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [knowledge-distillation.md](inference-efficiency/knowledge-distillation.md) | Concept: knowledge distillation, on-policy distillation, token selection |
+| [knowledge-distillation.md](inference-efficiency/knowledge-distillation.md) | Concept: knowledge distillation, on-policy distillation, cross-tokenizer BLD |
+| [kv-cache.md](inference-efficiency/kv-cache.md) | Concept: KV cache — context dependency, reuse, compression, eviction |
 | [2026-04-16-tip-token-importance-on-policy-distillation.md](inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md) | TIP: two-axis token importance taxonomy; 47% memory reduction |
+| [2026-04-17-kv-packet-recomputation-free-kv-cache.md](inference-efficiency/2026-04-17-kv-packet-recomputation-free-kv-cache.md) | KV Packet: soft-token adapters for zero-recomputation KV cache reuse |
+| [2026-04-17-cross-tokenizer-distillation-byte-level.md](inference-efficiency/2026-04-17-cross-tokenizer-distillation-byte-level.md) | Byte-Level Distillation: bytes as universal cross-tokenizer interface |
+| [2026-04-17-model-capability-dominates-inference-time.md](inference-efficiency/2026-04-17-model-capability-dominates-inference-time.md) | AIMO 3: model capability 4x > prompt-level optimization; gap is selection not prompting |
+
+## ai-routing
+
+| Page | Summary |
+|------|---------|
+| [llm-routing.md](ai-routing/llm-routing.md) | Concept: LLM routing — surrogate models, parity gates, open problems |
+| [2026-04-17-tracer-llm-routing.md](ai-routing/2026-04-17-tracer-llm-routing.md) | TRACER: trace-driven surrogate routing; 100% coverage on 150-class benchmark |
