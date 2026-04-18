@@ -10,6 +10,8 @@ KV caching is standard in all production LLM serving. Active research is focused
 
 **KV Packet (2026-04-17)** — Eliminates recomputation-on-reuse entirely. Wraps cached documents as immutable packets with lightweight soft-token adapters (trained via self-supervised distillation) that bridge context shifts. Near-zero FLOPs, lower TTFT than all recomputation-based baselines (CacheBlend, EPIC, SAM-KV). → [summary](2026-04-17-kv-packet-recomputation-free-kv-cache.md)
 
+**LongAct (2026-04-18)** — Identifies high-magnitude activations in Q/K vectors during long-context processing. These "saliency peaks" (same ones that trouble quantization) are the positions where attention is doing real work. LongAct restricts RL gradient updates to only those weights, yielding ~8% gain on LongBench v2 with universal compatibility across GRPO and DAPO. Bridges the KV saliency insight from quantization research into RL training. → [summary](2026-04-18-longact-saliency-sparse-rl.md)
+
 ## Key Concepts
 
 - **Context dependency**: KV states computed for a document are specific to the attention context at the time. Reusing them in a new context produces attention distribution mismatch — hence the need to recompute.
