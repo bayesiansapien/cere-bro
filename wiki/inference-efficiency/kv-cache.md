@@ -2,7 +2,7 @@
 
 The KV cache (Key-Value cache) stores the key and value tensors from the attention mechanism for tokens already processed. This means those tokens don't need to be recomputed on every new generation step — critical for making autoregressive decoding fast.
 
-## Current State (as of 2026-04-17)
+## Current State (as of 2026-04-18)
 
 KV caching is standard in all production LLM serving. Active research is focused on three problems: (1) making caches reusable across contexts without recomputation, (2) compressing the cache to reduce memory footprint, and (3) smarter eviction policies when the cache is full.
 
