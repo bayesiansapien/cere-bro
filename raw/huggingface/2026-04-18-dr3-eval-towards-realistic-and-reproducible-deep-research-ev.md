@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-04-18T00:00:00Z
+arxiv_id: 2604.14683
+url: https://huggingface.co/papers/2604.14683
+arxiv_url: https://arxiv.org/abs/2604.14683
+date: 2026-04-18
+---
+
+# DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation
+
+Recent advances in large language models have enabled the development of Deep Research Agents (DRAs), which aim to autonomously perform complex, long-horizon research tasks involving planning, iterative information retrieval, multimodal understanding, and synthesis of structured, citation-grounded reports. However, evaluating deep research poses challenges that go beyond short-form reasoning or single-answer tasks. Existing benchmarks reveal a fundamental tension between realism, controllability, and evaluability: benchmarks relying on live web access provide high ecological validity but suffer from temporal volatility and irreproducibility, while sandbox-based approaches ensure stability but often simplify research contexts to clean text-only data, omitting the multimodal complexity and confounding noise inherent in authentic research. To address these limitations, we introduce DR3-Eval, a benchmark designed to reconcile realism, controllability, and reproducibility for deep research evaluation. DR3-Eval targets report-generation tasks grounded in real user needs, constructed from authentic multimodal files that users have encountered in practice. Each task is paired with a per-case research sandbox corpus that simulates the open web while remaining fully static and verifiable. Within this sandbox, documents are carefully curated to include evidential sources, confounding documents, and ambient noise, enabling systematic analysis of an agent's retrieval strategy, critical judgment, and robustness to distraction. A key feature is the reverse-construction methodology: instead of posing open-ended questions with uncertain answerability, we derive each query from verified evidential documents, ensuring that every task admits a single, well-defined solution path. To support fine-grained assessment, we propose a multi-dimensional evaluation framework that measures Information Recall, Factual Accuracy, Citation Coverage, Instruction Following, and Depth Quality. We further develop DR3-Agent, a multi-agent research system adapted to the benchmark's closed-world setting. Extensive experiments across state-of-the-art language models reveal that DR3-Eval is highly challenging and exposes failure modes that are obscured by existing benchmarks.
