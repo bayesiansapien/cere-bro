@@ -31,6 +31,8 @@ On-policy distillation has become the dominant approach for reasoning model comp
 - **Memory efficiency**: token selection not only improves learning quality but also reduces peak GPU memory — critical for distilling large reasoning models
 - **Cross-tokenizer distillation (CTD)**: transferring knowledge when teacher and student use different tokenizers — the vocabulary mismatch problem
 - **Byte-level interface**: using raw bytes as a universal common representation between any two tokenizers
+- **Stylistic divergence**: teacher and student have different learned generation styles; a teacher's reasoning traces can be too foreign for the student's optimizer
+- **Cooperative synthesis (TESSY)**: interleaving teacher/student token generation to create hybrid training data that matches student style while containing teacher reasoning
 
 ## Related Pages
 
