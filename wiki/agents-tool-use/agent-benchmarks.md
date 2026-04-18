@@ -18,6 +18,8 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 **InfiniteScienceGym (2026-04-16)** — Procedurally generated scientific analysis benchmark. No model exceeds 45%; abstention on unanswerable questions is a key weakness. → [summary](../llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md)
 
+**DR3-Eval (2026-04-18)** — Deep Research Agent benchmark. Static per-task corpus sandboxes with evidential sources, confounding documents, and noise. Reverse-constructed questions (derived from verified evidential docs) ensure every task is answerable. Multi-dimensional scoring: recall, factual accuracy, citation coverage, instruction following, depth. State-of-the-art models still struggle. → [summary](2026-04-18-dr3-eval-deep-research-benchmark.md)
+
 ## Patterns Across Benchmarks
 
 - Reasoning models consistently outperform base models on agentic tasks
