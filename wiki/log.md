@@ -2,6 +2,22 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-18] ingest | LongAct: Saliency-Guided Sparse RL (arxiv 2604.14922) | huggingface
+## [2026-04-18] ingest | TESSY: Teacher-Student SFT Cooperation (arxiv 2604.14164) | huggingface
+## [2026-04-18] ingest | Switch-KD: Visual-Switch VLM Distillation (arxiv 2604.14629) | huggingface
+## [2026-04-18] ingest | Corpus2Skill: Knowledge Navigation Agent (arxiv 2604.14572) | huggingface
+## [2026-04-18] ingest | C2: Rubric-Augmented Reward Modeling (arxiv 2604.13618) | huggingface
+## [2026-04-18] ingest | DR3-Eval: Deep Research Agent Benchmark (arxiv 2604.14683) | huggingface
+## [2026-04-18] ingest | OpenAI exec departures and restructuring | rss/the-decoder
+## [2026-04-18] ingest | Claude market share doubles in one month | rss/the-decoder
+## [2026-04-18] ingest | Anthropic Mythos / White House access | rss/the-decoder
+## [2026-04-18] ingest | Algorithmic Bridge: Why You Can't Trust Anthropic | rss/algorithmic-bridge
+## [2026-04-18] ingest | Qwen3.6 beats Gemma 4 on agentic coding | rss/the-decoder
+## [2026-04-18] ingest | OpenAI GPT-Rosalind life sciences model | rss/the-decoder
+## [2026-04-18] ingest | OpenAI shareholder concerns about Altman IPO | rss/the-decoder
+## [2026-04-18] ingest | Claude Design: conversations to prototypes | rss/the-decoder
+## [2026-04-18] digest | daily digest 2026-04-18 written |
+
 ## [2026-04-17] ingest | TRACER: Trace-Based LLM Routing (arxiv 2604.14531) | huggingface
 ## [2026-04-17] ingest | KV Packet: Recomputation-Free KV Cache Reuse (arxiv 2604.13226) | huggingface
 ## [2026-04-17] ingest | Cross-Tokenizer Distillation via Byte-Level Interface (arxiv 2604.07466) | huggingface
