@@ -19,6 +19,10 @@ On-policy distillation has become the dominant approach for reasoning model comp
 
 **Cross-Tokenizer Distillation / BLD (2026-04-17)** — When teacher and student use different tokenizers, standard token-level distillation breaks. Byte-Level Distillation (BLD) solves this by converting both to a shared byte-level representation and distilling there. A lightweight byte-level decoder head is added to the student. Competitive with complex CTD methods despite its simplicity. → [summary](2026-04-17-cross-tokenizer-distillation-byte-level.md)
 
+**TESSY (2026-04-18)** — Stylistic divergence between teacher and student causes SFT performance drops even when the teacher's reasoning is correct. TESSY interleaves teacher and student: teacher generates reasoning-heavy tokens, student generates style tokens. The hybrid sequence is stylistically the student's but intellectually the teacher's. Turns a 10% performance drop (Qwen3-8B on GPT-OSS-120B data) into a 6.7% gain on code generation. → [summary](2026-04-18-tessy-teacher-student-sft.md)
+
+**Switch-KD (2026-04-18)** — Multimodal distillation for VLMs. Routes the student's visual outputs through the teacher's language pathway, forcing transfer through a shared text-probability space instead of separate modality silos. +3.6 points averaged across 10 benchmarks for a 0.5B student distilled from a 3B teacher. → [summary](2026-04-18-switch-kd-vision-language-distillation.md)
+
 ## Key Concepts
 
 - **On-policy distillation**: student generates its own rollouts, then learns from teacher's token-level distribution over those rollouts
