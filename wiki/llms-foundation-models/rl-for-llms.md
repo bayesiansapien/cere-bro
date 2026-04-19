@@ -2,9 +2,9 @@
 
 Using RL to improve LLM reasoning and alignment — from RLHF to RLVR (verifiable rewards) to newer approaches that optimize the pre-training distribution directly.
 
-## Current State (as of 2026-04-16)
+## Current State (as of 2026-04-19)
 
-The RL era for LLMs is now firmly established. RLVR (RL with verifiable rewards) is the dominant paradigm for reasoning models. New work is pushing beyond the conditional distribution P(y|x) into pre-train space optimization.
+The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is the dominant paradigm for reasoning models. New work is pushing beyond the conditional distribution P(y|x) — into pre-train space optimization (PreRL) and now into optimal-transport-based policy optimization (VGF) that eliminates explicit policy parameterization entirely.
 
 ## Key Papers
 
