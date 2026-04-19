@@ -12,6 +12,10 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **RationalRewards (2026-04-16)** — Reward models that produce explicit multi-dimensional critiques before scoring. Test-time Generate-Critique-Refine loop matches RL fine-tuning without parameter updates. → [summary](../multimodal/2026-04-16-rationalrewards-visual-generation.md)
 
+**Value Gradient Flow / VGF (2026-04-19)** — Reframes behavior-regularized RL (used in offline RL and LLM fine-tuning) as an optimal transport problem. Moves particles (candidate outputs) from the reference distribution toward high-value regions via gradient flow, without explicit policy parameterization. Implicit KL regularization through transport budget. Adaptive test-time scaling by running more transport steps. SOTA on D4RL, OGBench, and LLM RL benchmarks. → [summary](2026-04-19-vgf-value-gradient-flow-rl.md)
+
+**LongAct (2026-04-18)** — Saliency-guided sparse RL updates: concentrates gradients only on weights associated with high-magnitude Q/K activations during long-context processing. 8% improvement on LongBench v2, universal across GRPO and DAPO. Cross-paradigm transfer from quantization research (high-magnitude = hard to quantize) to training (high-magnitude = where to train). → [summary](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md)
+
 ## Key Concepts
 
 - **RLHF**: RL from human feedback — aligns model outputs to human preferences
