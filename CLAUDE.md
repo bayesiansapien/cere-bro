@@ -322,6 +322,9 @@ Worth Watching bullets should name a specific claim and a timeframe — "if DSRL
 **8. Skip the boring stuff without apology.**
 Datasette changelogs get a sentence. Hype posts get nothing. Tier 4 spatial/3D work gets one line in Quick Hits at most. Length is not depth.
 
+**9. Write as a second brain, not a daily reporter.**
+The digest is not a fresh scan of today's papers. It is today's papers read by a system that has already read everything prior. Before writing, consult the relevant concept pages and recent digests. Then write every Deep Dive and the Big Picture as if you know what came before — because you do. When a paper confirms a prior finding, name the prior finding. When it contradicts one, name the contradiction. When it fills a gap that a prior paper opened, draw that thread explicitly. A digest that could have been written without reading any prior wiki pages has failed its core purpose. The reader should finish each digest feeling that the knowledge base got smarter overnight — not just bigger.
+
 ---
 
 ## Conventions
