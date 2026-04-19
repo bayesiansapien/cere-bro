@@ -22,6 +22,9 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 - **RLVR**: RL with verifiable rewards — uses ground-truth-checkable tasks (math, code) for reward signal
 - **P(y|x) vs P(y)**: standard RL optimizes the conditional; PreRL optimizes the marginal, avoiding base model ceiling
 - **Negative Sample Reinforcement**: learning from wrong outputs to prune incorrect reasoning subspaces
+- **Optimal transport for RL**: VGF casts policy optimization as finding the transport map from reference to optimal distribution — implicit KL control through budget
+- **Saliency-guided sparse updates (LongAct)**: not all gradient positions are equal; high-magnitude activation positions carry the signal for long-context reasoning
+- **Transport budget**: in VGF, how far particles move from reference — the continuous analog of the KL penalty in standard RLHF
 
 ## Related Pages
 
