@@ -2,6 +2,14 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-19] ingest | VGF: Value Gradient Flow — RL as Optimal Transport (arxiv 2604.14265) | huggingface
+## [2026-04-19] ingest | UniDoc-RL: Hierarchical RL for Visual RAG (arxiv 2604.14967) | huggingface
+## [2026-04-19] ingest | ASGuard: Activation-Scaling Jailbreak Defense (arxiv 2509.25843) | huggingface
+## [2026-04-19] ingest | Claude Code Architecture Analysis (arxiv 2604.14228) | huggingface
+## [2026-04-19] ingest | Three-Phase Transformer 3PT (arxiv 2604.14430) | huggingface
+## [2026-04-19] ingest | LeapAlign: Flow Matching Alignment (arxiv 2604.15311) | huggingface
+## [2026-04-19] digest | daily digest 2026-04-19 written |
+
 ## [2026-04-18] ingest | LongAct: Saliency-Guided Sparse RL (arxiv 2604.14922) | huggingface
 ## [2026-04-18] ingest | TESSY: Teacher-Student SFT Cooperation (arxiv 2604.14164) | huggingface
 ## [2026-04-18] ingest | Switch-KD: Visual-Switch VLM Distillation (arxiv 2604.14629) | huggingface
