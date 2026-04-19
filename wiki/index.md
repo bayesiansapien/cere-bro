@@ -82,12 +82,16 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [2026-04-18-corpus2skill-knowledge-navigation.md](agents-tool-use/2026-04-18-corpus2skill-knowledge-navigation.md) | Corpus2Skill: compile corpus into skill tree, navigate not retrieve; beats RAPTOR |
 | [2026-04-18-dr3-eval-deep-research-benchmark.md](agents-tool-use/2026-04-18-dr3-eval-deep-research-benchmark.md) | DR3-Eval: reproducible deep research benchmark with static corpus sandboxes |
+| [2026-04-19-unidoc-rl-visual-rag.md](agents-tool-use/2026-04-19-unidoc-rl-visual-rag.md) | UniDoc-RL: RL agent for hierarchical visual RAG (doc→image→region); +17.7% over prior RL methods |
+| [2026-04-19-claude-code-architecture.md](agents-tool-use/2026-04-19-claude-code-architecture.md) | Claude Code architecture reverse-engineered: trivial while-loop + ML permission classifier + 5-layer compaction |
 
 ## llms-foundation-models (new 2026-04-18)
 
 | Page | Summary |
 |------|---------|
 | [2026-04-18-c2-rubric-reward-modeling.md](llms-foundation-models/2026-04-18-c2-rubric-reward-modeling.md) | C2: cooperative-critical rubric generator avoids misleading reward model with bad rubrics |
+| [2026-04-19-vgf-value-gradient-flow-rl.md](llms-foundation-models/2026-04-19-vgf-value-gradient-flow-rl.md) | VGF: behavior-regularized RL as optimal transport; no policy parameterization; SOTA offline RL + LLM tasks |
+| [2026-04-19-asguard-activation-jailbreak-defense.md](llms-foundation-models/2026-04-19-asguard-activation-jailbreak-defense.md) | ASGuard: circuit analysis finds refusal-head vulnerability; activation scaling hardens against tense-changing jailbreaks |
 
 ## daily-digest
 
@@ -96,3 +100,4 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-16.md](daily-digest/2026-04/2026-04-16.md) | Daily digest: TIP distillation, PreRL/DSRL, GUI agents, industry news |
 | [2026-04-17.md](daily-digest/2026-04/2026-04-17.md) | Daily digest: TRACER routing, KV Packet, BLD cross-tokenizer, Claude Opus 4.7 |
 | [2026-04-18.md](daily-digest/2026-04/2026-04-18.md) | Daily digest: LongAct, TESSY, Switch-KD distillation cluster; Mythos/Pentagon; OpenAI turbulence |
+| [2026-04-19.md](daily-digest/2026-04/2026-04-19.md) | Daily digest: VGF (RL as optimal transport), TRACER full deep dive, UniDoc-RL visual RAG, ASGuard mechanistic alignment |
