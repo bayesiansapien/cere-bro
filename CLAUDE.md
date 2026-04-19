@@ -65,9 +65,11 @@ Farmers pull from these daily:
 
 When a new file lands in `raw/` (via farmer or manually dropped):
 
+**0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
+
 1. Read the source. For papers, read abstract + key sections; for videos, read the transcript; for blogs, read in full.
-2. **Write a summary page** in the appropriate `wiki/<concept>/` subdirectory. Filename: `<YYYY-MM-DD>-<slug>.md`. Include: one-paragraph TL;DR, key findings or claims, links to related wiki pages, link back to the raw source.
-3. **Update concept pages** — for every AI concept significantly discussed in the source, update or create `wiki/<concept>/<concept-name>.md`. Add what the source contributes: new evidence, a contradiction, a refinement.
+2. **Write a summary page** in the appropriate `wiki/<concept>/` subdirectory. Filename: `<YYYY-MM-DD>-<slug>.md`. Include: one-paragraph TL;DR, key findings or claims, **explicit notes on how this relates to prior wiki pages** (confirms, contradicts, extends, or fills a gap), links to related wiki pages, link back to the raw source.
+3. **Update concept pages** — for every AI concept significantly discussed in the source, update or create `wiki/<concept>/<concept-name>.md`. Add what the source contributes: new evidence, a contradiction, a refinement. Note any shift from the prior state of knowledge the concept page recorded.
 4. **Write/update the daily digest** — write to `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`. This is a newsletter, not a log. See the Daily Digest section below for the full format.
 5. **Update index.md** — add the new summary page with its one-line description.
 6. **Append to log.md** — format: `## [YYYY-MM-DD] ingest | <title> | <source-type>`
