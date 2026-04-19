@@ -257,11 +257,17 @@ areas (e.g. a new chip announcement, a routing product launch, a KV cache patent
 
 ## Connecting the Dots
 
-Only when ≥2 sources are clearly related. Draw the connection explicitly.
-If a text diagram helps show the relationship, add one (Option C above).
-This is the most valuable section — synthesis nobody else can give the reader.
-Also draw connections between Industry Pulse items and research papers when relevant
-(e.g. a VC funding a routing startup the same week a routing paper drops).
+The most valuable section in the digest. Synthesis that nobody else can give the reader.
+
+Connections to draw:
+- **Within today's batch**: two or more papers attacking the same problem from different angles
+- **Across days**: today's paper confirms, contradicts, or fills the gap from a paper covered on a prior date — name that prior paper and date explicitly
+- **Research → Industry**: a VC funds a routing startup the same week a routing paper drops; a chip announcement relates to a training efficiency paper
+- **Worth Watching resolution**: if a prior prediction is answered (partially or fully) by today's batch, call it out here
+
+Include a text relationship map (Option C) when ≥2 papers compose into something larger than either alone.
+
+This section is not optional when cross-paper or cross-day connections exist. Omit only when today's papers are genuinely isolated from everything prior in the wiki.
 
 ---
 
