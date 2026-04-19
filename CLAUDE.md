@@ -88,6 +88,67 @@ Ingest one source at a time. A single source may touch 5–15 wiki pages. Always
 
 ---
 
+## Knowledge Synthesis — Reading with Memory
+
+The wiki is a living knowledge base, not a collection of daily snapshots. The unique value of cere-bro over any individual paper or newsletter is **accumulated context**. Every summary page and digest must be written in light of what the wiki already knows — not just what arrived today.
+
+### What to look up before writing
+
+For every incoming source, before writing its summary or the day's digest:
+
+1. **Read the relevant concept pages** — `wiki/<concept>/<concept-name>.md`. This is the most efficient memory lookup: concept pages compress all prior work on a topic into one page. They tell you the prior state of knowledge, the open questions, and which papers established the current baseline.
+2. **Scan recent digests** — the last 5–7 daily digests in `wiki/daily-digest/YYYY-MM/`. Look specifically for "Worth Watching" bullets or open questions from prior days that today's papers might address. The digest files also carry the narrative thread of how thinking in this area has evolved.
+3. **Read prior summary pages directly** when a prior paper is in the same narrow area (same method family, same benchmark, same problem). Read it before writing about today's paper, not after.
+
+This does not mean reading everything. Concept pages are the entry point. If a concept page flags a prior paper as directly relevant, then go read that summary. Otherwise, the concept page is sufficient context.
+
+### Signals to name explicitly in every digest and summary
+
+These are not optional observations. They are the primary reason this wiki exists. When any of the following are present, name them directly in the text — with paper names, dates, and the specific claim.
+
+**Confirmation — a pattern is building:**
+> "This is the second paper this month (after TIP on 04-16) showing that uniform gradient updates are wasteful. A pattern is forming: the field is converging on selective training."
+
+Never bury a confirmation as "this aligns with prior work." Name the prior paper, give the date, state the shared claim precisely.
+
+**Contradiction — a genuine tension exists:**
+> "AIMO 3 (04-17) argued prompt diversity is a dead end for inference-time scaling. VGF's transport-step approach is a different form of test-time compute — but it hasn't been tested on AIMO's benchmarks. Whether these are compatible claims or genuinely conflicting is unresolved."
+
+When two papers conflict, do not pick a winner. Name both, state the specific point of disagreement, and flag it as open.
+
+**Gap-filling — today's paper solves a prior open problem:**
+> "The 04-18 LongAct Research Angle asked whether saliency profiling could run online during training. VGF sidesteps this by never profiling — it uses gradient flow directly. Whether this fully resolves the LongAct question or just avoids it is worth tracking."
+
+Always trace the explicit thread: this paper addresses the open question that was raised on [date] in [paper/digest].
+
+**Worth Watching resolution — a prediction comes true (or fails):**
+> "On 04-17, Worth Watching predicted that a verifier-based approach could close the pass@20 gap that prompt diversity cannot. VGF is not a verifier — but its transport-budget mechanism is the first concrete alternative proposal. Partial resolution."
+
+When today's paper touches a prior prediction, name the prediction, the date it was made, and what today's paper changes about the prediction's status.
+
+**N-of-a-kind — a pattern has now been established:**
+> "This is the third paper this week routing knowledge transfer through a neutral representation layer: BLD (bytes), TESSY (hybrid token sequences), Switch-KD (shared text probability space). Three papers making the same architectural choice in one week is not coincidence — the community has converged on this frame."
+
+The threshold for declaring a pattern: ≥3 papers making the same core claim or architectural choice. When that threshold is crossed, name the pattern, list all three papers, and state what the pattern implies.
+
+### How to write when you have prior context
+
+Do not write:
+> "VGF proposes a new RL paradigm."
+
+Write:
+> "VGF is the clearest answer yet to a question that LongAct (04-18), PreRL (04-16), and TIP (04-16) all approached differently: where should training concentrate? Those papers worked at the gradient level, the token level, and the pre-train distribution level. VGF works at the distribution-transport level — the most mathematically principled frame so far."
+
+The second version assumes the reader has been reading this wiki. They have. Use that context. Every paper arrives in a field that has prior work. Write as if you know that prior work — because the wiki does.
+
+### What concept pages are for
+
+Concept pages are the primary memory of the wiki. After every ingest, update them with what the new source added, changed, or contradicted. The concept page is what future-you reads before writing about the next paper in that area — it should tell you the complete prior state of knowledge in one read.
+
+A concept page that has not been updated across ≥3 ingests in its area is a gap. Flag it during lint.
+
+---
+
 ## Lint
 
 Run periodically (or on request):
