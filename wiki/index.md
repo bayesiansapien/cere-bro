@@ -70,6 +70,31 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-17-anthropic-mythos-policy.md](ai-industry/2026-04-17-anthropic-mythos-policy.md) | Anthropic's Mythos: withheld from public, pitched to Pentagon; trust debate |
 | [2026-04-18-openai-exec-departures-restructuring.md](ai-industry/2026-04-18-openai-exec-departures-restructuring.md) | OpenAI loses three execs, restructures around coding/enterprise; IPO doubts |
 
+## inference-efficiency (new 2026-04-20)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-20-accelopt-gpu-kernel-optimization.md](inference-efficiency/2026-04-20-accelopt-gpu-kernel-optimization.md) | AccelOpt: LLM agent self-improves Trainium kernel optimization via slow-fast memory; 49%→61% throughput at 26x lower cost |
+| [2026-04-20-maximal-brain-damage-sign-bit-flips.md](inference-efficiency/2026-04-20-maximal-brain-damage-sign-bit-flips.md) | Maximal Brain Damage: 2 sign-bit flips collapse ResNet-50 by 99.8% and zero Qwen3-30B reasoning; same insight as compression = attack surface |
+| [2026-04-20-stop-path-pruning-parallel-reasoning.md](inference-efficiency/2026-04-20-stop-path-pruning-parallel-reasoning.md) | STOP: learnable super-token prunes futile parallel reasoning paths at prefix; AIME25 84%→90% at fixed compute |
+| [2026-04-20-1d-ordered-tokens-test-time-search.md](inference-efficiency/2026-04-20-1d-ordered-tokens-test-time-search.md) | 1D coarse-to-fine tokens enable test-time search; 2D grid tokens don't — intermediate states need semantic meaning for verifiers to steer |
+| [2026-04-20-avr-adaptive-visual-reasoning.md](inference-efficiency/2026-04-20-avr-adaptive-visual-reasoning.md) | AVR: GRPO-trained format selection cuts VRM token usage 50-90%; perceive-only or direct-answer for simple visual queries |
+| [2026-04-20-w-rac-retrieval-aware-chunking.md](inference-efficiency/2026-04-20-w-rac-retrieval-aware-chunking.md) | W-RAC: decouple text extraction from chunk planning; LLM decides ID groupings not text; 51.7% chunking cost reduction |
+
+## agents-tool-use (new 2026-04-20)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-20-gta-2-tool-agent-benchmark.md](agents-tool-use/2026-04-20-gta-2-tool-agent-benchmark.md) | GTA-2: frontier models at 14.39% on open-ended workflows; execution harness matters more than model |
+| [2026-04-20-prl-bench-physics-benchmark.md](agents-tool-use/2026-04-20-prl-bench-physics-benchmark.md) | PRL-Bench: all frontier models below 50% on real physics research tasks from PRL (Aug 2025+) |
+| [2026-04-20-query-agent-loop-claude-vs-hermes.md](agents-tool-use/2026-04-20-query-agent-loop-claude-vs-hermes.md) | Claude Code 7-site state machine loop vs. Hermes IterationBudget — recovery architecture is what separates functional agents |
+
+## multimodal (new 2026-04-20)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-20-qwen35-omni.md](multimodal/2026-04-20-qwen35-omni.md) | Qwen3.5-Omni: MoE + 256k context omnimodal; ARIA streaming speech alignment; SOTA 215 audio-visual benchmarks |
+
 ## inference-efficiency (new 2026-04-18)
 
 | Page | Summary |
