@@ -2,6 +2,22 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-20] ingest | AccelOpt: Self-Improving LLM Agent for Trainium Kernel Optimization (arxiv 2511.15915) | huggingface
+## [2026-04-20] ingest | Maximal Brain Damage: Sign-Bit Flip Vulnerability (arxiv 2502.07408) | huggingface
+## [2026-04-20] ingest | STOP: Learnable Path Pruning for Parallel Reasoning (arxiv 2604.16029) | huggingface
+## [2026-04-20] ingest | GTA-2: General Tool Agent Benchmark (arxiv 2604.15715) | huggingface
+## [2026-04-20] ingest | 1D Ordered Tokens for Test-Time Search (arxiv 2604.15453) | huggingface
+## [2026-04-20] ingest | AVR: Adaptive Visual Reasoning (arxiv 2604.14568) | huggingface
+## [2026-04-20] ingest | W-RAC: Web Retrieval-Aware Chunking (arxiv 2604.04936) | huggingface
+## [2026-04-20] ingest | PRL-Bench: Physics Research by LLMs (arxiv 2604.15411) | huggingface
+## [2026-04-20] ingest | Qwen3.5-Omni Technical Report (arxiv 2604.15804) | huggingface
+## [2026-04-20] ingest | ArtifactNet: AI Music Detection (arxiv 2604.16254) | huggingface
+## [2026-04-20] ingest | PersonaVLM: Long-Term Personalized Multimodal LLMs (arxiv 2604.13074) | huggingface
+## [2026-04-20] ingest | EdgeDetect: Federated IDS with Gradient Compression (arxiv 2604.14663) | huggingface
+## [2026-04-20] ingest | Chapter 3: Query/Agent Loop — Claude Code vs. Hermes | rss/agentic-ai
+## [2026-04-20] ingest | Claude Token Counter: Opus 4.7 tokenizer inflation | rss/simon-willison
+## [2026-04-20] digest | daily digest 2026-04-20 written |
+
 ## [2026-04-19] ingest | VGF: Value Gradient Flow — RL as Optimal Transport (arxiv 2604.14265) | huggingface
 ## [2026-04-19] ingest | UniDoc-RL: Hierarchical RL for Visual RAG (arxiv 2604.14967) | huggingface
 ## [2026-04-19] ingest | ASGuard: Activation-Scaling Jailbreak Defense (arxiv 2509.25843) | huggingface
