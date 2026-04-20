@@ -2,7 +2,7 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
-## Current State (as of 2026-04-18)
+## Current State (as of 2026-04-20)
 
 Standard LLM benchmarks underserve agents. The field has been building agent-specific eval frameworks across several dimensions: decision-making quality, professional domain coverage, multimodal grounding, and robustness under fault injection.
 
