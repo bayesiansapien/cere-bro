@@ -58,7 +58,9 @@ Catalog of all pages. Updated on every ingest.
 
 ## hardware
 
-*(no pages yet)*
+| Page | Summary |
+|------|---------|
+| [gpu-kernels.md](hardware/gpu-kernels.md) | Concept: GPU kernel optimization, accelerator-specific tuning, NKI, memory hierarchy, AccelOpt |
 
 ## ai-industry
 
