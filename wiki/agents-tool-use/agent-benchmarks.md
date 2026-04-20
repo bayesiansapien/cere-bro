@@ -20,6 +20,10 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 **DR3-Eval (2026-04-18)** — Deep Research Agent benchmark. Static per-task corpus sandboxes with evidential sources, confounding documents, and noise. Reverse-constructed questions (derived from verified evidential docs) ensure every task is answerable. Multi-dimensional scoring: recall, factual accuracy, citation coverage, instruction following, depth. State-of-the-art models still struggle. → [summary](2026-04-18-dr3-eval-deep-research-benchmark.md)
 
+**GTA-2 (2026-04-20)** — Two-tier benchmark: GTA-Atomic (single-step tool precision) and GTA-Workflow (long-horizon, open-ended multi-tool coordination). Key results: frontier models below 50% on atomic tasks; top models at 14.39% on workflows. Critical finding: execution harness design (Manus, OpenClaw) matters more than underlying model capability. Uses real user queries and deployed tools — not synthetic evals. Recursive checkpoint-based evaluation for open-ended tasks. → [summary](2026-04-20-gta-2-tool-agent-benchmark.md)
+
+**PRL-Bench (2026-04-20)** — Physics Research by LLMs benchmark. 100 tasks from Physical Review Letters papers (Aug 2025+, post-training cutoff for most models). Covers 5 subfields: astrophysics, condensed matter, high-energy, quantum information, statistical physics. Tasks replicate authentic research: exploration-oriented formulation, long-horizon workflows, verifiable outcomes. All frontier models score below 50%. Expert-validated. → [summary](2026-04-20-prl-bench-physics-benchmark.md)
+
 ## Patterns Across Benchmarks
 
 - Reasoning models consistently outperform base models on agentic tasks
