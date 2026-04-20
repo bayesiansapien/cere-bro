@@ -30,6 +30,8 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 - Over-exploration is a common failure mode in strong models
 - Professional/domain-specific tasks expose different weaknesses than general benchmarks
 - Deterministic environment generation (OccuBench, InfiniteScienceGym) removes publication bias
+- **Execution harness dominates model capability** (GTA-2): the scaffold around the model determines workflow completion more than model capability itself
+- Three consecutive benchmarks (OccuBench, DR3-Eval, GTA-2) converge on the same finding: frontier models fail realistic multi-step tasks reliably — this is now a consistent, cross-domain measurement
 
 ## Related Pages
 
