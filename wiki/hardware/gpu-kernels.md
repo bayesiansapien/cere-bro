@@ -22,14 +22,27 @@ Kernel optimization is one of the hardest bottlenecks in production AI: hardware
 - **Kernel memory**: AccelOpt's key innovation — rather than trying to solve each kernel from scratch, accumulate (slow, fast) pairs and use them as few-shot examples. The quality of memory curation determines the quality of future improvements.
 - **Operator fusion**: combining multiple operations (e.g., matmul + activation + normalization) into a single kernel pass to avoid intermediate memory round-trips. Expert-designed kernels like FlashAttention exploit this extensively.
 
+## Key Concepts
+
+- **Peak throughput utilization**: fraction of the hardware's theoretical maximum FLOPS actually achieved. A kernel at 61% throughput leaves 39% of the hardware idle or stalled.
+- **NKI (Neuron Kernel Interface)**: AWS's programming model for Trainium accelerators, analogous to CUDA for NVIDIA GPUs.
+- **Memory hierarchy**: modern AI accelerators have multiple memory tiers (HBM, on-chip SRAM, register files). Efficient kernels minimize data movement across tiers — the primary source of throughput gaps.
+- **NVFP4**: NVIDIA's 4-bit floating point format for H100/H200 hardware. First demonstrated at pretraining scale in Nemotron 3 Super. Larger quantization error than FP8 requires careful loss scaling and gradient clipping.
+- **Native speculative decoding (MTP)**: embedding Multi-Token Prediction layers into the main model so it generates draft tokens internally, no separate draft model required. Removes deployment friction at the cost of some parameter budget per MTP head.
+- **Goodput**: useful GPU work completed per dollar, accounting for downtime, fault recovery, and debugging time. The key cluster-level efficiency metric that nominal GPU-hour pricing obscures.
+- **Fault-tolerant training**: job continues through a node failure without stopping and restarting. Currently: TorchFT (open source, 10%+ overhead), HyperPod Checkpointless (AWS-locked), TorchPass (licensed, zero overhead).
+
 ## Open Problems
 
-1. **Generalization across hardware**: AccelOpt targets Trainium; does the same LLM-agent approach transfer to new hardware (Blackwell, future accelerators) without restarting the memory from scratch?
-2. **Memory curation strategy**: what's the optimal policy for deciding which slow-fast pairs to retain, forget, or summarize as the memory grows?
-3. **Plateau problem**: even with memory, AccelOpt doesn't close the full throughput gap (61% peak, not 100%). The remaining gap likely requires novelty the memory can't provide — what class of optimizations is beyond the memory-based approach?
-4. **Interaction with FlashAttention**: LLM workloads spend most compute in attention. How does LLM-agent kernel optimization interact with hand-designed attention kernels?
+1. **FP4 pretraining generalization**: NVFP4 is hardware-locked to NVIDIA Hopper/Blackwell tensor cores. Can FP4 pretraining techniques transfer to AMD MI300X or AWS Trainium with different hardware FP4 implementations?
+2. **AccelOpt memory curation**: optimal policy for which slow-fast pairs to retain, summarize, or discard as memory grows — analogy to KV cache eviction.
+3. **Open-source zero-overhead fault tolerance**: TorchFT's 10%+ overhead comes from GLOO all-reduce. Theoretical floor should be much lower. No solution currently exists.
+4. **Goodput-aware routing**: if goodput varies 3–15x across cluster tiers, an inference routing framework that factors in per-provider goodput loss could change the effective cost comparison for batch workloads.
+5. **SSM + MoE retrieval robustness**: Mamba has known limitations on precise long-distance retrieval (needle-in-haystack). How does Nemotron's Mamba+LatentMoE combination perform on retrieval-heavy tasks vs pure-attention baselines at the same active parameter count?
 
 ## Related Pages
 
 - [KV Cache](../inference-efficiency/kv-cache.md)
 - [AccelOpt summary](../inference-efficiency/2026-04-20-accelopt-gpu-kernel-optimization.md)
+- [Nemotron 3 Super: Hybrid Mamba-Attention MoE](../inference-efficiency/2026-04-21-nemotron3-super-hybrid-moe.md)
+- [SemiAnalysis GPU Cluster Goodput](2026-04-21-semianalysis-gpu-cluster-goodput.md)
