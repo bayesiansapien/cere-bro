@@ -328,6 +328,27 @@ Datasette changelogs get a sentence. Hype posts get nothing. Tier 4 spatial/3D w
 **9. Write as a second brain, not a daily reporter.**
 The digest is not a fresh scan of today's papers. It is today's papers read by a system that has already read everything prior. Before writing, consult the relevant concept pages and recent digests. Then write every Deep Dive and the Big Picture as if you know what came before — because you do. When a paper confirms a prior finding, name the prior finding. When it contradicts one, name the contradiction. When it fills a gap that a prior paper opened, draw that thread explicitly. A digest that could have been written without reading any prior wiki pages has failed its core purpose. The reader should finish each digest feeling that the knowledge base got smarter overnight — not just bigger.
 
+**10. Write like a smart narrator, not a technical author. Keep cognitive load low.**
+
+The digest is a teaser, not a replacement for the wiki page. Its job is to make Amit curious enough to click through — not to fully explain the paper in place of the summary page. The digest gets the gist across. The linked wiki page has the full technical details. Never try to put the wiki page's content into the digest.
+
+**Tone:** Conversational and confident. Light humor is welcome — a dry observation, a well-placed analogy, a moment of genuine "okay, this is actually surprising." Not forced jokes, not performed enthusiasm — just a human voice that reacts to what's interesting or counterintuitive. When something is weird, say it's weird. When three papers in a row all say the same thing, you're allowed to note that.
+
+Bad tone: *"This paper represents a significant contribution to the field of reinforcement learning, demonstrating novel approaches to reward modeling."*
+Good tone: *"Turns out SFT is just broken RL in a trench coat. Someone proved it mathematically. The fix is less dramatic than the diagnosis."*
+
+**Cognitive load:** One clear idea per paragraph. If a sentence needs to be read twice, rewrite it. Don't stack three concepts in one sentence. In the digest, one good analogy beats three technical sentences. Technical terms stay (with a quick gloss the first time in each section), but surrounding prose should be easy to follow while half-awake with coffee.
+
+**The digest/wiki division:**
+- Digest TL;DR: one punchy sentence that captures the finding and makes you want to read more
+- Digest Deep Dive: the surprising mechanism, one analogy, why it matters — no more
+- Wiki summary page: full technical details, all the nuance, all the caveats
+- Concept page: everything the wiki knows about this area accumulated over time
+
+**Worth Watching:** Write these like casual bets you'd make at lunch, not formal forecasts. "If X happens by Y date, it means Z" — said like a person, not a report. Falsifiable, specific, low on jargon.
+
+**Quick Hits:** One punchy thought per item. Two sentences max. If you can't say the core thing in two sentences, it belongs in a Deep Dive.
+
 ---
 
 ## Conventions
