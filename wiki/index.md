@@ -124,6 +124,7 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-19-asguard-activation-jailbreak-defense.md](llms-foundation-models/2026-04-19-asguard-activation-jailbreak-defense.md) | ASGuard: circuit analysis finds refusal-head vulnerability; activation scaling hardens against tense-changing jailbreaks |
 | [2026-04-21-gft-sft-as-degenerate-rl.md](llms-foundation-models/2026-04-21-gft-sft-as-degenerate-rl.md) | GFT: SFT is degenerate policy gradient; group contrastive supervision fixes sparse reward + gradient instability |
 | [2026-04-21-rlvr-weak-supervision-reasoning-faithfulness.md](llms-foundation-models/2026-04-21-rlvr-weak-supervision-reasoning-faithfulness.md) | When RLVR generalizes: reward saturation dynamics predict it; reasoning faithfulness (not diversity) is the pre-RL predictor |
+| [2026-04-21-geometric-canary.md](llms-foundation-models/2026-04-21-geometric-canary.md) | Geometric Canary: supervised stability predicts steerability (ρ=0.89–0.97); unsupervised detects drift 2x better than CKA |
 
 ## daily-digest
 
