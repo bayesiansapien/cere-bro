@@ -111,6 +111,8 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-18-dr3-eval-deep-research-benchmark.md](agents-tool-use/2026-04-18-dr3-eval-deep-research-benchmark.md) | DR3-Eval: reproducible deep research benchmark with static corpus sandboxes |
 | [2026-04-19-unidoc-rl-visual-rag.md](agents-tool-use/2026-04-19-unidoc-rl-visual-rag.md) | UniDoc-RL: RL agent for hierarchical visual RAG (doc→image→region); +17.7% over prior RL methods |
 | [2026-04-19-claude-code-architecture.md](agents-tool-use/2026-04-19-claude-code-architecture.md) | Claude Code architecture reverse-engineered: trivial while-loop + ML permission classifier + 5-layer compaction |
+| [2026-04-21-reward-free-self-evolution-agents.md](agents-tool-use/2026-04-21-reward-free-self-evolution-agents.md) | Reward-free self-evolution: agents trained to explore accumulate world knowledge; 14B beats Gemini-2.5-Flash on web tasks |
+| [2026-04-21-precise-debugging-benchmark.md](agents-tool-use/2026-04-21-precise-debugging-benchmark.md) | PDB: frontier models pass unit tests 76% but edit precision below 45%; models regenerate not debug |
 
 ## llms-foundation-models (new 2026-04-18)
 
