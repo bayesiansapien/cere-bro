@@ -14,6 +14,10 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **Value Gradient Flow / VGF (2026-04-19)** — Reframes behavior-regularized RL (used in offline RL and LLM fine-tuning) as an optimal transport problem. Moves particles (candidate outputs) from the reference distribution toward high-value regions via gradient flow, without explicit policy parameterization. Implicit KL regularization through transport budget. Adaptive test-time scaling by running more transport steps. SOTA on D4RL, OGBench, and LLM RL benchmarks. → [summary](2026-04-19-vgf-value-gradient-flow-rl.md)
 
+**GFT: Group Fine-Tuning (2026-04-21)** — Proves mathematically that SFT is a degenerate case of policy gradient with maximally sparse implicit reward, unstable inverse-probability weighting, and single-path dependency. Group Advantage Learning constructs diverse response groups and derives contrastive supervision (same family as GRPO). Dynamic Coefficient Rectification stabilizes the inverse-probability weights. Outperforms SFT and integrates more smoothly with subsequent RL training. → [summary](2026-04-21-gft-sft-as-degenerate-rl.md)
+
+**RLVR Under Weak Supervision (2026-04-21)** — Systematic study of when RLVR generalizes under scarce data, noisy rewards, and self-supervised proxy rewards. Key finding: reward saturation speed during training predicts generalization. Reasoning faithfulness (logical coherence of intermediate steps) predicts which regime a model enters pre-RL. Output diversity is uninformative. SFT on explicit reasoning traces is necessary preparation for weak-supervision RL. → [summary](2026-04-21-rlvr-weak-supervision-reasoning-faithfulness.md)
+
 **LongAct (2026-04-18)** — Saliency-guided sparse RL updates: concentrates gradients only on weights associated with high-magnitude Q/K activations during long-context processing. 8% improvement on LongBench v2, universal across GRPO and DAPO. Cross-paradigm transfer from quantization research (high-magnitude = hard to quantize) to training (high-magnitude = where to train). → [summary](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md)
 
 ## Key Concepts
