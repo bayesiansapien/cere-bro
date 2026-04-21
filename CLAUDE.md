@@ -276,15 +276,15 @@ This section is not optional when cross-paper or cross-day connections exist. Om
 
 ## Worth Watching
 
-- **[Specific claim or trend]** — Why it matters and what to check in 30/60/90 days.
-  Keep predictions falsifiable. Prioritize Tier 1 open problems.
+Casual bets, not formal forecasts. Write like you're telling a friend what to keep an eye on. Each bullet: a specific prediction, a timeframe, why you care. Falsifiable — in 30/60/90 days you should be able to say whether the call was right. No significance language. No vague "this will be important to watch." Make the actual bet.
+
+- **[Claim]** — [What happens if true. Timeframe.]
 
 ---
 
 ## Quick Hits
 
-One tight paragraph per minor-but-notable item. Tier 3 papers, blog asides,
-changelogs, tool releases. Tier 4 items get one sentence here or nothing.
+One or two punchy sentences per item. Tier 3 papers, blog asides, changelogs, tool releases. If you can't say the interesting thing in two sentences, it's a Deep Dive. Tier 4 gets one sentence or nothing.
 
 ---
 
