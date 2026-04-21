@@ -2,6 +2,16 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-21] ingest | Nemotron 3 Super: Hybrid Mamba-Attention MoE at NVFP4 | parallel-daily-digest
+## [2026-04-21] ingest | SemiAnalysis GPU Cluster TCO and Goodput Framework | parallel-daily-digest/semianalysis
+## [2026-04-21] ingest | AiScientist: File-as-Bus Coordination for Long-Horizon Agents | parallel-daily-digest/dair-ai
+## [2026-04-21] ingest | LLM-as-Verifier: Log-Probability Ranking for Test-Time Scaling | parallel-daily-digest/dair-ai
+## [2026-04-21] ingest | Automated Weak-to-Strong Researcher: 9 Agents, 0.97 PGR, $18K | parallel-daily-digest/dair-ai
+## [2026-04-21] ingest | Subliminal Learning: Now in Nature — Cross-Family Trait Transfer | parallel-daily-digest/dair-ai
+## [2026-04-21] ingest | AlphaEval: Production-Grounded Agent Benchmark, 94 Tasks, 64.41/100 | parallel-daily-digest/dair-ai
+## [2026-04-21] ingest | Nathan Lambert: Open-Closed Performance Gap Analysis | parallel-daily-digest/interconnects-ai
+## [2026-04-21] ingest | Industry: OpenAI Sora scrapped, Meta 8K layoffs, xAI Grok Build, Google A2UI, Anthropic $30B ARR | parallel-daily-digest
+## [2026-04-21] update | daily digest 2026-04-21 updated with parallel-daily-digest content |
 ## [2026-04-21] ingest | GFT: Group Fine-Tuning — SFT as Degenerate Policy Gradient (arxiv 2604.14258) | huggingface
 ## [2026-04-21] ingest | When Can LLMs Learn with Weak Supervision — Faithfulness Predicts RLVR (arxiv 2604.18574) | huggingface
 ## [2026-04-21] ingest | Reward-Free Self-Evolution Agents (arxiv 2604.18131) | huggingface
