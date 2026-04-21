@@ -2,6 +2,18 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-21] ingest | GFT: Group Fine-Tuning — SFT as Degenerate Policy Gradient (arxiv 2604.14258) | huggingface
+## [2026-04-21] ingest | When Can LLMs Learn with Weak Supervision — Faithfulness Predicts RLVR (arxiv 2604.18574) | huggingface
+## [2026-04-21] ingest | Reward-Free Self-Evolution Agents (arxiv 2604.18131) | huggingface
+## [2026-04-21] ingest | Precise Debugging Benchmark — Models Regenerate Not Debug (arxiv 2604.17338) | huggingface
+## [2026-04-21] ingest | Geometric Canary — Steerability and Drift Detection (arxiv 2604.17698) | huggingface
+## [2026-04-21] ingest | Stratagem: Transferable Reasoning via Game Self-Play (arxiv 2604.17696) | huggingface
+## [2026-04-21] ingest | Agent-World: Self-Evolving Training Arena (arxiv 2604.18292) | huggingface
+## [2026-04-21] ingest | SkillFlow: Lifelong Skill Discovery Benchmark (arxiv 2604.17308) | huggingface
+## [2026-04-21] ingest | EasyVideoR1: RL Framework for Video Understanding (arxiv 2604.16893) | huggingface
+## [2026-04-21] ingest | ClawEnvKit: Automated Agent Environment Generation (arxiv 2604.18543) | huggingface
+## [2026-04-21] digest | daily digest 2026-04-21 written |
+
 ## [2026-04-20] ingest | AccelOpt: Self-Improving LLM Agent for Trainium Kernel Optimization (arxiv 2511.15915) | huggingface
 ## [2026-04-20] ingest | Maximal Brain Damage: Sign-Bit Flip Vulnerability (arxiv 2502.07408) | huggingface
 ## [2026-04-20] ingest | STOP: Learnable Path Pruning for Parallel Reasoning (arxiv 2604.16029) | huggingface
