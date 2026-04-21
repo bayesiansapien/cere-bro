@@ -76,6 +76,7 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 4. **Write/update the daily digest** — write to `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`. This is a newsletter, not a log. See the Daily Digest section below for the full format.
 5. **Update index.md** — add the new summary page with its one-line description.
 6. **Append to log.md** — format: `## [YYYY-MM-DD] ingest | <title> | <source-type>`
+7. **Push to remote** — after all sources for the day are ingested and the daily digest is in its final state, run `git push origin main`. Do this once at the end of the session, not after every individual ingest.
 
 Ingest one source at a time. A single source may touch 5–15 wiki pages. Always ingest all new raw files before the session ends.
 
