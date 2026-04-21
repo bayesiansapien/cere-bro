@@ -71,6 +71,12 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-17-anthropic-mythos-policy.md](ai-industry/2026-04-17-anthropic-mythos-policy.md) | Anthropic's Mythos: withheld from public, pitched to Pentagon; trust debate |
 | [2026-04-18-openai-exec-departures-restructuring.md](ai-industry/2026-04-18-openai-exec-departures-restructuring.md) | OpenAI loses three execs, restructures around coding/enterprise; IPO doubts |
 
+## inference-efficiency (new 2026-04-21)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-21-nemotron3-super-hybrid-moe.md](inference-efficiency/2026-04-21-nemotron3-super-hybrid-moe.md) | Nemotron 3 Super: 120B/12B-active Mamba-MoE, NVFP4 pretraining, 2.2x throughput over GPT-OSS-120B, native speculative decoding via MTP |
+
 ## inference-efficiency (new 2026-04-20)
 
 | Page | Summary |
