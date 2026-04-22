@@ -34,6 +34,14 @@ On-policy distillation has become the dominant approach for reasoning model comp
 - **Stylistic divergence**: teacher and student have different learned generation styles; a teacher's reasoning traces can be too foreign for the student's optimizer
 - **Cooperative synthesis (TESSY)**: interleaving teacher/student token generation to create hybrid training data that matches student style while containing teacher reasoning
 
+**ShadowPEFT (2026-04-22)** — Centralized PEFT via depth-shared shadow module. Shifts adaptation from distributed weight-space perturbations (LoRA) to a single shadow module that evolves a parallel state through all transformer layers. Decoupled from backbone, independently pretrainable, optionally deployable in detached mode for edge computing. Matches or outperforms LoRA and DoRA at comparable parameter budgets. → [summary](2026-04-22-shadowpeft-centralized-layer-space.md)
+
+## Key Concepts
+
+- **On-policy distillation**: student generates its own rollouts, then learns from teacher's token-level distribution over those rollouts
+- **Centralized PEFT (ShadowPEFT)**: single depth-shared module performs layer-space refinement, unlike LoRA's per-layer weight perturbations
+- **Layer-space vs weight-space adaptation**: ShadowPEFT refinement evolves a parallel state through the network depth; LoRA adds local rank-decomposed perturbations to individual matrices
+
 ## Related Pages
 
 - [../llms-foundation-models/rl-for-llms.md](../llms-foundation-models/rl-for-llms.md)
