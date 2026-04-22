@@ -18,6 +18,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **RLVR Under Weak Supervision (2026-04-21)** — Systematic study of when RLVR generalizes under scarce data, noisy rewards, and self-supervised proxy rewards. Key finding: reward saturation speed during training predicts generalization. Reasoning faithfulness (logical coherence of intermediate steps) predicts which regime a model enters pre-RL. Output diversity is uninformative. SFT on explicit reasoning traces is necessary preparation for weak-supervision RL. → [summary](2026-04-21-rlvr-weak-supervision-reasoning-faithfulness.md)
 
+**TEMPO (2026-04-22)** — Test-time training (TTT) that doesn't plateau. Existing TTT methods run E-steps (reward evaluation) without M-steps (critic recalibration), causing reward drift and diversity collapse. TEMPO formalizes TTT as EM: alternates policy refinement on unlabeled test queries with periodic critic recalibration on a labeled calibration set. Tightens the ELBO and enables sustained improvement. OLMO3-7B AIME 2024: 33% → 51.1%; Qwen3-14B: 42.3% → 65.8%. → [summary](2026-04-22-tempo-test-time-training.md)
+
 **LongAct (2026-04-18)** — Saliency-guided sparse RL updates: concentrates gradients only on weights associated with high-magnitude Q/K activations during long-context processing. 8% improvement on LongBench v2, universal across GRPO and DAPO. Cross-paradigm transfer from quantization research (high-magnitude = hard to quantize) to training (high-magnitude = where to train). → [summary](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md)
 
 ## Key Concepts
