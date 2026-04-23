@@ -69,6 +69,7 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [2026-04-17-claude-market-share-surge.md](ai-industry/2026-04-17-claude-market-share-surge.md) | Claude doubles market share in a month; Gemini reaches 25% AI traffic share |
 | [2026-04-17-anthropic-mythos-policy.md](ai-industry/2026-04-17-anthropic-mythos-policy.md) | Anthropic's Mythos: withheld from public, pitched to Pentagon; trust debate |
+| [2026-04-22-amazon-anthropic-capital-concentration.md](ai-industry/2026-04-22-amazon-anthropic-capital-concentration.md) | Amazon $33B → Anthropic; Anthropic $100B → AWS over 10 years; circular capital deal locks infrastructure; Bezos Project Prometheus nears $10B |
 | [2026-04-18-openai-exec-departures-restructuring.md](ai-industry/2026-04-18-openai-exec-departures-restructuring.md) | OpenAI loses three execs, restructures around coding/enterprise; IPO doubts |
 
 ## inference-efficiency (new 2026-04-21)
