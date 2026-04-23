@@ -102,10 +102,14 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [2026-04-20-qwen35-omni.md](multimodal/2026-04-20-qwen35-omni.md) | Qwen3.5-Omni: MoE + 256k context omnimodal; ARIA streaming speech alignment; SOTA 215 audio-visual benchmarks |
 
-## inference-efficiency (new 2026-04-18)
+## inference-efficiency (new 2026-04-22)
 
 | Page | Summary |
 |------|---------|
+| [2026-04-22-turbo-quant-kv-cache-quantization.md](inference-efficiency/2026-04-22-turbo-quant-kv-cache-quantization.md) | TurboQuant: random rotation → Beta distribution → optimal scalar quantization + 1-bit QJL; 6x KV cache compression at 2.5 bits/channel, near-zero quality loss, no calibration |
+| [2026-04-22-prfaas-cross-datacenter-prefill.md](inference-efficiency/2026-04-22-prfaas-cross-datacenter-prefill.md) | PrfaaS: hybrid-attention models (13x smaller KV cache) enable cross-datacenter prefill disaggregation; 54% throughput, 50% lower TTFT |
+| [2026-04-22-sdvg-speculative-decoding-video.md](inference-efficiency/2026-04-22-sdvg-speculative-decoding-video.md) | SDVG: speculative decoding for video via ImageReward quality router; 1.3B drafter + 14B target; 2.09x speedup at 95.7% quality |
+| [2026-04-22-shadowpeft-centralized-layer-space.md](inference-efficiency/2026-04-22-shadowpeft-centralized-layer-space.md) | ShadowPEFT: single depth-shared shadow module replaces per-layer LoRA; independently pretrainable, detachable at edge; matches/outperforms LoRA |
 | [2026-04-18-longact-saliency-sparse-rl.md](inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md) | LongAct: high-magnitude KV activations guide sparse RL updates; +8% LongBench v2 |
 | [2026-04-18-tessy-teacher-student-sft.md](inference-efficiency/2026-04-18-tessy-teacher-student-sft.md) | TESSY: interleave teacher/student tokens to fix stylistic divergence in distillation |
 | [2026-04-18-switch-kd-vision-language-distillation.md](inference-efficiency/2026-04-18-switch-kd-vision-language-distillation.md) | Switch-KD: VLM distillation through shared text-probability space; +3.6pt avg |
