@@ -2,6 +2,22 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-22] ingest | TurboQuant: Online KV Cache Vector Quantization (arxiv 2504.19874) | huggingface/parallel-digest
+## [2026-04-22] ingest | PrfaaS: Cross-Datacenter Prefill-as-a-Service (arxiv 2604.15039) | huggingface/parallel-digest
+## [2026-04-22] ingest | SDVG: Speculative Decoding for Autoregressive Video Generation (arxiv 2604.17397) | huggingface
+## [2026-04-22] ingest | ShadowPEFT: Shadow Network for Parameter-Efficient Fine-Tuning (arxiv 2604.19254) | huggingface
+## [2026-04-22] ingest | TEMPO: Scaling Test-Time Training for Large Reasoning Models (arxiv 2604.19295) | huggingface
+## [2026-04-22] ingest | ml-intern: Open-Source Agentic Post-Training Loop | huggingface/parallel-digest
+## [2026-04-22] ingest | SimpleTES: Evaluation-Driven Scaling for Scientific Discovery (arxiv 2604.19341) | huggingface
+## [2026-04-22] ingest | AgentSPEX: Agent Specification and Execution Language (arxiv 2604.13346) | huggingface
+## [2026-04-22] ingest | Chain-of-Thought Degrades Visual Spatial Reasoning (arxiv 2604.16060) | huggingface
+## [2026-04-22] ingest | Target-Oriented Pretraining Data Selection via NAG (arxiv 2604.15706) | huggingface
+## [2026-04-22] ingest | Weight Disentanglement in Task Arithmetic / OrthoReg (arxiv 2604.17078) | huggingface
+## [2026-04-22] ingest | Amazon-Anthropic $33B deal + $100B AWS commitment; Bezos Project Prometheus | rss/the-decoder
+## [2026-04-22] ingest | OneVL: Latent CoT for VLA with Dual Auxiliary Decoders (arxiv 2604.18486) | parallel-daily-digest
+## [2026-04-22] ingest | CompreSSM: Control-Theoretic SSM Compression during Training (arxiv 2510.02823) | parallel-daily-digest
+## [2026-04-22] ingest | RLMs: Recursive Language Models for Long Context (arxiv 2512.24601) | parallel-daily-digest
+## [2026-04-22] update | daily digest 2026-04-22 written |
 ## [2026-04-21] ingest | Nemotron 3 Super: Hybrid Mamba-Attention MoE at NVFP4 | parallel-daily-digest
 ## [2026-04-21] ingest | SemiAnalysis GPU Cluster TCO and Goodput Framework | parallel-daily-digest/semianalysis
 ## [2026-04-21] ingest | AiScientist: File-as-Bus Coordination for Long-Horizon Agents | parallel-daily-digest/dair-ai
