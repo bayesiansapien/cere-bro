@@ -2,6 +2,13 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-23] ingest | Kimi K2.6 + OpenAI Agent Studio + Anthropic Conway: Persistent Agent Convergence | parallel-daily-digest
+## [2026-04-23] ingest | Ken Huang: Claude Code vs. Hermes Agent Permission Systems (Substack) | parallel-daily-digest
+## [2026-04-23] ingest | Gary Marcus: Four Medical LLM Reliability Studies (Substack) | parallel-daily-digest
+## [2026-04-23] ingest | Martin Kleppmann DDIA 2nd Edition Interview (Pragmatic Engineer) | parallel-daily-digest
+## [2026-04-23] ingest | Anthropic Mythos breach + ID verification; 271 Firefox zero-days | parallel-daily-digest
+## [2026-04-23] ingest | Anthropic $100B AWS + 1M Trainium2; SpaceX/Cursor Colossus partnership | parallel-daily-digest
+## [2026-04-23] update | daily digest 2026-04-23 written |
 ## [2026-04-22] ingest | TurboQuant: Online KV Cache Vector Quantization (arxiv 2504.19874) | huggingface/parallel-digest
 ## [2026-04-22] ingest | PrfaaS: Cross-Datacenter Prefill-as-a-Service (arxiv 2604.15039) | huggingface/parallel-digest
 ## [2026-04-22] ingest | SDVG: Speculative Decoding for Autoregressive Video Generation (arxiv 2604.17397) | huggingface
