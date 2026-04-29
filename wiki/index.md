@@ -28,6 +28,9 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-16-prerl-rl-in-pretrain-space.md](llms-foundation-models/2026-04-16-prerl-rl-in-pretrain-space.md) | PreRL/DSRL: RL in pre-train space bypasses base model ceiling |
 | [2026-04-16-open-vs-closed-models-mid-2026.md](llms-foundation-models/2026-04-16-open-vs-closed-models-mid-2026.md) | Nathan Lambert's 13 bets on open vs. closed models mid-2026 |
 | [2026-04-16-infinitesciencegym-benchmark.md](llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md) | InfiniteScienceGym: procedurally generated scientific analysis benchmark |
+| [2026-04-24-gpt-55-launch-system-card.md](llms-foundation-models/2026-04-24-gpt-55-launch-system-card.md) | GPT-5.5: first OpenAI pre-train since GPT-4.5; $5/$30 per M tokens; perfect reversion 0.18→0.52; SemiAnalysis switched daily driver |
+| [2026-04-24-deepseek-v4-architecture.md](llms-foundation-models/2026-04-24-deepseek-v4-architecture.md) | DeepSeek V4: 1.6T/49B MoE on Huawei Ascend 950PR; CSA/HCA -73% FLOPs; Engram O(1) factual retrieval; cache costs -90% |
+| [2026-04-28-hope-nested-learning-architecture.md](llms-foundation-models/2026-04-28-hope-nested-learning-architecture.md) | Hope/Nested Learning: Self-Modifying Titans replace attention; Continuum Memory replaces FFN; multi-timescale in-context adaptation |
 
 ## multimodal
 
