@@ -19,6 +19,7 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-16-vakra-agent-reasoning-failure-modes.md](agents-tool-use/2026-04-16-vakra-agent-reasoning-failure-modes.md) | VAKRA: tool-use failure modes in agents |
 | [2026-04-17-claude-code-architecture.md](agents-tool-use/2026-04-17-claude-code-architecture.md) | Claude Code v2.1.88 architecture: while-loop core + 5 surrounding systems |
 | [2026-04-17-superlocalmemory-agent-memory.md](agents-tool-use/2026-04-17-superlocalmemory-agent-memory.md) | SuperLocalMemory V3.3: biologically-inspired local agent memory with forgetting curves |
+| [2026-04-25-claude-code-memory-systems-chapter8.md](agents-tool-use/2026-04-25-claude-code-memory-systems-chapter8.md) | Claude Code memory systems (Chapter 8): QueryEngine eager flush + LRU cache + path-set dedup; Apr 23 postmortem caching bug analysis |
 
 ## llms-foundation-models
 
