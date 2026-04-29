@@ -69,7 +69,14 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
 
-**0b. Check the parallel daily digest.** Look for `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/daily-digest-YYYY-MM-DD.md` (replace YYYY-MM-DD with the date being ingested). Skip any `-status.md` files. If the file exists, read it before writing the digest. Treat it as a curated synthesis source from a parallel Claude job. Merge its unique content into the final digest — industry news, papers not in the HuggingFace feed, analytical interpretations, and cross-source synthesis. Do not duplicate content already covered from HuggingFace/RSS sources; add only what is new or provides deeper analysis.
+**0b. Collect all raw sources for the date.** Before writing any digest, check ALL THREE raw source directories for the relevant date:
+- `raw/gmail/YYYY-MM-DD-starred.md` — Gmail starred emails (AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace snippets, etc.)
+- `raw/rss/YYYY-MM-DD-*.md` — RSS feeds (The Decoder, TLDR AI, Interconnects AI, SemiAnalysis full posts, Simon Willison, etc.)
+- `raw/huggingface/YYYY-MM-DD-*.md` — Individual HuggingFace paper files for that date
+
+Read all three before writing the digest. A digest that only uses one or two of these sources is incomplete. If a source directory has no file for a given date, note it and proceed with what's available. Never write a digest from Gmail alone — always check whether RSS and HuggingFace files exist for that date.
+
+**0c. Check the parallel daily digest.** Look for `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/daily-digest-YYYY-MM-DD.md` (replace YYYY-MM-DD with the date being ingested). Skip any `-status.md` files. If the file exists, read it before writing the digest. Treat it as a curated synthesis source from a parallel Claude job. Merge its unique content into the final digest — industry news, papers not in the HuggingFace feed, analytical interpretations, and cross-source synthesis. Do not duplicate content already covered from HuggingFace/RSS sources; add only what is new or provides deeper analysis.
 
 1. Read the source. For papers, read abstract + key sections; for videos, read the transcript; for blogs, read in full.
 2. **Write a summary page** in the appropriate `wiki/<concept>/` subdirectory. Filename: `<YYYY-MM-DD>-<slug>.md`. Include: one-paragraph TL;DR, key findings or claims, **explicit notes on how this relates to prior wiki pages** (confirms, contradicts, extends, or fills a gap), links to related wiki pages, link back to the raw source.
