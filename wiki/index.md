@@ -161,7 +161,13 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-17.md](daily-digest/2026-04/2026-04-17.md) | Daily digest: TRACER routing, KV Packet, BLD cross-tokenizer, Claude Opus 4.7 |
 | [2026-04-18.md](daily-digest/2026-04/2026-04-18.md) | Daily digest: LongAct, TESSY, Switch-KD distillation cluster; Mythos/Pentagon; OpenAI turbulence |
 | [2026-04-19.md](daily-digest/2026-04/2026-04-19.md) | Daily digest: VGF (RL as optimal transport), TRACER full deep dive, UniDoc-RL visual RAG, ASGuard mechanistic alignment |
-| [2026-04-23.md](daily-digest/2026-04/2026-04-23.md) | Daily digest: persistent agent convergence (Kimi K2.6, OpenAI, Anthropic Conway), permission systems analysis, medical LLM reliability crisis, Mythos breach, Trainium2 |
-| [2026-04-22.md](daily-digest/2026-04/2026-04-22.md) | Daily digest: TurboQuant (KV 6x compression), PrfaaS (cross-DC disaggregation), ml-intern (agentic post-training), TEMPO (EM-guided TTT), CoT degrades spatial reasoning |
-| [2026-04-21.md](daily-digest/2026-04/2026-04-21.md) | Daily digest: Nemotron 3 Super (Tier 1), SemiAnalysis goodput (Tier 1), GFT (SFT is broken RL), RLVR faithfulness, speculative execution cross-domain pattern |
 | [2026-04-20.md](daily-digest/2026-04/2026-04-20.md) | Daily digest: STOP path pruning, AccelOpt GPU kernels, Maximal Brain Damage vulnerability, GTA-2 agent benchmark, selective-compute convergence |
+| [2026-04-21.md](daily-digest/2026-04/2026-04-21.md) | Daily digest: Nemotron 3 Super (Tier 1), SemiAnalysis goodput (Tier 1), GFT (SFT is broken RL), RLVR faithfulness, speculative execution cross-domain pattern |
+| [2026-04-22.md](daily-digest/2026-04/2026-04-22.md) | Daily digest: TurboQuant (KV 6x compression), PrfaaS (cross-DC disaggregation), ml-intern (agentic post-training), TEMPO (EM-guided TTT), CoT degrades spatial reasoning |
+| [2026-04-23.md](daily-digest/2026-04/2026-04-23.md) | Daily digest: persistent agent convergence (Kimi K2.6, OpenAI, Anthropic Conway), permission systems analysis, medical LLM reliability crisis, Mythos breach, Trainium2 |
+| [2026-04-24.md](daily-digest/2026-04/2026-04-24.md) | Daily digest: GPT-5.5 launch, Expert Upcycling (MoE +32% GPU efficiency), NPO (near-future teacher RLVR), LLaDA2.0-Uni, Hybrid Policy Distillation |
+| [2026-04-25.md](daily-digest/2026-04/2026-04-25.md) | Daily digest: GPT-5.5 system card agentic safety numbers, DeepSeek V4 architecture, Claude Code memory systems Chapter 8, Hybrid Policy Distillation deep dive |
+| [2026-04-26.md](daily-digest/2026-04/2026-04-26.md) | Daily digest: weekend light day; Codex folds into GPT-5.5; old prompts hurt performance; 500 investment bankers zero client-ready outputs |
+| [2026-04-27.md](daily-digest/2026-04/2026-04-27.md) | Daily digest: Agentic World Modeling L1/L2/L3 taxonomy (211▲), Stochastic KV Routing (depth axis), Semiconductor Week 17, Google $40B Anthropic |
+| [2026-04-28.md](daily-digest/2026-04/2026-04-28.md) | Daily digest: Hope/Nested Learning architecture, From Skills to Talent multi-agent org, Why Fine-Tuning Hallucinations, Ubuntu AI launch, Google Pentagon deal |
+| [2026-04-29.md](daily-digest/2026-04/2026-04-29.md) | Daily digest: RecursiveMAS cross-agent credit assignment, UCP governance win, Claude creative MCP connectors, Building Pi neural chip, OpenAI on AWS |
