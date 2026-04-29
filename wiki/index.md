@@ -76,6 +76,8 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-17-anthropic-mythos-policy.md](ai-industry/2026-04-17-anthropic-mythos-policy.md) | Anthropic's Mythos: withheld from public, pitched to Pentagon; trust debate |
 | [2026-04-22-amazon-anthropic-capital-concentration.md](ai-industry/2026-04-22-amazon-anthropic-capital-concentration.md) | Amazon $33B → Anthropic; Anthropic $100B → AWS over 10 years; circular capital deal locks infrastructure; Bezos Project Prometheus nears $10B |
 | [2026-04-18-openai-exec-departures-restructuring.md](ai-industry/2026-04-18-openai-exec-departures-restructuring.md) | OpenAI loses three execs, restructures around coding/enterprise; IPO doubts |
+| [2026-04-29-ucp-agentic-commerce-protocol.md](ai-industry/2026-04-29-ucp-agentic-commerce-protocol.md) | UCP vs. ACP: Google's Universal Commerce Protocol wins governance layer; Stripe defects from OpenAI's ACP; full purchase journey vs. checkout-only |
+| [2026-04-29-claude-creative-work-connectors.md](ai-industry/2026-04-29-claude-creative-work-connectors.md) | Claude creative tool MCP connectors (Blender/Adobe/Autodesk/Ableton); /model flag; Remote Control push notifications; Opus opt-in |
 
 ## inference-efficiency (new 2026-04-21)
 
