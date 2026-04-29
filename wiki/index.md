@@ -66,6 +66,7 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [gpu-kernels.md](hardware/gpu-kernels.md) | Concept: GPU kernel optimization, accelerator-specific tuning, NKI, memory hierarchy, AccelOpt, Nemotron, goodput |
 | [2026-04-21-semianalysis-gpu-cluster-goodput.md](hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md) | SemiAnalysis: gold vs silver tier neoclouds differ 6–21% in goodput; fault-tolerance tooling is fragmented and immature |
+| [2026-04-27-semiconductor-week17.md](hardware/2026-04-27-semiconductor-week17.md) | Semiconductor Week 17: AI memory supercycle, agentic RISC-V CPU design, TSMC A13, AI-driven EDA N-of-3 pattern |
 
 ## ai-industry
 
