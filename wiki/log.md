@@ -2,6 +2,54 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-04-29] ingest | RecursiveMAS: Recursive Multi-Agent Systems via RecursiveLink (arxiv 2604.25917) | huggingface
+## [2026-04-29] ingest | UCP vs. ACP: Google Universal Commerce Protocol governance win | rss/the-decoder
+## [2026-04-29] ingest | Claude Creative Work MCP Connectors (Blender/Adobe/Autodesk/Ableton) | rss/gmail
+## [2026-04-29] ingest | Building Pi: Raspberry Pi neural chip + Moshi MCP server | rss/gmail
+## [2026-04-29] ingest | OpenAI on AWS: API access via Amazon Bedrock | rss/gmail
+## [2026-04-29] ingest | Musk vs. Altman legal escalation; court filing update | rss/the-decoder
+## [2026-04-29] digest | daily digest 2026-04-29 written |
+
+## [2026-04-28] ingest | Hope Architecture / Nested Learning (arxiv 2604.20676) | huggingface
+## [2026-04-28] ingest | From Skills to Talent: Heterogeneous Multi-Agent Organisations (arxiv 2604.22446) | huggingface
+## [2026-04-28] ingest | Stochastic KV Routing: Depth-Wise Cache Sharing (arxiv 2604.22782) | huggingface
+## [2026-04-28] ingest | Why Fine-Tuning Hallucinations Remain After RLHF | rss/gmail
+## [2026-04-28] ingest | Ubuntu AI: Canonical AI-first OS launch | rss/the-decoder
+## [2026-04-28] ingest | Google Pentagon AI deal (Project Gemini) | rss/the-decoder
+## [2026-04-28] ingest | Veo 3 video generation; NotebookLM Plus expansion | rss/gmail
+## [2026-04-28] digest | daily digest 2026-04-28 written |
+
+## [2026-04-27] ingest | Agentic World Modeling: Foundations, Capabilities, Laws (arxiv 2604.22748) | huggingface
+## [2026-04-27] ingest | Semiconductor Newsletter Week 17: AI memory supercycle + RISC-V CPU agent + EDA partnerships | rss/gmail
+## [2026-04-27] ingest | Google commits $40B to Anthropic at $350B valuation | rss/the-decoder
+## [2026-04-27] ingest | OpenAI + Microsoft rewrite deal — exclusivity and AGI clause removed | rss/the-decoder
+## [2026-04-27] ingest | China blocks Meta's $2B Manus acquisition | rss/the-decoder
+## [2026-04-27] ingest | Gary Marcus vs. Amodei on AI replacing software engineers | rss/gmail
+## [2026-04-27] ingest | DeepSeek cache costs -90%; Claude Memory for Managed Agents; Cursor margins -23% | rss/gmail
+## [2026-04-27] digest | daily digest 2026-04-27 written |
+
+## [2026-04-26] ingest | OpenAI folds Codex into GPT-5.5 | rss/the-decoder
+## [2026-04-26] ingest | Rebuild GPT-5.5 prompts from scratch — role definitions matter again | rss/the-decoder
+## [2026-04-26] ingest | 500 investment bankers test AI: zero client-ready outputs | rss/the-decoder
+## [2026-04-26] ingest | US programmer job growth halved since ChatGPT — Fed Reserve study | rss/the-decoder
+## [2026-04-26] ingest | AI agents expanding not replacing software engineering — Chalmers/Volvo | rss/the-decoder
+## [2026-04-26] digest | daily digest 2026-04-26 written |
+
+## [2026-04-25] ingest | GPT-5.5 system card: agentic safety benchmarks, scheming, operator permissions | rss/gmail
+## [2026-04-25] ingest | DeepSeek V4 full architecture: CSA/HCA, Engram memory, Huawei Ascend 950PR | rss/gmail
+## [2026-04-25] ingest | Ken Huang Chapter 8: Claude Code memory systems + Apr 23 postmortem | rss/gmail
+## [2026-04-25] ingest | Hybrid Policy Distillation for LLMs (arxiv 2604.20244) | huggingface
+## [2026-04-25] ingest | SemiAnalysis GPT-5.5 production review: switches from Opus 4.7 | rss/gmail
+## [2026-04-25] digest | daily digest 2026-04-25 written |
+
+## [2026-04-24] ingest | GPT-5.5 launch: $5/$30 per M tokens, first OpenAI pre-train since GPT-4.5 | rss/gmail
+## [2026-04-24] ingest | Near-Future Policy Optimization (arxiv 2604.20733) | huggingface
+## [2026-04-24] ingest | Expert Upcycling: MoE expansion via cloning + CPT (arxiv 2604.19835) | huggingface
+## [2026-04-24] ingest | LLaDA2.0-Uni: unified multimodal understanding and generation (arxiv 2604.20796) | huggingface
+## [2026-04-24] ingest | UCP governance council: Amazon/Meta/Microsoft/Salesforce/Stripe join | rss/gmail
+## [2026-04-24] ingest | Claude Code Apr 23 postmortem: caching bug + system prompt behavior change | rss/gmail
+## [2026-04-24] digest | daily digest 2026-04-24 written |
+
 ## [2026-04-23] ingest | Kimi K2.6 + OpenAI Agent Studio + Anthropic Conway: Persistent Agent Convergence | parallel-daily-digest
 ## [2026-04-23] ingest | Ken Huang: Claude Code vs. Hermes Agent Permission Systems (Substack) | parallel-daily-digest
 ## [2026-04-23] ingest | Gary Marcus: Four Medical LLM Reliability Studies (Substack) | parallel-daily-digest
