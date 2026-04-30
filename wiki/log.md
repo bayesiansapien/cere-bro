@@ -179,3 +179,15 @@ Append-only timeline of ingests and lint passes.
 ## [2026-04-16] ingest | Fabricated Knowledge: Engels' Pause | rss/fabricated-knowledge
 ## [2026-04-16] ingest | Gemini 3.1 Flash TTS | rss/simon-willison
 ## [2026-04-16] ingest | Datasette releases (×4) | rss/simon-willison
+## [2026-04-30] ingest | Accelerating RL Post-Training Rollouts via Speculative Decoding (arxiv 2604.26779, NVIDIA) | huggingface
+## [2026-04-30] ingest | Tide: Cross-Architecture Distillation for Diffusion LLMs (arxiv 2604.26951) | huggingface
+## [2026-04-30] ingest | GLM-5V-Turbo: Native Foundation Model for Multimodal Agents (arxiv 2604.26752) | huggingface
+## [2026-04-30] ingest | ClawGym: Scalable Framework for Claw Agents (arxiv 2604.26904) | huggingface
+## [2026-04-30] ingest | Diffusion Templates: Unified Plugin Framework (arxiv 2604.24351) | huggingface
+## [2026-04-30] ingest | FASH-iCNN: Editorial Fashion Identity (arxiv 2604.26186) | huggingface
+## [2026-04-30] ingest | Survey on LLM-based Conversational User Simulation (arxiv 2604.24977) | huggingface
+## [2026-04-30] ingest | X-WAM: Unified 4D World Action Modeling (arxiv 2604.26694) | huggingface
+## [2026-04-30] ingest | Zig's anti-LLM contribution policy ("Contributor Poker") | rss/simon-willison
+## [2026-04-30] concept | speculative-decoding.md created (cross-axis pattern: Nemotron MTP, SDVG, RL rollouts) | concept-page
+## [2026-04-30] concept | knowledge-distillation.md updated with Tide cross-arch dLLM | concept-page
+## [2026-04-30] concept | rl-for-llms.md updated with NeMo-RL speculative rollouts | concept-page
