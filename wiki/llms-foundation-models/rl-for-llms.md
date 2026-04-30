@@ -37,6 +37,7 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 - **Optimal transport for RL**: VGF casts policy optimization as finding the transport map from reference to optimal distribution — implicit KL control through budget
 - **Saliency-guided sparse updates (LongAct)**: not all gradient positions are equal; high-magnitude activation positions carry the signal for long-context reasoning
 - **Transport budget**: in VGF, how far particles move from reference — the continuous analog of the KL penalty in standard RLHF
+- **RL-rollout speculation**: lossless acceleration of the autoregressive trajectory generator inside the RL loop via a draft model whose proposals are exactly verified by the target policy — preserves the optimization regime, accelerates the dominant cost
 
 ## Related Pages
 
