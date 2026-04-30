@@ -26,6 +26,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **LongAct (2026-04-18)** — Saliency-guided sparse RL updates: concentrates gradients only on weights associated with high-magnitude Q/K activations during long-context processing. 8% improvement on LongBench v2, universal across GRPO and DAPO. Cross-paradigm transfer from quantization research (high-magnitude = hard to quantize) to training (high-magnitude = where to train). → [summary](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md)
 
+**Speculative Decoding for RL Rollouts (2026-04-30, NVIDIA)** — Integrates EAGLE-3 / MTP / external draft models into the RL training loop via NeMo-RL + vLLM. Lossless: target policy is verifier, log-probs and policy loss are computed against target. Sweet spot at k=3; draft alignment with rollout distribution dominates speedup. 1.77× generation, 1.41× per-step at 8B, no AIME accuracy loss; 2.5× end-to-end projection at 235B. → [summary](../inference-efficiency/2026-04-30-speculative-decoding-rl-rollouts.md)
+
 ## Key Concepts
 
 - **RLHF**: RL from human feedback — aligns model outputs to human preferences
