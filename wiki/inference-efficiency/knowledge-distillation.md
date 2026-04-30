@@ -36,11 +36,15 @@ On-policy distillation has become the dominant approach for reasoning model comp
 
 **ShadowPEFT (2026-04-22)** — Centralized PEFT via depth-shared shadow module. Shifts adaptation from distributed weight-space perturbations (LoRA) to a single shadow module that evolves a parallel state through all transformer layers. Decoupled from backbone, independently pretrainable, optionally deployable in detached mode for edge computing. Matches or outperforms LoRA and DoRA at comparable parameter budgets. → [summary](2026-04-22-shadowpeft-centralized-layer-space.md)
 
+**Tide: Cross-Architecture Distillation for Diffusion LLMs (2026-04-30)** — First framework to handle teacher/student mismatch in *all three* of architecture, attention mechanism, and tokenizer for diffusion LLMs. Three components: Tidal (noise-aware schedule across timesteps + training progress), CompDemo (complementary-mask context enrichment), Reverse Calm (inverted chunk-likelihood matching with bounded gradients). Distills 16B MoE / 8B dense teachers into a 0.6B BD3LM student; +1.53 avg across 8 benchmarks; HumanEval 32.3 → 48.78; 22× memory reduction, 5× inference speedup vs teacher. → [summary](2026-04-30-tide-cross-arch-diffusion-distillation.md)
+
 ## Key Concepts
 
 - **On-policy distillation**: student generates its own rollouts, then learns from teacher's token-level distribution over those rollouts
 - **Centralized PEFT (ShadowPEFT)**: single depth-shared module performs layer-space refinement, unlike LoRA's per-layer weight perturbations
 - **Layer-space vs weight-space adaptation**: ShadowPEFT refinement evolves a parallel state through the network depth; LoRA adds local rank-decomposed perturbations to individual matrices
+- **Cross-architecture diffusion distillation (Tide)**: distill from a diffusion teacher to a diffusion student of different size/attention/tokenizer; requires noise-aware scheduling, complementary-mask context enrichment, and bounded-gradient cross-tokenizer losses
+- **Neutral exchange representation pattern**: across BLD (bytes), TESSY (cooperative interleaving), Switch-KD (shared text-probability space), and Tide (inverted chunk-likelihood with bounded gradients), the field has converged on engineering a *neutral channel* between mismatched teacher/student rather than forcing token alignment
 
 ## Related Pages
 
