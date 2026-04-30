@@ -171,3 +171,39 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-27.md](daily-digest/2026-04/2026-04-27.md) | Daily digest: Agentic World Modeling L1/L2/L3 taxonomy (211▲), Stochastic KV Routing (depth axis), Semiconductor Week 17, Google $40B Anthropic |
 | [2026-04-28.md](daily-digest/2026-04/2026-04-28.md) | Daily digest: Hope/Nested Learning architecture, From Skills to Talent multi-agent org, Why Fine-Tuning Hallucinations, Ubuntu AI launch, Google Pentagon deal |
 | [2026-04-29.md](daily-digest/2026-04/2026-04-29.md) | Daily digest: RecursiveMAS cross-agent credit assignment, UCP governance win, Claude creative MCP connectors, Building Pi neural chip, OpenAI on AWS |
+| [2026-04-30.md](daily-digest/2026-04/2026-04-30.md) | Daily digest: Speculative decoding into RL training (NVIDIA, 2.5x at 235B), Tide cross-arch dLLM distillation, GLM-5V-Turbo native multimodal agent, ClawGym, Zig anti-LLM policy |
+
+## inference-efficiency (new 2026-04-30)
+
+| Page | Summary |
+|------|---------|
+| [speculative-decoding.md](inference-efficiency/speculative-decoding.md) | Concept: speculative decoding — lossless target-preserving acceleration; now spans inference, video, and RL training |
+| [2026-04-30-speculative-decoding-rl-rollouts.md](inference-efficiency/2026-04-30-speculative-decoding-rl-rollouts.md) | NVIDIA NeMo-RL: speculative decoding inside RL post-training; lossless under policy drift; k=3 sweet spot; 1.77x at 8B, 2.5x projection at 235B on 2048 GB200s |
+| [2026-04-30-tide-cross-arch-diffusion-distillation.md](inference-efficiency/2026-04-30-tide-cross-arch-diffusion-distillation.md) | Tide: first cross-architecture distillation for diffusion LLMs; Tidal/CompDemo/Reverse Calm; 16B MoE → 0.6B; HumanEval 32.3 → 48.78; 22x memory, 5x speedup |
+
+## agents-tool-use (new 2026-04-30)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-30-clawgym-agent-framework.md](agents-tool-use/2026-04-30-clawgym-agent-framework.md) | ClawGym: full-lifecycle Claw-agent framework; 13.5K dual-route synthesized tasks + sandbox-parallel RL + 200-instance bench; Qwen3-8B +43.46% on ClawGym-Bench |
+
+## multimodal (new 2026-04-30)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-30-glm-5v-turbo-multimodal-agent.md](multimodal/2026-04-30-glm-5v-turbo-multimodal-agent.md) | GLM-5V-Turbo (Z.ai): native multimodal agent foundation; CogViT + Multimodal MTP + joint RL over 30+ tasks; 94.8 Design2Code beats Opus 4.6 |
+| [2026-04-30-diffusion-templates-plugin-framework.md](multimodal/2026-04-30-diffusion-templates-plugin-framework.md) | Diffusion Templates (Alibaba): unified plugin framework — KV-Cache and LoRA under one capability-injection abstraction |
+| [2026-04-30-fash-icnn-fashion-identity.md](multimodal/2026-04-30-fash-icnn-fashion-identity.md) | FASH-iCNN (Adobe): texture/luminance > color as carriers of editorial fashion identity; CNN probing methodology generalizes |
+| [2026-04-30-x-wam-4d-world-model-robotics.md](multimodal/2026-04-30-x-wam-4d-world-model-robotics.md) | X-WAM: unified 4D world+action with Asynchronous Noise Sampling; fewer steps for action, full steps for video; 90.7% RoboTwin 2.0 |
+
+## llms-foundation-models (new 2026-04-30)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-30-llm-user-simulation-survey.md](llms-foundation-models/2026-04-30-llm-user-simulation-survey.md) | Survey of LLM-based conversational user simulation; granularity × objective taxonomy; flags evaluation-vs-training simulator conflation |
+
+## ai-industry (new 2026-04-30)
+
+| Page | Summary |
+|------|---------|
+| [2026-04-30-zig-anti-ai-policy.md](ai-industry/2026-04-30-zig-anti-ai-policy.md) | Zig's "Contributor Poker" rationale: PR review = contributor investment; LLM-authored PRs short-circuit it; Bun (Anthropic-acquired) refuses to upstream
