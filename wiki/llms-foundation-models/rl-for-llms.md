@@ -2,7 +2,11 @@
 
 Using RL to improve LLM reasoning and alignment — from RLHF to RLVR (verifiable rewards) to newer approaches that optimize the pre-training distribution directly.
 
-## Current State (as of 2026-04-22)
+## Current State (as of 2026-04-30)
+
+The RL-rollout cost is now the dominant compute bottleneck of frontier RL post-training: at 8B+ scale, autoregressive generation accounts for 65–72% of every step. Speculative decoding has crossed from inference-only into the training loop (NVIDIA, 04-30): 1.77× generation speedup at 8B, projected 2.5× end-to-end at 235B on 2048 GB200s. The training-time inference problem now rivals the gradient-update problem in importance.
+
+## Prior State (as of 2026-04-22)
 
 The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is the dominant paradigm for reasoning models. New work is pushing beyond the conditional distribution P(y|x) — into pre-train space optimization (PreRL) and now into optimal-transport-based policy optimization (VGF) that eliminates explicit policy parameterization entirely.
 
