@@ -2,7 +2,7 @@
 
 Transferring capabilities from a large teacher model to a smaller student model. On-policy distillation (OPD) trains the student on its own rollouts under token-level supervision from the teacher.
 
-## Current State (as of 2026-04-18)
+## Current State (as of 2026-04-30)
 
 On-policy distillation has become the dominant approach for reasoning model compression. The key open question is which tokens actually carry the learning signal — naive approaches use all tokens, but most are uninformative.
 
