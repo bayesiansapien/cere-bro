@@ -35,7 +35,9 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 - Professional/domain-specific tasks expose different weaknesses than general benchmarks
 - Deterministic environment generation (OccuBench, InfiniteScienceGym) removes publication bias
 - **Execution harness dominates model capability** (GTA-2): the scaffold around the model determines workflow completion more than model capability itself
-- Three consecutive benchmarks (OccuBench, DR3-Eval, GTA-2) converge on the same finding: frontier models fail realistic multi-step tasks reliably — this is now a consistent, cross-domain measurement
+- Six benchmarks (OccuBench, DR3-Eval, GTA-2, PRL-Bench, Claw-Eval-Live, InteractWeb-Bench) converge on the same finding: frontier models fail realistic multi-step tasks reliably — this is a consistent, cross-domain measurement
+- **Middle-band discrimination** (Claw-Eval-Live, 05-01): models with similar pass rates diverge in overall completion, suggesting per-task-family routing could outperform any single model
+- **Blind execution** (InteractWeb-Bench, 05-01): a distinct, named failure mode where agents guess rather than clarify under ambiguous instructions — the first benchmark to grade this dimension explicitly
 
 ## Related Pages
 
