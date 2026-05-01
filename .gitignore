@@ -12,3 +12,6 @@
 
 # Runtime logs (local only)
 .claude/logs/
+
+# Podcast audio output (large binary files)
+wiki/daily-digest/**/podcasts/*.mp3
