@@ -24,6 +24,10 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 **PRL-Bench (2026-04-20)** — Physics Research by LLMs benchmark. 100 tasks from Physical Review Letters papers (Aug 2025+, post-training cutoff for most models). Covers 5 subfields: astrophysics, condensed matter, high-energy, quantum information, statistical physics. Tasks replicate authentic research: exploration-oriented formulation, long-horizon workflows, verifiable outcomes. All frontier models score below 50%. Expert-validated. → [summary](2026-04-20-prl-bench-physics-benchmark.md)
 
+**Claw-Eval-Live (2026-05-01)** — First *live* workflow-agent benchmark. Refreshable signal layer (ClawHub Top-500 skills, updated each release) + reproducible release snapshot (frozen fixtures, services, graders). 105 tasks, 13 frontier models, deterministic + structured-LLM grading on execution traces, audit logs, service state, post-run artifacts. Best model: 66.7%; no model reaches 70%. HR / management / multi-system business workflows persistently fail. → [summary](2026-05-01-claw-eval-live-agent-benchmark.md)
+
+**InteractWeb-Bench (2026-05-01)** — First benchmark to grade *clarifying behavior* explicitly. Four user-agent personas + persona-driven instruction perturbations from RE defect taxonomies. Unified agent action space: Clarify / Implement / Verify / Submit. Frontier MLLM agents remain trapped in **blind execution** — generating code that satisfies their misreading of the instruction without ever asking. → [summary](2026-05-01-interactweb-bench-blind-execution.md)
+
 ## Patterns Across Benchmarks
 
 - Reasoning models consistently outperform base models on agentic tasks
