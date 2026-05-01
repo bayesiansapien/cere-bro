@@ -38,6 +38,8 @@ On-policy distillation has become the dominant approach for reasoning model comp
 
 **Tide: Cross-Architecture Distillation for Diffusion LLMs (2026-04-30)** — First framework to handle teacher/student mismatch in *all three* of architecture, attention mechanism, and tokenizer for diffusion LLMs. Three components: Tidal (noise-aware schedule across timesteps + training progress), CompDemo (complementary-mask context enrichment), Reverse Calm (inverted chunk-likelihood matching with bounded gradients). Distills 16B MoE / 8B dense teachers into a 0.6B BD3LM student; +1.53 avg across 8 benchmarks; HumanEval 32.3 → 48.78; 22× memory reduction, 5× inference speedup vs teacher. → [summary](2026-04-30-tide-cross-arch-diffusion-distillation.md)
 
+**CoPD: Co-Evolving Policy Distillation (2026-05-01)** — Multi-capability post-training via parallel expert RLVR + bidirectional OPD during training (not after). Mixed RLVR has divergence cost; train-experts-then-OPD has behavioral-pattern gap; CoPD avoids both by having experts mutually distill while RLVR-training in parallel. Integrates text/image/video reasoning into one model that *surpasses domain-specific experts*. Bidirectional OPD as the neutral exchange channel, applied to parallel training rather than student/teacher pipeline. Fifth paper in the cross-distillation-channel pattern (after BLD, TESSY, Switch-KD, Tide). → [summary](../llms-foundation-models/2026-05-01-copd-co-evolving-policy-distillation.md)
+
 ## Key Concepts
 
 - **On-policy distillation**: student generates its own rollouts, then learns from teacher's token-level distribution over those rollouts
