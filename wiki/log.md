@@ -2,6 +2,29 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-05-01] ingest | RoundPipe: pipeline parallelism for consumer GPUs (arxiv 2604.27085) | huggingface
+## [2026-05-01] ingest | LenVM: token-level length value model (arxiv 2604.27039) | huggingface
+## [2026-05-01] ingest | CoPD: Co-Evolving Policy Distillation (arxiv 2604.27083) | huggingface
+## [2026-05-01] ingest | Synthetic Computers at Scale (arxiv 2604.28181) | huggingface
+## [2026-05-01] ingest | Claw-Eval-Live live agent benchmark (arxiv 2604.28139) | huggingface
+## [2026-05-01] ingest | Ara: Agent-Native Research Artifacts (arxiv 2604.24658) | huggingface
+## [2026-05-01] ingest | Intern-Atlas methodological evolution graph (arxiv 2604.28158) | huggingface
+## [2026-05-01] ingest | Eywa: Heterogeneous Scientific FM Collaboration (arxiv 2604.27351) | huggingface
+## [2026-05-01] ingest | InteractWeb-Bench blind execution (arxiv 2604.27419) | huggingface
+## [2026-05-01] ingest | Edit-R1 verifier-based RL for image editing (arxiv 2604.27505) | huggingface
+## [2026-05-01] ingest | FD-loss representation Fréchet visual generation (arxiv 2604.28190) | huggingface
+## [2026-05-01] ingest | Visual Generation taxonomy: Atomic to Agentic (arxiv 2604.28185) | huggingface
+## [2026-05-01] ingest | PhyCo controllable physical priors (arxiv 2604.28169) | huggingface
+## [2026-05-01] ingest | ExoActor / MoCapAnything V2 / World2Minecraft (Tier 4, Quick Hits only) | huggingface
+## [2026-05-01] ingest | SemiAnalysis: AI Value Capture - The Shift to Model Labs | rss/semianalysis
+## [2026-05-01] ingest | Marcus: greatest capital misallocation in history | rss/marcus-on-ai
+## [2026-05-01] ingest | Pragmatic Engineer: GitHub breaks under AI load; Anthropic extraction era | rss/pragmatic-engineer
+## [2026-05-01] ingest | Ken Huang Ch 13: MCP integration Claude Code vs Hermes | rss/agentic-ai
+## [2026-05-01] ingest | LWiAI Podcast 242 (recap of older news) | rss/last-week-in-ai
+## [2026-05-01] ingest | The Decoder x9 (Anthropic $900B, OpenAI 10GW, White House Mythos block, FDA AI, SoftBank Roze IPO, Tencent 440MB, MSFT/Google AI talk, BioMysteryBench) | rss/the-decoder
+## [2026-05-01] ingest | Simon Willison x4 (Codex /goal, GPT-5.5 cyber, RSS for vibe-coded apps, Andrew Kelley quote) | rss/simon-willison
+## [2026-05-01] digest | daily digest 2026-05-01 written |
+
 ## [2026-04-29] ingest | RecursiveMAS: Recursive Multi-Agent Systems via RecursiveLink (arxiv 2604.25917) | huggingface
 ## [2026-04-29] ingest | UCP vs. ACP: Google Universal Commerce Protocol governance win | rss/the-decoder
 ## [2026-04-29] ingest | Claude Creative Work MCP Connectors (Blender/Adobe/Autodesk/Ableton) | rss/gmail
