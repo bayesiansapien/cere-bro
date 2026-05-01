@@ -36,6 +36,8 @@ The pattern is now: **wherever a generator has a slow target and a credible chea
 - **Content-adaptive k**: empirically the optimal k varies with rollout phase (predictable math rollouts vs branchy reasoning). A learned k-schedule would beat the fixed-k regime.
 - **Biased speculation**: current methods preserve losslessness. A drafter that deliberately proposes near *high-reward* regions (rather than approximating the current policy) could trade losslessness for sample efficiency in RL training.
 - **Cross-modal speculation**: SDVG showed the verification signal does not have to be probability matching. The next test is whether speculation works for audio diffusion (worst-window quality routing?) or 3D synthesis.
+- **Composition with consumer-GPU pipeline parallelism (RoundPipe, 05-01)**: NeMo-RL spec dec is a generation-during-training optimization; RoundPipe is a training-loop optimization for consumer hardware. Combining them on a consumer cluster could shrink small-lab post-training cost dramatically.
+- **Composition with token-level value modeling (LenVM, 05-01)**: LenVM tells the model when to stop generating; speculative decoding makes each step cheaper. They should multiply — but no paper has measured the combined effect.
 
 ## Related Pages
 
