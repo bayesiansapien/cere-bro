@@ -9,7 +9,16 @@
       "Bash(git diff:*)",
       "Bash(git log:*)",
       "Bash(git rev-parse:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(pip3:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(curl:*)"
     ]
   },
   "hooks": {
