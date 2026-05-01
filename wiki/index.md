@@ -207,3 +207,51 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-04-30-zig-anti-ai-policy.md](ai-industry/2026-04-30-zig-anti-ai-policy.md) | Zig's "Contributor Poker" rationale: PR review = contributor investment; LLM-authored PRs short-circuit it; Bun (Anthropic-acquired) refuses to upstream
+
+## inference-efficiency (new 2026-05-01)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-roundpipe-pipeline-parallelism-consumer-gpus.md](inference-efficiency/2026-05-01-roundpipe-pipeline-parallelism-consumer-gpus.md) | RoundPipe: stateless GPU worker pool breaks weight-binding bottleneck on consumer servers; 1.48–2.16x speedup; LoRA fine-tuning Qwen3-235B at 31K context on 8x RTX 4090 |
+| [2026-05-01-lenvm-token-level-length-value-model.md](inference-efficiency/2026-05-01-lenvm-token-level-length-value-model.md) | LenVM: token-level RL value model for length control; constant negative reward → bounded monotone return; LIFEBench 30.9→64.8; GSM8K @200 tokens 63% vs 6% baseline |
+
+## llms-foundation-models (new 2026-05-01)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-copd-co-evolving-policy-distillation.md](llms-foundation-models/2026-05-01-copd-co-evolving-policy-distillation.md) | CoPD: parallel RLVR experts + bidirectional OPD during training; 5th paper in cross-distillation-channel pattern; surpasses domain-specific experts on text/image/video reasoning |
+
+## agents-tool-use (new 2026-05-01)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-claw-eval-live-agent-benchmark.md](agents-tool-use/2026-05-01-claw-eval-live-agent-benchmark.md) | Claw-Eval-Live: refreshable signal layer + reproducible release snapshot; 105 tasks, 13 frontier models; best 66.7%, none reach 70%; trajectory-aware grading; middle-band discrimination → routing opportunity |
+| [2026-05-01-interactweb-bench-blind-execution.md](agents-tool-use/2026-05-01-interactweb-bench-blind-execution.md) | InteractWeb-Bench: first benchmark grading clarifying behavior; four-action space (Clarify/Implement/Verify/Submit); frontier MLLM agents trapped in "blind execution" |
+| [2026-05-01-synthetic-computers-at-scale.md](agents-tool-use/2026-05-01-synthetic-computers-at-scale.md) | Synthetic Computers at Scale: 1K populated computers × 8h × 2K-turn agent simulations as long-horizon training data; in-domain + out-of-domain gains validate signal |
+| [2026-05-01-ara-agent-native-research-artifacts.md](agents-tool-use/2026-05-01-ara-agent-native-research-artifacts.md) | Ara: agent-executable 4-layer research artifact replacing the narrative paper; PaperBench 72.4→93.7%; failure traces help weaker agents but constrain stronger ones |
+| [2026-05-01-intern-atlas-method-evolution-graph.md](agents-tool-use/2026-05-01-intern-atlas-method-evolution-graph.md) | Intern-Atlas: 9.4M-edge methodological evolution graph from 1.03M papers; bottleneck-typed transitions as causal links; routing data structure for ideas |
+| [2026-05-01-eywa-heterogeneous-foundation-collab.md](agents-tool-use/2026-05-01-eywa-heterogeneous-foundation-collab.md) | Eywa: language-mediated wrappers for heterogeneous scientific FMs (chemistry/protein/materials/climate); language as universal control plane over heterogeneous foundation models |
+| [2026-05-01-mcp-claude-vs-hermes-chapter13.md](agents-tool-use/2026-05-01-mcp-claude-vs-hermes-chapter13.md) | Ken Huang Ch 13: MCP integration; Claude Code TS-async session-bound vs Hermes long-lived MCPServerTask + sampling + credential stripping |
+
+## multimodal (new 2026-05-01)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-edit-r1-verifier-rl-image-editing.md](multimodal/2026-05-01-edit-r1-verifier-rl-image-editing.md) | Edit-R1: CoT reasoning verifier reward for image editing; SFT cold-start + GCPO; scorer-to-reasoning-verifier shift generalizes beyond editing |
+| [2026-05-01-fd-loss-frechet-visual-generation.md](multimodal/2026-05-01-fd-loss-frechet-visual-generation.md) | FD-loss: decouple population (50K) from batch (1024) to make Fréchet Distance trainable; 0.72 FID one-step ImageNet; multi-representation FDrk metric |
+| [2026-05-01-visual-generation-taxonomy-survey.md](multimodal/2026-05-01-visual-generation-taxonomy-survey.md) | Visual Generation taxonomy: Atomic / Conditional / In-Context / Agentic / World-Modeling Generation; locates current frontier and the open levels |
+| [2026-05-01-phyco-controllable-physics-priors.md](multimodal/2026-05-01-phyco-controllable-physics-priors.md) | PhyCo: 100K physics simulation videos + ControlNet on physical-property maps + VLM-guided reward for physically consistent video generation |
+
+## ai-industry (new 2026-05-01)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-semianalysis-ai-value-capture-model-labs.md](ai-industry/2026-05-01-semianalysis-ai-value-capture-model-labs.md) | SemiAnalysis: structural shift to model labs capturing value; Anthropic ARR $9B→$44B+, margin 38%→70%; Nvidia/TSMC restraint; "One Chart to Rule Them All" pricing framework |
+| [2026-05-01-marcus-capital-misallocation.md](ai-industry/2026-05-01-marcus-capital-misallocation.md) | Marcus: "greatest capital misallocation in history" — direct counterpoint to SemiAnalysis the same day; mainstream AI-bubble framing |
+| [2026-05-01-pragmatic-engineer-github-anthropic-trust.md](ai-industry/2026-05-01-pragmatic-engineer-github-anthropic-trust.md) | Pragmatic Engineer: GitHub at zero nines under 3.5x AI load; Anthropic in "extraction era" (silent Claude Code nerfing, $100/mo gate, OpenClaw block) |
+
+## daily-digest (new 2026-05-01)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01.md](daily-digest/2026-05/2026-05-01.md) | Daily digest: SemiAnalysis vs Marcus on AI value capture; RoundPipe 235B-on-consumer-GPU; LenVM token-level length VM; CoPD as 5th cross-distillation paper; 6-benchmark agent eval crisis; Ara+Intern-Atlas AI-native research stack
