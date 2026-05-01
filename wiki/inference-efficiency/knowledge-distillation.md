@@ -46,7 +46,8 @@ On-policy distillation has become the dominant approach for reasoning model comp
 - **Centralized PEFT (ShadowPEFT)**: single depth-shared module performs layer-space refinement, unlike LoRA's per-layer weight perturbations
 - **Layer-space vs weight-space adaptation**: ShadowPEFT refinement evolves a parallel state through the network depth; LoRA adds local rank-decomposed perturbations to individual matrices
 - **Cross-architecture diffusion distillation (Tide)**: distill from a diffusion teacher to a diffusion student of different size/attention/tokenizer; requires noise-aware scheduling, complementary-mask context enrichment, and bounded-gradient cross-tokenizer losses
-- **Neutral exchange representation pattern**: across BLD (bytes), TESSY (cooperative interleaving), Switch-KD (shared text-probability space), and Tide (inverted chunk-likelihood with bounded gradients), the field has converged on engineering a *neutral channel* between mismatched teacher/student rather than forcing token alignment
+- **Neutral exchange representation pattern**: across BLD (bytes), TESSY (cooperative interleaving), Switch-KD (shared text-probability space), Tide (inverted chunk-likelihood with bounded gradients), and CoPD (bidirectional OPD between parallel RLVR experts), the field has converged on engineering a *neutral channel* between mismatched teacher/student rather than forcing token alignment. **Five papers, five mechanisms, one principle.**
+- **Co-evolution distillation (CoPD)**: parallel RLVR-trained experts serve as mutual teachers via bidirectional OPD *during training*, eliminating both the inter-capability divergence of mixed RLVR and the behavioral-pattern gap of train-then-distill
 
 ## Related Pages
 
