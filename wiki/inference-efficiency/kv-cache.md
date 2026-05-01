@@ -2,9 +2,11 @@
 
 The KV cache (Key-Value cache) stores the key and value tensors from the attention mechanism for tokens already processed. This means those tokens don't need to be recomputed on every new generation step — critical for making autoregressive decoding fast.
 
-## Current State (as of 2026-04-22)
+## Current State (as of 2026-05-01)
 
 KV caching is standard in all production LLM serving. Active research is focused on four problems: (1) making caches reusable across contexts without recomputation, (2) compressing the cache to reduce memory footprint, (3) smarter eviction policies when the cache is full, and (4) extending cache-based acceleration patterns (like speculative decoding) to non-text modalities. The parallel daily digest (04-22) introduced two major KV-focused papers — TurboQuant (ultra-low-bit compression) and PrfaaS (cross-datacenter disaggregation via hybrid attention) — signaling that the KV cache is now the primary optimization target in production serving.
+
+**Economic context (SemiAnalysis 05-01):** the unit economics of frontier model labs now depend on >90% prompt-cache hit rates. Anthropic's blended price for Opus 4.7 on agentic workloads is ~$0.99/MTok (vs $5/$25 sticker) because cached input tokens dominate. Cache compression / reuse research is now financial-impact-driven, not just academic.
 
 ## Key Papers
 
