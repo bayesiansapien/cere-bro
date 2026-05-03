@@ -160,7 +160,7 @@ th {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .brand {
@@ -173,7 +173,7 @@ th {
 .brand:hover { opacity: 0.8; border: none; }
 
 .brand-logo {
-  height: 36px;
+  height: 64px;
   width: auto;
   display: block;
 }
@@ -207,16 +207,6 @@ th {
   padding: 48px 0 28px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
-  text-align: center;
-}
-.hero-logo-wrap {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 28px;
-}
-.hero-logo {
-  height: 88px;
-  width: auto;
 }
 .hero-date {
   font-family: var(--mono);
