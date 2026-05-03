@@ -272,10 +272,10 @@ Bootstrap complete. Here's what was created:
 ✓ .gitignore
 
 Next steps:
-1. Drop source files into raw/ and run /ingest to build your first wiki pages
-2. Run /digest after your first batch of ingests to write your first digest
-3. Run /publish when you're ready to deploy the site
-4. Set up farmers in connectors/ to automate daily source collection
+1. Run /automate — sets up the fully automated daily pipeline (farmers + digest + push, scheduled for your preferred time). This is the recommended next step so everything runs without manual intervention.
+2. Run /publish — deploys the Astro site to GitHub Pages.
+3. To seed the wiki manually first: drop a few papers or posts into raw/ and run /ingest, then /digest.
 
-Your first session: drop 3–5 papers or posts you're excited about into raw/, then /ingest.
+Recommended path: /automate → /publish → start starring emails and dropping raw files.
+The daily pipeline will handle everything from then on.
 ```
