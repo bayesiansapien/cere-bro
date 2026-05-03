@@ -43,6 +43,8 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-16-rationalrewards-visual-generation.md](multimodal/2026-04-16-rationalrewards-visual-generation.md) | RationalRewards: critique-before-score reward models for visual generation |
 | [2026-04-16-gameworld-multimodal-game-agents.md](multimodal/2026-04-16-gameworld-multimodal-game-agents.md) | GameWorld: 34-game benchmark for MLLM game agents |
 | [2026-04-16-merrin-multimodal-retrieval.md](multimodal/2026-04-16-merrin-multimodal-retrieval.md) | MERRIN: multimodal web retrieval benchmark; avg accuracy 22.3% |
+| [2026-05-02-vipo-visual-preference-optimization.md](multimodal/2026-05-02-vipo-visual-preference-optimization.md) | ViPO: 1M image + 300K video preference pairs; Poly-DPO collapses to DPO on clean data |
+| [2026-05-02-semi-dpo-noisy-preferences.md](multimodal/2026-05-02-semi-dpo-noisy-preferences.md) | Semi-DPO: treats conflicting DPO preference labels as noisy unlabeled data; iterative pseudo-labeling |
 
 ## inference-efficiency
 
