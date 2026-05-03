@@ -2,6 +2,23 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-05-03] ingest | Step-level Optimization for Efficient Computer-use Agents (arxiv 2604.27151) | huggingface
+## [2026-05-03] ingest | Compliance vs Sensibility: Reasoning Controllability in LLMs (arxiv 2604.27251) | huggingface
+## [2026-05-03] ingest | Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains (arxiv 2604.24902) | huggingface
+## [2026-05-03] ingest | FlashRT: Efficient Red-Teaming for Prompt Injection (arxiv 2604.28157) | huggingface
+## [2026-05-03] ingest | Nemotron 3 Nano Omni: Efficient Open Multimodal Intelligence (arxiv 2604.24954) | huggingface
+## [2026-05-03] ingest | ViPO: Visual Preference Optimization at Scale (arxiv 2604.24953) | huggingface
+## [2026-05-03] ingest | Semi-DPO: Learning from Noisy Preferences (arxiv 2604.24952) | huggingface
+## [2026-05-03] ingest | Ken Huang Ch 14: Model Routing and Provider Abstraction | rss/agentic-ai
+## [2026-05-03] ingest | Mistral Medium 3.5 | rss/the-decoder
+## [2026-05-03] ingest | Anthropic Claude Security launch | rss/the-decoder
+## [2026-05-03] ingest | Big Tech AI capex $725B | rss/the-decoder
+## [2026-05-03] ingest | GPT-5.5 cyber capability matches Claude Mythos | rss/the-decoder
+## [2026-05-03] ingest | Claude for Creative Work + /model routing flag | gmail/ai-breakfast
+## [2026-05-03] ingest | Google UCP agentic commerce governance | gmail/ken-huang
+## [2026-05-03] ingest | Pi self-modifying software, automation bias, vibe slop | gmail/pragmatic-engineer
+## [2026-05-03] digest | wiki/daily-digest/2026-05/2026-05-03.md
+
 ## [2026-05-01] ingest | RoundPipe: pipeline parallelism for consumer GPUs (arxiv 2604.27085) | huggingface
 ## [2026-05-01] ingest | LenVM: token-level length value model (arxiv 2604.27039) | huggingface
 ## [2026-05-01] ingest | CoPD: Co-Evolving Policy Distillation (arxiv 2604.27083) | huggingface
