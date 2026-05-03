@@ -231,3 +231,27 @@ Append-only timeline of ingests and lint passes.
 ## [2026-04-30] concept | speculative-decoding.md created (cross-axis pattern: Nemotron MTP, SDVG, RL rollouts) | concept-page
 ## [2026-04-30] concept | knowledge-distillation.md updated with Tide cross-arch dLLM | concept-page
 ## [2026-04-30] concept | rl-for-llms.md updated with NeMo-RL speculative rollouts | concept-page
+## [2026-05-02] ingest | Step-level Optimization for Computer-Use Agents (arxiv 2604.27151) | huggingface
+## [2026-05-02] ingest | Compliance vs Sensibility: Reasoning Controllability in LLMs (arxiv 2604.27251) | huggingface
+## [2026-05-02] ingest | Learning from Noisy Preferences: Semi-DPO (arxiv 2604.24952) | huggingface
+## [2026-05-02] ingest | ViPO: Visual Preference Optimization at Scale + Poly-DPO (arxiv 2604.24953) | huggingface
+## [2026-05-02] ingest | FlashRT: Efficient Red-Teaming for Long-Context LLMs (arxiv 2604.28157) | huggingface
+## [2026-05-02] ingest | Safety Drift After Fine-Tuning in High-Stakes Domains (arxiv 2604.24902) | huggingface
+## [2026-05-02] ingest | Nemotron 3 Nano Omni: 30B audio-native multimodal (arxiv 2604.24954) | huggingface
+## [2026-05-02] ingest | Instruction-Guided Arabic Poetry Generation (arxiv 2604.27766) | huggingface
+## [2026-05-02] ingest | Pentagon AI-first fighting force; Anthropic excluded | rss/the-decoder
+## [2026-05-02] ingest | Chinese AI startups onshoring; Moonshot, StepFun | rss/the-decoder
+## [2026-05-02] ingest | Big Tech AI capex $725B for the year | rss/the-decoder
+## [2026-05-02] ingest | ChatGPT goblin RLHF reward-hack incident | rss/the-decoder
+## [2026-05-02] ingest | Microsoft Word Legal Agent for contract review | rss/the-decoder
+## [2026-05-02] ingest | Anthropic Claude Security launch (defender productization) | rss/the-decoder
+## [2026-05-02] ingest | UK AISI: GPT-5.5 = Mythos cyber parity | rss/the-decoder
+## [2026-05-02] ingest | Google DeepMind AI co-clinician beats GPT-5.4 | rss/the-decoder
+## [2026-05-02] ingest | Mistral Medium 3.5 unified flagship | rss/the-decoder
+## [2026-05-02] ingest | Ken Huang Ch 14 — Model Routing & Provider Abstraction | rss/agentic-ai
+## [2026-05-02] ingest | AISN #72 — CAIS AI Wellbeing + public sentiment + OpenAI releases | rss/ai-safety-newsletter
+## [2026-05-02] ingest | Algorithmic Bridge weekly #120 | rss/algorithmic-bridge
+## [2026-05-02] ingest | Marcus on Brockman 80%-of-OpenAI-code claim | rss/marcus-on-ai
+## [2026-05-02] ingest | Simon Willison: iNaturalist Sightings on phone with Claude Code | rss/simon-willison
+## [2026-05-02] concept | llm-routing.md updated — 3 axes (query/provider-tier/trajectory), Ken Huang Ch 14 + Step-level Optimization added; cache-aware/reasoning-mode routing flagged as open | concept-page
+## [2026-05-02] digest | 2026-05-02.md written: routing on 3 axes, vector-valued operational properties, cyber equilibrium shift, bilateral AI sovereignty | daily-digest
