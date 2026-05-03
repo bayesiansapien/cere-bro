@@ -6,11 +6,17 @@ const dataJson = JSON.stringify({
   topicColors: wiki.topicColors,
   topicCounts: wiki.topicCounts,
   weeks: wiki.weeks,
+  months: wiki.months,
+  cumulativeWeeks: wiki.cumulativeWeeks,
   researchTopics: wiki.researchTopics,
   researchHeatmap: wiki.researchHeatmap,
+  researchHeatmapMonthly: wiki.researchHeatmapMonthly,
+  researchCumulative: wiki.researchCumulative,
   researchMomentum: wiki.researchMomentum,
   industryTags: wiki.industryTags,
   industryHeatmap: wiki.industryHeatmap,
+  industryHeatmapMonthly: wiki.industryHeatmapMonthly,
+  industryCumulative: wiki.industryCumulative,
   industryMomentum: wiki.industryMomentum,
   industryByTag: wiki.industryByTag,
 });
@@ -28,7 +34,7 @@ const dataJson = JSON.stringify({
   <section class="atlas-section">
     <div class="section-marker">overview</div>
     <h2>Topic distribution</h2>
-    <p class="lead">Source summary papers across the wiki, by topic.</p>
+    <p class="lead">All source summaries in the wiki, by topic. The pie grows as the wiki accumulates.</p>
     <div class="chart-grid">
       <div class="chart-card">
         <canvas id="donut-chart" height="380"></canvas>
@@ -42,9 +48,24 @@ const dataJson = JSON.stringify({
   <section class="atlas-section">
     <div class="section-marker" style="color:#f59e0b">research</div>
     <h2>Where research is moving</h2>
-    <p class="lead">Last 12 weeks. Each row is a topic, each column a week. Darker cell = more papers that week. Read left-to-right to see which topics are heating up vs cooling.</p>
-    <div class="chart-card heatmap-card">
-      <div id="research-heatmap"></div>
+    <p class="lead">
+      <strong>Week / Month</strong> show recent activity. <strong>All-time</strong> is the cumulative wiki growth, layered by topic.
+    </p>
+
+    <div class="view-toggle" data-view-group="research">
+      <button class="view-btn active" data-view="week">Week</button>
+      <button class="view-btn" data-view="month">Month</button>
+      <button class="view-btn" data-view="all">All-time</button>
+    </div>
+
+    <div class="chart-card heatmap-card view-pane" data-view-pane="research-week">
+      <div id="research-heatmap-week"></div>
+    </div>
+    <div class="chart-card heatmap-card view-pane hidden" data-view-pane="research-month">
+      <div id="research-heatmap-month"></div>
+    </div>
+    <div class="chart-card view-pane hidden" data-view-pane="research-all" style="padding: 28px 28px 36px">
+      <canvas id="research-cumulative" height="360"></canvas>
     </div>
 
     <div class="momentum-grid">
@@ -62,9 +83,24 @@ const dataJson = JSON.stringify({
   <section class="atlas-section">
     <div class="section-marker" style="color:#94a3b8">industry</div>
     <h2>What the industry is talking about</h2>
-    <p class="lead">AI industry coverage auto-classified into themes — economics, regulation, products, infrastructure, M&A, critique. Same heatmap pattern: which themes are dominating which weeks.</p>
-    <div class="chart-card heatmap-card">
-      <div id="industry-heatmap"></div>
+    <p class="lead">
+      AI industry coverage auto-classified into themes. Same week / month / all-time pattern.
+    </p>
+
+    <div class="view-toggle" data-view-group="industry">
+      <button class="view-btn active" data-view="week">Week</button>
+      <button class="view-btn" data-view="month">Month</button>
+      <button class="view-btn" data-view="all">All-time</button>
+    </div>
+
+    <div class="chart-card heatmap-card view-pane" data-view-pane="industry-week">
+      <div id="industry-heatmap-week"></div>
+    </div>
+    <div class="chart-card heatmap-card view-pane hidden" data-view-pane="industry-month">
+      <div id="industry-heatmap-month"></div>
+    </div>
+    <div class="chart-card view-pane hidden" data-view-pane="industry-all" style="padding: 28px 28px 36px">
+      <canvas id="industry-cumulative" height="320"></canvas>
     </div>
 
     <div class="momentum-grid">
