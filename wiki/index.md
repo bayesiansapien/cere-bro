@@ -52,6 +52,8 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [knowledge-distillation.md](inference-efficiency/knowledge-distillation.md) | Concept: knowledge distillation, on-policy distillation, cross-tokenizer BLD |
 | [kv-cache.md](inference-efficiency/kv-cache.md) | Concept: KV cache — context dependency, reuse, compression, eviction |
+| [2026-05-02-nemotron-3-nano-omni-multimodal.md](inference-efficiency/2026-05-02-nemotron-3-nano-omni-multimodal.md) | Nemotron 3 Nano Omni: 30B multimodal with native audio; token-reduction for lower latency; FP4/FP8/BF16 released |
+| [2026-05-02-flashrt-efficient-red-teaming.md](inference-efficiency/2026-05-02-flashrt-efficient-red-teaming.md) | FlashRT: 264GB → 65GB, 1hr → 10min for optimization-based red-teaming at 32K context |
 | [2026-04-16-tip-token-importance-on-policy-distillation.md](inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md) | TIP: two-axis token importance taxonomy; 47% memory reduction |
 | [2026-04-17-kv-packet-recomputation-free-kv-cache.md](inference-efficiency/2026-04-17-kv-packet-recomputation-free-kv-cache.md) | KV Packet: soft-token adapters for zero-recomputation KV cache reuse |
 | [2026-04-17-cross-tokenizer-distillation-byte-level.md](inference-efficiency/2026-04-17-cross-tokenizer-distillation-byte-level.md) | Byte-Level Distillation: bytes as universal cross-tokenizer interface |
