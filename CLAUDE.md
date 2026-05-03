@@ -69,12 +69,17 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
 
-**0b. Collect all raw sources for the date.** Before writing any digest, check ALL THREE raw source directories for the relevant date:
-- `raw/gmail/YYYY-MM-DD-starred.md` — Gmail starred emails (AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace snippets, etc.)
-- `raw/rss/YYYY-MM-DD-*.md` — RSS feeds (The Decoder, TLDR AI, Interconnects AI, SemiAnalysis full posts, Simon Willison, etc.)
-- `raw/huggingface/YYYY-MM-DD-*.md` — Individual HuggingFace paper files for that date
+**0b. Collect ALL raw sources — this is mandatory, not optional.** Before writing any digest, read ALL THREE raw source directories. This is a hard requirement — a digest written without checking all three is incomplete.
 
-Read all three before writing the digest. A digest that only uses one or two of these sources is incomplete. If a source directory has no file for a given date, note it and proceed with what's available. Never write a digest from Gmail alone — always check whether RSS and HuggingFace files exist for that date.
+**Step 1 — Identify the date range.** If no files exist for the exact digest date, use the most recent available files from each directory. Run `ls raw/gmail/ raw/rss/ raw/huggingface/` to see what's available.
+
+**Step 2 — Read Gmail starred (always).** Find the most recent `raw/gmail/YYYY-MM-DD-starred.md` file. Read it in full. Gmail carries AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace digest snippets, and others — sources that don't appear in RSS or HuggingFace. Missing Gmail means missing these sources entirely.
+
+**Step 3 — Read RSS feeds (always).** Read all `raw/rss/YYYY-MM-DD-*.md` files for the target date range. RSS carries The Decoder, TLDR AI, Interconnects AI, SemiAnalysis full posts, Simon Willison, Algorithmic Bridge, Marcus on AI, and others.
+
+**Step 4 — Read HuggingFace papers (always).** Read all `raw/huggingface/YYYY-MM-DD-*.md` files for the target date range.
+
+Do not start writing the digest until all three have been read. If a source directory has no file for the target date, note it explicitly and use the most recent available file from that source. Never skip Gmail because "it's only through yesterday" — yesterday's Gmail is still input to today's digest.
 
 **0c. Check the parallel daily digest.** Look for `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/daily-digest-YYYY-MM-DD.md` (replace YYYY-MM-DD with the date being ingested). Skip any `-status.md` files. If the file exists, read it before writing the digest. Treat it as a curated synthesis source from a parallel Claude job. Merge its unique content into the final digest — industry news, papers not in the HuggingFace feed, analytical interpretations, and cross-source synthesis. Do not duplicate content already covered from HuggingFace/RSS sources; add only what is new or provides deeper analysis.
 
