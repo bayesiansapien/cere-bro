@@ -40,6 +40,85 @@ const TIER_OF_TOPIC = {
   'daily-digest': 0,
 };
 
+// AI industry sub-categories — auto-tagged from title + tldr keywords
+// Order matters: first match wins
+const INDUSTRY_TAGS = [
+  {
+    key: 'economics',
+    label: 'Economics & Cost',
+    color: '#10b981',
+    keywords: ['valuation', 'arr', 'revenue', 'capex', 'margin', 'billion', 'misallocation', 'capital', 'pricing', 'cost', 'economics', 'value capture', 'ipo', 'profit', '$', 'spending'],
+  },
+  {
+    key: 'regulation',
+    label: 'Regulation & Policy',
+    color: '#ef4444',
+    keywords: ['regulation', 'policy', 'antitrust', 'pentagon', 'ftc', 'court', 'legal', 'ban', 'eu ai act', 'white house', 'congress', 'classified', 'sanctions', 'lawsuit'],
+  },
+  {
+    key: 'infrastructure',
+    label: 'Infrastructure & Compute',
+    color: '#8b5cf6',
+    keywords: ['datacenter', 'gpu', 'chip', 'hardware', 'compute', 'gigawatt', 'memory', 'fab', 'tsmc', 'nvidia', 'reliability', 'github breaks', 'capacity', 'silicon'],
+  },
+  {
+    key: 'mergers',
+    label: 'M&A & Funding',
+    color: '#f59e0b',
+    keywords: ['acquisition', 'acquire', 'investment', 'raise', 'funding round', 'ipo', 'merger', 'buyout', 'partnership', 'deal'],
+  },
+  {
+    key: 'products',
+    label: 'Products & Launches',
+    color: '#3b82f6',
+    keywords: ['launch', 'launches', 'release', 'available', 'ships', 'shipped', 'beta', 'preview', 'announcement', 'introduces', 'unveils', 'connector', 'creative work'],
+  },
+  {
+    key: 'critique',
+    label: 'Critique & Risks',
+    color: '#94a3b8',
+    keywords: ['skeptic', 'critique', 'concern', 'controversy', 'fail', 'criticism', 'risk', 'misallocation', 'bubble', 'slop', 'dispute', 'trust'],
+  },
+];
+
+function classifyIndustry(title, tldr) {
+  const text = `${title ?? ''} ${tldr ?? ''}`.toLowerCase();
+  for (const tag of INDUSTRY_TAGS) {
+    if (tag.keywords.some((k) => text.includes(k))) return tag.key;
+  }
+  return 'other';
+}
+
+// ── Date helpers ──────────────────────────────────────────────────────────────
+
+function parseDate(iso) {
+  if (!iso) return null;
+  return new Date(iso + 'T00:00:00Z');
+}
+
+// ISO week starting Monday — return YYYY-MM-DD of the Monday of that week
+function weekStartUTC(d) {
+  if (!d) return null;
+  const day = d.getUTCDay(); // 0 = Sun
+  const offset = day === 0 ? 6 : day - 1;
+  const ws = new Date(d.getTime() - offset * 24 * 60 * 60 * 1000);
+  return ws.toISOString().slice(0, 10);
+}
+
+// Build last-N-weeks ordered list of week start dates (oldest first)
+function lastNWeeks(n) {
+  const today = new Date();
+  today.setUTCHours(0, 0, 0, 0);
+  const thisMonday = weekStartUTC(today);
+  const out = [];
+  const start = new Date(thisMonday + 'T00:00:00Z');
+  for (let i = n - 1; i >= 0; i--) {
+    const d = new Date(start.getTime() - i * 7 * 24 * 60 * 60 * 1000);
+    out.push(d.toISOString().slice(0, 10));
+  }
+  return out;
+}
+
 function walk(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const files = [];
@@ -154,6 +233,8 @@ function main() {
       extractTier(content, frontmatter) ??
       (TIER_OF_TOPIC[topic] !== undefined ? TIER_OF_TOPIC[topic] : null);
 
+    const industryTag = topic === 'ai-industry' ? classifyIndustry(title, tldr) : null;
+
     const entry = {
       id: relPath.replace(/\\/g, '/').replace(/\.md$/, ''),
       path: relPath.replace(/\\/g, '/'),
@@ -164,6 +245,7 @@ function main() {
       title,
       tldr,
       links,
+      industryTag,
       isSummary: isSourceSummary(filename),
       isConcept: isConceptPage(filename, topic),
       isDigest: isDig,
@@ -183,12 +265,96 @@ function main() {
   // Sort digests reverse-chronologically
   digests.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
 
-  // Build topic timeline: papers per topic per date
+  // Build topic timeline: papers per topic per date (legacy, daily)
   const timeline = {};
   for (const p of pages) {
     if (!p.date || !p.isSummary) continue;
     if (!timeline[p.date]) timeline[p.date] = {};
     timeline[p.date][p.topic] = (timeline[p.date][p.topic] ?? 0) + 1;
+  }
+
+  // Weekly heatmap data — last 12 weeks, papers per topic per week
+  const N_WEEKS = 12;
+  const weeks = lastNWeeks(N_WEEKS);
+  const researchTopics = Object.keys(TOPIC_COLORS).filter(
+    (t) => t !== 'ai-industry' && t !== 'daily-digest',
+  );
+
+  // research heatmap: topic -> week -> count
+  const researchHeatmap = {};
+  for (const t of researchTopics) {
+    researchHeatmap[t] = {};
+    for (const w of weeks) researchHeatmap[t][w] = 0;
+  }
+  for (const p of pages) {
+    if (!p.date || !p.isSummary) continue;
+    if (!researchTopics.includes(p.topic)) continue;
+    const w = weekStartUTC(parseDate(p.date));
+    if (researchHeatmap[p.topic][w] !== undefined) {
+      researchHeatmap[p.topic][w] += 1;
+    }
+  }
+
+  // research momentum: this-week vs prior-week count
+  const thisWeek = weeks[weeks.length - 1];
+  const lastWeek = weeks[weeks.length - 2];
+  const prevWeek = weeks[weeks.length - 3];
+
+  const researchMomentum = researchTopics.map((t) => {
+    const tw = researchHeatmap[t][thisWeek] ?? 0;
+    const lw = researchHeatmap[t][lastWeek] ?? 0;
+    const pw = researchHeatmap[t][prevWeek] ?? 0;
+    // Compare last 7-day total vs prior 14-day average per week
+    const recent = tw;
+    const trailing = (lw + pw) / 2;
+    return {
+      topic: t,
+      thisWeek: tw,
+      lastWeek: lw,
+      delta: tw - lw,
+      trailingAvg: Number(trailing.toFixed(1)),
+    };
+  });
+
+  // industry heatmap: sub-category -> week -> count
+  const industryCategories = INDUSTRY_TAGS.map((t) => t.key);
+  const industryHeatmap = {};
+  for (const cat of industryCategories) {
+    industryHeatmap[cat] = {};
+    for (const w of weeks) industryHeatmap[cat][w] = 0;
+  }
+  for (const p of pages) {
+    if (!p.date || !p.isSummary) continue;
+    if (p.topic !== 'ai-industry' || !p.industryTag) continue;
+    if (industryHeatmap[p.industryTag] === undefined) continue;
+    const w = weekStartUTC(parseDate(p.date));
+    if (industryHeatmap[p.industryTag][w] !== undefined) {
+      industryHeatmap[p.industryTag][w] += 1;
+    }
+  }
+
+  const industryMomentum = industryCategories.map((cat) => {
+    const tw = industryHeatmap[cat][thisWeek] ?? 0;
+    const lw = industryHeatmap[cat][lastWeek] ?? 0;
+    const pw = industryHeatmap[cat][prevWeek] ?? 0;
+    return {
+      key: cat,
+      label: INDUSTRY_TAGS.find((t) => t.key === cat)?.label ?? cat,
+      color: INDUSTRY_TAGS.find((t) => t.key === cat)?.color ?? '#94a3b8',
+      thisWeek: tw,
+      lastWeek: lw,
+      delta: tw - lw,
+      trailingAvg: Number(((lw + pw) / 2).toFixed(1)),
+    };
+  });
+
+  const industryTotal = pages.filter(
+    (p) => p.topic === 'ai-industry' && p.isSummary,
+  ).length;
+  const industryByTag = {};
+  for (const p of pages) {
+    if (p.topic !== 'ai-industry' || !p.isSummary || !p.industryTag) continue;
+    industryByTag[p.industryTag] = (industryByTag[p.industryTag] ?? 0) + 1;
   }
 
   // Topic distribution: count of summary pages per topic
@@ -254,6 +420,7 @@ function main() {
       summaries: pages.filter((p) => p.isSummary).length,
       concepts: pages.filter((p) => p.isConcept).length,
       digests: digests.length,
+      industry: industryTotal,
     },
     topicColors: TOPIC_COLORS,
     topicCounts,
@@ -264,6 +431,14 @@ function main() {
     edges,
     recentSummaries,
     conceptPages,
+    weeks,
+    researchTopics,
+    researchHeatmap,
+    researchMomentum,
+    industryTags: INDUSTRY_TAGS.map(({ keywords, ...rest }) => rest),
+    industryHeatmap,
+    industryMomentum,
+    industryByTag,
   };
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
