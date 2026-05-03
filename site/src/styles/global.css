@@ -438,3 +438,257 @@ th {
   z-index: 100;
   display: none;
 }
+
+/* Section markers — small label above section heading */
+.section-marker {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--fg-muted);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+/* Topic distribution list — used in donut card */
+.topic-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.topic-row:last-child { border-bottom: none; }
+.topic-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.topic-name {
+  flex: 1;
+  color: var(--fg);
+  border: none;
+}
+.topic-name:hover { color: var(--accent-2); border: none; }
+.topic-count {
+  font-family: var(--mono);
+  color: var(--fg-dim);
+  font-size: 0.85rem;
+}
+.topic-pct {
+  font-family: var(--mono);
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  width: 40px;
+  text-align: right;
+}
+
+/* Heatmap */
+.heatmap-card {
+  padding: 20px 24px;
+  overflow-x: auto;
+}
+
+.heatmap-wrapper {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.heatmap-row {
+  display: grid;
+  grid-template-columns: 180px repeat(12, minmax(34px, 1fr));
+  gap: 2px;
+  margin-bottom: 2px;
+  align-items: stretch;
+}
+
+.heatmap-row.heatmap-header {
+  margin-bottom: 6px;
+}
+
+.heatmap-label {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--fg);
+  padding: 8px 12px;
+  border-left: 3px solid var(--fg-muted);
+  background: var(--bg-elev);
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  align-items: center;
+}
+.heatmap-corner {
+  background: transparent;
+  border-left: none;
+}
+
+.heatmap-week-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--fg-muted);
+  text-align: center;
+  padding: 4px 0;
+  letter-spacing: 0.02em;
+}
+
+.heatmap-cell {
+  border-radius: 3px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: rgba(10, 10, 15, 0.85);
+  font-weight: 600;
+  cursor: default;
+  transition: transform .1s;
+}
+.heatmap-cell:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 800px) {
+  .heatmap-row {
+    grid-template-columns: 130px repeat(12, minmax(28px, 1fr));
+  }
+  .heatmap-label { font-size: 0.7rem; padding: 6px 8px; }
+  .heatmap-week-label { font-size: 0.55rem; }
+}
+
+/* Momentum strips */
+.momentum-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+@media (max-width: 700px) {
+  .momentum-grid { grid-template-columns: 1fr; }
+}
+
+.momentum-card {
+  padding: 18px 20px;
+}
+
+.momentum-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  letter-spacing: 0.02em;
+}
+.momentum-title.rising { color: #f97316; }
+.momentum-title.cooling { color: #38bdf8; }
+
+.momentum-item {
+  display: grid;
+  grid-template-columns: 14px 1fr auto auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.momentum-item:last-child { border-bottom: none; }
+
+.momentum-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+.momentum-name {
+  color: var(--fg);
+  font-weight: 500;
+}
+.momentum-count {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+}
+.momentum-delta {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 56px;
+  text-align: right;
+}
+.momentum-delta.up { color: #f97316; }
+.momentum-delta.down { color: #38bdf8; }
+.momentum-delta.flat { color: var(--fg-muted); }
+
+.momentum-empty {
+  color: var(--fg-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  padding: 8px 0;
+}
+
+/* Browse — tabbed accordion */
+.browse-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.browse-tab {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--fg-dim);
+  cursor: pointer;
+  transition: all .15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.browse-tab:hover {
+  background: var(--bg-elev);
+  color: var(--fg);
+}
+.browse-tab.active {
+  background: var(--bg-elev);
+  color: var(--fg);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+.browse-tab .tab-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+.browse-tab .tab-count {
+  font-size: 0.7rem;
+  color: var(--fg-muted);
+  font-family: var(--mono);
+}
+
+.browse-drawer {
+  display: none;
+  margin-top: 4px;
+}
+.browse-drawer.open { display: block; }
+
+.browse-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+/* Hero variant for digest count */
+.digest-count {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  margin-right: 8px;
+}

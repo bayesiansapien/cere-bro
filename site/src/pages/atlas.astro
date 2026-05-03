@@ -5,9 +5,14 @@ import wiki from '../data/wiki.json';
 const dataJson = JSON.stringify({
   topicColors: wiki.topicColors,
   topicCounts: wiki.topicCounts,
-  timeline: wiki.timeline,
-  nodes: wiki.nodes,
-  edges: wiki.edges,
+  weeks: wiki.weeks,
+  researchTopics: wiki.researchTopics,
+  researchHeatmap: wiki.researchHeatmap,
+  researchMomentum: wiki.researchMomentum,
+  industryTags: wiki.industryTags,
+  industryHeatmap: wiki.industryHeatmap,
+  industryMomentum: wiki.industryMomentum,
+  industryByTag: wiki.industryByTag,
 });
 ---
 
@@ -16,22 +21,14 @@ const dataJson = JSON.stringify({
     <div class="hero-date">global view</div>
     <h1>Atlas</h1>
     <p class="hero-tagline">
-      The whole knowledge base at a glance — how it has grown, where the weight sits, and how the pages connect.
+      Where research is heating up, where it's cooling, and what the AI industry is actually talking about.
     </p>
   </section>
 
   <section class="atlas-section">
-    <h2>Accumulation timeline</h2>
-    <p class="lead">Source summary papers added per day, stacked by topic. Watch the wiki grow.</p>
-    <div class="chart-card">
-      <canvas id="timeline-chart" height="300"></canvas>
-      <div id="legend-timeline" class="legend"></div>
-    </div>
-  </section>
-
-  <section class="atlas-section">
+    <div class="section-marker">overview</div>
     <h2>Topic distribution</h2>
-    <p class="lead">What the wiki is mostly about. Click a slice to see all pages in that topic.</p>
+    <p class="lead">Source summary papers across the wiki, by topic.</p>
     <div class="chart-grid">
       <div class="chart-card">
         <canvas id="donut-chart" height="380"></canvas>
@@ -43,13 +40,43 @@ const dataJson = JSON.stringify({
   </section>
 
   <section class="atlas-section">
-    <h2>Connection graph</h2>
-    <p class="lead">
-      Pages as nodes, cross-references as edges. Color by topic. Drag a node, hover for the title, click to open.
-    </p>
-    <div id="network"></div>
-    <div class="network-tooltip" id="network-tooltip"></div>
-    <div id="legend-network" class="legend"></div>
+    <div class="section-marker" style="color:#f59e0b">research</div>
+    <h2>Where research is moving</h2>
+    <p class="lead">Last 12 weeks. Each row is a topic, each column a week. Darker cell = more papers that week. Read left-to-right to see which topics are heating up vs cooling.</p>
+    <div class="chart-card heatmap-card">
+      <div id="research-heatmap"></div>
+    </div>
+
+    <div class="momentum-grid">
+      <div class="chart-card momentum-card">
+        <div class="momentum-title rising">🔥 Rising this week</div>
+        <div id="research-rising"></div>
+      </div>
+      <div class="chart-card momentum-card">
+        <div class="momentum-title cooling">❄️ Cooling this week</div>
+        <div id="research-cooling"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker" style="color:#94a3b8">industry</div>
+    <h2>What the industry is talking about</h2>
+    <p class="lead">AI industry coverage auto-classified into themes — economics, regulation, products, infrastructure, M&A, critique. Same heatmap pattern: which themes are dominating which weeks.</p>
+    <div class="chart-card heatmap-card">
+      <div id="industry-heatmap"></div>
+    </div>
+
+    <div class="momentum-grid">
+      <div class="chart-card momentum-card">
+        <div class="momentum-title rising">🔥 Heating up</div>
+        <div id="industry-rising"></div>
+      </div>
+      <div class="chart-card momentum-card">
+        <div class="momentum-title cooling">❄️ Quieting down</div>
+        <div id="industry-cooling"></div>
+      </div>
+    </div>
   </section>
 
   <script id="atlas-data" type="application/json" set:html={dataJson} />

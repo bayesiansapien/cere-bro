@@ -11,7 +11,7 @@ for (const p of wiki.pages) {
 }
 // Sort within each topic: concept pages first, then by date desc
 for (const t of Object.keys(grouped)) {
-  grouped[t].sort((a, b) => {
+  grouped[t].sort((a: any, b: any) => {
     if (a.isConcept && !b.isConcept) return -1;
     if (!a.isConcept && b.isConcept) return 1;
     return (b.date ?? '').localeCompare(a.date ?? '');
@@ -27,29 +27,68 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
   <section class="hero">
     <div class="hero-date">all wiki pages</div>
     <h1>Browse</h1>
-    <p class="hero-tagline">Every page in the wiki, grouped by topic. Concept pages first, then summaries newest-to-oldest.</p>
+    <p class="hero-tagline">Click a topic to expand. Concept pages first, then summaries newest-to-oldest.</p>
   </section>
 
+  <div class="browse-tabs">
+    {topics.map((t) => {
+      const color = (wiki.topicColors as any)[t] ?? '#94a3b8';
+      return (
+        <button class="browse-tab" data-topic={t}>
+          <span class="tab-swatch" style={`background: ${color}`}></span>
+          <span>{t}</span>
+          <span class="tab-count">{grouped[t].length}</span>
+        </button>
+      );
+    })}
+  </div>
+
   {topics.map((t) => {
-    const color = wiki.topicColors[t as keyof typeof wiki.topicColors] ?? '#94a3b8';
+    const color = (wiki.topicColors as any)[t] ?? '#94a3b8';
     return (
-      <section class="atlas-section" style="margin-bottom:48px">
-        <h2 style={`color: ${color}; border-bottom-color: ${color}33`}>{t}</h2>
-        <div class="lead">{grouped[t].length} pages</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px">
-          {grouped[t].map((p) => (
+      <div class="browse-drawer" data-topic-drawer={t}>
+        <div class="browse-grid">
+          {grouped[t].map((p: any) => (
             <a
               href={url(p.id)}
               class="recent-item"
               style={`border-left-color: ${color}; padding: 14px 16px`}
             >
-              {p.date && <div class="recent-date">{p.date}{p.tier ? ` · Tier ${p.tier}` : ''}{p.isConcept ? ' · concept' : ''}</div>}
+              {p.date && (
+                <div class="recent-date">
+                  {p.date}{p.tier ? ` · Tier ${p.tier}` : ''}{p.isConcept ? ' · concept' : ''}
+                </div>
+              )}
               {!p.date && <div class="recent-date">concept page</div>}
               <div class="recent-title" style="font-size: 0.95rem; margin-top: 4px">{p.title}</div>
             </a>
           ))}
         </div>
-      </section>
+      </div>
     );
   })}
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.browse-tab');
+      const drawers = document.querySelectorAll('.browse-drawer');
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const topic = tab.getAttribute('data-topic');
+          const isActive = tab.classList.contains('active');
+          // Close all
+          tabs.forEach((t) => t.classList.remove('active'));
+          drawers.forEach((d) => d.classList.remove('open'));
+          // Open this one if it wasn't already active
+          if (!isActive) {
+            tab.classList.add('active');
+            const drawer = document.querySelector(`[data-topic-drawer="${topic}"]`);
+            if (drawer) drawer.classList.add('open');
+          }
+        });
+      });
+      // Open first tab by default
+      if (tabs.length > 0) tabs[0].click();
+    });
+  </script>
 </Base>

@@ -1,79 +1,35 @@
-// Atlas visualization — timeline, donut, network graph
-// Reads JSON from inline <script id="atlas-data">
-
+// Atlas visualizations — donut, research heatmap, industry heatmap, momentum strips
 import Chart from 'https://esm.sh/chart.js@4.4.0/auto';
-import * as d3 from 'https://esm.sh/d3@7';
 
 const data = JSON.parse(document.getElementById('atlas-data').textContent);
-const { topicColors, topicCounts, timeline, nodes, edges } = data;
+const {
+  topicColors,
+  topicCounts,
+  weeks,
+  researchTopics,
+  researchHeatmap,
+  researchMomentum,
+  industryTags,
+  industryHeatmap,
+  industryMomentum,
+} = data;
 
-// Resolve URL with base path
 const base = document.querySelector('a.brand')?.getAttribute('href') ?? '/';
 const url = (p) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 
-// ── Timeline (stacked bar chart) ──────────────────────────────────────────────
-{
-  const dates = Object.keys(timeline).sort();
-  const topics = Object.keys(topicCounts).sort();
-
-  const datasets = topics.map((topic) => ({
-    label: topic,
-    backgroundColor: topicColors[topic] ?? '#94a3b8',
-    borderColor: topicColors[topic] ?? '#94a3b8',
-    data: dates.map((d) => timeline[d]?.[topic] ?? 0),
-    stack: 'all',
-  }));
-
-  const ctx = document.getElementById('timeline-chart');
-  if (ctx) {
-    new Chart(ctx, {
-      type: 'bar',
-      data: { labels: dates, datasets },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            mode: 'index',
-            intersect: false,
-            backgroundColor: '#16161f',
-            borderColor: '#34343f',
-            borderWidth: 1,
-            titleColor: '#e5e7eb',
-            bodyColor: '#94a3b8',
-          },
-        },
-        scales: {
-          x: {
-            stacked: true,
-            grid: { color: '#24242f' },
-            ticks: { color: '#64748b', font: { family: 'JetBrains Mono', size: 10 } },
-          },
-          y: {
-            stacked: true,
-            grid: { color: '#24242f' },
-            ticks: { color: '#64748b', precision: 0 },
-            title: { display: true, text: 'pages added', color: '#94a3b8' },
-          },
-        },
-      },
-    });
-  }
-
-  // Custom legend
-  const legend = document.getElementById('legend-timeline');
-  if (legend) {
-    legend.innerHTML = topics
-      .map(
-        (t) =>
-          `<div class="legend-item"><span class="legend-swatch" style="background:${topicColors[t] ?? '#94a3b8'}"></span>${t}</div>`,
-      )
-      .join('');
-  }
+// Format week start ("2026-04-27") → "Apr 27"
+function fmtWeek(iso) {
+  const [, m, d] = iso.split('-').map(Number);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return `${months[m - 1]} ${d}`;
 }
 
-// ── Donut: topic distribution ─────────────────────────────────────────────────
+// Slug-ify topic name for URL
+function topicHref(t) {
+  return url(t);
+}
+
+// ── Topic distribution donut ──────────────────────────────────────────────────
 {
   const topics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1]);
 
@@ -89,6 +45,7 @@ const url = (p) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
             backgroundColor: topics.map(([t]) => topicColors[t] ?? '#94a3b8'),
             borderColor: '#0a0a0f',
             borderWidth: 2,
+            hoverOffset: 8,
           },
         ],
       },
@@ -104,6 +61,9 @@ const url = (p) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
             borderWidth: 1,
             titleColor: '#e5e7eb',
             bodyColor: '#94a3b8',
+            callbacks: {
+              label: (ctx) => `${ctx.label}: ${ctx.parsed} pages`,
+            },
           },
         },
       },
@@ -117,142 +77,161 @@ const url = (p) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
       .map(([t, c]) => {
         const pct = ((c / total) * 100).toFixed(0);
         const color = topicColors[t] ?? '#94a3b8';
-        return `<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #24242f">
-          <span style="width:12px;height:12px;border-radius:3px;background:${color};display:inline-block"></span>
-          <a href="${url(t)}/" style="flex:1;color:#e5e7eb;border:none">${t}</a>
-          <span style="font-family:JetBrains Mono;color:#94a3b8;font-size:.85rem">${c}</span>
-          <span style="font-family:JetBrains Mono;color:#64748b;font-size:.75rem;width:36px;text-align:right">${pct}%</span>
+        return `<div class="topic-row">
+          <span class="topic-swatch" style="background:${color}"></span>
+          <a href="${topicHref(t)}/" class="topic-name">${t}</a>
+          <span class="topic-count">${c}</span>
+          <span class="topic-pct">${pct}%</span>
         </div>`;
       })
       .join('');
   }
 }
 
-// ── Network graph (D3 force-directed) ─────────────────────────────────────────
-{
-  const container = document.getElementById('network');
-  const tooltip = document.getElementById('network-tooltip');
-  if (!container) {
-    console.warn('Network container missing');
-  } else {
-    const width = container.clientWidth;
-    const height = container.clientHeight || 600;
+// ── Heatmap rendering (shared for research + industry) ────────────────────────
 
-    const svg = d3
-      .select(container)
-      .append('svg')
-      .attr('width', width)
-      .attr('height', height)
-      .attr('viewBox', [0, 0, width, height]);
+function renderHeatmap(container, rows, weeks, getCount, getColor, getLabel, getKey) {
+  if (!container) return;
+  container.innerHTML = '';
 
-    const g = svg.append('g');
-
-    // Zoom + pan
-    svg.call(
-      d3.zoom().scaleExtent([0.2, 4]).on('zoom', (event) => {
-        g.attr('transform', event.transform);
-      }),
-    );
-
-    // Filter to nodes that participate in the graph (have at least one edge)
-    const connectedIds = new Set();
-    edges.forEach((e) => {
-      connectedIds.add(e.source);
-      connectedIds.add(e.target);
-    });
-    const visibleNodes = nodes.filter((n) => connectedIds.has(n.id));
-    const nodeMap = new Map(visibleNodes.map((n) => [n.id, n]));
-    const visibleEdges = edges
-      .filter((e) => nodeMap.has(e.source) && nodeMap.has(e.target))
-      .map((e) => ({ source: e.source, target: e.target }));
-
-    const sim = d3
-      .forceSimulation(visibleNodes)
-      .force(
-        'link',
-        d3
-          .forceLink(visibleEdges)
-          .id((d) => d.id)
-          .distance(60)
-          .strength(0.4),
-      )
-      .force('charge', d3.forceManyBody().strength(-180))
-      .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collide', d3.forceCollide().radius(12));
-
-    const link = g
-      .append('g')
-      .attr('stroke', '#34343f')
-      .attr('stroke-opacity', 0.55)
-      .attr('stroke-width', 1)
-      .selectAll('line')
-      .data(visibleEdges)
-      .join('line');
-
-    const node = g
-      .append('g')
-      .selectAll('circle')
-      .data(visibleNodes)
-      .join('circle')
-      .attr('r', (d) => (d.isConcept ? 9 : 6))
-      .attr('fill', (d) => d.color)
-      .attr('stroke', '#0a0a0f')
-      .attr('stroke-width', 1.5)
-      .style('cursor', 'pointer')
-      .call(
-        d3
-          .drag()
-          .on('start', (event, d) => {
-            if (!event.active) sim.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
-          })
-          .on('drag', (event, d) => {
-            d.fx = event.x;
-            d.fy = event.y;
-          })
-          .on('end', (event, d) => {
-            if (!event.active) sim.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-          }),
-      )
-      .on('mouseenter', (event, d) => {
-        tooltip.style.display = 'block';
-        tooltip.innerHTML = `
-          <div style="font-weight:600;margin-bottom:4px">${d.title}</div>
-          <div style="color:${d.color};font-size:.7rem;text-transform:uppercase;letter-spacing:.05em">${d.topic}${d.date ? ' · ' + d.date : ''}</div>
-        `;
-      })
-      .on('mousemove', (event) => {
-        tooltip.style.left = event.clientX + 14 + 'px';
-        tooltip.style.top = event.clientY + 14 + 'px';
-      })
-      .on('mouseleave', () => {
-        tooltip.style.display = 'none';
-      })
-      .on('click', (event, d) => {
-        window.location.href = url(d.id);
-      });
-
-    sim.on('tick', () => {
-      link
-        .attr('x1', (d) => d.source.x)
-        .attr('y1', (d) => d.source.y)
-        .attr('x2', (d) => d.target.x)
-        .attr('y2', (d) => d.target.y);
-      node.attr('cx', (d) => d.x).attr('cy', (d) => d.y);
-    });
-
-    // Legend
-    const legend = document.getElementById('legend-network');
-    if (legend) {
-      legend.innerHTML = Object.entries(topicColors)
-        .map(
-          ([t, c]) =>
-            `<div class="legend-item"><span class="legend-swatch" style="background:${c}"></span>${t}</div>`,
-        )
-        .join('');
+  // Compute global max for opacity scaling
+  let globalMax = 0;
+  for (const row of rows) {
+    for (const w of weeks) {
+      const c = getCount(row, w);
+      if (c > globalMax) globalMax = c;
     }
   }
+  if (globalMax === 0) globalMax = 1;
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'heatmap-wrapper';
+
+  // Top row: week labels
+  const header = document.createElement('div');
+  header.className = 'heatmap-row heatmap-header';
+  header.innerHTML = '<div class="heatmap-label heatmap-corner"></div>' +
+    weeks.map((w) => `<div class="heatmap-week-label">${fmtWeek(w)}</div>`).join('');
+  wrapper.appendChild(header);
+
+  // Data rows
+  for (const row of rows) {
+    const rowEl = document.createElement('div');
+    rowEl.className = 'heatmap-row';
+    const color = getColor(row);
+    const label = getLabel(row);
+    const labelEl = `<div class="heatmap-label" style="border-left-color:${color}">${label}</div>`;
+    const cells = weeks
+      .map((w) => {
+        const c = getCount(row, w);
+        const opacity = c === 0 ? 0.06 : 0.25 + (c / globalMax) * 0.75;
+        const display = c > 0 ? c : '';
+        return `<div class="heatmap-cell" style="background:${color}; opacity:${opacity}" title="${label} — ${fmtWeek(w)}: ${c} paper${c === 1 ? '' : 's'}">${display}</div>`;
+      })
+      .join('');
+    rowEl.innerHTML = labelEl + cells;
+    wrapper.appendChild(rowEl);
+  }
+
+  container.appendChild(wrapper);
 }
+
+// ── Research heatmap ──────────────────────────────────────────────────────────
+renderHeatmap(
+  document.getElementById('research-heatmap'),
+  researchTopics,
+  weeks,
+  (topic, week) => researchHeatmap[topic]?.[week] ?? 0,
+  (topic) => topicColors[topic] ?? '#94a3b8',
+  (topic) => topic,
+);
+
+// ── Industry heatmap ──────────────────────────────────────────────────────────
+renderHeatmap(
+  document.getElementById('industry-heatmap'),
+  industryTags,
+  weeks,
+  (tag, week) => industryHeatmap[tag.key]?.[week] ?? 0,
+  (tag) => tag.color,
+  (tag) => tag.label,
+);
+
+// ── Momentum strips ───────────────────────────────────────────────────────────
+
+function renderMomentum(container, items, getName, getColor, getDelta, getThisWeek, ascending) {
+  if (!container) return;
+
+  const sorted = [...items].sort((a, b) =>
+    ascending ? getDelta(a) - getDelta(b) : getDelta(b) - getDelta(a),
+  );
+
+  // Filter: only show non-zero deltas; if all zero, show top by thisWeek
+  const filtered = sorted.filter((it) => (ascending ? getDelta(it) < 0 : getDelta(it) > 0));
+  const fallback = sorted.slice(0, 3);
+  const top = (filtered.length > 0 ? filtered : fallback).slice(0, 5);
+
+  if (top.length === 0) {
+    container.innerHTML = '<div class="momentum-empty">No movement this week.</div>';
+    return;
+  }
+
+  container.innerHTML = top
+    .map((it) => {
+      const name = getName(it);
+      const color = getColor(it);
+      const delta = getDelta(it);
+      const tw = getThisWeek(it);
+      const sign = delta > 0 ? '+' : '';
+      const arrow = delta > 0 ? '↑' : delta < 0 ? '↓' : '·';
+      const cls = delta > 0 ? 'up' : delta < 0 ? 'down' : 'flat';
+      return `<div class="momentum-item">
+        <span class="momentum-swatch" style="background:${color}"></span>
+        <span class="momentum-name">${name}</span>
+        <span class="momentum-count">${tw} this week</span>
+        <span class="momentum-delta ${cls}">${arrow} ${sign}${delta}</span>
+      </div>`;
+    })
+    .join('');
+}
+
+// Research momentum
+renderMomentum(
+  document.getElementById('research-rising'),
+  researchMomentum,
+  (m) => m.topic,
+  (m) => topicColors[m.topic] ?? '#94a3b8',
+  (m) => m.delta,
+  (m) => m.thisWeek,
+  false,
+);
+
+renderMomentum(
+  document.getElementById('research-cooling'),
+  researchMomentum,
+  (m) => m.topic,
+  (m) => topicColors[m.topic] ?? '#94a3b8',
+  (m) => m.delta,
+  (m) => m.thisWeek,
+  true,
+);
+
+// Industry momentum
+renderMomentum(
+  document.getElementById('industry-rising'),
+  industryMomentum,
+  (m) => m.label,
+  (m) => m.color,
+  (m) => m.delta,
+  (m) => m.thisWeek,
+  false,
+);
+
+renderMomentum(
+  document.getElementById('industry-cooling'),
+  industryMomentum,
+  (m) => m.label,
+  (m) => m.color,
+  (m) => m.delta,
+  (m) => m.thisWeek,
+  true,
+);
