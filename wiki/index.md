@@ -65,6 +65,8 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [llm-routing.md](ai-routing/llm-routing.md) | Concept: LLM routing — surrogate models, parity gates, open problems |
 | [2026-04-17-tracer-llm-routing.md](ai-routing/2026-04-17-tracer-llm-routing.md) | TRACER: trace-driven surrogate routing; 100% coverage on 150-class benchmark |
+| [2026-05-01-ken-huang-ch14-routing-provider-abstraction.md](ai-routing/2026-05-01-ken-huang-ch14-routing-provider-abstraction.md) | Ch 14: Claude Code compile-time static routing vs Hermes runtime dynamic routing; fallback chains; stripSignatureBlocks; per-turn cheap routing |
+| [2026-05-02-step-level-optimization-computer-use-agents.md](ai-routing/2026-05-02-step-level-optimization-computer-use-agents.md) | Step-level cascade: Stuck + Milestone monitors escalate to frontier model only at high-risk junctures; modular, no retraining |
 
 ## hardware
 
