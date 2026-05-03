@@ -263,3 +263,31 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-01.md](daily-digest/2026-05/2026-05-01.md) | Daily digest: SemiAnalysis vs Marcus on AI value capture; RoundPipe 235B-on-consumer-GPU; LenVM token-level length VM; CoPD as 5th cross-distillation paper; 6-benchmark agent eval crisis; Ara+Intern-Atlas AI-native research stack
+
+## ai-industry (new 2026-05-01 late-landed)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-pentagon-eight-tech-giants-ai-fighting-force.md](ai-industry/2026-05-01-pentagon-eight-tech-giants-ai-fighting-force.md) | Pentagon "AI-first fighting force" contracts to eight tech firms; Anthropic excluded for rejecting usage clause; capability rank decoupled from procurement |
+| [2026-05-01-anthropic-claude-security-launch.md](ai-industry/2026-05-01-anthropic-claude-security-launch.md) | Anthropic Claude Security: defender-side product drawing on capability withheld in Mythos; commercial response to GPT-5.5 = Mythos parity |
+| [2026-05-01-gpt-55-uk-aisi-cyber-eval.md](ai-industry/2026-05-01-gpt-55-uk-aisi-cyber-eval.md) | UK AISI: GPT-5.5 second model to autonomously solve full network attack simulation, parity with Mythos; Mythos restriction logic empirically broken |
+| [2026-05-01-china-ai-startups-onshoring.md](ai-industry/2026-05-01-china-ai-startups-onshoring.md) | Moonshot AI, StepFun considering dissolving offshore structures for domestic IPO path; bilateral AI sovereignty after Manus block |
+| [2026-05-01-aisn-72-ai-wellbeing-public-sentiment.md](ai-industry/2026-05-01-aisn-72-ai-wellbeing-public-sentiment.md) | CAIS AI Wellbeing study (56 LLMs, Grok highest, Gemini lowest); anti-AI violence (Altman home Molotov); 26% positive / 46% negative US sentiment; Mythos exfiltration; Apple Cook→Ternus |
+
+## ai-routing (new 2026-05-01 late-landed)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-01-ken-huang-ch14-routing-provider-abstraction.md](ai-routing/2026-05-01-ken-huang-ch14-routing-provider-abstraction.md) | Ch 14 cross-harness routing: Claude Code compile-time abstraction with signature-stripping fallback vs Hermes runtime API-mode detection + ordered fallback chains + switch_model + conservative cheap-model heuristic |
+
+## multimodal (new 2026-05-02)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-02-nemotron-3-nano-omni.md](multimodal/2026-05-02-nemotron-3-nano-omni.md) | Nemotron 3 Nano Omni (multimodal angle): 30B native-audio omni model; multimodal token reduction as routing primitive; fourth open-frontier release in 72h |
+
+## daily-digest (new 2026-05-02)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-02.md](daily-digest/2026-05/2026-05-02.md) | Daily digest: Routing legible on 3 axes (Step-level, Ken Huang Ch 14, Surrogate); Compliance-vs-Sensibility + Safety Drift converge on "operational properties are vector-valued"; cyber arms race in 3 vectors (GPT-5.5=Mythos, Claude Security, FlashRT); Pentagon excludes Anthropic; bilateral AI sovereignty
