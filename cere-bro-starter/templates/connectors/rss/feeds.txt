@@ -1,0 +1,11 @@
+# RSS feeds to follow
+# Add one URL per line. Lines starting with # are comments.
+# Run: python connectors/rss/farmer.py
+
+# Example feeds — replace with your own:
+# https://lilianweng.github.io/index.xml
+# https://karpathy.github.io/feed.xml
+# https://sebastianraschka.com/rss.xml
+# https://newsletter.theaiedge.io/feed
+# https://www.interconnects.ai/feed
+# https://semianalysis.com/feed

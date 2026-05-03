@@ -1,0 +1,121 @@
+---
+import Base from '../layouts/Base.astro';
+import wiki from '../data/wiki.json';
+
+const dataJson = JSON.stringify({
+  topicColors: wiki.topicColors,
+  topicCounts: wiki.topicCounts,
+  weeks: wiki.weeks,
+  months: wiki.months,
+  cumulativeWeeks: wiki.cumulativeWeeks,
+  researchTopics: wiki.researchTopics,
+  researchHeatmap: wiki.researchHeatmap,
+  researchHeatmapMonthly: wiki.researchHeatmapMonthly,
+  researchCumulative: wiki.researchCumulative,
+  researchMomentum: wiki.researchMomentum,
+  industryTags: wiki.industryTags,
+  industryHeatmap: wiki.industryHeatmap,
+  industryHeatmapMonthly: wiki.industryHeatmapMonthly,
+  industryCumulative: wiki.industryCumulative,
+  industryMomentum: wiki.industryMomentum,
+  industryByTag: wiki.industryByTag,
+});
+---
+
+<Base title="Atlas" active="atlas">
+  <section class="hero">
+    <div class="hero-date">global view</div>
+    <h1>Atlas</h1>
+    <p class="hero-tagline">
+      Where research is heating up, where it's cooling, and what the AI industry is actually talking about.
+    </p>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker">overview</div>
+    <h2>Topic distribution</h2>
+    <p class="lead">All source summaries in the wiki, by topic. The pie grows as the wiki accumulates.</p>
+    <div class="chart-grid">
+      <div class="chart-card">
+        <canvas id="donut-chart" height="380"></canvas>
+      </div>
+      <div class="chart-card">
+        <div id="topic-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker" style="color:#f59e0b">research</div>
+    <h2>Where research is moving</h2>
+    <p class="lead">
+      <strong>Week / Month</strong> show recent activity. <strong>All-time</strong> is the cumulative wiki growth, layered by topic.
+    </p>
+
+    <div class="view-toggle" data-view-group="research">
+      <button class="view-btn active" data-view="week">Week</button>
+      <button class="view-btn" data-view="month">Month</button>
+      <button class="view-btn" data-view="all">All-time</button>
+    </div>
+
+    <div class="chart-card heatmap-card view-pane" data-view-pane="research-week">
+      <div id="research-heatmap-week"></div>
+    </div>
+    <div class="chart-card heatmap-card view-pane hidden" data-view-pane="research-month">
+      <div id="research-heatmap-month"></div>
+    </div>
+    <div class="chart-card view-pane hidden" data-view-pane="research-all" style="padding: 28px 28px 36px">
+      <canvas id="research-cumulative" height="360"></canvas>
+    </div>
+
+    <div class="momentum-grid">
+      <div class="chart-card momentum-card">
+        <div class="momentum-title rising">🔥 Rising this week</div>
+        <div id="research-rising"></div>
+      </div>
+      <div class="chart-card momentum-card">
+        <div class="momentum-title cooling">❄️ Cooling this week</div>
+        <div id="research-cooling"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker" style="color:#94a3b8">industry</div>
+    <h2>What the industry is talking about</h2>
+    <p class="lead">
+      AI industry coverage auto-classified into themes. Same week / month / all-time pattern.
+    </p>
+
+    <div class="view-toggle" data-view-group="industry">
+      <button class="view-btn active" data-view="week">Week</button>
+      <button class="view-btn" data-view="month">Month</button>
+      <button class="view-btn" data-view="all">All-time</button>
+    </div>
+
+    <div class="chart-card heatmap-card view-pane" data-view-pane="industry-week">
+      <div id="industry-heatmap-week"></div>
+    </div>
+    <div class="chart-card heatmap-card view-pane hidden" data-view-pane="industry-month">
+      <div id="industry-heatmap-month"></div>
+    </div>
+    <div class="chart-card view-pane hidden" data-view-pane="industry-all" style="padding: 28px 28px 36px">
+      <canvas id="industry-cumulative" height="320"></canvas>
+    </div>
+
+    <div class="momentum-grid">
+      <div class="chart-card momentum-card">
+        <div class="momentum-title rising">🔥 Heating up</div>
+        <div id="industry-rising"></div>
+      </div>
+      <div class="chart-card momentum-card">
+        <div class="momentum-title cooling">❄️ Quieting down</div>
+        <div id="industry-cooling"></div>
+      </div>
+    </div>
+  </section>
+
+  <script id="atlas-data" type="application/json" set:html={dataJson} />
+
+  <script type="module" src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/atlas.js`}></script>
+</Base>

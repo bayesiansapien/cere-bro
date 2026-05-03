@@ -1,0 +1,231 @@
+# {{WIKI_NAME}}
+
+A self-maintaining research wiki. Papers, posts, and articles land in `raw/` — Claude synthesizes them into a knowledge base and a live site.
+
+---
+
+## Reader Profile
+
+The reader is **{{READER_NAME}}**, {{READER_ROLE}}. Everything in the wiki — what gets a Deep Dive, how much explanation goes in, what open problems get flagged — should be calibrated to this attention hierarchy:
+
+{{TIER_TABLE}}
+
+**When a source spans tiers**, treat it at the highest applicable tier. **Connecting the Dots** should actively surface cross-source patterns in Tier 1 areas. **Worth Watching** bullets should prioritize falsifiable predictions about Tier 1 open problems.
+
+---
+
+## Tier detail
+
+### Tier 1 — Core (deep dives)
+{{TIER_1_DETAIL}}
+
+Long Deep Dives (4–6 paragraphs). Explain *why* the technique works, not just what. Always end with a **Research angle** note — open problems, follow-up directions, what's still missing.
+
+### Tier 2 — Active learning (standard)
+{{TIER_2_DETAIL}}
+
+Standard Deep Dives (2–4 paragraphs). Flag any intersection with Tier 1.
+
+### Tier 3 — Broad horizon (light)
+{{TIER_3_DETAIL}}
+
+Quick Hits only, unless directly relevant to Tier 1 topics.
+
+### Tier 4 — Low interest (skip or one sentence)
+{{TIER_4_DETAIL}}
+
+One sentence in Quick Hits, or skip entirely.
+
+---
+
+## Architecture
+
+```
+raw/        ← immutable source files (farmers write here, humans drop files here)
+wiki/       ← Claude-owned synthesis (write everything here)
+{{WIKI_TOPICS_LIST}}
+  daily-digest/
+    YYYY-MM/
+      YYYY-MM-DD.md  ← one newsletter per day
+  index.md  ← catalog of every wiki page with one-line summaries
+  log.md    ← append-only ingest + lint timeline
+```
+
+`raw/` is the source of truth. Never modify files there. `wiki/` is yours to write, update, and restructure freely.
+
+Images: when a source has architecture diagrams or figures that matter, download them to `raw/assets/` and reference them from summary pages. Read text first, then view referenced images for additional context.
+
+---
+
+## Sources
+
+{{SOURCES_TABLE}}
+
+---
+
+## Ingest
+
+When a new file lands in `raw/` (via farmer or manually dropped):
+
+**0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum.
+
+**0b. Collect all raw sources for the date.** Before writing any digest, check ALL raw source directories for the relevant date:
+- `raw/gmail/<YYYY-MM-DD>-starred.md` — Gmail starred emails
+- `raw/rss/<YYYY-MM-DD>-*.md` — RSS feeds
+- `raw/huggingface/<YYYY-MM-DD>-*.md` — HuggingFace papers (if enabled)
+
+Read all files that exist before writing the digest. A digest from partial sources is incomplete.
+
+1. Read the source. For papers: abstract + key sections. For videos: transcript. For blogs: full text.
+2. **Write a summary page** in `wiki/<topic>/<YYYY-MM-DD>-<slug>.md`. Include: TL;DR, key findings, explicit notes on how this relates to prior wiki pages (confirms, contradicts, extends, or fills a gap), links to related wiki pages, link back to raw source.
+3. **Update concept pages** — for every concept significantly discussed, update or create `wiki/<topic>/<concept-name>.md`. Add what the source contributes: new evidence, contradiction, refinement. Note any shift from the prior state of knowledge.
+4. **Write/update the daily digest** — write to `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`. See the Daily Digest section below.
+5. **Update index.md** — add the new summary page with its one-line description.
+6. **Append to log.md** — format: `## [YYYY-MM-DD] ingest | <title> | <source-type>`
+7. **Push to remote** — after all sources for the day are ingested and the digest is final, run `git push origin main`.
+
+Ingest one source at a time. A single source may touch multiple wiki pages.
+
+---
+
+## Knowledge Synthesis — Reading with Memory
+
+The wiki is a living knowledge base, not a daily snapshot. Every summary and digest must be written in light of what the wiki already knows.
+
+### What to look up before writing
+
+1. **Read the relevant concept pages** — `wiki/<concept>/<concept-name>.md`. They compress all prior work into one page.
+2. **Scan recent digests** — the last 5–7 daily digests. Look for "Worth Watching" bullets or open questions that today's sources address.
+3. **Read prior summary pages directly** when the source is in a narrow area you've covered recently.
+
+### Signals to name explicitly
+
+**Confirmation — a pattern is building:**
+> "This is the second paper this month (after [title] on [date]) showing X. A pattern is forming."
+
+**Contradiction — a genuine tension exists:**
+> "[Paper A] argued X. [Paper B] argues the opposite. Whether these are compatible claims is unresolved."
+
+**Gap-filling — today's paper solves a prior open problem:**
+> "The [date] [title] Research Angle asked whether X was possible. [Today's paper] answers: [answer]."
+
+**N-of-a-kind — a pattern has been established:**
+> "This is the third paper this week making [claim]. The community has converged on this frame."
+
+The threshold for declaring a pattern: ≥3 sources making the same core claim.
+
+---
+
+## Daily Digest
+
+The daily digest is the most important output of the wiki. The reader reads it first. It must be worth reading on its own — not a log, but a newsletter.
+
+### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
+
+```markdown
+# {{WIKI_NAME}} | YYYY-MM-DD
+
+> One-sentence framing of today's sharpest tension, surprise, or theme.
+
+---
+
+## TL;DR
+
+3–6 bullets. One line each. Tier 1 research findings first, then most important industry item.
+
+- **[Paper/concept]** — what it found, in one punchy clause
+- ...
+
+---
+
+## The Big Picture
+
+2–3 paragraphs. Lead with the most interesting observation, not a list.
+What thread runs through today's batch? Write like the opening of a good essay.
+
+---
+
+## Deep Dives
+
+5–8 most substantive sources. Skip changelogs, minor updates.
+
+---
+
+### [Title]
+
+> [One-line hook — most counterintuitive or surprising thing]
+
+**Source:** [source name]
+**Links:** [Paper](URL) · [Wiki](relative-path)
+**Tier:** N — [topic label]
+
+[Visual block when it adds clarity — text HLD or embedded figure]
+
+[N paragraphs — calibrated to tier. Cover: what, why the mechanism works, what's surprising, implications.]
+
+**Why it matters:** One sentence.
+
+**Research angle:** ← Tier 1 only. Open problem this points at.
+
+→ [Full summary](relative-path)
+
+---
+
+## Industry Pulse
+
+3–6 bullets. 2–3 sentences each. Most consequential first.
+
+- **[Company/Event]** — what happened. Why it matters.
+
+---
+
+## Connecting the Dots
+
+Cross-paper and cross-day synthesis. Mandatory when connections exist.
+
+---
+
+## Worth Watching
+
+Specific, falsifiable predictions. Tier 1 priorities.
+
+- **[Claim]** — why it matters and what to check in 30/60/90 days.
+
+---
+
+## Quick Hits
+
+One paragraph per minor item. Tier 3 sources.
+
+---
+
+*Sources ingested today: N | Wiki pages updated: N*
+```
+
+### Writing rules
+
+1. **Write simply. Keep technical terms.** Short sentences. One idea per sentence. Active voice. Gloss technical terms on first use.
+
+2. **Link everything.** Every Deep Dive needs a direct URL. Every wiki reference needs a relative link.
+
+3. **Show the architecture.** Use text-based HLD diagrams (box-and-arrow) when it adds clarity.
+
+4. **Calibrate depth to tier.** Tier 1: 4–6 paragraphs + mechanism + research angle. Tier 2: 2–4 paragraphs. Tier 3: Quick Hit.
+
+5. **Be opinionated and specific.** Name the tension. Name the prior paper. Take a position.
+
+6. **Future implications must be falsifiable.** Name a specific claim and timeframe.
+
+7. **Connect before you summarize.** The unique value of this wiki is accumulated context. Use it.
+
+8. **Write as a second brain.** Every Deep Dive should reference prior wiki knowledge. A digest that could have been written without reading any prior pages has failed.
+
+---
+
+## Conventions
+
+- Dates: `YYYY-MM-DD` everywhere
+- Filenames: lowercase, hyphens, no spaces
+- Internal links: relative markdown links
+- Source attribution: every summary page links to its raw file
+- log.md entries: `## [YYYY-MM-DD]` prefix for easy grep

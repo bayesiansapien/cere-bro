@@ -1,0 +1,9 @@
+node_modules/
+site/dist/
+site/.astro/
+connectors/gmail/credentials/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+raw/assets/
