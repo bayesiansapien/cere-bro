@@ -30,7 +30,8 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
     <header class="site-header">
       <div class="container site-header-inner">
         <a href={url('/')} class="brand">
-          cere-bro<span class="brand-sub">AI research wiki</span>
+          <img src={url('/cerebro-icon.png')} alt="cere-bro" class="brand-logo" />
+          <span class="brand-sub">AI research wiki</span>
         </a>
         <nav class="nav">
           <a href={url('/')} class:list={[{ active: active === 'home' }]}>Today</a>

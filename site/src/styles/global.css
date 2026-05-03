@@ -164,14 +164,22 @@ th {
 }
 
 .brand {
-  font-family: var(--serif);
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--fg);
   border: none;
 }
-.brand:hover { color: var(--accent); border: none; }
+.brand:hover { opacity: 0.85; border: none; }
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  border-radius: 6px;
+  background: #fff;
+  padding: 2px 6px;
+  display: block;
+}
 
 .brand-sub {
   font-family: var(--sans);
@@ -180,7 +188,6 @@ th {
   color: var(--fg-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-left: 12px;
 }
 
 .nav {
