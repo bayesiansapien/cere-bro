@@ -16,17 +16,20 @@ function fmtDate(iso: string | null) {
 // Digest count, zero-padded to 3 digits
 const digestCount = String(wiki.counts.digests).padStart(3, '0');
 
+// Strip "cere-bro | " prefix from digest title — redundant with the logo in the nav
+const rawTitle = latest?.title ?? '';
+const digestTitle = rawTitle.replace(/^cere-bro\s*[|\-—]+\s*/i, '').trim() || rawTitle;
+
 const base = import.meta.env.BASE_URL;
 const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 ---
 
-<Base title={`#${digestCount} cere-bro — ${fmtDate(latest?.date ?? '')}`} active="home">
+<Base title={`#${digestCount} — ${digestTitle}`} active="home">
   <section class="hero">
     <div class="hero-date">
       <span class="digest-count">#{digestCount}</span>
-      cere-bro · {fmtDate(latest?.date ?? '')}
     </div>
-    <h1>{latest?.title ?? 'cere-bro'}</h1>
+    <h1>{digestTitle}</h1>
   </section>
 
   <div class="grid">
