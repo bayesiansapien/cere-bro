@@ -32,39 +32,29 @@ git remote add origin https://github.com/<your-username>/<your-repo>.git
 claude  # opens Claude Code in this directory
 ```
 
-### 3. Run the bootstrap skill
-
-In the Claude Code session, type:
+### 3. Run bootstrap, then automate
 
 ```
 /bootstrap
 ```
 
-Claude will ask you:
-- Your name and background
-- Your research topics and how you want them tiered
-- Your GitHub username and repo name (for site deployment)
-- Which sources you want to configure (Gmail, RSS, HuggingFace)
+Claude will ask: your name, research topics and tiers, GitHub username/repo, which sources to use (Gmail, RSS, HuggingFace). It creates your `CLAUDE.md`, wiki structure, site config, and connector scripts.
 
-It will then create your customized `CLAUDE.md`, set up the wiki structure, and configure the site.
+Then immediately run:
 
-### 4. Drop source files into `raw/` and start ingesting
-
-```bash
-# HuggingFace papers
-raw/huggingface/2026-05-01-attention-is-all-you-need.md
-
-# RSS exports
-raw/rss/2026-05-01-tldr-ai.md
-
-# Gmail starred emails
-raw/gmail/2026-05-01-starred.md
+```
+/automate
 ```
 
-Then in Claude Code:
+Claude will ask what time you want the daily run (default 9am), detect your OS (macOS or Linux), and generate a shell script + scheduler config. Once installed, the pipeline runs every day at that time — no manual intervention needed.
+
+### 4. Deploy the site
+
 ```
-/ingest
+/publish
 ```
+
+After that: star emails, the site updates itself daily.
 
 ---
 
@@ -73,10 +63,13 @@ Then in Claude Code:
 | Skill | What it does |
 |-------|-------------|
 | `/bootstrap` | One-time setup: define your topics, tiers, and create your customized `CLAUDE.md` |
+| `/automate` | Set up the fully automated daily pipeline — farmers + digest + push on a schedule. Run this right after bootstrap. |
 | `/ingest` | Process new raw sources into wiki pages and update concept pages |
 | `/digest` | Write today's daily digest from all available raw sources |
 | `/publish` | Set up and deploy the Astro site to GitHub Pages |
 | `/lint` | Health check: orphan pages, stale concept pages, missing index entries |
+
+**The recommended flow is: `/bootstrap` → `/automate` → `/publish` → done.** After that the wiki updates itself every day. Manual `/ingest` and `/digest` are there if you want to run something out of cycle.
 
 ---
 
