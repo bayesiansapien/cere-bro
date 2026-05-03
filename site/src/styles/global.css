@@ -692,3 +692,39 @@ th {
   font-weight: 600;
   margin-right: 8px;
 }
+
+/* Atlas view toggle (Week / Month / All-time) */
+.view-toggle {
+  display: inline-flex;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 16px;
+  gap: 2px;
+}
+.view-btn {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  color: var(--fg-muted);
+  padding: 6px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .12s;
+  letter-spacing: 0.02em;
+}
+.view-btn:hover {
+  color: var(--fg);
+}
+.view-btn.active {
+  background: var(--bg-elev);
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--border-strong);
+}
+
+.view-pane.hidden {
+  display: none;
+}

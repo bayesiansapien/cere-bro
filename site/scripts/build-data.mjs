@@ -119,6 +119,40 @@ function lastNWeeks(n) {
   return out;
 }
 
+// Build last-N-months as YYYY-MM strings (oldest first, current month last)
+function lastNMonths(n) {
+  const out = [];
+  const today = new Date();
+  const y = today.getUTCFullYear();
+  const m = today.getUTCMonth(); // 0-indexed
+  for (let i = n - 1; i >= 0; i--) {
+    const d = new Date(Date.UTC(y, m - i, 1));
+    const key = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+    out.push(key);
+  }
+  return out;
+}
+
+function monthKey(d) {
+  if (!d) return null;
+  return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
+}
+
+// Build full set of weeks spanning earliest paper date → today
+function allWeeks(earliestISO) {
+  if (!earliestISO) return lastNWeeks(12);
+  const earliest = parseDate(earliestISO);
+  const earliestMonday = weekStartUTC(earliest);
+  const todayMonday = weekStartUTC(new Date());
+  const start = new Date(earliestMonday + 'T00:00:00Z');
+  const end = new Date(todayMonday + 'T00:00:00Z');
+  const out = [];
+  for (let d = start; d.getTime() <= end.getTime(); d = new Date(d.getTime() + 7 * 24 * 60 * 60 * 1000)) {
+    out.push(d.toISOString().slice(0, 10));
+  }
+  return out;
+}
+
 function walk(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const files = [];
@@ -275,12 +309,22 @@ function main() {
 
   // Weekly heatmap data — last 12 weeks, papers per topic per week
   const N_WEEKS = 12;
+  const N_MONTHS = 12;
   const weeks = lastNWeeks(N_WEEKS);
+  const months = lastNMonths(N_MONTHS);
   const researchTopics = Object.keys(TOPIC_COLORS).filter(
     (t) => t !== 'ai-industry' && t !== 'daily-digest',
   );
 
-  // research heatmap: topic -> week -> count
+  // earliest summary date (for cumulative time series)
+  const allSummaryDates = pages
+    .filter((p) => p.isSummary && p.date)
+    .map((p) => p.date)
+    .sort();
+  const earliestDate = allSummaryDates[0] ?? null;
+  const cumulativeWeeks = allWeeks(earliestDate);
+
+  // research heatmap (weekly): topic -> week -> count
   const researchHeatmap = {};
   for (const t of researchTopics) {
     researchHeatmap[t] = {};
@@ -293,6 +337,49 @@ function main() {
     if (researchHeatmap[p.topic][w] !== undefined) {
       researchHeatmap[p.topic][w] += 1;
     }
+  }
+
+  // research heatmap (monthly): topic -> month -> count
+  const researchHeatmapMonthly = {};
+  for (const t of researchTopics) {
+    researchHeatmapMonthly[t] = {};
+    for (const m of months) researchHeatmapMonthly[t][m] = 0;
+  }
+  for (const p of pages) {
+    if (!p.date || !p.isSummary) continue;
+    if (!researchTopics.includes(p.topic)) continue;
+    const mk = monthKey(parseDate(p.date));
+    if (researchHeatmapMonthly[p.topic][mk] !== undefined) {
+      researchHeatmapMonthly[p.topic][mk] += 1;
+    }
+  }
+
+  // research cumulative time series (weekly granularity, full history)
+  const researchCumulative = {};
+  for (const t of researchTopics) {
+    researchCumulative[t] = cumulativeWeeks.map(() => 0);
+  }
+  // First, count per topic per week across full history
+  const researchByWeek = {};
+  for (const t of researchTopics) {
+    researchByWeek[t] = {};
+    for (const w of cumulativeWeeks) researchByWeek[t][w] = 0;
+  }
+  for (const p of pages) {
+    if (!p.date || !p.isSummary) continue;
+    if (!researchTopics.includes(p.topic)) continue;
+    const w = weekStartUTC(parseDate(p.date));
+    if (researchByWeek[p.topic][w] !== undefined) {
+      researchByWeek[p.topic][w] += 1;
+    }
+  }
+  // Then accumulate
+  for (const t of researchTopics) {
+    let running = 0;
+    cumulativeWeeks.forEach((w, i) => {
+      running += researchByWeek[t][w];
+      researchCumulative[t][i] = running;
+    });
   }
 
   // research momentum: this-week vs prior-week count
@@ -316,7 +403,7 @@ function main() {
     };
   });
 
-  // industry heatmap: sub-category -> week -> count
+  // industry heatmap (weekly): sub-category -> week -> count
   const industryCategories = INDUSTRY_TAGS.map((t) => t.key);
   const industryHeatmap = {};
   for (const cat of industryCategories) {
@@ -331,6 +418,47 @@ function main() {
     if (industryHeatmap[p.industryTag][w] !== undefined) {
       industryHeatmap[p.industryTag][w] += 1;
     }
+  }
+
+  // industry heatmap (monthly): sub-category -> month -> count
+  const industryHeatmapMonthly = {};
+  for (const cat of industryCategories) {
+    industryHeatmapMonthly[cat] = {};
+    for (const m of months) industryHeatmapMonthly[cat][m] = 0;
+  }
+  for (const p of pages) {
+    if (!p.date || !p.isSummary) continue;
+    if (p.topic !== 'ai-industry' || !p.industryTag) continue;
+    if (industryHeatmapMonthly[p.industryTag] === undefined) continue;
+    const mk = monthKey(parseDate(p.date));
+    if (industryHeatmapMonthly[p.industryTag][mk] !== undefined) {
+      industryHeatmapMonthly[p.industryTag][mk] += 1;
+    }
+  }
+
+  // industry cumulative
+  const industryCumulative = {};
+  const industryByWeek = {};
+  for (const cat of industryCategories) {
+    industryCumulative[cat] = cumulativeWeeks.map(() => 0);
+    industryByWeek[cat] = {};
+    for (const w of cumulativeWeeks) industryByWeek[cat][w] = 0;
+  }
+  for (const p of pages) {
+    if (!p.date || !p.isSummary) continue;
+    if (p.topic !== 'ai-industry' || !p.industryTag) continue;
+    if (industryByWeek[p.industryTag] === undefined) continue;
+    const w = weekStartUTC(parseDate(p.date));
+    if (industryByWeek[p.industryTag][w] !== undefined) {
+      industryByWeek[p.industryTag][w] += 1;
+    }
+  }
+  for (const cat of industryCategories) {
+    let running = 0;
+    cumulativeWeeks.forEach((w, i) => {
+      running += industryByWeek[cat][w];
+      industryCumulative[cat][i] = running;
+    });
   }
 
   const industryMomentum = industryCategories.map((cat) => {
@@ -432,11 +560,17 @@ function main() {
     recentSummaries,
     conceptPages,
     weeks,
+    months,
+    cumulativeWeeks,
     researchTopics,
     researchHeatmap,
+    researchHeatmapMonthly,
+    researchCumulative,
     researchMomentum,
     industryTags: INDUSTRY_TAGS.map(({ keywords, ...rest }) => rest),
     industryHeatmap,
+    industryHeatmapMonthly,
+    industryCumulative,
     industryMomentum,
     industryByTag,
   };
