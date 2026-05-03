@@ -32,6 +32,8 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-24-gpt-55-launch-system-card.md](llms-foundation-models/2026-04-24-gpt-55-launch-system-card.md) | GPT-5.5: first OpenAI pre-train since GPT-4.5; $5/$30 per M tokens; perfect reversion 0.18→0.52; SemiAnalysis switched daily driver |
 | [2026-04-24-deepseek-v4-architecture.md](llms-foundation-models/2026-04-24-deepseek-v4-architecture.md) | DeepSeek V4: 1.6T/49B MoE on Huawei Ascend 950PR; CSA/HCA -73% FLOPs; Engram O(1) factual retrieval; cache costs -90% |
 | [2026-04-28-hope-nested-learning-architecture.md](llms-foundation-models/2026-04-28-hope-nested-learning-architecture.md) | Hope/Nested Learning: Self-Modifying Titans replace attention; Continuum Memory replaces FFN; multi-timescale in-context adaptation |
+| [2026-05-02-compliance-vs-sensibility-reasoning-controllability.md](llms-foundation-models/2026-05-02-compliance-vs-sensibility-reasoning-controllability.md) | Reasoning types (induction/deduction/abduction) resist instruction override; linearly encoded layers 16-24; mechanistic intervention +29% compliance |
+| [2026-05-02-safety-drift-fine-tuning-high-stakes.md](llms-foundation-models/2026-05-02-safety-drift-fine-tuning-high-stakes.md) | Benign fine-tuning causes heterogeneous, contradictory safety changes across 100 deployed models; base-model evals predict nothing about fine-tuned variants |
 
 ## multimodal
 
