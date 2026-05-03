@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import wiki from '../data/wiki.json';
+
+const latest = wiki.digests[0];
+const recent = wiki.recentSummaries.slice(0, 12);
+const concepts = wiki.conceptPages.slice(0, 6);
+
+// Format date as "May 3, 2026"
+function fmtDate(iso: string | null) {
+  if (!iso) return '';
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
+const base = import.meta.env.BASE_URL;
+const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
+---
+
+<Base title={`cere-bro — ${fmtDate(latest?.date ?? '')}`} active="home">
+  <section class="hero">
+    <div class="hero-date">{fmtDate(latest?.date ?? '')} · today's digest</div>
+    <h1>{latest?.title ?? 'cere-bro'}</h1>
+  </section>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value">{wiki.counts.summaries}</div>
+      <div class="stat-label">Source summaries</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{wiki.counts.concepts}</div>
+      <div class="stat-label">Concept pages</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{wiki.counts.digests}</div>
+      <div class="stat-label">Daily digests</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{wiki.edges.length}</div>
+      <div class="stat-label">Cross-references</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <article class="digest-content" set:html={latest?.html ?? ''} />
+
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-title">Recent additions</div>
+        {recent.map((p) => (
+          <a class="recent-item" href={url(p.id)} style={`border-left-color: ${p.color}`}>
+            <div class="recent-date">{p.date}</div>
+            <div class="recent-title">{p.title}</div>
+            <span class="recent-topic" style={`background: ${p.color}22; color: ${p.color}`}>
+              {p.topic}
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-title">Concept pages</div>
+        {concepts.map((c) => (
+          <a class="recent-item" href={url(c.id)} style={`border-left-color: ${c.color}`}>
+            <div class="recent-title">{c.title}</div>
+            <span class="recent-topic" style={`background: ${c.color}22; color: ${c.color}`}>
+              {c.topic}
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-title">Earlier digests</div>
+        {wiki.digests.slice(1, 8).map((d) => (
+          <a class="recent-item" href={url(`digests/${d.date}`)} style="border-left-color: #fbbf24">
+            <div class="recent-date">{d.date}</div>
+            <div class="recent-title">{d.title}</div>
+          </a>
+        ))}
+      </div>
+    </aside>
+  </div>
+</Base>
