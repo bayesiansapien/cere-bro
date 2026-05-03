@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import wiki from '../data/wiki.json';
+import { marked } from 'marked';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+export async function getStaticPaths() {
+  return wiki.pages
+    .filter((p: any) => p.id !== 'index' && p.id !== 'log' && !p.id.startsWith('daily-digest/'))
+    .map((p: any) => ({
+      params: { slug: p.id },
+      props: { page: p },
+    }));
+}
+
+const { page } = Astro.props;
+
+// Read raw markdown and render
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const repoRoot = path.resolve(__dirname, '../../..');
+const wikiPath = path.join(repoRoot, 'wiki', page.path);
+let html = page.html;
+if (!html && fs.existsSync(wikiPath)) {
+  const raw = fs.readFileSync(wikiPath, 'utf8');
+  // Strip frontmatter
+  const stripped = raw.replace(/^---[\s\S]*?---\n/, '');
+  html = marked.parse(stripped) as string;
+}
+
+// Find backlinks: pages that link to this page
+const backlinks = wiki.edges
+  .filter((e: any) => e.target === page.id)
+  .map((e: any) => wiki.nodes.find((n: any) => n.id === e.source))
+  .filter(Boolean);
+
+// Find outlinks: pages this page links to (within wiki)
+const outlinks = wiki.edges
+  .filter((e: any) => e.source === page.id)
+  .map((e: any) => wiki.nodes.find((n: any) => n.id === e.target))
+  .filter(Boolean);
+
+const base = import.meta.env.BASE_URL;
+const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
+---
+
+<Base title={`${page.title} — ${(wiki as any).wikiName ?? 'wiki'}`}>
+  <section class="hero">
+    <div class="hero-date" style={`color: ${page.color}`}>
+      {page.topic}{page.date ? ` · ${page.date}` : ''}{page.tier ? ` · Tier ${page.tier}` : ''}
+    </div>
+    <h1>{page.title}</h1>
+  </section>
+
+  <div class="grid">
+    <article class="digest-content" set:html={html} />
+
+    <aside class="sidebar">
+      {backlinks.length > 0 && (
+        <div class="sidebar-section">
+          <div class="sidebar-title">← Referenced by ({backlinks.length})</div>
+          {backlinks.map((b: any) => (
+            <a class="recent-item" href={url(b.id)} style={`border-left-color: ${b.color}`}>
+              <div class="recent-title">{b.title}</div>
+              <span class="recent-topic" style={`background: ${b.color}22; color: ${b.color}`}>
+                {b.topic}
+              </span>
+            </a>
+          ))}
+        </div>
+      )}
+
+      {outlinks.length > 0 && (
+        <div class="sidebar-section">
+          <div class="sidebar-title">→ References ({outlinks.length})</div>
+          {outlinks.map((o: any) => (
+            <a class="recent-item" href={url(o.id)} style={`border-left-color: ${o.color}`}>
+              <div class="recent-title">{o.title}</div>
+              <span class="recent-topic" style={`background: ${o.color}22; color: ${o.color}`}>
+                {o.topic}
+              </span>
+            </a>
+          ))}
+        </div>
+      )}
+    </aside>
+  </div>
+</Base>

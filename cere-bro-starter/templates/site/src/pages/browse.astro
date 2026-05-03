@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+import wiki from '../data/wiki.json';
+
+// Group all pages by topic
+const grouped: Record<string, any[]> = {};
+for (const p of wiki.pages) {
+  if (p.id === 'index' || p.id === 'log' || p.id.startsWith('daily-digest/')) continue;
+  if (!grouped[p.topic]) grouped[p.topic] = [];
+  grouped[p.topic].push(p);
+}
+// Sort within each topic: concept pages first, then by date desc
+for (const t of Object.keys(grouped)) {
+  grouped[t].sort((a: any, b: any) => {
+    if (a.isConcept && !b.isConcept) return -1;
+    if (!a.isConcept && b.isConcept) return 1;
+    return (b.date ?? '').localeCompare(a.date ?? '');
+  });
+}
+
+const topics = Object.keys(grouped).sort();
+const base = import.meta.env.BASE_URL;
+const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
+---
+
+<Base title="Browse" active="browse">
+  <section class="hero">
+    <div class="hero-date">all wiki pages</div>
+    <h1>Browse</h1>
+    <p class="hero-tagline">Click a topic to expand. Concept pages first, then summaries newest-to-oldest.</p>
+  </section>
+
+  <div class="browse-tabs">
+    {topics.map((t) => {
+      const color = (wiki.topicColors as any)[t] ?? '#94a3b8';
+      return (
+        <button class="browse-tab" data-topic={t}>
+          <span class="tab-swatch" style={`background: ${color}`}></span>
+          <span>{t}</span>
+          <span class="tab-count">{grouped[t].length}</span>
+        </button>
+      );
+    })}
+  </div>
+
+  {topics.map((t) => {
+    const color = (wiki.topicColors as any)[t] ?? '#94a3b8';
+    return (
+      <div class="browse-drawer" data-topic-drawer={t}>
+        <div class="browse-grid">
+          {grouped[t].map((p: any) => (
+            <a
+              href={url(p.id)}
+              class="recent-item"
+              style={`border-left-color: ${color}; padding: 14px 16px`}
+            >
+              {p.date && (
+                <div class="recent-date">
+                  {p.date}{p.tier ? ` · Tier ${p.tier}` : ''}{p.isConcept ? ' · concept' : ''}
+                </div>
+              )}
+              {!p.date && <div class="recent-date">concept page</div>}
+              <div class="recent-title" style="font-size: 0.95rem; margin-top: 4px">{p.title}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    );
+  })}
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabs = document.querySelectorAll('.browse-tab');
+      const drawers = document.querySelectorAll('.browse-drawer');
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const topic = tab.getAttribute('data-topic');
+          const isActive = tab.classList.contains('active');
+          // Close all
+          tabs.forEach((t) => t.classList.remove('active'));
+          drawers.forEach((d) => d.classList.remove('open'));
+          // Open this one if it wasn't already active
+          if (!isActive) {
+            tab.classList.add('active');
+            const drawer = document.querySelector(`[data-topic-drawer="${topic}"]`);
+            if (drawer) drawer.classList.add('open');
+          }
+        });
+      });
+      // Open first tab by default
+      if (tabs.length > 0) tabs[0].click();
+    });
+  </script>
+</Base>
