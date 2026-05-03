@@ -173,7 +173,7 @@ th {
 .brand:hover { opacity: 0.8; border: none; }
 
 .brand-logo {
-  height: 52px;
+  height: 36px;
   width: auto;
   display: block;
 }
@@ -204,9 +204,19 @@ th {
 
 /* Hero */
 .hero {
-  padding: 36px 0 24px;
+  padding: 48px 0 28px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
+  text-align: center;
+}
+.hero-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+.hero-logo {
+  height: 88px;
+  width: auto;
 }
 .hero-date {
   font-family: var(--mono);
