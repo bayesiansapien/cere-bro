@@ -276,3 +276,8 @@ Append-only timeline of ingests and lint passes.
 ## [2026-05-02] ingest | Simon Willison: iNaturalist Sightings on phone with Claude Code | rss/simon-willison
 ## [2026-05-02] concept | llm-routing.md updated — 3 axes (query/provider-tier/trajectory), Ken Huang Ch 14 + Step-level Optimization added; cache-aware/reasoning-mode routing flagged as open | concept-page
 ## [2026-05-02] digest | 2026-05-02.md written: routing on 3 axes, vector-valued operational properties, cyber equilibrium shift, bilateral AI sovereignty | daily-digest
+## [2026-05-04] digest | Daily Digest 2026-05-04 | daily-digest
+- Sources: 31 (7 HuggingFace + 17 RSS + 5 Gmail starred + 2 DAIR.AI)
+- Deep Dives: 7 (Defense Trilemma, MIT Superposition, Xiaomi MiMo, Ken Huang World Models, AgenticQwen, AHE, Themis + LWD)
+- Industry items: 12
+- Gmail farmer run: python3 connectors/gmail/farmer.py → 5 new starred emails
