@@ -32,6 +32,10 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **Speculative Decoding for RL Rollouts (2026-04-30, NVIDIA)** — Integrates EAGLE-3 / MTP / external draft models into the RL training loop via NeMo-RL + vLLM. Lossless: target policy is verifier, log-probs and policy loss are computed against target. Sweet spot at k=3; draft alignment with rollout distribution dominates speedup. 1.77× generation, 1.41× per-step at 8B, no AIME accuracy loss; 2.5× end-to-end projection at 235B. → [summary](../inference-efficiency/2026-04-30-speculative-decoding-rl-rollouts.md)
 
+**Themis Multilingual Code Reward Models (2026-05-04)** — First systematic multi-criteria multilingual code RM benchmark (5 dimensions × 8 languages) + 350K preference pair dataset (largest public). 50+ existing RMs profiled; most are strong only on functional correctness. Themis-RM 600M → 32B shows positive scaling and cross-lingual transfer. Code-domain analog of the ViPO/Semi-DPO (05-02) dimension-collapse diagnosis. → [summary](2026-05-04-themis-multilingual-code-reward-models.md)
+
+**LWD Fleet-Scale RL for VLA Policies (2026-05-04, robotics)** — Offline-to-online RL closing the loop between fleet deployment and policy improvement. Distributional Implicit Value Learning (DIVL) + Q-learning via Adjoint Matching (QAM) for flow-based action generators. 16 dual-arm robots × 8 tasks → 95% average success. The DIVL/QAM primitives transfer to language-domain trajectory routing. → [summary](../agents-tool-use/2026-05-04-lwd-fleet-rl-vla-policies.md)
+
 ## Key Concepts
 
 - **RLHF**: RL from human feedback — aligns model outputs to human preferences
