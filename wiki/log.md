@@ -23,10 +23,6 @@ Append-only timeline of ingests and lint passes.
 ## [2026-05-04] ingest | Simon Willison: Sightings (vibe-coded iNaturalist); Quoting Anthropic on sycophancy | rss/simon-willison
 ## [2026-05-04] digest | wiki/daily-digest/2026-05/2026-05-04.md
 
-# Wiki Log
-
-Append-only timeline of ingests and lint passes.
-
 ## [2026-05-03] ingest | Step-level Optimization for Efficient Computer-use Agents (arxiv 2604.27151) | huggingface
 ## [2026-05-03] ingest | Compliance vs Sensibility: Reasoning Controllability in LLMs (arxiv 2604.27251) | huggingface
 ## [2026-05-03] ingest | Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains (arxiv 2604.24902) | huggingface
