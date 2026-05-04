@@ -180,9 +180,9 @@ th {
 
 .brand-sub {
   font-family: var(--sans);
-  font-size: 0.7rem;
-  font-weight: 500;
-  color: var(--fg-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--fg-dim);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -204,19 +204,21 @@ th {
 
 /* Hero */
 .hero {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   padding: 40px 0 32px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
 }
 .hero-left {
-  flex: 1;
+  /* text left-aligned in the first column */
 }
 .hero-center {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+  /* logo sits in the middle auto column — truly page-centered */
+}
+.hero-right {
+  /* empty balancing column */
 }
 .hero-logo {
   height: 256px;
