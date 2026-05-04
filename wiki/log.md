@@ -2,6 +2,31 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-05-04] ingest | Themis Multilingual Code Reward Models (arxiv 2605.00754) | huggingface
+## [2026-05-04] ingest | End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer (arxiv 2605.00503) | huggingface
+## [2026-05-04] ingest | GenLIP: Generative Language-Image Pre-training (arxiv 2605.00809) | huggingface
+## [2026-05-04] ingest | LWD: Fleet-Scale RL for Generalist Robot Policies (arxiv 2605.00416) | huggingface
+## [2026-05-04] ingest | UniVidX: Unified Multimodal Framework for Video Generation (arxiv 2605.00658) | huggingface
+## [2026-05-04] ingest | Map2World: Segment Map Conditioned Text-to-3D World Generation (arxiv 2605.00781) | huggingface
+## [2026-05-04] ingest | AnalogRetriever: Cross-Modal Representations for Analog Circuit Retrieval (arxiv 2604.23195) | huggingface
+## [2026-05-04] ingest | Ken Huang: Defense Trilemma + NP-hard reward hacking detection | rss/agentic-ai
+## [2026-05-04] ingest | Ken Huang Ch 15: Structured Output (Claude Code vs Hermes) | rss/agentic-ai
+## [2026-05-04] ingest | Ken Huang: World Models, Architectures, and the Next Phase of AI | rss/agentic-ai
+## [2026-05-04] ingest | MIT: Superposition explains scaling laws | rss/the-decoder
+## [2026-05-04] ingest | Xiaomi MiMo-V2.5-Pro open-weight at 40-60% fewer tokens | rss/the-decoder
+## [2026-05-04] ingest | ARC-AGI-3 three systematic reasoning errors | rss/the-decoder
+## [2026-05-04] ingest | Philosophy-Bench: ethical divergence on 100 scenarios | rss/the-decoder
+## [2026-05-04] ingest | Marcus: have LLMs improved patient outcomes? | rss/marcus-on-ai
+## [2026-05-04] ingest | Marcus: Richard Dawkins and the Claude delusion | rss/marcus-on-ai
+## [2026-05-04] ingest | ChatGPT default-on ad tracking; Musk trial; Jensen god complex; xAI Custom Voices | rss/the-decoder
+## [2026-05-04] ingest | Microsoft Co-Authored-by Copilot in VS Code commits; China falling behind US benchmark | rss/the-decoder
+## [2026-05-04] ingest | Simon Willison: Sightings (vibe-coded iNaturalist); Quoting Anthropic on sycophancy | rss/simon-willison
+## [2026-05-04] digest | wiki/daily-digest/2026-05/2026-05-04.md
+
+# Wiki Log
+
+Append-only timeline of ingests and lint passes.
+
 ## [2026-05-03] ingest | Step-level Optimization for Efficient Computer-use Agents (arxiv 2604.27151) | huggingface
 ## [2026-05-03] ingest | Compliance vs Sensibility: Reasoning Controllability in LLMs (arxiv 2604.27251) | huggingface
 ## [2026-05-03] ingest | Safety Drift After Fine-Tuning: Evidence from High-Stakes Domains (arxiv 2604.24902) | huggingface
