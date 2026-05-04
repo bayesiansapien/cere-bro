@@ -2,7 +2,7 @@
 
 Routing in LLM systems means deciding which model (or no model) should handle a given query — with the goal of minimizing cost while meeting quality requirements.
 
-## Current State (as of 2026-05-02)
+## Current State (as of 2026-05-04)
 
 Routing is an active research and production concern operating on **three distinct axes** that the May 2026 batch makes explicit:
 
