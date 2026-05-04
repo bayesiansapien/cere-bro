@@ -291,3 +291,56 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-02.md](daily-digest/2026-05/2026-05-02.md) | Daily digest: Routing legible on 3 axes (Step-level, Ken Huang Ch 14, Surrogate); Compliance-vs-Sensibility + Safety Drift converge on "operational properties are vector-valued"; cyber arms race in 3 vectors (GPT-5.5=Mythos, Claude Security, FlashRT); Pentagon excludes Anthropic; bilateral AI sovereignty
+
+## llms-foundation-models (new 2026-05-02 / 05-03 RSS)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-02-defense-trilemma-np-hardness-reward-hacking.md](llms-foundation-models/2026-05-02-defense-trilemma-np-hardness-reward-hacking.md) | Ken Huang on the Defense Trilemma (Lean-4-verified topology proof: no continuous, utility-preserving wrapper is complete) + three converging complexity results (NP-complete semantic self-verification, no-free-lunch on alignment, reward hacking grows structurally with tools) |
+| [2026-05-02-arc-agi-3-three-systematic-reasoning-errors.md](llms-foundation-models/2026-05-02-arc-agi-3-three-systematic-reasoning-errors.md) | ARC Prize Foundation analyzed 160 game runs: GPT-5.5 and Opus 4.7 stay below 1% on ARC-AGI-3; three systematic error patterns named |
+| [2026-05-03-ken-huang-world-models-architectures.md](llms-foundation-models/2026-05-03-ken-huang-world-models-architectures.md) | World Models survey: LeCun JEPA vs Xing PAN/GLP debate; transformers/diffusion/SSM/RNN substrates; Mamba/SSM quietly excellent for world models; hybrids are the empirical default |
+| [2026-05-03-mit-superposition-scaling-laws.md](llms-foundation-models/2026-05-03-mit-superposition-scaling-laws.md) | MIT: superposition (features in approximately non-interfering directions) explains why scaling works so reliably; mechanistic substrate for the operational-targets-are-sparse thread |
+| [2026-05-03-philosophy-bench-ethical-divergence.md](llms-foundation-models/2026-05-03-philosophy-bench-ethical-divergence.md) | Philosophy-Bench: 100 everyday ethical scenarios; frontier LMs diverge systematically; ethics is a vector, not a scalar |
+| [2026-05-03-marcus-llm-patient-outcomes.md](llms-foundation-models/2026-05-03-marcus-llm-patient-outcomes.md) | Marcus quoting Topol/Nature Medicine: very little evidence LLMs benefit patient outcomes outside admin work |
+
+## agents-tool-use (new 2026-05-02 RSS)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-02-ken-huang-ch15-structured-output.md](agents-tool-use/2026-05-02-ken-huang-ch15-structured-output.md) | Ch 15: Structured output via tool-use forcing in both Claude Code (SyntheticOutputTool + Ajv schema-id cache) and Hermes (extract_structured + JSONL trajectory schema); ModelCapabilities.structured_output as routing sub-axis |
+
+## ai-industry (new 2026-05-02 / 05-03)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-02-chatgpt-ads-tracking-default.md](ai-industry/2026-05-02-chatgpt-ads-tracking-default.md) | OpenAI turned on marketing cookies by default for free ChatGPT users; revenue diversification; pairs with Anthropic Opus metering |
+| [2026-05-03-microsoft-copilot-coauthor-vscode.md](ai-industry/2026-05-03-microsoft-copilot-coauthor-vscode.md) | Microsoft injecting "Co-Authored-by Copilot" into VS Code commits even with AI off; commit-attribution and code-provenance integrity |
+| [2026-05-03-xiaomi-mimo-25-pro-open-weight-coding.md](ai-industry/2026-05-03-xiaomi-mimo-25-pro-open-weight-coding.md) | Xiaomi MiMo-V2.5-Pro: open-weight near-parity with Claude Opus 4.6 at 40-60% fewer tokens per task; pricing axis shift from capability ceiling to per-task cost |
+
+## llms-foundation-models (new 2026-05-04)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-04-themis-multilingual-code-reward-models.md](llms-foundation-models/2026-05-04-themis-multilingual-code-reward-models.md) | Themis: first multi-criteria multilingual code reward model benchmark (5 dim × 8 lang) + 350K preference pairs + 600M-32B RM suite; code-domain version of ViPO/Semi-DPO dimension-collapse diagnosis |
+
+## agents-tool-use (new 2026-05-04)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-04-lwd-fleet-rl-vla-policies.md](agents-tool-use/2026-05-04-lwd-fleet-rl-vla-policies.md) | LWD: fleet-scale offline-to-online RL for VLA policies; Distributional Implicit Value Learning + Q-learning via Adjoint Matching; primitives transfer to language-domain trajectory routing |
+
+## multimodal (new 2026-05-04)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-04-genlip-generative-language-image-pretraining.md](multimodal/2026-05-04-genlip-generative-language-image-pretraining.md) | GenLIP: minimalist ViT pretraining via direct image→text token prediction with LM loss; no contrastive batches, no text decoder |
+| [2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md](multimodal/2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md) | End-to-end joint training of 1D semantic tokenizer + AR generator; FID 1.48 without classifier-free guidance on ImageNet 256x256 |
+| [2026-05-04-unividx-unified-video-generation.md](multimodal/2026-05-04-unividx-unified-video-generation.md) | UniVidX: VDM priors for omni-directional cross-modal generation; Stochastic Condition Masking + Decoupled Gated LoRA + Cross-Modal Self-Attention |
+| [2026-05-04-map2world-3d-world-generation.md](multimodal/2026-05-04-map2world-3d-world-generation.md) | Map2World: segment-map-conditioned 3D world generation with arbitrary shapes; Tier 4 |
+| [2026-05-04-analogretriever-circuit-retrieval.md](multimodal/2026-05-04-analogretriever-circuit-retrieval.md) | AnalogRetriever: tri-modal retrieval (SPICE netlists, schematics, descriptions) for analog circuit IP; data-quality pipeline 22% to 100% compile rate |
+
+## daily-digest (new 2026-05-04)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-04.md](daily-digest/2026-05/2026-05-04.md) | Daily digest: Defense Trilemma + NP-hard reward hacking detection (the "computational wall"); MIT superposition as substrate for the operational-targets-are-sparse thread; Xiaomi MiMo-V2.5-Pro shifts pricing axis to tokens-per-task; Themis multi-criteria code RM continues the dimension-collapse pattern; Ken Huang World Models survey; routing surface now five axes
