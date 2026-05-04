@@ -36,7 +36,9 @@ const topicHref = (t) => url(t);
 
 // ── Topic distribution donut ──────────────────────────────────────────────────
 {
-  const topics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1]);
+  const topics = Object.entries(topicCounts)
+    .filter(([t]) => t !== 'ai-industry')
+    .sort((a, b) => b[1] - a[1]);
 
   const ctx = document.getElementById('donut-chart');
   if (ctx) {
