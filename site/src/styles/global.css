@@ -207,7 +207,7 @@ th {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 16px 0 12px;
+  padding: 12px 0 10px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 24px;
 }
