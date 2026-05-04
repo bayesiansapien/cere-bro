@@ -67,6 +67,8 @@ Farmers pull from these daily:
 
 When a new file lands in `raw/` (via farmer or manually dropped):
 
+**0-pre. Run the Gmail farmer first.** Before doing anything else, run `python3 connectors/gmail/farmer.py` to pull the latest starred emails into `raw/gmail/`. This is mandatory — do not skip it even if a recent Gmail file exists. The farmer is idempotent and fast; running it ensures today's starred emails are included. If it fails, note the error and continue with the most recent available file.
+
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
 
 **0b. Collect ALL raw sources — this is mandatory, not optional.** Before writing any digest, read ALL THREE raw source directories. This is a hard requirement — a digest written without checking all three is incomplete.
