@@ -173,7 +173,7 @@ th {
 .brand:hover { opacity: 0.8; border: none; }
 
 .brand-logo {
-  height: 64px;
+  height: 128px;
   width: auto;
   display: block;
 }
