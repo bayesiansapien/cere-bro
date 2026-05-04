@@ -2,7 +2,7 @@
   <img src="site/public/cerebro-icon.png" alt="cere-bro" width="280" />
 </p>
 
-<p align="center"><strong>Reads everything. Forgets nothing.</strong></p>
+<p align="center"><strong>Your cognitive bro. Always in the loop.</strong></p>
 
 <p align="center">
   <a href="https://bayesiansapien.github.io/cere-bro/">Live site</a> ·
