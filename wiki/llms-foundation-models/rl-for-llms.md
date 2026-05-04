@@ -2,9 +2,13 @@
 
 Using RL to improve LLM reasoning and alignment — from RLHF to RLVR (verifiable rewards) to newer approaches that optimize the pre-training distribution directly.
 
-## Current State (as of 2026-04-30)
+## Current State (as of 2026-05-04)
 
-The RL-rollout cost is now the dominant compute bottleneck of frontier RL post-training: at 8B+ scale, autoregressive generation accounts for 65–72% of every step. Speculative decoding has crossed from inference-only into the training loop (NVIDIA, 04-30): 1.77× generation speedup at 8B, projected 2.5× end-to-end at 235B on 2048 GB200s. The training-time inference problem now rivals the gradient-update problem in importance.
+The "operational targets are sparse and locatable" thread is now four papers strong: TIP (04-16, distillation signal in <10% of tokens), LongAct (04-18, saliency-driven sparse RL updates), Compliance vs Sensibility (05-02, reasoning mode is a linear direction), Safety Drift (05-02, safety is a vector-not-scalar across benchmarks). MIT's superposition explanation for scaling laws (05-03) gives the mechanistic substrate: features are encoded along approximately non-interfering directions, and that's why scaling works *and* why operationally relevant variables are linear and steerable. The structural prediction: most RL post-training behavior is a steerable manifold — the next paper makes activation-steering competitive with full RLHF on at least one task.
+
+The reward-modeling bottleneck has shifted from "execution feedback only" to multi-criteria. Themis (05-04) is the first systematic multilingual code RM benchmark + 350K-pair preference dataset across 5 dimensions × 8 languages. Same root-cause as ViPO/Semi-DPO (05-02): collapsing multi-dimensional preferences to binary labels produces conflicting gradients. Three papers in three weeks make the same diagnosis from three domains.
+
+The RL-rollout cost remains the dominant compute bottleneck of frontier RL post-training (NeMo-RL speculative decoding 04-30: 1.77× generation, 2.5× end-to-end projection at 235B). LWD (05-04) adds the offline-to-online dimension: distributional implicit value learning + Q-learning via adjoint matching for fleet-scale VLA post-training. The robotics paper, but the primitives transfer.
 
 ## Prior State (as of 2026-04-22)
 
