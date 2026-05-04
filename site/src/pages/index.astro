@@ -26,10 +26,15 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 
 <Base title={`#${digestCount} — ${digestTitle}`} active="home">
   <section class="hero">
-    <div class="hero-date">
-      <span class="digest-count">#{digestCount}</span>
+    <div class="hero-left">
+      <div class="hero-date">
+        <span class="digest-count">#{digestCount}</span>
+      </div>
+      <h1>{digestTitle}</h1>
     </div>
-    <h1>{digestTitle}</h1>
+    <div class="hero-center">
+      <img src={url('/cerebro-icon.png')} alt="cere-bro" class="hero-logo" />
+    </div>
   </section>
 
   <div class="grid">

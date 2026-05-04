@@ -160,7 +160,7 @@ th {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .brand {
@@ -173,7 +173,7 @@ th {
 .brand:hover { opacity: 0.8; border: none; }
 
 .brand-logo {
-  height: 256px;
+  height: 40px;
   width: auto;
   display: block;
 }
@@ -204,9 +204,23 @@ th {
 
 /* Hero */
 .hero {
-  padding: 48px 0 28px;
+  display: flex;
+  align-items: center;
+  padding: 40px 0 32px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
+}
+.hero-left {
+  flex: 1;
+}
+.hero-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.hero-logo {
+  height: 256px;
+  width: auto;
 }
 .hero-date {
   font-family: var(--mono);
