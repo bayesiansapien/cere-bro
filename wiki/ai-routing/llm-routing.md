@@ -25,6 +25,10 @@ Three routing paradigms remain operative:
 
 **Step-level Optimization for Computer-Use Agents (2026-05-02)** — Event-driven cascade for GUI agents: small policy by default, escalate to frontier model when learned monitors detect a Stuck pattern (progress stalled) or a Milestone (semantically significant checkpoint). Trajectory-aware routing inside the agent. Modular, no retraining. The first concrete mechanism for the trajectory-level axis. → [summary](2026-05-02-step-level-optimization-computer-use-agents.md)
 
+**Ken Huang Ch 15 — Structured Output (2026-05-02)** — Cross-harness comparison of schema-constrained generation. Both Claude Code and Hermes converge on tool-use forcing as the portable mechanism. Claude Code: `SyntheticOutputTool` with Ajv compile, schema-identity caching, retries excluded from agent tool budget, child agents have it stripped. Hermes: `extract_structured()` with portable tool-choice forcing, plus JSONL trajectory format as infrastructure-level structured output. Schema support is a per-model capability — a sub-axis of routing the Hermes flag exposes but no router yet consumes. → [summary](../agents-tool-use/2026-05-02-ken-huang-ch15-structured-output.md)
+
+**Xiaomi MiMo-V2.5-Pro (2026-05-03)** — Open-weight long-horizon coding model claiming 40-60% fewer tokens per task than Claude Opus 4.6. The pricing axis shifts from "capability ceiling" to "tokens-per-task." Mechanism not disclosed; candidates include MoE sparsity, LenVM-style length value heads, CoPD-style distillation, RL chain-of-thought truncation. *Tokens-per-task is a routing-relevant signal regardless of mechanism — a router can prefer a model that is 50% as expensive at 95% of the quality.* → [summary](../ai-industry/2026-05-03-xiaomi-mimo-25-pro-open-weight-coding.md)
+
 ## Key Concepts
 
 - **Surrogate model**: a cheap ML classifier trained to approximate a more expensive LLM's decisions on a specific task
