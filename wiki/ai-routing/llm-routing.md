@@ -51,6 +51,9 @@ Three routing paradigms remain operative:
 - **Cache-aware routing.** Switching models invalidates prompt cache; SemiAnalysis (05-01) showed cache hits drive blended Opus pricing to $0.99/MTok. A router that knows current cache state and routes within-cache aggressively is the obvious efficiency move; nobody has published it.
 - **Reasoning-mode routing.** Compliance vs Sensibility (05-02) shows reasoning mode is a steerable linear direction. A router that picks both *model* and *forced reasoning mode* is the deeper control surface.
 - **MCP server selection as routing.** Ken Huang Ch 13 (05-01) made clear that MCP server selection is an explicit routing problem; today the agent picks "whichever first."
+- **Schema-aware routing.** Hermes's `ModelCapabilities.structured_output` flag (Ch 15, 05-02) is a per-model feature today; routing to a model that lacks native JSON-mode requires falling back to tool-use forcing. The router that consumes this flag does not exist.
+- **Tokens-per-task pricing as routing signal.** Xiaomi MiMo-V2.5-Pro (05-03) reframes the cost axis: a router that knows which model is cheap on this query, rather than which model is cheap in general, is more valuable in long-horizon agents. Concept now has external open-weight competitive pressure.
+- **Safety-as-routing-constraint.** Defense Trilemma (05-02) implies the wrapper around any single model cannot be both utility-preserving and complete. Routing across models with *uncorrelated* failure modes is a defense-in-depth mechanism the trilemma cannot constrain. Nobody has formalized this as a routing objective.
 
 ## Cross-axis composition (to track)
 
