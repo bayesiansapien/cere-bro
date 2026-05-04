@@ -60,6 +60,8 @@ Three routing paradigms remain operative:
 - **Step-level × Provider/tier**: stack the 05-02 step-level cascade with Ch 14 provider routing → two-axis routing surface inside one agent.
 - **Step-level × Surrogate**: train a TRACER-style surrogate on the cheap-tier model in the cascade; 05-02 cascade only needs the small model for routine steps.
 - **Trajectory routing × Claw-Eval-Live**: 05-01 noted that no single frontier model crosses 70% on Claw-Eval-Live; trajectory-aware routing is the cleanest open lever to cross it. Step-level Optimization is the first candidate mechanism.
+- **Tokens-per-task × Trajectory routing**: Xiaomi MiMo-V2.5-Pro (05-03) optimizes the per-step cost; Step-level Optimization (05-02) optimizes per-trajectory routing. Composing them — a cheaper model in routine steps + Stuck/Milestone escalation — is the multiplicative efficiency play that no paper has measured.
+- **Schema-aware × Provider routing**: a router that picks among providers where some support native JSON mode and others require tool-use forcing should bias toward the cheaper mechanism when both succeed. Hermes's flag is the substrate; no consumer exists.
 
 ## Related Pages
 
