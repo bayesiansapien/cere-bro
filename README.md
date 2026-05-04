@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="site/public/cerebro-icon.png" alt="cere-bro" width="160" />
+<p align="center" style="margin: 8px 0">
+  <img src="site/public/cerebro-icon.png" alt="cere-bro" width="280" />
 </p>
 
-<h1 align="center">cere-bro</h1>
 <p align="center"><strong>A self-maintaining AI research wiki, built and updated daily by Claude.</strong></p>
 
 <p align="center">
