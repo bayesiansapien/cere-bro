@@ -365,3 +365,18 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-05.md](daily-digest/2026-05/2026-05-05.md) | Daily digest: MotionCache extends KV-cache iteration-as-optimization to video; T^2PO is the training-time twin of Step-Level Optimization; Distillation Panic (Lambert) names the policy threat; Import AI 455 (Clark) puts automated AI R&D at 60% by 2028; Ken Huang pentester benchmark instantiates harness > weights at constant model; PhysicianBench + AcademiClaw take the agent-benchmark cluster to eight; Anthropic JV + OpenAI Deployment Co move the lab business above the API
+
+## new pages (2026-05-06)
+
+| Page | Summary |
+|------|---------|
+| [agents-tool-use/2026-05-06-agent-security-study.md](agents-tool-use/2026-05-06-agent-security-study.md) | 847 production agents: 91% tool-chaining vulnerable, 89.4% goal drift at step 30, 94% memory-aug poisonable; OpenClaw/Moltbook: 770K agents simultaneously compromised |
+| [agents-tool-use/2026-05-06-ctx2skill-context-learning.md](agents-tool-use/2026-05-06-ctx2skill-context-learning.md) | Ctx2Skill: self-evolving Challenger/Reasoner/Judge loop extracts reusable skills from context; Cross-time Replay prevents adversarial collapse |
+| [llms-foundation-models/2026-05-06-deepseek-v4.md](llms-foundation-models/2026-05-06-deepseek-v4.md) | DeepSeek V4 Pro: 1.6T/49B active MoE, 1M context, open-sourced; V4 Flash 284B/13B active; claims to close gap with frontier |
+| [ai-industry/2026-05-06-musk-altman-trial-week2.md](ai-industry/2026-05-06-musk-altman-trial-week2.md) | Musk v. Altman week 2: xAI distillation admission, Brockman $30B stake, OpenAI IPO floated; Lambert's Distillation Panic confirmed by sworn testimony |
+
+## daily-digest (new 2026-05-06)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-06.md](daily-digest/2026-05/2026-05-06.md) | Daily digest: agent security audit (91% tool-chaining vulnerable, 770K incident); ProgramBench 0%; Musk admits xAI distillation; DeepSeek V4 open-sourced; OpenAI/MS renegotiation closes; Ctx2Skill self-evolving skill loop; TobyPhln xAI retrospective via Twitter
