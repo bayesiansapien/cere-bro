@@ -20,6 +20,8 @@ KV caching is standard in all production LLM serving. Active research is focused
 
 **SDVG (2026-04-22)** — Extends speculative decoding to continuous video generation. A 1.3B drafter proposes video blocks in 4 denoising steps; ImageReward scores per block using worst-frame aggregation; accepted blocks enter the 14B target's KV cache directly. 1.59x speedup at 98.1% quality; 2.09x at 95.7%. Training-free. → [summary](2026-04-22-sdvg-speculative-decoding-video.md)
 
+**MotionCache (2026-05-05)** — Motion-aware caching for autoregressive video generation. Inter-frame differences identify which pixels require full denoising vs which can skip steps. Two-phase schedule: warm-up for semantic consistency, then motion-weighted cache reuse with dynamic update frequencies. 6.28x speedup on SkyReels-V2 (1% VBench drop), 1.64x on MAGI-1 (0.01% drop). Training-free, code public. The video-AR analogue of selective KV-cache reuse: iteration count is the optimization unit. → [summary](2026-05-05-motion-aware-caching-video.md)
+
 ## Key Concepts
 
 - **Context dependency**: KV states computed for a document are specific to the attention context at the time. Reusing them in a new context produces attention distribution mismatch — hence the need to recompute.
