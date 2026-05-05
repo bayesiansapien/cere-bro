@@ -253,6 +253,28 @@ function inferTweetTopic(text) {
   return 'ai-industry';
 }
 
+function loadSocialSyntheses() {
+  // Synthesis files live at wiki/social-stream/YYYY-MM/YYYY-MM-DD-<slot>.md
+  const root = path.join(WIKI_DIR, 'social-stream');
+  if (!fs.existsSync(root)) return {};
+  const out = {};
+  const months = fs.readdirSync(root).filter((f) =>
+    fs.statSync(path.join(root, f)).isDirectory()
+  );
+  for (const month of months) {
+    const monthDir = path.join(root, month);
+    for (const fname of fs.readdirSync(monthDir)) {
+      const m = fname.match(/^(\d{4}-\d{2}-\d{2})-(night|morning|afternoon|evening)\.md$/);
+      if (!m) continue;
+      const [, date, slot] = m;
+      const raw = fs.readFileSync(path.join(monthDir, fname), 'utf8');
+      const { content } = matter(raw);
+      out[`${date}-${slot}`] = marked.parse(content);
+    }
+  }
+  return out;
+}
+
 function parseSocialStream() {
   if (!fs.existsSync(TWITTER_RAW_DIR)) return [];
   const files = fs.readdirSync(TWITTER_RAW_DIR)
@@ -260,6 +282,7 @@ function parseSocialStream() {
     .sort()
     .reverse(); // newest first
 
+  const syntheses = loadSocialSyntheses();
   const slots = [];
   for (const fname of files) {
     try {
@@ -290,6 +313,7 @@ function parseSocialStream() {
         slot:       raw.slot,
         scrapedIst: raw.scraped_ist,
         lookbackH:  raw.lookback_h,
+        synthesisHtml: syntheses[`${raw.date}-${raw.slot}`] ?? null,
         curated:    raw.curated.map((t) => ({
           ...t,
           isCurated: true,

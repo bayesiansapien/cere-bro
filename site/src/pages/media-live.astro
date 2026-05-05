@@ -131,9 +131,24 @@ const TOPIC_LABEL: Record<string, string> = {
               </div>
             )}
 
+            {/* Synthesis (Claude-written) — primary content when available */}
+            {slot.synthesisHtml ? (
+              <div class="ml-synthesis" set:html={slot.synthesisHtml} />
+            ) : (
+              <div class="ml-synthesis-pending">
+                Synthesis pending. The 9am morning run produces a thorough writeup of important
+                tweets from the past 24h. Other slots currently show the raw feed only.
+              </div>
+            )}
+
             {allTweets.length === 0 ? (
               <div class="ml-empty">No tweets in this window.</div>
             ) : (
+              <details class="ml-raw-feed">
+                <summary>
+                  Raw feed · {allTweets.length} tweets
+                  {slot.counts.curated > 0 && ` (${slot.counts.curated} curated)`}
+                </summary>
               <div class="ml-tweet-list">
                 {allTweets.map((t: any) => (
                   <article class={`ml-tweet ml-imp-${t.importance ?? 'normal'} ${t.isCurated ? 'ml-curated' : ''}`}>
@@ -167,6 +182,7 @@ const TOPIC_LABEL: Record<string, string> = {
                   </article>
                 ))}
               </div>
+              </details>
             )}
           </div>
         );
@@ -248,6 +264,90 @@ const TOPIC_LABEL: Record<string, string> = {
     font-style: italic;
     padding: 16px 0;
   }
+
+  /* Claude-written synthesis — the primary content */
+  .ml-synthesis {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 22px 26px;
+    margin-bottom: 16px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 16.5px;
+    line-height: 1.65;
+    color: #1f2937;
+  }
+  .ml-synthesis :global(h1),
+  .ml-synthesis :global(h2),
+  .ml-synthesis :global(h3) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    line-height: 1.25;
+  }
+  .ml-synthesis :global(h1) { font-size: 22px; margin-top: 0; }
+  .ml-synthesis :global(h2) { font-size: 18px; }
+  .ml-synthesis :global(h3) { font-size: 15px; color: #475569; }
+  .ml-synthesis :global(p):first-child { margin-top: 0; }
+  .ml-synthesis :global(p):last-child { margin-bottom: 0; }
+  .ml-synthesis :global(a) { color: #1d4ed8; }
+  .ml-synthesis :global(blockquote) {
+    border-left: 3px solid #fbbf24;
+    margin: 12px 0;
+    padding: 4px 16px;
+    color: #475569;
+    background: rgba(251, 191, 36, 0.04);
+  }
+  .ml-synthesis :global(code) {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  .ml-synthesis :global(ul), .ml-synthesis :global(ol) {
+    padding-left: 24px;
+    margin: 10px 0;
+  }
+
+  .ml-synthesis-pending {
+    background: rgba(251, 191, 36, 0.06);
+    border: 1px dashed rgba(251, 191, 36, 0.4);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: #92400e;
+    font-style: italic;
+  }
+
+  .ml-raw-feed {
+    margin-top: 12px;
+  }
+  .ml-raw-feed > summary {
+    cursor: pointer;
+    font-size: 12px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    padding: 8px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    list-style: none;
+  }
+  .ml-raw-feed > summary::-webkit-details-marker { display: none; }
+  .ml-raw-feed > summary::before {
+    content: '▸ ';
+    display: inline-block;
+    transition: transform 0.15s;
+  }
+  .ml-raw-feed[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .ml-raw-feed[open] > summary {
+    margin-bottom: 12px;
+  }
+  .ml-raw-feed > summary:hover { color: #1d4ed8; }
 
   .ml-tweet-list {
     display: flex;
