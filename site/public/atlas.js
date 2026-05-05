@@ -5,6 +5,7 @@ const data = JSON.parse(document.getElementById('atlas-data').textContent);
 const {
   topicColors,
   topicCounts,
+  socialTopicCounts = {},
   weeks,
   months,
   cumulativeWeeks,
@@ -78,13 +79,22 @@ const topicHref = (t) => url(t);
   const list = document.getElementById('topic-list');
   if (list) {
     const total = topics.reduce((s, [, c]) => s + c, 0);
-    list.innerHTML = topics
+    const totalTweets = Object.values(socialTopicCounts).reduce((s, n) => s + n, 0);
+    const headerNote = totalTweets > 0
+      ? `<div class="topic-list-note">Wiki pages · <span class="tweet-meta">+ ${totalTweets} tweets from social stream</span></div>`
+      : '';
+    list.innerHTML = headerNote + topics
       .map(([t, c]) => {
         const pct = ((c / total) * 100).toFixed(0);
         const color = topicColors[t] ?? '#94a3b8';
+        const tweets = socialTopicCounts[t] ?? 0;
+        const tweetBadge = tweets > 0
+          ? `<span class="topic-tweets" title="${tweets} tweets in social stream">+${tweets}</span>`
+          : '';
         return `<div class="topic-row">
           <span class="topic-swatch" style="background:${color}"></span>
           <a href="${topicHref(t)}/" class="topic-name">${t}</a>
+          ${tweetBadge}
           <span class="topic-count">${c}</span>
           <span class="topic-pct">${pct}%</span>
         </div>`;

@@ -17,6 +17,7 @@ import os
 import sys
 import json
 import re
+import time
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -30,6 +31,17 @@ CONFIG_PATH = Path(__file__).parent / "config.json"
 ENV_PATH    = REPO_ROOT / ".env"
 RAW_DIR     = REPO_ROOT / "raw" / "twitter"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _load_env():
+    if ENV_PATH.exists():
+        for line in ENV_PATH.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip())
+
+_load_env()
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 
@@ -57,8 +69,10 @@ FORCE = "--force" in sys.argv
 now_utc  = datetime.now(timezone.utc)
 now_ist  = now_utc + timedelta(hours=5, minutes=30)
 date_str = now_ist.strftime("%Y-%m-%d")
-slot     = "am" if now_ist.hour < 15 else "pm"
+_h       = now_ist.hour
+slot     = "night" if _h < 6 else ("morning" if _h < 12 else ("afternoon" if _h < 18 else "evening"))
 out_path = RAW_DIR / f"{date_str}-{slot}.md"
+json_path = RAW_DIR / f"{date_str}-{slot}.json"
 cutoff   = now_utc - timedelta(hours=HOURS_BACK)
 
 if out_path.exists() and not FORCE:
@@ -66,6 +80,182 @@ if out_path.exists() and not FORCE:
     sys.exit(0)
 
 print(f"Twitter farmer | {date_str} | {slot.upper()} run | lookback {HOURS_BACK}h")
+
+# ── Auto-discovery of new follows ──────────────────────────────────────────────
+
+def _classify_from_bio(bio: str, name: str, username: str) -> tuple[bool, list, str]:
+    """Returns (is_ai_relevant, focus_list, inferred_org)."""
+    bio_kws = [k.lower() for k in cfg.get("bio_ai_keywords", [])]
+    text = (bio + " " + name + " " + username).lower()
+
+    is_relevant = any(kw in text for kw in bio_kws)
+
+    org_map = [
+        ("Anthropic",       ["anthropic"]),
+        ("OpenAI",          ["openai"]),
+        ("Google DeepMind", ["deepmind", "google deepmind"]),
+        ("Google",          ["@google", "google research", "google brain"]),
+        ("Meta AI",         ["meta ai", "@meta", "fair "]),
+        ("xAI",             ["@xai", " xai "]),
+        ("Mistral",         ["mistral"]),
+        ("Cohere",          ["cohere"]),
+        ("Hugging Face",    ["hugging face", "huggingface"]),
+        ("NVIDIA",          ["nvidia"]),
+        ("Microsoft",       ["microsoft", "msft", "@microsoft"]),
+        ("AWS",             ["amazon", " aws "]),
+        ("Tesla",           ["tesla"]),
+        ("Cursor",          ["cursor"]),
+    ]
+    org = "Independent"
+    for o, pats in org_map:
+        if any(p in text for p in pats):
+            org = o
+            break
+
+    focus_map = [
+        ("routing",               ["routing"]),
+        ("KV cache",              ["kv cache"]),
+        ("quantization",          ["quantization"]),
+        ("distillation",          ["distillation"]),
+        ("GPU/CUDA",              ["gpu", "cuda", "kernel"]),
+        ("LLMs",                  ["llm", "language model"]),
+        ("foundation models",     ["foundation model"]),
+        ("agents",                ["agent"]),
+        ("reinforcement learning",["reinforcement learning", " rl "]),
+        ("alignment/safety",      ["alignment", "safety", "interpretability"]),
+        ("multimodal",            ["multimodal", "vision-language"]),
+        ("robotics",              ["robotics", "autonomous"]),
+        ("semiconductors",        ["chip", "semiconductor", "silicon", "tpu"]),
+        ("inference",             ["inference"]),
+        ("training",              ["training"]),
+        ("NLP",                   ["nlp"]),
+        ("research",              ["researcher", "scientist"]),
+    ]
+    focus = [tag for tag, kws in focus_map if any(k in text for k in kws)]
+    return is_relevant, (focus[:5] or ["AI"]), org
+
+
+def refresh_following_list():
+    """Check Apify for new follows, classify them, update config.json automatically."""
+    last_str   = cfg.get("following_last_checked")
+    refresh_d  = cfg.get("following_refresh_days", 3)
+    actor_id   = cfg.get("following_actor_id")
+    api_token  = os.environ.get("APIFY_API_TOKEN")
+
+    if last_str:
+        last_dt = datetime.fromisoformat(last_str)
+        if last_dt.tzinfo is None:
+            last_dt = last_dt.replace(tzinfo=timezone.utc)
+        age_d = (now_utc - last_dt).days
+        if age_d < refresh_d:
+            print(f"[auto-discovery] Following list is {age_d}d old (refresh every {refresh_d}d) — skipping.")
+            return
+
+    print(f"[auto-discovery] Checking for new follows (last checked: {last_str or 'never'})...")
+
+    if not api_token:
+        print("  WARNING: APIFY_API_TOKEN missing — skipping auto-discovery")
+        return
+    if not actor_id:
+        print("  WARNING: following_actor_id missing from config — skipping")
+        return
+
+    # Start Apify run
+    run_url = f"https://api.apify.com/v2/acts/{actor_id}/runs"
+    payload = {"screenName": OWN_HANDLE, "maxItems": 1000}
+    try:
+        r = requests.post(
+            run_url, json=payload,
+            headers={"Authorization": f"Bearer {api_token}"},
+            timeout=30,
+        )
+        if r.status_code not in (200, 201):
+            print(f"  ERROR: Apify start failed {r.status_code}: {r.text[:300]}")
+            return
+        run_id = r.json().get("data", {}).get("id")
+        if not run_id:
+            print(f"  ERROR: No run ID returned: {r.text[:300]}")
+            return
+        print(f"  Apify run started: {run_id}")
+    except Exception as e:
+        print(f"  ERROR starting Apify run: {e}")
+        return
+
+    # Poll until done (max ~3 min)
+    status_url = f"https://api.apify.com/v2/actor-runs/{run_id}"
+    for i in range(18):
+        time.sleep(10)
+        try:
+            s = requests.get(
+                status_url,
+                headers={"Authorization": f"Bearer {api_token}"},
+                timeout=15,
+            ).json().get("data", {}).get("status", "")
+            print(f"  Run status: {s} ({(i+1)*10}s)")
+            if s == "SUCCEEDED":
+                break
+            if s in ("FAILED", "TIMED-OUT", "ABORTED"):
+                print(f"  ERROR: Run ended with {s}")
+                return
+        except Exception as e:
+            print(f"  ERROR polling: {e}")
+    else:
+        print("  ERROR: Run did not complete within 3 minutes — skipping")
+        return
+
+    # Fetch results
+    try:
+        items = requests.get(
+            f"https://api.apify.com/v2/actor-runs/{run_id}/dataset/items",
+            headers={"Authorization": f"Bearer {api_token}"},
+            params={"limit": 1000},
+            timeout=30,
+        ).json()
+        print(f"  Got {len(items)} following accounts")
+    except Exception as e:
+        print(f"  ERROR fetching dataset: {e}")
+        return
+
+    # Known handle sets (case-insensitive)
+    known_ai    = {h["handle"].lower() for h in cfg.get("ai_handles", [])}
+    known_other = {h.lower() for h in cfg.get("known_non_ai_handles", [])}
+
+    new_ai, new_other = [], []
+    for item in items:
+        uname = (
+            item.get("username") or item.get("screen_name") or
+            item.get("handle") or item.get("userName") or ""
+        ).lstrip("@").strip()
+        if not uname or uname.lower() in known_ai or uname.lower() in known_other:
+            continue
+
+        bio    = item.get("description") or item.get("bio") or ""
+        name   = item.get("name") or item.get("displayName") or uname
+        relevant, focus, org = _classify_from_bio(bio, name, uname)
+
+        if relevant:
+            new_ai.append({"handle": uname, "name": name, "org": org, "timezone": "PT", "focus": focus})
+        else:
+            new_other.append(uname)
+
+    if new_ai:
+        print(f"  NEW AI handles ({len(new_ai)}):")
+        for h in new_ai:
+            print(f"    @{h['handle']} [{h['org']}] {h['focus']}")
+        cfg["ai_handles"].extend(new_ai)
+
+    if new_other:
+        preview = ", ".join(f"@{h}" for h in new_other[:8])
+        suffix  = f"... +{len(new_other)-8} more" if len(new_other) > 8 else ""
+        print(f"  NEW non-AI handles ({len(new_other)}): {preview}{suffix}")
+        cfg["known_non_ai_handles"].extend(new_other)
+
+    cfg["following_last_checked"] = now_utc.isoformat()
+    CONFIG_PATH.write_text(json.dumps(cfg, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  Config saved — {len(new_ai)} AI added, {len(new_other)} non-AI added.")
+
+
+refresh_following_list()
 
 # ── Nitter RSS helpers ─────────────────────────────────────────────────────────
 
@@ -278,3 +468,40 @@ out += ["", "---", f"*Twitter farmer | {date_str} {slot.upper()} | {total_tweets
 out_path.write_text("\n".join(out), encoding="utf-8")
 print(f"\nWrote {out_path}")
 print(f"Summary: {len(own_curated)} curated retweets | {sum(len(v) for v in ai_results.values())} AI tweets | {total_articles} articles")
+
+# ── JSON sidecar (machine-readable for Media-Live site tab) ────────────────────
+
+def _tweet_to_dict(t: dict, is_curated: bool = False, handle_org: str = "") -> dict:
+    return {
+        "handle":     t["handle"],
+        "creator":    t["creator"],
+        "text":       t["text"][:600],
+        "link":       t["link"],
+        "date_utc":   t["date"].isoformat() if t["date"] else None,
+        "is_curated": is_curated,
+        "org":        handle_org,
+        "articles":   [
+            {"url": a["url"], "content": a["content"][:800]}
+            for a in t.get("articles", []) if a.get("url")
+        ],
+    }
+
+json_payload = {
+    "date":        date_str,
+    "slot":        slot,
+    "scraped_ist": now_ist.strftime("%Y-%m-%d %H:%M"),
+    "lookback_h":  HOURS_BACK,
+    "curated": [_tweet_to_dict(t, is_curated=True) for t in own_curated],
+    "ai_feed": [
+        {
+            "handle": handle,
+            "org": next((h.get("org", "") for h in AI_HANDLES if h["handle"] == handle), ""),
+            "focus": next((h.get("focus", []) for h in AI_HANDLES if h["handle"] == handle), []),
+            "tweets": [_tweet_to_dict(t) for t in tweets],
+        }
+        for handle, tweets in sorted(ai_results.items())
+    ],
+}
+
+json_path.write_text(json.dumps(json_payload, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Wrote {json_path}")

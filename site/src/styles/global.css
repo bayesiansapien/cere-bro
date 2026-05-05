@@ -497,6 +497,24 @@ th {
   width: 40px;
   text-align: right;
 }
+.topic-tweets {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  background: rgba(29, 78, 216, 0.1);
+  color: #1d4ed8;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+.topic-list-note {
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  padding: 6px 0 12px;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 4px;
+}
+.topic-list-note .tweet-meta {
+  color: #1d4ed8;
+}
 
 /* Heatmap */
 .heatmap-card {

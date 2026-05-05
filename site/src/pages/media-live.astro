@@ -1,0 +1,371 @@
+---
+import Base from '../layouts/Base.astro';
+import wiki from '../data/wiki.json';
+
+const slots = wiki.socialSlots ?? [];
+const topicColors = wiki.topicColors ?? {};
+const totalTweets = wiki.counts?.socialTweets ?? 0;
+
+// Group slots by date
+const byDate: Record<string, any[]> = {};
+for (const s of slots) {
+  if (!byDate[s.date]) byDate[s.date] = [];
+  byDate[s.date].push(s);
+}
+const dates = Object.keys(byDate).sort().reverse();
+
+// Slot ordering within a day (newest first)
+const SLOT_ORDER = ['evening', 'afternoon', 'morning', 'night'];
+for (const d of dates) {
+  byDate[d].sort((a, b) => SLOT_ORDER.indexOf(a.slot) - SLOT_ORDER.indexOf(b.slot));
+}
+
+// Pretty slot label
+const SLOT_LABEL: Record<string, string> = {
+  night:     'Night (00–06 IST)',
+  morning:   'Morning (06–12 IST)',
+  afternoon: 'Afternoon (12–18 IST)',
+  evening:   'Evening (18–24 IST)',
+};
+
+// Pretty date label
+function fmtDate(iso: string) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' });
+}
+
+// Topic label (human-readable)
+const TOPIC_LABEL: Record<string, string> = {
+  'ai-routing':             'Routing',
+  'inference-efficiency':   'Inference / Efficiency',
+  'hardware':               'Hardware',
+  'llms-foundation-models': 'LLMs',
+  'agents-tool-use':        'Agents',
+  'multimodal':             'Multimodal',
+  'ai-industry':            'Industry',
+};
+---
+
+<Base title="Media Live — cere-bro" active="media-live">
+  <section class="hero">
+    <div class="hero-date">live social stream</div>
+    <h1>Media Live</h1>
+    <p class="hero-tagline">
+      Twitter/X polled four times a day. Every retweet from @bayesiansapien plus AI-relevant tweets
+      from {wiki.socialSlots?.[0]?.aiFeed?.length ?? 0}+ tracked accounts. Less curated than the
+      daily digest. Closer to the raw stream.
+    </p>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker">overview</div>
+    <div class="ml-stats">
+      <div class="ml-stat">
+        <div class="ml-stat-num">{totalTweets}</div>
+        <div class="ml-stat-label">tweets captured</div>
+      </div>
+      <div class="ml-stat">
+        <div class="ml-stat-num">{slots.length}</div>
+        <div class="ml-stat-label">polling slots</div>
+      </div>
+      <div class="ml-stat">
+        <div class="ml-stat-num">4×</div>
+        <div class="ml-stat-label">per day</div>
+      </div>
+      <div class="ml-stat">
+        <div class="ml-stat-num">6h</div>
+        <div class="ml-stat-label">gap</div>
+      </div>
+    </div>
+  </section>
+
+  {dates.length === 0 && (
+    <section class="atlas-section">
+      <div class="empty-state">
+        <p>No social stream data yet. Run the Twitter farmer to populate this feed:</p>
+        <pre><code>python3 connectors/twitter/farmer.py</code></pre>
+      </div>
+    </section>
+  )}
+
+  {dates.map((date) => (
+    <section class="atlas-section ml-day">
+      <div class="section-marker">{fmtDate(date)}</div>
+
+      {byDate[date].map((slot: any) => {
+        const allTweets = [
+          ...slot.curated.map((t: any) => ({ ...t, _section: 'curated' })),
+          ...slot.aiFeed.flatMap((f: any) =>
+            f.tweets.map((t: any) => ({ ...t, _section: 'feed', org: f.org }))
+          ),
+        ];
+        // Sort: curated first, then by date desc within feed
+        allTweets.sort((a, b) => {
+          if (a._section !== b._section) return a._section === 'curated' ? -1 : 1;
+          return (b.date_utc ?? '').localeCompare(a.date_utc ?? '');
+        });
+
+        return (
+          <div class="ml-slot">
+            <div class="ml-slot-header">
+              <h2>{SLOT_LABEL[slot.slot] ?? slot.slot}</h2>
+              <div class="ml-slot-meta">
+                scraped {slot.scrapedIst} IST · {slot.counts.total} tweets
+                {slot.counts.curated > 0 && ` · ${slot.counts.curated} curated`}
+              </div>
+            </div>
+
+            {/* Topic breakdown bar */}
+            {Object.keys(slot.topicBreakdown ?? {}).length > 0 && (
+              <div class="ml-topic-bar">
+                {Object.entries(slot.topicBreakdown)
+                  .sort((a: any, b: any) => b[1] - a[1])
+                  .map(([topic, n]: any) => (
+                    <span
+                      class="ml-topic-chip"
+                      style={`background: ${topicColors[topic] ?? '#94a3b8'}22; color: ${topicColors[topic] ?? '#94a3b8'};`}
+                    >
+                      {TOPIC_LABEL[topic] ?? topic} · {n}
+                    </span>
+                  ))}
+              </div>
+            )}
+
+            {allTweets.length === 0 ? (
+              <div class="ml-empty">No tweets in this window.</div>
+            ) : (
+              <div class="ml-tweet-list">
+                {allTweets.map((t: any) => (
+                  <article class={`ml-tweet ml-imp-${t.importance ?? 'normal'} ${t.isCurated ? 'ml-curated' : ''}`}>
+                    <div class="ml-tweet-head">
+                      <span class="ml-handle">@{t.handle}</span>
+                      {t.org && <span class="ml-org">{t.org}</span>}
+                      {t.creator && t.creator !== `@${t.handle}` && (
+                        <span class="ml-via">via {t.creator}</span>
+                      )}
+                      <span
+                        class="ml-topic-tag"
+                        style={`background: ${topicColors[t.topic] ?? '#94a3b8'}33; color: ${topicColors[t.topic] ?? '#94a3b8'};`}
+                      >
+                        {TOPIC_LABEL[t.topic] ?? t.topic}
+                      </span>
+                      {t.isCurated && <span class="ml-badge curated">curated</span>}
+                      {t.importance === 'medium' && <span class="ml-badge medium">article</span>}
+                    </div>
+                    <div class="ml-tweet-text">{t.text}</div>
+                    {t.articles?.length > 0 && t.articles[0].content && (
+                      <details class="ml-article">
+                        <summary>Article snippet ({new URL(t.articles[0].url).hostname.replace('www.','')})</summary>
+                        <p>{t.articles[0].content.slice(0, 600)}{t.articles[0].content.length > 600 ? '…' : ''}</p>
+                      </details>
+                    )}
+                    {t.link && (
+                      <a class="ml-tweet-link" href={t.link} target="_blank" rel="noopener">
+                        view tweet ↗
+                      </a>
+                    )}
+                  </article>
+                ))}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </section>
+  ))}
+</Base>
+
+<style>
+  .ml-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .ml-stat {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+  .ml-stat-num {
+    font-family: 'Crimson Pro', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .ml-stat-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #64748b;
+  }
+
+  .ml-day { padding-bottom: 24px; }
+
+  .ml-slot {
+    background: rgba(0, 0, 0, 0.015);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .ml-slot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .ml-slot-header h2 {
+    margin: 0;
+    font-size: 22px;
+  }
+  .ml-slot-meta {
+    font-size: 12px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .ml-topic-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+  .ml-topic-chip {
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-weight: 500;
+  }
+
+  .ml-empty {
+    color: #94a3b8;
+    font-style: italic;
+    padding: 16px 0;
+  }
+
+  .ml-tweet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ml-tweet {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 14px 16px;
+    border-left-width: 3px;
+  }
+  .ml-tweet.ml-curated {
+    border-left-color: #fbbf24;
+    background: linear-gradient(to right, rgba(251, 191, 36, 0.04), white 30%);
+  }
+  .ml-tweet.ml-imp-medium { border-left-color: #3b82f6; }
+  .ml-tweet.ml-imp-normal { border-left-color: rgba(0, 0, 0, 0.06); }
+
+  .ml-tweet-head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+  .ml-handle {
+    font-weight: 600;
+    color: #1d4ed8;
+  }
+  .ml-org {
+    font-size: 11px;
+    background: rgba(0, 0, 0, 0.05);
+    color: #475569;
+    padding: 2px 7px;
+    border-radius: 4px;
+  }
+  .ml-via {
+    font-size: 11px;
+    color: #94a3b8;
+  }
+  .ml-topic-tag {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .ml-badge {
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .ml-badge.curated {
+    background: #fef3c7;
+    color: #b45309;
+  }
+  .ml-badge.medium {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+
+  .ml-tweet-text {
+    font-size: 15px;
+    line-height: 1.55;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+
+  .ml-article {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin: 8px 0;
+    font-size: 13px;
+  }
+  .ml-article summary {
+    cursor: pointer;
+    color: #475569;
+    font-weight: 500;
+  }
+  .ml-article p {
+    margin: 8px 0 0;
+    color: #475569;
+    line-height: 1.5;
+  }
+
+  .ml-tweet-link {
+    font-size: 12px;
+    color: #64748b;
+    text-decoration: none;
+  }
+  .ml-tweet-link:hover { color: #1d4ed8; }
+
+  .empty-state {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px dashed rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    color: #64748b;
+  }
+  .empty-state pre {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+
+  @media (max-width: 700px) {
+    .ml-stats { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
