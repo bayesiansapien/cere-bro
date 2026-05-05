@@ -38,10 +38,12 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 - Over-exploration is a common failure mode in strong models
 - Professional/domain-specific tasks expose different weaknesses than general benchmarks
 - Deterministic environment generation (OccuBench, InfiniteScienceGym) removes publication bias
-- **Execution harness dominates model capability** (GTA-2): the scaffold around the model determines workflow completion more than model capability itself
-- Six benchmarks (OccuBench, DR3-Eval, GTA-2, PRL-Bench, Claw-Eval-Live, InteractWeb-Bench) converge on the same finding: frontier models fail realistic multi-step tasks reliably — this is a consistent, cross-domain measurement
+- **Execution harness dominates model capability** (GTA-2): the scaffold around the model determines workflow completion more than model capability itself. Confirmed empirically by the Ridge Security pentester benchmark (2026-05-04) at constant model: belief state, evidence-as-invariant, and trust propagation account for >5x finding gaps between architectures using the same Gemini 3 Flash backbone.
+- Eight benchmarks now converge on the same finding: frontier models fail realistic multi-step tasks reliably — this is a consistent, cross-domain measurement
 - **Middle-band discrimination** (Claw-Eval-Live, 05-01): models with similar pass rates diverge in overall completion, suggesting per-task-family routing could outperform any single model
 - **Blind execution** (InteractWeb-Bench, 05-01): a distinct, named failure mode where agents guess rather than clarify under ambiguous instructions — the first benchmark to grade this dimension explicitly
+- **Compute-quality decoupling** (AcademiClaw, 2026-05-05): computational resource consumption does not predict output quality across 80 academic-level tasks. The compute-as-proxy default is empirically broken
+- **Long-horizon tool-call gap** (PhysicianBench, 2026-05-05): 27-call average is the highest horizon in the cluster; the open-source vs closed-source gap (19% vs 46%) is largest at this horizon, suggesting tool-use trace data, not raw capability, is the bottleneck
 
 ## Related Pages
 
