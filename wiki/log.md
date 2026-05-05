@@ -302,3 +302,9 @@ Append-only timeline of ingests and lint passes.
 - Deep Dives: 7 (Defense Trilemma, MIT Superposition, Xiaomi MiMo, Ken Huang World Models, AgenticQwen, AHE, Themis + LWD)
 - Industry items: 12
 - Gmail farmer run: python3 connectors/gmail/farmer.py → 5 new starred emails
+
+## [2026-05-06] digest | Daily Digest | digest
+- Sources: 16 (9 HuggingFace, 1 RSS, 3 Gmail, 3 Twitter)
+- Deep Dives: 4 (Agent Security, Musk/Altman trial, DeepSeek V4, Ctx2Skill)
+- Industry items: 5
+- Twitter: 1 curated retweet (ProgramBench), 8 AI handle tweets (TobyPhln retrospective, Grok Imagine, NVIDIA Knowledge26)
