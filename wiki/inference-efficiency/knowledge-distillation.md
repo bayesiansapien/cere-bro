@@ -2,9 +2,9 @@
 
 Transferring capabilities from a large teacher model to a smaller student model. On-policy distillation (OPD) trains the student on its own rollouts under token-level supervision from the teacher.
 
-## Current State (as of 2026-04-30)
+## Current State (as of 2026-05-05)
 
-On-policy distillation has become the dominant approach for reasoning model compression. The key open question is which tokens actually carry the learning signal — naive approaches use all tokens, but most are uninformative.
+On-policy distillation has become the dominant approach for reasoning model compression. The key open question is which tokens actually carry the learning signal — naive approaches use all tokens, but most are uninformative. The distillation toolbox now ranges from token-importance methods (TIP) to neutral-channel cross-architecture transfer (BLD, TESSY, Switch-KD, Tide) and parallel co-evolution (CoPD). **Policy dimension (2026-05-05):** Nathan Lambert's "Distillation Panic" warns that the term is being conflated with API-jailbreaking attacks, and that pending U.S. legislation aimed at "distillation attacks" risks chilling the legitimate technique used by every lab. xAI's trial admission ("Generally AI companies distill other AI companies") is the most direct insider acknowledgment that the practice is industry-wide. The technical and political surfaces of distillation are now both load-bearing.
 
 ## Key Papers
 
