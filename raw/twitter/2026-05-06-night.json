@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-06",
+  "slot": "night",
+  "scraped_ist": "2026-05-06 04:46",
+  "lookback_h": 7,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Awkward cropping is dead Grok Imagine can now change the aspect ratio of any photo in seconds Video",
+          "link": "https://nitter.net/imagine/status/2051751065393963127#m",
+          "date_utc": "2026-05-05T19:49:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Join us at #Knowledge26 with six sessions spanning autonomous retail, employee experience, IT and the future of enterprise AI agents.",
+          "link": "https://nitter.net/nvidia/status/2051708504268837157#m",
+          "date_utc": "2026-05-05T17:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
