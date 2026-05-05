@@ -2,9 +2,9 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
-## Current State (as of 2026-05-01)
+## Current State (as of 2026-05-05)
 
-Standard LLM benchmarks underserve agents. The field has been building agent-specific eval frameworks across several dimensions: decision-making quality, professional domain coverage, multimodal grounding, and robustness under fault injection. **Six benchmarks (OccuBench, GTA-2, DR3-Eval, PRL-Bench, Claw-Eval-Live, InteractWeb-Bench) now report frontier-agent failure rates of 30%+ on realistic multi-step tasks.** This is no longer a coincidence: it is a consistent cross-domain measurement.
+Standard LLM benchmarks underserve agents. The field has been building agent-specific eval frameworks across several dimensions: decision-making quality, professional domain coverage, multimodal grounding, and robustness under fault injection. **Eight benchmarks (OccuBench, GTA-2, DR3-Eval, PRL-Bench, Claw-Eval-Live, InteractWeb-Bench, AcademiClaw, PhysicianBench) now report frontier-agent failure rates of 30–55% on realistic multi-step tasks.** This is no longer a coincidence: it is a consistent cross-domain measurement spanning general workflow (Claw-Eval-Live, OccuBench), web (InteractWeb-Bench), professional research (PRL-Bench), academic challenges (AcademiClaw, 2026-05-05), and clinical workflow (PhysicianBench, 2026-05-05).
 
 ## Key Benchmarks
 
