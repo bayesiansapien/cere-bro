@@ -40,6 +40,8 @@ On-policy distillation has become the dominant approach for reasoning model comp
 
 **CoPD: Co-Evolving Policy Distillation (2026-05-01)** — Multi-capability post-training via parallel expert RLVR + bidirectional OPD during training (not after). Mixed RLVR has divergence cost; train-experts-then-OPD has behavioral-pattern gap; CoPD avoids both by having experts mutually distill while RLVR-training in parallel. Integrates text/image/video reasoning into one model that *surpasses domain-specific experts*. Bidirectional OPD as the neutral exchange channel, applied to parallel training rather than student/teacher pipeline. Fifth paper in the cross-distillation-channel pattern (after BLD, TESSY, Switch-KD, Tide). → [summary](../llms-foundation-models/2026-05-01-copd-co-evolving-policy-distillation.md)
 
+**The Distillation Panic — Nathan Lambert (2026-05-04)** — policy/discourse piece arguing that the "distillation attacks" framing being pushed in U.S. legislation conflates legitimate post-training distillation (used by every lab, including Nemotron and Olmo) with API jailbreaking (which should be called jailbreaking). The risk: a domestic ban on Chinese open-weight models built via API distillation, with collateral damage to Western academics and small labs. Quotes Musk's xAI trial admission as evidence the practice is industry-standard. Adds the policy dimension to the wiki's distillation tracking. → [summary](2026-05-04-distillation-panic-lambert.md)
+
 ## Key Concepts
 
 - **On-policy distillation**: student generates its own rollouts, then learns from teacher's token-level distribution over those rollouts
