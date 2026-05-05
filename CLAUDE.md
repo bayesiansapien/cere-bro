@@ -67,13 +67,17 @@ Farmers pull from these daily:
 
 When a new file lands in `raw/` (via farmer or manually dropped):
 
-**0-pre. Run the Gmail farmer first.** Before doing anything else, run `python3 connectors/gmail/farmer.py` to pull the latest starred emails into `raw/gmail/`. This is mandatory — do not skip it even if a recent Gmail file exists. The farmer is idempotent and fast; running it ensures today's starred emails are included. If it fails, note the error and continue with the most recent available file.
+**0-pre. Run all farmers first.** Before doing anything else, run the following in order:
+1. `python3 connectors/gmail/farmer.py` — pulls starred Gmail emails into `raw/gmail/`
+2. `python3 connectors/twitter/farmer.py` — pulls tweets and retweets into `raw/twitter/`
+
+Both are mandatory. Both are idempotent — running them twice is safe. If either fails, note the error and continue with the most recent available file from that source.
 
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
 
-**0b. Collect ALL raw sources — this is mandatory, not optional.** Before writing any digest, read ALL THREE raw source directories. This is a hard requirement — a digest written without checking all three is incomplete.
+**0b. Collect ALL raw sources — this is mandatory, not optional.** Before writing any digest, read ALL FOUR raw source directories. This is a hard requirement — a digest written without checking all four is incomplete.
 
-**Step 1 — Identify the date range.** If no files exist for the exact digest date, use the most recent available files from each directory. Run `ls raw/gmail/ raw/rss/ raw/huggingface/` to see what's available.
+**Step 1 — Identify the date range.** If no files exist for the exact digest date, use the most recent available files from each directory. Run `ls raw/gmail/ raw/rss/ raw/huggingface/ raw/twitter/` to see what's available.
 
 **Step 2 — Read Gmail starred (always).** Find the most recent `raw/gmail/YYYY-MM-DD-starred.md` file. Read it in full. Gmail carries AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace digest snippets, and others — sources that don't appear in RSS or HuggingFace. Missing Gmail means missing these sources entirely.
 
@@ -81,7 +85,9 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 
 **Step 4 — Read HuggingFace papers (always).** Read all `raw/huggingface/YYYY-MM-DD-*.md` files for the target date range.
 
-Do not start writing the digest until all three have been read. If a source directory has no file for the target date, note it explicitly and use the most recent available file from that source. Never skip Gmail because "it's only through yesterday" — yesterday's Gmail is still input to today's digest.
+**Step 5 — Read Twitter/X (always).** Find the most recent `raw/twitter/YYYY-MM-DD-*.md` file(s). Read them. The file has two sections: (a) @bayesiansapien's retweets — treat these like starred Gmail, every retweet is a curated signal worth reading; (b) AI handle feed — original tweets from Anthropic, xAI, Google Research, NVIDIA, Cursor, and others, pre-filtered by AI keywords. For retweets with article content attached, the article content is the primary source.
+
+Do not start writing the digest until all four have been read. If a source directory has no file for the target date, note it explicitly and use the most recent available file from that source.
 
 **0c. Check the parallel daily digest.** Look for `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/daily-digest-YYYY-MM-DD.md` (replace YYYY-MM-DD with the date being ingested). Skip any `-status.md` files. If the file exists, read it before writing the digest. Treat it as a curated synthesis source from a parallel Claude job. Merge its unique content into the final digest — industry news, papers not in the HuggingFace feed, analytical interpretations, and cross-source synthesis. Do not duplicate content already covered from HuggingFace/RSS sources; add only what is new or provides deeper analysis.
 
