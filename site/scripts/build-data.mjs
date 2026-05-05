@@ -15,6 +15,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '../..');
 const WIKI_DIR = path.join(REPO_ROOT, 'wiki');
+const TWITTER_RAW_DIR = path.join(REPO_ROOT, 'raw', 'twitter');
 const OUT_FILE = path.join(__dirname, '../src/data/wiki.json');
 
 // Topic colors — one canonical palette
@@ -231,6 +232,92 @@ function isConceptPage(filename, topic) {
 
 function isDigest(relPath) {
   return relPath.startsWith('daily-digest');
+}
+
+// ── Social stream (Twitter/X) topic inference ─────────────────────────────────
+
+const TWEET_TOPIC_RULES = [
+  { topic: 'ai-routing',            kws: ['routing', 'router', 'mixture of experts', 'moe', 'speculative decoding'] },
+  { topic: 'inference-efficiency',  kws: ['kv cache', 'quantization', 'distillation', 'pruning', 'inference', 'throughput', 'latency', 'batching', 'kernel', 'flashattention', 'training efficiency'] },
+  { topic: 'hardware',              kws: ['h100', 'b200', 'blackwell', 'hopper', 'gpu', 'cuda', 'tpu', 'chip', 'semiconductor', 'silicon', 'nvda', 'nvidia hardware', 'data center'] },
+  { topic: 'llms-foundation-models',kws: ['llm', 'language model', 'foundation model', 'gpt', 'claude', 'gemini', 'llama', 'mistral', 'grok', 'reasoning model', 'o1', 'o3', 'benchmark'] },
+  { topic: 'agents-tool-use',       kws: ['agent', 'tool use', 'agentic', 'coding agent', 'cursor', 'claude code'] },
+  { topic: 'multimodal',            kws: ['multimodal', 'vision-language', 'image generation', 'diffusion', 'text-to-image', 'video generation'] },
+];
+
+function inferTweetTopic(text) {
+  const t = (text || '').toLowerCase();
+  for (const { topic, kws } of TWEET_TOPIC_RULES) {
+    if (kws.some((k) => t.includes(k))) return topic;
+  }
+  return 'ai-industry';
+}
+
+function parseSocialStream() {
+  if (!fs.existsSync(TWITTER_RAW_DIR)) return [];
+  const files = fs.readdirSync(TWITTER_RAW_DIR)
+    .filter((f) => f.endsWith('.json'))
+    .sort()
+    .reverse(); // newest first
+
+  const slots = [];
+  for (const fname of files) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(path.join(TWITTER_RAW_DIR, fname), 'utf8'));
+
+      // Flatten all tweets with inferred topic
+      const allTweets = [
+        ...raw.curated.map((t) => ({
+          ...t,
+          isCurated: true,
+          topic: inferTweetTopic(t.text + ' ' + (t.articles?.[0]?.content ?? '')),
+          importance: 'high', // curated retweets are always high
+        })),
+        ...raw.ai_feed.flatMap((feed) =>
+          feed.tweets.map((t) => ({
+            ...t,
+            org: feed.org,
+            focus: feed.focus,
+            isCurated: false,
+            topic: inferTweetTopic(t.text + ' ' + (t.articles?.[0]?.content ?? '')),
+            importance: t.articles?.length > 0 ? 'medium' : 'normal',
+          }))
+        ),
+      ];
+
+      slots.push({
+        date:       raw.date,
+        slot:       raw.slot,
+        scrapedIst: raw.scraped_ist,
+        lookbackH:  raw.lookback_h,
+        curated:    raw.curated.map((t) => ({
+          ...t,
+          isCurated: true,
+          topic: inferTweetTopic(t.text + ' ' + (t.articles?.[0]?.content ?? '')),
+          importance: 'high',
+        })),
+        aiFeed: raw.ai_feed.map((feed) => ({
+          handle: feed.handle,
+          org:    feed.org,
+          focus:  feed.focus,
+          tweets: feed.tweets.map((t) => ({
+            ...t,
+            isCurated: false,
+            topic: inferTweetTopic(t.text + ' ' + (t.articles?.[0]?.content ?? '')),
+            importance: t.articles?.length > 0 ? 'medium' : 'normal',
+          })),
+        })),
+        topicBreakdown: allTweets.reduce((acc, t) => {
+          acc[t.topic] = (acc[t.topic] ?? 0) + 1;
+          return acc;
+        }, {}),
+        counts: { total: allTweets.length, curated: raw.curated.length },
+      });
+    } catch (e) {
+      console.warn(`  WARN: Failed to parse ${fname}: ${e.message}`);
+    }
+  }
+  return slots;
 }
 
 function extractTier(content, frontmatter) {
@@ -492,6 +579,17 @@ function main() {
     topicCounts[p.topic] = (topicCounts[p.topic] ?? 0) + 1;
   }
 
+  // Social stream — Twitter/X slot data
+  const socialSlots = parseSocialStream();
+  const socialTopicCounts = {};
+  let socialTotalTweets = 0;
+  for (const s of socialSlots) {
+    socialTotalTweets += s.counts.total;
+    for (const [topic, n] of Object.entries(s.topicBreakdown)) {
+      socialTopicCounts[topic] = (socialTopicCounts[topic] ?? 0) + n;
+    }
+  }
+
   // Build graph nodes + edges from cross-references
   const nodeMap = new Map();
   for (const p of pages) {
@@ -549,9 +647,13 @@ function main() {
       concepts: pages.filter((p) => p.isConcept).length,
       digests: digests.length,
       industry: industryTotal,
+      socialTweets: socialTotalTweets,
+      socialSlots: socialSlots.length,
     },
     topicColors: TOPIC_COLORS,
     topicCounts,
+    socialSlots,
+    socialTopicCounts,
     timeline,
     digests,
     pages,

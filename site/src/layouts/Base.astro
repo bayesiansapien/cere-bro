@@ -4,7 +4,7 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
-  active?: 'home' | 'atlas' | 'browse';
+  active?: 'home' | 'atlas' | 'browse' | 'media-live';
 }
 
 const { title = 'cere-bro', description = 'Daily AI research synthesis', active = 'home' } = Astro.props;
@@ -35,6 +35,7 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
         <nav class="nav">
           <a href={url('/')} class:list={[{ active: active === 'home' }]}>Today</a>
           <a href={url('/atlas')} class:list={[{ active: active === 'atlas' }]}>Atlas</a>
+          <a href={url('/media-live')} class:list={[{ active: active === 'media-live' }]}>Media Live</a>
           <a href={url('/browse')} class:list={[{ active: active === 'browse' }]}>Wiki Pages</a>
         </nav>
       </div>

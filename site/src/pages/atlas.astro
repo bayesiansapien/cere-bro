@@ -5,6 +5,7 @@ import wiki from '../data/wiki.json';
 const dataJson = JSON.stringify({
   topicColors: wiki.topicColors,
   topicCounts: wiki.topicCounts,
+  socialTopicCounts: wiki.socialTopicCounts ?? {},
   weeks: wiki.weeks,
   months: wiki.months,
   cumulativeWeeks: wiki.cumulativeWeeks,
