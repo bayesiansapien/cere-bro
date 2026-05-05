@@ -28,6 +28,10 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 **InteractWeb-Bench (2026-05-01)** — First benchmark to grade *clarifying behavior* explicitly. Four user-agent personas + persona-driven instruction perturbations from RE defect taxonomies. Unified agent action space: Clarify / Implement / Verify / Submit. Frontier MLLM agents remain trapped in **blind execution** — generating code that satisfies their misreading of the instruction without ever asking. → [summary](2026-05-01-interactweb-bench-blind-execution.md)
 
+**AcademiClaw (2026-05-05)** — Bilingual academic-level benchmark, 80 multi-step tasks curated from 230 real student submissions across 25+ professional domains (olympiad math, linguistics, GPU-intensive RL, full-stack debugging). Docker sandbox per task; six-technique multi-dimensional rubric scoring + five-category safety audit. Best of six advanced models: 55%. Capability varies sharply across domains; **compute does not predict output quality** — argues against current "more thinking tokens equal better results" defaults. → [summary](2026-05-05-academiclaw-student-tasks.md)
+
+**PhysicianBench (2026-05-05)** — 100 long-horizon physician tasks from real consultation cases inside an EHR environment with vendor APIs. 21 specialties; ~27 tool calls per task. Best closed-source model: 46% pass@1. Best open-source: 19%. Highest tool-call horizon in any of the eight benchmarks; the gap between knowledge tests (where LLMs match physicians) and EHR-mediated workflows (where they do not) is the load-bearing finding. → [summary](2026-05-05-physicianbench-ehr-agents.md)
+
 ## Patterns Across Benchmarks
 
 - Reasoning models consistently outperform base models on agentic tasks
