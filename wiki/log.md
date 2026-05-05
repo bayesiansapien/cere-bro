@@ -2,6 +2,27 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-05-05] ingest | MotionCache: Motion-Aware Caching for Autoregressive Video Generation (arxiv 2605.01725) | huggingface
+## [2026-05-05] ingest | T^2PO: Uncertainty-Guided Exploration Control for Multi-Turn Agentic RL (arxiv 2605.02178) | huggingface
+## [2026-05-05] ingest | Ctx2Skill: From Context to Skills (arxiv 2604.27660) | huggingface
+## [2026-05-05] ingest | PhysicianBench: LLM Agents in Real-World EHR Environments (arxiv 2605.02240) | huggingface
+## [2026-05-05] ingest | AcademiClaw: When Students Set Challenges for AI Agents (arxiv 2605.02661) | huggingface
+## [2026-05-05] ingest | Perceptual Flow Network for Visually Grounded Reasoning (arxiv 2605.02730) | huggingface
+## [2026-05-05] ingest | OceanPile: Large-Scale Multimodal Ocean Corpus (arxiv 2605.00877) | huggingface
+## [2026-05-05] ingest | ComboStoc: Combinatorial Stochasticity for Diffusion Models (arxiv 2405.13729) | huggingface
+## [2026-05-05] ingest | Orbit-Space Particle Flow Matching (OGPP) (arxiv 2605.02222) | huggingface
+## [2026-05-05] ingest | Nathan Lambert: The Distillation Panic | rss/interconnects-ai
+## [2026-05-05] ingest | Jack Clark: Import AI 455 — AI systems building themselves (60% by 2028) | rss/import-ai
+## [2026-05-05] ingest | Ken Huang: Agentic AI Pentester architecture (RidgeGen vs Shannon vs Strix) | rss/agentic-ai
+## [2026-05-05] ingest | Anthropic+OpenAI services arms convergence; OpenAI $4B Deployment Co; Anthropic JV $1.5B | rss/the-decoder + ai-weekly
+## [2026-05-05] ingest | Cerebras $40B IPO (CBRS Nasdaq); AI data centers stress banks; Symphony agents manage themselves | rss/the-decoder
+## [2026-05-05] ingest | TLDR AI: Claude Jupiter, Codex pets, Replit margin lead | rss/tldr-ai
+## [2026-05-05] ingest | Algorithmic Bridge: how to get more from AI by using fewer tools | rss/algorithmic-bridge
+## [2026-05-05] ingest | Simon Willison: April 2026 newsletter, Granite 4.1 SVG, John Gruber YC stake (0.6% of OpenAI ~$5B) | rss/simon-willison
+## [2026-05-05] ingest | Semiconductor Newsletter Week 18 2026: HBM squeeze, Arm AGI CPU, OpenLight $50M photonics, Yuanjie +1153% profit | gmail/semiconductor-newsletter
+## [2026-05-05] ingest | AI Weekly: PE built AI's new distribution layer ($10B Wall Street consortium) | gmail/ai-weekly
+## [2026-05-05] digest | wiki/daily-digest/2026-05/2026-05-05.md
+
 ## [2026-05-04] ingest | Themis Multilingual Code Reward Models (arxiv 2605.00754) | huggingface
 ## [2026-05-04] ingest | End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer (arxiv 2605.00503) | huggingface
 ## [2026-05-04] ingest | GenLIP: Generative Language-Image Pre-training (arxiv 2605.00809) | huggingface
