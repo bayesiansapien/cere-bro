@@ -344,3 +344,24 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-04.md](daily-digest/2026-05/2026-05-04.md) | Daily digest: Defense Trilemma + NP-hard reward hacking detection (the "computational wall"); MIT superposition as substrate for the operational-targets-are-sparse thread; Xiaomi MiMo-V2.5-Pro shifts pricing axis to tokens-per-task; Themis multi-criteria code RM continues the dimension-collapse pattern; Ken Huang World Models survey; routing surface now five axes
+
+## new pages (2026-05-05)
+
+| Page | Summary |
+|------|---------|
+| [inference-efficiency/2026-05-05-motion-aware-caching-video.md](inference-efficiency/2026-05-05-motion-aware-caching-video.md) | MotionCache: inter-frame motion deltas decide which pixels need full denoising; 6.28x on SkyReels-V2 at 1% VBench drop; video-AR analogue of selective KV reuse |
+| [agents-tool-use/2026-05-05-t2po-uncertainty-multi-turn-rl.md](agents-tool-use/2026-05-05-t2po-uncertainty-multi-turn-rl.md) | T^2PO: token + turn level uncertainty controls exploration in multi-turn agent RL; training-time twin of Step-Level Optimization (05-02) |
+| [agents-tool-use/2026-05-05-ctx2skill-self-evolving-skills.md](agents-tool-use/2026-05-05-ctx2skill-self-evolving-skills.md) | Ctx2Skill: Challenger/Reasoner/Judge self-play extracts pluggable natural-language skills from context; Cross-time Replay prevents adversarial collapse |
+| [agents-tool-use/2026-05-05-physicianbench-ehr-agents.md](agents-tool-use/2026-05-05-physicianbench-ehr-agents.md) | PhysicianBench: 100 EHR clinical workflows, ~27 tool calls per task; best closed-source 46%, open-source 19%; eighth benchmark in the agent-cluster |
+| [agents-tool-use/2026-05-05-academiclaw-student-tasks.md](agents-tool-use/2026-05-05-academiclaw-student-tasks.md) | AcademiClaw: 80 academic-level tasks across 25+ domains; best 55%; compute consumption does not predict output quality |
+| [inference-efficiency/2026-05-04-distillation-panic-lambert.md](inference-efficiency/2026-05-04-distillation-panic-lambert.md) | The Distillation Panic (Lambert): policy critique of conflating "distillation attacks" with the entire distillation toolbox every lab depends on |
+| [llms-foundation-models/2026-05-04-import-ai-455-automated-ai-rd.md](llms-foundation-models/2026-05-04-import-ai-455-automated-ai-rd.md) | Import AI 455 (Clark): 60% probability of fully autonomous AI R&D by end of 2028, built from public benchmark trajectories (SWE-Bench, METR, CORE-Bench, MLE-Bench) |
+| [agents-tool-use/2026-05-04-agentic-pentester-architecture.md](agents-tool-use/2026-05-04-agentic-pentester-architecture.md) | Ken Huang on RidgeGen vs Shannon vs Strix: same Gemini 3 Flash, three architectures, 0% vs 63% hallucination, >5x finding gap; belief state, evidence-as-invariant, semantic reasoning are the three primitives |
+| [ai-industry/2026-05-04-anthropic-openai-services-companies.md](ai-industry/2026-05-04-anthropic-openai-services-companies.md) | Anthropic JV $1.5B (Blackstone/Goldman/H&F) + OpenAI $4B Deployment Company: both labs build services arms because "selling AI requires more than the AI" |
+| [hardware/2026-05-04-cerebras-40b-ipo.md](hardware/2026-05-04-cerebras-40b-ipo.md) | Cerebras targets $40B Nasdaq IPO (CBRS); first public-market validation of inference-specialty silicon since Groq |
+
+## daily-digest (new 2026-05-05)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-05.md](daily-digest/2026-05/2026-05-05.md) | Daily digest: MotionCache extends KV-cache iteration-as-optimization to video; T^2PO is the training-time twin of Step-Level Optimization; Distillation Panic (Lambert) names the policy threat; Import AI 455 (Clark) puts automated AI R&D at 60% by 2028; Ken Huang pentester benchmark instantiates harness > weights at constant model; PhysicianBench + AcademiClaw take the agent-benchmark cluster to eight; Anthropic JV + OpenAI Deployment Co move the lab business above the API
