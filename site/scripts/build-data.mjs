@@ -262,6 +262,11 @@ function rewriteMarkdownLinks(html, sourceWikiPath, baseUrl = '/cere-bro') {
     if (href.startsWith('/')) return match;   // already absolute
     const resolved = path.posix.normalize(path.posix.join(sourceWikiPath, href));
     const slug = resolved.replace(/\.md$/, '');
+    // Daily digests have a dedicated route at /digests/{date}/, not the
+    // generic [...slug] wiki route. Detect daily-digest/YYYY-MM/YYYY-MM-DD
+    // paths and rewrite to the digest route.
+    const digestMatch = slug.match(/^daily-digest\/\d{4}-\d{2}\/(\d{4}-\d{2}-\d{2})$/);
+    if (digestMatch) return `href="${baseUrl}/digests/${digestMatch[1]}/"`;
     return `href="${baseUrl}/${slug}/"`;
   });
 }
