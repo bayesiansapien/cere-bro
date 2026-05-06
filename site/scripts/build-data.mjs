@@ -432,8 +432,11 @@ function main() {
       isConcept: isConceptPage(filename, topic),
       isDigest: isDig,
       color: TOPIC_COLORS[topic] ?? '#94a3b8',
-      // Render full markdown to HTML for digest pages and concept pages
-      html: isDig || isConceptPage(filename, topic) ? marked.parse(content) : null,
+      // Render full markdown to HTML for digest pages and concept pages.
+      // Rewrite relative `.md` links into clean Astro URLs so they don't 404.
+      html: (isDig || isConceptPage(filename, topic))
+        ? rewriteMarkdownLinks(marked.parse(content), path.posix.dirname(relPath.replace(/\\/g, '/')))
+        : null,
       raw: isDig ? content : null,
     };
 
