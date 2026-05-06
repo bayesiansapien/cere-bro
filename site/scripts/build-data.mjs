@@ -41,44 +41,49 @@ const TIER_OF_TOPIC = {
   'daily-digest': 0,
 };
 
-// AI industry sub-categories — auto-tagged from title + tldr keywords
-// Order matters: first match wins
+// AI industry sub-categories — auto-tagged from title + tldr keywords.
+// Order matters: first match wins. Categories are designed to be MUTUALLY
+// EXCLUSIVE: a discrete capital event is "deals", an ongoing market dynamic
+// is "markets", a chip/datacenter buildout is "infrastructure".
 const INDUSTRY_TAGS = [
   {
-    key: 'economics',
-    label: 'Economics & Cost',
+    key: 'deals',
+    label: 'Deals & Capital',
+    color: '#f59e0b',
+    // Discrete capital events: M&A, fundraising rounds, IPOs, joint ventures
+    keywords: ['acquisition', 'acquire', 'acquires', 'merger', 'buyout', 'funding round', 'series a', 'series b', 'series c', 'series d', 'raise', 'raises', 'raised', 'ipo', 'joint venture', 'partnership', 'spinoff', 'divestiture', 'deal', 'closes round'],
+  },
+  {
+    key: 'markets',
+    label: 'Markets & Economics',
     color: '#10b981',
-    keywords: ['valuation', 'arr', 'revenue', 'capex', 'margin', 'billion', 'misallocation', 'capital', 'pricing', 'cost', 'economics', 'value capture', 'ipo', 'profit', '$', 'spending'],
+    // Ongoing business / market dynamics: revenue, valuations, pricing, costs
+    keywords: ['valuation', 'arr', 'revenue', 'capex', 'opex', 'margin', 'billion', 'misallocation', 'capital allocation', 'pricing', 'price hike', 'cost', 'economics', 'value capture', 'profit', 'profitability', 'spending', 'unit economics', 'demand', 'monetization', 'tam', 'market size'],
   },
   {
     key: 'regulation',
     label: 'Regulation & Policy',
     color: '#ef4444',
-    keywords: ['regulation', 'policy', 'antitrust', 'pentagon', 'ftc', 'court', 'legal', 'ban', 'eu ai act', 'white house', 'congress', 'classified', 'sanctions', 'lawsuit'],
+    keywords: ['regulation', 'policy', 'antitrust', 'pentagon', 'ftc', 'court', 'legal', 'ban', 'eu ai act', 'white house', 'congress', 'classified', 'sanctions', 'lawsuit', 'subpoena'],
   },
   {
     key: 'infrastructure',
     label: 'Infrastructure & Compute',
     color: '#8b5cf6',
-    keywords: ['datacenter', 'gpu', 'chip', 'hardware', 'compute', 'gigawatt', 'memory', 'fab', 'tsmc', 'nvidia', 'reliability', 'github breaks', 'capacity', 'silicon'],
-  },
-  {
-    key: 'mergers',
-    label: 'M&A & Funding',
-    color: '#f59e0b',
-    keywords: ['acquisition', 'acquire', 'investment', 'raise', 'funding round', 'ipo', 'merger', 'buyout', 'partnership', 'deal'],
+    // Physical buildout: datacenters, chips, GPUs, fabs
+    keywords: ['datacenter', 'data center', 'gpu', 'chip', 'hardware', 'compute', 'gigawatt', 'memory', 'fab', 'tsmc', 'reliability', 'capacity', 'silicon', 'h100', 'b200', 'blackwell', 'hopper'],
   },
   {
     key: 'products',
     label: 'Products & Launches',
     color: '#3b82f6',
-    keywords: ['launch', 'launches', 'release', 'available', 'ships', 'shipped', 'beta', 'preview', 'announcement', 'introduces', 'unveils', 'connector', 'creative work'],
+    keywords: ['launch', 'launches', 'release', 'released', 'available', 'ships', 'shipped', 'beta', 'preview', 'announcement', 'introduces', 'unveils', 'connector', 'creative work', 'rolls out'],
   },
   {
-    key: 'critique',
+    key: 'risks',
     label: 'Critique & Risks',
     color: '#94a3b8',
-    keywords: ['skeptic', 'critique', 'concern', 'controversy', 'fail', 'criticism', 'risk', 'misallocation', 'bubble', 'slop', 'dispute', 'trust'],
+    keywords: ['skeptic', 'critique', 'concern', 'controversy', 'fail', 'failure', 'criticism', 'risk', 'bubble', 'slop', 'dispute', 'trust', 'incident', 'breach', 'vulnerability'],
   },
 ];
 
@@ -616,21 +621,27 @@ function main() {
     industryByTag[p.industryTag] = (industryByTag[p.industryTag] ?? 0) + 1;
   }
 
-  // Topic distribution: count of summary pages per topic
+  // Topic distribution: count of summary pages per topic.
+  // Exclude social-stream synthesis pages — those represent slot-level
+  // summaries of tweets, not standalone research items, so their tweet
+  // counts get folded in below via socialSlots/topicBreakdown instead.
   const topicCounts = {};
   for (const p of pages) {
     if (!p.isSummary) continue;
+    if (p.topic === 'social-stream') continue;
     topicCounts[p.topic] = (topicCounts[p.topic] ?? 0) + 1;
   }
 
-  // Social stream — Twitter/X slot data
+  // Social stream — Twitter/X slot data.
+  // Tweets are distributed across the existing topics via inferTweetTopic,
+  // and their counts get folded into topicCounts directly so there's no
+  // separate "social stream" display in Atlas.
   const socialSlots = parseSocialStream();
-  const socialTopicCounts = {};
   let socialTotalTweets = 0;
   for (const s of socialSlots) {
     socialTotalTweets += s.counts.total;
     for (const [topic, n] of Object.entries(s.topicBreakdown)) {
-      socialTopicCounts[topic] = (socialTopicCounts[topic] ?? 0) + n;
+      topicCounts[topic] = (topicCounts[topic] ?? 0) + n;
     }
   }
 
@@ -697,7 +708,6 @@ function main() {
     topicColors: TOPIC_COLORS,
     topicCounts,
     socialSlots,
-    socialTopicCounts,
     timeline,
     digests,
     pages,
