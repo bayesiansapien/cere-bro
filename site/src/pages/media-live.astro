@@ -199,31 +199,32 @@ const TOPIC_LABEL: Record<string, string> = {
     margin-bottom: 24px;
   }
   .ml-stat {
-    background: rgba(0, 0, 0, 0.02);
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
     border-radius: 12px;
     padding: 20px;
     text-align: center;
   }
   .ml-stat-num {
-    font-family: 'Crimson Pro', serif;
+    font-family: var(--serif);
     font-size: 36px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 6px;
+    color: var(--fg);
   }
   .ml-stat-label {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #64748b;
+    color: var(--fg-muted);
   }
 
   .ml-day { padding-bottom: 24px; }
 
   .ml-slot {
-    background: rgba(0, 0, 0, 0.015);
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
     border-radius: 12px;
     padding: 24px;
     margin-bottom: 20px;
@@ -239,11 +240,12 @@ const TOPIC_LABEL: Record<string, string> = {
   .ml-slot-header h2 {
     margin: 0;
     font-size: 22px;
+    color: var(--fg);
   }
   .ml-slot-meta {
     font-size: 12px;
-    color: #64748b;
-    font-family: 'JetBrains Mono', monospace;
+    color: var(--fg-muted);
+    font-family: var(--mono);
   }
 
   .ml-topic-bar {
@@ -260,54 +262,81 @@ const TOPIC_LABEL: Record<string, string> = {
   }
 
   .ml-empty {
-    color: #94a3b8;
+    color: var(--fg-muted);
     font-style: italic;
     padding: 16px 0;
   }
 
   /* Claude-written synthesis — the primary content */
   .ml-synthesis {
-    background: white;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
     border-radius: 10px;
     padding: 22px 26px;
     margin-bottom: 16px;
-    font-family: 'Crimson Pro', serif;
+    font-family: var(--serif);
     font-size: 16.5px;
-    line-height: 1.65;
-    color: #1f2937;
+    line-height: 1.7;
+    color: var(--fg);
   }
   .ml-synthesis :global(h1),
   .ml-synthesis :global(h2),
   .ml-synthesis :global(h3) {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--sans);
     font-weight: 700;
-    margin-top: 1.4em;
+    margin-top: 1.6em;
     margin-bottom: 0.5em;
     line-height: 1.25;
+    color: var(--fg);
+    border: none;
+    padding: 0;
   }
   .ml-synthesis :global(h1) { font-size: 22px; margin-top: 0; }
   .ml-synthesis :global(h2) { font-size: 18px; }
-  .ml-synthesis :global(h3) { font-size: 15px; color: #475569; }
+  .ml-synthesis :global(h3) {
+    font-size: 13px;
+    color: var(--accent-2);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .ml-synthesis :global(p) { color: var(--fg); }
   .ml-synthesis :global(p):first-child { margin-top: 0; }
   .ml-synthesis :global(p):last-child { margin-bottom: 0; }
-  .ml-synthesis :global(a) { color: #1d4ed8; }
+  .ml-synthesis :global(a) {
+    color: var(--accent-2);
+    border-bottom: 1px solid rgba(251, 191, 36, 0.3);
+  }
+  .ml-synthesis :global(a:hover) {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
   .ml-synthesis :global(blockquote) {
-    border-left: 3px solid #fbbf24;
+    border-left: 3px solid var(--accent-2);
     margin: 12px 0;
-    padding: 4px 16px;
-    color: #475569;
-    background: rgba(251, 191, 36, 0.04);
+    padding: 6px 18px;
+    color: var(--fg-dim);
+    background: rgba(251, 191, 36, 0.05);
+    font-style: italic;
   }
   .ml-synthesis :global(code) {
-    background: rgba(0, 0, 0, 0.05);
+    background: var(--bg);
+    color: var(--fg-dim);
     padding: 1px 5px;
     border-radius: 3px;
     font-size: 0.85em;
+    font-family: var(--mono);
   }
   .ml-synthesis :global(ul), .ml-synthesis :global(ol) {
     padding-left: 24px;
     margin: 10px 0;
+    color: var(--fg);
+  }
+  .ml-synthesis :global(strong) { color: var(--fg); }
+  .ml-synthesis :global(em) { color: var(--fg-dim); }
+  .ml-synthesis :global(hr) {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.4em 0;
   }
 
   .ml-synthesis-pending {
@@ -317,7 +346,7 @@ const TOPIC_LABEL: Record<string, string> = {
     padding: 14px 18px;
     margin-bottom: 16px;
     font-size: 13px;
-    color: #92400e;
+    color: var(--accent-2);
     font-style: italic;
   }
 
@@ -327,12 +356,12 @@ const TOPIC_LABEL: Record<string, string> = {
   .ml-raw-feed > summary {
     cursor: pointer;
     font-size: 12px;
-    color: #64748b;
+    color: var(--fg-muted);
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-weight: 600;
-    padding: 8px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 10px 0;
+    border-top: 1px solid var(--border);
     list-style: none;
   }
   .ml-raw-feed > summary::-webkit-details-marker { display: none; }
@@ -347,7 +376,7 @@ const TOPIC_LABEL: Record<string, string> = {
   .ml-raw-feed[open] > summary {
     margin-bottom: 12px;
   }
-  .ml-raw-feed > summary:hover { color: #1d4ed8; }
+  .ml-raw-feed > summary:hover { color: var(--accent-2); }
 
   .ml-tweet-list {
     display: flex;
@@ -355,18 +384,18 @@ const TOPIC_LABEL: Record<string, string> = {
     gap: 12px;
   }
   .ml-tweet {
-    background: white;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
     border-radius: 10px;
     padding: 14px 16px;
     border-left-width: 3px;
   }
   .ml-tweet.ml-curated {
-    border-left-color: #fbbf24;
-    background: linear-gradient(to right, rgba(251, 191, 36, 0.04), white 30%);
+    border-left-color: var(--accent-2);
+    background: linear-gradient(to right, rgba(251, 191, 36, 0.06), var(--bg-card) 30%);
   }
   .ml-tweet.ml-imp-medium { border-left-color: #3b82f6; }
-  .ml-tweet.ml-imp-normal { border-left-color: rgba(0, 0, 0, 0.06); }
+  .ml-tweet.ml-imp-normal { border-left-color: var(--border-strong); }
 
   .ml-tweet-head {
     display: flex;
@@ -378,18 +407,18 @@ const TOPIC_LABEL: Record<string, string> = {
   }
   .ml-handle {
     font-weight: 600;
-    color: #1d4ed8;
+    color: var(--accent-2);
   }
   .ml-org {
     font-size: 11px;
-    background: rgba(0, 0, 0, 0.05);
-    color: #475569;
+    background: var(--bg);
+    color: var(--fg-dim);
     padding: 2px 7px;
     border-radius: 4px;
   }
   .ml-via {
     font-size: 11px;
-    color: #94a3b8;
+    color: var(--fg-muted);
   }
   .ml-topic-tag {
     font-size: 10px;
@@ -408,24 +437,24 @@ const TOPIC_LABEL: Record<string, string> = {
     font-weight: 600;
   }
   .ml-badge.curated {
-    background: #fef3c7;
-    color: #b45309;
+    background: rgba(251, 191, 36, 0.15);
+    color: var(--accent-2);
   }
   .ml-badge.medium {
-    background: #dbeafe;
-    color: #1e40af;
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
   }
 
   .ml-tweet-text {
     font-size: 15px;
     line-height: 1.55;
-    color: #1f2937;
+    color: var(--fg);
     margin-bottom: 10px;
   }
 
   .ml-article {
-    background: rgba(0, 0, 0, 0.02);
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg);
+    border: 1px solid var(--border);
     border-radius: 6px;
     padding: 10px 12px;
     margin: 8px 0;
@@ -433,36 +462,37 @@ const TOPIC_LABEL: Record<string, string> = {
   }
   .ml-article summary {
     cursor: pointer;
-    color: #475569;
+    color: var(--fg-dim);
     font-weight: 500;
   }
   .ml-article p {
     margin: 8px 0 0;
-    color: #475569;
+    color: var(--fg-dim);
     line-height: 1.5;
   }
 
   .ml-tweet-link {
     font-size: 12px;
-    color: #64748b;
+    color: var(--fg-muted);
     text-decoration: none;
   }
-  .ml-tweet-link:hover { color: #1d4ed8; }
+  .ml-tweet-link:hover { color: var(--accent-2); }
 
   .empty-state {
-    background: rgba(0, 0, 0, 0.02);
-    border: 1px dashed rgba(0, 0, 0, 0.15);
+    background: var(--bg-elev);
+    border: 1px dashed var(--border-strong);
     border-radius: 12px;
     padding: 40px;
     text-align: center;
-    color: #64748b;
+    color: var(--fg-muted);
   }
   .empty-state pre {
-    background: rgba(0, 0, 0, 0.05);
+    background: var(--bg);
     padding: 8px 12px;
     border-radius: 6px;
     display: inline-block;
     margin-top: 8px;
+    color: var(--fg-dim);
   }
 
   @media (max-width: 700px) {
