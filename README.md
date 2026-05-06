@@ -70,7 +70,7 @@ wiki/
 ├── inference-efficiency/    # KV cache, compression, quantization, distillation, GPU opt
 ├── hardware/                # GPU architecture, Hopper, Blackwell, memory hierarchy
 ├── llms-foundation-models/  # General LLM papers, new architectures
-├── agents-tool-use/         # Agentic reasoning, memory, tool use
+├── agentic-systems/         # Agentic reasoning, memory, tool use
 ├── multimodal/              # Vision-language, audio-video generation
 ├── ai-industry/             # Company news, funding, policy, regulation
 ├── daily-digest/

@@ -58,7 +58,7 @@ False negative (simple query → expensive model) costs cents. False positive (c
 
 ## Relation to prior wiki knowledge
 
-**Continues Ch 13 (MCP integration, May 1)**: [2026-05-01-mcp-claude-vs-hermes-chapter13.md](../agents-tool-use/2026-05-01-mcp-claude-vs-hermes-chapter13.md). The three-chapter pattern is now clear: Claude Code is minimal-by-design with safety delegated to humans (types, permission gates, static files); Hermes is first-class runtime subsystems with safety delegated to scanners (regex strip, fallback chain validation, 80+ pattern security scanner).
+**Continues Ch 13 (MCP integration, May 1)**: [2026-05-01-mcp-claude-vs-hermes-chapter13.md](../agentic-systems/2026-05-01-mcp-claude-vs-hermes-chapter13.md). The three-chapter pattern is now clear: Claude Code is minimal-by-design with safety delegated to humans (types, permission gates, static files); Hermes is first-class runtime subsystems with safety delegated to scanners (regex strip, fallback chain validation, 80+ pattern security scanner).
 
 **Directly fills a gap in [llm-routing.md](./llm-routing.md)**: Prior routing concept page covers academic query-level routing (RouteLLM, LLM-Blender, cascade classifiers). Ch 14 is the first source covering *production harness-level* routing — how the decision actually gets made in deployed agent loops, including the fallback plumbing and credential handling that academic papers never mention.
 
@@ -76,4 +76,4 @@ False negative (simple query → expensive model) costs cents. False positive (c
 ## Links
 
 - Raw: [raw/rss/2026-05-01-agentic-ai-chapter-14-model-routing-and-provider-abstraction-claud.md](../../../raw/rss/2026-05-01-agentic-ai-chapter-14-model-routing-and-provider-abstraction-claud.md)
-- Related: [llm-routing.md](./llm-routing.md) · [2026-05-01-mcp-claude-vs-hermes-chapter13.md](../agents-tool-use/2026-05-01-mcp-claude-vs-hermes-chapter13.md)
+- Related: [llm-routing.md](./llm-routing.md) · [2026-05-01-mcp-claude-vs-hermes-chapter13.md](../agentic-systems/2026-05-01-mcp-claude-vs-hermes-chapter13.md)

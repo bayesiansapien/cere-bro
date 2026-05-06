@@ -18,7 +18,7 @@ arxiv: 2604.07429
 
 ## Related Pages
 
-- [Agent Evaluation & Benchmarks](../agents-tool-use/agent-benchmarks.md)
+- [Agent Evaluation & Benchmarks](../agentic-systems/agent-benchmarks.md)
 - [MERRIN: Multimodal Evidence Retrieval](2026-04-16-merrin-multimodal-retrieval.md)
 
 **Raw source:** [../../raw/huggingface/2026-04-16-gameworld-towards-standardized-and-verifiable-evaluation-of.md](../../raw/huggingface/2026-04-16-gameworld-towards-standardized-and-verifiable-evaluation-of.md)

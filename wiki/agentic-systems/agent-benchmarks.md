@@ -12,9 +12,9 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 **Exploration/Exploitation Measurement (2026-04-16)** — Policy-agnostic metric for explore/exploit errors in LM agents on 2D grid environments. Reasoning models perform best; harness engineering meaningfully improves both dimensions. → [summary](2026-04-16-exploration-exploitation-lm-agents.md)
 
-**GameWorld (2026-04-16)** — 34 browser games, 170 tasks, state-verifiable outcomes for MLLM game agents. Best models still far below human. → [summary](../multimodal/2026-04-16-gameworld-multimodal-game-agents.md)
+**GameWorld (2026-04-16)** — 34 browser games, 170 tasks, state-verifiable outcomes for MLLM game agents. Best models still far below human. → [summary](../vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md)
 
-**MERRIN (2026-04-16)** — Search-augmented agent benchmark with noisy multimodal web evidence. Average accuracy 22.3%; agents over-rely on text modalities. → [summary](../multimodal/2026-04-16-merrin-multimodal-retrieval.md)
+**MERRIN (2026-04-16)** — Search-augmented agent benchmark with noisy multimodal web evidence. Average accuracy 22.3%; agents over-rely on text modalities. → [summary](../vision-audio-video/2026-04-16-merrin-multimodal-retrieval.md)
 
 **InfiniteScienceGym (2026-04-16)** — Procedurally generated scientific analysis benchmark. No model exceeds 45%; abstention on unanswerable questions is a key weakness. → [summary](../llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md)
 

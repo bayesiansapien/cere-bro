@@ -12,7 +12,7 @@ GUI agents are one of the fastest-moving areas of applied agentic AI. MLLMs now 
 
 **UI-Zoomer (2026-04-16)** — Uncertainty-driven zoom-in for GUI grounding. Triggers zoom only when the model is uncertain, using a two-axis confidence gate. Gains of up to +13.4% on ScreenSpot-Pro with no training. → see raw: `../../raw/huggingface/2026-04-16-ui-zoomer-uncertainty-driven-adaptive-zoom-in-for-gui-ground.md`
 
-**GameWorld (2026-04-16)** — Benchmark of 34 browser games and 170 tasks for MLLM game agents. Best agents still far below human performance. → [summary](../multimodal/2026-04-16-gameworld-multimodal-game-agents.md)
+**GameWorld (2026-04-16)** — Benchmark of 34 browser games and 170 tasks for MLLM game agents. Best agents still far below human performance. → [summary](../vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md)
 
 ## Open Problems
 
