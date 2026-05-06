@@ -25,13 +25,15 @@ The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a
 ```
 raw/        ← immutable source files (farmers write here, humans drop files here)
 wiki/       ← LLM-owned synthesis (you write everything here)
-  llms-foundation-models/
-  agentic-systems/
-  multimodal/
-  inference-efficiency/   ← compression, quantization, distillation, KV cache, GPU opt
-  ai-routing/             ← LLM routing, multimodal routing, agent trajectory routing
-  hardware/               ← GPU architecture, new chips, memory hierarchy
-  ai-industry/            ← company news, product launches, funding, policy, regulation
+  llms-foundation-models/  ← LLMs, foundation models, new architectures (SSM, MoE, hybrid)
+  agentic-systems/         ← agents, tool use, agentic reasoning, agent memory, multi-agent
+  responsible-ai/          ← interpretability, alignment, safety, explainability, governance
+  vision-audio-video/      ← multimodal, vision-language, image/video generation, speech
+  inference-efficiency/    ← compression, quantization, distillation, KV cache, GPU opt
+  ai-routing/              ← LLM routing, multimodal routing, agent trajectory routing
+  hardware/                ← GPU architecture, new chips, memory hierarchy
+  ai-industry/             ← company news, product launches, funding, policy, regulation
+  social-stream/           ← Twitter/X slot syntheses + daily roll-ups (Media Live)
   daily-digest/
     YYYY-MM/
       YYYY-MM-DD.md  ← one newsletter per day
