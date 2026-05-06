@@ -1,0 +1,278 @@
+{
+  "date": "2026-05-06",
+  "slot": "morning",
+  "scraped_ist": "2026-05-06 10:53",
+  "lookback_h": 7,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ndrewpignanelli",
+      "text": "Announcing Cofounder 2: Run an entire company with agents. It's the infrastructure for the one person billion dollar company - orchestrating agents across engineering, sales, marketing, ops, and design. (and yes that's my real grandma in the video) Video",
+      "link": "https://nitter.net/ndrewpignanelli/status/2051323944452411773#m",
+      "date_utc": "2026-05-04T15:31:54+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "Bloomberg: OpenAI launches a $ 10Bn joint venture called “The Deployment Company” to help businesses use its AI. The new company, The Deployment Company, has raised more than $ 4B from 19 investors, including TPG, Brookfield, Advent, Bain, SoftBank, and Dragoneer. The basic bet is that AI adoption is no longer mainly a model-quality problem, because many companies already want AI but lack the teams, workflows, data access, security rules, and operating discipline to install it safely inside real business processes. Private equity firms are useful here because they control or advise large webs ",
+      "link": "https://nitter.net/rohanpaul_ai/status/2051310352890302630#m",
+      "date_utc": "2026-05-04T14:37:54+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@seelffff",
+      "text": "x.com/i/article/204998817049…",
+      "link": "https://nitter.net/seelffff/status/2050007245216256051#m",
+      "date_utc": "2026-05-01T00:19:49+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@AnatoliKopadze",
+      "text": "x.com/i/article/205164533927…",
+      "link": "https://nitter.net/AnatoliKopadze/status/2051665228044124548#m",
+      "date_utc": "2026-05-05T14:08:03+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@DanielMiessler",
+      "text": "I don’t know how good this new 12 million context system is, or if it’s hype or whatever, but I think it definitely shows a point I’ve been making since 2023. We really suck at everything. - The chips are primitive - The research and training and inference systems are primitive - Our RL approaches are primitive - We’ve barely started building harnesses Everything we’re doing is massively inefficient right now. And there are thousands of vectors for improvement. And many of them are multiplicative. Most people think we’re at like 88% of AI’s capabilities, and we’re pushing to hit 92% or eventua",
+      "link": "https://nitter.net/DanielMiessler/status/2051789453191225360#m",
+      "date_utc": "2026-05-05T22:21:40+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "NEW paper from Sakana AI (ICLR 2026). A 7B Conductor model just hit SOTA on GPQA-Diamond and LiveCodeBench by orchestrating other LLMs instead of solving problems itself. (great paper! bookmark it!) The Conductor is trained with RL to do two things at once: design communication topologies between worker agents (open or closed source), and prompt-engineer focused instructions to each worker so it leverages their individual strengths. It's like training a special agent to take care of both collaboration and communication. Trained against randomized agent pools, it adapts to arbitrary mixes of ag",
+      "link": "https://nitter.net/omarsar0/status/2051306659021242635#m",
+      "date_utc": "2026-05-04T14:23:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2512.04388",
+          "content": "Abstract: Powerful large language models (LLMs) from different providers have been expensively trained and finetuned to specialize across varying domains. In this work, we introduce a new kind of Conductor model trained with reinforcement learning to automatically discover powerful coordination strategies among LLMs. Our Conductor learns not only to design targeted communication topologies for effective agent-to-agent collaboration, but also to prompt engineer focused instructions to the LLMs to maximally leverage their individual capabilities. We show that, by learning optimal coordination strategies over pools of powerful worker LLMs, a 7B Conductor achieves significant performance gains beyond any individual worker, attaining state-of-the-art results in challenging reasoning benchmarks,"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “ The "
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@alex_whedon",
+      "text": "We were a little slow on this, but we just got a technical blog post up with more details. Please take a look! subq.ai/how-ssa-makes-long-c… We have a model card coming next week, and we are happy to take requests for any specific details there. I am happy to answer any questions here!",
+      "link": "https://nitter.net/alex_whedon/status/2051753230485357002#m",
+      "date_utc": "2026-05-05T19:57:44+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://subq.ai/how-ssa-makes-long-context-practical",
+          "content": "Subquadratic â Efficiency is Intelligence Subquadratic Products Research About Contact sales Request early access â Technical How SSA Makes Long Context Practical Date May 5, 2026 Note: In this paper we share third-party verified benchmarks. A comprehensive model card is coming soon! SubQ is built around SSA, Subquadratic Sparse Attention, a linearly scaling attention mechanism designed for long-context retrieval, reasoning, and software engineering workloads. The core claim is simple: the hard problems enterprise AI needs to solve are long-context problems. Codebase, contracts, enterprise corpora, databases, spreadsheets, research corpora, and long-running agent sessions rarely fail because the answer is absent. They fail because the relevant evidence is distributed across a large bod"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "Banger paper from Meta FAIR. They introduce Autodata, an agentic data scientist that builds high-quality training and evaluation data autonomously. The headline result: on a CS research QA task, an Agentic Self-Instruct loop produces a 34-point gap between weak and strong solvers (43.7% vs 77.8%), while standard CoT Self-Instruct on the same setup produces a 1.9-point gap (71.4% vs 73.3%). The agent generates questions that actually discriminate between models. The method: An orchestrator LLM directs a challenger agent to generate examples grounded in domain documents. A weak and a strong solv",
+      "link": "https://nitter.net/dair_ai/status/2051311905353142328#m",
+      "date_utc": "2026-05-04T14:44:04+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://facebookresearch.github.io/RAM/blogs/autodata/",
+          "content": "RAM @ Meta AI | A framework to study AI models in Reasoning, Alignment, and use of Memory (RAM). Autodata: an automatic data scientist to create high-quality data We introduce Autodata , a method that enables AI agents to act as data scientists who iteratively build high quality training and evaluation data. We show how to train (meta-optimize) such a data scientist agent, so that it can create even stronger data. Our initial study with a specific practical implementation, Agentic Self-Instruct , shows strong gains on scientific reasoning problems compared to classical synthetic dataset creation methods. Further, meta-optimizing the data scientist agent itself delivers an even larger performance uplift. Agentic data creation provides a way to convert increased inference compute into higher"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/204207859962…",
+      "link": "https://nitter.net/ashwingop/status/2042091130213560759#m",
+      "date_utc": "2026-04-09T04:04:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/204259509807…",
+      "link": "https://nitter.net/ashwingop/status/2042604890988646750#m",
+      "date_utc": "2026-04-10T14:05:30+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/204962372919…",
+      "link": "https://nitter.net/ashwingop/status/2049641901410955694#m",
+      "date_utc": "2026-04-30T00:08:04+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205131676611…",
+      "link": "https://nitter.net/ashwingop/status/2051317871750558077#m",
+      "date_utc": "2026-05-04T15:07:46+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205094753311…",
+      "link": "https://nitter.net/ashwingop/status/2050963469898506342#m",
+      "date_utc": "2026-05-03T15:39:30+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205168767986…",
+      "link": "https://nitter.net/ashwingop/status/2051691477831745907#m",
+      "date_utc": "2026-05-05T15:52:21+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@manishamishra24",
+      "text": "On Stanford CS336, Tatsu Hashimoto dropped a truth bomb: LLMs aren’t innovating anymore. They’re converging. 2024 → copy LLaMA 2 2025 → don’t let training crash 2026 → win on long context Under the hood? Same stack everywhere: RMSNorm. RoPE. GLUs. GQA. No bias. Different names. Same blueprint. You’re not building a new model— just remixing the same one. Video",
+      "link": "https://nitter.net/manishamishra24/status/2051710417316258073#m",
+      "date_utc": "2026-05-05T17:07:37+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@Pseudo_Sid26",
+      "text": "x.com/i/article/205165461939…",
+      "link": "https://nitter.net/Pseudo_Sid26/status/2051680656351281565#m",
+      "date_utc": "2026-05-05T15:09:21+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@TheTuringPost",
+      "text": "Must-read research of the week ▪️ The Last Harness You'll Ever Build ▪️ From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company ▪️ Recursive Multi-Agent Systems ▪️ Synthetic Computers at Scale for Long-Horizon Productivity Simulation ▪️ Co-Evolving Policy Distillation ▪️ Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding ▪️ From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills ▪️ The Last Human-Written Paper: Agent-Native Research Artifacts ▪️ Efficient Training on Multiple Consumer GPUs with ",
+      "link": "https://nitter.net/TheTuringPost/status/2051707579785752909#m",
+      "date_utc": "2026-05-05T16:56:20+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@chatgpt21",
+      "text": "Jack Clark Co Founder of Anthropic: “I'm writing this post because when I look at all the publicly available information I reluctantly come to the view that there's a likely chance (60%+) that no-human-involved AI R&D - an Al system powerful enough that it could plausibly autonomously build its own successor - happens by the end of 2028. This is a big deal. I don't know how to wrap my head around it.” Jack Clark (@jackclarkSF) I've spent the past few weeks reading 100s of public data sources about AI development. I now believe that recursive self-improvement has a 60% chance of happening by th",
+      "link": "https://nitter.net/chatgpt21/status/2051314386317295758#m",
+      "date_utc": "2026-05-04T14:53:55+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@deedydas",
+      "text": "The creators of SWE-Bench just dropped a really simple new benchmark every LLM gets 0% on. ProgramBench asks: can models recreate real executable programs (ffmpeg, SQLite, ripgrep) from scratch with no internet? We are far from saturated on model quality.",
+      "link": "https://nitter.net/deedydas/status/2051684179084284409#m",
+      "date_utc": "2026-05-05T15:23:21+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@GoSailGlobal",
+      "text": "Stanford CS336 上，Tatsu 讲了一节 LLM 架构课，把过去 3 年所有主流 LLM 拆开，看它们的共通模板 结论挺爆：90% 的架构选择已经收敛，你随便挑一个开源大模型，它跟其他模型在这些维度上几乎一模一样 讲师的原话 - 2024 年大家都在 cosplay Llama2 - 2025 年的主题是「怎么训得不崩」 - 2026 年的主题是「怎么扛住长上下文」 下面是 2026 年开源 LLM 的标准模板 你训自己的模型可以直接抄 【架构层 已经收敛的 7 件事】 1）Layer Norm 挪出残差流（pre-norm） 原版 Transformer 把 LN 放在残差里 几乎所有现代模型都挪到外面 原因：keep your residual stream clean 梯度反传更稳 2）RMS Norm 替代 LayerNorm LayerNorm 的减均值 + 加 bias 那部分实际没怎么帮上忙 丢掉之后 flops 只省 0.17% 但运行时省到 25% （瓶颈在数据搬运 计算反而次要） 3）所有 bias 项全删 跟 RMS Norm 一个道理 系统层省内存搬运 4）激活函数用 SwiGLU 或 GeGLU gated linear unit 几乎所有现代模型都用 Llama 系 / Qwen / Mistral 用 SwiGLU Google 系（Ge",
+      "link": "https://nitter.net/GoSailGlobal/status/2051494907974697144#m",
+      "date_utc": "2026-05-05T02:51:15+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Teslas require almost zero maintenance KOBE (@itspikaaa) After buying an electric car.. I don’t think I can ever go back to gas cars. The only maintenance I’ve done in the past 3 years is get new tires. — https://nitter.net/itspikaaa/status/2051742978138575016#m",
+          "link": "https://nitter.net/Tesla/status/2051803425466368461#m",
+          "date_utc": "2026-05-05T23:17:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 Brockman has now changed his explanation TWICE in 24 hours for what he meant by his November 2017 \"morally bankrupt\" diary line Yesterday, Brockman said his \"morally bankrupt\" diary line meant \"actually serve the mission, hard to look at yourself in the mirror.\" This morning, Brockman tried to reframe his \"morally bankrupt\" line. He claimed it referred to \"REMOVING MUSK FROM THE BOARD.\" This afternoon, Musk's lawyer demolished it: Toberoff: There were a total of 460 pages of that journal produced to us. Are you aware of that? Brockman: \"I don't know the exact number.\" Toberoff: Do you disagr",
+          "link": "https://nitter.net/ns123abc/status/2051820288384307547#m",
+          "date_utc": "2026-05-06T00:24:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}

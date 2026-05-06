@@ -253,6 +253,19 @@ function inferTweetTopic(text) {
   return 'ai-industry';
 }
 
+function rewriteMarkdownLinks(html, sourceWikiPath, baseUrl = '/cere-bro') {
+  // Synthesis files reference other wiki pages via relative `.md` links.
+  // Convert those to absolute Astro routes (no `.md`, with base prefix).
+  // sourceWikiPath: wiki-root-relative dir of the source file (e.g. 'social-stream/2026-05')
+  return html.replace(/href="([^"]+\.md)"/g, (match, href) => {
+    if (/^https?:/.test(href)) return match; // external
+    if (href.startsWith('/')) return match;   // already absolute
+    const resolved = path.posix.normalize(path.posix.join(sourceWikiPath, href));
+    const slug = resolved.replace(/\.md$/, '');
+    return `href="${baseUrl}/${slug}/"`;
+  });
+}
+
 function loadSocialSyntheses() {
   // Synthesis files live at wiki/social-stream/YYYY-MM/YYYY-MM-DD-<slot>.md
   const root = path.join(WIKI_DIR, 'social-stream');
@@ -269,7 +282,9 @@ function loadSocialSyntheses() {
       const [, date, slot] = m;
       const raw = fs.readFileSync(path.join(monthDir, fname), 'utf8');
       const { content } = matter(raw);
-      out[`${date}-${slot}`] = marked.parse(content);
+      const html = marked.parse(content);
+      const sourceDir = `social-stream/${month}`;
+      out[`${date}-${slot}`] = rewriteMarkdownLinks(html, sourceDir);
     }
   }
   return out;

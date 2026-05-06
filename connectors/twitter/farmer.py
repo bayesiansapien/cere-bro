@@ -381,12 +381,32 @@ except RuntimeError as e:
     print(f"FATAL: {e}")
     sys.exit(1)
 
-# 1. Own handle — retweets + replies as curated signal
+# 1. Own handle — retweets/quotes as curated signal.
+#    Nitter RSS reports the ORIGINAL tweet's date for reposts, not the repost
+#    timestamp. So we can't rely on pubDate to detect "new" reposts. Instead
+#    we maintain a state file of seen repost links and capture anything new.
+STATE_DIR  = Path(__file__).parent / ".state"
+STATE_DIR.mkdir(exist_ok=True)
+SEEN_PATH  = STATE_DIR / "seen_reposts.json"
+seen_links = set()
+if SEEN_PATH.exists():
+    try:
+        seen_links = set(json.loads(SEEN_PATH.read_text()))
+    except Exception:
+        seen_links = set()
+
 print(f"\n[1/2] @{OWN_HANDLE} (retweets as curated signal)...")
-own_all    = fetch_rss(OWN_HANDLE, nitter_base)
-own_recent = [t for t in own_all if is_recent(t)]
-own_curated = [t for t in own_recent if is_retweet(t) or is_quote_tweet(t)]
-print(f"  {len(own_recent)} recent tweets | {len(own_curated)} retweets/QTs kept")
+own_all     = fetch_rss(OWN_HANDLE, nitter_base)
+own_reposts = [t for t in own_all if is_retweet(t) or is_quote_tweet(t)]
+own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
+print(f"  {len(own_all)} feed items | {len(own_reposts)} reposts | {len(own_curated)} new (unseen)")
+
+# Persist newly captured links to the seen set, but cap the file at 500 entries
+# so it doesn't grow forever. We keep the most recent N by appending.
+if own_curated:
+    new_seen = list(seen_links) + [t["link"] for t in own_curated if t.get("link")]
+    seen_links = set(new_seen[-500:])
+    SEEN_PATH.write_text(json.dumps(sorted(seen_links), indent=2))
 
 # 2. AI handles — original tweets filtered by AI keywords
 print(f"\n[2/2] Scraping {len(AI_HANDLES)} AI handles...")
