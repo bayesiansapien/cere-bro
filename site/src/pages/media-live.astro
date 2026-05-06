@@ -90,8 +90,6 @@ const TOPIC_LABEL: Record<string, string> = {
 
   {dates.map((date) => (
     <section class="atlas-section ml-day">
-      <div class="section-marker">{fmtDate(date)}</div>
-
       {byDate[date].map((slot: any) => {
         const allTweets = [
           ...slot.curated.map((t: any) => ({ ...t, _section: 'curated' })),
@@ -108,7 +106,6 @@ const TOPIC_LABEL: Record<string, string> = {
         return (
           <div class="ml-slot">
             <div class="ml-slot-header">
-              <h2>{SLOT_LABEL[slot.slot] ?? slot.slot}</h2>
               <div class="ml-slot-meta">
                 scraped {slot.scrapedIst} IST · {slot.counts.total} tweets
                 {slot.counts.curated > 0 && ` · ${slot.counts.curated} curated`}
@@ -267,18 +264,26 @@ const TOPIC_LABEL: Record<string, string> = {
     padding: 16px 0;
   }
 
-  /* Claude-written synthesis — the primary content */
+  /* Claude-written synthesis — scannable triage list */
   .ml-synthesis {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 22px 26px;
+    padding: 20px 24px;
     margin-bottom: 16px;
-    font-family: var(--serif);
-    font-size: 16.5px;
-    line-height: 1.7;
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.6;
     color: var(--fg);
   }
+  .ml-synthesis :global(li) {
+    margin-bottom: 10px;
+  }
+  .ml-synthesis :global(li > p) {
+    margin: 0;
+  }
+  .ml-synthesis :global(li > *:first-child) { margin-top: 0; }
+  .ml-synthesis :global(li > *:last-child) { margin-bottom: 0; }
   .ml-synthesis :global(h1),
   .ml-synthesis :global(h2),
   .ml-synthesis :global(h3) {
