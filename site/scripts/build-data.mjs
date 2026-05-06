@@ -277,27 +277,36 @@ function rewriteMarkdownLinks(html, sourceWikiPath, baseUrl = '/cere-bro') {
 }
 
 function loadSocialSyntheses() {
-  // Synthesis files live at wiki/social-stream/YYYY-MM/YYYY-MM-DD-<slot>.md
+  // Two file shapes under wiki/social-stream/YYYY-MM/:
+  //   YYYY-MM-DD-<slot>.md  → per-slot synthesis (morning/afternoon/evening/night)
+  //   YYYY-MM-DD.md         → daily roll-up (written by midnight cron)
+  // Returned as { slotsByKey: {date-slot: html}, rollupsByDate: {date: html} }
   const root = path.join(WIKI_DIR, 'social-stream');
-  if (!fs.existsSync(root)) return {};
-  const out = {};
+  const slotsByKey = {};
+  const rollupsByDate = {};
+  if (!fs.existsSync(root)) return { slotsByKey, rollupsByDate };
   const months = fs.readdirSync(root).filter((f) =>
     fs.statSync(path.join(root, f)).isDirectory()
   );
   for (const month of months) {
     const monthDir = path.join(root, month);
+    const sourceDir = `social-stream/${month}`;
     for (const fname of fs.readdirSync(monthDir)) {
-      const m = fname.match(/^(\d{4}-\d{2}-\d{2})-(night|morning|afternoon|evening)\.md$/);
-      if (!m) continue;
-      const [, date, slot] = m;
+      const slotMatch = fname.match(/^(\d{4}-\d{2}-\d{2})-(night|morning|afternoon|evening)\.md$/);
+      const rollupMatch = fname.match(/^(\d{4}-\d{2}-\d{2})\.md$/);
       const raw = fs.readFileSync(path.join(monthDir, fname), 'utf8');
       const { content } = matter(raw);
-      const html = marked.parse(content);
-      const sourceDir = `social-stream/${month}`;
-      out[`${date}-${slot}`] = rewriteMarkdownLinks(html, sourceDir);
+      const html = rewriteMarkdownLinks(marked.parse(content), sourceDir);
+      if (slotMatch) {
+        const [, date, slot] = slotMatch;
+        slotsByKey[`${date}-${slot}`] = html;
+      } else if (rollupMatch) {
+        const [, date] = rollupMatch;
+        rollupsByDate[date] = html;
+      }
     }
   }
-  return out;
+  return { slotsByKey, rollupsByDate };
 }
 
 function parseSocialStream() {
@@ -307,7 +316,7 @@ function parseSocialStream() {
     .sort()
     .reverse(); // newest first
 
-  const syntheses = loadSocialSyntheses();
+  const { slotsByKey, rollupsByDate } = loadSocialSyntheses();
   const slots = [];
   for (const fname of files) {
     try {
@@ -338,7 +347,7 @@ function parseSocialStream() {
         slot:       raw.slot,
         scrapedIst: raw.scraped_ist,
         lookbackH:  raw.lookback_h,
-        synthesisHtml: syntheses[`${raw.date}-${raw.slot}`] ?? null,
+        synthesisHtml: slotsByKey[`${raw.date}-${raw.slot}`] ?? null,
         curated:    raw.curated.map((t) => ({
           ...t,
           isCurated: true,
@@ -366,7 +375,7 @@ function parseSocialStream() {
       console.warn(`  WARN: Failed to parse ${fname}: ${e.message}`);
     }
   }
-  return slots;
+  return { slots, rollupsByDate };
 }
 
 function extractTier(content, frontmatter) {
@@ -636,7 +645,7 @@ function main() {
   // Tweets are distributed across the existing topics via inferTweetTopic,
   // and their counts get folded into topicCounts directly so there's no
   // separate "social stream" display in Atlas.
-  const socialSlots = parseSocialStream();
+  const { slots: socialSlots, rollupsByDate: socialRollups } = parseSocialStream();
   let socialTotalTweets = 0;
   for (const s of socialSlots) {
     socialTotalTweets += s.counts.total;
@@ -644,6 +653,11 @@ function main() {
       topicCounts[topic] = (topicCounts[topic] ?? 0) + n;
     }
   }
+  // Build a list of dated roll-ups for the [date] route + Media Live history
+  const socialRollupList = Object.keys(socialRollups)
+    .sort()
+    .reverse()
+    .map((date) => ({ date, html: socialRollups[date] }));
 
   // Build graph nodes + edges from cross-references
   const nodeMap = new Map();
@@ -708,6 +722,7 @@ function main() {
     topicColors: TOPIC_COLORS,
     topicCounts,
     socialSlots,
+    socialRollups: socialRollupList,
     timeline,
     digests,
     pages,
