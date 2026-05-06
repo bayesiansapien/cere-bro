@@ -12,8 +12,8 @@ The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a
 | Tier | Topics | Digest treatment |
 |------|--------|-----------------|
 | **1 — Core** | AI routing (LLM routing, multimodal routing, agent trajectory routing), KV Cache, compression / quantization / distillation / pruning, GPU optimization (kernels, FlashAttention, batching), GPU hardware (Hopper, Blackwell, memory hierarchy) | Long Deep Dives (4–6 paragraphs). Explain *why* the technique works, not just what. Add a **Research angle** note — open problems, follow-up directions. |
-| **2 — Active learning** | General LLM papers, new architectures (SSM, MoE, hybrid), agentic reasoning and memory | Standard Deep Dives (2–4 paragraphs). Flag any intersection with Tier 1. |
-| **3 — Broad horizon** | Multimodal / vision-language, audio-video generation | Quick Hits only, unless directly relevant to routing or efficiency. |
+| **2 — Active learning** | General LLM papers, new architectures (SSM, MoE, hybrid), agentic systems, responsible AI (interpretability, alignment, safety, explainability) | Standard Deep Dives (2–4 paragraphs). Flag any intersection with Tier 1. |
+| **3 — Broad horizon** | Vision / audio / video models (multimodal, vision-language, image and video generation, speech) | Quick Hits only, unless directly relevant to routing or efficiency. |
 | **4 — Low interest** | 3D mapping, spatial reconstruction, robotics hardware, game benchmarks unrelated to efficiency | One sentence or skip. |
 
 **When a paper spans tiers**, treat it at the highest applicable tier. **Connecting the Dots** should actively surface cross-paper patterns in Tier 1 areas. **Worth Watching** bullets should prioritize falsifiable predictions about Tier 1 open problems.
@@ -26,7 +26,7 @@ The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a
 raw/        ← immutable source files (farmers write here, humans drop files here)
 wiki/       ← LLM-owned synthesis (you write everything here)
   llms-foundation-models/
-  agents-tool-use/
+  agentic-systems/
   multimodal/
   inference-efficiency/   ← compression, quantization, distillation, KV cache, GPU opt
   ai-routing/             ← LLM routing, multimodal routing, agent trajectory routing
@@ -356,6 +356,6 @@ The digest is not a fresh scan of today's papers. It is today's papers read by a
 
 - Dates: `YYYY-MM-DD` everywhere
 - Filenames: lowercase, hyphens, no spaces
-- Internal links: relative markdown links (`../agents-tool-use/tool-calling.md`)
+- Internal links: relative markdown links (`../agentic-systems/tool-calling.md`)
 - Source attribution: every summary page links to its raw file
 - log.md entries start with `## [YYYY-MM-DD]` for easy grep
