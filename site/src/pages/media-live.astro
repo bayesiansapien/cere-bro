@@ -3,30 +3,54 @@ import Base from '../layouts/Base.astro';
 import wiki from '../data/wiki.json';
 
 const slots = wiki.socialSlots ?? [];
+const rollups = wiki.socialRollups ?? [];
 const topicColors = wiki.topicColors ?? {};
 const totalTweets = wiki.counts?.socialTweets ?? 0;
+const base = import.meta.env.BASE_URL;
+const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 
 // Group slots by date
-const byDate: Record<string, any[]> = {};
+const slotsByDate: Record<string, any[]> = {};
 for (const s of slots) {
-  if (!byDate[s.date]) byDate[s.date] = [];
-  byDate[s.date].push(s);
+  if (!slotsByDate[s.date]) slotsByDate[s.date] = [];
+  slotsByDate[s.date].push(s);
 }
-const dates = Object.keys(byDate).sort().reverse();
+const allSlotDates = Object.keys(slotsByDate).sort().reverse();
 
 // Slot ordering within a day (newest first)
 const SLOT_ORDER = ['evening', 'afternoon', 'morning', 'night'];
-for (const d of dates) {
-  byDate[d].sort((a, b) => SLOT_ORDER.indexOf(a.slot) - SLOT_ORDER.indexOf(b.slot));
+for (const d of allSlotDates) {
+  slotsByDate[d].sort((a, b) => SLOT_ORDER.indexOf(a.slot) - SLOT_ORDER.indexOf(b.slot));
 }
 
-// Pretty slot label
-const SLOT_LABEL: Record<string, string> = {
-  night:     'Night (00–06 IST)',
-  morning:   'Morning (06–12 IST)',
-  afternoon: 'Afternoon (12–18 IST)',
-  evening:   'Evening (18–24 IST)',
-};
+// "Today" = the most recent date with slots. Past = everything else.
+const todayDate = allSlotDates[0] ?? null;
+const pastSlotDates = allSlotDates.slice(1);
+
+// Build past-day cards: prefer the roll-up if it exists, otherwise show
+// a compact list of the day's slot syntheses inline. Cap at 7 days for
+// the default view; older items go behind a toggle.
+type PastDay = { date: string; html: string | null; slotCount: number };
+const rollupByDate: Record<string, string> = Object.fromEntries(
+  rollups.map((r: any) => [r.date, r.html])
+);
+const pastDays: PastDay[] = pastSlotDates.map((d) => ({
+  date: d,
+  html: rollupByDate[d] ?? null,
+  slotCount: slotsByDate[d].length,
+}));
+const visiblePastDays = pastDays.slice(0, 7);
+const olderPastDays = pastDays.slice(7);
+
+// Pretty date label
+function fmtDate(iso: string) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' });
+}
+function fmtShortDate(iso: string) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+}
 
 // Pretty date label
 function fmtDate(iso: string) {
@@ -79,7 +103,7 @@ const TOPIC_LABEL: Record<string, string> = {
     </div>
   </section>
 
-  {dates.length === 0 && (
+  {!todayDate && (
     <section class="atlas-section">
       <div class="empty-state">
         <p>No social stream data yet. Run the Twitter farmer to populate this feed:</p>
@@ -88,9 +112,11 @@ const TOPIC_LABEL: Record<string, string> = {
     </section>
   )}
 
-  {dates.map((date) => (
+  {/* TODAY: render every slot as its own synthesis card */}
+  {todayDate && (
     <section class="atlas-section ml-day">
-      {byDate[date].map((slot: any) => {
+      <div class="section-marker">today · {fmtDate(todayDate)}</div>
+      {slotsByDate[todayDate].map((slot: any) => {
         const allTweets = [
           ...slot.curated.map((t: any) => ({ ...t, _section: 'curated' })),
           ...slot.aiFeed.flatMap((f: any) =>
@@ -185,7 +211,48 @@ const TOPIC_LABEL: Record<string, string> = {
         );
       })}
     </section>
-  ))}
+  )}
+
+  {/* PAST 7 DAYS: roll-up cards with click-through to /social-stream/[date]/ */}
+  {visiblePastDays.length > 0 && (
+    <section class="atlas-section">
+      <div class="section-marker">past 7 days</div>
+      {visiblePastDays.map((day) => (
+        <a class="ml-rollup-card" href={url(`/social-stream/${day.date}/`)}>
+          <div class="ml-rollup-header">
+            <h2>{fmtDate(day.date)}</h2>
+            <div class="ml-rollup-meta">
+              {day.slotCount} slot{day.slotCount === 1 ? '' : 's'}
+              {day.html ? ' · roll-up ready' : ' · roll-up pending'}
+            </div>
+          </div>
+          {day.html ? (
+            <div class="ml-rollup-preview" set:html={day.html} />
+          ) : (
+            <div class="ml-rollup-pending">
+              Daily roll-up will be written by the midnight cron. Click through to read individual slot syntheses.
+            </div>
+          )}
+        </a>
+      ))}
+    </section>
+  )}
+
+  {olderPastDays.length > 0 && (
+    <section class="atlas-section">
+      <details class="ml-older">
+        <summary>Show older days · {olderPastDays.length}</summary>
+        <ul class="ml-older-list">
+          {olderPastDays.map((day) => (
+            <li>
+              <a href={url(`/social-stream/${day.date}/`)}>{fmtDate(day.date)}</a>
+              <span class="ml-older-meta">{day.slotCount} slot{day.slotCount === 1 ? '' : 's'}</span>
+            </li>
+          ))}
+        </ul>
+      </details>
+    </section>
+  )}
 </Base>
 
 <style>
@@ -498,6 +565,137 @@ const TOPIC_LABEL: Record<string, string> = {
     display: inline-block;
     margin-top: 8px;
     color: var(--fg-dim);
+  }
+
+  /* Past-day roll-up cards */
+  .ml-rollup-card {
+    display: block;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .ml-rollup-card:hover {
+    border-color: var(--accent-2);
+    transform: translateY(-1px);
+  }
+  .ml-rollup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .ml-rollup-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: var(--fg);
+  }
+  .ml-rollup-meta {
+    font-size: 12px;
+    color: var(--fg-muted);
+    font-family: var(--mono);
+  }
+  .ml-rollup-preview {
+    font-family: var(--sans);
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--fg-dim);
+    /* Clamp the preview so the card stays scannable. Click through for full content. */
+    max-height: 220px;
+    overflow: hidden;
+    position: relative;
+  }
+  .ml-rollup-preview::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, var(--bg-elev));
+    pointer-events: none;
+  }
+  .ml-rollup-preview :global(h1),
+  .ml-rollup-preview :global(h2),
+  .ml-rollup-preview :global(h3) {
+    font-size: 13px;
+    color: var(--accent-2);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0.8em 0 0.3em;
+    border: none;
+    padding: 0;
+  }
+  .ml-rollup-preview :global(h1) { font-size: 14px; color: var(--fg); margin-top: 0; }
+  .ml-rollup-preview :global(li) { margin-bottom: 6px; }
+  .ml-rollup-preview :global(a) {
+    color: var(--accent-2);
+    text-decoration: none;
+  }
+  .ml-rollup-preview :global(blockquote) {
+    border-left: 3px solid var(--accent-2);
+    margin: 0 0 8px;
+    padding: 2px 14px;
+    color: var(--fg);
+    background: rgba(251, 191, 36, 0.04);
+    font-style: italic;
+  }
+
+  .ml-rollup-pending {
+    font-size: 13px;
+    color: var(--fg-muted);
+    font-style: italic;
+  }
+
+  .ml-older {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 20px;
+  }
+  .ml-older > summary {
+    cursor: pointer;
+    font-size: 12px;
+    color: var(--fg-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    list-style: none;
+  }
+  .ml-older > summary::-webkit-details-marker { display: none; }
+  .ml-older > summary::before {
+    content: '▸ ';
+    transition: transform 0.15s;
+  }
+  .ml-older[open] > summary::before { transform: rotate(90deg); }
+  .ml-older[open] > summary { margin-bottom: 12px; }
+  .ml-older > summary:hover { color: var(--accent-2); }
+  .ml-older-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ml-older-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 13px;
+  }
+  .ml-older-list li:last-child { border-bottom: none; }
+  .ml-older-list a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .ml-older-list a:hover { color: var(--accent-2); }
+  .ml-older-meta {
+    color: var(--fg-muted);
+    font-family: var(--mono);
+    font-size: 11px;
   }
 
   @media (max-width: 700px) {

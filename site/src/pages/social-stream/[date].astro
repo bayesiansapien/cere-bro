@@ -1,0 +1,150 @@
+---
+import Base from '../../layouts/Base.astro';
+import wiki from '../../data/wiki.json';
+
+export function getStaticPaths() {
+  return (wiki.socialRollups ?? []).map((r: any) => ({
+    params: { date: r.date },
+    props: { rollup: r, slots: (wiki.socialSlots ?? []).filter((s: any) => s.date === r.date) },
+  }));
+}
+
+const { rollup, slots } = Astro.props;
+
+function fmtDate(iso: string) {
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
+const SLOT_ORDER = ['evening', 'afternoon', 'morning', 'night'];
+slots.sort((a: any, b: any) => SLOT_ORDER.indexOf(a.slot) - SLOT_ORDER.indexOf(b.slot));
+
+const SLOT_LABEL: Record<string, string> = {
+  night: 'Night', morning: 'Morning', afternoon: 'Afternoon', evening: 'Evening',
+};
+---
+
+<Base title={`Media Live — ${fmtDate(rollup.date)}`} active="media-live">
+  <section class="hero">
+    <div class="hero-date">{fmtDate(rollup.date)} · social stream roll-up</div>
+    <h1>Media Live</h1>
+  </section>
+
+  <section class="atlas-section">
+    <div class="ml-synthesis" set:html={rollup.html} />
+  </section>
+
+  {slots.length > 0 && (
+    <section class="atlas-section">
+      <div class="section-marker">slot detail</div>
+      {slots.map((slot: any) => (
+        <div class="ml-slot">
+          <div class="ml-slot-header">
+            <h2>{SLOT_LABEL[slot.slot] ?? slot.slot}</h2>
+            <div class="ml-slot-meta">
+              scraped {slot.scrapedIst} IST · {slot.counts.total} tweets
+              {slot.counts.curated > 0 && ` · ${slot.counts.curated} curated`}
+            </div>
+          </div>
+          {slot.synthesisHtml ? (
+            <div class="ml-synthesis" set:html={slot.synthesisHtml} />
+          ) : (
+            <div class="ml-synthesis-pending">No synthesis was written for this slot.</div>
+          )}
+        </div>
+      ))}
+    </section>
+  )}
+</Base>
+
+<style>
+  .ml-synthesis {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--fg);
+  }
+  .ml-synthesis :global(h1),
+  .ml-synthesis :global(h2),
+  .ml-synthesis :global(h3) {
+    font-family: var(--sans);
+    font-weight: 700;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    line-height: 1.25;
+    color: var(--fg);
+    border: none;
+    padding: 0;
+  }
+  .ml-synthesis :global(h1) { font-size: 20px; margin-top: 0; }
+  .ml-synthesis :global(h2) { font-size: 16px; }
+  .ml-synthesis :global(h3) {
+    font-size: 12px;
+    color: var(--accent-2);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .ml-synthesis :global(li) { margin-bottom: 10px; }
+  .ml-synthesis :global(li > p) { margin: 0; }
+  .ml-synthesis :global(li > *:first-child) { margin-top: 0; }
+  .ml-synthesis :global(li > *:last-child) { margin-bottom: 0; }
+  .ml-synthesis :global(blockquote) {
+    border-left: 3px solid var(--accent-2);
+    margin: 10px 0;
+    padding: 4px 16px;
+    color: var(--fg-dim);
+    background: rgba(251, 191, 36, 0.05);
+    font-style: italic;
+  }
+  .ml-synthesis :global(a) {
+    color: var(--accent-2);
+    border-bottom: 1px solid rgba(251, 191, 36, 0.3);
+  }
+  .ml-synthesis :global(a:hover) {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .ml-synthesis :global(code) {
+    background: var(--bg);
+    color: var(--fg-dim);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-family: var(--mono);
+  }
+
+  .ml-slot {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .ml-slot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .ml-slot-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: var(--fg);
+  }
+  .ml-slot-meta {
+    font-size: 12px;
+    color: var(--fg-muted);
+    font-family: var(--mono);
+  }
+  .ml-synthesis-pending {
+    color: var(--fg-muted);
+    font-style: italic;
+  }
+</style>
