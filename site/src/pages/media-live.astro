@@ -47,16 +47,6 @@ function fmtDate(iso: string) {
   const d = new Date(iso + 'T00:00:00Z');
   return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' });
 }
-function fmtShortDate(iso: string) {
-  const d = new Date(iso + 'T00:00:00Z');
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
-}
-
-// Pretty date label
-function fmtDate(iso: string) {
-  const d = new Date(iso + 'T00:00:00Z');
-  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' });
-}
 
 // Topic label (human-readable)
 const TOPIC_LABEL: Record<string, string> = {
@@ -64,8 +54,9 @@ const TOPIC_LABEL: Record<string, string> = {
   'inference-efficiency':   'Inference / Efficiency',
   'hardware':               'Hardware',
   'llms-foundation-models': 'LLMs',
-  'agents-tool-use':        'Agents',
-  'multimodal':             'Multimodal',
+  'agentic-systems':        'Agentic Systems',
+  'responsible-ai':         'Responsible AI',
+  'vision-audio-video':     'Vision / Audio / Video',
   'ai-industry':            'Industry',
 };
 ---

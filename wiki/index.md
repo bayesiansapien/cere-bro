@@ -4,22 +4,22 @@ Catalog of all pages. Updated on every ingest.
 
 ---
 
-## agents-tool-use
+## agentic-systems
 
 | Page | Summary |
 |------|---------|
-| [gui-agents.md](agents-tool-use/gui-agents.md) | Concept: MLLM-based GUI agents, long-horizon challenges, key papers |
-| [agent-benchmarks.md](agents-tool-use/agent-benchmarks.md) | Concept: benchmarks for agentic AI — OccuBench, GameWorld, MERRIN, explore/exploit |
-| [2026-04-16-ui-copilot.md](agents-tool-use/2026-04-16-ui-copilot.md) | UI-Copilot: memory decoupling + TIPO for long-horizon GUI tasks |
-| [2026-04-16-trex-llm-finetuning-automation.md](agents-tool-use/2026-04-16-trex-llm-finetuning-automation.md) | TREX: multi-agent LLM fine-tuning automation via search tree |
-| [2026-04-16-exploration-exploitation-lm-agents.md](agents-tool-use/2026-04-16-exploration-exploitation-lm-agents.md) | Measurable explore/exploit errors in LM agents |
-| [2026-04-16-occubench.md](agents-tool-use/2026-04-16-occubench.md) | OccuBench: 100 professional task scenarios via Language World Models |
-| [2026-04-16-do-ai-coding-agents-log-like-humans.md](agents-tool-use/2026-04-16-do-ai-coding-agents-log-like-humans.md) | AI coding agents fail logging instructions 67% of the time |
-| [2026-04-16-defenseclaw-maestro-agentic-security.md](agents-tool-use/2026-04-16-defenseclaw-maestro-agentic-security.md) | DefenseClaw: security control plane for OpenClaw + MAESTRO threat model |
-| [2026-04-16-vakra-agent-reasoning-failure-modes.md](agents-tool-use/2026-04-16-vakra-agent-reasoning-failure-modes.md) | VAKRA: tool-use failure modes in agents |
-| [2026-04-17-claude-code-architecture.md](agents-tool-use/2026-04-17-claude-code-architecture.md) | Claude Code v2.1.88 architecture: while-loop core + 5 surrounding systems |
-| [2026-04-17-superlocalmemory-agent-memory.md](agents-tool-use/2026-04-17-superlocalmemory-agent-memory.md) | SuperLocalMemory V3.3: biologically-inspired local agent memory with forgetting curves |
-| [2026-04-25-claude-code-memory-systems-chapter8.md](agents-tool-use/2026-04-25-claude-code-memory-systems-chapter8.md) | Claude Code memory systems (Chapter 8): QueryEngine eager flush + LRU cache + path-set dedup; Apr 23 postmortem caching bug analysis |
+| [gui-agents.md](agentic-systems/gui-agents.md) | Concept: MLLM-based GUI agents, long-horizon challenges, key papers |
+| [agent-benchmarks.md](agentic-systems/agent-benchmarks.md) | Concept: benchmarks for agentic AI — OccuBench, GameWorld, MERRIN, explore/exploit |
+| [2026-04-16-ui-copilot.md](agentic-systems/2026-04-16-ui-copilot.md) | UI-Copilot: memory decoupling + TIPO for long-horizon GUI tasks |
+| [2026-04-16-trex-llm-finetuning-automation.md](agentic-systems/2026-04-16-trex-llm-finetuning-automation.md) | TREX: multi-agent LLM fine-tuning automation via search tree |
+| [2026-04-16-exploration-exploitation-lm-agents.md](agentic-systems/2026-04-16-exploration-exploitation-lm-agents.md) | Measurable explore/exploit errors in LM agents |
+| [2026-04-16-occubench.md](agentic-systems/2026-04-16-occubench.md) | OccuBench: 100 professional task scenarios via Language World Models |
+| [2026-04-16-do-ai-coding-agents-log-like-humans.md](agentic-systems/2026-04-16-do-ai-coding-agents-log-like-humans.md) | AI coding agents fail logging instructions 67% of the time |
+| [2026-04-16-defenseclaw-maestro-agentic-security.md](agentic-systems/2026-04-16-defenseclaw-maestro-agentic-security.md) | DefenseClaw: security control plane for OpenClaw + MAESTRO threat model |
+| [2026-04-16-vakra-agent-reasoning-failure-modes.md](agentic-systems/2026-04-16-vakra-agent-reasoning-failure-modes.md) | VAKRA: tool-use failure modes in agents |
+| [2026-04-17-claude-code-architecture.md](agentic-systems/2026-04-17-claude-code-architecture.md) | Claude Code v2.1.88 architecture: while-loop core + 5 surrounding systems |
+| [2026-04-17-superlocalmemory-agent-memory.md](agentic-systems/2026-04-17-superlocalmemory-agent-memory.md) | SuperLocalMemory V3.3: biologically-inspired local agent memory with forgetting curves |
+| [2026-04-25-claude-code-memory-systems-chapter8.md](agentic-systems/2026-04-25-claude-code-memory-systems-chapter8.md) | Claude Code memory systems (Chapter 8): QueryEngine eager flush + LRU cache + path-set dedup; Apr 23 postmortem caching bug analysis |
 
 ## llms-foundation-models
 
@@ -104,13 +104,13 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-20-avr-adaptive-visual-reasoning.md](inference-efficiency/2026-04-20-avr-adaptive-visual-reasoning.md) | AVR: GRPO-trained format selection cuts VRM token usage 50-90%; perceive-only or direct-answer for simple visual queries |
 | [2026-04-20-w-rac-retrieval-aware-chunking.md](inference-efficiency/2026-04-20-w-rac-retrieval-aware-chunking.md) | W-RAC: decouple text extraction from chunk planning; LLM decides ID groupings not text; 51.7% chunking cost reduction |
 
-## agents-tool-use (new 2026-04-20)
+## agentic-systems (new 2026-04-20)
 
 | Page | Summary |
 |------|---------|
-| [2026-04-20-gta-2-tool-agent-benchmark.md](agents-tool-use/2026-04-20-gta-2-tool-agent-benchmark.md) | GTA-2: frontier models at 14.39% on open-ended workflows; execution harness matters more than model |
-| [2026-04-20-prl-bench-physics-benchmark.md](agents-tool-use/2026-04-20-prl-bench-physics-benchmark.md) | PRL-Bench: all frontier models below 50% on real physics research tasks from PRL (Aug 2025+) |
-| [2026-04-20-query-agent-loop-claude-vs-hermes.md](agents-tool-use/2026-04-20-query-agent-loop-claude-vs-hermes.md) | Claude Code 7-site state machine loop vs. Hermes IterationBudget — recovery architecture is what separates functional agents |
+| [2026-04-20-gta-2-tool-agent-benchmark.md](agentic-systems/2026-04-20-gta-2-tool-agent-benchmark.md) | GTA-2: frontier models at 14.39% on open-ended workflows; execution harness matters more than model |
+| [2026-04-20-prl-bench-physics-benchmark.md](agentic-systems/2026-04-20-prl-bench-physics-benchmark.md) | PRL-Bench: all frontier models below 50% on real physics research tasks from PRL (Aug 2025+) |
+| [2026-04-20-query-agent-loop-claude-vs-hermes.md](agentic-systems/2026-04-20-query-agent-loop-claude-vs-hermes.md) | Claude Code 7-site state machine loop vs. Hermes IterationBudget — recovery architecture is what separates functional agents |
 
 ## multimodal (new 2026-04-20)
 
@@ -130,21 +130,21 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-18-tessy-teacher-student-sft.md](inference-efficiency/2026-04-18-tessy-teacher-student-sft.md) | TESSY: interleave teacher/student tokens to fix stylistic divergence in distillation |
 | [2026-04-18-switch-kd-vision-language-distillation.md](inference-efficiency/2026-04-18-switch-kd-vision-language-distillation.md) | Switch-KD: VLM distillation through shared text-probability space; +3.6pt avg |
 
-## agents-tool-use (new 2026-04-18)
+## agentic-systems (new 2026-04-18)
 
 | Page | Summary |
 |------|---------|
-| [2026-04-18-corpus2skill-knowledge-navigation.md](agents-tool-use/2026-04-18-corpus2skill-knowledge-navigation.md) | Corpus2Skill: compile corpus into skill tree, navigate not retrieve; beats RAPTOR |
-| [2026-04-18-dr3-eval-deep-research-benchmark.md](agents-tool-use/2026-04-18-dr3-eval-deep-research-benchmark.md) | DR3-Eval: reproducible deep research benchmark with static corpus sandboxes |
-| [2026-04-19-unidoc-rl-visual-rag.md](agents-tool-use/2026-04-19-unidoc-rl-visual-rag.md) | UniDoc-RL: RL agent for hierarchical visual RAG (doc→image→region); +17.7% over prior RL methods |
-| [2026-04-19-claude-code-architecture.md](agents-tool-use/2026-04-19-claude-code-architecture.md) | Claude Code architecture reverse-engineered: trivial while-loop + ML permission classifier + 5-layer compaction |
-| [2026-04-23-persistent-agent-infrastructure.md](agents-tool-use/2026-04-23-persistent-agent-infrastructure.md) | Kimi K2.6 (5 days, 300 sub-agents), OpenAI Agent Studio (Slack + screen memory), Anthropic Conway (containerized): three independent convergences on always-on agents |
-| [2026-04-23-claude-code-vs-hermes-permissions.md](agents-tool-use/2026-04-23-claude-code-vs-hermes-permissions.md) | Claude Code (ML classifier + layered rules) vs. Hermes (regex + container bypass): different safety bets, both untested at multi-day agent scale |
-| [2026-04-22-ml-intern-agentic-posttraining.md](agents-tool-use/2026-04-22-ml-intern-agentic-posttraining.md) | ml-intern: open-source agentic post-training loop; reads papers, generates data, trains via GRPO, evaluates, iterates; Qwen3-1.7B 10%→32% GPQA in 10 hours |
-| [2026-04-22-evaluation-driven-scaling-scientific.md](agents-tool-use/2026-04-22-evaluation-driven-scaling-scientific.md) | SimpleTES: parallel exploration + feedback refinement + local selection; 2x LASSO speedup, 24.5% quantum circuit gate reduction, new Erdős constructions |
-| [2026-04-22-agentspex-workflow-language.md](agents-tool-use/2026-04-22-agentspex-workflow-language.md) | AgentSPEX: declarative YAML workflow language for agents; typed steps, branching, state management, sandboxed harness with checkpointing |
-| [2026-04-21-reward-free-self-evolution-agents.md](agents-tool-use/2026-04-21-reward-free-self-evolution-agents.md) | Reward-free self-evolution: agents trained to explore accumulate world knowledge; 14B beats Gemini-2.5-Flash on web tasks |
-| [2026-04-21-precise-debugging-benchmark.md](agents-tool-use/2026-04-21-precise-debugging-benchmark.md) | PDB: frontier models pass unit tests 76% but edit precision below 45%; models regenerate not debug |
+| [2026-04-18-corpus2skill-knowledge-navigation.md](agentic-systems/2026-04-18-corpus2skill-knowledge-navigation.md) | Corpus2Skill: compile corpus into skill tree, navigate not retrieve; beats RAPTOR |
+| [2026-04-18-dr3-eval-deep-research-benchmark.md](agentic-systems/2026-04-18-dr3-eval-deep-research-benchmark.md) | DR3-Eval: reproducible deep research benchmark with static corpus sandboxes |
+| [2026-04-19-unidoc-rl-visual-rag.md](agentic-systems/2026-04-19-unidoc-rl-visual-rag.md) | UniDoc-RL: RL agent for hierarchical visual RAG (doc→image→region); +17.7% over prior RL methods |
+| [2026-04-19-claude-code-architecture.md](agentic-systems/2026-04-19-claude-code-architecture.md) | Claude Code architecture reverse-engineered: trivial while-loop + ML permission classifier + 5-layer compaction |
+| [2026-04-23-persistent-agent-infrastructure.md](agentic-systems/2026-04-23-persistent-agent-infrastructure.md) | Kimi K2.6 (5 days, 300 sub-agents), OpenAI Agent Studio (Slack + screen memory), Anthropic Conway (containerized): three independent convergences on always-on agents |
+| [2026-04-23-claude-code-vs-hermes-permissions.md](agentic-systems/2026-04-23-claude-code-vs-hermes-permissions.md) | Claude Code (ML classifier + layered rules) vs. Hermes (regex + container bypass): different safety bets, both untested at multi-day agent scale |
+| [2026-04-22-ml-intern-agentic-posttraining.md](agentic-systems/2026-04-22-ml-intern-agentic-posttraining.md) | ml-intern: open-source agentic post-training loop; reads papers, generates data, trains via GRPO, evaluates, iterates; Qwen3-1.7B 10%→32% GPQA in 10 hours |
+| [2026-04-22-evaluation-driven-scaling-scientific.md](agentic-systems/2026-04-22-evaluation-driven-scaling-scientific.md) | SimpleTES: parallel exploration + feedback refinement + local selection; 2x LASSO speedup, 24.5% quantum circuit gate reduction, new Erdős constructions |
+| [2026-04-22-agentspex-workflow-language.md](agentic-systems/2026-04-22-agentspex-workflow-language.md) | AgentSPEX: declarative YAML workflow language for agents; typed steps, branching, state management, sandboxed harness with checkpointing |
+| [2026-04-21-reward-free-self-evolution-agents.md](agentic-systems/2026-04-21-reward-free-self-evolution-agents.md) | Reward-free self-evolution: agents trained to explore accumulate world knowledge; 14B beats Gemini-2.5-Flash on web tasks |
+| [2026-04-21-precise-debugging-benchmark.md](agentic-systems/2026-04-21-precise-debugging-benchmark.md) | PDB: frontier models pass unit tests 76% but edit precision below 45%; models regenerate not debug |
 
 ## llms-foundation-models (new 2026-04-18)
 
@@ -189,11 +189,11 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-30-speculative-decoding-rl-rollouts.md](inference-efficiency/2026-04-30-speculative-decoding-rl-rollouts.md) | NVIDIA NeMo-RL: speculative decoding inside RL post-training; lossless under policy drift; k=3 sweet spot; 1.77x at 8B, 2.5x projection at 235B on 2048 GB200s |
 | [2026-04-30-tide-cross-arch-diffusion-distillation.md](inference-efficiency/2026-04-30-tide-cross-arch-diffusion-distillation.md) | Tide: first cross-architecture distillation for diffusion LLMs; Tidal/CompDemo/Reverse Calm; 16B MoE → 0.6B; HumanEval 32.3 → 48.78; 22x memory, 5x speedup |
 
-## agents-tool-use (new 2026-04-30)
+## agentic-systems (new 2026-04-30)
 
 | Page | Summary |
 |------|---------|
-| [2026-04-30-clawgym-agent-framework.md](agents-tool-use/2026-04-30-clawgym-agent-framework.md) | ClawGym: full-lifecycle Claw-agent framework; 13.5K dual-route synthesized tasks + sandbox-parallel RL + 200-instance bench; Qwen3-8B +43.46% on ClawGym-Bench |
+| [2026-04-30-clawgym-agent-framework.md](agentic-systems/2026-04-30-clawgym-agent-framework.md) | ClawGym: full-lifecycle Claw-agent framework; 13.5K dual-route synthesized tasks + sandbox-parallel RL + 200-instance bench; Qwen3-8B +43.46% on ClawGym-Bench |
 
 ## multimodal (new 2026-04-30)
 
@@ -229,17 +229,17 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [2026-05-01-copd-co-evolving-policy-distillation.md](llms-foundation-models/2026-05-01-copd-co-evolving-policy-distillation.md) | CoPD: parallel RLVR experts + bidirectional OPD during training; 5th paper in cross-distillation-channel pattern; surpasses domain-specific experts on text/image/video reasoning |
 
-## agents-tool-use (new 2026-05-01)
+## agentic-systems (new 2026-05-01)
 
 | Page | Summary |
 |------|---------|
-| [2026-05-01-claw-eval-live-agent-benchmark.md](agents-tool-use/2026-05-01-claw-eval-live-agent-benchmark.md) | Claw-Eval-Live: refreshable signal layer + reproducible release snapshot; 105 tasks, 13 frontier models; best 66.7%, none reach 70%; trajectory-aware grading; middle-band discrimination → routing opportunity |
-| [2026-05-01-interactweb-bench-blind-execution.md](agents-tool-use/2026-05-01-interactweb-bench-blind-execution.md) | InteractWeb-Bench: first benchmark grading clarifying behavior; four-action space (Clarify/Implement/Verify/Submit); frontier MLLM agents trapped in "blind execution" |
-| [2026-05-01-synthetic-computers-at-scale.md](agents-tool-use/2026-05-01-synthetic-computers-at-scale.md) | Synthetic Computers at Scale: 1K populated computers × 8h × 2K-turn agent simulations as long-horizon training data; in-domain + out-of-domain gains validate signal |
-| [2026-05-01-ara-agent-native-research-artifacts.md](agents-tool-use/2026-05-01-ara-agent-native-research-artifacts.md) | Ara: agent-executable 4-layer research artifact replacing the narrative paper; PaperBench 72.4→93.7%; failure traces help weaker agents but constrain stronger ones |
-| [2026-05-01-intern-atlas-method-evolution-graph.md](agents-tool-use/2026-05-01-intern-atlas-method-evolution-graph.md) | Intern-Atlas: 9.4M-edge methodological evolution graph from 1.03M papers; bottleneck-typed transitions as causal links; routing data structure for ideas |
-| [2026-05-01-eywa-heterogeneous-foundation-collab.md](agents-tool-use/2026-05-01-eywa-heterogeneous-foundation-collab.md) | Eywa: language-mediated wrappers for heterogeneous scientific FMs (chemistry/protein/materials/climate); language as universal control plane over heterogeneous foundation models |
-| [2026-05-01-mcp-claude-vs-hermes-chapter13.md](agents-tool-use/2026-05-01-mcp-claude-vs-hermes-chapter13.md) | Ken Huang Ch 13: MCP integration; Claude Code TS-async session-bound vs Hermes long-lived MCPServerTask + sampling + credential stripping |
+| [2026-05-01-claw-eval-live-agent-benchmark.md](agentic-systems/2026-05-01-claw-eval-live-agent-benchmark.md) | Claw-Eval-Live: refreshable signal layer + reproducible release snapshot; 105 tasks, 13 frontier models; best 66.7%, none reach 70%; trajectory-aware grading; middle-band discrimination → routing opportunity |
+| [2026-05-01-interactweb-bench-blind-execution.md](agentic-systems/2026-05-01-interactweb-bench-blind-execution.md) | InteractWeb-Bench: first benchmark grading clarifying behavior; four-action space (Clarify/Implement/Verify/Submit); frontier MLLM agents trapped in "blind execution" |
+| [2026-05-01-synthetic-computers-at-scale.md](agentic-systems/2026-05-01-synthetic-computers-at-scale.md) | Synthetic Computers at Scale: 1K populated computers × 8h × 2K-turn agent simulations as long-horizon training data; in-domain + out-of-domain gains validate signal |
+| [2026-05-01-ara-agent-native-research-artifacts.md](agentic-systems/2026-05-01-ara-agent-native-research-artifacts.md) | Ara: agent-executable 4-layer research artifact replacing the narrative paper; PaperBench 72.4→93.7%; failure traces help weaker agents but constrain stronger ones |
+| [2026-05-01-intern-atlas-method-evolution-graph.md](agentic-systems/2026-05-01-intern-atlas-method-evolution-graph.md) | Intern-Atlas: 9.4M-edge methodological evolution graph from 1.03M papers; bottleneck-typed transitions as causal links; routing data structure for ideas |
+| [2026-05-01-eywa-heterogeneous-foundation-collab.md](agentic-systems/2026-05-01-eywa-heterogeneous-foundation-collab.md) | Eywa: language-mediated wrappers for heterogeneous scientific FMs (chemistry/protein/materials/climate); language as universal control plane over heterogeneous foundation models |
+| [2026-05-01-mcp-claude-vs-hermes-chapter13.md](agentic-systems/2026-05-01-mcp-claude-vs-hermes-chapter13.md) | Ken Huang Ch 13: MCP integration; Claude Code TS-async session-bound vs Hermes long-lived MCPServerTask + sampling + credential stripping |
 
 ## multimodal (new 2026-05-01)
 
@@ -303,11 +303,11 @@ Catalog of all pages. Updated on every ingest.
 | [2026-05-03-philosophy-bench-ethical-divergence.md](llms-foundation-models/2026-05-03-philosophy-bench-ethical-divergence.md) | Philosophy-Bench: 100 everyday ethical scenarios; frontier LMs diverge systematically; ethics is a vector, not a scalar |
 | [2026-05-03-marcus-llm-patient-outcomes.md](llms-foundation-models/2026-05-03-marcus-llm-patient-outcomes.md) | Marcus quoting Topol/Nature Medicine: very little evidence LLMs benefit patient outcomes outside admin work |
 
-## agents-tool-use (new 2026-05-02 RSS)
+## agentic-systems (new 2026-05-02 RSS)
 
 | Page | Summary |
 |------|---------|
-| [2026-05-02-ken-huang-ch15-structured-output.md](agents-tool-use/2026-05-02-ken-huang-ch15-structured-output.md) | Ch 15: Structured output via tool-use forcing in both Claude Code (SyntheticOutputTool + Ajv schema-id cache) and Hermes (extract_structured + JSONL trajectory schema); ModelCapabilities.structured_output as routing sub-axis |
+| [2026-05-02-ken-huang-ch15-structured-output.md](agentic-systems/2026-05-02-ken-huang-ch15-structured-output.md) | Ch 15: Structured output via tool-use forcing in both Claude Code (SyntheticOutputTool + Ajv schema-id cache) and Hermes (extract_structured + JSONL trajectory schema); ModelCapabilities.structured_output as routing sub-axis |
 
 ## ai-industry (new 2026-05-02 / 05-03)
 
@@ -323,11 +323,11 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [2026-05-04-themis-multilingual-code-reward-models.md](llms-foundation-models/2026-05-04-themis-multilingual-code-reward-models.md) | Themis: first multi-criteria multilingual code reward model benchmark (5 dim × 8 lang) + 350K preference pairs + 600M-32B RM suite; code-domain version of ViPO/Semi-DPO dimension-collapse diagnosis |
 
-## agents-tool-use (new 2026-05-04)
+## agentic-systems (new 2026-05-04)
 
 | Page | Summary |
 |------|---------|
-| [2026-05-04-lwd-fleet-rl-vla-policies.md](agents-tool-use/2026-05-04-lwd-fleet-rl-vla-policies.md) | LWD: fleet-scale offline-to-online RL for VLA policies; Distributional Implicit Value Learning + Q-learning via Adjoint Matching; primitives transfer to language-domain trajectory routing |
+| [2026-05-04-lwd-fleet-rl-vla-policies.md](agentic-systems/2026-05-04-lwd-fleet-rl-vla-policies.md) | LWD: fleet-scale offline-to-online RL for VLA policies; Distributional Implicit Value Learning + Q-learning via Adjoint Matching; primitives transfer to language-domain trajectory routing |
 
 ## multimodal (new 2026-05-04)
 
@@ -350,13 +350,13 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [inference-efficiency/2026-05-05-motion-aware-caching-video.md](inference-efficiency/2026-05-05-motion-aware-caching-video.md) | MotionCache: inter-frame motion deltas decide which pixels need full denoising; 6.28x on SkyReels-V2 at 1% VBench drop; video-AR analogue of selective KV reuse |
-| [agents-tool-use/2026-05-05-t2po-uncertainty-multi-turn-rl.md](agents-tool-use/2026-05-05-t2po-uncertainty-multi-turn-rl.md) | T^2PO: token + turn level uncertainty controls exploration in multi-turn agent RL; training-time twin of Step-Level Optimization (05-02) |
-| [agents-tool-use/2026-05-05-ctx2skill-self-evolving-skills.md](agents-tool-use/2026-05-05-ctx2skill-self-evolving-skills.md) | Ctx2Skill: Challenger/Reasoner/Judge self-play extracts pluggable natural-language skills from context; Cross-time Replay prevents adversarial collapse |
-| [agents-tool-use/2026-05-05-physicianbench-ehr-agents.md](agents-tool-use/2026-05-05-physicianbench-ehr-agents.md) | PhysicianBench: 100 EHR clinical workflows, ~27 tool calls per task; best closed-source 46%, open-source 19%; eighth benchmark in the agent-cluster |
-| [agents-tool-use/2026-05-05-academiclaw-student-tasks.md](agents-tool-use/2026-05-05-academiclaw-student-tasks.md) | AcademiClaw: 80 academic-level tasks across 25+ domains; best 55%; compute consumption does not predict output quality |
+| [agentic-systems/2026-05-05-t2po-uncertainty-multi-turn-rl.md](agentic-systems/2026-05-05-t2po-uncertainty-multi-turn-rl.md) | T^2PO: token + turn level uncertainty controls exploration in multi-turn agent RL; training-time twin of Step-Level Optimization (05-02) |
+| [agentic-systems/2026-05-05-ctx2skill-self-evolving-skills.md](agentic-systems/2026-05-05-ctx2skill-self-evolving-skills.md) | Ctx2Skill: Challenger/Reasoner/Judge self-play extracts pluggable natural-language skills from context; Cross-time Replay prevents adversarial collapse |
+| [agentic-systems/2026-05-05-physicianbench-ehr-agents.md](agentic-systems/2026-05-05-physicianbench-ehr-agents.md) | PhysicianBench: 100 EHR clinical workflows, ~27 tool calls per task; best closed-source 46%, open-source 19%; eighth benchmark in the agent-cluster |
+| [agentic-systems/2026-05-05-academiclaw-student-tasks.md](agentic-systems/2026-05-05-academiclaw-student-tasks.md) | AcademiClaw: 80 academic-level tasks across 25+ domains; best 55%; compute consumption does not predict output quality |
 | [inference-efficiency/2026-05-04-distillation-panic-lambert.md](inference-efficiency/2026-05-04-distillation-panic-lambert.md) | The Distillation Panic (Lambert): policy critique of conflating "distillation attacks" with the entire distillation toolbox every lab depends on |
 | [llms-foundation-models/2026-05-04-import-ai-455-automated-ai-rd.md](llms-foundation-models/2026-05-04-import-ai-455-automated-ai-rd.md) | Import AI 455 (Clark): 60% probability of fully autonomous AI R&D by end of 2028, built from public benchmark trajectories (SWE-Bench, METR, CORE-Bench, MLE-Bench) |
-| [agents-tool-use/2026-05-04-agentic-pentester-architecture.md](agents-tool-use/2026-05-04-agentic-pentester-architecture.md) | Ken Huang on RidgeGen vs Shannon vs Strix: same Gemini 3 Flash, three architectures, 0% vs 63% hallucination, >5x finding gap; belief state, evidence-as-invariant, semantic reasoning are the three primitives |
+| [agentic-systems/2026-05-04-agentic-pentester-architecture.md](agentic-systems/2026-05-04-agentic-pentester-architecture.md) | Ken Huang on RidgeGen vs Shannon vs Strix: same Gemini 3 Flash, three architectures, 0% vs 63% hallucination, >5x finding gap; belief state, evidence-as-invariant, semantic reasoning are the three primitives |
 | [ai-industry/2026-05-04-anthropic-openai-services-companies.md](ai-industry/2026-05-04-anthropic-openai-services-companies.md) | Anthropic JV $1.5B (Blackstone/Goldman/H&F) + OpenAI $4B Deployment Company: both labs build services arms because "selling AI requires more than the AI" |
 | [hardware/2026-05-04-cerebras-40b-ipo.md](hardware/2026-05-04-cerebras-40b-ipo.md) | Cerebras targets $40B Nasdaq IPO (CBRS); first public-market validation of inference-specialty silicon since Groq |
 
@@ -370,8 +370,8 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [agents-tool-use/2026-05-06-agent-security-study.md](agents-tool-use/2026-05-06-agent-security-study.md) | 847 production agents: 91% tool-chaining vulnerable, 89.4% goal drift at step 30, 94% memory-aug poisonable; OpenClaw/Moltbook: 770K agents simultaneously compromised |
-| [agents-tool-use/2026-05-06-ctx2skill-context-learning.md](agents-tool-use/2026-05-06-ctx2skill-context-learning.md) | Ctx2Skill: self-evolving Challenger/Reasoner/Judge loop extracts reusable skills from context; Cross-time Replay prevents adversarial collapse |
+| [agentic-systems/2026-05-06-agent-security-study.md](agentic-systems/2026-05-06-agent-security-study.md) | 847 production agents: 91% tool-chaining vulnerable, 89.4% goal drift at step 30, 94% memory-aug poisonable; OpenClaw/Moltbook: 770K agents simultaneously compromised |
+| [agentic-systems/2026-05-06-ctx2skill-context-learning.md](agentic-systems/2026-05-06-ctx2skill-context-learning.md) | Ctx2Skill: self-evolving Challenger/Reasoner/Judge loop extracts reusable skills from context; Cross-time Replay prevents adversarial collapse |
 | [llms-foundation-models/2026-05-06-deepseek-v4.md](llms-foundation-models/2026-05-06-deepseek-v4.md) | DeepSeek V4 Pro: 1.6T/49B active MoE, 1M context, open-sourced; V4 Flash 284B/13B active; claims to close gap with frontier |
 | [ai-industry/2026-05-06-musk-altman-trial-week2.md](ai-industry/2026-05-06-musk-altman-trial-week2.md) | Musk v. Altman week 2: xAI distillation admission, Brockman $30B stake, OpenAI IPO floated; Lambert's Distillation Panic confirmed by sworn testimony |
 

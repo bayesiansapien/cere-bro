@@ -18,7 +18,7 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **PreRL / DSRL (2026-04-16)** — Applies RL directly to the marginal distribution P(y) rather than P(y|x), bypassing the ceiling imposed by the base model's output distribution. Negative Sample Reinforcement (NSR) prunes wrong reasoning paths and boosts reflection. DSRL combines PreRL + standard RL for best results. → [summary](2026-04-16-prerl-rl-in-pretrain-space.md)
 
-**RationalRewards (2026-04-16)** — Reward models that produce explicit multi-dimensional critiques before scoring. Test-time Generate-Critique-Refine loop matches RL fine-tuning without parameter updates. → [summary](../multimodal/2026-04-16-rationalrewards-visual-generation.md)
+**RationalRewards (2026-04-16)** — Reward models that produce explicit multi-dimensional critiques before scoring. Test-time Generate-Critique-Refine loop matches RL fine-tuning without parameter updates. → [summary](../vision-audio-video/2026-04-16-rationalrewards-visual-generation.md)
 
 **Value Gradient Flow / VGF (2026-04-19)** — Reframes behavior-regularized RL (used in offline RL and LLM fine-tuning) as an optimal transport problem. Moves particles (candidate outputs) from the reference distribution toward high-value regions via gradient flow, without explicit policy parameterization. Implicit KL regularization through transport budget. Adaptive test-time scaling by running more transport steps. SOTA on D4RL, OGBench, and LLM RL benchmarks. → [summary](2026-04-19-vgf-value-gradient-flow-rl.md)
 
@@ -34,7 +34,7 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 **Themis Multilingual Code Reward Models (2026-05-04)** — First systematic multi-criteria multilingual code RM benchmark (5 dimensions × 8 languages) + 350K preference pair dataset (largest public). 50+ existing RMs profiled; most are strong only on functional correctness. Themis-RM 600M → 32B shows positive scaling and cross-lingual transfer. Code-domain analog of the ViPO/Semi-DPO (05-02) dimension-collapse diagnosis. → [summary](2026-05-04-themis-multilingual-code-reward-models.md)
 
-**LWD Fleet-Scale RL for VLA Policies (2026-05-04, robotics)** — Offline-to-online RL closing the loop between fleet deployment and policy improvement. Distributional Implicit Value Learning (DIVL) + Q-learning via Adjoint Matching (QAM) for flow-based action generators. 16 dual-arm robots × 8 tasks → 95% average success. The DIVL/QAM primitives transfer to language-domain trajectory routing. → [summary](../agents-tool-use/2026-05-04-lwd-fleet-rl-vla-policies.md)
+**LWD Fleet-Scale RL for VLA Policies (2026-05-04, robotics)** — Offline-to-online RL closing the loop between fleet deployment and policy improvement. Distributional Implicit Value Learning (DIVL) + Q-learning via Adjoint Matching (QAM) for flow-based action generators. 16 dual-arm robots × 8 tasks → 95% average success. The DIVL/QAM primitives transfer to language-domain trajectory routing. → [summary](../agentic-systems/2026-05-04-lwd-fleet-rl-vla-policies.md)
 
 ## Key Concepts
 

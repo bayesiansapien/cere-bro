@@ -19,6 +19,6 @@ arxiv: 2604.13418
 ## Related Pages
 
 - [GameWorld](2026-04-16-gameworld-multimodal-game-agents.md)
-- [../agents-tool-use/agent-benchmarks.md](../agents-tool-use/agent-benchmarks.md)
+- [../agentic-systems/agent-benchmarks.md](../agentic-systems/agent-benchmarks.md)
 
 **Raw source:** [../../raw/huggingface/2026-04-16-merrin-a-benchmark-for-multimodal-evidence-retrieval-and-rea.md](../../raw/huggingface/2026-04-16-merrin-a-benchmark-for-multimodal-evidence-retrieval-and-rea.md)

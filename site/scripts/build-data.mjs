@@ -20,14 +20,15 @@ const OUT_FILE = path.join(__dirname, '../src/data/wiki.json');
 
 // Topic colors — one canonical palette
 const TOPIC_COLORS = {
-  'ai-routing':            '#f59e0b', // amber — Tier 1
-  'inference-efficiency':  '#10b981', // emerald — Tier 1
-  'hardware':              '#8b5cf6', // violet — Tier 1
+  'ai-routing':             '#f59e0b', // amber — Tier 1
+  'inference-efficiency':   '#10b981', // emerald — Tier 1
+  'hardware':               '#8b5cf6', // violet — Tier 1
   'llms-foundation-models': '#3b82f6', // blue — Tier 2
-  'agents-tool-use':       '#ec4899', // pink — Tier 2
-  'multimodal':            '#06b6d4', // cyan — Tier 3
-  'ai-industry':           '#64748b', // slate — industry
-  'daily-digest':          '#fbbf24', // gold — digests
+  'agentic-systems':        '#ec4899', // pink — Tier 2
+  'responsible-ai':         '#f43f5e', // rose — Tier 2 (alignment, interpretability, safety)
+  'vision-audio-video':     '#06b6d4', // cyan — Tier 3
+  'ai-industry':            '#64748b', // slate — industry
+  'daily-digest':           '#fbbf24', // gold — digests
 };
 
 const TIER_OF_TOPIC = {
@@ -35,8 +36,9 @@ const TIER_OF_TOPIC = {
   'inference-efficiency': 1,
   'hardware': 1,
   'llms-foundation-models': 2,
-  'agents-tool-use': 2,
-  'multimodal': 3,
+  'agentic-systems': 2,
+  'responsible-ai': 2,
+  'vision-audio-video': 3,
   'ai-industry': 3,
   'daily-digest': 0,
 };
@@ -48,14 +50,14 @@ const TIER_OF_TOPIC = {
 const INDUSTRY_TAGS = [
   {
     key: 'deals',
-    label: 'Deals & Capital',
+    label: 'Funding & M&A',
     color: '#f59e0b',
     // Discrete capital events: M&A, fundraising rounds, IPOs, joint ventures
     keywords: ['acquisition', 'acquire', 'acquires', 'merger', 'buyout', 'funding round', 'series a', 'series b', 'series c', 'series d', 'raise', 'raises', 'raised', 'ipo', 'joint venture', 'partnership', 'spinoff', 'divestiture', 'deal', 'closes round'],
   },
   {
     key: 'markets',
-    label: 'Markets & Economics',
+    label: 'Revenue & Valuations',
     color: '#10b981',
     // Ongoing business / market dynamics: revenue, valuations, pricing, costs
     keywords: ['valuation', 'arr', 'revenue', 'capex', 'opex', 'margin', 'billion', 'misallocation', 'capital allocation', 'pricing', 'price hike', 'cost', 'economics', 'value capture', 'profit', 'profitability', 'spending', 'unit economics', 'demand', 'monetization', 'tam', 'market size'],
@@ -242,12 +244,13 @@ function isDigest(relPath) {
 // ── Social stream (Twitter/X) topic inference ─────────────────────────────────
 
 const TWEET_TOPIC_RULES = [
+  { topic: 'responsible-ai',        kws: ['interpretability', 'alignment', 'safety', 'jailbreak', 'red team', 'red-team', 'mech interp', 'circuit', 'feature steering', 'activation steering', 'refusal', 'sycophancy', 'rlhf', 'constitutional ai', 'rlaif', 'governance', 'oversight'] },
   { topic: 'ai-routing',            kws: ['routing', 'router', 'mixture of experts', 'moe', 'speculative decoding'] },
   { topic: 'inference-efficiency',  kws: ['kv cache', 'quantization', 'distillation', 'pruning', 'inference', 'throughput', 'latency', 'batching', 'kernel', 'flashattention', 'training efficiency'] },
   { topic: 'hardware',              kws: ['h100', 'b200', 'blackwell', 'hopper', 'gpu', 'cuda', 'tpu', 'chip', 'semiconductor', 'silicon', 'nvda', 'nvidia hardware', 'data center'] },
   { topic: 'llms-foundation-models',kws: ['llm', 'language model', 'foundation model', 'gpt', 'claude', 'gemini', 'llama', 'mistral', 'grok', 'reasoning model', 'o1', 'o3', 'benchmark'] },
-  { topic: 'agents-tool-use',       kws: ['agent', 'tool use', 'agentic', 'coding agent', 'cursor', 'claude code'] },
-  { topic: 'multimodal',            kws: ['multimodal', 'vision-language', 'image generation', 'diffusion', 'text-to-image', 'video generation'] },
+  { topic: 'agentic-systems',       kws: ['agent', 'tool use', 'agentic', 'coding agent', 'cursor', 'claude code'] },
+  { topic: 'vision-audio-video',    kws: ['multimodal', 'vision-language', 'image generation', 'diffusion', 'text-to-image', 'video generation', 'speech', 'audio generation', 'vlm', 'vision model'] },
 ];
 
 function inferTweetTopic(text) {

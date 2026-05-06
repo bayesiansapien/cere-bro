@@ -38,4 +38,4 @@ A second open thread: the MMTP head currently uses one shared `<|image|>` token.
 
 - [Nemotron 3 Super — MTP heads](../inference-efficiency/2026-04-21-nemotron3-super-hybrid-moe.md)
 - [Switch-KD — VLM distillation](../inference-efficiency/2026-04-18-switch-kd-vision-language-distillation.md)
-- [GTA-2 — tool-agent benchmark](../agents-tool-use/2026-04-20-gta-2-tool-agent-benchmark.md)
+- [GTA-2 — tool-agent benchmark](../agentic-systems/2026-04-20-gta-2-tool-agent-benchmark.md)

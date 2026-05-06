@@ -19,6 +19,6 @@ arxiv: 2604.13201
 ## Related Pages
 
 - [Reinforcement Learning for LLMs](rl-for-llms.md)
-- [../agents-tool-use/agent-benchmarks.md](../agents-tool-use/agent-benchmarks.md)
+- [../agentic-systems/agent-benchmarks.md](../agentic-systems/agent-benchmarks.md)
 
 **Raw source:** [../../raw/huggingface/2026-04-16-infinitesciencegym-an-unbounded-procedurally-generated-bench.md](../../raw/huggingface/2026-04-16-infinitesciencegym-an-unbounded-procedurally-generated-bench.md)
