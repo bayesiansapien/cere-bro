@@ -32,6 +32,12 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 **PhysicianBench (2026-05-05)** — 100 long-horizon physician tasks from real consultation cases inside an EHR environment with vendor APIs. 21 specialties; ~27 tool calls per task. Best closed-source model: 46% pass@1. Best open-source: 19%. Highest tool-call horizon in any of the eight benchmarks; the gap between knowledge tests (where LLMs match physicians) and EHR-mediated workflows (where they do not) is the load-bearing finding. → [summary](2026-05-05-physicianbench-ehr-agents.md)
 
+**BRIGHT-Pro and RTriever-4B (2026-05-07)** — first benchmark for **evidence-portfolio retrieval** rather than top-1 relevance. Each query is expanded with multi-aspect gold evidence; retrievers are graded under both static and agentic protocols. RTriever-Synth, an aspect-decomposed synthetic corpus, generates complementary positives and positive-conditioned hard negatives. RTriever-4B (LoRA on Qwen3-Embedding-4B) substantially improves over its base. Aspect-aware and agentic evaluation expose behaviors hidden by standard top-k metrics. → [summary](2026-05-07-bright-pro-rtriever-reasoning-retrieval.md)
+
+**MedSkillAudit (2026-05-07)** — first **skill-release-readiness** audit framework. 75 medical research skills, two human experts, ordinal release disposition (Production / Limited / Beta / Reject). System-expert ICC = 0.449 vs human inter-rater 0.300. 57.3% of skills below Limited Release threshold. Negative ICC on Academic Writing (-0.567) reveals structural rubric-expert mismatch on open-ended generative tasks. Pre-deployment audit complement to the Marcus post-deployment security study. → [summary](2026-05-07-medskillaudit-domain-specific-agent-skill-audit.md)
+
+**OpenSearch-VL (2026-05-07)** — open recipe for frontier multimodal search agents. Wikipedia path sampling with fuzzy entity rewriting, source-anchor visual grounding, unified text+image+OCR+image-manipulation tool environment, and **multi-turn fatal-aware GRPO** (mask post-failure tokens, preserve pre-failure reasoning via one-sided advantage clamping). 10-point average gain across seven benchmarks; matches proprietary commercial models on several. The training-time intervention at the same multi-turn surface where the Marcus security paper measures failures. → [summary](2026-05-07-opensearch-vl-multimodal-search-agents.md)
+
 ## Patterns Across Benchmarks
 
 - Reasoning models consistently outperform base models on agentic tasks
