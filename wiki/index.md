@@ -404,3 +404,14 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-07.md](daily-digest/2026-05/2026-05-07.md) | Daily digest: four papers in one day attack uniform-supervision waste in compressed video diffusion (Stream-R1, Stream-T1, LIVEditor, D-OPSD); Stream-T1 ships the first content-aware KV eviction; OpenSearch-VL adds fatal-aware GRPO; BRIGHT-Pro and OpenSearch-VL together argue evidence-portfolio retrieval; MedSkillAudit shifts evaluation to skill release readiness
+
+## 2026-05-08 ingest
+
+| Topic | Page | Summary |
+|-------|------|---------|
+| llms-foundation-models | [ResRL: Negative Sample Projection Residual RL](llms-foundation-models/2026-05-08-resrl-negative-sample-projection-rl.md) | Fixes RLVR diversity-collapse via SVD-projection of negative-token hidden states onto positive subspace. +9.4% Avg@16 on math. From Meituan + Chinese Academy of Sciences. Tier 2. |
+| responsible-ai | [First Token Knows: Hallucination Detection](responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md) | Single-decode first-token entropy matches semantic self-consistency at 1/11 cost. AUROC 0.820 vs 0.793 across 3 7-8B models. Tier 2. |
+| llms-foundation-models | [SxS: Disclosure Policies for LLM Reasoning](llms-foundation-models/2026-05-08-sxs-disclosure-policies-llm-reasoning.md) | Disclosure-as-learnable-action for streaming LLM reasoning. Decouples state-update from public commitment in single-stream autoregressive generation. Tier 2. |
+| ai-industry | [Lambert: Notes from inside China's AI labs](ai-industry/2026-05-08-lambert-china-ai-labs.md) | Six labs, 36 hours. Build-not-buy, Claude-pilled-despite-ban, students-as-peers, Nvidia-chip desperation. Direct connection to today's ResRL paper from Meituan. Tier 2 industry essay. |
+| ai-industry | [Anthropic ↔ Colossus 1 Deal: Capacity Crunch](ai-industry/2026-05-08-anthropic-colossus-deal-capacity.md) | Triple-source: Pragmatic Engineer (cause), Simon Willison (environmental brand-risk), Lambert (oblique demand evidence). Tier 1 industry. |
+
