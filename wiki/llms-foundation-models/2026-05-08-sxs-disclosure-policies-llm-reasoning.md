@@ -46,7 +46,7 @@ The paper does not report a single headline number but a Pareto frontier shift. 
 
 - **First time the wiki has tracked the silence-tax / premature-commitment trade-off as a learnable variable.** Prior work treated streaming as an architectural constraint.
 - **Connection to today's [First Token Knows](../responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md)** paper. Both operate on the question "when does an LLM commit to an answer?" First Token Knows reads commitment from logit entropy. SxS makes commitment a learned action. Two framings of the same underlying unbundling.
-- **Lateral to [Step-Level Optimization](../agentic-systems/2026-05-02-step-level-optimization-computer-use-agents.md)** (05-02), which detects trajectory stalls at inference. Step-Level Optimization is a stall detector. SxS is a controlled-disclosure policy. They could compose.
+- **Lateral to [Step-Level Optimization](../ai-routing/2026-05-02-step-level-optimization-computer-use-agents.md)** (05-02), which detects trajectory stalls at inference. Step-Level Optimization is a stall detector. SxS is a controlled-disclosure policy. They could compose.
 - **Streaming analog to [Stream-T1](../inference-efficiency/2026-05-07-stream-t1-test-time-scaling-streaming-video.md)** (05-07), which works on video streaming. Different modality, similar problem of when-to-commit during generation.
 
 ## What's surprising
