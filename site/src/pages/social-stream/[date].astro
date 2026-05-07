@@ -3,13 +3,25 @@ import Base from '../../layouts/Base.astro';
 import wiki from '../../data/wiki.json';
 
 export function getStaticPaths() {
-  return (wiki.socialRollups ?? []).map((r: any) => ({
-    params: { date: r.date },
-    props: { rollup: r, slots: (wiki.socialSlots ?? []).filter((s: any) => s.date === r.date) },
+  const rollupByDate: Record<string, any> = Object.fromEntries(
+    (wiki.socialRollups ?? []).map((r: any) => [r.date, r]),
+  );
+  // Union of all dates that have either a daily roll-up or any per-slot synthesis.
+  const allDates = new Set<string>([
+    ...Object.keys(rollupByDate),
+    ...(wiki.socialSlots ?? []).map((s: any) => s.date),
+  ]);
+  return [...allDates].map((date) => ({
+    params: { date },
+    props: {
+      rollup: rollupByDate[date] ?? null,
+      slots: (wiki.socialSlots ?? []).filter((s: any) => s.date === date),
+      date,
+    },
   }));
 }
 
-const { rollup, slots } = Astro.props;
+const { rollup, slots, date } = Astro.props;
 
 function fmtDate(iso: string) {
   const d = new Date(iso + 'T00:00:00Z');
@@ -24,15 +36,26 @@ const SLOT_LABEL: Record<string, string> = {
 };
 ---
 
-<Base title={`Media Live — ${fmtDate(rollup.date)}`} active="media-live">
+<Base title={`Media Live — ${fmtDate(date)}`} active="media-live">
   <section class="hero">
-    <div class="hero-date">{fmtDate(rollup.date)} · social stream roll-up</div>
+    <div class="hero-date">{fmtDate(date)} · social stream</div>
     <h1>Media Live</h1>
   </section>
 
-  <section class="atlas-section">
-    <div class="ml-synthesis" set:html={rollup.html} />
-  </section>
+  {rollup && (
+    <section class="atlas-section">
+      <div class="section-marker">daily roll-up</div>
+      <div class="ml-synthesis" set:html={rollup.html} />
+    </section>
+  )}
+
+  {!rollup && slots.length > 0 && (
+    <section class="atlas-section">
+      <div class="ml-rollup-pending-note">
+        Daily roll-up not yet generated. Per-slot syntheses are below.
+      </div>
+    </section>
+  )}
 
   {slots.length > 0 && (
     <section class="atlas-section">
@@ -145,6 +168,15 @@ const SLOT_LABEL: Record<string, string> = {
   }
   .ml-synthesis-pending {
     color: var(--fg-muted);
+    font-style: italic;
+  }
+  .ml-rollup-pending-note {
+    background: rgba(251, 191, 36, 0.06);
+    border: 1px dashed rgba(251, 191, 36, 0.4);
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 13px;
+    color: var(--accent-2);
     font-style: italic;
   }
 </style>

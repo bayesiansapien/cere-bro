@@ -665,9 +665,13 @@ function main() {
     .reverse()
     .map((date) => ({ date, html: socialRollups[date] }));
 
-  // Build graph nodes + edges from cross-references
+  // Build graph nodes + edges from cross-references.
+  // Skip wiki/index.md and wiki/log.md — those are excluded from the
+  // [...slug] route, so any back/out-link to them would 404 in the sidebar.
+  const META_PAGES = new Set(['index', 'log']);
   const nodeMap = new Map();
   for (const p of pages) {
+    if (META_PAGES.has(p.id)) continue;
     nodeMap.set(p.id, {
       id: p.id,
       title: p.title,
@@ -682,8 +686,10 @@ function main() {
 
   const edges = [];
   for (const p of pages) {
+    if (META_PAGES.has(p.id)) continue;
     for (const targetPath of p.links) {
       const targetId = targetPath.replace(/\.md$/, '');
+      if (META_PAGES.has(targetId)) continue;
       if (nodeMap.has(targetId)) {
         edges.push({ source: p.id, target: targetId });
       }
