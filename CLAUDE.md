@@ -79,9 +79,9 @@ All three are mandatory. All are idempotent — running them twice is safe. If a
 
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
 
-**0b. Collect ALL raw sources — this is mandatory, not optional.** Before writing any digest, read ALL FOUR raw source directories. This is a hard requirement — a digest written without checking all four is incomplete.
+**0b. Collect ALL raw sources — this is mandatory, not optional.** Before writing any digest, read ALL FIVE raw source directories. This is a hard requirement — a digest written without checking all five is incomplete.
 
-**Step 1 — Identify the date range.** If no files exist for the exact digest date, use the most recent available files from each directory. Run `ls raw/gmail/ raw/rss/ raw/huggingface/ raw/twitter/` to see what's available.
+**Step 1 — Identify the date range.** If no files exist for the exact digest date, use the most recent available files from each directory. Run `ls raw/gmail/ raw/rss/ raw/huggingface/ raw/twitter/ raw/kurate/` to see what's available.
 
 **Step 2 — Read Gmail starred (always).** Find the most recent `raw/gmail/YYYY-MM-DD-starred.md` file. Read it in full. Gmail carries AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace digest snippets, and others — sources that don't appear in RSS or HuggingFace. Missing Gmail means missing these sources entirely.
 
