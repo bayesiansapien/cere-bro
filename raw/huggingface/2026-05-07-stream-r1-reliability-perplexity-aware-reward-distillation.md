@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-05-07T00:00:00Z
+arxiv_id: 2605.03849
+url: https://huggingface.co/papers/2605.03849
+arxiv_url: https://arxiv.org/abs/2605.03849
+date: 2026-05-07
+---
+
+# Stream-R1: Reliability-Perplexity Aware Reward Distillation for Streaming Video Generation
+
+Distillation-based acceleration has become the foundational technique for making autoregressive streaming video diffusion models practical, with distribution matching distillation as the de facto choice. However, existing methods train the student to match the teacher's output in an indiscriminative manner, treating every rollout, every frame, and every pixel as equally reliable supervision. We argue that this indiscriminative treatment caps the upper bound of distilled quality because it overlooks two complementary axes of variance in the DMD supervision signal: Inter-Reliability across different student rollouts on which the supervision varies in reliability, and Intra-Perplexity across spatial regions and temporal frames that contribute unequally to where the current quality can still be improved. The distillation objective thus implicitly conflates two distinct questions under a single uniform weight: whether to learn from each rollout, and where to concentrate optimization within each rollout. To address this, we propose Stream-R1, a Reliability-Perplexity Aware Reward Distillation framework that adaptively reweights the distillation objective at both the rollout level and the spatiotemporal-element level through a single shared reward-guided mechanism. At the Inter-Reliability level, Stream-R1 rescales each rollout's loss by an exponential of a pretrained video reward score, so that rollouts on which the DMD supervision is reliable dominate the gradient signal. At the Intra-Perplexity level, it back-propagates the same reward model to extract per-pixel gradient saliency, which is factored into spatial and temporal weights that concentrate optimization pressure on the regions and frames where further refinement yields the largest expected gain. An adaptive balancing mechanism further prevents any single quality axis from dominating across visual quality, motion quality, and text alignment. Stream-R1 attains consistent improvements on all three quality dimensions over distillation baselines on standard streaming video generation benchmarks, without architectural modification to the student and at no additional inference cost.
