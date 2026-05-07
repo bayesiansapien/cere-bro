@@ -53,7 +53,8 @@ Farmers pull from these daily:
 
 | Source | Type | Notes |
 |--------|------|-------|
-| HuggingFace Daily Papers | Web/RSS | hf.co/papers — daily ML paper digest |
+| HuggingFace Daily Papers | Web/RSS | hf.co/papers — daily ML paper digest, ranked by community upvotes (popularity signal) |
+| **Kurate.org leaderboards** | JSON API | `kurate.org/api/leaderboard?category=cs.AI` — weekly arXiv rankings via 3-LLM tournaments (quality signal, complement to HF). Farmed via `connectors/kurate/farmer.py`. Tracks recurring authors as "rising" candidates for the Twitter handles list. |
 | YouTube channels | local-cli (yt-dlp) | AI creators curated by user |
 | **AI News** | RSS | TLDR AI (daily), The Decoder (in-depth), VentureBeat AI (industry), The Information (premium intel) |
 | **Research blogs** | RSS | Lilian Weng, Karpathy, Sebastian Raschka, Interconnects AI, SemiAnalysis, Import AI, etc. |
