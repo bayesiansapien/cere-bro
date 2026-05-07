@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {"id": "cs.AI", "label": "Artificial Intelligence", "tier_default": 2},
+    {"id": "cs.LG", "label": "Machine Learning",        "tier_default": 2}
+  ],
+  "period": "weekly",
+  "top_n": 20,
+  "tier_keywords": {
+    "1": ["routing", "router", "kv cache", "kv-cache", "quantization", "distillation", "pruning", "speculative decoding", "flashattention", "gpu", "cuda", "kernel", "blackwell", "hopper", "h100", "b200", "tpu", "throughput", "latency", "training efficiency", "inference efficiency", "moe", "mixture of experts"],
+    "2": ["agent", "agentic", "tool use", "interpretability", "alignment", "safety", "rlhf", "rlaif", "constitutional ai", "jailbreak", "red team", "scalable oversight", "world model", "reasoning", "foundation model"],
+    "3": ["multimodal", "vision-language", "image generation", "diffusion", "video generation", "speech", "audio"]
+  },
+  "rising_author": {
+    "min_appearances_in_window": 3,
+    "window_weeks": 4,
+    "min_total_score": 15,
+    "rank_decay_per_week": 0.85
+  }
+}

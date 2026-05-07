@@ -1,0 +1,1262 @@
+{
+  "Guy Lutsker": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2604.27899v1",
+        "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Gal Sapir": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2604.27899v1",
+        "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jordi Merino": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2604.27899v1",
+        "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Smadar Shilo": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2604.27899v1",
+        "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Anastasia Godneva": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2604.27899v1",
+        "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Eli Meirom": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2604.27899v1",
+        "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Shuxing Yang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2604.27092v1",
+        "title": "End-to-end autonomous scientific discovery on a real optical platform",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Fujia Chen": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2604.27092v1",
+        "title": "End-to-end autonomous scientific discovery on a real optical platform",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Rui Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2604.27092v1",
+        "title": "End-to-end autonomous scientific discovery on a real optical platform",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Junyao Wu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2604.27092v1",
+        "title": "End-to-end autonomous scientific discovery on a real optical platform",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yize Wang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2604.27092v1",
+        "title": "End-to-end autonomous scientific discovery on a real optical platform",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Haiyao Luo": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2604.27092v1",
+        "title": "End-to-end autonomous scientific discovery on a real optical platform",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Siavash Golkar": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2604.24506v1",
+        "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jake Kovalic": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2604.24506v1",
+        "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Irina Espejo Morales": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2604.24506v1",
+        "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Samuel Sledzieski": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2604.24506v1",
+        "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Minhuan Li": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2604.24506v1",
+        "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ksenia Sokolova": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2604.24506v1",
+        "title": "MIMIC: A Generative Multimodal Foundation Model for Biomolecules",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Gyoung S. Na": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2604.27297v1",
+        "title": "Machine Collective Intelligence for Explainable Scientific Discovery",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Chanyoung Park": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2604.27297v1",
+        "title": "Machine Collective Intelligence for Explainable Scientific Discovery",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Martiño Ríos-García": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2604.18805v1",
+        "title": "AI scientists produce results without reasoning scientifically",
+        "ai_rating": 8.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Nawaf Alampara": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2604.18805v1",
+        "title": "AI scientists produce results without reasoning scientifically",
+        "ai_rating": 8.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Chandan Gupta": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2604.18805v1",
+        "title": "AI scientists produce results without reasoning scientifically",
+        "ai_rating": 8.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Indrajeet Mandal": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2604.18805v1",
+        "title": "AI scientists produce results without reasoning scientifically",
+        "ai_rating": 8.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Sajid Mannan": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2604.18805v1",
+        "title": "AI scientists produce results without reasoning scientifically",
+        "ai_rating": 8.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ali Asghar Aghajani": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2604.18805v1",
+        "title": "AI scientists produce results without reasoning scientifically",
+        "ai_rating": 8.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Fan Ma": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2605.02740v1",
+        "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yuntian Liu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2605.02740v1",
+        "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Xiang Lan": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2605.02740v1",
+        "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Weipeng Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2605.02740v1",
+        "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jun Ni": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2605.02740v1",
+        "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Mauro Giuffrè": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2605.02740v1",
+        "title": "Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yifang Qin": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2604.27636v1",
+        "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yu Shi": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2604.27636v1",
+        "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Junfu Tan": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2604.27636v1",
+        "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Chang Liu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2604.27636v1",
+        "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ming Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2604.27636v1",
+        "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ziheng Lu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2604.27636v1",
+        "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Djamel Bouchaffra": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2604.27942v1",
+        "title": "A Collective Variational Principle Unifying Bayesian Inference, Game Theory, and Thermodynamics",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Faycal Ykhlef": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2604.27942v1",
+        "title": "A Collective Variational Principle Unifying Bayesian Inference, Game Theory, and Thermodynamics",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Mustapha Lebbah": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2604.27942v1",
+        "title": "A Collective Variational Principle Unifying Bayesian Inference, Game Theory, and Thermodynamics",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Hanane Azzag": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2604.27942v1",
+        "title": "A Collective Variational Principle Unifying Bayesian Inference, Game Theory, and Thermodynamics",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "David Gringras": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2604.07709v1",
+        "title": "IatroBench: Pre-Registered Evidence of Iatrogenic Harm from AI Safety Measures",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Joydeep Biswas": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2604.13940v1",
+        "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Sheila Schoepp": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2604.13940v1",
+        "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Gautham Vasan": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2604.13940v1",
+        "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Anthony Opipari": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2604.13940v1",
+        "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Arthur Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2604.13940v1",
+        "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Zichao Hu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2604.13940v1",
+        "title": "AI-Assisted Peer Review at Scale: The AAAI-26 AI Review Pilot",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Andrew Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2604.18570v1",
+        "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Tong Ding": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2604.18570v1",
+        "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Sophia J. Wagner": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2604.18570v1",
+        "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Caiwei Tian": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2604.18570v1",
+        "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ming Y. Lu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2604.18570v1",
+        "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Rowland Pettit": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2604.18570v1",
+        "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Haotian Ye": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2604.19341v1",
+        "title": "Evaluation-driven Scaling for Scientific Discovery",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Haowei Lin": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2604.19341v1",
+        "title": "Evaluation-driven Scaling for Scientific Discovery",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jingyi Tang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2604.19341v1",
+        "title": "Evaluation-driven Scaling for Scientific Discovery",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yizhen Luo": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2604.19341v1",
+        "title": "Evaluation-driven Scaling for Scientific Discovery",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Caiyin Yang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2604.19341v1",
+        "title": "Evaluation-driven Scaling for Scientific Discovery",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Chang Su": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2604.19341v1",
+        "title": "Evaluation-driven Scaling for Scientific Discovery",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Hannah Guan": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2604.16238v1",
+        "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Soukayna Mouatadid": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2604.16238v1",
+        "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Paulo Orenstein": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2604.16238v1",
+        "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Judah Cohen": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2604.16238v1",
+        "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Haiyu Dong": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2604.16238v1",
+        "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Zekun Ni": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2604.16238v1",
+        "title": "Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Elon Litman": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2605.01172v1",
+        "title": "A Theory of Generalization in Deep Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Gabe Guo": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2605.01172v1",
+        "title": "A Theory of Generalization in Deep Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Vishal Rajput": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2604.21395v1",
+        "title": "Supervised Learning Has a Necessary Geometric Blind Spot: Theory, Consequences, and Minimal Repair",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "An T. Le": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.01928v1",
+        "title": "Training Non-Differentiable Networks via Optimal Transport",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yan Cui": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2605.00925v1",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jacob S. Leiby": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2605.00925v1",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Wenhui Lei": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2605.00925v1",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Dokyoon Kim": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2605.00925v1",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yanxiang Deng": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2605.00925v1",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Aaron T. Mayer": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2605.00925v1",
+        "title": "Linking spatial biology and clinical histology via Haiku",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Huanran Chen": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2604.09258v1",
+        "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Huaqing Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2604.09258v1",
+        "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Xiao Li": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2604.09258v1",
+        "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Yinpeng Dong": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2604.09258v1",
+        "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ke Shen": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2604.09258v1",
+        "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jun Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2604.09258v1",
+        "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Lukas Helff": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2604.15149v1",
+        "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Quentin Delfosse": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2604.15149v1",
+        "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "David Steinmann": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2604.15149v1",
+        "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Ruben Härle": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2604.15149v1",
+        "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Hikaru Shindo": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2604.15149v1",
+        "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Patrick Schramowski": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2604.15149v1",
+        "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  },
+  "Jason Z Wang": {
+    "appearances": [
+      {
+        "week": "2026-W19",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2604.12951v1",
+        "title": "The Verification Tax: Fundamental Limits of AI Auditing in the Rare-Error Regime",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W19",
+    "last_seen": "2026-W19"
+  }
+}
