@@ -73,8 +73,9 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 **0-pre. Run all farmers first.** Before doing anything else, run the following in order:
 1. `python3 connectors/gmail/farmer.py` — pulls starred Gmail emails into `raw/gmail/`
 2. `python3 connectors/twitter/farmer.py` — pulls tweets and retweets into `raw/twitter/`
+3. `python3 connectors/kurate/farmer.py` — pulls Kurate.org weekly leaderboards into `raw/kurate/` (cs.AI + cs.LG, plus rising-author tracking)
 
-Both are mandatory. Both are idempotent — running them twice is safe. If either fails, note the error and continue with the most recent available file from that source.
+All three are mandatory. All are idempotent — running them twice is safe. If any fail, note the error and continue with the most recent available file from that source.
 
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum. Concept pages are the most efficient entry point — they compress prior work into one page.
 
