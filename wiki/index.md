@@ -380,3 +380,27 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-06.md](daily-digest/2026-05/2026-05-06.md) | Daily digest: agent security audit (91% tool-chaining vulnerable, 770K incident); ProgramBench 0%; Musk admits xAI distillation; DeepSeek V4 open-sourced; OpenAI/MS renegotiation closes; Ctx2Skill self-evolving skill loop; TobyPhln xAI retrospective via Twitter
+
+## new pages (2026-05-07)
+
+| Page | Summary |
+|------|---------|
+| [inference-efficiency/2026-05-07-stream-r1-reliability-perplexity-distillation.md](inference-efficiency/2026-05-07-stream-r1-reliability-perplexity-distillation.md) | Stream-R1: DMD distillation reweighted at rollout (reward-rescaled) and pixel (saliency-weighted) levels by a single shared video reward model; video-streaming analogue of TIP |
+| [inference-efficiency/2026-05-07-stream-t1-test-time-scaling-streaming-video.md](inference-efficiency/2026-05-07-stream-t1-test-time-scaling-streaming-video.md) | Stream-T1: test-time scaling with Stream-Scaled Memory Sinking, the first content-aware KV eviction policy in the wiki (route by reward feedback, not recency) |
+| [inference-efficiency/2026-05-07-liveditor-in-context-sparse-attention.md](inference-efficiency/2026-05-07-liveditor-in-context-sparse-attention.md) | LIVEditor / ISA: in-context sparse attention for ICL video editing; route high-error queries to full attention, low-error to 0-th order Taylor sparse path; ~60% latency reduction |
+| [inference-efficiency/2026-05-07-d-opsd-self-distillation-step-distilled-diffusion.md](inference-efficiency/2026-05-07-d-opsd-self-distillation-step-distilled-diffusion.md) | D-OPSD: same model is teacher and student under different conditioning; on-policy self-distillation for step-distilled diffusion fine-tuning; 7th paper in neutral-channel pattern |
+| [agentic-systems/2026-05-07-bright-pro-rtriever-reasoning-retrieval.md](agentic-systems/2026-05-07-bright-pro-rtriever-reasoning-retrieval.md) | BRIGHT-Pro / RTriever-4B: first benchmark for evidence-portfolio retrieval rather than top-1 relevance; aspect-decomposed synthetic corpus; Qwen3-Embedding-4B LoRA |
+| [agentic-systems/2026-05-07-opensearch-vl-multimodal-search-agents.md](agentic-systems/2026-05-07-opensearch-vl-multimodal-search-agents.md) | OpenSearch-VL: open recipe for frontier multimodal search agents; multi-turn fatal-aware GRPO with one-sided advantage clamping (mask post-failure tokens, preserve pre-failure reasoning) |
+| [agentic-systems/2026-05-07-medskillaudit-domain-specific-agent-skill-audit.md](agentic-systems/2026-05-07-medskillaudit-domain-specific-agent-skill-audit.md) | MedSkillAudit: pre-deployment audit of medical research agent skills; 57.3% below Limited Release; negative ICC on Academic Writing reveals rubric-expert mismatch |
+| [vision-audio-video/2026-05-07-joyai-image-spatial-intelligence-unified.md](vision-audio-video/2026-05-07-joyai-image-spatial-intelligence-unified.md) | JoyAI-Image: unified MLLM + MMDiT with spatial-intelligence training recipe; bidirectional perception+generation loop |
+| [vision-audio-video/2026-05-07-rldx-1-vla-humanoid-manipulation.md](vision-audio-video/2026-05-07-rldx-1-vla-humanoid-manipulation.md) | RLDX-1: Multi-Stream Action Transformer VLA for dexterous humanoid manipulation; 86.8% on ALLEX vs ~40% for pi0.5 / GR00T N1.6 |
+| [vision-audio-video/2026-05-07-hermes-plus-plus-driving-world-model.md](vision-audio-video/2026-05-07-hermes-plus-plus-driving-world-model.md) | HERMES++: unified driving world model for 3D scene understanding + future geometry; BEV + LLM-enhanced world queries + Joint Geometric Optimisation |
+| [vision-audio-video/2026-05-07-physforge-physics-grounded-3d-assets.md](vision-audio-video/2026-05-07-physforge-physics-grounded-3d-assets.md) | PhysForge: VLM-architects-then-diffusion-realises pipeline; PhysDB 150k assets with four-tier physical annotations; KineVoxel Injection |
+| [vision-audio-video/2026-05-07-multi-view-proficiency-estimation.md](vision-audio-video/2026-05-07-multi-view-proficiency-estimation.md) | Multi-view proficiency on Ego-Exo4D: SkillFormer / PATS / ProfVLM; 20x fewer parameters and 3x fewer epochs than video-transformer baselines |
+| [vision-audio-video/2026-05-07-apex-ai-music-popularity-prediction.md](vision-audio-video/2026-05-07-apex-ai-music-popularity-prediction.md) | APEX: 211k songs / 10k hours from Suno + Udio; joint popularity + aesthetic quality prediction; AI-music as language-scale training corpus |
+
+## daily-digest (new 2026-05-07)
+
+| Page | Summary |
+|------|---------|
+| [2026-05-07.md](daily-digest/2026-05/2026-05-07.md) | Daily digest: four papers in one day attack uniform-supervision waste in compressed video diffusion (Stream-R1, Stream-T1, LIVEditor, D-OPSD); Stream-T1 ships the first content-aware KV eviction; OpenSearch-VL adds fatal-aware GRPO; BRIGHT-Pro and OpenSearch-VL together argue evidence-portfolio retrieval; MedSkillAudit shifts evaluation to skill release readiness
