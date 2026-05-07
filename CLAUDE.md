@@ -55,6 +55,7 @@ Farmers pull from these daily:
 |--------|------|-------|
 | HuggingFace Daily Papers | Web/RSS | hf.co/papers — daily ML paper digest, ranked by community upvotes (popularity signal) |
 | **Kurate.org leaderboards** | JSON API | `kurate.org/api/leaderboard?category=cs.AI` — weekly arXiv rankings via 3-LLM tournaments (quality signal, complement to HF). Farmed via `connectors/kurate/farmer.py`. Tracks recurring authors as "rising" candidates for the Twitter handles list. |
+| **alphaxiv.org overviews** | On-demand HTTP | `connectors/alphaxiv/enrich.py <arxiv_id>` — fetches alphaxiv's AI-generated 1500-3000-word structured walkthrough of a paper. Used opportunistically when writing Tier 1 / Tier 2 Deep Dives to ground claims beyond the abstract. Returns empty if the paper has no overview yet (niche papers). 30-day file cache. |
 | YouTube channels | local-cli (yt-dlp) | AI creators curated by user |
 | **AI News** | RSS | TLDR AI (daily), The Decoder (in-depth), VentureBeat AI (industry), The Information (premium intel) |
 | **Research blogs** | RSS | Lilian Weng, Karpathy, Sebastian Raschka, Interconnects AI, SemiAnalysis, Import AI, etc. |
