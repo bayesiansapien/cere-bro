@@ -47,7 +47,7 @@ The conservative-reweighting framing inverts the intuition. Most NSR-fix papers 
 ## Open questions
 
 1. **Scale.** All experiments are 7B-class. Whether the SVD positive subspace is well-conditioned at 70B+ is open.
-2. **Composition with inference-time methods.** [Step-Level Optimization](../agentic-systems/2026-05-02-step-level-optimization-computer-use-agents.md) (05-02) detects trajectory stalls at inference. ResRL handles training-time gradient interference. Composition is the next paper.
+2. **Composition with inference-time methods.** [Step-Level Optimization](../ai-routing/2026-05-02-step-level-optimization-computer-use-agents.md) (05-02) detects trajectory stalls at inference. ResRL handles training-time gradient interference. Composition is the next paper.
 3. **Diversity floor.** The conservative-reweighting hyperparameter trades off reasoning gain against diversity preservation. The lower bound on diversity below which reasoning gains erode is not characterized in the paper.
 
 ## Industry context
