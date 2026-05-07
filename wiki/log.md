@@ -308,3 +308,25 @@ Append-only timeline of ingests and lint passes.
 - Deep Dives: 4 (Agent Security, Musk/Altman trial, DeepSeek V4, Ctx2Skill)
 - Industry items: 5
 - Twitter: 1 curated retweet (ProgramBench), 8 AI handle tweets (TobyPhln retrospective, Grok Imagine, NVIDIA Knowledge26)
+
+## [2026-05-07] ingest | Stream-R1 reliability-perplexity reward distillation | huggingface
+## [2026-05-07] ingest | Stream-T1 test-time scaling with content-aware KV eviction | huggingface
+## [2026-05-07] ingest | LIVEditor / ISA query-sharpness sparse attention | huggingface
+## [2026-05-07] ingest | D-OPSD on-policy self-distillation under conditioning asymmetry | huggingface
+## [2026-05-07] ingest | OpenSearch-VL multi-turn fatal-aware GRPO search agents | huggingface
+## [2026-05-07] ingest | BRIGHT-Pro / RTriever-4B evidence-portfolio retrieval | huggingface
+## [2026-05-07] ingest | MedSkillAudit pre-deployment skill audit | huggingface
+## [2026-05-07] ingest | JoyAI-Image unified MLLM + MMDiT spatial intelligence | huggingface
+## [2026-05-07] ingest | RLDX-1 VLA humanoid manipulation (Multi-Stream Action Transformer) | huggingface
+## [2026-05-07] ingest | HERMES++ unified driving world model | huggingface
+## [2026-05-07] ingest | PhysForge physics-grounded 3D assets | huggingface
+## [2026-05-07] ingest | Multi-view proficiency estimation (SkillFormer/PATS/ProfVLM) | huggingface
+## [2026-05-07] ingest | APEX AI-music popularity prediction (211k songs) | huggingface
+## [2026-05-07] concept | knowledge-distillation.md updated with Stream-R1 + D-OPSD; pattern now 7 papers | concept-page
+## [2026-05-07] concept | kv-cache.md updated with Stream-T1 (first content-aware eviction) and ISA (query-sharpness routing) | concept-page
+## [2026-05-07] concept | agent-benchmarks.md updated with BRIGHT-Pro / OpenSearch-VL / MedSkillAudit | concept-page
+## [2026-05-07] digest | Daily Digest 2026-05-07 | digest
+- Sources: 13 HuggingFace papers + Twitter afternoon slot (4 tweets, 0 retweets); Gmail token expired (most recent: 05-06); no RSS for 05-07
+- Deep Dives: 7 (Stream-R1, Stream-T1, LIVEditor / ISA, D-OPSD, OpenSearch-VL, BRIGHT-Pro, MedSkillAudit)
+- Industry items: 3 (OpenAI DSB structure exposed, Colossus 1 lease economics, AI music corpus scale)
+- Gmail farmer: invalid_grant token error; Twitter farmer: wrote 2026-05-07-afternoon slot
