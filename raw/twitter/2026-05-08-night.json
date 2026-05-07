@@ -1,0 +1,243 @@
+{
+  "date": "2026-05-08",
+  "slot": "night",
+  "scraped_ist": "2026-05-08 02:59",
+  "lookback_h": 7,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@tom_doerr",
+      "text": "Curated papers mapping foundation agent cognition github.com/FoundationAgents/…",
+      "link": "https://nitter.net/tom_doerr/status/2052150733261193390#m",
+      "date_utc": "2026-05-06T22:17:16+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://github.com/FoundationAgents/awesome-foundation-agents",
+          "content": "GitHub - FoundationAgents/awesome-foundation-agents: About Awesome things towards foundation agents. Papers / Repos / Blogs / ... · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all featur"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@simplifyinAI",
+      "text": "Researchers reverse-engineered Anthropic’s leaked Claude Code. And what they found completely shatters how we think about AI agents. We all assumed the smartest AI tools had complex, sophisticated \"brains\" doing the heavy lifting. That the model itself was doing the real work. When researchers cracked open the 512,000 lines of leaked source code, they found something shocking. Only 1.6% of the codebase is actual AI decision logic. The other 98.4%? Operational infrastructure. The core AI agent is literally just a basic while (true) loop that calls the model and parses the response. That’s it. T",
+      "link": "https://nitter.net/simplifyinAI/status/2052337675634679920#m",
+      "date_utc": "2026-05-07T10:40:07+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "Pay attention to this one if you build multi-agent systems. Coordination is as important as prompts or agent architecture. Multi-agent LLM systems fail in production at rates between 41% and 87%. The majority of those failures are coordination defects, not base-model capability. Most published comparisons of multi-agent architectures can't even tell you whether the gain came from coordination or from one configuration just having larger context windows. This new research argues that coordination should be treated as a configurable architectural layer, separable from agent logic and from inform",
+      "link": "https://nitter.net/dair_ai/status/2052429021833818458#m",
+      "date_utc": "2026-05-07T16:43:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.03310",
+          "content": "Abstract: Multi-agent LLM systems fail in production at rates between 41% and 87%, mostly due to coordination defects rather than base-model capability. Existing responses split between cataloguing failure modes empirically and shipping declarative orchestration frameworks as engineering tools; neither delivers a principled mapping from coordination configuration to predictable failure-mode signature. We argue that coordination should be treated as a configurable architectural layer, separable from agent logic and from information access, enabling architectural reasoning rather than only engineering productivity. We instantiate this with an information-controlled design on prediction markets: a single LLM, fixed tools, fixed per-call output cap, and fixed prompt template across five refere"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “ The "
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@iam_elias1",
+      "text": "Apple published a paper in June 2025 that called out the entire AI industry. And the industry has not recovered from it since. The paper is called \"The Illusion of Thinking.\" Six Apple researchers. Months of controlled experiments. One conclusion that landed like a grenade. Frontier reasoning models face a complete accuracy collapse beyond certain complexities. Complete. Not partial. Not gradual. Complete. Here is what that actually means. For two years, every major AI lab has been racing to build reasoning models. OpenAI's o1, o3. Anthropic's Claude 3.7 Sonnet Thinking. DeepSeek R1. Google's ",
+      "link": "https://nitter.net/iam_elias1/status/2052384879594414338#m",
+      "date_utc": "2026-05-07T13:47:41+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "http://arxiv.org/abs/2506.06941",
+          "content": "Abstract: Recent generations of language models have introduced Large Reasoning Models (LRMs) that generate detailed thinking processes before providing answers. While these models demonstrate improved performance on reasoning benchmarks, their fundamental capabilities, scaling properties, and limitations remain insufficiently understood. Current evaluations primarily focus on established math and coding benchmarks, emphasizing final answer accuracy. However, this evaluation paradigm often suffers from contamination and does not provide insights into the reasoning traces. In this work, we systematically investigate these gaps with the help of controllable puzzle environments that allow precise manipulation of complexity while maintaining consistent logical structures. This setup enables th"
+        },
+        {
+          "url": "http://machinelearning.apple.com/research/illusion-of-thinking",
+          "content": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity - Apple Machine Learning Research Machine Learning Research Open Menu Close Menu Overview Research Highlights Publications Events Work with us research area Speech and Natural Language Processing conference NeurIPS content type paper published June 2025 The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity Authors Parshin Shojaee*â , Iman Mirzadeh*, Keivan Alizadeh, Maxwell Horton, Samy Bengio, Mehrdad Farajtabar View publication Copy Bibtex Recent generations of frontier language models have introduced Large Reasoning Models (LRMs) that generate detailed thinking processes before providing answe"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@robert_lauko",
+      "text": "See the top ranked papers in AI, ML, Robotics, Quantum Physics, and more on @kurateorg . Hundreds of arXiv preprints ranked daily by scientific impact through pairwise tournaments judged by Claude, GPT, and Gemini.",
+      "link": "https://nitter.net/robert_lauko/status/2050876479731278113#m",
+      "date_utc": "2026-05-03T09:53:50+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205240467545…",
+      "link": "https://nitter.net/ashwingop/status/2052407955086254262#m",
+      "date_utc": "2026-05-07T15:19:23+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@NainsiDwiv50980",
+      "text": "Paper: arxiv.org/pdf/2602.20021",
+      "link": "https://nitter.net/NainsiDwiv50980/status/2052054889535279379#m",
+      "date_utc": "2026-05-06T15:56:25+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/pdf/2602.20021",
+          "content": "%PDF-1.7 %���� 1 0 obj > endobj 2 0 obj > endobj 3 0 obj > stream Agents of Chaos Natalie Shapira Chris Wendler Avery Yen Gabriele Sarti Koyena Pal Olivia Floody Adam Belfki Alex Loftus Aditya Ratan Jannali Nikhil Prakash Jasmine Cui Giordano Rogers Jannik Brinkmann Can Rager Amir Zur Michael Ripa Aruna Sankaranarayanan David Atkinson Rohit Gandikota Jaden Fiotto-Kaufman EunJeong Hwang Hadas Orgad P Sam Sahil Negev Taglicht Tomer Shabtay Atai Ambus Nitay Alon Shiri Oron Ayelet Gordon-Tapiero Yotam Kaplan Vered Shwartz Tamar Rott Shaham Christoph Riedl Reuth Mirsky Maarten Sap David Manheim Tomer Ullman David Bau http://arxiv.org/licenses/nonexclusive-distrib/1.0/ cs.AI cs.CY endstream endobj 4 0 obj > endobj 5 0 obj > endobj 6 0 obj > endobj 7 0 obj > endobj 8 0 obj > endobj 9 0 obj > endo"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "NEW paper from Microsoft Research. (bookmark it) The entire interpretability literature is built around human readers. As more analysis gets delegated to agents, the right target of interpretability shifts. This paper is a recipe for designing tools that agents can actually reason about. They introduce Agentic-imodels, an autoresearch loop where a coding agent (Claude Code, Codex) iteratively evolves scikit-learn-compatible regressors that are simultaneously accurate AND readable by other LLMs. Interpretability is measured by whether a small LLM can simulate the fitted model's behavior just by",
+      "link": "https://nitter.net/dair_ai/status/2052125514266190286#m",
+      "date_utc": "2026-05-06T20:37:03+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.03808",
+          "content": "Abstract: Agentic data science (ADS) systems are rapidly improving their capability to autonomously analyze, fit, and interpret data, potentially moving towards a future where agents conduct the vast majority of data-science work. However, current ADS systems use statistical tools designed to be interpretable by humans, rather than interpretable by agents. To address this, we introduce Agentic-imodels, an agentic autoresearch loop that evolves data-science tools designed to be interpretable by agents. Specifically, it develops a library of scikit-learn-compatible regressors for tabular data that are optimized for both predictive performance and a novel LLM-based interpretability metric. The metric measures a suite of LLM-graded tests that probe whether a fitted model&#39;s string represent"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “ The "
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@deedydas",
+      "text": "The Ultimate List of Artificial Intelligence \"Neolabs\": May 2026. A Neolab is a pre-revenue scale startup working on long-term AI breakthroughs, usually with a $1B+ valuation. There are now 63 of them!",
+      "link": "https://nitter.net/deedydas/status/2052266037979320752#m",
+      "date_utc": "2026-05-07T05:55:27+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@zechengzh",
+      "text": "Introducing Mirage, a unified virtual filesystem for AI agents! 6 weeks. 1.1M+ lines of code. We rewrote bash from the ground up so cat, grep, head, and pipes work across heterogeneous services. S3, Google Drive, Slack, Gmail, GitHub, Linear, Notion, Postgres, MongoDB, SSH, and more, all mounted side-by-side as one filesystem. Bash that AI agents already know works on every format! cat, grep, head, and wc parse .parquet, .csv, .json, .h5, even .wav! One pipe can stitch S3, Drive, GitHub, Slack, and Linear together, same Unix semantics throughout. Workspaces are versioned too. Snapshot, clone, ",
+      "link": "https://nitter.net/zechengzh/status/2052105012172792061#m",
+      "date_utc": "2026-05-06T19:15:35+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://www.strukto.ai/mirage",
+          "content": "Mirage · Unified Virtual Filesystem for AI Agents | Strukto STRUKTO Product Research News Discord mirage A Unified Virtual Filesystem Workspace A simulated environment where AI agents reach every data through one filesystem and bash. Read the docs TypeScript Python npm install @struktoai/mirage-node # Node, servers, CLIs npm install @struktoai/mirage-browser # Browser edge npm install @struktoai/mirage-agents # OpenAI / Vercel AI / LangChain / Mastra import { Workspace , RAMResource , S3Resource } from @struktoai/mirage-node ; // Mount resources side-by-side as one filesystem const ws = new Workspace ( { /data : new RAMResource (), /s3 : new S3Resource ( { bucket: my-bucket } ), } ); // Read, write, and pipe across services with bash await ws. execute ( cp /s3/report.csv /data/report.csv )"
+        },
+        {
+          "url": "https://github.com/strukto-ai/mirage",
+          "content": "GitHub - strukto-ai/mirage: A Unified Virtual Filesystem For AI Agents · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium t"
+        }
+      ]
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "There will soon be more AI agents transacting than humans. That used to sound like science fiction, but today we launched the infrastructure to make it real. AgentCore payments, built with @coinbase and @stripe . Available in preview: aws.amazon.com/blogs/machine… Video",
+          "link": "https://nitter.net/mattsgarman/status/2052454512770609337#m",
+          "date_utc": "2026-05-07T18:24:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/",
+              "content": "Agents that transact: Introducing Amazon Bedrock AgentCore payments, built with Coinbase and Stripe | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence Agents that transact: Introducing Amazon Bedrock AgentCore payments, built with Coinbase and Stripe by Preethi C N on 07 MAY 2026 in Amazon Bedrock AgentCore , Announcements , Foundational (100) Permalink Comments Share We’re in the midst of a fundamental shift in how software gets built and used. AI agents are moving beyond assistants that wait for instructions. They call APIs, access MCP servers, coordinate with other agents, and complete complex multi-step tasks on behalf "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Have a looong flight to catch, got starlink, all the files and transcripts loaded so covering everything today and writing the full week 2 analysis for both sides midair",
+          "link": "https://nitter.net/ns123abc/status/2052460201987481955#m",
+          "date_utc": "2026-05-07T18:46:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 JUDGE GONZALEZ ROGERS TODAY ON THE OPENAI TRIAL \"This trial, like many trials, boils down to who the jury is going to believe.\" Musk vs. Altman & Brockman Microsoft CEO takes the stand Monday Closing arguments next Thursday The jury verdict could come by end of next week. Judge: \"They will have had plenty of time to decide who they are going to believe.\"",
+          "link": "https://nitter.net/ns123abc/status/2052421187435643060#m",
+          "date_utc": "2026-05-07T16:11:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "AI will help build the energy it needs. At the #SCSPAIExpo , NVIDIA's Ian Buck spoke to two decades of NVIDIA supercomputing with the national labs, and a Genesis Mission ready to deliver. \"NVIDIA is 100% committed and invested in Genesis.\" — Ian Buck Read the full recap: blogs.nvidia.com/blog/energy… Special Competitive Studies Project (@scsp_ai) How do we power the next American century? 🇺🇸⚡️ @ENERGY Secretary Chris Wright, @nvidia ’s @ia_buck , and #SCSPTech ’s @Ylli_Bajraktari take the South Stage to break down the mission-critical link between #AI , energy infrastructure, and the compute ",
+          "link": "https://nitter.net/nvidia/status/2052486691894780305#m",
+          "date_utc": "2026-05-07T20:32:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
+              "content": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission | NVIDIA Blog Skip to content Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission At the SCSP AI+ Expo, Wright joined Buck to lay out the case for the Genesis Mission, NVIDIA’s AI-for-science initiative built on years of collaboration between NVIDIA and the US Department of Energy. May 7, 2026 by Brian Caulfield 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! AI will help build the energy it needs. That’s the case U.S. Energy Secretary Chris Wright and NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck made Thursday morning at the SCSP AI+ Expo. The 30-minute fi"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -330,3 +330,16 @@ Append-only timeline of ingests and lint passes.
 - Deep Dives: 7 (Stream-R1, Stream-T1, LIVEditor / ISA, D-OPSD, OpenSearch-VL, BRIGHT-Pro, MedSkillAudit)
 - Industry items: 3 (OpenAI DSB structure exposed, Colossus 1 lease economics, AI music corpus scale)
 - Gmail farmer: invalid_grant token error; Twitter farmer: wrote 2026-05-07-afternoon slot
+## [2026-05-08] ingest | ResRL negative-sample projection RL (Meituan + CAS) | huggingface
+## [2026-05-08] ingest | First Token Knows hallucination detection at 1/11 cost | huggingface
+## [2026-05-08] ingest | SxS interleaved reasoning disclosure policies | huggingface
+## [2026-05-08] ingest | Lambert: Notes from inside China's AI labs | rss/interconnects
+## [2026-05-08] ingest | Anthropic ↔ Colossus 1 capacity-crunch (3-source) | rss/pragmatic-engineer + simon-willison + decoder
+## [2026-05-08] ingest | Twitter night slot: 10 curated retweets, 4 AI tweets | twitter
+## [2026-05-08] ingest | Kurate weekly cs.AI + cs.LG top-20 | kurate
+## [2026-05-08] digest | Daily Digest 2026-05-08 | digest
+- Sources: 22 HF (May 7) | 17 RSS (May 7) | 1 Twitter slot | 40 Kurate ranked papers | Gmail unavailable (OAuth expired)
+- Deep Dives: 5 (ResRL, First Token Knows, SxS, Anthropic-Colossus, Lambert China)
+- Industry items: 6 (Anthropic 80x, Amazon Claude Code/Codex, Apple Claude Code, Meta data-labelling, DeepL layoffs, Claude dreaming)
+- Cross-source: ResRL ↔ Lambert (Meituan), Anthropic-Colossus triple-source, RLVR failure-modes 4-paper cluster
+- alphaxiv enrichment used for: ResRL (4000 chars), Rethinking R-I Retrieval (4000), MiniCPM-O 4.5 (4000); not yet available for First Token Knows + SxS
