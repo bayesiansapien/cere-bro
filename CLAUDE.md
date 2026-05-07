@@ -197,6 +197,15 @@ Run periodically (or on request):
 
 The daily digest is the most important output of the wiki. Amit reads it first every morning. It must be worth reading on its own — not a log, not a summary table, but a newsletter that makes him *want* to click through.
 
+### Deep Dive enrichment
+
+For each Tier 1 and Tier 2 Deep Dive, before writing prose run `python3 connectors/alphaxiv/enrich.py <arxiv_id>` and read the output if non-empty. The output is alphaxiv.org's AI-generated walkthrough of the paper (typically 1500-3000 words, structured into method / results / implications, with figure references). Use it to ground claims about what the paper actually does — much richer signal than the abstract alone.
+
+Three rules:
+1. **Don't copy alphaxiv's prose.** Write the Deep Dive in cere-bro's voice. Use the overview as input, not output.
+2. **If the helper returns empty, fall back to the abstract.** Niche papers often have no alphaxiv overview yet; that's fine.
+3. **Disagree with alphaxiv when it's wrong.** AlphaxIv overviews are AI-generated and can misframe a paper. If the abstract or RSS commentary contradicts the overview, trust the abstract.
+
 ### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
 
 ```markdown
