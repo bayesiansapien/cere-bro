@@ -1,0 +1,37 @@
+#!/bin/bash
+# Afternoon Twitter farmer + slot synthesis — runs at 3pm local time daily.
+# Replace {{REPO_PATH}} during install.
+
+REPO="{{REPO_PATH}}"
+LOG="$REPO/.claude/logs/twitter-afternoon.log"
+TODAY=$(date +%Y-%m-%d)
+
+mkdir -p "$REPO/.claude/logs"
+
+# Hour-window guard: 14:00–17:59
+CURRENT_HOUR=$(date +%H)
+if [ "$CURRENT_HOUR" -lt 14 ] || [ "$CURRENT_HOUR" -gt 17 ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Outside afternoon window — skipping." >> "$LOG"
+  exit 0
+fi
+
+# Skip if afternoon file already exists
+AFTERNOON_PATH="$REPO/raw/twitter/$TODAY-afternoon.md"
+if [ -f "$AFTERNOON_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Afternoon file already exists — skipping." >> "$LOG"
+  exit 0
+fi
+
+cd "$REPO" || exit 1
+
+python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 && \
+  echo "[$TODAY $(date +%H:%M:%S)] Afternoon farmer done." >> "$LOG" || \
+  echo "[$TODAY $(date +%H:%M:%S)] Afternoon farmer failed." >> "$LOG"
+
+git add raw/twitter/ >> "$LOG" 2>&1
+git diff --cached --quiet || git commit -m "raw: twitter afternoon scrape $TODAY" >> "$LOG" 2>&1
+git push origin main >> "$LOG" 2>&1 || true
+
+# Generate afternoon slot synthesis
+"$HOME/.local/bin/cerebro-synth-slot.sh" afternoon >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Afternoon synthesis failed — continuing." >> "$LOG"

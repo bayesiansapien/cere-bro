@@ -1,0 +1,48 @@
+#!/bin/bash
+# Midnight Media-Live roll-up — runs at 23:55 local time daily.
+# Reads all per-slot synthesis files for today and writes a consolidated
+# daily roll-up at wiki/social-stream/$YYYY-MM/$TODAY.md (no slot suffix).
+# Replace {{REPO_PATH}} and {{CLAUDE_BIN}} during install.
+
+REPO="{{REPO_PATH}}"
+CLAUDE="{{CLAUDE_BIN}}"
+TODAY=$(date +%Y-%m-%d)
+MONTH=$(date +%Y-%m)
+LOG="$REPO/.claude/logs/rollup-midnight.log"
+
+mkdir -p "$REPO/.claude/logs"
+mkdir -p "$REPO/wiki/social-stream/$MONTH"
+
+OUT_PATH="$REPO/wiki/social-stream/$MONTH/$TODAY.md"
+
+if [ -f "$OUT_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Roll-up already exists — skipping." >> "$LOG"
+  exit 0
+fi
+
+SLOTS_FOUND=0
+for SLOT in night morning afternoon evening; do
+  if [ -f "$REPO/wiki/social-stream/$MONTH/$TODAY-$SLOT.md" ]; then
+    SLOTS_FOUND=$((SLOTS_FOUND + 1))
+  fi
+done
+
+if [ "$SLOTS_FOUND" -eq 0 ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] No slot syntheses for $TODAY — nothing to roll up." >> "$LOG"
+  exit 0
+fi
+
+cd "$REPO" || exit 1
+
+echo "[$TODAY $(date +%H:%M:%S)] Rolling up $SLOTS_FOUND slot syntheses for $TODAY..." >> "$LOG"
+
+"$CLAUDE" \
+  --dangerously-skip-permissions \
+  -p "Today is $TODAY. Read every slot synthesis at wiki/social-stream/$MONTH/$TODAY-{night,morning,afternoon,evening}.md that exists. Write a consolidated daily roll-up at wiki/social-stream/$MONTH/$TODAY.md. Two sections: '## Summary' (4-6 sentence prose gist of the day across all slots) and '## Posts' (one bullet per post, unified across slots, with [slot tag]). Cluster cross-slot duplicates. NO connections section. NO h1. No em-dashes." \
+  >> "$LOG" 2>&1
+
+git add wiki/social-stream/ >> "$LOG" 2>&1
+git diff --cached --quiet || git commit -m "social-stream: daily roll-up $TODAY" >> "$LOG" 2>&1
+git push origin main >> "$LOG" 2>&1 || true
+
+echo "[$TODAY $(date +%H:%M:%S)] Roll-up done." >> "$LOG"

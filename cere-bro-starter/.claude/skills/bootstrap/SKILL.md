@@ -39,12 +39,24 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 
 **Q5. Sources**
 > "Which sources will you use? Check all that apply:
-> - HuggingFace Daily Papers (ML paper feed)
-> - RSS feeds (blogs, newsletters — you'll add your own URLs)
-> - Gmail starred emails (AI newsletters you forward to yourself)
-> - Manual drops (you drop files into raw/ yourself)
+> - **HuggingFace Daily Papers** — community-upvoted ML paper feed (no setup)
+> - **RSS feeds** — blogs and newsletters; you'll add the URLs (no setup)
+> - **Kurate.org leaderboards** — 3-LLM tournament rankings on arXiv as a quality complement to HF (no setup, public API)
+> - **alphaxiv.org overviews** — on-demand AI-generated paper explainers used to enrich Tier 1/2 Deep Dives (no setup, automatic)
+> - **Gmail starred emails** — AI newsletters you star in your inbox (requires Google OAuth setup)
+> - **Twitter/X** — retweets from your account (curated signal) + AI handle feed (no auth, uses Nitter RSS); auto-discovery of new follows requires an Apify token
+> - **Manual drops** — you drop files into raw/ yourself
 >
-> You can enable all of them. Farmers for each are included in the connectors/ folder."
+> You can enable all of them. Farmers for each are in the connectors/ folder.
+>
+> If Twitter is enabled, also ask:
+>   - 'What's your X handle (without the @)?' — used to scrape your reposts as curated signal
+>   - 'Do you have an Apify API token?' — optional; enables auto-discovery of new follows. If not, the user edits ai_handles[] manually.
+>
+> If Kurate is enabled, also ask:
+>   - 'Which arXiv categories do you want to track?' — defaults to cs.AI + cs.LG. Common others: cs.RO (robotics), stat.ML (statistics ML).
+>
+> If Gmail is enabled, point the user at connectors/gmail/README.md for the OAuth setup. Don't try to automate it; it's a manual one-time browser flow."
 
 **Q6. GitHub deployment**
 > "What's your GitHub username and the repo name you'll use for this wiki? (e.g. username: johndoe, repo: my-research-wiki)

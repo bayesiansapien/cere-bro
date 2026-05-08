@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import wiki from '../../data/wiki.json';
+
+export function getStaticPaths() {
+  return wiki.digests.map((d) => ({
+    params: { date: d.date },
+    props: { digest: d },
+  }));
+}
+
+const { digest } = Astro.props;
+
+function fmtDate(iso: string | null) {
+  if (!iso) return '';
+  const d = new Date(iso + 'T00:00:00Z');
+  return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+---
+
+<Base title={`cere-bro — ${fmtDate(digest.date)}`} active="home">
+  <section class="hero">
+    <div class="hero-date">{fmtDate(digest.date)} · daily digest</div>
+    <h1>{digest.title}</h1>
+  </section>
+
+  <article class="digest-content" style="max-width: 880px; margin: 0 auto" set:html={digest.html} />
+</Base>

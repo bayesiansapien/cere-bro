@@ -1,0 +1,40 @@
+{
+  "_comment": "Bootstrap fills own_handle and ai_handles from your interview. See README.md.",
+  "own_handle": "YOUR_X_HANDLE",
+  "scrape_own_retweets": true,
+  "hours_lookback": 7,
+  "following_actor_id": "UkXi4XmrOvKL6qUaf",
+  "following_refresh_days": 3,
+  "following_last_checked": null,
+  "known_non_ai_handles": [],
+  "bio_ai_keywords": [
+    "AI", "ML", "machine learning", "deep learning", "LLM", "neural",
+    "model", "research", "Anthropic", "OpenAI", "DeepMind", "xAI", "Google",
+    "NVIDIA", "researcher", "scientist", "language model", "GPU", "compute",
+    "inference", "training", "robotics", "autonomous", "generative", "diffusion",
+    "transformer", "reinforcement learning", "computer vision", "NLP",
+    "artificial intelligence", "AGI", "foundation model", "chip", "semiconductor",
+    "silicon", "TPU", "CUDA", "agent", "benchmark", "fine-tuning", "alignment",
+    "safety", "interpretability", "quantization", "distillation", "MoE",
+    "multimodal", "vision-language", "Cursor", "Grok", "Claude", "Gemini"
+  ],
+  "ai_handles": [
+    {"handle": "GoogleResearch", "name": "Google Research", "org": "Google",    "timezone": "PT", "focus": ["research", "AI", "algorithms"]},
+    {"handle": "nvidia",         "name": "NVIDIA",          "org": "NVIDIA",    "timezone": "PT", "focus": ["GPU", "hardware", "CUDA", "inference", "training"]}
+  ],
+  "ai_keywords": [
+    "AI", "LLM", "model", "training", "inference", "GPU", "transformer",
+    "paper", "research", "Anthropic", "OpenAI", "xAI", "DeepMind", "Mistral",
+    "neural", "benchmark", "fine-tuning", "RLHF", "RL", "agent", "multimodal",
+    "context", "attention", "KV cache", "quantization", "distillation",
+    "Grok", "Claude", "GPT", "Gemini", "Llama", "reasoning", "o1", "o3",
+    "compute", "CUDA", "kernel", "chip", "Blackwell", "Hopper", "H100",
+    "routing", "MoE", "mixture of experts", "speculative", "throughput"
+  ],
+  "skip_domains": [
+    "twitter.com", "x.com", "t.co", "instagram.com",
+    "youtube.com", "youtu.be", "tiktok.com"
+  ],
+  "article_fetch_timeout": 10,
+  "article_max_chars": 3000
+}

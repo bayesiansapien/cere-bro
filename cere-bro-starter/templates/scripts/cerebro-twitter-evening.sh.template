@@ -1,0 +1,35 @@
+#!/bin/bash
+# Evening Twitter farmer + slot synthesis — runs at 10pm local time daily.
+# Replace {{REPO_PATH}} during install.
+
+REPO="{{REPO_PATH}}"
+LOG="$REPO/.claude/logs/twitter-evening.log"
+TODAY=$(date +%Y-%m-%d)
+
+mkdir -p "$REPO/.claude/logs"
+
+# Hour-window guard: 21:00–23:59
+CURRENT_HOUR=$(date +%H)
+if [ "$CURRENT_HOUR" -lt 21 ] || [ "$CURRENT_HOUR" -gt 23 ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Outside evening window — skipping." >> "$LOG"
+  exit 0
+fi
+
+EVENING_PATH="$REPO/raw/twitter/$TODAY-evening.md"
+if [ -f "$EVENING_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Evening file already exists — skipping." >> "$LOG"
+  exit 0
+fi
+
+cd "$REPO" || exit 1
+
+python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 && \
+  echo "[$TODAY $(date +%H:%M:%S)] Evening farmer done." >> "$LOG" || \
+  echo "[$TODAY $(date +%H:%M:%S)] Evening farmer failed." >> "$LOG"
+
+git add raw/twitter/ >> "$LOG" 2>&1
+git diff --cached --quiet || git commit -m "raw: twitter evening scrape $TODAY" >> "$LOG" 2>&1
+git push origin main >> "$LOG" 2>&1 || true
+
+"$HOME/.local/bin/cerebro-synth-slot.sh" evening >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Evening synthesis failed — continuing." >> "$LOG"

@@ -1,0 +1,49 @@
+#!/bin/bash
+# Morning routine — runs at 9am IST daily.
+# Replace {{REPO_PATH}} and {{CLAUDE_BIN}} with your local paths during install.
+# Bootstrap can do this for you, or copy and edit manually.
+
+REPO="{{REPO_PATH}}"
+CLAUDE="{{CLAUDE_BIN}}"
+LOG="$REPO/.claude/logs/morning-digest.log"
+TODAY=$(date +%Y-%m-%d)
+
+mkdir -p "$REPO/.claude/logs"
+
+echo "[$TODAY $(date +%H:%M:%S)] Starting morning routine..." >> "$LOG"
+
+cd "$REPO" || exit 1
+
+git pull --rebase origin main >> "$LOG" 2>&1 || true
+
+# Farmers always run — they're idempotent and have their own dedup guards.
+echo "[$TODAY $(date +%H:%M:%S)] Running Gmail farmer..." >> "$LOG"
+python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Gmail farmer failed or skipped — continuing." >> "$LOG"
+
+echo "[$TODAY $(date +%H:%M:%S)] Running Twitter farmer..." >> "$LOG"
+python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Twitter farmer failed or skipped — continuing." >> "$LOG"
+
+echo "[$TODAY $(date +%H:%M:%S)] Running Kurate farmer..." >> "$LOG"
+python3 "$REPO/connectors/kurate/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Kurate farmer failed or skipped — continuing." >> "$LOG"
+
+# Push raw files
+git add raw/ >> "$LOG" 2>&1
+git diff --cached --quiet || git commit -m "raw: morning farmer scrape $TODAY" >> "$LOG" 2>&1
+git push origin main >> "$LOG" 2>&1 || true
+
+# Skip the Claude digest call if today's digest already exists.
+DIGEST_PATH="$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md"
+if [ -f "$DIGEST_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Digest already exists — skipping Claude run." >> "$LOG"
+  exit 0
+fi
+
+"$CLAUDE" \
+  --dangerously-skip-permissions \
+  -p "Today is $TODAY. Run the digest workflow per CLAUDE.md and the digest skill. Read all five raw sources (Gmail, RSS, HuggingFace, Twitter, Kurate). Apply the HF + Kurate cross-source confirmation rule. For each Tier 1/2 Deep Dive paper, run python3 connectors/alphaxiv/enrich.py <arxiv_id> to get alphaxiv enrichment. Write today's daily digest at wiki/daily-digest/$(date +%Y-%m)/$TODAY.md and the morning slot synthesis at wiki/social-stream/$(date +%Y-%m)/$TODAY-morning.md. Commit and push. Do not stop until both are done." \
+  >> "$LOG" 2>&1
+
+echo "[$TODAY $(date +%H:%M:%S)] Done." >> "$LOG"

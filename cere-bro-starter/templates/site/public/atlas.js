@@ -34,16 +34,32 @@ function fmtMonth(iso) {
 }
 const topicHref = (t) => url(t);
 
+// Pretty labels for slug-form topic keys
+const TOPIC_LABEL = {
+  'ai-routing':             'Routing',
+  'inference-efficiency':   'Inference / Efficiency',
+  'hardware':               'Hardware',
+  'llms-foundation-models': 'LLMs & Foundation Models',
+  'agentic-systems':        'Agentic Systems',
+  'responsible-ai':         'Responsible AI',
+  'vision-audio-video':     'Vision / Audio / Video',
+  'ai-industry':            'Industry',
+  'daily-digest':           'Daily Digest',
+};
+const labelOf = (t) => TOPIC_LABEL[t] ?? t;
+
 // ── Topic distribution donut ──────────────────────────────────────────────────
 {
-  const topics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1]);
+  const topics = Object.entries(topicCounts)
+    .filter(([t]) => t !== 'ai-industry')
+    .sort((a, b) => b[1] - a[1]);
 
   const ctx = document.getElementById('donut-chart');
   if (ctx) {
     new Chart(ctx, {
       type: 'doughnut',
       data: {
-        labels: topics.map(([t]) => t),
+        labels: topics.map(([t]) => labelOf(t)),
         datasets: [
           {
             data: topics.map(([, c]) => c),
@@ -82,7 +98,7 @@ const topicHref = (t) => url(t);
         const color = topicColors[t] ?? '#94a3b8';
         return `<div class="topic-row">
           <span class="topic-swatch" style="background:${color}"></span>
-          <a href="${topicHref(t)}/" class="topic-name">${t}</a>
+          <a href="${topicHref(t)}/" class="topic-name">${labelOf(t)}</a>
           <span class="topic-count">${c}</span>
           <span class="topic-pct">${pct}%</span>
         </div>`;
@@ -144,7 +160,7 @@ renderHeatmap(
   weeks,
   (t, b) => researchHeatmap[t]?.[b] ?? 0,
   (t) => topicColors[t] ?? '#94a3b8',
-  (t) => t,
+  labelOf,
   fmtWeek,
   weeks.length,
 );
@@ -154,7 +170,7 @@ renderHeatmap(
   months,
   (t, b) => researchHeatmapMonthly[t]?.[b] ?? 0,
   (t) => topicColors[t] ?? '#94a3b8',
-  (t) => t,
+  labelOf,
   fmtMonth,
   months.length,
 );
@@ -252,7 +268,7 @@ renderCumulative(
   cumulativeWeeks,
   researchCumulative,
   (k) => topicColors[k] ?? '#94a3b8',
-  (k) => k,
+  labelOf,
 );
 
 const industryDataByKey = {};
@@ -321,7 +337,7 @@ function renderMomentum(container, items, getName, getColor, getDelta, getThisWe
     .join('');
 }
 
-renderMomentum(document.getElementById('research-rising'), researchMomentum, (m) => m.topic, (m) => topicColors[m.topic] ?? '#94a3b8', (m) => m.delta, (m) => m.thisWeek, false);
-renderMomentum(document.getElementById('research-cooling'), researchMomentum, (m) => m.topic, (m) => topicColors[m.topic] ?? '#94a3b8', (m) => m.delta, (m) => m.thisWeek, true);
+renderMomentum(document.getElementById('research-rising'), researchMomentum, (m) => labelOf(m.topic), (m) => topicColors[m.topic] ?? '#94a3b8', (m) => m.delta, (m) => m.thisWeek, false);
+renderMomentum(document.getElementById('research-cooling'), researchMomentum, (m) => labelOf(m.topic), (m) => topicColors[m.topic] ?? '#94a3b8', (m) => m.delta, (m) => m.thisWeek, true);
 renderMomentum(document.getElementById('industry-rising'), industryMomentum, (m) => m.label, (m) => m.color, (m) => m.delta, (m) => m.thisWeek, false);
 renderMomentum(document.getElementById('industry-cooling'), industryMomentum, (m) => m.label, (m) => m.color, (m) => m.delta, (m) => m.thisWeek, true);

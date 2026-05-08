@@ -70,11 +70,19 @@ When a new file lands in `raw/` (via farmer or manually dropped):
 **0. Consult the knowledge base first.** Before reading the new source, check what the wiki already knows about its topic area. Read the relevant concept pages (`wiki/<concept>/<concept-name>.md`) and scan the last 5–7 daily digests. This primes your context so you can write in light of prior knowledge, not in a vacuum.
 
 **0b. Collect all raw sources for the date.** Before writing any digest, check ALL raw source directories for the relevant date:
-- `raw/gmail/<YYYY-MM-DD>-starred.md` — Gmail starred emails
+- `raw/gmail/<YYYY-MM-DD>-starred.md` — Gmail starred emails (if enabled)
 - `raw/rss/<YYYY-MM-DD>-*.md` — RSS feeds
-- `raw/huggingface/<YYYY-MM-DD>-*.md` — HuggingFace papers (if enabled)
+- `raw/huggingface/<YYYY-MM-DD>-*.md` — HuggingFace papers
+- `raw/twitter/<YYYY-MM-DD>-*.{md,json}` — Twitter retweets + AI handle feed (if enabled)
+- `raw/kurate/<YYYY-MM-DD>-*.md` — Kurate weekly leaderboards + rising authors (if enabled)
 
 Read all files that exist before writing the digest. A digest from partial sources is incomplete.
+
+**Cross-source rule (HF + Kurate):** any paper appearing in BOTH today's HuggingFace top AND the current week's Kurate top-20 is HIGH CONVICTION. Surface as Tier 1 in Deep Dives regardless of topic, label "cross-source confirmed (HF + Kurate)". Papers in Kurate top-5 but missing from HF go in Worth Watching as "LLM-rated underrated". Use the inferred `tier=N` in each Kurate entry to weight space allocation.
+
+**Deep Dive enrichment (alphaxiv):** for each Tier 1 / Tier 2 Deep Dive paper, before writing the prose run `python3 connectors/alphaxiv/enrich.py <arxiv_id>` to fetch alphaxiv.org's AI-generated overview (~3000 words). Use it as supplementary context. If empty, fall back to the abstract. Don't copy alphaxiv's prose verbatim — write the Deep Dive in the wiki's voice.
+
+**Rising authors (Kurate):** read `raw/kurate/<YYYY-MM-DD>-rising-authors.md` if present. Surface authors who crossed the threshold in Worth Watching with one of their top papers, suggesting whether to add them to `connectors/twitter/config.json:ai_handles`.
 
 1. Read the source. For papers: abstract + key sections. For videos: transcript. For blogs: full text.
 2. **Write a summary page** in `wiki/<topic>/<YYYY-MM-DD>-<slug>.md`. Include: TL;DR, key findings, explicit notes on how this relates to prior wiki pages (confirms, contradicts, extends, or fills a gap), links to related wiki pages, link back to raw source.

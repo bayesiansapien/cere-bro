@@ -22,15 +22,23 @@ Determine the target date. If the user provided a date argument (e.g. `/digest 2
 
 This step is mandatory. A digest written from partial sources is incomplete.
 
-Check all three raw source directories for the target date:
+Check all FIVE raw source directories for the target date:
 
 1. `raw/gmail/<YYYY-MM-DD>-starred.md` — Gmail starred emails (newsletters, industry news)
 2. `raw/rss/<YYYY-MM-DD>-*.md` — RSS feeds (blogs, TLDR AI, research blogs, etc.)
 3. `raw/huggingface/<YYYY-MM-DD>-*.md` — HuggingFace Daily Papers
+4. `raw/twitter/<YYYY-MM-DD>-*.{md,json}` — Twitter retweets (curated signal) + AI handle feed
+5. `raw/kurate/<YYYY-MM-DD>-*.md` — Kurate weekly leaderboards (cs.AI + cs.LG) + rising-author tracking
 
 Read ALL files that exist for the date. If a directory has no file for the exact date, check for the nearest prior date (within 2 days). Note which sources are missing.
 
-If none of the three directories have files for the target date, tell the user and stop. Do not write an empty digest.
+**Cross-source rule (mandatory) for HF + Kurate:** any paper appearing in BOTH today's HuggingFace top AND the current week's Kurate top-20 is HIGH CONVICTION. Surface it as Tier 1 in Deep Dives regardless of topic, label as "cross-source confirmed (HF + Kurate)". Papers in Kurate top-5 but missing from HF go in Worth Watching as "LLM-rated underrated". Use the inferred `tier=N` in each Kurate entry to weight space allocation.
+
+**Rising authors (Kurate):** read `raw/kurate/<YYYY-MM-DD>-rising-authors.md` if present. Surface any authors who crossed the threshold in Worth Watching, naming each with one of their top papers and suggesting whether to add them to `connectors/twitter/config.json:ai_handles`.
+
+**Deep Dive enrichment (alphaxiv):** for each Tier 1 / Tier 2 Deep Dive paper, run `python3 connectors/alphaxiv/enrich.py <arxiv_id>` to fetch alphaxiv.org's AI-generated overview (~3000 words). Use it as supplementary context. If empty, fall back to the abstract. Don't copy alphaxiv's prose verbatim — write the Deep Dive in your wiki's voice.
+
+If none of the directories have files for the target date, tell the user and stop. Do not write an empty digest.
 
 **Check the parallel daily digest** (if it exists): look for a daily-digest file in the user's Documents or a configured path. If the user mentioned where their parallel digest lives during bootstrap, check there. Merge any unique content.
 
