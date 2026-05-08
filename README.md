@@ -31,11 +31,14 @@ connectors/   ← Python scripts that pull from sources
 
 ### Farmers pull from sources
 
-| Source | What it pulls |
-|--------|--------------|
-| HuggingFace Daily Papers | Latest ML paper digests |
-| RSS feeds | Blogs, newsletters (Lilian Weng, Karpathy, SemiAnalysis, TLDR AI, The Decoder, etc.) |
-| Gmail starred emails | AI Breakfast, Ken Huang, Pragmatic Engineer, and others via OAuth |
+| Source | What it pulls | Auth needed |
+|--------|--------------|---|
+| HuggingFace Daily Papers | Latest ML paper digests, ranked by community upvotes | None |
+| **Kurate.org leaderboards** | Weekly arXiv top-20 ranked by 3-LLM tournament, plus rising-author tracking | None (public API) |
+| RSS feeds | Blogs, newsletters (Lilian Weng, Karpathy, SemiAnalysis, TLDR AI, The Decoder, Interconnects, etc.) | None |
+| **Twitter/X** | Reposts from your account (curated signal) + AI handle feed (filtered) + 4× daily polling | Optional Apify token for auto-discovery |
+| Gmail starred emails | AI Breakfast, Ken Huang, Pragmatic Engineer, Marcus on AI, etc. | Google OAuth (one-time) |
+| **alphaxiv.org** (enrichment) | On-demand AI-generated 3000-word paper overviews used to ground Tier 1/2 Deep Dives | None |
 
 Farmers run on a schedule and write files into `raw/`. Claude then ingests them.
 
@@ -69,16 +72,20 @@ wiki/
 ├── ai-routing/              # LLM routing, multimodal routing, agent trajectory routing
 ├── inference-efficiency/    # KV cache, compression, quantization, distillation, GPU opt
 ├── hardware/                # GPU architecture, Hopper, Blackwell, memory hierarchy
-├── llms-foundation-models/  # General LLM papers, new architectures
-├── agentic-systems/         # Agentic reasoning, memory, tool use
-├── multimodal/              # Vision-language, audio-video generation
+├── llms-foundation-models/  # LLMs, foundation models, new architectures (SSM, MoE, hybrid)
+├── agentic-systems/         # Agents, tool use, agentic reasoning, multi-agent
+├── responsible-ai/          # Interpretability, alignment, safety, explainability, governance
+├── vision-audio-video/      # Multimodal, vision-language, image/video generation, speech
 ├── ai-industry/             # Company news, funding, policy, regulation
+├── social-stream/           # Twitter slot syntheses + daily roll-ups (Media Live)
 ├── daily-digest/
 │   └── YYYY-MM/
 │       └── YYYY-MM-DD.md   # One newsletter per day
 ├── index.md                 # Catalog of every wiki page
 └── log.md                   # Append-only ingest timeline
 ```
+
+The site exposes four tabs: **Today** (latest digest), **Atlas** (topic heatmaps + industry breakdown), **Media Live** (live Twitter feed with synthesized slot summaries), **Wiki Pages** (full catalog).
 
 ---
 
@@ -117,4 +124,16 @@ A macOS LaunchAgent fires at 9am, runs all farmers, then invokes Claude to write
 
 ## Starting your own
 
-See [`cere-bro-starter/`](./cere-bro-starter/) — a self-contained folder you can copy and set up with your own topics, tiers, and sources. Run `/bootstrap` in Claude Code to configure it, then `/automate` to wire up the daily pipeline.
+See [`cere-bro-starter/`](./cere-bro-starter/) — a self-contained folder you can copy into a fresh repo and set up with your own topics, tiers, and sources.
+
+**Quick start:**
+
+1. **Fork or clone** this repo, then copy `cere-bro-starter/` contents to your fresh project root.
+2. **Open Claude Code** in your project root and run `/bootstrap`. It interviews you for: wiki name, your role, topic tiers (Tier 1 / Tier 2 / Tier 3 areas you care about), industry tracking on/off, source toggles (Gmail / Twitter / Kurate / etc.), GitHub deployment target. Bootstrap then generates your customized `CLAUDE.md`, `wiki-config.json`, and copies all the connector + site templates into place.
+3. **Configure secrets**:
+   - Copy `.env.example` to `.env` and fill in `TWITTER_BEARER_TOKEN` (optional) and `APIFY_API_TOKEN` (optional, for Twitter auto-discovery)
+   - For Gmail: follow `connectors/gmail/README.md` (Google Cloud Console → OAuth client → download JSON → run `python3 connectors/gmail/setup.py`)
+4. **Schedule the pipeline**: copy `templates/scripts/*.template` to `~/.local/bin/`, fill in `{{REPO_PATH}}` and `{{CLAUDE_BIN}}`, then load the LaunchAgent plists from `templates/launchagents/`. See `templates/scripts/README.md` for exact commands.
+5. **Run the site locally**: `cd site && npm install && npm run dev`. Push to GitHub to deploy via Actions.
+
+After step 5, your wiki is live at `https://<your-username>.github.io/<your-repo>/` and updates daily.

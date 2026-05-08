@@ -1,0 +1,50 @@
+#!/bin/bash
+# Slot-synthesis helper: reads raw/twitter/$DATE-$SLOT.json and writes
+# wiki/social-stream/$YYYY-MM/$DATE-$SLOT.md as a bullet-list synthesis.
+#
+# Usage: cerebro-synth-slot.sh <slot>
+# <slot> in {morning, afternoon, evening, night}
+
+set -e
+
+SLOT="${1:-}"
+case "$SLOT" in
+  morning|afternoon|evening|night) ;;
+  *) echo "usage: $0 <morning|afternoon|evening|night>" >&2; exit 2 ;;
+esac
+
+REPO="{{REPO_PATH}}"
+CLAUDE="{{CLAUDE_BIN}}"
+TODAY=$(date +%Y-%m-%d)
+MONTH=$(date +%Y-%m)
+LOG="$REPO/.claude/logs/synth-$SLOT.log"
+
+mkdir -p "$REPO/.claude/logs"
+mkdir -p "$REPO/wiki/social-stream/$MONTH"
+
+JSON_PATH="$REPO/raw/twitter/$TODAY-$SLOT.json"
+OUT_PATH="$REPO/wiki/social-stream/$MONTH/$TODAY-$SLOT.md"
+
+if [ ! -f "$JSON_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] No raw file at $JSON_PATH — skipping." >> "$LOG"
+  exit 0
+fi
+if [ -f "$OUT_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Synthesis already exists at $OUT_PATH — skipping." >> "$LOG"
+  exit 0
+fi
+
+cd "$REPO" || exit 1
+
+echo "[$TODAY $(date +%H:%M:%S)] Writing $SLOT synthesis..." >> "$LOG"
+
+"$CLAUDE" \
+  --dangerously-skip-permissions \
+  -p "Today is $TODAY. Slot: $SLOT. Read raw/twitter/$TODAY-$SLOT.json. Write a Media-Live synthesis at wiki/social-stream/$MONTH/$TODAY-$SLOT.md covering ONLY this slot's tweets. Two sections: '## Summary' (3-5 sentence prose gist) and '## Posts' (one bullet per post in a single unified list — do NOT split by curated/feed). Cluster overlapping posts into one bullet labeled '(cluster of N)'. Group opaque x.com/i/article/ reposts into one bullet listing handles. Pure promo gets 'Skip.'. NO connections section. NO h1, no long paragraphs, no pipeline commentary. Verify any wiki link target with 'ls wiki/<topic>/' before writing it. No em-dashes." \
+  >> "$LOG" 2>&1
+
+git add wiki/social-stream/ >> "$LOG" 2>&1
+git diff --cached --quiet || git commit -m "social-stream: $SLOT synthesis $TODAY" >> "$LOG" 2>&1
+git push origin main >> "$LOG" 2>&1 || true
+
+echo "[$TODAY $(date +%H:%M:%S)] $SLOT synthesis done." >> "$LOG"
