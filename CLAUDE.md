@@ -62,7 +62,7 @@ Farmers pull from these daily:
 | **Critical / opinion** | RSS | AI Snake Oil, Marcus on AI, Algorithmic Bridge |
 | Twitter | Web | AI researchers and labs the user follows |
 | AI Breakfast / Ben's Bites | — | Blocked by Cloudflare — not available via RSS |
-| **Gmail starred emails** | Local file | `raw/gmail/YYYY-MM-DD-starred.md` — starred newsletters and articles from personal Gmail (amit02093@gmail.com), farmed via `connectors/gmail/farmer.py`. Includes AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace digest snippets, and others. |
+| **Gmail starred emails** | Local file | `raw/gmail/YYYY-MM-DD-starred.md` — starred newsletters and articles from personal Gmail, farmed via `connectors/gmail/farmer.py`. Includes AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace digest snippets, and others. |
 | **Daily Digest (parallel job)** | Local file | `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/` — daily-digest-YYYY-MM-DD.md files from a separate scheduled Claude job; read alongside HuggingFace + RSS and merge unique content into the final digest |
 
 ---
