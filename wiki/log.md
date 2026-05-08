@@ -343,3 +343,6 @@ Append-only timeline of ingests and lint passes.
 - Industry items: 6 (Anthropic 80x, Amazon Claude Code/Codex, Apple Claude Code, Meta data-labelling, DeepL layoffs, Claude dreaming)
 - Cross-source: ResRL ↔ Lambert (Meituan), Anthropic-Colossus triple-source, RLVR failure-modes 4-paper cluster
 - alphaxiv enrichment used for: ResRL (4000 chars), Rethinking R-I Retrieval (4000), MiniCPM-O 4.5 (4000); not yet available for First Token Knows + SxS
+## [2026-05-08] ingest | Netflix Tech Blog: State of Routing in Model Serving (stub) | gmail
+## [2026-05-08] ingest | GitHub reliability crisis under AI agent-load (Pragmatic Engineer) | gmail
+## [2026-05-08] concept | llm-routing.md updated with Netflix stub link | concept-page
