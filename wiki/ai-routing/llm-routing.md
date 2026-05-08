@@ -67,3 +67,7 @@ Three routing paradigms remain operative:
 
 - [Inference Efficiency](../inference-efficiency/knowledge-distillation.md)
 - [KV Cache](../inference-efficiency/kv-cache.md)
+
+## Recent additions
+
+- 2026-05-08 — [Netflix Tech Blog: State of Routing in Model Serving](2026-05-08-netflix-state-of-routing-model-serving.md) (Nipun Kumar, Rajat Shah, Peter Chng). Title-level signal only; surfaced via Gmail Medium digest. Production-engineering routing taxonomy from Netflix. **Worth a manual read.** Stubbed for now, full summary pending.
