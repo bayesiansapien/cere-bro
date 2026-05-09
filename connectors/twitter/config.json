@@ -4,7 +4,7 @@
   "hours_lookback": 7,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-05T21:42:10.581199+00:00",
+  "following_last_checked": "2026-05-09T03:38:02.644064+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -56,7 +56,9 @@
     "danWpriestley",
     "SpaceX",
     "benjitaylor",
-    "kevinnbass"
+    "kevinnbass",
+    "ARK_Funds",
+    "ChrisWillx"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -330,6 +332,15 @@
         "Anthropic",
         "Musk",
         "industry"
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "name": "Sholto Douglas",
+      "org": "Anthropic",
+      "timezone": "PT",
+      "focus": [
+        "reinforcement learning"
       ]
     }
   ],
