@@ -2,6 +2,21 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-05-09] ingest | UniPool: Globally Shared Expert Pool for MoE (arxiv 2605.06665) | huggingface
+## [2026-05-09] ingest | EMO: Pretraining Mixture of Experts for Emergent Modularity (arxiv 2605.06663) | huggingface + huggingface-blog
+## [2026-05-09] ingest | TIDE: Every Layer Knows the Token Beneath the Context (arxiv 2605.06216) | huggingface
+## [2026-05-09] ingest | KernelBench-X: LLM-Generated GPU Kernels Benchmark (arxiv 2605.04956) | huggingface
+## [2026-05-09] ingest | MiA-Signature: Approximating Global Activation for Long-Context (arxiv 2605.06416) | huggingface
+## [2026-05-09] ingest | DCI: Beyond Semantic Similarity / Direct Corpus Interaction (arxiv 2605.05242) | huggingface + twitter-amplified
+## [2026-05-09] ingest | Skill curation cluster: StraTA + Skill1 + SkillOS (arxiv 2605.06642 + 2605.06130 + 2605.06614) | huggingface
+## [2026-05-09] ingest | Prescriptive Scaling Laws for Data Constrained Training (arxiv 2605.01640) | huggingface
+## [2026-05-09] ingest | Balanced Aggregation: Fixing Aggregation Bias in GRPO (arxiv 2605.04077) | huggingface
+## [2026-05-09] ingest | AI Co-Mathematician (arxiv 2605.06651) | huggingface
+## [2026-05-09] ingest | Auto Research with Specialist Agents (arxiv 2605.05724) | huggingface
+## [2026-05-09] ingest | Anthropic Natural Language Autoencoders (NLAs) | rss/the-decoder + gmail/ai-breakfast
+## [2026-05-09] ingest | Daily digest 2026-05-09 | wiki/daily-digest/2026-05/
+## [2026-05-09] ingest | Social-stream morning slot | wiki/social-stream/2026-05/
+
 ## [2026-05-05] ingest | MotionCache: Motion-Aware Caching for Autoregressive Video Generation (arxiv 2605.01725) | huggingface
 ## [2026-05-05] ingest | T^2PO: Uncertainty-Guided Exploration Control for Multi-Turn Agentic RL (arxiv 2605.02178) | huggingface
 ## [2026-05-05] ingest | Ctx2Skill: From Context to Skills (arxiv 2604.27660) | huggingface
