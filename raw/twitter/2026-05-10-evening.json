@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-10",
+  "slot": "evening",
+  "scraped_ist": "2026-05-10 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Tesla on FSD Supervised drives itself from NYC to LA with zero interventions Zack (@BLKMDL3) WE SET THE NEW YORK CITY TO LA FSD CANNONBALL RUN RECORD! Zero disengagements or human intervention on FSD v14.3.2 for 2,833 miles! 49:55:57, beating previous record by ~8.5 hours! Huge shoutout to copilots @DBurkland @AaronS5_ for joining along. Videos coming soon. @Tesla_AI — https://nitter.net/BLKMDL3/status/2053415246648463661#m",
+          "link": "https://nitter.net/Tesla/status/2053496708198531538#m",
+          "date_utc": "2026-05-10T15:25:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
