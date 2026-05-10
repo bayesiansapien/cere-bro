@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-10",
+  "slot": "morning",
+  "scraped_ist": "2026-05-10 09:08",
+  "lookback_h": 7,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "This is unfortunately mostly a bearish take on RL Jiayi Weng (@Trinkle23897) Codex iterated a pure NumPy + cv2 closed-loop heuristic policy for VizDoom D3 Battle. No neural network training, no map, no object coordinates, no seed-specific routes. Just screen pixels plus public game variables, roughly the same signals a human player gets. It works surprisingly well. Notes and videos are now in the blog: trinkle23897.github.io/learn… Video — https://nitter.net/Trinkle23897/status/2053284496116703620#m",
+          "link": "https://nitter.net/MillionInt/status/2053310486335324620#m",
+          "date_utc": "2026-05-10T03:05:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://trinkle23897.github.io/learning-beyond-gradients/#en-vizdoom",
+              "content": "Learning Beyond Gradients English 中文 Dark Learning Beyond Gradients Jiayi Weng Contents The Anomaly Heuristic Learning Why Heuristic Learning Did Not Take Off Earlier How Heuristic Learning Does Continual Learning The Complexity of Heuristic Systems The Next Paradigm? Disclaimer Acknowledgements Citation Appendix: Experiment Notes and Reproduction A.1 Experiment Notes A.2 Reproduction Entrypoints Comments Continual Learning has remained hard largely because of catastrophic forgetting in neural networks: learn something new, and old capabilities can get overwritten. But what if we do not put all of our attention on neural network weights? Is there another way to make progress? As LLM agents get stronger, coding gets faster and better. But the phenomenon I find more interesting is different:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "The last Model S the last Model X have been produced at Fremont Factory 14 years of history for Model S, 11 years for Model X 🫡",
+          "link": "https://nitter.net/Tesla/status/2053280404363432031#m",
+          "date_utc": "2026-05-10T01:06:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
