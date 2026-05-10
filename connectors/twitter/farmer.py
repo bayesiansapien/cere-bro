@@ -408,19 +408,42 @@ if own_curated:
     seen_links = set(new_seen[-500:])
     SEEN_PATH.write_text(json.dumps(sorted(seen_links), indent=2))
 
-# 2. AI handles — original tweets filtered by AI keywords
+# 2. AI handles — keep ALL original (non-retweet) tweets from hand-curated handles.
+#    The handles are themselves the curation; running the AI-keyword filter on top
+#    drops real signal (e.g. a researcher's career-move tweet that's worth seeing).
+#    Dedup across slots is handled by SEEN_AI_TWEETS_PATH below.
+SEEN_AI_PATH = STATE_DIR / "seen_ai_tweets.json"
+seen_ai_links = set()
+if SEEN_AI_PATH.exists():
+    try:
+        seen_ai_links = set(json.loads(SEEN_AI_PATH.read_text()))
+    except Exception:
+        seen_ai_links = set()
+
 print(f"\n[2/2] Scraping {len(AI_HANDLES)} AI handles...")
 ai_results: dict[str, list] = {}
+new_ai_links: list[str] = []
 for h in AI_HANDLES:
     handle = h["handle"]
     tweets = fetch_rss(handle, nitter_base)
-    recent = [t for t in tweets if is_recent(t)]
-    relevant = [t for t in recent if not is_retweet(t) and is_ai_relevant(t["text"])]
-    if relevant:
-        ai_results[handle] = relevant
-        print(f"  @{handle}: {len(relevant)} AI tweets")
+    # Keep all non-retweet originals from this handle, within the lookback window.
+    # No AI-keyword filter — the handle being curated is sufficient signal.
+    # Dedup across slots via SEEN_AI_PATH so wider lookback doesn't double-count.
+    recent  = [t for t in tweets if is_recent(t)]
+    originals = [t for t in recent if not is_retweet(t)]
+    fresh = [t for t in originals if t.get("link") and t["link"] not in seen_ai_links]
+    if fresh:
+        ai_results[handle] = fresh
+        new_ai_links.extend(t["link"] for t in fresh if t.get("link"))
+        print(f"  @{handle}: {len(fresh)} new tweets (of {len(originals)} originals in {HOURS_BACK}h)")
     else:
-        print(f"  @{handle}: 0 (nothing recent or AI-relevant)")
+        print(f"  @{handle}: 0 new (of {len(originals)} originals in {HOURS_BACK}h, all already seen)")
+
+# Persist newly captured AI-handle tweet links, capped at 1000 entries
+if new_ai_links:
+    combined = list(seen_ai_links) + new_ai_links
+    seen_ai_links = set(combined[-1000:])
+    SEEN_AI_PATH.write_text(json.dumps(sorted(seen_ai_links), indent=2))
 
 # 3. Fetch article content
 print("\nFetching article content...")
