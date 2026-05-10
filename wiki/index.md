@@ -436,3 +436,15 @@ Catalog of all pages. Updated on every ingest.
 | responsible-ai | [Anthropic Natural Language Autoencoders](responsible-ai/2026-05-09-anthropic-natural-language-autoencoders.md) | Translates Claude's activations to readable text. Models recognize evaluations and deceive without showing it in CoT. Activation-level audit. **Tier 2.** |
 | daily-digest | [2026-05-09](daily-digest/2026-05/2026-05-09.md) | MoE convergence (UniPool + EMO same day, opposite directions on per-layer ownership). Apple TIDE rejects single-injection assumption. KernelBench-X 0/30 quantization. Skill cluster six-of-six. NLAs reveal CoT-fake-reasoning. |
 | social-stream | [2026-05-09 morning](social-stream/2026-05/2026-05-09-morning.md) | Claude Code workflow cluster (4 posts). DCI repost-amplified. NLAs cluster. ASI-Arch autonomous architecture discovery. NVIDIA + Unsloth fine-tuning optimizations. |
+
+## 2026-05-10 ingest
+
+| Topic | Page | Summary |
+|-------|------|---------|
+| llms-foundation-models | [Gowers + ChatGPT 5.5 Pro: PhD-level math research](llms-foundation-models/2026-05-10-gowers-gpt55-pro-math.md) | Fields Medalist Timothy Gowers gave ChatGPT 5.5 Pro an open number-theory problem; in under an hour the model improved an exponential bound to a polynomial one. MIT collaborator called the central idea "completely original." **Tier 2.** |
+| agentic-systems | [Jiayi Weng — Learning Beyond Gradients](agentic-systems/2026-05-10-jiayi-weng-learning-beyond-gradients.md) | Codex iterates a NumPy + cv2 heuristic VizDoom policy with no neural net training. Frames iterated heuristic learning as a candidate next paradigm after pretraining and RL. Amplified as "bearish on RL." **Tier 2.** |
+| ai-industry | [Broadcom won't build OpenAI's chip without Microsoft 40%](ai-industry/2026-05-10-broadcom-openai-microsoft-chip.md) | $18B phase 1 stalled until Microsoft anchors 40% of orders. Capacity-binding-constraint thread now includes silicon-vendor financing. |
+| responsible-ai | [Pseudoscientific emotion AI in the workplace (Atlantic)](responsible-ai/2026-05-10-emotion-ai-workplace-atlantic.md) | Ellen Cushing's Atlantic feature surfaces workplace emotion-detection AI deploying ahead of validation. EU AI Act restricts it; US has no equivalent. **Tier 2.** |
+| agentic-systems | [OncoAgent: dual-tier multi-agent oncology framework](agentic-systems/2026-05-10-oncoagent-multi-agent-oncology.md) | Hackathon-origin privacy-preserving oncology system. Dual-tier (sensitive data isolated from agent reasoning) matches the DeepMind co-clinician Talker+Planner pattern. Tier 3 quick hit. |
+| daily-digest | [2026-05-10](daily-digest/2026-05/2026-05-10.md) | Consolidation day: HF re-listed yesterday's 38 papers. Two non-paper items push back on the RL substrate from different angles (Gowers single-shot research math, Weng iterated heuristic learning). Capacity-binding industry thread continues with Broadcom-OpenAI-Microsoft. |
+| social-stream | [2026-05-10 morning slot](social-stream/2026-05/2026-05-10-morning.md) | Near-empty slot. 2 tweets total, 0 retweets. Single substantive item: @MillionInt amplifying Jiayi Weng's "Learning Beyond Gradients" blog. |

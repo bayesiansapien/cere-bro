@@ -361,3 +361,20 @@ Append-only timeline of ingests and lint passes.
 ## [2026-05-08] ingest | Netflix Tech Blog: State of Routing in Model Serving (stub) | gmail
 ## [2026-05-08] ingest | GitHub reliability crisis under AI agent-load (Pragmatic Engineer) | gmail
 ## [2026-05-08] concept | llm-routing.md updated with Netflix stub link | concept-page
+## [2026-05-10] farm | huggingface daily papers (38 papers, identical to 2026-05-09 batch) | huggingface
+## [2026-05-10] farm | rss farmer: 5 new items dated 2026-05-09 (the-decoder x4, huggingface-blog x1) | rss
+## [2026-05-10] farm | gmail farmer: 0 new starred emails | gmail
+## [2026-05-10] farm | twitter farmer: 2026-05-10-morning (2 tweets, 0 curated retweets, 1 article) | twitter
+## [2026-05-10] farm | kurate farmer: cs.AI + cs.LG weekly top-20, 0 rising authors crossed threshold | kurate
+## [2026-05-10] ingest | Gowers + ChatGPT 5.5 Pro PhD math (Tier 2 Deep Dive) | rss/the-decoder
+## [2026-05-10] ingest | Jiayi Weng - Learning Beyond Gradients (Tier 2 Deep Dive) | twitter+blog
+## [2026-05-10] ingest | Broadcom-OpenAI-Microsoft chip financing wall | rss/the-decoder
+## [2026-05-10] ingest | Pseudoscientific emotion AI in workplace (Atlantic) | rss/the-decoder
+## [2026-05-10] ingest | OncoAgent dual-tier multi-agent oncology (Quick Hit) | rss/huggingface-blog
+## [2026-05-10] digest | Daily Digest 2026-05-10 | digest
+- Sources: HF (38 papers, identical to 05-09 batch), RSS (5 new items dated 05-09), Gmail (0), Twitter (2 tweets, 0 retweets), Kurate (cs.AI + cs.LG top-20 weekly, 0 rising authors)
+- Deep Dives: 2 (Gowers + ChatGPT 5.5 Pro, Jiayi Weng Learning Beyond Gradients)
+- Industry items: 3 (Broadcom/OpenAI/Microsoft chip wall, emotion AI workplace, Google Preferred Sources)
+- Theme: consolidation day; the live story is yesterday's MoE / skill-curation / kernel-benchmark batch; today's signal is two non-paper items pushing back on the RL substrate
+- alphaxiv enrichment: not used (today's Tier 2 Deep Dives are not arxiv papers)
+## [2026-05-10] ingest | Media-Live morning synthesis: 2 tweets (Jiayi Weng amplification + Tesla off-topic) | social-stream
