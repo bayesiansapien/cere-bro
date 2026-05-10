@@ -2,7 +2,7 @@
   "_comment": "Bootstrap fills own_handle and ai_handles from your interview. See README.md.",
   "own_handle": "YOUR_X_HANDLE",
   "scrape_own_retweets": true,
-  "hours_lookback": 7,
+  "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
   "following_last_checked": null,

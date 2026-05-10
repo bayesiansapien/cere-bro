@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-10",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-10 16:07",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "This is unfortunately mostly a bearish take on RL Jiayi Weng (@Trinkle23897) Codex iterated a pure NumPy + cv2 closed-loop heuristic policy for VizDoom D3 Battle. No neural network training, no map, no object coordinates, no seed-specific routes. Just screen pixels plus public game variables, roughly the same signals a human player gets. It works surprisingly well. Notes and videos are now in the blog: trinkle23897.github.io/learn… Video — https://nitter.net/Trinkle23897/status/2053284496116703620#m",
+          "link": "https://nitter.net/MillionInt/status/2053310486335324620#m",
+          "date_utc": "2026-05-10T03:05:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://trinkle23897.github.io/learning-beyond-gradients/#en-vizdoom",
+              "content": "Learning Beyond Gradients English 中文 Dark Learning Beyond Gradients Jiayi Weng Contents The Anomaly Heuristic Learning Why Heuristic Learning Did Not Take Off Earlier How Heuristic Learning Does Continual Learning The Complexity of Heuristic Systems The Next Paradigm? Disclaimer Acknowledgements Citation Appendix: Experiment Notes and Reproduction A.1 Experiment Notes A.2 Reproduction Entrypoints Comments Continual Learning has remained hard largely because of catastrophic forgetting in neural networks: learn something new, and old capabilities can get overwritten. But what if we do not put all of our attention on neural network weights? Is there another way to make progress? As LLM agents get stronger, coding gets faster and better. But the phenomenon I find more interesting is different:"
+            }
+          ]
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "As there are a lot of questions what I meant here: If there is heuristic for solving the game simple enough to be coded by codex, RL will find it and optimize towards it. But it is clear that such heuristic is not generally intelligent and will not generalise. The bottleneck to RL generalization lies in environments where simple heuristics get you far and it’s easy to get stuck in local optimum.",
+          "link": "https://nitter.net/MillionInt/status/2053358276029612336#m",
+          "date_utc": "2026-05-10T06:15:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Laws of physics of companies are generally simple but specific for each industry. The only way to get outsized returns is to find new or bend existing laws. It is almost universally achieved through technological innovation.",
+          "link": "https://nitter.net/MillionInt/status/2053217907677827528#m",
+          "date_utc": "2026-05-09T20:57:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "If I was @Lin_Manuel I’d feel an urge to do a certain thing Daniel Green (@dgrreen) The Sam Altman and @miramurati texts from the day he got fired from @OpenAI in 2023 just became evidence in the @elonmusk v. @sama trial. It felt like a meaningful moment in AI history, so I turned it into a musical. The lyrics are the texts. Video — https://nitter.net/dgrreen/status/2052568095181443576#m",
+          "link": "https://nitter.net/MillionInt/status/2053128384860069980#m",
+          "date_utc": "2026-05-09T15:02:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "The last Model S the last Model X have been produced at Fremont Factory 14 years of history for Model S, 11 years for Model X 🫡",
+          "link": "https://nitter.net/Tesla/status/2053280404363432031#m",
+          "date_utc": "2026-05-10T01:06:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "What you see vs what your Tesla is able to see Elon Musk (@elonmusk) The human-perceived RGB is image 1 and the Tesla AI photon count reconstruction is image 2. This is why Tesla FSD can see so well at night or through extreme glare. — https://nitter.net/elonmusk/status/2053181971644416080#m",
+          "link": "https://nitter.net/Tesla/status/2053188146989609209#m",
+          "date_utc": "2026-05-09T18:59:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Milliseconds matter Wes (@wmorrill3) Every one of these dots is an actual crash from the fleet. Real world speeds, collisions, and people. Not just the regulatory test cases. The richness of this data is what enabled the result. With simulation we can replay the crashes and measure the forces on the human body model. Then sweep through restraint deployment times to find that deploying earlier gives the time for the bag to be inflated optimally and seat belt pretension before the occupant has moved out of position. But it takes time for crash accelerometers to be certain. Lowering that time thr",
+          "link": "https://nitter.net/Tesla/status/2053128484931903592#m",
+          "date_utc": "2026-05-09T15:02:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Got weekend plans? By @heavypulp , made with Grok Imagine",
+          "link": "https://nitter.net/imagine/status/2053180181435781179#m",
+          "date_utc": "2026-05-09T18:27:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Cathedral of Learning in Pittsburgh, Pennsylvania. Why can’t we build beautiful buildings like this any longer?",
+          "link": "https://nitter.net/magicsilicon/status/2053131922637742436#m",
+          "date_utc": "2026-05-09T15:16:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
