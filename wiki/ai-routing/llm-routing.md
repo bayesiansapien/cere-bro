@@ -2,7 +2,11 @@
 
 Routing in LLM systems means deciding which model (or no model) should handle a given query — with the goal of minimizing cost while meeting quality requirements.
 
-## Current State (as of 2026-05-04)
+## Current State (as of 2026-05-11)
+
+**Latest additions (2026-05-11):** Routing has now visibly moved inside the model. Three new papers on the same axis: **Conductor (Sakana, ICLR 2026)** trains a 7B model with RL to orchestrate frontier workers (GPT-5, Claude Sonnet 4, Gemini 2.5 Pro), beating every individual model on GPQA-D / LiveCodeBench / AIME25 at ~3 calls per question; the orchestrator decides topology and per-worker prompt content as a single RL policy, generalizes to unseen agent mixes, forms recursive topologies when allowed to self-call. **CaRE (HF)** introduces Bi-Level Routing MoE for continual learning: a task-router selection stage above the expert-routing stage, scales to 300+ non-overlapping tasks (where flat MoE routers collapse). **MISA (HF)** routes the indexer-head axis of sparse attention, treating the 64 indexer heads as an MoE pool. Three papers in 24 hours making the same architectural claim: routing is the policy, not the wrapper. The wiki's three-axis framing (query / provider / trajectory) now needs a fourth: model-internal routing. **DAIR.AI's weekly top-papers email (Gmail)** independently surfaced Conductor plus HeavySkill (RLVR-trained parallel-deliberation as an inner skill) and described both as "harness wins look like model wins" — same pattern from a third source.
+
+## Prior state (as of 2026-05-04)
 
 Routing is an active research and production concern operating on **three distinct axes** that the May 2026 batch makes explicit:
 
