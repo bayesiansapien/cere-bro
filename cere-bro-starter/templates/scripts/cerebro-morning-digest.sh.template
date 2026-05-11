@@ -52,9 +52,13 @@ fi
 
 # After the digest is written, generate the NotebookLM podcast (~12 min).
 # Idempotent: skips if today's audio file already exists.
+# Podcast is LAGGED BY ONE DAY: today's 9 AM cron generates yesterday's podcast,
+# since by now yesterday's full day window is collected and today's morning slot
+# captures the overnight tail.
 if [ -d "$REPO/connectors/notebooklm" ]; then
-  echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast..." >> "$LOG"
-  python3 "$REPO/connectors/notebooklm/podcast.py" "$TODAY" >> "$LOG" 2>&1 || \
+  YESTERDAY=$(date -v-1d +%Y-%m-%d 2>/dev/null || date -d "yesterday" +%Y-%m-%d)
+  echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast for $YESTERDAY..." >> "$LOG"
+  python3 "$REPO/connectors/notebooklm/podcast.py" "$YESTERDAY" >> "$LOG" 2>&1 || \
     echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed — continuing (digest still committed)." >> "$LOG"
 fi
 

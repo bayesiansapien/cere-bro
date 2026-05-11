@@ -124,29 +124,32 @@ for line in digest_text.splitlines():
                 continue
             deep_dive_urls.append(url)
 
-# Social-stream (Media Live) files — holistic 24h window aligned with the digest.
-# A "cere-bro day" runs from 9 AM IST to 9 AM IST. For digest date X this means:
-#   - today's morning slot (X-morning.md)              — just-written at 9 AM today
-#   - yesterday's daily rollup (X-1.md)                — covers all 4 slots from X-1
-#   - any other today-prefixed slot files that exist   — afternoon/evening only present for back-dated runs
-# Fallback: if yesterday's rollup is missing, pick up the individual slot files.
+# Social-stream (Media Live) files — full 24h window for the target podcast date.
+#
+# Convention: the podcast is LAGGED BY ONE DAY relative to the cron. The 9 AM cron
+# on day Y generates the podcast for day X (where X = Y - 1). By that time, X's full
+# day window (9 AM X → 9 AM Y) is complete:
+#   - All 4 daytime slot files for X exist (morning/afternoon/evening/pm).
+#   - The midnight rollup for X exists (X.md, aggregating the 4 slots).
+#   - The overnight tail from 10 PM X to 9 AM Y is captured by Y's morning slot
+#     (just written by today's farmer at 9 AM), tagged with Y's date.
+#
+# Source set for date_str = X:
+#   - All X-prefixed files (X-morning, X-afternoon, X-evening, X-pm, X.md rollup)
+#   - Y-morning.md (the next-day morning slot — overnight catch)
 social_stream_paths: list[Path] = []
 if cfg.get("include_media_live_files", True):
-    # Today's social-stream files
+    # Target date's own social-stream files (4 slots + daily rollup)
     ss_dir = REPO_ROOT / "wiki" / "social-stream" / year_month
     if ss_dir.exists():
         social_stream_paths.extend(sorted(ss_dir.glob(f"{date_str}*.md")))
 
-    # Yesterday's social-stream — prefer rollup, fall back to slot files
-    yesterday      = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
-    yesterday_ym   = yesterday[:7]
-    yest_ss_dir    = REPO_ROOT / "wiki" / "social-stream" / yesterday_ym
-    yesterday_roll = yest_ss_dir / f"{yesterday}.md"
-    if yesterday_roll.exists():
-        social_stream_paths.append(yesterday_roll)
-    elif yest_ss_dir.exists():
-        # rollup missing — bring in yesterday's individual slot files
-        social_stream_paths.extend(sorted(yest_ss_dir.glob(f"{yesterday}-*.md")))
+    # Next-day morning slot — captures the overnight tail of date_str (10 PM → 9 AM)
+    tomorrow         = (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
+    tomorrow_ym      = tomorrow[:7]
+    tomorrow_morning = REPO_ROOT / "wiki" / "social-stream" / tomorrow_ym / f"{tomorrow}-morning.md"
+    if tomorrow_morning.exists():
+        social_stream_paths.append(tomorrow_morning)
 
 print(f"\nSources discovered:")
 print(f"  Digest:           1")

@@ -166,6 +166,10 @@ function walk(dir) {
   const files = [];
   for (const e of entries) {
     const p = path.join(dir, e.name);
+    // Skip podcast folders entirely — episode notes are Substack drafts, not
+    // wiki content. They live in the repo alongside the audio for convenience
+    // but should not appear in the digest list or sitemap.
+    if (e.isDirectory() && e.name === 'podcasts') continue;
     if (e.isDirectory()) files.push(...walk(p));
     else if (e.isFile() && p.endsWith('.md')) files.push(p);
   }

@@ -137,6 +137,8 @@ function walk(dir) {
   const files = [];
   for (const e of entries) {
     const p = path.join(dir, e.name);
+    // Skip podcast folders — episode notes are Substack drafts, not wiki content.
+    if (e.isDirectory() && e.name === 'podcasts') continue;
     if (e.isDirectory()) files.push(...walk(p));
     else if (e.isFile() && p.endsWith('.md')) files.push(p);
   }
