@@ -1,7 +1,7 @@
 {
   "_comment": "Reddit AI subreddit farmer config. Sourced from deep research 2026-05-10. See README.md for tier mapping rationale.",
   "lookback_hours": 24,
-  "user_agent": "cere-bro-reddit-farmer/1.0 (+https://github.com/bayesiansapien/cere-bro)",
+  "user_agent": "wiki-reddit-farmer/1.0",
   "subreddits": [
     {
       "name": "LocalLLaMA",

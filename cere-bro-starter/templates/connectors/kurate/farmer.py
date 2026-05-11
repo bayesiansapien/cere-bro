@@ -48,7 +48,7 @@ TOP_N      = cfg["top_n"]
 TIER_KW    = {int(k): [w.lower() for w in v] for k, v in cfg["tier_keywords"].items()}
 RA         = cfg["rising_author"]
 
-UA = "cere-bro-kurate-farmer/1.0 (+https://github.com/bayesiansapien/cere-bro)"
+UA = "wiki-kurate-farmer/1.0"
 FORCE = "--force" in sys.argv
 
 # ── Timing ─────────────────────────────────────────────────────────────────────

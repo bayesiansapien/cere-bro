@@ -7,11 +7,22 @@
 # Farmer state (not synced — cloud runs use fallback window)
 .farmer-state/
 
-# Secrets
+# Secrets — see CLAUDE.md "Secrets policy". Never check tokens into the repo.
 .env
+.env.*
+*.token
+*-token
+*token.txt
+secrets/
+*credentials*
+*credential*.json
+connectors/*/credentials/
+connectors/*/.secrets/
+.config/cere-bro/
 
 # Runtime logs (local only)
 .claude/logs/
 
-# Podcast audio output (large binary files)
-wiki/daily-digest/**/podcasts/*.mp3
+# Podcast audio output (large binary files — stored on HF, linked from RSS / Substack)
+wiki/daily-digest/**/podcasts/**/*.mp3
+wiki/daily-digest/**/podcasts/**/*.m4a
