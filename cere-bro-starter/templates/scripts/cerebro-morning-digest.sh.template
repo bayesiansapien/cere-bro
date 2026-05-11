@@ -29,6 +29,10 @@ echo "[$TODAY $(date +%H:%M:%S)] Running Kurate farmer..." >> "$LOG"
 python3 "$REPO/connectors/kurate/farmer.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] Kurate farmer failed or skipped — continuing." >> "$LOG"
 
+echo "[$TODAY $(date +%H:%M:%S)] Running Reddit farmer..." >> "$LOG"
+python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Reddit farmer failed or skipped — continuing." >> "$LOG"
+
 # Push raw files
 git add raw/ >> "$LOG" 2>&1
 git diff --cached --quiet || git commit -m "raw: morning farmer scrape $TODAY" >> "$LOG" 2>&1

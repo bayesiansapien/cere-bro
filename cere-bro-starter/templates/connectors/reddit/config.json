@@ -1,0 +1,77 @@
+{
+  "_comment": "Reddit AI subreddit farmer config. Sourced from deep research 2026-05-10. See README.md for tier mapping rationale.",
+  "lookback_hours": 24,
+  "user_agent": "cere-bro-reddit-farmer/1.0 (+https://github.com/bayesiansapien/cere-bro)",
+  "subreddits": [
+    {
+      "name": "LocalLLaMA",
+      "sort": "top",
+      "time": "day",
+      "limit": 40,
+      "min_score": 50,
+      "tier_default": 1,
+      "notes": "Inference, quantization (GGUF/AWQ/EXL2), KV cache tricks, llama.cpp internals, kernel tuning, GPU rigs. Single highest-signal sub for Tier 1 efficiency."
+    },
+    {
+      "name": "MachineLearning",
+      "sort": "top",
+      "time": "day",
+      "limit": 40,
+      "min_score": 30,
+      "flair_whitelist": ["R", "P", "Research", "Project"],
+      "tier_default": 2,
+      "notes": "Filter to [R]/[P]/Research/Project flair only — drops the [D] discussion noise. Generic news is excluded."
+    },
+    {
+      "name": "MLScaling",
+      "sort": "new",
+      "limit": 25,
+      "min_score": 0,
+      "tier_default": 1,
+      "notes": "Gwern-flavored sub on scaling laws + frontier evals. Low volume but extremely high signal. Take everything."
+    },
+    {
+      "name": "CUDA",
+      "sort": "new",
+      "limit": 20,
+      "min_score": 0,
+      "tier_default": 1,
+      "notes": "Kernels, ptxas, TensorRT, FlashAttention-adjacent. Direct hits for GPU optimization."
+    },
+    {
+      "name": "LLMDevs",
+      "sort": "top",
+      "time": "day",
+      "limit": 20,
+      "min_score": 30,
+      "tier_default": 2,
+      "notes": "Production LLM dev chatter. Routing patterns, agent deployment. Some self-promo — score gate suppresses it."
+    },
+    {
+      "name": "ControlProblem",
+      "sort": "top",
+      "time": "day",
+      "limit": 15,
+      "min_score": 20,
+      "tier_default": 2,
+      "notes": "Alignment / interpretability / safety. Maps to responsible-ai topic."
+    },
+    {
+      "name": "HPC",
+      "sort": "new",
+      "limit": 15,
+      "min_score": 0,
+      "tier_default": 1,
+      "notes": "Clusters, interconnects, datacenter. Low cadence but Tier 1 hardware-side context."
+    },
+    {
+      "name": "reinforcementlearning",
+      "sort": "top",
+      "time": "day",
+      "limit": 15,
+      "min_score": 15,
+      "tier_default": 2,
+      "notes": "RLHF / RLVR / agent-trajectory adjacent."
+    }
+  ]
+}

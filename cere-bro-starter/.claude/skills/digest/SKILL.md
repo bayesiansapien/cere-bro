@@ -22,13 +22,14 @@ Determine the target date. If the user provided a date argument (e.g. `/digest 2
 
 This step is mandatory. A digest written from partial sources is incomplete.
 
-Check all FIVE raw source directories for the target date:
+Check all SIX raw source directories for the target date:
 
 1. `raw/gmail/<YYYY-MM-DD>-starred.md` — Gmail starred emails (newsletters, industry news)
 2. `raw/rss/<YYYY-MM-DD>-*.md` — RSS feeds (blogs, TLDR AI, research blogs, etc.)
 3. `raw/huggingface/<YYYY-MM-DD>-*.md` — HuggingFace Daily Papers
 4. `raw/twitter/<YYYY-MM-DD>-*.{md,json}` — Twitter retweets (curated signal) + AI handle feed
 5. `raw/kurate/<YYYY-MM-DD>-*.md` — Kurate weekly leaderboards (cs.AI + cs.LG) + rising-author tracking
+6. `raw/reddit/<YYYY-MM-DD>-r-*.md` — curated AI subreddits (community-curated practitioner signal: what runs on consumer GPUs, real deployment patterns)
 
 Read ALL files that exist for the date. If a directory has no file for the exact date, check for the nearest prior date (within 2 days). Note which sources are missing.
 

@@ -39,7 +39,8 @@
     "gmail":       false,
     "twitter":     false,
     "kurate":      true,
-    "alphaxiv":    true
+    "alphaxiv":    true,
+    "reddit":      false
   },
   "twitter": {
     "_comment": "Configured only if sources.twitter is true. own_handle is your X handle (no @). ai_handles seeded by bootstrap; you edit later in connectors/twitter/config.json.",
@@ -48,5 +49,9 @@
   "kurate": {
     "_comment": "Configured only if sources.kurate is true. categories[] uses arXiv category IDs (cs.AI, cs.LG, cs.RO, stat.ML, etc.).",
     "categories": ["cs.AI", "cs.LG"]
+  },
+  "reddit": {
+    "_comment": "Configured only if sources.reddit is true. subreddits[] is edited later in connectors/reddit/config.json (per-sub sort/score/flair tuning). Bootstrap seeds a sensible AI-research default list.",
+    "subreddits": ["LocalLLaMA", "MachineLearning", "MLScaling", "CUDA", "LLMDevs", "ControlProblem", "HPC", "reinforcementlearning"]
   }
 }
