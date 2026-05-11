@@ -21,6 +21,28 @@ This applies to everything: cron scripts, GitHub Actions, the starter template, 
 
 ---
 
+## 🔄 Starter-sync rule (read this second — non-negotiable)
+
+**Whenever a change touches the pipeline, the starter must be updated in the same change.** The starter at `cere-bro-starter/` is what people fork to bootstrap their own wiki. If it drifts from the live system, anyone who clones it gets a broken or out-of-date system.
+
+What counts as "pipeline-affecting":
+- Any new connector (`connectors/<name>/`) → sync to `cere-bro-starter/templates/connectors/<name>/` with personal info scrubbed (use `{{PLACEHOLDERS}}` for things like handles, GitHub user, show names).
+- Any change to an existing connector's farmer logic, config schema, or interface.
+- Any change to `~/.local/bin/cerebro-*.sh` scripts → sync to `cere-bro-starter/templates/scripts/*.sh.template`.
+- Any change to `site/scripts/build-data.mjs` or `site/src/` → sync the parallel file in `cere-bro-starter/templates/site/`.
+- Any change to `CLAUDE.md` structure (new sections, new operational rules) → update `cere-bro-starter/templates/CLAUDE.md.template`.
+- Any change to a bootstrap-skill question or follow-up → update `cere-bro-starter/.claude/skills/bootstrap/SKILL.md`.
+- Any new `wiki-config.json` field → update `cere-bro-starter/wiki-config.json` schema.
+
+After syncing:
+- **Scrub for personal info** in the starter. Run `grep -rn "amit\|bayesiansapien\|amit02093\|quantiphi" cere-bro-starter/` before committing. The starter must contain no real names, handles, emails, or identifiers — only placeholders or generic defaults.
+- **Commit both live and starter changes in the same commit** so reviewers see the parallel update.
+- **Push to remote** at the end. The starter is what people install from a fresh clone, so the remote needs to stay in sync.
+
+If a change is genuinely local-only (a personal preference, a one-off script, raw data), it does not need a starter update. But if you're unsure, sync it. Better to over-sync than ship a broken starter.
+
+---
+
 ## Reader Profile
 
 The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a Deep Dive, how much explanation goes in, what open problems get flagged — should be calibrated to this attention hierarchy:
