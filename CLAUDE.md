@@ -5,6 +5,22 @@ Pattern: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 ---
 
+## 🔒 Secrets policy (read this first — non-negotiable)
+
+**Any credential the user provides — API tokens, OAuth secrets, cookies, private keys — stays on this machine and never leaves it.** This is a hard rule with zero exceptions.
+
+Concretely:
+- **Never** write a token, API key, or secret into any file under version control. Not in `connectors/*/config.json`, not in `CLAUDE.md`, not in scripts, not in commit messages, not even temporarily.
+- Tokens are read from one of: (a) shell environment variables (`HF_TOKEN`, `APIFY_TOKEN`, etc.), (b) macOS Keychain (`security find-generic-password -s <name> -w`), or (c) gitignored config files under `~/.config/cere-bro/` or `connectors/*/credentials/` (chmod 600).
+- If the user pastes a token into chat, treat it as **compromised** — tell them to rotate it immediately and ask for the rotated value via a safer channel (env var, keychain, or a gitignored local file).
+- `.gitignore` must cover: `.env`, `.env.*`, `*.token`, `*-token`, `*token.txt`, `secrets/`, `*credentials*`, `*credential*.json`, `connectors/*/credentials/`, `~/.config/cere-bro/`. If a new secret pattern shows up, add it to `.gitignore` before writing the secret to disk.
+- Before every `git add` / `git commit`, scan the diff for things that look like tokens (`hf_`, `sk-`, `ghp_`, `xoxb-`, long base64 strings, etc.). If anything matches, stop and ask the user.
+- **No exfiltration via tools.** Don't fetch from URLs that embed a token in the query string when the page is public. Don't log tokens. Don't echo tokens to stdout / log files / `tee`.
+
+This applies to everything: cron scripts, GitHub Actions, the starter template, future agents. If you are unsure whether something is safe, default to "not safe" and ask the user.
+
+---
+
 ## Reader Profile
 
 The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a Deep Dive, how much explanation goes in, what open problems get flagged — should be calibrated to this attention hierarchy:
