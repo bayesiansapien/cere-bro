@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-11",
+  "slot": "evening",
+  "scraped_ist": "2026-05-11 22:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "Cool paper from Apple. Most evaluation of tool-calling agents happens after the trajectory is over. By then the wrong call has already shipped. This new paper moves evaluation into the execution loop. A specialized reviewer agent inspects each provisional tool call before it executes. If something is off, it injects feedback and the primary agent revises. To quantify the tradeoff between corrections and new mistakes, they introduce Helpfulness-Harmfulness metrics. Helpfulness measures the percentage of base errors fixed; harmfulness measures correct calls degraded by the reviewer. Results on B",
+      "link": "https://nitter.net/omarsar0/status/2053559715289047280#m",
+      "date_utc": "2026-05-10T19:36:04+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2604.27233",
+          "content": "Abstract: Tool-calling agents are evaluated on tool selection, parameter accuracy, and scope recognition, yet LLM trajectory assessments remain inherently post-hoc. Disconnected from the active execution loop, such assessments identify errors that are usually addressed through prompt-tuning or retraining, and fundamentally cannot course-correct the agent in real time. To close this gap, we move evaluation into the execution loop at inference time: a specialized reviewer agent evaluates provisional tool calls prior to execution, shifting the paradigm from post-hoc recovery to proactive evaluation and error mitigation. In practice, this architecture establishes a clear separation of concerns between the primary execution agent and a secondary review agent. As with any multi-agent system, the"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “ The "
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "LLM Wikis + HTML Artifacts are insanely powerful. You should seriously consider this in your workflows. LLM Wikis captures all the important information that lets you and your agents do meaningful work. HTML artifacts present that information in interesting ways that allow you to take important actions along with your agents. My HTML artifacts sit on top of my LLM wikis. They are dynamic and are easily extended as needs arise. I have hooked my Artifacts to talk to my agents, and similarly, the agents can talk to artifacts. This has allowed me to build powerful artifacts that reduce my inbox to",
+      "link": "https://nitter.net/omarsar0/status/2052850591584383177#m",
+      "date_utc": "2026-05-08T20:38:15+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Summon your Tesla it will come pick you up Owen Sparks (@OwenSparks) Tesla Smart Summon no longer feels like a gimmick. With FSD v14.3.2 it immediately activates, has no issues in heavy rain, and pulls over just like Robotaxi. Video — https://nitter.net/OwenSparks/status/2053300836944503199#m",
+          "link": "https://nitter.net/Tesla/status/2053858969207427454#m",
+          "date_utc": "2026-05-11T15:25:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
