@@ -1,9 +1,27 @@
 node_modules/
 site/dist/
 site/.astro/
-connectors/gmail/credentials/
 __pycache__/
 *.pyc
-.env
 .DS_Store
 raw/assets/
+
+# Secrets — see CLAUDE.md "Secrets policy". Never check tokens into the repo.
+.env
+.env.*
+*.token
+*-token
+*token.txt
+secrets/
+*credentials*
+*credential*.json
+connectors/*/credentials/
+connectors/*/.secrets/
+.config/
+
+# Runtime logs (local only)
+.claude/logs/
+
+# Podcast audio output (large binary files — stored on HF, linked from RSS)
+wiki/daily-digest/**/podcasts/**/*.mp3
+wiki/daily-digest/**/podcasts/**/*.m4a

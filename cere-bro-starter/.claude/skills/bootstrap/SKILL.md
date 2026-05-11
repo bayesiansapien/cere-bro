@@ -59,6 +59,19 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 >
 > If Reddit is enabled, also ask:
 >   - 'Use the default subreddit list, or edit it now?' — defaults: LocalLLaMA, MachineLearning, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning. If their interests don't intersect these, suggest edits in connectors/reddit/config.json after bootstrap.
+
+**Q5b. Daily podcast (optional)**
+> "Do you want a daily 1-hour podcast generated from your digest? Uses Google NotebookLM's Audio Overview feature via the unofficial `nlm` CLI. Workflow:
+> - After the digest is written each morning, the cron creates a NotebookLM notebook with the digest + wiki summaries + social-stream + external article URLs as sources.
+> - Generates a ~60 min audio overview using a tier-aware focus prompt you can edit at any time in connectors/notebooklm/config.json.
+> - Downloads the .m4a + writes a markdown Substack note to wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/.
+> - You upload manually to your podcast host (Substack, Spotify for Podcasters, etc.) — no automation against those platforms because their APIs are unreliable or private.
+>
+> Requires: NotebookLM Plus/Pro recommended (3/day on free tier vs 20/day paid). One-time setup: `pip install notebooklm-mcp-cli && nlm login`.
+>
+> Enable?"
+> If yes, also ask:
+>   - 'What's the show name?' — used in episode titles ('# N — <show name>'). Default: '<wiki-name> Radio'.
 >
 > If Gmail is enabled, point the user at connectors/gmail/README.md for the OAuth setup. Don't try to automate it; it's a manual one-time browser flow."
 

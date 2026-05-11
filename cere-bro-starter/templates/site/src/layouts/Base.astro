@@ -47,7 +47,7 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 
     <footer class="footer">
       <div class="container">
-        cere-bro — auto-built from <a href="https://github.com/bayesiansapien/cere-bro/tree/main/wiki">wiki/</a> · daily AI research synthesis
+        {wiki.wikiName} — auto-built from <a href={`https://github.com/${wiki.githubUsername}/${wiki.githubRepo}/tree/main/wiki`}>wiki/</a> · {wiki.tagline ?? "daily research synthesis"}
       </div>
     </footer>
   </body>

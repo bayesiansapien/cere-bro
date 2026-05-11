@@ -211,4 +211,10 @@ Append to `wiki/log.md`:
 - Industry items: N
 ```
 
-Tell the user the digest is written and link to it.
+**Optional: generate the podcast.** If `connectors/notebooklm/` exists and the user has `nlm` authenticated (`nlm doctor`), run:
+```
+python3 connectors/notebooklm/podcast.py YYYY-MM-DD
+```
+This creates a NotebookLM notebook with the digest + wiki summaries + social-stream + external Deep Dive URLs as sources, generates a ~60 min audio overview using the focus prompt in `connectors/notebooklm/config.json`, downloads the .m4a, and drafts a Substack note alongside. Total time ~15 min, idempotent (skips if today's audio already exists).
+
+Tell the user the digest is written and link to it. If the podcast was generated, link to that too.

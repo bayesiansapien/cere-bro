@@ -3,7 +3,7 @@
 Twitter/X farmer for cere-bro wiki.
 
 Uses Nitter RSS to scrape tweets — no auth, no cookies, free.
-  - @bayesiansapien's feed   : retweets/quote-tweets as curated signal
+  - @{own_handle}'s feed   : retweets/quote-tweets as curated signal
   - AI-relevant handles       : original tweets from key AI accounts, filtered by keywords
 
 Writes: raw/twitter/YYYY-MM-DD-am.md  (before 3pm IST)
@@ -488,7 +488,7 @@ out = [
 if own_curated:
     out.append(f"*{len(own_curated)} retweets/quote-tweets from the past {HOURS_BACK}h*\n")
     for t in own_curated:
-        out += [fmt_tweet(t, context="bayesiansapien retweeted/quoted"), "", "---", ""]
+        out += [fmt_tweet(t, context=f"{OWN_HANDLE} retweeted/quoted"), "", "---", ""]
 else:
     out.append(f"*No retweets found in the past {HOURS_BACK}h*\n")
 

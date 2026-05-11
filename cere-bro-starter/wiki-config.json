@@ -42,6 +42,12 @@
     "alphaxiv":    true,
     "reddit":      false
   },
+  "podcast": {
+    "_comment": "If enabled, the morning cron generates a daily NotebookLM podcast from the digest + social-stream + wiki summaries. Requires `nlm` CLI installed and authenticated (see connectors/notebooklm/README.md). NotebookLM Plus/Pro recommended for the daily 20-overview cap.",
+    "enabled":   false,
+    "show_name": "your-show-name",
+    "length":    "long"
+  },
   "twitter": {
     "_comment": "Configured only if sources.twitter is true. own_handle is your X handle (no @). ai_handles seeded by bootstrap; you edit later in connectors/twitter/config.json.",
     "own_handle": "your_x_handle"

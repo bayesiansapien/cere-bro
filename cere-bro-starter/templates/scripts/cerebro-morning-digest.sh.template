@@ -47,7 +47,15 @@ fi
 
 "$CLAUDE" \
   --dangerously-skip-permissions \
-  -p "Today is $TODAY. Run the digest workflow per CLAUDE.md and the digest skill. Read all five raw sources (Gmail, RSS, HuggingFace, Twitter, Kurate). Apply the HF + Kurate cross-source confirmation rule. For each Tier 1/2 Deep Dive paper, run python3 connectors/alphaxiv/enrich.py <arxiv_id> to get alphaxiv enrichment. Write today's daily digest at wiki/daily-digest/$(date +%Y-%m)/$TODAY.md and the morning slot synthesis at wiki/social-stream/$(date +%Y-%m)/$TODAY-morning.md. Commit and push. Do not stop until both are done." \
+  -p "Today is $TODAY. Run the digest workflow per CLAUDE.md and the digest skill. Read all six raw sources (Gmail, RSS, HuggingFace, Twitter, Kurate, Reddit). Apply the HF + Kurate cross-source confirmation rule. For each Tier 1/2 Deep Dive paper, run python3 connectors/alphaxiv/enrich.py <arxiv_id> to get alphaxiv enrichment. Write today's daily digest at wiki/daily-digest/$(date +%Y-%m)/$TODAY.md and the morning slot synthesis at wiki/social-stream/$(date +%Y-%m)/$TODAY-morning.md. Commit and push. Do not stop until both are done." \
   >> "$LOG" 2>&1
+
+# After the digest is written, generate the NotebookLM podcast (~12 min).
+# Idempotent: skips if today's audio file already exists.
+if [ -d "$REPO/connectors/notebooklm" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast..." >> "$LOG"
+  python3 "$REPO/connectors/notebooklm/podcast.py" "$TODAY" >> "$LOG" 2>&1 || \
+    echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed — continuing (digest still committed)." >> "$LOG"
+fi
 
 echo "[$TODAY $(date +%H:%M:%S)] Done." >> "$LOG"
