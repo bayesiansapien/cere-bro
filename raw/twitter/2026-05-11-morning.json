@@ -1,0 +1,207 @@
+{
+  "date": "2026-05-11",
+  "slot": "morning",
+  "scraped_ist": "2026-05-11 09:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@neural_avb",
+      "text": "x.com/i/article/203122093873…",
+      "link": "https://nitter.net/neural_avb/status/2031417353666441266#m",
+      "date_utc": "2026-03-10T17:10:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@burkov",
+      "text": "In this paper, a 7B language model trained with reinforcement learning learns to orchestrate larger frontier models like GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro. It does so by writing natural-language subtasks, assigning each to one of the workers, and specifying which previous outputs that worker sees in context. The resulting system outperforms every individual frontier model on benchmarks including GPQA Diamond, LiveCodeBench, and AIME25, while averaging about three model calls per question—fewer than the multi-agent pipelines and self-reflection loops it beats. The work provides evidenc",
+      "link": "https://nitter.net/burkov/status/2053636186082521136#m",
+      "date_utc": "2026-05-11T00:39:56+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://www.chapterpal.com/s/3c66a829/learning-to-orchestrate-agents-in-natural-language-with-the-conductor",
+          "content": "ChapterPal — AI-assisted reading and note-taking"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2512.04388",
+          "content": "%PDF-1.7 %���� 1 0 obj > endobj 2 0 obj > endobj 3 0 obj > stream Learning to Orchestrate Agents in Natural Language with the Conductor Stefan Nielsen Edoardo Cetin Peter Schwendeman Qi Sun Jinglue Xu Yujin Tang http://creativecommons.org/licenses/by/4.0/ cs.LG endstream endobj 4 0 obj > endobj 5 0 obj > endobj 6 0 obj > endobj 7 0 obj > endobj 8 0 obj > endobj 9 0 obj > endobj 10 0 obj > endobj 11 0 obj > endobj 12 0 obj > endobj 13 0 obj > endobj 14 0 obj > endobj 15 0 obj > endobj 16 0 obj > endobj 17 0 obj > endobj 18 0 obj > endobj 19 0 obj > endobj 20 0 obj > /Border [ 0 0 0 ] /C [ 0 1 0 ] /H /I /Rect [ 145.764 292.991 188.154 303.935 ] /Subtype /Link /Type /Annot >> endobj 21 0 obj > /Border [ 0 0 0 ] /C [ 0 1 0 ] /H /I /Rect [ 192.553 292.991 214.471 303.935 ] /Subtype /Link /Type "
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@eng_khairallah1",
+      "text": "x.com/i/article/205319815676…",
+      "link": "https://nitter.net/eng_khairallah1/status/2053405155630936297#m",
+      "date_utc": "2026-05-10T09:21:54+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@_avichawla",
+      "text": "x.com/i/article/203489607746…",
+      "link": "https://nitter.net/_avichawla/status/2034902650534187503#m",
+      "date_utc": "2026-03-20T07:59:33+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@akshay_pachaar",
+      "text": "x.com/i/article/205309752698…",
+      "link": "https://nitter.net/akshay_pachaar/status/2053166970166772052#m",
+      "date_utc": "2026-05-09T17:35:26+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205353333494…",
+      "link": "https://nitter.net/ashwingop/status/2053538351295426676#m",
+      "date_utc": "2026-05-10T18:11:10+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@addyosmani",
+      "text": "x.com/i/article/205074961123…",
+      "link": "https://nitter.net/addyosmani/status/2053231239721885918#m",
+      "date_utc": "2026-05-09T21:50:49+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "If the AI models are so smart, why do I feel like I’m losing a few neurons every time I read a longer form content written by AI? We’ve come a long way but we still have long way to go. In terms of clarity of writing we may have regressed from o1/o3 days.",
+          "link": "https://nitter.net/MillionInt/status/2053586254445568154#m",
+          "date_utc": "2026-05-10T21:21:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Clawd + last year’s umeshu (after letting it sit for 12 months, it turned out delicious!)",
+          "link": "https://nitter.net/bcherny/status/2053556256913383898#m",
+          "date_utc": "2026-05-10T19:22:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "What does this mean for silicon? 🤔",
+          "link": "https://nitter.net/magicsilicon/status/2053573633646502110#m",
+          "date_utc": "2026-05-10T20:31:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "“AI does not replace human purpose, it amplifies human capabilities.” Jensen Huang spoke eloquently after being awarded an honorary doctorate at @CarnegieMellon commencement ceremony.",
+          "link": "https://nitter.net/magicsilicon/status/2053554696019734747#m",
+          "date_utc": "2026-05-10T19:16:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read more about Jensen's message to the @CarnegieMellon Class of 2026 → nvda.ws/4ddSooe",
+          "link": "https://nitter.net/nvidia/status/2053618362484478089#m",
+          "date_utc": "2026-05-10T23:29:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4ddSooe",
+              "content": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates | NVIDIA Blog Skip to content ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates Delivering the commencement address to Carnegie Mellon University’s Class of 2026, NVIDIA founder and CEO Jensen Huang said, ‘I cannot imagine a more exciting time to begin your life’s work.’ May 10, 2026 by Matthew Leib 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! “You are entering the world at an extraordinary moment,” NVIDIA founder and CEO Jensen Huang told graduates as he delivered the keynote address at Carnegie Mellon University&#8217;s 128th commencement ceremony on Sunday. “A new industry is being born. A new era of science and discovery is beginn"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Congratulations to our Founder and CEO Jensen Huang on receiving an honorary Doctor of Science and Technology degree from @CarnegieMellon , as well as the CMU Class of 2026 graduates. 🎓 Carnegie Mellon University (@CarnegieMellon) Jensen Huang, Founder and CEO of @NVIDIA , delivered the keynote at Carnegie Mellon’s 2026 Commencement and received an honorary Doctor of Science and Technology degree. His work has helped shape modern computing and the era of #AI . More from Commencement: cmu.edu/news/stories/archive… — https://nitter.net/CarnegieMellon/status/2053562060009582949#m",
+          "link": "https://nitter.net/nvidia/status/2053617353985028501#m",
+          "date_utc": "2026-05-10T23:25:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.cmu.edu/news/stories/archives/2026/may/nvidia-founder-ceo-jensen-huang-to-carnegie-mellon-university-graduates-shape-what-comes-next",
+              "content": "NVIDIA Founder, CEO Jensen Huang to Carnegie Mellon University Graduates: ‘Shape What Comes Next’ - News - Carnegie Mellon University Skip to main content Carnegie Mellon University homepage Search Carnegie Mellon University Search Menu News Search Carnegie Mellon University Search Stories Stories section College of Engineering College of Fine Arts Dietrich College of Humanities Social Sciences Heinz College of Information Systems and Public Policy Mellon College of Science School of Computer Science Tepper School of Business Archives Archives section 2026 2026 section January February March April 2025 2025 section January February March April May June July August September October November December 2024 2024 section January February March April May June July August September October Novem"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
