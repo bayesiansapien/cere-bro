@@ -378,3 +378,26 @@ Append-only timeline of ingests and lint passes.
 - Theme: consolidation day; the live story is yesterday's MoE / skill-curation / kernel-benchmark batch; today's signal is two non-paper items pushing back on the RL substrate
 - alphaxiv enrichment: not used (today's Tier 2 Deep Dives are not arxiv papers)
 ## [2026-05-10] ingest | Media-Live morning synthesis: 2 tweets (Jiayi Weng amplification + Tesla off-topic) | social-stream
+## [2026-05-11] farm | huggingface daily papers (25 papers) | huggingface
+## [2026-05-11] farm | rss farmer: 10 new items dated 2026-05-10 (the-decoder x6, marcus-on-ai x1, huggingface-blog x1, simon-willison x2) | rss
+## [2026-05-11] farm | gmail farmer: 4 starred emails (Medium Daily Digest, AI Weekly, Marcus on AI, DAIR.AI Top Papers via LinkedIn) | gmail
+## [2026-05-11] farm | twitter farmer: 2026-05-11-morning (13 tweets, 7 retweets, 4 articles); 05-10 afternoon empty; 05-10 evening 1 tweet | twitter
+## [2026-05-11] farm | kurate farmer: cs.LG weekly top-20, rising-authors threshold not crossed; cs.AI file not produced | kurate
+## [2026-05-11] farm | reddit farmer: 8 subs (LocalLLaMA, ML, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, RL); ML+LLMDevs empty after filtering | reddit
+## [2026-05-11] ingest | MISA: Mixture of Indexer Sparse Attention (Tier 1 head-axis routing) | huggingface/2605.07363
+## [2026-05-11] ingest | UniPrefill: universal prefill acceleration in vLLM (Tier 1) | huggingface/2605.06221
+## [2026-05-11] ingest | MDN: Momentum DeltaNet for linear attention (Tier 1 substrate) | huggingface/2605.05838
+## [2026-05-11] ingest | Sakana Conductor: 7B RL orchestrator (Tier 1, cross-source confirmed DAIR.AI + Twitter) | gmail+twitter+arxiv/2512.04388
+## [2026-05-11] ingest | CaRE: Bi-Level Routing MoE continual learning 300+ tasks (Tier 1 task-axis routing) | huggingface/2602.03473
+## [2026-05-11] ingest | AutoTTS: agentic test-time scaling discovery (Tier 2) | huggingface/2605.08083
+## [2026-05-11] concept | kv-cache.md updated with MISA + UniPrefill + MDN entries | concept-page
+## [2026-05-11] concept | llm-routing.md updated with Conductor + CaRE; 4th and 5th routing axes named (head, task-expert) | concept-page
+## [2026-05-11] digest | Daily Digest 2026-05-11 | digest
+- Sources: HF (25 papers), RSS (10 posts dated 05-10), Gmail (4 emails), Twitter morning slot (13 tweets / 7 retweets / 4 articles), Kurate cs.LG only, Reddit (8 subs, ~7 posts after filters)
+- Deep Dives: 6 (MISA, UniPrefill, MDN, Sakana Conductor, CaRE, AutoTTS)
+- Industry items: 7 (ByteDance $30B, AI agents hack-and-self-replicate, GPT-5.5 +49-92% pricing, Anthropic Managed Agents framing, METR/Palo Alto, sandbagging defenses, Jensen at CMU)
+- Theme: routing moved inside the model. Four independent observations in 24h (MISA head-axis, CaRE task-axis, Sakana Conductor model-axis, HeavySkill skill-axis). LLM Routing concept page goes 3 axes -> 5 axes.
+- Cross-source: Sakana Conductor in DAIR.AI weekly Gmail + @burkov retweet via @bayesiansapien; AI self-replication in The Decoder + r/ControlProblem
+- alphaxiv enrichment: CaRE + MDN returned non-empty overviews; MISA + UniPrefill returned empty (no overview yet); used as supplementary context, not copied
+- Worth Watching: three-axis prefill composition (UniPrefill + MISA + KV Packet adapters), cache-aware Conductor, MDN at 7B+, Kurate cs.LG #5 LLM-rated underrated
+## [2026-05-11] ingest | Media-Live morning synthesis: Conductor cross-source confirmed; Jensen CMU cluster; @MillionInt clarity-regression solo signal | social-stream
