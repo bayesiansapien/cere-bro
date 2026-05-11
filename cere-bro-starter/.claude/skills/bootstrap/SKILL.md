@@ -45,6 +45,7 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 > - **alphaxiv.org overviews** — on-demand AI-generated paper explainers used to enrich Tier 1/2 Deep Dives (no setup, automatic)
 > - **Gmail starred emails** — AI newsletters you star in your inbox (requires Google OAuth setup)
 > - **Twitter/X** — retweets from your account (curated signal) + AI handle feed (no auth, uses Nitter RSS); auto-discovery of new follows requires an Apify token
+> - **Reddit AI subreddits** — curated high-signal subs (LocalLLaMA, MachineLearning, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning) via Reddit's public JSON API; no auth, score-gated + flair-filtered. Practitioner signal: what actually runs on consumer GPUs.
 > - **Manual drops** — you drop files into raw/ yourself
 >
 > You can enable all of them. Farmers for each are in the connectors/ folder.
@@ -55,6 +56,9 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 >
 > If Kurate is enabled, also ask:
 >   - 'Which arXiv categories do you want to track?' — defaults to cs.AI + cs.LG. Common others: cs.RO (robotics), stat.ML (statistics ML).
+>
+> If Reddit is enabled, also ask:
+>   - 'Use the default subreddit list, or edit it now?' — defaults: LocalLLaMA, MachineLearning, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning. If their interests don't intersect these, suggest edits in connectors/reddit/config.json after bootstrap.
 >
 > If Gmail is enabled, point the user at connectors/gmail/README.md for the OAuth setup. Don't try to automate it; it's a manual one-time browser flow."
 
