@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-05-11T00:00:00
+arxiv_id: 2605.07177
+url: https://huggingface.co/papers/2605.07177
+arxiv_url: https://arxiv.org/abs/2605.07177
+date: 2026-05-11
+---
+
+# HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents
+
+Existing multimodal search agents process target entities sequentially, issuing one tool call per entity and accumulating redundant interaction rounds whenever a query naturally decomposes into independent sub-retrievals. For such decomposable queries, we argue that effective multimodal agents should search wider rather than longer: dispatching multiple grounded queries concurrently within a round, rather than sequentially. To this end, we present HyperEyes, a parallel multimodal search agent that fuses visual grounding and retrieval into a single atomic action, enabling concurrent search across multiple entities while treating inference efficiency as a first-class training objective. HyperEyes is trained in two stages: for cold-start supervision, we develop a Parallel-Amenable Data Synthesis Pipeline covering visual multi-entity and textual multi constraint queries, and curate efficiency-oriented trajectories via Progressive Rejection Sampling. Building on this foundation, our central contribution, a Dual-Grained Efficiency-Aware Reinforcement Learning framework, operates at two complementary levels. At the macro level, we propose TRACE (Tool-use Reference-Adaptive Cost Efficiency), a trajectory-level reward whose reference is monotonically tightened during training to suppress superfluous tool calls without over-restricting genuine multi-hop search. At the micro level, we adapt On-Policy Distillation (OPD) to the multimodal agentic search setting, injecting dense token-level corrective signals from an external teacher on failed rollouts to mitigate the credit-assignment deficiency of sparse outcome rewards. Since most existing multimodal search benchmarks evaluate accuracy as the sole metric, omitting inference cost and parallel-search capability, we further introduce IMEB, a human-curated benchmark that jointly evaluates multimodal search capability and efficiency, comprising 300 multi-entity visual instances. Across six benchmarks, HyperEyes-30B surpasses the strongest open-source multimodal search agent of comparable scale by 9.9% in accuracy with 5.3x fewer tool-call rounds on average.
