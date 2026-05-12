@@ -45,7 +45,7 @@ year_month = date_str[:7]
 DIGEST_PATH = REPO_ROOT / "wiki" / "daily-digest" / year_month / f"{date_str}.md"
 EP_DIR      = REPO_ROOT / "wiki" / "daily-digest" / year_month / "podcasts" / date_str
 AUDIO_PATH  = EP_DIR / f"{date_str}.m4a"
-NOTE_PATH   = EP_DIR / f"{date_str}.md"
+HTML_PATH   = EP_DIR / f"{date_str}.html"
 
 print(f"Podcast generator | {date_str}")
 print(f"Digest: {DIGEST_PATH}")
@@ -308,8 +308,9 @@ note.append(f"🎧 Audio attached. Full digest: [{date_str}](https://{{GITHUB_US
 note.append("")
 
 note_md = "\n".join(note)
-NOTE_PATH.write_text(note_md, encoding="utf-8")
-print(f"  ✓ {NOTE_PATH}")
+# Substack's editor doesn't read markdown on paste — we render to HTML below
+# and only persist the HTML. The .md text is kept in memory as the source for
+# the renderer.
 
 
 # ── Render HTML for Substack paste ─────────────────────────────────────────────
@@ -375,7 +376,6 @@ html_doc = f"""<!DOCTYPE html>
 </body>
 </html>
 """
-HTML_PATH = EP_DIR / f"{date_str}.html"
 HTML_PATH.write_text(html_doc, encoding="utf-8")
 print(f"  ✓ {HTML_PATH}  (open in browser → Cmd+A → Cmd+C → paste into Substack)")
 
@@ -391,4 +391,4 @@ if cfg.get("delete_notebook_after_download", True):
 
 print(f"\n✓ Done. Episode #{EPISODE_NUMBER} ready at {EP_DIR}/")
 print(f"  • Audio: {AUDIO_PATH.name}")
-print(f"  • Note:  {NOTE_PATH.name}")
+print(f"  • Notes: {HTML_PATH.name}  (paste source for Substack)")

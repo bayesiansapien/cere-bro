@@ -11,7 +11,7 @@ After the morning digest is written, this connector:
 3. **Adds sources**: the digest itself, all referenced wiki summaries, all social-stream files for the date, and external Deep Dive URLs (articles, blog posts, arXiv papers).
 4. **Triggers audio generation** with the focus prompt from `config.json`, format `deep_dive`, length `long` (~50–60 min).
 5. **Polls until ready** (~12 min on a populated notebook), downloads the `.m4a`.
-6. **Writes a Substack note** alongside the audio at `wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/YYYY-MM-DD.md` — episode title (`# N — Show Name`), short summary pulled from the digest's framing, and a "In this episode" bullet list from the TL;DR. Paste it into Substack's new-podcast form when uploading.
+6. **Writes a Substack note** alongside the audio at `wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/YYYY-MM-DD.html` — episode title (`N — Show Name`), short summary pulled from the digest's framing, and an "In this episode" bullet list from the TL;DR. Rendered as styled HTML so it pastes cleanly into Substack's rich-text editor.
 7. **Deletes the temporary notebook** to keep your NotebookLM workspace clean.
 
 The audio file is gitignored — host it on HuggingFace, R2, or upload directly to your podcast platform (Substack, Spotify for Podcasters, etc.).
@@ -54,11 +54,10 @@ The morning cron (`scripts/cerebro-morning-digest.sh.template`) calls this autom
 
 ## Distribution
 
-The script writes three files per episode to `wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/`:
+The script writes two files per episode to `wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/`:
 
-- `YYYY-MM-DD.m4a` — the audio (gitignored)
-- `YYYY-MM-DD.md`  — the Substack note in markdown (editing source)
-- `YYYY-MM-DD.html` — the same note rendered to HTML (paste source for Substack)
+- `YYYY-MM-DD.m4a`  — the audio (gitignored)
+- `YYYY-MM-DD.html` — the show-notes rendered for clean Substack paste
 
 **Substack upload workflow** (~2 min daily):
 
