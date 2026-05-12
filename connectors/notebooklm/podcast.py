@@ -283,11 +283,23 @@ for line in digest_text.splitlines():
     if in_dd and line.startswith("### "):
         deep_dive_titles.append(line[4:].strip())
 
+# Compute actual audio duration so the note's "Run time" is accurate
+try:
+    probe = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", str(AUDIO_PATH)],
+        capture_output=True, text=True, check=True
+    )
+    run_min = int(round(float(probe.stdout.strip()) / 60))
+    run_time_str = f"~{run_min} min"
+except Exception:
+    run_time_str = "~45 min"
+
 note = []
 note.append(f"# {EPISODE_NUMBER} — {cfg['show_name']}")
 note.append("")
 note.append(f"**Date:** {date_str}  ")
-note.append(f"**Run time:** ~58 min")
+note.append(f"**Run time:** {run_time_str}")
 note.append("")
 if framing:
     note.append(framing)
@@ -302,8 +314,86 @@ note.append("")
 note.append(f"🎧 Audio attached. Full digest: [{date_str}](https://bayesiansapien.github.io/cere-bro/digests/{date_str}/)")
 note.append("")
 
-NOTE_PATH.write_text("\n".join(note), encoding="utf-8")
+note_md = "\n".join(note)
+NOTE_PATH.write_text(note_md, encoding="utf-8")
 print(f"  ✓ {NOTE_PATH}")
+
+
+# ── Render HTML for Substack paste ─────────────────────────────────────────────
+# Substack's editor is rich-text, not markdown. Pasting raw .md shows literal
+# `#` and `**`. Render to HTML so the user can open in browser, select all,
+# copy, and paste into Substack with regular Cmd+V — formatting transfers.
+
+def _process_inline(text: str) -> str:
+    """Inline markdown → HTML: links, bold, italic."""
+    text = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<a href="\2">\1</a>', text)
+    text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"(?<!\*)\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", text)
+    return text
+
+def _md_to_html_blocks(md_text: str) -> str:
+    """Minimal markdown → HTML for the small note subset we use."""
+    blocks = re.split(r"\n\s*\n", md_text.strip())
+    out_blocks = []
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        if block == "---":
+            out_blocks.append("<hr>")
+            continue
+        # Heading: single line starting with #+
+        first_line = block.split("\n")[0]
+        heading_match = re.match(r"^(#+)\s+(.+)$", first_line)
+        if heading_match and "\n" not in block:
+            level = min(len(heading_match.group(1)), 6)
+            text = _process_inline(heading_match.group(2))
+            out_blocks.append(f"<h{level}>{text}</h{level}>")
+            continue
+        # List: every non-empty line starts with "- "
+        lines = block.split("\n")
+        non_empty = [ln for ln in lines if ln.strip()]
+        if non_empty and all(ln.lstrip().startswith("- ") for ln in non_empty):
+            items = [f"  <li>{_process_inline(ln.lstrip()[2:].strip())}</li>" for ln in non_empty]
+            out_blocks.append("<ul>\n" + "\n".join(items) + "\n</ul>")
+            continue
+        # Paragraph: join lines (preserve `  ` line-break as <br>)
+        para_parts = []
+        for ln in lines:
+            content = _process_inline(ln.rstrip())
+            if ln.endswith("  "):
+                para_parts.append(content + "<br>")
+            else:
+                para_parts.append(content)
+        out_blocks.append("<p>" + " ".join(para_parts) + "</p>")
+    return "\n\n".join(out_blocks)
+
+note_html_body = _md_to_html_blocks(note_md)
+html_doc = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{cfg['show_name']} — episode {EPISODE_NUMBER} ({date_str})</title>
+<style>
+  body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }}
+  h1 {{ font-size: 1.8rem; margin-bottom: 0.5rem; }}
+  ul {{ padding-left: 1.5rem; }}
+  li {{ margin-bottom: 0.4rem; }}
+  hr {{ border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }}
+  a  {{ color: #0066cc; }}
+  p  {{ margin: 0.75rem 0; }}
+</style>
+</head>
+<body>
+{note_html_body}
+</body>
+</html>
+"""
+HTML_PATH = EP_DIR / f"{date_str}.html"
+HTML_PATH.write_text(html_doc, encoding="utf-8")
+print(f"  ✓ {HTML_PATH}  (open in browser → Cmd+A → Cmd+C → paste into Substack)")
 
 # ── Cleanup notebook ──────────────────────────────────────────────────────────
 

@@ -54,12 +54,25 @@ The morning cron (`scripts/cerebro-morning-digest.sh.template`) calls this autom
 
 ## Distribution
 
-The script writes the audio + a markdown note to a per-episode folder. Suggested upload flow on Substack (2 min daily):
+The script writes three files per episode to `wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/`:
 
-1. Open the Substack app (mobile or web), tap **New** → **Podcast episode**.
-2. Upload the `.m4a` from `wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/`.
-3. Copy the contents of `YYYY-MM-DD.md` — title goes in the title field, body becomes show notes.
-4. Publish. Substack auto-syndicates to Spotify, Apple Podcasts, etc. via its podcast RSS feed.
+- `YYYY-MM-DD.m4a` — the audio (gitignored)
+- `YYYY-MM-DD.md`  — the Substack note in markdown (editing source)
+- `YYYY-MM-DD.html` — the same note rendered to HTML (paste source for Substack)
+
+**Substack upload workflow** (~2 min daily):
+
+1. **Audio**: open Substack → New → Podcast episode. Upload the `.m4a`.
+2. **Title**: copy from the `<h1>` of the .html — `N — Show Name` becomes the episode title.
+3. **Show notes / body**:
+   - Open the `.html` in a browser: `open wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/YYYY-MM-DD.html`
+   - Cmd+A to select all, Cmd+C to copy.
+   - Paste into Substack's body field with **regular Cmd+V** (NOT Cmd+Shift+V).
+   - Headings, bold, lists, and links transfer as Substack's native rich-text elements.
+
+**Why HTML and not markdown?** Substack's editor doesn't parse markdown on paste — pasting raw `.md` shows literal `#` and `**` characters. Pasting from a browser-rendered HTML page transfers as styled rich text. Cmd+Shift+V strips formatting into one plain-text block, also wrong.
+
+After publishing, Substack auto-syndicates the episode to Spotify, Apple Podcasts, and other directories subscribed to its podcast RSS feed.
 
 For fully-automated distribution (no manual upload), use a HuggingFace dataset for audio storage and have Astro generate `/podcast.xml`. Submit that RSS feed once to Spotify for Podcasters + Apple Podcasts Connect — they pull new episodes automatically thereafter.
 
