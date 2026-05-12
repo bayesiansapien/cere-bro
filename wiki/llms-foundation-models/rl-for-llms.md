@@ -2,7 +2,11 @@
 
 Using RL to improve LLM reasoning and alignment — from RLHF to RLVR (verifiable rewards) to newer approaches that optimize the pre-training distribution directly.
 
-## Current State (as of 2026-05-04)
+## Current State (as of 2026-05-12)
+
+**Latest additions (2026-05-12):** Two papers extend the "operational targets are sparse and locatable" thread (which is now six papers strong) into self-distillation territory. **RLRT (Rebellious Student)** reads the self-distillation signal in reverse: when the student succeeds along a path the teacher would not have predicted, those tokens are the student's own exploration and get reinforced inside a GRPO loop. Information asymmetry becomes a new design axis for RLVR. **G-Zero** drops external verifiers entirely. The intrinsic reward is **Hint-delta**: the predictive shift between the model's unassisted response and its hint-conditioned response. A Proposer (GRPO) finds blind spots, a Generator (DPO) internalizes the hint-guided improvements. Best-iterate suboptimality bound under exploration-coverage and noise-control assumptions. Together with **Geometry Conflict** (today, llms-foundation-models) and **Model Merging Scaling Laws** (today), the picture is: training dynamics are increasingly understood at the layer of "which updates compose without interference, which tokens carry the signal, which deltas constitute exploration." Six papers in two months (TIP, LongAct, Compliance vs Sensibility, Safety Drift, RLRT, G-Zero) make sparseness-and-locatability the dominant design pattern.
+
+## Prior State (as of 2026-05-04)
 
 The "operational targets are sparse and locatable" thread is now four papers strong: TIP (04-16, distillation signal in <10% of tokens), LongAct (04-18, saliency-driven sparse RL updates), Compliance vs Sensibility (05-02, reasoning mode is a linear direction), Safety Drift (05-02, safety is a vector-not-scalar across benchmarks). MIT's superposition explanation for scaling laws (05-03) gives the mechanistic substrate: features are encoded along approximately non-interfering directions, and that's why scaling works *and* why operationally relevant variables are linear and steerable. The structural prediction: most RL post-training behavior is a steerable manifold — the next paper makes activation-steering competitive with full RLHF on at least one task.
 
