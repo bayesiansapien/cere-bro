@@ -1,0 +1,114 @@
+{
+  "date": "2026-05-12",
+  "slot": "morning",
+  "scraped_ist": "2026-05-12 09:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "I put my flight preferences in my Cowork instructions, then let Opus get to work. It opened my browser, navigated a bunch of websites, and booked everything for me. The result: Cowork booked 8 flights and 5 hotels for me, while I was hacking on something else in Claude Code. It did it perfectly. I am blown away -- it's never been this smooth before. Never booking flights by hand again. ✈️",
+          "link": "https://nitter.net/bcherny/status/2053994085565014188#m",
+          "date_utc": "2026-05-12T00:22:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "I needed to book flights for a bunch of upcoming travel. As always, I used Claude Cowork to do it. In the past, Cowork has been decent at booking flights, but with Opus 4.7, for the first time ever, it 1-shotted it!",
+          "link": "https://nitter.net/bcherny/status/2053994083497238712#m",
+          "date_utc": "2026-05-12T00:22:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "The best way to level up from 1 agent = many agents. No more cycling between terminal tabs Claude (@claudeai) New in Claude Code: agent view. One list of all your sessions, available today as a research preview. Video — https://nitter.net/claudeai/status/2053940934736228454#m",
+          "link": "https://nitter.net/bcherny/status/2053982327123132846#m",
+          "date_utc": "2026-05-11T23:35:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "We're the first cloud provider to offer @AnthropicAI 's native Claude Platform directly through customer accounts. Teams get access to the full platform, from Managed Agents to code execution, using the @awscloud credentials, billing, and audit controls they already rely on. No new vendor accounts, no new systems. aws.amazon.com/blogs/machine… Video",
+          "link": "https://nitter.net/mattsgarman/status/2053915858183864665#m",
+          "date_utc": "2026-05-11T19:11:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/",
+              "content": "Introducing Claude Platform on AWS: Anthropic’s native platform, through your AWS account | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence Introducing Claude Platform on AWS: Anthropic’s native platform, through your AWS account by Dani Mitchell , Ayan Ray , Eugenio Soltero , Sofian Hamiti , and Antonio Rodriguez on 11 MAY 2026 in Amazon Bedrock , Announcements , Artificial Intelligence Permalink Comments Share Today, we’re excited to announce the general availability of Claude Platform on AWS. Claude Platform on AWS is a new service that gives customers direct access to Anthropic’s native Claude Platform experience throu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🔗 nvda.ws/4nmYOG4",
+          "link": "https://nitter.net/nvidia/status/2053895317917966580#m",
+          "date_utc": "2026-05-11T17:49:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4nmYOG4",
+              "content": "NVIDIA at Dell Technologies World | May 18-21, 2026 | Las Vegas NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) "
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Don’t miss our CEO Jensen Huang and @Dell Technologies Chairman CEO Michael Dell at the Unleash the Future Keynote at #DellTechWorld to hear how we are collaborating to harness the power of AI and accelerate enterprise solutions.",
+          "link": "https://nitter.net/nvidia/status/2053895315489533962#m",
+          "date_utc": "2026-05-11T17:49:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
