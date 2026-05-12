@@ -401,3 +401,33 @@ Append-only timeline of ingests and lint passes.
 - alphaxiv enrichment: CaRE + MDN returned non-empty overviews; MISA + UniPrefill returned empty (no overview yet); used as supplementary context, not copied
 - Worth Watching: three-axis prefill composition (UniPrefill + MISA + KV Packet adapters), cache-aware Conductor, MDN at 7B+, Kurate cs.LG #5 LLM-rated underrated
 ## [2026-05-11] ingest | Media-Live morning synthesis: Conductor cross-source confirmed; Jensen CMU cluster; @MillionInt clarity-regression solo signal | social-stream
+
+## [2026-05-12] farm | huggingface farmer: 17 papers (Soohak, ARR, X-OmniClaw, Geometry Conflict, Make Each Token Count, Omni-Persona, Model Merging Scaling Laws, ROMA, DeltaRubric, G-Zero, RigidFormer, RLRT, SuperG-DPO, Entity ID Confusion, Sub-JEPA, TD3B, Kazakhstan 100K) | huggingface
+## [2026-05-12] farm | rss farmer: 18 items written (Decoder 05-10/11 8 items, TLDR AI, Algorithmic Bridge, Import AI 456, HF Blog, 5 Simon Willison, SemiAnalysis EDA primer 05-12) | rss
+## [2026-05-12] farm | gmail farmer: 1 starred email (AI Breakfast 05-11) | gmail
+## [2026-05-12] farm | twitter farmer: 2026-05-12-morning (6 tweets / 0 retweets / 2 articles); 05-11-evening 3 tweets / 2 retweets / 2 articles; 05-11-afternoon empty | twitter
+## [2026-05-12] farm | kurate farmer: cs.AI + cs.LG weekly top-20; rising-authors threshold not crossed | kurate
+## [2026-05-12] farm | reddit farmer: 8 subs (LocalLLaMA 13 posts, ML 2, MLScaling 1, CUDA 1, LLMDevs empty, ControlProblem 1, HPC empty, RL 2) | reddit
+## [2026-05-12] ingest | Make Each Token Count: learned KV eviction surpassing full-cache inference (Tier 1) | huggingface/2605.09649
+## [2026-05-12] ingest | RLRT / Rebellious Student: reverse-read self-distillation signal for RLVR exploration (Tier 2) | huggingface/2605.10781
+## [2026-05-12] ingest | G-Zero: verifier-free self-play via Hint-delta reward (Tier 2) | huggingface/2605.09959
+## [2026-05-12] ingest | Geometry Conflict: covariance geometry of update determines forgetting; GCWM data-free merging (Tier 2) | huggingface/2605.09608
+## [2026-05-12] ingest | Model Merging Scaling Laws: gains decay as ~1/k in number of experts (Tier 2) | huggingface/2509.24244
+## [2026-05-12] ingest | Soohak: 439-problem research-math benchmark; frontier ceiling 30%, refusal subset <50% (Tier 2) | huggingface/2605.09063
+## [2026-05-12] ingest | Auto-Rubric as Reward (ARR): prompt-specific rubrics externalized for multimodal RLHF (Tier 2) | huggingface/2605.08354
+## [2026-05-12] ingest | DeltaRubric: plan-then-verify multimodal reward modeling, +22.6 / +18.8 on VL-RewardBench (Tier 2) | huggingface/2605.09269
+## [2026-05-12] ingest | ROMA: RL fine-tuning robustness against visual degradation, +2.4% / +2.3% over GRPO (Tier 2) | huggingface/2605.09262
+## [2026-05-12] ingest | X-OmniClaw: Android-native unified mobile agent with hybrid grounding (Tier 2) | huggingface/2605.05765
+## [2026-05-12] concept | kv-cache.md updated: Make Each Token Count entry, framing flip from compression-quality tradeoff to quality intervention | concept-page
+## [2026-05-12] concept | rl-for-llms.md updated: RLRT + G-Zero entries; sparseness-and-locatability thread now 6 papers strong | concept-page
+## [2026-05-12] digest | Daily Digest 2026-05-12 | digest
+- Sources: HF (17 papers), RSS (18 dated 05-10/11/12), Gmail (1 AI Breakfast), Twitter morning + 05-11 prior slots, Kurate weekly cs.AI + cs.LG, Reddit (8 subs, ~17 posts)
+- Deep Dives: 5 (Make Each Token Count; RLRT+G-Zero paired; Geometry Conflict+Scaling Laws paired; Soohak; ARR+DeltaRubric paired)
+- Industry items: 7 (Baidu Ernie 5.1, NVIDIA $40B, AI agents hack/self-replicate, OpenAI DeployCo, Claude Platform on AWS, EU/US pre-release review, Anthropic compute+Mistral roundup)
+- Theme: "concentrate the budget where the signal lives" extends to cache layer (Make Each Token Count beats full cache), training layer (RLRT, G-Zero), and merging layer (Geometry Conflict + 1/k scaling law). Multimodal RM rubric pattern now 4 papers in 3 weeks. Refusal-as-training-target operationalized by Soohak.
+- Cross-source: Make Each Token Count + Qwen 3.6 r/LocalLLaMA hybrid-architecture practitioner confirmation; RL-rollout prompt-caching r/MLScaling confirms NeMo-RL trajectory (04-30); EU + AI Breakfast on pre-release review
+- alphaxiv enrichment: 2605.09649, 2605.10781, 2605.09608 all returned empty (papers too new); fell back to abstracts
+- HF+Kurate cross-reference: no overlap (Kurate weekly = late April 2604.*, HF Daily = early May 2605.*). Surfaced Kurate cs.LG #4, #11 and cs.AI #11 (Hodoscope) as LLM-rated underrated in Worth Watching.
+- Worth Watching: Make Each Token Count crossover curve, RLRT+G-Zero composition, Soohak refusal training transfer, multimodal RM rubric overfitting, Once-For-All generalization, Kurate sycophancy/lying circuit, Hodoscope unsupervised monitoring
+- No rising-authors threshold crossed this week
+## [2026-05-12] ingest | Media-Live morning synthesis: @bcherny Cowork+Opus 4.7 one-shot booking + Claude Code agent view; AWS Claude Platform GA; NVIDIA-Dell cluster | social-stream
