@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-12",
+  "slot": "evening",
+  "scraped_ist": "2026-05-12 22:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@GaryMarcus",
+      "text": "🤩🤯🤩 Claude Code (still not AGI but biggest advance since GPT-4) is the most neurosymbolic thing I have ever seen in my life. 53 symbolic tools, 500,000 lines of symbolic code, combined with a state-of-the-art LLM. It is categorically *not* a victory for pure LLMs; it’s a victory for borrowing from classical AI and CS to move *beyond* pure LLMs. Its success is complete vindication for everything I have said since 2001. Amazing dissection of how it works at ccunpacked.dev/",
+      "link": "https://nitter.net/GaryMarcus/status/2054015225318482075#m",
+      "date_utc": "2026-05-12T01:46:06+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://ccunpacked.dev/",
+          "content": "Claude Code Unpacked Claude Code Unpacked Ask DeepWiki Y Featured on Hacker News What actually happens when you type a message into Claude Code? The agent loop, 50+ tools, multi-agent orchestration, and unreleased features , mapped straight from the source. 0 + Files 0 K+ Lines of Code 0 + Tools 0 + Commands Start exploring ↓ 01 The Agent Loop From keypress to rendered response, step by step through the source. 1 Input 2 Message 3 History 4 System 5 API 6 Tokens 7 Tools? 8 Loop 9 Render 10 Hooks 11 Await 1 Input 2 Message 3 History 4 System 5 API 6 Tokens 7 Tools? 8 Loop 9 Render 10 Hooks 11 Await Watch what happens when you send a message to Claude Code 1 User Input src/components/TextInput.tsx User types a message or pipes input through stdin ● claude-code $ Keyboard input comes from Ink"
+        }
+      ]
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "x.com/i/article/205418860306…",
+          "link": "https://nitter.net/ns123abc/status/2054234421054640617#m",
+          "date_utc": "2026-05-12T16:17:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
