@@ -20,6 +20,10 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 ## Key Papers
 
+**RLRT / Rebellious Student (2026-05-12)** — Reads the self-distillation signal in reverse: when the student succeeds along a path the teacher would not have predicted, those tokens reflect the student's own reasoning and are reinforced inside a GRPO augmentation. Information asymmetry between teacher and student becomes a principled exploration axis. Beats self-distillation and exploration-based baselines across base, instruction-tuned, and thinking-tuned Qwen3 checkpoints. → [summary](2026-05-12-rebellious-student-rlrt.md)
+
+**G-Zero (2026-05-12)** — Verifier-free, co-evolutionary self-improvement. Intrinsic reward = predictive shift between unhinted and hinted responses (Hint-delta). Proposer trained via GRPO to find blind spots, Generator trained via DPO to internalize improvements. Provable best-iterate suboptimality bound under exploration-coverage and noise-control assumptions. Bypasses the verifier ceiling for open-ended generation. → [summary](2026-05-12-g-zero-verifier-free-self-play.md)
+
 **PreRL / DSRL (2026-04-16)** — Applies RL directly to the marginal distribution P(y) rather than P(y|x), bypassing the ceiling imposed by the base model's output distribution. Negative Sample Reinforcement (NSR) prunes wrong reasoning paths and boosts reflection. DSRL combines PreRL + standard RL for best results. → [summary](2026-04-16-prerl-rl-in-pretrain-space.md)
 
 **RationalRewards (2026-04-16)** — Reward models that produce explicit multi-dimensional critiques before scoring. Test-time Generate-Critique-Refine loop matches RL fine-tuning without parameter updates. → [summary](../vision-audio-video/2026-04-16-rationalrewards-visual-generation.md)
