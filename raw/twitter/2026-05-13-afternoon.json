@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-13",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-13 15:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Wait, people are just burning tokens to look busy?",
+          "link": "https://nitter.net/ns123abc/status/2054461447300669863#m",
+          "date_utc": "2026-05-13T07:19:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
