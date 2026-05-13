@@ -1,0 +1,70 @@
+{
+  "date": "2026-05-13",
+  "slot": "evening",
+  "scraped_ist": "2026-05-13 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "ELON ARRIVES IN BEIJING",
+          "link": "https://nitter.net/ns123abc/status/2054532135457845293#m",
+          "date_utc": "2026-05-13T12:00:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "nitter.net/elonmusk/status/205448… Elon Musk (@elonmusk) Just Jensen and I are on AF1 — https://nitter.net/elonmusk/status/2054480994015818084#m",
+          "link": "https://nitter.net/ns123abc/status/2054528532483555484#m",
+          "date_utc": "2026-05-13T11:45:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "We're working with @IneffableLabs to co-design the infrastructure for large-scale, reinforcement-learning agents and accelerate discovery across science and industry. Our engineers have teamed up to explore how to create the training pipeline that will allow agents to discover breakthroughs across all fields of knowledge. Learn more: nvda.ws/4trcl13",
+          "link": "https://nitter.net/nvidia/status/2054548468761313596#m",
+          "date_utc": "2026-05-13T13:05:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4trcl13",
+              "content": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure | NVIDIA Blog Skip to content NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure Together, we are building the reinforcement learning infrastructure that unlocks new levels of intelligence. May 13, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “The"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
