@@ -1,0 +1,517 @@
+{
+  "date": "2026-05-13",
+  "slot": "morning",
+  "scraped_ist": "2026-05-13 09:25",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "NEW paper from Google DeepMind. (bookmark it) AI Co-Mathematician is an agentic research workbench for mathematicians, and it just hit 48% on FrontierMath Tier 4, a new high score among AI systems evaluated. The system is an asynchronous, stateful environment that supports ideation, literature discovery, computational analysis, theorem verification, and knowledge development. It manages uncertainty, clarifies intentions, records unsuccessful attempts, and emits formal mathematical outputs. Early applications yielded solved open problems, fresh research angles, and recovered overlooked citation",
+      "link": "https://nitter.net/dair_ai/status/2054224343551639958#m",
+      "date_utc": "2026-05-12T15:37:03+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.06651",
+          "content": "Abstract: We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support for the exploratory and iterative reality of mathematical workflows, including ideation, literature search, computational exploration, theorem proving and theory building. By providing an asynchronous, stateful workspace that manages uncertainty, refines user intent, tracks failed hypotheses, and outputs native mathematical artifacts, the system mirrors human collaborative workflows. In early tests, the AI co-mathematician helped researchers solve open problems, identify new research directions, and uncover overlooked literature references. Besides demonstrating a highly interactive"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@akshay_pachaar",
+      "text": "What actually is GBrain? (Y Combinator CEO's personal agent brain) Every agent memory tool you've seen solves a simple problem: store facts, retrieve facts. GBrain solves a different one. It gives your agent a knowledge system that wires itself, enriches itself, and compounds while you're not even using it. Here's what makes it fundamentally different from Mem0, Zep, LangMem, or a CLAUDE.md file. The standard approach to agent memory is vector-based. Your agent stores memories as embeddings, retrieves them by semantic similarity, and that's the loop. Some tools add a knowledge graph on top. GB",
+      "link": "https://nitter.net/akshay_pachaar/status/2054288847417340044#m",
+      "date_utc": "2026-05-12T19:53:22+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "http://github.com/garrytan/gbrain",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@zinho_leung",
+      "text": "Excited to share LeapAlign! ⚡️ A promising way to post-train flow matching models is to directly backpropagate reward gradients through the generation trajectory. ❗️But high memory cost and gradient explosion make it hard to fine-tune early generation steps, which largely control image layout. 🔥 LeapAlign builds a two-step leap trajectory to propagate reward gradients to **any** generation step, improving image-text alignment and image quality. 🌐 Project: rockeycoss.github.io/leapali… 💻 Code: github.com/RockeyCoss/LeapAl… 📄 Paper: arxiv.org/pdf/2604.15311 🤗 Models: huggingface.co/rockeycoss/Le",
+      "link": "https://nitter.net/zinho_leung/status/2053801033462395012#m",
+      "date_utc": "2026-05-11T11:34:58+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://rockeycoss.github.io/leapalign/",
+          "content": "LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories Contents Overview Method Experimental Results Conclusion BibTeX References LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories Zhanhao Liang 1,2,* Tao Yang 2,*, Jie Wu 2 Chengjian Feng 2 Liang Zheng 1 1 The Australian National University 2 ByteDance Seed * Equal contribution Project lead arXiv Code Models TL;DR: LeapAlign constructs a two-step leap trajectory from a full generation trajectory for efficient reward gradient backpropagation. It enables fine-tuning at any generation step without incurring excessive memory cost or gradient explosion. LeapAlign shows strong performance in aligning flow matching models with general human prefere"
+        },
+        {
+          "url": "https://github.com/RockeyCoss/LeapAlign_Code",
+          "content": ""
+        },
+        {
+          "url": "https://arxiv.org/pdf/2604.15311",
+          "content": "%PDF-1.7 %���� 1 0 obj > endobj 2 0 obj > endobj 3 0 obj > stream LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories Zhanhao Liang Tao Yang Jie Wu Chengjian Feng Liang Zheng http://creativecommons.org/licenses/by/4.0/ cs.CV endstream endobj 4 0 obj > endobj 5 0 obj > endobj 6 0 obj > endobj 7 0 obj > endobj 8 0 obj > endobj 9 0 obj > endobj 10 0 obj > endobj 11 0 obj > endobj 12 0 obj > endobj 13 0 obj > endobj 14 0 obj > endobj 15 0 obj > endobj 16 0 obj > endobj 17 0 obj > endobj 18 0 obj > endobj 19 0 obj > endobj 20 0 obj > endobj 21 0 obj > /Border [ 0 0 0 ] /C [ 0 1 1 ] /H /I /Rect [ 151.535 261.103 337.069 271.332 ] /Subtype /Link /Type /Annot >> endobj 22 0 obj > /Border [ 0 0 0 ] /C [ 0 1 0 ] /H /I /Rect [ 263.86 171.539 270.833 "
+        },
+        {
+          "url": "https://huggingface.co/rockeycoss/LeapAlign",
+          "content": "rockeycoss/LeapAlign · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Log In Sign Up rockeycoss / LeapAlign like 0 Diffusers Safetensors arxiv: 2604.15311 Model card Files Files and versions xet Community Use this model Instructions to use rockeycoss/LeapAlign with libraries, inference providers, notebooks, and local apps. Follow these links to get started. Libraries Diffusers How to use rockeycoss/LeapAlign with Diffusers: pip install -U diffusers transformers accelerate import torch from diffusers import DiffusionPipeline # switch to \"mps\" for apple devices pipe = DiffusionPipeline.from_pretrained(\"rockeycoss/LeapAlign\", dtype=torch.bfloat16, device_map=\"cuda\") prompt = \"Astronaut in a jungle, cold color palette, muted colors, detailed, 8k\" image = p"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@arena",
+      "text": "The top 5 labs in Text Arena rankings by category show that frontier models have distinct strengths and tradeoffs. #1 @AnthropicAI , Claude Opus 4.7 - The most consistently dominant model overall, leading top-tier across nearly every major category. #2 @GoogleDeepMind , Gemini 3.1 Pro - Well-rounded, with a notable edge in Creative Writing, ranked below Opus 4.7 and GPT-5.5 High in Expert #3 @AIatMeta , Muse Spark - Particularly strong in Overall and Coding, though it’s lagging behind in Expert tasks, Math, and Longer Query performance. #4 @OpenAI , GPT-5.5 High - One of the most balanced mode",
+      "link": "https://nitter.net/arena/status/2054223408427372831#m",
+      "date_utc": "2026-05-12T15:33:20+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@FreedmanRach",
+      "text": "Active Teacher Selection for Reward Learning: now published in TMLR! Most RLHF systems assume feedback comes from one canonical teacher — but annotators can disagree over 30% of the time. So who should the agent ask for feedback? Paper: arxiv.org/abs/2310.15288v3",
+      "link": "https://nitter.net/FreedmanRach/status/2054360151507992758#m",
+      "date_utc": "2026-05-13T00:36:42+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "http://arxiv.org/abs/2310.15288v3",
+          "content": "Abstract: Reward learning techniques enable machine learning systems to learn objectives from human feedback. A core limitation of these systems is their assumption that all feedback comes from a single human teacher, despite gathering feedback from large and heterogeneous populations. We propose the Hidden Utility Bandit (HUB) framework to model differences in teacher rationality, expertise, and costliness, formalizing the problem of learning from multiple teachers. We develop a variety of solution algorithms and apply them to two real-world domains: paper recommendation systems and COVID-19 vaccine testing. We find that Active Teacher Selection (ATS) algorithms outperform baselines by actively selecting when and which teacher to query. Our key contributions are 1) the HUB framework: a no"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rao2z",
+      "text": "🥳 📢 Our Beyond Semantics paper on LLM \"thinking traces\" is now officially published at @TmlrOrg (..with a J2C certification--so you might also see us at #NeurIPS2026 ..😋) TMLR 👉 openreview.net/forum?id=gDE7… Kudos to @karthikv792 @PalodVardh12428 @kayastechly & @_gundawar !",
+      "link": "https://nitter.net/rao2z/status/2054198118481326441#m",
+      "date_utc": "2026-05-12T13:52:51+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://openreview.net/forum?id=gDE7YcRC3F",
+          "content": "Beyond Semantics: The Unreasonable Effectiveness of Reasonless Intermediate Tokens | OpenReview Toggle navigation OpenReview .net Login Go to TMLR homepage Beyond Semantics: The Unreasonable Effectiveness of Reasonless Intermediate Tokens Karthik Valmeekam , Vardhan Palod , Kaya Stechly , Atharva Gundawar , Subbarao Kambhampati Published: 12 May 2026, Last Modified: 12 May 2026 Accepted by TMLR Everyone Revisions BibTeX CC BY 4.0 Abstract : Recent impressive results from large reasoning models have been interpreted as a triumph of Chain of Thought (CoT), and especially of the process of training on CoTs sampled from base LLMs in order to help find new reasoning patterns. While these traces certainly seem to help the model performance, it is not clear how they actually influence model perfo"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "MCP is the wire and memory is what flows through it. Connecting Claude to every tool feels magical, but tool access ≠ company context. Real context exist between tools: decisions, owners, commitments, contradictions, permissions, state changes. Ashwin Gopinath (@ashwingop) x.com/i/article/205366316296… — https://nitter.net/ashwingop/status/2053874087332823511#m",
+      "link": "https://nitter.net/ashwingop/status/2053874299757527109#m",
+      "date_utc": "2026-05-11T16:26:06+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205366316296…",
+      "link": "https://nitter.net/ashwingop/status/2053874087332823511#m",
+      "date_utc": "2026-05-11T16:25:16+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@miramurati",
+      "text": "Today we're sharing our work on interaction models. A new class of model trained from scratch to handle real-time interaction natively, instead of gluing it onto a turn-based one. piped.video/A12AVongNN4",
+      "link": "https://nitter.net/miramurati/status/2053939069890298321#m",
+      "date_utc": "2026-05-11T20:43:29+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://piped.video/A12AVongNN4",
+          "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@gailalfaratx",
+      "text": "x.com/i/article/205404281055…",
+      "link": "https://nitter.net/gailalfaratx/status/2054050226063786396#m",
+      "date_utc": "2026-05-12T04:05:10+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@shengkun_t52337",
+      "text": "Curious about how the smaller models in the Qwen3.5/3.6 series are built? I’m excited to share our new paper: “SlimQwen: Exploring Pruning and Distillation in Large MoE Model Pre-training.” Paper Link: arxiv.org/abs/2605.08738",
+      "link": "https://nitter.net/shengkun_t52337/status/2054086207664193978#m",
+      "date_utc": "2026-05-12T06:28:09+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.08738",
+          "content": "Abstract: Structured pruning and knowledge distillation (KD) are typical techniques for compressing large language models, but it remains unclear how they should be applied at pretraining scale, especially to recent mixture-of-experts (MoE) models. In this work, we systematically study MoE compression in large-scale pretraining, focusing on three key questions: whether pruning provides a better initialization than training from scratch, how expert compression choices affect the final model after continued training, and which training strategy is most effective. We have the following findings: First, across depth, width, and expert compression, pruning a pretrained MoE consistently outperforms training the target architecture from scratch under the same training budget. Second, different on"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@GilboaAmitay",
+      "text": "We got an 8-figure acquisition offer 2 days after launch. We said no, because the problem we're solving is worth way more than that. It’s 2026, but teams are only getting lonelier, and context is still the problem. The issue isn’t intelligence. Your team has plenty of that. It’s shared memory and context, the thing that makes 10 A-players feel like 1. That’s what we’ve solved with @playdotfast , while making work more fun. We're killing traditional SaaS, and believe you me, we're leaving no holds barred. Video",
+      "link": "https://nitter.net/GilboaAmitay/status/2053837551073702105#m",
+      "date_utc": "2026-05-11T14:00:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@manthanguptaa",
+      "text": "x.com/i/article/205418012791…",
+      "link": "https://nitter.net/manthanguptaa/status/2054184627854877176#m",
+      "date_utc": "2026-05-12T12:59:14+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@SocketSecurity",
+      "text": "🚨 UPDATE: Mini Shai-Hulud has crossed from @npmjs into @pypi and is still spreading. Newly confirmed compromised artifacts: @​opensearch-project/opensearch: 3.5.3, 3.6.2, 3.7.0, 3.8.0 (1.3M weekly downloads) mistralai: 2.4.6 on PyPI guardrails-ai: 0.10.1 on PyPI additional @​squawk/* packages on npm guardrails-ai 0.10.1 executes malicious code on import. On Linux, it downloads git-tanstack[.]com/transformers.​pyz, writes it to /tmp/transformers.​pyz, and runs it with python3 without integrity verification. The git-tanstack.​com domain displayed a message signed “With Love TeamPCP,” along with:",
+      "link": "https://nitter.net/SocketSecurity/status/2054048025081737446#m",
+      "date_utc": "2026-05-12T03:56:26+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@sebkrier",
+      "text": "If anyone builds it, everyone thrives. Over the past decade, a lot of important work on AI alignment has focused on avoiding harm. But freedom from harm isn't the same as freedom to flourish. In this paper, we introduce 'Positive Alignment'. A positively aligned agent is one that helps us navigate our own value trade-offs, builds our resilience, and acts as a scaffold for human flourishing. Doing this without slipping into top-down, technocratic paternalism is the great design challenge of our time. We think a lot more research is now needed to explore this frontier: how do we align models tha",
+      "link": "https://nitter.net/sebkrier/status/2054221248981315661#m",
+      "date_utc": "2026-05-12T15:24:45+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.10310",
+          "content": "Abstract: Existing alignment research is dominated by concerns about safety and preventing harm: safeguards, controllability, and compliance. This paradigm of alignment parallels early psychology&#39;s focus on mental illness: necessary but incomplete. What we call Positive Alignment is the development of AI systems that (i) actively support human and ecological flourishing in a pluralistic, polycentric, context-sensitive, and user-authored way while (ii) remaining safe and cooperative. It is a distinct and necessary agenda within AI alignment research. We argue that several existing failures of alignment (e.g., engagement hacking, loss of human autonomy, failures in truth-seeking, low epistemic humility, error correction, lack of diverse viewpoints, and being primarily reactive rather tha"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ghumare64",
+      "text": "You can now give Hermes, Claude Code, and Codex infinite memory. For free. Agentmemory is trending on GitHub with 4,000+ Stars. It records what Claude does during your coding sessions. Compresses it with AI. Injects relevant context back into future sessions. CLAUDE md dumps 22,000+ tokens into context at 240 observations agentmemory: 1,900 tokens. same observations. 92% less. at 1,000 observations, 80% of your built-in memories become invisible. agentmemory keeps 100% searchable. benchmarked on 240 real coding sessions, not projected The numbers are wild: → Up to 95% fewer tokens per session ",
+      "link": "https://nitter.net/ghumare64/status/2053609542273909155#m",
+      "date_utc": "2026-05-10T22:54:03+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "http://github.com/rohitg00/agentmemory",
+          "content": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SI"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@tan_stack",
+      "text": "SECURITY ADVISORY — TanStack npm packages A supply-chain compromise affecting 42 @tanstack /* packages (84 versions total) was published to npm earlier today at approximately 19:20 and 19:26 UTC. Two malicious versions per package. Status: ACTIVE — packages are deprecated, npm security engaged, publish path being shut down. Severity: HIGH — payload exfiltrates AWS, GCP, Kubernetes, and Vault credentials, GitHub tokens, .npmrc contents, and SSH keys. If you installed any @tanstack /* package between 19:20 and 19:30 UTC today, treat the host as potentially compromised: • Rotate cloud, GitHub, an",
+      "link": "https://nitter.net/tan_stack/status/2053948103766716630#m",
+      "date_utc": "2026-05-11T21:19:23+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://github.com/TanStack/router/issues/7383",
+          "content": "Several npm latest releases are compromised · Issue #7383 · TanStack/router · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and med"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "Pay attention to this one if you build research or knowledge-work agents. Most research-agent systems produce uniform outputs regardless of who is driving them. This new work, NanoResearch, argues that personalization is a precondition for real usability, and proposes tri-level co-evolution as the architecture. Three layers run together: a skill bank that distills recurring operations into reusable procedural rules; a memory module that retains user- and project-specific experience across sessions; and label-free policy learning that converts free-form feedback into persistent planner updates.",
+      "link": "https://nitter.net/dair_ai/status/2054335905209655480#m",
+      "date_utc": "2026-05-12T23:00:22+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.10813",
+          "content": "Abstract: LLM-powered multi-agent systems can now automate the full research pipeline from ideation to paper writing, but a fundamental question remains: automation for whom? Researchers operate under different resource configurations, hold different methodological preferences, and target different output formats. A system that produces uniform outputs regardless of these differences will systematically under-serve every individual user, making personalization a precondition for research automation to be genuinely usable. However, achieving it requires three capabilities that current systems lack: accumulating reusable procedural knowledge across projects, retaining user-specific experience across sessions, and internalizing implicit preferences that resist explicit formalization. We propo"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@mem0ai",
+      "text": "x.com/i/article/205421589567…",
+      "link": "https://nitter.net/mem0ai/status/2054227809829364200#m",
+      "date_utc": "2026-05-12T15:50:50+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ryancarson",
+      "text": "🚨 There's a major attack going on via npm right now. Do not install any packages right now. Talk to your agent ASAP and check if you're vulnerable or have been compromised. This is urgent ‼️ International Cyber Digest (@IntCyberDigest) ‼️🚨 UPDATE: The TanStack npm attack is now a full campaign. 'Mini' Shai-Hulud has hit: - OpenSearch - Mistral AI - Guardrails AI -UiPath - Squawk packages across npm and PyPI The malware specifically targets AI developer tooling. It hooks into Claude Code (.claude/settings.json) and VS Code (.vscode/tasks.json) to re-execute on every tool event, long after the i",
+      "link": "https://nitter.net/ryancarson/status/2054193503211512257#m",
+      "date_utc": "2026-05-12T13:34:30+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "On May 12, 2025, @HUMAIN was launched. One year later, I reflect with immense pride on what this team has accomplished in such a short period of time. What many people may not realize is that HUMAIN was never designed to be a single company. From day one, the vision was much bigger. In parallel, we have been establishing five companies simultaneously: • HUMAIN Core • HUMAIN Compute • HUMAIN Intelligence • HUMAIN Shift • HUMAIN Ventures Each with a distinct mandate, but all working together toward one mission: building a national AI champion designed for the age of intelligence. Our foundationa",
+          "link": "https://nitter.net/TareqAmin_/status/2054300394893807872#m",
+          "date_utc": "2026-05-12T20:39:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised saves lives David Sharette (@DavidJSharette) FSD possibly saved a child today. Video — https://nitter.net/DavidJSharette/status/2054384887956996367#m",
+          "link": "https://nitter.net/Tesla/status/2054395805902270738#m",
+          "date_utc": "2026-05-13T02:58:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Try FSD Supervised Tesla.com/drive Ron DeSantis (@RonDeSantis) I have friends who never touch the wheel anymore because of it — https://nitter.net/RonDeSantis/status/2054303774705852436#m",
+          "link": "https://nitter.net/Tesla/status/2054330399816646656#m",
+          "date_utc": "2026-05-12T22:38:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://Tesla.com/drive",
+              "content": "Powered and protected by Privacy"
+            }
+          ]
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "For a driver born without arms, FSD Supervised is life-changing accessibility “I was born without arms and have driven with my feet my entire life. I’m a fully licensed driver, and traditionally I drove with my left foot on the steering wheel and my right foot handling the gas and brake. My only legal restrictions are automatic transmission and power steering. Over the years, though, the strain from my congenital birth defects has led to significant arthritis in my hips. I drove a Model 3 for the past seven years, and it honestly helped extend my independence in a huge way. Recently upgrading ",
+          "link": "https://nitter.net/Tesla/status/2054253402163486804#m",
+          "date_utc": "2026-05-12T17:32:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Built the campaign before the merch even arrived.",
+          "link": "https://nitter.net/imagine/status/2054257946343989443#m",
+          "date_utc": "2026-05-12T17:50:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Image",
+          "link": "https://nitter.net/magicsilicon/status/2054303404319752546#m",
+          "date_utc": "2026-05-12T20:51:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: NVIDIA CEO Jensen Huang spotted boarding Air Force One in Alaska Elon Musk and President Trump waiting inside Next stop: Beijing",
+          "link": "https://nitter.net/ns123abc/status/2054384285914697989#m",
+          "date_utc": "2026-05-13T02:12:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 OpenAI's original board REJECTED Altman's Helion deal Then the board got fired. Then the new board signed the deal. Altman personally made $1.4 billion. 2015: Altman invests in Helion (before OpenAI is incorporated) 2021: Helion valuation ~$700M (Series E) 2022: Altman proposes Helion deal to OpenAI board (as Helion chairman) 2022: Board does NOT approve Board member Zilis under oath: \"Super out of left field\" \"A major bet on a speculative technology\" \"Helion did not even have a working product\" The Helion proposal was one of the main incidents that raised concerns about Altman's candor with",
+          "link": "https://nitter.net/ns123abc/status/2054368416413196369#m",
+          "date_utc": "2026-05-13T01:09:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 SEVEN OPENAI INSIDERS HAVE ACCUSED SAM ALTMAN OF LYING Today on cross, Musk's lawyer walked Altman through all of them: Ilya Sutskever (co-founder, chief scientist): \"a pattern of lying\" Mira Murati (CTO): dishonesty undermined her role Daniela Amodei (former OpenAI): falsely claimed coup plot Dario Amodei (former OpenAI): misrepresented Microsoft deal terms Sue Yoon (board): \"lack of concern for the consequences of misleading others\" Helen Toner (board): lied about safety processes Tasha McCauley (board): \"a culture of lying, a culture of deceit\" Altman's response to each: \"I have not had a",
+          "link": "https://nitter.net/ns123abc/status/2054295002046709859#m",
+          "date_utc": "2026-05-12T20:17:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 Under oath to the U.S. Senate, May 2023: Altman: \"I have no equity in OpenAI.\" Today on the stand in federal court: Musk's lawyer: \"Were you under oath at that hearing?\" Altman: \"Yes.\" Musk's lawyer: \"And you didn't disclose to the Senate that you had an interest in OpenAI through a share in the Y Combinator fund, did you?\" Altman: \"I didn't mention it in that testimony.\" Musk's lawyer: \"Are you going to notify the United States Senate that your testimony on May 16, 2023 was not truthful when you said, 'I have no equity in OpenAI?'\" Altman: \"I don't agree with that characterization.\" Musk's ",
+          "link": "https://nitter.net/ns123abc/status/2054281572010877423#m",
+          "date_utc": "2026-05-12T19:24:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Musk's lawyer: \"Are you completely trustworthy?\" Altman: \"I believe so.\" Musk's lawyer: \"But, you know, you don't know whether you're completely trustworthy.\" Altman: \"I'll just amend my answer to yes.\" Musk's lawyer: \"Should the jury believe your testimony?\" Altman: \"I think that's up to them, but I believe so.\" Musk's lawyer: \"You believe so, or they should?\" Altman: \"Sir, I'm not gonna tell the jury what to think.\" Musk's lawyer: \"Do you always tell the truth?\" Altman: \"I believe I'm a truthful person.\" Musk's lawyer: \"It wasn't my question. Do you always tell the truth?\" Altman: \"I'm sure ",
+          "link": "https://nitter.net/ns123abc/status/2054274686180114816#m",
+          "date_utc": "2026-05-12T18:57:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "After the nonprofit board fired Altman for lying, Microsoft overturned the decision by offering jobs to all OpenAI employees at a new $25 billion Microsoft research lab, triggering a 738-employee petition that forced the board of directors to resign. Satya Nadella then hand-picked the new board and reinstated Altman. NIK (@ns123abc) x.com/i/article/205418860306… — https://nitter.net/ns123abc/status/2054234421054640617#m",
+          "link": "https://nitter.net/ns123abc/status/2054251077202055454#m",
+          "date_utc": "2026-05-12T17:23:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "“The answer is not to fear the future. The answer is to guide it wisely.” At @CarnegieMellon 2026 commencement, our CEO Jensen Huang shared why AI calls for optimism, responsibility, and ambition. Video",
+          "link": "https://nitter.net/nvidia/status/2054273149215093199#m",
+          "date_utc": "2026-05-12T18:50:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read the full story: nvda.ws/4fhhgxZ",
+          "link": "https://nitter.net/nvidia/status/2054245223853625663#m",
+          "date_utc": "2026-05-12T17:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4fhhgxZ",
+              "content": "Colorado State University Builds Real-Time Hailstorm Forecasting with NVIDIA Earth-2 | NVIDIA case study NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Bel"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Discover how @ColoradoStateU is revolutionizing severe weather prediction by using NVIDIA Earth-2 and PhysicsNeMo to extend hailstorm lead times from minutes to hours. This collaboration pairs generative AI with high-resolution radar data to deliver real-time, scalable forecasting that protects communities.",
+          "link": "https://nitter.net/nvidia/status/2054245221597065559#m",
+          "date_utc": "2026-05-12T17:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
