@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 3 (2026-05-12)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>3 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-05-12<br> <strong>Run time:</strong> ~45 min</p>
+
+<p>Eviction stopped being a compression tradeoff today. The full KV cache is no longer the ceiling, and three other papers attack the same problem of "concentrate the budget where the signal lives" from the training side.</p>
+
+<p><strong>In this episode</strong> - <strong>Make Each Token Count</strong> . A learned, globally calibrated KV-eviction policy that can <em>surpass</em> the full cache on long-context language, vision-language reasoning, and multi-turn dialogue. Full-cache attention is dilutive once context is long enough. Tier 1. - <strong>RLRT (Rebellious Student)</strong> . Reads the self-distillation signal in reverse. When the student succeeds along a path the teacher would not predict, reinforce those tokens. Information asymmetry becomes a new RLVR exploration axis. - <strong>G-Zero</strong> . Verifier-free self-improvement. Intrinsic reward = predictive shift between unhinted and hinted responses (Hint-delta). Bypasses the verifier ceiling for open-ended generation. - <strong>Geometry Conflict + Model Merging Scaling Laws</strong> (<a href="https://arxiv.org/abs/2605.09608">arXiv 2605.09608</a> and <a href="https://arxiv.org/abs/2509.24244">arXiv 2509.24244</a>). One paper explains why merging diminishes, the other quantifies how fast. Together they make merging a predictable, budget-aware alternative to multitask fine-tuning. - <strong>Soohak</strong> . 439-problem research-math benchmark. Frontier ceiling at ~30%. The refusal subset (recognize ill-posed problems and abstain) caps every model under 50%, identifying calibrated refusal as a new optimization target. - <strong>Baidu Ernie 5.1 at 6% of pre-training cost</strong> . "Once-For-All" sub-model extraction from one training run. Search Arena rank 4, behind Claude Opus and GPT-5.5. China's training-economics push is now a quantitative threat to the US frontier-spend model.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-05-12/">2026-05-12</a></p>
+</body>
+</html>
