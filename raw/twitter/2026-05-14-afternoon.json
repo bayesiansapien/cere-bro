@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-14",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-14 15:02",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised can see through extreme glare Scott Dembraski (@SDembraski) What do you notice about this clip? Can you see it? FSD did. Video — https://nitter.net/SDembraski/status/2054757707278602649#m",
+          "link": "https://nitter.net/Tesla/status/2054782298579751261#m",
+          "date_utc": "2026-05-14T04:34:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
