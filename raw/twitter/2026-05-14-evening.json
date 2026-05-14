@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-14",
+  "slot": "evening",
+  "scraped_ist": "2026-05-14 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "AI coding gets really interesting when the bottleneck shifts from writing code to coordinating teams, requirements, testing, and production systems. That's what @kirodotdev solves. And it's why thousands of startups applied for Kiro credits last round. We've opened the program again. Up to a year of Kiro Pro+ for pre-seed to Series A startups. Applications open now. kiro.dev/blog/bringing-back-… Video",
+          "link": "https://nitter.net/mattsgarman/status/2054926912011546640#m",
+          "date_utc": "2026-05-14T14:08:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kiro.dev/blog/bringing-back-startup-credits/",
+              "content": "Weâre bringing back the Kiro startup credits program - Kiro Loading image... CLI Web Powers Enterprise Pricing Docs Resources SIGN IN DOWNLOADS Loading image... Back to all posts April 7, 2026 Weâre bringing back the Kiro startup credits program By DE Deepak Singh VP DevEx Agents Founders, we saw a lot of demand for startup credits in December. When we launched the Kiro Startup Credits Program last year, the response was overwhelming. Thousands of you applied and the demand was clear: early-stage teams need developer tools that scale with you as you grow. So weâre bringing it back. Starting today, eligible startups can apply for up to a yearâs worth of Kiro Pro+ at no cost. That means you get to build faster with specs and advanced AI agents without worrying about the bill. What yo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn more: nvda.ws/4d0FKcj",
+          "link": "https://nitter.net/nvidia/status/2054954898555322864#m",
+          "date_utc": "2026-05-14T16:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4d0FKcj",
+              "content": "Nemotron Labs: What OpenClaw Agents Mean for Every Organization | NVIDIA Blog Skip to content Nemotron Labs: What OpenClaw Agents Mean for Every Organization April 30, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Editor’s note: This post is part of the Nemotron Labs blog series, which explores how the latest open models, datasets and training techniques help businesses build specialized AI systems and applications on NVIDIA platforms. Each post highlights practical ways to use an open stack to deliver real value in production — from transparent research copilots to scalable AI agents. By early 2026, the open source project OpenClaw had become a phenomenon. In January, its GitHub star count crossed 100,000 as developer interest surged"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "What is a claw? 🦞 It's the shift from AI that suggests → AI that acts. Autonomous agents that run 24/7, handling complex work in the background so you don't have to. Video",
+          "link": "https://nitter.net/nvidia/status/2054954894176423939#m",
+          "date_utc": "2026-05-14T16:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
