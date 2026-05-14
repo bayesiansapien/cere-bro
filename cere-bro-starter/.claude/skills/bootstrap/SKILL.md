@@ -64,7 +64,7 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 > "Do you want a daily 1-hour podcast generated from your digest? Uses Google NotebookLM's Audio Overview feature via the unofficial `nlm` CLI. Workflow:
 > - After the digest is written each morning, the cron creates a NotebookLM notebook with the digest + wiki summaries + social-stream + external article URLs as sources.
 > - Generates a ~60 min audio overview using a tier-aware focus prompt you can edit at any time in connectors/notebooklm/config.json.
-> - Downloads the .m4a + writes a markdown Substack note to wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/.
+> - Downloads the .m4a + writes an HTML show-notes file to wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/. Open in browser, copy, paste into Substack with regular Cmd+V.
 > - You upload manually to your podcast host (Substack, Spotify for Podcasters, etc.) — no automation against those platforms because their APIs are unreliable or private.
 >
 > Requires: NotebookLM Plus/Pro recommended (3/day on free tier vs 20/day paid). One-time setup: `pip install notebooklm-mcp-cli && nlm login`.
@@ -72,6 +72,21 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 > Enable?"
 > If yes, also ask:
 >   - 'What's the show name?' — used in episode titles ('# N — <show name>'). Default: '<wiki-name> Radio'.
+
+**Q5c. Pipeline failure notifications (recommended)**
+> "Pipeline failures (broken auth, rate limits, network outages) should surface to you instead of failing silently. The notify connector at `connectors/notify/` sends alerts via:
+>   1. macOS notification banner (always works, no setup)
+>   2. Gmail SMTP email (optional, ~3 min to configure)
+>   3. Log file at .claude/logs/notifications.log (always written)
+>
+> The morning cron is pre-wired to alert on any farmer failure, digest-writing failure, missing-digest-cascade, or podcast generation failure.
+>
+> If you want email alerts (recommended), set up Gmail SMTP per `connectors/notify/README.md`:
+>   1. Generate a Gmail app password at https://myaccount.google.com/apppasswords
+>   2. `security add-generic-password -s gmail-smtp-password -a $USER -w` (paste app password)
+>   3. Create `~/.config/cere-bro/notify.env` with NOTIFY_FROM=your.email@gmail.com
+>
+> If you skip this, you still get banner + log alerts."
 >
 > If Gmail is enabled, point the user at connectors/gmail/README.md for the OAuth setup. Don't try to automate it; it's a manual one-time browser flow."
 
