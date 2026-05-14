@@ -457,3 +457,16 @@ Append-only timeline of ingests and lint passes.
 - Worth Watching: InferenceMax-with-watts benchmark, online λ-star scheduler for OPD, AgentLens-style audit of cyber-eval, WriteSAE cross-architecture transfer, MAP+DAgger composition, MinT-style adapter catalogs at non-frontier scale
 - No rising-authors threshold crossed this week
 ## [2026-05-14] ingest | Media-Live morning synthesis: δ-mem cluster, AutoTTS amplification, Bystander Effect process-failure signal, Anthropic Mythos cyber results | social-stream
+
+## [2026-05-13] ingest (backfill) | 13-May daily digest + 11 summary pages | huggingface + rss + reddit + kurate + twitter
+- Backfilled the 2026-05-13 daily digest after a Claude CLI auth error on 13-May morning. All raw farmer files present.
+- Sources: HF (71 papers, 11 Tier 1/2 summarized), RSS (17 posts including SemiAnalysis Cerebras four-article IPO deep dive), Gmail (no new starred this date), Twitter morning (35 tweets / 18 articles / 20 retweets) + afternoon (1) + evening (3), Kurate weekly cs.AI + cs.LG (no rising authors crossed), Reddit (8 subs, ~15 posts after filters; r/LocalLLaMA Needle 26M tool-calling and Gemma 4 MTP vs DFlash benchmark were the highest-signal practitioner items)
+- Deep Dives: 6 (Sparse-to-Dense Reward Principle; The Many Faces of On-Policy Distillation; Token Superposition Training; δ-mem; FocuSFT; SemiAnalysis Cerebras IPO)
+- Tier 2 summaries: 6 (Reward Hacking in Rubric-Based RL; Massive Activations ME Layer; Probe&Prefill; Useful Memories Become Faulty; LongMemEval-V2; Agent-BRACE; plus 2 industry: Recursive $650M, Anthropic B2B lead)
+- Theme: OPD theory layer completes on the same day SemiAnalysis prices the fast-tokens economy. FocuSFT + Massive Activations ME Layer + Make Each Token Count form a top-to-bottom attention-sink story (mechanism + training-time damage + inference-time mitigation). Reward Hacking in Rubric-Based RL resolves the 12-May 60-day rubric-overfitting prediction at 24 hours.
+- Cross-source: Reward Hacking in Rubric-Based RL (HF today) + LLMs Gaming Verifiers (Kurate cs.LG #9, Helff et al.) — two independent papers in one week, same diagnosis of rubric reward-hacking. Anthropic B2B lead (Decoder) + Claude for Small Business launch + Google customer-engineer hiring + earlier OpenAI Deployment Company = deployment-services week across three frontier labs.
+- Worth Watching: Sparse-to-Dense beyond verifiable math; OPSD identifiability criterion; FocuSFT + ME Layer composition; InferenceMax with watts; TST at frontier scale; meta-rubric for the three named rubric failure modes
+- Concept page updates: kv-cache.md (δ-mem + FocuSFT additions), knowledge-distillation.md (Sparse-to-Dense + Many Faces OPD-theory-complete entry), rl-for-llms.md (today’s three RL/OPD papers + cross-source Kurate confirmation)
+- No alphaxiv enrichment used (backfill mode, abstracts sufficient); HF+Kurate cross-reference: no direct overlap (Kurate weekly = late April 2604.*; HF Daily = mid May 2605.*); surfaced Helff RLVR-Gaming as the cross-source confirmation for the day’s Reward Hacking paper.
+- No rising-authors threshold crossed this week
+- Em dashes scrubbed from the digest (per CLAUDE.md rule). All Deep Dive links verified against existing wiki files; missing-file references rewritten as prose.
