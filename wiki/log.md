@@ -431,3 +431,29 @@ Append-only timeline of ingests and lint passes.
 - Worth Watching: Make Each Token Count crossover curve, RLRT+G-Zero composition, Soohak refusal training transfer, multimodal RM rubric overfitting, Once-For-All generalization, Kurate sycophancy/lying circuit, Hodoscope unsupervised monitoring
 - No rising-authors threshold crossed this week
 ## [2026-05-12] ingest | Media-Live morning synthesis: @bcherny Cowork+Opus 4.7 one-shot booking + Claude Code agent view; AWS Claude Platform GA; NVIDIA-Dell cluster | social-stream
+## [2026-05-14] ingest | MinT: managed million-scale LoRA training and serving over 1T-class base (Tier 1) | huggingface/2605.13779
+## [2026-05-14] ingest | Orthrus: dual-view AR+diffusion on shared KV cache, 7.8x lossless speedup (Tier 1) | huggingface/2605.12825
+## [2026-05-14] ingest | The Extrapolation Cliff: closed-form clip-safety threshold for OPD with structured outputs (Tier 1) | huggingface/2605.08737
+## [2026-05-14] ingest | Energy-to-Token: position paper reframing inference as energy-bounded production (Tier 1) | huggingface/2605.11733
+## [2026-05-14] ingest | DAgger for LLM agents: turn-level student-teacher interpolation; +3.9 SWE-bench at 4B (Tier 2) | huggingface/2605.12913
+## [2026-05-14] ingest | AgentLens: 10.7% of passing SWE-bench Verified trajectories are Lucky Passes (Tier 2) | huggingface/2605.12925
+## [2026-05-14] ingest | MAP (Map-then-Act): cognitive-map paradigm; 22/25 ARC-AGI-3 environments surpass baseline (Tier 2) | huggingface/2605.13037
+## [2026-05-14] ingest | Context Training with Active Information Seeking: search-based multi-context training (Tier 2) | huggingface/2605.13050
+## [2026-05-14] ingest | Many-Shot CoT-ICL: in-context test-time learning, CDS gives +5.42 pp on geometry (Tier 2) | huggingface/2605.13511
+## [2026-05-14] ingest | WriteSAE: first SAE that reaches matrix-recurrent cache writes in Mamba-2/DeltaNet/RWKV-7 (Tier 2) | huggingface/2605.12770
+## [2026-05-14] ingest | MMProLong: long-context VLM training recipe, 32K -> 128K with generalization to 512K (Tier 2) | huggingface/2605.13831
+## [2026-05-14] concept | kv-cache.md updated: Orthrus dual-view + MMProLong long-context recipe added | concept-page
+## [2026-05-14] concept | rl-for-llms.md updated: Extrapolation Cliff closed-form threshold + DAgger for LLM agents | concept-page
+## [2026-05-14] concept | agent-benchmarks.md updated: AgentLens Lucky Pass + AssetOpsBench + MAP entries | concept-page
+## [2026-05-14] concept | responsible-ai.md updated: WriteSAE first SAE for state-space/hybrid models + refusal-neurons tweet | concept-page
+## [2026-05-14] digest | Daily Digest 2026-05-14 | digest
+- Sources: HF (22 papers), RSS (26 new for 05-13), Gmail (3 starred: AI Weekly slop, SemiAnalysis Cerebras, AI Breakfast Googlebook), Twitter morning (22 tweets / 16 retweets / 13 articles) + 05-13 evening (3) + 05-13 afternoon (1), Kurate weekly cs.AI + cs.LG (no rising authors threshold crossed), Reddit (8 subs, 12 posts after filters)
+- Deep Dives: 6 (MinT; Orthrus; Extrapolation Cliff; Energy-to-Token; agentic stack triangle DAgger+AgentLens+MAP; WriteSAE)
+- Industry items: 8 (Anthropic B2B overtake, SemiAnalysis Cerebras pre-IPO, Recursive $650M, Deepmind Pointer Engineering, Tencent ramp / China component shortages, Google deployment-services hiring, Meta AI Incognito, Luma Uni-1.1, Pangram slop FPR)
+- Theme: routing decision lives at five distinct layers now (catalog/cache/loss/expert/model). Energy-to-Token formalizes the SemiAnalysis Cerebras empirical thesis. Benchmark over-aggregation thread strengthens (Soohak + AgentLens + AssetOps + Pangram).
+- Cross-source: Energy-to-Token paper + SemiAnalysis Cerebras Gmail starred land within 18 hours; WriteSAE + refusal-neurons tweet bracket dense and hybrid architecture interpretability; AutoTTS gets 2 separate amplifying reposts pointing at long-horizon agent training compositions with today's DAgger+MAP
+- alphaxiv enrichment: 2605.13779, 2605.12825, 2605.08737, 2605.11733, 2605.12913, 2605.12925, 2605.12770, 2605.13831 returned empty; 2605.13037 (MAP), 2605.13050 (CTAS), 2605.13511 (CoT-ICL) returned partial overviews. Used abstracts as primary signal.
+- HF+Kurate cross-reference: no overlap (Kurate weekly = late April 2604.*, HF Daily = mid May 2605.*). Surfaced Kurate cs.AI #11 Hodoscope, cs.LG #11 sycophancy-lying circuit, cs.AI #9 IatroBench, cs.AI #13 Emotion Concepts as Worth Watching LLM-rated underrated.
+- Worth Watching: InferenceMax-with-watts benchmark, online λ-star scheduler for OPD, AgentLens-style audit of cyber-eval, WriteSAE cross-architecture transfer, MAP+DAgger composition, MinT-style adapter catalogs at non-frontier scale
+- No rising-authors threshold crossed this week
+## [2026-05-14] ingest | Media-Live morning synthesis: δ-mem cluster, AutoTTS amplification, Bystander Effect process-failure signal, Anthropic Mythos cyber results | social-stream
