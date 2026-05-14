@@ -10,6 +10,15 @@ TODAY=$(date +%Y-%m-%d)
 
 mkdir -p "$REPO/.claude/logs"
 
+# Notification helper — sends banner + email (if configured) + log entry on failure.
+# Safe to call from any code path; never raises. See connectors/notify/README.md
+# for one-time Gmail SMTP setup.
+notify() {
+  local subject="$1"
+  local body="$2"
+  python3 "$REPO/connectors/notify/notify.py" "$subject" "$body" >> "$LOG" 2>&1 || true
+}
+
 echo "[$TODAY $(date +%H:%M:%S)] Starting morning routine..." >> "$LOG"
 
 cd "$REPO" || exit 1
@@ -18,20 +27,24 @@ git pull --rebase origin main >> "$LOG" 2>&1 || true
 
 # Farmers always run — they're idempotent and have their own dedup guards.
 echo "[$TODAY $(date +%H:%M:%S)] Running Gmail farmer..." >> "$LOG"
-python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || \
-  echo "[$TODAY $(date +%H:%M:%S)] Gmail farmer failed or skipped — continuing." >> "$LOG"
+python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || { \
+  echo "[$TODAY $(date +%H:%M:%S)] Gmail farmer failed or skipped — continuing." >> "$LOG"; \
+  notify "Gmail farmer failed ($TODAY)" "The Gmail farmer failed in this morning's run. Check $LOG."; }
 
 echo "[$TODAY $(date +%H:%M:%S)] Running Twitter farmer..." >> "$LOG"
-python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 || \
-  echo "[$TODAY $(date +%H:%M:%S)] Twitter farmer failed or skipped — continuing." >> "$LOG"
+python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 || { \
+  echo "[$TODAY $(date +%H:%M:%S)] Twitter farmer failed or skipped — continuing." >> "$LOG"; \
+  notify "Twitter farmer failed ($TODAY)" "The Twitter/Nitter farmer failed this morning. Often a Nitter outage. Check $LOG."; }
 
 echo "[$TODAY $(date +%H:%M:%S)] Running Kurate farmer..." >> "$LOG"
-python3 "$REPO/connectors/kurate/farmer.py" >> "$LOG" 2>&1 || \
-  echo "[$TODAY $(date +%H:%M:%S)] Kurate farmer failed or skipped — continuing." >> "$LOG"
+python3 "$REPO/connectors/kurate/farmer.py" >> "$LOG" 2>&1 || { \
+  echo "[$TODAY $(date +%H:%M:%S)] Kurate farmer failed or skipped — continuing." >> "$LOG"; \
+  notify "Kurate farmer failed ($TODAY)" "The Kurate.org farmer failed this morning. Check $LOG."; }
 
 echo "[$TODAY $(date +%H:%M:%S)] Running Reddit farmer..." >> "$LOG"
-python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || \
-  echo "[$TODAY $(date +%H:%M:%S)] Reddit farmer failed or skipped — continuing." >> "$LOG"
+python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || { \
+  echo "[$TODAY $(date +%H:%M:%S)] Reddit farmer failed or skipped — continuing." >> "$LOG"; \
+  notify "Reddit farmer failed ($TODAY)" "The Reddit farmer failed this morning. Check $LOG."; }
 
 # Push raw files
 git add raw/ >> "$LOG" 2>&1
@@ -50,16 +63,28 @@ fi
   -p "Today is $TODAY. Run the digest workflow per CLAUDE.md and the digest skill. Read all six raw sources (Gmail, RSS, HuggingFace, Twitter, Kurate, Reddit). Apply the HF + Kurate cross-source confirmation rule. For each Tier 1/2 Deep Dive paper, run python3 connectors/alphaxiv/enrich.py <arxiv_id> to get alphaxiv enrichment. Write today's daily digest at wiki/daily-digest/$(date +%Y-%m)/$TODAY.md and the morning slot synthesis at wiki/social-stream/$(date +%Y-%m)/$TODAY-morning.md. Commit and push. Do not stop until both are done." \
   >> "$LOG" 2>&1
 
-# After the digest is written, generate the NotebookLM podcast (~12 min).
-# Idempotent: skips if today's audio file already exists.
+# Verify the digest actually got written. If not, the Claude call failed (auth,
+# rate limit, etc.) — alert immediately so the day isn't silently lost.
+if [ ! -f "$DIGEST_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] CRITICAL: digest was NOT written. Claude call likely failed." >> "$LOG"
+  notify "DIGEST FAILED ($TODAY)" "The Claude digest-writing call did not produce $DIGEST_PATH. Likely cause: API auth expired or rate limit. Run 'claude /login' to refresh, then manually backfill. Raw files for today are already in place. See $LOG."
+fi
+
 # Podcast is LAGGED BY ONE DAY: today's 9 AM cron generates yesterday's podcast,
 # since by now yesterday's full day window is collected and today's morning slot
 # captures the overnight tail.
 if [ -d "$REPO/connectors/notebooklm" ]; then
   YESTERDAY=$(date -v-1d +%Y-%m-%d 2>/dev/null || date -d "yesterday" +%Y-%m-%d)
-  echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast for $YESTERDAY..." >> "$LOG"
-  python3 "$REPO/connectors/notebooklm/podcast.py" "$YESTERDAY" >> "$LOG" 2>&1 || \
-    echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed — continuing (digest still committed)." >> "$LOG"
+  YEST_DIGEST="$REPO/wiki/daily-digest/$(date -v-1d +%Y-%m 2>/dev/null || date -d 'yesterday' +%Y-%m)/$YESTERDAY.md"
+  if [ ! -f "$YEST_DIGEST" ]; then
+    echo "[$TODAY $(date +%H:%M:%S)] No digest at $YEST_DIGEST — skipping podcast generation." >> "$LOG"
+    notify "Podcast skipped ($YESTERDAY)" "Yesterday's digest is missing at $YEST_DIGEST, so the lagged podcast can't be generated. Backfill the digest manually, then re-run podcast.py."
+  else
+    echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast for $YESTERDAY..." >> "$LOG"
+    python3 "$REPO/connectors/notebooklm/podcast.py" "$YESTERDAY" >> "$LOG" 2>&1 || { \
+      echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed — continuing (digest still committed)." >> "$LOG"; \
+      notify "Podcast failed ($YESTERDAY)" "NotebookLM podcast generation failed for $YESTERDAY. Likely causes: nlm auth expired (run 'nlm login'), NotebookLM rate limit, or notebook source upload error. See $LOG."; }
+  fi
 fi
 
 echo "[$TODAY $(date +%H:%M:%S)] Done." >> "$LOG"
