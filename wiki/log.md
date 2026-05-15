@@ -470,3 +470,14 @@ Append-only timeline of ingests and lint passes.
 - No alphaxiv enrichment used (backfill mode, abstracts sufficient); HF+Kurate cross-reference: no direct overlap (Kurate weekly = late April 2604.*; HF Daily = mid May 2605.*); surfaced Helff RLVR-Gaming as the cross-source confirmation for the day’s Reward Hacking paper.
 - No rising-authors threshold crossed this week
 - Em dashes scrubbed from the digest (per CLAUDE.md rule). All Deep Dive links verified against existing wiki files; missing-file references rewritten as prose.
+
+## [2026-05-15] ingest | HuggingFace 26 papers + RSS 8 (2026-05-14) + Gmail 1 starred + Twitter morning (10 tweets) + Kurate cs.AI + cs.LG weekly + Reddit (8 subs, 16 posts) | mixed
+
+- agent-memory cluster (6 papers): STALE, Preping, EvolveMem, MemEye, MemLens, BOOKMARKS — new cluster summary + new agent-memory concept page
+- Tier 1: RouteProfile (profile design space) + DLR (training-time latent routing) — opens routing on two new axes
+- Tier 1: Forcing-KV (head-role KV compression for AR video diffusion) + async continuous batching (HF blog, 22% from scheduling)
+- Tier 2 agentic stack: WildClawBench (62.2% ceiling, 18-pt harness shift) + Orchard (67.5% SWE-bench Verified at 30B) + SDAR (gated OPSD) + EvoEnv (verifiable environment synthesis)
+- Tier 2 reasoning: SU-01 (gold IMO at 30B, 200 RL steps) + Darwin Family (training-free GPQA #6 via cross-arch evolutionary merging)
+- Concept page updates: kv-cache.md (Forcing-KV + async batching), llm-routing.md (RouteProfile + DLR), new agent-memory.md
+- Daily digest: 2026-05-15
+- Social-stream: 2026-05-15-morning (xAI Grok Build CLI cluster of 4)
