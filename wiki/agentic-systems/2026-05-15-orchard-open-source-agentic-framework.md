@@ -25,7 +25,7 @@ Two reasons.
 
 First, the open-source SWE-bench Verified frontier at the 30B scale jumps from the high-50s (Devstral, OpenHands) to 67.5%. That number is competitive with several closed-source SWE agents. The reproducibility framing ("scalable agentic modeling" with open infra) is real if the K8s service and recipes land.
 
-Second, Orchard-Claw introduces "Claw-Eval" and the ZeroClaw harness, which are new evaluation infrastructure for personal-assistant agents (email, calendar, productivity workflows). This is the explicit response to the OpenClaw category that emerged from NVIDIA's claw blog last week and that yesterday's [Tesla / Cybertruck Tesla pivot](../ai-industry/2026-05-08-cybertruck-fsd-no-supervisor.md) and the wider deployment thread have been pointing at.
+Second, Orchard-Claw introduces "Claw-Eval" and the ZeroClaw harness, which are new evaluation infrastructure for personal-assistant agents (email, calendar, productivity workflows). This is the explicit response to the OpenClaw category that emerged from NVIDIA's claw blog last week, and that the wider deployment-services thread has been pointing at.
 
 ## Connections to prior wiki pages
 
