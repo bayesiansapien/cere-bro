@@ -31,7 +31,7 @@ The IPhO transfer is the secondary headline. Same recipe, different domain, stil
 
 - [The Extrapolation Cliff](../inference-efficiency/2026-05-14-extrapolation-cliff-on-policy-distillation.md) — yesterday. Closed-form clip-safety for OPD with structured outputs. SU-01's Refined RL with structured proofs is the natural test case for cliff-conditioned training. Whether SU-01's 200 RL steps stay below λ-star throughout is open.
 - [G-Zero](2026-05-12-g-zero-verifier-free-self-play.md) — formal bound for verifier-free self-play. SU-01 uses *verifiable* rewards (proof correctness), so it sits in the verifier-bound regime where the Cliff and OPSD apply.
-- [AIMO 3 / TTC dead-end paper](2026-04-17-aimo-3-inference-time-scaling-dead-end.md) — argued prompt diversity is a dead end for inference-time scaling. SU-01's TTS uses self-verification and refinement loops, not prompt diversity, and lifts IMO-ProofBench by 13 points. This is the first concrete refutation of the "all TTS is a dead end" framing.
+- **AIMO 3** (04-17) — argued prompt diversity is a dead end for inference-time scaling. SU-01's TTS uses self-verification and refinement loops, not prompt diversity, and lifts IMO-ProofBench by 13 points. This is the first concrete refutation of the "all TTS is a dead end" framing.
 - [Soohak refusal subset](2026-05-12-soohak-research-math-benchmark.md) — said frontier models confidently answer ill-posed problems. SU-01 is the inverse signal: a 30B model that wins gold by *proving rigorously*. The next eval question is whether SU-01 also passes Soohak's refusal subset.
 
 ## Research angle
