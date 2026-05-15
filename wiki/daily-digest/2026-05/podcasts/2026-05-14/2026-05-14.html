@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 5 (2026-05-14)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>5 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-05-14<br> <strong>Run time:</strong> ~45 min</p>
+
+<p>Three papers today land near the same axis at three different layers of the stack: MinT routes adapters at the catalog layer, Orthrus routes generation at the cache layer, the Extrapolation Cliff routes distillation at the loss layer. Pair that with the SemiAnalysis Cerebras piece and the Energy-to-Token position paper and the question stops being "how fast can the GPU go" and starts being "what is the binding constraint."</p>
+
+<p><strong>In this episode</strong> - <strong>MinT</strong> . Managed infrastructure for million-scale LoRA training and serving over one 1T-class base. 18.3x step reduction on 4B dense via adapter-only handoff, 1.77x wall-time via concurrent multi-policy GRPO, 10^6-scale addressable catalogs. The catalog axis is now its own routing surface. Tier 1. - <strong>Orthrus</strong> . Autoregressive and diffusion heads attend to the same KV cache; exact consensus makes the output bit-identical to AR. 7.8x speedup with O(1) memory cache overhead. The cache is the coordination object, not a verification ledger. Tier 1. - <strong>The Extrapolation Cliff</strong> . Closed-form clip-safety threshold λ-star(p, b, c) for on-policy distillation with structured outputs. Above λ-star, format collapses. Pre-registered tests on Amazon Fashion hit their locked prediction windows. A 1.7B Qwen3 student matches an 8B-SFT baseline at one-fifth the parameters. Tier 1. - <strong>Energy-to-Token position paper</strong> . Reframes inference as energy-bounded production. Token rate is bounded by both compute-per-token and energy-per-token ceilings. The first arXiv-side paper in the wiki to formalize what SemiAnalysis, Cerebras's IPO thesis, and the grid-capacity industry stories all assume. Tier 1. - <strong>DAgger for LLM agents</strong> . The 2011 imitation-learning algorithm, re-applied. Turn-level interpolation of student and teacher trajectories. +3.9 on SWE-bench Verified at 4B. The 4B model beats published 8B SWE-agents. Tier 2. - <strong>AgentLens</strong> . 10.7% of passing SWE-bench Verified trajectories are Lucky Passes. Some models drop 5 ranking positions when scored by quality instead of pass rate. The first process-level evaluation of SWE-bench. Tier 2.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-05-14/">2026-05-14</a></p>
+</body>
+</html>
