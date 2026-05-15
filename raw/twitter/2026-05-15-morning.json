@@ -1,0 +1,216 @@
+{
+  "date": "2026-05-15",
+  "slot": "morning",
+  "scraped_ist": "2026-05-15 09:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "JasonBud",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "Cursor",
+        "coding agents"
+      ],
+      "tweets": [
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "Grok Build is also a really great interface for running subagents, which it often uses to check its own work. Video",
+          "link": "https://nitter.net/JasonBud/status/2054997581328237035#m",
+          "date_utc": "2026-05-14T18:49:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "Grok Build is a fully interactive CLI, which means you can actually use your mouse to click. No flickers. Especially useful as I find myself running 5+ agents at a time and jumping between plans. Video xAI (@xai) An early beta of Grok Build, an agentic CLI for coding, building apps, and automating workflows is now available for SuperGrok Heavy subscribers. Through this early beta, we will improve the model and product based on your feedback. Try it at x.ai/cli — https://nitter.net/xai/status/2054993285152989373#m",
+          "link": "https://nitter.net/JasonBud/status/2054996471800541544#m",
+          "date_utc": "2026-05-14T18:45:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://x.ai/cli",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "this is an early beta. we still have much to improve, which is why its so exciting for people to start trying. the goal is for Grok Build to be the best coding agent when it comes to solving real and difficult engineering problems. xAI (@xai) An early beta of Grok Build, an agentic CLI for coding, building apps, and automating workflows is now available for SuperGrok Heavy subscribers. Through this early beta, we will improve the model and product based on your feedback. Try it at x.ai/cli — https://nitter.net/xai/status/2054993285152989373#m",
+          "link": "https://nitter.net/JasonBud/status/2054995169934774412#m",
+          "date_utc": "2026-05-14T18:40:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://x.ai/cli",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Come demo drive Cybertruck. You may find you love it tesla.com/drive?redirect=no&… Wes (@wmorrill3) Couldn't agree more. Smooth on FSD roadtrips. SbW and rear-steer makes manual driving easy in comfort mode and fun in sport mode. Impressively capable off-road. Toughness on the outside so I never have to worry and just looks awesome. — https://nitter.net/wmorrill3/status/2043433014336893379#m",
+          "link": "https://nitter.net/Tesla/status/2055050614296785267#m",
+          "date_utc": "2026-05-14T22:20:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.tesla.com/drive?redirect=no&selectedModel=Cybertruck",
+              "content": "Powered and protected by Privacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Form 1 - travel recommendation: form.jotform.com/26130304275… Form 2 - coffee: form.jotform.com/23041546786… General contact: lexfridman.com/contact/",
+          "link": "https://nitter.net/lexfridman/status/2054989119000805558#m",
+          "date_utc": "2026-05-14T18:16:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://form.jotform.com/261303042756046",
+              "content": "Travel Suggestions for Lex Fridman Travel Suggestions for Lex Fridman I'm traveling the world for a bit, starting with China but then anywhere: Asia, Middle East, Europe, India, South/North America, Africa, Australia. No plans, only a backpack. If you have an idea and can give a recommendation, I'm looking for interesting places anywhere in the world that you can recommend I should visit that are off the beaten path - not touristy stuff, but something legendary that tourists may not know about, or a new perspective on a well-known place. It could be as remote as meeting a herder in the mountains who is a local legend, a hidden village, a hole-in-the-wall restaurant only locals know, a master of some craft, etc. Well-known, legendary places are okay too. But then, it would be super helpful "
+            },
+            {
+              "url": "https://form.jotform.com/230415467865159",
+              "content": "Coffee with Lex Fridman Coffee with Lex Fridman I'll be traveling a bunch soon, across US, Europe, Asia, etc. Along the way, I'd like to meet interesting people from all walks of life, and chat over coffee. So, if you want to chat with me, anywhere in the world, please fill out this form. Contact Lex: If you would like to contact Lex more generally, please don't use this form, but instead go to https://lexfridman.com/contact Privacy : Everything you submit in this form will be kept private (obviously). Info : Please provide as much detailed info as possible (all relevant fields if possible). It helps me know you're a real human being and someone I can trust. That said, most fields in this form are optional. Goal: If you know me it's probably obvious, but I should make it explicit: The purp"
+            },
+            {
+              "url": "https://lexfridman.com/contact/",
+              "content": "Lex Fridman - Contact and Email - Lex Fridman Skip to content Lex Fridman Research Scientist at MIT. Host of Lex Fridman Podcast. Menu Lex Fridman MENU MENU Lex Fridman Podcast Contact Lex X / Twitter YouTube Lex Fridman &#8211; Contact and Email I&#8217;m very fortunate to receive a lot of messages from amazing people, but I can no longer read all of them directly. An assistant now helps select a handful of messages for me to look at. To maximize the chance of me seeing the message, please follow these rules (or account will be marked as spam): Pick most relevant option: Only use one and best contact method most appropriate for the nature of your message. One message: Only send one message, to one place (one form or one email). Forms are preferred: Filling out a form (when that option is "
+            }
+          ]
+        },
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "I'm traveling the world for a bit, starting with China but then hopping around the globe, anywhere. Open to any adventure. No plans, only a backpack. Hoping to meet & get to know humans from all walks of life. The pic is from a long hike on the Great Wall. For me, as a fan of history, this was an epic experience. In China, first I'm visiting a few big cities & talking to engineers at the heart of China's AI revolution. After that, if feeling crazy enough, I'm hitchhiking (first time) across rural China for a few weeks. Hitchhiking because I think it's the best way to meet rural folks who I wou",
+          "link": "https://nitter.net/lexfridman/status/2054989115163136051#m",
+          "date_utc": "2026-05-14T18:15:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Intel is proud to be the Official Compute Partner of @McLarenF1 !!! ms.spr.ly/6010vusvM Video",
+          "link": "https://nitter.net/magicsilicon/status/2055058866178527533#m",
+          "date_utc": "2026-05-14T22:53:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://ms.spr.ly/6010vusvM",
+              "content": "Official compute partner of McLaren racing Skip To Main Content Toggle Navigation Products Products Home Processors Intel® Core™ Ultra Processors Intel® Core™ Processors Intel® Xeon® Processors Intel® Xeon® CPU Max Series Intel Atom® Processors Select Systems Devices AI PCs Powered by Intel Gaming Systems Intel vPro® for Business Intel® Arc™ Graphics Intel® Wi-Fi Products AI Accelerators Intel® Gaudi® AI Accelerators AI Software Solutions Intel® Data Center GPU Flex Series Network to Edge Edge and Embedded Processors Intel® Ethernet Products Intel® Infrastructure Processing Unit (Intel® IPU) Software oneAPI Unified Runtime OpenVINO™ Toolkit Intel® Trust Authority Open Source Projects Intel® Developer Catalog Support Drivers Downloads Auto-update your Drivers Download Center Support For Pro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Grok @imagine - images and videos - in your CLI X Freeze (@XFreeze) With Grok Build CLI, you can use commands like /imagine and /imagine-video directly inside the terminal to generate images and videos in real time It works incredibly well - fast and fully integrated into the development workflow — https://nitter.net/XFreeze/status/2055063692950094320#m",
+          "link": "https://nitter.net/milichab/status/2055067644118921698#m",
+          "date_utc": "2026-05-14T23:28:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Syntax highlighting,, plan mode, clickable interface in Grok Build Video xAI (@xai) An early beta of Grok Build, an agentic CLI for coding, building apps, and automating workflows is now available for SuperGrok Heavy subscribers. Through this early beta, we will improve the model and product based on your feedback. Try it at x.ai/cli — https://nitter.net/xai/status/2054993285152989373#m",
+          "link": "https://nitter.net/milichab/status/2054997545437549037#m",
+          "date_utc": "2026-05-14T18:49:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://x.ai/cli",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "“No generation has entered the world with more powerful tools or greater opportunities.” Jensen Huang to @CarnegieMellon Class of 2026: You’re standing at the starting line of the AI era. This is your moment to shape what comes next. Video",
+          "link": "https://nitter.net/nvidia/status/2054985093785981418#m",
+          "date_utc": "2026-05-14T18:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
