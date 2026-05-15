@@ -53,7 +53,7 @@ The agent-eval crisis the wiki has been tracking ([AgentLens](2026-05-14-agentle
 ## Connections to prior wiki pages
 
 - [Make Each Token Count](../inference-efficiency/2026-05-12-make-each-token-count-kv-eviction.md) — KV cache eviction is policy-aware. Memory retrieval (EvolveMem) is now the analogue at the long-term memory layer.
-- [δ-mem](../inference-efficiency/2026-05-14-delta-mem-efficient-online-memory.md) — Twitter morning slot 05-14. Lightweight 8x8 frozen-backbone associative memory. Same architectural principle as Preping/EvolveMem: don't retrain the backbone; structure the memory layer.
+- [δ-mem](../inference-efficiency/2026-05-13-delta-mem-online-memory.md) — Twitter signal 05-14. Lightweight 8x8 frozen-backbone associative memory. Same architectural principle as Preping/EvolveMem: don't retrain the backbone; structure the memory layer.
 - [AgentLens](2026-05-14-agentlens-lucky-pass-swe-eval.md) — process-quality measurement for SWE-bench. STALE/MemLens/MemEye are the memory-layer analogues.
 - [WildClawBench](2026-05-15-wildclawbench-native-runtime-agent-benchmark.md) — same-day. Native-runtime cap at 62.2%. Memory benchmarks cap lower (STALE 55.2%, MemLens <30%). The agent-eval ceiling depends on which layer you test.
 - [agent-memory.md](agent-memory.md) — concept page should be promoted to first-class given six papers in one day.
