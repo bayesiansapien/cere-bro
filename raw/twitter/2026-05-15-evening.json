@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-15",
+  "slot": "evening",
+  "scraped_ist": "2026-05-15 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "It is surprising how many lessons are next to impossible to verbalize. Human mind is surprisingly good with reasoning about uncertain and nonquantifiable qualities. Vibes so far have been very hard to replicate in silicon.",
+          "link": "https://nitter.net/MillionInt/status/2055307489022001631#m",
+          "date_utc": "2026-05-15T15:21:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "The future of AI won’t just be shaped by bigger models. It’ll be shaped by the researchers building better systems underneath them. Build on Trainium is @awscloud 's $110M investment helping universities push AI research forward on Trainium, Neuron, and large-scale AWS infrastructure. Excited to see what this next generation builds. aboutamazon.com/news/aws/ama…",
+          "link": "https://nitter.net/mattsgarman/status/2055302414043890133#m",
+          "date_utc": "2026-05-15T15:00:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.aboutamazon.com/news/aws/amazon-trainium-investment-university-ai-research",
+              "content": "News AWS How the next generation of AI researchers is using Amazon chips to accelerate discovery University researchers are using Amazon’s Trainium chip to push the boundaries of their work—and making the chip better for all developers in the process. Share Written by Amazon Staff 4 min read Key takeaways AWS invested $110 million to give university researchers access to purpose-built AI chips. AWS Trainium is speeding up AI research at UC Berkeley, MIT, Carnegie Mellon, and more. All research is open source, meaning improvements flow back to the broader developer community. Writing code that fully unlocks the performance of purpose-built AI chips is one of AI infrastructure&#x27;s most persistent challenges—one that impacts outcomes in healthcare, computer science, and everything else AI "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nottombrown",
+      "org": "Anthropic",
+      "focus": [
+        "LLMs",
+        "foundation models",
+        "GPT"
+      ],
+      "tweets": [
+        {
+          "handle": "nottombrown",
+          "creator": "@nottombrown",
+          "text": "Most finance teams don't even have a quantitative model of recursive self-improvement Patrick OShaughnessy (@patrick_oshag) A list of surprising and mind-boggling stats from this conversation: - NDR is over 500% on an annualized basis - Anthropic's first dollar of revenue came in March of 2023 - Over 90% of code inside Anthropic is written by Claude Code - The head of tax is the heaviest token user on the finance team - Run rate revenue went from $9B to $30B in one quarter (reportedly, on pace for $50B by end of next month) - Cowork is growing faster than Claude Code did at the same point in i",
+          "link": "https://nitter.net/nottombrown/status/2055304611691696303#m",
+          "date_utc": "2026-05-15T15:09:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nottombrown",
+          "creator": "@nottombrown",
+          "text": "Krishna has built the most agi-pilled finance team in the world. Patrick OShaughnessy (@patrick_oshag) Krishna Rao is the CFO of Anthropic, and this is his first podcast appearance. He joined the company two years ago when run-rate revenue was about $250M. Today it is $30B. He has helped raise ~$75B and is responsible for the procurement and allocation of compute. I feel lucky we get to hear what it is like to sit inside a company this consequential at a moment this pivotal. We discuss: - The cone of uncertainty - How he allocates compute across Trainium, TPUs, and GPUs - What investors misund",
+          "link": "https://nitter.net/nottombrown/status/2055296581164019966#m",
+          "date_utc": "2026-05-15T14:37:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
