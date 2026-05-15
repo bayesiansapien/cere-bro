@@ -30,7 +30,7 @@ The strong-regime result is the headline. Most self-improvement methods either h
 - [G-Zero](../llms-foundation-models/2026-05-12-g-zero-verifier-free-self-play.md) — gave the first formal best-iterate bound for verifier-free self-play. EvoEnv's solve-verify asymmetry is the structural condition under which a verifier-bound RL loop avoids collapse. Two papers in three days putting formal structure on previously empirical self-play.
 - [The Extrapolation Cliff](../inference-efficiency/2026-05-14-extrapolation-cliff-on-policy-distillation.md) — yesterday. Gave a closed-form for when on-policy distillation breaks. EvoEnv's asymmetry condition is the analogous structural condition for self-improvement loops.
 - [LongAct](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md) — sparse RL updates dominate dense. Both LongAct and EvoEnv argue that the *informative* signal is what should drive training; the rest is noise.
-- [Recursive (industry)](../ai-industry/2026-05-13-recursive-650m-stealth-rsi.md) — emerged with $650M for "self-improving AI." EvoEnv is the kind of paper Recursive's research team should be paying for; the asymmetry-condition framing is the missing structural piece of "RSI as engineering discipline."
+- [Recursive (industry)](../ai-industry/2026-05-13-recursive-650m-stealth.md) — emerged with $650M for "self-improving AI." EvoEnv is the kind of paper Recursive's research team should be paying for; the asymmetry-condition framing is the missing structural piece of "RSI as engineering discipline."
 
 ## Research angle
 
