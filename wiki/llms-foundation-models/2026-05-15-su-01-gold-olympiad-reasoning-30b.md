@@ -49,4 +49,4 @@ The most impressive single-model reasoning result in the wiki at this scale (30B
 - [Paper](https://arxiv.org/abs/2605.13301)
 - [HuggingFace](https://huggingface.co/papers/2605.13301)
 - [Raw farmer file](../../raw/huggingface/2026-05-15-achieving-gold-medal-level-olympiad-reasoning-via-simple-and-u.md)
-- Related: [The Extrapolation Cliff](../inference-efficiency/2026-05-14-extrapolation-cliff-on-policy-distillation.md), [G-Zero](2026-05-12-g-zero-verifier-free-self-play.md), [AIMO 3](2026-04-17-aimo-3-inference-time-scaling-dead-end.md), [rl-for-llms.md](rl-for-llms.md)
+- Related: [The Extrapolation Cliff](../inference-efficiency/2026-05-14-extrapolation-cliff-on-policy-distillation.md), [G-Zero](2026-05-12-g-zero-verifier-free-self-play.md), [Soohak](2026-05-12-soohak-research-math-benchmark.md), [rl-for-llms.md](rl-for-llms.md)
