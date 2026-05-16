@@ -481,3 +481,14 @@ Append-only timeline of ingests and lint passes.
 - Concept page updates: kv-cache.md (Forcing-KV + async batching), llm-routing.md (RouteProfile + DLR), new agent-memory.md
 - Daily digest: 2026-05-15
 - Social-stream: 2026-05-15-morning (xAI Grok Build CLI cluster of 4)
+
+## [2026-05-16] ingest | full daily run | HF + RSS + Gmail + Twitter + Kurate + Reddit
+- HF 27 new papers for 2026-05-15 window (53 total)
+- RSS 13 new posts dated 2026-05-15 (7 The Decoder, 1 Marcus on AI, 1 Algorithmic Bridge, 1 Ken Huang, 2 Simon Willison, 1 unattributed)
+- Gmail starred set 2026-05-16 (Marcus, Ken Huang Mythos, AI Breakfast 05-15 with Codex Mobile / Cerebras IPO / Anthropic-Gates / OpenAI-Apple)
+- Twitter morning slot 21 tweets / 14 retweets / 11 articles; 2026-05-15 afternoon + evening read
+- Kurate weekly cs.AI + cs.LG leaderboards (no rising authors crossed threshold; HF vs Kurate windows do not overlap this run)
+- Reddit 8 subs scraped (LocalLLaMA 8 posts, MLScaling 5, LLMDevs 1, ControlProblem 3, CUDA 1; MachineLearning + HPC + reinforcementlearning empty)
+- Wiki pages: 6 new summaries (Lighthouse Attention, BEAM, ATESD, LiSA, FrontierSmith, SPIN); 3 concept updates (kv-cache, knowledge-distillation, llm-routing)
+- Daily digest: 2026-05-16
+- Social-stream: 2026-05-16-morning (14-retweet @bayesiansapien batch; mech-interp cluster of 2; direct Lighthouse Attention amplification)
