@@ -2,7 +2,11 @@
 
 The KV cache (Key-Value cache) stores the key and value tensors from the attention mechanism for tokens already processed. This means those tokens don't need to be recomputed on every new generation step — critical for making autoregressive decoding fast.
 
-## Current State (as of 2026-05-15)
+## Current State (as of 2026-05-16)
+
+**Latest addition (2026-05-16): Lighthouse Attention pre-training wrapper.** Nous Research ships a training-only, kernel-decoupled wrapper around ordinary FlashAttention for causal-transformer pre-training at extreme context length. Queries, keys, and values are pooled symmetrically into a multi-resolution pyramid; a gradient-free top-k cascade selects a hierarchical dense sub-sequence; a sorting pass keeps left-to-right causality. The wrapper is removed in a short recovery phase, leaving a standard dense-attention model. Claimed 1.4-1.7x wall-clock speedup at 98K context and ~17x forward+backward at 512K on a single B200. The structural novelty: pre-training attention selection is now a programmable substrate, the same framing the wiki has applied to the inference-time cache. → [summary](2026-05-16-lighthouse-attention-long-context-pretraining.md)
+
+## Prior State (as of 2026-05-15)
 
 **Latest addition (2026-05-15): Forcing-KV for autoregressive video diffusion + async continuous batching.** Two pieces of the inference stack land the same day. **Forcing-KV** finds that attention heads in AR video diffusion models (Self Forcing family) cluster into two stable functional roles across samples and denoising steps: static heads (chunk transitions, intra-frame fidelity) tolerate structured pruning; dynamic heads (inter-frame motion, temporal consistency) require segment-similarity-based pruning. Role-conditioned hybrid compression delivers 29+ fps on single H200 at 30% memory reduction, 1.35-1.50x speedup at 480P scaling to 2.82x at 1080P. The cache thread is now policy-aware in three forms: learned eviction (Make Each Token Count), shared coordination (Orthrus), and head-role compression (Forcing-KV). → [summary](2026-05-15-forcing-kv-video-diffusion-kv-cache-compression.md). The **HuggingFace asynchronous continuous batching** post is the scheduling-layer complement: three CUDA streams (H2D, compute, D2H), CUDA events for handoff, two parallel buffer slots A/B so the CPU prepares batch N+1 while the GPU computes batch N. GPU utilization rises from 76.0% to 99.4%, 22% generation speedup, no kernel or model changes. → [summary](2026-05-15-async-continuous-batching-cpu-gpu-overlap.md)
 
