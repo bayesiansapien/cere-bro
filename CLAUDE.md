@@ -214,13 +214,25 @@ The threshold for declaring a pattern: ≥3 papers making the same core claim or
 
 ### How to write when you have prior context
 
+Use the wiki's prior knowledge, but **carry the context for the reader** instead of assuming they remember every paper from the last 90 days. A reader returning to a digest a month later, or a new reader landing on it for the first time, should follow at 60-70% minimum.
+
+**The rule:** every named paper reference includes a one-clause gloss of its actual claim, the first time it appears in any given section. Not just a paper name and date. The gloss earns the right to use the name.
+
 Do not write:
-> "VGF proposes a new RL paradigm."
+> "VGF is the clearest answer yet to a question that LongAct (04-18), PreRL (04-16), and TIP (04-16) all approached differently: where should training concentrate? Those papers worked at the gradient level, the token level, and the pre-train distribution level."
+
+That paragraph fails because a reader who hasn't memorized LongAct, PreRL, and TIP gets four names and no understanding.
 
 Write:
-> "VGF is the clearest answer yet to a question that LongAct (04-18), PreRL (04-16), and TIP (04-16) all approached differently: where should training concentrate? Those papers worked at the gradient level, the token level, and the pre-train distribution level. VGF works at the distribution-transport level — the most mathematically principled frame so far."
+> "VGF is the clearest answer yet to a question that three earlier papers approached differently. LongAct (04-18) showed that long-context training signal is concentrated in the first 5% of tokens, so the gradient is what matters. PreRL (04-16) argued the question is really about the pre-training data distribution, not the training loop. TIP (04-16) reframed it as a token-weighting problem: most teacher-generated tokens carry no signal and should be skipped. VGF works at a fourth layer, distribution-transport: it asks where probability mass should be moved, not which tokens to weight. It is the most mathematically principled frame of the four."
 
-The second version assumes the reader has been reading this wiki. They have. Use that context. Every paper arrives in a field that has prior work. Write as if you know that prior work — because the wiki does.
+The second version carries the context. Every paper reference includes the one specific claim that made it matter. A reader meeting LongAct for the first time gets the gist immediately. A reader returning a month later doesn't have to look anything up.
+
+**Apply this in:** TL;DR bullets, Deep Dive opening hooks, Connecting the Dots, Worth Watching, and any cross-day reference anywhere. Length is not the constraint; clarity is. Let the digest run longer if it has to.
+
+**The gloss should be specific, not generic.** A bad gloss is "LongAct (the paper about training signal concentration)." A good gloss is "LongAct (the paper that showed long-context gradient signal is concentrated in the first 5% of tokens)." Specific is short and lands the why.
+
+This applies to acronyms too. The first time MoE, RLVR, KV cache, FlashAttention, GRPO, or any other field-specific term appears in a given section, it gets a one-phrase gloss in plain English right next to it. Subsequent mentions in the same section can use the bare term.
 
 ### What concept pages are for
 
