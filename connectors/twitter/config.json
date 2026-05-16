@@ -448,5 +448,8 @@
     "tiktok.com"
   ],
   "article_fetch_timeout": 10,
-  "article_max_chars": 3000
+  "article_max_chars": 10000,
+  "x_cookies_path": "~/.config/cere-bro/x-cookies.json",
+  "download_images": true,
+  "image_download_timeout": 8
 }

@@ -54,6 +54,34 @@ AI_KEYWORDS   = [k.lower() for k in cfg["ai_keywords"]]
 SKIP_DOMAINS  = cfg["skip_domains"]
 FETCH_TIMEOUT = cfg["article_fetch_timeout"]
 ARTICLE_CHARS = cfg["article_max_chars"]
+X_COOKIES_PATH    = Path(cfg.get("x_cookies_path", "~/.config/cere-bro/x-cookies.json")).expanduser()
+DOWNLOAD_IMAGES   = cfg.get("download_images", True)
+IMG_TIMEOUT       = cfg.get("image_download_timeout", 8)
+
+# Load X session cookies for x.com/i/article/ fetches (gitignored, user-supplied)
+X_COOKIES = {}
+if X_COOKIES_PATH.exists():
+    try:
+        raw = json.loads(X_COOKIES_PATH.read_text())
+        # Support two common export formats:
+        #   1. {"name": "value", ...}                (flat dict from manual export)
+        #   2. [{"name": "...", "value": "...", ...}, ...]  (Chrome extension export)
+        if isinstance(raw, dict):
+            X_COOKIES = {k: v for k, v in raw.items() if isinstance(v, str)}
+        elif isinstance(raw, list):
+            X_COOKIES = {c["name"]: c["value"] for c in raw
+                         if isinstance(c, dict) and "name" in c and "value" in c
+                         and (c.get("domain", "").endswith("x.com") or c.get("domain", "").endswith("twitter.com"))}
+        print(f"Loaded {len(X_COOKIES)} X session cookies from {X_COOKIES_PATH}")
+    except Exception as e:
+        print(f"WARN: failed to parse X cookies at {X_COOKIES_PATH}: {e}")
+else:
+    print(f"INFO: no X cookies at {X_COOKIES_PATH} — x.com/i/article/ URLs will fall back to URL-only capture.")
+
+# Image storage location (gitignored)
+IMG_DIR = REPO_ROOT / "raw" / "twitter" / "images"
+if DOWNLOAD_IMAGES:
+    IMG_DIR.mkdir(parents=True, exist_ok=True)
 
 # Nitter instance — fallback list in order of preference
 NITTER_INSTANCES = [
@@ -313,15 +341,19 @@ def parse_rss(xml_text: str, handle: str) -> list[dict]:
             urls = re.findall(r'href="(https?://[^"]+)"', desc)
             urls = [u for u in urls if not any(d in u for d in SKIP_DOMAINS + ["nitter."])]
 
+            # Extract image URLs from <img src="..."> tags in description
+            image_urls = extract_image_urls(desc)
+
             tweets.append({
-                "handle":    handle,
-                "creator":   creator,
-                "text":      text,
-                "title":     title,
-                "link":      link,
-                "date":      dt,
-                "date_raw":  pub,
-                "urls":      list(dict.fromkeys(urls)),
+                "handle":     handle,
+                "creator":    creator,
+                "text":       text,
+                "title":      title,
+                "link":       link,
+                "date":       dt,
+                "date_raw":   pub,
+                "urls":       list(dict.fromkeys(urls)),
+                "image_urls": list(dict.fromkeys(image_urls)),
             })
     except Exception as e:
         print(f"  RSS parse error for @{handle}: {e}")
@@ -343,10 +375,20 @@ def is_ai_relevant(text: str) -> bool:
 # ── Article fetching ───────────────────────────────────────────────────────────
 
 def fetch_article(url: str) -> str:
-    """Fetch and extract text from an article URL."""
+    """Fetch and extract text from an article URL.
+
+    For x.com / twitter.com URLs (specifically x.com/i/article/...), attaches
+    user-supplied session cookies from X_COOKIES so X's native long-form articles
+    fetch successfully. For all other URLs, runs unauthenticated.
+    """
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=FETCH_TIMEOUT)
+        is_x_url = "x.com/" in url or "twitter.com/" in url
+        cookies = X_COOKIES if (is_x_url and X_COOKIES) else None
+        r = requests.get(url, headers={"User-Agent": UA},
+                         cookies=cookies, timeout=FETCH_TIMEOUT, allow_redirects=True)
         if r.status_code != 200:
+            if is_x_url and r.status_code in (401, 403):
+                print(f"  WARN: X article fetch returned {r.status_code} for {url} — cookies may be expired. Refresh at {X_COOKIES_PATH}.")
             return ""
         html = r.text
 
@@ -364,12 +406,81 @@ def fetch_article(url: str) -> str:
     except Exception:
         return ""
 
+# ── Image extraction ───────────────────────────────────────────────────────────
+
+def extract_image_urls(desc_html: str) -> list[str]:
+    """Pull image URLs out of a Nitter RSS description HTML block.
+
+    Nitter embeds image attachments via <img src="..."> tags. We collect those
+    and filter out tracker pixels / profile-icon URLs.
+    """
+    if not desc_html:
+        return []
+    urls = re.findall(r'<img[^>]+src="(https?://[^"]+)"', desc_html)
+    # Skip Nitter UI icons, profile thumbnails, and 1x1 tracker pixels
+    return [u for u in urls if not any(
+        x in u for x in ["/pic/profile_images/", "/pic/avatars/", "logo.png", "icon.png"]
+    )]
+
+def download_image(url: str, dest_path: Path) -> bool:
+    """Download a single image. Returns True on success, False otherwise. Never raises."""
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=IMG_TIMEOUT, stream=True)
+        if r.status_code != 200:
+            return False
+        with dest_path.open("wb") as f:
+            for chunk in r.iter_content(chunk_size=8192):
+                if chunk:
+                    f.write(chunk)
+        # sanity: at least 1KB to weed out empty/error pages
+        if dest_path.stat().st_size < 1024:
+            dest_path.unlink(missing_ok=True)
+            return False
+        return True
+    except Exception:
+        try:
+            dest_path.unlink(missing_ok=True)
+        except Exception:
+            pass
+        return False
+
+def slug_from_link(link: str) -> str:
+    """Derive a stable per-tweet slug from the original tweet link."""
+    # Nitter link looks like https://nitter.net/handle/status/1234567890
+    m = re.search(r"/status/(\d+)", link or "")
+    return m.group(1) if m else "unknown"
+
 def enrich(tweet: dict) -> dict:
     articles = []
     for url in tweet.get("urls", []):
         content = fetch_article(url)
         articles.append({"url": url, "content": content})
     tweet["articles"] = articles
+
+    # Download image attachments if enabled
+    if DOWNLOAD_IMAGES and tweet.get("image_urls"):
+        tweet_id = slug_from_link(tweet.get("link", ""))
+        # Date-stamped subfolder so the gitignore + cleanup story is simple
+        date_str = (tweet.get("date") or datetime.now(timezone.utc)).strftime("%Y-%m-%d")
+        sub = IMG_DIR / date_str
+        sub.mkdir(parents=True, exist_ok=True)
+        local_paths = []
+        for i, url in enumerate(tweet["image_urls"]):
+            # Pick a sensible extension; default to .jpg
+            ext = ".jpg"
+            for cand in (".png", ".jpeg", ".gif", ".webp"):
+                if cand in url.lower():
+                    ext = cand
+                    break
+            dest = sub / f"{tweet_id}-{i}{ext}"
+            if dest.exists() and dest.stat().st_size >= 1024:
+                local_paths.append(str(dest.relative_to(REPO_ROOT)))
+                continue
+            if download_image(url, dest):
+                local_paths.append(str(dest.relative_to(REPO_ROOT)))
+        tweet["image_paths"] = local_paths
+    else:
+        tweet["image_paths"] = []
     return tweet
 
 # ── Scraping ────────────────────────────────────────────────────────────────────

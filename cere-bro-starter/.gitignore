@@ -25,3 +25,6 @@ connectors/*/.secrets/
 # Podcast audio output (large binary files — stored on HF, linked from RSS)
 wiki/daily-digest/**/podcasts/**/*.mp3
 wiki/daily-digest/**/podcasts/**/*.m4a
+
+# Twitter image downloads (used at synthesis time for vision-grounded bullets)
+raw/twitter/images/
