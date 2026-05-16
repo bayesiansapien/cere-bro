@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-16",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-16 15:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "The technology is already largely here, with consistent trend over many years, disrupting consumer and industry workflows. Demonstrating leaps of progress each year. Building largest companies in the world in the blink of an eye. And yet likely less than ten people in the world don’t think of it in too small terms.",
+          "link": "https://nitter.net/MillionInt/status/2055509049324732924#m",
+          "date_utc": "2026-05-16T04:42:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
