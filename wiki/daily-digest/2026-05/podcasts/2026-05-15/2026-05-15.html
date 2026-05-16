@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 6 (2026-05-15)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>6 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-05-15<br> <strong>Run time:</strong> ~45 min</p>
+
+<p>Six papers on agent memory in one batch, two on the routing-decision design space, one on head-role-conditioned KV cache compression for video diffusion, plus the asynchronous-continuous-batching scheduling primitive. Yesterday's thread was "where does the routing decision live." Today's is "memory and environment are the next programmable substrates, and the eval ceilings on both are below 60%."</p>
+
+<p><strong>In this episode</strong> - <strong>Agent memory cluster</strong> (six papers). STALE caps the best frontier model at <strong>55.2%</strong> on implicit-conflict detection. MemLens caps multi-session reasoning <strong>below 30%</strong>. EvolveMem self-evolves retrieval configuration (+25.7% on LoCoMo). Preping builds memory pre-task at <strong>2-3x lower deployment cost</strong>. The memory layer is now a programmable substrate, and the eval ceiling is structurally low. → [cluster summary](../../agentic-systems/2026-05-15-agent-memory-cluster-stale-preping-evolvemem.md) - <strong>RouteProfile</strong> . Structured profiles beat flat ones, query-level signals beat domain-level signals, and generalization to new models needs structured + trainable profiles. The routing decision was the wrong unit of analysis, the profile is. Tier 1. - <strong>Dynamic Latent Routing (DLR)</strong> . Joint learning of discrete latent codes, routing policies, and model parameters in one stage. +6.6 pp over SFT in low-data fine-tuning, motivated by the General Dijkstra Search theorem. The first paper in the wiki where routing is a <em>training objective</em>, not a deployment concern. Tier 1. - <strong>Forcing-KV</strong> . Head-role-conditioned KV cache compression for AR video diffusion. Static heads vs dynamic heads as a stable functional split. 29+ fps on H200 at 30% memory reduction, 2.82x at 1080P. Tier 1. - <strong>HuggingFace asynchronous continuous batching</strong> . Three CUDA streams, two buffer slots, no model changes. <strong>GPU utilization 76.0% → 99.4%</strong>, 22% generation speedup on 8B at batch 32. The scheduling primitive that production inference was missing. - <strong>Orchard</strong> . Open-source agentic training framework. <strong>64.3% → 67.5% on SWE-bench Verified</strong> at 30B after SFT and SFT+RL. Open-source SOTA at this scale.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-05-15/">2026-05-15</a></p>
+</body>
+</html>
