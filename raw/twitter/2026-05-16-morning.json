@@ -1,0 +1,304 @@
+{
+  "date": "2026-05-16",
+  "slot": "morning",
+  "scraped_ist": "2026-05-16 09:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@IntuitMachine",
+      "text": "Your LLM agents are guessing their way through code analysis—and it's costing you accuracy. New research shows a simple prompting trick boosts patch verification to 93% WITHOUT running tests. Here's the structured reasoning framework that's changing the game 🧵👇 The problem? Standard LLMs skip interprocedural traces, miss edge cases, and make unsupported claims. Example: They assume Python's format() is builtin when it's actually shadowed by Django's custom implementation. Result: Wrong conclusions. 😬 Enter \"Semi-Formal Reasoning\"—a middle ground between chain-of-thought and full formal verific",
+      "link": "https://nitter.net/IntuitMachine/status/2055247398113247469#m",
+      "date_utc": "2026-05-15T11:22:19+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "A great blog by @bgurley Openness can be a weapon against monopoly power. And \"Chinese open models may become the global default by 2030\" Bill Gurley (@bgurley) A new @bgurley blog post! I have been thinking about how sophisticated executives are using open source in super creative ways. Started writing this three years ago. Excited to finish it up and publish it! And with the new @p3institute brand. substack.com/home/post/p-197… — https://nitter.net/bgurley/status/2055271855209038321#m",
+      "link": "https://nitter.net/rohanpaul_ai/status/2055352907604897889#m",
+      "date_utc": "2026-05-15T18:21:34+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://substack.com/home/post/p-197032865?source=queue",
+          "content": "From Open Source Software to Open Source Strategy Subscribe Sign in From Open Source Software to Open Source Strategy How the Smartest Executives Are Using Open Source Techniques to Optimize Corporate Strategy Bill Gurley May 09, 2026 65 10 Share Nearly 27 years ago, on July 12, 1999, an Above the Crowd post titled “ The Rising Impact of Open Source “ opened with this statement: “Perhaps the most powerful movement in the software industry today is the continuing rise of ‘open-source’ development.” With more than a quarter century of hindsight, the success of the open source movement has exceeded even my own optimistic 1999 expectations. Founders have launched thousands of open source initiatives, producing hundreds of VC-backed companies and hundreds of billions of dollars in new market ca"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@IntuitMachine",
+      "text": "Manual AI agent engineering is DEAD. Sylph AI just dropped a framework that automates the entire process—from prompts to tools to orchestration logic. This is the last harness you'll ever build. Here's why it matters: 🧠👇 The problem: Building AI agents for complex tasks (code reviews, enterprise workflows) requires DEEP expertise. You're manually tuning prompts, debugging hallucinations, wiring tools... It's slow. It doesn't scale. And most attempts fail. Enter: The Harness Evolution Loop 3 AI agents working in concert: Worker: Executes the task Evaluator: Adversarially finds failures Evolutio",
+      "link": "https://nitter.net/IntuitMachine/status/2055245758727700646#m",
+      "date_utc": "2026-05-15T11:15:48+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@charmaine_klee",
+      "text": "Sharing some our learnings from seeing how Claude Code works in LARGE codebases :) Read more on the @claudeai blog: claude.com/blog/how-claude-c… !",
+      "link": "https://nitter.net/charmaine_klee/status/2055106811225931883#m",
+      "date_utc": "2026-05-15T02:03:40+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+          "content": "How Claude Code works in large codebases: Best practices and where to start | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Con"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@DakingRai",
+      "text": "🚨 New paper: Data-driven Circuit Discovery for Interpretability of Language Models 🚨 Do circuits actually explain how language models (LM) implement a task? In mechanistic interpretability, the goal of circuit study is to discover a “circuit” that is responsible for implementing a “task”. But we find that existing methods often discover circuits that are: ❌ not general task circuits: they do not capture the full range of mechanisms LMs uses across the task. Instead, they find: ✅ dataset-specific circuits: they explain how the model processes the examples used for circuit discovery. ✅ mixed-mec",
+      "link": "https://nitter.net/DakingRai/status/2055317587882283188#m",
+      "date_utc": "2026-05-15T16:01:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@kyronis_talks",
+      "text": "🚨 BREAKING: Two researchers just dropped a paper that should terrify every CEO aggressively replacing creative & knowledge workers with generative AI. The core argument is brutal but undeniable: Generative AI only improves with massive amounts of fresh, diverse, high-quality human creativity — new ideas, art, code, research, designs. Yet every company racing to automate these tasks is depleting the shared “innovation commons” — the exact pool of novel human data that future models need to keep advancing. Short-term: individual firms win with huge cost cuts and productivity spikes. Long-term: e",
+      "link": "https://nitter.net/kyronis_talks/status/2055301264788103319#m",
+      "date_utc": "2026-05-15T14:56:21+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@NousResearch",
+      "text": "Today we release Lighthouse Attention, a selection-based hierarchical attention for long-context pre-training that delivers a 1.4-1.7× wall-clock speedup at 98K context. It runs the same forward+backward pass ~17× faster than standard attention at 512K context on a single B200, without a custom sparse attention kernel, a straight-through estimator, or an auxiliary loss. During training, queries, keys, and values are pooled symmetrically into a multi-resolution pyramid. We then score every pyramid heads, and a top-k cascade selects a small hierarchical dense sub-sequence, and after a sorting pa",
+      "link": "https://nitter.net/NousResearch/status/2055337939270332862#m",
+      "date_utc": "2026-05-15T17:22:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ZabihullahAtal",
+      "text": "Stanford University, OpenAI, Google DeepMind, and Anthropic Researchers believe AI may soon automate AI research itself. Not just coding or writing… but improving the next generation of AI systems. The paper, “AI Researchers' Views on Automating AI R&D and Intelligence Explosions,” interviewed leading researchers across frontier AI labs and academia. It identifies a major shift: - AI is rapidly improving at coding and math - Systems are moving from assistants → autonomous developers - Many researchers now see automated AI research as a realistic possibility This creates a critical turning poin",
+      "link": "https://nitter.net/ZabihullahAtal/status/2055293853746512218#m",
+      "date_utc": "2026-05-15T14:26:54+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@fnruji316625",
+      "text": "Does mechanistic interpretability really find the circuit? Our new paper, \"All Circuits Lead to Rome: Rethinking Functional Anisotropy in Circuit and Sheaf Discovery for LLMs,\" (Accepted by ICML 2026) suggests the answer may be: not always. A common implicit assumption in mechanistic interpretability is that a model's behavior is explained by the circuit — a sparse, canonical, almost-unique mechanism. Instead, for the same LLM task, we find multiple circuits/sheaves that are: ✅ faithful ✅ sparse ✅ structurally different ✅ low-overlap This means a discovered circuit may not be the unique mechan",
+      "link": "https://nitter.net/fnruji316625/status/2054760064511033571#m",
+      "date_utc": "2026-05-14T03:05:49+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "http://arxiv.org/abs/2605.12671",
+          "content": "Abstract: In this paper, we present empirical and theoretical evidence against a central but largely implicit assumption in circuit and sheaf discovery (CSD), which we term the Functional Anisotropy Hypothesis: the idea that functions in large language models (LLMs) are localised to a unique or near-unique internal mechanism. We show that a single LLM task can instead be supported by multiple, structurally distinct circuits or sheaves that are simultaneously faithful, sparse, and complete. To systematically uncover such competing mechanisms, we introduce Overlap-Aware Sheaf Repulsion, a method that augments the CSD objective with an explicit penalty on structural overlap across multiple discovery runs, enabling the discovery of circuits or sheaves with strong task performance but minimal s"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "Anthropic drops a paper on the US-China AI race They believe the US and its allies may be able to lock in a 12-24 month frontier AI lead by 2028 if they close China’s access to advanced compute and copied model outputs. The report says China is not far behind because Chinese labs are allegedly using loopholes, smuggled chips, offshore data centers, and distillation attacks to stay close to US frontier labs. Anthropic frames compute as the central bottleneck of AI power, saying advanced chips are not just one input but the gatekeeper for training, deployment, revenue, experimentation, and futur",
+      "link": "https://nitter.net/rohanpaul_ai/status/2055067901137482210#m",
+      "date_utc": "2026-05-14T23:29:03+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/2028-ai-leadership",
+          "content": "Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Policy 2028: Two scenarios for global AI leadership May 14, 2026 We’re releasing a new paper that explains our views on the competition on AI between the US and China. It’s essential that the US and its allies stay ahead of authoritarian governments like the Chinese Communist Party, or CCP. AI will soon become powerful enough to be used to repress citizens at unprecedented scale, and even to alter the balance of power among nations . And since AI is advancing more quickly by the day, we have only a limited period of time to set the conditions of the competition—and determine whether and how those threats materialize. It’s with this in mind that we outline what’s required to ensure America stays "
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@0xblacklight",
+      "text": "x.com/i/article/205496462634…",
+      "link": "https://nitter.net/0xblacklight/status/2055000745251070368#m",
+      "date_utc": "2026-05-14T19:02:12+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@petradonka",
+      "text": "x.com/i/article/205483847913…",
+      "link": "https://nitter.net/petradonka/status/2054897826149101588#m",
+      "date_utc": "2026-05-14T12:13:14+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "// Beyond Individual Intelligence // One of the more useful multi-agent surveys I've read this year. 200+ papers mapped along three axes: collaboration mechanisms, failure attribution, and self-evolution. The self-evolution chapter is the cleanest field map of where memory, meta-learning, and procedure-editing approaches actually intersect. Paper: arxiv.org/abs/2605.14892 Learn to build effective AI agents in our academy: academy.dair.ai/",
+      "link": "https://nitter.net/dair_ai/status/2055318564127809571#m",
+      "date_utc": "2026-05-15T16:05:06+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.14892",
+          "content": "Abstract: LLM-based autonomous agents have demonstrated strong capabilities in reasoning, planning, and tool use, yet remain limited when tasks require sustained coordination across roles, tools, and environments. Multi-agent systems address this through structured collaboration among specialized agents, but tighter coordination also amplifies a less explored risk: errors can propagate across agents and interaction rounds, producing failures that are difficult to diagnose and rarely translate into structural self-improvement. Existing surveys cover individual agent capabilities, multi-agent collaboration, or agent self-evolution separately, leaving the causal dependencies among them unexamined. This survey provides a unified review organized around four causally linked stages, which we ter"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "// Is Grep All You Need? // Pay attention to this on, AI devs. (bookmark it) They find that grep-style text search, when wrapped in the right agent harness, matches or beats embedding-based retrieval on coding-agent tasks. Are vector databases even needed where this is all going? It might be that what coding agents needed was not better embeddings. It was better harness design around primitive tools. If you operate a coding-agent stack that depends on a vector DB, it might be time to re-evaluate. My personal experience on this has been that agentic search, if done right, is more than good enou",
+      "link": "https://nitter.net/omarsar0/status/2055317577031975269#m",
+      "date_utc": "2026-05-15T16:01:10+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.15184",
+          "content": "Abstract: Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. Despite the growing adoption of retrieval-augmented generation (RAG) in agentic search systems, existing literature lacks a systematic comparison of how retrieval strategy choice interacts with agent architecture and tool-calling paradigm. Important practical dimensions, including how tool outputs are presented to the model and how performance changes when searches must cope with more irrelevant surrounding text, remain under-explored in agent loops. This paper reports an empirical study organized into two experiments. Experiment 1 compares grep and vector retriev"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Happy Friday! We've reset everyone's 5-hour and weekly rate limits.",
+          "link": "https://nitter.net/ClaudeDevs/status/2055347539923308703#m",
+          "date_utc": "2026-05-15T18:00:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "✅Saving money. ✅Stopping fraud. ✅Just getting started. DrOzCMS (@DrOzCMS) Saving American taxpayer dollars. Rooting out healthcare fraud. Holding bad actors accountable. The @VP ’s @WHFraudTF is working day and night to strengthen our systems and protect American families. — https://nitter.net/DrOzCMS/status/2055340621171163158#m",
+          "link": "https://nitter.net/WHFraudTF/status/2055347982225056039#m",
+          "date_utc": "2026-05-15T18:02:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The crackdown is here. Kelly Loeffler (@SBA_Kelly) The crackdown is here. In full support and collaboration with @VP and @WHFraudTF , SBA is announcing the suspension of about 1,500 borrowers in Maine associated with $93 million in potentially fraudulent PPP and EIDL loans. Like those who were suspended in California and Minnesota, these individuals will be prohibited from receiving any further SBA support. State by state, we’re identifying fraudsters – and ending their open season on taxpayer-funded programs. thecentersquare.com/maine/ar… — https://nitter.net/SBA_Kelly/status/2055318132835725",
+          "link": "https://nitter.net/WHFraudTF/status/2055326544667508760#m",
+          "date_utc": "2026-05-15T16:36:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.thecentersquare.com/maine/article_99595b83-0520-4177-b2b4-4e0817f1d9cc.html",
+              "content": "Vance pledges crackdown on fraud in Maine | Maine | thecentersquare.com Skip to main content You have permission to edit this article. Edit Close Site search Search Home About About The Center Square Newsletters Staff FAQs National Investigations States Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode_island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Issues Accountability Agriculture Border Education Energy Financial Servic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Watch now: nvda.ws/4uJjURE",
+          "link": "https://nitter.net/nvidia/status/2055362584329572654#m",
+          "date_utc": "2026-05-15T19:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uJjURE",
+              "content": "Can we design a healthcare system for all? | Microsoft Azure and NVIDIA | Catalyst E5 - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "In remote Australia, the nearest doctor can be hundreds of miles away. In the Catalyst series, we meet visionaries tackling the world's biggest challenges. See how Helfieis leveraging Microsoft Azure and NVIDIA to bridge that gap with AI-driven health monitoring, bringing preventive care to distant communities. Video",
+          "link": "https://nitter.net/nvidia/status/2055362580542062812#m",
+          "date_utc": "2026-05-15T19:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Watch the video here: nvda.ws/4eQaXRR",
+          "link": "https://nitter.net/nvidia/status/2055332387760812389#m",
+          "date_utc": "2026-05-15T17:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4eQaXRR",
+              "content": "Net Zero 2026 | Josh Parker, NVIDIA on How AI Accelerates the Global Energy Transition - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "AI is the catalyst for the global energy transition. Josh Parker, NVIDIA’s Head of Sustainability, explains how digital twins and accelerated computing is powering the path to a sustainable future. 🌍",
+          "link": "https://nitter.net/nvidia/status/2055332384900292968#m",
+          "date_utc": "2026-05-15T17:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
