@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-12T09:30:04.094726+00:00",
+  "following_last_checked": "2026-05-15T09:30:04.781302+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -58,7 +58,8 @@
     "benjitaylor",
     "kevinnbass",
     "ARK_Funds",
-    "ChrisWillx"
+    "ChrisWillx",
+    "StatlerLasVegas"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -341,6 +342,51 @@
       "timezone": "PT",
       "focus": [
         "reinforcement learning"
+      ]
+    },
+    {
+      "handle": "BrettRatner",
+      "name": "Brett Ratner",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "logangraham",
+      "name": "Logan Graham",
+      "org": "Anthropic",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "name": "ClaudeDevs",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "name": "White House Task Force to Eliminate Fraud",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "name": "Cursor",
+      "org": "Cursor",
+      "timezone": "PT",
+      "focus": [
+        "AI"
       ]
     }
   ],
