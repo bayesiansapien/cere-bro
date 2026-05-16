@@ -44,7 +44,7 @@ Wait for the user's full tier list. Parse it carefully — identify the topic na
 > - **Kurate.org leaderboards** — 3-LLM tournament rankings on arXiv as a quality complement to HF (no setup, public API)
 > - **alphaxiv.org overviews** — on-demand AI-generated paper explainers used to enrich Tier 1/2 Deep Dives (no setup, automatic)
 > - **Gmail starred emails** — AI newsletters you star in your inbox (requires Google OAuth setup)
-> - **Twitter/X** — retweets from your account (curated signal) + AI handle feed (no auth, uses Nitter RSS); auto-discovery of new follows requires an Apify token
+> - **Twitter/X** — retweets from your account (curated signal) + AI handle feed (no auth, uses Nitter RSS); auto-discovery of new follows requires an Apify token. The farmer captures tweet text, linked URL article content (up to 10K chars each), and image attachments (downloaded to raw/twitter/images/, read at synthesis time via the Read tool — no OCR layer). For X's native long-form articles (x.com/i/article/...), optional session-cookie support enables fetching the article body — see connectors/twitter/README.md for cookie setup.
 > - **Reddit AI subreddits** — curated high-signal subs (LocalLLaMA, MachineLearning, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning) via Reddit's public JSON API; no auth, score-gated + flair-filtered. Practitioner signal: what actually runs on consumer GPUs.
 > - **Manual drops** — you drop files into raw/ yourself
 >

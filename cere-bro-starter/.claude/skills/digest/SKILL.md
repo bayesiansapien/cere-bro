@@ -193,6 +193,10 @@ Good: *"Standard distillation trains on every token. Most tokens carry no real s
 
 **Connect before you summarize.** Big Picture and Connecting the Dots are the unique value of this digest. Any reader can get summaries from an abstract. They can't get accumulated synthesis anywhere else.
 
+**Carry the context for the reader.** Every named paper reference, every acronym, every prior-paper callback gets a one-clause gloss of its actual claim the first time it appears in any given section. Not just "the [paper name] from [date]" but "the [paper name] from [date], which found [the specific claim that made it matter]." The wiki is the memory; the reader is not expected to be. A new reader should follow at 60-70% minimum. This rule applies most acutely in Connecting the Dots (where it most often gets violated by name-dropping paper acronyms in a chain) but also in TL;DR, Big Picture, Deep Dive hooks, and Worth Watching. Length is not the constraint; clarity is.
+
+**Twitter retweets with substantive linked content are sources too.** If a curated retweet links to a paper or blog post not already covered by today's primary research feeds (HuggingFace, RSS, Kurate), write a wiki summary page for it just like any other source. When the same arxiv ID appears in BOTH a Twitter retweet AND today's HF/Kurate top, label it "cross-source confirmed via social" in the Deep Dive header — a stronger signal than two paper-side feeds alone.
+
 **Link everything.** Every Deep Dive must have a direct URL in the Links line. Every wiki reference must be a relative markdown link.
 
 **Show the architecture.** For every Deep Dive, ask: would a diagram make this clearer? If yes, draw one.
