@@ -427,6 +427,18 @@ Datasette changelogs get a sentence. Hype posts get nothing. Tier 4 spatial/3D w
 **9. Write as a second brain, not a daily reporter.**
 The digest is not a fresh scan of today's papers. It is today's papers read by a system that has already read everything prior. Before writing, consult the relevant concept pages and recent digests. Then write every Deep Dive and the Big Picture as if you know what came before — because you do. When a paper confirms a prior finding, name the prior finding. When it contradicts one, name the contradiction. When it fills a gap that a prior paper opened, draw that thread explicitly. A digest that could have been written without reading any prior wiki pages has failed its core purpose. The reader should finish each digest feeling that the knowledge base got smarter overnight — not just bigger.
 
+**10. The reader does not remember every paper. Carry the context for them.**
+This is the most important rule. The wiki is the memory; the reader is not expected to be. Every time the digest references a prior paper, prior result, or prior concept by name, it must include a one-clause gloss of what that paper actually claimed, right there in the sentence. Not just "the Extrapolation Cliff paper from 05-14" — write "the Extrapolation Cliff paper from 05-14, which found a closed-form threshold above which on-policy distillation collapses." See the "How to write when you have prior context" section above for the worked example.
+
+This applies in: TL;DR bullets, Big Picture paragraphs, every Deep Dive's hook line, Connecting the Dots (where it matters most), Worth Watching, and any cross-day reference in any section. Acronyms get the same treatment on first mention in a given section: "MoE (mixture-of-experts, where each token routes through a small subset of specialized sub-networks)" not just "MoE." Length is not the constraint, clarity is. A digest that runs longer because every reference carries its own context is doing the right thing. A digest that name-drops papers and trusts the reader's memory is doing the wrong thing.
+
+**Test your draft against this question:** could a smart tech-literate reader who has not been tracking AI research weekly follow at 60-70% on first read? If no, the digest needs more in-place context.
+
+**11. Twitter retweets with substantive linked content get wiki summary pages.**
+The Twitter farmer captures up to 10K characters of article content for each link in each curated retweet (see Sources table). When that content is a paper or blog post not already covered by today's HuggingFace, RSS, or Kurate, write a wiki summary page for it in the appropriate topic folder. Use the same template as any other source. Twitter is not just a signal layer; it is also a source layer for substance that doesn't appear on HuggingFace.
+
+When an arxiv ID appears in BOTH a Twitter retweet AND today's HuggingFace top, label it "cross-source confirmed via social" in the Deep Dive header. That is a stronger signal than HuggingFace + Kurate alone (which is paper-quality cross-check; social is human-curator cross-check).
+
 ---
 
 ## Conventions
