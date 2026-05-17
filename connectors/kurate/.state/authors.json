@@ -1978,5 +1978,89 @@
     ],
     "first_seen": "2026-W19",
     "last_seen": "2026-W20"
+  },
+  "Haydn Jones": {
+    "appearances": [
+      {
+        "week": "2026-W20",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.07022v1",
+        "title": "Self Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W20",
+    "last_seen": "2026-W20"
+  },
+  "Yimeng Zeng": {
+    "appearances": [
+      {
+        "week": "2026-W20",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.07022v1",
+        "title": "Self Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W20",
+    "last_seen": "2026-W20"
+  },
+  "Alden Rose": {
+    "appearances": [
+      {
+        "week": "2026-W20",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.07022v1",
+        "title": "Self Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W20",
+    "last_seen": "2026-W20"
+  },
+  "Li S. Yifei": {
+    "appearances": [
+      {
+        "week": "2026-W20",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.07022v1",
+        "title": "Self Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W20",
+    "last_seen": "2026-W20"
+  },
+  "Yining Huang": {
+    "appearances": [
+      {
+        "week": "2026-W20",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.07022v1",
+        "title": "Self Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W20",
+    "last_seen": "2026-W20"
+  },
+  "Kaiwen Wu": {
+    "appearances": [
+      {
+        "week": "2026-W20",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2605.07022v1",
+        "title": "Self Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale",
+        "ai_rating": 8.2
+      }
+    ],
+    "first_seen": "2026-W20",
+    "last_seen": "2026-W20"
   }
 }
