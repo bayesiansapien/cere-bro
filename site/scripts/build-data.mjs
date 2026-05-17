@@ -392,6 +392,24 @@ function extractTier(content, frontmatter) {
   return m ? Number(m[1]) : null;
 }
 
+// Infer the upstream source of a wiki summary page from its `**Source:**` line.
+// Used to build the tier × source heatmap on the Atlas.
+// Returns one of: huggingface | rss | gmail | twitter | reddit | kurate | other
+function inferSource(content) {
+  // The `**Source:**` line is conventionally the first metadata line under a
+  // summary's title. Match the first occurrence.
+  const m = content.match(/\*\*Source:\*\*\s*([^\n]+)/i);
+  if (!m) return 'other';
+  const src = m[1].toLowerCase();
+  if (/huggingface|hf\s+daily|hf\s+papers|huggingface\s+daily\s+papers/i.test(src)) return 'huggingface';
+  if (/reddit|r\/|localllama|\br\/[a-z]/i.test(src)) return 'reddit';
+  if (/kurate/i.test(src)) return 'kurate';
+  if (/gmail|starred|sebastian\s+raschka|ahead\s+of\s+ai|ai\s+breakfast|ken\s+huang|pragmatic\s+engineer|gary\s+marcus/i.test(src)) return 'gmail';
+  if (/twitter|nitter|via\s+@|x\.com|@[a-z0-9_]+/i.test(src)) return 'twitter';
+  if (/semianalysis|tldr|the\s+decoder|interconnects|algorithmic\s+bridge|ai\s+snake\s+oil|lilian\s+weng|karpathy|simon\s+willison|marcus\s+on\s+ai|venturebeat|the\s+information/i.test(src)) return 'rss';
+  return 'other';
+}
+
 function main() {
   if (!fs.existsSync(WIKI_DIR)) {
     console.error(`Wiki directory not found: ${WIKI_DIR}`);
@@ -432,6 +450,7 @@ function main() {
       tldr,
       links,
       industryTag,
+      source: inferSource(content),
       isSummary: isSourceSummary(filename),
       isConcept: isConceptPage(filename, topic),
       isDigest: isDig,
@@ -640,6 +659,113 @@ function main() {
     industryByTag[p.industryTag] = (industryByTag[p.industryTag] ?? 0) + 1;
   }
 
+  // ──────────────────────────────────────────────────────────────────────────
+  // ATTENTION TIERS
+  //
+  // A globally-visible view of how the wiki's content distributes across the
+  // reader's attention hierarchy (Tier 1 = core deep interest, ... Tier 4 = skip).
+  // Three sub-views are computed:
+  //
+  //   (1) tierCounts:       Donut of all summary pages by tier
+  //                         + per-tier breakdown into constituent topics
+  //   (2) tierByWeek:       Weekly stacked composition over last N_WEEKS
+  //   (3) tierBySource:     Tier × Source heatmap (which feeds surface which
+  //                         tiers most strongly)
+  // ──────────────────────────────────────────────────────────────────────────
+
+  const TIER_KEYS = ['1', '2', '3', '4', 'unknown'];
+  const TIER_COLORS = {
+    '1':       '#f59e0b',   // amber  — core deep interest
+    '2':       '#3b82f6',   // blue   — active learning
+    '3':       '#06b6d4',   // cyan   — broad horizon
+    '4':       '#64748b',   // slate  — low interest
+    'unknown': '#94a3b8',   // gray   — untagged
+  };
+  const TIER_LABELS = {
+    '1':       'Tier 1 — Core deep interest',
+    '2':       'Tier 2 — Active learning',
+    '3':       'Tier 3 — Broad horizon',
+    '4':       'Tier 4 — Low interest',
+    'unknown': 'Untagged',
+  };
+
+  const tierKey = (t) => {
+    if (t === null || t === undefined) return 'unknown';
+    const n = Number(t);
+    if (!Number.isFinite(n) || n < 1 || n > 4) return 'unknown';
+    return String(Math.trunc(n));
+  };
+
+  // (1) Tier counts — overall donut
+  const tierCounts = {};
+  for (const k of TIER_KEYS) tierCounts[k] = 0;
+  for (const p of pages) {
+    if (!p.isSummary || p.topic === 'social-stream') continue;
+    tierCounts[tierKey(p.tier)] += 1;
+  }
+
+  // (1b) Per-tier topic breakdown — so the donut "drills into" topics
+  const tierTopicBreakdown = {};
+  for (const k of TIER_KEYS) tierTopicBreakdown[k] = {};
+  for (const p of pages) {
+    if (!p.isSummary || p.topic === 'social-stream') continue;
+    const k = tierKey(p.tier);
+    tierTopicBreakdown[k][p.topic] = (tierTopicBreakdown[k][p.topic] ?? 0) + 1;
+  }
+
+  // (1c) Concept-vs-summary ratio per tier — measures synthesis depth.
+  // A tier with many summaries but few concept pages is "collected but
+  // not synthesized" — a gap signal.
+  const tierConceptBreakdown = {};
+  for (const k of TIER_KEYS) tierConceptBreakdown[k] = { summaries: 0, concepts: 0 };
+  for (const p of pages) {
+    if (p.topic === 'social-stream') continue;
+    const k = tierKey(p.tier);
+    if (p.isSummary) tierConceptBreakdown[k].summaries += 1;
+    if (p.isConcept) tierConceptBreakdown[k].concepts  += 1;
+  }
+
+  // (2) Tier momentum over time — weekly composition, last N_WEEKS
+  const tierByWeek = {};
+  for (const k of TIER_KEYS) {
+    tierByWeek[k] = {};
+    for (const w of weeks) tierByWeek[k][w] = 0;
+  }
+  for (const p of pages) {
+    if (!p.isSummary || p.topic === 'social-stream' || !p.date) continue;
+    const w = weekStartUTC(parseDate(p.date));
+    const k = tierKey(p.tier);
+    if (tierByWeek[k][w] !== undefined) tierByWeek[k][w] += 1;
+  }
+
+  // (3) Tier × Source heatmap.
+  // The wiki's `**Source:**` line is human-written so source inference is
+  // approximate. Six categories cover the daily feeds; unmatched falls into
+  // "other".
+  const SOURCE_KEYS = ['huggingface', 'rss', 'gmail', 'twitter', 'reddit', 'kurate', 'other'];
+  const SOURCE_LABELS = {
+    huggingface: 'HuggingFace',
+    rss:         'RSS / Newsletters',
+    gmail:       'Gmail starred',
+    twitter:     'Twitter / X',
+    reddit:      'Reddit',
+    kurate:      'Kurate.org',
+    other:       'Other / unattributed',
+  };
+  const tierBySource = {};
+  for (const s of SOURCE_KEYS) {
+    tierBySource[s] = {};
+    for (const k of TIER_KEYS) tierBySource[s][k] = 0;
+  }
+  for (const p of pages) {
+    if (!p.isSummary || p.topic === 'social-stream') continue;
+    const s = p.source || 'other';
+    const k = tierKey(p.tier);
+    if (tierBySource[s] && tierBySource[s][k] !== undefined) {
+      tierBySource[s][k] += 1;
+    }
+  }
+
   // Topic distribution: count of summary pages per topic.
   // Exclude social-stream synthesis pages — those represent slot-level
   // summaries of tweets, not standalone research items, so their tweet
@@ -760,6 +886,17 @@ function main() {
     industryCumulative,
     industryMomentum,
     industryByTag,
+    // Attention Tiers
+    tierKeys: TIER_KEYS,
+    tierColors: TIER_COLORS,
+    tierLabels: TIER_LABELS,
+    tierCounts,
+    tierTopicBreakdown,
+    tierConceptBreakdown,
+    tierByWeek,
+    sourceKeys: SOURCE_KEYS,
+    sourceLabels: SOURCE_LABELS,
+    tierBySource,
   };
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });

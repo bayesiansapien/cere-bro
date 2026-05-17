@@ -18,6 +18,16 @@ const {
   industryHeatmapMonthly,
   industryCumulative,
   industryMomentum,
+  tierKeys,
+  tierColors,
+  tierLabels,
+  tierCounts,
+  tierTopicBreakdown,
+  tierConceptBreakdown,
+  tierByWeek,
+  sourceKeys,
+  sourceLabels,
+  tierBySource,
 } = data;
 
 const base = document.querySelector('a.brand')?.getAttribute('href') ?? '/';
@@ -341,3 +351,182 @@ renderMomentum(document.getElementById('research-rising'), researchMomentum, (m)
 renderMomentum(document.getElementById('research-cooling'), researchMomentum, (m) => labelOf(m.topic), (m) => topicColors[m.topic] ?? '#94a3b8', (m) => m.delta, (m) => m.thisWeek, true);
 renderMomentum(document.getElementById('industry-rising'), industryMomentum, (m) => m.label, (m) => m.color, (m) => m.delta, (m) => m.thisWeek, false);
 renderMomentum(document.getElementById('industry-cooling'), industryMomentum, (m) => m.label, (m) => m.color, (m) => m.delta, (m) => m.thisWeek, true);
+
+// ────────────────────────────────────────────────────────────────────────────
+// ATTENTION TIER VISUALIZATIONS
+// ────────────────────────────────────────────────────────────────────────────
+
+// (1) Tier donut — composition of summary pages by tier
+if (tierKeys && tierCounts) {
+  const tierDonutEl = document.getElementById('tier-donut');
+  if (tierDonutEl) {
+    // Filter out unknown if it has zero count, otherwise keep it visible
+    const ks = tierKeys.filter((k) => tierCounts[k] > 0);
+    const total = ks.reduce((sum, k) => sum + tierCounts[k], 0);
+    new Chart(tierDonutEl, {
+      type: 'doughnut',
+      data: {
+        labels: ks.map((k) => tierLabels[k]),
+        datasets: [{
+          data: ks.map((k) => tierCounts[k]),
+          backgroundColor: ks.map((k) => tierColors[k]),
+          borderColor: '#0b0d10',
+          borderWidth: 2,
+          hoverOffset: 8,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        cutout: '62%',
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: { color: '#94a3b8', boxWidth: 14, padding: 12 },
+          },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => {
+                const v = ctx.parsed;
+                const pct = total ? Math.round((v / total) * 100) : 0;
+                return `${ctx.label}: ${v} pages (${pct}%)`;
+              },
+            },
+          },
+        },
+      },
+    });
+  }
+}
+
+// (1b) Tier topic breakdown — list view, showing topics under each tier
+//     plus concept-page vs summary ratio (synthesis depth)
+if (tierKeys && tierTopicBreakdown) {
+  const el = document.getElementById('tier-topic-breakdown');
+  if (el) {
+    const ks = tierKeys.filter((k) => tierCounts[k] > 0);
+    el.innerHTML = ks.map((k) => {
+      const topics = tierTopicBreakdown[k] || {};
+      const topicList = Object.entries(topics)
+        .sort(([, a], [, b]) => b - a)
+        .map(([t, n]) => {
+          const color = topicColors[t] ?? '#94a3b8';
+          return `<li>
+            <span class="momentum-swatch" style="background:${color}"></span>
+            <span class="momentum-name">${labelOf(t)}</span>
+            <span class="momentum-count">${n}</span>
+          </li>`;
+        })
+        .join('');
+      const cb = tierConceptBreakdown?.[k] ?? { summaries: 0, concepts: 0 };
+      const synthRatio = cb.summaries
+        ? Math.round((cb.concepts / cb.summaries) * 100)
+        : 0;
+      return `<div class="tier-block" style="margin-bottom: 18px">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px">
+          <strong style="color:${tierColors[k]}">${tierLabels[k]}</strong>
+          <span style="color:#64748b; font-size:0.85em">${cb.summaries} summaries · ${cb.concepts} concept pages</span>
+        </div>
+        <ul style="list-style:none; padding:0; margin:0">${topicList}</ul>
+      </div>`;
+    }).join('');
+  }
+}
+
+// (2) Tier momentum — stacked area chart, weekly composition over last 12 weeks
+if (tierKeys && tierByWeek && weeks) {
+  const el = document.getElementById('tier-momentum');
+  if (el) {
+    const ks = tierKeys.filter((k) => k !== 'unknown' || tierCounts[k] > 0);
+    new Chart(el, {
+      type: 'line',
+      data: {
+        labels: weeks.map(fmtWeek),
+        datasets: ks.map((k) => ({
+          label: tierLabels[k],
+          data: weeks.map((w) => tierByWeek[k]?.[w] ?? 0),
+          backgroundColor: tierColors[k] + '88',
+          borderColor: tierColors[k],
+          borderWidth: 2,
+          fill: true,
+          tension: 0.3,
+          pointRadius: 2,
+          pointHoverRadius: 5,
+        })),
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          x: {
+            stacked: true,
+            grid: { color: '#1f2937' },
+            ticks: { color: '#94a3b8' },
+          },
+          y: {
+            stacked: true,
+            beginAtZero: true,
+            grid: { color: '#1f2937' },
+            ticks: { color: '#94a3b8' },
+            title: { display: true, text: 'summary pages per week', color: '#64748b' },
+          },
+        },
+        plugins: {
+          legend: {
+            position: 'top',
+            labels: { color: '#94a3b8', boxWidth: 14, padding: 12 },
+          },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y}`,
+            },
+          },
+        },
+      },
+    });
+  }
+}
+
+// (3) Tier × Source heatmap — rendered as a simple HTML grid
+if (sourceKeys && tierBySource && tierKeys) {
+  const el = document.getElementById('tier-source-heatmap');
+  if (el) {
+    const tks = tierKeys.filter((k) => k !== 'unknown' || tierCounts[k] > 0);
+    // Find max for normalization
+    let max = 0;
+    for (const s of sourceKeys) {
+      for (const k of tks) {
+        max = Math.max(max, tierBySource[s]?.[k] ?? 0);
+      }
+    }
+    // Filter out source rows that are entirely empty
+    const visibleSources = sourceKeys.filter((s) =>
+      tks.some((k) => (tierBySource[s]?.[k] ?? 0) > 0),
+    );
+
+    const intensity = (v) => (max > 0 ? Math.min(1, v / max) : 0);
+    const cellColor = (v, k) => {
+      const a = intensity(v);
+      if (a === 0) return '#0f1318';
+      // Tint with the tier's color, scaled by intensity
+      return `${tierColors[k]}${Math.round(48 + a * 207).toString(16).padStart(2, '0')}`;
+    };
+
+    const header = `<div class="tier-hm-row tier-hm-header">
+      <div class="tier-hm-source-label"></div>
+      ${tks.map((k) => `<div class="tier-hm-cell tier-hm-col-label" style="color:${tierColors[k]}">${k === 'unknown' ? 'Untagged' : 'Tier ' + k}</div>`).join('')}
+    </div>`;
+    const rows = visibleSources.map((s) => {
+      const cells = tks.map((k) => {
+        const v = tierBySource[s]?.[k] ?? 0;
+        return `<div class="tier-hm-cell" style="background:${cellColor(v, k)}" title="${sourceLabels[s]} → ${tierLabels[k]}: ${v} pages">${v || ''}</div>`;
+      }).join('');
+      return `<div class="tier-hm-row">
+        <div class="tier-hm-source-label">${sourceLabels[s]}</div>
+        ${cells}
+      </div>`;
+    }).join('');
+    el.innerHTML = `<div class="tier-hm">${header}${rows}</div>`;
+  }
+}

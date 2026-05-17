@@ -759,3 +759,85 @@ th {
 .view-pane.hidden {
   display: none;
 }
+
+/* ── Attention Tiers ─────────────────────────────────────────────────────── */
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--fg);
+  margin: 0 0 4px 0;
+  letter-spacing: 0.02em;
+}
+.card-sub {
+  font-size: 0.82rem;
+  color: var(--fg-muted);
+  margin: 0 0 18px 0;
+  line-height: 1.5;
+}
+
+.tier-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tier-block li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+
+.tier-hm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: 'SF Mono', Menlo, monospace;
+  font-size: 0.82rem;
+}
+.tier-hm-row {
+  display: grid;
+  grid-template-columns: 200px repeat(5, 1fr);
+  gap: 4px;
+  align-items: center;
+}
+.tier-hm-header {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+.tier-hm-source-label {
+  padding: 8px 12px 8px 0;
+  color: var(--fg-muted);
+  text-align: right;
+  font-size: 0.85rem;
+}
+.tier-hm-cell {
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: var(--fg);
+  font-weight: 600;
+  cursor: default;
+  transition: transform 0.12s;
+}
+.tier-hm-cell:hover {
+  transform: scale(1.04);
+}
+.tier-hm-col-label {
+  background: transparent !important;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 720px) {
+  .tier-hm-row {
+    grid-template-columns: 110px repeat(5, 1fr);
+  }
+  .tier-hm-source-label {
+    font-size: 0.75rem;
+  }
+}
