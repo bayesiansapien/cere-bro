@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 7 (2026-05-16)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>7 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-05-16<br> <strong>Run time:</strong> ~49 min</p>
+
+<p>Three Tier 1 papers in one batch say the same thing about three different layers of the stack. The training loop's "give it all the information uniformly" default is the new wasteful baseline. The reform is to schedule attention, experts, and teachers selectively. On the industry side, Anthropic crossed OpenAI's valuation while Microsoft pulled its internal Claude Code licenses on the same day, because the value capture point in AI is moving from the model API to the agent harness that wraps it.</p>
+
+<p><strong>In this episode</strong> - <strong>Lighthouse Attention</strong> (Nous Research, <a href="https://arxiv.org/abs/2605.06554">arXiv 2605.06554</a>) is a wrapper that lives only during training. It pools queries, keys, and values into a small pyramid, picks a short sub-sequence with a cheap top-k pass, then calls a standard FlashAttention kernel on that short input. The model ships as plain dense attention. Result: 1.4 to 1.7 times faster training at 98K context, about 17 times faster forward and backward at 512K on a single B200 GPU. This is the first open-source training recipe to match what Subquadratic (a closed lab) announced on 05-15 as 56.2x at 1M tokens with 81.8% on SWE-bench Verified. - <strong>BEAM</strong>  lets each input token decide its own expert subset inside a Mixture-of-Experts model (MoE means each token only activates a small slice of a much bigger network). Instead of a fixed top-K rule, BEAM trains a binary mask end-to-end. It ships with a custom CUDA kernel and a vLLM integration so the FLOP savings translate into real wall-clock wins. 98%+ quality retention, up to 85% reduction in MoE compute, 2.5x decoding speed, 1.4x throughput. - <strong>ATESD</strong>  is the third paper in three days reforming on-policy distillation. In on-policy distillation, a student model generates a rollout and a teacher model scores or labels it. ATESD asks how much of the reference answer the teacher gets to see before scoring, and learns this exposure ratio with a small Beta-distribution controller. Across three Qwen3 sizes (1.7B, 4B, 8B), the trained controller beats the default "show the teacher everything" setting by +0.95, +2.05, and +2.33 points averaged across the AIME 24, AIME 25, and HMMT 25 math olympiad benchmarks. - <strong>LiSA</strong>  turns guardrails into a memory layer. It accumulates safety rules from real deployments and gates rule reuse with a Bayesian posterior lower bound, which prevents the standard failure where a rule that worked twice gets applied a hundred times before someone catches that the third case was different. Outperforms strong memory baselines under sparse and 20%-label-flipped feedback on PrivacyLens+, ConFaide+, and AgentHarm. - <strong>FrontierSmith</strong>  mutates closed-ended competitive-programming problems into open-ended training variants, then filters them with an idea-divergence metric so the model is not just generating slight rephrasings. Qwen3.5-9B gains +8.82 on the FrontierCS benchmark and +306.36 Elo on ALE-bench, a competitive-programming arena. This is the third paper in a week where the model writes its own training substrate. - <strong>SPIN</strong>  wraps an agent's planner with a DAG (directed acyclic graph) contract validator and stops the agent as soon as a partial DAG already answers the user's query. On AssetOpsBench, the operations-agent benchmark that on 05-14 reported a -0.13 correlation between public-leaderboard accuracy and the hidden "Accomplished" metric, SPIN raises Accomplished from 0.638 to 0.706 and cuts tool calls from 11.81 to 6.82 per run. First published wrapper improvement on that benchmark.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-05-16/">2026-05-16</a></p>
+</body>
+</html>
