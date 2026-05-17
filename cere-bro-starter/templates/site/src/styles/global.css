@@ -775,6 +775,30 @@ th {
   line-height: 1.5;
 }
 
+/* Stop chart-grid columns from stretching each other vertically.
+   Without this, a tall right-pane forces the donut canvas to fill an oversized
+   parent (Chart.js with maintainAspectRatio:false fills its container height). */
+.atlas-section .chart-grid {
+  align-items: start;
+}
+
+/* Cap canvas heights so they never balloon past their declared height attr,
+   regardless of parent stretching from sibling content. */
+#tier-donut {
+  max-height: 360px !important;
+}
+#tier-momentum {
+  max-height: 340px !important;
+}
+
+/* If the breakdown content is longer than the donut, scroll internally
+   rather than pushing the grid row taller. */
+#tier-topic-breakdown {
+  max-height: 360px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
 .tier-block ul {
   list-style: none;
   padding: 0;
