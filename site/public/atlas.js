@@ -377,8 +377,8 @@ if (tierKeys && tierCounts) {
       },
       options: {
         responsive: true,
-        maintainAspectRatio: true,
-        cutout: '62%',
+        maintainAspectRatio: false,
+        cutout: '60%',
         plugins: {
           legend: {
             position: 'bottom',
