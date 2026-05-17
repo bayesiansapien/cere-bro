@@ -46,6 +46,50 @@ const dataJson = JSON.stringify({
   </section>
 
   <section class="atlas-section">
+    <div class="section-marker" style="color:#f59e0b">attention</div>
+    <h2>Attention tiers</h2>
+    <p class="lead">
+      How the wiki's content distributes across the reader's attention hierarchy.
+      <strong>Tier 1</strong> is the core deep-interest set (routing, KV cache, compression, GPU);
+      <strong>Tier 2</strong> is active learning (LLMs, agents, responsible AI);
+      <strong>Tier 3</strong> is broad horizon (vision/audio/video);
+      <strong>Tier 4</strong> is the skip pile.
+    </p>
+
+    <div class="chart-grid">
+      <div class="chart-card">
+        <h3 class="card-title">Composition</h3>
+        <p class="card-sub">All-time distribution of summary pages by tier.</p>
+        <canvas id="tier-donut" height="320"></canvas>
+      </div>
+      <div class="chart-card">
+        <h3 class="card-title">Where each tier lives</h3>
+        <p class="card-sub">Topics that make up each tier, with synthesis depth indicator.</p>
+        <div id="tier-topic-breakdown"></div>
+      </div>
+    </div>
+
+    <div class="chart-card" style="padding: 28px 28px 36px; margin-top: 24px">
+      <h3 class="card-title">Tier momentum</h3>
+      <p class="card-sub">
+        Weekly volume per tier over the last 12 weeks. Watch where the field is shifting.
+        A rising Tier 1 line means efficiency / routing / hardware work is dominating;
+        a rising Tier 3 means a multimodal / generative wave is cresting.
+      </p>
+      <canvas id="tier-momentum" height="320"></canvas>
+    </div>
+
+    <div class="chart-card" style="padding: 28px 28px 36px; margin-top: 24px">
+      <h3 class="card-title">Which sources surface which tiers</h3>
+      <p class="card-sub">
+        How each daily feed contributes to each tier. Brighter cells mean the source surfaces
+        that tier more strongly. Useful for tuning which feeds to prioritize for your interests.
+      </p>
+      <div id="tier-source-heatmap"></div>
+    </div>
+  </section>
+
+  <section class="atlas-section">
     <div class="section-marker" style="color:#f59e0b">research</div>
     <h2>Where research is moving</h2>
     <p class="lead">
