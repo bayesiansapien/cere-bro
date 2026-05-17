@@ -43,5 +43,5 @@ Frontier MoE pre-training runs cost tens of millions of dollars. Each hyperparam
 
 - [Paper](https://arxiv.org/abs/2605.14200)
 - Raw Kurate entry: [raw/kurate/2026-05-17-cs-lg.md](../../raw/kurate/2026-05-17-cs-lg.md)
-- Related: [BEAM 2026-05-16](../ai-routing/2026-05-16-beam-binary-expert-activation-masking-moe.md), [DLR 2026-05-15](../ai-routing/2026-05-15-dynamic-latent-routing-discrete-codes.md), [Gemma 4 / DeepSeek V4 architectures (Raschka, 05-17 Gmail)](../../raw/gmail/2026-05-17-starred.md)
+- Related: [BEAM 2026-05-16](2026-05-16-beam-binary-expert-activation-masking-moe.md), [DLR 2026-05-15](2026-05-15-dlr-dynamic-latent-routing-post-training.md), Gemma 4 / DeepSeek V4 architectures (Raschka, 05-17 Gmail): [raw/gmail/2026-05-17-starred.md](../../raw/gmail/2026-05-17-starred.md)
 - Concept page: [LLM routing](llm-routing.md)
