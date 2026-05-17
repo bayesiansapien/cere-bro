@@ -37,5 +37,5 @@ The pipeline shape (LLM filter + unsupervised cluster) is going to ship in dozen
 
 - [Paper](https://arxiv.org/abs/2605.14354)
 - Raw: [raw/huggingface/2026-05-17-llm-based-detection-of-manipulative-political-narratives.md](../../raw/huggingface/2026-05-17-llm-based-detection-of-manipulative-political-narratives.md)
-- Sister: [Ideology Prediction of German Political Texts arxiv](https://arxiv.org/abs/2605.14355) (companion HF entry on 05-17)
+- Sister: [Ideology Prediction of German Political Texts](https://arxiv.org/abs/2605.14352) (companion HF entry on 05-17)
 - Related: [responsible-ai concept](responsible-ai.md), [LiSA 05-16](2026-05-16-lisa-lifelong-safety-adaptation.md), Hodoscope (Kurate cs.AI #11)
