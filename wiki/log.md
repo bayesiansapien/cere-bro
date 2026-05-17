@@ -492,3 +492,14 @@ Append-only timeline of ingests and lint passes.
 - Wiki pages: 6 new summaries (Lighthouse Attention, BEAM, ATESD, LiSA, FrontierSmith, SPIN); 3 concept updates (kv-cache, knowledge-distillation, llm-routing)
 - Daily digest: 2026-05-16
 - Social-stream: 2026-05-16-morning (14-retweet @bayesiansapien batch; mech-interp cluster of 2; direct Lighthouse Attention amplification)
+
+## [2026-05-17] ingest | backfill (cron auth failure caught same day) | HF + Gmail + Twitter + Kurate + Reddit
+- HF 53 papers for 2026-05-17 window; most overlap with 2026-05-15 / 2026-05-16 coverage (BEAM, Lighthouse, ATESD, LiSA, FrontierSmith, SPIN, DLR, RouteProfile, Forcing-KV, WildClawBench, Orchard, SDAR, EvoEnv, SU-01, Darwin, ATLAS, RewardHarness, OmniBoost, IntentVLA, FEST, PRISM, DiffusionOPD, agent-memory cluster, WildTableBench, Causal Forcing++, SANA-WM)
+- RSS: no new files for 2026-05-16 or 2026-05-17 (latest is 2026-05-15)
+- Gmail starred 2026-05-17 (3 items: Interconnects Open Artifacts #21 on May open-model wave + CAISI gap; Fireworks training-platform update; Sebastian Raschka architecture survey on KV sharing, mHC, compressed attention)
+- Twitter morning slot: 2 sparse AI-handle tweets, 0 @bayesiansapien retweets, 0 articles, 0 image paths (lowest-signal morning slot of the week)
+- Kurate weekly cs.AI + cs.LG leaderboards: cs.LG #13 surfaces MoE-muP at ai_rating 9.0/10 (today's Tier 1 Deep Dive); no rising authors; no HF cross-source overlap
+- Reddit 8 subs scraped: r/LocalLLaMA (MTP merge in llama.cpp + Strix Halo benchmarks + Qwen3.6 Terminal-Bench 2.0 + Ryzen 395), r/CUDA (Cutile-rs beta with B200 support); other 6 subs empty
+- Wiki pages: 7 new summaries (MoE-muP, Raschka architecture survey, MTP-in-llama.cpp, Open Artifacts #21, LIFE survey, CurveBench, LLM-based political-narrative detection)
+- Daily digest: 2026-05-17 (backfilled; 17-May 9 AM cron failed due to expired Claude CLI auth)
+- Social-stream: 2026-05-17-morning (quietest slot of the week)
