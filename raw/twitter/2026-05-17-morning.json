@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-17",
+  "slot": "morning",
+  "scraped_ist": "2026-05-17 09:10",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "When do you reach for other models instead of Claude? What can we do better? Hit me with all of your frustrations. dms open. If you can give me detail (e.g. specifics/transcipts) - it'll help a lot in finding out exactly what we need to do to improve the next model",
+          "link": "https://nitter.net/_sholtodouglas/status/2055836032168575143#m",
+          "date_utc": "2026-05-17T02:21:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "x.com/i/article/205081512629…",
+          "link": "https://nitter.net/magicsilicon/status/2055735299570098377#m",
+          "date_utc": "2026-05-16T19:41:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
