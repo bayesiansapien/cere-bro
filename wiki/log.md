@@ -503,3 +503,14 @@ Append-only timeline of ingests and lint passes.
 - Wiki pages: 7 new summaries (MoE-muP, Raschka architecture survey, MTP-in-llama.cpp, Open Artifacts #21, LIFE survey, CurveBench, LLM-based political-narrative detection)
 - Daily digest: 2026-05-17 (backfilled; 17-May 9 AM cron failed due to expired Claude CLI auth)
 - Social-stream: 2026-05-17-morning (quietest slot of the week)
+
+## [2026-05-18] ingest | backfill (cron Claude-API stream-idle-timeout caught same day) | HF + Gmail + Twitter + Kurate + Reddit
+- HF 18 papers: HodgeCover (Tier 1 MoE compression), FashionChameleon (Tier 1 KV cache rescheduling), AIRA-Compose/Design (Tier 2 agentic architecture search), CIPO (Tier 2 RLVR correction), NudgeRL (Tier 2 strategy-guided RLVR), Solvita (Tier 2 agentic code evolution), Look Before You Leap (Tier 2 agentic exploration), MMSkills (Tier 2 multimodal skills), PAGER (Tier 2 geometric GUI), DiagnosticIQ (Tier 2 industrial deploy); 3 Tier 3 (Flash-GRPO, InsightTok, DepthVLM); 5 Tier 4 skipped (DexJoCo, FFAvatar, OmniHumanoid, ReactiveGWM, WorldAct)
+- RSS: no new files for 2026-05-18 (latest is 2026-05-17, integrated into yesterday's digest)
+- Gmail starred 2026-05-18 (3 items: Semiconductor Newsletter Week 20, DAIR.AI weekly top papers, Gary Marcus video roundup)
+- Twitter morning slot: 2 sparse non-AI tweets from @MillionInt, 0 retweets, 0 articles (second consecutive empty Monday morning)
+- Kurate weekly cs.AI + cs.LG + rising-authors: leaderboards stable vs last week (MoE-muP still cs.LG #13); no new author crossings (current cluster is biomedical/scientific-discovery teams at Tier 3); no HF cross-source overlap
+- Reddit 8 subs scraped: r/LocalLLaMA (M5 vs DGX Spark vs Strix Halo vs RTX 6000 comparison, Abliterlitics forensics on Qwen3.6-27B, MTP follow-up PR #23198, Deepseek V4 1M context observations), r/CUDA (Fournex GPU bottleneck analyzer), r/reinforcementlearning (GRPO explanation thread); other 5 subs empty
+- Wiki pages: 10 new summaries (HodgeCover, FashionChameleon, AIRA, CIPO, NudgeRL, Solvita, Look Before You Leap, MMSkills, PAGER, DiagnosticIQ)
+- Daily digest: 2026-05-18 (backfilled; 18-May 9 AM cron Claude-API stream-idle-timeout mid-stream, auth restored, network blip)
+- Social-stream: 2026-05-18-morning (empty for second consecutive Monday)
