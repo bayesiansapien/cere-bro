@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-18",
+  "slot": "morning",
+  "scraped_ist": "2026-05-18 09:12",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Mathematics is a science of transforming objects you’re working with until the answer to the question you’re trying to answer becomes trivial",
+          "link": "https://nitter.net/MillionInt/status/2056173525485105273#m",
+          "date_utc": "2026-05-18T00:42:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Best productivity hack I know is organizing your work so that you enjoy it the most",
+          "link": "https://nitter.net/MillionInt/status/2056066597648044230#m",
+          "date_utc": "2026-05-17T17:37:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
