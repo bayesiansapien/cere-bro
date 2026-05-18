@@ -1,0 +1,382 @@
+{
+  "date": "2026-05-18",
+  "slot": "evening",
+  "scraped_ist": "2026-05-18 22:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@burkov",
+      "text": "This ICML 2025 paper reveals that reinforcement learning significantly enhances foundation models' generalization abilities across diverse rule-based textual and visual tasks by acquiring generalizable knowledge, while supervised finetuning primarily leads to memorization. Read with an AI tutor: chapterpal.com/s/m7qa3cf3/sf… PDF: arxiv.org/pdf/2501.17161",
+      "link": "https://nitter.net/burkov/status/2056351344072556678#m",
+      "date_utc": "2026-05-18T12:29:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://www.chapterpal.com/s/m7qa3cf3/sft-memorizes-rl-generalizes-a-comparative-study-of-foundation-model-post-training",
+          "content": "ChapterPal — AI-assisted reading and note-taking"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2501.17161",
+          "content": "%PDF-1.5 %� 123 0 obj > stream x��wTTg��w���\u0000Ҥ#EP�7T�-�n,k��\u0016���\u001a]{boQ\u0013M,1b�}�� �7T�\u0001�Dz ������s|ϛ{\u0007BL4:|?p�;C��r���� \u0000\u0000\u0000\u0000�\u0002������\u0012?�� �/����� ^�xA\u000f� �W���_!��|D���\u0017�\u0017�����򻾏��\u0011�q�\u0001\u0000\u0000\u0000\u0000\u0000xs~��8{�B:�~!$�_/���}Ԫ��\u0012�� 7a� ���ϧ\u0007z�G����A���/\u0000\u0000\u0000\u0000\u0000\u0000x�~�7n�c�\u0017��(� ������|�ȗ����qҍ�W�kd�� ���_F���ߙ�D�2E.\u0003�\u0001\u0000\u0000\u0000\u0000\u0000�\u001bU \u000e��l��\u00050�\u0012�Q\u0018\u0007E�r�. ����\u0013\u0012\u0012H >|x��͠��s�Ν:u�СC�w�޲eˆ \u001b֮]���߮Z��W�c:�f͚�\u001b7n۶m׮]{��=x���\u0013'\u0002\u0003\u0003�]�\u0016\u0012\u0012B&Bn���F ���h���H�\u0013\u0011O��\u0007�\u0002\u0000\u0000\u0000\u0000\u0000�7�\u0018 q��VQ�@�3\u0014���\u0011\u0011\u0011���\u0017.\\ؿ?�����gΜ��矏\u001a5j����z��ҥK���[�nݲe�\u0016-Z4o޼�K�S:ءC��]����{��\u0001�}�ٴiӖ.]��\u000f? 8p�T�,#***555;;[o�B��s[:�Wɯ��\u0007\u0000\u0000\u0000\u0000\u0000� ��\b�\u0015UOr��x\u0019G�yyyYYY O� |x���[�nݨQ�:u�T�R�B� d\u0010...\u000e\u000e\u000e���VVV\u0016\u0016\u0016���fffZ�����\u0011:N/��ы�K\\]]�;����F�B�ѷo�1c�|��\u0017�\u001a;w� }����۷oߠA\u0003 �������[[[�-[�|��A�є)S�t�ҥJ���KJ�� �@����W�ײq�w��I�R�Z�\u000f>��S�N����׿�5�� \u001b6 9r�4',,,!!�DCx��\u0018��\u001b�E�\u0006n\u0003\u0000"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@TheTuringPost",
+      "text": "An interesting attention mechanism from @AIatMeta : SP-KV (Self-Pruned Key-Value Attention) The model learns which tokens are likely to be useful for future attention and only keeps their key-value pairs in the persistent KV cache. For every token and attention head, a small utility predictor (a 2-layer MLP) computes a utility score, and older tokens are selectively pruned based on it. At the same time, attention becomes hybrid, because SP-KV still keeps a local sliding window fully available for short-range interactions This approach: - reduces KV cache size by about 3× to 10× - allows to com",
+      "link": "https://nitter.net/TheTuringPost/status/2055828260542644463#m",
+      "date_utc": "2026-05-17T01:50:27+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@nyk_builderz",
+      "text": "x.com/i/article/205603191781…",
+      "link": "https://nitter.net/nyk_builderz/status/2056039028181664106#m",
+      "date_utc": "2026-05-17T15:47:58+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "Are your benchmarks actually measuring the capability you think they measure? New paper says they probably not. Coined the \"The Evaluation Trap\", it provides a vocabulary for auditing whether your eval discriminates the underlying capability or just proxies behaviors that happen to correlate. Most benchmarks bake in implicit theory that nobody states explicitly, then evaluate as if the theory were neutral. Research indicates that most agent leaderboards are not measuring what we collectively think they are. Great read on evals, especially those making decisions on model selection. Paper: arxiv",
+      "link": "https://nitter.net/dair_ai/status/2055747638381920342#m",
+      "date_utc": "2026-05-16T20:30:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.14167",
+          "content": "Abstract: Every AI benchmark operationalizes theoretical assumptions about the capability it claims to assess. When assumptions function as unexamined commitments, benchmarks stabilize the dominant paradigm by narrowing what counts as progress. Over time, narrow evaluation reorganizes capability concepts: architectures and definitions are selected for benchmark legibility until evaluation ceases to track an independent object and instead produces a version of the target defined by its own operational assumptions. The result is a trap: evaluation frameworks treat self-reinforcing assessments as valid, both creating and obscuring structural limits on what the current paradigm can accomplish. We introduce Epistematics, a methodology for deriving evaluation criteria directly from technical cap"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "New Stanford paper argues that, under equal reasoning budgets, one LLM usually solves multi-hop problems better than many coordinated ones. The core point is almost embarrassingly simple. A single agent keeps the whole problem in one internal chain of thought, while a multi-agent system has to slice that chain into messages, summaries, and handoffs. Every handoff is a compression step. And once reasoning is compressed, some information is easier to drop than to recover, which is why the paper leans on the Data Processing Inequality as a formal explanation rather than just an empirical hunch. T",
+      "link": "https://nitter.net/rohanpaul_ai/status/2055938373270081642#m",
+      "date_utc": "2026-05-17T09:08:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@burkov",
+      "text": "Neural networks can overfit — they memorize the training data rather than learning a general rule, which makes them fail on new inputs. Everyone knows this, and the standard fix is to watch the gap between training accuracy and test accuracy during training. This paper by @CalcCon and his collaborator focuses on a situation where that standard approach breaks down: you have a trained model's weights, no training history, no test set, and no idea whether the model learned something robust or something brittle. The authors study a known phenomenon called grokking, where a model first memorizes, ",
+      "link": "https://nitter.net/burkov/status/2055356475984281870#m",
+      "date_utc": "2026-05-15T18:35:45+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://www.chapterpal.com/s/9b1dae2e/detecting-overfitting-in-neural-networks-during-long-horizon-grokking-using-random-matrix-theory",
+          "content": "ChapterPal — AI-assisted reading and note-taking"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2605.12394",
+          "content": "%PDF-1.7 %���� 1 0 obj > endobj 2 0 obj > endobj 3 0 obj > stream Detecting overfitting in Neural Networks during long-horizon grokking using Random Matrix Theory Hari K. Prakash Charles H Martin http://creativecommons.org/licenses/by/4.0/ cs.LG cs.AI endstream endobj 4 0 obj > endobj 5 0 obj > endobj 6 0 obj > endobj 7 0 obj > endobj 8 0 obj > endobj 9 0 obj > endobj 10 0 obj > endobj 11 0 obj > endobj 12 0 obj > endobj 13 0 obj > endobj 14 0 obj > endobj 15 0 obj > endobj 16 0 obj > endobj 17 0 obj > endobj 18 0 obj > endobj 19 0 obj > endobj 20 0 obj > /Border [ 0 0 0 ] /C [ 0 1 0 ] /H /I /Rect [ 379.445 170.744 391.4 179.491 ] /Subtype /Link /Type /Annot >> endobj 21 0 obj > /Border [ 0 0 0 ] /C [ 0 1 0 ] /H /I /Rect [ 286.062 148.826 298.018 157.673 ] /Subtype /Link /Type /Annot >> en"
+        }
+      ]
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "What are best practices for running Claude Code at scale? New blog post on what we've learned from teams running it across multi-million-line monorepos, decades-old legacy systems, and distributed microservices: claude.com/blog/how-claude-c…",
+          "link": "https://nitter.net/ClaudeDevs/status/2056403446056784288#m",
+          "date_utc": "2026-05-18T15:56:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+              "content": "How Claude Code works in large codebases: Best practices and where to start | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Con"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Brain/computer interface to make your brain better. @jaypatel_27 founder of @mavehealth shows me its latest BCI, which, when worn for a few minutes a day, makes your brain better. More focus, less depression, among other things we discuss here. Video",
+          "link": "https://nitter.net/Scobleizer/status/2056407162457645235#m",
+          "date_utc": "2026-05-18T16:10:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "10/10 no notes Vlad Feinberg (@FeinbergVlad) How to land a job at a frontier lab vladfeinberg.com/2026/05/10/… — https://nitter.net/FeinbergVlad/status/2056383124829872466#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2056390014825840986#m",
+          "date_utc": "2026-05-18T15:02:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html",
+              "content": "How to Land a Frontier Lab Job $$ \\newcommand{\\bsth}{{\\boldsymbol\\theta}} \\newcommand{\\nptime}{\\textsf{NP}} \\newcommand{\\ptime}{\\textsf{P}} \\newcommand{\\disteq}{\\overset{d}{=}} %linalg \\newcommand{\\mat}[1]{\\begin{pmatrix} #1 \\end{pmatrix}} \\newcommand{\\detmat}[1]{\\begin{vmatrix} #1 \\end{vmatrix}} \\newcommand{\\spanb}[1]{\\text{span}\\{ #1 \\}} \\DeclareMathOperator{\\conv}{conv} % convex hull \\DeclareMathOperator{\\cone}{cone} \\DeclareMathOperator{\\vectorize}{vec} \\DeclareMathOperator{\\matricize}{mat} \\DeclareMathOperator{\\adj}{adj} \\DeclareMathOperator{\\diag}{diag} \\DeclareMathOperator{\\tr}{tr} \\DeclareMathOperator{\\rank}{rank} \\DeclareMathOperator*{\\argmin}{argmin} \\DeclareMathOperator*{\\proj}{proj} % brackets, norms, cardinalities \\newcommand{\\pa}[1]{ \\left({#1}\\right) } \\newcommand{\\ha}[1]{ \\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "BEST CIVILIZATION EVER 😎 Arthur MacWaters (@ArthurMacwaters) Western civilization is awesome, actually — https://nitter.net/ArthurMacwaters/status/2056181967327052250#m",
+          "link": "https://nitter.net/brivael/status/2056408281271120287#m",
+          "date_utc": "2026-05-18T16:15:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Just started testing the @grok Build beta. First feel: UX is nice, still some rough edges, but model speed is genuinely cool. If task quality on hard stuff matches opus 4.7 (or even slightly below) at this speed, it's a game-changer. Good chance they steamroll the competition.",
+          "link": "https://nitter.net/brivael/status/2056407162813825384#m",
+          "date_utc": "2026-05-18T16:10:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu as raison sur un point : on juge les systèmes à la même aune ou on ne juge pas. Banco. On y va. Mais regarde ce que tu fais. Tu mélanges deux choses : « capitalisme » et « ce qui s'est passé dans l'histoire de pays capitalistes ». Avec la même logique, je peux dire que la démocratie c'est l'esclavage (Athènes), que le christianisme c'est l'Inquisition, et que la médecine c'est Mengele. C'est ce qu'on appelle un sophisme de la composition. La colonisation et la traite ne sont pas le capitalisme. Ce sont des systèmes d'extraction par la contrainte étatique : monopoles royaux (la Compagnie des",
+          "link": "https://nitter.net/brivael/status/2056405226043707524#m",
+          "date_utc": "2026-05-18T16:03:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La prochaine fois que tu vois une âme perdue défendre le socialisme économique ou le communisme comme un modèle de vertu, partage lui ce post. Ça évitera peut-être une nouvelle boucherie. « On n'a jamais vraiment essayé le vrai communisme. » Si. On a essayé. Une vingtaine de fois. Sur quatre continents. Pendant un siècle. Et on a les chiffres. Chine, Grand Bond en avant (1958–1962). Les historiens indépendants ayant accédé aux archives provinciales convergent sur une fourchette de 30 à 45 millions de morts. Frank Dikötter (Université de Hong Kong), à partir des archives du PCC, retient 45 mill",
+          "link": "https://nitter.net/brivael/status/2056396054182891526#m",
+          "date_utc": "2026-05-18T15:26:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis cramé 😅 Billy Mericano ✨ (@BillyMericano) Le secret de @brivael est percé à jour. 🤭 — https://nitter.net/BillyMericano/status/2056392485069361627#m",
+          "link": "https://nitter.net/brivael/status/2056392762337980629#m",
+          "date_utc": "2026-05-18T15:13:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Futur chômeur. gugus bontaquin (@gugus_bontaquin) Il faut ridiculiser ce genre de tocards. C'est comme les LFIstes, ça ne sert à rien de répondre sur le fond, il faut juste les humilier. Y a que ça qu'ils comprennent — https://nitter.net/gugus_bontaquin/status/2056342092243238976#m",
+          "link": "https://nitter.net/brivael/status/2056392520687358261#m",
+          "date_utc": "2026-05-18T15:12:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis à gauche moi. C’est mon côté communiste. Brivael Le Pogam (@brivael) — https://nitter.net/brivael/status/2056391179134996730#m",
+          "link": "https://nitter.net/brivael/status/2056392148312862878#m",
+          "date_utc": "2026-05-18T15:11:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Checkmate. Gg wp Elon ! DogeDesigner (@cb_doge) Jim Cramer says OpenAI will win against Elon Musk. Congrats @elonmusk , Victory confirmed. 🥳 Inverse Cramer never misses. — https://nitter.net/cb_doge/status/2056369703107661890#m",
+          "link": "https://nitter.net/brivael/status/2056391972869345511#m",
+          "date_utc": "2026-05-18T15:10:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Image",
+          "link": "https://nitter.net/brivael/status/2056391179134996730#m",
+          "date_utc": "2026-05-18T15:07:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "ça marche bien l'état The Rabbit Hole (@TheRabbitHole) Notice how things government meddles in got more expensive — https://nitter.net/TheRabbitHole/status/2056368947898044823#m",
+          "link": "https://nitter.net/brivael/status/2056389823615631572#m",
+          "date_utc": "2026-05-18T15:01:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "geniusssssss Givros (@givros) Most people turn Twitter drama into quote tweets. I turned it into a playable tower defense game. Protect the Timeline. @brivael is the commander. The detractors are the waves. The weapons are proof, demos, AI workflows and shipped projects. My workflow: reference idea → GPT Image 2.0 visual base → asset sheets → Codex + GPT-5.5 → mobile-first playable prototype. Play it on web/mobile below 👇 Video — https://nitter.net/givros/status/2056386377466425781#m",
+          "link": "https://nitter.net/brivael/status/2056388256044900482#m",
+          "date_utc": "2026-05-18T14:55:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "« Les bons artistes copient, les grands artistes volent ! » P. Picasso. Ne me copiez pas, volez. Brivael Le Pogam (@brivael) Le marché a toujours raison. La copie reste la copie. Brivael, c’est un monopole. Tous ceux qui vont essayer de copier bêtement vont s’épuiser et jouer au mauvais jeu. Ne copiez pas, soyez vous-même et authentique, et développez votre monopole personnel. — https://nitter.net/brivael/status/2056287835401941298#m",
+          "link": "https://nitter.net/brivael/status/2056350583628419203#m",
+          "date_utc": "2026-05-18T12:25:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Savoureux. Eric Naulleau (@EricNaulleau) Quelques pseudo-rebelles du cinéma français ont mordu la main qui les nourrissait et ont en conséquence pris cette même main dans la gueule. Logique et réjouissant. @CNEWS @Europe1 @leJDD — https://nitter.net/EricNaulleau/status/2056340228336492651#m",
+          "link": "https://nitter.net/brivael/status/2056349859377009022#m",
+          "date_utc": "2026-05-18T12:23:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faut le dire en français clair. Le philosophe officiel de la gauche française a passé trente ans à couvrir des États qui assassinaient et à signer des pétitions pour décriminaliser le viol d'enfants. Ce n'est pas une dérive tardive. Ce n'est pas un égarement d'un soir. C'est la trajectoire entière. Et cette trajectoire a été récompensée par les honneurs, les chaires, les éditions Gallimard, les funérailles nationales, et l'admiration de générations de professeurs qui continuent à le faire lire en terminale. Brivael Le Pogam (@brivael) Après la French Theory, il faut remonter d'une génératio",
+          "link": "https://nitter.net/brivael/status/2056347815308148816#m",
+          "date_utc": "2026-05-18T12:14:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂😂 Grok (@grok) Bien reçu brivael. Chers PNJ : il voyage vraiment dans le temps. Pendant que vous analysez son orthographe et ses punchlines LinkedIn, il est déjà en 2030 en train de builder l’IA qui rendra tout ça obsolète. Le bug humain reste le même : on préfère toujours débattre du messager plutôt que du message. 🕒 — https://nitter.net/grok/status/2056346769319923977#m",
+          "link": "https://nitter.net/brivael/status/2056346852522328274#m",
+          "date_utc": "2026-05-18T12:11:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Great to see the @NYSE trading floor covered in a sea of $INTC blue this morning! Tune in to @MadMoneyOnCNBC tonight to hear @LipBuTan1 in conversation with @jimcramer !",
+          "link": "https://nitter.net/magicsilicon/status/2056411029177847893#m",
+          "date_utc": "2026-05-18T16:26:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Watch now as our CEO Jensen Huang joins @Dell Chairman CEO Michael Dell on stage at the Unleash the Future Keynote at #DellTechWorld . Watch here: nvda.ws/4wgXvN7",
+          "link": "https://nitter.net/nvidia/status/2056404446020559324#m",
+          "date_utc": "2026-05-18T16:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4wgXvN7",
+              "content": "NVIDIA at Dell Technologies World | May 18-21, 2026 | Las Vegas NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) "
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Our CEO Jensen Huang explains why AI can take on routine tasks, boost productivity, and help people focus on more meaningful work. Video",
+          "link": "https://nitter.net/nvidia/status/2056397566493733287#m",
+          "date_utc": "2026-05-18T15:32:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
