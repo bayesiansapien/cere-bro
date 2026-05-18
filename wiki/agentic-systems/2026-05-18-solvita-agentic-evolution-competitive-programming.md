@@ -20,10 +20,10 @@ The Hacker agent is the structural innovation. Most multi-agent code systems hav
 
 Four agents, each paired with a graph-structured knowledge network:
 
-1. **Planner** — chooses problem-solving strategies based on problem features. Its network learns which strategies have worked for which problem structures.
-2. **Solver** — synthesises code given the strategy. Its network learns which code patterns have worked under which strategies.
-3. **Oracle** — certifies test cases for completeness. Its network learns which test patterns reveal which bug classes.
-4. **Hacker** — constructs adversarial tests targeting the Solver's likely failure modes. Its network learns which attack patterns succeed against which code patterns.
+1. **Planner.** Chooses problem-solving strategies based on problem features. Its network learns which strategies have worked for which problem structures.
+2. **Solver.** Synthesises code given the strategy. Its network learns which code patterns have worked under which strategies.
+3. **Oracle.** Certifies test cases for completeness. Its network learns which test patterns reveal which bug classes.
+4. **Hacker.** Constructs adversarial tests targeting the Solver's likely failure modes. Its network learns which attack patterns succeed against which code patterns.
 
 Outcome signals as RL updates:
 
