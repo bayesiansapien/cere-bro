@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 8 (2026-05-17)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>8 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-05-17<br> <strong>Run time:</strong> ~45 min</p>
+
+<p>The HuggingFace feed largely re-surfaced yesterday's Tier 1 batch, but the real signal landed elsewhere. The Kurate weekly leaderboard surfaced an ai_rating 9.0/10 paper from Gatsby UCL deriving the first principled scaling theory for Mixture-of-Experts (MoE) models. Sebastian Raschka catalogs the architectural diversity that ships in the May 2026 open-model wave (Gemma 4, DeepSeek V4, Laguna XS.2, ZAYA1, Kimi K2.6). MTP (Multi-Token Prediction) decoding merged into llama.cpp and r/LocalLLaMA reports a ~2x decode speedup on Qwen3.6-27B at 5-turn chat. The Twitter morning slot is the quietest of the week (two sparse tweets, zero retweets, zero articles).</p>
+
+<p><strong>In this episode</strong> - <strong>MoE-muP (Vankadara et al., Gatsby UCL plus Amazon plus Tübingen, <a href="https://arxiv.org/abs/2605.14200">arXiv 2605.14200</a>, Kurate cs.LG #13 with ai_rating 9.0/10).</strong> First principled scaling theory for Mixture-of-Experts. Extends the Maximal Update Parameterization (muP, the rule that lets dense-model hyperparameters transfer across width) to MoE by deriving the Maximally Scale-Stable Parameterization (MSSP) across all five axes: number of experts M, expert width Ne, routing sparsity K, network width N, depth L. The headline claim is that muP alone is not sufficient inside MoE because the router, expert update statistics, and active-parameter count couple non-commutatively across the new axes. The recipe is closed-form and covers a broader range of optimizers than concurrent work. - <strong>Raschka's architecture survey (Gmail-starred <a href="https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures">Ahead of AI</a>).</strong> Catalogs four moves shipping in May's open-model wave: Gemma 4's KV sharing (later layers reuse earlier layers' K and V projections, halving cache size, 2.7 GB saved at 128K context on the 2B model) plus per-layer embeddings (PLE: small per-layer embedding tables that lift effective parameter count without growing the transformer stack); Laguna XS.2's layer-wise attention budgeting; ZAYA1-8B's compressed convolutional attention; DeepSeek V4's mHC (multi-Head Compression) plus compressed attention. Every move is a long-context-efficiency play. - <strong>MTP merged in llama.cpp.</strong> <a href="https://github.com/ggml-org/llama.cpp/pull/22673">PR #22673</a> lands Multi-Token Prediction (a speculative-decoding family where the model emits multiple draft tokens per step). Strix Halo benchmarks on Qwen3.6-27B at 5-turn chat with ~28.5K context: total wall-clock 258.65s drops to 200.55s (-22.46%); generation throughput +136%, prompt processing -18%. At 35B the picture flips: total wall-clock is slightly slower because prompt processing regresses more than generation gains. Speculative decoding now has a confirmed consumer-hardware envelope. - <strong>CurveBench .</strong> 756 images of nested Jordan curves (closed non-intersecting planar curves); the task is to recover the rooted containment tree. Gemini 3.1 Pro reaches 71.1% on Easy and 19.1% on Hard. RLVR fine-tuning of Qwen3-VL-8B lifts CurveBench-Easy from 2.8% to 33.3%, exceeding GPT-5.4 and Claude Opus 4.5 under the same evaluation protocol. - <strong>LIFE survey .</strong> 200+ paper survey of LLM multi-agent systems organised along four causally linked stages: Lay capability foundation, Integrate collaboration, Find faults via attribution, Evolve via self-improvement. Names error propagation across agents and rounds as the central under-examined risk. - <strong>Industry pulse.</strong> The May 2026 open-model wave is now visible as one event: Gemma 4 (Google, Apache 2.0, four sizes including 26B-A4B MoE), Kimi K2.6 (moonshotai, long-horizon focused), GLM-5.1, Qwen3.6 (35B-A3B variant open), Laguna XS.2 (poolside, 33B-A3B coding), MiMo-V2.5-Pro (Xiaomi, Apache 2.0), DeepSeek V4 (Pro 1.6T-A49B and Flash 284B-13B). Fireworks adds full-parameter Kimi K2.6 tuning at 256K context, GLM 5.1 LoRA RL, Qwen3.6 27B managed fine-tuning, Gemma 4 dense full-param plus LoRA RL all at 256K. CAISI's IRT-Elo leaderboard reports a widening open-closed gap; Florian inside Interconnects argues a substantial fraction is harness artifact (running open models without their preferred coding agent).</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-05-17/">2026-05-17</a></p>
+</body>
+</html>
