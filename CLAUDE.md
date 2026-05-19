@@ -471,7 +471,10 @@ This applies in: TL;DR bullets, Big Picture paragraphs, every Deep Dive's hook l
 
 **Test your draft against this question:** could a smart tech-literate reader who has not been tracking AI research weekly follow at 60-70% on first read? If no, the digest needs more in-place context.
 
-**11. Twitter retweets with substantive linked content get wiki summary pages.**
+**11a. Never expose the tier vocabulary in reader-facing output.**
+The Tier 1 / Tier 2 / Tier 3 / Tier 4 hierarchy exists to calibrate the writer's depth allocation. It does NOT appear in the digest's output text. Do not write "this Tier 1 paper" or "skip the Tier 4 stuff" or include a `**Tier:** N` line in Deep Dive headers. Instead describe the topic directly: "an efficiency paper" or "a paper on agent benchmarks" or "a routing paper." A reader picking up the digest cold does not know what the tiers are. They should never need to.
+
+**11b. Twitter retweets with substantive linked content get wiki summary pages.**
 The Twitter farmer captures up to 10K characters of article content for each link in each curated retweet (see Sources table). When that content is a paper or blog post not already covered by today's HuggingFace, RSS, or Kurate, write a wiki summary page for it in the appropriate topic folder. Use the same template as any other source. Twitter is not just a signal layer; it is also a source layer for substance that doesn't appear on HuggingFace.
 
 When an arxiv ID appears in BOTH a Twitter retweet AND today's HuggingFace top, label it "cross-source confirmed via social" in the Deep Dive header. That is a stronger signal than HuggingFace + Kurate alone (which is paper-quality cross-check; social is human-curator cross-check).
