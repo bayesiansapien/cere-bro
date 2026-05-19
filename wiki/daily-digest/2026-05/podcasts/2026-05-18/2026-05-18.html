@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 9 (2026-05-18)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>9 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-05-18<br> <strong>Run time:</strong> ~52 min</p>
+
+<p>Today's batch is the deployment-and-design Monday after a theory-heavy weekend. HodgeCover supplies the mathematically precise reason every prior learning-free MoE compressor caps out at moderate compression. AIRA shows LLM agents can autonomously discover Transformer-Mamba hybrid architectures that scale 54% faster than Llama 3.2. Two RLVR papers, CIPO and NudgeRL, attack the same sparse-reward weakness from opposite sides. The Twitter morning slot is empty for the second consecutive Monday, but Reddit and yesterday's Gmail-starred DAIR.AI weekly fill the gap with confirmation of last week's threads.</p>
+
+<p><strong>In this episode</strong> - <strong>HodgeCover (arXiv <a href="https://arxiv.org/abs/2605.13997">2605.13997</a>).</strong> Names a structural blind spot in every prior learning-free Mixture-of-Experts (MoE) compressor: three experts can be pairwise mergeable yet form an irreducible cycle when merged together. Models the obstruction as the harmonic kernel of the simplicial Laplacian on a 2-complex of experts. Greedy harmonic-coverage selection wins on aggressive compression frontiers where pairwise-blind methods break. - <strong>AIRA-Compose / AIRA-Design (arXiv <a href="https://arxiv.org/abs/2605.15871">2605.15871</a>).</strong> 11 LLM agents in a 24-hour search over Attention, MLP, Mamba primitives produce 14 novel architectures. At 1B pre-trained on a fixed token budget, AIRAformer-D beats Llama 3.2 by 2.4% and AIRAhybrid-D by 3.8%. The compute-optimal scaling slope is 54% steeper than Llama 3.2 and 71% steeper than the best Composer-found Transformer. - <strong>CIPO (arXiv <a href="https://arxiv.org/abs/2605.14539">2605.14539</a>) and NudgeRL (arXiv <a href="https://arxiv.org/abs/2605.15726">2605.15726</a>).</strong> Two RLVR (Reinforcement Learning with Verifiable Rewards, the post-training paradigm where the reward signal is a programmatic verifier such as unit tests or exact-match) papers on the same day attacking the same sparse-reward weakness from opposite ends. CIPO converts on-policy failures into correction-oriented supervision, lifting pass@K more than pass@1. NudgeRL conditions rollouts on lightweight strategy contexts, matching vanilla GRPO at 8x larger rollout budgets. - <strong>Solvita (arXiv <a href="https://arxiv.org/abs/2605.15301">2605.15301</a>).</strong> Four-agent code framework (Planner, Solver, Oracle, Hacker) with trainable graph-structured knowledge networks. The Hacker constructs adversarial test cases that update the routing weights. Nearly doubles single-pass accuracy on CodeContests / APPS / live Codeforces. First wiki entry where adversarial-test construction is the closed-loop signal source for agent self-evolution. - <strong>DiagnosticIQ (arXiv <a href="https://arxiv.org/abs/2605.08614">2605.08614</a>).</strong> 6,690-question benchmark for the rule-to-action step in industrial maintenance. The frontier has closed: top three LLMs sit within one Macro point. Brittleness is the discriminating axis. Under condition inversion, frontier models still pick the original answer 49-63% of the time. - <strong>PAGER (arXiv <a href="https://arxiv.org/abs/2605.15963">2605.15963</a>).</strong> Identifies the Semantic-Execution Gap in GUI agents: 88% action-type accuracy but under 6% task success on precision-sensitive geometric tasks. PAGER closes it to 4.1x the strongest general baseline via dependency-structured planning plus precision-aligned RL.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-05-18/">2026-05-18</a></p>
+</body>
+</html>
