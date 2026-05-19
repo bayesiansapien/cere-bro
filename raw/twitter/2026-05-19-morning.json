@@ -1,0 +1,485 @@
+{
+  "date": "2026-05-19",
+  "slot": "morning",
+  "scraped_ist": "2026-05-19 09:09",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Why the change? \"Extra usage\" originally meant paying when you hit a plan limit. Usage credits do more than that now—they power features like fast mode directly.",
+          "link": "https://nitter.net/ClaudeDevs/status/2056543966963839405#m",
+          "date_utc": "2026-05-19T01:14:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've renamed \"extra usage\" to \"usage credits\" across Claude. Your spending limits, auto-reload settings, and any credits you've already bought carry over exactly as they were.",
+          "link": "https://nitter.net/ClaudeDevs/status/2056543965672083966#m",
+          "date_utc": "2026-05-19T01:14:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Fast mode is identical Opus quality at ~2.5× the response speed, billed at a higher per-token rate. Use it when latency matters more than cost: rapid iteration, live debugging, time-sensitive work. code.claude.com/docs/en/fast…",
+          "link": "https://nitter.net/ClaudeDevs/status/2056454360780222615#m",
+          "date_utc": "2026-05-18T19:18:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://code.claude.com/docs/en/fast-mode",
+              "content": "Speed up responses with fast mode - Claude Code Docs Skip to main content Claude Code Docs home page English Search... ⌘ K Ask AI Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Model and responses Speed up responses with fast mode Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Settings and permissions Settings Permissions Sandboxing Model and responses Model configuration Speed up responses with fast mode Output styles Interface Terminal configuration Fullscreen rendering Voice dictation Customize status line Customize keyboard shortcuts On this page Toggle fast mode Understand the cost tradeoff Decide when to use fast mode Fast mode vs effort level Requirements Enable fast mode"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Fast mode now defaults to Opus 4.7 in Claude Code. Try it out today with /fast Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2056454359685476491#m",
+          "date_utc": "2026-05-18T19:18:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Check it out in Claude Console: platform.claude.com/usage/ca… See our docs to learn more: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2056434423982444801#m",
+          "date_utc": "2026-05-18T17:59:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://platform.claude.com/usage/cache",
+              "content": "Caching | Claude Platform Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Loading..."
+            },
+            {
+              "url": "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics",
+              "content": "Cache diagnostics - Claude API Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Loading... Messages Managed Agents Admin Resources API reference English Console Log in Search... ⌘K First steps Intro to Claude Quickstart Building with Claude Features overview Using the Messages API Handling stop reasons Model capabilities Extended thinking Adaptive thinking Effort Task budgets (beta) Fast mode (beta: research preview) Structured outputs Citations Streaming Messages Batch processing Search results Streaming refusals Multilingual sup"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Prompt cache diagnostics are now in Claude Console. When a request misses the cache, you can now see exactly which part of your prompt changed and how many tokens it cost you.",
+          "link": "https://nitter.net/ClaudeDevs/status/2056434422229123106#m",
+          "date_utc": "2026-05-18T17:59:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Just met with @camrooahmed who has built a system for brain surgeons that uses augmented reality and AI to more accurately display brain tumors. Done about 100 surgeries already and mistake rates go way down, which saves massive amounts of money since these surgeries cost more than $100k each. Nice to see @magicleap is still being used. Has implications on future of robotics surgery and further understanding the brain for brain/computer interfaces. I got a demo after I turned off the camera and it lets a surgeon “slice” the brain to more accurately see the tumor and figure out how to best get ",
+          "link": "https://nitter.net/Scobleizer/status/2056539257364467914#m",
+          "date_utc": "2026-05-19T00:55:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Grok: \"If you haven’t watched the full 47 minutes yet, I highly recommend it—it’s one of the most substantive tech interviews I’ve seen this year. The future of secure, frictionless identity verification is closer than most people realize, and much of it stems from the innovations Adams has spent his career perfecting.\" Wild how AI has a point of view now. Robert Scoble (@Scobleizer) My friend @BCFMO Robert Adams developed the multi-factor identification system that TSA is using in its new airport security scanners. His company globaledentity.com/ looks at your veins in your arm and also your ",
+          "link": "https://nitter.net/Scobleizer/status/2056520067580588272#m",
+          "date_utc": "2026-05-18T23:39:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://globaledentity.com/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This open source multi agent system is great for planning out your viewing of Google IO, starting tomorrow. It planned out my whole week and added all the sessions I cared about to my calendar. Thanks to LobeHub for sponsoring my newsletter: unaligned.io that ships every Tuesday. LobeHub (@lobehub) Meet your Chief Agent Operator in LobeHub now. You don't manage agents. Your CAO does. LobeHub hires agents from a 273K-skill marketplace, runs them in the cloud 24/7, and reports through IM apps you already live in. You run the strategy. We run the agents. Video — https://nitter.net/lobehub/status/",
+          "link": "https://nitter.net/Scobleizer/status/2056493082552721876#m",
+          "date_utc": "2026-05-18T21:52:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive May 12, 2026 ​​​​​​AI-Powered Cyberattacks A New Security Threat Robert Scoble, +1 May 05, 2026 ​​​​​​AI Agents and the New Enterprise Workforce Layer Robert Scoble, +1 Apr 28, 2026 ​​​​​​The Rise of AI Native Companies Robert Scoble, +1 Apr 21, 2026 ​​​​​​Why AI Competition Is Becoming a Platform War Robert Scoble, +1 Apr 14, 2026 ​​​​​​The Rise of AI Middle Managers Robert Scoble, +1 Apr 07, 2026 ​​​​​​The New AI Divide Open Enough to Spread, Closed Enough to Win Robert Scoble, +1 Mar 31, 2026 ​​​​​​AI Safety Has Entered the Cybersecurity Era Robert Scoble, +1 Mar 24, 2026 ​​​​​​Physical AI AI Moves into Factories and "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised v14.3.3 drives even smoother nags you less Herbert Ong (@herbertong) 🚨 Tesla FSD v14.3.3 may be one of the biggest feeling upgrades yet 👀 @thejefflutz says early testers are seeing: • Much less driver-monitoring nagging • Smoother, more human-like driving • Faster Smart Summon (up to 8 mph) • “Hey Grok” support • Better visualizations Some users are reportedly going over a minute with no nags at all! $TSLA Video — https://nitter.net/herbertong/status/2056529805466800312#m",
+          "link": "https://nitter.net/Tesla/status/2056577806981911000#m",
+          "date_utc": "2026-05-19T03:28:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD has eyes in the back of its head Human drivers – even the best most responsible ones – do not 🅰️nanto Mohammad (@01Ananto) Tesla FSD 14.3.3 just saved me from a potential side-swipe collision — again. Watch this: I’m cruising in the right lane at ~45 mph when the green station wagon on my left suddenly drifts over, cutting sharply into my lane and toward the shoulder. FSD spots the intrusion instantly, smoothly steers right to create maximum safe distance, and progressively slows us down while keeping everything controlled. This is exactly why FSD’s multi-camera 360° vision is such a game-",
+          "link": "https://nitter.net/Tesla/status/2056491309029011639#m",
+          "date_utc": "2026-05-18T21:45:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "If you love them, put them in a Tesla with FSD Supervised 🅰️nanto Mohammad (@01Ananto) FSD literally saved my life and my wife’s tonight. Watch carefully - a car suddenly races in and merges into our lane with almost zero gap at highway speed. On the footage it’s hard to tell just how close it was, but in that exact moment me and my wife both thought “there’s no way a human could react fast enough.” FSD did. In milliseconds it calculated the distance to our front bumper and instantly slowed down perfectly, leaving safe room. Slow-mo shows exactly how razor-close it was. This wasn’t a minor cor",
+          "link": "https://nitter.net/Tesla/status/2056462191134642653#m",
+          "date_utc": "2026-05-18T19:49:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Sorry, fraudsters🇺🇸 Vice President JD Vance (@VP) VP Vance and the @WHFraudTF are working around the clock to eliminate fraud and Make America great Again🇺🇸 Video — https://nitter.net/VP/status/2056438502959562814#m",
+          "link": "https://nitter.net/WHFraudTF/status/2056506622554276173#m",
+          "date_utc": "2026-05-18T22:46:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ce mec a théoriquement cracké un truc que je fais intuitivement dans tous mes posts. Je pense qu’il a compris quelque chose de fondamental sur le fonctionnement des LLMs. C’est méga brillant : Cédric Lion (@cdriclion) Introducing Open Collider: an open-source engine that mechanically improves LLM creativity. It generates non-trivial, high-quality ideas at scale, for any ideation problem. LLMs collapse on the same ideas. Sample the same brief 100 times → most outputs land in the same place. Researchers call it the Artificial Hivemind (Jiang et al., 2025). \"Be more creative\" moves the LLM's outp",
+          "link": "https://nitter.net/brivael/status/2056597565995409754#m",
+          "date_utc": "2026-05-19T04:47:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "9: they are best shitposter 10: they master 🤨 face Self Upgrade (@selfupgrade222) HOW TO IDENTIFY HIGH IQ PEOPLE: 1. They can often figuratively \"smell\" people's intentions and true characters ( good intuition ). 2. They ask very good questions and often dig deep. 3. They have fewer friends because it's more difficult for them to genuinely connect with others. 4. They like to read books to learn, explore ideas, and expand their thinking. 5. They are usually quieter than the rest. 6. They dislike heated arguments and conflicts. 7. They acknowledge how much they don't know. 8. They constantly at",
+          "link": "https://nitter.net/brivael/status/2056563865861730424#m",
+          "date_utc": "2026-05-19T02:33:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le plus gros piège, dans lequel la majorité des gens “smart” tombent, c’est le bouc émissaire. À partir du moment où tu commences à désigner un groupe de personnes (hétérogène) comme l’ennemi à abattre. Tu es fini, c’est game over. Ça a été toute l’histoire tragique du 20ème, avec des boucs émissaires différents à chaque fois. Le monde est complexe, chaotique et nuancé.",
+          "link": "https://nitter.net/brivael/status/2056553019265646837#m",
+          "date_utc": "2026-05-19T01:50:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Jesen Huang is true good guy. It’s super amazing to see people like this at the top of the ladder. Dell Technologies (@Dell) Signed by Jensen at Dell Technologies World. Built for the future of agentic AI. 🚀 — https://nitter.net/Dell/status/2056445267377840528#m",
+          "link": "https://nitter.net/brivael/status/2056551728397369550#m",
+          "date_utc": "2026-05-19T01:45:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "started from the bottom now we here SheIby (@TommyShelby_30) como empezó // como va — https://nitter.net/TommyShelby_30/status/2056402307961553045#m",
+          "link": "https://nitter.net/brivael/status/2056549503637852207#m",
+          "date_utc": "2026-05-19T01:36:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. Dustin (@r0ck3t23) Peter Thiel thinks the physical world has been frozen in place for 50 years. Thiel: “It’s generally been stagnant in the world of atoms, not the world of bits for something like 50 years.” The physical world stopped moving in the 1970s. Not because we hit the limits of physics. Not because we ran out of things to build. Because we got scared. Thiel: “Maybe we’re too risk-averse. Maybe we’re scared about how apocalyptic some of the science and tech are.” An entire civilization chose comfort over progress and called it wisdom. The bridges look the same. The grid looks the",
+          "link": "https://nitter.net/brivael/status/2056549003219628117#m",
+          "date_utc": "2026-05-19T01:34:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "And it’s a shithole. Socialism is shit. Estado Mínimo (@xestadominimo) \"Si el Socialismo funcionara, Venezuela sería Dubai\". - Javier Milei - — https://nitter.net/xestadominimo/status/2056463156289929259#m",
+          "link": "https://nitter.net/brivael/status/2056548090643923431#m",
+          "date_utc": "2026-05-19T01:30:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "In the future, we will see 2010s/2020s experiments on children the way we see Josef Mengele’s experiments during WWII. Dark times. MAGA Voice (@MAGAVoice) I ABSOLUTELY AGREE WITH ELON MUSK — https://nitter.net/MAGAVoice/status/2056187673375814110#m",
+          "link": "https://nitter.net/brivael/status/2056547739366785514#m",
+          "date_utc": "2026-05-19T01:29:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Economics is pretty simple. Private property. Free trades between people. No state should try to make the market efficient, the market is efficient by design. And that’s it.",
+          "link": "https://nitter.net/brivael/status/2056545599147700461#m",
+          "date_utc": "2026-05-19T01:20:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We need go bring back beauty and tru and reject shitty ideas and shitty creations. ☠︎︎ (@bizzleecos) Today's humans have won in technology but lost in art. Video — https://nitter.net/bizzleecos/status/2054893873151832081#m",
+          "link": "https://nitter.net/brivael/status/2056544313463460060#m",
+          "date_utc": "2026-05-19T01:15:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’ai regardé le top 50 des entrepreneurs des 50 dernières années. Le point commun n’est ni le QI, ni le diplôme, ni le pedigree. C’est trois choses, toujours les mêmes. Une précocité brutale dans l’entrepreneuriat. À 15, 18, 22 ans ils vendaient déjà des trucs, montaient des side projects, se prenaient des murs. Une vraie prise de risque. Pas le “risque” de quitter McKinsey pour faire une startup avec 2 ans de runway personnel. Le vrai risque, celui où si ça rate tu repars de zéro avec des dettes. Et surtout, une capacité hors-norme à tenir la douleur sur la durée. 10, 15, 20 ans à encaisser s",
+          "link": "https://nitter.net/brivael/status/2056543803985498185#m",
+          "date_utc": "2026-05-19T01:13:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Learn more about Composer 2.5: cursor.com/blog/composer-2-5",
+          "link": "https://nitter.net/cursor_ai/status/2056415420614386064#m",
+          "date_utc": "2026-05-18T16:43:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/blog/composer-2-5",
+              "content": "Introducing Composer 2.5 · Cursor Skip to content Cursor Product ↓ Agents Code Review Cloud Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / research May 18, 2026 · research Introducing Composer 2.5 7 min read Table of Contents ↑ Training Composer 2.5 Targeted RL with textual feedback Synthetic data Sharded Muon and dual mesh HSDP Try Composer 2.5 Composer 2.5 is now available in Cursor. It&#x27;s a substantial improvement in intelligence and behavior over Composer 2 . It is better at sustained work on long-running tasks, follows complex instructions more reliably, and is more pleasant to collaborate with. We improved Composer by scaling "
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Together with SpaceXAI, we’re training a significantly larger model from scratch, using 10x more total compute. With Colossus 2’s million H100-equivalents and our combined data and training techniques, we expect this to be a major leap in model capability.",
+          "link": "https://nitter.net/cursor_ai/status/2056415419536461836#m",
+          "date_utc": "2026-05-18T16:43:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Composer 2.5 is built on the same open-source base as Composer 2, Moonshot’s Kimi K2.5.",
+          "link": "https://nitter.net/cursor_ai/status/2056415417971986647#m",
+          "date_utc": "2026-05-18T16:43:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We improved Composer by scaling training, generating more complex RL environments, and introducing new learning methods. For example, we use text feedback during RL to learn faster by assigning credit in rollouts spanning hundreds of thousands of tokens.",
+          "link": "https://nitter.net/cursor_ai/status/2056415416621420749#m",
+          "date_utc": "2026-05-18T16:43:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Composer 2.5 is exceptionally intelligent and up to 10x more efficient than similarly capable models.",
+          "link": "https://nitter.net/cursor_ai/status/2056415414977187904#m",
+          "date_utc": "2026-05-18T16:43:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model.",
+          "link": "https://nitter.net/cursor_ai/status/2056415413077233983#m",
+          "date_utc": "2026-05-18T16:43:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Precious cargo secured in New Jersey @WhiteCastle",
+          "link": "https://nitter.net/magicsilicon/status/2056422216372293735#m",
+          "date_utc": "2026-05-18T17:10:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mntruell",
+      "org": "Cursor AI",
+      "focus": [
+        "coding agents",
+        "AI tooling",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "mntruell",
+          "creator": "@mntruell",
+          "text": "Composer 2.5 is a significant step up from Composer 2. This is the very start of our work with SpaceXAI. Hope to have more improvements out soon. Cursor (@cursor_ai) Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model. — https://nitter.net/cursor_ai/status/2056415413077233983#m",
+          "link": "https://nitter.net/mntruell/status/2056418797473640681#m",
+          "date_utc": "2026-05-18T16:57:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Thanks @SpaceX and @elonmusk , excited for you to try out the NVIDIA Vera CPU 🎉 NVIDIA AI Infrastructure (@NVIDIAAIInfra) 🎉 Excited for our partner @SpaceX to try out the NVIDIA Vera CPU. This is just the beginning for Vera, our CPU purpose-built for agentic AI. Thank you to @elonmusk and the SpaceX team 🚀 — https://nitter.net/NVIDIAAIInfra/status/2056520702388588676#m",
+          "link": "https://nitter.net/nvidia/status/2056523120652275878#m",
+          "date_utc": "2026-05-18T23:51:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read more🔗 nvda.ws/42KhQgl",
+          "link": "https://nitter.net/nvidia/status/2056494548629762129#m",
+          "date_utc": "2026-05-18T21:58:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/42KhQgl",
+              "content": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs | NVIDIA Blog Skip to content Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production. May 18, 2026 by Ian Finder Share X Facebook LinkedIn Email 0 Agentic AI has always called for a different kind of CPU. NVIDIA CEO and founder Jensen Huang introduced the answer — the standalone Vera CPU — at GTC San Jose in March as NVIDIA’s next multi-billion dollar business. On Friday, that CPU went from NVIDIA’s labs into customer hands. The first NVIDIA Vera CPUs arrived at three of the world&#8217;s leading AI labs on Friday — "
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "NVIDIA’s Ian Buck hand-delivered the first-ever NVIDIA Vera CPUs to our partners @AnthropicAI , @OpenAI , @SpaceX , and @OracleCloud . 🎉 Vera is NVIDIA's first custom CPU, purpose-built for the age of agentic AI. This is just the beginning. The road to Vera-powered systems starts here. Thank you to our partners for being on this journey with us. The best is yet to come. 💚 Video",
+          "link": "https://nitter.net/nvidia/status/2056494241904271780#m",
+          "date_utc": "2026-05-18T21:56:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
