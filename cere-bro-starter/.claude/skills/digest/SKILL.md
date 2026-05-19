@@ -64,15 +64,13 @@ A digest that ignores prior context is just a summary, not synthesis. The reader
 
 Write to `wiki/daily-digest/<YYYY-MM>/<YYYY-MM-DD>.md`.
 
-Use the reader's tier hierarchy from `CLAUDE.md` (or `wiki-config.json`) to calibrate depth:
-- Tier 1 topics: 4–6 paragraph Deep Dives with mechanism + Research angle
-- Tier 2 topics: 2–4 paragraph Deep Dives, flag Tier 1 intersections
-- Tier 3 topics: Quick Hits paragraph
-- Tier 4 topics: one sentence or skip
+Use the reader's attention hierarchy from `CLAUDE.md` to calibrate depth allocation. **But never expose the tier vocabulary in the reader-facing output.** Describe topics directly ("an efficiency paper", "a paper on agent benchmarks"), not by tier number.
 
 ---
 
 ## Required format
+
+The digest flows as one story: facts → interpretation → the papers themselves → how they connect → industry side → predictions → minor items.
 
 ```markdown
 # <Wiki Name> | <YYYY-MM-DD>
@@ -83,95 +81,84 @@ Use the reader's tier hierarchy from `CLAUDE.md` (or `wiki-config.json`) to cali
 
 ## TL;DR
 
-3–6 bullets. One line each. Tier 1 findings first, then most important industry item.
+One prose paragraph, 4-7 sentences, no bullets. The compressed view of what came in today. Strip every paper to "X dropped, claiming Y. Z also happened on the industry side." A reader who reads only this paragraph knows the day's factual surface.
 
-- **[Paper/concept]** — what it found, in one punchy clause
-- ...
+Do NOT duplicate Big Picture content. TL;DR is **what happened**. Big Picture is **what it means**.
 
 ---
 
 ## The Big Picture
 
-2–3 paragraphs. Lead with the most interesting observation, not a list of what arrived.
-What thread runs through today's batch? Do multiple papers attack the same problem from
-different angles? What does today say about where the field is heading?
-Write like the opening of a good essay.
+2-3 paragraphs of **interpretation**, not facts. What thread runs through today's batch? What does today say about where the field is heading? Multiple papers attacking the same problem from different angles — say so.
+
+Write in plain English. Never write "Tier 1 paper" or any tier-code language. Describe the topic directly.
 
 ---
 
 ## Deep Dives
 
-For each substantive source (Tier 1 and 2). 5–8 items. Skip changelogs, routine releases, minor updates.
-
----
+The day's substantive items, 5-8 typically. Each item structured as:
 
 ### <Title>
 
-> <One-line hook — most counterintuitive or surprising thing>
+> <One-line hook stating the most counterintuitive or surprising thing. Self-contained.>
 
-**Source:** <HuggingFace / Interconnects AI / TLDR AI / etc.>
-**Links:** [Paper](<url>) · [Wiki](<relative path to summary page>)
-**Tier:** <N> — <topic label>
+**Source:** <HuggingFace / SemiAnalysis / r/LocalLLaMA / etc.>
+**Links:** [Paper](<url>) · [Wiki summary](<relative path>)
 
-[Include a visual block when it adds clarity:]
-- If architecture diagram exists in raw/assets/: embed it
-- Otherwise draw a text-based HLD using box-and-arrow notation:
-  ┌─────────┐    query    ┌──────────┐
-  │ Router  │ ──────────► │ Models   │
-  └─────────┘             └──────────┘
-  Keep it under 10 lines.
+**What is it about?**
+1-2 sentences in plain English. Gloss any domain term inline on first appearance.
 
-<N paragraphs — calibrated to tier. Cover: what they built, why the mechanism works,
-what's surprising, what it implies. Do NOT restate the abstract — add interpretation.>
+**What problem does it solve?**
+1-2 sentences naming the prior pain point this addresses.
 
-**Why it matters:** <One sentence. What changes if this paper is right?>
+**What's the core novelty?**
+1-2 sentences naming the specific mechanism. Avoid "a novel framework that…" — say what it actually does.
 
-**Research angle:** ← Tier 1 only. What open problem does this point at?
+**Key takeaways**
+- 2-4 short bullets. Each self-contained. Numbers welcome.
+
+**Gaps in the study**
+1-2 sentences on what is NOT yet shown. Be specific.
+
+**Industrial implication**
+1-2 sentences on what changes if this is right. Be opinionated.
+
+[Optional visual block — embed a figure or draw a text diagram only if it adds clarity. Skip if not useful.]
 
 → [Full summary](<relative path>)
 
 ---
 
-## Industry Pulse
+## Connecting the Dots
 
-What's happening beyond the lab. 3–6 bullets. 2–3 sentences each.
-Lead with most consequential. Skip pure PR noise.
-Flag anything that intersects Tier 1 areas.
+Cross-paper / cross-day threads in plain English. Each connection is one prose paragraph (4-6 sentences). **No "Thread #N" code labels.** Each paragraph plainly names what it is about ("Three papers this month attack the same KV cache eviction problem from different angles…"). Every paper named here gets a one-clause gloss of its claim on first mention.
 
-- **[Company/Event]** — what happened. Why it matters.
+If today's papers are isolated from prior wiki state, omit this section.
 
 ---
 
-## Connecting the Dots
+## Industry Pulse
 
-The most valuable section. Synthesis that no single paper or newsletter provides.
+What's happening beyond the lab. 3-6 bullets, ONE SHORT SENTENCE per bullet (≤25 words).
 
-Draw connections:
-- Within today's batch: papers attacking the same problem from different angles
-- Across days: today's paper confirms/contradicts/fills a gap from a prior date — name the prior paper and date explicitly
-- Research → Industry: a VC, product launch, or chip announcement that relates to a research finding
-- Worth Watching resolution: if a prior prediction is addressed today, call it out
-
-Use a text relationship map when ≥2 papers compose into something larger:
-  Paper A (approach X) ──► Paper B (extends) ──► Paper C (applies)
-       └─── all three converge on: <the pattern> ───────────────┘
-
-This section is mandatory when cross-paper or cross-day connections exist.
+- **[Company/Event]** — what happened, in one short sentence.
 
 ---
 
 ## Worth Watching
 
-Specific, falsifiable predictions. Tier 1 open problems preferred.
+Falsifiable predictions with specific timeframes.
 
-- **[Specific claim or trend]** — why it matters and what to check in 30/60/90 days.
+- **[Specific claim or trend]** — what to check in 30 / 60 / 90 days.
 
 ---
 
-## Quick Hits
+## Also today
 
-One tight paragraph per minor-but-notable item. Tier 3 sources, blog asides, changelogs.
-Tier 4 items get one sentence here or nothing.
+Optional section. One sentence per item, minor releases / library updates / benchmark announcements. Omit if no real items.
+
+- [Item]: [one sentence].
 
 ---
 
