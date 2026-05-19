@@ -269,6 +269,8 @@ Three rules:
 
 ### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
 
+The digest flows as one story: facts → interpretation → the papers themselves → how they connect → industry side → predictions → minor items.
+
 ```markdown
 # cere-bro | YYYY-MM-DD
 
@@ -278,112 +280,147 @@ Three rules:
 
 ## TL;DR
 
-3–6 bullets. One line each. The things worth knowing even if you read nothing else today.
-Lead with Tier 1 research findings, then the most important industry news item.
-Write the punchline, not the setup — assume the reader is skimming before deciding
-what to read in depth.
+**One prose paragraph, 4-7 sentences, no bullets.** The compressed view of what
+came in today. Strip every paper down to "X dropped, claiming Y. Z also happened
+on the industry side." A reader who reads only this paragraph should know the day's
+factual surface.
 
-- **[Paper/concept]** — what it found or did, in one punchy clause
-- **[Paper/concept]** — what it found or did
-- ...
+Distinction from Big Picture: TL;DR is **what happened**. Big Picture is **what
+it means**. Do not duplicate the same content in both. If something is in TL;DR
+it should not be re-stated as fact in Big Picture.
 
 ---
 
 ## The Big Picture
 
-2–3 paragraphs. Lead with the most interesting observation, not a list of what arrived.
-What thread runs through today's batch? Do multiple papers attack the same problem from
-different angles? Does a blog contradict a paper? What does today say about where the
-field is heading? Write this like the opening of a good essay — pull the reader in.
+2-3 paragraphs of **interpretation**, not facts. What thread runs through today's
+batch? What does today say about where the field is heading? Multiple papers
+attacking the same problem from different angles — say so. Today contradicts
+last week — say what's at stake.
+
+Write in plain English. Do not say "Tier 1 paper" or "Tier 2 research" or any
+tier-code language. The tier hierarchy exists to calibrate the writer's depth
+allocation. It must not appear in the reader-facing output. Instead describe
+the topic directly: "an efficiency paper on KV cache eviction" or "a paper on
+agent benchmarks."
 
 ---
 
 ## Deep Dives
 
-5–8 most substantive sources. Skip changelogs, minor updates, routine releases.
+The day's substantive papers and posts, structured for skimming. 5-8 items
+typically. Skip changelogs and routine releases — those go in Also today.
 
----
+For each item:
 
-### [Title of Paper or Post]
+### [Title of paper or post]
 
-> [One-line hook — the most counterintuitive or surprising thing about this work]
+> [One-line hook stating the most counterintuitive or surprising thing.
+> Self-contained: the reader does not need to read further to get the point.]
 
-**Source:** HuggingFace / Interconnects AI / etc.
-**Links:** [Paper](https://arxiv.org/abs/XXXX.XXXXX) · [Wiki](../../<concept>/<slug>.md)
-**Tier:** 1 — Routing / KV Cache / Compression / GPU  ← (or Tier 2, etc.)
+**Source:** [HuggingFace / SemiAnalysis / The Decoder / r/LocalLLaMA / etc.]
+**Links:** [Paper](URL) · [Wiki summary](../../<topic>/<slug>.md)
 
-[VISUAL BLOCK — include one of the following when it adds clarity:]
+**What is it about?**
+1-2 sentences in plain English. Explain what the work actually is at the level a
+smart non-specialist follows. If the title contains a domain term (KV cache,
+MoE, on-policy distillation, etc.), gloss it inline the first time it appears.
 
-Option A — Embed a real figure from the paper (if architecture diagram exists in raw/assets/):
-  ![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)
+**What problem does it solve?**
+1-2 sentences naming the prior pain point this addresses. "Until now, X. This
+paper changes that by Y."
 
-Option B — Text-based HLD when no figure is available but the design is non-obvious:
-  ┌─────────────┐     query      ┌──────────────┐
-  │  Router     │ ─────────────► │  Model Pool  │
-  │  (cheap)    │ ◄───────────── │  A / B / C   │
-  └─────────────┘    confidence  └──────────────┘
-  Use boxes (┌┐└┘─│), arrows (►◄↑↓→←), labels. Keep it under 10 lines.
+**What's the core novelty?**
+1-2 sentences naming the specific technical or methodological contribution. The
+one thing that makes the paper non-trivial. Avoid "a novel framework that..." —
+say the actual mechanism.
 
-Option C — Relationship map for "Connecting the Dots" cross-paper diagrams:
-  PreRL (expand horizon) ──► DSRL (combine) ──► TIP (distill cheaply)
-       └─────── all three compose into a new training pipeline ───────┘
+**Key takeaways**
+- 2-4 short bullets. Each one a self-contained statement of an observed
+  result or claim. Numbers welcome ("3.8x speedup," "passes 62% on benchmark X
+  where prior best was 47%").
+- Each bullet stands alone — readable without surrounding context.
 
-2–4 paragraphs (4–6 for Tier 1). Cover: what they built, why the mechanism works
-(not just what it achieves), what's surprising or counterintuitive, what it implies.
-Don't restate the abstract — add interpretation.
+**Gaps in the study**
+1-2 sentences on what is not yet shown. Scaling? Held-out domains? Ablations
+missing? Benchmark artifacts? Be specific, not vague ("they only tested at
+1.3B" beats "limited evaluation").
 
-**Why it matters:** One sentence, punchy. What changes if this paper is right?
+**Industrial implication**
+1-2 sentences on what changes if this is right. Where does this show up in
+production stacks, in a quarter / six months / a year? Be opinionated; this
+is the section where stance is welcome.
 
-**Research angle:** ← Tier 1 only. What open problem does this point at? What would a
-follow-up need to solve? What's still missing?
+[Optional visual block — embed a figure from raw/assets/ if it adds clarity,
+or draw a text-based diagram with ┌┐└┘─│ ►◄↑↓→← when the architecture is
+non-obvious. Keep it under 10 lines. Skip entirely if not useful.]
 
-→ [Full summary](../../<concept>/<slug>.md)
-
----
-
-## Industry Pulse
-
-What's happening in AI beyond the lab. Cover company moves, product launches,
-funding rounds, policy, regulation, and anything that shapes the business and
-deployment landscape of AI. Sources: TLDR AI, The Decoder, VentureBeat AI,
-The Information, Pragmatic Engineer.
-
-Format: 3–6 bullet points. Each one is 2–3 sentences max — enough context to
-understand what happened and why it matters. Lead with the most consequential
-item. Skip pure PR/marketing noise. Flag anything that intersects Tier 1 research
-areas (e.g. a new chip announcement, a routing product launch, a KV cache patent).
-
-- **[Company/Product/Event]** — what happened. Why it matters in one sentence.
+→ [Full summary](../../<topic>/<slug>.md)
 
 ---
 
 ## Connecting the Dots
 
-The most valuable section in the digest. Synthesis that nobody else can give the reader.
+Where the day's papers connect to each other and to prior wiki content.
+**This is synthesis, not framing.** Big Picture stated the theme. Here you
+walk through the evidence.
 
-Connections to draw:
-- **Within today's batch**: two or more papers attacking the same problem from different angles
-- **Across days**: today's paper confirms, contradicts, or fills the gap from a paper covered on a prior date — name that prior paper and date explicitly
-- **Research → Industry**: a VC funds a routing startup the same week a routing paper drops; a chip announcement relates to a training efficiency paper
-- **Worth Watching resolution**: if a prior prediction is answered (partially or fully) by today's batch, call it out here
+Each connection is one prose paragraph. **No "Thread #N" code labels.** Each
+paragraph names plainly what it is about — "Three papers this month attack the
+same KV cache eviction problem from different angles" or "Today's paper closes
+a gap that the 04-18 LongAct paper opened." Every paper named here gets a
+one-clause gloss of its claim on first mention, per writing rule #10.
 
-Include a text relationship map (Option C) when ≥2 papers compose into something larger than either alone.
+Keep each paragraph crisp: 4-6 sentences max. If a connection needs more,
+break it into two paragraphs with a clear pivot.
 
-This section is not optional when cross-paper or cross-day connections exist. Omit only when today's papers are genuinely isolated from everything prior in the wiki.
+Include cross-day threads (a paper from last week shows up again), cross-source
+threads (Twitter retweet today amplifies an arxiv paper from yesterday), and
+research-industry threads (a chip launch relates to an inference paper).
+
+If today's papers are genuinely isolated from prior wiki state, omit this
+section entirely rather than fabricating threads.
+
+---
+
+## Industry Pulse
+
+What's happening beyond the lab. Company moves, product launches, funding,
+regulation, policy. Sources: TLDR AI, The Decoder, VentureBeat AI, The
+Information, Pragmatic Engineer.
+
+3-6 bullets. **One short sentence per bullet** (≤25 words), not the prior
+2-3 sentence format. Lead with the most consequential. Skip pure PR.
+
+- **[Company/Product/Event]** — what happened, in one short sentence.
+
+Flag any item that intersects research themes ("Anthropic announces routing
+product on the same day a paper on agent-trajectory routing drops").
 
 ---
 
 ## Worth Watching
 
-- **[Specific claim or trend]** — Why it matters and what to check in 30/60/90 days.
-  Keep predictions falsifiable. Prioritize Tier 1 open problems.
+Falsifiable predictions. Each bullet names a specific claim and a timeframe.
+
+- **[Specific claim or trend]** — what to check in 30 / 60 / 90 days.
+
+Prioritize open problems in the wiki's deep-interest areas (routing, KV cache,
+compression, GPU). Don't bury this section with vague "interesting to watch"
+items; cut anything not falsifiable.
 
 ---
 
-## Quick Hits
+## Also today
 
-One tight paragraph per minor-but-notable item. Tier 3 papers, blog asides,
-changelogs, tool releases. Tier 4 items get one sentence here or nothing.
+Renamed from Quick Hits. **Optional section.** Use only when there are real
+minor items worth a single-sentence mention that would be wasted space in
+Deep Dives. Library updates, model-card releases, benchmark announcements,
+individual replication studies, dataset drops. **One sentence per item, no
+explanations.** If there are no real minor items, omit the section.
+
+- [Item]: [one sentence].
+- [Item]: [one sentence].
 
 ---
 
