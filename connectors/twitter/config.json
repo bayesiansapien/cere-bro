@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-15T09:30:04.781302+00:00",
+  "following_last_checked": "2026-05-18T09:30:05.604511+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -387,6 +387,24 @@
       "timezone": "PT",
       "focus": [
         "AI"
+      ]
+    },
+    {
+      "handle": "brivael",
+      "name": "Brivael Le Pogam",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "name": "Robert Scoble",
+      "org": "Microsoft",
+      "timezone": "PT",
+      "focus": [
+        "semiconductors"
       ]
     }
   ],
