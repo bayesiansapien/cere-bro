@@ -1,0 +1,58 @@
+#!/bin/bash
+# Cerebro Watchdog — fires every 30 min via LaunchAgent (and optionally on
+# laptop wake via sleepwatcher). If today's digest is missing AND it's past
+# 9 AM IST AND the laptop has internet, triggers the morning routine.
+#
+# Idempotent: morning script exits early if the digest already exists.
+# Lightweight: ~50ms per run when the digest is already there (the common case).
+
+REPO="{{REPO_PATH}}"
+LOG="$REPO/.claude/logs/watchdog.log"
+TODAY=$(date +%Y-%m-%d)
+HOUR=$(date +%H)
+DIGEST_PATH="$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md"
+
+mkdir -p "$REPO/.claude/logs"
+
+# Fast path: digest already exists. No-op silently.
+if [ -f "$DIGEST_PATH" ]; then
+  exit 0
+fi
+
+# Only trigger between 9 AM and 11:30 PM IST. Before 9 AM we wait for the
+# natural cron; after 11:30 PM we're approaching midnight and the day is
+# effectively lost (the rollup runs at 23:55).
+if [ "$HOUR" -lt 9 ] || [ "$HOUR" -gt 23 ]; then
+  exit 0
+fi
+
+# Quick internet check (don't fire if offline — Claude call would just fail).
+# 2-second timeout against Cloudflare's reliable resolver.
+if ! /usr/bin/curl -s -m 2 -o /dev/null https://1.1.1.1; then
+  echo "[$TODAY $(date +%H:%M:%S)] No internet — skipping." >> "$LOG"
+  exit 0
+fi
+
+# Cooldown: don't re-trigger more than once per hour to avoid stampeding the
+# morning routine while it's in-progress on a previous wake event.
+LOCKFILE="$REPO/.claude/logs/watchdog.lock"
+if [ -f "$LOCKFILE" ]; then
+  LAST=$(stat -f %m "$LOCKFILE" 2>/dev/null || echo 0)
+  NOW=$(date +%s)
+  AGE=$((NOW - LAST))
+  if [ "$AGE" -lt 3600 ]; then
+    # Last trigger less than 1 hour ago — wait it out.
+    exit 0
+  fi
+fi
+touch "$LOCKFILE"
+
+echo "[$TODAY $(date +%H:%M:%S)] WATCHDOG firing — digest missing, internet OK, past 9 AM." >> "$LOG"
+python3 "$REPO/connectors/notify/notify.py" \
+  "Watchdog triggering ($TODAY)" \
+  "Digest missing at $(date +%H:%M). Watchdog is running the morning routine. If Claude is mid-flight on another attempt this is a no-op (cooldown enforced)." \
+  >> "$LOG" 2>&1 || true
+
+# Fire the morning routine. It does its own retry-with-backoff + bails if the
+# digest gets written by some other code path while we wait.
+bash "$HOME/.local/bin/cerebro-morning-digest.sh" >> "$LOG" 2>&1
