@@ -1,0 +1,609 @@
+{
+  "date": "2026-05-20",
+  "slot": "morning",
+  "scraped_ist": "2026-05-20 09:09",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Computer use turns Claude into an agent that can operate real UIs. New blog post on making it reliable in production: getting click accuracy right, choosing thinking effort levels, keeping long sessions within context, and recording demonstrations Claude can replay: claude.com/blog/best-practic…",
+          "link": "https://nitter.net/ClaudeDevs/status/2056835339193561170#m",
+          "date_utc": "2026-05-19T20:32:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+              "content": "Best practices for computer and browser use with Claude | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claud"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Our latest research on Co-Scientist is out today in Nature! Built with Gemini, this multi-agent system powers the new Hypothesis Generation tool within Gemini for Science, helping researchers navigate the rigorous cycle of ideation, critique, and refinement. Read more from @ymatias and explore the full announcement: deepmind.google/blog/co-scie… \" Yossi Matias (@ymatias) Today, our research on Co-Scientist was published in Nature. It introduces a new multi-agent AI system built with Gemini that iteratively generates, debates, and evolves novel hypotheses for complex scientific problems. Hypoth",
+          "link": "https://nitter.net/GoogleResearch/status/2056857494107062718#m",
+          "date_utc": "2026-05-19T22:00:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today at #GoogleIO , we announced Gemini for Science, a new collection of tools and experiments designed to expand the scale and precision of scientific exploration. Learn more from @ymatias and read the blog: blog.google/innovation-and-a… Yossi Matias (@ymatias) I am delighted that today at #GoogleIO , we are introducing ✨Gemini for Science✨ — a collection of science tools and experiments designed to expand the scale and precision of scientific exploration ⬇️👇 — https://nitter.net/ymatias/status/2056808998322745676#m",
+          "link": "https://nitter.net/GoogleResearch/status/2056818285237461114#m",
+          "date_utc": "2026-05-19T19:24:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+              "content": "New AI Tools for the Future of Science Skip to main content The Keyword Gemini for Science: AI experiments and tools for a new era of discovery Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See al"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Our research on Empirical Research Assistance (ERA) was published today in the journal Nature. ERA uses Gemini to achieve expert-level performance for scientific coding and helped build the new Computational Discovery prototype in Google Labs. Learn more: goo.gle/3PQXGOP",
+          "link": "https://nitter.net/GoogleResearch/status/2056797037426045105#m",
+          "date_utc": "2026-05-19T18:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://goo.gle/3PQXGOP",
+              "content": "Empirical Research Assistance (ERA): From Nature publication to catalyzing Computational Discovery Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Koreans, Mexicans, Japanese, Chinese, Germans and more. Which we be able to put your shoes in a culturally appropriate way? Or make the best food? It is the Fremont workers who will train them.",
+          "link": "https://nitter.net/Scobleizer/status/2056949188290834600#m",
+          "date_utc": "2026-05-20T04:04:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Tomorrow Tesla is having final event for Model X and S teams. They changed the world. But they are about to change the world again.",
+          "link": "https://nitter.net/Scobleizer/status/2056947893752476039#m",
+          "date_utc": "2026-05-20T03:59:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Robots are for delivery. Where is the pizza? Send one to my home. Tonight I shared ice cream with a guy collecting data for training the robots with special gloves and hats with cameras. He asked me not to share until his launch on Friday. Has 10s of thousands of videos. He sees a generalized humanoid coming in a year and a half. Knows many others say it is five years away. That is interesting since it matches @elonmusk ’s dates for Optimus. Elon has a huge advantage with the workers in the Fremont factory. Unlike in China that factory has workers from all over the world. The guy I met with sa",
+          "link": "https://nitter.net/Scobleizer/status/2056946757205148063#m",
+          "date_utc": "2026-05-20T03:54:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The hacker caught my attention so asked grok about that: nitter.net/i/grok/share/5cd8192ea…",
+          "link": "https://nitter.net/Scobleizer/status/2056927846216700040#m",
+          "date_utc": "2026-05-20T02:39:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Grok’s favorites: nitter.net/i/grok/share/92c90483f…",
+          "link": "https://nitter.net/Scobleizer/status/2056924391355842560#m",
+          "date_utc": "2026-05-20T02:26:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "San Francisco is a series of startup factories. It is demo day season. There are several demo days the next week. Will be at @fdotinc on Friday. Tonight @theresidency held theirs with 10 new startups that just spent a month working on their companies. You might recognize the last one. It is @blevlabs who made the AI that I use to make alignednews.com/ai (I was first to discover him about a year ago. Yet another company launched in my home. The factories, including YCombinator, @hf0 , and a few others, help founders accelerate their companies and set them up to present to investors. Most of the",
+          "link": "https://nitter.net/Scobleizer/status/2056923167135015304#m",
+          "date_utc": "2026-05-20T02:21:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I've been using @viktor__com as an employee this morning. It is now watching a video, coming up with titles and such, before uploading. This should really solve a big problem for me and get my YouTube channel going again. And it does a lot more, which explains why it got funded. Do you have an AI employee? If you do, how do you compare all these things? Thanks Viktor for sponsoring my newsletter and other efforts here and making my team more efficient. Fryd Wiatrowski (@frydwia) Today, we’re announcing Viktor’s $75M Series A, led by @Accel . @viktor__com was supposed to be a small experiment. ",
+          "link": "https://nitter.net/Scobleizer/status/2056817183171461175#m",
+          "date_utc": "2026-05-19T19:20:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Two types of new AI-driven glasses coming. The smallest is \"information displays.\" With glanceable elements. Launching next year. First \"audio glasses\" coming this fall. Why no displays? I hear they are still too expensive based on consumer research. And too hard to make really amazing to see the world, which consumers care about the most. @WarbyParker , and others coming. Still not the Holodeck devices I keep hoping for. I hear those are still off unless you get an Apple Vision Pro, which is too expensive and too heavy to get most consumers interested in them. When compared to Meta's Raybans?",
+          "link": "https://nitter.net/Scobleizer/status/2056807275151622565#m",
+          "date_utc": "2026-05-19T18:40:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.roadtovr.com/first-android-xr-glasses-2026-launch/",
+              "content": "First AR Glasses Running Android XR Confirmed for 2026 Launch PC VR Quest PSVR Vision Pro XR Industry Design &#038; Dev Series: Inside XR Design Series: Insights &#038; Artwork Guest Articles Reviews Hardware Games &#038; Software Search About/Contact Newsletter Advertise Sign in Welcome! Log into your account your username your password Forgot your password? Get help Password recovery Recover your password your email A password will be e-mailed to you. Road to VR PC VR Quest PSVR Vision Pro XR Industry Design &#038; Dev Series: Inside XR Design Series: Insights &#038; Artwork Guest Articles Reviews Hardware Games &#038; Software XREAL Project Aura | Image courtesy XREAL First AR Glasses Running Android XR Confirmed for 2026 Launch By Scott Hayden - May 19, 2026 2 XREAL today confirmed it&"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The best way to watch the news from Google I/O: nitter.net/i/lists/19535363366753… Unless you got X Pro and are watching all my lists. Other places to watch: di.gg alignednews.com/ai (my AI agents watching tens of thousands of posts every day from all AI lists). techmeme.com Ton of news, my screens are RIPPING with reactions.",
+          "link": "https://nitter.net/Scobleizer/status/2056798719396442366#m",
+          "date_utc": "2026-05-19T18:06:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://di.gg",
+              "content": "Digg - AI news, before it trends Digg - AI news, before it trends Top Stories Rising Rankings Highlights ? ? Cmd + K D Dark IN CASE YOU MISSED IT Cursor AI releases Composer 2.5, its most powerful model to date, with gains in intelligence, long-task performance, and complex instruction adherence while doubling usage for all users OK #160 | @LATEINTERACTION RA #83 | @_AROHAN_ EM #76 | @ELONMUSK C🤗 #68 | @CLEMENTDELANGUE SR #23 | @SRUSH_NLP KC #15 | @KCHONYC #1 VIEWED (23.1M) Andrej Karpathy joins Anthropic to conduct research and development on frontier large language models after prior roles at OpenAI and Tesla JH #40 | @JEREMYPHOWARD JC #34 | @JACKCLARKSF NB #31 | @POLYNOAMIAL JF #30 | @DRJIMFAN SB #27 | @SLEEPINYOURHAT AK #1 | @KARPATHY RISING DISCUSSION (1.3k) Sam Altman, OpenAI co-foun"
+            },
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            },
+            {
+              "url": "https://techmeme.com",
+              "content": "Techmeme 0; } function replaceShareHandlers() { function handler(cn,p,ii) { return function(e) { if (!e) var e = window.event; overitem(cn,p,ii,e); }; } var elements = document.getElementsByClassName('itc1'); for (var i=0; i Close Form ' + addlinkoCreateDynForm(permalink); item.appendChild(form); } } function addlinkoCloseForm(cn, ii) { var itemId = cn + 'i' + ii; var formId = 'addlinko-' + itemId; var form = document.getElementById(formId); if (form) { form.remove(); } } function addlinkoCreateDynForm(relatedUrl) { const uniqueSuffix = Date.now().toString(36) + Math.random().toString(36).substr(2, 5); const html = ` Help us discover links that make Techmeme more useful! Use this form to suggest social posts, blog posts, or news stories to add as secondary links underneath the above headli"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "R to @Tesla: Image",
+          "link": "https://nitter.net/Tesla/status/2056814647211401488#m",
+          "date_utc": "2026-05-19T19:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "A closer look at the Signature Edition Model S X Signature Delivery Event streaming live from Fremont Factory tomorrow at 5pm PT",
+          "link": "https://nitter.net/Tesla/status/2056814642866041080#m",
+          "date_utc": "2026-05-19T19:09:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Very good essay Nan Ransohoff (@nanransohoff) New blog post: The third wave of American philanthropy Hundreds of billions of dollars in new philanthropic capital will soon become liquid. The OpenAI Foundation holds 26% of OpenAI, worth about $220B at today’s valuation. Anthropic’s seven co-founders have pledged to give away 80% of their wealth and have instituted the most aggressive donor matching program for employees in tech history. How much does this all add up to? And how meaningful is that in the context of philanthropy today? I was doing some simple napkin math to wrap my head around th",
+          "link": "https://nitter.net/_sholtodouglas/status/2056934029157609787#m",
+          "date_utc": "2026-05-20T03:04:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "A good place for a starbase in Paris.",
+          "link": "https://nitter.net/brivael/status/2056860947919098169#m",
+          "date_utc": "2026-05-19T22:13:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": ". @plbiojout je te jure c’est pas moi ce compte 😂 Soizig Le Bihan (@Briviagra) Je vais le dire calmement : Polytechnique, la meilleure \"grande école\" d'ingénieurs en France, c'est de la merde. Et pourtant j'en suis diplômée. En France, \"Polytechnicien\" est une panthéonisation ; à l'étranger, c'est absolument inconnu (quoique, les recruteurs commencent à connaître l'École Polytechnique... de Lausanne) Et le problème, ce n'est pas que cette école est trop petite, mais qu'elle est nulle. En fait c'est assez simple. Comparons Nicolas, qui vient d'avoir son bac en France et va en prépa, à Pierre, s",
+          "link": "https://nitter.net/brivael/status/2056851748153688544#m",
+          "date_utc": "2026-05-19T21:37:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’ai réussi à me faire détester par les intellectuels de droite et de gauche en même temps 😂 Je suis un centriste du coup ??? Je vais me mettre à penser printemps. Le en même temps arrive, big time 😱",
+          "link": "https://nitter.net/brivael/status/2056850607944728826#m",
+          "date_utc": "2026-05-19T21:32:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Luc Ferry a compris énormément de choses 👇 Alexandre Tsicopoulos (@Alex_Tsico) 🎙️ NOUVEL ÉPISODE AVEC Luc Ferry — PHILOSOPHE, ESSAYISTE & ANCIEN MINISTRE DE L’ÉDUCATION NATIONALE ➡️ L’IA est-elle un simple outil… ou une rupture civilisationnelle majeure ? ➡️ Va-t-on vers un monde néocommuniste piloté par les algorithmes et les géants technologiques ? ➡️ Peut-on encore préserver ce qui fait l’humanité à l’ère des intelligences artificielles ? Dans cet épisode, Luc Ferry analyse les conséquences économiques et sociales de l’intelligence artificielle sur le travail, l’éducation et la politique. I",
+          "link": "https://nitter.net/brivael/status/2056848748337086966#m",
+          "date_utc": "2026-05-19T21:25:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://piped.video/Kaiu5w7cPko?is=N4BH-60y7XK8RxnX",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "That’s a good start !!!! Andrew McCarthy (@AJamesMcCarthy) Human for scale Video — https://nitter.net/AJamesMcCarthy/status/2056783351646650830#m",
+          "link": "https://nitter.net/brivael/status/2056838567662379146#m",
+          "date_utc": "2026-05-19T20:45:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. Ego is the biggest trap. 99% deep dive. Gary Vaynerchuk (@garyvee) Humility is a super power — https://nitter.net/garyvee/status/2056827556821631401#m",
+          "link": "https://nitter.net/brivael/status/2056831370333180224#m",
+          "date_utc": "2026-05-19T20:16:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est 1500 ans qu’on va vivre 😎 Vous vous êtes trompés. @dr_l_alexandre est bien plus ambitieux que ça. RTL France (@RTLFrance) Vivre jusqu’à 150 ans : possible ? \"Elon Musk est convaincu que le code du vieillissement va être cassé par l'IA, et qu'on pourra vivre 160 ans dès 2032\" @dr_l_alexandre , essayiste, co-auteur avec @Alex_Tsico de “Vivre 1000 ans”, au micro d'Anne-Sophie Lapix #OnRefaitLeMonde Video — https://nitter.net/RTLFrance/status/2056791781962846696#m",
+          "link": "https://nitter.net/brivael/status/2056826181891063880#m",
+          "date_utc": "2026-05-19T19:55:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Beanie (@911Corp) I have a theory. We’re living in a simulation… and @Brivael doesn’t actually exist. Just a glitch. A line of code. — https://nitter.net/911Corp/status/2056804286504268167#m",
+          "link": "https://nitter.net/brivael/status/2056804530075906189#m",
+          "date_utc": "2026-05-19T18:29:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Congratulations !!!!! YC French companies is 🔥 Ludo (@ludogranger) Announcing @LeadbayAI $4.3M to kill everything you're doing with sales. Corgi, Deel, L'Oréal recently told us: \"We found in 10 min on Leadbay what we couldn't in 6 months with Clay and a GTM agency.\" Leadbay qualifies the millions of data-signal-scarce companies nobody could find before. This is how it works: — https://nitter.net/ludogranger/status/2056699067929952636#m",
+          "link": "https://nitter.net/brivael/status/2056798500025692504#m",
+          "date_utc": "2026-05-19T18:05:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "You can ask Cursor to fix bugs, add features, update tests, or investigate a task described in the work item. Learn more: cursor.com/changelog/05-19-2…",
+          "link": "https://nitter.net/cursor_ai/status/2056803732650897580#m",
+          "date_utc": "2026-05-19T18:26:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/changelog/05-19-26",
+              "content": "Skip to content Cursor Product ↓ Agents Code Review Cloud Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download May 19, 2026 · Changelog Changelog Cursor in Jira Cursor is now available in Jira. Assign work items to Cursor, or mention @Cursor in a comment to kick off a cloud agent . Cursor uses the work item title, description, comments, and your team&#x27;s repository settings to scope the task. You can ask Cursor to fix bugs, add features, update tests, or investigate something described in the ticket. When the agent finishes, Jira shows completion updates and includes a link to the pull request. Install the integration from Cursor integrations . Y"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Cursor is now available in Jira. Assign Cursor to work items, or mention @​Cursor in a comment to kick off a cloud agent. Cursor uses the title, description, comments, and your team's repository settings to create a merge-ready PR. Video",
+          "link": "https://nitter.net/cursor_ai/status/2056803731367456993#m",
+          "date_utc": "2026-05-19T18:26:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "logangraham",
+      "org": "Anthropic",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "Also, that's 0.5 Manhattan Projects per year, and that's a very conservative estimate.",
+          "link": "https://nitter.net/logangraham/status/2056927914856460767#m",
+          "date_utc": "2026-05-20T02:40:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "Also, I'm pretty bullish that industry + philanthropy can together nearly solve biodefense + cyberdefense via innovation And this scale of money is about the scale needed to do it.",
+          "link": "https://nitter.net/logangraham/status/2056920448227766433#m",
+          "date_utc": "2026-05-20T02:10:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "Within ~2 years, there might be 0.5 Manhattan Projects worth of philanthropic $$$ to spend on the biggest challenges, like cyber or biodefense. @nanransohoff is right: the hard part is finding enough good organizations to spend the $. You should build one! Nan Ransohoff (@nanransohoff) New blog post: The third wave of American philanthropy Hundreds of billions of dollars in new philanthropic capital will soon become liquid. The OpenAI Foundation holds 26% of OpenAI, worth about $220B at today’s valuation. Anthropic’s seven co-founders have pledged to give away 80% of their wealth and have inst",
+          "link": "https://nitter.net/logangraham/status/2056878796364812433#m",
+          "date_utc": "2026-05-19T23:24:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "A viable technology doesn’t necessarily enable a viable business. Case in point: the Concorde",
+          "link": "https://nitter.net/magicsilicon/status/2056921160432902347#m",
+          "date_utc": "2026-05-20T02:13:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Full house for insightful conversation between @LipBuTan1 and Harlan Sur at JP Morgan Global Technology, Media and Communications Conference.",
+          "link": "https://nitter.net/magicsilicon/status/2056826489836802277#m",
+          "date_utc": "2026-05-19T19:57:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Clear day in New York. 🇺🇸 🇺🇸 🇺🇸",
+          "link": "https://nitter.net/magicsilicon/status/2056790079369081265#m",
+          "date_utc": "2026-05-19T17:32:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "I don't believe AI is about replacing people. I believe it's about helping people build and do things that weren't previously possible. Spent some time with @WSJ 's @timkhiggins in Seattle talking about where AI is headed and what we're seeing from customers at @awscloud . Conversation here: wsj.com/video/amazon-aws-ceo…",
+          "link": "https://nitter.net/mattsgarman/status/2056866822826111240#m",
+          "date_utc": "2026-05-19T22:37:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.wsj.com/video/amazon-aws-ceo-pushes-back-on-ai-job-apocalypse-warnings/FA99307C-F8DB-49C1-BC48-972EAE4030E6",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mntruell",
+      "org": "Cursor AI",
+      "focus": [
+        "coding agents",
+        "AI tooling",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "mntruell",
+          "creator": "@mntruell",
+          "text": "Gemini Flash 3.5 is now on CursorBench, our main coding agent eval. We’ll keep updating the leaderboard as new models come out. cursor.com/evals",
+          "link": "https://nitter.net/mntruell/status/2056940715201220906#m",
+          "date_utc": "2026-05-20T03:30:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://cursor.com/evals",
+              "content": "Cursor · CursorBench Skip to content Cursor Product ↓ Agents Code Review Cloud Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download CursorBench 3.1 We evaluate agents on ambiguous, multi-file tasks from real Cursor sessions. Higher scores are better. More about CursorBench ↗ A scatter and line chart comparing Opus 4.7, GPT-5.5, Composer 2.5, and Composer 2 scores against average cost per task. 70% CursorBench 3.1 score 65 % 60 % 55 % 50 % 45 % 40 % 35 % 30 % $ 12 $ 10 $ 8 $ 6 $ 4 $ 2 $ 0 Average cost per task (max) (xhigh) (high) (high) (medium) (low) (low) Composer 2.5 Opus 4.7 xhigh (default) GPT-5.5 medium (default) Composer 2 Gemini 3.5 Flash Ki"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 SpaceXAI S-1 drops TOMORROW $2T valuation target $75B raise entire raise is primary issuance goes straight into the balance sheet Elon confirmed not selling shares holds ~42% equity and ~79% voting control got Goldman Sachs to lead IPO they led Tesla’s IPO in 2010, +30,000% return got banks to allocate 30% shares to retail first $SPCX will start trading on 12th June eligible to join Nasdaq-100 within 15 days every QQQ fund becomes a forced buyer LET THAT SINK IN.",
+          "link": "https://nitter.net/ns123abc/status/2056913900159844357#m",
+          "date_utc": "2026-05-20T01:44:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "chat is this true?",
+          "link": "https://nitter.net/ns123abc/status/2056820667173978471#m",
+          "date_utc": "2026-05-19T19:33:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "At #GoogleIO , NVIDIA and @GoogleCloud are celebrating a milestone: More than 100,000 developers have joined our joint developer community in just one year, and the platform is expanding. In the past year, members have shipped RAG applications on GKE, built multi-agent pipelines, and prototyped hybrid inference for real-world use cases like sports analytics and enterprise data pipelines. What's new this year: → JAX learning path for running and scaling workloads on NVIDIA GPUs → NVIDIA Dynamo on GKE codelab for large-scale inference optimization → Monthly developer livestreams with practical g",
+          "link": "https://nitter.net/nvidia/status/2056891831820882402#m",
+          "date_utc": "2026-05-20T00:16:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uXnlUO",
+              "content": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders | NVIDIA Blog Skip to content NVIDIA and Google Cloud Empower the Next Wave of AI Builders Over 100,000 developers have joined the companies’ joint developer community, tapping into NVIDIA and Google Cloud technologies, learning paths and hands-on labs to build what’s next in AI. May 19, 2026 by Ankit Patel 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies’ joint developer community , which provides curated learning paths, hands-on labs and events that help them build using the full-stack NVIDIA AI platform on Google Cloud. Launched at Google I/O last year, the commu"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Excited to collaborate with @BlueYonder to help bring scalable AI innovation to supply chains worldwide. Looking forward to what’s next. Blue Yonder (@BlueYonder) Blue Yonder + @NVIDIA announce their Model Training Factory at #BYICON . Purpose-built AI agents for the autonomous supply chain — built on NVIDIA Nemotron + 40 years of BY data. \"Owned intelligence, not rented intelligence.” okt.to/wVgARd — https://nitter.net/BlueYonder/status/2056461343658487927#m",
+          "link": "https://nitter.net/nvidia/status/2056825192387908023#m",
+          "date_utc": "2026-05-19T19:51:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://okt.to/wVgARd",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
