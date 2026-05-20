@@ -528,3 +528,22 @@ Append-only timeline of ingests and lint passes.
 - Daily digest: 2026-05-19
 - Social-stream: 2026-05-19-morning (Cursor Composer 2.5 cluster, NVIDIA Vera blog, Anthropic Fast Mode trio, Tesla FSD, Scoble, brivael French run with one technically-interesting Open Collider repost)
 - Note: cron HF farmer + RSS farmer both stalled mid-run (no progress for 600s); manually invoked HF scraper produced 34 papers with new JSON-blob regex (HF page now embeds paper data as escaped JSON; old `<h3>` regex returned 0 matches); RSS feedparser ran in-session
+
+## [2026-05-20] ingest | full daily run | HF + Gmail + Twitter + Kurate + Reddit + RSS
+
+- Farmers run order (cron 9am stalled silently due to laptop sleep, Claude call killed; manual backfill at session start):
+  - HF farmer: manual scrape of https://huggingface.co/papers?date=2026-05-20 (32 papers) plus arxiv abstract enrichment per paper
+  - RSS farmer: 22 entries across 19-20 May (TLDR AI, The Decoder x9, Simon Willison x5, Algorithmic Bridge, Pragmatic Engineer, Fabricated Knowledge, Gradient Flow, HF blog x2, Last Week in AI, Agentic AI)
+  - Gmail starred: 3 emails (HF daily-papers digest, Pragmatic Engineer SE impact part 2, AI Weekly Meta 145B capex)
+  - Twitter morning slot: 39 tweets across 11 accounts; 15 articles; 0 @bayesiansapien retweets
+  - Kurate: cs.AI + cs.LG weekly leaderboards (science-AI heavy this week; MoE-muP at #14 cs.LG, A Bitter Lesson for Data Filtering at #12 cs.LG); rising-authors leaderboard
+  - Reddit: 8 subs (LocalLLaMA topical with ByteDance Lance 3B, Intel Crescent Island GPU leak, llama.cpp MTP PR; MLScaling carries Gemini Flash 3.5; CUDA carries FlashAttention-2 CuTe walkthrough; r/HPC and r/LLMDevs no posts through filters)
+- alphaxiv enrichment: empty for fresh papers (2605.18226, 2605.18855, 2605.20104); fallback to arxiv abstracts; expected
+- Wiki pages: 11 new summaries
+  - **llms-foundation-models**: AntiSD, CEPO, CopT, Delta Attention Residuals, GoLongRL, BetaPRM
+  - **inference-efficiency**: PEEK, Context Memorization, Graft
+  - **agentic-systems**: EnvFactory, OpenComputer, AutoResearchClaw
+  - **responsible-ai**: Language-Switching Backdoor Circuit
+- Daily digest: 2026-05-20 (new format applied throughout: prose-paragraph TL;DR, 6-subsection Deep Dives, no Tier code, no em dashes, Connecting the Dots before Industry Pulse, falsifiable Worth Watching with timeframes)
+- Social-stream: 2026-05-20-morning (Google I/O cluster, Karpathy-to-Anthropic, Cursor Composer 2.5 + Jira, SpaceXAI S-1 rumour, Anthropic computer-use guide)
+- Note: cron Claude digest-writing call hung silently this morning (likely laptop-sleep stall, then killed); pipeline hardening to land separately

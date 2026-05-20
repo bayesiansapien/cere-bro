@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-05-20T09:55:00.320326+00:00
+arxiv_id: 2605.19769
+url: https://huggingface.co/papers/2605.19769
+arxiv_url: https://arxiv.org/abs/2605.19769
+date: 2026-05-20
+---
+
+# OpenComputer: Verifiable Software Worlds for Computer-Use Agents
+
+We present OpenComputer, a verifier-grounded framework for constructing verifiable software worlds for computer-use agents. OpenComputer integrates four components: (1) app-specific state verifiers that expose structured inspection endpoints over real applications, (2) a self-evolving verification layer that improves verifier reliability using execution-grounded feedback, (3) a task-generation pipeline that synthesizes realistic and machine-checkable desktop tasks, and (4) an evaluation harness that records full trajectories and computes auditable partial-credit rewards. In its current form, OpenComputer covers 33 desktop applications and 1,000 finalized tasks spanning browsers, office tools, creative software, development environments, file managers, and communication applications. Experiments show that OpenComputer&#39;s hard-coded verifiers align more closely with human adjudication than LLM-as-judge evaluation, especially when success depends on fine-grained application state. Frontier agents struggle with end-to-end completion despite partial progress, and open-source models exhibit sharp drops from their OSWorld-Verified scores, exposing a persistent gap in robust computer automation.
