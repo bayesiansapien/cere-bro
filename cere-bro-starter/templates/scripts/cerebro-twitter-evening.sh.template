@@ -33,3 +33,12 @@ git push origin main >> "$LOG" 2>&1 || true
 
 "$HOME/.local/bin/cerebro-synth-slot.sh" evening >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] Evening synthesis failed — continuing." >> "$LOG"
+
+# CATCH-UP (last chance before midnight): if today's digest is still missing,
+# trigger the morning routine. Last safety net.
+DIGEST_PATH="$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md"
+if [ ! -f "$DIGEST_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] CATCH-UP (last chance): digest missing at evening cron." >> "$LOG"
+  python3 "$REPO/connectors/notify/notify.py" "PM catch-up firing ($TODAY) — last chance" "Today's digest is still missing at 10pm. Making one last attempt before midnight." >> "$LOG" 2>&1 || true
+  bash "$HOME/.local/bin/cerebro-morning-digest.sh" >> "$LOG" 2>&1
+fi

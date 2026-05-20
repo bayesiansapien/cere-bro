@@ -58,16 +58,38 @@ if [ -f "$DIGEST_PATH" ]; then
   exit 0
 fi
 
-"$CLAUDE" \
-  --dangerously-skip-permissions \
-  -p "Today is $TODAY. Run the digest workflow per CLAUDE.md and the digest skill. Read all six raw sources. Apply the cross-source confirmation rules. For each substantive Deep Dive paper, run python3 connectors/alphaxiv/enrich.py <arxiv_id>. CLARITY RULE: every named paper, acronym, or prior-paper callback gets a one-clause gloss the first time it appears in any given section. TWITTER-AS-SOURCE RULE: when a paper or blog is only reachable via a Twitter retweet, write a wiki summary page for it. FORMAT RULES (mandatory per CLAUDE.md): TL;DR is a single prose paragraph (4-7 sentences) not bullets; Big Picture is interpretation not facts; Deep Dives use 6 sub-sections per paper (What is it about / What problem does it solve / What's the core novelty / Key takeaways / Gaps in the study / Industrial implication); section ORDER is TL;DR → Big Picture → Deep Dives → Connecting the Dots → Industry Pulse → Worth Watching → Also today (optional); Connecting the Dots has NO Thread #N labels; Industry Pulse is one short sentence per bullet; tier hierarchy is internal calibration only, never expose Tier 1/2/3/4 in reader-facing output. For the Media Live morning synthesis, read articles[].content and image_paths via the Read tool. Write today's daily digest at wiki/daily-digest/$(date +%Y-%m)/$TODAY.md and the morning slot synthesis at wiki/social-stream/$(date +%Y-%m)/$TODAY-morning.md. Commit and push. Do not stop until both are done." \
-  >> "$LOG" 2>&1
+# Claude call with retry-with-backoff:
+# - Up to 3 attempts. Handles transient 401s and stream timeouts.
+# - 60s sleep between attempts.
+# - Each attempt wrapped in `gtimeout 60m` if available (install via
+#   `brew install coreutils` on macOS) so it cannot hang indefinitely.
+TIMEOUT_BIN=$(command -v gtimeout || command -v timeout || true)
+PROMPT="Today is $TODAY. Run the digest workflow per CLAUDE.md and the digest skill. Read all six raw sources. Apply the cross-source confirmation rules. For each substantive Deep Dive paper, run python3 connectors/alphaxiv/enrich.py <arxiv_id>. CLARITY RULE: every named paper, acronym, or prior-paper callback gets a one-clause gloss the first time it appears in any given section. TWITTER-AS-SOURCE RULE: when a paper or blog is only reachable via a Twitter retweet, write a wiki summary page for it. FORMAT RULES: TL;DR is a single prose paragraph (4-7 sentences) not bullets; Big Picture is interpretation not facts; Deep Dives use 6 sub-sections per paper (What is it about / What problem does it solve / What is the core novelty / Key takeaways / Gaps in the study / Industrial implication); section ORDER is TL;DR then Big Picture then Deep Dives then Connecting the Dots then Industry Pulse then Worth Watching then Also today (optional); Connecting the Dots has NO Thread-N labels; Industry Pulse is one short sentence per bullet; tier hierarchy is internal calibration only, never expose Tier-1/2/3/4 in reader-facing output. For the Media Live morning synthesis, read articles[].content and image_paths via the Read tool. Write today's daily digest at wiki/daily-digest/\$(date +%Y-%m)/\$TODAY.md and the morning slot synthesis at wiki/social-stream/\$(date +%Y-%m)/\$TODAY-morning.md. Commit and push. Do not stop until both are done."
+ATTEMPT=0
+MAX_ATTEMPTS=3
+while [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ]; do
+  ATTEMPT=$((ATTEMPT + 1))
+  echo "[$TODAY $(date +%H:%M:%S)] Claude attempt $ATTEMPT of $MAX_ATTEMPTS..." >> "$LOG"
+  if [ -n "$TIMEOUT_BIN" ]; then
+    "$TIMEOUT_BIN" 60m "$CLAUDE" --dangerously-skip-permissions -p "$PROMPT" >> "$LOG" 2>&1
+  else
+    "$CLAUDE" --dangerously-skip-permissions -p "$PROMPT" >> "$LOG" 2>&1
+  fi
+  if [ -f "$DIGEST_PATH" ]; then
+    echo "[$TODAY $(date +%H:%M:%S)] Digest produced on attempt $ATTEMPT." >> "$LOG"
+    break
+  fi
+  if [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ]; then
+    echo "[$TODAY $(date +%H:%M:%S)] Digest missing — sleeping 60s before retry." >> "$LOG"
+    sleep 60
+  fi
+done
 
-# Verify the digest actually got written. If not, the Claude call failed (auth,
-# rate limit, etc.) — alert immediately so the day isn't silently lost.
+# Verify the digest actually got written. If still missing after all retries,
+# all retries exhausted — alert immediately so the day isn't silently lost.
 if [ ! -f "$DIGEST_PATH" ]; then
-  echo "[$TODAY $(date +%H:%M:%S)] CRITICAL: digest was NOT written. Claude call likely failed." >> "$LOG"
-  notify "DIGEST FAILED ($TODAY)" "The Claude digest-writing call did not produce $DIGEST_PATH. Likely cause: API auth expired or rate limit. Run 'claude /login' to refresh, then manually backfill. Raw files for today are already in place. See $LOG."
+  echo "[$TODAY $(date +%H:%M:%S)] CRITICAL: digest was NOT written after $MAX_ATTEMPTS attempts." >> "$LOG"
+  notify "DIGEST FAILED ($TODAY)" "The Claude digest-writing call did not produce $DIGEST_PATH after $MAX_ATTEMPTS retries. Likely cause: API auth expired, sustained network outage, or rate limit. Run 'claude /login' to refresh, then manually backfill. Raw files for today are already in place. See $LOG. Afternoon catch-up cron at 3pm will also retry automatically."
 fi
 
 # Podcast is LAGGED BY ONE DAY: today's 9 AM cron generates yesterday's podcast,
