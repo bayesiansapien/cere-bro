@@ -35,3 +35,13 @@ git push origin main >> "$LOG" 2>&1 || true
 # Generate afternoon slot synthesis
 "$HOME/.local/bin/cerebro-synth-slot.sh" afternoon >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] Afternoon synthesis failed — continuing." >> "$LOG"
+
+# CATCH-UP: if today's digest was never written by the 9am cron (Claude hung,
+# laptop slept, API timeout), trigger the morning routine now. Idempotent — the
+# morning script bails early if the digest already exists.
+DIGEST_PATH="$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md"
+if [ ! -f "$DIGEST_PATH" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] CATCH-UP: digest missing, triggering morning routine." >> "$LOG"
+  python3 "$REPO/connectors/notify/notify.py" "Afternoon catch-up firing ($TODAY)" "Today's digest was missing by 3pm. Triggering morning routine as catch-up." >> "$LOG" 2>&1 || true
+  bash "$HOME/.local/bin/cerebro-morning-digest.sh" >> "$LOG" 2>&1
+fi
