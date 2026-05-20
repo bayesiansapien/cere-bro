@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cerebro.watchdog</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>{{LOCAL_BIN}}/cerebro-watchdog.sh</string>
+    </array>
+
+    <!-- Fire every 30 minutes (1800 seconds). Lightweight no-op when today's
+         digest already exists; triggers morning routine when it's missing. -->
+    <key>StartInterval</key>
+    <integer>1800</integer>
+
+    <!-- Don't fire repeatedly on quick failures; respect cooldown in script -->
+    <key>ThrottleInterval</key>
+    <integer>600</integer>
+
+    <key>StandardOutPath</key>
+    <string>{{REPO_PATH}}/.claude/logs/watchdog-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>{{REPO_PATH}}/.claude/logs/watchdog-stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>{{LOCAL_BIN}}:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>{{HOME_DIR}}</string>
+    </dict>
+</dict>
+</plist>
