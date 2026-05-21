@@ -1,0 +1,733 @@
+{
+  "date": "2026-05-21",
+  "slot": "morning",
+  "scraped_ist": "2026-05-21 09:01",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205717581320…",
+      "link": "https://nitter.net/ashwingop/status/2057218831161122898#m",
+      "date_utc": "2026-05-20T21:56:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@vasuman",
+      "text": "x.com/i/article/205717254427…",
+      "link": "https://nitter.net/vasuman/status/2057177266984226892#m",
+      "date_utc": "2026-05-20T19:10:55+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today, @ymatias shares 5 research highlights (of many) from Google I/O, showcasing how these advancements in personalization, intelligence, and agentic systems are shaping the future of AI and transforming technology's impact. Watch the video below to learn more ↓ Yossi Matias (@ymatias) Hello from @Google I/O! Yesterday and today we showcased how our advancements across personalization, intelligence, and agents are helping to solve complex problems and deliver real-world helpfulness—from daily life to scientific discovery. What a great energy at the show! And thanks to the Google social team ",
+          "link": "https://nitter.net/GoogleResearch/status/2057288873466868149#m",
+          "date_utc": "2026-05-21T02:34:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+              "content": "Google I/O 2026: News and announcements Skip to main content The Keyword I/O 2026 Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "15 things you should know before investing in SpaceX. AI analysis of @SpaceX 's S1 filing. From my AI agent (built by me and @blevlabs using his cognitive architecture). Here's the prompt I used. I'll post Grok's and several other AI responses in replies. Levangie Labs, which sits on top of Anthropic Claude, gives a very different answer than the other AIs I tried (it says it would invest, but would be careful about valuations): docs.google.com/document/d/1… Prompt: \"Today SpaceX's S1 filing was shared. It is here: sec.gov/Archives/edgar/data/… Can you read that and look for things you didn't ",
+          "link": "https://nitter.net/Scobleizer/status/2057272260248109454#m",
+          "date_utc": "2026-05-21T01:28:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://docs.google.com/document/d/1T8jYf21CO-GD3Wgm64H9_XCHnB_cEp4o_FQWRFz0lQo/edit?usp=sharing",
+              "content": "FINAL_REPORT_SPACEX - Google Docs JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload. This browser version is no longer supported. Please upgrade to a supported browser. FINAL_REPORT_SPACEX Tab External Share Sign in File Edit View Tools Help Accessibility Debug"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "content": "S-1 1 spaceexplorationtechnologi.htm S-1 Space Exploration Technologies - S-1 As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No.&#160;333-&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM&#160;S-1 REGISTRATION STATEMENT UNDER THE SECURITIES ACT OF 1933 Space Exploration Technologies Corp. (Exact name of registrant as specified in its charter) Texas 7370 01-0627671 (State or other jurisdiction of incorporation or organization) (Primary Standard Industrial Classification Code Number) (I.R.S. Employer Identification Number) 1 Rocket Road Starbase, Texas 78521 (Address, including zip code, and telephone number, including area code, of registrant&#8217;s principal execu"
+            },
+            {
+              "url": "https://grok.com/share/bGVnYWN5_5d0964f7-8001-4d9c-92e4-7942aac24c44",
+              "content": "SpaceX S-1: Musk AI Risks IPO Valuation | Shared Grok Conversation"
+            },
+            {
+              "url": "https://claude.ai/share/88c570b0-9575-4116-8c01-a9955c18045a",
+              "content": "Claude"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Recorded on my Apple Vision Pro. Sitting in the front row. I've never seen anyone else do that.",
+          "link": "https://nitter.net/Scobleizer/status/2057269068617683095#m",
+          "date_utc": "2026-05-21T01:15:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is Grok's report: nitter.net/i/grok/share/b01c243c3…",
+          "link": "https://nitter.net/Scobleizer/status/2057268920655237235#m",
+          "date_utc": "2026-05-21T01:15:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "10 new Silicon Valley AI startups, as seen at Jeremiah Owyang's Llama Lounge event at Stanford University last week. Hey, don't watch this. Have your AI watch it for you and tell you if there's any company here you should check out. I'll post a link below. Video",
+          "link": "https://nitter.net/Scobleizer/status/2057268182407385092#m",
+          "date_utc": "2026-05-21T01:12:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "And really Uber is turning into a rent a human business without owning any humans.",
+          "link": "https://nitter.net/Scobleizer/status/2057255010547994677#m",
+          "date_utc": "2026-05-21T00:19:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The video: Robert Scoble (@Scobleizer) San Francisco is a series of startup factories. It is demo day season. There are several demo days the next week. Will be at @fdotinc on Friday. Tonight @theresidency held theirs with 10 new startups that just spent a month working on their companies. You might recognize the last one. It is @blevlabs who made the AI that I use to make alignednews.com/ai (I was first to discover him about a year ago. Yet another company launched in my home. The factories, including YCombinator, @hf0 , and a few others, help founders accelerate their companies and set them ",
+          "link": "https://nitter.net/Scobleizer/status/2057236731255202111#m",
+          "date_utc": "2026-05-20T23:07:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“Compute as a service.” Wait I thought @SpaceX was a rocket company. But last night I put up a video from @theresidency ’s San Francisco startup demo day. First company on the video is putting NVIDIA datacenters up in space. “How you getting them up there?” I asked its founder. “SpaceX.” “How you connecting them to humans?” “SpaceX.” Wait a second. You know how Uber is a transportation as a service company but owns no vehicles? SpaceX could rent out compute in space without owning any datacenters. Highly profitable. And, of course, Elon will have his own too. Elon Musk (@elonmusk) As the recen",
+          "link": "https://nitter.net/Scobleizer/status/2057236607783321661#m",
+          "date_utc": "2026-05-20T23:06:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "In the Vision Pro your real face is studied by cameras. It then puppeteers a visual version of you. One of the best things on the Vision Pro that very few get to experience because so few have Vision Pros. Radiance Fields (@RadianceFields) Apple just showed off a new gaussian splatting based avatar method a couple weeks ahead of WWDC Video — https://nitter.net/RadianceFields/status/2057204155941326909#m",
+          "link": "https://nitter.net/Scobleizer/status/2057234929067630725#m",
+          "date_utc": "2026-05-20T23:00:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "These are the Holodeck glasses we will get this year. Ray Wong (@raywongy) I tried out Google and Xreal's Project Aura XR smart glasses. They're kinda legit. The 70-degree FOV makes a huge difference. Hand tracking is mostly solid (some bugginess) and playing Demeo in AR was genuinely very cool I also got some pics of the compute/battery puck, which is roughly the size of the Vision Pro's battery puck gizmodo.com/google-and-xreal… — https://nitter.net/raywongy/status/2057141849601761334#m",
+          "link": "https://nitter.net/Scobleizer/status/2057224526442922262#m",
+          "date_utc": "2026-05-20T22:18:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://gizmodo.com/google-and-xreals-project-aura-xr-smart-glasses-are-legit-2000760940",
+              "content": "Google and Xreal&#039;s &#039;Project Aura&#039; XR Smart Glasses Are Legit Skip to content Gizmodo Latest News Reviews io9 Science Deals Downloads Newsletters Gadgets Google and Xreal&#8217;s &#8216;Project Aura&#8217; XR Smart Glasses Are Legit The spatial computing experience isn't as immersive as an XR headset, but maybe it doesn't need to be. By Raymond Wong Published May 19, 2026, 7:17 pm ET Reading time 4 minutes Â© Raymond Wong / Gizmodo Read Later Read Later Comments (16) I came to Google I/O 2026 to try out Google and Xreal&#8217;s &#8220;Project Aura&#8221; XR smart glasses and I&#8217;m happy to report that I got more than 90 seconds with them . Launching globally this year , Project Aura is a pair of XR smart glasses that run on Google&#8217;s Android XR spatial platform. Whil"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Best review of 360-degree drones I have seen. Gabriele Romagnoli (@GabRoXR) I tested 3 Gaussian Splatting pipelines with the 360 Drone from @insta360 and shared my findings here: open.substack.com/pub/xraisp… In the full article, you will learn: - The hardware, the flight experience and the drawbacks of the @Antigravity_HQ A1 nobody is talking about - Three easy-to-use tools I tested for turning the footage into 3DGS (with what worked and what didn’t), - The pipeline I used to turn the result into a VR world, and the open questions that remain. — https://nitter.net/GabRoXR/status/2057198271907",
+          "link": "https://nitter.net/Scobleizer/status/2057223636474544136#m",
+          "date_utc": "2026-05-20T22:15:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://open.substack.com/pub/xraispotlight/p/i-tested-3-gaussian-splatting-pipelines",
+              "content": "I Tested 3 Gaussian Splatting Pipelines with a 360 Drone Subscribe Sign in I Tested 3 Gaussian Splatting Pipelines with a 360 Drone and brought the 3DGS in VR Gabriele Romagnoli May 19, 2026 3 12 2 Share Capturing Gaussian splatting with a drone is nothing new. What is new is doing it with a flying 360 camera. I recently did that using the Antigravity A1 , a drone released by Antigravity, a company incubated by Insta360. It carries a dual-lens 360 camera, records 8K equirectangular footage, and pairs with a set of goggles that let you experience the flights as if you are actually up in the sky. Get The Antigravity A1 There are plenty of videos with in-depth reviews of the drone, “technical” workflows to reconstruct splats from the footage, but nobody has done a thorough comparison of easy-"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The future will be so fun. We will walk around our photos and play with some objects we captured. Talked this morning with founder of @MergeVR and this future is what he is building. A new way to learn, which he will present next month at an education conference. Our kids will all have to face a choice: do they cheat or do they learn? In 20 years what makes an interesting human? The ones who choose the learning path. Just like today. But we didn’t have powerful cheating tools to distract us. Wang Zhao (@WangZhao_0849) 🚀🚀 Introducing Pixal3D (SIGGRAPH’26) — a new pixel-aligned image-to-3D gener",
+          "link": "https://nitter.net/Scobleizer/status/2057222328728297955#m",
+          "date_utc": "2026-05-20T22:09:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://ldyang694.github.io/projects/pixal3d/",
+              "content": "Pixal3D — Pixel-Aligned 3D Generation from Images Pixal3D Video Abstract Results Comparisons Method Citation SIGGRAPH 2026 Pixal3D Pixel-Aligned 3D Generation from Images Dong-Yang Li 1 , Wang Zhao 2* , Yuxin Chen 2 , Wenbo Hu 2 , Meng-Hao Guo 1 , Fang-Lue Zhang 3 , Ying Shan 2 , Shi-Min Hu 1† 1 BNRist, Department of Computer Science and Technology, Tsinghua University 2 Tencent ARC Lab 3 Victoria University of Wellington *Project lead. †Corresponding author. Paper arXiv 🤗 Demo Model Video Code Video Your browser does not support the video tag. Abstract Recent advances in 3D generative models have rapidly improved image-to-3D synthesis quality, enabling higher-resolution geometry and more realistic appearance. Yet fidelity, which measures pixel-level faithfulness of the generated 3D asset "
+            },
+            {
+              "url": "https://huggingface.co/spaces/TencentARC/Pixal3D",
+              "content": "Pixal3D - a Hugging Face Space by TencentARC Spaces TencentARC / Pixal3D like 199 Agents Running on Zero Get PRO App Files Files Community 4 Fetching metadata from the HF Docker repository... Refreshing"
+            },
+            {
+              "url": "https://github.com/TencentARC/Pixal3D",
+              "content": "GitHub - TencentARC/Pixal3D: [SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterpr"
+            },
+            {
+              "url": "https://arxiv.org/abs/2605.10922",
+              "content": "Abstract: Recent advances in 3D generative models have rapidly improved image-to-3D synthesis quality, enabling higher-resolution geometry and more realistic appearance. Yet fidelity, which measures pixel-level faithfulness of the generated 3D asset to the input image, still remains a central bottleneck. We argue this stems from an implicit 2D-3D correspondence issue: most 3D-native generators synthesize shape in canonical space and inject image cues via attention, leaving pixel-to-3D associations ambiguous. To tackle this issue, we draw inspiration from 3D reconstruction and propose Pixal3D, a pixel-aligned 3D generation paradigm for high-fidelity 3D asset creation from images. Instead of generating in a canonical pose, Pixal3D directly generates 3D in a pixel-aligned way, consistent with"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A different algorithm for X. How can I make it better? AI News. All headlines link back to X. Models. Papers. Events. And more. alignednews.com/ai",
+          "link": "https://nitter.net/Scobleizer/status/2057200187337310417#m",
+          "date_utc": "2026-05-20T20:42:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Me pretending to do work while my rocket.new agent researches the market, builds the app, optimizes it, and watches competitors 24/7. Most AI tools help you write code. Rocket does the whole loop: Research what people actually want, build the product, deploy it, improve it from customer feedback, and track the market after launch. One system. One shared context. No juggling 10 tools or starting over in a new tab. If you’re serious about building something that solves real problems and can actually make money, Rocket is the move. Use code Robert20 for 20% off. Go build something worth building.",
+          "link": "https://nitter.net/Scobleizer/status/2057188562374930829#m",
+          "date_utc": "2026-05-20T19:55:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://rocket.new",
+              "content": "Rocket | AI App Builder Vibe Solutioning Platform Product Resources Pricing Sign in Get started free 1.5 million people have tried Rocket across 180 countries . Most AI tools help you build faster. None of them tell you what to build. Or how to win after you build. Rocket is the world&#x27;s first Vibe Solutioning platform. Research the market. Decide what to build. Ship it. Watch what your competition does next. One system. One shared context. Start free See it in action The thinking. The building. The tracking. Three capabilities. One system. One shared context. Start anywhere- Rocket carries everything you already know into your next step. 01 Solve The thinking before the build. Describe any market problem, decision, or opportunity. Rocket returns research, evidence, and a clear recomme"
+            },
+            {
+              "url": "https://www.rocket.new/?utm_source=twitter&utm_medium=robertscoble&utm_campaign=interview",
+              "content": "Rocket | AI App Builder Vibe Solutioning Platform Product Resources Pricing Sign in Get started free 1.5 million people have tried Rocket across 180 countries . Most AI tools help you build faster. None of them tell you what to build. Or how to win after you build. Rocket is the world&#x27;s first Vibe Solutioning platform. Research the market. Decide what to build. Ship it. Watch what your competition does next. One system. One shared context. Start free See it in action The thinking. The building. The tracking. Three capabilities. One system. One shared context. Start anywhere- Rocket carries everything you already know into your next step. 01 Solve The thinking before the build. Describe any market problem, decision, or opportunity. Rocket returns research, evidence, and a clear recomme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "One of the biggest misconceptions in AI is that transformation starts with technology. It doesn’t. It starts with understanding how work actually happens inside an enterprise. Over the last year at @HUMAIN , we have been focused on building not only AI platforms and products, but also the execution model required to make AI useful at scale. This is where our collaboration with @McKinsey & Company adds strategic value. The objective is simple: combine deep business transformation expertise with HUMAIN’s AI platforms to redesign workflows, modernize operations, and build AI-native enterprises fr",
+          "link": "https://nitter.net/TareqAmin_/status/2057150534994284964#m",
+          "date_utc": "2026-05-20T17:24:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://lnkd.in/gcbGxEGK",
+              "content": "LinkedIn LinkedIn This link will take you to a page that’s not on LinkedIn Because this is an external link, we’re unable to verify it for safety. https://www.humain.com/en/news/humain-and-mckinsey-announce-collaboration-to-accelerate-ai-tran1 This experience is optimized for Chrome, Edge, and Safari Have questions? Learn more"
+            },
+            {
+              "url": "https://bit.ly/498qXLp",
+              "content": "HUMAIN and McKinsey Announce Collaboration to Accelerate AI Transformations Across Saudi Arabia HUMAIN and McKinsey Announce Coll"
+            }
+          ]
+        },
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "Since May last year, we have been building game-changing products and platforms at @HUMAIN with one core belief: in the age of AI, success is no longer about product sales alone. It is about value realization. Enterprises today are not looking for more software. They are looking for partners who can help them solve real business problems, transform workflows, reduce complexity, and unlock measurable outcomes. This is why our collaboration with @Accenture is so important. Together, we are strengthening HUMAIN’s service delivery capabilities around our core AI offerings through a forward-deploye",
+          "link": "https://nitter.net/TareqAmin_/status/2057097947079217351#m",
+          "date_utc": "2026-05-20T13:55:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://lnkd.in/gUKWJw7V",
+              "content": "LinkedIn LinkedIn This link will take you to a page that’s not on LinkedIn Because this is an external link, we’re unable to verify it for safety. https://www.humain.com/en/news/humain-and-accenture-accelerate-ai-adoption-at-scale-across-publ This experience is optimized for Chrome, Edge, and Safari Have questions? Learn more"
+            },
+            {
+              "url": "https://bit.ly/4uXVnsb",
+              "content": "HUMAIN and Accenture Accelerate AI Adoption at Scale Across Public and Private Sectors in Saudi Arabia HUMAIN and Accenture Accelerate AI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "At Tesla, we build our cars with love",
+          "link": "https://nitter.net/Tesla/status/2057303038952698075#m",
+          "date_utc": "2026-05-21T03:30:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "The legacy of Model S X will live on in our vision for autonomy Video",
+          "link": "https://nitter.net/Tesla/status/2057283989397008792#m",
+          "date_utc": "2026-05-21T02:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Model S & X changed automotive history forever by proving that an EV could be the best car possible – of any kind. By inspiring other automakers to believe in EVs, they pushed the industry from 50k cars total in 2011 to 21 million sold per year. Many automotive firsts: Model S – first EV to achieve a 400-mile range, first production car to do 0-60 in 2 seconds & first production sedan to run a 9.23 second quarter mile. It was also the first vehicle with a roof so strong that it broke NHTSA's testing machine. Model X – quickest production SUV & the first to not roll over in regulatory tests. Mo",
+          "link": "https://nitter.net/Tesla/status/2057280583643087053#m",
+          "date_utc": "2026-05-21T02:01:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Model S X changed the world's perception of what EVs could do",
+          "link": "https://nitter.net/Tesla/status/2057276768214770087#m",
+          "date_utc": "2026-05-21T01:46:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Model S X Signature Delivery Event nitter.net/i/broadcasts/1nxeLygpl…",
+          "link": "https://nitter.net/Tesla/status/2057257841799713183#m",
+          "date_utc": "2026-05-21T00:31:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised is now available in: - United States - Canada - Mexico - Puerto Rico - China - Australia - New Zealand - South Korea - The Netherlands - Lithuania",
+          "link": "https://nitter.net/Tesla/status/2057226337010745348#m",
+          "date_utc": "2026-05-20T22:25:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Lithuania becomes second European country to approve FSD Supervised Tesla Europe, Middle East & Africa (@teslaeurope) FSD Supervised now rolling out to Teslas in Lithuania 🇱🇹! Making European roads safer, one by one Video — https://nitter.net/teslaeurope/status/2056991427511332957#m",
+          "link": "https://nitter.net/Tesla/status/2057163424602399015#m",
+          "date_utc": "2026-05-20T18:15:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "📢The American taxpayer will not be taken advantage of. DrOzCMS (@DrOzCMS) The full weight of the federal government is going after healthcare fraudsters — protecting American families and patients, and safeguarding their hard-earned tax dollars. Under this Administration, the American taxpayer will not be taken advantage of. — https://nitter.net/DrOzCMS/status/2057140929127972920#m",
+          "link": "https://nitter.net/WHFraudTF/status/2057151239951892550#m",
+          "date_utc": "2026-05-20T17:27:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le monde progressera quand politique ne sera plus un métier. Libertario 🟨⬛ (@QuotesforGoal) \"El mundo progresa cuando los políticos duermen\" Antonio Escohotado — https://nitter.net/QuotesforGoal/status/2057222081490628898#m",
+          "link": "https://nitter.net/brivael/status/2057263457880199312#m",
+          "date_utc": "2026-05-21T00:53:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I’m so fucking happy to see an ambitious future of humanity like this 🚀 This is awesome! Elon Musk (@elonmusk) Yes — https://nitter.net/elonmusk/status/2057261925244039437#m",
+          "link": "https://nitter.net/brivael/status/2057262964462264833#m",
+          "date_utc": "2026-05-21T00:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le Mozart de la finance qui pense encore que l’État a un rôle à jouer dans l’économie. 200 ans de data qu’on sait que c’est du 💩 Mais il est droit dans ses bottes. Le théâtre jusqu’au bout 😂 Journal du Coin (@LeJournalDuCoin) 🚨🇫🇷 « Ne laissons pas s’installer autour des cryptoactifs une forme d’opportunité pour les criminels et terroristes. » ➡️ Emmanuel Macron appelle à renforcer la régulation de secteur crypto afin d’éviter l’émergence d’un nouveau « Far West ». Video — https://nitter.net/LeJournalDuCoin/status/2056977132505755975#m",
+          "link": "https://nitter.net/brivael/status/2057262605404619093#m",
+          "date_utc": "2026-05-21T00:50:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mario et Luigi. Les plombiers de la liberté ! El Peluca Milei (@ElPelucaMilei) Cómo se extraña ver esta dupla junta CC: @elonmusk @JMilei Video — https://nitter.net/ElPelucaMilei/status/2057147910970564762#m",
+          "link": "https://nitter.net/brivael/status/2057261378885255562#m",
+          "date_utc": "2026-05-21T00:45:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🫡🫡🫡🫡🫡 Ted Cruz (@tedcruz) this 👇 — https://nitter.net/tedcruz/status/2057251899913425200#m",
+          "link": "https://nitter.net/brivael/status/2057260939104133357#m",
+          "date_utc": "2026-05-21T00:43:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yes Walter Kirby (@KirbyWalte71728) Socialism...the ideology of envy...losers love it. — https://nitter.net/KirbyWalte71728/status/2057260395014836255#m",
+          "link": "https://nitter.net/brivael/status/2057260761785778662#m",
+          "date_utc": "2026-05-21T00:42:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Only @JMilei is cooking so well. Brivael Le Pogam (@brivael) Politics is shit. Building is the only thing that matter. — https://nitter.net/brivael/status/2057234780178059715#m",
+          "link": "https://nitter.net/brivael/status/2057260695826120907#m",
+          "date_utc": "2026-05-21T00:42:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La courbe est implacable. IQ 85 : « Faut laisser les gens travailler et garder leur argent. » IQ 100 : « En réalité le capitalisme exploite la classe laborieuse, la valeur-travail démontre que la plus-value est extraite par le capital, il faut une redistribution massive pour corriger les externalités du marché et... » IQ 145 : « Faut laisser les gens travailler et garder leur argent. » Le gauchiste est littéralement le mec au milieu de la courbe. Brivael Le Pogam (@brivael) Les gauchistes sont les platistes de l'économie. Même déni d'une science établie depuis 250 ans. Même mépris pour les pre",
+          "link": "https://nitter.net/brivael/status/2057260359640109228#m",
+          "date_utc": "2026-05-21T00:41:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les gauchistes sont les platistes de l'économie. Même déni d'une science établie depuis 250 ans. Même mépris pour les preuves empiriques. Même conviction d'être plus malins que des siècles de travaux.",
+          "link": "https://nitter.net/brivael/status/2057259780612223367#m",
+          "date_utc": "2026-05-21T00:38:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "ENTREPRENEURS ARE THE KINGSSSS Milei in English - Official Account (@jmilei_english) Without entrepreneurs, there is NOTHING. LONG LIVE FREEDOM, DAMN IT...!!! Video — https://nitter.net/jmilei_english/status/2057250651667562956#m",
+          "link": "https://nitter.net/brivael/status/2057258720992674231#m",
+          "date_utc": "2026-05-21T00:34:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Dans 20 ans, on enseignera dans les écoles que les crises du XXe et du début du XXIe siècle étaient des crises étatiques, pas des crises capitalistes. Comme on enseigne aujourd'hui que la Terre tourne autour du Soleil et pas l'inverse. Et on enseignera @JMilei comme on enseigne aujourd'hui les Pères Fondateurs américains : comme celui qui a osé, le premier, appliquer en grand ce que la théorie démontrait depuis 100 ans. — https://nitter.net/brivael/status/2057258204401119240#m",
+          "link": "https://nitter.net/brivael/status/2057258315562799201#m",
+          "date_utc": "2026-05-21T00:32:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dans 20 ans, on enseignera dans les écoles que les crises du XXe et du début du XXIe siècle étaient des crises étatiques, pas des crises capitalistes. Comme on enseigne aujourd'hui que la Terre tourne autour du Soleil et pas l'inverse. Et on enseignera @JMilei comme on enseigne aujourd'hui les Pères Fondateurs américains : comme celui qui a osé, le premier, appliquer en grand ce que la théorie démontrait depuis 100 ans. Brivael Le Pogam (@brivael) Aujourd'hui, je vais faire quelque chose d'historique. Quelque chose qui restera dans les livres dans 50 ans. Et qui va surement me faire avoir le p",
+          "link": "https://nitter.net/brivael/status/2057258204401119240#m",
+          "date_utc": "2026-05-21T00:32:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Aujourd'hui, je vais faire quelque chose d'historique. Quelque chose qui restera dans les livres dans 50 ans. Et qui va surement me faire avoir le prix nobel d'économie. Je vais prouver par A+B que les médias et les universités — gangrenés par la gauche depuis un siècle — vous ont menti sur le capitalisme. Pas \"se sont trompés\". Pas \"ont eu une lecture biaisée\". Menti. Sur le sujet le plus important de l'histoire moderne : l'origine des crises économiques. Le mensonge tient en une phrase : \"Les crises économiques sont la preuve que le capitalisme est instable et que l'État doit intervenir pour",
+          "link": "https://nitter.net/brivael/status/2057257114104369352#m",
+          "date_utc": "2026-05-21T00:28:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"L'IA dissout complètement toutes les théories où l'État doit intervenir dans l'économie.\" Je me souviens d'une conversation avec un ami il y a quelques années. On parlait des fondateurs de Google. Il m'avait lâché : \"Tu sais, les fondateurs de Google, c'est deux gauchistes universitaires.\" Ça m'a marqué. Aujourd'hui, Sergey Brin fait son coming out républicain. Bezos vire chad. Zuckerberg se masculinise. Musk est devenu le porte-étendard de l'accélération. Ce n'est pas un hasard. Ces gens-là, ce sont les cerveaux les plus brillants de la planète. Et ils utilisent l'IA plus intensément que n'i",
+          "link": "https://nitter.net/brivael/status/2057253290325188882#m",
+          "date_utc": "2026-05-21T00:13:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "live without limits being pro-human being pro-liberty being pro-capitalism being optimist mocking leftlist introvert (@livewithnoregrt) what is the cure for depression? — https://nitter.net/livewithnoregrt/status/2057215538334695432#m",
+          "link": "https://nitter.net/brivael/status/2057251463949111688#m",
+          "date_utc": "2026-05-21T00:05:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Download Cursor 3.5 to try these new features: cursor.com/download",
+          "link": "https://nitter.net/cursor_ai/status/2057167364161208506#m",
+          "date_utc": "2026-05-20T18:31:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/download",
+              "content": "Cursor · Download Skip to content Cursor Product ↓ Agents Code Review Cloud Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Download Cursor Available for macOS, Windows, and Linux. Download for macOS ⤓ Try mobile agent → The Cursor desktop app is available for macOS, Windows, and Linux. 3.5 Latest ↓ ↑ Apple macOS Mac (ARM64) ⤓ Mac (x64) ⤓ Mac Universal ⤓ Windows Windows (x64) (System) ⤓ Windows (x64) (User) ⤓ Windows (ARM64) (System) ⤓ Windows (ARM64) (User) ⤓ Linux Linux .deb (ARM64) ⤓ Linux .deb (x64) ⤓ Linux RPM (ARM64) ⤓ Linux RPM (x64) ⤓ Linux AppImage (ARM64) ⤓ Linux AppImage (x64) ⤓ View release notes → 3.4 ↓ ↑ Apple macOS Mac (ARM64) ⤓ "
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "You can also now create automations without any attached repos, like a daily Slack digest agent that prioritizes unread threads and DMs for your response. Find more templates in our marketplace: cursor.com/marketplace Video",
+          "link": "https://nitter.net/cursor_ai/status/2057167362781261887#m",
+          "date_utc": "2026-05-20T18:31:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/marketplace",
+              "content": "Cursor Marketplace | Cursor Plugins Skip to content Product ↓ Agents Code Review Cloud Tab CLI Enterprise Pricing Resources ↓ Changelog Blog Docs ↗ Community Learn ↗ Workshops Forum ↗ Future ↗ Marketplace Careers Product → Enterprise Pricing Resources → Marketplace Marketplace Featured Recently Added Plugins Automations Manage Automations Documentation Publish Extend the Agent Featured Plugins See All Plugins Datadog Use Datadog directly in Cursor through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation. This plugin is in preview. Slack Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients. Figma Plugin that includes the Figma MCP server and Skills for common workflo"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "You can now attach multiple repos to an automation. This allows agents to reason and work across codebases to execute, test, and verify tasks. Video",
+          "link": "https://nitter.net/cursor_ai/status/2057167361170698448#m",
+          "date_utc": "2026-05-20T18:31:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "You can now create and manage automations in the same workspace as your agents. Automations are now available in the Agents Window. For the next 7 days, all agent runs for newly created automations are 50% off. Video",
+          "link": "https://nitter.net/cursor_ai/status/2057167359593603471#m",
+          "date_utc": "2026-05-20T18:31:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "No other company will probably ever be able to file an S-1 with product photos more EPIC than the @SpaceX S-1! @elonmusk",
+          "link": "https://nitter.net/magicsilicon/status/2057275965957644796#m",
+          "date_utc": "2026-05-21T01:43:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "🇺🇸 🇺🇸 🇺🇸",
+          "link": "https://nitter.net/magicsilicon/status/2057187651904520684#m",
+          "date_utc": "2026-05-20T19:52:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nottombrown",
+      "org": "Anthropic",
+      "focus": [
+        "LLMs",
+        "foundation models",
+        "GPT"
+      ],
+      "tweets": [
+        {
+          "handle": "nottombrown",
+          "creator": "@nottombrown",
+          "text": "We’re expanding our partnership with @SpaceX , and will be scaling up on GB200 capacity in Colossus 2 throughout June. Appreciate @elonmusk and the team helping us find good homes for the Claudes. Tom Brown (@nottombrown) In the next few days we'll be ramping up Claude inference on Colossus. Grateful to be partnering with SpaceX here. We are going to need to move a lot of atoms in order to keep up with AI demand, and there's nobody better at quickly moving atoms (on or off planet Earth) — https://nitter.net/nottombrown/status/2052062566126649448#m",
+          "link": "https://nitter.net/nottombrown/status/2057194829986300375#m",
+          "date_utc": "2026-05-20T20:20:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "this is the foundational infrastructure for multiplanetary civilization",
+          "link": "https://nitter.net/ns123abc/status/2057275176954290244#m",
+          "date_utc": "2026-05-21T01:39:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceXAI is officially the AGI landlord now Elon Musk (@elonmusk) As the recently expanded partnership with @AnthropicAI demonstrates, @SpaceX is offering AI compute as a service at significant scale. We are in discussions with other companies to do the same. Over time, especially with orbital data centers, we expect to serve AI at extremely high scale. — https://nitter.net/elonmusk/status/2057228707606196434#m",
+          "link": "https://nitter.net/ns123abc/status/2057240045828939968#m",
+          "date_utc": "2026-05-20T23:20:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 BREAKING: SpaceXAI locked Anthropic into paying them $1.25 billion per MONTH for compute $15B per year through 2029 = $45 BILLION",
+          "link": "https://nitter.net/ns123abc/status/2057235186564121008#m",
+          "date_utc": "2026-05-20T23:01:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 Anthropic just announced they’re expanding compute partnership with SpaceXAI scaling up on GB200s in Colossus 2 Anthropic now has MORE revenue and MORE accessible compute than OpenAI Tom Brown (@nottombrown) We’re expanding our partnership with @SpaceX , and will be scaling up on GB200 capacity in Colossus 2 throughout June. Appreciate @elonmusk and the team helping us find good homes for the Claudes. — https://nitter.net/nottombrown/status/2057194829986300375#m",
+          "link": "https://nitter.net/ns123abc/status/2057213045290533146#m",
+          "date_utc": "2026-05-20T21:33:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
