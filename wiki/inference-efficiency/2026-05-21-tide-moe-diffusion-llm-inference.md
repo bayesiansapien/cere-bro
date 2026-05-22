@@ -21,5 +21,5 @@ TIDE's temporal-stability claim is dLLM-specific because each denoising step ove
 
 ## Related wiki pages
 
-- [LLaDA2.0-Uni multimodal diffusion (2026-04-23)](../llms-foundation-models/2026-04-23-llada20-uni-unifying-multimodal-understanding-generation.md)
-- [Expert Upcycling MoE compute efficiency (2026-04-23)](../llms-foundation-models/2026-04-23-expert-upcycling-moe-compute-efficient-frontier.md)
+- [KV Cache concept page](kv-cache.md)
+- [OScaR INT2 KV codec (2026-05-21)](2026-05-21-oscar-extreme-kv-cache-quantization.md)
