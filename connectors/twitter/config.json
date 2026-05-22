@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-18T09:30:05.604511+00:00",
+  "following_last_checked": "2026-05-21T13:03:13.384348+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -59,7 +59,9 @@
     "kevinnbass",
     "ARK_Funds",
     "ChrisWillx",
-    "StatlerLasVegas"
+    "StatlerLasVegas",
+    "SemiAnalysis_",
+    "skdh"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -405,6 +407,24 @@
       "timezone": "PT",
       "focus": [
         "semiconductors"
+      ]
+    },
+    {
+      "handle": "sualehasif996",
+      "name": "Sualeh Asif",
+      "org": "Cursor",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "AustinJustice",
+      "name": "Austin Justice",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
       ]
     }
   ],

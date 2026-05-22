@@ -27,7 +27,7 @@ The 30B-A3B configuration follows the design lineage from DeepSeek-V3 / V4 and Q
 
 ## Industrial implication
 
-The translation use case has been under-treated in the wiki to date — most attention has gone to coding, reasoning, and agentic agents. But translation is a useful efficiency-testbed because:
+The translation use case has been under-treated in the wiki to date, most attention has gone to coding, reasoning, and agentic agents. But translation is a useful efficiency-testbed because:
 - The reward function is well-defined (BLEU, chrF, COMET) and runs at training-time without expensive eval.
 - The 33-language coverage stress-tests cross-lingual representation, not just English-task fitting.
 - Sub-512MB on-device deployment is a deployment story that doesn't require GPU at all.

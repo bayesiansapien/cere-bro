@@ -5,7 +5,7 @@
 
 ## TL;DR
 
-The Electronic Design Automation (EDA) industry — Synopsys, Cadence, Siemens EDA, plus Ansys (now part of Synopsys) — is the indispensable substrate beneath every advanced chip. Big-3 hold over 85% combined market share. Combined CY2025 revenue is around $16B across tools, IP, emulation hardware, and simulation software. EDA grows at 13% CAGR while semiconductor R&D grows at 7%, a six-point spread that widened after 2018 specifically because of hyperscaler AI silicon programs, emulation hardware economics, and advanced-node verification cost.
+The Electronic Design Automation (EDA) industry, Synopsys, Cadence, Siemens EDA, plus Ansys (now part of Synopsys). is the indispensable substrate beneath every advanced chip. Big-3 hold over 85% combined market share. Combined CY2025 revenue is around $16B across tools, IP, emulation hardware, and simulation software. EDA grows at 13% CAGR while semiconductor R&D grows at 7%, a six-point spread that widened after 2018 specifically because of hyperscaler AI silicon programs, emulation hardware economics, and advanced-node verification cost.
 
 ## Why an AI wiki should care
 
@@ -46,12 +46,12 @@ Three reasons:
 
 Seven categories of EDA buyers, each with distinct procurement behavior:
 1. Fabless chip designers (NVIDIA, Qualcomm, AMD, Broadcom, MediaTek).
-2. Systems companies (hyperscalers, Apple, Tesla, automotive Tier-1s) — 45% of demand, fastest growing.
-3. IDMs (Intel, TI, ADI, Infineon, ST) — enterprise-wide agreements, internal IP reduces external licensing.
-4. Memory companies (Samsung, SK Hynix, Micron, Kioxia) — HBM verification approaching logic-chip complexity.
-5. Foundries (TSMC, Samsung Foundry, Intel Foundry, GF, Rapidus) — co-develop PDKs with EDA vendors 24 months pre-production.
-6. Turnkey ASIC houses (Broadcom ASIC, Marvell Custom, Alchip, GUC) — multiple concurrent tape-outs.
-7. IP companies (ARM, Rambus, Alphawave) — license once, sell repeatedly.
+2. Systems companies (hyperscalers, Apple, Tesla, automotive Tier-1s). 45% of demand, fastest growing.
+3. IDMs (Intel, TI, ADI, Infineon, ST). enterprise-wide agreements, internal IP reduces external licensing.
+4. Memory companies (Samsung, SK Hynix, Micron, Kioxia). HBM verification approaching logic-chip complexity.
+5. Foundries (TSMC, Samsung Foundry, Intel Foundry, GF, Rapidus). co-develop PDKs with EDA vendors 24 months pre-production.
+6. Turnkey ASIC houses (Broadcom ASIC, Marvell Custom, Alchip, GUC). multiple concurrent tape-outs.
+7. IP companies (ARM, Rambus, Alphawave). license once, sell repeatedly.
 
 ## Pricing model nuance
 
@@ -68,8 +68,8 @@ So the bottleneck pile-up is: AI lab compute demand → custom-silicon program s
 ## Open questions
 
 - What does AI inside EDA tooling look like in detail? Part 3 will cover this. Likely candidates: ML-driven place-and-route, RL on verification corner exploration, generative HDL.
-- China EDA capability gap — the primer notes a section on Chinese EDA vendor financials and the 2019-2025 export-control timeline, but the Gmail summary truncated before that section.
-- R-squared lock-in intensity by customer (mentioned in TOC) — the formal measure of customer dependence on tool stack.
+- China EDA capability gap, the primer notes a section on Chinese EDA vendor financials and the 2019-2025 export-control timeline, but the Gmail summary truncated before that section.
+- R-squared lock-in intensity by customer (mentioned in TOC). the formal measure of customer dependence on tool stack.
 
 ## Cross-references
 
@@ -80,4 +80,4 @@ So the bottleneck pile-up is: AI lab compute demand → custom-silicon program s
 
 ## Source
 
-Raw: `raw/gmail/2026-05-22-starred.md` (item 5) — the original SemiAnalysis post.
+Raw: `raw/gmail/2026-05-22-starred.md` (item 5). the original SemiAnalysis post.

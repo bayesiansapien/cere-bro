@@ -53,8 +53,8 @@ Two things change if these numbers hold:
 - [Anthropic Colossus deal capacity (2026-05-08)](2026-05-08-anthropic-colossus-deal-capacity.md)
 - [Amazon-Anthropic capital concentration (2026-04-22)](2026-04-22-amazon-anthropic-capital-concentration.md)
 - [Anthropic overtakes OpenAI B2B (2026-05-13)](2026-05-13-anthropic-overtakes-openai-b2b.md)
-- [Pentagon eight tech giants AI fighting force (2026-05-01)](2026-05-01-pentagon-eight-tech-giants-ai-fighting-force.md) — SpaceX is one of the eight.
-- [SemiAnalysis AI value capture model labs (2026-05-01)](2026-05-01-semianalysis-ai-value-capture-model-labs.md) — long-form piece on unit economics.
+- [Pentagon eight tech giants AI fighting force (2026-05-01)](2026-05-01-pentagon-eight-tech-giants-ai-fighting-force.md). SpaceX is one of the eight.
+- [SemiAnalysis AI value capture model labs (2026-05-01)](2026-05-01-semianalysis-ai-value-capture-model-labs.md). long-form piece on unit economics.
 
 ## Source files
 

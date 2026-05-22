@@ -18,7 +18,7 @@ This is the cleanest mathematical statement of how to scale MoE responsibly that
 
 ## Connections to the wiki
 
-- The recurring 10% activation ratio across DeepSeek-V3/V4, Qwen3.6-A3B, and now Tencent Hy-MT2-30B-A3B (covered today, [2026-05-21](2026-05-21-tencent-hy-mt2-translation-quantization.md)) has been an empirical choice. If muP-MoE gives principled reasons why a particular activation ratio is scale-stable, then 10% may not be the optimal ratio — it may be a local minimum the field has settled on because they did not have the scaling recipe to explore alternatives without retuning.
+- The recurring 10% activation ratio across DeepSeek-V3/V4, Qwen3.6-A3B, and now Tencent Hy-MT2-30B-A3B (covered today, [2026-05-21](2026-05-21-tencent-hy-mt2-translation-quantization.md)) has been an empirical choice. If muP-MoE gives principled reasons why a particular activation ratio is scale-stable, then 10% may not be the optimal ratio, it may be a local minimum the field has settled on because they did not have the scaling recipe to explore alternatives without retuning.
 - This complements the [TIP token-importance on-policy distillation work (2026-04-16)](2026-04-16-tip-token-importance-on-policy-distillation.md) which addressed where to concentrate learning signal at the token level. muP-MoE addresses where to concentrate parameter capacity across experts.
 - Connects to the broader RLVR / DPO / RLHF stability story (see [DPO/RLHF conditional equivalence paper](../llms-foundation-models/2026-05-21-dpo-rlhf-conditional-equivalence.md) on the same week's Kurate). Scale-stable parameterization is the orthogonal axis: the optimization landscape is stable across model scale separately from whether the loss function is well-posed.
 
