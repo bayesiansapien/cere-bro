@@ -34,8 +34,8 @@ The interpretive split between Gowers (genuine milestone, hard to compete with A
 
 ## Cross-references
 
-- [Gowers GPT-5.5-Pro math (2026-05-10)](2026-05-10-gowers-gpt55-pro-math.md) — frontier reasoning at mathematician-level on contest-style problems.
-- [Soohak research-math benchmark (2026-05-12)](2026-05-12-soohak-research-math-benchmark.md) — research-math evaluation methodology.
+- [Gowers GPT-5.5-Pro math (2026-05-10)](2026-05-10-gowers-gpt55-pro-math.md). frontier reasoning at mathematician-level on contest-style problems.
+- [Soohak research-math benchmark (2026-05-12)](2026-05-12-soohak-research-math-benchmark.md). research-math evaluation methodology.
 - Anthropic separately predicted Nobel-prize-level discoveries within a year (carried in the Twitter morning slot and 2026-05-22 social-stream).
 
 ## Source

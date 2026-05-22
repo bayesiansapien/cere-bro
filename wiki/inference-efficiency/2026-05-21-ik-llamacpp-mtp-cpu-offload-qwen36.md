@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-A practitioner running an RTX 4070 Super (12 GB VRAM), Ryzen 7 9700X CPU, and 48 GB DDR5-6000 reports 110 tok/s decode throughput on Qwen3.6-35B-A3B (a 35B-total / 3B-active MoE) using a fork of llama.cpp called ik_llama.cpp, with Multi-Token Prediction (MTP) speculative decoding enabled. After Tencent's MTP PR was merged into upstream llama.cpp, throughput on the original benchmark setup dropped, but ik_llama.cpp — which is reportedly better optimized for CPU offloading of MoE expert layers — recovered and surpassed the original. Comparison numbers across upstream llama.cpp's mtp-bench.py for the same quant (byteshape/Qwen3.6-35B-A3B-IQ4_XS-4.19bpw, 4 GB smaller than Unsloth's Q5_K_XL at similar accuracy) show 79.8-89.1 tok/s on standard code/explain/summarize tasks. The ik_llama.cpp run pushes that higher.
+A practitioner running an RTX 4070 Super (12 GB VRAM), Ryzen 7 9700X CPU, and 48 GB DDR5-6000 reports 110 tok/s decode throughput on Qwen3.6-35B-A3B (a 35B-total / 3B-active MoE) using a fork of llama.cpp called ik_llama.cpp, with Multi-Token Prediction (MTP) speculative decoding enabled. After Tencent's MTP PR was merged into upstream llama.cpp, throughput on the original benchmark setup dropped, but ik_llama.cpp, which is reportedly better optimized for CPU offloading of MoE expert layers, recovered and surpassed the original. Comparison numbers across upstream llama.cpp's mtp-bench.py for the same quant (byteshape/Qwen3.6-35B-A3B-IQ4_XS-4.19bpw, 4 GB smaller than Unsloth's Q5_K_XL at similar accuracy) show 79.8-89.1 tok/s on standard code/explain/summarize tasks. The ik_llama.cpp run pushes that higher.
 
 ## Why this matters
 

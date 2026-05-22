@@ -547,3 +547,22 @@ Append-only timeline of ingests and lint passes.
 - Daily digest: 2026-05-20 (new format applied throughout: prose-paragraph TL;DR, 6-subsection Deep Dives, no Tier code, no em dashes, Connecting the Dots before Industry Pulse, falsifiable Worth Watching with timeframes)
 - Social-stream: 2026-05-20-morning (Google I/O cluster, Karpathy-to-Anthropic, Cursor Composer 2.5 + Jira, SpaceXAI S-1 rumour, Anthropic computer-use guide)
 - Note: cron Claude digest-writing call hung silently this morning (likely laptop-sleep stall, then killed); pipeline hardening to land separately
+
+## [2026-05-22] ingest | morning farmer scrape + digest
+- Sources read:
+  - HF farmer: 34 papers (4 Tier 1 KV-cache hits: KVServe 2605.13734, RTPurbo 2605.16928, Gated DeltaNet-2 2605.22791, WorldKV 2605.22718)
+  - RSS farmer: 30 entries across 21-22 May (The Decoder x8, Simon Willison x6, TLDR AI, AI Safety Newsletter, AI Snake Oil, Marcus on AI, Pragmatic Engineer, Agentic AI, Last Week in AI)
+  - Gmail starred: 8 emails (Medium Daily Digest, HuggingFace daily-papers digest, Ken Huang slash-commands ch3, SemiAnalysis EDA Market Primer, Towards Data Science, AI Weekly OpenAI-SpaceX, CAIS AISN #73)
+  - Twitter slots: morning 2026-05-22 (39 tweets, 6 articles, 0 retweets), afternoon 2026-05-22 (16 tweets), 2026-05-21 afternoon/evening
+  - Kurate: cs.AI + cs.LG weekly (top cs.LG hit: MoE muP scale-stable #14 at 9.0/10 ai_rating); rising-authors stable across week 21
+  - Reddit: 8 subs (LocalLLaMA carries Heretic Meta-legal-notice, Qwen 3.7 anticipation, ik_llama.cpp 110 tok/s, Tencent Hy-MT2 with 1.25-bit AngelSlim quant, b9274 MTP VRAM leak fix; r/MachineLearning, r/CUDA, r/HPC, r/LLMDevs, r/reinforcementlearning no posts through filters; r/MLScaling 1 thermocompute post; r/ControlProblem 1 meme)
+- alphaxiv enrichment: ran for KVServe, RTPurbo, Gated DeltaNet-2; all returned full overviews (used to ground deep-dive prose)
+- Wiki pages: 13 new summaries
+  - **inference-efficiency**: KVServe, RTPurbo, Gated DeltaNet-2, WorldKV, Tencent Hy-MT2, MoE muP scale-stable, ik_llama.cpp+MTP (7 pages)
+  - **llms-foundation-models**: OpenAI Erdős proof, Cohere Command A+ (2 pages)
+  - **ai-industry**: Anthropic profitability + SpaceX IPO (1 page)
+  - **responsible-ai**: AISN #73 Beijing/Eigenism, AI Snake Oil resilience (2 pages)
+  - **hardware**: SemiAnalysis EDA Market Primer (1 page)
+- Daily digest: 2026-05-22 (KV-cache convergence framing, 8 Deep Dives led by the four KV papers, 4 Connecting the Dots paragraphs, Industry Pulse 9 bullets, Worth Watching 9 falsifiable predictions, em-dashes scrubbed per CLAUDE.md format rule)
+- Social-stream: 2026-05-22-morning (NVIDIA tokenomics cluster, memory-supply tightening, Anthropic compute claim, low-signal political off-topic feed flagged for filter calibration)
+- HF farmer ran ~20 minutes before returning today (longer than usual); waited and integrated post-arrival rather than skipping

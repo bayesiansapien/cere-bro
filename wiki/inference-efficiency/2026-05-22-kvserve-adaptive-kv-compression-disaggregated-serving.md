@@ -76,10 +76,10 @@ The disaggregated-serving wave is real. Anthropic's reported coding-tool revenue
 
 ## Cross-references
 
-- [RTPurbo / Full Attention Strikes Back (2026-05-22)](2026-05-22-rtpurbo-full-attention-sparse-transfer.md) — orthogonal sparse-attention attack on the same long-context bottleneck.
-- [Gated DeltaNet-2 (2026-05-22)](2026-05-22-gated-deltanet-2-linear-attention-decoupled-erase-write.md) — replaces the KV cache entirely with linear recurrent state.
-- [WorldKV (2026-05-22)](2026-05-22-worldkv-world-memory-retrieval-compression.md) — training-free KV chunk retrieval and compression for autoregressive video.
-- [SemiAnalysis GPU cluster goodput (2026-04-21)](../hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md) — disaggregated-serving infrastructure context.
+- [RTPurbo / Full Attention Strikes Back (2026-05-22)](2026-05-22-rtpurbo-full-attention-sparse-transfer.md). orthogonal sparse-attention attack on the same long-context bottleneck.
+- [Gated DeltaNet-2 (2026-05-22)](2026-05-22-gated-deltanet-2-linear-attention-decoupled-erase-write.md). replaces the KV cache entirely with linear recurrent state.
+- [WorldKV (2026-05-22)](2026-05-22-worldkv-world-memory-retrieval-compression.md). training-free KV chunk retrieval and compression for autoregressive video.
+- [SemiAnalysis GPU cluster goodput (2026-04-21)](../hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md). disaggregated-serving infrastructure context.
 
 ## Source
 

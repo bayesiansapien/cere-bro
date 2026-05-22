@@ -18,9 +18,9 @@ The more of these factors, the higher the bar for justification.
 
 Their critique of nonproliferation as the AI policy frame: there's no physical bottleneck. Adversaries (especially nation-states) match frontier capabilities within months. Open-weight models close the gap further. So nonproliferation buys "at most a few months," not years. To stretch beyond that requires escalating restrictions: licensing regimes, restrictions on open-weight model releases, restrictions on researcher movement across borders. This is what they call a "slippery slope."
 
-Their alternative — resilience — is grounded in the cybersecurity precedent. Automated vulnerability detection (fuzzers, symbolic execution) has been superhuman for years. Defenders had access to the same tools, so the offense-defense balance held. The lesson: invest in defensive capability everywhere it's needed, including schools, hospitals, power grids, and small businesses, rather than chokepointing the supplier.
+Their alternative, resilience, is grounded in the cybersecurity precedent. Automated vulnerability detection (fuzzers, symbolic execution) has been superhuman for years. Defenders had access to the same tools, so the offense-defense balance held. The lesson: invest in defensive capability everywhere it's needed, including schools, hospitals, power grids, and small businesses, rather than chokepointing the supplier.
 
-The bad news: resilience requires polycentric governance — many actors coordinating. The US federal government is not great at this. So extraordinary unilateral action looks tempting precisely because it's executive-order-tractable in a way that resilience investment is not. Kapoor and Narayanan worry that this asymmetry of effort will push policy toward the brittle option.
+The bad news: resilience requires polycentric governance, many actors coordinating. The US federal government is not great at this. So extraordinary unilateral action looks tempting precisely because it's executive-order-tractable in a way that resilience investment is not. Kapoor and Narayanan worry that this asymmetry of effort will push policy toward the brittle option.
 
 ## Why this matters
 

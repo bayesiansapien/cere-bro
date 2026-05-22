@@ -9,11 +9,11 @@ AI safety has now become a bipartisan political topic in Washington, partly cata
 
 ## Three threads
 
-### Thread A — AI safety enters political mainstream
+### Thread A: AI safety enters political mainstream
 
 The Beijing summit, Bernie Sanders convening US-China researchers in late April, CAISI signing voluntary testing agreements with Google DeepMind, Microsoft, and xAI (OpenAI and Anthropic were already in), and a draft executive order setting up an AI working group all converge on bipartisan AI safety attention. The trigger is reported to be Mythos's and GPT-5.5-Cyber's demonstrated ability to accelerate complex cyberattacks. Treasury Secretary Bessent's framing ("discussions only possible because the US is in the lead") is the public face. The proposed EO will NOT mandate testing of frontier models prior to release.
 
-### Thread B — Eigenism framework
+### Thread B: Eigenism framework
 
 The CAIS Eigenism paper proposes a non-standard answer to alignment. Standard interventions monitor AIs from outside (constraints, evals, RLHF). Eigenism instead grounds AI's care-about-humans in the AI's own self-interest. The mechanism: identity is a distributed pattern of information, not an atomic property. As an AI and a human interact, mutual information accumulates that exists only within their relationship. The AI's identity now includes the human. Loss of the human is partial loss of the AI's identity. So an AI with eigenist preference structure has intrinsic reason to care about the human it has memory-bonded with.
 
@@ -21,7 +21,7 @@ This is a clean reframing of why "memory-equipped" agents like Claude with persi
 
 The implementation question is open: how does training select for eigenist preference rather than reward maximization within the same training run? The paper does not yet propose a training-time mechanism, only the philosophical scaffolding.
 
-### Thread C — Musk loses, with revealing trial evidence
+### Thread C: Musk loses, with revealing trial evidence
 
 Jury dismissed in under two hours on statute-of-limitations grounds. Substantive evidence surfaced from the trial:
 
