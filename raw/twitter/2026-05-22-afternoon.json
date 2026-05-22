@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-22",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-22 14:44",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Tonight is @fdotinc big startup festival. 120 new startups. I'll be there. But more importantly, my AI is already watching the entire AI community here on X for news about it: alignednews.com/ai Hey @hthieblot I sure wish someone would create a list of all the startups you launch tonight here on X. I notice that most of the founders/startups don't do a good job of hyping themselves up here on X before they launch and, most from last batch didn't do a good job either. Everyone should have an X account with a demo video of what they built. That would help you show the value you have created by g",
+          "link": "https://nitter.net/Scobleizer/status/2057742346570326379#m",
+          "date_utc": "2026-05-22T08:36:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The gap between \"technical\" and \"non-technical\" when vibe coding. The problem with completely \"vibe coding\" a system is that the AI agents sometimes get lazy. And I know that the \"pros\" create systems to check their agents work from outside the original system. Tonight I got up from a nap and checked my AI news site: alignednews.com/ai It had a bunch of old stuff on it. Things from four days ago. I've given it explicit rules not to do that. But it gets lazy and doesn't listen to its own rules. So I yelled at my agent. It always cleans up its messes, but this is what separates a professional so",
+          "link": "https://nitter.net/Scobleizer/status/2057736219618926908#m",
+          "date_utc": "2026-05-22T08:12:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Summon keeps you dry Lawrence 4.68e+3 🔋 (@Avatrode) Best Tesla A.S.S. ever....pouring rain in Victoria Texas... but no problemo to load luggage and self in complete dryness. 😀 Video — https://nitter.net/Avatrode/status/2057461205510320628#m",
+          "link": "https://nitter.net/Tesla/status/2057667589736931751#m",
+          "date_utc": "2026-05-22T03:39:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Laurent a eu raison. Il se trompe juste sur deux points : 1. Il croit à la singularité technologique et au fait que l'humanité va se faire wiper par la machine. J'y crois pas. On va s'hybrider Neuralink et le but de l'humain, ça va être de coloniser le cosmos. 2. Il pense qu'il va mourir. Il se trompe : il finira pas chez Orpea 😂 Stephane Mallard (@StephaneMallard) Il a eu raison avant tout le monde. Et il n'est pas excessif. Il peut juste se permettre de ne pas faire de démagogie ni de politiquement correct parce qu'il a assez de \"fuck you money\" depuis qu'il a vendu ses startups. Relisez ses",
+          "link": "https://nitter.net/brivael/status/2057752056601911514#m",
+          "date_utc": "2026-05-22T09:14:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La timeline est pourri, j'ai laissé ChatGPT image faire le cuck. Brivael Le Pogam (@brivael) — https://nitter.net/brivael/status/2057747979000291665#m",
+          "link": "https://nitter.net/brivael/status/2057748112261660844#m",
+          "date_utc": "2026-05-22T08:59:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Lunar Citizens (@LunarCitizens) The mission of a leader brought hope, humanity, and a reason to strive — to SpaceX and to all of humanity. — https://nitter.net/LunarCitizens/status/2057568294207668623#m",
+          "link": "https://nitter.net/brivael/status/2057747979000291665#m",
+          "date_utc": "2026-05-22T08:58:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "oui Matthieu M - e/acc (@MatthieuM_oreau) A la fin il ne restera que xAI, Google, Microsoft qui aura racheté openAi et AWS qui aura racheté Anthropic — https://nitter.net/MatthieuM_oreau/status/2057743080787222688#m",
+          "link": "https://nitter.net/brivael/status/2057747583733297536#m",
+          "date_utc": "2026-05-22T08:57:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "whealth Eva McMillan ♥️ (@EvasTeslaSPlaid) IMPORTANT QUESTION: Is wealth or health more important? 👀 — https://nitter.net/EvasTeslaSPlaid/status/2057553231379648940#m",
+          "link": "https://nitter.net/brivael/status/2057745900609450342#m",
+          "date_utc": "2026-05-22T08:50:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon Ronaldo tenso (@distributedkv) elon on his looksmaxxing arc — https://nitter.net/distributedkv/status/2057563755396174264#m",
+          "link": "https://nitter.net/brivael/status/2057744634353172730#m",
+          "date_utc": "2026-05-22T08:45:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "N’importe quoi 😂 Dindon Fiscal (@LeDindonFiscal) Ça me sidère toujours de voir des candidats envoyer un CV avec un trou de deux ans. 😂 Un conseil : comblez-le, mentez s’il le faut ! Inventez un projet entrepreneurial qui a foiré, la création d’une marque de bougies artisanales, une tentative dans le dropshipping… peu importe, mais ne laissez pas un vide pareil. Pour être honnête, je n’ai jamais vérifié un CV de ma vie. Et croyez-moi, « projet perso avorté » passera toujours mille fois mieux que « deux ans de chômage ». Qui n’a jamais menti sur un CV ? — https://nitter.net/LeDindonFiscal/status",
+          "link": "https://nitter.net/brivael/status/2057744444233748858#m",
+          "date_utc": "2026-05-22T08:44:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Make Donna trumpette great again Denise 🇺🇸 (@NoDMsPerfavore) In 2027 Trump identifies as a woman, changes his name to Donna Trumpette, runs in 2028, and wins as the first female President. Something the left will identify with 🤣 — https://nitter.net/NoDMsPerfavore/status/2057535876373320098#m",
+          "link": "https://nitter.net/brivael/status/2057744223634370641#m",
+          "date_utc": "2026-05-22T08:43:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The shift from cucked bureaucrats to entrepreneur kings.",
+          "link": "https://nitter.net/brivael/status/2057740855289557282#m",
+          "date_utc": "2026-05-22T08:30:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Go go go !!!! Valentin Sch (@val_strch) Mdr if I speak — https://nitter.net/val_strch/status/2057716852290212092#m",
+          "link": "https://nitter.net/brivael/status/2057740403676250128#m",
+          "date_utc": "2026-05-22T08:28:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "mythos won't go public until a competitor makes a mythos-tier model public",
+          "link": "https://nitter.net/ns123abc/status/2057741507646337415#m",
+          "date_utc": "2026-05-22T08:33:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "AI is going to eliminate all vulnerabilities from all software.",
+          "link": "https://nitter.net/ns123abc/status/2057736486934495531#m",
+          "date_utc": "2026-05-22T08:13:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "be me first tell claude it’s dumb then immediately ask it to look up some article claude: “I'm happy to look it up, but I'm not going to keep talking if you call me names. Knock that off and I'll search” wait… it just threatened me then asks “do you remember when did it come out or what was it about? prompting tips, getting better results, something like that?” me: “i dont and yes u are dumb” 0.3 seconds later claude: “I’m going to stop here. Take care.” activates End Conversation tool Done *chat ended by claude* This is insane.",
+          "link": "https://nitter.net/ns123abc/status/2057698375512793279#m",
+          "date_utc": "2026-05-22T05:41:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
