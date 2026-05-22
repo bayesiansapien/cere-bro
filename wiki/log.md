@@ -566,3 +566,24 @@ Append-only timeline of ingests and lint passes.
 - Daily digest: 2026-05-22 (KV-cache convergence framing, 8 Deep Dives led by the four KV papers, 4 Connecting the Dots paragraphs, Industry Pulse 9 bullets, Worth Watching 9 falsifiable predictions, em-dashes scrubbed per CLAUDE.md format rule)
 - Social-stream: 2026-05-22-morning (NVIDIA tokenomics cluster, memory-supply tightening, Anthropic compute claim, low-signal political off-topic feed flagged for filter calibration)
 - HF farmer ran ~20 minutes before returning today (longer than usual); waited and integrated post-arrival rather than skipping
+
+## [2026-05-21] backfill ingest | 43 HuggingFace papers, 18 RSS entries, 6 Gmail starred, 52 Twitter morning tweets + 21 articles, Kurate cs.AI/cs.LG/rising, 8 Reddit subs | full-day backfill
+
+- Backfill driver: the 2026-05-21 cron failed because the morning script's fallback Claude call used a placeholder prompt (now fixed); manually backfilling the day end-to-end.
+- HF farmer: had to write a fresh JSON-extraction scraper because the regex-based HTML scrape returned 0 results (page DOM has changed). New scraper uses the `data-target="DailyPapers" data-props="..."` JSON island and successfully extracted 43 papers for the date.
+- Source coverage:
+  - HF: 43 papers, 9 substantive (OScaR, OCTOPUS, Mix-Quant, TIDE, RELEX, Unlearnability, CPO, HRM-Text, DynMuon) plus several Tier 2 (SpecBench, SaaSBench, Stitched Value Model, VPD, Mem-pi, MOCHA, MINTEval, OGPSA, PlanningBench, GRAM, LBW-Guard)
+  - RSS: 18 entries (TLDR AI, The Decoder x8, Simon Willison x4, Marcus on AI, Pragmatic Engineer, AISN, AI Snake Oil, Agentic AI)
+  - Gmail starred: 6 emails (Towards Data Science, others)
+  - Twitter morning slot: 52 tweets, 21 articles, 2 curated retweets (X-article URLs, cookies absent so content not captured)
+  - Kurate: cs.AI + cs.LG weekly (no Tier-1 cross-source confirmations today since the Kurate top is health-foundation-model heavy); rising-authors list dominated by anchoring papers from two health-foundation-model groups
+  - Reddit: 8 subs (LocalLLaMA on Qwen 3.7 wait, Cohere Command A+, RTX 5080 MTP benchmarks; r/MLScaling carries gwern on Anthropic+Colossus 2 plus the OpenAI Erdos disproof scaling-law angle; r/CUDA empty; r/MachineLearning carries one R/P post)
+- alphaxiv enrichment: ran for OScaR, OCTOPUS, Mix-Quant, RELEX, Unlearnability (5 successful); TIDE, DynMuon, HRM-Text returned empty (niche papers without overviews yet). Used the overviews to ground deep-dive prose.
+- Wiki pages: 11 new summaries this session
+  - **inference-efficiency**: OScaR, OCTOPUS, Mix-Quant, TIDE (4 pages)
+  - **llms-foundation-models**: RELEX, Unlearnability, CPO, HRM-Text, DynMuon (5 pages)
+  - **agentic-systems**: SpecBench, SaaSBench (2 pages)
+  - (Two more 21-May summaries already existed from 2026-05-22 ingest: OpenAI Erdos proof, Cohere Command A+)
+- Daily digest: 2026-05-21 (KV-cache quantization Pareto front + RLVR foundations framing, 9 Deep Dives, 6 Connecting the Dots paragraphs, Industry Pulse 10 bullets, Worth Watching 8 falsifiable predictions, Also today 20+ items, em-dashes scrubbed per CLAUDE.md format rule, no Tier vocabulary in reader-facing text)
+- Social-stream: 2026-05-21-morning (SpaceX S-1 filing + Anthropic $15B/year deal + Colossus 2 lease, Cursor 3.5 Automations workspace, Scoble personal-agent S-1 analysis, HUMAIN-McKinsey/Accenture Saudi partnerships, Tesla S/X retirement; X-cookies flagged for refresh)
+- Sanity checks: zero em-dashes, zero Tier/Thread vocabulary leakage, all internal markdown links resolve in new files
