@@ -1,0 +1,268 @@
+{
+  "date": "2026-05-23",
+  "slot": "evening",
+  "scraped_ist": "2026-05-23 20:20",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The guy eating popcorn is so entertaining!",
+          "link": "https://nitter.net/Scobleizer/status/2058126844654997751#m",
+          "date_utc": "2026-05-23T10:04:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yes nuke mars will be super EPIC DogeDesigner (@cb_doge) NUKE MARS 🔥 — https://nitter.net/cb_doge/status/2058217034312253446#m",
+          "link": "https://nitter.net/brivael/status/2058217506330771781#m",
+          "date_utc": "2026-05-23T16:04:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Maîtres Lab, sur un valuation perchés, Tenaient en leur bec un GPT. Maîtres Hyperscaler, par le compute alléchés, Leur tinrent à peu près ce langage feutré : « Hé bonjour, Messieurs du Frontier. Que vos modèles sont fiers ! Sans mentir, si votre token rare Se rapporte à votre rente bizarre, Vous êtes les Rockefeller du siècle qui vient. Tenez, voici dix milliards — mais on garde la main Sur le GPU, le datacenter, le réseau, le rack. Vous, vous faites le cerveau. Nous, on tient le sac. » À ces mots, les Labs ne se sentent pas de joie — Ils se sentent souverains, ce qui est pire, ma foi. Et pour",
+          "link": "https://nitter.net/brivael/status/2058216739100389702#m",
+          "date_utc": "2026-05-23T16:01:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Maître AI Lab, sur un blog post perché, Tenait en son bec un benchmark. Maître LP, par l'AGI alléché, Lui tint à peu près ce remark : « Hé bonjour, Monsieur du Frontier. Que vos scaling laws sont fières ! Sans mentir, si votre roadmap Se rapporte à votre alpha leak, Vous êtes le Manhattan Project du siècle qui vient. Les coders ? Morts dans douze mois. Les radiologues ? Demain matin. Les avocats ? La semaine prochaine. Signez ici, je vous mets dix milliards à la peine. » À ces mots, le Lab ne se sent pas de joie — Il se sent prophète, ce qui est pire, ma foi. Et pour montrer sa belle mission, ",
+          "link": "https://nitter.net/brivael/status/2058214863734808750#m",
+          "date_utc": "2026-05-23T15:53:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yep building space ship will be artisanal at some point Bojan Tunguz (@tunguz) The future of humanity is artisanal. — https://nitter.net/tunguz/status/2058211454231232806#m",
+          "link": "https://nitter.net/brivael/status/2058214145451859975#m",
+          "date_utc": "2026-05-23T15:51:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Maître Founder, sur un pitch deck perché, Tenait en son repo un MVP. Maître VC, par le burn alléché, Lui tint à peu près ce DM signé : « Hey bro, Monsieur du Founder. Quel traction ! quel signal de tueur ! Sans mentir, si ton ARR Se rapporte à ton GitHub star, T'es le Zuckerberg des hackers de ces bois. » À ces mots, le Founder ne se sent pas de joie ; Et pour montrer son beau runway, Il ouvre un large deck, leak son cap table au VC. Le Renard s'en saisit, term sheet à la main : « Mon bon Monsieur, apprenez ce matin Que tout investor qui te love-bombe en seed Vit aux dépens du founder qui le l",
+          "link": "https://nitter.net/brivael/status/2058213927167631791#m",
+          "date_utc": "2026-05-23T15:50:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "oui on est un pays communiste 8dg (@anotherjackX) la france est si pauvre alors 😂 — https://nitter.net/anotherjackX/status/2058079470175523316#m",
+          "link": "https://nitter.net/brivael/status/2058207515590934589#m",
+          "date_utc": "2026-05-23T15:24:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On se trompe de combat. L'Europe n'a pas besoin d'une Section 301 à elle. Elle a besoin d'arrêter de penser sa souveraineté contre les États-Unis et de commencer à la penser avec eux. La vraie réponse au défi industriel et technologique, c'est un espace économique occidental intégré — capitaux, talents, normes, défense — fondé sur ce qui nous distingue réellement du reste du monde : liberté d'expression, liberté économique, État de droit. L'UE en compétition frontale avec les US, c'est une impasse mathématique : plus petit marché, plus de friction réglementaire, moins de capital, moins d'énerg",
+          "link": "https://nitter.net/brivael/status/2058205932157345874#m",
+          "date_utc": "2026-05-23T15:18:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://l.bfmtv.com/s8oM",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Yugong Yishan 💹🧲 (@yishanyugong) 😘🤪 — https://nitter.net/yishanyugong/status/2058205177287463214#m",
+          "link": "https://nitter.net/brivael/status/2058205362327552085#m",
+          "date_utc": "2026-05-23T15:16:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Best humans will be multi-trillionaire. This is the new game. World GPD x10 in next 5/10y. Driven by AI x Robitics x Space exploration. And we will cure cancer, aging. So bullish. Le Point (@LePoint) Comment Elon Musk est en train d’inventer l’ère du trillionnaire avec SpaceX l.lepoint.fr/nuz — https://nitter.net/LePoint/status/2058161249297342679#m",
+          "link": "https://nitter.net/brivael/status/2058205195582992699#m",
+          "date_utc": "2026-05-23T15:15:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://l.lepoint.fr/nuz",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣🤣🤣🤣 Jenny from the BlockChain (@stelladvm) — https://nitter.net/stelladvm/status/2058201678265143383#m",
+          "link": "https://nitter.net/brivael/status/2058202664417063249#m",
+          "date_utc": "2026-05-23T15:05:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "10T / max 2,3y Les Echos (@LesEchos) Elon Musk, trillion dollar baby trib.al/morm9rD — https://nitter.net/LesEchos/status/2058078235888378236#m",
+          "link": "https://nitter.net/brivael/status/2058202073728970876#m",
+          "date_utc": "2026-05-23T15:03:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://trib.al/morm9rD",
+              "content": "Elon Musk, trillion dollar baby - Les Echos Voir la bourse sur Investir Recherche En continu Le journal Mes articles Mes secteurs Machiavel Newsletters Podcasts Infographies Théma Le Cercle Thème Automatique Se connecter S’abonner À la une Idées Économie Politique Entreprises Finance - Marchés Bourse Monde Tech-Médias Start-up Régions Patrimoine Travailler mieux Week-end Aéronautique - Défense Automobile Tourisme - Transport Aéronautique - Défense Conso - Distribution Mode - Luxe Énergie - Environnement Pharmacie - Santé Services - Conseil Immobilier - BTP Industrie lourde Publicité Il fait l’actu Elon Musk, trillion dollar baby Premium Contenu réservé aux abonnés L&#x27;arrivée prochaine de SpaceX au Nasdaq, la plus grosse introduction en Bourse de l&#x27;histoire, devrait propulser la fo"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hardcore Victor Ferry Business & News PhD (@mrvicfer) La photo tinder vs le jour du rdv — https://nitter.net/mrvicfer/status/2058200261189886158#m",
+          "link": "https://nitter.net/brivael/status/2058201951972557263#m",
+          "date_utc": "2026-05-23T15:02:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣🤣🤣 Jenny from the BlockChain (@stelladvm) — https://nitter.net/stelladvm/status/2058200575964299385#m",
+          "link": "https://nitter.net/brivael/status/2058200668205142291#m",
+          "date_utc": "2026-05-23T14:57:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "oui afuera le code du travail Aurea (@AureaLibe) Il faudrait supprimer le CDI et 99 % du Code du travail. Le CDI coûte trop cher aux employeurs et emprisonne les salariés. Il n’est pas adapté à un marché du travail mobile. Un marché du travail plus dynamique ferait baisser le chômage, et tout le monde serait plus heureux. — https://nitter.net/AureaLibe/status/2058198732944908607#m",
+          "link": "https://nitter.net/brivael/status/2058200593106112896#m",
+          "date_utc": "2026-05-23T14:57:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣🤣🤣🤣🤣🤣 Blunt🚬 (@BluntCap) @BurnieSendersX , please look into this. His surplus shall be seized. People like him or @elonmusk deliver value and work. This is not acceptable without them being taxed. — https://nitter.net/BluntCap/status/2058199114198761719#m",
+          "link": "https://nitter.net/brivael/status/2058200526819336395#m",
+          "date_utc": "2026-05-23T14:56:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Au moins Macron était un bon acteur 😂 — https://nitter.net/brivael/status/2058102248786346003#m",
+          "link": "https://nitter.net/brivael/status/2058194233517801512#m",
+          "date_utc": "2026-05-23T14:31:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yep Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) The Case for Goodness Goodness is necessary for people to be able to form relationships that produce children, who will want to have children themselves… Without it everything collapses – here is why: Human life unfolds within two possible social equilibria: In a high-trust equilibrium, people act with integrity because they expect others to do the same. In a low-trust equilibrium, people act defensively and transactionally because they expect to be exploited. These are not just abstract models – they determine whether deep human bonds are possibl",
+          "link": "https://nitter.net/brivael/status/2058192880863260722#m",
+          "date_utc": "2026-05-23T14:26:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Three companies own over 90% of the RAM production in the entire planet Samsung, Hynix and Micron. Even if CXMT enters the global markets, they are less than 1% of the global production. Every single study out there indicates that RAM will increase in prices. The demand greatly outflows the supply. Why do you people think that Anthropic is paying SpaceX a BILLION a month? Because compute is king Video",
+          "link": "https://nitter.net/ns123abc/status/2058180763560899001#m",
+          "date_utc": "2026-05-23T13:38:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Had to make a surprise visit to Meet-a-Claw🦞 in Taipei, where developers are getting hands-on with autonomous agents. Consider #NVIDIAGTC week officially started. ✅ Video",
+          "link": "https://nitter.net/nvidia/status/2058137772674727948#m",
+          "date_utc": "2026-05-23T10:47:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
