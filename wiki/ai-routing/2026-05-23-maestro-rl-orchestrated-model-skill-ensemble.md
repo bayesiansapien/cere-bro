@@ -19,7 +19,7 @@ Three load-bearing claims:
 
 2. **A 4B router beats a frontier monolithic model.** With access to the right expert pool, a small router outperforms GPT-5 and Gemini-2.5-Pro on multimodal benchmarks. This is the strongest evidence to date that routing-with-experts is competitive with scale-up.
 
-3. **The policy generalizes to unseen experts.** Adding out-of-domain experts to the registry without retraining yields 59.5% accuracy on four held-out benchmarks. This means Maestro is not memorizing which expert solves which problem — it is learning a meta-policy that recognizes when expert authority is needed.
+3. **The policy generalizes to unseen experts.** Adding out-of-domain experts to the registry without retraining yields 59.5% accuracy on four held-out benchmarks. This means Maestro is not memorizing which expert solves which problem: it is learning a meta-policy that recognizes when expert authority is needed.
 
 ## Architecture sketch
 
@@ -59,7 +59,7 @@ The "registry expansion without retraining" claim is the most interesting result
 
 The closest open problem this paper opens is whether the meta-policy for routing transfers across **task families**, not just across new experts within the same family. If a Maestro trained on math + chart reasoning can route effectively to a chemistry expert at test time, that is the foundation of an open-ended routing system. If it cannot, the policy is closer to a per-family dispatcher than a general orchestrator.
 
-A second open angle: the policy is trained with outcome-only RL on final tasks. The hierarchy of skills (two-tier) is hand-designed. Whether the hierarchy itself can be learned — that is, whether the policy can discover its own skill abstractions — is the natural follow-up.
+A second open angle: the policy is trained with outcome-only RL on final tasks. The hierarchy of skills (two-tier) is hand-designed. Whether the hierarchy itself can be learned: that is, whether the policy can discover its own skill abstractions: is the natural follow-up.
 
 ## Raw source
 

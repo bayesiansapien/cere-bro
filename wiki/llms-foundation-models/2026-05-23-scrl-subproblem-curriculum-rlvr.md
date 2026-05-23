@@ -21,7 +21,7 @@ The three attack the same problem at three different granularities: SCRL at the 
 
 A natural composition: use SCRL to break the problem into subproblems, use uPRM to verify step-level correctness within each subproblem, use DelTA to reshape the token-level updates from the resulting per-step rewards. If anyone runs that composition and gets additive gains, that is the first end-to-end finely-granular RLVR pipeline.
 
-It also extends the [LongAct (04-18) finding that long-context training signal is concentrated in the first 5% of tokens](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md) — both papers find that uniform reward distribution across a long sequence is wasteful, with most of the useful signal living in a small fraction of positions. SCRL's subproblem boundaries are an explicit way of identifying those positions.
+It also extends the [LongAct (04-18) finding that long-context training signal is concentrated in the first 5% of tokens](../inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md): both papers find that uniform reward distribution across a long sequence is wasteful, with most of the useful signal living in a small fraction of positions. SCRL's subproblem boundaries are an explicit way of identifying those positions.
 
 ## Gaps
 
