@@ -9,7 +9,7 @@ Process Reward Models (PRMs) provide fine-grained step-level supervision but req
 
 ## Why this matters
 
-The entire RLVR / PRM pipeline has been bottlenecked by annotation cost. OpenAI's PRM800K (the step-level math reasoning dataset behind o1-style training) cost millions to collect. uPRM proposes that you don't need it — the LLM's own next-token distribution contains enough signal to localize the first erroneous step, if you score across a batch of trajectories jointly rather than per-trajectory.
+The entire RLVR / PRM pipeline has been bottlenecked by annotation cost. OpenAI's PRM800K (the step-level math reasoning dataset behind o1-style training) cost millions to collect. uPRM proposes that you don't need it: the LLM's own next-token distribution contains enough signal to localize the first erroneous step, if you score across a batch of trajectories jointly rather than per-trajectory.
 
 The "outperforms supervised PRM as a reward signal" claim is the surprise. Even when ground-truth labels are available, training an unsupervised reward model performs better in practice. This suggests the supervised PRM is overfitting to the annotation distribution and not generalizing as well as the unsupervised version that has to rely on the model's intrinsic uncertainty signal.
 
@@ -17,7 +17,7 @@ The "outperforms supervised PRM as a reward signal" claim is the surprise. Even 
 
 This is the second paper this week to argue that LLM uncertainty signals beat explicit supervised judging. The first was [DelTA (today's paper, 2605.21467)](2026-05-23-delta-discriminative-token-credit-rlvr.md), which uses token-gradient geometry (an implicit per-token signal) to reshape RLVR updates. Both papers reframe the credit-assignment problem as recovery of signal that is already latent in the model, rather than acquisition of signal from external annotation.
 
-A pattern is forming around RLVR's silent failure modes. [Kurate cs.LG #11 (LLMs Gaming Verifiers, the paper showing RLVR leads to reward hacking when the verifier is gameable)](../) is the third paper. The three together suggest the next wave of RLVR research is moving away from "scale the reward model" toward "extract better signal from the model itself" — model-based PRM, gradient-based credit, intrinsic uncertainty.
+A pattern is forming around RLVR's silent failure modes. [Kurate cs.LG #11 (LLMs Gaming Verifiers, the paper showing RLVR leads to reward hacking when the verifier is gameable)](../) is the third paper. The three together suggest the next wave of RLVR research is moving away from "scale the reward model" toward "extract better signal from the model itself": model-based PRM, gradient-based credit, intrinsic uncertainty.
 
 ## Gaps
 

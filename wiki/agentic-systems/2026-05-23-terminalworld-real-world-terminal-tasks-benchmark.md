@@ -15,10 +15,10 @@ The 62.5% ceiling on the Verified subset is the load-bearing claim. Frontier mod
 
 ## Connections to prior wiki state
 
-- [SaaSBench (2026-05-21)](2026-05-21-saasbench-enterprise-saas-coding-agents.md) — same pattern: real enterprise workflows reverse-engineered into agent tests.
-- [SpecBench (2026-05-21)](2026-05-21-specbench-reward-hacking-coding-agents.md) — testing for reward hacking and gaming.
-- [OpenComputer (2026-05-20)](2026-05-20-opencomputer-verifiable-software-worlds.md) — verifiable software environments.
-- [EnvFactory (2026-05-20)](2026-05-20-envfactory-tool-use-agents-executable-environments.md) — executable env synthesis.
+- [SaaSBench (2026-05-21)](2026-05-21-saasbench-enterprise-saas-coding-agents.md): same pattern: real enterprise workflows reverse-engineered into agent tests.
+- [SpecBench (2026-05-21)](2026-05-21-specbench-reward-hacking-coding-agents.md): testing for reward hacking and gaming.
+- [OpenComputer (2026-05-20)](2026-05-20-opencomputer-verifiable-software-worlds.md): verifiable software environments.
+- [EnvFactory (2026-05-20)](2026-05-20-envfactory-tool-use-agents-executable-environments.md): executable env synthesis.
 
 Five papers in three weeks ship a real-world-derived agent benchmark. The community has converged that expert-curated test sets miss too much.
 

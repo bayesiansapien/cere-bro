@@ -29,8 +29,8 @@ Two design pieces:
 
 - +4.1 average points over GRPO on seven math benchmarks (Qwen3-4B-Base).
 - +1.9 average points on Qwen3-14B-Base (gain shrinks at larger scale, consistent with the gradient-dead-zone hypothesis).
-- AIME24, AIME25, IMO-Bench: +3.7 pass@1, +4.6 pass@64 on Qwen3-4B-Base — pass@64 gain suggests better exploration, not just better single-shot accuracy.
-- No external rubrics, no reward model — only the reference reasoning chain.
+- AIME24, AIME25, IMO-Bench: +3.7 pass@1, +4.6 pass@64 on Qwen3-4B-Base: pass@64 gain suggests better exploration, not just better single-shot accuracy.
+- No external rubrics, no reward model: only the reference reasoning chain.
 
 ## Gaps
 

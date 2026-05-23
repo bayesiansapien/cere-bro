@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-LLMs have moved from producing standalone code to powering agents — systems that plan over many steps, call external tools, keep track of changing state, and recover from their own errors during long-running tasks. Inside these systems, code has become the working material for almost everything: agents write small programs to reason through math, drive a browser, query a database, test their own outputs, and share intermediate work with other agents through files in a repository. Existing surveys treat code as the final answer a model produces. The authors argue that code is now the harness: the persistent, executable, version-controlled substrate that makes long-horizon agents possible.
+LLMs have moved from producing standalone code to powering agents: systems that plan over many steps, call external tools, keep track of changing state, and recover from their own errors during long-running tasks. Inside these systems, code has become the working material for almost everything: agents write small programs to reason through math, drive a browser, query a database, test their own outputs, and share intermediate work with other agents through files in a repository. Existing surveys treat code as the final answer a model produces. The authors argue that code is now the harness: the persistent, executable, version-controlled substrate that makes long-horizon agents possible.
 
 ## Why this matters
 

@@ -56,7 +56,7 @@ If the Composer 2.5 economics hold for one quarter without quality degradation:
 
 ## Related wiki pages
 
-- [Maestro (2026-05-23)](../ai-routing/2026-05-23-maestro-rl-orchestrated-model-skill-ensemble.md) — RL-trained orchestrator over frozen experts.
+- [Maestro (2026-05-23)](../ai-routing/2026-05-23-maestro-rl-orchestrated-model-skill-ensemble.md): RL-trained orchestrator over frozen experts.
 - [Anthropic profitability / SpaceX deal (2026-05-21)](./2026-05-21-anthropic-profitability-spacex-deal-ipo.md).
 - [Cohere Command A+ Apache 2.0 release (2026-05-21)](./2026-05-21-cohere-command-a-plus-open-source.md).
 - [Resilience vs nonproliferation (2026-05-21)](../responsible-ai/2026-05-21-ai-snake-oil-resilience-vs-nonproliferation.md).

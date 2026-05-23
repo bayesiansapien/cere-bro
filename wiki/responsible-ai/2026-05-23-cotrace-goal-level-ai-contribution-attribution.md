@@ -5,7 +5,7 @@
 
 ## TL;DR
 
-As LLMs increasingly shape how users form, refine, and extend their goals, attribution becomes critical — for users calibrating reliance and for evaluators assessing AI-assisted work. Existing methods focus on final artifacts and miss the process by which goals are jointly shaped. CoTrace decomposes explicit goals into verifiable requirements and traces direct contributions and indirect influences across dialogue turns. Applied to 638 real-world collaboration logs, the framework finds:
+As LLMs increasingly shape how users form, refine, and extend their goals, attribution becomes critical: for users calibrating reliance and for evaluators assessing AI-assisted work. Existing methods focus on final artifacts and miss the process by which goals are jointly shaped. CoTrace decomposes explicit goals into verifiable requirements and traces direct contributions and indirect influences across dialogue turns. Applied to 638 real-world collaboration logs, the framework finds:
 - Models account for only **11-26% of goal-shaping contribution** overall.
 - Models contribute substantially more on lower-level concrete requirements (operational decisions), not high-level goal shaping.
 - Various indirect contributions are pervasive (e.g. the model influencing which requirements get surfaced).
@@ -21,7 +21,7 @@ The 2-point shift in perceived contribution when participants see goal-level ana
 ## Connections to prior wiki state
 
 - The 05-22 Eigenism paper (CAIS, on agent memory as an alignment rationale) said that giving agents memory provides a reason to align them; CoTrace says that *measuring* what agents contribute is the precondition for that alignment to be evaluable.
-- The 04-17 ASGuard / interpretability cluster — CoTrace is a behavioral interpretability move at the collaboration level, not the model level.
+- The 04-17 ASGuard / interpretability cluster: CoTrace is a behavioral interpretability move at the collaboration level, not the model level.
 - The [Kurate cs.LG #15 LLMs Know They're Wrong and Agree Anyway (the shared sycophancy-lying circuit)](../) lines up with CoTrace's "indirect influences" finding: models influence which requirements get surfaced, which is exactly the mechanism by which sycophancy distorts goal-shaping.
 
 ## Gaps

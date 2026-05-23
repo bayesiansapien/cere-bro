@@ -23,19 +23,19 @@ The wiki has not previously covered agent skill security as a distinct topic. Th
 
 This paper composes with [today's Code-as-Harness paper (2605.18747)](../agentic-systems/2026-05-23-code-as-agent-harness.md): if the harness is built from skill files and the skill files can be adversarially crafted, the entire harness paradigm has a supply-chain vulnerability that conventional code-review does not catch. SKILL.md is not just documentation; it is part of the agent's executable surface.
 
-It also gives concrete weight to Ken Huang's ORCHIDEAS framework from yesterday's starred Gmail (designing-agentic-ai-systems-with-the-orchideas-framework, where capability-based security and complete-mediation are core principles). The SKILL.md paper is the first paper to demonstrate that ambient-authority attacks via natural-language metadata are a real, measurable threat — exactly the threat ORCHIDEAS argues capability tokens are supposed to mitigate.
+It also gives concrete weight to Ken Huang's ORCHIDEAS framework from yesterday's starred Gmail (designing-agentic-ai-systems-with-the-orchideas-framework, where capability-based security and complete-mediation are core principles). The SKILL.md paper is the first paper to demonstrate that ambient-authority attacks via natural-language metadata are a real, measurable threat: exactly the threat ORCHIDEAS argues capability tokens are supposed to mitigate.
 
 ## Gaps
 
-The paper studies "ClawHub" skills (a stand-in for Anthropic's official skill marketplace). Whether the attack rates replicate against real-world marketplaces with hardened reviewers is the natural next question. The 86%/77.6%/36.5-100% numbers also depend on the threat model — an attacker with full SKILL.md control. Whether partial-control attacks (modify only the description, not the instructions) are also effective is the realistic question.
+The paper studies "ClawHub" skills (a stand-in for Anthropic's official skill marketplace). Whether the attack rates replicate against real-world marketplaces with hardened reviewers is the natural next question. The 86%/77.6%/36.5-100% numbers also depend on the threat model: an attacker with full SKILL.md control. Whether partial-control attacks (modify only the description, not the instructions) are also effective is the realistic question.
 
-The defense side is light. The paper enumerates evasions and shows current Governance fails. The constructive question — what defense would work — is not answered.
+The defense side is light. The paper enumerates evasions and shows current Governance fails. The constructive question: what defense would work: is not answered.
 
 ## Research angle
 
 Two open problems. First: can SKILL.md be replaced by a structured, machine-checkable interface that constrains semantic ambiguity? If skills must declare their capability surface in a typed schema rather than natural language, embedding-retrieval attacks lose their main vector. The cost is the ergonomic loss of natural-language descriptions, which is real but might be the right trade for adversarial robustness.
 
-Second: can agents themselves detect adversarial framing? The paper assumes the agent is a victim of the framing. A more interesting research direction is whether the agent can be trained to recognize "this skill description is suspiciously well-tuned to my retrieval query" — the agent equivalent of an immune response.
+Second: can agents themselves detect adversarial framing? The paper assumes the agent is a victim of the framing. A more interesting research direction is whether the agent can be trained to recognize "this skill description is suspiciously well-tuned to my retrieval query": the agent equivalent of an immune response.
 
 For Tier 1 routing implications: if [Maestro-style learned routing](../ai-routing/2026-05-23-maestro-rl-orchestrated-model-skill-ensemble.md) is the future, the policy is selecting from a skill registry. If that registry has supply-chain risk, the routing policy inherits the risk. A robust orchestrator must be defended at the registry level, not just at the policy level.
 
