@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-24",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-24 15:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "This paper shows that agent performance depends less on prompts alone and more on the harness around them. “Agent intelligence” is becoming partly a systems problem. The problem is that many AI agents look like 1 model, but their real behavior comes from surrounding code that controls planning, tools, memory, retries, checking, and stopping. A model may reason well in one step, but long tasks fail in messier places: state disappears, verification drifts, tools return partial evidence, and the agent forgets which intermediate artifact actually matters. Natural-Language Agent Harnesses try to ma",
+      "link": "https://nitter.net/rohanpaul_ai/status/2058177628188623212#m",
+      "date_utc": "2026-05-23T13:26:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "// Adapt the Interface, Not the Model // I am fascinated by the results across my cheap-model-plus-good-harness builds. This new paper also shows good signs of the code-as-agent-harness thesis. The idea is really simple. Do not touch the model. Instead, modify the runtime interface that wraps the frozen LLM. Then convert recurring interaction failures into reusable interventions on the harness side. The paper reports an average relative improvement 88.5% across 7 deterministic environments, 126 model-environment settings, and 18 backbones. A harness learned from one model trajectory generalize",
+      "link": "https://nitter.net/omarsar0/status/2058208914148389083#m",
+      "date_utc": "2026-05-23T15:30:19+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.22166",
+          "content": "Abstract: LLM agents are shaped not only by their language models, but also by the runtime harness that mediates observation, tool use, action execution, feedback interpretation, and trajectory control. While existing agent adaptation methods mainly update model parameters, many failures in deterministic, rule-governed domains stem from mismatches at the model--environment interface. We propose Life-Harness, a lifecycle-aware runtime harness that improves frozen LLM agents without changing model weights or evaluation environments. Life-Harness evolves from training trajectories by converting recurring interaction failures into reusable interventions across environment contracts, procedural skills, action realization, and trajectory regulation, and remains fixed during held-out evaluation. "
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Why seven million? That is what Uber has on the road at any time.",
+          "link": "https://nitter.net/Scobleizer/status/2058465414850752872#m",
+          "date_utc": "2026-05-24T08:29:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Every Sunday lately I join @wholemars ’ subscriber-only audio space. For the most enthusiastic Tesla fan. It is quite good. Having to be a subscriber keeps the quality very high. I am thinking of doing the same for my subscribers. Tomorrow I will lay out why @elonmusk would be smart to sell this for $20,000 each. Oh hell, why not now? “You are nuts,” my friend Jeff said after I laid this out on a long ride as my robot drove us to Walnut Creek and back for spicy chicken. But I laid out why I am not. Elon’s goal should be to get seven million on street as fast as possible. Selling them for less ",
+          "link": "https://nitter.net/Scobleizer/status/2058464130634514784#m",
+          "date_utc": "2026-05-24T08:24:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Hah @Shubham_remster caught me lying down on the job last night at @fdotinc ’s big startup shindig in San Francisco. His new bedroom furniture will sell well to rich nerds.",
+          "link": "https://nitter.net/Scobleizer/status/2058457887907934369#m",
+          "date_utc": "2026-05-24T07:59:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The era of unchecked fraud is OVER. 🇺🇸 Acting Secretary Keith Sonderling (@Sonderling47) . @ScottBradyPA is an excellent choice by @VP to serve as Executive Director of @WHFraudTF . With his leadership, we’ll continue uncovering fraud, returning the American people’s hard-earned money, and punishing fraudsters and schemers. THE ERA OF UNCHECKED FRAUD IS OVER. 🇺🇸 — https://nitter.net/Sonderling47/status/2058342210656211440#m",
+          "link": "https://nitter.net/WHFraudTF/status/2058345851055981011#m",
+          "date_utc": "2026-05-24T00:34:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Une ville propre Paris",
+          "link": "https://nitter.net/brivael/status/2058436785768677703#m",
+          "date_utc": "2026-05-24T06:35:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "To the mooonnnnn Video Surfer_on_X (@Surferonx777) — https://nitter.net/Surferonx777/status/2058425851390398722#m",
+          "link": "https://nitter.net/brivael/status/2058427864303726853#m",
+          "date_utc": "2026-05-24T06:00:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😅😅😅 Je vais devoir virer notre community manager. Elle était en période d’essai. Faute lourde. La sortie de route. Jessica, tu es viré. Argil (@argildotai) Why is everyone asking for the porn version? We want to make great movies. Not great boobies 🙃 — https://nitter.net/argildotai/status/2058419562710757708#m",
+          "link": "https://nitter.net/brivael/status/2058419922485604499#m",
+          "date_utc": "2026-05-24T05:28:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣 💩 and 💩 Rachid 🇵🇸 (@raslebol2026) Matière grise VS Matière fécale — https://nitter.net/raslebol2026/status/2057812732070531160#m",
+          "link": "https://nitter.net/brivael/status/2058417759403340155#m",
+          "date_utc": "2026-05-24T05:20:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Not a role. Brèves de presse (@Brevesdepresse) ⚡️🇫🇷FLASH - Accusé par 9 femmes de plusieurs faits de violences sexistes et sexuelles lors de multiples tournages entre 2018 et 2024, l'acteur Gérard #Darmon a renoncé à présider le jury du festival du 1er film à La Ciotat. (La Provence) — https://nitter.net/Brevesdepresse/status/2057894270250402097#m",
+          "link": "https://nitter.net/brivael/status/2058414568745955746#m",
+          "date_utc": "2026-05-24T05:07:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les riches seraient encore plus riches et les pauvres moins pauvres si on était pas dans un pays communiste 🤣 C’est pas les riches le pb. C’est la mauvaise gestion. Rachid 🇵🇸 (@raslebol2026) Vivement 2027 que la pourriture qui nous sert de président et la chose qui lui sert d'épouse dégagent. — https://nitter.net/raslebol2026/status/2058146516217340230#m",
+          "link": "https://nitter.net/brivael/status/2058414298263617642#m",
+          "date_utc": "2026-05-24T05:06:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
