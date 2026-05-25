@@ -25,7 +25,7 @@ DeepSeek-V4 is the first production-scale model to interleave more than two atte
 
 - Whether HCA's learned 128-to-1 compressor preserves rare information (named entities far back, single-occurrence code identifiers) is the failure mode worth probing.
 - The CSA indexer attention runs over a learned low-dimensional projection. If the projection is fixed across layers, it cannot adapt to layer-specific selection criteria. If it is learned per-layer, the parameter count expands. The paper's choice is not yet clear from the summary.
-- mHC widens the residual stream — by how much, and is the widening factor constant across depth or scheduled? DAR (the diffusion routing paper from today, [2026-05-25-dar-diffusion-adaptive-routing.md](../ai-routing/2026-05-25-dar-diffusion-adaptive-routing.md)) finds that timestep-adaptive aggregation matters; whether mHC needs a depth-adaptive widening factor is the analogous question for LLMs.
+- mHC widens the residual stream. By how much, and is the widening factor constant across depth or scheduled? DAR (the diffusion routing paper from today, [2026-05-25-dar-diffusion-adaptive-routing.md](../ai-routing/2026-05-25-dar-diffusion-adaptive-routing.md)) finds that timestep-adaptive aggregation matters; whether mHC needs a depth-adaptive widening factor is the analogous question for LLMs.
 
 ## Industrial implication
 
