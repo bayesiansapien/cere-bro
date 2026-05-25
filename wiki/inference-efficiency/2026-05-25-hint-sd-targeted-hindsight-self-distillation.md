@@ -25,4 +25,4 @@ The targeted-span framing also echoes [Extrapolation Cliff](2026-05-14-extrapola
 
 ## Research angle
 
-The hindsight selection mechanism is the obvious next surface to attack. The paper's current selector is heuristic; replacing it with a learned policy (or a verifier-trained model) would close the loop. A second open question: does the 2.26x training-step speedup compose with the [LongAct](../../inference-efficiency/2026-04-18-longact-saliency-profiling.md) finding that the first 5 percent of context carries most gradient signal? If both selections compose, the effective training cost drops by an order of magnitude on long-horizon agents.
+The hindsight selection mechanism is the obvious next surface to attack. The paper's current selector is heuristic; replacing it with a learned policy (or a verifier-trained model) would close the loop. A second open question: does the 2.26x training-step speedup compose with the [LongAct](2026-04-18-longact-saliency-sparse-rl.md) finding that the first 5 percent of context carries most gradient signal? If both selections compose, the effective training cost drops by an order of magnitude on long-horizon agents.
