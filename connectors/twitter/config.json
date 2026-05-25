@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-21T13:03:13.384348+00:00",
+  "following_last_checked": "2026-05-24T16:30:03.177447+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -61,7 +61,11 @@
     "ChrisWillx",
     "StatlerLasVegas",
     "SemiAnalysis_",
-    "skdh"
+    "skdh",
+    "jon",
+    "DuncanPenn",
+    "BretWJ",
+    "10DowningStreet"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -421,6 +425,51 @@
     {
       "handle": "AustinJustice",
       "name": "Austin Justice",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "name": "Spencer Pratt",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "name": "Max Levchin",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "name": "Kilo",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "agents"
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "name": "Federico Cassano",
+      "org": "Cursor",
+      "timezone": "PT",
+      "focus": [
+        "training"
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "name": "Nicki Minaj",
       "org": "Independent",
       "timezone": "PT",
       "focus": [
