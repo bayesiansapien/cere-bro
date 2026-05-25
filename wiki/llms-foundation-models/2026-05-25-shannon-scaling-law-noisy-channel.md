@@ -7,6 +7,26 @@
 
 A unified scaling law that models LLM training as information transmission over a noisy channel, grounded in the Shannon-Hartley theorem. Parameters map to channel bandwidth, training tokens to signal power. The framework predicts a fundamental Shannon capacity for an LLM above which scaling without preserving SNR amplifies noise and degrades performance. Validated on Pythia and OLMo2 under perturbation (Gaussian noise, quantization, supervised fine-tuning on math/QA/code). Extrapolates from <=6.9B Pythia with <=180B tokens to predict 12B model at 307B tokens with pooled R^2 = 0.847, where monotonic baselines collapse.
 
+```
+LLM training as Shannon-Hartley transmission:
+
+  parameters N       ───► channel bandwidth B
+  training tokens D  ───► signal power S
+  perturb/quant/SFT  ───► noise power N0
+
+           C = B · log2(1 + S/N0)     ◄── Shannon capacity ceiling
+
+  loss(N, D):
+                  monotonic-improvement zone │  degradation zone
+   loss   ╲                                  │             ╱
+           ╲___                              │         ___╱      ◄── U-shape
+               ╲___________________ capacity ___╱
+                                   │    C(N)   │
+                                   ▼           ▼
+                       past capacity, more data injects noise > signal
+                       (catastrophic overtraining ≡ quantization degradation)
+```
+
 ## Key claims
 
 - Classical monotonic power-law scaling fits well within a narrow range but cannot explain catastrophic overtraining or quantization-induced degradation. Both phenomena look like sudden performance drops as compute or data grows past a threshold.
