@@ -443,8 +443,42 @@ Good: *"Standard distillation trains on every token the teacher generates. TIP f
 **2. Link everything directly.**
 Every Deep Dive must include the direct URL to the paper (arxiv) or post in the **Links** line — not just the wiki summary. The reader should be one click from the source without ever leaving the digest.
 
-**3. Show the architecture, don't just describe it.**
-For every Deep Dive, ask: would a diagram make this clearer? If yes, either embed a figure downloaded from the source to `raw/assets/`, or draw a text-based HLD using box-and-arrow notation. Architecture papers, routing systems, and training pipelines especially benefit from this. A 6-line text diagram communicates more than two paragraphs of prose.
+**3. Show the architecture. Visuals beat prose for system explanations. This is mandatory, not optional.**
+
+Every Deep Dive about a paper that has architecture, a routing flow, a training pipeline, a cache layout, or any multi-component system MUST include a diagram. The diagram comes BEFORE the prose explanation, not after. A reader who only looks at the diagram should understand the mechanism at a high level.
+
+Two acceptable diagram sources, in priority order:
+
+(a) **Embed the paper's actual figure.** If the source paper or blog has an architecture/system diagram, download it to `raw/assets/YYYY-MM-DD-<slug>-fig1.png` (or fig2, etc.) and embed it: `![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)`. For arxiv papers, the figures are usually accessible from the abstract page or the full PDF. Pull the most informative one (typically Figure 1 — the overview / system diagram).
+
+(b) **Draw a text-based HLD when no figure is available, or the paper's figure is too dense.** Use box-and-arrow notation with `┌┐└┘─│` and arrows `►◄↑↓→←`. Keep it under 10 lines. Label every box and every arrow. Examples:
+
+```
+┌─────────────┐    query       ┌──────────────┐
+│  Router     │ ─────────────► │  Model Pool  │
+│  (cheap LM) │ ◄───────────── │  A / B / C   │
+└─────────────┘    confidence  └──────────────┘
+```
+
+```
+KV cache layout:
+  Layer  1-4  : shared across all heads  (compressed)
+  Layer  5-12 : per-head static          (memorize)
+  Layer 13-32 : per-head dynamic         (rolling window)
+```
+
+```
+Three-paper convergence on routing-as-policy:
+  Conductor (RL orchestrator) ─┐
+  CaRE (task-axis router)      ├─► routing IS the policy
+  MISA (head-axis router)      ─┘
+```
+
+The diagram is the first thing the reader sees in the Deep Dive body. Then the 6-section prose (What is it about? / What problem...) explains the diagram.
+
+Apply the SAME rule to wiki summary pages. Every summary of a paper with a system / architecture / mechanism gets a diagram at the top of the page, right after the TL;DR paragraph. Pull from the paper's figure, or draw text-based when no figure exists. A summary page with only prose has failed its purpose for any paper where the mechanism matters.
+
+If you genuinely cannot find a figure AND the system is too simple to need a text diagram, skip — but the default should be "include a diagram." The bar for skipping is high: a paper about a benchmark with no architecture (e.g. a new eval dataset) doesn't need a diagram; almost everything else does.
 
 **4. Calibrate depth to the Reader Profile tier.**
 Tier 1 (routing, KV cache, compression, GPU): 4–6 paragraphs, deep on mechanism — not just "latency improved" but *how* (kernel fusion? smarter eviction? speculative decoding?). Always end with a **Research angle** note. Tier 2: 2–4 paragraphs, flag Tier 1 intersections. Tier 3: Quick Hit unless it touches routing or efficiency. Tier 4: one sentence or nothing.
