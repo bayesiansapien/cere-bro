@@ -7,6 +7,26 @@
 
 A systematic family-level study of 1.58-bit (ternary) quantization-aware training on the Huawei Ascend NPU platform. Models from 0.5B to 8B trained end-to-end in 1.58-bit, strictly aligned with their full-precision MiniCPM4 counterparts. Across 11 benchmarks covering commonsense, domain knowledge, and math/reasoning, the 1B/3B/8B variants retain 95.7-97.2 percent of full-precision performance, with 3B variant achieving parity on BBH and 3B/8B variants recovering nearly all of GSM8K. The 0.5B variant retains 90.1 percent. QAT integration adds only 4.5 percent throughput overhead (148 vs 155 TFLOP/s/NPU) and yields 8x weight memory reduction at inference.
 
+```
+End-to-end 1.58-bit training pipeline on Huawei Ascend:
+
+  full-precision ─► ┌───────────────────────────────┐ ─► ternary weights
+  forward / back    │ QAT: weights ∈ {-1, 0, +1}    │    (1.58 bits)
+                    │ scaling factors per channel   │
+                    │ straight-through estimator    │
+                    └───────────────┬───────────────┘
+                                    │
+              CANN + MindSpeed + Megatron-LM on Ascend NPU
+                                    │
+                                    ▼
+   Retention @ 11 benchmarks vs full-precision MiniCPM4:
+     0.5B : 90.1 pct   ◄── Shannon-capacity floor (math/reasoning gap)
+     1B   : 95.7 pct
+     3B   : 97.2 pct   parity on BBH
+     8B   : 97.0 pct   recovers GSM8K
+   Cost: 4.5 pct throughput overhead, 8x weight memory reduction
+```
+
 ## Key claims
 
 - First end-to-end 1.58-bit training pipeline natively outside the CUDA ecosystem. The pipeline is ported to CANN, MindSpeed, and Megatron-LM on Ascend hardware.
