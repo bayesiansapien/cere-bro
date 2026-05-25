@@ -7,6 +7,23 @@
 
 A utility-grounded evaluation framework that traces the full agent-skill lifecycle (experience generation, skill extraction, skill consumption) across 5 task domains. Two main findings: model-generated skills are useful on average but exhibit non-trivial negative transfer; and a model can be a strong extractor yet a weak consumer, or vice versa, with skill utility independent of model scale or baseline task strength. Translates the analysis into a concrete meta-skill that guides extraction toward features tied to actual utility, which consistently improves skill quality and reduces negative transfer.
 
+```
+The three-stage skill lifecycle (each stage is an independent design surface):
+
+  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+  │ 1. Experience    │───►│ 2. Skill         │───►│ 3. Skill         │
+  │    generation   │    │    extraction    │    │    consumption   │
+  │ (which traj?)   │    │ (which model?)   │    │ (which model?)   │
+  └──────────────────┘    └──────────────────┘    └──────────────────┘
+                                    │                       │
+                                    ▼                       ▼
+                          extractor strength ───────decouples──── consumer strength
+                          (scale does not predict either role)
+
+  meta-skill guides extraction ──► features tied to actual utility
+                              ──► reduces negative transfer
+```
+
 ## Key claims
 
 - The skill lifecycle has three stages: experience generation (what trajectories to run), skill extraction (how to distill a skill document), skill consumption (which agent runs the skill at inference). Each is independently variable.
