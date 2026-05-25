@@ -8,6 +8,30 @@
 
 SkillOpt is the first systematic, controllable text-space optimizer for agent skills. A separate optimizer model takes scored rollouts and emits bounded add/delete/replace edits on a single skill document; an edit is accepted only when it strictly improves held-out validation. A textual learning-rate budget, a rejected-edit buffer, and slow/meta epoch updates make the training loop reproducible. Zero inference-time overhead at deployment. Across 6 benchmarks, 7 target models, and 3 harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 (model, benchmark, harness) cells. On GPT-5.5 it lifts no-skill accuracy by +23.5 in direct chat, +24.8 inside Codex, +19.1 inside Claude Code. Skills transfer across model scales and execution environments.
 
+```
+SkillOpt training loop (weight-space discipline applied to a text artifact):
+
+  frozen agent ──► rollouts ──► scored by task reward
+                                    │
+                                    ▼
+                          ┌─────────────────────┐
+                          │  Optimizer model    │
+                          │  add / del / replace│
+                          └─────────┬───────────┘
+                                    ▼
+                          proposed best_skill.md edit
+                                    │
+                          ┌─────────▼────────────┐
+                          │  Validation gate     │ ── reject ──► rejected-edit buffer
+                          │  strict improvement? │
+                          └─────────┬────────────┘
+                                    ▼ accept
+                          best_skill.md (slow/meta epoch updates)
+                                    │
+                                    ▼
+                          deployment: zero inference-time overhead
+```
+
 ## Key claims
 
 - The frame is: the skill is the external state of a frozen agent, and that external state should be trained with the same discipline as weight-space optimization (learning rate, validation gate, structured updates, rejected-edit buffer).
