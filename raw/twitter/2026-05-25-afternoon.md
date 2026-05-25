@@ -1,0 +1,167 @@
+# Twitter/X Digest | 2026-05-25 | AFTERNOON
+> Scraped 2026-05-25 14:02 IST | Lookback: 24h | 17 tweets | 2 articles
+
+---
+
+## @bayesiansapien Retweets (Curated Signal)
+
+*No retweets found in the past 24h*
+
+## AI Account Feed
+
+### @Scobleizer (Microsoft)
+*1 AI-relevant tweets*
+
+**@Scobleizer** (@Scobleizer) · 2026-05-25 06:51 UTC
+
+> I'm growing quite fond of Clicky. @FarzaTV damn. I wonder when different AIs I'm running will start arguing with each other "hey, the cursor is mine." :-) Are you using it? Did you delete it? Why? And I'm not compensated by Farza. Farza 🇵🇰🇺🇸 (@FarzaTV) I built this thing called Clicky. It's an AI teacher that lives as a buddy next to your cursor. It can see your screen, talk to you, and even point at stuff, kinda like having a real teacher next to you. I've been using it the past few days to learn Davinci Resolve, 10/10. Video — https://nitter.net/FarzaTV/status/2041314633978659092#m
+
+[View tweet](https://nitter.net/Scobleizer/status/2058803044364722400#m)
+
+---
+
+### @brivael (Independent)
+*15 AI-relevant tweets*
+
+**@brivael** (@brivael) · 2026-05-25 08:21 UTC
+
+> His name is Elon. Don’t bet against him. SciTech Girl (@scitechgirl) 🚨: FORMER U.S. PRESIDENT OBAMA CONFIRMS ALIENS ARE REAL! — https://nitter.net/scitechgirl/status/2058769528100651072#m
+
+[View tweet](https://nitter.net/brivael/status/2058825701818564651#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 08:20 UTC
+
+> Co-sign too. Marc Andreessen 🇺🇸 (@pmarca) Co-sign. — https://nitter.net/pmarca/status/2058694413245964750#m
+
+[View tweet](https://nitter.net/brivael/status/2058825457328341000#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 08:18 UTC
+
+> And then multi galaxies species. TexasTornadoTwist (@TexastwistEF5) Multi Planet species is where we want to be - Elon Musk Video — https://nitter.net/TexastwistEF5/status/2058730774803988786#m
+
+[View tweet](https://nitter.net/brivael/status/2058825004612030829#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 08:13 UTC
+
+> yes Lenny Rachitsky (@lennysan) Automation is a lie. CLIs are over. The SaaSpocalypse is dumb. A year ago @danshipper came on the podcast to predict where AI was heading. He was remarkably right—including the call that everyone was sleeping on Claude Code. Dan has a unique lens into where things are going because his team at @every is possibly the most AI-pilled group of people in tech. I always learn a ton talking to Dan. So I brought him back for round two. We'll score these in exactly a year: 🔸 Every company will have one “super-agent” in Slack. 🔸 Codex and Claude Code will become the new o
+
+[View tweet](https://nitter.net/brivael/status/2058823819574317289#m)
+
+**Article:** https://piped.video/watch?v=4D3hDmGhFhA
+
+Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue.
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 07:20 UTC
+
+> 😂😂😂 Simon Roz (@SimonRoz) je suis un dieu de l’ia. cela ne souffre plus du moindre doute… — https://nitter.net/SimonRoz/status/2058805367165817230#m
+
+[View tweet](https://nitter.net/brivael/status/2058810414750724573#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 06:46 UTC
+
+> We need to accelerate! BIG TIME. Be e/acc
+
+[View tweet](https://nitter.net/brivael/status/2058801747666055543#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 06:09 UTC
+
+> En plus de ça à chaque 100m la ville sent l’urine. Conséquence direct du gauchisme. Brivael Le Pogam (@brivael) ??????? Video — https://nitter.net/brivael/status/2058789048999690687#m
+
+[View tweet](https://nitter.net/brivael/status/2058792568947695984#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 06:03 UTC
+
+> We need to build things like this again. Video
+
+[View tweet](https://nitter.net/brivael/status/2058790979444859040#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:55 UTC
+
+> ??????? Video
+
+[View tweet](https://nitter.net/brivael/status/2058789048999690687#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:28 UTC
+
+> Oui Economics 💸🇲🇦🇫🇷 (@REconomics) Comme quoi, le privé c’est ce qui marche le mieux, dans tous les domaines — https://nitter.net/REconomics/status/2058782235881242810#m
+
+[View tweet](https://nitter.net/brivael/status/2058782360250826780#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:28 UTC
+
+> Jules Prada (@PradaJules) SpaceX a perdu 37 milliard depuis le début de son lancement. Les aides de l'état Américain font survivre cette boite de merde. — https://nitter.net/PradaJules/status/2058681414325858664#m
+
+[View tweet](https://nitter.net/brivael/status/2058782324066488370#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:23 UTC
+
+> Preview d’un clip entièrement généré dans Argil. C’est pas “prompt to video”. Mais idea (all assets) + user interactions. Puis l’agent se charge de tout générer. On va rendre le “prompting” et les tools IA useless. Il ne restera que les UX de taste. Tous les aspects techniques seront abstraits. Argil va devenir le nouvel OS de la culture occidentale. Simon Roz (@SimonRoz) made this cute vid with @argildotai , in a few minutes music is "Mon Amour", by me soundcloud.com/simonroz/mon-… Video — https://nitter.net/SimonRoz/status/2058666483832488225#m
+
+[View tweet](https://nitter.net/brivael/status/2058780923600978290#m)
+
+**Article:** https://soundcloud.com/simonroz/mon-amour
+
+Stream Mon amour by Simon Roz | Listen online for free on SoundCloud SoundCloud JavaScript is disabled You need to enable JavaScript to use SoundCloud Show me how to enable it Mon amour by Simon Roz published on 2023-12-26T13:49:16Z Comment by Beb Pplfr La voix de Etienne Daho 2024-01-08T14:03:52Z Comment by Sh S it&#x27;s cool ð 2024-01-02T23:57:46Z Users who like Mon amour Users who reposted Mon amour Playlists containing Mon amour More tracks like Mon amour License: all-rights-reserved Your current browser isn't compatible with SoundCloud. Please download one of our supported browsers. Need help? Chrome | Firefox | Safari | Edge Sorry! Something went wrong Is your network connection unstable or browser outdated? I need help Popular searches
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:12 UTC
+
+> Don’t play with Kekius 😂 kekius Maximus gold era (@quebecois24) Kekius Maximus ⚔️🐸 @elonmusk soon 🚀🚀🚀 — https://nitter.net/quebecois24/status/2058705130812240315#m
+
+[View tweet](https://nitter.net/brivael/status/2058778168266215585#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:11 UTC
+
+> “Les bons artistes copient, les grands artistes volent !”
+
+[View tweet](https://nitter.net/brivael/status/2058778018105962825#m)
+
+---
+
+**@brivael** (@brivael) · 2026-05-25 05:10 UTC
+
+> Ne faites pas de choses pour faire de l’argent mais faite des choses pour faire des bons services ou des bons produits. Le reste suivra. ZaxtR (@AmX_ZaxTr) Great companies are built on great products. — Elon Musk — https://nitter.net/AmX_ZaxTr/status/2058651610167812502#m
+
+[View tweet](https://nitter.net/brivael/status/2058777732385849727#m)
+
+---
+
+### @spencerpratt (Independent)
+*1 AI-relevant tweets*
+
+**@spencerpratt** (@spencerpratt) · 2026-05-24 23:38 UTC
+
+> “Just needs a bed” - Raman and Bass Video
+
+[View tweet](https://nitter.net/spencerpratt/status/2058694237223526462#m)
+
+---
+
+
+---
+*Twitter farmer | 2026-05-25 AFTERNOON | 17 tweets | 2 articles*
