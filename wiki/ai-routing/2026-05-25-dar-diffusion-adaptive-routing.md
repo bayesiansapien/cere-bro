@@ -7,6 +7,21 @@
 
 Diffusion Transformers (DiTs) inherited the residual stream from the original Transformer without revisiting it. The authors diagnose three concrete pathologies in this inherited stack: monotonic forward magnitude inflation, sharp backward gradient decay, and pronounced block-wise redundancy. They propose DAR, a drop-in residual replacement that performs learnable, timestep-adaptive, non-incremental aggregation over the history of sublayer outputs. On ImageNet 256, DAR improves SiT-XL/2 by 2.11 FID (7.56 vs 9.67) and matches converged baseline quality with 8.75x fewer training iterations. Stacked on REPA it doubles early-stage training speed.
 
+```
+Standard DiT residual stream:                     DAR layer L, timestep t:
+
+  x_L = x_{L-1} + f_L(x_{L-1})                      ┌─────────────────────────────┐
+                                                    │ history: h_1, h_2, ..., h_{L-1}│
+   ┌──────┐   ┌──────┐         ┌──────┐             └──────────────┬──────────────┘
+   │ L 1  │──►│ L 2  │── ... ──►│ L N │                            ▼
+   └──────┘   └──────┘         └──────┘             ┌─────────────────────────────┐
+   forward magnitude inflates                       │ w(t) = softmax(MLP_t(...))  │ ◄── t
+   backward gradient decays                         └──────────────┬──────────────┘
+   adjacent blocks redundant                                       ▼
+                                                    x_L = Σ_i w_i(t) · h_i  (non-incremental)
+                                                    (timestep-adaptive, learned routing)
+```
+
 ## Why this matters
 
 DAR reframes cross-layer information flow as a routing problem. Instead of every layer reading whatever the residual stream happens to carry forward, DAR learns *which prior sublayer outputs to mix at this layer, at this denoising timestep*. That is routing in the AI-routing sense, not just "skip connections done better." The denoising timestep is the conditioning variable. Early denoising steps want coarse global structure; late steps want high-frequency detail; the same residual schedule for both is the wrong inductive bias. DAR makes the schedule learnable per timestep.
