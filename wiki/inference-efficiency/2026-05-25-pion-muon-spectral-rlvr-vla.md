@@ -8,6 +8,24 @@
 
 Muon, the matrix-aware optimizer that uses Newton-Schulz iterations to drive every singular value of the momentum matrix toward one, beats AdamW on LLM pretraining but collapses in two important regimes outside pretraining: vision-language-action (VLA) fine-tuning and reinforcement learning with verifiable rewards (RLVR). The cause is the uniform whitening itself. It amplifies noise in low-rank gradients and destroys per-head specialization from prior training. Pion replaces the uniform whitening with a high-pass two-stage Promotion+Suppression step (anchor dominant singular values at 1, drive noisy tail to 0) and adds a per-head mode. On LIBERO Object with VLA-Adapter, Pion reaches 100 percent success at 1500 steps where Muon plateaus at 97.0 percent and AdamW at 32.2 percent. On Qwen3-1.7B/4B RLVR with GRPO/GMPO, Muon collapses to zero accuracy while Pion outperforms AdamW.
 
+```
+Newton-Schulz applied to momentum singular values:
+
+  Muon (uniform whitening)             Pion (high-pass two-stage)
+
+   σ_i ─────► 1.0  for all i           top-k σ_i ──Promotion──► 1.0
+                                       tail σ_i ──Suppression─► 0.0
+   amplifies noisy tail                tunable filter strength
+   collapses on low-rank /
+   low-SNR gradients                   ┌──────────────────────────────┐
+                                       │ Per-head mode: reshape only, │
+                                       │ no extra cost, preserves     │
+                                       │ pretraining specialization   │
+                                       └──────────────────────────────┘
+
+  LIBERO Object @ 1500 steps:  Pion 100 pct │ Muon 97.0 pct │ AdamW 32.2 pct
+```
+
 ## Key claims
 
 - Muon's uniform spectral whitening, while a strength on full-rank pretraining gradients, becomes the failure mode when gradients are intrinsically low-rank (VLA action heads) or low-SNR (RLVR rollouts). Pushing all singular values to 1 amplifies the tail directions, which are pure noise in those regimes.
