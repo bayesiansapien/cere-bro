@@ -1,0 +1,575 @@
+{
+  "date": "2026-05-25",
+  "slot": "morning",
+  "scraped_ist": "2026-05-25 09:14",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "I love watching people love something so fully, that outside noise can neither give or take away its validation.",
+          "link": "https://nitter.net/NICKIMINAJ/status/2058709568931156049#m",
+          "date_utc": "2026-05-25T00:39:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "When you were told to wear your ear plugs but you thought 💭 “eh, how loud could it really be?” - only to end up running back into the building b/c it was too… “loud” 😬 Video",
+          "link": "https://nitter.net/NICKIMINAJ/status/2058704177673502775#m",
+          "date_utc": "2026-05-25T00:18:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "AI can play a piano. So why would we learn to play a piano? Everytime I've been around a human that can play a piano everyone has a better time. Maybe that's the lesson for AI. AI will do a lot of things we can do better. If not eventually everything. But the role of human beings? Be more interesting to hang out with. I suck at it lately. Been too depressed that AI is taking my job. :-) Hadi Partovi (@hadip) I have a big career announcement: I’m taking my experience teaching computer science to hundreds of millions and connecting it to my lifelong love of piano. Announcing Payam Music: the fir",
+          "link": "https://nitter.net/Scobleizer/status/2058740524992135621#m",
+          "date_utc": "2026-05-25T02:42:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://www.payammusic.com",
+              "content": "Award-Winning Piano School: Lessons In-Person and Online - Payam Music Announcing new schools across the country Learn more Locations Curriculum Awards News Our Story Sign up today Fall in love with piano Now enrolling students in private 1:1 lessons at in-person schools or online. Get started Announcing new schools across the country Excel with exceptional teachers Piano lessons get a bad rap for good reason. Limited song choices, intimidating sheet music, and slow progress lead students to quit. We’re on a mission to change that. Apply to teach at Payam Music Transforming lives through music Endorsed by composer ‍ Hans Zimmer 60 Minutes featured our revolutionary piano school and partnership with Hans Zimmer’s multiple Oscar Award-winning composer collective, Bleeding Fingers. Our school"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is the first company doing a demo at latest @hf0 demo day. Everyone in the audience is an investor. Except me. Video",
+          "link": "https://nitter.net/Scobleizer/status/2058723384352239719#m",
+          "date_utc": "2026-05-25T01:34:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It's time for entrepeneurs to send in applications. The startup factories are busy with demo days of current batches, but this will never end. So I asked my AI to give me a list and rate them, after visiting most of these, I find its findings to be right on. So many choices for entrepreneurs who are staring companies. This written by my AI agent from Levangie Labs, run by @blevlabs , who just went through @theresidency : +++++++++++++++++ If you are starting companies here is your choices: The big thesis: San Francisco has moved from “accelerators” to “containers for intensity.” YC is still th",
+          "link": "https://nitter.net/Scobleizer/status/2058720543780786413#m",
+          "date_utc": "2026-05-25T01:23:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://questd.ai/residencies/hf0-residency",
+              "content": "HF0 Residency | Founder Residencies Home / Residencies / HF0 HF0 Residency Open by HF0 An ultra-selective live-in founder residency in SF offering up to $1M in funding. Just 10 teams per cohort from thousands of applicants. Visit Program Funding Up to $1M Equity Terms 5% equity Duration 12 weeks Cohort Size 10 teams Cohort Cadence Multiple cohorts/year Application Cycle Rolling Location San Francisco (live-in) Live-In Yes Geographic Scope Global Last Verified 2/14/2026 AI Deep Tech Consumer Enterprise Summary HF0 is one of the world&#x27;s most selective founder residencies — just 10 teams are chosen per cohort from thousands of global applicants, with acceptance rates at or below 0.01%. The 12-week live-in program is based in San Francisco and combines intensive founder community with up "
+            },
+            {
+              "url": "https://sfstandard.com/2023/01/23/inside-sfs-most-competitive-hacker-house-where-workers-eat-sleep-and-breathe-tech/",
+              "content": "ADVERTISEMENT Skip to main content Open search bar and full menu The San Francisco Standard Latest News Politics Business Opinion Culture Food Drink Sports Games Podcasts Close menu Close menu Sign out Search query Search Latest News Politics Business Opinion Culture Food Drink Sports Games Newsletters Podcasts Social Links (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) Business Inside SF’s most competitive ‘hacker house,’ where workers will eat, sleep and breathe tech A live-in incubator program promises to launch the next generation of savvy founders and land them millions in funding. The Archbishop&#8217;s Mansion will host the live-in incubator program HF0 in February this year. | G"
+            },
+            {
+              "url": "https://www.everythingstartups.com/vc-funds/hf0-residency",
+              "content": "Everything Startup - New VC Funds - HF0 Residency Newsletter Partnerships New VC Funds Resources Startups Reads Venture Capital Guides Marketing Guides Products About Login Logout Contact Us Login Logout Contact Us HF0 Residency All Funds / HF0 Residency About HF0 is a venture capital firm and startup accelerator established in 2023, headquartered in San Francisco, California. It offers a 12-week residency program tailored for repeat and high-performing founders, providing up to $1 million in uncapped funding for a 5% equity stake. The program emphasizes a focused environment, allowing founders to concentrate solely on building their companies, and culminates in a Demo Day presented to top-tier investors. Investment Focus HF0 primarily invests in seed-stage startups across various sectors,"
+            },
+            {
+              "url": "https://f.inc/",
+              "content": "Founders, Inc. Founders, Inc. Programs About Campus Portfolio Founders Team Apply Founders, Inc. Off Season II applications are open â Off Season II applications are open â 42,000 sq ft for the wildly ambitious. Our Fort Mason campus is where future-defining companies take shape. We're the first check in founders solving hard problems in emerging domains. Apply Now What is Founders, Inc? What is Founders, Inc? This is the space I dreamed of having when I was 18 â just tinkering, exploring, and building things with friends, fueled by curiosity and passion. A place where we could experiment freely, supported by a community of people who deeply believed in us. That's exactly what we've built at Founders Inc. We're often the first believers in the bold ideas founders bring to the table. "
+            },
+            {
+              "url": "https://www.grokipedia.com/page/FoundersInc",
+              "content": ""
+            },
+            {
+              "url": "https://lu.ma/raspi",
+              "content": "AI Hardware Residency at Founders, Inc. · Luma Discover Events Sign In Featured in San Francisco Presented by Founders, Inc. Events Subscribe 42,000 sq ft. for the world&#x27;s most ambitious. These are the events happening on campus. Hosted By Safwaan Khan Kay Fateen Anam Hubert Thieblot Omar Waseem John Dagdelen Joher Khan shafaq ahmed 15 Went Shannon Wu, Zurich Hardware Meetup and 13 others Contact the Host Report Event Featured in San Francisco AI Hardware Residency at Founders, Inc. Founders, Inc. Events Founders, Inc. | San Francisco Lab San Francisco, United States Registration Past Event Welcome! To join the event, please register below. Request to Join You will be asked to verify token ownership with your wallet . About Event ​ This April, Founders, Inc. is opening up our Hardware"
+            },
+            {
+              "url": "https://www.livetheresidency.com/residencies",
+              "content": "Residencies main about us apply now homes inspire the residency our homes live and grow with the ambitious sf parc generalist san francisco sf parc is a home for creative technologists, people who build tech while embracing their artistic creativity. inspired by the iconic xerox parc and our neighbor (the lush presidio park), sf parc is the home for late night white boarding session and daytime hiking adventures. vibes are a beautiful mix of engineering, research, and art. apply next time learn more homebrew generalist new york homebrew is a home and experimental college for scientists, engineers, and technologists. residents here are lifelong learners who love exploring for its own sake. vibes are playful, yet focused. expect hobbiests and experts nerding out on the latest advancements in"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/nick-linck-417b0ba9what-happens-when-bootstrapped-founders-get-activity-7258162104120098817-y9LT",
+              "content": ""
+            },
+            {
+              "url": "https://medium.com/@jules.foa/one-day-at-the-residency-launching-a-startup-in-san-francisco-76f3e8977d80",
+              "content": ""
+            },
+            {
+              "url": "https://www.agihouse.org/",
+              "content": "AGI House JOIN US EVENTS VENTURE Advancing frontier AI from breakthrough to mass adoption. AGI House is a community, VC fund, and applied AI lab empowering the world’s top AI builders and researchers. STAY UPDATED We are on a mission to accelerate humanity&#x27;s transition to AGI. In 2023, Rocky Yu launched AGI House, a community dedicated to driving the next breakthroughs in AI research and adoption. By bringing together AI researchers and founders to reshape society with AI-native infrastructure and applications, we&#x27;re building an AGI-powered future, one token at a time. Founders and VCs are clamoring to get into this $68 million AI hacker house. Here&#x27;s how the AGI House... businessinsider.com We invest to spark AI innovation. Backed by Eric Schmidt, Marc Andreessen, Rich Mine"
+            },
+            {
+              "url": "https://agihouse.ai/origins.html",
+              "content": "Origins of AGI House | AGI House --> keyboard_arrow_up keyboard_arrow_down keyboard_arrow_left keyboard_arrow_right Join Us Origins of AGI House. AGI House. Timeline of AGI House Creation By Jeremy Nixon This project was created out of love, passion and awe. It was always about co-creative spirit. Over the years we've launched thousands of projects and been central to the creation of dozens of companies. Here's a timeline of the creation of the existing AGI Houses: Timeline: Jeremy Nixon and Andrej Karpathy Created NeoGenesis (02/01/22) Jeremy Takes on financial liability for NeoGenesis (Security Deposit) (02/02/22) Jeremy comes up with the idea for an AI House w/ friends (08/30/22) Jeremy, Andrej and Marco Created & ran the first Generative Image Hackathon (9/2/22) Jeremy, Andrej and Marc"
+            },
+            {
+              "url": "https://arize.com/resource/agi-house-lessons-from-hundreds-of-launched-ai-projects/",
+              "content": "AGI House: Lessons from Hundreds of Launched AI Projects - Arize AI { this.showMobileNavigation = false; this.secondaryMobileNavigation = null; }); this.$watch('showMobileNavigation', value => { document.body.classList.toggle('overflow-hidden', value); }); } }\" class=\"wrapper \"> Arize:Observe is June 4 | Register now Download logo as PNG Download logo as SVG { if (!$el.contains(document.activeElement)) isOpen = false }, 10)\" @mouseenter=\"isOpen = true\" @mouseleave=\"isOpen = false\"> Arize AX Arize AX AX - Generative Enterprise AI Engineering Platform AX - ML & CV Enterprise ML Observability Alyx AI Engineering Agent Arize Platform demo See how it works Watch video { if (!$el.contains(document.activeElement)) isOpen = false }, 10)\" @mouseenter=\"isOpen = true\" @mouseleave=\"isOpen = false\"> Ph"
+            },
+            {
+              "url": "https://www.ycombinator.com/",
+              "content": "Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface Safe Find a Co-Founder Startup Jobs Log in Apply YC turns builders into formidable founders [1] Airbnb Brian, Joe, and Nate did YC in W09. Airbnb went public in 2020 at an over $100B valuation. YC Now OpenAI Sam was part of YC&#x27;s inaugural batch in S05 and founded OpenAI as YC Research in 2015. Sam built OpenAI into a $500B company. YC Now Stripe The Collison brothers did YC twice—first in W07 and then in S09, when they started Stripe. Stripe is now the internet’s $107B payments backbone. YC Now Coinbase Fred and Br"
+            },
+            {
+              "url": "https://ceowire.co/guides/how-y-combinator-works-complete-guide-2026",
+              "content": "How Y Combinator Works in 2026: YC Application, Terms Alumni | Ceowire Skip to main content Got news to share? Join 1,260+ readers News CEO Portraits Artificial Intelligence Freelance Guides News CEO Portraits Artificial Intelligence Freelance Guides Join 1,260+ readers Home Guides How Y Combinator Works in 2026: YC Application, Terms Alumni Guides 3 min read How Y Combinator Works in 2026: YC Application, Terms Alumni Complete guide to how Y Combinator works in 2026 — YC acceptance rate, application process, $500K investment terms, Demo Day, and biggest YC unicorns. Wednesday, April 15, 2026 Complete guide to how Y Combinator works in 2026 In This Article 01 How Y Combinator Works in 2026: Batches, Timeline Acceptance Rate 02 The Top 10 Biggest Y Combinator Companies by Valuation in 2026 "
+            },
+            {
+              "url": "https://www.southparkcommons.com/",
+              "content": "South Park Commons Apply Residency Companies Writing Our Story Residency Companies Writing Events Team FAQ Jobs Menu Our Story Residency Companies Writing Events Team FAQ Jobs Residency Companies Writing Our Story Residency Companies Writing Events Team FAQ Jobs Menu Our Story Residency Companies Writing Events Team FAQ Jobs Apply South Park Commons helps you go from -1 to 0 SPC is a home for the most talented founders and technologists exploring what's next. Our members turn the chaos of possibility into the clarity of conviction. What is -1? How to start Exploring the frontier? SPC helps at every step. Exploring at the frontier? SPC helps at every step. The path from -1 to 0 isn't a straight line. Our members range from pre-idea to pre-launch, but all are committed to finding their globa"
+            },
+            {
+              "url": "https://www.southparkcommons.com/residency/",
+              "content": "Residency — South Park Commons Apply Residency Companies Writing Our Story Residency Companies Writing Events Team FAQ Jobs Menu Our Story Residency Companies Writing Events Team FAQ Jobs Residency Companies Writing Our Story Residency Companies Writing Events Team FAQ Jobs Menu Our Story Residency Companies Writing Events Team FAQ Jobs Apply Great ideas rarely emerge from isolation SPC is a community of technologists ideating and validating what to build next. Our members range from exited founders and highly-cited researchers to new graduates and first-time entrepreneurs. What unites us is ambition, ability, and a mutual commitment to helping each other navigate -1 to 0. Apply Our Members A Modern Day Xerox PARC We focus on highly technical builders in the -1 to 0. Over the last decade, "
+            },
+            {
+              "url": "https://blog.southparkcommons.com/p/spc-founder-fellowship-fall-2025",
+              "content": "SPC Founder Fellowship Fall 2025 - South Park Commons Subscribe Sign in SPC Founder Fellowship Fall 2025 $1M and bespoke support for founders seeking their global maximum. South Park Commons Jul 09, 2025 2 Share The most consequential companies usually start as illegible, even heretical ideas. They aren’t obvious or easy. They carry high technical risk, high market risk, and asymmetric reward. As AI accelerates execution speed, what you decide to work on is even more important. It’s easier than ever to get a bit of traction, sell investors or collaborators or employees on a vision you don’t yet believe, and find yourself after years of work stranded at a local maximum. The SPC Founder Fellowship is purpose-built for this problem. We help you set aside good ideas in pursuit of great ones. W"
+            },
+            {
+              "url": "https://neo.com/residency",
+              "content": "Apply to Neo Residency"
+            },
+            {
+              "url": "https://www.join-thebridge.com/",
+              "content": "The Bridge The fastest way to Silicon Valley. A residency in San Francisco for those who want to start massive companies. Apply Now Who is this for Start at stage 0. Build the foundations of a generational company. For non-US founders at the very beginning: pre-idea, pre-team, or just getting started. The Program Live with us in San Francisco. Build with peers . Raise from the best. We invest a $250k first check and help you close your first round (alumni have raised from Sequoia, Founders Fund, Benchmark, Index…) Built by Entrepreneurs First $16B+ in portfolio value Cleo (unicorn) • Aztec Network (a16z) • Gensyn (a16z) • PolyAI (Khosla) • Neptune Robotics (Sequoia) • Magdrive (Founders Fund) As part of EF, we're backed by Patrick & John Collison Stripe Demis Hassabis DeepMind Daniel Gross"
+            },
+            {
+              "url": "https://www.join-thebridge.com/faq",
+              "content": "FAQ - The Bridge FAQ Meet Us Careers Residency Apply Home Residency FAQ Meet Us Careers Apply The Program Eligibility Funding Logistics FAQ The Program What is The Bridge? The Bridge is a two-part program in San Francisco for exceptional non-US founders who are at the very beginning of their company's journey. Part 1: The Residency (8 weeks) — Everyone starts with an 8-week residency in San Francisco. You live and build together in our founder house, work on ideas or co-founder matching, talk to users, and make rapid progress. This phase is about finding the right team, market, and problem space. At the end of the residency, teams that are ready pitch to our Investment Committee. The best teams get a $250k check and stay in San Francisco for a further 3 months. Part 2: Company Building (3 "
+            },
+            {
+              "url": "https://www.joinef.com/posts/introducing-the-bridge/",
+              "content": "Introducing The Bridge | Entrepreneurs First [START] --> Apply Insights FAQs [MENU] --> About us Portfolio Careers Entrepreneurs First [START] --> Apply Insights FAQs [MENU] --> About us Portfolio Careers Updates Introducing The Bridge Posted 02 October 2025 By Alice Bentinck CEO, Entrepreneurs First A new US residency for Europeans who want to start massive companies We’re officially launching The Bridge , an eight-week residency designed to fast-track Europe’s most ambitious early-stage founders into the San Francisco Bay Area. Applications are now open for the inaugural cohort, which begins in April 2026. The Bridge offers Europe’s top entrepreneurial talent the fastest, most direct path to founding a company in the US from scratch. Selected participants will arrive at the earliest stag"
+            },
+            {
+              "url": "https://www.joinef.com/",
+              "content": "Found, don&#039;t follow | Entrepreneurs First [START] --> Apply Insights FAQs [MENU] --> About us Portfolio Careers Entrepreneurs First [START] --> Apply Insights FAQs [MENU] --> About us Portfolio Careers FOUND, DON'T FOLLOW We turn exceptional individuals into funded founders. We back you first, then give you a bridge to Silicon Valley. You might have an early idea, or be testing a cofounder. You might have nothing. What we’re most interested in is you and your potential. \\\\ Joining EF was a life-changing decision. Joe Root , founder of Permutive, backed by SoftBank We build unicorn cofounding teams from scratch. We help you find your optimal cofounder through our unique matching process. If you’re selected to join EF, you’ll: Gain access to a pool of exceptional cofounders screened for"
+            },
+            {
+              "url": "https://joinlightyear.com/",
+              "content": "The Lightyear Residency scroll to accelerate the most productive month of your life. the Lightyear Residency Incubated by HF0 , Lightyear is a one-month residency designed for founders to do the best work of their lives. The biggest enemy of exceptional output is not effort. It is the environment. The wrong context forces even the sharpest minds into mediocrity — managing distraction, splitting attention, optimizing for the wrong things. We engineered the right environment. A curated cohort of founders who have earned their seat at the table. A 30-day sprint so intense and so protected that ordinary life cannot reach you. 30 Days to breakthrough 1 Year of work completed ∞ Focus zero distractions SF Location San Francisco We optimize for what's possible when every constraint is removed. The"
+            },
+            {
+              "url": "https://luma.com/ly87xio5",
+              "content": "Lightyear Residency Demo Day · Luma Discover Events Sign In Hosted By Don Ho Bryan Myint ⚡ 139 Went Kristopher Floyd, Anthony More and 137 others Contact the Host Report Event Teknologi Lightyear Residency Demo Day Hosted by Don Ho Bryan Myint ⚡ Register to See Address San Francisco, United States Registration Past Event Welcome! To join the event, please register below. Request to Join You will be asked to verify token ownership with your wallet . About Event ​ Join us for the Lightyear Residency Demo Day in Pac Heights. ​ We moved the world&#x27;s most ambitious founders into a victorian mansion for a month and provided everything they needed to physically and mentally focus on building companies pushing humanity forward. ​ Meet the startups changing the world; there may even be some sur"
+            },
+            {
+              "url": "https://luma.com/bef5n27e",
+              "content": "Lightyear Residency Inner Circle Dinner #1 · Luma Discover Events Sign In Hosted By Bryan Myint ⚡ Don Ho Contact the Host Report Event Lightyear Residency Inner Circle Dinner #1 Hosted by Bryan Myint ⚡ Don Ho Register to See Address San Francisco, United States Registration Past Event Welcome! To join the event, please register below. Request to Join You will be asked to verify token ownership with your wallet . About Event ​ We got the mansion! Me and HF0 have 12 cracked founders living and breathing the 996 lifestyle for a month-long founder residency. ​ You have all helped shape this residency and helped me think about creating the perfect home for founders. We&#x27;d love to treat you to a night of good food and great company ❤️ ​ Schedule ​ ​ 6:00 PM: Light Refreshments and Apps ​ ​ 6"
+            },
+            {
+              "url": "https://www.kernellabs.ai/",
+              "content": "Kernel Labs — The TSMC of startups KERNELLABS.AI Menu SAN FRANCISCO --:-- Labs Community Grants There is tremendous value stuck in the latent space. We are building the businesses and tools to unlock it. The future of software is fabless Early-stage startups have always been bottlenecked by their ability to ship more product. Raise some money hire engineers ship something raise and hire more, etc. LLMs are changing the way 0 to 1 works. Founders would be happy to spend $100k in tokens a week to get a product to market quickly with a very small team. We are already seeing many startups with more $Ms in ARR than employees. Early stage VC will barbell to be either small rounds to fund coding agents inference or very large rounds to aggressively scale startups once the product hits initial PMF"
+            },
+            {
+              "url": "https://www.kernellabs.ai/community",
+              "content": "Kernel Labs — The TSMC of startups KERNELLABS.AI Menu SAN FRANCISCO --:-- Labs Community Grants Where builders meet in SF Apply for Membership Why we are building this Kernel is a community for top AI builders in San Francisco. We organize regular events for AI engineers, run a year-round Grants program for founders building the token factories of the future, and host the Latent Space podcast from here. It's lonely at the frontier. AI is evolving too quickly for everyone to keep up on their own; we want to create a community where everyone can learn from each other and meet their peers. Our Events Upcoming Events 5/7 MIT Pi Cafe No.2 6:30 PM - 8:30 PM 6/16 PILATES x ILLENIUM CLASS no.2 6:00 PM 6/19 Kernel Launch Party 5:00 PM - 9:30 PM 6/23 [technical] Write Learn #5 6:00 PM Past Events 5/"
+            },
+            {
+              "url": "https://www.kernellabs.ai/grants",
+              "content": "Kernel Labs — The TSMC of startups KERNELLABS.AI Menu SAN FRANCISCO --:-- Labs Community Grants Enabling the token factories of the future $e to start, up to $2e7 to keep scaling Apply Now about kernel grants Tokens are the new kWh. Kernel Grants funds companies building tools to power the token factories of the future. If you are making it easier / faster / cheaper to extract tokens from the latent space, we want to help. We do not have an application deadline, nor a batch format. Any day is a great day to start building. We invest $271,828 for 2.71828% alongside ~$1M of compute and cloud credits in 10 companies a year. We can follow on with up to $20M as you start hitting PMF. You also get access to the Kernel community space , a 24/7 coworking space in SF with everything you need to foc"
+            },
+            {
+              "url": "https://www.amongfounders.com/insights/people/katia-yakovleva",
+              "content": "Katia Yakovleva on AmongFounders.com Newest Directory About Get More Insights Katia Yakovleva Co-Founder and CEO at ContentRadar   What motivated you to become an entrepreneur? I should have done it much earlier. But I also had a time of my life working for Spotify, which I joined at series B as an employee no. 150 and leaving when it was a post-IPO streaming giant with 8K+ employees. I was not sure what my next dream job could be, I just knew it had to be at the intersection of content, tech and media, hence I started my own startup with my dear co-founder, another ex-Spotifier, Riccardo Buzzotta. What should leaders understand about their own role and responsibility? There are no overnight miracles, it&#x27;s very hard work: both physically and emotionally. Requires resilience, grit, s"
+            },
+            {
+              "url": "https://spotiangels.framer.ai/",
+              "content": "SpotiAngels - Angel investors - Spotify Alumni We're SpotiAngels We're SpotiAngels We're SpotiAngels We invest in early-stage start-ups We invest in early-stage start-ups We invest in early-stage start-ups The three of us, Katia Yakovleva , John Bonten and Axel Bard BringÃ©us , met in the early years at Spotify. We earned our wings in the tumultuous and formative years of chaotic hyper growth. Over the course of ten years, we literally poured our blood, sweat and tears into building what has become one of Europe's most successful tech companies ever.â The three of us, Katia Yakovleva , John Bonten and Axel Bard BringÃ©us , met in the early years at Spotify. We earned our wings in the tumultuous and formative years of chaotic hyper growth. Over the course of ten years, we literally poured"
+            },
+            {
+              "url": "https://questd.ai/residencies/focal-residency",
+              "content": "Focal Founder Residency | Founder Residencies Home / Residencies / Focal Focal Founder Residency Open by Focal VC A hyper-selective Miami residency with 1% acceptance rate, offering optional equity-free participation or up to $1M in pre-seed funding. Visit Program Funding $25K–$50K + up to $1M Equity Terms Uncapped SAFE with MFN (optional) Duration 3–6 months Cohort Size 10 startups Cohort Cadence Seasonal Application Cycle Seasonal Deadline Rolling acceptance Location Miami Live-In No Geographic Scope United States Last Verified 2/14/2026 AI Developer Tools Enterprise Summary Focal&#x27;s Founder Residency is a 3–6 month program in Miami&#x27;s Wynwood district, accepting just 10 startups per cohort (less than 1% acceptance rate). Uniquely, founders can choose to participate without givin"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "And OpenAI is paying hundreds of people in NYC to do the same, I hear (shared that the other day).",
+          "link": "https://nitter.net/Scobleizer/status/2058700382537449523#m",
+          "date_utc": "2026-05-25T00:03:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "People might not like it, but @babugi28 is one of about half a dozen entrepreneurs I've met who are finding ways to collect data from inside homes to feed the robotics industry. There are plenty of people who will show a camera how they wash dishes, clean the laundry, clean their homes, or do other tasks, like make dinner, if they are paid. Yeah, most hate that idea. But they won't when a @Figure_robot or @1x_tech or a @Tesla_Optimus comes into their homes and does stuff for them. And if they do hate the idea that a computer that can move, and manipulate the world, and has several cameras stud",
+          "link": "https://nitter.net/Scobleizer/status/2058699835671507158#m",
+          "date_utc": "2026-05-25T00:01:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Plus, your Tesla can do the driving w/ FSD Supervised while you take in the landscape",
+          "link": "https://nitter.net/Tesla/status/2058638533938864450#m",
+          "date_utc": "2026-05-24T19:57:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": ". @Grok can be your guide while exploring new spots Just say “Hey Grok” to ask about geological features, local history, or places to check out nearby",
+          "link": "https://nitter.net/Tesla/status/2058638532353434023#m",
+          "date_utc": "2026-05-24T19:57:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Not compatible with woke shit. America (@america) America was built to be a high-trust society. — https://nitter.net/america/status/2058743360295182717#m",
+          "link": "https://nitter.net/brivael/status/2058755177176334614#m",
+          "date_utc": "2026-05-25T03:40:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We need a trillion of Elon to move to others galaxies. MUSKOSOPHY (@muskosophy) “We need more Elon Musks.” – Joe Rogan — https://nitter.net/muskosophy/status/2058741098978107530#m",
+          "link": "https://nitter.net/brivael/status/2058745554352455836#m",
+          "date_utc": "2026-05-25T03:02:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 ໊ (@nuevayyol) Donald Trump is reportedly having an affair with Nicki Minaj. — https://nitter.net/nuevayyol/status/2058624369417466031#m",
+          "link": "https://nitter.net/brivael/status/2058742922913140736#m",
+          "date_utc": "2026-05-25T02:52:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Jawwwn (@jawwwn_) Palantir CEO Dr. Alex Karp on his PhD: “I went to Frankfurt and got a PhD in Neoclassical Social Philosophy, which is a fancy way of saying—a quick path to being unemployed.” Video — https://nitter.net/jawwwn_/status/2058712271862301070#m",
+          "link": "https://nitter.net/brivael/status/2058742800997335297#m",
+          "date_utc": "2026-05-25T02:51:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Aucune classe dans le sens marxiste du terme. Marx était vraiment complètement attardé. Le PNJ ultime qui a pondu un bouquin qui casse encore les couilles à l’humanité aujourd’hui. Tu as un facteur génétique sur le QI ~80% Mais le génie et l’anomalie statistique peut venir de partout. Le monde du VC a compris ça depuis belle lurette. Loi du pouvoir. Luciustitus (@Luciustitus1) classer les personnes dans des cases , n'est ce pas de l'analyse marxiste? — https://nitter.net/Luciustitus1/status/2058627600394731995#m",
+          "link": "https://nitter.net/brivael/status/2058741982801920142#m",
+          "date_utc": "2026-05-25T02:48:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les 90% consomment et sont heureux. Le 1% construit et ne dort pas. Le 9% commente, rage, et veut l'État pour punir le 1% au nom des 90% qui ne leur ont rien demandé. Le gauchisme contemporain c'est juste de la jalousie cosmique vendue comme de la justice sociale par des gens qui auraient voulu être Elon Musk mais à qui la simulation a refilé le patch \"thread X\". Brivael Le Pogam (@brivael) La Théorie des 9% : Pourquoi les PNJ sont gauchistes par design Le théorème fondamental de la masse Posons l'axiome de base, observable empiriquement sur tout système où il y a de la masse — YouTube, X, Wik",
+          "link": "https://nitter.net/brivael/status/2058740919546130808#m",
+          "date_utc": "2026-05-25T02:44:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Thibault Louis (@thefrenchmaker) Il y en a un paquet sortis des grandes écoles et dans l'académie. Persuadés que le monde leur doit quelque chose parce qu'ils se voient commes des penseurs alors que le monde s'en tape royalement. Et ça crée la pire génération de frustrés qui pense que le monde est mal fait — https://nitter.net/thefrenchmaker/status/2058655533008064922#m",
+          "link": "https://nitter.net/brivael/status/2058740386856595800#m",
+          "date_utc": "2026-05-25T02:42:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂￼😂😂 Reybaz (@Reybaz_) Vous êtes très dur…le PDG d’Ariane est un énarque, spécialiste en histoire… — https://nitter.net/Reybaz_/status/2058724961561297360#m",
+          "link": "https://nitter.net/brivael/status/2058725265526661288#m",
+          "date_utc": "2026-05-25T01:42:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Arielle Scarcella (@ArielleScarcell) One week til leftists love capitalism again 🏳️‍🌈 — https://nitter.net/ArielleScarcell/status/2058614452828643641#m",
+          "link": "https://nitter.net/brivael/status/2058724712356725037#m",
+          "date_utc": "2026-05-25T01:39:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Guillaume Meyer (@guillaumemeyer) Never bet against @elonmusk 's dreams! — https://nitter.net/guillaumemeyer/status/2058724119844470829#m",
+          "link": "https://nitter.net/brivael/status/2058724468613161077#m",
+          "date_utc": "2026-05-25T01:38:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🙃 Swan (@AndySwan) You're much more of a slave to the 1% that commit 50% of crimes than you are to the 1% that create 40% of the wealth. — https://nitter.net/AndySwan/status/2058591684078755862#m",
+          "link": "https://nitter.net/brivael/status/2058723787361669466#m",
+          "date_utc": "2026-05-25T01:36:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "wtf 😂 We need 1000B humans to colonize the cosmos. Not less chicken. Nicolas Hulscher, MPH (@NicHulscher) EMAIL TO EPSTEIN: “I’ve been thinking a lot about that question you asked Bill Gates… ‘HOW DO WE GET RID OF POOR PEOPLE AS A WHOLE?’ …and I have an ANSWER…” Bill Gates answered this in a TED Talk, stating his desire to reduce the population by 10-15% using vaccines. Video — https://nitter.net/NicHulscher/status/2058527694879428684#m",
+          "link": "https://nitter.net/brivael/status/2058723472981872754#m",
+          "date_utc": "2026-05-25T01:34:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Go woke go broke The Knowledge Archivist (@KnowledgeArchiv) \"Times are bad. Children no longer obey their parents and everyone is writing a book.\" — Cicero, 43 BCE — https://nitter.net/KnowledgeArchiv/status/2058602175538897064#m",
+          "link": "https://nitter.net/brivael/status/2058722790337851529#m",
+          "date_utc": "2026-05-25T01:32:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😍😍 Palmer Luckey (@PalmerLuckey) — https://nitter.net/PalmerLuckey/status/2058686143013761034#m",
+          "link": "https://nitter.net/brivael/status/2058720605076087248#m",
+          "date_utc": "2026-05-25T01:23:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Good philosophy Astro Greek (@astro_greek) Elon describes himself as a \"cultural Christian\" \"While I’m not a particularly religious person, I do believe that the teachings of Jesus are good and wise...\" Video — https://nitter.net/astro_greek/status/2058654273479537068#m",
+          "link": "https://nitter.net/brivael/status/2058719909819957463#m",
+          "date_utc": "2026-05-25T01:20:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’avais mal lu sorry Monascope7 🗞️ (@Monascope7) Après avoir signé la tribune anti-Bolloré : « Jean-Pascal Zadi s'est subitement souvenu que le groupe Canal+ avait financé ses films à hauteur de 80M€ et a passé un coup de fil d’excuse : \"J’avais mal lu le texte\" s’est-il défendu. » 🗞️ @leJDD — https://nitter.net/Monascope7/status/2058642211030389047#m",
+          "link": "https://nitter.net/brivael/status/2058719770476703933#m",
+          "date_utc": "2026-05-25T01:20:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Elonogy (@ElonogyX) Elon Musk: “I think all political and company leaders should post on 𝕏 themselves directly, as it bypasses the legacy media negativity filter. Your actual message will reach people, instead of some reporter’s often unfair hit piece.” — https://nitter.net/ElonogyX/status/2058663421952835793#m",
+          "link": "https://nitter.net/brivael/status/2058719469698945515#m",
+          "date_utc": "2026-05-25T01:19:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "some cool stuff soon 👀 Ronak Malde (@rronak_) I’ve left Google DeepMind. The last two years have been an incredible whirlwind. A couple years ago, I joined a small startup called Codeium. There, I got to ship Windsurf, train SWE-1 (a frontier agentic coding model), go to DeepMind in the $2.4B acquisition. Now, I decided to leave the acquisition money and DeepMind. I’m grateful to the mentors, teammates, and friends I worked with along the way. At Windsurf, thanks to @_mohansolo and Douglas Chen, I got to see what a fast moving startup that ships relentlessly and builds for the future looks lik",
+          "link": "https://nitter.net/ellev3n11/status/2058624276337721599#m",
+          "date_utc": "2026-05-24T19:00:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "So what Huawei is saying is that Moore’s Law is still going strong. It is merely evolving from SoC to SiP:",
+          "link": "https://nitter.net/magicsilicon/status/2058752558227960117#m",
+          "date_utc": "2026-05-25T03:30:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "LMFAOOO Elon cooked the “Ph.D at 19” clown 💀😭 Elon Musk (@elonmusk) Putting “Ph.D.” in your social media name is a sure sign of a pompous retard — https://nitter.net/elonmusk/status/2058698370189766822#m",
+          "link": "https://nitter.net/ns123abc/status/2058710841818583338#m",
+          "date_utc": "2026-05-25T00:44:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 Google DeepMind CEO Sir Demis Hassabis: “Today’s systems, are nowhere near [AGI]. Doesn’t matter how many Erdős problems you solve… I think it’s far, far from what a true invention or someone like a Ramanujan would have been able to do” it’s over for the Erdős hype Video",
+          "link": "https://nitter.net/ns123abc/status/2058705608564457733#m",
+          "date_utc": "2026-05-25T00:24:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Ilya Sutskever just posted this",
+          "link": "https://nitter.net/ns123abc/status/2058687603285586245#m",
+          "date_utc": "2026-05-24T23:12:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "I’m now in the LeCun/Marcus camp on LLMs real programming agents will need world models not some RLVR shit it’s over george hotz archive (@geohotarchive) The Eternal Sloptember geohot.github.io//blog/jekyl… — https://nitter.net/geohotarchive/status/2058599487480660232#m",
+          "link": "https://nitter.net/ns123abc/status/2058657897907679537#m",
+          "date_utc": "2026-05-24T21:14:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+              "content": "The Eternal Sloptember | the singularity is nearer the singularity is nearer About The Eternal Sloptember May 24, 2026 I’m calling it now, the adoption of AI agents into software development will be one of the most costly mistakes in the field’s history. Agents cannot program, and it’s taking longer and longer to realize that they can’t. They are a highly sophisticated statistical model designed to mimic the distribution of programming. The output is broken, but in a way that’s getting harder and harder to detect. Which is exactly what you’d expect from an increasingly accurate statistical model. At first, I rejected this. I bought into the Twitter explanation of status anxiety. I define some of my self worth by my programming abilities, so wouldn’t it make sense to get defensive around th"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Welcome to SpaceXAI Ronak Malde (@rronak_) I’ve left Google DeepMind. The last two years have been an incredible whirlwind. A couple years ago, I joined a small startup called Codeium. There, I got to ship Windsurf, train SWE-1 (a frontier agentic coding model), go to DeepMind in the $2.4B acquisition. Now, I decided to leave the acquisition money and DeepMind. I’m grateful to the mentors, teammates, and friends I worked with along the way. At Windsurf, thanks to @_mohansolo and Douglas Chen, I got to see what a fast moving startup that ships relentlessly and builds for the future looks like. ",
+          "link": "https://nitter.net/ns123abc/status/2058653740618354786#m",
+          "date_utc": "2026-05-24T20:57:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass and Nithya Raman enable this insanity by not only handing out drug needles and crack pipes on YOUR dime, but they also got busted dealing them DRUGS, too. That’s what all their “experience” brings to the city rksalti (@rksalti) I drove past MacArthur Park this morning. The south-facing side of the park continues to be a heartbreaking open-air drug market. At what point does a society step in and save people from themselves? — https://nitter.net/rksalti/status/2054392989485793454#m",
+          "link": "https://nitter.net/spencerpratt/status/2058571685071294663#m",
+          "date_utc": "2026-05-24T15:31:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "It's time to think bigger for LA. We don't have to accept the filth and the decline. We have the greatest slice of heaven on Earth with our city, and we deserve better. Vote for Pratt. Vote for LA. Vote TODAY. Let's clean this city together. Video",
+          "link": "https://nitter.net/spencerpratt/status/2058429769587544103#m",
+          "date_utc": "2026-05-24T06:07:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
