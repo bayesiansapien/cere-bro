@@ -19,7 +19,7 @@ RTPurbo on 2026-05-24 (the paper that found 16-dimensional retrieval subspace in
 
 ## Where this fits
 
-DeepSeek-V4 is the first production-scale model to interleave more than two attention regimes per layer. Prior hybrids (Mamba+attention, linear+full) typically pick a fixed ratio. DeepSeek-V4 picks three regimes and routes between them inside each block. Combined with the LLMs-as-noisy-channels Shannon scaling law paper from today ([2026-05-25-shannon-scaling-law-noisy-channels.md](../llms-foundation-models/2026-05-25-shannon-scaling-law-noisy-channels.md)), which models LLM training as transmission over a noisy channel where parameters are bandwidth and tokens are signal power, the picture becomes: scale up bandwidth (parameters) and signal power (tokens) while making the attention layer match the bandwidth profile of the actual signal. DeepSeek-V4 is a signal-shaped attention.
+DeepSeek-V4 is the first production-scale model to interleave more than two attention regimes per layer. Prior hybrids (Mamba+attention, linear+full) typically pick a fixed ratio. DeepSeek-V4 picks three regimes and routes between them inside each block. Combined with the LLMs-as-noisy-channels Shannon scaling law paper from today ([2026-05-25-shannon-scaling-law-noisy-channel.md](../llms-foundation-models/2026-05-25-shannon-scaling-law-noisy-channel.md)), which models LLM training as transmission over a noisy channel where parameters are bandwidth and tokens are signal power, the picture becomes: scale up bandwidth (parameters) and signal power (tokens) while making the attention layer match the bandwidth profile of the actual signal. DeepSeek-V4 is a signal-shaped attention.
 
 ## Open research angles
 
