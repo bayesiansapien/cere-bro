@@ -5,7 +5,7 @@
 
 ## TL;DR
 
-Diffusion Transformers (DiTs) inherited the residual stream from the original Transformer without revisiting it. The authors diagnose three concrete pathologies in this inherited stack — monotonic forward magnitude inflation, sharp backward gradient decay, pronounced block-wise redundancy — and propose DAR, a drop-in residual replacement that performs learnable, timestep-adaptive, non-incremental aggregation over the history of sublayer outputs. On ImageNet 256, DAR improves SiT-XL/2 by 2.11 FID (7.56 vs 9.67) and matches converged baseline quality with 8.75x fewer training iterations. Stacked on REPA it doubles early-stage training speed.
+Diffusion Transformers (DiTs) inherited the residual stream from the original Transformer without revisiting it. The authors diagnose three concrete pathologies in this inherited stack: monotonic forward magnitude inflation, sharp backward gradient decay, and pronounced block-wise redundancy. They propose DAR, a drop-in residual replacement that performs learnable, timestep-adaptive, non-incremental aggregation over the history of sublayer outputs. On ImageNet 256, DAR improves SiT-XL/2 by 2.11 FID (7.56 vs 9.67) and matches converged baseline quality with 8.75x fewer training iterations. Stacked on REPA it doubles early-stage training speed.
 
 ## Why this matters
 
