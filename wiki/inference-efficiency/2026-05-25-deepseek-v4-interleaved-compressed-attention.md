@@ -7,6 +7,25 @@
 
 DeepSeek-V4 replaces standard full attention with an interleaved system of three specialized attention mechanisms, supported by a widened residual stream. The three are Manifold-Constrained Hyper-Connections (mHC) that widen the residual stream into a higher-dimensional space and compress back down per layer; Heavily Compressed Attention (HCA) that crushes groups of 128 tokens into one entry via a learned token compressor and concatenates the global summary with a sliding window of recent tokens; and Compressed Sparse Attention (CSA) that compresses tokens in blocks of 4, then filters down to the most important entries via an indexer-attention component running over a lower-dimensional compressed space. The result is reported competitive performance versus top proprietary models with dramatic reduction in compute and memory.
 
+```
+Per-layer three-tier memory hierarchy (interleaved compressed attention):
+
+  tokens ──► ┌──────────────────────────────────────────────────────┐
+             │ HCA  : 128-to-1 learned compressor + recent window   │  global
+             │ CSA  : 4-to-1 block + indexer over low-dim projection│  selective
+             │ Recent window: uncompressed last K tokens             │  local
+             └──────────────────────────────────────────────────────┘
+                                  │
+                  ┌───────────────┴───────────────┐
+                  ▼                               ▼
+        ┌──── mHC: widen ───┐         ┌──── mHC: compress ───┐
+        │ residual D ─► kD  │ <layer> │ kD ─► residual D     │
+        └───────────────────┘         └──────────────────────┘
+
+  Widened residual stream restores layer-to-layer bandwidth that
+  pre-norm stacks erode via forward magnitude inflation.
+```
+
 ## Why this matters
 
 This is the most aggressive published attempt to make million-token context economically tractable. Standard attention is quadratic in the sequence; agentic workflows and test-time scaling have forced contexts past the point where that scales. DeepSeek-V4 says the question is no longer how to compress one cache but how to interleave different compression regimes across layers, so the network's attention behavior is itself a routed schedule. The mHC trick is independently interesting because it widens the residual stream temporarily and then compresses back, restoring the high-bandwidth path between layers that the original Transformer's residual stream provides but that pre-norm stacks (with their forward magnitude inflation) erode.
