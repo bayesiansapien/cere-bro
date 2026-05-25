@@ -8,6 +8,25 @@
 
 Visual Geometry Transformers (VGTs) like VGGT and pi3 do multi-view 3D reconstruction in a single forward pass, but their global attention scales quadratically in the number of input frames, which kills them above ~100 images. Good Token Hunting is a training-free two-stage sparsification: an inter-frame selector picks a diverse subset of frames, then an intra-frame selector drops more redundant tokens guided by attention entropy. The choice is layer-aware. The result is over 85 percent acceleration on 500-image scenes with maintained or improved performance.
 
+```
+500 input frames ─► Stage 1: inter-frame selector (diversity)
+                              │
+                              ▼
+                    kept frames (cover the scene)
+                              │
+                              ▼
+                    Stage 2: intra-frame selector, layer-aware
+
+       ┌──────────────────────┼──────────────────────┐
+       ▼                      ▼                      ▼
+   high-entropy layer    mid-entropy layer    low-entropy layer
+   keep most tokens      keep some tokens     drop aggressively
+                              │
+                              ▼
+                    VGT global attention runs over selected K/V
+                    (training-free, drop-in, over 85 pct speedup)
+```
+
 ## Key claims
 
 - The quadratic cost is O(N^2 * L^2) in frames N and tokens-per-frame L; with N=500 the global attention is the dominant cost.
