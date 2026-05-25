@@ -30,6 +30,6 @@ This is the first paper in the wiki that applies *routing* directly to diffusion
 
 ## Related wiki pages
 
-- [llm-routing.md](llm-routing.md) — concept page for routing across the stack
-- [2026-05-17-moe-mup-maximally-scale-stable-parameterization.md](2026-05-17-moe-mup-maximally-scale-stable-parameterization.md) — scale-stable MoE routing
-- [2026-05-24-kvserve-service-aware-kv-compression.md](../inference-efficiency/2026-05-24-kvserve-service-aware-kv-compression.md) — runtime control surface for transport
+- [llm-routing.md](llm-routing.md). concept page for routing across the stack
+- [2026-05-17-moe-mup-maximally-scale-stable-parameterization.md](2026-05-17-moe-mup-maximally-scale-stable-parameterization.md). scale-stable MoE routing
+- [2026-05-24-kvserve-service-aware-kv-compression.md](../inference-efficiency/2026-05-24-kvserve-service-aware-kv-compression.md). runtime control surface for transport
