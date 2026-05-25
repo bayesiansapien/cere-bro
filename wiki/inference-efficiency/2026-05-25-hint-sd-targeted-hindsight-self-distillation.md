@@ -8,6 +8,21 @@
 
 HINT-SD is a self-distillation framework for long-horizon agents that solves the credit-assignment problem by applying corrective supervision only on the small subset of actions that actually caused failures, instead of distilling every turn. Full-trajectory hindsight picks the failure-relevant span; feedback-conditioned distillation lands only there. On BFCL v3 and AppWorld, HINT-SD beats the dense per-turn baseline by up to 18.80 percent while running 2.26x faster per training step.
 
+```
+Failed trajectory:   turn_1 ─► turn_2 ─► turn_3 ─► turn_4 ─► turn_5 ─► FAIL
+
+Dense per-turn:      distill on every turn (wasteful, noisy)
+                       │       │       │       │       │
+                       ▼       ▼       ▼       ▼       ▼
+
+HINT-SD hindsight:   skip ── skip ──[turn_3]── skip ── skip
+                                       │  selected as fork point
+                                       ▼
+                     feedback-conditioned distillation, span only
+                     student ◄── teacher's corrected continuation
+                     (2.26x faster step, +18.80 pct task success)
+```
+
 ## Key claims
 
 - The "relevance-sparsity" problem: only a small fraction of turns in a failed trajectory actually need correction. The rest are correct, neutral, or downstream consequences of an earlier mistake. Per-turn dense feedback wastes compute and injects noisy updates.
