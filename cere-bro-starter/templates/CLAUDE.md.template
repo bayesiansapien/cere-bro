@@ -438,8 +438,17 @@ Good: *"Standard distillation trains on every token the teacher generates. TIP f
 **2. Link everything directly.**
 Every Deep Dive must include the direct URL to the paper (arxiv) or post in the **Links** line — not just the wiki summary. The reader should be one click from the source without ever leaving the digest.
 
-**3. Show the architecture, don't just describe it.**
-For every Deep Dive, ask: would a diagram make this clearer? If yes, either embed a figure downloaded from the source to `raw/assets/`, or draw a text-based HLD using box-and-arrow notation. Architecture papers, routing systems, and training pipelines especially benefit from this. A 6-line text diagram communicates more than two paragraphs of prose.
+**3. Show the architecture. Visuals beat prose for system explanations. This is mandatory, not optional.**
+
+Every Deep Dive about a paper that has architecture, a routing flow, a training pipeline, a cache layout, or any multi-component system MUST include a diagram. The diagram comes BEFORE the prose explanation. A reader who only looks at the diagram should understand the mechanism at a high level.
+
+Two acceptable diagram sources, in priority order:
+
+(a) **Embed the paper's actual figure.** Download it to `raw/assets/YYYY-MM-DD-<slug>-fig1.png` and embed: `![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)`. For arxiv papers, figures are accessible from the abstract page or the full PDF. Pull the most informative one (typically Figure 1, the system overview).
+
+(b) **Draw a text-based HLD** when no figure is available. Use `┌┐└┘─│` boxes and arrows `►◄↑↓→←`. Under 10 lines. Label every box and every arrow.
+
+Apply the SAME rule to wiki summary pages: every summary of a paper with system/architecture/mechanism gets a diagram right after the TL;DR. Skip only when the system is trivially simple OR the paper is a pure benchmark with no architecture.
 
 **4. Calibrate depth to the Reader Profile tier.**
 Tier 1 (routing, KV cache, compression, GPU): 4–6 paragraphs, deep on mechanism — not just "latency improved" but *how* (kernel fusion? smarter eviction? speculative decoding?). Always end with a **Research angle** note. Tier 2: 2–4 paragraphs, flag Tier 1 intersections. Tier 3: Quick Hit unless it touches routing or efficiency. Tier 4: one sentence or nothing.

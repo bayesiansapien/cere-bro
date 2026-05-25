@@ -186,7 +186,7 @@ Good: *"Standard distillation trains on every token. Most tokens carry no real s
 
 **Link everything.** Every Deep Dive must have a direct URL in the Links line. Every wiki reference must be a relative markdown link.
 
-**Show the architecture.** For every Deep Dive, ask: would a diagram make this clearer? If yes, draw one.
+**Show the architecture. Visuals beat prose. This is mandatory.** Every Deep Dive about a paper with architecture / routing flow / training pipeline / cache layout / any multi-component system MUST include a diagram, BEFORE the prose explanation. Two options: (a) embed the paper's figure downloaded to `raw/assets/YYYY-MM-DD-<slug>-fig1.png`, or (b) draw a text-based HLD with `┌┐└┘─│` boxes and arrows. Under 10 lines. Apply to wiki summary pages too: every summary of a paper with system/mechanism gets a diagram after the TL;DR. Skip only for benchmark-only papers.
 
 ---
 
