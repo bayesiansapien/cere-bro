@@ -1,9 +1,9 @@
 # Foundation Protocol + Static Authorization: the agent coordination + governance pair
 
 **Sources:**
-- [arXiv:2605.23218](https://arxiv.org/abs/2605.23218) — Foundation Protocol: A Coordination Layer for Agentic Society, via HuggingFace Daily Papers 2026-05-26.
-- [Ken Huang Substack](https://kenhuangus.substack.com/p/why-static-authorization-is-failing) — Why Static Authorization Is Failing in the Age of AI Agents, via Gmail starred RSS 2026-05-25.
-- [AI Agents under EU Law](https://nitter.net/LuizaJarovsky/status/2058628835172655555#m) — Luiza Jarovsky AI Ethics Paper Club, via @bayesiansapien Twitter retweet 2026-05-24.
+- [arXiv:2605.23218](https://arxiv.org/abs/2605.23218). Foundation Protocol: A Coordination Layer for Agentic Society, via HuggingFace Daily Papers 2026-05-26.
+- [Ken Huang Substack](https://kenhuangus.substack.com/p/why-static-authorization-is-failing). Why Static Authorization Is Failing in the Age of AI Agents, via Gmail starred RSS 2026-05-25.
+- [AI Agents under EU Law](https://nitter.net/LuizaJarovsky/status/2058628835172655555#m). Luiza Jarovsky AI Ethics Paper Club, via @bayesiansapien Twitter retweet 2026-05-24.
 
 ## TL;DR
 

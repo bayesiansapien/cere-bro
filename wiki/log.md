@@ -27,7 +27,7 @@ Append-only timeline of ingests and lint passes.
 ## [2026-05-05] ingest | ComboStoc: Combinatorial Stochasticity for Diffusion Models (arxiv 2405.13729) | huggingface
 ## [2026-05-05] ingest | Orbit-Space Particle Flow Matching (OGPP) (arxiv 2605.02222) | huggingface
 ## [2026-05-05] ingest | Nathan Lambert: The Distillation Panic | rss/interconnects-ai
-## [2026-05-05] ingest | Jack Clark: Import AI 455 — AI systems building themselves (60% by 2028) | rss/import-ai
+## [2026-05-05] ingest | Jack Clark: Import AI 455. AI systems building themselves (60% by 2028) | rss/import-ai
 ## [2026-05-05] ingest | Ken Huang: Agentic AI Pentester architecture (RidgeGen vs Shannon vs Strix) | rss/agentic-ai
 ## [2026-05-05] ingest | Anthropic+OpenAI services arms convergence; OpenAI $4B Deployment Co; Anthropic JV $1.5B | rss/the-decoder + ai-weekly
 ## [2026-05-05] ingest | Cerebras $40B IPO (CBRS Nasdaq); AI data centers stress banks; Symphony agents manage themselves | rss/the-decoder
@@ -119,17 +119,17 @@ Append-only timeline of ingests and lint passes.
 ## [2026-04-27] ingest | Agentic World Modeling: Foundations, Capabilities, Laws (arxiv 2604.22748) | huggingface
 ## [2026-04-27] ingest | Semiconductor Newsletter Week 17: AI memory supercycle + RISC-V CPU agent + EDA partnerships | rss/gmail
 ## [2026-04-27] ingest | Google commits $40B to Anthropic at $350B valuation | rss/the-decoder
-## [2026-04-27] ingest | OpenAI + Microsoft rewrite deal — exclusivity and AGI clause removed | rss/the-decoder
+## [2026-04-27] ingest | OpenAI + Microsoft rewrite deal. exclusivity and AGI clause removed | rss/the-decoder
 ## [2026-04-27] ingest | China blocks Meta's $2B Manus acquisition | rss/the-decoder
 ## [2026-04-27] ingest | Gary Marcus vs. Amodei on AI replacing software engineers | rss/gmail
 ## [2026-04-27] ingest | DeepSeek cache costs -90%; Claude Memory for Managed Agents; Cursor margins -23% | rss/gmail
 ## [2026-04-27] digest | daily digest 2026-04-27 written |
 
 ## [2026-04-26] ingest | OpenAI folds Codex into GPT-5.5 | rss/the-decoder
-## [2026-04-26] ingest | Rebuild GPT-5.5 prompts from scratch — role definitions matter again | rss/the-decoder
+## [2026-04-26] ingest | Rebuild GPT-5.5 prompts from scratch. role definitions matter again | rss/the-decoder
 ## [2026-04-26] ingest | 500 investment bankers test AI: zero client-ready outputs | rss/the-decoder
-## [2026-04-26] ingest | US programmer job growth halved since ChatGPT — Fed Reserve study | rss/the-decoder
-## [2026-04-26] ingest | AI agents expanding not replacing software engineering — Chalmers/Volvo | rss/the-decoder
+## [2026-04-26] ingest | US programmer job growth halved since ChatGPT. Fed Reserve study | rss/the-decoder
+## [2026-04-26] ingest | AI agents expanding not replacing software engineering. Chalmers/Volvo | rss/the-decoder
 ## [2026-04-26] digest | daily digest 2026-04-26 written |
 
 ## [2026-04-25] ingest | GPT-5.5 system card: agentic safety benchmarks, scheming, operator permissions | rss/gmail
@@ -175,16 +175,16 @@ Append-only timeline of ingests and lint passes.
 ## [2026-04-21] ingest | AiScientist: File-as-Bus Coordination for Long-Horizon Agents | parallel-daily-digest/dair-ai
 ## [2026-04-21] ingest | LLM-as-Verifier: Log-Probability Ranking for Test-Time Scaling | parallel-daily-digest/dair-ai
 ## [2026-04-21] ingest | Automated Weak-to-Strong Researcher: 9 Agents, 0.97 PGR, $18K | parallel-daily-digest/dair-ai
-## [2026-04-21] ingest | Subliminal Learning: Now in Nature — Cross-Family Trait Transfer | parallel-daily-digest/dair-ai
+## [2026-04-21] ingest | Subliminal Learning: Now in Nature. Cross-Family Trait Transfer | parallel-daily-digest/dair-ai
 ## [2026-04-21] ingest | AlphaEval: Production-Grounded Agent Benchmark, 94 Tasks, 64.41/100 | parallel-daily-digest/dair-ai
 ## [2026-04-21] ingest | Nathan Lambert: Open-Closed Performance Gap Analysis | parallel-daily-digest/interconnects-ai
 ## [2026-04-21] ingest | Industry: OpenAI Sora scrapped, Meta 8K layoffs, xAI Grok Build, Google A2UI, Anthropic $30B ARR | parallel-daily-digest
 ## [2026-04-21] update | daily digest 2026-04-21 updated with parallel-daily-digest content |
-## [2026-04-21] ingest | GFT: Group Fine-Tuning — SFT as Degenerate Policy Gradient (arxiv 2604.14258) | huggingface
-## [2026-04-21] ingest | When Can LLMs Learn with Weak Supervision — Faithfulness Predicts RLVR (arxiv 2604.18574) | huggingface
+## [2026-04-21] ingest | GFT: Group Fine-Tuning. SFT as Degenerate Policy Gradient (arxiv 2604.14258) | huggingface
+## [2026-04-21] ingest | When Can LLMs Learn with Weak Supervision. Faithfulness Predicts RLVR (arxiv 2604.18574) | huggingface
 ## [2026-04-21] ingest | Reward-Free Self-Evolution Agents (arxiv 2604.18131) | huggingface
-## [2026-04-21] ingest | Precise Debugging Benchmark — Models Regenerate Not Debug (arxiv 2604.17338) | huggingface
-## [2026-04-21] ingest | Geometric Canary — Steerability and Drift Detection (arxiv 2604.17698) | huggingface
+## [2026-04-21] ingest | Precise Debugging Benchmark. Models Regenerate Not Debug (arxiv 2604.17338) | huggingface
+## [2026-04-21] ingest | Geometric Canary. Steerability and Drift Detection (arxiv 2604.17698) | huggingface
 ## [2026-04-21] ingest | Stratagem: Transferable Reasoning via Game Self-Play (arxiv 2604.17696) | huggingface
 ## [2026-04-21] ingest | Agent-World: Self-Evolving Training Arena (arxiv 2604.18292) | huggingface
 ## [2026-04-21] ingest | SkillFlow: Lifelong Skill Discovery Benchmark (arxiv 2604.17308) | huggingface
@@ -204,11 +204,11 @@ Append-only timeline of ingests and lint passes.
 ## [2026-04-20] ingest | ArtifactNet: AI Music Detection (arxiv 2604.16254) | huggingface
 ## [2026-04-20] ingest | PersonaVLM: Long-Term Personalized Multimodal LLMs (arxiv 2604.13074) | huggingface
 ## [2026-04-20] ingest | EdgeDetect: Federated IDS with Gradient Compression (arxiv 2604.14663) | huggingface
-## [2026-04-20] ingest | Chapter 3: Query/Agent Loop — Claude Code vs. Hermes | rss/agentic-ai
+## [2026-04-20] ingest | Chapter 3: Query/Agent Loop. Claude Code vs. Hermes | rss/agentic-ai
 ## [2026-04-20] ingest | Claude Token Counter: Opus 4.7 tokenizer inflation | rss/simon-willison
 ## [2026-04-20] digest | daily digest 2026-04-20 written |
 
-## [2026-04-19] ingest | VGF: Value Gradient Flow — RL as Optimal Transport (arxiv 2604.14265) | huggingface
+## [2026-04-19] ingest | VGF: Value Gradient Flow. RL as Optimal Transport (arxiv 2604.14265) | huggingface
 ## [2026-04-19] ingest | UniDoc-RL: Hierarchical RL for Visual RAG (arxiv 2604.14967) | huggingface
 ## [2026-04-19] ingest | ASGuard: Activation-Scaling Jailbreak Defense (arxiv 2509.25843) | huggingface
 ## [2026-04-19] ingest | Claude Code Architecture Analysis (arxiv 2604.14228) | huggingface
@@ -305,12 +305,12 @@ Append-only timeline of ingests and lint passes.
 ## [2026-05-02] ingest | UK AISI: GPT-5.5 = Mythos cyber parity | rss/the-decoder
 ## [2026-05-02] ingest | Google DeepMind AI co-clinician beats GPT-5.4 | rss/the-decoder
 ## [2026-05-02] ingest | Mistral Medium 3.5 unified flagship | rss/the-decoder
-## [2026-05-02] ingest | Ken Huang Ch 14 — Model Routing & Provider Abstraction | rss/agentic-ai
-## [2026-05-02] ingest | AISN #72 — CAIS AI Wellbeing + public sentiment + OpenAI releases | rss/ai-safety-newsletter
+## [2026-05-02] ingest | Ken Huang Ch 14. Model Routing & Provider Abstraction | rss/agentic-ai
+## [2026-05-02] ingest | AISN #72. CAIS AI Wellbeing + public sentiment + OpenAI releases | rss/ai-safety-newsletter
 ## [2026-05-02] ingest | Algorithmic Bridge weekly #120 | rss/algorithmic-bridge
 ## [2026-05-02] ingest | Marcus on Brockman 80%-of-OpenAI-code claim | rss/marcus-on-ai
 ## [2026-05-02] ingest | Simon Willison: iNaturalist Sightings on phone with Claude Code | rss/simon-willison
-## [2026-05-02] concept | llm-routing.md updated — 3 axes (query/provider-tier/trajectory), Ken Huang Ch 14 + Step-level Optimization added; cache-aware/reasoning-mode routing flagged as open | concept-page
+## [2026-05-02] concept | llm-routing.md updated. 3 axes (query/provider-tier/trajectory), Ken Huang Ch 14 + Step-level Optimization added; cache-aware/reasoning-mode routing flagged as open | concept-page
 ## [2026-05-02] digest | 2026-05-02.md written: routing on 3 axes, vector-valued operational properties, cyber equilibrium shift, bilateral AI sovereignty | daily-digest
 ## [2026-05-04] digest | Daily Digest 2026-05-04 | daily-digest
 - Sources: 31 (7 HuggingFace + 17 RSS + 5 Gmail starred + 2 DAIR.AI)
@@ -464,7 +464,7 @@ Append-only timeline of ingests and lint passes.
 - Deep Dives: 6 (Sparse-to-Dense Reward Principle; The Many Faces of On-Policy Distillation; Token Superposition Training; δ-mem; FocuSFT; SemiAnalysis Cerebras IPO)
 - Tier 2 summaries: 6 (Reward Hacking in Rubric-Based RL; Massive Activations ME Layer; Probe&Prefill; Useful Memories Become Faulty; LongMemEval-V2; Agent-BRACE; plus 2 industry: Recursive $650M, Anthropic B2B lead)
 - Theme: OPD theory layer completes on the same day SemiAnalysis prices the fast-tokens economy. FocuSFT + Massive Activations ME Layer + Make Each Token Count form a top-to-bottom attention-sink story (mechanism + training-time damage + inference-time mitigation). Reward Hacking in Rubric-Based RL resolves the 12-May 60-day rubric-overfitting prediction at 24 hours.
-- Cross-source: Reward Hacking in Rubric-Based RL (HF today) + LLMs Gaming Verifiers (Kurate cs.LG #9, Helff et al.) — two independent papers in one week, same diagnosis of rubric reward-hacking. Anthropic B2B lead (Decoder) + Claude for Small Business launch + Google customer-engineer hiring + earlier OpenAI Deployment Company = deployment-services week across three frontier labs.
+- Cross-source: Reward Hacking in Rubric-Based RL (HF today) + LLMs Gaming Verifiers (Kurate cs.LG #9, Helff et al.). two independent papers in one week, same diagnosis of rubric reward-hacking. Anthropic B2B lead (Decoder) + Claude for Small Business launch + Google customer-engineer hiring + earlier OpenAI Deployment Company = deployment-services week across three frontier labs.
 - Worth Watching: Sparse-to-Dense beyond verifiable math; OPSD identifiability criterion; FocuSFT + ME Layer composition; InferenceMax with watts; TST at frontier scale; meta-rubric for the three named rubric failure modes
 - Concept page updates: kv-cache.md (δ-mem + FocuSFT additions), knowledge-distillation.md (Sparse-to-Dense + Many Faces OPD-theory-complete entry), rl-for-llms.md (today’s three RL/OPD papers + cross-source Kurate confirmation)
 - No alphaxiv enrichment used (backfill mode, abstracts sufficient); HF+Kurate cross-reference: no direct overlap (Kurate weekly = late April 2604.*; HF Daily = mid May 2605.*); surfaced Helff RLVR-Gaming as the cross-source confirmation for the day’s Reward Hacking paper.
@@ -473,8 +473,8 @@ Append-only timeline of ingests and lint passes.
 
 ## [2026-05-15] ingest | HuggingFace 26 papers + RSS 8 (2026-05-14) + Gmail 1 starred + Twitter morning (10 tweets) + Kurate cs.AI + cs.LG weekly + Reddit (8 subs, 16 posts) | mixed
 
-- agent-memory cluster (6 papers): STALE, Preping, EvolveMem, MemEye, MemLens, BOOKMARKS — new cluster summary + new agent-memory concept page
-- Tier 1: RouteProfile (profile design space) + DLR (training-time latent routing) — opens routing on two new axes
+- agent-memory cluster (6 papers): STALE, Preping, EvolveMem, MemEye, MemLens, BOOKMARKS. new cluster summary + new agent-memory concept page
+- Tier 1: RouteProfile (profile design space) + DLR (training-time latent routing). opens routing on two new axes
 - Tier 1: Forcing-KV (head-role KV compression for AR video diffusion) + async continuous batching (HF blog, 22% from scheduling)
 - Tier 2 agentic stack: WildClawBench (62.2% ceiling, 18-pt harness shift) + Orchard (67.5% SWE-bench Verified at 30B) + SDAR (gated OPSD) + EvoEnv (verifiable environment synthesis)
 - Tier 2 reasoning: SU-01 (gold IMO at 30B, 200 RL steps) + Darwin Family (training-free GPQA #6 via cross-arch evolutionary merging)
@@ -517,13 +517,13 @@ Append-only timeline of ingests and lint passes.
 
 ## [2026-05-19] ingest | morning digest | HF + RSS + Gmail + Twitter + Kurate + Reddit + alphaxiv
 
-- HF (34 papers) — 9 substantive (Tier 1: CompactAttention, EndPrompt, SNLP, PUMA, ZEDA, AgentKernelArena, LongLive-2.0; Tier 2: MixSD, DiHAL, Max Activations, Monitoring Internal Monologue, AI for Auto-Research, NGM, Lance, KVPO, AtlasVA, SkillsVote, Code as Agent Harness); remainder Tier 3/4 (Incantation, OPRover, Grasp, SafeDiffusion-R1, Code-as-Room, LiteFrame, StableVLA, MMTSkills, FinSse-Bench, ToBench, AB2RBench, Geometric Phase Transition, From Runnable to Shippable, Targeted Neuron Modulation, Model-Adaptive Tool Necessity)
-- RSS (19 entries) — The Decoder cluster (Composer 2.5 matches Opus 4.7, AI revenue $80B 89% concentration, Anthropic Mythos briefs financial regulators, Pope Leo XIV AI encyclical, MAGA-aligned mandatory safety testing, Stanford student on ChatGPT class, Musk OpenAI appeal); Marcus on AI verdict whimper; Algorithmic Bridge "AI as normal technology"; Simon Willison PyCon lightning talk; HF blog (Open Agent Leaderboard, PaddleOCR 3.5); Agentic AI shadow agents in enterprise; Import AI 457 cursed Muon
-- Gmail starred — AI Breakfast 2026-05-18 (Brockman product strategy, GPT-5.5 finance, Codex remote computer use, Weights.gg acquisition, Malta partnership, Addy Osmani cognitive surrender, Google Search Central GEO/AEO dismissed); Gary Marcus on the OpenAI verdict (limited bandwidth post)
-- Twitter morning slot (35 tweets, 7 articles, 0 retweets) — Cursor Composer 2.5 (Kimi K2.5 base, RL with textual feedback, Sharded Muon, dual-mesh HSDP, SpaceXAI 10x-compute follow-up); NVIDIA Vera CPU blog (Buck hand-delivery to Anthropic / OpenAI / SpaceXAI / Oracle Cloud); Anthropic Claude Code Fast Mode + cache diagnostics + usage credits rename; Tesla FSD v14.3.3 testimonials cluster; Scoble three medical-AI demos; brivael French-language run with one Open Collider creativity-engine repost from cdriclion
-- Kurate weekly cs.AI + cs.LG + rising-authors — leaderboards stable, no rising-author additions, no HF cross-source overlap on Tier 1/2 topics (MoE-muP recurring three weeks at cs.LG #13)
-- Reddit 8 subs scraped — r/MachineLearning (Niels Rogge HF revive of PapersWithCode at paperswithcode.co, Sub-JEPA fix to LeCun's LeWorldModel); r/CUDA (curated CUDA books list, LLM compiler stack autotuning Part 3 from kernelspace, GPT-2 inference engine from scratch in CUDA at 190 tok/sec on RTX 3050 4GB); r/MLScaling (training-divergence compute waste question, hidden-state-coupling-without-weights post); r/LLMDevs (Chinese models eating AI coding tokens single thread); r/ControlProblem (Penrose AI-is-bad-term video); r/HPC (HPC user-support career question); r/LocalLLaMA and r/reinforcementlearning empty
-- alphaxiv — empty stdout for 2605.16839 (CompactAttention) and 2605.18643 (ZEDA); fallback to abstract; expected for fresh papers
+- HF (34 papers). 9 substantive (Tier 1: CompactAttention, EndPrompt, SNLP, PUMA, ZEDA, AgentKernelArena, LongLive-2.0; Tier 2: MixSD, DiHAL, Max Activations, Monitoring Internal Monologue, AI for Auto-Research, NGM, Lance, KVPO, AtlasVA, SkillsVote, Code as Agent Harness); remainder Tier 3/4 (Incantation, OPRover, Grasp, SafeDiffusion-R1, Code-as-Room, LiteFrame, StableVLA, MMTSkills, FinSse-Bench, ToBench, AB2RBench, Geometric Phase Transition, From Runnable to Shippable, Targeted Neuron Modulation, Model-Adaptive Tool Necessity)
+- RSS (19 entries). The Decoder cluster (Composer 2.5 matches Opus 4.7, AI revenue $80B 89% concentration, Anthropic Mythos briefs financial regulators, Pope Leo XIV AI encyclical, MAGA-aligned mandatory safety testing, Stanford student on ChatGPT class, Musk OpenAI appeal); Marcus on AI verdict whimper; Algorithmic Bridge "AI as normal technology"; Simon Willison PyCon lightning talk; HF blog (Open Agent Leaderboard, PaddleOCR 3.5); Agentic AI shadow agents in enterprise; Import AI 457 cursed Muon
+- Gmail starred. AI Breakfast 2026-05-18 (Brockman product strategy, GPT-5.5 finance, Codex remote computer use, Weights.gg acquisition, Malta partnership, Addy Osmani cognitive surrender, Google Search Central GEO/AEO dismissed); Gary Marcus on the OpenAI verdict (limited bandwidth post)
+- Twitter morning slot (35 tweets, 7 articles, 0 retweets). Cursor Composer 2.5 (Kimi K2.5 base, RL with textual feedback, Sharded Muon, dual-mesh HSDP, SpaceXAI 10x-compute follow-up); NVIDIA Vera CPU blog (Buck hand-delivery to Anthropic / OpenAI / SpaceXAI / Oracle Cloud); Anthropic Claude Code Fast Mode + cache diagnostics + usage credits rename; Tesla FSD v14.3.3 testimonials cluster; Scoble three medical-AI demos; brivael French-language run with one Open Collider creativity-engine repost from cdriclion
+- Kurate weekly cs.AI + cs.LG + rising-authors. leaderboards stable, no rising-author additions, no HF cross-source overlap on Tier 1/2 topics (MoE-muP recurring three weeks at cs.LG #13)
+- Reddit 8 subs scraped. r/MachineLearning (Niels Rogge HF revive of PapersWithCode at paperswithcode.co, Sub-JEPA fix to LeCun's LeWorldModel); r/CUDA (curated CUDA books list, LLM compiler stack autotuning Part 3 from kernelspace, GPT-2 inference engine from scratch in CUDA at 190 tok/sec on RTX 3050 4GB); r/MLScaling (training-divergence compute waste question, hidden-state-coupling-without-weights post); r/LLMDevs (Chinese models eating AI coding tokens single thread); r/ControlProblem (Penrose AI-is-bad-term video); r/HPC (HPC user-support career question); r/LocalLLaMA and r/reinforcementlearning empty
+- alphaxiv. empty stdout for 2605.16839 (CompactAttention) and 2605.18643 (ZEDA); fallback to abstract; expected for fresh papers
 - Wiki pages: 13 new summaries (CompactAttention, EndPrompt, SNLP, PUMA, ZEDA, AgentKernelArena, LongLive-2.0, Max Activations, MixSD, DiHAL, Monitoring Internal Monologue, AI for Auto-Research, NGM); concept-page updates (kv-cache, llm-routing)
 - Daily digest: 2026-05-19
 - Social-stream: 2026-05-19-morning (Cursor Composer 2.5 cluster, NVIDIA Vera blog, Anthropic Fast Mode trio, Tesla FSD, Scoble, brivael French run with one technically-interesting Open Collider repost)
@@ -618,3 +618,18 @@ Append-only timeline of ingests and lint passes.
 - Social-stream: 2026-05-25-morning (noisy slot, no curated retweets; substantive content limited to Geohot Eternal Sloptember blog, @magicsilicon SoC-to-SiP framing, @ns123abc Hassabis-AGI quote, Cursor/Codeium hint).
 - Sanity checks: zero em-dashes, zero Tier vocabulary in reader-facing output, all internal links resolve (verified existing files: 2026-04-16-tip, 2026-05-13-many-faces, 2026-05-14-extrapolation-cliff, 2026-05-23-code-as-agent-harness, 2026-05-23-same-architecture-different-capacity, ai-routing/2026-05-17-moe-mup, inference-efficiency/kv-cache, llm-routing).
 - Supplemental ingest pass: added two more wiki summary pages: DAR Diffusion-Adaptive Routing (ai-routing, the day's Tier 1 routing paper from Alibaba; 8.75x SiT-XL/2 training-iteration reduction), DeepSeek-V4 Interleaved Compressed Attention (inference-efficiency, captured via Gmail starred AI Papers Academy summary; three regimes per layer + mHC widened residual stream). Digest expanded with two new Deep Dives at the top (DAR, DeepSeek-V4) and Big Picture / Connecting the Dots updated to surface the static-schedule-to-learned-controller meta-pattern across diffusion / agent-skills / inference-transport / optimizer. Em-dash cleanup pass over digest, social-stream, DAR, Pion files per CLAUDE.md writing rule.
+
+## [2026-05-26] ingest | morning batch | huggingface + rss + gmail-catchup + twitter + kurate + reddit
+
+- HuggingFace farmer ran: 28 papers scraped for 2026-05-26 (DVAO, QUEST, SEAL, MemForest, SkillEvolBench, Foundation Protocol, ParaVT, SemBridge, Channel-wise VQ, SMART, Faithfulness Metrics, Macaron-A2UI, Claw-Anything, WBench, AutoResearch AI survey, Native Multimodal Roadmap, and others).
+- RSS farmer ran: 10 items across feeds. SemiAnalysis 800VDC Part 1 (Tier 1 hardware); LWiAI Podcast #246 roll-up of last week's news; The Decoder coverage of AlphaProof Nexus, Pope Leo XIV encyclical / Anthropic, George Hotz on coding agents; Simon Willison's notes on the encyclical; Algorithmic Bridge on evaluative-vs-generative cognition under agentic AI; Agentic AI / Ken Huang on static authorization failure (IBAC pitch for Reva.AI).
+- Gmail catch-up: 2026-05-25 starred (Medium digest, DAIR.AI Top AI Papers of the Week via LinkedIn with Code-as-Harness/OpenAI Erdős/MeMo/AIRA/Weak-Model Critic, AI Papers Academy DeepSeek-V4 review with mHC+HCA+CSA architecture). No 2026-05-26 Gmail file landed yet.
+- Twitter: 2026-05-26 morning slot (41 tweets, 7 curated retweets including @LuizaJarovsky EU agentic-AI law, @rohanpaul_ai ZEDA MoE-expert-skipping, @dair_ai weekly opaque x.com/i article, @AlphaSignalAI opaque x.com/i article, @DanielMiessler Claude Code /workflows preview; two of the curated reposts had opaque x.com/i article bodies that the farmer could not fetch because X session cookies expired). Yesterday catch-up: 2026-05-25 evening (25 tweets, no curated retweets) and 2026-05-25 afternoon (17 tweets, no curated retweets).
+- Kurate cs.AI and cs.LG: 2026-05-26 leaderboards stable (biomedical-heavy at the top: clinical-physiology, virtual patient foundation model, MIMIC biomolecules, scientific discovery, IatroBench). 12 authors crossed the rising-author threshold (Guy Lutsker, Gal Sapir, Jordi Merino, Smadar Shilo, Anastasia Godneva, Eli Meirom on the clinical-physiology paper; Andrew Zhang, Tong Ding, Sophia J. Wagner, Caiwei Tian, Ming Y. Lu, Rowland Pettit on virtual patient FM). All medical/biomedical, none LLM-architecture researchers; flagged in digest Worth Watching but not added to twitter handles list.
+- Cross-source check: zero HF-vs-Kurate overlap again (HF papers are 2605.23xxx-2605.26xxx, Kurate top is biomedical 2604/2605.0x range). Two Kurate top-5 papers flagged as "LLM-rated underrated": 2604.18570 (Virtual Patient FM, cs.LG #1, 8.2/10) and 2604.27899 (Clinical Physiology Simulator, cs.AI #1, 7.8/10).
+- Reddit: r/LocalLLaMA strong (Heretic in FT, Qwen3.6 35B for agentic, NuExtract3 4B VLM, llama.cpp checkpoint PR), r/MLScaling (Tsoukalas DeepMind formal proof paper, Google 3.2 quadrillion tokens/month Economist piece), r/CUDA (TileLang+Triton 5x Qwen 3.5 on B200 by Darshan Baslani, CUDA-vs-Triton career thread), r/LLMDevs (spatial workspace tool), r/ControlProblem (one meme-flair post). r/MachineLearning, r/HPC, r/reinforcementlearning: no posts passed filters.
+- Wiki pages created (9 long + 2 short = 11 total): hardware/2026-05-26-semianalysis-800vdc-revolution-part-1, ai-industry/2026-05-26-alphaproof-nexus-deepmind-erdos, llms-foundation-models/2026-05-26-dvao-multi-reward-grpo, agentic-systems/2026-05-26-seal-agent-environment-coevolution, agentic-systems/2026-05-26-memforest-hierarchical-temporal-agent-memory, agentic-systems/2026-05-26-quest-deep-research-agent-synthetic-tasks, agentic-systems/2026-05-26-skillevolbench-episodic-to-procedural-skills, responsible-ai/2026-05-26-faithfulness-metrics-meta-evaluation, agentic-systems/2026-05-26-foundation-protocol-and-static-authorization, inference-efficiency/2026-05-26-channel-wise-vector-quantization, inference-efficiency/2026-05-26-smart-embedding-multi-vector-from-single.
+- alphaxiv enrichment attempted on 2605.25604 (DVAO), 2605.24426 (SEAL), 2605.23986 (MemForest), 2605.24218 (QUEST): all returned empty (papers too new, no overview yet). Fell back to HF abstract + cross-source synthesis.
+- Daily digest: 2026-05-26 (Big Picture: the substrate around the agent moved more than the agent itself. 8 Deep Dives: 800VDC hardware, AlphaProof Nexus, DVAO, SEAL, MemForest, QUEST, SkillEvolBench, Faithfulness Metrics. Connecting the Dots: agent-substrate cluster across memory/environment/skill/coordination, with governance triple Foundation Protocol + Static Authorization + EU agentic-AI law. Industry Pulse 9 bullets including Anthropic $30B at $900B, Karpathy joining Anthropic, Grok Build Beta, Pope Leo XIV encyclical, Cerebras IPO 90 percent surge. Worth Watching 8 falsifiable predictions including Lean-formal journal acceptance, Cedar/OPA/OpenFGA as agent-auth standard, BonaFide as faithfulness benchmark, 800VDC hyperscaler announcement, QUEST rubric-tree generalization, two Kurate LLM-rated underrated.).
+- Social-stream: 2026-05-26-morning (strongest substantive signal: ZEDA MoE-expert-skipping via @rohanpaul_ai, EU agentic-AI law via @LuizaJarovsky, Claude Code /workflows preview via @DanielMiessler. Two opaque x.com/i/article reposts grouped. Ferrari Luce cluster of 15 logged as noise.).
+- Sanity checks: zero em-dashes in any written file (verified by grep), zero Tier-N labels in reader-facing output, internal links verified against ls output for hardware/, ai-industry/, agentic-systems/, inference-efficiency/, llms-foundation-models/, responsible-ai/, daily-digest/2026-05/, social-stream/2026-05/.

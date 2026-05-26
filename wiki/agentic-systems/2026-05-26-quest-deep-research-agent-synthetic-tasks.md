@@ -37,7 +37,7 @@ Frontier deep-research agents (the systems that turn a query into a multi-step s
 - **Synthetic data via rubric trees**: a tree of evaluation rubrics covers fact-seeking, citation-grounding, and report-synthesis tasks. Each rubric leaf defines a verifiable reward function. Tasks are synthesized to match the rubric tree, producing training data where reward signals are automatic and verifiable.
 - **Training recipe**: mid-training adapts the base LLM to the search-and-synthesis substrate, SFT instills the agent's behaviour, RL refines with rubric-verifiable rewards.
 - **Context management**: a built-in mechanism for managing long-horizon contexts as the agent does multi-step retrieval and synthesis (the practical bottleneck for any deep-research agent in 2026).
-- **Open release**: 2B / 7B / 35B models, training scripts, synthesized data — everything published.
+- **Open release**: 2B / 7B / 35B models, training scripts, synthesized data. everything published.
 
 ## Key results
 

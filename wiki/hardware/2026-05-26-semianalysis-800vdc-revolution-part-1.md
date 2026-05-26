@@ -1,4 +1,4 @@
-# SemiAnalysis: Inside the 800VDC Revolution — Part 1
+# SemiAnalysis: Inside the 800VDC Revolution. Part 1
 
 **Source:** [SemiAnalysis newsletter](https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part), 2026-05-26, by Nicolas Bontigui (with DG Matrix, Novos Power, Aran Industries).
 **Topic:** Datacenter power architecture / AI training infrastructure.
