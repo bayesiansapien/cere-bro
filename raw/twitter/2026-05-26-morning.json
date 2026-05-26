@@ -1,0 +1,522 @@
+{
+  "date": "2026-05-26",
+  "slot": "morning",
+  "scraped_ist": "2026-05-26 09:47",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@LuizaJarovsky",
+      "text": "🚨 \"AI Agents under EU Law - A Compliance Architecture for AI Providers\" is the most comprehensive paper on agentic AI regulation you'll find, and it's our AI Ethics Paper Club's 8th recommended paper. Bookmark it below. Recommended reading for anyone developing or deploying AI (especially agentic AI) and trying to navigate compliance and regulation in the EU. 👉 To receive all my paper recommendations, join the 850+ members of the AI Ethics Paper Club below (it's free).",
+      "link": "https://nitter.net/LuizaJarovsky/status/2058628835172655555#m",
+      "date_utc": "2026-05-24T19:18:56+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@shmidtqq",
+      "text": "x.com/i/article/205614160245…",
+      "link": "https://nitter.net/shmidtqq/status/2058914868086882710#m",
+      "date_utc": "2026-05-25T14:15:31+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "The Top AI Papers of the Week (May 18 - 24): - AIRA - MetaCogAgent - Memory as a Model - Code as Agent Harness - Weak-Model Critic-Comparator - OpenAI Disproves the Unit Distance Conjecture - Production Agent Architecture Methodology Read on for more: DAIR.AI (@dair_ai) x.com/i/article/205826023785… — https://nitter.net/dair_ai/status/2058537927823556668#m",
+      "link": "https://nitter.net/dair_ai/status/2058538063375036853#m",
+      "date_utc": "2026-05-24T13:18:14+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@AlphaSignalAI",
+      "text": "x.com/i/article/205893910136…",
+      "link": "https://nitter.net/AlphaSignalAI/status/2058959856023777397#m",
+      "date_utc": "2026-05-25T17:14:17+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "A large MoE model may be wasting half its expert compute on tokens that barely need expert help. In this paper 50% of expert computation removed, with almost no loss in accuracy. This makes already-trained MoE models like Qwen3 and GLM stop calling half their experts when a token is too easy to need them. Zero-Expert Self-Distillation Adaptation (ZEDA), a low-cost framework that transforms post-trained static MoE models into efficient dynamic ones. Shows that many MoE tokens do not need real experts, only permission to skip them. That sounds like a small routing trick, but it changes the econo",
+      "link": "https://nitter.net/rohanpaul_ai/status/2058620038693999012#m",
+      "date_utc": "2026-05-24T18:43:59+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@DanielMiessler",
+      "text": "Claude Code is about to release a feature called /workflows that I think will be extremely significant. Especially for Enterprise AI. I talked about this in 2024 in a post called Companies Are Just Graphs of Algorithms. Basically the idea is that all work is just an algorithm, i.e., a series of steps to accomplish a goal. Skills and Cowork have been heading in this direction already, and we've seen what that's done to company valuations in various spaces. Well this is closer to the final form. It's turning the regular, expected work that's done in companies into pseudo-deterministic workflows ",
+      "link": "https://nitter.net/DanielMiessler/status/2058699741140222055#m",
+      "date_utc": "2026-05-25T00:00:41+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@tandfonline",
+      "text": "Share your groundbreaking research with the global community through Sexual and Reproductive Health Matters. Submit Your Research Now.",
+      "link": "https://nitter.net/tandfonline/status/1989608558816624858#m",
+      "date_utc": "2025-11-15T08:17:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "JasonBud",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "Cursor",
+        "coding agents"
+      ],
+      "tweets": [
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "We've expanded the Beta to many more people. Go to x.ai/cli to give it a try. Our entire engineering team will be responding to (and fixing) any issues you encounter, so please share feedback on X xAI (@xai) Grok Build is now available in Beta for all SuperGrok and X Premium+ users. Use Plan Mode, create images and videos with Imagine, and build automations or orchestrators with the CLI. Visit x.ai/cli to get started. Video — https://nitter.net/xai/status/2058973760708091907#m",
+          "link": "https://nitter.net/JasonBud/status/2058974659648123084#m",
+          "date_utc": "2026-05-25T18:13:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://x.ai/cli",
+              "content": ""
+            },
+            {
+              "url": "http://x.ai/cli",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "\"You aren't getting it,\" a friend who lives in China told me after I said the new Ferrari is ugly. \"This is gonna sell well with China's new rich.\" But why is a story of changing attitudes amongst car buyers, particularly in China. In a world where everyone around you is driving a new electric car, which is true in many Chinese cities now, showing up with a loud gas car just doesn't fit in anymore. Imagine you are a new rich factory owner in Shanghai. Do you want to drive around in a loud Ferrari, like I dreamed about doing when I was a kid? No. Chinese culture is about fitting in, about carin",
+          "link": "https://nitter.net/Scobleizer/status/2059120944950767914#m",
+          "date_utc": "2026-05-26T03:54:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My feed is all an ugly Ferrari and the Pope talking about AI. All I got is AI driving around a trash bag on the freeway today. Take the rest of the day off. :-) Video",
+          "link": "https://nitter.net/Scobleizer/status/2059068242703024545#m",
+          "date_utc": "2026-05-26T00:24:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Too early. Met up with @kevinafischer in San Francisco today. His company built the virtual dog I was excited by last year named Spark. Virtual beings haven’t come along as fast as either of us expected. AI isn’t quite there to create compelling virtual characters and they really require glasses that don’t yet exist to be viable. Another example of when I get excited by things too early. @IrenaCronin wrote seven years ago in our book about Robotaxis which are just starting to take off. A lesson I am always learning by trying to stay on the bleeding edge. Sometimes that edge cuts. Doesn’t stop ",
+          "link": "https://nitter.net/Scobleizer/status/2059058334721024460#m",
+          "date_utc": "2026-05-25T23:45:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I'm doing several interviews of AI entrepreneurs and meeting entrpreneurs today instead of doing the typical BBQ but this caught my eye. I didn't know the history behind Memorial Day and I've been around (the first black female mayor of Greensboro, NC, gave me the key to that great city and we walked around the civil rights landmarks in that city). Thank you to all who have sacrificed to bring a better world for all of us. Carolina Milanesi (@caro_milanesi) On May 1, 1865, weeks after the end of the Civil War, recently freed people in Charleston, South Carolina helped organize a parade of ten ",
+          "link": "https://nitter.net/Scobleizer/status/2058963678566007086#m",
+          "date_utc": "2026-05-25T17:29:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "From the first pioneer wagons to cross-country trips on FSD Supervised in under 200 years",
+          "link": "https://nitter.net/Tesla/status/2059073616902557934#m",
+          "date_utc": "2026-05-26T00:46:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised shrinks your idea of a long trip",
+          "link": "https://nitter.net/Tesla/status/2059007427241205785#m",
+          "date_utc": "2026-05-25T20:23:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Beff (e/acc) (@beffjezos) Which way, anon? — https://nitter.net/beffjezos/status/2059063757490290841#m",
+          "link": "https://nitter.net/brivael/status/2059069998656532793#m",
+          "date_utc": "2026-05-26T00:31:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🔥 🔥🔥🔥🔥 Olsen (@olsenbdnr) It’s pretty good Video — https://nitter.net/olsenbdnr/status/2059036660617416724#m",
+          "link": "https://nitter.net/brivael/status/2059038297024790990#m",
+          "date_utc": "2026-05-25T22:25:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Non la piraterie c’est très bien. Mais il faut pirater les bonnes choses. Compte de Conspiration (@Gilles_Babar) C'est un truc de pirate, c'est mal. — https://nitter.net/Gilles_Babar/status/2058982835801706672#m",
+          "link": "https://nitter.net/brivael/status/2059037800607937014#m",
+          "date_utc": "2026-05-25T22:24:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Polymarket (@Polymarket) NEW: Ferrari unveils the Luce, its first electric vehicle designed by Jony Ive. — https://nitter.net/Polymarket/status/2059006516678574591#m",
+          "link": "https://nitter.net/brivael/status/2059035227897377213#m",
+          "date_utc": "2026-05-25T22:13:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Peak communism car Andrew Gripsholm (@AGripsholm34) The Ferrari Luce looks like the love child of a Multipla and a Fiat Duna. — https://nitter.net/AGripsholm34/status/2059034821901361496#m",
+          "link": "https://nitter.net/brivael/status/2059034964981633496#m",
+          "date_utc": "2026-05-25T22:12:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂 Brivael Le Pogam (@brivael) ✂️🍒 — https://nitter.net/brivael/status/2059034445877739834#m",
+          "link": "https://nitter.net/brivael/status/2059034475846148507#m",
+          "date_utc": "2026-05-25T22:10:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Make Joni Ive great again AI Breakfast (@AiBreakfast) Midjourney Jony Ive — https://nitter.net/AiBreakfast/status/2059018712066490556#m",
+          "link": "https://nitter.net/brivael/status/2059033631943799206#m",
+          "date_utc": "2026-05-25T22:07:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Métamorphose 47 (@Metamorphose_47) QUELLE HORREUR ! Ferrari Luce, la première Ferrari électrique ! 500 000€ 😱 — https://nitter.net/Metamorphose_47/status/2059027278600773957#m",
+          "link": "https://nitter.net/brivael/status/2059033459679445102#m",
+          "date_utc": "2026-05-25T22:06:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Politi_Rican 🇵🇷 𝕏 🇺🇸 (@TheRicanMemes) Everyone’s reaction to the new all-electric Ferrari design 🚗😬 Video — https://nitter.net/TheRicanMemes/status/2059028116689859043#m",
+          "link": "https://nitter.net/brivael/status/2059033375537603012#m",
+          "date_utc": "2026-05-25T22:06:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Same picture Polymarket (@Polymarket) NEW: Ferrari unveils the Luce, its first electric vehicle designed by Jony Ive. — https://nitter.net/Polymarket/status/2059006516678574591#m",
+          "link": "https://nitter.net/brivael/status/2059033244008358246#m",
+          "date_utc": "2026-05-25T22:05:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Les choses ont une identité. LinkedIn a été fondé par Reid Hoffman — le même Reid Hoffman qui fréquentait Epstein après sa condamnation de 2008, qui a contribué à le réintroduire dans certains cercles tech, et qui s'en est « excusé » dix ans plus tard quand c'est devenu intenable. Ce n'est pas un détail. C'est l'ADN du réseau. LinkedIn est l'outil parfait d'un monde précis : celui où ce que tu produis compte moins que la mise en scène de ce que tu produis. Où « Senior VP of Strategic Synergies » veut dire quelque chose. Où on poste des paragraphes émus sur l'échec p",
+          "link": "https://nitter.net/brivael/status/2059031041193423100#m",
+          "date_utc": "2026-05-25T21:57:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. La dose c’est le poison. Celui qui part dans l’arc narratif hacker fou, il finit mal généralement. Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) Nausée morale – très juste – il m’est arrivé de faire un truc pas cool vers cet âge là aussi – ça te hante moralement pendant des décennies ensuite… — https://nitter.net/Kristof_Poland/status/2059030518092468443#m",
+          "link": "https://nitter.net/brivael/status/2059030870829179227#m",
+          "date_utc": "2026-05-25T21:56:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Use the missiles to Terraform Mars. NUKE MARS !!! Now ! Elonogy (@ElonogyX) Elon Musk: “Would be great if someday humanity stopped pointing nukes at itself that would destroy almost all life on Earth.” — https://nitter.net/ElonogyX/status/2059025721520017534#m",
+          "link": "https://nitter.net/brivael/status/2059029978667266113#m",
+          "date_utc": "2026-05-25T21:52:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Too dangerous. OpenAI still doesn’t have a strong business model. No sign of ASI. Commodities will go to the cost of energy. And category players will start. There are new monopolies to create, but not by wrapping commodities with a low-tech approach. xAI and Google at the end. Even Anthropic doesn’t have a business model. The revenue is a short-term pump that can collapse when Grok Build becomes the king. Elon has a big edge with SpaceX and X, impossible to compete on this layer. Polymarket Money (@PolymarketMoney) JUST IN: OpenAI is no longer projected to IPO by the end of September. — https",
+          "link": "https://nitter.net/brivael/status/2059029550445527227#m",
+          "date_utc": "2026-05-25T21:51:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🩳 Ferrari DragTimes (@DragTimes) Let's be real, what happened to Ferrari here, $640,000 Ferrari Luce or my Tesla Model S Plaid? — https://nitter.net/DragTimes/status/2059014904598692045#m",
+          "link": "https://nitter.net/brivael/status/2059026062672081330#m",
+          "date_utc": "2026-05-25T21:37:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Art ❤️ SMX 🇺🇸 (@iam_smx) The Three Musketeers of Space 🦖 — https://nitter.net/iam_smx/status/2059021179973730446#m",
+          "link": "https://nitter.net/brivael/status/2059025363963871266#m",
+          "date_utc": "2026-05-25T21:34:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂😂😂 Nic Cruz Patane (@niccruzpatane) Ferrari Luce EV vs Tesla Model 3 Performance Model 3: Luce: • $54,990 $650,000+ • 0-60 in 2.9s 0-60 in 2.4s • 309 mi range 280 mi range • 510hp 1,050 hp • 4,046 lbs 4,982 lbs • 82 kWh 122 kWh • 250 kW charging 350 kW charging • Self-Driving No Self-Driving What happened at Ferrari. — https://nitter.net/niccruzpatane/status/2059014146113335548#m",
+          "link": "https://nitter.net/brivael/status/2059024749150273739#m",
+          "date_utc": "2026-05-25T21:32:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "It’s funny how good guys have good faces and how pedolunatics have ugly / evil faces. There is a strong correlation between what you are and what you think.",
+          "link": "https://nitter.net/brivael/status/2059024599602356722#m",
+          "date_utc": "2026-05-25T21:31:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Wait what? Opus 4.7 at 20% off??? Check it out now in the Kilo Gateway 🧐",
+          "link": "https://nitter.net/kilocode/status/2059013869025075364#m",
+          "date_utc": "2026-05-25T20:48:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Searching X in Grok Build is really fast and useful for research/docs/real-time info, video is not sped up Video Peter Dedene (@dedene) I've been using Grok Build some time now, and it has genuinely surprised me. It is unique in the current agents landscape, has a different tone, a different feel. It can search the web and X very fast and is improving even faster every day. Give it a try and let me know if you think the same! — https://nitter.net/dedene/status/2058998462918877602#m",
+          "link": "https://nitter.net/milichab/status/2059011507984404781#m",
+          "date_utc": "2026-05-25T20:39:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Try it out! Favorite features: - 1 second web/X search - Editing and creating assets with Imagine - Great subagent/worktree integrations xAI (@xai) Grok Build is now available in Beta for all SuperGrok and X Premium+ users. Use Plan Mode, create images and videos with Imagine, and build automations or orchestrators with the CLI. Visit x.ai/cli to get started. Video — https://nitter.net/xai/status/2058973760708091907#m",
+          "link": "https://nitter.net/milichab/status/2058974278478102996#m",
+          "date_utc": "2026-05-25T18:11:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://x.ai/cli",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "there will be a 10x in demand for good software engineers by 2028",
+          "link": "https://nitter.net/ns123abc/status/2059105817052238121#m",
+          "date_utc": "2026-05-26T02:54:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "This might be the ugliest Ferrari I’ve ever seen Polymarket (@Polymarket) NEW: Ferrari unveils the Luce, its first electric vehicle designed by Jony Ive. — https://nitter.net/Polymarket/status/2059006516678574591#m",
+          "link": "https://nitter.net/ns123abc/status/2059027281960452275#m",
+          "date_utc": "2026-05-25T21:42:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "confess your feelings to claude directly",
+          "link": "https://nitter.net/ns123abc/status/2058966421976027276#m",
+          "date_utc": "2026-05-25T17:40:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "People always ask me, “how can we fix LA? We don’t have the money!” We have the money…it’s just being stolen! You wanna fix the budget? END THE FRAUD. I will bust the scammers and put your tax dollars back to work for YOU. Video",
+          "link": "https://nitter.net/spencerpratt/status/2059096268056711358#m",
+          "date_utc": "2026-05-26T02:16:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Smart bet. (Not financial advice) California Post (@californiapost) Former Laker Kyle Kuzma drops $36K bet on Spencer Pratt becoming LA's next mayor trib.al/kHEAWMo — https://nitter.net/californiapost/status/2059038513278976251#m",
+          "link": "https://nitter.net/spencerpratt/status/2059042679376453784#m",
+          "date_utc": "2026-05-25T22:43:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://trib.al/kHEAWMo",
+              "content": "Kyle Kuzma drops $36K bet on Spencer Pratt being LA's next mayor Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official Stor"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "God bless all of our fallen warriors. On this Memorial Day, I am deeply humbled by the glory of your sacrifice for our great country. Video",
+          "link": "https://nitter.net/spencerpratt/status/2059005371235324144#m",
+          "date_utc": "2026-05-25T20:15:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
