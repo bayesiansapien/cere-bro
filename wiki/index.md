@@ -9,7 +9,7 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [gui-agents.md](agentic-systems/gui-agents.md) | Concept: MLLM-based GUI agents, long-horizon challenges, key papers |
-| [agent-benchmarks.md](agentic-systems/agent-benchmarks.md) | Concept: benchmarks for agentic AI — OccuBench, GameWorld, MERRIN, explore/exploit |
+| [agent-benchmarks.md](agentic-systems/agent-benchmarks.md) | Concept: benchmarks for agentic AI. OccuBench, GameWorld, MERRIN, explore/exploit |
 | [2026-04-16-ui-copilot.md](agentic-systems/2026-04-16-ui-copilot.md) | UI-Copilot: memory decoupling + TIPO for long-horizon GUI tasks |
 | [2026-04-16-trex-llm-finetuning-automation.md](agentic-systems/2026-04-16-trex-llm-finetuning-automation.md) | TREX: multi-agent LLM fine-tuning automation via search tree |
 | [2026-04-16-exploration-exploitation-lm-agents.md](agentic-systems/2026-04-16-exploration-exploitation-lm-agents.md) | Measurable explore/exploit errors in LM agents |
@@ -25,7 +25,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [rl-for-llms.md](llms-foundation-models/rl-for-llms.md) | Concept: RL for LLMs — RLHF, RLVR, PreRL, and reasoning model training |
+| [rl-for-llms.md](llms-foundation-models/rl-for-llms.md) | Concept: RL for LLMs. RLHF, RLVR, PreRL, and reasoning model training |
 | [2026-04-16-prerl-rl-in-pretrain-space.md](llms-foundation-models/2026-04-16-prerl-rl-in-pretrain-space.md) | PreRL/DSRL: RL in pre-train space bypasses base model ceiling |
 | [2026-04-16-open-vs-closed-models-mid-2026.md](llms-foundation-models/2026-04-16-open-vs-closed-models-mid-2026.md) | Nathan Lambert's 13 bets on open vs. closed models mid-2026 |
 | [2026-04-16-infinitesciencegym-benchmark.md](llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md) | InfiniteScienceGym: procedurally generated scientific analysis benchmark |
@@ -51,7 +51,7 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [knowledge-distillation.md](inference-efficiency/knowledge-distillation.md) | Concept: knowledge distillation, on-policy distillation, cross-tokenizer BLD |
-| [kv-cache.md](inference-efficiency/kv-cache.md) | Concept: KV cache — context dependency, reuse, compression, eviction |
+| [kv-cache.md](inference-efficiency/kv-cache.md) | Concept: KV cache. context dependency, reuse, compression, eviction |
 | [2026-05-02-nemotron-3-nano-omni-multimodal.md](inference-efficiency/2026-05-02-nemotron-3-nano-omni-multimodal.md) | Nemotron 3 Nano Omni: 30B multimodal with native audio; token-reduction for lower latency; FP4/FP8/BF16 released |
 | [2026-05-02-flashrt-efficient-red-teaming.md](inference-efficiency/2026-05-02-flashrt-efficient-red-teaming.md) | FlashRT: 264GB → 65GB, 1hr → 10min for optimization-based red-teaming at 32K context |
 | [2026-04-16-tip-token-importance-on-policy-distillation.md](inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md) | TIP: two-axis token importance taxonomy; 47% memory reduction |
@@ -63,7 +63,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [llm-routing.md](ai-routing/llm-routing.md) | Concept: LLM routing — surrogate models, parity gates, open problems |
+| [llm-routing.md](ai-routing/llm-routing.md) | Concept: LLM routing. surrogate models, parity gates, open problems |
 | [2026-04-17-tracer-llm-routing.md](ai-routing/2026-04-17-tracer-llm-routing.md) | TRACER: trace-driven surrogate routing; 100% coverage on 150-class benchmark |
 | [2026-05-01-ken-huang-ch14-routing-provider-abstraction.md](ai-routing/2026-05-01-ken-huang-ch14-routing-provider-abstraction.md) | Ch 14: Claude Code compile-time static routing vs Hermes runtime dynamic routing; fallback chains; stripSignatureBlocks; per-turn cheap routing |
 | [2026-05-02-step-level-optimization-computer-use-agents.md](ai-routing/2026-05-02-step-level-optimization-computer-use-agents.md) | Step-level cascade: Stuck + Milestone monitors escalate to frontier model only at high-risk junctures; modular, no retraining |
@@ -100,7 +100,7 @@ Catalog of all pages. Updated on every ingest.
 | [2026-04-20-accelopt-gpu-kernel-optimization.md](inference-efficiency/2026-04-20-accelopt-gpu-kernel-optimization.md) | AccelOpt: LLM agent self-improves Trainium kernel optimization via slow-fast memory; 49%→61% throughput at 26x lower cost |
 | [2026-04-20-maximal-brain-damage-sign-bit-flips.md](inference-efficiency/2026-04-20-maximal-brain-damage-sign-bit-flips.md) | Maximal Brain Damage: 2 sign-bit flips collapse ResNet-50 by 99.8% and zero Qwen3-30B reasoning; same insight as compression = attack surface |
 | [2026-04-20-stop-path-pruning-parallel-reasoning.md](inference-efficiency/2026-04-20-stop-path-pruning-parallel-reasoning.md) | STOP: learnable super-token prunes futile parallel reasoning paths at prefix; AIME25 84%→90% at fixed compute |
-| [2026-04-20-1d-ordered-tokens-test-time-search.md](inference-efficiency/2026-04-20-1d-ordered-tokens-test-time-search.md) | 1D coarse-to-fine tokens enable test-time search; 2D grid tokens don't — intermediate states need semantic meaning for verifiers to steer |
+| [2026-04-20-1d-ordered-tokens-test-time-search.md](inference-efficiency/2026-04-20-1d-ordered-tokens-test-time-search.md) | 1D coarse-to-fine tokens enable test-time search; 2D grid tokens don't. intermediate states need semantic meaning for verifiers to steer |
 | [2026-04-20-avr-adaptive-visual-reasoning.md](inference-efficiency/2026-04-20-avr-adaptive-visual-reasoning.md) | AVR: GRPO-trained format selection cuts VRM token usage 50-90%; perceive-only or direct-answer for simple visual queries |
 | [2026-04-20-w-rac-retrieval-aware-chunking.md](inference-efficiency/2026-04-20-w-rac-retrieval-aware-chunking.md) | W-RAC: decouple text extraction from chunk planning; LLM decides ID groupings not text; 51.7% chunking cost reduction |
 
@@ -110,7 +110,7 @@ Catalog of all pages. Updated on every ingest.
 |------|---------|
 | [2026-04-20-gta-2-tool-agent-benchmark.md](agentic-systems/2026-04-20-gta-2-tool-agent-benchmark.md) | GTA-2: frontier models at 14.39% on open-ended workflows; execution harness matters more than model |
 | [2026-04-20-prl-bench-physics-benchmark.md](agentic-systems/2026-04-20-prl-bench-physics-benchmark.md) | PRL-Bench: all frontier models below 50% on real physics research tasks from PRL (Aug 2025+) |
-| [2026-04-20-query-agent-loop-claude-vs-hermes.md](agentic-systems/2026-04-20-query-agent-loop-claude-vs-hermes.md) | Claude Code 7-site state machine loop vs. Hermes IterationBudget — recovery architecture is what separates functional agents |
+| [2026-04-20-query-agent-loop-claude-vs-hermes.md](agentic-systems/2026-04-20-query-agent-loop-claude-vs-hermes.md) | Claude Code 7-site state machine loop vs. Hermes IterationBudget. recovery architecture is what separates functional agents |
 
 ## multimodal (new 2026-04-20)
 
@@ -185,7 +185,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [speculative-decoding.md](inference-efficiency/speculative-decoding.md) | Concept: speculative decoding — lossless target-preserving acceleration; now spans inference, video, and RL training |
+| [speculative-decoding.md](inference-efficiency/speculative-decoding.md) | Concept: speculative decoding. lossless target-preserving acceleration; now spans inference, video, and RL training |
 | [2026-04-30-speculative-decoding-rl-rollouts.md](inference-efficiency/2026-04-30-speculative-decoding-rl-rollouts.md) | NVIDIA NeMo-RL: speculative decoding inside RL post-training; lossless under policy drift; k=3 sweet spot; 1.77x at 8B, 2.5x projection at 235B on 2048 GB200s |
 | [2026-04-30-tide-cross-arch-diffusion-distillation.md](inference-efficiency/2026-04-30-tide-cross-arch-diffusion-distillation.md) | Tide: first cross-architecture distillation for diffusion LLMs; Tidal/CompDemo/Reverse Calm; 16B MoE → 0.6B; HumanEval 32.3 → 48.78; 22x memory, 5x speedup |
 
@@ -200,7 +200,7 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-04-30-glm-5v-turbo-multimodal-agent.md](multimodal/2026-04-30-glm-5v-turbo-multimodal-agent.md) | GLM-5V-Turbo (Z.ai): native multimodal agent foundation; CogViT + Multimodal MTP + joint RL over 30+ tasks; 94.8 Design2Code beats Opus 4.6 |
-| [2026-04-30-diffusion-templates-plugin-framework.md](multimodal/2026-04-30-diffusion-templates-plugin-framework.md) | Diffusion Templates (Alibaba): unified plugin framework — KV-Cache and LoRA under one capability-injection abstraction |
+| [2026-04-30-diffusion-templates-plugin-framework.md](multimodal/2026-04-30-diffusion-templates-plugin-framework.md) | Diffusion Templates (Alibaba): unified plugin framework. KV-Cache and LoRA under one capability-injection abstraction |
 | [2026-04-30-fash-icnn-fashion-identity.md](multimodal/2026-04-30-fash-icnn-fashion-identity.md) | FASH-iCNN (Adobe): texture/luminance > color as carriers of editorial fashion identity; CNN probing methodology generalizes |
 | [2026-04-30-x-wam-4d-world-model-robotics.md](multimodal/2026-04-30-x-wam-4d-world-model-robotics.md) | X-WAM: unified 4D world+action with Asynchronous Noise Sampling; fewer steps for action, full steps for video; 90.7% RoboTwin 2.0 |
 
@@ -255,7 +255,7 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [2026-05-01-semianalysis-ai-value-capture-model-labs.md](ai-industry/2026-05-01-semianalysis-ai-value-capture-model-labs.md) | SemiAnalysis: structural shift to model labs capturing value; Anthropic ARR $9B→$44B+, margin 38%→70%; Nvidia/TSMC restraint; "One Chart to Rule Them All" pricing framework |
-| [2026-05-01-marcus-capital-misallocation.md](ai-industry/2026-05-01-marcus-capital-misallocation.md) | Marcus: "greatest capital misallocation in history" — direct counterpoint to SemiAnalysis the same day; mainstream AI-bubble framing |
+| [2026-05-01-marcus-capital-misallocation.md](ai-industry/2026-05-01-marcus-capital-misallocation.md) | Marcus: "greatest capital misallocation in history". direct counterpoint to SemiAnalysis the same day; mainstream AI-bubble framing |
 | [2026-05-01-pragmatic-engineer-github-anthropic-trust.md](ai-industry/2026-05-01-pragmatic-engineer-github-anthropic-trust.md) | Pragmatic Engineer: GitHub at zero nines under 3.5x AI load; Anthropic in "extraction era" (silent Claude Code nerfing, $100/mo gate, OpenClaw block) |
 
 ## daily-digest (new 2026-05-01)
@@ -442,7 +442,7 @@ Catalog of all pages. Updated on every ingest.
 | Topic | Page | Summary |
 |-------|------|---------|
 | llms-foundation-models | [Gowers + ChatGPT 5.5 Pro: PhD-level math research](llms-foundation-models/2026-05-10-gowers-gpt55-pro-math.md) | Fields Medalist Timothy Gowers gave ChatGPT 5.5 Pro an open number-theory problem; in under an hour the model improved an exponential bound to a polynomial one. MIT collaborator called the central idea "completely original." **Tier 2.** |
-| agentic-systems | [Jiayi Weng — Learning Beyond Gradients](agentic-systems/2026-05-10-jiayi-weng-learning-beyond-gradients.md) | Codex iterates a NumPy + cv2 heuristic VizDoom policy with no neural net training. Frames iterated heuristic learning as a candidate next paradigm after pretraining and RL. Amplified as "bearish on RL." **Tier 2.** |
+| agentic-systems | [Jiayi Weng. Learning Beyond Gradients](agentic-systems/2026-05-10-jiayi-weng-learning-beyond-gradients.md) | Codex iterates a NumPy + cv2 heuristic VizDoom policy with no neural net training. Frames iterated heuristic learning as a candidate next paradigm after pretraining and RL. Amplified as "bearish on RL." **Tier 2.** |
 | ai-industry | [Broadcom won't build OpenAI's chip without Microsoft 40%](ai-industry/2026-05-10-broadcom-openai-microsoft-chip.md) | $18B phase 1 stalled until Microsoft anchors 40% of orders. Capacity-binding-constraint thread now includes silicon-vendor financing. |
 | responsible-ai | [Pseudoscientific emotion AI in the workplace (Atlantic)](responsible-ai/2026-05-10-emotion-ai-workplace-atlantic.md) | Ellen Cushing's Atlantic feature surfaces workplace emotion-detection AI deploying ahead of validation. EU AI Act restricts it; US has no equivalent. **Tier 2.** |
 | agentic-systems | [OncoAgent: dual-tier multi-agent oncology framework](agentic-systems/2026-05-10-oncoagent-multi-agent-oncology.md) | Hackathon-origin privacy-preserving oncology system. Dual-tier (sensitive data isolated from agent reasoning) matches the DeepMind co-clinician Talker+Planner pattern. Tier 3 quick hit. |
@@ -494,7 +494,7 @@ Catalog of all pages. Updated on every ingest.
 | agentic-systems | [Useful Memories Become Faulty](agentic-systems/2026-05-13-useful-memories-become-faulty.md) | LLM-rewritten agent memory degrades over consecutive consolidations. GPT-5.4 fails on 54% of ARC-AGI problems it had previously solved without memory. Episodic-only retention beats forced consolidation. **Tier 2.** |
 | agentic-systems | [LongMemEval-V2: environment-specific agent memory](agentic-systems/2026-05-13-longmemeval-v2.md) | 451 questions, 5 memory abilities, up to 500 trajectories per question. AgentRunbook-C (file-per-trajectory + coding-agent retrieval in sandbox) reaches 72.5% vs 48.5% best RAG baseline. Coding-agent retrieval is the new Pareto front. **Tier 2.** |
 | agentic-systems | [Agent-BRACE: decoupling belief from action](agentic-systems/2026-05-13-agent-brace.md) | Belief-state model + policy model trained jointly via RL. Belief is structured set of atomic NL claims with verbalized ordinal certainty labels. +14.5 pp on Qwen2.5-3B at near-constant context length. **Tier 2.** |
-| hardware | [SemiAnalysis: Cerebras — Faster Tokens Please](hardware/2026-05-13-semianalysis-cerebras-ipo.md) | Four-article IPO-eve deep dive. Thesis: past a capability threshold developers prefer faster tokens to smarter tokens; SRAM-based machines win on interactivity-per-watt where HBM GPUs cannot. Opus 4.6 Fast (6x price, 2.5x interactivity) is the revealed preference. **Tier 1.** |
+| hardware | [SemiAnalysis: Cerebras. Faster Tokens Please](hardware/2026-05-13-semianalysis-cerebras-ipo.md) | Four-article IPO-eve deep dive. Thesis: past a capability threshold developers prefer faster tokens to smarter tokens; SRAM-based machines win on interactivity-per-watt where HBM GPUs cannot. Opus 4.6 Fast (6x price, 2.5x interactivity) is the revealed preference. **Tier 1.** |
 | ai-industry | [Recursive emerges from stealth with $650M](ai-industry/2026-05-13-recursive-650m-stealth.md) | Second high-profile RSI lab in two weeks. RSI is a venture-funded category now. Foundational risk per same-day Many Faces paper: OPSD-style self-improvement works only when privileged information is a shared latent rule. **Tier 2.** |
 | ai-industry | [Anthropic overtakes OpenAI in B2B](ai-industry/2026-05-13-anthropic-overtakes-openai-b2b.md) | 34.4% vs 32.3% Ramp AI Index. Anthropic quadrupled in one year. Same-day Claude for Small Business launch with 15 agentic workflows. Deployment-services week across Anthropic, OpenAI, Google. **Tier 2.** |
 | daily-digest | [2026-05-13](daily-digest/2026-05/2026-05-13.md) | On-policy distillation gets a theory (Sparse-to-Dense allocation + Many Faces failure taxonomy) on the same day SemiAnalysis prices the fast-tokens economy. FocuSFT + Massive Activations ME Layer + Make Each Token Count = top-to-bottom attention-sink story. Reward Hacking in Rubric RL resolves the 12-May rubric prediction in 24 hours. Anthropic leads OpenAI in B2B for the first time. |
@@ -534,7 +534,7 @@ Catalog of all pages. Updated on every ingest.
 | llms-foundation-models | [SU-01: gold-medal olympiad reasoning at 30B via simple recipe](llms-foundation-models/2026-05-15-su-01-gold-olympiad-reasoning-30b.md) | 30B-A3B + reverse-perplexity SFT + two-stage RL + TTS + only 200 RL steps. Gold IMO 2025 (35 pts), USAMO 2026 (35 pts, 10 above gold), IPhO 2024/2025. 57.6% IMO-ProofBench direct, 70.2% with TTS. Specializable-generalist framing's first frontier-tier datapoint. **Tier 2.** |
 | llms-foundation-models | [Darwin Family: training-free evolutionary merging](llms-foundation-models/2026-05-15-darwin-family-evolutionary-merging.md) | 14-D merge genome + MRI-Trust Fusion + Architecture Mapper (cross-arch Transformer + Mamba). Darwin-27B-Opus: 86.9% GPQA Diamond, rank #6 of 1,252 models, no gradient training. Recursive multi-generation evolution supported. **Tier 2.** |
 | daily-digest | [2026-05-15](daily-digest/2026-05/2026-05-15.md) | Six papers on agent memory as a programmable substrate (STALE 55.2%, MemLens <30%, EvolveMem +25.7%). RouteProfile + DLR open routing on two new axes (profile design, training-time latent routing). Forcing-KV + async continuous batching: inference stack updates with no model changes. WildClawBench caps Claude Opus 4.7 at 62.2%, 18-point harness sensitivity. SU-01 gold-medal IMO at 30B with 200 RL steps. Darwin training-free GPQA #6. |
-| social-stream | [2026-05-15 morning slot](social-stream/2026-05/2026-05-15-morning.md) | xAI Grok Build CLI launch (cluster of 4 — @xai mainline + @JasonBud + @milichab). Early-beta agentic CLI with subagents, plan mode, /imagine, /imagine-video. The fifth-frontier-lab CLI in the harness-as-load-bearing thread that today's WildClawBench formalizes. NVIDIA Jensen CMU commencement, Lex Fridman China travel announcement, marketing noise (Tesla, Intel × McLaren). No @bayesiansapien retweets. |
+| social-stream | [2026-05-15 morning slot](social-stream/2026-05/2026-05-15-morning.md) | xAI Grok Build CLI launch (cluster of 4. @xai mainline + @JasonBud + @milichab). Early-beta agentic CLI with subagents, plan mode, /imagine, /imagine-video. The fifth-frontier-lab CLI in the harness-as-load-bearing thread that today's WildClawBench formalizes. NVIDIA Jensen CMU commencement, Lex Fridman China travel announcement, marketing noise (Tesla, Intel × McLaren). No @bayesiansapien retweets. |
 
 ## 2026-05-16 ingest
 
@@ -720,7 +720,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Topic | Page | Summary |
 |-------|------|---------|
-| hardware | [SemiAnalysis: Inside the 800VDC Revolution — Part 1](hardware/2026-05-26-semianalysis-800vdc-revolution-part-1.md) | GPU rack densities pushing past 130-250 kW per rack force a shift from AC distribution to 800V DC. Roughly 5-7 percentage points of facility-level distribution losses eliminated by removing two AC-to-DC conversion stages. DC arc protection is the hardest engineering subsystem. Sits in the tokens-per-watt thread that started with the 2026-05-14 energy-to-token position paper. |
+| hardware | [SemiAnalysis: Inside the 800VDC Revolution. Part 1](hardware/2026-05-26-semianalysis-800vdc-revolution-part-1.md) | GPU rack densities pushing past 130-250 kW per rack force a shift from AC distribution to 800V DC. Roughly 5-7 percentage points of facility-level distribution losses eliminated by removing two AC-to-DC conversion stages. DC arc protection is the hardest engineering subsystem. Sits in the tokens-per-watt thread that started with the 2026-05-14 energy-to-token position paper. |
 | ai-industry | [AlphaProof Nexus: Lean-verified Erdős proofs at a few hundred dollars](ai-industry/2026-05-26-alphaproof-nexus-deepmind-erdos.md) | DeepMind autonomously solved 9 open Erdős problems (two open for 56 years) via Lean compiler-verified proofs at a few hundred dollars per problem, 2.5 percent overall success rate. Pairs with OpenAI's unit-distance result two weeks prior: two top labs producing novel autonomous mathematics in one fortnight. |
 | llms-foundation-models | [DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward RL](llms-foundation-models/2026-05-26-dvao-multi-reward-grpo.md) | Replaces static reward-combination weights with per-rollout-group variance-conditioned weights. Mathematical proof of bounded advantage magnitudes. Superior multi-objective Pareto frontier on Qwen3 / Qwen2.5 math + tool-use. Multi-reward instance of the selectivity theorem that Pion, HINT-SD, Good Token Hunting, and Shannon Scaling Law instantiated at other scales. |
 | agentic-systems | [SEAL: Synergistic Co-Evolution of Agents and Learning Environments](agentic-systems/2026-05-26-seal-agent-environment-coevolution.md) | Diagnoses each failed trajectory into turn-level labels; uses the same diagnosis signal to evolve the training environment AND reweight the policy update. With 400 samples: +8.25 to +26.25 across three backbones, positive OOD transfer. The RL-side counterpart of HINT-SD; first public formalization of co-trained environment + policy. |
