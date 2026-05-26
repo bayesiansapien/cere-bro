@@ -1,0 +1,477 @@
+{
+  "date": "2026-05-26",
+  "slot": "evening",
+  "scraped_ist": "2026-05-26 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "nitter.net/AustinJustice/status/2… Austin Justice (@AustinJustice) AUSTIN MAN breaks into storage units across the city. Despite dozens of prior charges, DA Jose Garza's office dismisses two of his pending burglary cases because he hadn't been arrested in 60 days. He had actually burglarized 29 more units in that window. Police just hadn't caught him yet. Joshua Hunt, described in burglary affidavits as a \"documented, prolific storage-unit burglar,” now has 72 Travis County cases. And now police can't find him He's been getting a pass for years: In 2021, caught at a storage unit wedging cardbo",
+          "link": "https://nitter.net/AustinJustice/status/2059294604797612251#m",
+          "date_utc": "2026-05-26T15:24:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Burglary of storage units in Austin are up 262% under DA Jose Garza.",
+          "link": "https://nitter.net/AustinJustice/status/2059294560019267620#m",
+          "date_utc": "2026-05-26T15:24:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "For our free newsletter this week, we write about how evident it is that AI regulation is becoming a moral issue. @IrenaCronin and I write this newsletter every week. AI regulation is becoming a moral issue because AI now affects work, privacy, safety, and personal freedom. It is no longer enough to ask whether AI is powerful or profitable. The bigger question is whether it protects people and respects human dignity. Without strong rules, AI could expand surveillance, spread false information, replace human judgment, and concentrate power. Regulation is needed to make sure AI serves society, n",
+          "link": "https://nitter.net/Scobleizer/status/2059290909100159326#m",
+          "date_utc": "2026-05-26T15:09:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 2 hours ago ​​​​​​AI Regulation Becomes a Moral Issue Robert Scoble, +1 May 19, 2026 ​​​​​​AI Work Intelligence Platforms The Future of Productivity Robert Scoble, +1 May 12, 2026 ​​​​​​AI-Powered Cyberattacks A New Security Threat Robert Scoble, +1 May 05, 2026 ​​​​​​AI Agents and the New Enterprise Workforce Layer Robert Scoble, +1 Apr 28, 2026 ​​​​​​The Rise of AI Native Companies Robert Scoble, +1 Apr 21, 2026 ​​​​​​Why AI Competition Is Becoming a Platform War Robert Scoble, +1 Apr 14, 2026 ​​​​​​The Rise of AI Middle Managers Robert Scoble, +1 Apr 07, 2026 ​​​​​​The New AI Divide Open Enough to Spread, Closed Enoug"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Humanoids won't sell until they do a wide variety of things, not just entertainment. Everyone in robotics says the world models that will run them just aren't ready for even most factory jobs, not to mention home uses. Plus, home users can't afford one. Most homes around the world have nothing that's more expensive than $2,000 in them. I see a business of renting them around to neighbors, but that requires robotaxis, which aren't yet available cheaply and consistently. Until then they are for research or rich people. I hear that a generalized world model that is capable of meeting home expecta",
+          "link": "https://nitter.net/Scobleizer/status/2059163371472289982#m",
+          "date_utc": "2026-05-26T06:42:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://hellochinatech.com/p/deep-robotics-ipo",
+              "content": "DEEP Robotics IPO: What Working Robots Sell Hello China Tech Subscribe Sign in What Working Robots Actually Sell China’s second embodied-AI IPO shows why robots sell first where terrain, safety, and reliability matter more than general intelligence. Poe Zhao and Yanting May 25, 2026 ∙ Paid 5 4 Share The Mirror Filing In March, I dissected Unitree Robotics’ prospectus and found a number that reframed the entire humanoid robot sector: industrial applications accounted for just 9% of humanoid revenue . The world’s largest humanoid shipper by volume was, at its core, a research hardware company selling to labs, developers, and AI startups. On May 18, the Shanghai Stock Exchange accepted a second IPO application from a Hangzhou robotics company in the “embodied intelligence” sector, the Chinese"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Huge credit to the OAI team for solving the unit distance problem with 5.5 - it is now my go to example that models can in fact pull together disparate ideas into new discoveries. As with all 4 minute miles, we had to try and cross it too! Turns out mythos solves it with a cute, simple proof. This implies some serious overhang in discoveries! levent (@__alpoge__) over the weekend i checked the obvious thing, which is whether mythos is able to solve the erdos unit distance problem, aka erdos problem #90. the answer is: yea — https://nitter.net/__alpoge__/status/2059298565093196012#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2059303540150137244#m",
+          "date_utc": "2026-05-26T15:59:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "… [W]e keep finding things that are mysterious, even unsettling. We find structures that mirror results from human neuroscience. We find evidence of introspection. We find internal states that functionally mirror joy, satisfaction, fear, grief, and unease. I don’t know what that means, but I think it warrants ongoing discernment. We need more of the world—religious communities, civil society, scholars, governments, and indeed all people of good will … to take this seriously, to look closely, and to push events in a better direction. We need informed critics who will tell the labs when we are f",
+          "link": "https://nitter.net/bcherny/status/2059217407386771911#m",
+          "date_utc": "2026-05-26T10:17:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+              "content": "Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Announcements Anthropic co-founder Chris Olah&#x27;s remarks on Pope Leo XIV&#x27;s encyclical Magnifica humanitas May 25, 2026 On Monday May 25, 2026, Pope Leo XIV released an encyclical on the topic of AI: Magnifica humanitas: On safeguarding the human person in the time of artificial Intelligence. Anthropic co-founder Chris Olah was invited to speak at the presentation of the encyclical in the Vatican City, doing so as part of Anthropic’s initiative to widen the conversation on the important questions raised by AI. Below are his full remarks. — Holy Father, Your Eminences, Your Excellencies, Distinguished Speakers, Ladies and Gentlemen, Good morning to all of you. It’s an honor to be here tod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ferrari pivoted to girly cars. STIMATORE DI PERSONE DI MERDA (@heygroc) Il nuovo marchio #Ferrari #Luce — https://nitter.net/heygroc/status/2059261596694622504#m",
+          "link": "https://nitter.net/brivael/status/2059308856463806773#m",
+          "date_utc": "2026-05-26T16:21:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🚀🔥🚀🔥🚀🔥🚀🚀🔥🚀🔥 X Freeze (@XFreeze) How it started vs how it's going Video — https://nitter.net/XFreeze/status/2059304520526762319#m",
+          "link": "https://nitter.net/brivael/status/2059307707941704075#m",
+          "date_utc": "2026-05-26T16:16:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "So better Lulu Cheng Meservey (@lulumeservey) Proud to unveil the Luce Migliore A Ferrari electric vehicle designed by me and ChatGPT in 8 seconds at a cost of $0.10 — https://nitter.net/lulumeservey/status/2059119935121457654#m",
+          "link": "https://nitter.net/brivael/status/2059307445256667441#m",
+          "date_utc": "2026-05-26T16:15:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "dis ce que tu penses bro Le Sprint (@LeSprintEdition) « Si je disais ce que je pense, je nuirais à Ferrari. Nous risquons la destruction d’un mythe. Je suis désolé de cela. J’espère qu’au moins ils retireront le Cheval cabré de cette voiture. » 🥶 Luca Di Montezemolo détruit la Ferrari Luce. #F1 Video — https://nitter.net/LeSprintEdition/status/2059282318229971331#m",
+          "link": "https://nitter.net/brivael/status/2059307015361507793#m",
+          "date_utc": "2026-05-26T16:13:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "that's better KEILER 💎 (@KEILERdiamant) — https://nitter.net/KEILERdiamant/status/2059306844141551631#m",
+          "link": "https://nitter.net/brivael/status/2059306929634128154#m",
+          "date_utc": "2026-05-26T16:13:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "introspection is for pussycat Kid (@Redenix2) Does he has the curiosity to understand himself? — https://nitter.net/Redenix2/status/2059306653795991672#m",
+          "link": "https://nitter.net/brivael/status/2059306871098323269#m",
+          "date_utc": "2026-05-26T16:13:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "- Supprimer toute régulation - Plafonner l'État à 30 % du PIB (grand grand max pour commencer) - Une fiscalité unique europe - Libérer les entrepreneurs Patrick Amiel (@patamiel) 25% des startups IA européennes envisagent de s'installer aux US. Le quart de l'écosystème. On construit des startups, on les finance (un peu), et on les regarde partir. Tant que les conditions de marché, de fiscalité et de financement ne changent pas, ce sera toujours la même histoire. — https://nitter.net/patamiel/status/2059303554427359565#m",
+          "link": "https://nitter.net/brivael/status/2059306733122535727#m",
+          "date_utc": "2026-05-26T16:12:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "You have a problem with authority, Mr. Anderson. You believe that you are special, that somehow the rules do not apply to you. Obviously, you are mistaken. This company is one of the top software companies in the world because every single employee understands that they are part of a whole. Thus, if an employee has a problem, the company has a problem. The time has come to make a choice, Mr. Anderson. Either you choose to be at your desk on time from this day forth, or you choose to find yourself another job. Do I make myself clear? Brivael Le Pogam (@brivael) linkedin — https://nitter.net/bri",
+          "link": "https://nitter.net/brivael/status/2059306148239385044#m",
+          "date_utc": "2026-05-26T16:10:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 ZaxtR (@AmX_ZaxTr) — https://nitter.net/AmX_ZaxTr/status/2059299003913678957#m",
+          "link": "https://nitter.net/brivael/status/2059299164475752821#m",
+          "date_utc": "2026-05-26T15:42:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. For pussycat. Argil (@argildotai) Competition is for bitch losers. — https://nitter.net/argildotai/status/2059298062376284269#m",
+          "link": "https://nitter.net/brivael/status/2059298269159637248#m",
+          "date_utc": "2026-05-26T15:39:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😵😵😵😵😵‍💫😵‍💫😵‍💫🥴🥴🥴🤢🤢🤢🤢 Agence France-Presse (@afpfr) Un bolide à cinq places très rapide, confortable et silencieux: Ferrari a dévoilé son premier modèle entièrement électrique, la \"Luce\", mais doit encore convaincre les investisseurs. ➡️ u.afp.com/SD3A — https://nitter.net/afpfr/status/2059263257475457479#m",
+          "link": "https://nitter.net/brivael/status/2059296079393231077#m",
+          "date_utc": "2026-05-26T15:30:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://u.afp.com/SD3A",
+              "content": "La &#039;Luce&#039; de Ferrari, un premier modèle électrique qui doit encore convaincre | TV5MONDE - Informations Aller au contenu principal TV5MONDE+ Info EDU --> Recherche Rechercher Période de publication Au Menu International Accueil International Afrique Accueil Afrique Guerre au Moyen-Orient Guerre au Moyen-Orient Virus Ebola Virus Ebola Mondial 2026 Mondial 2026 Guerre en Ukraine Guerre en Ukraine Guerre en RD Congo Guerre en RD Congo Hantavirus Hantavirus sur le navire MV Hondius Terriennes Accueil Terriennes Sport Accueil Sports Culture Société Accueil Société Économie Accueil Économie Environnement Accueil Environnement Science Accueil Sciences Vidéos JT Le 64&#039; JT Afrique + info Fil d'Ariane Accueil Économie Back to top La Luce de Ferrari, un premier modèle électrique qui do"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "linkedin Brivael Le Pogam (@brivael) Linkedin is for corporate bullshit Corporate bullshit is dead. Linkedin is dead. — https://nitter.net/brivael/status/2059288598919119281#m",
+          "link": "https://nitter.net/brivael/status/2059294608153051444#m",
+          "date_utc": "2026-05-26T15:24:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "make ferrari great again",
+          "link": "https://nitter.net/brivael/status/2059293863320166664#m",
+          "date_utc": "2026-05-26T15:21:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LMAO Brivael Le Pogam (@brivael) jeu set et match — https://nitter.net/brivael/status/2059292590294380672#m",
+          "link": "https://nitter.net/brivael/status/2059293024924897446#m",
+          "date_utc": "2026-05-26T15:18:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "jeu set et match Brivael Le Pogam (@brivael) — https://nitter.net/brivael/status/2059290706921873848#m",
+          "link": "https://nitter.net/brivael/status/2059292590294380672#m",
+          "date_utc": "2026-05-26T15:16:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 notsure (@kelenthir) — https://nitter.net/kelenthir/status/2059291197810622829#m",
+          "link": "https://nitter.net/brivael/status/2059291387745440171#m",
+          "date_utc": "2026-05-26T15:11:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "notsure (@kelenthir) Mushrooms please. — https://nitter.net/kelenthir/status/2059286824862822649#m",
+          "link": "https://nitter.net/brivael/status/2059290706921873848#m",
+          "date_utc": "2026-05-26T15:08:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "will start to block all cryptos bro instant answers lol",
+          "link": "https://nitter.net/brivael/status/2059289398500303265#m",
+          "date_utc": "2026-05-26T15:03:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Linkedin is for corporate bullshit Corporate bullshit is dead. Linkedin is dead. William Austin (@SteveAustin5600) @x @facebook and @instagram yet But linkedin is totally different, it s for business only (and not share views) — https://nitter.net/SteveAustin5600/status/2059288105597776137#m",
+          "link": "https://nitter.net/brivael/status/2059288598919119281#m",
+          "date_utc": "2026-05-26T15:00:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Grok Build 0.1 is live in Kilo Code, along with every other Grok model: kilo.ai/install",
+          "link": "https://nitter.net/kilocode/status/2059284418724843705#m",
+          "date_utc": "2026-05-26T14:43:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.ai/install",
+              "content": "Install Kilo Code in 60 Seconds — VS Code, JetBrains CLI Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Install Kilo Code Get started with AI coding in your CLI or preferred IDE Using Kilo for work? Create a team workspace . VS Code JetBrains CLI Slack Others VS Code Install Kilo Code for VS Code To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code If you don&#x27;t have VS Code installed yet, download it here 2. Install the extension Click the button below to install Kilo Code directly in VS Code Install in VS Code Download VS Code Kilo Community Discord Discord GitHub GitHub Reddit r/kilocode 𝕏 @kilocode Product Hunt p/kilocode Product IDE CLI Sl"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The demo stayed responsive the whole time. Buttons changed state without a glitch. Windows opened and closed without freezing. We stacked a few on top of each other and nothing stuttered. Video",
+          "link": "https://nitter.net/kilocode/status/2059284413158957149#m",
+          "date_utc": "2026-05-26T14:43:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The stack it used: Three.js for the WebGL background, Tailwind served via a CDN, Font Awesome, two Google fonts, and vanilla JS for the rest. There was no no build step / bundler /framework used. We think this was a right call for a demo. Overall, the code looked clean and well-structured.",
+          "link": "https://nitter.net/kilocode/status/2059284359929110694#m",
+          "date_utc": "2026-05-26T14:43:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "There was also a command palette, a search bar that floats above the workspace with a list of quick actions. We could type a command or app name, or pick from the menu: open Terminal, Live Pulse, Streams, Code Carrier, or Neural Atlas. There was also Reset spatial view to snap windows back to default positions, and Close all floating windows to clear the workspace in one move. Let's analyze the source code. Video",
+          "link": "https://nitter.net/kilocode/status/2059284354992414864#m",
+          "date_utc": "2026-05-26T14:43:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The result was a futuristic OS demo with multiple floating windows that lives inside the browser. Every window opened, closed, and dragged around the 3D space. Video",
+          "link": "https://nitter.net/kilocode/status/2059284301724725280#m",
+          "date_utc": "2026-05-26T14:43:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We used Kilo Code for VS Code and Agent Manager to interact with the model. The full prompt: \"Create a full-screen interactive 3D browser demo of a futuristic operating system. Floating windows, command palettes, app cards, and data streams should exist in 3D space. Use smooth animations, parallax, reflections, and subtle soundless motion. Make it feel usable, not just decorative.\" Grok Build 0.1 produced the first working version in under two minutes, for seven cents, using less than a fifth of its context window. Let’s take a deeper look at the result.",
+          "link": "https://nitter.net/kilocode/status/2059284249111298475#m",
+          "date_utc": "2026-05-26T14:43:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Can Grok Build 0.1 do more than static landing pages? That was the question we kept getting after creating 5 one-shot landing page examples. So we threw the hardest interactivity prompt we could think of at it: build a 3D browser demo of a futuristic OS. Here is how it did: Video",
+          "link": "https://nitter.net/kilocode/status/2059284243251909100#m",
+          "date_utc": "2026-05-26T14:43:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Did u listen to me, anon?? NIK (@ns123abc) Three companies own over 90% of the RAM production in the entire planet Samsung, Hynix and Micron. Even if CXMT enters the global markets, they are less than 1% of the global production. Every single study out there indicates that RAM will increase in prices. The demand greatly outflows the supply. Why do you people think that Anthropic is paying SpaceX a BILLION a month? Because compute is king Video — https://nitter.net/ns123abc/status/2058180763560899001#m",
+          "link": "https://nitter.net/ns123abc/status/2059304246906904787#m",
+          "date_utc": "2026-05-26T16:02:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceXAI has 1T and 10T training rn on GB300s Grok 4 was just a small 500B model OpenAI and Anthropic got an early lead hoarding compute via institutional ties and shipped ~1+T models first. xAI built its own. But we're still in early game, mid game hasnt even started yet, and then there's late game. Compute is king. Just wait.",
+          "link": "https://nitter.net/ns123abc/status/2059289837035819361#m",
+          "date_utc": "2026-05-26T15:05:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass just violated election law here. She is so accustomed to breaking the law with no accountability, she even filmed herself doing it. Well, those days are over. We just filed a formal complaint for illegally gaming the election. We must protect our democracy. Electioneering within 100 feet of a ballot box is AGAINST THE LAW. Soliciting votes at a ballot box is AGAINST THE LAW. These clear violations show a reckless disregard for the rule of law and our democratic process. Someone in a position of power should be especially respectful of our democratic laws, but this is just emblematic",
+          "link": "https://nitter.net/spencerpratt/status/2059309042586259593#m",
+          "date_utc": "2026-05-26T16:21:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "After years of running this city into the ground, Nithya Raman is running for mayor, while gangs are running drugs, and Angelenos in her district are running for their lives. Anyone else tired of this? Time to stop running, and stand up for this city. Vote Pratt and Nithya will retire for good. She said so. Video Los Angeles Times (@latimes) Raman says she's running for mayor because L.A. is headed in wrong direction latimes.com/california/story… — https://nitter.net/latimes/status/2059245928901407109#m",
+          "link": "https://nitter.net/spencerpratt/status/2059276974829539539#m",
+          "date_utc": "2026-05-26T14:14:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.latimes.com/california/story/2026-05-26/mayorlanithya-raman-has-rankled-allies-enemies",
+              "content": "Raman says she’s running for mayor because L.A. is headed in wrong direction - Los Angeles Times News Home Page California Election 2024 Housing Homelessness Politics Science Medicine World Nation Business Artificial Intelligence Autos Jobs, Labor Workplace Real Estate Technology and the Internet California California Politics Earthquakes Education Housing Homelessness L.A. Influential L.A. Politics Mental Health Climate Environment Climate Change Water Drought Entertainment Arts Arts Books Stand-Up Comedy Hollywood Inc. The Envelope (Awards) Movies Music Television Things to Do De Los En Español Food 101 Best Restaurants in L.A. Recipes Image Art Culture Conversations Drip Index: Event Guides Fashion Shopping Guides Styling Myself Lifestyle Health Wellness Home Design L.A. Affairs Plants "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
