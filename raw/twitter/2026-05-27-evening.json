@@ -1,0 +1,440 @@
+{
+  "date": "2026-05-27",
+  "slot": "evening",
+  "scraped_ist": "2026-05-27 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Indecent exposure offenses in Austin are up 35% under DA Jose Garza.",
+          "link": "https://nitter.net/AustinJustice/status/2059602682252230725#m",
+          "date_utc": "2026-05-27T11:48:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "GEMM Processing Units rohan anil (@_arohan_) I just like GPUs man, they are so much more programmable, nvshmem and do whatever I want. — https://nitter.net/_arohan_/status/2059569753635901449#m",
+          "link": "https://nitter.net/MillionInt/status/2059676897685213674#m",
+          "date_utc": "2026-05-27T16:43:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "New trend: continual learning. I first showed you this with Levangie Labs from @blevlabs . You \"grow\" an agent by teaching it. It gets better over time. It works because it has a better memory, so can try things, and learn, and remembers what it learned, so it gets better over time. Which makes it hard to get. Starts out like a brilliant 16 year old, then you gotta take it to university. I spent some time last week with Ronak learning about his tech and company. Quite excellent, which explains why he got funded. I'm not compensated by Ronak, just trying to feature great new AI startups. Ronak ",
+          "link": "https://nitter.net/Scobleizer/status/2059665548519350740#m",
+          "date_utc": "2026-05-27T15:58:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What Grok learned by watching this video: nitter.net/i/grok/share/63d74cc45…",
+          "link": "https://nitter.net/Scobleizer/status/2059651094184329368#m",
+          "date_utc": "2026-05-27T15:01:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The Future of AI Hyperlocal Intelligence He built McDonalds' first AI and we talk about changes in retail and enterprises due to AI. Michael Koch is a 4x Exited Tech Founder, CEO of HubKonnect, and creator of Hyperlocal Intelligence, a new category within Enterprise AI focused on real-world, localized physical intelligence and continuous learning and decision-making at scale. Learn more about his company at hubkonnect.com/ Video",
+          "link": "https://nitter.net/Scobleizer/status/2059650054554882062#m",
+          "date_utc": "2026-05-27T14:56:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂😂 Gunther Eagleman™ (@GuntherEagleman) LOL! Trump Tower on the Moon wasn’t on my 2026 bingo card, but here we are… — https://nitter.net/GuntherEagleman/status/2059656788186694030#m",
+          "link": "https://nitter.net/brivael/status/2059666054746395048#m",
+          "date_utc": "2026-05-27T16:00:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Fromagefrait (@DIHCapital) Le J c'est le S — https://nitter.net/DIHCapital/status/2059610653539635507#m",
+          "link": "https://nitter.net/brivael/status/2059665358630359165#m",
+          "date_utc": "2026-05-27T15:57:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Almor Tech (@AlmorTech) Five years of Ferrari evolution — https://nitter.net/AlmorTech/status/2059492014207742409#m",
+          "link": "https://nitter.net/brivael/status/2059660472261959857#m",
+          "date_utc": "2026-05-27T15:38:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "BOT DETECTED BLOCKED notsure (@kelenthir) Une sphère de Dyson n’a aucun sens en terme de masse/efficience. C’est beau mais c’est tout. Un Dyson Swarm par contre c est facile. Et ça marche = starlink — https://nitter.net/kelenthir/status/2059658443208724779#m",
+          "link": "https://nitter.net/brivael/status/2059658833341866077#m",
+          "date_utc": "2026-05-27T15:31:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "True Logan Kilpatrick (@OfficialLoganK) \"you can outsource your thinking, but you can’t outsource your understanding\" easy to forget in todays AI era, worth remembering everyday as we all wield more intelligence! — https://nitter.net/OfficialLoganK/status/2059648809584808179#m",
+          "link": "https://nitter.net/brivael/status/2059658265487667512#m",
+          "date_utc": "2026-05-27T15:29:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"pas encore\" Laurent Barbezieux (@Barbeuz_fr) Oui, après on n'a pas encore de sphère de Dyson sous la main, et \"quelques\" problèmes environnementaux à traiter au 21eme siècle pour éviter de (très) gros problèmes sur lesquels on peut pas faire Ctrl+Z. On aimerai bien être nés au 22eme siècle, manque de bol c'est pas le cas. — https://nitter.net/Barbeuz_fr/status/2059627634024182050#m",
+          "link": "https://nitter.net/brivael/status/2059653869299286382#m",
+          "date_utc": "2026-05-27T15:12:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Samaltmed Samay (@Samaytwt) Just applied to be the CEO of OpenAI. Got rejected 😭 — https://nitter.net/Samaytwt/status/2059550696169701821#m",
+          "link": "https://nitter.net/brivael/status/2059649743404368032#m",
+          "date_utc": "2026-05-27T14:55:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Creator economy and stock market will merge 🇫🇷 François Brault 🚜🚀 (@FBrault61) I'm sure he reserved the $MUSK stock ticker... @elonmusk — https://nitter.net/FBrault61/status/2059626474890551472#m",
+          "link": "https://nitter.net/brivael/status/2059644814560240079#m",
+          "date_utc": "2026-05-27T14:36:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Peak random cash burn",
+          "link": "https://nitter.net/brivael/status/2059643047609069983#m",
+          "date_utc": "2026-05-27T14:29:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 ZaxtR (@AmX_ZaxTr) 𝕏 — https://nitter.net/AmX_ZaxTr/status/2059630306932519291#m",
+          "link": "https://nitter.net/brivael/status/2059640179753672906#m",
+          "date_utc": "2026-05-27T14:17:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 Ze Clint (@ZeClint) C’est tellement ça — https://nitter.net/ZeClint/status/2059638575348482073#m",
+          "link": "https://nitter.net/brivael/status/2059639981094662636#m",
+          "date_utc": "2026-05-27T14:16:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "kache (@yacineMTB) They're going to lose — https://nitter.net/yacineMTB/status/2059614567383060925#m",
+          "link": "https://nitter.net/brivael/status/2059629055901602260#m",
+          "date_utc": "2026-05-27T13:33:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Intergalactic company. So great! Valuetainment (@valuetainment) Elon Musk reportedly raised the idea of combining Tesla and SpaceX into a single company. — https://nitter.net/valuetainment/status/2059615086709178479#m",
+          "link": "https://nitter.net/brivael/status/2059626059037843939#m",
+          "date_utc": "2026-05-27T13:21:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🔥🔥🔥🔥 Simon Roz (@SimonRoz) j'ai testé notre prochain template avec seedance fast-480p (le \"pire\"). pas trop mal si vous voulez mon avis chanson: \"That Girl\" du goaté @itsMrCross Video — https://nitter.net/SimonRoz/status/2059614872128659635#m",
+          "link": "https://nitter.net/brivael/status/2059617576309706803#m",
+          "date_utc": "2026-05-27T12:47:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Non AlertesInfos (@AlertesInfos) 🇫🇷 Gabriel Attal : \"Je vais gagner cette élection présidentielle\". (déclaration sur France Inter) — https://nitter.net/AlertesInfos/status/2059607787026420195#m",
+          "link": "https://nitter.net/brivael/status/2059615102739845175#m",
+          "date_utc": "2026-05-27T12:38:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We're hosting an event on June 16th in San Francisco. Compile is a one-day event that brings together engineers, researchers, designers, and builders of all kinds to discuss the future of software. cursor.com/compile",
+          "link": "https://nitter.net/cursor_ai/status/2059673762728116442#m",
+          "date_utc": "2026-05-27T16:31:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/compile",
+              "content": "Cursor · Compile Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download An event by Cursor June 16 at Fort Mason Compile is a one-day, invite-only gathering hosted by Cursor at Fort Mason in San Francisco. Compile brings together engineers, researchers, designers, and builders of all kinds to explore the future of software. RSVP Compile is invite-only. If you&#x27;ve received an invitation, please RSVP below. RSVP Speakers Michael Truell Cursor Dan Shipper Every Pieter Levels Independent Claire Vo ChatPRD Sam Lambert PlanetScale Ryo Lu Cursor Farhan Thawar Shopify And more… To be announced Call for "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "grok-build-0.1 is available in Kilo right now. Built for speed and agentic coding. If you have SuperGrok or X Premium+, you can route to it from the Kilo IDE extension or CLI. Go break something interesting. kilo.codes/sD06W3K",
+          "link": "https://nitter.net/kilocode/status/2059678685712593076#m",
+          "date_utc": "2026-05-27T16:50:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/sD06W3K",
+              "content": "Use your Grok subscription in Kilo Code - by Ari Messer Kilo Blog Subscribe Sign in Use your Grok subscription in Kilo Code Login with your X Premium+ or SuperGrok subscription to supercharge your workflows Ari Messer May 27, 2026 6 1 Share Starting today, you can use your Grok subscription directly inside Kilo Code. Take advantage of your X Premium+ or SuperGrok subscription to get more bang for the buck without ever leaving Kilo. Kilo Code users have consistently turned to xAI’s models, which have established themselves as leaders for agentic development due to their high performance and cost-efficiency in complex, long-running coding sessions. This commitment to fueling agentic engineering is a core part of xAI’s history in the AI coding space, ensuring their models are continuously pos"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Imagine being a new integration, and your launch announcement is just \"go use me in @kilocode .\" Love that for us. xAI (@xai) Use your SuperGrok or X Premium+ subscription in @kilocode . Try grok-build-0.1 for high speed and agentic coding intelligence, available in the Kilo IDE extensions or CLI. x.ai/news/grok-kilocode — https://nitter.net/xai/status/2059666227115819149#m",
+          "link": "https://nitter.net/kilocode/status/2059671968371064984#m",
+          "date_utc": "2026-05-27T16:23:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://x.ai/news/grok-kilocode",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Tokenmaxxing shouldn't require a funding round. Claude Opus 4.7, Opus 4.6, and Sonnet 4.6 are all 20% off through the Kilo Gateway right now. Stack that with Kilo Pass volume discounts and a power user saves ~$660/month. A team of 10 keeps $6,600. @arimesser did the math: kilo.codes/DjF0UIb",
+          "link": "https://nitter.net/kilocode/status/2059625920432914441#m",
+          "date_utc": "2026-05-27T13:21:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/DjF0UIb",
+              "content": "Tokenmaxxing Without Breaking the Bank - by Ari Messer Kilo Blog Subscribe Sign in Tokenmaxxing Without Breaking the Bank Agentic engineering can be remarkably cost-efficient, if you use the right tools for the job Ari Messer May 27, 2026 9 2 2 Share We’re in the middle of a massive shift in how software is built. We aren’t just asking LLMs to rewrite an HTML file anymore—we’re tokenmaxxing . Today, developers are feeding entire codebases into massive context windows, running multi-turn agentic loops, and letting AI run complex workflows that improve themselves over time. Instead of rationing our compute, we're trying to use as many tokens as possible to maximize output. The term “tokenmaxxing” exploded earlier this year, adapting the internet culture suffix “-maxxing” to the world of AI c"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "A Sentry alert hits your channel. And three people are already arguing about it in the thread. Mention @Kilo . It reads the thread, finds the bug, and proposes a fix. The conversation stays where it started. kilo.codes/SEfuuyI",
+          "link": "https://nitter.net/kilocode/status/2059573935117664709#m",
+          "date_utc": "2026-05-27T09:54:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/SEfuuyI",
+              "content": "Kilo - for Slack Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Trusted by 3M+ developers worldwide Your favorite AI coding agent , now in Slack Push PRs with a single Slack message. Ask questions, debug code, all within the context of a single conversation, using the model your team chooses. Add to Slack Read Slack setup docs Note: A paid Slack plan is required to use the AI agent in the Slack app container. Trusted by developers at the world&#x27;s most innovative companies Meta logo Amazon logo Airbnb logo PayPal logo Square logo Red Hat logo Everything you need, right in Slack From quick questions to full pull requests, Kilo handles it all. Make changes with a direct message Send Kilo a direct message aski"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Coffee: form.jotform.com/23041546786… Travel suggestions: form.jotform.com/26130304275… General contact: lexfridman.com/contact/",
+          "link": "https://nitter.net/lexfridman/status/2059633671125303568#m",
+          "date_utc": "2026-05-27T13:51:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://form.jotform.com/230415467865159",
+              "content": "Coffee with Lex Fridman Coffee with Lex Fridman I'll be traveling a bunch soon, across US, Europe, Asia, etc. Along the way, I'd like to meet interesting people from all walks of life, and chat over coffee. So, if you want to chat with me, anywhere in the world, please fill out this form. Contact Lex: If you would like to contact Lex more generally, please don't use this form, but instead go to https://lexfridman.com/contact Privacy : Everything you submit in this form will be kept private (obviously). Info : Please provide as much detailed info as possible (all relevant fields if possible). It helps me know you're a real human being and someone I can trust. That said, most fields in this form are optional. Goal: If you know me it's probably obvious, but I should make it explicit: The purp"
+            },
+            {
+              "url": "https://form.jotform.com/261303042756046",
+              "content": "Travel Suggestions for Lex Fridman Travel Suggestions for Lex Fridman I'm traveling the world for a bit, starting with China but then anywhere: Asia, Middle East, Europe, India, South/North America, Africa, Australia. No plans, only a backpack. If you have an idea and can give a recommendation, I'm looking for interesting places anywhere in the world that you can recommend I should visit that are off the beaten path - not touristy stuff, but something legendary that tourists may not know about, or a new perspective on a well-known place. It could be as remote as meeting a herder in the mountains who is a local legend, a hidden village, a hole-in-the-wall restaurant only locals know, a master of some craft, etc. Well-known, legendary places are okay too. But then, it would be super helpful "
+            },
+            {
+              "url": "https://lexfridman.com/contact/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "I've been on a wild travel journey in China for several weeks, with only a backpack, making new friends and meeting & getting to know people from all walks of life. I've been truly humbled and inspired by everyone's kindness. Next, I'm hopping over to Taiwan (first time for me) to hang out with Jensen, attend Computex, eat a bunch of street food, and just have fun talking to all kinds of folks around the city & beyond. After that, no plans, anything goes. As always, please give travel suggestions or fill out coffee form if you want to hang out in Taiwain or anywhere else in the world. Love you",
+          "link": "https://nitter.net/lexfridman/status/2059633667815997696#m",
+          "date_utc": "2026-05-27T13:51:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "We are going to win",
+          "link": "https://nitter.net/spencerpratt/status/2059668836077686838#m",
+          "date_utc": "2026-05-27T16:11:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "I'm pretty sure ALL of LA is sick of having guys dropping coilers in front of their children on their sidewalks, not just 'certain wealthy folks'. It's one of Karen's disgusting failures we ALL hate. Vote for the #1 name on your ballot if you're sick of #2 in the streets. Video",
+          "link": "https://nitter.net/spencerpratt/status/2059667871236845728#m",
+          "date_utc": "2026-05-27T16:07:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Friendly reminder, LA: you have to endure one more fire season under Karen before I am Mayor, she hasn't done a thing to protect you. Our reservoir is empty AGAIN. Dried leaves, needles, and fronds on your roof is a guaranteed way to lose your home in a fire. Clean it up!",
+          "link": "https://nitter.net/spencerpratt/status/2059659510072082829#m",
+          "date_utc": "2026-05-27T15:34:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "LAPD is down 1,400 officers in Karen's LA, including detectives who investigate assaults, robberies, etc…we're so low on detectives they're drowning in cases, can’t get back to victims nor investigate in a timely manner. Victims give up and don't even bother reporting crimes. Video Los Angeles Times (@latimes) L.A. is safer than it's been in decades, but crime is an issue dominating the mayor's race latimes.com/california/story… — https://nitter.net/latimes/status/2058565710159216840#m",
+          "link": "https://nitter.net/spencerpratt/status/2059648604697223272#m",
+          "date_utc": "2026-05-27T14:51:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.latimes.com/california/story/2026-05-24/crime-rates-los-angeles-mayor-race-2026-candidates",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
