@@ -2,6 +2,12 @@
 
 The KV cache (Key-Value cache) stores the key and value tensors from the attention mechanism for tokens already processed. This means those tokens don't need to be recomputed on every new generation step — critical for making autoregressive decoding fast.
 
+## Current State (as of 2026-05-27)
+
+**New axis (2026-05-27): iterative offline consolidation.** [Language Models Need Sleep](2026-05-27-language-models-need-sleep.md) (CMU/UMD, Twitter-surfaced) separates scalable *memory* from scalable *reasoning* and adds the missing consolidation axis. Existing SSM-attention hybrids can store long-range info in fixed-size fast weights but degrade as reasoning depth rises even at constant information load: the bottleneck is computational, not capacity. "Sleep" runs N learned recurrent passes over accumulated context offline, writes the result into the SSM fast weights via a local rule, then clears the KV cache. Wake-time prediction reads the consolidated weights at normal latency. Increasing N improves accuracy, most on reasoning-heavy examples, on tasks where a plain transformer and an SSM-attention hybrid both fail. This is the inference-time twin of the agent-memory decoupling: MemForest (05-26) decoupled memory *construction* from the inference loop; Sleep decouples the expensive *folding-in* (offline) from fast answering (online). Prior consolidation in the cache thread (δ-mem's single-pass associative state, Make-Each-Token-Count's eviction) was single-pass; Sleep makes it iterative.
+
+**Agent-side companion (2026-05-27): state-adaptive recall.** [SAM: State-Adaptive Memory](../agentic-systems/2026-05-27-sam-state-adaptive-memory.md) keeps raw trajectory pages plus compact memory cues that act as handles for intent-driven reconstruction, with recall conditioned on the agent's evolving state, backbone frozen. Together with Sleep and MemForest, three memory framings in two days (weight-level consolidation / data-structure / state-conditioned recall) all reject the flat-global-summary baseline.
+
 ## Current State (as of 2026-05-24)
 
 **Latest additions (2026-05-24): KVServe, Gated DeltaNet-2, WorldKV, RTPurbo.** Four KV-relevant entries today, all Tier 1.
