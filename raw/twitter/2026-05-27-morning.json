@@ -1,0 +1,783 @@
+{
+  "date": "2026-05-27",
+  "slot": "morning",
+  "scraped_ist": "2026-05-27 09:07",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "// The Efficiency Frontier in LLMs // (bookmark this one) How much are you overpaying for context you do not need? It turns out that context costs dominate production LLM bills, and the right strategy depends on how often you reuse preprocessing. Modeling that explicitly lets you pick the cheapest point that still hits your target quality. This work treats context-strategy selection as a deployment-aware optimization problem instead of a fixed choice, using amortized cost modeling across performance, token cost, and preprocessing reuse. It achieves roughly 25% token savings at equal F1 (around",
+      "link": "https://nitter.net/dair_ai/status/2058948732658626789#m",
+      "date_utc": "2026-05-25T16:30:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.23071",
+          "content": "Abstract: Large language models (LLMs) increasingly rely on long-context processing, but expanding context windows introduces substantial computational and financial costs. Existing context reduction approaches, including retrieval and memory compression methods, are typically evaluated using performance and efficiency metrics independently, limiting systematic comparison and deployment-aware decision-making. This paper introduces The Efficiency Frontier, a unified framework for cost-performance optimization in LLM context management. The framework models context strategy selection as a deployment-aware optimization problem that jointly accounts for task performance, token cost, and preprocessing reuse through amortized cost modeling. Unlike existing evaluations that compare methods in iso"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@jiqizhixin",
+      "text": "Where do AI agents actually spend their tokens? Researchers from Stanford, MIT, Google DeepMind, and others analyzed 8 frontier LLMs on coding tasks. They systematically tracked token consumption patterns in agentic coding to see where tokens go, which models are more efficient, and whether agents can predict their own costs. Key results: agentic tasks consume 1000x more tokens than simple code chat; the same task can vary 30x in total tokens; higher token usage does not boost accuracy—accuracy peaks at intermediate cost; and frontier models consistently underestimate their own token usage. Ho",
+      "link": "https://nitter.net/jiqizhixin/status/2059196592184574097#m",
+      "date_utc": "2026-05-26T08:55:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/pdf/2604.22750",
+          "content": "%PDF-1.7 %���� 1 0 obj > endobj 2 0 obj > endobj 3 0 obj > stream How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks Longju Bai Zhemin Huang Xingyao Wang Jiao Sun Rada Mihalcea Erik Brynjolfsson Alex Pentland Jiaxin Pei http://creativecommons.org/licenses/by/4.0/ cs.CL cs.AI cs.CY cs.HC cs.SE endstream endobj 4 0 obj > endobj 5 0 obj > endobj 6 0 obj > endobj 7 0 obj > endobj 8 0 obj > endobj 9 0 obj > endobj 10 0 obj > endobj 11 0 obj > endobj 12 0 obj > endobj 13 0 obj > endobj 14 0 obj > endobj 15 0 obj > endobj 16 0 obj > endobj 17 0 obj > endobj 18 0 obj > endobj 19 0 obj > endobj 20 0 obj > endobj 21 0 obj > /Border [ 0 0 0 ] /C [ 1 0 0 ] /H /I /Rect [ 327.91 542.771 334.186 556.474 ] /Subtype /Link /Type /Annot >> endobj 22 0 obj > "
+        },
+        {
+          "url": "https://longjubai.github.io/agent_token_consumption/",
+          "content": "How Do Coding Agents Spend Your Money? Analyzing and Predicting Token Consumptions in Agentic Coding Tasks | Academic Research How Do Coding Agents Spend Your Money? Analyzing and Predicting Token Consumptions in Agentic Coding Tasks Longju Bai, Zhemin Huang, Xingyao Wang, Jiao Sun, Rada Mihalcea, Erik Brynjolfsson, Alex Pentland, Jiaxin Pei University of Michigan · Stanford University · AllHands AI · Google DeepMind · MIT Preprint · April 2026 arXiv Code 🤗 Hugging Face Can You Guess the Token Cost? Test your intuition about agent token consumption Challenge yourself to predict token consumption and costs for real coding agent tasks! Play the Guessing Game Abstract Wide adoption of AI agents in complex human workflows drives rapid growth of LLM token consumption. We use \"token consumption\""
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s/ulZyoQZgxJfwGhqYwC9KKw",
+          "content": "花了1000倍的token，效果可能却没有更好：AI Agent的“隐性账单”长什么样 机器之心 在小说阅读器读本章 去阅读 在小说阅读器中沉浸阅读 如今的 AI Agent 正在大规模落地，其中应用最广且最受关注的当数 Claude Code，Codex，Cursor 这类 coding agent。过去的一年里，这类 coding agent 产品迭代迅速，在一年内将在 swe-bench- verified 的准确率提高到了 78%+。 然而，相比简单的代码推理或者和代码相关的聊天，coding agent 的 token 消耗也极为显著。在使用这种 coding agent 的过程中，最常听到的抱怨也是：“为什么它解决问题这么啰嗦”，“为什么要这么长篇大论”，以及 “为什么我的 credits 这么快又用完了？” 这些抱怨的背后暴露出当前 coding agent 的几大问题： 1. 不透明： coding agent 消耗 token 的习惯不清晰，行为模式以及不同模型之间的差异不透明； 2. 不保底：在任务执行前难以知道任务成功与否，但不论是否成功，都要支付相应开销； 3. 不可预测：人类估计的问题难度真的和实际的 token 消耗匹配吗？agent 能否自己判断问题会消耗多少 token 呢？ 针对这些问题，来自密歇根大学、斯坦福大学等单位的研究者，使用开源的 OpenHands agent 框架，分析了 8 个 frontier 模型在 swe-bench-verified 上的轨迹，第一次给出了一份系统性的解答。 论文标题： HowDoAIAgentsSpendYourMoney? AnalyzingandPre dicting Token Consumption in Agentic Coding Tasks arXiv 论文：https://arxiv"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@bibryam",
+      "text": "The 8 Levels of Agentic Engineering bassimeledath.com/blog/level…",
+      "link": "https://nitter.net/bibryam/status/2059282155922948194#m",
+      "date_utc": "2026-05-26T14:35:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://www.bassimeledath.com/blog/levels-of-agentic-engineering",
+          "content": "The 8 Levels of Agentic Engineering — Bassim Eledath Skip to content Bassim Eledath About Blog ← All posts The 8 Levels of Agentic Engineering March 10, 2026 Updated March 11, 2026 AI&#x27;s coding ability is outpacing our ability to wield it effectively. That&#x27;s why all the SWE-bench score maxxing isn&#x27;t syncing with the productivity metrics engineering leadership actually cares about. When Anthropic&#x27;s team ships a product like Cowork in 10 days and another team can&#x27;t move past a broken POC using the same models, the difference is that one team has closed the gap between capability and practice and the other hasn&#x27;t. That gap doesn&#x27;t close overnight. It closes in levels. 8 of them. Most of you reading this are likely past the first few, and you should be eager t"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@iScienceLuvr",
+      "text": "Language Models Need Sleep \"Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights before clearing its key-value cache.\" \"increasing sleep duration N for our models improves performance, with the largest gains on examples that require deeper reasoning.\"",
+      "link": "https://nitter.net/iScienceLuvr/status/2059221770075562113#m",
+      "date_utc": "2026-05-26T10:35:03+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "Brilliant new paper from Meta, CMU and other labs. Shows that coding agents improve faster by manufacturing their own software experience. Coding agents can train themselves by making and fixing bugs inside real projects. Most coding agents still learn from human leftovers: issues, pull requests, tests, comments, and benchmarks that describe what went wrong. That is useful, but it makes the agent dependent on the rate at which humans produce clean, verifiable lessons. Self-play SWE-RL changes the unit of learning from a labeled task to an executable situation. One version of the model explores",
+      "link": "https://nitter.net/rohanpaul_ai/status/2059283613620011457#m",
+      "date_utc": "2026-05-26T14:40:47+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@Dorialexander",
+      "text": "After months of delay, the successor post to \"The model is the product\": the AI decoupling. vintagedata.org/blog/posts/t…",
+      "link": "https://nitter.net/Dorialexander/status/2058971684607074502#m",
+      "date_utc": "2026-05-25T18:01:18+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://vintagedata.org/blog/posts/the-ai-decoupling",
+          "content": "The Ai Decoupling | Vintage Data Vintage Data posts The Ai Decoupling Fine-Tuning as service Training as we know it will end A Realistic AI Timeline Synthetic Pretraining Actual LLM agents are coming The Model is the Product What&#039;s the deal with mid-training? Vintage Data The AI Decoupling Pierre-Carl Langlais, May 24, 2026 It started exactly one year ago: in May 2025, the tech economy split into software and AI. The SaaS compounded index from Bessemer vs. general Nasdaq The AI/software decoupling went unnoticed for months, save for early signs of structural strain. The market finally came to a full realization in early 2026: SaaS and cloud services experienced the largest sell-off since the start of the pandemic, while AI labs and associated infrastructure soared. There are now two c"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@AlphaSignalAI",
+      "text": "x.com/i/article/205927923435…",
+      "link": "https://nitter.net/AlphaSignalAI/status/2059295476479041890#m",
+      "date_utc": "2026-05-26T15:27:56+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "Language models need \"sleep\" DAIR.AI (@dair_ai) // Language Models Need Sleep // Let your agents \"sleep\", folks. On a serious note, this is a fascinating paper on getting the most from long-horizon agents. Here is the problem with agents today: Attention scales badly with context length, so long-horizon agents keep paying a quadratic tax at inference time. This work proposes a sleep-like consolidation step instead. The model periodically does N offline recurrent passes over recent context, writes the result into persistent fast weights in its state-space blocks, then clears the KV cache. The e",
+      "link": "https://nitter.net/omarsar0/status/2059366168318632426#m",
+      "date_utc": "2026-05-26T20:08:50+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.26099",
+          "content": "Abstract: Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights before clearing its key-value cache. During sleep, the model performs $N$ offline recurrent passes over the accumulated context and updates the fast weights in its state-space model (SSM) blocks through a learned local rule. During inference, this shifts extra computation to sleep while preserving the latency of wake-time prediction. We test our method on controlled synthetic tasks, including cellular automata and multi-hop graph retrieval, as well as a realistic math reasoning task, "
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@wirthkarl",
+      "text": "x.com/i/article/205926640646…",
+      "link": "https://nitter.net/wirthkarl/status/2059270673730580732#m",
+      "date_utc": "2026-05-26T13:49:22+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@_vmlops",
+      "text": "MICROSOFT OPEN-SOURCED A GOVERNANCE LAYER FOR YOUR AI AGENTS and it's exactly what agentic ai has been missing here's what agent governance toolkit does: ▫️ intercepts every tool call in deterministic code before it hits the wire denied actions aren't unlikely, they're structurally impossible ▫️ yaml policy engine lets you allow, deny, or require human approval per action ▫️ zero-trust identity via spiffe/did/mtls no more 5 agents sharing one api key ▫️ 4-level execution sandbox with privilege rings so agents can't escape their scope ▫️ tamper-evident merkle audit logs for compliance and incid",
+      "link": "https://nitter.net/_vmlops/status/2059207888393138556#m",
+      "date_utc": "2026-05-26T09:39:53+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://github.com/microsoft/agent-governance-toolkit",
+          "content": "GitHub - microsoft/agent-governance-toolkit: AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop le"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "System scaling is the next real bottleneck in agentic AI. If you build agent orchestration layers, this is a clean map of where the engineering leverage actually sits. The labs own the model. You own the harness, and that is increasingly where agent quality is won or lost. The default mental model still puts all the weight on the foundation model. Bigger model, better agent. But agent behavior actually emerges from the whole stack around it. Memory substrate, context constructor, skill routing, orchestration loop, and the verification and governance layer. This new research calls that stack th",
+      "link": "https://nitter.net/dair_ai/status/2059294269698199929#m",
+      "date_utc": "2026-05-26T15:23:08+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.26112",
+          "content": "Abstract: This paper studies the next major bottleneck in agentic AI as system scaling, not only model scaling: the design of auditable, persistent, modular, and verifiable architectures around foundation models. We refer to this shift as scaling the harness: treating the structured execution layer around a foundation model as a first-class object of design, evaluation, and optimization. Although recent large language models enable agents to use tools, retrieve information, maintain memory, and execute long-horizon workflows, evaluation remains largely model-centric, often reducing agents to final-task success while treating memory, retrieval, tool use, orchestration, verification, and governance as secondary implementation details. This framing is increasingly inadequate because agent per"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/205923939130…",
+      "link": "https://nitter.net/ashwingop/status/2059248147121999971#m",
+      "date_utc": "2026-05-26T12:19:51+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "New Google paper says LLMs should stop pretending certainty and instead clearly show when they are unsure. Hallucination is less about machines being wrong than about machines sounding certain when they should hesitate. That distinction changes the target-problem. The paper changes the target from making models perfectly factual to making them honest about their own uncertainty. For years, the obvious goal has been to make language models know more, so they make fewer factual mistakes. Perfect factuality may be very hard, but a model that clearly separates “I know this” from “I am guessing” ca",
+      "link": "https://nitter.net/rohanpaul_ai/status/2059040056976032121#m",
+      "date_utc": "2026-05-25T22:32:59+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "You can add org-specific rules in a claude-security-guidance.md file. Drop it in your repo or distribute via MDM. The plugin enforces your policies alongside the built-in checks. Docs: code.claude.com/docs/en/secu…",
+          "link": "https://nitter.net/ClaudeDevs/status/2059385243476586715#m",
+          "date_utc": "2026-05-26T21:24:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://code.claude.com/docs/en/security-guidance",
+              "content": "Catch security issues as Claude writes code - Claude Code Docs Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Code review CI/CD Catch security issues as Claude writes code Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Getting started Overview Quickstart Changelog Core concepts How Claude Code works Extend Claude Code Explore the .claude directory Explore the context window Prompt caching Use Claude Code Store instructions and memories Permission modes Manage sessions Common workflows Prompt library Best practices Platforms and integrations Overview Remote Control Claude Code on the web Claude Co"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've been using the plugin extensively at Anthropic. Across our internal rollout and benchmarks, we’ve seen a 30-40% decrease in security-related comments on PRs opened using the plugin. The plugin serves as a lightweight first pass, catching issues before a full code review",
+          "link": "https://nitter.net/ClaudeDevs/status/2059385242319012188#m",
+          "date_utc": "2026-05-26T21:24:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "It runs via hooks and reviews code on three levels: - On file edits: looks for risky patterns like commonly misused dangerous libraries - After model turns: reviews the full diff for harder-to-spot issues - On commits: reads surrounding code to validate vulnerabilities",
+          "link": "https://nitter.net/ClaudeDevs/status/2059385241115181528#m",
+          "date_utc": "2026-05-26T21:24:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’ve shipped a security-guidance plugin for Claude Code that helps identify and fix vulnerabilities as you’re writing code. Available for all Claude Code users. Install from the plugin marketplace (/plugins). Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2059385239781384341#m",
+          "date_utc": "2026-05-26T21:24:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I'm also cleaning up my lists at x.com/scobleizer/lists especially the \"AI Newsmaker\" list to have less noise and more signal.",
+          "link": "https://nitter.net/Scobleizer/status/2059375242234278092#m",
+          "date_utc": "2026-05-26T20:44:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Thanks @zebanderson for the feedback. I'm working on making the quality higher now, more improvements coming.",
+          "link": "https://nitter.net/Scobleizer/status/2059367436995158265#m",
+          "date_utc": "2026-05-26T20:13:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Simplified AI news from X. My agents have been busy. All headlines point back to original posts on X. My agents watch the AI community here, read about 40,000 posts a day, and builds this for you. Actually I built it for myself. Narcissistic ass that I am. :-) Now that I'm doing a lot more meetings I need to know what I missed in the past few hours. I made it more useful for myself. Which means it might be more useful for you. Feedback fed back into my agent. alignednews.com/ai",
+          "link": "https://nitter.net/Scobleizer/status/2059366988250804496#m",
+          "date_utc": "2026-05-26T20:12:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I had breakfast this morning with a friend who runs AI in one of the world's biggest companies. He told me about their AI efforts, which are small and not that important yet. At the end of breakfast said \"big enterprise won't adopt AI in huge scale for two more years. At minimum. The nerds in San Francisco don't understand humans and how they adopt things.\"",
+          "link": "https://nitter.net/Scobleizer/status/2059336090902020520#m",
+          "date_utc": "2026-05-26T18:09:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "Eid Mubarak from all of us at @HUMAIN . This special occasion is a time for reflection and connection with our families, communities, colleagues, and partners around the world. As we celebrate, we are reminded that progress is built not only through innovation, but through shared purpose. Wishing you and your loved ones peace, happiness, and prosperity this Eid.",
+          "link": "https://nitter.net/TareqAmin_/status/2059320781700477421#m",
+          "date_utc": "2026-05-26T17:08:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "باسم جميع منسوبي @HUMAIN ، عيدكم مبارك. في هذه المناسبة السعيدة، نستلهم معاني التأمل والتواصل، ونحتفي بروابطنا مع عائلاتنا ومجتمعاتنا وزملائنا وشركائنا حول العالم. ومع حلول العيد، نستذكر أن التقدّم لا يُصنع بالابتكار وحده، بل بروح مشتركة وهدف واحد يجمعنا. نتمنى لكم ولأحبائكم عيدًا يملؤه السلام والسعادة والازدهار.",
+          "link": "https://nitter.net/TareqAmin_/status/2059320680777208224#m",
+          "date_utc": "2026-05-26T17:08:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The crackdown continues. 💪 U.S. Department of Labor (@USDOL) At the Department of Labor, protecting taxpayer dollars is a TOP priority. We are proud to work alongside @VP and the @WHFraudTF to investigate fraud and recover taxpayer dollars. THE CRACKDOWN CONTINUES! 💪 — https://nitter.net/USDOL/status/2059401176811032791#m",
+          "link": "https://nitter.net/WHFraudTF/status/2059409090204356997#m",
+          "date_utc": "2026-05-26T22:59:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "BILLIONS with a Big Beautiful B! 🇺🇸 William Martin (@VPDCOS) 🚨NY Post: Vice President JD Vance touts billions of dollars recovered from fraudsters nypost.com/2026/05/26/us-new… — https://nitter.net/VPDCOS/status/2059356625924731388#m",
+          "link": "https://nitter.net/WHFraudTF/status/2059387049057169566#m",
+          "date_utc": "2026-05-26T21:31:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Jason Ai. Williams (@GoingParabolic) Joe Biden — https://nitter.net/GoingParabolic/status/2059470985879838744#m",
+          "link": "https://nitter.net/brivael/status/2059494649694162988#m",
+          "date_utc": "2026-05-27T04:39:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bazooka sur les deux 𝑹𝒐𝒈𝒆𝒓 𝑹𝒊𝒄𝒂𝒏𝒆 (𝒅'𝒆𝒔𝒔𝒆𝒏𝒄𝒆) 🛢️ (@rrrrr0geri0) Gauche 😎 ou droite 🤢 ? — https://nitter.net/rrrrr0geri0/status/2059363361712636333#m",
+          "link": "https://nitter.net/brivael/status/2059494538205356168#m",
+          "date_utc": "2026-05-27T04:38:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂 Brigham's Burner (@FiredUpCoug) The Ferrari Duce. — https://nitter.net/FiredUpCoug/status/2059455272717000719#m",
+          "link": "https://nitter.net/brivael/status/2059494191650980008#m",
+          "date_utc": "2026-05-27T04:37:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Woke mind virus 🦠 Why is Disney’s shitty movie? Why is Netflix’s too? The market never asks this. The 9% (NPC) tyranny on the 90% (CONSUMER) and 1% (BUILDERS). Almost finished period. La Frugaliste Futee (@FrugalisteFutee) Pourquoi Ferrari investit autant d'efforts pour détruire son image de marque ? — https://nitter.net/FrugalisteFutee/status/2059489395271721200#m",
+          "link": "https://nitter.net/brivael/status/2059494139876544977#m",
+          "date_utc": "2026-05-27T04:37:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Who made that???? naiive (@naiivememe) guys, this trend has gone too far, please stop ❌ — https://nitter.net/naiivememe/status/2059466900254695516#m",
+          "link": "https://nitter.net/brivael/status/2059493323111330129#m",
+          "date_utc": "2026-05-27T04:34:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon musk US Elon musk Chinois Elon musk Européen Le ₿unker 🪖 (@LeBunkerBtc) Jancovici, le Elon Musk Français ? S’appeler Jean-Marc Répéter constamment : \"Oh la la le ciel va nous tomber sur la tête !\" Faire le prof à mi-temps à Mines ParisTech pour culpabiliser les futurs polytechniciens et patrons du CAC40 En profiter pour se payer une image de mec désintéressé Conseiller les gouvernements et leur murmurer qu'il faut absolument réguler, limiter et surtout TAXER. Taxer pour pouvoir aussi subventionner l'urgence climatique et l'ESG Avoir son entreprise Carbone 4 qui aide précisément les entrep",
+          "link": "https://nitter.net/brivael/status/2059491412270350560#m",
+          "date_utc": "2026-05-27T04:26:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Paris is so beautiful — https://nitter.net/brivael/status/2059490451082629207#m",
+          "link": "https://nitter.net/brivael/status/2059490886594035748#m",
+          "date_utc": "2026-05-27T04:24:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Paris is so beautiful — https://nitter.net/brivael/status/2059490451082629207#m",
+          "link": "https://nitter.net/brivael/status/2059490692619980829#m",
+          "date_utc": "2026-05-27T04:23:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Paris is so beautiful",
+          "link": "https://nitter.net/brivael/status/2059490451082629207#m",
+          "date_utc": "2026-05-27T04:22:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. But knowing which combined ideas are the good ones is the key. AI systems (for now) don’t have any form of awareness about what’s good, what’s average, and what’s bad. It’s deeply linked to feeling the gut. Silicon and LLMs reproduce systems that perfectly follow patterns we’ve already explored. They can extrapolate new patterns with a kind of logic, but they still need human consciousness to guide the iterative process. The “taste.” Christian Catalini (@ccatalini) Most innovation is simply some form of recombination of ideas (both intrapolation/extrapolation in @demishassabis ’ taxonomy)",
+          "link": "https://nitter.net/brivael/status/2059476217145786539#m",
+          "date_utc": "2026-05-27T03:26:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis d’accord Jon De Lorraine (@jon_delorraine) Non. — https://nitter.net/jon_delorraine/status/2059016608559911402#m",
+          "link": "https://nitter.net/brivael/status/2059472522651812339#m",
+          "date_utc": "2026-05-27T03:11:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The world without communism.",
+          "link": "https://nitter.net/brivael/status/2059472299690959057#m",
+          "date_utc": "2026-05-27T03:10:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Si on devait designer un PNJ qui incarne la nullité, on ferait Raphaël Glucksmann. Une synthèse paroxystique de la nullité incarnée. C’est la version chimiquement de la nullité. Meme la nullité est gênée par autant de nullité. 😂 TF1Info (@TF1Info) 🔴 Raphaël Glucksmann @rglucks1 (eurodéputé Place publique) : 🗣️ \"J'ai envie de me battre pour mon pays. (...) J'ai envie de me battre pour ces millions de travailleurs français qui n'arrivent pas à boucler leurs fins de mois (...) j'ai envie que la France redevienne la France\" Video — https://nitter.net/TF1Info/status/2059343925618368871#m",
+          "link": "https://nitter.net/brivael/status/2059471891795005907#m",
+          "date_utc": "2026-05-27T03:08:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pick the hardcore. Tim Denning (@Tim_Denning) Choose the most insane option every time. — https://nitter.net/Tim_Denning/status/2059338549036552547#m",
+          "link": "https://nitter.net/brivael/status/2059465000872214682#m",
+          "date_utc": "2026-05-27T02:41:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "West 🚀🔥 Morning Brew ☕️ (@MorningBrew) The World's 10 Largest Stock Markets (by total market cap): 🇺🇸 $77.95T 🇨🇳 $15.61T 🇯🇵 $8.70T 🇭🇰 $7.25T 🇹🇼 $4.95T 🇮🇳 $4.92T 🇰🇷 $4.54T 🇨🇦 $4.54T 🇬🇧 $3.99T 🇫🇷 $3.50T — https://nitter.net/MorningBrew/status/2059341255813783634#m",
+          "link": "https://nitter.net/brivael/status/2059464401195782490#m",
+          "date_utc": "2026-05-27T02:39:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Probably Night Sky Today (@NightSkyToday) 🚨: Recent research reveals that consciousness is rooted within quantum physics. — https://nitter.net/NightSkyToday/status/2059431893544718602#m",
+          "link": "https://nitter.net/brivael/status/2059463999024976070#m",
+          "date_utc": "2026-05-27T02:37:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bryan Johnson (@bryan_johnson) Modern life has tricked us into thinking travel is good. It's kind of barbaric for the body. Last time I went to Asia we measured my biomarkers. The data was bad… + 9 days for blood glucose stability + 9 days to re-entrain my circadian rhythm + 18 days for sleep architecture recovery The research: + people who travel constantly for work (3+ wks a month) have measurably more anxiety, depression, and drinking problems than people who don’t + repeated jet lag is linked to memory-region shrinkage in flight crews + your immune system takes a hit. Dry cabin air dries o",
+          "link": "https://nitter.net/brivael/status/2059462741962719470#m",
+          "date_utc": "2026-05-27T02:32:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Weekly style inspiration by @doganuraldesign made with Grok Imagine Try the prompt: Studio product shot of [a tabletop record player boasting a massive, solid metal spinning platter], industrial design, matte sandblasted aluminum, vibrant safety orange accents, minimalist geometric shapes, retro-futuristic functionalism, cantilevered structures, flathead screw pivot details, soft studio lighting, smooth gradient background, dramatic drop shadows, clean metallic textures, high-end product rendering, utilitarian aesthetics, stark contrasting elements.",
+          "link": "https://nitter.net/imagine/status/2059371977060835585#m",
+          "date_utc": "2026-05-26T20:31:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Custom skills are how Kilo Code agents get extended. Anyone can drop one in. Brian's skill: github.com/bturcotte520/holo…",
+          "link": "https://nitter.net/kilocode/status/2059391496965493083#m",
+          "date_utc": "2026-05-26T21:49:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://github.com/bturcotte520/holographic-renderings",
+              "content": "GitHub - bturcotte520/holographic-renderings: Skill for 3D holographic animations · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small a"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Brian built a 3D Starship simulator in Kilo Code with @xai 's Grok Build 0.1. Two prompts. 35 cents. Under 5 minutes. The skill that made it possible is open source 👇 Brian Turcotte (@coldopn) Grok Build 0.1 just blew my mind in Kilo Code. $0.35 for a 3D, holographic @SpaceX Starship simulator. 1 prompt with the rocket specs. 1 prompt with the launch animation details. Pretty remarkable stuff from the @xai team. Video — https://nitter.net/coldopn/status/2059386871155736747#m",
+          "link": "https://nitter.net/kilocode/status/2059391145998733412#m",
+          "date_utc": "2026-05-26T21:48:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "MiMo-V2.5 just got up to 99% cheaper. MiMo-V2.5: $0.14 in / $0.28 out per 1M tokens. MiMo-V2.5-Pro: $0.435 in / $0.87 out per 1M tokens. Flat pricing regardless of context length. All available in Kilo Code. Xiaomi MiMo (@XiaomiMiMo) 🚀 Better inference efficiency, lower costs, broader access. MiMo-V2.5 Series API pricing is now permanently reduced — by up to 99% compared to previous pricing. ✨ Unified pricing across all context lengths. MiMo Token Plans have also been upgraded: • 5–8× more usable tokens at the same price • Simpler and more transparent billing rules 🎁 As a thank-you to current ",
+          "link": "https://nitter.net/kilocode/status/2059343880080834966#m",
+          "date_utc": "2026-05-26T18:40:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Real builds. Real costs. Real receipts. These are some of the apps Grok Build 0.1 built in Kilo Code last week, for a total of $0.50 across all five. The same workflow you'd use to build your own. Kilo Code v7 for VS Code is #1 Product of the Month on @ProductHunt , with the vote closing Sunday. If you've been watching what we do here, this is the one ask we have. Vote for us: producthunt.com/products/kil…",
+          "link": "https://nitter.net/kilocode/status/2059331232366764308#m",
+          "date_utc": "2026-05-26T17:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "The timeline is healing Big Tech Alert (@BigTechAlert) 🚫 @elonmusk is no longer following @MarioNawfal — https://nitter.net/BigTechAlert/status/2059380216141697064#m",
+          "link": "https://nitter.net/ns123abc/status/2059394838521380925#m",
+          "date_utc": "2026-05-26T22:02:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Altman in prison by 2030 Katie Miller (@KatieMiller) 🚨An AI Coalition of 60 civic and advocacy groups is asking @AGRobBonta to investigate the multibillion-dollar agreement to buy computing capacity from Cerebras Systems. Sam Altman & Greg Brockman are both large personal investors in Cerebras. Greg testified under oath that he concealed his personal stake from @elonmusk . The coalition told AG Bonta that these equity positions constitute “evidence of self-dealing.” OpenAI’s spending helped drive Cerebras’ valuation from roughly $8 billion to $23 billion. The company is now going public at a v",
+          "link": "https://nitter.net/ns123abc/status/2059394034079056017#m",
+          "date_utc": "2026-05-26T21:59:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article315863564.html",
+              "content": "EyesOnOpenAI urges investigation of OpenAI–Cerebras deal | Sacramento Bee Read today&#39;s Edition Log In | Subscribe Welcome Back! Edit Profile My Subscriptions { document.cookie = `${cookieName}=; domain=${domain}; path=/; max-age=-1000`; }); window.location.href = this.href;\"> Sign Out 60°F News Sports Voter Guide Politics Restaurants Opinion Games Obituaries Finance Classifieds Careers Home Customer Service About Us Archives Cancel Subscription Contact Us Customer Service Subscribe Advertise Contact McClatchy Advertising Stay Connected Newsletters Mobile Apps Social Media Facebook Twitter Instagram YouTube TikTok Read today&#39;s Edition Sacramento Favorites Local Events News Local Crime Equity Lab Education Health Medicine California National Weather Investigations Business Personal F"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 BREAKING: US Space Force just awarded SpaceX $2.29B for Starshield fully operational military LEO constellation U.S. Government owned + SpaceX operated prototype required by end of 2027 SpaceX is building the backbone of American space dominance.",
+          "link": "https://nitter.net/ns123abc/status/2059379406653509929#m",
+          "date_utc": "2026-05-26T21:01:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Teor is a literal CCP-backed account btw Elon Musk (@elonmusk) wtf you talking about, kid? I co-founded OpenAI ten years ago. I understand the difficulty. — https://nitter.net/elonmusk/status/2059341684702412911#m",
+          "link": "https://nitter.net/ns123abc/status/2059369588832219521#m",
+          "date_utc": "2026-05-26T20:22:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Elon Musk absolutely MOGGED Teortaxes 💀",
+          "link": "https://nitter.net/ns123abc/status/2059359950636281959#m",
+          "date_utc": "2026-05-26T19:44:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Reuters: \"SpaceX hiked prices on Pentagon during Iran war\" SpaceX CEO: \"Reuters article is false.\" 🚨 What actually happened: A U.S. defense contractor (SpektreWorks) put civilian Starlink terminals on LUCAS suicide drones for guidance and targeting without SpaceX's authorization. This is a direct violation of Starlink's Terms of Service, which prohibit use on weapon systems. SpaceX has a separate military product for this: Starshield. When SpaceX found out the unauthorized use, they flagged the violation and adjusted pricing to reflect the aviation-tier service the drones were actually consumi",
+          "link": "https://nitter.net/ns123abc/status/2059353533074616708#m",
+          "date_utc": "2026-05-26T19:18:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "We built the NVIDIA Vera CPU for agentic AI, and the latest benchmarks from @Phoronix confirm it delivers. ⚡1.5x overall performance vs. leading x86 processors ⚡2x faster Linux kernel compilation ⚡4x greater STREAM TRIAD memory bandwidth Vera achieves the performance that AI factories need for complex agentic workloads. Learn more: nvda.ws/4f67FtX",
+          "link": "https://nitter.net/nvidia/status/2059387019109826953#m",
+          "date_utc": "2026-05-26T21:31:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4f67FtX",
+              "content": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition | NVIDIA Blog Skip to content NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition In the new Phoronix benchmark, Vera delivers winning performance and memory results for agentic AI. May 26, 2026 by Diana Aung 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The shift to agentic AI creates a new CPU requirement for the AI factory: fast cores, massive memory bandwidth and the ability to sustain high performance when all cores are active. Initial benchmark results published by Phoronix today show that the NVIDIA Vera CPU meets this need. For this first public look, the benchmark scope was centered on the agentic workloads Vera was designed for in the modern data center. The "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass is guilty of a misdemeanor in violation of election law. Spencer Pratt (@spencerpratt) Karen Bass just violated election law here. She is so accustomed to breaking the law with no accountability, she even filmed herself doing it. Well, those days are over. We just filed a formal complaint for illegally gaming the election. We must protect our democracy. Electioneering within 100 feet of a ballot box is AGAINST THE LAW. Soliciting votes at a ballot box is AGAINST THE LAW. These clear violations show a reckless disregard for the rule of law and our democratic process. Someone in a pos",
+          "link": "https://nitter.net/spencerpratt/status/2059388583124029951#m",
+          "date_utc": "2026-05-26T21:37:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Hey Lisa, if you're against me because I was on a TV show in my 20's, wait til you learn what Karen Bass was doing in her 20's... Video Variety (@Variety) Lisa Rinna says she doesn’t want to see a reality star like Spencer Pratt as the mayor of Los Angeles: “I’m a reality person. You wouldn’t want me as mayor!” #AMAs Video — https://nitter.net/Variety/status/2059050883636207967#m",
+          "link": "https://nitter.net/spencerpratt/status/2059352118256194022#m",
+          "date_utc": "2026-05-26T19:13:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "An important message from my friends in Koreatown who will never forget what Karen Bass did to their community: an endorsement of Karen Bass is an endorsement of racism. Video",
+          "link": "https://nitter.net/spencerpratt/status/2059345910501642388#m",
+          "date_utc": "2026-05-26T18:48:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass cheered on the destruction of Koreatown in the riots, and now she's calling my Korean supporters \"AI cartoons\". We must stop this Asian hate coming from Mayor Bass. We cannot have a racist like her in charge of such a diverse city. Video Matthew Seedorff (@MattSeedorff) A spokesperson for @KarenBassLA ’s campaign is pushing back, telling me: “ @spencerpratt is just mad that his supporters are AI cartoons and we have real Angelenos. We follow the rules.” The campaign says the rally area with signs and the ballot drop box were filmed in separate locations more than 200 feet apart. — h",
+          "link": "https://nitter.net/spencerpratt/status/2059340817396072758#m",
+          "date_utc": "2026-05-26T18:28:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Our city streets have been so neglected by Karen Bass, these aren't just potholes...they're BASSHOLES. How many tires have you popped on these streets? No wonder nobody can afford living in LA anymore. Spencer Pratt (@spencerpratt) People always ask me, “how can we fix LA? We don’t have the money!” We have the money…it’s just being stolen! You wanna fix the budget? END THE FRAUD. I will bust the scammers and put your tax dollars back to work for YOU. Video — https://nitter.net/spencerpratt/status/2059096268056711358#m",
+          "link": "https://nitter.net/spencerpratt/status/2059334332305838455#m",
+          "date_utc": "2026-05-26T18:02:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
