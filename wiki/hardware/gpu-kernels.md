@@ -2,6 +2,10 @@
 
 How AI computations are mapped to the specific instruction sets and memory hierarchies of GPU and accelerator hardware. Kernel optimization determines how efficiently a model actually runs — the gap between theoretical peak FLOPS and real throughput.
 
+## Current State (as of 2026-05-27)
+
+**Activation sparsity gets its own kernels (2026-05-27): RT-Lynx.** [RT-Lynx](../inference-efficiency/2026-05-27-rt-lynx-activation-sparsity-diffusion.md) flips diffusion-transformer sparsification from weights to activations, on the empirical finding that DiT activations are intrinsically sparse and far more robust to N:M semi-structured sparsification (keep N of every M values, maps to sparse-tensor-core hardware) than weights, which lose capacity when pruned. With error compensation and hand-optimized CUDA kernels for the activation-sparse GEMM (sparsify the dynamic operand, not the static weight), it reaches up to 1.55x average linear-layer speedup at preserved generation quality. The open thread: whether the kernel-generation agents tracked here (AccelOpt, AgentKernelArena, KernelBench-X) can auto-produce activation-sparse kernels rather than hand-tuning them.
+
 ## Current State (as of 2026-04-21)
 
 Kernel optimization is one of the hardest bottlenecks in production AI: hardware-specific, expert-intensive, and time-consuming. The dominant paradigm has been hand-tuned kernels by specialists (CUDA experts for NVIDIA, NKI experts for AWS Trainium). AccelOpt demonstrated LLM-agent-based automation; Nemotron 3 Super now shows the architectural path forward — hybrid SSM+MoE with native FP4 training and built-in speculative decoding, compressing the throughput gains from architectural decisions rather than kernel tuning alone. The SemiAnalysis goodput framework adds the economic layer: even optimal kernel performance gets negated by poor cluster reliability.
