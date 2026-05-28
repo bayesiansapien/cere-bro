@@ -31,13 +31,13 @@ BES forward + backward:
 
 ## How this fits prior wiki state
 
-BES is the cleanest formal argument so far for why pure best-of-N hits a ceiling on hard problems: the candidates are samples from the same posterior, so they cover one narrow region of the solution space. This connects to yesterday's CPT ([[2026-05-27-cpt-collaborative-parallel-thinking]]) which observed empirically that parallel reasoning branches re-derive each other's work; BES gives a formal frame for that observation and an operational fix (recombination operators). The backward-decomposition half connects to the "sparse-to-dense reward" line ([[2026-05-13-sparse-to-dense-reward-principle]]) — both are about turning a thin terminal signal into a thicker intermediate one.
+BES is the cleanest formal argument so far for why pure best-of-N hits a ceiling on hard problems: the candidates are samples from the same posterior, so they cover one narrow region of the solution space. This connects to yesterday's CPT ([[2026-05-27-cpt-collaborative-parallel-thinking]]) which observed empirically that parallel reasoning branches re-derive each other's work; BES gives a formal frame for that observation and an operational fix (recombination operators). The backward-decomposition half connects to the "sparse-to-dense reward" line ([[2026-05-13-sparse-to-dense-reward-principle]]), both are about turning a thin terminal signal into a thicker intermediate one.
 
 ## Related pages
 
-- [[2026-05-27-cpt-collaborative-parallel-thinking]] — empirical version of the entropy-shell problem
-- [[2026-05-13-sparse-to-dense-reward-principle]] — dense intermediate feedback
-- [[2026-04-20-stop-path-pruning-parallel-reasoning]] — pruning parallel reasoning
+- [[2026-05-27-cpt-collaborative-parallel-thinking]], empirical version of the entropy-shell problem
+- [[2026-05-13-sparse-to-dense-reward-principle]], dense intermediate feedback
+- [[2026-04-20-stop-path-pruning-parallel-reasoning]], pruning parallel reasoning
 
 ## Research angle
 

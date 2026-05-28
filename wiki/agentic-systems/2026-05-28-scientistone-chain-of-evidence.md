@@ -35,11 +35,11 @@ The 5x fabricated-reference scaling reported in ResearchMath-14K ([[2026-05-28-r
 
 ## Related pages
 
-- [[2026-05-28-ai-research-agents-narrow-exploration]] — ideation breadth without verifiers
-- [[2026-05-28-autoscientists-self-organizing-teams]] — verifier-anchored multi-agent discovery
-- [[2026-05-28-researchmath-14k]] — fabricated-reference scaling in newer models
-- [[2026-05-28-omniverifier-m1]] — multimodal symbolic verification with decoupled RL
-- [[multi-agent-systems]] — concept page
+- [[2026-05-28-ai-research-agents-narrow-exploration]], ideation breadth without verifiers
+- [[2026-05-28-autoscientists-self-organizing-teams]], verifier-anchored multi-agent discovery
+- [[2026-05-28-researchmath-14k]], fabricated-reference scaling in newer models
+- [[2026-05-28-omniverifier-m1]], multimodal symbolic verification with decoupled RL
+- [[multi-agent-systems]], concept page
 
 ## Research angle
 

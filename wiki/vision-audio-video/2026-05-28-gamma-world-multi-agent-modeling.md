@@ -10,14 +10,14 @@ Interactive world models so far have mostly handled one or two agents. Gamma-Wor
 
 ```
 Cross-agent attention cost:
-  Dense all-to-all:    O(N²) — quadratic in agent count, doesn't scale
-  Sparse hub:          O(N)  — learnable hub tokens mediate
+  Dense all-to-all:    O(N²), quadratic in agent count, doesn't scale
+  Sparse hub:          O(N) , learnable hub tokens mediate
                        ●─┐ ┌─●
                           └●┘   ← hub token
                        ●─┘ └─●
 
 Agent identity:
-  Slot embedding:      learned per-agent — breaks permutation symmetry
+  Slot embedding:      learned per-agent, breaks permutation symmetry
   SRAE:                each agent → simplex vertex in rotary phase
                        parameter-free, permutation-equivalent, scales
 ```
@@ -36,9 +36,9 @@ The Sparse Hub Attention idea is the same architectural pattern as MISA (mixture
 
 ## Related pages
 
-- [[2026-05-11-misa-mixture-of-indexer-sparse-attention]] — sparse attention mediated by indexer tokens
-- [[2026-05-22-worldkv-world-memory-retrieval-compression]] — world model KV compression
-- [[2026-05-19-longlive-2-nvfp4-parallel-infrastructure-long-video]] — long-video parallel infrastructure
+- [[2026-05-11-misa-mixture-of-indexer-sparse-attention]], sparse attention mediated by indexer tokens
+- [[2026-05-22-worldkv-world-memory-retrieval-compression]], world model KV compression
+- [[2026-05-19-longlive-2-nvfp4-parallel-infrastructure-long-video]], long-video parallel infrastructure
 
 ## Research angle
 

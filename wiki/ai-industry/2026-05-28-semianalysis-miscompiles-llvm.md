@@ -20,16 +20,16 @@ A compiler engineer with a decade of ML compiler experience (Google, Waymo, Open
 
 ## How this fits prior wiki state
 
-Today's pair from r/CUDA and r/MachineLearning shows AI generating speed-of-light kernels (doubleAI) and AI-generated kernels silently breaking training (the bf16 embedding-grad bug). SemiAnalysis adds a third leg: AI agents finding latent bugs in human-written compilers at industrial rates. The combined picture this week is that AI is now competitive in three roles in the low-level compute stack — author, auditor, breaker — and the audit role is the most surprising piece.
+Today's pair from r/CUDA and r/MachineLearning shows AI generating speed-of-light kernels (doubleAI) and AI-generated kernels silently breaking training (the bf16 embedding-grad bug). SemiAnalysis adds a third leg: AI agents finding latent bugs in human-written compilers at industrial rates. The combined picture this week is that AI is now competitive in three roles in the low-level compute stack, author, auditor, breaker, and the audit role is the most surprising piece.
 
 The atomic-store-to-non-atomic-store bug is the kind of latent issue that fuzzing usually misses, because fuzzing atomics is hard. Agent-driven static analysis closes that gap. The wider implication: production compilers' bug surface is much larger than the bugs that the compiler community has the bandwidth to surface manually.
 
 ## Related pages
 
-- [[2026-05-28-doubleai-blackwell-sol-execbench]] — AI-written speed-of-light kernels
-- [[2026-05-28-ai-kernels-silently-break]] — AI-written kernels silently breaking training
-- [[gpu-kernels]] — concept page
+- [[2026-05-28-doubleai-blackwell-sol-execbench]], AI-written speed-of-light kernels
+- [[2026-05-28-ai-kernels-silently-break]], AI-written kernels silently breaking training
+- [[gpu-kernels]], concept page
 
 ## Research angle
 
-The economics of $10K/afternoon for hundreds of compiler bugs is a clean number to track. If that rate holds, then bug-discovery has moved from "expensive expert time" to "moderate compute spend." The risk is asymmetric: open-source compilers benefit (AMD already fixed five), closed-source compilers (ptxas) are exposed in a way they cannot defend by fixing — only by adversarial fuzzers and selective disclosure. NVIDIA's position on this matters. The next year's interesting paper would track whether bug-fix rates in open compilers keep up with the discovery rate from AI agents, or whether the gap grows.
+The economics of $10K/afternoon for hundreds of compiler bugs is a clean number to track. If that rate holds, then bug-discovery has moved from "expensive expert time" to "moderate compute spend." The risk is asymmetric: open-source compilers benefit (AMD already fixed five), closed-source compilers (ptxas) are exposed in a way they cannot defend by fixing, only by adversarial fuzzers and selective disclosure. NVIDIA's position on this matters. The next year's interesting paper would track whether bug-fix rates in open compilers keep up with the discovery rate from AI agents, or whether the gap grows.

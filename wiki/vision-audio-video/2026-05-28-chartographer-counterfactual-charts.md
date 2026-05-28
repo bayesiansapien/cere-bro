@@ -23,10 +23,10 @@ The Chartographer trick of reverse-engineering data into generative code so coun
 
 ## Related pages
 
-- [[2026-05-28-livebrowsecomp-search-agents-priors]] — eval-rigor finding on search agents
-- [[2026-05-28-vibesearchbench-long-horizon-search]] — progressive-disclosure user simulator
-- [[2026-05-28-hrbench-thinking-mode-switch]] — thinking-mode benchmarking
-- [[agent-benchmarks]] — concept page
+- [[2026-05-28-livebrowsecomp-search-agents-priors]], eval-rigor finding on search agents
+- [[2026-05-28-vibesearchbench-long-horizon-search]], progressive-disclosure user simulator
+- [[2026-05-28-hrbench-thinking-mode-switch]], thinking-mode benchmarking
+- [[agent-benchmarks]], concept page
 
 ## Research angle
 

@@ -14,7 +14,7 @@ Per-step MTP contribution to RL objective:
           - β · [second-order perturbation penalty: persists]
                                           ▲
                                           │
-             Detach    : drops both terms — safe, leaves MTP signal unused
+             Detach    : drops both terms, safe, leaves MTP signal unused
              CE-joint  : keeps both, penalty wins, performance degrades
              Policy-joint: correlation decays, penalty persists, also degrades
              OCC       : track α/β online via log-prob proxy, adapt coefficient
@@ -30,13 +30,13 @@ Per-step MTP contribution to RL objective:
 
 ## How this fits prior wiki state
 
-This sits at the intersection of three threads. First, MTP-in-llama.cpp (2026-05-17) brought practical multi-token-prediction inference to local stacks; OCC is the corresponding training-side story. Second, the RLVR-reward-hacking work in Kurate top-10 ([[2026-05-28#worth-watching]] — "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking", cs.LG #11) is the same RL-fragility frame. Third, the broader on-policy distillation efficiency line (ESR, today; TIP, 2026-04-16; LongAct, 2026-04-18) is also about which auxiliary signals carry useful gradient during what training phase.
+This sits at the intersection of three threads. First, MTP-in-llama.cpp (2026-05-17) brought practical multi-token-prediction inference to local stacks; OCC is the corresponding training-side story. Second, the RLVR-reward-hacking work in Kurate top-10 ([[2026-05-28#worth-watching]], "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking", cs.LG #11) is the same RL-fragility frame. Third, the broader on-policy distillation efficiency line (ESR, today; TIP, 2026-04-16; LongAct, 2026-04-18) is also about which auxiliary signals carry useful gradient during what training phase.
 
 ## Related pages
 
-- [[2026-05-17-mtp-llama-cpp-merge-strix-halo-benchmarks]] — MTP inference adoption
-- [[2026-05-21-ik-llamacpp-mtp-cpu-offload-qwen36]] — MTP CPU offload
-- [[2026-05-28-less-is-more-esr-on-policy-distillation]] — front-loaded signal in distillation
+- [[2026-05-17-mtp-llama-cpp-merge-strix-halo-benchmarks]], MTP inference adoption
+- [[2026-05-21-ik-llamacpp-mtp-cpu-offload-qwen36]], MTP CPU offload
+- [[2026-05-28-less-is-more-esr-on-policy-distillation]], front-loaded signal in distillation
 
 ## Research angle
 

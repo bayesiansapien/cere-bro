@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-24T16:30:03.177447+00:00",
+  "following_last_checked": "2026-05-28T03:30:16.809690+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -65,7 +65,9 @@
     "jon",
     "DuncanPenn",
     "BretWJ",
-    "10DowningStreet"
+    "10DowningStreet",
+    "ddueri0",
+    "RobertIsom_"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -470,6 +472,15 @@
     {
       "handle": "NICKIMINAJ",
       "name": "Nicki Minaj",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "name": "Sean Parnell",
       "org": "Independent",
       "timezone": "PT",
       "focus": [

@@ -30,17 +30,17 @@ AXPO:
 ## How this fits prior wiki state
 
 The "all-wrong group" problem is essentially a credit-assignment failure. It connects to two prior threads:
-- AKBE (2026-05-27, knowledge-boundary tool use) — also a tool-call discipline problem, but framed as "don't call the tool when intrinsic knowledge suffices." AXPO and AKBE attack from opposite ends: AKBE reduces the rate of low-signal tool calls, AXPO improves the gradient when tool calls do happen.
-- T2PO (2026-05-05, uncertainty multi-turn RL) — also uses uncertainty for sample selection. AXPO's uncertainty-based prefix selection extends the same idea to the tool-call setting.
+- AKBE (2026-05-27, knowledge-boundary tool use), also a tool-call discipline problem, but framed as "don't call the tool when intrinsic knowledge suffices." AXPO and AKBE attack from opposite ends: AKBE reduces the rate of low-signal tool calls, AXPO improves the gradient when tool calls do happen.
+- T2PO (2026-05-05, uncertainty multi-turn RL), also uses uncertainty for sample selection. AXPO's uncertainty-based prefix selection extends the same idea to the tool-call setting.
 
 The bigger pattern: across yesterday's CPT/DarkForest/AKBE plus today's AXPO, the field is converging on the same diagnosis. The current RL training stack wastes gradient on rollouts that look bad but had no chance of being useful. The remedies all involve some form of selective resampling or selective trust.
 
 ## Related pages
 
-- [[2026-05-27-akbe-knowledge-boundary-tool-use]] — opposite-end tool-call discipline
-- [[2026-05-05-t2po-uncertainty-multi-turn-rl]] — uncertainty for sample selection
-- [[2026-05-27-cpt-collaborative-parallel-thinking]] — share findings across parallel branches
-- [[tool-calling]] — concept page
+- [[2026-05-27-akbe-knowledge-boundary-tool-use]], opposite-end tool-call discipline
+- [[2026-05-05-t2po-uncertainty-multi-turn-rl]], uncertainty for sample selection
+- [[2026-05-27-cpt-collaborative-parallel-thinking]], share findings across parallel branches
+- [[tool-calling]], concept page
 
 ## Research angle
 

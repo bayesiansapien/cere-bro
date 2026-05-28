@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-DoubleAI's AI performance-engineering system ran on NVIDIA's new SOL-ExecBench (Speed-of-Light Execution Benchmark, 235 production kernels lifted from DeepSeek, Qwen, Gemma, Kimi, scored on Blackwell B200) and topped every kernel class with 90% wins versus the optimized baseline and 2.24x average speedup. Several generated kernels reportedly reached "speed of light" — the least time physically possible on the hardware — including grouped-query attention for Qwen3-14B with NVFP4 inference at 14.9x over the optimized baseline, and warp-specialized single-CTA tcgen05 NVFP4 pipelined GEMM for Qwen3-VL-32B.
+DoubleAI's AI performance-engineering system ran on NVIDIA's new SOL-ExecBench (Speed-of-Light Execution Benchmark, 235 production kernels lifted from DeepSeek, Qwen, Gemma, Kimi, scored on Blackwell B200) and topped every kernel class with 90% wins versus the optimized baseline and 2.24x average speedup. Several generated kernels reportedly reached "speed of light", the least time physically possible on the hardware, including grouped-query attention for Qwen3-14B with NVFP4 inference at 14.9x over the optimized baseline, and warp-specialized single-CTA tcgen05 NVFP4 pipelined GEMM for Qwen3-VL-32B.
 
 ## Key findings
 
@@ -26,9 +26,9 @@ The doubleAI result also continues the gpu-kernels concept thread, alongside Acc
 
 ## Related pages
 
-- [[gpu-kernels]] — concept page
-- [[2026-04-20-accelopt-gpu-kernel-optimization]] — earlier GPU kernel optimization agent
-- [[2026-05-19-agentkernelarena-gpu-kernel-optimization-agents-benchmark]] — kernel-agent benchmark
+- [[gpu-kernels]], concept page
+- [[2026-04-20-accelopt-gpu-kernel-optimization]], earlier GPU kernel optimization agent
+- [[2026-05-19-agentkernelarena-gpu-kernel-optimization-agents-benchmark]], kernel-agent benchmark
 
 ## Research angle
 

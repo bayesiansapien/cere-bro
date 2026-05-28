@@ -41,10 +41,10 @@ The SkillOpt thread (Ken Huang, today via Gmail+RSS, plus prior page [[2026-05-2
 
 ## Related pages
 
-- [[2026-05-25-skillopt-executive-optimizer-agent-skills]] — text-space skill optimization
-- [[2026-05-26-memforest-hierarchical-temporal-agent-memory]] — hierarchical episodic memory
-- [[2026-05-27-sam-state-adaptive-memory]] — state-adaptive memory in agents
-- [[agent-memory]] — concept page
+- [[2026-05-25-skillopt-executive-optimizer-agent-skills]], text-space skill optimization
+- [[2026-05-26-memforest-hierarchical-temporal-agent-memory]], hierarchical episodic memory
+- [[2026-05-27-sam-state-adaptive-memory]], state-adaptive memory in agents
+- [[agent-memory]], concept page
 
 ## Research angle
 
