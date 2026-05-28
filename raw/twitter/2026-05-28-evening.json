@@ -1,0 +1,768 @@
+{
+  "date": "2026-05-28",
+  "slot": "evening",
+  "scraped_ist": "2026-05-28 22:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@zxlzr",
+      "text": "Introducing MemTrace: Making LLM Memory Systems Finally Debuggable 🔍🧠 Memory is becoming a core component of AI agents. But today’s memory systems are still a \"black box\". When a memory-augmented agent fails, the real error may have happened: - dozens of turns earlier, - inside a retrieval step, - during memory consolidation, - or from a corrupted update that silently propagates over time. Existing logs cannot recover these long-range causal chains. MemTrace changes this. We introduce the automated tracing framework for LLM memory systems — turning opaque memory pipelines into transparent exec",
+      "link": "https://nitter.net/zxlzr/status/2059949480766787705#m",
+      "date_utc": "2026-05-28T10:46:42+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.28732",
+          "content": "Abstract: Memory is essential for enabling large language models to support long-horizon reasoning, yet existing memory systems remain unreliable and difficult to debug. Tracing memory&#39;s dynamic evolution is crucial to understand how information is synthesized, propagated, or corrupted over time. In this work, we study the new problem of error tracing and attribution in LLM memory systems. We propose a novel framework that transforms memory pipelines into executable memory evolution graphs, enabling fine-grained tracing of operational information flow. We then construct MemTraceBench, a benchmark collected from representative memory systems such as Long-Context, RAG, Mem0, and EverMemOS, to systematically study memory failure modes. We further introduce an automatic attribution method "
+        },
+        {
+          "url": "https://github.com/zjunlp/MemTrace",
+          "content": "GitHub - zjunlp/MemTrace: MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY "
+        },
+        {
+          "url": "https://github.com/zjunlp/smartcomment",
+          "content": "GitHub - zjunlp/smartcomment · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App M"
+        },
+        {
+          "url": "https://github.com/zjunlp/MemBase",
+          "content": "GitHub - zjunlp/MemBase: A Comprehensive Benchmarking Framework for Long-Term Conversational Memory Layers · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "A long-context AI can be poisoned by a few plausible wrong passages, not gradually worn down by many. At just 10% bad context, the damage is already almost done. “THE FIRST DROP OF INK ” effect, analogous to how a single drop of ink contaminates water. The mistake is to picture context as storage. In a long prompt, the model is not calmly filing facts into separate boxes; it is running a competition over which pieces of text deserve attention when the answer is generated. Hard distractors are dangerous because they are not random junk. They are close enough to the question to look useful, but ",
+      "link": "https://nitter.net/rohanpaul_ai/status/2059324362147442871#m",
+      "date_utc": "2026-05-26T17:22:42+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.10828",
+          "content": "Abstract: As large language models are increasingly deployed in retrieval-augmented generation and agentic systems that accumulate extensive context, understanding how distracting information affects long-context performance becomes critical. Prior work shows that semantically relevant yet misleading documents degrade performance, but the quantitative relationship between the proportion of distractors and performance remains unstudied. In this work, we systematically vary the hard-distractor proportion in fixed-length contexts, revealing a striking nonlinear pattern: as the proportion of hard distractors increases, performance drops sharply within the first small fraction, while the remainder of the range yields only marginal additional decline. We term this &#39;&#39;The First Drop of Ink"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "// Your Agents are Aging Too // Huh!? They need \"sleep,\" and now they are aging? Joke aside, great write-up on reliable agentic engineering. This new research introduces AgingBench, a longitudinal reliability benchmark. It organizes agent aging into four mechanisms, including compression aging and interference aging, and measures not just whether deployed agents degrade but what form the degradation takes and where repair should target. We benchmark agents on day one and then deploy them for months. That gap hides a basic systems question. How long does an agent stay reliable after deployment?",
+      "link": "https://nitter.net/omarsar0/status/2059689897523642510#m",
+      "date_utc": "2026-05-27T17:35:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2605.26302",
+          "content": "Abstract: Long-lived AI agents are increasingly deployed as persistent operational systems, yet they are still evaluated like freshly initialized models. Day-one benchmarks miss a basic systems question: how long does an agent remain reliable after deployment? Even when model weights are frozen, an agent&#39;s effective state keeps changing as it compresses interaction history, retrieves from a growing memory store, revises facts after updates, and undergoes routine maintenance. Reliability therefore becomes a lifespan property of the full agent harness, not only a snapshot property of the base model. We introduce AgingBench, a longitudinal reliability benchmark for agent lifespan engineering: measuring not only whether deployed agents degrade, but what form the degradation takes and where"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@alokbishoyi97",
+      "text": "x.com/i/article/205958122496…",
+      "link": "https://nitter.net/alokbishoyi97/status/2059610305408462898#m",
+      "date_utc": "2026-05-27T12:18:57+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@koylanai",
+      "text": "'Agent Harness Engineering: A Survey' just cited my Agent Skills for Context Engineering project in its Context & Memory Management section. It’s a new paper on OpenReview (authors from CMU, Yale, Johns Hopkins, Amazon + others). They reviewed 170+ open-source projects and pulled real production lessons from OpenAI, Anthropic, and LangChain. Agent performance in the real world = Model capability + Harness quality For long-horizon, multi-step, production tasks, the harness has become the main bottleneck. Simple harness tweaks (better tool formats, sandbox changes, automated verification loops) ",
+      "link": "https://nitter.net/koylanai/status/2059753045060395240#m",
+      "date_utc": "2026-05-27T21:46:08+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": [
+        {
+          "url": "https://picrew.github.io/LLM-Harness/",
+          "content": "Agent Harness Engineering: A Survey Agent Harness Engineering: A Survey Junjie Li 1,6, , Xi Xiao 6, , Yunbei Zhang 5, , Chen Liu 2, , Lin Zhao 4 , Xiaoying Liao 3 , Yingrui Ji 6 , Janet Wang 5 , Jianyang Gu 7 , Yingqiang Ge 9 , Weijie Xu 9 , Xi Fang 9 , Xiang Xu 9 , Tianchen Zhao 9 , Youngeun Kim 9 , Tianyang Wang 6 , Jihun Hamm 5 , Smita Krishnaswamy 2 , Jun Huan 9, , Chandan K Reddy 8,9, 1 Carnegie Mellon University 2 Yale University 3 Johns Hopkins University 4 Northeastern University 5 Tulane University 6 University of Alabama at Birmingham 7 The Ohio State University 8 Virginia Tech 9 Amazon Equal contribution. Corresponding authors. Paper OpenReview Huggingface GitHub Website BibTeX A side-by-side comparison of prompt, context, and harness engineering. Abstract The harness is becomin"
+        }
+      ]
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Self-healing sessions. Images or media files that were too big or unreadable used to brick your session until you restarted. Claude Code now detects it and recovers automatically.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701684860010855#m",
+          "date_utc": "2026-05-27T18:22:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "MCP has gotten a lot more reliable. We’ve shipped a batch of fixes for connection failures, OAuth flows, and proxy rate-limiting.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701683828264962#m",
+          "date_utc": "2026-05-27T18:22:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Compaction now shows its progress, and you should no longer run into \"prompt too long\" bugs which prevent you from compacting. We’re rolling out more changes to improve the speed at which Claude compacts.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701682582495361#m",
+          "date_utc": "2026-05-27T18:22:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Fewer mysterious error messages. We’ve chased down several root causes of errors like \"tool result doesn’t match tool use\", as well as made other error messages more readable so you can tell what’s happening.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701681349353901#m",
+          "date_utc": "2026-05-27T18:22:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’ve greatly improved the responsiveness of Claude while working. Thinking tool calls are streamed and we’ve fixed a number of bugs that might have made it look like Claude was hanging while it was just thinking for a long period of time.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701680116228111#m",
+          "date_utc": "2026-05-27T18:22:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "First for our new full-screen renderer (which should get rid of bugs like screen flickering), we’ve made a number of fixes for different environments and terminals. You can turn it with the command: /tui feedback We're working on making it the default in Claude Code soon.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701678962790449#m",
+          "date_utc": "2026-05-27T18:22:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If you are in New York you can get your apartment cleaned for free. Well, data will be collected. Bercan (@bercankilic) Today, we're launching @joinshiftX . We're starting by cleaning your apartment in New York City, for free. Here's how it works. Book a cleaning. A vetted @joinshiftX operator comes to your home wearing one of our devices. They clean. They leave. You pay nothing. In exchange, we record the cleaning. Robotics is being built on data about how people do daily tasks, and the value of that recording is what funds the service. Anything personal in it is anonymized before any of it i",
+          "link": "https://nitter.net/Scobleizer/status/2060038090862018667#m",
+          "date_utc": "2026-05-28T16:38:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Important post for entrepreneurs from @a16z yesterday and a look at a new system that ensures AI agentic systems don't hallucinate their way into compliance hell. \"The value comes less from the underlying model’s raw capability (though that’s still important!) than from the scaffolding around it that makes the output trustworthy, compliant, and operational inside a specific industry.\" Here @ATBASHai founders @0x50so Yosef Soso and @perelmanor Or Perelman talk to me about how its tool helps AI enterprise developers put guardrails around agentic systems to make sure they don't cross \"red lines\" ",
+          "link": "https://nitter.net/Scobleizer/status/2060035919194014032#m",
+          "date_utc": "2026-05-28T16:30:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "\"Everyone should care about actually protecting the programs that only work and are properly funded if the money supporting them isn't being stolen by fraudsters.\" - @VP Vance 🇺🇸 Vice President JD Vance (@VP) 🇺🇸🇺🇸🇺🇸 — https://nitter.net/VP/status/2059648339495227422#m",
+          "link": "https://nitter.net/WHFraudTF/status/2059997171219337268#m",
+          "date_utc": "2026-05-28T13:56:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ce mec va devenir trillionaire (first step) Suivez le. 🫡👇🚀 🇺🇸 Pierre-Louis Biojout (PLB) (@plbiojout) $1,000+ earned by companies with no employees, no founder doing the work, and no human in the loop. just an AI building and operating a business from a prompt. 2 companies already past $ 1k. dozens past $100. this is @NanoCorpHQ : Video — https://nitter.net/plbiojout/status/2060033351495581791#m",
+          "link": "https://nitter.net/brivael/status/2060039675314675787#m",
+          "date_utc": "2026-05-28T16:45:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "calme toi simon Simon Roz (@SimonRoz) à chaque chanson qui trend, une video made-in- @argildotai ça manque encore de variété et de sync sur les beats, mais n'ayez pas la moindre crainte: l'on est dessus Video — https://nitter.net/SimonRoz/status/2060011969822785925#m",
+          "link": "https://nitter.net/brivael/status/2060012091189207324#m",
+          "date_utc": "2026-05-28T14:55:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Planet Of Memes (@PlanetOfMemes) 🎯 — https://nitter.net/PlanetOfMemes/status/2060005637250048401#m",
+          "link": "https://nitter.net/brivael/status/2060011707418751130#m",
+          "date_utc": "2026-05-28T14:53:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "À quand une invitation chez @moonlaggoune ? LFG ! Si les gauchistes attardés deviennent capitalistes, on est sauvés. 😂😂😂😂 Jon De Lorraine (@jon_delorraine) AHAHAHHAHAHAHAHAHAHHA — https://nitter.net/jon_delorraine/status/2059948340809289833#m",
+          "link": "https://nitter.net/brivael/status/2060011258737291530#m",
+          "date_utc": "2026-05-28T14:52:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dans les réponses, beaucoup de gens veulent punir les individus pour leurs idées. Mais les idées sont le fruit d'un contexte. Si demain les anti-wokistes gagnent, ils ne faut surtout pas tomber le même piège du bouc émissaire que tous les débiles du XXe siècle (Hitler, Pol Pot, Mao). Il faut condamner les idées, les détruire par le logos, mais surtout pas psychiatriser les individus. J'ai plein de potes écolos, et j'ai de l'empathie pour eux. Ils sont sincères dans leur combat. Le concept de \"droitardé\" un peu limité est réel. Soyez plus intelligent et lisez réné girard. Brivael Le Pogam (@bri",
+          "link": "https://nitter.net/brivael/status/2060007727833686108#m",
+          "date_utc": "2026-05-28T14:38:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "nitter.net/scion_x_/status/205998… the wokism is dead and argil will bring sanity Video",
+          "link": "https://nitter.net/brivael/status/2060006354975076641#m",
+          "date_utc": "2026-05-28T14:32:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "e/acc movement accelerated with the collapse of leftism and you can't accelerate with shit ideas shit ideas limit your capacity to reach maximum potential leftists can still forget leftism and become accelerationists come friends, we are happy and we will create infinite abundance on the moon LFG!!!",
+          "link": "https://nitter.net/brivael/status/2060004768328700000#m",
+          "date_utc": "2026-05-28T14:26:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Vince Langman (@LangmanVince) Ferrari is the laughing stock of social media 😂😂😂😂 Video — https://nitter.net/LangmanVince/status/2059822696079229234#m",
+          "link": "https://nitter.net/brivael/status/2060001592175210744#m",
+          "date_utc": "2026-05-28T14:13:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "apercu des sortie de l'agent argil (encore en alpha interne) Laurent (@scion_x_) Prompt : \"fais une vidéo qui présente Colossus à destination des enfants\" C'est tout. Notre agent chez @argildotai a fait le reste : script, design, animation, montage. Full auto, propulsé par @imagine . Ca m'a littéralement pris 30 secondes pour obtenir ce résultat 👇 Video — https://nitter.net/scion_x_/status/2059981418021749064#m",
+          "link": "https://nitter.net/brivael/status/2060001284824953102#m",
+          "date_utc": "2026-05-28T14:12:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il sait, tout le monde sait ;) Et tout le monde sait que la récréation est finie, ils savent qu’ils sont à deux ou trois coups de l’échec et mat. J’ai tellement hâte qu’on revienne au bon sens. Voir ce pays avec une planche à billets infinie incapable de produire le moindre service public fonctionnel me rend triste. Dans quelque temps, on regardera cette période comme on regarde les périodes historiques décadentes avec amusement. On va faire des films, des spectacles de drones, ouvrir des centaines de Puy du Fou pour montrer à quel point cette élite déconnectée, hors sol, a fait n’importe quoi",
+          "link": "https://nitter.net/brivael/status/2059998135955398702#m",
+          "date_utc": "2026-05-28T14:00:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Joe Lonsdale (@JTLonsdale) Well said. No surprise the left tends to have massive mental health problems. The core ideas are wrong and harmful. — https://nitter.net/JTLonsdale/status/2059575094297375182#m",
+          "link": "https://nitter.net/brivael/status/2059995691221455154#m",
+          "date_utc": "2026-05-28T13:50:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est l’accélération avec l’IA, tu deviens woke. Avant ça prenait des années pour s’apercevoir de la supercherie. Maintenant, c’est quasiment instant. La purge ne fait que commencer. GO WOKE GO BROKE 😂😂😂 Jose Miguel Vinuesa (@Josemivn) Era lógico. — https://nitter.net/Josemivn/status/2059529104592921021#m",
+          "link": "https://nitter.net/brivael/status/2059993566135394770#m",
+          "date_utc": "2026-05-28T13:41:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Stylé ApoStructura (@ApoStructura) I love that SpaceX is becoming the classic tech megacorp from sci fi. The only thing missing is a badass hq tower — https://nitter.net/ApoStructura/status/2059957128106778867#m",
+          "link": "https://nitter.net/brivael/status/2059990071323791565#m",
+          "date_utc": "2026-05-28T13:28:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Early result of internal alpha, but looks promising. Laurent (@scion_x_) Prompt : \"fais une vidéo qui présente Colossus à destination des enfants\" C'est tout. Notre agent chez @argildotai a fait le reste : script, design, animation, montage. Full auto, propulsé par @imagine . Ca m'a littéralement pris 30 secondes pour obtenir ce résultat 👇 Video — https://nitter.net/scion_x_/status/2059981418021749064#m",
+          "link": "https://nitter.net/brivael/status/2059987620638199846#m",
+          "date_utc": "2026-05-28T13:18:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Elonogy (@ElonogyX) Elon Musk: “Optimus will eliminate poverty and provide universal high income for all.” — https://nitter.net/ElonogyX/status/2059809636543283669#m",
+          "link": "https://nitter.net/brivael/status/2059987449527332995#m",
+          "date_utc": "2026-05-28T13:17:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LA GAUCHE QUI A POURRI LA FRANCE DEPUIS 50 ans. Est morte !!! Prenez votre retraite ou prenez vous une humiliation BIBLIQUE. AFUERA.",
+          "link": "https://nitter.net/brivael/status/2059978080957960213#m",
+          "date_utc": "2026-05-28T12:40:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yep not x10 / x10 it's x10000 lmao Etan (@EtanBoss) Naval says the idea of a “10x engineer” is no longer controversial because AI has made the gap even wider. Naval: “When you’re operating in intellectual and digital domains, it’s not even 10x. It’s 100x or 1,000x.” Video — https://nitter.net/EtanBoss/status/2059840123324301331#m",
+          "link": "https://nitter.net/brivael/status/2059972180578803729#m",
+          "date_utc": "2026-05-28T12:16:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "soon haas human as a service 😂 Brivael Le Pogam (@brivael) l'humanité est une architecture en micro-service 😂 il faut break le monolithe — https://nitter.net/brivael/status/2059957481871134744#m",
+          "link": "https://nitter.net/brivael/status/2059961175513674072#m",
+          "date_utc": "2026-05-28T11:33:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "il devrait juste arrêter prendre sa retraite PsychoBabble 🇬🇧🇺🇲🇮🇱 (@psybabble_999) Aussi: Gates est coupable de tellement de péchés qu'il utilise la philantropie comme couverture. — https://nitter.net/psybabble_999/status/2059959463772045629#m",
+          "link": "https://nitter.net/brivael/status/2059959626779480291#m",
+          "date_utc": "2026-05-28T11:27:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "As agents use more context, input tokens have become the majority of price-equivalent token costs.",
+          "link": "https://nitter.net/cursor_ai/status/2060025076947521984#m",
+          "date_utc": "2026-05-28T15:47:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Power users account for a large share of AI activity, and the gap is widening.",
+          "link": "https://nitter.net/cursor_ai/status/2060025074330243238#m",
+          "date_utc": "2026-05-28T15:47:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "The cost per accepted line of code varies by roughly 7x across model families.",
+          "link": "https://nitter.net/cursor_ai/status/2060025070425395562#m",
+          "date_utc": "2026-05-28T15:47:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Developers are using agents to write more \"mega PRs.\"",
+          "link": "https://nitter.net/cursor_ai/status/2060025067061563595#m",
+          "date_utc": "2026-05-28T15:47:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Five themes emerged in our research: developer acceleration, the economics of intelligence, the power user gap, the rise of context, and the shift to automation. Read the full report here: cursor.com/insights",
+          "link": "https://nitter.net/cursor_ai/status/2060025065455202675#m",
+          "date_utc": "2026-05-28T15:47:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/insights",
+              "content": "Cursor · The Cursor Developer Habits Report Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download The Cursor Developer Habits Report Spring 2026 0. A field transformed Developer acceleration Developers are working faster and producing more code, but the changes in developer productivity go far beyond volume. AI is also changing the shape of the work, with PRs getting larger, agent sessions going deeper, and AI-generated code surviving in codebases for longer periods of time. The economics of intelligence As models get more capable, use more context, and take on deeper tasks, cost becomes a bigger p"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software development is changing. It’s based on the most comprehensive dataset on AI coding in the world, across all model families. Video",
+          "link": "https://nitter.net/cursor_ai/status/2060025063899058458#m",
+          "date_utc": "2026-05-28T15:47:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Your AI agent has a personality. You can either fight it, or you can shape it. @arimesser on why working with OpenClaw is less \"use the tool\" and more \"build the relationship.\" Video",
+          "link": "https://nitter.net/kilocode/status/2060033076827218129#m",
+          "date_utc": "2026-05-28T16:18:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Kilo Gateway now supports Bring Your Own Key across 20 providers and 24 plans. DeepSeek, xAI, Anthropic, OpenAI, and more. You bring the key, the provider bills you directly, and we charge 0% on top. OpenRouter and Requesty both add 5%. One key unlocks BYOK across the VS Code extension, JetBrains plugins, CLI, Cloud Agents, Code Reviewer, Slack, the Android app, and KiloClaw. You get a full usage dashboard too: spend by surface, by model, by project, with a CSV export at the bottom. kilo.codes/yJlVimO",
+          "link": "https://nitter.net/kilocode/status/2059988329924342241#m",
+          "date_utc": "2026-05-28T13:21:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/yJlVimO",
+              "content": "Kilo Gateway now supports BYOK across 20 providers (DeepSeek, xAI, and more) Kilo Blog Subscribe Sign in Kilo Gateway now supports BYOK across 20 providers (DeepSeek, xAI, and more) Darko May 28, 2026 7 1 Share We now support Bring Your Own Key (BYOK) across 20 providers and 24 plans on the Kilo Gateway. That means you can use your own API keys from DeepSeek, xAI, Anthropic, OpenAI, and a long list of others, and the provider bills you directly. We charge 0% on top, unlike OpenRouter and Requesty, which both add 5%. 20 supported providers and 24 configuration plans You can import your pay-as-you-go API keys or use your coding subscription plans. Pay-as-you-go API keys work for: Anthropic, AWS Bedrock, Chutes, DeepSeek, Fireworks, Google AI Studio, Inception, MiniMax, Mistral AI, Moonshot A"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Three things every Cloud Agent session needs: Env vars and secrets. Startup commands to install deps. A reusable config so you don't redo it every time. That last one is Agent Environment Profiles. Save once, share across the team. kilo.codes/qDbCNhB",
+          "link": "https://nitter.net/kilocode/status/2059944706763604340#m",
+          "date_utc": "2026-05-28T10:27:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/qDbCNhB",
+              "content": "Kilo Cloud Agents - AI Coding in the Cloud Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Kilo Cloud Agents Run Kilo in the cloud from any device. Auto-create branches, push work continuously, and code from anywhere — no local machine required. Start a Cloud Agent View Documentation Trusted by 3M+ developers worldwide UNDER THE HOOD How Cloud Agents work Isolated containers, automatic git management, and ephemeral environments Isolated containers Each user gets an isolated Linux container with common dev tools preinstalled — Node.js, git, gh CLI, glab CLI, and more. Install additional packages with apt. Automatic branch management When a session begins, your repo is cloned, a unique branch is created, startup "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "A good agent task should produce a diff a human can review in one sitting. \"Refactor this service, improve performance, add analytics, and clean up tests\" is four agent tasks. Not one.",
+          "link": "https://nitter.net/kilocode/status/2059795295819407395#m",
+          "date_utc": "2026-05-28T00:34:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Step 2: Find the Goldilocks zone for your prompts. Igor (architecture work) splits tasks so each sub-agent finishes before its context fills up. Quality drops around 60% context fill, well before compaction kicks in at 95%. This is context rot, and the advertised window is not the usable window.",
+          "link": "https://nitter.net/kilocode/status/2059795295072887287#m",
+          "date_utc": "2026-05-28T00:34:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Think of it like gardening, not building. You give a background agent a small piece of work, let it progress on its own, and come back later to prune. The agents do the building. You do the gardening.",
+          "link": "https://nitter.net/kilocode/status/2059795294238155150#m",
+          "date_utc": "2026-05-28T00:34:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "So how does Mark on our team run 20+? *** Background agents. *** He keeps 1 to 3 in the foreground. The rest are fire-and-forget jobs that ship a PR, pass or fail tests, and wait for him to merge or reject later. No attention required until they finish.",
+          "link": "https://nitter.net/kilocode/status/2059795293298655391#m",
+          "date_utc": "2026-05-28T00:34:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Step 0: Accept you're a human. When someone claims they're \"running\" 100 agents, ask what running means. Most of our engineers actively manage 2 to 4 foreground agents at a time. Simon Willison says the same. Mitchell Hashimoto calls himself \"the mayor\" of at most two.",
+          "link": "https://nitter.net/kilocode/status/2059795292514398620#m",
+          "date_utc": "2026-05-28T00:34:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "First, the camps. Steve Yegge says you can train yourself to hand-manage 10+ agents. Armin Ronacher (creator of Flask) calls it agent psychosis and worries about the person running their tenth session at 3am. The truth is more interesting than either take.",
+          "link": "https://nitter.net/kilocode/status/2059795291667095976#m",
+          "date_utc": "2026-05-28T00:34:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Most people thought flat data center networks would never work at hyperscale. The @awscloud team figured it out. Resilient Network Graphs are a completely new network architecture, now live. 33% better throughput, 40% less network power. aboutamazon.com/stories/aws-… Video",
+          "link": "https://nitter.net/mattsgarman/status/2060006215548039623#m",
+          "date_utc": "2026-05-28T14:32:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.aboutamazon.com/stories/aws-random-graph-theory-data-center-network-design?&utm_term=36",
+              "content": "Scroll to top button Amazon News Press Center Amazon.com Investor Resources Country Language: EN Careers Site Map More from Amazon Amazon.com Conditions of Use Amazon Privacy Policy © 1996- 2026 Amazon.com, Inc. or its affiliates News Stores and Shopping AWS Devices Entertainment Artificial Intelligence Workplace Sustainability Community International Featured Topics Amazon Leo About Us What We Do Working at Amazon Leadership Principles Shareholder Letters Reports Our Impact Sustainability Community Small Businesses Economy Featured Topics Building Strong Communities Amazon Future Ready Subscribe How AWS used random graph theory to build more efficient data centers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Don't miss the livestream of NVIDIA CEO Jensen Huang's keynote at #NVIDIAGTC Taipei. Hear Jensen unveil the breakthroughs in physical AI, scaling infrastructure, science, and more — and what's driving the next generation of AI. It all starts here. 📍 Monday, June 1 | 11 a.m. Taipei Time 📍 Sunday, May 31 | 8 p.m. Pacific Time 🎥 Tune in for one of the biggest moments of GTC: nvda.ws/4nQ1nkg Video",
+          "link": "https://nitter.net/nvidia/status/2060031153893958013#m",
+          "date_utc": "2026-05-28T16:11:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4nQ1nkg",
+              "content": "NVIDIA GTC Taipei 2026 Keynote with CEO Jensen Huang | June 1 Keynote June 1, 2026 | Workshops June 2 | Conference June 3–4 | Taipei --> My Account My Account --> Log In LogOut EN EN 繁中 PLATFORMS other links Keynote Session Catalog Explore Conference Schedule NVIDIA at COMPUTEX Workshops & Certification Pricing More Code of Conduct Contact us FAQ Privacy Policy See All GTC Events Keynote Session Catalog Explore Conference Schedule NVIDIA at COMPUTEX Workshops & Certification Pricing More Code of Conduct Contact us FAQ Privacy Policy See All GTC Events EN EN 繁中 Join the Waitlist | Log in --> Join the Waitlist | Log in --> Keynote Session Catalog Explore Explore Conference Schedule NVIDIA at COMPUTEX Workshops & Certification Pricing More More Code of Conduct Contact us FAQ Privacy Policy Se"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "One photo. Decades of building together. NVIDIA Newsroom (@nvidianewsroom) Some of the deepest partnerships in AI were in one room tonight. Jensen joined more than 30 CEOs and local industry leaders at Brick Kiln in Taipei for a dinner celebrating decades of collaboration across the industry. Video — https://nitter.net/nvidianewsroom/status/2059976145152430260#m",
+          "link": "https://nitter.net/nvidia/status/2060010965597393198#m",
+          "date_utc": "2026-05-28T14:51:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "R to @nvidia: Image",
+          "link": "https://nitter.net/nvidia/status/2059995596702843146#m",
+          "date_utc": "2026-05-28T13:49:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Jensen 🤝 the Brick Kiln restaurant crew Video",
+          "link": "https://nitter.net/nvidia/status/2059995523336094051#m",
+          "date_utc": "2026-05-28T13:49:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nobody in LA who wants safe streets hates me Interview Magazine (@InterviewMag) Love him or hate him, the former reality TV villain @spencerpratt is making a real run at leading L.A. and striking a nerve with voters who are tired of the status quo. We asked him to show us the spots that made him fall in love with it in the first place. interviewmagazine.com/cultur… — https://nitter.net/InterviewMag/status/2059986605973098937#m",
+          "link": "https://nitter.net/spencerpratt/status/2060036281434804236#m",
+          "date_utc": "2026-05-28T16:31:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.interviewmagazine.com/culture/print-spencer-pratt-los-angeles-mayoral-race",
+              "content": "Spencer Pratt Takes Us Around the City He Thinks He Can Save X X Art Music Fashion Culture Film Shop Masthead Contact Us Subscribe Get the magazine! Newsletter Sign up! Art Music Fashion Culture Film Shop SHARE LOCATION Spencer Pratt Takes Us Around the City He Thinks He Can Save By Ben Barna Photographed by Jamie Lee Taete May 28, 2026 Spencer Pratt is either the most interesting story in Los Angeles politics or a cautionary tale about the age we live in—possibly both. The former Hills villain turned crystal enthusiast turned mayoral candidate has been called a joke, a Trump-adjacent opportunist, and a man who claimed to be living in an Airstream trailer on his burned Palisades lot while actually staying at Hotel Bel-Air. He is also, undeniably, making a real run to lead America’s second-"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "As a Trojan i would never go off a UC Berkeley poll. FIGHT ON!",
+          "link": "https://nitter.net/spencerpratt/status/2060011693397213645#m",
+          "date_utc": "2026-05-28T14:53:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Rae Huang is a real one. I disagree with her on almost everything, but i respect that she actually walks the walk, unlike these corrupt champagne socialists like Nithya. Matt Hamilton (@_hamilton_matt) NEW: Last week, Nithya Raman’s campaign staff pushed activist Rae Huang to drop out and back Raman, with discussions of financial support and “possibly a seat at the table,” as Huang told me. “You can be the savior of the left,” Huang said her staffer was told. Huang refused. lamaterial.com/p/nithya-rama… — https://nitter.net/_hamilton_matt/status/2059987696559546423#m",
+          "link": "https://nitter.net/spencerpratt/status/2060011340920447485#m",
+          "date_utc": "2026-05-28T14:52:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://lamaterial.com/p/nithya-raman-rae-huang-drop-out-mayoral",
+              "content": "Be The Savior of the Left: Raman Campaign Urged Huang to Drop Out Home Newsletter Stories About About About Us Team Jobs Subscribe Sign In Subscribe Exclusive Be The Savior of the Left: Raman Campaign Urged Huang to Drop Out In an effort to consolidate support on the left, Nithya Raman’s campaign staff pushed activist Rae Huang to drop out. Huang refused. Matt Hamilton May 28, 2026 Reverend Rae Huang, left, and Councilmember Nithya Raman, right, are both running for mayor. (Photos by Genaro Molina/Los Angeles Times via Getty Images) IN THE FRENZIED FINAL WEEKS before the Los Angeles mayoral primary, progressive star Nithya Raman’s supporters have become increasingly vocal about their frustrations with activist Rae Huang’s campaign, beseeching Huang to drop out in social media posts. But th"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This is my parents’ house. This is why I’m running. This is coming for your home. It’s coming for your industry. If not by fire, then by blight, addicts, fraud, and the slow rot created by corrupt politicians like Karen Bass. Wake up and VOTE. Deadline (@DEADLINE) Jimmy Kimmel Skewers Spencer Pratt's Los Angeles Mayoral Run: \"Another Narcissist Looking For Attention\" deadline.com/2026/05/jimmy-k… — https://nitter.net/DEADLINE/status/2059995952816193940#m",
+          "link": "https://nitter.net/spencerpratt/status/2060007533591359645#m",
+          "date_utc": "2026-05-28T14:37:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://deadline.com/2026/05/jimmy-kimmel-spencer-pratt-los-angeles-mayor-1236928989/",
+              "content": "Jimmy Kimmel Skewers Spencer Pratt&#039;s Los Angeles Mayoral Run Continue to Deadline SKIP AD You will be redirected back to your article in seconds Skip to main content Open Mega Menu Got A Tip? deadline-logo-svg Deadline Follow Us: site categories TV Film Awards Awards Hub Digital Issues Box Office Biz International Politics Theater Reviews Obits Video Events Contenders Television Television: Documentary Film: Documentary Film: International Film: Los Angeles Film: London Sound Screen Television Film Other Reality TV Summit For The Love Of Docs Visual Effects + Screen Festivals North America Sundance Toronto Telluride SXSW Tribeca Europe Venice Cannes Zurich Berlin/EFM Middle East Red Sea Asia Tokyo Prime Experience News Alerts Menu deadline-logo-svg Deadline Read Next: Kevin O&#8217;Le"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "“I don’t think a kid is gonna be safer if an encampment is 10 feet away or 500 feet away from a school” -Nithya Raman Video",
+          "link": "https://nitter.net/spencerpratt/status/2059967681927753743#m",
+          "date_utc": "2026-05-28T11:59:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Jimmy’s secretly voting for me TheWrap (@TheWrap) Jimmy Kimmel Tears Into Spencer Pratt’s Run for LA Mayor: ‘Another Narcissist Looking for Attention’ | Video thewrap.com/creative-content… — https://nitter.net/TheWrap/status/2059863202977222911#m",
+          "link": "https://nitter.net/spencerpratt/status/2059951096261468352#m",
+          "date_utc": "2026-05-28T10:53:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-slams-spencer-pratt-la-mayor-campaign-video/",
+              "content": "Jimmy Kimmel Tears Into Spencer Pratt&#039;s Run for LA Mayor Skip to content Menu Close Newsletters Subscribe Search The Wrap Search Main TV TV News Ratings Streaming Media News Reviews Movies Movie News Box Office Reviews Sundance Cannes Venice Film Festival Toronto Film Festival Awards Awards Tracker Awards Coverage Oscars Emmys How I Did It Series TheWrap Emmy Magazines TheWrap Oscar Magazines Industry AI Deals M A Data Analysis Earnings Coverage Streaming Charts Tech Trade Secrets The Grill Game On: A Wrap Sports Series Columns WaxWord Steve Pond The Media Front Inside the Ratings Creatorverse WrapStyle Fashion Culture TheWrapBook Vol. 5: The Art of Cinema 2025 TheWrapBook Vol. 4: The Art of Television 2025 TheWrapBook Vol. 3: The Art of Cinema TheWrapBook Vol. 2: The Art of Televisio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
