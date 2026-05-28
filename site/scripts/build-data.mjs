@@ -410,6 +410,75 @@ function inferSource(content) {
   return 'other';
 }
 
+// ── Podcast episode scanning ────────────────────────────────────────────────
+// Episode folders live at wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/ and
+// contain a <date>.html (show notes, tracked) and a <date>.m4a (audio,
+// gitignored — hosted on HuggingFace). walk() skips the podcasts/ dir, so we
+// scan it separately here. The audio is served from the HF dataset.
+const PODCAST_AUDIO_BASE = 'https://huggingface.co/datasets/bayesiansapien/cere-bro-podcasts/resolve/main';
+
+function stripTags(s) {
+  return s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+          .replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
+}
+
+function scanPodcasts() {
+  const episodes = [];
+  const digestRoot = WIKI_DIR ? path.join(WIKI_DIR, 'daily-digest') : null;
+  if (!digestRoot || !fs.existsSync(digestRoot)) return episodes;
+
+  for (const ym of fs.readdirSync(digestRoot)) {
+    const podcastsDir = path.join(digestRoot, ym, 'podcasts');
+    if (!fs.existsSync(podcastsDir)) continue;
+    for (const epDate of fs.readdirSync(podcastsDir)) {
+      const epDir = path.join(podcastsDir, epDate);
+      if (!fs.statSync(epDir).isDirectory()) continue;
+      const htmlPath = path.join(epDir, `${epDate}.html`);
+      if (!fs.existsSync(htmlPath)) continue; // no notes = skip (empty folder)
+
+      const html = fs.readFileSync(htmlPath, 'utf8');
+
+      // Episode number + title from <h1>N — Show Name</h1>
+      const h1 = html.match(/<h1>(.*?)<\/h1>/s);
+      const title = h1 ? stripTags(h1[1]) : `Episode ${epDate}`;
+      const numMatch = title.match(/^(\d+)/);
+      const episodeNumber = numMatch ? Number(numMatch[1]) : null;
+
+      // Run time from "Run time: ~N min"
+      const rt = html.match(/Run time:<\/strong>\s*~?\s*([0-9]+)\s*min/i);
+      const runMin = rt ? Number(rt[1]) : null;
+
+      // Teaser = first <p> that isn't the Date/Run-time metadata line
+      let teaser = '';
+      const paras = [...html.matchAll(/<p>(.*?)<\/p>/gs)].map((m) => stripTags(m[1]));
+      for (const p of paras) {
+        if (/^Date:/.test(p) || /Run time:/.test(p)) continue;
+        if (p.length > 40) { teaser = p; break; }
+      }
+
+      // Topics from the <ul><li> list (the "In this episode" bullets)
+      const ulMatch = html.match(/<ul>(.*?)<\/ul>/s);
+      const topics = ulMatch
+        ? [...ulMatch[1].matchAll(/<li>(.*?)<\/li>/gs)].map((m) => stripTags(m[1]))
+        : [];
+
+      episodes.push({
+        date: epDate,
+        episodeNumber,
+        title,
+        runMin,
+        teaser,
+        topics,
+        audioUrl: `${PODCAST_AUDIO_BASE}/${epDate}.m4a`,
+        digestUrl: `/digests/${epDate}/`,
+      });
+    }
+  }
+  // Newest first
+  episodes.sort((a, b) => b.date.localeCompare(a.date));
+  return episodes;
+}
+
 function main() {
   if (!fs.existsSync(WIKI_DIR)) {
     console.error(`Wiki directory not found: ${WIKI_DIR}`);
@@ -850,6 +919,8 @@ function main() {
       tldr: p.tldr,
     }));
 
+  const podcasts = scanPodcasts();
+
   const out = {
     generated: new Date().toISOString(),
     counts: {
@@ -897,6 +968,8 @@ function main() {
     sourceKeys: SOURCE_KEYS,
     sourceLabels: SOURCE_LABELS,
     tierBySource,
+    // Cerebro Radio podcast episodes
+    podcasts,
   };
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });

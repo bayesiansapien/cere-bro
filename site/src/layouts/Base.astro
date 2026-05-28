@@ -36,6 +36,7 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
           <a href={url('/')} class:list={[{ active: active === 'home' }]}>Today</a>
           <a href={url('/atlas')} class:list={[{ active: active === 'atlas' }]}>Atlas</a>
           <a href={url('/media-live')} class:list={[{ active: active === 'media-live' }]}>Media Live</a>
+          <a href={url('/radio')} class:list={[{ active: active === 'radio' }]}>Radio</a>
           <a href={url('/browse')} class:list={[{ active: active === 'browse' }]}>Wiki Pages</a>
         </nav>
       </div>

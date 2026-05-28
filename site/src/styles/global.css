@@ -865,3 +865,94 @@ th {
     font-size: 0.75rem;
   }
 }
+
+/* ── Cerebro Radio ─────────────────────────────────────────────────────── */
+.episode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.episode-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px 24px;
+}
+.episode-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.episode-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.episode-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fbbf24;
+}
+.episode-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--fg);
+  letter-spacing: 0.02em;
+}
+.episode-runtime {
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+  background: var(--bg-elev);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+}
+.episode-digest-link {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  text-decoration: none;
+  transition: color 0.1s;
+}
+.episode-digest-link:hover {
+  color: var(--accent);
+}
+.episode-teaser {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--fg);
+  margin: 0 0 14px 0;
+}
+.episode-topics {
+  margin: 0 0 14px 0;
+  font-size: 0.86rem;
+}
+.episode-topics summary {
+  color: var(--fg-muted);
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 0.02em;
+}
+.episode-topics summary:hover {
+  color: var(--fg);
+}
+.episode-topics ul {
+  margin: 10px 0 0 0;
+  padding-left: 20px;
+}
+.episode-topics li {
+  margin: 4px 0;
+  color: var(--fg-muted);
+}
+.episode-player {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+.episode-player::-webkit-media-controls-panel {
+  background-color: var(--bg-elev);
+}
