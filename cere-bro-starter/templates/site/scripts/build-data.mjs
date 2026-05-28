@@ -8,6 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execSync } from 'node:child_process';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 
@@ -471,11 +472,35 @@ function scanPodcasts() {
       // Build the audio URL: episodes are grouped by month in releases tagged
       // podcasts-YYYY-MM. The asset name is just <date>.m4a.
       const monthTag = `podcasts-${epDate.slice(0, 7)}`;
+
+      // Try to read the local m4a for file size + precise duration. Both are
+      // useful for podcast directories (Spotify/Apple). If the m4a isn't
+      // present locally (CI build), fall back to defaults derived from runMin.
+      const m4aPath = path.join(epDir, `${epDate}.m4a`);
+      let audioBytes = null;
+      let durationSec = runMin ? runMin * 60 : null;
+      if (fs.existsSync(m4aPath)) {
+        try {
+          audioBytes = fs.statSync(m4aPath).size;
+        } catch (e) { /* leave null */ }
+        // ffprobe for precise duration (optional)
+        try {
+          const out = execSync(
+            `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${m4aPath}"`,
+            { stdio: ['pipe', 'pipe', 'ignore'] }
+          ).toString().trim();
+          const d = parseFloat(out);
+          if (!isNaN(d)) durationSec = Math.round(d);
+        } catch (e) { /* keep runMin*60 fallback */ }
+      }
+
       episodes.push({
         date: epDate,
         episodeNumber,
         title,
         runMin,
+        durationSec,
+        audioBytes,
         teaser,
         topics,
         audioUrl: `${PODCAST_AUDIO_BASE}/${monthTag}/${epDate}.m4a`,
