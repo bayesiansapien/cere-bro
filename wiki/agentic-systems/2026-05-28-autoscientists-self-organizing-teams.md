@@ -38,10 +38,10 @@ The decentralized-vs-orchestrator framing also continues yesterday's Scaling the
 
 ## Related pages
 
-- [[2026-05-28-ai-research-agents-narrow-exploration]] — opposite finding on aggregate exploration breadth
-- [[2026-05-27-scaling-the-harness]] — the harness-as-first-class thesis
-- [[2026-04-22-evaluation-driven-scaling-scientific]] — evaluation-driven scaling for scientific discovery
-- [[multi-agent-systems]] — concept page
+- [[2026-05-28-ai-research-agents-narrow-exploration]], opposite finding on aggregate exploration breadth
+- [[2026-05-27-scaling-the-harness]], the harness-as-first-class thesis
+- [[2026-04-22-evaluation-driven-scaling-scientific]], evaluation-driven scaling for scientific discovery
+- [[multi-agent-systems]], concept page
 
 ## Research angle
 

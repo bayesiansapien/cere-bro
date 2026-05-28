@@ -36,11 +36,11 @@ OSP-Next is the most aggressive stack-everything paper in the diffusion-transfor
 
 ## Related pages
 
-- [[2026-05-19-longlive-2-nvfp4-parallel-infrastructure-long-video]] — parallel video infrastructure
-- [[2026-05-21-mix-quant-phase-aware-quantization]] — quantization phase awareness
-- [[2026-05-22-rtpurbo-full-attention-sparse-transfer]] — sparse-from-dense fine-tuning
-- [[2026-05-25-bitcpm-cann-158bit-ascend-npu]] — non-NVIDIA quantization on Ascend NPU
-- [[gpu-kernels]] — concept page
+- [[2026-05-19-longlive-2-nvfp4-parallel-infrastructure-long-video]], parallel video infrastructure
+- [[2026-05-21-mix-quant-phase-aware-quantization]], quantization phase awareness
+- [[2026-05-22-rtpurbo-full-attention-sparse-transfer]], sparse-from-dense fine-tuning
+- [[2026-05-25-bitcpm-cann-158bit-ascend-npu]], non-NVIDIA quantization on Ascend NPU
+- [[gpu-kernels]], concept page
 
 ## Research angle
 

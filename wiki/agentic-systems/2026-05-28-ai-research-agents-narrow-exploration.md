@@ -38,10 +38,10 @@ It connects too to the AI-Industry Pulse pattern about AI deployment economics: 
 
 ## Related pages
 
-- [[2026-05-28-autoscientists-self-organizing-teams]] — verifier-driven agent-based discovery
-- [[2026-04-22-evaluation-driven-scaling-scientific]] — eval-driven scientific scaling
-- [[2026-05-09-ai-co-mathematician]] — co-mathematician agent (verified math context)
-- [[multi-agent-systems]] — concept page
+- [[2026-05-28-autoscientists-self-organizing-teams]], verifier-driven agent-based discovery
+- [[2026-04-22-evaluation-driven-scaling-scientific]], eval-driven scientific scaling
+- [[2026-05-09-ai-co-mathematician]], co-mathematician agent (verified math context)
+- [[multi-agent-systems]], concept page
 
 ## Research angle
 

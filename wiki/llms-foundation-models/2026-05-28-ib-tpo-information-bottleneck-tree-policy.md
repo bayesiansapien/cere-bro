@@ -33,11 +33,11 @@ The Kurate cs.LG #11 "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking" si
 
 ## Related pages
 
-- [[2026-05-28-axpo-explorative-policy-optimization]] — resample all-wrong tool-call subgroups
-- [[2026-05-28-joint-mtp-rl-occ]] — online coefficient adaptation for MTP+RL
-- [[2026-05-28-bes-bidirectional-evolutionary-search]] — escaping the entropy shell via recombination
-- [[2026-05-28-less-is-more-esr-on-policy-distillation]] — front-loaded signal in distillation rollouts
-- [[2026-05-27-cpt-collaborative-parallel-thinking]] — sharing findings across parallel branches
+- [[2026-05-28-axpo-explorative-policy-optimization]], resample all-wrong tool-call subgroups
+- [[2026-05-28-joint-mtp-rl-occ]], online coefficient adaptation for MTP+RL
+- [[2026-05-28-bes-bidirectional-evolutionary-search]], escaping the entropy shell via recombination
+- [[2026-05-28-less-is-more-esr-on-policy-distillation]], front-loaded signal in distillation rollouts
+- [[2026-05-27-cpt-collaborative-parallel-thinking]], sharing findings across parallel branches
 
 ## Research angle
 

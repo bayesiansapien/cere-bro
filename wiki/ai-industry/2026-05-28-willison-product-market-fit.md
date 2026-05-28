@@ -15,7 +15,7 @@ The wave of "Uber's AI budget blew up" stories is, on closer reading, the opposi
 - GPT-5.5 is 2x the API price of GPT-5.4; Opus 4.7 is roughly 1.4x Opus 4.6 after the tokenizer change.
 - Willison's ccusage shows $2,180/month equivalent API usage for $200 paid out-of-pocket: heavy users are massively subsidized at the consumer plans.
 - "Uber maxed out its annual AI budget in months" looks like product-market fit working: the customer sucked air through their teeth and said yes anyway.
-- The SpaceX S-1 shows Anthropic committing $1.25B per month through May 2029 for Colossus compute — likely inference, not training.
+- The SpaceX S-1 shows Anthropic committing $1.25B per month through May 2029 for Colossus compute, likely inference, not training.
 - OpenAI is hiring 32.6% enterprise-sales roles (229 of 703 openings); Anthropic 26.9% (105 of 390). Both labs are shifting headcount mix toward enterprise revenue.
 
 ## How this fits prior wiki state
@@ -26,9 +26,9 @@ Also strengthens the Anthropic/AWS/Colossus thread from earlier this month ([[20
 
 ## Related pages
 
-- [[2026-05-27-agent-token-consumption]] — token economics paper from yesterday
-- [[2026-05-21-anthropic-profitability-spacex-deal-ipo]] — Anthropic profitability + Colossus
-- [[2026-05-23-anthropic-glasswing-mythos-vulnerabilities]] — Anthropic frontier model
+- [[2026-05-27-agent-token-consumption]], token economics paper from yesterday
+- [[2026-05-21-anthropic-profitability-spacex-deal-ipo]], Anthropic profitability + Colossus
+- [[2026-05-23-anthropic-glasswing-mythos-vulnerabilities]], Anthropic frontier model
 
 ## Research angle
 

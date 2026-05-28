@@ -36,10 +36,10 @@ Verus-SpecGym also touches the cost-discipline cluster from yesterday. Specifica
 
 ## Related pages
 
-- [[2026-05-28-scientistone-chain-of-evidence]] — same finding on the research-manuscript side
-- [[2026-05-28-omniverifier-m1]] — symbolic verification with rule-based RL rewards
-- [[2026-05-27-agent-token-consumption]] — token economics in agentic coding
-- [[code-generation]] — concept page
+- [[2026-05-28-scientistone-chain-of-evidence]], same finding on the research-manuscript side
+- [[2026-05-28-omniverifier-m1]], symbolic verification with rule-based RL rewards
+- [[2026-05-27-agent-token-consumption]], token economics in agentic coding
+- [[code-generation]], concept page
 
 ## Research angle
 

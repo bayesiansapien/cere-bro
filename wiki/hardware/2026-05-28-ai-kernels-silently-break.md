@@ -30,15 +30,15 @@ The silent-failure pattern:
 
 ## How this fits prior wiki state
 
-Paired with the doubleAI speed-of-light result (also today, also from r/CUDA), this is a clean two-paper picture: AI kernel writing now beats baselines at the benchmark, and verifier-passed kernels silently break real workloads. The same week the SemiAnalysis Miscompiles post reports AI agents finding hundreds of LLVM and ptxas bugs in days. Three sources, same week: AI is reshaping the low-level compute stack from both sides — generating optimized kernels AND finding the latent bugs in human and AI-written compilers and kernels. The risk is that the verifier gap on the generation side and the bug-discovery rate on the analysis side are now both faster than human review.
+Paired with the doubleAI speed-of-light result (also today, also from r/CUDA), this is a clean two-paper picture: AI kernel writing now beats baselines at the benchmark, and verifier-passed kernels silently break real workloads. The same week the SemiAnalysis Miscompiles post reports AI agents finding hundreds of LLVM and ptxas bugs in days. Three sources, same week: AI is reshaping the low-level compute stack from both sides, generating optimized kernels AND finding the latent bugs in human and AI-written compilers and kernels. The risk is that the verifier gap on the generation side and the bug-discovery rate on the analysis side are now both faster than human review.
 
 Connects also to [[2026-05-09-kernelbench-x-llm-gpu-kernel-benchmark]] and [[2026-05-19-agentkernelarena-gpu-kernel-optimization-agents-benchmark]], both of which evaluate kernel agents but rely on their own verifiers.
 
 ## Related pages
 
-- [[2026-05-28-doubleai-blackwell-sol-execbench]] — paired result on the same benchmark
-- [[gpu-kernels]] — concept page
-- [[2026-05-19-agentkernelarena-gpu-kernel-optimization-agents-benchmark]] — kernel agent benchmark
+- [[2026-05-28-doubleai-blackwell-sol-execbench]], paired result on the same benchmark
+- [[gpu-kernels]], concept page
+- [[2026-05-19-agentkernelarena-gpu-kernel-optimization-agents-benchmark]], kernel agent benchmark
 
 ## Research angle
 

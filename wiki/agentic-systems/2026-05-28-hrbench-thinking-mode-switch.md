@@ -30,21 +30,21 @@ HRBench design space:
 - Prompt-based methods generally yield the best token-accuracy trade-off.
 - External routing methods give the most stable cost reduction.
 - Speculative methods improve accuracy but cost more tokens.
-- Best strategy varies with scale and domain — no universal winner.
+- Best strategy varies with scale and domain, no universal winner.
 
 ## How this fits prior wiki state
 
-HRBench connects directly to the wiki's routing line: TRACER ([[2026-04-17-tracer-llm-routing]]), DLR ([[2026-05-15-dlr-dynamic-latent-routing-post-training]]), and CaRE/MISA/Conductor ([[2026-05-11-care-bi-level-routing-moe-continual-learning]], [[2026-05-11-misa-mixture-of-indexer-sparse-attention]], [[2026-05-11-conductor-sakana-orchestrating-frontier-models]]). All of those are about routing across capabilities; HRBench is about routing across reasoning modes inside one model. The finding that no strategy dominates lines up with the Maestro paper ([[2026-05-23-maestro-rl-orchestrated-model-skill-ensemble]]) — orchestration choice itself is a learned object, not a fixed configuration.
+HRBench connects directly to the wiki's routing line: TRACER ([[2026-04-17-tracer-llm-routing]]), DLR ([[2026-05-15-dlr-dynamic-latent-routing-post-training]]), and CaRE/MISA/Conductor ([[2026-05-11-care-bi-level-routing-moe-continual-learning]], [[2026-05-11-misa-mixture-of-indexer-sparse-attention]], [[2026-05-11-conductor-sakana-orchestrating-frontier-models]]). All of those are about routing across capabilities; HRBench is about routing across reasoning modes inside one model. The finding that no strategy dominates lines up with the Maestro paper ([[2026-05-23-maestro-rl-orchestrated-model-skill-ensemble]]), orchestration choice itself is a learned object, not a fixed configuration.
 
 The HRBench framework also doubles as a measurement tool for the cost-discipline cluster from yesterday (token-consumption study, Efficiency Frontier): if a deployment can pick a routing strategy on the cost-quality frontier for its specific scale and domain, the inefficiency cited in those papers shrinks.
 
 ## Related pages
 
-- [[llm-routing]] — concept page
-- [[2026-05-11-care-bi-level-routing-moe-continual-learning]] — bi-level routing for MoE
-- [[2026-05-23-maestro-rl-orchestrated-model-skill-ensemble]] — RL-orchestrated routing
-- [[2026-05-27-agent-token-consumption]] — token cost discipline
+- [[llm-routing]], concept page
+- [[2026-05-11-care-bi-level-routing-moe-continual-learning]], bi-level routing for MoE
+- [[2026-05-23-maestro-rl-orchestrated-model-skill-ensemble]], RL-orchestrated routing
+- [[2026-05-27-agent-token-consumption]], token cost discipline
 
 ## Research angle
 
-The result that strategy preference varies with model scale and domain is the single most useful operational finding for production teams. It implies that a generic "best mode-switching strategy" recommendation is wrong and that mode-switching policies should themselves be trained per deployment. A natural follow-up is a meta-routing layer that picks the strategy family based on workload telemetry — essentially routing the router.
+The result that strategy preference varies with model scale and domain is the single most useful operational finding for production teams. It implies that a generic "best mode-switching strategy" recommendation is wrong and that mode-switching policies should themselves be trained per deployment. A natural follow-up is a meta-routing layer that picks the strategy family based on workload telemetry, essentially routing the router.

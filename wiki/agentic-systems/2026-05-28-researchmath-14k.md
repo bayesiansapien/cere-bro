@@ -6,7 +6,7 @@
 
 ## TL;DR
 
-ResearchMath-14k is a 14,056-problem dataset of research-level mathematics curated from academic sources by a multi-agent pipeline — the largest such collection to date. The authors generate 220K teacher trajectories from two open models on these problems and observe that newer-generation models produce 5.6x more references and 5.0x more fake references per trace than older ones. After agentic filtering, fine-tuning Qwen3 models from 4B to 30B parameters improves base models by 9.2 points on average. Useful supervision can therefore come from imperfect attempts at open problems, not only from fully correct reasoning chains.
+ResearchMath-14k is a 14,056-problem dataset of research-level mathematics curated from academic sources by a multi-agent pipeline, the largest such collection to date. The authors generate 220K teacher trajectories from two open models on these problems and observe that newer-generation models produce 5.6x more references and 5.0x more fake references per trace than older ones. After agentic filtering, fine-tuning Qwen3 models from 4B to 30B parameters improves base models by 9.2 points on average. Useful supervision can therefore come from imperfect attempts at open problems, not only from fully correct reasoning chains.
 
 ## Key findings
 
@@ -22,9 +22,9 @@ The fabricated-reference scaling result is striking. It is a measurement of mode
 
 ## Related pages
 
-- [[2026-05-09-ai-co-mathematician]] — co-mathematician agent
-- [[2026-05-28-peam-parametric-embodied-memory]] — failure as training signal
-- [[2026-05-13-llm-agents-already-know-when-to-call-tools]] — model self-awareness
+- [[2026-05-09-ai-co-mathematician]], co-mathematician agent
+- [[2026-05-28-peam-parametric-embodied-memory]], failure as training signal
+- [[2026-05-13-llm-agents-already-know-when-to-call-tools]], model self-awareness
 
 ## Research angle
 

@@ -26,22 +26,22 @@ LiveBrowseComp (90-day fresh facts):
 
 - Up to 44.5% of BrowseComp questions are answerable without tools, so high scores conflate memorization with retrieval.
 - More than half of generated search queries come from internally produced hypotheses, not retrieved leads.
-- Removing answer-supporting evidence makes search-augmented agents perform worse than closed-book agents — strong evidence that retrieval is being used to confirm rather than discover.
+- Removing answer-supporting evidence makes search-augmented agents perform worse than closed-book agents, strong evidence that retrieval is being used to confirm rather than discover.
 - On LiveBrowseComp (fresh 90-day facts), all agents fall under 2% closed-book accuracy and 25-40pp lower with search than they scored on BrowseComp.
 - The previously stable model rankings on BrowseComp invert on LiveBrowseComp, so leaderboard position was reflecting training-cutoff coverage as much as search ability.
 
 ## How this fits prior wiki state
 
-This connects directly to the eval-rigor cluster that has been forming: AI Research Agents Narrow Scientific Exploration (today, same finding from a different angle — agents recombine the prior they have rather than venturing out), Chartographer (today — VLMs fail counterfactual charts they previously solved), HRBench (today — switching strategies have different effectiveness regimes), and back to ITBench-AA (yesterday, frontier models <50% on enterprise IT tasks). A pattern is now established: static benchmarks have been overstating capability across at least four distinct task types this week (browse, chart QA, reasoning-mode switching, enterprise IT). The mechanism is the same in all cases — the benchmark reuses inputs the model has effectively memorized, and "with tools" inflates the score by giving the model a way to re-derive the answer it already had.
+This connects directly to the eval-rigor cluster that has been forming: AI Research Agents Narrow Scientific Exploration (today, same finding from a different angle, agents recombine the prior they have rather than venturing out), Chartographer (today, VLMs fail counterfactual charts they previously solved), HRBench (today, switching strategies have different effectiveness regimes), and back to ITBench-AA (yesterday, frontier models <50% on enterprise IT tasks). A pattern is now established: static benchmarks have been overstating capability across at least four distinct task types this week (browse, chart QA, reasoning-mode switching, enterprise IT). The mechanism is the same in all cases, the benchmark reuses inputs the model has effectively memorized, and "with tools" inflates the score by giving the model a way to re-derive the answer it already had.
 
 This also retroactively explains a result on yesterday's How Do AI Agents Spend Your Money study: that paper found accuracy peaks at intermediate token cost. If a chunk of test items are answerable from priors, extra search rounds just add noise.
 
 ## Related pages
 
-- [[2026-05-28-ai-research-agents-narrow-exploration]] — same memorization-vs-search frame, ideation side
-- [[2026-05-27-agent-token-consumption]] — accuracy peaking at intermediate cost
-- [[2026-04-18-dr3-eval-deep-research-benchmark]] — deep-research evaluation rigor
-- [[agent-benchmarks]] — concept page
+- [[2026-05-28-ai-research-agents-narrow-exploration]], same memorization-vs-search frame, ideation side
+- [[2026-05-27-agent-token-consumption]], accuracy peaking at intermediate cost
+- [[2026-04-18-dr3-eval-deep-research-benchmark]], deep-research evaluation rigor
+- [[agent-benchmarks]], concept page
 
 ## Research angle
 

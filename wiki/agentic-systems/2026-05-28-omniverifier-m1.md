@@ -36,10 +36,10 @@ M1-TTS also continues the agentic self-correction line that EvalVerse (yesterday
 
 ## Related pages
 
-- [[2026-05-28-scientistone-chain-of-evidence]] — verifiable autonomous research via evidence binding
-- [[2026-05-28-joint-mtp-rl-occ]] — decoupled coefficient adaptation in joint RL training
-- [[2026-05-28-axpo-explorative-policy-optimization]] — selective resampling in RL rollouts
-- [[verifier-models]] — concept page
+- [[2026-05-28-scientistone-chain-of-evidence]], verifiable autonomous research via evidence binding
+- [[2026-05-28-joint-mtp-rl-occ]], decoupled coefficient adaptation in joint RL training
+- [[2026-05-28-axpo-explorative-policy-optimization]], selective resampling in RL rollouts
+- [[verifier-models]], concept page
 
 ## Research angle
 

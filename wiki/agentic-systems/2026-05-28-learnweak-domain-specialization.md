@@ -33,11 +33,11 @@ A pattern is forming this week: post-training methods that work by selectively f
 
 ## Related pages
 
-- [[2026-05-28-axpo-explorative-policy-optimization]] — resample all-wrong rollouts
-- [[2026-05-28-peam-parametric-embodied-memory]] — failure-correction pairs as training signal
-- [[2026-05-25-skillopt-executive-optimizer-agent-skills]] — rejected-edit buffer
-- [[gui-agents]] — concept page
+- [[2026-05-28-axpo-explorative-policy-optimization]], resample all-wrong rollouts
+- [[2026-05-28-peam-parametric-embodied-memory]], failure-correction pairs as training signal
+- [[2026-05-25-skillopt-executive-optimizer-agent-skills]], rejected-edit buffer
+- [[gui-agents]], concept page
 
 ## Research angle
 
-The planning-vs-execution disentangling is the structural piece that should travel beyond computer-use. If you can attribute an agent's failure to one component, you can target the corresponding update without touching the working components — exactly the trick that PEAM's physically-isolated LoRA adapters use. A clean unification of LearnWeak and PEAM would put failure-attribution and weight-isolated updates together, giving a continual-learning recipe with both targeted data and targeted parameters.
+The planning-vs-execution disentangling is the structural piece that should travel beyond computer-use. If you can attribute an agent's failure to one component, you can target the corresponding update without touching the working components, exactly the trick that PEAM's physically-isolated LoRA adapters use. A clean unification of LearnWeak and PEAM would put failure-attribution and weight-isolated updates together, giving a continual-learning recipe with both targeted data and targeted parameters.

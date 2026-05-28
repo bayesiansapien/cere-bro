@@ -34,10 +34,10 @@ The novelty over TIP/LongAct is that ESR makes no claim about which specific tok
 
 ## Related pages
 
-- [[2026-04-16-tip-token-importance-on-policy-distillation]] — selective token weighting in OPD
-- [[2026-04-18-longact-saliency-sparse-rl]] — saliency-driven long-context training
-- [[2026-05-14-extrapolation-cliff-on-policy-distillation]] — OPD collapse threshold
-- [[2026-05-13-many-faces-on-policy-distillation]] — survey of OPD variants
+- [[2026-04-16-tip-token-importance-on-policy-distillation]], selective token weighting in OPD
+- [[2026-04-18-longact-saliency-sparse-rl]], saliency-driven long-context training
+- [[2026-05-14-extrapolation-cliff-on-policy-distillation]], OPD collapse threshold
+- [[2026-05-13-many-faces-on-policy-distillation]], survey of OPD variants
 
 ## Research angle
 

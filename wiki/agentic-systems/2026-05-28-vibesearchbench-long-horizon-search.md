@@ -6,13 +6,13 @@
 
 ## TL;DR
 
-LLM agents score well on search benchmarks while real users find their results unsatisfying. VibeSearchBench attributes the gap to single-turn, over-specified, fixed-schema benchmark design and proposes a counter-benchmark: 200 manually curated bilingual (Chinese, English) tasks across 20 domains, where each task pairs a user persona with a schema-free ground-truth knowledge graph and is evaluated through a progressive-disclosure user simulator and graph-matching. Seven frontier models tested under ReAct and OpenClaw harnesses all remain inadequate — best F1 is 30.30.
+LLM agents score well on search benchmarks while real users find their results unsatisfying. VibeSearchBench attributes the gap to single-turn, over-specified, fixed-schema benchmark design and proposes a counter-benchmark: 200 manually curated bilingual (Chinese, English) tasks across 20 domains, where each task pairs a user persona with a schema-free ground-truth knowledge graph and is evaluated through a progressive-disclosure user simulator and graph-matching. Seven frontier models tested under ReAct and OpenClaw harnesses all remain inadequate, best F1 is 30.30.
 
 ## Key findings
 
 - Persona + schema-free knowledge graph per task; progressive-disclosure simulation.
 - 200 tasks across 20 domains, Chinese + English.
-- Best F1: 30.30 — substantially below standard benchmark scores.
+- Best F1: 30.30, substantially below standard benchmark scores.
 - Failure modes: long-context reasoning, proactive intent elicitation, structured knowledge construction.
 
 ## How this fits prior wiki state
@@ -21,9 +21,9 @@ This sits with LiveBrowseComp (today), HRBench (today), and ITBench-AA (yesterda
 
 ## Related pages
 
-- [[2026-05-28-livebrowsecomp-search-agents-priors]] — companion eval-rigor finding
-- [[2026-04-18-dr3-eval-deep-research-benchmark]] — deep-research evaluation
-- [[agent-benchmarks]] — concept page
+- [[2026-05-28-livebrowsecomp-search-agents-priors]], companion eval-rigor finding
+- [[2026-04-18-dr3-eval-deep-research-benchmark]], deep-research evaluation
+- [[agent-benchmarks]], concept page
 
 ## Research angle
 

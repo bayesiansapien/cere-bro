@@ -23,8 +23,8 @@ It also pairs with today's Gamma-World ([[2026-05-28-gamma-world-multi-agent-mod
 
 ## Related pages
 
-- [[2026-05-28-gamma-world-multi-agent-modeling]] — multi-agent world modeling beyond two players
-- [[vision-language-models]] — concept page
+- [[2026-05-28-gamma-world-multi-agent-modeling]], multi-agent world modeling beyond two players
+- [[vision-language-models]], concept page
 
 ## Research angle
 
