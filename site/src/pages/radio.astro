@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import wiki from '../data/wiki.json';
+
+const episodes = wiki.podcasts ?? [];
+
+function fmtDate(iso) {
+  // 2026-05-23 → "May 23"
+  const [, m, d] = iso.split('-').map(Number);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return `${months[m - 1]} ${d}`;
+}
+---
+
+<Base title="Cerebro Radio — cere-bro" active="radio">
+  <section class="hero">
+    <div class="hero-date">listen on your walk</div>
+    <h1>Cerebro Radio</h1>
+    <p class="hero-tagline">
+      A daily ~45 minute podcast on AI research. Generated automatically from the day's digest plus
+      every wiki summary it cross-links plus the social-stream syntheses. Hosts identify 2-4 themes
+      from the day's material and walk through them as one connected story, not a paper-by-paper roundup.
+    </p>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker" style="color:#fbbf24">episodes</div>
+    <h2>{episodes.length} {episodes.length === 1 ? 'episode' : 'episodes'}</h2>
+    <p class="lead">
+      Newest first. Each episode generated the morning after the digest it covers — lagged by one
+      day so the full social-stream window is captured. Audio hosted on HuggingFace.
+    </p>
+
+    <div class="episode-list">
+      {episodes.map((ep) => (
+        <article class="episode-card">
+          <div class="episode-header">
+            <div class="episode-meta">
+              <span class="episode-num">#{ep.episodeNumber ?? '—'}</span>
+              <span class="episode-date">{fmtDate(ep.date)}, 2026</span>
+              {ep.runMin && <span class="episode-runtime">~{ep.runMin} min</span>}
+            </div>
+            <a class="episode-digest-link" href={ep.digestUrl}>Full digest →</a>
+          </div>
+
+          {ep.teaser && <p class="episode-teaser">{ep.teaser}</p>}
+
+          {ep.topics && ep.topics.length > 0 && (
+            <details class="episode-topics">
+              <summary>In this episode ({ep.topics.length})</summary>
+              <ul>
+                {ep.topics.map((t) => <li>{t}</li>)}
+              </ul>
+            </details>
+          )}
+
+          <audio controls preload="none" class="episode-player">
+            <source src={ep.audioUrl} type="audio/mp4" />
+            Your browser does not support audio playback.
+            <a href={ep.audioUrl}>Download MP4 audio</a>
+          </audio>
+        </article>
+      ))}
+    </div>
+
+    {episodes.length === 0 && (
+      <p class="lead" style="color: var(--fg-muted)">
+        No episodes yet. Episodes appear here once the daily cron generates them.
+      </p>
+    )}
+  </section>
+</Base>
