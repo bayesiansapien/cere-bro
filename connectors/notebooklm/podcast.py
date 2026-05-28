@@ -395,6 +395,43 @@ html_doc = f"""<!DOCTYPE html>
 HTML_PATH.write_text(html_doc, encoding="utf-8")
 print(f"  ✓ {HTML_PATH}  (open in browser → Cmd+A → Cmd+C → paste into Substack)")
 
+
+# ── Upload audio to GitHub Release ────────────────────────────────────────────
+# The /radio page on the Astro site links to audio via GitHub Releases:
+#   github.com/<user>/<repo>/releases/download/podcasts-YYYY-MM/YYYY-MM-DD.m4a
+# Episodes are grouped by month, one release tag per month. Idempotent —
+# `gh release upload` with --clobber overwrites in case of re-runs.
+#
+# Requires `gh` CLI authenticated for the repo. If gh is missing or auth
+# fails, log a warning and continue (the .html note is still committed; the
+# audio is local-only until uploaded manually).
+print("\nUploading audio to GitHub Release...")
+RELEASE_TAG = f"podcasts-{date_str[:7]}"
+try:
+    # Check if release exists; create it if not.
+    check = subprocess.run(["gh", "release", "view", RELEASE_TAG],
+                           capture_output=True, text=True)
+    if check.returncode != 0:
+        print(f"  Release {RELEASE_TAG} does not exist — creating it.")
+        subprocess.run(["gh", "release", "create", RELEASE_TAG,
+                        "--title", f"Cerebro Radio — {date_str[:7]} episodes",
+                        "--notes", f"Audio assets for Cerebro Radio episodes published in {date_str[:7]}."],
+                       capture_output=True, text=True, check=True)
+    # Upload the m4a as a release asset.
+    up = subprocess.run(["gh", "release", "upload", RELEASE_TAG, str(AUDIO_PATH), "--clobber"],
+                        capture_output=True, text=True)
+    if up.returncode == 0:
+        print(f"  ✓ Uploaded {AUDIO_PATH.name} to release {RELEASE_TAG}")
+        print(f"  ✓ Audio URL: https://github.com/bayesiansapien/cere-bro/releases/download/{RELEASE_TAG}/{AUDIO_PATH.name}")
+    else:
+        print(f"  WARN: gh release upload failed: {up.stderr.strip()[:200]}")
+except FileNotFoundError:
+    print("  WARN: gh CLI not installed — skipping audio upload. Episode .html is committed; audio stays local-only.")
+except subprocess.CalledProcessError as e:
+    print(f"  WARN: gh release create failed: {e.stderr.strip()[:200] if e.stderr else e}")
+except Exception as e:
+    print(f"  WARN: unexpected upload error: {e}")
+
 # ── Cleanup notebook ──────────────────────────────────────────────────────────
 
 if cfg.get("delete_notebook_after_download", True):
