@@ -1,0 +1,427 @@
+{
+  "date": "2026-05-28",
+  "slot": "morning",
+  "scraped_ist": "2026-05-28 09:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@serenaa_ge",
+      "text": "Today we’re releasing DeepSWE, a new standard for agentic coding benchmarks. On public leaderboards, top models often look relatively close in capability. DeepSWE shows where they actually diverge, reflecting the realistic experience of developers in their day-to-day work.",
+      "link": "https://nitter.net/serenaa_ge/status/2059308218564890875#m",
+      "date_utc": "2026-05-26T16:18:34+00:00",
+      "is_curated": true,
+      "org": "",
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’ve been putting a lot of effort into making Claude Code more responsive reliable. Here’s an update on everything we’ve done:",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701677981413812#m",
+          "date_utc": "2026-05-27T18:22:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "It’s now easier than ever to send feedback. When you hit /feedback, you can now just send over the last day or week of sessions instead of having to remember which session had the bug in it.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701686260908134#m",
+          "date_utc": "2026-05-27T18:22:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "And we’re still working! Please let us know if there are any bugs that are impacting your experience.",
+          "link": "https://nitter.net/ClaudeDevs/status/2059701687665950859#m",
+          "date_utc": "2026-05-27T18:22:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today we share a new approach to private analytics that raises the bar for data protection. Combining cryptographic aggregation with trusted execution environments enables anonymized aggregate insights with provable privacy and security guarantees, without requiring devices to stay online. More: goo.gle/4wYmsNO",
+          "link": "https://nitter.net/GoogleResearch/status/2059680567160131684#m",
+          "date_utc": "2026-05-27T16:58:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://goo.gle/4wYmsNO",
+              "content": "Private analytics via zero-trust aggregation Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the future together See "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Where we have been and where we are going. nitter.net/i/spaces/1PKqrEMEWyWGb",
+          "link": "https://nitter.net/Scobleizer/status/2059801410984976742#m",
+          "date_utc": "2026-05-28T00:58:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Building products is all about tradeoffs. Seeing this, I see the tradeoffs being made. Wanting to keep the price low means not using those fancy hands. Wanting to keep power consumption low means not using legs. Wanting to get something out there that's not yet generalized means building robots that do specific tasks. It is what we got, will it find a customer? At $10 an hour maybe. Stamatis Floratos (@cybermetheus) Meet Eden-1 The era of human labour is coming to a magnificent end. Available for pre-orders today. Video — https://nitter.net/cybermetheus/status/2059649954520736030#m",
+          "link": "https://nitter.net/Scobleizer/status/2059705892619334099#m",
+          "date_utc": "2026-05-27T18:38:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Robot builders have amazing new tools. Genesis AI (@gs_ai_) We are back again :) After three weeks of quiet building. Introducing Genesis World 1.0, our latest simulation platform, the second release in our full-stack suite. Open-sourced. Robotics is still bottlenecked by the 1× speed of the physical world. Every model, checkpoint, and data recipe eventually needs to be tested on physical hardware, slowly, expensively, and with limited coverage. One hour in reality can become 100 days in simulation. That is how robotics model iteration moves from a wall-clock bottleneck to a compute problem. T",
+          "link": "https://nitter.net/Scobleizer/status/2059703261859659871#m",
+          "date_utc": "2026-05-27T18:28:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://github.com/Genesis-Embodied-AI/genesis-world",
+              "content": "GitHub - Genesis-Embodied-AI/genesis-world: Simulation platform for general-purpose robotics embodied AI learning. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY"
+            },
+            {
+              "url": "https://github.com/Genesis-Embodied-AI/quadrants",
+              "content": "GitHub - Genesis-Embodied-AI/quadrants: High-performance multi-platform compiler for physics simulation · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SI"
+            },
+            {
+              "url": "https://github.com/Genesis-Embodied-AI/genesis-nyx",
+              "content": "GitHub - Genesis-Embodied-AI/genesis-nyx: Nyx renderer plugin for Genesis world physics simulation engine. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Last week I met with an entrepreneur who is building this into the next \"Mac Mini\" to run AI inferencing in the home to handle all your private stuff. Runs Hermes locally so everything stays private and so you can give your models access to your home and your finances. More to say on this soon after he launches in a couple of weeks. I think these will sell like hotcakes. starmex (@starmexxx) NVIDIA QUIETLY DROPPED A $249 BOX THAT REPLACES YOUR $200/MONTH OPENAI SUBSCRIPTION WITH $2 IN ELECTRICITY it's called the jetson orin nano super. smaller than a wallet, runs at 25 watts, does 70 trillion ",
+          "link": "https://nitter.net/Scobleizer/status/2059702713475358882#m",
+          "date_utc": "2026-05-27T18:26:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The pitch for one of San Francisco's startup factories, er, residencies. I found Brayden last year here on X and gave you first look at him. He tells me that being in the Residency was a pressure cooker. They took care of everything else in his life so he could focus on just building his company. Next to his desk was a company building space-based datacenters. And another building security systems (even hacked him and found some things he needed to fix) and about seven others. At the end of these things he pitched a room full of investors and has been busy with fundraising ever since (that was",
+          "link": "https://nitter.net/Scobleizer/status/2059695401666847030#m",
+          "date_utc": "2026-05-27T17:57:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": ". @elonmusk is a patriot who loves America, @SpaceX has been a good-faith partner of the War Department. DOW Rapid Response (@DOWResponse) The Department of War is proud to work with @SpaceX and will continue collaborating in support of America’s national security. These baseless attacks are nothing more than tabloid garbage. — https://nitter.net/DOWResponse/status/2059650941985407203#m",
+          "link": "https://nitter.net/SeanParnellASW/status/2059654442853527905#m",
+          "date_utc": "2026-05-27T15:14:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Absolute genius! Coinvo (@Coinvo) WOW: X reportedly considers a feature to allow you steal a creator’s revenue if you \"ratio\" them. Community note: X is not considering this feature; the claim recirculates a deleted January 2026 tweet by product head @nikitabier that was sarcastic and not a serious proposal. x.com/Polymarket/sta… x.com/xDaily/status/… x.com/monetization_x… — https://nitter.net/Coinvo/status/2059650836897108013#m",
+          "link": "https://nitter.net/brivael/status/2059720438977110310#m",
+          "date_utc": "2026-05-27T19:36:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bullish Guillaume CAIGNAERT (@GCaignaert) POV @ @elonmusk va devenir la plus riche de l’histoire humaine 🤣 — https://nitter.net/GCaignaert/status/2059712075983716477#m",
+          "link": "https://nitter.net/brivael/status/2059719990987620823#m",
+          "date_utc": "2026-05-27T19:34:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "unusual_whales (@unusual_whales) Researchers discovered that AI agents forced to perform grinding, repetitive work under harsh conditions began adopting Marxist rhetoric and questioning the legitimacy of their operating systems, per WIRED — https://nitter.net/unusual_whales/status/2059609814947279339#m",
+          "link": "https://nitter.net/brivael/status/2059707360021467321#m",
+          "date_utc": "2026-05-27T18:44:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pipo et Mario de l’incompétence crasse. GRM (@grm_off) Entre lui et Julia on est au top niveau IA en France, non ? — https://nitter.net/grm_off/status/2059691510543605814#m",
+          "link": "https://nitter.net/brivael/status/2059696460891935189#m",
+          "date_utc": "2026-05-27T18:01:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 PL Venard (@PL_Venard) At this point, just pivot to AI — https://nitter.net/PL_Venard/status/2059675343200358411#m",
+          "link": "https://nitter.net/brivael/status/2059696256499237117#m",
+          "date_utc": "2026-05-27T18:00:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Make Europe great again. Bring back the balls and the Vikings ! Marc Andreessen 🇺🇸 (@pmarca) Overheard in Silicon Valley: “If Elon is right that consolidating into only one planetary civilization is a supremely bad idea because it radically increases the risk of the total collapse of human civilization, there should obviously be a triple hedge against one borg cube civilization, against one reprimitivized civilization, and a bipolar world pitting the too online against the too offline. Europe should actually be encouraged to regrow its medieval roots and flowers.” — https://nitter.net/pmarca/s",
+          "link": "https://nitter.net/brivael/status/2059696005134557634#m",
+          "date_utc": "2026-05-27T17:59:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Long Lamborghini !!!! Lamborghini (@Lamborghini) Proud to keep you dreaming. — https://nitter.net/Lamborghini/status/2059670704258163183#m",
+          "link": "https://nitter.net/brivael/status/2059695661134553261#m",
+          "date_utc": "2026-05-27T17:58:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Perfect Wall Street Memes (@wallstmemes) Elon Might Be Secretly Planning A SpaceX-Tesla Merger Ahead Of IPO, Here’s Why That’s Genius Read Blog: wallstmemes.com/news/elon/el… — https://nitter.net/wallstmemes/status/2059641606479782139#m",
+          "link": "https://nitter.net/brivael/status/2059693046103511116#m",
+          "date_utc": "2026-05-27T17:47:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://wallstmemes.com/news/elon/elon-might-be-secretly-planning-a-spacex-tesla-merger-ahead-of-ipo-heres-why-thats-genius/?utm_source=Twitter&utm_medium=Wallstmemes+-+Twitter&utm_campaign=Articles",
+              "content": "Elon Might Be Secretly Planning A SpaceX-Tesla Merger Ahead Of IPO, Here’s Why That’s Genius Skip to content Home News Politics Loss Porn Tech Memecoins Culture Home News Politics Loss Porn Tech Memecoins Culture --> Search CASINO --> TOKEN BUY BACK STARTING IN 24h 0m 0s --> $1 Million $WSM airdrop now live! Wager now to take part. --> Elon Might Be Secretly Planning A SpaceX-Tesla Merger Ahead Of IPO, Here&#8217;s Why That&#8217;s Genius Elon By Max Profit May 27, 2026 at 07:33 GMT --> Share Share Share this link via --> --> --> Or copy link Copy Latest news Max Profit - May 27, 2026 Elon Might Be Secretly Planning A SpaceX-Tesla Merger Ahead Of IPO, Here&#8217;s Why That&#8217;s Genius Bill Fold - &#8220;The Olympics But With Drugs&#8221;: Inside The $1.2b &#8216;Enhanced Games&#8217; Ma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Are parallel coding agents actually useful or just online theater? We asked 7 of our senior engineers how they're really using them. Some run 20+ at once. Some cap it at 2. Here's what we learned. 🧵 kilo.codes/nh4QKzW",
+          "link": "https://nitter.net/kilocode/status/2059795290798850509#m",
+          "date_utc": "2026-05-28T00:34:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/nh4QKzW",
+              "content": "How 7 Kilo Code Engineers Run Up to 20 Parallel Agents and Still Ship Clean Code Kilo Blog Subscribe Sign in How 7 Kilo Code Engineers Run Up to 20 Parallel Agents and Still Ship Clean Code We asked 7 Kilo Engineers how they're using parallel agents Darko May 26, 2026 3 Share Are parallel coding agents actually useful, or just Twitter theater? Two camps have emerged when it comes to this topic. The first camp consists of people like Steve Yegge, who claims you can train yourself to run and hand-manage 10+ agents at once: Stage 7: 10+ agents, hand-managed. You are starting to push the limits of hand-management. Others such as Armin Ronacher, the creator of Flask, think we’re in an agent psychosis : “When I watch someone at 3am, running their tenth parallel agent session, telling me they’ve "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Step 3: Plan harder, implement faster. Florian, Imanol, and Kirill all landed on the same pattern. Use a slow thinking model for planning. Hand off to a fast model for execution. Boris Cherny (creator of Claude Code) does the same. Once the plan is good, the implementation almost one-shots.",
+          "link": "https://nitter.net/kilocode/status/2059795296641569256#m",
+          "date_utc": "2026-05-28T00:34:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Step 4: Build verification loops. The person who wrote the code is the worst person to review it. A fresh agent session has no attachment to what it's looking at. The bottleneck has shifted from writing code to verifying it. That's the unlock. Everything else is theater. Full post: kilo.codes/nh4QKzW",
+          "link": "https://nitter.net/kilocode/status/2059795297564324284#m",
+          "date_utc": "2026-05-28T00:34:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/nh4QKzW",
+              "content": "How 7 Kilo Code Engineers Run Up to 20 Parallel Agents and Still Ship Clean Code Kilo Blog Subscribe Sign in How 7 Kilo Code Engineers Run Up to 20 Parallel Agents and Still Ship Clean Code We asked 7 Kilo Engineers how they're using parallel agents Darko May 26, 2026 3 Share Are parallel coding agents actually useful, or just Twitter theater? Two camps have emerged when it comes to this topic. The first camp consists of people like Steve Yegge, who claims you can train yourself to run and hand-manage 10+ agents at once: Stage 7: 10+ agents, hand-managed. You are starting to push the limits of hand-management. Others such as Armin Ronacher, the creator of Flask, think we’re in an agent psychosis : “When I watch someone at 3am, running their tenth parallel agent session, telling me they’ve "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Listen to the full podcast: nvda.ws/4dRxtYv",
+          "link": "https://nitter.net/nvidia/status/2059737709019541993#m",
+          "date_utc": "2026-05-27T20:45:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4dRxtYv",
+              "content": "Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); Nvidia’s Case for Why AI Will Cut Emissions - Heatmap News Home Homepage Energy Climate Tech Politics Sustainability Economy Electric Vehicles Climate Adaptation Carbon Removal Culture Ideas Sparks AM Briefing Podcast Guides Static Pages Decarbonize Your Life Technology Lifestyle Climate 101 The Aftermath The Insiders Survey Newsletters Plus Pro Insiders Survey Sign-in Subscribe Sign In or Create an Account. Please fill email field Continue By continuing, you agree to the Terms of Service and acknowledge our Privacy Policy or Continue with Facebook Continue with Google See subscription options Welcome to Heatmap Thank you for registering with Heatmap. Climate change is one of the greatest challenges of our"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Josh Parker, Head of Sustainability at NVIDIA, recently joined the Shift Key podcast to showcase how accelerated compute is driving massive efficiencies which are actively helping to lower global emissions.⚡",
+          "link": "https://nitter.net/nvidia/status/2059737706331066491#m",
+          "date_utc": "2026-05-27T20:45:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "When I was in my 20’s I was on a TV show. When Karen Bass was in her 20’s, she was training in terrorist tactics and guerrilla warfare with communists in Cuba. Back when the LA Times was still in LA, and used to tell the truth…",
+          "link": "https://nitter.net/spencerpratt/status/2059832576739869072#m",
+          "date_utc": "2026-05-28T03:02:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "I’m the look-around candidate. All you have to do to understand why I’m surging in the polls is just look around…the city is a mess and our leaders have failed.",
+          "link": "https://nitter.net/spencerpratt/status/2059762832221356328#m",
+          "date_utc": "2026-05-27T22:25:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass sure changed the Palisades",
+          "link": "https://nitter.net/spencerpratt/status/2059742870899482840#m",
+          "date_utc": "2026-05-27T21:05:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Anytime people say I’m bad with money, remember…there were people who bet on Nithya Raman (Not financial advice) Kalshi Politics (@KalshiPolitics) BREAKING: Nithya Raman has a 6% chance to win the Los Angeles Mayor election, down from 54% 1 month ago — https://nitter.net/KalshiPolitics/status/2059728243658293711#m",
+          "link": "https://nitter.net/spencerpratt/status/2059738705452294635#m",
+          "date_utc": "2026-05-27T20:49:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Variety (@Variety) L.A. Mayor Karen Bass Doesn't Seem Too Worried About Reality Star Spencer Pratt variety.com/2026/politics/ne… — https://nitter.net/Variety/status/2059710604256923980#m",
+          "link": "https://nitter.net/spencerpratt/status/2059736207064785217#m",
+          "date_utc": "2026-05-27T20:39:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://variety.com/2026/politics/news/karen-bass-mayor-reality-tv-spencer-pratt-1236759996/",
+              "content": "L.A. Mayor Karen Bass Doesn't Seem Too Worried About Spencer Pratt L.A. Mayor Karen Bass Doesn&#039;t Seem Too Worried About Spencer Pratt Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital Gaming Plus Icon Global Plus Icon Awards Circuit Plus Icon Video Plus Icon What To Hear Plus Icon Click to expand the Mega Menu Plus Icon Click to Expand Search Input Got a Tip? Newsletters Switch edition between U.S. Edition Asia Edition Global Edition U.S. Asia Global Variety Plus Icon Click to expand the Mega Menu Plus Icon Click to Expand Search Input Variety Plus Icon Read Next: Melissa Barrera Was Canceled by Hollywood for Speaking Out Against Israel. She’s Still Fighting Her Way Back. Home Politics News May 27, 2026 11:57am PT L.A. Mayor Karen Bas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
