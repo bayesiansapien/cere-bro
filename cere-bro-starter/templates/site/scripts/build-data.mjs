@@ -413,9 +413,15 @@ function inferSource(content) {
 // ── Podcast episode scanning ────────────────────────────────────────────────
 // Episode folders live at wiki/daily-digest/YYYY-MM/podcasts/YYYY-MM-DD/ and
 // contain a <date>.html (show notes, tracked) and a <date>.m4a (audio,
-// gitignored — hosted on HuggingFace). walk() skips the podcasts/ dir, so we
-// scan it separately here. The audio is served from the HF dataset.
-const PODCAST_AUDIO_BASE = 'https://huggingface.co/datasets/{{HF_USER}}/{{HF_DATASET}}/resolve/main';
+// gitignored — hosted on GitHub Releases). walk() skips the podcasts/ dir, so
+// we scan it separately here.
+//
+// Audio is hosted as GitHub Release assets, one release per month:
+//   github.com/<user>/<repo>/releases/download/podcasts-YYYY-MM/YYYY-MM-DD.m4a
+// Free, no per-file size limit problems, no separate auth needed (uses the
+// repo's gh auth). Alternative was HuggingFace dataset — switched to Releases
+// because it works today with existing gh CLI auth.
+const PODCAST_AUDIO_BASE = 'https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO}}/releases/download';
 
 function stripTags(s) {
   return s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
@@ -462,6 +468,9 @@ function scanPodcasts() {
         ? [...ulMatch[1].matchAll(/<li>(.*?)<\/li>/gs)].map((m) => stripTags(m[1]))
         : [];
 
+      // Build the audio URL: episodes are grouped by month in releases tagged
+      // podcasts-YYYY-MM. The asset name is just <date>.m4a.
+      const monthTag = `podcasts-${epDate.slice(0, 7)}`;
       episodes.push({
         date: epDate,
         episodeNumber,
@@ -469,7 +478,7 @@ function scanPodcasts() {
         runMin,
         teaser,
         topics,
-        audioUrl: `${PODCAST_AUDIO_BASE}/${epDate}.m4a`,
+        audioUrl: `${PODCAST_AUDIO_BASE}/${monthTag}/${epDate}.m4a`,
         digestUrl: `/digests/${epDate}/`,
       });
     }

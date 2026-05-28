@@ -124,20 +124,27 @@ for line in digest_text.splitlines():
                 continue
             deep_dive_urls.append(url)
 
-# Social-stream files — full 24h window for the target podcast date.
-# The podcast is LAGGED BY ONE DAY relative to the cron. The 9 AM cron on day Y
-# generates the podcast for day X (where X = Y - 1). By that time X's full day
-# window (9 AM X → 9 AM Y) is complete:
+# Social-stream (Media Live) files — full 24h window for the target podcast date.
+#
+# Convention: the podcast is LAGGED BY ONE DAY relative to the cron. The 9 AM cron
+# on day Y generates the podcast for day X (where X = Y - 1). By that time, X's full
+# day window (9 AM X → 9 AM Y) is complete:
 #   - All 4 daytime slot files for X exist (morning/afternoon/evening/pm).
-#   - The midnight rollup for X exists (X.md).
+#   - The midnight rollup for X exists (X.md, aggregating the 4 slots).
 #   - The overnight tail from 10 PM X to 9 AM Y is captured by Y's morning slot
 #     (just written by today's farmer at 9 AM), tagged with Y's date.
+#
+# Source set for date_str = X:
+#   - All X-prefixed files (X-morning, X-afternoon, X-evening, X-pm, X.md rollup)
+#   - Y-morning.md (the next-day morning slot — overnight catch)
 social_stream_paths: list[Path] = []
 if cfg.get("include_media_live_files", True):
+    # Target date's own social-stream files (4 slots + daily rollup)
     ss_dir = REPO_ROOT / "wiki" / "social-stream" / year_month
     if ss_dir.exists():
         social_stream_paths.extend(sorted(ss_dir.glob(f"{date_str}*.md")))
 
+    # Next-day morning slot — captures the overnight tail of date_str (10 PM → 9 AM)
     tomorrow         = (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
     tomorrow_ym      = tomorrow[:7]
     tomorrow_morning = REPO_ROOT / "wiki" / "social-stream" / tomorrow_ym / f"{tomorrow}-morning.md"
@@ -276,7 +283,7 @@ for line in digest_text.splitlines():
     if in_dd and line.startswith("### "):
         deep_dive_titles.append(line[4:].strip())
 
-# Compute actual audio duration for the "Run time" field
+# Compute actual audio duration so the note's "Run time" is accurate
 try:
     probe = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -304,7 +311,7 @@ if tldr_bullets:
     note.append("")
 note.append("---")
 note.append("")
-note.append(f"🎧 Audio attached. Full digest: [{date_str}](https://{{GITHUB_USER}}.github.io/{{GITHUB_REPO}}/digests/{date_str}/)")
+note.append(f"🎧 Audio attached. Full digest: [{date_str}](https://{{GITHUB_USERNAME}}.github.io/{{GITHUB_REPO}}/digests/{date_str}/)")
 note.append("")
 
 note_md = "\n".join(note)
@@ -314,17 +321,19 @@ note_md = "\n".join(note)
 
 
 # ── Render HTML for Substack paste ─────────────────────────────────────────────
-# Substack's editor is rich-text, not markdown. Render the note to HTML so the
-# user can open in browser, Cmd+A → Cmd+C, paste into Substack with regular
-# Cmd+V — formatting transfers as Substack's native rich-text elements.
+# Substack's editor is rich-text, not markdown. Pasting raw .md shows literal
+# `#` and `**`. Render to HTML so the user can open in browser, select all,
+# copy, and paste into Substack with regular Cmd+V — formatting transfers.
 
 def _process_inline(text: str) -> str:
+    """Inline markdown → HTML: links, bold, italic."""
     text = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<a href="\2">\1</a>', text)
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", text)
     return text
 
 def _md_to_html_blocks(md_text: str) -> str:
+    """Minimal markdown → HTML for the small note subset we use."""
     blocks = re.split(r"\n\s*\n", md_text.strip())
     out_blocks = []
     for block in blocks:
@@ -334,22 +343,29 @@ def _md_to_html_blocks(md_text: str) -> str:
         if block == "---":
             out_blocks.append("<hr>")
             continue
+        # Heading: single line starting with #+
         first_line = block.split("\n")[0]
         heading_match = re.match(r"^(#+)\s+(.+)$", first_line)
         if heading_match and "\n" not in block:
             level = min(len(heading_match.group(1)), 6)
-            out_blocks.append(f"<h{level}>{_process_inline(heading_match.group(2))}</h{level}>")
+            text = _process_inline(heading_match.group(2))
+            out_blocks.append(f"<h{level}>{text}</h{level}>")
             continue
+        # List: every non-empty line starts with "- "
         lines = block.split("\n")
         non_empty = [ln for ln in lines if ln.strip()]
         if non_empty and all(ln.lstrip().startswith("- ") for ln in non_empty):
             items = [f"  <li>{_process_inline(ln.lstrip()[2:].strip())}</li>" for ln in non_empty]
             out_blocks.append("<ul>\n" + "\n".join(items) + "\n</ul>")
             continue
+        # Paragraph: join lines (preserve `  ` line-break as <br>)
         para_parts = []
         for ln in lines:
             content = _process_inline(ln.rstrip())
-            para_parts.append(content + "<br>" if ln.endswith("  ") else content)
+            if ln.endswith("  "):
+                para_parts.append(content + "<br>")
+            else:
+                para_parts.append(content)
         out_blocks.append("<p>" + " ".join(para_parts) + "</p>")
     return "\n\n".join(out_blocks)
 
@@ -378,6 +394,43 @@ html_doc = f"""<!DOCTYPE html>
 """
 HTML_PATH.write_text(html_doc, encoding="utf-8")
 print(f"  ✓ {HTML_PATH}  (open in browser → Cmd+A → Cmd+C → paste into Substack)")
+
+
+# ── Upload audio to GitHub Release ────────────────────────────────────────────
+# The /radio page on the Astro site links to audio via GitHub Releases:
+#   github.com/<user>/<repo>/releases/download/podcasts-YYYY-MM/YYYY-MM-DD.m4a
+# Episodes are grouped by month, one release tag per month. Idempotent —
+# `gh release upload` with --clobber overwrites in case of re-runs.
+#
+# Requires `gh` CLI authenticated for the repo. If gh is missing or auth
+# fails, log a warning and continue (the .html note is still committed; the
+# audio is local-only until uploaded manually).
+print("\nUploading audio to GitHub Release...")
+RELEASE_TAG = f"podcasts-{date_str[:7]}"
+try:
+    # Check if release exists; create it if not.
+    check = subprocess.run(["gh", "release", "view", RELEASE_TAG],
+                           capture_output=True, text=True)
+    if check.returncode != 0:
+        print(f"  Release {RELEASE_TAG} does not exist — creating it.")
+        subprocess.run(["gh", "release", "create", RELEASE_TAG,
+                        "--title", f"Cerebro Radio — {date_str[:7]} episodes",
+                        "--notes", f"Audio assets for Cerebro Radio episodes published in {date_str[:7]}."],
+                       capture_output=True, text=True, check=True)
+    # Upload the m4a as a release asset.
+    up = subprocess.run(["gh", "release", "upload", RELEASE_TAG, str(AUDIO_PATH), "--clobber"],
+                        capture_output=True, text=True)
+    if up.returncode == 0:
+        print(f"  ✓ Uploaded {AUDIO_PATH.name} to release {RELEASE_TAG}")
+        print(f"  ✓ Audio URL: https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO}}/releases/download/{RELEASE_TAG}/{AUDIO_PATH.name}")
+    else:
+        print(f"  WARN: gh release upload failed: {up.stderr.strip()[:200]}")
+except FileNotFoundError:
+    print("  WARN: gh CLI not installed — skipping audio upload. Episode .html is committed; audio stays local-only.")
+except subprocess.CalledProcessError as e:
+    print(f"  WARN: gh release create failed: {e.stderr.strip()[:200] if e.stderr else e}")
+except Exception as e:
+    print(f"  WARN: unexpected upload error: {e}")
 
 # ── Cleanup notebook ──────────────────────────────────────────────────────────
 
