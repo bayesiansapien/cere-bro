@@ -1,0 +1,339 @@
+{
+  "date": "2026-05-29",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-29 15:23",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "At Google I/O 2026, we shared major breakthroughs. From accelerating scientific discovery with Gemini for Science to transforming everyday experiences with Google Search, we’re catalyzing a new era of innovation. Read the blog to learn more: goo.gle/4dR4tQu",
+          "link": "https://nitter.net/GoogleResearch/status/2060105005991117263#m",
+          "date_utc": "2026-05-28T21:04:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://goo.gle/4dR4tQu",
+              "content": "A New Era of Innovation: Google Research at I/O 2026 Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the future toget"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Big migrations and refactors are some of a team's most important work, and the easiest to push off to a \"better time\" since they'd tie up engineers for a quarter. With dynamic workflows, Claude can now land that kind of work in days or weeks. More: claude.com/blog/introducing-…",
+          "link": "https://nitter.net/bcherny/status/2060048879274414090#m",
+          "date_utc": "2026-05-28T17:21:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+              "content": "Introducing dynamic workflows | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Tr"
+            }
+          ]
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "We also shipped dynamic workflows in Claude Code (research preview), for tasks too big for one pass. Make sure to default to auto mode so Claude isn't stopping for permissions. It's token-intensive, so save it for your biggest jobs: migrations, refactors, perf optimization, batch bug fixes.",
+          "link": "https://nitter.net/bcherny/status/2060048877944778995#m",
+          "date_utc": "2026-05-28T17:21:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "4.8 defaults to high effort, which spends about the same tokens as 4.7's default on coding but performs better. For hard problems and long-running async work, switch to xhigh. We've raised Claude Code rate limits to cover the extra tokens.",
+          "link": "https://nitter.net/bcherny/status/2060048875918930045#m",
+          "date_utc": "2026-05-28T17:21:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Claude Opus 4.8 is out today. It's our strongest coding model yet: up on SWE-bench Pro (from 64.3 to 69.2) and noticeably more honest about its own work. It tells you when it's unsure and catches its own bugs instead of declaring victory early. Same price as 4.7. Claude (@claudeai) Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. — https://nitter.net/claudeai/status/2060042702150930686#m",
+          "link": "https://nitter.net/bcherny/status/2060048873440129073#m",
+          "date_utc": "2026-05-28T17:21:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yep DogeDesigner (@cb_doge) Post interesting content on 𝕏. That’s it. Simple as that. — https://nitter.net/cb_doge/status/2060143060584214536#m",
+          "link": "https://nitter.net/brivael/status/2060296254119133434#m",
+          "date_utc": "2026-05-29T09:44:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yes Remarks (@remarks) JUST IN: 🇺🇸 Vice President JD Vance says US military should never let AI make life-and-death decisions. — https://nitter.net/remarks/status/2060104962323972232#m",
+          "link": "https://nitter.net/brivael/status/2060292206728974625#m",
+          "date_utc": "2026-05-29T09:28:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Argentina will become a paradise, that's obvious. Leading Report (@LeadingReport) Peter Thiel has temporarily relocated his family to Argentina, enrolled his children in school there, and bought property, partly due to Thiel’s concerns about the United States’ future, per NYT. — https://nitter.net/LeadingReport/status/2060080326047613256#m",
+          "link": "https://nitter.net/brivael/status/2060292111996453210#m",
+          "date_utc": "2026-05-29T09:28:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "soon back to this Perseus (@PerseusLeGrand) France ! — https://nitter.net/PerseusLeGrand/status/2060052869508644962#m",
+          "link": "https://nitter.net/brivael/status/2060291175202922602#m",
+          "date_utc": "2026-05-29T09:24:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ads and control is not a business model anymore. Cancel worldcoin, cancel ads and tracking and start to do great product for humanity. Les Echos (@LesEchos) IA : Anthropic creuse l'écart avec OpenAI et tutoie les 1.000 milliards de valorisation trib.al/HzRBjlF — https://nitter.net/LesEchos/status/2060081771463496079#m",
+          "link": "https://nitter.net/brivael/status/2060290566005383421#m",
+          "date_utc": "2026-05-29T09:22:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://trib.al/HzRBjlF",
+              "content": "IA : Anthropic creuse l&#x27;écart avec OpenAI et tutoie les 1.000 milliards de valorisation lors d&#x27;une levée de fonds XXL - Les Echos Voir la bourse sur Investir Recherche En continu Le journal Mes articles Mes secteurs Machiavel Newsletters Podcasts Infographies Théma Le Cercle Thème Automatique Se connecter S’abonner À la une Idées Économie Politique Entreprises Finance - Marchés Bourse Monde Tech-Médias Start-up Régions Patrimoine Travailler mieux Week-end High Tech Médias High Tech Intelligence artificielle Publicité IA : Anthropic creuse l&#x27;écart avec OpenAI et tutoie les 1.000 milliards de valorisation lors d&#x27;une levée de fonds XXL Premium Contenu réservé aux abonnés L&#x27;entreprise d&#x27;intelligence artificielle écrase tout sur son passage. Elle vient de conclure "
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Marc Andreessen 🇺🇸 (@pmarca) Oh no — https://nitter.net/pmarca/status/2060210253116190733#m",
+          "link": "https://nitter.net/brivael/status/2060287491542859889#m",
+          "date_utc": "2026-05-29T09:09:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yep Naval (@naval) There are 10x engineers because there are 10x thinkers. — https://nitter.net/naval/status/2060286038854054375#m",
+          "link": "https://nitter.net/brivael/status/2060287299645018406#m",
+          "date_utc": "2026-05-29T09:09:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Cinema Scene (@CinemaScene404) Morgan Freeman! — https://nitter.net/CinemaScene404/status/2060087600770142502#m",
+          "link": "https://nitter.net/brivael/status/2060282983592956248#m",
+          "date_utc": "2026-05-29T08:51:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Libertarian Party of Florida (@LP_Florida) — https://nitter.net/LP_Florida/status/2060024553594581484#m",
+          "link": "https://nitter.net/brivael/status/2060282890122879343#m",
+          "date_utc": "2026-05-29T08:51:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "OMG, this is great Myrhe𝕩 (@myrhex) Apple is opening up Siri in iOS 27 so you can choose Grok as your default AI. iOS 27 will reportedly introduce an “Extensions” system that lets users pick third-party AI models, including Grok, Claude, Gemini, and others, to power Siri, Writing Tools, Image Playground, and more. Instead of being locked into ChatGPT only, you’ll be able to set Grok as the AI that handles your requests directly through Siri on your iPhone. This is a big deal for anyone who prefers Grok’s truthfulness and real-time capabilities. It gives users actual choice instead of Apple dec",
+          "link": "https://nitter.net/brivael/status/2060282451948110332#m",
+          "date_utc": "2026-05-29T08:49:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.macrumors.com/2026/03/26/apple-ios-27-siri-chatbot-integration/",
+              "content": "Apple Plans to Let Rival AI Chatbots Integrate With Siri in iOS 27 - MacRumors Skip to Content Got a tip for us? Let us know a. Send us an email b. Anonymous form close Open Menu Front Page Roundups Show Roundups Guides How Tos Reviews Buyer&#x27;s Guide Forums Forums Show Forums menu Login Register New Posts Visit Forums Visit Forums New Posts Login Register Visit Forums Alerts Direct messages Watched New Posts Visit Forums Open Sidebar iPhone 18 Pro iPhone Fold WWDC 2026 iOS 27 MacBook Neo iPhone 17e AirTag iPhone 18 iOS 26 iPad Pro iPhone 17 macOS Tahoe iPhone 17 Pro MacBook Pro iPadOS 26 iMac Mac mini HomePod Apple TV iPad Pro iPhone Air macOS 27 Apple Vision Pro iPhone 16 AirPods 4 Apple Watch Ultra 3 HomePod mini MacBook Air iPad AirPods Max 2 AirPods Pro 3 Apple Deals Apple Watch 11"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Laurent (@scion_x_) \"Failure is irrelevant unless it's catastrophic\" — https://nitter.net/scion_x_/status/2060280297732645081#m",
+          "link": "https://nitter.net/brivael/status/2060282292229099811#m",
+          "date_utc": "2026-05-29T08:49:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "If you don’t burn 500M$ tokens this month, you are fired. Polymarket (@Polymarket) NEW: AI consultant reveals a client accidentally spent $500,000,000.00 in a single month after failing to set employee limits on Claude usage. — https://nitter.net/Polymarket/status/2060034216906068131#m",
+          "link": "https://nitter.net/brivael/status/2060276203383033989#m",
+          "date_utc": "2026-05-29T08:24:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Plan B is for pussycat Othmane (@khadri_othmane) Plan B is a how you lose plan A. It's a quiet promise to yourself that the main thing is allowed to fail. The brain hears that promise and starts hedging. Half of you executes. The other half quietly rehearses the retreat. Monomania is what removes the retreat. When the only acceptable outcome is the one you committed to, your nervous system stops splitting reps and starts compounding them. That compounding is where the work that looks impossible from the outside actually comes from. End of December 2025. The market was moving faster than my tea",
+          "link": "https://nitter.net/brivael/status/2060276021358690454#m",
+          "date_utc": "2026-05-29T08:24:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le 19/20eme a enfanté le corporate bullshit. Le 21eme avec l’IA, est en train d’enfanter l’anti-corporate bullshit. Si ta boîte est boring, si ta boîte est woke, et que tu te prends au sérieux avec tout le cérémonial qui va avec, c’est qu’une question de temps avant que ta société collapse. L’IA est un accélérateur de collapse, ce qui prenait avant 10 ans, va prendre 3 à 6 mois.",
+          "link": "https://nitter.net/brivael/status/2060275772862959853#m",
+          "date_utc": "2026-05-29T08:23:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "This is great Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) Civilizations evolve in a multidimensional space. We have identified over 20 such dimensions below👇🏻 – some of them related, but nonetheless all different. Let’s take them one by one. “Zero-sum thinking vs value creation” is a big one. Possibly the deepest axis in this framework, because it quietly determines almost everything else. A society built on zero-sum assumptions develops one entire psychological ecosystem. A society built on value-creation assumptions develops another. And over generations, those ecosystems compound. The reason",
+          "link": "https://nitter.net/brivael/status/2060271915244142999#m",
+          "date_utc": "2026-05-29T08:07:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bare minimum. Justine Moore (@venturetwins) Me using Claude Opus 4.8 to rename a file Video — https://nitter.net/venturetwins/status/2060061712389378166#m",
+          "link": "https://nitter.net/brivael/status/2060267270002164053#m",
+          "date_utc": "2026-05-29T07:49:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "bone (@boneGPT) what the — https://nitter.net/boneGPT/status/2060214913876815896#m",
+          "link": "https://nitter.net/brivael/status/2060258862804963557#m",
+          "date_utc": "2026-05-29T07:16:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "As agents use more context, input tokens have become the majority of price-equivalent token costs.",
+          "link": "https://nitter.net/cursor_ai/status/2060025076947521984#m",
+          "date_utc": "2026-05-28T15:47:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "For everyone asking how to try this: you don't need a new API key. You can use Grok Build 0.1 through the native Kilo Gateway, bring your own key, or plug in your existing xAI coding plan. Free and open source. kilo.codes/gTibN0I",
+          "link": "https://nitter.net/kilocode/status/2060273581100085321#m",
+          "date_utc": "2026-05-29T08:14:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/gTibN0I",
+              "content": "We Asked Grok Build 0.1 to Plan and Build a Webhook Service Kilo Blog Subscribe Sign in We Asked Grok Build 0.1 to Plan and Build a Webhook Service Darko May 28, 2026 1 1 Share xAI released Grok Build 0.1 as a new coding model priced at $1 per 1M input tokens and $2 per 1M output tokens with a 256K context window. We ran it through Kilo Code (the VS Code extension) on a real backend task to see how it handles planning, implementation, and the long tool-calling sequence in between. TL;DR: Grok Build 0.1 planned and built a working webhook delivery service in TypeScript, Bun, and SQLite for $1.65 total ($0.17 to plan, $1.48 to implement) at roughly 120 tokens per second, with zero tool-calling failures across the run. Pricing and Context For cost context, Grok Build 0.1 sits at $1/$2 per 1M "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "From a Kilo Code Reviewer user. ❤️ kilo.codes/pbnKFMJ",
+          "link": "https://nitter.net/kilocode/status/2060226385524760903#m",
+          "date_utc": "2026-05-29T05:07:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/pbnKFMJ",
+              "content": "Kilo Code Reviewer - AI-Powered Code Reviews Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Kilo Code Reviewer AI-powered code reviews that understand your codebase, catch bugs before merge, and help your team ship faster. Start Reviewing Code Watch Demo Trusted by 3M+ developers worldwide Code Reviewer is now FREE Use Code Reviewer for free with Kilo Auto or select a free model. Get unlimited AI-powered code reviews at no cost. No credit card required. Try Free Now “I&#x27;m genuinely surprised by the Kilo Code Reviewer. It was the only code reviewer that identified a security flaw in my project. I usually have two code reviewers, Copilot and Gemini. The Kilo Reviewer completed its review before both of them "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
