@@ -52,8 +52,8 @@ The blind-waiting failure mode is particularly important for cost. Production ag
 ## Research angle
 
 The right architectural fix is unclear from the paper. Three candidates:
-1. *Promise/await primitives in the agent control loop*. explicit non-blocking returns, agent decides when to check
-2. *Speculative tool calls*. agent issues several speculative requests; only the relevant one is consumed
-3. *Background agent fleet*. borrow the dynamic-workflow pattern from today's Claude Code release (parallel subagents) and apply it to single-agent tool calling
+1. *Promise/await primitives in the agent control loop*: explicit non-blocking returns, with the agent deciding when to check.
+2. *Speculative tool calls*: agent issues several speculative requests; only the relevant one is consumed.
+3. *Background agent fleet*: borrow the dynamic-workflow pattern from today's Claude Code release (parallel subagents) and apply it to single-agent tool calling.
 
 AsyncTool would be a strong evaluation target for any of the three. Industrial relevance is high: most enterprise tool integrations have multi-second latency.
