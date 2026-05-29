@@ -1,0 +1,808 @@
+{
+  "date": "2026-05-29",
+  "slot": "morning",
+  "scraped_ist": "2026-05-29 09:02",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Available today on Max, Team, Enterprise, and via the API — including Bedrock, Vertex AI, and Foundry. On by default for Max and Team plans, Enterprise admins can opt in via managed settings. Docs: code.claude.com/docs/en/work…",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044860984529368#m",
+          "date_utc": "2026-05-28T17:05:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://code.claude.com/docs/en/workflows",
+              "content": "Orchestrate subagents at scale with dynamic workflows - Claude Code Docs Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Agents and parallel work Orchestrate subagents at scale with dynamic workflows Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Agents and parallel work Overview Create custom subagents Agent view Run agent teams Dynamic workflows Isolate sessions with worktrees Tools and plugins Model Context Protocol (MCP) Discover and install prebuilt plugins Create plugins Extend Claude with skills Automation Automate with hooks Push external events to Claude Run prompts on a schedule Goals Pr"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "More on how the orchestration works, and what early users have built with it, on the blog: claude.com/blog/introducing-…",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044859730547138#m",
+          "date_utc": "2026-05-28T17:05:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+              "content": "Introducing dynamic workflows | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Tr"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Dynamic workflows are reusable. Save one as a slash command in your project to share with the team, or in your home directory to use it everywhere.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044858480599067#m",
+          "date_utc": "2026-05-28T17:05:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "You can also set \"/effort ultracode\", a new effort level that runs at xhigh and lets Claude decide on its own when a task warrants a dynamic workflow.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044857339724158#m",
+          "date_utc": "2026-05-28T17:05:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Dynamic workflows are useful for tasks that are too big for a single agent loop, such as service-wide bug hunts, large migrations, or stress-testing a design. They're powerful and can be expensive, consuming a lot of tokens fast. Start with a scoped task to get a feel for it.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044856114942328#m",
+          "date_utc": "2026-05-28T17:05:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "New in Claude Code (research preview): dynamic workflows. Claude writes an orchestration script on the fly, then spins up a large fleet of coordinated subagents in parallel to take on your most complex tasks. Use the word \"workflow\" in a prompt to get started.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044853279617150#m",
+          "date_utc": "2026-05-28T17:05:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "See our prompting guide for more tips and best practices for working with Opus 4.8: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2060044553982460222#m",
+          "date_utc": "2026-05-28T17:04:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+              "content": "Prompting best practices - Claude API Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Loading... Messages Managed Agents Admin Resources API reference English Console Log in Search... ⌘K Use cases Overview Ticket routing Customer support agent Content moderation Legal summarization Prompt engineering Overview Prompting best practices Console prompting tools Test and evaluate Define success and build evaluations Using the Evaluation Tool in Console Reducing latency Strengthen guardrails Reduce hallucinations Increase output consis"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’ve updated Claude Code's built-in claude-api skill migration guidance for 4.8. Run \"/claude-api migrate\" to update your model strings and suggest prompt improvements that are tuned for Opus 4.8.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060043213600367030#m",
+          "date_utc": "2026-05-28T16:59:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Opus 4.8 is especially strong at long-horizon work. In Claude Code, pair it with /goal. If you're building on Claude Managed Agents, try it with Outcomes.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060043212425933076#m",
+          "date_utc": "2026-05-28T16:59:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Opus 4.8 defaults to high effort. For coding tasks, it spends similar tokens to the 4.7 default while delivering better performance. For difficult tasks and long-running async work, use xhigh. We’ve increased rate limits in Claude Code to accommodate the increased token usage.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060043211129909732#m",
+          "date_utc": "2026-05-28T16:59:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Opus 4.8 hits 69.2% on SWE-bench Pro, up from 64.3% on Opus 4.7. Our evaluations show that Opus 4.8 is around four times less likely than Opus 4.7 to allow flaws in code it has written to pass unremarked.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060043209833951575#m",
+          "date_utc": "2026-05-28T16:59:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Opus 4.8 is live in Claude Code today. A few things worth knowing: 🧵 Claude (@claudeai) Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. — https://nitter.net/claudeai/status/2060042702150930686#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2060043208277811437#m",
+          "date_utc": "2026-05-28T16:59:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "Standing in the middle of 2 legends. Wishing you a VERY Happy Birthday 🎉 @SecRubio",
+          "link": "https://nitter.net/NICKIMINAJ/status/2060073777640231014#m",
+          "date_utc": "2026-05-28T19:00:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Five more San Francisco startups as seen today at @frontiertower ’s demo day (its first). But what makes them special, and San Francisco special is they are actually from around the world. Video",
+          "link": "https://nitter.net/Scobleizer/status/2060165227413635145#m",
+          "date_utc": "2026-05-29T01:04:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Marketing super powers. Pika (@pika_labs) Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: Build-a-Brand App Screens Product Sizzle Founder Video Available for Claude via the Pika MCP. Video — https://nitter.net/pika_labs/status/2060053796001399035#m",
+          "link": "https://nitter.net/Scobleizer/status/2060058765119119816#m",
+          "date_utc": "2026-05-28T18:00:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If you are in New York you can get your apartment cleaned for free. Well, data will be collected to train robots of the future. Bercan (@bercankilic) Today, we are launching shift. Starting in NYC, we are bridging the economy of today into the AI economy where all services, goods, and leisure will be affordable, and humanity will progress towards abundance. Please enjoy your free home cleaning and join shift for a lot more! Video — https://nitter.net/bercankilic/status/2060043312606638245#m",
+          "link": "https://nitter.net/Scobleizer/status/2060053767085785373#m",
+          "date_utc": "2026-05-28T17:41:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What Grok learned by watching this video: nitter.net/i/lists/18057860507630…",
+          "link": "https://nitter.net/Scobleizer/status/2060040240266657906#m",
+          "date_utc": "2026-05-28T16:47:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "After watching humans handle merges exits millions of times, FSD can quickly predict respond to bad driving, often before it happens Dirty Tesla (@DirtyTesLa) Legit feels like FSD can read other driver's mind's sometimes Video — https://nitter.net/DirtyTesLa/status/2059495979120767154#m",
+          "link": "https://nitter.net/Tesla/status/2060084306861867023#m",
+          "date_utc": "2026-05-28T19:42:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Your hard-earned tax dollars should never go to fraudsters. Federal grant recipients must deliver for the American people or be CUT OFF. 🇺🇸 Office of Management and Budget (@WHOMB) Rooting out waste, fraud, and abuse. If you receive a federal grant, you need to deliver for the American people - or you’ll be cut off. Under President Trump and Director Vought’s leadership, the gravy train grant grift is OVER. nypost.com/2026/05/28/us-new… — https://nitter.net/WHOMB/status/2060033719210004557#m",
+          "link": "https://nitter.net/WHFraudTF/status/2060042906086342672#m",
+          "date_utc": "2026-05-28T16:57:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "help kipply kipply (@kipperrii) hello beloved tasteful users, do you like how much claude thinks on your tasks? would love examples of it thinking too much or too little — https://nitter.net/kipperrii/status/2060050927202316597#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2060051359425347823#m",
+          "date_utc": "2026-05-28T17:31:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est pas ton vrai père Simon Roz (@SimonRoz) c'était mon père. victoire sur tapis vert — https://nitter.net/SimonRoz/status/2060137098116567300#m",
+          "link": "https://nitter.net/brivael/status/2060137514317357137#m",
+          "date_utc": "2026-05-28T23:13:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je viens de graisser la patte d’un agent des prud’hommes tu as déjà perdu 😂😂😂 J’ai 15 coups d’avance. Simon Roz (@SimonRoz) see you aux prud'hommes (mot le plus bizarre du monde btw) — https://nitter.net/SimonRoz/status/2060099976768758265#m",
+          "link": "https://nitter.net/brivael/status/2060135934926967175#m",
+          "date_utc": "2026-05-28T23:07:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 Adams (@Adams_Tech_AI) “Putting ‘Ph.D.’ in your social media name is a sure sign of a pompous retard.” —Elon Musk. — https://nitter.net/Adams_Tech_AI/status/2060085863577526722#m",
+          "link": "https://nitter.net/brivael/status/2060132137156648969#m",
+          "date_utc": "2026-05-28T22:52:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I’m in fouquet’s I met the alien too, I tried for gras and escargot. We too Japanese whisky for the digestif. I made a joke about saturne and the alien literally break my legs my thinking my legs deserve to be broken. Pediavenir (@Pediavenir) 🇫🇷👽 INSOLITE – La France devient le premier pays à rencontrer les aliens. — https://nitter.net/Pediavenir/status/2060091722541998506#m",
+          "link": "https://nitter.net/brivael/status/2060131545415901574#m",
+          "date_utc": "2026-05-28T22:50:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je vais te déboîter. 1 milliard sur la table. Simon Roz (@SimonRoz) see you aux prud'hommes (mot le plus bizarre du monde btw) — https://nitter.net/SimonRoz/status/2060099976768758265#m",
+          "link": "https://nitter.net/brivael/status/2060100273163452688#m",
+          "date_utc": "2026-05-28T20:45:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu es toujours viré de chez viré. Tu passeras à la compta lundi. Martine ( head of HR ) a un papier pour toi. Simon Roz (@SimonRoz) film le moins drôle du XXIème siècle Accent Belge, le film — https://nitter.net/SimonRoz/status/2060075320342949958#m",
+          "link": "https://nitter.net/brivael/status/2060099488551739839#m",
+          "date_utc": "2026-05-28T20:42:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bière chaude, clope roulée et on discute de la bonne époque du Che ‘ GRM (@grm_off) Tu passes la soirée avec @regelegorila , bières, communisme et trading ? — https://nitter.net/grm_off/status/2060098581093130717#m",
+          "link": "https://nitter.net/brivael/status/2060098845502013895#m",
+          "date_utc": "2026-05-28T20:40:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Paris is magic ! Video",
+          "link": "https://nitter.net/brivael/status/2060082820328964368#m",
+          "date_utc": "2026-05-28T19:36:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😅😅 it’s true Sir Doge of the Coin ⚔️ (@dogeofficialceo) — https://nitter.net/dogeofficialceo/status/2060012455628280228#m",
+          "link": "https://nitter.net/brivael/status/2060072239064584644#m",
+          "date_utc": "2026-05-28T18:54:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Laurent (@scion_x_) Arrêtez de vouloir tout organiser. Vous êtes nuls ! Foutez la paix aux gens. Baissez les taxes et laissez les entrepreneurs monter des business de clim et d’isolation thermique. — https://nitter.net/scion_x_/status/2060071191553966410#m",
+          "link": "https://nitter.net/brivael/status/2060072113864626567#m",
+          "date_utc": "2026-05-28T18:54:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dollar in mars Not Elon Musk (@ElonMuskPD) What do you think? 👀 — https://nitter.net/ElonMuskPD/status/2060034887160324197#m",
+          "link": "https://nitter.net/brivael/status/2060072063587520993#m",
+          "date_utc": "2026-05-28T18:53:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "les.pieds nickelés Romain 🇫🇷 🇮🇹 (@romain_nord) Le danger pour la France, c'est eux 🙄 — https://nitter.net/romain_nord/status/2059940839921471666#m",
+          "link": "https://nitter.net/brivael/status/2060071941688455438#m",
+          "date_utc": "2026-05-28T18:53:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Easy life. Pediavenir (@Pediavenir) 🦆🚨 INSOLITE – Un canard est resté posé sur l’aile d’un avion pendant tout le vol. Video — https://nitter.net/Pediavenir/status/2060028826013634838#m",
+          "link": "https://nitter.net/brivael/status/2060071768518189405#m",
+          "date_utc": "2026-05-28T18:52:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bravo @regelegorila 🫡🚀 Le ₿unker 🪖 (@LeBunkerBtc) Il a 100% raison, pourquoi vous rigolez? Il va peut-être réussir à éduquer financièrement quelques-uns des membres de sa communauté de punk à chien, c'est un net positif. Bravo @regelegorila — https://nitter.net/LeBunkerBtc/status/2060045139649724422#m",
+          "link": "https://nitter.net/brivael/status/2060071646904336571#m",
+          "date_utc": "2026-05-28T18:52:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est Pierre ninette Le Parisien (@le_Parisien) « C’est sûr que c’est toi » : Pierre Niney, coiffeur à Toulouse ? Son sosie affole les internautes ! ➡️ l.leparisien.fr/Mpyu — https://nitter.net/le_Parisien/status/2060055990976794656#m",
+          "link": "https://nitter.net/brivael/status/2060071457049211161#m",
+          "date_utc": "2026-05-28T18:51:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://l.leparisien.fr/Mpyu",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Good idea Planet Of Memes (@PlanetOfMemes) Genius. ⚡️ — https://nitter.net/PlanetOfMemes/status/2059967343879459077#m",
+          "link": "https://nitter.net/brivael/status/2060071367953842267#m",
+          "date_utc": "2026-05-28T18:51:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mariage is a disaster 😂 holyyuji (@holy_yuji) Super man ! — https://nitter.net/holy_yuji/status/2059827582712029247#m",
+          "link": "https://nitter.net/brivael/status/2060071305194402280#m",
+          "date_utc": "2026-05-28T18:50:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Le JDD (@leJDD) «La France blanche et chrétienne n’a jamais existé» : les propos de Mathilde Panot suscitent un tollé à droite ow.ly/I76J106z2Wf — https://nitter.net/leJDD/status/2059948603280408754#m",
+          "link": "https://nitter.net/brivael/status/2060071195479781458#m",
+          "date_utc": "2026-05-28T18:50:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://ow.ly/I76J106z2Wf",
+              "content": "«La France blanche et chrétienne n’a jamais existé» : les propos de Mathilde Panot suscitent un tollé à droite Aller au contenu principal Mon compte Abo Mon compte [email&#160;protected] Mon abonnement Mes newsletters Lire le journal numérique Aide et contact Se déconnecter S&#039;abonner S&#039;abonner Mon compte Abo Mon compte Mon abonnement Mes newsletters Lire le journal numérique Aide et contact Se déconnecter Se connecter Newsletters Lire le journal Politique Emmanuel Macron Sébastien Lecornu Bruno Retailleau Gérald Darmanin Jordan Bardella Marine Le Pen Jean-Luc Mélenchon Société Éducation Police Justice Santé Écologie International Guerre en Ukraine Moyen-Orient Europe Amérique Asie Afrique Opinions Tribunes Nos chroniqueurs Économie Entreprises Emploi Immobilier Médias Tech Cultur"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "BFM Tech (@bfmtech_) Mistral muscle son jeu dans l'IA \"Ce qu'Arthur Mensch est en train de faire, c'est un écosystème unique. Il est en train de fédérer tout un écosystème autour d'une seule IA, la sienne, en Europe. En jouant sur la souveraineté des données\" 💬Yves Maitre 🎙️ @Fsorel Video — https://nitter.net/bfmtech_/status/2060055635517992966#m",
+          "link": "https://nitter.net/brivael/status/2060071095927988289#m",
+          "date_utc": "2026-05-28T18:49:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Claude Opus 4.8 is now available in Cursor. On CursorBench, it's able to work much more efficiently than Opus 4.7. We've also found it to be more persistent on harder tasks.",
+          "link": "https://nitter.net/cursor_ai/status/2060044920237469872#m",
+          "date_utc": "2026-05-28T17:05:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "That's the whole run. $1.65 total, free and open source. We shipped the wins and the flags. More builds coming.",
+          "link": "https://nitter.net/kilocode/status/2060170073906544913#m",
+          "date_utc": "2026-05-29T01:23:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "When the value's this good, you ship more tests. Grok Build 0.1: one prompt, full webhook delivery service, $1.65 total. Zero tool-calling failures. More builds on the way! Elon Musk (@elonmusk) Good value for money — https://nitter.net/elonmusk/status/2060134654125154434#m",
+          "link": "https://nitter.net/kilocode/status/2060157420005994575#m",
+          "date_utc": "2026-05-29T00:32:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "$0.17 to plan. $1.48 to build. $1.65 total, ~120 tokens/sec, one sitting. On a well-scoped backend, this run says Grok Build 0.1 can carry the first pass on its own. Full writeup, every file, every flag: kilo.codes/gTibN0I Install Kilo Code: kilo.codes/gJBzwKp",
+          "link": "https://nitter.net/kilocode/status/2060092762075066699#m",
+          "date_utc": "2026-05-28T20:16:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/gTibN0I",
+              "content": "We Asked Grok Build 0.1 to Plan and Build a Webhook Service Kilo Blog Subscribe Sign in We Asked Grok Build 0.1 to Plan and Build a Webhook Service Darko May 28, 2026 1 1 Share xAI released Grok Build 0.1 as a new coding model priced at $1 per 1M input tokens and $2 per 1M output tokens with a 256K context window. We ran it through Kilo Code (the VS Code extension) on a real backend task to see how it handles planning, implementation, and the long tool-calling sequence in between. TL;DR: Grok Build 0.1 planned and built a working webhook delivery service in TypeScript, Bun, and SQLite for $1.65 total ($0.17 to plan, $1.48 to implement) at roughly 120 tokens per second, with zero tool-calling failures across the run. Pricing and Context For cost context, Grok Build 0.1 sits at $1/$2 per 1M "
+            },
+            {
+              "url": "http://kilo.codes/gJBzwKp",
+              "content": "Install Kilo Code in 60 Seconds — VS Code, JetBrains CLI Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Install Kilo Code Get started with AI coding in your CLI or preferred IDE Using Kilo for work? Create a team workspace . VS Code JetBrains CLI Slack Others VS Code Install Kilo Code for VS Code To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code If you don&#x27;t have VS Code installed yet, download it here 2. Install the extension Click the button below to install Kilo Code directly in VS Code Install in VS Code Download VS Code Kilo Community Discord Discord GitHub GitHub Reddit r/kilocode 𝕏 @kilocode Product Hunt p/kilocode Product IDE CLI Sl"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We're not going to pretend it was flawless. The get-by-id endpoint leaks the encrypted secret. Signature comparison isn't constant-time. Integration coverage is thin. These are 30-second code-review fixes, not a rewrite. We flagged all of them.",
+          "link": "https://nitter.net/kilocode/status/2060092760724537703#m",
+          "date_utc": "2026-05-28T20:16:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Phase 2: we pointed it at its own plan in Code Mode. 26 files. 3 tables. Real Drizzle migrations. AES-GCM encrypted secrets. SSRF guard. Non-destructive replay. The plan it wrote was the plan it executed. No drift, no quiet downgrades.",
+          "link": "https://nitter.net/kilocode/status/2060092759399145838#m",
+          "date_utc": "2026-05-28T20:16:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "First thing it did was open a web search. Pulled Stripe's signature format, GitHub's retry behavior, the Standard Webhooks spec. Then asked 9 clarifying questions before writing a single line. Framework, retry policy, secret storage, demo structure. The choices that actually shape the architecture.",
+          "link": "https://nitter.net/kilocode/status/2060092758027567334#m",
+          "date_utc": "2026-05-28T20:16:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The pricing is the part people keep re-reading. Grok Build 0.1: $1 in / $2 out per 1M tokens GPT-5.5: $5 / $30 Claude Opus 4.7: $5 / $25 Running this whole job 2-3 times to compare attempts still costs less than one frontier-model pass.",
+          "link": "https://nitter.net/kilocode/status/2060092756664397938#m",
+          "date_utc": "2026-05-28T20:16:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We gave Grok Build 0.1 one prompt: build a webhook delivery service in TypeScript, Bun, and SQLite. It planned it, built it, and shipped a working demo. Total cost: $1.65. Zero tool-calling failures. Here's exactly what happened, file by file.",
+          "link": "https://nitter.net/kilocode/status/2060092755372560882#m",
+          "date_utc": "2026-05-28T20:16:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "And it's already live in Kilo Code. Open the model dropdown, pick Opus 4.8, go. Claude (@claudeai) Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. — https://nitter.net/claudeai/status/2060042702150930686#m",
+          "link": "https://nitter.net/kilocode/status/2060052353957425271#m",
+          "date_utc": "2026-05-28T17:35:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "The real unlock for AI agents isn't just smarter models. It's models that can sustain work across long, complex tasks without losing context or going off track. That's what @AnthropicAI 's Opus 4.8 delivers, and it's now available on Amazon Bedrock: aws.amazon.com/blogs/machine…",
+          "link": "https://nitter.net/mattsgarman/status/2060082457454526867#m",
+          "date_utc": "2026-05-28T19:35:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-4-8-is-now-available-on-aws/",
+              "content": "Claude Opus 4.8 is now available on AWS | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence Claude Opus 4.8 is now available on AWS by Aamna Najmi , Ayan Ray , Eugenio Soltero , Sofian Hamiti , and Antonio Rodriguez on 28 MAY 2026 in Amazon Bedrock , Announcements Permalink Comments Share Today, we’re excited to announce the availability of Anthropic’s most advanced Opus model, Claude Opus 4.8, on Amazon Bedrock and the Claude Platform on AWS . Claude Opus 4.8 represents a meaningful step forward, delivering improvements across the workflows teams run in production, from agentic coding and deep knowledge work to multi-stage "
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Appreciate the partnership, @RamaswmySridhar . Eleven years building together and still just getting started. sridhar (@RamaswmySridhar) New $6B multi-year agreement with @awscloud using Graviton compute + AI services to accelerate enterprise AI adoption. @Snowflake just surpassed $7B in lifetime AWS Marketplace sales, reflecting incredible demand for data + AI workloads on Snowflake. — https://nitter.net/RamaswmySridhar/status/2060056040235012389#m",
+          "link": "https://nitter.net/mattsgarman/status/2060081554198589897#m",
+          "date_utc": "2026-05-28T19:31:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Anthropic has officially raised $65 billion at a $965 billion valuation ARR crossed $47 billion this month Anthropic is bigger than OpenAI now we are so back",
+          "link": "https://nitter.net/ns123abc/status/2060066532395233570#m",
+          "date_utc": "2026-05-28T18:31:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "ANTHROPIC JUST DROPPED OPUS 4.8 Claude (@claudeai) Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. — https://nitter.net/claudeai/status/2060042702150930686#m",
+          "link": "https://nitter.net/ns123abc/status/2060052580625961133#m",
+          "date_utc": "2026-05-28T17:36:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "We're honored Colette Kress, our CFO, was recognized among @FortuneMagazine 's Most Powerful Women in Business. She’s appeared on the list three years running, reflecting the strategic role she plays in positioning our company as an innovator in AI and accelerated computing.",
+          "link": "https://nitter.net/nvidia/status/2060078137329774737#m",
+          "date_utc": "2026-05-28T19:17:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Somebody’s gotta bring investment back to LA. Peter Hamby (@PeterHamby) Weird move for Pratt to go to New York 5 days before the primary ! — https://nitter.net/PeterHamby/status/2060198875886215378#m",
+          "link": "https://nitter.net/spencerpratt/status/2060205677079888350#m",
+          "date_utc": "2026-05-29T03:44:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The only place Nithya gets vagrants permanent housing is in the cemetery with her taxpayer-funded drug needle program. Nithya Raman (@nithyavraman) Broke: Karen Bass illegally blocking 120 units of badly-needed affordable housing. Woke: An affordable Los Angeles for all. — https://nitter.net/nithyavraman/status/2060116271262527664#m",
+          "link": "https://nitter.net/spencerpratt/status/2060199452799893893#m",
+          "date_utc": "2026-05-29T03:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Tinashe “nasty” New York Magazine (@NYMag) Tinashe commented on a post about Spencer Pratt’s mayoral campaign, showing that she clearly does not support the reality star. thecut.com/article/tinashe-n… — https://nitter.net/NYMag/status/2060176080703758649#m",
+          "link": "https://nitter.net/spencerpratt/status/2060180343810855202#m",
+          "date_utc": "2026-05-29T02:04:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "you don’t hate these corrupt politicians enough. 415FirePhoto (@415FirePhoto) Last Friday the City of Los Angeles quietly dismissed its cross-complaint against the State of California in the Palisades Fire Litigation. Today, Newsom endorsed Bass. Did Bass just throw the taxpayers under the bus by dismissing the City's legal ability to seek indemnity from the State for billions of dollars in damages in exchange for the Governor's last minute endorsement? @spencerpratt @joelpollak @JeremyCom @Hotshot_Movie @LeonardFiles — https://nitter.net/415FirePhoto/status/2060150988129112367#m",
+          "link": "https://nitter.net/spencerpratt/status/2060167396837523712#m",
+          "date_utc": "2026-05-29T01:12:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Not shocking the commies stick together TheWrap (@TheWrap) Jane Fonda Endorses LA Mayor Karen Bass for Reelection | Exclusive thewrap.com/media-platforms/… — https://nitter.net/TheWrap/status/2060119404764152206#m",
+          "link": "https://nitter.net/spencerpratt/status/2060139810921013360#m",
+          "date_utc": "2026-05-28T23:23:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.thewrap.com/media-platforms/politics/jane-fonda-endorses-mayor-karen-bass-reelection-exclusive/",
+              "content": "Jane Fonda Endorses LA Mayor Karen Bass for Reelection | Exclusive - TheWrap Skip to content Menu Close Newsletters Search The Wrap Search Main TV TV News Ratings Streaming Media News Reviews Movies Movie News Box Office Reviews Sundance Cannes Venice Film Festival Toronto Film Festival Awards Awards Tracker Awards Coverage Oscars Emmys How I Did It Series TheWrap Emmy Magazines TheWrap Oscar Magazines Industry AI Deals M A Data Analysis Earnings Coverage Streaming Charts Tech Trade Secrets The Grill Game On: A Wrap Sports Series Columns WaxWord Steve Pond The Media Front Inside the Ratings Creatorverse WrapStyle Fashion Culture TheWrapBook Vol. 5: The Art of Cinema 2025 TheWrapBook Vol. 4: The Art of Television 2025 TheWrapBook Vol. 3: The Art of Cinema TheWrapBook Vol. 2: The Art of Tele"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "God blessed me with some stupid opponents Video Film The Police LA (@FilmThePoliceLA) She’s setting herself up for another 41.18 attack by Bass and Pratt with this tweet. — https://nitter.net/FilmThePoliceLA/status/2060120986570436829#m",
+          "link": "https://nitter.net/spencerpratt/status/2060139250788557031#m",
+          "date_utc": "2026-05-28T23:20:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Video Rae Huang (@raeforla) I want to make clear right now that Spencer Pratt does not deserve any voice or sound bite in my Campaign or in this city that I love. His rhetoric, platform and Campaign is the antithesis to who I am, who I am fighting for, and what our campaign is all about. I’m running a campaign to fight established power and wealth that has for too long been held in the hands of a few and on the backs of working Angelenos. Spencer is an opportunist dehumanizing the vulnerable to advance his media career, he has no interest in meeting the needs of the majority of Angelenos. — ht",
+          "link": "https://nitter.net/spencerpratt/status/2060098901319807401#m",
+          "date_utc": "2026-05-28T20:40:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Vogue, we can get you some better photos than this. Vogue Magazine (@voguemagazine) As a mayoral candidate, reality star Spencer Pratt is savvily using imagery from LA to build his campaign. vogue.com/article/spencer-pr… — https://nitter.net/voguemagazine/status/2060038459721695522#m",
+          "link": "https://nitter.net/spencerpratt/status/2060042711856476459#m",
+          "date_utc": "2026-05-28T16:57:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://www.vogue.com/article/spencer-pratt-mayor-race-fashion",
+              "content": "Vans Sneakers, Dodgers Logos: How Spencer Pratt Is Leveraging LA Iconography for His Mayoral Campaign | Vogue Skip to main content Your All-Access Pass to Vogue DOWNLOAD NOW Search Account Menu Menu Menu FASHION RUNWAY SHOPPING BEAUTY CULTURE LIVING VOGUE BUSINESS TEEN VOGUE FASHION Expand Celebrity Style Street Style Models Designers Trends Sustainability All Fashion RUNWAY SHOPPING Chevron BEAUTY Expand Celebrity Beauty Hair Makeup Nails Wellness Skin All Beauty CULTURE Expand Opinion TV Movies Music Arts Books News Sports All Culture LIVING Expand Homes Travel Food Parties Royals All Living WEDDINGS Expand Wedding Inspiration Planning Advice For Wedding Guests The Bridal Shop All Weddings VOGUE BUSINESS Expand Technology Sustainability Fashion Retail Companies Beauty Events Member Benef"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
