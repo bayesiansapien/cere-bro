@@ -38,7 +38,7 @@ Existing tool-use benchmarks measure agent capability under the unrealistic assu
 
 ## Why this matters
 
-This is the *temporal* axis of the agent-evaluation rigor wave that has been the dominant theme of May. **LiveBrowseComp** (2026-05-28, the paper that showed agents on BrowseComp answer 44.5 percent of questions with no tools — confirming, not discovering) and **HRBench** (2026-05-28, the hybrid-reasoning mode-switching benchmark with no dominant strategy across scales) both attacked static benchmarks for measuring memory not capability. AsyncTool adds: even when you measure capability, you have been measuring it in a zero-latency world. Production agents wait. Until now we did not know what they do while waiting; AsyncTool shows the answer is "mostly nothing useful."
+This is the *temporal* axis of the agent-evaluation rigor wave that has been the dominant theme of May. **LiveBrowseComp** (2026-05-28, the paper that showed agents on BrowseComp answer 44.5 percent of questions with no tools, confirming rather than discovering) and **HRBench** (2026-05-28, the hybrid-reasoning mode-switching benchmark with no dominant strategy across scales) both attacked static benchmarks for measuring memory not capability. AsyncTool adds: even when you measure capability, you have been measuring it in a zero-latency world. Production agents wait. Until now we did not know what they do while waiting; AsyncTool shows the answer is "mostly nothing useful."
 
 The blind-waiting failure mode is particularly important for cost. Production agent stacks budget wall-clock time, not just token count; an agent that waits 5 seconds on a tool that another agent could have used to do other work is paying real money for nothing. The paper's efficiency-oriented metrics (task coordination, completion efficiency) are the eval that matters for production agent unit economics.
 
@@ -52,8 +52,8 @@ The blind-waiting failure mode is particularly important for cost. Production ag
 ## Research angle
 
 The right architectural fix is unclear from the paper. Three candidates:
-1. *Promise/await primitives in the agent control loop* — explicit non-blocking returns, agent decides when to check
-2. *Speculative tool calls* — agent issues several speculative requests; only the relevant one is consumed
-3. *Background agent fleet* — borrow the dynamic-workflow pattern from today's Claude Code release (parallel subagents) and apply it to single-agent tool calling
+1. *Promise/await primitives in the agent control loop*. explicit non-blocking returns, agent decides when to check
+2. *Speculative tool calls*. agent issues several speculative requests; only the relevant one is consumed
+3. *Background agent fleet*. borrow the dynamic-workflow pattern from today's Claude Code release (parallel subagents) and apply it to single-agent tool calling
 
 AsyncTool would be a strong evaluation target for any of the three. Industrial relevance is high: most enterprise tool integrations have multi-second latency.
