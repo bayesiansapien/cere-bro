@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-05-29T09:54:41Z
+arxiv_id: 2605.30076
+url: https://huggingface.co/papers/2605.30076
+arxiv_url: https://arxiv.org/abs/2605.30076
+date: 2026-05-29
+---
+
+# UniSteer: Text-Guided Flow Matching in Activation Space for Versatile LLM Steering
+
+Activation-based control steers large language models (LLMs) by intervening on their internal representations during inference, and has emerged as an effective paradigm for controlling behaviors such as persona and style. However, existing methods often rely on fixed steering directions or task-specific intervention modules, making them difficult to adapt to fine-grained concepts and compositional constraints. We propose UniSteer, a text-guided activation flow matching model that learns a conditional distribution over residual-stream activations from natural-language conditions. Instead of fitting a separate intervention for each target behavior, UniSteer learns a universal conditional velocity field in activation space. At inference time, UniSteer performs flow inversion by partially transporting a source activation toward a latent state and regenerating it under a target textual condition before injecting it back into the frozen LLM. The same conditional model supports activation-space classification by selecting the textual label with the lowest reconstruction energy. Experiments on three target LLMs show that UniSteer provides a unified interface across behavioral control, truthfulness steering, fine-grained concept steering, multi-constraint instruction following, and activation-space classification.
