@@ -52,11 +52,11 @@ This pairs directly with **How LoRA Remembers** (2026-05-29, the paper that deri
 - **LongAct** (2026-04-18, long-context gradient signal in first 5 percent of tokens): the length-axis version.
 - **Nemotron3 Super hybrid MoE** (2026-04-21): an architectural cure for the same interference problem. Capacity-interference theory predicts MoE wins where rare-task capacity matters most.
 - **C2 rubric reward modeling** (2026-04-18) + **TempO test-time training** (2026-04-22): the rare-task-loss-recovery side.
-- **Compliance vs sensibility reasoning controllability** (2026-05-02): tasks that "exist in the model but are not surfaced" — capacity interference is one mechanism by which that happens.
+- **Compliance vs sensibility reasoning controllability** (2026-05-02): tasks that "exist in the model but are not surfaced"; capacity interference is one mechanism by which that happens.
 
 ## Research angle
 
 The synthetic mixture-of-tasks framework is the right tool. Open empirical questions:
 1. Does activation sparsity (MoE) measurably reduce the interference signature versus dense pretraining at matched parameter count? The paper hints yes but a head-to-head was not done.
 2. At what frequency × complexity grid cell does interference start to dominate? If it can be characterized empirically, you can predict in advance which long-tail tasks your training mix will fail to capture.
-3. Are reasoning-chain tasks (math, code) "rare-and-complex" in this framing? If so, the theory predicts that small models will hit a wall on reasoning even with optimal data — which matches the empirical pattern of reasoning emerging only at 7B+.
+3. Are reasoning-chain tasks (math, code) "rare-and-complex" in this framing? If so, the theory predicts that small models will hit a wall on reasoning even with optimal data. which matches the empirical pattern of reasoning emerging only at 7B+.
