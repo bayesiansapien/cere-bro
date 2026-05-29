@@ -92,21 +92,28 @@ if [ ! -f "$DIGEST_PATH" ]; then
   notify "DIGEST FAILED ($TODAY)" "The Claude digest-writing call did not produce $DIGEST_PATH after $MAX_ATTEMPTS retries. Likely cause: API auth expired, sustained network outage, or rate limit. Run 'claude /login' to refresh, then manually backfill. Raw files for today are already in place. See $LOG. Afternoon catch-up cron at 3pm will also retry automatically."
 fi
 
-# Podcast is LAGGED BY ONE DAY: today's 9 AM cron generates yesterday's podcast,
-# since by now yesterday's full day window is collected and today's morning slot
-# captures the overnight tail.
+# Scan the last 7 days for digests that don't have a corresponding podcast.
+# Older approach (only "yesterday's" podcast) silently leaves a backlog when
+# the chain breaks. This sweeps any recent gap auto-recovers without needing
+# manual intervention. Serial loop so concurrent nlm uploads don't trip 400.
 if [ -d "$REPO/connectors/notebooklm" ]; then
-  YESTERDAY=$(date -v-1d +%Y-%m-%d 2>/dev/null || date -d "yesterday" +%Y-%m-%d)
-  YEST_DIGEST="$REPO/wiki/daily-digest/$(date -v-1d +%Y-%m 2>/dev/null || date -d 'yesterday' +%Y-%m)/$YESTERDAY.md"
-  if [ ! -f "$YEST_DIGEST" ]; then
-    echo "[$TODAY $(date +%H:%M:%S)] No digest at $YEST_DIGEST — skipping podcast generation." >> "$LOG"
-    notify "Podcast skipped ($YESTERDAY)" "Yesterday's digest is missing at $YEST_DIGEST, so the lagged podcast can't be generated. Backfill the digest manually, then re-run podcast.py."
-  else
-    echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast for $YESTERDAY..." >> "$LOG"
-    python3 "$REPO/connectors/notebooklm/podcast.py" "$YESTERDAY" >> "$LOG" 2>&1 || { \
-      echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed — continuing (digest still committed)." >> "$LOG"; \
-      notify "Podcast failed ($YESTERDAY)" "NotebookLM podcast generation failed for $YESTERDAY. Likely causes: nlm auth expired (run 'nlm login'), NotebookLM rate limit, or notebook source upload error. See $LOG."; }
-  fi
+  for OFFSET in 1 2 3 4 5 6 7; do
+    D=$(date -v-${OFFSET}d +%Y-%m-%d 2>/dev/null || date -d "${OFFSET} days ago" +%Y-%m-%d)
+    DM=$(date -v-${OFFSET}d +%Y-%m 2>/dev/null || date -d "${OFFSET} days ago" +%Y-%m)
+    D_DIGEST="$REPO/wiki/daily-digest/$DM/$D.md"
+    D_AUDIO="$REPO/wiki/daily-digest/$DM/podcasts/$D/$D.m4a"
+    if [ ! -f "$D_DIGEST" ]; then continue; fi
+    if [ -f "$D_AUDIO" ]; then continue; fi
+    echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast for $D (offset -${OFFSET})..." >> "$LOG"
+    python3 "$REPO/connectors/notebooklm/podcast.py" "$D" >> "$LOG" 2>&1 || { \
+      echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed for $D — continuing." >> "$LOG"; \
+      notify "Podcast failed ($D)" "NotebookLM podcast generation failed for $D. See $LOG."
+      continue
+    }
+    git add wiki/daily-digest/ >> "$LOG" 2>&1
+    git diff --cached --quiet || git commit -m "podcast: episode $D" >> "$LOG" 2>&1
+    git push origin main >> "$LOG" 2>&1 || true
+  done
 fi
 
 echo "[$TODAY $(date +%H:%M:%S)] Done." >> "$LOG"
