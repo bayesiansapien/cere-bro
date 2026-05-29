@@ -59,4 +59,4 @@ This pairs directly with **How LoRA Remembers** (2026-05-29, the paper that deri
 The synthetic mixture-of-tasks framework is the right tool. Open empirical questions:
 1. Does activation sparsity (MoE) measurably reduce the interference signature versus dense pretraining at matched parameter count? The paper hints yes but a head-to-head was not done.
 2. At what frequency × complexity grid cell does interference start to dominate? If it can be characterized empirically, you can predict in advance which long-tail tasks your training mix will fail to capture.
-3. Are reasoning-chain tasks (math, code) "rare-and-complex" in this framing? If so, the theory predicts that small models will hit a wall on reasoning even with optimal data. which matches the empirical pattern of reasoning emerging only at 7B+.
+3. Are reasoning-chain tasks (math, code) "rare-and-complex" in this framing? If so, the theory predicts that small models will hit a wall on reasoning even with optimal data, which matches the empirical pattern of reasoning emerging only at 7B+.
