@@ -97,7 +97,7 @@ Farmers pull from these daily:
 | AI Breakfast / Ben's Bites | — | Blocked by Cloudflare — not available via RSS |
 | **Gmail starred emails** | Local file | `raw/gmail/YYYY-MM-DD-starred.md` — starred newsletters and articles from personal Gmail, farmed via `connectors/gmail/farmer.py`. Includes AI Breakfast, Ken Huang, SemiAnalysis, Pragmatic Engineer, Gary Marcus, HuggingFace digest snippets, and others. |
 | **Reddit AI subreddits** | JSON API | `raw/reddit/YYYY-MM-DD-r-<sub>.md` — curated high-signal AI subreddits (LocalLLaMA, MachineLearning [R]/[P], MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning), farmed via `connectors/reddit/farmer.py`. Community-curated practitioner signal: what actually runs on consumer GPUs, real deployment patterns, scaling-law observations. Per-sub score gates + flair whitelists suppress noise. |
-| **Daily Digest (parallel job)** | Local file | `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/` — daily-digest-YYYY-MM-DD.md files from a separate scheduled Claude job; read alongside HuggingFace + RSS and merge unique content into the final digest |
+| **Daily Digest (parallel job)** | Local file | `{{PARALLEL_DIGEST_PATH}}` — daily-digest-YYYY-MM-DD.md files from a separate scheduled Claude job; read alongside HuggingFace + RSS and merge unique content into the final digest. Optional: set `{{PARALLEL_DIGEST_PATH}}` only if you run a parallel digest job; otherwise remove this row. |
 
 ---
 
@@ -140,7 +140,7 @@ Reddit signal is community-curated practitioner ground truth — what actually r
 
 Do not start writing the digest until all six sources have been read. If a source directory has no file for the target date, note it explicitly and use the most recent available file from that source.
 
-**0c. Check the parallel daily digest.** Look for `/Users/amitsinghbhatti/Documents/Claude/Projects/Daily-Digest/daily-digest-YYYY-MM-DD.md` (replace YYYY-MM-DD with the date being ingested). Skip any `-status.md` files. If the file exists, read it before writing the digest. Treat it as a curated synthesis source from a parallel Claude job. Merge its unique content into the final digest — industry news, papers not in the HuggingFace feed, analytical interpretations, and cross-source synthesis. Do not duplicate content already covered from HuggingFace/RSS sources; add only what is new or provides deeper analysis.
+**0c. Check the parallel daily digest (optional).** If you run a parallel Claude digest job, look for `{{PARALLEL_DIGEST_PATH}}/daily-digest-YYYY-MM-DD.md` (replace YYYY-MM-DD with the date being ingested). Skip any `-status.md` files. If the file exists, read it before writing the digest. Treat it as a curated synthesis source from a parallel Claude job. Merge its unique content into the final digest — industry news, papers not in the HuggingFace feed, analytical interpretations, and cross-source synthesis. Do not duplicate content already covered from HuggingFace/RSS sources; add only what is new or provides deeper analysis. If you don't run a parallel digest, skip this step.
 
 1. Read the source. For papers, read abstract + key sections; for videos, read the transcript; for blogs, read in full.
 2. **Write a summary page** in the appropriate `wiki/<concept>/` subdirectory. Filename: `<YYYY-MM-DD>-<slug>.md`. Include: one-paragraph TL;DR, key findings or claims, **explicit notes on how this relates to prior wiki pages** (confirms, contradicts, extends, or fills a gap), links to related wiki pages, link back to the raw source.
