@@ -47,7 +47,20 @@ EP_DIR      = REPO_ROOT / "wiki" / "daily-digest" / year_month / "podcasts" / da
 AUDIO_PATH  = EP_DIR / f"{date_str}.m4a"
 HTML_PATH   = EP_DIR / f"{date_str}.html"
 
-print(f"Podcast generator | {date_str}")
+# ── Day-of-week routing ────────────────────────────────────────────────────────
+# Mon-Fri (weekday 0-4) → daily 50min episode using focus_prompt_daily.
+# Sat (weekday 5)       → weekly review 65min episode using focus_prompt_weekly + 7-day source set.
+# Sun (weekday 6)       → no podcast; exit cleanly so the cron sweep moves on.
+weekday = datetime.strptime(date_str, "%Y-%m-%d").weekday()
+schedule = cfg.get("weekday_schedule", {"daily_days": [0,1,2,3,4], "weekly_days": [5], "skip_days": [6]})
+FORCE = "--force" in sys.argv
+
+if weekday in schedule.get("skip_days", []):
+    print(f"{date_str} is a {['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][weekday]} — no podcast on Sundays per editorial schedule.")
+    sys.exit(0)
+
+EPISODE_MODE = "weekly" if weekday in schedule.get("weekly_days", []) else "daily"
+print(f"Podcast generator | {date_str} ({['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][weekday]} → {EPISODE_MODE})")
 print(f"Digest: {DIGEST_PATH}")
 print(f"Output: {EP_DIR}/")
 
@@ -57,9 +70,15 @@ if not DIGEST_PATH.exists():
 
 EP_DIR.mkdir(parents=True, exist_ok=True)
 
-if AUDIO_PATH.exists():
-    print(f"Audio already exists for {date_str}. Use --force to regenerate (not implemented; rename manually).")
+if AUDIO_PATH.exists() and not FORCE:
+    print(f"Audio already exists for {date_str}. Pass --force to regenerate.")
     sys.exit(0)
+
+if FORCE and AUDIO_PATH.exists():
+    print(f"--force: removing existing {AUDIO_PATH.name} before regenerating.")
+    AUDIO_PATH.unlink()
+    if HTML_PATH.exists():
+        HTML_PATH.unlink()
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
@@ -91,40 +110,71 @@ def compute_episode_number() -> int:
 EPISODE_NUMBER = compute_episode_number()
 print(f"Episode #: {EPISODE_NUMBER}")
 
-# ── Parse digest for sources ───────────────────────────────────────────────────
+# ── Source discovery ──────────────────────────────────────────────────────────
+# For DAILY mode: one digest, its linked summaries, today's social streams + tomorrow's
+# morning slot (overnight catch).
+# For WEEKLY mode: target date's digest plus the previous N digests (default 6, total 7),
+# all their linked summaries, and all their social-stream files.
 
-digest_text = DIGEST_PATH.read_text(encoding="utf-8")
+def parse_digest(digest_path: Path) -> tuple[list[Path], list[str]]:
+    """Return (linked wiki summary paths, external Deep Dive URLs) for one digest."""
+    text = digest_path.read_text(encoding="utf-8")
+    summaries: list[Path] = []
+    for m in re.finditer(r"\(\.\.\/\.\.\/([^)]+\.md)\)", text):
+        rel = m.group(1)
+        path = REPO_ROOT / "wiki" / rel
+        if path.exists():
+            summaries.append(path)
 
-# Wiki summary pages cross-linked from the digest (relative .md links)
+    urls: list[str] = []
+    if cfg.get("include_external_urls_from_deep_dives", True):
+        in_dd = False
+        for line in text.splitlines():
+            if line.startswith("## "):
+                in_dd = (line.strip() == "## Deep Dives")
+                continue
+            if not in_dd:
+                continue
+            if line.startswith("**Links:**"):
+                for um in re.finditer(r"\[([^\]]+)\]\((https?://[^)]+)\)", line):
+                    label, url = um.group(1), um.group(2)
+                    if "Wiki" in label or "nitter" in url:
+                        continue
+                    urls.append(url)
+    return summaries, urls
+
+# Build the list of digest dates to ingest.
+if EPISODE_MODE == "weekly":
+    lookback = cfg.get("weekly_lookback_days", 6)
+    digest_dates = []
+    for offset in range(lookback, -1, -1):  # oldest first
+        d = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=offset)).strftime("%Y-%m-%d")
+        ym = d[:7]
+        p = REPO_ROOT / "wiki" / "daily-digest" / ym / f"{d}.md"
+        if p.exists():
+            digest_dates.append(d)
+    print(f"Weekly source set: {len(digest_dates)} digest(s) — {digest_dates[0]} → {digest_dates[-1]}")
+else:
+    digest_dates = [date_str]
+
+# Gather digests + summaries + URLs across all selected dates.
+digest_paths: list[Path] = []
 wiki_summary_paths: list[Path] = []
-for m in re.finditer(r"\(\.\.\/\.\.\/([^)]+\.md)\)", digest_text):
-    rel = m.group(1)
-    path = REPO_ROOT / "wiki" / rel
-    if path.exists():
-        wiki_summary_paths.append(path)
+deep_dive_urls: list[str] = []
+for d in digest_dates:
+    p = REPO_ROOT / "wiki" / "daily-digest" / d[:7] / f"{d}.md"
+    digest_paths.append(p)
+    s, u = parse_digest(p)
+    wiki_summary_paths.extend(s)
+    deep_dive_urls.extend(u)
 # dedup
 wiki_summary_paths = sorted(set(wiki_summary_paths))
+deep_dive_urls = list(dict.fromkeys(deep_dive_urls))
 
-# External URLs from Deep Dive Links lines
-# Match section: ### <title> ... **Links:** [Name](url) ...
-deep_dive_urls: list[str] = []
-in_deep_dives = False
-current_section_text: list[str] = []
-for line in digest_text.splitlines():
-    if line.startswith("## "):
-        in_deep_dives = (line.strip() == "## Deep Dives")
-        continue
-    if not in_deep_dives:
-        continue
-    if line.startswith("**Links:**") and cfg.get("include_external_urls_from_deep_dives", True):
-        for url_match in re.finditer(r"\[([^\]]+)\]\((https?://[^)]+)\)", line):
-            label, url = url_match.group(1), url_match.group(2)
-            # Skip wiki cross-links and skip nitter (already in social streams)
-            if "Wiki" in label or "nitter" in url:
-                continue
-            deep_dive_urls.append(url)
+# Use target-date digest's text for downstream Substack-note extraction below.
+digest_text = DIGEST_PATH.read_text(encoding="utf-8")
 
-# Social-stream (Media Live) files — full 24h window for the target podcast date.
+# Social-stream (Media Live) files — full window for the target podcast date(s).
 #
 # Convention: the podcast is LAGGED BY ONE DAY relative to the cron. The 9 AM cron
 # on day Y generates the podcast for day X (where X = Y - 1). By that time, X's full
@@ -139,24 +189,27 @@ for line in digest_text.splitlines():
 #   - Y-morning.md (the next-day morning slot — overnight catch)
 social_stream_paths: list[Path] = []
 if cfg.get("include_media_live_files", True):
-    # Target date's own social-stream files (4 slots + daily rollup)
-    ss_dir = REPO_ROOT / "wiki" / "social-stream" / year_month
-    if ss_dir.exists():
-        social_stream_paths.extend(sorted(ss_dir.glob(f"{date_str}*.md")))
+    # For each digest date in our set, collect its 4 slots + daily rollup.
+    for d in digest_dates:
+        ss_dir = REPO_ROOT / "wiki" / "social-stream" / d[:7]
+        if ss_dir.exists():
+            social_stream_paths.extend(sorted(ss_dir.glob(f"{d}*.md")))
 
-    # Next-day morning slot — captures the overnight tail of date_str (10 PM → 9 AM)
+    # Next-day morning slot for the LATEST digest date — captures its overnight tail.
     tomorrow         = (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
     tomorrow_ym      = tomorrow[:7]
     tomorrow_morning = REPO_ROOT / "wiki" / "social-stream" / tomorrow_ym / f"{tomorrow}-morning.md"
     if tomorrow_morning.exists():
         social_stream_paths.append(tomorrow_morning)
+# dedup
+social_stream_paths = sorted(set(social_stream_paths))
 
 print(f"\nSources discovered:")
-print(f"  Digest:           1")
+print(f"  Digests:          {len(digest_paths)}")
 print(f"  Wiki summaries:   {len(wiki_summary_paths)}")
 print(f"  Social-stream:    {len(social_stream_paths)}")
 print(f"  External URLs:    {len(deep_dive_urls)}")
-TOTAL = 1 + len(wiki_summary_paths) + len(social_stream_paths) + len(deep_dive_urls)
+TOTAL = len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths) + len(deep_dive_urls)
 print(f"  TOTAL:            {TOTAL}")
 
 if TOTAL > cfg["max_sources_per_notebook"]:
@@ -164,11 +217,16 @@ if TOTAL > cfg["max_sources_per_notebook"]:
     while TOTAL > cfg["max_sources_per_notebook"] and wiki_summary_paths:
         wiki_summary_paths.pop()
         TOTAL -= 1
+    # If still over, trim external URLs next (digests + social are essential).
+    while TOTAL > cfg["max_sources_per_notebook"] and deep_dive_urls:
+        deep_dive_urls.pop()
+        TOTAL -= 1
 
 # ── Create notebook ───────────────────────────────────────────────────────────
 
 print("\nCreating notebook...")
-title = f"{cfg['show_name']} {date_str}"
+title_suffix = "weekly review" if EPISODE_MODE == "weekly" else date_str
+title = f"{cfg['show_name']} {date_str} ({title_suffix})" if EPISODE_MODE == "weekly" else f"{cfg['show_name']} {date_str}"
 out = nlm("notebook", "create", title)
 m = re.search(r"ID:\s*([a-f0-9-]+)", out)
 if not m:
@@ -196,7 +254,8 @@ def add_url_sources(urls: list[str]):
     nlm(*args)
 
 print("\nAdding sources:")
-add_file_source(DIGEST_PATH, title_hint=f"Daily digest {date_str}")
+for p in digest_paths:
+    add_file_source(p, title_hint=f"Daily digest {p.stem}")
 for p in social_stream_paths:
     add_file_source(p)
 for p in wiki_summary_paths:
@@ -205,11 +264,18 @@ add_url_sources(deep_dive_urls)
 
 # ── Generate audio ─────────────────────────────────────────────────────────────
 
-print("\nKicking off audio generation...")
+# Pick the right focus prompt for this episode mode.
+focus_key = "focus_prompt_weekly" if EPISODE_MODE == "weekly" else "focus_prompt_daily"
+focus_prompt = cfg.get(focus_key) or cfg.get("focus_prompt")  # fallback to legacy field
+if not focus_prompt:
+    print(f"ERROR: no focus prompt found in config (looked for '{focus_key}' and 'focus_prompt').")
+    sys.exit(1)
+
+print(f"\nKicking off audio generation ({EPISODE_MODE} mode)...")
 out = nlm("audio", "create", NOTEBOOK_ID,
           "--format", cfg["audio_format"],
           "--length", cfg["audio_length"],
-          "--focus", cfg["focus_prompt"],
+          "--focus", focus_prompt,
           "--confirm")
 m = re.search(r"Artifact ID:\s*([a-f0-9-]+)", out)
 if not m:
@@ -311,7 +377,7 @@ if tldr_bullets:
     note.append("")
 note.append("---")
 note.append("")
-note.append(f"🎧 Audio attached. Full digest: [{date_str}](https://{{GITHUB_USERNAME}}.github.io/{{GITHUB_REPO}}/digests/{date_str}/)")
+note.append("🎧 Audio attached. Full digest: [" + date_str + "](https://{{GITHUB_USERNAME}}.github.io/{{WIKI_NAME}}/digests/" + date_str + "/)")
 note.append("")
 
 note_md = "\n".join(note)
@@ -422,7 +488,7 @@ try:
                         capture_output=True, text=True)
     if up.returncode == 0:
         print(f"  ✓ Uploaded {AUDIO_PATH.name} to release {RELEASE_TAG}")
-        print(f"  ✓ Audio URL: https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO}}/releases/download/{RELEASE_TAG}/{AUDIO_PATH.name}")
+        print("  ✓ Audio URL: https://github.com/{{GITHUB_USERNAME}}/{{GITHUB_REPO}}/releases/download/" + RELEASE_TAG + "/" + AUDIO_PATH.name)
     else:
         print(f"  WARN: gh release upload failed: {up.stderr.strip()[:200]}")
 except FileNotFoundError:
