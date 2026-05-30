@@ -50,4 +50,4 @@ Production agent stacks today are running into context bloat as more skills get 
 ## Related wiki pages
 
 - [PANDO — online skill distillation (2026-05-30)](2026-05-30-pando-online-skill-distillation.md)
-- [agentic-systems concept page](agentic-systems.md)
+- [multi-agent-systems concept page](multi-agent-systems.md)
