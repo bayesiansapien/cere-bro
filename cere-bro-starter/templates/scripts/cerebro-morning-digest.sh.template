@@ -102,8 +102,16 @@ if [ -d "$REPO/connectors/notebooklm" ]; then
     DM=$(date -v-${OFFSET}d +%Y-%m 2>/dev/null || date -d "${OFFSET} days ago" +%Y-%m)
     D_DIGEST="$REPO/wiki/daily-digest/$DM/$D.md"
     D_AUDIO="$REPO/wiki/daily-digest/$DM/podcasts/$D/$D.m4a"
+    # Skip Sundays per editorial schedule (no podcast on Sundays).
+    # %u: 1=Mon ... 7=Sun. Works on BSD `date` (macOS) and GNU `date` (Linux).
+    DOW=$(date -j -f "%Y-%m-%d" "$D" +%u 2>/dev/null || date -d "$D" +%u 2>/dev/null || echo 0)
+    if [ "$DOW" = "7" ]; then
+      echo "[$TODAY $(date +%H:%M:%S)] $D is a Sunday — skipping podcast generation." >> "$LOG"
+      continue
+    fi
     if [ ! -f "$D_DIGEST" ]; then continue; fi
     if [ -f "$D_AUDIO" ]; then continue; fi
+    # podcast.py picks daily vs Saturday-weekly prompt based on the date.
     echo "[$TODAY $(date +%H:%M:%S)] Generating NotebookLM podcast for $D (offset -${OFFSET})..." >> "$LOG"
     python3 "$REPO/connectors/notebooklm/podcast.py" "$D" >> "$LOG" 2>&1 || { \
       echo "[$TODAY $(date +%H:%M:%S)] Podcast generation failed for $D — continuing." >> "$LOG"; \
