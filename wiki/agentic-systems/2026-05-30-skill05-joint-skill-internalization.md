@@ -37,7 +37,7 @@ The internalize-vs-externalize tradeoff is real but the right axis is not "all o
 
 ## Connection to prior wiki state
 
-This pairs naturally with the [05-28 IB-TPO paper](../inference-efficiency/2026-05-28-ib-tpo-information-bottleneck-tree-policy.md) (the paper that formalized information-bottleneck-style filtering in tree policy optimization to drop noisy tree branches) and the [05-23 ACC paper](../inference-efficiency/2026-05-23-acc-agent-trajectory-long-context-training.md) (the paper that argued long-context agent training signal is concentrated in a small fraction of tokens). Three papers in seven days agree at three layers: routing, internalization, and gradient — that the right move is **not** uniform application of training compute, but selective application based on a difficulty or signal-density signal. Skill0.5 ports the same principle to the skill-management layer of an agentic stack.
+This pairs naturally with the [05-28 IB-TPO paper](../llms-foundation-models/2026-05-28-ib-tpo-information-bottleneck-tree-policy.md) (the paper that formalized information-bottleneck-style filtering in tree policy optimization to drop noisy tree branches) and the [05-23 ACC paper](../llms-foundation-models/2026-05-23-acc-agent-trajectory-long-context-training.md) (the paper that argued long-context agent training signal is concentrated in a small fraction of tokens). Three papers in seven days agree at three layers: routing, internalization, and gradient — that the right move is **not** uniform application of training compute, but selective application based on a difficulty or signal-density signal. Skill0.5 ports the same principle to the skill-management layer of an agentic stack.
 
 ## Gaps
 
