@@ -867,6 +867,41 @@ th {
 }
 
 /* ── Cerebro Radio ─────────────────────────────────────────────────────── */
+.listen-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.listen-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.listen-btn--spotify {
+  background: #1db954;
+  color: #fff;
+}
+.listen-btn--spotify:hover {
+  background: #1ed760;
+}
+.listen-btn--rss {
+  background: #f97316;
+  color: #fff;
+}
+.listen-btn--rss:hover {
+  background: #fb923c;
+}
 .episode-list {
   display: flex;
   flex-direction: column;
