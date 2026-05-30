@@ -1,0 +1,636 @@
+{
+  "date": "2026-05-30",
+  "slot": "morning",
+  "scraped_ist": "2026-05-30 09:04",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Austin spent hundreds of millions making itself one of the most generous places in the country to be homeless. Free meals, expanded shelter, housing placements, minimal enforcement of drug crimes, trespassing, and other forms of vagrancy. Predictably, more homeless people came. The count is up at least 62 percent over the last few years. City Council is preparing to spend another $350 million to expand services and make Austin even more attractive for the nation's vagrants.",
+          "link": "https://nitter.net/AustinJustice/status/2060380746619990144#m",
+          "date_utc": "2026-05-29T15:20:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "To learn more, see our docs on automatic-caching: platform.claude.com/docs/en/… And see our docs on mid-conversation system prompt updates: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2060432692882395376#m",
+          "date_utc": "2026-05-29T18:46:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching",
+              "content": ""
+            },
+            {
+              "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
+              "content": "Mid-conversation system messages - Claude API Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Loading... Messages Managed Agents Admin Resources API reference English Console Log in Search... ⌘K First steps Intro to Claude Quickstart Building with Claude Features overview Using the Messages API Handling stop reasons Model capabilities Extended thinking Adaptive thinking Effort Task budgets (beta) Fast mode (research preview) Structured outputs Citations Streaming Messages Batch processing Search results Streaming refusals Multili"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "With Opus 4.8, you can pass a system-role message mid-conversation. Claude treats this as an authoritative instruction from that point in the conversation onward. Pair this auto-caching to ensure that these updates are added to the prompt cache. nitter.net/RLanceMartin/status/20… Lance Martin (@RLanceMartin) x.com/i/article/202451562354… — https://nitter.net/RLanceMartin/status/2024573404888911886#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2060432691288576207#m",
+          "date_utc": "2026-05-29T18:46:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Sometimes system instructions need to be updated during the course of a conversation or session. But editing the top-level system prompt field invalidates the prompt cache for everything that follows.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060432690093187222#m",
+          "date_utc": "2026-05-29T18:46:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "With Opus 4.8, you can add system instructions mid-conversation without breaking the prompt cache. More cache hits means lower cost and latency for your API requests.",
+          "link": "https://nitter.net/ClaudeDevs/status/2060432688281251998#m",
+          "date_utc": "2026-05-29T18:46:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Cybercab porn on Freeway 280 headed to San Francisco. Headed to Kava Indian and Himalayan Cuisine. Opened three weeks ago and it is quite excellent. My friend Jeff said “that is a sexy vehicle. I want one.” Video Video Video Video",
+          "link": "https://nitter.net/Scobleizer/status/2060568770171834549#m",
+          "date_utc": "2026-05-30T03:47:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Costco has 10+ minute gas lines. And people wonder why Ferrari is doing an electric car. Video",
+          "link": "https://nitter.net/Scobleizer/status/2060541200923517438#m",
+          "date_utc": "2026-05-30T01:57:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It could do face recognition, for instance. You know Zuckerberg’s will do that.",
+          "link": "https://nitter.net/Scobleizer/status/2060526690389090589#m",
+          "date_utc": "2026-05-30T01:00:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "There is a lot to hate about these. “AI pendants with cameras and microphones.” While that is true, wearable cameras do have a good part to them. Although I can not yet recommend them to others. At least not strongly. Am studying why not, and writing them a report. Yesterday went for a walk with @Super_PK_ in San Francisco and ended up on this bench at a park across the street from @hf0 startup residency. Had a beautiful view of SF behind me. Wearing a @Looki_ai pendant around my neck. Pawel and I talked about it and his business. Microsoft researchers in San Francisco pioneered the form back ",
+          "link": "https://nitter.net/Scobleizer/status/2060525979869835265#m",
+          "date_utc": "2026-05-30T00:57:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If you see my home you know I love lights. So I had to see the @naptick_ for myself and how consumer electronics are changing due to AI. Thanks @anubhabgoel for showing it to me yesterday. Helps you sleep. Video",
+          "link": "https://nitter.net/Scobleizer/status/2060462544947716408#m",
+          "date_utc": "2026-05-29T20:45:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If you want a cute robot now is the time. Computer pricing is going up due to all the AI datacenter build outs sucking up RAM supplies, along with taxes on parts that come from China. Great way to play with AI and get kids into building robots. Pollen Robotics (@pollenrobotics) We mentioned it a few weeks ago — Reachy Mini's price is changing, for a number of reasons. You have two days left to get it at the original price: hf.co/reachy-mini — https://nitter.net/pollenrobotics/status/2060288829773291747#m",
+          "link": "https://nitter.net/Scobleizer/status/2060419535753420928#m",
+          "date_utc": "2026-05-29T17:54:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://hf.co/reachy-mini",
+              "content": "Reachy Mini - Hugging Face Refreshing"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My son has been using this and loves it. Sue (@suekhim) AI is making kids dumber. It should be making them geniuses. Introducing Koji, the first AI tutor that gets kids to actually think. 👇 Video — https://nitter.net/suekhim/status/2060378988606878147#m",
+          "link": "https://nitter.net/Scobleizer/status/2060382013010682239#m",
+          "date_utc": "2026-05-29T15:25:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here's what Grok learned by watching this video: nitter.net/i/grok/share/b4d8dc50c…",
+          "link": "https://nitter.net/Scobleizer/status/2060345037981114425#m",
+          "date_utc": "2026-05-29T12:58:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This guy has five million AI agents tracking everything publicly available about three billion people! He spent half a million bucks doing that. Be scared? Or be educated? @michaelfanous1 runs nyne.ai/ and I have a lengthy conversation about what he's doing and why it could lead to a new kind of social network. Video",
+          "link": "https://nitter.net/Scobleizer/status/2060344260608852119#m",
+          "date_utc": "2026-05-29T12:55:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nyne.ai/",
+              "content": "Nyne.ai | The People Data Company We just raised $5.3M led by Wischoff Ventures and South Park Commons. Read the TechCrunch coverage â We raised $5.3M. Read the TechCrunch coverage â We raised $5.3M led by Wischoff Ventures and South Park Commons. Read the TechCrunch coverage â ')\"> API Docs Data platform How it works Book a demo Log In ')\"> API Docs Data platform How it works Book a demo Log In The People Data Company The People Data Company Nyne.ai provides AI agents and applications with API access to enterprise-grade people and company data. Sign up Backed by Person-level Data Person-level Data Maps real people across the web with structured data on identity, contact information, wealth indicators, brand affinities, interests, and digital presence. Life event detection Life event"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "R to @Tesla: Image",
+          "link": "https://nitter.net/Tesla/status/2060439936789274702#m",
+          "date_utc": "2026-05-29T19:15:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Cowboys don’t take baths, they just dust off",
+          "link": "https://nitter.net/Tesla/status/2060439933513519602#m",
+          "date_utc": "2026-05-29T19:15:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Fraud is not a victimless crime. Fraudsters steal from hardworking American taxpayers and threaten the lives of our most vulnerable neighbors. Great work, @DOLOIG 💪🇺🇸 DOL OIG (@DOLOIG) 🚨 WATCH: @USLaborIG recaps the fraudsters caught and the major cases closed this week — breaking it all down for Fraud Friday. 🇺🇸 @WHFraudTF @VP @POTUS Video — https://nitter.net/DOLOIG/status/2060444536405373281#m",
+          "link": "https://nitter.net/WHFraudTF/status/2060460238361268492#m",
+          "date_utc": "2026-05-29T20:36:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Sandrine Rousseau en PLS 😂",
+          "link": "https://nitter.net/brivael/status/2060565140961907058#m",
+          "date_utc": "2026-05-30T03:33:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pierre-Louis Biojout (PLB) (@plbiojout) Welcome! One more French leaving Paris for San Francisco... — https://nitter.net/plbiojout/status/2060543951065727138#m",
+          "link": "https://nitter.net/brivael/status/2060544554013499884#m",
+          "date_utc": "2026-05-30T02:11:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Took a picture of woke mind virus Brivael Le Pogam (@brivael) Woke mind virus 🦠 — https://nitter.net/brivael/status/2060544002747769017#m",
+          "link": "https://nitter.net/brivael/status/2060544425294541005#m",
+          "date_utc": "2026-05-30T02:10:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Woke mind virus 🦠 Luce (@lucyshow11) What happened to our society? Video — https://nitter.net/lucyshow11/status/2060380809304121548#m",
+          "link": "https://nitter.net/brivael/status/2060544002747769017#m",
+          "date_utc": "2026-05-30T02:09:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 TopShagger (@Plentyshit) The Hangover 🍻🥴 Star Wars edition 🤔 Video — https://nitter.net/Plentyshit/status/2060453301838090732#m",
+          "link": "https://nitter.net/brivael/status/2060543906488389896#m",
+          "date_utc": "2026-05-30T02:08:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Night Sky Today (@NightSkyToday) 🚨: A Scientist claims that humans could travel back in time within just 3 years. He says this claim is based on physics. — https://nitter.net/NightSkyToday/status/2060467969440796923#m",
+          "link": "https://nitter.net/brivael/status/2060543625566515539#m",
+          "date_utc": "2026-05-30T02:07:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🥲 Marcel (@MarcelNasal) L'équivalent du 11 septembre pour la fanbase de Kaamelott — https://nitter.net/MarcelNasal/status/2060440870445314290#m",
+          "link": "https://nitter.net/brivael/status/2060543408272294083#m",
+          "date_utc": "2026-05-30T02:06:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon is starting a new list from the end 🚀 Dima Zeniuk (@DimaZeniuk) Starship is the biggest rocket ever built — https://nitter.net/DimaZeniuk/status/2060372366560023011#m",
+          "link": "https://nitter.net/brivael/status/2060542319015694338#m",
+          "date_utc": "2026-05-30T02:02:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Planet Of Memes (@PlanetOfMemes) Rockets are hard. 🚀 — https://nitter.net/PlanetOfMemes/status/2060361383208735057#m",
+          "link": "https://nitter.net/brivael/status/2060541293428621771#m",
+          "date_utc": "2026-05-30T01:58:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Astro Greek (@astro_greek) Elon’s real priority: Shitposting and memes 😭 Memes Everything Video — https://nitter.net/astro_greek/status/2060390712072430009#m",
+          "link": "https://nitter.net/brivael/status/2060540996014817470#m",
+          "date_utc": "2026-05-30T01:57:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est Pierre Ninette ! Duval Philippe (@p_duval) Qui pense que l'histoire du coiffeur sosie de Pierre Niney est un énorme fake ? — https://nitter.net/p_duval/status/2060464979321499909#m",
+          "link": "https://nitter.net/brivael/status/2060540937042854073#m",
+          "date_utc": "2026-05-30T01:56:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La vieillesse est un naufrage. Vivement les cellules souches pluripotentes pour éviter aux esprits libres de tomber dans un manichéisme d’une tristesse absolue. Jon De Lorraine (@jon_delorraine) AHAHAHAHAHAHAHAHAHA Video — https://nitter.net/jon_delorraine/status/2060302426905673912#m",
+          "link": "https://nitter.net/brivael/status/2060540680347275725#m",
+          "date_utc": "2026-05-30T01:55:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🫡🫡🫡🇺🇸🫡🫡🫡 The Last Prince of Moldova 🇺🇸🇲🇩🇮🇪 (@mamelukesabre) Welcome to the Home of the Brave And the Land of the Free! — https://nitter.net/mamelukesabre/status/2060538153392337177#m",
+          "link": "https://nitter.net/brivael/status/2060538265371865589#m",
+          "date_utc": "2026-05-30T01:46:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LFG!!! 🇺🇸 baby",
+          "link": "https://nitter.net/brivael/status/2060534303898190029#m",
+          "date_utc": "2026-05-30T01:30:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Auto-review mode is now available in Cursor. It allows agents to run tool calls with fewer approval prompts and safer execution. Video",
+          "link": "https://nitter.net/cursor_ai/status/2060406013098897765#m",
+          "date_utc": "2026-05-29T17:00:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Agent actions that aren't on your allowlist or can't be sandboxed go to a classifier subagent. This separate agent decides whether to allow the tool call, try a different approach, or ask you for approval. Learn more: cursor.com/changelog/auto-re…",
+          "link": "https://nitter.net/cursor_ai/status/2060406014478831842#m",
+          "date_utc": "2026-05-29T17:00:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://cursor.com/changelog/auto-review",
+              "content": "Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.6 May 29, 2026 · Changelog Changelog Auto-review Run Mode Auto-review is a new run mode that allows Cursor to work for longer with fewer approval prompts and safer execution. Auto-review applies to Shell, MCP, and Fetch tool calls. Allowlisted calls run immediately, and calls that can be sandboxed run in the sandbox. All other agent actions go to a classifier subagent that decides whether to allow the call, try a different approach, or ask for your approval. Configure your run mode in Settings Cursor Settings Agents Run Mode . You can also ste"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Bring your full vision to life, just like you imagined it Create continuous videos with smooth transitions with Extend in Grok Imagine Video",
+          "link": "https://nitter.net/imagine/status/2060433968105668764#m",
+          "date_utc": "2026-05-29T18:51:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Here's the links for my conversation with Don Lincoln: YouTube: piped.video/watch?v=1M3Vdl6D… Spotify: open.spotify.com/show/2MAi0B… Podcast: lexfridman.com/podcast",
+          "link": "https://nitter.net/lexfridman/status/2060415372743119215#m",
+          "date_utc": "2026-05-29T17:38:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=1M3Vdl6DRkU",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            },
+            {
+              "url": "https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL",
+              "content": "Lex Fridman Podcast | Podcast on Spotify Lex Fridman Podcast Lex Fridman Follow Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. 4.8 (82.7K) Technology All Episodes #497 – Biggest Mysteries in Physics: Antimatter, Dark Energy ToE - Don Lincoln Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics.Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-sdSee below for timestamps, and to give feedback, submit questions, contact Lex, etc.CONTA"
+            },
+            {
+              "url": "https://lexfridman.com/podcast",
+              "content": "Lex Fridman Podcast - Lex Fridman Skip to content Lex Fridman Research Scientist at MIT. Host of Lex Fridman Podcast. Menu Lex Fridman MENU MENU Lex Fridman Podcast Contact Lex X / Twitter YouTube Lex Fridman Podcast This podcast hosts conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. To support this podcast, please consider doing the following: Subscribe to Lex Fridman or Lex Clips YouTube channels. Subscribe on Apple Podcasts , Spotify , RSS . If you enjoy it, consider rating it 5 stars. Connect on X/Twitter , LinkedIn , Instagram , "
+            }
+          ]
+        },
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Here's my conversation with Don Lincoln about some of the biggest open questions in physics, including dark energy, dark matter, the matter-antimatter imbalance, quantum vacuum, quantum foam, and the quest to unify the laws of physics. Don is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics. He is also a great teacher & writer. I highly recommend his courses & books. One of my favorite lecture series he has given is The Evidence for Modern Physics where he breaks down the experiments that validate some of the weird laws of physics we have, ",
+          "link": "https://nitter.net/lexfridman/status/2060415366761992612#m",
+          "date_utc": "2026-05-29T17:37:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Our CEO Jensen Huang and @Dell Chairman & CEO Michael Dell kicked things off at #DellTechWorld in Las Vegas with a look at how the Dell AI Factory with NVIDIA is redefining how companies build, run, and scale AI. We saw NemoClaw powering agentic AI on-prem, robots demonstrating physical AI in the real world, and sessions packed with enterprise use cases. Video",
+          "link": "https://nitter.net/nvidia/status/2060475395716087834#m",
+          "date_utc": "2026-05-29T21:36:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🔗 nvda.ws/434FvIs",
+          "link": "https://nitter.net/nvidia/status/2060436020236034548#m",
+          "date_utc": "2026-05-29T19:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/434FvIs",
+              "content": "AI Factories: The New Infrastructure of Intelligence | NVIDIA Blog Skip to content AI Factories: The New Infrastructure of Intelligence May 27, 2026 by Jeremy Graybill Your browser does not support the video tag. Share X Facebook LinkedIn Email 0 AI factories are a new class of infrastructure built to manufacture intelligence that’s always on and in real time. In the industrial age, power plants converted energy into electricity. In the AI age, AI factories convert energy into tokens — the unit of production for reasoning models, agents and intelligent systems. Their economics are defined by what they produce: tokens per second, tokens per watt, cost per token, utilization and uptime. In this model, performance per watt translates directly into revenue. Cost per token impacts the economics"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The next industrial revolution is here. NVIDIA AI factories convert energy into continuous intelligence, delivering 50x higher throughput per megawatt with Blackwell Ultra.",
+          "link": "https://nitter.net/nvidia/status/2060436016704422249#m",
+          "date_utc": "2026-05-29T19:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Our new Higher Education and Research page is live. Built for researchers, educators, and students redefining what's possible. ✅ Explore use cases in Physical AI & Robotics, Climate, Agentic AI, and more ✅ Access workshops, hackathons, grants, and hands-on experiences ✅ Discover how real universities are putting AI to work across academic disciplines Move beyond the status quo and advance at the speed of discovery: nvda.ws/4ajfrx8",
+          "link": "https://nitter.net/nvidia/status/2060424733942854033#m",
+          "date_utc": "2026-05-29T18:15:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4ajfrx8",
+              "content": "The Next Era of Computing in Higher Education and Research | NVIDIA NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Braz"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🔗 nvda.ws/4dRjqSO",
+          "link": "https://nitter.net/nvidia/status/2060405818789405088#m",
+          "date_utc": "2026-05-29T17:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://nvda.ws/4dRjqSO",
+              "content": "SVG Rewind: &#8216;AIQ: Where Data Meets Dirt&#8217; Technology Brings Real-Time Data Analysis to Rodeo &#8211; Sports Video Group Skip to content Our Mission SVG Europe SVG Play Subscribe Our Mission SVG Europe SVG Play Subscribe News Latest Headlines Production Business Streaming Digital Technology Venues Teams College Remote Cloud Audio Regional Sports Production SportsTech Wire SVG Blogs Executive Perspectives Platinum White Papers Publications Archive Newsletter Archive Events Upcoming SVG Events Tech Vendor Events and Webinars SVG Enterprise 2026 Printable SVG Events Calendar Past Events SVG Play On Demand Sponsors Sponsors Become a Sponsor Contact Our Sponsorship Team Get Involved Sports Broadcasting Fund SVG Hazelden Betty Ford Partnership Sports Broadcasting Hall of Fame Sports Pr"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Congratulations to Teton Ridge and Cowboy+ on the Sports Emmy nomination for AIQ: Where Data Meets Dirt. Since then, @PalantirTech integrated NVIDIA software into an end-to-end automated real-time video analytics system, recently running live during FOX’s coverage of The American. This is production AI, live in the arena and on the broadcast.",
+          "link": "https://nitter.net/nvidia/status/2060405815295533213#m",
+          "date_utc": "2026-05-29T17:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya’s been in office for 6 years. She’s saying this 6 days before she loses an election? These feckless politicians HAVE A RECORD. Nithya did NOTHING as Hollywood fell into the abyss over the last few years, and now she wants you to believe she suddenly cares? She thinks you’re dumb. Of course CA has to have competitive tax credits, but a massive portion of our film/tv industry relies on commercial work. They don’t utilize tax credits. They just need filming to be easier and safer in LA. They need LA to be nicer, and less disgusting. Many agencies and independent filmmakers have left LA sim",
+          "link": "https://nitter.net/spencerpratt/status/2060530727553466855#m",
+          "date_utc": "2026-05-30T01:16:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://variety.com/2026/politics/news/nithya-raman-uncapped-film-credits-1236762819/",
+              "content": "Nithya Raman Urges Governor Candidates to Back Uncapped Film Credits Nithya Raman Urges Governor Candidates to Back Uncapped Film Credits Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital Gaming Plus Icon Global Plus Icon Awards Circuit Plus Icon Video Plus Icon What To Hear Plus Icon Click to expand the Mega Menu Plus Icon Click to Expand Search Input Got a Tip? Newsletters Switch edition between U.S. Edition Asia Edition Global Edition U.S. Asia Global Variety Plus Icon Click to expand the Mega Menu Plus Icon Click to Expand Search Input Variety Plus Icon Read Next: Marcia Gay Harden to Mothers Who Don&#8217;t Accept Their LGBTQ Children: ‘You’re Making a Great Big Mistake’ Home Politics News May 29, 2026 4:56pm PT Nithya Raman Calls on "
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "She says from a literal red carpet, surrounded by armed security, completely insulated from the horrors on our streets that Angelenos and their kids have to suffer through every day. I’m glad she doesn’t have to suffer the consequences of Karen and Nithya’s failures, but she’s in an elite minority and the rest of us want change. Variety (@Variety) #HannahEinbinder says it's important to \"resist\" Spencer Pratt's campaign for LA mayor: \"Spencer shouldn't, and neither should I! I'm with Lisa Rinna. That's not what we want.\" Video — https://nitter.net/Variety/status/2060444749513801828#m",
+          "link": "https://nitter.net/spencerpratt/status/2060501744195678389#m",
+          "date_utc": "2026-05-29T23:21:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "She made it worse for four years, but NOW she’s totally got the secret fix figured out. Trust her, guys. She was just biding her time. Elex Michaelson (@Elex_Michaelson) . @KarenBassLA says both L.A. city county haven't invested enough in interim housing units. She says it's a major reason why street homelessness \"metastasized.\" But, she says as @MayorOfLA , she's changing that. \"We know what we need to do now to end street homelessness.\" Video — https://nitter.net/Elex_Michaelson/status/2060469288474210420#m",
+          "link": "https://nitter.net/spencerpratt/status/2060475856011846003#m",
+          "date_utc": "2026-05-29T21:38:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Somebody’s gotta bring investment back to LA. Peter Hamby (@PeterHamby) Weird move for Pratt to go to New York 5 days before the primary ! — https://nitter.net/PeterHamby/status/2060198875886215378#m",
+          "link": "https://nitter.net/spencerpratt/status/2060205677079888350#m",
+          "date_utc": "2026-05-29T03:44:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
