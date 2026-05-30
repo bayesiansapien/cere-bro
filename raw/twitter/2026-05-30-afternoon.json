@@ -1,0 +1,78 @@
+{
+  "date": "2026-05-30",
+  "slot": "afternoon",
+  "scraped_ist": "2026-05-30 15:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "kilo.codes/gJBzwKp",
+          "link": "https://nitter.net/kilocode/status/2060436821146742834#m",
+          "date_utc": "2026-05-29T19:03:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "https://kilo.codes/gJBzwKp",
+              "content": "Install Kilo Code in 60 Seconds — VS Code, JetBrains CLI Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Install Kilo Code Get started with AI coding in your CLI or preferred IDE Using Kilo for work? Create a team workspace . VS Code JetBrains CLI Slack Others VS Code Install Kilo Code for VS Code To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code If you don&#x27;t have VS Code installed yet, download it here 2. Install the extension Click the button below to install Kilo Code directly in VS Code Install in VS Code Download VS Code Kilo Community Discord Discord GitHub GitHub Reddit r/kilocode 𝕏 @kilocode Product Hunt p/kilocode Product IDE CLI Sl"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Three new arrivals in Kilo this week, all sharpening the price-to-performance trade. Opus 4.8 at the same price as 4.7. Step 3.7 Flash from StepFun. And Xiaomi just cut MiMo pricing by up to 99%.",
+          "link": "https://nitter.net/kilocode/status/2060436411266769327#m",
+          "date_utc": "2026-05-29T19:01:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "StepFun’s Step 3.7 Flash is one of the best open-weight models you can run right now, and it’s live in Kilo. A multimodal agent model on open weights, running at 400 tok/s, now in Kilo. @StepFun_ai shipped Step 3.7 Flash with the weights and quants ready to go. StepFun (@StepFun_ai) ⚡️ Step 3.7 Flash is here: The new frontier is agent efficiency. #1 ClawEval-1.1 (67.1), #1 SimpleVQA Search (79.2), #2 SWE-PRO (56.3), 95.3 on V* Python. Open weights under Apache 2.0. Built for agentic, coding, search, and multimodal workflows — balancing speed, cost, and reliable execution. - 400 TPS. 198B spars",
+          "link": "https://nitter.net/kilocode/status/2060341963119837635#m",
+          "date_utc": "2026-05-29T12:46:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "articles": [
+            {
+              "url": "http://github.com/stepfun-ai/Step-3.7-Flash",
+              "content": "GitHub - stepfun-ai/Step-3.7-Flash · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE"
+            },
+            {
+              "url": "http://huggingface.co/stepfun-ai/Step-3.7-Flash",
+              "content": "stepfun-ai/Step-3.7-Flash · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , eos_token : |im_end|> , pad_token : ｜end▁of▁sentence｜> , unk_token :null, use_default_system_prompt :false}, chat_template_jinja : {% macro render_message_content(message) %}{% if message.content is none %}{{- '' }}{% elif message.content is string %}{{- message.content }}{% elif message.content is mapping %}{{- message.content['value'] if 'value' in message.content else message.content['text'] }}{% elif message.content is it"
+            },
+            {
+              "url": "http://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF",
+              "content": "stepfun-ai/Step-3.7-Flash-GGUF · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up {% set ns.needs_text_separator = false %}{% endif %}{% endfor %}{% endif %}{% endmacro %}\\n{{bos_token}}{%- if tools %}\\n {{- ' |im_start|>system\\\\n' }}\\n {%- if reasoning_effort is defined %}\\n {{- \\ Reasoning: \\ + reasoning_effort + '\\\\n\\\\n' }}\\n {%- endif %}\\n {%- if messages[0].role == 'system' %}\\n {{- render_message_content(messages[0]) + '\\\\n\\\\n' }}\\n {%- endif %}\\n {{- \\ # Tools\\\\n\\\\nYou have access to the followin"
+            },
+            {
+              "url": "http://modelscope.cn/models/stepfun-ai/Step-3.7-Flash",
+              "content": "Step-3.7-Flash"
+            },
+            {
+              "url": "http://platform.stepfun.ai",
+              "content": "StepFun Open Platform API Platform Home Step Plan Documentation Experience Center Studio Experience Center StepFun Sign In Step 3.7 Flash A High-Efficiency Flash Model For Real-World Agents Multimodal Understanding Action / Web Visual Search Enhancement / Reliable Tool Use Orchestration / Agent Ecosystem Compatibility Learn More Start Now Step Plan Step Plan Build from Coding to Agents Smart Multi-model Routing / Multimodal / Compatible With Mainstream Agent Frameworks Learn More Start Now Step Image Edit 2 Image Editing Generation Model 19B lightweight architecture / Natural-language image editing / Leading open-source quality Learn More Start Now StepAudio 2.5 TTS Context-aware Speech Synthesis Model Dual-level Context Control / Zero-shot Voice Cloning / Human-like Voice Learn More Start"
+            },
+            {
+              "url": "http://static.stepfun.com/blog/step-3.7-flash/",
+              "content": "Step 3.7 Flash â A high-efficiency Flash model for Real-World Gallery Agentic Coding Enterprise Search Agents That Can See Benchmarks Availability Join us Try Step 3.7 Flash 2026-05-29 Step 3.7 Flash The new frontier is agent efficiency. A high-efficiency Flash model for real-world agents. Multimodal Understanding & Actionï½Web & Visual Search Enhancementï½Reliable Tool Use & Orchestrationï½Agent Ecosystem Compatibility GitHub HuggingFace ModelScope Key Features Native Multimodal Understanding Acting Understands images across the full range â product UIs, documents, charts, and natural scenes â then writes code or calls tools to act on what it sees. Web Visual Search Enhancement Web search reaches further â more sources, deeper follow-up. Visual search recognizes what other syst"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
