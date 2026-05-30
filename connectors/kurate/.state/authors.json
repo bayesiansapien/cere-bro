@@ -3750,5 +3750,33 @@
     ],
     "first_seen": "2026-W21",
     "last_seen": "2026-W22"
+  },
+  "Jacob Fein-Ashley": {
+    "appearances": [
+      {
+        "week": "2026-W22",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.12466v1",
+        "title": "Solve the Loop: Attractor Models for Language and Reasoning",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W22",
+    "last_seen": "2026-W22"
+  },
+  "Paria Rashidinejad": {
+    "appearances": [
+      {
+        "week": "2026-W22",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.12466v1",
+        "title": "Solve the Loop: Attractor Models for Language and Reasoning",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W22",
+    "last_seen": "2026-W22"
   }
 }
