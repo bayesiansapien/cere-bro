@@ -17,7 +17,7 @@ const SHOW = {
   author:      'cere-bro',
   owner: {
     name:  'Amit Bhatti',
-    email: 'amit.bhatti@quantiphi.com',
+    email: 'amit02093@gmail.com',
   },
   // Top-level + secondary iTunes categories. Spotify reads <itunes:category>.
   category:    'Technology',
