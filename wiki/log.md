@@ -2,6 +2,16 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-05-30] ingest | Conf-KV: confidence-aware KV cache eviction (arxiv 2605.24786) | huggingface
+## [2026-05-30] ingest | EarlyTom: early token compression inside vision encoder (arxiv 2605.30010) | huggingface
+## [2026-05-30] ingest | PANDO: efficient multimodal agents via online skill distillation (arxiv 2605.24785) | huggingface
+## [2026-05-30] ingest | AgentDoG 1.5: lightweight agent safety alignment (arxiv 2605.29801) | huggingface
+## [2026-05-30] ingest | Token-Level Generalization in LoRA Adapter Backdoors (arxiv 2605.30189) | huggingface
+## [2026-05-30] ingest | Salesforce: 231-day migration in 13 days, 79% more PRs | rss (the-decoder) + twitter (@bcherny amplify)
+## [2026-05-30] ingest | Meta leaked memo AI pendant + glasses + wearables | rss (the-decoder)
+## [2026-05-30] digest | wiki/daily-digest/2026-05/2026-05-30.md
+## [2026-05-30] social-stream | wiki/social-stream/2026-05/2026-05-30-morning.md
+
 ## [2026-05-09] ingest | UniPool: Globally Shared Expert Pool for MoE (arxiv 2605.06665) | huggingface
 ## [2026-05-09] ingest | EMO: Pretraining Mixture of Experts for Emergent Modularity (arxiv 2605.06663) | huggingface + huggingface-blog
 ## [2026-05-09] ingest | TIDE: Every Layer Knows the Token Beneath the Context (arxiv 2605.06216) | huggingface
