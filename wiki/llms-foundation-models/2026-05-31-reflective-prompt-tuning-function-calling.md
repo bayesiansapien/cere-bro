@@ -53,5 +53,5 @@ The decisive question is cost-effectiveness versus the alternatives: a whole-set
 ## Links
 
 - [arXiv 2605.21781](https://arxiv.org/abs/2605.21781)
-- [Discovering Cooperative Pipelines: autoresearch for social dilemmas (05-31)](../agentic-systems/2026-05-31-repot-recoverable-program-of-thought.md)
+- [Discovering Cooperative Pipelines: autoresearch for social dilemmas (05-31)](https://arxiv.org/abs/2605.30003)
 - [RL for LLMs concept page](rl-for-llms.md)
