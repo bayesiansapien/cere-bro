@@ -58,8 +58,18 @@ function fmtRfc822(dateIso: string): string {
 export const GET: APIRoute = () => {
   const episodes = (wiki as any).podcasts ?? [];
 
+  // Episodes that were re-generated AFTER Spotify already ingested them need
+  // a bumped GUID so Spotify treats the re-upload as a new episode and refetches
+  // the audio. Without this, Spotify caches the first version of the GUID
+  // forever and ignores any audio swap on GitHub Releases. Add a "YYYY-MM-DD: N"
+  // entry here when a regeneration happens.
+  const guidVersions: Record<string, number> = {
+    '2026-05-30': 2,  // regenerated as Saturday weekly review (was a daily-prompt episode)
+  };
+
   const items = episodes.map((ep: any) => {
-    const guid       = `cere-bro-radio-${ep.date}`;
+    const ver        = guidVersions[ep.date];
+    const guid       = ver ? `cere-bro-radio-${ep.date}-v${ver}` : `cere-bro-radio-${ep.date}`;
     const enclosure  = `<enclosure url="${esc(ep.audioUrl)}" type="audio/mp4"${ep.audioBytes ? ` length="${ep.audioBytes}"` : ''} />`;
     const itunesDur  = fmtDurationHHMMSS(ep.durationSec);
     const pubDate    = fmtRfc822(ep.date);

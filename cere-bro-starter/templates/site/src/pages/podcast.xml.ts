@@ -58,8 +58,17 @@ function fmtRfc822(dateIso: string): string {
 export const GET: APIRoute = () => {
   const episodes = (wiki as any).podcasts ?? [];
 
+  // Spotify caches episodes by GUID — once an episode is ingested with a given
+  // GUID, Spotify will NOT re-download the audio even if the m4a at the same
+  // enclosure URL changes. If you ever regenerate an existing episode (different
+  // audio, same date), add an entry here to bump its version so Spotify treats
+  // it as a new episode and refetches.
+  // Example: { '2026-05-30': 2 }
+  const guidVersions: Record<string, number> = {};
+
   const items = episodes.map((ep: any) => {
-    const guid       = `{{WIKI_NAME}}-radio-${ep.date}`;
+    const ver        = guidVersions[ep.date];
+    const guid       = ver ? `{{WIKI_NAME}}-radio-${ep.date}-v${ver}` : `{{WIKI_NAME}}-radio-${ep.date}`;
     const enclosure  = `<enclosure url="${esc(ep.audioUrl)}" type="audio/mp4"${ep.audioBytes ? ` length="${ep.audioBytes}"` : ''} />`;
     const itunesDur  = fmtDurationHHMMSS(ep.durationSec);
     const pubDate    = fmtRfc822(ep.date);
