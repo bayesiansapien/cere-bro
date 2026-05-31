@@ -27,7 +27,7 @@ Cross-cutting — optimizer is not separable from architecture:
 
 ## Key papers
 
-**Parallax (2026-05-31)** — Parameterized Local Linear Attention. Replaces exact-LLA's per-query CG solver with a learned covariance probe; hardware-aware kernel matches/beats FlashAttention 2/3; Pareto perplexity gains at 0.6B/1.7B; Muon-architecture codesign. → [summary](2026-05-31-parallax-local-linear-attention.md)
+**Parallax (2026-05-29)** — Parameterized Local Linear Attention. Replaces exact-LLA's per-query CG solver with a learned covariance probe; hardware-aware kernel matches/beats FlashAttention 2/3; Pareto perplexity gains at 0.6B/1.7B; Muon-architecture codesign. → [summary](../inference-efficiency/2026-05-29-parallax-local-linear-attention.md)
 
 **MDN: Momentum DeltaNet (2026-05-11)** — Parallelizes stepwise momentum for delta linear attention without breaking causality, with a spectral-stability analysis constraining the gating. Beats Transformers, Mamba2, GDN at 400M/1.3B. The first paper this month to push the recurrent-rule substrate. → [summary](../inference-efficiency/2026-05-11-mdn-momentum-deltanet-linear-attention.md)
 
