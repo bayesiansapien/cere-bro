@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-28T03:30:16.809690+00:00",
+  "following_last_checked": "2026-05-31T03:40:07.702882+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -67,7 +67,10 @@
     "BretWJ",
     "10DowningStreet",
     "ddueri0",
-    "RobertIsom_"
+    "RobertIsom_",
+    "aplusk",
+    "ianmiles",
+    "eastdakota"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -485,6 +488,24 @@
       "timezone": "PT",
       "focus": [
         "AI"
+      ]
+    },
+    {
+      "handle": "lynnmartin",
+      "name": "Lynn Martin",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "name": "the tiny corp",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "GPU/CUDA"
       ]
     }
   ],
