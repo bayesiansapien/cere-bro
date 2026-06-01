@@ -46,6 +46,19 @@ python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || { \
   echo "[$TODAY $(date +%H:%M:%S)] Reddit farmer failed or skipped — continuing." >> "$LOG"; \
   notify "Reddit farmer failed ($TODAY)" "The Reddit farmer failed this morning. Check $LOG."; }
 
+# Optional: sync a sibling YouTube knowledge wiki's AI/tech folder into
+# raw/youtube-ai-tech/ so the Media Zone page picks up YouTube video
+# summaries on the next site deploy. Set YOUTUBE_KNOWLEDGE_WIKI_PATH to
+# point at your sibling repo's ai-tech directory; the step is a no-op if
+# the path is unset or missing.
+YT_AITECH_SRC="${YOUTUBE_KNOWLEDGE_WIKI_PATH:-$REPO/../youtube-knowledge-wiki/wiki/ai-tech}"
+if [ -d "$YT_AITECH_SRC" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] Syncing YouTube knowledge wiki ai-tech..." >> "$LOG"
+  mkdir -p "$REPO/raw/youtube-ai-tech"
+  rsync -a --delete "$YT_AITECH_SRC/" "$REPO/raw/youtube-ai-tech/" >> "$LOG" 2>&1 || \
+    echo "[$TODAY $(date +%H:%M:%S)] YouTube wiki sync failed — continuing." >> "$LOG"
+fi
+
 # Push raw files
 git add raw/ >> "$LOG" 2>&1
 git diff --cached --quiet || git commit -m "raw: morning farmer scrape $TODAY" >> "$LOG" 2>&1

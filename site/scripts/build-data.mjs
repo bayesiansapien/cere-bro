@@ -519,9 +519,13 @@ function scanPodcasts() {
 // curated tweets from the cere-bro Twitter farmer. Output is sorted
 // newest-first and consumed by /media-zone.
 
-// Read-only path to the sibling youtube-knowledge-wiki repo. The Astro build
-// tolerates this path being absent (e.g. on CI where only cere-bro is cloned).
-const YOUTUBE_WIKI_AI_TECH_DIR = path.resolve(REPO_ROOT, '..', 'youtube-knowledge-wiki', 'wiki', 'ai-tech');
+// YouTube AI-tech video summaries. Primary source: a synced copy under raw/
+// (committed so CI sees them on the GH Actions runner). Fallback: sibling
+// youtube-knowledge-wiki repo on the local machine, useful for dev iteration
+// before the cron syncs the next batch.
+const YOUTUBE_LOCAL_DIR   = path.join(REPO_ROOT, 'raw', 'youtube-ai-tech');
+const YOUTUBE_SIBLING_DIR = path.resolve(REPO_ROOT, '..', 'youtube-knowledge-wiki', 'wiki', 'ai-tech');
+const YOUTUBE_WIKI_AI_TECH_DIR = fs.existsSync(YOUTUBE_LOCAL_DIR) ? YOUTUBE_LOCAL_DIR : YOUTUBE_SIBLING_DIR;
 
 // How far back the Media Zone feed pulls items. Older content stays in the
 // wiki's source-summary pages and the daily digest; the feed page itself
@@ -676,21 +680,127 @@ function scanFeedTweets() {
   });
 }
 
+// Keywords that mark a tweet as substantively about AI / research / industry,
+// rather than personal chatter. The farmer's ai_handles list whitelists by
+// handle alone, which means an AI researcher tweeting "Office for the day"
+// still gets captured. This filter prunes those.
+const HIGH_SIGNAL_KW = [
+  'ai', 'llm', 'gpt', 'claude', 'gemini', 'grok', 'mistral', 'llama',
+  'anthropic', 'openai', 'xai', 'deepmind', 'nvidia', 'cursor',
+  'gpu', 'tpu', 'cuda', 'kernel', 'h100', 'blackwell', 'hopper', 'silicon', 'chip',
+  'training', 'fine-tun', 'fine tun', 'distill', 'quantiz', 'compress', 'prun',
+  'inference', 'serving', 'throughput', 'latency',
+  'model', 'paper', 'arxiv', 'benchmark', 'eval', 'sota',
+  'agent', 'reasoning', 'rlhf', 'rlvr', 'rl ',
+  'kv cache', 'attention', 'transformer', 'moe', 'mixture of expert',
+  'routing', 'router', 'speculative', 'context window',
+  'multimodal', 'embedding', 'speech', 'vision-language',
+  'open source', 'open-source', 'open weight', 'open-weight',
+  'funding', 'raise', 'series ', 'billion', 'million', 'valuation',
+  'launch', 'release', 'ship', 'announc', 'beta', 'preview',
+];
+
+function isHighSignalTweet(t) {
+  if (t.isCurated) return true;  // curated retweets are pre-vetted
+  const text = (t.text || '').trim();
+  if (text.length < 30) return false;
+  // Strip URLs; if there's almost no content left, it's a link-share with no commentary
+  const noUrls = text.replace(/https?:\/\/\S+/g, '').trim();
+  if (noUrls.length < 20) return false;
+  // Tweets with attached articles are substantive by definition (farmer attached content)
+  if (t.articles && t.articles.length > 0) return true;
+  // Otherwise require an AI keyword match
+  const lc = text.toLowerCase();
+  return HIGH_SIGNAL_KW.some((kw) => lc.includes(kw));
+}
+
+function curateTweets(tweets) {
+  // Filter low-signal items
+  const kept = tweets.filter(isHighSignalTweet);
+
+  // Per-creator-per-day cap: at most 2 tweets per handle per day. Prefer
+  // (a) curated retweets, (b) tweets with articles, (c) longer original text.
+  const byCreatorDay = new Map();
+  for (const t of kept) {
+    const k = `${t.handle}|${t.date}`;
+    if (!byCreatorDay.has(k)) byCreatorDay.set(k, []);
+    byCreatorDay.get(k).push(t);
+  }
+  const out = [];
+  for (const group of byCreatorDay.values()) {
+    group.sort((a, b) => {
+      if (a.isCurated !== b.isCurated) return a.isCurated ? -1 : 1;
+      const aArt = (a.articles || []).length;
+      const bArt = (b.articles || []).length;
+      if (aArt !== bArt) return bArt - aArt;
+      return (b.text || '').length - (a.text || '').length;
+    });
+    out.push(...group.slice(0, 2));
+  }
+  return out;
+}
+
 function buildFeedItems() {
   const cutoff = feedCutoffISO();
   const yt = scanYoutubeAiFeed().filter((it) => !it.date || it.date >= cutoff);
-  const tw = scanFeedTweets().filter((it) => !it.date || it.date >= cutoff);
-  // Sort newest-first by date (YYYY-MM-DD lexical sort works)
-  const items = [...yt, ...tw].sort((a, b) => {
-    const ad = a.date || '0000-00-00';
-    const bd = b.date || '0000-00-00';
-    if (ad !== bd) return bd.localeCompare(ad);
-    // Tie-breaker: YouTube first within the same day, then tweets by dateUtc desc
-    if (a.type !== b.type) return a.type === 'youtube' ? -1 : 1;
-    if (a.dateUtc && b.dateUtc) return b.dateUtc.localeCompare(a.dateUtc);
-    return 0;
+  const twRaw = scanFeedTweets().filter((it) => !it.date || it.date >= cutoff);
+  const tw = curateTweets(twRaw);
+
+  // Three sections, not a flat list — the page renders them as distinct blocks.
+  // 1. Videos: all YouTube items, newest first.
+  // 2. Highlights: curated retweets + tweets that link to an article. These are
+  //    the highest-signal text items — a human bookmarked them or the farmer
+  //    attached substantive linked content.
+  // 3. Voices: remaining tweets, grouped by creator with the cap from curateTweets.
+  const ytSorted = [...yt].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+  const highlights = tw
+    .filter((t) => t.isCurated || (t.articles && t.articles.length > 0))
+    .sort((a, b) => {
+      const d = (b.date || '').localeCompare(a.date || '');
+      if (d !== 0) return d;
+      return (b.dateUtc || '').localeCompare(a.dateUtc || '');
+    });
+
+  const inHighlights = new Set(highlights.map((t) => t.link));
+  const voicesItems = tw.filter((t) => !inHighlights.has(t.link));
+
+  // Group voices by creator. Inside each creator group, sort newest first.
+  // Group order: creators with the most items first; ties → most-recent activity.
+  const voicesByCreator = new Map();
+  for (const t of voicesItems) {
+    const k = t.handle || 'unknown';
+    if (!voicesByCreator.has(k)) voicesByCreator.set(k, []);
+    voicesByCreator.get(k).push(t);
+  }
+  const voices = [...voicesByCreator.entries()].map(([handle, items]) => {
+    items.sort((a, b) => (b.dateUtc || '').localeCompare(a.dateUtc || ''));
+    return {
+      handle,
+      creator: items[0].creator || handle,
+      org: items[0].org || null,
+      count: items.length,
+      latestDate: items[0].dateUtc || items[0].date,
+      items,
+    };
+  }).sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return (b.latestDate || '').localeCompare(a.latestDate || '');
   });
-  return { items, youtubeCount: yt.length, tweetCount: tw.length };
+
+  return {
+    videos: ytSorted,
+    highlights,
+    voices,
+    counts: {
+      youtube:     ytSorted.length,
+      highlights:  highlights.length,
+      voices:      voicesItems.length,
+      voicesCreators: voices.length,
+      tweetsRaw:   twRaw.length,
+      tweetsKept:  tw.length,
+    },
+  };
 }
 
 function main() {
@@ -1185,9 +1295,16 @@ function main() {
     tierBySource,
     // Cerebro Radio podcast episodes
     podcasts,
-    // Media Zone feed: YouTube AI-tech video summaries + curated tweets, sorted newest-first
-    feedItems: feed.items,
-    feedCounts: { youtube: feed.youtubeCount, tweets: feed.tweetCount, total: feed.items.length },
+    // Media Zone feed: three curated sections instead of a flat dump.
+    // - videos: YouTube AI-tech cards
+    // - highlights: curated retweets + tweets with attached articles
+    // - voices: remaining high-signal tweets grouped by creator (collapsed by default)
+    mediaZone: {
+      videos: feed.videos,
+      highlights: feed.highlights,
+      voices: feed.voices,
+      counts: feed.counts,
+    },
   };
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
