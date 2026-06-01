@@ -156,6 +156,23 @@ if EPISODE_MODE == "weekly":
     print(f"Weekly source set: {len(digest_dates)} digest(s) — {digest_dates[0]} → {digest_dates[-1]}")
 else:
     digest_dates = [date_str]
+    # Catch-forward rule: if the immediately prior calendar day was a skip-day
+    # (Sunday by default), it never got its own podcast. Pull its digest +
+    # summaries + social-stream into today's source set so today's episode
+    # covers Sunday's content. Walks backwards across consecutive skip-days
+    # in case the schedule ever expands beyond just Sundays.
+    skip_days = schedule.get("skip_days", [])
+    cursor = datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=1)
+    catch_forward = []
+    while cursor.weekday() in skip_days:
+        d = cursor.strftime("%Y-%m-%d")
+        p = REPO_ROOT / "wiki" / "daily-digest" / d[:7] / f"{d}.md"
+        if p.exists():
+            catch_forward.insert(0, d)  # chronological order
+        cursor -= timedelta(days=1)
+    if catch_forward:
+        print(f"Catch-forward: including prior skip-day(s) {', '.join(catch_forward)} in today's source set.")
+        digest_dates = catch_forward + digest_dates
 
 # Gather digests + summaries + URLs across all selected dates.
 digest_paths: list[Path] = []
