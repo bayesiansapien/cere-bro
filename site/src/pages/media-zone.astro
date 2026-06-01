@@ -2,31 +2,17 @@
 import Base from '../layouts/Base.astro';
 import wiki from '../data/wiki.json';
 
-const feedItems = (wiki as any).feedItems ?? [];
-const feedCounts = (wiki as any).feedCounts ?? { youtube: 0, tweets: 0, total: 0 };
-const base = import.meta.env.BASE_URL;
-const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
+const mz = (wiki as any).mediaZone ?? { videos: [], highlights: [], voices: [], counts: {} };
+const videos = mz.videos ?? [];
+const highlights = mz.highlights ?? [];
+const voices = mz.voices ?? [];
+const counts = mz.counts ?? {};
 
 function fmtDate(iso: string) {
   if (!iso) return '';
   const d = new Date(iso + 'T00:00:00Z');
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
 }
-
-function fmtFullDate(iso: string) {
-  if (!iso) return '';
-  const d = new Date(iso + 'T00:00:00Z');
-  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' });
-}
-
-// Group by date for visual day-separators in the feed
-const byDate: Record<string, any[]> = {};
-for (const it of feedItems) {
-  const d = it.date || 'unknown';
-  if (!byDate[d]) byDate[d] = [];
-  byDate[d].push(it);
-}
-const orderedDates = Object.keys(byDate).sort().reverse();
 ---
 
 <Base title="Media Zone — cere-bro" active="media-zone">
@@ -34,141 +20,179 @@ const orderedDates = Object.keys(byDate).sort().reverse();
     <div class="hero-date">live AI feed</div>
     <h1>Media Zone</h1>
     <p class="hero-tagline">
-      A daily-updating feed of AI signal: YouTube video summaries from the AI/tech wiki
-      (polled every 6 hours), plus curated tweets and AI-handle posts pulled four times a day.
-      Cards include thumbnails, embedded video previews, attached images, and links to the source.
+      A curated daily feed of AI signal. Three sections: videos from the AI/tech YouTube wiki (polled every 6 hours),
+      highlights (hand-curated retweets plus tweets with attached articles), and voices grouped by creator. The raw
+      stream is pruned: tweets shorter than a sentence or without AI keywords are dropped, and each creator is capped
+      at two tweets per day.
     </p>
     <div class="mz-meta">
-      <span class="mz-pill mz-pill--yt">📺 {feedCounts.youtube} videos</span>
-      <span class="mz-pill mz-pill--tw">𝕏 {feedCounts.tweets} tweets</span>
-      <span class="mz-pill mz-pill--win">last 14 days</span>
-    </div>
-    <div class="mz-filter" id="mz-filter">
-      <button data-filter="all"     class="mz-filter-btn active">All</button>
-      <button data-filter="youtube" class="mz-filter-btn">YouTube</button>
-      <button data-filter="tweet"   class="mz-filter-btn">Twitter</button>
-      <button data-filter="curated" class="mz-filter-btn">Curated only</button>
+      <span class="mz-pill mz-pill--yt">📺 {videos.length} videos</span>
+      <span class="mz-pill mz-pill--hl">✦ {highlights.length} highlights</span>
+      <span class="mz-pill mz-pill--vo">🐦 {counts.voices ?? 0} from {voices.length} voices</span>
+      <span class="mz-pill mz-pill--win">last 14 days · {counts.tweetsRaw ?? 0} raw → {counts.tweetsKept ?? 0} kept</span>
     </div>
   </section>
 
-  <section class="mz-feed" id="mz-feed">
-    {orderedDates.map((date) => (
-      <div class="mz-day" data-date={date}>
-        <div class="mz-day-marker">
-          <span class="mz-day-label">{fmtFullDate(date)}</span>
-          <span class="mz-day-count">{byDate[date].length} items</span>
-        </div>
-        <div class="mz-cards">
-          {byDate[date].map((it: any) => (
-            it.type === 'youtube' ? (
-              <article class="mz-card mz-card--yt" data-type="youtube">
-                <div class="mz-yt-thumb" data-video={it.videoId} data-embed={it.embedUrl}>
-                  {it.thumbnailUrl && (
-                    <img
-                      src={it.thumbnailUrl}
-                      alt={it.title}
-                      loading="lazy"
-                      onerror={`this.onerror=null; this.src='${it.thumbnailFallback || ''}'`}
-                    />
-                  )}
-                  <button class="mz-yt-play" aria-label="Play video">▶</button>
-                  <a class="mz-yt-external" href={it.sourceUrl} target="_blank" rel="noopener" title="Open on YouTube">↗</a>
-                </div>
-                <div class="mz-card-body">
-                  <div class="mz-card-meta">
-                    <span class="mz-yt-channel">{it.channel || 'YouTube'}</span>
-                    {it.date && <span class="mz-card-date">{fmtDate(it.date)}</span>}
-                  </div>
-                  <h3 class="mz-card-title">{it.title}</h3>
-                  {it.tldr && <p class="mz-card-tldr">{it.tldr.slice(0, 280)}{it.tldr.length > 280 ? '…' : ''}</p>}
-                  {it.takeaways && it.takeaways.length > 0 && (
-                    <details class="mz-card-takeaways">
-                      <summary>Key takeaways ({it.takeaways.length})</summary>
-                      <ul>{it.takeaways.map((t: string) => <li>{t}</li>)}</ul>
-                    </details>
-                  )}
-                </div>
-              </article>
-            ) : (
-              <article class={`mz-card mz-card--tw ${it.isCurated ? 'mz-card--curated' : ''}`} data-type="tweet" data-curated={it.isCurated ? '1' : '0'}>
-                <div class="mz-tw-header">
-                  <div class="mz-tw-avatar">{(it.handle || '?')[0].toUpperCase()}</div>
-                  <div class="mz-tw-meta">
-                    <div class="mz-tw-handle">
-                      @{it.handle}
-                      {it.org && it.org !== 'Independent' && <span class="mz-tw-org">· {it.org}</span>}
-                      {it.isCurated && <span class="mz-tw-curated" title="Curated by @bayesiansapien">✦</span>}
-                    </div>
-                    <div class="mz-tw-time">{it.slot} · {fmtDate(it.date)}</div>
-                  </div>
-                </div>
-                <p class="mz-tw-text">{it.text}</p>
-                {it.images && it.images.length > 0 && (
-                  <div class={`mz-tw-images mz-tw-images--${it.images.length}`}>
-                    {it.images.slice(0, 4).map((img: string) => (
-                      <a href={img} target="_blank" rel="noopener" class="mz-tw-image">
-                        <img src={img} alt="" loading="lazy" />
-                      </a>
-                    ))}
-                  </div>
-                )}
-                {it.articles && it.articles.length > 0 && (
-                  <div class="mz-tw-articles">
-                    {it.articles.map((a: any) => (
-                      <a href={a.url} target="_blank" rel="noopener" class="mz-tw-article">
-                        <span class="mz-tw-article-title">{a.title || a.url}</span>
-                        {a.snippet && <span class="mz-tw-article-snippet">{a.snippet.slice(0, 150)}…</span>}
-                      </a>
-                    ))}
-                  </div>
-                )}
-                <a href={it.link} target="_blank" rel="noopener" class="mz-tw-link">Read on X →</a>
-              </article>
-            )
-          ))}
-        </div>
+  {/* ────────────────────────── Section 1: Videos ────────────────────────── */}
+  <section class="mz-section">
+    <div class="mz-section-header">
+      <h2 class="mz-section-title">🎬 Videos</h2>
+      <p class="mz-section-sub">YouTube AI/tech wiki, newest first. Click the thumbnail to play inline.</p>
+    </div>
+    {videos.length > 0 ? (
+      <div class="mz-cards mz-cards--videos">
+        {videos.map((it: any) => (
+          <article class="mz-card mz-card--yt">
+            <div class="mz-yt-thumb" data-video={it.videoId} data-embed={it.embedUrl}>
+              {it.thumbnailUrl && (
+                <img
+                  src={it.thumbnailUrl}
+                  alt={it.title}
+                  loading="lazy"
+                  onerror={`this.onerror=null; this.src='${it.thumbnailFallback || ''}'`}
+                />
+              )}
+              <button class="mz-yt-play" aria-label="Play video">▶</button>
+              <a class="mz-yt-external" href={it.sourceUrl} target="_blank" rel="noopener" title="Open on YouTube">↗</a>
+            </div>
+            <div class="mz-card-body">
+              <div class="mz-card-meta">
+                <span class="mz-yt-channel">{it.channel || 'YouTube'}</span>
+                {it.date && <span class="mz-card-date">{fmtDate(it.date)}</span>}
+              </div>
+              <h3 class="mz-card-title">{it.title}</h3>
+              {it.tldr && <p class="mz-card-tldr">{it.tldr.slice(0, 280)}{it.tldr.length > 280 ? '…' : ''}</p>}
+              {it.takeaways && it.takeaways.length > 0 && (
+                <details class="mz-card-takeaways">
+                  <summary>Key takeaways ({it.takeaways.length})</summary>
+                  <ul>{it.takeaways.map((t: string) => <li>{t}</li>)}</ul>
+                </details>
+              )}
+            </div>
+          </article>
+        ))}
       </div>
-    ))}
-    {feedItems.length === 0 && (
-      <p class="lead" style="color: var(--fg-muted)">
-        No feed items yet. The YouTube and Twitter farmers populate this page once they run.
+    ) : (
+      <p class="mz-empty">No videos yet. Pulled from the AI/tech YouTube wiki, which polls every 6 hours.</p>
+    )}
+  </section>
+
+  {/* ──────────────────────── Section 2: Highlights ──────────────────────── */}
+  <section class="mz-section">
+    <div class="mz-section-header">
+      <h2 class="mz-section-title">✦ Highlights</h2>
+      <p class="mz-section-sub">
+        Curated retweets and tweets with attached articles. Highest signal-to-noise — gold border means a hand-pick.
       </p>
+    </div>
+    {highlights.length > 0 ? (
+      <div class="mz-cards">
+        {highlights.map((it: any) => (
+          <article class={`mz-card mz-card--tw ${it.isCurated ? 'mz-card--curated' : ''}`}>
+            <div class="mz-tw-header">
+              <div class="mz-tw-avatar">{(it.handle || '?')[0].toUpperCase()}</div>
+              <div class="mz-tw-meta">
+                <div class="mz-tw-handle">
+                  @{it.handle}
+                  {it.org && it.org !== 'Independent' && <span class="mz-tw-org">· {it.org}</span>}
+                  {it.isCurated && <span class="mz-tw-curated" title="Curated retweet">✦</span>}
+                </div>
+                <div class="mz-tw-time">{fmtDate(it.date)}</div>
+              </div>
+            </div>
+            <p class="mz-tw-text">{it.text}</p>
+            {it.images && it.images.length > 0 && (
+              <div class={`mz-tw-images mz-tw-images--${Math.min(it.images.length, 4)}`}>
+                {it.images.slice(0, 4).map((img: string) => (
+                  <a href={img} target="_blank" rel="noopener" class="mz-tw-image">
+                    <img src={img} alt="" loading="lazy" />
+                  </a>
+                ))}
+              </div>
+            )}
+            {it.articles && it.articles.length > 0 && (
+              <div class="mz-tw-articles">
+                {it.articles.map((a: any) => (
+                  <a href={a.url} target="_blank" rel="noopener" class="mz-tw-article">
+                    <span class="mz-tw-article-title">{a.title || a.url}</span>
+                    {a.snippet && <span class="mz-tw-article-snippet">{a.snippet.slice(0, 150)}…</span>}
+                  </a>
+                ))}
+              </div>
+            )}
+            <a href={it.link} target="_blank" rel="noopener" class="mz-tw-link">Read on X →</a>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="mz-empty">No curated retweets or article-attached tweets in the current window.</p>
+    )}
+  </section>
+
+  {/* ────────────────────────── Section 3: Voices ────────────────────────── */}
+  <section class="mz-section">
+    <div class="mz-section-header">
+      <h2 class="mz-section-title">🐦 Voices</h2>
+      <p class="mz-section-sub">
+        High-signal tweets from tracked AI accounts, grouped by creator. Click a creator to expand.
+      </p>
+    </div>
+    {voices.length > 0 ? (
+      <div class="mz-voices">
+        {voices.map((v: any) => (
+          <details class="mz-voice">
+            <summary class="mz-voice-summary">
+              <div class="mz-voice-avatar">{(v.handle || '?')[0].toUpperCase()}</div>
+              <div class="mz-voice-meta">
+                <div class="mz-voice-handle">
+                  @{v.handle}
+                  {v.org && v.org !== 'Independent' && <span class="mz-voice-org">· {v.org}</span>}
+                </div>
+                <div class="mz-voice-count">{v.count} {v.count === 1 ? 'tweet' : 'tweets'} · last {fmtDate((v.latestDate || '').slice(0, 10))}</div>
+              </div>
+              <span class="mz-voice-arrow">▾</span>
+            </summary>
+            <div class="mz-voice-items">
+              {v.items.map((it: any) => (
+                <article class="mz-card mz-card--tw mz-card--inset">
+                  <div class="mz-tw-time-inline">{fmtDate(it.date)}</div>
+                  <p class="mz-tw-text">{it.text}</p>
+                  {it.images && it.images.length > 0 && (
+                    <div class={`mz-tw-images mz-tw-images--${Math.min(it.images.length, 4)}`}>
+                      {it.images.slice(0, 4).map((img: string) => (
+                        <a href={img} target="_blank" rel="noopener" class="mz-tw-image">
+                          <img src={img} alt="" loading="lazy" />
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                  {it.articles && it.articles.length > 0 && (
+                    <div class="mz-tw-articles">
+                      {it.articles.map((a: any) => (
+                        <a href={a.url} target="_blank" rel="noopener" class="mz-tw-article">
+                          <span class="mz-tw-article-title">{a.title || a.url}</span>
+                          {a.snippet && <span class="mz-tw-article-snippet">{a.snippet.slice(0, 150)}…</span>}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                  <a href={it.link} target="_blank" rel="noopener" class="mz-tw-link">Read on X →</a>
+                </article>
+              ))}
+            </div>
+          </details>
+        ))}
+      </div>
+    ) : (
+      <p class="mz-empty">No voices in the current window after curation.</p>
     )}
   </section>
 
   <script is:inline>
-    // Filter buttons
-    (function () {
-      const filter = document.getElementById('mz-filter');
-      const feed = document.getElementById('mz-feed');
-      if (!filter || !feed) return;
-
-      filter.addEventListener('click', (e) => {
-        const btn = e.target.closest('.mz-filter-btn');
-        if (!btn) return;
-        filter.querySelectorAll('.mz-filter-btn').forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        const mode = btn.dataset.filter;
-        const cards = feed.querySelectorAll('.mz-card');
-        for (const c of cards) {
-          let show = true;
-          if (mode === 'youtube' && c.dataset.type !== 'youtube') show = false;
-          else if (mode === 'tweet'   && c.dataset.type !== 'tweet') show = false;
-          else if (mode === 'curated' && c.dataset.curated !== '1') show = false;
-          c.style.display = show ? '' : 'none';
-        }
-        // Hide day-rows whose cards are all hidden
-        for (const day of feed.querySelectorAll('.mz-day')) {
-          const visible = day.querySelectorAll('.mz-card:not([style*="display: none"])').length;
-          day.style.display = visible === 0 ? 'none' : '';
-        }
-      });
-    })();
-
     // YouTube lazy embed: clicking the thumbnail swaps it for an iframe
     document.querySelectorAll('.mz-yt-thumb').forEach((el) => {
       el.addEventListener('click', (e) => {
-        if (e.target.closest('.mz-yt-external')) return;  // external link still works
+        if (e.target.closest('.mz-yt-external')) return;
         const embed = el.dataset.embed;
         if (!embed) return;
         el.innerHTML = `<iframe src="${embed}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
