@@ -634,6 +634,9 @@ def _tweet_to_dict(t: dict, is_curated: bool = False, handle_org: str = "") -> d
         "date_utc":   t["date"].isoformat() if t["date"] else None,
         "is_curated": is_curated,
         "org":        handle_org,
+        # Twitter CDN image URLs (pic.twimg.com / nitter.net) — public, load
+        # directly in browsers without auth. Used by the Media Zone feed.
+        "image_urls": t.get("image_urls", []),
         "articles":   [
             {"url": a["url"], "content": a["content"][:800]}
             for a in t.get("articles", []) if a.get("url")

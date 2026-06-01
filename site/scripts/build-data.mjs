@@ -513,6 +513,186 @@ function scanPodcasts() {
   return episodes;
 }
 
+// ── Media Zone feed ────────────────────────────────────────────────────────
+// Unified social-style feed combining (a) YouTube AI/tech video summaries
+// produced by the sibling youtube-knowledge-wiki repo and (b) individual
+// curated tweets from the cere-bro Twitter farmer. Output is sorted
+// newest-first and consumed by /media-zone.
+
+// Read-only path to the sibling youtube-knowledge-wiki repo. The Astro build
+// tolerates this path being absent (e.g. on CI where only cere-bro is cloned).
+const YOUTUBE_WIKI_AI_TECH_DIR = path.resolve(REPO_ROOT, '..', 'youtube-knowledge-wiki', 'wiki', 'ai-tech');
+
+// How far back the Media Zone feed pulls items. Older content stays in the
+// wiki's source-summary pages and the daily digest; the feed page itself
+// caps to a recent window to keep wiki.json small and the page snappy.
+const FEED_LOOKBACK_DAYS = 14;
+function feedCutoffISO() {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - FEED_LOOKBACK_DAYS);
+  return d.toISOString().slice(0, 10);
+}
+
+function extractYoutubeVideoId(url) {
+  if (!url) return null;
+  // Match the v= query param or youtu.be/<id>
+  let m = url.match(/[?&]v=([A-Za-z0-9_-]{6,})/);
+  if (m) return m[1];
+  m = url.match(/youtu\.be\/([A-Za-z0-9_-]{6,})/);
+  if (m) return m[1];
+  m = url.match(/youtube\.com\/embed\/([A-Za-z0-9_-]{6,})/);
+  if (m) return m[1];
+  return null;
+}
+
+function parseYoutubeWikiFile(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  const filename = path.basename(filePath);
+  const dateMatch = filename.match(/^(\d{4}-\d{2}-\d{2})/);
+  const date = dateMatch ? dateMatch[1] : null;
+
+  // H1 = title (strip trailing channel/show name if present, e.g. "Title — Channel")
+  const h1 = content.match(/^#\s+(.+)$/m);
+  const title = h1 ? h1[1].trim() : filename.replace(/\.md$/, '');
+
+  const channelM = content.match(/\*\*Channel:\*\*\s*(.+)/);
+  const publishedM = content.match(/\*\*Published:\*\*\s*(.+)/);
+  const sourceM = content.match(/\*\*Source:\*\*\s*(https?:\/\/\S+)/);
+  const sourceUrl = sourceM ? sourceM[1].trim() : null;
+  const videoId = extractYoutubeVideoId(sourceUrl);
+
+  // TL;DR section: capture paragraph(s) after "## TL;DR" until next heading
+  let tldr = '';
+  const tldrM = content.match(/##\s+TL;DR\s*\n([\s\S]+?)(?=\n##\s|$)/);
+  if (tldrM) tldr = tldrM[1].trim();
+
+  // Key Takeaways: capture bullets after "## Key Takeaways" until next heading
+  let takeaways = [];
+  const ktM = content.match(/##\s+Key Takeaways\s*\n([\s\S]+?)(?=\n##\s|$)/);
+  if (ktM) {
+    takeaways = ktM[1].split('\n')
+      .map((l) => l.trim())
+      .filter((l) => l.startsWith('-') || l.startsWith('*'))
+      .map((l) => l.replace(/^[-*]\s+/, '').replace(/\*\*/g, ''))
+      .slice(0, 6);
+  }
+
+  return {
+    type: 'youtube',
+    date,
+    title,
+    channel: channelM ? channelM[1].trim() : null,
+    published: publishedM ? publishedM[1].trim() : null,
+    sourceUrl,
+    videoId,
+    thumbnailUrl: videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : null,
+    thumbnailFallback: videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : null,
+    embedUrl: videoId ? `https://www.youtube.com/embed/${videoId}` : null,
+    tldr,
+    takeaways,
+  };
+}
+
+function scanYoutubeAiFeed() {
+  if (!fs.existsSync(YOUTUBE_WIKI_AI_TECH_DIR)) {
+    console.log('  (youtube-knowledge-wiki/ai-tech not found — feed will skip YouTube)');
+    return [];
+  }
+  const items = [];
+  for (const f of fs.readdirSync(YOUTUBE_WIKI_AI_TECH_DIR)) {
+    if (!f.endsWith('.md')) continue;
+    try {
+      const full = path.join(YOUTUBE_WIKI_AI_TECH_DIR, f);
+      items.push(parseYoutubeWikiFile(full));
+    } catch (e) {
+      console.warn(`  WARN: could not parse ${f}: ${e.message}`);
+    }
+  }
+  return items;
+}
+
+function nitterToX(url) {
+  if (!url) return url;
+  return url.replace(/^https?:\/\/nitter\.[^/]+/, 'https://x.com').replace(/#m$/, '');
+}
+
+function scanFeedTweets() {
+  if (!fs.existsSync(TWITTER_RAW_DIR)) return [];
+  const items = [];
+  for (const f of fs.readdirSync(TWITTER_RAW_DIR)) {
+    if (!f.endsWith('.json')) continue;
+    let payload;
+    try { payload = JSON.parse(fs.readFileSync(path.join(TWITTER_RAW_DIR, f), 'utf8')); }
+    catch (e) { continue; }
+    const slot = payload.slot || 'unknown';
+    const slotDate = payload.date;
+
+    const pushTweet = (t, isCurated) => {
+      if (!t.text) return;
+      const link = nitterToX(t.link || '');
+      // Prefer image_urls (Twitter CDN, loads directly without bundling).
+      // Some old JSONs may have only image_paths (local filesystem) — those
+      // won't render in production, so we skip them rather than 404.
+      // Rewrite nitter.net pic URLs to use pbs.twimg.com directly.
+      const imageUrls = (t.image_urls || []).map((u) => {
+        return u.replace(/^https?:\/\/nitter\.[^/]+\/pic\//, 'https://pbs.twimg.com/');
+      }).slice(0, 4);
+      const articles = (t.articles || []).map((a) => ({
+        url: a.url,
+        title: a.title || null,
+        snippet: a.content ? a.content.slice(0, 240) : null,
+      })).slice(0, 2);
+      items.push({
+        type: 'tweet',
+        date: slotDate,
+        slot,
+        handle: t.handle,
+        creator: t.creator || t.handle,
+        org: t.org || null,
+        text: t.text,
+        link,
+        dateUtc: t.date_utc,
+        images: imageUrls,
+        articles,
+        isCurated: !!isCurated,
+      });
+    };
+
+    for (const t of (payload.curated || [])) pushTweet(t, true);
+    for (const a of (payload.ai_feed || [])) {
+      for (const t of (a.tweets || [])) {
+        // ai_feed wraps tweets under handle objects; inject the handle metadata
+        pushTweet({ ...t, handle: a.handle, org: a.org || t.org }, false);
+      }
+    }
+  }
+  // Dedup by link (rare but possible across slots)
+  const seen = new Set();
+  return items.filter((it) => {
+    const k = it.link || (it.handle + '|' + it.text.slice(0, 80));
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+}
+
+function buildFeedItems() {
+  const cutoff = feedCutoffISO();
+  const yt = scanYoutubeAiFeed().filter((it) => !it.date || it.date >= cutoff);
+  const tw = scanFeedTweets().filter((it) => !it.date || it.date >= cutoff);
+  // Sort newest-first by date (YYYY-MM-DD lexical sort works)
+  const items = [...yt, ...tw].sort((a, b) => {
+    const ad = a.date || '0000-00-00';
+    const bd = b.date || '0000-00-00';
+    if (ad !== bd) return bd.localeCompare(ad);
+    // Tie-breaker: YouTube first within the same day, then tweets by dateUtc desc
+    if (a.type !== b.type) return a.type === 'youtube' ? -1 : 1;
+    if (a.dateUtc && b.dateUtc) return b.dateUtc.localeCompare(a.dateUtc);
+    return 0;
+  });
+  return { items, youtubeCount: yt.length, tweetCount: tw.length };
+}
+
 function main() {
   if (!fs.existsSync(WIKI_DIR)) {
     console.error(`Wiki directory not found: ${WIKI_DIR}`);
@@ -954,6 +1134,7 @@ function main() {
     }));
 
   const podcasts = scanPodcasts();
+  const feed = buildFeedItems();
 
   const out = {
     generated: new Date().toISOString(),
@@ -1004,6 +1185,9 @@ function main() {
     tierBySource,
     // Cerebro Radio podcast episodes
     podcasts,
+    // Media Zone feed: YouTube AI-tech video summaries + curated tweets, sorted newest-first
+    feedItems: feed.items,
+    feedCounts: { youtube: feed.youtubeCount, tweets: feed.tweetCount, total: feed.items.length },
   };
 
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
