@@ -738,6 +738,9 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-02] ingest | Not Only Where, But When: Temporal Scheduling for RLVR | huggingface
 ## [2026-06-02] ingest | NITP: Next Implicit Token Prediction | huggingface
 ## [2026-06-02] ingest | Multi-Agent Computer Use (MACU) | huggingface
+## [2026-06-02] ingest | LVSA: Training-Free Sparse Attention for Long Video Diffusion | huggingface
+## [2026-06-02] ingest | ESPO: Early-Stopping Proximal Policy Optimization | huggingface
+## [2026-06-02] ingest | The Hamilton-Jacobi Theory of Deep Learning | huggingface
 ## [2026-06-02] ingest | Daily digest 2026-06-02 | digest
 ## [2026-06-02] ingest | Media Live morning synthesis 2026-06-02 | twitter
 ## [2026-06-02] lint | concept updates: kv-cache, speculative-decoding, knowledge-distillation, rl-for-llms, attention-mechanisms | concept
