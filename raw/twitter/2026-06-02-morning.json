@@ -1,0 +1,882 @@
+{
+  "date": "2026-06-02",
+  "slot": "morning",
+  "scraped_ist": "2026-06-02 09:32",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "The issue affected how Opus 4.8 requests were handled, causing the model to trigger more parallel tool calls than intended. It was unrelated to dynamic workflows.",
+          "link": "https://nitter.net/ClaudeDevs/status/2061501790131265803#m",
+          "date_utc": "2026-06-01T17:35:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've reset 5-hour and weekly rate limits for all users on Pro and Max plans. We fixed an issue that caused some Claude Code sessions to spawn excessive parallel subagents, burning through usage faster than expected.",
+          "link": "https://nitter.net/ClaudeDevs/status/2061501787769893055#m",
+          "date_utc": "2026-06-01T17:35:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "My main motivation to work on continually learning agents is frustration that comes from working with agents that are in fact not continually learning",
+          "link": "https://nitter.net/MillionInt/status/2061593846681928179#m",
+          "date_utc": "2026-06-01T23:40:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Everything in life follows from repeatedly answering a simple question: \"what are the most important things for me right now?\"",
+          "link": "https://nitter.net/MillionInt/status/2061525290741035160#m",
+          "date_utc": "2026-06-01T19:08:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Protobufs were discovered not invented rohan anil (@_arohan_) You can escape Google but you cannot escape protobufs. Its universal — https://nitter.net/_arohan_/status/2061513120372379947#m",
+          "link": "https://nitter.net/MillionInt/status/2061521749242732910#m",
+          "date_utc": "2026-06-01T18:54:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "New toy to play with. Video Nikita Bier (@nikitabier) Commentary is one of the most important pillars of X. And sometimes the best way to share your thoughts is with video. Today we're launching a whole new way to make them: React with Video Tap the repost button and start recording with green screen, split screen, or picture-in-picture. Now available on iOS Video — https://nitter.net/nikitabier/status/2061617139484876849#m",
+          "link": "https://nitter.net/Scobleizer/status/2061619047314391263#m",
+          "date_utc": "2026-06-02T01:20:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061618979496710144%2Fimg%2Ft07XloyJTIqo2Ksa.jpg",
+            "https://nitter.net/pic/media%2FHJxYU8ua4AACfG4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here's what Grok learned by watching this: nitter.net/i/grok/share/9837fc764…",
+          "link": "https://nitter.net/Scobleizer/status/2061610840768598264#m",
+          "date_utc": "2026-06-02T00:48:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Manufacturing might not be sexy. It might not get hits. But I loved talking to @raechanjeong , founder of maneva.ai/ about how AI is changing manufacturing. He used to work in AI research at Google Deepmind, but now works with bringing AI into factories. One thing I came away with? His attitude. He doesn't come across as a Silicon Valley nerd that is gonna push technology down people's throats. It's how you gain trust with people who don't know what an OpenClaw is. As always, if you don't have time to watch an hour conversation I'll post a link to what Grok learned by watching this. It's fitti",
+          "link": "https://nitter.net/Scobleizer/status/2061608878325063758#m",
+          "date_utc": "2026-06-02T00:40:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061604328482504704%2Fimg%2F5w0vy2j0rEUQNUP6.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.maneva.ai/",
+              "content": "Maneva - AI for Manufacturing 0 % Solutions Solutions Quality Assurance Downtime Reduction Productivity Efficiency Health Safety Industries Electronics Automotive Confectionery Wood Glass Steel Meat Processing Food Beverages Pharmaceutical Cosmetic Distribution Products VITA ALIS Resources Resources All Resources Blogs News Webinars Blog PPE Compliance Monitoring: What Manual Checks Miss and AI Catches Book A Demo Company Company Contact Contact Blog PPE Compliance Monitoring: What Manual Checks Miss and AI Catches Book A Demo Book A Demo Book A Demo No items found. Video-to-Action AI Powering Industrial Operations Reduce downtime, improve quality, and protect workers with video-to-action AI built for the factory floor Book A Demo Step Inside The Future Of Production Downtime Reduction Spo"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I was first to show you @CorticalLabs about two years ago. Still is the craziest new technology I've ever seen. It's the matrix! You grow human neurons (you can even grow your own) and it runs the computer. Great to see Hon on @twistartups . Oh, and I'm a fan of Neo and it blows me away that I've had one of his computers in the trunk of my Tesla. My license plates? \"NEO FAN.\" Years ago Esther Dyson taught me about picking interesting people up at the airport. She doesn't drive. And anyone who picks her up at the airport gets 20 minutes of her undivided time. Which is how I got the first interv",
+          "link": "https://nitter.net/Scobleizer/status/2061602118029701526#m",
+          "date_utc": "2026-06-02T00:13:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061587589799297024%2Fimg%2FNDaFlF0agfMh1TTT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "From Hon: nitter.net/dr1337/status/20616065… Hon (@dr1337) Love it! I still remember showing @Scobleizer an early prototype of the CL1 at my hotel room and he brings out his camera and starts recording and there was already a great vibe so we just went with the flow. — https://nitter.net/dr1337/status/2061606520811565273#m",
+          "link": "https://nitter.net/Scobleizer/status/2061606993853608107#m",
+          "date_utc": "2026-06-02T00:33:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "You all sure post a lot. The AI industry, alone, posts about 30,000 times every day here on X. My AI reads it all and builds this: alignednews.com/ai Now my database has about a million posts in it. So now I can \"talk\" to a million of your posts. Which is pretty crazy. I can develop reports for companies that no one can do unless they have built the same. All built on my lists: nitter.net/scobleizer/lists which I've been building for 19 years here. Highly curated data sources is the secret sauce for having AI develop highly personalized news systems. Thanks to @blevlabs for building the infras",
+          "link": "https://nitter.net/Scobleizer/status/2061534688880230804#m",
+          "date_utc": "2026-06-01T19:45:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It takes about 30 minutes to read about 10,000 posts and write this page. I just started a new run, so by 1:30 a new set will be here. I run it three times a day.",
+          "link": "https://nitter.net/Scobleizer/status/2061535166682841387#m",
+          "date_utc": "2026-06-01T19:47:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": ". @SECWAR nailed it when he said: “The battlefield does not grade on a curve, and you can’t throw your pronouns at the enemy. Combat is the ultimate test, and our best Americans must ace it.” The mission comes first. Merit matters. Readiness wins. DOW Rapid Response (@DOWResponse) 🇺🇸🇺🇸🇺🇸 — https://nitter.net/DOWResponse/status/2061636567194599913#m",
+          "link": "https://nitter.net/SeanParnellASW/status/2061646567950438721#m",
+          "date_utc": "2026-06-02T03:10:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJxniAaWsAAIEls.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "More race-baiting garbage from the Failing New York Times and its radical left reporters. They continue to push this worn out narrative because they view almost everything through the lens of race and gender over merit. As we’ve said before, military promotions are given to those who have earned them. The Department will never consider the color of a service member’s skin or their gender as a factor in promotions. Under President Trump and @SecWar Hegseth, meritocracy reigns supreme at the War Department. Greg Jaffe (@GregJaffe) Hegseth Strikes Female and Black Navy Officers From Promotion Lis",
+          "link": "https://nitter.net/SeanParnellASW/status/2061542164773954043#m",
+          "date_utc": "2026-06-01T20:15:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061486560873263104%2FCnsvfNJR%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.nytimes.com/2026/06/01/us/politics/hegseth-navy-promotion-list.html?unlocked_article_code=1.m1A.oIS7.bSSazosHkvcf&smid=url-share",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "Autonomous mobility moves people and goods, but it is also about building the intelligent infrastructure that will define the AI era. Our collaboration with @nvidia , announced today at #GTCTaipei , is another decisive step toward realizing HUMAIN’s vision of AI-native infrastructure, where digital intelligence and the physical world converge seamlessly at scale. By leveraging the NVIDIA DRIVE Hyperion platform, we are helping establish the AI-native foundation for Level 4 autonomous mobility across the Kingdom. This is about building the infrastructure, intelligence, and ecosystem required to",
+          "link": "https://nitter.net/TareqAmin_/status/2061523480160448526#m",
+          "date_utc": "2026-06-01T19:01:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJuP9V6WEAI1pwu.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "\"My car also has FSD\"",
+          "link": "https://nitter.net/Tesla/status/2061628028367827175#m",
+          "date_utc": "2026-06-02T01:56:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJxXd4caQAAQniL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised is the only software that has completed several coast-to-coast drives without human input",
+          "link": "https://nitter.net/Tesla/status/2061492568710590581#m",
+          "date_utc": "2026-06-01T16:58:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Abundance is coming. Mars University (@MarsUniversityX) Elon Musk on AI, Robotics & Abundance: “With AI and robotics, this is the path to abundance for all If you want to solve global poverty or give everyone a very high standard of living, the only way to do that is AI and robotics That doesn’t mean it’s without risk. We have to be very careful… we don’t want to end up in a Terminator movie But if AI becomes ubiquitous and essentially free, and robotics is everywhere too, you’ll see an explosion in the global economy on a scale that’s hard to even comprehend” — https://nitter.net/MarsUniversi",
+          "link": "https://nitter.net/brivael/status/2061652350616633374#m",
+          "date_utc": "2026-06-02T03:33:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJu7hkAWMAIotgm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "⭕ Brock Pierson (@brockpierson) 27 years ago today Napster was launched. Be honest, you used it right? — https://nitter.net/brockpierson/status/2061616537534881902#m",
+          "link": "https://nitter.net/brivael/status/2061645638576869460#m",
+          "date_utc": "2026-06-02T03:06:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJw3aLha4AEdnTR.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "What the theory of relativity was to physics, this book is to our relationship with ideas. It's the framework that finally allows us to name the disease: an empathy turned pathological, disconnected from any consequences, that turns against the one who feels it until it drives them to civilizational suicide. Brivael Le Pogam (@brivael) J'ai fait des centaines de millions de vues à expliquer les racines du wokisme. Comment l'Occident s'est lui même inoculé un virus mental par pure repentance, et comment ce virus le ronge aujourd'hui de l'intérieur. Et puis il y a ce livre. Suicidal Empathy: Dyi",
+          "link": "https://nitter.net/brivael/status/2061645442153402860#m",
+          "date_utc": "2026-06-02T03:05:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJxTVt0aoAA7fPk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "You should take 100%. And nationalise everything. Bernie is now transformers expert that will distillate the weights like a pro! Bernie is the new karpathy 😂 Bernie Sanders (@BernieSanders) I will soon be introducing a bill to give the public a 50% ownership stake in the largest AI companies in America. This would guarantee that the trillions created by AI are used to improve the lives of all of us — and block oligarch decisions that harm the American people. Video — https://nitter.net/BernieSanders/status/2061631422188626083#m",
+          "link": "https://nitter.net/brivael/status/2061645062350774595#m",
+          "date_utc": "2026-06-02T03:04:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061629155570061313%2Fimg%2FtuZhTwmTavIPLCyi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bernie Sanders (@BernieSanders) I will soon be introducing a bill to give the public a 50% ownership stake in the largest AI companies in America. This would guarantee that the trillions created by AI are used to improve the lives of all of us — and block oligarch decisions that harm the American people. Video — https://nitter.net/BernieSanders/status/2061631422188626083#m",
+          "link": "https://nitter.net/brivael/status/2061644322949550271#m",
+          "date_utc": "2026-06-02T03:01:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061629155570061313%2Fimg%2FtuZhTwmTavIPLCyi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. AI assisted coding with full awareness of system produced is deeply better than vibe coding. Nobody is writing code anymore, but understanding how computer is working is super important to leverage well the coding agent. Yes. AI-assisted coding with full awareness of the system produced is deeply better than vibe coding. Nobody is writing code anymore, but understanding how a computer is working is super important to leverage the coding agent well. Aman 🧋 (@CodeWithAmann) Unpopular opinion: Vibe coding gets the demo, Engineering gets the product. Do you agree? — https://nitter.net/CodeWit",
+          "link": "https://nitter.net/brivael/status/2061642470891614636#m",
+          "date_utc": "2026-06-02T02:54:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJuzA_eagAAkWwI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "You’ll wait the eternity. Kush (@kushika_twt) I really think the AI bubble will burst any minute now. — https://nitter.net/kushika_twt/status/2061442735354372349#m",
+          "link": "https://nitter.net/brivael/status/2061640588886491337#m",
+          "date_utc": "2026-06-02T02:46:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Only way to raise money, infinite trap of bullshit. Samay (@Samaytwt) Anthropic's CEO keeps saying software engineering is dead. Then why is their company still hiring software engineers? — https://nitter.net/Samaytwt/status/2061452013599395875#m",
+          "link": "https://nitter.net/brivael/status/2061640356920426961#m",
+          "date_utc": "2026-06-02T02:45:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJu_rU7acAA4M3X.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LiDAR is ugly lmao",
+          "link": "https://nitter.net/brivael/status/2061639983904313789#m",
+          "date_utc": "2026-06-02T02:44:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJxqo3oaMAAHjCW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 sid (@immasiddx) Earlier today, a massive vulnerability in Meta’s AI support assistant reportedly allowed attackers to take over Instagram accounts. The flow was absurdly simple: use a VPN matching the victim’s country click reset password and request additional support tell Meta’s AI support assistant to change the account email to yours How can a company this big have such poor security measures? 😭 — https://nitter.net/immasiddx/status/2061484642705011056#m",
+          "link": "https://nitter.net/brivael/status/2061635923490820120#m",
+          "date_utc": "2026-06-02T02:28:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvdWrea8Ac9-on.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Dan Kulkov (@DanKulkov) tell me you have 0 customers without telling me — https://nitter.net/DanKulkov/status/2061379984787407121#m",
+          "link": "https://nitter.net/brivael/status/2061635483831324758#m",
+          "date_utc": "2026-06-02T02:26:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJt-LDSbUAAY8hQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "So bullish!!!! X will be the ultimate social network. Nikita Bier (@nikitabier) Commentary is one of the most important pillars of X. And sometimes the best way to share your thoughts is with video. Today we're launching a whole new way to make them: React with Video Tap the repost button and start recording with green screen, split screen, or picture-in-picture. Now available on iOS Video — https://nitter.net/nikitabier/status/2061617139484876849#m",
+          "link": "https://nitter.net/brivael/status/2061635262892163414#m",
+          "date_utc": "2026-06-02T02:25:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJxYU8ua4AACfG4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui vive la liberté économique / individuelle / respect de la propriété privé, le seul système qui fini pas en boucherie. Romain (@Rbc198) — https://nitter.net/Rbc198/status/2061565769146683392#m",
+          "link": "https://nitter.net/brivael/status/2061624917389689194#m",
+          "date_utc": "2026-06-02T01:44:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJwnIuXXYAAYf7A.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. Romain (@Rbc198) — https://nitter.net/Rbc198/status/2061565769146683392#m",
+          "link": "https://nitter.net/brivael/status/2061624709595431018#m",
+          "date_utc": "2026-06-02T01:43:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJwnIuXXYAAYf7A.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes this is obvious. Never sell drug in my entire life but I knew some people when I was teenage and they were great businessman. Lmao. Business school are mainly scam. MP | Masculine Peak 🧠 (@MasculinePeak) \"Drug dealers know more about running a business than 95% of college professors.\" — Elon Musk — https://nitter.net/MasculinePeak/status/2061528495067472178#m",
+          "link": "https://nitter.net/brivael/status/2061624550648082943#m",
+          "date_utc": "2026-06-02T01:42:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yes Trumps Nephew (@ForgiatoBlow47) ELON MUSK: “We need the Death Penalty for anyone who mutilates children.” Do you agree? — https://nitter.net/ForgiatoBlow47/status/2061482748938715490#m",
+          "link": "https://nitter.net/brivael/status/2061623502663500143#m",
+          "date_utc": "2026-06-02T01:38:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvborLXIAAavI1.jpg",
+            "https://nitter.net/pic/media%2FHJvborLWMAE7J9Y.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Read the full announcement: cursor.com/blog/teams-pricin…",
+          "link": "https://nitter.net/cursor_ai/status/2061550724736241718#m",
+          "date_utc": "2026-06-01T20:49:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061547053378121728%2F85F9ud90%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://cursor.com/blog/teams-pricing-june-2026",
+              "content": "Improvements to Teams Pricing · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / product Jun 1, 2026 · product Improvements to Teams Pricing 4 min read Table of Contents ↑ Increasing limits by adding a Composer-specific usage pool Improving cost predictability with a Premium seat for power users Real-time usage visibility and better spend controls We are increasing our Teams plan usage limits, introducing a Premium seat to support the heaviest agent users, and making it easier for admins to forecast and control spend. These changes will start for all new customers immediately, an"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We’re increasing usage limits for every Teams user. Inspired by the success of our Ultra plan, we're also introducing a Premium team seat that includes 5x usage at only 3x the cost.",
+          "link": "https://nitter.net/cursor_ai/status/2061550723503194426#m",
+          "date_utc": "2026-06-01T20:49:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "NVIDIA Nemotron 3 Ultra is now the top open-weights model on @pinchbench v2. 89.9% average across 147 real OpenClaw agent tasks, and it's free to run. Open weights are closing the gap with the frontier labs. See where it lands! pinchbench.com/?weights=open",
+          "link": "https://nitter.net/kilocode/status/2061537598175141987#m",
+          "date_utc": "2026-06-01T19:57:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJwNToPWsAA62hp.png"
+          ],
+          "articles": [
+            {
+              "url": "http://pinchbench.com/?weights=open",
+              "content": "Best Models by Success Rate | PinchBench - OpenClaw Benchmark 🦞 PinchBench Claw-some AI Agent Testing Made with 🦀 in Maryland and Amsterdam About | Contributors | GitHub | boleary.dev | kilo.ai | @pinchbench | @olearycrew 🦞 Snip snip — benchmarking one claw at a time PinchBench v2 OpenClaw Leaderboard Filters 2 About Best For Contributors GitHub Success Rate Speed Cost Value Graphs 18 models 147 tasks 175 runs Stream Category: All 🔧 Code 📊 Data ✍️ Writing 📅 Productivity 🔍 Research 🛡️ Security 🤖 Agent 🎨 Creative The best models for your OpenClaw agent. Quick Picks Best AI models for common use cases Explore best-for guides 👑 Best Overall 93.5% anthropic/claude-opus-4.8-fast Average Score 93.5 % overall · $159.60 Highest average across benchmark runs. 🔓 Best Open-Weights 89.9% nvidia/nemotro"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Look closely at the NVIDIA keynote slide behind Jensen Huang. @pinchbench is at the top of it! @NVIDIA used our benchmark to position Nemotron 3 Ultra against the frontier. Nemotron tied for the lead on Agent Productivity at 91%. Built for the agentic era. @NVIDIAAIDev , the benchmark is doing its job.",
+          "link": "https://nitter.net/kilocode/status/2061499212030792026#m",
+          "date_utc": "2026-06-01T17:24:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvpjrwX0AAs4Qx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "For anyone who wants to see it live, here's the exact moment in the keynote! piped.video/live/q_umfWm8J28…",
+          "link": "https://nitter.net/kilocode/status/2061505502098456656#m",
+          "date_utc": "2026-06-01T17:49:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061339378257924101%2FttoT4r3F%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/live/q_umfWm8J28?t=4594s",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "A lot of you asked the same thing in the replies: what actually is a webhook? Fair question. We wrote the simplest explanation we could: kilo.codes/umSfCMM",
+          "link": "https://nitter.net/kilocode/status/2061489237329948715#m",
+          "date_utc": "2026-06-01T16:45:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2059546705087877126%2FkwRhfpKf%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/umSfCMM",
+              "content": "What Is a Webhook? A Simple Explanation for Beginners Kilo Blog Subscribe Sign in What Is a Webhook? A Simple Explanation for Beginners Darko Gjorgjievski Jun 01, 2026 1 Share After our tweet about building a webhook delivery service with Grok Build 0.1 went viral, a lot of people asked the same question: what is a webhook? We wrote this article to answer this question in the simplest way possible. What Is a Webhook? A webhook is a way for one app to tell another app that something happened. That’s it. A webhook is basically an automatic message sent from one system to another when a specific event happens. For example: Someone pays you on Stripe → Stripe sends your app a webhook. Someone submits a form → the form tool sends your server a webhook. Someone pushes code to GitHub → GitHub sen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lynnmartin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "lynnmartin",
+          "creator": "@lynnmartin",
+          "text": "We can't wait to welcome @FifthThird to our community with the largest bank transfer in history! NYSE 🏛 (@NYSE) The largest bank transfer in NYSE history - welcome @FifthThird to the NYSE Community! Since 1858, Fifth Third has been built on bold innovation and a deep commitment to customers and communities - and today, that legacy finds a new home on the world's most iconic exchange. Congratulations to CEO Tim Spence and the entire team - we can’t wait to celebrate with you! (NYSE: $FITB ) Learn more: ir.53.com/news/news-details/… — https://nitter.net/NYSE/status/2061468274232021088#m",
+          "link": "https://nitter.net/lynnmartin/status/2061540731290853827#m",
+          "date_utc": "2026-06-01T20:09:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvOeKTWEAA8OaZ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://ir.53.com/news/news-details/2026/Fifth-Third-Announces-Transfer-of-Listing-of-Common-Stock-to-the-New-York-Stock-Exchange/default.aspx",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Customers run production applications on @awscloud . Their data lives in AWS. They trust the security of AWS. Now the best @OpenAI models run there too. GPT-5.5, GPT-5.4, and Codex are GA on Amazon Bedrock: aws.amazon.com/blogs/machine…",
+          "link": "https://nitter.net/mattsgarman/status/2061591884892344556#m",
+          "date_utc": "2026-06-01T23:33:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJw-oAbWsAAdgsX.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
+              "content": "OpenAI models and Codex on Amazon Bedrock are now generally available | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence OpenAI models and Codex on Amazon Bedrock are now generally available by Bharat Sandhu on 01 JUN 2026 in Amazon Bedrock , Announcements Permalink Share GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy them in production applications and agents today, on Bedrock’s high performance inference engine. Key takeaways GPT-5.5, the most advanced frontier model from OpenAI, is generally available on Amazon Bedrock. P ricing matches OpenAI first-party rates. Codex on Amazon Bedrock "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "she was so real for this",
+          "link": "https://nitter.net/ns123abc/status/2061521536159306033#m",
+          "date_utc": "2026-06-01T18:53:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJv-6QNWEAA8PpM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "HAPPENING: Grok Build CLI starts being compared seriously with Claude Code by elite developers xAI (@xai) Composer 2.5 is now available inside Grok Build. Composer 2.5 is a fast, highly intelligent model that excels on long-running tasks and following complex instructions. Video — https://nitter.net/xai/status/2061510464325206163#m",
+          "link": "https://nitter.net/ns123abc/status/2061513232716546461#m",
+          "date_utc": "2026-06-01T18:20:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061509400343584768%2Fimg%2FkTR87e9O29pTvb9R.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“Sir… OpenAI just LOST the race to go public…” Anthropic (@AnthropicAI) Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission. Pending completion of SEC review, this gives us the option to pursue an initial public offering. Read more: anthropic.com/news/confident… — https://nitter.net/AnthropicAI/status/2061478052257841495#m",
+          "link": "https://nitter.net/ns123abc/status/2061496934460731672#m",
+          "date_utc": "2026-06-01T17:15:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvlZbhXEAA8q-v.jpg",
+            "https://nitter.net/pic/card_img%2F2060684159870246912%2Fe5y_qjyC%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+              "content": "Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude Announcements Anthropic confidentially submits draft S-1 to the SEC Jun 1, 2026 Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC completes its review. The proposed initial public offering will depend on market conditions and other factors. The number of shares to be offered and the price have not yet been set. This announcement is being published under Rule 135 of the Securities Act of 1933, as amended. It is not an offer to sell securities; nor is it a solicitation of an offer to buy them. Any offe"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Anthropic has officially filed for an IPO ITS HAPPENING",
+          "link": "https://nitter.net/ns123abc/status/2061484404539633791#m",
+          "date_utc": "2026-06-01T16:25:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvdI2WWsAAr3H-.jpg",
+            "https://nitter.net/pic/media%2FHJvdI2PWwAAcp4A.jpg",
+            "https://nitter.net/pic/media%2FHJvdI2PXcAAhtE5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: SpaceX compute deal with Anthropic includes ~325,000 NVIDIA GPUs across COLOSSUS and COLOSSUS II, plus hyperscale CPUs, exabyte storage, and high-speed interconnects $1.25B/month through May 2029",
+          "link": "https://nitter.net/ns123abc/status/2061482394981462034#m",
+          "date_utc": "2026-06-01T16:17:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvbUCvWMAA1HUb.jpg",
+            "https://nitter.net/pic/media%2FHJvbUCmW0AAICm2.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Get your green on 💚 The Gear Store at #NVIDIAGTC Taipei is packed with exclusive merch you won’t find anywhere else. 🛍️ TICC | June 2–4, 9:30 a.m.-5:30 p.m. Access for GTC Taipei pass holders, and COMPUTEX pass holders that are registered for Explore to Win. Video",
+          "link": "https://nitter.net/nvidia/status/2061611253223600507#m",
+          "date_utc": "2026-06-02T00:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061599951113560064%2Fimg%2FdnPOkThzmYjBHPjj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Regional AI leaders are advancing sovereign AI with NVIDIA Nemotron. They’re building new datasets, sovereign AI models and agentic applications tailored to local languages, cultures and economies to serve billions of people across the globe. Read more: nvda.ws/4vgAOav",
+          "link": "https://nitter.net/nvidia/status/2061606345007104093#m",
+          "date_utc": "2026-06-02T00:30:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJxL-5iXkAAfEDr.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4vgAOav",
+              "content": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI | NVIDIA Blog Skip to content NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI Rolling coverage on the conference, including NVIDIA founder and CEO Jensen Huang’s keynote, event highlights, live demos and on‑the‑ground color. May 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. This is the place to find all the latest — stay tuned to the blog for live updates. Jump to the keynote recap . M"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Taipei runs on innovation and great food. 🥟🍧 If you're at GTC Taipei at Computex, visiting the night markets is a non-negotiable. #NVIDIAGTC Video",
+          "link": "https://nitter.net/nvidia/status/2061564424893145321#m",
+          "date_utc": "2026-06-01T21:43:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061564370497196032%2Fimg%2FeVHVj0NEiAEba1yq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "What's first on your list?👀",
+          "link": "https://nitter.net/nvidia/status/2061564468430352787#m",
+          "date_utc": "2026-06-01T21:44:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The NVIDIA Vera Rubin platform is a multi-rack pod-scale system, built to process agentic AI and is now in full production. Built through extreme co-design, Vera Rubin unifies five connected rack-scale systems — the NVIDIA Vera Rubin NVL72, Vera CPU rack, Groq 3 LPX, Vera BlueField-4 STX, and Spectrum-6 SPX Ethernet — all purpose-built for global-scale agentic AI infrastructure. Vera Rubin delivers intelligence at scale, with the performance, efficiency and security needed to power the next industrial revolution. Congratulations to @Microsoft , @Dell , and @CoreWeave for each standing up their",
+          "link": "https://nitter.net/nvidia/status/2061502320752419085#m",
+          "date_utc": "2026-06-01T17:37:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061501772066119680%2Fimg%2F14VrH6ukVEJy7JrT.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3RQ4FrR",
+              "content": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide | NVIDIA Newsroom Artificial Intelligence Computing Leadership from NVIDIA --> PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email ic_arrow-back-to-to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "She’s scared and desperate. Peter Hamby (@PeterHamby) Kathy Griffin on IG live with Karen Bass says the LAPD has a white nationalism problem and calls Spencer Pratt an idiot Bass has the unenviable task of explaining that the mayor of LA isn’t responsible for a lot of problems, but she gets the blame anyway Video — https://nitter.net/PeterHamby/status/2061553055213232392#m",
+          "link": "https://nitter.net/spencerpratt/status/2061557902469660765#m",
+          "date_utc": "2026-06-01T21:18:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061551792987729920%2Fimg%2FSfzOuVKqyO5eOVU3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "To my fellow Angelenos who want change, and are considering voting for Nithya Raman, I can assure you, she is not fit for the job, and she has no path to victory. A vote for Nithya is a vote for Karen Bass. I am ready to earn your vote and make LA feel safe for all. Video",
+          "link": "https://nitter.net/spencerpratt/status/2061513148180644237#m",
+          "date_utc": "2026-06-01T18:20:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061512789932507137%2Fimg%2F1OLOPeFcrLpk62QQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
