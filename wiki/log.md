@@ -728,3 +728,16 @@ Append-only timeline of ingests and lint passes.
 - Daily digest: wiki/daily-digest/2026-06/2026-06-01.md — 7 Deep Dives (NVIDIA GTC hardware, dMoE, StateKV, TA-OPD, DRIFT, ClawTrojan-cluster, Compiling-Workflows-into-Weights). Connecting-the-Dots threads: (a) locate-the-sparse-load-bearing-part [dMoE/StateKV/TA-OPD/DRIFT], (b) TA-OPD closes TIP/Many-Faces loop, (c) remove-the-external-signal [DRIFT/SCOPE/SAVE], (d) structural-agent-security + emergent-languages monitoring, plus sourcing note (no HF+Kurate, Reddit empty). Also-today: SAVE, SCOPE, Emergent-Languages, LongDS-Bench, MAAT, SANA-Streaming, FRAPPE, Guild.
 - Assets: copied 3 GTC keynote slides from gitignored raw/twitter/images/ to raw/assets/ (2026-06-01-nvidia-rtx-spark-specs.jpg, -vera-cpu-agents.jpg, -nemotron3-ultra.jpg) for embedding.
 - Sanity: no em-dashes in new prose; no Tier-N labels in reader-facing output; alphaxiv enrich.py returned empty for 2605.30876/31598/26844 (brand-new papers), fell back to abstracts.
+
+## [2026-06-02] ingest | VideoMLA: Low-Rank Latent KV Cache for Video Diffusion | huggingface
+## [2026-06-02] ingest | Draft-OPD: On-Policy Distillation for Speculative Draft Models | huggingface
+## [2026-06-02] ingest | Speculative Pipeline Decoding (SPD) | huggingface
+## [2026-06-02] ingest | LongAttnComp: Cross-Family Context Compression | huggingface
+## [2026-06-02] ingest | κ-SwiGLU: Confidence-Adaptive SwiGLU for MoE | huggingface
+## [2026-06-02] ingest | Geometric Latent Reasoning (GLR) | huggingface
+## [2026-06-02] ingest | Not Only Where, But When: Temporal Scheduling for RLVR | huggingface
+## [2026-06-02] ingest | NITP: Next Implicit Token Prediction | huggingface
+## [2026-06-02] ingest | Multi-Agent Computer Use (MACU) | huggingface
+## [2026-06-02] ingest | Daily digest 2026-06-02 | digest
+## [2026-06-02] ingest | Media Live morning synthesis 2026-06-02 | twitter
+## [2026-06-02] lint | concept updates: kv-cache, speculative-decoding, knowledge-distillation, rl-for-llms, attention-mechanisms | concept
