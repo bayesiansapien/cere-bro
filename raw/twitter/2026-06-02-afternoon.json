@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-02",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-02 15:09",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Jira OMG 😆 Bastien (@agonist42) The worse of the worse. Combined with Jira. — https://nitter.net/agonist42/status/2061681112213041588#m",
+          "link": "https://nitter.net/brivael/status/2061681392560619848#m",
+          "date_utc": "2026-06-02T05:28:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Claude Opus 4.8 is live in Kilo Code, and we're running 20% off inference through our provider network. It's a frontier model on most benchmarks. The discount makes it a deal! BYOK or route through us. Toggle the dropdown and go: kilo.codes/ByQhUtX",
+          "link": "https://nitter.net/kilocode/status/2061475353487380730#m",
+          "date_utc": "2026-06-01T15:49:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJvUv1NWcAAuTQx.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/ByQhUtX",
+              "content": "Claude Opus 4.8 is Live in Kilo Code—Grab It Now at 20% Off! Kilo Blog Subscribe Sign in Claude Opus 4.8 is Live in Kilo Code—Grab It Now at 20% Off! The new edition of this frontier model is more reliable, more efficient, and currently available at a discount in Kilo Ari Messer May 29, 2026 6 Share Anthropic’s latest mega release, Claude Opus 4.8 , is live in Kilo Code. To celebrate, we’re offering a flat 20% discount on Opus 4.8 inference through our provider network. If you’ve been following recent posts about affordable tokenmaxxing and BYOK setups (with providers like xAI, Fireworks AI and Anthropic), you know we love passing savings directly to you. This latest release combined with an exclusive discount is our way of saying thanks to the community. Opus 4.8 is a massive leap forward"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Intel CEO @LipBuTan1 with @perplexity_ai CEO @AravSrinivas at #Computex2026",
+          "link": "https://nitter.net/magicsilicon/status/2061688480489746617#m",
+          "date_utc": "2026-06-02T05:56:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJyWvdcbQAEZ39k.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
