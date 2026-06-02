@@ -2,6 +2,14 @@
 
 A class of lossless acceleration techniques: a cheap "draft" produces candidate tokens (or blocks), an expensive "target" verifies them via exact rejection sampling, and the verified prefix is committed. The target's output distribution is preserved — quality is unchanged.
 
+## Current State (as of 2026-06-02)
+
+Two same-day papers move speculative decoding past the "build a better draft architecture" era (EAGLE3, DFlash) into **better training objectives** and **better system scheduling**.
+
+**Training axis: on-policy distillation for the drafter.** [Draft-OPD](2026-06-02-draft-opd-speculative-draft-distillation.md) (arxiv 2605.29343) diagnoses that SFT-built draft models plateau because of an offline-to-inference mismatch: the drafter trains on fixed target trajectories but is judged on the blocks it proposes under its own policy. Naive on-policy distillation fails because draft models cannot roll out reliably alone, and target-assisted rollout destroys the on-policy signal. Draft-OPD's fix: target-assisted rollout for stable continuations, but replay drafting from the verification-exposed error positions, so the drafter learns from target feedback on both accepted and rejected proposals. Over 5x lossless acceleration for thinking models, +23% over EAGLE-3, +13% over DFlash. This is the same covariate-shift lesson the wiki logs in TA-OPD (06-01), DRIFT (06-01), and DAgger-for-LLM-agents (05-14), now applied to the drafter — see [knowledge-distillation.md](knowledge-distillation.md).
+
+**System axis: pipeline-parallel, zero-bubble speculation.** [SPD](2026-06-02-spd-speculative-pipeline-decoding.md) (arxiv 2605.30852) replaces multi-token prediction (whose difficulty escalates with depth and adds serial drafting latency) with pipeline parallelism: partition the target into n stages, process n tokens in parallel, and aggregate intermediate features across pipeline depths to predict the next token in parallel with the target's pipeline step. Result: bounded prediction difficulty, higher acceptance, and zero latency bubbles (no idle stages) in single-sequence decode. Draft-OPD improves draft *quality*; SPD removes draft *latency*. Together they show the field's gains are migrating from architecture to objective and scheduling.
+
 ## Current State (as of 2026-04-30)
 
 Speculative decoding has crossed three axes of generalization in April 2026:
