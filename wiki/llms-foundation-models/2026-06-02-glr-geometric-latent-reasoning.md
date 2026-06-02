@@ -34,4 +34,4 @@ GLR lands in the **shorter-reasoning / reasoning-efficiency** thread alongside t
 
 The "emergent shorter generations with no length objective" finding is the interesting falsifiable claim: if continuous latent steps are genuinely more information-dense than discrete tokens, this should generalize beyond math to open-ended reasoning. If it only works because math has compact latent structure, it stays niche. Worth tracking against the inference-time-scaling literature, which has mostly pushed reasoning *longer*, not shorter.
 
-Related: [rl-for-llms.md](rl-for-llms.md) · [attention-mechanisms.md](attention-mechanisms.md) · [2026-06-02-off-the-shelf-process-scorers](../inference-efficiency/) (Quick Hit)
+Related: [rl-for-llms.md](rl-for-llms.md) · [attention-mechanisms.md](attention-mechanisms.md) · Chunk-Level Guided Generation / CGS, arxiv 2606.01682 (same-day shorter-reasoning result, covered as a Quick Hit in the 2026-06-02 digest)
