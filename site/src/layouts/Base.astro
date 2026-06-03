@@ -51,5 +51,37 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
         cere-bro — auto-built from <a href="https://github.com/bayesiansapien/cere-bro/tree/main/wiki">wiki/</a> · daily AI research synthesis
       </div>
     </footer>
+
+    {/* Mermaid client-side renderer. Lazy-loads from CDN only on pages that
+        actually contain a ```mermaid block. Zero cost on pages without diagrams. */}
+    <script is:inline>
+      (function () {
+        const blocks = document.querySelectorAll('pre > code.language-mermaid');
+        if (blocks.length === 0) return;
+        const s = document.createElement('script');
+        s.type = 'module';
+        s.textContent = `
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+          mermaid.initialize({ startOnLoad: false, theme: 'default', securityLevel: 'loose' });
+          const blocks = document.querySelectorAll('pre > code.language-mermaid');
+          for (let i = 0; i < blocks.length; i++) {
+            const code = blocks[i];
+            const src = code.textContent;
+            const id = 'mmd-' + i + '-' + Date.now();
+            const container = document.createElement('div');
+            container.className = 'mermaid-diagram';
+            try {
+              const { svg } = await mermaid.render(id, src);
+              container.innerHTML = svg;
+              code.parentElement.replaceWith(container);
+            } catch (e) {
+              container.innerHTML = '<pre style="color:#c00; font-size:0.85em">Mermaid render error: ' + (e.message || e) + '</pre>';
+              code.parentElement.replaceWith(container);
+            }
+          }
+        `;
+        document.body.appendChild(s);
+      })();
+    </script>
   </body>
 </html>

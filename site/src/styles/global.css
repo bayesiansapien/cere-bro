@@ -866,6 +866,18 @@ th {
   }
 }
 
+/* Mermaid diagrams (rendered client-side from ```mermaid blocks) */
+.mermaid-diagram {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.mermaid-diagram svg {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ── Media Zone (feed of YouTube + Twitter) ───────────────────────────── */
 .mz-meta {
   display: flex;
