@@ -657,10 +657,10 @@ Omit any section that has nothing substantive that day. Empty sections are worse
 
 ### Voice & length
 
-- 2-3 sentences per cluster paragraph. Cognitively light — the reader should be able to skim section headers and only stop on clusters they care about.
+- 3-5 short bullets per cluster (≤15 words each). Cognitively light. Reader scrolls, skims headers, only stops on clusters they care about.
 - Same clarity rule as the daily digest: every paper or technical term gets a one-clause gloss on first mention.
 - No em dashes (writing rule #1 applies).
-- The reader should be able to read the whole Media Zone in 3-4 minutes and finish knowing what mattered in social/video AI today.
+- Total read time target: **2-3 minutes** for the full Media Zone. If it takes longer, the bullets are too long.
 
 ### Cadence
 
