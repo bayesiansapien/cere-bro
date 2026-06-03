@@ -2,202 +2,47 @@
 import Base from '../layouts/Base.astro';
 import wiki from '../data/wiki.json';
 
-const mz = (wiki as any).mediaZone ?? { videos: [], highlights: [], voices: [], counts: {} };
-const videos = mz.videos ?? [];
-const highlights = mz.highlights ?? [];
-const voices = mz.voices ?? [];
-const counts = mz.counts ?? {};
+const syntheses = (wiki as any).mediaZoneSyntheses ?? [];
+const today = syntheses[0] ?? null;
+const past  = syntheses.slice(1, 8);  // up to 7 prior days
 
-function fmtDate(iso: string) {
+function fmtFullDate(iso: string) {
   if (!iso) return '';
   const d = new Date(iso + 'T00:00:00Z');
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC' });
 }
 ---
 
 <Base title="Media Zone — cere-bro" active="media-zone">
   <section class="hero">
-    <div class="hero-date">live AI feed</div>
+    <div class="hero-date">{today ? fmtFullDate(today.date) : 'no synthesis yet'}</div>
     <h1>Media Zone</h1>
-    <p class="hero-tagline">
-      A curated daily feed of AI signal. Three sections: videos from the AI/tech YouTube wiki (polled every 6 hours),
-      highlights (hand-curated retweets plus tweets with attached articles), and voices grouped by creator. The raw
-      stream is pruned: tweets shorter than a sentence or without AI keywords are dropped, and each creator is capped
-      at two tweets per day.
+  </section>
+
+  {today ? (
+    <article class="mz-today digest-content" set:html={today.html} />
+  ) : (
+    <p class="lead" style="color: var(--fg-muted)">
+      No Media Zone synthesis yet. The morning cron writes one each day at
+      <code>wiki/media-zone/YYYY-MM/YYYY-MM-DD.md</code>.
     </p>
-    <div class="mz-meta">
-      <span class="mz-pill mz-pill--yt">📺 {videos.length} videos</span>
-      <span class="mz-pill mz-pill--hl">✦ {highlights.length} highlights</span>
-      <span class="mz-pill mz-pill--vo">🐦 {counts.voices ?? 0} from {voices.length} voices</span>
-      <span class="mz-pill mz-pill--win">last 14 days · {counts.tweetsRaw ?? 0} raw → {counts.tweetsKept ?? 0} kept</span>
-    </div>
-  </section>
+  )}
 
-  {/* ────────────────────────── Section 1: Videos ────────────────────────── */}
-  <section class="mz-section">
-    <div class="mz-section-header">
-      <h2 class="mz-section-title">🎬 Videos</h2>
-      <p class="mz-section-sub">YouTube AI/tech wiki, newest first. Click the thumbnail to play inline.</p>
-    </div>
-    {videos.length > 0 ? (
-      <div class="mz-cards mz-cards--videos">
-        {videos.map((it: any) => (
-          <article class="mz-card mz-card--yt">
-            <div class="mz-yt-thumb" data-video={it.videoId} data-embed={it.embedUrl}>
-              {it.thumbnailUrl && (
-                <img
-                  src={it.thumbnailUrl}
-                  alt={it.title}
-                  loading="lazy"
-                  onerror={`this.onerror=null; this.src='${it.thumbnailFallback || ''}'`}
-                />
-              )}
-              <button class="mz-yt-play" aria-label="Play video">▶</button>
-              <a class="mz-yt-external" href={it.sourceUrl} target="_blank" rel="noopener" title="Open on YouTube">↗</a>
-            </div>
-            <div class="mz-card-body">
-              <div class="mz-card-meta">
-                <span class="mz-yt-channel">{it.channel || 'YouTube'}</span>
-                {it.date && <span class="mz-card-date">{fmtDate(it.date)}</span>}
-              </div>
-              <h3 class="mz-card-title">{it.title}</h3>
-              {it.tldr && <p class="mz-card-tldr">{it.tldr.slice(0, 280)}{it.tldr.length > 280 ? '…' : ''}</p>}
-              {it.takeaways && it.takeaways.length > 0 && (
-                <details class="mz-card-takeaways">
-                  <summary>Key takeaways ({it.takeaways.length})</summary>
-                  <ul>{it.takeaways.map((t: string) => <li>{t}</li>)}</ul>
-                </details>
-              )}
-            </div>
-          </article>
-        ))}
-      </div>
-    ) : (
-      <p class="mz-empty">No videos yet. Pulled from the AI/tech YouTube wiki, which polls every 6 hours.</p>
-    )}
-  </section>
-
-  {/* ──────────────────────── Section 2: Highlights ──────────────────────── */}
-  <section class="mz-section">
-    <div class="mz-section-header">
-      <h2 class="mz-section-title">✦ Highlights</h2>
-      <p class="mz-section-sub">
-        Curated retweets and tweets with attached articles. Highest signal-to-noise — gold border means a hand-pick.
-      </p>
-    </div>
-    {highlights.length > 0 ? (
-      <div class="mz-cards">
-        {highlights.map((it: any) => (
-          <article class={`mz-card mz-card--tw ${it.isCurated ? 'mz-card--curated' : ''}`}>
-            <div class="mz-tw-header">
-              <div class="mz-tw-avatar">{(it.handle || '?')[0].toUpperCase()}</div>
-              <div class="mz-tw-meta">
-                <div class="mz-tw-handle">
-                  @{it.handle}
-                  {it.org && it.org !== 'Independent' && <span class="mz-tw-org">· {it.org}</span>}
-                  {it.isCurated && <span class="mz-tw-curated" title="Curated retweet">✦</span>}
-                </div>
-                <div class="mz-tw-time">{fmtDate(it.date)}</div>
-              </div>
-            </div>
-            <p class="mz-tw-text">{it.text}</p>
-            {it.images && it.images.length > 0 && (
-              <div class={`mz-tw-images mz-tw-images--${Math.min(it.images.length, 4)}`}>
-                {it.images.slice(0, 4).map((img: string) => (
-                  <a href={img} target="_blank" rel="noopener" class="mz-tw-image">
-                    <img src={img} alt="" loading="lazy" />
-                  </a>
-                ))}
-              </div>
-            )}
-            {it.articles && it.articles.length > 0 && (
-              <div class="mz-tw-articles">
-                {it.articles.map((a: any) => (
-                  <a href={a.url} target="_blank" rel="noopener" class="mz-tw-article">
-                    <span class="mz-tw-article-title">{a.title || a.url}</span>
-                    {a.snippet && <span class="mz-tw-article-snippet">{a.snippet.slice(0, 150)}…</span>}
-                  </a>
-                ))}
-              </div>
-            )}
-            <a href={it.link} target="_blank" rel="noopener" class="mz-tw-link">Read on X →</a>
-          </article>
-        ))}
-      </div>
-    ) : (
-      <p class="mz-empty">No curated retweets or article-attached tweets in the current window.</p>
-    )}
-  </section>
-
-  {/* ────────────────────────── Section 3: Voices ────────────────────────── */}
-  <section class="mz-section">
-    <div class="mz-section-header">
-      <h2 class="mz-section-title">🐦 Voices</h2>
-      <p class="mz-section-sub">
-        High-signal tweets from tracked AI accounts, grouped by creator. Click a creator to expand.
-      </p>
-    </div>
-    {voices.length > 0 ? (
-      <div class="mz-voices">
-        {voices.map((v: any) => (
-          <details class="mz-voice">
-            <summary class="mz-voice-summary">
-              <div class="mz-voice-avatar">{(v.handle || '?')[0].toUpperCase()}</div>
-              <div class="mz-voice-meta">
-                <div class="mz-voice-handle">
-                  @{v.handle}
-                  {v.org && v.org !== 'Independent' && <span class="mz-voice-org">· {v.org}</span>}
-                </div>
-                <div class="mz-voice-count">{v.count} {v.count === 1 ? 'tweet' : 'tweets'} · last {fmtDate((v.latestDate || '').slice(0, 10))}</div>
-              </div>
-              <span class="mz-voice-arrow">▾</span>
+  {past.length > 0 && (
+    <section class="mz-past">
+      <h2 class="mz-past-heading">Earlier this week</h2>
+      <div class="mz-past-list">
+        {past.map((s: any) => (
+          <details class="mz-past-day">
+            <summary class="mz-past-summary">
+              <span class="mz-past-date">{fmtFullDate(s.date)}</span>
+              {s.framing && <span class="mz-past-framing">{s.framing}</span>}
+              <span class="mz-past-arrow">▾</span>
             </summary>
-            <div class="mz-voice-items">
-              {v.items.map((it: any) => (
-                <article class="mz-card mz-card--tw mz-card--inset">
-                  <div class="mz-tw-time-inline">{fmtDate(it.date)}</div>
-                  <p class="mz-tw-text">{it.text}</p>
-                  {it.images && it.images.length > 0 && (
-                    <div class={`mz-tw-images mz-tw-images--${Math.min(it.images.length, 4)}`}>
-                      {it.images.slice(0, 4).map((img: string) => (
-                        <a href={img} target="_blank" rel="noopener" class="mz-tw-image">
-                          <img src={img} alt="" loading="lazy" />
-                        </a>
-                      ))}
-                    </div>
-                  )}
-                  {it.articles && it.articles.length > 0 && (
-                    <div class="mz-tw-articles">
-                      {it.articles.map((a: any) => (
-                        <a href={a.url} target="_blank" rel="noopener" class="mz-tw-article">
-                          <span class="mz-tw-article-title">{a.title || a.url}</span>
-                          {a.snippet && <span class="mz-tw-article-snippet">{a.snippet.slice(0, 150)}…</span>}
-                        </a>
-                      ))}
-                    </div>
-                  )}
-                  <a href={it.link} target="_blank" rel="noopener" class="mz-tw-link">Read on X →</a>
-                </article>
-              ))}
-            </div>
+            <div class="mz-past-content digest-content" set:html={s.html} />
           </details>
         ))}
       </div>
-    ) : (
-      <p class="mz-empty">No voices in the current window after curation.</p>
-    )}
-  </section>
-
-  <script is:inline>
-    // YouTube lazy embed: clicking the thumbnail swaps it for an iframe
-    document.querySelectorAll('.mz-yt-thumb').forEach((el) => {
-      el.addEventListener('click', (e) => {
-        if (e.target.closest('.mz-yt-external')) return;
-        const embed = el.dataset.embed;
-        if (!embed) return;
-        el.innerHTML = `<iframe src="${embed}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
-        el.classList.add('mz-yt-thumb--playing');
-      });
-    });
-  </script>
+    </section>
+  )}
 </Base>

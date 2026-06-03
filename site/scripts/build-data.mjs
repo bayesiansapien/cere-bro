@@ -740,6 +740,38 @@ function curateTweets(tweets) {
   return out;
 }
 
+// Read every wiki/media-zone/YYYY-MM/YYYY-MM-DD.md, render its markdown to
+// HTML, and return newest-first. Today is rendered fully on the page; older
+// entries become collapsible accordions. We don't trim by date here — capped
+// at 14 to match the feed lookback window.
+function scanMediaZoneSyntheses() {
+  const root = path.join(WIKI_DIR, 'media-zone');
+  if (!fs.existsSync(root)) return [];
+  const items = [];
+  for (const ym of fs.readdirSync(root)) {
+    const ymDir = path.join(root, ym);
+    if (!fs.statSync(ymDir).isDirectory()) continue;
+    for (const f of fs.readdirSync(ymDir)) {
+      if (!f.endsWith('.md')) continue;
+      const dateMatch = f.match(/^(\d{4}-\d{2}-\d{2})\.md$/);
+      if (!dateMatch) continue;
+      const date = dateMatch[1];
+      const full = path.join(ymDir, f);
+      const raw = fs.readFileSync(full, 'utf8');
+      const parsed = matter(raw);
+      // Strip the H1 title line — the Astro page renders its own header
+      const body = parsed.content.replace(/^#\s+.*\n+/, '');
+      const html = marked.parse(body);
+      // Pull the first blockquote as the framing line (often appears just below the H1)
+      const blockquoteMatch = parsed.content.match(/^>\s*(.+)$/m);
+      const framing = blockquoteMatch ? blockquoteMatch[1].trim() : '';
+      items.push({ date, framing, html });
+    }
+  }
+  // Newest first, capped at 14 days
+  return items.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 14);
+}
+
 function buildFeedItems() {
   const cutoff = feedCutoffISO();
   const yt = scanYoutubeAiFeed().filter((it) => !it.date || it.date >= cutoff);
@@ -1245,6 +1277,7 @@ function main() {
 
   const podcasts = scanPodcasts();
   const feed = buildFeedItems();
+  const mediaZoneSyntheses = scanMediaZoneSyntheses();
 
   const out = {
     generated: new Date().toISOString(),
@@ -1295,10 +1328,14 @@ function main() {
     tierBySource,
     // Cerebro Radio podcast episodes
     podcasts,
-    // Media Zone feed: three curated sections instead of a flat dump.
-    // - videos: YouTube AI-tech cards
-    // - highlights: curated retweets + tweets with attached articles
-    // - voices: remaining high-signal tweets grouped by creator (collapsed by default)
+    // Media Zone: daily synthesis files (one per day) written by the morning
+    // cron at wiki/media-zone/YYYY-MM/YYYY-MM-DD.md. Each entry carries the
+    // rendered HTML so the Astro page can drop it into the today block + past
+    // days as collapsible accordions. The old raw-feed structure (videos /
+    // highlights / voices) is retired — the synthesis is the UI.
+    mediaZoneSyntheses,
+    // Legacy raw feed kept for now in case any tooling references it. Not
+    // rendered on the page any more.
     mediaZone: {
       videos: feed.videos,
       highlights: feed.highlights,
