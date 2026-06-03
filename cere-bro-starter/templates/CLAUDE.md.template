@@ -576,6 +576,8 @@ Without synthesis, the Media Zone collapses into a dumping ground of thumbnails 
 
 The Media Zone synthesis is written by the morning cron in the same Claude call as the daily digest. It is a separate file so the Astro site can render it under its own tab.
 
+**Format rule — bullets, not paragraphs.** Media Zone is a feed-style read, not a research-paper read. Each cluster is **3-5 short bullets** (max ~15 words each), NOT a prose paragraph. Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
+
 ```markdown
 # Media Zone | YYYY-MM-DD
 
@@ -583,26 +585,33 @@ The Media Zone synthesis is written by the morning cron in the same Claude call 
 
 ## Today's signal
 
-One paragraph, 5-8 sentences. The compressed view of what people were actually
-talking about. Name the dominant topics. Call out cross-source convergences:
-"three creators covered MiniMax M3 in 24 hours" or "research community on
-Twitter is pushing back on Microsoft's MAI claims, two videos already." Be
-opinionated: which threads have signal, which are noise. This is the only
-section that runs every day regardless of source coverage.
+- Dominant story: [one-line claim naming the topic + best evidence]
+- Pattern: [cross-source convergence or divergence in one line]
+- Counter-signal: [practitioner pushback or skeptical thread, one line]
+- Quiet area: [what's missing today, one line]
+- 4-6 bullets total, ≤20 words each. Be opinionated, not neutral.
 
 ## Routing, KV cache, compression, GPU
 
-For each topic cluster (max 5 per section):
-
 ### [Cluster name — what unifies the items]
 
-One short prose paragraph (3-5 sentences) describing what the cluster says.
-Weave the items naturally: "WorldofAI's review (linked below) walks the M3
-benchmarks; @kilocode's tweet on the 59% rate confirms; r/LocalLLaMA reports
-M3 OOM at 800K context on a 96GB box, which is the practical gotcha."
+- Crisp bullet: the key claim of the cluster (≤15 words)
+- Crisp bullet: a specific number, quote, or detail
+- Crisp bullet: cross-source confirmation or pushback
+- (optional) Crisp bullet: a practical gotcha or open question
+- 3-5 bullets max per cluster.
 
-[![Thumbnail](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)
-[@handle1 tweet](https://x.com/...) · [@handle2 tweet](https://x.com/...) · [r/sub thread](https://reddit.com/...)
+<div class="mz-thumbs">
+
+[![Title](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)
+
+</div>
+
+<div class="mz-links">
+
+[@handle1](https://x.com/...) · [@handle2](https://x.com/...) · [r/sub thread](https://reddit.com/...)
+
+</div>
 
 ## LLMs, agents, safety
 (same format)
@@ -632,10 +641,12 @@ Omit any section that has nothing substantive that day. Empty sections are worse
 ### Cluster rules
 
 - **Cross-source preferred.** A "cluster" is at least 2 items, ideally from different sources (tweet + video + Reddit). Solo items can go in a cluster if they're substantive; otherwise they belong in Industry & Business as a one-liner or are dropped.
-- **YouTube thumbnails inline.** Use `[![alt](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)` so the page shows the thumbnail and links to the video on click. The Astro media-zone page lazy-loads YouTube embeds when the user clicks.
+- **Bullets, never prose paragraphs.** 3-5 bullets per cluster, ≤15 words each. The reader should consume a cluster in 10-15 seconds of scroll, not read a paragraph.
+- **YouTube thumbnails wrapped in `<div class="mz-thumbs">`.** This centers them on the page. Use `[![alt](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)` inside the wrapper.
+- **Link rows wrapped in `<div class="mz-links">`.** Centers the link strip below the thumbnail. Use `·` separators.
 - **Tweet links go to x.com,** not nitter (convert nitter→x.com in the link).
 - **Reddit linked when it adds practitioner color** that the tweets/videos don't.
-- **Attention tier discipline.** Routing / KV cache / compression / GPU get the most space and prose. Multimodal gets a one-paragraph cluster only if there's a real story. Cluster ordering inside a section: cross-source-confirmed clusters first, then by item count, then by recency.
+- **Attention tier discipline.** Routing / KV cache / compression / GPU get the most clusters. Multimodal gets a single small cluster only if there's a real story. Cluster ordering inside a section: cross-source-confirmed clusters first, then by item count, then by recency.
 
 ### What does NOT belong in Media Zone
 
@@ -646,10 +657,10 @@ Omit any section that has nothing substantive that day. Empty sections are worse
 
 ### Voice & length
 
-- 2-3 sentences per cluster paragraph. Cognitively light — the reader should be able to skim section headers and only stop on clusters they care about.
+- 3-5 short bullets per cluster (≤15 words each). Cognitively light. Reader scrolls, skims headers, only stops on clusters they care about.
 - Same clarity rule as the daily digest: every paper or technical term gets a one-clause gloss on first mention.
 - No em dashes (writing rule #1 applies).
-- The reader should be able to read the whole Media Zone in 3-4 minutes and finish knowing what mattered in social/video AI today.
+- Total read time target: **2-3 minutes** for the full Media Zone. If it takes longer, the bullets are too long.
 
 ### Cadence
 

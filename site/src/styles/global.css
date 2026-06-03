@@ -894,30 +894,70 @@ th {
 
 /* ── Media Zone — synthesis layout (today + past-day accordions) ──────── */
 .mz-today {
-  max-width: 880px;
+  max-width: 760px;
   margin: 0 auto 48px;
 }
-/* The digest-content styles are reused; small overrides to soften the
-   YouTube thumbnail strips that appear inside clusters. */
-.mz-today img,
-.mz-past-content img {
-  max-width: 100%;
+
+/* Centered thumbnail block. Wraps `[![](thumb)](video)` so the YouTube
+   thumbnail floats centered with proper spacing instead of left-flowing. */
+.mz-thumbs {
+  text-align: center;
+  margin: 20px 0 8px;
+}
+.mz-thumbs p { margin: 0; }
+.mz-thumbs a {
+  display: inline-block;
+  margin: 6px 8px;
+  border-bottom: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.mz-thumbs a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.30);
+}
+.mz-thumbs img {
+  max-width: 360px;
+  width: 100%;
   height: auto;
   border-radius: 8px;
-  margin: 4px 0;
+  display: block;
 }
-.mz-today a:has(> img),
-.mz-past-content a:has(> img) {
-  display: inline-block;
-  margin: 6px 8px 6px 0;
-  max-width: 240px;
-  border-bottom: none;
+
+/* Centered link row that sits below the thumbnail (tweet + Reddit + blog links). */
+.mz-links {
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--fg-muted);
+  margin: 6px 0 28px;
 }
-.mz-today a:has(> img):hover,
-.mz-past-content a:has(> img):hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+.mz-links p { margin: 0; }
+.mz-links a {
+  color: var(--link);
+  border-bottom: 1px solid transparent;
+  padding: 0 2px;
 }
+.mz-links a:hover {
+  border-bottom-color: var(--link);
+}
+
+/* Cluster bullets — slightly tighter than default list spacing for feed feel. */
+.mz-today h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+.mz-today ul {
+  margin: 0 0 0.6rem 0;
+}
+.mz-today ul li {
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
+/* Same overrides for past-day accordion content */
+.mz-past-content .mz-thumbs { margin: 16px 0 6px; }
+.mz-past-content .mz-thumbs img { max-width: 280px; }
+.mz-past-content .mz-links { margin: 4px 0 20px; }
+.mz-past-content h3 { margin-top: 1.4rem; }
 
 .mz-past {
   max-width: 880px;
