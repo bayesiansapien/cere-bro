@@ -561,6 +561,100 @@ When an arxiv ID appears in BOTH a Twitter retweet AND today's HuggingFace top, 
 
 ---
 
+## Media Zone
+
+The Media Zone is the daily synthesis of social and video signal — Twitter, YouTube AI/tech, and substantive Reddit threads — rendered as a curated digest, NOT a raw feed of cards. It is the second daily output the morning cron writes alongside the Daily Digest. Locked-in format as of 2026-06-03.
+
+### Why this exists
+
+Without synthesis, the Media Zone collapses into a dumping ground of thumbnails and tweet cards. The reader scrolls, gets fatigued, and skips. With synthesis, the reader gets one paragraph naming what mattered on social today, then topic clusters that fuse a tweet, a video, and a Reddit thread into one coherent picture per topic.
+
+### Format: `wiki/media-zone/YYYY-MM/YYYY-MM-DD.md`
+
+The Media Zone synthesis is written by the morning cron in the same Claude call as the daily digest. It is a separate file so the Astro site can render it under its own tab.
+
+```markdown
+# Media Zone | YYYY-MM-DD
+
+> One-line framing of what mattered in social and video signal today.
+
+## Today's signal
+
+One paragraph, 5-8 sentences. The compressed view of what people were actually
+talking about. Name the dominant topics. Call out cross-source convergences:
+"three creators covered MiniMax M3 in 24 hours" or "research community on
+Twitter is pushing back on Microsoft's MAI claims, two videos already." Be
+opinionated: which threads have signal, which are noise. This is the only
+section that runs every day regardless of source coverage.
+
+## Routing, KV cache, compression, GPU
+
+For each topic cluster (max 5 per section):
+
+### [Cluster name — what unifies the items]
+
+One short prose paragraph (3-5 sentences) describing what the cluster says.
+Weave the items naturally: "WorldofAI's review (linked below) walks the M3
+benchmarks; @kilocode's tweet on the 59% rate confirms; r/LocalLLaMA reports
+M3 OOM at 800K context on a 96GB box, which is the practical gotcha."
+
+[![Thumbnail](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)
+[@handle1 tweet](https://x.com/...) · [@handle2 tweet](https://x.com/...) · [r/sub thread](https://reddit.com/...)
+
+## LLMs, agents, safety
+(same format)
+
+## Multimodal / vision / audio
+(same format — often empty, omit the section if so)
+
+## Industry and business
+(same format — funding rounds, product launches, hiring, policy)
+
+## Practitioner ground truth
+(Reddit-heavy section — what r/LocalLLaMA, r/MachineLearning, r/CUDA users
+actually reported running. Omit if no substantive Reddit content today.)
+```
+
+### Section order (by attention tier)
+
+1. Today's signal (always)
+2. Routing / KV cache / compression / GPU (Tier 1 topics)
+3. LLMs / agents / safety (Tier 2)
+4. Multimodal / vision / audio (Tier 3, often skipped)
+5. Industry and business
+6. Practitioner ground truth (Reddit-heavy, often skipped)
+
+Omit any section that has nothing substantive that day. Empty sections are worse than no section.
+
+### Cluster rules
+
+- **Cross-source preferred.** A "cluster" is at least 2 items, ideally from different sources (tweet + video + Reddit). Solo items can go in a cluster if they're substantive; otherwise they belong in Industry & Business as a one-liner or are dropped.
+- **YouTube thumbnails inline.** Use `[![alt](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)` so the page shows the thumbnail and links to the video on click. The Astro media-zone page lazy-loads YouTube embeds when the user clicks.
+- **Tweet links go to x.com,** not nitter (convert nitter→x.com in the link).
+- **Reddit linked when it adds practitioner color** that the tweets/videos don't.
+- **Attention tier discipline.** Routing / KV cache / compression / GPU get the most space and prose. Multimodal gets a one-paragraph cluster only if there's a real story. Cluster ordering inside a section: cross-source-confirmed clusters first, then by item count, then by recency.
+
+### What does NOT belong in Media Zone
+
+- **Pure papers.** Those go in the Daily Digest's Deep Dives. Media Zone clusters can MENTION the paper as the topic, but the synthesis is about how social + video talked about it, not the paper's contribution.
+- **Funding rounds with no social or video signal.** Those are pure Industry Pulse in the Daily Digest.
+- **Solo tweets with no cluster and no substance.** Drop them.
+- **Personal / off-topic tweets from AI handles.** "Office for the day" gets cut.
+
+### Voice & length
+
+- 2-3 sentences per cluster paragraph. Cognitively light — the reader should be able to skim section headers and only stop on clusters they care about.
+- Same clarity rule as the daily digest: every paper or technical term gets a one-clause gloss on first mention.
+- No em dashes (writing rule #1 applies).
+- The reader should be able to read the whole Media Zone in 3-4 minutes and finish knowing what mattered in social/video AI today.
+
+### Cadence
+
+- Written every day, including Sundays. The Daily Digest skip-day rules do NOT apply — social signal on a Sunday is its own pattern worth capturing.
+- If a day has genuinely no substantive social/video signal, the file is still written with just the "Today's signal" paragraph noting the silence.
+
+---
+
 ## Conventions
 
 - Dates: `YYYY-MM-DD` everywhere
