@@ -269,7 +269,7 @@ Three rules:
 
 ### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
 
-The digest flows as one story: facts → interpretation → the papers themselves → how they connect → industry side → predictions → minor items.
+The digest is one story in five sections: TL;DR → Deep Dives → Industry Pulse → Global View → Looking Ahead. No "Also today" tail, no source-count footer. Locked-in section order as of 2026-06-03.
 
 ```markdown
 # cere-bro | YYYY-MM-DD
@@ -280,36 +280,28 @@ The digest flows as one story: facts → interpretation → the papers themselve
 
 ## TL;DR
 
-**One prose paragraph, 4-7 sentences, no bullets.** The compressed view of what
-came in today. Strip every paper down to "X dropped, claiming Y. Z also happened
-on the industry side." A reader who reads only this paragraph should know the day's
-factual surface.
+**One block, 2-3 paragraphs.** This is the only top-level summary. Mix facts
+and interpretation in the same sentences — what dropped today AND what it
+means. Replaces the old TL;DR + Big Picture pair (they were duplicating each
+other). A reader who reads only this section should know what happened today
+AND how it changes their model of where the field is heading.
 
-Distinction from Big Picture: TL;DR is **what happened**. Big Picture is **what
-it means**. Do not duplicate the same content in both. If something is in TL;DR
-it should not be re-stated as fact in Big Picture.
+Write opinionated, not neutral. "Three papers this month attacked the same
+problem; today's is the sharpest of the three" beats "today, several papers
+appeared." Name the day's strongest signal in the first sentence.
 
----
-
-## The Big Picture
-
-2-3 paragraphs of **interpretation**, not facts. What thread runs through today's
-batch? What does today say about where the field is heading? Multiple papers
-attacking the same problem from different angles — say so. Today contradicts
-last week — say what's at stake.
-
-Write in plain English. Do not say "Tier 1 paper" or "Tier 2 research" or any
-tier-code language. The tier hierarchy exists to calibrate the writer's depth
-allocation. It must not appear in the reader-facing output. Instead describe
-the topic directly: "an efficiency paper on KV cache eviction" or "a paper on
-agent benchmarks."
+Do not say "Tier 1 paper" or "Tier 2 research" or any tier-code language. The
+tier hierarchy exists to calibrate writer depth allocation. It must not appear
+in reader-facing output. Describe the topic directly: "an efficiency paper on
+KV cache eviction" or "a paper on agent benchmarks."
 
 ---
 
 ## Deep Dives
 
 The day's substantive papers and posts, structured for skimming. 5-8 items
-typically. Skip changelogs and routine releases — those go in Also today.
+typically. Skip changelogs and routine releases — they get one Industry Pulse
+bullet instead, or nothing.
 
 For each item:
 
@@ -322,8 +314,8 @@ For each item:
 **Links:** [Paper](URL) · [Wiki summary](../../<topic>/<slug>.md)
 
 **What is it about?**
-1-2 sentences in plain English. Explain what the work actually is at the level a
-smart non-specialist follows. If the title contains a domain term (KV cache,
+1-2 sentences in plain English. Explain what the work actually is at the level
+a smart non-specialist follows. If the title contains a domain term (KV cache,
 MoE, on-policy distillation, etc.), gloss it inline the first time it appears.
 
 **What problem does it solve?**
@@ -331,9 +323,9 @@ MoE, on-policy distillation, etc.), gloss it inline the first time it appears.
 paper changes that by Y."
 
 **What's the core novelty?**
-1-2 sentences naming the specific technical or methodological contribution. The
-one thing that makes the paper non-trivial. Avoid "a novel framework that..." —
-say the actual mechanism.
+1-2 sentences naming the specific technical or methodological contribution.
+The one thing that makes the paper non-trivial. Avoid "a novel framework
+that..." — say the actual mechanism.
 
 **Key takeaways**
 - 2-4 short bullets. Each one a self-contained statement of an observed
@@ -348,83 +340,116 @@ missing? Benchmark artifacts? Be specific, not vague ("they only tested at
 
 **Industrial implication**
 1-2 sentences on what changes if this is right. Where does this show up in
-production stacks, in a quarter / six months / a year? Be opinionated; this
-is the section where stance is welcome.
+production stacks, in a quarter / six months / a year? Be opinionated; this is
+the section where stance is welcome.
 
-[Optional visual block — embed a figure from raw/assets/ if it adds clarity,
-or draw a text-based diagram with ┌┐└┘─│ ►◄↑↓→← when the architecture is
-non-obvious. Keep it under 10 lines. Skip entirely if not useful.]
+**Diagram (mandatory for any paper with architecture / pipeline / multi-component
+system).** Two acceptable options. Pick one. NEVER use ASCII / text-art
+diagrams — they are banned.
+
+  *Option A (preferred)*: download the paper's actual figure (usually Fig 1,
+  the system overview) to `raw/assets/YYYY-MM-DD-<slug>-fig1.png` and embed:
+  `![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)`
+
+  *Option B (fallback when no usable figure exists in the paper)*: write a
+  Mermaid block. Mermaid renders as a real labeled diagram both on GitHub
+  (native server-side rendering) and on the Astro site (client-side lazy
+  loader). Use `flowchart` or `graph` for architectures, `sequenceDiagram`
+  for call flows. Example:
+
+      ```mermaid
+      flowchart LR
+        Q[Query] --> R{Router}
+        R -->|easy| S[Small LM]
+        R -->|hard| L[Frontier LM]
+        S --> O[Output]
+        L --> O
+      ```
+
+  If the paper genuinely has no architecture (a benchmark, a survey, a pure
+  empirical study), the diagram block can be skipped entirely. The bar for
+  skipping is high.
 
 → [Full summary](../../<topic>/<slug>.md)
 
 ---
 
-## Connecting the Dots
-
-Where the day's papers connect to each other and to prior wiki content.
-**This is synthesis, not framing.** Big Picture stated the theme. Here you
-walk through the evidence.
-
-Each connection is one prose paragraph. **No "Thread #N" code labels.** Each
-paragraph names plainly what it is about — "Three papers this month attack the
-same KV cache eviction problem from different angles" or "Today's paper closes
-a gap that the 04-18 LongAct paper opened." Every paper named here gets a
-one-clause gloss of its claim on first mention, per writing rule #10.
-
-Keep each paragraph crisp: 4-6 sentences max. If a connection needs more,
-break it into two paragraphs with a clear pivot.
-
-Include cross-day threads (a paper from last week shows up again), cross-source
-threads (Twitter retweet today amplifies an arxiv paper from yesterday), and
-research-industry threads (a chip launch relates to an inference paper).
-
-If today's papers are genuinely isolated from prior wiki state, omit this
-section entirely rather than fabricating threads.
-
----
-
 ## Industry Pulse
 
-What's happening beyond the lab. Company moves, product launches, funding,
-regulation, policy. Sources: TLDR AI, The Decoder, VentureBeat AI, The
-Information, Pragmatic Engineer.
+What's happening beyond the lab. Company moves, product launches, funding
+rounds, regulation, policy. Sources: TLDR AI, The Decoder, VentureBeat AI,
+The Information, AI Breakfast, Pragmatic Engineer, SemiAnalysis.
 
-3-6 bullets. **One short sentence per bullet** (≤25 words), not the prior
-2-3 sentence format. Lead with the most consequential. Skip pure PR.
+3-8 bullets. **One short sentence per bullet** (≤25 words). Lead with the
+most consequential. Skip pure PR.
 
-- **[Company/Product/Event]** — what happened, in one short sentence.
+- **[Company/Product/Event]** — what happened, in one short sentence ([source](URL)).
 
-Flag any item that intersects research themes ("Anthropic announces routing
-product on the same day a paper on agent-trajectory routing drops").
+Inline flag any item that intersects research themes from today's Deep Dives.
 
----
-
-## Worth Watching
-
-Falsifiable predictions. Each bullet names a specific claim and a timeframe.
-
-- **[Specific claim or trend]** — what to check in 30 / 60 / 90 days.
-
-Prioritize open problems in the wiki's deep-interest areas (routing, KV cache,
-compression, GPU). Don't bury this section with vague "interesting to watch"
-items; cut anything not falsifiable.
+**IMPORTANT — read the full article bodies, not just headlines.** Before
+moving on to Global View below, re-open each Industry Pulse item's source
+article (already in `raw/gmail/` or `raw/rss/`) and read what they actually
+claim. The next section depends on this — Global View synthesizes WHERE
+industry is moving against WHERE research is moving, and that synthesis is
+only possible if you've actually digested the industry article bodies, not
+just their headlines.
 
 ---
 
-## Also today
+## Global View
 
-Renamed from Quick Hits. **Optional section.** Use only when there are real
-minor items worth a single-sentence mention that would be wasted space in
-Deep Dives. Library updates, model-card releases, benchmark announcements,
-individual replication studies, dataset drops. **One sentence per item, no
-explanations.** If there are no real minor items, omit the section.
+The synthesis section — renamed from Connecting the Dots. This is where
+the wiki earns its keep.
 
-- [Item]: [one sentence].
-- [Item]: [one sentence].
+**Two mandatory dimensions for every Global View thread:**
+
+1. **Globally-aware.** Pattern-match today against the WHOLE wiki, not just
+   today's papers. Use concept pages (`wiki/<topic>/<concept>.md`) and the
+   last 5-7 daily digests as context. Name the prior paper / date / claim
+   when you connect today to history.
+
+2. **Research × industry cross-synthesis.** Every thread must explicitly weave
+   research findings (today's Deep Dives + prior wiki) AND industry behavior
+   (today's Industry Pulse + recent funding/products from prior digests).
+   Trace where:
+   - Industry decisions prove or disprove a paper's prediction
+   - Products ship a research technique into production
+   - Funding rounds signal market belief in a research direction
+   - Research is outpacing industry adoption (a gap)
+   - Industry is moving where research hasn't caught up (the other gap)
+
+**Format**: 2-3 threads maximum. Each thread is a single prose paragraph,
+4 sentences maximum. Lead the paragraph with the claim, then the evidence.
+Every paper or article named on first mention gets a one-clause gloss of its
+actual claim (per writing rule #10).
+
+If today's batch is genuinely isolated from prior wiki state AND from any
+industry signal, omit this section entirely rather than fabricating threads.
 
 ---
 
-*Sources ingested today: N | Wiki pages updated: N*
+## Looking Ahead
+
+Renamed from Worth Watching. Forward-looking falsifiable predictions only.
+
+**Format**: 2-5 bullets max. Each bullet has three required parts:
+
+1. **The claim** — a specific prediction about what will happen
+2. **The timeframe** — 30 / 60 / 90 days
+3. **The signal** — what concretely to check for ("if X hits N forks on
+   HuggingFace by date Y," "if Anthropic ships a routing product by Q3,"
+   "if any frontier lab publishes Z by month-end")
+
+Example: *"If MiniMax M3's open-weight 1M-context model gets >50 production
+deployments tracked in the LocalLLaMA subreddit by 2026-07-01, the long-context-as-default
+thesis is validated and Claude/GPT pricing will need to adjust within 30 days."*
+
+Bullets are NOT a list of papers to track. They are testable claims.
+
+Prioritize predictions about the deep-interest areas (routing, KV cache,
+compression, GPU). **Omit the entire section** on days that produced no
+testable predictions — better silence than vague "interesting to watch" filler.
 ```
 
 ---
