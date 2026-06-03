@@ -54,7 +54,7 @@ The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a
 | **3 — Broad horizon** | Vision / audio / video models (multimodal, vision-language, image and video generation, speech) | Quick Hits only, unless directly relevant to routing or efficiency. |
 | **4 — Low interest** | 3D mapping, spatial reconstruction, robotics hardware, game benchmarks unrelated to efficiency | One sentence or skip. |
 
-**When a paper spans tiers**, treat it at the highest applicable tier. **Connecting the Dots** should actively surface cross-paper patterns in Tier 1 areas. **Worth Watching** bullets should prioritize falsifiable predictions about Tier 1 open problems.
+**When a paper spans tiers**, treat it at the highest applicable tier. **Global View** should actively surface cross-paper patterns in Tier 1 areas. **Worth Watching** bullets should prioritize falsifiable predictions about Tier 1 open problems.
 
 ---
 
@@ -135,9 +135,9 @@ All four are mandatory. All are idempotent — running them twice is safe. If an
 **Step 6 — Read Kurate leaderboards (always).** Find `raw/kurate/YYYY-MM-DD-cs-ai.md` and `raw/kurate/YYYY-MM-DD-cs-lg.md` for the target date. These are weekly arXiv leaderboards ranked by 3-LLM tournaments — quality signal, not popularity. **Cross-source rule (mandatory):** any paper appearing in BOTH today's HuggingFace top AND the current week's Kurate top-20 is HIGH CONVICTION. Surface it as Tier 1 in Deep Dives regardless of topic, and label the entry "cross-source confirmed (HF + Kurate)". Papers that are top-5 on Kurate but missing from HF are "LLM-rated underrated" — flag in Worth Watching with the ai_rating, kurate score, and a one-line reason to track. Use the inferred `tier=N` line in each Kurate entry to weight space allocation: Tier 1 entries earn Deep Dive coverage; Tier 4 skip. Also read `raw/kurate/YYYY-MM-DD-rising-authors.md` — if any authors crossed threshold, add a "Rising authors from Kurate" sub-section to Worth Watching naming each author with one of their top papers, and suggest in prose whether to add them to `connectors/twitter/config.json:ai_handles` (you'll need to find the handle manually).
 
 **Step 7 — Read Reddit (always).** Read all `raw/reddit/YYYY-MM-DD-r-*.md` files for the target date (eight subreddits: LocalLLaMA, MachineLearning, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning). Each post entry carries a `tier=N` line set from the subreddit's `tier_default`. **Treatment rules:**
-- **LocalLLaMA, MLScaling, CUDA, HPC (tier_default=1)** — practitioner reports on quantization, kernel work, KV cache hacks, scaling-law observations. Posts that confirm/contradict an HF or Kurate paper go in Connecting the Dots with the prior paper named. Substantive technical posts (a new GGUF quant family, a kernel benchmark, a hardware deep dive) deserve a short Deep Dive or a generous Quick Hit. Skip pure rig-show-off / "look at my 8x4090" posts.
+- **LocalLLaMA, MLScaling, CUDA, HPC (tier_default=1)** — practitioner reports on quantization, kernel work, KV cache hacks, scaling-law observations. Posts that confirm/contradict an HF or Kurate paper go in Global View with the prior paper named. Substantive technical posts (a new GGUF quant family, a kernel benchmark, a hardware deep dive) deserve a short Deep Dive or a generous Quick Hit. Skip pure rig-show-off / "look at my 8x4090" posts.
 - **MachineLearning [R]/[P] flair (tier_default=2)** — these usually link to arXiv. If the paper isn't in HF or Kurate today, treat it as an additional research source and ingest it like one (summary page if Tier 1/2, Quick Hit otherwise).
-- **LLMDevs (tier_default=2)** — production deployment patterns. If a post describes a real shipped system (not a tutorial), it informs Industry Pulse or Connecting the Dots.
+- **LLMDevs (tier_default=2)** — production deployment patterns. If a post describes a real shipped system (not a tutorial), it informs Industry Pulse or Global View.
 - **ControlProblem (tier_default=2)** — feeds responsible-ai topic. Often opinion, occasionally substantive. Apply the usual filter: is there a concrete claim or just commentary?
 - **reinforcementlearning (tier_default=2)** — RLHF/RLVR adjacent. Cross-references RL papers from HF.
 
@@ -228,7 +228,7 @@ Write:
 
 The second version carries the context. Every paper reference includes the one specific claim that made it matter. A reader meeting LongAct for the first time gets the gist immediately. A reader returning a month later doesn't have to look anything up.
 
-**Apply this in:** TL;DR bullets, Deep Dive opening hooks, Connecting the Dots, Worth Watching, and any cross-day reference anywhere. Length is not the constraint; clarity is. Let the digest run longer if it has to.
+**Apply this in:** TL;DR bullets, Deep Dive opening hooks, Global View, Worth Watching, and any cross-day reference anywhere. Length is not the constraint; clarity is. Let the digest run longer if it has to.
 
 **The gloss should be specific, not generic.** A bad gloss is "LongAct (the paper about training signal concentration)." A good gloss is "LongAct (the paper that showed long-context gradient signal is concentrated in the first 5% of tokens)." Specific is short and lands the why.
 
@@ -399,7 +399,7 @@ just their headlines.
 
 ## Global View
 
-The synthesis section — renamed from Connecting the Dots. This is where
+The synthesis section — renamed from Global View. This is where
 the wiki earns its keep.
 
 **Two mandatory dimensions for every Global View thread:**
@@ -509,7 +509,7 @@ If you genuinely cannot find a figure AND the system is too simple to need a tex
 Tier 1 (routing, KV cache, compression, GPU): 4–6 paragraphs, deep on mechanism — not just "latency improved" but *how* (kernel fusion? smarter eviction? speculative decoding?). Always end with a **Research angle** note. Tier 2: 2–4 paragraphs, flag Tier 1 intersections. Tier 3: Quick Hit unless it touches routing or efficiency. Tier 4: one sentence or nothing.
 
 **5. Connect before you summarize.**
-Big Picture and Connecting the Dots are the unique value of this digest. Any reader can get a summary from the abstract. They can't get synthesis elsewhere. Use text relationship maps when ≥2 papers compose into something bigger than either alone.
+Big Picture and Global View are the unique value of this digest. Any reader can get a summary from the abstract. They can't get synthesis elsewhere. Use text relationship maps when ≥2 papers compose into something bigger than either alone.
 
 **6. Be opinionated and specific.**
 "This is the third paper this month showing that benchmark accuracy doesn't predict deployment robustness — a measurement crisis is forming." That's worth reading. "This paper is interesting" is not. Name the tension, take the position.
@@ -526,7 +526,7 @@ The digest is not a fresh scan of today's papers. It is today's papers read by a
 **10. The reader does not remember every paper. Carry the context for them.**
 This is the most important rule. The wiki is the memory; the reader is not expected to be. Every time the digest references a prior paper, prior result, or prior concept by name, it must include a one-clause gloss of what that paper actually claimed, right there in the sentence. Not just "the Extrapolation Cliff paper from 05-14" — write "the Extrapolation Cliff paper from 05-14, which found a closed-form threshold above which on-policy distillation collapses." See the "How to write when you have prior context" section above for the worked example.
 
-This applies in: TL;DR bullets, Big Picture paragraphs, every Deep Dive's hook line, Connecting the Dots (where it matters most), Worth Watching, and any cross-day reference in any section. Acronyms get the same treatment on first mention in a given section: "MoE (mixture-of-experts, where each token routes through a small subset of specialized sub-networks)" not just "MoE." Length is not the constraint, clarity is. A digest that runs longer because every reference carries its own context is doing the right thing. A digest that name-drops papers and trusts the reader's memory is doing the wrong thing.
+This applies in: TL;DR bullets, Big Picture paragraphs, every Deep Dive's hook line, Global View (where it matters most), Worth Watching, and any cross-day reference in any section. Acronyms get the same treatment on first mention in a given section: "MoE (mixture-of-experts, where each token routes through a small subset of specialized sub-networks)" not just "MoE." Length is not the constraint, clarity is. A digest that runs longer because every reference carries its own context is doing the right thing. A digest that name-drops papers and trusts the reader's memory is doing the wrong thing.
 
 **Test your draft against this question:** could a smart tech-literate reader who has not been tracking AI research weekly follow at 60-70% on first read? If no, the digest needs more in-place context.
 
