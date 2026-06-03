@@ -1,0 +1,448 @@
+{
+  "date": "2026-06-03",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-03 15:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Much improved AI news from X: alignednews.com/ai My agents have been busy reading all of you. And I've been busy yelling at them to do better. Well, OK, showing them tons of stuff they missed and building new algorithms to find better stuff. Someone told me \"when you have AI reading X you'll have so much extra time.\" Liar. Now I still read X, but having this agent means I am pouring hours into making my lists better, to make it better, and then I see so many ways it could be better, forcing me to learn how to educate it better. Meanwhile DMs and emails are piling up. Tomorrow will be in SF at ",
+          "link": "https://nitter.net/Scobleizer/status/2062058116188086468#m",
+          "date_utc": "2026-06-03T06:25:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "No sustainable business model. Super dangerous to IPO. Polymarket Money (@PolymarketMoney) JUST IN: Anthropic is no longer projected to IPO by the end of September. — https://nitter.net/PolymarketMoney/status/2061966658839912862#m",
+          "link": "https://nitter.net/brivael/status/2062033950646980861#m",
+          "date_utc": "2026-06-03T04:49:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2TtMjagAAmqed.png",
+            "https://nitter.net/pic/media%2FHJ2TuadacAAVVqa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Alps (@alpaysh) Scientists at Harvard University have reconstructed 3D models of how Adam and Eve, the first humans created by God might have looked like. — https://nitter.net/alpaysh/status/2062022714181763109#m",
+          "link": "https://nitter.net/brivael/status/2062027060793712976#m",
+          "date_utc": "2026-06-03T04:22:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2_b2JXkAAYVaS.jpg",
+            "https://nitter.net/pic/media%2FHJ2_dKMX0AA7Pcb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Just hacked the @realmadrid So happy to be the new n10 Video",
+          "link": "https://nitter.net/brivael/status/2062026987900916213#m",
+          "date_utc": "2026-06-03T04:21:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062026908188180480%2Fimg%2FjoZNJsj859nX5EHh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "full recap here nitter.net/eliebakouch/status/206… elie (@eliebakouch) microsoft MAI tech report is a gold mine, one of the most transparent for a model at this scale. this model uses zero synthetic data or distillation from previous models. this means reasoning, agentic behavior, tool use are all learned fully during post-training with no cold start. bold choice that makes it harder and requires more iterations to reach sota, but you get FULL control over your model series and it proves they are serious about being a frontier lab. the tech report is insanely detailed and precise about numbers",
+          "link": "https://nitter.net/eliebakouch/status/2062022507062841423#m",
+          "date_utc": "2026-06-03T04:04:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2SubUXkAA20X7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "what an absolutely incredible tech report, made a ~50 tweet recap (?) of my notes in this thread elie (@eliebakouch) microsoft MAI tech report is a gold mine, one of the most transparent for a model at this scale. this model uses zero synthetic data or distillation from previous models. this means reasoning, agentic behavior, tool use are all learned fully during post-training with no cold start. bold choice that makes it harder and requires more iterations to reach sota, but you get FULL control over your model series and it proves they are serious about being a frontier lab. the tech report ",
+          "link": "https://nitter.net/eliebakouch/status/2062017745839931753#m",
+          "date_utc": "2026-06-03T03:45:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2SubUXkAA20X7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "done @MicrosoftAI , only 47 tweet sorry :( nitter.net/MicrosoftAI/status/206… Microsoft AI (@MicrosoftAI) We'd read all 109 — https://nitter.net/MicrosoftAI/status/2061949247986028711#m",
+          "link": "https://nitter.net/eliebakouch/status/2062013078279954503#m",
+          "date_utc": "2026-06-03T03:26:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "and if you're done with this thread and still want to read more about this report, pease take a look at the goat @stochasticchasm recap nitter.net/stochasticchasm/status… stochasm (@stochasticchasm) okay live reading/reacting thread here, there's a ton to go through — https://nitter.net/stochasticchasm/status/2061916808626815161#m",
+          "link": "https://nitter.net/eliebakouch/status/2062007532885889250#m",
+          "date_utc": "2026-06-03T03:04:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1mWmMa8AAFq9P.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this was an insanely good read, i think this is the most detailed report i've read at this scale in some aspects. i really hope MAI continues releasing those tech reports, thanks a lot to the team for this gift 🥹 microsoft.ai/wp-content/uplo…",
+          "link": "https://nitter.net/eliebakouch/status/2062004670017486912#m",
+          "date_utc": "2026-06-03T02:53:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf#page=81.11",
+              "content": "%PDF-1.7 %���� 3544 0 obj > endobj 3545 0 obj > /W [ 1 3 1 ] /Index [ 3544 705 ] /Info 3979 0 R /Root 3546 0 R /Size 4249 /Prev 2669486 /ID [ ] >> stream x�cbd`�g`b``8 \"E'��� ��\u001a�n\u0001��3@d� ��N\u0004�l�� vl3�d�\u0002��Y RB D��\u0001��B� 6S\u000f�\\ &}��r��� ��\u0018��� �+ L��H�� R�\u0003�� !�-\u0004\"\u0015y��\u0019\bq }0[�����S0��q� %G�Qr����\u0003�Qr� %GIb���j��O�,\u001bx7����(9\u0014H\u0000#� > endstream endobj 3546 0 obj > endobj 3547 0 obj > stream x��V�OSw\u0014?}�h�㶔�|Q���p\u0002�Cd�0 ��k;``�T`�&�A�� ���O�`�qX(d�t\u0001\u0019KtY\u0006\u0003\u0004|\u0005\u0014�8g CTd�\u00187��۾�{�m),��\u001aZ���s��|��s��\u0002\u0000\u001b�g\u0002 �\u0010M@/��Wa�)u � {��`A���0|\u0017�H\u0018��(�\u0013I�u[k�U�� �ü����\u0001�N�M�B�����7oy�,��rE��;����bm���򭐜+�]�%���Vk��Y׉���U� Co�l�b��$ڥպ�[�Ҹ���ܕ���l�Ê����wf\u0004o �1�._ �a��0�d^��Z���X$~9�v�)�=�\u0006h�F�'\"v1��$�6b�H^�L��_t�����ᩁh�\u0007�_lh'�\u000f��q�{�7\u0017���PJ����E~���\u0003�.3��\u0016�\"\u00026Kc\u00109kZ�����opT��v\\y%, �kh�v����~�\u001b\u0006��f�d��\u001a?tu �Ӌy�� UR+"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "will conclude by this, 40% higher throughput per Watt (or is it different from \"rack power budget\"?) is pretty impressive and bullish on microsoft chips",
+          "link": "https://nitter.net/eliebakouch/status/2062004120098144764#m",
+          "date_utc": "2026-06-03T02:51:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ21q2JWUAANG2H.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "good infra numbers about the final training run, love the transparency here",
+          "link": "https://nitter.net/eliebakouch/status/2062003856813248599#m",
+          "date_utc": "2026-06-03T02:50:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ21Zh1WQAA_SDQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "microsoft uses SGlang wow",
+          "link": "https://nitter.net/eliebakouch/status/2062002698363232401#m",
+          "date_utc": "2026-06-03T02:45:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ20cReX0AA6-Zh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "a lot more on data curation/creation to bootstrap good reasoning without prior model",
+          "link": "https://nitter.net/eliebakouch/status/2062002439457296637#m",
+          "date_utc": "2026-06-03T02:44:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ20HuCXwAAmSXs.jpg",
+            "https://nitter.net/pic/media%2FHJ20H7hXoAAimjm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also not sure why they don't do OPD instead of SFT in the consolidation phase",
+          "link": "https://nitter.net/eliebakouch/status/2062001847586394157#m",
+          "date_utc": "2026-06-03T02:42:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2zvpcWQAEo6Af.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "some of the best practices that they found. points 3/4 are very interesting imo and might be interesting for mid-training as well see nitter.net/eliebakouch/status/205… elie (@eliebakouch) when you do continual pre training at this scale on traces that look like RL rollouts, does it hurt RL if the mid training data is very similar to what you RL on? what if it's the same data but with different rollouts from another model? intuitively i'd say yes, same intuition as what minimax M1 found with SFT cold start/RL overlap, but does this change at ~T token scale? — https://nitter.net/eliebakouch/sta",
+          "link": "https://nitter.net/eliebakouch/status/2062001683618558464#m",
+          "date_utc": "2026-06-03T02:41:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2y4a7XkAAaL9a.jpg",
+            "https://nitter.net/pic/media%2FHIoyQy8WkAAjr1E.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "they do some rounds of RL - self distillation SFT to recover - RL iiuc, they claim this might be because of train/inference mismatch and do it less often when they fix it and use bf16",
+          "link": "https://nitter.net/eliebakouch/status/2062000809554964596#m",
+          "date_utc": "2026-06-03T02:37:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2xuABW8AABe9E.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also some top p masking like in deepseek, not familiar with this so don't have much to add but doesn't seem super standard?",
+          "link": "https://nitter.net/eliebakouch/status/2061999465540554816#m",
+          "date_utc": "2026-06-03T02:32:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2xh36XAAAGO73.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "they do difficulty filtering with a two stage pass rate",
+          "link": "https://nitter.net/eliebakouch/status/2061999006331338777#m",
+          "date_utc": "2026-06-03T02:30:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2xEkBXMAA5e7x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "wrong text: \"here is the final mixture, 50%+ code is quite high but that makes sense. also you can see that some mix percentages look relatively close to the target loss: 55% code final mix - 50% weight in target loss, 15% for stem - 17.5% target loss. not the case for math tho mid-training mixture increases stem and math to 35%\"",
+          "link": "https://nitter.net/eliebakouch/status/2061998671856640327#m",
+          "date_utc": "2026-06-03T02:29:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "the entropy based clipping is pretty cool, it keeps the model's entropy around 0.3 which seems to be their sweet spot, but we add a pretty crucial HP here imo",
+          "link": "https://nitter.net/eliebakouch/status/2061998120842543396#m",
+          "date_utc": "2026-06-03T02:27:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2wBmQXAAAe4M0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "length penalty is very elegant and simple tbh",
+          "link": "https://nitter.net/eliebakouch/status/2061997579336912951#m",
+          "date_utc": "2026-06-03T02:25:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2v2AgWwAEmjq_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "main differences in GRPO are: length penalty entropy-based outer clip no KL term (makes sense here since the model is not cold started) normalization is global instead of per response",
+          "link": "https://nitter.net/eliebakouch/status/2061997386390552674#m",
+          "date_utc": "2026-06-03T02:24:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2vlVEWUAAurJn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "Less knowledgable about RL but will dump some info in a \"less structured\" way (as if it was structured before lol) first, no synthetic data so no cold start phase, which is a very very important info to keep in mind",
+          "link": "https://nitter.net/eliebakouch/status/2061996316973003000#m",
+          "date_utc": "2026-06-03T02:20:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2uuFsW8AAO0_y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "the model/performance co design part is interesting but they doesn't seem to consider inference much here?",
+          "link": "https://nitter.net/eliebakouch/status/2061995978673062031#m",
+          "date_utc": "2026-06-03T02:18:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The open-weight labs did not come to play this week. StepFun dropped Step 3.7 Flash. MiniMax dropped M3. Both with open weights, both already live in Kilo. The \"model wars\" just got a lot more interesting.",
+          "link": "https://nitter.net/kilocode/status/2061774764797026795#m",
+          "date_utc": "2026-06-02T11:39:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJzkJwsXkAAo1BY.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "logangraham",
+      "org": "Anthropic",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "- Cyber safeguards are a hard + urgent techno-philosophical problem. - ...but powerful models w/o safeguards may come soon (~3, 6, 18 months max?). We need to scale access to defensive tools urgently. - Industry, government, maintainers, and researchers are taking this moment very seriously.",
+          "link": "https://nitter.net/logangraham/status/2061832481721249849#m",
+          "date_utc": "2026-06-02T15:29:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mlevchin",
+          "creator": "@mlevchin",
+          "text": "Always good talking with @BrianSozzi — he does the homework, which makes for a genuinely fun conversation. We got into payments, AI, sci-fi, and why Affirm is the longest job I've ever had. More below. Affirm (@Affirm) “This is by far the best time in history to run a company as an engineer.” @mlevchin sat down with @BrianSozzi on @YahooFinance 's Power Players to break down engineering-led companies, the future of AI, authentic communication, and more.👇 bit.ly/4xibLWy — https://nitter.net/Affirm/status/2061896128023740463#m",
+          "link": "https://nitter.net/mlevchin/status/2062028137995870226#m",
+          "date_utc": "2026-06-03T04:26:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061896130682822656%2FgBy9kMu6%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://bit.ly/4xibLWy",
+              "content": "Is Affirm outgrowing credit cards? Max Levchin explains Oops, something went wrong Skip to navigation Skip to main content Skip to right column News Today&#39;s news US Politics World Weather Climate change Health Wellness Mental health Sexual health Dermatology Oral health Hair loss Foot health Nutrition Healthy eating Meal delivery Weight loss Vitamins and supplements Fitness Equipment Exercise Health Guides Women&#39;s health Sleep Best mattresses Healthy aging Hearing Mobility Science Originals Newsletters Games Life Health Wellness Nutrition Fitness Healthy aging Sleep Your body Children&#39;s health Dermatology Foot health Hair loss Oral health Sexual health Weight management Women&#39;s health Conditions Cardiovascular health Digestive health Endocrine system Hearing Mental health P"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Taipei's iconic skyline just got a little greener. 💚 Taipei 101 lights up for #NVIDIAGTC Video",
+          "link": "https://nitter.net/nvidia/status/2062024045567316367#m",
+          "date_utc": "2026-06-03T04:10:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062021433786589184%2Fimg%2FXIxoCSZUqSieRGgM.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
