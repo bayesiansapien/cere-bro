@@ -576,6 +576,8 @@ Without synthesis, the Media Zone collapses into a dumping ground of thumbnails 
 
 The Media Zone synthesis is written by the morning cron in the same Claude call as the daily digest. It is a separate file so the Astro site can render it under its own tab.
 
+**Format rule — bullets, not paragraphs.** Media Zone is a feed-style read, not a research-paper read. Each cluster is **3-5 short bullets** (max ~15 words each), NOT a prose paragraph. Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
+
 ```markdown
 # Media Zone | YYYY-MM-DD
 
@@ -583,26 +585,33 @@ The Media Zone synthesis is written by the morning cron in the same Claude call 
 
 ## Today's signal
 
-One paragraph, 5-8 sentences. The compressed view of what people were actually
-talking about. Name the dominant topics. Call out cross-source convergences:
-"three creators covered MiniMax M3 in 24 hours" or "research community on
-Twitter is pushing back on Microsoft's MAI claims, two videos already." Be
-opinionated: which threads have signal, which are noise. This is the only
-section that runs every day regardless of source coverage.
+- Dominant story: [one-line claim naming the topic + best evidence]
+- Pattern: [cross-source convergence or divergence in one line]
+- Counter-signal: [practitioner pushback or skeptical thread, one line]
+- Quiet area: [what's missing today, one line]
+- 4-6 bullets total, ≤20 words each. Be opinionated, not neutral.
 
 ## Routing, KV cache, compression, GPU
 
-For each topic cluster (max 5 per section):
-
 ### [Cluster name — what unifies the items]
 
-One short prose paragraph (3-5 sentences) describing what the cluster says.
-Weave the items naturally: "WorldofAI's review (linked below) walks the M3
-benchmarks; @kilocode's tweet on the 59% rate confirms; r/LocalLLaMA reports
-M3 OOM at 800K context on a 96GB box, which is the practical gotcha."
+- Crisp bullet: the key claim of the cluster (≤15 words)
+- Crisp bullet: a specific number, quote, or detail
+- Crisp bullet: cross-source confirmation or pushback
+- (optional) Crisp bullet: a practical gotcha or open question
+- 3-5 bullets max per cluster.
 
-[![Thumbnail](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)
-[@handle1 tweet](https://x.com/...) · [@handle2 tweet](https://x.com/...) · [r/sub thread](https://reddit.com/...)
+<div class="mz-thumbs">
+
+[![Title](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)
+
+</div>
+
+<div class="mz-links">
+
+[@handle1](https://x.com/...) · [@handle2](https://x.com/...) · [r/sub thread](https://reddit.com/...)
+
+</div>
 
 ## LLMs, agents, safety
 (same format)
