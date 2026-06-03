@@ -744,3 +744,17 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-02] ingest | Daily digest 2026-06-02 | digest
 ## [2026-06-02] ingest | Media Live morning synthesis 2026-06-02 | twitter
 ## [2026-06-02] lint | concept updates: kv-cache, speculative-decoding, knowledge-distillation, rl-for-llms, attention-mechanisms | concept
+## [2026-06-03] ingest | VaSE: Value-Aware Stochastic KV Cache Eviction | huggingface
+## [2026-06-03] ingest | TrOPD: Trust Region On-Policy Distillation | huggingface
+## [2026-06-03] ingest | Small RL Controller: RL-Guided Adaptive Sampling | huggingface
+## [2026-06-03] ingest | Local Perturbation Theory for Multi-Domain RL | huggingface
+## [2026-06-03] ingest | MERIT: Decentralized Instruction Tuning | huggingface
+## [2026-06-03] ingest | Language Models Need Sleep: Knowledge Seeding | huggingface
+## [2026-06-03] ingest | Diagnosing Harmful Continuation in Long-CoT Traces | huggingface
+## [2026-06-03] ingest | Pressure-Testing Deception Probes in LLMs | huggingface
+## [2026-06-03] ingest | World Models Meet Language Models (PF-OPSD) | huggingface
+## [2026-06-03] ingest | MAI-Thinking-1: Building a Hill-Climbing Machine | rss
+## [2026-06-03] ingest | MiniMax M3 & Step 3.7 Flash open-weight efficiency | twitter
+## [2026-06-03] ingest | Daily digest 2026-06-03 | digest
+## [2026-06-03] ingest | Media Live morning synthesis 2026-06-03 | twitter
+## [2026-06-03] lint | concept updates: kv-cache, knowledge-distillation, rl-for-llms, responsible-ai | concept
