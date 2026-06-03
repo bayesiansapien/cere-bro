@@ -54,7 +54,7 @@ The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a
 | **3 — Broad horizon** | Vision / audio / video models (multimodal, vision-language, image and video generation, speech) | Quick Hits only, unless directly relevant to routing or efficiency. |
 | **4 — Low interest** | 3D mapping, spatial reconstruction, robotics hardware, game benchmarks unrelated to efficiency | One sentence or skip. |
 
-**When a paper spans tiers**, treat it at the highest applicable tier. **Global View** should actively surface cross-paper patterns in Tier 1 areas. **Worth Watching** bullets should prioritize falsifiable predictions about Tier 1 open problems.
+**When a paper spans tiers**, treat it at the highest applicable tier. **Global View** should actively surface cross-paper patterns in Tier 1 areas. **Looking Ahead** bullets should prioritize falsifiable predictions about Tier 1 open problems.
 
 ---
 
@@ -132,7 +132,7 @@ All four are mandatory. All are idempotent — running them twice is safe. If an
 
 **Step 5 — Read Twitter/X (always).** Find the most recent `raw/twitter/YYYY-MM-DD-*.md` file(s). Read them. The file has two sections: (a) @bayesiansapien's retweets — treat these like starred Gmail, every retweet is a curated signal worth reading; (b) AI handle feed — original tweets from Anthropic, xAI, Google Research, NVIDIA, Cursor, and others, pre-filtered by AI keywords. For retweets with article content attached, the article content is the primary source.
 
-**Step 6 — Read Kurate leaderboards (always).** Find `raw/kurate/YYYY-MM-DD-cs-ai.md` and `raw/kurate/YYYY-MM-DD-cs-lg.md` for the target date. These are weekly arXiv leaderboards ranked by 3-LLM tournaments — quality signal, not popularity. **Cross-source rule (mandatory):** any paper appearing in BOTH today's HuggingFace top AND the current week's Kurate top-20 is HIGH CONVICTION. Surface it as Tier 1 in Deep Dives regardless of topic, and label the entry "cross-source confirmed (HF + Kurate)". Papers that are top-5 on Kurate but missing from HF are "LLM-rated underrated" — flag in Worth Watching with the ai_rating, kurate score, and a one-line reason to track. Use the inferred `tier=N` line in each Kurate entry to weight space allocation: Tier 1 entries earn Deep Dive coverage; Tier 4 skip. Also read `raw/kurate/YYYY-MM-DD-rising-authors.md` — if any authors crossed threshold, add a "Rising authors from Kurate" sub-section to Worth Watching naming each author with one of their top papers, and suggest in prose whether to add them to `connectors/twitter/config.json:ai_handles` (you'll need to find the handle manually).
+**Step 6 — Read Kurate leaderboards (always).** Find `raw/kurate/YYYY-MM-DD-cs-ai.md` and `raw/kurate/YYYY-MM-DD-cs-lg.md` for the target date. These are weekly arXiv leaderboards ranked by 3-LLM tournaments — quality signal, not popularity. **Cross-source rule (mandatory):** any paper appearing in BOTH today's HuggingFace top AND the current week's Kurate top-20 is HIGH CONVICTION. Surface it as Tier 1 in Deep Dives regardless of topic, and label the entry "cross-source confirmed (HF + Kurate)". Papers that are top-5 on Kurate but missing from HF are "LLM-rated underrated" — flag in Looking Ahead with the ai_rating, kurate score, and a one-line reason to track. Use the inferred `tier=N` line in each Kurate entry to weight space allocation: Tier 1 entries earn Deep Dive coverage; Tier 4 skip. Also read `raw/kurate/YYYY-MM-DD-rising-authors.md` — if any authors crossed threshold, add a "Rising authors from Kurate" sub-section to Looking Ahead naming each author with one of their top papers, and suggest in prose whether to add them to `connectors/twitter/config.json:ai_handles` (you'll need to find the handle manually).
 
 **Step 7 — Read Reddit (always).** Read all `raw/reddit/YYYY-MM-DD-r-*.md` files for the target date (eight subreddits: LocalLLaMA, MachineLearning, MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning). Each post entry carries a `tier=N` line set from the subreddit's `tier_default`. **Treatment rules:**
 - **LocalLLaMA, MLScaling, CUDA, HPC (tier_default=1)** — practitioner reports on quantization, kernel work, KV cache hacks, scaling-law observations. Posts that confirm/contradict an HF or Kurate paper go in Global View with the prior paper named. Substantive technical posts (a new GGUF quant family, a kernel benchmark, a hardware deep dive) deserve a short Deep Dive or a generous Quick Hit. Skip pure rig-show-off / "look at my 8x4090" posts.
@@ -178,7 +178,7 @@ The wiki is a living knowledge base, not a collection of daily snapshots. The un
 For every incoming source, before writing its summary or the day's digest:
 
 1. **Read the relevant concept pages** — `wiki/<concept>/<concept-name>.md`. This is the most efficient memory lookup: concept pages compress all prior work on a topic into one page. They tell you the prior state of knowledge, the open questions, and which papers established the current baseline.
-2. **Scan recent digests** — the last 5–7 daily digests in `wiki/daily-digest/YYYY-MM/`. Look specifically for "Worth Watching" bullets or open questions from prior days that today's papers might address. The digest files also carry the narrative thread of how thinking in this area has evolved.
+2. **Scan recent digests** — the last 5–7 daily digests in `wiki/daily-digest/YYYY-MM/`. Look specifically for "Looking Ahead" bullets or open questions from prior days that today's papers might address. The digest files also carry the narrative thread of how thinking in this area has evolved.
 3. **Read prior summary pages directly** when a prior paper is in the same narrow area (same method family, same benchmark, same problem). Read it before writing about today's paper, not after.
 
 This does not mean reading everything. Concept pages are the entry point. If a concept page flags a prior paper as directly relevant, then go read that summary. Otherwise, the concept page is sufficient context.
@@ -202,8 +202,8 @@ When two papers conflict, do not pick a winner. Name both, state the specific po
 
 Always trace the explicit thread: this paper addresses the open question that was raised on [date] in [paper/digest].
 
-**Worth Watching resolution — a prediction comes true (or fails):**
-> "On 04-17, Worth Watching predicted that a verifier-based approach could close the pass@20 gap that prompt diversity cannot. VGF is not a verifier — but its transport-budget mechanism is the first concrete alternative proposal. Partial resolution."
+**Looking Ahead resolution — a prediction comes true (or fails):**
+> "On 04-17, Looking Ahead predicted that a verifier-based approach could close the pass@20 gap that prompt diversity cannot. VGF is not a verifier — but its transport-budget mechanism is the first concrete alternative proposal. Partial resolution."
 
 When today's paper touches a prior prediction, name the prediction, the date it was made, and what today's paper changes about the prediction's status.
 
@@ -228,7 +228,7 @@ Write:
 
 The second version carries the context. Every paper reference includes the one specific claim that made it matter. A reader meeting LongAct for the first time gets the gist immediately. A reader returning a month later doesn't have to look anything up.
 
-**Apply this in:** TL;DR bullets, Deep Dive opening hooks, Global View, Worth Watching, and any cross-day reference anywhere. Length is not the constraint; clarity is. Let the digest run longer if it has to.
+**Apply this in:** TL;DR bullets, Deep Dive opening hooks, Global View, Looking Ahead, and any cross-day reference anywhere. Length is not the constraint; clarity is. Let the digest run longer if it has to.
 
 **The gloss should be specific, not generic.** A bad gloss is "LongAct (the paper about training signal concentration)." A good gloss is "LongAct (the paper that showed long-context gradient signal is concentrated in the first 5% of tokens)." Specific is short and lands the why.
 
@@ -431,7 +431,7 @@ industry signal, omit this section entirely rather than fabricating threads.
 
 ## Looking Ahead
 
-Renamed from Worth Watching. Forward-looking falsifiable predictions only.
+Renamed from Looking Ahead. Forward-looking falsifiable predictions only.
 
 **Format**: 2-5 bullets max. Each bullet has three required parts:
 
@@ -515,7 +515,7 @@ Big Picture and Global View are the unique value of this digest. Any reader can 
 "This is the third paper this month showing that benchmark accuracy doesn't predict deployment robustness — a measurement crisis is forming." That's worth reading. "This paper is interesting" is not. Name the tension, take the position.
 
 **7. Future implications must be falsifiable.**
-Worth Watching bullets should name a specific claim and a timeframe — "if DSRL generalizes beyond math to open-ended reasoning, it could replace SFT→RLVR by Q3 2026." Not "this is important to watch." Prioritize Tier 1 predictions.
+Looking Ahead bullets should name a specific claim and a timeframe — "if DSRL generalizes beyond math to open-ended reasoning, it could replace SFT→RLVR by Q3 2026." Not "this is important to watch." Prioritize Tier 1 predictions.
 
 **8. Skip the boring stuff without apology.**
 Datasette changelogs get a sentence. Hype posts get nothing. Tier 4 spatial/3D work gets one line in Quick Hits at most. Length is not depth.
@@ -526,7 +526,7 @@ The digest is not a fresh scan of today's papers. It is today's papers read by a
 **10. The reader does not remember every paper. Carry the context for them.**
 This is the most important rule. The wiki is the memory; the reader is not expected to be. Every time the digest references a prior paper, prior result, or prior concept by name, it must include a one-clause gloss of what that paper actually claimed, right there in the sentence. Not just "the Extrapolation Cliff paper from 05-14" — write "the Extrapolation Cliff paper from 05-14, which found a closed-form threshold above which on-policy distillation collapses." See the "How to write when you have prior context" section above for the worked example.
 
-This applies in: TL;DR bullets, Big Picture paragraphs, every Deep Dive's hook line, Global View (where it matters most), Worth Watching, and any cross-day reference in any section. Acronyms get the same treatment on first mention in a given section: "MoE (mixture-of-experts, where each token routes through a small subset of specialized sub-networks)" not just "MoE." Length is not the constraint, clarity is. A digest that runs longer because every reference carries its own context is doing the right thing. A digest that name-drops papers and trusts the reader's memory is doing the wrong thing.
+This applies in: TL;DR bullets, Big Picture paragraphs, every Deep Dive's hook line, Global View (where it matters most), Looking Ahead, and any cross-day reference in any section. Acronyms get the same treatment on first mention in a given section: "MoE (mixture-of-experts, where each token routes through a small subset of specialized sub-networks)" not just "MoE." Length is not the constraint, clarity is. A digest that runs longer because every reference carries its own context is doing the right thing. A digest that name-drops papers and trusts the reader's memory is doing the wrong thing.
 
 **Test your draft against this question:** could a smart tech-literate reader who has not been tracking AI research weekly follow at 60-70% on first read? If no, the digest needs more in-place context.
 
