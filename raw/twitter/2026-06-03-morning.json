@@ -1,0 +1,905 @@
+{
+  "date": "2026-06-03",
+  "slot": "morning",
+  "scraped_ist": "2026-06-03 09:09",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've updated /fork in Claude Code /fork now runs a background agent with your exact context (system prompt, tools, history, model) and prompt cache. The result gets returned to your session. /branch (the old /fork) still copies the transcript to a new session you drive. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2061947411141169494#m",
+          "date_utc": "2026-06-02T23:05:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061947046601580544%2Fimg%2FCUrE-NaUODgooVpu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "How do you get Claude Code to check its own work before handing it back? Watch how you can encode your manual checks so Claude closes its own feedback loop: Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2061900434722496604#m",
+          "date_utc": "2026-06-02T19:59:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061899149193408512%2Fimg%2FAf9ZBER6sbtJum8-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Code knows how to use ant using the built-in \"/claude-api\" skill Ask it to list your sessions, upload a folder of PDFs, or debug a run. It shells out to the CLI and reads the results back without any glue code. Install with brew, curl, or go: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2061877352725200963#m",
+          "date_utc": "2026-06-02T18:27:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2059926512045060096%2FIpy-h-WQ%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/api/sdks/cli",
+              "content": "CLI - Claude API Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Loading... Messages Managed Agents Admin Resources API reference English Console Log in Search... ⌘K Client SDKs Overview CLI Python SDK TypeScript SDK Java SDK Go SDK Ruby SDK C# SDK PHP SDK OpenAI SDK compatibility Log in Client SDKs CLI Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Solutions AI agents Code modernization Coding Customer"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "The CLI can kick off a Managed Agents session, send it an event, and the agent goes to work: reasoning, calling tools, working toward an answer. When it's done (or stuck), pull the trace: every event, every tool call, every decision is retrievable from the same CLI. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2061877351253004619#m",
+          "date_utc": "2026-06-02T18:27:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061872350854074368%2Fimg%2FQFzB5uFGhOU4qGeP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Use the ant CLI to create and update Claude Managed Agents, locally or from CI. Version control your agent as YAML in Git and have CI run \"ant beta:agents update\" to sync changes to the Claude Platform. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2061877349629759847#m",
+          "date_utc": "2026-06-02T18:27:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061871959676534784%2Fimg%2F12GreDayuEKqHqUp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Every API resource is a subcommand, including messages, models, and files. Build requests from typed flags or piped YAML, inline a file with @.path, reshape any response with --transform. Output as json, yaml, jsonl, or explore (default) for a TUI you can fold and search. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2061877346790191615#m",
+          "date_utc": "2026-06-02T18:27:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061871770311995392%2Fimg%2F85cTkz5mxm53o0Z9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "For interactive login, the CLI supports \"ant auth login\". This runs a browser OAuth flow, scopes the token to a workspace, and stores it for you. That one credential is then used by the CLI (and even the SDKs) to authenticate your API calls.",
+          "link": "https://nitter.net/ClaudeDevs/status/2061877344772722848#m",
+          "date_utc": "2026-06-02T18:27:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ09OuEbgAALw2M.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’ve added a CLI for Claude Platform to make every API endpoint runnable from your terminal. Call the Messages API, stand up Claude Managed Agents, pipe results straight into your shell. The ant CLI is well understood by coding agents (Claude Code) using the claude-api skill. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2061877343078244459#m",
+          "date_utc": "2026-06-02T18:27:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061871247966052352%2Fimg%2FnhZgJG2gNAvYSYLB.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The reeducation of an AI influencer. Me. Lately I am questioning all my assumptions. Part of that is just watching the AI and robotics industry in a constant state of radical change. Change that just is hard to predict. Nine months ago how many knew what a Hermes or OpenClaw was? This week both got featured at industry conferences this week alone. So I am meeting with founders more just to talk and get a new education with no expectations of recording video. Axel Peytavin, @ax_pey , founder of @innate_bot , has been so nice to me over the years (he has me over when his company was a bedroom in",
+          "link": "https://nitter.net/Scobleizer/status/2061954227795370391#m",
+          "date_utc": "2026-06-02T23:32:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2IaQVacAEhkWd.jpg",
+            "https://nitter.net/pic/media%2FHJ2IaQUbMAAvhxZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Both had big announcements today.",
+          "link": "https://nitter.net/Scobleizer/status/2061916237861695836#m",
+          "date_utc": "2026-06-02T21:01:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Hermes vs OpenClaw is the new Mac vs Windows, isn’t it?",
+          "link": "https://nitter.net/Scobleizer/status/2061916080231375258#m",
+          "date_utc": "2026-06-02T21:01:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Read and subscribe: unaligned.io",
+          "link": "https://nitter.net/Scobleizer/status/2061905699777687565#m",
+          "date_utc": "2026-06-02T20:20:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2060916252386734083%2Ft0JCfm99%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 13 hours ago ​​​​​​The AI IPO Race Robert Scoble, +1 May 26, 2026 ​​​​​​AI Regulation Becomes a Moral Issue Robert Scoble, +1 May 19, 2026 ​​​​​​AI Work Intelligence Platforms The Future of Productivity Robert Scoble, +1 May 12, 2026 ​​​​​​AI-Powered Cyberattacks A New Security Threat Robert Scoble, +1 May 05, 2026 ​​​​​​AI Agents and the New Enterprise Workforce Layer Robert Scoble, +1 Apr 28, 2026 ​​​​​​The Rise of AI Native Companies Robert Scoble, +1 Apr 21, 2026 ​​​​​​Why AI Competition Is Becoming a Platform War Robert Scoble, +1 Apr 14, 2026 ​​​​​​The Rise of AI Middle Managers Robert Scoble, +1 Apr 07, 2026 ​​​​​"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "For our free newsletter this week, we write about the AI IPO race. @IrenaCronin and I write this newsletter every week. The AI IPO race shows that AI companies are moving into a new stage. Instead of only competing over better models and products, companies like Anthropic, OpenAI, and SpaceX now need huge amounts of money to build data centers, buy compute, and support growing demand. The big question is whether public investors will believe these companies are worth their massive valuations and can become strong, profitable businesses.",
+          "link": "https://nitter.net/Scobleizer/status/2061905523658870947#m",
+          "date_utc": "2026-06-02T20:19:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1cHOqaoAAmNyO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Use your DNA report for something useful. Hongjian Zhou (@itsEmZee_) Introducing Genomi: an open-source agent harness that turns your AI agent into your personal DNA expert. I took a DNA test years ago. Like a lot of people, I got the report, found something interesting, and forgot about it. Recently I gave the data to my codex agent and it was obvious how incredibly useful DNA is for personal health, but: General AI can sound right while being wrong Static DNA reports can’t keep up with new science DNA data should stay on your local device, not uploaded to a website So we built Genomi, local-",
+          "link": "https://nitter.net/Scobleizer/status/2061898522379813255#m",
+          "date_utc": "2026-06-02T19:51:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061794974899814400%2Fimg%2FXb35PNNRGwjDo40i.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Silicon Valley and San Francisco: prove you still read great books on starting companies. I have mine, will show up to get it signed. As a book author myself, these are great places to meet smart people who care about learning. And isn't that the kind of person you want to hang out with more? Eric Ries (@ericries) Tonight in Menlo Park. Kepler's Books, with Kim Scott. One week after launch. Come by. — https://nitter.net/ericries/status/2061841054106529868#m",
+          "link": "https://nitter.net/Scobleizer/status/2061848423947723236#m",
+          "date_utc": "2026-06-02T16:32:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0hgwSX0AAp5Pn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "First reshare. Interesting that the Chinese are going after work, been playing with a bunch, will give this a try and review in future. Another, @timeglassai , watches my screens and apps and, well, literally everything I do, and helps me a lot. That one is from Texas. These things are scary to use because of privacy and security. But if you get over that they sure do help a lot. Will everyday people use them? Probably after Microsoft just does the same. :-) Tencent WorkBuddy (@WorkBuddy_AI) One prompt. A whole week of work, done. We called in WorkBuddy's data analysis Expert and got back: — 4",
+          "link": "https://nitter.net/Scobleizer/status/2061845910020317214#m",
+          "date_utc": "2026-06-02T16:22:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061820661186842624%2Fimg%2FJ2AEez2evTK3SJ8-.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Saving money is critical, but fighting fraud is also about saving the lives of the most vulnerable Americans and the programs they rely on. Well said, @DrOzCMS . DrOzCMS (@DrOzCMS) Under @VP JD Vance’s @WHFraudTF — American tax dollars are being SAVED, and health care and hospice fraudsters are being HELD ACCOUNTABLE. Video — https://nitter.net/DrOzCMS/status/2061882334731735236#m",
+          "link": "https://nitter.net/WHFraudTF/status/2061974899367768326#m",
+          "date_utc": "2026-06-03T00:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061881425771532288%2Fimg%2Fff1npC_OARg5SAQD.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "The spice must flow",
+          "link": "https://nitter.net/__tinygrad__/status/2061878256631181434#m",
+          "date_utc": "2026-06-02T18:30:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1CmQIbcAADPSt.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "The most exciting company in biology - very happy to double down on this round! NewLimit (@newlimit) Following breakthrough results, we’re bringing longevity medicine to human trials. We’ve raised a $435M Series C led by @foundersfund to make it happen. Reprogramming cell age has the potential to create more healthy years for everyone. We're closer than ever to realizing it. Video — https://nitter.net/newlimit/status/2061849237156159511#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2061866668557795547#m",
+          "date_utc": "2026-06-02T17:44:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061847844634660864%2Fimg%2Fu7mGGJpvz4xbi1bn.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Test here apps.apple.com/fr/app/argii-…",
+          "link": "https://nitter.net/brivael/status/2062011952294240386#m",
+          "date_utc": "2026-06-03T03:22:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://apps.apple.com/fr/app/argii-ai-video-creator-app/id6755382056?l=en-GB",
+              "content": "âArgiI - AI Video Creator App App - App Store for iPhone iPhone iPad Mac Vision Watch TV Search Today Games Apps Arcade Platform iPhone iPad Mac Vision Watch TV ArgiI - AI Video Creator App Viral Clip Reel Generator Only for iPhone Free Â· In-App Purchases Share 1 Rating 5.0 Age Rating 4+ Years Category Photo Video Developer Argil, Inc Language EN English Size 170.6 MB iPhone Turn one idea into a viral video. No camera. No editing. No face required. 10M+ views already generated by creators using Argil. Argil is the AI video engine for creators who move fast. Describe what you want, drop in a reference photo or your AI avatar, and get a scroll-stopping video ready to post â in minutes, not hours. WHAT MAKES ARGIL DIFFERENT â¢ Your face, or no face at all â train an AI avatar from a s"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Fully generated using @argildotai The iOS app is so stunning! We built the best team ever. So great! Video",
+          "link": "https://nitter.net/brivael/status/2062011020638560631#m",
+          "date_utc": "2026-06-03T03:18:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062010947875766272%2Fimg%2FLRrLkitFt27XpOw8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Only philosophy that’s matter Elonogy (@ElonogyX) Elon Musk: “The woke religion is fundamentally an extinctionist belief system. I think we want to be expansionists. We want to expand to the stars.” — https://nitter.net/ElonogyX/status/2061983964861018387#m",
+          "link": "https://nitter.net/brivael/status/2061988560274874595#m",
+          "date_utc": "2026-06-03T01:49:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2jfNSXkAAJgMJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "10 mois d'endoctrinement au gauchisme on va appeler ça les jeunesse glucksienne Alexandre Allegret-Pilot (@AllegretPilot) Encore une « idée novatrice » de notre Einstein de la politique. — https://nitter.net/AllegretPilot/status/2061894269397348650#m",
+          "link": "https://nitter.net/brivael/status/2061985820916265065#m",
+          "date_utc": "2026-06-03T01:38:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1R6HwXMAAaNd7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The end is soon The Conservative Alternative (@OldeWorldOrder) A silent war is being waged on our Western youth by the 3rd World savages who have invaded our countries. This is not sustainable. — https://nitter.net/OldeWorldOrder/status/2061924458269434262#m",
+          "link": "https://nitter.net/brivael/status/2061984443380941300#m",
+          "date_utc": "2026-06-03T01:32:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1n-VuXUAAl9id.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je vais t'expliquer un truc énorme sur l'IA. Pourquoi OpenAI et Anthropic, qui valent presque 1000 milliards de dollars chacun, pourraient un jour se faire racheter pour trois fois rien. Et pourquoi Elon pourrait tout rafler. Avec des mots qu'un enfant de 8 ans comprend. Imagine un grand concours dans la cour de récré. Tout le monde doit construire un robot qui répond à toutes les questions. Le robot le plus malin gagne des bonbons. Plein de bonbons. Au début c'est génial. Chaque semaine, quelqu'un rend son robot un peu plus malin, et il rafle tous les bonbons. Du coup tout le monde dépense un",
+          "link": "https://nitter.net/brivael/status/2061983729665593621#m",
+          "date_utc": "2026-06-03T01:30:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Why do the OpenAI and Anthropic logos look like assholes? Once you see it, you can't unsee it.",
+          "link": "https://nitter.net/brivael/status/2061980548491555282#m",
+          "date_utc": "2026-06-03T01:17:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2gKQKaAAA01Kq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Es qu'on va pouvoir rendre la vue aux gauchistes sur l'économie et le côté toxique de l'état ? Interesting AF (@interesting_aIl) Neuralink is testing a device to help restore vision in people born blind Early human trials are expected late 2026 — https://nitter.net/interesting_aIl/status/2061824114415833299#m",
+          "link": "https://nitter.net/brivael/status/2061978845176328688#m",
+          "date_utc": "2026-06-03T01:10:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0SFPqXcAE4NX-.jpg",
+            "https://nitter.net/pic/media%2FHJ0SFPsXwAAVRsb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "You can apply that to startups too. World of Science (@Science_TechTV) “Try not to become a man of success, but rather try to become a man of value” -Albert Einstein — https://nitter.net/Science_TechTV/status/2061733497761345636#m",
+          "link": "https://nitter.net/brivael/status/2061975133867376773#m",
+          "date_utc": "2026-06-03T00:55:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJy_rfvXMAA6Jxw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Burnie Senders (@BurnieSendersX) Comrade, we destroy the creators of wealth. We destroy the producers. We destroy everything that generates real money. Then we act surprised when the safe is empty. This is not hypocrisy. This is the plan. ☭ — https://nitter.net/BurnieSendersX/status/2061942950414655600#m",
+          "link": "https://nitter.net/brivael/status/2061963180189106447#m",
+          "date_utc": "2026-06-03T00:08:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1-LQnW0AADxqB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Reprenons. \"Aucune mention que c'est de l'IA\" : ça n'a strictement rien à voir avec le droit des marques. Aucune règle fédérale américaine n'impose ce marquage aujourd'hui, et en tout cas ce n'est ni le Lanham Act ni la dilution. Tu mélanges deux sujets sans aucun rapport. \"Atteinte à l'image de Ferrari\" : c'est l'angle de la dilution par ternissement (15 U.S.C. 1125c). Sauf que ce même texte exclut EXPRESSÉMENT de son champ la parodie, la critique et le commentaire d'une marque (1125c-3). Une vidéo satirique où je tire sur la \"Ferrari woke\" est par définition de la critique et de la parodie. ",
+          "link": "https://nitter.net/brivael/status/2061957616830648554#m",
+          "date_utc": "2026-06-02T23:46:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faudra, un jour, faire le Nuremberg du wokisme. Mais pour la première fois dans l'histoire, il n'y aura pas de bourreau à juger. Pas d'homme à pointer du doigt. Seulement des idées. Une empathie devenue folle, une compassion poussée jusqu'au suicide, qui a fini par retourner les menottes contre les innocents qu'elle prétendait protéger. Le tribunal ne sera donc pas pénal, il sera intellectuel. Le verdict ne tombera pas dans un prétoire, mais dans les livres d'histoire. Et ce que nous observons en ce moment, ces scènes insoutenables, un gamin qu'on laisse mourir au sol au nom d'un dogme, ce ",
+          "link": "https://nitter.net/brivael/status/2061953043659407862#m",
+          "date_utc": "2026-06-02T23:28:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Foucault, Derrida, Deleuze. Trois intellectuels qui, dans les années 60, pondent des livres illisibles au fond d'amphis parisiens. Aucun n'a jamais tenu une arme. Aucun n'a jamais entendu parler de Southampton. Et pourtant, soixante ans plus tard, c'est leur idée qui tient la main qui menotte Henry Nowak, 18 ans, pendant qu'il se vide de son sang. Comment passe-t-on de l'un à l'autre? Il n'y a pas de hasard. Il y a une ligne droite. Je vais vous la dérouler, maillon par maillon. Premier maillon. Ces philosophes lâchent une idée d'apparence inoffensive: la vérité ne serait jamais neutre, ce ser",
+          "link": "https://nitter.net/brivael/status/2061952040151158882#m",
+          "date_utc": "2026-06-02T23:24:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061554141118263297%2Fimg%2Fc9_skB0fApAPI3wf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Alice Smith (@TheAliceSmith) We’re called ‘fascists’ because we believe in equality under the law. They’re called ‘liberals’ because they believe in the supremacy of certain groups within the law. — https://nitter.net/TheAliceSmith/status/2061936077510721959#m",
+          "link": "https://nitter.net/brivael/status/2061951412679172211#m",
+          "date_utc": "2026-06-02T23:21:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "nitter.net/brivael/status/2061949… Brivael Le Pogam (@brivael) Je me suis longtemps passionné pour la psychologie, et une période m'obsède plus que toutes les autres. L'après-guerre. Le moment où des chercheurs se sont posé la question la plus dérangeante du siècle: comment l'Allemagne nazie avait-elle transformé des pères de famille ordinaires en bourreaux de camp? La réponse, ils ne l'ont pas trouvée chez des monstres. Ils l'ont trouvée chez des hommes parfaitement banals. Hannah Arendt a appelé ça la banalité du mal. L'historien Christopher Browning, en étudiant le bataillon de réserve 101 ",
+          "link": "https://nitter.net/brivael/status/2061949857896783889#m",
+          "date_utc": "2026-06-02T23:15:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "voila pourquoi le wokisme doit être détruit c'est la pire des merdes Brivael Le Pogam (@brivael) Je me suis longtemps passionné pour la psychologie, et une période m'obsède plus que toutes les autres. L'après-guerre. Le moment où des chercheurs se sont posé la question la plus dérangeante du siècle: comment l'Allemagne nazie avait-elle transformé des pères de famille ordinaires en bourreaux de camp? La réponse, ils ne l'ont pas trouvée chez des monstres. Ils l'ont trouvée chez des hommes parfaitement banals. Hannah Arendt a appelé ça la banalité du mal. L'historien Christopher Browning, en étu",
+          "link": "https://nitter.net/brivael/status/2061949811851665881#m",
+          "date_utc": "2026-06-02T23:15:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je me suis longtemps passionné pour la psychologie, et une période m'obsède plus que toutes les autres. L'après-guerre. Le moment où des chercheurs se sont posé la question la plus dérangeante du siècle: comment l'Allemagne nazie avait-elle transformé des pères de famille ordinaires en bourreaux de camp? La réponse, ils ne l'ont pas trouvée chez des monstres. Ils l'ont trouvée chez des hommes parfaitement banals. Hannah Arendt a appelé ça la banalité du mal. L'historien Christopher Browning, en étudiant le bataillon de réserve 101 (des policiers d'âge mûr, des pères, des commerçants), a montré",
+          "link": "https://nitter.net/brivael/status/2061949687012495512#m",
+          "date_utc": "2026-06-02T23:14:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061554141118263297%2Fimg%2Fc9_skB0fApAPI3wf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le ₿unker 🪖 (@LeBunkerBtc) L'application iOS de Bivael Le Program est disponible les reviews sont exceptionnelles 🤌 — https://nitter.net/LeBunkerBtc/status/2061946929567641985#m",
+          "link": "https://nitter.net/brivael/status/2061947284640907642#m",
+          "date_utc": "2026-06-02T23:05:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2CIPkaIAAvP1-.jpg",
+            "https://nitter.net/pic/media%2FHJ2BzEFWAAAzB9G.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "And URSS as fuck ? Yann Decoopman (@YannDecoopman) Of course, AI is expensive but have you met URSSAF ? — https://nitter.net/YannDecoopman/status/2061790120882098223#m",
+          "link": "https://nitter.net/brivael/status/2061947064649675248#m",
+          "date_utc": "2026-06-02T23:04:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "A great cloud agent experience involves a lot more than moving a local agent to a server. We've learned that it requires a durable execution platform, a powerful harness, and the tools and infra to give agents realistic development environments. cursor.com/blog/cloud-agent-…",
+          "link": "https://nitter.net/cursor_ai/status/2061878340265656620#m",
+          "date_utc": "2026-06-02T18:31:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2060678033154162688%2FQ4-zXIsb%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://cursor.com/blog/cloud-agent-lessons",
+              "content": "What we’ve learned building cloud agents · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / research Jun 2, 2026 · research What we’ve learned building cloud agents Josh Ma · 9 min read Table of Contents ↑ The development environment is the product Long-running agents need durable execution Decoupling agents and machines from conversation state Knowing how to get out of the way Self-healing agent environments When we first launched cloud agents a year ago, they seemed like a straightforward extension of local agents. Since then, cloud agent capabilities have expanded considerably"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "What if Grok Imagined us together",
+          "link": "https://nitter.net/imagine/status/2061898257370906659#m",
+          "date_utc": "2026-06-02T19:50:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The screenshot version of AI engineering is 100 agents in 100 tabs. The real version is 2 or 3 you actually steer, because of one rule almost nobody talks about: ** if a human can't review the output in one sitting, the task was too big. ** We learned that the expensive way, across 40 trillion tokens. kilo.codes/s2dozWd",
+          "link": "https://nitter.net/kilocode/status/2061937660478779876#m",
+          "date_utc": "2026-06-02T22:27:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ15X-wXAAE0wiT.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/s2dozWd",
+              "content": "What We Learned from 3 Million Downloads of Kilo Code Kilo Blog Subscribe Sign in What We Learned from 3 Million Downloads of Kilo Code The lessons from building the most popular open source coding agent aren't obvious. Brendan O'Leary May 29, 2026 8 1 Share Three million downloads mostly tells you one thing: the quiet assumptions in your product are now load-bearing. Kilo Code started as a VS Code extension with a small team, a fork of Roo Code, and a simple bet: open source coding agents would improve faster if developers could inspect them, run them, complain about them, and contribute back. A year later, Kilo has crossed 3M+ Kilo Coders, processed more than 40 trillion tokens, and grown past the editor sidebar into VS Code , JetBrains , CLI , Cloud Agents , Slack , code review , deploy"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Your coding agent is going to get ripped out. The question is whether your workflow has the core strength to survive it. * Roo Code: archived. * Antigravity: bait and switched into a chatbot overnight. Both in the same week. Build something that doesn't fold the second a vendor pivots. kilo.codes/IXvdzzV",
+          "link": "https://nitter.net/kilocode/status/2061874217075765605#m",
+          "date_utc": "2026-06-02T18:14:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0_SBJWoAAzJ4P.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/IXvdzzV",
+              "content": "Your Coding Agent Will Get Ripped Out. Build Workflows That Survive It. Kilo Blog Subscribe Sign in Your Coding Agent Will Get Ripped Out. Build Workflows That Survive It. Job Rietbergen Jun 02, 2026 9 1 Share Roo Code shut down May 15th . 3 million installs, 23,000 GitHub stars, one of the most influential open-source agents of the last 18 months. Their reasoning, in their own words: “IDEs are not the future of coding.” They’re going all-in on a cloud agent called Roomote. Same week, Google shipped Antigravity 2.0 as a background update. Users launched their IDE and got a chatbot instead . The old binary still existed, buried at the bottom of a download page, but the new version aggressively rewrote application paths, so running both was impossible without a full purge. Chat histories and"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "I got to spend all day today with Jensen in Taiwan: talking with thousands of engineers and eating street food at a night market. Jensen is received as a rockstar in Taiwan, like it's Beatles in the 60's. It's mind-blowing and fun to watch. But most importantly, through all the interactions and all my conversations with him, he remained the same humble, kind, thoughtful, funny guy he always was, even as a kid who went to these same night markets many years ago. Btw, we tried a crazy amount of different street food. It's legit some of the most delicious food I've ever had. I can't wait to share",
+          "link": "https://nitter.net/lexfridman/status/2061847191367647457#m",
+          "date_utc": "2026-06-02T16:27:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0j2fca8AAfpRW.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BABE WAKE UP NEW HERMES DROPPED Nous Research (@NousResearch) The next evolution of Hermes Agent is here! Introducing Hermes Desktop: everything you love about Hermes, now native on your machine. First demoed in Jensen's GTC keynote, it's now in public preview. Video — https://nitter.net/NousResearch/status/2061843507417944552#m",
+          "link": "https://nitter.net/ns123abc/status/2061899221234541001#m",
+          "date_utc": "2026-06-02T19:54:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0jlUAWsAEsYRd.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "We are partnering with @Microsoft to enable secure, user-controlled AI on Windows. NVIDIA OpenShell runtime for agents will provide governance tools, policy enforcement, and smart local-to-cloud query routing. Learn more: nvda.ws/4uKWxaB",
+          "link": "https://nitter.net/nvidia/status/2061961069212377313#m",
+          "date_utc": "2026-06-03T00:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ2OqO3XgAAwo7E.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uKWxaB",
+              "content": "Enterprise Software Leaders Build AI Agents With NVIDIA | NVIDIA Newsroom Artificial Intelligence Computing Leadership from NVIDIA --> PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email ic_arrow-back-to-top Enterprise Software Leaders"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Some of the best conversations happen over great food. 🍧 @lexfridman + Jensen + night markets = one of the best evenings in Taipei. Lex Fridman (@lexfridman) I got to spend all day today with Jensen in Taiwan: talking with thousands of engineers and eating street food at a night market. Jensen is received as a rockstar in Taiwan, like it's Beatles in the 60's. It's mind-blowing and fun to watch. But most importantly, through all the interactions and all my conversations with him, he remained the same humble, kind, thoughtful, funny guy he always was, even as a kid who went to these same night ",
+          "link": "https://nitter.net/nvidia/status/2061958661237592375#m",
+          "date_utc": "2026-06-02T23:50:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0j2fca8AAfpRW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The energy at GTC Taipei is unmatched. 💚 From packed sessions and live demos to conversations shaping what’s next in AI, here’s a look at the action across a show floor where innovation comes to life. Video",
+          "link": "https://nitter.net/nvidia/status/2061954287324766570#m",
+          "date_utc": "2026-06-02T23:33:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061954259596279808%2Fimg%2FwVHT9YKt_aY-5WMu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Taiwan isn’t just building AI infrastructure, it’s powering the world’s AI factory buildout. 👏 From fabs to factory floors, leaders like TSMC, Foxconn, QCT, Pegatron, and Wistron are using accelerated computing, digital twins, and AI agents to transform how AI systems are designed, built, and scaled. As NVIDIA Vera Rubin ramps into full production for agentic AI factories, Taiwan’s manufacturing leaders are showing how AI infrastructure becomes part of its own manufacturing engine. 🔗 Read the #NVIDIAGTC blog: nvda.ws/3S22WQl Video",
+          "link": "https://nitter.net/nvidia/status/2061916898925699414#m",
+          "date_utc": "2026-06-02T21:04:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061916835293827072%2Fimg%2F7hcYRb1Xbp7pAClY.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3S22WQl",
+              "content": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA | NVIDIA Blog Skip to content Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA Semiconductor and electronics manufacturing leaders are using NVIDIA AI to speed manufacturing from fabs to factory floors as they ramp up the production of NVIDIA Vera Rubin NVL72 infrastructure for agentic AI factories. May 31, 2026 by Timothy Costa 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory s"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "What does it take to build an AI factory ready for the agentic era? 80+ partners joined Jensen Huang at #NVIDIAGTC Taipei to show how NVIDIA MGX is making it possible. With NVIDIA Vera Rubin, 800 VDC, and partners spanning systems, power, and cooling, NVIDIA MGX is turning modular design into deployed AI infrastructure for the agentic AI era. ⚡ #NVIDIAGTC 🔗 nvda.ws/4fWqS1t Video",
+          "link": "https://nitter.net/nvidia/status/2061907873672941929#m",
+          "date_utc": "2026-06-02T20:28:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061905762428043265%2Fimg%2FVFYgVETBk3QAyN7C.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4fWqS1t",
+              "content": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI | NVIDIA Blog Skip to content NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI Rolling coverage on the conference, including NVIDIA founder and CEO Jensen Huang’s keynote, event highlights, live demos and on‑the‑ground color. May 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. This is the place to find all the latest — stay tuned to the blog for live updates. Jump to the keynote recap . T"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "NVIDIA DGX Station systems are beginning to arrive at the desks of developers and researchers. 📦 Enterprise teams can deploy data center-level performance locally with GB300-powered systems arriving from partners like @ASUS , @Dell , @GIGABYTEUSA , @HP , MSI and @Supermicro . 👉 Read the blog: nvda.ws/4x3VdBr",
+          "link": "https://nitter.net/nvidia/status/2061904438478970985#m",
+          "date_utc": "2026-06-02T20:15:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1PupXW4AAsFSP.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4x3VdBr",
+              "content": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI | NVIDIA Blog Skip to content NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI Rolling coverage on the conference, including NVIDIA founder and CEO Jensen Huang’s keynote, event highlights, live demos and on‑the‑ground color. May 21, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry leaders are converging to dive into the latest breakthroughs shaping every industry, covering topics spanning AI factories and scaling infrastructure to agentic and physical AI and more. This is the place to find all the latest — stay tuned to the blog for live updates. Jump to the keynote recap . T"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The AI era needs a new CPU. Meet NVIDIA Vera, 80% faster agentic task completion than x86. Built for AI factories. Built for what's next. The CPU for agents has arrived. 🔗 nvda.ws/4ugo9Uf Video",
+          "link": "https://nitter.net/nvidia/status/2061893154899366260#m",
+          "date_utc": "2026-06-02T19:30:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1Q5YoWcAAS_sB.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4ugo9Uf",
+              "content": "NVIDIA Vera—The CPU for Agents - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "At #MSBuild , @Microsoft and NVIDIA unveiled an end-to-end stack for developers scaling agentic AI, from Windows devices to cloud to local. One unified stack. Every layer accelerated. Highlights include: 💻 RTX Spark: Windows PCs purpose-built for personal agents 💡 NVIDIA open models on Microsoft Foundry, with Anthropic’s Claude models running natively on NVIDIA GB300 Blackwell Ultra systems on Azure 🚀 NVIDIA-accelerated Microsoft Fabric Data Warehouse with up to 6x faster SQL execution 🦞 NVIDIA OpenShell in GitHub Copilot: secure-by-design agent runtime 📣 Fairwater Wisconsin AI factory is live",
+          "link": "https://nitter.net/nvidia/status/2061885990705271191#m",
+          "date_utc": "2026-06-02T19:01:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ1KYc_XwAA5oqg.png"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4dL4Ygd",
+              "content": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local | NVIDIA Blog Skip to content NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local At Microsoft Build, the companies showcased how developers can build, run and scale agentic and physical AI across Windows devices, Azure cloud and local deployments through a unified accelerated computing stack. June 2, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "TAXPAYER FUNDED TEETH FOR METH HEADS!!! Video",
+          "link": "https://nitter.net/spencerpratt/status/2061942983348678740#m",
+          "date_utc": "2026-06-02T22:48:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061942855975993344%2Fimg%2FGRW5UyvTE9u5R20f.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Video",
+          "link": "https://nitter.net/spencerpratt/status/2061929334299082890#m",
+          "date_utc": "2026-06-02T21:53:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061922133979140096%2Fimg%2F6RXqub7tjzj-kzRN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "If you don't vote, I don't want to hear you ever complain about any of the filth, crime, or decline in LA again. Get off your butt and VOTE, or enjoy what you get.",
+          "link": "https://nitter.net/spencerpratt/status/2061905825573327281#m",
+          "date_utc": "2026-06-02T20:20:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Why is Adam Miller doing so poorly even after dumping $3M into his own campaign? Maybe it’s his bankrolling of alleged rapist Eric Swalwell. Or the $750K he took from FireAid. Either way, a vote for Miller is a waste of your vote. Vote Pratt today. Video",
+          "link": "https://nitter.net/spencerpratt/status/2061873185017270731#m",
+          "date_utc": "2026-06-02T18:10:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061872980771426304%2Fimg%2FCwdJvLtHdgNwuR8x.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
