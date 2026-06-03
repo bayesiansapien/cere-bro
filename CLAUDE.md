@@ -71,7 +71,10 @@ wiki/       ← LLM-owned synthesis (you write everything here)
   ai-routing/              ← LLM routing, multimodal routing, agent trajectory routing
   hardware/                ← GPU architecture, new chips, memory hierarchy
   ai-industry/             ← company news, product launches, funding, policy, regulation
-  social-stream/           ← Twitter/X slot syntheses + daily roll-ups (Media Live)
+  social-stream/           ← Twitter/X slot syntheses + daily roll-ups (raw social ingest)
+  media-zone/              ← daily synthesis of Twitter+YouTube+Reddit, topic-clustered
+    YYYY-MM/
+      YYYY-MM-DD.md  ← one Media Zone synthesis per day, written by morning cron
   daily-digest/
     YYYY-MM/
       YYYY-MM-DD.md  ← one newsletter per day
