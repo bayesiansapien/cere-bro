@@ -354,8 +354,23 @@ diagrams — they are banned.
   *Option B (fallback when no usable figure exists in the paper)*: write a
   Mermaid block. Mermaid renders as a real labeled diagram both on GitHub
   (native server-side rendering) and on the Astro site (client-side lazy
-  loader). Use `flowchart` or `graph` for architectures, `sequenceDiagram`
-  for call flows. Example:
+  loader). Three rules:
+
+  - **Use `flowchart LR` (landscape) by default.** Portrait (`TB`) makes the
+    reader scroll vertically on the digest page. Reserve `TB` for diagrams
+    with genuine multi-branch fan-out + merge that compresses badly horizontally
+    (e.g. split-then-merge pipelines with 3+ parallel branches).
+  - **Apply `classDef` colors per semantic node type** so the reader can read
+    structure at a glance. Standard palette:
+    - `classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a` — sources, inputs, queries
+    - `classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f` — gates, routers, conditionals
+    - `classDef output fill:#d1fae5,stroke:#10b981,color:#065f46` — results, outputs, protected items
+    - `classDef warn fill:#fee2e2,stroke:#ef4444,color:#7f1d1d` — failure modes, evicted items, clipped paths
+    - `classDef aux fill:#e0e7ff,stroke:#6366f1,color:#312e81` — secondary processes, side channels
+  - **Keep node labels short.** Multi-line via `<br/>`. Aim for 2-4 words per
+    line, max 3 lines per node.
+
+  Example:
 
       ```mermaid
       flowchart LR
@@ -364,6 +379,12 @@ diagrams — they are banned.
         R -->|hard| L[Frontier LM]
         S --> O[Output]
         L --> O
+        classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+        classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f
+        classDef output fill:#d1fae5,stroke:#10b981,color:#065f46
+        class Q input
+        class R decision
+        class S,L,O output
       ```
 
   If the paper genuinely has no architecture (a benchmark, a survey, a pure
