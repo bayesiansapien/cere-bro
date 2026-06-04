@@ -758,3 +758,20 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-03] ingest | Daily digest 2026-06-03 | digest
 ## [2026-06-03] ingest | Media Live morning synthesis 2026-06-03 | twitter
 ## [2026-06-03] lint | concept updates: kv-cache, knowledge-distillation, rl-for-llms, responsible-ai | concept
+## [2026-06-04] ingest | Gated Delta Networks get μP (scale-stable linear attention) | huggingface
+## [2026-06-04] ingest | Marin open dense→MoE pretraining recipe (~6x speedup) | twitter
+## [2026-06-04] ingest | MergePipe: budgeting expert reads for model merging | huggingface
+## [2026-06-04] ingest | FiRe-OPD: filter trajectories then soft-reweight tokens | huggingface
+## [2026-06-04] ingest | SDPG: self-distilled policy gradient (dense RLVR signal) | huggingface
+## [2026-06-04] ingest | ThoughtFold: folding redundant reasoning chains | huggingface
+## [2026-06-04] ingest | MemTrain: self-supervised context memory training | huggingface
+## [2026-06-04] ingest | StreamMA: streaming multi-agent reasoning + step-level scaling law | huggingface
+## [2026-06-04] ingest | DRIFT/TELBench: span-level error localization in agent trajectories | huggingface
+## [2026-06-04] ingest | Echo-Infinity: learned evolving memory for infinite video | huggingface
+## [2026-06-04] ingest | STRIDE: training data attribution via sparse recovery | huggingface
+## [2026-06-04] ingest | Cosmos 3: omnimodal world models (cross-source HF + NVIDIA) | huggingface
+## [2026-06-04] ingest | Perplexity hybrid local/cloud orchestrator | rss
+## [2026-06-04] ingest | Daily digest 2026-06-04 | digest
+## [2026-06-04] ingest | Media Live morning synthesis 2026-06-04 | twitter
+## [2026-06-04] ingest | Media Zone synthesis 2026-06-04 | media-zone
+## [2026-06-04] note | concurrent cron ingest detected; deduped 7 overlapping summary pages, kept cron canonical slugs + 5 unique pages (ThoughtFold, STRIDE, DRIFT, Cosmos 3, Perplexity routing) | ops
