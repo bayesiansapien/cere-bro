@@ -1,0 +1,145 @@
+{
+  "date": "2026-06-04",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-04 15:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "👏👏👏 Elon Musk (@elonmusk) Grok Imagine 1.5 at rank 1 — https://nitter.net/elonmusk/status/2062392619418959901#m",
+          "link": "https://nitter.net/brivael/status/2062393704984555915#m",
+          "date_utc": "2026-06-04T04:39:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "soon 500M",
+          "link": "https://nitter.net/brivael/status/2062392672539795952#m",
+          "date_utc": "2026-06-04T04:35:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ8XLe2a0AAte80.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Local AI Agents are leveling up across DGX Spark & RTX PCs. NVIDIA OpenShell is coming to Windows alongside new agentic AI optimizations and creator app updates—including NVIDIA Broadcast 2.2, plus upcoming RTX acceleration for Adobe apps and Blender. Learn More: nvda.ws/4fliRD7",
+          "link": "https://nitter.net/nvidia/status/2062232852561891718#m",
+          "date_utc": "2026-06-03T18:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ57kGCWEAAkPxW.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4fliRD7",
+              "content": "Faster Local AI Agents on RTX PCs and DGX Spark | NVIDIA Blog Skip to content NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark RTX Spark — a new beginning for PCs — announced at GTC Taipei at COMPUTEX, along with NVIDIA OpenShell bringing secure agents to Windows with 2x inference performance on llama.cpp; plus, Adobe rebuilds its apps with performance and memory enhancements, and Blender adds NVIDIA DLSS 4.5 Ray Reconstruction. May 31, 2026 by Gerardo Delgado 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Personal agents are exploding in popularity, with open source projects like OpenClaw and Hermes seeing rapid adoption by AI developer communities on GitHub. Built to adapt to individual preferences and workflows, these agents can interact with"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🔗 Read the recap blog: nvda.ws/4uc0aFq",
+          "link": "https://nitter.net/nvidia/status/2062229110261498046#m",
+          "date_utc": "2026-06-03T17:45:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061886020887404544%2FMOhemHtY%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uc0aFq",
+              "content": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local | NVIDIA Blog Skip to content NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local At Microsoft Build, the companies showcased how developers can build, run and scale agentic and physical AI across Windows devices, Azure cloud and local deployments through a unified accelerated computing stack. June 2, 2026 by Dave Salvator 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA a"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The agentic AI era is here. From Taipei, Jensen Huang joined @satyanadella at #MSBuild to show how NVIDIA and @Microsoft are building it together, from Windows devices to AI factories at scale. ▶️ Watch the conversation: nvda.ws/4uefQbs",
+          "link": "https://nitter.net/nvidia/status/2062228974273716457#m",
+          "date_utc": "2026-06-03T17:44:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061995926516850688%2FHM_0yCgK%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uefQbs",
+              "content": "Jensen Huang and Satya Nadella&#39;s Conversation at Microsoft Build - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🏆 Cosmos 3 just topped 7 physical AI leaderboards. NVIDIA Cosmos™ 3, the open omni-model for physical AI, ranks #1 across world generation, robot action policy, and industrial vision understanding. 🌎 World generation: Artificial Analysis, PAI-Bench, Physics-IQ, R-Bench 🤖 Robot policy: RoboLab 👁️ Vision: VANTAGE-Bench, TAR One model. Every domain of physical AI. Available now on Hugging Face ▶️ nvda.ws/4e09TbR Video",
+          "link": "https://nitter.net/nvidia/status/2062216340786524373#m",
+          "date_utc": "2026-06-03T16:54:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062216313469034496%2Fimg%2F28cHGW-kf38DnL_y.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4e09TbR",
+              "content": "Cosmos3 - a nvidia Collection Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up nvidia 's Collections NVIDIA Nemotron v3 NVIDIA OmniDreams Nemotron-Labs-Diffusion Inference Optimized Checkpoints (with Model Optimizer) Nemotron-Labs-Elastic swe-zero-to-swe-hero Efficient-DLM AnyFlow Nemotron Supervised Fine-Tuning Nemotron Vision-Language Nemotron Agentic Tool-Use Nemotron Safety Content Moderation Nemotron Chat Instruction Following Nemotron Code SWE Nemotron Math Reasoning Nemotron Reward Modeling Lyra NVIDIA Ising "
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Agents need more than a model. Jensen Huang breaks down the enterprise agent stack: models, orchestration, tools with skills, and a secure runtime to hold it all together. This is the NVIDIA toolkit for agents: nvda.ws/4em0o8l Video",
+          "link": "https://nitter.net/nvidia/status/2062210056280535154#m",
+          "date_utc": "2026-06-03T16:29:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062209926043217920%2Fimg%2FzNeb6j8f6UDp1L0A.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4em0o8l",
+              "content": "NVIDIA GTC Taipei 2026 Keynote | Full Replay - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
