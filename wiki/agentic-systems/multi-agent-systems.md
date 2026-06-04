@@ -14,6 +14,12 @@ Source pages tagged with this concept will accumulate at `wiki/agentic-systems/Y
 
 ## Findings
 
+### Streaming reasoning steps cuts latency AND raises accuracy (2026-06-04)
+
+[StreamMA](2026-06-04-streamma-streaming-multi-agent-reasoning.md) (arxiv 2606.05158) changes the communication protocol rather than the agents: instead of generate-then-transfer (where end-to-end latency scales linearly with pipeline depth), it streams each reasoning step downstream as soon as it is generated, pipelining adjacent agents. The counterintuitive result is that pipelining also improves *effectiveness*: reasoning quality is non-uniform, early steps are more reliable than later ones, so working from reliable early steps prevents error-prone late steps from misleading downstream agents. The paper gives the first closed-form joint analysis of stream/serial/single protocols (ordering stream > serial > single, plus a speedup bound and cost ratio) and reports +7.3 pp average (+22.4 on HMMT 2026) across eight benchmarks, two frontier models (Claude Opus 4.6, GPT-5.4), and three topologies. It also surfaces a **step-level scaling law**: more per-agent reasoning steps improve both effectiveness and efficiency, a scaling axis orthogonal to and composable with agent count.
+
+This strengthens the 06-02 verdict below: StreamMA is a pure inference-time win that changes *when* partial results flow (one of this page's named axes, communication protocols), complementing [MACU](2026-06-02-multi-agent-computer-use.md)'s restructuring of *what* gets dispatched. The "early steps more reliable" finding echoes the reasoning-efficiency line ([PUMA](../inference-efficiency/2026-05-19-puma-semantic-preserving-early-exit-reasoning.md) 05-19, late reasoning tokens add little), turned into a communication rule. Open question: on tasks where the answer only crystallizes late, forwarding early steps could propagate a wrong frame, and that failure boundary is unmapped. The step-level scaling law is a routing lever (trade steps-per-agent against agent-count under a latency budget) the [llm-routing](../ai-routing/llm-routing.md) thread should pick up.
+
 ### Orchestration helps at inference; joint training is fragile (2026-06-02)
 
 Three same-day papers triangulate when multi-agent structure actually pays off:
