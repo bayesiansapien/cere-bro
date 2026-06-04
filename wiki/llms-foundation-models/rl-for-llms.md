@@ -80,6 +80,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 - **Saliency-guided sparse updates (LongAct)**: not all gradient positions are equal; high-magnitude activation positions carry the signal for long-context reasoning
 - **Transport budget**: in VGF, how far particles move from reference — the continuous analog of the KL penalty in standard RLHF
 - **RL-rollout speculation**: lossless acceleration of the autoregressive trajectory generator inside the RL loop via a draft model whose proposals are exactly verified by the target policy — preserves the optimization regime, accelerates the dominant cost
+- **Self-distilled dense reward (SDPG, 06-04)**: RLVR's per-trajectory reward is sparse; [SDPG](2026-06-04-sdpg-self-distilled-policy-gradient.md) adds a dense per-token signal via exact full-vocabulary on-policy self-distillation (the model conditions on privileged context to teach itself), combined with group-relative verifier advantage and reference-KL. Self-distillation moves from a crash-recovery trick (MAI-Thinking-1, 06-03) to a first-class auxiliary loss.
+- **Over-thinking is reinforced by outcome RLVR (ThoughtFold, 06-04)**: because RLVR memorizes whole correct trajectories, the trial-and-error detours inside long CoTs get reinforced too. [ThoughtFold](2026-06-04-thoughtfold-folding-reasoning-chains.md) uses introspective preference learning to fold out redundant spans, cutting tokens ~56% at equal accuracy. The reasoning-trace instance of "the signal is sparse and locatable."
 
 ## Related Pages
 
