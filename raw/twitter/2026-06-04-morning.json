@@ -1,0 +1,679 @@
+{
+  "date": "2026-06-04",
+  "slot": "morning",
+  "scraped_ist": "2026-06-04 09:23",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@drfeifei",
+      "text": "x.com/i/article/206224428394…",
+      "link": "https://nitter.net/drfeifei/status/2062247238143996275#m",
+      "date_utc": "2026-06-03T18:57:10+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@ashwingop",
+      "text": "x.com/i/article/206183145820…",
+      "link": "https://nitter.net/ashwingop/status/2061836996541083912#m",
+      "date_utc": "2026-06-02T15:47:01+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@mem0ai",
+      "text": "x.com/i/article/206181688369…",
+      "link": "https://nitter.net/mem0ai/status/2061822612398014782#m",
+      "date_utc": "2026-06-02T14:49:52+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "When asked for comment on this repeat offender, DA José Garza blamed policymakers for not funding mental health resources. But Texas law already gave him the tools he says are missing. If Telemacque truly needs long-term care, the DA can petition a court for civil commitment -- the one mechanism that gets a sick man treatment and keeps him off the street. Garza did not bother. He reduced the charge, agreed to time served, and put him back on 6th Street to continue stealing from local businesses and harassing service workers. Austin Justice (@AustinJustice) AUSTIN MAN broke into the same downto",
+          "link": "https://nitter.net/AustinJustice/status/2062262789654397390#m",
+          "date_utc": "2026-06-03T19:58:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6ZnNTXQAAzR0o.jpg",
+            "https://nitter.net/pic/media%2FHJ6ZoOWXEAAfbn5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "AUSTIN MAN broke into the same downtown grocery store a dozen times. The last two times came just days after prosecutors reduced his burglary charge and then a judge set him free with time served. The other day Tyroan Telemacque smashed the sliding glass window of the Royal Blue Grocery on East 6th, filled his backpack from behind the counter, and climbed back out the same window. Less than 24 hours later he jumped through the glass at the front of the 3rd and Lavaca location and did it again. His usual haul is a pack of Newports, Coors, Modelos, a Black & Mild pack. He once shoved a hospital ",
+          "link": "https://nitter.net/AustinJustice/status/2062254958242603236#m",
+          "date_utc": "2026-06-03T19:27:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6ZnNTXQAAzR0o.jpg",
+            "https://nitter.net/pic/media%2FHJ6ZoOWXEAAfbn5.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "How do we automate business analytics with Claude? New blog post covering our best practices for skills, data foundations, and evaluations when building agents to perform data analysis: claude.com/blog/how-anthropi…",
+          "link": "https://nitter.net/ClaudeDevs/status/2062274312363770064#m",
+          "date_utc": "2026-06-03T20:44:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062256293440811008%2F3OUmHhn5%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+              "content": "How Anthropic enables self-service data analytics with Claude | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Plans Pro Max Team Enterprise Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sale"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've changed the trigger word from \"workflow\" to \"ultracode\". You can still say \"use a workflow for this\", but when you're clearly referring to something else, Claude won't kick off a dynamic workflow. For an explicit trigger, use \"ultracode\". We appreciate the feedback! ClaudeDevs (@ClaudeDevs) New in Claude Code (research preview): dynamic workflows. Claude writes an orchestration script on the fly, then spins up a large fleet of coordinated subagents in parallel to take on your most complex tasks. Use the word \"workflow\" in a prompt to get started. — https://nitter.net/ClaudeDevs/status/20",
+          "link": "https://nitter.net/ClaudeDevs/status/2062257177788858398#m",
+          "date_utc": "2026-06-03T19:36:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJa_ctabIAA84so.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Announcing the open-source release of our hydrology modeling framework. Through this release, we’re empowering agencies worldwide to integrate advanced flood forecasting into their local workflows. Read the blog to learn more: goo.gle/3QksgR5",
+          "link": "https://nitter.net/GoogleResearch/status/2062253047355716077#m",
+          "date_utc": "2026-06-03T19:20:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6YMZIbIAE5TKW.png"
+          ],
+          "articles": [
+            {
+              "url": "http://goo.gle/3QksgR5",
+              "content": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the communi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What Grok learned by watching this video: nitter.net/i/grok/share/3fd586f4d…",
+          "link": "https://nitter.net/Scobleizer/status/2062359316133470677#m",
+          "date_utc": "2026-06-04T02:22:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Interesting new model shipped today. Hang Gao (@hangg70) we made a new model for text-to-image generation and editing. the results are looking good and the leaderboard is looking strong. it turns out that nano banana 2 is not impossible to beat, which felt like the case at the beginning of the year. there are a lot of great models out there that get released often. why should you care about reve 2.0? to me, there are mainly two reasons. one being that reve is an underdog, reasonably funded but magnitudes less than other big labs, e.g. oai, google, meta, etc. you might be curious about how we m",
+          "link": "https://nitter.net/Scobleizer/status/2062355846139674676#m",
+          "date_utc": "2026-06-04T02:08:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Hanging out with so many creatives today at @magnific ’s @upscaleconf . This morning they announced a new platform for people making AI films. @jerrod_lew got the demo. I got @martinleblanc Chief Experience Officer to tell me what it all means. Video Jerrod Lew (@jerrod_lew) Here's your first look at Magnific Agents! Announced at Upscale Conf, Magnific Agents can create assets and organize into projects. It takes control of Magnific Spaces to build your workflows. This lets you be creative while the agents build for you. Video — https://nitter.net/jerrod_lew/status/2062295153306665406#m",
+          "link": "https://nitter.net/Scobleizer/status/2062314094582251575#m",
+          "date_utc": "2026-06-03T23:22:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062311308373168128%2Fimg%2FllCCfLq1XQyZOWcE.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2062295081684774912%2Fimg%2Fo_FXb-eSMUujYFTP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The second AI glasses launch of the day. And Apple is waiting for 2027? Nikhil Gupta (@gnikhil335) Meet eldr.one Glasses built for care, safety, and companionship. Batch 1 ships oct filling fast, 70% reserved Video — https://nitter.net/gnikhil335/status/2062302199477317712#m",
+          "link": "https://nitter.net/Scobleizer/status/2062308651344482394#m",
+          "date_utc": "2026-06-03T23:01:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062302127293427712%2Fimg%2F4jCvcMl-q3PdRpUc.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://eldr.one",
+              "content": "Eldr : Glasses that care E L D R Join Waitlist E L D R Live independently, age with dignity AI that understands seniors. Glasses that protect without changing routines. Family that stays close without hovering. AI that understands seniors. Glasses that protect without changing routines. Family that stays close without hovering. W h e n s e c o n d s c o u n t Falls detected, help summonedâbefore anyone asks 'are you okay?' W h e n s e c o n d s c o u n t Falls detected, help summonedâbefore anyone asks 'are you okay?' Safety First Help arrives before panic sets in Help arrives before panic sets in Falls happen. ELDR knows the difference between a stumble and trouble. AI recognizes distress patternsâunusual stillness, sudden impact. Family gets instant alerts. Emergency services conta"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Am now using it. Very awesome onboarding.",
+          "link": "https://nitter.net/Scobleizer/status/2062306125090013384#m",
+          "date_utc": "2026-06-03T22:51:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Huge praise and only one of dozens for @TownAI . Kirsten Green (@kirstenagreen) I can count on one hand the number of times a product has stopped me in my tracks like Town. Everyone on our team remembers the week I learned of Town—not just because it was all-systems-go to invest, but because we all switched all our workflows. Today, all of @ForerunnerVC runs on @TownAI . — https://nitter.net/kirstenagreen/status/2062191904343888080#m",
+          "link": "https://nitter.net/Scobleizer/status/2062302878853943722#m",
+          "date_utc": "2026-06-03T22:38:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Over the years I have shared a lot of AI artists. Have a list of them that I love. Got a lot of people to mute and unfollow. One of my favorites still is @niceaunties . Back then I raised eyebrows and said “soon AI artists will be rock stars.” Her work is now in galleries and she presents her work around the world. And I ran across the venue at @upscaleconf to catch her. She reacted with a big hug. There is still so much hate for AI but being here reinvigorated my love of people who take new technology and make new things. We reminisced about the days when video models would give people seven ",
+          "link": "https://nitter.net/Scobleizer/status/2062256672115175877#m",
+          "date_utc": "2026-06-03T19:34:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6bYAjbwAA-0Da.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2062256516196175872%2Fimg%2FKK-h4WXqSmO1K9PT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Creating “cool.” Humanoid robot style. I have studied people who build companies and brands deeply and closely over the years. The best create “cool” by a lot of hard work. Was the only non GoPro employee hanging out with its video team the night it released its Hero 2 camera that made it a public company. And could go for hours on similar experiences. It sent nine video makers around the world to change the story of that company. One reason why I wanted to come to @upscaleconf was to see @radbackwards Dar Sleeper, VP of product and design for @1x_tech which makes the Neo humanoid robot. Was a",
+          "link": "https://nitter.net/Scobleizer/status/2062241585023377626#m",
+          "date_utc": "2026-06-03T18:34:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062240971220500480%2Fimg%2Ftu3NJrjrAXY_-3uz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "The Department of War is aware of the lawsuit filed today by two civilian members of the Stars and Stripes publisher’s advisory board challenging the Department’s modernization of Stars and Stripes. The lawsuit is without merit, and the Department expects to prevail. The Department remains committed to a Stars and Stripes that is modern, mission-focused, and worthy of the servicemembers it serves. The Washington Post (@washingtonpost) Two advisory board members of Stars and Stripes, the military newspaper that has long enjoyed editorial independence from the government, sued the Pentagon, alle",
+          "link": "https://nitter.net/SeanParnellASW/status/2062279338582552631#m",
+          "date_utc": "2026-06-03T21:04:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062243200891273216%2FlZQD36-1%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://wapo.st/4fpK1c2",
+              "content": "Pentagon is censoring military newspaper Stars and Stripes, lawsuit alleges - The Washington Post Accessibility statement Skip to main content Democracy Dies in Darkness Democracy Dies in Darkness Media Pentagon is censoring military newspaper Stars and Stripes, lawsuit alleges The suit comes after Defense Department officials pledged to overhaul the publication and rid it of “woke distractions.” June 3, 2026 at 5:32 p.m. EDT Yesterday at 5:32 p.m. EDT 4 min Make us preferred on Google Pentagon officials have pledged to overhaul Stars and Stripes and rid it of “woke distractions.” (Carolyn Kaster/AP) By Scott Nover and Liam Scott Two advisory board members of Stars and Stripes, the military newspaper that has long enjoyed editorial independence from the government, sued the Defense Departm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Keep an eye on your pet with a glance at your wrist DennisCW | wen my L (@DennisCW_) Pet Mode on the Watch is pretty sick — https://nitter.net/DennisCW_/status/2061135993881923647#m",
+          "link": "https://nitter.net/Tesla/status/2062331171040879026#m",
+          "date_utc": "2026-06-04T00:30:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJqgQzyacAA0jvw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Here's the difference: The Trump-Vance Administration is fighting fraud. The Democrats are fighting the people fighting fraud. Rapid Response 47 (@RapidResponse47) — https://nitter.net/RapidResponse47/status/2062248811813044667#m",
+          "link": "https://nitter.net/WHFraudTF/status/2062291894529311091#m",
+          "date_utc": "2026-06-03T21:54:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6UXJ6XgAArxd5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "✅Saving programs. ✅Saving money. ✅Saving lives. AND WE'VE JUST STARTED. 🇺🇸 The White House (@WhiteHouse) AND WE'VE JUST STARTED. 🇺🇸 — https://nitter.net/WhiteHouse/status/2062256884954841532#m",
+          "link": "https://nitter.net/WHFraudTF/status/2062286153814827090#m",
+          "date_utc": "2026-06-03T21:31:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6bm7qXIAAsqFw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Because it's the full stack from Tensors to MMIO, the ceiling on speed in tinygrad is higher than in any other framework. mamajjou (@mamajjo1) I’m grinding away making inference faster on AMD using tinygrad and it’s super gratifying, also an incredible way to learn gpu programming — https://nitter.net/mamajjo1/status/2060769967537020976#m",
+          "link": "https://nitter.net/__tinygrad__/status/2062225466912882939#m",
+          "date_utc": "2026-06-03T17:30:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Voilà pourquoi vous devriez shorter toutes les boîtes dirigées par des chercheurs en IA. Un chercheur, c'est une machine à apprendre. Brillant académiquement, capable de farmer un sujet jusqu'à l'os. Mais farmer un sujet, ce n'est pas penser. C'est converger. C'est gravir plus vite que les autres une colline déjà tracée. Or les modèles deviennent des commodités. Bientôt, il n'y aura presque plus rien à optimiser sur cette colline. Et quand l'abysse sera venue, ils se retrouveront fort dépourvus. Parce que la vraie question ne sera plus \"comment j'améliore ce qui existe\", mais \"qu'est-ce que pe",
+          "link": "https://nitter.net/brivael/status/2062386780205437282#m",
+          "date_utc": "2026-06-04T04:11:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Beaucoup de gens croient au génie. Moi non. Je ne crois qu'à deux choses : la curiosité insatiable et la pensée divergente. Et je pense que l'école a méthodiquement détruit les deux chez 99,9 % des adultes. Voilà comment. Le \"génie\" est une histoire qu'on raconte après coup. On regarde le résultat, on ne voit pas les dix mille essais ratés, les obsessions bizarres, les connexions absurdes, et on appelle ça un don. C'est faux. Ce n'est jamais un don. C'est un processus. Et ce processus a un nom : curiosité plus divergence. Regarde n'importe quel enfant de 4 ans. Il pose \"pourquoi\" cent fois par",
+          "link": "https://nitter.net/brivael/status/2062385289772114173#m",
+          "date_utc": "2026-06-04T04:05:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ8PEyfaAAAZoZ8.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.ai/public/artifacts/186dc31e-9a84-49c8-be9e-cdcb5266181f",
+              "content": "Content is user-generated and unverified. Customize Content is user-generated and unverified. Space Economy RFS: Hardware, Services Products Map | Claude"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "You are completely idiot and brain dead. Space will unlock : Hotel on the moon. Astéroïde mining. Amusement park on the moon. Travel to mars. The infrastructure to build Dyson sphere. And infinite other cool stuff. Brain dead you are. Space X will be between 30 and 50T in few years. It’s a no brainer. Dan Primack (@danprimack) No one can reasonably argue that SpaceX deserves a $1.75 trillion valuation on its current biz. The big question is whether or not that figure stretches the outer bounds of \"In Elon We Trust.\" — https://nitter.net/danprimack/status/2062258346485338330#m",
+          "link": "https://nitter.net/brivael/status/2062269229488034049#m",
+          "date_utc": "2026-06-03T20:24:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "nitter.net/brivael/status/2062384… Brivael Le Pogam (@brivael) L'école a détruit la pensée divergente chez 99,9 % des adultes. Résultat, presque personne n'arrive à voir ce que l'infrastructure de @SpaceX va débloquer. Alors voici la liste. claude.ai/public/artifacts/1… — https://nitter.net/brivael/status/2062384320187367574#m",
+          "link": "https://nitter.net/brivael/status/2062384821704573403#m",
+          "date_utc": "2026-06-04T04:03:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ8PEyfaAAAZoZ8.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.ai/public/artifacts/186dc31e-9a84-49c8-be9e-cdcb5266181f",
+              "content": "Content is user-generated and unverified. Customize Content is user-generated and unverified. Space Economy RFS: Hardware, Services Products Map | Claude"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'école a détruit la pensée divergente chez 99,9 % des adultes. Résultat, presque personne n'arrive à voir ce que l'infrastructure de @SpaceX va débloquer. Alors voici la liste. claude.ai/public/artifacts/1… Brivael Le Pogam (@brivael) You are completely idiot and brain dead. Space will unlock : Hotel on the moon. Astéroïde mining. Amusement park on the moon. Travel to mars. The infrastructure to build Dyson sphere. And infinite other cool stuff. Brain dead you are. Space X will be between 30 and 50T in few years. It’s a no brainer. — https://nitter.net/brivael/status/2062269229488034049#m",
+          "link": "https://nitter.net/brivael/status/2062384320187367574#m",
+          "date_utc": "2026-06-04T04:01:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ8PEyfaAAAZoZ8.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.ai/public/artifacts/186dc31e-9a84-49c8-be9e-cdcb5266181f",
+              "content": "Content is user-generated and unverified. Customize Content is user-generated and unverified. Space Economy RFS: Hardware, Services Products Map | Claude"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "left is dead Inevitable West (@Inevitablewest) Unfortunately for the left-wing establishment, this isn't going away. The whole country has seen the footage. — https://nitter.net/Inevitablewest/status/2062245988215963788#m",
+          "link": "https://nitter.net/brivael/status/2062383520052625682#m",
+          "date_utc": "2026-06-04T03:58:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6Ry5nWgAAxMEp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Even in the moon there is poor and rich 🥲 Bernie sanders wants more Dinosaurs for the citizens. Eat the richs. Video Brivael Le Pogam (@brivael) opening that soon on the moon — https://nitter.net/brivael/status/2062373497754866158#m",
+          "link": "https://nitter.net/brivael/status/2062382542947598434#m",
+          "date_utc": "2026-06-04T03:54:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062382245948907520%2Fimg%2Fet8VzmwOE6u5ST6h.jpg",
+            "https://nitter.net/pic/media%2FHJ8Fn-LbkAALB_-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "👇👇👇👇 Victor Ferry Business & News PhD (@mrvicfer) Stop la culture des excuses : piped.video/IEtHP8hB_h0 — https://nitter.net/mrvicfer/status/2062204124251267459#m",
+          "link": "https://nitter.net/brivael/status/2062381836773507151#m",
+          "date_utc": "2026-06-04T03:52:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062204124662222848%2Fe-ws6pdG%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/IEtHP8hB_h0",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "👇 Brivael Le Pogam (@brivael) We need to rekindle the joy of the West, instilling hope for the future and encouraging people to have children. Bureaucracy has triumphed, and that’s the reason. By eliminating bureaucracy, we can restore fun and humanity will soar to new heights. — https://nitter.net/brivael/status/2062376453250158766#m",
+          "link": "https://nitter.net/brivael/status/2062376484778754394#m",
+          "date_utc": "2026-06-04T03:30:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "opening that soon on the moon Brivael Le Pogam (@brivael) You are completely idiot and brain dead. Space will unlock : Hotel on the moon. Astéroïde mining. Amusement park on the moon. Travel to mars. The infrastructure to build Dyson sphere. And infinite other cool stuff. Brain dead you are. Space X will be between 30 and 50T in few years. It’s a no brainer. — https://nitter.net/brivael/status/2062269229488034049#m",
+          "link": "https://nitter.net/brivael/status/2062373497754866158#m",
+          "date_utc": "2026-06-04T03:18:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ8Fn-LbkAALB_-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Antoine Moyroud 🇫🇷 (@antoine_moyroud) Argmax ce que tu veux, si tu veux passer ton temps à jouer le jeu d’américains dans l’espoir d’avoir 5 followers de plus c’est très bien pour toi si t’es heureux avec cette stratégie, ton pote Brivael le fait à merveille! Mais ne cherches pas a faire le philosophe/prendre un moral high ground en disant attaque le fond pas la forme quand je t’ai littéralement expliqué que le monde n’est pas noir et blanc et que tu peux très bien critiquer ton pays si tu proposes des alternatives au lieu de juste gémir en ligne pour de l’attention. Quand tu critiques sans nu",
+          "link": "https://nitter.net/brivael/status/2062368146833731987#m",
+          "date_utc": "2026-06-04T02:57:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Antoine Moyroud 🇫🇷 (@antoine_moyroud) Aller ill take the bait 🎣 C’est quoi cette fausse dichotomie? Tu peux très bien critiquer de manière constructive sans chercher du click et tu peux très bien être patriote et défendre la France sans pourtant être « intellectually lazy » C’est évident que toi et @Adrien_B_A vous avez décidé de jouer le jeu de l’algo X récemment et grand bien vous fasse mais tu peux pas EN PLUS venir lecture les gens après Viens pas parler de sad intellectual poverty quand vos posts récents sont literallement du braindead clickfarming (cf ton post à côté de ta tesla et le po",
+          "link": "https://nitter.net/brivael/status/2062368035089134011#m",
+          "date_utc": "2026-06-04T02:57:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Brivael Le Pogam (@brivael) Sam Altman competing with Elon Musk Video — https://nitter.net/brivael/status/2062360867711385969#m",
+          "link": "https://nitter.net/brivael/status/2062361640310563233#m",
+          "date_utc": "2026-06-04T02:31:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2062107311376916480%2Fpu%2Fimg%2FvfrASpGcDCXsV2AV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Sam Altman competing with Elon Musk Video",
+          "link": "https://nitter.net/brivael/status/2062360867711385969#m",
+          "date_utc": "2026-06-04T02:28:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2062107311376916480%2Fpu%2Fimg%2FvfrASpGcDCXsV2AV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Even Satan is ok with me. Brivael Le Pogam (@brivael) Grok imagine will be the best video model on the market there is no other option. Best on text , audio , video. And models will be commodities and an infrastructure play. And after, the goal is about creating stunning products on top of it. That’s why OpenAI and Anthropic will get rekt. nitter.net/grok/status/2062225080… Video — https://nitter.net/brivael/status/2062329116402270319#m",
+          "link": "https://nitter.net/brivael/status/2062360013767938359#m",
+          "date_utc": "2026-06-04T02:25:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ75gFwbYAA5T-o.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2062223812490358785%2Fimg%2Fjq60CyfHvCahTVW9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On verra ça dans quelques temps comme les camps de concentration. Mark my word. Fucking woke. ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕖𝕣𝕋𝕠𝕣𝕖𝕟𝕟 ✨ (@CommanderTorenn) Elles étaient blanches. Elles étaient pauvres. La police britannique a fermé les yeux pour ne pas être accusée de racisme ou d’islamophobie. L’un des plus grands scandales de ce siècle. — https://nitter.net/CommanderTorenn/status/2062166280090587308#m",
+          "link": "https://nitter.net/brivael/status/2062358286985523340#m",
+          "date_utc": "2026-06-04T02:18:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes iheilhoppe (@iheilhoppe) Capitalism democracy — https://nitter.net/iheilhoppe/status/2062206480955085238#m",
+          "link": "https://nitter.net/brivael/status/2062357396010479825#m",
+          "date_utc": "2026-06-04T02:14:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "scaling laws are beautiful part 2. this is a very clean approach to pre training ablation, similar to MAI scaling ladder and fully open openathena.ai/blog/pretraini… Larry Dial (@classiclarryd) Building momentum at Marin! Upgrading from Dense - 129B parameter MoEs - architecture improvements - optimizer improvements gives our pretraining recipe an estimated 6x cumulative learning speedup, accounting for MFU. Includes community contributions. openathena.ai/blog/pretraini… — https://nitter.net/classiclarryd/status/2062209312232272194#m",
+          "link": "https://nitter.net/eliebakouch/status/2062236377991741508#m",
+          "date_utc": "2026-06-03T18:14:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ6IcL7XQAA-1pr.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://openathena.ai/blog/pretraining-speedup/",
+              "content": "Open Athena | Improving our LLM Pretraining Efficiency Projects Blog About Improving our LLM Pretraining Efficiency June 3, 2026 · Larry Dial · MARIN Contents Contents In our last post we covered the Delphi Scaling Suite, where we trained dense models up to 1e23 FLOPs. Since then we've scaled up our Mixture of Experts (MoE) recipe to beyond 100B parameters and 1e23 FLOPs and added several architecture and optimizer improvements. This post first covers the MoE transition, then each subsequent improvement, and closes with several promising future directions. Key terms Theoretical speedup — counts only model FLOPs, ignoring MFU. Realized speedup — reflects wall-clock time, accounting for MFU. Speedups are written as theoretical (realized). Summary Starting from our Dense Baseline, we achieve "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Qwen 3.7 Plus is free in Kilo for a limited time! @Alibaba_Qwen 's new multimodal agent model reads screens, navigates GUIs, generates code from visual references, and works across GUI and CLI. 1M token context. It's free for a couple more days. Try it now.",
+          "link": "https://nitter.net/kilocode/status/2062294213853630540#m",
+          "date_utc": "2026-06-03T22:03:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ69BDVX0AAo80f.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "When the person who lives in these models all day tells you where to start, listen. Step 3.7 Flash, free in Kilo! Ari Messer (@arimesser) @StepFun_ai Step 3.7 Flash is where I'd point people to first this week. 👇 198B sparse MoE, ~11B active per token — so you get big-model reasoning at a speed that actually holds up at long context. 256K window, selectable reasoning tiers, Apache 2.0. And it’s free in @kilocode — https://nitter.net/arimesser/status/2062215168818618544#m",
+          "link": "https://nitter.net/kilocode/status/2062228706555302173#m",
+          "date_utc": "2026-06-03T17:43:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The real lesson for anyone building on these models: never trust a model's self-report for identity or routing. Ask \"who made you\" and you're testing the training data, not the deployment. Verify at the API layer, not by asking nicely.",
+          "link": "https://nitter.net/kilocode/status/2062223400064385223#m",
+          "date_utc": "2026-06-03T17:22:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
