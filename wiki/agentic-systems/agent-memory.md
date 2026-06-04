@@ -52,8 +52,8 @@ The 2026-05-15 cluster makes the structural axes explicit:
 
 ## Self-supervised memory training (2026-06-04)
 
-- **MemTrain ([06-04](2026-06-04-memtrain-context-memory.md))** removes the data bottleneck. Prior memory agents are RL-trained on scarce, low-diversity annotated tasks. [MemTrain](2026-06-04-memtrain-context-memory.md) trains memory ability self-supervised on raw Wikipedia via two coupled GRPO-optimized proxies: (1) masked reconstruction after several memory-update rounds (outcome-side *maintenance*) and (2) intermediate memory recall (process-side *faithful compression*). +17.67 downstream over task-specific post-training.
-- **Learned memory is colonizing other stacks too.** Echo-Infinity ([06-04](../vision-audio-video/2026-06-04-echo-infinity.md)) replaces handcrafted KV schedules and heuristic compression with a learnable evolving memory state for infinite video at constant cost. Agent text memory and generative visual memory are converging on the same principle: learn the compression/eviction policy end-to-end rather than hand-tuning it.
+- **MemTrain ([06-04](2026-06-04-memtrain-self-supervised-context-memory.md))** removes the data bottleneck. Prior memory agents are RL-trained on scarce, low-diversity annotated tasks. [MemTrain](2026-06-04-memtrain-self-supervised-context-memory.md) trains memory ability self-supervised on raw Wikipedia via two coupled GRPO-optimized proxies: (1) masked reconstruction after several memory-update rounds (outcome-side *maintenance*) and (2) intermediate memory recall (process-side *faithful compression*). +17.67 downstream over task-specific post-training.
+- **Learned memory is colonizing other stacks too.** Echo-Infinity ([06-04](../inference-efficiency/2026-06-04-echo-infinity-evolving-memory-video.md)) replaces handcrafted KV schedules and heuristic compression with a learnable evolving memory state for infinite video at constant cost. Agent text memory and generative visual memory are converging on the same principle: learn the compression/eviction policy end-to-end rather than hand-tuning it.
 
 ## Related Pages
 
