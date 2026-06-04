@@ -53,5 +53,5 @@ Shown on a 7B distilled model and on the trajectory's own redundancy; whether fo
 ## Links
 
 - [Paper](https://arxiv.org/abs/2606.03503)
-- Related: [Harmful Continuation 2026-06-03](2026-06-03-harmful-continuation-long-cot-sft.md), [Small RL Controller 2026-06-03](../inference-efficiency/2026-06-03-small-rl-controller-adaptive-sampling.md), [FiRe-OPD 2026-06-04](../inference-efficiency/2026-06-04-fire-opd-filter-then-reweight.md)
+- Related: [Harmful Continuation 2026-06-03](2026-06-03-harmful-continuation-long-cot-sft.md), [Small RL Controller 2026-06-03](../inference-efficiency/2026-06-03-small-rl-controller-adaptive-sampling.md), [FiRe-OPD 2026-06-04](../inference-efficiency/2026-06-04-fire-opd-filter-then-reweight-distillation.md)
 - Concept: [RL for LLMs](rl-for-llms.md)
