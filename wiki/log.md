@@ -775,3 +775,16 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-04] ingest | Media Live morning synthesis 2026-06-04 | twitter
 ## [2026-06-04] ingest | Media Zone synthesis 2026-06-04 | media-zone
 ## [2026-06-04] note | concurrent cron ingest detected; deduped 7 overlapping summary pages, kept cron canonical slugs + 5 unique pages (ThoughtFold, STRIDE, DRIFT, Cosmos 3, Perplexity routing) | ops
+## [2026-06-05] ingest | OPRD: on-policy representation distillation (arxiv 2606.06021) | huggingface
+## [2026-06-05] ingest | The Shadow Price of Reasoning / CLEAR budget allocation (arxiv 2606.03092) | huggingface
+## [2026-06-05] ingest | Rethinking Continual Experience Internalization (arxiv 2606.04703) | huggingface
+## [2026-06-05] ingest | NF-CoT: latent reasoning with normalizing flows (arxiv 2606.06447) | huggingface
+## [2026-06-05] ingest | RL elicits contextual learning of unseen translation (arxiv 2606.06428) | huggingface
+## [2026-06-05] ingest | MMPO: metacognitive memory policy optimization (arxiv 2605.30159) | huggingface
+## [2026-06-05] ingest | MLEvolve / EvoDS / SePO self-evolving agents cluster | huggingface
+## [2026-06-05] ingest | PropMe: memorization propensity evaluation (arxiv 2606.06286) | huggingface
+## [2026-06-05] ingest | Anthropic "When AI builds itself" recursive self-improvement | twitter+rss
+## [2026-06-05] ingest | Daily digest 2026-06-05 | digest
+## [2026-06-05] ingest | Media Live morning synthesis 2026-06-05 | twitter
+## [2026-06-05] ingest | Media Zone synthesis 2026-06-05 | media-zone
+## [2026-06-05] note | concurrent cron stampede detected (3 instances of cerebro-morning-digest.sh); stopped 2 sibling runs, kept canonical sibling-authored summary pages + concept-page updates, deduped duplicate CLEAR page (kept inference-efficiency slug), this instance authored digest + media-live + media-zone + index/log | ops
