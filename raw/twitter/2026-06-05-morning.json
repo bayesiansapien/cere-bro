@@ -1,0 +1,789 @@
+{
+  "date": "2026-06-05",
+  "slot": "morning",
+  "scraped_ist": "2026-06-05 09:08",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Introducing a research system that enables passive heart rate monitoring (PHRM) during everyday smartphone use. Using the front-facing camera, it achieves industry accuracy standards for heart rate across all skin tones. Check out the blog to learn more: goo.gle/4dQTc2B Video",
+          "link": "https://nitter.net/GoogleResearch/status/2062625995832844693#m",
+          "date_utc": "2026-06-04T20:02:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062625487680413696%2Fimg%2FUTZ2Y9qZAtzRBBvo.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://goo.gle/4dQTc2B",
+              "content": "Towards passive heart health monitoring via smartphone camera Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the fut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Programming has already changed dramatically. On my best days - I literally feel IO bandwidth limited managing the concurrent threads. As the models get better the level of abstraction will keep going up - very soon the models will only come to us for hard calls. Eventually - they won't come to us at all. LOC is obviously a terrible metric, but is correlated Anthropic (@AnthropicAI) Today, Anthropic engineers on average ship 8x as much code per quarter as they did compared to 2021-2025. — https://nitter.net/AnthropicAI/status/2062568864240836995#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2062592684595073139#m",
+          "date_utc": "2026-06-04T17:49:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ-2RFhbMAE6prm.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "You should be super optimistic about the future!!! The future will be super great and fun!!! Let’s fucking go!!! Kekius (@kekius9) Be optimistic about the future. There's no point in being pessimistic.-Elon Musk Video — https://nitter.net/kekius9/status/2062520265947640140#m",
+          "link": "https://nitter.net/brivael/status/2062711891240288745#m",
+          "date_utc": "2026-06-05T01:43:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062520190097883137%2Fimg%2FCF7IFcSEbZYyf6-D.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "???? Medias???????? Why you are not taking about this ????? RadioGenoa (@RadioGenoa) Horror in Rome: a woman kidnapped and raped for 72 hours by five illegal African immigrants with criminal records. This is Giorgia Meloni's Italy. — https://nitter.net/RadioGenoa/status/2062672395266032092#m",
+          "link": "https://nitter.net/brivael/status/2062711040534822918#m",
+          "date_utc": "2026-06-05T01:40:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAVnPfXgAAxXPw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Also all virus 🦠 in table? 😂 Curiosity (@CuriosityonX) Bill Gates has the entire periodic table in his office — with real element samples inside. 😳 — https://nitter.net/CuriosityonX/status/2062641240852598889#m",
+          "link": "https://nitter.net/brivael/status/2062710768869748890#m",
+          "date_utc": "2026-06-05T01:39:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ_5BgbXYAAsKY-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🚀🚀🚀❤️🚀🚀🚀 Elonogy (@ElonogyX) Elon Musk: “We need to make sure that AI cares deeply about truth and beauty.” — https://nitter.net/ElonogyX/status/2062682066769039736#m",
+          "link": "https://nitter.net/brivael/status/2062710202726805881#m",
+          "date_utc": "2026-06-05T01:36:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAeaH5WAAA5k-r.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Image",
+          "link": "https://nitter.net/brivael/status/2062705244421935494#m",
+          "date_utc": "2026-06-05T01:17:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAzfNxagAEz9RY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Giga Based Dad (@GigaBasedDad) 👇 — https://nitter.net/GigaBasedDad/status/2062562521102606354#m",
+          "link": "https://nitter.net/brivael/status/2062703816328528068#m",
+          "date_utc": "2026-06-05T01:11:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHIkyd-UWMAAR6Ni.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Victims Rothmus 🏴 (@Rothmus) Do not fear the scary colors — https://nitter.net/Rothmus/status/2062691641400418425#m",
+          "link": "https://nitter.net/brivael/status/2062703782853767459#m",
+          "date_utc": "2026-06-05T01:11:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAnHcfXoAAWYoI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Cats know everything Bojan Tunguz (@tunguz) I can confirm this. — https://nitter.net/tunguz/status/2062680684053885170#m",
+          "link": "https://nitter.net/brivael/status/2062703187828912554#m",
+          "date_utc": "2026-06-05T01:08:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAdJk1W4AAcTRY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂",
+          "link": "https://nitter.net/brivael/status/2062703075476009245#m",
+          "date_utc": "2026-06-05T01:08:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je vais travailler 2,3 en consulting et après je monte ma startup. Mindful Maven (@mindfulmaven_) — https://nitter.net/mindfulmaven_/status/2062473509457310100#m",
+          "link": "https://nitter.net/brivael/status/2062703019264016740#m",
+          "date_utc": "2026-06-05T01:08:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ9guLxbYAAfkoT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hahaha true Milton Friedman Quotes (@MiltonFriedmanW) “If you put the federal government in charge of the Sahara Desert, in five years there’d be a shortage of sand.” — Milton Friedman — https://nitter.net/MiltonFriedmanW/status/2062613104433783253#m",
+          "link": "https://nitter.net/brivael/status/2062700745649222139#m",
+          "date_utc": "2026-06-05T00:59:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ_arS7WIAA4rHL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes The Conservative Alternative (@OldeWorldOrder) CHARLIE KIRK: \"Immigration without assimilation is an invasion.\" — https://nitter.net/OldeWorldOrder/status/2062675527920480575#m",
+          "link": "https://nitter.net/brivael/status/2062698848599056888#m",
+          "date_utc": "2026-06-05T00:51:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAXeWAWsAA20Mf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Japanese culture is so great! That’s a nice choice! Mario and Zelda build me as child. Deeply better than shitty school. Coinvo (@Coinvo) 🇺🇸🇯🇵 ELON MUSK: \"Tesla will be making a 'big investment' in Japan.\" — https://nitter.net/Coinvo/status/2062504642333052978#m",
+          "link": "https://nitter.net/brivael/status/2062697720947810396#m",
+          "date_utc": "2026-06-05T00:47:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ84FWAXUAAMFK5.jpg",
+            "https://nitter.net/pic/media%2FHJ84HaeXkAAiKNp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Polymarket Money (@PolymarketMoney) NEW IN: Odds SpaceX closes its first day of trading between a $2,000,000,000,000 - $2,500,000,000,000 valuation soar to 47%. — https://nitter.net/PolymarketMoney/status/2062692360618926445#m",
+          "link": "https://nitter.net/brivael/status/2062696920930533846#m",
+          "date_utc": "2026-06-05T00:44:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAnQuFa0AELmml.jpg",
+            "https://nitter.net/pic/media%2FHKAno5ZaEAAGeJJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "RIMA! Arrête la drogue. Ça n’arrivera pas. Bisous. Surmulot (@SurmulotsNews) ✊RIMA HASSAN : \"IL FAUT RADICALEMENT ACCEPTER L’IDÉE D’UNE NOUVELLE FRANCE !\" 🗣 « La migration est une donnée avec laquelle il faut composer. Il nous faut dès maintenant préparer cette réalité de migration. La \"nouvelle France\", c’est l'ensemble de ces transformations sociologiques, économiques et culturelles. L'émancipation des femmes, la créolisation due aux migrations, la précarisation de la jeunesse et l'urbanisation. Tous ces groupes sociaux qui émergent doivent être intégrés dans cette pensée politique » Video —",
+          "link": "https://nitter.net/brivael/status/2062696444864401476#m",
+          "date_utc": "2026-06-05T00:42:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2062199451200913408%2Fpu%2Fimg%2FG-Gkc-hFHZM-B0_n.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Learn more: cursor.com/changelog/canvas-…",
+          "link": "https://nitter.net/cursor_ai/status/2062611887871988189#m",
+          "date_utc": "2026-06-04T19:06:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062610057653551104%2F6sO-7QVh%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://cursor.com/changelog/canvas-improvements",
+              "content": "Canvas Design Mode and Context Usage Report · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.7 Jun 4, 2026 · Changelog Changelog Canvas Design Mode and Context Usage Report With canvases , agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your team . This release introduces Design Mode for faster canvas editing, new ways to understand context usage, and other quality-of-life improvements. # Design Mode in canvases Design Mode is now available in canvases. Select and annotate UI elements directly in a canvas to guide Cursor&#"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Cursor can now show your agent's context usage as an interactive report in a canvas. The context explorer breaks down where tokens go across the system prompt, tool definitions, rules, skills, and more. Video",
+          "link": "https://nitter.net/cursor_ai/status/2062611886370337103#m",
+          "date_utc": "2026-06-04T19:06:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062611466210185216%2Fimg%2FvusMyZWlIcyHorlI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Design Mode is now available in canvases. Select and annotate UI elements directly in a canvas to guide Cursor's edits and iterate more quickly. Video",
+          "link": "https://nitter.net/cursor_ai/status/2062611884742980037#m",
+          "date_utc": "2026-06-04T19:06:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062611441644163072%2Fimg%2FLgoW9lauEWGRZiNq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "With canvases, Cursor can create apps like dashboards, reports, and internal tools. Now you can publish a canvas and share it with your team via URL. Video",
+          "link": "https://nitter.net/cursor_ai/status/2062611883249783083#m",
+          "date_utc": "2026-06-04T19:06:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062611421473697792%2Fimg%2FQEElqM6HfyfolOsD.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "NVIDIA 💚🦋 Prime Intellect Prime Intellect (@PrimeIntellect) We're excited to join the NVIDIA Nemotron Coalition 💚 Frontier open models matter for the whole ecosystem. We're bringing the RL infrastructure and environments we've built over the last year to help scale agentic capabilities. primeintellect.ai/blog/nemot… — https://nitter.net/PrimeIntellect/status/2062724179296952412#m",
+          "link": "https://nitter.net/eliebakouch/status/2062730283552567478#m",
+          "date_utc": "2026-06-05T02:56:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKBKNKYWUAELovv.png",
+            "https://nitter.net/pic/media%2FHKAJ0gAbUAELwnJ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://primeintellect.ai/blog/nemotron-coalition",
+              "content": "Prime Intellect Joins the NVIDIA Nemotron Coalition to Advance Open Frontier Models LAB 01 COMPUTE 02 RESEARCH 03 Docs Blog Careers 24 Book a call Start training Login Authors Prime Intellect Team Partnerships June 4, 2026 Prime Intellect Joins the NVIDIA Nemotron Coalition to Advance Open Frontier Models We&#x27;re excited to share that we are joining the NVIDIA Nemotron Coalition . If you&#x27;ve been following frontier open models, you know the hard part isn&#x27;t pretraining anymore — it&#x27;s turning a capable base model into an agent that reliably gets real work done. That&#x27;s the gap we&#x27;ve spent the last year building for, and it&#x27;s exactly what we&#x27;re bringing to the coalition. We&#x27;re joining alongside Black Forest Labs, Cursor, LangChain, Mistral AI, Perplexi"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "with claude code and codex shipping similar features, i was curious which one is actually leading so i made a timeline of features they both have like /goal, side conversations, subagents and the new \"dreaming\" feature MTS (@MTSlive) SITUATION DETECTED: OpenAI has launched a new memory system for ChatGPT called Dreaming, which automatically synthesizes and updates user context in the background across conversations without requiring explicit save requests. Rolling out to Plus and Pro users in the US today. — https://nitter.net/MTSlive/status/2062569780947849398#m",
+          "link": "https://nitter.net/eliebakouch/status/2062693979087397189#m",
+          "date_utc": "2026-06-05T00:32:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKApHN_WIAAZKMg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also weird behavior where codex compacted after only ~3min, i don't think this necessarily bad (might be the opposite if it's smart!), just surprised",
+          "link": "https://nitter.net/eliebakouch/status/2062695793232875900#m",
+          "date_utc": "2026-06-05T00:39:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAq4EDWsAAshrI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "they also put dreaming in gray because different product and also date flip if you count \"memories\" from oai (i'm not sure codex catch the last part btw)",
+          "link": "https://nitter.net/eliebakouch/status/2062697363991412976#m",
+          "date_utc": "2026-06-05T00:45:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAsF2VW0AErAeW.jpg",
+            "https://nitter.net/pic/media%2FHKAsGH6W4AAgMee.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "leading means shipping feature first, user experience is not only about this btw, should be more clear that this is not a dunk on codex (or cc) just some visualization i made for myself and sharing here",
+          "link": "https://nitter.net/eliebakouch/status/2062697010633846919#m",
+          "date_utc": "2026-06-05T00:44:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this is the \"proof\": gist.github.com/eliebak/e1f3… final plot is from the research with claude code, this was the output from codex",
+          "link": "https://nitter.net/eliebakouch/status/2062694715846177270#m",
+          "date_utc": "2026-06-05T00:35:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAp320XkAAXIf9.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://gist.github.com/eliebak/e1f30ab973ee3ef41cba275d65c3b2cb",
+              "content": "claude code vs codex timeline · GitHub Skip to content --> Search Gists Search Gists All gists Back to GitHub Sign in Sign up Sign in Sign up You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Instantly share code, notes, and snippets. eliebak / gist:e1f30ab973ee3ef41cba275d65c3b2cb Secret Created June 5, 2026 00:33 Show Gist options Download ZIP Star 0 ( 0 ) You must be signed in to star a gist Fork 0 ( 0 ) You must be signed in to fork a gist Embed Select an option Embed Embed this gist in your website. Share Copy sharable link for this gist. Clone via HTTPS Clone using the web URL. No r"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this was the first UI by codex, the model was very fast with only ~7min, claude code was ~20min",
+          "link": "https://nitter.net/eliebakouch/status/2062695455612412155#m",
+          "date_utc": "2026-06-05T00:38:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAqDthXgAAD5Jv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "be careful the journalist scam on X just got a big upgrade with more coherent text, real journalist names + verified accounts",
+          "link": "https://nitter.net/eliebakouch/status/2062686469026709699#m",
+          "date_utc": "2026-06-05T00:02:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAhaGJXoAAKRKu.jpg",
+            "https://nitter.net/pic/media%2FHKAhyrnW8AAt8lf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "some scam tweet if you scroll + not followed by anyone is still a good signal, but big upgrade compare to previous one cc @nikitabier",
+          "link": "https://nitter.net/eliebakouch/status/2062686844907557369#m",
+          "date_utc": "2026-06-05T00:04:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAidHXXwAAjMWo.jpg",
+            "https://nitter.net/pic/media%2FHKAida-XQAAf5Fo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "in corporate speak we call this post AGI training",
+          "link": "https://nitter.net/eliebakouch/status/2062650514743894520#m",
+          "date_utc": "2026-06-04T21:39:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAA5AsXEAE0fDy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Try them tonight: kilo.codes/gJBzwKp",
+          "link": "https://nitter.net/kilocode/status/2062697137763201502#m",
+          "date_utc": "2026-06-05T00:44:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2059855480479186944%2FjlI_6Brv%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/gJBzwKp",
+              "content": "Install Kilo Code in 60 Seconds — VS Code, JetBrains CLI Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Install Kilo Code Get started with AI coding in your CLI or preferred IDE Using Kilo for work? Create a team workspace . VS Code JetBrains CLI Slack Others VS Code Install Kilo Code for VS Code To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code If you don&#x27;t have VS Code installed yet, download it here 2. Install the extension Click the button below to install Kilo Code directly in VS Code Install in VS Code Download VS Code Kilo Community Discord Discord GitHub GitHub Reddit r/kilocode X LinkedIn Bluesky Instagram Product Hunt p/kilocode P"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Two open models in Kilo tonight. Both free. What are YOU doing with your evening? 👀 Nemotron 3 Ultra ( @nvidia ): the strongest US open-weights model out right now. Built for agentic work, 5x faster inference, 1M context. Point it at something gnarly and walk away. Step 3.7 Flash ( @StepFun_ai ): multimodal, 400 tok/sec, 256k context. Near-Sonnet coding for basically nothing. The models are free. Excuses are not. Go build!",
+          "link": "https://nitter.net/kilocode/status/2062687577283408294#m",
+          "date_utc": "2026-06-05T00:06:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAjIaZWQAAekHZ.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "You know the retry logic exists. You just don't know what this repo is named. So you grep \"retry\", then \"backoff\", then \"withRetries\", then give up and open six files. Codebase indexing is back in Kilo Code. Stop guessing what this repo called the retry logic. One semantic query instead of four greps. blog.kilo.ai/p/codebase-inde…",
+          "link": "https://nitter.net/kilocode/status/2062670781214081240#m",
+          "date_utc": "2026-06-04T23:00:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAUJIeXUAAOF6B.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/codebase-indexing-is-back-in-kilo",
+              "content": "Codebase Indexing Is Back in Kilo Code - by Brendan O&#x27;Leary Kilo Blog Subscribe Sign in Codebase Indexing Is Back in Kilo Code Semantic search is now a standard, opt-in feature for finding code you cannot name yet. Brendan O'Leary Jun 04, 2026 9 2 Share Sometimes you know exactly what you need from a codebase, but not what it is called. Maybe you are looking for the retry logic. Maybe you need to understand how customer identity gets validated across three services. Maybe you just opened a large repo and the first thing you need is not one file. It is a way to find the concepts that matter. Exact search is still the right tool when you know the symbol, error string, import path, or config key. But a lot of engineering work starts one step before that. You know the shape of the thing. "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "logangraham",
+      "org": "Anthropic",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "This is good! I started red teaming LLMs for biorisks/weapons risks in my bedroom in Nov 2022. In 2023 a lot of people said we were overreacting -- 'models won't be better than internet search'. True then, but the important point is they were going to get a lot better. Now I think there's clear reason for caution. The ultimate solution is inventing + deploying biodefenses. This is one step. I fully expect humanity to conquer pandemics in the 21st century Andrew Curran (@AndrewCurran_) Sam Altman, Dario Amodei, Demis Hassabis and many others have signed a letter urging Congress to increase secu",
+          "link": "https://nitter.net/logangraham/status/2062593859155284345#m",
+          "date_utc": "2026-06-04T17:54:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ7uZKfboAA6y0d.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mlevchin",
+          "creator": "@mlevchin",
+          "text": "I don’t know who did this, but it’s blasphemy. Blasphemy of the very best kind. 🌸🎵 Beautiful Melody 🎶💖 (@Ducnghia16) Im almost embarrassed to say how many times I listened to this. It actually gave me goosebumps. 😂 👉𝐋𝐨𝐫𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐑𝐢𝐧𝐠𝐬 𝐃𝐢𝐬𝐜𝐨: 𝐎𝐧𝐞 𝐅𝐮𝐧𝐤 𝐭𝐨 𝐑𝐮𝐥𝐞 𝐭𝐡𝐞𝐦 𝐀𝐥𝐥 Video — https://nitter.net/Ducnghia16/status/2011450732701180122#m",
+          "link": "https://nitter.net/mlevchin/status/2062626955674173532#m",
+          "date_utc": "2026-06-04T20:06:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2011345140921876485%2Fimg%2FaRpXvNfJHj_waYN4.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Elon Musk on the SpaceXAI satellites: “We intend for SpaceXAI satellites to allow people to use whatever GPU or TPU they want. NVIDIA GPUs, Google TPUs, Amazon Trainiums, or any other chips can be put on them. We will also offer our own chips, and we want to offer our AI software, in the future. It will be such that you can run anyone’s AI hardware or software on the SpaceXAI satellites.” Video",
+          "link": "https://nitter.net/ns123abc/status/2062736324583415853#m",
+          "date_utc": "2026-06-05T03:20:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062736184187482112%2Fimg%2FsaEa56dZ16Y_52pz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "AGI Starlink Starshield Starship Reusable rockets X social platform Grok + Cursor Colossus terrestrial compute Orbital compute Solar factories Terafab Who else is doing this? Elon Musk (@elonmusk) Video — https://nitter.net/elonmusk/status/2062639458508312887#m",
+          "link": "https://nitter.net/ns123abc/status/2062656573583855882#m",
+          "date_utc": "2026-06-04T22:03:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062487769218420736%2Fimg%2F7F5tTwagUhsmf832.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Recursive Self-Improvement ITS HAPPENING Video Anthropic (@AnthropicAI) Our internal data shows Claude is accelerating AI development—a possible path to recursive self-improvement, or AI autonomously building a more capable successor. It’s happening faster than we thought, and the implications deserve greater attention. anthropic.com/institute/recu… — https://nitter.net/AnthropicAI/status/2062568862479208923#m",
+          "link": "https://nitter.net/ns123abc/status/2062624303338627332#m",
+          "date_utc": "2026-06-04T19:55:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062624247873216513%2Fimg%2Fmm1L2YVwbVoGkrd5.jpg",
+            "https://nitter.net/pic/card_img%2F2061055643386302464%2Fnm1iwP9S%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+              "content": "When AI builds itself \\ Anthropic Skip to main content Skip to footer Research Economic Futures Commitments Learn News Try Claude When AI builds itself Our progress toward recursive self-improvement, and its implications. For most of AI’s history, humans drove every step in its development cycle. But at Anthropic, we are delegating a growing share of AI development to AI systems themselves, which is speeding up our work. Taken far enough, and given enough compute, that trend points to an AI system capable of fully autonomously designing and developing its own successor. This is called recursive self-improvement . We are not there yet, and recursive self-improvement is not inevitable. But it could come sooner than most institutions are prepared for. Using public benchmarks and previously un"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🤝 Partners including Cassava, Claro, @CoreWeave , Firebird, Firmus, @gmi_cloud , Indosat Ooredoo Hutchison, IREN, Lambda, Naver Cloud, @nebiusai , @nscale , @sharon__ai , @SKtelecom , Yotta and YTL are leading the way.",
+          "link": "https://nitter.net/nvidia/status/2062696143658909967#m",
+          "date_utc": "2026-06-05T00:40:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "AI compute demand isn't slowing down, and neither is the ecosystem to support it. AI Clouds are built on NVIDIA’s full-stack, end-to-end AI factory platform. They’re expanding worldwide to bring accelerated computing closer to developers, enterprises, startups and nations scaling agentic AI. And this next-gen infrastructure powered by NVIDIA Vera Rubin is already in motion. 🌏 The global buildout is underway. ➡️ nvda.ws/4xgaPC6 #NVIDIAGTC",
+          "link": "https://nitter.net/nvidia/status/2062691991494783218#m",
+          "date_utc": "2026-06-05T00:24:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKAnbzZXgAA2m94.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4xgaPC6",
+              "content": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand | NVIDIA Blog Skip to content NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand Fast-growing ecosystem helps enterprises, startups, nations, AI labs and developers scale agentic AI applications. May 31, 2026 by Dion Harris 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructur e. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. Thes"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Get started with Cosmos 3: 🤗 Download Models on @huggingface → huggingface.co/collections/n… ⚙️ Customize Models on GitHub → github.com/nvidia/Cosmos",
+          "link": "https://nitter.net/nvidia/status/2062677859748213207#m",
+          "date_utc": "2026-06-04T23:28:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://huggingface.co/collections/nvidia/cosmos3",
+              "content": "Cosmos3 - a nvidia Collection Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up nvidia 's Collections NVIDIA Nemotron v3 NVIDIA OmniDreams Nemotron-Labs-Diffusion Inference Optimized Checkpoints (with Model Optimizer) Nemotron-Labs-Elastic swe-zero-to-swe-hero Efficient-DLM AnyFlow Nemotron Supervised Fine-Tuning Nemotron Vision-Language Nemotron Agentic Tool-Use Nemotron Safety Content Moderation Nemotron Chat Instruction Following Nemotron Code SWE Nemotron Math Reasoning Nemotron Reward Modeling Lyra NVIDIA Ising "
+            },
+            {
+              "url": "https://github.com/nvidia/Cosmos",
+              "content": "GitHub - NVIDIA/cosmos: NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Bl"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Physical AI needs to understand the world before it can act in it. Introducing Cosmos 3, the open world foundation model and the first omni-model for physical AI. It understands and generates across text, image, video, sound and action - thanks to a new breakthrough architecture. 🤖 Build robot policies — generate action data natively, post-train for any embodiment or task 🏙️ Scale vision AI agents — scene understanding + anomaly detection for smart cities and industries #1 open model on public leaderboards across capabilities is here to advance physical AI. Read the blog → nvda.ws/4uCj7Cf NVID",
+          "link": "https://nitter.net/nvidia/status/2062677731763257587#m",
+          "date_utc": "2026-06-04T23:27:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061318989276647424%2FLmbXPj1o%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/media%2FHJs9GNqW4AIcsMj.png"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uCj7Cf",
+              "content": "How Cosmos 3 Helps Physical AI Think Before It Acts | NVIDIA Blog Skip to content How Cosmos 3 Helps Physical AI Think Before It Acts The new, open NVIDIA world foundation model brings vision reasoning, multimodal generation and action prediction together to help robots, autonomous vehicles and vision AI agents think before acting in the real world. May 31, 2026 by Ming-Yu Liu Share X Facebook LinkedIn Email 0 The real world is always in motion. To operate autonomously, physical AI systems — including robots, autonomous vehicles (AVs) and smart spaces — need to understand not just what they see and what caused that to happen, but what’s likely to happen next. In a warehouse, a robot may encounter object configurations it’s never seen before. On the road, an AV may need to respond when a pe"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🔗 Read the full customer story: nvidia.com/en-us/case-studie…",
+          "link": "https://nitter.net/nvidia/status/2062647603032981995#m",
+          "date_utc": "2026-06-04T21:28:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://www.nvidia.com/en-us/case-studies/transcription-accuracy-with-nemotron/?ncid=so-twit-702353-vt22",
+              "content": "Rafiqspace.ai: 97.7% Bahasa Indonesia ASR Accuracy with Nemotron | NVIDIA success story NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (B"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "When laws and oversight depend on transcripts, 70–80% isn’t enough. Rafiqspace.ai hit 97.7% Bahasa Indonesia accuracy (2.3% WER) with fine‑tuned Nemotron Parakeet ASR—outperforming global tools while cutting per‑hour costs by up to 90%. ⚖️",
+          "link": "https://nitter.net/nvidia/status/2062647600424128773#m",
+          "date_utc": "2026-06-04T21:28:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ__D8aWMAAc6PS.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Rafiqspace.ai",
+              "content": "Rafiqspace.ai — AI That Understands Humanity Skip to main content Rafiqspace.ai Your Gentle AI Companion Home Product Platform About Blog Contact Contact Us Home Product Platform About Blog Contact Contact Us Your Gentle AI Companion Technology Solutions that Understand Humanity At Rafiqspace.ai, we believe AI should be more than just intelligent — it should be intuitive, supportive, and genuinely helpful. We create gentle companions that understand human needs and empower extraordinary results. Start Your Journey Explore products Human-Centered AI Technology that listens, understands, and responds with empathy and intelligence. Purposeful Innovation Creating meaningful change through AI solutions that solve real problems in people&#39;s lives. Collaborative Partnership Empowering people b"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Watch now: nvda.ws/4e1g3sq",
+          "link": "https://nitter.net/nvidia/status/2062595936556024137#m",
+          "date_utc": "2026-06-04T18:02:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061303874640584708%2FhKafoOYB%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4e1g3sq",
+              "content": "Enterprise Software Leaders Build AI Agents With NVIDIA | NVIDIA Newsroom Artificial Intelligence Computing Leadership from NVIDIA --> PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email ic_arrow-back-to-top Enterprise Software Leaders"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Agents are becoming a new layer of enterprise software. Jensen Huang explains why companies like @Cadence , @CrowdStrike , @Dassault3DS , @PalantirTech , @SAP , @ServiceNow , @Siemens , and @Synopsys are building agents on NVIDIA, and why the opportunity for software partners is only growing. Video",
+          "link": "https://nitter.net/nvidia/status/2062595934010130815#m",
+          "date_utc": "2026-06-04T18:02:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ_QEgVWUAAIAYy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
