@@ -2,6 +2,10 @@
 
 Using RL to improve LLM reasoning and alignment — from RLHF to RLVR (verifiable rewards) to newer approaches that optimize the pre-training distribution directly.
 
+## Current State (as of 2026-06-05)
+
+**RLVR broadens beyond reasoning: outcome RL can elicit in-context learning as a meta-skill (2026-06-05).** [Reinforcement Learning Elicits Contextual Learning of Unseen Language Translation](2026-06-05-rl-contextual-learning-unseen-translation.md) (arxiv 2606.06428, the day's highest-upvoted HF paper) trains a model with a lightweight surface reward (chrF) to *use* the linguistic context it is given rather than memorize any one language, and beats in-context learning and SFT on completely unseen languages. The general claim is that outcome-based RL can teach in-context exploitation as a transferable capability, extending the RLVR recipe from math/code to language acquisition from context. This is the language-axis instance of the principle-vs-instance lesson today's self-evolving cluster keystone ([Continual Experience Internalization](../agentic-systems/2026-06-05-continual-experience-internalization.md)) formalized: train the abstract skill, not the specific instance. It also continues the wiki's "a coarse/weak reward can still elicit a sophisticated capability" thread ([RLVR weak-supervision faithfulness](2026-04-21-rlvr-weak-supervision-reasoning-faithfulness.md), 04-21), since chrF is a crude metric yet suffices.
+
 ## Current State (as of 2026-06-03)
 
 **Multi-domain interference gets a local mechanism and a recovery (two same-day papers), and trust-region stability surfaces in three places at once.** Today's batch converges on two themes the page has tracked separately.
