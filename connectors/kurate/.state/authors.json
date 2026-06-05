@@ -4506,5 +4506,47 @@
     ],
     "first_seen": "2026-W22",
     "last_seen": "2026-W23"
+  },
+  "Maziar Raissi": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "1711.10561",
+        "title": "Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Paris Perdikaris": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "1711.10561",
+        "title": "Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "George Em Karniadakis": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "1711.10561",
+        "title": "Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
   }
 }
