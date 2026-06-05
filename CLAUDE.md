@@ -283,15 +283,27 @@ The digest is one story in five sections: TL;DR → Deep Dives → Industry Puls
 
 ## TL;DR
 
-**One block, 2-3 paragraphs.** This is the only top-level summary. Mix facts
-and interpretation in the same sentences — what dropped today AND what it
-means. Replaces the old TL;DR + Big Picture pair (they were duplicating each
-other). A reader who reads only this section should know what happened today
-AND how it changes their model of where the field is heading.
+**4-6 bullets. Each bullet ≤25 words. Plain language. No paragraphs.** This is
+the only top-level summary — make it actually scannable. Each bullet names
+ONE substantive thing from today: a paper's main claim, an industry move, or
+a one-line theme. Reader should consume the entire TL;DR in 30 seconds.
 
-Write opinionated, not neutral. "Three papers this month attacked the same
-problem; today's is the sharpest of the three" beats "today, several papers
-appeared." Name the day's strongest signal in the first sentence.
+Format each bullet with a **bold lead-in** (paper name, company, or theme),
+then the one-line claim in simple English:
+
+- **OPRD**: instead of matching teacher output tokens, match teacher hidden
+  states. Closes student-teacher gap on math benchmarks.
+- **Anthropic ships "When AI builds itself"**: Claude writes 90%+ of their
+  own code, engineers ship 8x more code per quarter.
+- **CLEAR**: ration inference compute across a batch of queries with one
+  shadow price. Up to 3x accuracy when compute is scarce.
+
+What NOT to do in TL;DR:
+- No prose paragraphs of any length. Bullets only.
+- No story arc weaving — that lives in Global View at the bottom of the digest.
+- No paper-to-paper comparisons threading across bullets — keep each bullet
+  self-contained.
+- No nested clauses, no semicolons, no em dashes.
 
 Do not say "Tier 1 paper" or "Tier 2 research" or any tier-code language. The
 tier hierarchy exists to calibrate writer depth allocation. It must not appear
