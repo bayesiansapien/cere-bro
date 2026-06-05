@@ -1,0 +1,492 @@
+{
+  "date": "2026-06-05",
+  "slot": "evening",
+  "scraped_ist": "2026-06-05 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "It’s easy to mistake fast for smart, because very smart humans can do some complicated things very quickly. Non-human intelligence does not work that way. Fast is useful though.",
+          "link": "https://nitter.net/MillionInt/status/2062924958142267688#m",
+          "date_utc": "2026-06-05T15:50:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "That feeling when you realize practitioners say “verifiable tasks” when they actually mean “easy tasks.”",
+          "link": "https://nitter.net/MillionInt/status/2062924521779450147#m",
+          "date_utc": "2026-06-05T15:48:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "When I first saw this I thought \"I don't need that.\" But I begged @hnshah for a trial. And, damn, it’s amazing! Reminds me of being at the launch of Microsoft's Visual Studio where it introduced this to programmers. Has noticeably sped up my typing! Hiten Shah (@hnshah) Been working with @SamAsante on a new company. Today we’re releasing our first product. It’s called Typeahead and we’re live on Product Hunt. You type and inline suggestions appear right in the text field. Tab to accept the full suggestion or right arrow for one word at a time. It learns how you actually write. Everything runs ",
+          "link": "https://nitter.net/Scobleizer/status/2062948020887654520#m",
+          "date_utc": "2026-06-05T17:21:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061305520787718144%2Fimg%2FtkNyTj6b4SawoXmC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I remember Techcrunch's founder @arrington once say something like \"I hate lists, especially ones I'm not on the top of.\" I doubt I'll be on the top of this one. I know quite a few people spending $1,000+ a day in AI token generation. My budget is way smaller. :-) Alexis Aftalion (@alexisaftalion) Are you really tokenmaxxing? We shipped your AI wrapped Everyone's bragging about their token usage having 45 agents running at once now it's time to prove it. A command that turns how you really use AI into stats, a score, and a ranking. Run “npx standout” in your terminal and find out who's really ",
+          "link": "https://nitter.net/Scobleizer/status/2062947120207011900#m",
+          "date_utc": "2026-06-05T17:18:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062926715035512832%2Fimg%2F3J5YuTnPzUhhItg5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I know some billionaires in San Francisco who will buy a set of robot hands that can roll a joint. These look capable. :-) Mao Ning 毛宁 (@SpoxCHN_MaoNing) Robots are now able to do the tricky needle-threading that many people struggle with. Video — https://nitter.net/SpoxCHN_MaoNing/status/2062673719269749132#m",
+          "link": "https://nitter.net/Scobleizer/status/2062945506901524648#m",
+          "date_utc": "2026-06-05T17:11:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2062673684834418688%2Fpu%2Fimg%2FRdmbpKsNbdliQjEg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is what Grok learned by watching this interview: nitter.net/i/grok/share/3c9644ed9…",
+          "link": "https://nitter.net/Scobleizer/status/2062921257562374593#m",
+          "date_utc": "2026-06-05T15:35:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A good counterpoint to the meme: nitter.net/pronounced_kyle/status… Christian Keil (@pronounced_kyle) I really dislike this meme. When I started a company 10 years ago, my idea was bad and I was a nobody, but VCs in Silicon Valley still made time to meet with me. A few stories stand out: • @kimmaicutler was the best. Even though she passed, she clearly took me seriously. • @albertlee became a mentor, and remains one ten years later. He helped me realize I didn't have enough conviction myself in this particular idea to invest 10 years in it. • @LarsenJensenUSA stayed in touch with me as I moved",
+          "link": "https://nitter.net/Scobleizer/status/2062913645961736307#m",
+          "date_utc": "2026-06-05T15:05:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A wonderful discussion with the co-host of the popular Moonshots podcast with Peter Diamandis: @alexwg . He has such a long list of accomplishments that I had Grok write them up for you: nitter.net/i/grok/share/6f8e86cbf… Started 40 companies. Is one of the biggest innovators of our day. We talked about many things, Grok will give me a list after I post which I'll leave in the comments. The singularity is here, he lays out, and then we discuss what it will mean to be human on the other side. Video",
+          "link": "https://nitter.net/Scobleizer/status/2062913374829310183#m",
+          "date_utc": "2026-06-05T15:04:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062906421713506304%2Fimg%2FGuVFWc51YjnDykWq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Some are working on it: nitter.net/anshublog/status/20618… Anshu Sharma 🌶 (@anshublog) Agents break data security. You need a runtime agent data control platform. — https://nitter.net/anshublog/status/2061824187187245208#m",
+          "link": "https://nitter.net/Scobleizer/status/2062911820772655440#m",
+          "date_utc": "2026-06-05T14:57:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHJ0RyHVagAASHJ_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Another one: nitter.net/ankurnagpal/status/206… Ankur Nagpal (@ankurnagpal) I had an investor commit $5M at the start of the round The day we were supposed to close, he asked to be “downsized” to $100K — https://nitter.net/ankurnagpal/status/2062901605121278072#m",
+          "link": "https://nitter.net/Scobleizer/status/2062910231051727078#m",
+          "date_utc": "2026-06-05T14:51:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Security community: nitter.net/i/lists/10529736960909…",
+          "link": "https://nitter.net/Scobleizer/status/2062909255393611973#m",
+          "date_utc": "2026-06-05T14:47:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/pbs.twimg.com%2Flist_banner_img%2F1266271745939402755%2F9QhEMjb-%3Fformat%3Djpg%26name%3Dorig"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Oh, great, now we have to worry about AI worms coming for us. Schneier is on my security list, if you care to keep up with latest technology security threats due to AI and other things. Schneier Blog (@schneierblog) AI Worm schneier.com/blog/archives/2… — https://nitter.net/schneierblog/status/2062887510787989865#m",
+          "link": "https://nitter.net/Scobleizer/status/2062909007871042034#m",
+          "date_utc": "2026-06-05T14:46:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://www.schneier.com/blog/archives/2026/06/ai-worm.html",
+              "content": "AI Worm - Schneier on Security Schneier on Security Menu Blog Newsletter Books Essays News Talks Academic About Me Search Powered by DuckDuckGo Blog Essays Whole site Subscribe Home Blog AI Worm Researchers have prototyped an AI-powered internet worm . The coolest thing about the prototype is that it carries its own LLM with it, and runs it on computers that have been broken into. This is the closest to John Brunner&#8217;s original 1975 conception of a computer worm that I&#8217;ve seen. Tags: AI , malware , science fiction Posted on June 5, 2026 at 9:21 AM • 7 Comments Comments 1st post kitty • June 5, 2026 10:40 AM First Post Kitty Wins Again! ⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Sorry, my AI got several names and profiles wrong. Like @anshublog Ahh, always chasing hallucinations.",
+          "link": "https://nitter.net/Scobleizer/status/2062905014784540992#m",
+          "date_utc": "2026-06-05T14:30:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Entrepreneurs here on X are sharing when VCs have treated them badly. Every time I read one, I feel bad because I know I've treated some entrepeneurs badly too. Even though I've treated thousands well, it is those few I treated badly that weighs heavily in my mind. Today I try to treat everyone well, but still fail once in a while. Treating people well leads to much more happiness than treating people badly. Here's a list of everyone's stories my AI was able to find: +++++ Here's the full list of entrepreneurs sharing VC rejection stories, starting with the freshest from today and working back",
+          "link": "https://nitter.net/Scobleizer/status/2062901297918161142#m",
+          "date_utc": "2026-06-05T14:16:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "\"Call your Hermes.\" Things we didn't think we would do at the beginning of the year. What a time to be alive! ElevenLabs Developers (@ElevenLabsDevs) Call your Hermes Agent Video — https://nitter.net/ElevenLabsDevs/status/2062562168843714795#m",
+          "link": "https://nitter.net/Scobleizer/status/2062879305437417723#m",
+          "date_utc": "2026-06-05T12:48:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062561996290109441%2Fimg%2FhrWtmJh_3OhR9ZZK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The past two days I was at @magnific 's @upscaleconf (which was quite excellent, met so many people who are building creative things with AI) and EVERYONE was talking about this new model. Reve (@reve) Today, we’re launching Reve 2.0, the best 4K image model in the world. We invented a new way to generate and edit any image using precise layouts. For the first time, it’s possible to create images you can touch. Video — https://nitter.net/reve/status/2062260665121919101#m",
+          "link": "https://nitter.net/Scobleizer/status/2062878650845069656#m",
+          "date_utc": "2026-06-05T12:46:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062259801481175040%2Fimg%2F_i0p8Vph7ddMmjlD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Runner up: @reve 's new model for creatives. That also rocks.",
+          "link": "https://nitter.net/Scobleizer/status/2062876866168684712#m",
+          "date_utc": "2026-06-05T12:39:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "AI hype of the week? @TownAI . It was praised by so many I trust. It lives up to the hype. Wow. Founder @jgreze has set the bar for agentic systems to help you with your life way higher than anyone else has. From onboarding to using it's magical. Transformed my life already in first few days of using it. Now I understand why everyone who was blessed to be an early user is so enthusiastic. And the AI glasses from @MonakoResearch got me to buy. I can't judge those yet against the others since they don't ship until later this year but cofounder @candyyueliu has been performing a master class in s",
+          "link": "https://nitter.net/Scobleizer/status/2062874185140232681#m",
+          "date_utc": "2026-06-05T12:28:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Windsurf just shipped Devin Desktop to orchestrate agent fleets. The question nobody asks at fleet scale: can you swap the model under each agent tomorrow without rewriting the harness? In Kilo you can. Agent surface ≠ agent lock-in. Windsurf is now Devin Desktop (@devindesktop) Introducing Devin Desktop: the next generation of Windsurf Manage fleets of local and cloud agents from one surface Support for any ACP-compatible agent With a full IDE for when you need to jump into the code Video — https://nitter.net/devindesktop/status/2061889084541509922#m",
+          "link": "https://nitter.net/kilocode/status/2062933025667600689#m",
+          "date_utc": "2026-06-05T16:22:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061888533590114304%2Fimg%2FBz0_fF1qtUUPUNU2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Five days. Five ships. 🚀 Next week is Product Week at Kilo. Agent Manager. KiloClaw. Console. Coding plans. Code reviews. One a day, Monday through Friday. Starts Monday. 👀",
+          "link": "https://nitter.net/kilocode/status/2062926991674720762#m",
+          "date_utc": "2026-06-05T15:58:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKD3hlJX0AAUo_l.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We wrote up the whole thing: the Uber blowout, what actually changed in Copilot’s billing, the developer horror stories, and the full playbook for leaders. blog.kilo.ai/p/the-github-co…",
+          "link": "https://nitter.net/kilocode/status/2062873919808245844#m",
+          "date_utc": "2026-06-05T12:27:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062873898039795713%2FpTE_h4d4%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/the-github-copilot-bill-came-due",
+              "content": "The GitHub Copilot Bill Came Due. Here&#x27;s What Engineering Leaders Should Do. Kilo Blog Subscribe Sign in The GitHub Copilot Bill Came Due. Here's What Engineering Leaders Should Do. We said the era of free compute was ending. It ended on June 1 - and the people holding the bill are enterprise teams. Job Rietbergen Jun 05, 2026 6 Share Right now, as I write this, our team is on the floor at the Gartner Summit, and there’s one conversation happening in every hallway and coffee line: what just happened to our GitHub Copilot bill? It’s the trending topic of the day for a reason. On June 1, Copilot’s usage-based billing went live for everyone, and the people feeling it hardest are software engineering leaders who woke up this week to discover that a line item they’d treated as fixed for th"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The durable fix is not letting one vendor own your meter. That’s what Kilo was built for. 500+ models, transparent pricing, bring your own keys, see exactly what you’ll pay. Switch the moment the economics change. Kilo Pass, no surcharge: kilo.codes/gVLmcBK",
+          "link": "https://nitter.net/kilocode/status/2062872196725240229#m",
+          "date_utc": "2026-06-05T12:20:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKDLVKlW4AAj24Y.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/gVLmcBK",
+              "content": "Kilo Pass — Up to 50% Free AI Credits Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Now Available Kilo Pass Maximize your AI output per dollar. A monthly AI token subscription with up to 50% bonus credits included. Get Kilo Pass Read FAQ “KiloPass is exactly what I’ve been waiting for. I can use my credits when I need them and save them when I don’t — it finally fits how I actually use AI.” SL Sylvain Kilo Power User Kilo Pass Calculator See how your subscription adds to your balance with free bonus credits Billing cycle Monthly Pay monthly, cancel anytime Annual 50% bonus $ 588 /year Select your tier Starter $ 19 /mo Up to $ 26.60 /mo in credits Pro $ 49 /mo Up to $ 68.60 /mo in credits Expert $ 199 /mo Up t"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The first moves leaders are making are the right start: pull real usage against actual metered rates, set hard spend caps, match the model to the task instead of defaulting everything to the priciest frontier model. But that’s damage control. It makes a bad position survivable.",
+          "link": "https://nitter.net/kilocode/status/2062871987236577727#m",
+          "date_utc": "2026-06-05T12:19:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKDLI-cXEAAoxeh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The dynamic isn’t vendor-specific. Agentic workflows burn tokens far faster than the flat per-seat budgets they got dropped into. GitHub’s switch to usage-based billing just forced every other org to confront the same math at once.",
+          "link": "https://nitter.net/kilocode/status/2062871636177559757#m",
+          "date_utc": "2026-06-05T12:18:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The GitHub Copilot bill came due June 1. But the scariest number this week isn't from Copilot. Uber burned its entire 2026 AI coding budget by April. Four months in. And it wasn't even Copilot. It was Claude Code and Cursor.",
+          "link": "https://nitter.net/kilocode/status/2062867408704991236#m",
+          "date_utc": "2026-06-05T12:01:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": ". @Hitachi and @intel announce strategic collaboration to accelerate AI transformation across key industries. hitachi.com/en/press/article…",
+          "link": "https://nitter.net/magicsilicon/status/2062835594003206508#m",
+          "date_utc": "2026-06-05T09:55:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKCqABlXgAAnhJT.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.hitachi.com/en/press/articles/2026/06/0605/",
+              "content": "Hitachi and Intel announce strategic collaboration to accelerate AI transformation across key industries : Hitachi Global --> Skip to Main Content Contact Us Search Hitachi Global Products Solutions Products Solutions Products Solutions --> At Hitachi, we believe progress happens where digital technology meets the physical world. From clean energy and seamless mobility to smart manufacturing, we’re collaborating with partners and customers to solve the world’s most pressing challenges with purpose and innovation. Explore our solutions and discover what’s next. Digital Digital We combine digital and operational expertise to help businesses modernize, optimize, and grow. Together with our partners, we build intelligent, resilient systems that power what’s next. Digital Solutions Digital Engi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "be mira murati document altman's lies and share the evidence with the board board fires altman and appoints you interim CEO within 48 hours, switch sides realign with sam coordinate with microsoft mobilize all employees to sign petition threatening to quit and join microsoft board has no move left forced to resign and reinstate altman Helen Toner testified, former OpenAI board member: \"Mira was waiting to see which way the wind would blow, and she didn't realize she was the wind.\" What if you didn't do what you did? Mira Murati: \"OpenAI would have imploded.\" nitter.net/BloombergLive/status/2… ",
+          "link": "https://nitter.net/ns123abc/status/2062937590924276050#m",
+          "date_utc": "2026-06-05T16:40:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKA1UCWXEAANQEC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: TSMC has purchased ASML High-NA EUV tools Chairman C.C. Wei confirmed the hardware has been secured and currently using it for R D only",
+          "link": "https://nitter.net/ns123abc/status/2062887586339692792#m",
+          "date_utc": "2026-06-05T13:21:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKDZU_cWgAAK2D6.jpg",
+            "https://nitter.net/pic/media%2FHKDZU_aXUAEYjTq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Memory crisis expected to last until 2031 NVIDIA and SK hynix: Video",
+          "link": "https://nitter.net/ns123abc/status/2062883143669961085#m",
+          "date_utc": "2026-06-05T13:04:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062883053400178688%2Fimg%2F83Z6vKhnH0KRhk-f.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "The GPU King and HBM God are locked-in",
+          "link": "https://nitter.net/ns123abc/status/2062858502431744023#m",
+          "date_utc": "2026-06-05T11:26:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKC-4C3XEAAJWvX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: Leather jacket man arrives in Hongdae, Seoul at 7 PM to have pork belly + soju for dinner with the Korean MemoryGods Video",
+          "link": "https://nitter.net/ns123abc/status/2062846015481286928#m",
+          "date_utc": "2026-06-05T10:36:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062845940801658880%2Fimg%2FESPbfNH0It9yaryj.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "California Post (@californiapost) Jimmy Kimmel takes pot shots at Spencer Pratt: ‘We should be very embarrassed’ trib.al/kStz2nH Video — https://nitter.net/californiapost/status/2062756931769426398#m",
+          "link": "https://nitter.net/spencerpratt/status/2062940785201533010#m",
+          "date_utc": "2026-06-05T16:53:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKEJtgLboAAn8EC.jpg",
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2062756859342106624%2Fpu%2Fimg%2Ffdk_rHDlCAgRRqUD.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/kStz2nH",
+              "content": "Jimmy Kimmel takes shot at Spencer Pratt, LA Democrat voters Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official Store Ho"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
