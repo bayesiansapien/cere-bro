@@ -17,8 +17,9 @@ flowchart LR
   classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f
   classDef output fill:#d1fae5,stroke:#10b981,color:#065f46
   classDef warn fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
+  classDef stage fill:#e0e7ff,stroke:#6366f1,color:#312e81
   class T input
-  class A,ST,PROF stage
+  class A,ST stage
   class EV decision
   class OK,PROF output
   class V warn
