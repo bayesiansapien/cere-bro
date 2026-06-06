@@ -8,10 +8,10 @@ This page tracks the emergence of this idea as a distinct efficiency axis, separ
 
 The wiki already tracks two ways to make context cheap:
 
-1. **Compress the tokens** — feed less per item. AdaCodec (predictive video coding), token pruning/merging, sparse attention.
-2. **Cache smarter** — store less of the attention state. KV-cache eviction ([kv-cache.md](kv-cache.md)), low-rank latent caches (VideoMLA).
+1. **Compress the tokens.** Feed less per item: AdaCodec (predictive video coding), token pruning/merging, sparse attention.
+2. **Cache smarter.** Store less of the attention state: KV-cache eviction ([kv-cache.md](kv-cache.md)), low-rank latent caches (VideoMLA).
 
-Parametric internalization is a third move: **do not put the context in the prompt at all.** Encode it into weights ahead of time. The key enabler is that the adapter is *predicted*, not *trained* — a hypernetwork maps the raw context (a document, a video, a repo) to adapter weights in one pass, so you avoid the per-item fine-tuning cost that made "just train a LoRA per item" impractical at scale.
+Parametric internalization is a third move: **do not put the context in the prompt at all.** Encode it into weights ahead of time. The key enabler is that the adapter is *predicted*, not *trained*. A hypernetwork maps the raw context (a document, a video, a repo) to adapter weights in one pass, so you avoid the per-item fine-tuning cost that made "just train a LoRA per item" impractical at scale.
 
 The cost model flips. RAG and long context pay `O(context tokens) per query`. Internalization pays `O(1) hypernetwork pass per item`, then `O(0) context tokens per query`. It wins whenever an item is queried many times; it can lose for one-shot queries where the generation pass is not amortized.
 
