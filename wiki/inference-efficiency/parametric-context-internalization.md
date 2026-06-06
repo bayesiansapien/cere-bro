@@ -17,9 +17,9 @@ The cost model flips. RAG and long context pay `O(context tokens) per query`. In
 
 ## The lineage
 
-- **Doc-to-LoRA** (prior work) — maps a *text document* into a LoRA via a feedforward hypernetwork; the LLM answers about the document with no text in context. The template the 2026-06 papers extend.
-- **[Code2LoRA](2026-06-06-code2lora-hypernetwork-repo-adapters.md)** (2026-06-06) — generates a *repository-specific* adapter from a code snapshot (static) or updates it per commit diff via a GRU hidden state (evolution). Matches the per-repo LoRA upper bound on assertion completion (63.8% cross-repo EM) with zero query-time tokens.
-- **[Video2LoRA](2026-06-06-video2lora-parametric-video-internalization.md)** (2026-06-06) — a perceiver hypernetwork reads a frozen VLM's layer-by-layer activations on a *video* and predicts a LoRA in one pass. Statistically non-inferior to video-in-context at up to 1,500x fewer answer-time visual tokens and 6-80x faster TTFT; segment adapters compose in rank space.
+- **Doc-to-LoRA** (prior work): maps a *text document* into a LoRA via a feedforward hypernetwork, so the LLM answers about the document with no text in context. The template the 2026-06 papers extend.
+- **[Code2LoRA](2026-06-06-code2lora-hypernetwork-repo-adapters.md)** (2026-06-06): generates a *repository-specific* adapter from a code snapshot (static) or updates it per commit diff via a GRU hidden state (evolution). Matches the per-repo LoRA upper bound on assertion completion (63.8% cross-repo EM) with zero query-time tokens.
+- **[Video2LoRA](2026-06-06-video2lora-parametric-video-internalization.md)** (2026-06-06): a perceiver hypernetwork reads a frozen VLM's layer-by-layer activations on a *video* and predicts a LoRA in one pass. Statistically non-inferior to video-in-context at up to 1,500x fewer answer-time visual tokens and 6-80x faster TTFT; segment adapters compose in rank space.
 
 Two independent groups shipping the same mechanism (predict-an-adapter-from-context) for two different modalities on the same day is the signal that this has crystallized into a named approach rather than a one-off trick.
 
