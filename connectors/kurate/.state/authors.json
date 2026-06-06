@@ -4548,5 +4548,75 @@
     ],
     "first_seen": "2026-W23",
     "last_seen": "2026-W23"
+  },
+  "Anima Anandkumar": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "1210.7559",
+        "title": "Tensor decompositions for learning latent variable models",
+        "ai_rating": 9.2
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Rong Ge": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "1210.7559",
+        "title": "Tensor decompositions for learning latent variable models",
+        "ai_rating": 9.2
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Daniel Hsu": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "1210.7559",
+        "title": "Tensor decompositions for learning latent variable models",
+        "ai_rating": 9.2
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Sham M. Kakade": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "1210.7559",
+        "title": "Tensor decompositions for learning latent variable models",
+        "ai_rating": 9.2
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Matus Telgarsky": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "1210.7559",
+        "title": "Tensor decompositions for learning latent variable models",
+        "ai_rating": 9.2
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
   }
 }

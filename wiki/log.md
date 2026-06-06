@@ -788,3 +788,15 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-05] ingest | Media Live morning synthesis 2026-06-05 | twitter
 ## [2026-06-05] ingest | Media Zone synthesis 2026-06-05 | media-zone
 ## [2026-06-05] note | concurrent cron stampede detected (3 instances of cerebro-morning-digest.sh); stopped 2 sibling runs, kept canonical sibling-authored summary pages + concept-page updates, deduped duplicate CLEAR page (kept inference-efficiency slug), this instance authored digest + media-live + media-zone + index/log | ops
+
+## [2026-06-06] ingest | SABER: operational safety of LLM coding agents (arxiv 2606.01317) | huggingface
+## [2026-06-06] ingest | AdaCodec: predictive visual code for video MLLMs (arxiv 2606.02569) | huggingface
+## [2026-06-06] ingest | Combinatorial Synthesis / ADR: scaling code RLVR (arxiv 2605.31058) | huggingface
+## [2026-06-06] ingest | The Shape of Addition: arithmetic geometry (arxiv 2606.03645) | huggingface
+## [2026-06-06] ingest | DataCOPE: unsupervised skill discovery for agentic data analysis (arxiv 2606.06416) | huggingface
+## [2026-06-06] ingest | AdaPlanBench: adaptive planning under hidden constraints (arxiv 2606.05622) | huggingface
+## [2026-06-06] update | concept pages: rl-for-llms (ADR), agent-benchmarks (SABER+AdaPlanBench), responsible-ai (Shape of Addition+SABER), kv-cache (AdaCodec) | concept
+## [2026-06-06] ingest | Daily digest 2026-06-06 | digest
+## [2026-06-06] ingest | Media Live morning synthesis 2026-06-06 | twitter
+## [2026-06-06] ingest | Media Zone synthesis 2026-06-06 | media-zone
+## [2026-06-06] note | Yesterday's papers (OPRD/CLEAR/NF-CoT/MMPO/RL-translation) re-surfaced in today's HF farm; already ingested 06-05, not re-ingested. No HF+Kurate overlap (Kurate biomedical/science-FM heavy, weeks stale). All 8 Reddit subs empty this window. No curated @bayesiansapien retweets. | ops
