@@ -800,3 +800,8 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-06] ingest | Media Live morning synthesis 2026-06-06 | twitter
 ## [2026-06-06] ingest | Media Zone synthesis 2026-06-06 | media-zone
 ## [2026-06-06] note | Yesterday's papers (OPRD/CLEAR/NF-CoT/MMPO/RL-translation) re-surfaced in today's HF farm; already ingested 06-05, not re-ingested. No HF+Kurate overlap (Kurate biomedical/science-FM heavy, weeks stale). All 8 Reddit subs empty this window. No curated @bayesiansapien retweets. | ops
+## [2026-06-06] ingest | Code2LoRA: hypernetwork-generated repo adapters (arxiv 2606.06492) | huggingface
+## [2026-06-06] ingest | Video2LoRA: parametric video internalization (arxiv 2606.04351) | huggingface
+## [2026-06-06] concept | NEW parametric-context-internalization concept page (Doc-to-LoRA → Code2LoRA + Video2LoRA); links How LoRA Remembers 05-29 | concept
+## [2026-06-06] update | digest 2026-06-06: added Code2LoRA+Video2LoRA Deep Dive + TL;DR bullet + Global View thread + Looking Ahead; merged two compute/money TL;DR bullets to stay at 6 | digest
+## [2026-06-06] note | second-pass ingest found prior sibling run had completed digest/media-live/media-zone but missed the Code2LoRA+Video2LoRA hypernetwork-LoRA cluster; added those pages + concept, deduped 3 orphan duplicate pages (my saber/adr/propme slugs) keeping the index-referenced canonical files | ops
