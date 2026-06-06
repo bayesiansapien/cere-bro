@@ -1,0 +1,633 @@
+{
+  "date": "2026-06-06",
+  "slot": "evening",
+  "scraped_ist": "2026-06-06 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Experimenting with infinite, interactive worlds. 🌍 Stop by our #CVPR2026 booth kiosk, #557, at 12pm to see Project Genie presented by Hang Qi! @GoogleDeepMind",
+          "link": "https://nitter.net/GoogleResearch/status/2063299735730176420#m",
+          "date_utc": "2026-06-06T16:39:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJQC0haIAAe0Fa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Missed BlazeEdit yesterday? Stop by our kiosk today from 12:00 - 1:00 PM to see our generalist image-to-image diffusion model for mobile! #CVPR2026 Google Research (@GoogleResearch) Check out BlazeEdit at our kiosk (booth #557) at 12 PM! A highly efficient, generalist image-to-image diffusion model tailored for on-device deployment. See interactive outpainting, relighting more on mobile! #CVPR2026 arxiv.org/abs/2605.28067 — https://nitter.net/GoogleResearch/status/2062957195566923801#m",
+          "link": "https://nitter.net/GoogleResearch/status/2063295069378290037#m",
+          "date_utc": "2026-06-06T16:20:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKEYbosbsAABPq6.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2605.28067",
+              "content": "Abstract: The remarkable generation quality of modern diffusion models often comes at the cost of massive parameter counts, which necessitate server-side inference with significant computational costs and potential privacy risks. Consequently, there is growing momentum toward developing efficient on-device alternatives. While recent efforts have optimized text-to-image models for mobile hardware, they remain relatively bulky, typically ranging from 0.5B to 1B parameters. We present BlazeEdit, a highly efficient, generalist image-to-image diffusion model tailored for on-device deployment. By identifying that many practical image editing tasks do not require text-based guidance, we eliminate the text-conditioning components and develop a multi-task architecture that consolidates object remov"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "We're back with another Discover Android XR demo today from 12:00 - 12:30 PM! 🕶️ Stop by to experience the latest features and spatial intelligence. #CVPR2026 Google Research (@GoogleResearch) Discover Android XR at our demo today at 4 PM! 🕶️ Experience cutting-edge CV and spatial intelligence at #CVPR2026 booth #557. See Gemini on AndroidXR and more! blog.google/products-and-pla… — https://nitter.net/GoogleResearch/status/2063010170557571375#m",
+          "link": "https://nitter.net/GoogleResearch/status/2063290092530381066#m",
+          "date_utc": "2026-06-06T16:01:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061944773276221440%2F74lhdKZA%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.google/products-and-platforms/platforms/android/android-show-xr-edition-updates/",
+              "content": "The Android Show: New features for Galaxy XR and a look at future devices Skip to main content The Keyword The Android Show: New features for Galaxy XR and a look at future devices Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure clo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "nitter.net/i/spaces/1nJOLLmpRpZxR",
+          "link": "https://nitter.net/Scobleizer/status/2063304713664381343#m",
+          "date_utc": "2026-06-06T16:59:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Nerd out while your agents are running. Starts in five. nitter.net/i/spaces/1nJOLLmpRpZxR",
+          "link": "https://nitter.net/Scobleizer/status/2063303757845393692#m",
+          "date_utc": "2026-06-06T16:55:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This is true for all jobs and all things. The best in every field is leveling up, and the worst are resisting. Video",
+          "link": "https://nitter.net/Scobleizer/status/2063295098549567969#m",
+          "date_utc": "2026-06-06T16:21:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062569003378454528%2Fimg%2FLQeykWtEvhp-fnH_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063288798042288308#m",
+          "date_utc": "2026-06-06T15:55:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJGODhaIAAjNFo.jpg",
+            "https://nitter.net/pic/media%2FHKJGODkakAAn3aP.jpg",
+            "https://nitter.net/pic/media%2FHKJGODjaMAA90uL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063288565786972537#m",
+          "date_utc": "2026-06-06T15:55:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJGAa-aEAARKMA.jpg",
+            "https://nitter.net/pic/media%2FHKJGAbBbIAAwAQP.jpg",
+            "https://nitter.net/pic/media%2FHKJGAbDa8AAyifF.jpg",
+            "https://nitter.net/pic/media%2FHKJGAbBbEAAuVzy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063288373360656510#m",
+          "date_utc": "2026-06-06T15:54:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJF1LOaoAApXwv.jpg",
+            "https://nitter.net/pic/media%2FHKJF1LMaMAANjHh.jpg",
+            "https://nitter.net/pic/media%2FHKJF1LHbwAANwe3.jpg",
+            "https://nitter.net/pic/media%2FHKJF1LHboAAli31.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063288190639960484#m",
+          "date_utc": "2026-06-06T15:53:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJFqpMasAAHRQG.jpg",
+            "https://nitter.net/pic/media%2FHKJFqpLagAAmp1A.jpg",
+            "https://nitter.net/pic/media%2FHKJFqpNbYAA92iu.jpg",
+            "https://nitter.net/pic/media%2FHKJFqpPbIAEmkI1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063288072935268594#m",
+          "date_utc": "2026-06-06T15:53:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJFj2FboAAyq7U.jpg",
+            "https://nitter.net/pic/media%2FHKJFj2JbYAA9h_E.jpg",
+            "https://nitter.net/pic/media%2FHKJFj2DbMAEjpSD.jpg",
+            "https://nitter.net/pic/media%2FHKJFj2HagAEaD4o.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063287921017520203#m",
+          "date_utc": "2026-06-06T15:52:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJFa3za0AA42iL.jpg",
+            "https://nitter.net/pic/media%2FHKJFa33boAE37_b.jpg",
+            "https://nitter.net/pic/media%2FHKJFa33aEAAMaOs.jpg",
+            "https://nitter.net/pic/media%2FHKJFa34bMAAFkF1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063287790931161379#m",
+          "date_utc": "2026-06-06T15:51:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJFTopaYAExJsw.jpg",
+            "https://nitter.net/pic/media%2FHKJFToobYAApmXX.jpg",
+            "https://nitter.net/pic/media%2FHKJFTomaAAAMsfB.jpg",
+            "https://nitter.net/pic/media%2FHKJFTooaMAA3Xof.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063287612623012082#m",
+          "date_utc": "2026-06-06T15:51:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJFI8ebEAAxfJl.jpg",
+            "https://nitter.net/pic/media%2FHKJFI8cbgAAJyth.jpg",
+            "https://nitter.net/pic/media%2FHKJFI8fbMAAKYB4.jpg",
+            "https://nitter.net/pic/media%2FHKJFI8abIAAuuYt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063287391289491865#m",
+          "date_utc": "2026-06-06T15:50:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJE8WhaYAEOUri.jpg",
+            "https://nitter.net/pic/media%2FHKJE8WWagAAkELO.jpg",
+            "https://nitter.net/pic/media%2FHKJE8Wfb0AAjC5s.jpg",
+            "https://nitter.net/pic/media%2FHKJE8WZa4AAAICp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "San Francisco AI marketing wars. From @polsia posters at street level to @MonacoGTM flying a plane. When I spoke at Google’s first advertisers’ conference I had dinner with Kraft foods’ executives. “Why do you spend so much money on advertising?” “Because it works.” @samdblond ’s post about the story behind the plane makes the same claim. Good morning! Maybe I need to do a better job of selling ads on my lists and alignednews.com/ai I have been talking photos of every ad I saw this week on three trips to SF. Quite a week! Posting them in thread. And I don’t have them all. There are so many. La",
+          "link": "https://nitter.net/Scobleizer/status/2063286745320600036#m",
+          "date_utc": "2026-06-06T15:47:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJEWyXaEAAkRJ-.jpg",
+            "https://nitter.net/pic/media%2FHKJEWyXaYAEMXdM.jpg",
+            "https://nitter.net/pic/media%2FHJ7Ng12bIAAOJ_1.jpg",
+            "https://nitter.net/pic/media%2FHJ7N0R-aIAArGsL.jpg",
+            "https://nitter.net/pic/media%2FHJ7N0R_a0AAB_SK.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Unbelievable workout The format is so simple, but so great - supersets that you can do ~30 reps at (e.g. pushups/rows) - Go to failure, rest 10s, go to failure again. Minimal rest - alternate/new exercises until your will gives out Dr. Mike Israetel (@misraetel) Turns out AI researchers and journalists are HUGE! Got a chance to train @_sholtodouglas and @dwarkesh_sp . They crushed it! — https://nitter.net/misraetel/status/2063244374243172451#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2063256671900840011#m",
+          "date_utc": "2026-06-06T13:48:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKId0qxXYAAmWx8.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes but with 1 Trillion Dima Zeniuk (@DimaZeniuk) Elon Musk stands among the greatest engineering minds in histor — https://nitter.net/DimaZeniuk/status/2063258961617248386#m",
+          "link": "https://nitter.net/brivael/status/2063323600321663054#m",
+          "date_utc": "2026-06-06T18:14:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIrFrHWMAAT8mz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The Spotify integration on Waymo is really shitty!!!",
+          "link": "https://nitter.net/brivael/status/2063321122771521626#m",
+          "date_utc": "2026-06-06T18:04:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I never understood why people are doing companies with the only goal of making money. This is what drives me: - Make products that people want. - Build that with people I like. - Work on hard problems. - Be proud of what I’m building. Recipe for purpose and happiness. ZaxtR (@AmX_ZaxTr) I didn't create companies for the sake of creating companies, but to get things done. _Elon Musk — https://nitter.net/AmX_ZaxTr/status/2063281285523452087#m",
+          "link": "https://nitter.net/brivael/status/2063320718411215092#m",
+          "date_utc": "2026-06-06T18:02:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKI_ZOYWMAAgYui.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We need more AC and less AOC 😂 Brian Mannix (@mannixlab) But there will always be AOC ; ) HeHe — https://nitter.net/mannixlab/status/2063315524398854557#m",
+          "link": "https://nitter.net/brivael/status/2063315657912156601#m",
+          "date_utc": "2026-06-06T17:42:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hahaha “Elon is dead. He destroyed his brand with political views saying the truth the West doesn’t want to hear.” Hold my beer 👇 🇦🇪 HGS (@Sajwani) And they said “Elon has been isolated” and “no one wants to do business with his companies” Now Elon is laughing again 😂 — https://nitter.net/Sajwani/status/2063216794731712789#m",
+          "link": "https://nitter.net/brivael/status/2063314057986441389#m",
+          "date_utc": "2026-06-06T17:36:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIEvKaboAAEHI_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "WTF!!!!! Toad vous épie 🔳 ☢️💸 (@ToadVousEpie) Rappel à ceux qui dénoncent le manque de moyen de la justice Regardez la légèreté de cette magistrate du tribunal de Bobigny qui traite le cas d'un jeune s'étant fait tabasser extrêmement violemment, coupé et brûlé les cheveux : elle veut remettre dehors les auteurs de l'agression Source : Documentaire \"Mineurs en peine, des procureurs en première ligne\" Video — https://nitter.net/ToadVousEpie/status/2062926093292552261#m",
+          "link": "https://nitter.net/brivael/status/2063313633577406952#m",
+          "date_utc": "2026-06-06T17:34:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062924354598359040%2Fimg%2FtSVNhWeBFOtTNH8z.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "It’s called the nasdaq Watcher.Guru (@WatcherGuru) 🇺🇸 President Trump says his administration is exploring giving Americans ownership stakes in AI companies. — https://nitter.net/WatcherGuru/status/2063274015222087843#m",
+          "link": "https://nitter.net/brivael/status/2063313098136834225#m",
+          "date_utc": "2026-06-06T17:32:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKI4xyjbMAIbo7v.jpg",
+            "https://nitter.net/pic/media%2FHKI4xypakAAEAH8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Ulrich (@UlrichFY) X est devenue de facto la place publique, l'Agora 2.0. Tout s'y passe, tout y est discuté, tout y est débattu. Que ça plaise ou non, c'est l'espace où il faut être pour peser dans le combat des idées. C'est aussi pour ça que les gauchistes ont fui en masse, officiellement pour protester contre Musk, mais surtout parce que dans ce grand octogone de l'échange libre des idées, ils se sont rendu compte qu'ils ne faisaient pas le poids. Cet entre-soi satisfait et sans contradiction, ils l'ont retrouvé sur Bluesky, le \"réseau des losers\". — https://nitter.net/UlrichFY/status/2",
+          "link": "https://nitter.net/brivael/status/2063312998824112536#m",
+          "date_utc": "2026-06-06T17:32:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The mission of @argildotai is giving infinite soft power to west citizens. Naval (@naval) The product is the mission. — https://nitter.net/naval/status/2063292550388298025#m",
+          "link": "https://nitter.net/brivael/status/2063310886652317698#m",
+          "date_utc": "2026-06-06T17:23:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu penses que changer d’avis prouve que je n’ai aucune pensée indépendante. C’est exactement l’inverse. C’était un post vite fait, pas une thèse que je défends depuis dix ans. J’ai lu quelques bouquins, regardé quelques vidéos, et j’en ai conclu qu’Edison était plus proche d’un arnaqueur que Tesla, surtout à cause des histoires d’électrocution. Elon a apporté un contre-argument pertinent, donc j’ai update. Voilà, c’est tout. La vraie pensée indépendante, ce n’est pas refuser de changer de position juste pour avoir l’air cohérent. Ça, c’est de l’ego déguisé en conviction. Les gens les plus enfe",
+          "link": "https://nitter.net/brivael/status/2063307019202056603#m",
+          "date_utc": "2026-06-06T17:08:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "N’importe quoi 😂 James Alley (@james_alleyy) Arrêtez de vouloir révolutionner le monde. Toutes les idées sont déjà prises. Shippez et faites de l’💵 — https://nitter.net/james_alleyy/status/2062946251453223088#m",
+          "link": "https://nitter.net/brivael/status/2063190134766600516#m",
+          "date_utc": "2026-06-06T09:23:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 Eric le 🤴 Eric Larchevêque (@EricLarch) Faut-il démanteler BFM \"business\" ? — https://nitter.net/EricLarch/status/2063176227054063958#m",
+          "link": "https://nitter.net/brivael/status/2063188257530396802#m",
+          "date_utc": "2026-06-06T09:16:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063330953443889537#m",
+          "date_utc": "2026-06-06T18:43:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJskCYXUAAyoH6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063326805818257536#m",
+          "date_utc": "2026-06-06T18:26:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJoys2WAAAnN3w.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063326729326710894#m",
+          "date_utc": "2026-06-06T18:26:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJot_KWQAA8mRr.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The catch the headline number hides: the cheap M3 run and the cheap Claude run tied at 13, but they didn’t catch the same 13. M3 flagged a secret-returning endpoint that Claude medium missed. Claude medium flagged an async callback inside a sync transaction that M3 missed. Different models see different bugs. The win isn’t picking one. It’s running the right one for the job, which is what Kilo Code is built for. kilo.codes/gJBzwKp",
+          "link": "https://nitter.net/kilocode/status/2063326226345832678#m",
+          "date_utc": "2026-06-06T18:24:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2059855480479186944%2FMKhc5-o8%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/gJBzwKp",
+              "content": "Install Kilo Code in 60 Seconds — VS Code, JetBrains CLI Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up Install Kilo Code Get started with AI coding in your CLI or preferred IDE Using Kilo for work? Create a team workspace . VS Code JetBrains CLI Slack Others VS Code Install Kilo Code for VS Code To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code If you don&#x27;t have VS Code installed yet, download it here 2. Install the extension Click the button below to install Kilo Code directly in VS Code Install in VS Code Download VS Code Kilo Community Discord Discord GitHub GitHub Reddit r/kilocode X LinkedIn Bluesky Instagram Product Hunt p/kilocode P"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The takeaway is matching the run to the job, not crowning a model. For high-volume audits, MiniMax M3 is the value pick. For the most thorough single pass, Claude at xhigh. The most expensive setting was the hardest to justify. Open-weight models are closing the gap fast. Test a few on your own work and pick on budget and coverage. Full writeup: blog.kilo.ai/p/we-audited-th…",
+          "link": "https://nitter.net/kilocode/status/2063259746635755653#m",
+          "date_utc": "2026-06-06T14:00:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2063259748867219457%2FTmTJL0cz%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/we-audited-the-same-codebase-with",
+              "content": "We Audited the Same Codebase with Claude Opus 4.8 and MiniMax M3 Kilo Blog Subscribe Sign in We Audited the Same Codebase with Claude Opus 4.8 and MiniMax M3 Darko Gjorgjievski Jun 05, 2026 9 2 1 Share Anthropic released Claude Opus 4.8 on May 28, 2026 , and MiniMax shipped MiniMax M3 on June 1, 2026. The two models sit at very different price points, and we wanted to see how they perform compared to each other. We gave the same code audit task to Claude Opus 4.8 at four reasoning levels and to MiniMax M3, then tracked tokens, cost, time, and how many known issues each run found. TL;DR: MiniMax M3 surfaced 13 of 17 known issues for about $0.07, the same count as Claude Opus 4.8 at medium and high and two behind Claude Opus 4.8 at xhigh and max. Claude Opus 4.8 caught the most issues at its"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Cost per issue found is the cleanest view. MiniMax M3 won by a wide margin. Claude at max was the most expensive per finding. The two settings that found the most were not the most efficient per dollar.",
+          "link": "https://nitter.net/kilocode/status/2063259744660254862#m",
+          "date_utc": "2026-06-06T14:00:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIryqBXAAAThhS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "But more reasoning did not move in one direction. Claude at medium and high both caught an async-transaction bug that xhigh and max missed. And Claude at max cost $3.39, which is 67% more than xhigh, on slightly fewer tokens, for nothing better.",
+          "link": "https://nitter.net/kilocode/status/2063259742869303526#m",
+          "date_utc": "2026-06-06T14:00:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIryn8WYAAqYPN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "MiniMax M3 held up on the specific code-path bugs too. The endpoint returning a stored secret. A list filter that dropped a condition. The replay path accepting deliveries in the wrong state. It landed at 13 of 17. Claude at xhigh and max led the field at 15.",
+          "link": "https://nitter.net/kilocode/status/2063259741497819273#m",
+          "date_utc": "2026-06-06T14:00:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "What each run caught is where it gets interesting. Every run flagged the big blockers: missing auth on every route, unsafe outbound requests, a non-constant-time signature check, a worker that could send the same webhook twice, missing idempotency.",
+          "link": "https://nitter.net/kilocode/status/2063259740306633080#m",
+          "date_utc": "2026-06-06T14:00:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Going in, the price gap is steep. Claude Opus 4.8 runs about 8x higher on input tokens and 10x higher on output.",
+          "link": "https://nitter.net/kilocode/status/2063259738574409925#m",
+          "date_utc": "2026-06-06T14:00:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIrypqXUAABOlS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The fixture: a webhook delivery service in TypeScript, Bun, and SQLite, with 17 real bugs we catalogued ourselves first. That list was the answer key. Same prompt every run: audit it for security, reliability, correctness, and coverage, write the report, don't touch the code. We ran Claude at four reasoning levels and MiniMax M3 at its default.",
+          "link": "https://nitter.net/kilocode/status/2063259736250647025#m",
+          "date_utc": "2026-06-06T14:00:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIrypaXYAAKGtx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We gave the same code audit to Claude Opus 4.8 and MiniMax M3. Same codebase. Same prompt. 17 known bugs planted in advance. MiniMax M3 caught 13 of them for $0.07. The cheapest Claude run caught the same 13 for $1.30. Here's the breakdown. 🧵",
+          "link": "https://nitter.net/kilocode/status/2063259733025321029#m",
+          "date_utc": "2026-06-06T14:00:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIryoFXAAApP4v.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
