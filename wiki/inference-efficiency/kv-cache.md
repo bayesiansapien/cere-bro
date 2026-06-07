@@ -115,7 +115,12 @@ KV caching is standard in all production LLM serving. Active research is focused
 - **Soft-token adapters**: trainable lightweight token representations that can modify how a cached KV state interacts with a new context, without recomputing the underlying states.
 - **Cache eviction**: when the KV cache fills up, old entries must be evicted. Policy choices (LRU, saliency-based, etc.) affect quality and memory efficiency.
 
+## Hardware context (2026-06-07)
+
+The Ken Huang memory survey ([Memory Technology for Agentic AI Workloads](../hardware/2026-06-07-agentic-ai-memory-hierarchy.md)) names the hardware fact under this whole page: as context grows, the dominant memory traffic shifts **from weights to KV cache**, so KV-cache management is the binding hardware constraint, not just a software optimization. This is why every eviction/quantization/offload technique above matters economically in a structurally memory-short market (HBM allocation-driven into 2030). Concrete hardware moves: Micron SOCAMM2 (LPDDR) claims >2.3x time-to-first-token when used for KV-cache offload at 1/3 the power of RDIMM; NVIDIA CMX/BlueField-4 turns SSD into an AI-native ephemeral-KV context tier with KV-aware placement. The open systems direction is **KV-aware tiering**: deciding per-request which KV blocks live in HBM vs LPDDR/CXL/SSD — the hardware dual of [CLEAR](2026-06-05-clear-shadow-price-reasoning-budget.md)'s per-query compute rationing. See [memory-hierarchy](../hardware/memory-hierarchy.md).
+
 ## Related Pages
 
+- [Memory Hierarchy for AI](../hardware/memory-hierarchy.md)
 - [Knowledge Distillation](knowledge-distillation.md)
 - [LLM Routing](../ai-routing/llm-routing.md)
