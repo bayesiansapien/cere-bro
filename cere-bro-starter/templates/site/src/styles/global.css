@@ -1502,7 +1502,23 @@ th {
   width: 100%;
   margin-top: 8px;
   border-radius: 6px;
+  /* Tell the browser to render the native audio controls in dark mode —
+     white play icon, white volume + menu icons, white progress bar — so
+     they're visible against the dark episode-card background. */
+  color-scheme: dark;
 }
 .episode-player::-webkit-media-controls-panel {
   background-color: var(--bg-elev);
+}
+/* WebKit-specific overrides for browsers that don't fully honor color-scheme
+   for media controls (Chrome ≤ 117 territory). Forces the icon glyphs and
+   timeline to white. */
+.episode-player::-webkit-media-controls-play-button,
+.episode-player::-webkit-media-controls-mute-button,
+.episode-player::-webkit-media-controls-volume-slider,
+.episode-player::-webkit-media-controls-timeline,
+.episode-player::-webkit-media-controls-current-time-display,
+.episode-player::-webkit-media-controls-time-remaining-display,
+.episode-player::-webkit-media-controls-overflow-button {
+  filter: invert(1);
 }
