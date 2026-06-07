@@ -38,7 +38,7 @@ flowchart LR
 
 ## How this relates to prior wiki knowledge
 
-- **The "discrete output is a lossy projection" thread, applied to vision.** This is the visual sibling of [NF-CoT / Latent Reasoning with Normalizing Flows](../inference-efficiency/2026-06-07-? ) (06-05), which reasoned in continuous latent space because the token vocabulary is a lossy bottleneck, and of [The Shape of Addition](../responsible-ai/2026-06-06-shape-of-addition-arithmetic-geometry.md) (06-06), where the lossy step was the carry-quantization threshold. Three papers in a week share the frame: keep the reasoning continuous, quantize only at the end. Here the lossy projection being avoided is text-verbalization of visual evidence.
+- **The "discrete output is a lossy projection" thread, applied to vision.** This is the visual sibling of [NF-CoT / Latent Reasoning with Normalizing Flows](../llms-foundation-models/2026-06-05-nf-cot-latent-reasoning-normalizing-flows.md) (06-05), which reasoned in continuous latent space because the token vocabulary is a lossy bottleneck, and of [The Shape of Addition](../responsible-ai/2026-06-06-shape-of-addition-arithmetic-geometry.md) (06-06), where the lossy step was the carry-quantization threshold. Three papers in a week share the frame: keep the reasoning continuous, quantize only at the end. Here the lossy projection being avoided is text-verbalization of visual evidence.
 - **Latent-reasoning is consolidating into a named direction.** Reasoning in latent space (rather than emitted tokens) now spans math (NF-CoT), arithmetic interpretability (Shape of Addition), and video prediction (Future-L1). The recurring open question is verifiability: latent reasoning is harder to audit than a written chain.
 
 ## Research angle
