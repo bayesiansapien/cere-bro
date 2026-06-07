@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-06-03T09:30:03.523424+00:00",
+  "following_last_checked": "2026-06-06T16:30:01.163208+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -70,7 +70,8 @@
     "RobertIsom_",
     "aplusk",
     "ianmiles",
-    "eastdakota"
+    "eastdakota",
+    "johnfederspiel"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -516,6 +517,15 @@
       "focus": [
         "LLMs",
         "training"
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "name": "Heavy Pulp",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
       ]
     }
   ],

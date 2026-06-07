@@ -805,3 +805,13 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-06] concept | NEW parametric-context-internalization concept page (Doc-to-LoRA → Code2LoRA + Video2LoRA); links How LoRA Remembers 05-29 | concept
 ## [2026-06-06] update | digest 2026-06-06: added Code2LoRA+Video2LoRA Deep Dive + TL;DR bullet + Global View thread + Looking Ahead; merged two compute/money TL;DR bullets to stay at 6 | digest
 ## [2026-06-06] note | second-pass ingest found prior sibling run had completed digest/media-live/media-zone but missed the Code2LoRA+Video2LoRA hypernetwork-LoRA cluster; added those pages + concept, deduped 3 orphan duplicate pages (my saber/adr/propme slugs) keeping the index-referenced canonical files | ops
+## [2026-06-07] ingest | SEAOTTER: sensor-embedded autoencoding, one-time JPEG transcode (arxiv 2606.03940) | huggingface
+## [2026-06-07] ingest | Flash-WAM: modality-aware step distillation for world-action models (arxiv 2606.05254) | huggingface
+## [2026-06-07] ingest | Future-L1: interleaved latent visual reasoning for video event prediction (arxiv 2606.05769) | huggingface
+## [2026-06-07] ingest | InKH: interaction-native knowledge harness for financial agents (arxiv 2606.01886) | huggingface
+## [2026-06-07] ingest | ForeSci: forward-looking AI-research-judgment benchmark (arxiv 2606.00644) | huggingface
+## [2026-06-07] ingest | Kilo Code audit: MiniMax M3 vs Claude Opus 4.8, model-task routing in production (Twitter/blog) | twitter
+## [2026-06-07] concept | Updated knowledge-distillation (SEAOTTER+Flash-WAM), llm-routing (Kilo audit), agent-memory (InKH), responsible-ai (PropMe surfaced), agent-benchmarks (ForeSci) | concept
+## [2026-06-07] update | digest 2026-06-07 written (SEAOTTER/Flash-WAM/Kilo/PropMe/AdaPlanBench/Future-L1/InKH + sibling's memory-hierarchy lead); social-stream morning; media-zone | digest
+## [2026-06-07] note | AdaPlanBench (2606.05622) and PropMe (2606.06286) already ingested as summaries (06-06, 06-05) but never digested; surfaced today, pointed to canonical pages, deleted my duplicate 06-07 slugs. CLEAR/OPRD/NF-CoT/MMPO/ADR/SABER/AdaCodec etc. re-listed by HF farm but already ingested earlier; not re-ingested. | ops
+## [2026-06-07] note | Concurrent sibling ingest ran the same cron; it owns the memory-hierarchy deep dive + hardware pages, I own the other six summaries + social/media. Reconciled links, deduped. No HF+Kurate overlap (Kurate biomedical/science-FM heavy, weeks stale); all 8 Reddit subs empty; no curated @bayesiansapien retweets. | ops
