@@ -4618,5 +4618,75 @@
     ],
     "first_seen": "2026-W23",
     "last_seen": "2026-W23"
+  },
+  "Leena Chennuru Vankadara": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.14200v1",
+        "title": "How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Moritz Haas": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.14200v1",
+        "title": "How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Luke Hayward": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.14200v1",
+        "title": "How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Sebastian Bordt": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.14200v1",
+        "title": "How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
+  },
+  "Alessandro Breccia": {
+    "appearances": [
+      {
+        "week": "2026-W23",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2605.14200v1",
+        "title": "How to Scale Mixture-of-Experts: From muP to the Maximally Scale-Stable Parameterization",
+        "ai_rating": 9.0
+      }
+    ],
+    "first_seen": "2026-W23",
+    "last_seen": "2026-W23"
   }
 }
