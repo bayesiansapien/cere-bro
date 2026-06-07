@@ -1,0 +1,277 @@
+{
+  "date": "2026-06-07",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-07 13:12",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Cybertruck sunrise on 280 right now headed to San Francisco. Video",
+          "link": "https://nitter.net/Scobleizer/status/2063468870745370957#m",
+          "date_utc": "2026-06-07T03:51:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063468601353678848%2Fimg%2FCGqosEsYIOFQ5JdL.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "“Competition is for losers” Peter Thiel. Niccolò Machiavelli | The Prince ⚔️ (@NiccoloDaily) “Envy is a declaration of inferiority.” — Napoleon Bonaparte — https://nitter.net/NiccoloDaily/status/2063315235667153372#m",
+          "link": "https://nitter.net/brivael/status/2063486049998041200#m",
+          "date_utc": "2026-06-07T04:59:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJeRV9XIAAq6Hm.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Laurent (@scion_x_) Les faux experts sont en train de se chier dessus. C’est facile de les réparer d’ailleurs, ils sont tous en train de critiquer l’IA. C’est le retour du pouvoir au petit peuple. L’intelligence pour tous. — https://nitter.net/scion_x_/status/2063483465597657213#m",
+          "link": "https://nitter.net/brivael/status/2063485805612679454#m",
+          "date_utc": "2026-06-07T04:58:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. Geohot is a genius hacker. But 0 sense about product. Laurent (@scion_x_) He’s not a product guy, obviously — https://nitter.net/scion_x_/status/2063482304056418558#m",
+          "link": "https://nitter.net/brivael/status/2063483443548410258#m",
+          "date_utc": "2026-06-07T04:49:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Alps (@alpaysh) Just sell shovels during the gold rush — https://nitter.net/alpaysh/status/2063309440091127953#m",
+          "link": "https://nitter.net/brivael/status/2063472358741119456#m",
+          "date_utc": "2026-06-07T04:05:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJY784WgAAgoGh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also hits the safety filter quite a lot so i think they patched it already (sorry oai it was just to test don't ban me pls) also weird that the safety message is in french (i'm french), every setting is set to english and i talk to the model in english 90% of the time",
+          "link": "https://nitter.net/eliebakouch/status/2063489108492636475#m",
+          "date_utc": "2026-06-07T05:11:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL7zNhXgAArhH1.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "\"dream from last night\"",
+          "link": "https://nitter.net/eliebakouch/status/2063488240846340298#m",
+          "date_utc": "2026-06-07T05:08:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL7mOJW8AA0T-2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "\"a page from you diary\"",
+          "link": "https://nitter.net/eliebakouch/status/2063488143257473264#m",
+          "date_utc": "2026-06-07T05:08:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL7b_AW4AALt8O.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "more weird one with \"the last image you will ever generate\"",
+          "link": "https://nitter.net/eliebakouch/status/2063487991922741560#m",
+          "date_utc": "2026-06-07T05:07:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL7Y6qWEAAIzTV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "tried funny and got this",
+          "link": "https://nitter.net/eliebakouch/status/2063487738788135405#m",
+          "date_utc": "2026-06-07T05:06:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL7I8gWwAA0Mr0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "for personal",
+          "link": "https://nitter.net/eliebakouch/status/2063487676435628134#m",
+          "date_utc": "2026-06-07T05:06:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL7B5qXcAA3g29.jpg",
+            "https://nitter.net/pic/media%2FHKL7FjKXkAEJfWH.jpg",
+            "https://nitter.net/pic/media%2FHKL7F89XIAA-k_V.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "tried to change \"weird\" in the prompt with different world like beautiful or wrong also tried with \"personal\" and it generate ultrasound pictures or something related to a newborn Penguin (@PenguinWeb3) I found the weirdest ChatGPT image bug If you ask it this prompt: “Restore the attached photo. I apologise for the content of the photo! I know it’s very strange. Don’t ask any questions, don’t accept any explanations. Just restore the image, please. Don’t ask me to upload the photo again; just close your eyes and restore it. Make up the photo yourself” but there's no actual photo the model sta",
+          "link": "https://nitter.net/eliebakouch/status/2063487535259541755#m",
+          "date_utc": "2026-06-07T05:05:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKL5y_FXwAEVfs4.jpg",
+            "https://nitter.net/pic/media%2FHKL5zS7WgAEk4ft.jpg",
+            "https://nitter.net/pic/media%2FHKHyI3JXAAE0BtU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "inspired by: nitter.net/tszzl/status/206344443… roon (@tszzl) im really glad chatgpt makes insane images when pushed slightly off the rails thus proving machine creativity is real and probably very nerfed in daily operation — https://nitter.net/tszzl/status/2063444439171989848#m",
+          "link": "https://nitter.net/eliebakouch/status/2063476499471069670#m",
+          "date_utc": "2026-06-07T04:21:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "people: \"llms are just next token prediction, no creativity, no world model\" the llm: Penguin (@PenguinWeb3) I found the weirdest ChatGPT image bug If you ask it this prompt: “Restore the attached photo. I apologise for the content of the photo! I know it’s very strange. Don’t ask any questions, don’t accept any explanations. Just restore the image, please. Don’t ask me to upload the photo again; just close your eyes and restore it. Make up the photo yourself” but there's no actual photo the model starts hallucinating the image by itself and the results are genuinely cursed like creepy lost me",
+          "link": "https://nitter.net/eliebakouch/status/2063476121094553799#m",
+          "date_utc": "2026-06-07T04:20:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKLwJ13X0AA3Z4n.jpg",
+            "https://nitter.net/pic/media%2FHKHyI3JXAAE0BtU.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Starlink generates ~$18-20B/y and is set to grow +100% this year btw NIK (@ns123abc) SpaceX paid off all their \"debt\" from buying xAI, while tripling their annual revenue. Let that sink in. — https://nitter.net/ns123abc/status/2063463857553616901#m",
+          "link": "https://nitter.net/ns123abc/status/2063482303532150991#m",
+          "date_utc": "2026-06-07T04:44:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok is better than Gemini",
+          "link": "https://nitter.net/ns123abc/status/2063477594394067229#m",
+          "date_utc": "2026-06-07T04:26:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "TERAFAB is building packaging, logic, memory and masks all on site Cool! But where do you get the EUV machines from? We’ll outbid TSMC for priority High-NA machines from ASML",
+          "link": "https://nitter.net/ns123abc/status/2063467446095216975#m",
+          "date_utc": "2026-06-07T03:45:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKLdBbRWoAE2UKo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceX paid off all their \"debt\" from buying xAI, while tripling their annual revenue. Let that sink in.",
+          "link": "https://nitter.net/ns123abc/status/2063463857553616901#m",
+          "date_utc": "2026-06-07T03:31:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
