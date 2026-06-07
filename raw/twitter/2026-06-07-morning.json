@@ -1,0 +1,602 @@
+{
+  "date": "2026-06-07",
+  "slot": "morning",
+  "scraped_ist": "2026-06-07 09:09",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "See Project Astra 3D at the #CVPR2026 Google booth #557 at 5:30pm! The team presents 3DCodeBench, demonstrating Gemini models' proficiency in generating diverse 3D objects through code execution. Presented by Lei Shu Yipeng Gao. 3dcodebench.com @GoogleDeepMind",
+          "link": "https://nitter.net/GoogleResearch/status/2063376914090250554#m",
+          "date_utc": "2026-06-06T21:46:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKWN_BagAAd55R.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://www.3dcodebench.com",
+              "content": "3DCodeBench 3DCodeBench: Benchmarking Agentic Procedural 3D Modeling Via Code Yipeng Gao 1,3 · Lei Shu 1 · Genzhi Ye 1 · Xi Xiong 1 · Ameesh Makadia 2 · Meiqi Guo 1 · Laurent Itti 3 · Jindong Chen 1 1 Google DeepMind · 2 Google Research · 3 University of Southern California Paper Code Data 3D Arena Overview of 3DCodeBench: 212 procedural object classes, 12 frontier VLMs evaluated under multi-turn agentic refinement, plus a public 3DCodeArena for human-preference Elo rankings. Agentic data curation pipeline A VLM-driven agent transforms deeply nested procedural factories from Infinigen into standalone Blender Python scripts via API migration, geometric validation, and iterative visual refinement. Every generated (prompt, code, mesh) triplet passes a human-in-the-loop verification gate to gu"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Missed the D4RT demo? Catch us at the kiosk today from 4:30 - 5:30 PM to learn about 4D scene reconstruction! 🎯 #CVPR2026 @GoogleDeepMind Google Research (@GoogleResearch) Introducing D4RT: A unified AI model for 4D scene reconstruction and tracking across space and time. 🎯 Catch the demo with Skanda Koppula at 12 pm at our #CVPR2026 Google booth kiosk! d4rt-paper.github.io/ @GoogleDeepMind — https://nitter.net/GoogleResearch/status/2062957688058003512#m",
+          "link": "https://nitter.net/GoogleResearch/status/2063368807041892423#m",
+          "date_utc": "2026-06-06T21:13:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKEZBQaaEAAJK9U.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://d4rt-paper.github.io/",
+              "content": "D4RT 🎯 \"> Efficiently Reconstructing Dynamic Scenes One 🎯 D4RT at a Time Chuhan Zhang ✦ Guillaume Le Moing ✦ Skanda Koppula ✦ ◇ Ignacio Rocco ✦ Liliane Momeni ✦ Junyu Xie ○ 1 Shuyang Sun ✦ Rahul Sukthankar ✦ Joëlle K. Barral ✦ Raia Hadsell ✦ Zoubin Ghahramani ✦ Andrew Zisserman ✦ ○ Junlin Zhang ✦ Mehdi S. M. Sajjadi ✦ 2 ✦ Google DeepMind ◇ University College London ○ University of Oxford 1 Work done during an internship at Google DeepMind 2 Correspondence: d4rt@msajjadi.com CVPR 2026 Best Paper 🏆 pdf arXiv blog post Overview Intro D4RT Framework All Pixels Tracking Point Cloud Reconstruction Long-Term Prediction Quantitative Performance Qualitative Comparisons Takeaways Abstract Understanding and reconstructing the complex geometry and motion of dynamic scenes from video remains a formidab"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Want a closer look at Android XR? Visit our #CVPR2026 Google booth (#557) interactive kiosk today from 4:30 - 5:30 PM to try it out yourself! Google Research (@GoogleResearch) Discover Android XR at our demo today at 4 PM! 🕶️ Experience cutting-edge CV and spatial intelligence at #CVPR2026 booth #557. See Gemini on AndroidXR and more! blog.google/products-and-pla… — https://nitter.net/GoogleResearch/status/2063010170557571375#m",
+          "link": "https://nitter.net/GoogleResearch/status/2063361805041484039#m",
+          "date_utc": "2026-06-06T20:46:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061944773276221440%2F74lhdKZA%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.google/products-and-platforms/platforms/android/android-show-xr-edition-updates/",
+              "content": "The Android Show: New features for Galaxy XR and a look at future devices Skip to main content The Keyword The Android Show: New features for Galaxy XR and a look at future devices Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure clo"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "We're hosting a BlazeEdit demo today from 4:30 - 5:00 PM! Come see interactive outpainting and relighting on mobile devices. #CVPR2026 Google Research (@GoogleResearch) Missed BlazeEdit yesterday? Stop by our kiosk today from 12:00 - 1:00 PM to see our generalist image-to-image diffusion model for mobile! #CVPR2026 — https://nitter.net/GoogleResearch/status/2063295069378290037#m",
+          "link": "https://nitter.net/GoogleResearch/status/2063354690319098046#m",
+          "date_utc": "2026-06-06T20:17:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "If you missed the kiosk, catch the TIPSv2 demo today from 1:00 - 1:30 PM! See how we're advancing Vision-Language Pretraining. #CVPR2026 @GoogleDeepMind Google Research (@GoogleResearch) Check out TIPSv2 at our #CVPR2026 booth kiosk at 4pm! A foundational image-text encoder with spatial awareness, leading to strong results for vision multimodal applications. Presented by Andre Araujo, Erik de Godoy Gabriele Berton. gdm-tipsv2.github.io/ @GoogleDeepMind — https://nitter.net/GoogleResearch/status/2063012767230312895#m",
+          "link": "https://nitter.net/GoogleResearch/status/2063310829437809017#m",
+          "date_utc": "2026-06-06T17:23:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKFLD7xa8AAj-vl.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://gdm-tipsv2.github.io/",
+              "content": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment Bingyi Cao * Koert Chen * Kevis-Kokitsi Maninis Kaifeng Chen 1 Arjun Karpur 2 Ye Xia Sahil Dua Tanmaya Dabral Guangxing Han Bohyung Han 3 Joshua Ainslie Alex Bewley Mithun Jacob Rene Wagner Washington Ramos 4 Krzysztof Choromanski Mojtaba Seyedhosseini Howard Zhou Andre Araujo Google DeepMind * Equal contribution now at: 1 xAI 2 Epsilon Health 3 Seoul National University 4 Google CVPR 2026 Paper GitHub Checkpoints Colab HF Demo HF Models Overview TIPSv2 is the next generation of the TIPS family of foundational image-text encoders empowering strong performance across numerous multimodal and vision tasks. Our work starts by revealin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Hall of fame tweet Elon Musk (@elonmusk) Hardware is hard — https://nitter.net/elonmusk/status/2063296591717421070#m",
+          "link": "https://nitter.net/MillionInt/status/2063378315835232580#m",
+          "date_utc": "2026-06-06T21:51:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I have an android phone with a secret OS on it that turns it into the Tricorder in Star Trek. Apple and Google will resist this because one app then rules them all. The guy @Shmall who did it would get me to buy one. It is a way better expression of the “anything app” idea that I have seen. @nothing could push it. I bet an “AI Phone” will find a lot of buyers. But when I see this below I realize that things will eventually get really crazy. Ingi Erlingsson 🪄 (@ingi_erlingsson) point and click ⬅️ Made in @ComfyUI + @Photoshop + @AdobeAE with GPT Image 2.0 and Wan 2.2 I2V ✏️🤖 Video — https://nit",
+          "link": "https://nitter.net/Scobleizer/status/2063455322409247064#m",
+          "date_utc": "2026-06-07T02:57:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063403340873048065%2Fimg%2Fg_XRCC5BuXFC7hZp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "R to @Scobleizer: Image",
+          "link": "https://nitter.net/Scobleizer/status/2063414433251229793#m",
+          "date_utc": "2026-06-07T00:15:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJEXiuaMAA23Ho.jpg",
+            "https://nitter.net/pic/media%2FHKJEXiuaEAA37-M.jpg",
+            "https://nitter.net/pic/media%2FHKJEXi0bIAAhDRl.jpg",
+            "https://nitter.net/pic/media%2FHKJEXixakAAzeOn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It was really awesome. Edward Kim (@maeng313) I was invited by @Scobleizer to speak about the AI scene in SF and the tech industry as a founder and AI engineer. Thank you Robert and @blevlabs for inviting me to this great opportunity! nitter.net/i/spaces/1nJOLLmpRpZxR — https://nitter.net/maeng313/status/2063341305074487806#m",
+          "link": "https://nitter.net/Scobleizer/status/2063352579913027589#m",
+          "date_utc": "2026-06-06T20:09:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "AI Life. Rahul Kunwar (@rahulkunwarX) To understand the true value of poke, you need to have gone through the pain of bad human assistants & accountants I gave poke access to my gmail & told it to do a deep dive of the last 10 years to audit & clean up During this, poke found 4 separate liabilities totaling $990,000 on entities we shut down years ago. No one (not a highly paid CPA firm, not dozens of executive assistants) was able to identify them It found them because it expanded the search to include spelling variations & different versions of the address (adding an \"s\" & negating the suite ",
+          "link": "https://nitter.net/Scobleizer/status/2063352387524493475#m",
+          "date_utc": "2026-06-06T20:08:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Image",
+          "link": "https://nitter.net/Scobleizer/status/2063351929275867377#m",
+          "date_utc": "2026-06-06T20:06:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJ_of6bAAApRYb.jpg",
+            "https://nitter.net/pic/media%2FHKJ_of7agAAysSu.jpg",
+            "https://nitter.net/pic/media%2FHKJ_of5bEAAzSdb.jpg",
+            "https://nitter.net/pic/media%2FHKJ_of5aQAADy3h.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂😂 AOC is funny Video",
+          "link": "https://nitter.net/brivael/status/2063461066735325628#m",
+          "date_utc": "2026-06-07T03:20:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2030710177805070336%2Fimg%2FBhzN1THc8Zkne2yY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Croire encore au socialisme et au communisme en 2026. C’est l’équivalent d’être platiste. Ou de croire en l’astrologie. Anticommie (@QueenAnticommie) If communism/socialism has failed everywhere it’s been tried (100+ million dead, famines, gulags, Venezuela, etc.), why do so many young people still simp for it in 2026? Is it brainwashing, envy, or something darker? — https://nitter.net/QueenAnticommie/status/2063282929074090234#m",
+          "link": "https://nitter.net/brivael/status/2063458770005717164#m",
+          "date_utc": "2026-06-07T03:11:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Milton Friedman Quotes (@MiltonFriedmanW) Milton Friedman on inflation: “Inflation is just like alcoholism. In both cases when you start drinking or when you start printing too much money, the good effects come first. The bad effects only come later.” “That’s why in both cases there is a strong temptation to overdo it: to drink too much and to print too much money.” “When it comes to the cure, it’s the other way around. When you stop drinking or when you stop printing money, the bad effects come first and the good effects only come later.” “That’s why it’s so hard to persist with the cure.",
+          "link": "https://nitter.net/brivael/status/2063440506517078453#m",
+          "date_utc": "2026-06-07T01:58:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063076524119470080%2Fimg%2FVJd-d5Y7udlrdj3k.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pillar wokisme. Hellenist ☀️🏺⚡️ (@RealHellenist) Pillars of the Ancient World — https://nitter.net/RealHellenist/status/2063294211173302342#m",
+          "link": "https://nitter.net/brivael/status/2063435180170526818#m",
+          "date_utc": "2026-06-07T01:37:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKLLWQebIAA6oBG.jpg",
+            "https://nitter.net/pic/media%2FHKJJxFNakAAnROU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 greg (@greg16676935420) I usually agree with Elon but in this case I think he’s wrong. Air conditioning is extremely important and I can’t imagine a world without it — https://nitter.net/greg16676935420/status/2063334340319473743#m",
+          "link": "https://nitter.net/brivael/status/2063429523321012234#m",
+          "date_utc": "2026-06-07T01:15:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The Elon Musk yacht for chilling some weekend. Arthur MacWaters (@ArthurMacwaters) POV: you walk down to the embarcadero this summer while you’ve been grinding at an agentic b2b saas startup all of your friends at SpaceX Anthropic and OpenAI just had their IPOs — https://nitter.net/ArthurMacwaters/status/2063358278353227780#m",
+          "link": "https://nitter.net/brivael/status/2063429023120920917#m",
+          "date_utc": "2026-06-07T01:13:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKFa2WboAAcc6y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. And low ego is key. Elon Musk (@elonmusk) Read books, talk to people iterate rapidly with hardware software — https://nitter.net/elonmusk/status/2063333242820853969#m",
+          "link": "https://nitter.net/brivael/status/2063423211992424562#m",
+          "date_utc": "2026-06-07T00:50:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mais administrer un projet socialiste encore plus radical à la France de 2026, c'est augmenter la dose d'alcool d'un patient dont le foie est déjà en cirrhose terminale. Ce n'est pas du courage. C'est de l'acharnement thérapeutique sur un pays. Brivael Le Pogam (@brivael) \"Je suis candidat à idées\", dit Matthieu Pigasse. Très bien. Regardons les idées. Et surtout, regardons l'homme qui les porte, parce qu'en France on a une fâcheuse habitude : oublier le casier idéologique de ceux qui se présentent en sauveurs. Premier point : Pigasse n'est pas un outsider. C'est l'incarnation chimiquement pur",
+          "link": "https://nitter.net/brivael/status/2063421815977025878#m",
+          "date_utc": "2026-06-07T00:44:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Près de 57% du PIB en dépense publique, le record d'Europe. Une dette qui explose. Une désindustrialisation méthodique. Et à chaque échec, la même réponse récitée en boucle : plus d'État, plus d'impôt, plus de \"social\". Brivael Le Pogam (@brivael) \"Je suis candidat à idées\", dit Matthieu Pigasse. Très bien. Regardons les idées. Et surtout, regardons l'homme qui les porte, parce qu'en France on a une fâcheuse habitude : oublier le casier idéologique de ceux qui se présentent en sauveurs. Premier point : Pigasse n'est pas un outsider. C'est l'incarnation chimiquement pure du système qu'il préten",
+          "link": "https://nitter.net/brivael/status/2063421771085447463#m",
+          "date_utc": "2026-06-07T00:44:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le plus beau, c'est qu'il l'assume : il revendique d'utiliser les entreprises qu'il contrôle au service de son combat politique. Quand on a déjà cette emprise sur les médias, on n'a pas besoin qu'on lui déroule en plus le tapis rouge sur France TV, aux frais du contribuable. Brivael Le Pogam (@brivael) \"Je suis candidat à idées\", dit Matthieu Pigasse. Très bien. Regardons les idées. Et surtout, regardons l'homme qui les porte, parce qu'en France on a une fâcheuse habitude : oublier le casier idéologique de ceux qui se présentent en sauveurs. Premier point : Pigasse n'est pas un outsider. C'est",
+          "link": "https://nitter.net/brivael/status/2063421752290791520#m",
+          "date_utc": "2026-06-07T00:44:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"Je suis candidat à idées\", dit Matthieu Pigasse. Très bien. Regardons les idées. Et surtout, regardons l'homme qui les porte, parce qu'en France on a une fâcheuse habitude : oublier le casier idéologique de ceux qui se présentent en sauveurs. Premier point : Pigasse n'est pas un outsider. C'est l'incarnation chimiquement pure du système qu'il prétend vouloir réinventer. Sciences Po, ENA, Trésor public, conseiller de Dominique Strauss-Kahn au ministère de l'Économie, directeur de cabinet de Laurent Fabius à Bercy. L'homme n'a pas subi la machine étatiste française. Il l'a pilotée. Ensuite, Laz",
+          "link": "https://nitter.net/brivael/status/2063421703896850820#m",
+          "date_utc": "2026-06-07T00:44:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKj0ZrXIAEdmeQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Jon De Lorraine (@jon_delorraine) Le service public en une image. — https://nitter.net/jon_delorraine/status/2063378722405720494#m",
+          "link": "https://nitter.net/brivael/status/2063420446658412597#m",
+          "date_utc": "2026-06-07T00:39:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKYA3tXoAA6Krj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "a 24y journey gg wp Elon always day 1 the future is bright DogeDesigner (@cb_doge) SpaceX in 2002 v/s SpaceX in 2026 Video — https://nitter.net/cb_doge/status/2063339260774903832#m",
+          "link": "https://nitter.net/brivael/status/2063416757319311426#m",
+          "date_utc": "2026-06-07T00:24:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063339189538856960%2Fimg%2FpFn-mV8eCB1lRDK_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Technology is magic. Perseus (@PerseusLeGrand) Cette photo est quand même incroyable. — https://nitter.net/PerseusLeGrand/status/2063317809489207775#m",
+          "link": "https://nitter.net/brivael/status/2063411317491556694#m",
+          "date_utc": "2026-06-07T00:02:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJgm_MWwAAfLuo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Cointelegraph (@Cointelegraph) 🚨 HUGE: Morgan Stanley projects SpaceX revenue could reach $3.4T by 2040. — https://nitter.net/Cointelegraph/status/2063237087390839004#m",
+          "link": "https://nitter.net/brivael/status/2063407229773258826#m",
+          "date_utc": "2026-06-06T23:46:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKIXMQLXgAE7WzY.jpg",
+            "https://nitter.net/pic/media%2FHKIXMgiXQAAuEXD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le niveau du gauchisme en France. Victor est un libéral convaincu. Qualifié de “facho” par l’extrême-gauche qui veut “tuer” ou mettre “à l’hôpital” les libéraux. L’inversion des valeurs est totale. Victor Ferry Business & News PhD (@mrvicfer) Le niveau sur Threads 😭 — https://nitter.net/mrvicfer/status/2063327953342075038#m",
+          "link": "https://nitter.net/brivael/status/2063404108082745406#m",
+          "date_utc": "2026-06-06T23:34:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJp1SaXMAEkItJ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also this is quite funny Worth flagging: that Digg writeup quotes \"tech analyst Elie Bakouch\" asking \"curious if this means anthropic is starting internal chip development?\" — that appears to be you. So this thread of speculation is partly yours. 🙂",
+          "link": "https://nitter.net/eliebakouch/status/2063382909814239247#m",
+          "date_utc": "2026-06-06T22:09:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "asking claude about what chip claude will be trained on elie (@eliebakouch) huge move! very curious if this means anthropic is starting internal chip development? for context, clive was a very early employee on oai's custom hardware effort and previously working on tesla dojo — https://nitter.net/eliebakouch/status/2063368042009018729#m",
+          "link": "https://nitter.net/eliebakouch/status/2063382682952741310#m",
+          "date_utc": "2026-06-06T22:09:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKaf1kWoAAchzN.jpg",
+            "https://nitter.net/pic/media%2FHKKNiNPWQAA5skj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "👀 reuters.com/business/anthrop…",
+          "link": "https://nitter.net/eliebakouch/status/2063380610471596435#m",
+          "date_utc": "2026-06-06T22:00:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2060285767147253760%2F7H0N6a0c%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "huge move! very curious if this means anthropic is starting internal chip development? for context, clive was a very early employee on oai's custom hardware effort and previously working on tesla dojo Clive Chan (@itsclivetime) Personal update: I’ve decided to leave OpenAI. I’m proud to have been part of the custom chip program and grateful to everyone I got to build with and learn from along the way. The density of hardware talent on that team is extraordinary, and I don't think there's a better chip design team anywhere. It's been a wild journey from second hardware hire, 2.4 years ago, to n",
+          "link": "https://nitter.net/eliebakouch/status/2063368042009018729#m",
+          "date_utc": "2026-06-06T21:10:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKNiNPWQAA5skj.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Full benchmark and the cost breakdown behind the Copilot story here. blog.kilo.ai/p/the-github-co…",
+          "link": "https://nitter.net/kilocode/status/2063357013208285573#m",
+          "date_utc": "2026-06-06T20:27:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062873898039795713%2FpTE_h4d4%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/the-github-copilot-bill-came-due",
+              "content": "The GitHub Copilot Bill Came Due. Here&#x27;s What Engineering Leaders Should Do. Kilo Blog Subscribe Sign in The GitHub Copilot Bill Came Due. Here's What Engineering Leaders Should Do. We said the era of free compute was ending. It ended on June 1 - and the people holding the bill are enterprise teams. Job Rietbergen Jun 05, 2026 7 Share Right now, as I write this, our team is on the floor at the Gartner Summit, and there’s one conversation happening in every hallway and coffee line: what just happened to our GitHub Copilot bill? It’s the trending topic of the day for a reason. On June 1, Copilot’s usage-based billing went live for everyone, and the people feeling it hardest are software engineering leaders who woke up this week to discover that a line item they’d treated as fixed for th"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The reason your AI coding bill is unpredictable: every task defaults to the most expensive frontier model, whether it needs it or not. But the cheapest capable model for a job is often a fraction of the priciest. MiMo-V2.5-Pro clears 47.6% on Terminal Bench 2.0 at $4.92 a run. GPT-5.5 leads at 74.2%, for $72.63. Match the model to the task and the cost curve bends.",
+          "link": "https://nitter.net/kilocode/status/2063357011912274000#m",
+          "date_utc": "2026-06-06T20:27:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKKERISXQAAhvQa.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Understanding and emulating the human brain on silicon will be the key to achieving Artificial General Intelligence at scale. Training ever larger models in power hungry datacenters will likely not get us all the way. Super excited to build brain inspired computing architectures based on algorithms that are trained on human brain activity itself! Lip-Bu Tan (@LipBuTan1) Intel has been developing brain-inspired neuromorphic silicon technology for several years. We are now accelerating this work as we partner with Echo Neurotechnologies to develop algorithms that are not just brain-inspired, but",
+          "link": "https://nitter.net/magicsilicon/status/2063364855055491536#m",
+          "date_utc": "2026-06-06T20:58:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKJ72gMbQAABsd7.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "TERAFAB is building packaging, logic, memory and masks all on site Cool! But where do you get the EUV machines from? We’ll buy out a EUV contract from Micron and outbid TSMC for priority High-NA machines from ASML",
+          "link": "https://nitter.net/ns123abc/status/2063454598438760955#m",
+          "date_utc": "2026-06-07T02:54:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKLdBbRWoAE2UKo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“Sir… Clive Chan… our top chip designer on the Broadcom project… just quit and joined Anthropic BEFORE we even shipped anything… sir… our custom chips are still coming in 2026… right?” Clive Chan (@itsclivetime) Personal update: I’ve decided to leave OpenAI. I’m proud to have been part of the custom chip program and grateful to everyone I got to build with and learn from along the way. The density of hardware talent on that team is extraordinary, and I don't think there's a better chip design team anywhere. It's been a wild journey from second hardware hire, 2.4 years ago, to now, and I'm exci",
+          "link": "https://nitter.net/ns123abc/status/2063423708144820548#m",
+          "date_utc": "2026-06-07T00:52:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKLA7X2WsAAOy-I.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Me trying to figure out how votes get counted in LA",
+          "link": "https://nitter.net/spencerpratt/status/2063422110203261424#m",
+          "date_utc": "2026-06-07T00:45:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKK_eTlbcAAh_Ct.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
