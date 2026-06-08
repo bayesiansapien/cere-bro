@@ -49,4 +49,4 @@ Sakana AI launched a dedicated recursive-self-improvement lab (06-07), explicitl
 - [Scaling the Harness](2026-05-27-scaling-the-harness.md): the harness as a design object
 - [Code as Agent Harness](2026-05-23-code-as-agent-harness.md)
 - [Agent benchmarks](agent-benchmarks.md) · [Agent memory](agent-memory.md) · [Tool calling](tool-calling.md)
-- [LLM routing](../ai-routing/llm-routing.md) — the cheap-evolver/expensive-solver split is a routing decision
+- [LLM routing](../ai-routing/llm-routing.md): the cheap-evolver/expensive-solver split is a routing decision
