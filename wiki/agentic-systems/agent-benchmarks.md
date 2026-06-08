@@ -67,7 +67,10 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 - **Compute-quality decoupling** (AcademiClaw, 2026-05-05): computational resource consumption does not predict output quality across 80 academic-level tasks. The compute-as-proxy default is empirically broken
 - **Long-horizon tool-call gap** (PhysicianBench, 2026-05-05): 27-call average is the highest horizon in the cluster; the open-source vs closed-source gap (19% vs 46%) is largest at this horizon, suggesting tool-use trace data, not raw capability, is the bottleneck
 
+- **Fault-tolerance scales slower than task skill** (ToolMaze, 2026-06-08): the first benchmark to break tools on purpose, with a 2x2 perturbation taxonomy (explicit/implicit × transient/permanent) over DAG-structured tool-call tasks. Implicit semantic failures crater the Perturbation Recovery Rate by ~37% because agents over-trust corrupted output, and agentic fault-tolerance improves with model scale 3.66x *slower* than basic task execution. Dynamic replanning is a distinct bottleneck that scaling and prompting do not fix. See [ToolMaze](2026-06-08-toolmaze-dynamic-replanning.md).
+
 ## Related Pages
 
 - [GUI Agents](gui-agents.md)
 - [Multi-Agent Systems](multi-agent-systems.md)
+- [Self-Evolving Agents](self-evolving-agents.md)
