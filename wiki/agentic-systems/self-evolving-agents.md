@@ -46,7 +46,7 @@ This builds on the earlier self-evolving cluster: [EvoDS](2026-06-05-evods-self-
 Sakana AI launched a dedicated recursive-self-improvement lab (06-07), explicitly betting that self-improvement, not raw compute, is the next lever. Anthropic flagged the control risk. The research cluster above is the academic front of the same bet.
 
 ## Related pages
-- [Scaling the Harness](2026-05-27-scaling-the-harness.md) — the harness as a design object
+- [Scaling the Harness](2026-05-27-scaling-the-harness.md): the harness as a design object
 - [Code as Agent Harness](2026-05-23-code-as-agent-harness.md)
 - [Agent benchmarks](agent-benchmarks.md) · [Agent memory](agent-memory.md) · [Tool calling](tool-calling.md)
 - [LLM routing](../ai-routing/llm-routing.md) — the cheap-evolver/expensive-solver split is a routing decision
