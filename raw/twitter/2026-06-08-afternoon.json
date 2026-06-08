@@ -1,0 +1,751 @@
+{
+  "date": "2026-06-08",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-08 14:53",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@sheriyuo",
+      "text": "The RL-Kernel project has just been open sourced on GitHub. RL-Kernel is a low level kernel library designed for RLHF training of LLMs, with a particular focus on algorithms such as GRPO and PPO. It is deeply integrated with FlashInfer, with future plans to support CUTLASS and FlyDSL. The project includes custom implementations of sampling, prefix shared attention, TMA, and other performance critical kernels. According to the authors, some high frequency training components achieve up to 163× speedups while also reducing memory usage. The team is currently looking for collaborators with access",
+      "link": "https://nitter.net/sheriyuo/status/2063554266325819575#m",
+      "date_utc": "2026-06-07T09:30:50+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHKM3qTHaAAA5qLv.jpg"
+      ],
+      "articles": [
+        {
+          "url": "http://github.com/RL-Align/RL-Kernel",
+          "content": "GitHub - RL-Align/RL-Kernel: Modern RL Post-training Infrastructure: Optimized for NVIDIA/AMD GPUs with a focus on vLLM integration, Triton kernels, and transparent hardware-aware scaling. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Mar"
+        },
+        {
+          "url": "https://zhuanlan.zhihu.com/p/2045985049229760399",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@sheriyuo",
+      "text": "x.com/i/article/206329411810…",
+      "link": "https://nitter.net/sheriyuo/status/2063295181131247674#m",
+      "date_utc": "2026-06-06T16:21:20+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@HowToAI_",
+      "text": "Google has published a paper that might end the transformer era. For the last 7 years, every major AI, ChatGPT, Claude, Gemini, has been built on the exact same architecture: The Transformer. But Transformers have a fatal flaw. To remember context, they have to process every single word against every other word. It’s called quadratic complexity. As your prompt gets longer, the compute cost explodes. The alternative is the old-school RNN (Recurrent Neural Network). RNNs are incredibly cheap and fast, but they have a fixed memory size. If you give them a long document, they get amnesia. Until to",
+      "link": "https://nitter.net/HowToAI_/status/2063249102067118353#m",
+      "date_utc": "2026-06-06T13:18:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHKIiGBlaIAA15gk.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@Vtrivedy10",
+      "text": "x.com/i/article/203138767268…",
+      "link": "https://nitter.net/Vtrivedy10/status/2031408954517971368#m",
+      "date_utc": "2026-03-10T16:36:51+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "This was one of the standout AI papers of the week. (bookmark it) It tackles a question most self-improving AI agents ignore: is the agent actually discovering anything, or just remixing what it already knows? How can you tell whether the agent is doing real discovery or just confident retrieval? The authors give three clean buckets: - Retrieval is looking something up in a notebook you already have. - Search is combining tools you already own in new ways. - Discovery is inventing a new concept that wasn't in your toolkit before. The issue is that most agents stop at the first two. The math be",
+      "link": "https://nitter.net/omarsar0/status/2063668567447597273#m",
+      "date_utc": "2026-06-07T17:05:02+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHKOfn65bAAAhRYc.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2606.01444",
+          "content": "Abstract: Scientific discovery is not only answer generation but revision of the representational regime in which evidence, artifacts, operations, and verifiers are typed. We develop a category-theoretic account of agentic discovery for materials science. In a fixed regime b with schema category S_b, the system state is a copresheaf I_t: S_b -&gt; Set, and provenance is the category of elements \\int_{S_b} I_t. Fixed-regime operation is an update on such states, endofunctorial only when provenance-preserving refinements are specified and preserved. Discovery is instead a verified regime transition u: S_b -&gt; S_b&#39;: old artifacts are preserved, transported by the left Kan extension Lan_u I_t, and compared with the post-transition state to identify residual content beyond functorial tran"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "GitHub released Spec Kit, an open-source toolkit to fix vibe coding’s biggest weakness: the AI often starts coding before the product rules are clear. 109K+ stars ⭐️ It turns vibe coding from “ask the AI to build it” into “write the product spec first, then make the AI build from that spec.” Most AI coding today starts with a loose prompt, then jumps straight into code, which often produces working demos but weak requirements, missing edge cases, and messy rework. Spec Kit pushes the process the other way: first define what the product must do, then clarify gaps, then create a technical plan, ",
+      "link": "https://nitter.net/rohanpaul_ai/status/2063246343842501091#m",
+      "date_utc": "2026-06-06T13:07:16+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHKIfDz8bIAEgQb-.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@_avichawla",
+      "text": "I have been fine-tuning LLMs for over 2 years now! Here are the top 15 techniques I'd learn if I were to fine-tune them: Bookmark this. 1. LoRA Freezes the base weights and trains two low-rank matrices as the update, resulting in ~95-99% fewer params to fine-tune. 2. QLoRA LoRA on top of a 4-bit quantized base model. 3. Prefix tuning Prepends trainable vectors to keys and values at every layer, weights frozen. 4. Adapter tuning Inserts small trainable modules between transformer layers. 5. Instruction tuning Supervised tuning on (instruction, response) pairs so the model follows directions ins",
+      "link": "https://nitter.net/_avichawla/status/2063210446686146750#m",
+      "date_utc": "2026-06-06T10:44:37+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/amplify_video_thumb%2F2063210389962362880%2Fimg%2FoNKZOFMSBFRdjVOq.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://github.com/OpenPipe/ART",
+          "content": "GitHub - OpenPipe/ART: Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more! · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentatio"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@shmidtqq",
+      "text": "x.com/i/article/206325346313…",
+      "link": "https://nitter.net/shmidtqq/status/2063278059327766696#m",
+      "date_utc": "2026-06-06T15:13:17+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Congratulations to the authors of \"Efficiently Reconstructing Dynamic Scenes One D4RT at a Time\", recipient of the #CVPR2026 Best Paper Award! 🏆 arxiv.org/pdf/2512.08924 @GoogleDeepMind",
+          "link": "https://nitter.net/GoogleResearch/status/2063686164662628579#m",
+          "date_utc": "2026-06-07T18:14:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKOvlkzaYAAWQo3.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/pdf/2512.08924",
+              "content": "%PDF-1.7 %���� 1 0 obj > endobj 2 0 obj > endobj 3 0 obj > stream Efficiently Reconstructing Dynamic Scenes One D4RT at a Time Chuhan Zhang Guillaume Le Moing Skanda Koppula Ignacio Rocco Liliane Momeni Junyu Xie Shuyang Sun Rahul Sukthankar Joëlle K. Barral Raia Hadsell Zoubin Ghahramani Andrew Zisserman Junlin Zhang Mehdi S. M. Sajjadi http://arxiv.org/licenses/nonexclusive-distrib/1.0/ cs.CV endstream endobj 4 0 obj > endobj 5 0 obj > endobj 6 0 obj > endobj 7 0 obj > endobj 8 0 obj > endobj 9 0 obj > endobj 10 0 obj > endobj 11 0 obj > endobj 12 0 obj > endobj 13 0 obj > endobj 14 0 obj > endobj 15 0 obj > endobj 16 0 obj > endobj 17 0 obj > endobj 18 0 obj > endobj 19 0 obj > /Border [ 0 0 0 ] /C [ 1 0 0 ] /H /I /Rect [ 273.422 189.581 275.912 200.485 ] /Subtype /Link /Type /Annot >> "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "JasonBud",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "Cursor",
+        "coding agents"
+      ],
+      "tweets": [
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "Fixes are in 0.2.33. Thanks @skcd42 @aksheyd @6peterlu Tech Dev Notes (@techdevnotes) Grok Build CLI has issue where sometimes it Indefinitely gets stuck on Waiting or Responding even when Turn is completed ... — https://nitter.net/techdevnotes/status/2063631051390378197#m",
+          "link": "https://nitter.net/JasonBud/status/2063723711338078464#m",
+          "date_utc": "2026-06-07T20:44:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKN9fb6WYAATu2M.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "I only like my kernels homegrown and full organic perfect roofline optimized rohan anil (@_arohan_) Coffee a is type of drug that gets you addicted every morning. So is sugar and GPU kernels. Surprising these are not regulated — https://nitter.net/_arohan_/status/2063669545253175782#m",
+          "link": "https://nitter.net/MillionInt/status/2063690875071496266#m",
+          "date_utc": "2026-06-07T18:33:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Deedy’s opinion is worth considering: Deedy (@deedydas) This is the best scene in Hell Grind, an entirely AI-made movie, the flashback. Watch it and read this analysis on where we are with AI movies today: time, cost, quality. Overall: Phenomenal technical demo by Higgsfield. Mediocre movie. Good graphics, hints of emotion, but superhero movie level quality in certain scenes at best. Too many cuts. That said, 660x fewer man hours, 50x faster and 36x cheaper than the median US film. Time: The 95 min film took 15 people 14 days. The median US theatrical production takes ~200 people ~2yrs. That’s",
+          "link": "https://nitter.net/Scobleizer/status/2063858777720529130#m",
+          "date_utc": "2026-06-08T05:40:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063854156876804096%2Fimg%2F5ySp5xIYpCmETR9M.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Grok says: “It’s a masterclass in forward-thinking dialogue between two people who’ve spent decades at the bleeding edge.” Robert Scoble (@Scobleizer) A wonderful discussion with the co-host of the popular Moonshots podcast with Peter Diamandis: @alexwg . He has such a long list of accomplishments that I had Grok write them up for you: nitter.net/i/grok/share/6f8e86cbf… Started 40 companies. Is one of the biggest innovators of our day. We talked about many things, Grok will give me a list after I post which I'll leave in the comments. The singularity is here, he lays out, and then we discuss w",
+          "link": "https://nitter.net/Scobleizer/status/2063857393491132653#m",
+          "date_utc": "2026-06-08T05:35:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062906421713506304%2Fimg%2FGuVFWc51YjnDykWq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here's more details on the film. Lilith Datura (@LilithDatura) “Plot basics: Four street kids/thieves botch a heist, open an ancient artifact/portal, and get pulled into a hellish underworld adventure involving demons, chases across locations like a Tibetan temple and feudal Japan. It’s got high-action, VFX-heavy sequences, and some horror/fantasy elements. Key facts: • Made by a small team (15 people, including Kazakh director Aitore Zholdaskali and co-writer Adilkhan Yerzhanov) in about 14 days for roughly $500k (mostly compute costs — around $400k). • Unveiled/previewed around the 2026 Cann",
+          "link": "https://nitter.net/Scobleizer/status/2063802181527192009#m",
+          "date_utc": "2026-06-08T01:55:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Went to a new kind of movie today. One that cost $400,000 in AI compute to make. It was the San Francisco premiere. If you hadn’t told me it was largely done with AI I wouldn’t have known. The takeaway after listening to @higgsfield_ai ’s CTO introduce it is that a competent movie can now be made for half a million dollars. Where they used to cost $100 million or more. Here is the first few minutes of “Hell Grind” and that intro from @codentropy . We are far from seeing the ultimate use of AI in movies. As a touch point of where AI for creative people is this seems like an important time marke",
+          "link": "https://nitter.net/Scobleizer/status/2063800764473155884#m",
+          "date_utc": "2026-06-08T01:50:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063797780368564224%2Fimg%2FRFwbHAmPYyFyXpAa.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2063797780351696896%2Fimg%2Fnu3mOUoGV4heduQa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I once got to sit in this bad boy while it was operating. Quite hot. But very memorable. How far we've come in doing things, haven't we? If you get a chance to see this, and especially get into it, it's quite special and pretty damn rare nowadays. Philip Melanchthon Wegmann (@PhilipWegmann) The famed @UnionPacific Big Boy, the world's largest operating steam locomotive, chugs east through Allen County, Indiana on its coast-to-coast tour in celebration of America's 250th anniversary. Video — https://nitter.net/PhilipWegmann/status/2063679625276895591#m",
+          "link": "https://nitter.net/Scobleizer/status/2063733353346748506#m",
+          "date_utc": "2026-06-07T21:22:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063679555802382337%2Fimg%2F7BrYtdKOhWCOV3lH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is what Grok learned by watching the video: nitter.net/i/grok/share/912e7a55d… Isn't it fun that Grok can watch a video like this while it is uploading while for the rest of us it takes 50 minutes?",
+          "link": "https://nitter.net/Scobleizer/status/2063715134212845668#m",
+          "date_utc": "2026-06-07T20:10:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Tomorrow Apple will announce the new Siri, finally. I used to be more excited by what Apple was about to launch. I get more excited now by enterpreneurs who are trying to bring us better tools. Particularly in developer tools, which is incredibly crowded, with 1,800 companies alone: nitter.net/i/lists/17056953133345… While we'll all use the new Siri to find a place to eat nearby, or figure out where we parked our car, I seriously doubt anyone will use it to build new AI infrastructure at their businesses, or switch from coding with OpenAI or Anthropic to using it. At best it might set that up ",
+          "link": "https://nitter.net/Scobleizer/status/2063714218843717961#m",
+          "date_utc": "2026-06-07T20:06:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063703732593082368%2Fimg%2Fzjt3kOiDQveJmsbN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It actually was sunset and the property we are driving through is Stanford University. On the same road where I was the first to capture the first Waymo, years ago.",
+          "link": "https://nitter.net/Scobleizer/status/2063709334023131295#m",
+          "date_utc": "2026-06-07T19:47:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Camp Mode comes standard with every Tesla 🏕️ ᛗᚨᚱᚴᚢᛋ (@guitaripod) parked the car on wednesday at 79%. 4 mostly uninterrupted comfortable air conditioned 8h nights of sleep, with the car charging all my stuff overnight, and with music blasting evenings and mornings. 8 superchargers within range. superb experience — https://nitter.net/guitaripod/status/2063494179716518272#m",
+          "link": "https://nitter.net/Tesla/status/2063683167421399093#m",
+          "date_utc": "2026-06-07T18:03:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKMBBHJWYAAeeDn.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "TobyPhln",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "DeepMind",
+        "foundation models"
+      ],
+      "tweets": [
+        {
+          "handle": "TobyPhln",
+          "creator": "@TobyPhln",
+          "text": "People love to write/talk/post about Elon getting things wrong all day long. His biggest achievements look obvious in hindsight yet are rarely matched by contemporaries. xAI's rapid hardware build out is one of them. Aadit Sheth (@aaditsh) Wait. Google is paying SpaceX $920 million per month for GPUs? Google. The company that builds its own TPUs. That runs one of the largest cloud infrastructures on earth. Is renting 110,000 Nvidia GPUs from a rocket company. I'm honestly not sure what to make of this. Either Google's AI compute needs have gotten so massive that even they can't build fast enou",
+          "link": "https://nitter.net/TobyPhln/status/2063788155178770804#m",
+          "date_utc": "2026-06-08T01:00:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips for running Opus autonomously for hours/days: 1. Use auto mode for permissions, so Claude doesn’t ask for approval 2. Use dynamic workflows, to have Claude orchestrate hundreds/thousands of agents to get a task done 3. Use /goal or /loop, to nudge Claude to keep going until it’s done 4. Use Claude Code in the cloud, so you can close your laptop (easiest way is the desktop or mobile app) 5. Make sure Claude has a way to self-verify its work end to end: Claude in Chrome browser extension for web, iOS/An",
+          "link": "https://nitter.net/bcherny/status/2063792263067754658#m",
+          "date_utc": "2026-06-08T01:16:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKEAujfbMAEESsy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Night Sky Today (@NightSkyToday) 🚨: According to Philosophy, the highest form of peace is to have zero desire to be understood, admired, pitied or even known. — https://nitter.net/NightSkyToday/status/2063625776986312902#m",
+          "link": "https://nitter.net/brivael/status/2063853741787558121#m",
+          "date_utc": "2026-06-08T05:20:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKNdbPXaEAAUXTI.png",
+            "https://nitter.net/pic/media%2FHKNdb1oacAAY-DP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Goat Philosway (@philosway) \"Being hated by idiots is the price you pay for not being one of them.\" — Jean Cocteau — https://nitter.net/philosway/status/2063667506896933280#m",
+          "link": "https://nitter.net/brivael/status/2063847366491533530#m",
+          "date_utc": "2026-06-08T04:55:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKOeqTaaIAAgaFR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We will re-create that with AI abondance. But leftism and wokism needs to be destroyed before. Culture Explorer (@CultureExploreX) We are pouring billions into AI data centers so machines can imitate thought. Then we let the rooms that shaped human judgment, memory, taste, and civilization rot. This is the kind of data center we should be funding. Video — https://nitter.net/CultureExploreX/status/2063655829794926923#m",
+          "link": "https://nitter.net/brivael/status/2063847132965294257#m",
+          "date_utc": "2026-06-08T04:54:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063655767924776960%2Fimg%2FDke7VeuKH7hi0q-6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😍😍😍 Culture Explorer (@CultureExploreX) Sagrada Família turns structure into awe without needing a single word. — https://nitter.net/CultureExploreX/status/2063754381799899586#m",
+          "link": "https://nitter.net/brivael/status/2063814552236777520#m",
+          "date_utc": "2026-06-08T02:45:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKPtrGMWoAAu0Kz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Mich33bm 🐝 ☢️ (@MichelBM33) Pépite ! — https://nitter.net/MichelBM33/status/2063720109961539888#m",
+          "link": "https://nitter.net/brivael/status/2063810648912622017#m",
+          "date_utc": "2026-06-08T02:29:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKPOgFkW0AEv78A.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕖𝕣𝕋𝕠𝕣𝕖𝕟𝕟 ✨ (@CommanderTorenn) — https://nitter.net/CommanderTorenn/status/2063588748432969864#m",
+          "link": "https://nitter.net/brivael/status/2063800733997449647#m",
+          "date_utc": "2026-06-08T01:50:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKNXBxTWQAISduY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Social démocratie en phase terminale. Quand l’État s’accapare de l’économie, voilà ce qu’il se passe. TOUT LE TEMPS. Le Figaro (@Le_Figaro) Le nombre de patrons en perte d'emploi a atteint un record en 2025, selon une étude. → l.lefigaro.fr/axKA — https://nitter.net/Le_Figaro/status/2063705152821854680#m",
+          "link": "https://nitter.net/brivael/status/2063787823258542081#m",
+          "date_utc": "2026-06-08T00:58:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKPA5YTWUAAHrTj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://l.lefigaro.fr/axKA",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) — https://nitter.net/brivael/status/2063784959413002270#m",
+          "link": "https://nitter.net/brivael/status/2063785131329085785#m",
+          "date_utc": "2026-06-08T00:48:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKQJnN_bQAAbc2S.jpg",
+            "https://nitter.net/pic/media%2FHKQJeOaa8AAW1EX.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "gpt 5.5 system card has some very interesting numbers for long horizon research tasks with this new \"internal research debugging evaluation\" \"Can models find and resolve real bugs in internal OpenAI research experiments that took researchers hours to days to fix?\" elie (@eliebakouch) not at a frontier lab so i trust you but looking at 5.5 \"RSI\" evals this doesn't seems like much progress compare to previous generation — https://nitter.net/eliebakouch/status/2063845162527166673#m",
+          "link": "https://nitter.net/eliebakouch/status/2063849409515843635#m",
+          "date_utc": "2026-06-08T05:03:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKRDOsoWYAAyiLH.jpg",
+            "https://nitter.net/pic/media%2FHKQ_90OXkAAbAAQ.jpg",
+            "https://nitter.net/pic/media%2FHKQ_-HbXQAAQY2w.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "one of my favorite projects is Marin from the stanford folks, they have a scientific approach to training, are ready to take risks and are fully open (even open development where you can follow everything on github!) github.com/marin-community/m… Lucas Beyer (bl16) (@giffmana) Do I understand it correctly that the OLMo from-scratch series is coming to an end? If so, looks like NVIDIA stepped up just in time with Nemotron models as the only remaining fully-open (ie not just weight drop) from-scratch LLM team. — https://nitter.net/giffmana/status/2063628071870070975#m",
+          "link": "https://nitter.net/eliebakouch/status/2063681637439643868#m",
+          "date_utc": "2026-06-07T17:56:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKOrbp1XgAAzWA3.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/marin-community/marin",
+              "content": "GitHub - marin-community/marin: Open-source framework for the research and development of foundation models. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and mediu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063844611701735845#m",
+          "date_utc": "2026-06-08T04:44:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKQ_vF9XEAAAs5x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063844185178873986#m",
+          "date_utc": "2026-06-08T04:42:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKQ_WHpWcAAJQaD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063844105348661688#m",
+          "date_utc": "2026-06-08T04:42:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKQ_RgKWUAAlyoI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Today may be 6/7, but I’m more of a 7/8 kinda guy, Heavy Pulp (@heavypulp) Fall Seven Times and Stand Up Eight! Video — https://nitter.net/heavypulp/status/2061794361948373300#m",
+          "link": "https://nitter.net/heavypulp/status/2063725196951871757#m",
+          "date_utc": "2026-06-07T20:50:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2061793788314415104%2Fimg%2FXK_D6lxN-NWc4dMp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "the eternal Appalachian summer approaches",
+          "link": "https://nitter.net/heavypulp/status/2063716314628100490#m",
+          "date_utc": "2026-06-07T20:14:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKPK_mBXgAA9CMO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063715930878750760#m",
+          "date_utc": "2026-06-07T20:13:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKPKs40XsAACxwo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2063715160968012226#m",
+          "date_utc": "2026-06-07T20:10:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKPJ3vrWMAA6Ssj.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "x.com/i/article/206371716493…",
+          "link": "https://nitter.net/kilocode/status/2063719228499542327#m",
+          "date_utc": "2026-06-07T20:26:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The next generation of AI builders brought the energy. 🦞 Jensen stopped by @SeoulNatlUni for a Build-a-Claw pop-up, packed with students, developers, and AI researchers building intelligent agents from the ground up. Video",
+          "link": "https://nitter.net/nvidia/status/2063874342203650113#m",
+          "date_utc": "2026-06-08T06:42:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKRaxroXIAASjFu.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "\"A net swing of more than 43,000 votes since Tuesday..\" 43,000, huh? Where have I seen that number before...? Probably nothing. 🤷 Matthew Seedorff (@MattSeedorff) BREAKING: In the latest ballot count, City Councilwoman @nithyavraman has passed @spencerpratt for second place in the Los Angeles mayoral race. If the count ended today, Raman would advance to the November runoff against Mayor @MayorOfLA . On election night, Pratt led Raman by about 40,000 votes—roughly a 10-point advantage. As of tonight, Raman now leads Pratt by about 3,100 votes, a net swing of more than 43,000 votes since Tuesda",
+          "link": "https://nitter.net/spencerpratt/status/2063784193688056310#m",
+          "date_utc": "2026-06-08T00:44:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKQIp2LXcAIWCss.jpg",
+            "https://nitter.net/pic/media%2FHKP_pp4bwAAw8FO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Remember everyone…we are still in the lead, and we’ve got allllllll the way til July 6th to keep counting. They’re not the only ones who know where to find votes 😉",
+          "link": "https://nitter.net/spencerpratt/status/2063698148493799880#m",
+          "date_utc": "2026-06-07T19:02:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKO6hsTa8AAQUtl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass needs this lie to persist so you won’t look at everything she did wrong to condemn us to burn. You’re next, Sunland, Tujunga, Bel Air, Brentwood…don’t say I didn’t warn you. Mann Made Cinema (@Hotshot_Movie) To understand just how egregiously the media and CA politicians are *lying* about the Palisades Fire, you need to go to this website and see the data for yourself. @FireRebuild meticulously sourced THOUSANDS of weather stations, and you can see the actual wind speeds, hour by hour, plotted out on a map, where you can clearly see how the winds over the fire never got remotely clo",
+          "link": "https://nitter.net/spencerpratt/status/2063665354287759655#m",
+          "date_utc": "2026-06-07T16:52:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKN471OW8AA0S73.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://firerebuild.com/no-hurricane/",
+              "content": "No Hurricane or 100 MPH - Fire Rebuild Analytical Reports Palisades Files Fact Sheets Investigative Reports Services Advocates Anniversary No Evidence of Hurricane Force or 100 MPH Winds No Evidence of Hurricane-Force or 100 MPH Winds There is No Evidence of Hurricane-Force or 100 MPH Winds During the Palisades Fire. Proven by 3,196 Regional Weather Stations. âStats arenât about numbers.â Gavin Newsom Young Man in a Hurry: A Memoir of Discovery . Penguin Press, 2026, p. 83. The Imaginary Hurricane Defense: Leadership Fabricated Weather to Cover Up Failure The Office of Mayor Karen Bass, in coordination with the LAFD and an external public relations firm, drafted a prepared statement attributing their failure with the Palisades Fire to an undocumented false claim that hurricane force "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
