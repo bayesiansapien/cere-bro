@@ -815,3 +815,17 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-07] update | digest 2026-06-07 written (SEAOTTER/Flash-WAM/Kilo/PropMe/AdaPlanBench/Future-L1/InKH + sibling's memory-hierarchy lead); social-stream morning; media-zone | digest
 ## [2026-06-07] note | AdaPlanBench (2606.05622) and PropMe (2606.06286) already ingested as summaries (06-06, 06-05) but never digested; surfaced today, pointed to canonical pages, deleted my duplicate 06-07 slugs. CLEAR/OPRD/NF-CoT/MMPO/ADR/SABER/AdaCodec etc. re-listed by HF farm but already ingested earlier; not re-ingested. | ops
 ## [2026-06-07] note | Concurrent sibling ingest ran the same cron; it owns the memory-hierarchy deep dive + hardware pages, I own the other six summaries + social/media. Reconciled links, deduped. No HF+Kurate overlap (Kurate biomedical/science-FM heavy, weeks stale); all 8 Reddit subs empty; no curated @bayesiansapien retweets. | ops
+## [2026-06-08] ingest | SIA: Self-Improving AI with Harness & Weight Updates (2605.27276) | huggingface
+## [2026-06-08] ingest | HarnessForge: Joint Harness and Policy Evolution (2606.01779) | huggingface
+## [2026-06-08] ingest | Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Skills (2606.07412) | huggingface
+## [2026-06-08] ingest | OpenSkill: Open-World Self-Evolution for LLM Agents (2606.06741) | huggingface
+## [2026-06-08] ingest | When Tools Fail / ToolMaze: Dynamic Replanning and Anomaly Recovery (2606.05806) | huggingface
+## [2026-06-08] ingest | Critic-R: Agentic Search with Introspective Retriever Feedback (2606.00590) | huggingface
+## [2026-06-08] ingest | When Gradients Collide: Multi-Objective Prompt Optimization for LLM Judges (2605.26046) | huggingface
+## [2026-06-08] ingest | EmbedFilter: Your Unembedding Matrix is Secretly a Feature Lens (2606.07502) | huggingface
+## [2026-06-08] ingest | Self-Revising Discovery Systems (2606.01444) | twitter+gmail (DAIR.AI)
+## [2026-06-08] ingest | Disentangling Agent Self-Evolution | gmail (DAIR.AI Top Papers)
+## [2026-06-08] ingest | RL-Kernel: kernel library for RLHF (GRPO/PPO) training, 163x | twitter (curated repost)
+## [2026-06-08] concept | NEW self-evolving-agents concept page; updated agent-benchmarks (ToolMaze), tool-calling (Critic-R+ToolMaze), llm-routing (Disentangling cheap-evolver/expensive-solver) | concept
+## [2026-06-08] update | digest 2026-06-08 written (SIA/Disentangling/Socratic-SWE/ToolMaze/EmbedFilter/RL-Kernel/Self-Revising Discovery; Global View on self-evolution × industry agent-pivot); social-stream morning; media-zone | digest
+## [2026-06-08] note | HF farmer stalled on first run, retried OK (25 papers). No HF+Kurate arxiv overlap (Kurate biomedical/science-FM heavy, weeks stale). Recurrence paper (Kumar/Isola, Kurate cs.LG #16) cross-source confirmed via social (viral "transformers are over" thread). All 8 Reddit subs empty. Curated retweets: RL-Kernel, Self-Revising Discovery, Spec Kit, ART. | ops
