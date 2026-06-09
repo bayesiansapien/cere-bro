@@ -11,6 +11,10 @@ These two were studied in isolation until 2026-06. The current frontier is combi
 
 ---
 
+## State of knowledge (as of 2026-06-09)
+
+**Two 06-09 papers hit the skill-memory layer from opposite sides: make stored skills cheap, and stop trusting self-generated memory.** [LatentSkill](2026-06-09-latentskill-in-weight-skills.md) (arxiv 2606.06087) is the efficiency answer to the skill-library wave (Socratic-SWE, OpenSkill, Skill-RM): instead of injecting textual skills into the prompt every step, a pretrained hypernetwork converts each skill into a plug-and-play LoRA adapter, moving skills from context space to weight space. ALFWorld success +21.4 / +13.4 (seen / unseen) at 64.1% fewer prefill tokens, and the skill LoRAs compose by parameter-space arithmetic, the same hypernetwork-to-LoRA engine as [Code2LoRA](../inference-efficiency/2026-06-06-code2lora-hypernetwork-repo-adapters.md) and [Video2LoRA](../inference-efficiency/2026-06-06-video2lora-parametric-video-internalization.md) (06-06), new payload. [Honest Lying](2026-06-09-honest-lying-memory-confabulation.md) (arxiv 2605.29463) is the cold-water counterpart: Reflexion-style agents store confident-but-wrong task interpretations and keep acting on them across resets (16 frozen ALFWorld environments where 0 of 121 reflections name the correct object). It introduces the Reflection Repetition Rate to detect this, and shows programmatic failure extraction beats open-ended self-diagnosis (0% to 86% correct-object mention). This continues the 06-08 [Self-Revising Discovery Systems](2026-06-08-self-revising-discovery-systems.md) worry (is self-improvement real or confident remixing?) and the [ToolMaze](2026-06-08-toolmaze-dynamic-replanning.md) over-trust pathology: self-generated signal, whether a reflection or a mined trace, reinforces false beliefs unless an external verifier gates it.
+
 ## State of knowledge (as of 2026-06-08)
 
 ### Combining both levers beats either alone
