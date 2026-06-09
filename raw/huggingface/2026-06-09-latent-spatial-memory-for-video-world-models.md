@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-06-09T16:28:21
+arxiv_id: 2606.09828
+url: https://huggingface.co/papers/2606.09828
+arxiv_url: https://arxiv.org/abs/2606.09828
+date: 2026-06-09
+---
+
+# Latent Spatial Memory for Video World Models
+
+Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel space discards rich features of the learned latent representation. In this paper, we introduce latent spatial memory for video world models, a persistent 3D cache that stores scene information directly in the diffusion latent space, avoiding pixel-space reconstruction. Building on this, we propose Mirage, a latent-space spatial memory framework that constructs the memory by lifting latent tokens into 3D via depth-guided back-projection and queries it by synthesizing novel views through direct latent-space warping. This unified formulation eliminates both the information loss of pixel-space reconstruction and the computational burden of repeated encoding and rendering. Experiments show that latent spatial memory achieves up to 10.57times faster end-to-end video generation and 55times reduction in memory footprint relative to explicit 3D baselines. Leveraging the geometric prior of the diffusion model, Mirage attains state-of-the-art performance on WorldScore and strong reconstruction quality on RealEstate10K.
