@@ -829,3 +829,17 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-08] concept | NEW self-evolving-agents concept page; updated agent-benchmarks (ToolMaze), tool-calling (Critic-R+ToolMaze), llm-routing (Disentangling cheap-evolver/expensive-solver) | concept
 ## [2026-06-08] update | digest 2026-06-08 written (SIA/Disentangling/Socratic-SWE/ToolMaze/EmbedFilter/RL-Kernel/Self-Revising Discovery; Global View on self-evolution × industry agent-pivot); social-stream morning; media-zone | digest
 ## [2026-06-08] note | HF farmer stalled on first run, retried OK (25 papers). No HF+Kurate arxiv overlap (Kurate biomedical/science-FM heavy, weeks stale). Recurrence paper (Kumar/Isola, Kurate cs.LG #16) cross-source confirmed via social (viral "transformers are over" thread). All 8 Reddit subs empty. Curated retweets: RL-Kernel, Self-Revising Discovery, Spec Kit, ART. | ops
+## [2026-06-09] ingest | FlashMemory-DeepSeek-V4: Lookahead Sparse Attention (2606.09079) | huggingface
+## [2026-06-09] ingest | Latent Context Language Models: End-to-End Context Compression at Scale (2606.09659) | huggingface
+## [2026-06-09] ingest | On the Geometry of On-Policy Distillation (2606.07082) | huggingface
+## [2026-06-09] ingest | Trajectory-Refined Distillation / TRD (2606.08432) | huggingface
+## [2026-06-09] ingest | Chiaroscuro Attention / CHIAR-Former (2606.08327) | huggingface
+## [2026-06-09] ingest | Why Muon Outperforms Adam: A Curvature Perspective (2606.04662) | huggingface
+## [2026-06-09] ingest | PBSD: Privileged Bayesian Self-Distillation for Long-Horizon Credit Assignment (2606.09348) | huggingface
+## [2026-06-09] ingest | LatentSkill: In-Context Textual Skills to In-Weight Latent Skills (2606.06087) | huggingface
+## [2026-06-09] ingest | Honest Lying: Memory Confabulation in Reflexive Agents (2605.29463) | huggingface
+## [2026-06-09] ingest | Apple AFM 3 third-gen Foundation Models (per-prompt adaptive-compute MoE) | twitter (@eliebakouch) + Apple ML Research blog
+## [2026-06-09] ingest | Anthropic Red: Mythos N-day exploit uplift | twitter (@logangraham) + red.anthropic.com
+## [2026-06-09] concept | Updated kv-cache (FlashMemory LSA + LCLM, two poles of long-context efficiency), knowledge-distillation (Geometry subspace-locking + TRD prefix failure + PBSD turn-level credit), llm-routing (Chiaroscuro per-token + AFM 3 per-prompt), responsible-ai (Mythos N-days capability disclosure) | concept
+## [2026-06-09] update | digest 2026-06-09 written (FlashMemory/LCLM/Geometry-OPD/TRD/Chiaroscuro/AFM3/Muon; Global View on the 500K memory wall × compute-scarcity economics, OPD-turns-to-mechanism, routing-as-compute-allocation-ships-to-phones); social-stream morning; media-zone | digest
+## [2026-06-09] note | No HF+Kurate arxiv overlap (Kurate biomedical/science-FM heavy, weeks stale). MoE-muP (cs.LG #10, 9.0) + Pretraining-Recurrent-Networks-without-Recurrence (cs.LG #16) remain LLM-rated-underrated, absent from HF. Rising authors all biomedical clusters, no Tier-1 handle add. All 8 Reddit subs empty. No curated retweets in morning or afternoon slots. Prior partial run today had created 6 summary pages + afternoon social-stream; reconciled (removed duplicate flashmemory-deepseek-v4-lsa.md). | ops
