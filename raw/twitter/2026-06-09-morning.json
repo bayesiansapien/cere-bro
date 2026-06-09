@@ -1,0 +1,693 @@
+{
+  "date": "2026-06-09",
+  "slot": "morning",
+  "scraped_ist": "2026-06-09 09:02",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We're also adding a new in-app submission portal for developers to submit connectors: claude.com/docs/connectors/b… See our blog to learn more: claude.com/blog/observabilit…",
+          "link": "https://nitter.net/ClaudeDevs/status/2064072805663256997#m",
+          "date_utc": "2026-06-08T19:51:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064072198994923520%2FvCqZed47%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/docs/connectors/building/submission",
+              "content": "Submitting to the Connectors Directory - Claude.ai Documentation Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Claude.ai Documentation home page Search... ⌘ K Ask Assistant Support Go to Claude Go to Claude Search... Navigation Third-party Connectors Submitting to the Connectors Directory Welcome Connectors Skills Plugins Cowork Claude for M365 Overview Getting started Third-party Connectors Connectors directory Remote MCP Desktop extensions Submit to directory Building Connectors Overview What to build Authentication Model Context Protocol (MCP) Lazy authentication Directory vs custom Testing Troubleshooting Review criteria After publishing Manage your listing MCPB "
+            },
+            {
+              "url": "https://claude.com/blog/observability-for-developers-building-connectors",
+              "content": "Connector Observability and In-App Directory Submission | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Cl"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Use this to: 1. Track connector adoption: Monitor active users, tool calls, directory rank 2. Diagnose errors and latency: See error rates and latency with per-tool error breakdowns 3. Understand usage by product: Compare tool calls across Claude, Claude Code, Cowork",
+          "link": "https://nitter.net/ClaudeDevs/status/2064072803721339014#m",
+          "date_utc": "2026-06-08T19:51:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUOP_jbUAA2xsf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've added an observability dashboard for developers of connectors. Connectors let third-party developers bring their tools and data to Claude via MCP.",
+          "link": "https://nitter.net/ClaudeDevs/status/2064072801062121906#m",
+          "date_utc": "2026-06-08T19:51:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUNfyyaMAAOMzd.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised doesn’t waste your time Mike P (@mikepat711) Absolute SAVAGERY by mad max on V14.3.3 😂 We’re driving along the highway, and encounter traffic. We are supposed to be on the roadway I’m pointing at with an arrow a few seconds into the video. FSD knows from mapping that the Rt 1 exit allows an opportunity to re-connect with I-76 before it branches off into an exit lane, and to avoid a section of traffic, FSD decides to yeet the exit, blow by about 1/2 mile of the backup before muscling its way back onto 76. I had to mute the video because I was laughing like a psycho the entire tim",
+          "link": "https://nitter.net/Tesla/status/2064062706538385660#m",
+          "date_utc": "2026-06-08T19:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063750045816532993%2Fimg%2FH3UOPIJxl26YYcvx.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Fraudsters steal from hardworking American taxpayers while putting our most vulnerable neighbors at risk. @VP Vance’s Fraud Task Force is here to save money and lives. 🇺🇸 FEMA (@fema) 🚨Last week, @TheJusticeDept announced that a Texas woman pleaded guilty to disaster fraud that she committed over a period of six years, including three separate fraudulent applications for FEMA disaster assistance. — https://nitter.net/fema/status/2064068711137329342#m",
+          "link": "https://nitter.net/WHFraudTF/status/2064097921952280810#m",
+          "date_utc": "2026-06-08T21:31:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKT7rMFWYAA0Us8.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "When we first demoed Claude Code internally, it got two reactions on Slack. A year after GA, @_catwu and I sat down to talk about what's changed: why I use auto mode instead of plan mode, how routines fix bugs before I see them, why I do most of my coding from my phone now, and where the product is going ClaudeDevs (@ClaudeDevs) Claude Code's first demo got two Slack reactions. One year after GA, @bcherny and @_catwu look back: verification best practices, why we built auto mode, routines and loops, and what's next. piped.video/watch?v=Hth_tLaC… — https://nitter.net/ClaudeDevs/status/206403281",
+          "link": "https://nitter.net/bcherny/status/2064034799711588805#m",
+          "date_utc": "2026-06-08T17:20:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064031449712672768%2FJ3eb2yrM%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=Hth_tLaC2j8",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "This is true Resist the Mainstream (@ResisttheMS) Elon Musk predicts \"history is going to bifurcate along two directions.\" \"One path is we stay on Earth forever and then there will be some eventual extinction event.\" \"The alternative is to become a space-faring civilization and a multiplanet species.\" Video — https://nitter.net/ResisttheMS/status/2064120288011296966#m",
+          "link": "https://nitter.net/brivael/status/2064210792661258718#m",
+          "date_utc": "2026-06-09T04:59:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2046636559730900992%2Fimg%2F3RrTe4WN3nuFJ-3_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes 🇦🇪 HGS (@Sajwani) Effectively Elon wants to send AI satellites to space orbiting Earth to hit Kardashev Type II by harnessing our Star ( ☀️) energy at least at 0.00000001% …. this will be enough energy to run the entire planet — https://nitter.net/Sajwani/status/2064206480090509458#m",
+          "link": "https://nitter.net/brivael/status/2064207981298982978#m",
+          "date_utc": "2026-06-09T04:48:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La croyance que l'abondance est possible, que le gâteau n'est pas fini, que le génie humain crée plus de ressources qu'il n'en consomme. Toute l'histoire le prouve, du grain de blé au panneau solaire. Brivael Le Pogam (@brivael) Je crois à une chose devenue presque interdite en Occident : l'homme est fait pour conquérir les étoiles, et il se meurt dès qu'il l'oublie. Quand un moteur rugit, ton cœur s'accélère. Quand un avion décolle, tu regardes par le hublot. Quand une fusée s'arrache du sol, des millions d'inconnus retiennent leur souffle en même temps. Ce n'est pas un caprice de consommateu",
+          "link": "https://nitter.net/brivael/status/2064207553618415803#m",
+          "date_utc": "2026-06-09T04:46:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVXizYbYAAsQNd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La croyance que vivre doit être grand, intense, joyeux. Que le fun n'est pas un luxe honteux, mais le signe vital qu'une civilisation est encore vivante. Brivael Le Pogam (@brivael) Je crois à une chose devenue presque interdite en Occident : l'homme est fait pour conquérir les étoiles, et il se meurt dès qu'il l'oublie. Quand un moteur rugit, ton cœur s'accélère. Quand un avion décolle, tu regardes par le hublot. Quand une fusée s'arrache du sol, des millions d'inconnus retiennent leur souffle en même temps. Ce n'est pas un caprice de consommateur. C'est ce qu'il y a de plus ancien en toi. Po",
+          "link": "https://nitter.net/brivael/status/2064207489793691845#m",
+          "date_utc": "2026-06-09T04:46:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVXizYbYAAsQNd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu n'es pas vide parce que tu désires trop. Tu es vide parce qu'on t'a interdit de désirer. Ce poids que tu prends pour de la lucidité, ce n'en est pas. C'est une dépression qu'on t'a vendue comme une vertu. Brivael Le Pogam (@brivael) Je crois à une chose devenue presque interdite en Occident : l'homme est fait pour conquérir les étoiles, et il se meurt dès qu'il l'oublie. Quand un moteur rugit, ton cœur s'accélère. Quand un avion décolle, tu regardes par le hublot. Quand une fusée s'arrache du sol, des millions d'inconnus retiennent leur souffle en même temps. Ce n'est pas un caprice de cons",
+          "link": "https://nitter.net/brivael/status/2064207411758727585#m",
+          "date_utc": "2026-06-09T04:46:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVXizYbYAAsQNd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Confondre flux et stock. Toujours le test de QI ultime. Rico 🧘🏻‍♂️ (@SLB_Rico_) On vit dans un monde où la fortune de Musk peut doubler en un an (400 milliards de dollars/400'000'000'000$) par contre augmenter le smic de 300 balles c'est économiquement pas viable pour vous — https://nitter.net/SLB_Rico_/status/2063897064749010971#m",
+          "link": "https://nitter.net/brivael/status/2064205880779067666#m",
+          "date_utc": "2026-06-09T04:40:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The danger for humanity is finally solved ???? Jukan (@jukan05) SOURCES: ANTHROPIC WILL RELEASE THE PUBLIC VERSION OF MYTHOS TOMORROW — https://nitter.net/jukan05/status/2064170300452098183#m",
+          "link": "https://nitter.net/brivael/status/2064191741620892055#m",
+          "date_utc": "2026-06-09T03:43:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est du bullshit. La technologie est toujours neutre. C’est le neo-féminisme, le wokisme ( qui en est son wrapper ) qui a détruit la fécondité. Pas l’iPhone. C’est ridicule cette étude. Edouard 🌐👶🏗️ (@PlusLibQ) Nouvelle étude sur l'iPhone et la natalité américaine. Design : l'exclusivité AT&T (2007–2011) crée un quasi-expérimental naturel. Les comtés couverts par AT&T 3G ont eu accès à l'iPhone, les autres non. Résultat : l'iPhone explique 33 à 52% de la baisse du taux de fécondité américain sur 2007–2011. Effet concentré chez les 15–24 ans (−4,5% à −8%). Mécanisme documenté : moins de social",
+          "link": "https://nitter.net/brivael/status/2064177305187193085#m",
+          "date_utc": "2026-06-09T02:46:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKSaZIpXsAADheY.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.nber.org/papers/w35310",
+              "content": "Is the iPhone Birth Control? Causal Evidence from AT T’s 2007–2011 Carrier Monopoly | NBER Skip to main content NBER: National Bureau of Economic Research Subscribe Media Open Calls Search Research EXPLORE Research Findings Working Papers Books Chapters Videos Periodicals The Digest The Reporter The Bulletin on the Economics of Alzheimer&#039;s Disease and Related Dementias The Bulletin on Health The Bulletin on Entrepreneurship The Bulletin on Retirement and Disability Archives The Bulletin on Aging Health Archives Data Business Cycles Boston Research Data Center Business Cycle Dating Public Use Data Archive All Topics Taxation Unemployment and Immigration Energy Entrepreneurship Trade Programs Projects EXPLORE Programs Projects Programs Economics of Aging Asset Pricing Children and Famil"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The only post you should read and share today! Brivael Le Pogam (@brivael) Je crois à une chose devenue presque interdite en Occident : l'homme est fait pour conquérir les étoiles, et il se meurt dès qu'il l'oublie. Quand un moteur rugit, ton cœur s'accélère. Quand un avion décolle, tu regardes par le hublot. Quand une fusée s'arrache du sol, des millions d'inconnus retiennent leur souffle en même temps. Ce n'est pas un caprice de consommateur. C'est ce qu'il y a de plus ancien en toi. Pourquoi des hommes ont-ils traversé des océans inconnus sur des planches de bois ? Pourquoi ont-ils gravi de",
+          "link": "https://nitter.net/brivael/status/2064176681393561631#m",
+          "date_utc": "2026-06-09T02:44:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVXizYbYAAsQNd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Wokisme and neo-feminism made that not iPhone lmao. Brad Wilcox (@BradWilcoxIFS) New study: Did the introduction of the iPhone causally reduce fertility? Yes, by more than 1/3. New study: nber.org/papers/w35310?utm_c… — https://nitter.net/BradWilcoxIFS/status/2063913115507474492#m",
+          "link": "https://nitter.net/brivael/status/2064176422613286998#m",
+          "date_utc": "2026-06-09T02:43:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062077824819703808%2F9W0ggptr%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://www.nber.org/papers/w35310?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg14",
+              "content": "Is the iPhone Birth Control? Causal Evidence from AT T’s 2007–2011 Carrier Monopoly | NBER Skip to main content NBER: National Bureau of Economic Research Subscribe Media Open Calls Search Research EXPLORE Research Findings Working Papers Books Chapters Videos Periodicals The Digest The Reporter The Bulletin on the Economics of Alzheimer&#039;s Disease and Related Dementias The Bulletin on Health The Bulletin on Entrepreneurship The Bulletin on Retirement and Disability Archives The Bulletin on Aging Health Archives Data Business Cycles Boston Research Data Center Business Cycle Dating Public Use Data Archive All Topics Taxation Unemployment and Immigration Energy Entrepreneurship Trade Programs Projects EXPLORE Programs Projects Programs Economics of Aging Asset Pricing Children and Famil"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "That’s true. Knight World (@KnightWorld) “The world is full of people afraid to make the first move.” — https://nitter.net/KnightWorld/status/2064080775419424973#m",
+          "link": "https://nitter.net/brivael/status/2064175987005485564#m",
+          "date_utc": "2026-06-09T02:41:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKMoX-SX0AAIo-Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Made 9am to 1 am almost everyday for the last 2 years. And working at night is so awesome! Nic Munoz (@nic_munoz) Elon Musk's co-founder described why late nights increase productivity. Max Levchin said: “I think there’s something very special about the all-nighter ethic… There’s definitely something about the nocturnal lifestyle for engineers specifically that really opens up the chakras of creativity or code-writing. People get slightly sillier, but also maybe a little more creative. They get tired, and some spirit and camaraderie wakes up in those hours. I also think there’s this massive va",
+          "link": "https://nitter.net/brivael/status/2064175743626780723#m",
+          "date_utc": "2026-06-09T02:40:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKBS7P9XAAAVQ9v.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Marc Andreessen 🇺🇸 (@pmarca) Sure, but if you think about it, isn’t this the opposite of greed? — https://nitter.net/pmarca/status/2064159033687158929#m",
+          "link": "https://nitter.net/brivael/status/2064174791742099787#m",
+          "date_utc": "2026-06-09T02:36:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis chokbar. Moi qui pensait que les ingénieurs du CNRS était des génies 🫣 RIP Slashbin (@slashbin_FR) Les gardiens de la thermodynamique avaient raison sur une chose : en orbite, il faut dissiper la chaleur par rayonnement. Ils avaient tort sur la conclusion : ce n’est pas un mur physique, c’est une contrainte d’ingénierie. Et @SpaceX adore transformer ça en industrie. nitter.net/SpaceX/status/20640994… Video — https://nitter.net/slashbin_FR/status/2064138046560182702#m",
+          "link": "https://nitter.net/brivael/status/2064167779629256759#m",
+          "date_utc": "2026-06-09T02:08:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064094669299163136%2Fimg%2FOPP0-eXvweAWEvDv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 dabidab 🇨🇭 🇫🇷 (@D4b1d4b) Même les pilotes de F1 qui ont du fric, sont nuls en économie — https://nitter.net/D4b1d4b/status/2064023728371986926#m",
+          "link": "https://nitter.net/brivael/status/2064165541783421364#m",
+          "date_utc": "2026-06-09T01:59:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il y a deux mois. J’ai des mecs payés 45k au CNRS (20 ans d’expérience / expert en aérospatiale) qui m’ont expliqué que c’était pas possible. Ils se sont trompés? ???? ??? ?? ? ? DogeDesigner (@cb_doge) Elon Musk just unveiled SpaceXAI's first AI satellite. • 150 kW peak power / 120 kW sustained compute power • 150 kW solar array using SpaceX-manufactured solar technology • Centralized AI compute payload designed for high-performance AI workloads • 70-meter wingspan when fully deployed • 110 m² deployable liquid radiators to remove waste heat in space • Redundant cooling loops with integrated ",
+          "link": "https://nitter.net/brivael/status/2064164716457738499#m",
+          "date_utc": "2026-06-09T01:56:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064113748915437568%2Fimg%2FOEgzbE4ETkcHT034.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu veux la preuve empirique la plus brutale de Menger contre Marx en 2026? OnlyFans. Une créatrice du top peut encaisser plusieurs dizaines de millions de dollars par an. Pas en travaillant 80 heures par semaine. En captant une valeur subjective que des millions d'hommes décident, librement, de payer. Loi de puissance pure: le top 1% rafle environ un tiers de tous les revenus de la plateforme. Aucun rapport avec les heures. Zéro subvention. Zéro État. Juste l'offre, le désir, et le prix. Brivael Le Pogam (@brivael) \"Tu ne peux pas devenir aussi riche en travaillant.\" C'est vrai. Mais pas pour ",
+          "link": "https://nitter.net/brivael/status/2064162344222257425#m",
+          "date_utc": "2026-06-09T01:47:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"Tu ne peux pas devenir aussi riche en travaillant.\" C'est vrai. Mais pas pour la raison que tu crois. La vérité que personne ne veut entendre: il n'existe aucune valeur dans le travail mesuré en heures. Zéro. Le temps que tu passes n'a jamais créé un seul centime de richesse. Et cette phrase, c'est exactement le point où Marx s'est trompé. Marx fonde tout son édifice sur une seule idée: la théorie de la valeur travail. La valeur d'une marchandise égale la quantité de \"travail socialement nécessaire\" pour la produire. Donc, si quelqu'un est riche sans suer, c'est qu'il a forcément capté la sue",
+          "link": "https://nitter.net/brivael/status/2064162195626492346#m",
+          "date_utc": "2026-06-09T01:46:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063712883330973697%2Fimg%2FXoj_hmBokx5cgTQL.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "\"But won't they collide?\" That's the whole point: they can't. Here's how it holds up across six tasks at once: blog.kilo.ai/p/agent-manager…",
+          "link": "https://nitter.net/kilocode/status/2064136404775379240#m",
+          "date_utc": "2026-06-09T00:04:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVJHXvWcAABIhY.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/agent-manager-run-multiple-agents",
+              "content": "Agent Manager: Run Multiple Agents Without the Chaos Kilo Blog Subscribe Sign in Agent Manager: Run Multiple Agents Without the Chaos Git worktrees, model comparison, and zero merge conflicts — without leaving VS Code Brendan O'Leary Jun 08, 2026 7 Share I’ve got six things I want an AI agent to work on right now. Refactor auth. Update docs. Add Stripe billing. Write tests. Migrate the database schema. Fix that flaky CI pipeline. The obvious move is to open six tabs and let them rip. But what actually happens is agents overwriting each other’s files, merge conflicts piling up, and context bleeding between tasks. I end up spending more time cleaning up the mess than shipping code. Agent Manager is designed to prevent that kind of overlap by isolating each task in its own worktree. What It I"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Six agents in six tabs isn't parallel work. It's six agents fighting over the same files. Agent Manager gives each one its own git worktree. Isolated branch, isolated directory. They run side by side on a kanban board and physically can't overwrite each other.",
+          "link": "https://nitter.net/kilocode/status/2064136402682483156#m",
+          "date_utc": "2026-06-09T00:04:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVJHdjXwAA8Oo5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Same prompt. Three models. Three answers. You keep the one you like. Agent Manager is live in Kilo Code.",
+          "link": "https://nitter.net/kilocode/status/2064136400698479058#m",
+          "date_utc": "2026-06-09T00:04:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVJHcbW8AAZmFO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Model pricing is in a race to the bottom, and developers win. Xiaomi cut rates. DeepSeek cut rates. MiniMax M3 now runs at half its standard input price, with a 1M token context window. It's already live in Kilo Code at the lower rate. Open the model picker and switch!",
+          "link": "https://nitter.net/kilocode/status/2064107855519592765#m",
+          "date_utc": "2026-06-08T22:10:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUvCgNWMAAzQif.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "logangraham",
+      "org": "Anthropic",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "blog post: red.anthropic.com/2026/n-day…",
+          "link": "https://nitter.net/logangraham/status/2064220908810887213#m",
+          "date_utc": "2026-06-09T05:39:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://red.anthropic.com/2026/n-days/",
+              "content": "N-days \\ red.anthropic.com red .anthropic.com Measuring LLMs’ impact on N-day exploits June 8, 2026 Winnie Xiao, Tim Abbott, Nicholas Carlini, Newton Cheng, David Forsythe, Keane Lucas, Milad Nasr, and Shikhar Sakhuja For the last few months, we’ve been writing about large language models’ cybersecurity capabilities. For the most part, we’ve focused on zero-days—vulnerabilities that are unknown to the software’s maintainers. But a large fraction of real-world harm comes from N-days : vulnerabilities that have already been publicly disclosed, but only patched on some devices. Attackers exploit the many systems that haven't yet applied the patch, during what’s known as the “patch gap.” In some ways, N-days are the more dangerous of the two, because the patch itself provides a roadmap to the "
+            }
+          ]
+        },
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "New post on Red today: Our team @AnthropicAI found that Mythos Preview is meaningfully better at developing N-days. It took us a couple thousand $ and a few hours to convert patches into exploits. We publish research like this because we think it's important the world knows what models are/will be capable of. In a year, Mythos will probably look trivial. We want to help the world to start preparing. I'm excited to share a lot more blue team / defensive work. I feel like people are aware of the issue now, and the team's task is now to \"solve it all\" -- we have some exciting / interesting / crea",
+          "link": "https://nitter.net/logangraham/status/2064220844168253500#m",
+          "date_utc": "2026-06-09T05:39:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKWV1NsaQAA8JDu.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Claude 5 fable (mythos with stricter cyber guardrails) drops in the next 48 hours",
+          "link": "https://nitter.net/ns123abc/status/2064185944232616144#m",
+          "date_utc": "2026-06-09T03:20:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKV2LXUWgAAYboS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Next thing you hear, TSMC gets outbid by Intel on ASML tools 🤫😏 3X Long Labubu (@labubu_trader) Heard that TSMC is taking INTC EMIB as a serious threat. Wouldn’t be surprised if they quietly prioritize AMD over Intel when allocating foundry capacity. Behind INTC vs AMD is strategic battle of US vs Taiwan actually. — https://nitter.net/labubu_trader/status/2064014026729029810#m",
+          "link": "https://nitter.net/ns123abc/status/2064130238691340412#m",
+          "date_utc": "2026-06-08T23:39:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "forbes.com/sites/richardniev…",
+          "link": "https://nitter.net/ns123abc/status/2064124099987669101#m",
+          "date_utc": "2026-06-08T23:15:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064100527462653952%2F4aoTuT8r%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.forbes.com/sites/richardnieva/2026/06/08/cursor-4-billion-annualized-revenue/",
+              "content": "Cursor Hits $4 Billion Annualized Revenue Ahead Of SpaceX IPO Sign Up For Newsletters Games Share a News Tip Featured Featured Breaking News White House Watch Daily Cover Stories The Hidden Tax On Enterprise AI: 1 In 5 Workers Lose A Full Day Every Week | Paid Program Silicon Steel Editorial Video Series Uniting To Advance Blood Cancer Research | Paid Program The Enterprise AI Shortcut: Why Co-Innovation Is Setting A New Speed For Adopting and Operationalizing AI | Paid Program Why These Leaders Raised Thousands For Blood Cancer — And How You Can, Too | Paid Program 2026 America&#x27;s Top Wealth Advisors List 2026 Best-In-State Top Wealth Advisors List The Toughest Problems Are Never Solved Alone | Paid Program How Chief Marketing Officers Are Scaling AI At Speed — While Preserving Brand "
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Cursor passed $4B annualized revenue last week $2B in February $3B in April $4B last week Doubled revenue in 4 months. SpaceXAI holds a $60B option to buy Cursor ITS HAPPENING",
+          "link": "https://nitter.net/ns123abc/status/2064116474810138764#m",
+          "date_utc": "2026-06-08T22:44:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKU2_qIXcAEeIGF.jpg",
+            "https://nitter.net/pic/media%2FHKU2_qJXMAA4J-t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: OpenAI files confidentially for IPO ITS HAPPENING OpenAI Newsroom (@OpenAINewsroom) We recently submitted a confidential S-1. We expect it to leak so we’re just announcing it. We have not decided on timing yet; it may be a while because there are things we want to do that are likely easier as a private company. But it’s a complicated set of tradeoffs and this gives us the option to go public sooner if that ends up being best. This announcement is being made pursuant to Rule 135 under the Securities Act of 1933, as amended, and does not constitute an offer to sell or the solicitation ",
+          "link": "https://nitter.net/ns123abc/status/2064097290948575480#m",
+          "date_utc": "2026-06-08T21:28:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUli8EXMAECbja.jpg",
+            "https://nitter.net/pic/media%2FHKUli8MXgAAZdPq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "notus.org/technology/trump-b…",
+          "link": "https://nitter.net/ns123abc/status/2064088010354831694#m",
+          "date_utc": "2026-06-08T20:51:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2063472796450144256%2FyOAoAHWQ%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.notus.org/technology/trump-blindsided-ai-companies-equity-meeting-plan",
+              "content": "Trump’s Plan to Meet With AI Companies Was News to AI Companies - NOTUS — News of the United States Notus Main Navigation Show menu Close menu New! On NOTUS Podcast NOTUS Perspectives Newsletter Subscribe for free Past Newsletters Government Donald Trump White House Courts Congress Senate House Democrats Republicans States Alabama Arizona California Florida Georgia Illinois Louisiana Maine Michigan Mississippi Missouri New Jersey New York North Carolina Ohio Oklahoma Pennsylvania Texas Utah Vermont Virginia Wisconsin Topics 2026 Election 2028 Election Climate Defense Economy Education Foreign Policy Health Science Immigration Money Policy Technology Trade Tariffs U.S. News Who Are We? About NOTUS™ Events Work for us Press Releases Syndication Washington Bureau Initiative SPOTUS X (Twitter)"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 TRUMP’S AI NATIONALIZATION WAS SAM ALTMAN’S IDEA Trump: “I have spoken to ALL of them” ai companies had no idea this was happening they learned about this from the news anthropic says they haven’t discussed it Turns out it was Altman who pitched equity stake idea to Trump in early 2025: he has been privately lobbying for nationalization ever since he discussed it again with senior officials in recent weeks Scam Altman strikes AGAIN.",
+          "link": "https://nitter.net/ns123abc/status/2064086147379478994#m",
+          "date_utc": "2026-06-08T20:44:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUbaXuXsAAhpfe.jpg",
+            "https://nitter.net/pic/media%2FHKUbaXdXQAEfwZw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: Jensen Huang just DECLINED Sen. Warren's invite to testify Thursday Sen. Warren: You must testify under oath about NVIDIA's China sales Jensen Huang: NO",
+          "link": "https://nitter.net/ns123abc/status/2064075297402630150#m",
+          "date_utc": "2026-06-08T20:01:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKURi0wXEAAy1uc.jpg",
+            "https://nitter.net/pic/media%2FHKURi0jWAAAn0Wl.jpg",
+            "https://nitter.net/pic/media%2FHKURi2iWIAApOnL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Apple delayed Siri AI in EU due to Digital Markets Act YUROPOORS BTFO",
+          "link": "https://nitter.net/ns123abc/status/2064066048467320850#m",
+          "date_utc": "2026-06-08T19:24:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUIsH9XcAAGkrZ.jpg",
+            "https://nitter.net/pic/media%2FHKUIsHzW0AA8PQh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Proud to collaborate on the next frontier of private AI. 🔒 Apple is expanding Private Cloud Compute to @GoogleCloud using NVIDIA GPUs. nvda.ws/4ewJl3q",
+          "link": "https://nitter.net/nvidia/status/2064100362752294992#m",
+          "date_utc": "2026-06-08T21:40:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2063015481422815232%2FN4Be4Vng%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4ewJl3q",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn how we are scaling transaction foundation models: nvda.ws/3QeBWMS",
+          "link": "https://nitter.net/nvidia/status/2064056034423959803#m",
+          "date_utc": "2026-06-08T18:44:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2061692972022759424%2F8XgZdLdI%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3QeBWMS",
+              "content": "Financial Institutions Are Converging on Transaction Foundation Models | NVIDIA Blog Skip to content Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence June 1, 2026 by Pahal Patangia 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed systems. Siloed systems prevent institutions from developing a unified understanding of consumers’ financial behavior. As enterprise datasets keep growing, so does the gap between what institutions know and what their AI can reason over — creating a major opportuni"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Transaction foundation models transform raw data into intelligence, trained on billions of financial events — payments, transfers and behavioral signals. Financial institutions, like @Revolut and @Mastercard , are already using NVIDIA accelerated computing to train foundation models on proprietary data — outperforming traditional approaches across fraud detection, credit scoring and personalization.",
+          "link": "https://nitter.net/nvidia/status/2064056027947934209#m",
+          "date_utc": "2026-06-08T18:44:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKUABLbXQAAthY_.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
