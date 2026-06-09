@@ -1,0 +1,471 @@
+{
+  "date": "2026-06-09",
+  "slot": "evening",
+  "scraped_ist": "2026-06-09 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "For our free newsletter this week, we write about how governments have an interest in investing directly in AI. @IrenaCronin and I write this newsletter every week. AI is becoming an investment race as governments seek more influence over the companies and infrastructure shaping the future economy. The U.S. is debating whether the public should have a stake in major AI companies, while the U.K. and South Korea are already investing directly in AI infrastructure, computing capacity, and chips to strengthen their national competitiveness. Read and subscribe for free: unaligned.io",
+          "link": "https://nitter.net/Scobleizer/status/2064378256103780521#m",
+          "date_utc": "2026-06-09T16:05:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKYlEDFbMAA12Pj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 2 hours ago ​​​​​​The New AI Investment Race Why Governments Want a Stake in AI Companies Robert Scoble, +1 Jun 02, 2026 ​​​​​​The AI IPO Race Robert Scoble, +1 May 26, 2026 ​​​​​​AI Regulation Becomes a Moral Issue Robert Scoble, +1 May 19, 2026 ​​​​​​AI Work Intelligence Platforms The Future of Productivity Robert Scoble, +1 May 12, 2026 ​​​​​​AI-Powered Cyberattacks A New Security Threat Robert Scoble, +1 May 05, 2026 ​​​​​​AI Agents and the New Enterprise Workforce Layer Robert Scoble, +1 Apr 28, 2026 ​​​​​​The Rise of AI Native Companies Robert Scoble, +1 Apr 21, 2026 ​​​​​​Why AI Competition Is Becoming a Platform "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "🇳🇱🇱🇹🇪🇪 + 🇩🇰 Tesla Europe, Middle East & Africa (@teslaeurope) FSD Supervised now approved in Denmark 🇩🇰 Rollout will begin soon Video — https://nitter.net/teslaeurope/status/2064350518907167166#m",
+          "link": "https://nitter.net/Tesla/status/2064370937949253743#m",
+          "date_utc": "2026-06-09T15:36:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064350405556043776%2Fimg%2F7loMoIB8kwmsUjMZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised doesn’t waste your time Mike P (@mikepat711) Absolute SAVAGERY by mad max on V14.3.3 😂 We’re driving along the highway, and encounter traffic. We are supposed to be on the roadway I’m pointing at with an arrow a few seconds into the video. FSD knows from mapping that the Rt 1 exit allows an opportunity to re-connect with I-76 before it branches off into an exit lane, and to avoid a section of traffic, FSD decides to yeet the exit, blow by about 1/2 mile of the backup before muscling its way back onto 76. I had to mute the video because I was laughing like a psycho the entire tim",
+          "link": "https://nitter.net/Tesla/status/2064062706538385660#m",
+          "date_utc": "2026-06-08T19:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063750045816532993%2Fimg%2FH3UOPIJxl26YYcvx.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Just landed nested subagent support in Claude Code Starting to experiment more with agents kicking off agents as a way to better manage context. Capped at depth=5 to start, going out in today’s release. Lmk what you think!",
+          "link": "https://nitter.net/bcherny/status/2064327225504403752#m",
+          "date_utc": "2026-06-09T12:42:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "So true!!! Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) What the West Still Doesn’t Get It: Communism’s True Core: The Systemic Lie Most people in the West think they understand communism. They picture bread lines, gulags, failed five-year plans, and the collapsed Soviet Union. They treat it as a discredited economic theory – an experiment that proved that abolishing private property doesn’t work. Case closed, history moved on. This misunderstanding may be the most dangerous intellectual failure of our time. Communism was never primarily an economic system. Economics was the surface. Beneath it ",
+          "link": "https://nitter.net/brivael/status/2064382791664451893#m",
+          "date_utc": "2026-06-09T16:23:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKXmpzvWAAAls5W.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "If you want more growth. Split the state spent by 2. That’s it. etn. (@etnshow) for sure Video — https://nitter.net/etnshow/status/2064291649518223869#m",
+          "link": "https://nitter.net/brivael/status/2064382396179382497#m",
+          "date_utc": "2026-06-09T16:21:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064291545403064320%2Fimg%2FsgdJmoE4vWFs6-Ap.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Il va falloir commencer à agir un jour. L’échec de la gauche progressiste montre ses métastases jour après jour. Nous sommes en novembre 1989. Bientôt la chute du mur de la honte. — https://nitter.net/brivael/status/2064381224836096462#m",
+          "link": "https://nitter.net/brivael/status/2064382032235417733#m",
+          "date_utc": "2026-06-09T16:20:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il va falloir commencer à agir un jour. L’échec de la gauche progressiste montre ses métastases jour après jour. Nous sommes en novembre 1989. Bientôt la chute du mur de la honte. Bastion (@BastionMediaFR) 🔴🇬🇧 𝗙𝗟𝗔𝗦𝗛 𝗜𝗡𝗙𝗢 — L’auteur de l’attaque au couteau ayant égorgé et tenté de décapiter un homme à North Belfast est un migrant somalien. La victime lutte toujours pour sa vie. — https://nitter.net/BastionMediaFR/status/2064302887732232221#m",
+          "link": "https://nitter.net/brivael/status/2064381224836096462#m",
+          "date_utc": "2026-06-09T16:16:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKXgiT3XIAEbKeV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "AOC soon: You can’t earn a TRILLION dollar. Elon is not an engineer; he is a businessman who’s stealing the money from the workers. 😂😂😂😂 Kalshi (@Kalshi) BREAKING: Elon Musk is expected to have a net worth of $1.33 trillion this year — https://nitter.net/Kalshi/status/2064363776032264314#m",
+          "link": "https://nitter.net/brivael/status/2064380428585242977#m",
+          "date_utc": "2026-06-09T16:13:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Elon Musk (@elonmusk) This is the way — https://nitter.net/elonmusk/status/2064369981811286125#m",
+          "link": "https://nitter.net/brivael/status/2064376010087313482#m",
+          "date_utc": "2026-06-09T15:56:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep for sure! 🇦🇪 HGS (@Sajwani) Ron Baron says he thinks SpaceX will be worth $30 trillion, and he could be very low. $30 TRILLION!! Video — https://nitter.net/Sajwani/status/2064359592570867840#m",
+          "link": "https://nitter.net/brivael/status/2064375333701202372#m",
+          "date_utc": "2026-06-09T15:53:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2063656753276022785%2Fimg%2FIjRqD04V4TCqcwVF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Lmao. Good luck. Coinvo (@Coinvo) JUST IN: 🇺🇸 Kamala Harris and Rep. AOC will reportedly run as President and Vice President in the 2028 elections. — https://nitter.net/Coinvo/status/2064309029707616367#m",
+          "link": "https://nitter.net/brivael/status/2064372981120295254#m",
+          "date_utc": "2026-06-09T15:44:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKW4TBNXIAE6bnZ.jpg",
+            "https://nitter.net/pic/media%2FHKW4TBHWUAA4lhH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 🇦🇪 HGS (@Sajwani) When you realize how MASSIVE SpaceX IPO is Video — https://nitter.net/Sajwani/status/2064361354304348430#m",
+          "link": "https://nitter.net/brivael/status/2064372277131518185#m",
+          "date_utc": "2026-06-09T15:41:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064361287761694720%2Fimg%2FDN_KpY-zGfyFjc5o.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "That’s the way. 🇦🇪 HGS (@Sajwani) AI Data centers in Space orbiting Earth — https://nitter.net/Sajwani/status/2064224209795166245#m",
+          "link": "https://nitter.net/brivael/status/2064372193182576645#m",
+          "date_utc": "2026-06-09T15:40:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La France peut redevenir puissante à une seule condition : Passer de 57 % de PIB (part de l’État dans l’économie) à 20/25 % (grand max), arrêter d’être socialiste et devenir un “vrai” pays libéral, où les meilleurs produits /services gagnent par leur qualité, et pas par leur accès à un réseau/caste. Pour commencer. Sans ça, toutes les couches au-dessus métastasent très vite. Je suis impatient d’entendre Arthur Mensch dénoncer la vraie et unique cause de la décrépitude européenne et française ;) Steevy Boulette (@lafotaki) Ce n'est pas du tout l'avis de Marie-Lune, titulaire d'un master en scra",
+          "link": "https://nitter.net/brivael/status/2064364187556434418#m",
+          "date_utc": "2026-06-09T15:09:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKWYTacWoAARkLv.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Sauf que avec l’IA c’est assez facile de savoir qui a défendu tel ou tel thèse ;) Laisse-moi un week-end avec 4 nerds et un accès à la data, et je te fais la liste de tous les psychopathes qui défendent des systèmes qui produisent, les grooming gangs, les décapitations, les viols d’enfants. Ça va être difficile de se cacher dans le futur si : - tu as été corrompu - tu as agi pour un intérêt personnel contre l’intérêt du peuple - tu as consciemment appuyer / fait passer des lois allant contre l’intérêt des peuples européens Sebastien DUGAUGUEZ (@First_Anarch) et tous ceux qui en auront été la c",
+          "link": "https://nitter.net/brivael/status/2064362802848895011#m",
+          "date_utc": "2026-06-09T15:03:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La gauche bienveillante et altruiste. “Le camp du bien, qui est en réalité le camp des camps” Brivael Le Pogam (@brivael) Traduisons-les : “Si tout le monde crève la dalle. Que notre système a produit des camps, des morts, de la famine et de la misère humaine à tous les étages, il faudra taper bien plus dur. Si une manœuvre de contournement des camps de redressement après une loi sur les camps, il faudra psychiatriser, les punir pour les transformer enfin en hommes bons.” — https://nitter.net/brivael/status/2064357833689165888#m",
+          "link": "https://nitter.net/brivael/status/2064361219327189083#m",
+          "date_utc": "2026-06-09T14:57:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis d’accord avec ça. On est en plein dans ce qu’a décrit Hayek dans la route de la servitude. Pas parce que l’immigration serait une forme de socialisme, mais à cause du mécanisme qu’il a mis à nu : un ordre libéral qui renonce à ses fonctions les plus élémentaires fabrique lui-même sa propre négation. Un État qui ne tient plus ses frontières et qui n’applique plus la loi de la même façon pour tous ne produit pas davantage de liberté. Il produit du désordre, de l’insécurité, et le sentiment d’un peuple abandonné par ses propres institutions. Et ce vide n’attend jamais longtemps. Il appell",
+          "link": "https://nitter.net/brivael/status/2064360430345072647#m",
+          "date_utc": "2026-06-09T14:54:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Vive la liberté ! Vive Milei le King 🤴 dabidab 🇨🇭 🇫🇷 (@D4b1d4b) Pendant que nos dirigeants réfléchissent à créer de nouvelles lois et de nouveaux impôts... — https://nitter.net/D4b1d4b/status/2064295311682535610#m",
+          "link": "https://nitter.net/brivael/status/2064358178041577938#m",
+          "date_utc": "2026-06-09T14:45:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKXZiCSXYAAgu4w.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Traduisons-les : “Si tout le monde crève la dalle. Que notre système a produit des camps, des morts, de la famine et de la misère humaine à tous les étages, il faudra taper bien plus dur. Si une manœuvre de contournement des camps de redressement après une loi sur les camps, il faudra psychiatriser, les punir pour les transformer enfin en hommes bons.” Cardinal de Retz (@Naaaadroj) Ça ne marche pas car c'est mal fait. Il faut taper bien plus dur, si manœuvre de contournement du fisc apres une loi Zucman, il faudra exproprier, ou a minima, une exit taxe d'au moins 70% du patrimoine global. Dans",
+          "link": "https://nitter.net/brivael/status/2064357833689165888#m",
+          "date_utc": "2026-06-09T14:43:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 Sarah Knafo (@knafo_sarah) Édouard Philippe en train de rédiger sa stratégie nationale sur l’IA. — https://nitter.net/knafo_sarah/status/2064289399131554070#m",
+          "link": "https://nitter.net/brivael/status/2064334214502264964#m",
+          "date_utc": "2026-06-09T13:10:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKXURAOW4AAW1C_.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "mythos will be so much cheaper than 5.5 pro gpt 5.5 pro: $30 / input MTok $180 / output MTok mythos (rumor): $10 / input MTok $50 / output MTok mythos preview: $25 / input MTok $125 / output MTok Lisan al Gaib (@scaling01) Claude Mythos (Fable) Pricing: $10 / input MTok $50 / output MTok according to The Information — https://nitter.net/scaling01/status/2064365809049158059#m",
+          "link": "https://nitter.net/eliebakouch/status/2064376637655839096#m",
+          "date_utc": "2026-06-09T15:58:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKYi2NHWkAEdgsh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "why i love claude",
+          "link": "https://nitter.net/eliebakouch/status/2064372178099876182#m",
+          "date_utc": "2026-06-09T15:40:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKYffSDXwAAUoIG.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "NVIDIA's Nemotron 3 Ultra is currently the #1 Open-Weight model on @pinchbench , the OpenClaw-focused model benchmark. We're sitting down with the @NVIDIA team in a free, live webinar tomorrow (June 10th) at 1pm ET/10am PT to get an inside look at the architecture, the tradeoffs, and how Ultra slots into multi-model agent workflows in Kilo. Register: luma.com/kilo-q7sk",
+          "link": "https://nitter.net/kilocode/status/2064372704866648138#m",
+          "date_utc": "2026-06-09T15:43:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKYf2V9XwAAQnlA.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://luma.com/kilo-q7sk",
+              "content": "NVIDIA Kilo | Live Webinar · Luma Discover Events Sign In Presented by Kilo Subscribe Powered by kilo.ai - an open-source, all-in-one agentic engineering platform that helps developers write, debug, and ship code faster Hosted By Kilo Code 6 Going Vilen Prokofyev, Omar Siam and 4 others Contact the Host Report Event AI NVIDIA Kilo | Live Webinar Kilo YouTube Registration Welcome! To join the event, please register below. Register You will be asked to verify token ownership with your wallet . About Event ​ NVIDIA&#x27;s Nemotron 3 Ultra outperformed every other open-weight model on PinchBench, Kilo&#x27;s agentic benchmark. ​ We&#x27;re sitting down with NVIDIA to get into why, and what it means for how you build. ​ Brian Turcotte (Kilo) and Chris Alexiux (NVIDIA) will cover the architectur"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Two models. Same task. Side by side. One finishes, you review the diff, and you keep the one you like. The other never touched your files. Here's 74 seconds of Agent Manager, from start to finish. Video",
+          "link": "https://nitter.net/kilocode/status/2064357999972397499#m",
+          "date_utc": "2026-06-09T14:44:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064357232779624449%2Fimg%2FNhZdMStVHZYggDZR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "x.com/i/article/206432521181…",
+          "link": "https://nitter.net/kilocode/status/2064328144769736778#m",
+          "date_utc": "2026-06-09T12:45:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Day 1 down. Agent Manager shipped: multiple agents, isolated git worktrees, parallel execution. Day 2 is live in a few hours. 👀",
+          "link": "https://nitter.net/kilocode/status/2064317602445357144#m",
+          "date_utc": "2026-06-09T12:04:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKXtMbhWAAAJFD-.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: CHINA IS AGI-PILLED NOW China has made AI a national-security project and is planning to spend $295 billion to build AI data centers that run 80% on domestic technology The plan: - 2 trillion yuan over five years - funded by govt debt and long-term bonds - state telecoms operating infrastructure - huawei and domestic chipmakers supplying the hardware - private spending from alibaba and tencent not included in this btw Goal: Unified National AI network by 2028",
+          "link": "https://nitter.net/ns123abc/status/2064381510061314456#m",
+          "date_utc": "2026-06-09T16:18:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKYoCv9XYAAJdZi.jpg",
+            "https://nitter.net/pic/media%2FHKYoCwIW8AA__4E.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "thehill.com/policy/technolog…",
+          "link": "https://nitter.net/ns123abc/status/2064340782845153792#m",
+          "date_utc": "2026-06-09T13:36:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064289484284252161%2FafMOG8od%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://thehill.com/policy/technology/5912720-altman-openai-get-bogged-down-in-political-spending-fight/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 ALTMAN CAUGHT IN SUPER PAC SCANDAL, CLAIMS OPENAI NOT INVOLVED OpenAI co-founder Greg Brockman and wife donated $25M to “Leading the Future” PAC OpenAI says they have no affiliation but OpenAI’s chief global affairs officer helped launch it LMAOOO",
+          "link": "https://nitter.net/ns123abc/status/2064338395187274109#m",
+          "date_utc": "2026-06-09T13:26:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKYA1FZWkAIgswY.jpg",
+            "https://nitter.net/pic/media%2FHKYA1FWWQAEwzE3.jpg",
+            "https://nitter.net/pic/media%2FHKYA1FXXsAAAIKz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
