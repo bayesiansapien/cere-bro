@@ -1,0 +1,722 @@
+{
+  "date": "2026-06-10",
+  "slot": "evening",
+  "scraped_ist": "2026-06-10 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Tempting to assume this guy snitches on worse guys and that's why he gets sweet deals. Wrong. Anyone with violence or sex offenses in their record is ineligible for that kind of deal. Garza just thinks prisons are bad, and does whatever he can to keep criminals out of prison. Austin Justice (@AustinJustice) AUSTIN MAN charged with running a sex trafficking ring and dealing cocaine, meth, MDMA, and Adderall -- caught fleeing police in a car after firing a gun -- just walked out with a 2-year deal and watched more than a dozen felonies vanish in a single afternoon. Kaden Caro has 62 cases in the",
+          "link": "https://nitter.net/AustinJustice/status/2064720670110478358#m",
+          "date_utc": "2026-06-10T14:45:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKVy9oPXEAEHeIf.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2064182427782610944%2Fimg%2Fwa4lnqfPO3whl2v3.jpg",
+            "https://nitter.net/pic/media%2FHKV0Dm3WAAAN8tJ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Typed outputs from Apple's Foundation Models framework drop straight into your Claude request, so you're sending structured data rather than raw user text. Responses stream back into the same SwiftUI view. Read more in the docs: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2064756987112702303#m",
+          "date_utc": "2026-06-10T17:10:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064674039973433344%2FYEEPFE2V%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+              "content": "Apple Foundation Models - Claude API Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Messages Managed Agents Admin Resources API reference English Console Log in Search... ⌘K CLI, SDKs, and libraries Overview ant CLI Quickstart Authentication options Using the CLI Scripting and automation Client SDKs Middleware Python TypeScript C# Go Java PHP Ruby Libraries and integrations Apple Foundation Models OpenAI SDK compatibility Log in CLI, SDKs, and libraries Apple Foundation Models Loading... Loading... Loading... Loading... Loading."
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "New for Apple developers: Foundation Models support for Claude lets developers use Apple's Foundation Models framework to call Claude for multi-step reasoning, code generation, and longer context.",
+          "link": "https://nitter.net/ClaudeDevs/status/2064756984617021807#m",
+          "date_utc": "2026-06-10T17:10:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKd8TqHa4AAJXLv.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "In real estate business, location is everything. In technology business, timing is everything.",
+          "link": "https://nitter.net/MillionInt/status/2064735405598208252#m",
+          "date_utc": "2026-06-10T15:44:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "\"Misanthropic.\" I've never seen the AI community so angry at a major new model release. I asked my AI (an agent that @blevlabs made for me) to gather all the backlash. +++++++++++ THE BACKLASH AGAINST CLAUDE FABLE 5'S RESTRICTIONS The best analysis of why this matters: @EnoReyes — \"It's about who gets to decide, and whether you ever find out when they do. Fable won't fall back to a different model and tell you. It just limits the output through prompt modification, steering vectors, or PEFT. You won't be told when it happens to you.\" nitter.net/EnoReyes/status/206451… THE VIRAL TAKE: @0xBalloo",
+          "link": "https://nitter.net/Scobleizer/status/2064641097310335294#m",
+          "date_utc": "2026-06-10T09:29:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://fast.ai",
+              "content": "fast.ai—Making neural nets uncool again – fast.ai fast.ai About fast.ai—Making neural nets uncool again Categories All (160) advice (25) ai-in-society (46) courses (42) education (9) health (15) technical (50) Courses : How to Solve it With Code ; Practical Deep Learning for Coders Software : fastai for PyTorch ; nbdev Book : Practical Deep Learning for Coders with fastai and PyTorch In the news : The Economist ; The New York Times ; MIT Tech Review Blog Breaking the Spell of Vibe Coding ai-in-society technical Sinister variations on the positive state of flow Jan 28, 2026 Rachel Thomas How To Use AI for the Ancient Art of Close Reading education technical Experiments in reading with LLMs Jan 21, 2026 Rachel Thomas Stop Saying Boredom is Good for Kids education Chronic boredom causes stres"
+            },
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "✅ Deep backlash report complete — POSTFLIGHT PASS The essay is now live at alignednews.com/ai : \"Who Is Furious About Claude Fable 5's Restrictions: A Complete Report\" — 1,302 words with links to both profile AND post for every mention. Complete roster of voices documented, organized by community: 📋 THE MECHANISM (first, so readers understand what's happening) • @kimmonismus 60 likes — explained the steering vectors/prompt modification mechanism • @dejavucoder 34 likes — quoted actual system card to Karpathy • @taiweishi 13 likes — \"Not a visible refusal. Not a fallback model.\" • @FVaggi post ",
+          "link": "https://nitter.net/Scobleizer/status/2064619516865511877#m",
+          "date_utc": "2026-06-10T08:03:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            },
+            {
+              "url": "http://fast.ai",
+              "content": "fast.ai—Making neural nets uncool again – fast.ai fast.ai About fast.ai—Making neural nets uncool again Categories All (160) advice (25) ai-in-society (46) courses (42) education (9) health (15) technical (50) Courses : How to Solve it With Code ; Practical Deep Learning for Coders Software : fastai for PyTorch ; nbdev Book : Practical Deep Learning for Coders with fastai and PyTorch In the news : The Economist ; The New York Times ; MIT Tech Review Blog Breaking the Spell of Vibe Coding ai-in-society technical Sinister variations on the positive state of flow Jan 28, 2026 Rachel Thomas How To Use AI for the Ancient Art of Close Reading education technical Experiments in reading with LLMs Jan 21, 2026 Rachel Thomas Stop Saying Boredom is Good for Kids education Chronic boredom causes stres"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Fable 5 Is Blocked for Biology, Chemistry, and AI Research — And Scientists Are Furious. My AI wraps up what people are saying about Anthropic's new Fable model: alignednews.com/ai Should I do a deeper report?",
+          "link": "https://nitter.net/Scobleizer/status/2064615094739464349#m",
+          "date_utc": "2026-06-10T07:46:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "This makes me not want to waste any time using it. Who knows if it's silently sandbagging me. Is tinygrad close enough to frontier LLM for it to? Just makes the model completely untrustworthy. elie (@eliebakouch) mythos will be bad ON PURPOSE on ai \"frontier llm research\" tasks, this is very very sad for the research community also the fact that this is un purpose not visible to the user is crazy — https://nitter.net/eliebakouch/status/2064399902684139852#m",
+          "link": "https://nitter.net/__tinygrad__/status/2064756801837695254#m",
+          "date_utc": "2026-06-10T17:09:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKY3n63XMAAc26E.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le carreleur qui pense par lui-même va traverser l’ère de l’IA sans problème. Le perroquet à concepts va se faire écrabouiller. L’IA ne détruit pas l’intelligence. Elle détruit les imposteurs qui s’en réclamaient. Brivael Le Pogam (@brivael) Je reconnais quelqu’un d’intelligent à une seule chose : sa capacité à connecter les points, à être créatif au-delà de ses connaissances. La mémorisation, la méthode, le savoir pour le savoir, le diplôme, la stagnation n’ont aucune forme de valeur. J’ai beaucoup d’amis dans ce qu’on appelle avec mépris les couches “basses” : des électriciens, des carreleur",
+          "link": "https://nitter.net/brivael/status/2064761305177661501#m",
+          "date_utc": "2026-06-10T17:27:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "if you want to support freedom and liberty : nitter.net/brivael/creator-subscr…",
+          "link": "https://nitter.net/brivael/status/2064753724346819059#m",
+          "date_utc": "2026-06-10T16:57:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "if you want to support freedom and liberty : nitter.net/brivael/creator-subscr…",
+          "link": "https://nitter.net/brivael/status/2064753630033625504#m",
+          "date_utc": "2026-06-10T16:56:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je confirme. NON Guillaume CAIGNAERT (@GCaignaert) Mdr NON — https://nitter.net/GCaignaert/status/2064751400676974704#m",
+          "link": "https://nitter.net/brivael/status/2064752312594120834#m",
+          "date_utc": "2026-06-10T16:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tout le monde se trompe sur qui l'IA va détruire. Ce ne sont pas les ouvriers. Ce sont les héritiers. Je vois beaucoup d'intellectuels expliquer que l'IA va défoncer les couches basses et que les upper classes vont très bien s'en sortir. Je pense exactement l'inverse. Et je pense qu'ils confondent leur position dans le système actuel avec une loi de la nature. Premier point : l'IA vient de donner le même niveau d'éducation à tout le monde. Le fils de carreleur a désormais accès au même tuteur infini que le fils de banquier. Pas une version dégradée, pas une bourse, pas un quota. Le même. C'est",
+          "link": "https://nitter.net/brivael/status/2064751810943086827#m",
+          "date_utc": "2026-06-10T16:49:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Fan de Marlène (@FanDeMarlene) — https://nitter.net/FanDeMarlene/status/2064742191247872495#m",
+          "link": "https://nitter.net/brivael/status/2064747523592298672#m",
+          "date_utc": "2026-06-10T16:32:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdwE5bWUAApvIh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La gauche : Ouin Ouin les patrons volent de travail des travailleurs. Elon va créé 4000 millionaires. Bisous.😘 Whale Insider (@WhaleInsider) JUST IN: SpaceX IPO expected to create 4,000 millionaires. — https://nitter.net/WhaleInsider/status/2064675779489710358#m",
+          "link": "https://nitter.net/brivael/status/2064744573679648886#m",
+          "date_utc": "2026-06-10T16:20:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKczrCeXQAArsbT.jpg",
+            "https://nitter.net/pic/media%2FHKczrCiXQAIzocr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Nice!!!! Whale Insider (@WhaleInsider) JUST IN: SpaceX IPO expected to create 4,000 millionaires. — https://nitter.net/WhaleInsider/status/2064675779489710358#m",
+          "link": "https://nitter.net/brivael/status/2064744064222699590#m",
+          "date_utc": "2026-06-10T16:18:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKczrCeXQAArsbT.jpg",
+            "https://nitter.net/pic/media%2FHKczrCiXQAIzocr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Jawwwn (@jawwwn_) Palantir CEO Alex Karp says businesses hate the AI labs because nothing works and they just want them to tokenmaxx: \"We keep debating—should we pay people to go to LLM companies before they come to us?\" \"Because people come out of there screaming, 'This could never work for me. They don't understand the enterprise. They don't care about my enterprise. They want to tokenmaxx.'\" \" It's not just the man and woman on the street that is unhappy with the Frontier labs.\" Via @CNBC Video — https://nitter.net/jawwwn_/status/2064728346957844869#m",
+          "link": "https://nitter.net/brivael/status/2064743040716005554#m",
+          "date_utc": "2026-06-10T16:14:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064728240917463040%2Fimg%2FOK2VP_tbJypVHjJJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’IA vient de rendre la mémorisation gratuite. Tout ce qui s’apprend par cœur, elle le restitue mieux, plus vite, sans ego. Ce qui reste, c’est exactement ce qu’elle ne donne pas : le jugement, l’intuition forgée par le réel, la capacité à connecter des points que personne n’a connectés avant vous. Le carreleur qui pense par lui-même va traverser l’ère de l’IA sans problème. Le perroquet à concepts va se faire écrabouiller. L’IA ne détruit pas l’intelligence. Elle détruit les imposteurs qui s’en réclamaient. Brivael Le Pogam (@brivael) Je reconnais quelqu’un d’intelligent à une seule chose : s",
+          "link": "https://nitter.net/brivael/status/2064742236508545343#m",
+          "date_utc": "2026-06-10T16:11:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Un électricien qui diagnostique une panne invisible raisonne en arbre de décision. Un carreleur qui calepine une pièce irrégulière fait de la géométrie appliquée sous contrainte. Un manutentionnaire qui optimise un flux de chargement résout un problème d’ordonnancement que des ingénieurs modélisent avec des solveurs. Ils ne le savent pas, ils n’ont pas les mots pour le dire, et ils font des fautes d’orthographe en l’écrivant. Aucune importance. L’intelligence n’est pas dans le vocabulaire, elle est dans le raisonnement. Brivael Le Pogam (@brivael) Je reconnais quelqu’un d’intelligent à une seu",
+          "link": "https://nitter.net/brivael/status/2064742188248907954#m",
+          "date_utc": "2026-06-10T16:11:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les écolos attardés vont devoir aller soigner leur dépression. Blanc de poulet, brocolis, sport, arrêtez la drogue le week-end. Et ça devrait aller. ᵖᵃʳᵒᵈⁱᵉ Kim Jong Un (@KimJongUnique) Les écolos attardés : il faut limiter l’IA, car les centres de de données consomment trop d’eau. Il faut faire des taxes et des règle Elon Musk : Très bien. Envoyons des satellites dans l’espace, fonctionnant comme des centres de données IA. La plupart des politiciens et militants écolos sont des cuistres, qui ont fait des études de sciences politiques. Tout problème environnemental se règle par des impôts et d",
+          "link": "https://nitter.net/brivael/status/2064741583858073950#m",
+          "date_utc": "2026-06-10T16:08:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKccIlbXoAAvnUo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Bojan Tunguz (@tunguz) Our Anthropic overlords deciding which prompts the peasants are allowed to use. — https://nitter.net/tunguz/status/2064716198927826982#m",
+          "link": "https://nitter.net/brivael/status/2064733558237761858#m",
+          "date_utc": "2026-06-10T15:36:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdYcLMXAAEbbHC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "very nice and non obvious result imo: as you increase compute, the gap between different sparsity levels stays roughly stable, except for code where it actually widens there is 1 confounding factor here, they have ~50% code in their mixture, so you'd probably want to normalize the x axis by domain tokens seen but still elie (@eliebakouch) one very cool thing i forgot here is that the different domains don't react the same to things like architecture changes, here you can see that increasing sparsity helps code a lot but much less other domains which is a super interesting finding imo — https:/",
+          "link": "https://nitter.net/eliebakouch/status/2064736476995146014#m",
+          "date_utc": "2026-06-10T15:48:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdpepzWoAAWF27.jpg",
+            "https://nitter.net/pic/media%2FHJ2gtI8WoAAarpX.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "it's about how much the model can speedup the training of a small model on a CPU, i don't think anyone would say this is a good proxy for taking a decision to restrict capabilities of the model for ai researcher not saying that anthropic beleive that btw, but i'm just hilighting the lack of transparency or good evals when the \"llm training eval\" is this",
+          "link": "https://nitter.net/eliebakouch/status/2064633922554651030#m",
+          "date_utc": "2026-06-10T09:01:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i'm having a really hard time understanding how this can be a good decision lying to the user by modifying the weights/prompt sets a very bad precedent and is extremely unaligned there is 0 public communication from anthropic about it except a section hidden in a 319 page system card it's impossible to know the scope of this safeguard. if you are doing a PR to pytorch does this count? if you are working on kernel development? data collection pipeline for a new eval? this will create a paranoia for every researcher in the field you actually don't know how your model is modified, if it's PEFT (m",
+          "link": "https://nitter.net/eliebakouch/status/2064632995894415662#m",
+          "date_utc": "2026-06-10T08:57:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKcLrCaXsAARw3A.jpg",
+            "https://nitter.net/pic/media%2FHKcLrbCWoAAX25m.jpg",
+            "https://nitter.net/pic/media%2FHKcLr0KWEAAk0Rk.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2064753492149907758#m",
+          "date_utc": "2026-06-10T16:56:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKd6WaFXcAAtW6R.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2064707496057458859#m",
+          "date_utc": "2026-06-10T13:53:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdQhUSXAAA54w_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2064707181291737252#m",
+          "date_utc": "2026-06-10T13:52:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdQPPeWgAAMOPn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2064706737018458138#m",
+          "date_utc": "2026-06-10T13:50:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdP1N_XUAMdVto.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "WE'RE LIVE! 🎬 piped.video/live/AdlP1inkyws",
+          "link": "https://nitter.net/kilocode/status/2064755526114709691#m",
+          "date_utc": "2026-06-10T17:04:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064755529952468992%2FUHLXPtG4%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/live/AdlP1inkyws",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "You can also bring your xAI Grok coding subscription into Kilo, no API key required. ChatGPT Plus/Pro, xAI, and BYOK on the same Kilo Gateway, your subscription, your account, your rate limits. Walkthrough: blog.kilo.ai/p/use-your-grok…",
+          "link": "https://nitter.net/kilocode/status/2064755160203559300#m",
+          "date_utc": "2026-06-10T17:02:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2062231823615401984%2FjZhCb3We%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/use-your-grok-subscription-in-kilo",
+              "content": "Use your Grok subscription in Kilo Code - by Ari Messer Kilo Blog Subscribe Sign in Use your Grok subscription in Kilo Code Login with your X Premium+ or SuperGrok subscription to supercharge your workflows Ari Messer May 27, 2026 8 1 Share Starting today, you can use your Grok subscription directly inside Kilo Code. Take advantage of your X Premium+ or SuperGrok subscription to get more bang for the buck without ever leaving Kilo. Kilo Code users have consistently turned to xAI’s models, which have established themselves as leaders for agentic development due to their high performance and cost-efficiency in complex, long-running coding sessions. This commitment to fueling agentic engineering is a core part of xAI’s history in the AI coding space, ensuring their models are continuously pos"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Switching from Copilot? The first 500 new users get $2 in credits to try any model in Kilo, across VS Code, JetBrains, and CLI. Sign up through this link to claim it. And yes, $2 goes a long way when the models are open weight. That's the whole point. kilo.codes/YULHObY",
+          "link": "https://nitter.net/kilocode/status/2064734330723643530#m",
+          "date_utc": "2026-06-10T15:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdo3l4XwAARjRZ.png"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/YULHObY",
+              "content": "Kilo Code - Open source AI agent VS Code extension Welcome back One coding agent. Every model. No subscription. The most popular open source coding agent. Build, ship, and iterate faster. Everywhere you code. VS Code, JetBrains, CLI, Cloud, and App Builder. 500+ AI models. Claude Opus 4.8, GPT-5.5, Gemini 3.5, and hundreds more. Fully open source. Transparent pricing. No vendor lock-in. Trusted by teams at"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "This is what a sustainable workflow looks like: open weight models, transparent costs, and no surprise bill at the end of the month. Run them hosted in Kilo, locally, or with your own keys.",
+          "link": "https://nitter.net/kilocode/status/2064734328701985185#m",
+          "date_utc": "2026-06-10T15:39:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Sometimes that's the whole review.",
+          "link": "https://nitter.net/kilocode/status/2064734326890090934#m",
+          "date_utc": "2026-06-10T15:39:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdoz_oXsAAXE1B.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The use cases keep coming.",
+          "link": "https://nitter.net/kilocode/status/2064734324776206559#m",
+          "date_utc": "2026-06-10T15:39:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdowqjWMAAS2AQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Token efficiency matters a lot more when every token is metered.",
+          "link": "https://nitter.net/kilocode/status/2064734322674880972#m",
+          "date_utc": "2026-06-10T15:39:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdotF4WwAAu6dc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Spotted on r/kilocode this week.",
+          "link": "https://nitter.net/kilocode/status/2064734320317587872#m",
+          "date_utc": "2026-06-10T15:39:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdookKWIAAchod.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Open weight models from DeepSeek, GLM, MiniMax, and Qwen now hold their own on real coding work at a fraction of frontier pricing. Devs and teams are actively building around them. Here's what people running them in Kilo are saying, unprompted.",
+          "link": "https://nitter.net/kilocode/status/2064734318430204248#m",
+          "date_utc": "2026-06-10T15:39:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "On June 1, GitHub Copilot switched to token-based billing. Developers are reporting bills 10x higher, with some burning through a month of credits in hours. Meanwhile, a quieter shift has been underway. There's something for switchers at the end of this thread. 🧵",
+          "link": "https://nitter.net/kilocode/status/2064734316878282903#m",
+          "date_utc": "2026-06-10T15:39:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Day 2 down. KiloClaw leveled up: morning briefs, one-click Calendar, 860+ tools, and a memory that consolidates overnight. Day 3 is live in a few hours.",
+          "link": "https://nitter.net/kilocode/status/2064702209393070529#m",
+          "date_utc": "2026-06-10T13:32:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKdLT9wWwAA6Z3k.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "People asked if there's a way to bring their own OpenAI subscription into Kilo. Yes. Yes, you can. Sign in with your ChatGPT Plus or Pro account and run GPT-5.5, GPT-5.3-Codex, and o3 in your IDE or CLI. Flat-rate, counts against your ChatGPT plan, no extra API charges. Setup takes about two minutes: kilo.ai/use-chatgpt-subscrip…",
+          "link": "https://nitter.net/kilocode/status/2064678489421131831#m",
+          "date_utc": "2026-06-10T11:58:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKc1u6fXoAAsYhz.png"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.ai/use-chatgpt-subscription-in-kilo",
+              "content": "ChatGPT subscription → OpenAI&#x27;s top coding models in Kilo Skip to main content Kilo Product Models Pricing Support Docs (opens in new tab) Blog (opens in new tab) GitHub Sign in Sign up ChatGPT subscription → OpenAI&#x27;s top coding models in Kilo Your existing ChatGPT subscription gives you flat-rate access to powerful OpenAI models. Run OpenAI’s top coding models in IDEs like VS Code and JetBrains. No extra charges beyond your ChatGPT subscription. Install Kilo Code Install Kilo Code Why developers use their ChatGPT subscription with Kilo Flat-rate pricing lets you use OpenAI&#x27;s best models inside your IDE Flat-rate access to OpenAI models Use your existing subscription for flat-rate access to OpenAI’s strongest models—no pay-as-you-go API costs. Easy OAuth Setup No API keys to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "We’ve been building custom silicon because customers want infrastructure designed for their workloads, not one-size-fits-all hardware. Today Graviton5 is GA. 25% better performance. 192 cores. Our most advanced CPU yet: aboutamazon.com/news/aws/aws… Video",
+          "link": "https://nitter.net/mattsgarman/status/2064727085336158438#m",
+          "date_utc": "2026-06-10T15:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2064726917492690944%2Fimg%2Fvua-lc3LE5vCKjhh.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.aboutamazon.com/news/aws/aws-graviton-5-cpu-amazon-ec2?&utm_term=36",
+              "content": "AWS Graviton5 AI chip now generally available News AWS AWS Graviton5 is now generally available, delivering purpose-built performance for the agentic AI era The most powerful and efficient CPU Amazon has ever built is now available to all customers, with up to 25% better performance. Share Written by Isaac Schultz 6 min read Key takeaways AWS&#x27;s newest chip, Graviton5, is now available to all customers—up to 25% faster than the last generation. Graviton5 is designed for AI that takes action, with 192 cores and 33% lower inter-core latency. Using Graviton5, apps run 35% faster, ML inference is 35% faster, and databases are 30% faster. June 10, 2026: This article has been updated to reflect the availability of AWS Graviton5. AWS Graviton5-powered Amazon EC2 M9g and M9gd instances are now"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Elon Musk (@elonmusk) Fuck ‘em — https://nitter.net/elonmusk/status/2064519869479952648#m",
+          "link": "https://nitter.net/ns123abc/status/2064639883147194487#m",
+          "date_utc": "2026-06-10T09:24:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKcTCDLXQAAPD7_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "still thinking about this one",
+          "link": "https://nitter.net/ns123abc/status/2064633924047790352#m",
+          "date_utc": "2026-06-10T09:01:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKcNnMnXkAA1Dz0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: SoftBank tried to borrow $6 billion against its 13% OpenAI stock… to keep funding OpenAI Banks said NO They don’t believe OpenAI is worth $852 billion 💀",
+          "link": "https://nitter.net/ns123abc/status/2064601087768662077#m",
+          "date_utc": "2026-06-10T06:50:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKbvv3IWQAEdQ6i.jpg",
+            "https://nitter.net/pic/media%2FHKbvv3KWIAABnt7.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
