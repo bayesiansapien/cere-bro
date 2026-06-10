@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-10",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-10 12:04",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Running several agents at once used to mean accepting they’d collide, so most people just ran them one at a time. That’s a queue, not parallel work. Agent Manager gives every agent its own git worktree: separate directory on disk, separate branch, sees only its own files. Three tasks, three worktrees, all running at once.",
+          "link": "https://nitter.net/kilocode/status/2064293458345390148#m",
+          "date_utc": "2026-06-09T10:28:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKXX9XwXUAAwLZw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
