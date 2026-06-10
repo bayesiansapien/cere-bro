@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-06-06T16:30:01.163208+00:00",
+  "following_last_checked": "2026-06-09T16:30:01.370609+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -523,6 +523,15 @@
       "handle": "heavypulp",
       "name": "Heavy Pulp",
       "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "theskory",
+      "name": "Boris Skorobogaty",
+      "org": "Meta AI",
       "timezone": "PT",
       "focus": [
         "AI"
