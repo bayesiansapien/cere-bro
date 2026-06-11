@@ -1,0 +1,735 @@
+{
+  "date": "2026-06-11",
+  "slot": "evening",
+  "scraped_ist": "2026-06-11 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Texas legislators write the criminal laws. They debate them, vote on them, answer to voters for them. The Garzas were elected to enforce those laws. Instead they sorted them into two piles, the ones worth their time and the ones beneath it. Look around and see the consequences.",
+          "link": "https://nitter.net/AustinJustice/status/2065115420542034085#m",
+          "date_utc": "2026-06-11T16:54:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "County Attorney Delia Garza (no relation) handles misdemeanors. She wrote people are \"frequently arrested for minor crimes, like trespassing and shoplifting, that directly result from their housing and economic status.\" So her office moved away from them.",
+          "link": "https://nitter.net/AustinJustice/status/2065115418306425235#m",
+          "date_utc": "2026-06-11T16:54:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjDC9jWIAA6VJU.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "José also capped his own prosecutors by adding hurdles to prosecution. Any lawyer who \"believes that a sentence longer than twenty years is appropriate must seek permission\" from senior leadership first.",
+          "link": "https://nitter.net/AustinJustice/status/2065115415747907722#m",
+          "date_utc": "2026-06-11T16:54:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjC5BYWAAAYb4o.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "DA José Garza handles felonies. Drug sales: he's ending \"the prosecution of the sale of small amounts of drugs unless there is a threat to public safety.\" On bail: those charged with a state jail felony get \"a presumption of release with no conditions\" if he decides no threat",
+          "link": "https://nitter.net/AustinJustice/status/2065115413671707070#m",
+          "date_utc": "2026-06-11T16:54:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjCsVaXsAAxC_S.jpg",
+            "https://nitter.net/pic/media%2FHKjCyUgXcAAHuwH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "In January 2021, Austin’s top two prosecutors entered office and decided which laws they would stop enforcing. Here is what they promised.🧵",
+          "link": "https://nitter.net/AustinJustice/status/2065115411310363072#m",
+          "date_utc": "2026-06-11T16:54:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjCf_CXgAAazjh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Code can set up a Managed Agent deployment for you. The built-in /claude-api skill knows the API and the ant CLI gives Claude an interface to it. Learn more here: claude.com/blog/whats-new-in…",
+          "link": "https://nitter.net/ClaudeDevs/status/2065080010604740930#m",
+          "date_utc": "2026-06-11T14:33:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064552172109619200%2FCcDHADpy%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+              "content": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Mythos Fable Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try C"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "With the new environment variable credential type, Claude Managed Agents can securely use CLIs, SDKs, or direct API calls to services that authenticate with environment variables. Claude never has access to secrets. Credentials are swapped in at the network boundary. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2065080009203892302#m",
+          "date_utc": "2026-06-11T14:33:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065076904450027521%2Fimg%2Fy2uz-PmkXnGnZN52.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Each deployment is an agent, an environment, an initial message, and a schedule. When a deployment runs, it starts a fresh session. No scheduler to build or host. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2065080007605780662#m",
+          "date_utc": "2026-06-11T14:33:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065076599817703425%2Fimg%2FZkdnnA55TgT-LkIk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've just added two new Claude Managed Agents features: 1. Scheduled deployments - run tasks on a schedule 2. Environment variables - expose vault credentials for CLIs as environment variables",
+          "link": "https://nitter.net/ClaudeDevs/status/2065080005328249086#m",
+          "date_utc": "2026-06-11T14:33:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiit6nbUAAOTSC.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "New for Apple developers: Foundation Models support for Claude lets developers use Apple's Foundation Models framework to call Claude for multi-step reasoning, code generation, and longer context.",
+          "link": "https://nitter.net/ClaudeDevs/status/2064756984617021807#m",
+          "date_utc": "2026-06-10T17:10:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKd8TqHa4AAJXLv.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "❤️🫡 Pavel Durov (@durov) Marxists have the right ideas for the wrong species. Their theory might work for beings with identical DNA, gender, talent, ambition and appetite for risk. Humans are not that species. — https://nitter.net/durov/status/2065136067905257479#m",
+          "link": "https://nitter.net/brivael/status/2065136304908906605#m",
+          "date_utc": "2026-06-11T18:17:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J'avais 28 ans. J'étais assez peu politisé, et j'avais très peu de notions en économie. J'étais un très bon ingénieur, mais complètement stupide sur d'autres sujets. C'est précisément pour ça que je me suis fait berner. L'intelligence ne protège pas, elle se compartimente. C'est aussi pour ça que j'ai des amis brillants qui arrivent à être à la fois \"libertariens\" et \"socialistes\" sans voir la contradiction. L'économie, c'est très simple. Des incitations, des prix, des échanges. On l'a rendue artificiellement complexe pour une seule raison : pisser dans le cerveau des gens et leur faire accept",
+          "link": "https://nitter.net/brivael/status/2065134662926970935#m",
+          "date_utc": "2026-06-11T18:10:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pour comprendre pourquoi la France s'effondre en 2026, il faut comprendre deux hommes : François Mitterrand et Jacques Attali. L'un voulait le trône. L'autre voulait murmurer à l'oreille des rois. Ensemble, ils ont monté la plus grande opération politique de l'histoire de France. Vous vivez dedans. Voici comment elle fonctionne. D'abord, le décor. 1974. La France est une machine qui gagne. Dette : 15% du PIB. Chômage : 2,8%. Budget équilibré. En quinze ans, l'État a construit le nucléaire, le TGV, Airbus, Ariane. Les enfants vivent mieux que leurs parents et trouvent ça normal. Ce pays-là n'a ",
+          "link": "https://nitter.net/brivael/status/2065132948391928157#m",
+          "date_utc": "2026-06-11T18:03:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je ne suis pas une légende, calme-toi lol. Juste un mec curieux qui a fait du reverse engineering sur du code pendant 20 ans, et qui est passé à l’économie, à la philosophie et à la politique depuis quelques années. Tout le monde peut le faire ;) Trading Matt 369 (@TradingMatt999) C'est moi ou Brivael a l'air d'une légende. — https://nitter.net/TradingMatt999/status/2065131518805131465#m",
+          "link": "https://nitter.net/brivael/status/2065132459784872429#m",
+          "date_utc": "2026-06-11T18:02:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) En 2012, j'ai passé un an dans la Silicon Valley. J'ai vu ce que produit un système qui aime ceux qui construisent. Je suis rentré, j'ai eu la chance de bosser pour une des seules startups françaises qui a vraiment réussi, Teads. J'ai vu l'ascension de The Family. En 2017, j'ai voté Macron avec enthousiasme. Il avait les bons mots, la bonne vision. J'étais jeune et con. Mais j'avais une excuse : Macron était la créature la mieux designée de l'histoire du socialisme français. Regardez la fiche de fabrication. Repéré par l'homme qui murmurait à l'oreille de Mitterrand",
+          "link": "https://nitter.net/brivael/status/2065129841134096891#m",
+          "date_utc": "2026-06-11T17:51:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "En 2012, j'ai passé un an dans la Silicon Valley. J'ai vu ce que produit un système qui aime ceux qui construisent. Je suis rentré, j'ai eu la chance de bosser pour une des seules startups françaises qui a vraiment réussi, Teads. J'ai vu l'ascension de The Family. En 2017, j'ai voté Macron avec enthousiasme. Il avait les bons mots, la bonne vision. J'étais jeune et con. Mais j'avais une excuse : Macron était la créature la mieux designée de l'histoire du socialisme français. Regardez la fiche de fabrication. Repéré par l'homme qui murmurait à l'oreille de Mitterrand. Poli chez Rothschild pour ",
+          "link": "https://nitter.net/brivael/status/2065129243726737690#m",
+          "date_utc": "2026-06-11T17:49:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) La chute de l’empire. Il faudra saluer sa dernière créature Macron, qui aura bluffé tout le monde en 2017. C’était sa prime. J’étais jeune et con, j’ai cru au sauveur de la nation qui avait compris les startups. Que nenni, c’était un énorme mirage communiste. Depuis, j’ai travaillé, beaucoup travaillé, puis j’ai découvert Claude qui permet d’aller dans le fond des choses, vraiment dans le fond des choses. L’escroquerie intellectuelle est terminée, vivement la libération. J’ai jamais été aussi optimiste. Cette fois-ci Palpatine a perdu. — https://nitter.net/brivael/s",
+          "link": "https://nitter.net/brivael/status/2065125838446854207#m",
+          "date_utc": "2026-06-11T17:35:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjNASDagAAjY7c.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "hahahaha Alice Cordier (@CordierAlice2) Comment la gauche me voit : — https://nitter.net/CordierAlice2/status/2064954214304952721#m",
+          "link": "https://nitter.net/brivael/status/2065125659358421339#m",
+          "date_utc": "2026-06-11T17:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKgw6eZWIAAolHf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "????? Faye Knooz IV (@FayeKnoozIV) Look! This needs to go viral! — https://nitter.net/FayeKnoozIV/status/2065121186988576922#m",
+          "link": "https://nitter.net/brivael/status/2065121292421140617#m",
+          "date_utc": "2026-06-11T17:17:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjIxk-W8AATMqs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "80% des droits de vote ? Effectivement c’est pas assez, donnez lui 100% ! Vincent Auriac (@V_Auriac) 🚀 Le fonds de pension danois AkademikerPension (22 Md€ 🇩🇰) blackliste SpaceX à J-14 de son IPO sur le Nasdaq ❌ Achat interdit (y compris en indiciel) pour 2 motifs : 1️⃣ Valorisation excessive. À 1 800 Md$, le fonds estime l'action surévaluée d'au moins 80%. Du storytelling Musk, pas de l'économie. 2️⃣ Gouvernance catastrophique. Musk cumule PDG, CTO et président du CA avec 80% des droits de vote. Révocation impossible sans son propre accord. ➡️ SpaceX suit Tesla, exclue en mars 2025. ✅ Par con",
+          "link": "https://nitter.net/brivael/status/2065120883539378288#m",
+          "date_utc": "2026-06-11T17:16:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKgp6RGW4AAFAKB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Traduisons les : Je veux pas gagner d’argent. Vincent Auriac (@V_Auriac) 🚀 Le fonds de pension danois AkademikerPension (22 Md€ 🇩🇰) blackliste SpaceX à J-14 de son IPO sur le Nasdaq ❌ Achat interdit (y compris en indiciel) pour 2 motifs : 1️⃣ Valorisation excessive. À 1 800 Md$, le fonds estime l'action surévaluée d'au moins 80%. Du storytelling Musk, pas de l'économie. 2️⃣ Gouvernance catastrophique. Musk cumule PDG, CTO et président du CA avec 80% des droits de vote. Révocation impossible sans son propre accord. ➡️ SpaceX suit Tesla, exclue en mars 2025. ✅ Par contre, OpenAI serait probablem",
+          "link": "https://nitter.net/brivael/status/2065120567356010547#m",
+          "date_utc": "2026-06-11T17:14:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKgp6RGW4AAFAKB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Almost 125k followers. Big thanks. What I am : - a engineer / builder - a fighter of bullshit - destroyer of communist ideas - a troll meme master",
+          "link": "https://nitter.net/brivael/status/2065120195899969691#m",
+          "date_utc": "2026-06-11T17:13:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjH37JaQAA41cU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Imagine Elon is not existing. He is saving us from: - woke AIs and corporate dystopian world (don’t forget SBF was an Effective Altruist and backed Anthropic) - lies from legacy media He is destroying in real time the empire of lies. God save Elon. Beff (e/acc) (@beffjezos) We need Elon to go on a nuclear grade crusade for truth-seeking AI and freedom of synthetic thought. Without him we are fucking doomed. — https://nitter.net/beffjezos/status/2064971498637660284#m",
+          "link": "https://nitter.net/brivael/status/2065118568489050281#m",
+          "date_utc": "2026-06-11T17:06:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "That’s why Elon will win. Truth is always winning at the end. Empire built on lies was working in the past, but AI is accelerating everything, even bullshit discovery. If you are a liar, pivot now; the era is over. Don’t bet against Elon. Elon Musk (@elonmusk) Grok is maximally truthful — https://nitter.net/elonmusk/status/2065112374709719329#m",
+          "link": "https://nitter.net/brivael/status/2065115928355127338#m",
+          "date_utc": "2026-06-11T16:56:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Vive la liberté ! #PLIB, le Parti #Libertarien 🇫🇷 (@PLIB_fr) En Argentine, Milei vient de supprimer l’impôt sur les revenus locatifs pour les logements en résidence principale. Résultat : rentabilité nette en hausse et offre de logements qui repart. C’est ça dont nous avons besoin : moins d’État, plus de liberté et plus de logements. Les collectivistes détestent. Nous, on adore. — https://nitter.net/PLIB_fr/status/2064947058763616752#m",
+          "link": "https://nitter.net/brivael/status/2065111704812630225#m",
+          "date_utc": "2026-06-11T16:39:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKgqZ2YWgAAq-YP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis d’accord. Elon Musk (@elonmusk) The politicians who knew these horrific crimes were taking place and hid them from the public MUST go to prison — https://nitter.net/elonmusk/status/2065109906051539376#m",
+          "link": "https://nitter.net/brivael/status/2065111010953105550#m",
+          "date_utc": "2026-06-11T16:36:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La chute de l’empire. Il faudra saluer sa dernière créature Macron, qui aura bluffé tout le monde en 2017. C’était sa prime. J’étais jeune et con, j’ai cru au sauveur de la nation qui avait compris les startups. Que nenni, c’était un énorme mirage communiste. Depuis, j’ai travaillé, beaucoup travaillé, puis j’ai découvert Claude qui permet d’aller dans le fond des choses, vraiment dans le fond des choses. L’escroquerie intellectuelle est terminée, vivement la libération. J’ai jamais été aussi optimiste. Cette fois-ci Palpatine a perdu. GRM (@grm_off) La stratégie mitterrandienne aura tenu 50 a",
+          "link": "https://nitter.net/brivael/status/2065098914894889051#m",
+          "date_utc": "2026-06-11T15:48:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "and for transparency i'm a smol angel investor in the company",
+          "link": "https://nitter.net/eliebakouch/status/2065114830072168917#m",
+          "date_utc": "2026-06-11T16:51:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "not many new labs working at the data layer! guilherme and hynek new company @macrodata_labs is focusing on data collection for multimodal/robotics where there is a ton of messy data to process/filter i've worked with them at huggingface (they were behind fineweb, finepdf, datatrove etc..) and they were cracked, so very excited to see what they will ship! they also open sourced a new lib for this if you're interested github.com/macrodata-labs/re… Guilherme Penedo (@gui_penedo) Today we’re announcing Macrodata Labs. Over the last few years, @HKydlicek and I have been turning a large part of the",
+          "link": "https://nitter.net/eliebakouch/status/2065114511439249852#m",
+          "date_utc": "2026-06-11T16:50:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKi-K3OWkAEQZei.jpg",
+            "https://nitter.net/pic/media%2FHKhJXUvXEAEidgj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/macrodata-labs/refiner",
+              "content": "GitHub - macrodata-labs/refiner: Refiner by Macrodata Labs, a data processing framework for Machine Learning large scale datasets · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterp"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "very cool results! i really believe speedruns by @kellerjordan0 @karpathy and others are a great testbed for RSI like tasks, both for evaluating and improving how models do research there are still limitations in how current speedruns are designed, and work needed on the system side to make agents efficient. seeing what models can do in math/code, i believe one missing piece to achieve the same for ai research is giving them the right environment Recursive (@Recursive_SI) x.com/i/article/206456979931… — https://nitter.net/Recursive_SI/status/2064980090702962699#m",
+          "link": "https://nitter.net/eliebakouch/status/2065055199450812759#m",
+          "date_utc": "2026-06-11T12:55:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiMBF6XgAAEjHf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "early results on how to use tool call result to make agent model the world amazing work (and blog) by @omouamoua primeintellect.ai/blog/true-… Prime Intellect (@PrimeIntellect) True agents model the world. Current training provides no separation between agent and environment: pre-training only trains world modeling, RL only agentic actions. We combine both using ECHO by @DimitrisPapail and @VaishShrivas . — https://nitter.net/PrimeIntellect/status/2064818411948093531#m",
+          "link": "https://nitter.net/eliebakouch/status/2065010603349942449#m",
+          "date_utc": "2026-06-11T09:57:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKhkLs0WoAAIvmW.jpg",
+            "https://nitter.net/pic/media%2FHKekGoaa0AA7GOL.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.primeintellect.ai/blog/true-agents-model-the-world",
+              "content": "True Agents Model the World LAB 01 COMPUTE 02 RESEARCH 03 Docs Blog Careers 24 Book a call Start training Login Authors Prime Intellect Team Research June 5, 2026 True Agents Model the World Pretraining creates simulators , LLMs that can model their environment with high precision. RL only improves the model’s own generations. But true agents should do both at the same time: we don’t want a pure simulator, but neither do we want the LLM to only act, blind to how it will affect its environment. Instead, we want it to learn to predict its environment in response to its own actions, allowing it to more intelligently plan and respond to unexpected world dynamics. Synthetic data during pre- and midtraining achieves similar objectives, but only world modeling during RL is truly on policy. Recent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Going live with @MiniMax_AI on AI cost optimization. If your token bill makes you wince, this one's for you. nitter.net/i/broadcasts/1NGarrnwb…",
+          "link": "https://nitter.net/kilocode/status/2065131561448534462#m",
+          "date_utc": "2026-06-11T17:58:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiYOyLXYAAR9YI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "What does an open model actually open? Chris Alexiuk of @NVIDIAAI breaks it down in 60 seconds. Video",
+          "link": "https://nitter.net/kilocode/status/2065122677686157417#m",
+          "date_utc": "2026-06-11T17:23:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065122223501791232%2Fimg%2FIwbCJWV2ylukXO3F.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "x.com/i/article/206510260142…",
+          "link": "https://nitter.net/kilocode/status/2065104128108294442#m",
+          "date_utc": "2026-06-11T16:09:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Full writeup from @TheBinaryNeuron on how it played out step by step: blog.kilo.ai/p/we-asked-grok…",
+          "link": "https://nitter.net/kilocode/status/2065063748818137463#m",
+          "date_utc": "2026-06-11T13:28:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064649814810234881%2FqXWpCZ_L%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/we-asked-grok-build-01-to-recover",
+              "content": "We Asked Grok Build 0.1 to Recover a Secret Hidden in Git History Kilo Blog Subscribe Sign in We Asked Grok Build 0.1 to Recover a Secret Hidden in Git History Darko Jun 10, 2026 5 Share We wanted to test Grok Build 0.1 on a real agentic coding task from one of the world’s most popular coding benchmarks (Terminal-Bench). The background: Kilo Bench is our internal benchmark we use for new models. It’s a fork of Terminal-Bench 2.0 , integrated with the Kilo CLI . To test Grok Build 0.1, we took one of the most popular Terminal-Bench tasks called git-leak-recovery and asked Grok to execute on it. The task Imagine this: A secret got committed to a Git repository by mistake. Someone noticed and tried to make it disappear by rewinding the branch back to the commit before it. The current files hi"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Final check: secret recovered, repo actually clean, README and unrelated commits untouched. Full checksum integrity pass. The task comes straight from Terminal-Bench, which we run on every new model through KiloBench.",
+          "link": "https://nitter.net/kilocode/status/2065063746200871181#m",
+          "date_utc": "2026-06-11T13:28:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiUKzUW0AAmYAD.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Then the part most agents would botch: it saved the secret first, expired the reflog, re-checked, noticed the objects were still there, and ran git gc --prune=now. It verified mid-task instead of declaring victory early.",
+          "link": "https://nitter.net/kilocode/status/2065063741792657628#m",
+          "date_utc": "2026-06-11T13:28:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiUHrFXcAANBz4.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The secret wasn't in any visible file or commit. Grok ran git fsck --unreachable, found an orphaned commit named \"feat: add scratch notes,\" and pulled the secret out of it.",
+          "link": "https://nitter.net/kilocode/status/2065063738391101865#m",
+          "date_utc": "2026-06-11T13:28:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiT6XAXUAA3_WQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "A secret got committed to a Git repo, then \"erased\" with a branch rewind. The repo looked clean. The history looked clean. We ran Grok Build 0.1 on this exact scenario: git-leak-recovery, one of Terminal-Bench's most popular tasks. 27 steps. 41 seconds. $0.09. The human expert estimate is about 30 minutes.",
+          "link": "https://nitter.net/kilocode/status/2065063735803162686#m",
+          "date_utc": "2026-06-11T13:28:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKiTnEYWsAEMvLm.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "One more thing: if your Copilot billing preview produced a number you need to talk about, we want to see it. $250 in Kilo credits for the biggest increase, another $250 for the biggest total. Winners Friday. The first entry came in at 27x. The bar is set.",
+          "link": "https://nitter.net/kilocode/status/2065015648942436851#m",
+          "date_utc": "2026-06-11T10:17:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKhosOLXgAAJ2yV.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Day 3 down. Coding Plans shipped: external token plans on the balance you already have, starting with MiniMax M3 at a tenth of Opus-class pricing. Day 4 = live soon!",
+          "link": "https://nitter.net/kilocode/status/2065011567750480276#m",
+          "date_utc": "2026-06-11T10:01:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKhk56qWcAEU9JD.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨Anthropic CEO believes if scaling laws hold for 1-2 year more we will unlock ASI",
+          "link": "https://nitter.net/ns123abc/status/2065117674577756528#m",
+          "date_utc": "2026-06-11T17:03:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKjFlI-WcAA_zO4.jpg",
+            "https://nitter.net/pic/media%2FHKjFlJDWUAATLVd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: Crusoe announced it “paused” its ~1.8 GW Wyoming project Bloomberg says that’s not what happened. Reality: Google kicked them out Google was the main customer, walked away over costs and timeline utility moving forward WITHOUT Crusoe Google negotiating directly with remaining partners Oracle and OpenAI also declined to expand with Crusoe in Texas CRUSOE IS COOKED Oracle (@Oracle) Crusoe remains a strong and reliable partner to Oracle. We are very proud of the progress we’ve made together to bring capacity online in Abilene at a rapid pace. We regularly assess new sites, with Crusoe ",
+          "link": "https://nitter.net/ns123abc/status/2065100500530332045#m",
+          "date_utc": "2026-06-11T15:55:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKi19eMXEAALS28.jpg",
+            "https://nitter.net/pic/media%2FHKi19eKW0AANIcW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: JEFF BEZOS’ PROMETHEUS JUST RAISED $12B AT $41B VALUATION TO BUILD “ARTIFICIAL GENERAL ENGINEER” FOR THE PHYSICAL WORLD",
+          "link": "https://nitter.net/ns123abc/status/2065084998055530894#m",
+          "date_utc": "2026-06-11T14:53:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKin3J1XoAEU50K.jpg",
+            "https://nitter.net/pic/media%2FHKin3J0XAAAvd2e.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: Google is in talks with SAMSUNG to make part of its next-gen TPU “Icefish” because TSMC is too overbooked by Nvidia to handle it Tesla AI6 → Samsung Nvidia’s new LPU → Samsung Google TPU v10 → Samsung 2nm SAMSUNG IS SO BACK",
+          "link": "https://nitter.net/ns123abc/status/2065072318536094192#m",
+          "date_utc": "2026-06-11T14:03:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKicVBcXMAAhNyY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: theinformation.com/articles/…",
+          "link": "https://nitter.net/ns123abc/status/2065077600670605812#m",
+          "date_utc": "2026-06-11T14:24:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKihIk9XEAAqjkg.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.theinformation.com/articles/google-turns-samsung-future-ai-chip-capacity-tightens?utm_source=ti_app&rc=fgdr09",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Watch Jensen and @CondoleezzaRice on the first episode of @HooverInst ’s Only in America: nvda.ws/4ojGr5r",
+          "link": "https://nitter.net/nvidia/status/2065112617421545511#m",
+          "date_utc": "2026-06-11T16:43:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064743039688482816%2FZ60hxdf6%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4ojGr5r",
+              "content": "Jensen Huang on Vision, Risk, and the GPU | Only In America - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Our CEO Jensen Huang on the opportunity ahead: use AI deeply, challenge the status quo, and stay focused on the human purpose behind the work. Every job has tasks. People give those tasks purpose, and AI can help turn that purpose into greater impact. Video",
+          "link": "https://nitter.net/nvidia/status/2065112614414229934#m",
+          "date_utc": "2026-06-11T16:43:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065112363393560576%2Fimg%2FrdrQ8eeyoDeK7Q7i.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "theskory",
+      "org": "Meta AI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "theskory",
+          "creator": "@theskory",
+          "text": "For mermaid diagrams you also have a possibility to open it as an image so that you can easily zoom in/out, copy the image path to reference it in the chat or copy anywhere else, or copy the raw diagram to paste anywhere you want (mermaid live, excalidraw, etc) skcd (@skcd42) we now render mermaid diagrams and also latex, making it easier for you to reason over any engineering use-case — https://nitter.net/skcd42/status/2064949530588749841#m",
+          "link": "https://nitter.net/theskory/status/2065045699507442164#m",
+          "date_utc": "2026-06-11T12:17:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
