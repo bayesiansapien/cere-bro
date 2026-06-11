@@ -2,6 +2,10 @@
 
 A class of lossless acceleration techniques: a cheap "draft" produces candidate tokens (or blocks), an expensive "target" verifies them via exact rejection sampling, and the verified prefix is committed. The target's output distribution is preserved — quality is unchanged.
 
+## Current State (as of 2026-06-11)
+
+**The MTP-acceptance collapse during RL now has a mechanism, and it is an entropy bound.** [Bebop](2026-06-11-bebop-mtp-rejection-sampling-rl.md) (arxiv 2606.12370) studies why multi-token-prediction drafting — the embedded-drafter idea Nemotron 3 Super introduced (04-21) — loses its speedup when used to accelerate RL rollouts, the application opened by [Speculative Decoding for RL Rollouts](2026-04-30-speculative-decoding-rl-rollouts.md) (04-30). The answer: MTP acceptance is negatively, near-linearly bounded by model entropy, and RL deliberately raises entropy to explore, so acceptance falls exactly when the rollout stage is most expensive. Three fixes: (1) probabilistic rejection sampling of draft tokens absorbs the entropy disturbance far better than greedy draft sampling; (2) a new end-to-end total-variation (TV) loss directly optimizes the multi-step rejection-sampling acceptance rate, where cross-entropy/KL are suboptimal, lifting acceptance to up to 95% (~10% gain); (3) train the MTP head *once before RL* — pre-RL TV-loss training holds acceptance steady across the whole run, so no costly online MTP updating. Up to 25% extra throughput and up to 1.8x end-to-end async-RL speedup on Qwen3.5/3.6/3.7. The deeper implication: rollout speed and policy-stability tuning are coupled — anything that holds entropy down (e.g. a tighter trust region like [DRPO](../llms-foundation-models/2026-06-10-drpo-divergence-regularized-policy-optimization.md), 06-10) should *raise* MTP acceptance for free.
+
 ## Current State (as of 2026-06-02)
 
 Two same-day papers move speculative decoding past the "build a better draft architecture" era (EAGLE3, DFlash) into **better training objectives** and **better system scheduling**.
