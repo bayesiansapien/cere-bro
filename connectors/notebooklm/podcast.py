@@ -479,41 +479,140 @@ HTML_PATH.write_text(html_doc, encoding="utf-8")
 print(f"  ✓ {HTML_PATH}  (open in browser → Cmd+A → Cmd+C → paste into Substack)")
 
 
-# ── Upload audio to GitHub Release ────────────────────────────────────────────
+# ── Upload audio to GitHub Release (hardened) ─────────────────────────────────
 # The /radio page on the Astro site links to audio via GitHub Releases:
 #   github.com/<user>/<repo>/releases/download/podcasts-YYYY-MM/YYYY-MM-DD.m4a
 # Episodes are grouped by month, one release tag per month. Idempotent —
 # `gh release upload` with --clobber overwrites in case of re-runs.
 #
-# Requires `gh` CLI authenticated for the repo. If gh is missing or auth
-# fails, log a warning and continue (the .html note is still committed; the
-# audio is local-only until uploaded manually).
-print("\nUploading audio to GitHub Release...")
-RELEASE_TAG = f"podcasts-{date_str[:7]}"
-try:
-    # Check if release exists; create it if not.
-    check = subprocess.run(["gh", "release", "view", RELEASE_TAG],
+# Hardening (added 2026-06-12 after a Jun 11 silent-failure incident):
+#   - Up to 3 attempts with exponential backoff
+#   - After each upload, VERIFY the asset is actually listed on the release
+#     (gh release view --json assets). This catches the rare "exit code 0 but
+#     asset didn't land" mode that left 2026-06-10.m4a orphaned.
+#   - On persistent failure, call notify.py (banner + Gmail) AND exit non-zero
+#     so the cron's outer wrapper sees the failure and reports it.
+#   - Audio URL is derived from `gh repo view` rather than hardcoded.
+
+def _gh_repo_slug():
+    """Return 'owner/repo' for the current git checkout via gh CLI."""
+    try:
+        r = subprocess.run(
+            ["gh", "repo", "view", "--json", "owner,name",
+             "-q", ".owner.login + \"/\" + .name"],
+            capture_output=True, text=True, timeout=15,
+        )
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.strip()
+    except Exception:
+        pass
+    return None
+
+def _asset_present_on_release(release_tag: str, asset_name: str) -> bool:
+    """Authoritative check: does `gh release view` list this asset?"""
+    try:
+        r = subprocess.run(
+            ["gh", "release", "view", release_tag,
+             "--json", "assets", "-q", ".assets[].name"],
+            capture_output=True, text=True, timeout=30,
+        )
+        if r.returncode != 0:
+            return False
+        return asset_name in [ln.strip() for ln in r.stdout.splitlines() if ln.strip()]
+    except Exception:
+        return False
+
+def _notify_failure(subject: str, body: str):
+    """Fire-and-forget notify; never raises."""
+    notify_script = REPO_ROOT / "connectors" / "notify" / "notify.py"
+    if not notify_script.exists():
+        return
+    try:
+        subprocess.run(["python3", str(notify_script), subject, body],
+                       capture_output=True, text=True, timeout=30)
+    except Exception:
+        pass
+
+def upload_audio_with_retry(release_tag: str, audio_path: Path,
+                            max_attempts: int = 3) -> bool:
+    """Upload + verify. Returns True only when the asset is confirmed listed
+    on the release after upload. Retries with exponential backoff. Calls
+    notify.py on persistent failure."""
+    asset_name = audio_path.name
+    repo_slug = _gh_repo_slug() or "bayesiansapien/cere-bro"
+    public_url = f"https://github.com/{repo_slug}/releases/download/{release_tag}/{asset_name}"
+
+    # Ensure the release tag exists (idempotent).
+    check = subprocess.run(["gh", "release", "view", release_tag],
                            capture_output=True, text=True)
     if check.returncode != 0:
-        print(f"  Release {RELEASE_TAG} does not exist — creating it.")
-        subprocess.run(["gh", "release", "create", RELEASE_TAG,
-                        "--title", f"Cerebro Radio — {date_str[:7]} episodes",
-                        "--notes", f"Audio assets for Cerebro Radio episodes published in {date_str[:7]}."],
-                       capture_output=True, text=True, check=True)
-    # Upload the m4a as a release asset.
-    up = subprocess.run(["gh", "release", "upload", RELEASE_TAG, str(AUDIO_PATH), "--clobber"],
-                        capture_output=True, text=True)
-    if up.returncode == 0:
-        print(f"  ✓ Uploaded {AUDIO_PATH.name} to release {RELEASE_TAG}")
-        print(f"  ✓ Audio URL: https://github.com/bayesiansapien/cere-bro/releases/download/{RELEASE_TAG}/{AUDIO_PATH.name}")
-    else:
-        print(f"  WARN: gh release upload failed: {up.stderr.strip()[:200]}")
+        print(f"  Release {release_tag} does not exist — creating it.")
+        create = subprocess.run(
+            ["gh", "release", "create", release_tag,
+             "--title", f"{cfg['show_name']} — {release_tag.replace('podcasts-', '')} episodes",
+             "--notes", f"Audio assets for {cfg['show_name']} episodes published in {release_tag.replace('podcasts-', '')}."],
+            capture_output=True, text=True,
+        )
+        if create.returncode != 0:
+            print(f"  ERROR: failed to create release {release_tag}: {create.stderr.strip()[:200]}")
+            _notify_failure(
+                f"Podcast upload — release create failed ({date_str})",
+                f"Could not create GitHub release {release_tag}.\n\nstderr:\n{create.stderr.strip()[:500]}",
+            )
+            return False
+
+    backoff = [0, 15, 45]  # seconds to wait BEFORE each attempt
+    for attempt in range(1, max_attempts + 1):
+        if backoff[attempt - 1] > 0:
+            print(f"  Backing off {backoff[attempt - 1]}s before attempt {attempt}...")
+            time.sleep(backoff[attempt - 1])
+        print(f"  Attempt {attempt}/{max_attempts}: uploading {asset_name}...")
+        up = subprocess.run(
+            ["gh", "release", "upload", release_tag, str(audio_path), "--clobber"],
+            capture_output=True, text=True, timeout=600,
+        )
+        if up.returncode != 0:
+            print(f"  Attempt {attempt}: gh upload exit {up.returncode}: {up.stderr.strip()[:200]}")
+            continue
+
+        # Upload claimed success — VERIFY the asset is actually listed.
+        # The rare failure mode (silent on Jun 11) returns 0 but asset never lands.
+        time.sleep(3)  # GH backend needs a moment to register the asset
+        if _asset_present_on_release(release_tag, asset_name):
+            print(f"  ✓ Uploaded + verified: {asset_name} listed on {release_tag}")
+            print(f"  ✓ Audio URL: {public_url}")
+            return True
+        print(f"  Attempt {attempt}: upload returned 0 but asset NOT listed on release; retrying")
+
+    # All attempts exhausted.
+    _notify_failure(
+        f"Podcast audio upload FAILED ({date_str})",
+        (f"After {max_attempts} attempts, {asset_name} was not present on "
+         f"GitHub Release {release_tag}.\n\n"
+         f"The local m4a is at:\n  {audio_path}\n\n"
+         f"To recover manually:\n"
+         f"  gh release upload {release_tag} {audio_path} --clobber\n\n"
+         f"Then bump the GUID for {date_str} in site/src/pages/podcast.xml.ts so Spotify refetches."),
+    )
+    return False
+
+print("\nUploading audio to GitHub Release (with retry + verify)...")
+RELEASE_TAG = f"podcasts-{date_str[:7]}"
+UPLOAD_OK = False
+try:
+    UPLOAD_OK = upload_audio_with_retry(RELEASE_TAG, AUDIO_PATH)
 except FileNotFoundError:
     print("  WARN: gh CLI not installed — skipping audio upload. Episode .html is committed; audio stays local-only.")
-except subprocess.CalledProcessError as e:
-    print(f"  WARN: gh release create failed: {e.stderr.strip()[:200] if e.stderr else e}")
+    _notify_failure(
+        f"Podcast upload skipped — gh CLI missing ({date_str})",
+        f"The `gh` CLI is not on PATH. Audio at {AUDIO_PATH} did not reach GitHub Releases.",
+    )
 except Exception as e:
-    print(f"  WARN: unexpected upload error: {e}")
+    print(f"  ERROR: unexpected upload error: {e}")
+    _notify_failure(
+        f"Podcast upload error ({date_str})",
+        f"Unexpected exception during upload:\n{e}\n\nLocal audio: {AUDIO_PATH}",
+    )
 
 # ── Cleanup notebook ──────────────────────────────────────────────────────────
 
@@ -528,3 +627,11 @@ if cfg.get("delete_notebook_after_download", True):
 print(f"\n✓ Done. Episode #{EPISODE_NUMBER} ready at {EP_DIR}/")
 print(f"  • Audio: {AUDIO_PATH.name}")
 print(f"  • Notes: {HTML_PATH.name}  (paste source for Substack)")
+
+# Defense-in-depth: if the upload step failed persistently, exit non-zero so
+# the cron's outer `|| notify` wrapper catches it as a second-layer alert.
+# The html note + local m4a are still on disk, so a re-run with --force will
+# replay generation and upload cleanly.
+if not UPLOAD_OK:
+    print(f"  ✗ Audio upload to GitHub Release FAILED — see notify alerts.")
+    sys.exit(2)
