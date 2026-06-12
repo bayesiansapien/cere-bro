@@ -11,13 +11,13 @@ import type { APIRoute } from 'astro';
 import wiki from '../data/wiki.json';
 
 const SHOW = {
-  title:       'Cerebro Radio',
-  subtitle:    'Daily one-hour AI research synthesis',
-  description: 'A daily ~45 minute deep-dive podcast on AI research. Each episode is automatically generated from the day\'s digest plus every wiki summary it cross-links plus the social-stream syntheses. The hosts identify 2–4 themes from the day\'s material and walk through them as one connected story, not a paper-by-paper roundup. Built around an attention hierarchy: AI routing, KV cache, model compression, GPU optimization get the deepest coverage; LLMs, agents, responsible AI get standard treatment; vision/audio/video get lighter touch.',
-  author:      'cere-bro',
+  title:       '{{PODCAST_NAME}}',
+  subtitle:    'Daily AI research synthesis',
+  description: 'A daily deep-dive podcast on AI research. Each episode is automatically generated from the day\'s digest plus every wiki summary it cross-links plus the social-stream syntheses. The hosts identify 2–4 themes from the day\'s material and walk through them as one connected story, not a paper-by-paper roundup.',
+  author:      '{{WIKI_NAME}}',
   owner: {
-    name:  'Amit Bhatti',
-    email: 'amit02093@gmail.com',
+    name:  '{{OWNER_NAME}}',
+    email: '{{OWNER_EMAIL}}',
   },
   // Top-level + secondary iTunes categories. Spotify reads <itunes:category>.
   category:    'Technology',
@@ -27,7 +27,7 @@ const SHOW = {
   // The full public URL of the site + feed are derived from Astro.url at request time.
 };
 
-const SITE_URL  = 'https://bayesiansapien.github.io/cere-bro';
+const SITE_URL  = 'https://{{GITHUB_USERNAME}}.github.io/{{WIKI_NAME}}';
 const FEED_URL  = `${SITE_URL}/podcast.xml`;
 const COVER_URL = `${SITE_URL}/podcast-cover.png`;
 
