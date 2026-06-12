@@ -1,0 +1,735 @@
+{
+  "date": "2026-06-12",
+  "slot": "evening",
+  "scraped_ist": "2026-06-12 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "x.com/i/article/206517805767…",
+          "link": "https://nitter.net/AustinJustice/status/2065443541292048584#m",
+          "date_utc": "2026-06-12T14:38:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Learn more about self-hosted code sandboxes with these and other providers in the Claude Managed Agents docs: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2065494482460836183#m",
+          "date_utc": "2026-06-12T18:00:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKocCXebQAAEX_-.png"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes#environment-worker",
+              "content": "Self-hosted sandboxes - Claude API Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K First steps Overview Quickstart Prototype in Console Define your agent Agent setup Tools MCP connector Permission policies Agent Skills Configure agent environment Cloud environment setup Cloud sandbox reference Self-hosted sandboxes  Integration guide Security model Delegate work to your agent Start a session Session operations Session event st"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Managed Agents can operate in a sandbox you control, on your own infrastructure or with any provider you choose. Today we added new guides for @blaxelAI , @e2b , @googlecloud , @namespacelabs , and @superserve_ai , so you can choose the best fit for your use case. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2065494480837583297#m",
+          "date_utc": "2026-06-12T18:00:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065494180869398528%2Fimg%2FZk_My_A9jZr8ExfS.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "People forget the dark days of X. Back when @elonmusk bought Twitter so many left, going over to new social networks. So many wrote me and said \"you should quit X, it's over.\" Where are they now? Congrats to the employees who survived those dark days. I have a list of them all, many who are millionaires today: nitter.net/i/lists/19017902632926… I've been here 19 years, and see a whole range of things that are still to come. Someday over next decade your autonomous car will tell you what's happening on X. Maybe an Optimus robot will be sitting next to you telling you about a new startup that ju",
+          "link": "https://nitter.net/Scobleizer/status/2065476702634152343#m",
+          "date_utc": "2026-06-12T16:49:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/pbs.twimg.com%2Flist_banner_img%2F1905668080518516736%2Fj4rOPKcl%3Fformat%3Djpg%26name%3Dorig",
+            "https://nitter.net/pic/media%2FHKn8oClXsAIRlE6.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Great job, @DOLOIG . Keep delivering for Americans. 🇺🇸 Inspector General Anthony D'Esposito (@USLaborIG) #FraudFriday ✅ Inmate ID's stolen to collect UI benefits. ✅ A family cover-up to obstruct a federal fraud investigation. ✅ A repeat offender running a $221K fraud scheme. @DOLOIG is working w/ @VP 's @WHFraudTF to hunt down fraudsters, recover dollars, and protect Americans. Video — https://nitter.net/USLaborIG/status/2065470918843847060#m",
+          "link": "https://nitter.net/WHFraudTF/status/2065474676864786862#m",
+          "date_utc": "2026-06-12T16:41:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065467628391444480%2Fimg%2FVAFe1LWRNRie4-lp.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "It's really nice to have a local Kimi, this is as good as the best models just 6 months ago, and you know nobody can take it away from you or stop you from finetuning so it'll never refuse your requests. With this cranked to 1000 tok/s it might even be the best experience.",
+          "link": "https://nitter.net/__tinygrad__/status/2065472578031161579#m",
+          "date_utc": "2026-06-12T16:33:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Up and benchmarking itself on 4xMI300X (this is with vLLM). Memory bandwidth says we should be able to go so much faster. Kimi.ai (@Kimi_Moonshot) 🌘 Kimi-K2.7-Code, our latest coding model, is now released and open-sourced! 🔷 Improved coding & agent performance over K2.6: +21.8% on Kimi Code Bench v2, +11.0% on Program Bench, and +31.5% on MLS Bench Lite. 🔷 Reasoning efficiency: Less overthinking, with 30% lower reasoning-token usage compared to K2.6. 🔷 Long-horizon coding: Improved instruction following, higher end-to-end coding task success rates. ⚡️ 6x High-Speed Mode coming soon! 🔌 Availab",
+          "link": "https://nitter.net/__tinygrad__/status/2065471897656299700#m",
+          "date_utc": "2026-06-12T16:30:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKoHMNfbEAARHkX.png",
+            "https://nitter.net/pic/media%2FHKmxoVmagAAJKj8.jpg",
+            "https://nitter.net/pic/media%2FHKmxpGYaUAAstZB.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kimi.com/code",
+              "content": "Kimi Code with K2.7 Code: Next-Gen AI Code Agent CLI Kimi Code Member benefits Docs Console K2.7 Code is now updated Try Now Kimi Code A coding-focused perk of the Kimi membership, engineered to drop into any dev workflow, answer faster and more reliably, and get programming tasks done in record time. Get Kimi Code curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash Copy Get started User guide One subscription, code anywhere Terminal IDE Kimi CLI Welcome to Kimi Code CLI! Send /help for help information. Model: kimi-for-coding (powered by K2.7 Code) moonshot@KimiCode 🚀 introduce your self introduce your self ● The user is asking me to introduce myself. This is a simple greeting/question that doesn&#39;t involve any file operations or tool usage. I should simply respond directly in"
+            },
+            {
+              "url": "https://platform.moonshot.ai",
+              "content": "Kimi API Platform Platform Documentation Pricing Contact Sales Developer Console User Center 🎉 Kimi K2.7 Code model has been officially released, Kimi&#x27;s strongest Coding model. Limited-time promotion in progress . Kimi LLM Open Platform Build with Kimi API Transform energy into intelligence Get Started Trusted by millions of professional developers Latest Models Built for tasks of any scale—delivering fast, reliable performance with high quality results. K2.7 Code Kimi K2.7 Code, our most capable coding model to date. It follows instructions more reliably in long contexts, completes coding tasks with higher success rates. Cache Hit $0.19 / MTok Input $0.95 / MTok Output $4.00 / MTok K2.6 kimi-k2.6 is Kimi&#x27;s latest and most intelligent model, possessing stronger and more stable lo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Shaun Maguire (@shaunmmaguire) This is good advice 🤣🚀 — https://nitter.net/shaunmmaguire/status/2065463175135326721#m",
+          "link": "https://nitter.net/brivael/status/2065508976259936519#m",
+          "date_utc": "2026-06-12T18:58:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Victor Ferry Business & News PhD (@mrvicfer) Lui ne nous vole rien, il apporte des outils et des produits géniaux ainsi que de l'espoir. Les gauchistes eux ne sont qu'une nuisance, intellectuelle et financière. — https://nitter.net/mrvicfer/status/2065500169156678042#m",
+          "link": "https://nitter.net/brivael/status/2065508875504320785#m",
+          "date_utc": "2026-06-12T18:57:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Breaking: Elizabeth Warren and AOC announce the creation of a charity to support billionaires in need, now victims of the wealth gap separating them from trillionaires. \"No one should own a thousand times less than their neighbor,\" Warren declared, visibly moved, while AOC unveiled her new \"Tax the 0.0001%\" dress. 🇦🇪 HGS (@Sajwani) Anyone checked on AOC and Elizabeth Warren today ? 🤣 — https://nitter.net/Sajwani/status/2065489202092101776#m",
+          "link": "https://nitter.net/brivael/status/2065507942821163059#m",
+          "date_utc": "2026-06-12T18:54:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pendant des décennies, le jeu était simple : signaler la vertu en public, faire le mal en privé. Financer des ONG « bienfaisantes » qui détruisent les cultures qu'elles prétendent sauver. Financer des médias qui mentent à longueur de journée, qui ont couvert les grooming gangs pendant des années par lâcheté idéologique, qui ont préparé le terrain culturel où un prof comme Samuel Paty pouvait être décapité pour avoir enseigné la liberté d'expression. Acheter la compassion du peuple avec du greenwashing, pendant qu'en privé, vous n'en avez absolument rien à foutre. Brivael Le Pogam (@brivael) No",
+          "link": "https://nitter.net/brivael/status/2065506958615216300#m",
+          "date_utc": "2026-06-12T18:50:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065505239118327808%2Fimg%2FKhJeQHMVbn7fmwng.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Never bet against Elon. Le message à tous les milliardaires de cette planète est limpide. Ceux qui financent la manipulation de masse pour asseoir leur pouvoir, ceux qui achètent les médias, les ONG, les institutions : votre modèle vient de mourir en direct. L'homme que vous avez essayé d'étrangler financièrement vaut maintenant plus que vous tous. Brivael Le Pogam (@brivael) Novembre 2023. Le PDG de Disney retire ses pubs de X pour faire plaisir à la meute. Elon Musk, en direct, devant le monde entier : « Go fuck yourself. » Tout le monde a cru à un coup de sang. C'était un tipping point. Ce ",
+          "link": "https://nitter.net/brivael/status/2065506936217584006#m",
+          "date_utc": "2026-06-12T18:50:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065505239118327808%2Fimg%2FKhJeQHMVbn7fmwng.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "democrats are dead they don't know how to create value they know how to capture value and enslave citizen they are fucked Mike Solana (@micsolana) odd I don’t see any of the “abundance democrats” posting about the combined spaceflight / satellite constellation and telecommunications / AI company today, which is experiencing the largest IPO in human history — I would have thought they’d be excited! — https://nitter.net/micsolana/status/2065454168266186816#m",
+          "link": "https://nitter.net/brivael/status/2065506775735169198#m",
+          "date_utc": "2026-06-12T18:49:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bientôt les 600 M de vues / + 15k followers en 48h. Un seul conseil : Publie, sans filtre, ce que tu penses être la vérité. Apprends, affine, puis repars à l’étape 1. Mets ton ego de côté et essaye de remettre en cause ce que tu penses, et pourquoi tu le penses.",
+          "link": "https://nitter.net/brivael/status/2065506209143435556#m",
+          "date_utc": "2026-06-12T18:47:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKomgkMaYAAcKhE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "don't think post Pierre-Louis Biojout (PLB) (@plbiojout) My X account went from dead to almost 1M monthly impressions in 4 months. What changed: I stopped thinking. No content calendar. No hook formulas. No algorithm theories. An idea crosses my mind, I tweet it. Same energy as texting the group chat. Each tweet takes me a few seconds. And the less I overthink, the harder it grows. You can see the exact week I let go on the chart. You should post more. Two reasons: 1. Writing in public forces you to formalize your thinking. A vague idea does not survive a tweet box. 2. Posting expands your sur",
+          "link": "https://nitter.net/brivael/status/2065505470669107407#m",
+          "date_utc": "2026-06-12T18:44:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKokEDjacAA3u5e.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Novembre 2023. Le PDG de Disney retire ses pubs de X pour faire plaisir à la meute. Elon Musk, en direct, devant le monde entier : « Go fuck yourself. » Tout le monde a cru à un coup de sang. C'était un tipping point. Ce jour-là, Musk a dit tout haut ce que personne n'osait formuler : vous ne m'achèterez pas. Ni avec votre argent publicitaire, ni avec votre chantage moral, ni avec vos campagnes de presse. Le boycott était censé le mettre à genoux. Il a préféré perdre des milliards plutôt que de céder un centimètre sur la liberté d'expression. Pendant des décennies, le jeu était simple : signal",
+          "link": "https://nitter.net/brivael/status/2065505394500481180#m",
+          "date_utc": "2026-06-12T18:43:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065505239118327808%2Fimg%2FKhJeQHMVbn7fmwng.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "i love america!!! Marc Andreessen 🇺🇸 (@pmarca) God bless America. — https://nitter.net/pmarca/status/2065498029193416997#m",
+          "link": "https://nitter.net/brivael/status/2065503831576961172#m",
+          "date_utc": "2026-06-12T18:37:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"On parle à leur place, puis on leur reproche de ne pas être d'accord avec leur propre porte-parole.\" Brivael Le Pogam (@brivael) On va m'accuser de racisme pour ce qui suit. Lisez jusqu'au bout : c'est le seul texte authentiquement antiraciste que vous lirez cette semaine. Voici la démonstration, en trois preuves, que grouper les gens n'a aucun sens. Pas moralement. Logiquement. Preuve numéro un : la variance. Prenez n'importe quel groupe : les Noirs, les Blancs, les Juifs, les femmes, les Asiatiques, les gays, les hétéros. Mesurez n'importe quoi : intelligence, valeurs, ambition, goûts, opin",
+          "link": "https://nitter.net/brivael/status/2065503666497589718#m",
+          "date_utc": "2026-06-12T18:37:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "“Woke isn’t broke” 😂😂😂 It is, bro. The best entrepreneur of human history has now a 1T hammer to destroy this awful ideology. Wokism is a zombie 🧟‍♂️ And Elon is about to obliterate this with truth, not the construction of “truth” based on false premises. But honestly, I respect the man who’s still supporting shit wokism now; it requires courage to be seen like a complete clown 🤡 😂 Brivael Le Pogam (@brivael) Elon is the a bullshit remover machine. If you hate Elon, you are probably a bullshit human. Go learn to create value in this world. — https://nitter.net/brivael/status/206546871501003621",
+          "link": "https://nitter.net/brivael/status/2065502540247282010#m",
+          "date_utc": "2026-06-12T18:32:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKojnR7bEAAqvSm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon mindset about empire of lies. Brivael Le Pogam (@brivael) All medias in the world. — https://nitter.net/brivael/status/2065496340529082626#m",
+          "link": "https://nitter.net/brivael/status/2065500892808499707#m",
+          "date_utc": "2026-06-12T18:26:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKoiDKBaEAAdEjp.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "should have said \"might be\" thanks @stochasticchasm for the correction maybe they don't train on all the data but they mention \"scale pre-training data to 100T+ token\" in the announcment blog elie (@eliebakouch) nitter.net/eliebakouch/status/206… here, also i'm assuming they train on all the data, but maybe this is not the case — https://nitter.net/eliebakouch/status/2065494490559766757#m",
+          "link": "https://nitter.net/eliebakouch/status/2065495445376319794#m",
+          "date_utc": "2026-06-12T18:04:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "only fitted the chinese labs \"flagship\" models here (arbitrary cutoff at 400B+ params). biggest open model from the US is Nemotron 3 Ultra which is not that far, without their training instabilities they could have been much higher (microsoft MAI is also close but not open) the fit (that is a bit weak tho) also shows pre training flops doubling every 8.2 months minimax M3 is even more impressive if you look at training tokens vs active params, sitting alone in its quadrant with 4.3k tokens per parameter. the model is multimodal which explains the high training token count, but still super impr",
+          "link": "https://nitter.net/eliebakouch/status/2065493633965404382#m",
+          "date_utc": "2026-06-12T17:57:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKoao2XXMAAyAwS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "Minimax M3 is the biggest open source model in terms of pre training compute with 1.38x10^25 FLOPs naive formula for compute is C=6ND N = 23B (active parameters) D = 100T (number of training tokens) MiniMax (official) (@MiniMax_AI) MiniMax M3, Open-Weight, Now On Hugging Face , with only ~428B parameters and ~23B activated parameters Weights: huggingface.co/MiniMaxAI/Min… MiniMax Sparse Attention: huggingface.co/papers/2606.1… — https://nitter.net/MiniMax_AI/status/2065436935188058208#m",
+          "link": "https://nitter.net/eliebakouch/status/2065490979524653224#m",
+          "date_utc": "2026-06-12T17:46:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKoYzWhXAAAO6dG.jpg",
+            "https://nitter.net/pic/card_img%2F2065433987779092480%2F-pDuUfdj%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+              "content": "MiniMaxAI/MiniMax-M3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up [' -%}\\n{%- set bod_token = ']~!b[' -%}\\n{%- set bos_token = ']~b]' -%}\\n{%- set eos_token = '[e~[' -%}\\n{%- set toolcall_begin_token = ns_token ~ ' tool_call>' -%}\\n{%- set toolcall_end_token = ns_token ~ ' /tool_call>' -%}\\n{%- set think_begin_token = ' mm:think>' -%}\\n{%- set think_end_token = ' /mm:think>' -%}\\n{%- set image_token = '] ]image[>[' -%}\\n{%- set video_token = '] ]video[>[' -%}\\n{#- Thinking mode: \\ enabled\\ / \\ dis"
+            },
+            {
+              "url": "https://huggingface.co/papers/2606.13392",
+              "content": "Paper page - MiniMax Sparse Attention Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up our high-performance MSA kernel library is now open-source /p>\\n , updatedAt : 2026-06-12T05:29:37.362Z , author :{ _id : 673463f29cb2775fbe62a626 , avatarUrl : https://cdn-avatars.huggingface.co/v1/production/uploads/673463f29cb2775fbe62a626/64k_zEitiRQD_U002ojyy.jpeg , fullname : Ryanlee , name : ryanlee-dev , type : user , isPro :false, isHf :false, isHfAdmin :false, isMod :false, followerCount :37, isUserFollowing :false, prim"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "(and obviously all the infra like DeepEP etc. that are probably as impactful if not more than the research papers)",
+          "link": "https://nitter.net/eliebakouch/status/2065418527184498769#m",
+          "date_utc": "2026-06-12T12:58:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "only included the model releases of the deepseek series, so there is also janus, and research papers like NSA, Engram, mHC, and others that i'm likely forgetting not saying this is why there was a \"deepseek moment\" (people who discovered deepseek via mainstream media etc.. are not really the target for research papers), but it's just a bit frustrating to reduce deepseek research to \"distilling other models\"",
+          "link": "https://nitter.net/eliebakouch/status/2065417291412468069#m",
+          "date_utc": "2026-06-12T12:53:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "yeah sure must be this, and also maybe 3 years of open research and development DeepSeek LLM (2023) arxiv.org/abs/2401.02954 DeepSeek-Coder (2023) arxiv.org/abs/2401.14196 DeepSeekMoE (2024) arxiv.org/abs/2401.06066 DeepSeekMath (2024) arxiv.org/abs/2402.03300 DeepSeek-VL (2024) arxiv.org/abs/2403.05525 DeepSeek-V2 (2024) arxiv.org/abs/2405.04434 DeepSeek-Prover (2024) arxiv.org/abs/2405.14333 DeepSeek-Coder-V2 (2024) arxiv.org/abs/2406.11931 DeepSeek-Prover-V1.5 (2024) arxiv.org/abs/2408.08152 DeepSeek-VL2 (2024) arxiv.org/abs/2412.10302 DeepSeek-V3 (2024) arxiv.org/abs/2412.19437 DeepSeek-R1",
+          "link": "https://nitter.net/eliebakouch/status/2065416179582136479#m",
+          "date_utc": "2026-06-12T12:49:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKnUJ0yXoAAgJu4.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2401.02954",
+              "content": "Abstract: The rapid development of open-source large language models (LLMs) has been truly remarkable. However, the scaling law described in previous literature presents varying conclusions, which casts a dark cloud over scaling LLMs. We delve into the study of scaling laws and present our distinctive findings that facilitate scaling of large scale models in two commonly used open-source configurations, 7B and 67B. Guided by the scaling laws, we introduce DeepSeek LLM, a project dedicated to advancing open-source language models with a long-term perspective. To support the pre-training phase, we have developed a dataset that currently consists of 2 trillion tokens and is continuously expanding. We further conduct supervised fine-tuning (SFT) and Direct Preference Optimization (DPO) on Deep"
+            },
+            {
+              "url": "https://arxiv.org/abs/2401.14196",
+              "content": "Abstract: The rapid development of large language models has revolutionized code intelligence in software development. However, the predominance of closed-source models has restricted extensive research and development. To address this, we introduce the DeepSeek-Coder series, a range of open-source code models with sizes from 1.3B to 33B, trained from scratch on 2 trillion tokens. These models are pre-trained on a high-quality project-level code corpus and employ a fill-in-the-blank task with a 16K window to enhance code generation and infilling. Our extensive evaluations demonstrate that DeepSeek-Coder not only achieves state-of-the-art performance among open-source code models across multiple benchmarks but also surpasses existing closed-source models like Codex and GPT-3.5. Furthermore,"
+            },
+            {
+              "url": "https://arxiv.org/abs/2401.06066",
+              "content": "Abstract: In the era of large language models, Mixture-of-Experts (MoE) is a promising architecture for managing computational costs when scaling up model parameters. However, conventional MoE architectures like GShard, which activate the top-$K$ out of $N$ experts, face challenges in ensuring expert specialization, i.e. each expert acquires non-overlapping and focused knowledge. In response, we propose the DeepSeekMoE architecture towards ultimate expert specialization. It involves two principal strategies: (1) finely segmenting the experts into $mN$ ones and activating $mK$ from them, allowing for a more flexible combination of activated experts; (2) isolating $K_s$ experts as shared ones, aiming at capturing common knowledge and mitigating redundancy in routed experts. Starting from a m"
+            },
+            {
+              "url": "https://arxiv.org/abs/2402.03300",
+              "content": "Abstract: Mathematical reasoning poses a significant challenge for language models due to its complex and structured nature. In this paper, we introduce DeepSeekMath 7B, which continues pre-training DeepSeek-Coder-Base-v1.5 7B with 120B math-related tokens sourced from Common Crawl, together with natural language and code data. DeepSeekMath 7B has achieved an impressive score of 51.7% on the competition-level MATH benchmark without relying on external toolkits and voting techniques, approaching the performance level of Gemini-Ultra and GPT-4. Self-consistency over 64 samples from DeepSeekMath 7B achieves 60.9% on MATH. The mathematical reasoning capability of DeepSeekMath is attributed to two key factors: First, we harness the significant potential of publicly available web data through a "
+            },
+            {
+              "url": "https://arxiv.org/abs/2403.05525",
+              "content": "Abstract: We present DeepSeek-VL, an open-source Vision-Language (VL) Model designed for real-world vision and language understanding applications. Our approach is structured around three key dimensions: We strive to ensure our data is diverse, scalable, and extensively covers real-world scenarios including web screenshots, PDFs, OCR, charts, and knowledge-based content, aiming for a comprehensive representation of practical contexts. Further, we create a use case taxonomy from real user scenarios and construct an instruction tuning dataset accordingly. The fine-tuning with this dataset substantially improves the model&#39;s user experience in practical applications. Considering efficiency and the demands of most real-world scenarios, DeepSeek-VL incorporates a hybrid vision encoder that e"
+            },
+            {
+              "url": "https://arxiv.org/abs/2405.04434",
+              "content": "Abstract: We present DeepSeek-V2, a strong Mixture-of-Experts (MoE) language model characterized by economical training and efficient inference. It comprises 236B total parameters, of which 21B are activated for each token, and supports a context length of 128K tokens. DeepSeek-V2 adopts innovative architectures including Multi-head Latent Attention (MLA) and DeepSeekMoE. MLA guarantees efficient inference through significantly compressing the Key-Value (KV) cache into a latent vector, while DeepSeekMoE enables training strong models at an economical cost through sparse computation. Compared with DeepSeek 67B, DeepSeek-V2 achieves significantly stronger performance, and meanwhile saves 42.5% of training costs, reduces the KV cache by 93.3%, and boosts the maximum generation throughput to 5"
+            },
+            {
+              "url": "https://arxiv.org/abs/2405.14333",
+              "content": "Abstract: Proof assistants like Lean have revolutionized mathematical proof verification, ensuring high accuracy and reliability. Although large language models (LLMs) show promise in mathematical reasoning, their advancement in formal theorem proving is hindered by a lack of training data. To address this issue, we introduce an approach to generate extensive Lean 4 proof data derived from high-school and undergraduate-level mathematical competition problems. This approach involves translating natural language problems into formal statements, filtering out low-quality statements, and generating proofs to create synthetic data. After fine-tuning the DeepSeekMath 7B model on this synthetic dataset, which comprises 8 million formal statements with proofs, our model achieved whole-proof genera"
+            },
+            {
+              "url": "https://arxiv.org/abs/2406.11931",
+              "content": "Abstract: We present DeepSeek-Coder-V2, an open-source Mixture-of-Experts (MoE) code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks. Specifically, DeepSeek-Coder-V2 is further pre-trained from an intermediate checkpoint of DeepSeek-V2 with additional 6 trillion tokens. Through this continued pre-training, DeepSeek-Coder-V2 substantially enhances the coding and mathematical reasoning capabilities of DeepSeek-V2, while maintaining comparable performance in general language tasks. Compared to DeepSeek-Coder-33B, DeepSeek-Coder-V2 demonstrates significant advancements in various aspects of code-related tasks, as well as reasoning and general capabilities. Additionally, DeepSeek-Coder-V2 expands its support for programming languages from 86 to 338, whil"
+            },
+            {
+              "url": "https://arxiv.org/abs/2408.08152",
+              "content": "Abstract: We introduce DeepSeek-Prover-V1.5, an open-source language model designed for theorem proving in Lean 4, which enhances DeepSeek-Prover-V1 by optimizing both training and inference processes. Pre-trained on DeepSeekMath-Base with specialization in formal mathematical languages, the model undergoes supervised fine-tuning using an enhanced formal theorem proving dataset derived from DeepSeek-Prover-V1. Further refinement is achieved through reinforcement learning from proof assistant feedback (RLPAF). Beyond the single-pass whole-proof generation approach of DeepSeek-Prover-V1, we propose RMaxTS, a variant of Monte-Carlo tree search that employs an intrinsic-reward-driven exploration strategy to generate diverse proof paths. DeepSeek-Prover-V1.5 demonstrates significant improvement"
+            },
+            {
+              "url": "https://arxiv.org/abs/2412.10302",
+              "content": "Abstract: We present DeepSeek-VL2, an advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improves upon its predecessor, DeepSeek-VL, through two key major upgrades. For the vision component, we incorporate a dynamic tiling vision encoding strategy designed for processing high-resolution images with different aspect ratios. For the language component, we leverage DeepSeekMoE models with the Multi-head Latent Attention mechanism, which compresses Key-Value cache into latent vectors, to enable efficient inference and high throughput. Trained on an improved vision-language dataset, DeepSeek-VL2 demonstrates superior capabilities across various tasks, including but not limited to visual question answering, optical character recognition, document/table/ch"
+            },
+            {
+              "url": "https://arxiv.org/abs/2412.19437",
+              "content": "Abstract: We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparab"
+            },
+            {
+              "url": "https://arxiv.org/abs/2501.12948",
+              "content": "Abstract: General reasoning represents a long-standing and formidable challenge in artificial intelligence. Recent breakthroughs, exemplified by large language models (LLMs) and chain-of-thought prompting, have achieved considerable success on foundational reasoning tasks. However, this success is heavily contingent upon extensive human-annotated demonstrations, and models&#39; capabilities are still insufficient for more complex problems. Here we show that the reasoning abilities of LLMs can be incentivized through pure reinforcement learning (RL), obviating the need for human-labeled reasoning trajectories. The proposed RL framework facilitates the emergent development of advanced reasoning patterns, such as self-reflection, verification, and dynamic strategy adaptation. Consequently, th"
+            },
+            {
+              "url": "https://arxiv.org/abs/2504.21801",
+              "content": "Abstract: We introduce DeepSeek-Prover-V2, an open-source large language model designed for formal theorem proving in Lean 4, with initialization data collected through a recursive theorem proving pipeline powered by DeepSeek-V3. The cold-start training procedure begins by prompting DeepSeek-V3 to decompose complex problems into a series of subgoals. The proofs of resolved subgoals are synthesized into a chain-of-thought process, combined with DeepSeek-V3&#39;s step-by-step reasoning, to create an initial cold start for reinforcement learning. This process enables us to integrate both informal and formal mathematical reasoning into a unified model. The resulting model, DeepSeek-Prover-V2-671B, achieves state-of-the-art performance in neural theorem proving, reaching 88.9% pass ratio on the"
+            },
+            {
+              "url": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf",
+              "content": "DeepSeek-V3.2-Exp/DeepSeek_V3_2.pdf at main · deepseek-ai/DeepSeek-V3.2-Exp · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY US"
+            },
+            {
+              "url": "https://arxiv.org/abs/2510.18234",
+              "content": "Abstract: We present DeepSeek-OCR as an initial investigation into the feasibility of compressing long contexts via optical 2D mapping. DeepSeek-OCR consists of two components: DeepEncoder and DeepSeek3B-MoE-A570M as the decoder. Specifically, DeepEncoder serves as the core engine, designed to maintain low activations under high-resolution input while achieving high compression ratios to ensure an optimal and manageable number of vision tokens. Experiments show that when the number of text tokens is within 10 times that of vision tokens (i.e., a compression ratio &lt; 10x), the model can achieve decoding (OCR) precision of 97%. Even at a compression ratio of 20x, the OCR accuracy still remains at about 60%. This shows considerable promise for research areas such as historical long-context "
+            },
+            {
+              "url": "https://arxiv.org/abs/2511.22570",
+              "content": "Abstract: Large language models have made significant progress in mathematical reasoning, which serves as an important testbed for AI and could impact scientific research if further advanced. By scaling reasoning with reinforcement learning that rewards correct final answers, LLMs have improved from poor performance to saturating quantitative reasoning competitions like AIME and HMMT in one year. However, this approach faces fundamental limitations. Pursuing higher final answer accuracy doesn&#39;t address a key issue: correct answers don&#39;t guarantee correct reasoning. Moreover, many mathematical tasks like theorem proving require rigorous step-by-step derivation rather than numerical answers, making final answer rewards inapplicable. To push the limits of deep reasoning, we believe it"
+            },
+            {
+              "url": "https://arxiv.org/abs/2512.02556",
+              "content": ""
+            },
+            {
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+              "content": "DeepSeek_V4.pdf · deepseek-ai/DeepSeek-V4-Pro at main Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , lstrip :false, normalized :true, rstrip :false, single_word :false}, eos_token :{ __type : AddedToken , content : ｜end▁of▁sentence｜> , lstrip :false, normalized :true, rstrip :false, single_word :false}, pad_token :{ __type : AddedToken , content : ｜end▁of▁sentence｜> , lstrip :false, normalized :true, rstrip :false, single_word :false}, unk_token :null}}, createdAt : 2026-04-22T06:04:45.000Z , discussionsDisabled"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Two new coding models and a sold-out token plan this week in Kilo. Kimi K2.7 Code from Moonshot, Claude Fable 5 topping our coding benchmarks, and the MiniMax token plans selling out fast enough to need a new batch already.",
+          "link": "https://nitter.net/kilocode/status/2065482611091177624#m",
+          "date_utc": "2026-06-12T17:13:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKoRUY_WsAAfJNl.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Full experiment from @TheBinaryNeuron on the blog: blog.kilo.ai/p/sota-models-s… What is the most overengineered fix a model has handed you?",
+          "link": "https://nitter.net/kilocode/status/2065395519841501352#m",
+          "date_utc": "2026-06-12T11:27:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2065395523918458881%2F06KlqcSI%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/sota-models-should-learn-to-kiss",
+              "content": "SOTA Models Should Learn to KISS (Fable 5 Experiment) Kilo Blog Subscribe Sign in SOTA Models Should Learn to KISS (Fable 5 Experiment) Darko Jun 11, 2026 5 3 Share One thing I keep noticing with the latest coding models is that their mistakes are getting more… interesting. With older AI models, it was pretty easy to spot a mistake. The model hallucinated an API, misunderstood the framework, wrote code that did not compile, or confidently worked on the wrong part of the app. You could reject its suggestions quickly because the problem was pretty obvious to spot. With newer models like Claude Fable 5, the failure modes are more subtle. The setup I kept seeing overhyped claims about how Fable 5 can one-shot 3D games, cool graphics , animations, etc. A lot of people use Claude models for codi"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "And this pattern keeps showing up. Researchers have documented it, engineers keep posting about it, and Anthropic's own prompting docs note that recent Claude models tend to add abstractions nobody asked for. One theory: benchmarks reward complex tasks, complex tasks need patterns, and simple apps pay the tax.",
+          "link": "https://nitter.net/kilocode/status/2065395518365131261#m",
+          "date_utc": "2026-06-12T11:27:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "It lived on one page. The simplest correct fix was a single line: revalidatePath(\"/products\"). The model picked the scalable abstraction before considering the smallest change that matched the problem.",
+          "link": "https://nitter.net/kilocode/status/2065395516091871292#m",
+          "date_utc": "2026-06-12T11:27:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKnB-a1X0AABHej.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Fable 5 diagnosed it correctly and reached for tag-based revalidation: tag the fetch, call revalidateTag(\"products\") in the POST handler. Scalable, clean, and exactly what you would want if product data lived across a dozen routes.",
+          "link": "https://nitter.net/kilocode/status/2065395513675948182#m",
+          "date_utc": "2026-06-12T11:27:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKnBzWdWIAA5fqU.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The bug lived in the gap between those choices. /products cached its read for 60 seconds, but the admin write path never invalidated that cache. Add a product, head back to the listing, and sometimes the new item simply was not there yet.",
+          "link": "https://nitter.net/kilocode/status/2065395511234810183#m",
+          "date_utc": "2026-06-12T11:27:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKnBohxWkAAr-X8.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The setup: a small Next.js app with a product catalog. /products lists items, /admin adds them through an internal API route. Server-rendered page, URL-based filters, a 60 second cache on product reads. Every choice is reasonable in isolation.",
+          "link": "https://nitter.net/kilocode/status/2065395509083185597#m",
+          "date_utc": "2026-06-12T11:27:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKnBQCJWwAAazhi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "SOTA models should learn to KISS. We planted a cache invalidation bug in a small Next.js app and handed it to Claude Fable 5. It found the bug fast. The fix was valid. The instinct behind the fix is the part worth talking about. 🧵",
+          "link": "https://nitter.net/kilocode/status/2065395506440790294#m",
+          "date_utc": "2026-06-12T11:27:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKnAtlgW4AA8oPA.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "lynnmartin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "lynnmartin",
+          "creator": "@lynnmartin",
+          "text": "Always fun spending time chatting about bringing the American Dream to the next generation with @altcap Brad Gerstner (@altcap) CNBC live from @NYSE . @TrumpAccounts @InvestAmerica24 @lynnmartin — https://nitter.net/altcap/status/2065458847909576848#m",
+          "link": "https://nitter.net/lynnmartin/status/2065489065902784920#m",
+          "date_utc": "2026-06-12T17:39:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKn73R8WkAA72Z8.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "History books will write about Elon Musk like they wrote about Leonardo Da Vinci",
+          "link": "https://nitter.net/ns123abc/status/2065486789360406894#m",
+          "date_utc": "2026-06-12T17:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🔗 Learn more: nvda.ws/4uAfgop",
+          "link": "https://nitter.net/nvidia/status/2065464148494798993#m",
+          "date_utc": "2026-06-12T16:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2065464159286726656%2F4yhDRXrW%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uAfgop",
+              "content": "Government-Ready AI Software for Global Public Sector | NVIDIA NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) C"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "What if compliance wasn't the reason your AI initiative never made it past the pilot stage? 🔒 NVIDIA AI Enterprise's government-ready software gives teams around the world a secure, production-ready foundation — so they can focus on deploying AI, not managing vulnerabilities.",
+          "link": "https://nitter.net/nvidia/status/2065464144908713999#m",
+          "date_utc": "2026-06-12T16:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKlEyx0WgAECzYI.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "There are no coincidences. God bless Secretary Turner. Video Scott Turner (@SecretaryTurner) 🚨🧵HUD has suspended fraud-filled LAHSA's funding. @WHFraudTF will not allow taxpayer dollars to fuel the homeless industrial complex. LAHSA poses a threat to the public. See for yourself ⬇️ — https://nitter.net/SecretaryTurner/status/2065438383699014059#m",
+          "link": "https://nitter.net/spencerpratt/status/2065505288761889163#m",
+          "date_utc": "2026-06-12T18:43:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065505123980165121%2Fimg%2FljmvadKhFiS17uGY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Saving LA - Phase III Video",
+          "link": "https://nitter.net/spencerpratt/status/2065480031275544812#m",
+          "date_utc": "2026-06-12T17:03:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2065479178107957248%2Fimg%2FWmSYtdews_asMdps.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
