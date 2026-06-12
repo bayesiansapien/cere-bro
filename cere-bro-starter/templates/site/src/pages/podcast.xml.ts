@@ -1,4 +1,4 @@
-// {{SHOW_NAME}} podcast RSS feed.
+// Cerebro Radio podcast RSS feed.
 // Submitted ONCE to Spotify for Podcasters at https://podcasters.spotify.com.
 // Spotify polls this URL every few hours; new episodes appear in the app
 // automatically within 2–4 hours of the cron uploading the m4a to GitHub
@@ -11,13 +11,13 @@ import type { APIRoute } from 'astro';
 import wiki from '../data/wiki.json';
 
 const SHOW = {
-  title:       '{{SHOW_NAME}}',
+  title:       'Cerebro Radio',
   subtitle:    'Daily one-hour AI research synthesis',
   description: 'A daily ~45 minute deep-dive podcast on AI research. Each episode is automatically generated from the day\'s digest plus every wiki summary it cross-links plus the social-stream syntheses. The hosts identify 2–4 themes from the day\'s material and walk through them as one connected story, not a paper-by-paper roundup. Built around an attention hierarchy: AI routing, KV cache, model compression, GPU optimization get the deepest coverage; LLMs, agents, responsible AI get standard treatment; vision/audio/video get lighter touch.',
-  author:      '{{WIKI_NAME}}',
+  author:      'cere-bro',
   owner: {
-    name:  '{{OWNER_NAME}}',
-    email: '{{OWNER_EMAIL}}',
+    name:  'Amit Bhatti',
+    email: 'amit02093@gmail.com',
   },
   // Top-level + secondary iTunes categories. Spotify reads <itunes:category>.
   category:    'Technology',
@@ -27,7 +27,7 @@ const SHOW = {
   // The full public URL of the site + feed are derived from Astro.url at request time.
 };
 
-const SITE_URL  = 'https://{{GITHUB_USERNAME}}.github.io/{{WIKI_NAME}}';
+const SITE_URL  = 'https://bayesiansapien.github.io/cere-bro';
 const FEED_URL  = `${SITE_URL}/podcast.xml`;
 const COVER_URL = `${SITE_URL}/podcast-cover.png`;
 
@@ -58,13 +58,13 @@ function fmtRfc822(dateIso: string): string {
 export const GET: APIRoute = () => {
   const episodes = (wiki as any).podcasts ?? [];
 
-  // Spotify caches episodes by GUID — once an episode is ingested with a given
-  // GUID, Spotify will NOT re-download the audio even if the m4a at the same
-  // enclosure URL changes. If you ever regenerate an existing episode (different
-  // audio, same date), add an entry here to bump its version so Spotify treats
-  // it as a new episode and refetches.
-  // Example: { '2026-05-30': 2 }
-  const guidVersions: Record<string, number> = {};
+  // Episodes that were re-generated AFTER Spotify already ingested them need
+  // a bumped GUID so Spotify treats the re-upload as a new episode and refetches
+  // the audio. Without this, Spotify caches the first version of the GUID
+  // forever and ignores any audio swap on GitHub Releases. Add a "YYYY-MM-DD: N"
+  // entry here when a regeneration happens.
+  const guidVersions: Record<string, number> = {
+  };
 
   const items = episodes.map((ep: any) => {
     const ver        = guidVersions[ep.date];
@@ -75,7 +75,7 @@ export const GET: APIRoute = () => {
     const epTitle    = ep.episodeNumber
       ? `Episode ${ep.episodeNumber} — ${ep.date}`
       : `Episode ${ep.date}`;
-    const description = ep.teaser || `{{SHOW_NAME}} episode for ${ep.date}.`;
+    const description = ep.teaser || `Cerebro Radio episode for ${ep.date}.`;
     return `
     <item>
       <title>${esc(epTitle)}</title>

@@ -65,6 +65,7 @@ export const GET: APIRoute = () => {
   // entry here when a regeneration happens.
   const guidVersions: Record<string, number> = {
     '2026-05-30': 2,  // regenerated as Saturday weekly review (was a daily-prompt episode)
+    '2026-06-10': 2,  // cron upload silently failed on Jun 11; m4a backfilled to Release on Jun 12 — bump GUID so Spotify refetches
   };
 
   const items = episodes.map((ep: any) => {
