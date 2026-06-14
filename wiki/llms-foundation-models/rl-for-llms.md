@@ -91,6 +91,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 - **Self-distilled dense reward (SDPG, 06-04)**: RLVR's per-trajectory reward is sparse; [SDPG](../inference-efficiency/2026-06-04-sdpg-self-distilled-policy-gradient.md) adds a dense per-token signal via exact full-vocabulary on-policy self-distillation (the model conditions on privileged context to teach itself), combined with group-relative verifier advantage and reference-KL. Self-distillation moves from a crash-recovery trick (MAI-Thinking-1, 06-03) to a first-class auxiliary loss.
 - **Over-thinking is reinforced by outcome RLVR (ThoughtFold, 06-04)**: because RLVR memorizes whole correct trajectories, the trial-and-error detours inside long CoTs get reinforced too. [ThoughtFold](2026-06-04-thoughtfold-folding-reasoning-chains.md) uses introspective preference learning to fold out redundant spans, cutting tokens ~56% at equal accuracy. The reasoning-trace instance of "the signal is sparse and locatable."
 
+- **Rollout diversity on the semantic manifold (N-GRPO, 06-14)**: GRPO needs diverse rollouts, but token-level sampling gives near-duplicate trajectories and random embedding noise breaks semantics. [N-GRPO](2026-06-14-n-grpo-neighbor-mixing-grpo.md) mixes an anchor token's embedding with its nearest semantic neighbors, injecting exploration while staying on the local manifold. Consistent gains on math with DeepSeek-R1-Distill-Qwen plus OOD generalization. The exploration-side complement to verifier-gated trust methods (SG-OPD): make what gets *sampled* better, not just what gets *trusted*.
+
 ## Related Pages
 
 - [Knowledge Distillation](../inference-efficiency/knowledge-distillation.md)
