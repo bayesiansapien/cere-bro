@@ -887,6 +887,8 @@ Append-only timeline of ingests and lint passes.
 ## [2026-06-14] ingest | HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness | huggingface (2606.12882)
 ## [2026-06-14] ingest | Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents | huggingface (2606.12674)
 ## [2026-06-14] ingest | EvoArena + EvoMem: Tracking Memory Evolution for Robust LLM Agents | huggingface (2606.13681)
+## [2026-06-14] ingest | EurekAgent: Agent Environment Engineering Is All You Need | huggingface (2606.13662)
+## [2026-06-14] note | Gap-fill on concurrent-ingest peer's digest: added EurekAgent (2606.13662) summary page + Deep Dive (thesis paper naming "environment engineering" for the day's Evo cluster: EvoArena/Evoflux/EvoBrowseComp/HarnessBridge) + Global View weave. Peer had authored digest, morning social-stream, media-zone, and all other 06-14 summaries (HarnessBridge, Evoflux, N-GRPO, Stationary-Compatible-Reps, EvoArena, EvoBrowseComp). No HF+Kurate arxiv-ID overlap; Kurate weekly board weeks-stale, biomedical/science-FM heavy. Rising authors all biomedical, no Tier-1 handle add. All 8 Reddit subs empty. Twitter morning: 0 curated reposts, feed dominated by Fable/Mythos export-control fallout (Amazon-triggered) + small-model debate. | ops
 ## [2026-06-14] ingest | EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge | huggingface (2606.13120)
 ## [2026-06-14] ingest | N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization | huggingface (2606.10768)
 ## [2026-06-14] ingest | A Stationary (and Therefore Compatible) Representation is All You Need | huggingface (2606.12488)
