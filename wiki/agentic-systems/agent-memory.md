@@ -67,6 +67,10 @@ The 2026-05-15 cluster makes the structural axes explicit:
 - **MemTrain ([06-04](2026-06-04-memtrain-self-supervised-context-memory.md))** removes the data bottleneck. Prior memory agents are RL-trained on scarce, low-diversity annotated tasks. [MemTrain](2026-06-04-memtrain-self-supervised-context-memory.md) trains memory ability self-supervised on raw Wikipedia via two coupled GRPO-optimized proxies: (1) masked reconstruction after several memory-update rounds (outcome-side *maintenance*) and (2) intermediate memory recall (process-side *faithful compression*). +17.67 downstream over task-specific post-training.
 - **Learned memory is colonizing other stacks too.** Echo-Infinity ([06-04](../inference-efficiency/2026-06-04-echo-infinity-evolving-memory-video.md)) replaces handcrafted KV schedules and heuristic compression with a learnable evolving memory state for infinite video at constant cost. Agent text memory and generative visual memory are converging on the same principle: learn the compression/eviction policy end-to-end rather than hand-tuning it.
 
+## Memory must track environment evolution, not just facts (2026-06-14)
+
+- **EvoMem ([06-14](2026-06-14-evoarena-evomem-memory-evolution.md))** reframes the memory problem for dynamic environments. Prior memory work (MemTrain 06-04; the STALE/MemEye line) assumes the world holds still and the job is to recall the right fact. EvoArena (same paper) shows that when the environment changes as a sequence of progressive updates, current agents crater to 39.6% average accuracy. EvoMem stores memory as *structured patch histories* — state n is "state n-1 plus these deltas" — so the agent reasons about change itself, not just current state. Gains: +1.5% EvoArena, +6.1% GAIA, +4.8% LoCoMo, +3.7% chain-level (consecutive evolving subtasks, the hardest setting). This extends "learn the compression policy, don't hand-tune it" to a new axis: represent the deltas, not just the snapshot.
+
 ## Related Pages
 
 - [KV Cache](../inference-efficiency/kv-cache.md) — the short-term, attention-internal sibling
