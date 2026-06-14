@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 32 (2026-06-12)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>32 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-06-12<br> <strong>Run time:</strong> ~45 min</p>
+
+<p>The day's sharpest lever is "spend the minimum compute that still preserves the answer," and it shows up three times: routing rejected tokens to a slim verifier, selecting only the attention blocks that matter, and gating a teacher signal by a verifier instead of trusting it whole.</p>
+
+<p><strong>In this episode</strong> - <strong>VIA-SD</strong>: speculative decoding gets a third gear. Route rejected tokens to a slim verifier carved out of the big one, not a full recompute. 10-20% faster, no retraining. - <strong>MiniMax Sparse Attention</strong>: the paper behind the M3 1M-context model. 28.4x less attention compute at 1M, 14.2x faster prefill on H800, on par with dense attention. - <strong>SG-OPD</strong>: in on-policy distillation, use a correctness verifier to gate the teacher's signal, not replace it. +7.5 per-question on competition math. - <strong>Flash-GMM</strong>: the FlashAttention trick applied to Gaussian mixtures. 20x faster, makes soft clustering a drop-in for k-means in vector search. - <strong>SWITCH</strong>: two boundary tokens make hidden-state latent reasoning both RL-trainable and open to mechanistic probing. - <strong>MaxProof (MiniMax-M3)</strong>: population search plus a trained verifier clears the human gold-medal bar, 35/42 on IMO 2025.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-06-12/">2026-06-12</a></p>
+</body>
+</html>
