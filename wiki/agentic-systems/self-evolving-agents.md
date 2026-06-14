@@ -60,6 +60,9 @@ This builds on the earlier self-evolving cluster: [EvoDS](2026-06-05-evods-self-
 ## Industry signal
 Sakana AI launched a dedicated recursive-self-improvement lab (06-07), explicitly betting that self-improvement, not raw compute, is the next lever. Anthropic flagged the control risk. The research cluster above is the academic front of the same bet.
 
+## The "evolving environment" turn (2026-06-14)
+One HuggingFace batch carried three papers sharing a single reframe: stop assuming the world is static. [EvoArena/EvoMem](2026-06-14-evoarena-evomem-memory-evolution.md) makes progressive environment updates the eval unit and stores memory as patch histories; [Evoflux](2026-06-14-evoflux-inference-time-tool-workflow-evolution.md) evolves tool-workflow graphs at inference time to repair plans against changing tool catalogs; [EvoBrowseComp](2026-06-14-evobrowsecomp-evolving-search-benchmark.md) auto-regenerates a contamination-free benchmark to keep pace with shifting world knowledge. The distinction from the 06-08 self-evolving cluster is subtle but real: those agents evolve *themselves*; these adapt to an environment that evolves *underneath* them. Three papers, one day, same blind spot named — the static-world assumption.
+
 ## Related pages
 - [Scaling the Harness](2026-05-27-scaling-the-harness.md): the harness as a design object
 - [Code as Agent Harness](2026-05-23-code-as-agent-harness.md)
