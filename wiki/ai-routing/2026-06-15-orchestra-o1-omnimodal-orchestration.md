@@ -54,7 +54,7 @@ OmniGAIA is one benchmark; generalization to other omnimodal task suites is unve
 
 - This is orchestration-as-routing, the same frame as the [llm-routing](llm-routing.md) concept page's "routing IS the policy" thread: [Conductor](2026-05-11-conductor-sakana-orchestrating-frontier-models.md) (05-11, RL orchestrator over frontier models) and [Maestro](2026-05-23-maestro-rl-orchestrated-model-skill-ensemble.md) (05-23, RL-orchestrated model/skill ensemble). Orchestra-o1 extends that line into the omnimodal regime and adds a decision-aligned reward (DA-GRPO), the orchestration analogue of those RL orchestrators.
 - The modality-aware decomposition connects to [DPVR](2026-06-10-dpvr-vision-token-routing.md) (06-10, routing vision tokens by usefulness): both route by modality-specific signal, DPVR within a model, Orchestra-o1 across agents.
-- DA-GRPO joins today's GRPO cluster with [S2L-PO](../llms-foundation-models/2026-06-15-s2l-po-small-explorer-grpo.md) and [AdaSR's HRPO](../inference-efficiency/2026-06-15-adasr-streaming-reasoning-hrpo.md): three same-day papers each modifying GRPO's advantage assignment for a different structure (orchestration decisions, small-model exploration, streaming phases).
+- DA-GRPO joins today's GRPO cluster with [S2L-PO](../llms-foundation-models/2026-06-15-s2l-po-small-models-explorers-grpo.md) and [AdaSR's HRPO](../inference-efficiency/2026-06-15-adasr-streaming-reasoning-hrpo.md): three same-day papers each modifying GRPO's advantage assignment for a different structure (orchestration decisions, small-model exploration, streaming phases).
 
 ## Research angle
 
