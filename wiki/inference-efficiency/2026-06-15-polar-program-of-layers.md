@@ -2,7 +2,7 @@
 
 **TL;DR.** A pretrained LLM runs every input through the same fixed stack of layers in the same order. PoLar (Program-of-Layers) shows that this fixed forward pass is only one of many valid computations hiding inside a frozen model. For most inputs a shorter, reordered program (skip some layers, loop others) reaches the same or better accuracy, and many of the base model's wrong answers become right under an alternative program. PoLar trains a tiny prediction network that emits a per-input execution program (which contiguous layer segments to skip or repeat) in a single pass, with the base LLM fully frozen. On math reasoning it beats both standard inference and prior dynamic-depth methods, often while executing fewer layers, and the gains hold out of distribution.
 
-**Source:** HuggingFace · [Paper](https://arxiv.org/abs/2606.06574) · arxiv 2606.06574 (Li, Li, Zhou — UMD + MBZUAI)
+**Source:** HuggingFace · [Paper](https://arxiv.org/abs/2606.06574) · arxiv 2606.06574 (Li, Li, Zhou; UMD + MBZUAI)
 
 ```mermaid
 flowchart LR
