@@ -48,7 +48,7 @@ The trade-off is shown against an SFT baseline, not against strong test-time-com
 
 ## How it relates to prior wiki knowledge
 
-- HRPO joins today's GRPO-variant cluster with [Orchestra-o1's DA-GRPO](../ai-routing/2026-06-15-orchestra-o1-omnimodal-orchestration.md) and [S2L-PO](../llms-foundation-models/2026-06-15-s2l-po-small-explorer-grpo.md): three same-day papers each rebuilding GRPO's advantage assignment for a different structure (streaming phases, orchestration decisions, small-model exploration). The shared move is *finer-than-sequence-level credit*, the same instinct as [Temporal Scheduling for RLVR](../llms-foundation-models/2026-06-02-temporal-scheduling-rlvr.md) (06-02, schedule credit over training).
+- HRPO joins today's GRPO-variant cluster with [Orchestra-o1's DA-GRPO](../ai-routing/2026-06-15-orchestra-o1-omnimodal-orchestration.md) and [S2L-PO](../llms-foundation-models/2026-06-15-s2l-po-small-models-explorers-grpo.md): three same-day papers each rebuilding GRPO's advantage assignment for a different structure (streaming phases, orchestration decisions, small-model exploration). The shared move is *finer-than-sequence-level credit*, the same instinct as [Temporal Scheduling for RLVR](../llms-foundation-models/2026-06-02-temporal-scheduling-rlvr.md) (06-02, schedule credit over training).
 - The "learn how much to think" objective is the streaming instance of the adaptive-compute thread: [CLEAR](2026-06-05-clear-shadow-price-reasoning-budget.md) (06-05, ration reasoning budget across a batch with a shadow price) and today's [PoLar](2026-06-15-polar-program-of-layers.md) (skip/loop layers per input) all allocate compute per difficulty, AdaSR adds the *time* axis (allocate compute per stream stage).
 
 ## Research angle
