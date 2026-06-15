@@ -2,6 +2,17 @@
 
 Append-only timeline of ingests and lint passes.
 
+## [2026-06-15] ingest | PoLar: Skip a Layer or Loop It? Learning Program-of-Layers in LLMs | huggingface (2606.06574)
+## [2026-06-15] ingest | Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation | huggingface (2606.13657)
+## [2026-06-15] ingest | The Hidden Power of Scaling Factor in LoRA Optimization | huggingface (2606.12883)
+## [2026-06-15] ingest | Smaller Models are Natural Explorers for Policy-Level Diversity in GRPO (S2L-PO) | huggingface (2605.30789)
+## [2026-06-15] ingest | HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry | huggingface (2606.14249)
+## [2026-06-15] ingest | LLM Agents Can See Code Repositories | huggingface (2606.14061)
+## [2026-06-15] ingest | Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents (MRAgent) | huggingface (2606.06036)
+## [2026-06-15] ingest | APPO: Agentic Procedural Policy Optimization | huggingface (2606.12384)
+## [2026-06-15] update | digest 2026-06-15 written (PoLar / Dense-Supervision-Sparse-Updates / HarnessX / S2L-PO / LoRA-alpha / LLM-agents-see-code / MRAgent Deep Dives; Global View on research-as-supply-side-of-the-token-cost-turn and capability-in-harness-vs-governance-gating-weights); concept updates: knowledge-distillation, rl-for-llms, self-evolving-agents, agent-memory; social-stream morning; media-zone | digest
+## [2026-06-15] note | CONCURRENT-INGEST CO-OP: shared the 06-15 ingest with the peer scheduled agent; deduped same-paper pages (kept canonical PoLar/Dense-Supervision/S2L-PO/HarnessX/LLM-agents-see-code/APPO mine, LoRA-alpha + MRAgent + orchestra-o1 + when-steerable peer's), removed duplicate slugs. KEY DEDUP CATCH: DAIR.AI newsletter's "MiniMax Sparse Attention (MSA)" is the SAME paper already ingested 06-12 (2606.13392); treated as newsletter/video re-amplification (Global View + Media Zone), NOT a new Deep Dive. No HF+Kurate arxiv-ID overlap (Kurate weekly boards weeks-stale, biomedical/science-FM heavy: clinical-physiology #1, virtual-patient cs.LG #1). LLM-rated-underrated: Pretraining-Recurrent-without-Recurrence (cs.LG#16, 2606.06479, Kumar+Isola, 7.5) flagged in Looking Ahead. Rising authors all co-authors clustered on the same two biomedical FM papers across 4 weeks — not genuine independent signal, no Twitter handle add. All 8 Reddit subs empty (Sunday). Twitter morning: 0 curated retweets; AI-feed = Kilo Product Week cluster + Fable-governance fallout + off-topic politics. alphaxiv non-empty for PoLar/Dense-Supervision/LoRA-alpha/S2L-PO; empty for LLM-agents-see-code + HarnessX. | ops
+
 ## [2026-05-30] ingest | Conf-KV: confidence-aware KV cache eviction (arxiv 2605.24786) | huggingface
 ## [2026-05-30] ingest | EarlyTom: early token compression inside vision encoder (arxiv 2605.30010) | huggingface
 ## [2026-05-30] ingest | PANDO: efficient multimodal agents via online skill distillation (arxiv 2605.24785) | huggingface
