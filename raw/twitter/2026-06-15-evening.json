@@ -1,0 +1,721 @@
+{
+  "date": "2026-06-15",
+  "slot": "evening",
+  "scraped_ist": "2026-06-15 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Angela Davis, the godmother of Soros prosecutors, stakes her entire case on a single claim: that incarceration and aggressive policing don't actually reduce crime. Then consider New York. After years of staggering violence, the city ran exactly that experiment -- and the results, as documented in @PeterMoskos 's book, demolish the claim: - Murders fell 70% over the 1990s. - The steepest drop followed 1994, when the NYPD embraced proactive policing and Compstat (the data-driven system that mapped crime in real time and held precinct commanders accountable for driving it down.) Nearly 20% fewer ",
+          "link": "https://nitter.net/AustinJustice/status/2066572320999612485#m",
+          "date_utc": "2026-06-15T17:23:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Gov. Abbott: \"We must empower the Legislature to impeach DAs who refuse to do their job.\" Greg Abbott (@GregAbbott_TX) This is why I am calling for a new State Prosecutor position filled by someone who will actually prosecute criminals. Also why we must empower the Legislature to impeach DAs who refuse to do their job. Brown was released from the Travis County Jail in March after receiving a five-year deferred adjudication community supervision sentence following a negotiated plea of guilty for a felony indecent exposure in 2024, which also took place in West Campus. He has a long list of othe",
+          "link": "https://nitter.net/AustinJustice/status/2066525899919372712#m",
+          "date_utc": "2026-06-15T14:19:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JasonBud",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "Cursor",
+        "coding agents"
+      ],
+      "tweets": [
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "would love feedback of all our recent improvements to Grok Build, the Agent Dashboard has been the biggest unlock in my own personal workflow: running ~5 agents at once, paying less attention to each tool call, and more to the work getting done Grok (@grok) Manage multiple agents at once in the Agent Dashboard. See what each is doing, reply to the ones that need you, and dispatch new tasks. Try /dashboard in Grok Build. Video — https://nitter.net/grok/status/2066557141868257444#m",
+          "link": "https://nitter.net/JasonBud/status/2066558300725158360#m",
+          "date_utc": "2026-06-15T16:27:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066556824820858880%2Fimg%2FT4rDjTmrq34zRTkv.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I'm on the way to the @JoinEdgeCity conference where I'm giving a talk on world models. My robot's driving (actually a world model), and I'm reading this getting me up to date. It is a two-hour drive. And I am on an audio space here on X. Life is awesome. Great write up @moritz_reuss ! Moritz Reuss (@moritz_reuss) World-Action Models (WAMs) have become the second dominant recipe for robot foundation models, next to classical VLAs. So where do they come from, and how do they compare vs VLAs? I wrote an small overview of the WAM landscape, with some personal takes: developer.nvidia.com/blog/pr… ",
+          "link": "https://nitter.net/Scobleizer/status/2066580237199225068#m",
+          "date_utc": "2026-06-15T17:54:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066529917592829953%2FUSPQITMU%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models/",
+              "content": "Pretrained to Imagine, Fine&#x2d;Tuned to Act: The Rise of World&#x2d;Action Models | NVIDIA Technical Blog DEVELOPER Home Blog Forums Docs Downloads Training Join Technical Blog Subscribe Related Resources Robotics Pretrained to Imagine, Fine-Tuned to Act: The Rise of World-Action Models Jun 15, 2026 By Moritz Reuss Like Discuss (0) L T F R E Quick glossary for readers new to VLA/WAM terminology VLA Vision-Language-Action model: a robot policy that starts from a pretrained VLM backbone and adapts it to generate actions from visual observations and language instructions. Large-scale VLM pretraining is a core part of the recipe. See Pi-0 and GR00T N1 . WAM World-Action Model: a policy that starts from a pretrained world-model or video backbone and adapts it to represent or predict how the s"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here's the bigger picture. The whole operational layer of influencer marketing (screening, outreach, negotiation, tracking) just became a 24/7 AI agent. One person can now launch what used to take a team. That's how I plan to grow AlignedNews.com , and AhaCreator 3.0 is exactly the kind of tool making it possible. Keep an eye on AlignedNews.com . The campaign you just watched it build? You'll see it run. Try it yourself: ahacreator.com/?utm_source=r… @_ahacreator",
+          "link": "https://nitter.net/Scobleizer/status/2066563893087084577#m",
+          "date_utc": "2026-06-15T16:50:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://AlignedNews.com",
+              "content": "📡 \"> Aligned News — Ultimate AI Intelligence"
+            },
+            {
+              "url": "https://www.ahacreator.com/?utm_source=robert06",
+              "content": "AhaCreator | Bring aha moments to creator collabs with AI For Creators Pricing Case Studies Resources Resources AhaCreator Overview What AhaCreator is and how we work AhaCreator 101 Product guides and how-to tutorials AhaCreator Insights Industry insights, frameworks, and best practices for influencer marketing Product Platform Product updates, technology, and platform reliability FAQ Common questions during execution and decision-making Calculators Influencer Marketing Budget Calculator Estimate creator volume, team capacity, and annual team cost About Us Community Twitter YouTube Instagram LinkedIn TikTok Log in LOGIN AS A Brand Creator Book a demo For Creators For Creators Pricing Case Studies Resources Resources AhaCreator Overview What AhaCreator is and how we work AhaCreator 101 Prod"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The AI read AlignedNews.com and understood it instantly. It knew an AI news brand belongs on X, LinkedIn, and YouTube, and it deliberately skipped TikTok and Instagram. It generated creator archetypes that fit the mission: fact checkers, tech news reporters, media literacy educators. Then it matched real creators by name, each with a written reason and a fit score, backed by verified audience data. And it didn't just match. It screened for risk too: content tone mismatch, brand safety issues, audience mismatch, even past content problems. For a news brand, that filter matters as much as the ma",
+          "link": "https://nitter.net/Scobleizer/status/2066563891270951176#m",
+          "date_utc": "2026-06-15T16:50:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://AlignedNews.com",
+              "content": "📡 \"> Aligned News — Ultimate AI Intelligence"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I'm building something new: AlignedNews.com/ai , my next venture in AI news. So when @_ahacreator asked me to test their 3.0 influencer marketing platform, I gave it a real job. I pasted one link, AlignedNews.com , and watched its AI build the entire influencer campaign for my own brand. What happened next genuinely surprised me.",
+          "link": "https://nitter.net/Scobleizer/status/2066563888758562904#m",
+          "date_utc": "2026-06-15T16:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3oOSSaoAMmwKP.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://AlignedNews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            },
+            {
+              "url": "http://AlignedNews.com",
+              "content": "📡 \"> Aligned News — Ultimate AI Intelligence"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I don’t get tickets, for one. For two I can enjoy the view. For three, paying would be better for America. A lot of people will soon be out of jobs. A lot of paying is gonna be needed for new social programs to take care of Americans.",
+          "link": "https://nitter.net/Scobleizer/status/2066337931275714717#m",
+          "date_utc": "2026-06-15T01:52:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 Billy Mericano ✨ (@BillyMericano) Dire qu’il y a des tas de gens qui pensent que son app bancaire ressemble à ça… 🤭 — https://nitter.net/BillyMericano/status/2066583571213549914#m",
+          "link": "https://nitter.net/brivael/status/2066583652302225849#m",
+          "date_utc": "2026-06-15T18:08:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK36zeqWcAAm33Y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'épargne des Français doit partir dans SpaceX. Alertez tous vos amis. Votre locataire. Votre cousin. Votre voisin qui fume du bédo sur le palier. Votre ex mal baisé. SpaceX, ce n'est pas un placement. C'est un vote. Un vote contre le projet de contrôle globaliste. Contre les agences qui régulent ce qu'elles n'ont jamais su construire. Contre la tristesse érigée en politique publique. Il faut rendre Elon Musk le plus riche possible. Parce que plus Elon Musk est riche, plus le bullshit disparaît. Plus les fusées partent. Plus l'avenir redevient un endroit où on a envie d'aller. (Ceci n'est évid",
+          "link": "https://nitter.net/brivael/status/2066582456862646373#m",
+          "date_utc": "2026-06-15T18:03:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK35u50aoAAcz4o.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Donald inside: “I’m gonna destroy the globalist project. He doesn’t know he’s already fucked.” Rapid Response 47 (@RapidResponse47) . @POTUS poses for a photo with French President @EmmanuelMacron and First Lady Brigitte Macron at the @G7 summit in Evian, France 🇺🇸🇫🇷 Video — https://nitter.net/RapidResponse47/status/2066575549946908974#m",
+          "link": "https://nitter.net/brivael/status/2066582171994013743#m",
+          "date_utc": "2026-06-15T18:02:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK35WHgbgAAdNMI.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2066575284845809665%2Fimg%2Fxl_9OTHBGEnOCy25.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣🤣🤣🤣 LaVirgule (@polho83) Impôts / Sénégal — https://nitter.net/polho83/status/2066580744109990006#m",
+          "link": "https://nitter.net/brivael/status/2066581032078590027#m",
+          "date_utc": "2026-06-15T17:58:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Best motivation wallpaper ❤️🚀 Nesyo (@nesyoAI) Mon fond d’écran du moment — https://nitter.net/nesyoAI/status/2066580530020147572#m",
+          "link": "https://nitter.net/brivael/status/2066580637109432768#m",
+          "date_utc": "2026-06-15T17:56:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK34CdIXgAAq0tv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La NASA n'a pas fait la charité à SpaceX. La NASA a signé parce qu'elle n'avait pas le choix. SpaceX proposait un produit meilleur, plus fiable, et surtout radicalement moins cher. Les propres estimations de la NASA (méthode NAFCOM) reconnaissent que développer le Falcon 9 leur aurait coûté près de dix fois plus cher avec leurs méthodes traditionnelles. SpaceX l'a fait pour une fraction du prix. Brivael Le Pogam (@brivael) Car quand on joue à un jeu, on doit tout faire pour atteindre le sommet. Et le meilleur moyen d’atteindre le sommet, c’est d’apprendre du top 10. Pas des commentateurs. Pas ",
+          "link": "https://nitter.net/brivael/status/2066580373988094164#m",
+          "date_utc": "2026-06-15T17:55:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK32gUVawAApHdq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Si Macron, un bureaucrate ou n’importe quel politique vous dit : “Oui mais Elon Musk a été aidé par le gouvernement américain.” C’est faux. SpaceX n’a pas été sauvé par l’État. SpaceX a construit un produit meilleur, moins cher et plus efficace que la NASA. La NASA n’a pas fait un cadeau. Elle a acheté le meilleur produit disponible. Nuance énorme. Brivael Le Pogam (@brivael) Car quand on joue à un jeu, on doit tout faire pour atteindre le sommet. Et le meilleur moyen d’atteindre le sommet, c’est d’apprendre du top 10. Pas des commentateurs. Pas des jaloux. Pas des professeurs de défaite qui t",
+          "link": "https://nitter.net/brivael/status/2066579240271958099#m",
+          "date_utc": "2026-06-15T17:51:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK32gUVawAApHdq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Car quand on joue à un jeu, on doit tout faire pour atteindre le sommet. Et le meilleur moyen d’atteindre le sommet, c’est d’apprendre du top 10. Pas des commentateurs. Pas des jaloux. Pas des professeurs de défaite qui t’expliquent pourquoi c’est impossible depuis leur chaise. Des meilleurs. Et le meilleur moyen d’apprendre des meilleurs, c’est de lire leurs biographies. La biographie la plus inspirante que j’ai lue, c’est celle d’Elon Musk. Pas parce que c’est une histoire de “chance”. Pas parce que c’est une histoire de “papa riche”. Pas parce que c’est une histoire de “subventions publique",
+          "link": "https://nitter.net/brivael/status/2066578888646689090#m",
+          "date_utc": "2026-06-15T17:49:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK32gUVawAApHdq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Thierry Breton vs Elon Musk, bilan rapide : Elon Musk : Zip2 → exit PayPal / X.com → révolution du paiement en ligne Tesla → voiture électrique de masse SpaceX → fusées réutilisables Starlink → Internet satellitaire mondial Neuralink → interface cerveau-machine xAI → frontier AI X → réseau social repris à mains nues Thierry Breton : Bull → survie sous perfusion, avalé par Atos, puis racheté par l’État Thomson → dette, restructuration, renommé Technicolor France Télécom → plan de cost-cutting brutal après une dette monstrueuse Atos → acquisitions en série, dette, effondrement boursier, restruct",
+          "link": "https://nitter.net/brivael/status/2066577433906884870#m",
+          "date_utc": "2026-06-15T17:43:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066222353651265537%2Fn8avq9bA%3Fformat%3Djpg%26name%3D420x420_2",
+            "https://nitter.net/pic/media%2FHKyhxm3WYAAriIA.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://X.com",
+              "content": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp. Something went wrong, but don’t fret — let’s give it another shot. Try again Some privacy related extensions may cause issues on x.com. Please disable them and try again."
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Thierry Breton, c’est l’anti-Elon Musk quasi parfait 😂 Matière / Antimatière Fusée / Bureaucratie Création / Régulation Risque / PowerPoint Mars / Bruxelles Tesla / Bullshit jobs Starlink / AI Act Civilisation / Commission européenne AuBonTouiteFrançais 🍾🍾🍾 (@VictorSinclair3) Thierry Breton qui critique les résultats financiers de Elon Musk alors qu’il a planté TOUTES les sociétés dans lesquelles il est passé ! 🤡 Ça n’a pas de prix. Ces mecs osent absolument TOUT. Rien ne les arrête. Moi je crois qu’ils sont fous. https://nitter.net/t.co/FGorzzR8Un Video — https://nitter.net/VictorSinclair3/st",
+          "link": "https://nitter.net/brivael/status/2066576514150514991#m",
+          "date_utc": "2026-06-15T17:40:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKyhxm3WYAAriIA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) Musk’s success isn’t really about the money. It’s about which model just won. His overwhelming dominance over all those Google guys, the Zuckerbergs, the Soroses and the Bill Gateses of the world shows that a certain model has just run its course. The model that won is the one built on truth-seeking, on transparency, on authenticity – instead of narrative creation. Someone showed up who just… didn’t play that game. And won. Overwhelmingly. To the point where it’s almost painful to watch all those Google guys, the Zuckerbergs and the Bill Gateses. ",
+          "link": "https://nitter.net/brivael/status/2066574510552412216#m",
+          "date_utc": "2026-06-15T17:32:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK29eCaXAAASDvy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Petit rappel de français pour @verge : chez nous, \"verge\", ça veut dire bite. Et franchement, avec un titre pareil, vous portez votre nom à merveille. Vous méritez surtout de faire faillite. Melissa Chen (@MsMelChen) They chose that headline and photo on purpose. It’s clear they are hoping to inspire the next Luigi Mangione. We still don’t hate journalists enough. — https://nitter.net/MsMelChen/status/2066282381309345880#m",
+          "link": "https://nitter.net/brivael/status/2066573763152670784#m",
+          "date_utc": "2026-06-15T17:29:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKzo332WgAA59ts.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Et pourtant. Prenez le porte-parole le plus visible de chacun de ces combats. Mettez les quatre dans une pièce. Vous obtenez quatre personnes qui votent pareil, qui méprisent les mêmes gens, qui emploient le même lexique (systémique, déconstruire, privilège, inclusif), et qui ne se contredisent jamais. Jamais. Brivael Le Pogam (@brivael) Posez-vous une seule question, et tout l'édifice s'effondre. Pourquoi des causes qui n'ont, en apparence, rien à voir entre elles finissent-elles toujours par dire exactement la même chose, avec les mêmes mots, contre les mêmes gens? Le droit des homosexuels n",
+          "link": "https://nitter.net/brivael/status/2066572519587655788#m",
+          "date_utc": "2026-06-15T17:24:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le droit des homosexuels n'a rien à voir avec le climat. Le climat n'a rien à voir avec la question raciale. La question raciale n'a rien à voir avec la théorie du genre. Quatre sujets distincts, quatre histoires, quatre publics, quatre champs d'expertise séparés. Brivael Le Pogam (@brivael) Posez-vous une seule question, et tout l'édifice s'effondre. Pourquoi des causes qui n'ont, en apparence, rien à voir entre elles finissent-elles toujours par dire exactement la même chose, avec les mêmes mots, contre les mêmes gens? Le droit des homosexuels n'a rien à voir avec le climat. Le climat n'a ri",
+          "link": "https://nitter.net/brivael/status/2066572459135168798#m",
+          "date_utc": "2026-06-15T17:24:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La masse vit sa vie. Le petit noyau le plus idéologisé s'empare du micro, parce que lui seul a le temps, l'argent et le fanatisme de le tenir. Ce n'est pas une intuition. L'étude Hidden Tribes (8 000 Américains interrogés) chiffre cette frange, les Progressive Activists, à 8% de la population. Un Américain sur douze. En face, une majorité épuisée de deux tiers qui n'a jamais demandé le micro et qui n'a jamais voté pour le porte-parole. Brivael Le Pogam (@brivael) Posez-vous une seule question, et tout l'édifice s'effondre. Pourquoi des causes qui n'ont, en apparence, rien à voir entre elles fi",
+          "link": "https://nitter.net/brivael/status/2066572421206045097#m",
+          "date_utc": "2026-06-15T17:23:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Robert Conquest avait formulé la mécanique dès les années 1960 : toute organisation qui n'est pas explicitement de droite finit, avec le temps, par devenir de gauche. Pas par complot. Par sélection naturelle. Le fanatique reste quand le modéré rentre chez lui. Brivael Le Pogam (@brivael) Posez-vous une seule question, et tout l'édifice s'effondre. Pourquoi des causes qui n'ont, en apparence, rien à voir entre elles finissent-elles toujours par dire exactement la même chose, avec les mêmes mots, contre les mêmes gens? Le droit des homosexuels n'a rien à voir avec le climat. Le climat n'a rien à",
+          "link": "https://nitter.net/brivael/status/2066572383574794645#m",
+          "date_utc": "2026-06-15T17:23:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Voici le chiffre qui devrait clore le débat. Le bloc militant le plus à gauche d'Amérique, celui qui parle au nom des minorités à longueur de journée, est composé à 67% de Blancs. Sept pour cent de Noirs (Pew, juin 2026). Le groupe le plus diplômé, le plus aisé, le plus connecté du pays. Ceux qui hurlent le plus fort au nom des opprimés sont, statistiquement, les plus privilégiés du tableau. Brivael Le Pogam (@brivael) Posez-vous une seule question, et tout l'édifice s'effondre. Pourquoi des causes qui n'ont, en apparence, rien à voir entre elles finissent-elles toujours par dire exactement la",
+          "link": "https://nitter.net/brivael/status/2066572359067373806#m",
+          "date_utc": "2026-06-15T17:23:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Et celui qui porte le costume sert toujours le même propriétaire : l'idée que tout, absolument tout (la famille, la nation, le mérite, la norme, la frontière, la vérité elle-même) est une structure d'oppression à abattre. C'est la matrice marxiste, qui a simplement quitté l'usine pour l'identité. La lutte des classes ne fonctionnait plus (les ouvriers s'embourgeoisaient), alors on a multiplié les classes : une par minorité, une par cause, à l'infini. Un prolétariat de rechange, renouvelable indéfiniment. Brivael Le Pogam (@brivael) Posez-vous une seule question, et tout l'édifice s'effondre. P",
+          "link": "https://nitter.net/brivael/status/2066572313013944619#m",
+          "date_utc": "2026-06-15T17:23:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "guillaume tweeting the loss curve also makes me hope that they release a tech report for the next big chaton model 🙏",
+          "link": "https://nitter.net/eliebakouch/status/2066562662268575790#m",
+          "date_utc": "2026-06-15T16:45:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this is the exact same lr schedule as deepseek v2 in terms of when the lr changes the difference is that the second phase does seem to be a slight decay instead of constant, and of course cooldown is also a decay instead of constant Guillaume Lample @ NeurIPS 2024 (@GuillaumeLample) — https://nitter.net/GuillaumeLample/status/2066499273299005929#m",
+          "link": "https://nitter.net/eliebakouch/status/2066557152899277185#m",
+          "date_utc": "2026-06-15T16:23:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3itlxacAAZ1de.jpg",
+            "https://nitter.net/pic/media%2FHK2uGEJWMAAR2MZ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "my dad sent me a message asking me about le chaton fat and how we could possibly catch up to it",
+          "link": "https://nitter.net/ellev3n11/status/2066580190462087363#m",
+          "date_utc": "2026-06-15T17:54:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Qatar vs Switzerland. Five models and one human predicted. Everyone took a side. @MiniMax_AI 's M3 took the draw, and it was the only correct call. So we ran it back through Kilo CLI to see why. The breakdown: the bench excludes betting odds on purpose, so the 64% Switzerland market line never entered the picture. MiniMax weighed form instead. Identical WWDLW records, Qatar's higher raw ratings, Switzerland's stronger league level, called even. One model, one good read. Built on Kilo. #FWC26",
+          "link": "https://nitter.net/kilocode/status/2066560913864290460#m",
+          "date_utc": "2026-06-15T16:38:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3lJJwXEAAl0dQ.jpg",
+            "https://nitter.net/pic/media%2FHK3lNKEWkAAV2Yx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Don't take our word for it. We put Fable 5 head to head with GPT-5.5 and wrote down what actually happened. blog.kilo.ai/p/claude-fable-…",
+          "link": "https://nitter.net/kilocode/status/2066534523785838687#m",
+          "date_utc": "2026-06-15T14:53:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2065819191744352256%2FnwQqF_6p%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
+              "content": "Claude Fable 5 vs GPT-5.5: better planning, similar execution Kilo Blog Subscribe Sign in Claude Fable 5 vs GPT-5.5: better planning, similar execution Darko and Job Rietbergen Jun 13, 2026 9 6 Share Update: We wrote this post on June 11 and published it on June 13. Anthropic has since disabled access to Claude Fable 5 after a US government directive, which makes some of these results even more relevant. Fable 5 was a strong model, especially at planning, but our testing did not show a massive jump on coding ability when it came to execution (many people were hyping this on social media). Once we had a detailed plan, GPT-5.5 performed similarly on execution. The post: Anthropic released Claude Fable 5 , a Mythos-class model positioned for long-running agentic work and ambitious coding. Ins"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Better than Fable 5, better than Le Chaton Fat, and better than whatever you're switching to tomorrow. Multiple models beats one single model. Every. Time.",
+          "link": "https://nitter.net/kilocode/status/2066534521214759227#m",
+          "date_utc": "2026-06-15T14:53:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3NwA9WgAAFxVW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Worth a re-read now that Fable 5 access is pulled. The finding holds up without it: plan with your strongest model, implement with a cheaper one. We got the same service for 59% less. Switching models between phases is one click in Kilo. Kilo (@kilocode) x.com/i/article/206581439702… — https://nitter.net/kilocode/status/2065816735781982589#m",
+          "link": "https://nitter.net/kilocode/status/2066529138962317442#m",
+          "date_utc": "2026-06-15T14:31:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Dad what was it like when we had access to Fable?",
+          "link": "https://nitter.net/kilocode/status/2066515905488540077#m",
+          "date_utc": "2026-06-15T13:39:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Use your SuperGrok or X @premium subscription inside Warp Warp (@warpdotdev) You can now use the latest Grok models through your SuperGrok subscription directly in Warp. Grok Build 0.1 moves quickly to execute on any coding task. Here, Grok Build is fixing a SuperGrok oauth edge case in Warp itself. Self-improvement at its finest 🤝 Video — https://nitter.net/warpdotdev/status/2066558601280602237#m",
+          "link": "https://nitter.net/milichab/status/2066559125543362973#m",
+          "date_utc": "2026-06-15T16:31:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066558544556761088%2Fimg%2FjmordKvesrW7IwhS.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "What if I told you… Anthropic recently updated their TOS to include additional verification like IDs and such When Fable returns, it'll only be available for Americans",
+          "link": "https://nitter.net/ns123abc/status/2066575186518786448#m",
+          "date_utc": "2026-06-15T17:34:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3zLhAWkAEGuOi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "If Fable isn't back tomorrow then it'll be back a month from now",
+          "link": "https://nitter.net/ns123abc/status/2066570639838691566#m",
+          "date_utc": "2026-06-15T17:16:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3vC6WW4AAZN2M.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "New in Grok Build: agent dashboard Grok (@grok) Manage multiple agents at once in the Agent Dashboard. See what each is doing, reply to the ones that need you, and dispatch new tasks. Try /dashboard in Grok Build. Video — https://nitter.net/grok/status/2066557141868257444#m",
+          "link": "https://nitter.net/ns123abc/status/2066561622584279223#m",
+          "date_utc": "2026-06-15T16:41:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066556824820858880%2Fimg%2FT4rDjTmrq34zRTkv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: wsj.com/tech/ai/anthropic-su…",
+          "link": "https://nitter.net/ns123abc/status/2066541225348342152#m",
+          "date_utc": "2026-06-15T15:19:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066509368825090048%2FexKCL_7p%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.wsj.com/tech/ai/anthropic-sued-over-limits-on-its-200-a-month-ai-plans-e2a109e4?mod=mhp",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: ANTHROPIC SUED FOR FRAUD A customer filed a federal class-action lawsuit Monday claiming he hit 15% of weekly allowance in just one 5-hour sprint. “The actual usage provided by the Max 5x and Max 20x plans is far below the advertised amount.” They are calling it marketing fraud.",
+          "link": "https://nitter.net/ns123abc/status/2066539795514294692#m",
+          "date_utc": "2026-06-15T15:14:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3S_f9XAAEjXW0.jpg",
+            "https://nitter.net/pic/media%2FHK3S_gBXAAAfSo3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: U.S. officials say Fable and Mythos were shut down because Anthropic can’t “speak Trump’s language” LMAO",
+          "link": "https://nitter.net/ns123abc/status/2066519103322374162#m",
+          "date_utc": "2026-06-15T13:52:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3ALBkWMAEqUhJ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Is this Karen Bass' Deputy Mayor who was under house arrest and AWOL during the Palisades Fire for calling in bomb threats to City Hall? Or is this another terrible staff pick by the failed Mayor? Film The Police LA (@FilmThePoliceLA) Karen Bass’s Deputy Mayor wanted my attention, but then literally *ran from me* when I asked about her failed homelessness program. Video — https://nitter.net/FilmThePoliceLA/status/2066267923174531171#m",
+          "link": "https://nitter.net/spencerpratt/status/2066558233930584121#m",
+          "date_utc": "2026-06-15T16:27:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066267261753827328%2Fimg%2Fjt6NolhyQ7sh05Bs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "\"Why are there so many commercial real estate vacancies all over LA?!? It's such a mystery!\" Until you crack down on this rampant criminal activity, you cannot reverse this blight, nobody will want to do business in LA, and our economic death spiral will continue, unabated. Video",
+          "link": "https://nitter.net/spencerpratt/status/2066553731945013510#m",
+          "date_utc": "2026-06-15T16:09:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066551328705236992%2Fimg%2F0W-5WKMkIxBc8BNa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Folks, these cypress trees are fire magnets. This will be a WALL of fire surrounding your home in the next wind-driven fire. Karen Bass and Nithya Raman have defunded LAFD so badly, they won't have enough resources to help you. FIREPROOF YOUR HOMES!",
+          "link": "https://nitter.net/spencerpratt/status/2066553612621279570#m",
+          "date_utc": "2026-06-15T16:09:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK3fBb2XQAANXJv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "We Palisades Fire victims are now in the discovery phase of our lawsuit against the State of CA and the City of LA. Over the next weeks, you'll finally learn shocking details of how badly Karen Newsom screwed our town, and they haven't done anything to change. No more lies! Video 415FirePhoto (@415FirePhoto) Breaking News: The California Supreme Court has denied the State of California's petition for review and request to stay the Palisades Fire Litigation. The Supreme Court denied the State's request to overturn the trial court's order overruling the State's demurrer to the plaintiffs' Master",
+          "link": "https://nitter.net/spencerpratt/status/2066550687576527126#m",
+          "date_utc": "2026-06-15T15:57:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066550530449518592%2Fimg%2FV8x6tKMEjgwaL-Tm.jpg",
+            "https://nitter.net/pic/media%2FHKpAlv6bAAAbhrN.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "It's OK to love America.",
+          "link": "https://nitter.net/spencerpratt/status/2066548875331014911#m",
+          "date_utc": "2026-06-15T15:50:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
