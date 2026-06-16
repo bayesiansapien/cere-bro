@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-06-13T03:30:08.877966+00:00",
+  "following_last_checked": "2026-06-16T03:40:12.784499+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -71,7 +71,8 @@
     "aplusk",
     "ianmiles",
     "eastdakota",
-    "johnfederspiel"
+    "johnfederspiel",
+    "jreichelt"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -541,6 +542,15 @@
       "handle": "jaybaxter",
       "name": "Jay Baxter",
       "org": "xAI",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "name": "Department of War CTO",
+      "org": "Independent",
       "timezone": "PT",
       "focus": [
         "AI"
