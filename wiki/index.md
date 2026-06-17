@@ -26,6 +26,7 @@ Catalog of all pages. Updated on every ingest.
 | Page | Summary |
 |------|---------|
 | [rl-for-llms.md](llms-foundation-models/rl-for-llms.md) | Concept: RL for LLMs. RLHF, RLVR, PreRL, and reasoning model training |
+| [looped-transformers.md](llms-foundation-models/looped-transformers.md) | Concept: looped transformers / iterative latent depth as a scaling axis (LoopCoder-v2, LoopWM, Solve the Loop) |
 | [2026-04-16-prerl-rl-in-pretrain-space.md](llms-foundation-models/2026-04-16-prerl-rl-in-pretrain-space.md) | PreRL/DSRL: RL in pre-train space bypasses base model ceiling |
 | [2026-04-16-open-vs-closed-models-mid-2026.md](llms-foundation-models/2026-04-16-open-vs-closed-models-mid-2026.md) | Nathan Lambert's 13 bets on open vs. closed models mid-2026 |
 | [2026-04-16-infinitesciencegym-benchmark.md](llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md) | InfiniteScienceGym: procedurally generated scientific analysis benchmark |
