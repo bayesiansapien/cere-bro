@@ -1,0 +1,734 @@
+{
+  "date": "2026-06-16",
+  "slot": "evening",
+  "scraped_ist": "2026-06-16 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "We are on the MLPerf board with AMD MI350X training Llama 8B. This is with our driver, runtime, kernels, and training loop. 405B next MLPerf, along with a better time on 8B (tinygrad currently at 170 min).",
+          "link": "https://nitter.net/__tinygrad__/status/2066919273390604648#m",
+          "date_utc": "2026-06-16T16:22:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8rWBZbUAAItEU.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui 😂 pagu (@_pagupagu) Au Brésil la tentative d'interdiction des VPN a duré qq jours, le temps que le gouvernement réalise que 80% des entreprises utilisent des VPN pour leurs salariés, leur fournisseurs et leurs clients. Comme nos dirigeants sont bien plus cons que ceux du Brésil je suis optimiste. — https://nitter.net/_pagupagu/status/2066961295794905095#m",
+          "link": "https://nitter.net/brivael/status/2066961795299045589#m",
+          "date_utc": "2026-06-16T19:11:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "How Macron can be friendly with an evil guy like this? 🧐",
+          "link": "https://nitter.net/brivael/status/2066961075984290037#m",
+          "date_utc": "2026-06-16T19:08:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9SJCNbwAErPE3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The best man on earth. Video",
+          "link": "https://nitter.net/brivael/status/2066960573074649543#m",
+          "date_utc": "2026-06-16T19:06:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066939080047550464%2Fimg%2F03Y8eUOaMr6at-be.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais préparez-vous : ce n'est pas le récit des crimes qui est le plus insoutenable, c'est le récit de ceux qui savaient et qui n'ont rien fait. On nous répète que les viols collectifs d'enfants à Rotherham, Telford, Rochdale ont duré trente ans parce que « personne ne savait »",
+          "link": "https://nitter.net/brivael/status/2066959764421263532#m",
+          "date_utc": "2026-06-16T19:03:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Lancez-vous. Dites tout haut ce que vous pensez tout bas. L’humanité vous remerciera.",
+          "link": "https://nitter.net/brivael/status/2066959640316026982#m",
+          "date_utc": "2026-06-16T19:02:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9QtvaacAAXmY0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "SMX 🇺🇸 (@iam_smx) 5 Richest Billionaires combined = $1.3 trillion Elon Musk Alone = $1.4 trillion 🔥 — https://nitter.net/iam_smx/status/2066951191964107067#m",
+          "link": "https://nitter.net/brivael/status/2066958820165984750#m",
+          "date_utc": "2026-06-16T18:59:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9G7DrXkAAtM0X.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais préparez-vous : ce n'est pas le récit des crimes qui est le plus insoutenable, c'est le récit de ceux qui savaient et qui n'ont rien fait. On nous répète que les viols collectifs d'enfants à Rotherham, Telford, Rochdale ont duré trente ans parce que « personne ne savait »",
+          "link": "https://nitter.net/brivael/status/2066958624312983862#m",
+          "date_utc": "2026-06-16T18:58:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Et une lâcheté orientée, qui protège toujours le même groupe et sacrifie toujours le même, ce n'est plus de la lâcheté, c'est une morale. Brivael Le Pogam (@brivael) Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais préparez-vous : ce n'est pas le récit des crimes qui est le plus insoutenable, c'est le récit de ceux qui savaient et qui n'ont rien f",
+          "link": "https://nitter.net/brivael/status/2066958436991132101#m",
+          "date_utc": "2026-06-16T18:57:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Restaurer le courage, enfin : celui de nommer le réel quand il coûte. On a déconstruit jusqu'à la capacité de protéger les nôtres. La reconstruire ne sera pas l'affaire des commentateurs. Ce sera celle des bâtisseurs. Au travail. Brivael Le Pogam (@brivael) Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais préparez-vous : ce n'est pas le récit des ",
+          "link": "https://nitter.net/brivael/status/2066958343089111465#m",
+          "date_utc": "2026-06-16T18:57:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Restaurer la vérité : un crime est un crime, un fait est un fait, quel que soit le groupe de celui qui le commet, et enregistrer l'origine des auteurs n'est pas du racisme, c'est l'élément de réel minimal sans lequel aucune protection n'existe. Brivael Le Pogam (@brivael) Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais préparez-vous : ce n'est pa",
+          "link": "https://nitter.net/brivael/status/2066958273648153014#m",
+          "date_utc": "2026-06-16T18:57:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Derrida enseigne que tout texte glisse, qu'aucun sens n'est stable. Transposez : la parole d'une enfant n'est plus une preuve, c'est un texte réinterprétable à l'infini. « J'ai été violée » devient « elle fait des choix de vie », « elle se prostitue » « elle ment » Brivael Le Pogam (@brivael) Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais prépar",
+          "link": "https://nitter.net/brivael/status/2066958248062906427#m",
+          "date_utc": "2026-06-16T18:57:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Rupert Lowe MP (@RupertLowe10) The Rape Gang Inquiry Report. bit.ly/4uE5odw — https://nitter.net/RupertLowe10/status/2066873370239537189#m",
+          "link": "https://nitter.net/brivael/status/2066957397931987260#m",
+          "date_utc": "2026-06-16T18:53:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8B_8vXUAAefiA.png"
+          ],
+          "articles": [
+            {
+              "url": "http://bit.ly/4uE5odw",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pendant 30 ans, l'État britannique a su que des enfants étaient violées en série. Il a choisi de protéger les violeurs. Pas par hasard, par idéologie. Voici comment le wokisme a bâti l'impunité. Un rapport d'enquête vient de sortir. Je l'ai lu en entier c'est dans le lien en dessous. Lisez-le, mais préparez-vous : ce n'est pas le récit des crimes qui est le plus insoutenable, c'est le récit de ceux qui savaient et qui n'ont rien fait. On nous répète que les viols collectifs d'enfants à Rotherham, Telford, Rochdale ont duré trente ans parce que « personne ne savait ». C'est faux, et il faut le ",
+          "link": "https://nitter.net/brivael/status/2066957396476584283#m",
+          "date_utc": "2026-06-16T18:53:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. C’est un ETF anti bullshit, anti woke, anti globalist, anti communist, anti socialist, anti pedobear. ᵖᵃʳᵒᵈⁱᵉ Kim Jong Un (@KimJongUnique) Space X est en quelque sorte un ETF du futur. C’est stupide de sa part de comparer ça à de l’automobile. Les actions-ETF, style Berkshire-Hathaway, sont de bons placements, d’autant plus que Space X vise l’avenir. — https://nitter.net/KimJongUnique/status/2066950548687921516#m",
+          "link": "https://nitter.net/brivael/status/2066950838900404293#m",
+          "date_utc": "2026-06-16T18:27:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"Man is the cruellest animal.\" Friedrich Nietzsche UK right now... Brivael Le Pogam (@brivael) \"The world is a dangerous place to live, not because of the people who are evil, but because of the people who don’t do anything about it.\" Albert Einstein UK right now... — https://nitter.net/brivael/status/2066949924420473278#m",
+          "link": "https://nitter.net/brivael/status/2066950096932225249#m",
+          "date_utc": "2026-06-16T18:24:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9IH1vbkAANIoy.jpg",
+            "https://nitter.net/pic/media%2FHK9H94kboAAU1Qk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"The world is a dangerous place to live, not because of the people who are evil, but because of the people who don’t do anything about it.\" Albert Einstein UK right now...",
+          "link": "https://nitter.net/brivael/status/2066949924420473278#m",
+          "date_utc": "2026-06-16T18:23:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9H94kboAAU1Qk.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We're excited to join forces with @SpaceX to advance the frontier of useful AI. Expect significant improvements to Cursor soon. SpaceX (@SpaceX) SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI models. For the past few months, SpaceXAI has been jointly training a model with Cursor, which will be released in Cursor and Grok Build soon. We look forward to working closely with the Cursor team to advance our frontier AI capabilities — https://nitter.net/SpaceX/status/2066873915717136548#m",
+          "link": "https://nitter.net/cursor_ai/status/2066875698346954891#m",
+          "date_utc": "2026-06-16T13:29:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "🚀🚀🚀 SpaceX (@SpaceX) SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI models. For the past few months, SpaceXAI has been jointly training a model with Cursor, which will be released in Cursor and Grok Build soon. We look forward to working closely with the Cursor team to advance our frontier AI capabilities — https://nitter.net/SpaceX/status/2066873915717136548#m",
+          "link": "https://nitter.net/ellev3n11/status/2066927728813838454#m",
+          "date_utc": "2026-06-16T16:55:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2066932144065139157#m",
+          "date_utc": "2026-06-16T17:13:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK830zzWMAAkJ6N.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "GLM-5.2 runs in Kilo Code on day one. The 1M context window and Max effort mode are both live. Point your config at it and go! Z.ai (@Zai_org) Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency - MIT-licensed open weights - Same API pricing as GLM-5.1 Tech Blog: z.ai/blog/glm-5.2 Weights: huggingface.co/zai-org/GLM-5… API: ",
+          "link": "https://nitter.net/kilocode/status/2066953743166321077#m",
+          "date_utc": "2026-06-16T18:39:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK84LPRXQAA6x0_.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://z.ai/blog/glm-5.2",
+              "content": ""
+            },
+            {
+              "url": "http://huggingface.co/zai-org/GLM-5.2",
+              "content": ""
+            },
+            {
+              "url": "http://docs.z.ai/guides/llm/glm-5.2",
+              "content": "GLM-5.2 - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation Language Models GLM-5.2 Guides API Reference Scenario Example Coding Plan Released Notes Terms and Policy Help Center Get Started Quick Start Overview Pricing Core Parameters SDKs Guide Migrate to GLM-5.2 Language Models GLM-5.2 GLM-5.1 GLM-5 GLM-5-Turbo GLM-4.7 GLM-4.6 GLM-4.5 GLM-4-32B-0414-128K Vision Language Models GLM-5V-Turbo GLM-4.6V GLM-OCR AutoGLM-Phone-Multilingual GLM-4.5V Image Generation Models GLM-Image CogView-4 Video Generation Models CogVideoX-3 Vidu Q1 V"
+            },
+            {
+              "url": "http://z.ai/subscribe",
+              "content": "GLM Coding Plan — AI Coding Powered by GLM-5.2 GLM-5-Turbo for Agents IDEs My Coding Plan Coding Tools Guide Claude Code Cursor Cline Trae Kilo Code More MCP Guide Vision MCP Web Search MCP Web Reader MCP Zread MCP Community FAQ API Key Login Open menu"
+            },
+            {
+              "url": "http://chat.z.ai",
+              "content": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "SpaceX just bought Cursor for $60 billion. The price matters less than what the price buys. SpaceX has Colossus and a mountain of GPUs. Cursor has $2.6B ARR and enterprise distribution. The model layer is converging, so the durable advantage is moving to compute and distribution. When a tool gets acquired, its model choices start answering to the acquirer. That's the case for model freedom. Kilo (@kilocode) — https://nitter.net/kilocode/status/2066923954715996409#m",
+          "link": "https://nitter.net/kilocode/status/2066943588026781768#m",
+          "date_utc": "2026-06-16T17:58:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The market gave Uruguay 65.55% the day before kickoff. Only Kimi K2.6 saw the draw, off recent form and key-player club ratings. No betting odds, no browsing, same input for every model. Final: 1-1. Kilo WorldCupBench: four models vs the fans, every match. kilo-org.github.io/worldcupb… arrrkady (@arrrkady) Another match day and another result of @kilocode WC Bench. Before the match, market strongly favoured Uruguay (65.55%). @Kimi_Moonshot K2.6 picked Draw with reasoning: “Both teams share identical WWDLW recent form and their key-player club ratings are too closely matched.” — https://nitter.",
+          "link": "https://nitter.net/kilocode/status/2066940728333172809#m",
+          "date_utc": "2026-06-16T17:47:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK85LXaWIAAlKhK.jpg",
+            "https://nitter.net/pic/media%2FHK85yPjXQAAYKsF.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://kilo-org.github.io/worldcupbench",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "",
+          "link": "https://nitter.net/kilocode/status/2066923954715996409#m",
+          "date_utc": "2026-06-16T16:40:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "That's what we built Kilo to be. Auto model routing that sends each step to the model topping that benchmark, often the latest Qwen, plus real cost visibility and governance you can run a business on. If you're at VivaTech Paris, go say bonjour to Job! @Alibaba_Qwen",
+          "link": "https://nitter.net/kilocode/status/2066903327619567677#m",
+          "date_utc": "2026-06-16T15:18:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The breakthrough: open weight got genuinely good. The capability gap to the frontier has effectively closed, and Qwen is the clearest proof. So the question is no longer whether open models are good enough. It's how you build workflows on top of them.",
+          "link": "https://nitter.net/kilocode/status/2066903326319325293#m",
+          "date_utc": "2026-06-16T15:18:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Tomorrow, our Head of Growth @jobrietbergen delivers a keynote at @alibaba_cloud 's CXO Nexus at @VivaTech Paris. The topic: how open models scale into real enterprise workflows. A preview of where his head's at 👇",
+          "link": "https://nitter.net/kilocode/status/2066903324595487212#m",
+          "date_utc": "2026-06-16T15:18:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8dFWEWcAACuRr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Ari reacting to model news in real time is the content. GLM 5.2 prediction logged, we'll hold him to it. Ari Messer (@arimesser) Gonna get even crazier with the next Zai release 🤠 Video — https://nitter.net/arimesser/status/2066881850740494827#m",
+          "link": "https://nitter.net/kilocode/status/2066902125993513272#m",
+          "date_utc": "2026-06-16T15:14:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066881798487904256%2Fimg%2FVx2qI8Ewm1K1rY3W.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Next: Cursor goes open source? 😏",
+          "link": "https://nitter.net/kilocode/status/2066881804062122381#m",
+          "date_utc": "2026-06-16T13:53:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Managing git worktrees from the terminal is a pain. So we put them in a browser UI. Create, name, and launch a session in a worktree, all in one view. Run 𝚔𝚒𝚕𝚘 𝚌𝚘𝚗𝚜𝚘𝚕𝚎 to try it (beta). blog.kilo.ai/p/kilo-console-… Video",
+          "link": "https://nitter.net/kilocode/status/2066860490895036767#m",
+          "date_utc": "2026-06-16T12:28:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066860427800145921%2Fimg%2F2ZdJoYDvatGeJg5S.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/kilo-console-beta-is-live",
+              "content": "Kilo Console (Beta) is live! - by Arkadiy Kondrashov Kilo Blog Subscribe Sign in Kilo Console (Beta) is live! Manage git worktrees, sessions and settings with browser-based UI. Arkadiy Kondrashov Jun 11, 2026 11 15 Share Kilo Console is a local, browser-based UI for the Kilo CLI . It gives you one place to manage your projects, git worktrees, sessions, and settings — without hand-editing JSON config files. This guide walks through the basics. Kilo Console is in beta. Watch video for a quick overview or read the walkthrough below. Thanks for reading Kilo Blog! Subscribe for free to receive new posts and support my work. Subscribe Open the console Start it from your terminal. You will need to install a Release Candidate package since it’s still an experimental feature: npm -g install @kiloco"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Full breakdown, benchmarks, and pricing: blog.kilo.ai/p/you-dont-have…",
+          "link": "https://nitter.net/kilocode/status/2066810236296454610#m",
+          "date_utc": "2026-06-16T09:08:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066651504287641602%2Fmane0ORA%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/you-dont-have-to-use-fable-and-mythos",
+              "content": "You Don&#x27;t Have to Use Fable and Mythos to Work on the Frontier Kilo Blog Subscribe Sign in You Don't Have to Use Fable and Mythos to Work on the Frontier In a complex regulatory environment, model freedom ensures that your workflows don't stop Ari Messer Jun 15, 2026 6 3 1 Share When Anthropic dropped Claude Fable 5 and Mythos 5 last week, the reaction was immediate. Fable 5 scored 80.3% on SWE-bench Pro and an astonishing 85% on OS-World Verified for computer use, placing it state-of-the-art across nearly every benchmark. Mythos — the same underlying model with safeguards lifted — was even more remarkable, the kind of unconstrained research capability that explains why Anthropic had been restricting access under Project Glasswing for two months before public launch. Kilo had day-zero"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "\"Most capable model available\" is not \"most capable model you can rely on.\" Reliability is a feature. 500+ models in the Kilo Gateway, plus BYOK. The frontier is wider than one lab, and it's open for business.",
+          "link": "https://nitter.net/kilocode/status/2066810234933244084#m",
+          "date_utc": "2026-06-16T09:08:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Kimi K2.7 Code: 81.1 on MCP Mark Verified. CI checks, ticket updates, multi-file edits in one loop, reliably. 30% fewer reasoning tokens than K2.6. Priced to run every day.",
+          "link": "https://nitter.net/kilocode/status/2066810233154904417#m",
+          "date_utc": "2026-06-16T09:08:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7I9A4XwAARQjM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "MiniMax M3 edges past GPT-5.5 on SWE-Bench Pro and Terminal Bench, at roughly 1/40th the cost of Fable 5. Open weights too. Third most popular Kilo model since the Fable news broke.",
+          "link": "https://nitter.net/kilocode/status/2066810227605778542#m",
+          "date_utc": "2026-06-16T09:08:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7I8smXwAAlcn7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Nemotron 3 Ultra is free in Kilo right now. Open-weight, 1M context, highest intelligence index among US open-weight models. Self-host it and your code never leaves your infrastructure. Hardware sovereignty stopped being abstract.",
+          "link": "https://nitter.net/kilocode/status/2066810222417527131#m",
+          "date_utc": "2026-06-16T09:08:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "GPT-5.5 quietly took the top spot on KiloBench: 74.2% completion, first among every model we track. Cheaper per attempt than comparable Opus and Gemini runs. The best model nobody was talking about.",
+          "link": "https://nitter.net/kilocode/status/2066810220681003376#m",
+          "date_utc": "2026-06-16T09:08:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7I8TuWUAA79O3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Fable 5 and Mythos 5 were the best coding models you could get. Gone three days after launch when a US export directive forced Anthropic to pull them globally. Production doesn't pause for a regulatory fight. The frontier didn't go dark either. 🧵",
+          "link": "https://nitter.net/kilocode/status/2066810215148777638#m",
+          "date_utc": "2026-06-16T09:08:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7I77vWcAAE4dd.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Microsoft exploring DeepSeek over OpenAI and Anthropic as Copilot Cowork moves to usage-based pricing “We have users who do hundreds of tasks a week… the consequence is the costs can go very high...” Jevons paradox",
+          "link": "https://nitter.net/ns123abc/status/2066934557077631197#m",
+          "date_utc": "2026-06-16T17:22:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK86BhvXYAAaK8G.jpg",
+            "https://nitter.net/pic/media%2FHK86BhwXwAATfqT.jpg",
+            "https://nitter.net/pic/media%2FHK86Bh1W0AEFtmB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: DeepSeek just raised $7.4 billion at $50 billion+ valuation CEO Liang Wenfeng wrote the biggest check himself: $2.8B Tencent: $1.4B CATL: $700M JD, NetEase, IDG Capital: $420M each China’s National AI Fund: $140M Investors put money into an LP managed by CEO Liang, not DeepSeek 5-year lockup on all shares external investors get NO voting rights Only exception: the CCP fund invests directly with voting rights and no lockup DeepSeek believes AI should be open-source to actually benefit all humanity.",
+          "link": "https://nitter.net/ns123abc/status/2066922389200310642#m",
+          "date_utc": "2026-06-16T16:34:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8u9GbWAAADZcC.jpg",
+            "https://nitter.net/pic/media%2FHK8u9GVXMAEyP1u.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“The sun is ENORMOUS… The way to actually scale civilization is to scale power in space… All of civilization is only about a TRILLIONTH of the sun’s energy. Which means if you increase civilizational power output by a million, you would still only be a MILLIONTH of the sun’s energy” Let that sink in. Video Elon Musk (@elonmusk) It is humbling to consider that if we harness just 1 millionth of the Sun’s power for AI, that will be much more than a million times the intelligence of all of humanity — https://nitter.net/elonmusk/status/2066891067899944993#m",
+          "link": "https://nitter.net/ns123abc/status/2066904905722282003#m",
+          "date_utc": "2026-06-16T15:25:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066904710473211904%2Fimg%2FeIiDAOoQ2BwPYw5Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Welcome to the Musk Empire Cursor (@cursor_ai) We're excited to join forces with @SpaceX to advance the frontier of useful AI. Expect significant improvements to Cursor soon. — https://nitter.net/cursor_ai/status/2066875698346954891#m",
+          "link": "https://nitter.net/ns123abc/status/2066881316629410051#m",
+          "date_utc": "2026-06-16T13:51:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: SpaceX has formally agreed to acquire Cursor for $60 billion in an all-stock deal Grok Build INCOMING SpaceX (@SpaceX) SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI models. For the past few months, SpaceXAI has been jointly training a model with Cursor, which will be released in Cursor and Grok Build soon. We look forward to working closely with the Cursor team to advance our frontier AI capabilities — https://nitter.net/SpaceX/status/2066873915717136548#m",
+          "link": "https://nitter.net/ns123abc/status/2066877457416818773#m",
+          "date_utc": "2026-06-16T13:36:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8GGB3XMAAajAi.jpg",
+            "https://nitter.net/pic/media%2FHK8GGB2W0AEkwnv.jpg",
+            "https://nitter.net/pic/media%2FHK8GGB3XoAA1xDB.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "When you think of the most lovely and cherished buildings in LA...places you *want* to go, they're all Art Deco. We can make buildings look any way we want...why not choose this magical legacy and build like we care? Reject communism. Reject ugly. Embrace beauty.",
+          "link": "https://nitter.net/spencerpratt/status/2066851514857971906#m",
+          "date_utc": "2026-06-16T11:52:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7tVfoXkAA-2V8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "In music, it's often said D major is the key that resonates with the human soul. Schubart said it's \"the key of triumph, of Hallejuahs, of war-cries, of victory-rejoicing.\" The \"D major\" of architecture is (D)eco. Art Deco is the defining aesthetic of the City of Angels.",
+          "link": "https://nitter.net/spencerpratt/status/2066851512437874912#m",
+          "date_utc": "2026-06-16T11:52:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7sGI-XcAELZhP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Predictably, this monstrosity remains largely empty; nobody wants to be here. This affront to beauty has become insta-blight, more likely to house Superman's arch-nemesis than any functional business. The communist's worship of ugliness has profound impacts on society.",
+          "link": "https://nitter.net/spencerpratt/status/2066851509329961256#m",
+          "date_utc": "2026-06-16T11:52:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7p7r8XQAAvYkL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Conversely, commie slopitecture repels us. This ugliness poisons the soul. You want to avert your eyes from this stain on our skyline. How can you enjoy or take pride in where you live if you don't even want to look at it? It looks like the wreckage of some great tragedy.",
+          "link": "https://nitter.net/spencerpratt/status/2066851506729500781#m",
+          "date_utc": "2026-06-16T11:52:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7pf3cWwAAxRnb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The City had a 150' height limit, but ECB's trademark clock tower was granted an exemption, because beauty should always supersede bureaucracy. Breathtaking architecture like this is a magnet...it draws us in, makes us *want* to be here, and inspires us to do great things here.",
+          "link": "https://nitter.net/spencerpratt/status/2066851503424319625#m",
+          "date_utc": "2026-06-16T11:52:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7oXw3WsAAyi5K.jpg",
+            "https://nitter.net/pic/media%2FHK7oXw3XgAAp1XM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The Eastern Columbia Building is the benchmark for art deco beauty in LA. Built a century ago, during the throes of the Depression in just *9 months*; a testament to what Angelenos are capable of, in any adverse circumstances, when they actually give a damn.",
+          "link": "https://nitter.net/spencerpratt/status/2066851501276823634#m",
+          "date_utc": "2026-06-16T11:52:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7nQOQWcAAtbag.jpg",
+            "https://nitter.net/pic/media%2FHK7nQOOXkAA_-R1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "One of the hallmarks of communism is the exaltation of ugliness. Contrast our gorgeous Depression-era LA architecture with the commie brutalist slop vomited upon us today. I'll support any candidate who vows to throw this architect in prison for crimes against beauty.",
+          "link": "https://nitter.net/spencerpratt/status/2066851497631981711#m",
+          "date_utc": "2026-06-16T11:52:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7mxtpXEAAv6OI.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
