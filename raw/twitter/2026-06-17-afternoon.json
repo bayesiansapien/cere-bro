@@ -1,0 +1,273 @@
+{
+  "date": "2026-06-17",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-17 15:13",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "GenAI.mil is the @DeptofWar 's premier AI platform. The GenAI.mil Task Force is embedding AI directly into the workflows of our warfighters—starting at Fort Bragg. 🇺🇸 Video",
+          "link": "https://nitter.net/DoWCTO/status/2066974564538556493#m",
+          "date_utc": "2026-06-16T20:01:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066974442291355649%2Fimg%2F5aOP0Cc3ZsuGTQjQ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://GenAI.mil",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The @DeptofWar ’s Office of Strategic Capital announced a $500 million conditional loan commitment to Phoenix Tailings ( @PhoenixTailings ) to scale the company’s domestic processing of rare earth elements. Phoenix Tailings specializes in rare earth separation and metallization, a highly technical midstream process that bridges the critical gap between raw extraction and permanent magnet production. The company’s increased production will directly support permanent magnet facilities across the broader U.S. industrial base and strengthen supply chains for other specialty defense and industrial ",
+          "link": "https://nitter.net/DoWCTO/status/2066889174917984672#m",
+          "date_utc": "2026-06-16T14:22:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8Qv80W4AA7WHq.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today we introduce a new vectorized dataset for mapping fine-scale ecological features, such as hedgerows, that often go undetected by standard satellites. This precision provides a new roadmap for addressing climate & biodiversity challenges without compromising food security. More: goo.gle/4eMWqG0",
+          "link": "https://nitter.net/GoogleResearch/status/2066937548522598651#m",
+          "date_utc": "2026-06-16T17:34:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK88rxVbMAAosEZ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://goo.gle/4eMWqG0",
+              "content": "From pixels to planning: Earth AI for nature restoration Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the future t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We're launching code storage and git hosting. Origin gives teams and agents a place to host, review, and collaborate on code. Available this fall. Join the waitlist. cursor.com/origin-waitlist",
+          "link": "https://nitter.net/cursor_ai/status/2067012220832329782#m",
+          "date_utc": "2026-06-16T22:31:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067011785404887040%2FkPl0llQ5%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://cursor.com/origin-waitlist",
+              "content": "Cursor · Origin Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Continue to Origin Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "le cursor big",
+          "link": "https://nitter.net/ellev3n11/status/2067056938391920640#m",
+          "date_utc": "2026-06-17T01:29:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Video xAI (@xai) Grok Imagine Video 1.5 is here Our new image-to-video model with sharper realism, better physics and faster generations 🧵 grok.com/imagine Video — https://nitter.net/xai/status/2067092897951109427#m",
+          "link": "https://nitter.net/heavypulp/status/2067132658799329328#m",
+          "date_utc": "2026-06-17T06:30:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067132503144501248%2Fimg%2FBmDAi6Vo6PmMkXk_.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2067092476628983808%2Fimg%2FEx2nEbDyanXh6_1m.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://grok.com/imagine",
+              "content": "Grok Imagine"
+            }
+          ]
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Had a ton of fun putting this together showing a little behind the scenes look at how I approach my video projects like the Odyssey trailer using @grok @imagine ! xAI (@xai) See how @heavypulp made a trailer worthy of the big screen with this powerful new model: Video — https://nitter.net/xai/status/2067092900694135081#m",
+          "link": "https://nitter.net/heavypulp/status/2067093962171486342#m",
+          "date_utc": "2026-06-17T03:56:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067092594744860672%2Fimg%2FmxmNTPSWV1d8yv44.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Imagine Video 1.5 delivers true motion, realistic environments, and consistent text across frames xAI (@xai) Grok Imagine Video 1.5 is here Our new image-to-video model with sharper realism, better physics and faster generations 🧵 grok.com/imagine Video — https://nitter.net/xai/status/2067092897951109427#m",
+          "link": "https://nitter.net/milichab/status/2067094198453682254#m",
+          "date_utc": "2026-06-17T03:57:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067092476628983808%2Fimg%2FEx2nEbDyanXh6_1m.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://grok.com/imagine",
+              "content": "Grok Imagine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok Imagine is actually top tier kino if you’ve used it in canvas mode with multi-agents for image media and video storytelling. it’s the most useful tool of its kind and certainly the best AI product Video",
+          "link": "https://nitter.net/ns123abc/status/2067118722775466094#m",
+          "date_utc": "2026-06-17T05:34:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067092594744860672%2Fimg%2FmxmNTPSWV1d8yv44.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: SpaceX has formally agreed to acquire Cursor for $60 billion in an all-stock deal Grok Build INCOMING SpaceX (@SpaceX) SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI models. For the past few months, SpaceXAI has been jointly training a model with Cursor, which will be released in Cursor and Grok Build soon. We look forward to working closely with the Cursor team to advance our frontier AI capabilities — https://nitter.net/SpaceX/status/2066873915717136548#m",
+          "link": "https://nitter.net/ns123abc/status/2066877457416818773#m",
+          "date_utc": "2026-06-16T13:36:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8GGB3XMAAajAi.jpg",
+            "https://nitter.net/pic/media%2FHK8GGB2W0AEkwnv.jpg",
+            "https://nitter.net/pic/media%2FHK8GGB3XoAA1xDB.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The Eastern Columbia Building is the benchmark for art deco beauty in LA. Built a century ago, during the throes of the Depression in just *9 months*; a testament to what Angelenos are capable of, in any adverse circumstances, when they actually give a damn.",
+          "link": "https://nitter.net/spencerpratt/status/2066851501276823634#m",
+          "date_utc": "2026-06-16T11:52:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7nQOQWcAAtbag.jpg",
+            "https://nitter.net/pic/media%2FHK7nQOOXkAA_-R1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "One of the hallmarks of communism is the exaltation of ugliness. Contrast our gorgeous Depression-era LA architecture with the commie brutalist slop vomited upon us today. I'll support any candidate who vows to throw this architect in prison for crimes against beauty.",
+          "link": "https://nitter.net/spencerpratt/status/2066851497631981711#m",
+          "date_utc": "2026-06-16T11:52:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK7mxtpXEAAv6OI.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}

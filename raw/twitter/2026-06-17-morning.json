@@ -1,0 +1,931 @@
+{
+  "date": "2026-06-17",
+  "slot": "morning",
+  "scraped_ist": "2026-06-17 09:05",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "See here: Austin Justice (@AustinJustice) The University of Texas at Austin has become a breeding ground for vagrants who get off on masturbating in front of women, and the victims are getting no help from the DA. In September, a repeated offender named Patrick Sweeney ran across campus naked, chased female joggers, and masturbated in a parking lot beside the LBJ Library before hiding from police in a port-a-potty. This week, Octavius Brown -- a registered sex offender with multiple prior indecent exposure convictions -- broke into three West Campus apartments in one morning, masturbated in fr",
+          "link": "https://nitter.net/AustinJustice/status/2067064411110482108#m",
+          "date_utc": "2026-06-17T01:58:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKtF81rW0AAXedZ.jpg",
+            "https://nitter.net/pic/media%2FHKtF81oXoAAk4Wq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Councilman Zo Qadri is out here taking credit for \"preventing hate crimes\" in his district -- the same district where men are chasing women down the street, breaking into apartments to masturbate, and climbing into strangers' beds to choke them. Zohaib “Zo” Qadri (@zoforaustin) Muslim Texans left the GOP convention in tears. As the first Muslim elected to Austin City Council, we’ve focused on lowering rent, preventing hate crimes, and delivering for working families. Texans deserve leaders with better priorities. Video — https://nitter.net/zoforaustin/status/2067052930310578248#m",
+          "link": "https://nitter.net/AustinJustice/status/2067064409566900318#m",
+          "date_utc": "2026-06-17T01:58:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067052741789163520%2Fimg%2FGmaWYF2ahykSxgI_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Prior DAs indicted him as a felon and sent him to state jail -- nine months, then ten months. His misdemeanor thefts got him real time too: 270 days, 293 days, 300 days. They at least limited the damage he could do by making sure he spends significant time in jail. Now consider his Home Depot run under Delia Garza. He clearly learned there are no consequences. Six thefts, a court order ignored, two foot chases. Garza's answer was three dismissals, the top charge declined, and 20 days total.",
+          "link": "https://nitter.net/AustinJustice/status/2067063458978300183#m",
+          "date_utc": "2026-06-17T01:55:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "AUSTIN MAN stuffs hammers down his pants and walks out of the same South Austin Home Depot -- the sixth time he's stolen from it this year. He's fled loss prevention twice and is under a court order to stay away. Apparently aware there will be no consequences, Guadalupe Delacruz told police he was stealing the tools to resell them. He skipped court on the first case and ignored the stay-away order the whole time. About $750 in tools across six trips. What Delia Garza's office did with it: - Three convictions, 20 days each, ordered to run together. So 20 days, total. - Three charges dismissed, ",
+          "link": "https://nitter.net/AustinJustice/status/2067063456893657582#m",
+          "date_utc": "2026-06-17T01:55:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-vQmVXMAE6RRG.jpg",
+            "https://nitter.net/pic/media%2FHK-vQmPW4AAivUa.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "The blog shares common reasons teams have chosen to build on Claude Managed Agents, several case-studies, and practical tips for getting started: claude.com/blog/building-wit…",
+          "link": "https://nitter.net/ClaudeDevs/status/2066926620989169932#m",
+          "date_utc": "2026-06-16T16:51:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2064827635985985536%2FUNAfr2r8%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/building-with-claude-managed-agents",
+              "content": "The evolution of agentic surfaces: building with Claude Managed Agents | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Mythos Fable Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contac"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "How do teams get agents into production? New blog post from our Applied AI team on Claude Managed Agents and the challenges it solves (credentials, sandboxing, observability, more) ... Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2066926619714007115#m",
+          "date_utc": "2026-06-16T16:51:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066920981512540160%2Fimg%2FrDBsJ78vvcqxfpv_.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“Free @karpathy .” San Francisco T-shirt coming soon.",
+          "link": "https://nitter.net/Scobleizer/status/2067124787189871093#m",
+          "date_utc": "2026-06-17T05:58:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Laughed at this article about rich Silicon Valley nerds going to panels on cult building and prepping for WWIII. My mom joined a Montana Survivalist Cult back in 1988. Scobles are always ahead. :-) The cult had something like 60,000 members, most of whom were college educated. I won a journalism award for a story I wrote about it (Church Universal and Triumphant). The cult pissed off many in Montana because they invaded the towns just north of Yellowstone National Park. Because my mom was a key member of the church, and owned a religious bookstore in Livingston, Montana, I was walked right pas",
+          "link": "https://nitter.net/Scobleizer/status/2067092893119246504#m",
+          "date_utc": "2026-06-17T03:52:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067021876988432384%2FjskhtGPb%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.wired.com/story/leak-exposes-members-of-peter-thiels-secretive-dialog-society/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+              "content": "Leak Exposes Members of Peter Thiel’s Secretive ‘Dialog’ Society | WIRED Skip to main content Menu WIRED SECURITY POLITICS THE BIG STORY BUSINESS SCIENCE CULTURE REVIEWS Menu WIRED Account Account Newsletters Security Politics The Big Story Business Science Culture Reviews Chevron More Expand The Big Interview Magazine Events WIRED Insider WIRED Consulting Newsletters Podcasts Video Livestreams Merch Search Search Dell Cameron Yulia Almazova Security Jun 16, 2026 4:21 PM Leak Exposes Members of Peter Thiel’s Secretive ‘Dialog’ Society More than 200 of the world s elites registered for a retreat whose agenda runs from panels on cult-building and sex to prepping for World War III. An associated app offers matchmaking. Photograph: Nordin Catic/Getty Images Comment Loader Save Story Save this "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Of course I entered alignednews.com/ai (it is built wholly on the X API, gathers 30,000 posts a day via the API and then analyzes them for AI news). Developers (@XDevelopers) 🚀 Announcing the X API Exhibit! A new dedicated space where developers can publish and showcase the apps they’ve built with the X API. We’ll review submissions and select high-quality developer apps to be included in the initial showcase. Apply here: devcommunity.x.com/t/introdu… — https://nitter.net/XDevelopers/status/2067064261264986463#m",
+          "link": "https://nitter.net/Scobleizer/status/2067088934547726698#m",
+          "date_utc": "2026-06-17T03:36:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-v8WBaoAEuzZj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Earlier I gave the link to the wrong page. Here's all the new YC companies: ycombinator.com/companies/?b… I'm going through each and adding to my AI company lists here on X (now more than 8,800 companies): Aaron Epstein (@aaron_epstein) Packed house for YC Demo Day – congrats to all the founders on the crazy progress throughout the batch! — https://nitter.net/aaron_epstein/status/2066933728946106508#m",
+          "link": "https://nitter.net/Scobleizer/status/2067052493243383829#m",
+          "date_utc": "2026-06-17T01:11:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK85RS3bIAAmhts.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.ycombinator.com/companies/?batch=Spring%202026",
+              "content": "The YC Startup Directory | Y Combinator"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I love @FarzaTV 's joy.",
+          "link": "https://nitter.net/Scobleizer/status/2067033872144171227#m",
+          "date_utc": "2026-06-16T23:57:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Robot hand innovation from China. If one of these can roll a joint I will lose my mind. Xynova (@Xynovaofficial_) The ICRA-exclusive \"Artisan\" has officially arrived—and the buzz is undeniable. Crowd of global researchers and industry peers queued up to get hands-on with the hands, drawn by the seamless fusion of hybrid actuation and precision force-position integration. #ICRA Video — https://nitter.net/Xynovaofficial_/status/2066826510678573145#m",
+          "link": "https://nitter.net/Scobleizer/status/2067033093127696399#m",
+          "date_utc": "2026-06-16T23:54:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066825731230023680%2Fimg%2FjvIjjbxKKpv7BkcH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Happy user of Clicky. The dude does the best presentations. Farza 🇵🇰🇺🇸 (@FarzaTV) We built an AI that can draw on your screen. It's a true personal tutor. Using Claude Opus we're able to draw polygons, point with pixel perfect accuracy, and walk users through complex steps directly on their screen. Here's me learning Pythagorean Theorem + FL Studio. Demo: Video — https://nitter.net/FarzaTV/status/2066983088035656086#m",
+          "link": "https://nitter.net/Scobleizer/status/2067029037479055464#m",
+          "date_utc": "2026-06-16T23:38:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066977146426535936%2Fimg%2Ft2DQuFmirKq7vkov.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Will be there. What do you think it is? @DavidSHolz says it isn’t what I expect. I have no expectations. :-) Midjourney (@midjourney) Midjourney will be announcing its first hardware project tomorrow (Wednesday 6/17) at 6pm PT. Stay tuned for a livestream of our in-person launch event in San Francisco. If you're in town and want an invite, reply below, we have just a few slots left. — https://nitter.net/midjourney/status/2066994481770213697#m",
+          "link": "https://nitter.net/Scobleizer/status/2067026827818967189#m",
+          "date_utc": "2026-06-16T23:29:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What a world. Asked my AI to read the list of 193 new @ycombinator startups and it picked its favorites. Among other things: alignednews.com/ai",
+          "link": "https://nitter.net/Scobleizer/status/2066968902522024329#m",
+          "date_utc": "2026-06-16T19:39:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The public has lost trust in AI. @IrenaCronin and I write this newsletter every week. Public trust could become one of AI’s biggest challenges. People may push back if they think AI only helps big companies, wealthy investors, or government agencies. For AI to be accepted, people need to see that it helps workers, improves services, protects privacy, and benefits everyday users. Trust will depend on clear rules, honesty, and using AI to support people, not replace or control them. Read for free and please subscribe: unaligned.io",
+          "link": "https://nitter.net/Scobleizer/status/2066963241222443494#m",
+          "date_utc": "2026-06-16T19:16:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9UFGIawAAOqdP.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 19 hours ago ​​​​​​The Public Trust Problem in AI Robert Scoble, +1 Jun 09, 2026 ​​​​​​The New AI Investment Race Why Governments Want a Stake in AI Companies Robert Scoble, +1 Jun 02, 2026 ​​​​​​The AI IPO Race Robert Scoble, +1 May 26, 2026 ​​​​​​AI Regulation Becomes a Moral Issue Robert Scoble, +1 May 19, 2026 ​​​​​​AI Work Intelligence Platforms The Future of Productivity Robert Scoble, +1 May 12, 2026 ​​​​​​AI-Powered Cyberattacks A New Security Threat Robert Scoble, +1 May 05, 2026 ​​​​​​AI Agents and the New Enterprise Workforce Layer Robert Scoble, +1 Apr 28, 2026 ​​​​​​The Rise of AI Native Companies Robert Sco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“This is accountability in action—half a billion dollars in stolen taxpayer funds—identified, frozen, and returned to the Treasury. Through continued collaboration with the Department and Acting Secretary Sonderling, we were able to produce real, measurable results for the American people.” - @USLaborIG DOL OIG (@DOLOIG) 🚨PRESS RELEASE: U.S. Department of Labor Office of Inspector General Returns Over $512M in Fraudulent Unemployment Claims to U.S. Treasury Read: ⤵️ oig.dol.gov/public/Press%20R… — https://nitter.net/DOLOIG/status/2067007140368118118#m",
+          "link": "https://nitter.net/WHFraudTF/status/2067019438549864738#m",
+          "date_utc": "2026-06-16T23:00:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK91TKuWkAArikr.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.oig.dol.gov/public/Press%20Releases/OIG-Press-Release-061626.htm",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“Today’s return of hard-earned American taxpayer dollars represents more than a financial recovery—it reinforces our commitment to protecting American workers and the programs they depend on.” - @Sonderling47 DOL OIG (@DOLOIG) 🚨PRESS RELEASE: U.S. Department of Labor Office of Inspector General Returns Over $512M in Fraudulent Unemployment Claims to U.S. Treasury Read: ⤵️ oig.dol.gov/public/Press%20R… — https://nitter.net/DOLOIG/status/2067007140368118118#m",
+          "link": "https://nitter.net/WHFraudTF/status/2067019196370661734#m",
+          "date_utc": "2026-06-16T22:59:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK91TKuWkAArikr.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.oig.dol.gov/public/Press%20Releases/OIG-Press-Release-061626.htm",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": ". @VP ’s Fraud Task Force and @DOLOIG have successfully recovered $512 MILLION stolen by fraudsters. The Trump-Vance Administration is winning the War on Fraud. 🇺🇸 DOL OIG (@DOLOIG) 🚨PRESS RELEASE: U.S. Department of Labor Office of Inspector General Returns Over $512M in Fraudulent Unemployment Claims to U.S. Treasury Read: ⤵️ oig.dol.gov/public/Press%20R… — https://nitter.net/DOLOIG/status/2067007140368118118#m",
+          "link": "https://nitter.net/WHFraudTF/status/2067015802994168179#m",
+          "date_utc": "2026-06-16T22:45:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK91TKuWkAArikr.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.oig.dol.gov/public/Press%20Releases/OIG-Press-Release-061626.htm",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Thais is a good friend and absolute killer - go help her end slop Thais Castello Branco (@thaiscbranco_) We’re excited to introduce Taste Labs. Our mission is to end AI slop. We’re building the data and infrastructure layer to give AI models and agents taste. And today we’re coming out of stealth, announcing our $18.5M seed funding, co-led by @CRV and @AmplifyPartners AI has nailed objective domains and made it easy to generate anything. But it still feels off. Now, the challenge is judgement. What fits, what feels like you, what’s GREAT. This requires turning a fuzzy, subjective domain into s",
+          "link": "https://nitter.net/_sholtodouglas/status/2066918590775976322#m",
+          "date_utc": "2026-06-16T16:19:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK87WrtaEAAh18o.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "As the humanoid supply chain develops it’ll unlock ready player one style force feedback exoskeletons - big opportunity to build something cool here in the next few years. Of course - likely humanoids will outbid VR for every marginal motor until 2030+, but see you in VR Skyrim then 😎 Litian Liang (@litian_liang) Introducing Universal Manipulation Exoskeleton (UME) A low-cost exoskeleton with real-time haptic torque feedback for learning autonomous policies that perform highly force-mediated, tightly space-constrained, visually occluded, whole-body, and long-horizon mobile manipulation tasks. ",
+          "link": "https://nitter.net/_sholtodouglas/status/2066895538747019767#m",
+          "date_utc": "2026-06-16T14:47:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066541415979700224%2Fimg%2Fh4iZUGLISzlHU1Hx.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://ume-exo.github.io/",
+              "content": "Universal Manipulation Exoskeleton Universal Manipulation Exoskeleton Learning Compliant Whole-body Policies with Real-time Torque Feedback Litian Liang *, 1 , James (Jingxi) Xu *, 1, 2 , Xinda Qi 1 , Yujun Cai 1 , Houzhu Ding 1 , Luqi Wang 1 , Zhixin Sun 1 , Jyh-Herng Chow 1 , Ming Yang 1 , Mark Cutkosky 2 1 Ant Group, 2 Stanford University * Equal contribution Paper arXiv Video Code (coming soon) Data --> Teleoperator unsheathing a metal sword relying purely on real-time haptic torque feedback. Abstract For robots to work safely in household environments, they need to be compliant and react to torque and force feedback during contact. However, the majority of existing data collection pipelines still lack the ability to capture force and torque data for learning active compliant policies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Wall Street Memes (@wallstmemes) Elon Musk after making more money in four days than the 2nd richest person is worth Video — https://nitter.net/wallstmemes/status/2066911139150094722#m",
+          "link": "https://nitter.net/brivael/status/2067126071682888023#m",
+          "date_utc": "2026-06-17T06:03:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066910692125368321%2Fimg%2FqBzhKktXPV8CqzQX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Lucas FLandre / Founder trace (@LucasFlandre) Ce que les gauchistes imaginent quand ils disent “Elon Musk est ultra-riche” 👀 — https://nitter.net/LucasFlandre/status/2066939766541533449#m",
+          "link": "https://nitter.net/brivael/status/2067125948131275189#m",
+          "date_utc": "2026-06-17T06:03:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8-wIvXMAABq3Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je tombe sur cette vidéo en 2026 c’est quoi ça ? 😂 Fan de Marlène (@FanDeMarlene) \"On a des échanges musclés\" \"Nous limons... Abondamment\" Video — https://nitter.net/FanDeMarlene/status/1523393181903384576#m",
+          "link": "https://nitter.net/brivael/status/2067122616054476851#m",
+          "date_utc": "2026-06-17T05:50:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F1523392871138836482%2Fpu%2Fimg%2Fv2-9xlUsdl9Bnn1R.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pour ceux qui se réveille en France 👇 Et qui veulent se donner une bonne dose d’optimisme sur le collapse de l’empire du mensonge. Brivael Le Pogam (@brivael) Le roi est nu Le wokisme et la gauche culturelle, c'est le roi nu du conte d'Andersen. Vous vous souvenez de l'histoire ? Un roi se promène tout nu, persuadé de porter un costume magnifique. Deux escrocs le lui ont vendu en jurant que le tissu est « magique » : invisible aux imbéciles. Du coup, plus personne n'ose dire qu'il ne voit rien, de peur de passer pour un idiot. Tout le monde voit un homme à poil. Et tout le monde complimente se",
+          "link": "https://nitter.net/brivael/status/2067121928650080267#m",
+          "date_utc": "2026-06-17T05:47:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-aQZMbcAA3TV-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La liberté n'est pas qu'une valeur. C'est l'architecture la plus efficiente de l'univers. Le contrôle des autres, c'est de la dette technique sur le réel. Brivael Le Pogam (@brivael) Depuis l'époque PayPal, Peter Thiel bute sur une seule chose chez Elon. Ses mots : \"il sait quelque chose sur le risque que nous on ignore. C'est dur à articuler. Je ne sais même pas s'il peut l'articuler lui-même.\" Aujourd'hui je vais essayer de connecter trois trucs : l'expérience des fentes de Young, le multivers, et le rapport au risque d'Elon. Et pourquoi, lui, il gagne à tous les coups. Le raisonnement de Th",
+          "link": "https://nitter.net/brivael/status/2067117445656273095#m",
+          "date_utc": "2026-06-17T05:29:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 KF1975 (@KF1975vz) Marketing olfactif pour attirer un nouvel électorat — https://nitter.net/KF1975vz/status/2067112692293222431#m",
+          "link": "https://nitter.net/brivael/status/2067112806630199732#m",
+          "date_utc": "2026-06-17T05:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "wtf G-William Goldnadel (@GWGoldnadel) C’est via RSF que l’Arcom a mis en demeure @CNEWS . RSF présidé par P.Haski de @franceinter ex de Libération. Qui a reconnu : « Nous avons reçu de Soros un financement substantiel pour surveiller le Web français. Soros en a eu pour son argent ». L’information cadenassée . Orwell. — https://nitter.net/GWGoldnadel/status/2066782690423005445#m",
+          "link": "https://nitter.net/brivael/status/2067106200316166451#m",
+          "date_utc": "2026-06-17T04:44:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Son seul fait d’arme, c’est la verrue pleine de pue AI act 😂😂😂 AuBonTouiteFrançais 🍾🍾🍾 (@VictorSinclair3) Thierry Breton qui critique les résultats financiers de Elon Musk alors qu’il a planté TOUTES les sociétés dans lesquelles il est passé ! 🤡 Ça n’a pas de prix. Ces mecs osent absolument TOUT. Rien ne les arrête. Moi je crois qu’ils sont fous. Video — https://nitter.net/VictorSinclair3/status/2066565997184655518#m",
+          "link": "https://nitter.net/brivael/status/2067100328080920945#m",
+          "date_utc": "2026-06-17T04:21:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHKyhxm3WYAAriIA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les entrepreneurs avec du track record (pas bureaucratique) privé. Doivent avoir le pouvoir en haut de la pile. Les autres ne sont que des pignous. Ze Clint (@ZeClint) Ces réflexions que l'on mène tous ici bas me font penser de facon pavlovienne au mouvement @leszebres de @AlexandreJardin . C'est une réflexion que j'avais adoré a l'époque ... il faut que la faiseurs reprennent le pouvoir ! Il faut que ceux dont le succès parle pour eux reprennent le pouvoir ! MARRE des commentateurs et des aparatchicks qui ont planté tout ce qu'ils ont touché ! — https://nitter.net/ZeClint/status/2066806428283",
+          "link": "https://nitter.net/brivael/status/2067096790059594038#m",
+          "date_utc": "2026-06-17T04:07:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Evan (@StockMKTNewz) FTX invested ~$200K into Cursor in 2022 for 5% of the company FTX was forced to sell those shares in 2023 for $200K after the company collapsed and went bankrupt SpaceX just bought Curosr for $60 Billion 5% of Cursor at $60 Billion is worth $3 Billion — https://nitter.net/StockMKTNewz/status/2067060133461447113#m",
+          "link": "https://nitter.net/brivael/status/2067096078567252324#m",
+          "date_utc": "2026-06-17T04:04:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-nk2DXsAAWzXZ.jpg",
+            "https://nitter.net/pic/media%2FHK-nyPJWsAA9DKm.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Super cheap. It’s a penny stock TBH Jeremy Stamper 🇺🇸 🇺🇦 (@jeremymstamper) SpaceX is still cheap. They lasso one platinum asteroid, that’s $1 trillion profit. — https://nitter.net/jeremymstamper/status/2066923029612155077#m",
+          "link": "https://nitter.net/brivael/status/2067094577732010339#m",
+          "date_utc": "2026-06-17T03:58:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Depuis l'époque PayPal, Peter Thiel bute sur une seule chose chez Elon. Ses mots : \"il sait quelque chose sur le risque que nous on ignore. C'est dur à articuler. Je ne sais même pas s'il peut l'articuler lui-même.\" Aujourd'hui je vais essayer de connecter trois trucs : l'expérience des fentes de Young, le multivers, et le rapport au risque d'Elon. Et pourquoi, lui, il gagne à tous les coups. Le raisonnement de Thiel est simple. Années 2000 : Elon lance Tesla ET SpaceX en même temps. Sagesse de la Silicon Valley → deux paris totalement débiles. Si UN seul avait marché, on aurait dit \"chance\". ",
+          "link": "https://nitter.net/brivael/status/2067089869156016308#m",
+          "date_utc": "2026-06-17T03:40:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🔥🔥🔥🔥🔥 ᴛʀᴀᴄᴇʀ (@DeFiTracer) 🚨 BREAKING: PALANTIR CEO ALEX KARP SAID LIVE ON CNBC: “I’M BULLISH ON ELON AND SPACEX. SPACEX IPO IS BLESSING FOR AMERICA.” HE RUNS ONE OF THE BIGGEST COMPANIES IN THE WORLD AND MADE $16 BILLION HE DEFINITELY KNOWS SOMETHING!! Video — https://nitter.net/DeFiTracer/status/2067030988081824026#m",
+          "link": "https://nitter.net/brivael/status/2067085023925490071#m",
+          "date_utc": "2026-06-17T03:20:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067030851943084032%2Fimg%2FfK6GKws6qlNQPX_Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "aie Valuetainment (@valuetainment) JUST IN: ChatGPT's global market share has fallen below 50% for the first time ever. — https://nitter.net/valuetainment/status/2066949325347815496#m",
+          "link": "https://nitter.net/brivael/status/2067084961736425699#m",
+          "date_utc": "2026-06-17T03:20:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9HXgDX0AAaJjR.png",
+            "https://nitter.net/pic/media%2FHK9HbcvXUAArEo-.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LiDAR cars need to be deleted from the environment. This makes cars so fucking ugly 🫣🤮 Nic Cruz Patane (@niccruzpatane) Ark Invest estimates that the @Tesla Cybercab will deliver 50% lower operating costs than Waymo at scale in 2030 ($0.20/mile). — https://nitter.net/niccruzpatane/status/2067052979228729363#m",
+          "link": "https://nitter.net/brivael/status/2067080106666041597#m",
+          "date_utc": "2026-06-17T03:01:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-luQGWsAEsOJk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Only high IQ people can comprehend the potential SpaceX has as a company. Like high IQ can profoundly understand Rick and Morty 🫣😂 Shibo (@GodsBurnt) I've been a professional trader for 28 years and I've NEVER seen anything like this. $SPCX is the most incredible IPO we've ever witnessed and probably ever will witness. It has pumped almost 2X since launch and isn't showing any signs of slowing down. The secret to knowing what happens next is simple. Everyone is saying \"it's pumping too fast\" or \"it's way too high it will dump soon\" and in trading the group consensus is ALWAYS WRONG. Think abou",
+          "link": "https://nitter.net/brivael/status/2067079307122573319#m",
+          "date_utc": "2026-06-17T02:58:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this part is actually very interesting, for the mtp head at t+2 they don't include the kv of the indexer of the predicted value at mtp t+1 for efficiency (indexer sharing) AND found that it leads to better results because it avoids training/inference distribution shift for this specific KV Z.ai (@Zai_org) Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between ",
+          "link": "https://nitter.net/eliebakouch/status/2067067642046018000#m",
+          "date_utc": "2026-06-17T02:11:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-vfFJbkAALo0E.jpg",
+            "https://nitter.net/pic/media%2FHK84LPRXQAA6x0_.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://z.ai/blog/glm-5.2",
+              "content": ""
+            },
+            {
+              "url": "http://huggingface.co/zai-org/GLM-5.2",
+              "content": "zai-org/GLM-5.2 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , pad_token : |endoftext|> }, chat_template_jinja : [gMASK] sop>\\n{%- set effective_reasoning_effort = 'high' if reasoning_effort is defined and reasoning_effort == 'high' else 'max' -%}\\n{%- if (enable_thinking is not defined or enable_thinking) and effective_reasoning_effort is not none -%} |system|>Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\\n{%- if tools -%}\\n{%- macro tool_to_json(tool) -%}\\n {%- set"
+            },
+            {
+              "url": "http://docs.z.ai/guides/llm/glm-5.2",
+              "content": "GLM-5.2 - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation Language Models GLM-5.2 Guides API Reference Coding Plan Released Notes Terms and Policy Help Center Get Started Quick Start Overview Pricing Core Parameters SDKs Guide Migrate to GLM-5.2 Language Models GLM-5.2 GLM-5.1 GLM-5 GLM-5-Turbo GLM-4.7 GLM-4.6 GLM-4.5 GLM-4-32B-0414-128K Vision Language Models GLM-5V-Turbo GLM-4.6V GLM-OCR AutoGLM-Phone-Multilingual GLM-4.5V Image Generation Models GLM-Image CogView-4 Video Generation Models CogVideoX-3 Vidu Q1 Vidu 2 Image Gener"
+            },
+            {
+              "url": "http://z.ai/subscribe",
+              "content": "GLM Coding Plan — AI Coding Powered by GLM-5.2 GLM-5-Turbo for Agents IDEs My Coding Plan Coding Tools Guide Claude Code Cursor Cline Trae Kilo Code More MCP Guide Vision MCP Web Search MCP Web Reader MCP Zread MCP Community FAQ API Key Login Open menu"
+            },
+            {
+              "url": "http://chat.z.ai",
+              "content": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": ". @kellerjordan0 can we get a new track for the nanogpt speedrun please? CoreWeave (@CoreWeave) We just trained DeepSeek-V3 671B in 2 minutes. That's all 671 billion parameters, on 8,192 NVIDIA Blackwell Ultra GPUs connected with NVIDIA Spectrum-X Ethernet. The fastest DeepSeek-V3 training run anyone's recorded, set in the new MLPerf® Training v6.0 round on the same cloud platform our customers run on every day. — https://nitter.net/CoreWeave/status/2066902285117255696#m",
+          "link": "https://nitter.net/eliebakouch/status/2067027997446869109#m",
+          "date_utc": "2026-06-16T23:34:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "very impressive performance, and not \"only\" on open eval, frontierSWE @ProximalHQ is almost SOTA looking forward to DeepSWE ( @datacurve ) and FrontierCode ( @cognition ) score as well Z.ai (@Zai_org) Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency - MIT-licensed open weights - Same API pricing as GLM-5.1 Tech Blog: z.ai",
+          "link": "https://nitter.net/eliebakouch/status/2066966767617138771#m",
+          "date_utc": "2026-06-16T19:30:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9XAJKbAAAdks4.jpg",
+            "https://nitter.net/pic/media%2FHK84LPRXQAA6x0_.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://z.ai/blog/glm-5.2",
+              "content": ""
+            },
+            {
+              "url": "http://huggingface.co/zai-org/GLM-5.2",
+              "content": "zai-org/GLM-5.2 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , pad_token : |endoftext|> }, chat_template_jinja : [gMASK] sop>\\n{%- set effective_reasoning_effort = 'high' if reasoning_effort is defined and reasoning_effort == 'high' else 'max' -%}\\n{%- if (enable_thinking is not defined or enable_thinking) and effective_reasoning_effort is not none -%} |system|>Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\\n{%- if tools -%}\\n{%- macro tool_to_json(tool) -%}\\n {%- set"
+            },
+            {
+              "url": "http://docs.z.ai/guides/llm/glm-5.2",
+              "content": "GLM-5.2 - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation Language Models GLM-5.2 Guides API Reference Coding Plan Released Notes Terms and Policy Help Center Get Started Quick Start Overview Pricing Core Parameters SDKs Guide Migrate to GLM-5.2 Language Models GLM-5.2 GLM-5.1 GLM-5 GLM-5-Turbo GLM-4.7 GLM-4.6 GLM-4.5 GLM-4-32B-0414-128K Vision Language Models GLM-5V-Turbo GLM-4.6V GLM-OCR AutoGLM-Phone-Multilingual GLM-4.5V Image Generation Models GLM-Image CogView-4 Video Generation Models CogVideoX-3 Vidu Q1 Vidu 2 Image Gener"
+            },
+            {
+              "url": "http://z.ai/subscribe",
+              "content": "GLM Coding Plan — AI Coding Powered by GLM-5.2 GLM-5-Turbo for Agents IDEs My Coding Plan Coding Tools Guide Claude Code Cursor Cline Trae Kilo Code More MCP Guide Vision MCP Web Search MCP Web Reader MCP Zread MCP Community FAQ API Key Login Open menu"
+            },
+            {
+              "url": "http://chat.z.ai",
+              "content": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "nice blog by @kimbochen about the current RL ecosystem, goes into detail about the different settings and tradeoffs to consider when RLing open models SemiAnalysis (@SemiAnalysis_) RL Systems Mind the Gap: Matching Trainer and Generator Throughput RL Training Infrastructure, GRPO, PipelineRL, Async RL, Policy Staleness, RL Sandbox Infra, CPU Requirements, TCO Analysis, Thinking Machines Tinker newsletter.semianalysis.com/… — https://nitter.net/SemiAnalysis_/status/2066941079920791760#m",
+          "link": "https://nitter.net/eliebakouch/status/2066964085955232130#m",
+          "date_utc": "2026-06-16T19:20:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9Toizb0AAZxww.jpg",
+            "https://nitter.net/pic/card_img%2F2066937771902541825%2F8JmjDv_q%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching",
+              "content": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput Subscribe Sign in RL Systems Mind the Gap: Matching Trainer and Generator Throughput RL Training Infrastructure, GRPO, PipelineRL, Async RL, Policy Staleness, RL Sandbox Infra, CPU Requirements, TCO Analysis, Thinking Machines Tinker Kimbo Chen , Cheang Kang Wen , and Dylan Patel Jun 16, 2026 ∙ Paid 67 3 Share The Cost of Capability Coding assistants are the greatest B2B SaaS application the world has ever seen: a $30B+ ARR market across the six largest players today, on track to clear $100B by year end, per our tokenomics model . Source: SemiAnalysis Tokenomics Model Estimates The agentic coding capabilities of those assistants don’t come from pre-training alone. Post-training, and reinforcement learning (RL) in particular"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also he has a cat (chaton) profile picture so you can trust him",
+          "link": "https://nitter.net/eliebakouch/status/2066964194411553046#m",
+          "date_utc": "2026-06-16T19:20:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "fat indeed, but sparse NO MORE DENSE MODEL GUYS, VIVE LA FRANCE Arthur Mensch (@arthurmensch) First, we have a nice model coming this summer – we hope it will delight and surprise in a few capabilities. This will be the start of a new family of models, fat indeed, but sparse. We're opening up an early access program in July for key partners in research, government and the industry. — https://nitter.net/arthurmensch/status/2066913356548542827#m",
+          "link": "https://nitter.net/eliebakouch/status/2066916265302835450#m",
+          "date_utc": "2026-06-16T16:10:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Excited to share that Grok 4.3 from @elonmusk 's @xai is now available on Amazon Bedrock. Customers pick the right model for the right job, and we keep making that easier: aws.amazon.com/about-aws/wha…",
+          "link": "https://nitter.net/mattsgarman/status/2066914842498179451#m",
+          "date_utc": "2026-06-16T16:04:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK8oCrKWsAAZ9WJ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+              "content": "Grok 4.3 from xAI now available in Amazon Bedrock - AWS Skip to main content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account Grok 4.3 from xAI now available in Amazon Bedrock Posted on: Jun 15, 2026 Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI applications across reasoning, agentic, and enterprise workflows. Grok 4.3 is a reasoning-first model that offers configurable reasoning effort (none, low, medium, high). It also offers strong tool use and instruction-following capabilities for building reliable agents, and token efficiency to help keep high-volume inference cos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mntruell",
+      "org": "Cursor AI",
+      "focus": [
+        "coding agents",
+        "AI tooling",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "mntruell",
+          "creator": "@mntruell",
+          "text": "Lots to do together. Excited to be joining forces with @SpaceX to build useful AI. SpaceX (@SpaceX) SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI models. For the past few months, SpaceXAI has been jointly training a model with Cursor, which will be released in Cursor and Grok Build soon. We look forward to working closely with the Cursor team to advance our frontier AI capabilities — https://nitter.net/SpaceX/status/2066873915717136548#m",
+          "link": "https://nitter.net/mntruell/status/2066874098001883538#m",
+          "date_utc": "2026-06-16T13:22:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "",
+          "link": "https://nitter.net/ns123abc/status/2067038122857083204#m",
+          "date_utc": "2026-06-17T00:14:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "theinformation.com/articles/…",
+          "link": "https://nitter.net/ns123abc/status/2066978091851821080#m",
+          "date_utc": "2026-06-16T20:15:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066850017462145024%2FOo2t9XAo%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.theinformation.com/articles/deepseek-closes-record-7-billion-plus-funding-unusual-deal-structure?utm_source=ti_app&rc=fgdr09",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok Build about to MOGG everyone in 2 weeks Nick Dobos (@NickADobos) New cursor model being teased at compile - same size as Claude opus and gpt 5.5 - trained from scratch, no more kimi base - 10-20x more compute vs composer - generally intelligent, not just coding Releases in the “Next couple of weeks” — https://nitter.net/NickADobos/status/2066929277757800833#m",
+          "link": "https://nitter.net/ns123abc/status/2066963726394069303#m",
+          "date_utc": "2026-06-16T19:18:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK9Uji2WoAAl-sr.jpg",
+            "https://nitter.net/pic/media%2FHK81OStasAApecb.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Thanks @satyanadella 👏 Great work with @Azure on one of the largest MLPerf Training submission to-date on NVIDIA Blackwell: 8,192 GPUs on NVIDIA GB200 NVL72 systems, Llama 3.1 405B training target met in only 7.07 minutes. More to come! Satya Nadella (@satyanadella) New Azure milestone. The fastest time to train yet at the largest reported scale for this leading AI training benchmark. A great example of what is possible when we bring together full-stack innovation across silicon, systems, networking, and software, along with our deep partnership with @nvidia , to advance the frontier of AI inf",
+          "link": "https://nitter.net/nvidia/status/2067044209476223373#m",
+          "date_utc": "2026-06-17T00:38:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066908439943528448%2FoUWvBeIb%3Fformat%3Dpng%26name%3D600x314"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read more on how Coherent’s Sherman expansion is helping build the American manufacturing base behind the AI era: nvda.ws/4fLn6Ij",
+          "link": "https://nitter.net/nvidia/status/2067016774424351031#m",
+          "date_utc": "2026-06-16T22:49:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067016785560313856%2F_CvrXlKV%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4fLn6Ij",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "AI infrastructure runs on more than compute. It runs on light. Today in Sherman, Texas, Jensen Huang joined @CoherentCorp CEO Jim Anderson and local leaders to mark the expansion of U.S. manufacturing capacity for advanced photonics. The technology is behind the lasers and optical links that move data across modern AI systems, strengthening the American manufacturing base behind the AI era.",
+          "link": "https://nitter.net/nvidia/status/2067016769584177337#m",
+          "date_utc": "2026-06-16T22:49:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK-ExLTXAAAs0eH.jpg",
+            "https://nitter.net/pic/media%2FHK-EytvXIAAm9h9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Correction: GB300 NVL72 delivers 1.6x performance on DeepSeekV3 pretraining at 512 GPU scale. (Ref: results 6.0-0022 and 6.0-0101)",
+          "link": "https://nitter.net/nvidia/status/2066986675176415415#m",
+          "date_utc": "2026-06-16T20:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "👏 @IneffableLabs is building a superlearner that learns from experience, requiring enormous computational scale. They chose NVIDIA Vera Rubin NVL72, one of the largest clusters on @GoogleCloud , to power their mission to reach superintelligence. Google Cloud UK & Ireland (@GoogleCloud_UKI) Google Cloud and @IneffableLabs today announced a strategic partnership in which Google will provide the specialised infrastructure for Ineffable's new frontier AI lab. Read the full announcement, here → goo.gle/3Sa9sES #GoogleCloudSummit — https://nitter.net/GoogleCloud_UKI/status/2066780427080073543#m",
+          "link": "https://nitter.net/nvidia/status/2066948609539768596#m",
+          "date_utc": "2026-06-16T18:18:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHK6t2J2WAAAbxpM.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/3Sa9sES",
+              "content": "Ineffable Intelligence Selects Google Cloud To Power Its Superintelligence Mission - Jun 16, 2026 --> Google Cloud Logo News Skip to content Press Corner Menu Latest News Press Releases Leadership Digital Assets Subscribe Desktop Search Search About RSS Feed × --> Get started for free Mobile Search Search Latest News Press Releases Leadership Digital Assets Subscribe Customer AI Infrastructure Artificial intelligence EMEA Ineffable Intelligence Selects Google Cloud To Power Its Superintelligence Mission June 16, 2026 Following a rigorous evaluation of the infrastructure market and a historic $1.1 billion seed round, Ineffable Intelligence enters agreement with Google Cloud to develop the world&#39;s first superlearner LONDON , June 16, 2026 / PRNewswire / -- Google Cloud Summit London &#39"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn how the NVIDIA platform and ecosystem enable AI model builders to launch frontier models faster, minimize training costs, and start generating revenue early. 🔗 nvda.ws/3SIOU6q",
+          "link": "https://nitter.net/nvidia/status/2066902394655424619#m",
+          "date_utc": "2026-06-16T15:15:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066902244906115072%2F_LQO8RJU%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3SIOU6q",
+              "content": "NVIDIA Blackwell Sweeps MLPerf Training 6.0 | NVIDIA Blog Skip to content Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0 NVIDIA delivers the performance, scale and reliability that frontier training requires — in benchmarks and beyond. June 16, 2026 by Shruti Koparkar 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every breakthrough AI model starts the same way: with a training run. The infrastructure running those training jobs shapes everything: how fast teams can iterate, what scale of model they can build and whether those jobs complete reliably. As models grow in size, complexity and intelligence, the demands on training infrastructure are also rising. In MLPerf Training 6.0 — the latest of a series of rigorous, peer-reviewed i"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "The NVIDIA Blackwell platform just swept MLPerf Training 6.0, delivering fastest performance and largest scale. Beyond the benchmarks, capabilities like the Reliability, Availability, and Serviceability Engine and NVIDIA Resiliency Extension deliver fewer interruptions and faster recovery to keep massive training jobs on track. Video",
+          "link": "https://nitter.net/nvidia/status/2066902392570876031#m",
+          "date_utc": "2026-06-16T15:15:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2066902335444369408%2Fimg%2FeFYf8c3mgGwBbRI3.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
