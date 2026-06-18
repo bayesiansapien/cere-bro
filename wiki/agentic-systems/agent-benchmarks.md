@@ -2,6 +2,16 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
+## Current State (as of 2026-06-18)
+
+**Two same-day benchmarks confirm frontier models fail at sustained and stateful tasks, and an active-perception agent shows the escape route.** The page's running thread, that short-horizon accuracy does not predict long-horizon robustness, gets its strongest evidence yet on the same day from two opposite axes.
+
+*Sustained, long-horizon work.* [CEO-Bench](2026-06-18-ceo-bench-long-horizon-agents.md) (arxiv 2606.18543) puts an agent in charge of a fictional startup for **500 simulated days**, managing pricing, marketing, and budgeting through a Python interface over noisy interconnected business databases. It bundles four skills short-horizon evals never test together: long horizons under uncertainty, information acquisition in noise, adaptation to a changing world, and orchestration toward one goal. Most state-of-the-art models go bankrupt. **Only Claude Opus 4.8 and GPT-5.5 finish above the $1M starting balance, and neither consistently profits.** The differentiator is coding ability: the best agents write code that simulates customer cohorts to forecast cash and mines negotiation history for hidden preferences. This pushes the horizon far past PhysicianBench's ~27 tool calls (2026-05-05) and GTA-2's open-ended workflows (2026-04-20), and echoes AcademiClaw's compute-quality decoupling (2026-05-05): raw model size is not the lever, simulator-building skill is.
+
+*Stateful, non-Markov memory.* **RNG-Bench (also 2026-06-18)** is a non-Markov memory benchmark where the answer depends on history not visible in the current observation. Frontier multimodal LLMs stay far from saturated even at 128K context. Paired with CEO-Bench it draws a clean two-axis map of what short-horizon evals miss: **sustained** progress over a long horizon (CEO-Bench) and **stateful** use of invisible history (RNG-Bench). Frontier models are weak on both.
+
+*The escape route: active perception with positive test-time scaling.* [OmniAgent](2026-06-18-omniagent-active-perception-video.md) (arxiv 2606.19341) reframes long-video understanding as a POMDP observe-think-act loop that distills cues on demand into persistent textual memory, decoupling compute from input length. Its load-bearing benchmark result is **positive test-time scaling**: performance keeps improving as reasoning turns increase, because each turn gathers new information rather than re-refining the same view. This is the direct contrast to LoopCoder-v2 (2026-06-17, where latent-loop internal refinement saturates), and the small-model-beats-large pattern holds: the 7B agent beats Qwen2.5-VL-72B on LVBench (50.5% vs 47.3%). The lesson for long-horizon benchmarks above: test-time compute pays off only when each step adds information, exactly the property CEO-Bench's 500-day loop demands.
+
 ## Current State (as of 2026-06-06)
 
 **The benchmark surface keeps migrating from single answers to environment-grounded trajectories, and safety follows it.** Two same-day papers move the evaluation unit from "the response" to "the final state / the adaptive process."
