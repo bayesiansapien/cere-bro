@@ -1,0 +1,1351 @@
+{
+  "date": "2026-06-18",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-18 15:15",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Two men just used a crowbar to break into locked apartment buildings under construction in east Austin and made off with $10,000 worth of electrical breakers. KXAN News (@KXAN_News) 2 men wanted in east Austin metal theft worth $10,000 kxan.com/news/crime/two-men-… — https://nitter.net/KXAN_News/status/2067315357392466129#m",
+          "link": "https://nitter.net/AustinJustice/status/2067331236880646501#m",
+          "date_utc": "2026-06-17T19:39:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067315365726560256%2F0B1IcIpE%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.kxan.com/news/crime/two-men-wanted-in-east-austin-metal-theft-worth-10000/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Metal theft has climbed every year under DA Jose Garza. Last year was nearly triple the number of offense vs his first year in office, and five times the pre-Garza baseline.",
+          "link": "https://nitter.net/AustinJustice/status/2067331234728910892#m",
+          "date_utc": "2026-06-17T19:39:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCiUHNXEAA5Ham.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Code and Claude Design now sync both ways. Run /design-sync to pull your design system into your repo and build against your real components, or push what you've built back into Claude Design and keep editing on the canvas. Claude (@claudeai) New in Claude Design: it stays on brand with your design system across projects, lets you edit directly on the canvas, syncs with Claude Code, and connects to more of the tools you already use. — https://nitter.net/claudeai/status/2067325887909884315#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2067391951725629941#m",
+          "date_utc": "2026-06-17T23:40:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCU9x3XgAArrnJ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Under Secretary Emil Michael ( @USWREMichael ) on the Office of Strategic Capital's $500M conditional loan commitment with @PhoenixTailings : \"It's the fifth critical minerals deal we've done in eight months. We've put $5 billion of low-cost loans to these companies, and that's generated $7 billion of private capital crowding around those companies. So, the country has invested $12 billion in the last eight months on reshoring our critical minerals capabilities.\" Video",
+          "link": "https://nitter.net/DoWCTO/status/2067369371341635677#m",
+          "date_utc": "2026-06-17T22:10:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067368754669854720%2Fimg%2F7pC6ro3bueHiLrJ5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "NO HESITATION. NO MERCY. OVERWHELMING LETHALITY. 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2067331158933729618#m",
+          "date_utc": "2026-06-17T19:38:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCiqq-WEAAjM4P.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "New research published in @Nature with @GoogleDeepMind shows how AMIE utilizes long-context capabilities of Gemini models to ground its clinical reasoning in authoritative medical knowledge. In a multi-visit study with patient actors, AMIE demonstrated physician-level capabilities in longitudinal management reasoning, while scoring significantly higher in plan preciseness and guideline alignment. See the full story from @GoogleForHealth below 🧵↓ Google for Health (@GoogleForHealth) New @Nature publication from @GoogleResearch @GoogleDeepMind : In this study, we advance AMIE, our research medic",
+          "link": "https://nitter.net/GoogleResearch/status/2067389215239999488#m",
+          "date_utc": "2026-06-17T23:29:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLB9unjX0AA5t3H.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/4oA0EEb",
+              "content": "Google advances its AMIE research medical AI from diagnosis to treatment Skip to main content The Keyword New research shows how AMIE, our medical AI, could help manage health conditions. Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastruct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Crazy moves rohan anil (@_arohan_) So Anthropic got Karpathy, and OpenAI got Noam and at CoreAuto we got Jerry — https://nitter.net/_arohan_/status/2067410535247933705#m",
+          "link": "https://nitter.net/MillionInt/status/2067414502975680767#m",
+          "date_utc": "2026-06-18T01:10:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Congrats @midjourney and @DavidSHolz . It has been a while since a new product introduction has gotten this kind of attention without paying any influencers. Look at X’s feed tonight for me. And why? Well the product will save many lives, yes. But that only explains a small bit why we are all excited tonight. For two it was kept pretty secret. One of the tightest kept secrets I have ever seen. Yeah one guy here on X figured it out. But no one in the audience knew. I asked many before it began. And David told me before he started he didn’t know the venue, which was an art museum, had strict rul",
+          "link": "https://nitter.net/Scobleizer/status/2067489364725412345#m",
+          "date_utc": "2026-06-18T06:07:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067489028363173890%2Fimg%2FkBB3qoIPd2r_83Yh.jpg",
+            "https://nitter.net/pic/media%2FHLEyUTYakAAJUO4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I don't often walk out of a product introduction thinking, \"Wow, I just saw the world change for the better.\" I have one of the few pictures of @DavidSHolz doing the presentation. I'm very honored to be able to capture this image right before I got yelled at by security guards, because they don't allow photography at all in the space we were in. Forced everyone to turn off their phones. Breaking rules is necessary when you are witnessing history happening in front of you. Met @joshelman who was heavily involved in rebuilding Siri at Apple just after the event ended and we both were so excited ",
+          "link": "https://nitter.net/Scobleizer/status/2067457400656007643#m",
+          "date_utc": "2026-06-18T04:00:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLEVhwHbgAAoSz4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My best friend Brandon Wirtz, a brilliant AI pioneer, died at the age of 40 from colon cancer. The doctors missed it. This would catch it. I asked the first question because of Brandon. I love @DavidSHolz who just announced this new unloading scanner and spa that could save many lives and is still giving one of the most interesting product launches I have ever been to. I am sitting with the CEO of the company that makes the chip that both send and receives the ultrasound that will scan your body in one of these devices. Incredible. I was invited to sit in the front row because I covered David’",
+          "link": "https://nitter.net/Scobleizer/status/2067431589966234101#m",
+          "date_utc": "2026-06-18T02:17:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067417890098499584%2Fimg%2FMFFwG8qdfYbJALQD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "All day I've been reading notes like this. Some people really do improve the world, and some people build community both before and after they die. I watched Joshua build Capital Factory at the beginning of Capital Factory's life due to my stature back then at South by Southwest. He was always a real kind dude, always was helpful, and really set up Austin's startup industry in a way that no other human could. My friends who are involved in the Texas and particularly Austin areas are heartbroken, and my heart goes out to them. I've been talking to people in Texas, and they're just heartbroken. ",
+          "link": "https://nitter.net/Scobleizer/status/2067401651447882236#m",
+          "date_utc": "2026-06-18T00:18:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://feld.com/archives/2026/06/rip-josh-baer/",
+              "content": "RIP Josh Baer | Feld Thoughts Feld Thoughts Blog Books Films Search About Subscribe Home » Blog RIP Josh Baer Josh Baer, the founder and CEO of Capital Factory and the godfather of Austin's startup scene, died last night in a plane crash. He was my friend and I'm sad today. June 17, 2026 · 4 min · Brad Feld Yeehaw. I found out this morning that Josh Baer died last night. He was on a small plane heading back to Austin from Cabo. It had mechanical trouble and went down near Laredo , on a highway, a couple of miles short of the runway. Five other people on board survived. Josh did not. He was 50. I ve been sad all morning. One way I deal with being sad is to hide in my computer, which is mostly what I’ve been doing today. Many people in the startup world knew Josh as the founder and CEO of Ca"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The power is out. But not at my house. Got the new @tesla Powerwall last Friday. Great timing!",
+          "link": "https://nitter.net/Scobleizer/status/2067380713494851964#m",
+          "date_utc": "2026-06-17T22:55:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLDPzSNaIAAXpmj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "We have been asked not to record the event. Will tell you what I think after. Luckily there will be a live stream. Midjourney (@midjourney) t-minus 3 hours! we will drop a Livestream link soon. keep watch 🫡 — https://nitter.net/midjourney/status/2067367868837322980#m",
+          "link": "https://nitter.net/Scobleizer/status/2067378873759842338#m",
+          "date_utc": "2026-06-17T22:48:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "At the recent AI Infra Summit by Ignite GTM at @PlugandPlayTC they had me interview a few interesting founders. Here's Rahul Kar, founder of Hammerhead, hammerheadco.ai , which is working to make power cheaper in AI datacenters. piped.video/cX-TE_PgZ3Q?si=_uQP…",
+          "link": "https://nitter.net/Scobleizer/status/2067350115392929834#m",
+          "date_utc": "2026-06-17T20:54:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066000336234414080%2F8I3ayWZB%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://hammerheadco.ai",
+              "content": "Hammerhead AI | Tomorrow’s AI. Today’s Power Back Home Our Solution Our Technology Our Stakeholders Datacenter Colocation Providers AI Cloud &#038; Service Providers Enterprises with AI Workloads Datacenter OEMs Backed By Industry talk Advisors career contact us news Resources Blogs Whitepapers About Us Our Team News Careers Tomorrow ’ s AI. Today ’ s Power. Agents transform stranded power into AI-ready capacity. No waiting for the grid. Learn More 30% STRANDED CAPACITY UNLOCKED 0 IMPACT ON EXISTING CUSTOMERS SLAS 36% CHEAPER AI TOKENS 6 months RETURN ON INVESTMENT Challenge AI's $64 Billion Lost Opportunity GPUs are sitting idle as AI factory operators cannot secure enough power. Yet, with utilization at 30–50%, vast amounts of stranded power could be used to process more tokens. Solution"
+            },
+            {
+              "url": "https://piped.video/cX-TE_PgZ3Q?si=_uQPzVVwk9N8bA8Z",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Will drop in to see the robot projects everyone builds. Good for America. Good for San Francisco. We need many more efforts like this to keep up with China. Mission Robotics (@MissionRobotBay) Announcing: The Embodied Metal Hackathon! Happening Jul 17-19 in San Francisco's Mission. Three days in a factory loft with real robots, hacking to make them do something wild. We're packing the floor with the best founders, developers, and mad scientists across Embodied AI. If you'd rather make your AI *do* things – in the real world! – instead of just write about them, this event is for you. Hosts and ",
+          "link": "https://nitter.net/Scobleizer/status/2067342126409822216#m",
+          "date_utc": "2026-06-17T20:22:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067283639570948096%2Fe94PfOMn%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://luma.com/embodied-metal",
+              "content": "Embodied Metal Hackathon · Luma Discover Events Sign In Presented by Mission Robotics Follow Hosted By Mattie Fairchild Jeson Lee Miki Safronov-Yamamoto Dhruv Diddi Contact the Host Report Event AI Embodied Metal Hackathon Mission Robotics Register to See Address San Francisco, United States Registration Approval Required Your registration is subject to host approval. Welcome! To join the event, please register below. Request to Join You will be asked to verify token ownership with your wallet . About Event ​ Embodied AI is intelligence that climbs out of the screen, and this hackathon is for the founders, developers, and mad scientists who are giving it a body. Taking place across three days in a whirring Mission factory loft, every team gets a robot to hack with, hands-on task-training s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "No force on Earth can match the unbreakable spirit of the American warfighter. Video",
+          "link": "https://nitter.net/SeanParnellASW/status/2067313741125881929#m",
+          "date_utc": "2026-06-17T18:29:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067313488733605888%2Fimg%2FikMdqMuCcLfHVkDz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised is life-changing for drivers with disabilities Katie Miller (@KatieMiller) Tesla FSD gives you freedom. Video — https://nitter.net/KatieMiller/status/2067397334565027873#m",
+          "link": "https://nitter.net/Tesla/status/2067477998098628746#m",
+          "date_utc": "2026-06-18T05:22:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067397213471354880%2Fimg%2F9ip4weG1L-cQo7fU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised celebrates your milestones Spencer (@scotsrule08) 100 mile streak animation on 14.3.4 Video — https://nitter.net/scotsrule08/status/2067224300742914535#m",
+          "link": "https://nitter.net/Tesla/status/2067360424119632325#m",
+          "date_utc": "2026-06-17T21:35:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067224236490387456%2Fimg%2F7IeViCDAlkccUTWf.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The Trump-Vance Administration will not allow taxpayer dollars to subsidize states that tolerate fraud. The White House (@WhiteHouse) Fraud waste have no place in America, especially not under this administration. @USDOL Acting Secretary Keith Sonderling is putting governors on notice: Crack down on unemployment fraud, or risk losing funding. This admin will no longer tolerate the abuse of taxpayer dollars. — https://nitter.net/WhiteHouse/status/2067335785141919963#m",
+          "link": "https://nitter.net/WHFraudTF/status/2067337574989881774#m",
+          "date_utc": "2026-06-17T20:04:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLClS-RWAAEtk35.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "If deployed widely - I bet this will save the US healthcare system at least 100x all of MJ’s profit to date. It’s a great example of how much better someone like David is able to allocate capital than ~the rest of the world. The AI boom should empower a generation of people who understand just how fast we can climb the tech tree, and will dream very, very big. Expect incredible things. When Midjourney Dyson Spheres? Shaun Maguire (@shaunmmaguire) Massive congrats to @DavidSHolz and the @midjourney team It’s amazing to see someone take their AI winnings and put it into hardware that can save li",
+          "link": "https://nitter.net/_sholtodouglas/status/2067473495920140363#m",
+          "date_utc": "2026-06-18T05:04:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Giving the right person unlimited licence to tinker can create wonders. This is what makes SF so beautiful. Midjourney (@midjourney) Announcing a new division of Midjourney called \"Midjourney Medical\" Video — https://nitter.net/midjourney/status/2067421950314688759#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2067467213544792424#m",
+          "date_utc": "2026-06-18T04:39:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067417890098499584%2Fimg%2FMFFwG8qdfYbJALQD.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ho bordel. La simulation a glitché. Ils sont en train de la reprogrammer. Tous aux abris 😂😂😂 Entrecote Corinne (@EntrecoteC) — https://nitter.net/EntrecoteC/status/2067542263685591449#m",
+          "link": "https://nitter.net/brivael/status/2067545563860709590#m",
+          "date_utc": "2026-06-18T09:50:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLFlu62aUAA2FKg.jpg",
+            "https://nitter.net/pic/media%2FHLFiu34XkAA6FSU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "En 2027. On veut un candidat libéral ( réellement libéral ) Pas de candidat socialo-communiste. Vous êtes l’enfant raté de Macron. Le scam ne passera pas deux fois. Bisous. Attal Président 🇫🇷 (@AttalPresident_) En 1958, le général de Gaulle faisait le choix du nucléaire. En 2027, c'est le même choix qu'il faudra faire pour l'IA. Rejoignez la campagne en téléchargeant notre application sur : attal.app/stores 🇫🇷 — https://nitter.net/AttalPresident_/status/2067305551021629557#m",
+          "link": "https://nitter.net/brivael/status/2067542176977076410#m",
+          "date_utc": "2026-06-18T09:37:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCLbUGXkAAVKmc.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://attal.app/stores",
+              "content": "Telegram Messenger follow"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎭 Toujours et encore, du théâtre. Gabriel Attal Actu (@GAttalActu) 🇫🇷📺 « L'IA est dominée par des géants américains, grâce à des puces américaines, produites par un géant taïwanais avec des machines néerlandaises. » — “Il faut que la France soit souveraine sur un ou des maillons de la chaîne pour avoir un rapport de force” expose @GabrielAttal Video — https://nitter.net/GAttalActu/status/2067516672248840363#m",
+          "link": "https://nitter.net/brivael/status/2067540382066540919#m",
+          "date_utc": "2026-06-18T09:30:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067516558579048448%2Fimg%2FRdfLm6eBqmt9O1XL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ben Graham (@BenGrahamUK) China restricts VPNs. Iran restricts VPNs. Russia restricts VPNs. Now Britain is looking at doing the same. The fact we're even having this conversation should alarm everyone who values privacy and freedom online. Keir Starmer has completely lost the plot. — https://nitter.net/BenGrahamUK/status/2067345571778572398#m",
+          "link": "https://nitter.net/brivael/status/2067540144291508492#m",
+          "date_utc": "2026-06-18T09:29:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCv16aXIAEvAUl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Baisser vos putain de dépenses Paul Midy (@midy_paul) Comme de Gaulle l’a fait pour le nucléaire en 1958, nous devons faire de l’intelligence artificielle une priorité stratégique nationale. Pour gagner cette bataille, @GabrielAttal propose un choc IA : • Un plan France 2040 • 20 millions de salariés formés à l’IA • Un crédit d’impôt productivité Si nous y mettons les moyens, nous pouvons faire de la France la première puissance européenne de l’IA d’ici 10 ans ! lesechos.fr/elections/presid… — https://nitter.net/midy_paul/status/2067528151882747909#m",
+          "link": "https://nitter.net/brivael/status/2067539778116239564#m",
+          "date_utc": "2026-06-18T09:27:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067275274903830528%2FdB-p-iXt%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.lesechos.fr/elections/presidentielle/gabriel-attal-il-faut-lequivalent-de-la-politique-agricole-commune-pour-lia-2237679",
+              "content": "Gabriel Attal : « Il faut l&#x27;équivalent de la politique agricole commune pour l&#x27;IA » - Les Echos Voir la bourse sur Investir Recherche En continu Le journal Mes articles Mes secteurs Machiavel Newsletters Podcasts Infographies Théma Le Cercle Thème Automatique Se connecter S’abonner À la une La Sélection Idées Économie Politique Entreprises Finance - Marchés Bourse Monde Tech-Médias Start-up Régions Patrimoine Travailler mieux Week-end Publicité Interview Gabriel Attal : « Il faut l&#x27;équivalent de la politique agricole commune pour l&#x27;IA » Après la décision d&#x27;Anthropic d&#x27;interdire ses nouvelles IA aux non-Américains et à l&#x27;occasion de l&#x27;ouverture du Salon VivaTech, le candidat à la présidentielle dévoile aux « Echos » ses priorités en matière d&#x27;IA."
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il veut une PlayStation et un Twix aussi ? Frontières (@Frontieresmedia) 🚨 Le conseil d’Etat a cassé le recours de Salah Abdeslam. Le djihadiste réclamait un assouplissement de ses conditions de détention avec notamment la fin de son isolement, un accès aux unités de vie familiale ou encore la suppression des fouilles intégrales. ( @WilliamMolinie ) — https://nitter.net/Frontieresmedia/status/2067263083051884653#m",
+          "link": "https://nitter.net/brivael/status/2067533088700383556#m",
+          "date_utc": "2026-06-18T09:01:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLBk0S-XMAAyjIO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂👑👑👑👑 nnairobi (@nnairob) Arjantin başkanı Javier Milei: \"İşe yarayan tek sol, Messi'nin sol ayağıdır.\" — https://nitter.net/nnairob/status/2067261952980664603#m",
+          "link": "https://nitter.net/brivael/status/2067532859271938184#m",
+          "date_utc": "2026-06-18T09:00:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLBjx32X0AALQpu.jpg",
+            "https://nitter.net/pic/media%2FHLBjyTrXYAECnBw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "👇👇👇 Sarah Knafo (@knafo_sarah) Le nouveau maire de Paris, Emmanuel Grégoire, se soucie davantage de sa réputation que de la vérité et de la protection de nos enfants. Dès 2015, un rapport interne recommandait de « prohiber les espaces isolés susceptibles de faciliter des infractions sexuelles sur mineurs ». En dix ans, la mairie de Paris n’a rien fait pour protéger nos enfants dans le périscolaire. Elle n’a rien dit, n’a pas agi. Elle a préféré l’omerta. Et c’est toujours l’omerta qu’elle désire en menaçant désormais d’attaquer ceux qui osent en parler. Je continuerai. Quant à vous, Monsieur @",
+          "link": "https://nitter.net/brivael/status/2067501446522900645#m",
+          "date_utc": "2026-06-18T06:55:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "World citizens want the truth. Not a narrative built on an agenda. DogeDesigner (@cb_doge) 𝕏 is the #1 news app in the UK. This is exactly why the BBC, The Telegraph and other UK legacy media keep pushing negative fake attacks on Elon Musk. They are getting destroyed in the rankings. The British public has rejected them. Legacy media is finished. They are lashing out in pure panic because they lost control. 𝕏 is winning because it gave people what they actually wanted - truth. — https://nitter.net/cb_doge/status/2067487814451933415#m",
+          "link": "https://nitter.net/brivael/status/2067499739558670355#m",
+          "date_utc": "2026-06-18T06:48:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLExNbEbsAA08gR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. Tomorrow morning. Kentucky Girl (@Notwokenow) The people of the UK should be demanding the resignation and prosecution of Keir Starmer. — https://nitter.net/Notwokenow/status/2067282856930406504#m",
+          "link": "https://nitter.net/brivael/status/2067499192323658212#m",
+          "date_utc": "2026-06-18T06:46:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLB2y-MXIAA5aNc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "???? Kevin Bass (@kevinnbass) Did you know @Keir_Starmer personally declined to prosecute Jimmy Savile, who had raped hundreds of children, and who continued raping children after Starmer declined? Starmer has turned a blind eye to child rape his entire career. His callousness continues today. Why? — https://nitter.net/kevinnbass/status/2067327111744925849#m",
+          "link": "https://nitter.net/brivael/status/2067498420261331025#m",
+          "date_utc": "2026-06-18T06:43:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCeWfBXEAAATjP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Go British people!!! The world is watching you!!! Retake the power!!! 🚀🚀🚀 HJB News (@HJB_News__) Many Brits are reading the rape gang inquiry right now and wondering why Keir Starmer isn't in prison. — https://nitter.net/HJB_News__/status/2067170144535654686#m",
+          "link": "https://nitter.net/brivael/status/2067497931234755061#m",
+          "date_utc": "2026-06-18T06:41:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLAQSgUXMAABwbp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. Talkers ( bureaucrats and politics ) Financiers ( spreadsheets updater ) Are fucked. Learn to build. Naval (@naval) It's the Age of Builders. (sorry financiers and talkers) — https://nitter.net/naval/status/2067496301244338461#m",
+          "link": "https://nitter.net/brivael/status/2067497578917413333#m",
+          "date_utc": "2026-06-18T06:40:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "❤️❤️❤️ Giorgia is a good person. Jon De Lorraine (@jon_delorraine) 🔴🇮🇹 ALERTE INFO Giorgia Meloni a annoncé que son gouvernement ne proposera PAS l’interdiction des réseaux sociaux en Italie pour les ados, contrairement à la France et au Royaume-Uni. (Officiel) — https://nitter.net/jon_delorraine/status/2067487856797360163#m",
+          "link": "https://nitter.net/brivael/status/2067496829542097235#m",
+          "date_utc": "2026-06-18T06:37:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLDMn4TXUAAltMp.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Learn more: cursor.com/changelog/cloud-i…",
+          "link": "https://nitter.net/cursor_ai/status/2067378594343510183#m",
+          "date_utc": "2026-06-17T22:47:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067358767021486080%2F3nzQnP_v%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://cursor.com/changelog/cloud-in-agents-window",
+              "content": "Cloud Environment Setup and Cloud Subagents in Agents Window · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.7 Jun 17, 2026 · Changelog Changelog Cloud Environment Setup and Cloud Subagents in Agents Window This release introduces updates to cloud agents in the Agents Window of the Cursor desktop app. # Cloud environment setup Cursor can now help you set up your dev environment in the cloud in less than 10 minutes. You can watch the agent&#x27;s progress in a shared terminal session as it handles setup tasks like installing dependencies. Your environment is captured in a reusable s"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Use /in-cloud to start a subagent in its own cloud VM. This is especially useful for isolating long-running or parallel work so your local workspace stays clean and responsive. Video",
+          "link": "https://nitter.net/cursor_ai/status/2067378592938418422#m",
+          "date_utc": "2026-06-17T22:47:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067378466752729088%2Fimg%2FIRwKQwDQ9Z8M9MFQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "It's now faster and easier to set up cloud environments. Environments are saved as snapshots so future agents start up faster and can test changes until the output is verified.",
+          "link": "https://nitter.net/cursor_ai/status/2067378591101235666#m",
+          "date_utc": "2026-06-17T22:47:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLDNuGHXQAAqv2u.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "It’s now easier to move local agents to the cloud so they can keep working with your laptop closed. Prompt Cursor from your phone, run many agents in parallel, and get back PRs with demos of their work. Video",
+          "link": "https://nitter.net/cursor_ai/status/2067366343817805899#m",
+          "date_utc": "2026-06-17T21:58:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067366219263750144%2Fimg%2Fr8g8HjMSuI5ZapHG.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "lol this was a joke btw i don't expect sama to see my tweet",
+          "link": "https://nitter.net/eliebakouch/status/2067469703363326388#m",
+          "date_utc": "2026-06-18T04:49:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLEgjczasAArU2a.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "trying to do a benchmark is a humbling experience",
+          "link": "https://nitter.net/eliebakouch/status/2067465790266409277#m",
+          "date_utc": "2026-06-18T04:33:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "Sam Altman (@sama) We offer no explanation as to why Noams are so good at AI; we attribute their success, as all else, to divine benevolence. — https://nitter.net/sama/status/2067427678529974740#m",
+          "link": "https://nitter.net/eliebakouch/status/2067432705818791991#m",
+          "date_utc": "2026-06-18T02:22:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "can i get access to gpt-6 in exchange pls @sama 🥺 elie (@eliebakouch) \"We offer no explanation as to why Noam Shazeer is joining OpenAI; we attribute his arrival, as all else, to divine benevolence\" — https://nitter.net/eliebakouch/status/2067405404318118251#m",
+          "link": "https://nitter.net/eliebakouch/status/2067432569629782438#m",
+          "date_utc": "2026-06-18T02:21:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLD-b7XbMAAdFkL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "\"We offer no explanation as to why Noam Shazeer is joining OpenAI; we attribute his arrival, as all else, to divine benevolence\" Noam Shazeer (@NoamShazeer) I’m excited to share that I’ll be joining OpenAI and look forward to working with the exceptional team there. It was a difficult decision to move on. I’m incredibly proud of the amazing team at Google and everything we’ve built together. It has been an honor and a pleasure to work with all of you. — https://nitter.net/NoamShazeer/status/2067400851438932297#m",
+          "link": "https://nitter.net/eliebakouch/status/2067405404318118251#m",
+          "date_utc": "2026-06-18T00:33:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i have no idea if this is because of data retention or because of oai researchers not having access to the anthropic api or idk but i was expecting to see it in the paper and it's not there",
+          "link": "https://nitter.net/eliebakouch/status/2067383824577859640#m",
+          "date_utc": "2026-06-17T23:08:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "a few more plots - input price - blended 3:1 (input:output) - lowest provider - average provider",
+          "link": "https://nitter.net/eliebakouch/status/2067309801982611871#m",
+          "date_utc": "2026-06-17T18:14:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCPQjEakAA0p2a.jpg",
+            "https://nitter.net/pic/media%2FHLCPRn2akAA0T66.jpg",
+            "https://nitter.net/pic/media%2FHLCPSLSbIAAIv0h.jpg",
+            "https://nitter.net/pic/media%2FHLCPTdSbUAAfONW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i have a hard time believing this. at the same time it would make sense that the CEO of cursor know the size of closed models, but this would mean the margin on these models is CRAZY compared to oss models. this plot doesn't even account for the fact that serving at scale reduces cost (much higher batch, better hardware) and that they have many more engineers working on optimizing the inference stack ect.. (this is a log-log plot btw) Lisan al Gaib (@scaling01) Cursor just announced a new 1.5+ trillion parameter model pre-trained on over 100k GPUs. According to Cursor CEO it is: \"as big as Opu",
+          "link": "https://nitter.net/eliebakouch/status/2067309190876745967#m",
+          "date_utc": "2026-06-17T18:11:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCOpnsaUAAXSfc.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "",
+          "link": "https://nitter.net/kilocode/status/2067388923672707582#m",
+          "date_utc": "2026-06-17T23:28:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "A black hole simulator from a screenshot drop. @MiniMax_AI M3’s vision did the heavy lifting and the whole build ran $0.53. Brian Turcotte (@coldopn) Frontier doesn't only mean Anthropic and OpenAI anymore. I built this black hole simulator by simply dropping an illustration screenshot into Kilo Code, switching to @MiniMax_AI M3, and prompting it to \"animate this screenshot into a working black hole simulator\". M3's vision capabilities are incredible. Total cost: $0.53 Speaking of stars - Kilo Code is about to hit 25k, and we're giving $500 of AI Credits to 2 people once that happens! Check ou",
+          "link": "https://nitter.net/kilocode/status/2067374466997301375#m",
+          "date_utc": "2026-06-17T22:30:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067371966407864320%2Fimg%2F85MAgirNxf0zN3j8.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/Kilo-Org/kilocode/",
+              "content": "GitHub - Kilo-Org/kilocode: Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features S"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "For anyone arriving from the cat: our actual read on what the $60B Cursor deal means for model choice, and why we think vertically integrated stacks are the wrong bet. blog.kilo.ai/p/spacex-just-b…",
+          "link": "https://nitter.net/kilocode/status/2067328856294379899#m",
+          "date_utc": "2026-06-17T19:29:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/spacex-just-bought-cursor-for-60",
+              "content": "SpaceX Just Bought Cursor for $60 Billion. Why the Deal Matters. Kilo Blog Subscribe Sign in SpaceX Just Bought Cursor for $60 Billion. Why the Deal Matters. When a rocket company needs an AI coding tool badly enough to spend $60B, the strategic center has moved from model quality to compute access. Brendan O'Leary Jun 16, 2026 10 Share Congratulations to the Cursor team! 🎉🥂🎊 Four days after SpaceX’s blockbuster Nasdaq debut at a $1.77 trillion valuation, Elon Musk’s company announced it would acquire Anysphere — the parent company of Cursor — for $60 billion in SpaceX stock . The deal is expected to close in Q3 2026. Cursor went from a scrappy MIT spinoff in 2022 to $2.6 billion in annualized B2B revenue. Jensen Huang called it his “favorite enterprise AI service” . Patrick Collison said "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Three real sites. Three prompts. $0. This is Step 3.7 Flash, free in Kilo right now, and @coldopn is the one putting it through the work. He's been shipping builds like this constantly lately. Follow him if you want the receipts. P.S. We're also giving away $500 to two people when we hit 25k stars on GitHub. Brian Turcotte (@coldopn) Why aren't more people talking about @StepFun_ai ? Their latest model Step 3.7 Flash just made me 3 beautiful websites in less than 10 minutes: 1. Interactive Resume/CV 2. Landing Page for a Car Wash business 3. Custom Wedding Site Total Price: $0 Total # of Promp",
+          "link": "https://nitter.net/kilocode/status/2067320705654362402#m",
+          "date_utc": "2026-06-17T18:57:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067315467887202305%2Fimg%2Fn9-mnrUsXy8b2UpN.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/Kilo-Org/devrel",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "See where the count's at! github.com/Kilo-Org/kilocode",
+          "link": "https://nitter.net/kilocode/status/2067309264008249597#m",
+          "date_utc": "2026-06-17T18:11:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://github.com/Kilo-Org/kilocode",
+              "content": "GitHub - Kilo-Org/kilocode: Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features S"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "25K stars is close! When we hit it, we're sending $500 in Kilo credits to two stargazers as a thank-you.",
+          "link": "https://nitter.net/kilocode/status/2067309262330536119#m",
+          "date_utc": "2026-06-17T18:11:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCOw5VXQAAvNDZ.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Image",
+          "link": "https://nitter.net/magicsilicon/status/2067489526386454951#m",
+          "date_utc": "2026-06-18T06:08:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLEyp-MaQAAbvDC.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Image",
+          "link": "https://nitter.net/magicsilicon/status/2067487828372869215#m",
+          "date_utc": "2026-06-18T06:01:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLExLVGa8AAAWMN.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "We’re building for a world with billions of agents in operation. That future requires infrastructure designed specifically for agents. Today’s AgentCore updates help agents access the information they need, take action safely, and operate at scale. New capabilities include AgentCore Harness, AgentCore Policies, Web Search, and Managed Knowledge Base with native enterprise connectors. Everything you need to move agents from prototype to production. Learn more: aws.amazon.com/blogs/machine… Video",
+          "link": "https://nitter.net/mattsgarman/status/2067297319284842635#m",
+          "date_utc": "2026-06-17T17:24:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067296996621160448%2Fimg%2Fzu-h1NdM3q91XuEt.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/",
+              "content": "New in Amazon Bedrock AgentCore: Build agents with broader knowledge and continuous learning | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence New in Amazon Bedrock AgentCore: Build agents with broader knowledge and continuous learning by Madhu Parthasarathy on 17 JUN 2026 in Amazon Bedrock AgentCore , Announcements Permalink Comments Share The models powering today’s agents are remarkably capable. They can reason across complex problems, plan multi-step workflows, and generate nuanced responses. But most agents are operating well below that potential. The gap isn’t intelligence. It’s access to the right context and feedba"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Every team wants to move faster. Technical debt moves faster too. New AWS Transform capabilities continuously identify technical debt across thousands of repositories and automatically generate remediation pull requests. It’s designed to help organizations modernize continuously rather than through large one-time projects. In preview: aws.amazon.com/blogs/aws/pro…",
+          "link": "https://nitter.net/mattsgarman/status/2067297315979735272#m",
+          "date_utc": "2026-06-17T17:24:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCDVdHXMAARlia.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+              "content": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview) | AWS News Blog Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions AWS News Blog Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview) by Micah Walter on 17 JUN 2026 in AWS Summit New York , AWS Transform , Events , Generative AI , Launch , News Permalink Comments Share Today, we’re announcing AWS Transform – continuous modernization (preview) , a new capability of AWS Transform for continuous, autonomous tech debt analysis and remediation at scale. AWS Transform already helps enterprises migrate out of data centers, modernize mainfr"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "AI has dramatically accelerated code generation. But reviews, testing, and releases still move at a different pace. New release management capabilities in AWS DevOps Agent help close that gap. Release Readiness Review evaluates changes against production requirements and dependency risks. Autonomous Release Testing generates and runs change-specific test plans in production-like environments. The goal is simple: help teams ship faster with confidence. In preview: aws.amazon.com/blogs/aws/aws…",
+          "link": "https://nitter.net/mattsgarman/status/2067297311886037014#m",
+          "date_utc": "2026-06-17T17:24:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCDzCAW4AAs9t3.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+              "content": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview) | AWS News Blog Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions AWS News Blog AWS DevOps Agent adds release management capabilities to assess code changes before production (preview) by Esra Kayabali on 17 JUN 2026 in Announcements , AWS Summit New York , DevOps , Launch , News Permalink Comments Share Today, we’re announcing a new release management capability in AWS DevOps Agent that is now available in preview. AWS DevOps Agent is your always-available teammate that spans software changes and operations across AWS, multicloud, and on-premises environments. The pra"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Your development environment isn’t confined to a laptop anymore. With @kirodotdev for iOS, developers can start sessions, review code, monitor progress, and interact with agents from anywhere. Your agents keep moving. Now you can stay connected to them wherever you are. In preview: kiro.dev/blog/introducing-ki… Video",
+          "link": "https://nitter.net/mattsgarman/status/2067297308731900375#m",
+          "date_utc": "2026-06-17T17:24:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067296068342026241%2Fimg%2FtIF24uw67r3d_KCO.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kiro.dev/blog/introducing-kiro-for-ios/",
+              "content": "Introducing Kiro for iOS - Kiro Loading image... CLI IDE Web Mobile Enterprise Pricing Docs Community Resources SIGN IN DOWNLOADS Loading image... Back to all posts June 17, 2026 Introducing Kiro for iOS By KY Kyle Seaman Product Lead Today, weâre launching Kiro as a native iOS app built for real engineering work that gives developers a new surface to kick off, monitor, steer, and interact with their Kiro sessions directly from their phone. That means you can now start sessions, check back when they&#x27;re done, review diffs, and approve changes all while staying connected to your work with no laptop running. As remote sessions become the default way to work with Kiro, your phone becomes the natural place to stay connected. Think of it as an extension to your web sessions. A quick check"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "The way people interact with AI is evolving fast. Prompts were the starting point. Now we're building agents that can take sustained action across your systems. Starting today, @amazonquick lets anyone create autonomous agents from a natural language request and put them to work across your applications, data, and workflows. Combined with a new activity feed and connectivity across your most used tools, it makes it easier to turn information into action. Learn more here: kiro.dev/blog/introducing-ki… Video",
+          "link": "https://nitter.net/mattsgarman/status/2067297305993060750#m",
+          "date_utc": "2026-06-17T17:24:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067295531479515136%2Fimg%2FzpLwzdKfGuwKsjhc.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kiro.dev/blog/introducing-kiro-for-ios/",
+              "content": "Introducing Kiro for iOS - Kiro Loading image... CLI IDE Web Mobile Enterprise Pricing Docs Community Resources SIGN IN DOWNLOADS Loading image... Back to all posts June 17, 2026 Introducing Kiro for iOS By KY Kyle Seaman Product Lead Today, weâre launching Kiro as a native iOS app built for real engineering work that gives developers a new surface to kick off, monitor, steer, and interact with their Kiro sessions directly from their phone. That means you can now start sessions, check back when they&#x27;re done, review diffs, and approve changes all while staying connected to your work with no laptop running. As remote sessions become the default way to work with Kiro, your phone becomes the natural place to stay connected. Think of it as an extension to your web sessions. A quick check"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Agents can only be as effective as the context they have access to. Most organizations already have the information agents need. The challenge is connecting it across systems and making it usable. AWS Context is a new knowledge graph service that helps agents understand relationships across organizational data, business rules, and workflows. Built-in governance helps ensure they can do it responsibly. Coming soon: aws.amazon.com/blogs/machine…",
+          "link": "https://nitter.net/mattsgarman/status/2067297302830547058#m",
+          "date_utc": "2026-06-17T17:24:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCB4o2WsAEa_j_.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/context-intelligence-for-your-data-and-ai-agents-at-scale/",
+              "content": "Context intelligence for your data and AI agents at scale | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions Artificial Intelligence Context intelligence for your data and AI agents at scale by Mai-Lan Tomsen Bukovec on 17 JUN 2026 in Announcements , Generative AI Permalink Comments Share Agents are only as intelligent as the context they can reason over. Today, that context is scattered across data lakes, data warehouses, lakehouses, databases, and streams, and in institutional knowledge that has never been written down. You want to trust the decisions made by your AI agents, but that can’t happen until agents have context. Imagine what becomes p"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "The bottleneck in security has shifted from detection to resolution. Teams can surface thousands of vulnerabilities. Acting on them at speed is the hard part. AWS Continuum helps teams focus on the vulnerabilities that are actually exploitable in their environment and take action faster. It validates exposures in sandboxed environments, prioritizes using technical and business context, and can remediate confirmed vulnerabilities across the full stack. In preview: aws.amazon.com/blogs/securit…",
+          "link": "https://nitter.net/mattsgarman/status/2067297299693273502#m",
+          "date_utc": "2026-06-17T17:24:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCBZjzWwAA5_nZ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/security/introducing-aws-continuum-security-at-machine-speed/",
+              "content": "Introducing AWS Continuum: Security at machine speed | AWS Security Blog Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account Search Filter: All Sign in to console Create account AWS Blogs Home Blogs Editions AWS Security Blog Introducing AWS Continuum: Security at machine speed by Chet Kapoor on 17 JUN 2026 in Announcements , Foundational (100) , Security, Identity, Compliance Permalink Comments Share What we believe We’ve been thinking deeply about enterprise security. The operating model that served us for the past decade (collect telemetry, store it, query it, build dashboards to watch it) is no longer keeping pace. We need to shift to the new world: telemetry, context, reasoning, and actions. An approach that produces outcomes. The latest cybersecurit"
+            }
+          ]
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "The conversation with customers has changed. A year ago it was about what’s possible with AI. Today it’s about deployment, security, context, and getting complex work done. That’s what @SwamiSivasubram and the team focused on at #AWSSummitNY today with AWS Continuum, AWS Context, Amazon Quick, and more. Recap of today’s news in the thread below. Swami Sivasubramanian (@SwamiSivasubram) There’s been a seismic shift as companies have started to move from talking about agents to putting them to work. Here are some of the insights and launches I shared at @awscloud New York Summit that will help t",
+          "link": "https://nitter.net/mattsgarman/status/2067297295704396210#m",
+          "date_utc": "2026-06-17T17:24:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLB54AaXAAAz3o8.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.aboutamazon.com/news/aws/aws-summit-nyc-2026-ai-agents?utm_source=essocial&utm_medium=twitter&utm_term=38",
+              "content": "AWS Summit New York 2026: New AI agent innovations News AWS AWS Summit New York 2026: New ways to make AI agents more effective at work AWS Continuum and AWS Context lead a wave of announcements designed to help customers create momentum with agents applied across their organizations. Share Written by Swami Sivasubramanian , Vice President of Agentic AI, AWS 10 min read Page overview Key takeaways 1 Key takeaways 2 Introducing AWS Continuum for code vulnerabilities, agentic security at machine speed 3 AWS Context helps agents navigate a company’s data to be more effective at scale 4 New Amazon Quick autonomous agents work on your behalf so you can reclaim your time 5 Orchestrate agents on the go with a mobile app for Kiro 6 With Release Management in AWS DevOps Agent, your agents don’t jus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Try Grok Build 0.1 on code review Kilo (@kilocode) — https://nitter.net/kilocode/status/2067388923672707582#m",
+          "link": "https://nitter.net/milichab/status/2067389688256909373#m",
+          "date_utc": "2026-06-17T23:31:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Your best guess",
+          "link": "https://nitter.net/ns123abc/status/2067533156094267616#m",
+          "date_utc": "2026-06-18T09:01:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "How long do you think Noam Shazeer will stay at OpenAI?",
+          "link": "https://nitter.net/ns123abc/status/2067531166408659177#m",
+          "date_utc": "2026-06-18T08:53:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLFYo8NXoAAyFar.jpg",
+            "https://nitter.net/pic/media%2FHLFYo8PXwAA-gZs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "I'm officially impressed with GLM 5.2 Easily Opus 4.6/ GPT 5.4 tier. Good job, Xi. Z.ai (@Zai_org) Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency - MIT-licensed open weights - Same API pricing as GLM-5.1 Tech Blog: z.ai/blog/glm-5.2 Weights: huggingface.co/zai-org/GLM-5… API: docs.z.ai/guides/llm/glm-5.2 Coding Plan: z.",
+          "link": "https://nitter.net/ns123abc/status/2067507236792861037#m",
+          "date_utc": "2026-06-18T07:18:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLFC4A8W0AA1-iX.jpg",
+            "https://nitter.net/pic/media%2FHK84LPRXQAA6x0_.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://z.ai/blog/glm-5.2",
+              "content": ""
+            },
+            {
+              "url": "http://huggingface.co/zai-org/GLM-5.2",
+              "content": "zai-org/GLM-5.2 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , pad_token : |endoftext|> }, chat_template_jinja : [gMASK] sop>\\n{%- set effective_reasoning_effort = 'high' if reasoning_effort is defined and reasoning_effort == 'high' else 'max' -%}\\n{%- if (enable_thinking is not defined or enable_thinking) and effective_reasoning_effort is not none -%} |system|>Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\\n{%- if tools -%}\\n{%- macro tool_to_json(tool) -%}\\n {%- set"
+            },
+            {
+              "url": "http://docs.z.ai/guides/llm/glm-5.2",
+              "content": "GLM-5.2 - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation Language Models GLM-5.2 Guides API Reference Coding Plan Released Notes Terms and Policy Help Center Get Started Quick Start Overview Pricing Core Parameters SDKs Guide Migrate to GLM-5.2 Language Models GLM-5.2 GLM-5.1 GLM-5 GLM-5-Turbo GLM-4.7 GLM-4.6 GLM-4.5 GLM-4-32B-0414-128K Vision Language Models GLM-5V-Turbo GLM-4.6V GLM-OCR AutoGLM-Phone-Multilingual GLM-4.5V Image Generation Models GLM-Image CogView-4 Video Generation Models CogVideoX-3 Vidu Q1 Vidu 2 Image Gener"
+            },
+            {
+              "url": "http://z.ai/subscribe",
+              "content": "GLM Coding Plan — AI Coding Powered by GLM-5.2 GLM-5-Turbo for Agents IDEs My Coding Plan Coding Tools Guide Claude Code Cursor Cline Trae Kilo Code More MCP Guide Vision MCP Web Search MCP Web Reader MCP Zread MCP Community FAQ API Key Login Open menu"
+            },
+            {
+              "url": "http://chat.z.ai",
+              "content": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: DEEPSEEK JUST DROPPED V4 VISION Xiaokang Chen (@PKUCXK) Vision is now live on web and app. 👀 Come test the new eyes, but give its pure text capabilities a try while you're at it. — https://nitter.net/PKUCXK/status/2067460570958426452#m",
+          "link": "https://nitter.net/ns123abc/status/2067501390688026950#m",
+          "date_utc": "2026-06-18T06:55:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLE9jwjXgAA5Fnq.jpg",
+            "https://nitter.net/pic/media%2FHLEXpKybsAAP3Ed.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Midjourney isn’t mid Midjourney (@midjourney) A technical dive inside our new \"Midjourney Scanner\" Video — https://nitter.net/midjourney/status/2067422898407837797#m",
+          "link": "https://nitter.net/ns123abc/status/2067495578901123331#m",
+          "date_utc": "2026-06-18T06:32:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067422215428272128%2Fimg%2F1v7LGIEfZLLvvK9q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: ft.com/content/de83d303-6a03…",
+          "link": "https://nitter.net/ns123abc/status/2067481697562554680#m",
+          "date_utc": "2026-06-18T05:37:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067459292286902272%2Fo0C8mG9z%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: JPMorgan just cut off its entire staff in Hong Kong from accessing Claude Goldman Sachs also did the same last month It’s over",
+          "link": "https://nitter.net/ns123abc/status/2067480763776307508#m",
+          "date_utc": "2026-06-18T05:33:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLEqzB5W8AAYINn.jpg",
+            "https://nitter.net/pic/media%2FHLEqzB5XYAAjp5p.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: wired.com/story/sk-telecom-a…",
+          "link": "https://nitter.net/ns123abc/status/2067457672979325273#m",
+          "date_utc": "2026-06-18T04:01:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067498640306819073%2FWPJ6Pe1s%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+              "content": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy | WIRED Skip to main content Menu WIRED SECURITY POLITICS THE BIG STORY BUSINESS SCIENCE CULTURE REVIEWS Menu WIRED Account Account Newsletters Security Politics The Big Story Business Science Culture Reviews Chevron More Expand The Big Interview Magazine Events WIRED Insider WIRED Consulting Newsletters Podcasts Video Livestreams Merch Search Search Louise Matsakis Maxwell Zeff Business Jun 17, 2026 6:52 PM The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy Days before Anthropic took its most advanced AI models offline, the White House ordered the company to revoke SK Telecom’s access to Claude Mythos over claims of alleged ties to China. Photograph: Gabby Jones/Getty Images Comment Loader Save "
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: SK Telecom Triggered Anthropic's Export Controls. Not Amazon Days before Amazon flagged Fable 5, the White House called Anthropic about one company: SK Telecom SK Telecom is Korea's largest carrier, investor in Anthropic, and partner of Project Glasswing WH ordered to revoke SK Telecom's access to Mythos over alleged ties to China SK Telecom: \"Our company has no ties to China” Anthropic complied and revoked access the same day THEN the same week, Amazon flagged Fable 5 guardrail vulnerabilities... leading to the export-control letter revoking ALL foreign nationals' access White Hous",
+          "link": "https://nitter.net/ns123abc/status/2067457198062436391#m",
+          "date_utc": "2026-06-18T03:59:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLEVXT7WMAAzDmy.jpg",
+            "https://nitter.net/pic/media%2FHLEVXT6XkAAvDkk.jpg",
+            "https://nitter.net/pic/media%2FHLEVXT6XQAA3Bdh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“Sir… Noam Shazeer, the legend who invented the Transformer… who Sundar paid $2.7 billion to bring back and led Gemini… sir… it hasn’t even been two years and announced he’s leaving Google AGAIN…” Noam Shazeer (@NoamShazeer) I’m excited to share that I’ll be joining OpenAI and look forward to working with the exceptional team there. It was a difficult decision to move on. I’m incredibly proud of the amazing team at Google and everything we’ve built together. It has been an honor and a pleasure to work with all of you. — https://nitter.net/NoamShazeer/status/2067400851438932297#m",
+          "link": "https://nitter.net/ns123abc/status/2067433787495993832#m",
+          "date_utc": "2026-06-18T02:26:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLEAErhXAAAws93.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Fable is NEVER coming back btw",
+          "link": "https://nitter.net/ns123abc/status/2067393124851200096#m",
+          "date_utc": "2026-06-17T23:45:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLDbFzUXQAA5FY1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨G7 AI SUMMIT Wednesday. Évian-les-Bains, France. G7 leaders and AI CEOs sit down for a working lunch on AI. President Trump at center. OpenAI on his right. Google DeepMind on his left. Across the table, Anthropic. OpenAI (Sam Altman) spoke first: \"Do not cede your responsibilities to AI labs like mine. We develop the technology, and the citizens of the free world make the rules.\" He pitched multilateral forum for standards for testing and cooperation among nations that includes China. Anthropic (Dario Amodei) instead pitched a U.S.-led bloc: \"Structured access to frontier models for allies, c",
+          "link": "https://nitter.net/ns123abc/status/2067380582774894791#m",
+          "date_utc": "2026-06-17T22:55:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067371777232183296%2Fimg%2FfLiUwHc_SaQdPk_z.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "At VivaTech, we're sharing how France is turning AI ambitions into production reality. AI factories are coming online, open models are advancing, and agents are being deployed across industries, including healthcare, telecommunications, manufacturing, energy, and retail. From infrastructure to applications, France is helping lay the foundations for Europe's AI future with NVIDIA technologies. Read the blog: nvda.ws/4vTllNV",
+          "link": "https://nitter.net/nvidia/status/2067489992042004685#m",
+          "date_utc": "2026-06-18T06:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCSxyEWcAAGhQC.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://nvda.ws/4vTllNV",
+              "content": "France Advances Europe’s AI Future With NVIDIA Technologies | NVIDIA Blog Skip to content France Advances Europe’s AI Future With NVIDIA Technologies From AI factories to open models, France is turning its AI ambitions into production reality. June 17, 2026 by Nat Ives 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying applications and the French AI ecosystem is developing models, datasets and platforms designed around local languages, cultural context and European requir"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Gavin is suspiciously directing donors and mega corps to funnel money into his connected \"nonprofits.\" Don't forget...his own agency, Cal Volunteers, has a nonprofit slush fund that was set to launder $500K from FireAid. The entire NPO complex in CA needs to be audited. California Post (@californiapost) Gavin Newsom solicited $340M in 'behested payments' from special interests, filings reveal trib.al/rmQEoBj — https://nitter.net/californiapost/status/2067322294775488822#m",
+          "link": "https://nitter.net/spencerpratt/status/2067454786920718605#m",
+          "date_utc": "2026-06-18T03:50:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLESrNWWAAAG6JA.jpg",
+            "https://nitter.net/pic/media%2FHLCaqkpXMAAbg5I.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/rmQEoBj",
+              "content": "Gavin Newsom solicited $340M in 'behested payments' from special interests Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Off"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
