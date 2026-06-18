@@ -34,6 +34,8 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 
 ## Key Benchmarks
 
+**CEO-Bench (2026-06-18)** — long-horizon business-operation benchmark. An agent runs a fictional startup for 500 simulated days, managing pricing, marketing, and budgeting through a Python interface over noisy interconnected business databases. Tests four skills together: long horizons under uncertainty, information acquisition in noise, adaptation to a changing world, orchestration toward one goal. Only Claude Opus 4.8 and GPT-5.5 finish above the $1M starting balance; neither consistently profits. Best agents write cohort-simulation code to forecast cash and mine negotiation history for hidden preferences. Highest horizon (500 days) in the cluster; pairs with same-day RNG-Bench (stateful non-Markov memory, frontier MLLMs far from saturated at 128K). → [summary](2026-06-18-ceo-bench-long-horizon-agents.md)
+
 **OccuBench (2026-04-16)** — 100 tasks across 65 professional domains using Language World Models (LWMs) to simulate environments. Key finding: no single model dominates all industries; implicit faults are hardest. → [summary](2026-04-16-occubench.md)
 
 **Exploration/Exploitation Measurement (2026-04-16)** — Policy-agnostic metric for explore/exploit errors in LM agents on 2D grid environments. Reasoning models perform best; harness engineering meaningfully improves both dimensions. → [summary](2026-04-16-exploration-exploitation-lm-agents.md)
