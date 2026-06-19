@@ -1,0 +1,926 @@
+{
+  "date": "2026-06-19",
+  "slot": "evening",
+  "scraped_ist": "2026-06-19 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "More men are exposing themselves to women children near UT campus and downtown than ever In @zoforaustin 's District 9, disorderly exposure offenses were low for a decade -- then broke loose under Qadri and DA Garza and CA Garza. The 3 worst years on record all belong to them.",
+          "link": "https://nitter.net/AustinJustice/status/2067826746355777850#m",
+          "date_utc": "2026-06-19T04:28:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLJk-N3WsAATOzx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "In Austin, more cops were assaulted in 2025 than in 2020. Criminals apparently know that they will not pay a price for fighting cops.",
+          "link": "https://nitter.net/AustinJustice/status/2067665004896079941#m",
+          "date_utc": "2026-06-18T17:45:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Earlier today, ~3% of Claude Code Max and Pro users hit a bug that showed an incorrect weekly usage limit, and in some cases blocked them from sending messages. This is fixed, and we're resetting 5-hour and weekly limits for everyone affected. Apologies for the disruption.",
+          "link": "https://nitter.net/ClaudeDevs/status/2067802163498352929#m",
+          "date_utc": "2026-06-19T02:50:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Artifacts are now live in Claude Code. Ask Claude to turn what it's working on into a page and send the link to your team. The page updates as the session keeps working. Available today on Team and Enterprise plans. Claude (@claudeai) New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans. Video — https://nitter.net/claudeai/status/2067671912038240487#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2067672094209675373#m",
+          "date_utc": "2026-06-18T18:13:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLHZhd5WsAAzjSC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Built on an MCP extension that any client, server, or IdP can adopt. If you're interested in learning more or adopting it, read here: blog.modelcontextprotocol.io…",
+          "link": "https://nitter.net/ClaudeDevs/status/2067655891378491888#m",
+          "date_utc": "2026-06-18T17:09:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067068716068843520%2FpxRLk8s4%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth",
+              "content": "Enterprise-Managed Authorization: Zero-touch OAuth for MCP | Model Context Protocol Blog Skip to content Model Context Protocol Blog Documentation Posts Archives Search Home » Posts Enterprise-Managed Authorization: Zero-touch OAuth for MCP The Enterprise-Managed Authorization extension to the Model Context Protocol is now stable, enabling organizations to centrally provision MCP server access through their identity provider so users get connected servers on first login without per-app OAuth. June 18, 2026 · 5 min · Paul Carleton (Core Maintainer) Table of Contents Per-user auth is high friction Authorize once, inherit everywhere Early adopters Get involved Acknowledgements The Enterprise-Managed Authorization extension is now stable. Organizations can centrally manage authorization for MC"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "In beta now with Okta and connectors from Asana, Atlassian, Canva, Figma, Granola, Linear, Slack and Supabase, with Slack coming soon. Access stays consistent across Claude chat, Claude Code, and Cowork. Read the announcement: claude.com/blog/enterprise-m…",
+          "link": "https://nitter.net/ClaudeDevs/status/2067655890166247690#m",
+          "date_utc": "2026-06-18T17:09:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067655893760806912%2FPEVRFpg6%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/enterprise-managed-auth",
+              "content": "Centrally manage authorization for MCP connectors | Claude Meet Claude Products Claude Claude Code Claude Cowork Claude Design Claude Security Features Claude for Chrome Claude for Slack Claude for Microsoft 365 Skills Models Mythos Fable Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "It centralizes authorization through your identity provider: no per-app OAuth or setup for users, and tighter, more efficient control for admins.",
+          "link": "https://nitter.net/ClaudeDevs/status/2067655889050571036#m",
+          "date_utc": "2026-06-18T17:09:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've added support for the Enterprise-Managed Auth extension to MCP. Admins can centrally authorize MCP connectors for their organization, so all the tools and data users need are connected on their first login. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2067655887662272723#m",
+          "date_utc": "2026-06-18T17:09:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067651995037728768%2Fimg%2F9IriVxjThfKFoWK0.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "AMERICA NEVER LOSES. 🇺🇸🇺🇸🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2067683446391025675#m",
+          "date_utc": "2026-06-18T18:58:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLHjIzWWcAAvoaO.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Being fearless with anything can earn a lot of respect. Beware a man who is fearless and still alive henry tsang (@henrylhtsang) being so fearless with gossips def can earn a lot of respect — https://nitter.net/henrylhtsang/status/2067487687335084260#m",
+          "link": "https://nitter.net/MillionInt/status/2067804251519410513#m",
+          "date_utc": "2026-06-19T02:58:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "I wonder why does my tl seems to be reliving the o1 day? Maybe it’s time for the next one? roon (@tszzl) imo it is crazy that openai, years into the heated AGI race, released o1 and described in quite a bit of detail the principles of scaling RL over CoT. I wonder how much value was dispersed to the public that day — https://nitter.net/tszzl/status/2067760588315652123#m",
+          "link": "https://nitter.net/MillionInt/status/2067768224075444520#m",
+          "date_utc": "2026-06-19T00:35:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Bring back \"Follow Friday?\" What is the money in AI doing? I built these lists for entrepreneurs who are raising funding to be able to research investors all in one spot. These lists are everyone investing in AI startups. If I'm missing anyone, drop me a reply. VC firms: nitter.net/i/lists/12194289082835… AI Investors: nitter.net/i/lists/19013427131587… (people who invest in AI startups). I have two older lists of Investors in more general tech or other companies, but this one is more focused on AI startups specifically. In the early days of X, er, Twitter, we used to share our favorite people",
+          "link": "https://nitter.net/Scobleizer/status/2067971395355877838#m",
+          "date_utc": "2026-06-19T14:02:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Sabrina is way better at selling us on augmented reality glasses than anyone else in the business I've seen. If I ran Snap I would have launched only with her and kept all the other idiots away. Sabrina Ortiz (@sabrinaa_ortiz) I tried on the Snap Specs and spoke to @evanspiegel at launch. Here is my honest opinion😎👽 Video — https://nitter.net/sabrinaa_ortiz/status/2067789542866760024#m",
+          "link": "https://nitter.net/Scobleizer/status/2067872340487381425#m",
+          "date_utc": "2026-06-19T07:29:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067788785081847808%2Fimg%2Fp1BRnfbiD4qaVsd9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "And I include myself in the idiot batch. :-)",
+          "link": "https://nitter.net/Scobleizer/status/2067873928174080033#m",
+          "date_utc": "2026-06-19T07:35:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "And people tell me all China does is copy others. Om (@Om_Codes_) Chinese cars are showing German cars how suspension should actually work 👀 Video — https://nitter.net/Om_Codes_/status/2067865211844047194#m",
+          "link": "https://nitter.net/Scobleizer/status/2067865989971407174#m",
+          "date_utc": "2026-06-19T07:04:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067638942636314624%2Fimg%2F85d7iWRI2079T5G6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "While Fable remains locked up by the government, GLM is getting more attention. @jeremyphoward isn't the only one I've seen praising it. Trump's leadership in AI (or, lackthereof) is depressing more and more with every passing hour. Letting others get into the game. Jeremy Howard (@jeremyphoward) Wow. @Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and not too verbose. It responds with nuance and judgement, handles long context VERY well. I've never experienced an open weights model like this before. — https://nitter.net/jeremyphowa",
+          "link": "https://nitter.net/Scobleizer/status/2067859572724056399#m",
+          "date_utc": "2026-06-19T06:38:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Phil is former head of software for Rivian. We have a revealing conversation about why big companies often fall behind. It's all about customers. The more customers you have, the harder it will be to innovate, even if you have the innovation in the lab. Plenty of books have been written about that, but Phil gives some examples of how he had to defend against engineers who wanted to add buttons to its vehicles, which would make have a less differentiated product, and one that doesn't make sense as we move into an autonomous world. Plus plenty of other talk about the future of transportation. Te",
+          "link": "https://nitter.net/Scobleizer/status/2067828452548546957#m",
+          "date_utc": "2026-06-19T04:34:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLJmz76a4AAJdbM.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/hfUlQAuSYsk?si=AdKAG2MIB3aOPyb9",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I join the show about an hour in. Go look at the comments on YouTube. They love it!",
+          "link": "https://nitter.net/Scobleizer/status/2067829041747595330#m",
+          "date_utc": "2026-06-19T04:37:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "President Trump has just awarded Major Nicholas Dockery the Medal of Honor at the White House for his heroic actions in Afghanistan.",
+          "link": "https://nitter.net/SeanParnellASW/status/2067719203159695582#m",
+          "date_utc": "2026-06-18T21:20:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLIDp92WQAAw4R8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "President Trump has just posthumously awarded Colonel John Ripley the Medal of Honor at the White House for his heroic actions in Vietnam.",
+          "link": "https://nitter.net/SeanParnellASW/status/2067717679016755377#m",
+          "date_utc": "2026-06-18T21:14:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLICRVnXgAApz7d.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "President Trump has just awarded Major James Capers Jr. the Medal of Honor at the White House for his heroic actions in Vietnam.",
+          "link": "https://nitter.net/SeanParnellASW/status/2067716109487178228#m",
+          "date_utc": "2026-06-18T21:08:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLIA2AZWcAES-aQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised sees the things you don't Christoph (@starnevs) Today my Tesla on FSD V14.3.4 was driving when all of a sudden it swerved out of my lane. My instant thought was “what the hell, there no reason for the car to do that, it’s broken” Turns out after looking in the dash cam the vehicle beside swerved into my lane… I had absolutely no idea. Thank you so much @tesla_ai for making the roads safer. You guys are hero’s. — https://nitter.net/starnevs/status/2067436685881733526#m",
+          "link": "https://nitter.net/Tesla/status/2067727691760226720#m",
+          "date_utc": "2026-06-18T21:54:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "All in a week’s work 🇺🇸 Scott Brady (@ScottBradyPA) This week the @WHFraudTF worked alongside ✅ @DOLOIG to recover more than $512 MILLION for American taxpayers ✅ @Sonderling47 to inform every state and territory that they must work with @USDOL to prevent fraud or risk losing federal funds ✅ @SecRollins and @USDA to fight food stamp fraud in New York Much more to come. 🫡🇺🇸 — https://nitter.net/ScottBradyPA/status/2067967375731749035#m",
+          "link": "https://nitter.net/WHFraudTF/status/2067978731310747793#m",
+          "date_utc": "2026-06-19T14:32:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "We live in a weird time of overhyping slop that will be forgotten about in weeks. Linux and Python are both from 1991. LLVM started as research project in 2000. We want to build the foundations of silicon life. Software that lives for 50 years. There's time to make it perfect.",
+          "link": "https://nitter.net/__tinygrad__/status/2068035229324062804#m",
+          "date_utc": "2026-06-19T18:16:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "STORE is the only op with any observable side effects. This IR spans from the PyTorch level graph down to the level of LLVM IR. It's notably not Turing complete.",
+          "link": "https://nitter.net/__tinygrad__/status/2068032829469163867#m",
+          "date_utc": "2026-06-19T18:07:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Every UOp is a tuple: (op, srcs, arg?) shape, dtype, device, addrspace are recursively computed properties. This is what happens if you just keep refactoring. LLVM IR is good, but parts look like they locked it in before it was done. We value beauty over speed and features.",
+          "link": "https://nitter.net/__tinygrad__/status/2068030303944548571#m",
+          "date_utc": "2026-06-19T17:57:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "The tinygrad from the book has ~40 ops. ALU: 10 (base) + 10 (compound) movement: 6 (base) + 2 (STACK+BITCAST) + INDEX source: BUFFER/PARAM/CONST data: LOAD/STORE/AFTER -- how/when it moves lambda lift: CALL loops: RANGE/END scan: REDUCE -- needed? final: SINK -- group STORE",
+          "link": "https://nitter.net/__tinygrad__/status/2068027383236677746#m",
+          "date_utc": "2026-06-19T17:45:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "I've been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of a few animation options, data analyses and dashboards I share with the team. They are a game changer for how I work with Claude. Can't wait to hear what you think! Claude (@claudeai) New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans. Video — https://nitter.net/claudeai/status/2067671912038240487#m",
+          "link": "https://nitter.net/bcherny/status/2067700226669060207#m",
+          "date_utc": "2026-06-18T20:05:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLHZhd5WsAAzjSC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pre-order the book only 9$ brivaellepogam.gumroad.com/l… Brivael Le Pogam (@brivael) Already 10 sales. Super happy. I’ll speedrun the write. — https://nitter.net/brivael/status/2068035458404380722#m",
+          "link": "https://nitter.net/brivael/status/2068038445336084510#m",
+          "date_utc": "2026-06-19T18:29:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067771250525736960%2FvMv59p3j%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://brivaellepogam.gumroad.com/l/theshiftingwall",
+              "content": "The shifting wall (early-bird)"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faut que @knafo_sarah arrête de travailler. Sinon, elle ne laisse aucune chance à ses adversaires. Ça en devient gênant. On attend toujours le débat avec @ALeaument sur @Thinker_View ???? GRM (@grm_off) Sarah Knafo est insupportable ! Pour un analyste politique, c’est presque vexant. Sur le fond, elle coche toute la grille que la droite française a longtemps eu du mal à tenir ensemble : libérale en économie, conservatrice dans les mœurs, sécuritaire sans trembler, identitaire sans détour, tech-optimiste sans complexe, presque minarchiste dans son rapport à l’État. Elle parle moins de gérer ",
+          "link": "https://nitter.net/brivael/status/2068036302180946194#m",
+          "date_utc": "2026-06-19T18:20:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLLxNndWMAAJreh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Already 10 sales. Super happy. I’ll speedrun the write. Brivael Le Pogam (@brivael) Everyone believes the free world won in 1989. It didn't. The wall didn't fall it moved. Out of Berlin, and into our universities, our newsrooms, our institutions. THE SHIFTING WALL is the genealogy of how the West got captured, the proof that the ideology is finally collapsing, and the blueprint for what the builders rebuild next. Inside: - Why 1989 was the wrong victory and where the wall actually went - The genealogy of the capture, from French Theory to the institutions - Why the machine is breaking down rig",
+          "link": "https://nitter.net/brivael/status/2068035458404380722#m",
+          "date_utc": "2026-06-19T18:17:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLIo373bkAAXqEW.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://brivaellepogam.gumroad.com/l/theshiftingwall",
+              "content": "The shifting wall (early-bird)"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🚀🚀🚀 Fab & the Cats (@afabriciius) I agree. Age of abundance for the makers. — https://nitter.net/afabriciius/status/2068029696386691137#m",
+          "link": "https://nitter.net/brivael/status/2068031098094022681#m",
+          "date_utc": "2026-06-19T18:00:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I don’t believe in job collapse anymore either. I think demand for a lot of things will skyrocket. There’s so much stuff to build! So bullish!!! Builders and entrepreneurs will fix the shitty world built by bureaucrats. Video DogeDesigner (@cb_doge) BREAKING: Jensen Huang says the biggest mistake people make about AI is seeing it as a threat, instead of a tool to amplify human potential. AI won’t destroy human jobs but will rebuild American industry create a massive new wave of builders, technicians, engineers, makers. Video — https://nitter.net/cb_doge/status/2067893864200016358#m",
+          "link": "https://nitter.net/brivael/status/2068027251241943479#m",
+          "date_utc": "2026-06-19T17:44:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068027091216633856%2Fimg%2FlwpmpwvFIpZBG7nX.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2067893563392917504%2Fimg%2FeS1X3O58zdLKUoEA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Sarah Knafo (@knafo_sarah) — https://nitter.net/knafo_sarah/status/2067948410133459451#m",
+          "link": "https://nitter.net/brivael/status/2068019283691819306#m",
+          "date_utc": "2026-06-19T17:13:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLLUHkSXoAAamxe.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui DogeDesigner (@cb_doge) BREAKING: Jensen Huang says the biggest mistake people make about AI is seeing it as a threat, instead of a tool to amplify human potential. AI won’t destroy human jobs but will rebuild American industry create a massive new wave of builders, technicians, engineers, makers. Video — https://nitter.net/cb_doge/status/2067893864200016358#m",
+          "link": "https://nitter.net/brivael/status/2068005363098743245#m",
+          "date_utc": "2026-06-19T16:17:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067893563392917504%2Fimg%2FeS1X3O58zdLKUoEA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Robert Lespérance (@rlesperance52) Si tous les entrepreneurs avaient la bienveillance d'Elon Musk, le monde des affaires serait bien différent, il serait un atout au mieux être des hommes. À ce que je sache, il n'y a que la liberté individuelle qui autorise cette vision, et très peu de gens d'affaires la pratique concrètement au quotidien. — https://nitter.net/rlesperance52/status/2067970958833451324#m",
+          "link": "https://nitter.net/brivael/status/2067983362833482163#m",
+          "date_utc": "2026-06-19T14:50:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui… Meggy Kast (@MagdalenaKaspe6) Sans twitter on n'aurait jamais entendu parler de gangs de violeurs pakistanais en UK, ni sur la mort Henry Novak — https://nitter.net/MagdalenaKaspe6/status/2067845142518567363#m",
+          "link": "https://nitter.net/brivael/status/2067851863752622130#m",
+          "date_utc": "2026-06-19T06:07:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Fruit DelaPassion (@Neron666Nz) Je résume le discours de JD Vance : « L’Europe est devenue un immense EHPAD. Y espérer voir naître la prochaine révolution technologique, c’est un peu comme chercher un champion de F1 dans une salle de bingo. » — https://nitter.net/Neron666Nz/status/2067850364049580334#m",
+          "link": "https://nitter.net/brivael/status/2067850872617644070#m",
+          "date_utc": "2026-06-19T06:04:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "3 mois et demi. 13 500 posts. 615M de vues. ~17k $/mois de revenus avec le compte à ce stade — et ça ne fait que monter. Lancez-vous et parlez.",
+          "link": "https://nitter.net/brivael/status/2067848183045353861#m",
+          "date_utc": "2026-06-19T05:53:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ne me faites pas confiance. Lisez juste sa bio et vous comprendrez le personnage. Brivael Le Pogam (@brivael) Beaucoup de figures de gauche, aux US comme en Europe, qualifient Musk d'extrême droite. Certains vont jusqu'au mot « nazi ». J'ai fait l'inverse de l'accusation : lire avant de juger. Deux biographies. Des dizaines d'heures d'interviews et de documentaires. Zéro once de racisme détectée. Ce que j'ai trouvé, c'est une obsession constante pour la liberté : rachat de Twitter au nom de la liberté d'expression, réintégration des comptes bannis, publication des Twitter Files, ouverture du c",
+          "link": "https://nitter.net/brivael/status/2067847678793523389#m",
+          "date_utc": "2026-06-19T05:51:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLJ4Oi5a0AA9UOO.jpg",
+            "https://nitter.net/pic/media%2FHLInb9ma4AELBqD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "c'est plus fiable qu'un test de QI mdr Brivael Le Pogam (@brivael) Un pote entrepreneur n'a qu'une seule question en entretien : « Tu penses quoi d'Elon Musk ? » Pas pour la réponse. Pour ce qu'elle révèle. En 30 secondes il sait s'il a un bâtisseur ou un commentateur en face de lui. Ça ne rate jamais. — https://nitter.net/brivael/status/2067845099200147875#m",
+          "link": "https://nitter.net/brivael/status/2067845201746616660#m",
+          "date_utc": "2026-06-19T05:41:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Un pote entrepreneur n'a qu'une seule question en entretien : « Tu penses quoi d'Elon Musk ? » Pas pour la réponse. Pour ce qu'elle révèle. En 30 secondes il sait s'il a un bâtisseur ou un commentateur en face de lui. Ça ne rate jamais. Brivael Le Pogam (@brivael) Beaucoup de figures de gauche, aux US comme en Europe, qualifient Musk d'extrême droite. Certains vont jusqu'au mot « nazi ». J'ai fait l'inverse de l'accusation : lire avant de juger. Deux biographies. Des dizaines d'heures d'interviews et de documentaires. Zéro once de racisme détectée. Ce que j'ai trouvé, c'est une obsession const",
+          "link": "https://nitter.net/brivael/status/2067845099200147875#m",
+          "date_utc": "2026-06-19T05:41:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLInb9ma4AELBqD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je n'ai jamais été très porté sur le combat politique. Je regardais tout ça d'assez loin plutôt aligné avec certains influenceurs de droite, le sujet me paraissait pertinent, mais je ne le vivais pas de manière existentielle. Mon tipping point, ça a vraiment été le rapport entre les médias et Musk. Et surtout : voir une partie de mon entourage réagir et croire à ce bullshit. L'affaire du « salut nazi ». Pas l'accusation elle-même trop absurde pour qu'on s'y arrête. Mais des gens pas bêtes, intelligents même, juste pas informés, y croire en une seconde. C'est là que j'ai compris l'ampleur du tr",
+          "link": "https://nitter.net/brivael/status/2067842920825401636#m",
+          "date_utc": "2026-06-19T05:32:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLInb9ma4AELBqD.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "EssentialAI seems to have been acquihired 😮 also crazy to find this out from linkedin, i checked and there is 0 information about it (they were valued around ~$1B in August 2025) Aarush Sah (@aarush) Looks like @ashVaswani ’s Essential AI was acquihired, as per their Head of Talent’s LinkedIn. Is this news or am I late to the party? — https://nitter.net/aarush/status/2067848134034939968#m",
+          "link": "https://nitter.net/eliebakouch/status/2067854198369370246#m",
+          "date_utc": "2026-06-19T06:17:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLJ-RZ9b0AAPUZC.png",
+            "https://nitter.net/pic/media%2FHLJ462TawAAMHFF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "(there are a lot more amazing labs btw, there's a limit of 4 per poll + this is just for fun and i'm actually curious to see what people think)",
+          "link": "https://nitter.net/eliebakouch/status/2067846205783302407#m",
+          "date_utc": "2026-06-19T05:45:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "elie (@eliebakouch) if we let the top 50 people at the top ai companies in france, canada, korea and the city of rio with the exact same amount of gpus for 6 months, who would produce the best model? group C: rest of the world — https://nitter.net/eliebakouch/status/2067845309489885393#m",
+          "link": "https://nitter.net/eliebakouch/status/2067845352791986250#m",
+          "date_utc": "2026-06-19T05:42:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "if we let the top 50 people at the top ai companies in france, canada, korea and the city of rio with the exact same amount of gpus for 6 months, who would produce the best model? group C: rest of the world",
+          "link": "https://nitter.net/eliebakouch/status/2067845309489885393#m",
+          "date_utc": "2026-06-19T05:41:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "elie (@eliebakouch) if we let the top 50 people at deepseek, kimi, zai, minimax with the exact same amount of gpus for 6 months, who would produce the best model? groupe B: chinese labs — https://nitter.net/eliebakouch/status/2067843223796769156#m",
+          "link": "https://nitter.net/eliebakouch/status/2067843262241771945#m",
+          "date_utc": "2026-06-19T05:33:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "if we let the top 50 people at deepseek, kimi, zai, minimax with the exact same amount of gpus for 6 months, who would produce the best model? groupe B: chinese labs",
+          "link": "https://nitter.net/eliebakouch/status/2067843223796769156#m",
+          "date_utc": "2026-06-19T05:33:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "exact conditions: gpu count is 100k B200 equivalent (like colossus 2 first cluster) but can be the team's favorite accelerators, the cluster is properly setup in terms of inter/intra node bandwidth, nodes get replaced automatically when there is an issue best model is defined as best on a weighted average of AA + cursorbench + frontiercode + metr ECI with a budget of max($30 per task, 5M output tokens per task), the cost per task is based on anthropic's margin on fable inference (but inference stack can be optimized however they want) there is 0 bureaucracy, just the 50 \"best\" people trying to",
+          "link": "https://nitter.net/eliebakouch/status/2067841924212588841#m",
+          "date_utc": "2026-06-19T05:28:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "if we let the top 50 people at openai, anthropic, xai/cursor and google with the exact same amount of gpus for 6 months, who would produce the best model? exact condition, chinese labs and \"rest of the world\" poll bellow, this is the LLM WORLD CUP",
+          "link": "https://nitter.net/eliebakouch/status/2067841808638652909#m",
+          "date_utc": "2026-06-19T05:28:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "base model is also available, very nice! huggingface.co/poolside/Lagu… Poolside (@poolsideai) Today we’re releasing the weights for Laguna M.1, our most capable model to date, with a 256K context length. Both base and post-trained checkpoints are now available on Hugging Face under Apache 2.0. — https://nitter.net/poolsideai/status/2067623353230217448#m",
+          "link": "https://nitter.net/eliebakouch/status/2067671786905604352#m",
+          "date_utc": "2026-06-18T18:12:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLHYYhxaQAAM2aU.jpg",
+            "https://nitter.net/pic/media%2FHLGmsz_WUAAsIOD.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/poolside/Laguna-M.1-base",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“Sir… John Jumper… the director of DeepMind… the co-creator of AlphaFold… the man who won the Nobel Prize with you… sir… he just announced he’s leaving Google DeepMind and joining Anthropic…” John Jumper (@JohnJumperSci) A bit of news: After nearly 9 years, I have decided to leave Google DeepMind and join Anthropic (after taking some time to recharge). I am incredibly grateful for my time at GDM. @demishassabis took a real chance letting me lead the AlphaFold team just six months after finishing my PhD, and the entire GDM team taught me so much about how to do great science. GDM is a special p",
+          "link": "https://nitter.net/ns123abc/status/2068023211904602418#m",
+          "date_utc": "2026-06-19T17:28:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLMYJsfXoAAqeVm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "OpenAI released o1-preview 3 months after this post btw NIK (@ns123abc) moment somebody at oai reads and understands what this means the timer to AGI begins — https://nitter.net/ns123abc/status/1799377647463780638#m",
+          "link": "https://nitter.net/ns123abc/status/2067774655805440196#m",
+          "date_utc": "2026-06-19T01:01:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FGPisbveXMAACNzm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Nassim Taleb says Grok understands his $20B hedge fund's strategy better than actual financebros Interviewer: “Universa’s annual return on capital is higher than 100%. What’s behind that?” Nassim Taleb: “Go ask Grok.” “Grok represents what we do A LOT BETTER than commentators and understands the nature of our strategy. Remarkably… AI has been beneficial to us because they’re very coherent in representing what we do for a living. You can ask Grok, we asked it on Twitter and it was very accurate.” Video",
+          "link": "https://nitter.net/ns123abc/status/2067695558870065482#m",
+          "date_utc": "2026-06-18T19:46:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067692934602895361%2Fimg%2FStQxiDxuiIZZnH6q.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Watch the keynote: nvda.ws/3Sg6ley",
+          "link": "https://nitter.net/nvidia/status/2068000863122022411#m",
+          "date_utc": "2026-06-19T16:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2066392303371988992%2Fwfenhzdw%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3Sg6ley",
+              "content": "NVIDIA GTC Taipei 2026 Keynote | Full Replay - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Jensen Huang’s simplest explanation of an AI agent: a worker in a workshop. The model thinks. The harness gives it form. Tools and skills let it act. And the runtime gives the agent a place to get work done. Video",
+          "link": "https://nitter.net/nvidia/status/2068000859321970871#m",
+          "date_utc": "2026-06-19T16:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067738909967073280%2Fimg%2FQnbZ5f4LZbEumxSw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "It’s superlatively important that we protect our democracy. We all need to have faith in our electoral system. California Post (@californiapost) Today's cover: FBI swarms downtown LA to quiz more than 50 homeless people about voter fraud. trib.al/YDPpj65 Subscribe for home delivery: trib.al/Iyn6uhn — https://nitter.net/californiapost/status/2067979762170020187#m",
+          "link": "https://nitter.net/spencerpratt/status/2068000706712482168#m",
+          "date_utc": "2026-06-19T15:59:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLLwnvCWoAAoXhg.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/YDPpj65",
+              "content": ""
+            },
+            {
+              "url": "https://trib.al/Iyn6uhn",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "FBI agents hitting Skid Row today. What do you notice in the background? We are cleaning up LA whether you like it or not.",
+          "link": "https://nitter.net/spencerpratt/status/2067844529739469166#m",
+          "date_utc": "2026-06-19T05:38:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLJ1pAkaQAAN2BW.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
