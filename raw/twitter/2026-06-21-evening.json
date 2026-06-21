@@ -1,0 +1,301 @@
+{
+  "date": "2026-06-21",
+  "slot": "evening",
+  "scraped_ist": "2026-06-21 21:09",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "I believe that if you look very closely and analyse human brain you’ll find something like a self-attention in there. It’s just likely a tiny tiny fraction of parameters",
+          "link": "https://nitter.net/MillionInt/status/2068712565262413893#m",
+          "date_utc": "2026-06-21T15:08:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Preventing sideswipes Raines (@raines1220) FSD v14.3.4 just saved us from a maniac. The camera does not do the situation justice. I don’t believe any human could have done better than FSD here. This was superhuman driving skill. Video — https://nitter.net/raines1220/status/2067801983306866712#m",
+          "link": "https://nitter.net/Tesla/status/2068502229993299985#m",
+          "date_utc": "2026-06-21T01:12:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067801858090147841%2Fimg%2FDS7FKwPVbvngerFf.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Même le moustachu n’aurait pas osé 😂 Il aurait dit au “G” Mec t’es sûr que ça va passer ça gros ? “Une monnaie pour les rendre libres ?” Tkt frère il aurait répondu. Brivael Le Pogam (@brivael) \"L’euro digital, la monnaie qui nous rend libres\" \"Arbeit macht frei\" \"Le travail rend libre\" Soyez créatif quand même 🤣🤣🤣🤣 PS : elle ma bloqué je vais devoir screenshot now 😂 — https://nitter.net/brivael/status/2068723835877396567#m",
+          "link": "https://nitter.net/brivael/status/2068731655439974565#m",
+          "date_utc": "2026-06-21T16:23:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWcelxaAAATJ0p.jpg",
+            "https://nitter.net/pic/media%2FHLWVD25bMAAb-QF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'Occident ne meurt pas d'une agression extérieure. Il s'est saboté lui-même. 50 ans de projet managérial qui a confondu gérer le déclin avec gouverner : la liberté d'expression en recul, l'insécurité normalisée, des institutions qui détournent le regard pour préserver la paix sociale, des villes qu'on n'ose plus traverser à pied. Brivael Le Pogam (@brivael) Milei à Davos. Vance à Munich. Le premier ouvre par « Machiavel est mort ». Le second explique, face aux dirigeants européens médusés, que la vraie menace n'est ni Moscou ni Pékin c'est la menace de l'intérieur. Une caste qui, selon ses mo",
+          "link": "https://nitter.net/brivael/status/2068729890262901013#m",
+          "date_utc": "2026-06-21T16:16:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWa3nRbIAARwut.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'Occident ne meurt pas d'une agression extérieure. Il s'est saboté lui-même. 50 ans de projet managérial qui a confondu gérer le déclin avec gouverner : la liberté d'expression en recul, l'insécurité normalisée, des institutions qui détournent le regard pour préserver la paix sociale, des villes qu'on n'ose plus traverser à pied. Brivael Le Pogam (@brivael) Milei à Davos. Vance à Munich. Le premier ouvre par « Machiavel est mort ». Le second explique, face aux dirigeants européens médusés, que la vraie menace n'est ni Moscou ni Pékin c'est la menace de l'intérieur. Une caste qui, selon ses mo",
+          "link": "https://nitter.net/brivael/status/2068729707697422403#m",
+          "date_utc": "2026-06-21T16:16:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWas6Ia0AAXr6x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "ESG is the bigger scam ever 😂 I’ll do a big post on that too. Brivael Le Pogam (@brivael) . @argildotai has 0.5/20 ESG last report I’m so proud. 🫡🚀 — https://nitter.net/brivael/status/2068728259064557806#m",
+          "link": "https://nitter.net/brivael/status/2068728432926793842#m",
+          "date_utc": "2026-06-21T16:11:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": ". @argildotai has 0.5/20 ESG last report I’m so proud. 🫡🚀 Dr. Eli David (@DrEliDavid) For ESG, lower is better. Well done @elonmusk 💪 — https://nitter.net/DrEliDavid/status/2068713802711912702#m",
+          "link": "https://nitter.net/brivael/status/2068728259064557806#m",
+          "date_utc": "2026-06-21T16:10:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWMPaXXUAAXhqy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mes parents vont enfin être fier de moi. C’est le plus beau jour de ma vie. Brivael Le Pogam (@brivael) j'ai enfin rencontré le boss pour ma remise de diplôme 😂 — https://nitter.net/brivael/status/2068726374559572448#m",
+          "link": "https://nitter.net/brivael/status/2068727401996263781#m",
+          "date_utc": "2026-06-21T16:07:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWXj4FaUAAhhh7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les fa chaud veulent pas avoir chaud Martial (@Pacobrikx) Y a fa très cho aujourd'hui, presque 40° — https://nitter.net/Pacobrikx/status/2068724182515319045#m",
+          "link": "https://nitter.net/brivael/status/2068726881260802295#m",
+          "date_utc": "2026-06-21T16:04:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "ma montre c'est une rolex a 4 millions de $ acheté avec la X money Brivael Le Pogam (@brivael) j'ai enfin rencontré le boss pour ma remise de diplôme 😂 — https://nitter.net/brivael/status/2068726374559572448#m",
+          "link": "https://nitter.net/brivael/status/2068726604113793474#m",
+          "date_utc": "2026-06-21T16:03:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWXweCasAA4mu3.png",
+            "https://nitter.net/pic/media%2FHLWXj4FaUAAhhh7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "j'ai enfin rencontré le boss pour ma remise de diplôme 😂 Brivael Le Pogam (@brivael) hahahahaha le badge — https://nitter.net/brivael/status/2068723404551930334#m",
+          "link": "https://nitter.net/brivael/status/2068726374559572448#m",
+          "date_utc": "2026-06-21T16:02:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWXj4FaUAAhhh7.jpg",
+            "https://nitter.net/pic/media%2FHLWU7rtbYAAIYVK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Aurore, je vais te couper aws fait pas la maline 😂😂😂 Brivael Le Pogam (@brivael) Oui, il aurait raison de tout couper si vous prenez le pouvoir. Vous n’avez toujours pas lu le rapport de JD Vance à Munich ? Vous avez juste à suivre le manuel, vu que vous ne savez faire que ça. Arrêtez vos mesures liberticides et rendez la liberté au peuple européen. PERSONNE ne veut d’un projet orwellien en mode 1984, que vous tentez de construire sous un vernis de « protection bienveillante. PERSONNE. A part vous. — https://nitter.net/brivael/status/2068722793710231869#m",
+          "link": "https://nitter.net/brivael/status/2068724450514862366#m",
+          "date_utc": "2026-06-21T15:55:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "ils sont nostalgique Brivael Le Pogam (@brivael) \"L’euro digital, la monnaie qui nous rend libres\" \"Arbeit macht frei\" \"Le travail rend libre\" Soyez créatif quand même 🤣🤣🤣🤣 PS : elle ma bloqué je vais devoir screenshot now 😂 — https://nitter.net/brivael/status/2068723835877396567#m",
+          "link": "https://nitter.net/brivael/status/2068723938067439784#m",
+          "date_utc": "2026-06-21T15:53:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWVZ7RawAA1a4l.jpg",
+            "https://nitter.net/pic/media%2FHLWVD25bMAAb-QF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"L’euro digital, la monnaie qui nous rend libres\" \"Arbeit macht frei\" \"Le travail rend libre\" Soyez créatif quand même 🤣🤣🤣🤣 PS : elle ma bloqué je vais devoir screenshot now 😂",
+          "link": "https://nitter.net/brivael/status/2068723835877396567#m",
+          "date_utc": "2026-06-21T15:52:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWVD25bMAAb-QF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "hahahahaha le badge Brivael Le Pogam (@brivael) Oui, il aurait raison de tout couper si vous prenez le pouvoir. Vous n’avez toujours pas lu le rapport de JD Vance à Munich ? Vous avez juste à suivre le manuel, vu que vous ne savez faire que ça. Arrêtez vos mesures liberticides et rendez la liberté au peuple européen. PERSONNE ne veut d’un projet orwellien en mode 1984, que vous tentez de construire sous un vernis de « protection bienveillante. PERSONNE. A part vous. — https://nitter.net/brivael/status/2068722793710231869#m",
+          "link": "https://nitter.net/brivael/status/2068723404551930334#m",
+          "date_utc": "2026-06-21T15:51:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLWU7rtbYAAIYVK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui, il aurait raison de tout couper si vous prenez le pouvoir. Vous n’avez toujours pas lu le rapport de JD Vance à Munich ? Vous avez juste à suivre le manuel, vu que vous ne savez faire que ça. Arrêtez vos mesures liberticides et rendez la liberté au peuple européen. PERSONNE ne veut d’un projet orwellien en mode 1984, que vous tentez de construire sous un vernis de « protection bienveillante. PERSONNE. A part vous.",
+          "link": "https://nitter.net/brivael/status/2068722793710231869#m",
+          "date_utc": "2026-06-21T15:48:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Space and Technology (@spaceandtech_) 🚨 Jeff Bezos says AI will not replace humans but will create a labor shortage. — https://nitter.net/spaceandtech_/status/2068699590715691125#m",
+          "link": "https://nitter.net/brivael/status/2068721498500796651#m",
+          "date_utc": "2026-06-21T15:43:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLV_TPiaQAAag4G.jpg",
+            "https://nitter.net/pic/media%2FHLV_T4hbEAAElO5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Moi qui pensait qu’il était pour la démocratie et la sacrosaint Europe ? Je tombe de ma chaise. Spoiler : non Frontières (@Frontieresmedia) Emmanuel Macron s’oppose au nouveau dispositif européen de centres de retour pour clandestins. frontieresmedia.fr/politique… Link Frontières - Emmanuel Macron s’oppose au nouveau dispositif européen de centres de retour pour... Alors que le Parlement européen a validé la possibilité de créer des centres de rétention pour migrants déboutés dans des pays tiers, Emmanuel Macron a fait part de son opposition à cette réforme... frontieresmedia.fr — https://nitt",
+          "link": "https://nitter.net/brivael/status/2068721406314221772#m",
+          "date_utc": "2026-06-21T15:43:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2068648071894900736%2F47_os5FF%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.frontieresmedia.fr/politique/emmanuel-macron-soppose-au-nouveau-dispositif-europeen-de-centres-de-retour-pour-clandestins---18428",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dans la tête d’un gauchiste : “Avoir une Clim chez soi c’est comme avoir une photo de Adolph ou le livre interdit. C’est pareil.”",
+          "link": "https://nitter.net/brivael/status/2068720731912065029#m",
+          "date_utc": "2026-06-21T15:40:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Facho !!! Fil (@FilAffranchi2) Et la devant moi, j’habite bien un appartement d’extrême droite 🥸 — https://nitter.net/FilAffranchi2/status/2068434674406338990#m",
+          "link": "https://nitter.net/brivael/status/2068720290637722069#m",
+          "date_utc": "2026-06-21T15:38:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLSOX2IXkAAaf35.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
