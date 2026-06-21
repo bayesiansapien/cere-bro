@@ -1,7 +1,7 @@
 {
   "date": "2026-06-21",
   "slot": "evening",
-  "scraped_ist": "2026-06-21 21:09",
+  "scraped_ist": "2026-06-21 22:00",
   "lookback_h": 24,
   "curated": [],
   "ai_feed": [
@@ -19,9 +19,100 @@
         {
           "handle": "MillionInt",
           "creator": "@MillionInt",
+          "text": "CUDA Optimizers No bubbles Party",
+          "link": "https://nitter.net/MillionInt/status/2068741143127601517#m",
+          "date_utc": "2026-06-21T17:01:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
           "text": "I believe that if you look very closely and analyse human brain you’ll find something like a self-attention in there. It’s just likely a tiny tiny fraction of parameters",
           "link": "https://nitter.net/MillionInt/status/2068712565262413893#m",
           "date_utc": "2026-06-21T15:08:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "Fathers add such a unique dynamic. Balance. Fun. Protection. Friendship. Loyalty. Patience. Teachers. The list goes on. Often under appreciated online, but irreplaceable in real life. Quite mesmerizing to observe. Dear Dads all over the world, thank you. #HappyFathersDay",
+          "link": "https://nitter.net/NICKIMINAJ/status/2068748390574277103#m",
+          "date_utc": "2026-06-21T17:30:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I know a guy who hacked all of YC companies and found 40% had critical holes too so it fits for me.",
+          "link": "https://nitter.net/Scobleizer/status/2068755931022925836#m",
+          "date_utc": "2026-06-21T18:00:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Whether or not the quote is accurate it makes for a good movie: Zack Korman (@ZackKorman) If this whole “Mythos broke into almost all NSA classified systems” story is true (and it’s not), it just means the NSA is wildly incompetent. Cybersecurity isn’t magic. If your classified systems get breached it means you did it wrong. — https://nitter.net/ZackKorman/status/2068634992427597938#m",
+          "link": "https://nitter.net/Scobleizer/status/2068755114740142525#m",
+          "date_utc": "2026-06-21T17:57:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The “6-9” release. OpenClaw🦞 (@openclaw) OpenClaw v2026.6.9 is out, with a focus on paper cuts! 💬 Richer Telegram delivery 👏 Steadier agent recovery 🧬 Stronger Codex integration 📦 Slimmer distribution 👌 Improvements in search and skills github.com/openclaw/openclaw… Link Release openclaw 2026.6.9 · openclaw/openclaw Highlights Richer Telegram delivery: Telegram now sends rich HTML, preserves rich markdown and sticker paths, renders progress drafts and command output more faithfully, normalizes HTML tables saf... github.com — https://nitter.net/openclaw/status/2068567818862485740#m",
+          "link": "https://nitter.net/Scobleizer/status/2068746408661066086#m",
+          "date_utc": "2026-06-21T17:22:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2068528747482054656%2FtgzWpqEr%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.9",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "So Trump took it away from everyone to give them time to patch the holes before giving it to everyone? Ahh happy Father’s Day. Someone should make a movie about it. :-) MTS (@MTSlive) SITUATION UPDATE: On June 11, Anthropic’s Mythos “broke into almost all” NSA and US Cyber Command classified systems within hours, per The Economist. Senate Intelligence Committee vice-chair Mark Warner cited the claim from General Joshua Rudd, who leads both agencies. — https://nitter.net/MTSlive/status/2068705950698184937#m",
+          "link": "https://nitter.net/Scobleizer/status/2068745901523509263#m",
+          "date_utc": "2026-06-21T17:20:33+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -64,49 +155,9 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Même le moustachu n’aurait pas osé 😂 Il aurait dit au “G” Mec t’es sûr que ça va passer ça gros ? “Une monnaie pour les rendre libres ?” Tkt frère il aurait répondu. Brivael Le Pogam (@brivael) \"L’euro digital, la monnaie qui nous rend libres\" \"Arbeit macht frei\" \"Le travail rend libre\" Soyez créatif quand même 🤣🤣🤣🤣 PS : elle ma bloqué je vais devoir screenshot now 😂 — https://nitter.net/brivael/status/2068723835877396567#m",
-          "link": "https://nitter.net/brivael/status/2068731655439974565#m",
-          "date_utc": "2026-06-21T16:23:56+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWcelxaAAATJ0p.jpg",
-            "https://nitter.net/pic/media%2FHLWVD25bMAAb-QF.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "L'Occident ne meurt pas d'une agression extérieure. Il s'est saboté lui-même. 50 ans de projet managérial qui a confondu gérer le déclin avec gouverner : la liberté d'expression en recul, l'insécurité normalisée, des institutions qui détournent le regard pour préserver la paix sociale, des villes qu'on n'ose plus traverser à pied. Brivael Le Pogam (@brivael) Milei à Davos. Vance à Munich. Le premier ouvre par « Machiavel est mort ». Le second explique, face aux dirigeants européens médusés, que la vraie menace n'est ni Moscou ni Pékin c'est la menace de l'intérieur. Une caste qui, selon ses mo",
-          "link": "https://nitter.net/brivael/status/2068729890262901013#m",
-          "date_utc": "2026-06-21T16:16:55+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWa3nRbIAARwut.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "L'Occident ne meurt pas d'une agression extérieure. Il s'est saboté lui-même. 50 ans de projet managérial qui a confondu gérer le déclin avec gouverner : la liberté d'expression en recul, l'insécurité normalisée, des institutions qui détournent le regard pour préserver la paix sociale, des villes qu'on n'ose plus traverser à pied. Brivael Le Pogam (@brivael) Milei à Davos. Vance à Munich. Le premier ouvre par « Machiavel est mort ». Le second explique, face aux dirigeants européens médusés, que la vraie menace n'est ni Moscou ni Pékin c'est la menace de l'intérieur. Une caste qui, selon ses mo",
-          "link": "https://nitter.net/brivael/status/2068729707697422403#m",
-          "date_utc": "2026-06-21T16:16:12+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWas6Ia0AAXr6x.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "ESG is the bigger scam ever 😂 I’ll do a big post on that too. Brivael Le Pogam (@brivael) . @argildotai has 0.5/20 ESG last report I’m so proud. 🫡🚀 — https://nitter.net/brivael/status/2068728259064557806#m",
-          "link": "https://nitter.net/brivael/status/2068728432926793842#m",
-          "date_utc": "2026-06-21T16:11:08+00:00",
+          "text": "« Selon toi, il n'y a pas de dérèglement climatique ? » Mauvaise question. Et c'est tout le piège. On veut te forcer dans un binaire : soit tu crois à l'apocalypse et tu acceptes le rationnement, soit tu es un « climatosceptique ». Je refuse ce cadre. Ce que je pense vraiment : 1/ Oui, on pollue. Massivement. Surtout via les fossiles. Là-dessus, zéro débat. 2/ Le vrai sujet n'est pas « le climat change ou pas ». C'est : comment on résout. Et là, deux camps s'affrontent. 3/ Camp 1 — la décroissance. Rationner, culpabiliser, planifier. L'avion compté, le quota carbone, le pass. C'est l'archétype",
+          "link": "https://nitter.net/brivael/status/2068776198646427819#m",
+          "date_utc": "2026-06-21T19:20:56+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -115,35 +166,35 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": ". @argildotai has 0.5/20 ESG last report I’m so proud. 🫡🚀 Dr. Eli David (@DrEliDavid) For ESG, lower is better. Well done @elonmusk 💪 — https://nitter.net/DrEliDavid/status/2068713802711912702#m",
-          "link": "https://nitter.net/brivael/status/2068728259064557806#m",
-          "date_utc": "2026-06-21T16:10:26+00:00",
+          "text": "ils paniquent tous, ils savent qu'ils ont déjà perdu now, le point godwin permanent 🤣 la terre entière est nazi Victor Ferry Business & News PhD (@mrvicfer) Laurent Joffrin vient de comparer le groupe de presse Bolloré aux journaux pro-hitlériens des années 30. Sur France Info. Financée par vos impôts. C'est son droit. La liberté d'expression s'applique aussi aux gens qui disent des sottises. Mais G-William Goldnadel a immédiatement rappelé un fait que Laurent Joffrin préférerait sans doute oublier. Serge July, le patron de Libération dont Joffrin a été directeur, a été condamné pour \"diffamat",
+          "link": "https://nitter.net/brivael/status/2068775753366618329#m",
+          "date_utc": "2026-06-21T19:19:10+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLWMPaXXUAAXhqy.jpg"
+            "https://nitter.net/pic/media%2FHLV1IgaWcAA_YPm.jpg"
           ],
           "articles": []
         },
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Mes parents vont enfin être fier de moi. C’est le plus beau jour de ma vie. Brivael Le Pogam (@brivael) j'ai enfin rencontré le boss pour ma remise de diplôme 😂 — https://nitter.net/brivael/status/2068726374559572448#m",
-          "link": "https://nitter.net/brivael/status/2068727401996263781#m",
-          "date_utc": "2026-06-21T16:07:02+00:00",
+          "text": "Milton, c'est le goat Milton Friedman Quotes (@MiltonFriedmanW) Milton Friedman: “We are not governed by the people—that’s a myth that carries over from Abraham Lincoln’s day. We don’t have government of the people, by the people, for the people.” “We have government of the people, by the bureaucrats, for the bureaucrats.” Video — https://nitter.net/MiltonFriedmanW/status/2068678067950678510#m",
+          "link": "https://nitter.net/brivael/status/2068775536927891698#m",
+          "date_utc": "2026-06-21T19:18:18+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLWXj4FaUAAhhh7.jpg"
+            "https://nitter.net/pic/amplify_video_thumb%2F2068502215275196416%2Fimg%2FjnRtxGyPcPKzFHWJ.jpg"
           ],
           "articles": []
         },
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Les fa chaud veulent pas avoir chaud Martial (@Pacobrikx) Y a fa très cho aujourd'hui, presque 40° — https://nitter.net/Pacobrikx/status/2068724182515319045#m",
-          "link": "https://nitter.net/brivael/status/2068726881260802295#m",
-          "date_utc": "2026-06-21T16:04:58+00:00",
+          "text": "oui Ze Clint (@ZeClint) L’insécurité galopante qui ronge l’Europe est un choix politique — https://nitter.net/ZeClint/status/2068665507150975271#m",
+          "link": "https://nitter.net/brivael/status/2068775495567814979#m",
+          "date_utc": "2026-06-21T19:18:08+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -152,37 +203,9 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "ma montre c'est une rolex a 4 millions de $ acheté avec la X money Brivael Le Pogam (@brivael) j'ai enfin rencontré le boss pour ma remise de diplôme 😂 — https://nitter.net/brivael/status/2068726374559572448#m",
-          "link": "https://nitter.net/brivael/status/2068726604113793474#m",
-          "date_utc": "2026-06-21T16:03:52+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWXweCasAA4mu3.png",
-            "https://nitter.net/pic/media%2FHLWXj4FaUAAhhh7.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "j'ai enfin rencontré le boss pour ma remise de diplôme 😂 Brivael Le Pogam (@brivael) hahahahaha le badge — https://nitter.net/brivael/status/2068723404551930334#m",
-          "link": "https://nitter.net/brivael/status/2068726374559572448#m",
-          "date_utc": "2026-06-21T16:02:57+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWXj4FaUAAhhh7.jpg",
-            "https://nitter.net/pic/media%2FHLWU7rtbYAAIYVK.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "Aurore, je vais te couper aws fait pas la maline 😂😂😂 Brivael Le Pogam (@brivael) Oui, il aurait raison de tout couper si vous prenez le pouvoir. Vous n’avez toujours pas lu le rapport de JD Vance à Munich ? Vous avez juste à suivre le manuel, vu que vous ne savez faire que ça. Arrêtez vos mesures liberticides et rendez la liberté au peuple européen. PERSONNE ne veut d’un projet orwellien en mode 1984, que vous tentez de construire sous un vernis de « protection bienveillante. PERSONNE. A part vous. — https://nitter.net/brivael/status/2068722793710231869#m",
-          "link": "https://nitter.net/brivael/status/2068724450514862366#m",
-          "date_utc": "2026-06-21T15:55:18+00:00",
+          "text": "Oui LeblogALupus (@leblogALupus) Musk n'a pas quitté la gauche à cause de Tesla Le jeune Elon Musk était parfaitement compatible avec l'univers progressiste : soutien à Obama ; promotion des véhicules électriques ; transition énergétique ; financement public de Tesla ; discours sur la décarbonation. Autrement dit, Musk n'était pas un adversaire du système. Il en était l'enfant prodige. Le moment Biden Le premier choc survient lorsque l'administration Biden organise son grand sommet sur les véhicules électriques. Tesla domine alors largement le marché américain du véhicule électrique. Pourtant,",
+          "link": "https://nitter.net/brivael/status/2068774118888198303#m",
+          "date_utc": "2026-06-21T19:12:40+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -191,49 +214,25 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "ils sont nostalgique Brivael Le Pogam (@brivael) \"L’euro digital, la monnaie qui nous rend libres\" \"Arbeit macht frei\" \"Le travail rend libre\" Soyez créatif quand même 🤣🤣🤣🤣 PS : elle ma bloqué je vais devoir screenshot now 😂 — https://nitter.net/brivael/status/2068723835877396567#m",
-          "link": "https://nitter.net/brivael/status/2068723938067439784#m",
-          "date_utc": "2026-06-21T15:53:16+00:00",
+          "text": "🎯🎯🎯🎯 Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) The US dominates Europe in everything – even in our own ideas… Look at the poll. A Polish account, a largely European audience asked to name the mastermind of the global Left – and the winners are American: Soros, Sanders. Borrowed villains, borrowed categories, borrowed vocabulary, dressed up as our own conclusions. But the real joke is worse than that. Thunberg is European. Swedish, raised here, made here. And she still beats Attali – the Frenchman who actually wrote the blueprint, advised presidents, sat on our commissions, theorized the very ",
+          "link": "https://nitter.net/brivael/status/2068773988554465451#m",
+          "date_utc": "2026-06-21T19:12:09+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLWVZ7RawAA1a4l.jpg",
-            "https://nitter.net/pic/media%2FHLWVD25bMAAb-QF.jpg"
+            "https://nitter.net/pic/media%2FHLVnAmRXQAAWoQl.jpg",
+            "https://nitter.net/pic/media%2FHLVnAmTWAAEzerE.jpg",
+            "https://nitter.net/pic/media%2FHLVnAmSW8AAo-Hi.jpg",
+            "https://nitter.net/pic/media%2FHLVnAmTWwAA3LHI.jpg"
           ],
           "articles": []
         },
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "\"L’euro digital, la monnaie qui nous rend libres\" \"Arbeit macht frei\" \"Le travail rend libre\" Soyez créatif quand même 🤣🤣🤣🤣 PS : elle ma bloqué je vais devoir screenshot now 😂",
-          "link": "https://nitter.net/brivael/status/2068723835877396567#m",
-          "date_utc": "2026-06-21T15:52:52+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWVD25bMAAb-QF.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "hahahahaha le badge Brivael Le Pogam (@brivael) Oui, il aurait raison de tout couper si vous prenez le pouvoir. Vous n’avez toujours pas lu le rapport de JD Vance à Munich ? Vous avez juste à suivre le manuel, vu que vous ne savez faire que ça. Arrêtez vos mesures liberticides et rendez la liberté au peuple européen. PERSONNE ne veut d’un projet orwellien en mode 1984, que vous tentez de construire sous un vernis de « protection bienveillante. PERSONNE. A part vous. — https://nitter.net/brivael/status/2068722793710231869#m",
-          "link": "https://nitter.net/brivael/status/2068723404551930334#m",
-          "date_utc": "2026-06-21T15:51:09+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWU7rtbYAAIYVK.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "Oui, il aurait raison de tout couper si vous prenez le pouvoir. Vous n’avez toujours pas lu le rapport de JD Vance à Munich ? Vous avez juste à suivre le manuel, vu que vous ne savez faire que ça. Arrêtez vos mesures liberticides et rendez la liberté au peuple européen. PERSONNE ne veut d’un projet orwellien en mode 1984, que vous tentez de construire sous un vernis de « protection bienveillante. PERSONNE. A part vous.",
-          "link": "https://nitter.net/brivael/status/2068722793710231869#m",
-          "date_utc": "2026-06-21T15:48:43+00:00",
+          "text": "Il y a pas d’extrême droite significative en France. Moi aussi j’ai cru à cette narrative construite par la gauche ;) On m’avait fait pipi dans le cerveau. J’ai enlevé l’urine de Jean Luc entre mes neurones. Clément (@lestradesdeclem) non mdr le gars traite n'importe qui de talibans c'est repris par l'extreme droite moi je suis occupé à faire mes articles SEO j'ai pas le temps avec ça 🤣 — https://nitter.net/lestradesdeclem/status/2068770957469106196#m",
+          "link": "https://nitter.net/brivael/status/2068773776549097736#m",
+          "date_utc": "2026-06-21T19:11:18+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -242,41 +241,115 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Oui Space and Technology (@spaceandtech_) 🚨 Jeff Bezos says AI will not replace humans but will create a labor shortage. — https://nitter.net/spaceandtech_/status/2068699590715691125#m",
-          "link": "https://nitter.net/brivael/status/2068721498500796651#m",
-          "date_utc": "2026-06-21T15:43:34+00:00",
+          "text": "Yes ZaxtR (@AmX_ZaxTr) Every time legacy media stays silent, corruption grows stronger. — https://nitter.net/AmX_ZaxTr/status/2068770874711306396#m",
+          "link": "https://nitter.net/brivael/status/2068773212851429883#m",
+          "date_utc": "2026-06-21T19:09:04+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLV_TPiaQAAag4G.jpg",
-            "https://nitter.net/pic/media%2FHLV_T4hbEAAElO5.jpg"
+            "https://nitter.net/pic/media%2FHLXAJY4W8AAfY2y.jpg"
           ],
           "articles": []
         },
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Moi qui pensait qu’il était pour la démocratie et la sacrosaint Europe ? Je tombe de ma chaise. Spoiler : non Frontières (@Frontieresmedia) Emmanuel Macron s’oppose au nouveau dispositif européen de centres de retour pour clandestins. frontieresmedia.fr/politique… Link Frontières - Emmanuel Macron s’oppose au nouveau dispositif européen de centres de retour pour... Alors que le Parlement européen a validé la possibilité de créer des centres de rétention pour migrants déboutés dans des pays tiers, Emmanuel Macron a fait part de son opposition à cette réforme... frontieresmedia.fr — https://nitt",
-          "link": "https://nitter.net/brivael/status/2068721406314221772#m",
-          "date_utc": "2026-06-21T15:43:12+00:00",
+          "text": "Oui LeblogALupus (@leblogALupus) 🔥 LE VRAI PROBLÈME DES SOCIALISTES MODERNES Ils croient que Musk possède trop. Ils ne se demandent jamais pourquoi l'Europe ne produit plus de Musk. Ils veulent taxer les bâtisseurs. Jamais fabriquer davantage de bâtisseurs. Ils veulent redistribuer SpaceX. Ils sont incapables de créer SpaceX. Ils veulent réglementer l'IA. Ils sont incapables de dominer l'IA. Ils veulent découper les géants. Ils sont incapables d'en faire émerger un seul. Pendant que la Silicon Valley construit des fusées, des constellations orbitales, des modèles d'IA et des infrastructures pl",
+          "link": "https://nitter.net/brivael/status/2068772261814046829#m",
+          "date_utc": "2026-06-21T19:05:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "“Overnight success” “He got lucky” 😂😂😂 ZaxtR (@AmX_ZaxTr) Not overnight — https://nitter.net/AmX_ZaxTr/status/2068616948611485786#m",
+          "link": "https://nitter.net/brivael/status/2068769834452820265#m",
+          "date_utc": "2026-06-21T18:55:39+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/card_img%2F2068648071894900736%2F47_os5FF%3Fformat%3Djpg%26name%3D800x419"
+            "https://nitter.net/pic/media%2FHLSwdF2XgAA6aW9.jpg",
+            "https://nitter.net/pic/media%2FHLSwdOsWUAATWET.jpg",
+            "https://nitter.net/pic/media%2FHLU0JbLWoAA5Duk.jpg"
           ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’Europe est l’URSS en août 1989 😂 LeblogALupus (@leblogALupus) 🔥 LES ENTREPRISES NE VOTENT PAS. ELLES PARTENT. Seattle découvre aujourd'hui ce que l'Europe découvre depuis trente ans. D'abord on taxe les riches. Puis on taxe les entreprises. Puis on taxe ceux qui restent. Puis on s'étonne que les entrepreneurs déménagent. Le problème des politiciens est qu'ils pensent que la richesse est immobile. Le problème des entrepreneurs est qu'elle ne l'est pas. Dans l'économie industrielle, les usines restaient. Dans l'économie algorithmique, les capitaux, les talents et les entreprises traversent les",
+          "link": "https://nitter.net/brivael/status/2068769601270501801#m",
+          "date_utc": "2026-06-21T18:54:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "This is Lorient. Brivael Le Pogam (@brivael) I came from a city called “Lorient” in France. And the center is also the same. I grew up there. But now when I come back sometimes, I don’t recognize my city, super unsafe and dirty. 20 years of George Soros’s plan. GG WP. — https://nitter.net/brivael/status/2068755126878441795#m",
+          "link": "https://nitter.net/brivael/status/2068768255674810496#m",
+          "date_utc": "2026-06-21T18:49:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLW9w_RakAAZjBz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) one day FOR SURE !!!! — https://nitter.net/brivael/status/2068758867912360283#m",
+          "link": "https://nitter.net/brivael/status/2068767384698339743#m",
+          "date_utc": "2026-06-21T18:45:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLW89VVbgAAdjBz.jpg",
+            "https://nitter.net/pic/media%2FHLW1Mo9a4AAuIYU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. Le crime de l’entrepreneur 😂 LeblogALupus (@leblogALupus) 🔥 LE VRAI CRIME DE MUSK Le vrai crime d'Elon Musk n'est pas d'être devenu trillionnaire. Le vrai crime d'Elon Musk est d'avoir démontré que l'on peut encore construire. Construire des fusées. Construire des voitures. Construire des satellites. Construire des réseaux. Construire des IA. Dans un Occident où les élites sont devenues expertes dans une seule discipline : empêcher les autres de construire. La bureaucratie adore les processus. L'histoire adore les résultats. Voilà pourquoi Musk est devenu l'homme le plus dangereux du syst",
+          "link": "https://nitter.net/brivael/status/2068766576434983062#m",
+          "date_utc": "2026-06-21T18:42:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
           "articles": [
             {
-              "url": "https://www.frontieresmedia.fr/politique/emmanuel-macron-soppose-au-nouveau-dispositif-europeen-de-centres-de-retour-pour-clandestins---18428",
-              "content": ""
+              "url": "https://blogalupus.substack.com/p/elon-musk-contre-lempire-des-procedures",
+              "content": "ELON MUSK CONTRE L&#x27;EMPIRE DES PROCÉDURES Le Substack de BLOG A LUPUS— Notes de marché stratégies S'abonner Se connecter ELON MUSK CONTRE L'EMPIRE DES PROCÉDURES Pourquoi le conflit entre Musk et les démocrates révèle la fracture fondamentale du XXIe siècle BLOG A LUPUS-— Finance/Invest juin 21, 2026 Partager ELON MUSK CONTRE L’EMPIRE DES PROCÉDURES Pourquoi le conflit entre Musk et les démocrates révèle la fracture fondamentale du XXIe siècle Pendant longtemps, la plupart des observateurs ont raconté une histoire simple. Elon Musk aurait changé. Le Substack de BLOG A LUPUS— Notes de marché stratégies est une publication soutenue par les lecteurs. Pour recevoir de nouveaux posts et soutenir mon travail, envisagez de devenir un abonné gratuit ou payant. S'abonner Il serait passé du prog"
             }
           ]
         },
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Dans la tête d’un gauchiste : “Avoir une Clim chez soi c’est comme avoir une photo de Adolph ou le livre interdit. C’est pareil.”",
-          "link": "https://nitter.net/brivael/status/2068720731912065029#m",
-          "date_utc": "2026-06-21T15:40:32+00:00",
+          "text": "LMAO Wall Street Mav (@WallStreetMav) Is there really any doubt? — https://nitter.net/WallStreetMav/status/2068646358857527370#m",
+          "link": "https://nitter.net/brivael/status/2068764930955006286#m",
+          "date_utc": "2026-06-21T18:36:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FGtfEqm_XwAAq90I.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le GIEC est un giga scam. Martin Zizi (@MartinZ_uncut) Encore une fois la PEUR. Il y a toujours eu des jours de canicules.. TOUJOURS - Ils ne sont pas plus fréquents, car ces salauds ont changé la définition technique du mot - Idem pour la definition technique de vague de chaleur Le climat oscille et cest NATUREL ne leur en déplaise et a part leurs fausse science et leur malveillance de chaque instant qui sont anthropiques , le carbone ne l'est PAS! Les données dont on refuse de parler le prouvent! SVP il va falloir mtn mettre les journaleux en demeure d'arrêter de se f.. de vous le GIEC est M",
+          "link": "https://nitter.net/brivael/status/2068763874107818446#m",
+          "date_utc": "2026-06-21T18:31:58+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -285,13 +358,58 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Facho !!! Fil (@FilAffranchi2) Et la devant moi, j’habite bien un appartement d’extrême droite 🥸 — https://nitter.net/FilAffranchi2/status/2068434674406338990#m",
-          "link": "https://nitter.net/brivael/status/2068720290637722069#m",
-          "date_utc": "2026-06-21T15:38:46+00:00",
+          "text": "❤️❤️❤️🥷🏻 Argil (@argildotai) I can confirm. We are super proud of that. ESG is a scam. And we are working hard to get 0. 🚀🚀🚀 — https://nitter.net/argildotai/status/2068759624904560869#m",
+          "link": "https://nitter.net/brivael/status/2068759736900866400#m",
+          "date_utc": "2026-06-21T18:15:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "one day FOR SURE !!!! Chadimir Poutine 👨 🐻 🐷 (@ChadimirPoutine) Save the best for last - tick tock, tick tock douchebags — https://nitter.net/ChadimirPoutine/status/2068540092541460738#m",
+          "link": "https://nitter.net/brivael/status/2068758867912360283#m",
+          "date_utc": "2026-06-21T18:12:04+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLSOX2IXkAAaf35.jpg"
+            "https://nitter.net/pic/media%2FHLW1Mo9a4AAuIYU.jpg",
+            "https://nitter.net/pic/media%2FHLTuQIlWAAAYVp-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "je vais bientôt faire une fête pour fêter ça j'ai invité patrick sebastien ça va être rigolo Brivael Le Pogam (@brivael) Mes parents vont enfin être fier de moi. C’est le plus beau jour de ma vie. — https://nitter.net/brivael/status/2068727401996263781#m",
+          "link": "https://nitter.net/brivael/status/2068758299697467635#m",
+          "date_utc": "2026-06-21T18:09:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Last week, we had 8 AI models review the same code, with the same prompt, at the same time. The cheapest one was the only model that caught every bug, including one that 7 of the others missed completely. The full test, the bugs, and which model found everything: nitter.net/kilocode/status/206738… Kilo (@kilocode) Article Grok Build 0.1 Beat Every Frontier Model in a Kilo Code Reviews Test TL;DR: In a Kilo Code Reviews test, Grok Build 0.1 caught all 10 planted bugs in a React/TypeScript app, beating every frontier model on coverage and cost ($0.29 vs $0.45 for the next-best on — https://nitte",
+          "link": "https://nitter.net/kilocode/status/2068761872480845879#m",
+          "date_utc": "2026-06-21T18:24:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLCnm0JXgAIUJXX.png"
           ],
           "articles": []
         }
