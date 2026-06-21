@@ -1,0 +1,198 @@
+{
+  "date": "2026-06-21",
+  "slot": "afternoon",
+  "scraped_ist": "2026-06-21 15:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "Article From Prompting Agents to Loop Engineering A claim has been circulating in AI coding circles: stop prompting your coding agents and start designing loops that prompt them for you. As with everything new, this stuff gets repeated often and",
+      "link": "https://nitter.net/omarsar0/status/2068008743153832264#m",
+      "date_utc": "2026-06-19T16:31:20+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHLMKCzNXIAEm_8F.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@AlphaSignalAI",
+      "text": "Article 10 Layers of Self-Improving Harness Stack 28 research papers say what should developers build around the model (Harness) In ~10 mins: the 10-layer stack, the static-harness problem, the evidence behind each layer, and the one caveat that",
+      "link": "https://nitter.net/AlphaSignalAI/status/2066928605691523210#m",
+      "date_utc": "2026-06-16T16:59:15+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHK8vyLyXgAADCXZ.jpg"
+      ],
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Oh wait this is their Chinese lab. :-)",
+          "link": "https://nitter.net/Scobleizer/status/2068651117379203549#m",
+          "date_utc": "2026-06-21T11:03:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I hear China has passed it. So the pressure is on.",
+          "link": "https://nitter.net/Scobleizer/status/2068650885165830260#m",
+          "date_utc": "2026-06-21T11:02:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Carnegie Mellon has long had the best robotics lab in the world. Junwei Liang 梁俊卫 (@JunweiLiangCMU) We have the first full-sized humanoid robot on campus in the Greater Bay Area! This guy is so tall and heavy... #EmbodiedAI #Humanoid #AI #HKUST #HKUSTGZ Video — https://nitter.net/JunweiLiangCMU/status/2068337093198463313#m",
+          "link": "https://nitter.net/Scobleizer/status/2068650696203993117#m",
+          "date_utc": "2026-06-21T11:02:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068336255495196672%2Fimg%2FagdOZIybG_F8-xRm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Products that save your life tend to get extraordinary customer loyalty, which I have validated by interviewing many, many Cybertruck owners. Tarik Celebi (@TarikCelebii) Dodged a kid crossing a red light on a bike hit a utility pole dead straight in my @cybertruck The inertia of the impact was completely absorbed, felt not like a typical impact at all, industry leading crumple zones ftw. My family and the red light runner are all safe, even the pole was not damaged @elonmusk @Tesla — https://nitter.net/TarikCelebii/status/2068482271729074223#m",
+          "link": "https://nitter.net/Scobleizer/status/2068649440500699242#m",
+          "date_utc": "2026-06-21T10:57:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLS4FfYbIAAQZuT.jpg",
+            "https://nitter.net/pic/media%2FHLS4FfZaIAAiS6T.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This is the former VP of Google DeepMind, among other things. Mat Velloso (@matvelloso) All day using GLM 5.2. Didn't miss much. First open model that passes the bar as a daily driver. Things are not going to be the same. Damn, now I want to buy some serious hardware. — https://nitter.net/matvelloso/status/2067791546335019439#m",
+          "link": "https://nitter.net/Scobleizer/status/2068648048222511512#m",
+          "date_utc": "2026-06-21T10:51:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "His films never make me think about AI. Robert Gaudette (@rgaudetteai) If AI filmmaking is truly as easy as some say, with the tool doing everything at a Hollywood level, I’d genuinely invite you to make a short and share it. Not as a challenge, but as a way to ground the criticism in experience. The tools are powerful. The craft still matters. — https://nitter.net/rgaudetteai/status/2067621919285715336#m",
+          "link": "https://nitter.net/Scobleizer/status/2068644748995576091#m",
+          "date_utc": "2026-06-21T10:38:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The government has USA’s best AI company on pause. The Chinese government, and everybody who operates underneath it, on the other hand, has its full force on the accelerator. We have our hands tied around our back. I am optimistic. Our country has often chosen the hard road. Isra (@israfill) COMPANY BEHIND TIKTOK JUST OPEN SOURCED AN AI AGENT THAT DOES YOUR WHOLE JOB FOR YOU China doesn't miss 😳 everyone's been crowning hermes the #1 agent then bytedance dropped deerflow 72,000+ github stars. 9,700+ forks. FREE. MIT it doesn't just run tools like hermes. it does the entire task you give it one",
+          "link": "https://nitter.net/Scobleizer/status/2068642040234336670#m",
+          "date_utc": "2026-06-21T10:27:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068219637683384320%2Fimg%2FP7vWGLHTJRDBITNU.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/bytedance/deer-flow.git",
+              "content": "GitHub - bytedance/deer-flow: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection S"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "He is the President Emeritus of USC. C. L. Max Nikias (@MaxNikias_) My Cybertruck, on full FSD, in downtown Los Angeles, suddenly swerved to the left and narrowly avoided a collision with the white Audi car changing lanes very fast. If I were the driver, I wouldn’t have been able to prevent the accident. Views from three different cameras of the CT. @elonmusk @Tesla_AI @Tesla @MarioNawfal @dallasteslaclub #FSD #Cybertruck #Tesla #Robotaxi Video Video Video — https://nitter.net/MaxNikias_/status/2068342345477894420#m",
+          "link": "https://nitter.net/Scobleizer/status/2068632759992795493#m",
+          "date_utc": "2026-06-21T09:50:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068338439217655808%2Fimg%2FLrtzj-ohNSVUXev_.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2068338439167389696%2Fimg%2Fn-GDlA_i3cg2xXvo.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2068338439184056320%2Fimg%2Fq3DffliFqf0HNNYx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "He did tell me they're not ready and probably won't be for years.",
+          "link": "https://nitter.net/Scobleizer/status/2068627624176586995#m",
+          "date_utc": "2026-06-21T09:30:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I met a guy last night building a next-level voice harness. He hooked Claude up to it and it realized quickly the way the voice model worked and optimized itself for that use. He was both. Knows deeply how people work. Managed many in his life. Thomas Ricouard (@Dimillian) Are you a people person or a codex person? — https://nitter.net/Dimillian/status/2068571051097788488#m",
+          "link": "https://nitter.net/Scobleizer/status/2068599196102590599#m",
+          "date_utc": "2026-06-21T07:37:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“If you defraud the American people, we will find you and we will bring you to justice.” - @VP JD Vance New York Post (@nypost) FBI captures $1.2B Medicare fraud fugitive in Philippines, second arrest from Most Wanted Fraudsters list trib.al/PBfhvmn — https://nitter.net/nypost/status/2068607626322038827#m",
+          "link": "https://nitter.net/WHFraudTF/status/2068641585282052387#m",
+          "date_utc": "2026-06-21T10:26:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLUrq2BX0AAX3G3.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/PBfhvmn",
+              "content": "FBI Most Wanted Fraudster Herbert Leon Kimble captured in Philippines Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
