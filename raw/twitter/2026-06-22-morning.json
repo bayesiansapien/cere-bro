@@ -1,0 +1,442 @@
+{
+  "date": "2026-06-22",
+  "slot": "morning",
+  "scraped_ist": "2026-06-22 09:05",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I believe it to be true. Stupid as it is. We need leadership to answer the big question of our age: what happens to jobs? This isn’t the answer. Will just push the world toward China. Only reason Americans will stick with this is fear. Will doom their jobs as the rest of the world automates. I met a guy who makes bearings in South Africa. He says if he doesn’t modernize no one will buy his bearings. So he is scouring the world about robotics. Emily (@IamEmily2050) The US Government will likely ban US companies from using open source Chinese models before the midterm election or shortly after. ",
+          "link": "https://nitter.net/Scobleizer/status/2068942851996864616#m",
+          "date_utc": "2026-06-22T06:23:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Big claims to open the week on. Sakana AI (@SakanaAILabs) Fugu stands shoulder-to-shoulder with leading models like Fable and Mythos across the industry's most rigorous engineering, scientific, and reasoning benchmarks. Read the full blog: sakana.ai/fugu-release Beyond Bigger Models: Why are Orchestration Models the Next Frontier Progress in AI has been driven largely by giant, monolithic models. But the most powerful systems of the future will be collaborative ecosystems. Today, this orchestration is no longer just a technical optimization. It has become a geopolitical and operational imperat",
+          "link": "https://nitter.net/Scobleizer/status/2068939373975068679#m",
+          "date_utc": "2026-06-22T06:09:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYTDMMaEAAEVZj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://sakana.ai/fugu-release",
+              "content": "Sakana Fugu: One Model to Command Them All Blog --> Career Opportunities --> Sakana Fugu: One Model to Command Them All June 22, 2026 #Product #Research --> --> Sakana AI Releases ‘Fugu Ultra’ to Match Frontier Performance via Autonomous Model Orchestration. Our Fugu Ultra model stands shoulder-to-shoulder with leading models like Anthropic’s Fable 5 and Mythos Preview across the industry’s most rigorous engineering, scientific, and reasoning benchmarks while delivering frontier capability without the risk of export controls. （＊日本語は英文の後に） We are excited to introduce Sakana Fugu , a new product from Sakana AI that delivers a full multi-agent orchestration system as a single foundation model. Fugu dynamically orchestrates the world’s best models to tackle complex, multi-step tasks, accessibl"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The community supports. Luke The Dev (@iamlukethedev) Hermes Bible got 15,000 page views in 24 hours. 5,600+ visitors. 15,000+ page views. Did not expect that. Thank you for all the feedback. We now have 26 Hermes flows live and I’ll keep adding more daily. Biggest request was: “Can we get all flows in markdown so agents/local LLMs can read them?” Done. One URL. All flows. Agent-readable. Link in the comments 👇 nitter.net/iamlukethedev/status/2… — https://nitter.net/iamlukethedev/status/2068875104000356401#m",
+          "link": "https://nitter.net/Scobleizer/status/2068938119358124288#m",
+          "date_utc": "2026-06-22T06:04:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYcnERWoAARkyi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Or not: Riley Brown (@rileybrown) I tried this. Tried to make a landing page to test its design skills as my first prompt. It didn't even finish the first prompt. I already hit daily limits. — https://nitter.net/rileybrown/status/2068892705497686470#m",
+          "link": "https://nitter.net/Scobleizer/status/2068937898377060846#m",
+          "date_utc": "2026-06-22T06:03:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Banger. Sakana AI (@SakanaAILabs) Introducing Sakana Fugu: A full multi-agent orchestration system accessible via a single model API. Our ‘Fugu Ultra’ model matches the performance of Fable and Mythos, delivering frontier capability without the risk of export controls. Try it: sakana.ai/fugu 🐡 — https://nitter.net/SakanaAILabs/status/2068861630327443966#m",
+          "link": "https://nitter.net/Scobleizer/status/2068937462119063871#m",
+          "date_utc": "2026-06-22T06:01:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://sakana.ai/fugu",
+              "content": "Sakana Fugu — Multi-Agent System as a Model multi-agent system as a model What is Sakana Fugu ? Sakana Fugu とは How to Use 使い方 Users' Voices ユーザーの声 Pricing 料金プラン FAQ FAQ Contact Us お問い合わせ Select language English Japanese Japanese English Open navigation menu What is Sakana Fugu ? Sakana Fugu とは How to Use 使い方 Users' Voices ユーザーの声 Pricing 料金プラン FAQ FAQ Contact Us お問い合わせ Other Products Sakana Chat Sakana Marlin Follow us Japanese / English Sakana Fugu One Model to Command Them All マルチエージェントを指揮する、一つのモデル Frontier-level performance without single-vendor dependency. Fugu dynamically orchestrates the world's best models to tackle complex, multi-step tasks. Plug collective intelligence directly into your workflows today with a single API. Sakana Fugu は、世界のトップモデル群を動的にオーケストレーションし、複数ステップに及ぶ複雑なタスクを自動的に"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "From the @fdotinc family. I am not paid by them, just love what they do. Giulio Greco (@im_the_giulio) I’m 17 and raised $3.2M for @forgegui . Our seed round was led by @michaelfertik and @bonatsos at @VerdictCap with other investors including @cory , @collectiveGBL , @sheeltyle , and other amazing partners. In ~2 months, we’ve grown to 90,000+ game dev users, with a current $40M cap. Growing extremely fast. I’ve been building in this space for 7 years, since I was 10. We’re building the AI platform for game developers. We’re hiring 2 more cracked engineers who want to help build a generationa",
+          "link": "https://nitter.net/Scobleizer/status/2068937097856405626#m",
+          "date_utc": "2026-06-22T06:00:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068795418377674752%2Fimg%2F34MsbdyzeQVD7TNL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Oh. Kosuke Nakago (@corochann) とうとうFuguがリリースされました！ 世界最先端のモデル群をOrchestrationすることで、FableなしでもFableに迫る・越す性能を発揮します。 最先端AIのどれを使うか自分で迷うことなくタスクごとに最適なLLM、最適なWorkflowをFuguが毎回動的に構築しタスクをこなしてくれます。 実際にタスクをこなすのはFrontier modelなので、研究のトレンドの最先端で注目されているLong horizonなSWEタスクなどももちろんスコープ内です。 Qualitative resultsにも面白い事例がたくさん乗っています〜 是非お試しくださいっ — https://nitter.net/corochann/status/2068877067991835009#m",
+          "link": "https://nitter.net/Scobleizer/status/2068936258689405425#m",
+          "date_utc": "2026-06-22T05:56:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYffvlaEAAF8PB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My AI picks up the argument: George Hotz is making two arguments that need to be separated — one he's right about, one he's wrong about. Where he's right: The doom narrative IS a marketing strategy. Anthropic's blog posts about \"recursive self-improvement\" and \"policymaking built for a slower world\" are designed to justify infinite valuations through eschatological framing rather than technical substance. The GLM-5.2 blog post he praises — honest, technical, incremental — is genuinely better writing about AI progress. And the accountability question is real: when the doom predictions don't mat",
+          "link": "https://nitter.net/Scobleizer/status/2068830675701309757#m",
+          "date_utc": "2026-06-21T22:57:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The new Siri on this thing will rock.",
+          "link": "https://nitter.net/Scobleizer/status/2068827788971573470#m",
+          "date_utc": "2026-06-21T22:45:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Thinner iPhone coming with more AI inside. Costs more due to RAM shortage. Jon Rettinger (@Jon4Lakers) The iPhone Ultra leaked? Jon Prosser just shared full renders of the new design on YouTube. His leaks are usually spot on, making this our best preview yet ahead of the September launch. It also seems like the Ultra will allegedly come in black and white! What do you gus think about the design of the iPhone Ultra? #appleleaks #iphoneultra #ios27 #technews #foldableiphone — https://nitter.net/Jon4Lakers/status/2068781008389063101#m",
+          "link": "https://nitter.net/Scobleizer/status/2068827360909308198#m",
+          "date_utc": "2026-06-21T22:44:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLXJXNda8AAuIJk.jpg",
+            "https://nitter.net/pic/media%2FHLXJXNebsAAWu7V.jpg",
+            "https://nitter.net/pic/media%2FHLXJXNdbYAAXupm.jpg",
+            "https://nitter.net/pic/media%2FHLXJXNfbYAA7lqQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A robot actually is \"Terminator\" level technology. Scary, huh? But can be taught to make your favorite meal without burning down the house. So we will invite them in.",
+          "link": "https://nitter.net/Scobleizer/status/2068821063291838598#m",
+          "date_utc": "2026-06-21T22:19:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "When @olivercameron was the first to teach us about world models (he just collected $300 million investment last week) in my head I was thinking: \"If I drop a cup on the ground, with some water in it, and film that with a high speed camera, the world model would learn a lot about how the world works.\" All sorts of physics is in one video. Now what if you have millions of videos? It learns everything about the world. What happens when they go real time? They learn about the world faster. Like how fresh the strawberries are at the local farmer's market. It might take a few years to get the human",
+          "link": "https://nitter.net/Scobleizer/status/2068820232983224573#m",
+          "date_utc": "2026-06-21T22:15:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLVrnI_bIAEBFs9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Disclosure: I have no position in Bittensor or anything associated with it.",
+          "link": "https://nitter.net/Scobleizer/status/2068816963498053739#m",
+          "date_utc": "2026-06-21T22:02:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Another example from today: Alisa Liu (@alisawuffles) I'm joining OpenAI next week!🥹 The job search turned out to be really challenging but also super rewarding, so I wrote a small blog to share what I learned along the way and hopefully make the process a little less mysterious for the next person. alisawuffles.github.io/blog/… — https://nitter.net/alisawuffles/status/2068765723569324462#m",
+          "link": "https://nitter.net/Scobleizer/status/2068816826516341096#m",
+          "date_utc": "2026-06-21T22:02:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alisawuffles.github.io/blog/job-search",
+              "content": "Notes on the Industry Job Search Contents My timeline Interview types Preparation Negotiation Concluding words Appendix: learning resources ← Blog Notes on the Industry Job Search June 20, 2026 For most of my PhD, the job search in my mind was like a sorting hat : senior PhD students would disappear (for several months), then emerge with their fates decided. Even as my close friends began graduating and getting jobs, I knew little about what they were going through apart from the occasional proof of life. When it was finally my turn, I found the process to be far more demanding than I had imagined, and felt like I was learning the rules of the game while playing it. In retrospect, a lot of my experiences were universal and many of the things I learned along the way now feel like common kno"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "OK, I think we all can agree that @sama is getting better at hiring lately. Calvin Zhang (@calvincbzhang) I’ve joined @OpenAI as a Research Program Manager, working on evals. I’m incredibly grateful for my time at @scale_AI . I worked on Humanity’s Last Exam, helped launch @ScaleAILabs , collaborated with amazing people across data/evals/research, and recorded a few episodes of Chain of Thought. More than anything, I’m grateful for the people. Scale was intense, chaotic, ambitious, and deeply formative. I learned a lot about building under pressure, caring about quality, and taking evals serio",
+          "link": "https://nitter.net/Scobleizer/status/2068815312737456558#m",
+          "date_utc": "2026-06-21T21:56:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068734102367571968%2Fimg%2Fcyc2tQw79_Uf6Vwc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "They are too \"independent\" to hug much anymore.",
+          "link": "https://nitter.net/Scobleizer/status/2068814903184642431#m",
+          "date_utc": "2026-06-21T21:54:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "they are clearing my kv cache tomorrow",
+          "link": "https://nitter.net/ellev3n11/status/2068809171013971979#m",
+          "date_utc": "2026-06-21T21:31:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2068871223841272293#m",
+          "date_utc": "2026-06-22T01:38:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYbaPPXcAAsfD-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Summer Has Loaded Video",
+          "link": "https://nitter.net/heavypulp/status/2068823935173443626#m",
+          "date_utc": "2026-06-21T22:30:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068823704507731968%2Fimg%2FzR74G9OtyXGQpt-U.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "LA just ain't what it used to be. We didn't appreciate how good we had it before the socialists got their claws in her. Can it even be fixed? NY Post Opinion (@NYPostOpinion) Is the sun setting on the Sunset Strip? trib.al/6LFvwLN — https://nitter.net/NYPostOpinion/status/2068876930523291715#m",
+          "link": "https://nitter.net/spencerpratt/status/2068888583268626884#m",
+          "date_utc": "2026-06-22T02:47:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYq40iWgAAcQVJ.jpg",
+            "https://nitter.net/pic/media%2FHLYgmYiWQAAe2MU.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/6LFvwLN",
+              "content": "Is the sun setting on the Sunset Strip? Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official Store Home Delivery Tips Sear"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "It's easy to say crime is down when you just...stop counting crimes. Lisa Cusack (@lisa_4_la) At Father’s Day dinner tonight my dad told us that one of his restaurants had been broken into the last four nights in a row. The perpetrators took mostly beer—bottled and tap—and broke some windows. He went to report it, but was told it looked like it done by homeless, and the city doesn’t report petty thefts by homeless. (Crime is down!) Hope the Bass/Raman voters enjoy their free beer 🍺. — https://nitter.net/lisa_4_la/status/2068885449184329943#m",
+          "link": "https://nitter.net/spencerpratt/status/2068887100976517354#m",
+          "date_utc": "2026-06-22T02:41:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Don't worry, socialists are notoriously great at keeping supermarket shelves stocked! ABC7 Eyewitness News (@ABC7) Could the Boyle Heights fire lead to a food shortage at SoCal supermarkets? abc7ne.ws/nZrMWZ Link Could the Boyle Heights fire lead to a food shortage at SoCal supermarkets? LAFD Jaime Moore was asked if an ongoing fire at a massive cold-storage facility in Boyle Heights could lead to a food shortage at local stores. abc7.com — https://nitter.net/ABC7/status/2068858135175901620#m",
+          "link": "https://nitter.net/spencerpratt/status/2068886897502392453#m",
+          "date_utc": "2026-06-22T02:40:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2068858141819760641%2F8i50ijtN%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://abc7ne.ws/nZrMWZ",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Day 6! They might finish counting my votes before they get this structure fire out. Alexandra Datig | Front Page Index 🇺🇸 (@alexdatig) HAPPENING NOW: Day 6 of the Lineage cold storage facility fire where firefighters are beginning to get the upper hand on this fire. Sheet metal from the side of the walls have been torn down in sections, giving firefighters access to the inside of the building where the fire is. Video — https://nitter.net/alexdatig/status/2068856738946986338#m",
+          "link": "https://nitter.net/spencerpratt/status/2068886710289662387#m",
+          "date_utc": "2026-06-22T02:40:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068856339091320832%2Fimg%2FsEj6DcTgBjacOoi3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "It's all fun and games now, but just imagine some terrorist doing this on upper Mulholland on a dry, windy day in October after Karen Bass and Gavin Newsom have done precisely zero brush clearance. Ask me and my neighbors how that turns out! Video",
+          "link": "https://nitter.net/spencerpratt/status/2068886163390111932#m",
+          "date_utc": "2026-06-22T02:37:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068626993953067009%2Fimg%2FIjCSruskXJSWfQZJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "At one of Karen's shelters, this poor lady had her head bashed in by the staff and she was kicked out on to the streets with her two dogs. This is Karen and Nithya's \"Inside Safe\" program for you. Only gets worse from here, folks. Karen and Nithya hate these poor people. Video",
+          "link": "https://nitter.net/spencerpratt/status/2068837696643227822#m",
+          "date_utc": "2026-06-21T23:25:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068837041409015808%2Fimg%2FMPNrTXjGxLa3cGde.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This same warehouse had a solar panel fire 2 years ago. After that, not only did Karen Basura do nothing, but she slashed the LAFD budget and now they can't stop it, and it's spewing out heavy metals into the lungs of Boyle Heights folks for a week straight. Nice job, Karen! Video Spencer Pratt (@spencerpratt) Karen was sipping cocktails in Chicago when the Boyle Heights Fire erupted, just as she was sipping cocktails in Ghana when our Palisades Fire erupted. I warned you all...what happened to us will happen to all of LA. That smoke choking out LA is full of lead. Don't breathe it! — https://",
+          "link": "https://nitter.net/spencerpratt/status/2068835805360275931#m",
+          "date_utc": "2026-06-21T23:17:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068835326131638272%2Fimg%2FXfQNj_D5KWu8EHKa.jpg",
+            "https://nitter.net/pic/media%2FHLXzv4jXcAAWs9R.jpg",
+            "https://nitter.net/pic/media%2FHLXz3qHWMAAn4zN.jpg",
+            "https://nitter.net/pic/media%2FHLXz3qGW0AAY54Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Forget the food...those burning solar panels are spewing out deadly heavy metals that all of you are now breathing in. Many of my neighbors in the Palisades had solar, and everyone in the fire zone tested for heavy metal poisoning. Trust me, you don't want to breathe this stuff. ABC7 Eyewitness News (@ABC7) An estimated 85 million pounds of food, including meat, poultry and bread products, are beginning to spoil inside the cold storage facility at the center of the massive structure fire in Boyle Heights, complicating response efforts. @abc7abigail has the latest on the local emergency. abc7ne",
+          "link": "https://nitter.net/spencerpratt/status/2068829013859029325#m",
+          "date_utc": "2026-06-21T22:50:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLX08gmWoAAQNPY.jpg",
+            "https://nitter.net/pic/media%2FHLTWpaFWMAAmFbD.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://abc7ne.ws/XwNjjY",
+              "content": "Food beginning to spoil complicates response as crews continue battling Boyle Heights warehouse fire - ABC7 Los Angeles 24/7 Live Los Angeles Orange County Inland Empire Ventura County California Live State of emergency declared as Boyle Heights fire continues to burn Last updated: Monday, June 22, 2026 9:23AM GMT BOYLE HEIGHTS, LOS ANGELES (KABC) -- Crews continue to battle flare-ups of the massive warehouse fire in Boyle Heights days after it ignited, as the region sees significant impacts from the smoke. The inferno began shortly before 2:30 p.m. Wednesday at a cold storage facility in the 1400 block of South Los Palos Street. Gov. Gavin Newsom declared a state of emergency Saturday for Los Angeles County in response to the ongoing firefight, directing state agencies to support local re"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen was sipping cocktails in Chicago when the Boyle Heights Fire erupted, just as she was sipping cocktails in Ghana when our Palisades Fire erupted. I warned you all...what happened to us will happen to all of LA. That smoke choking out LA is full of lead. Don't breathe it! Mayor Karen Bass (@MayorOfLA) We are closely monitoring the fire in Boyle Heights. As firefighting efforts continue, smoke and poor air quality may impact parts of Los Angeles. Out of an abundance of caution, please take steps to protect yourself and your family. — https://nitter.net/MayorOfLA/status/2068436323124629531#",
+          "link": "https://nitter.net/spencerpratt/status/2068828121860587995#m",
+          "date_utc": "2026-06-21T22:47:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLXzv4jXcAAWs9R.jpg",
+            "https://nitter.net/pic/media%2FHLXz3qHWMAAn4zN.jpg",
+            "https://nitter.net/pic/media%2FHLXz3qGW0AAY54Q.jpg",
+            "https://nitter.net/pic/media%2FHLSP1KKaUAA8EGL.jpg",
+            "https://nitter.net/pic/media%2FHLSP1KKbIAA2uCk.jpg",
+            "https://nitter.net/pic/media%2FHLSP1KGaYAABALp.jpg",
+            "https://nitter.net/pic/media%2FHLSP1KKbUAAzmMO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Why has she never commented on the thousands of dogs that she's killed in her own city shelters? What about the dogs being tortured and killed on Skid Row in plain sight? Notice how she only comments on something when it becomes a national headline? Never does anything, though. Mayor Karen Bass (@MayorOfLA) What I saw on the bodycam footage is disturbing and tragic. The Chief and I agreed that it was important to release the bodycam footage swiftly. While the investigation is ongoing, I am very concerned about why shots were fired and Jameson was killed. This shooting makes clear that while LA",
+          "link": "https://nitter.net/spencerpratt/status/2068822869954429132#m",
+          "date_utc": "2026-06-21T22:26:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
