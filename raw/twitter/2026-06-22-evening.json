@@ -1,7 +1,7 @@
 {
   "date": "2026-06-22",
   "slot": "evening",
-  "scraped_ist": "2026-06-22 22:00",
+  "scraped_ist": "2026-06-22 23:21",
   "lookback_h": 24,
   "curated": [],
   "ai_feed": [
@@ -54,6 +54,176 @@
       ]
     },
     {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Could you recognize the next Steve Jobs if he were standing right in front of you? Video",
+          "link": "https://nitter.net/Scobleizer/status/2069149020187168861#m",
+          "date_utc": "2026-06-22T20:02:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069137667535880192%2Fimg%2F7tSfxyWwCcyqSGM8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Thank you @arkslife I see big things ahead for you.",
+          "link": "https://nitter.net/Scobleizer/status/2069146266962211327#m",
+          "date_utc": "2026-06-22T19:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Pfizer’s head of R D once told me augmented reality is a drug. I have seen it used to help with a variety of ailments. More could be developed if its innovations get recognized as a growth market. Polymarket (@Polymarket) JUST IN: FDA unveils Operation TrialBlazer,” a new effort to speed up U.S. drug development. — https://nitter.net/Polymarket/status/2069111872385695846#m",
+          "link": "https://nitter.net/Scobleizer/status/2069145220969885814#m",
+          "date_utc": "2026-06-22T19:47:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The AI pendant that makes sense is for dogs. This morning I visited the startup that is making @petpinai and had a most interesting conversation. Turns outs that it has a line of business I didn’t think about: the robotics industry is hungry for its data. Video",
+          "link": "https://nitter.net/Scobleizer/status/2069145214728753651#m",
+          "date_utc": "2026-06-22T19:47:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069137667535880192%2Fimg%2F7tSfxyWwCcyqSGM8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This morning I interviewed the founders of @MonakoResearch coming from Hong Kong and Shanghai with a new pair of AI glasses with a Linux underpinning, and far more openness than Snap, Meta, Google, or Apple can ship. They took over X a couple of weeks ago when they launched. Why are new wearable computing brands, like Monako, coming from China? And finding business where San Francisco based businesses like @MentraGlass not able to get nearly the same customer base built fast? Because of their cities. Shanghai alone has something like 40 million people living in a fairly small space. They told ",
+          "link": "https://nitter.net/Scobleizer/status/2069106179197084157#m",
+          "date_utc": "2026-06-22T17:12:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "They also confirmed that robots and glasses go together like peanut butter and jelly. It is the strength of the robot ecosystem in China that will protect and cause new brands to evolve, with a supply chain that can make these products faster, at better quality, and with many more innovative features than American companies can make. Tough one to beat for entrepeneurs sitting in San Francisco.",
+          "link": "https://nitter.net/Scobleizer/status/2069107750492397868#m",
+          "date_utc": "2026-06-22T17:18:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The first review. Aldo Cortesi (@cortesi) Sadly, my initial experience is not super positive. Fugu is strong but not near Fable. The API is super slow, and on the $200 plan I've run out of 5 hour quota in 1 hour. I don't regret forking over the money on principle, but in the current state it's not competitive with Claude or Codex. — https://nitter.net/cortesi/status/2068897415466553354#m",
+          "link": "https://nitter.net/Scobleizer/status/2068953107707637871#m",
+          "date_utc": "2026-06-22T07:03:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I believe it to be true. Stupid as it is. We need leadership to answer the big question of our age: what happens to jobs? This isn’t the answer. Will just push the world toward China. Only reason Americans will stick with this is fear. Will doom their jobs as the rest of the world automates. I met a guy who makes bearings in South Africa. He says if he doesn’t modernize no one will buy his bearings. So he is scouring the world about robotics. Emily (@IamEmily2050) The US Government will likely ban US companies from using open source Chinese models before the midterm election or shortly after. ",
+          "link": "https://nitter.net/Scobleizer/status/2068942851996864616#m",
+          "date_utc": "2026-06-22T06:23:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "These models improve faster the more people that use them. So, if there's anything that turns people off of models, it's government interference, particularly by the Americans. A lot of people around the world are going to choose China over America because they can see how things are going. Look at all the BYDs everywhere outside of America. It emboldens and makes possible models outside of America. The problem is the American electorate hates AI, and therefore there is no reason Trump needs to do anything to help the AI industry. This has put America in quite a bit of a pickle because, all of",
+          "link": "https://nitter.net/Scobleizer/status/2068952609508233508#m",
+          "date_utc": "2026-06-22T07:01:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Big claims to open the week on. Sakana AI (@SakanaAILabs) Fugu stands shoulder-to-shoulder with leading models like Fable and Mythos across the industry's most rigorous engineering, scientific, and reasoning benchmarks. Read the full blog: sakana.ai/fugu-release Beyond Bigger Models: Why are Orchestration Models the Next Frontier Progress in AI has been driven largely by giant, monolithic models. But the most powerful systems of the future will be collaborative ecosystems. Today, this orchestration is no longer just a technical optimization. It has become a geopolitical and operational imperat",
+          "link": "https://nitter.net/Scobleizer/status/2068939373975068679#m",
+          "date_utc": "2026-06-22T06:09:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYTDMMaEAAEVZj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://sakana.ai/fugu-release",
+              "content": "Sakana Fugu: One Model to Command Them All Blog --> Career Opportunities --> Sakana Fugu: One Model to Command Them All June 22, 2026 #Product #Research --> --> Sakana AI Releases ‘Fugu Ultra’ to Match Frontier Performance via Autonomous Model Orchestration. Our Fugu Ultra model stands shoulder-to-shoulder with leading models like Anthropic’s Fable 5 and Mythos Preview across the industry’s most rigorous engineering, scientific, and reasoning benchmarks while delivering frontier capability without the risk of export controls. （＊日本語は英文の後に） We are excited to introduce Sakana Fugu , a new product from Sakana AI that delivers a full multi-agent orchestration system as a single foundation model. Fugu dynamically orchestrates the world’s best models to tackle complex, multi-step tasks, accessibl"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The community supports. Luke The Dev (@iamlukethedev) Hermes Bible got 15,000 page views in 24 hours. 5,600+ visitors. 15,000+ page views. Did not expect that. Thank you for all the feedback. We now have 26 Hermes flows live and I’ll keep adding more daily. Biggest request was: “Can we get all flows in markdown so agents/local LLMs can read them?” Done. One URL. All flows. Agent-readable. Link in the comments 👇 nitter.net/iamlukethedev/status/2… — https://nitter.net/iamlukethedev/status/2068875104000356401#m",
+          "link": "https://nitter.net/Scobleizer/status/2068938119358124288#m",
+          "date_utc": "2026-06-22T06:04:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLYcnERWoAARkyi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Banger. Sakana AI (@SakanaAILabs) Introducing Sakana Fugu: A full multi-agent orchestration system accessible via a single model API. Our ‘Fugu Ultra’ model matches the performance of Fable and Mythos, delivering frontier capability without the risk of export controls. Try it: sakana.ai/fugu 🐡 — https://nitter.net/SakanaAILabs/status/2068861630327443966#m",
+          "link": "https://nitter.net/Scobleizer/status/2068937462119063871#m",
+          "date_utc": "2026-06-22T06:01:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://sakana.ai/fugu",
+              "content": "Sakana Fugu — Multi-Agent System as a Model multi-agent system as a model What is Sakana Fugu ? Sakana Fugu とは How to Use 使い方 Users' Voices ユーザーの声 Pricing 料金プラン FAQ FAQ Contact Us お問い合わせ Select language English Japanese Japanese English Open navigation menu What is Sakana Fugu ? Sakana Fugu とは How to Use 使い方 Users' Voices ユーザーの声 Pricing 料金プラン FAQ FAQ Contact Us お問い合わせ Other Products Sakana Chat Sakana Marlin Follow us Japanese / English Sakana Fugu One Model to Command Them All マルチエージェントを指揮する、一つのモデル Frontier-level performance without single-vendor dependency. Fugu dynamically orchestrates the world's best models to tackle complex, multi-step tasks. Plug collective intelligence directly into your workflows today with a single API. Sakana Fugu は、世界のトップモデル群を動的にオーケストレーションし、複数ステップに及ぶ複雑なタスクを自動的に"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Or not: Riley Brown (@rileybrown) I tried this. Tried to make a landing page to test its design skills as my first prompt. It didn't even finish the first prompt. I already hit daily limits. — https://nitter.net/rileybrown/status/2068892705497686470#m",
+          "link": "https://nitter.net/Scobleizer/status/2068937898377060846#m",
+          "date_utc": "2026-06-22T06:03:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
       "handle": "SeanParnellASW",
       "org": "Independent",
       "focus": [
@@ -70,6 +240,81 @@
           "org": "",
           "image_urls": [
             "https://nitter.net/pic/media%2FHLb1b8BXwAADibo.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "A $3.7 BILLION scheme to steal from American taxpayers exposed and the fraudster (allegedly) behind it caught. @VP ’s Task Force is winning the War on Fraud. 🇺🇸 FBI Director Kash Patel (@FBIDirectorKash) “Ibrahim Khaldoon Hilmi is charged with one of the biggest Medicare scams in history - allegedly orchestrating a massive $3.7 BILLION scheme to defraud Medicare. He’s been on the run since May of 2025 - but we got him. Thanks to outstanding work from FBI Miami, the Justice Department, and our partners in Turkey, Hilmi was apprehended overseas and after a Foreign Transfer of Custody, he is back",
+          "link": "https://nitter.net/WHFraudTF/status/2069141705513730293#m",
+          "date_utc": "2026-06-22T19:33:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLcLMrQWYAAM_bV.jpg",
+            "https://nitter.net/pic/media%2FHLcLMrpagAARc-T.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "\"My office has aggressively pursued pandemic-era unemployment fraud, identifying hundreds of millions of dollars in recoverable taxpayer funds and freezing suspicious accounts.\" - @USLaborIG White House Task Force to Eliminate Fraud (@WHFraudTF) The Trump-Vance Administration will not turn a blind eye to fraud. nypost.com/2026/06/22/opinio… Link Trump s federal watchdogs are doing the job past IGs let slide — and the old guard hates it The old watchdog establishment is squawking about President Trump s IGs — not because we re less independent, but because we re more effective. nypost.com — htt",
+          "link": "https://nitter.net/WHFraudTF/status/2069086256152121732#m",
+          "date_utc": "2026-06-22T15:52:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069006549113049088%2Fw91ODMs3%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The Trump-Vance Administration will not turn a blind eye to fraud. nypost.com/2026/06/22/opinio… Link Trump s federal watchdogs are doing the job past IGs let slide — and the old guard hates it The old watchdog establishment is squawking about President Trump s IGs — not because we re less independent, but because we re more effective. nypost.com",
+          "link": "https://nitter.net/WHFraudTF/status/2069086174220550536#m",
+          "date_utc": "2026-06-22T15:52:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069006549113049088%2Fw91ODMs3%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "🫡🇺🇸 Rapid Response 47 (@RapidResponse47) . @DAGToddBlanche : \"We are making getting fraudsters in jail a priority... just in the past two months, we've managed to bring $5B back to the coffers of this government that was just stolen—STOLEN—by these fraudsters... we're going to keep on doing it.\" Video — https://nitter.net/RapidResponse47/status/2069039120538583154#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069075791170703559#m",
+          "date_utc": "2026-06-22T15:11:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069038619289849856%2Fimg%2F34q71KbMU8kYH70x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“This is why this task force is so important.” - @AFergusonFTC after a billion dollar bust and the capture of the fraudster allegedly responsible. 🇺🇸 FBI Rapid Response (@FBI_Response) Another fraudster CAUGHT! Over $1B in fraud to the American people. No more! We got him! Video — https://nitter.net/FBI_Response/status/2069071948357800332#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069075042332287015#m",
+          "date_utc": "2026-06-22T15:08:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069071738726744064%2Fimg%2F0Wvck5wFazX7QaLS.jpg"
           ],
           "articles": []
         }
@@ -323,65 +568,128 @@
       ]
     },
     {
-      "handle": "cursor_ai",
+      "handle": "ellev3n11",
       "org": "Cursor",
       "focus": [
-        "AI"
+        "training"
       ],
       "tweets": [
         {
-          "handle": "cursor_ai",
-          "creator": "@cursor_ai",
-          "text": "piped.video/watch?v=fWa7uxyh… Link Opening Keynote | Compile 26 At this opening keynote of Cursor s inaugural Compile conference, c... youtube.com",
-          "link": "https://nitter.net/cursor_ai/status/2069149299078783279#m",
-          "date_utc": "2026-06-22T20:03:30+00:00",
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "they are clearing my kv cache tomorrow",
+          "link": "https://nitter.net/ellev3n11/status/2068809171013971979#m",
+          "date_utc": "2026-06-21T21:31:57+00:00",
           "is_curated": false,
           "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2069151419375013888%2Ft9nRvVFu%3Fformat%3Djpg%26name%3D800x320_1"
-          ],
-          "articles": [
-            {
-              "url": "https://piped.video/watch?v=fWa7uxyhVDE",
-              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
-            }
-          ]
-        },
-        {
-          "handle": "cursor_ai",
-          "creator": "@cursor_ai",
-          "text": "Three announcements from our keynote at Compile, including how we're training a new model with SpaceX. Video",
-          "link": "https://nitter.net/cursor_ai/status/2069149296436330776#m",
-          "date_utc": "2026-06-22T20:03:29+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069142239335342080%2Fimg%2FdOnb8a8YMszF_AJA.jpg"
-          ],
+          "image_urls": [],
           "articles": []
         }
       ]
     },
     {
-      "handle": "lynnmartin",
+      "handle": "kilocode",
       "org": "Independent",
       "focus": [
-        "AI"
+        "agents"
       ],
       "tweets": [
         {
-          "handle": "lynnmartin",
-          "creator": "@lynnmartin",
-          "text": "It was an honor to close out this years @NYSE European Investor conference at Winfield House. Thank you Ambassador Stephens!! @USAmbUK Ambassador Warren Stephens (@USAmbUK) London and New York have long been the world’s leading centers for finance. Harriet and I were delighted to welcome @NYSE , @LynnMartin , and business leaders to Winfield House to celebrate the most vibrant economic relationship in the world today. — https://nitter.net/USAmbUK/status/2068993354356900024#m",
-          "link": "https://nitter.net/lynnmartin/status/2069091557194482042#m",
-          "date_utc": "2026-06-22T16:14:03+00:00",
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "It's free through July 23 via the Kilo Gateway. No trial, no card. Read the full post here: blog.kilo.ai/p/announcing-ne… Link Announcing Next-Edit in Kilo, Powered by Inception With Mercury Edit 2, Next-Edit is Free in Kilo for an Entire Month blog.kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2069117923382178086#m",
+          "date_utc": "2026-06-22T17:58:49+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLaKfVgWAAAJm0v.jpg",
-            "https://nitter.net/pic/media%2FHLaKfVWWgAA9bgv.jpg",
-            "https://nitter.net/pic/media%2FHLaKfVbWIAA8wKy.jpg",
-            "https://nitter.net/pic/media%2FHLaKfViWIAAJwhh.jpg"
+            "https://nitter.net/pic/card_img%2F2069117120500391937%2F5_QyVNj_%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/announcing-next-edit-in-kilo-powered-by-inception",
+              "content": "Announcing Next-Edit in Kilo, Powered by Inception Kilo Blog Subscribe Sign in Announcing Next-Edit in Kilo, Powered by Inception With Mercury Edit 2, Next-Edit is Free in Kilo for an Entire Month Ari Messer Jun 22, 2026 5 Share Coding at the speed of thought just got a massive upgrade. Today, we’re thrilled to introduce Next-Edit in Kilo , powered by the Mercury Edit 2 model from Inception . Next-Edit is like a co-editor that predicts what should be coming next based on your recent snippets, file context, and edit history. To celebrate this leap forward, we are making Next-Edit completely free for everyone for the next month . No trials to activate and no credit cards to enter—anytime you use Next-Edit powered by Inception over the next 30 days, it’s completely on us via the Kilo Gateway."
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Next-Edit is now the default for new users, but classic autocomplete isn't going anywhere. You get both modes and can switch in a few clicks from settings.",
+          "link": "https://nitter.net/kilocode/status/2069117917149474956#m",
+          "date_utc": "2026-06-22T17:58:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLb6fAaWcAAR-y6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Mercury Edit 2 runs on a diffusion LLM, so it refines edits in parallel instead of left to right one token at a time. Inception's benchmarks: 48% higher edit acceptance, 27% more selective. Fewer interruptions when you're in flow.",
+          "link": "https://nitter.net/kilocode/status/2069117912678371372#m",
+          "date_utc": "2026-06-22T17:58:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLb6T2SWsAAnH2x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "What makes Next-Edit click: it reads your recent edits and codebase context to anticipate what you'll change next. → Refactor a function you just touched → Rename a variable across a block → Cascade a feature change through the file It's a co-editor working alongside you, reaching for the change before you do.",
+          "link": "https://nitter.net/kilocode/status/2069117910841262250#m",
+          "date_utc": "2026-06-22T17:58:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Next-Edit is live in Kilo, powered by Mercury Edit 2 from @_inception_ai . Autocomplete predicts the next few tokens ahead of your cursor. Next-Edit predicts your next actual edit anywhere in the file. Hit Tab to accept. And it's free for everyone for 30 days!",
+          "link": "https://nitter.net/kilocode/status/2069117908517548136#m",
+          "date_utc": "2026-06-22T17:58:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLb5eP5aUAAt5RW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We broke down what changed, why Augment is moving upmarket, and how the Version 7 native plugin maps to what JetBrains users have been asking for: blog.kilo.ai/p/is-augment-su… Link Is Augment sunsetting its IDE extensions? Why switch to Kilo Code? Augment users say they got a one-month sunset notice for the extensions. If you code in PyCharm or IntelliJ and you want autocomplete plus a capable agent without “downgrading” to a CLI, our JetBrains blog.kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2069061919940432140#m",
+          "date_utc": "2026-06-22T14:16:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067893346979160064%2F1RTRnABS%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/is-augment-sunsetting-its-ide-extensions",
+              "content": "Is Augment sunsetting its IDE extensions? Why switch to Kilo Code? Kilo Blog Subscribe Sign in Is Augment sunsetting its IDE extensions? Why switch to Kilo Code? Augment users say they got a one-month sunset notice for the extensions. If you code in PyCharm or IntelliJ and you want autocomplete plus a capable agent without “downgrading” to a CLI, our JetBrains Darko Jun 22, 2026 3 Share If you write code in a JetBrains IDE and you use the Augment Code extension, check your email. Extension users report they have received emails telling them Augment is sunsetting its IDE extensions , with about a month of notice. What happened This is a different change from the one from March, when Augment removed Next Edit and Completions in its IDE extension on non-enterprise plans. Now Augment seems to "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Augment is sunsetting its JetBrains IDE extensions with about a month of notice. The recommended replacement is a CLI or an enterprise agent platform. For most PyCharm and IntelliJ devs, that's not what they signed up for. Kilo's JetBrains plugin already does what those users keep asking for. Native v7, no Node detection, Apache-2.0, 500+ models, no $100 floor. You don't have to leave your IDE. Just install a different plugin.",
+          "link": "https://nitter.net/kilocode/status/2069056659767304565#m",
+          "date_utc": "2026-06-22T13:55:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLbDjMYWgAArfC5.png"
           ],
           "articles": []
         }
@@ -470,44 +778,6 @@
             "https://nitter.net/pic/media%2FHLa5-_oWAAAlU4o.jpg"
           ],
           "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "spencerpratt",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Thanks to Karen Bass and Nithya Raman, LAFD heroes have to stay up all night putting out bum fires thanks to the 50K vagrants they let roam our streets. Our firefighters are overburdened and underfunded. Blame their leaders. John McDermott (@mcdermott) Pretty sad how often the Los Angeles Fire Department fails at its most essential function: putting out fires. — https://nitter.net/mcdermott/status/2069100055215403205#m",
-          "link": "https://nitter.net/spencerpratt/status/2069104042454950349#m",
-          "date_utc": "2026-06-22T17:03:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Los Angeles is the most corrupt city west of Mogadishu. California Post (@californiapost) LAUSD Superintendent Alberto Carvalho resigns four months after FBI raid trib.al/HtBeHkm — https://nitter.net/californiapost/status/2068964638708888024#m",
-          "link": "https://nitter.net/spencerpratt/status/2069020697632862468#m",
-          "date_utc": "2026-06-22T11:32:29+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLZwXh4WsAA0V97.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://trib.al/HtBeHkm",
-              "content": "LAUSD Superintendent Alberto Carvalho resigns four months after FBI raid Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Offic"
-            }
-          ]
         }
       ]
     },
