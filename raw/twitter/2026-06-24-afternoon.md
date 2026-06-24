@@ -1,5 +1,5 @@
 # Twitter/X Digest | 2026-06-24 | AFTERNOON
-> Scraped 2026-06-24 12:49 IST | Lookback: 24h | 85 tweets | 24 articles
+> Scraped 2026-06-24 15:09 IST | Lookback: 24h | 63 tweets | 17 articles
 
 ---
 
@@ -10,17 +10,13 @@
 ## AI Account Feed
 
 ### @ClaudeDevs (Independent)
-*8 AI-relevant tweets*
+*3 AI-relevant tweets*
 
 **@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
 
-> Claude Code is still the fastest way to do solo, synchronous work. Claude Tag is Claude Code made multiplayer, async, and proactive across your whole team. In beta today for Claude Enterprise and Team plans. Tag it in, it tags you back. claude.com/product/tag Link Claude Tag | Claude by Anthropic Tag Claude into any Slack thread and it reads the room, does the work, and posts back where everyone can see it. Available for Claude Enterprise and Team. claude.com
+> The Claude Code team has been shipping with Claude Tag internally all year. It now writes 65% of our product team's code, including most of what built Claude Tag itself. Here are a few ways we use it every day: 🧵 Claude (@claudeai) Introducing Claude Tag, a new way for teams to work with Claude. In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. Video — https://nitter.net/claudeai/status/2069468693017268244#m
 
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468913264644419#m)
-
-**Article:** https://claude.com/product/tag
-
-Claude Tag | Claude by Anthropic --> Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Security Models Mythos Fable Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Security Models Mythos Fable Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic 
+[View tweet](https://nitter.net/ClaudeDevs/status/2069468900216234010#m)
 
 ---
 
@@ -34,78 +30,11 @@ Claude Tag | Claude by Anthropic --> Meet Claude Products Claude Claude Code Cla
 
 **@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
 
-> Background watchers Give Claude a threshold instead of a dashboard, such as pinging when CI stays red too long. It stays quiet until the threshold is crossed, then posts with the failing test and culprit commit already attached. Tell it to put up the fix from the same thread. Video
+> Claude Code is still the fastest way to do solo, synchronous work. Claude Tag is Claude Code made multiplayer, async, and proactive across your whole team. In beta today for Claude Enterprise and Team plans. Tag it in, it tags you back. claude.com/product/tag Link Claude Tag | Claude by Anthropic Tag Claude into any Slack thread and it reads the room, does the work, and posts back where everyone can see it. Available for Claude Enterprise and Team. claude.com
 
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468909858873779#m)
+[View tweet](https://nitter.net/ClaudeDevs/status/2069468913264644419#m)
 
----
-
-**@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
-
-> Turn a thread into a postmortem When an incident wraps, tag Claude to write it up. It reads the thread back, rebuilds the timeline, drops the postmortem in your docs, and files the action items as issues. Video
-
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468908026020170#m)
-
----
-
-**@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
-
-> Dependent work Hand Claude the work that's blocked on something else, for example wiring up the frontend once the backend ships to prod. It waits, watches, and shows up days later with the PR, adjusted for whatever changed in review. Video
-
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468906214007035#m)
-
----
-
-**@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
-
-> Bug triage Let Claude sit in your feedback channel and automatically pick up reports. It finds the code path, reproduces, git-blames, writes a fix, and tags the owner. All that’s left is code review before Claude merges the PR. Video
-
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468904351727726#m)
-
----
-
-**@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
-
-> Incident response Tag Claude in the incident thread when the page lands. It pulls graphs, diffs the deploy, comes back with root cause and the author tagged. Your team approves in-thread. Claude opens the fix, lands it, watches the metric recover, and resolves the page. Video
-
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468902216945939#m)
-
----
-
-**@ClaudeDevs** (@ClaudeDevs) · 2026-06-23 17:13 UTC
-
-> The Claude Code team has been shipping with Claude Tag internally all year. It now writes 65% of our product team's code, including most of what built Claude Tag itself. Here are a few ways we use it every day: 🧵 Claude (@claudeai) Introducing Claude Tag, a new way for teams to work with Claude. In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. Video — https://nitter.net/claudeai/status/2069468693017268244#m
-
-[View tweet](https://nitter.net/ClaudeDevs/status/2069468900216234010#m)
-
----
-
-### @DoWCTO (Independent)
-*3 AI-relevant tweets*
-
-**@DoWCTO** (@DoWCTO) · 2026-06-23 17:22 UTC
-
-> laserwars.net/p/hegseth-mili… Link EXCLUSIVE: Pentagon Demonstrates Laser Weapons for Hegseth The US military fired several high-energy laser and high-power microwave weapons for Defense Secretary Pete Hegseth on Tuesday. laserwars.net
-
-[View tweet](https://nitter.net/DoWCTO/status/2069471193527128100#m)
-
-**Article:** https://www.laserwars.net/p/hegseth-military-laser-weapon-demonstration
-
----
-
-**@DoWCTO** (@DoWCTO) · 2026-06-23 17:22 UTC
-
-> The @DeptofWar is securing directed energy DOMINANCE, as showcased by today's live testing of advanced laser and microwave systems at White Sands Missile Range. Through the Scaled Directed Energy (SCADE) Critical Technology Area, the Department is rapidly scaling these systems to empower our warfighters to fight beyond the limits of traditional magazine capacity.
-
-[View tweet](https://nitter.net/DoWCTO/status/2069471167396639032#m)
-
----
-
-**@DoWCTO** (@DoWCTO) · 2026-06-23 13:18 UTC
-
-> Where We Go One, We Go Quantum 🇺🇸
-
-[View tweet](https://nitter.net/DoWCTO/status/2069409879857492288#m)
+**Article:** https://claude.com/product/tag
 
 ---
 
@@ -121,7 +50,7 @@ Claude Tag | Claude by Anthropic --> Meet Claude Products Claude Claude Code Cla
 ---
 
 ### @Scobleizer (Microsoft)
-*9 AI-relevant tweets*
+*7 AI-relevant tweets*
 
 **@Scobleizer** (@Scobleizer) · 2026-06-24 00:39 UTC
 
@@ -185,24 +114,6 @@ Claude Tag | Claude by Anthropic --> Meet Claude Products Claude Claude Code Cla
 
 ---
 
-**@Scobleizer** (@Scobleizer) · 2026-06-23 08:08 UTC
-
-> This company grows human organs and hardly got any likes. People are avoiding long videos and are missing out. Robert Scoble (@Scobleizer) 3D printing has gone "hyper small." This Silicon Valley startup is unlike any I've ever toured. Frontier Bio makes human body parts. More accurately uses a new kind of 3D printer, that builds tiny cell-sized structures that then they have stem cells express themselves into various parts of the human body around these tiny structures. First arteries, but are doing science that, over the next decade, will lead to "growing" new kidneys, or other parts. Here I 
-
-[View tweet](https://nitter.net/Scobleizer/status/2069331719627382898#m)
-
-**Article:** https://www.frontierbio.com
-
----
-
-**@Scobleizer** (@Scobleizer) · 2026-06-23 07:58 UTC
-
-> It is glorious in Silicon Valley. el.cine (@EHuanglu) i dont think people realize how big this is Seedance 2.5 now can generate 30s 4K videos from one prompt.. with up to 50 ref.. one click filmmaking is here Video — https://nitter.net/EHuanglu/status/2069302147410514020#m
-
-[View tweet](https://nitter.net/Scobleizer/status/2069329136800186545#m)
-
----
-
 ### @SeanParnellASW (Independent)
 *1 AI-relevant tweets*
 
@@ -226,8 +137,6 @@ Claude Tag | Claude by Anthropic --> Meet Claude Products Claude Claude Code Cla
 [View tweet](https://nitter.net/TareqAmin_/status/2069507027790082129#m)
 
 **Article:** https://piped.video/watch?v=Tw2yCXgREwg
-
-Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue.
 
 ---
 
@@ -317,17 +226,6 @@ Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Pl
 
 ---
 
-### @__tinygrad__ (Independent)
-*1 AI-relevant tweets*
-
-**@__tinygrad__** (@__tinygrad__) · 2026-06-23 19:08 UTC
-
-> Today, if you were writing a bunch of kernels, what would you reach for? Raw CUDA? tile-lang? Triton? ThunderKittens?
-
-[View tweet](https://nitter.net/__tinygrad__/status/2069497851810623728#m)
-
----
-
 ### @bcherny (Anthropic)
 *8 AI-relevant tweets*
 
@@ -397,6 +295,145 @@ Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Pl
 
 ---
 
+### @brivael (Independent)
+*17 AI-relevant tweets*
+
+**@brivael** (@brivael) · 2026-06-24 07:06 UTC
+
+> Peak globalist puppet crafting 😂 Video
+
+[View tweet](https://nitter.net/brivael/status/2069678464286998817#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 07:05 UTC
+
+> LAISSE MOI CONTROLLER TA VIE !!!!!! Brivael Le Pogam (@brivael) Je vais tout contrôler pour toi. Car moi, Aurore, depuis mon bureau à Bruxelles. J’ai la science infuse, la transcendance de Dieu qui m’a transmis l’éclair divin de la planification. Je suis la déesse du contrôle. Et l’euro numérique est mon salut 🤣 — https://nitter.net/brivael/status/2069469815937646705#m
+
+[View tweet](https://nitter.net/brivael/status/2069678203044806816#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 07:04 UTC
+
+> Socialo-communist in a nutshell Video
+
+[View tweet](https://nitter.net/brivael/status/2069678012279542248#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:53 UTC
+
+> We need a lot of antimatter to build that Blue Thunder (@BlueThunderReal) Here's your first look at first person podracing in Star Wars: Galactic Racer Video — https://nitter.net/BlueThunderReal/status/2069435307527721035#m
+
+[View tweet](https://nitter.net/brivael/status/2069675366806102375#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:51 UTC
+
+> Elon Musk (@elonmusk) 🤣🤣 Video — https://nitter.net/elonmusk/status/2069665946286043260#m
+
+[View tweet](https://nitter.net/brivael/status/2069674757315051669#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:48 UTC
+
+> À lire. Important pour les prochaines élections 👇 Brivael Le Pogam (@brivael) Aujourd'hui je vais vous prouver, A+B, que les sondages pour 2027 sont déjà faux. Pas « un peu » faux. Structurellement faux. Parce qu'ils mesurent un électorat qui n'existe plus. Un sondage, ça modélise des gens qui s'informent à la télé, à la radio, dans la presse. Sauf que la décision politique ne se prend plus là. Elle se prend dans un feed. Sur TikTok. Et de plus en plus sur X. Les instituts n'ont jamais pricé ça. Ils interrogent l'électorat de 2012 pendant que l'électorat de 2027 scrolle. Le terrain a changé, p
+
+[View tweet](https://nitter.net/brivael/status/2069673901530152961#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:43 UTC
+
+> 😂😂😂😂 ᵖᵃʳᵒᵈⁱᵉ Kim Jong Un (@KimJongUnique) Le narratif est prêt. — https://nitter.net/KimJongUnique/status/2069672482538213514#m
+
+[View tweet](https://nitter.net/brivael/status/2069672631461466283#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:42 UTC
+
+> Je ne cherche pas à être heureux. Ça me m’intéresse pas. Je cherche à être utile. Brivael Le Pogam (@brivael) Dans mon dernier post, je vous ai décrit le globalisme. Aujourd'hui, je vous présente son architecte côté français. Jacques Attali. Conseiller spécial de Mitterrand pendant dix ans. Fondateur de la BERD. Auteur de dizaines de livres qui annoncent — et appellent de leurs vœux — une « gouvernance mondiale » au-dessus des nations. Si le globalisme avait un bureau d'études en France, son nom serait sur la porte. Mais je ne veux pas vous parler de son CV. Je veux vous parler d'une phrase. U
+
+[View tweet](https://nitter.net/brivael/status/2069672387000545584#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:41 UTC
+
+> Autodestruction Rock Chartrand (@RockChartrand) The communist superpower isn't economics, morality, or self awareness. It's the ability to watch an idea fail repeatedly, deny what everyone can see, and then recruit people whose resentment is stronger than their curiosity. — https://nitter.net/RockChartrand/status/2069248682742935643#m
+
+[View tweet](https://nitter.net/brivael/status/2069672146436325535#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:36 UTC
+
+> INTERDIRE LES RÉSEAUX SOCIAUX POUR PROTÉGER LES “ENFANTS” 😂😂😂 Brivael Le Pogam (@brivael) Pour protéger les enfants. — https://nitter.net/brivael/status/2069601525215994121#m
+
+[View tweet](https://nitter.net/brivael/status/2069671021628776940#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:28 UTC
+
+> “Les ingérences russes” 😂😂😂 ᵖᵃʳᵒᵈⁱᵉ Kim Jong Un (@KimJongUnique) Ce que tu écris me rappelle le cas de Calin Georgescu en Roumanie. Ce candidat de droite avait percé grâce à Tiktok, alors que les médias mainstream le rejetaient. Le Système avait ensuite trouvé la parade des ingérences russes sur TikTok. — https://nitter.net/KimJongUnique/status/2069668561744769088#m
+
+[View tweet](https://nitter.net/brivael/status/2069668852125086056#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:26 UTC
+
+> Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m
+
+[View tweet](https://nitter.net/brivael/status/2069668440009543688#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:26 UTC
+
+> Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m
+
+[View tweet](https://nitter.net/brivael/status/2069668356308021320#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:25 UTC
+
+> Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m
+
+[View tweet](https://nitter.net/brivael/status/2069668315056967953#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:25 UTC
+
+> Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m
+
+[View tweet](https://nitter.net/brivael/status/2069668258157060369#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:25 UTC
+
+> Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m
+
+[View tweet](https://nitter.net/brivael/status/2069668203073356007#m)
+
+---
+
+**@brivael** (@brivael) · 2026-06-24 06:18 UTC
+
+> Le Marginal Cloud (@LeMarginalCloud) Tu as fais un plus gros programme que Glucksmann en une publication... — https://nitter.net/LeMarginalCloud/status/2069660192216936927#m
+
+[View tweet](https://nitter.net/brivael/status/2069666466270736597#m)
+
+---
+
 ### @cursor_ai (Cursor)
 *3 AI-relevant tweets*
 
@@ -426,41 +463,6 @@ Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Pl
 
 ---
 
-### @eliebakouch (Hugging Face)
-*4 AI-relevant tweets*
-
-**@eliebakouch** (@eliebakouch) · 2026-06-24 04:37 UTC
-
-> reason being anthropic team using slack, not only karpathy
-
-[View tweet](https://nitter.net/eliebakouch/status/2069640962486448589#m)
-
----
-
-**@eliebakouch** (@eliebakouch) · 2026-06-24 04:30 UTC
-
-> i think this is the reason why the claude desktop app is behind codex, and it's totally fine, i think slack is actually a great way for "teams of humans" to interact with "teams of agents" Andrej Karpathy (@karpathy) The basic idea is easy and v0 is a hackathon project. The product here is a lot closer to *it actually works*, for enterprise grade deployments, and after quite a bit of internal experimentation and iteration. It’s kind of hard to describe other than (per the post) it’s writing majority of code, it’s deeply integrated, multiplayer, and it starts to feel like everyone is a manager.
-
-[View tweet](https://nitter.net/eliebakouch/status/2069639159371936087#m)
-
----
-
-**@eliebakouch** (@eliebakouch) · 2026-06-24 00:40 UTC
-
-> this is just me making meme btw i'm not saying (or thinking) they stole the name from deepseek lol 😭
-
-[View tweet](https://nitter.net/eliebakouch/status/2069581514036359612#m)
-
----
-
-**@eliebakouch** (@eliebakouch) · 2026-06-23 17:46 UTC
-
-> nice name 👀 Engram (@EngramLab) Article Introducing Engram: Scaling compute on your context We’re Engram. We’re building AI that learns from you and deeply understands your work. Today’s AI models don’t understand what you do. Not really. Everything models know comes from their training – — https://nitter.net/EngramLab/status/2069465879696576844#m
-
-[View tweet](https://nitter.net/eliebakouch/status/2069477315785175068#m)
-
----
-
 ### @ellev3n11 (Cursor)
 *1 AI-relevant tweets*
 
@@ -472,127 +474,38 @@ Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Pl
 
 ---
 
-### @heavypulp (Independent)
-*3 AI-relevant tweets*
+### @magicsilicon (Independent)
+*4 AI-relevant tweets*
 
-**@heavypulp** (@heavypulp) · 2026-06-24 03:54 UTC
+**@magicsilicon** (@magicsilicon) · 2026-06-23 22:37 UTC
+
+> Software is eating the world. But Hardware is eating software.
+
+[View tweet](https://nitter.net/magicsilicon/status/2069550332905185497#m)
+
+---
+
+**@magicsilicon** (@magicsilicon) · 2026-06-23 22:21 UTC
+
+> Hardware is eating software.
+
+[View tweet](https://nitter.net/magicsilicon/status/2069546501723021722#m)
+
+---
+
+**@magicsilicon** (@magicsilicon) · 2026-06-23 22:01 UTC
 
 > Image
 
-[View tweet](https://nitter.net/heavypulp/status/2069630271666696567#m)
+[View tweet](https://nitter.net/magicsilicon/status/2069541377466331148#m)
 
 ---
 
-**@heavypulp** (@heavypulp) · 2026-06-24 02:43 UTC
+**@magicsilicon** (@magicsilicon) · 2026-06-23 18:03 UTC
 
-> Video Heavy Pulp (@heavypulp) Video — https://nitter.net/heavypulp/status/2069302712143933720#m
+> “The American approach to summer was correct all along” 😅 Patrick Collison (@patrickc) I asked Claude about the air conditioning debate in Europe, and it really didn’t pull any punches. — https://nitter.net/patrickc/status/2069451055142936709#m
 
-[View tweet](https://nitter.net/heavypulp/status/2069612373619474775#m)
-
----
-
-**@heavypulp** (@heavypulp) · 2026-06-23 13:34 UTC
-
-> Ahhh the summers of my youth: yacht parties, friendly neighborhood bikini car washes, sodium vapor lights, slower internet, no smartphones, and a brand new 2022 Lamborghini Aventador. Just how I remember it. Heavy Pulp (@heavypulp) Summer Has Loaded Video — https://nitter.net/heavypulp/status/2068823935173443626#m
-
-[View tweet](https://nitter.net/heavypulp/status/2069413714470502571#m)
-
----
-
-### @kilocode (Independent)
-*11 AI-relevant tweets*
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> It's live now, and the benchmark it routes on is public, so you can check it before trusting it. Full writeup from @coldopn here: blog.kilo.ai/p/auto-efficien… Link Auto Efficient: The Right Model for Every Request, Automatically Optimize AI spend without sacrificing performance blog.kilo.ai
-
-[View tweet](https://nitter.net/kilocode/status/2069494875020484690#m)
-
-**Article:** http://blog.kilo.ai/p/auto-efficient
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> Stop overpaying for the easy stuff. Here's a two-minute demo of it running. Video
-
-[View tweet](https://nitter.net/kilocode/status/2069494873342845261#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> It's live. Pick Auto Efficient in the model picker, or turn it on here: kilo.codes/6ThU8gm Matching the model to the task is the biggest thing you can do about your AI bill. This does it per request.
-
-[View tweet](https://nitter.net/kilocode/status/2069494870369022398#m)
-
-**Article:** https://kilo.codes/6ThU8gm
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> If it's not sure, it doesn't guess. When a routing decision isn't clear, it falls back to Balanced, which uses a capable paid model. So quality has a floor. Cheap models only get used where they hold up.
-
-[View tweet](https://nitter.net/kilocode/status/2069494868578095308#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> There's a setting for how aggressive it gets. "Best accuracy per dollar" takes the cheapest model that clears the bar. "Best accuracy" takes the strongest one. Set it per project, depending on whether you care more about cost or output.
-
-[View tweet](https://nitter.net/kilocode/status/2069494866657091632#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> It's session-aware, so it doesn't thrash. A router that swaps models every turn loses context and gives you inconsistent output. Auto Efficient stays on a model that's working and only switches when a cheaper one clearly fits. You get per-request routing without the model changing mid-thread.
-
-[View tweet](https://nitter.net/kilocode/status/2069494864392102212#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> The rankings are public. They're on the Kilo Leaderboard. You can open it, find the cheapest model that does well on your kind of work, and select it yourself. Auto Efficient just does that lookup on every request instead of making you do it.
-
-[View tweet](https://nitter.net/kilocode/status/2069494862886400180#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> It picks models based on KiloBench. KiloBench runs continuously against every model in the catalog, on tasks pulled from real Kilo usage. If it routes you to a cheaper model, that model already scored well enough on that kind of work.
-
-[View tweet](https://nitter.net/kilocode/status/2069494860948595068#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 18:56 UTC
-
-> You're paying frontier prices to rename a variable! Auto Efficient routes each request to the cheapest model that can handle it. Rename a variable, you get a small model. Plan a migration, you get a big one. You don't switch anything. How it works 🧵
-
-[View tweet](https://nitter.net/kilocode/status/2069494857815445871#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 15:54 UTC
-
-> Model freedom works! Santy Gegenschatz (@santygegen) Having a great experience with @kilocode today. Discovered it due to the claudy meltdown. Awesome and cheap tech! — https://nitter.net/santygegen/status/2069433215547216204#m
-
-[View tweet](https://nitter.net/kilocode/status/2069448941007945768#m)
-
----
-
-**@kilocode** (@kilocode) · 2026-06-23 15:15 UTC
-
-> Focusing exclusively on token spend is like measuring a race car by its fuel consumption. Engineering output, deployment frequency, and ROI are what matter. Our CEO, @s_breitenother , explains why. Scott Breitenother (@s_breitenother) If an engineer costs $25K/month and AI costs $2K/month, why are so many companies focused on optimizing the smaller number? AI isn’t a cost center. It’s a productivity multiplier. Here's my latest @Forbes piece on why ROI matters more than token spend: forbes.com/councils/forbeste… Link Council Post: Healthcare Has More Data Than Ever—Why Are Patients Still Searc
-
-[View tweet](https://nitter.net/kilocode/status/2069439206024220729#m)
-
-**Article:** https://www.forbes.com/councils/forbestechcouncil/2026/06/23/healthcare-has-more-data-than-ever-why-are-patients-still-searching-for-answers/
+[View tweet](https://nitter.net/magicsilicon/status/2069481411325874482#m)
 
 ---
 
@@ -607,8 +520,6 @@ Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Pl
 
 **Article:** https://piped.video/watch?v=0ii_Fl9R6bw
 
-Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue.
-
 ---
 
 ### @nvidia (NVIDIA)
@@ -621,8 +532,6 @@ Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Pl
 [View tweet](https://nitter.net/nvidia/status/2069525913264423355#m)
 
 **Article:** https://nvda.ws/4xDV1ch
-
-NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure | NVIDIA Skip to content NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure June 22, 2026 by Zoe Kessler 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! For the past two years, t he U.S. National Science Foundation ’s National Artificial Intelligence Research Resource (NAIRR) pilot program has driven innovative research across the U.S. for over 700 projects — spanning protein prediction and infectious disease outbreak management. NVIDIA contributed to the NAIRR pilot through a cloud-based resource that gives researchers dedicated access to a minimum of four NVIDIA DGX nodes for at least a month. NVIDIA also provided technical support to onboard and assist the researchers throughout their projects. With NVIDIA’s AI infrastructure support and DGX reference architecture providing dedicated resources, researchers have collapsed workflow timelines and uncovered groundbreaking technologies that will reshape and advance industries such as healthcare, agriculture and energy. The potential for scientific exploration and discovery across the nation through NAIRR is boundless. Learn more about a few NAIRR projects below. Physical Simulations With Polymathic AI’s Well Dataset Simulation-to-real pipelines are becoming increasingly common across industries as a safer, more cost-efficient deployment method. Polymathic AI — a coalition of
 
 ---
 
@@ -641,8 +550,6 @@ NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrast
 [View tweet](https://nitter.net/nvidia/status/2069480612688220668#m)
 
 **Article:** https://nvda.ws/4uUFQch
-
-NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers | NVIDIA Blog Skip to content NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers June 23, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green500 run on NVIDIA GPUs and nine of the top 10 use NVIDIA technologies. No. 1 on the Green500, KAIROS, uses a single NVIDIA Grace Hopper Superchip. 376 of the TOP500 systems are interconnected using NVIDIA networking. NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany. That’s a gain of 17 systems from the previous list, with the momentum in new deployments: nearly nine of every 10 systems new to the ranking are built on NVIDIA technologies. That percentage reflects a deliberate preference for machines built for AI, simulation and science together. And it’s compounding: NVIDIA systems across the TOP500 now deliver more than 2x the AI training and nearly 3x the AI inference throughput of every other platform combined. GPU and networking adoption each hit new highs, with NVIDIA GPUs accelerating a record 238 systems and NVIDIA networking c
 
 ---
 
@@ -680,129 +587,8 @@ NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers | NVIDIA Blog
 
 **Article:** https://nvda.ws/4eFBJe8
 
-NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations | NVIDIA Blog Skip to content NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations At DTW Ignite 2026, NVIDIA and its partners are showcasing the data, models, simulation and secure runtime stack enabling telcos to build more secure agentic workflows across autonomous networks and operations. June 22, 2026 by Lilac Ilan 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish line — it’s the launchpad to autonomy. The industry is now pushing toward truly autonomous networks and operations, where AI agents proactively watch for problems and coordinate changes across network, IT and business systems. Together, synthetic data, telecom-domain models, secure agent runtimes and simulations form critical pieces of a secure, telecom autonomy platform , where agents understand operator intent, act safely across business and network domains and keep humans in control of policy. NVIDIA and its partners are demonstrating these building blocks at TM Forum’s DTW Ignite 2026 — running this week in Copenhagen — giving operators a practical path to running more autonomous, resili
-
----
-
-### @spencerpratt (Independent)
-*14 AI-relevant tweets*
-
-**@spencerpratt** (@spencerpratt) · 2026-06-24 01:41 UTC
-
-> Sure, don’t facilitate advanced fire suppression technology, don’t fund your fire department…just drive even more commerce and jobs out of the city. My goodness, these communists are incompetent. Matthew Seedorff (@MattSeedorff) UPDATE: Mayor @KarenBassLA says the massive Boyle Heights warehouse fire highlights concerns about industrial warehouses being concentrated in certain neighborhoods. “We have these warehouses all around, and we don’t know what’s in these warehouses,” Bass said. “We don’t want environmental hazards or risk concentrated in Black and brown communities.” Video — https://ni
-
-[View tweet](https://nitter.net/spencerpratt/status/2069596790748536930#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 14:28 UTC
-
-> Los Angeles has nearly DOUBLE the GDP of Milan. Please explain to me why we can't have nice things? Other than your city leaders and their fraudulent NGOs are looting all your tax dollars. Spencer Pratt (@spencerpratt) Compare Milan Fashion District vs Los Angeles Fashion District. Karen Basura and Nithya Raman have forsaken our city and condemned us to a permanent 3rd world hellhole. Are you not tired of these socialists destroying our city and making us the laughing stock of the world? — https://nitter.net/spencerpratt/status/2069424873567621547#m
-
-[View tweet](https://nitter.net/spencerpratt/status/2069427387516022974#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 14:23 UTC
-
-> In Paris' Fashion District, people line up to shop for LV bags, in Los Angeles' Fashion District, people line up for free meals and crackpipes. Nithya and Karen have destroyed our city. And these clowns are going to host the world for the Olympics? Pure humiliation ritual. Spencer Pratt (@spencerpratt) Compare Milan Fashion District vs Los Angeles Fashion District. Karen Basura and Nithya Raman have forsaken our city and condemned us to a permanent 3rd world hellhole. Are you not tired of these socialists destroying our city and making us the laughing stock of the world? — https://nitter.net/s
-
-[View tweet](https://nitter.net/spencerpratt/status/2069426017190760769#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 14:18 UTC
-
-> Compare Milan Fashion District vs Los Angeles Fashion District. Karen Basura and Nithya Raman have forsaken our city and condemned us to a permanent 3rd world hellhole. Are you not tired of these socialists destroying our city and making us the laughing stock of the world?
-
-[View tweet](https://nitter.net/spencerpratt/status/2069424873567621547#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 14:13 UTC
-
-> Let's take a live look at LA's prestigious Fashion District, rivaling Milan, Paris, and NYC's thanks to the chair of the Homeless and Housing Commission, Nithya Raman! Y'all wanted an LA City Hall reality show? Here you go: piped.video/watch?v=FLIMx-V7… Great work, Nithya! Video
-
-[View tweet](https://nitter.net/spencerpratt/status/2069423530417221771#m)
-
-**Article:** https://piped.video/watch?v=FLIMx-V714k
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 13:54 UTC
-
-> This is what Karen Basura was doing while Boyle Heights was choking in toxic smoke...sippin' cocktails in Chi-town! If you thought she just hated us on the West Side, think again. She enjoys when the Latino community goes up in flames, too! Look at that smile! Thierry Kame🌎 🦅 (@Thierry_Kame) LA Mayor Karen Bass at the Obama Presidential Center dedication🇺🇸🔵 #ObamaPresidentialCenter #OPC — https://nitter.net/Thierry_Kame/status/2068753990192337361#m
-
-[View tweet](https://nitter.net/spencerpratt/status/2069418733089792387#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 13:52 UTC
-
-> And yet, when the Palisades Fire hit, it was the Feds who saved Brentwood and Encino, with the USFS providing the lion's share of air tankers because ANF Fire Chief Garcia kept his tanker base fully staffed all winter while Gavin shut down entire CalFire units for the season. Governor Newsom Press Office (@GovPressOffice) @CAL_FIRE operates the largest civil aerial firefighting fleet in the world, with nearly 70 airtankers, helicopters, and other aircraft. They're strategically stationed at bases across the state and capable of reaching remote fires within 20 minutes. — https://nitter.net/GovP
-
-[View tweet](https://nitter.net/spencerpratt/status/2069418241278284233#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 13:15 UTC
-
-> Hurricane Jaime Moore's predecessor at LAFD Chief was fired by Karen Basura for candidly admitting that Karen's budget cuts impacted their Palisades Fire response. If the last Chief were fired for telling the truth, what must Chief Moore have to do to get hired? Slicinhammer (@Slicinhammer) LAFD Fire Chief Jamie Moore just told the people of Los Angeles to "close your windows and turn the air conditioning to recirculate". Holy crap. There's no recirculate setting on structural air conditioning systems. They're designed to bring in a certain percentage of fresh air and you can't change that (no
-
-[View tweet](https://nitter.net/spencerpratt/status/2069408954455863789#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 12:38 UTC
-
-> Karen Basura and the other socialists on City Council have turned LA into a ghost town. They want our beautiful city to just be slums with nice weather, while Nashville, Miami, and Austin steal all our talent and glory. Michael Sapir 🇺🇸 (@MichaelSapirUSA) Karen Bass about killed every thriving business in Los Angeles!!! #KarenBass #LosAngeles #MayorBass #Bass #LA #Business #BASSISBAD4BUSINESS Video — https://nitter.net/MichaelSapirUSA/status/2069275564494786768#m
-
-[View tweet](https://nitter.net/spencerpratt/status/2069399739343462635#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 12:36 UTC
-
-> LA is yet again a national embarrassment with another fire as our underfunded LAFD tries their best to make up for Mayor Karen's budget cuts and incompetence. She will lie about what is happening, because that's her thing. Remember...if it's fire season, it's liar season! Video Good Morning America (@GMA) A smoke warning is in effect across the Los Angeles area as firefighters battle a massive warehouse fire that has been burning for nearly a week. Officials say it could continue for days. @MelissaABCNews reports. Video — https://nitter.net/GMA/status/2069378228272169064#m
-
-[View tweet](https://nitter.net/spencerpratt/status/2069399070737879117#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 12:32 UTC
-
-> If you think you're gonna get a straight answer from LAFD leadership about the Boyle Heights fire that is now going into its 2nd week of burning...this is Karen Basura's lap-dog fire chief dismissing her editing the Palisades Fire report. If they'll lie about 12 fatalities, you think Hurricane Jaime is suddenly going to find his spine to get to the bottom of a warehouse fire? Scott Alan Meyers For Congress - VOTER ID, 𝑵𝑶𝑾. (@ScottAMeyersLA) LAFD Chief Jaime Moore covers for her in fear of getting the pink slip that Karen Bass flung at Kristin Crowley. It’s difficult to have any respect for pub
-
-[View tweet](https://nitter.net/spencerpratt/status/2069398089098805742#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 12:28 UTC
-
-> "The more water we put on this fire, the less smoke we're gonna get" So...you're telling me that having water *does* help in a firefight? Anyway, in completely unrelated news, it's now wildfire season and Karen Bass still hasn't refilled the Palisades reservoir. Video ABC7 Eyewitness News (@ABC7) The Los Angeles fire chief says his goal is to extinguish the large warehouse fire impacting air quality in East Los Angeles by midweek. LAFD Chief Jaime Moore, Mayor Karen Bass and other city officials provided an update on the Boyle Heights firefight, which has now entered its sixth day, at a press 
-
-[View tweet](https://nitter.net/spencerpratt/status/2069397072256921843#m)
-
-**Article:** https://abc7ne.ws/ZT7U0A
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 12:20 UTC
-
-> If this doesn't say it all... dash oner 🍳 (@djdashoner) On our way out of the toxic air in LA to the fresh air in the Channel Island's... Caught this. Pratt's sign was destroyed. I hate my city. 😡 — https://nitter.net/djdashoner/status/2068900462083088615#m
-
-[View tweet](https://nitter.net/spencerpratt/status/2069395289170149657#m)
-
----
-
-**@spencerpratt** (@spencerpratt) · 2026-06-23 12:17 UTC
-
-> I know nobody in LA really cared when the Palisades burned. Many cheered! All my campaign, I warned all of LA...it is coming for you, next. I specifically went to Boyle Heights for this. If you think Basura Bike Lane Lady have a plan to save you...wait til the big one hits. Matthew Seedorff (@MattSeedorff) UPDATE: Mayor @KarenBassLA says the massive Boyle Heights warehouse fire highlights concerns about industrial warehouses being concentrated in certain neighborhoods. “We have these warehouses all around, and we don’t know what’s in these warehouses,” Bass said. “We don’t want environmental h
-
-[View tweet](https://nitter.net/spencerpratt/status/2069394500745847282#m)
-
 ---
 
 
 ---
-*Twitter farmer | 2026-06-24 AFTERNOON | 85 tweets | 24 articles*
+*Twitter farmer | 2026-06-24 AFTERNOON | 63 tweets | 17 articles*
