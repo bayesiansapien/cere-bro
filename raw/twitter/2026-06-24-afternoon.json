@@ -1,7 +1,7 @@
 {
   "date": "2026-06-24",
   "slot": "afternoon",
-  "scraped_ist": "2026-06-24 12:49",
+  "scraped_ist": "2026-06-24 15:09",
   "lookback_h": 24,
   "curated": [],
   "ai_feed": [
@@ -15,20 +15,15 @@
         {
           "handle": "ClaudeDevs",
           "creator": "@ClaudeDevs",
-          "text": "Claude Code is still the fastest way to do solo, synchronous work. Claude Tag is Claude Code made multiplayer, async, and proactive across your whole team. In beta today for Claude Enterprise and Team plans. Tag it in, it tags you back. claude.com/product/tag Link Claude Tag | Claude by Anthropic Tag Claude into any Slack thread and it reads the room, does the work, and posts back where everyone can see it. Available for Claude Enterprise and Team. claude.com",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468913264644419#m",
-          "date_utc": "2026-06-23T17:13:32+00:00",
+          "text": "The Claude Code team has been shipping with Claude Tag internally all year. It now writes 65% of our product team's code, including most of what built Claude Tag itself. Here are a few ways we use it every day: 🧵 Claude (@claudeai) Introducing Claude Tag, a new way for teams to work with Claude. In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. Video — https://nitter.net/claudeai/status/2069468693017268244#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2069468900216234010#m",
+          "date_utc": "2026-06-23T17:13:29+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/card_img%2F2069468916204888064%2F8Zi8ryyH%3Fformat%3Djpg%26name%3D800x419"
+            "https://nitter.net/pic/media%2FHLg9iF5XYAAhaS7.jpg"
           ],
-          "articles": [
-            {
-              "url": "https://claude.com/product/tag",
-              "content": "Claude Tag | Claude by Anthropic --> Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Security Models Mythos Fable Opus Sonnet Haiku Platform Overview Developer docs Pricing Console login Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Tools Connectors Plugins Connect Events Community Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Clau"
-            }
-          ]
+          "articles": []
         },
         {
           "handle": "ClaudeDevs",
@@ -46,133 +41,20 @@
         {
           "handle": "ClaudeDevs",
           "creator": "@ClaudeDevs",
-          "text": "Background watchers Give Claude a threshold instead of a dashboard, such as pinging when CI stays red too long. It stays quiet until the threshold is crossed, then posts with the failing test and culprit commit already attached. Tell it to put up the fix from the same thread. Video",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468909858873779#m",
-          "date_utc": "2026-06-23T17:13:31+00:00",
+          "text": "Claude Code is still the fastest way to do solo, synchronous work. Claude Tag is Claude Code made multiplayer, async, and proactive across your whole team. In beta today for Claude Enterprise and Team plans. Tag it in, it tags you back. claude.com/product/tag Link Claude Tag | Claude by Anthropic Tag Claude into any Slack thread and it reads the room, does the work, and posts back where everyone can see it. Available for Claude Enterprise and Team. claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2069468913264644419#m",
+          "date_utc": "2026-06-23T17:13:32+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069465384919658496%2Fimg%2F_y9aRtxYWA7wLiPb.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ClaudeDevs",
-          "creator": "@ClaudeDevs",
-          "text": "Turn a thread into a postmortem When an incident wraps, tag Claude to write it up. It reads the thread back, rebuilds the timeline, drops the postmortem in your docs, and files the action items as issues. Video",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468908026020170#m",
-          "date_utc": "2026-06-23T17:13:31+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069465241508098048%2Fimg%2FlF5msthKOFpk0GgJ.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ClaudeDevs",
-          "creator": "@ClaudeDevs",
-          "text": "Dependent work Hand Claude the work that's blocked on something else, for example wiring up the frontend once the backend ships to prod. It waits, watches, and shows up days later with the PR, adjusted for whatever changed in review. Video",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468906214007035#m",
-          "date_utc": "2026-06-23T17:13:30+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069465124503703552%2Fimg%2FCJrOiF_DkcJZr4Kz.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ClaudeDevs",
-          "creator": "@ClaudeDevs",
-          "text": "Bug triage Let Claude sit in your feedback channel and automatically pick up reports. It finds the code path, reproduces, git-blames, writes a fix, and tags the owner. All that’s left is code review before Claude merges the PR. Video",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468904351727726#m",
-          "date_utc": "2026-06-23T17:13:30+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069465031654379521%2Fimg%2FQmXfF-f6PM_kIir3.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ClaudeDevs",
-          "creator": "@ClaudeDevs",
-          "text": "Incident response Tag Claude in the incident thread when the page lands. It pulls graphs, diffs the deploy, comes back with root cause and the author tagged. Your team approves in-thread. Claude opens the fix, lands it, watches the metric recover, and resolves the page. Video",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468902216945939#m",
-          "date_utc": "2026-06-23T17:13:29+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069464922942267392%2Fimg%2Ffggf0NOE8601NN4j.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ClaudeDevs",
-          "creator": "@ClaudeDevs",
-          "text": "The Claude Code team has been shipping with Claude Tag internally all year. It now writes 65% of our product team's code, including most of what built Claude Tag itself. Here are a few ways we use it every day: 🧵 Claude (@claudeai) Introducing Claude Tag, a new way for teams to work with Claude. In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. Video — https://nitter.net/claudeai/status/2069468693017268244#m",
-          "link": "https://nitter.net/ClaudeDevs/status/2069468900216234010#m",
-          "date_utc": "2026-06-23T17:13:29+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLg9iF5XYAAhaS7.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "DoWCTO",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "DoWCTO",
-          "creator": "@DoWCTO",
-          "text": "laserwars.net/p/hegseth-mili… Link EXCLUSIVE: Pentagon Demonstrates Laser Weapons for Hegseth The US military fired several high-energy laser and high-power microwave weapons for Defense Secretary Pete Hegseth on Tuesday. laserwars.net",
-          "link": "https://nitter.net/DoWCTO/status/2069471193527128100#m",
-          "date_utc": "2026-06-23T17:22:36+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2069596972474830849%2FqNfEOPx5%3Fformat%3Djpg%26name%3D800x419"
+            "https://nitter.net/pic/card_img%2F2069468916204888064%2F8Zi8ryyH%3Fformat%3Djpg%26name%3D800x419"
           ],
           "articles": [
             {
-              "url": "https://www.laserwars.net/p/hegseth-military-laser-weapon-demonstration",
+              "url": "https://claude.com/product/tag",
               "content": ""
             }
           ]
-        },
-        {
-          "handle": "DoWCTO",
-          "creator": "@DoWCTO",
-          "text": "The @DeptofWar is securing directed energy DOMINANCE, as showcased by today's live testing of advanced laser and microwave systems at White Sands Missile Range. Through the Scaled Directed Energy (SCADE) Critical Technology Area, the Department is rapidly scaling these systems to empower our warfighters to fight beyond the limits of traditional magazine capacity.",
-          "link": "https://nitter.net/DoWCTO/status/2069471167396639032#m",
-          "date_utc": "2026-06-23T17:22:29+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLg9D2QW4AAVI8e.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "DoWCTO",
-          "creator": "@DoWCTO",
-          "text": "Where We Go One, We Go Quantum 🇺🇸",
-          "link": "https://nitter.net/DoWCTO/status/2069409879857492288#m",
-          "date_utc": "2026-06-23T13:18:57+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLgFUdObcAAFTCj.jpg"
-          ],
-          "articles": []
         }
       ]
     },
@@ -306,37 +188,6 @@
               "content": ""
             }
           ]
-        },
-        {
-          "handle": "Scobleizer",
-          "creator": "@Scobleizer",
-          "text": "This company grows human organs and hardly got any likes. People are avoiding long videos and are missing out. Robert Scoble (@Scobleizer) 3D printing has gone \"hyper small.\" This Silicon Valley startup is unlike any I've ever toured. Frontier Bio makes human body parts. More accurately uses a new kind of 3D printer, that builds tiny cell-sized structures that then they have stem cells express themselves into various parts of the human body around these tiny structures. First arteries, but are doing science that, over the next decade, will lead to \"growing\" new kidneys, or other parts. Here I ",
-          "link": "https://nitter.net/Scobleizer/status/2069331719627382898#m",
-          "date_utc": "2026-06-23T08:08:22+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F1971702853887836161%2Fimg%2FoFvnMOXE3VPD1_yc.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://www.frontierbio.com",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "Scobleizer",
-          "creator": "@Scobleizer",
-          "text": "It is glorious in Silicon Valley. el.cine (@EHuanglu) i dont think people realize how big this is Seedance 2.5 now can generate 30s 4K videos from one prompt.. with up to 50 ref.. one click filmmaking is here Video — https://nitter.net/EHuanglu/status/2069302147410514020#m",
-          "link": "https://nitter.net/Scobleizer/status/2069329136800186545#m",
-          "date_utc": "2026-06-23T07:58:07+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069301952803221504%2Fimg%2F4dI6VrTI6O9xNtTo.jpg"
-          ],
-          "articles": []
         }
       ]
     },
@@ -391,7 +242,7 @@
           "articles": [
             {
               "url": "https://piped.video/watch?v=Tw2yCXgREwg",
-              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+              "content": ""
             }
           ]
         }
@@ -556,26 +407,6 @@
       ]
     },
     {
-      "handle": "__tinygrad__",
-      "org": "Independent",
-      "focus": [
-        "GPU/CUDA"
-      ],
-      "tweets": [
-        {
-          "handle": "__tinygrad__",
-          "creator": "@__tinygrad__",
-          "text": "Today, if you were writing a bunch of kernels, what would you reach for? Raw CUDA? tile-lang? Triton? ThunderKittens?",
-          "link": "https://nitter.net/__tinygrad__/status/2069497851810623728#m",
-          "date_utc": "2026-06-23T19:08:31+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        }
-      ]
-    },
-    {
       "handle": "bcherny",
       "org": "Anthropic",
       "focus": [
@@ -684,6 +515,237 @@
       ]
     },
     {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Peak globalist puppet crafting 😂 Video",
+          "link": "https://nitter.net/brivael/status/2069678464286998817#m",
+          "date_utc": "2026-06-24T07:06:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069667653367562240%2Fimg%2FseSKAiGkvpOyF2wq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LAISSE MOI CONTROLLER TA VIE !!!!!! Brivael Le Pogam (@brivael) Je vais tout contrôler pour toi. Car moi, Aurore, depuis mon bureau à Bruxelles. J’ai la science infuse, la transcendance de Dieu qui m’a transmis l’éclair divin de la planification. Je suis la déesse du contrôle. Et l’euro numérique est mon salut 🤣 — https://nitter.net/brivael/status/2069469815937646705#m",
+          "link": "https://nitter.net/brivael/status/2069678203044806816#m",
+          "date_utc": "2026-06-24T07:05:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLg71BJaUAEpo9j.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Socialo-communist in a nutshell Video",
+          "link": "https://nitter.net/brivael/status/2069678012279542248#m",
+          "date_utc": "2026-06-24T07:04:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069388391171407872%2Fimg%2FalDiaByvaVBQui8Y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We need a lot of antimatter to build that Blue Thunder (@BlueThunderReal) Here's your first look at first person podracing in Star Wars: Galactic Racer Video — https://nitter.net/BlueThunderReal/status/2069435307527721035#m",
+          "link": "https://nitter.net/brivael/status/2069675366806102375#m",
+          "date_utc": "2026-06-24T06:53:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069320978853752833%2Fimg%2FaWasAWkIWrGjo2CZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon Musk (@elonmusk) 🤣🤣 Video — https://nitter.net/elonmusk/status/2069665946286043260#m",
+          "link": "https://nitter.net/brivael/status/2069674757315051669#m",
+          "date_utc": "2026-06-24T06:51:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLj2NlYW4AIGK1R.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2024009801882116096%2Fimg%2FzEtcjPcgGF_mJlm5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "À lire. Important pour les prochaines élections 👇 Brivael Le Pogam (@brivael) Aujourd'hui je vais vous prouver, A+B, que les sondages pour 2027 sont déjà faux. Pas « un peu » faux. Structurellement faux. Parce qu'ils mesurent un électorat qui n'existe plus. Un sondage, ça modélise des gens qui s'informent à la télé, à la radio, dans la presse. Sauf que la décision politique ne se prend plus là. Elle se prend dans un feed. Sur TikTok. Et de plus en plus sur X. Les instituts n'ont jamais pricé ça. Ils interrogent l'électorat de 2012 pendant que l'électorat de 2027 scrolle. Le terrain a changé, p",
+          "link": "https://nitter.net/brivael/status/2069673901530152961#m",
+          "date_utc": "2026-06-24T06:48:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLh5f37bQAAqyDc.jpg",
+            "https://nitter.net/pic/media%2FHLh5hvxboAAQsdY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 ᵖᵃʳᵒᵈⁱᵉ Kim Jong Un (@KimJongUnique) Le narratif est prêt. — https://nitter.net/KimJongUnique/status/2069672482538213514#m",
+          "link": "https://nitter.net/brivael/status/2069672631461466283#m",
+          "date_utc": "2026-06-24T06:43:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLj0J77W8AAySwT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je ne cherche pas à être heureux. Ça me m’intéresse pas. Je cherche à être utile. Brivael Le Pogam (@brivael) Dans mon dernier post, je vous ai décrit le globalisme. Aujourd'hui, je vous présente son architecte côté français. Jacques Attali. Conseiller spécial de Mitterrand pendant dix ans. Fondateur de la BERD. Auteur de dizaines de livres qui annoncent — et appellent de leurs vœux — une « gouvernance mondiale » au-dessus des nations. Si le globalisme avait un bureau d'études en France, son nom serait sur la porte. Mais je ne veux pas vous parler de son CV. Je veux vous parler d'une phrase. U",
+          "link": "https://nitter.net/brivael/status/2069672387000545584#m",
+          "date_utc": "2026-06-24T06:42:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2068146615555371008%2Fimg%2FFv8FNWiBi9IboyAa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Autodestruction Rock Chartrand (@RockChartrand) The communist superpower isn't economics, morality, or self awareness. It's the ability to watch an idea fail repeatedly, deny what everyone can see, and then recruit people whose resentment is stronger than their curiosity. — https://nitter.net/RockChartrand/status/2069248682742935643#m",
+          "link": "https://nitter.net/brivael/status/2069672146436325535#m",
+          "date_utc": "2026-06-24T06:41:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "INTERDIRE LES RÉSEAUX SOCIAUX POUR PROTÉGER LES “ENFANTS” 😂😂😂 Brivael Le Pogam (@brivael) Pour protéger les enfants. — https://nitter.net/brivael/status/2069601525215994121#m",
+          "link": "https://nitter.net/brivael/status/2069671021628776940#m",
+          "date_utc": "2026-06-24T06:36:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "“Les ingérences russes” 😂😂😂 ᵖᵃʳᵒᵈⁱᵉ Kim Jong Un (@KimJongUnique) Ce que tu écris me rappelle le cas de Calin Georgescu en Roumanie. Ce candidat de droite avait percé grâce à Tiktok, alors que les médias mainstream le rejetaient. Le Système avait ensuite trouvé la parade des ingérences russes sur TikTok. — https://nitter.net/KimJongUnique/status/2069668561744769088#m",
+          "link": "https://nitter.net/brivael/status/2069668852125086056#m",
+          "date_utc": "2026-06-24T06:28:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m",
+          "link": "https://nitter.net/brivael/status/2069668440009543688#m",
+          "date_utc": "2026-06-24T06:26:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLjweY0WQAAnqKs.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2069479032316444673%2Fimg%2FS_1kUbCidHWHZFlm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m",
+          "link": "https://nitter.net/brivael/status/2069668356308021320#m",
+          "date_utc": "2026-06-24T06:26:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLjwZcRaUAA55G5.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2069479032316444673%2Fimg%2FS_1kUbCidHWHZFlm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m",
+          "link": "https://nitter.net/brivael/status/2069668315056967953#m",
+          "date_utc": "2026-06-24T06:25:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLjwXHMboAIGl6M.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2069479032316444673%2Fimg%2FS_1kUbCidHWHZFlm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m",
+          "link": "https://nitter.net/brivael/status/2069668258157060369#m",
+          "date_utc": "2026-06-24T06:25:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLjwTuEWcAAaB7e.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2069479032316444673%2Fimg%2FS_1kUbCidHWHZFlm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) En vrai, le WEF devrait la recruter pour remplacer Greta Thunberg. Le niveau d’hystérie est à son maximum. Elle a du potentiel 😂 Video — https://nitter.net/brivael/status/2069615613761507377#m",
+          "link": "https://nitter.net/brivael/status/2069668203073356007#m",
+          "date_utc": "2026-06-24T06:25:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLjwQkubMAANfdH.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2069479032316444673%2Fimg%2FS_1kUbCidHWHZFlm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le Marginal Cloud (@LeMarginalCloud) Tu as fais un plus gros programme que Glucksmann en une publication... — https://nitter.net/LeMarginalCloud/status/2069660192216936927#m",
+          "link": "https://nitter.net/brivael/status/2069666466270736597#m",
+          "date_utc": "2026-06-24T06:18:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLjurl5W0AAqLXi.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
       "handle": "cursor_ai",
       "org": "Cursor",
       "focus": [
@@ -737,63 +799,6 @@
       ]
     },
     {
-      "handle": "eliebakouch",
-      "org": "Hugging Face",
-      "focus": [
-        "LLMs",
-        "training"
-      ],
-      "tweets": [
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "reason being anthropic team using slack, not only karpathy",
-          "link": "https://nitter.net/eliebakouch/status/2069640962486448589#m",
-          "date_utc": "2026-06-24T04:37:12+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "i think this is the reason why the claude desktop app is behind codex, and it's totally fine, i think slack is actually a great way for \"teams of humans\" to interact with \"teams of agents\" Andrej Karpathy (@karpathy) The basic idea is easy and v0 is a hackathon project. The product here is a lot closer to *it actually works*, for enterprise grade deployments, and after quite a bit of internal experimentation and iteration. It’s kind of hard to describe other than (per the post) it’s writing majority of code, it’s deeply integrated, multiplayer, and it starts to feel like everyone is a manager.",
-          "link": "https://nitter.net/eliebakouch/status/2069639159371936087#m",
-          "date_utc": "2026-06-24T04:30:02+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "this is just me making meme btw i'm not saying (or thinking) they stole the name from deepseek lol 😭",
-          "link": "https://nitter.net/eliebakouch/status/2069581514036359612#m",
-          "date_utc": "2026-06-24T00:40:58+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "nice name 👀 Engram (@EngramLab) Article Introducing Engram: Scaling compute on your context We’re Engram. We’re building AI that learns from you and deeply understands your work. Today’s AI models don’t understand what you do. Not really. Everything models know comes from their training – — https://nitter.net/EngramLab/status/2069465879696576844#m",
-          "link": "https://nitter.net/eliebakouch/status/2069477315785175068#m",
-          "date_utc": "2026-06-23T17:46:55+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLhCWlra0AAd_WI.jpg",
-            "https://nitter.net/pic/media%2FHLg4MM8bQAAXWfu.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
       "handle": "ellev3n11",
       "org": "Cursor",
       "focus": [
@@ -814,212 +819,64 @@
       ]
     },
     {
-      "handle": "heavypulp",
+      "handle": "magicsilicon",
       "org": "Independent",
       "focus": [
-        "AI"
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
       ],
       "tweets": [
         {
-          "handle": "heavypulp",
-          "creator": "@heavypulp",
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Software is eating the world. But Hardware is eating software.",
+          "link": "https://nitter.net/magicsilicon/status/2069550332905185497#m",
+          "date_utc": "2026-06-23T22:37:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Hardware is eating software.",
+          "link": "https://nitter.net/magicsilicon/status/2069546501723021722#m",
+          "date_utc": "2026-06-23T22:21:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
           "text": "Image",
-          "link": "https://nitter.net/heavypulp/status/2069630271666696567#m",
-          "date_utc": "2026-06-24T03:54:43+00:00",
+          "link": "https://nitter.net/magicsilicon/status/2069541377466331148#m",
+          "date_utc": "2026-06-23T22:01:29+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHLjNwvAXcAA5jVi.jpg"
+            "https://nitter.net/pic/media%2FHLh82h7aoAAm3t1.jpg",
+            "https://nitter.net/pic/media%2FHLh82h7bQAAm-xK.jpg",
+            "https://nitter.net/pic/media%2FHLh82h8bcAAn-h2.jpg",
+            "https://nitter.net/pic/media%2FHLh82inacAAhyEd.jpg"
           ],
           "articles": []
         },
         {
-          "handle": "heavypulp",
-          "creator": "@heavypulp",
-          "text": "Video Heavy Pulp (@heavypulp) Video — https://nitter.net/heavypulp/status/2069302712143933720#m",
-          "link": "https://nitter.net/heavypulp/status/2069612373619474775#m",
-          "date_utc": "2026-06-24T02:43:36+00:00",
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "“The American approach to summer was correct all along” 😅 Patrick Collison (@patrickc) I asked Claude about the air conditioning debate in Europe, and it really didn’t pull any punches. — https://nitter.net/patrickc/status/2069451055142936709#m",
+          "link": "https://nitter.net/magicsilicon/status/2069481411325874482#m",
+          "date_utc": "2026-06-23T18:03:12+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069612246955667456%2Fimg%2Fo20MEyLRPwyRX4eQ.jpg",
-            "https://nitter.net/pic/amplify_video_thumb%2F2069302641591549952%2Fimg%2FhZ6jEowOiDAWVSp5.jpg"
+            "https://nitter.net/pic/media%2FHLgqxLlbwAAH6Hs.jpg"
           ],
           "articles": []
-        },
-        {
-          "handle": "heavypulp",
-          "creator": "@heavypulp",
-          "text": "Ahhh the summers of my youth: yacht parties, friendly neighborhood bikini car washes, sodium vapor lights, slower internet, no smartphones, and a brand new 2022 Lamborghini Aventador. Just how I remember it. Heavy Pulp (@heavypulp) Summer Has Loaded Video — https://nitter.net/heavypulp/status/2068823935173443626#m",
-          "link": "https://nitter.net/heavypulp/status/2069413714470502571#m",
-          "date_utc": "2026-06-23T13:34:12+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2068823704507731968%2Fimg%2FzR74G9OtyXGQpt-U.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "kilocode",
-      "org": "Independent",
-      "focus": [
-        "agents"
-      ],
-      "tweets": [
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "It's live now, and the benchmark it routes on is public, so you can check it before trusting it. Full writeup from @coldopn here: blog.kilo.ai/p/auto-efficien… Link Auto Efficient: The Right Model for Every Request, Automatically Optimize AI spend without sacrificing performance blog.kilo.ai",
-          "link": "https://nitter.net/kilocode/status/2069494875020484690#m",
-          "date_utc": "2026-06-23T18:56:42+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2069485915496448001%2FD1_5EiMF%3Fformat%3Djpg%26name%3D800x419"
-          ],
-          "articles": [
-            {
-              "url": "http://blog.kilo.ai/p/auto-efficient",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "Stop overpaying for the easy stuff. Here's a two-minute demo of it running. Video",
-          "link": "https://nitter.net/kilocode/status/2069494873342845261#m",
-          "date_utc": "2026-06-23T18:56:41+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069486284448432128%2Fimg%2Fm9PMDSbIbslaudI-.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "It's live. Pick Auto Efficient in the model picker, or turn it on here: kilo.codes/6ThU8gm Matching the model to the task is the biggest thing you can do about your AI bill. This does it per request.",
-          "link": "https://nitter.net/kilocode/status/2069494870369022398#m",
-          "date_utc": "2026-06-23T18:56:41+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLhPz0XWcAAf8FK.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://kilo.codes/6ThU8gm",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "If it's not sure, it doesn't guess. When a routing decision isn't clear, it falls back to Balanced, which uses a capable paid model. So quality has a floor. Cheap models only get used where they hold up.",
-          "link": "https://nitter.net/kilocode/status/2069494868578095308#m",
-          "date_utc": "2026-06-23T18:56:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "There's a setting for how aggressive it gets. \"Best accuracy per dollar\" takes the cheapest model that clears the bar. \"Best accuracy\" takes the strongest one. Set it per project, depending on whether you care more about cost or output.",
-          "link": "https://nitter.net/kilocode/status/2069494866657091632#m",
-          "date_utc": "2026-06-23T18:56:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLhPwjVWcAAKRVG.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "It's session-aware, so it doesn't thrash. A router that swaps models every turn loses context and gives you inconsistent output. Auto Efficient stays on a model that's working and only switches when a cheaper one clearly fits. You get per-request routing without the model changing mid-thread.",
-          "link": "https://nitter.net/kilocode/status/2069494864392102212#m",
-          "date_utc": "2026-06-23T18:56:39+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "The rankings are public. They're on the Kilo Leaderboard. You can open it, find the cheapest model that does well on your kind of work, and select it yourself. Auto Efficient just does that lookup on every request instead of making you do it.",
-          "link": "https://nitter.net/kilocode/status/2069494862886400180#m",
-          "date_utc": "2026-06-23T18:56:39+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "It picks models based on KiloBench. KiloBench runs continuously against every model in the catalog, on tasks pulled from real Kilo usage. If it routes you to a cheaper model, that model already scored well enough on that kind of work.",
-          "link": "https://nitter.net/kilocode/status/2069494860948595068#m",
-          "date_utc": "2026-06-23T18:56:38+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLhPq0RW8AEQrkS.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "You're paying frontier prices to rename a variable! Auto Efficient routes each request to the cheapest model that can handle it. Rename a variable, you get a small model. Plan a migration, you get a big one. You don't switch anything. How it works 🧵",
-          "link": "https://nitter.net/kilocode/status/2069494857815445871#m",
-          "date_utc": "2026-06-23T18:56:38+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLhPnGzXMAA9A5j.png"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "Model freedom works! Santy Gegenschatz (@santygegen) Having a great experience with @kilocode today. Discovered it due to the claudy meltdown. Awesome and cheap tech! — https://nitter.net/santygegen/status/2069433215547216204#m",
-          "link": "https://nitter.net/kilocode/status/2069448941007945768#m",
-          "date_utc": "2026-06-23T15:54:10+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLgahD1XEAAU3np.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "kilocode",
-          "creator": "@kilocode",
-          "text": "Focusing exclusively on token spend is like measuring a race car by its fuel consumption. Engineering output, deployment frequency, and ROI are what matter. Our CEO, @s_breitenother , explains why. Scott Breitenother (@s_breitenother) If an engineer costs $25K/month and AI costs $2K/month, why are so many companies focused on optimizing the smaller number? AI isn’t a cost center. It’s a productivity multiplier. Here's my latest @Forbes piece on why ROI matters more than token spend: forbes.com/councils/forbeste… Link Council Post: Healthcare Has More Data Than Ever—Why Are Patients Still Searc",
-          "link": "https://nitter.net/kilocode/status/2069439206024220729#m",
-          "date_utc": "2026-06-23T15:15:29+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2069434839699214337%2F1uFf243w%3Fformat%3Djpg%26name%3D800x419"
-          ],
-          "articles": [
-            {
-              "url": "https://www.forbes.com/councils/forbestechcouncil/2026/06/23/healthcare-has-more-data-than-ever-why-are-patients-still-searching-for-answers/",
-              "content": ""
-            }
-          ]
         }
       ]
     },
@@ -1046,7 +903,7 @@
           "articles": [
             {
               "url": "https://piped.video/watch?v=0ii_Fl9R6bw",
-              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+              "content": ""
             }
           ]
         }
@@ -1077,7 +934,7 @@
           "articles": [
             {
               "url": "https://nvda.ws/4xDV1ch",
-              "content": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure | NVIDIA Skip to content NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure June 22, 2026 by Zoe Kessler 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! For the past two years, t he U.S. National Science Foundation ’s National Artificial Intelligence Research Resource (NAIRR) pilot program has driven innovative research across the U.S. for over 700 projects — spanning protein prediction and infectious disease outbreak management. NVIDIA contributed to the NAIRR pilot through a cloud-based resource that gives researchers dedicated access to a minimum of four NVIDIA DGX nodes for at least a month. NVIDIA also provided technical support to"
+              "content": ""
             }
           ]
         },
@@ -1108,7 +965,7 @@
           "articles": [
             {
               "url": "https://nvda.ws/4uUFQch",
-              "content": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers | NVIDIA Blog Skip to content NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers June 23, 2026 by Chris Porter 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green500 run on NVIDIA GPUs and nine of the top 10 use NVIDIA technologies. No. 1 on the Green500, KAIROS, uses a single NVIDIA Grace Hopper Superchip. 376 of the TOP500 systems are interconnected using NVIDIA networking. NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the"
+              "content": ""
             }
           ]
         },
@@ -1168,218 +1025,9 @@
           "articles": [
             {
               "url": "https://nvda.ws/4eFBJe8",
-              "content": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations | NVIDIA Blog Skip to content NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations At DTW Ignite 2026, NVIDIA and its partners are showcasing the data, models, simulation and secure runtime stack enabling telcos to build more secure agentic workflows across autonomous networks and operations. June 22, 2026 by Lilac Ilan 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and direct next steps. Automation is no longer the finish "
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "handle": "spencerpratt",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Sure, don’t facilitate advanced fire suppression technology, don’t fund your fire department…just drive even more commerce and jobs out of the city. My goodness, these communists are incompetent. Matthew Seedorff (@MattSeedorff) UPDATE: Mayor @KarenBassLA says the massive Boyle Heights warehouse fire highlights concerns about industrial warehouses being concentrated in certain neighborhoods. “We have these warehouses all around, and we don’t know what’s in these warehouses,” Bass said. “We don’t want environmental hazards or risk concentrated in Black and brown communities.” Video — https://ni",
-          "link": "https://nitter.net/spencerpratt/status/2069596790748536930#m",
-          "date_utc": "2026-06-24T01:41:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069296767494230016%2Fimg%2FZj5Bz8VBW9kTZPX0.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Los Angeles has nearly DOUBLE the GDP of Milan. Please explain to me why we can't have nice things? Other than your city leaders and their fraudulent NGOs are looting all your tax dollars. Spencer Pratt (@spencerpratt) Compare Milan Fashion District vs Los Angeles Fashion District. Karen Basura and Nithya Raman have forsaken our city and condemned us to a permanent 3rd world hellhole. Are you not tired of these socialists destroying our city and making us the laughing stock of the world? — https://nitter.net/spencerpratt/status/2069424873567621547#m",
-          "link": "https://nitter.net/spencerpratt/status/2069427387516022974#m",
-          "date_utc": "2026-06-23T14:28:31+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLgSR0uaMAA8L0D.jpg",
-            "https://nitter.net/pic/media%2FHLgSnXPbYAArRjt.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "In Paris' Fashion District, people line up to shop for LV bags, in Los Angeles' Fashion District, people line up for free meals and crackpipes. Nithya and Karen have destroyed our city. And these clowns are going to host the world for the Olympics? Pure humiliation ritual. Spencer Pratt (@spencerpratt) Compare Milan Fashion District vs Los Angeles Fashion District. Karen Basura and Nithya Raman have forsaken our city and condemned us to a permanent 3rd world hellhole. Are you not tired of these socialists destroying our city and making us the laughing stock of the world? — https://nitter.net/s",
-          "link": "https://nitter.net/spencerpratt/status/2069426017190760769#m",
-          "date_utc": "2026-06-23T14:23:05+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLgTSUFakAASu3X.jpg",
-            "https://nitter.net/pic/media%2FHLgTfE5akAAnbcb.jpg",
-            "https://nitter.net/pic/media%2FHLgSR0uaMAA8L0D.jpg",
-            "https://nitter.net/pic/media%2FHLgSnXPbYAArRjt.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Compare Milan Fashion District vs Los Angeles Fashion District. Karen Basura and Nithya Raman have forsaken our city and condemned us to a permanent 3rd world hellhole. Are you not tired of these socialists destroying our city and making us the laughing stock of the world?",
-          "link": "https://nitter.net/spencerpratt/status/2069424873567621547#m",
-          "date_utc": "2026-06-23T14:18:32+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLgSR0uaMAA8L0D.jpg",
-            "https://nitter.net/pic/media%2FHLgSnXPbYAArRjt.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Let's take a live look at LA's prestigious Fashion District, rivaling Milan, Paris, and NYC's thanks to the chair of the Homeless and Housing Commission, Nithya Raman! Y'all wanted an LA City Hall reality show? Here you go: piped.video/watch?v=FLIMx-V7… Great work, Nithya! Video",
-          "link": "https://nitter.net/spencerpratt/status/2069423530417221771#m",
-          "date_utc": "2026-06-23T14:13:12+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069420464305541120%2Fimg%2FXMbrPz2q7lq0Eq6q.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://piped.video/watch?v=FLIMx-V714k",
               "content": ""
             }
           ]
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "This is what Karen Basura was doing while Boyle Heights was choking in toxic smoke...sippin' cocktails in Chi-town! If you thought she just hated us on the West Side, think again. She enjoys when the Latino community goes up in flames, too! Look at that smile! Thierry Kame🌎 🦅 (@Thierry_Kame) LA Mayor Karen Bass at the Obama Presidential Center dedication🇺🇸🔵 #ObamaPresidentialCenter #OPC — https://nitter.net/Thierry_Kame/status/2068753990192337361#m",
-          "link": "https://nitter.net/spencerpratt/status/2069418733089792387#m",
-          "date_utc": "2026-06-23T13:54:08+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLWwxlaX0AAsJJq.jpg",
-            "https://nitter.net/pic/media%2FHLWwxleWMAADVbt.jpg",
-            "https://nitter.net/pic/media%2FHLWwxlZWkAAdohl.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "And yet, when the Palisades Fire hit, it was the Feds who saved Brentwood and Encino, with the USFS providing the lion's share of air tankers because ANF Fire Chief Garcia kept his tanker base fully staffed all winter while Gavin shut down entire CalFire units for the season. Governor Newsom Press Office (@GovPressOffice) @CAL_FIRE operates the largest civil aerial firefighting fleet in the world, with nearly 70 airtankers, helicopters, and other aircraft. They're strategically stationed at bases across the state and capable of reaching remote fires within 20 minutes. — https://nitter.net/GovP",
-          "link": "https://nitter.net/spencerpratt/status/2069418241278284233#m",
-          "date_utc": "2026-06-23T13:52:11+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLc0MrrbsAAbPSM.jpg",
-            "https://nitter.net/pic/media%2FHLc0NUCXUAExA8T.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Hurricane Jaime Moore's predecessor at LAFD Chief was fired by Karen Basura for candidly admitting that Karen's budget cuts impacted their Palisades Fire response. If the last Chief were fired for telling the truth, what must Chief Moore have to do to get hired? Slicinhammer (@Slicinhammer) LAFD Fire Chief Jamie Moore just told the people of Los Angeles to \"close your windows and turn the air conditioning to recirculate\". Holy crap. There's no recirculate setting on structural air conditioning systems. They're designed to bring in a certain percentage of fresh air and you can't change that (no",
-          "link": "https://nitter.net/spencerpratt/status/2069408954455863789#m",
-          "date_utc": "2026-06-23T13:15:17+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Karen Basura and the other socialists on City Council have turned LA into a ghost town. They want our beautiful city to just be slums with nice weather, while Nashville, Miami, and Austin steal all our talent and glory. Michael Sapir 🇺🇸 (@MichaelSapirUSA) Karen Bass about killed every thriving business in Los Angeles!!! #KarenBass #LosAngeles #MayorBass #Bass #LA #Business #BASSISBAD4BUSINESS Video — https://nitter.net/MichaelSapirUSA/status/2069275564494786768#m",
-          "link": "https://nitter.net/spencerpratt/status/2069399739343462635#m",
-          "date_utc": "2026-06-23T12:38:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069275545473536000%2Fimg%2Fs0a3agx9VjyvXY4R.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "LA is yet again a national embarrassment with another fire as our underfunded LAFD tries their best to make up for Mayor Karen's budget cuts and incompetence. She will lie about what is happening, because that's her thing. Remember...if it's fire season, it's liar season! Video Good Morning America (@GMA) A smoke warning is in effect across the Los Angeles area as firefighters battle a massive warehouse fire that has been burning for nearly a week. Officials say it could continue for days. @MelissaABCNews reports. Video — https://nitter.net/GMA/status/2069378228272169064#m",
-          "link": "https://nitter.net/spencerpratt/status/2069399070737879117#m",
-          "date_utc": "2026-06-23T12:36:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069398857432391680%2Fimg%2FLjsgLImDZgpEuA19.jpg",
-            "https://nitter.net/pic/amplify_video_thumb%2F2069378148148318208%2Fimg%2FaMFKsbbonPLmtZwU.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "If you think you're gonna get a straight answer from LAFD leadership about the Boyle Heights fire that is now going into its 2nd week of burning...this is Karen Basura's lap-dog fire chief dismissing her editing the Palisades Fire report. If they'll lie about 12 fatalities, you think Hurricane Jaime is suddenly going to find his spine to get to the bottom of a warehouse fire? Scott Alan Meyers For Congress - VOTER ID, 𝑵𝑶𝑾. (@ScottAMeyersLA) LAFD Chief Jaime Moore covers for her in fear of getting the pink slip that Karen Bass flung at Kristin Crowley. It’s difficult to have any respect for pub",
-          "link": "https://nitter.net/spencerpratt/status/2069398089098805742#m",
-          "date_utc": "2026-06-23T12:32:06+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2019414947755880452%2Fimg%2FlCX6oLeYGUSPJ7sD.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "\"The more water we put on this fire, the less smoke we're gonna get\" So...you're telling me that having water *does* help in a firefight? Anyway, in completely unrelated news, it's now wildfire season and Karen Bass still hasn't refilled the Palisades reservoir. Video ABC7 Eyewitness News (@ABC7) The Los Angeles fire chief says his goal is to extinguish the large warehouse fire impacting air quality in East Los Angeles by midweek. LAFD Chief Jaime Moore, Mayor Karen Bass and other city officials provided an update on the Boyle Heights firefight, which has now entered its sixth day, at a press ",
-          "link": "https://nitter.net/spencerpratt/status/2069397072256921843#m",
-          "date_utc": "2026-06-23T12:28:04+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069396925896679424%2Fimg%2FCE25_fZBRXQdTM5V.jpg",
-            "https://nitter.net/pic/amplify_video_thumb%2F2069235244184576000%2Fimg%2FbKN3vYU6N_dwIe9F.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://abc7ne.ws/ZT7U0A",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "If this doesn't say it all... dash oner 🍳 (@djdashoner) On our way out of the toxic air in LA to the fresh air in the Channel Island's... Caught this. Pratt's sign was destroyed. I hate my city. 😡 — https://nitter.net/djdashoner/status/2068900462083088615#m",
-          "link": "https://nitter.net/spencerpratt/status/2069395289170149657#m",
-          "date_utc": "2026-06-23T12:20:59+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHLY2Ac2aEAAeuFP.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "I know nobody in LA really cared when the Palisades burned. Many cheered! All my campaign, I warned all of LA...it is coming for you, next. I specifically went to Boyle Heights for this. If you think Basura Bike Lane Lady have a plan to save you...wait til the big one hits. Matthew Seedorff (@MattSeedorff) UPDATE: Mayor @KarenBassLA says the massive Boyle Heights warehouse fire highlights concerns about industrial warehouses being concentrated in certain neighborhoods. “We have these warehouses all around, and we don’t know what’s in these warehouses,” Bass said. “We don’t want environmental h",
-          "link": "https://nitter.net/spencerpratt/status/2069394500745847282#m",
-          "date_utc": "2026-06-23T12:17:51+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2069296767494230016%2Fimg%2FZj5Bz8VBW9kTZPX0.jpg"
-          ],
-          "articles": []
         }
       ]
     }
