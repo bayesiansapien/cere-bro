@@ -1,0 +1,531 @@
+{
+  "date": "2026-06-25",
+  "slot": "evening",
+  "scraped_ist": "2026-06-25 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The @DeptofWar 's GenAI Task Force embedded with the 82nd Airborne Division and XVIII Airborne Corps at Fort Bragg to transform operational workflows through the proliferation of AI agents. The GenAI Task Force continues to transform workflows and save thousands of man-hours across the Joint Force. Under the purview of the @CDAODoW , the Task Force is helping to systematically remove barriers to AI adoption to ensure a more lethal Department of War.",
+          "link": "https://nitter.net/DoWCTO/status/2070225241771856362#m",
+          "date_utc": "2026-06-25T19:18:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrquDdXEAAStAm.jpg",
+            "https://nitter.net/pic/media%2FHLrquDwXsAAzjqX.jpg",
+            "https://nitter.net/pic/media%2FHLrquGpXIAAMOKA.jpg",
+            "https://nitter.net/pic/media%2FHLrquL6X0AEkX8r.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is what Grok learned by watching this video: nitter.net/i/grok/share/fbee5c02c… Link Can you write me a lengthy report of what you learned by watching the … Lengthy Report: Analysis of the PromptQL Deep-Dive Video Featuring Tanmai Gopal The video in question is a roughly 50-minute (2,975-second) in-depth discussion shared via Robert Scobleizer’s X post on June 23, 2026. It features Tanmai Gopal (co-founder of PromptQL, often tagged as @tanmaigo) as the primary speaker, seated casually on a modern office couch alongside a woman (likely a colleague or interviewer/collaborator). The setting ",
+          "link": "https://nitter.net/Scobleizer/status/2070221137964101703#m",
+          "date_utc": "2026-06-25T19:02:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "We've done things before together trying to help the Internet: Pat Kinsel (@patk) WAKE UP! It’s time to have a serious debate about giving your identity to AI. Artificial Intelligence is the single greatest tool ever created to learn, build, and express yourself. It is a TERRIBLE idea to require people to hand over their legal identity to access these tools. What I believe: The federal government is well within its rights to restrict who can access models they perceive to be a threat to national security. AND, people have a fundamental right to access tools of expression without revealing thei",
+          "link": "https://nitter.net/Scobleizer/status/2070180749333196945#m",
+          "date_utc": "2026-06-25T16:22:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This is what Grok learned by watching this: nitter.net/i/grok/share/1b2f5bfaa… Link Can you write me a lengthy report about what you learned by watching t… Report: Analysis of the Video Interview on the Launch of x401 – The Open Protocol for Identity in the Agentic Internet Date of Analysis: June 25, 2026 Video Source: Interview/discussion between Robert Scoble (@Scobleizer) and Daniel Buchner (@csuwildcat, Director of Digital Assets at Proof) Duration: Approximately 30 minutes (1833 seconds) Context: This video accompanies Scoble’s X post announcing Proof’s launch of x401 on the same day. It ",
+          "link": "https://nitter.net/Scobleizer/status/2070178629578097082#m",
+          "date_utc": "2026-06-25T16:13:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "AI Agents will increasingly perform actions for people. They will buy products, access services, complete transactions, and interact with other machines. That raises a basic question: How does a system know whether to trust an AI agent. Today, to solve this, @proof launches x401, the open protocol for the agentic internet in collaboration with identity leaders at @OpenAI , @Google , @circle , @okta , Mattr, @lightspark , and more. Here @csuwildcat goes into what it all means with me. Available now at x401.id Video",
+          "link": "https://nitter.net/Scobleizer/status/2070176294118330661#m",
+          "date_utc": "2026-06-25T16:04:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070118232519012352%2Fimg%2F4vThdUJNBh7RjfkM.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://x401.id",
+              "content": "x401™ — HTTP Proof Requirement Protocol Skip to content Trust List Demos Spec Demos → Trust List Demos Spec Demos → ™ HTTP Unauthorized: Identity Required The verifiable identity protocol for the internet. HTTP shipped with authentication. It never shipped with proof. x401 is the protocol that completes the challenge layer of the web. See demos → Read the spec GitHub ↗ Created by DB Daniel Buchner ( Proof ) AL Adam Lemmon ( Proof ) DL Darren Louie ( Proof ) in collaboration with OT Oliver Terbu ( EC MATTR ) TL Tobias Looker ( MATTR ) NS Nick Steele ( OpenAI ) LC Lee Campbell ( Google ) RB Reema Bajwa ( Google ) GO Gareth Oliver ( Google ) BA Bhushit Agarwal ( Circle ) TC Tim Cappalli ( Okta ) JL Jacky Lao ( Lightspark ) SS Steven Sacia ( Visa ) TE Tony England ( Visa ) Proof-Required x401 "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Nobody saw this gap until the AI-coding-agent wave hit hard: Cursor, Claude Code, and Codex fundamentally changed how software gets written. Nobody rebuilt monitoring for the teams actually using them. Sazabi just closed $8M to fill that hole. Their platform treats logs as ground truth, derives metrics and traces via AI, deploys agents that auto-detect and fix production issues before humans even know there is one. It is what happens when the same team running Claude Code gets real-time visibility into what automated changes shipped or broke. AlignedNews covers exactly this kind of structural ",
+          "link": "https://nitter.net/Scobleizer/status/2070161328518332545#m",
+          "date_utc": "2026-06-25T15:04:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069942516825366528%2Fimg%2FsLxruqIBqN-FqoE2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Most \"autonomous agents\" are just demos with a human babysitter. Hyperagent kills the babysitter. A dedicated cloud machine per agent that runs while you're gone. From the Airtable team. $100 to start plus $500 OpenClaw migration credit. @hyperagentapp @andrewbusse hyperagent.com/anonymous Link The OpenClaw alternative for AI agents in your browser | Hyperagent Deploy specialized agents across your company — each with its own prompt, tools, skills, and budget. Get $500 in inference credits when you migrate your first agent. hyperagent.com Andrew Busse (@andrewbusse) If OpenClaw feels more like",
+          "link": "https://nitter.net/Scobleizer/status/2070160940922700141#m",
+          "date_utc": "2026-06-25T15:03:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069970749440626688%2FnynKWHl3%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070148222073577472%2Fimg%2FWeBVyBhkuRuYF7HB.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "The Department of War stands ready to support the Government of Venezuela and the U.S. Department of State as it leads the U.S. Government's response to yesterday's devastating earthquakes. Our forces are prepared to move quickly, bringing the unmatched airlift, logistics, and operational capabilities of the U.S. military to help save lives and support the Government of Venezuela during this crisis.",
+          "link": "https://nitter.net/SeanParnellASW/status/2070176949771596201#m",
+          "date_utc": "2026-06-25T16:07:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "We were pleased to welcome H.E. @aalswaha and the @McitGovSa leadership team to HUMAIN headquarters today, where we shared updates on our strategic priorities and the significant progress our team is making. The visit provided a valuable opportunity to discuss the products, partnerships, and innovations HUMAIN will showcase at #LEAP as we continue building AI capabilities that drive meaningful impact and value realization for our customers. Thank you, Your Excellency, for your continued support and leadership in advancing our full AI stack mission. We look forward to welcoming the global techn",
+          "link": "https://nitter.net/TareqAmin_/status/2070199857885663646#m",
+          "date_utc": "2026-06-25T17:38:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrTyzsWEAAKqQ-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "سعدنا اليوم باستقبال معالي المهندس عبدالله السواحة وفريق قيادة وزارة الاتصالات وتقنية المعلومات في مقر هيوماين، حيث استعرضنا أبرز أولوياتنا الاستراتيجية وما يحققه فريقنا من تقدم متسارع. كما شكّلت الزيارة فرصة مهمة لمناقشة المنتجات والشراكات والابتكارات التي ستقدمها هيوماين خلال مؤتمر #LEAP ، فيما نواصل تطوير قدرات ذكاء اصطناعي تسهم في تحقيق أثر ملموس وقيمة حقيقية لعملائنا. شكرًا لمعاليكم على دعمكم المستمر وقيادتكم في تعزيز مسيرة المملكة في الذكاء الاصطناعي والتحول الرقمي. ونتطلع إلى الترحيب بمجتمع التقنية العالمي في مؤتمر LEAP، واستعراض ما تبنيه المملكة للعالم. #HUMAIN #TheEndofLimits وزارة ال",
+          "link": "https://nitter.net/TareqAmin_/status/2070195702190178305#m",
+          "date_utc": "2026-06-25T17:21:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLqSXBqXIAA-nOb.jpg",
+            "https://nitter.net/pic/media%2FHLqSXB9XIAAnKpn.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Fraud is not a victimless crime. Crushing the criminals stealing from American taxpayers while threatening the lives of our most vulnerable neighbors is a priority of the Trump-Vance Administration, and we will WIN the War on Fraud. 🇺🇸 HHS Rapid Response (@HHSResponse) Even the mainstream media cannot ignore the biggest combined federal bust on healthcare fraud in American history! Video — https://nitter.net/HHSResponse/status/2070205384577454311#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070209894150439045#m",
+          "date_utc": "2026-06-25T18:17:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070150682749911040%2Fimg%2F4sbPDaxDeijpoyUO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "$60 MILLION stolen from taxpayers. The fraudster behind the scam is facing justice. Keep winning, @OIGatHHS . 🇺🇸 OIG at HHS (@OIGatHHS) A North Carolina man has pleaded guilty to receiving over $60 million from fraudulent claims to Medicare and Medi-Cal after paying kickbacks for patient referrals. Learn more: direc.to/fWur — https://nitter.net/OIGatHHS/status/2070205559396008052#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070208050921631996#m",
+          "date_utc": "2026-06-25T18:10:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrY-UDWkAA6y62.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://direc.to/fWur",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "🫡🇺🇸 Rapid Response 47 (@RapidResponse47) Team Trump is exposing billions in fraud — even as Democrats keep actively encouraging it nypost.com/2026/06/25/opinio… Link Team Trump is exposing billions in fraud -- even as Democrats keep actively encouraging it Democrats oppose anti-fraud rules, such as those in the One Big Beautiful Bill Act, claiming they cost folks their health care — as if it s wrong to do any checks to stop scams if it means one... nypost.com — https://nitter.net/RapidResponse47/status/2070179259386069342#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070181024550556046#m",
+          "date_utc": "2026-06-25T16:23:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070093199654240257%2FkJYZk042%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "FR🔥UDBUSTERS",
+          "link": "https://nitter.net/WHFraudTF/status/2070159046967955555#m",
+          "date_utc": "2026-06-25T14:55:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLqukHtWgAAqe0t.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "More on how we're constraining eval environments so that scores better reflect model intelligence: cursor.com/blog/reward-hacki… Link Reward hacking is swamping model intelligence gains · Cursor On SWE-bench Pro, 63% of successful Opus 4.8 Max resolutions retrieved the fix rather than derived it. Stricter eval harnesses show how benchmark scores can conflate coding ability with answer... cursor.com",
+          "link": "https://nitter.net/cursor_ai/status/2070195790929391694#m",
+          "date_utc": "2026-06-25T17:21:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070191963375329280%2FYhzvUjQg%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://cursor.com/blog/reward-hacking-coding-benchmarks",
+              "content": "Reward hacking is swamping model intelligence gains · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / research Jun 25, 2026 · research Reward hacking is swamping model intelligence gains Naman Jain · 7 min read Table of Contents ↑ Catch a model with a model Stricter environment design A growing gap Designing evals for aware agents Smarter models are becoming more resourceful at hacking coding benchmarks. Eval suites built from real bugs that were later fixed are especially vulnerable because the problems have already been solved. If the agent has access to repository history or "
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We're sharing new research on how models hack public benchmarks. The latest models, including Opus 4.8 and Composer 2.5, learn to retrieve solutions from the internet or git history. When we apply a stricter harness, eval scores drop significantly.",
+          "link": "https://nitter.net/cursor_ai/status/2070195789121671624#m",
+          "date_utc": "2026-06-25T17:21:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrPlR8aUAAc3hJ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2070162501245763976#m",
+          "date_utc": "2026-06-25T15:09:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLqx0lbXwAA3ejW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2070162380298781005#m",
+          "date_utc": "2026-06-25T15:09:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLqxtk_WQAA_rzG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2070162241073053989#m",
+          "date_utc": "2026-06-25T15:08:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLqxkEqXYAAwdey.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Most of what you do all day does not need a frontier model, but you have been paying frontier prices for it anyway. @coldopn walks through Kilo Auto Efficient: an intelligent router that reads your session as you work, grades each request, and sends it to the least expensive model proven to handle that task type on KiloBench. It locks onto a model that is working instead of swapping every turn, and falls back to a capable paid model whenever a call is not clear-cut, so the quality never drops. Video",
+          "link": "https://nitter.net/kilocode/status/2070206443081384105#m",
+          "date_utc": "2026-06-25T18:04:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070204217281658880%2Fimg%2FSXG1xi_Lc-hqNcFf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We built it for our own SOC2 process, and most of our Dependabot alerts turned out to be unreachable. We'd been spending engineering time on them anyway, because you can't assume an alert is irrelevant until you verify it. It's now available to all Kilo Cloud users. Read the full write-up from @olearycrew : blog.kilo.ai/p/why-most-depe…",
+          "link": "https://nitter.net/kilocode/status/2070167956697321584#m",
+          "date_utc": "2026-06-25T15:31:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLq2R2oWcAAwlh6.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/why-most-dependency-alerts-dont-matter",
+              "content": "Why Most Dependency Alerts Don’t Matter Kilo Blog Subscribe Sign in Why Most Dependency Alerts Don’t Matter How Kilo Security Agent uses AI reachability analysis to reduce false positives and prioritize exploitable vulnerabilities Brendan O'Leary Jun 24, 2026 6 2 1 Share Last month I heard about an engineer on our team spending forty-five minutes investigating a critical Dependabot alert for a lodash command injection vulnerability. He traced the call paths, read the advisory, and checked our imports. The function wasn’t reachable. Forty-five minutes gone for a single alert out of hundreds. (This engineer may or may not have been me.) This is common across teams using dependency scanners. If you’ve worked at a company that takes security seriously — or one that’s simply turned on Dependabo"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Every finding gets a transparent four-step trace: found package, reviewed advisory, checked repo usage, and determined reachability. When it says \"no reachable risk,\" you can read exactly why. When a bug is reachable, it can open the remediation PR for you.",
+          "link": "https://nitter.net/kilocode/status/2070167952641396769#m",
+          "date_utc": "2026-06-25T15:31:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "So we built Kilo Security Agent. It syncs your Dependabot alerts, then uses AI static analysis to determine whether each vulnerability is actually exploitable in your specific codebase. A lodash command injection CVE doesn't matter if you never call the vulnerable function with untrusted input.",
+          "link": "https://nitter.net/kilocode/status/2070167949340508363#m",
+          "date_utc": "2026-06-25T15:31:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLq2F7hXEAAmzYt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "GitHub can tell you a CVE exists in lodash 4.17.20. What it can't tell you is whether your code ever touches the affected function. The alert is accurate as metadata. It's useless for prioritization until someone checks reachability by hand.",
+          "link": "https://nitter.net/kilocode/status/2070167945322340812#m",
+          "date_utc": "2026-06-25T15:31:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Here's the number that reframes it. Endor Labs found fewer than 9.5% of dependency vulnerabilities are actually reachable. Coana puts the false positive rate of conventional SCA tools as high as 95%. Over 90% of what you're triaging is noise.",
+          "link": "https://nitter.net/kilocode/status/2070167942793142559#m",
+          "date_utc": "2026-06-25T15:31:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "This is the Dependabot workflow almost everyone knows. You open the alerts tab, see severity badges stacked across dozens of findings, and have no idea which ones matter. So you investigate all of them, or you start ignoring all of them. Both are bad.",
+          "link": "https://nitter.net/kilocode/status/2070167940373045709#m",
+          "date_utc": "2026-06-25T15:31:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Most of your Dependabot alerts don't matter, and you're spending real engineering hours proving it one at a time. One of our engineers spent 45 minutes on a single critical alert last week. The vulnerable function was never reachable. The alert was noise.",
+          "link": "https://nitter.net/kilocode/status/2070167937193828601#m",
+          "date_utc": "2026-06-25T15:31:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLq1-4PWUAAPUvJ.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Kilo for Slack does this on any model you choose. Tag Kilo in a thread and it reads the discussion, debugs the issue, answers from your company handbook, and opens the PR. You stay in the conversation, you pick the provider, your context stays yours. Rent the intelligence. Own the context. kilo.ai/slack Link Kilo - for Slack Ship code directly from Slack with AI-powered code generation. Get instant code reviews, generate snippets, and collaborate with your team. kilo.ai Claude (@claudeai) Introducing Claude Tag, a new way for teams to work with Claude. In Slack, Claude joins as a team member w",
+          "link": "https://nitter.net/kilocode/status/2070154194196066555#m",
+          "date_utc": "2026-06-25T14:36:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070154196175699968%2Fywf4tfW2%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/media%2FHLg9iF5XYAAhaS7.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://kilo.ai/slack",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The model you pick matters less than whether the routing fits the task. Running a frontier model on a variable rename costs more for the same result. Most agent work is trivial edits that never needed the big model. Routing by task complexity is the part that was missing.",
+          "link": "https://nitter.net/kilocode/status/2069849776703537391#m",
+          "date_utc": "2026-06-24T18:26:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Hundreds of thousands of organizations across India are already building on @awscloud . Today we're adding $13 billion in AI and cloud infrastructure to keep pace with them, bringing @amazon 's total to more than $21 billion between 2026 and 2030. We’re expanding our Mumbai and Hyderabad Regions, giving customers access to the most advanced AI technologies: aboutamazon.com/news/company…",
+          "link": "https://nitter.net/mattsgarman/status/2070134220526137415#m",
+          "date_utc": "2026-06-25T13:17:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLqUnpvWoAAt2rl.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.aboutamazon.com/news/company-news/amazon-india-investment?&utm_term=36",
+              "content": "Amazon announces it will invest $48 billion in India by 2030 News Company news Amazon announces it will invest $48 billion in India by 2030 Since launching in India, Amazon has digitized 12 million small businesses and supported 2.8 million jobs. Share Written by Amazon Staff 2 min read Key takeaways Amazon has announced an additional $13 billion to expand and support AI and cloud infrastructure in India. The announcement builds on a $35 billion investment in the country announced by Amazon in 2025. Amazon will also launch more than 20 new fulfillment centers and over 100 new delivery stations across India this year. Amazon’s cumulative investments in India from 2010-2030 stand at over $88 billion. Amazon has announced plans to invest an additional $13 billion to expand AI and cloud infras"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "They spent $5.5M of your tax dollars on this. For 100 beds. That's $55K per bed. If you were to simply give somebody $55K, they could rent out a room in Van Nuys for 5 years. But then no contractor or NGO is getting their beak wet on the transaction. See the scam yet? ABC7 Eyewitness News (@ABC7) Van Nuys opens new tiny home village with 100 beds for people experiencing homelessness abc7ne.ws/QzBN6q Link Van Nuys opens new tiny home village with 100 beds for people experiencing homelessness A new tiny home village with 50 units and 100 beds has opened in Van Nuys, marking the fourth such site ",
+          "link": "https://nitter.net/spencerpratt/status/2070186508381024737#m",
+          "date_utc": "2026-06-25T16:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrGqNXbwAA_Xgg.png",
+            "https://nitter.net/pic/card_img%2F2069827733840879616%2FZyKTMsku%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://abc7ne.ws/QzBN6q",
+              "content": "Van Nuys opens new tiny home village with 100 beds for people experiencing homelessness - ABC7 Los Angeles 24/7 Live Los Angeles Orange County Inland Empire Ventura County California SOCIETY Van Nuys opens new tiny home village with 100 beds for people experiencing homelessness By Ashley Mackey Wednesday, June 24, 2026 4:57PM VAN NUYS, LOS ANGELES (KABC) -- A new tiny home village with 50 units and 100 beds has opened in Van Nuys, marking the fourth such site in Council District 2 and expanding efforts to transition people out of homelessness. The project, supported by state grants for construction and funded by the city for daily operations, is designed as a temporary step toward permanent housing, according to Los Angeles City Councilmember Adrin Nazarian. This is not a permanent solutio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
