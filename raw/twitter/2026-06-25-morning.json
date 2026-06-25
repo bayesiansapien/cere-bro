@@ -1,0 +1,1219 @@
+{
+  "date": "2026-06-25",
+  "slot": "morning",
+  "scraped_ist": "2026-06-25 09:07",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude gets enough access to be useful in shared work, and admins control exactly where that stops. More on the blog: claude.com/blog/agent-identi… Link Agent identity: a new access model for autonomous, team-wide AI | Claude How Claude Tag’s agent identity access model works, and best practices for configuring it in your team’s workspace. claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2069895390716104988#m",
+          "date_utc": "2026-06-24T21:28:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069481893389893632%2FRabgwTNd%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://claude.com/blog/agent-identity-access-model",
+              "content": "Agent identity: a new access model for autonomous, team-wide AI | Claude by Anthropic Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Contact sales Contact sale"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "You get one identity to audit. Every action shows up in each connected system's own logs under Claude's account. Revoke once, and access ends everywhere. Shared channels never expose anyone's private files.",
+          "link": "https://nitter.net/ClaudeDevs/status/2069895389415874907#m",
+          "date_utc": "2026-06-24T21:28:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Admins provision it once and scope what it can reach per channel: broad read access in shared spaces, sensitive tools only where a few people are cleared. Noah walks you through the setup in this video: Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2069895387784380833#m",
+          "date_utc": "2026-06-24T21:28:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069893041666899968%2Fimg%2F8yHTox9UDl6l56av.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "DMs are the simple case: Claude runs on your own connectors, with your name. That's where personal email and your calendar belong. Channels are where agent identity kicks in. Claude gets its own Linear account, its own GitHub account, its own service account on your warehouse.",
+          "link": "https://nitter.net/ClaudeDevs/status/2069895380154884155#m",
+          "date_utc": "2026-06-24T21:28:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Acting as the user works fine for a single personal assistant, but Claude Tag can be multiplayer. When three people are in one thread, there's no \"right\" set of permissions to borrow. So in channels, Claude acts as itself. In DMs, where it's just you, Claude acts as you.",
+          "link": "https://nitter.net/ClaudeDevs/status/2069895378544267619#m",
+          "date_utc": "2026-06-24T21:28:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "When Claude is working in a channel with four people, whose credentials does it use? The answer: its own. When tagging Claude, Claude gets provisioned like any other teammate, with its own credentials. We call this access model \"agent identity\". Here's how it works: 🧵 Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2069895377080443271#m",
+          "date_utc": "2026-06-24T21:28:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069891113947996160%2Fimg%2FC3gCzMfAafQNQHNe.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Check out the article: scientificamerican.com/artic… Link Dmitrii Kochkov: Young American Scientist using AI to better understand extreme weather Making artificial-intelligence tools to predict what climate change will mean for extreme weather scientificamerican.com",
+          "link": "https://nitter.net/GoogleResearch/status/2069909634144735297#m",
+          "date_utc": "2026-06-24T22:24:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069780522658570240%2FB_HcBkCn%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.scientificamerican.com/article/dmitrii-kochkov/",
+              "content": "Dmitrii Kochkov: Young American Scientist using AI to better understand extreme weather | Scientific American Skip to main content Scientific American June 16, 2026 Dmitrii Kochkov Making artificial-intelligence tools to predict what climate change will mean for extreme weather By Andrea Thompson Jessine Hein; With special thanks to the Exploratorium, San Francisco, Calif. Join Our Community of Science Lovers! Sign Up for Our Free Daily Newsletter Enter your email I agree my information will be processed in accordance with the Scientific American and Springer Nature Limited Privacy Policy . We leverage third party services to both verify and deliver email. By providing your email address, you also consent to having the email address shared with third parties for those purposes. Sign Up Qui"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Google researcher Dmitrii Kochkov was recently featured in @sciam 's inaugural Young American Scientists list, as one of 28 early-career researchers whose work is shaping the future of science and society. He helped build the seasonal forecasting models that allowed Indian farmers to predict monsoons up to one month in advance — which could help ensure food security as climates change. #SciAmYoungScientists piped.video/watch?v=f_1KQoKS… Link He predicts the weather with machine learning - Dmitrii Kochkov -... As a child in Petrozavodsk, Russia, Dmitrii Kochkov loved solving g... youtube.com",
+          "link": "https://nitter.net/GoogleResearch/status/2069909447011701082#m",
+          "date_utc": "2026-06-24T22:24:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069868756449570816%2Fp56IfN5R%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=f_1KQoKS-Xc",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Read more about our progress in the blog by @ymatias , GM of Google Research Google Crisis Resilience Lead: goo.gle/3SJ928x Link Towards a world where no one is surprised by a natural disaster An overview of Google’s ongoing crisis resilience efforts and mission, shared at the AI for the Planet event. blog.google",
+          "link": "https://nitter.net/GoogleResearch/status/2069839224615133625#m",
+          "date_utc": "2026-06-24T17:45:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069826751996526592%2Fcbodxuqu%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/3SJ928x",
+              "content": "How Google supports crisis response in natural disasters Skip to main content The Keyword Towards a world where no one is surprised by a natural disaster Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cl"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "At yesterday’s AI for the Planet event, we shared the progress we’ve made toward building AI tools to support our vision for crisis resilience efforts: a world where no one is surprised by a natural disaster. We’ve made critical information accessible via Google products that are used by billions, and partnered with governments and organizations around the world to help communities prepare for and respond to these crises. Yossi Matias (@ymatias) Our north star for Crisis Resilience✨: no one should be surprised by a natural disaster. At today’s AI for the Planet event, we shared the progress of",
+          "link": "https://nitter.net/GoogleResearch/status/2069838942074294646#m",
+          "date_utc": "2026-06-24T17:43:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLi3FJxXsAAnohn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today we present a study on how reasoning unlocks parametric knowledge in LLMs. We identify two key driving mechanisms, a computational buffer effect and factual priming, and suggest ways that can help build more reliable models. Learn more: goo.gle/44taazO",
+          "link": "https://nitter.net/GoogleResearch/status/2069827086014087603#m",
+          "date_utc": "2026-06-24T16:56:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmAq4qbkAAYh5d.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://goo.gle/44taazO",
+              "content": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shapin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "This tempo Didn’t realize how slow the original was. Video",
+          "link": "https://nitter.net/NICKIMINAJ/status/2069946078968127611#m",
+          "date_utc": "2026-06-25T00:49:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069946002577276928%2Fimg%2FAykKE-pKRqq_VnRV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "Which male rapper did I originally write that song for? #NickiTrivia #YouTheBoss And actually I didn’t write it down I freestyled all of it in the booth. The chorus, the bridge, the outro. There were no raps on it when I left the studio. Who’d I write it for give it to?",
+          "link": "https://nitter.net/NICKIMINAJ/status/2069925342538768721#m",
+          "date_utc": "2026-06-24T23:27:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "BlackMedia__ (@BlackMedia___) Nicki Minaj quotes her viral “You the Boss” trend: “I’ll waaaAaaaaAaaaAaaatch you play.” The sound is dominating social media, with thousands of new posts daily. Video — https://nitter.net/BlackMedia___/status/2069911036652671447#m",
+          "link": "https://nitter.net/NICKIMINAJ/status/2069923803069903298#m",
+          "date_utc": "2026-06-24T23:21:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069910956629426176%2Fimg%2Fbtgmkc1p8id3q17e.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "I’ll waaaAaaaaAaaaAaaaatch you play",
+          "link": "https://nitter.net/NICKIMINAJ/status/2069907135211970843#m",
+          "date_utc": "2026-06-24T22:14:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I have tested a lot of AIs (8,800+ companies on my AI lists here on X). This is one that does the work instead of talking about it. I put an ai employee into my Slack and gave it one real task from my week, not a demo prompt. A month of AI notes, saved threads, demo recordings, and inbox scraps, scattered everywhere. I asked for one thing: turn it into a finished, publishable briefing I could ship. I described the outcome. It did not hand me advice. It read the context, used the tools it already had, and shipped the finished deliverable in the channel. The screenshot is the real reply. That is",
+          "link": "https://nitter.net/Scobleizer/status/2069963266990940411#m",
+          "date_utc": "2026-06-25T01:57:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLn5pVOakAAYwPO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Get started with Viktor free. $100 in credits, no card: ref.viktor.com/robert-scoble… Link Viktor | Not a tool. A hire. Viktor is the AI employee that lives in Slack and Microsoft Teams, connects to 3,200+ tools, and does the work. Reports, dashboards, code, campaigns. Start free. viktor.com",
+          "link": "https://nitter.net/Scobleizer/status/2069963915014857032#m",
+          "date_utc": "2026-06-25T02:00:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2067601107610648576%2FNG0hHu-D%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://ref.viktor.com/robert-scoble_x_3",
+              "content": "Viktor | Not a tool. A hire. Product Pricing FAQ Security Enterprise Resources Blog Research Case Studies Changelog Solutions Integrations Use Cases Get Started for Free Start free Not a tool. A hire. Hire Viktor run your company like it&#x27;s 2x the size. The AI employee that lives in Slack and Teams. Hire Viktor run your company like it&#x27;s 2x the size. The AI employee that lives in Slack and Teams. Get Started for Free Contact Sales Up to $100 in free credits No credit card required SOC 2 compliant Workspace Channels # results # general # finance # eng # growth # product # support # results Maya Chen 8:01 AM @ Viktor pull the weekly numbers from Stripe, GA4, and HubSpot and post the recap. Jordan Ellis 8:02 AM flag anything that moved more than 10% week over week Viktor App 8:06 AM "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Can you take rejection 10 times and still try again? Zach AL (@zachdotai) I applied to YC 10 times and failed. If you know me then you will know how important this has been for me. I grew up reading @paulg 's essays. And watching startup school videos was the reason I wanted to do a startup in the first place. Although I have always had a side hustle, I could never go all in because my dad (who passed away 3 years ago) was diagnosed with cancer. So I had to go all in on my dad's health instead. And I would talk to him about our plans and ambitions and he would get really excited with me. He al",
+          "link": "https://nitter.net/Scobleizer/status/2069934010122547398#m",
+          "date_utc": "2026-06-25T00:01:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmcgMUaoAEm2Su.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Aidan is building a new kind of park. One that is augmented. Last year I got to play in his early prototype and it was a lot of fun. Some people dream of a better reality and go build it. Aidan is one of those. aidan (@Aidan_Wolf) The people dunking on SPECS aren't wrong - the world's best social computer is being sold as a personal one you use alone in your room I always imagined walking around my city stumbling onto photos and art other people left behind. the invisible world we never get to see made visible in the places it matters most I realized that experience wasn't going to be there da",
+          "link": "https://nitter.net/Scobleizer/status/2069901592531440102#m",
+          "date_utc": "2026-06-24T21:52:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069859035583754240%2Fimg%2FjCBWI0Ko-UrLrgAE.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://www.speeks.io",
+              "content": "Speeks — We seek Speeks. Speeks Made for SPECS Filter Select all Deselect all 0 Speeks Certain areas are for SPECS Early Adopters only! Latest Speeks Drop a Speek My Seeks 0 Drop a file in PNG , GLB , MP3 , PDF , MP4 , and more any format · 5MB max My Speeks 0 Processing USDZ… converting to a viewable model Floating On ground Add Audio Description 0:00 Listening… Stop × Place on map Cancel WELCOME TO SPEEKS Put yourself on the map Drop a selfie right here at Snap HQ — it'll be waiting on the map for the SPECS team to find IRL this Fall. Tap \"Turn on camera\" to start — your browser will ask permission first. Turn on camera Upload a photo Not now My Seeks ← Back @user Search Drop My Speeks 0 Welcome Selfie Cancel Continue × left by early adopter 0 seeks · 0 views Play voice note Sealed until"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Some see it: Robert Scoble (@Scobleizer) Sabrina is way better at selling us on augmented reality glasses than anyone else in the business I've seen. If I ran Snap I would have launched only with her and kept all the other idiots away. — https://nitter.net/Scobleizer/status/2067872340487381425#m",
+          "link": "https://nitter.net/Scobleizer/status/2069902332700369078#m",
+          "date_utc": "2026-06-24T21:55:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Silicon Valley transportation innovation. The company started by driving its robot around Stanford Linear Accelerator, which is where the physicists discovered quarks. It is an unusal vehicle, which gives us a taste of the future of vehicle design as autonomy comes to more people. Zoox (@zoox) Introducing the next evolution of the Zoox robotaxi. Refined through testing, early deployments, and feedback from 500,000+ riders. More features. More comfortable. Built for scale. And now, moving into large-scale production. Find out more: zoox.com/journal/the-updated… Video — https://nitter.net/zoox/s",
+          "link": "https://nitter.net/Scobleizer/status/2069899952541860292#m",
+          "date_utc": "2026-06-24T21:46:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069798303534120960%2Fimg%2FuLdFneD_DD9hit9P.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A mile long building underneath our freeway and right next to Sand Hill Road where most of the VCs have offices. Good place to start a new transportation company.",
+          "link": "https://nitter.net/Scobleizer/status/2069900354314273152#m",
+          "date_utc": "2026-06-24T21:47:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Yesterday @hf0 held its demo day. I've met billionaires who only go to its demo day. I've gone now to three of its demo days, and the companies it brings are generally a cut above others. Here's aiosmedical.com/ and its founder, @rich_cartwright presenting it. I watched him work the booth after, meeting investor after investor. The demo worked, got many to come to meet him. He's building an AI Doctor that already is seeing significant sales in Europe. I'll be bringing more of the 14 companies to you as they come out of stealth. Video",
+          "link": "https://nitter.net/Scobleizer/status/2069893234567131362#m",
+          "date_utc": "2026-06-24T21:19:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069883490112618496%2Fimg%2FZQXkb2rHa4kk-UQv.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.aiosmedical.com/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Anyone who has remodeled a home knows what a pain in the behind it is. Michal Cieplinski knows that better than anyone, started: hijenny.ai which uses AI to take care of everything. Finding workers to do your kitchen. Arranging it all. Letting you visualize what your remodeled home will look like. And more. Last night I met Hi Jenny's founder and had a fun conversation at @hf0 's demo day, where we saw 14 new startups get born. Video",
+          "link": "https://nitter.net/Scobleizer/status/2069879825905717277#m",
+          "date_utc": "2026-06-24T20:26:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069879034960621568%2Fimg%2FuqF8fZmoL5GVF3ur.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://hijenny.ai",
+              "content": "HiJenny 0 % × I&#x27;m a Homeowner I&#x27;m a Contractor Home FAQs Contact Chat with Jenny Sign in I&#x27;m a Homeowner I&#x27;m a Contractor Sign in Sign in Your home, just how you imagined. From first idea to final payment, Jenny helps you get it right. Start my home project MEET JENNY Your home project partner , every step From scoping the work to managing the build, Jenny keeps everything clear and connected. Gain clarity Talk through ideas before calling contractors Stay on track Plan realistic budgets and timelines All in one place Manage bids, invoices, and decisions in one place Hire with trust Compare vetted contractors side by side Built to last Every decision saved to your home, forever Gain clarity Talk through ideas before calling contractors Stay on track Plan realistic budge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The doctor is in. DrOzCMS (@DrOzCMS) The best prescription for a fraudster? Prosecution. Video — https://nitter.net/DrOzCMS/status/2069878339569848796#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069880696974315523#m",
+          "date_utc": "2026-06-24T20:29:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069877597186433024%2Fimg%2Fyl_WLdaOx-Licsh7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Two weeks, two most-wanted fraudsters. Stay tuned... 👀 FBI (@FBI) . @FBIDirectorKash : \"In just over two weeks, this is the second Most Wanted Fraudster arrested on the FBI’s list led by Vice President Vance and the White House Task Force to eliminate fraud.\" foxnews.com/us/fbi-captures-… — https://nitter.net/FBI/status/2069858362456416623#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069874438984597739#m",
+          "date_utc": "2026-06-24T20:04:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmdNb0WMAE5DL-.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://foxnews.com/us/fbi-captures-12b-medicare-fraud-fugitive-philippines-second-arrest-wanted-fraudsters-list",
+              "content": "FBI captures $1.2 billion Medicare fraud fugitive in the Philippines | Fox News Fox News Media Fox News Media Fox Business Fox Nation Fox News Audio Fox Weather Outkick Fox Noticias Books Fox News U.S. Blue City Crime Campus Radicals Border Crisis True Crime Politics Donald Trump Senate House Judiciary Foreign Policy Fox News Polls Elections World U.N. Conflicts Terrorism Disasters Global Economy Environment Religion Scandals Opinion Media Fox Nation Coverage Entertainment Taylor Swift Royal Families Country Music Sports FIFA WORLD CUP 26 NFL College Football MLB NASCAR INDYCAR NBA NHL Golf Tennis UFC WWE OutKick Lifestyle Travel Food Drink Faith Discovery Games Quizzes Health Longevity Brain Health Weight Loss Sleep Health Cancer News Mental Health Heart Health Healthy Living Video AI Mor"
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "$200 MILLION in 60 days. We’re not just punishing fraudsters. We’re preventing HUNDREDS OF MILLIONS of taxpayer dollars from ever going out the door and into the hands of criminals. Great work by @EDSecMcMahon and @usedgov . 🇺🇸 U.S. Department of Education (@usedgov) The Trump Administration prevented nearly $200 MILLION from falling into the hands of fraudsters in just 60 DAYS… and we’re just getting started! foxnews.com/media/trump-admi… — https://nitter.net/usedgov/status/2069846373692735549#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069867887586586688#m",
+          "date_utc": "2026-06-24T19:38:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmSESXWgAA7Z8b.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.foxnews.com/media/trump-admin-requiring-government-issued-id-apply-federal-aid-saved-200-million-fraud-2-months",
+              "content": "Education Department blocks $200 million in FAFSA fraud with ID rule | Fox News Fox News Media Fox News Media Fox Business Fox Nation Fox News Audio Fox Weather Outkick Fox Noticias Books Fox News U.S. Blue City Crime Campus Radicals Border Crisis True Crime Politics Donald Trump Senate House Judiciary Foreign Policy Fox News Polls Elections World U.N. Conflicts Terrorism Disasters Global Economy Environment Religion Scandals Opinion Media Fox Nation Coverage Entertainment Taylor Swift Royal Families Country Music Sports FIFA WORLD CUP 26 NFL College Football MLB NASCAR INDYCAR NBA NHL Golf Tennis UFC WWE OutKick Lifestyle Travel Food Drink Faith Discovery Games Quizzes Health Longevity Brain Health Weight Loss Sleep Health Cancer News Mental Health Heart Health Healthy Living Video AI Mor"
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "🚨 @VP ’s Fraud Task Force and the @FBI are crushing fraudsters daily. If you steal from American taxpayers, there is NOWHERE you can hide. 🇺🇸 FBI Tampa (@FBITampa) We've updated the FBI Most Wanted Fraudsters list following the arrest of TWO subjects in just TWO weeks! Added to the list are Emylee Thai and Khalid Ahmed Satary. Both have been on the run since 2022 and both are accused of health care fraud conspiracy. If you have information that can help locate them, go to tips.fbi.gov or 1-800-CALL FBI. — https://nitter.net/FBITampa/status/2069811594477875538#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069844267040706725#m",
+          "date_utc": "2026-06-24T18:05:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLlyrSVWcAAV54g.png",
+            "https://nitter.net/pic/media%2FHLlyrTZWEAA0EHF.png"
+          ],
+          "articles": [
+            {
+              "url": "http://tips.fbi.gov",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“We’re doing this to save these programs from the fraud that is bleeding them dry, that will make them unavailable in the future for future generations.” - @AFergusonFTC during yesterday’s crackdown on fraudsters 🇺🇸 Video",
+          "link": "https://nitter.net/WHFraudTF/status/2069839391556546637#m",
+          "date_utc": "2026-06-24T17:45:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069444435860217856%2Fimg%2F8vq__tKEVO7tapc7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The Trump-Vance Administration is protecting our MOST VULNERABLE citizens by eliminating fraud. 💪🇺🇸 Sean Hannity 🇺🇸 (@seanhannity) . @FBIDirectorKash - \"We will chase them down, just like we chase down terrorists.\" Video — https://nitter.net/seanhannity/status/2069746004140691547#m",
+          "link": "https://nitter.net/WHFraudTF/status/2069818015135191358#m",
+          "date_utc": "2026-06-24T16:20:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLk5kAAbcAAfbk1.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "RIP, no future in Mojo now. Qualcomm is not a good steward for open source software. Modular raised too much money, should have stayed leaner to have a chance at winning. Modular (@Modular) We’re excited to announce that Modular has entered an agreement to be acquired by @Qualcomm . The future of unified compute has never been stronger. Read the full announcement: modular.com/blog/qualcomm-to… Link Modular: Qualcomm to Acquire Modular NEW YORK – June 24, 2026 – Qualcomm Incorporated (NASDAQ: QCOM), a connected computing leader at the center of the AI era, today announced that it has reached an",
+          "link": "https://nitter.net/__tinygrad__/status/2069899144966312043#m",
+          "date_utc": "2026-06-24T21:43:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069752884049367040%2FQqBKZ5b_%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://www.modular.com/blog/qualcomm-to-acquire-modular?utm_source=x&utm_campaign=qualcomm",
+              "content": "Modular: Qualcomm to Acquire Modular Now serving MiniMax-M3! Request access today. Read More → Back Product Solutions Resources Open Source Docs Blog Company Request a Demo Sign up Inference Products Shared Endpoints Access frontier models via an API Dedicated Endpoints Mission critical reliability Custom models Your model, peak performance Deployment Options Our Cloud Fully managed, pay by usage Your Cloud Modular stack in your VPC Pricing Flexible plans for every team Models DeepSeek V4 Pro FLUX.2 Klein 9B GLM-5.2 Kimi K2.6 MiniMax M3 View All Text to audio Turn text into natural speech Image generation Generate images from text prompts Code generation Generate production-ready code Video generation Generate video from text + image Agentic Deploy AI agents anywhere Custom Models Kernel-l"
+            },
+            {
+              "url": "http://www.modular.com/blog/qualcomm-to-acquire-modular?utm_source=x&amp;utm_campaign=qualcomm",
+              "content": "Modular: Qualcomm to Acquire Modular Now serving MiniMax-M3! Request access today. Read More → Back Product Solutions Resources Open Source Docs Blog Company Request a Demo Sign up Inference Products Shared Endpoints Access frontier models via an API Dedicated Endpoints Mission critical reliability Custom models Your model, peak performance Deployment Options Our Cloud Fully managed, pay by usage Your Cloud Modular stack in your VPC Pricing Flexible plans for every team Models DeepSeek V4 Pro FLUX.2 Klein 9B GLM-5.2 Kimi K2.6 MiniMax M3 View All Text to audio Turn text into natural speech Image generation Generate images from text prompts Code generation Generate production-ready code Video generation Generate video from text + image Agentic Deploy AI agents anywhere Custom Models Kernel-l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Why we found this a good project to back: It is an incredibly noble goal (end respiratory disease) - with extremely diffuse benefits that are hard to capture (so tricky for existing captial markets), with specific uses of money (fund/prove out xyz tech categories). In the best case - it becomes self sustaining because the equity investments are right, but it doesn't need to be if that'll be the most effective use of the capital for the goal.",
+          "link": "https://nitter.net/_sholtodouglas/status/2069820237214797882#m",
+          "date_utc": "2026-06-24T16:29:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "I (and a bunch of my colleagues) donated to this. I think it is a really excellent initiative. TLDR: - Equity investments in broad spectrum preventatives that are ready to get to phase 2 within 4 years - Grants for basic research that isn't yet ready for commercial viability - Prove out air cleaning tech (like far-uvc), and make it extremely obvious whether it should be adopted in schools, workplaces etc. Nan Ransohoff (@nanransohoff) Today we're launching Intercept: a $500M philanthropic initiative to make respiratory infections, like the common cold and flu, a thing of the past. We treat res",
+          "link": "https://nitter.net/_sholtodouglas/status/2069820234601742485#m",
+          "date_utc": "2026-06-24T16:29:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "She’s like warren buffet. Trump Girl (@TrumpGirlLove) Salary: $285,000 Net Worth: $67 Million This is the woman who constantly screams about taxing the rich and how the system is rigged, while she sits on $67 million from a government salary. Straight-up hypocrisy. She preaches “eat the rich” but became one of them on your dime. Rules for thee, not for her. — https://nitter.net/TrumpGirlLove/status/2069686270599598407#m",
+          "link": "https://nitter.net/brivael/status/2069989731157639520#m",
+          "date_utc": "2026-06-25T03:43:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLkAsdFXIAACemu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Negroni is a super tasty cocktail. OMG I just said the N w. OMG I’ll get canceled? Should I apply to McDonald?",
+          "link": "https://nitter.net/brivael/status/2069977387815899410#m",
+          "date_utc": "2026-06-25T02:54:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLoJdiDaYAAGo35.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "There is absolutely no racism in Elon Musk ZaxtR (@AmX_ZaxTr) Elon Musk is not racist at all. — https://nitter.net/AmX_ZaxTr/status/2069950870473613456#m",
+          "link": "https://nitter.net/brivael/status/2069958633245602271#m",
+          "date_utc": "2026-06-25T01:39:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnxWPPXcAETO7f.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Des gamins qui s’amusent. La France apaisée de Macron. Encore combien de temps ? Video",
+          "link": "https://nitter.net/brivael/status/2069938536158212595#m",
+          "date_utc": "2026-06-25T00:19:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069882196043718656%2Fimg%2FBV38Sq0lxmOKHaPR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I’m French. I’m proud to see American citizens who are proud to be American. 🇺🇸❤️ Republicans (@Republicans) Democrats hate America. Republicans love America. You have the power to choose. Choose patriotism 🇺🇸 — https://nitter.net/Republicans/status/2069930965221150794#m",
+          "link": "https://nitter.net/brivael/status/2069938141608436085#m",
+          "date_utc": "2026-06-25T00:18:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "???? Libs of TikTok (@libsoftiktok) USAID paid for the college tuition of an Al-Qaeda terrorist linked to 9/11 What the fuck — https://nitter.net/libsoftiktok/status/2069855041486238094#m",
+          "link": "https://nitter.net/brivael/status/2069937650480623679#m",
+          "date_utc": "2026-06-25T00:16:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Encore combien de temps???? David J Harris Jr (@DavidJHarrisJr) 🚨WOW: In LONDON, an African attacks a WHITE man the Police grab arrest the WHITE guy. — https://nitter.net/DavidJHarrisJr/status/2069850544571634056#m",
+          "link": "https://nitter.net/brivael/status/2069936681843929144#m",
+          "date_utc": "2026-06-25T00:12:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLl44FuXoAEzzj7.jpg",
+            "https://nitter.net/pic/media%2FHLl44GwWYAAwfLW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I love Texas. Republicans (@Republicans) 67% of Texans are Christians. James Talarico thinks they are \"violent\" and \"damaging\" because of their faith. Texas is staying red. — https://nitter.net/Republicans/status/2069838921647751318#m",
+          "link": "https://nitter.net/brivael/status/2069936542240661654#m",
+          "date_utc": "2026-06-25T00:11:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmLepRX0AADn3t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) It needs to be solved. First principles thinking. Why, why, why, why, why. Find the causes. Remove the causes. Clean the effects. Punish the criminals. And it will be fixed. — https://nitter.net/brivael/status/2069936052564103572#m",
+          "link": "https://nitter.net/brivael/status/2069936369317949792#m",
+          "date_utc": "2026-06-25T00:11:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnkKBMbIAA_j8I.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "It needs to be solved. First principles thinking. Why, why, why, why, why. Find the causes. Remove the causes. Clean the effects. Punish the criminals. And it will be fixed. Dr Taylor Marshall™️ (@TaylorRMarshall) Imagine saving money for 5 years to finally see Rome, and when you get to the Trevi Fountain, you have to watch this.... Europe has no idea what they have done to themselves: Video — https://nitter.net/TaylorRMarshall/status/2069857717938802769#m",
+          "link": "https://nitter.net/brivael/status/2069936052564103572#m",
+          "date_utc": "2026-06-25T00:09:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2069748423364866048%2Fpu%2Fimg%2FGn_TaiPAC6mtsUZQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "“Obsession” Lmao Forbes (@Forbes) Obama Calls Trump’s ‘Obsession’ With Him ‘A Strange Thing’ go.forbes.com/gt_rMJ — https://nitter.net/Forbes/status/2069873220107243742#m",
+          "link": "https://nitter.net/brivael/status/2069935561385947641#m",
+          "date_utc": "2026-06-25T00:07:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmquclWQAA9y2d.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://go.forbes.com/gt_rMJ",
+              "content": "Obama Blasts Trump’s ‘Obsession’ With Him Sign Up For Newsletters Games Share a News Tip Featured Featured Breaking News White House Watch Daily Cover Stories Making It Their Way: Six TikTok Creators On Finding A High-Quality Content Strategy That Pays Off | Paid Program The Hidden Tax On Enterprise AI: 1 In 5 Workers Lose A Full Day Every Week | Paid Program Silicon Steel Editorial Video Series Turning Pressure Into Progress For Your Small Business | Paid Program Uniting To Advance Blood Cancer Research | Paid Program The Enterprise AI Shortcut: Why Co-Innovation Is Setting A New Speed For Adopting and Operationalizing AI | Paid Program The Toughest Problems Are Never Solved Alone | Paid Program How Chief Marketing Officers Are Scaling AI At Speed — While Preserving Brand Trust AI’s Nuanc"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Polymarket (@Polymarket) BREAKING: Anthropic accuses Alibaba of using nearly 25,000 fraudulent accounts to extract Claude AI model capabilities. — https://nitter.net/Polymarket/status/2069892570214179081#m",
+          "link": "https://nitter.net/brivael/status/2069932872828657898#m",
+          "date_utc": "2026-06-24T23:57:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLng-mNawAEE-6f.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "3 communists ᗰᗩƳᖇᗩ (@LePapillonBlu2) Here’s a Christian, a Muslim, and a Jew working together for the people. 🥰 Video — https://nitter.net/LePapillonBlu2/status/2069870753365754059#m",
+          "link": "https://nitter.net/brivael/status/2069932669866242249#m",
+          "date_utc": "2026-06-24T23:56:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069870685829160960%2Fimg%2FgBJCBnL2Lqfy1qxV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bullshit David J Harris Jr (@DavidJHarrisJr) Do you believe this?😂 — https://nitter.net/DavidJHarrisJr/status/2069888295346331843#m",
+          "link": "https://nitter.net/brivael/status/2069932566782886162#m",
+          "date_utc": "2026-06-24T23:55:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLl5cSvXsAAwJU4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Petit message à tous ceux de la tech qui détournent le regard par peur qu'on les traite de « raciste » : Lisez Suicidal Empathy de Gad Saad. #1 New York Times bestseller. Vous parlez tous anglais — vous n'avez pas l'excuse du Français lambda à qui on n'a jamais donné les outils. Donc vous n'avez aucune excuse. Arrêtez d'être lâches. Vous avez fait les meilleures écoles. Vous êtes nés du bon côté. Vous avez la sécurité, le réseau, l'argent. Et c'est exactement cette lâcheté de privilégiés qui vous perdra. Lever des millions en VC et aller manger des petits fours avec",
+          "link": "https://nitter.net/brivael/status/2069930300101292395#m",
+          "date_utc": "2026-06-24T23:46:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "You can now delegate tasks to Cursor directly from Notion. It's built on the Cursor SDK, so every cloud agent runs on the same models, harness, and runtime that power Cursor. @​Cursor on any spec or assign it a task to open a PR your whole team can review. Video",
+          "link": "https://nitter.net/cursor_ai/status/2069872515548340407#m",
+          "date_utc": "2026-06-24T19:57:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069867294407483392%2Fimg%2FHbS08MxxxbPjgmHJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "More on how Notion built it with the Cursor SDK: cursor.com/blog/notion Link How Notion used the Cursor SDK to embed coding agents · Cursor You can now delegate tasks to Cursor directly from Notion. Notion built the integration in weeks using the Cursor SDK. cursor.com",
+          "link": "https://nitter.net/cursor_ai/status/2069872516945113113#m",
+          "date_utc": "2026-06-24T19:57:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069867927550205952%2FEFmLjsVv%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://cursor.com/blog/notion",
+              "content": "How Notion used the Cursor SDK to embed coding agents · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / product Jun 25, 2026 · product How Notion used the Cursor SDK to embed coding agents Roshan Sadanani · 3 min read Table of Contents ↑ Embedding agents Using the SDK Customizing agents You can now delegate tasks to Cursor directly from Notion . Tag Cursor in a doc, mention it in a thread, or assign it an issue in your database. Cursor takes the work end to end: planning, building, testing, and verifying its work before opening a PR. Notion stood up this integration in just a fe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "will be speaking about automated AI research at @aiDotEngineer we believe frontier models need the right environments to evolve and do research, we found that speedruns like nanogpt by @karpathy @kellerjordan0 et al are a simple but very effective setup for evaluating research capabilities, and potentially for training and discovery as well oh and i should (hopefully) have some new interesting results to show, super excited for this!",
+          "link": "https://nitter.net/eliebakouch/status/2069945106904518948#m",
+          "date_utc": "2026-06-25T00:45:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnn8WZbUAAg11X.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "output token as x axis show a gap in terms of reasoning efficiency (when you look at output tokens you need to factor in model size btw)",
+          "link": "https://nitter.net/eliebakouch/status/2069907361016504453#m",
+          "date_utc": "2026-06-24T22:15:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnJhdka4AA_1sA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "wow GLM5.2 is at the same level as opus 4.8 in terms of cost efficiency on cursorbench Lee Robinson (@leerob) You can now try GLM 5.2 in Cursor! Excited to see more useful open models, thank you to Fireworks for partnering here. Results from our evals ↓ — https://nitter.net/leerob/status/2069904679551611080#m",
+          "link": "https://nitter.net/eliebakouch/status/2069906814116983212#m",
+          "date_utc": "2026-06-24T22:13:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnJD5NbEAAiI1K.jpg",
+            "https://nitter.net/pic/media%2FHLmiEVlXcAAOt_A.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "reason being anthropic team using slack, not only karpathy",
+          "link": "https://nitter.net/eliebakouch/status/2069640962486448589#m",
+          "date_utc": "2026-06-24T04:37:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i think this is the reason why the claude desktop app is behind codex, and it's totally fine, i think slack is actually a great way for \"teams of humans\" to interact with \"teams of agents\" Andrej Karpathy (@karpathy) The basic idea is easy and v0 is a hackathon project. The product here is a lot closer to *it actually works*, for enterprise grade deployments, and after quite a bit of internal experimentation and iteration. It’s kind of hard to describe other than (per the post) it’s writing majority of code, it’s deeply integrated, multiplayer, and it starts to feel like everyone is a manager.",
+          "link": "https://nitter.net/eliebakouch/status/2069639159371936087#m",
+          "date_utc": "2026-06-24T04:30:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Auto Efficient vs Claude Opus 4.8. @coldopn ran them both through Terminal Bench 2.0 on Kilo's agent harness. 445 tasks, 5 attempts per model, real costs measured end to end. The result is one of the better cost-vs-performance stories we've seen.",
+          "link": "https://nitter.net/kilocode/status/2069928636191330325#m",
+          "date_utc": "2026-06-24T23:40:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLndD2kXoAAKS_M.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The Earth animation isn't a one-off. Across the one-shot tests, the pattern held up: Blocks physics sim: $0.05 vs $1.31. Sports car visualizer: $0.17 vs $0.35. Basketball game: $0.09 vs $0.29. For exploratory and straightforward coding work, that gap adds up fast.",
+          "link": "https://nitter.net/kilocode/status/2069928639878042076#m",
+          "date_utc": "2026-06-24T23:40:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLndD7WXMAABQRW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Here is the best part: all of this is live right now. Auto Efficient routes each request to the model that fits the work, so you get results like these without managing model selection yourself. We showed our work: kilo.codes/YwtVPzA Link Auto Efficient vs Claude Opus 4.8 — KiloBench Terminal Bench 2.0 Auto Efficient delivers 69% of Claude Opus 4.8 completion at 77% lower cost. See the full KiloBench Terminal Bench 2.0 comparison: completion rate, cost per attempt, cost per task, and tasks solved. kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2069928641354424354#m",
+          "date_utc": "2026-06-24T23:40:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2068463816610832384%2Fn5kdZbrQ%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/YwtVPzA",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Good thread, and the risk is real. It's exactly why model-neutral and open source matter in this day and age. It's also why we built Kilo for Slack the way we did: you get the tag-it-in teammate that follows threads and automates work, but everything stays portable and you're not locked in to any one provider. Ashwin Gopinath (@ashwingop) Claude Tag is a Trojan horse. Not because Anthropic is doing anything evil. Because the incentives are obvious. Day one, this looks like a great feature: tag Claude in Slack, let it follow the thread, remember context, connect to tools, break down tasks, chas",
+          "link": "https://nitter.net/kilocode/status/2069920024324657174#m",
+          "date_utc": "2026-06-24T23:06:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Lock-in is the bill. Routing is the answer. We gave GLM-5.2 and Kimi K2.7 Code the same build spec, near-identical working output from both, at a fraction of frontier cost per attempt. Pick a tier, route each task to the model that fits it. Scott Breitenother (@s_breitenother) Everyone's screenshotting the May Ramp AI Index: Anthropic passed OpenAI, 34.4% to 32.3%. The real story is underneath, from Ramp's own economist: the leader earns more when you buy more tokens, so it's built to push you toward pricier models when a cheaper one would do. Lock-in is the bill. — https://nitter.net/s_breite",
+          "link": "https://nitter.net/kilocode/status/2069869153259766208#m",
+          "date_utc": "2026-06-24T19:43:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmm7J7XIAA51GE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "We wrote the whole thing up: blog.kilo.ai/p/we-predicted-… Link We predicted the $100k/yr-per-dev AI bill. Now the winners are routing around it. The teams pulling ahead aren t spending the most, they re routing each task to the right model. blog.kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2069871569975890312#m",
+          "date_utc": "2026-06-24T19:53:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069696726676439041%2FxyQQJlHJ%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/we-predicted-the-100kyr-per-dev-ai",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Article We predicted the $100k/yr-per-dev AI bill. Now the winners are routing around it. Three of the largest IPOs in history are arriving in the same window. SpaceX went public on June 12 at a $1.77 trillion valuation, the biggest listing in history. Anthropic filed confidentially around",
+          "link": "https://nitter.net/kilocode/status/2069804000765960221#m",
+          "date_utc": "2026-06-24T15:25:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLlrm_YWIAAFtY4.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The model you pick matters less than whether the routing fits the task. Running a frontier model on a variable rename costs more for the same result. Most agent work is trivial edits that never needed the big model. Routing by task complexity is the part that was missing.",
+          "link": "https://nitter.net/kilocode/status/2069849776703537391#m",
+          "date_utc": "2026-06-24T18:26:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "SF builders: we're teaming up with @novita_labs , in person in SF and online for everyone else, for a hackathon kickoff night. No engineering background needed. One site, one goal: Build the site that sells you. You'll get a week to make it your best work. 🍕 Pizza, workshop, demos, then a week to build. 🏆 Prizes on the line. Beginners welcome. 📍 Hogpatch, SF + Virtual 🔗 luma.com/kilo-v4kw",
+          "link": "https://nitter.net/kilocode/status/2069842861701333174#m",
+          "date_utc": "2026-06-24T17:59:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLmFyhIWEAAUEZz.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://luma.com/kilo-v4kw",
+              "content": "Novita x Kilo Code Hackathon Kickoff Night · Luma Discover Events Sign In Presented by Kilo Follow Powered by kilo.ai - an open-source, all-in-one agentic engineering platform that helps developers write, debug, and ship code faster Hosted By Kilo Code Johnny Chin 35 Going Mukesh Saravanan, Howard Jiacheng Li and 33 others Contact the Host Report Event AI Featured in Bond AI - San Francisco and Bay Area Novita x Kilo Code Hackathon Kickoff Night Kilo Hogpatch San Francisco, United States Registration Welcome! To join the event, please register below. Register You will be asked to verify token ownership with your wallet . About Event ​ Join us (Online or In-Person) for an AI hackathon kickoff designed for non-technical creators, students, operators, marketers, founders, and anyone curious a"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Ten months ago, we said AI coding bills would hit $100k per dev per year. People thought that was just a hot take. This week, Ramp confirmed they're spending about $90k per dev on AI. We weren't being dramatic. We were just early.",
+          "link": "https://nitter.net/kilocode/status/2069761180638343453#m",
+          "date_utc": "2026-06-24T12:34:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLlDQgvXMAA43Wf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "And it's a default, not a cage. 500+ hosted models, BYOK, and local are all still there. Auto Model just means you're not hand-picking a model every time and overpaying when you guess high.",
+          "link": "https://nitter.net/kilocode/status/2069761191719653401#m",
+          "date_utc": "2026-06-24T12:34:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLlDb_qWIAAoHg8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The $100k per dev bill is real. Whether you route around it is the difference between a budget that scales and one that breaks. Set a tier, let it route, pay frontier prices only when the task earns it. kilo.codes/6ThU8gm Link Auto Model - Kilo Chooses the Right AI Model for Each Task Auto Model routes coding tasks to the right AI model based on complexity, speed, and cost, reducing manual model switching and helping Kilo Gateway credits go further. kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2069761193963597846#m",
+          "date_utc": "2026-06-24T12:34:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2068463816610832384%2Fn5kdZbrQ%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.codes/6ThU8gm",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Same suit, different frontier!",
+          "link": "https://nitter.net/magicsilicon/status/2069932898422264207#m",
+          "date_utc": "2026-06-24T23:57:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnhADeakAAPxMB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Just a coincidence that I post this essay on AI-enabled chip design on the same day as @OpenAI announces their AI-enabled chip which taped out in 9 months. Pushkar Ranade (@magicsilicon) Article The Self-Driving Future of Chip Design Software 2.0 and the Reorganization of Silicon Four years ago, the idea that models could write code, and that code could design chips, was a provocative thesis. I first wrote about it eight months — https://nitter.net/magicsilicon/status/2069857272415809819#m",
+          "link": "https://nitter.net/magicsilicon/status/2069861136393265639#m",
+          "date_utc": "2026-06-24T19:12:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLX8vEsb0AAFGMa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Article The Self-Driving Future of Chip Design Software 2.0 and the Reorganization of Silicon Four years ago, the idea that models could write code, and that code could design chips, was a provocative thesis. I first wrote about it eight months",
+          "link": "https://nitter.net/magicsilicon/status/2069857272415809819#m",
+          "date_utc": "2026-06-24T18:56:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLX8vEsb0AAFGMa.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Apocalyptic images of Venezuela...eerily reminiscent of Mexico City '85, though I fear the death toll will be substantially worse. Pray for these folks, and then prepare yourselves. It's only a matter of time for LA. Do you have a plan for this? Video",
+          "link": "https://nitter.net/spencerpratt/status/2069995314090762601#m",
+          "date_utc": "2026-06-25T04:05:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069930968815689728%2Fimg%2FggYUVEypkuD1Uv0o.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "When NYC isn’t communist def gonna vacation there Spencer Pratt (@spencerpratt) When Cuba isn't communist def gonna vacation there — https://nitter.net/spencerpratt/status/782778863101222912#m",
+          "link": "https://nitter.net/spencerpratt/status/2069990680819363857#m",
+          "date_utc": "2026-06-25T03:46:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Karen Bass is an incredible liar. FOX 11 Los Angeles (@FOXLA) Former LAFD Chief Kristin Crowley has filed a defamation lawsuit against Mayor Karen Bass. Crowley alleges the mayor lied about her response to the Palisades Fire to shift blame and protect her own image. foxla.com/news/former-lafd-c… Link Former LAFD Chief Kristin Crowley sues Mayor Karen Bass for defamation Former LAFD Chief Kristin Crowley has filed a defamation lawsuit against Mayor Karen Bass. Crowley alleges the mayor lied about her response to the Palisades Fire to shift blame and protect her own... foxla.com — https://nitter",
+          "link": "https://nitter.net/spencerpratt/status/2069874640462229926#m",
+          "date_utc": "2026-06-24T20:05:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069873355511988225%2Fsoujg9DU%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.foxla.com/news/former-lafd-chief-kristin-crowley-sues-mayor-karen-bass-for-defamation?taid=6a3c37661e0c3000014e1c28&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+              "content": "Former LAFD Chief Kristin Crowley sues Mayor Karen Bass for defamation | FOX 11 Los Angeles Live News Good Day LA FOX LOCAL Contests FIFA World Cup on FOX Newsletters More Watch Live Expand / Collapse search ☰ Search site News Local News California News Police Chases National News Entertainment Consumer Recalls Politics FOX News Sunday Weather Forecast Traffic Radar Air Quality Map Earthquakes Earthquake Preparedness Severe Weather Wildfires FOX Weather Good Day LA Guests Entertainment Local News Back-to-school Seen on TV Links Vote on our poll TikTok Tuesday Sports Rams Chargers Lakers Clippers Dodgers Angels Wildcats Kings Ducks LA Football Club Angel City Football Club Galaxy Sparks Features FOX 11 Originals The Issue Is: In Depth Wednesday's Child True Crime Files Lost Angeles: City of"
+            },
+            {
+              "url": "https://www.foxla.com/news/former-lafd-chief-kristin-crowley-sues-mayor-karen-bass-for-defamation?taid=6a3c37661e0c3000014e1c28&amp;utm_campaign=trueanthem&amp;utm_medium=trueanthem&amp;utm_source=twitter",
+              "content": "Former LAFD Chief Kristin Crowley sues Mayor Karen Bass for defamation | FOX 11 Los Angeles Live News Good Day LA FOX LOCAL Contests FIFA World Cup on FOX Newsletters More Watch Live Expand / Collapse search ☰ Search site News Local News California News Police Chases National News Entertainment Consumer Recalls Politics FOX News Sunday Weather Forecast Traffic Radar Air Quality Map Earthquakes Earthquake Preparedness Severe Weather Wildfires FOX Weather Good Day LA Guests Entertainment Local News Back-to-school Seen on TV Links Vote on our poll TikTok Tuesday Sports Rams Chargers Lakers Clippers Dodgers Angels Wildcats Kings Ducks LA Football Club Angel City Football Club Galaxy Sparks Features FOX 11 Originals The Issue Is: In Depth Wednesday's Child True Crime Files Lost Angeles: City of"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Now do the 259 homeless encampment fires that occurred during that same timespan, and continue, unabated, all night, every single night, in perpetuity. How much are they costing taxpayers? Notice the times of these fires? How many FFs are we losing because they can never sleep? LA City Controller Kenneth Mejia (@lacontroller) The Lineage Fire in Boyle Heights has cost LA taxpayers so far $3 Million. This is JUST for LAFD costs from June 17-21. According to Lineage to CBS, Lineage is a tenant of the building owned by Chill Build LLC the solar array on the building is ultimately owned by Altus P",
+          "link": "https://nitter.net/spencerpratt/status/2069793014545821786#m",
+          "date_utc": "2026-06-24T14:41:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLlhf4gXsAAWMBS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "We Angelenos in the Palisades and Boyle Heights have some thoughts on that... Lindsey P. Horvath (@LindseyPHorvath) In front of other local leaders at @iclei , I made it clear: LA County is an example of clean energy that the world can follow. Video — https://nitter.net/LindseyPHorvath/status/2069481031783080124#m",
+          "link": "https://nitter.net/spencerpratt/status/2069787728556740801#m",
+          "date_utc": "2026-06-24T14:20:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLhGA5NXIAA7kC5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "God bless Tom Cruise for fighting so hard for cinema. Hollywood is the cultural backbone of Los Angeles. We cannot lose it. GO TO THE MOVIES. It's amazing what a gallon of popcorn, turning off your phone for 2 hours, and enjoying a flick with 100 people does for your soul. Tom Cruise (@TomCruise) For the last 46 years, it has been my privilege to work alongside countless talented artists and crews to create these characters, stories, and films for you all. I'm looking forward to seeing you at the movies! DIGGER. Only in theaters this October. Video — https://nitter.net/TomCruise/status/2069450",
+          "link": "https://nitter.net/spencerpratt/status/2069787152045543633#m",
+          "date_utc": "2026-06-24T14:18:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLgdBsRa8AAV4gX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Very sad when firefighters have to spend millions out of their own pockets to get a tax measure on the ballot to fund their own department because Karen Basura keeps defunding them in favor of drug addicts and corrupt NGOs. You'd think all these fires would wake her up... FOX 11 Los Angeles (@FOXLA) Another tax hike could be on the horizon for Los Angeles. The LA City Council voted 14-0 to place a measure on the November ballot that would raise the local sales tax to 10.25%. foxla.com/news/lafd-funding-… Link LAFD funding measure heads to November ballot as firefighters warn of lagging respons",
+          "link": "https://nitter.net/spencerpratt/status/2069785562634998167#m",
+          "date_utc": "2026-06-24T14:11:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2068294983434563584%2FjAZIHEXC%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.foxla.com/news/lafd-funding-measure-heads-to-november-ballot?taid=6a3b357f4493680001f17830&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter",
+              "content": "LAFD funding measure heads to November ballot as firefighters warn of lagging response times | FOX 11 Los Angeles Live News Good Day LA FOX LOCAL Contests FIFA World Cup on FOX Newsletters More Watch Live Expand / Collapse search ☰ Search site News Local News California News Police Chases National News Entertainment Consumer Recalls Politics FOX News Sunday Weather Forecast Traffic Radar Air Quality Map Earthquakes Earthquake Preparedness Severe Weather Wildfires FOX Weather Good Day LA Guests Entertainment Local News Back-to-school Seen on TV Links Vote on our poll TikTok Tuesday Sports Rams Chargers Lakers Clippers Dodgers Angels Wildcats Kings Ducks LA Football Club Angel City Football Club Galaxy Sparks Features FOX 11 Originals The Issue Is: In Depth Wednesday's Child True Crime Files"
+            },
+            {
+              "url": "https://www.foxla.com/news/lafd-funding-measure-heads-to-november-ballot?taid=6a3b357f4493680001f17830&amp;utm_campaign=trueanthem&amp;utm_medium=trueanthem&amp;utm_source=twitter",
+              "content": "LAFD funding measure heads to November ballot as firefighters warn of lagging response times | FOX 11 Los Angeles Live News Good Day LA FOX LOCAL Contests FIFA World Cup on FOX Newsletters More Watch Live Expand / Collapse search ☰ Search site News Local News California News Police Chases National News Entertainment Consumer Recalls Politics FOX News Sunday Weather Forecast Traffic Radar Air Quality Map Earthquakes Earthquake Preparedness Severe Weather Wildfires FOX Weather Good Day LA Guests Entertainment Local News Back-to-school Seen on TV Links Vote on our poll TikTok Tuesday Sports Rams Chargers Lakers Clippers Dodgers Angels Wildcats Kings Ducks LA Football Club Angel City Football Club Galaxy Sparks Features FOX 11 Originals The Issue Is: In Depth Wednesday's Child True Crime Files"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
