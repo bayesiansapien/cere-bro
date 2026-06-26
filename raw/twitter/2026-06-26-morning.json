@@ -1,0 +1,669 @@
+{
+  "date": "2026-06-26",
+  "slot": "morning",
+  "scraped_ist": "2026-06-26 09:07",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Read all about how linear elastic caching minimizes total cache cost by framing page eviction as a ski rental problem, using lightweight machine learning to optimize the trade-off between memory footprint and cache misses. Check out the blog → goo.gle/4oONMdt",
+          "link": "https://nitter.net/GoogleResearch/status/2070198454538936823#m",
+          "date_utc": "2026-06-25T17:32:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrSKUcawAAQmtn.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/4oONMdt",
+              "content": "Optimizing cloud economics with linear elastic caching Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the future tog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This was at @ritwikpavan ’s famous hardware dinner, which is turning more and more legendary over time. If you're in the hardware business and you don't know Ritwick, you should.",
+          "link": "https://nitter.net/Scobleizer/status/2070384639320171003#m",
+          "date_utc": "2026-06-26T05:52:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The camera of the future. @vishalkumar shows it to me. It has a bigger imaging chip than your iPhone but uses the iPhone to make AI magic happen. $1,000. @camera_int Caira Camera. I bought one. On this day when Om Malik was taken from us, it's worthy of remembering him as a great photographer. He's the kind of guy who would appreciate a great photo more than anybody, and he made many of them. I've been reading X for the last few minutes, and it's just post after post after post about what he meant to various people in the community. What a loss. Video",
+          "link": "https://nitter.net/Scobleizer/status/2070383154335215872#m",
+          "date_utc": "2026-06-26T05:46:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070379614279753728%2Fimg%2FmPYm1ff_nykkxHYv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This isn’t getting through the algorithm. It should. Robert Scoble (@Scobleizer) The team behind the @MonakoResearch AI glasses that caught X by storm two weeks ago from China. Video — https://nitter.net/Scobleizer/status/2070269866154869086#m",
+          "link": "https://nitter.net/Scobleizer/status/2070382695356723360#m",
+          "date_utc": "2026-06-26T05:44:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070229146542948352%2Fimg%2FqQcBhYtvJv-koIoJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "America now will try to control the robots.",
+          "link": "https://nitter.net/Scobleizer/status/2070285530781340063#m",
+          "date_utc": "2026-06-25T23:18:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It slows us down. Still aren’t sure whether it is more like a speed bump or a mountain. I disagree with Andrew. But then I delayed Siri, the first consumer app to use AI by six weeks by asking questions that kept breaking it. It won’t matter in the end. China still will take over a lot. Andrew Curran (@AndrewCurran_) For the people saying this is a pause, or a victory for safety, it is not. This does not slow development in any way, it only slows the rate at which the labs can 𝘳𝘦𝘭𝘦𝘢𝘴𝘦 models, not how fast they can train them. The gap between what is available to the public, and what the labs h",
+          "link": "https://nitter.net/Scobleizer/status/2070285285653660148#m",
+          "date_utc": "2026-06-25T23:17:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "He was also a great photographer. Sending love to his family and friends. Om made the world better.",
+          "link": "https://nitter.net/Scobleizer/status/2070282150067470408#m",
+          "date_utc": "2026-06-25T23:05:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Oh, no. He has long been a pioneer in social media, technology investing, and is a great human who writes way better than I can. We are losing people I have known for decades and shared many experiences with. And each shocks me to my core. If I had any advice to give? Give it everything you got. Your time here is short. Old age wisdom I wish I had more of when young. naveen.com (@naveen) Om Malik, 1966-2026 om.co/2026/06/24/1966-2026/ Link Om Malik, 1966-2026 Om Malik passed away on June 24, 2026, at Stanford Hospital after a long health journey with his heart. He was surrounded by family and ",
+          "link": "https://nitter.net/Scobleizer/status/2070280027720253728#m",
+          "date_utc": "2026-06-25T22:56:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070195263604686848%2FQzZVj8s5%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://om.co/2026/06/24/1966-2026/",
+              "content": "Om Malik, 1966-2026 &#8211; On my Om Skip to content On my Om Technology Change: Field Notes From The Present Future About Om Search --> --> June 24, 2026 Om Malik, 1966-2026 Om Malik passed away on June 24, 2026, at Stanford Hospital after a long health journey with his heart. He was surrounded by family and friends. We invite you to share your remembrances of Om in the comments below or by posting and tagging his accounts on X/Twitter , Instagram , Threads , or LinkedIn . To learn more about Om’s life and work, you can visit his About page or read more on Wikipedia . — Om’s Family Notes , Technology 212 comments Om Malik is a San Francisco based writer, photographer and investor. Read More Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * C"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If you aren't paying attention to CEO @candyyueliu You should. She learned marketing at the highest levels. I am not paid by this company or compensated in any way by it. Robert Scoble (@Scobleizer) The team behind the @MonakoResearch AI glasses that caught X by storm two weeks ago from China. Video — https://nitter.net/Scobleizer/status/2070269866154869086#m",
+          "link": "https://nitter.net/Scobleizer/status/2070275975922016445#m",
+          "date_utc": "2026-06-25T22:40:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070229146542948352%2Fimg%2FqQcBhYtvJv-koIoJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "OpenSource and Linux. I buried the lede.",
+          "link": "https://nitter.net/Scobleizer/status/2070270986856051113#m",
+          "date_utc": "2026-06-25T22:20:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Grok's reports are getting better about what it learned by watching the videos I upload: nitter.net/i/grok/share/6818d5d87… Link Can you write me a lengthy report about what you learned by watching t… Report: Insights from Watching Robert Scoble’s Interview with the MonakoResearch Team (Monako Glass AI Smart Glasses) On June 25, 2026, I viewed the full ~59-minute video posted by veteran tech analyst Robert Scoble (@Scobleizer). In it, Scoble interviews the team behind @MonakoResearch (also referred to as Monako), the Chinese startup whose AI-powered smart glasses had recently gone viral on X. ",
+          "link": "https://nitter.net/Scobleizer/status/2070270574933467476#m",
+          "date_utc": "2026-06-25T22:19:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The team behind the @MonakoResearch AI glasses that caught X by storm two weeks ago from China. Video",
+          "link": "https://nitter.net/Scobleizer/status/2070269866154869086#m",
+          "date_utc": "2026-06-25T22:16:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070229146542948352%2Fimg%2FqQcBhYtvJv-koIoJ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised avoiding collision in Copenhagen Christian Hansen (@Christian_Rask_) Tesla FSD saves my car from a collision! Copenhagen 🇩🇰 @tesla @teslaeurope @TeslaNewswire @elonmusk @SawyerMerritt @FSDEurope Video — https://nitter.net/Christian_Rask_/status/2070103983545618720#m",
+          "link": "https://nitter.net/Tesla/status/2070253691282887166#m",
+          "date_utc": "2026-06-25T21:11:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070103410138034176%2Fimg%2FefC2FI_lstVhe3eq.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "another weird thing is how bad the time estimate is for task, like the thing that take a day probably take less than a hour",
+          "link": "https://nitter.net/eliebakouch/status/2070329631199330592#m",
+          "date_utc": "2026-06-26T02:13:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLtJw8YakAAW4g5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "asking claude to design a system compatible with multiple harnesses (not just claude code) is a VERY painful experience, the model keeps getting other harnesses features wrong and keeps designing things with only claude code in mind",
+          "link": "https://nitter.net/eliebakouch/status/2070306700364775632#m",
+          "date_utc": "2026-06-26T00:42:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLs07_XbMAEVlsv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "other cool plots, more in the paper cdn.openai.com/pdf/5d1e1489-…",
+          "link": "https://nitter.net/eliebakouch/status/2070229539884851500#m",
+          "date_utc": "2026-06-25T19:35:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrusGDa0AAD55v.jpg",
+            "https://nitter.net/pic/media%2FHLrusaUbkAE-3mb.jpg",
+            "https://nitter.net/pic/media%2FHLrus8ibIAEWocn.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf",
+              "content": "%PDF-1.5 %���� 341 0 obj > endobj 342 0 obj > /W [ 1 2 1 ] /Index [ 341 239 ] /Info 167 0 R /Root 343 0 R /Size 580 /Prev 5261561 /ID [ ] >> stream x�cbd�g`b`8 $8�\u0003 �F �$ \u0012k\u0003\u0012 > endobj 344 0 obj > stream x�c```b`��``f``�� �\u0000\u0005`6 \u0003+�ɲ�A��U��A�Se�\u0003XV���\u0006�&��\u0005�g\u0018�\u000288-� �(����}���\u0007���օ���\u0015MڪƗP�) �_��\u0019Ci\u0001G��� �\u0018X�T=��t x-9�fq�Ֆ�-*[.��dP;������I�A��a2\u0003�\u0002�\u0002\u0006\u0016\u0001�\u001a����\u0019T �x\u0019̗ �\u0004Ϡc�\u000f4yM3�c\u0011:�\u0004��bđ\u0002r��$��m*\u0013&-ݐW���p� T]�Ɲ \u0014 \u0012Ν͝ \u0003\u001a�@�l\u0006!\u000e �\u000e����oc�g`Э�� +�?x�%��7�����d/~d�c�`���C�\u0007X-c \u0003C�w\u0006p\"\u0013�\u0006\u0000m��� endstream endobj 345 0 obj > endobj 346 0 obj > stream x��\u0019K��6�>��*�gkE=��6�IҤM��L������hK\u0019YT��;�� \u0010�$���\u0017 \u0004A\u0000\u0004�\"��\u000e+o���{����� �����Mv�X��W����*\u0011�+D���W����/wo�P���Oc$���\u0003���6\u0016�ˉ`����OS���}�a���w�m��� #��W�>��k������:ʹ~�i�y�t\u001byH\u0007���\u0006��i9�6��\u0018�7�L��D9Hc��D(\\\u0011ī��s�4 ��2d ͒����W�{�� � ��\u0006��\u0011 7�\" ����M��6"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "very interesting report by openai on the internal and external use of codex also very interesting that research team token consumption growth is by far the highest, and that oai uses skills and concurrent agents much more compared to other orgs OpenAI (@OpenAI) Work at OpenAI is being transformed by agents, in every department. Across our entire company, people are using Codex to do work that is more complex, longer-running, and increasingly cross-functional. Our internal usage offers an early look at how agentic tools may reshape work as they become more capable and broadly available. — https",
+          "link": "https://nitter.net/eliebakouch/status/2070229373530288619#m",
+          "date_utc": "2026-06-25T19:35:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrtJcDbsAAMh7Z.jpg",
+            "https://nitter.net/pic/media%2FHLrPzbMbwAAlYZc.jpg",
+            "https://nitter.net/pic/media%2FHLrQXd1boAEL03p.jpg",
+            "https://nitter.net/pic/media%2FHLrQXe7agAAvxOJ.jpg",
+            "https://nitter.net/pic/media%2FHLrQXdbbYAARqdx.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Behind-the-scenes of making the Odyssey trailer, with @heavypulp Video",
+          "link": "https://nitter.net/imagine/status/2070201669338743283#m",
+          "date_utc": "2026-06-25T17:45:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070200130318540800%2Fimg%2Fny9KeatRbXrPOppF.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Everything above is live! Head to app.kilo.ai to connect your GitHub account and set up repository profiles, then tell us what you think in our Discord: discord.gg/7AfEXXHTEH Read more: blog.kilo.ai/p/cloud-agents-…",
+          "link": "https://nitter.net/kilocode/status/2070243216683655249#m",
+          "date_utc": "2026-06-25T20:30:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://app.kilo.ai",
+              "content": ""
+            },
+            {
+              "url": "http://discord.gg/7AfEXXHTEH",
+              "content": "Kilo You need to enable JavaScript to run this app."
+            },
+            {
+              "url": "https://blog.kilo.ai/p/cloud-agents-upgrade",
+              "content": "Cloud Agents Just Got a Major Upgrade - by Brian Turcotte Kilo Blog Subscribe Sign in Cloud Agents Just Got a Major Upgrade Kilo's Cloud Agents are now more personal, configurable, and connected. Brian Turcotte Jun 25, 2026 4 1 Share Cloud Agents let you run Kilo from anywhere without a local machine. Spin up an agent from the web or automate with webhooks, point it at a repo, and it works in an isolated container so you’re free to do anything else. The Kilo team recently implemented several updates that make the Cloud Agents workflow feel less like a bot running on your behalf, and more like a collaborator agent that does the heavy lifting for you. Your name on every commit Previously, when a Cloud Agent opened a PR, the commit history reflected that. Now, you can connect your personal Gi"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "See it all in action. Video",
+          "link": "https://nitter.net/kilocode/status/2070243215047885261#m",
+          "date_utc": "2026-06-25T20:30:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070236312561475584%2Fimg%2Fq2TGgpgT02p-044s.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Remote sessions. Enable remote mode in the CLI and your local sessions show up in the web dashboard next to your cloud sessions. Your machine handles the compute, but the session syncs in real time. Start something locally, check on it from your phone, hand it off to a cloud session when you close the laptop.",
+          "link": "https://nitter.net/kilocode/status/2070243211705250237#m",
+          "date_utc": "2026-06-25T20:30:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLr2at9WMAA133p.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "PR status at a glance. When a Cloud Agent opens a PR, you can see its status right in the Kilo dashboard. No bouncing to GitHub to check whether CI passed or the branch is ready to merge. It shows up next to the session that created it.",
+          "link": "https://nitter.net/kilocode/status/2070243208823533748#m",
+          "date_utc": "2026-06-25T20:30:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLr2UdxXsAAINSE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Profiles that know your repo. Agent environment profiles now carry custom agents, skills, MCP servers, and slash commands, so a session boots with your modes and project skills already loaded. Set a default profile per repository. Point a session at a repo and it picks up the right environment automatically.",
+          "link": "https://nitter.net/kilocode/status/2070243206357278923#m",
+          "date_utc": "2026-06-25T20:30:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLr2Cj0WAAAwsYx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Your name on every commit. Connect your personal GitHub account and every commit and PR the agent opens is authored by you, with the Kilo bot as co-author. Your contribution graph reflects the work you directed. Code owners get pinged correctly. Reviewers know who was behind a change.",
+          "link": "https://nitter.net/kilocode/status/2070243203295711701#m",
+          "date_utc": "2026-06-25T20:30:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLr17kQWcAEpQ6A.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Cloud Agents let you run Kilo from anywhere, no local machine required. Point one at a repo and it works in an isolated container while you do something else. We just shipped four updates that make them feel less like a bot and more like a collaborator. Here's what's new. 🧵",
+          "link": "https://nitter.net/kilocode/status/2070243200384536968#m",
+          "date_utc": "2026-06-25T20:30:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLr12wpWwAA8Mrw.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Actual number of printed features on this chip that are “sub-1 nanometer” = ZERO This naming convention makes absolutely no sense and is highly misleading. IBM News (@IBMNews) The world’s first sub‑1 nanometer node chip is here. Delivering 70% greater energy efficiency, this breakthrough powers a new era of computing that’s more capable while using less energy. Dig into this next-gen tech: ibm.co/6016EOHpM — https://nitter.net/IBMNews/status/2070100944017092734#m",
+          "link": "https://nitter.net/magicsilicon/status/2070368148201881676#m",
+          "date_utc": "2026-06-26T04:46:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLnxb2PXAAAuC52.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://ibm.co/6016EOHpM",
+              "content": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology --> --> IBM Logo --> --> Submit IBM Newsroom --> IBM Newsroom News All press releases IBM Think 2026 Artificial intelligence Hybrid cloud Research and innovation Corporate Social impact Mergers & acquisitions Media resources Asset gallery B-roll gallery Media contact Global newsrooms Inside IBM Leadership IBM boilerplate Investor relations Annual report Analyst reports CSR IBM policy Awards Blog IBM blog IBM Research blog securityintelligence.com Subscribe All press releases --> --> IBM Debuts World’s First Sub-1 Nanometer Chip Technology Built with revolutionary “nanostack” 3D chip architecture, IBM’s sub-1 nm chip to propel semiconductor industry forward for the next decade Jun 25, 2026 YORKTOWN HEIGHTS, NY, June 25, 2026 IBM (NYSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mlevchin",
+          "creator": "@mlevchin",
+          "text": "Goodbye, my friend. I will miss our Pakwan feasts. om.co/2026/06/24/1966-2026/ Link Om Malik, 1966-2026 Om Malik passed away on June 24, 2026, at Stanford Hospital after a long health journey with his heart. He was surrounded by family and friends. We invite you to share your remembrances of Om in th… om.co",
+          "link": "https://nitter.net/mlevchin/status/2070282571163046204#m",
+          "date_utc": "2026-06-25T23:06:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070195263604686848%2FQzZVj8s5%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://om.co/2026/06/24/1966-2026/",
+              "content": "Om Malik, 1966-2026 &#8211; On my Om Skip to content On my Om Technology Change: Field Notes From The Present Future About Om Search --> --> June 24, 2026 Om Malik, 1966-2026 Om Malik passed away on June 24, 2026, at Stanford Hospital after a long health journey with his heart. He was surrounded by family and friends. We invite you to share your remembrances of Om in the comments below or by posting and tagging his accounts on X/Twitter , Instagram , Threads , or LinkedIn . To learn more about Om’s life and work, you can visit his About page or read more on Wikipedia . — Om’s Family Notes , Technology 212 comments Om Malik is a San Francisco based writer, photographer and investor. Read More Leave a Reply Cancel reply Your email address will not be published. Required fields are marked * C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: nytimes.com/2026/06/25/techn… Link OpenAI Leans Toward Holding Up I.P.O. Until Next Year The A.I. company’s advisers are pushing its chief executive, Sam Altman, to move slowly after SpaceX’s stock has been volatile and as the start-up grapples with financial challenges. nytimes.com",
+          "link": "https://nitter.net/ns123abc/status/2070276009258107005#m",
+          "date_utc": "2026-06-25T22:40:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070244378388418561%2FEuorxJWT%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: OPENAI IPO DELAYED Altman told everyone OpenAI is worth a TRILLION dollars His own advisors warned him that retail investors aren’t buying it… gave him 2 options: wait until 2027 for $1T valuation or lower valuation for 2026 IPO Altman: any valuation under $1 trillion is a “nonstarter” LMAOOO",
+          "link": "https://nitter.net/ns123abc/status/2070275299837878304#m",
+          "date_utc": "2026-06-25T22:37:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLsYaZDXcAAQtwc.jpg",
+            "https://nitter.net/pic/media%2FHLsYaY_WYAA9-BS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: theinformation.com/articles/… Link Trump Administration Asks OpenAI to Stagger Release of New Model Over Security Concerns For AI companies on the verge of releasing cutting edge new AI models, there’s a new normal in the wake of the Trump administration’s tense showdown with Anthropic in recent weeks. On Wednesday, for... theinformation.com",
+          "link": "https://nitter.net/ns123abc/status/2070254799107260865#m",
+          "date_utc": "2026-06-25T21:16:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070240192313880576%2FcMACAq-X%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns?rc=fgdr09",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 BREAKING: U.S. government will decide who gets access to GPT-5.6 OpenAI will release GPT-5.6 only in a limited preview to a small group of partners. Sam Altman told staff the government would be \"approving access customer by customer.\" Commerce Sec Lutnick personally called Altman warning: don't launch without approvals from other agencies. A de facto licensing regime. ITS HAPPENING",
+          "link": "https://nitter.net/ns123abc/status/2070254377831727283#m",
+          "date_utc": "2026-06-25T21:14:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLsCrT2WkAA-uxD.jpg",
+            "https://nitter.net/pic/media%2FHLsCtL9WwAAn3_K.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "OpenAI's inference costs exploding at an alarming rate... Revenue? trust us bro Greg Brockman (@gdb) Agents are being adopted very quickly and accelerating work. How this looks across OpenAI itself: — https://nitter.net/gdb/status/2070199649823297653#m",
+          "link": "https://nitter.net/ns123abc/status/2070243535186428289#m",
+          "date_utc": "2026-06-25T20:31:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLrTd37a4AARhIU.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read the customer success story: nvda.ws/4gE0wBI Link PYLER: AI Brand Safety for Global Video on NVIDIA DGX 2M videos/day. 76.7% less unsafe content. 99.9% faster validation. PYLER s context-aware AI on NVIDIA DGX Blackwell — trusted by Samsung, LG, Kenvue, and Nongshim. nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2070235588620439589#m",
+          "date_utc": "2026-06-25T20:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070235592055545856%2FFp7jUZQ4%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4gE0wBI",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Every day, millions of videos compete for advertising dollars. Ensuring brands appear alongside the right content requires AI that can understand context at scale. PYLER is helping advertisers improve brand safety and campaign performance with NVIDIA-accelerated AI that analyzes video content in near real time. 🎯 Driving smarter advertising with AI ⚡ Analyzes 2M videos daily for contextual understanding and brand-safe placements 🛡️ Reduced unsafe content exposure by 76.7% for major advertisers 💰 Cut operational costs by 10X while accelerating content validation from seconds to milliseconds Bui",
+          "link": "https://nitter.net/nvidia/status/2070235584535117938#m",
+          "date_utc": "2026-06-25T20:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070204144359538688%2Fimg%2F7Zrk1gIQ3z-Bp_yB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn how accelerated computing is redefining infrastructure efficiency in banking and payments: nvda.ws/4xO4yNU Link Revolut s Transaction Foundation Model is 3-5x Faster on NVIDIA H100 GPUs See how Revolut uses PRAGMA, a behavioral model, to unify fraud, credit, and marketing systems. They achieved major gains in accuracy (2.3x better credit risk, 65% more fraud cases caught) using... nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2070205388377448764#m",
+          "date_utc": "2026-06-25T18:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070205389698715648%2FgWsYB0M4%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4xO4yNU",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Revolut built a transaction foundation model – accelerated by the NVIDIA full-stack platform on Nebius – to improve fraud detection, product recommendations, and other use cases in financial services. The results: 📈 2.3x better credit risk accuracy ⚡ Up to 5x higher training throughput Video",
+          "link": "https://nitter.net/nvidia/status/2070205383138849223#m",
+          "date_utc": "2026-06-25T18:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070191072395825152%2Fimg%2FG8lwg4SSK3K8tpyd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read more about the announcement: nvda.ws/4f1J3BV Link NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery NVIDIA today announced NVIDIA BioNeMo Agent Toolkit, which provides domain-specific tools and skills for the agentic life sciences era. nvidianews.nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2070186662450102456#m",
+          "date_utc": "2026-06-25T16:45:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069410042869084160%2FHzqhRLU-%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4f1J3BV",
+              "content": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery | NVIDIA Newsroom Artificial Intelligence Computing Leadership from NVIDIA --> PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email ic_arrow-ba"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Walk the #BIO2026 show floor with Kimberly Powell, NVIDIA VP of Healthcare, as she shares what’s exciting about the latest BioNeMo toolkit announcement. BioNeMo is helping bring AI-driven biology and drug discovery closer to the next experiment, with tools for researchers and developers to build, customize and deploy AI applications across the life sciences ecosystem. Video",
+          "link": "https://nitter.net/nvidia/status/2070186658289308065#m",
+          "date_utc": "2026-06-25T16:45:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070186523069214720%2Fimg%2FvoN_Cr03vWct8Hih.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
