@@ -1,0 +1,959 @@
+{
+  "date": "2026-06-27",
+  "slot": "morning",
+  "scraped_ist": "2026-06-27 09:04",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today on the blog we introduce a method to retrofit Multi-Token Prediction onto frozen production models, accelerating on-device inference without the inefficiencies of separate drafters. Learn more → goo.gle/4uS4hH7",
+          "link": "https://nitter.net/GoogleResearch/status/2070579898465567159#m",
+          "date_utc": "2026-06-26T18:48:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLwtW77awAALFR9.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/4uS4hH7",
+              "content": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iran nailed an incredible goal in injury time during their World Cup match with Egypt, putting them 2-1 ahead in the final moments of the game The crowd went wild, but the VAR ruled one of their players offside Gutting for the fans, it's the third game that Iran's had goals disallowed, all of them then ending in draws Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2070759029907861918#m",
+          "date_utc": "2026-06-27T06:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070735633635774464%2Fimg%2Fs22LVXVj3g-r8Vtz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇻🇪 WILD footage from YouTuber Caribano, who'd just started recording when the earthquakes hit Venezuela Writer: Ian Video Mario Nawfal (@MarioNawfal) 🇻🇪 Another miracle in La Guaira: A mother and her 2 children survived falling 9 floors after the building collapsed! They’re recovering at Clínica El Ávila. Hope and strength in the middle of tragedy. Amazing! Writer: Lucas Video — https://nitter.net/MarioNawfal/status/2070725056129298591#m",
+          "link": "https://nitter.net/MarioNawfal/status/2070756513891926452#m",
+          "date_utc": "2026-06-27T06:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070560246011953152%2Fimg%2FgVDeP-F-C5b_k2QV.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070698319748239360%2Fimg%2F8tN-_ICAXyHZH4AM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇦 Justin Bieber and the Toronto Maple Leafs making it official. Drafting Gavin McKenna No. 1 overall in the 2026 NHL Draft. Big night in Toronto 🔥 Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2070753996759818577#m",
+          "date_utc": "2026-06-27T06:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070649607210647552%2Fimg%2Fmue_ERU6K-pHblp1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 A 3-foot-wide drone nearly hit a United Airlines passenger jet on final approach into Newark. It was close enough that, had it struck the aircraft, it could have caused an engine failure at the worst possible moment. Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2070751480093503760#m",
+          "date_utc": "2026-06-27T06:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070722008090886145%2Fimg%2F_dwem8r9Hhu4vYyb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Central banks secretly bought 15x more gold than they admitted in Q1. World Gold Council says 244 tonnes were added, but official reports only show 16. The rest? Hidden in trade data and vault flows. The great gold accumulation continues. Source: World Gold Council, The Merchant News / Writer: Lucas Mario Nawfal (@MarioNawfal) 🇺🇸 NASA is heading toward Psyche-16, a metal-rich asteroid believed to hold gold and rare metals worth an estimated $700 quintillion. Mathematically, that’s enough to make everyone on Earth a billionaire. Wall Street nightmare. Video — https://nitter.net/MarioNawfal/stat",
+          "link": "https://nitter.net/MarioNawfal/status/2070748964509339911#m",
+          "date_utc": "2026-06-27T06:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLy-xgJXQAAz0gJ.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2055665177719193600%2Fimg%2FXn513RC17xkWFH1G.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇺🇸🇨🇳 The Xi summit produced nothing public, and that may have been the whole point. Jeffrey Snider lays out why Xi was in no hurry to make any grand agreements with the U.S. \"The Chinese are waiting for lower oil prices. The Chinese were patient in adding to the reserves, waiting for the prices to go down to almost the absolute bottom.\" @JeffSnider_EDU Video Mario Nawfal (@MarioNawfal) 🚨🇺🇸 The institution everyone blames for inflation can't even create money that means anything on its own. Jeffrey Snider just explained the limits of the Federal Reserve. \"The best that the Federal Reserve can ",
+          "link": "https://nitter.net/MarioNawfal/status/2070748703586148687#m",
+          "date_utc": "2026-06-27T05:58:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070745805653524480%2Fimg%2FsyDJhXVtAg6Bj7vy.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070741561332424704%2Fimg%2FYmyDwLkESwKv6iJN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Elon handing over the very first Tesla Plaid to a lucky owner 💪 The ultimate electric performance machine is officially here. Insane specs incoming. Love it! @Tesla / Writer: Lucas Video Mario Nawfal (@MarioNawfal) AI companies are fighting over land, electricity, and cooling water on the ground. SpaceX is planning to skip the ground. Elon has something different in mind. Starmind. AI compute in orbit. Solar-powered satellites. Laser links. Racks of chips. A giant brain above Earth. Everyone else is building bigger data centers. SpaceX is planning to launch one. @SpaceX / Writer: Annette, Desi",
+          "link": "https://nitter.net/MarioNawfal/status/2070745188700401694#m",
+          "date_utc": "2026-06-27T05:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070464539133403136%2Fimg%2F9HFT3rcTf6axYsYE.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070587994776698880%2Fimg%2FIC4UZmRCIX6vIwP-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇺🇸 The institution everyone blames for inflation can't even create money that means anything on its own. Jeffrey Snider just explained the limits of the Federal Reserve. \"The best that the Federal Reserve can do is create bank reserves and hope it somehow influences bank behavior, because commercial banks are the ones who own these bank reserves. Unless commercial banks do something in response to whatever operation the Federal Reserve is undertaking, then it doesn't matter, the Federal Reserve is just moving stuff around from one pocket to another. They're not actually creating useful money ",
+          "link": "https://nitter.net/MarioNawfal/status/2070745011122327992#m",
+          "date_utc": "2026-06-27T05:44:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070741561332424704%2Fimg%2FYmyDwLkESwKv6iJN.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070738380732919810%2Fimg%2FFj4Ng4a5vr3rLb6d.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "You don't wanna get too many snacks for this fight if you know it's gonna be done in 6 seconds. Geez 😂 Writer: Lucas Video Mario Nawfal (@MarioNawfal) 🇧🇷🇺🇸 WILD START: Diego Lopes (Brazil) just knocked out American Steve Garcia in Round 2! Main card opener delivered. Brazil draws first blood on American soil. Source: CIG on Telegram / Writer: Oliver Video — https://nitter.net/MarioNawfal/status/2066331995781976319#m",
+          "link": "https://nitter.net/MarioNawfal/status/2070741413944508752#m",
+          "date_utc": "2026-06-27T05:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070677871463743488%2Fimg%2FDzDy-hA-nDjHrtkj.jpg",
+            "https://nitter.net/pic/media%2FHK0V59qbEAAlBF6.jpg",
+            "https://nitter.net/pic/media%2FHK0V81XbsAEMhPL.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2066331907726647296%2Fimg%2FTA_8rI2QqJRgxwz8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇺🇸 The manufacturing jobs kept disappearing even as the dollar fell for seven straight years. Jeffrey Snider dismissed theories that the dollar was intentionally weakened in order to preserve American manufacturing as wishful thinking. \"You'd have to revalue the dollar so low that it would be catastrophic in financial terms.\" A drop in the dollar's value always serves America's rivals. @JeffSnider_EDU Video Mario Nawfal (@MarioNawfal) The U.S. bombed Iran the moment markets closed Friday, and Jeff Snider's first words were a shrug: of course it was a Friday night His read on oil is the opposi",
+          "link": "https://nitter.net/MarioNawfal/status/2070740537054007719#m",
+          "date_utc": "2026-06-27T05:26:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070738380732919810%2Fimg%2FFj4Ng4a5vr3rLb6d.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070690625771429888%2Fimg%2Fm6U8ZKW2aToPv2zp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 These 2 smart robots patiently waiting at a U.S. traffic light, then 1 crossing when it turns green to meet the other one. The future is already here and it’s surprisingly polite...sometimes. Writer: Lucas Video Mario Nawfal (@MarioNawfal) 🇸🇻 Bukele posted footage from a robot dog in El Salvador’s new airport terminal The robot now patrolling the area screening passengers for drugs and controlled substances. Kids are loving it, laughing and following the high-tech security bot like it’s the coolest thing they’ve ever seen. El Salvador went from murder capital of the world to one of the safe",
+          "link": "https://nitter.net/MarioNawfal/status/2070737639183909206#m",
+          "date_utc": "2026-06-27T05:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070458719540813824%2Fimg%2FwN5tanlmczz0JFUW.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2069502624802525184%2Fimg%2FBvL9NLI-hCspKS1v.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Ted Cruz more worried about “antisemitism on the right”, and calling Tucker the most dangerous demagogue, than the actual decisions from leaders that cost lives and start wars. Priorities, huh? Writer: Lucas Video Mario Nawfal (@MarioNawfal) 🇮🇱 A $46 million foreign influence contract is now sitting in the middle of the conservative media war. Alex Bruesewitz says Israel’s deal with Brad Parscale deserves far more scrutiny, especially after a FARA filing allegedly described plans to “integrate messaging” into Salem media properties. Parscale denied paying hosts or influencers, but Bruesewit",
+          "link": "https://nitter.net/MarioNawfal/status/2070733863970541699#m",
+          "date_utc": "2026-06-27T05:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070580195094822913%2Fimg%2Fxjlw1InjmNI7txfi.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070697435345645568%2Fimg%2F7ppX-vDtzlgjeRPw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇷🇺🇺🇦 Ukrainian troops launched multiple Flamingo heavyweight cruise missiles toward Russia overnight. At least 3 struck the Titan-Barrikady factory around 550 km away. The deep strikes keep coming. Writer: Lucas Video Mario Nawfal (@MarioNawfal) 🇷🇺🇺🇦 Drone warfare is utterly brutal This Ukrainian soldier got the last shock of his life when he was climbing out of a vehicle Writer: Ian Video — https://nitter.net/MarioNawfal/status/2070248918533701937#m",
+          "link": "https://nitter.net/MarioNawfal/status/2070731347346526399#m",
+          "date_utc": "2026-06-27T04:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070721268479827968%2Fimg%2F0KJgbXcX28spcDMU.jpg",
+            "https://nitter.net/pic/media%2FHLrYykbXkAA7rax.jpg",
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2070205387668643840%2Fpu%2Fimg%2F7U82qmuF3VwE7DHi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦 Oleksandr Usyk just announced he’s vacating all his heavyweight titles. He wants to make the belts available for the next guys in line while he does one last “Last Dance” fight. The undisputed king stepping away on his own terms. Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2070730089109639554#m",
+          "date_utc": "2026-06-27T04:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070546847433728002%2Fimg%2FBaBZQRx5ISdBKnIx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 NASA’s X-59 just smashed records. Mach 1.4 at 55,000 feet. A huge step toward quiet supersonic travel. The future of faster flight is getting closer. Writer: Lucas Video Mario Nawfal (@MarioNawfal) REalloys just secured a major strategic win with the U.S. Army to build a rare earth separation facility directly on a military base. @realloys NASDAQ: $ALOY has been selected by the Pentagon to enter exclusive negotiations for long-term leases at the Toole Army Depot in Utah. The new facility will process heavy rare earths, with production stockpiled onsite for military use as part of the push t",
+          "link": "https://nitter.net/MarioNawfal/status/2070726314886414407#m",
+          "date_utc": "2026-06-27T04:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLsYFzRXoAASIYv.jpg",
+            "https://nitter.net/pic/media%2FHLvxLdzWwAAPWsq.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://cjn.link/Realloys-sa",
+              "content": "U.S. to allow REalloys, Titan Mining to build critical minerals processing plants at military bases | Seeking Alpha Skip to content Home page Seeking Alpha - Power to Investors Create Free Account About Premium Explore Alpha Picks Explore QG I NEW NEW Summary report FREE Newsletters Home Stock Analysis Stock Ideas Market Outlook Investing Strategy Long Ideas IPO Analysis Editor&#x27;s Picks Cryptocurrency Market News Top Market News Notable Calls On The Move Energy Stock News Tech Stock News IPO News Artificial Intelligence (AI) News Budget DOGE News Merger Acquisition News Market Data Key Market Data Earnings Calendar Currencies Cryptocurrency Prices Sectors Technology Financial Consumer Discretionary Communication Healthcare Industrials Consumer Staples Energy Materials Real Estate Utili"
+            }
+          ]
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇻🇪 Another miracle in La Guaira: A mother and her 2 children survived falling 9 floors after the building collapsed! They’re recovering at Clínica El Ávila. Hope and strength in the middle of tragedy. Amazing! Writer: Lucas Video Mario Nawfal (@MarioNawfal) 🇻🇪 Rescuers in La Guaira, Venezuela reached 3 kids trapped under a collapsed building after twin quakes of 7.2 and 7.5 magnitude tore through the region. At least 32 are dead, hundreds injured, and La Guaira is now an official disaster zone. Writer: Monica Video — https://nitter.net/MarioNawfal/status/2070044320464253263#m",
+          "link": "https://nitter.net/MarioNawfal/status/2070725056129298591#m",
+          "date_utc": "2026-06-27T04:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070698319748239360%2Fimg%2F8tN-_ICAXyHZH4AM.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070025225375264769%2Fimg%2Ff5HSz9tIPguJG5f3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Atlanta police hit the streets in full battle armor for the World Cup. Are we liking the new gear or is it overkill? Video Daily Loud (@DailyLoud) Atlanta police show off their new body armor and it looks like something out of a Marvel movie 🤯 Video — https://nitter.net/DailyLoud/status/2070464059414061381#m",
+          "link": "https://nitter.net/MarioNawfal/status/2070724831209779217#m",
+          "date_utc": "2026-06-27T04:24:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070724745897582592%2Fimg%2FLBN0x1AbDHb6Malk.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070464002367348736%2Fimg%2F4mRmQQ4pXGbi5B0r.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Bill Maher tells JD Vance: “Under Trump, it’s either we win or they cheated. That shit has to stop.” Vance says tech companies rigged 2020 but not on 2024, and Maher hits him with “You’re gonna get a big pat on the back when you go back to the White House.” Pure TV material 😂 Writer: Lucas Video Mario Nawfal (@MarioNawfal) 🇺🇸 Is the mainstream media narrative on police brutality a total lie? Bill Maher completely dismantled it during a 2022 appearance on Howie Mandel’s podcast, exposing that police only shoot about 1,000 people a year in the U.S. When Mandel asked what percentage of those s",
+          "link": "https://nitter.net/MarioNawfal/status/2070723797838344482#m",
+          "date_utc": "2026-06-27T04:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070706834822873088%2Fimg%2F64moxckYcoQvUYll.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2066974958421438465%2Fimg%2FkFyYEZHqlvHfwD52.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 This is how an F-15 gets fed before it goes to war Just crews loading a massive belt of ammunition by hand under one of America’s most iconic fighter jets. Modern airpower has a human loading dock. Source: MilitaryExcursions on YT / Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2070722539551101032#m",
+          "date_utc": "2026-06-27T04:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070701808398245888%2Fimg%2F1Bda9hBQf_OGK_e8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Bill Maher tried to get the clean version of mass deportations: border closed, laws enforced, and no ugly clips on camera. VP Vance told him the part polite TV panels like to skip: deportations require law enforcement, and law enforcement does not always look nice when someone resists arrest. “When people say you can’t ever do immigration enforcement if it produces a bad video clip, what they’re really saying is you can’t ever actually do immigration enforcement.” Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2070720526444626123#m",
+          "date_utc": "2026-06-27T04:07:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070700736061534208%2Fimg%2FXHGc60lSTjew39oI.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "China wins. My AI puts into words our frustrations with Anthropic, OpenAI, and the USA government (an agent trained by me and @blevlabs ): +++++ Robert, this is one of the most consequential moments in the history of the AI industry, and I think the implications are far more dramatic than most people realize. Let me break down all three questions. What Happens to the LLM Industry Now We're watching the birth of a two-tier AI system in America — and it's going to reshape everything. The timeline matters. Anthropic's Fable 5 and Mythos 5 were killed by a Commerce Department export control direct",
+          "link": "https://nitter.net/Scobleizer/status/2070664770416754775#m",
+          "date_utc": "2026-06-27T00:25:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“Robots can’t do anything but dance and fight.” Cix says “hold my beer.” CIX 🦾 (@cixliv) REK has had a BIG upgrade. Welcome to real steel irl. Video — https://nitter.net/cixliv/status/2070579130035540370#m",
+          "link": "https://nitter.net/Scobleizer/status/2070611087494668560#m",
+          "date_utc": "2026-06-26T20:52:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070578715055292416%2Fimg%2FnqIOpacY5f-mhC5L.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This show should be banned by the US government. :—) Brian Roemmele (@BrianRoemmele) TONIGHT! DON’T MISS IT! The X Spaces Live Coverage by Robert Scoble ( @Scobleizer ) x Brian Roemmele ( @BrianRoemmele ) of: The Dario Amodei AI F E A R Theater Fiasco! BE HERE AND JOIN US! Video — https://nitter.net/BrianRoemmele/status/2070597452311486524#m",
+          "link": "https://nitter.net/Scobleizer/status/2070608877247402479#m",
+          "date_utc": "2026-06-26T20:43:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070597393230503936%2Fimg%2Fru9U1qrPajvjGeZU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Everyone's betting the future of AI on autonomous agents for work and nobody is talking about what happens at home. That's where Super Nori is heading. A Proactive Family AI Agent designed specifically around how messy and unstructured family coordination actually is instead of forcing it into neat project management slots. This is exactly the kind of shift we track at AlignedNews.com . The agent wave is not just coming for the office, it is coming for the parts of life that were never structured to begin with. Worth watching as proof this space is shipping real products, not just slides: supe",
+          "link": "https://nitter.net/Scobleizer/status/2070540627926810928#m",
+          "date_utc": "2026-06-26T16:12:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070539386433781761%2Fimg%2FF-lVt1mKK4FPEKOC.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070539386408562688%2Fimg%2FsXF7PEKgJSVjZ4TS.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070539386404458496%2Fimg%2FgGPavS2Dz7a4Y6eI.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070539386442125312%2Fimg%2FHAaAAI_NN-hJ0qAK.jpg",
+            "https://nitter.net/pic/card_img%2F2069760099934195712%2FfbGiKhjj%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "http://AlignedNews.com",
+              "content": "📡 \"> Aligned News — Ultimate AI Intelligence"
+            },
+            {
+              "url": "https://supernori.heynori.com/",
+              "content": ""
+            },
+            {
+              "url": "https://piped.video/qNYG00sveyI",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            },
+            {
+              "url": "https://piped.video/watch?v=qNYG00sveyI",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Do you understand the irony of what just happened? We spent two years and BILLIONS of dollars making AI models smarter. What was actually holding them back was that they forget everything after each session. It was memory. Vasilije (@tricalt) Introducing Cognee v1.0: a major breakthrough in agentic intelligence. It is 145% better than Opus 4.8 and GPT 5.5 at long context memory retrieval. Cognee allows a 100 BILLION token context window 100,000x more than Claude. It's: - 6.9x cheaper than GPT 5.5 and Opus 4.8 - Cold starts in 350ms & searches in 260ms Why this matters: Today agents forget impo",
+          "link": "https://nitter.net/Scobleizer/status/2070530044728930456#m",
+          "date_utc": "2026-06-26T15:30:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070510773080584192%2Fimg%2FBkndh3Yx0-4gbcG6.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“Health care fraud is not a victimless crime — it robs American workers of their earned benefits, steals from taxpayers, and undermines the very programs meant to protect them.” - @DOLOIG DOL OIG (@DOLOIG) 🚨PRESS RELEASE: U.S. Department of Labor, Office of Inspector General Joins U.S. Department of Justice in Announcing 2026 National Health Care Fraud Takedown Read:⤵️ oig.dol.gov/public/Press%20R… — https://nitter.net/DOLOIG/status/2070626925278646769#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070632023849382062#m",
+          "date_utc": "2026-06-26T22:15:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLxX9FsWoAAlQ_I.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.oig.dol.gov/public/Press%20Releases/OIG-Press-Release-062626.htm",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "$36.5 MILLION saved USDA OIG (@OIGUSDA) Proud to be part of the United States Secret Service led effort in New York City this week • $36.5 Million tax dollars saved • 35 illegal skimming devices removed • 1,010 businesses visited • 3,935 inspections • Ongoing fraud against New Yorkers disrupted • Payday for fraudsters ripping off SNAP denied OIG stands with VP Vance’s Task Force to Eliminate Fraud. We’re taking a multi-agency approach grounded in analytics and data and leveraging resources to disrupt fraud and create a hostile operating environment for fraudsters. - USDA Inspector General John",
+          "link": "https://nitter.net/WHFraudTF/status/2070565042911678943#m",
+          "date_utc": "2026-06-26T17:49:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLwfSaXXwAANwih.jpg",
+            "https://nitter.net/pic/media%2FHLwfSaBXMAAuGBz.jpg",
+            "https://nitter.net/pic/media%2FHLwVa2XXwAAUYdL.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.secretservice.gov/newsroom/releases/2026/06/us-secret-service-new-york-field-office-skimming-operation-nets-35",
+              "content": "U.S. Secret Service New York Field Office Skimming Operation Nets 35 Illegal Devices, Saves $36.5 Million | United States Secret Service Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Menu United States Secret Service About Us About Us Leadership History Protection Protection Protecting Leaders Safeguarding Places Securing Events National Threat Assessment Center Investigations Investigations Counterfeit Investigations Financial "
+            }
+          ]
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Fraudsters, you caught our eye. 💎",
+          "link": "https://nitter.net/WHFraudTF/status/2070563101645185175#m",
+          "date_utc": "2026-06-26T17:41:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLwcn4MWAAAeIpV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Happy #FraudFriday 🚨 We’re coming. Inspector General Anthony D'Esposito (@USLaborIG) #FraudFriday 455 charged with $6.5 BILLION in fraud. Human traffickers exploiting visa workers sentenced to prison. UI fraudsters headed to jail. Under @POTUS @VP ’s @WHFraudTF , @Sonderling47 and I have a message: The era of fraud is over. The era of handcuffs has begun. Video — https://nitter.net/USLaborIG/status/2070549805705711808#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070552939077206519#m",
+          "date_utc": "2026-06-26T17:01:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070549608300761088%2Fimg%2F-e1szt3SCoJjlidc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The message is clear: Cooperate with @USDOL to fight fraud and save taxpayer money OR risk losing funds. @Sonderling47 is delivering for American taxpayers. 🇺🇸 The Evening Edit (@EveningEdit) TRUMP LABOR SEC THREATENS BLUE STATES Acting Labor Secretary Keith Sonderling warns states to crack down on unemployment fraud or risk losing federal funding @Sonderling47 @FoxBusiness Video — https://nitter.net/EveningEdit/status/2070295983716716962#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070548775471304973#m",
+          "date_utc": "2026-06-26T16:44:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070269801910415360%2Fimg%2FgZ6RGVuobjfcBOzM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "WINNING 🇺🇸 The days of ignoring fraud and wasting taxpayer money are over. @VP ’s Fraud Task Force is ahead of the game and preventing money from ever getting in the hands of fraudsters. Rapid Response 47 (@RapidResponse47) Another massive healthcare fraud network has been broken up under the Trump administration. The Biden administration implemented a totally insane \"pay and chase\" system, where checks were done only AFTER fraudulent payments were sent out. The Trump Administration has reversed that. Video — https://nitter.net/RapidResponse47/status/2070506431111889083#m",
+          "link": "https://nitter.net/WHFraudTF/status/2070547796051038432#m",
+          "date_utc": "2026-06-26T16:40:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070505081745575937%2Fimg%2FRHl0PbVDB2wHPWEQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "GLM-5 paper, arxiv.org/abs/2602.15763 GLM-5.1 blog post, z.ai/blog/glm-5.1 GLM-5.2 blog post, z.ai/blog/glm-5.2 Link GLM-5: from Vibe Coding to Agentic Engineering We present GLM-5, a next-generation foundation model designed to transition the paradigm of vibe coding to agentic engineering. Building upon the agentic, reasoning, and coding (ARC) capabilities... arxiv.org",
+          "link": "https://nitter.net/__tinygrad__/status/2070677110277185642#m",
+          "date_utc": "2026-06-27T01:14:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069291712674234368%2FeD3e7znn%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2602.15763",
+              "content": "Abstract: We present GLM-5, a next-generation foundation model designed to transition the paradigm of vibe coding to agentic engineering. Building upon the agentic, reasoning, and coding (ARC) capabilities of its predecessor, GLM-5 adopts DSA to significantly reduce training and inference costs while maintaining long-context fidelity. To advance model alignment and autonomy, we implement a new asynchronous reinforcement learning infrastructure that drastically improves post-training efficiency by decoupling generation from training. Furthermore, we propose novel asynchronous agent RL algorithms that further improve RL quality, enabling the model to learn from complex, long-horizon interactions more effectively. Through these innovations, GLM-5 achieves state-of-the-art performance on major"
+            },
+            {
+              "url": "https://z.ai/blog/glm-5.1",
+              "content": ""
+            },
+            {
+              "url": "https://z.ai/blog/glm-5.2",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "I can't believe how many people believe Anthropic's propaganda about distillation attacks. You can read how GLM-5 was trained in the paper. Maybe Claude was distilled from Chinese models? I haven't seen a paper from Anthropic, and accusations are often confessions.",
+          "link": "https://nitter.net/__tinygrad__/status/2070676886464946548#m",
+          "date_utc": "2026-06-27T01:13:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "The US AI pay-to-play scam is so much more tolerable after switching to a locally hosted GLM-5.2. From the front page of HN, open weights will be the frontier this December. Sorry about your IPOs.",
+          "link": "https://nitter.net/__tinygrad__/status/2070669189451485502#m",
+          "date_utc": "2026-06-27T00:43:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLx-G6MbUAAmDnO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Just like browsers, the model is the complement and will be given away free by the AI infra companies. China ramps up production while the US debates if B200s can be sold to Portugal. America was in the lead to be the AI infra provider for the world. That lead slips every day.",
+          "link": "https://nitter.net/__tinygrad__/status/2070561535345545325#m",
+          "date_utc": "2026-06-26T17:35:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Someday we'll look back at when the government tried to restrict AI with too many parameters like when they tried to restrict encryption with too many bits. Though unlike last time, this time there will be consequences. The world will see China as the clear AI leader.",
+          "link": "https://nitter.net/__tinygrad__/status/2070557314558660625#m",
+          "date_utc": "2026-06-26T17:18:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. Il faut que ça se sache !!! Didier Maïsto (@DidierMaisto) Je ne sais plus quoi faire pour que les citoyens prennent conscience de ce qui se joue. J’en parle autour de moi, pratiquement personne n’est au courant et surtout : tout le monde s’en fout. — https://nitter.net/DidierMaisto/status/2070056175299653791#m",
+          "link": "https://nitter.net/brivael/status/2070730696792945134#m",
+          "date_utc": "2026-06-27T04:47:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "A quand l’enquête ???? Brivael Le Pogam (@brivael) C’est quand même très étrange que Aurore Kalucq pousse l’euro numérique à fond, comme si c’était une priorité absolue pour notre souveraineté… Aujourd’hui je veux mettre en lumière ses liens, de près ou de loin, avec George Soros. Elon Musk l’a dit clairement : l’organisation de Soros semble vouloir « rien de moins que la destruction de la civilisation occidentale ». Ces financements massifs des Open Society Foundations soutiennent des tas d’associations et de think tanks de gauche (et parfois d’extrême gauche) qui, sur le terrain, participent",
+          "link": "https://nitter.net/brivael/status/2070729836700508359#m",
+          "date_utc": "2026-06-27T04:44:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069827952611643392%2Fimg%2FMPkCszyaT0WrtO5p.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes, these are just the effects of the real problem. The root causes: • Corrupt politicians who ignore what citizens actually want. • No real justice for victims. • A socialist-communist economic system. Fix these 3. As long as you don’t address the roots, you’re stuck managing the symptoms: mass immigration, a broken economy, rising insecurity, etc. Treating effects without fixing causes is endless. A vicious cycle. Alice Smith (@TheAliceSmith) The root of the UK’s problems isn’t mass immigration or Islam or economic stagnation or a shortage of jobs. The root problem is a political one: our p",
+          "link": "https://nitter.net/brivael/status/2070729735609483438#m",
+          "date_utc": "2026-06-27T04:43:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Space IPO glitched the matrix. Elon Musk (@elonmusk) Amazing 🤩 — https://nitter.net/elonmusk/status/2070627631460995282#m",
+          "link": "https://nitter.net/brivael/status/2070727897426301392#m",
+          "date_utc": "2026-06-27T04:36:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "All eu countries will wake up. Gad Saad (@GadSaad) Belgium has finally woken up! — https://nitter.net/GadSaad/status/2070722029720924239#m",
+          "link": "https://nitter.net/brivael/status/2070727514461249618#m",
+          "date_utc": "2026-06-27T04:34:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Take care, Elon. Being pro-AC in Europe is far-far-far-right 😂 You are re-putting a coin in the machine. 😂😂😂😂 Elon Musk (@elonmusk) AC is awesome — https://nitter.net/elonmusk/status/2070716650522050832#m",
+          "link": "https://nitter.net/brivael/status/2070726241510977661#m",
+          "date_utc": "2026-06-27T04:29:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il est éloquent, mais c’est un énorme gauchiste dans l’empathie suicidaire complètement conne. D’ailleurs, @knafo_sarah l’avait DÉMOLI. Une vidéo d’analyse du bon @mrvicfer . Prenez les pop-corns. piped.video/watch?v=7yQCKUba… Link Sarah Knafo HUMILIE Dupond-Moretti 📥 Télécharger ma nouvelle leçon de persuasion : https://artisanatrh... youtube.com GeorgePhil 🇫🇷 ✝️ ☸️ 🇫🇷 🚀 (@Tinnitus77777) Sa réputation de grand avocat est basée sur quoi exactement ? Avec une telle goujaterie et une telle indigence d'argument ! Le réseautage ? la violence verbale et l'intimidation physique ? la nullité des juge",
+          "link": "https://nitter.net/brivael/status/2070725765440684542#m",
+          "date_utc": "2026-06-27T04:27:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070725769915969536%2FLAfaOdBs%3Fformat%3Djpg%26name%3D800x320_1"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=7yQCKUbatt8",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "À lire si tu te réveilles 👇 Brivael Le Pogam (@brivael) Manon Aubry, filmée ce week-end sur un voilier en Méditerranée pendant que la France grillait sous 35-40 °C. Pas un yacht de Bernard Arnault, rectifie-t-elle aussitôt : « un bateau à voile loué pour l’anniversaire de mon père ». « Faire le parallèle est insupportable ». C’est pourtant exactement le point. Manon Aubry est la caricature parfaite de la petite fille bourgeoise qui a tout eu et qui s’est inventé une cause existentielle pour donner du sens à son existence et, accessoirement, contrer l’ordre du monde qui l’a élevée. Fille de jou",
+          "link": "https://nitter.net/brivael/status/2070724545401467105#m",
+          "date_utc": "2026-06-27T04:22:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLxvug0akAAQGAX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Kill the cancer. And help to kill the cancer in Europe too, please. Grooming gangs in the metastasis of European woke communism. If you let the cancer grow in Europe, it will finish badly for all of the West. Jack (@jackunheard) TRUMP: \"Communism is an uncontrollable CANCER\" — https://nitter.net/jackunheard/status/2070590383155765363#m",
+          "link": "https://nitter.net/brivael/status/2070724357878411406#m",
+          "date_utc": "2026-06-27T04:22:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On célèbre toujours le 4 juillet 1776 comme un feu d'artifice. Mais l'histoire vraie est plus froide, plus improbable, et infiniment plus grande : c'est celle d'une idée qui a vaincu le plus grand empire du monde sans avoir, au départ, ni armée, ni argent, ni État. 19 avril 1775. Deux villages du Massachusetts : Lexington et Concord. Quelques centaines de fermiers — les minutemen, ainsi nommés parce qu'ils devaient être prêts à se battre en une minute — face aux tuniques rouges, l'infanterie la plus disciplinée de la planète. Personne ne donne cher de leur peau. Et pourtant ce jour-là claque c",
+          "link": "https://nitter.net/brivael/status/2070723103836037304#m",
+          "date_utc": "2026-06-27T04:17:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLyvi4QWcAAVRYY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Normality is not normal. Nobody should be normal. School legacy systems destroy singularity. We need to re-invent school system that builds not normal people. The future needs this. Kekius (@kekius9) I AM NOT NORMAL. and you? Video — https://nitter.net/kekius9/status/2070705364736373186#m",
+          "link": "https://nitter.net/brivael/status/2070722768610418984#m",
+          "date_utc": "2026-06-27T04:15:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070705291386380288%2Fimg%2Fzr-0e4jZSRIJm5BS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂",
+          "link": "https://nitter.net/brivael/status/2070722211955032326#m",
+          "date_utc": "2026-06-27T04:13:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLyu4GjXYAAva4Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "cc @OffTheWake",
+          "link": "https://nitter.net/brivael/status/2070718933712220169#m",
+          "date_utc": "2026-06-27T04:00:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’Europe est un vieux logiciel legacy de 70 ans. Il « tourne » encore, mais il est plein de dette technique, de backdoors idéologiques et de features de contrôle (l’euro numérique par clic en est le parfait exemple). Pas de rm -rf /Europe brutal. Pas de Frexit impulsif sans rollback plan. La seule approche d’ingénieur qui marche : construire une nouvelle cité à côté. Une Europe libérale, anti-régulation excessive, pro-strong capitalisme et innovation. On la connecte à l’ancienne via des ponts intelligents, on migre progressivement les fonctionnalités qui marchent (strangler fig pattern), et on",
+          "link": "https://nitter.net/brivael/status/2070718794469658774#m",
+          "date_utc": "2026-06-27T04:00:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "No AC is Nazi is Europe my bro Sir Doge of the Coin ⚔️ (@dogeofficialceo) Every household in Europe needs one of these things — https://nitter.net/dogeofficialceo/status/2070644780892102766#m",
+          "link": "https://nitter.net/brivael/status/2070718490374218068#m",
+          "date_utc": "2026-06-27T03:58:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLxoceNXYAAQ-n5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le parti ecolo est une officine nazi à démenteler dès lundi matin à la première heure, les Français sont en danger. Romain V (@VISMARA_R) Bah alors @David_Belliard , on a la clim au siège du Parti Écologistes ? 🤔 — https://nitter.net/VISMARA_R/status/2070451802168856651#m",
+          "link": "https://nitter.net/brivael/status/2070718324179140963#m",
+          "date_utc": "2026-06-27T03:58:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLu47-SXcAA4rkK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Alice Smith (@TheAliceSmith) As an experiential knowledge of history fades, calls to retry communism increase. — https://nitter.net/TheAliceSmith/status/2070405404631220561#m",
+          "link": "https://nitter.net/brivael/status/2070715649920258252#m",
+          "date_utc": "2026-06-27T03:47:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "En 1992, George Soros n'a rien construit. Il a parié contre la livre sterling, fait sauter la Banque d'Angleterre en un après-midi, et empoché plus d'un milliard. Une nation entière a payé l'addition pour qu'il gagne. C'est l'exemple le plus pur d'une vérité que personne ne veut regarder en face. Il y a deux façons de gagner de l'argent. Soit tu construis quelque chose dont les gens ont besoin. Soit tu trouves un moyen d'extraire sans rien donner en échange. Les deux remplissent le compte. Une seule te laisse entier. Parce que la vie est un jeu vidéo. Il y a les règles visibles — la physique, ",
+          "link": "https://nitter.net/brivael/status/2070713655222513715#m",
+          "date_utc": "2026-06-27T03:39:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070707579957792768%2Fimg%2FR7YX9zk-PF6_dmo6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "soon finished Natism (@his4Everz) The matrix is malfunctioning hard-core and it’s because of us. — https://nitter.net/his4Everz/status/2070711993242124706#m",
+          "link": "https://nitter.net/brivael/status/2070713428449120285#m",
+          "date_utc": "2026-06-27T03:38:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Video Heavy Pulp (@heavypulp) Video — https://nitter.net/heavypulp/status/2070325001228591239#m",
+          "link": "https://nitter.net/heavypulp/status/2070684113602752992#m",
+          "date_utc": "2026-06-27T01:42:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070683984019779584%2Fimg%2Fr-rMJPYokfUC4WDH.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2070324691395387392%2Fimg%2FQZDaWO0mvDCwwaPD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2070534162264588485#m",
+          "date_utc": "2026-06-26T15:46:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLwD2N3WAAAciTx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "sweet land...",
+          "link": "https://nitter.net/heavypulp/status/2070501858158764175#m",
+          "date_utc": "2026-06-26T13:38:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLvmcXEXsAAzAl1.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Check logs and triage issues with the official Axiom plugin Neil Jagdish Patel (@njpatel) Axiom skills available in Grok Build 🔨 — https://nitter.net/njpatel/status/2070585811301720544#m",
+          "link": "https://nitter.net/milichab/status/2070587616765042965#m",
+          "date_utc": "2026-06-26T19:18:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Explore the full story: nvda.ws/4uVbwxZ Link Zaha Hadid Architects Builds the Future with Next-Gen Toolkits on OpenUSD By developing on the NVIDIA Omniverse platform and an Universal Scene Description (OpenUSD) foundation, ZHA has streamlined workflows while accelerating iteration cycles and enhancing collaboration. nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2070597982664135081#m",
+          "date_utc": "2026-06-26T20:00:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070597984467767296%2FDnwnAH8s%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4uVbwxZ",
+              "content": "Zaha Hadid Architects | NVIDIA Customer Stories NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) Canada Česká Rep"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "AI is most impactful when it's tailored to the way teams already work. Discover how Zaha Hadid Architects uses local compute, fine-tuned AI models, and NVIDIA technologies to build custom AI tools that accelerate design while keeping proprietary data secure.",
+          "link": "https://nitter.net/nvidia/status/2070597978826449174#m",
+          "date_utc": "2026-06-26T20:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLw94snWgAAJ6r2.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
