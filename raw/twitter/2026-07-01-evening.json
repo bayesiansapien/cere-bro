@@ -1,0 +1,1890 @@
+{
+  "date": "2026-07-01",
+  "slot": "evening",
+  "scraped_ist": "2026-07-01 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "A City of Austin committee voted 10-0 to direct $200,000 in housing assistance toward a program prioritized for \"LGBTQIA+ and queer artists, including drag performers and nightlife creatives.\"",
+          "link": "https://nitter.net/AustinJustice/status/2072302124587749885#m",
+          "date_utc": "2026-07-01T12:51:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Finally, we've added a new Managed Agents Observability tab in Console. This provides session-level metrics such as input/output token use and tool usage.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072058433097122145#m",
+          "date_utc": "2026-06-30T20:43:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFtWzgbAAAoJy9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "To learn more about these features, you can ask Claude Code using our built-in \"claude-api\" skill and check out our cookbook: github.com/anthropics/claude…",
+          "link": "https://nitter.net/ClaudeDevs/status/2072058431712948563#m",
+          "date_utc": "2026-06-30T20:43:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://github.com/anthropics/claude-cookbooks/tree/main/managed_agents/roadtrip_planner",
+              "content": "claude-cookbooks/managed_agents/roadtrip_planner at main · anthropics/claude-cookbooks · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonpr"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Agent Overrides let you start a session from a stored agent and override parts of its config for that one session: swap out the model, system prompt, tools, mcp_servers, or skills.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072058429909471644#m",
+          "date_utc": "2026-06-30T20:43:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFpmqpbcAElqCt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’ve added a few updates to Claude Managed Agents: Streaming session event deltas, per-session agent overrides, new webhook event types, reverse pagination, and credential injection scoping. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2072058428424589412#m",
+          "date_utc": "2026-06-30T20:43:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072053071258263552%2Fimg%2FaAfUgsZzDfX9H_1Z.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Read more in the docs and prompting guide: platform.claude.com/docs/en/… Link Prompting Claude Sonnet 5 Behavioral differences and prompting patterns for Claude Sonnet 5, covering effort, adaptive thinking defaults, tool use, and migration from Claude Sonnet 4.6. platform.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2072020171125100551#m",
+          "date_utc": "2026-06-30T18:11:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072020105958166528%2Ftnn2loi4%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5",
+              "content": "Prompting Claude Sonnet 5 - Claude Platform Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Claude Platform Docs Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K Use cases Overview Ticket routing Customer support agent Content moderation Legal summarization Prompt engineering Overview Prompting best practices Prompting Claude Fable 5 Prompting Claude Opus 4.8 Prompting Claude Sonnet 5 Console prompting tools Test and evaluate Define success and build evaluations Using the Eva"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Sonnet 5 is a clear upgrade from 4.6, and the claude-api skill makes the migration even easier. This skill tunes prompts for Sonnet 5, recommends effort levels, and configures advisor mode. platform.claude.com/docs/en/… Link Claude API skill An open-source Agent Skill that provides Claude with up-to-date API reference material, SDK documentation, and best practices for building applications with the Claude API and Claude Managed Agents. platform.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018517898272844#m",
+          "date_utc": "2026-06-30T18:04:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072018122853548032%2FTif9tU0F%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill",
+              "content": "Claude API skill - Claude Platform Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Claude Platform Docs Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K Claude API skill Overview  Log in  Claude API skill  Overview Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Claude Platform Docs Solutions AI agents Code modernization Coding Customer support Ed"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Similarly, use multi-agent in Claude Managed Agents to mix Sonnet 5 and higher capacity sub-agents in order to delegate work to the right level of intelligence. platform.claude.com/docs/en/… Link Multiagent sessions Coordinate multiple agents within a single session. platform.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018516291825884#m",
+          "date_utc": "2026-06-30T18:04:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070291980572364800%2FlHQa9Lz_%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/managed-agents/multi-agent",
+              "content": "Multi-agent sessions - Claude Platform Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Claude Platform Docs Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K First steps Overview Quickstart Prototype in Console Define your agent Agent setup Tools MCP connector Permission policies Agent Skills Configure agent environment Cloud environment setup Cloud sandbox reference Self-hosted sandboxes  Delegate work to your agent Start a session Session operations Session event stream Sub"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Sonnet 5 works well in multi-model setups. Have a more capable model plan while Sonnet 5 executes, or flip it with the Advisor strategy so Sonnet 5 only calls one when it gets stuck. platform.claude.com/docs/en/… Link Advisor tool Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation. platform.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018514295320843#m",
+          "date_utc": "2026-06-30T18:04:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070424614015225856%2FIEk7YMw1%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+              "content": "Advisor tool - Claude Platform Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Claude Platform Docs Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K First steps Intro to Claude Quickstart Building with Claude Features overview Using the Messages API Stop reasons and fallback Refusals and fallback Fallback credit Model capabilities Extended thinking Adaptive thinking Effort Task budgets (beta) Fast mode (research preview) Structured outputs Citations Streaming Messages Batch p"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Sonnet 5 also holds up better in agents that run unattended. It keeps state across many steps, recovers from errors without losing the thread, and checks its own work as it goes. More multi-step runs finish correctly the first time.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018511992611017#m",
+          "date_utc": "2026-06-30T18:04:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Adaptive thinking replaces extended thinking. It's on by default in Claude Code and the API. Start at medium effort, and bump to high for long agentic runs or memory-heavy work. Most coding and tool use won't need more than that.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018510474268672#m",
+          "date_utc": "2026-06-30T18:04:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Sonnet 5 provides big gains over 4.6 across reasoning, tool use, coding, and knowledge work. It's built for real engineering work. Navigating large codebases, landing multi-file changes, and carrying long debugging or refactor tasks through to completion.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018506774958515#m",
+          "date_utc": "2026-06-30T18:04:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFJRuiaIAA4lSJ.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Sonnet 5 is here. Top-tier performance on coding and tool use at Sonnet pricing, with a 1M context window. It's the new default in Claude Code for Pro users, and available everywhere on the Claude Platform, including the API and Managed Agents. Claude (@claudeai) Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and more expensive models. Video — https://nitter.net/claudeai/status/2072017450611142835#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2072018504392601762#m",
+          "date_utc": "2026-06-30T18:04:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFJYt8XEAAYMDz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The @DeptofWar continues to open its doors and increase transparency, giving companies the timely decisions they need to stay agile in a highly competitive commercial environment. By opening the aperture to new entrants, the Department will ensure that our warfighters receive the most lethal and comprehensive suite of capabilities to dominate across all domains of warfare. BUILDING THE MODERN ARSENAL OF FREEDOM 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2072335036905349467#m",
+          "date_utc": "2026-07-01T15:02:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJpvAvWUAE2GDG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "UNSTOPPABLE AND UNYIELDING THE AMERICAN LEGACY 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2072325051932672478#m",
+          "date_utc": "2026-07-01T14:22:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJgpyyW4AA6tkn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The American warfighter always prevails. 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2072018872480264200#m",
+          "date_utc": "2026-06-30T18:06:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFKBXCXUAAVpo4.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Introducing TabFM, a foundation model designed specifically for tabular data classification regression. This approach allows generation of high-quality predictions on previously unseen tables in a single forward pass. Learn more and try out the model → goo.gle/4eR7uku",
+          "link": "https://nitter.net/GoogleResearch/status/2072057987762708932#m",
+          "date_utc": "2026-06-30T20:41:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFtfH0bUAIR61r.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/4eR7uku",
+              "content": "Introducing TabFM: A zero-shot foundation model for tabular data Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the "
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today we announce the expansion of our Heat Resilience data to cover 50+ global cities. By fusing satellite data, high-resolution imagery, and AI, we map building-level rooftop reflectivity to help urban planners mitigate extreme heat. Learn more: goo.gle/4aq5rlZ",
+          "link": "https://nitter.net/GoogleResearch/status/2072005064764563712#m",
+          "date_utc": "2026-06-30T17:11:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHME9gstbUAApsYi.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://goo.gle/4aq5rlZ",
+              "content": "Expanding our Heat Resilience data to 50+ global cities Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the future to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Every generation, someone \"rediscovers\" socialism and calls it new. It has failed in the same way, in the same order, every single time it's been tried.",
+          "link": "https://nitter.net/HouseGOP/status/2072346611519213830#m",
+          "date_utc": "2026-07-01T15:48:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Sheridan Gorman was too good for this world. May she rest in peace. Video",
+          "link": "https://nitter.net/HouseGOP/status/2072093438288204187#m",
+          "date_utc": "2026-06-30T23:02:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072093376854306816%2Fimg%2Fk8F3c9pBUK5wJrgv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "The insanity is over.",
+          "link": "https://nitter.net/HouseGOP/status/2072081312354087404#m",
+          "date_utc": "2026-06-30T22:14:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGC-NeXQAASsTZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Giving a trigger warning for “biological male” and “biological female” is CRAZY! Video",
+          "link": "https://nitter.net/HouseGOP/status/2072074198290157648#m",
+          "date_utc": "2026-06-30T21:46:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072074098394456064%2Fimg%2FS6_4mA9poGNZeNuE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Not to be cruel, but you guys aren’t very good at spelling. House Democrats (@HouseDemocrats) How do you spell “cruel”? G-O-P. — https://nitter.net/HouseDemocrats/status/2072018611628122334#m",
+          "link": "https://nitter.net/HouseGOP/status/2072059162125562133#m",
+          "date_utc": "2026-06-30T20:46:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Women’s sports are for… WOMEN!",
+          "link": "https://nitter.net/HouseGOP/status/2072053912463437886#m",
+          "date_utc": "2026-06-30T20:25:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇨🇳 THE PACIFIC BALANCE OF POWER: WHO BUILDS SHIPS FASTER WINS China is outpacing the U.S. Navy at an alarming rate. Beijing’s navy is already the world’s largest (~230-340 hulls and growing fast). Their shipbuilding capacity? Reportedly 200-232 times that of the United States. One Chinese shipyard often exceeds the entire U.S. industrial base. While America boasts superior technology, experience, and allies, China is cranking out warships, submarines, and auxiliaries at wartime tempo. In a prolonged Pacific fight, quantity and rapid replacement could overwhelm quality. Can the U.S. catch up?",
+          "link": "https://nitter.net/MarioNawfal/status/2072359897203679500#m",
+          "date_utc": "2026-07-01T16:41:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMKAUULWQAAe9CN.jpg",
+            "https://nitter.net/pic/media%2FHMKAU54XcAA5Gd_.jpg",
+            "https://nitter.net/pic/media%2FHMKAVgWXMAEQGdQ.png",
+            "https://nitter.net/pic/media%2FHMKAV4GWgAAMcwf.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇷🇺 When the going gets tough, the tough get clever! Check out these ingenious Russians. The government says you can’t fill up gas cans, only cars. NO PROBLEM! Just make a fake fuel port with a tube that feeds into the cans. Out of sight… out of mind! Writer: Jamie Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072358318333403475#m",
+          "date_utc": "2026-07-01T16:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072340182120955904%2Fimg%2Fdxv9KYHd-B-qnpbm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Meta stock is absolutely flying today. Up over +10% on reports the company is building a cloud infrastructure business to sell access to AI compute power. All those massive CapEx investments in data centers and GPUs might actually pay off big time. Source: Trading View, $META / Writer: Sol",
+          "link": "https://nitter.net/MarioNawfal/status/2072357060042457205#m",
+          "date_utc": "2026-07-01T16:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJ36T9WYAAMFJ9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇩 DR Congo just went 1-0 up on England in the 7th minute!!! Brian Cipenga with a clean low finish! Don't mess with DRC, England, or you'll be speedrunning to the airport like Germany and the Netherlands! Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072356327398031582#m",
+          "date_utc": "2026-07-01T16:27:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2072351986565992448%2Fpu%2Fimg%2FEYyFdAGBkCwbmz1N.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Yesterday’s congressional hearings were wild! The questioning by both @realannapaulina and @timburchett provoked responses that could make it difficult for some people to sleep at night! 😱 Video Rep. Anna Paulina Luna (@RepLuna) According to today’s expert witnesses: JACK RUBY AND CHARLES MANSON WERE MKULTRA ASSETS. I am following up directly with the CIA to demand the full release of MKUltra records. The American people deserve and will be delivered the truth. Video — https://nitter.net/RepLuna/status/2071994565981053389#m",
+          "link": "https://nitter.net/MarioNawfal/status/2072355578173686018#m",
+          "date_utc": "2026-07-01T16:24:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072355471713878016%2Fimg%2F1BsCEXqOCpuj5jF2.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2071994486742306816%2Fimg%2FEnnFemosuLOqGFJI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 JD Vance on war possibly starting with Iran again: \"If the Iranians try to rebuild the nuclear program, the President's got options. If the Iranians try to threaten their neighbors or fund terrorism, we've got options. But what we must never do is drop bombs just for the sake of dropping bombs. And that is what the President will never ask you to do. He'll ask you to go to war, yes. But when he asks you to go to war, he'll tell you exactly what you're going for.\" Writer: Mhedi Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 JD Vance: “We dropped some bombs a couple of days ago. You know why? Becau",
+          "link": "https://nitter.net/MarioNawfal/status/2072355042636533963#m",
+          "date_utc": "2026-07-01T16:21:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072349689953824769%2Fimg%2FMngAMWht6y4A940m.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072348579780259840%2Fimg%2FT5aI2ApiOaqqvBHY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇺🇸 Quantum computing just became a national priority, literally. This week, Trump signed two executive orders: \"Ushering in the Next Frontier of Quantum Innovation\" and \"Securing the Nation Against Advanced Cryptographic Attacks.\" Directing federal agencies to accelerate quantum development and migrate critical systems to quantum-resistant encryption. One target written into the orders: a \"scientifically relevant\" quantum computer running at a national lab or Department of Energy facility by 2028. Washington just put its money where the risk is. Writer: Michael BTQ Technologies (@BTQ_Tech) Qu",
+          "link": "https://nitter.net/MarioNawfal/status/2072354916320809138#m",
+          "date_utc": "2026-07-01T16:21:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069514621061410816%2Fimg%2FsMkDCXr-9LTkxwpc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 JD Vance: “We dropped some bombs a couple of days ago. You know why? Because the Iranians were shooting at commercial ships. We dropped some bombs, we applied some leverage, and we’ve had free commercial transit for the last 3 days.” Straightforward deterrence in action. Writer: Claudio Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 JD Vance on Iran: \"What I noticed about the people who are attacking the administration for negotiating is that they are the very same people who encouraged us to drop a few more bombs on places like Afghanistan. Those people refused to say what we were dropping bombs",
+          "link": "https://nitter.net/MarioNawfal/status/2072353285458042987#m",
+          "date_utc": "2026-07-01T16:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072348579780259840%2Fimg%2FT5aI2ApiOaqqvBHY.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072348123733655552%2Fimg%2FuK7yGgb_4uyXGEy9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 JD Vance on Iran: \"What I noticed about the people who are attacking the administration for negotiating is that they are the very same people who encouraged us to drop a few more bombs on places like Afghanistan. Those people refused to say what we were dropping bombs for.\" So true Writer: Samuel Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 JD Vance on Iran: \"There are people in this country who want to keep going and keep going. Why do we engage in negotiation? It's not out of weakness, but it's out of strength.\" Hey Mark Levin, there’s a message for u Writer: Samuel Video — https://nitter.net",
+          "link": "https://nitter.net/MarioNawfal/status/2072352207572283407#m",
+          "date_utc": "2026-07-01T16:10:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072348123733655552%2Fimg%2FuK7yGgb_4uyXGEy9.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072347577958158336%2Fimg%2FTB72yPbd3oc35_rV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 JD Vance on Iran: \"There are people in this country who want to keep going and keep going. Why do we engage in negotiation? It's not out of weakness, but it's out of strength.\" Hey Mark Levin, there’s a message for u Writer: Samuel Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 JD Vance on Iran: \"Iranians are further away from developing a nuclear bomb than they have ever been since basically the last 20-30 years.\" Always repeating the same old story to justify the war they started.... Writer: Samuel Video — https://nitter.net/MarioNawfal/status/2072349515328192734#m",
+          "link": "https://nitter.net/MarioNawfal/status/2072350768557080699#m",
+          "date_utc": "2026-07-01T16:05:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072347577958158336%2Fimg%2FTB72yPbd3oc35_rV.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072347128500748288%2Fimg%2FrNPprDligsIOWIXW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 JD Vance on Iran: \"Iranians are further away from developing a nuclear bomb than they have ever been since basically the last 20-30 years.\" Always repeating the same old story to justify the war they started.... Writer: Samuel Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072349515328192734#m",
+          "date_utc": "2026-07-01T16:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072347128500748288%2Fimg%2FrNPprDligsIOWIXW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 GOP Rep. Sheri Biggs on Iran: \"I think Iran is a very complex situation, and I believe their actions speak a lot louder than their words. So I've been kind of sitting on the sidelines waiting to see how this plays out, but I applaud the president.\" In other words: don’t you know there is an election in a few months, and I’m not trying to say something that might make AIPAC get involved in my race? Writer: Jamie Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072348252163203521#m",
+          "date_utc": "2026-07-01T15:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072322397202513920%2Fimg%2FagTEnB8Ydqf2msP2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇲🇽🇪🇨 This is disgusting. After Mexico vs Ecuador at the Estadio Azteca, Mexican fans attacked Ecuadorian journalists. Throwing beer, food, and objects at them. Completely unacceptable behavior that shames the host nation on the world stage. Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072346993876201495#m",
+          "date_utc": "2026-07-01T15:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072190603199201280%2Fimg%2FkHT70xnUj_UCggut.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Ahead of the Swift-Kelce wedding at MSG, workers are setting up tarp to block the view of what's arriving. We haven't seen concealment efforts like this since the 2020 election 😂 Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072345735090274736#m",
+          "date_utc": "2026-07-01T15:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2072324253773422592%2Fpu%2Fimg%2FGDz_sBWUHmVtHxAY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Sony is officially shutting down the PlayStation Store on PS3 and PS Vita, while physical media is being phased out too. New purchases will stop in stages starting August 2026 in some countries, with full global closure in July 2027. Disc production ends for new PlayStation games in 2028 Previously bought games will still be downloadable “for the foreseeable future,” but that’s the key phrase, it’s not a guarantee! We paid full price for those games years ago thinking we owned them. In reality, we only bought a revocable license. Sony can (and often does) change the terms whenever maintaining ",
+          "link": "https://nitter.net/MarioNawfal/status/2072344477612535856#m",
+          "date_utc": "2026-07-01T15:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJw2tbXEAAn4a0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇳 China is out here building the future in real-time 🤯 This rooftop misting system in Shanxi creates \"artificial rain\" that drops outdoor temperatures by 5–8°C in just minutes. Europeans could sure use this right now. Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072343218604441884#m",
+          "date_utc": "2026-07-01T15:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2072308352789671936%2Fpu%2Fimg%2FB5KuPHRlLVL5oRHc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 U.S. Official: NO Iranian funds have been unfrozen. “None will be released unless Iran meets the full requirements in the Memorandum of Understanding.” Any future release would require U.S. approval and be used only to buy American agricultural products for the Iranian people. The Iranians have contradicted the claims about buying U.S. produce. Sanctions leverage is still the main ball in play. Source: TABZ, i24NEWS (Telegram) / Writer: Jamie Mario Nawfal (@MarioNawfal) 🚨 BREAKING: 🇺🇸🇮🇷 U.S. and Iran reach preliminary deal for the release of $3 billion in frozen assets. Source: Al Arabiya",
+          "link": "https://nitter.net/MarioNawfal/status/2072342312538026318#m",
+          "date_utc": "2026-07-01T15:31:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJwWLaWwAAjSvS.jpg",
+            "https://nitter.net/pic/media%2FHMI8p3RXEAApNNv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇲🇽 I didn’t have this one on my bingo card! Mexico’s new hero: “Batman of Lagos de Moreno” is straight-up hunting motorcycle thieves and duct-taping them to street poles like human piñatas. Whiskers drawn on their faces, “RATERO” Sharpied across their foreheads, and signs listing their crimes. He’s already nabbed 5 guys in 10 days. Authorities' response: “He’s the villain.” Locals: “Finally, someone’s fighting crime.” Real-life Gotham, just with better tacos. Is he a hero or menace that should be stopped and arrested? Share your thoughts! Source: nexusshq (Instagram) / Writer: Jamie Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072340702466339187#m",
+          "date_utc": "2026-07-01T15:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072337268094742529%2Fimg%2FmZ36HvCPnZ6ZcUTC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇷🇺 The lines are blocks long, the price boards are blank, and the wait time is 6-12 hours. A severe fuel shortage has paralyzed Russia's Irkutsk region, following Ukraine's drone campaign targeting oil infrastructure. Irkutsk sits 4,200 km east of Moscow… so the effects are being felt pretty much everywhere. Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2072339443860787449#m",
+          "date_utc": "2026-07-01T15:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072323976315932672%2Fimg%2FiNyYLEehBn14LZ0c.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“Some” coding tasks will fail back: nitter.net/trq212/status/20721855… I will pull my “feels like having a World Cup goal taken away” post because it isn’t accurate. Anthropic (@AnthropicAI) Claude Fable 5 will be available again globally tomorrow. After a series of productive conversations with the US government, we're redeploying the model with a new set of classifiers to target and block more cybersecurity tasks. In the near term, some routine tasks like coding and debugging will fall back to Opus 4.8. We’ll continue to refine these classifiers over the coming weeks to reduce false positive",
+          "link": "https://nitter.net/Scobleizer/status/2072192679614763044#m",
+          "date_utc": "2026-07-01T05:36:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070875736559243267%2FBx2KSbPi%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/news/redeploying-fable-5",
+              "content": "Redeploying Claude Fable 5 \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Announcements Redeploying Fable 5 Jun 30, 2026 On Friday, June 12, the US government applied export controls to our newest models, Claude Fable 5 and Claude Mythos 5. This required us to restrict access to foreign nationals, whether inside or outside the United States. Because the order took effect immediately and we had no reliable way to verify nationality in real-time, we suspended access to both models for all users. As of today, June 30, the export controls on Fable 5 and Mythos 5 have been lifted . Fable 5 will be available starting tomorrow, Wednesday, July 1, to users globally on the Claude Platform, Claude.ai, Claude Code, and Claude Cowork. For Pro, Max, Te"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My reading comprehension isn’t high. Sorry. Dwayne (@CtrlAltDwayne) Seen a lot of people saying that Fable 5 can't be used for coding, which is not what Anthropic said at all. Some of you have skill issues around reading comprehension. It says \"some\" not all \"some\" meaning the classifier is probably sensitive depending on the task. — https://nitter.net/CtrlAltDwayne/status/2072185685931631037#m",
+          "link": "https://nitter.net/Scobleizer/status/2072188296772608155#m",
+          "date_utc": "2026-07-01T05:19:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMHhyzKaQAA_mk4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Funny, while we saw Steve Jobs arrive and said hi to him, both my son and I were so tired we just wanted to get home and get to sleep.",
+          "link": "https://nitter.net/Scobleizer/status/2072164065104035972#m",
+          "date_utc": "2026-07-01T03:43:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "One other fun thing was Kevin Rose @kevinrose showed up with the Digg team and did a Digg broadcast from the front of the store. Today, he and I are the only ones who are really using the X API to study the AI industry here on X. di.gg And my site is at alignednews.com/ai Link Tech News · Digg Tech 2K top stories, ranked by what the leading voices in tech and AI are posting and sharing on X. digg.com",
+          "link": "https://nitter.net/Scobleizer/status/2072162717285367970#m",
+          "date_utc": "2026-07-01T03:37:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://di.gg",
+              "content": "Tech News · Digg Tech News Today&#x27;s Highlights Cmd + K D Dark mode In case you missed it Ramp and Revelio Labs study of 21,559 firms finds high-intensity AI adopters grew headcount by 10.2% SI #584 | @SIGNULLL KR #384 | @RABOIS NB #353 | @NATHANBENAICH AL #195 | @LEVIE YL #3 | @YLECUN + 6 more It’s a new day at Digg. Fresh stories are clustering now. 0 % complete. It’s a new day at Digg. Fresh stories are clustering now. 50% complete. Top Stories Posts: — | Clusters: — | Next Crawl: — Today 7-days 1 0 Meta plans to launch a cloud service selling excess AI compute capacity and hosted models to offset infrastructure costs The service will compete with AWS Bedrock and CoreWeave. 3h | 32.4k 183 12 ZE #1700 | @ZEPHYR_Z9 CH #1364 | @KIMMONISMUS LA #1218 | @SCALING01 GM #178 | @GARYMARCUS CH "
+            },
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Thanks, @TrungTPhan , for reminding me of this glorious event. And @briansolis for the photo. Trung Phan (@TrungTPhan) Steve Jobs didn’t do an official event for the first iPhone launch day in June 2007. But he did roll up to the Pal Alto Apple store minutes after it opened. He walks around and chats with Andy Herzfeld and Bill Atkinson from original Macintosh team (the iWas There merch sick). Video — https://nitter.net/TrungTPhan/status/2071733992647499998#m",
+          "link": "https://nitter.net/Scobleizer/status/2072161070119367037#m",
+          "date_utc": "2026-07-01T03:31:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2071733915568783361%2Fimg%2FXP_8RkDOtmFzauB0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "19 years ago yesterday I bought the first iPhone at Steve Jobs’ store. When I arrived at the store with my son Patrick (who officially was first in line), there was nobody there. We set up our chairs and waited, and 45 minutes later, somebody else showed up. By the time the store opened, there was about 1,000 people behind us in line. It was one of the most remarkable Silicon Valley events I have ever been a part of. In line with us was the original Macintosh team, along with so many entrepreneurs and people who are running the tech industry today. Brian Solis took this photo, for instance, an",
+          "link": "https://nitter.net/Scobleizer/status/2072160649355091968#m",
+          "date_utc": "2026-07-01T03:29:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072156003710427136%2Fn_IybxWY%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://flic.kr/p/21R4C4",
+              "content": "Apple iPhone Launch Palo Alto - Robert Scoble | Read the pos… | Flickr Explore What’s New Recent Photos Trending Events The Commons Flickr Galleries World Map Camera Finder Flickr Blog MODE ✨ Get Pro Log In Sign Up ✨ Get Pro MODE Log In Explore What’s New Camera Finder Trending Events The Commons Flickr Galleries Flickr Blog About Jobs Blog Advertise Developers Guidelines Help Privacy Legal Terms Cookies English You seem to be using an unsupported browser. Please update to get the most out of Flickr. Back to photostream Brian Solis The Brian Solis Apple iPhone Launch Palo Alto - Robert Scoble Read the post about the iPhone launch on bub.blicio.us/?p=248 Done 2,172 views 1 fave 2 comments Uploaded on June 30, 2007 Taken on June 29, 2007 Brian Solis By: Brian Solis Apple iPhone Launch Palo A"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A new crypto wallet just arrived. Thanks @Ledger ! Ledger (@Ledger) The Ledger Wallet™ 4.0 app is here, alongside three bold new Ledger Nano™ Gen5 colors. Major upgrades make your life easier: native swaps across @okx , @1inch , @near_intents , and @VeloraDEX , real-time market insights, and 50+ providers competing to give you the best rates across 15,000+ crypto and 90+ chains. Now you have the freedom to choose what suits you best, every time. Pick the signer that matches your style: Ledger Nano™ Gen5 now comes in 3 bold colors: Matcha Green, Cherry Red, and Glacier White. Add exclusive Susa",
+          "link": "https://nitter.net/Scobleizer/status/2072131472518177160#m",
+          "date_utc": "2026-07-01T01:33:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGwl3VawAASJRf.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2041872004668911617%2Fimg%2FNhiVjIvrxNp9AkVF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "San Francisco Innovation in Robotics. stash (@stash_pomichter) Announcing the first production robot navigation framework on $500 hardware Explore the world once → your robot agent will relocalize and build a persistant, spatial memory across sessions SLAM, relocalization, loop closure, map i/o, planning, control No ROS. Open source. Video — https://nitter.net/stash_pomichter/status/2072119015255007340#m",
+          "link": "https://nitter.net/Scobleizer/status/2072123334205301034#m",
+          "date_utc": "2026-07-01T01:01:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072118958367690752%2Fimg%2FFq0KdqKx11j2_27k.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Great news. Anthropic (@AnthropicAI) We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. We’re grateful to our users for their patience, and to everyone who worked with us on redeploying the models. — https://nitter.net/AnthropicAI/status/2072106151890809341#m",
+          "link": "https://nitter.net/Scobleizer/status/2072115680846217278#m",
+          "date_utc": "2026-07-01T00:30:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Oh, I wish we had American companies innovating like this. Shenzhen Foundry (@shenzhenfoundry) Most AI glasses still default to adding a camera and a screen. This one made the opposite choice on purpose. 👓Pure titanium frame around 30g. 👓Takes real prescription lenses. 👓Open-ear audio that keeps you aware of your surroundings. 👓Real-time translation across 13 languages (works offline). 👓Solid meeting transcription. 8-10 hour battery. 👓No camera. No lens display. Because the people who actually wear glasses for work don’t want to look like they’re recording the room or staring down at their fac",
+          "link": "https://nitter.net/Scobleizer/status/2072084290314420332#m",
+          "date_utc": "2026-06-30T22:26:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072030782928072704%2Fimg%2Fuz5_J0-QEo-XEu67.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "STATEMENT: The Department strongly disagrees with today’s decision. This ruling strips away reasonable security measures and will make it easier for sensitive and classified information to reach our adversaries. Unescorted access to the Pentagon allowed journalists to observe activity patterns and develop relationships that contributed to repeated unauthorized disclosures of operational plans and intelligence. The court’s order effectively restores that risky environment at a time when protecting our military’s secrets is more critical than ever. The Department has a duty to safeguard classifi",
+          "link": "https://nitter.net/SeanParnellASW/status/2072051375941247213#m",
+          "date_utc": "2026-06-30T20:15:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFnvZgW4AATm2a.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "It’s Accountability Week for states which are not aggressively prosecuting Medicaid fraud and elder abuse. States receive hundreds of millions of federal dollars to fund Medicaid Fraud Control Units to fight fraud. Many states, however, have little to show for it. States MUST up their game and become as focused on fighting fraud, waste, and abuse as the @VP and @WHFraudTF are. 🧵",
+          "link": "https://nitter.net/WHFraudTF/status/2072339026128801906#m",
+          "date_utc": "2026-07-01T15:18:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Today, @OIGatHHS is putting NINE additional states—red states and blue states—on probation. These states also underperform in their job to fight fraud. HHS-OIG is holding these states accountable for their productivity. Before this Administration, these were rubber stamped, regardless of whether they effectively fought fraud. That has now ended.",
+          "link": "https://nitter.net/WHFraudTF/status/2072339034412556652#m",
+          "date_utc": "2026-07-01T15:18:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Federal funding for MFCUs is not the only money that is at stake when states fail to do their fraud-fighting job. That failure can put a state’s entire Medicaid program out of compliance and jeopardize a state’s entire Medicaid funding. States, the ball is in your court now. Start doing your job.",
+          "link": "https://nitter.net/WHFraudTF/status/2072339037185057055#m",
+          "date_utc": "2026-07-01T15:18:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "100 Days of WINNING - here are SOME of the things we've accomplished. Much more to come, including later today. 🇺🇸 White House Task Force to Eliminate Fraud (@WHFraudTF) We're sealing the deal tomorrow... 👀 — https://nitter.net/WHFraudTF/status/2072076969500385482#m",
+          "link": "https://nitter.net/WHFraudTF/status/2072334793900015948#m",
+          "date_utc": "2026-07-01T15:01:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJm6GQWoAAdnfC.jpg",
+            "https://nitter.net/pic/media%2FHMJm9E-W4AAJvwD.jpg",
+            "https://nitter.net/pic/media%2FHMJm-TuXUAAfd5S.jpg",
+            "https://nitter.net/pic/media%2FHMJm_tsXIAABvPS.jpg",
+            "https://nitter.net/pic/media%2FHMF4MHxWwAAmo8H.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "We're sealing the deal tomorrow... 👀",
+          "link": "https://nitter.net/WHFraudTF/status/2072076969500385482#m",
+          "date_utc": "2026-06-30T21:57:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMF4MHxWwAAmo8H.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "One week ago, @TheJusticeDept brought charges against 455 defendants tied to $6.5 BILLION of intended fraud. Here's where the money went 💸:",
+          "link": "https://nitter.net/WHFraudTF/status/2072021343084695681#m",
+          "date_utc": "2026-06-30T18:15:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFK5AyXYAAlyt0.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Claude Code is vibecoded and full of spyware, it's possible Anthropic doesn't even know what's in there. After reading this report, we are banning it from our systems and strongly encourage other enterprises to do the same. It is an unacceptable security risk.",
+          "link": "https://nitter.net/__tinygrad__/status/2072091861473431605#m",
+          "date_utc": "2026-06-30T22:56:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGMf2oaEAAEH_M.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "tinygrad's goal is to make it just as easy to train on a million open market consumer GPUs as it is to train on 100,000 controlled datacenter ones. This is how you ensure our future stays distributed, making sure performance scales with the log of capital and not worse.",
+          "link": "https://nitter.net/__tinygrad__/status/2072047279767466058#m",
+          "date_utc": "2026-06-30T19:59:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "The GPU icon means you are connected to a big GPU. comma (@comma_ai) 🙂 — https://nitter.net/comma_ai/status/2072033074930692276#m",
+          "link": "https://nitter.net/__tinygrad__/status/2072044257205235756#m",
+          "date_utc": "2026-06-30T19:47:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFXGX_bYAASppf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": ". @elonmusk you are in the wrong business with xAI. You should be selling FSD/Dojo chips and rackspace; giving the Grok weights and trainer away for free. I'm confident you can compete here.",
+          "link": "https://nitter.net/__tinygrad__/status/2072042356220834083#m",
+          "date_utc": "2026-06-30T19:39:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "In the future, frontier models will mostly all be given away by the chip and hardware makers. It makes their hardware more useful and drives sales. We will do it if others don't.",
+          "link": "https://nitter.net/__tinygrad__/status/2072039913483383264#m",
+          "date_utc": "2026-06-30T19:29:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Agree “paula” (@paularambles) actually insane stuff happening here — https://nitter.net/paularambles/status/2072024792056909935#m",
+          "link": "https://nitter.net/bcherny/status/2072105851457019944#m",
+          "date_utc": "2026-06-30T23:51:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFPjf0aEAAxxvW.png",
+            "https://nitter.net/pic/media%2FHMFPj46bkAAYY80.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "You asked, we listened. Claude Desktop on Linux is here! Download link: code.claude.com/docs/en/desk… Link Claude Desktop on Linux (beta) - Claude Code Docs Install and update the Claude desktop app on Ubuntu and Debian code.claude.com ClaudeDevs (@ClaudeDevs) Claude Desktop is now available on Linux (Ubuntu and Debian) in beta. Alongside the browser and terminal, you now get a first-class desktop experience with Claude Code, Claude Cowork, and chat on all paid plans. — https://nitter.net/ClaudeDevs/status/2071988881717871065#m",
+          "link": "https://nitter.net/bcherny/status/2072000214634742243#m",
+          "date_utc": "2026-06-30T16:52:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2071988887183032320%2FUxowggtb%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/media%2FHMEuXrJbEAAiTYm.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://code.claude.com/docs/en/desktop-linux",
+              "content": "Claude Desktop on Linux (beta) - Claude Code Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Claude Code on desktop Claude Desktop on Linux (beta) Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Getting started Overview Quickstart Changelog Core concepts How Claude Code works Extend Claude Code Explore the .claude directory Explore the context window Prompt caching Use Claude Code Store instructions and memories Permission modes Manage sessions C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Grok is shipping so hard!!!! xAI (@xai) Introducing Voice Agent Builder: a no-code platform to create human-like voice agents with Grok Voice. Available today at $0.05 / min. x.ai/voice Video — https://nitter.net/xai/status/2072342803787702422#m",
+          "link": "https://nitter.net/brivael/status/2072343037439574050#m",
+          "date_utc": "2026-07-01T15:34:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072342478066479104%2Fimg%2F28tPkypIe4hF8Sc5.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/voice",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": ". @argildotai is the long term category player. The others are corporate bullshit tools. Argil is the creative layer for the west. Mark my word. No competition. Brivael Le Pogam (@brivael) Best product on the market. Argil has no competition. — https://nitter.net/brivael/status/2072338795198927240#m",
+          "link": "https://nitter.net/brivael/status/2072339477008179513#m",
+          "date_utc": "2026-07-01T15:20:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. Steve 🇺🇸 (@SteveLovesAmmo) The next Civil War in the United States won’t be north vs south. It will be Americans vs. Communists. You can bookmark this because I’m right. — https://nitter.net/SteveLovesAmmo/status/2072130357516751171#m",
+          "link": "https://nitter.net/brivael/status/2072337940479430810#m",
+          "date_utc": "2026-07-01T15:14:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Alice Cordier (@CordierAlice2) Le lundi, Manon a voilier. Le mardi, Manon a Audi (supplément valise balancée au chauffeur). Le mercredi, Manon a business classe. Normal qu’elle ne possède qu’un vélo, tout le reste les français le lui offrent ! — https://nitter.net/CordierAlice2/status/2072333479241458116#m",
+          "link": "https://nitter.net/brivael/status/2072334575808729220#m",
+          "date_utc": "2026-07-01T15:00:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJoULLXoAACptv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "la \"Campagne de harcèlement\" on comment juste ta vie ma cocotte :) arrête de pleurer Ziggy 🇮🇹🇫🇷 (@platinium230) #LFI en PLS Video — https://nitter.net/platinium230/status/2072289354421072306#m",
+          "link": "https://nitter.net/brivael/status/2072333336438042741#m",
+          "date_utc": "2026-07-01T14:55:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072289289933651968%2Fimg%2F7ew2z0AtamFtEo_Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pays en cours de tiers mondisation... Hugo Le Belzic (@hugolb05) Aujourd'hui, ma copine a reçu un appel de l'hôpital, son grand-père a été hospitalisé durant la canicule et les médecins pensent qu'il pourrait ne pas survivre. Chaque été, on débat encore de savoir si la climatisation est un \"luxe\" ou une \"aberration écologique\", pendant que des personnes âgées, des soignants, des patients et des travailleurs subissent des températures qui deviennent dangereuses. En 2026, 7e puissance mondiale, comment est-il encore acceptable que des hôpitaux, des écoles, des transports publics ou des bâtiments",
+          "link": "https://nitter.net/brivael/status/2072332063257104852#m",
+          "date_utc": "2026-07-01T14:50:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu savais que tu pouvais créer des avatars indiscernables de la réalité sur argil.ai ? On a pas mal de clients qui vendent des packages de 50/100 vidéos pour quelques milliers d'euros. Un des use cases qui marche bien, c'est que tu fais plusieurs avatars personnalisés et tu fais des vidéos pour promouvoir un business local (agent immobilier par exemple) Like/Share ce post si tu veux que je te fasse un tutorial complet.",
+          "link": "https://nitter.net/brivael/status/2072330780102037652#m",
+          "date_utc": "2026-07-01T14:45:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJk6MXWgAAvHa9.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://argil.ai",
+              "content": "Argil - Generate videos with your AI clone Products AI Fictions Yourself in any situation AI Influencers Create your AI Influencer AI Avatars Design your AI avatar Article to Video Transform your content Product Showcase Build with Argil Affiliation Earn money with Argil Resources Blog Browse by category Careers Join our team Documentation API Build with Argil Pricing Showcase Compare App Sign in Start free trial Sign in Sign Up New 10m views generated with AI Avatars Generate engaging AI videos Get a perfect video for social media of you or a generic avatar in 2 minutes Backed by Start 5-day FREE trial Trusted by leaders at Leverage the highest performing media Develop your brand with AI UGC, educate, or become the next big creator Promotion Education Entertainment Promotion Pick the most"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂😂 Putain le niveau Raphael Grably (@GrablyR) Dans son programme, le PS veut imposer une taxation du numérique à hauteur de 10 centimes par gigaoctet pour \"financer l'infrastructure réseau\". — https://nitter.net/GrablyR/status/2072270477460918710#m",
+          "link": "https://nitter.net/brivael/status/2072329540030919082#m",
+          "date_utc": "2026-07-01T14:40:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMIu2pcXIAAQvPK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "En novembre 1977, Libération publie un dessin représentant une petite fille. Je ne décrirai pas ce qu'on lui fait faire, c'est insoutenable. Au-dessus, un titre : « Apprenons l'amour à nos enfants. » Ce n'est pas un dérapage. Ce n'est pas la bourde d'un pigiste qu'on aurait viré le lendemain. C'est une ligne. La preuve : en mars 1979, quand la justice s'en mêle, le directeur du journal, Serge July, ne s'excuse pas. Il republie tout, en bloc, fièrement, sous le titre « Les outrages de Libération ». Neuf inculpations pour outrage aux bonnes mœurs, et il les brandit comme des décorations. Dans le",
+          "link": "https://nitter.net/brivael/status/2072329355355644183#m",
+          "date_utc": "2026-07-01T14:39:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I can pay a lot for that Perlina Trump (@perlinaino) Do you want Elon Musk to Expose and Dismantle the George Soros network? Yes No — https://nitter.net/perlinaino/status/2072010130401775630#m",
+          "link": "https://nitter.net/brivael/status/2072328899724271900#m",
+          "date_utc": "2026-07-01T14:38:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFCOflaUAA46Po.jpg",
+            "https://nitter.net/pic/media%2FHMFCOf3bYAAAYeJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ayushi☄️ (@iyoushetwt) Meta invested $73B into this — https://nitter.net/iyoushetwt/status/2071959165401239664#m",
+          "link": "https://nitter.net/brivael/status/2072301367046136276#m",
+          "date_utc": "2026-07-01T12:48:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMET3z3XAAAnB_V.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hâte de voir cette humiliation. 80IQ vs 160IQ fight 😂 Sarah Knafo (@knafo_sarah) Réponse d’Antoine Léaument : 31 février prochain. — https://nitter.net/knafo_sarah/status/2072297866408906830#m",
+          "link": "https://nitter.net/brivael/status/2072300659404149055#m",
+          "date_utc": "2026-07-01T12:45:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La mère de toute les bataille de chasser les agents du WEF et de Soros du champ politique. Les Echos (@LesEchos) Edouard Philippe : « La mère de toutes les batailles, c'est l'équilibre des retraites » trib.al/X7e9xZy Link Edouard Philippe : « La mère de toutes les batailles, c est l équilibre des retraites » Dans une interview aux « Echos », le candidat à la présidentielle fixe un objectif de déficit de 2 % du PIB en 2032. Edouard Philippe se défend de promettre du sang et des larmes même s il propose... lesechos.fr — https://nitter.net/LesEchos/status/2071988559519560029#m",
+          "link": "https://nitter.net/brivael/status/2072299877648810467#m",
+          "date_utc": "2026-07-01T12:42:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2071988568772263938%2FrByL96T9%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/X7e9xZy",
+              "content": "Edouard Philippe : « La mère de toutes les batailles, c&#x27;est l&#x27;équilibre des retraites » - Les Echos Voir la bourse sur Investir Recherche En continu Le journal Mes articles Mes secteurs Machiavel Newsletters Podcasts Infographies Théma Le Cercle Thème Automatique Se connecter S’abonner À la une La Sélection Idées Économie Politique Entreprises Finance - Marchés Bourse Monde Tech-Médias Start-up Régions Patrimoine Travailler mieux Week-end Publicité Interview Edouard Philippe : « La mère de toutes les batailles, c&#x27;est l&#x27;équilibre des retraites » Contenu réservé aux abonnés Dans une interview aux « Echos », le candidat à la présidentielle fixe un objectif de déficit de 2 % du PIB en 2032. Edouard Philippe se défend de promettre du sang et des larmes même s&#x27;il propose"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Thierry Breton est l'incarnation paroxystique de tout ce qui ne va pas en Europe, le technocrate destructeur de valeur qu'on érige en sauveur. Rappel du bilan. Atos, fleuron numérique français, entre ses mains de 2008 à 2019. Boulimie de rachats à crédit, Siemens IT, Bull, Syntel payé 3,4 milliards. Résultat, 4,4 milliards de dépréciations d'actifs, une dette abyssale, un titre passé de 65 euros à moins de 2. Lui part avant l'effondrement, encaisse 40 millions en vendant au sommet, plus une retraite chapeau de 14 millions, et laisse l'entreprise frôler la faillite. Voilà l'homme qu'on nous ven",
+          "link": "https://nitter.net/brivael/status/2072299092441461104#m",
+          "date_utc": "2026-07-01T12:39:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072264812067721216%2Fimg%2F3FrWqlvEkOcZmjBX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂",
+          "link": "https://nitter.net/brivael/status/2072296983956496481#m",
+          "date_utc": "2026-07-01T12:31:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJHHfbWEAADtZz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La plupart des gens sont de droite. Ils ne le savent simplement pas encore. On leur a fait croire que vouloir des choses normales faisait d'eux des monstres. Que réclamer de l'ordre, c'était être autoritaire. Que défendre le mérite, c'était mépriser les faibles. Que vouloir vivre tranquille, c'était manquer de cœur. Alors ils se sont tus. Ils ont baissé la tête. Ils ont pris la carte du \"camp du bien\" pour avoir la paix, et ils ont fini otages de gens qui ne leur ressemblent pas. Regarde tout ce que tu as accepté sans t'en rendre compte. Tu as accepté qu'on fouille tes pensées avant de regarde",
+          "link": "https://nitter.net/brivael/status/2072296520557248684#m",
+          "date_utc": "2026-07-01T12:29:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Coin Academy (@coinacademy_fr) 🚨 Anthropic redéploie Claude Fable avec de nouveaux classificateurs afin de bloquer davantage de tâches liées à la cybersécurité. Problème : les demandes de code et de débogage basculeront directement vers Opus 4.8. — https://nitter.net/coinacademy_fr/status/2072230938885357794#m",
+          "link": "https://nitter.net/brivael/status/2072292636065476765#m",
+          "date_utc": "2026-07-01T12:14:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMILDb5XQAA6gEv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Bleu Blanc Rouge ! 🇫🇷 (@LBleuBlancRouge) Hey @ALeaument , t’as pas entendu @knafo_sarah ? Elle t’a dit : « Quel jour ? Quelle heure ? » 🙃 — https://nitter.net/LBleuBlancRouge/status/2072266662342955457#m",
+          "link": "https://nitter.net/brivael/status/2072292452011008017#m",
+          "date_utc": "2026-07-01T12:13:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMIri7hWIAA-5WX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yona Faedda (@yona_faedda) Jour 1 afficher les gauchistes qui m’insultent dans la rue #Besancon — https://nitter.net/yona_faedda/status/2072256183084220840#m",
+          "link": "https://nitter.net/brivael/status/2072282549292872013#m",
+          "date_utc": "2026-07-01T11:33:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMI5_hIXAAA_JSY.jpg",
+            "https://nitter.net/pic/media%2FHMIiAz-WAAAgCeO.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "See our full model rankings: cursor.com/evals",
+          "link": "https://nitter.net/cursor_ai/status/2072020787880759506#m",
+          "date_utc": "2026-06-30T18:13:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://cursor.com/evals",
+              "content": "Cursor · CursorBench Skip to content Cursor Product ↓ Agents Cloud Automations CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download CursorBench 3.1 We evaluate agents on ambiguous, multi-file tasks from real Cursor sessions. Higher scores are better. More about CursorBench ↗ A scatter and line chart comparing Fable 5, Opus 4.8, Opus 4.7, GPT-5.5, Sonnet 5, Sonnet 4.6, GLM 5.2, Composer 2.5, and Composer 2 scores against average cost per task. 75 % CursorBench 3.1 score 70 % 65 % 60 % 55 % 50 % 45 % 40 % 35 % 30 % $20 $16 $12 $8 $4 $0 Average cost per task Fable 5 high Composer 2.5 GPT-5.5 medium Gemini 3.5 Flash Opus 4.8 high Sonnet 5 high Ki"
+            }
+          ]
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Claude Sonnet 5 is now available in Cursor. On CursorBench, it's a meaningful step up from Sonnet 4.6: 57% vs. 49%.",
+          "link": "https://nitter.net/cursor_ai/status/2072020786181988418#m",
+          "date_utc": "2026-06-30T18:13:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFLuJjaEAAgpWK.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "@swyx sorry can't do my slide claude think it's not safe, i'll do only this kind of slide instead elie (@eliebakouch) i'm hesitating to put that in a slide for AI Engineer WF but i'm not sure everyone will understand the reference 😭 — https://nitter.net/eliebakouch/status/2071496159936516303#m",
+          "link": "https://nitter.net/eliebakouch/status/2072202893143478401#m",
+          "date_utc": "2026-07-01T06:17:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHL9uB8hbkAAoG22.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i'm preparing my slides for tomorrow and asked claude to change the color of the (auto research) plots and got blocked by the safety filter, everything is fine :) elie (@eliebakouch) will be speaking about automated AI research at @aiDotEngineer we believe frontier models need the right environments to evolve and do research, we found that speedruns like nanogpt by @karpathy @kellerjordan0 et al are a simple but very effective setup for evaluating research capabilities, and potentially for training and discovery as well oh and i should (hopefully) have some new interesting results to show, sup",
+          "link": "https://nitter.net/eliebakouch/status/2072202622027833618#m",
+          "date_utc": "2026-07-01T06:16:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMHw1QjaQAATvO8.jpg",
+            "https://nitter.net/pic/media%2FHLnn8WZbUAAg11X.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "so is it like flops per joule? i'm not knowledgable enough to define good axis here, like flops per joule probably isn't a good way to see latency gains? is it even a good one for throughput?",
+          "link": "https://nitter.net/eliebakouch/status/2071998546145067481#m",
+          "date_utc": "2026-06-30T16:45:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "what is the pareto frontier they are optimizing for? my understanding is that they both work on latency (new shared memory) and throughput (more flops per joule?) Etched (@Etched) We're coming out of stealth. We've built our first racks after a successful A0 tapeout, $1B+ in customer contracts, and $800m raised. Early customer tests show us achieving SOTA throughput, latency, and power efficiency on inference workloads. Our first racks ship this summer. — https://nitter.net/Etched/status/2071972062202343590#m",
+          "link": "https://nitter.net/eliebakouch/status/2071998132486074652#m",
+          "date_utc": "2026-06-30T16:43:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHME1zoMaQAA80JW.png",
+            "https://nitter.net/pic/media%2FHMEfnAMbAAAlKme.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Any mutuals going to/in DC for the 4th?",
+          "link": "https://nitter.net/heavypulp/status/2072305588269437392#m",
+          "date_utc": "2026-07-01T13:05:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Combination of @grok @imagine and Public Domain archival footage for the visuals. Song created with @suno Studio 🧡🇺🇸",
+          "link": "https://nitter.net/heavypulp/status/2072057296885039429#m",
+          "date_utc": "2026-06-30T20:38:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Read the full blog here: blog.kilo.ai/p/powerful-ai-c… Link Powerful AI Coding in Kilo Code Without Frontier-Model Prices A practical guide to getting real work done with AI coding tools without bleeding money_ blog.kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2072192533887697107#m",
+          "date_utc": "2026-07-01T05:36:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072192498114396160%2Fj8zBMU-r%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/powerful-ai-coding-in-kilo-code-without",
+              "content": "Powerful AI Coding in Kilo Code Without Frontier-Model Prices Kilo Blog Subscribe Sign in Powerful AI Coding in Kilo Code Without Frontier-Model Prices A practical guide to getting real work done with AI coding tools without bleeding money_ Brendan O'Leary Jun 30, 2026 7 3 Share Last month I watched a friend open his OpenRouter dashboard and wince. He’d burned through $47 in a single afternoon of heavy coding — and honestly, most of those tokens went to routine stuff. Renaming variables. Writing boilerplate tests. Generating commit messages. Frontier-model work on tasks that didn’t need a frontier model. I have four kids. I notice avoidable expenses. So I’ve spent real time figuring out how to use Kilo Code effectively without the bill creeping up on me. You can get completely free if you "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "So the actual menu looks like this: $0 if you'll take free-model trade-offs. Roughly $5 to 15 a month for pro-quality output on basically everything via Auto Efficient or cheap BYOK. $20+ when you genuinely want frontier on hard problems, or want one clean bill at zero markup with Kilo Pass. Same workflow across all three. The only thing that changes is the model. Stop sending $47 afternoons at $5 problems.",
+          "link": "https://nitter.net/kilocode/status/2072192532130279741#m",
+          "date_utc": "2026-07-01T05:36:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Free is great until you're doing work you really care about. That's where I stop recommending free and reach for Auto Efficient. It reads your session in context, classifies each request by difficulty, and sends it to the cheapest model that has actually benchmarked accurate enough for that kind of task.",
+          "link": "https://nitter.net/kilocode/status/2072192530133754175#m",
+          "date_utc": "2026-07-01T05:36:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "If you just want to stop paying, you can take Kilo to literal zero. Pick Auto Free from the model dropdown for chat. It routes you to the best free models on OpenRouter and re-points that mapping server-side as providers rotate their promos, so you're always on whatever's currently good without babysitting it.",
+          "link": "https://nitter.net/kilocode/status/2072192527919112341#m",
+          "date_utc": "2026-07-01T05:36:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "The fix isn't \"use a worse model and suffer.\" It's matching the model to the task. And the annoying part of doing that by hand is you have to keep thinking about it, mid-flow, every single request. So either you automate the decision, or you go fully free and stop caring. Both work in Kilo. Here's both.",
+          "link": "https://nitter.net/kilocode/status/2072192525926863009#m",
+          "date_utc": "2026-07-01T05:36:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "That's the whole problem in one screenshot. The expensive model isn't expensive because it's bad, it's expensive because it's overkill for 80% of what you actually do in a day. Renaming things. Scaffolding tests. Writing commit messages. None of that needs frontier reasoning. You're just defaulting to it.",
+          "link": "https://nitter.net/kilocode/status/2072192524345565463#m",
+          "date_utc": "2026-07-01T05:36:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Most people doing AI coding are quietly overpaying, and they don't notice because it leaks out a few cents at a time. We saw someone's OpenRouter dashboard last month showing $47 spent in one afternoon. When we asked what they built, it was mostly renamed variables and boilerplate tests. They paid Opus prices to do autocomplete work 🧵",
+          "link": "https://nitter.net/kilocode/status/2072192522705645935#m",
+          "date_utc": "2026-07-01T05:36:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "🚨 Claude Sonnet 5 dropped today. ...and it's already live in Kilo Code. Select it from the model picker in VS Code or CLI and start using it now. For those who had the chance to experiment with Fable 5 - how does the new Sonnet compare?",
+          "link": "https://nitter.net/kilocode/status/2072089797120692575#m",
+          "date_utc": "2026-06-30T22:47:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGJ-o7WQAAy4D-.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Here's the links for my conversation with Anthony Kaldellis: YouTube: piped.video/watch?v=pv1TUJSE… Spotify: open.spotify.com/show/2MAi0B… Podcast: lexfridman.com/podcast",
+          "link": "https://nitter.net/lexfridman/status/2072080363107533010#m",
+          "date_utc": "2026-06-30T22:10:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMF-9U-XAAA1ucW.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=pv1TUJSEM2k",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            },
+            {
+              "url": "https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL",
+              "content": "Lex Fridman Podcast | Podcast on Spotify Lex Fridman Podcast Lex Fridman Follow Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. 4.8 (82.8K) Technology All Episodes #498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise Fall of Empires Anthony Kaldellis is a historian of the Roman Empire and author of The New Roman Empire , a comprehensive history of the Byzantine Empire (Eastern Roman Empire).Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sdSee below for timestamps, transcript, and to "
+            },
+            {
+              "url": "https://lexfridman.com/podcast",
+              "content": "Lex Fridman Podcast - Lex Fridman Skip to content Lex Fridman Research Scientist at MIT. Host of Lex Fridman Podcast. Menu Lex Fridman MENU MENU Lex Fridman Podcast Contact Lex X / Twitter YouTube Lex Fridman Podcast This podcast hosts conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. To support this podcast, please consider doing the following: Subscribe to Lex Fridman or Lex Clips YouTube channels. Subscribe on Apple Podcasts , Spotify , RSS . If you enjoy it, consider rating it 5 stars. Connect on X/Twitter , LinkedIn , Instagram , "
+            }
+          ]
+        },
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Here's my conversation with Anthony Kaldellis about the deep history of the Roman Empire in the west and the east (the Byzantine Empire). This was a truly fascinating conversation with a lot of wisdom for the modern world and for the future of human civilization. The Roman state lasted over 2,200 years. If we want to understand human nature, the modern world, and how humanity can flourish, it is valuable to study history, especially the history of why societies survive and why they collapse. It's here on X in full and is up everywhere else (see comment). Timestamps: 0:00 - Episode highlight 1:",
+          "link": "https://nitter.net/lexfridman/status/2072080358397423808#m",
+          "date_utc": "2026-06-30T22:10:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072076659444871169%2Fimg%2FoeSMVZRGLfprQZjQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Article The Incredible Shrinking Transistor Shattering Barriers and Forging Ahead We are on track to witness a remarkable milestone by the end of this decade – one trillion transistors within a tiny microprocessor package. This essay takes a",
+          "link": "https://nitter.net/magicsilicon/status/2072347670900019261#m",
+          "date_utc": "2026-07-01T15:52:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFplzIbcAAWnXp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "You either achieve scale and become a dominant platform, or you perish.",
+          "link": "https://nitter.net/magicsilicon/status/2072199517181788649#m",
+          "date_utc": "2026-07-01T06:03:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "It is funny how anyone with even a half baked idea is called an “Nvidia competitor” these days",
+          "link": "https://nitter.net/magicsilicon/status/2072193809744875928#m",
+          "date_utc": "2026-07-01T05:41:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "After a very long hiatus, @intel is once again expanding manufacturing operations in Santa Clara, right in the heart of Silicon Valley! Intel is committed to restoring American leadership in semiconductor manufacturing!",
+          "link": "https://nitter.net/magicsilicon/status/2072027809405657555#m",
+          "date_utc": "2026-06-30T18:41:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFSTlIaQAAyyuG.jpg",
+            "https://nitter.net/pic/media%2FHMFSTlGawAAXJfP.jpg",
+            "https://nitter.net/pic/media%2FHMFSTlHbEAASMFd.jpg",
+            "https://nitter.net/pic/media%2FHMFSTlEaYAEc0jm.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Build a voice agent connected to your scheduling app, knowledge base, and any custom MCPs or APIs Phone number included to get started! xAI (@xai) Introducing Voice Agent Builder: a no-code platform to create human-like voice agents with Grok Voice. Available today at $0.05 / min. x.ai/voice Video — https://nitter.net/xai/status/2072342803787702422#m",
+          "link": "https://nitter.net/milichab/status/2072343382685565006#m",
+          "date_utc": "2026-07-01T15:35:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072342478066479104%2Fimg%2F28tPkypIe4hF8Sc5.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/voice",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: U.S. Commerce Sec. Howard Lutnick sends a third letter to Anthropic FABLE 5 AND MYTHOS 5 OFFICIALLY UNBANNED Mr Brown WON.",
+          "link": "https://nitter.net/ns123abc/status/2072112424660992188#m",
+          "date_utc": "2026-07-01T00:17:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGfRNFWYAE93r1.jpg",
+            "https://nitter.net/pic/media%2FHMGcs1SXoAAtLH_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING : U.S. government expected to lift export controls on FABLE 5 tonight 17 days in federal custody WE ARE SO BACK",
+          "link": "https://nitter.net/ns123abc/status/2072090044618125671#m",
+          "date_utc": "2026-06-30T22:48:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGK6ejWoAAXcrK.jpg",
+            "https://nitter.net/pic/media%2FHMGK6d6WgAAtq4V.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Sonnet 5 burns tokens ALOT faster than Opus 4.8",
+          "link": "https://nitter.net/ns123abc/status/2072067889360756997#m",
+          "date_utc": "2026-06-30T21:20:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMF2w8kXgAErRfo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: Tesla just poached Intel's 18A architect to lead TERAFAB trillion watts of compute/year ITS HAPPENING",
+          "link": "https://nitter.net/ns123abc/status/2072041356508184961#m",
+          "date_utc": "2026-06-30T19:35:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFeoeUWIAAUt8K.jpg",
+            "https://nitter.net/pic/media%2FHMFeoeWWsAAWkr6.jpg",
+            "https://nitter.net/pic/media%2FHMFeoebW0AAtFUm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: CLAUDE SONNET 5 JUST DROPPED",
+          "link": "https://nitter.net/ns123abc/status/2072019085089439768#m",
+          "date_utc": "2026-06-30T18:07:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFKYJ7WkAEOyKP.jpg",
+            "https://nitter.net/pic/media%2FHMFKYKKXIAA_r8s.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "There is a special place in hell for the sick bums who torture these dogs and the politicians who facilitate and abide this. JoeyTuccio (@joey_tuccio) Weeks have passed since this puppy and others were starved to death on Skid Row. Rescuers asked Karen Bass for help. Rescuers asked the police for help. All pleas were ignored and the puppies died slowly and painfully. No investigation. No statement from any LA leader. — https://nitter.net/joey_tuccio/status/2072347674301309322#m",
+          "link": "https://nitter.net/spencerpratt/status/2072351786049167617#m",
+          "date_utc": "2026-07-01T16:09:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJ1N7IWoAAoDl7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "What do you think they mean by this? Spencer Pratt (@spencerpratt) A lot of billionaires naively think, when the commie says “billionaires shouldn’t exist”, they mean they just want to tax you out of the 3 comma club. When the commie says “billionaires shouldn’t exist”, they mean they want to kill you. They literally don’t want YOU to exist. — https://nitter.net/spencerpratt/status/2072337312239988985#m",
+          "link": "https://nitter.net/spencerpratt/status/2072340790513377576#m",
+          "date_utc": "2026-07-01T15:25:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJus1ZbQAAF2jk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "A lot of billionaires naively think, when the commie says “billionaires shouldn’t exist”, they mean they just want to tax you out of the 3 comma club. When the commie says “billionaires shouldn’t exist”, they mean they want to kill you. They literally don’t want YOU to exist. Sean Padraig McCarthy (@SeanMcCarthyCom) Buying rent stabilized property with the goal of lobbying the government to jack up working people’s rent is such scumbag behavior. Guy is already worth $100 billion but he wanted to put families out on the street to grab a few more crumbs. Sociopathic economic system — https://nit",
+          "link": "https://nitter.net/spencerpratt/status/2072337312239988985#m",
+          "date_utc": "2026-07-01T15:11:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "He did the budget with an $8bn bailout and delaying pension payments? Commie Mamdani put the NYC budget on Klarna LMAO. Don't let communists run your city, folks. New York Post (@nypost) Mamdani's $126B budget soars nearly 10% from last year, leaving NYC on verge of fiscal crisis trib.al/mUQRbNN — https://nitter.net/nypost/status/2072091001905139833#m",
+          "link": "https://nitter.net/spencerpratt/status/2072332819653947836#m",
+          "date_utc": "2026-07-01T14:53:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGLx_hWIAAaFyW.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/mUQRbNN",
+              "content": "Mamdani's $126B budget soars nearly 10% from last year, leaving NYC on verge of fiscal crisis Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Em"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "No peers. Except FL, TX, TN, ID, AZ, UT, NV, CO, WA, NC, SC, all had more growth. Florida had 2X the GDP growth of CA. Half the 40% “growth” Gavin is claiming is just inflation LMAO what a clown. He still owes us for his state park nuking our town, BTW. Governor Gavin Newsom (@CAgovernor) Since 2019, California has grown about 40% in its economy — no other jurisdiction in the United States has come close. We have no peers. Video — https://nitter.net/CAgovernor/status/2072044956450234620#m",
+          "link": "https://nitter.net/spencerpratt/status/2072312597354074193#m",
+          "date_utc": "2026-07-01T13:33:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072044386528243712%2Fimg%2FOnjAL5K1NbPFeVCi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Whenever I vowed to arrest bad guys, the pushback was always \"you can't do that! There's no room in the jails!\" Communists close the jails, then they can use the \"not enough jails\" excuse to never enforce the law, as your city erodes. See their little commie magic trick? This is how you sneakily eliminate the laws that hold society together...you don't need legislature, you don't need to erase the laws, you just render them moot by making it practically impossible to ever enforce. Mayor Zohran Kwame Mamdani (@NYCMayor) We just took another major step toward finally closing Rikers Island. By pe",
+          "link": "https://nitter.net/spencerpratt/status/2072193533109534947#m",
+          "date_utc": "2026-07-01T05:40:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This is how politicians and their families launder money. Nobody wants a book from Dr Biden. But some commie NGO that got taxpayer money from the admin can’t pay the kickback with a check. So they buy 100K books and burn em. The one-time bulk buy charts it for a week, then 💨 New York Post (@nypost) Jill Biden memoir's disappearance from NYT bestseller list after debuting at top raises questions about sales numbers: 'Very rare' trib.al/geKNS5i — https://nitter.net/nypost/status/2071671413207932982#m",
+          "link": "https://nitter.net/spencerpratt/status/2072022809245859875#m",
+          "date_utc": "2026-06-30T18:21:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMAOKqEXgAAAgPf.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/geKNS5i",
+              "content": "Jill Biden memoir's disappearance from NYT bestseller list after debuting at top prompts questions Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Caree"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "BREAKING: Do this one simple thing and train tour your Mythos class LLM🤯 json (@JsonBasedman) A tokenizer that makes `set -euo pipefail` a single token. — https://nitter.net/JsonBasedman/status/2072098328318234745#m",
+          "link": "https://nitter.net/stepango/status/2072115031953826282#m",
+          "date_utc": "2026-07-01T00:28:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGScx8WQAAl1hj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "❤️",
+          "link": "https://nitter.net/stepango/status/2072059158191620458#m",
+          "date_utc": "2026-06-30T20:46:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMFu0pMbAAAAsCQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
