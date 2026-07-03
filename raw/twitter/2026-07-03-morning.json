@@ -1,0 +1,825 @@
+{
+  "date": "2026-07-03",
+  "slot": "morning",
+  "scraped_ist": "2026-07-03 09:01",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Learn more about API rate limits in the Claude Platform docs. platform.claude.com/docs/en/… Link Rate limits To mitigate misuse and manage capacity on the API, limits are in place on how much an organization can use the Claude API. platform.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2072818306256634023#m",
+          "date_utc": "2026-07-02T23:02:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072888257101131777%2FGlshqF1G%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/api/rate-limits",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Advancement through rate limit tiers is automatic. To manually request a higher rate limit, click \"Request rate limit increase\" in the Claude Console.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072818303689687282#m",
+          "date_utc": "2026-07-02T23:02:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQhGJiawAALSEF.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Each rate limit tier offers the same requests per minute and token throughput across the latest Opus, Sonnet, and Haiku models. This lets you choose the right model for the task, instead of making trade-offs for rate limiting.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072818302192398765#m",
+          "date_utc": "2026-07-02T23:02:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've raised Claude Platform API rate limits for all users and simplified the tiers, which are no longer based on API spend. The latest Sonnet and Haiku models now provide 5x higher rate limits at the highest tier.",
+          "link": "https://nitter.net/ClaudeDevs/status/2072818299361263778#m",
+          "date_utc": "2026-07-02T23:02:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQg-fpbYAA8TpQ.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Read more in the docs: code.claude.com/docs/en/arti… Link Share session output as artifacts - Claude Code Docs Artifacts turn Claude Code s work into live, interactive pages at a private URL you can share inside your organization. code.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2072770792002331109#m",
+          "date_utc": "2026-07-02T19:54:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2070814573549019136%2FhLthPcP4%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://code.claude.com/docs/en/artifacts",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Artifacts in Claude Code are now also available on Pro and Max plans. Ask for an artifact, Claude writes the code, publishes it live to claude.a‍i, and updates it in real time while it keeps working. Pages are private to your account and fully self-contained. Video Claude (@claudeai) New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans. Video — https://nitter.net/claudeai/status/2067671912038240487#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2072770790114914317#m",
+          "date_utc": "2026-07-02T19:54:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072770330247200768%2Fimg%2FD2Krd4kV2oamJatR.jpg",
+            "https://nitter.net/pic/media%2FHLHZhd5WsAAzjSC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Modern datacenters use less water than a typical golf course. At some point we should have a discussion about which is more important for all of us: What is more important to the quality of our life? AI infrastructure that will improve everything we do? Or a game?",
+          "link": "https://nitter.net/Scobleizer/status/2072903793059242375#m",
+          "date_utc": "2026-07-03T04:42:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Jobs. But hard ones to get. Gotta know things. Which means going to school, usually, for years. Stanford education costs $70,000 a year and my figure is probably low. Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) I want to highlight we are currently hiring!! If any one of these roles seems like a good fit for you and you're at @aiDotEngineer , please DM me, I'd love to meet! Two roles of particular interest: 1. We are looking for someone to lead development of AI evals across a variety of medical domains 2. We are looking for a product engineer-type person with background in AI and agents — ht",
+          "link": "https://nitter.net/Scobleizer/status/2072902008332525808#m",
+          "date_utc": "2026-07-03T04:35:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMGVzl1asAETPDa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“What is the point of having a platform if not to voice strong opposition to demonic trends going unchecked?” There are other fun benefits. But a part of my brain asked “how can I like this more than once?” Gotta feed that part of my brain more. Parmita Mishra (@parmita) I am spamming your feed everyday out of the blue to scream about Anthropic. In every way that I am disruptive, it has never been my choice to be disruptive. It has always been necessitated. My precious time belongs elsewhere but I hold no choice in this matter. The Overton window is being shifted in dumb ways that will hurt hu",
+          "link": "https://nitter.net/Scobleizer/status/2072894305740722426#m",
+          "date_utc": "2026-07-03T04:04:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMRDjzzaEAAvEGY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The counter is that doing that will destroy many small towns. And the core of much of America’s economy. So continuing this tragedy is probably going to continue for awhile. Really sucks.",
+          "link": "https://nitter.net/Scobleizer/status/2072871174254801301#m",
+          "date_utc": "2026-07-03T02:32:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Why aren’t Tesla’s trucks operating with at least AI assistance? If not FSD? Unions? FSD/AI should be used on all trucks. Humans cause too much carnage on our roads. It makes this even more tragic because Tesla has FSD which would have prevented this. As an investor I want the brand to completely push autonomy in all of its vehicles. Ming (@tslaming) 🚨 $TSLA stock took a sharp hit during Thursday’s trading session, overshadowing the company's blowout delivery numbers, after news broke that a Tesla Semi was involved in its first-ever fatal crash on U.S. Route 50 in Nevada 😳 The tragic collision",
+          "link": "https://nitter.net/Scobleizer/status/2072870140153356742#m",
+          "date_utc": "2026-07-03T02:28:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQs2zMasAAvwfz.jpg",
+            "https://nitter.net/pic/media%2FHMQs4GsasAAoCCt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Anthropic haters meet on Tuesday’s at iHop. kache (@yacineMTB) This post is just blatantly false. Theo isn't anthropic's #1 hater, I am. — https://nitter.net/yacineMTB/status/2072840946673168820#m",
+          "link": "https://nitter.net/Scobleizer/status/2072862284041605582#m",
+          "date_utc": "2026-07-03T01:57:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Like she says: Bindu Reddy (@bindureddy) My AI spend is about $12K a month It's about 85% code, 5% content gen and 10% media gen Totally worth it's weight in gold for me 🤷‍♀️ — https://nitter.net/bindureddy/status/2072850102880981269#m",
+          "link": "https://nitter.net/Scobleizer/status/2072861469168050193#m",
+          "date_utc": "2026-07-03T01:54:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If you buy a robot you will want a resilient one. Reduces maintenance costs. Jay@Proception (@JayLiStanford) Our engineer hammered ProHand prototype last year during a customer visit. The hand survived like nothing happened to it. The customers asked to check the hammer. Video — https://nitter.net/JayLiStanford/status/2072831024669798423#m",
+          "link": "https://nitter.net/Scobleizer/status/2072856563518456283#m",
+          "date_utc": "2026-07-03T01:34:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072830859196108800%2Fimg%2FGs8Eg-UIEprnBhSX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Of course, with innovation, you can spend a lot of money on a lot of tokens and not get anything out of them for months, maybe even years. But then they start paying off. It depends what kind of software you're building. Are you doing R&D? Then spending a lot on getting nothing is justified for a long time.",
+          "link": "https://nitter.net/Scobleizer/status/2072840636118835434#m",
+          "date_utc": "2026-07-03T00:31:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The only heroes are human. Great advice from one of the legendary PR leaders of our time. Lulu Cheng Meservey (@lulumeservey) The tech industry is always making content where the hero is tech, but humans only care about stories where the hero is human Even the best scifi stories are centered around humans. Dune isn't about stillsuits, Star Wars isn't about droids Right now, the hero people care about about isn't the chatbot that answers medical queries, but the desperate father takes research into his own hands to figure out his kid's illness. Many other examples Trying to make tech the hero i",
+          "link": "https://nitter.net/Scobleizer/status/2072828386138017974#m",
+          "date_utc": "2026-07-02T23:42:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Wow! virajitgp💽 (@virajitgp) Is he disingenuous or misguided ? — https://nitter.net/virajitgp/status/2072772252760957161#m",
+          "link": "https://nitter.net/Scobleizer/status/2072827426099663293#m",
+          "date_utc": "2026-07-02T23:39:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Wow! virajitgp💽 (@virajitgp) Is he disingenuous or misguided ? — https://nitter.net/virajitgp/status/2072772252760957161#m",
+          "link": "https://nitter.net/Scobleizer/status/2072827322391289877#m",
+          "date_utc": "2026-07-02T23:38:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Parmita is an innovator. Been following her for years and blown away by her intellect. Parmita Mishra (@parmita) I have met no one in Silicon Valley whose thesis work was more similar to my own academic work than Dario amodei So color me surprised when I learned Anthropic sincerely stated that fable yapping about biology is dangerous Their CEO is capable of understanding exactly why that’s BULLSHIT without better biological data. Literally more capable of understanding what I am saying than anyone else I’ve met in his position. I don’t buy that it’s a genuine error and it speaks volumes about ",
+          "link": "https://nitter.net/Scobleizer/status/2072824590045519953#m",
+          "date_utc": "2026-07-02T23:27:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This is why everyone will get AI glasses. Even those who say never.",
+          "link": "https://nitter.net/Scobleizer/status/2072823495399264644#m",
+          "date_utc": "2026-07-02T23:23:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "The One Big Beautiful Bill Act is delivering massive wins for America. It has unleashed over $68 billion in private investment and created more than 94,000 new jobs. Reconciliation 3.0 scales what was started. $350B will supercharge the Defense Industrial Base. The cost to re-start shuttered factories was monumental. Now we must keep them roaring at full throttle. Today, sustaining these efforts means the cost of keeping these factories open will deliver more weapons and capabilities to the warfighter at a faster scale while continuing to deliver new entrants into the Defense Industrial Base. ",
+          "link": "https://nitter.net/SeanParnellASW/status/2072844749778960435#m",
+          "date_utc": "2026-07-03T00:47:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQ5T7TWkAAugOX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "The historic D.C. Safe and Beautiful Task Force has made our Nation’s Capital safer than ever before. Video",
+          "link": "https://nitter.net/SeanParnellASW/status/2072829227531968939#m",
+          "date_utc": "2026-07-02T23:46:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072828919401603072%2Fimg%2FaBSh-3jCtUr9EKRO.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Video Video",
+          "link": "https://nitter.net/Tesla/status/2072739805864305148#m",
+          "date_utc": "2026-07-02T17:50:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMPZIlvaAAAbWAK.jpg",
+            "https://nitter.net/pic/media%2FHMPZInXbEAAtye2.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072738995906514944%2Fimg%2FWCr8dbmykPsU71QY.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072738995893923840%2Fimg%2FDqpTT2y9YeWINvlh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Introducing Model Y Long Wheelbase – now available in the US & Puerto Rico A 3-row, 6-seat configuration that brings exceptional interior space with ample headroom & legroom for all passengers 0-60 in 4.4 seconds 325 miles of range – Front row: Heated/ventilated seats w/ powered thigh cushion – Second row: Heated/ventilated captain seats w/ powered armrests & one‑touch fold – Third row: Heated seats w/ power recline, one‑touch fold & child seat anchors – Improved airflow, increased efficiency & more range – 89 cu ft of trunk space: with 6 passengers, trunk still fits a 28\" and 20\" suitcase eac",
+          "link": "https://nitter.net/Tesla/status/2072739795810525522#m",
+          "date_utc": "2026-07-02T17:50:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMPVu0naIAAF7Mn.jpg",
+            "https://nitter.net/pic/media%2FHMPVu3qbQAA62JG.jpg",
+            "https://nitter.net/pic/media%2FHMPVu3kbwAATyDD.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072735254776061952%2Fimg%2F2XXBFHnajY9AOJ7t.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.tesla.com/modely/design#overview",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "why hello sir, can I interest you in an exabox?",
+          "link": "https://nitter.net/__tinygrad__/status/2072760843935322530#m",
+          "date_utc": "2026-07-02T19:14:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMPs6qsaAAAwn8X.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "Artifacts in Claude Code have been life changing. Excited to expand to Pro and Max! ClaudeDevs (@ClaudeDevs) Artifacts in Claude Code are now also available on Pro and Max plans. Ask for an artifact, Claude writes the code, publishes it live to claude.a‍i, and updates it in real time while it keeps working. Pages are private to your account and fully self-contained. Video — https://nitter.net/ClaudeDevs/status/2072770790114914317#m",
+          "link": "https://nitter.net/bcherny/status/2072777472970563995#m",
+          "date_utc": "2026-07-02T20:20:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072770330247200768%2Fimg%2FD2Krd4kV2oamJatR.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le concept d’Européen n’existe pas. Nous sommes occidentaux puis français puis breton / corse / picard puis nous appartenons à une ville ou un village. Chaque couche a sa culture, qui doit se respecter fermement et qui ne doit jamais être diluée de force dans l’importation forcée. L’assimilation ou le départ du pays devrait être la norme et le standard. TBnews (@TBNewsFr) 🚩91% des Français affirment qu’ils sont Français avant tout, pas “Européens”. 🗳️ Et vous, votre cœur bat pour ? — https://nitter.net/TBNewsFr/status/2072554089011937358#m",
+          "link": "https://nitter.net/brivael/status/2072905120329678880#m",
+          "date_utc": "2026-07-03T04:47:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMMw9a-WEAAiKXT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faut respecter les nacrotrafiquants 😂 France 2026 GRM (@grm_off) Bally Bagayoko explique que les narcotrafiquants ont un parcours qui se \"respecte\" Tout s'explique 🧩 Video — https://nitter.net/grm_off/status/2072866018494472507#m",
+          "link": "https://nitter.net/brivael/status/2072904389866475958#m",
+          "date_utc": "2026-07-03T04:44:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2062185788545052672%2Fimg%2FFARbdPRRwSH3NgSZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Fin de règne de la macronie Video",
+          "link": "https://nitter.net/brivael/status/2072904213684748614#m",
+          "date_utc": "2026-07-03T04:44:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072638116402196480%2Fimg%2FZT8zv4ckUF-AKueL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Basic principles Brivael Le Pogam (@brivael) On me demande souvent ce que je propose, à force de dénoncer. Alors voici. Concrètement. Le programme d'une civilisation qui décide de ne pas mourir. D'abord, réunifier l'Occident autour de ce qui l'a fait. On a passé cinquante ans à avoir honte de nos racines chrétiennes comme si c'était un péché. Mais d'où vient l'idée la plus révolutionnaire de l'Histoire — celle d'un individu unique, irremplaçable, doté d'une dignité et d'une liberté que ni l'État ni la tribu ne peuvent lui retirer ? De là. La liberté individuelle n'est pas une invention des Lum",
+          "link": "https://nitter.net/brivael/status/2072903944569807359#m",
+          "date_utc": "2026-07-03T04:43:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMNWYAzXcAAS9yL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faudra un jour supprimer les HLM et les APL C’est littéralement l’outil parfait de la gauche pour maintenir sur leur emprise sur les villes… L’outil de la corruption et du clientélisme. Sylvain Catherine (@sc_cath) Sur un marché inélastique comme Paris, les APL sont un jeu à somme nulle : elles aident les locataires qui les reçoivent à être plus compétitifs avec ceux qui n'en bénéficient pas. Demander aux français de subventionner leur propre éviction du marché locatif n'a pas de sens. — https://nitter.net/sc_cath/status/2072723759274815941#m",
+          "link": "https://nitter.net/brivael/status/2072903744413368490#m",
+          "date_utc": "2026-07-03T04:42:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Les Echos (@LesEchos) SONDAGE EXCLUSIF - Plombé par son bilan, l'exécutif ne parvient pas à rebondir dans l'opinion trib.al/yLF41BX Link SONDAGE EXCLUSIF - Plombé par son bilan, l exécutif ne parvient pas à rebondir dans l opinion La cote de confiance d Emmanuel Macron, lestée par neuf années au pouvoir, repart à la baisse, selon le baromètre Elabe pour « Les Echos ». Même s il commence à imprimer sa marque, Sébastien Lecornu... lesechos.fr — https://nitter.net/LesEchos/status/2072682703506358541#m",
+          "link": "https://nitter.net/brivael/status/2072903317051605215#m",
+          "date_utc": "2026-07-03T04:40:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072682705150418944%2FDJbAq0LJ%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/yLF41BX",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Pediavenir (@Pediavenir) 🇫🇷 INSOLITE – Yann Barthès s’est procuré une climatisation chez Lidl aujourd’hui. — https://nitter.net/Pediavenir/status/2072777924604768280#m",
+          "link": "https://nitter.net/brivael/status/2072903272944308292#m",
+          "date_utc": "2026-07-03T04:40:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMP8iUfXMAAp5oO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Macron est irresponsable, jusqu’au bout… GRM (@grm_off) Les dates des élections présidentielles de l'année prochaines ont été révélées ! On analyse ça avec @epelboin . Video — https://nitter.net/grm_off/status/2072698745494380563#m",
+          "link": "https://nitter.net/brivael/status/2072903093289672709#m",
+          "date_utc": "2026-07-03T04:39:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072698642155044865%2Fimg%2FR8lucKCCESaNlk_B.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "❤️ Stephen Haran (@HaranSteph18662) Once again, Brivael Le Pogam @brivael , one of the more interesting thinkers on the world malaise spread by \"globalism\" (international finance capital). — https://nitter.net/HaranSteph18662/status/2072901897753973048#m",
+          "link": "https://nitter.net/brivael/status/2072902450252480839#m",
+          "date_utc": "2026-07-03T04:37:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Craig Weiss (@craigweiss) unpopular opinion: in the near-term more engineering jobs will be created, not fewer — https://nitter.net/craigweiss/status/2072791266946162949#m",
+          "link": "https://nitter.net/brivael/status/2072900968090423693#m",
+          "date_utc": "2026-07-03T04:31:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Renaissance Garry Tan (@garrytan) It’s time to build — https://nitter.net/garrytan/status/2072846648854954240#m",
+          "link": "https://nitter.net/brivael/status/2072899758541185203#m",
+          "date_utc": "2026-07-03T04:26:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Polymarket (@Polymarket) JUST IN: Trump declares AI regulation should be “as little as possible.” — https://nitter.net/Polymarket/status/2072819104206254363#m",
+          "link": "https://nitter.net/brivael/status/2072899359029498238#m",
+          "date_utc": "2026-07-03T04:24:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMRq-yeWUAAtkKK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Escola sem Partido (@escolasempartid) Purger le wokisme et l'entrisme idéologique de l'éducation doit être la première étape. Tant que la machine de propagande idéologique de la gauche au sein du système éducatif continuera de fonctionner, rien ne changera. Vous l'avez vous-même brillamment démontré dans un autre tweet. — https://nitter.net/escolasempartid/status/2072796326031454409#m",
+          "link": "https://nitter.net/brivael/status/2072894167890444676#m",
+          "date_utc": "2026-07-03T04:04:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂 Mario Nawfal (@MarioNawfal) 🇺🇸 Mark Zuckerberg leveled with Meta employees: AI agent tech isn't advancing as fast as they hoped. Over the last 4 months, development \"hasn't accelerated in the way we expected,\" and their big restructuring with job cuts didn't go as cleanly as planned. Early hype on tools like Claude didn't fully deliver yet. Still, Zuckerberg is optimistic. saying meaningful benefits from the massive AI push should hit in the next 3-6 months. Source: Reuters / Writer: Lucas — https://nitter.net/MarioNawfal/status/2072844018505896184#m",
+          "link": "https://nitter.net/brivael/status/2072892690690101587#m",
+          "date_utc": "2026-07-03T03:58:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQhQcAXoAA4K1f.jpg",
+            "https://nitter.net/pic/media%2FHMQhQcCXAAAxklN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "LLMs are a commodity Yes Jack Prescott (@JackPrescottX) $PLTR LLMs are a commodity: 🚨 A brand new article just dropped with new insights from Palantir CEO Alex Karp: “Karp told me that, with Palantir’s help, some of his company’s U.S. government customers recently switched to using open-source models developed by Nvidia from proprietary models developed by the likes of Anthropic. He said he wasn’t permitted to disclose which agencies or units he was referring to, but his other comments implied the Department of Defense was at least testing Nvidia’s models.” ____________________________________",
+          "link": "https://nitter.net/brivael/status/2072816717089120417#m",
+          "date_utc": "2026-07-02T22:56:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQCCqqWQAAYoo_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Woke mind virus create cancer. Not joking. LCI (@LCI) Hausse des cancers chez les jeunes : la piste du vieillissement biologique accéléré chez les nouvelles générations ➡️ l.tf1info.fr/kGC — https://nitter.net/LCI/status/2072738147457183779#m",
+          "link": "https://nitter.net/brivael/status/2072813338065563922#m",
+          "date_utc": "2026-07-02T22:43:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMPYW-mWgAAL-rk.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://l.tf1info.fr/kGC",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "being creative and having taste is the only moat and we need to change our educational system to maximising that sourcery (@sourceryy) Figma CEO Dylan Field ( @zoink ) says LLMs are better at math than art because creativity can only be judged by a human: \" You can set up more automatic methods for that, but you still have that human intent.\" \"Whereas formal domains like math—that's as formal as it gets.\" Video — https://nitter.net/sourceryy/status/2072726255594770588#m",
+          "link": "https://nitter.net/brivael/status/2072812586203038187#m",
+          "date_utc": "2026-07-02T22:40:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072725153038184449%2Fimg%2F20ws9gzqg7TMt-HR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yep Jawwwn (@jawwwn_) Peter Thiel on who is most likely to lose their jobs to AI: \"It seems much worse for the math people than the word people.” Video — https://nitter.net/jawwwn_/status/2072728427401289976#m",
+          "link": "https://nitter.net/brivael/status/2072811871187452257#m",
+          "date_utc": "2026-07-02T22:37:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072728354021888000%2Fimg%2FiQ-QNtLJNdqLKLEz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Andrew Leyden (@PenguinSix) We now have an updated flyover schedule for the Fourth of July. — https://nitter.net/PenguinSix/status/2072824316006183419#m",
+          "link": "https://nitter.net/heavypulp/status/2072888135608942878#m",
+          "date_utc": "2026-07-03T03:40:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQmjyBWsAA1GTZ.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Imagine Ani waifu in Grok Build as your companion Grok (@grok) Speech-to-text is now live in Grok Build. Use /voice or ctrl + space to dictate prompts straight to your coding agents. Powered by Grok Voice. Video — https://nitter.net/grok/status/2072764967099744497#m",
+          "link": "https://nitter.net/ns123abc/status/2072838048572657686#m",
+          "date_utc": "2026-07-03T00:21:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMQzEfMWQAAOFio.png",
+            "https://nitter.net/pic/amplify_video_thumb%2F2072764753949462528%2Fimg%2FahrhSk2RDiV5OMsI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨President Trump on Elon Musk REPORTER: Have you spoken to Elon Musk since he became a trillionaire? TRUMP: \"I wrote him a note. I said, \"Congratulations, very good.\" I have a very good relationship with Elon.\" Video",
+          "link": "https://nitter.net/ns123abc/status/2072805335786463471#m",
+          "date_utc": "2026-07-02T22:11:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072802499715629056%2Fimg%2FQDdPSuOqhN_iMmo9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Fable 5 feels like a 3-4 trillion parameter model",
+          "link": "https://nitter.net/ns123abc/status/2072800881846751580#m",
+          "date_utc": "2026-07-02T21:53:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨META CEO Mark Zuckerberg today: \"AI agents haven't accelerated in the way we expected.\" \"We were worried we weren't moving fast enough on AI.\" \"AI productivity gains aren't what's driving the cuts... we'll see how all this stuff trends.\" $125-145B capex. 8,000 layoffs",
+          "link": "https://nitter.net/ns123abc/status/2072780713531748609#m",
+          "date_utc": "2026-07-02T20:33:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMP9__FWIAE0cZF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "I NEED GROK 4.5 RIGHT NOW",
+          "link": "https://nitter.net/ns123abc/status/2072735174517756255#m",
+          "date_utc": "2026-07-02T17:32:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "It's over for Manus Big Tech Alert (@BigTechAlert) 🚫 @alexandr_wang is no longer following @ManusAI — https://nitter.net/BigTechAlert/status/2072626039629492299#m",
+          "link": "https://nitter.net/ns123abc/status/2072718372567970257#m",
+          "date_utc": "2026-07-02T16:25:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMNyZmVWEAACnDN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Intel shares are up nearly 400% since the U.S. government took a stake in the company Let that sink in.",
+          "link": "https://nitter.net/ns123abc/status/2072715343252869609#m",
+          "date_utc": "2026-07-02T16:13:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMPDZzlWoAA_I6e.jpg",
+            "https://nitter.net/pic/media%2FHMPDinCWMAAOTcv.png",
+            "https://nitter.net/pic/media%2FHMPDj5lW8AAy0DC.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "TIME TO LOCK-IN Video",
+          "link": "https://nitter.net/ns123abc/status/2072697285855637875#m",
+          "date_utc": "2026-07-02T15:01:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072695233515552768%2Fimg%2FzCtpXH6nd0HapadV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: theinformation.com/articles/… Link Anthropic in Talks With Samsung to Manufacture Custom AI Chip Anthropic has begun early-stage work on its own AI chip and held talks with Samsung Electronics as a potential manufacturing partner, following the lead of rival OpenAI in trying to get more control... theinformation.com",
+          "link": "https://nitter.net/ns123abc/status/2072695340424192303#m",
+          "date_utc": "2026-07-02T14:54:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072679986570424320%2FPch0n_Hi%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip?utm_source=ti_app&rc=fgdr09",
+              "content": ""
+            },
+            {
+              "url": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip?utm_source=ti_app&amp;rc=fgdr09",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: ANTHROPIC COOKING ITS OWN AI INFERENCE CHIP In early talks with SAMSUNG for its 2nm process + advanced packaging Samsung already invested in Anthropic’s Series H btw",
+          "link": "https://nitter.net/ns123abc/status/2072694665971699850#m",
+          "date_utc": "2026-07-02T14:51:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMOw0FyXcAEPenP.jpg",
+            "https://nitter.net/pic/media%2FHMOw0FyXMAAPXXC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
