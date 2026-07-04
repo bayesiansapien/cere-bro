@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-04",
+  "slot": "afternoon",
+  "scraped_ist": "2026-07-04 15:16",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "future of work ar0cket1 (@ar0cket1) GPT 5.5 did so much work that I feel obligated to write we instead of I. — https://nitter.net/ar0cket1/status/2072919961102856547#m",
+          "link": "https://nitter.net/MillionInt/status/2073196321218130168#m",
+          "date_utc": "2026-07-04T00:04:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "Hi Codex, could you change the website background for me? of course Sir",
+          "link": "https://nitter.net/MillionInt/status/2073194038451421683#m",
+          "date_utc": "2026-07-03T23:55:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMV29KDagAARtOz.png"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
