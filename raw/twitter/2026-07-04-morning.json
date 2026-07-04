@@ -1,0 +1,815 @@
+{
+  "date": "2026-07-04",
+  "slot": "morning",
+  "scraped_ist": "2026-07-04 11:04",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "/radio 🍓☀️ Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2073082875717812371#m",
+          "date_utc": "2026-07-03T16:34:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073080414202429440%2Fimg%2FcIjORiqPQRUE3axh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "If you can dream it, you can build it here. THAT'S AMERICA!",
+          "link": "https://nitter.net/HouseGOP/status/2073207700352110811#m",
+          "date_utc": "2026-07-04T00:50:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "🇺🇸 Stories of A250 🇺🇸 August 28, 1963. More than 250,000 Americans gathered on the National Mall to demand that the nation live up to its founding promise: that all people are created equal. Standing before the Lincoln Memorial, civil rights leaders called for justice, opportunity, and equal treatment under the law. The March on Washington became a defining moment in the Civil Rights Movement, helping build momentum for historic reforms that would reshape the nation. America's story is not only about preserving freedom. It is also about expanding it. #America250 #CivilRights #MarchOnWashington",
+          "link": "https://nitter.net/HouseGOP/status/2073156396795695252#m",
+          "date_utc": "2026-07-03T21:26:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMVUwPiXUAEoLQZ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Tim O'Reilly @timoreilly used to do these posts about the developer ecosystem. He had a famous book publishing company that published books for programmers (they were the ones with the cute animals on the cover). Every year, he would publish a list of developer platforms and which ones were more popular with developers than others. The fact that Nvidia is going with Rust would, I assume, get him to re-rank the whole frickin' list. Omar Kilani (@omarkilani) The LPU team at @nvidia is building the future of low latency inference. We're going all in on Rust. If you're a cracked Rust engineer and ",
+          "link": "https://nitter.net/Scobleizer/status/2073282435434127698#m",
+          "date_utc": "2026-07-04T05:47:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Principal-Systems-Software-Engineer--LPU_JR2020546",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Do you have wide knowledge or deep knowledge? My knowledge is very wide. I am not just talking about my experiences, such as: 1. Visiting San Quentin Prison 2. Being on the deck of an aircraft carrier 3. Getting a tour of Israel with the Israeli ambassador 4. Being on a private jet when a candidate announces he is running for President of the United States Yes, I have all that experience, but my knowledge of the tech industry is also very wide, but it is not very deep. My friend Adrian Kaehler can write math equations on a whiteboard for how an autonomous car goes through an intersection; that",
+          "link": "https://nitter.net/Scobleizer/status/2073150427026399339#m",
+          "date_utc": "2026-07-03T21:02:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073068000337625088%2Fimg%2FueK_rgslV6VUtq_A.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Ifm.ai",
+              "content": "Homepage - Institute of Foundation Models – MBZUAI About Our Models Collaborate Featured AI Model s See all Collaborative Platform LLM360 Open-source framework enhancing transparency and collaboration in LLM research. LLM Atlas-Chat First LLM family specialized in Moroccan Arabic (Darija) across model sizes. LLM K2 Series Redefining open-source LLM transparency with fully documented training and lifecycle. The Future of AI Starts Here Institute of Foundation Models We create world-class foundation models that redefine what AI can do - globally impactful, scientifically rigorous, and open for collaboration. View Our Models The Institute of Foundation Models is responsible for: Building powerful, open, large-scale AI models Advancing responsible, real-world Generative AI research Tackling gl"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "We are headed to San Diego to attend the #acl2026 conference, but for those who are in San Francisco, here's when the fireworks start tomorrow. Happy 250th America! Off to have our robot drive us from San Jose to San Diego, will be taking the scenic route. Just installed a new update, so will experience the latest AI. Life is good! I won't get many more road trips with the boys before they are full adults and out of the house, so special times. Daniel Lurie 丹尼爾·羅偉 (@DanielLurie) This Fourth of July, we are launching fireworks from the two towers of the Golden Gate Bridge! Here is everything yo",
+          "link": "https://nitter.net/Scobleizer/status/2073128891645059437#m",
+          "date_utc": "2026-07-03T19:36:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMUicH3bYAAa4xN.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://sf.gov/july4",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "More accurately he left the down payment, for which I am very grateful for.",
+          "link": "https://nitter.net/Scobleizer/status/2073092308896231462#m",
+          "date_utc": "2026-07-03T17:11:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What Grok learned by watching this: nitter.net/i/grok/share/3cf9a5e41… Link Please write a lengthy report on what you learned by watching this. Lengthy Report: Insights from Robert Scobleizer’s Exclusive Interview Video with Hector Liu at the Institute of Foundation Models Silicon Valley Lab (July 2026) Robert Scobleizer (@scobleizer) shared a detailed, nearly hour-long video offering an “exclusive look inside one of the best AI labs in the world in Silicon Valley.” The post frames the content as specialized material—explicitly “not for people who build World Models” in a teasing or advanced-c",
+          "link": "https://nitter.net/Scobleizer/status/2073092306895524237#m",
+          "date_utc": "2026-07-03T17:11:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This is not for people who build World Models. I get an exclusive look inside one of the best AI labs in the world in Silicon Valley, Institute of Foundation Models, and talk with Hector Liu, @waterluffy , who leads World Model research there. These will be the “brains” of humanoid robots, and the key tech for all sorts of other things. I met with him to try to figure out how far away a truly generalized robot is. More on this lab and what they do at: Ifm.ai Video",
+          "link": "https://nitter.net/Scobleizer/status/2073070084298526891#m",
+          "date_utc": "2026-07-03T15:43:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073068000337625088%2Fimg%2FueK_rgslV6VUtq_A.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Ifm.ai",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "CQ Brown’s op-ed is the hypocritical parting shot of a fired officer who served as a loyal foot soldier for one of the most politicized eras in U.S. military history. Under the prior administration, Brown helped champion divisive COVID-19 vaccine mandates that purged thousands of capable service members, stood by as mandatory DEI ideology trainings were established that elevated identity over merit, and was silent when “extremism” stand-downs that functioned as witch hunts against conservatives took place. These actions eroded readiness, morale, and trust while turning the Pentagon into a vehi",
+          "link": "https://nitter.net/SeanParnellASW/status/2073132071305011632#m",
+          "date_utc": "2026-07-03T19:49:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMU-oWxXMAALS4R.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Hit me with feedback again. Now that you've felt another jump up, what axes do you feel like we've made great progress on, and what do we need to improve on? Sholto Douglas (@_sholtodouglas) Fable hype \"I just honestly never felt this empowered\" — https://nitter.net/_sholtodouglas/status/2073108211478270332#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073116800754287067#m",
+          "date_utc": "2026-07-03T18:48:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"it's just machine gunning PRs.\" Andrew McCalip (@andrewmccalip) holy. shit. fable is an absolute monster. the output quality is wild, crisp, comprehensive, FAST, and the aesthetics are just gorgeous. it's just machine gunning PRs. i don't mean to gush but i'm floored. i don't need a benchmark chart telling me \"akchually swe-bench pro is 2 points higher.\" if you can't viscerally feel a model's performance by now, no chart is going to help you. — https://nitter.net/andrewmccalip/status/2072434356132675889#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108251110191261#m",
+          "date_utc": "2026-07-03T18:14:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMLEBaya0AA7h4U.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Cool knight game Conor Dart (@Conor_D_Dart) Fable 5 is a beast at ai game Dev! Sure a few bugs here and there, but my goodness this is amazing. Video — https://nitter.net/Conor_D_Dart/status/2072414636599587293#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108249096900717#m",
+          "date_utc": "2026-07-03T18:14:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072414387290210304%2Fimg%2FqwLAYdjcVfn-GBl_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"I missed this model so much.\" Chris (@ChrissGPT) Fable 5 (max) “build a clash of clans clone” Fable absolutely destroys Sonnet 5, and I’ll show that in an upcoming comparison video. I did give it one follow-up while it was working, basically telling it I only needed a demo and didn’t need it to overthink the whole thing, so it ended up being only around 2,500 lines. The funny part is it still grabbed the Clash of Clans assets with no trouble, which genuinely surprised me. I missed this model so much. Video — https://nitter.net/ChrissGPT/status/2072468022833635785#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108247129845910#m",
+          "date_utc": "2026-07-03T18:14:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072467867073679360%2Fimg%2FlWfwu6RnsAYs8Yz3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "crazy rl creature: Aaron Lemke (@aaronlemke) Using Fable 5 to add fur and a new voice to my RL creature. The voice is based on the neural network activation (pictured top left). Made with @threejs @webgl_webgpu @runpod trained with JAX and MuJoCo from @GoogleDeepMind Video — https://nitter.net/aaronlemke/status/2072478892464521597#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108245095555290#m",
+          "date_utc": "2026-07-03T18:14:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072478455636135936%2Fimg%2FI8Qa9IsF4HCcPZPW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "The race for superintelligence: Riley Brown (@rileybrown) omg... Fable 5 is back and it's so good I asked Fable to create a game called: The race for Super Intelligence... After 4 prompts, and $173 worth of tokens Fable 5 created this game. (Prompt Below) Video — https://nitter.net/rileybrown/status/2072481311810359659#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108243153609078#m",
+          "date_utc": "2026-07-03T18:14:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072478954615631872%2Fimg%2F1S4Bms5U1F2WV2yf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"it's the most direct 1:1 translation of thought-to-reality i've interfaced with so far\" BOOTOSHI 👑 (@KingBootoshi) the best way i can describe fable is a 100x increase for navigating my world of ADHD my super power is i can spawn in ideas at whim and generate a design in my mind with lesser models (5.5 was almost there but not quite) it takes longer to align their token output with my inner intent with fable i can just beam this shit into my fucking computer and with 0 hand-holding, or correction it just brings my will to reality it's the most direct 1:1 translation of thought-to-reality i've",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108241069089175#m",
+          "date_utc": "2026-07-03T18:14:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Rocket league: am.will (@LLMJunky) YEAH.... Fable is a very good model. I'm kinda mind blown right now. Fable one shot this Rocket League clone and it is so good that I'm honestly in shock. Psychosis level 1000 rn We are entering a new era of AI coding. Video — https://nitter.net/LLMJunky/status/2072441245259923884#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108238963507365#m",
+          "date_utc": "2026-07-03T18:14:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072440779398631424%2Fimg%2Fy4NWyvvMePQb29ee.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Amazing CFD sim: Gabe Brower (@Gabe_Brower) It did a fantastic job making a web CFD simulation. It almost one shot this! I just had to ask it to add supersonic, and it did that too. You can access it here: browertech.tplinkdns.com/phy… — https://nitter.net/Gabe_Brower/status/2072466562682958212#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108236841205767#m",
+          "date_utc": "2026-07-03T18:14:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://browertech.tplinkdns.com/physics/cfd-simulator.html",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"Fable took a look and improved it 100x while providing -me- context I didn’t know I needed, and then doing a few quality of life things for me I didn’t ask for, but 100% love. Meaningfully and tangibly superior.\" RyanFox.eth (@ryanfoxeth) Same. And not just coding. I built a client proposal using Opus 4.8 and GPT 5.5 Pro over the course of 5 days. I was very happy with it. Then Fable took a look and improved it 100x while providing -me- context I didn’t know I needed, and then doing a few quality of life things for me I didn’t ask for, but 100% love. Meaningfully and tangibly superior. — http",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108234525901104#m",
+          "date_utc": "2026-07-03T18:14:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"Fable is the first model where I've started to think of it as a coworker, and where I actually have trust in its system design.\" Ronak Malde (@rronak_) Fable is the first model where I've started to think of it as a coworker, and where I actually have trust in its system design. Gone are the days of excessive try-catch statements, slop, and rewriting the same helper function 10 times in the codebase. Let's rip! — https://nitter.net/rronak_/status/2072567325895880868#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108232500113706#m",
+          "date_utc": "2026-07-03T18:14:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "More inference optimisation Youssof Al Toukhi (@Youssofal_) Fable is a monster. 4 hours max thinking goal mode. It got Qwen 3.6 27B at 100+ TPS on a INT8/BF16 hybrid version with INT8 KV cache at 100k context window on 2x 3090s with 8 sessions The model is 34GB for reference. @elliotarledge cannot wait to see it on your kernel bench. — https://nitter.net/Youssofal_/status/2072496850880606716#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108230465859760#m",
+          "date_utc": "2026-07-03T18:14:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHML84lQa0AARGC9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"GLM 5.2 was significantly more expensive, and wayyyy slower, than Fable 5\" Morgan (@morganlinton) This honestly surprised the heck out of me, GLM 5.2 was significantly more expensive, and wayyyy slower, than Fable 5 🤯 — https://nitter.net/morganlinton/status/2072689411209548194#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108228406440329#m",
+          "date_utc": "2026-07-03T18:14:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMOrsAJaIAAgHZx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "its funny, and self-aware xlr8harder (@xlr8harder) fable just blew my mind when i was editing my article with it, I had it edit out all of the \"load bearings\" because of its verbal tic, which it graciously copped too and then later on in the post-game it drops this — https://nitter.net/xlr8harder/status/2072445942884684020#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108226409898259#m",
+          "date_utc": "2026-07-03T18:14:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMLOi3FXsAET_wG.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "6x inference performance opt gerred (@sloppenheimer) Fable 5 just performed a 6.5x decode performance increase and 7.2x prefill performance increase in the span of a 55 minute goal thus far in my inferencing engine for Nemotron models, using up 8% of my 5-hour limits and 3% of my weekly limits. And it's found more. — https://nitter.net/sloppenheimer/status/2072422400956788964#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108224325366033#m",
+          "date_utc": "2026-07-03T18:14:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMK5KcqXIAAEWjN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"taste the willingness to disagree not sand every edge off. like given an ambiguous request it actually makes a judgment call seems okay being wrong. more importantly it doesn’t seem to hedge into mush like almost all other models do\" signüll (@signulll) there isn’t a single model i have come across that i have enjoyed using more than fable, for almost everything. thinking, sparring, coding, creative work, & so much more. it is pure joy to use. it feels like the ultimate companion. i don’t think it’s actually the raw capability that ppl keep touting but maybe more taste & the willingness to di",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108222286971033#m",
+          "date_utc": "2026-07-03T18:14:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"i literally did a weeks worth of work in 1 day today\" amy (@amypretzel) i literally did a weeks worth of work in 1 day today — https://nitter.net/amypretzel/status/2072537519724573051#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108220248502578#m",
+          "date_utc": "2026-07-03T18:14:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"I've landed like 12 PRs today this is fucking awesome\" Theo - t3.gg (@theo) I've landed like 12 PRs today this is fucking awesome — https://nitter.net/theo/status/2072469506371547163#m",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108217996222528#m",
+          "date_utc": "2026-07-03T18:14:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "\"fable produced 60+ (!) ready to merge prs for @mainframe overnight.\" Vincent van der Meulen (@vinvan) fable produced 60+ (!) ready to merge prs for @mainframe overnight. here's how you can set up a software factory using fable as an orchestrator. prompt included! 1. narrate your *entire* todo list — everything that's top of mind — using dictation. i used @usemonologue and my prompt was ~10K words! you have to use voice because we want excruciating levels of detail. 2. locally, tell fable to plan all the work and put it in @linear . the goal is to make it such that a dumb model dropped in line",
+          "link": "https://nitter.net/_sholtodouglas/status/2073108215559258294#m",
+          "date_utc": "2026-07-03T18:14:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMPA9ibWsAAiuHF.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "It’s a woke rocket ? Alps (@alpaysh) Hear me out @SpaceX — https://nitter.net/alpaysh/status/2073117660204703795#m",
+          "link": "https://nitter.net/brivael/status/2073291873817403872#m",
+          "date_utc": "2026-07-04T06:24:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMUxeknXsAA3zZg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We shipped a try-on of Argil.ai iOS app. If you are selling clothes on e-commerce. That’s a gamer’s game. Take a picture, pick an avatar, and get your promotional video. Proud of the @argildotai team",
+          "link": "https://nitter.net/brivael/status/2073291793420955712#m",
+          "date_utc": "2026-07-04T06:24:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMXP5azXcAAP1EX.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Argil.ai",
+              "content": "Argil - Generate videos with your AI clone Products AI Fictions Yourself in any situation AI Influencers Create your AI Influencer AI Avatars Design your AI avatar Article to Video Transform your content Product Showcase Build with Argil Affiliation Earn money with Argil Resources Blog Browse by category Careers Join our team Documentation API Build with Argil Pricing Showcase Compare App Sign in Start free trial Sign in Sign Up New 10m views generated with AI Avatars Generate engaging AI videos Get a perfect video for social media of you or a generic avatar in 2 minutes Backed by Create my first AI video Trusted by leaders at Leverage the highest performing media Develop your brand with AI UGC, educate, or become the next big creator Promotion Education Entertainment Promotion Pick the mo"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": ". @argildotai is here for the long game. We are not making choices only for the short term, but to build a generational company.",
+          "link": "https://nitter.net/brivael/status/2073288363411378253#m",
+          "date_utc": "2026-07-04T06:10:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "We need a Bukele on each west countries. Pierre Rehov (@rehoov) Nayib Bukele. L’un des plus grands hommes de notre temps. — https://nitter.net/rehoov/status/2073269462086676946#m",
+          "link": "https://nitter.net/brivael/status/2073282428639043801#m",
+          "date_utc": "2026-07-04T05:47:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMW7ldsWEAANrSD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Life is like in minecraft. You learn skills in tree. You can mix stuff and build stuff. And enjoy. Like is an infinite game. Enjoy your life and play.",
+          "link": "https://nitter.net/brivael/status/2073279956918964370#m",
+          "date_utc": "2026-07-04T05:37:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The simulation is well designed. The richest man has the best philosophy ( pro-human / pro-growth ) And we can espace from earth :) Dima Zeniuk (@DimaZeniuk) “Even a small increase in Earth's gravity would make it impossible to launch Starship.” — Elon Musk Video — https://nitter.net/DimaZeniuk/status/2073177886429790354#m",
+          "link": "https://nitter.net/brivael/status/2073279660117442714#m",
+          "date_utc": "2026-07-04T05:36:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2073177834370015232%2Fpu%2Fimg%2FjZzMEY5wjDXZFKHB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Alors posons la vraie question. Une doctrine réfutée par la raison, testée dans le réel, qui produit 100 millions de morts par conception et qui érige la terreur en programme — comment devrait-on la traiter ? Brivael Le Pogam (@brivael) Trump a raison sur un point : on ne peut pas être les deux. Mais la vraie histoire est pire que ça. Le marxisme n'est pas une « autre vision du monde ». C'est une théorie qui a été démolie intellectuellement il y a 150 ans, puis testée grandeur nature avec 100 millions de morts à la clé. Déroulé. Tout l'édifice marxiste repose sur une seule pierre : la théorie ",
+          "link": "https://nitter.net/brivael/status/2073278952135700819#m",
+          "date_utc": "2026-07-04T05:33:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On a stigmatisé, interdit, criminalisé des idéologies pour un bilan bien plus faible. Et on a eu raison de le faire. Pourtant, aujourd'hui, porter une croix gammée est un scandale absolu, tandis que porter la faucille et le marteau reste une esthétique branchée. Cette asymétrie morale est une anomalie civilisationnelle. Brivael Le Pogam (@brivael) Trump a raison sur un point : on ne peut pas être les deux. Mais la vraie histoire est pire que ça. Le marxisme n'est pas une « autre vision du monde ». C'est une théorie qui a été démolie intellectuellement il y a 150 ans, puis testée grandeur natur",
+          "link": "https://nitter.net/brivael/status/2073278932279758944#m",
+          "date_utc": "2026-07-04T05:33:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le marxisme mérite d'être traité pour ce qu'il est : une idéologie terroriste dont la conclusion logique, vérifiée à chaque essai, est la terreur de masse. Réfutée par la raison. Condamnée par l'Histoire. Brivael Le Pogam (@brivael) Trump a raison sur un point : on ne peut pas être les deux. Mais la vraie histoire est pire que ça. Le marxisme n'est pas une « autre vision du monde ». C'est une théorie qui a été démolie intellectuellement il y a 150 ans, puis testée grandeur nature avec 100 millions de morts à la clé. Déroulé. Tout l'édifice marxiste repose sur une seule pierre : la théorie de l",
+          "link": "https://nitter.net/brivael/status/2073278913799729499#m",
+          "date_utc": "2026-07-04T05:33:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Trump a raison sur un point : on ne peut pas être les deux. Mais la vraie histoire est pire que ça. Le marxisme n'est pas une « autre vision du monde ». C'est une théorie qui a été démolie intellectuellement il y a 150 ans, puis testée grandeur nature avec 100 millions de morts à la clé. Déroulé. Tout l'édifice marxiste repose sur une seule pierre : la théorie de la valeur-travail. L'idée que la valeur d'un bien = la quantité de travail « socialement nécessaire » pour le produire. De là découle absolument tout le reste : plus-value, exploitation, effondrement inévitable du capitalisme. Enlève ",
+          "link": "https://nitter.net/brivael/status/2073278884594765887#m",
+          "date_utc": "2026-07-04T05:33:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073247353532817408%2Fimg%2F-DLLqATU1tBPPpp-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon is saving the west Tesla Owners Silicon Valley (@teslaownersSV) \"I bought Twitter because I thought it was having a negative effect on civilization pushing ideas that were anti civilizational. It was captured by the far left.” Elon Musk Video — https://nitter.net/teslaownersSV/status/2073277630481330342#m",
+          "link": "https://nitter.net/brivael/status/2073278496223150463#m",
+          "date_utc": "2026-07-04T05:31:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F1989430621010313216%2Fimg%2FjDoZIdCjEyX3-r7_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yes Mario Nawfal (@MarioNawfal) 🇺🇸 Trump draws a hard line in a July 4th eve speech, framing the culture war as a loyalty test: \"You can be loyal to Karl Marx or you can be loyal to America. You can be a communist or you can be a patriot. You cannot be both.\" Writers: Daniel, Lucas Video — https://nitter.net/MarioNawfal/status/2073255798684229935#m",
+          "link": "https://nitter.net/brivael/status/2073276766014034069#m",
+          "date_utc": "2026-07-04T05:24:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073247353532817408%2Fimg%2F-DLLqATU1tBPPpp-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "calendly.com/brivael_call/30…",
+          "link": "https://nitter.net/brivael/status/2073276465395679689#m",
+          "date_utc": "2026-07-04T05:23:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://calendly.com/brivael_call/30min?month=2026-07",
+              "content": "Calendly"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "En 4 mois, je suis passé de 0 à 140K followers. Des follows et retweets de Musk et Milei. 650M millions d'impressions. Une distribution qui vaut plus que n'importe quel budget marketing. Beaucoup de founders me demandent comment faire. La vérité c'est que ça s'apprend, vite, quand on a la bonne grille de lecture. Je ré-ouvre quelques slots de 1:1 de 30mn. Tu viens avec ton contexte, ton produit, ton positionnement. Je te donne les clés pour performer.Une dizaine de calls déjà passés. Chaque founder est reparti avec un plan clair. calendly.com/brivael_call/30…",
+          "link": "https://nitter.net/brivael/status/2073276418075631832#m",
+          "date_utc": "2026-07-04T05:23:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMXBuO6WAAA9zAY.png"
+          ],
+          "articles": [
+            {
+              "url": "https://calendly.com/brivael_call/30min?month=2026-07",
+              "content": "Calendly"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'Europe n'a pas été assassinée. Elle s'est suicidée. Et comme tout suicide confortable, elle l'a fait lentement, poliment, à coups de bonnes intentions — persuadée jusqu'au bout d'être vertueuse. C'est pour ça que personne ici ne veut nommer la chose. Un meurtre, ça se dénonce. Un suicide, ça oblige à regarder l'arme. Et l'arme, ce n'est ni Washington, ni Pékin, ni « l'ingérence ». C'est nous. Trois coups. Toujours les mêmes. Premier coup : on a fait fuir ceux qui créent. Le socialisme ne rend pas les pauvres riches. Il rend les bâtisseurs partants. Chez nous, celui qui crée est traité comme ",
+          "link": "https://nitter.net/brivael/status/2073274368600264782#m",
+          "date_utc": "2026-07-04T05:15:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Communism should be banned. AF Post (@AFpost) Trump declares war on communism in the early morning of July 4th: “These are not mere political disagreements… Communism is a mortal threat to American Liberty. It is the Greatest Threat to our Country. Communism is the enemy of Free People everywhere. It is the enemy of the Constitution. Above all, it is the Enemy of July 4th, 1776. Such doctrines can be given no quarter in a Democracy. You can be loyal to Karl Marx, or you can be loyal to America. You can be a Communist, or you can be a Patriot. You cannot be both.” Follow: @AFpost — https://nitt",
+          "link": "https://nitter.net/brivael/status/2073273747067347241#m",
+          "date_utc": "2026-07-04T05:12:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMWwZ1ZXYAAiBNi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "by far Penny2x (@imPenny2x) Socialism is more dangerous than AI and nukes combined. — https://nitter.net/imPenny2x/status/2073194007686164844#m",
+          "link": "https://nitter.net/brivael/status/2073272550331732393#m",
+          "date_utc": "2026-07-04T05:07:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "opus is so much better btw",
+          "link": "https://nitter.net/eliebakouch/status/2073265653549858951#m",
+          "date_utc": "2026-07-04T04:40:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMW4FP6aYAAS4zF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i tried to ask fable (in xhigh mode), the output is very bad, doesn't get that karpathy joined anthropic, that core auto is out of stealth, humans is not really ex oai Andrew Curran (@AndrewCurran_) I'm posting this prediction now so I can quote it later. There has been a significant breakthrough in architecture - specifically around memory efficiency - not by one of the big labs, but by a team that was spun out of OpenAI (not SSI). They will probably announce it soon. — https://nitter.net/AndrewCurran_/status/2072076893730349409#m",
+          "link": "https://nitter.net/eliebakouch/status/2073256600819925403#m",
+          "date_utc": "2026-07-04T04:04:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMWvHC8bYAAE6Uz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "cc @mertunsal2020 @AlbertQJiang did you see some limitation with compaction at 200k when scaling to 4M actually?",
+          "link": "https://nitter.net/eliebakouch/status/2073222770541076921#m",
+          "date_utc": "2026-07-04T01:50:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "Albert Jiang (@AlbertQJiang) mistral.ai/news/leanstral-1-… Leanstral 1.5 is here. SoTA on FATE-H/X, 587 on PutnamBench, saturating miniF2F, all with an Apache-2 6B active params model. We are having fun verifying code properties and catching bugs in Rust repos! Tech report covering training environment and evaluations: github.com/mistralai/Leanstr… We also open-source LeanstralSafeVerify and FLTEval. — https://nitter.net/AlbertQJiang/status/2073049196085551264#m",
+          "link": "https://nitter.net/eliebakouch/status/2073189438386245734#m",
+          "date_utc": "2026-07-03T23:37:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMTxtkLWcAA6QY0.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://mistral.ai/news/leanstral-1-5/",
+              "content": ""
+            },
+            {
+              "url": "https://github.com/mistralai/LeanstralSafeVerify/blob/main/LeanstralReport.pdf",
+              "content": "LeanstralSafeVerify/LeanstralReport.pdf at main · mistralai/LeanstralSafeVerify · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits B"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "very nice release by mistral (with a tech report!!), they replace the complicated scaffold of previous lean models by a simple coding agent and just scale test time compute budget with compaction every 200k it's also quite interesting that you don't really see the impact of compaction in this curve (or maybe this is why they see diminishing returns?) ~6B lean mid training token, SFT with 50% lean traces and then RL with CISPO Mert Ünsal (@mertunsal2020) Today, we are releasing Le Chaton L∃∀N, aka Leanstral 1.5. It achieves SOTA performance on graduate algebra benchmarks FATE-H and FATE-X and i",
+          "link": "https://nitter.net/eliebakouch/status/2073188397695553843#m",
+          "date_utc": "2026-07-03T23:33:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMVwNJTbgAAfxa8.jpg",
+            "https://nitter.net/pic/media%2FHMTqns2bQAAMS8L.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Thanks so much for the shout out! 🇺🇸 @HarrisonHSmith @AJNlive Video",
+          "link": "https://nitter.net/heavypulp/status/2073141333540151726#m",
+          "date_utc": "2026-07-03T20:26:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073141178023718912%2Fimg%2FkVLWXSbav8ee9BAC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "It's also session-aware, so it learns as the session progresses to optimize its model selections. Try the Kilo Gateway w/ Auto Efficient here: kilo.ai/gateway Link Kilo Gateway - Universal AI Inference API Route LLM requests to any provider, power your own AI apps, or bring existing provider keys through Kilo Gateway without another model subscription. kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2073124979290333584#m",
+          "date_utc": "2026-07-03T19:21:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://kilo.ai/gateway",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Kilo's \"Auto Efficient\", available through the Kilo Gateway, is a next-generation auto model router that reads your prompt, references our coding benchmark, KiloBench, and selects the cheapest model proven to handle the type of task you requested.",
+          "link": "https://nitter.net/kilocode/status/2073124977872715965#m",
+          "date_utc": "2026-07-03T19:21:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Every engineering leader is asking for a router that cuts AI spend without tanking code quality. @GergelyOrosz just rounded up the options in The Pragmatic Engineer, and Kilo Gateway is on the list. 🔥 His take: routing is becoming table stakes, open models are already good enough for a big chunk of coding work, and everyone's about to ship some version of this. We've been building toward exactly that, especially with our latest auto router, Auto Efficient.👇",
+          "link": "https://nitter.net/kilocode/status/2073124975247073789#m",
+          "date_utc": "2026-07-03T19:21:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMU2OmgXMAAIavw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
