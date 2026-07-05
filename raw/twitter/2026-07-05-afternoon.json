@@ -1,0 +1,944 @@
+{
+  "date": "2026-07-05",
+  "slot": "afternoon",
+  "scraped_ist": "2026-07-05 12:53",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "JasonBud",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "Cursor",
+        "coding agents"
+      ],
+      "tweets": [
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "Grateful to be an American, today and always. My grandparents and mother escaped communism, thanks to Senator Scoop Jackson. Here, one of the world's best neurosurgeons saved my grandfather's life. He paid it forward as an engineer and helped build the World Financial Center in New York. But he was proudest that my sister and I are Americans. And I am too. Video",
+          "link": "https://nitter.net/JasonBud/status/2073478777204851007#m",
+          "date_utc": "2026-07-04T18:47:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073477934057402368%2Fimg%2FByhrf5doKrmGYQy7.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 850,000 FIREWORKS shells lit up the National Mall! It just broke the WORLD RECORD for the biggest fireworks show in history. For comparison, last year’s DC 4th of July show only used around 20,000 shells. Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073665682634604989#m",
+          "date_utc": "2026-07-05T07:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073629365670121472%2Fimg%2FBzeuvxGLOut5w-LT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇫🇷 Paraguay tried to rattle Mbappé in stoppage time. He just smiled even wider. Man’s the definition of a team player. Writer: Monica Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073663165917769938#m",
+          "date_utc": "2026-07-05T07:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073546428836663296%2Fimg%2FaOKZy05dxy-Vcz-L.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 America is wealthier than ever… So why does inequality keep growing? Record wealth at the top, yet millions feel further from the American Dream, not closer. Income gaps, education divides, healthcare costs, and stalled social mobility; the boom isn't reaching everyone. Economic growth without shared prosperity is sure to reshape the nation's future. Source: Financial Times, Reuters / Writer: Val, Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2073660649440166054#m",
+          "date_utc": "2026-07-05T06:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMcWvHeWoAAzCXd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇶 Something serious may be brewing in northern Iraq. For decades, the Kurdish region has been dominated by the Barzani family and their ruling Kurdistan Democratic Party (KDP). Now, KDP armed forces are surrounding the homes of members of the powerful Herki tribe in Erbil province. This isn't just a police operation. The Herki are one of the largest and most influential tribes in the region, and deadly clashes between them and the KDP last year exposed rare cracks in the Barzanis' grip on power. Source: Naya / Writer: Ian Video Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073658132858015804#m",
+          "date_utc": "2026-07-05T06:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073651230413377536%2Fimg%2FdKNf78WWc9GxVXop.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2073651230451105792%2Fimg%2FEP7nVdvpMBA8RZUL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇳🇴 Haaland is scoring at a level football hasn’t seen in years… then goes home and plays MW2, Minecraft, and waits for GTA VI like the rest of us 😂 Writer: Monica Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073655617181647031#m",
+          "date_utc": "2026-07-05T06:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073501157700567040%2Fimg%2FKDkRiJCCMqrvq34J.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 A night at the beach turned into a nightmare Five people shot near Surf Avenue West 30th Street in Brooklyn… victims included a 5-year-old and a 7-year-old. Prayers for the victims. Investigation underway. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073653099474911458#m",
+          "date_utc": "2026-07-05T06:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2073622518741540864%2Fpu%2Fimg%2FxIbyjIjWL1g5Jsmq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 No wonder they call it Chiraq 😯 Writers: Mhedi, Ian",
+          "link": "https://nitter.net/MarioNawfal/status/2073650583123247108#m",
+          "date_utc": "2026-07-05T06:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMcUEmVWIAEXXot.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷 A lot of contentious rulings were made in Argentina's favour in its razor-close win over Cape Verde. People are questioning whether there was any bias on the part of the officiators. Maybe there was, maybe there wasn't. But here is how a few top FIFA officials celebrated Argentina's victory. Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073648071456571513#m",
+          "date_utc": "2026-07-05T06:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2073460347847991297%2Fpu%2Fimg%2FKfLlMj--yn4p29ME.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Prayers have now finished for the funeral of Ayatollah Khamenei in Tehran His coffin will now be displayed for public viewing until the ceremonies move to Qom on Tuesday. Source: Middle East Spectator / Writer: Ian Video Mario Nawfal (@MarioNawfal) 🇮🇷 There are reportedly over 9 million mourners packed into Tehran for the funeral of Ayatollah Khamenei For context, that's equivalent to around 10% of Iran's entire population Source: Middle East Spectator / Writer: Ian Video — https://nitter.net/MarioNawfal/status/2073640516558680347#m",
+          "link": "https://nitter.net/MarioNawfal/status/2073643615260147975#m",
+          "date_utc": "2026-07-05T05:42:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073643552861564928%2Fimg%2FqOa3w336WAoLnzUW.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2073640041889292289%2Fimg%2FyRc27tloVZH6AYcU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 There are reportedly over 9 million mourners packed into Tehran for the funeral of Ayatollah Khamenei For context, that's equivalent to around 10% of Iran's entire population Source: Middle East Spectator / Writer: Ian Video Mario Nawfal (@MarioNawfal) 🇮🇷 IRGC commander Ahmad Vahidi, who's wanted by Interpol, sanctioned by the U.S, and in hiding since February, has been spotted at Ayatollah Khamenei's funeral. Source: Middle East Spectator / Writer: Monica Video — https://nitter.net/MarioNawfal/status/2073638817676788186#m",
+          "link": "https://nitter.net/MarioNawfal/status/2073640516558680347#m",
+          "date_utc": "2026-07-05T05:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073640041889292289%2Fimg%2FyRc27tloVZH6AYcU.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2073638743768973313%2Fimg%2FrAvs4I9TqbA6t-QL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 IRGC commander Ahmad Vahidi, who's wanted by Interpol, sanctioned by the U.S, and in hiding since February, has been spotted at Ayatollah Khamenei's funeral. Source: Middle East Spectator / Writer: Monica Video Mario Nawfal (@MarioNawfal) 🇮🇷 The size of the crowds for Ayatollah Khamenei's funeral is staggering Every bit of space is packed with mourners Source: SNN / Writer: Ian Video — https://nitter.net/MarioNawfal/status/2073637338635235520#m",
+          "link": "https://nitter.net/MarioNawfal/status/2073638817676788186#m",
+          "date_utc": "2026-07-05T05:23:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073638743768973313%2Fimg%2FrAvs4I9TqbA6t-QL.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2073637277570396160%2Fimg%2Fd7oOendybY41XAdd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 The size of the crowds for Ayatollah Khamenei's funeral is staggering Every bit of space is packed with mourners Source: SNN / Writer: Ian Video Mario Nawfal (@MarioNawfal) 🇮🇷 \"O Allah, we know nothing about him except goodness…\" Iranian officials were seen visibly weeping during the funeral prayers for Ali Khamenei, which have reportedly just ended. Source: MES (Telegram) / Writer: Michael Video — https://nitter.net/MarioNawfal/status/2073635428037452268#m",
+          "link": "https://nitter.net/MarioNawfal/status/2073637338635235520#m",
+          "date_utc": "2026-07-05T05:17:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073637277570396160%2Fimg%2Fd7oOendybY41XAdd.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2073635180560977920%2Fimg%2FOQU0g90840tda8rC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 \"O Allah, we know nothing about him except goodness…\" Iranian officials were seen visibly weeping during the funeral prayers for Ali Khamenei, which have reportedly just ended. Source: MES (Telegram) / Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073635428037452268#m",
+          "date_utc": "2026-07-05T05:09:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073635180560977920%2Fimg%2FOQU0g90840tda8rC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Top former general warns: Keep the military out of domestic politics Ex-Joint Chiefs Chairman Charles Q. Brown says the U.S. military should not get dragged into political fights. \"It is not the military's job to save the republic from political impasses.\" Striking remarks amid expanded military use for law enforcement under Trump... but hard to argue with the results in D.C. Source: Foreign Affairs / Writer: Val, Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2073632971962065381#m",
+          "date_utc": "2026-07-05T05:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMcEJhbXYAAEJx9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iranians are packed shoulder to shoulder just to say goodbye to Khamenei. This is one of the largest public gatherings in Iran's history. Source: MES (Telegram) / Writer: Monica, Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073631708524810465#m",
+          "date_utc": "2026-07-05T04:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073629753303527424%2Fimg%2FeWyXuOzUJ5fhXtC_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 This is said to be the coffin of Ayatollah Khamenei's 14-month-old granddaughter, Zahra. She was killed during U.S.-Israeli strikes on the day the war began, along with the Supreme Leader and much of their family. Coffins shouldn't come in that size, but sadly they do. Source: MES (Telegram) / Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073630450267091208#m",
+          "date_utc": "2026-07-05T04:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073628750302920705%2Fimg%2FPPVDVV3GnULgxCBs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷 Khamenei's body is being brought out for funeral prayers as millions lined the streets to mourn the man Iran calls its martyred Supreme Leader. Source: MES (Telegram) / Writer: Monica Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073628688575566087#m",
+          "date_utc": "2026-07-05T04:43:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073627240697327616%2Fimg%2FUwJJf1dBTgrL0utn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Shooting + stabbing erupts in Queens. One person shot, another stabbed on 89th Avenue in Jamaica around 10:30 p.m. The scene turned chaotic as EMS and NYPD swarmed the area. Investigation is underway. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073627933806084128#m",
+          "date_utc": "2026-07-05T04:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2073622054792810496%2Fpu%2Fimg%2FQM2zd-7Yts9bhPGk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Multiple highways around Imam Khomeini Mosalla Grand Mosque have been closed due to crowding ahead of the Supreme Leader's funeral. Video is taken from Resalat Expressway (Qassem Soleimani Highway). Source: MES (Telegram) / Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073627178751959470#m",
+          "date_utc": "2026-07-05T04:37:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073626237155631104%2Fimg%2FET5oh4FDjPDbZuiN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🎆 Huge fireworks show just kicked off over Washington’s National Mall celebrating America at 250. The sky is lit up in full red, white, and blue! Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2073625417089421693#m",
+          "date_utc": "2026-07-05T04:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073620366908432384%2Fimg%2FX_WPvSuaQAuPEM4Y.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My very first conversation at #acl2026 is with @mohitvaishnav who gave me the best reason why computer science is still needed even in a world where AI can code: “We built the machine and now we need to learn to master it.” Says people who have computer science degrees have a better knowledge base upon which to do that. After he said that I asked him if I could record and this is what we recorded. I have already had some amazing conversations. More talk here about spatial computing than I was expecting. One attendee told me why: the people who make Large Language Models e that one path to impr",
+          "link": "https://nitter.net/Scobleizer/status/2073649247044489623#m",
+          "date_utc": "2026-07-05T06:04:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073647533575053312%2Fimg%2FP4ejcToiqUNhCvMw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "July 4th, 2030. In just four years, almost every part of America will be reachable by an autonomous car. People don't believe me when I say that, but it's already happened for me. In fact, I've probably driven through your community by my robot. Which gets me to a new point. I've been all over this country with my robot, and there are some places that are stunningly beautiful: Wyoming, Montana, Alaska, California, and Utah. Even the East Coast has stunning natural beauty in places like Maine and New Hampshire. It's different than Yosemite National Park, of course, but they have their own natio",
+          "link": "https://nitter.net/Scobleizer/status/2073501276621730101#m",
+          "date_utc": "2026-07-04T20:16:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073498882844360704%2Fimg%2FCDscwnvsBk5pJPVa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I call this “the Holodeck.” Am in San Diego for #acl2026 hanging out with the people who make the prompt work better. Starts tonight. Lots of foundational work being done, if you haven’t followed my AI lists you really are missing out: nitter.net/scobleizer/lists Most complete lists of people and companies building the future anywhere. Angela Dai (@angelaqdai) 📢WorldMesh is accepted to #ECCV2026 , and we're releasing the code today! 🎉 Led by @mschneider456 : navigable, multi-room 3D scenes from a text prompt, with a mesh scaffold conditioning image diffusion for global consistency + photoreali",
+          "link": "https://nitter.net/Scobleizer/status/2073468346482536810#m",
+          "date_utc": "2026-07-04T18:05:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073451251153457152%2Fimg%2FBkJ9yCmQfE8h6TNS.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://mschneider456.github.io/world-mesh/",
+              "content": "WorldMesh: Generating Navigable Multi-Room 3D Scenes via Mesh-Conditioned Image Diffusion More Research WorldExplorer WorldMesh: Generating Navigable Multi-Room 3D Scenes via Mesh-Conditioned Image Diffusion ECCV 2026 Manuel-Andreas Schneider , Angela Dai Technical University of Munich Paper arXiv Video Code WorldMesh generates arbitrarily large multi-room 3D scenes efficiently using mesh-guided image diffusion. With Trajectories Without Trajectories Ancient Roman Estate With Animating Mosaics. Abstract Recent progress in image and video synthesis has inspired their use in advancing 3D scene generation. However, we observe that text-to-image and -video approaches struggle to maintain scene- and object-level consistency beyond a limited environment scale due to the absence of explicit geome"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Happy Birthday America. Still a place that causes many from around the world to dream about a better future. Like Wendy who is visiting from Kenya this week. Enjoy the last fourth without many robots walking around. :-) Wendy🌸 (@akinyi__wendy) My dad is worried about how SF is going. I just shared this video with him . It is the best welcome I’d ever get as a foreign founder coming into San Francisco. 🦋🫶🏾 — https://nitter.net/akinyi__wendy/status/2073461465097650208#m",
+          "link": "https://nitter.net/Scobleizer/status/2073465469751926821#m",
+          "date_utc": "2026-07-04T17:54:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I told you the future would be weird. UBTECH Robotics (@UBTECHRobotics) Get an up-close look at the UWORLD ultra-bionic humanoid robot and discover its remarkable detail and lifelike presence. #UBTECH #UWORLD #U1Pro #UltraBionic #HumanoidRobot #ConsumerRobotics #Robotics #AI Video — https://nitter.net/UBTECHRobotics/status/2073013898362421323#m",
+          "link": "https://nitter.net/Scobleizer/status/2073309489487647162#m",
+          "date_utc": "2026-07-04T07:34:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072966586617778176%2Fimg%2F7YzSKpXlWgUnSkx3.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "HAPPY 250TH BIRTHDAY AMERICA!!!",
+          "link": "https://nitter.net/SeanParnellASW/status/2073389261982674986#m",
+          "date_utc": "2026-07-04T12:51:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMYoi6cXEAA51XH.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "aksheyd",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "Happy July 4th! Refreshed the Grok Build docs with a ton of new content while you wait for the fireworks :) docs.x.ai/build/overview Link Getting Started | xAI Docs Install Grok Build, start an interactive session, use headless mode, and configure custom models. docs.x.ai",
+          "link": "https://nitter.net/aksheyd/status/2073510135776047412#m",
+          "date_utc": "2026-07-04T20:51:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://docs.x.ai/build/overview",
+              "content": "Grok Build | xAI Docs Docs Search ⌘ K API Console Products Grok Status Loading... Resources llms.txt Discord Email support Terms and Policies Get Started Welcome Quickstart Models New Pricing Release Notes Build Getting Started Modes and Commands Keyboard Shortcuts Features Settings CLI Enterprise Deployments Text Text Generation Reasoning Structured Outputs Streaming Multi Agent Completions (Legacy) Imagine Overview Image Generation Image Editing Multi-Image Editing Video Generation Image-to-Video Video Editing Reference-to-Video Video Extension Files API Integration New Voice New Overview Ephemeral Tokens Voice Agent API Text to Speech Speech to Text Custom Voices New Resources Rate Limits Cost Tracking Debugging Errors Docs MCP Files Collections Files Overview Managing Files Public URLs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂😂 Yann (@Yannlce) — https://nitter.net/Yannlce/status/2073474325575872889#m",
+          "link": "https://nitter.net/brivael/status/2073539967729475795#m",
+          "date_utc": "2026-07-04T22:50:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMZ15cuWkAA-eoy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I judge people by their ideas and by what they’ve built and shipped.",
+          "link": "https://nitter.net/brivael/status/2073539878277566591#m",
+          "date_utc": "2026-07-04T22:50:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La profondeur de l’analyse de Hayek. bertrandkeller (@bertrandkeller) Vous avez lu 1 livre dans votre vie. C'est bien. Mais il faut lire les critiques de ce livre et de sa pensée. Il en existe plein. Et si on les lit. On voit que vos développements manquent de profondeur ex. pauljorion.com/blog/2013/07/… — https://nitter.net/bertrandkeller/status/2073354819394289846#m",
+          "link": "https://nitter.net/brivael/status/2073539050397401321#m",
+          "date_utc": "2026-07-04T22:46:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMawxndXoAAZa3d.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.pauljorion.com/blog/2013/07/31/la-democratie-selon-friedrich-von-hayek-economiste-autrichien-par-bertrand-rouzies-leonardi/",
+              "content": "La démocratie selon Friedrich (von) Hayek, économiste autrichien, par Bertrand Rouziès-Leonardi &#8211; Blog de Paul Jorion Aller au contenu Blog de Paul Jorion Qui est Paul Jorion ? My English-speaking blog Un don au blog : pourquoi ? Les billets d Annie Le Brun Les billets de Jeanne Favret-Saada Contacter Paul Jorion Mes vidéos les plus vues Politique de confidentialité Connexion Un modèle unique pour les esprits naturels et artificiels Une théorie révolutionnaire de la conscience : CFRT (Cross-Flow Resonance Theory) PRIBOR : Logique « Combinatoire magique » PRIBOR : CHE (Contextual Hyper-Embedding uint8) *Godot est mort !* La démocratie selon Friedrich (von) Hayek, économiste autrichien , par Bertrand Rouziès-Leonardi 31 juillet 2013 23h23 Billet invité. Autant le dire tout de go, Fried"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. Too many young people get brainwashed. This is super dangerous because with communism with AI. It can be an infinite totalitarian world where you will be forced to have a chip in your head. If you are thinking about having freedom, The police will come. Lily Storme (@xochilily) Marxism deserves to treated like Nazism. — https://nitter.net/xochilily/status/2073534136841895961#m",
+          "link": "https://nitter.net/brivael/status/2073535089485480017#m",
+          "date_utc": "2026-07-04T22:31:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Correction, J’ai lu exactement 4 livres: Tintin au pays des Soviets. Les Schtroumpfs, Gargamel le généreux ( j’étais amoureux de la Schtroumpfette ) La biographie de Patrick Sébastien Et la route de la servitude Un socle parfait pour une vie heureuse et remplie de joie bertrandkeller (@bertrandkeller) Vous avez lu 1 livre dans votre vie. C'est bien. Mais il faut lire les critiques de ce livre et de sa pensée. Il en existe plein. Et si on les lit. On voit que vos développements manquent de profondeur ex. pauljorion.com/blog/2013/07/… — https://nitter.net/bertrandkeller/status/207335481939428984",
+          "link": "https://nitter.net/brivael/status/2073530895496102297#m",
+          "date_utc": "2026-07-04T22:14:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://www.pauljorion.com/blog/2013/07/31/la-democratie-selon-friedrich-von-hayek-economiste-autrichien-par-bertrand-rouzies-leonardi/",
+              "content": "La démocratie selon Friedrich (von) Hayek, économiste autrichien, par Bertrand Rouziès-Leonardi &#8211; Blog de Paul Jorion Aller au contenu Blog de Paul Jorion Qui est Paul Jorion ? My English-speaking blog Un don au blog : pourquoi ? Les billets d Annie Le Brun Les billets de Jeanne Favret-Saada Contacter Paul Jorion Mes vidéos les plus vues Politique de confidentialité Connexion Un modèle unique pour les esprits naturels et artificiels Une théorie révolutionnaire de la conscience : CFRT (Cross-Flow Resonance Theory) PRIBOR : Logique « Combinatoire magique » PRIBOR : CHE (Contextual Hyper-Embedding uint8) *Godot est mort !* La démocratie selon Friedrich (von) Hayek, économiste autrichien , par Bertrand Rouziès-Leonardi 31 juillet 2013 23h23 Billet invité. Autant le dire tout de go, Fried"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Art contemporain 2026. Après le plug anal devant le ministère de la Justice. Racaillou fait nourrir la Seine de son nectar. Le futur Victor Hugo, que dis-je, le futur Napoléon. C’est sûr qu’avec lui, on gagne à Austerlitz. J’ai jamais été optimiste sur l’avenir de la France 🚀 Video",
+          "link": "https://nitter.net/brivael/status/2073527838712480031#m",
+          "date_utc": "2026-07-04T22:02:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2072762935357718528%2Fimg%2FSigLvI9TLOTfwdQN.jpg",
+            "https://nitter.net/pic/media%2FHMPu6GJWsAAJDot.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les dividendes de la paix French Report (@french_report78) 🔴💸 INSOLITE | Marcel se plaint de ne pas percevoir de dividendes. — https://nitter.net/french_report78/status/2073382479436677205#m",
+          "link": "https://nitter.net/brivael/status/2073526006736908566#m",
+          "date_utc": "2026-07-04T21:54:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hello quitte X Le Glaive (@LeGlaive) 2025 « je quitte X pour bluesky » 2026 « Elon paye moi stp uwu » — https://nitter.net/LeGlaive/status/2073433010737664208#m",
+          "link": "https://nitter.net/brivael/status/2073520612023164961#m",
+          "date_utc": "2026-07-04T21:33:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂 Nicolas 💸 (@NicolasQuiPaie) 💸 1 JOUR, 1 GABEGIE JOUR 12 💰 387 000 € 💰 C’est le prix du métavers destiné à intéresser les jeunes à l’UE, payé par la Commission européenne. Pour le lancement, ils ont organisé un gala virtuel : 6 personnes présentes. Même les PNJ n’ont pas voulu venir. ON COUPE ✂️ — https://nitter.net/NicolasQuiPaie/status/2073323519966892116#m",
+          "link": "https://nitter.net/brivael/status/2073520475972473317#m",
+          "date_utc": "2026-07-04T21:33:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯😅 Nancy Mace (@NancyMace) — https://nitter.net/NancyMace/status/2073421584635969837#m",
+          "link": "https://nitter.net/brivael/status/2073513839845355627#m",
+          "date_utc": "2026-07-04T21:06:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMJR5oDW0AAutkI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "They saw the grooming gang coming, they left",
+          "link": "https://nitter.net/brivael/status/2073513817049272411#m",
+          "date_utc": "2026-07-04T21:06:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMaZxf1WEAAL7qw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯",
+          "link": "https://nitter.net/brivael/status/2073513301481255267#m",
+          "date_utc": "2026-07-04T21:04:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMaZVLsXAAE1Hdq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "God bless America 🇺🇸 Dr Jordan B Peterson (@jordanbpeterson) To the Americans: I've travelled all over the world. I've familiarized myself with many places, and met many people. And I'm a Canadian, although I’m privileged to reside once again in the States. And here's something I've noticed, and it’s a key element of America's continuing greatness: You bloody Americans value success, and you believe in its existence. This is something that doesn't really happen anywhere else in the world. Even in other free democracies—the United Kingdom; Finland, Sweden, and Norway; Australia, New Zealand and",
+          "link": "https://nitter.net/brivael/status/2073509457481392184#m",
+          "date_utc": "2026-07-04T20:49:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "❤️ Dima Zeniuk (@DimaZeniuk) “No matter what happens, I will fight for and die in America.” — Elon Musk — https://nitter.net/DimaZeniuk/status/2073425430305010009#m",
+          "link": "https://nitter.net/brivael/status/2073505531465969970#m",
+          "date_utc": "2026-07-04T20:33:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMZJcDdXQAAS-YW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "I’m not deeply religious. But I’m a Christian, and I profoundly believe that Christianity is the bedrock of Western civilization and the foundation of much of the great science and technological progress we have achieved. 🚀🇺🇸🚀🇺🇸",
+          "link": "https://nitter.net/brivael/status/2073505368395644984#m",
+          "date_utc": "2026-07-04T20:32:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMaSJBKW0AEVkc-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "It will be so fucking Epic !!!! SMX 🇺🇸 (@iam_smx) “Can you imagine how awesome it would be to have American astronauts plant the flag on another planet for the first time BAM! BAM! YEAH!” 🇺🇸 -Elon Musk Video — https://nitter.net/iam_smx/status/2073484750791069885#m",
+          "link": "https://nitter.net/brivael/status/2073504716143636528#m",
+          "date_utc": "2026-07-04T20:30:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F1883893379936731136%2Fpu%2Fimg%2FtchxlJslIibip72-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "When France was France",
+          "link": "https://nitter.net/brivael/status/2073504057356952044#m",
+          "date_utc": "2026-07-04T20:27:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMaQ8stXQAAAeLT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Sometimes I suit up, but only in a castle.",
+          "link": "https://nitter.net/brivael/status/2073503715659522493#m",
+          "date_utc": "2026-07-04T20:26:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMaQoodXYAAUIkU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Brivael Le Pogam (@brivael) Normal day at @argildotai On a volé la planche à billet de la FED Video — https://nitter.net/brivael/status/2073494772656804057#m",
+          "link": "https://nitter.net/brivael/status/2073502676973756603#m",
+          "date_utc": "2026-07-04T20:22:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073481631768178688%2Fimg%2FUyK_Ob5U99YgLaUz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Same. Zen (@TeslaZenX) Elon Musk: \"I don't ever give up. I’d have to be dead or completely incapacitated\" — https://nitter.net/TeslaZenX/status/2073352877272183108#m",
+          "link": "https://nitter.net/brivael/status/2073501903036510555#m",
+          "date_utc": "2026-07-04T20:19:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMYHdABWgAE-C7q.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this reminds me of how people visualize quantization for image gen, funny to see that reasoning effort has a similar visual effect Peter Gostev (@petergostev) I ran the same prompt through Fable (in CC) at different reasoning levels, low effort too 12 minutes, max effort took nearly 2 hours. Prompt and the hosted version of this video below Video — https://nitter.net/petergostev/status/2073505851986297241#m",
+          "link": "https://nitter.net/eliebakouch/status/2073526105823416674#m",
+          "date_utc": "2026-07-04T21:55:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMak7AtbAAAIJ5s.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2073505200921313280%2Fimg%2Fm8SQSw-Pt3DmVkH-.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "proud to call the greatest country on earth my home. happy america day!",
+          "link": "https://nitter.net/ellev3n11/status/2073570070350213213#m",
+          "date_utc": "2026-07-05T00:50:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Song is now streaming basically everywhere by the way! heavypulp.media/#music Link HEAVY PULP Freshly Squeezed Visual Amalgamations. heavypulp.media",
+          "link": "https://nitter.net/heavypulp/status/2073532299874861311#m",
+          "date_utc": "2026-07-04T22:19:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072902601730052096%2FQ3giRGRA%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://heavypulp.media/#music",
+              "content": "HEAVY PULP HEAVY PULP Freshly Squeezed Visual Amalgamations. HEAVY PULP&#039;S FEATURE LENGTH MOVIE VISUAL SHORTS Client Work ART PRINTS YOUTUBE TIKTOK VIMEO MUSIC IG X Heavy Pulp is the creative sandbox of a real, living talented (citation needed) Film Editor/VFX Artist guy who is trying to stay on the forefront of the latest advancements in AI as they pertain to the film/media industry. All images/videos are original concepts created with AI tools such as Grok Imagine, midjourney, LTX, Kling, Runway, etc. Images/Videos are then further modified, edited, cleaned up and stylized with photoshop, davinci resolve, after effects and otherwise. CRYPTO The official $HeavyPulp coin: CA: 8G5ayEsJF4Q7FEWEGeF4jtnUWZBEKCqhySTFQf9Ppump Mission Statement Link Pump.fun Page NFTs Exchange REMEMBER: EVERY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Happy Birthday America! To me, the greatest nation on Earth. 250 years of loudly arguing our way toward a more perfect union 😂 We're in this together, I love you all! ❤️ PS: World Cup has been amazing. US in the round of 16, LFG! Also, I'm a long-time huge fan of Argentina and Messi, but Cape Verde vs Argentina was one of the greatest games I've ever seen. That is what the World Cup is all about!",
+          "link": "https://nitter.net/lexfridman/status/2073494781389316170#m",
+          "date_utc": "2026-07-04T19:50:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "lynnmartin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "lynnmartin",
+          "creator": "@lynnmartin",
+          "text": "Today, aboard the USS Kearsarge with Admiral Daryl Caudle, @USNavyCNO , Vice President @JDVance , Hung Cao, Acting Secretary of the @USNavy , and esteemed guests of @sail4th 250, a core pillar of American freedom comes to mind: diplomacy. From its youngest days, America's strength has come from our willingness to engage, to build trust, and to lead on the world stage with both conviction and humility. Diplomacy is not a concession to strength. It is an expression of it. At the NYSE, we see this truth play out every day. The companies in our community span every continent. The capital that flow",
+          "link": "https://nitter.net/lynnmartin/status/2073475396574773595#m",
+          "date_utc": "2026-07-04T18:33:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073474939454181376%2Fimg%2FjN7a_Fg1HJQPZEG7.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Why can’t every 4th of July be this grand? #America250",
+          "link": "https://nitter.net/magicsilicon/status/2073617783515156807#m",
+          "date_utc": "2026-07-05T03:59:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "From 🌎 to 🌖 to 🪐 to the ✨",
+          "link": "https://nitter.net/magicsilicon/status/2073615752452780307#m",
+          "date_utc": "2026-07-05T03:51:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMb2iYFaMAAe2C2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Ronald Reagan's farewell address as President contains one of the most evocative descriptions of America, the shining city upon a hill. #America250 \"After 200 years, two centuries, she still stands strong and true on the granite ridge, and her glow has held steady no matter what storm. And she's still a beacon, still a magnet for all who must have freedom, for all the pilgrims from all the lost places who are hurtling through the darkness, toward home.\" Full speech: piped.video/FjECSv8KFN4?si=TURo…",
+          "link": "https://nitter.net/magicsilicon/status/2073597439496556739#m",
+          "date_utc": "2026-07-05T02:38:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMbkOFnbMAEsCHL.png"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/FjECSv8KFN4?si=TURoUVQTzvYAIj9X",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mlevchin",
+          "creator": "@mlevchin",
+          "text": "Happy 250th birthday, the awesome US of A! Those of us who you took in so graciously with literally nothing but suitcases full of trauma brought in from the socialist paradise and afforded every opportunity to succeed — we salute you with extra zeal today! Happy 4th! 🇺🇸🇺🇸🇺🇸",
+          "link": "https://nitter.net/mlevchin/status/2073440822868222415#m",
+          "date_utc": "2026-07-04T16:16:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "UK is literally becoming a totalitarian regime Basil the Great (@BasilTheGreat) 🚨BREAKING: UK GOVERNMENT TO TAKE CONTROL OF YOUTUBE ALGORITHM This is pure authoritarianism Keir Starmer's/Andy Burnham's Government is set to control the YouTube algorithm by LAW stipulating that they must push \"APPROVED CONTENT\" to UK Citizens And independent voices who criticise the government will be pushed to the back of the queue making it harder for people to find YouTube has acknowledged this is happening This must be stopped — https://nitter.net/BasilTheGreat/status/2073339404437897258#m",
+          "link": "https://nitter.net/ns123abc/status/2073477466140680603#m",
+          "date_utc": "2026-07-04T18:42:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMX7LfIXsAArcZ6.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "It’s not only OK to love America. It’s necessary. Matthew 12:25 Spencer Pratt (@spencerpratt) It's OK to love America. — https://nitter.net/spencerpratt/status/2073454949497708594#m",
+          "link": "https://nitter.net/spencerpratt/status/2073568668282138971#m",
+          "date_utc": "2026-07-05T00:44:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "God Bless America Video",
+          "link": "https://nitter.net/spencerpratt/status/2073538263554416676#m",
+          "date_utc": "2026-07-04T22:43:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073537732299657216%2Fimg%2F7_90ZwMFfs08uIYq.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
