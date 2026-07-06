@@ -1,0 +1,1065 @@
+{
+  "date": "2026-07-06",
+  "slot": "evening",
+  "scraped_ist": "2026-07-06 22:00",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "Beautiful paper from Google DeepMind. Explains the pathways from AGI to ASI, and why that jump could happen through several routes. The authors frame the AGI-to-ASI transition around 4 technical pathways: - continued scaling of compute, model size, data, and test-time inference; - algorithmic paradigm shifts beyond today’s transformer-based foundation-model stack; - recursive self-improvement, where AI accelerates AI R&D and improves future systems; and - multi-agent collective intelligence, where large populations of specialized agents coordinate into a superhuman group agent. Scaling may wor",
+      "link": "https://nitter.net/rohanpaul_ai/status/2073896201876017487#m",
+      "date_utc": "2026-07-05T22:26:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMfhLoIaYAAnW7h.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@0x_kaize",
+      "text": "Article Loop Engineering - From Prompting to Looping I’ve decided to dedicate this article to how to create your own programmable agent that will do the work for you, so you won’t have to turn on your computer every morning and give it commands over and",
+      "link": "https://nitter.net/0x_kaize/status/2073438517775003671#m",
+      "date_utc": "2026-07-04T16:07:19+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMYUXp3XUAEC9dA.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@Hi_Mrinal",
+      "text": "this was the best read on KV cache which was intuitively soo good to read about medium.com/@saad.ahmed1926q/…",
+      "link": "https://nitter.net/Hi_Mrinal/status/2073706279206637958#m",
+      "date_utc": "2026-07-05T09:51:19+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMdI12kbQAA-lBO.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://medium.com/@saad.ahmed1926q/kv-cache-explained-intuitively-2b425a36dfc7",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@asmah2107",
+      "text": "Compression techniques I’d study if I wanted small but smart LLMs. 1.Quantization 2.Distillation 3.Low-Rank Adaptation 4.Weight Sharing 5.Sparse Matrices 6.Layer Dropping 7.Knowledge Transfer 8.Embedding Compression 9.Mixed Sparsity 10. Progressive Shrinking 11.Structured Pruning 12.AutoML Compression Follow @asmah2107 to update your game on LLM optimisations.",
+      "link": "https://nitter.net/asmah2107/status/2074012053870944740#m",
+      "date_utc": "2026-07-06T06:06:21+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMhe-CSbUAAljya.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "A warning for anyone using autonomous agents Google DeepMind’s paper. Gives the first clear taxonomy of 6 attack types where harmful websites can detect AI agents and show them hidden content humans never see, like - Instructions buried in HTML comments or white-on-white text - Steganography in image pixels - Override commands in PDFs, metadata, or even speaker notes - Memory poisoning that persists across sessions - Goal hijacking and cross-agent cascades in multi-agent setups The real security problem for AI agents is not just the model, but the environment it reads. The web itself can be we",
+      "link": "https://nitter.net/rohanpaul_ai/status/2074006931509842082#m",
+      "date_utc": "2026-07-06T05:46:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMhMgrMa4AAsl9e.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@AlphaSignalAI",
+      "text": "Article Agentic AI 101 Survey Research Paper: The Stack Between a Model and a System What separates an agent from a workflow, one layer at a time In ~10 mins: the agent loop, the model-to-agentic-system ladder, the full stack from model to UI, a workflow-vs-agent-vs-multi-agent",
+      "link": "https://nitter.net/AlphaSignalAI/status/2072786187962425817#m",
+      "date_utc": "2026-07-02T20:55:12+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMP89j-WYAAqhEv.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@dair_ai",
+      "text": "// HASTE: tiered skills for ML engineering agents // Why do ML engineering agents keep rediscovering the same techniques on every new task? Because each competition is a cold start. New research introduces HASTE, a hierarchical multi-agent system that organizes accumulated skills into three scope tiers, global, domain, and competition-specific, each bound to a matching agent level. An orchestrator coordinates domain specialists and promotes learning upward through LLM-driven abstraction. The ablation is the headline. Holding a 159-skill inventory fixed across 8 competitions, tiered loading rea",
+      "link": "https://nitter.net/dair_ai/status/2073859479737933991#m",
+      "date_utc": "2026-07-05T20:00:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMfUNKjbQAAM-bB.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2606.30911",
+          "content": "Abstract: ML engineering agents waste compute rediscovering known techniques because every competition is a cold start. We present HASTE, a hierarchical multi-agent system that organizes cross-competition knowledge into three scope tiers (global, domain, and competition-specific), each coupled to a matching agent level. An orchestrator coordinates domain specialists and promotes learning between tiers via LLM-driven abstraction. A controlled ablation provides evidence for scoped loading: holding a 159-skill inventory constant across 8 competitions, tiered loading achieves a 100% medal rate while flat loading reaches only 62.5%, the same medal rate as loading no skills, and consumes 2x the output tokens. On the full MLE-Bench Lite benchmark (22 Kaggle competitions), HASTE reaches a medal ra"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@CompleteSkeptic",
+      "text": "Article Scaling Laws, Honestly TL;DR: The original scaling laws were wrong due to a bug Originally posted at: https://www.completeskeptic.com/p/scaling-laws-honestly Background Scaling laws were one of OpenAI’s most important results, both technically and",
+      "link": "https://nitter.net/CompleteSkeptic/status/2073442518117884197#m",
+      "date_utc": "2026-07-04T16:23:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMXOZ8-aYAAp9VJ.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@shmidtqq",
+      "text": "Article Loop Engineering: How One Loop Ships 259 PRs a Month Last December, one engineer shipped 259 finished code changes in a single month (in the jargon they are called PRs, pull requests). His AI wrote every one. He says he never opened a code editor. Peter",
+      "link": "https://nitter.net/shmidtqq/status/2068704187492221405#m",
+      "date_utc": "2026-06-21T14:34:47+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHLWDY-yXgAAkZRB.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@shmidtqq",
+      "text": "THE CLAUDE CODE TEAM JUST KILLED PROMPT ENGINEERING They stopped typing prompts and put the agent inside loops that run, verify and stop on their own while they sleep. Runs on 4 loop types. No hand-holding. No next prompt. Everything you used to do by hand, you now hand off: - The check → a SKILL.md the agent verifies its own work against - The stop → /goal, stops when the goal is hit or the tries run out - The trigger → /loop, fires on an interval and reacts to what changed - The prompt itself → a schedule that starts the work without you Most people prompt harder and get a chatbot. This one ",
+      "link": "https://nitter.net/shmidtqq/status/2073859460288954424#m",
+      "date_utc": "2026-07-05T20:00:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/amplify_video_thumb%2F2073763242090942464%2Fimg%2F7B4whl7m2dp_LZ0N.jpg",
+        "https://nitter.net/pic/media%2FHLWDY-yXgAAkZRB.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@trq212",
+      "text": "Article A Field Guide to Fable: Finding Your Unknowns Working with Claude Fable 5 keeps re-teaching me an old lesson: the map is not the territory. The map, a representation of the work to be done, is my prompts and skills and context, it’s what I give",
+      "link": "https://nitter.net/trq212/status/2073100352921215386#m",
+      "date_utc": "2026-07-03T17:43:35+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMUY_HnbcAAa51I.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@omarsar0",
+      "text": "Great overview of always-on agents. (bookmark it) It's a new 130+ pages survey on always-on agents. Simply put it, always-on agents are systems whose future behavior depends on durable state built up across earlier interactions. It treats that state as more than memory. Task ledgers, permissions, credentials, commitments, provenance, triggers, and externally committed effects all count. The survey scores each state item on six axes, authority, scope, mutability, provenance, recoverability, and actionability, across a lifecycle that runs from write and retrieve through forget, audit, and rollba",
+      "link": "https://nitter.net/omarsar0/status/2073850909684293780#m",
+      "date_utc": "2026-07-05T19:26:01+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMfMaWDbUAAaSml.png"
+      ],
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2606.30306",
+          "content": "Abstract: Always-on agents are systems whose future behavior depends on durable state accumulated across earlier interactions. We treat them as persistent-state systems: the operative system includes retrievable memories, but also task ledgers, permissions, credentials, commitments, provenance and audit records, shared state, trigger conditions, and externally committed effects linked to those records. The survey reads the literature through six diagnostic axes for each state item, authority, scope, mutability, provenance, recoverability, and actionability, and through a lifecycle in which state is written, validated, organized, retrieved, acted upon, updated, forgotten, audited, and sometimes rolled back. Across a 435-work coded corpus, treated as a scoped map rather than an exhaustive ce"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy 🚀 NEW COURSE — Vibe Coding AI Apps with Claude Code 🤖✨ Enroll now DAIR.AI Academy Courses Labs Events Pricing Blog Toggle theme Sign In Get Started Master AI Skills Build Join thousands of builders building with AI Agents, Claude Code, RAG, LLMs, and more. Become a top AI-native builder - even if you are just getting started. Start Learning View Courses Trusted by the world&#x27;s biggest companies Testimonials Loved by the top AI builders. Join thousands of learners building the future with AI. “ The AI agents course completely changed how I approach building applications. Now I&#x27;m building tools I never thought possible . SK Sarah K. “ Finally a platform that teaches AI practically. The RAG course helped me implement a production system in just weeks . MR Michael R. “"
+        }
+      ]
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@0xCodez",
+      "text": "Article Build self-improving agent system with Fable 5 in 14 steps : loops, dynamic workflows, routines Most people are using Claude Fable 5 like Sonnet 4.6 with a bigger context window. They prompt it. It works for 5 minutes. They close the tab. 9 out of 10 users have never run an agent system that",
+      "link": "https://nitter.net/0xCodez/status/2065089060104720776#m",
+      "date_utc": "2026-06-11T15:09:34+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHKirdDRXYAEw1E7.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@IntuitMachine",
+      "text": "Stop asking your LLM to \"judge this on a scale of 1-5.\" New research shows why that's been broken all along—and the dead-simple fix that's beating GPT-5. A thread on evaluation that actually works 🧶👇 The problem: You ask GPT-5 to rate a summary. It gives you \"3.5/5.\" Cool. But WHY 3.5? Was it factually wrong? Missing key points? Just badly written? You have no idea. You're flying blind. The insight: Humans don't actually judge in one holistic step. We check specific things: ✓ Is this fact correct? ✓ Is the tone appropriate? ✓ Did it answer the question? Then we synthesize. Why should AI be dif",
+      "link": "https://nitter.net/IntuitMachine/status/2073712446108205275#m",
+      "date_utc": "2026-07-05T10:15:49+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMdOdiTXgAA8Yie.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rohanpaul_ai",
+      "text": "A paper on open model adoption and finds Chinese models, led by Qwen, now dominate. China passed the U.S. in open model downloads in summer 2025. By March 2026, Chinese models had 1.15B tracked downloads, while U.S. models had 723M. Most of that shift comes from Qwen, which became the default base family for many builders. Qwen’s lead is not just about 1 famous model; it comes from having many useful models across many sizes, especially small ones that people can run cheaply and reuse often. DeepSeek matters in a different way: it does not dominate the whole open model ecosystem like Qwen, but",
+      "link": "https://nitter.net/rohanpaul_ai/status/2073433833748459617#m",
+      "date_utc": "2026-07-04T15:48:43+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMZOTvKbwAAlDUl.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@0xMoysei",
+      "text": "Andrej Karpathy quietly published 9 rules for building AI agents. Rule 1: stop writing prompts. \"If you find yourself iterating on a single message at 3 in the morning, you are still in the prompting era.\" A friend who runs agent infra at a trading firm read it once and deleted half the harness his team built last quarter. The whole paper argues most agents die from a weak harness, not a weak model. Everything you added to compensate for the model becomes dead weight the moment the model improves. The rule near the middle, about letting the loop delete its own work and start over, is the part ",
+      "link": "https://nitter.net/0xMoysei/status/2073892031240294726#m",
+      "date_utc": "2026-07-05T22:09:25+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHMfxzGzW8AAYNHh.jpg",
+        "https://nitter.net/pic/media%2FHMQU-RkX0AAkhMN.jpg"
+      ],
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "While America was celebrating 250 years free of monarchal rule, the No Kings crowd held virtual Zoom protests nationwide — vigorously clicking the “Raise Hand” button like it was some epic act of defiance. Hopefully one day they’ll realize the king is long gone and actually join us celebrating the GREATEST NATION ON EARTH with fireworks, family, and friends! 🇺🇸",
+          "link": "https://nitter.net/HouseGOP/status/2074168688459006219#m",
+          "date_utc": "2026-07-06T16:28:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "The math is simple: start saving at birth instead of at age 25, and by the time your child is 18, they can have a six-figure head start most adults never get. That's the power of @TrumpAccounts !",
+          "link": "https://nitter.net/HouseGOP/status/2074160331979460808#m",
+          "date_utc": "2026-07-06T15:55:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump stepping straight out of the Oval into the Rose Garden to \"God Bless the USA\" blasting. He's been grinding through meetings and prep all morning before flying out tonight for the NATO summit in Ankara. The man never rests 😂 Writer: Lucas, Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074164469484122384#m",
+          "date_utc": "2026-07-06T16:12:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074160550351654912%2Fimg%2FoxMUkCiYa5UuD5eR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇦🇪 Persian Gulf oil and gas loading is coming back to life. Satellite imagery shows tankers tied up at berths that sat empty even after the U.S.-Iran memorandum was signed. Iran and the UAE are leading the recovery, with Saudi Arabia, Kuwait and Iraq starting to pick up too. At Ras Laffan, Qatar looks to be turning the taps back on for the global LNG market. The tankers moving before the politics fully settle. Source: CIG Telegram, @CRUDEOIL231 / Writer: Julie",
+          "link": "https://nitter.net/MarioNawfal/status/2074163966192861247#m",
+          "date_utc": "2026-07-06T16:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjZ1qyWIAESXLw.jpg",
+            "https://nitter.net/pic/media%2FHMjZ1q1WoAEhsCc.jpg",
+            "https://nitter.net/pic/media%2FHMjZ1qwXYAAOcwn.jpg",
+            "https://nitter.net/pic/media%2FHMjZ1qyWIAAUBMO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Trump on Iran: \"And then I heard 'they're doing very well!' No, they're not doing very well at all. They want to make a deal so badly. But we'll see what happens... they have to make the right deal, because they cannot have a nuclear weapon.\" Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074163595806384592#m",
+          "date_utc": "2026-07-06T16:08:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074160356243451904%2Fimg%2FUYVgvisB0jpOAIkB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇺🇸 Charlie Kirk's parents have arrived at court for the preliminary hearing of the man accused of assassinating their son. My heart breaks for them 💔 Source: Fox News / Writer: Michael Mario Nawfal (@MarioNawfal) 🇺🇸 There's a HEAVY police presence outside the Fourth District Courthouse in Provo, UT, ahead of Tyler Robinson's preliminary hearing. Sheriff's deputies, Provo police, state troopers, and SWAT teams from multiple agencies are all on scene. The trial for Charlie Kirk's murder is still a ways away, but the preliminary hearing is a crucial early step in the process. Writer: Daniyal, Mi",
+          "link": "https://nitter.net/MarioNawfal/status/2074162550774636871#m",
+          "date_utc": "2026-07-06T16:04:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjnP7LWkAABlpC.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074147406535688192%2Fimg%2FC--WBpehuc6Yvq3E.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Invest America Founder Brad Gerstner on the launch of Trump Accounts: \"We're going to have the first-ever joint bell ringing by the Nasdaq and NYSE, and the first-ever remote bell ringing from the Oval Office. It is the largest unlock of direct philanthropy in the history of the country.\" Too bad they didn’t have this when we were kids! Many people may have gone down different paths in life. Writer: Jamie Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074161458741453263#m",
+          "date_utc": "2026-07-06T16:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074111190075047936%2Fimg%2FNz_oF_f1tc5sT0Ch.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump is amplifying a simple argument: if the Iran deal holds and gas prices come down, Democrats have NOTHING to run on. Columnist Joe Concha called it a \"historic run\" on the economy and stock market, pointing to strong jobs numbers and low unemployment. Numbers Trump himself says \"smashed all expectations,\" even during an active conflict. November will be the real test... Source: Truth Social / Writers: Lucas, Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2074160022427218344#m",
+          "date_utc": "2026-07-06T15:54:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjkTDJWsAAaJsl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇳🇴 The girl has gotten a massive online following for looking like Haaland, the football legend who is now the greatest Norwegian sports star ever. $10 says they're getting together. Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074158933116080454#m",
+          "date_utc": "2026-07-06T15:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073943296599064577%2Fimg%2Fqkw9NqmT8VcNvduL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Boston Dynamics had the coolest moment of the World Cup when Atlas walked out to deliver the ball and NAILED a Haaland celebration. With Hyundai behind the wheel, they are scaling up to 30,000 units by 2028 starting at the Georgia Metaplant. Writer: Daniyal, Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074157674535817430#m",
+          "date_utc": "2026-07-06T15:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073984892149612544%2Fimg%2F6QiP3eL9YX6O9WHz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 While England just beat Mexico in one of the most thrilling World Cup matches for some time, this is the moment when it lost Jordan Henderson to a broken arm and a yellow card when he failed to jump over an advertising barrier. This happened right after the final whistle, with Jordan not having played a minute of the game. 😂 Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074156416584040660#m",
+          "date_utc": "2026-07-06T15:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074062502187438080%2Fimg%2FGITycOG7owuRrYiV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 There's a HEAVY police presence outside the Fourth District Courthouse in Provo, UT, ahead of Tyler Robinson's preliminary hearing. Sheriff's deputies, Provo police, state troopers, and SWAT teams from multiple agencies are all on scene. The trial for Charlie Kirk's murder is still a ways away, but the preliminary hearing is a crucial early step in the process. Writer: Daniyal, Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074155158230258063#m",
+          "date_utc": "2026-07-06T15:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074147406535688192%2Fimg%2FC--WBpehuc6Yvq3E.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The party is over, and now the clean-up begins! It took 250 years to get here, and within days all traces of the America 250 celebrations will be a memory, and D.C. will be business as usual. Now, if they could just go a few weeks without starting any new projects and focus on the ones they already have underway, people might actually be able to enjoy the U.S. Capitol. Writer: Jamie Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074153902686027921#m",
+          "date_utc": "2026-07-06T15:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074104595379367936%2Fpu%2Fimg%2FaE42ZQa55O8r8QeJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇧🇪 Trump on tonight's U.S. vs. Belgium match: \"If they beat us, they can be really proud. The other way, if they beat us, we'll say... I say it was rigged, just like the election was rigged in 2020, but I won't get into that.\" 😂😂😂 Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074152066574963021#m",
+          "date_utc": "2026-07-06T15:22:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074143691141177344%2Fimg%2F0W613zhSTImIqBgN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇬 Crazy time-lapse showing the construction of Egypt's massive new Ministry of Defense headquarters, aka the Octagon, which took over 9 years to build and was opened this month Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074151383444447301#m",
+          "date_utc": "2026-07-06T15:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074043326525816833%2Fpu%2Fimg%2F6UPUa8XcsbwraIkt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🇲🇽 In case you're in any doubt about how intensely tribal the World Cup games in particular are, here's what happened in an Ontario bar after England knocked Mexico out of the tournament. Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074148867143074089#m",
+          "date_utc": "2026-07-06T15:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2073980538730225664%2Fpu%2Fimg%2F6AQH4p40WqEc79n-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Trump doing his classic thing: \"The famous Strait of Hormuz, nobody ever heard of it, but that is some big money machine.\" Means, he hasn't heard of it but good thing it's a big money machine 😂 Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074148231903129805#m",
+          "date_utc": "2026-07-06T15:07:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074140430027919360%2Fimg%2FjHj6QzpgiEcNWbU1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump just talked about top American tech CEOs, including Zuckerberg, Bezos, and Elon, getting licenses to build nuclear power plants. \"I told them all. I'm going to let you build your own plant and will get you quick approvals. They thought I was kidding.\" Writer: Mhedi Video Mario Nawfal (@MarioNawfal) 🇺🇸 Trump: \"Nuclear is now really hot my uncle was a big nuclear guy at MIT. He knew nuclear better than anybody in the world I think.\" Writer: Samuel Video — https://nitter.net/MarioNawfal/status/2074141819840184615#m",
+          "link": "https://nitter.net/MarioNawfal/status/2074146854137221351#m",
+          "date_utc": "2026-07-06T15:02:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074140161886085120%2Fimg%2F9jwLYSp62yDfPM5i.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074140348054491136%2Fimg%2Fr8koRV7zzilAeWNC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Trump just sent a little love to England's Harry Kane, saying, \"I think Kane is a great player. I played golf with him, and he's a great golfer too.\" Now that's what I call a great confidence builder. Source: TABZ (telegram), Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074146153780641978#m",
+          "date_utc": "2026-07-06T14:59:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074144676601298944%2Fimg%2Ftmn6LPRykc1z2KGv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷Trump on Iran and regime change: \"I went in for one reason: Iran cannot have a nuclear weapon. I am not looking for regime change, although this is regime change.\" Writer: Daniyal Video Mario Nawfal (@MarioNawfal) 🇺🇸 Trump: \"Nuclear is now really hot my uncle was a big nuclear guy at MIT. He knew nuclear better than anybody in the world I think.\" Writer: Samuel Video — https://nitter.net/MarioNawfal/status/2074141819840184615#m",
+          "link": "https://nitter.net/MarioNawfal/status/2074143221366575143#m",
+          "date_utc": "2026-07-06T14:47:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074140045406068736%2Fimg%2FIs1PIYlq4UjsRzxE.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074140348054491136%2Fimg%2Fr8koRV7zzilAeWNC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "#WhiteHouseBarbie 🎀 #VersaceTingz Video",
+          "link": "https://nitter.net/NICKIMINAJ/status/2074159109046161599#m",
+          "date_utc": "2026-07-06T15:50:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074158997951664128%2Fimg%2Fy-T_7s_kIPgzx3Uk.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": ". @TrumpAccounts has officially launched! Military families now have the opportunity to give each of their children a financial head start with Trump Accounts—helping build a strong foundation for long-term financial security from day one. war.gov/News/News-Stories/Ar… Link Trump Accounts Lay Solid Financial Foundation for Military Children Thanks to newly available Trump Accounts, military families can lay the foundation to ensure each of their children has a head start on a retirement plan. The program opens for financial contributions war.gov",
+          "link": "https://nitter.net/SeanParnellASW/status/2074137490512863701#m",
+          "date_utc": "2026-07-06T14:24:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072737787225178113%2F53kNb4un%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.war.gov/News/News-Stories/Article/Article/4526712/trump-accounts-lay-solid-financial-foundation-for-military-children/",
+              "content": "Trump Accounts Lay Solid Financial Foundation for Military Children > U.S. Department of War > Defense Department News | U.S. Department of War Skip to main content (Press Enter). An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( lock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. U.S. Department of War 0, 'open': ddState === 1, 'opening': ddState === 2}\" v-if=\"videos.all.length > 0\"> 0\"> {{buttonLabel}} 0\"> {{videos.all[0].title}} 0\" class=\"event-list\"> 0 || videos.liveLater.length > 0\" class=\"event-list-heading\">Live Now {{item.title}} 0 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "One of the greatest responsibilities we face today as leaders is to democratize technology, ensuring that intelligence is not concentrated in the hands of a few, but becomes a force that empowers all of us to contribute to the future. Every great technological revolution has created two futures: one for those who build it, and one for those left behind. Artificial intelligence gives us the opportunity to change that. Every nation, every economy, every entrepreneur, every student, and every innovator should have the opportunity to participate in and help shape the intelligence economy. That fut",
+          "link": "https://nitter.net/TareqAmin_/status/2074021931993481243#m",
+          "date_utc": "2026-07-06T06:45:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2073769333285654528%2F3fmYZfi_%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/media%2FHMeCMnaWkAEqYKH.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/XhOl5wqbnE8",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            },
+            {
+              "url": "https://bit.ly/4ya0FDq",
+              "content": "The Real Threat Isn&#39;t AI, It&#39;s the Data | Deemah AlYahya, Secretary-General, DCO | The End of Limits - YouTube About Press Copyright Contact us Creator Advertise Developers Terms Privacy Policy Safety How YouTube works Test new features 2026 Google LLC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "De l’art. VERITY France (@verity_france) Franchement il y a de quoi être admiratif de voir à quel point il ose prendre les français pour des abrutis. Video — https://nitter.net/verity_france/status/2074036535909826879#m",
+          "link": "https://nitter.net/brivael/status/2074168991589802487#m",
+          "date_utc": "2026-07-06T16:29:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMd9p5QXQAA5e7c.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Un socialiste reste un socialiste",
+          "link": "https://nitter.net/brivael/status/2074168503632908531#m",
+          "date_utc": "2026-07-06T16:28:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjtQtTXIAAaa_Z.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'autre moitié de la dette Je me suis excusé au nom des Français pour la French Theory. Je dois une correction à ceux qui ont partagé ce texte : la France n'est coupable qu'à moitié. Nous avons fourni l'arme. Nous n'avons pas fourni la haine qui la charge. Cette énergie-là est américaine, et elle est protestante. Il faut comprendre ce qui s'est passé quand nos textes ont touché terre à Yale et à Berkeley. Ils n'ont pas rencontré des esprits neutres. Ils ont rencontré une civilisation bâtie par des puritains — une civilisation qui, depuis le Mayflower, vit sur une grammaire théologique très pré",
+          "link": "https://nitter.net/brivael/status/2074167702529175935#m",
+          "date_utc": "2026-07-06T16:24:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pauvre choupinet. Coin Academy (@coinacademy_fr) 🚨 Anthropic aurait informé des parlementaires américains qu’Alibaba avait copié son IA, selon le New York Times. — https://nitter.net/coinacademy_fr/status/2074164193779982600#m",
+          "link": "https://nitter.net/brivael/status/2074164989217153175#m",
+          "date_utc": "2026-07-06T16:14:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjpVz1XUAAUaDv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On me demande pourquoi Elon Musk se bat. Pourquoi l'homme le plus riche du monde ne profite pas de ses milliards, tranquille, loin du bruit. La vraie réponse est plus dérangeante que la question. Le logiciel qui a vidé l'Europe de l'intérieur ne s'est pas arrêté à l'Atlantique. Il a traversé. Il tourne aujourd'hui à plein régime dans les universités américaines, dans les rédactions, dans les RH des plus grandes entreprises du monde. Le même code, la même promesse d'équité, la même haine froide de tout ce qui tient debout : la famille, le mérite, la nation, l'excellence. L'Europe s'est laissée ",
+          "link": "https://nitter.net/brivael/status/2074163953656041844#m",
+          "date_utc": "2026-07-06T16:09:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Grok will win! L’Observateur_X (@LObservateur_X) 🚨 L’IA VA DEVENIR UNE ARME DE PROPAGANDE SI ON NE RÉAGIT PAS MAINTENANT Elon Musk vient de lancer un avertissement extrêmement clair : l’intelligence artificielle n’est fiable que dans la mesure où les humains qui l’entraînent le sont. Si on continue à lui apprendre à prioriser le politiquement correct, les sensibilités idéologiques et les narratifs dominants plutôt que la vérité objective, l’IA ne sera plus un outil de découverte… mais un instrument de persuasion et de contrôle à grande échelle. C’est déjà en train d’arriver. Plusieurs modèles ",
+          "link": "https://nitter.net/brivael/status/2074162109294751913#m",
+          "date_utc": "2026-07-06T16:02:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074139728169848832%2Fimg%2FKuCQarLoCaLXe2xe.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon is saving the west. David Vance (@DavidVance) Without X, we have no effective means of challenging the deceits of the UK government. If they try to ban it, it will trigger great unrest. — https://nitter.net/DavidVance/status/2073852651356217797#m",
+          "link": "https://nitter.net/brivael/status/2074159430350848241#m",
+          "date_utc": "2026-07-06T15:51:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ce projet doit être supprimé. Fils de France (@fils_fr89) VON DER LEYEN ET L’UE PRÉPARENT LE CONTRÔLE TOTAL : SCAN D’ÂGE POUR ÉCRIRE UN MESSAGE, EURO NUMÉRIQUE TRAÇABLE ET IDENTITÉ NUMÉRIQUE… LA FIN DE VOTRE ANONYMAT ET DE VOTRE LIBERTÉ ! Aujourd’hui, l’UE tient le trilogue final sur le « Chat Control ». Le scan obligatoire des messages chiffrés a reculé… mais à la place, ils veulent imposer une vérification d’âge pour entrer dans une messagerie chiffrée : pièce d’identité ou scan du visage avant d’écrire un message. L’anonymat meurt. Le chiffrement survit… mais sous surveillance. En parallèle",
+          "link": "https://nitter.net/brivael/status/2074159353364447342#m",
+          "date_utc": "2026-07-06T15:51:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMi9VAtW0AAXdoN.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣",
+          "link": "https://nitter.net/brivael/status/2074159131653443852#m",
+          "date_utc": "2026-07-06T15:50:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjkvKqWAAETGRS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep",
+          "link": "https://nitter.net/brivael/status/2074159070391525528#m",
+          "date_utc": "2026-07-06T15:50:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjkrnRXcAA17iF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Kruptos (@KuptoKosmos) ⚠️🇪🇺🪙 L’euro numérique n’est pas un outil de liberté. C’est l’infrastructure la plus puissante jamais construite pour surveiller et conditionner les flux financiers des Européens La BCE et la Commission répètent en boucle \"privacy by design\" et \"comme du cash\" C’est juste du marketing !... La privacy n’existe que pour les tout petits montants hors ligne D’après la FAQ officielle de la BCE : - Offline : oui, privacy cash-like. Seuls le payeur et le bénéficiaire connaissent les détails. C’est la partie qu’on met en avant - Online (la quasi-totalité des usages) : l’Euro",
+          "link": "https://nitter.net/brivael/status/2074158879290569211#m",
+          "date_utc": "2026-07-06T15:49:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMilf3GXEAA5-TU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "They told you the free world won in 1989. Then they came for your VPN. 🚨 The wall didn't fall. It moved into your feed, your newsroom, your institutions. I wrote the entire genealogy of the capture. $9 pre-order today. Price goes up at launch. 👇 brivaellepogam.gumroad.com/l… Link The shifting wall (early-bird) 🟧 PRE-ORDER — ships soon. You re charged today; your file is delivered automatically on release. Early-bird price — it goes up at launch.Everyone believes the free world won in 1989. It didn t.The... brivaellepogam.gumroad.com JackTheRippler ©️ (@RippleXrpie) 🚨WOW! 🇪🇺 EUROPE WANTS TO CEN",
+          "link": "https://nitter.net/brivael/status/2074158325533434213#m",
+          "date_utc": "2026-07-06T15:47:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072867855608041472%2FETDOrR6S%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074066794738810880%2Fimg%2FF6bDM0vqj20Q7LoN.jpg",
+            "https://nitter.net/pic/media%2FHMiQwstWgAAaoKl.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://brivaellepogam.gumroad.com/l/theshiftingwall",
+              "content": "The shifting wall (early-bird)"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Starlink will make censorship impossible by design. Again the USA will save the European ass from tyranny. X Freeze (@XFreeze) Starlink is expanding faster than ever It is now live across 166 countries, territories, and markets worldwide In the last 12 months alone, Starlink added 42 new countries, territories, and markets.....one of the fastest global rollouts in modern tech Starlink is bringing connectivity to places traditional networks never reached - Remote villages in Africa - Communities across the Amazon - Ships at sea - Aircraft at 35,000 feet Disaster zones after floods, earthquakes,",
+          "link": "https://nitter.net/brivael/status/2074157276160565674#m",
+          "date_utc": "2026-07-06T15:43:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjip6-aEAANhHF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Leur ligne d'horizon, ce n'est pas l'ASI. C'est l'IPO. Leur stratégie, ce n'est pas de construire. C'est d'exit scam sur la hype avant que la musique s'arrête. Brivael Le Pogam (@brivael) Dans les labos d'IA, il y a exactement deux types de gens. Les cyniques. Et les croyants psychotiques. Les croyants psychotiques te regardent dans les yeux : « votre harness ne sert à rien. Dans 18 mois nos modèles feront tout ça tout seuls. » Les cyniques hochent la tête en public, et pensent l'inverse en privé. Les deux se trompent. Mais pas pour la même raison. Le « l'IA le fera toute seule » repose sur un",
+          "link": "https://nitter.net/brivael/status/2074156747481080083#m",
+          "date_utc": "2026-07-06T15:41:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dans les labos d'IA, il y a exactement deux types de gens. Les cyniques. Et les croyants psychotiques. Les croyants psychotiques te regardent dans les yeux : « votre harness ne sert à rien. Dans 18 mois nos modèles feront tout ça tout seuls. » Les cyniques hochent la tête en public, et pensent l'inverse en privé. Les deux se trompent. Mais pas pour la même raison. Le « l'IA le fera toute seule » repose sur une assumption gigantesque que personne n'ose nommer : la capacité du modèle à comprendre ce qu'il fait, et à sentir s'il part dans la bonne direction. Ça a un nom. Ça s'appelle le taste. Tu",
+          "link": "https://nitter.net/brivael/status/2074153742086152345#m",
+          "date_utc": "2026-07-06T15:29:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Made with the @argildotai agent Coming soon... Video",
+          "link": "https://nitter.net/brivael/status/2074152168483865013#m",
+          "date_utc": "2026-07-06T15:23:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2073758791909203968%2Fimg%2Fkxo2UocPFxVofa81.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "👇👇👇👇 Yann (@Yannlce) RECRUITING asap: I'm looking for a hungry guy/girl to manage growth in a fast scaling agency, Paris based🇫🇷 missions: - manage their UGC programs (tech/ YC companies) - lead outbound - close startups customers DM me — https://nitter.net/Yannlce/status/2074084703410282891#m",
+          "link": "https://nitter.net/brivael/status/2074152038376620392#m",
+          "date_utc": "2026-07-06T15:22:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Some insights into how I like to use Grok Imagine for projects of all kinds. Grok Imagine (@imagine) Behind-the-scenes of making the Odyssey trailer, with @heavypulp Video — https://nitter.net/imagine/status/2070201669338743283#m",
+          "link": "https://nitter.net/heavypulp/status/2074119071105200284#m",
+          "date_utc": "2026-07-06T13:11:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2070200130318540800%2Fimg%2Fny9KeatRbXrPOppF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "nitter.net/i/communities/20162218… Link Heavy Pulp EVERYTHING IS COMPUTER BUT COMPUTER ISN T EVERYTHING 8G5ayEsJF4Q7FEWEGeF4jtnUWZBEKCqhySTFQf9Ppump twitter.com",
+          "link": "https://nitter.net/heavypulp/status/2074111914179776855#m",
+          "date_utc": "2026-07-06T12:43:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/community_banner_img%2F2049955225293721601%2FIip7fAO-%3Fformat%3Djpg%26name%3Dorig"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Flash Webinar Alert! We're going live at 1 pm EST to discuss the launch of @TencentGlobal 's latest model HY3, which will be free in Kilo Code for a limited time thanks to compute from @novita_labs . Tune in to discuss performance and live coding results! nitter.net/i/broadcasts/1NxarrpRV… Link Kilo HY3 Model Launch: Kilo x Tencent x Novita https://nitter.net/i/broadcasts/1NxarrpRVzrKj",
+          "link": "https://nitter.net/kilocode/status/2074169256883736894#m",
+          "date_utc": "2026-07-06T16:31:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjs8mMXQAAcBkc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Free in Kilo right now btw 👀 Tencent Hy (@TencentHunyuan) 🚀Hy3 is here. 295B MoE. Best in its size class. Rivals trillion-scale flagships. Reliable and affordable for most agentic usecases. Apache 2.0. Friendly for commercial use. FREE API for 2 weeks → openrouter.ai/tencent/hy3:fr… 🤗 huggingface.co/tencent/Hy3 📖 hy.tencent.com/research/hy3 — https://nitter.net/TencentHunyuan/status/2074148098876768478#m",
+          "link": "https://nitter.net/kilocode/status/2074167987951608060#m",
+          "date_utc": "2026-07-06T16:25:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjapAiaoAAvV8D.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://openrouter.ai/tencent/hy3:free",
+              "content": "Hy3 (free) - API Pricing Providers | OpenRouter Skip to content OpenRouter Search ⌘ K Models Fusion Chat Rankings Apps Enterprise Pricing Docs OpenRouter © 2026 OpenRouter, Inc Product Chat Rankings Apps Models Providers Pricing Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Support State of AI Works With OR Data Developer Documentation API Reference SDK Status Connect Discord GitHub LinkedIn X YouTube Tencent: Hy3 (free) tencent / hy3:free Model weights Compare Playground Quick Start Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort: a direct no-think mode by default, plus low and high chain-"
+            },
+            {
+              "url": "https://huggingface.co/tencent/Hy3",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lynnmartin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "lynnmartin",
+          "creator": "@lynnmartin",
+          "text": "Freedom of investment is not a privilege. It is a right. And yet, for too long, the promise of ownership has felt out of reach for too many Americans. The idea that you could buy a piece of this country, grow alongside it, and pass something real on to the next generation - that idea belonged to some, but not to all. Today, that changes. The launch of @TrumpAccounts with President @realDonaldTrump is a historic expansion of what it means to participate in America's economy. From the moment a child is born, they will have the opportunity to own a stake in this nation's future. This is what the ",
+          "link": "https://nitter.net/lynnmartin/status/2074150183579852908#m",
+          "date_utc": "2026-07-06T15:15:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074149942134702080%2Fimg%2FnKvAv-gcNIDbGfr9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "lynnmartin",
+          "creator": "@lynnmartin",
+          "text": "Freedom of expression is one of America's most defining gifts. It is the right to speak, to create, and to be heard. And it has never been passive. It has always required someone willing to make something, to stand beside it, and to let it ring. For a historic moment, we needed a one-of-a-kind piece. This bell was custom-built for the opening of markets from the @WhiteHouse . It symbolizes the belief that free markets and free expression are not separate ideals. They are the same idea, forged together since this nation's earliest days. The @NYSE has been a place where that belief is put into p",
+          "link": "https://nitter.net/lynnmartin/status/2074145419735482804#m",
+          "date_utc": "2026-07-06T14:56:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074145041090498560%2Fimg%2FKnfdFK8LMJjtz6ZR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "lynnmartin",
+          "creator": "@lynnmartin",
+          "text": "In the past week, we have celebrated what makes this country unstoppable. Our freedom. And out of freedom is born the American Dream. Today, with the official first trading day of @TrumpAccounts , is the purest manifestation of the American Dream. History is made in the Oval Office with President @realDonaldTrump 's ringing of the bell. A one-of-a-kind bell made at @NYSE . It is an honor to stand beside @POTUS , @ICE_Markets Founder, Chairman & CEO Jeff Sprecher, @Dell CEO @MichaelDell , Susan Dell, and many more, as we ring in the future for America's next generation and beyond. Video",
+          "link": "https://nitter.net/lynnmartin/status/2074143958427484249#m",
+          "date_utc": "2026-07-06T14:50:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074143658589216768%2Fimg%2Fp0-oESoCrGNeny1h.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceX President and COO (and her husband) are donating 2 million $SPCX shares to more than 2 million Trump Accounts for American children. Valued at ~$325 million at today’s price 🚀 Gwynne Shotwell (@Gwynne_Shotwell) My husband and I are honored and thrilled to participate in the Invest America program and gift a share of our SpaceX stock to a Trump Account for each of more than two million children across our great nation. Every American child under 18 can benefit from having a Trump Account, but our gift specifically goes to the Accounts of children (ages 11-17) that live in areas with lowe",
+          "link": "https://nitter.net/ns123abc/status/2074167387281101060#m",
+          "date_utc": "2026-07-06T16:23:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjsPxhXsAA0h4T.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Open models are becoming the foundation for modern AI research. At #ICML2026 , 145 accepted papers cite NVIDIA Nemotron models and datasets, 74 NVIDIA papers were accepted, and ~2,000 accepted papers cite NVIDIA GPUs.",
+          "link": "https://nitter.net/nvidia/status/2074161704456356216#m",
+          "date_utc": "2026-07-06T16:01:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMjnFAcWcAAqcX5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "See what researchers are building: nvda.ws/44MhoyW Link How Open Models Are Driving AI Research NVIDIA open models from Nemotron, Cosmos and BioNeMo are fueling the field s biggest research questions at ICML 2026. blogs.nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2074161706830315617#m",
+          "date_utc": "2026-07-06T16:01:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2074161709560852480%2FeGizVtVo%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/44MhoyW",
+              "content": "How Open Models Are Driving AI Research | NVIDIA Blog Skip to content How Open Models Are Driving AI Research At the International Conference on Machine Learning, nearly 145 papers cite NVIDIA Nemotron open models and datasets as the foundation for new research. July 6, 2026 by JJ Kim 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and open AI infrastructure have become foundational to how modern AI science gets done. NVIDIA had 74 papers accepted at ICML 2026. Approximately 2,000 accepted papers cite NVIDIA GPUs, and 145 cite NVIDIA Nemotron — a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "zhu_hanqin41424",
+      "org": "Google DeepMind",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "zhu_hanqin41424",
+          "creator": "@zhu_hanqin41424",
+          "text": "One work exploring RL’s unique optimization geometry (details in our earlier work: arxiv.org/abs/2511.08567 ). 😎If RL optimizes way differently from SFT, then LoRA initialization should be RL-native too. 😏New work coming soon on rethinking RL’s optimization layer. Stay tuned! Link The Path Not Taken: RLVR Provably Learns Off the Principals Reinforcement Learning with Verifiable Rewards (RLVR) reliably improves the reasoning performance of large language models, yet it appears to modify only a small fraction of parameters. We revisit... arxiv.org Ruijia ✈️ ICML (@Ruijia606851947) See you at #IC",
+          "link": "https://nitter.net/zhu_hanqin41424/status/2074021488446058761#m",
+          "date_utc": "2026-07-06T06:43:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2069249047609643008%2FVI_t6E_S%3Fformat%3Djpg%26name%3D420x420_2",
+            "https://nitter.net/pic/media%2FHMggxeybwAABoeM.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2511.08567",
+              "content": "Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) reliably improves the reasoning performance of large language models, yet it appears to modify only a small fraction of parameters. We revisit this paradox and show that sparsity is a surface artifact of a model-conditioned optimization bias: for a fixed pretrained model, updates consistently localize to preferred parameter regions, highly consistent across runs and largely invariant to datasets and RL recipes. We mechanistically explain these dynamics with a Three-Gate Theory: Gate I (KL Anchor) imposes a KL-constrained update; Gate II (Model Geometry) steers the step off principal directions into low-curvature, spectrum-preserving subspaces; and Gate III (Precision) hides micro-updates in non-preferred regions, making the of"
+            },
+            {
+              "url": "http://arxiv.org/abs/2606.31813",
+              "content": "Abstract: Low-rank adaptation (LoRA) and its variants enable parameter-efficient fine-tuning of large language models under the supervised fine-tuning (SFT) paradigm. However, their efficacy and behavior under Reinforcement learning with verifiable rewards (RLVR) are less well understood. In particular, two structurally initialized LoRA variants, PiSSA and MiLoRA, which outperform standard LoRA under SFT, can underperform standard LoRA under RLVR and may even exhibit training instability. These observations suggest that how to initialize the low-rank matrices in RLVR remains unclear. In this work, we develop a theoretical analysis of LoRA in RLVR, showing that orthonormal initialization achieves the minimal gap between LoRA outcome and that of full fine-tuning. Guided by this insight, we p"
+            },
+            {
+              "url": "http://github.com/Richard-ZZZ/geometry-preserving-orthonormal-init-rlvr",
+              "content": "GitHub - Richard-ZZZ/geometry-preserving-orthonormal-init-rlvr · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Mo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
