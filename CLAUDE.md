@@ -49,7 +49,7 @@ The reader is **Amit**, an AI researcher. Everything in the wiki — what gets a
 
 | Tier | Topics | Digest treatment |
 |------|--------|-----------------|
-| **1 — Core** | AI routing (LLM routing, multimodal routing, agent trajectory routing), KV Cache, compression / quantization / distillation / pruning, GPU optimization (kernels, FlashAttention, batching), GPU hardware (Hopper, Blackwell, memory hierarchy) | Long Deep Dives (4–6 paragraphs). Explain *why* the technique works, not just what. Add a **Research angle** note — open problems, follow-up directions. |
+| **1 — Core** | AI routing (LLM routing, multimodal routing, agent trajectory routing), KV Cache, compression / quantization / distillation / pruning, GPU optimization (kernels, FlashAttention, batching), GPU hardware (Hopper, Blackwell, memory hierarchy), semiconductor industry (chip manufacturing, fab economics, memory supply chain, compute infrastructure) | Long Deep Dives (4–6 paragraphs). Explain *why* the technique works, not just what. Add a **Research angle** note — open problems, follow-up directions. |
 | **2 — Active learning** | General LLM papers, new architectures (SSM, MoE, hybrid), agentic systems, responsible AI (interpretability, alignment, safety, explainability) | Standard Deep Dives (2–4 paragraphs). Flag any intersection with Tier 1. |
 | **3 — Broad horizon** | Vision / audio / video models (multimodal, vision-language, image and video generation, speech) | Light Industry Pulse mention only, unless directly relevant to routing or efficiency. |
 | **4 — Low interest** | 3D mapping, spatial reconstruction, robotics hardware, game benchmarks unrelated to efficiency | One sentence or skip. |
