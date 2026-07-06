@@ -69,7 +69,7 @@ wiki/       ← LLM-owned synthesis (you write everything here)
   vision-audio-video/      ← multimodal, vision-language, image/video generation, speech
   inference-efficiency/    ← compression, quantization, distillation, KV cache, GPU opt
   ai-routing/              ← LLM routing, multimodal routing, agent trajectory routing
-  hardware/                ← GPU architecture, new chips, memory hierarchy
+  hardware/                ← GPU architecture, new chips, memory hierarchy, semiconductor industry (fab economics, chip manufacturing, memory supply chain, compute infrastructure)
   ai-industry/             ← company news, product launches, funding, policy, regulation
   social-stream/           ← Twitter/X slot syntheses + daily roll-ups (raw social ingest)
   media-zone/              ← daily synthesis of Twitter+YouTube+Reddit, topic-clustered
