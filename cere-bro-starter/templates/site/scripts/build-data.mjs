@@ -74,7 +74,7 @@ const INDUSTRY_TAGS = [
     label: 'Infrastructure & Compute',
     color: '#8b5cf6',
     // Physical buildout: datacenters, chips, GPUs, fabs
-    keywords: ['datacenter', 'data center', 'gpu', 'chip', 'hardware', 'compute', 'gigawatt', 'memory', 'fab', 'tsmc', 'reliability', 'capacity', 'silicon', 'h100', 'b200', 'blackwell', 'hopper'],
+    keywords: ['datacenter', 'data center', 'gpu', 'chip', 'hardware', 'compute', 'gigawatt', 'memory', 'fab', 'tsmc', 'reliability', 'capacity', 'silicon', 'h100', 'b200', 'blackwell', 'hopper', 'semiconductor', 'wafer', 'advanced packaging', 'hbm', 'cowos', 'asml', 'lithography', 'foundry', 'sk hynix', 'micron', 'intel fab', 'nvidia gpu', 'amd instinct'],
   },
   {
     key: 'products',
