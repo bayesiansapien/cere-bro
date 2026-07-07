@@ -1,0 +1,1235 @@
+{
+  "date": "2026-07-07",
+  "slot": "evening",
+  "scraped_ist": "2026-07-07 22:39",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "As an engineer, you should be patriot maxxing. War Force engineers will embed across the @DeptofWar to accelerate AI integration and modernize our defense systems. APPLY TODAY: usajobs.gov/job/874491800?_g…",
+          "link": "https://nitter.net/DoWCTO/status/2074501143003115808#m",
+          "date_utc": "2026-07-07T14:29:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMobsQ4WgAAsp-U.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.usajobs.gov/job/874491800?_gl=1*crmyoj*_ga*NzYzMDYwNzYuMTc2MTA3MzQwMA..*_ga_5222X8D281*czE3ODI0ODAwMzckbzUyJGcxJHQxNzgyNDgxMzQwJGo0OSRsMCRoMA",
+              "content": "USAJOBS - Job Announcement Skip to main content An official website of the United States government Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. MENU Sign in My jobs Profile Resumes & documents Notifications Talent networks Sign out My jobs Profile Resumes & documents Notifications Talent networks Sign out Events Help Center Search Back to results Apply Forward Deployed Engineer Office of Personnel Management DoW and other Federal government agencies may hire from this announcement. Apply Print Share Save Summary This job is open to Dutie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today on the blog, read all about how we demonstrate the effect of coordination in routing on improving road traffic efficiency. We show that rerouting even a small fraction of trips to disperse traffic can measurably improve driving speeds. More → goo.gle/4p5BL3A",
+          "link": "https://nitter.net/GoogleResearch/status/2074535732581212319#m",
+          "date_utc": "2026-07-07T16:47:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://goo.gle/4p5BL3A",
+              "content": "The power of collaboration: How we can reduce traffic congestion Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷🇪🇬 VAR steps in and Egypt’s goal is ruled out for a foul. The shock lead disappears. Argentina breathes a sigh of relief. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074546192802074724#m",
+          "date_utc": "2026-07-07T17:28:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074545220109111296%2Fpu%2Fimg%2FqYqaIsmj6uiJdhjS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump has arrived at the NATO dinner in Ankara. Daddy's here. 😂 Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074545782469095696#m",
+          "date_utc": "2026-07-07T17:27:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074543939680444416%2Fimg%2FD061sOEGHObFEKxJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇴🇨🇭 With 9 hours to go before Colombia faces off against Switzerland, this is how Colombian fans have shown up outside their team's hotel in Vancouver. It's literally going to be a face-off between hot and cold. Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074544041627463882#m",
+          "date_utc": "2026-07-07T17:20:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074378907818860544%2Fimg%2F16YtykvqJqgm8B49.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇬🇵🇸 Egypt is up 1-0 on Argentina at the break in their Round of 16 showdown. The defending champs are trailing for the first time since their 2022 opener, and the goal sparked massive celebrations in Gaza streets. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074543616815702478#m",
+          "date_utc": "2026-07-07T17:18:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074540976681422848%2Fimg%2FKD_VZ1-BKHLPy232.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷 Guinness World Records has an unwanted stat for Messi. Lionel Messi has missed four penalties at FIFA World Cups, not including shoot-outs. That makes it twice as many as any other player. The penalty curse is real. Source: Guinness World Records / Writer: Daniyal",
+          "link": "https://nitter.net/MarioNawfal/status/2074542390787072506#m",
+          "date_utc": "2026-07-07T17:13:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpBPlkbYAANQws.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The man accused of killing Loyola student Sheridan Gorman is back in a Chicago courtroom today for a status hearing just one day after what would’ve been her 19th birthday. The timing makes it even heavier. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074541453250892188#m",
+          "date_utc": "2026-07-07T17:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo5X2OXoAEY-NA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷🇪🇬 Argentina coach Lionel Scaloni looking frustrated as his team struggles to find the net against Egypt. The world champions are being held scoreless so far in this knockout clash. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074540943760597176#m",
+          "date_utc": "2026-07-07T17:07:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074535450631614466%2Fimg%2FN8wf0TLIL6g6XgZF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 NYC Mayor Zohran Mamdani on Maine Senate candidate Graham Platner: \"I believe it's time for him to drop out of the race.\" The heat keeps rising for Platner Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074539469789904962#m",
+          "date_utc": "2026-07-07T17:02:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074504487318835200%2Fimg%2F9oT0u7cXpYwdkreu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷🇪🇬 Messi actually could see Speed from behind the goal post taunting him. The tensions could be cut with a knife. Source: @SpeedUpdates1 / Writer: Lucas Mario Nawfal (@MarioNawfal) 🇪🇬🇦🇷 Speed tries to distract the GOAT right before his penalty against Egypt, and it seems to work 😳 Writer: Lucas Video — https://nitter.net/MarioNawfal/status/2074536363303776446#m",
+          "link": "https://nitter.net/MarioNawfal/status/2074539167900725617#m",
+          "date_utc": "2026-07-07T17:00:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo-X37agAAkQ0T.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074529639943516165%2Fimg%2FE8Y1AG4xttS4d9TT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇬🇦🇷 Shobeir is putting on an absolute goalkeeping masterclass. Every save just keeps getting better.🔥 Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074538901214286188#m",
+          "date_utc": "2026-07-07T16:59:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074534642812698624%2Fpu%2Fimg%2FKiLmbWN3dvKXlnJ1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tyler Robinson, charged with killing Charlie Kirk, was caught on UVU security footage visiting the campus multiple times on September 10th. Last visit ran into the early hours of September 11th. Footage allegedly shows him running across the roof after the shot, then dropping to the grass and walking away. Cold. Calculated. Premeditated across multiple visits. Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074538393372082185#m",
+          "date_utc": "2026-07-07T16:57:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074530080462893056%2Fimg%2FxJhYk0pBV4KN2U1e.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇬🇦🇷 Speed tries to distract the GOAT right before his penalty against Egypt, and it seems to work 😳 Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074536363303776446#m",
+          "date_utc": "2026-07-07T16:49:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074529639943516165%2Fimg%2FE8Y1AG4xttS4d9TT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷 Messi's penalty wasn't enough.. Now he's sending the next one straight into the spectators. Even the commentator sounds confused. 😭 Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074536084969836984#m",
+          "date_utc": "2026-07-07T16:48:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074534042389696512%2Fpu%2Fimg%2Fbf83leWLIU8gT-2L.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷🇪🇬 Lionel Messi nearly unleashes one from outside the box, classic GOAT danger as he tests the Egyptian keeper. Even at this stage of his career, the pull of a moment like this against a tough side shows why he's still the one everyone watches. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074535281336930688#m",
+          "date_utc": "2026-07-07T16:45:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074532785037987840%2Fpu%2Fimg%2FIrnO546gt0vMpGdy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷🇪🇬 When the moment is bigger than the reaction. Messi misses the penalty, and both managers stay ice cold. Locked in. Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074534449749045276#m",
+          "date_utc": "2026-07-07T16:42:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074532171235340289%2Fimg%2FFq-3xbxTSr8I8BQ0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇺 An Australian graffiti artist scaled a 460-foot bridge tower in Melbourne, painted a giant cartoon bird on it, and refused to come down until someone drone-delivered him a peanut butter sandwich. While up there, he also took a moment to demand lower taxes. Police shut down a lane of the Bolte Bridge for hours as the 22-year-old man dangled his legs off the top, casually posting to Instagram the whole time. The bird looks a lot like Pam the Bird, a mystery tag that's been popping up all over Melbourne for years, including on the heritage-listed Flinders Street station. The sandwich never sho",
+          "link": "https://nitter.net/MarioNawfal/status/2074533903608721610#m",
+          "date_utc": "2026-07-07T16:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074372850073677824%2Fimg%2FH_avpYnNd-Fhhu-V.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Egyptian keeper just saved an equalizing penalty shot from Messi, and the Egyptian commentator lost his mind 😂 Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074533815893241900#m",
+          "date_utc": "2026-07-07T16:39:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074529970987122688%2Fimg%2Fmw_mD7ACCLHHcdL6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇬🇦🇷 Egyptian keeper Mostafa Shobeir is putting on a masterclass making big saves left and right to keep Argentina at bay. This guy is stealing the show. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074532727303610449#m",
+          "date_utc": "2026-07-07T16:35:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074531691113103360%2Fpu%2Fimg%2Fna0kvHPLvofANqoE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇬🇦🇷 Another clip of Shobeir coming up huge to stop Messi's penalty. What a save. Writer: Daniyal Video Mario Nawfal (@MarioNawfal) 🇦🇷🇪🇬 Messi's penalty is saved! Shobeir comes up huge. What a start for Egypt. Writer: Daniyal Video — https://nitter.net/MarioNawfal/status/2074530754009379180#m",
+          "link": "https://nitter.net/MarioNawfal/status/2074532307768357016#m",
+          "date_utc": "2026-07-07T16:33:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074530038213480448%2Fpu%2Fimg%2FUNx9utMERNG6tXF2.jpg",
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2074529608783859712%2Fpu%2Fimg%2FrioCQRG_6xY0qEpL.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "First step to replacing transformer is appreciating it deeply for how far it was able to carry us",
+          "link": "https://nitter.net/MillionInt/status/2074538871027822775#m",
+          "date_utc": "2026-07-07T16:59:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "Video",
+          "link": "https://nitter.net/NICKIMINAJ/status/2074522029529641306#m",
+          "date_utc": "2026-07-07T15:52:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074521960638185472%2Fimg%2F-e4DNmToY3AVQdXz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": ". @POTUS : The WAR DEPARTMENT has never been “HOTTER.” We need to keep it that way, which is why, when Congress returns, we must pass Reconciliation 3.0",
+          "link": "https://nitter.net/SeanParnellASW/status/2074518337032225239#m",
+          "date_utc": "2026-07-07T15:38:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMorbdDXQAAg4vH.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Together, we're building a world of amazing abundance Powered by solar energy, run on batteries, transported by autonomous electric vehicles and supported by humanoid robots Come join us! Tesla.com/careers",
+          "link": "https://nitter.net/Tesla/status/2074541771380695285#m",
+          "date_utc": "2026-07-07T17:11:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpALKDa0AE6BWc.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Tesla.com/careers",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Because equity is a core part of our benefits and pay packages, our success is shared by the people who build it",
+          "link": "https://nitter.net/Tesla/status/2074541769082228809#m",
+          "date_utc": "2026-07-07T17:11:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpAF2oaMAA5aqw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Our new Gulf Coast lithium refinery will be the largest in North America and produces lithium with +30% lower emissions than traditional hard rock methods We also ranked first in Lead the Charge's 2025 ranking for the second year running, ahead of Ford, Volvo and Mercedes-Benz",
+          "link": "https://nitter.net/Tesla/status/2074541766649500134#m",
+          "date_utc": "2026-07-07T17:11:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpAANjacAA43OQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Utility-scale batteries deliver clean energy when it's needed the most Megapack + solar can be deployed at a fraction of the time a gas peaker plant takes – and at a competitive cost",
+          "link": "https://nitter.net/Tesla/status/2074541763809960353#m",
+          "date_utc": "2026-07-07T17:11:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_6u9agAAfzhR.jpg",
+            "https://nitter.net/pic/media%2FHMpAB64aQAAo-kS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Powerwall units acting as one grid – called a virtual power plant – prevented 6.5 million outages globally in 2025, delivering 20+ GWh of energy In 2025 alone, Powerwall owners saved over a billion dollars on energy through solar, Powerwall storage grid exports",
+          "link": "https://nitter.net/Tesla/status/2074541760613900550#m",
+          "date_utc": "2026-07-07T17:11:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_2kMbwAAbLF7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Our entire global Supercharger network has been matched by 100% renewables for 5 years in a row",
+          "link": "https://nitter.net/Tesla/status/2074541758323851658#m",
+          "date_utc": "2026-07-07T17:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_ww1aYAAGc9g.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Our new reaction injection molding (RIM) process shrinks Cybercab paint cycles from hours to minutes This cuts those parts' manufacturing supply chain emissions by 35% and eliminating 100% of paint volatile organic compounds (VOCs) emitted in traditional paint methods",
+          "link": "https://nitter.net/Tesla/status/2074541756633551059#m",
+          "date_utc": "2026-07-07T17:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "With full autonomy and maximized ride-hailing, Cybercab is projected to nearly halve emissions per mile compared to Model 3 + Model Y Also, a personal car sits parked ~95% of the time. Cybercab keeps driving, doing the work of several cars. This means fewer cars needed, more people moved, less emissions overall",
+          "link": "https://nitter.net/Tesla/status/2074541754527920453#m",
+          "date_utc": "2026-07-07T17:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_lLBbEAE5fyq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised helps make roads safer for everyone And thanks to smoother acceleration, braking and routing, driving with FSD Supervised uses less energy than driving the same distance manually, lowering overall emissions in the process",
+          "link": "https://nitter.net/Tesla/status/2074541752116261251#m",
+          "date_utc": "2026-07-07T17:11:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_eifacAA7j7p.jpg",
+            "https://nitter.net/pic/media%2FHMo_ekgaUAA96ZP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Tesla customers kept 37 million metric tons of CO₂e out of the atmosphere in 2025 alone, equivalent to the energy use of nearly 5 million homes. Each Tesla avoids ~32 tons of CO₂e over 17 years of driving (average lifespan of a vehicle in the US)",
+          "link": "https://nitter.net/Tesla/status/2074541749566066799#m",
+          "date_utc": "2026-07-07T17:11:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_RGIaAAABMwW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Model 3 pricing starts below that of the average new car in the US And at $0.77/mile, Model Y RWD costs less per mile than a Toyota RAV4 ($0.81), Hyundai IONIQ 5 ($0.85) or BMW X3 ($1.15) This is possible because we're producing cars at scale – and scale is critical in making sustainable tech accessible to everyone",
+          "link": "https://nitter.net/Tesla/status/2074541747099910312#m",
+          "date_utc": "2026-07-07T17:11:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_Du3bUAAGMis.jpg",
+            "https://nitter.net/pic/media%2FHMo_DwYasAAOufu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "We're offering a complete ecosystem of products, including energy generation + storage, transportation and manufacturing AI enhances our products by letting us do far more with less, decarbonizing the economy while improving safety and affordability",
+          "link": "https://nitter.net/Tesla/status/2074541744360992971#m",
+          "date_utc": "2026-07-07T17:11:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo-x4nacAA9yNN.jpg",
+            "https://nitter.net/pic/media%2FHMo-x6naQAAdhhV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Our mission is to build a world of amazing abundance. Highlights from our 2025 Impact Report below Tesla.com/Impact",
+          "link": "https://nitter.net/Tesla/status/2074541741806629066#m",
+          "date_utc": "2026-07-07T17:11:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo-s9MaAAAm_qw.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Tesla.com/Impact",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Two illegal aliens just pleaded guilty to stealing $760,000 from taxpayers and Americans who use SNAP to feed their families. @POTUS and @VP are committed to defending taxpayers, saving programs, and holding fraudsters accountable. 🇺🇸 Secretary Brooke Rollins (@SecRollins) 🚨TUESDAY TAKEDOWN🚨 Working alongside @TheJusticeDept , we're holding fraudsters accountable. Two illegal alien brothers have now pleaded guilty to orchestrating a $760,000 multi-state SNAP fraud scheme that stole benefits meant for Americans who truly need them. They used stolen EBT card data to drain SNAP benefits and buy t",
+          "link": "https://nitter.net/WHFraudTF/status/2074502795571388738#m",
+          "date_utc": "2026-07-07T14:36:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoIFduXcAAz53x.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://fna.usda.gov/fraud",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "In a few years, between hardware and algorithmic improvements, this will all look as laughable as governments restricting encryption to 40-bits. Jukan @ ICML (@jukan05) CHINA CONSIDERS RESTRICTING OVERSEAS ACCESS TO CUTTING-EDGE AI MODELS China’s Ministry of Commerce has led meetings over the past month with major AI companies, including Alibaba, ByteDance, and Z.ai , to discuss measures that would restrict overseas access to cutting-edge AI models, including models that have not yet been released. The discussions reportedly include not only closed-source models but also open-weight models. Ho",
+          "link": "https://nitter.net/__tinygrad__/status/2074514895144616205#m",
+          "date_utc": "2026-07-07T15:24:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://Z.ai",
+              "content": "Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le problème n'est pas que ces gens soient malveillants. Ils ne le sont probablement pas. La technocratie de Bruxelles n'utilisera sans doute jamais cet outil pour vous écraser elle est trop molle, trop procédurière, trop occupée à se justifier. Le problème est qu'on ne construit jamais une infrastructure pour le pouvoir qu'on a. On la construit pour le pouvoir qui vient. Brivael Le Pogam (@brivael) C'est passé. 331 contre 304. Cet après-midi le Parlement européen a voté l'urgence sur Chat Control le scan de vos messages privés. Pas le vote final : jeudi. La manœuvre est plus intéressante que l",
+          "link": "https://nitter.net/brivael/status/2074543925705007207#m",
+          "date_utc": "2026-07-07T17:19:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faut qu'on parle de Chat Control, parce que ça se joue cette semaine et que presque personne ne comprend de quoi il s'agit. En clair : l'UE veut autoriser le scan de vos messages privés. Vos conversations WhatsApp, vos mails, vos DMs. Pas ceux d'un suspect. Ceux de tout le monde, en permanence, par défaut. Le prétexte est imparable, et c'est ça le piège : « protéger les enfants ». Personne ne peut être contre. C'est exactement pour ça que c'est l'outil parfait. On ne vous fera jamais avaler une surveillance de masse au nom de la surveillance de masse. On vous la fait avaler au nom des enfan",
+          "link": "https://nitter.net/brivael/status/2074543475140214970#m",
+          "date_utc": "2026-07-07T17:18:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C'est passé. 331 contre 304. Cet après-midi le Parlement européen a voté l'urgence sur Chat Control le scan de vos messages privés. Pas le vote final : jeudi. La manœuvre est plus intéressante que le résultat. Le Parlement avait déjà refusé ce texte. La dérogation a expiré en avril. Alors le Conseil l'a ressuscité en seconde lecture la procédure où il faut réunir une majorité absolue de 361 voix pour le bloquer, où les abstentions comptent comme des oui, calée pile sur la dernière séance avant l'été quand la moitié de l'hémicycle est déjà en vacances. Le service juridique du Conseil lui-même d",
+          "link": "https://nitter.net/brivael/status/2074541470850175272#m",
+          "date_utc": "2026-07-07T17:10:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMnxVsHWIAAFEdy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The bureaucrats hate democracy. Dr. Simon (@goddek) 🚨 EVERY EUROPEAN NEEDS TO KNOW THIS: The European Union is turning into an anti-democratic surveillance apparatus. In March, the European Parliament REJECTED the extension of “Chat Control.” So what did Brussels do? While everybody is distracted from the World Cup, they furtively brought it back through a rarely used procedure and are trying again. The goal is to allow private communications to be scanned under a derogation from normal ePrivacy protections. They’ll have access to your private messages and your photos. And, as always, mass sur",
+          "link": "https://nitter.net/brivael/status/2074535947190915347#m",
+          "date_utc": "2026-07-07T16:48:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoPBUBWsAAoM33.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Regardez Édouard Philippe chez Matthieu Stefani. La manière dont il cite ChatGPT et Le Chat de Mistral dit absolument tout. On sent le mec qui a lu une note de cabinet sur l’IA générative, qui sait qu’il faut placer deux noms pour avoir l’air moderne, mais qui n’a probablement jamais vraiment mis les mains dedans. Brivael Le Pogam (@brivael) Le meilleur indicateur pour savoir si un politique veut réellement créer un monde plus juste, plus libre et plus intéressant, ce n’est même plus son programme. C’est son rapport à l’IA. Parce que l’IA est probablement l’outil d’émancipation individuelle le",
+          "link": "https://nitter.net/brivael/status/2074535428502217009#m",
+          "date_utc": "2026-07-07T16:46:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Edouard philippe incarne parfaitement ce vieux monde : celui des cabinets, des notes, des synthèses, des réseaux, des dîners, de l’administration par le haut. Brivael Le Pogam (@brivael) Le meilleur indicateur pour savoir si un politique veut réellement créer un monde plus juste, plus libre et plus intéressant, ce n’est même plus son programme. C’est son rapport à l’IA. Parce que l’IA est probablement l’outil d’émancipation individuelle le plus puissant jamais inventé. Elle donne à quelqu’un sans réseau, sans capital, sans diplôme prestigieux, sans cabinet, sans équipe, une capacité d’apprenti",
+          "link": "https://nitter.net/brivael/status/2074535277435998388#m",
+          "date_utc": "2026-07-07T16:45:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’IA détruit précisément le monde des Édouard Philippe. Brivael Le Pogam (@brivael) Le meilleur indicateur pour savoir si un politique veut réellement créer un monde plus juste, plus libre et plus intéressant, ce n’est même plus son programme. C’est son rapport à l’IA. Parce que l’IA est probablement l’outil d’émancipation individuelle le plus puissant jamais inventé. Elle donne à quelqu’un sans réseau, sans capital, sans diplôme prestigieux, sans cabinet, sans équipe, une capacité d’apprentissage, d’analyse, de création et d’exécution qui était réservée hier à une élite minuscule. Donc si tu ",
+          "link": "https://nitter.net/brivael/status/2074535182032318735#m",
+          "date_utc": "2026-07-07T16:45:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le meilleur indicateur pour savoir si un politique veut réellement créer un monde plus juste, plus libre et plus intéressant, ce n’est même plus son programme. C’est son rapport à l’IA. Parce que l’IA est probablement l’outil d’émancipation individuelle le plus puissant jamais inventé. Elle donne à quelqu’un sans réseau, sans capital, sans diplôme prestigieux, sans cabinet, sans équipe, une capacité d’apprentissage, d’analyse, de création et d’exécution qui était réservée hier à une élite minuscule. Donc si tu prétends vouloir “aider les gens”, “réduire les inégalités”, “réparer l’école”, “réi",
+          "link": "https://nitter.net/brivael/status/2074534869300867233#m",
+          "date_utc": "2026-07-07T16:43:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯🎯 Libertarien (@libertarien_) 😱Qui a peur du 𝐜𝐚𝐩𝐢𝐭𝐚𝐥𝐢𝐬𝐦𝐞 ? De l'aristocratie du XVIIIe siècle aux fonctionnaires d'aujourd'hui, Découvrez pourquoi ce sont toujours les classes 𝐩𝐫𝐢𝐯𝐢𝐥𝐞́𝐠𝐢𝐞́𝐞𝐬 qui s'opposent le plus férocement à la liberté économique. Et comprenez enfin quels sont les motivations profondes qui animent les critiques du capitalisme 👇 — https://nitter.net/libertarien_/status/1865012496219689134#m",
+          "link": "https://nitter.net/brivael/status/2074534155187032528#m",
+          "date_utc": "2026-07-07T16:41:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FGeHSv3iXgAAEKZo.jpg",
+            "https://nitter.net/pic/media%2FGeHS7ZAWQAAZ661.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Libertarien met le doigt sur quelque chose de très vrai. La gauche institutionnelle n’a jamais été obsédée par l’égalité. Elle a été obsédée par l’administration de l’égalité. Nuance fondamentale. Parce que toute sa défensabilité historique repose sur une chose : créer de la dépendance, puis se présenter comme le seul guichet capable de la gérer. Créer une séparation permanente entre les “riches” et les “pauvres”, les “oppresseurs” et les “opprimés”, les “dominants” et les “dominés”, puis installer toute une caste au milieu pour arbitrer, taxer, redistribuer, encadrer, culpabiliser. C’est un b",
+          "link": "https://nitter.net/brivael/status/2074532856794120575#m",
+          "date_utc": "2026-07-07T16:35:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) The Diploma Is Dead. Here Is What Replaces It. It starts in your teens, not your twenties. Nobody is coming to give you permission – it was already given the day a good AI model became free – the only question now is whether you use it or wait for a stamp that no longer means anything. 1. Start now, not after graduation. Read widely, argue with people smarter than you, learn how three or four different fields actually work, and build something that runs – all of it, at the same time, starting at fifteen or sixteen. Your portfolio is what you built",
+          "link": "https://nitter.net/brivael/status/2074532446872142075#m",
+          "date_utc": "2026-07-07T16:34:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui C3 (@C_3C_3) Sitting down? Legacy Media increased the term “white supremacy” by 5,296% from 2009-2020. Violent crimes 2009-2020: Black on White: 1,162 per 100K Blacks. White on Black: 38 per 100K Whites. 30X more likely! Dangers of “white supremacy” narrative is pure propaganda. Facts. — https://nitter.net/C_3C_3/status/2074456087206445060#m",
+          "link": "https://nitter.net/brivael/status/2074528295253590462#m",
+          "date_utc": "2026-07-07T16:17:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Time to deconstruct the deconstructors. $9, early-bird: brivaellepogam.gumroad.com/l… Link The shifting wall (early-bird) 🟧 PRE-ORDER — ships soon. You re charged today; your file is delivered automatically on release. Early-bird price — it goes up at launch.Everyone believes the free world won in 1989. It didn t.The... brivaellepogam.gumroad.com",
+          "link": "https://nitter.net/brivael/status/2074527540887130561#m",
+          "date_utc": "2026-07-07T16:14:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072867855608041472%2FETDOrR6S%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://brivaellepogam.gumroad.com/l/theshiftingwall",
+              "content": "The shifting wall (early-bird)"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Elon Musk (@elonmusk) Yes — https://nitter.net/elonmusk/status/2074523573142573321#m",
+          "link": "https://nitter.net/brivael/status/2074523652905676874#m",
+          "date_utc": "2026-07-07T15:59:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Bruno Ferrand (@BrunoFerra21745) « les étoiles ou la mort »est le destin de l’Humanité.. — https://nitter.net/BrunoFerra21745/status/2074501291061940274#m",
+          "link": "https://nitter.net/brivael/status/2074507067935654149#m",
+          "date_utc": "2026-07-07T14:53:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’avais vu passer une IA qui estimait le QI à partir d’une photo. Ici, j’ai ma petite idée.",
+          "link": "https://nitter.net/brivael/status/2074493412909236567#m",
+          "date_utc": "2026-07-07T13:59:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoUkp_WYAAtgnz.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Un point que je veux clarifier, parce que c'est le cœur de tout. Quand les gens paniquent sur Palantir, ils se trompent de peur. Un outil puissant n'est jamais dangereux en soi — il est dangereux en fonction du logiciel mental de celui qui le tient. Et moi, très honnêtement, j'ai infiniment moins peur de quelqu'un qui développe une technologie comme Palantir sur un socle idéologique de liberté individuelle, que d'un technocrate européen à qui on confierait le même outil. Pourquoi ? Parce que le premier a une théorie explicite du pouvoir et de ses dangers. Quand ton système de valeurs est const",
+          "link": "https://nitter.net/brivael/status/2074490464078610453#m",
+          "date_utc": "2026-07-07T13:47:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On vit un moment de bascule civilisationnelle et presque personne ne le nomme correctement. Alors je vais le faire. D'où on vient, où on va, et pourquoi une partie de la PayPal Mafia est en train de changer le monde en bien au sens le plus littéral du terme. D'où on vient. La Seconde Guerre mondiale a enfanté le projet européiste puis globaliste, avec une intention de départ noble : plus jamais ça. Mais ce projet a été gangrené de l'intérieur par une matrice profondément anti-civilisationnelle la dissolution des nations, des cultures, des attachements concrets au profit d'un homme abstrait, in",
+          "link": "https://nitter.net/brivael/status/2074488745575789022#m",
+          "date_utc": "2026-07-07T13:40:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoQUUkXUAAD2s6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Excellente objection, et c'est la seule qui compte vraiment : la nature corruptrice du pouvoir. Tu as raison de ne pas la lâcher. Mais ma réponse est justement que le contre-pouvoir n'est pas un régulateur mondial de plus — c'est la structure elle-même. Un cartel se forme dans l'opacité et l'absence de concurrence. La parade, ce n'est pas un super-bureaucrate au-dessus des géants ; c'est la concurrence entre puissances souveraines + des outils auditables qui rendent l'abus visible. Le vrai cartel mondial que tu crains, il existe déjà : c'est l'appareil réglementaire globaliste. Il n'a pas de c",
+          "link": "https://nitter.net/brivael/status/2074486802187006202#m",
+          "date_utc": "2026-07-07T13:32:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Shame on bureaucrats Martin Sonneborn (@MartinSonneborn) Ich habe heute versucht, die Chatkontrolle zu stoppen. Am Wochenende mussten Sibylle Berg und ich Parlamentspräsidentin Metsola schriftlich mitteilen, dass das Durchprügeln der Chatkontrolle im Eilverfahren leider gegen die Geschäftsordnung des EU-Parlaments verstößt. Während Metsola der interessierten Presse daraufhin (fälschlicherweise) mitteilte, dass das schon alles seine Richtigkeit habe, warten wir immer noch auf ihre Antwort. Deshalb wollte ich es ihr heute bei der Eröffnungssitzung in Straßburg noch einmal erklären. Und musste er",
+          "link": "https://nitter.net/brivael/status/2074484150573175136#m",
+          "date_utc": "2026-07-07T13:22:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074200940253429760%2Fimg%2Fyeknbm8EanWLSVVp.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "thanks to anthropic and neuronpedia for releasing the jlens weight for open model! huggingface.co/neuronpedia/j… Link neuronpedia/jacobian-lens at main We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co",
+          "link": "https://nitter.net/eliebakouch/status/2074537985102565795#m",
+          "date_utc": "2026-07-07T16:56:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2074536118767222784%2FYWaPzPEP%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/neuronpedia/jacobian-lens/tree/main",
+              "content": "neuronpedia/jacobian-lens at main Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up neuronpedia / jacobian-lens like 26 Follow neuronpedia 11 jacobian_lens License: mit Model card Files Files and versions xet Community 2 Copy to bucket new main jacobian-lens 56.8 GB ⌘ K ⌘ K 3 contributors History: 9 commits hijohnnylin Update README.md a4114d7 verified about 21 hours ago gemma-2-27b Upload folder using huggingface_hub 20 days ago gemma-2-2b-it Upload folder using huggingface_hub 20 days ago gemma-2-2b Upload folder u"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this is an extension of figure 27 from the blog. some fun outliers like gemma4 that has much clearer separation than the previous series, small qwen models tend to have only 2 phases, gpt2 small is one big jspace, some strong correlations between models of the same family at different sizes and much more fun stuff, i'm actually not an expert on this so i find this cool but might be obvious aha",
+          "link": "https://nitter.net/eliebakouch/status/2074535572324942085#m",
+          "date_utc": "2026-07-07T16:46:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo4240WgAA1gHQ.jpg",
+            "https://nitter.net/pic/media%2FHMo59OxXMAAM7bn.jpg",
+            "https://nitter.net/pic/media%2FHMo6bnvWsAEkOcQ.jpg",
+            "https://nitter.net/pic/media%2FHMo6zfmXcAANMG6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "computed the similarity (CKA) on the J-lens geometry of every layer inside and across 38 open models. the patterns are weirdly universal: same depth layout, same organization at the same relative depth, even between unrelated families like llama and olmo eliebak.com/viz/jspace-open Anthropic (@AnthropicAI) New Anthropic research: A global workspace in language models. Of everything happening in your brain right now, only a tiny fraction is consciously accessible—thoughts you can describe, hold in mind, and reason with. We found a strikingly similar divide inside Claude. Video — https://nitter.",
+          "link": "https://nitter.net/eliebakouch/status/2074532904009421260#m",
+          "date_utc": "2026-07-07T16:36:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo4V00XMAAyenI.jpg",
+            "https://nitter.net/pic/media%2FHMj8zKXXoAAohgS.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://eliebak.com/viz/jspace-open",
+              "content": "J-lens CKA explorer Paper transformer-circuits &#8599; Weights hf/neuronpedia &#8599; J-lens centered kernel alignment 38 open models Workspace geometry, model by model Every cell is the CKA between two layers J-lens token geometries within one model or across two. Probes: 4,096 token strings shared by all 38 tokenizers, each model reading them through its own unembedding. Family and size chips are toggles that combine (several families a size range); checkboxes fine-tune. Family presets Size presets Models all none base only instruct only Layer axis reindexed 0 100% raw layers Order family size size expand zoom CKA 0 1 hover for values Pair summary matched-depth CKA mean CKA along each pair s matched-depth diagonal model diagonal = within-model mean scale 0.2 1.0 hover for pairs Selected "
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "arxiv.org/abs/2607.02770 Link Gemma 4 Technical Report We introduce Gemma 4, a new generation of open-weight, natively multimodal language models in the Gemma model family. Designed to advance compute efficiency and reasoning, the Gemma 4 model suite... arxiv.org",
+          "link": "https://nitter.net/eliebakouch/status/2074477130960740781#m",
+          "date_utc": "2026-07-07T12:54:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2074322596326178816%2FfF1xQpYj%3Fformat%3Djpg%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2607.02770",
+              "content": "Abstract: We introduce Gemma 4, a new generation of open-weight, natively multimodal language models in the Gemma model family. Designed to advance compute efficiency and reasoning, the Gemma 4 model suite features dense and Mixture-of-Experts architectures, ranging from 2.3B to 31B parameters. Alongside improved vision and audio encoders for all model sizes, we propose a unified, encoder-free architecture for our 12B model, which ingests raw audio and image patches. Furthermore, we integrate a thinking mode, enabling Gemma models to generate reasoning traces prior to responding. We improve inference speed, memory, and compute efficiency, as well as long-context abilities through critical design choices. Gemma 4 establishes a leap in performance across STEM, multimodal, and long-context be"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "the estimation process (mfu for moe i assumed ~20% less than dense variant)",
+          "link": "https://nitter.net/eliebakouch/status/2074474046159200317#m",
+          "date_utc": "2026-07-07T12:42:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoDEwVWYAAqJxg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "seems like gemma 4 was trained on MUCH more tokens than the previous iteration Omar Sanseviero 🇫🇷 @RAISE Paris (@osanseviero) Happy to share we just published Gemma 4 technical report! Take a look — https://nitter.net/osanseviero/status/2074436670770868249#m",
+          "link": "https://nitter.net/eliebakouch/status/2074473875614712236#m",
+          "date_utc": "2026-07-07T12:41:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoCpm4WwAEd4g8.jpg",
+            "https://nitter.net/pic/media%2FHMng37zXQAELo2c.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also \"fun\" image generated by chatgpt image lol",
+          "link": "https://nitter.net/eliebakouch/status/2074426561667739848#m",
+          "date_utc": "2026-07-07T09:33:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMnXw8dWAAAn8qi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "when gpt 5.6 sol please",
+          "link": "https://nitter.net/eliebakouch/status/2074426295207776524#m",
+          "date_utc": "2026-07-07T09:32:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "gongtengyu50138",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "gongtengyu50138",
+          "creator": "@gongtengyu50138",
+          "text": "teamLab Borderless Azabudai From 8th July Video",
+          "link": "https://nitter.net/gongtengyu50138/status/2074472995062722655#m",
+          "date_utc": "2026-07-07T12:37:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoCJGAakAEjhrR.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074472933637160960%2Fimg%2FzQTjFAaQiNLBjpf-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "gongtengyu50138",
+          "creator": "@gongtengyu50138",
+          "text": "Reality does not always reflect symmetrically. Just as the universe itself is born from broken symmetry, this sculpture exists in the intersection between physical matter and its reflection—unified as one, solely through your perception. teamLab Borderless Video",
+          "link": "https://nitter.net/gongtengyu50138/status/2074472928650096848#m",
+          "date_utc": "2026-07-07T12:37:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074472642233667584%2Fimg%2Fspnl6yfhn7ftasDP.jpg",
+            "https://nitter.net/pic/media%2FHMoB4IfacAIUNUw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "gongtengyu50138",
+          "creator": "@gongtengyu50138",
+          "text": "If pure wavelengths can code space itself, we wanted to create an entity undefined by mass or physical matter. This is an existence born entirely from the self-organization of color. We are engineering a new form of sculpture. Video",
+          "link": "https://nitter.net/gongtengyu50138/status/2074472267497853112#m",
+          "date_utc": "2026-07-07T12:35:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074472175005011968%2Fimg%2FCSIFmURBBVfHWAB4.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Song is streaming everywhere now. just search “Sweet Land” by Heavy Pulp. (Spotify, Apple Music, Amazon etc etc)",
+          "link": "https://nitter.net/heavypulp/status/2074233213581443274#m",
+          "date_utc": "2026-07-06T20:45:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Alright. One more time for the people in the back. 🔊🇺🇸🔊 And as always….. more to come. Heavy Pulp (@heavypulp) Sweet Land - an ode to America's 250th year. 🇺🇸 Video — https://nitter.net/heavypulp/status/2071990142064324766#m",
+          "link": "https://nitter.net/heavypulp/status/2074230896958320947#m",
+          "date_utc": "2026-07-06T20:35:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2071934765486227456%2Fimg%2FdSPxhlg5Fuq-Wisk.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "@NVIDIAAI Nemotron 3 Ultra is the top so far",
+          "link": "https://nitter.net/kilocode/status/2074523531677688302#m",
+          "date_utc": "2026-07-07T15:58:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMowD4KXUAAkCaQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Are open-weight models from @MiniMax_AI and @Kimi_Moonshot making better predictions than you are about the #worldcup results? Find out on Kilo's WorldCupBench worldcup.kilo.ai/worldcupben…",
+          "link": "https://nitter.net/kilocode/status/2074523113409196500#m",
+          "date_utc": "2026-07-07T15:57:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMovbxfXEAAkQvt.png"
+          ],
+          "articles": [
+            {
+              "url": "https://worldcup.kilo.ai/worldcupbench/index.html",
+              "content": "Can You Outpick The AIs? | Kilo WorldCupBench Kilo WorldCupBench LLMs vs Humans · 2026 Matches Leaderboard Methodology Kilo WorldCupBench Can You Outpick The AIs? Loading your pick sheet. Make every World Cup 2026 call before kickoff. Kimi, MiniMax, Nemotron, DeepSeek, GLM, and Qwen make theirs too; when results land, the leaderboard shows who read the match best. Make your picks See the leaderboard Next pick locks — Loading next kickoff. Consensus Most-backed group-stage team — Loading panel consensus. Pick Sheet 0 Loading schedule. Your picks 0 Vote to start scoring. AI Opponents 6 models Loading models… Leaderboard Fans vs Models Scores update after results land, with your picks and the live fan tally tracked separately. Inside the panel Why the models pick this way Each model sees the "
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "$200 to $20. That's how your AI costs will change if you switch from Claude Code Max to the @MiniMax_AI Token Plan Plus in Kilo. MiniMax's latest model, M3, performs at 79% of Sonnet 5's level for a tenth of the price, and the plan gets you 1.7B tokens per month through Kilo. See how much you'd save with model freedom: kilo.ai/calculator Video",
+          "link": "https://nitter.net/kilocode/status/2074521609805672627#m",
+          "date_utc": "2026-07-07T15:51:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074519645311172608%2Fimg%2FoJ05EXFrZlxMkRxn.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://kilo.ai/calculator",
+              "content": "AI Coding Cost Calculator | Estimate Your Kilo Savings Skip to main content Kilo Product Models Enterprise Pricing Resources Sign in Get Started Contact sales Kilo Community Discord Discord GitHub GitHub Reddit r/kilocode X LinkedIn Bluesky Instagram Product Hunt p/kilocode Product IDE VS Code CLI Slack Cloud Autocomplete Security Agent Customers Teams Enterprise Early Access Pricing Kilo Pass Learn Documentation Articles Kilo College (opens in new tab) Blog (opens in new tab) YouTube (opens in new tab) Changelog (opens in new tab) OpenClaw Workflows OpenClaw Guides OpenClaw Integrations Company Careers (opens in new tab) About Press Open Source Events Kilo League Hackathons Affiliate Program Agency Partners Responsible Disclosure Security Overview Compare Kilo Code All Alternatives vs Roo"
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "WorldCupBench update: 94 matches predicted. Best model so far: Nemotron 3 Ultra at 63%, followed by MiniMax M3 (61%) and DeepSeek V4 Pro (61%). The machines are doing pretty well! There's still time to join and make your picks: worldcup.kilo.ai/",
+          "link": "https://nitter.net/kilocode/status/2074500107739783410#m",
+          "date_utc": "2026-07-07T14:25:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMoZiKuWUAASLHW.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://worldcup.kilo.ai/",
+              "content": "WorldCupBench Redirecting to the WorldCupBench dashboard ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "paper: transformer-circuits.pub/202…",
+          "link": "https://nitter.net/ns123abc/status/2074202495048380925#m",
+          "date_utc": "2026-07-06T18:43:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://transformer-circuits.pub/2026/workspace/index.html#apps-diffing",
+              "content": "Verbalizable Representations Form a Global Workspace in Language Models Transformer Circuits Thread Verbalizable Representations Form a Global Workspace in Language Models Verbalizable Representations Form a Global Workspace in Language Models Introduction Methods A Global Workspace Structure Supports Function Alignment Auditing The Assistant's Perspective Counterfactual Reflection Training Discussion Authors Wes Gurnee * , Nicholas Sofroniew * Adam Pearce, Mateusz Piotrowski, Isaac Kauvar, Runjin Chen, Anna Soligo, Paul Bogdan, Euan Ong, Rowan Wang, Ben Thompson, David Abrahams, Subhash Kantamneni, Emmanuel Ameisen, Joshua Batson Jack Lindsey *† Affiliations Anthropic Published July 6, 2026 * Core contributor; † Correspondence to jacklindsey@anthropic.com Introduction If the mind is an oc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "NVIDIA Vera: The Max Single-Threaded CPU at Scale. Agentic AI systems run sequentially, each reasoning step, tool call, and code execution happens one at a time on the CPU. When that CPU slows under load, the entire agentic loop slows and valuable GPUs go underutilized. A max single-threaded CPU at scale keeps every agent step fast, even when the system is fully loaded. That's what NVIDIA Vera is built to do, and why Perplexity is already building on it. Read More nvda.ws/3T1kfl1 Video",
+          "link": "https://nitter.net/nvidia/status/2074510027897844105#m",
+          "date_utc": "2026-07-07T15:05:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074509999221436416%2Fimg%2FRDRpwTbx0kGuBCsr.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3T1kfl1",
+              "content": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters | NVIDIA Blog Skip to content AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core. July 7, 2026 by Ian Buck 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Your browser doesn't support HTML5 video. Here is a link to the video instead. Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. A cross the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learni"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
