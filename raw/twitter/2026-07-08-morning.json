@@ -1,0 +1,1309 @@
+{
+  "date": "2026-07-08",
+  "slot": "morning",
+  "scraped_ist": "2026-07-08 09:05",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Managed Agents supports both patterns with sub-agents. Escalate up to a Fable 5 advisor, or delegate down to Sonnet 5 workers. Each sub-agent keeps its own cache, so repeat calls don't pay in full for the same context twice. platform.claude.com/docs/en/… Link Multi-agent sessions Coordinate multiple agents within a single session. platform.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2074606065170456777#m",
+          "date_utc": "2026-07-07T21:26:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2072829178194399232%2FpH8jbM_g%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/managed-agents/multi-agent",
+              "content": "Multi-agent sessions - Claude Platform Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Claude Platform Docs Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K First steps Overview Quickstart Prototype in Console Define your agent Agent setup Tools MCP connector Permission policies Agent Skills Configure agent environment Cloud environment setup Cloud sandbox reference Self-hosted sandboxes  Delegate work to your agent Start a session Session operations Session event stream Sub"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "On BrowseComp, we tested Claude Managed Agents w/ Fable 5 orchestrator + Sonnet 5 worker sub-agents. The Fable 5 orchestrator achieves 96% of Fable 5 performance at 46% of the price. Token-heavy research is delegated to Sonnet 5. See our cookbook: github.com/anthropics/claude…",
+          "link": "https://nitter.net/ClaudeDevs/status/2074606063509528855#m",
+          "date_utc": "2026-07-07T21:26:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMp6InGasAA3Lln.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/anthropics/claude-cookbooks/blob/main/managed_agents/CMA_plan_big_execute_small.ipynb",
+              "content": "claude-cookbooks/managed_agents/CMA_plan_big_execute_small.ipynb at main · anthropics/claude-cookbooks · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium team"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "A second strategy: use Fable 5 as an orchestrator. Fable 5 plans and delegates to workers (Sonnet 5). Most tokens are billed at the lower worker rate.",
+          "link": "https://nitter.net/ClaudeDevs/status/2074606061567574181#m",
+          "date_utc": "2026-07-07T21:26:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMp6DWEa4AE10vQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "On SWE-bench Pro, Sonnet 5 + a Fable 5 advisor tool gets ~92% of Fable 5's score at ~63% of the price. Fable 5 is called rarely (~once) per task to steer while Sonnet 5 executors the majority of the work. See our docs to learn more: platform.claude.com/docs/en/…",
+          "link": "https://nitter.net/ClaudeDevs/status/2074606059864625355#m",
+          "date_utc": "2026-07-07T21:26:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMp4vKMakAAEa3Q.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+              "content": "Advisor tool - Claude Platform Docs Cookie settings We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you. You can read our Cookie Policy here . Customize Customize Cookie Settings Reject Reject All Cookies Accept Accept All Cookies Claude Platform Docs Messages Managed Agents Admin Resources   API reference English   Console Log in    Search... ⌘K First steps Intro to Claude Quickstart Building with Claude Features overview Using the Messages API Stop reasons and fallback Refusals and fallback Fallback credit Model capabilities Extended thinking Adaptive thinking Effort Task budgets (beta) Fast mode (research preview) Structured outputs Citations Streaming Messages Batch p"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "A few patterns we frequently use with Fable 5: Use Fable 5 as an \"advisor.\" An executor (Sonnet 5) calls Fable 5 for guidance. Most tokens are billed at the lower executor rate.",
+          "link": "https://nitter.net/ClaudeDevs/status/2074606058128224365#m",
+          "date_utc": "2026-07-07T21:26:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMp3rAEaAAAUpHe.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Apply here: claude.com/contact-sales/cla… Link Claude for Open Source | Claude by Anthropic Apply to the Claude for Open Source program. Eligible OSS maintainers and contributors get Claude Max for 6 months on us. claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2074570405264994808#m",
+          "date_utc": "2026-07-07T19:05:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2073351383185592320%2F_G1acmeQ%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/contact-sales/claude-for-oss",
+              "content": "Claude for Open Source | Claude by Anthropic | Claude Skip to main content Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Startups Enterprise Departments Legal Security Industries Customer support Education Financial services Government Healthcare Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Contact sales Try Claude Cont"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "6 months of Claude Max 20x, on us. We're expanding Claude for Open Source to more of the community. If you're a maintainer, a core contributor, someone landing PRs across the ecosystem, or someone keeping a critical package alive, apply today! Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2074570404035993780#m",
+          "date_utc": "2026-07-07T19:05:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074568504888680449%2Fimg%2FM0sEo79u0tnkrkLb.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "RESTORING THE WARRIOR ETHOS. The @DoWCTO will ensure our warfighters have the tools they need to MAXIMIZE LETHALITY 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2074561898247266562#m",
+          "date_utc": "2026-07-07T18:31:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpS6PkWsAAWnzk.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Toby Staines and Michal Kazmierski are heading back to kiosk 1 at the Google booth ( #B206 ) today at 12:30pm. Stop by to explore AlphaEarth Foundations and see how this embedding field model enables planetary geospatial insights. #ICML2026 Google Research (@GoogleResearch) Meet Toby Staines Michal Kazmierski today at 11:30am at the Google booth ( #B206 ) to learn about AlphaEarth Foundations. This embedding field model yields a unified representation of the Earth's surface by assimilating multiple remote sensing data sources. #ICML2026 — https://nitter.net/GoogleResearch/status/20746768182009",
+          "link": "https://nitter.net/GoogleResearch/status/2074679202369134777#m",
+          "date_utc": "2026-07-08T02:17:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMq7kYnacAAF3Fb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Next up at the booth today at 12:30pm, see how Gemini collaborates with artists to design complex origami. Join Tom Zahavy, Xidong Feng, and Shaobo Hou at the Google booth ( #B206 ) to see abstract ideas turn into mathematically valid physical art. @GoogleDeepMind #ICML2026 Read more about it here: tomzahavy.com/projects/corig…",
+          "link": "https://nitter.net/GoogleResearch/status/2074678446236819616#m",
+          "date_utc": "2026-07-08T02:14:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMq8zN4aIAAGSUL.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.tomzahavy.com/projects/corigami",
+              "content": "COrigami — Tom Zahavy Tom Zahavy Home Publications About Blog ← Home COrigami Combines reinforcement learning with Gemini to design origami crease patterns, using a semantic representation and visual feedback loop to fold arbitrary target shapes. Paper ↗ Crease Patterns ↓ Designed with COrigami, shaped and folded by Brandon Wong. Origami is a uniquely constrained art form: every design must obey the mathematics of flat-foldability while still looking like the thing it depicts. COrigami is an end-to-end AI pipeline that tackles both at once, turning a natural-language prompt into a crease pattern that genuinely folds. By pairing algorithmic optimisation with an autonomous aesthetic critic and optimising it with RL, the system acts as a collaborative assistant — it produces mathematically so"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Next up at the booth today at 12:30pm, see how Gemini collaborates with artists to design complex origami. Join Tom Zahavy, Xidong Feng, and Shaobo Hou at the Google booth ( #B206 ) to see abstract ideas turn into mathematically valid physical art. #ICML2026",
+          "link": "https://nitter.net/GoogleResearch/status/2074677823391048134#m",
+          "date_utc": "2026-07-08T02:11:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMq8eaqaoAAwP4B.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Coral NPU provides a glimpse of the future of LLMs on low-power platforms. See English-to-target language translation running on a low-power Torq-Coral NPU with Gregory Kielian today at 12:30pm at the Google booth ( #B206 ). #ICML2026",
+          "link": "https://nitter.net/GoogleResearch/status/2074677384259994053#m",
+          "date_utc": "2026-07-08T02:10:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMq8FWTa4AArwCK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Meet Toby Staines Michal Kazmierski today at 11:30am at the Google booth ( #B206 ) to learn about AlphaEarth Foundations. This embedding field model yields a unified representation of the Earth's surface by assimilating multiple remote sensing data sources. #ICML2026",
+          "link": "https://nitter.net/GoogleResearch/status/2074676818200936552#m",
+          "date_utc": "2026-07-08T02:07:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMq7kYnacAAF3Fb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Visit the Kaggle Game Arena today at 9:30am at kiosk #2 where frontier models compete in live environments. Stop by to browse benchmarks and leaderboards with Yuting Han, Lucy He, and Tiffany Xiang at the Google booth ( #B206 ). #ICML2026",
+          "link": "https://nitter.net/GoogleResearch/status/2074627086283878490#m",
+          "date_utc": "2026-07-07T22:50:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMqOTwlakAAKtY-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "How can we address the scarcity of data required for specialized AI? Join Hamza Harkous, Tim Davidson, and Cesar Ilharco today at 9:30am at the Google booth ( #B206 ) to learn about Simula, a framework for synthetic dataset design. #ICML2026",
+          "link": "https://nitter.net/GoogleResearch/status/2074626278964281350#m",
+          "date_utc": "2026-07-07T22:47:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Three new FireSat satellites are officially in orbit. 🚀 This launch is a major scaling milestone for the Earth Fire Alliance’s mission to provide continuous, high-resolution wildfire detection. See how we're working together with the @EarthFireAll & other partners to put AI to work for climate resilience: goo.gle/4vRobDq Link Three new satellites join the fight against wildfires. Three new FireSat satellites have launched, expanding a network that uses Google AI to help fire agencies detect early-stage wildfires. blog.google",
+          "link": "https://nitter.net/GoogleResearch/status/2074620237945966874#m",
+          "date_utc": "2026-07-07T22:23:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2074527977736482816%2FwWuGg6nF%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://goo.gle/4vRobDq",
+              "content": "3 new FireSat satellites launch to help detect wildfires with AI Skip to main content The Keyword Three new satellites join the fight against wildfires. Share x.com Facebook LinkedIn Mail Copy link Home Innovation AI Innovation AI Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Cloud See all Technology Safety Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog See all AI updates Models Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app NotebookLM See all Infrastructure cloud Global network Google Clo"
+            }
+          ]
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Yana Lunts, Sam Holt, Pavel Dubov, and Stefan Moser will be back at kiosk 2 at the Google booth ( #B206 ) today at 3:00pm. Drop by to experience Project Astra firsthand and meet the team behind the research prototype. #ICML2026 Google Research (@GoogleResearch) Curious how the universal assistant of tomorrow might look? Learn about Project Astra, a research prototype of a next-generation AI video and audio assistant. Meet Yana Lunts, Sam Holt, Pavel Dubov, and Stefan Moser today at 1:00pm at the Google booth ( #B206 ). #ICML2026 — https://nitter.net/GoogleResearch/status/2074321201581932634#m",
+          "link": "https://nitter.net/GoogleResearch/status/2074345279902613865#m",
+          "date_utc": "2026-07-07T04:10:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMl4HbUaQAAV-p5.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Translation: He’s not wasting trillions on your failed green grift, keeping the southern border a revolving door for cartels, fentanyl, and child traffickers, or “transing” boys into girls. Sorry your feelings got hurt by common sense. Cry harder. House Democrats (@HouseDemocrats) Donald Trump’s priorities are in the wrong place. — https://nitter.net/HouseDemocrats/status/2074523425838641545#m",
+          "link": "https://nitter.net/HouseGOP/status/2074596294333530521#m",
+          "date_utc": "2026-07-07T20:47:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "It's easy to like socialism in a college seminar. It's a lot harder to like it in a bread line.",
+          "link": "https://nitter.net/HouseGOP/status/2074587468385354138#m",
+          "date_utc": "2026-07-07T20:12:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Invest in your child’s future. Download the @TrumpAccounts app today! Video",
+          "link": "https://nitter.net/HouseGOP/status/2074575996343267619#m",
+          "date_utc": "2026-07-07T19:27:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074575926512254977%2Fimg%2Fk_iN5A7JVij5BgLH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Democrats want to grow your tax bill. Republicans want to grow YOUR CHILD'S FUTURE. @TrumpAccounts do exactly that.",
+          "link": "https://nitter.net/HouseGOP/status/2074526506475282801#m",
+          "date_utc": "2026-07-07T16:10:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 The total breakdown in communication over control of the Strait of Hormuz suggests that this confrontation will not end with a peace deal or a diplomatic compromise. Brandon Weichert stresses that despite financial incentives or external pressure on shipping routes, regional actors are focused on sending a non-negotiable message. Miscalculating the depth of domestic public support and assuming military pressure would force a shift toward compliance stands as a massive intelligence failure. @WeTheBrandon Video Mario Nawfal (@MarioNawfal) 🚨🇮🇷🇺🇸 Kharg Island reportedly hit for the first time s",
+          "link": "https://nitter.net/MarioNawfal/status/2074702127948063031#m",
+          "date_utc": "2026-07-08T03:48:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074701590783463424%2Fimg%2F754s7Ut-r5W3WaxQ.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074678485323325440%2Fimg%2Fd2vTJz3cuxLxKfls.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "The Strait of Hormuz seems stuck in the same cycle. A new incident → retaliation → more strikes → higher risks for shipping → temporary de-escalation → repeat. Even when tensions cool, security costs stay elevated and the underlying disputes remain unresolved. It’s why one of the world’s most important energy chokepoints rarely stays \"normal\" for long. Source: @jackprandelli / Writer: Lynn",
+          "link": "https://nitter.net/MarioNawfal/status/2074701256174850490#m",
+          "date_utc": "2026-07-08T03:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMrDl5lWgAADyrZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇸🇾 505 civilians dead, 71 of them children, and the man responsible got cleaned up in a suit and called reasonable. The numbers cited in this exchange are stark: at least 505 civilians killed, including 71 children and 77 women, with 371 dying in unlawful combat attacks, 28 killed by torture, and 106 executed. Fmr. CIA analyst Larry Johnson's verdict on Syria's leader pulls zero punches: \"He's a motherf***er. And you don't excuse it. And you certainly don't clean him up in a suit and say, well, now we'll sit down and talk to you because you're now Mr. Reasonable.\" His test is simple. If the ma",
+          "link": "https://nitter.net/MarioNawfal/status/2074698991405596708#m",
+          "date_utc": "2026-07-08T03:36:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074697904913039360%2Fimg%2FIHe0BvBgFdhenyy6.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074697050944352256%2Fimg%2FbyiovqUCJC4P8B0K.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷🇪🇬 Everyone wanted to scream that Argentina vs Egypt was rigged. Then the replay made it annoying. Egypt’s first controversy came when the refs missed a foul, Egypt went coast to coast, scored, and appeared to go up 2-0. But VAR stepped in, reviewed the buildup, and ruled no goal. As much as people wanted to lose their minds, the foul was there. And under VAR, if an offense leads into the buildup of a goal, exactly what happened on that play, they can review it and take the goal away. Then came the extra detail nobody wants to hear: The Egyptian player also appeared to remove his shirt, whic",
+          "link": "https://nitter.net/MarioNawfal/status/2074698690057416847#m",
+          "date_utc": "2026-07-08T03:34:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074698493646532608%2Fimg%2F_gfopejFkTY6gHZJ.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074608566934138880%2Fimg%2FxpViTfqSloFejuQ7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 The granddaughter's tiny body at the funeral changed Iran's entire calculus. Revenge is now the demand. Fmr. CIA analyst Larry Johnson says the emotion sweeping Iran this week has pushed things past the point of measured responses. Millions in mourning, and front and center, the tiny body of the granddaughter killed alongside the supreme leader. The people are crying for revenge, and Johnson says the leadership can no longer ignore it. His read on the diplomats is just as sharp. Araghchi and the negotiating team have been under relentless internal pressure, accused of being played for fools",
+          "link": "https://nitter.net/MarioNawfal/status/2074697733303304326#m",
+          "date_utc": "2026-07-08T03:31:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074697050944352256%2Fimg%2FbyiovqUCJC4P8B0K.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074696781300957184%2Fimg%2FnLEZmZAy0MyVlmfc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 When a 4th degree black belt tried to fight a Virginia Beach officer he found out the hard way that they don't fk around Timothy Allen Wegert may be a National Black Belt League three-time world champion, but that didn't help him land a spinning heel kick He's been charged with felony assault on a law enforcement officer Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074697485075767358#m",
+          "date_utc": "2026-07-08T03:30:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074529500700815360%2Fimg%2F29qWcp-iJiNFvWt0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇧🇭BREAKING: Air defenses are lighting up the night sky over Bahrain. -Footage reportedly shows active interception fire over the kingdom as the Iranian barrage arrives -Three ballistic missiles were reportedly launched at Bahrain from Iran's Fars Province -Sirens are simultaneously blaring across Kuwait, where Patriots are reportedly engaging Source: DD Geopolitics / Writer: Daniel Video Video Video Mario Nawfal (@MarioNawfal) 🚨🇰🇼BREAKING: Air raid sirens are blaring across Kuwait as the Iranian barrage widens. -State-run KUNA confirms sirens activated nationwide -Unconfirmed reports describe",
+          "link": "https://nitter.net/MarioNawfal/status/2074696904554713140#m",
+          "date_utc": "2026-07-08T03:27:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074696818500194304%2Fimg%2FLcgCE4T7ugGhRLzz.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074696818496065536%2Fimg%2FSu83UXqMEuBrRYfr.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074696818483429376%2Fimg%2FYL6p7yEdt-Ltuiwx.jpg",
+            "https://nitter.net/pic/media%2FHMrJ6PgX0AARyhc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 \"The United States is going to get its ass handed to it. Stand by.\" Fmr. CIA analyst Larry Johnson reacted to the US strikes on Iran, launched while millions were in the streets for the funeral, with crowds chanting revenge, revenge, revenge. The timing, he says, guarantees the response. Iran has reached its limit of patience with the West, and anyone expecting Tehran to sit back and apologize is about to be corrected. His prediction gets specific. Iran will repeatedly hit the air base any strike aircraft launched from, going after them one by one. And if any planes came out of bases in I",
+          "link": "https://nitter.net/MarioNawfal/status/2074696903741087873#m",
+          "date_utc": "2026-07-08T03:27:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074696781300957184%2Fimg%2FnLEZmZAy0MyVlmfc.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074660801193922560%2Fimg%2FZ9414nn6YFgkfKsk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷🇺🇸 Over 80 targets hit in one wave, 60 IRGC gunboats among them, and the revoked oil waivers could still outweigh every bomb dropped tonight CENTCOM's statement landed while we were live: air defenses, command networks, coastal radar, anti-ship missile sites, and SIXTY of the small boats Iran uses to squeeze shipping. Iran's answer came fast, drones over Bahrain and reportedly anti-ship missiles at US warships, intercepted so far. But Stefano Ritondale kept pulling my eyes off the explosions and onto the paperwork. Strikes get absorbed, he argued; sides trade blows and find equilibrium. Kil",
+          "link": "https://nitter.net/MarioNawfal/status/2074695904821399563#m",
+          "date_utc": "2026-07-08T03:23:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074694966706573312%2Fimg%2FntAzZvRQIa1DWEhD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Private equity is killing patients… and a new landmark study proves it. Patient deaths surged 11% after PE firms took over hospitals. Their playbook: Load the facility with massive debt, sell the building and charge rent, then gut staffing. Lives are paying the price. Ronan Farrow just exposed how this profit-first model is delivering predictable harm and more deaths. How many more patients have to die before something is done? Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074693706633170961#m",
+          "date_utc": "2026-07-08T03:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074560409508421632%2Fimg%2FnAO9LqAaQ8JQ_WmC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 America's emergency oil reserve could hit tank bottom by autumn, and there's a national defense line about to be crossed. Fmr. U.S. Navy intel officer Malcolm Nance delivers a chilling read on the US Strategic Petroleum Reserve. There's a strict 270-million-barrel cutoff meant to be held for national defense, and Nance warns that bypassing it risks draining the reserve completely to tank bottom by autumn. No alternative supply bridges the gap that's coming, he says. A massive spike in oil prices follows, and the pain lands at home. And as US strikes continue, Nance expects the tactical resp",
+          "link": "https://nitter.net/MarioNawfal/status/2074693203463135477#m",
+          "date_utc": "2026-07-08T03:13:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074692001560174592%2Fimg%2FabO1ow2CR_1zQtrc.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074688409625341952%2Fimg%2FoQdBFA1qAzhMEWFl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇰🇼BREAKING: Air raid sirens are blaring across Kuwait as the Iranian barrage widens. -State-run KUNA confirms sirens activated nationwide -Unconfirmed reports describe explosions coinciding with Patriot interceptor launches -It comes minutes after Iran fired three ballistic missiles at Bahrain, with footage showing interceptions over the kingdom -Both Gulf states host major U.S. forces, and both suffered unexplained blackouts earlier tonight Source: Al Jazeera / Writer: Daniel Mario Nawfal (@MarioNawfal) 🚨🇧🇭BREAKING: Sirens are sounding in Bahrain again, per the country's Interior Ministry. -",
+          "link": "https://nitter.net/MarioNawfal/status/2074692794564698198#m",
+          "date_utc": "2026-07-08T03:11:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMrJ6PgX0AARyhc.jpg",
+            "https://nitter.net/pic/media%2FHMrFq3nXoAAiLgD.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨 🇮🇷🇧🇭 BREAKING: Iran has reportedly fired ballistic missiles at Bahrain -Three ballistic missiles were reportedly launched from Iran's Fars Province, likely aimed at Bahrain -Bahrain hosts the U.S. Fifth Fleet at Mina Salman, the IRGC's named target in past barrages -It's likely the \"resounding response\" Iran's military command promised hours ago, answering the destruction of 60-plus IRGC boats Source: Tabz on TG / Writer: Daniel",
+          "link": "https://nitter.net/MarioNawfal/status/2074692237955391952#m",
+          "date_utc": "2026-07-08T03:09:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMrJHA_WQAA6BXf.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Oil transit out of Hormuz has collapsed 95%, and the escalation loop driving it has a name: the cycle of stupid. Fmr. U.S. Navy intel officer Malcolm Nance breaks down the pattern strangling the global oil system. Localized tit-for-tat strikes trigger retaliatory ballistic missile barrages, which trigger more strikes, a loop he bluntly calls the cycle of stupid. Meanwhile, IRGC small boat clusters keep slipping past standard radar tracking, and crude leaving the Strait of Hormuz has plummeted a staggering 95% below pre-war levels. What looks like a localized standoff is doubling as a demons",
+          "link": "https://nitter.net/MarioNawfal/status/2074690687224741980#m",
+          "date_utc": "2026-07-08T03:03:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074688409625341952%2Fimg%2FoQdBFA1qAzhMEWFl.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074686172270379008%2Fimg%2FKspYpNNSAjSfDPES.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 A Connecticut husky just turned into a total bodyguard, charging down a bear that tried to crash his family’s lawn and saved his kid. The owner is paying him in T-bones, but honestly, that dog deserves the whole cow. Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074689935781580860#m",
+          "date_utc": "2026-07-08T03:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074496907976568832%2Fimg%2F5647uPZhlpAjGUW_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇧🇭BREAKING: Sirens are sounding in Bahrain again, per the country's Interior Ministry. -Bahrain's Interior Ministry confirms sirens have been activated -It follows explosions heard in the kingdom earlier tonight and unexplained power outages across both Bahrain and Kuwait -Bahrain hosts the U.S. Navy's Fifth Fleet, a repeated Iranian target all war -Iran's military command vowed a \"resounding response\" just hours ago after U.S. strikes destroyed 60-plus IRGC boats and 80-plus targets Source: Bahrain Interior Ministry / Writer: Daniel Mario Nawfal (@MarioNawfal) 🚨🇺🇸🇮🇷 CENTCOM's final tally is ",
+          "link": "https://nitter.net/MarioNawfal/status/2074688174316560530#m",
+          "date_utc": "2026-07-08T02:53:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMrFq3nXoAAiLgD.png",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074671884042412032%2Fimg%2FJdl4OdA53j_BaBlC.jpg",
+            "https://nitter.net/pic/media%2FHMq3kDDWgAAb3sU.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 A Qatari LNG carrier just took a drone strike, and ships without American escorts are barely escaping with their crews. Fmr. U.S. Navy intel officer Malcolm Nance maps out the precision retaliation now hammering critical infrastructure, including the IRGC tunnel complex at Sirik and the surface search radars that dominate the Strait of Hormuz. The drone strike on the Qatari LNG carrier carries a message aimed far beyond Doha. Any vessel operating outside direct American escort is fair game, and Nance says the targeted ships have been narrowly avoiding catastrophic, all-hands-lost disaster",
+          "link": "https://nitter.net/MarioNawfal/status/2074688169937965073#m",
+          "date_utc": "2026-07-08T02:53:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074686172270379008%2Fimg%2FKspYpNNSAjSfDPES.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074653873042604032%2Fimg%2FGkx8UYNvrEPJ_6kf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇪 Conor McGregor is back, and fight week just got real 🔥 McGregor has arrived in Las Vegas ahead of UFC 329 and his fight against Max Holloway, with cameras capturing his first appearance as fight week officially gets underway. After being away from the Octagon since 2021, the countdown is over and the spotlight is back where it always seems to find him. Writer: Val, Daniel / @TheNotoriousMMA Video",
+          "link": "https://nitter.net/MarioNawfal/status/2074686855962915222#m",
+          "date_utc": "2026-07-08T02:47:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMrFQKbbcAAf3FZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tesla FSD is changing how people drive Tesla dropped huge FSD numbers and stats: smoother acceleration, smarter braking, better routing = safer roads + less energy used. Fewer emissions, smoother rides, and we’re one step closer to a world of amazing abundance. The future is already here 🔥 @Tesla / Writer: Val",
+          "link": "https://nitter.net/MarioNawfal/status/2074686156806279489#m",
+          "date_utc": "2026-07-08T02:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMqump5XAAApE4Y.jpg",
+            "https://nitter.net/pic/media%2FHMqumpUWUAEjBrI.png",
+            "https://nitter.net/pic/media%2FHMqumpWWIAETyIc.png",
+            "https://nitter.net/pic/media%2FHMqumpbXQAAPlnV.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What I see in the report, released today. Cybercab will make me money. It is ahead of the Chinese. In all ways. I am writing this to you from a San Diego freeway. It is magic. The announcement I was hoping for is “where do I send my money?” If Elon can get a three hour drive to $25 then I would take it to San Francisco every time. My spreadsheets show that even at that low level Tesla and owner would still be making money. Uber is about $200. Wholesale cost is about $30. Tesla’s cost is about $5 for a three hour ride. So the price will start higher, making even more money. Irena and I wrote ab",
+          "link": "https://nitter.net/Scobleizer/status/2074662452206403775#m",
+          "date_utc": "2026-07-08T01:10:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo_lLBbEAE5fyq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "AI demands a lot of trust. I have several, like @TownAI , watching literally everything I do. Since I already trust my life to AI trusting the rest of it to AI wasn’t a big step. Video",
+          "link": "https://nitter.net/Scobleizer/status/2074655740057583675#m",
+          "date_utc": "2026-07-08T00:44:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074655047737335808%2Fimg%2FsTxbffHLSyJcnS_q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Theo blows holes in the idea that you will run AI locally. Video",
+          "link": "https://nitter.net/Scobleizer/status/2074614867198448006#m",
+          "date_utc": "2026-07-07T22:01:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074601900335632384%2Fimg%2FcI4JcI4Shk82wtju.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Your website is probably losing you customers and nobody will tell you why. I made an AI Helper that will. It is called Website Roaster. Paste a link, it tears down your copy and positioning, then tells you exactly what to fix. Built it with @Sintra_AI Helper Builder in one sitting. If I can build one, you can build one for whatever your business needs. Grab it here: playosinc.pxf.io/L04GgY",
+          "link": "https://nitter.net/Scobleizer/status/2074565153442381859#m",
+          "date_utc": "2026-07-07T18:44:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpVjc6XkAACyb4.jpg",
+            "https://nitter.net/pic/media%2FHMpVk4SWcAEqvnk.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://playosinc.pxf.io/L04GgY",
+              "content": "Sintra --> Products Social Media Manager Data Analyst Email Marketer Recruiter eCom Specialist SEO Mastermind Customer Support Business Strategist Personal Growth Copywriter Sales Strategist Virtual Assistant Features Brain AI Integrations Resources Blog Use cases Case studies Help center What is an AI Helper Careers Pricing Book a Demo ACCOUNT Get Started Log In NAVIGATION Products Social Media Manager Data Analyst Email Marketer Recruiter eCom Specialist SEO Mastermind Customer Support Business Strategist Personal Growth Copywriter Sales Strategist Virtual Assistant Features Brain AI Integrations Resources Blog Use cases Case studies Help center What is an AI Helper Careers Pricing Book a Demo Buy Now As seen on SINTRA Build your AI helper in minutes. No code, no skills. 85% off Get the "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "For our free newsletter this week, we look at AI’s new uncanny valley, where digital workers are no longer just tools in the background but visible participants in the real economy. @IrenaCronin and I write this newsletter every week. AI is creating a new uncanny valley, not by looking human, but by acting human. Tilly Norwood, the AI actor set to star in a feature film, shows how digital workers are entering roles once held by people and forcing a bigger question: will audiences, customers, and workers trust AI when it starts performing human jobs? Subscribe and read for free at unaligned.io",
+          "link": "https://nitter.net/Scobleizer/status/2074550116736983216#m",
+          "date_utc": "2026-07-07T17:44:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpH_VXbMAAa__e.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 13 hours ago ​​​​​​AI Workers Enter the Real Economy The New Uncanny Valley Robert Scoble, +1 Jun 30, 2026 ​​​​​​The AI Productivity Boom Is Becoming an AI Training Problem Robert Scoble, +1 Jun 23, 2026 ​​​​​​The Humanoid Robot Safety Race Robert Scoble, +1 Jun 16, 2026 ​​​​​​The Public Trust Problem in AI Robert Scoble, +1 Jun 09, 2026 ​​​​​​The New AI Investment Race Why Governments Want a Stake in AI Companies Robert Scoble, +1 Jun 02, 2026 ​​​​​​The AI IPO Race Robert Scoble, +1 May 26, 2026 ​​​​​​AI Regulation Becomes a Moral Issue Robert Scoble, +1 May 19, 2026 ​​​​​​AI Work Intelligence Platforms The Future of Pr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "These are the results of a strong @POTUS and @VP uniting the government to defend American taxpayers and fight fraud. ⬇️ Secretary Linda McMahon (@EDSecMcMahon) . @usedgov 🤝 @WHFraudTF Nearly $2 billion saved, and more to come. Video — https://nitter.net/EDSecMcMahon/status/2074539860656853503#m",
+          "link": "https://nitter.net/WHFraudTF/status/2074605471370022925#m",
+          "date_utc": "2026-07-07T21:24:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074538631344140288%2Fimg%2FirldObuQkCt35HvL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "'Ghost Student' scams and similar schemes cost American taxpayers tens of millions of dollars every year. The Trump-Vance Administration takes all fraud seriously. Thanks to @VP , @POTUS , and our partners @usedgov and @TheJusticeDept , we are finally holding these criminals accountable. 🇺🇸 Video",
+          "link": "https://nitter.net/WHFraudTF/status/2074553046043124180#m",
+          "date_utc": "2026-07-07T17:56:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074546336234348546%2Fimg%2FgPYWEHRNKNMlkg4y.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "We'll all look back in five years and remember when the enshittification cycle got too fast. Any company that relies on Anthropic is so obviously foolish. Google and Microsoft knew how to slow play it. Claude (@claudeai) We're extending access to Claude Fable 5 on all paid plans through July 12. — https://nitter.net/claudeai/status/2074548242386178258#m",
+          "link": "https://nitter.net/__tinygrad__/status/2074559905672155303#m",
+          "date_utc": "2026-07-07T18:23:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "99% French YouTubers / Streamers The Rabbit Hole (@TheRabbitHole) Some socialist influencers don’t actually want socialism. They want to make money selling socialism. — https://nitter.net/TheRabbitHole/status/2074654504516206672#m",
+          "link": "https://nitter.net/brivael/status/2074657228724851141#m",
+          "date_utc": "2026-07-08T00:50:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Great job Yann (@Yannlce) American friends: hope you will enjoy the gift🇺🇸🇺🇸 — https://nitter.net/Yannlce/status/2074599776054628678#m",
+          "link": "https://nitter.net/brivael/status/2074600542433669629#m",
+          "date_utc": "2026-07-07T21:04:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMp1QMGWkAAynDp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Read if you want to understand why medias are demonizing Elon Brivael Le Pogam (@brivael) Article Why Elon Musk Is Hated and Demonized by the Media There is a riddle at the center of modern public life, and almost no one says it out loud. Here is a man who put the first privately built rocket into orbit, then landed it standing upright on a drone — https://nitter.net/brivael/status/2069203589692805440#m",
+          "link": "https://nitter.net/brivael/status/2074590080144924779#m",
+          "date_utc": "2026-07-07T20:23:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHLdJoC1bQAAxGhV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "How the world will go in a better direction. Brivael Le Pogam (@brivael) Article The Great Great Reset Why the world of bankers is dying, and why the builders will inherit the century. We are at a historic turning point. And I am deeply convinced that this turning point will give birth to a radically — https://nitter.net/brivael/status/2074396867467645169#m",
+          "link": "https://nitter.net/brivael/status/2074589546377797835#m",
+          "date_utc": "2026-07-07T20:21:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMm7krEWYAACTMR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "À lire 👇 Brivael Le Pogam (@brivael) The Great Great Reset. Le vrai reset n'est pas celui des banquiers. C'est la bascule du pouvoir de ceux qui racontent vers ceux qui font. Et il a déjà commencé. Sans doute l'un de mes textes les plus optimistes. À lire en entier 👇 — https://nitter.net/brivael/status/2074397166861164588#m",
+          "link": "https://nitter.net/brivael/status/2074589388625887376#m",
+          "date_utc": "2026-07-07T20:20:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Supprimons toutes les aides sociales. Le brut devient le net. Et ça repart comme en 40. Victor Ferry Business & News PhD (@mrvicfer) Insolite : elle supprime le RSA, la pauvreté diminue L'Italie vient d'enregistrer le taux de chômage le plus bas de son histoire, 5 pourcent en mai dernier, du jamais vu depuis que l'Istat collecte des statistiques. Ce résultat n'est pas tombé du ciel. Il est la conséquence directe d'une décision que la gauche française avait qualifiée de provocation à l'époque, la suppression par Giorgia Meloni du revenu de citoyenneté, l'équivalent du RSA italien. Le raisonneme",
+          "link": "https://nitter.net/brivael/status/2074587469543051358#m",
+          "date_utc": "2026-07-07T20:12:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMo2B2rWsAAgrkz.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "elle a dit \"musclé\" moi je vois qu'une chose : Video Yaël Braun-Pivet (@YaelBRAUNPIVET) J’en ai assez de voir circuler des fake news sur les députés et l’utilisation de l’argent public. Je ne laisserai jamais croire que l’argent des Français n’est pas contrôlé. Je vous explique comment les frais de mandat sont réellement encadrés. Video — https://nitter.net/YaelBRAUNPIVET/status/2074467218834833651#m",
+          "link": "https://nitter.net/brivael/status/2074582025508364728#m",
+          "date_utc": "2026-07-07T19:51:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074580890680807424%2Fimg%2F7Aahct0J20RDdbqs.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2074466953557626880%2Fimg%2FmOK9uAm7YRj9kOyI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Que ça sonne faux. On dirait une guitare désaccordée. 🤣 Gabriel Attal (@GabrielAttal) Je souhaite me battre pour garantir aux Français que leurs enfants et petits-enfants auront une meilleure vie que la leur. Et pour y arriver, nous devons agir sur 4 chantiers capitaux : École, salaires, frontières et IA. Video — https://nitter.net/GabrielAttal/status/2074570359282585810#m",
+          "link": "https://nitter.net/brivael/status/2074578653099294803#m",
+          "date_utc": "2026-07-07T19:37:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074568109390753792%2Fimg%2FkoOBOzYOOcLef75Z.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "????",
+          "link": "https://nitter.net/brivael/status/2074577175852761157#m",
+          "date_utc": "2026-07-07T19:31:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpg8lRW4AAjlSJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le cuck essaie à tout prix d'avoir l'air vertueux en cherchant le progrès reponsable et éthique (c'est à dire de la merde). Il tente de capter les fonds publics ou charitables sur des objectifs activement détrimentaux sous couvert de bien-pensance. Il choisit un faux combat et se brande de la cape d'entrepreneur tech pour détourner et détruire la valeur même a son propre insu. 🥲🫠😬😬😬 emile (@c_emile_c) Après un mois dans la silicon valley je le déclare, il y a quatre types d'individus dans la tech 1. Le player 2. Le sbire 3. Le pirate 4. Le cuck Le player a compris le jeu: des tombereaux d'arge",
+          "link": "https://nitter.net/brivael/status/2074575719930450170#m",
+          "date_utc": "2026-07-07T19:26:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le sbire est se sent mal sans sa laisse: il travaille pour autrui dans des secteurs shiny mais ce qu'il ship et de second ordre. Meme un ingénieur openai en alignement tombe dans ce cadre. 😂😂😂 emile (@c_emile_c) Après un mois dans la silicon valley je le déclare, il y a quatre types d'individus dans la tech 1. Le player 2. Le sbire 3. Le pirate 4. Le cuck Le player a compris le jeu: des tombereaux d'argents, de l'ambition dans les secteurs clef. Il est en phase avec le prolongement exponentiel du réel et se positionne pour créer de la valeur et briser les plafonds. Le sbire est se sent mal san",
+          "link": "https://nitter.net/brivael/status/2074575446029619349#m",
+          "date_utc": "2026-07-07T19:25:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hahahaha Putain ce contraste emile (@c_emile_c) Pendant qu'Elon Musk permet aux americains de conduire sans regarder la route ni toucher le volant, l'europe embarque un garde chiourme pour verifier que vous faites parfaitement le sbire — https://nitter.net/c_emile_c/status/2074573559792333065#m",
+          "link": "https://nitter.net/brivael/status/2074574539057410391#m",
+          "date_utc": "2026-07-07T19:21:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hahaha Hugo « Nemesis » Deux (@hugonemesisdeux) Cette poire vivante de 14 ans devrait faire des travaux forcés pour perdre son gras de castor ! Et ensuite on peut le remigrer, l’avion sera moins lourd. — https://nitter.net/hugonemesisdeux/status/2074564655075180944#m",
+          "link": "https://nitter.net/brivael/status/2074570482834133144#m",
+          "date_utc": "2026-07-07T19:05:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’hypocrisie de Zuckerberg aura été de courte durée, il revient à ses premiers amours, la censure. Allez la soutenir 👇 Louise Morice (@louise_morice_) Instagram me censure. 60 000 abonnés partis en fumée, des années de travail réduites à néant, et une partie de mes revenus qui s’envole. Peut-être que c’est la fin pour moi. Je ne sais pas si j’aurai la force de continuer. Merci à l’ @ASLA_asso de m’accompagner. ❤️ Video — https://nitter.net/louise_morice_/status/2074519066241351705#m",
+          "link": "https://nitter.net/brivael/status/2074569978984952289#m",
+          "date_utc": "2026-07-07T19:03:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074518741606432769%2Fimg%2FZ-ypC8OxyCfZ8Hoo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La ils sont au service de Bercy sous Xanax 😅🤣 Jules_L (@LamonJul) Quand les polytechniciens sont au service de la liberté, ça fait des étincelles — https://nitter.net/LamonJul/status/2074563771951931789#m",
+          "link": "https://nitter.net/brivael/status/2074569214086488292#m",
+          "date_utc": "2026-07-07T19:00:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Jules_L (@LamonJul) Quand les polytechniciens sont au service de la liberté, ça fait des étincelles — https://nitter.net/LamonJul/status/2074563771951931789#m",
+          "link": "https://nitter.net/brivael/status/2074569085099167841#m",
+          "date_utc": "2026-07-07T18:59:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Pierre-Louis Biojout (PLB) (@plbiojout) Un moment il faut dire tout haut ce que beaucoup pensent tout bas. — https://nitter.net/plbiojout/status/2074562814572994954#m",
+          "link": "https://nitter.net/brivael/status/2074567425937244304#m",
+          "date_utc": "2026-07-07T18:53:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "other cool result, base to instruct checkpoint for gemma 4 32b seems to completely change the \"sensory\" phase (the first few layers) which corresponds to low level parsing and syntax. i think this makes sense but cool to see",
+          "link": "https://nitter.net/eliebakouch/status/2074559394969165852#m",
+          "date_utc": "2026-07-07T18:21:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpQvCLXQAAoxPU.jpg",
+            "https://nitter.net/pic/media%2FHMpQwROWwAASE1F.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "More expensive AI ≠ always better AI. @atomic_chat_hq ran Meituan's LongCat 2.0 against GPT 5.5 in the Kilo CLI to build the same game, and the results were nearly identical. Cost: $0.00 vs. $0.65. 👇 atomic.chat (@atomic_chat_hq) Open-weight LongCat 2.0 matched GPT-5.5 level on agentic game dev for $0! We ran Meituan's LongCat 2.0 against cloud frontier GPT-5.5 in @kilocode CLI with their agent. Same task for both - build a retro Duck Hunt game in one game.html, improved over 3 agent iterations with duck waves, ammo and physics Outputs: LongCat 2.0: 70.3K tokens, $0.00 GPT-5.5: 64.9K tokens, $",
+          "link": "https://nitter.net/kilocode/status/2074609338228920556#m",
+          "date_utc": "2026-07-07T21:39:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074601402446286848%2Fimg%2F2ghruQTH3ns4fsSP.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok won't allow competition, GLM is getting nuked the tiny corp (@__tinygrad__) If xAI drops something beyond GLM 5.2 open source they just became the new number 1 lab. @elonmusk — https://nitter.net/__tinygrad__/status/2074667584331641039#m",
+          "link": "https://nitter.net/ns123abc/status/2074671137338867900#m",
+          "date_utc": "2026-07-08T01:45:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨OpenAI is monitoring SpaceXAI Grok 4.5 AND GPT 5.6 drop the SAME DAY tomorrow ITS HAPPENING",
+          "link": "https://nitter.net/ns123abc/status/2074654894280085554#m",
+          "date_utc": "2026-07-08T00:40:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMqnobRW8AE-iWo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "NEW: @ChatGPTapp account just did a FULL rebrand for the GPT-5.6 launch Sol dropping tomorrow NIK (@ns123abc) source told me yesterday Sol is dropping wednesday — https://nitter.net/ns123abc/status/2074582783180026022#m",
+          "link": "https://nitter.net/ns123abc/status/2074645820142403633#m",
+          "date_utc": "2026-07-08T00:04:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMqeJlvWgAAQaI_.png",
+            "https://nitter.net/pic/media%2FHMqeMpmXQAAnZz9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Hayden Field (@haydenfield) OpenAI's chief futurist is leaving the company after 9 years. He recently testified in the Musk v Altman trial. — https://nitter.net/haydenfield/status/2074613667379748977#m",
+          "link": "https://nitter.net/ns123abc/status/2074617560771830011#m",
+          "date_utc": "2026-07-07T22:12:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“Sir… Joshua Achiam… the head of our mission alignment team… whose team we disbanded… so we made him our chief futurist… has decided there is no future… and is leaving OpenAI after 9 years…”",
+          "link": "https://nitter.net/ns123abc/status/2074613656252276885#m",
+          "date_utc": "2026-07-07T21:56:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMqCH2xXcAAMA4n.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: SPACEXAI AND CURSOR DROPPING GROK 4.5 TOMORROW According to memo sent to staff: Built to be competitive directly with Opus 4.8 and GPT 5.5",
+          "link": "https://nitter.net/ns123abc/status/2074604203180208524#m",
+          "date_utc": "2026-07-07T21:19:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMp5hzfW4AADrVZ.jpg",
+            "https://nitter.net/pic/media%2FHMp5hzeWkAAVjJb.jpg",
+            "https://nitter.net/pic/media%2FHMp5hzgX0AAyVR0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "GPT 5.6 SoL is a 2.2T parameter model 💀💀 Bleys Goodson (@bleysg) It is a 2 to 4T param model. They are serving it across 70-100 wafers. To get healthy serving characteristics, they are essentially putting at most one layer per wafer, and the model is in the ballpark of 70-90 layers. There's a couple of different ways this could be served and model sizes implied by that. One is if they keep the heavy KV caches they've used before. Another is if they go with lighter KV cache designs more akin to DeepSeekV4 or Hybrid SSM models. The fact that they've partnered with Cerebras and designed with the ",
+          "link": "https://nitter.net/ns123abc/status/2074595966137610288#m",
+          "date_utc": "2026-07-07T20:46:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpyCWjXUAA93Rd.jpg",
+            "https://nitter.net/pic/media%2FHMgavnAbMAANeRp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Anthropic extended Fable 5 for another 5 days on the same day my weekly limit reset",
+          "link": "https://nitter.net/ns123abc/status/2074591620607930561#m",
+          "date_utc": "2026-07-07T20:29:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpuFYiW8AAIslQ.jpg",
+            "https://nitter.net/pic/media%2FHMpuFYoW8AAzEbD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "also GPT5.6 is a 2 trillion parameter model",
+          "link": "https://nitter.net/ns123abc/status/2074583450875535825#m",
+          "date_utc": "2026-07-07T19:56:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "source told me yesterday Sol is dropping wednesday",
+          "link": "https://nitter.net/ns123abc/status/2074582783180026022#m",
+          "date_utc": "2026-07-07T19:54:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "GPT 5.6 Sol is still dropping tomorrow as planned right!?? Claude (@claudeai) We're extending access to Claude Fable 5 on all paid plans through July 12. — https://nitter.net/claudeai/status/2074548242386178258#m",
+          "link": "https://nitter.net/ns123abc/status/2074577423711064250#m",
+          "date_utc": "2026-07-07T19:32:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMphLCnWEAEPQKa.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn more: nvda.ws/4yoIBFM Link NVIDIA at SIGGRAPH 2026 Discover the future of research, neural rendering, simulation, and AI with NVIDIA at SIGGRAPH 2026 — July 19-23, L.A. Convention Center, Los Angeles, California. nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2074584283918823818#m",
+          "date_utc": "2026-07-07T20:00:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2073168499866775552%2FjwMR5dGw%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4yoIBFM",
+              "content": "NVIDIA at SIGGRAPH | July 19-23 | L.A. Convention Center, Los Angeles, California NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Join NVIDIA for AI in Production Day at SIGGRAPH 2026. 🎥 On Thursday, July 23, explore how generative and agentic AI are moving into real-world creative pipelines through a full day of sessions focused on film, animation, storytelling, and production workflows. Hear from industry experts on how AI is helping teams direct generative video, support artist-centered pipelines, modernize animation and VFX workflows, and reshape the infrastructure behind production. 📍 Los Angeles | Room 502A 🗓️ Thursday, July 23 | 9 a.m.–3 p.m. PT Video",
+          "link": "https://nitter.net/nvidia/status/2074584281662300649#m",
+          "date_utc": "2026-07-07T20:00:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074584238704242688%2Fimg%2F-8m34lvPsKfL4pxH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "📖 Read this inspiring success story on how AI is democratizing medical knowledge globally: nvda.ws/3RnB5dp Link AI for Global Healthcare With NVIDIA Techies Without Borders deploys NVIDIA NIM and Jetson Nano to bring AI medical knowledge to 17,000 health workers in 19 countries — 5min → 2sec. nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2074554041137353035#m",
+          "date_utc": "2026-07-07T18:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2074554045503508480%2Fl9vFGpcr%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3RnB5dp",
+              "content": "Techies Without Borders: AI for Global Healthcare | NVIDIA success story NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil "
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "🌍 20 million lives impacted every single year. That is the power of technology when it is purposefully engineered to serve humanity. In many low and middle-income countries, healthcare professionals face immense barriers such as unreliable internet, a lack of localized content, and language gaps that can delay critical care. To bridge this gap, Techies Without Borders built an AI-powered experimental platform that acts as a localized \"doctor's assistant.\" Frontline workers can now type in a medical query and receive an instant, evidence-based answer in their own language. Thanks to NVIDIA AI a",
+          "link": "https://nitter.net/nvidia/status/2074554037509185674#m",
+          "date_utc": "2026-07-07T18:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpCiZhXAAEvlrP.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This stupid communist takes a couple pieces of furniture to Goodwill and acts like she just gentrified Skid Row. Commie, there are naked drug zombies lighting dogs on fire and stabbing people in the face. Do your damn job.",
+          "link": "https://nitter.net/spencerpratt/status/2074683302913483029#m",
+          "date_utc": "2026-07-08T02:33:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMrBc_LXwAAuePs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "I hear the train a-comin… It’s rolling ‘round the bend…",
+          "link": "https://nitter.net/spencerpratt/status/2074655335357333978#m",
+          "date_utc": "2026-07-08T00:42:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMqoCA_WUAAW46-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "I will never stop fighting for my community.",
+          "link": "https://nitter.net/spencerpratt/status/2074588084017021150#m",
+          "date_utc": "2026-07-07T20:15:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMpq3g6W8AI0jRr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Our biggest weakness today is the lack of courage in leadership and culture; everyone wants common sense, but everyone is too afraid to demand it. So today, we are launching The WAR Foundation. thewarfoundation.com Together, we will: Win the war against political corruption with innovative new media. Advocate for transparency, accountability, and integrity in government and culture. Restore common sense and roll back the long march of socialism through our vital institutions. The WAR Foundation is being created to fight where others won’t. We will use the same innovative arsenal we used to cap",
+          "link": "https://nitter.net/spencerpratt/status/2074573485637046646#m",
+          "date_utc": "2026-07-07T19:17:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2074573088490999808%2Fimg%2FhkSWO3FOFizri2wR.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://www.thewarfoundation.com",
+              "content": "The WAR Foundation | Join Spencer Pratt in the WAR Together, we will: W in the war against political corruption with innovative new media. A dvocate for transparency, accountability, and integrity in government and culture. R estore common sense and roll back the long march of socialism through our vital institutions. -Spencer Pratt JOIN THE WAR 2026 The WAR Foundation 970 Seacoast Drive, Suite 7, Imperial Beach, CA 91932"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
