@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-06-16T03:40:12.784499+00:00",
+  "following_last_checked": "2026-07-06T16:30:01.960224+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -72,7 +72,10 @@
     "ianmiles",
     "eastdakota",
     "johnfederspiel",
-    "jreichelt"
+    "jreichelt",
+    "WSJ",
+    "XMoney",
+    "MatthewTCowan"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -550,6 +553,87 @@
     {
       "handle": "DoWCTO",
       "name": "Department of War CTO",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "gongtengyu50138",
+      "name": "工藤岳",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "name": "Mario Nawfal",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "stepango",
+      "name": "Stepan Goncharov",
+      "org": "xAI",
+      "timezone": "PT",
+      "focus": [
+        "agents"
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "name": "House Republicans",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "hexiang",
+      "name": "Frank Hu",
+      "org": "Google DeepMind",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "zhu_hanqin41424",
+      "name": "Hanqing Zhu",
+      "org": "Google DeepMind",
+      "timezone": "PT",
+      "focus": [
+        "reinforcement learning"
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "name": "Jonas",
+      "org": "xAI",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "haozhu_wang",
+      "name": "Haozhu Wang",
+      "org": "xAI",
+      "timezone": "PT",
+      "focus": [
+        "agents"
+      ]
+    },
+    {
+      "handle": "aksheyd",
+      "name": "akshey",
       "org": "Independent",
       "timezone": "PT",
       "focus": [
