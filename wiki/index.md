@@ -1085,3 +1085,4 @@ Catalog of all pages. Updated on every ingest.
 | daily-digest | [2026-07-08](daily-digest/2026-07/2026-07-08.md) | Cere-bro daily digest for July 8, 2026. |
 | responsible-ai | [2026-07-07 J-Space Global Workspace](responsible-ai/2026-07-07-j-space-global-workspace.md) | Anthropic Transformer Circuits paper: LLMs have a sparse, verbalizable internal working surface in middle layers that carries safety-relevant concepts invisible in the output. |
 | ai-industry | [2026-07-08 Anthropic IPO](ai-industry/2026-07-08-anthropic-ipo.md) | Anthropic confidentially filed for IPO June 1. SemiAnalysis estimates 3Q26 profit over $1B, Anthropic + OpenAI at ~$100B combined ARR. |
+| agentic-systems | [2026-07-07 Fable 5 Memory Engineering](agentic-systems/2026-07-07-fable-5-memory-engineering.md) | Anthropic memory tool GA on Messages API. Four-layer memory stack. Memory poisoning is an official attack class. Forensic trajectory detection achieves AUC 0.9904. |
