@@ -957,4 +957,4 @@ Append-only timeline of ingests and lint passes.
 
 ## [2026-07-08] ingest | J-Space: Verbalizable Representations Form a Global Workspace in LLMs | gmail (Ken Huang / Agentic AI)
 ## [2026-07-08] ingest | Anthropic 3Q26 Profit Over $1B: The IPO Financials Sneak Peak | gmail (SemiAnalysis)
-## [2026-07-08] update | digest 2026-07-08 gap-filled: added SemiAnalysis Anthropic IPO, J-Space expanded Industry Pulse, Claude memory tool GA, Anthropic platform-moment Global View thread, Anthropic IPO S-1 Looking Ahead bullet. Authored wiki summaries: J-Space global workspace, Anthropic IPO. | digest
+## [2026-07-08] update | digest 2026-07-08 gap-filled: added SemiAnalysis Anthropic IPO, J-Space expanded Industry Pulse, Claude memory tool GA, Fable 5 cost reality (CodeRabbit benchmark, Scrimba 1.3M tokens, Bleeping Computer $100 drain), Claude Code architecture analysis, Anthropic harness layers, Quantum Zeitgeist "Living Codebase," Anthropic platform-moment Global View thread, Anthropic IPO S-1 Looking Ahead bullet. Authored wiki summaries: J-Space global workspace, Anthropic IPO, Fable 5 memory engineering. | digest
