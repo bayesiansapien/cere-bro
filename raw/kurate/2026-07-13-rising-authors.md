@@ -1,5 +1,53 @@
 # Kurate Rising Authors
-> 2026-07-13 11:52 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
+> 2026-07-13 13:44 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
+
+## Guy Lutsker  ·  score 31.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W29, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+
+## Gal Sapir  ·  score 31.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W29, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+
+## Jordi Merino  ·  score 31.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W29, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+
+## Smadar Shilo  ·  score 31.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W29, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+
+## Anastasia Godneva  ·  score 31.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W29, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+
+## Eli Meirom  ·  score 31.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
+- [2604.27899v1] **#1** (cs.AI, 2026-W29, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
 
 ## Andrew Zhang  ·  score 31.9  ·  4 appearances
 *First seen 2026-W19, last seen 2026-W29*
@@ -48,6 +96,54 @@
 - [2604.18570v1] **#1** (cs.LG, 2026-W27, ai_rating=8.2/10): A multimodal and temporal foundation model for virtual patient representations at healthcare system scale
 - [2604.18570v1] **#1** (cs.LG, 2026-W28, ai_rating=8.2/10): A multimodal and temporal foundation model for virtual patient representations at healthcare system scale
 - [2604.18570v1] **#1** (cs.LG, 2026-W29, ai_rating=8.2/10): A multimodal and temporal foundation model for virtual patient representations at healthcare system scale
+
+## Shuxing Yang  ·  score 28.7  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W29, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+
+## Fujia Chen  ·  score 28.7  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W29, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+
+## Rui Zhao  ·  score 28.7  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W29, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+
+## Junyao Wu  ·  score 28.7  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W29, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+
+## Yize Wang  ·  score 28.7  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W29, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+
+## Haiyao Luo  ·  score 28.7  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
+- [2604.27092v1] **#2** (cs.AI, 2026-W29, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
 
 ## Haydn Jones  ·  score 27.3  ·  4 appearances
 *First seen 2026-W20, last seen 2026-W29*
@@ -145,6 +241,102 @@
 - [2604.19341v1] **#3** (cs.LG, 2026-W28, ai_rating=8.2/10): Evaluation-driven Scaling for Scientific Discovery
 - [2604.19341v1] **#3** (cs.LG, 2026-W29, ai_rating=8.2/10): Evaluation-driven Scaling for Scientific Discovery
 
+## Siavash Golkar  ·  score 25.5  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W29, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+
+## Jake Kovalic  ·  score 25.5  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W29, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+
+## Irina Espejo Morales  ·  score 25.5  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W29, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+
+## Samuel Sledzieski  ·  score 25.5  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W29, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+
+## Minhuan Li  ·  score 25.5  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W29, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+
+## Ksenia Sokolova  ·  score 25.5  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2604.24506v1] **#3** (cs.AI, 2026-W29, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+
+## Fan Ma  ·  score 22.3  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W29, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+
+## Yuntian Liu  ·  score 22.3  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W29, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+
+## Xiang Lan  ·  score 22.3  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W29, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+
+## Weipeng Zhou  ·  score 22.3  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W29, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+
+## Jun Ni  ·  score 22.3  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W29, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+
+## Mauro Giuffrè  ·  score 22.3  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+- [2605.02740v1] **#4** (cs.AI, 2026-W29, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
+
 ## Elon Litman  ·  score 22.3  ·  4 appearances
 *First seen 2026-W19, last seen 2026-W29*
 
@@ -160,90 +352,6 @@
 - [2605.01172v1] **#4** (cs.LG, 2026-W27, ai_rating=6.5/10): A Theory of Generalization in Deep Learning
 - [2605.01172v1] **#4** (cs.LG, 2026-W28, ai_rating=6.5/10): A Theory of Generalization in Deep Learning
 - [2605.01172v1] **#4** (cs.LG, 2026-W29, ai_rating=6.5/10): A Theory of Generalization in Deep Learning
-
-## Guy Lutsker  ·  score 21.9  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-
-## Gal Sapir  ·  score 21.9  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-
-## Jordi Merino  ·  score 21.9  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-
-## Smadar Shilo  ·  score 21.9  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-
-## Anastasia Godneva  ·  score 21.9  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-
-## Eli Meirom  ·  score 21.9  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27899v1] **#1** (cs.AI, 2026-W26, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W27, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-- [2604.27899v1] **#1** (cs.AI, 2026-W28, ai_rating=7.8/10): Simulating clinical interventions with a generative multimodal model of human physiology
-
-## Shuxing Yang  ·  score 19.7  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-
-## Fujia Chen  ·  score 19.7  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-
-## Rui Zhao  ·  score 19.7  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-
-## Junyao Wu  ·  score 19.7  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-
-## Yize Wang  ·  score 19.7  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-
-## Haiyao Luo  ·  score 19.7  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2604.27092v1] **#2** (cs.AI, 2026-W26, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W27, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
-- [2604.27092v1] **#2** (cs.AI, 2026-W28, ai_rating=7.0/10): End-to-end autonomous scientific discovery on a real optical platform
 
 ## Hannah Guan  ·  score 19.1  ·  4 appearances
 *First seen 2026-W19, last seen 2026-W29*
@@ -293,47 +401,69 @@
 - [2604.16238v1] **#5** (cs.LG, 2026-W28, ai_rating=8.0/10): Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction
 - [2604.16238v1] **#5** (cs.LG, 2026-W29, ai_rating=8.0/10): Enhancing AI and Dynamical Subseasonal Forecasts with Probabilistic Bias Correction
 
-## Siavash Golkar  ·  score 17.5  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
+## Girish Narayanswamy  ·  score 19.1  ·  4 appearances
+*First seen 2026-W21, last seen 2026-W29*
 
-- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2605.22759v1] **#5** (cs.AI, 2026-W26, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W27, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W28, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W29, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
 
-## Jake Kovalic  ·  score 17.5  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
+## Maxwell A. Xu  ·  score 19.1  ·  4 appearances
+*First seen 2026-W21, last seen 2026-W29*
 
-- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2605.22759v1] **#5** (cs.AI, 2026-W26, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W27, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W28, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W29, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
 
-## Irina Espejo Morales  ·  score 17.5  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
+## A. Ali Heydari  ·  score 19.1  ·  4 appearances
+*First seen 2026-W21, last seen 2026-W29*
 
-- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2605.22759v1] **#5** (cs.AI, 2026-W26, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W27, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W28, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W29, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
 
-## Samuel Sledzieski  ·  score 17.5  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
+## Samy Abdel-Ghaffar  ·  score 19.1  ·  4 appearances
+*First seen 2026-W21, last seen 2026-W29*
 
-- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2605.22759v1] **#5** (cs.AI, 2026-W26, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W27, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W28, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W29, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
 
-## Minhuan Li  ·  score 17.5  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
+## Marius Guerard  ·  score 19.1  ·  4 appearances
+*First seen 2026-W21, last seen 2026-W29*
 
-- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2605.22759v1] **#5** (cs.AI, 2026-W26, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W27, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W28, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W29, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
 
-## Ksenia Sokolova  ·  score 17.5  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
+## Kara Vaillancourt  ·  score 19.1  ·  4 appearances
+*First seen 2026-W21, last seen 2026-W29*
 
-- [2604.24506v1] **#3** (cs.AI, 2026-W26, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W27, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
-- [2604.24506v1] **#3** (cs.AI, 2026-W28, ai_rating=8.0/10): MIMIC: A Generative Multimodal Foundation Model for Biomolecules
+- [2605.22759v1] **#5** (cs.AI, 2026-W26, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W27, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W28, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+- [2605.22759v1] **#5** (cs.AI, 2026-W29, ai_rating=8.2/10): Towards a General Intelligence and Interface for Wearable Health Data
+
+## Gyoung S. Na  ·  score 15.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27297v1] **#6** (cs.AI, 2026-W26, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+- [2604.27297v1] **#6** (cs.AI, 2026-W27, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+- [2604.27297v1] **#6** (cs.AI, 2026-W28, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+- [2604.27297v1] **#6** (cs.AI, 2026-W29, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+
+## Chanyoung Park  ·  score 15.9  ·  4 appearances
+*First seen 2026-W19, last seen 2026-W29*
+
+- [2604.27297v1] **#6** (cs.AI, 2026-W26, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+- [2604.27297v1] **#6** (cs.AI, 2026-W27, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+- [2604.27297v1] **#6** (cs.AI, 2026-W28, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
+- [2604.27297v1] **#6** (cs.AI, 2026-W29, ai_rating=6.0/10): Machine Collective Intelligence for Explainable Scientific Discovery
 
 ## Jacob Fein-Ashley  ·  score 15.9  ·  4 appearances
 *First seen 2026-W22, last seen 2026-W29*
@@ -350,48 +480,6 @@
 - [2605.12466v1] **#6** (cs.LG, 2026-W27, ai_rating=7.5/10): Solve the Loop: Attractor Models for Language and Reasoning
 - [2605.12466v1] **#6** (cs.LG, 2026-W28, ai_rating=7.5/10): Solve the Loop: Attractor Models for Language and Reasoning
 - [2605.12466v1] **#6** (cs.LG, 2026-W29, ai_rating=7.5/10): Solve the Loop: Attractor Models for Language and Reasoning
-
-## Fan Ma  ·  score 15.3  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-
-## Yuntian Liu  ·  score 15.3  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-
-## Xiang Lan  ·  score 15.3  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-
-## Weipeng Zhou  ·  score 15.3  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-
-## Jun Ni  ·  score 15.3  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-
-## Mauro Giuffrè  ·  score 15.3  ·  3 appearances
-*First seen 2026-W19, last seen 2026-W28*
-
-- [2605.02740v1] **#4** (cs.AI, 2026-W26, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W27, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-- [2605.02740v1] **#4** (cs.AI, 2026-W28, ai_rating=7.8/10): Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
 
 ---
 *Suggested action: review and decide whether to add any of these authors to `connectors/twitter/config.json:ai_handles`. Search each name on x.com / arxiv for an associated handle. The Twitter farmer auto-classifies new follows from your following list, but it cannot discover authors you don't already follow.*
