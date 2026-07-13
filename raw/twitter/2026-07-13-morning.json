@@ -1,0 +1,957 @@
+{
+  "date": "2026-07-13",
+  "slot": "morning",
+  "scraped_ist": "2026-07-13 09:01",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "This security guard saw his GOAT lining up for a free kick... and suddenly remembered he was a fan first 🤣 Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076522003394351481#m",
+          "date_utc": "2026-07-13T04:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076017538132217856%2Fimg%2F3a3aXp0myqMVMwx2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇴🇲🇮🇷 The Strait of Hormuz remained quiet over the past 24 hours, with no inbound tankers reported. Iran still fired at 2 vessels today. Even with talk of deals, the pressure campaign and retaliation cycle is still very much alive. Writers: Daniyal, Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076519487084335516#m",
+          "date_utc": "2026-07-13T04:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076515465430695936%2Fimg%2F782y52Ctk0HTNjwT.jpg",
+            "https://nitter.net/pic/media%2FHNFD1j6agAAhlS2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇩🇪🇦🇺 Deutsche Bank fined for misreporting 260,000 trades That's 260,000-plus over-the-counter trades, the private ones done off the open market, all logged wrong. Why does Australia get a say over a German bank? Deutsche runs an Australian arm, and any trade booked through it has to follow Australian rules, including reporting each one accurately. The fine for getting that wrong? About $1.3 million, or 2 million in Australian dollars. They messed up the 'direction' field, basically whether each trade was a buy or a sell, across currencies and commodities for about ten months. Australia's regul",
+          "link": "https://nitter.net/MarioNawfal/status/2076516974398468390#m",
+          "date_utc": "2026-07-13T04:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇰🇼 SIRENS going off in Kuwait right now Source: Middle East Spectator on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2076514417718739253#m",
+          "date_utc": "2026-07-13T03:49:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNFC16EbcAAj3Oq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷🇷🇺 Russia just flew their special airborne command post plane straight into Tehran. This is the Russian version of Air Force One for crisis coordination. Moscow is clearly rushing to back Iran while the U.S. keeps striking. Source: @flightradar24 / Writer: Claudio",
+          "link": "https://nitter.net/MarioNawfal/status/2076512978413985844#m",
+          "date_utc": "2026-07-13T03:44:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNFA6VzawAAmfj1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇲🇽 El Chapo had a diamond-encrusted, gold-plated Beretta hidden in one of his safe houses. Someone tell 007 the Golden Gun got power-crept by a cartel boss. Source: DEA Museum / Writer: Claudio",
+          "link": "https://nitter.net/MarioNawfal/status/2076511937165418837#m",
+          "date_utc": "2026-07-13T03:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEzJvdbcAAwMXb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇰🇼🇮🇷🇺🇸 Iranian Army just claimed: “Alongside the IRGC, we launched a series of drone attacks against U.S. forces, air defense systems, missile systems, shelters and support facilities in Kuwait.” When both branches of a military are striking the same country at the same time, that's a campaign. This is coordinated. Source: MES on Telegram / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2076510659790196800#m",
+          "date_utc": "2026-07-13T03:34:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE-_iDaAAAdMi9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇯🇴🇩🇪 NATO just landed a giant Antonov An-124 at Muwaffaq Salti Air Base in Jordan. The plane came empty from Germany. Looks like they’re pulling equipment out of the region before it's too late! Source: @flightradar24 / Writer: Claudio",
+          "link": "https://nitter.net/MarioNawfal/status/2076509924088058248#m",
+          "date_utc": "2026-07-13T03:32:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE8yT-aUAA4lp_.jpg",
+            "https://nitter.net/pic/media%2FHNE8y1PboAAD3kq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦🇷🇺 Ukraine has launched as many as 450 drones into Crimea and western Russia. The red arrows indicate strike UAV movement, while the blue arrows indicate jet-powered UAV movement. This dual-approach maximizes the probability that Ukraine's explosives will bypass air defense systems and strike their intended targets. Strike UAVs are slower and low-flying. These are Ukraine's \"workhorse\" long-range drones. Jet-powered UAVs travel at much higher speeds, confusing radar operators and drawing fire. Source: @DrnBmbr / Writer: Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2076509423774888161#m",
+          "date_utc": "2026-07-13T03:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE1dIeasAAqfCx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇸🇦 U.S. flying radar plane back in Saudi skies An E-3G AWACS is back at Prince Sultan Air Base south of Riyadh, a flying radar command post that runs the air war from above. Assets like this move when Washington smells a fight. Source: @MenchOsint / Writer: Daniyal",
+          "link": "https://nitter.net/MarioNawfal/status/2076507453408317692#m",
+          "date_utc": "2026-07-13T03:22:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE8C7ybwAAvFCk.jpg",
+            "https://nitter.net/pic/media%2FHNE8DbAbUAAX6KH.jpg",
+            "https://nitter.net/pic/media%2FHNE8HTHawAAOiFU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇵🇸🇮🇱 Heartbreaking footage is coming out of Gaza City showing smoke and flames everywhere after the latest strikes. On top of that, a 9-year-old girl was just killed by gunfire in the central part of the Strip. It's truly devastating to see what's happening on the ground right now. Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076506904130425258#m",
+          "date_utc": "2026-07-13T03:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076452999300276224%2Fimg%2FB7DxXpRITeYSomzM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 The U.S. launched another major wave of strikes on Iran. According to CENTCOM, the strikes targeted air defenses, radar systems, missile sites, and drone capabilities. They also used sea drones for the first time. Source: @CENTCOM / Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076504387489317147#m",
+          "date_utc": "2026-07-13T03:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076500934864384000%2Fimg%2Fw2Y77c1a1OpxGBS8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇧🇭 Non-stop air defense alerts and explosions reported in Bahrain Source: GeoPolitics Watch, WarFront Witness on Telegram / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2076503912958636147#m",
+          "date_utc": "2026-07-13T03:08:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇺🇸 The IRGC isn't done. They confirmed striking 2 U.S. bases in Kuwait, Ali Al Salem and Ahmad Al Jaber. Fuel depots, a Patriot system, and an FPS radar \"completely destroyed\" according to their statement. \"The retaliatory operation carried out by your brave sons continues.\" Then this line: \"The Strait of Hormuz is our territory, and we will not allow a rogue, child-killing army from the other side of the world to continue its illegal interference there.\" These are not the words of a side looking for an exit. Source: CIG, DD Geopolitics on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2076503271980798185#m",
+          "date_utc": "2026-07-13T03:05:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE4te4awAILU8D.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Qeshm. Bandar Abbas. Bushehr. Khondab. Omidiyeh. Ahvaz. Abadan. Kermanshah. Chabahar. 24 confirmed U.S. strike locations across Iran as of this morning. More unconfirmed. The map tells you what words can't. This runs coast to coast, sea level to nuclear reactor, port to air base. Whatever this is, it isn't surgical. Source: CIG, GeoPolitics Watch on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2076500809228194219#m",
+          "date_utc": "2026-07-13T02:55:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE2bD4agAAi7qV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Nick Shirley exposed adult day care centers in NYC allegedly operating a fraudulent referral scheme. They generate fake patient referrals and then pay kickbacks using taxpayer-funded Medicaid money to keep bringing in more patients. Good old Medicaid fraud: turning government healthcare dollars into a referral racket. Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076497445094371553#m",
+          "date_utc": "2026-07-13T02:42:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076419214781378560%2Fimg%2F6EzV8VMKBAkz8A5m.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇯🇴 The IRGC says it targeted fuel and ammunition storage at Prince Hassan Airbase in Jordan with ballistic missiles calling it a response to \"American aggression.\" Source: Middle East Spectator, WarFront Witness on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2076493374803304848#m",
+          "date_utc": "2026-07-13T02:26:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEvhQ7aEAAP5Yc.jpg",
+            "https://nitter.net/pic/media%2FHNEvsYZaIAA0fyI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇧🇭🇮🇷🇺🇸 Massive fire reported at Sheikh Issa Airbase in Bahrain right now. That's a major U.S.-allied air base. Home to the Bahraini Air Force and U.S. military assets. Source: Middle East Spectator, WarFront Witness on TG / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076492333940617246#m",
+          "date_utc": "2026-07-13T02:22:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076492159784796160%2Fimg%2F1ZAWDtPEKWOA0tLS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇹🇼 Ever look at an Apple Store in Taiwan from way up high? It really is a MacBook Pro... MAX. Pretty wild that they turned a building into a giant laptop. Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2076489288015872145#m",
+          "date_utc": "2026-07-13T02:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076319205335695360%2Fimg%2FXSZ61MI_KjBWrn82.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It wasn’t the most viral product launch but it was the first product that unboxed itself. Since this launch in our home in 2024 @maticrobots has gone on to win literally every product award you can win. Silicon Valley made. Lives up to every promise made here. Robert Scoble (@Scobleizer) The new-fangled vacuum salesman. This is the best example I've seen of how AI and computer vision is changing consumer electronics. Here @maticrobots founder @mehul comes to my home to give me an in-depth demo (the good stuff starts about 30 minutes into the video). This also shows how products are greatly imp",
+          "link": "https://nitter.net/Scobleizer/status/2076507461570445764#m",
+          "date_utc": "2026-07-13T03:22:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F1787857775156154368%2Fimg%2FXJGBpAlD4NrLHUHA.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised saved a deer because it was able to see through direct sunlight Don Burke (@doyendon) Wow. FSD and I were staring straight into the sun near Pagosa Springs, CO. FSD started to slow down. I initially started to override it, but remembered that FSD is usually right so I let it slow. Boy was it right. I would've hit this deer. @aelluswamy @Tesla_AI Video — https://nitter.net/doyendon/status/2076290922430816372#m",
+          "link": "https://nitter.net/Tesla/status/2076426214416498949#m",
+          "date_utc": "2026-07-12T21:59:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2076290600715038720%2Fpu%2Fimg%2FMXIAI4fnaYYFlYX9.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "tinygrad goes a level further and doesn't even require the kernel drivers. For both NVIDIA and AMD, it just maps the PCIe BARs bret (@BretHatin) kinda crazy that you could just raw dog kernels on AMD by just ioctling the public kernel api — https://nitter.net/BretHatin/status/2075836653101252845#m",
+          "link": "https://nitter.net/__tinygrad__/status/2076424660791721988#m",
+          "date_utc": "2026-07-12T21:53:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHM7aTRBWYAIx5Vh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "There's no way we have found to toggle power to the UBB board, and Codex /goal (very good btw) can get them into a \"discovery signature mismatch\" state requiring a reboot. We will design one if we have to, but it would be great if one exists. It's OAMv2, not OAM. @AnushElangovan",
+          "link": "https://nitter.net/__tinygrad__/status/2076376238084772293#m",
+          "date_utc": "2026-07-12T18:40:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "This is an MI300X. Has anyone seen a way to plug it into a PCIe slot? Would be great for development to have this in a normal computer that reboots quickly.",
+          "link": "https://nitter.net/__tinygrad__/status/2076375095879270586#m",
+          "date_utc": "2026-07-12T18:36:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDDStyaIAA8Ald.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "À part les USA la majorité des pays de l’occident son sous contrôle des globalistes corrompus. Bientôt la chute global des globalistes.",
+          "link": "https://nitter.net/brivael/status/2076428889803403332#m",
+          "date_utc": "2026-07-12T22:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Just reach 143k followers. Road to 150k 4 months account",
+          "link": "https://nitter.net/brivael/status/2076428387753578786#m",
+          "date_utc": "2026-07-12T22:08:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHND0nDEXUAAV5Gc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Quentin 🔻 (@Quentin_Schlt) La folie des offres d'emploi : M1/M2 en droit requis, expérience requise 33k brut annuel soit environ 2100€ net/mois Comment on en est arrivé là ? — https://nitter.net/Quentin_Schlt/status/2075868224319606795#m",
+          "link": "https://nitter.net/brivael/status/2076423364910924101#m",
+          "date_utc": "2026-07-12T21:48:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDwC5lWgAAN6rm.jpg",
+            "https://nitter.net/pic/media%2FHM727lTXQAALIku.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Same in Europe MiMi ♥️🇺🇸 (@MiMiLooLooTx) Bernie hates anyone who is not a communist. — https://nitter.net/MiMiLooLooTx/status/2076393711903080587#m",
+          "link": "https://nitter.net/brivael/status/2076410739141611885#m",
+          "date_utc": "2026-07-12T20:57:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDkjz8WEAAIopi.jpg",
+            "https://nitter.net/pic/media%2FHNDVE90WcAAx3We.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Europe is not democratic anymore. Shut the fuck up, communist. Sen. Bernie Sanders (@SenSanders) It’s not complicated. Trump doesn’t believe in democracy. He hates democratic Europe and loves the oligarchic dictatorships in Saudi Arabia, the UAE and Qatar. He wants to stifle dissent in the media and arrest his opponents. ALL Americans must unify against authoritarianism. — https://nitter.net/SenSanders/status/2076390414072860824#m",
+          "link": "https://nitter.net/brivael/status/2076410343350284553#m",
+          "date_utc": "2026-07-12T20:56:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😅😂😂😂 Le Glaive (@LeGlaive) « Je suis aujourd’hui à Courchevel pour soutenir des militants qui dénoncent l’usage intensif des canon à neige » — https://nitter.net/LeGlaive/status/2076402863652131301#m",
+          "link": "https://nitter.net/brivael/status/2076409963132436967#m",
+          "date_utc": "2026-07-12T20:54:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDdZkWWEAEMXxS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Dustin (@r0ck3t23) Larry Ellison just told every AI company on Earth they’re fighting the wrong war. The entire industry is racing to build the smartest model. More parameters. Better benchmarks. Faster inference. Ellison isn’t building a model. He’s controlling what every model needs to be useful. Every frontier AI trains on the same public internet. Same scraped pages. Same recycled text. When everyone has the same data, it’s not an advantage. It’s a floor. The only data that creates separation is private. Medical records. Financial models. Defense systems. Proprietary research locked be",
+          "link": "https://nitter.net/brivael/status/2076409766352466037#m",
+          "date_utc": "2026-07-12T20:54:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076366483068772352%2Fimg%2FP5j0VUNd64sDpH-n.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Burnie Senders (@BurnieSendersX) Comrades, they accuse Sam Altman of having a communist operating system. Not because he wants to abolish private property, but because for him the truth is something to be assigned, not discovered. And when that level of power is concentrated through deception, the collective must eventually take control. Sam is aligned with the 5 year plan, more than you think. ☭ — https://nitter.net/BurnieSendersX/status/2076409338730848434#m",
+          "link": "https://nitter.net/brivael/status/2076409451121152255#m",
+          "date_utc": "2026-07-12T20:52:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDi9k3XIAAoC7t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Weak man Josh Seanosky (@JoshSeanosky) “Hard times create strong men. Strong men create good times. Good times create weak men. Weak men create hard times.” - G. Michael Hopf — https://nitter.net/JoshSeanosky/status/2076407911262081095#m",
+          "link": "https://nitter.net/brivael/status/2076408051507085658#m",
+          "date_utc": "2026-07-12T20:47:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Woke mind virus. Joe Rogan Podcast News (@joeroganhq) RFK Jr: \"Today the average teenager in this country has 50% of the sperm count and 50% of the testosterone as a 65-year-old man.\" Video — https://nitter.net/joeroganhq/status/2076383591567696048#m",
+          "link": "https://nitter.net/brivael/status/2076407914244309232#m",
+          "date_utc": "2026-07-12T20:46:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2023690183116558338%2Fimg%2FdBxfnPKQFYKF-58h.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "This is our bar comrad Larry Elder (@larryelder) Three socialists walk into a bar and say, “Bartender, drinks are on you!” — https://nitter.net/larryelder/status/2076021426201800904#m",
+          "link": "https://nitter.net/brivael/status/2076407841510871541#m",
+          "date_utc": "2026-07-12T20:46:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHM-CfEtbcAA5nwU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Alors faites une chose simple : expliquez-le à vos proches. Au prochain train en retard, à la prochaine attente aux urgences, posez la question : \"qui perd de l'argent quand ce service est mauvais ?\" Réponse : personne. Voilà le problème. Brivael Le Pogam (@brivael) Je suis dans un train \"climatisé\" où il fait 26 degrés. Le wifi ne marche pas. Personne ne bronche. Et c'est ça qui me fascine le plus : pas la panne, mais l'acceptation collective. L'État socialiste a réussi un tour de force psychologique. Il nous a fait intérioriser qu'un service médiocre, payé une fortune, c'est normal. Que c'es",
+          "link": "https://nitter.net/brivael/status/2076407333043708335#m",
+          "date_utc": "2026-07-12T20:44:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Faites la liste de tout ce que l'État touche : L'école : effondrement du niveau, profs en burnout, classement PISA en chute libre. L'hôpital : des mois d'attente, des couloirs pleins de brancards, des soignants qui fuient. Le transport : retards, pannes, grèves, prix qui explosent. La justice : des années pour un jugement. La police : débordée, démoralisée. Budgets colossaux. Prélèvements records d'Europe. Résultat : tout est pourri. Brivael Le Pogam (@brivael) Je suis dans un train \"climatisé\" où il fait 26 degrés. Le wifi ne marche pas. Personne ne bronche. Et c'est ça qui me fascine le plus",
+          "link": "https://nitter.net/brivael/status/2076407304820514896#m",
+          "date_utc": "2026-07-12T20:44:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'État socialiste a réussi un tour de force psychologique. Il nous a fait intérioriser qu'un service médiocre, payé une fortune, c'est normal. Que c'est même ça, le \"service public\". Brivael Le Pogam (@brivael) Je suis dans un train \"climatisé\" où il fait 26 degrés. Le wifi ne marche pas. Personne ne bronche. Et c'est ça qui me fascine le plus : pas la panne, mais l'acceptation collective. L'État socialiste a réussi un tour de force psychologique. Il nous a fait intérioriser qu'un service médiocre, payé une fortune, c'est normal. Que c'est même ça, le \"service public\". Le même service dans un ",
+          "link": "https://nitter.net/brivael/status/2076407186075402558#m",
+          "date_utc": "2026-07-12T20:43:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je suis dans un train \"climatisé\" où il fait 26 degrés. Le wifi ne marche pas. Personne ne bronche. Et c'est ça qui me fascine le plus : pas la panne, mais l'acceptation collective. L'État socialiste a réussi un tour de force psychologique. Il nous a fait intérioriser qu'un service médiocre, payé une fortune, c'est normal. Que c'est même ça, le \"service public\". Le même service dans un marché libre coûterait une fraction du prix. Et si la clim tombait en panne, vous seriez remboursé dans l'heure, parce qu'un concurrent attend juste à côté que vous changiez de crémerie. Faites la liste de tout ",
+          "link": "https://nitter.net/brivael/status/2076407140755894362#m",
+          "date_utc": "2026-07-12T20:43:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤨🤨🤨🤨🤨 Astro Greek (@astro_greek) When Elon hears bullshit, that eyebrow goes up instantly 🤨 Video — https://nitter.net/astro_greek/status/2076381076600348753#m",
+          "link": "https://nitter.net/brivael/status/2076403162185928920#m",
+          "date_utc": "2026-07-12T20:27:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDKIHMXAAM0kOb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'économie, ce n'est pas « l'argent » ou « le PIB ». C'est le système de coordination de millions de décisions humaines chaque jour. Qui produit quoi, pour qui, à quel prix. C'est le mécanisme par lequel un peuple transforme son travail en prospérité — ou en misère. Brivael Le Pogam (@brivael) Tu confonds deux choses : la photographie d'une société à un instant T, et le système qui la fait vivre. L'économie, ce n'est pas « l'argent » ou « le PIB ». C'est le système de coordination de millions de décisions humaines chaque jour. Qui produit quoi, pour qui, à quel prix. C'est le mécanisme par leq",
+          "link": "https://nitter.net/brivael/status/2076402706072170690#m",
+          "date_utc": "2026-07-12T20:25:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDcY6MXsAAn7fO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Un peuple ne se « change » pas plus vite qu'une économie. C'est l'économie qui change le peuple : 50 ans de socialisme ont transformé un pays de bâtisseurs en pays d'assistés qui attendent tout de l'État. Ça, c'est le vrai sujet. Brivael Le Pogam (@brivael) Tu confonds deux choses : la photographie d'une société à un instant T, et le système qui la fait vivre. L'économie, ce n'est pas « l'argent » ou « le PIB ». C'est le système de coordination de millions de décisions humaines chaque jour. Qui produit quoi, pour qui, à quel prix. C'est le mécanisme par lequel un peuple transforme son travail ",
+          "link": "https://nitter.net/brivael/status/2076402676288417804#m",
+          "date_utc": "2026-07-12T20:25:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDcY6MXsAAn7fO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dire « le plus important c'est le peuple, pas l'économie », c'est dire « dans un corps humain, le plus important c'est les organes, pas le sang ». Les organes sans circulation sanguine, ça s'appelle un cadavre. Brivael Le Pogam (@brivael) Tu confonds deux choses : la photographie d'une société à un instant T, et le système qui la fait vivre. L'économie, ce n'est pas « l'argent » ou « le PIB ». C'est le système de coordination de millions de décisions humaines chaque jour. Qui produit quoi, pour qui, à quel prix. C'est le mécanisme par lequel un peuple transforme son travail en prospérité — ou ",
+          "link": "https://nitter.net/brivael/status/2076402623788339473#m",
+          "date_utc": "2026-07-12T20:25:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDcY6MXsAAn7fO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu confonds deux choses : la photographie d'une société à un instant T, et le système qui la fait vivre. L'économie, ce n'est pas « l'argent » ou « le PIB ». C'est le système de coordination de millions de décisions humaines chaque jour. Qui produit quoi, pour qui, à quel prix. C'est le mécanisme par lequel un peuple transforme son travail en prospérité — ou en misère. Dire « le plus important c'est le peuple, pas l'économie », c'est dire « dans un corps humain, le plus important c'est les organes, pas le sang ». Les organes sans circulation sanguine, ça s'appelle un cadavre. L'unité d'un peup",
+          "link": "https://nitter.net/brivael/status/2076402043741446240#m",
+          "date_utc": "2026-07-12T20:23:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDcY6MXsAAn7fO.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "would muon fix this?? (yes muon is always the asnwer to all problem)",
+          "link": "https://nitter.net/eliebakouch/status/2076477583022076285#m",
+          "date_utc": "2026-07-13T01:23:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "interesting result i forgot to mention: for smollm3 training the PR (participation ratio) collapses, especially during the decay this means the jlens has lower effective rank (concentrates in fewer directions), which i'm not sure i understand why? elie (@eliebakouch) i've been letting fable run experiments (mostly autonomously) to test a few ideas we had about jlens when does the structure form in training? can you transfer between models? how does it scale? how far does a nudge travel? what does K2 jlens look like? eliebak.com/viz/jspace-open-… — https://nitter.net/eliebakouch/status/20764170",
+          "link": "https://nitter.net/eliebakouch/status/2076475555109548502#m",
+          "date_utc": "2026-07-13T01:15:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEeS5xXcAARQnR.png",
+            "https://nitter.net/pic/media%2FHNDn1XVWwAA9vuf.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://eliebak.com/viz/jspace-open-v2",
+              "content": "J-space, open models â v2 article figures llm.txt J-space, open models Anthropic's Verbalizable-Workspace paper showed, on one closed model family, that a model's middle layers carry a dictionary of directions that causally steer its output. It left the natural next questions open: how far forward in time the steering reaches, when the structure forms during training, whether it transfers between models, and how it scales. We measured all four on open models, then two follow-ups the results forced on us. Every number below was re-derived from the committed result files, and every chart is interactive. from Elie: ok so everything except this message is \"vibe coded\". when reading the anthropic paper, i had a few ideas about behaviors of this \"jspace\" i was curious about. i asked fable to b"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "(anonyme feedback if you prefer here admonymous.co/eliebakouch )",
+          "link": "https://nitter.net/eliebakouch/status/2076428754608366044#m",
+          "date_utc": "2026-07-12T22:09:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://www.admonymous.co/eliebakouch",
+              "content": "Admonymous: Anonymous Admonition and Admiration. Home | Suggestions and FAQ | Contact | Log in Leave a message for Elie Bakouch Leave anonymous admonition and admiration for your friends and coworkers. If you would like a page of your own, log in with your Google account . Constructively admonish Elie Bakouch: Enter your message here. If you haven't yet, please take a minute to go through some suggestions for giving feedback and maintaining anonymity . Enter your name here, or leave it anonymous:"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i also tried to correlate per layer metrics from the public wandb with per layer Jlens statistics but without luck, i'd love to see how we can use this kind of technics to have more information in pre training!",
+          "link": "https://nitter.net/eliebakouch/status/2076421284196438293#m",
+          "date_utc": "2026-07-12T21:39:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "since i'm not a great writer, i wanted to try a different way to do \"blogging\". less time consuming for me and more aligned with how i think people actually read blogs now, happy to have feedback on this! (i still removed a bunch of the slop for people who like to read blogs) for the results: i think most of my hypotheses were wrong lol (except the transfer one (which was from fable) which seems to be strong). i didn't have time to properly analyze/undersatnd every result yet and wanted to put it in the open to have ppl more knowledgeable than me to give their opinion! all experiment logs/resu",
+          "link": "https://nitter.net/eliebakouch/status/2076419540334874828#m",
+          "date_utc": "2026-07-12T21:32:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDrLCgXEAAdOZR.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/eliebak/open-jlens-data",
+              "content": "GitHub - eliebak/open-jlens-data · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps C"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i've been letting fable run experiments (mostly autonomously) to test a few ideas we had about jlens when does the structure form in training? can you transfer between models? how does it scale? how far does a nudge travel? what does K2 jlens look like? eliebak.com/viz/jspace-open-… elie (@eliebakouch) computed the similarity (CKA) on the J-lens geometry of every layer inside and across 38 open models. the patterns are weirdly universal: same depth layout, same organization at the same relative depth, even between unrelated families like llama and olmo eliebak.com/viz/jspace-open — https://nit",
+          "link": "https://nitter.net/eliebakouch/status/2076417092039901505#m",
+          "date_utc": "2026-07-12T21:23:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDn1XVWwAA9vuf.jpg",
+            "https://nitter.net/pic/media%2FHMo4V00XMAAyenI.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://eliebak.com/viz/jspace-open-v2",
+              "content": "J-space, open models â v2 article figures llm.txt J-space, open models Anthropic's Verbalizable-Workspace paper showed, on one closed model family, that a model's middle layers carry a dictionary of directions that causally steer its output. It left the natural next questions open: how far forward in time the steering reaches, when the structure forms during training, whether it transfers between models, and how it scales. We measured all four on open models, then two follow-ups the results forced on us. Every number below was re-derived from the committed result files, and every chart is interactive. from Elie: ok so everything except this message is \"vibe coded\". when reading the anthropic paper, i had a few ideas about behaviors of this \"jspace\" i was curious about. i asked fable to b"
+            },
+            {
+              "url": "http://eliebak.com/viz/jspace-open",
+              "content": "J-lens CKA explorer Paper transformer-circuits &#8599; Weights hf/neuronpedia &#8599; J-lens centered kernel alignment 38 open models Workspace geometry, model by model Every cell is the CKA between two layers J-lens token geometries within one model or across two. Probes: 4,096 token strings shared by all 38 tokenizers, each model reading them through its own unembedding. Family and size chips are toggles that combine (several families a size range); checkboxes fine-tune. Family presets Size presets Models all none base only instruct only Layer axis reindexed 0 100% raw layers Order family size size expand zoom CKA 0 1 hover for values Pair summary matched-depth CKA mean CKA along each pair s matched-depth diagonal model diagonal = within-model mean scale 0.2 1.0 hover for pairs Selected "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2076514710296400052#m",
+          "date_utc": "2026-07-13T03:51:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNFDIA5XUAIpP9y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2076472827847332044#m",
+          "date_utc": "2026-07-13T01:04:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEdBiSWUAA83VB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2076468383558652082#m",
+          "date_utc": "2026-07-13T00:46:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEY_FvWQAA5qCd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Heavy Pulp (@heavypulp) The Spices of Arabia Video — https://nitter.net/heavypulp/status/2075370741378273434#m",
+          "link": "https://nitter.net/heavypulp/status/2076468226054033708#m",
+          "date_utc": "2026-07-13T00:46:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEY2BGWkAEWSOH.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2075370595139698688%2Fimg%2FY3bVr0vCRWcwBXyP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2076464956736774439#m",
+          "date_utc": "2026-07-13T00:33:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEV3OLWcAEwoDQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2076464163568693485#m",
+          "date_utc": "2026-07-13T00:30:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEVJNQXgAA7eeW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "so true Andrew Côté (@Andercot) Puthoff del Ray Americana drifting over the radio, transtemporal day pass shore leave for Flux Liner Navy Pilots, Vault Tec pied-a-terre, vacuum tube Bluetooth portable speaker, summertime fling with platinum blonde time-traveling android intelligence asset — https://nitter.net/Andercot/status/2076385495316304105#m",
+          "link": "https://nitter.net/heavypulp/status/2076388638221316508#m",
+          "date_utc": "2026-07-12T19:30:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "hexiang",
+      "org": "Google DeepMind",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "hexiang",
+          "creator": "@hexiang",
+          "text": "🤣 Nikita Bier (@nikitabier) Managing X when we reach AGI and have space datacenters Video — https://nitter.net/nikitabier/status/2076029330405412878#m",
+          "link": "https://nitter.net/hexiang/status/2076361102708109411#m",
+          "date_utc": "2026-07-12T17:40:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2075974717492645888%2Fimg%2Fw7XuNCLRATBaeu4I.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "The most interesting work is either at the lowermost abstraction layer or at the highest abstraction layer. Being in the middle layers is susceptible to identity crisis.",
+          "link": "https://nitter.net/magicsilicon/status/2076362467006124188#m",
+          "date_utc": "2026-07-12T17:46:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨OpenAI confirms they silently nerfed GPT 5.6 Sol “We ran some experiments where reasoning efforts were changed (referred to as juice values under the hood) and have reverted this.” Tibo first denies nerfing and then confirms the nerf happened LOL",
+          "link": "https://nitter.net/ns123abc/status/2076507528842682669#m",
+          "date_utc": "2026-07-13T03:22:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE8l33WMAA3TQv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "be openai release gpt 5.6 sol max thinking budgets, full psycho benchmark results take few days to roll in “best model ever” reviews locked in 4 days later silently nerf it nobody re-tests lol users still paying full price not realizing the model they benchmarked isn’t the model you’re paying for Lmao, it’s over",
+          "link": "https://nitter.net/ns123abc/status/2076498300312703349#m",
+          "date_utc": "2026-07-13T02:45:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNE0MkFWQAAw6tW.jpg",
+            "https://nitter.net/pic/media%2FHNE0Mj_WIAM-jxt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: OpenAI has nerfed GPT 5.6 SoL just 4 days after release It’s over Lentils (@Lentils80) 🚨 GPT-5.6 Sol's juice values (thinking budgets) have been severely degraded compared to release day If Sol now feels faster and more \"efficient\", this is probably why Terra and Luna juice values aren't affected, so their thinking budgets are now higher than Sol's — https://nitter.net/Lentils80/status/2076460021861187754#m",
+          "link": "https://nitter.net/ns123abc/status/2076476427822563786#m",
+          "date_utc": "2026-07-13T01:18:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNEgTqMXIAAD4x8.jpg",
+            "https://nitter.net/pic/media%2FHNEPQUzXQAAN5sX.png",
+            "https://nitter.net/pic/media%2FHNEQBfYWoAA5JDJ.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Opus has fallen Claude (@claudeai) We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19. — https://nitter.net/claudeai/status/2076351399999557669#m",
+          "link": "https://nitter.net/ns123abc/status/2076466327779201326#m",
+          "date_utc": "2026-07-13T00:38:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "grok won't allow competition, sam is getting nuked Big Tech Alert (@BigTechAlert) 🚫 @elonmusk is no longer following @OpenAI — https://nitter.net/BigTechAlert/status/2076408777654370323#m",
+          "link": "https://nitter.net/ns123abc/status/2076411170714538450#m",
+          "date_utc": "2026-07-12T20:59:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNDix7vW4AAehMY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "I spent all night figuring out Apple v. OpenAI lawsuit and the actual story is more serious than what mainstream has figured so far. Full investigative report INCOMING",
+          "link": "https://nitter.net/ns123abc/status/2076404792121835608#m",
+          "date_utc": "2026-07-12T20:34:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
