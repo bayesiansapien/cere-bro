@@ -1,0 +1,1650 @@
+{
+  "date": "2026-07-16",
+  "slot": "morning",
+  "scraped_ist": "2026-07-16 09:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We've reset 5-hour and weekly rate limits for all users.",
+          "link": "https://nitter.net/ClaudeDevs/status/2077603834453770467#m",
+          "date_utc": "2026-07-16T03:58:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Build an artifact once, then it pulls live data via MCP. Artifacts use the viewers’ own MCP connectors, so creators don’t need to re-run sessions to refresh, and viewers can only see the data they have access to.",
+          "link": "https://nitter.net/ClaudeDevs/status/2077489908613361889#m",
+          "date_utc": "2026-07-15T20:26:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not available on publicly-shared artifacts. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2077489907350856038#m",
+          "date_utc": "2026-07-15T20:26:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077489719135571968%2Fimg%2FVFiRIKVaf4mYxZmL.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "What drives a diffusion model's creativity (i.e., its ability to generate novel data rather than memorize)? Today we show this is a mathematical consequence of neural network regularization causing score smoothing and interpolation. Read the blog to learn more: goo.gle/4pkOCPw",
+          "link": "https://nitter.net/GoogleResearch/status/2077505526490103925#m",
+          "date_utc": "2026-07-15T21:28:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://goo.gle/4pkOCPw",
+              "content": "Towards demystifying the creativity of diffusion models Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Shaping the future to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Working families are the ones who pay the price when government gets bigger and common sense gets pushed aside.",
+          "link": "https://nitter.net/HouseGOP/status/2077463165353275799#m",
+          "date_utc": "2026-07-15T18:39:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JasonBud",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "Cursor",
+        "coding agents"
+      ],
+      "tweets": [
+        {
+          "handle": "JasonBud",
+          "creator": "@JasonBud",
+          "text": "We've appreciated your feedback on X. Limits are reset, Grok 4.5 is available in the EU, and Grok Build is now open source. SpaceXAI (@SpaceXAI) We've open-sourced Grok Build and have reset usage limits for all users. Open sourcing Grok Build allows anyone to support making a reliable and robust harness. Check out our code, including the Git repo for the Grok Build CLI. x.ai/open-source Link SpaceXAI — Creators of Grok, the AI Chatbot SpaceXAI builds Grok, an AI chatbot with voice chat, image and video generation, real-time search, and advanced reasoning. Try Grok at grok.com. x.ai — https://n",
+          "link": "https://nitter.net/JasonBud/status/2077496523685056751#m",
+          "date_utc": "2026-07-15T20:52:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077491312652345344%2Fk7AqQ3-V%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/open-source",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "org": "xAI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "💀💀💀 Mike (@cambridgemike) Thanks, fixing — https://nitter.net/cambridgemike/status/2077556158660014091#m",
+          "link": "https://nitter.net/JonasBadalic/status/2077591457222054008#m",
+          "date_utc": "2026-07-16T03:09:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "Reducing spinner fatigue and improving user experience, one loader at a time. Video",
+          "link": "https://nitter.net/JonasBadalic/status/2077464506775560350#m",
+          "date_utc": "2026-07-15T18:45:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077460698473332736%2Fimg%2FiOfSprJ-leCX3zJY.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "A Tesla Cybercab was spotted on the streets of New York City, and it looked like something straight out of a sci-fi movie. But why is someone driving it??? 💀 Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077623008232141129#m",
+          "date_utc": "2026-07-16T05:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077274401490321408%2Fimg%2F_aobIeowaYprvtVq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🇦🇷Friendly advice to Argentina fans currently in England: that jersey is a heat-seeking missile right now. Your team eliminated the Three Lions and then laid out a \"Falklands are Argentine\" banner for good measure. Tuck that jersey away, live to celebrate another day. Video ؘjuandi (@poxelse) un pibe que está en londres después que ganó argentina salió a festejarlo en la calle y los ingleses lo quisieron LINCHAR Video — https://nitter.net/poxelse/status/2077551793760780765#m",
+          "link": "https://nitter.net/MarioNawfal/status/2077621403948327180#m",
+          "date_utc": "2026-07-16T05:08:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077621290593144832%2Fimg%2FRNkYkzFr46ck_SF9.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2077551377593556992%2Fimg%2Flbk3pi9Hs8_GPjPS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇬🇧 Digital cameras have come a long way, but Christopher Nolan still says nothing beats 70mm IMAX film. Why? Because IMAX film captures a massive amount of visual information, which means more detail, more depth, and that bigger-than-life screen experience digital still can’t quite fake. That’s why Nolan shot The Odyssey entirely on IMAX film, making it the first feature film ever shot completely on IMAX cameras. Writer: Monica Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077619940564324657#m",
+          "date_utc": "2026-07-16T05:02:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077490954584645632%2Fimg%2FibnVBH9ybfhPqdfI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇦🇷 The Empire State Building glowing blue and white tonight after the big win of Argentina on semis. NY showing love as the Albiceleste heads to the final against Spain. Beautiful tribute. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077618704687178118#m",
+          "date_utc": "2026-07-16T04:57:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077502620265046016%2Fimg%2FfY7xnVJXBO916e1x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Ben Jordan says Flock cameras are being placed near daycare centers and children’s gymnastics facilities. That’s where this stops feeling like a debate about stolen cars and starts feeling deeply personal. Parents are told these systems exist for safety, but when surveillance quietly spreads into places where children spend their days, people deserve clear answers: Who is being tracked? How long is the data kept? Who can access it? And where does this expansion end? A camera installed “for protection” can become permanent surveillance before the public even realizes the rules have changed. ",
+          "link": "https://nitter.net/MarioNawfal/status/2077618302948397279#m",
+          "date_utc": "2026-07-16T04:56:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077617615887831040%2Fimg%2FbmiAbFGM4_29ycjM.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2077617070808666112%2Fimg%2FOVfsOIUjRTQhLdZs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇧🇷🇺🇸 Lula’s government issued a sharp response to the U.S. imposing 25% tariffs on Brazilian products under Section 301. Brazil calls the move unjustified, highlighting a long term U.S. trade surplus and very low tariffs on American goods entering their market. They say they’ve engaged in good faith talks but will now retaliate through the WTO and their Reciprocity Law while protecting affected sectors. Lula’s team also blames the Bolsonaro family for allegedly helping fuel the U.S. investigation. Trade tensions between the two largest economies in the Americas could ripple through global mark",
+          "link": "https://nitter.net/MarioNawfal/status/2077617975230935537#m",
+          "date_utc": "2026-07-16T04:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUt5eKXgAEVhHl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 License plate readers were the beginning. Tucker argues that surveillance technology is evolving far beyond tracking vehicles, claiming systems like Flock Safety are moving toward identifying faces and capturing audio while cities embrace them as a lower-cost alternative to expanding police forces. His biggest question: What do citizens get in return? If privacy keeps shrinking, the promise is supposed to be greater public safety. But if people don't feel safer, where is the tradeoff leading? The debate has shifted… How much surveillance is a free society willing to normalize? Source: @TCNe",
+          "link": "https://nitter.net/MarioNawfal/status/2077617530504388673#m",
+          "date_utc": "2026-07-16T04:53:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077617070808666112%2Fimg%2FOVfsOIUjRTQhLdZs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇦🇷 The Empire State Building glowing blue and white tonight after the big win of Argentina on semis. NY showing love as the Albiceleste heads to the final against Spain. Beautiful tribute. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077617220004528599#m",
+          "date_utc": "2026-07-16T04:52:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077502620265046016%2Fimg%2FfY7xnVJXBO916e1x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🇦🇷 Bellingham fouled Messi mid-game. Messi's face be like \"Ohh yeah? We'll see.\" The result spoke louder. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077616716713238879#m",
+          "date_utc": "2026-07-16T04:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077519502841991168%2Fimg%2FDAYVQ_T3uSxiVEaU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tucker raises serious concerns about the rapid spread of surveillance cameras like Flock Safety across America. He points out that even a simple drive to the countryside offers no escape from constant monitoring, cameras watching, listening, and analyzing your every move, face, and behavior 24/7. Tucker also says this mirrors Orwell’s 1984, where the state doesn’t need brute force when it can simply watch everyone all the time. That constant surveillance crushes privacy, intimacy, and free thought, turning society into something closer to a “slave state.” A powerful warning on where this pa",
+          "link": "https://nitter.net/MarioNawfal/status/2077615621525696781#m",
+          "date_utc": "2026-07-16T04:45:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077615526931537920%2Fimg%2FG4HVQdkqY1JcvnvH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iran just fired a warning at the one strategy the Gulf was counting on to escape it, and the geography of the strike is the whole message The two UAE shuttle tankers reportedly hit were struck in the southern lanes of the Strait of Hormuz, within Omani territorial waters. These are the exact vessels the Emirates use to move oil around the chokepoint while sailing \"dark\" to avoid detection. That target choice is deliberate.Iran is saying the bypass operation isn't safe either. It reframes pipeline optimism entirely. The Gulf's whole plan, the West-East line, the Fujairah terminals, the new A",
+          "link": "https://nitter.net/MarioNawfal/status/2077615458820223366#m",
+          "date_utc": "2026-07-16T04:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNURC4oW4AAnYoO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 There was a time when pulling over for coffee was part of every road trip. Now people are brewing fresh espresso from the driver's seat of a Tesla. ☕️ A compact machine, one cupholder, a USB-C cable, and a Nespresso pod: that's all it takes. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077615458635661413#m",
+          "date_utc": "2026-07-16T04:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2076955495449903104%2Fimg%2FgvbGzhMCfx_gMhTn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 So apparently, this guy is a member of the military. That's the whole story. Make of it what you will. Writer: Monica Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077615270525620445#m",
+          "date_utc": "2026-07-16T04:44:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077041040452689920%2Fimg%2FC0NnppW_VSuIroow.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 \"There were moments I thought this was the dumbest idea we'd ever attempted.\" That's how former SpaceX CIO Ken Venner describes his first years working on one of Elon's most ambitious internal projects. Years later, after watching the system transform how SpaceX operated, his opinion flipped completely. Sometimes the ideas that sound the craziest at the beginning are the ones that change everything. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077611684949377157#m",
+          "date_utc": "2026-07-16T04:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077453521566466048%2Fimg%2FqgxbQfq_0RfaD48t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 MLB turned the Philadelphia skyline into a giant canvas with an incredible drone show during the 2026 All-Star Game. Hundreds of synchronized drones lit up the night, creating baseball-themed animations, player tributes, and colorful event graphics as fans watched and filmed from across the city. Writer: Monica Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077610560959730020#m",
+          "date_utc": "2026-07-16T04:25:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNR4Q26W8AAET1W.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇨🇳 Education weighs heavier than battlefield outcomes in the U.S. China rivalry. China ranks as America’s most serious long term threat, but the decisive fight may not be fought with missiles or ships. It’s happening inside U.S. universities, media, and the battle for public opinion. Beijing continues to invest heavily in American higher education through research partnerships, scholarships, and academic exchanges. Meanwhile, Chinese universities are training a new generation of leaders who are bilingual, bicultural, and deeply familiar with Western systems, all while staying aligned with Be",
+          "link": "https://nitter.net/MarioNawfal/status/2077609483300229451#m",
+          "date_utc": "2026-07-16T04:21:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUmyFmXoAAwQTt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨Oil rises a fourth straight day, with Goldman now warning Brent could top $110 by fall. -Brent gained 0.4 percent to $85.28, with WTI crossing $80 to $80.02 -The four-day climb tracks the renewed strikes, the blockade, and the strait's disrupted flows -The new forecast is the headline: Goldman Sachs says Brent could exceed $110 in the fourth quarter if Gulf exports stay constrained -The fourth quarter ends days before the midterms, putting the projection's timeline directly on top of the election The Goldman number reframes the entire deadline game. $110 crude in Q4 means gas prices climbing ",
+          "link": "https://nitter.net/MarioNawfal/status/2077607909140144421#m",
+          "date_utc": "2026-07-16T04:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUMYNoXgAAGL0F.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Houston rapper Crystal Jordan, known as Playgirl Judy, was fatally stabbed on the city’s south side. A woman has been charged with manslaughter in her death. Family says the suspect is the sister of Judy’s boyfriend and acted out of jealousy. Judy’s 10 year old daughter and mother were present. The family is demanding justice and planning a balloon release in her honor. Judy was only 20 and starting to make waves in music. Tragic loss for the Houston hip hop scene. Source: FOX 26 Houston / Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077602029803815313#m",
+          "date_utc": "2026-07-16T03:51:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077601854574178304%2Fimg%2FFlAN3VOLTZr3Dx5q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷 Iran confirms strikes hit Semnan airport, deep in the country's north-central interior. -Iran's state broadcaster IRIB reports parts of Semnan airport were targeted in \"enemy air strikes,\" citing the province's crisis headquarters -The spokesperson stressed no residential areas in Semnan's cities or villages were hit -Semnan is a known hub of Iran's missile and space program, home to launch and test infrastructure well beyond the coastal war zone -It fits tonight's inland pattern: air defenses over Tehran, reported blasts near Parchin, and strikes at Khorramabad Source: Al Jazeera / Writer",
+          "link": "https://nitter.net/MarioNawfal/status/2077601311437062562#m",
+          "date_utc": "2026-07-16T03:48:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Caitlin Clark showing clear frustration toward the officials after not getting the call she expected. She limped off toward the locker room briefly but came right back to the bench. Refs still gave her a warning. The Indiana star bringing that fire even when things aren’t going her way. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2077600359132877054#m",
+          "date_utc": "2026-07-16T03:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNT1iy-W4AAAwZI.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "Randy, Alex will be just FINE. 1. 100% LOYALTY to our President. ✅ 2. 100% LOVED by the Barbz. ✅ Let’s wrap this 🆙. Quickly. Blessings. Reese Gorman (@reesejgorman) News: Rep. Randy Fine has told WH officials he will vote against every rule on the floor until Trump fires Alex Bruesewitz, one of his outside advisors. Fine and Bruesewitz, who does not hold an official position in the WH but does have the presidents ear, have been fighting since Bruesewitz’s appearance on Tucker Carlson’s podcast two weeks ago. Fine was the lone Republican who voted against the rule this week, which in part attat",
+          "link": "https://nitter.net/NICKIMINAJ/status/2077551534032708031#m",
+          "date_utc": "2026-07-16T00:30:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077537299227660288%2FT7KAYuQR%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.notus.org/congress/randy-fine-adviser-president-trump-social-media-spat",
+              "content": "Rep. Fine Vows to Vote Against House Rules Over Feud With Trump Adviser - NOTUS — News of the United States Notus Main Navigation Show menu Close menu Log in Newsletters Expand Sign up for free NOTUS Daily Final NOTUS Metro (Coming soon) Campaigns Expand 2026 Election 2028 Election Democrats Money Republicans Congress Expand House Senate Metro Expand Washington Sports National Expand Courts U.S. News Policy Expand Agencies Climate Environment Economy Education Health Science Housing Immigration Technology Trade Tariffs States Expand California Georgia Louisiana Mississippi New York North Carolina Ohio Oklahoma Pennsylvania Texas Utah Vermont Virginia Wisconsin White House Expand Defense Donald Trump Foreign Policy Trump’s White House Perspectives Expand Dana Milbank Matt K. Lewis Features "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "So few people use lists here on X. How do I know? I made the most complete lists of the tech industry. Jonathan is making an app to make building lists easier. If Grok ever hooks up to lists this will cause an explosion in users of lists. It's a super power to have AI hooked up to lists here. Which I also did for the AI community: alignednews.com/ai Link Aligned News — Ultimate AI News Live AI news feed with real-time signal detection across robotics, models, products, business, and more. alignednews.com Jonathan Drake (@JonathanDrake) Get Started with Pro.X.com and your experience here will t",
+          "link": "https://nitter.net/Scobleizer/status/2077567145400254635#m",
+          "date_utc": "2026-07-16T01:33:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": "📡 \"> Aligned News — Ultimate AI News"
+            },
+            {
+              "url": "http://Pro.X.com",
+              "content": "x.com"
+            },
+            {
+              "url": "https://Xpro.howtomovetheneedle.com/",
+              "content": "X Pro Guideposts â Turn your X activity into Pro lists X Pro Guideposts GitHub Open app Start free Free Â· MIT Â· How To Move The Needle Your X activity â private Lists for pro.x.com Connect X, set simple dials, and get starter Lists from bookmarks, likes, follows, replies, and people you DMed (outbound only). You approve before anything is created. Then pin those Lists as columns in Pro. Start with free host pool Open app (host or your X app) Loading free poolâ¦ Prefer to do it yourself? Open pro.x.com â this tool is optional. Not affiliated with X, X Corp, or pro.x.com. Built by @JonathanDrake User flow Four steps Connect Sign in with X for a short session (~60 min). We never post as you. Tokens are wiped after lists are created (or when you disconnect). Dials Choose how much each"
+            },
+            {
+              "url": "https://github.com/drake/X-Pro-Setup",
+              "content": "GitHub - drake/X-Pro-Setup: Optional MIT starter: X signals → private Lists for pro.x.com. Not affiliated with X Corp. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Videos like this remind me how much I suck at video editing. Kimi.ai (@Kimi_Moonshot) Video — https://nitter.net/Kimi_Moonshot/status/2077521842080817296#m",
+          "link": "https://nitter.net/Scobleizer/status/2077540979666755980#m",
+          "date_utc": "2026-07-15T23:49:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077452830621958144%2Fimg%2FdssMlOVtdi3yxH55.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Buying a Tesla is easy Order within 2 mins on our website, then complete the entire process in the Tesla app Katie Miller (@KatieMiller) “My @Tesla buying experience was nothing like anything I’ve ever experienced before. Normally, when you buy a car, you go to a dealership, test drive the vehicle, haggle with the salesperson, and then deal with the finance team—which is usually way worse than the sales staff. I still remember one car I bought years ago that took a full six hours. It was miserable. “This time, I wasn’t even sure I was going to buy a Tesla. I just wanted to test drive one—I’d n",
+          "link": "https://nitter.net/Tesla/status/2077445377628966976#m",
+          "date_utc": "2026-07-15T17:29:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077389611882491907%2Fimg%2FCgCGDs0UmShpTZFe.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "AMD is trying to do some lame corporate review process for the slides of my talk. I hope it gets to happen, attempts at narrative control are so last summer. For what it's worth, I pasted my talk into ChatGPT and it thinks it's good for their brand!",
+          "link": "https://nitter.net/__tinygrad__/status/2077568665961263274#m",
+          "date_utc": "2026-07-16T01:39:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUAZ0vbsAAkh1v.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "On a car or mobile robot, you don't have the money for bandwidth or time for latency to stream your cameras to the cloud. eGPUs are going to be the top choice of smart robots everywhere. Why limit your robot to some tiny chip, stick a 5090 or 9070XT on it with tinygrad! Mike LaBarbera (@ANSR42) NEWS 🧵: @comma_ai ran a livestream through the comma four, with @realGeorgeHotz driving hands free. It was connected to an AMD eGPU running unreleased v0.11.2 on a small master model. A few things I noted from the stream ↓ — https://nitter.net/ANSR42/status/2077459683091292483#m",
+          "link": "https://nitter.net/__tinygrad__/status/2077541629179895869#m",
+          "date_utc": "2026-07-15T23:51:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSekmbbQAA7fcn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Once DDR5 prices come back to earth, some reasonably priced CPU-GPU hybrid machines for GLM 5.2 at 100 tok/s look feasible. What would you be willing to pay for an Opus level model in your living room?",
+          "link": "https://nitter.net/__tinygrad__/status/2077462292934140378#m",
+          "date_utc": "2026-07-15T18:36:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "aksheyd",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "😃 Simon Willison (@simonw) I poked around in the just open sourced Grok Build CLI tool - 844,000 lines of Rust code! - and dug up a few interesting highlights, including a \"self-contained terminal renderer for Mermaid diagrams\" that renders them using Unicode box-art! simonwillison.net/2026/Jul/1… Link xai-org/grok-build, now open source xAI s grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI s Google Cloud buckets. … simonwillison.net — https://nitter.net/simonw/status/2077545830802",
+          "link": "https://nitter.net/aksheyd/status/2077557324517089431#m",
+          "date_utc": "2026-07-16T00:53:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Jul/15/grok-build/",
+              "content": "xai-org/grok-build, now open source Simon Willison’s Weblog Subscribe Sponsored by: Teleport How do you ensure that AI agents act within your intended boundaries? Teleport’s “From Zero Trust to Agent Trust” white paper details what needs to be in place to realize the promise of agentic designs. 15th July 2026 - Link Blog xai-org/grok-build, now open source ( via ) xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen an official explanation for why it was doing this, but xAI did res"
+            }
+          ]
+        },
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "shoutout grokkybara fr",
+          "link": "https://nitter.net/aksheyd/status/2077498711090061570#m",
+          "date_utc": "2026-07-15T21:01:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "We heard your feedback loud and clear. The Grok Build team sprinted tirelessly to make open-sourcing our harness and TUI a reality while continuing to keep privacy a first-class concern of our users. Hope you build something cool, and if you see any refactor opportunities, send me a plan.md :) SpaceXAI (@SpaceXAI) We've open-sourced Grok Build and have reset usage limits for all users. Open sourcing Grok Build allows anyone to support making a reliable and robust harness. Check out our code, including the Git repo for the Grok Build CLI. x.ai/open-source Link SpaceXAI — Creators of Grok, the A",
+          "link": "https://nitter.net/aksheyd/status/2077498709513015349#m",
+          "date_utc": "2026-07-15T21:01:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077491312652345344%2Fk7AqQ3-V%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/open-source",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pleure pas, frère. Elon donne juste son avis et respecte la loi. Si tu es contre la loi, milite pour changer la loi, en attendant retourne écouter France Inter et les soldats de la destruction de la France. Bonne journée. ElPolakos🇫🇷 (@David__5120) C'est ce qu'on appelle une ingérence extérieure. Rappelons que le type possède l'un plus grand réseau social au monde, mais tout va bien... C'est la gauche qui contrôle les médias... — https://nitter.net/David__5120/status/2077393374454206786#m",
+          "link": "https://nitter.net/brivael/status/2077611375082250387#m",
+          "date_utc": "2026-07-16T04:28:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Argil will provide the major part of the AI movie in the future. Polymarket (@Polymarket) JUST IN: George Lucas declares AI is “the future” of filmmaking, urging Hollywood to embrace the technology. — https://nitter.net/Polymarket/status/2077572641611763869#m",
+          "link": "https://nitter.net/brivael/status/2077610580307816814#m",
+          "date_utc": "2026-07-16T04:25:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Go woke. Go broke. Le Parisien (@le_Parisien) Pourquoi il ne faut pas manquer «L’Odyssée», le nouveau chef-d’œuvre de Christopher Nolan Respectant l’esprit et le déroulé du récit d’Homère, aussi bien filmé qu'interprété, le nouveau film du cinéaste britannique en salles ce mercredi va faire date C'est 5/5 ➡️ l.leparisien.fr/sTIm — https://nitter.net/le_Parisien/status/2077427872570945554#m",
+          "link": "https://nitter.net/brivael/status/2077608289160864175#m",
+          "date_utc": "2026-07-16T04:16:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSBoh4X0AAUymK.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://l.leparisien.fr/sTIm",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mdr les commentaires en dessous du post de @ThaisEscufon On dirait des fourmis qui s’agitent après que le morceau de sucre posé sur le bitume chaud a été enlevé 😂 Les gauchistes sont des fragiles. Thaïs d’Escufon (@ThaisEscufon) Bravo l’Argentine 🇦🇷🇦🇷🇦🇷 ! — https://nitter.net/ThaisEscufon/status/2077512964517621774#m",
+          "link": "https://nitter.net/brivael/status/2077608133380186524#m",
+          "date_utc": "2026-07-16T04:15:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUllh2XwAAefu4.jpg",
+            "https://nitter.net/pic/media%2FHNTPB0TWsAAiq4R.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Thierry Breton, c’est l’anti-Elon Musk. Ils se sont déjà rencontrés. Heureusement qu’ils ne se sont pas trop approchés. Matière et antimatière, ça s’annihile en énergie pure. Après, ça aurait pu faire un bon pilote pour les prochains moteurs de fusée 😂 Brivael Le Pogam (@brivael) Thierry Breton qui traite Elon Musk de « chat noir »… Le mec a TOUT gagné depuis 30 ans. Tesla, SpaceX, Starlink, Neuralink, xAI, X… malgré tous les « ça va faire faillite ». Never bet against Elon Musk. Thierry, c’est TOI le chat noir. Tout ce que tu as touché depuis 30 ans s’est transformé en merde : • France Téléco",
+          "link": "https://nitter.net/brivael/status/2077526919734493470#m",
+          "date_utc": "2026-07-15T22:53:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTbuSEWAAE4dy4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "“The C resents the D. The D condescends to the C. The conflict is fierce, personal, and endless. This is your culture war. This is every media cycle.” European technocrats that want to control C 😅 Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) Not all minds operate in the same world. The differences between people are not just quantitative – they are qualitative. And understanding how cognitive levels distribute across society explains almost everything happening in politics and culture today. A new alliance between the exceptional and the large masses clustered around the average is forming befor",
+          "link": "https://nitter.net/brivael/status/2077526048757957080#m",
+          "date_utc": "2026-07-15T22:49:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Thierry Breton (@ThierryBreton) La saison des ingérences commence. Elon Musk soutient donc Marine Le Pen. C’est son droit. Charge aux autorités de veiller à ce que l’algorithme de X ne favorise aucun candidat. L’État de droit s’applique à toutes et à tous. Sans exception. — https://nitter.net/ThierryBreton/status/2077421934132806087#m",
+          "link": "https://nitter.net/brivael/status/2077520041336099196#m",
+          "date_utc": "2026-07-15T22:25:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTVdxxXIAAN-z0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Amélie Ismaïli (@ame_ism) Bonjour @YaelBRAUNPIVET , où peut-on consulter vos notes de frais sur ces prestations de photographie, puisque vous nous avez assuré que « tout était transparent » ? — https://nitter.net/ame_ism/status/2077378252130132199#m",
+          "link": "https://nitter.net/brivael/status/2077517597776486551#m",
+          "date_utc": "2026-07-15T22:16:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "lol AlertesInfos (@AlertesInfos) 🇫🇷 FLASH | François Hollande prépare sa candidature à l’élection présidentielle de 2027. (Le Figaro) — https://nitter.net/AlertesInfos/status/2077430689872404687#m",
+          "link": "https://nitter.net/brivael/status/2077514799441752288#m",
+          "date_utc": "2026-07-15T22:05:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSEMgUXIAAhuI3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯 Bleu Blanc Rouge ! 🇫🇷 (@LBleuBlancRouge) Tous les petits centristes et le petit système macroniste qui, depuis quelques heures, jouent les vierges effarouchées et crient à l’ingérence depuis qu’Elon Musk a apporté son soutien à Marine Le Pen, trouvaient pourtant cela plutôt génial quand Barack Obama apportait son soutien à Emmanuel Macron en pleine campagne présidentielle. Bande d’hypocrites que vous êtes. Votre mascarade ne passe plus avec nous. Video — https://nitter.net/LBleuBlancRouge/status/2077467957840523618#m",
+          "link": "https://nitter.net/brivael/status/2077514752717172967#m",
+          "date_utc": "2026-07-15T22:04:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077467925737287680%2Fimg%2FLt9q9-B9g-L3GrX6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elle est complètement siphonnée du bulbe. French Carcan (@FrenchCarcan) 🔴 Selon Elsa Marcel, incarcérer les violeurs et les p*dophiles serait \"raciste et patriarcal\" , elle prône \"des procès sans peines\" ✅ @Elsa_Marcel et Eugénie Mérieau fondent leur jérémiades sociologiques sur les actions des \"féministes radicales\" américaines de la fin des années 1960, dans le sillage du mouvement des droits civiques et de la Nouvelle Gauche. Affirmant que le patriarcat est le système d’oppression structurant le capitalisme et le racisme. Le viol n’est plus vu comme un crime individuel mais comme un acte po",
+          "link": "https://nitter.net/brivael/status/2077514345806733356#m",
+          "date_utc": "2026-07-15T22:03:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077390707292073984%2Fimg%2Fvpv-dBlbIcZpxrrG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Nice move. unusual_whales (@unusual_whales) BREAKING: Warren Buffett has ended donations to the Gates Foundation following new revelations about Bill Gates' ties to Jeffrey Epstein — https://nitter.net/unusual_whales/status/2077105095603519625#m",
+          "link": "https://nitter.net/brivael/status/2077513560096145506#m",
+          "date_utc": "2026-07-15T22:00:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "GRM (@grm_off) on en est encore là 🤦‍♂️ — https://nitter.net/grm_off/status/2077475343850422442#m",
+          "link": "https://nitter.net/brivael/status/2077510527140475179#m",
+          "date_utc": "2026-07-15T21:48:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je propose qu’on annule les deux mandats de Macron pour ingérence étrangère. On efface toutes ses conneries et toute la dette qu’il a créée. Ses deux élections n’étaient pas valides. 🤣 BASILEÚS🧊 (@BasileSt_Gil) Video — https://nitter.net/BasileSt_Gil/status/2077435162363674860#m",
+          "link": "https://nitter.net/brivael/status/2077509572365852936#m",
+          "date_utc": "2026-07-15T21:44:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F855492921159798785%2Fimg%2FMoto0CDKSN7y3H9C.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "That's so awesome! SpaceXAI (@SpaceXAI) We've open-sourced Grok Build and have reset usage limits for all users. Open sourcing Grok Build allows anyone to support making a reliable and robust harness. Check out our code, including the Git repo for the Grok Build CLI. x.ai/open-source Link SpaceXAI — Creators of Grok, the AI Chatbot SpaceXAI builds Grok, an AI chatbot with voice chat, image and video generation, real-time search, and advanced reasoning. Try Grok at grok.com. x.ai — https://nitter.net/SpaceXAI/status/2077494535387828644#m",
+          "link": "https://nitter.net/brivael/status/2077507257718190127#m",
+          "date_utc": "2026-07-15T21:35:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077491312652345344%2Fk7AqQ3-V%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/open-source",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’IA accélère tout. Elle ne va pas seulement « remplacer des jobs ». Elle fait deux choses infiniment plus radicales. Elle démultiplie. Ce qui exigeait une équipe hier peut être fait par une personne aujourd’hui. La capacité de créer de la valeur, historiquement rare, devient abondante. Chaque individu déterminé devient une puissance. Elle révèle. La corruption, le gaspillage, les allocations absurdes, les rentes protégées par l’opacité — tout devient visible. On ne pourra plus longtemps prétendre qu’un programme « protège » quand la donnée montre qu’il détruit. L’IA est un révélateur impitoya",
+          "link": "https://nitter.net/brivael/status/2077504005316448315#m",
+          "date_utc": "2026-07-15T21:22:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "lot of people (including anthropic employee) are following him",
+          "link": "https://nitter.net/eliebakouch/status/2077550151409754269#m",
+          "date_utc": "2026-07-16T00:25:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "account looks very real if you don't scroll enough",
+          "link": "https://nitter.net/eliebakouch/status/2077545826558116117#m",
+          "date_utc": "2026-07-16T00:08:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTszX5WsAAjlT7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "even better scam now, i feel that this one is going to get a lot of people by looking at who follows this guy.. they take real anthropic employee names for the fake accounts (the is from a prev scam name, same account) @nikitabier pls do smth before everyone gets scammed again elie (@eliebakouch) be careful the journalist scam on X just got a big upgrade with more coherent text, real journalist names + verified accounts — https://nitter.net/eliebakouch/status/2062686469026709699#m",
+          "link": "https://nitter.net/eliebakouch/status/2077544945276113255#m",
+          "date_utc": "2026-07-16T00:04:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTqbqtWMAACHTg.jpg",
+            "https://nitter.net/pic/media%2FHNTqcBdXcAAoqAj.jpg",
+            "https://nitter.net/pic/media%2FHNTq0zDXcAAo8Ud.jpg",
+            "https://nitter.net/pic/media%2FHKAhaGJXoAAKRKu.jpg",
+            "https://nitter.net/pic/media%2FHKAhyrnW8AAt8lf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "going to bed, see you in a few hours to witness a new deepseek R1 moment maybe Kimi.ai (@Kimi_Moonshot) Video — https://nitter.net/Kimi_Moonshot/status/2077521842080817296#m",
+          "link": "https://nitter.net/eliebakouch/status/2077538956254630113#m",
+          "date_utc": "2026-07-15T23:41:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTmgKlWIAAPZHV.png",
+            "https://nitter.net/pic/amplify_video_thumb%2F2077452830621958144%2Fimg%2FdssMlOVtdi3yxH55.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "there is actually a lot of great details, /goal implementation is really interesting, all the prompts for compaction, orchestrator, subagents etc.. are open source, very cool github.com/xai-org/grok-buil… Elon Musk (@elonmusk) Grok Build is now open source — https://nitter.net/elonmusk/status/2077495635687723408#m",
+          "link": "https://nitter.net/eliebakouch/status/2077510342280667445#m",
+          "date_utc": "2026-07-15T21:47:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTMINqXsAAXfJT.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/xai-org/grok-build",
+              "content": "GitHub - xai-org/grok-build: SpaceXAI&#39;s coding agent harness and TUI. Fullscreen, mouse interactive, extensible. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small a"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "fun fact, literally all the open models from western \"big labs\" (with a lot of ex close lab people), so thinking machine, microsoft MAI, gemma, gpt-oss have one thing in common: they ALL use sliding window attention 🙂 Thinking Machines (@thinkymachines) Today, we are introducing Inkling. Inkling reasons efficiently across text, image, and audio modalities. We are making the full weights available. thinkingmachines.ai/news/int… Available today for fine-tuning on Tinker. Play with it in the Inkling Playground. 🧵 Link Inkling: Our open-weights model Our first open-weights model: multimodal, Mixtu",
+          "link": "https://nitter.net/eliebakouch/status/2077489988661395651#m",
+          "date_utc": "2026-07-15T20:26:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNS6D-MWgAENIG_.jpg",
+            "https://nitter.net/pic/card_img%2F2077453836785246208%2F_3gJygpQ%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+              "content": "Inkling: Our open-weights model - Thinking Machines Lab THINKING MACHINES Inkling Tinker Connectionism News Join us Home Inkling Tinker Connectionism News Join us Inkling: Our open-weights model Jul 15, 2026 Capabilities Generalist model Agentic coding and tool use One-shot web app with embedded browser use Design Arena Cohesively styled artifacts Multiplayer game created through long refinement loop Controllable thinking effort Multimodality Epistemics Safety Benchmarking Inkling The making of Inkling Architecture Training RL at scale Inkling-Small Customizing Inkling Inkling availability Try on Tinker Model card Hugging Face Our mission is to build AI that extends human will and judgment. We have developed a platform that lets anyone customize models, previewed an AI system built for int"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "forgot this as well!! We find that encoding position with a relative positional embeddingA learned, input-dependent bias added to the attention scores, following Shaw et al., 2018 and Huang et al., 2018.performs better and extrapolates better to longer sequences than the more widely adopted Rotary Positional Embedding (RoPE)",
+          "link": "https://nitter.net/eliebakouch/status/2077473407550001461#m",
+          "date_utc": "2026-07-15T19:20:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "sparsity plot model: huggingface.co/thinkingmachi… blog: thinkingmachines.ai/news/int…",
+          "link": "https://nitter.net/eliebakouch/status/2077464257650631005#m",
+          "date_utc": "2026-07-15T18:44:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSiobGXQAESORa.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "content": "thinkingmachines/Inkling · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up \\ , \\ assistant\\ : \\ |message_model|>\\ , \\ system\\ : \\ |message_system|>\\ , \\ tool\\ : \\ |message_tool|>\\ } -%}\\n\\n{%- macro emit_thinking_effort() -%}\\n {%- set eff = reasoning_effort if reasoning_effort is defined and reasoning_effort is not none else 0.9 -%}\\n {%- if eff is string -%}\\n {%- set key = eff | trim -%}\\n {%- if key not in effort_map -%}\\n {{- raise_exception(\\ Unknown reasoning_effort: \\ ~ eff) -}}\\n {%- "
+            },
+            {
+              "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+              "content": "Inkling: Our open-weights model - Thinking Machines Lab THINKING MACHINES Inkling Tinker Connectionism News Join us Home Inkling Tinker Connectionism News Join us Inkling: Our open-weights model Jul 15, 2026 Capabilities Generalist model Agentic coding and tool use One-shot web app with embedded browser use Design Arena Cohesively styled artifacts Multiplayer game created through long refinement loop Controllable thinking effort Multimodality Epistemics Safety Benchmarking Inkling The making of Inkling Architecture Training RL at scale Inkling-Small Customizing Inkling Inkling availability Try on Tinker Model card Hugging Face Our mission is to build AI that extends human will and judgment. We have developed a platform that lets anyone customize models, previewed an AI system built for int"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "first open weight thinking machine model!! 975B total, 41B active trained on 45T tokens, 1M context, multimodal in sliding window with a 5:1 ratio and 512 size, deepseek aux-free load balancing and 2 shared experts (usually people only use 1), actually curious why the model is less sparse than kimi (~4.2% vs 3.2%). they use a short convolution after k and v, output and ffn (see plot), muon (they cite manifold muon but mention weight decay so not sure), muP, and have a very nice RL scaling curve and chain of thought! one very cool part of the release imo is how well their small variant (276B to",
+          "link": "https://nitter.net/eliebakouch/status/2077463243463721085#m",
+          "date_utc": "2026-07-15T18:40:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNShuQKW0AAdxY7.jpg",
+            "https://nitter.net/pic/card_img%2F2077453836785246208%2F_3gJygpQ%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+              "content": "Inkling: Our open-weights model - Thinking Machines Lab THINKING MACHINES Inkling Tinker Connectionism News Join us Home Inkling Tinker Connectionism News Join us Inkling: Our open-weights model Jul 15, 2026 Capabilities Generalist model Agentic coding and tool use One-shot web app with embedded browser use Design Arena Cohesively styled artifacts Multiplayer game created through long refinement loop Controllable thinking effort Multimodality Epistemics Safety Benchmarking Inkling The making of Inkling Architecture Training RL at scale Inkling-Small Customizing Inkling Inkling availability Try on Tinker Model card Hugging Face Our mission is to build AI that extends human will and judgment. We have developed a platform that lets anyone customize models, previewed an AI system built for int"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "hexiang",
+      "org": "Google DeepMind",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "hexiang",
+          "creator": "@hexiang",
+          "text": "🏆🏆 FOX Sports (@FOXSports) MESSI AND ARGENTINA DO IT AGAIN!!! Video — https://nitter.net/FOXSports/status/2077499765257019745#m",
+          "link": "https://nitter.net/hexiang/status/2077515987847622894#m",
+          "date_utc": "2026-07-15T22:09:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077499571849281536%2Fimg%2F1ni8OMVlYLgRy4_P.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Just reset usage limits. Time to get creative.",
+          "link": "https://nitter.net/imagine/status/2077528971932303441#m",
+          "date_utc": "2026-07-15T23:01:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTdiR9asAAVWqK.jpg",
+            "https://nitter.net/pic/media%2FHNTdi85a4AAjdDb.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Messi is going to the World Cup final!!!!! Great game, heartbreaking for England. Two legendary teams. What an amazing world cup🤯 LFG!",
+          "link": "https://nitter.net/lexfridman/status/2077499349794263457#m",
+          "date_utc": "2026-07-15T21:03:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "Render mermaid charts in your CLI Simon Willison (@simonw) I poked around in the just open sourced Grok Build CLI tool - 844,000 lines of Rust code! - and dug up a few interesting highlights, including a \"self-contained terminal renderer for Mermaid diagrams\" that renders them using Unicode box-art! simonwillison.net/2026/Jul/1… Link xai-org/grok-build, now open source xAI s grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI s Google Cloud buckets. … simonwillison.net — https://nitter",
+          "link": "https://nitter.net/milichab/status/2077556147595419927#m",
+          "date_utc": "2026-07-16T00:49:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://simonwillison.net/2026/Jul/15/grok-build/",
+              "content": "xai-org/grok-build, now open source Simon Willison’s Weblog Subscribe Sponsored by: Teleport How do you ensure that AI agents act within your intended boundaries? Teleport’s “From Zero Trust to Agent Trust” white paper details what needs to be in place to realize the promise of agentic designs. 15th July 2026 - Link Blog xai-org/grok-build, now open source ( via ) xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\". I've not seen an official explanation for why it was doing this, but xAI did res"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨Elon Musk pledges to open-source the ENTIRE X codebase every single line “No exceptions” with runtime verification “Trust through total transparency is the only thing that should be believed.”",
+          "link": "https://nitter.net/ns123abc/status/2077534487244681678#m",
+          "date_utc": "2026-07-15T23:23:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTimy3WoAAs8iU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok Build has the best TUI, really nice Mad respect to SpaceXAI team for open sourcing it skcd (@skcd42) we open-sourced the full Grok Build app for anyone to take a look at the code :) you can see all parts of how the agent loop runs, how the terminal rendering works, compaction, goals, subagents and more — https://nitter.net/skcd42/status/2077495875157565841#m",
+          "link": "https://nitter.net/ns123abc/status/2077514303595245716#m",
+          "date_utc": "2026-07-15T22:03:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: SpaceXAI just open-sourced Grok Build SpaceXAI’s coding agent, CLI and harness now fully open source on GitHub Apache 2.0 — run any model BASED",
+          "link": "https://nitter.net/ns123abc/status/2077506679579537867#m",
+          "date_utc": "2026-07-15T21:32:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTJULLXgAApmqr.jpg",
+            "https://nitter.net/pic/media%2FHNTJULJXEAAGfpv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "You can just do things and not get ripped off Benjamin De Kraker (@BenjaminDEKR) You could spend $235 for the OpenAI programmable keyboard (with knob), or you could spend $18 on Amazon for this programmable keyboard (with knob) — https://nitter.net/BenjaminDEKR/status/2077452055321477345#m",
+          "link": "https://nitter.net/ns123abc/status/2077489777587233216#m",
+          "date_utc": "2026-07-15T20:25:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSXayeXEAAenMN.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "This is what permanent virginity looks like swedishasian67 (@michellezfr) Wearing noice cancelling masks to talk to Claude is crazy — https://nitter.net/michellezfr/status/2076666117527912475#m",
+          "link": "https://nitter.net/ns123abc/status/2077480114653200642#m",
+          "date_utc": "2026-07-15T19:47:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNHM05GWkAA-P3m.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Blog post: thinkingmachines.ai/news/int… Link Inkling: Our open-weights model Our first open-weights model: multimodal, Mixture-of-Experts, with controllable reasoning effort. Available to fine-tune on Tinker. thinkingmachines.ai",
+          "link": "https://nitter.net/ns123abc/status/2077472881907269715#m",
+          "date_utc": "2026-07-15T19:18:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077453836785246208%2F_3gJygpQ%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+              "content": "Inkling: Our open-weights model - Thinking Machines Lab THINKING MACHINES Inkling Tinker Connectionism News Join us Home Inkling Tinker Connectionism News Join us Inkling: Our open-weights model Jul 15, 2026 Capabilities Generalist model Agentic coding and tool use One-shot web app with embedded browser use Design Arena Cohesively styled artifacts Multiplayer game created through long refinement loop Controllable thinking effort Multimodality Epistemics Safety Benchmarking Inkling The making of Inkling Architecture Training RL at scale Inkling-Small Customizing Inkling Inkling availability Try on Tinker Model card Hugging Face Our mission is to build AI that extends human will and judgment. We have developed a platform that lets anyone customize models, previewed an AI system built for int"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨THINKING MACHINES DROPS INKLING Mira Murati’s first open-weights model trained from scratch entirely on GB300s: 975B params, 41B active 1M context multimodal (text, images, audio) controllable reasoning effort open weights it's thinking time",
+          "link": "https://nitter.net/ns123abc/status/2077472600196788351#m",
+          "date_utc": "2026-07-15T19:17:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSqUgCW8AAlyaR.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Jensen. @SEGA . Akihabara. 🎮 Some collabs are just meant to be. We stepped into the heart of Tokyo's most legendary gaming district to celebrate decades of shared history, and the next era with @NVIDIARTXSpark . Video",
+          "link": "https://nitter.net/nvidia/status/2077545044752429330#m",
+          "date_utc": "2026-07-16T00:05:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077545000330522624%2Fimg%2F_aD0oibLWFn-WeVp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read the blog: nvda.ws/4hgaxW1 Link NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry NVIDIA and its partners in Japan are this week showcasing the AI ecosystem s latest advancements. Check back here for updates. blogs.nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2077540977720397883#m",
+          "date_utc": "2026-07-15T23:49:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077347302742614016%2F1IHRzi38%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4hgaxW1",
+              "content": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry | NVIDIA Blog Skip to content NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry July 15, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ecosystem’s latest advancements. Check back here for updates. Wednesday, July 15, 4 p.m. PT 🔗 Japan’s Leaders Advance Healthcare and Life Sciences With NVIDIA Agentic and Physical AI Japan built the world’s most trusted names in medical techno"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Japan's biggest banks spent the last few years evaluating AI. Now they're building the infrastructure for it. 🏭 We're working with Mizuho, SMFG, Rakuten Bank, and MUFG NICOS to build the AI factories making that possible — using NVIDIA Nemotron open models and Agent Toolkit to turn regulated financial data into intelligence.",
+          "link": "https://nitter.net/nvidia/status/2077540972422946823#m",
+          "date_utc": "2026-07-15T23:49:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTogRaXcAAEKRA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Building a production-ready vision AI agent no longer takes thousands of developer hours. NVIDIA Metropolis offers 80+ open agent skills for generating synthetic data, fine-tuning models, deploying applications and unlocking real-time insights, all through natural-language prompts. Leading companies like @FujitsuOfficial , @Hitachi , @OMRON_Official , @YazakiNA , and Shimizu Corporation are using Metropolis to bring agentic vision AI into manufacturing and critical infrastructure. nvda.ws/4poKGNM",
+          "link": "https://nitter.net/nvidia/status/2077540620394958889#m",
+          "date_utc": "2026-07-15T23:47:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNToLxoXIAAktux.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4poKGNM",
+              "content": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry | NVIDIA Blog Skip to content NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry July 15, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ecosystem’s latest advancements. Check back here for updates. Wednesday, July 15, 4 p.m. PT 🔗 Japan’s Leaders Advance Healthcare and Life Sciences With NVIDIA Agentic and Physical AI Japan built the world’s most trusted names in medical techno"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn more: nvda.ws/4gEPj3V Link Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models NVIDIA today announced that leading Japanese enterprises, startups and research institutions are building industry-specialized AI models and applications with NVIDIA Nemotron™ open models, data and... nvidianews.nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2077528642318479584#m",
+          "date_utc": "2026-07-15T23:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077534791272980480%2FYGwPw5Uu%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4gEPj3V",
+              "content": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models | NVIDIA Newsroom Artificial Intelligence Computing Leadership from NVIDIA --> PLATFORMS Autonomous Machines Cloud & Data Center Deep Learning & Ai Design & Pro Visualization Healthcare High Performance Computing Self-Driving Cars Gaming & Entertainment other links Developers Industries Shop Drivers Support About NVIDIA View All Products GPU TECHNOLOGY CONFERENCE NVIDIA Blog Community Careers TECHNOLOGIES Newsroom NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits NVIDIA in Brief Exec Bios NVIDIA Blog Podcast Media Assets In the News Press Contacts Online Press Kits Press Release Share Tweet Twitter Share LinkedIn Share Facebook Email ic_arrow"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Japan’s enterprises, startups and research institutions are building industry-specialized AI with NVIDIA Nemotron open models, data and libraries, helping advance AI tailored to the country’s language, industries and workforce.",
+          "link": "https://nitter.net/nvidia/status/2077528638505861566#m",
+          "date_utc": "2026-07-15T23:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTCEdRW4AAMuPI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read the blog → nvda.ws/37aKhZ1",
+          "link": "https://nitter.net/nvidia/status/2077460260843844009#m",
+          "date_utc": "2026-07-15T18:28:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSfGFTXgAA0DpA.png"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/37aKhZ1",
+              "content": "Plataforma de Rede BlueField | NVIDIA NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) Canada Česká Republika (Cz"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Above, NVIDIA GB300 NVL72 systems deliver up to 25x performance per watt over Hopper.",
+          "link": "https://nitter.net/nvidia/status/2077460249221447764#m",
+          "date_utc": "2026-07-15T18:28:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSfFmGWQAE7m0v.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "A full Pareto allows you to see exactly where your workload sits and how to optimize for it.",
+          "link": "https://nitter.net/nvidia/status/2077460244150513942#m",
+          "date_utc": "2026-07-15T18:28:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSfFThWkAARfuq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Throughput or interactivity? It isn't one or the other — it depends on the workload.",
+          "link": "https://nitter.net/nvidia/status/2077460239117394212#m",
+          "date_utc": "2026-07-15T18:28:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSfE_kWYAAf4-M.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Optimize for one, and you move away from the other.",
+          "link": "https://nitter.net/nvidia/status/2077460233841004771#m",
+          "date_utc": "2026-07-15T18:28:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSfEsRWAAA2-zY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Any single performance number only tells part of the story. AI Infrastructure performance is a Pareto Curve 🧵",
+          "link": "https://nitter.net/nvidia/status/2077460228350546173#m",
+          "date_utc": "2026-07-15T18:28:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNSfEMPWwAAKlAQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Homelessness doesn’t cause drug addiction. Drug addiction causes homelessness. 3 year olds understand this. Why doesn’t Karen Bass? Louis Montoya (@montoyalouis1) 😂 Karen Bass on LA homelessness: “Sleep out on the street a couple weeks and tell me you’re not using something to stay sane… or use meth so you don’t go to sleep to protect yourself!” Meth for clear-headed night watch duty? Brilliant leadership. Next she’ll prescribe energy drinks and conspiracy podcasts for “mental clarity.” We pay taxes for this genius? Fix the streets, not normalize the nightmare. #BassLogic #SanityInLA #Homeless",
+          "link": "https://nitter.net/spencerpratt/status/2077608238866891169#m",
+          "date_utc": "2026-07-16T04:16:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077521155938762753%2Fimg%2F6UZVk09RM4Zs-zrr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya Raman is a scammer. California Post (@californiapost) The cover: Nithya Raman’s boondoggle: $60M for just three homeless apartments! trib.al/JXWajY8 Subscribe for home delivery: trib.al/J7N61jm — https://nitter.net/californiapost/status/2077402047356232085#m",
+          "link": "https://nitter.net/spencerpratt/status/2077607776054923362#m",
+          "date_utc": "2026-07-16T04:14:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNRqJDiX0AAJvN0.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/JXWajY8",
+              "content": "Exclusive | LA failed homeless program cost $60M and only housed three people Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters "
+            },
+            {
+              "url": "https://trib.al/J7N61jm",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "San Pedro refused to let Nithya Raman drop a coiler in the middle of their town, and they won. Be like San Pedro. Cultural power is political power. Spencer Pratt (@spencerpratt) UPDATE: VICTORY for San Pedro families! Remember when we went to Pedro to support this rally to block the planned addict center in the middle of town? Well, the project just got nuked. Even out of office, we are winning the war for LA. Cultural power is political power. — https://nitter.net/spencerpratt/status/2077578908191392040#m",
+          "link": "https://nitter.net/spencerpratt/status/2077603858625302838#m",
+          "date_utc": "2026-07-16T03:58:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUhswKWkAEGsAv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Just let all the illegal street food vendors have it! They don’t have to observe any health regs, anyway. Matt Hamilton (@_hamilton_matt) How will LA get rid of 85 million pounds of rotten food? @sherlyholmes + @tomoki_chien delved into it: lamaterial.com/p/lineage-fir… Link How to Get Rid of 85 Million Pounds of Rotting Food Our quest to figure out where the food waste from the Lineage warehouse disaster is going. lamaterial.com — https://nitter.net/_hamilton_matt/status/2077572716782326067#m",
+          "link": "https://nitter.net/spencerpratt/status/2077602398139199793#m",
+          "date_utc": "2026-07-16T03:53:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077565628169474048%2FbCnMDaY2%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://lamaterial.com/p/lineage-fire-boyle-heights-trash",
+              "content": "Where Waste From the Boyle Heights Lineage Fire Is Going Home Newsletter Stories Podcast About About About Us Team Jobs Subscribe Sign In Search Subscribe Exclusive How to Get Rid of 85 Million Pounds of Rotting Food Our quest to figure out where the food waste from the Lineage warehouse disaster is going. Julia Wick Tomo Chien Jul 16, 2026 The Lineage cold storage facility in Boyle Heights. (Julia Wick/L.A. Material) ONCE THE FIRE WAS OUT AT THE LINEAGE WAREHOUSE in Boyle Heights and the noxious smoke stopped blanketing the surrounding neighborhoods , the scope of the next environmental disaster became clear. There were still 85 million pounds of rotting food left at the site — some of it mixed into a slurry of flame retardant, burned insulation and sooty firehose runoff — baking in the h"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "SP❤️SP",
+          "link": "https://nitter.net/spencerpratt/status/2077578909822963855#m",
+          "date_utc": "2026-07-16T02:19:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNUK89kXkAAMyrb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "UPDATE: VICTORY for San Pedro families! Remember when we went to Pedro to support this rally to block the planned addict center in the middle of town? Well, the project just got nuked. Even out of office, we are winning the war for LA. Cultural power is political power. Spencer Pratt (@spencerpratt) Video — https://nitter.net/spencerpratt/status/2051999045032317251#m",
+          "link": "https://nitter.net/spencerpratt/status/2077578908191392040#m",
+          "date_utc": "2026-07-16T02:19:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2051993390569472000%2Fimg%2FQb0VExSL-wxXtroJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Now we have two morons fighting over who's the bigger moron. Notice how every time I call them out for colluding in a fake race, suddenly they pretend to spar? We call that a clue. Karen Bass (@KarenBassLA) Check your facts, I opposed this merger in May — any deal that cuts industry jobs is off the table, period. Here’s a reminder of my record: - Created CA’s film & TV tax credit and expanded it - Appointed a film liaison - Cut fees and red tape - Opened iconic LA sites like Central Library All to to bring filming back to LA. That’s why productions like Baywatch are filming here. — https://nit",
+          "link": "https://nitter.net/spencerpratt/status/2077571670475206795#m",
+          "date_utc": "2026-07-16T01:51:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTyPFbacAAgCLQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This scammer is the reason LA is dying. She unleashed tens of thousands of drug zombies to terrorize and ruin our city. Even the rich Hollywood celebs who can afford walled-off mansions have left LA, thanks to her. Now she's hellbent on finishing off Hollywood forever. Nithya Raman (@nithyavraman) Los Angeles is the global capital of filmmaking. Its mayor should be leading the fight against a merger that could devastate our city’s signature industry. Karen Bass still has not opposed it. LA deserves leadership that will fight for the people who make this industry possible. — https://nitter.net/",
+          "link": "https://nitter.net/spencerpratt/status/2077537612424769827#m",
+          "date_utc": "2026-07-15T23:35:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Warner Bros is going under. That's why they're selling. Low IQ communists know NOTHING about economics, so they lie that a Paramount acquisition will shed jobs. WB is already slashing jobs! If they don't sell, ALL the jobs go away. My goodness this scammer is so dumb. Nithya Raman (@nithyavraman) This merger hurts Angelenos. It would concentrate enormous power - threatening higher prices, fewer productions, less creative freedom and fewer jobs. — https://nitter.net/nithyavraman/status/2077445722203722174#m",
+          "link": "https://nitter.net/spencerpratt/status/2077537015600464200#m",
+          "date_utc": "2026-07-15T23:33:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This stupid communist is working to destroy what's left of Hollywood. After 2 weeks in hiding, this scammer's blue-haired intern copy pasta'd a bunch of meaningless woke talking points that will inevitably push Paramount out to Nashville. All these socialists do is destroy. Nithya Raman (@nithyavraman) We were told this merger was inevitable. We were told fighting it was impossible. But when workers, consumers and communities organize, people power can beat billionaire power. This week, the fight to #BlockTheMerger took a major step forward. — https://nitter.net/nithyavraman/status/20774457174",
+          "link": "https://nitter.net/spencerpratt/status/2077535162003271878#m",
+          "date_utc": "2026-07-15T23:25:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya Raman is a scammer and she's stealing your money. Mike Netter (@nettermike) Just three out of a promised 2,000 apartments have been used to relocate the homeless in Nithya Raman’s failed $60 million project to get people off the streets. How do they get away with it? We need help contact @Herb4Controller when you find of any of this or see something in your area that just isn’t right — https://nitter.net/nettermike/status/2077517281861754981#m",
+          "link": "https://nitter.net/spencerpratt/status/2077527048604602374#m",
+          "date_utc": "2026-07-15T22:53:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNTS9NIbgAA6JRT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nice to see the GavHands so on top of this...18 months later. BTW, I'm old enough to remember when he called us \"opportunistic plaintiffs\". Governor Gavin Newsom (@CAgovernor) I'm calling on lenders to quickly and fairly release insurance proceeds for homeowners impacted by the LA firestorms. Companies that unlawfully delay or deny access to insurance funds will be subject to state enforcement. Survivors need relief now. — https://nitter.net/CAgovernor/status/2077440920916467773#m",
+          "link": "https://nitter.net/spencerpratt/status/2077526513931407459#m",
+          "date_utc": "2026-07-15T22:51:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Sorry but this is completely meaningless when you keep voting for the very people who destroyed the area in the first place. There are drug zombies all over the place around Olvera. Nithya screwed everyone for good. L.A. in a Minute (@LaInaMinute) I just donated $1,000 to the GoFundMe to DIRECTLY help Olvera Street merchants. Please help where you can - this is the birthplace of Los Angeles, as well as countless L.A. American Dream stories: gofundme.com/f/save-olvera-s… Video — https://nitter.net/LaInaMinute/status/2077464478409769460#m",
+          "link": "https://nitter.net/spencerpratt/status/2077480229300224307#m",
+          "date_utc": "2026-07-15T19:47:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077464390610423808%2Fimg%2FXJRMYrKJLmEJKWNt.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.gofundme.com/f/save-olvera-street",
+              "content": "Fundraiser by Valerie H : Save Olvera Street&#x27;s Cultural Heritage Skip to content Search Donate Discover fundraisers and nonprofits to support Categories Browse fundraisers by category Crisis relief Donate to verified relief Social Impact Funds Direct support for urgent needs Supporter Space Inspiration, FAQs, and where to give Nonprofits Give to tax-deductible organizations Fundraise Start fundraising, tips, and resources How to start a GoFundMe Step-by-step help, examples, and more Fundraising categories Find the right category for you Team fundraising Fundraise together with a team Fundraising Blog Resources, tips, and more Fundraising tips The ultimate fundraising tips guide Fundraising ideas Ideas to spark your creativity Charity fundraising Fundraise for a charity Sign up as a no"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Ballot harvesting has turned California elections into a nightmare. It's time to end it. Video",
+          "link": "https://nitter.net/spencerpratt/status/2077469382293282996#m",
+          "date_utc": "2026-07-15T19:04:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077468219271454721%2Fimg%2Funq8HV-ZxjvyH3RK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "I didn't get cheated. You did. Enjoy your new tax hike you most certainly 100% super duper voted for...with only late mail-in ballots that arrived after the election and also coincidentally broke for the 3rd place candidate! Chief Nerd (@TheChiefNerd) JD Vance Says the LA Elections Were Very Suspicious “It's like you were designing the vote share in order to kick [Spencer] Pratt out, and put the third person into second place.” 🤔 Video — https://nitter.net/TheChiefNerd/status/2077463160429166879#m",
+          "link": "https://nitter.net/spencerpratt/status/2077466334728716691#m",
+          "date_utc": "2026-07-15T18:52:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077462960713154560%2Fimg%2FyuuSqVBjIU_rR5Vm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya Raman has turned LA into a national embarrassment. Her years in charge of the Homelessness and Housing Committee have decimated our city beyond repair. The Vice President is now comparing downtown LA to HAITI Video",
+          "link": "https://nitter.net/spencerpratt/status/2077458570128310760#m",
+          "date_utc": "2026-07-15T18:21:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2077454612093624321%2Fimg%2FaLmPY9O4u8dgxP4a.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "theskory",
+      "org": "Meta AI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "theskory",
+          "creator": "@theskory",
+          "text": "We've open-sourced the entire Grok Build CLI so anyone can dig into the code. You can see exactly how the agent loop works, the terminal rendering, compaction, goals, subagents - the whole thing. SpaceXAI (@SpaceXAI) We've open-sourced Grok Build and have reset usage limits for all users. Open sourcing Grok Build allows anyone to support making a reliable and robust harness. Check out our code, including the Git repo for the Grok Build CLI. x.ai/open-source Link SpaceXAI — Creators of Grok, the AI Chatbot SpaceXAI builds Grok, an AI chatbot with voice chat, image and video generation, real-tim",
+          "link": "https://nitter.net/theskory/status/2077501892003835991#m",
+          "date_utc": "2026-07-15T21:13:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2077491312652345344%2Fk7AqQ3-V%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/open-source",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
