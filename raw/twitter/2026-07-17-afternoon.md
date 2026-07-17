@@ -1,5 +1,5 @@
 # Twitter/X Digest | 2026-07-17 | AFTERNOON
-> Scraped 2026-07-17 13:50 IST | Lookback: 24h | 21 tweets | 0 articles
+> Scraped 2026-07-17 15:02 IST | Lookback: 24h | 40 tweets | 0 articles
 
 ---
 
@@ -9,8 +9,27 @@
 
 ## AI Account Feed
 
+### @DoWCTO (Independent)
+*1 AI-relevant tweets*
+
+**@DoWCTO** (@DoWCTO) · 2026-07-16 14:58 UTC
+
+> STAY LOCKED IN, HIGH-T WARRIORS RESTORING THE WARRIOR ETHOS 🇺🇸
+
+[View tweet](https://nitter.net/DoWCTO/status/2077769931274277017#m)
+
+---
+
 ### @MarioNawfal (Independent)
-*17 AI-relevant tweets*
+*18 AI-relevant tweets*
+
+**@MarioNawfal** (@MarioNawfal) · 2026-07-17 10:40 UTC
+
+> 🇺🇸🇮🇷 Iran's infrastructure was hit HARD overnight, as a result of U.S. "shaping operations" intended to cut off IRGC logistics. A list of targets hit: •⁠ ⁠5-6 bridges in Hormozgan province •⁠ ⁠Chabahar maritime tower was targeted (again) and destroyed •⁠ ⁠A railway station, west of Bandar Abbas •⁠ ⁠Civilian airport in Iranshahr, southeastern Iran The prospect of peace between the U.S. and Iran is getting more and more difficult to envision... Writers: Mhedi, Michael Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2078067185336074348#m)
+
+---
 
 **@MarioNawfal** (@MarioNawfal) · 2026-07-17 10:30 UTC
 
@@ -175,6 +194,145 @@
 
 ---
 
+### @brivael (Independent)
+*17 AI-relevant tweets*
+
+**@brivael** (@brivael) · 2026-07-17 10:39 UTC
+
+> Quel banger cette musique
+
+[View tweet](https://nitter.net/brivael/status/2078067028594770314#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:28 UTC
+
+> Coding moat is transferring to idea/taste moat. Build your taste and become a polymath. X Freeze (@XFreeze) Turns out Elon was completely right The coding moat is disappearing in real time — https://nitter.net/XFreeze/status/2078062254046544149#m
+
+[View tweet](https://nitter.net/brivael/status/2078064344164626903#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:26 UTC
+
+> oui DogeDesigner (@cb_doge) There is no place on Earth quite as magical as Starbase. Video — https://nitter.net/cb_doge/status/2077999818765672564#m
+
+[View tweet](https://nitter.net/brivael/status/2078063787479892452#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:20 UTC
+
+> Avec le temps, j'en suis arrivé à une conclusion nette : le système éducatif français est cassé de l'intérieur. Il prend des esprits brillants et il les formate au conformisme. Il produit des gens extrêmement fragiles. Incapables de penser par eux-mêmes. Entraînés à réciter, pas à chercher. Brivael Le Pogam (@brivael) Je réagis à ce post parce que c'est très personnel. On m’a longtemps regardé comme le gamin qui ne savait pas où il allait. Celui dont on ne savait pas vraiment quoi faire ni où le foutre. Turbulent, bavard, hyperactif… Le genre d’élève que le système considère très vite comme un
+
+[View tweet](https://nitter.net/brivael/status/2078062220160668072#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:18 UTC
+
+> Aligned. Same in France and across Europe. Leftism is making everything corrupt and crappy. Department of State (@StateDept) Radical leftism is poisonous resentment cloaked in the language of equality, justice, and liberation. Through violence and terror, they once again seek to impose their ugliness on all of us. We must confront this menace together. — https://nitter.net/StateDept/status/2077824320433250633#m
+
+[View tweet](https://nitter.net/brivael/status/2078061889561547095#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:06 UTC
+
+> Tout est parfaitement en place. L’agenda 2030 des globalistes communistes, c’est que vous ne posséderez rien et vous serez heureux. La ruine des pays, c’est le cheval de Troie parfait pour vendre la France le temps venu à des entités supra-nationales. Immigration de masse en plus pour diluer l’impact électoral des Français de souche. Tout se passe bien. Juste Milieu (@JusteMilieu3) Quatre économistes mandatés par Bercy viennent de rendre leur verdict. C'est officiel : le bilan économique de Macron est une catastrophe ! 🔴 📍 À politique inchangée : déficit à 6,8 % du PIB en 2030, dette à 130,5 %
+
+[View tweet](https://nitter.net/brivael/status/2078058850012258319#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:03 UTC
+
+> X c’est comme le Monopoly 🤣 DogeDesigner (@cb_doge) It's 𝕏 Pay Day! — https://nitter.net/cb_doge/status/2078031622528708855#m
+
+[View tweet](https://nitter.net/brivael/status/2078058115031781703#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 10:03 UTC
+
+> 🚀🚨👀 DogeDesigner (@cb_doge) It's 𝕏 Pay Day! — https://nitter.net/cb_doge/status/2078031622528708855#m
+
+[View tweet](https://nitter.net/brivael/status/2078058032722813077#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:58 UTC
+
+> 🎯🎯🎯 Fabrice Epelboin (@epelboin) LOL - Epstein est la définition même de l'Etat profond. Après, faut avoir les couilles de le démontrer publiquement plutôt que de se planquer derrière un pseudonyme. Video — https://nitter.net/epelboin/status/2078056392007487883#m
+
+[View tweet](https://nitter.net/brivael/status/2078056783650697241#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:53 UTC
+
+> Tu as pas travaillé. Arrête d’écouter France Inter et commence à penser par toi même. Bonne journée. Pakal☯️🚜 (@Pakalmeu) pousser le suprémacisme c'est "sauver l'Occident"? 🤡 — https://nitter.net/Pakalmeu/status/2078052264590074093#m
+
+[View tweet](https://nitter.net/brivael/status/2078055497949659366#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:45 UTC
+
+> Je réagis à ce post parce que c'est très personnel. On m’a longtemps regardé comme le gamin qui ne savait pas où il allait. Celui dont on ne savait pas vraiment quoi faire ni où le foutre. Turbulent, bavard, hyperactif… Le genre d’élève que le système considère très vite comme un problème. La vérité, c'est que je n'ai jamais été fait pour cette boîte-là. Mes notes ont toujours été extrêmes. Soit 2, soit 20. Jamais entre les deux. 20 en maths au collège. Puis 2/20 en histoire, en français. Puis 20 au bac (que j'ai eu au rattrapage car j'avais pas écouté un seul cours de l'année (95 % de mes pro
+
+[View tweet](https://nitter.net/brivael/status/2078053546755305635#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:27 UTC
+
+> Oui. Il y a la bonne et la mauvaise ingérence. Qu’on arrête avec ce concept à la con. Il n’y a Aucune ingérence de la part d’Elon Musk. Aucune. Video
+
+[View tweet](https://nitter.net/brivael/status/2078048891555979288#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:21 UTC
+
+> Hahahaha INVASION FRANCE INFO (@InvasionEuro) 🎙️♟️Allo @le_Parisien @TF1 @LCI — https://nitter.net/InvasionEuro/status/2077826474527330495#m
+
+[View tweet](https://nitter.net/brivael/status/2078047491820277904#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:13 UTC
+
+> Oui, les Français vont probablement morfler. La chute risque même d’être assez violente. Mais contrairement à beaucoup, je suis profondément optimiste. Ce qui déprime les Français aujourd’hui, ce n’est pas seulement le déclin. C’est l’impression qu’il est définitif, que rien ne changera jamais et que nous resterons éternellement prisonniers de cette trajectoire. Or l’épisode macronien est probablement l’aboutissement d’un projet technocratique et globaliste construit depuis cinquante ans — y compris par une partie de ton propre camp. Une fois cette séquence terminée, le diagnostic sera enfin c
+
+[View tweet](https://nitter.net/brivael/status/2078045393581928854#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:12 UTC
+
+> Leur niveau de corruption est maintenant beaucoup trop visible pour que ça tienne. ThinkerView (@Thinker_View) On a écouté une chronique sur France Info (9h24) à propos des changements électoraux voulus par Trump aux États-Unis. Où est le moment où le chroniqueur parle du fait que Trump souhaite imposer la présentation d’une pièce d’identité aux électeurs ? Parce que franchement, 98 % de cette chronique était surréaliste, exactement comme leur traitement de l’attentat du Nord Stream par ce même chroniqueur. ( en ouverture) nitter.net/LeSommierRgis/status/2… Journaliste en France, mais LOL ! — 
+
+[View tweet](https://nitter.net/brivael/status/2078045242566082899#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:08 UTC
+
+> Je vous fais le call : dans quelques années, Elon Musk sera considéré comme l’homme qui a contribué à sauver l’Occident. Celui qui, en trente ans, a réinventé des pans entiers de notre système industriel, technologique et informationnel, presque from scratch. Et toute cette caste de globalistes de gauche, qui le diabolise aujourd’hui, apparaîtra pour ce qu’elle est : l’une des principales forces ayant œuvré au déclin de l’Occident ces dernières années. Une fois que vous aurez lu cet article, vous comprendrez pourquoi les médias institutionnels détestent autant Elon Musk. Lisez-le et transmette
+
+[View tweet](https://nitter.net/brivael/status/2078044230870565052#m)
+
+---
+
+**@brivael** (@brivael) · 2026-07-17 09:01 UTC
+
+> Champion mon frère ThinkerView (@Thinker_View) — https://nitter.net/Thinker_View/status/2077883939713126436#m
+
+[View tweet](https://nitter.net/brivael/status/2078042337054188020#m)
+
+---
+
 ### @eliebakouch (Hugging Face)
 *1 AI-relevant tweets*
 
@@ -188,4 +346,4 @@
 
 
 ---
-*Twitter farmer | 2026-07-17 AFTERNOON | 21 tweets | 0 articles*
+*Twitter farmer | 2026-07-17 AFTERNOON | 40 tweets | 0 articles*
