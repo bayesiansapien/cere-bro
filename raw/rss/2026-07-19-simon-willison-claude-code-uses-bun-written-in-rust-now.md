@@ -1,0 +1,40 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-07-19T22:17:42.117969+00:00
+title: Claude Code uses Bun written in Rust now
+url: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything
+published: 2026-07-19
+---
+
+# Claude Code uses Bun written in Rust now
+
+<p>In <a href="https://bun.com/blog/bun-in-rust">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p>
+<blockquote>
+<p>Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.</p>
+</blockquote>
+<p>I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust.</p>
+<p>I found these two commands convincing:</p>
+<pre><code>strings ~/.local/bin/claude | grep -m1 'Bun v1'
+</code></pre>
+<p>For me this outputs <code>Bun v1.4.0 (macOS arm64)</code>. The most recent release of <a href="https://github.com/oven-sh/bun/releases">Bun on GitHub</a> is currently <a href="https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14">v1.3.14</a> from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version.</p>
+<p>(<strong>Update</strong>: The Rust version <em>has</em> been released as <a href="https://bun.com/docs/installation#canary-builds">Bun canary</a> - running <code>bun upgrade --canary</code> will install <a href="https://github.com/oven-sh/bun/releases/tag/canary">this release</a>.)</p>
+<pre><code>strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\.rs'
+</code></pre>
+<p>This outputs a list of <a href="https://gist.github.com/simonw/c92fb0f67b114ac26e3b95a09ddccfdc">563 filenames</a>, starting with these:</p>
+<pre><code>src/runtime/bake/dev_server/mod.rs
+src/runtime/bake/production.rs
+src/bundler/bundle_v2.rs
+</code></pre>
+<p>It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, "Boring is good".</p>
+<p><strong>Update</strong>: Here's a neat trick <a href="https://twitter.com/ajanraj25/status/2078825794701242697">from Ajan Raj</a>:</p>
+<pre><code>cat &gt; /tmp/bun-version.ts &lt;&lt;'EOF'
+console.log("embedded bun:", Bun.version);
+process.exit(0);
+EOF
+BUN_OPTIONS="--preload=/tmp/bun-version.ts" claude --version
+</code></pre>
+<p>This outputs <code>1.4.0</code> for me.</p>
+<p>Here's <a href="https://github.com/oven-sh/bun/commit/b18bf6d1d0a92238f240bfd125f0e3b3461b9243#diff-7ae45ad102eab3b6d7e7896acd08c427a9b25b346470d7bc6507b6481575d519">the commit from May 17th</a> that updated the version in <code>package.json</code> to 1.4.0. That version hasn't been changed since then, but also hasn't yet made it into a tagged release outside of <code>canary</code>.</p>
+
+    <p>Tags: <a href="https://simonwillison.net/tags/bun">bun</a>, <a href="https://simonwillison.net/tags/rust">rust</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a>, <a href="https://simonwillison.net/tags/jarred-sumner">jarred-sumner</a></p>

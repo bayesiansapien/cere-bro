@@ -1,0 +1,64 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-07-19T22:17:42.121433+00:00
+title: Inkling: Our open-weights model
+url: https://simonwillison.net/2026/Jul/16/inkling/#atom-everything
+published: 2026-07-16
+---
+
+# Inkling: Our open-weights model
+
+<p><strong><a href="https://thinkingmachines.ai/news/introducing-inkling/">Inkling: Our open-weights model</a></strong></p>
+Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is "a Mixture-of-Experts transformer with 975B total parameters, 41B active" - an Apache-2.0 licensed multimodal model trained on 45 trillion tokens of text, images, audio and video.</p>
+<p>They're also promising Inkling-Small, a 276B (12B active) model, but that's still being tested and the weights will be released "once that work is complete".</p>
+<p>The <a href="https://thinkingmachines.ai/model-card/inkling/">model card</a> is much shorter than I've come to expect from US AI labs. It links to even shorter <a href="https://thinkingmachines.ai/training-data-documentation/">Training Data Documentation</a> with almost nothing of interest in it - it's best summarized by these two paragraphs:</p>
+<blockquote>
+<p>The datasets Thinking Machines Lab uses to develop its AI services includes content that is in the public domain as well as content that may be subject to intellectual property protection.</p>
+<p>Thinking Machines Lab’s services were developed using publicly available content obtained from the open internet and publicly accessible data repositories. Certain datasets were also obtained from third parties.</p>
+</blockquote>
+<p>By Thinking Machines' own admission, this is not a frontier model. It's instead intended as a strong base model for fine-tuning using their own <a href="https://thinkingmachines.ai/tinker/">Tinker training platform</a>:</p>
+<blockquote>
+<p>Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning.</p>
+</blockquote>
+<p>There's a lot to like about this release. It's Apache-2.0 licensed, and looks competitive with the open weight models coming out of China - it's good to see the US open weights ecosystem gain a new viable contender to join NVIDIA Nemotron and Gemma 4.</p>
+<p>Here's its attempt at an SVG pelican riding a bicycle, which I generated using this <code>curl</code> command against the Thinking Machines API:</p>
+<div class="highlight highlight-source-shell"><pre>curl <span class="pl-s"><span class="pl-pds">"</span>https://tinker.thinkingmachines.dev/services/tinker-prod/oai/api/v1/chat/completions<span class="pl-pds">"</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">"</span>Authorization: Bearer <span class="pl-smi">$TINKER_API_KEY</span><span class="pl-pds">"</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">"</span>Content-Type: application/json<span class="pl-pds">"</span></span> \
+  -d <span class="pl-s"><span class="pl-pds">'</span>{</span>
+<span class="pl-s">    "model": "thinkingmachines/Inkling",</span>
+<span class="pl-s">    "messages": [</span>
+<span class="pl-s">      {"role": "user", "content": "Generate an SVG of a pelican riding a bicycle"}</span>
+<span class="pl-s">    ],</span>
+<span class="pl-s">    "stream": false</span>
+<span class="pl-s">  }<span class="pl-pds">'</span></span></pre></div>
+
+<p>Full <a href="https://gist.github.com/simonw/8117ac4376371dd3fc2b5dbce27e0855">response here</a>.</p>
+<p><img alt="See image description below" src="https://static.simonwillison.net/static/2026/inkling-pelican.jpg" /></p>
+<p>Since it's a multi-modal model I had it describe its own image (after I rendered it to a JPEG) by sending this JSON:</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"model"</span>: <span class="pl-s"><span class="pl-pds">"</span>thinkingmachines/Inkling<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"messages"</span>: [{
+    <span class="pl-ent">"role"</span>: <span class="pl-s"><span class="pl-pds">"</span>user<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"content"</span>: [
+      {<span class="pl-ent">"type"</span>: <span class="pl-s"><span class="pl-pds">"</span>image_url<span class="pl-pds">"</span></span>, <span class="pl-ent">"image_url"</span>: {<span class="pl-ent">"url"</span>: <span class="pl-s"><span class="pl-pds">"</span>data:image/jpeg;base64,$BASE_64_JPEG<span class="pl-pds">"</span></span>}},
+      {<span class="pl-ent">"type"</span>: <span class="pl-s"><span class="pl-pds">"</span>text<span class="pl-pds">"</span></span>, <span class="pl-ent">"text"</span>: <span class="pl-s"><span class="pl-pds">"</span>Describe this image in detail<span class="pl-pds">"</span></span>},
+    ],
+  }],
+  <span class="pl-ent">"stream"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+
+<p>Here's <a href="https://gist.github.com/simonw/dccebd0581f5c4056c5b0ca5bdc38cd9#reasoning_content">the full response</a>. It thought it had drawn a "stork or seagull":</p>
+<blockquote>
+<p>This is a cheerful, flat-vector cartoon illustration featuring a white bird riding a bicycle across a green landscape.</p>
+<p><strong>The Bird:</strong> The central figure is a stylized white bird—resembling a stork or seagull—with a plump, rounded body. It has a long, prominent orange beak that is slightly open, revealing a black line for the mouth. Its eye is small and black with a tiny white highlight. The bird has black wing and tail feathers with white edges, and thin orange legs ending in black feet that rest on the bicycle's orange pedals.</p>
+<p><strong>The Bicycle:</strong> The bike has a simple black frame with two large wheels featuring black tires, gray inner rims, and black spokes arranged in a cross pattern. The handlebars are black, and there are bright orange pedals attached to a black crank. A white seat is visible behind the bird's body.</p>
+<p><strong>The Setting:</strong> The scene is set against a clear, light blue sky. There are two fluffy white clouds—one on the left side and a smaller one near the bird's head on the right. A bright, solid yellow sun shines in the upper right corner. At the bottom, there are rolling green hills with a smooth, curved top edge where the bicycle rests.</p>
+<p>The overall style is playful, simple, and colorful, with clean lines and a bright, sunny atmosphere.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://news.ycombinator.com/item?id=48924912">Hacker News</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/training-data">training-data</a>, <a href="https://simonwillison.net/tags/pelican-riding-a-bicycle">pelican-riding-a-bicycle</a>, <a href="https://simonwillison.net/tags/llm-release">llm-release</a></p>
