@@ -958,3 +958,16 @@ Append-only timeline of ingests and lint passes.
 ## [2026-07-08] ingest | J-Space: Verbalizable Representations Form a Global Workspace in LLMs | gmail (Ken Huang / Agentic AI)
 ## [2026-07-08] ingest | Anthropic 3Q26 Profit Over $1B: The IPO Financials Sneak Peak | gmail (SemiAnalysis)
 ## [2026-07-08] update | digest 2026-07-08 gap-filled: added SemiAnalysis Anthropic IPO, J-Space expanded Industry Pulse, Claude memory tool GA, Fable 5 cost reality (CodeRabbit benchmark, Scrimba 1.3M tokens, Bleeping Computer $100 drain), Claude Code architecture analysis, Anthropic harness layers, Quantum Zeitgeist "Living Codebase," Anthropic platform-moment Global View thread, Anthropic IPO S-1 Looking Ahead bullet. Authored wiki summaries: J-Space global workspace, Anthropic IPO, Fable 5 memory engineering. | digest
+
+## [2026-07-19] backlog | Filled daily-digest + media-zone backlog for 2026-07-09 through 2026-07-19 (11 days). HF full-text/RSS farmers were down for the whole window (last data 07-07); Reddit empty every day; Twitter dominated by political noise. Signal sourced from Gmail newsletters (DAIR.AI weekly, Interconnects, Semiconductor Week 28, Ken Huang Fable 5 series, Towards Data Science, AI Weekly), Kurate leaderboards, and select AI Twitter (Grok 4.5, Meta physics olympiad, Kimi K3 2.8T). | ops
+## [2026-07-09] ingest | Grok 4.5 reaches intelligence frontier (index 54); either/or AI stack framing | digest + media-zone
+## [2026-07-10] ingest | Thin day: Vidu S1 real-time video gen (HF header only) | digest
+## [2026-07-11] weekly | Week ending 07-11: training-loop returns moved downstream; harness leverage; Grok 4.5 third pole; Anthropic IPO | weekly-review
+## [2026-07-12] ingest | Sunday (no digest): DAIR.AI weekly papers, Interconnects "6 months to live for open models", Semiconductor Week 28 | media-zone
+## [2026-07-13] ingest | Long-Horizon-Terminal-Bench; Requential Coding (data-free compression) | digest + media-zone
+## [2026-07-14] ingest | Weak-to-Strong via Direct On-Policy Distillation (92 up); on-policy distillation reaches alignment | digest + media-zone
+## [2026-07-15] ingest | Meta AI 30/30 physics olympiad; NY data-center freeze; Grok 4.5 #2 FrontierSWE | digest + media-zone
+## [2026-07-16] ingest | Harness Handbook (164 up, week top): harness as first-class artifact; xAI CLI SSH-key leak | digest + media-zone
+## [2026-07-17] ingest | Kimi K3 at 2.8T params, biggest open-weight model ever; scale-vs-sparsity | digest + media-zone
+## [2026-07-18] weekly | Week ending 07-18: open weights inverted frontier story; harness first-class; capability-vs-permission | weekly-review
+## [2026-07-19] ingest | Sunday: Fable 5 pricing shift, open-weights parity consensus | media-zone (digest pre-existing)
