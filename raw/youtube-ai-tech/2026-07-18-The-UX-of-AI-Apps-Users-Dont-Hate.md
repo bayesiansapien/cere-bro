@@ -1,0 +1,33 @@
+# The UX of AI: Making AI-Powered Apps Your Users Don't Hate
+
+**Channel:** AI Engineer
+**Published:** 2026-07-18
+**Source:** https://www.youtube.com/watch?v=L3RuP_q8Bwc
+
+## TL;DR
+Kathryn Grayson Nanz (Progress Software) argues that as models commoditize, the differentiator for AI products is no longer performance, it is the UX built around them. The core problem is a knowledge gap between developers (subject-matter experts) and users, which is wider for AI than for any prior technology. She uses the Macintosh System 1 to System 6 evolution as an analogy (we are around "System 3" with AI) and organizes the entire design space into five pillars: trust, clarity, control, transparency, and meaningful benefit. Notably, she argues AI cannot design these patterns for us yet, because it can only remix existing patterns and the patterns for AI interfaces do not exist yet.
+
+## Key Takeaways
+- Trust is the number one hurdle. Do not claim your model is uniquely trustworthy. Instead build "trust but verify" affordances: inline citations, source links, side-panel reference windows that reposition the assistant as a librarian rather than an oracle. Mark AI-generated content explicitly to avoid the perception of sneaking it in.
+- For agentic flows, show an action plan and get user approval before execution (now standard in Claude and ChatGPT), with a toggle to auto-approve repeated flows so users are not forced to babysit.
+- Clarity: stop framing AI as "magic" (the sparkle icon). Stream text to mask latency and let users assess and interrupt partial output. Expose chain-of-thought so users can pinpoint where reasoning went off the rails and give targeted corrections.
+- Control: provide a prominent "emergency brake" to stop any generation or agent action, plus version history / undo-redo / checkpoints scaled to task complexity. Granular revert (keep some output, redo the rest) matters more now that token costs are rising, because it avoids wasteful full re-runs.
+- Transparency: permissions are not binary. Distinguish read from write, once from always, this-folder from every-folder. Memory systems must also be able to forget, with the user having final say. Surface time and token/cost estimates before an action, and show a clear banner when an agent is driving (for example, taking over the browser).
+- Meaningful benefit: a blank "ask AI" box offloads all the work onto the user. Provide examples, templates, suggested prompts, guided workflows, and next-step action buttons plus integrations so output flows into the user's real tools.
+
+## Architecture & Optimization Mechanics
+The optimization content here is subtle but real, and it is about spending tokens where they create value rather than burning them on failed generations. Nanz makes an explicit cost argument: streaming output lets a user kill a bad generation early instead of paying for a full response they will discard, and granular version control (keep-part, redo-part) avoids the wasteful "try again from scratch" loop that regenerates everything. Both are UX patterns that directly reduce token spend, which connects her talk to the same inference-economics pressure Amit works under. Every "stop" button and every checkpoint is a mechanism to avoid paying for tokens the user does not want.
+
+The second architecturally relevant point is the plan-approve-execute pattern and the permissions granularity model. These are not just UX niceties, they are the control-plane primitives any agent framework needs, and they map onto the reproducibility and audit requirements that regulated enterprises demand. Exposing chain-of-thought is framed as a trust affordance, but for a builder it is also an evaluation and debugging surface. If the user can see where reasoning diverged, so can your eval harness. The meta-claim worth internalizing is that once models are all "really good," the moat is interaction quality, so front-loading UX design is now an engineering responsibility, not a downstream polish step.
+
+## Grounded Context (Web Enrichment)
+Nanz's five pillars line up almost exactly with the 2026 industry consensus on agent UX. Current pattern catalogs converge on planning visibility, tool-use disclosure, memory surfacing, multi-step workflow tracking, and recovery routing, which is her trust/clarity/control/transparency framing under different names. The field has also crystallized around "calibrated trust, not blind trust," meaning confidence indicators, easy verification, and override paths, precisely the "trust but verify" stance she advocates. Where the outside world has moved past her framing: transparency about AI use is increasingly a legal requirement, not just a best practice, so her "mark AI-generated content" advice is now closer to compliance than courtesy. Research is even extending the human-in-the-loop idea to "society-in-the-loop" for systems with broad societal impact (arXiv:2603.04552). Her claim that AI cannot yet design novel AI-interface patterns holds up against the observed "AI-generated UIs look average" critique, though this is the part most likely to date quickly as generative-UI tooling improves.
+
+## Real-World Application / Actionable Step
+Even though Amit's work is backend and optimization-heavy, the actionable transfer is concrete: bake stream-and-interrupt plus granular revert into any internal agent tooling to cut wasted inference. For his research agents and internal tools, add a hard stop button and checkpointing so a long autonomous run can be killed and resumed rather than restarted, which directly saves compute on the very agent loops the other AIE talks warn about. Second, adopt the plan-approve-execute pattern with granular, revocable permissions for any agent that touches data or executes code, because it doubles as the audit and reproducibility trail that regulated deployments require. The one-line takeaway to carry into design reviews: when models are commoditized, interaction quality is the moat, so treat UX affordances as first-class engineering, not polish.
+
+Sources:
+- [Designing for AI Agents: 10 UX Patterns 2026 (Mantlr)](https://mantlr.com/blog/designing-for-ai-agents-ux-patterns-2026)
+- [UI/UX & Human-AI Interaction Patterns (Agentic Design)](https://agentic-design.ai/patterns/ui-ux-patterns)
+- [Important UI and UX Principles in AI-Driven Product Design (Forbes Tech Council)](https://www.forbes.com/councils/forbestechcouncil/2026/07/17/important-ui-and-ux-principles-in-ai-driven-digital-product-design/)
+- [Beyond the Interface: Redefining UX for Society-in-the-Loop AI Systems (arXiv)](https://arxiv.org/pdf/2603.04552)
