@@ -1,0 +1,748 @@
+{
+  "date": "2026-07-20",
+  "slot": "afternoon",
+  "scraped_ist": "2026-07-20 15:02",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "bayesiansapien",
+      "creator": "@_avichawla",
+      "text": "Article How top AI labs are building RL agents in 2026 (using Karpathy s system prompt learning idea) How Anthropic, OpenAI, and DeepSeek are converging on a single idea of using the system prompt as the reward function. A full breakdown of the RL evolution from RLHF to RULER, with code.",
+      "link": "https://nitter.net/_avichawla/status/2049037299334472015#m",
+      "date_utc": "2026-04-28T08:05:36+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHG-kPGeaAAAQgjY.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "bayesiansapien",
+      "creator": "@rasbt",
+      "text": "How can an LLM switch between low-, medium-, and high-effort reasoning? And how does an LLM learn to reason more or less? I put together a “little” article explaining how these effort levels are implemented at inference time and during training.",
+      "link": "https://nitter.net/rasbt/status/2078471977237450829#m",
+      "date_utc": "2026-07-18T13:28:30+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://nitter.net/pic/media%2FHNg26xDW8AAf62U.jpg"
+      ],
+      "articles": []
+    }
+  ],
+  "ai_feed": [
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇪🇸 Trump on Spain today, after the World Cup: \"I spoke to Spain and I congratulated them on having a great team. I really spoke to a lot of people. I have no tension with him. I have no tension with anybody.\" Trump on Spain 12 days ago: “Spain is a terrible partner in NATO. They don’t participate. They don’t pay. I don’t want anything to do with Spain. Cut off all trade with Spain, please, including visits.\" “Don’t even talk to them. They’re hopeless, bad people.” Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079137991180669430#m",
+          "date_utc": "2026-07-20T09:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079124223688081408%2Fimg%2Fms_aZhscs8RNNQRx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Speed can't compete with Mike Tyson's ice cream 😅 Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079136733044826448#m",
+          "date_utc": "2026-07-20T09:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2078906175891116032%2Fimg%2FHjYsJegbciSqTYLm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇺🇸 Sec. Rubio: \"We're trying to protect global shipping, but other countries need to step up and help carry that burden. It is not the United States' job to protect the entire planet forever.\" No, but that is how the U.S. has been operating since WWII... America's allies have grown used to it, offloading the costs of their own defense onto American taxpayers. Much of the rest of the world has simply grown to despise them for it. Perhaps time for a change. Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079135474493292927#m",
+          "date_utc": "2026-07-20T09:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079125824209293312%2Fimg%2FJv79KMsVN2xBl06c.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 FIFA’s official match ball hides a high-tech sensor that tracks every spin, kick, and touch at lightning speed. These creators built their own version with custom hardware to show exactly how it works, and the results are seriously impressive. Football is going full sci-fi! Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079134216197972433#m",
+          "date_utc": "2026-07-20T09:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2078883943861137408%2Fimg%2FpUVdGPlKOSGzH09r.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iran's FM Spox. Esmail Baghaei: \"Even without relying on Article 5 of the MOU, Iran, as the coastal state bordering the Strait of Hormuz, possesses legal and sovereign rights over the strait. The experience of military attacks by the U.S. and Israeli regime, along with the cooperation of some countries in the region, has demonstrated that Iran mustn't allow this vital waterway to be exploited against the country's security and national interests. Iran is determined, in cooperation with Oman, to adopt the necessary measures and arrangements to fully exercise its sovereignty and prevent any s",
+          "link": "https://nitter.net/MarioNawfal/status/2079132958087164210#m",
+          "date_utc": "2026-07-20T09:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079129622612938752%2Fimg%2F61T9xck4boQNW-pQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Cleopatra (1963) was supposed to be just a normal movie, but the budget got way out of hand with massive sets and one delay after another. It ended up costing around $44 million, which almost made 20th Century Fox go totally broke and forced them to sell off their land just to stay afloat. It still brought in over $57 million at the box office, proving nobody could stay away from the total trainwreck. Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079131699607425152#m",
+          "date_utc": "2026-07-20T09:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2078872876350849024%2Fimg%2FeMgMNptcSTnL9vUP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Italy’s mountain dead zones just got put on notice. Starlink and Fastweb started Italy’s first Direct-to-Cell trial in the central Apennines. A normal 4G smartphone can connect directly to Starlink satellites outdoors when the ground signal disappears. No bulky satellite phone brick needed. No dramatic rescue device. That is how dead zones start getting embarrassed. @Starlink / Writer: Annette, Designer: Janné Video Elon Musk (@elonmusk) Starlink can now provide reliable 10Gpbs symmetric send/receive connectivity anywhere in the world — https://nitter.net/elonmusk/status/2075402626284368071#m",
+          "link": "https://nitter.net/MarioNawfal/status/2079129194357989829#m",
+          "date_utc": "2026-07-20T09:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079113882245779456%2Fimg%2FnEa1MNfZUNsfAc9O.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦🇷🇺 Zelensky details further strikes on Russia's energy infrastructure: \"The Moscow region. Our long-range sanctions have produced results against logistics facilities and an oil depot. The targets were more than 400 km from our border. 2 shadow fleet tankers and 4 cargo ships were also struck in the Black Sea. This war must be brought to an end, and that is only possible by increasing the pressure on the sole cause of this war – Russia.\" Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079126666614546883#m",
+          "date_utc": "2026-07-20T08:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079112808516452352%2Fimg%2FhDY8RDhsfMvULSwm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇾🇪 Iranian Foreign Ministry Spokesman on an Iranian plane attempting to land in the restricted airspace controlled by the Houthis last week: \"Iran does not accept the existence of an air embargo against Yemen and considers such an interpretation of Security Council resolutions incorrect, and UN sanctions an oppressive measure. The recent flight was also carried out solely to return the official Yemeni delegation that had traveled to Iran to pay respects to the martyred leader. The attack on Sanaa airport and damage to civilian infrastructure are strongly condemned as a clear violation of Yem",
+          "link": "https://nitter.net/MarioNawfal/status/2079124149964787889#m",
+          "date_utc": "2026-07-20T08:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079121290305118209%2Fimg%2F-xPnqFB2_mowezmy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The U.S is quietly splitting into two economies. On the surface, everything looks fine. Stocks are pushing higher, credit markets are calm, and Wall Street barely reacted even after 372 large U.S. companies filed for bankruptcy in the first half of 2026, the highest first-half total since 2010. But look beneath the headlines and it's a completely different story. Commercial Chapter 11 filings jumped 28% in just one year, small-business reorganizations surged 50%, and total commercial bankruptcies climbed 13%. These aren't Fortune 500 giants; they're the companies that don't have billion-dol",
+          "link": "https://nitter.net/MarioNawfal/status/2079121634246397960#m",
+          "date_utc": "2026-07-20T08:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNqBXwbXgAADG4J.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Fmr. State Dept Aaron David Miller: Trump has held back so far, but that's about to change \"The response to the deaths of 2 or 3 U.S. servicemen has been very proportionate. The Institute for War is reporting that the Iranians were using a different sort of high-speed ballistic missile that gives more manoeuvrability. It's not an attack on Jordan. It's an attack on U.S. regional deployments.\" @aarondmiller2 Video Mario Nawfal (@MarioNawfal) 🇺🇸 Something in the skies over the Middle East does not add up. Fmr. State Dept Aaron David Miller says the deployment of refueling aircraft and F-35s",
+          "link": "https://nitter.net/MarioNawfal/status/2079120808358887623#m",
+          "date_utc": "2026-07-20T08:26:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079120624308432896%2Fimg%2FidQgKomlJTfKf8-E.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2079060995008552960%2Fimg%2F-WunssuVmgND1eOJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇷 It’s been hours since the World Cup final ended. Argentina lost. Yet the streets of the capital are still packed. Fans are showing up in huge numbers to celebrate the runners-up anyway. This passion is unmatched. Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079119116624179476#m",
+          "date_utc": "2026-07-20T08:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079032656625360896%2Fimg%2FnRP9mpl3R94yuDAC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Iran is striking U.S targets with alarming precision, and they've got the capacity to hit them MUCH harder Ret. General Randy Manner: \"The President and the Secretary of Defense grossly underestimate the potential of the Iranians on a continual basis, and they fill the airwaves with propaganda and rhetoric. They are lying to the citizens about the capabilities of Iran. The reality is Iran is showing tremendous constraint not to attack American ships or land-based facilities housing Americans.\" Video Mario Nawfal (@MarioNawfal) 🇺🇸 Ret. U.S. Army General Randy Manner sees only one way this ",
+          "link": "https://nitter.net/MarioNawfal/status/2079117061041889349#m",
+          "date_utc": "2026-07-20T08:11:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079116940245606400%2Fimg%2FuBBipGR-oiFTWEIW.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2079023368800813056%2Fimg%2FXZwpcKRmOBRVbwQh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Brutal 🤣🤣🤣 Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079114083266171245#m",
+          "date_utc": "2026-07-20T08:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2078677390251659265%2Fimg%2FuPrpW2IQLEdxjX6s.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇸 Cucurella promised to tattoo Luis de la Fuente's face on him if Spain won the World Cup. Now he's saying the long trip home will give him time to think. But it definitely has to be somewhere visible. This guy is committed 😂 Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079111566885106151#m",
+          "date_utc": "2026-07-20T07:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079056666553655296%2Fimg%2FOVX6eMduKnPiMBjK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 The pressure is dialled all the way up on Trump after restarting the Iran war. Ex-JCPOA Negotiator Robert Malley didn't mince his words: \"Trump's course of action has been extraordinarily reckless, unwise, unstrategic and unlawful.\" @rob_malley Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 Trump and Tehran's different interpretations of the MoU's paragraph 5 blew the ceasefire up. Ex-JCPOA Negotiator Robert Malley suggested that the extreme lack of trust in the negotiations made another round of war inevitable: \"The story tells us that the deal was extremely fragile. It was based on ambiguity an",
+          "link": "https://nitter.net/MarioNawfal/status/2079110308631564561#m",
+          "date_utc": "2026-07-20T07:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079105792414814208%2Fimg%2FZkvYZJA825Z2j6U7.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2079104975083384833%2Fimg%2FGz3HXWnikttLEuC0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷🇮🇱 Trump's planning to intensify attacks on Iran as he gets desperate for a way out U.S and Israeli officials said that he's told Tel Aviv of his plans to step up attacks in the coming days, while also wanting to keep Israel out of the operations... for now As a sign of the scale, the U.S is planning to deploy 100 aerial refuelling tankers to bases in Israel Source: AA / Writer: Ian",
+          "link": "https://nitter.net/MarioNawfal/status/2079109050180981173#m",
+          "date_utc": "2026-07-20T07:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNpzZvEWMAAzpXY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇸🇦🇾🇪 Is Saudi prepping for another attack on the Houthis? A week after they blew the crap out of a runway in Yemen to try and stop an Iranian plane from landing, a Saudi Air Force surveillance plane is flying over Houthi-controlled northern Yemen. Things have been relatively calm between them since the Houthis retaliated, but another strike would be sure to reignite their war. Source: @EGYOSINT / Writers: Mhedi, Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2079106533728862398#m",
+          "date_utc": "2026-07-20T07:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNp1d1-XIAA56ve.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2076656687331545088%2Fimg%2FaDcxuKGwy2dtqHNC.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It is a weird future indeed that is arriving and I love it. Will lead to a lot of magic for humans someday. Martin_DeVido (@d33v33d0) Holy SMOKES I have been DEEP in it. Building basically \"Dwarf Fortress\" for AI Actors: A real physics accounting engine - Where every agent can interact with every piece of the world completely autonomously. A sneek peek: Check it out!👇 Video — https://nitter.net/d33v33d0/status/2079109284051530206#m",
+          "link": "https://nitter.net/Scobleizer/status/2079136882546586044#m",
+          "date_utc": "2026-07-20T09:30:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079087167440379904%2Fimg%2F7YA0FB8jJzke8JQm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I still don’t expect to see Optimus 3 before next year.",
+          "link": "https://nitter.net/Scobleizer/status/2079135303105937442#m",
+          "date_utc": "2026-07-20T09:24:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Hey @Tesla_Optimus you must admit: the bar keeps getting raised every month. Er, week. That thing about exponents is on my mind. Very hard to catch and gets worse with each double. So rewards fast, and correct, decisions. A new kind of AI maybe? @blevlabs just told me that he thinks he has something that gives an advantage. Will see. But he is winning a lot of people over. More news is his to tell, but he was in a great mood Friday night. He was the second 21-year old I spent a lot of time with. Another was at Dimensional’s open house. These people are so alive. And can learn so fast. And if y",
+          "link": "https://nitter.net/Scobleizer/status/2079130695025467428#m",
+          "date_utc": "2026-07-20T09:06:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079104456965419008%2Fimg%2FAunsj2045cYrhImS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The new business imperative: find better ways to attract and take care of AI agents, because that's where the business soon will be coming.",
+          "link": "https://nitter.net/Scobleizer/status/2079126689867858359#m",
+          "date_utc": "2026-07-20T08:50:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“Build my own Waymo” isn’t how I thought this week would start, but here we are! Good morning… Jimmy at Voxel51 (@jimmy_voxel51) Six cameras? A spinning LiDAR? A GPS trace? All capturing the same instant? You can build it: hubs.ly/Q04pWt350 We built a FiftyOne plugin inspired by a Motional and UCLA Henry Samueli School of Engineering and Applied Science animation for their nuReasoning dataset. The plugin enables you to play everything in lockstep: camera frame, bird's-eye LiDAR, and a live map of every agent, advancing together frame by frame. The fun part is watching a self-driving car think.",
+          "link": "https://nitter.net/Scobleizer/status/2079123160088330732#m",
+          "date_utc": "2026-07-20T08:36:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://hubs.ly/Q04pWt350",
+              "content": "FiftyOne Plugin for Autonomous Driving Data Visualization Menu Product Enterprise Customers Resources Developers Pricing Book a demo Blog Tutorials Watching a Self-Driving Car Think: Building a Synced Frame + Map Plugin in FiftyOne Jun 29, 2026 • 10 min read Article content In this article What is FiftyOne? Your app, your rules: the FiftyOne plugin framework The inspiration: nuReasoning&#x27;s long-tail driving clips Riding shotgun: the frame + map panel The payoff: from pretty playback to real debugging Limitations and design trade-offs Next steps FAQ In this article What is FiftyOne? Your app, your rules: the FiftyOne plugin framework The inspiration: nuReasoning&#x27;s long-tail driving clips Riding shotgun: the frame + map panel The payoff: from pretty playback to real debugging Limita"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Grape vines would rather be cut by human hands than machine ones. Sarah Francis Ackerman, showed me the results of a blind A/B test that showed that to be true. Had two barrels of the same wine, one cut by hand. One cut by machine. Her wine was the first female made wine to get a perfect score from Robert Parker. One thing I don’t talk about often is that her winery was destroyed in the Napa Earthquake. It broke all her glassware. She couldn’t operate without $100,000 to replace all that. I invited her to give everyone a taste at my 51st party and tell her story. Had a couple of hundred who sh",
+          "link": "https://nitter.net/Scobleizer/status/2079117835398414419#m",
+          "date_utc": "2026-07-20T08:14:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNqCpsoasAAIPVc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "At least like @getVITURE",
+          "link": "https://nitter.net/Scobleizer/status/2079106890685190251#m",
+          "date_utc": "2026-07-20T07:31:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNp4soSa0AArpj3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If I did get to Trump I would bring him a pair of augmented reality glasses to show him the future.",
+          "link": "https://nitter.net/Scobleizer/status/2079106520009302284#m",
+          "date_utc": "2026-07-20T07:29:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I just saw @BalaSelvam follow me. He is one of USA’s highest national security officers. I would tell him to visit @reservoirfarms . The farmers are America’s secret asset. Automate them and save the family farm. Why do we call it the homeland? Because without them we are starving. They have interesting ideas about how to sense whether their robot will get stuck in the mud ahead or not. You don’t want your robots stuck in the mud, do you? I know a guy who built a robot on a potato farm in Idaho. Built key parts of Niantic’s augmented reality system. And if I were talking to Trump I would be tr",
+          "link": "https://nitter.net/Scobleizer/status/2079103838938948073#m",
+          "date_utc": "2026-07-20T07:19:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "You should see who his employer is. Quite a compliment. Honored. Jiwoong Lee (@porceTwits) Worth to listen to. — https://nitter.net/porceTwits/status/2079090604714394074#m",
+          "link": "https://nitter.net/Scobleizer/status/2079097841910464551#m",
+          "date_utc": "2026-07-20T06:55:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Un jour, les Français vont devoir ouvrir les yeux : Les « services publics » et les « aides sociales » ne sont plus un modèle social. C’est devenu le plus grand système de maintenance du niveau de vie des apparatchiks (fonctionnaires, syndicats, élus, cabinets, associations subventionnées) jamais inventé. 57 % du PIB en dépenses publiques. Record d’Europe. Record du monde développé. Et pour quel résultat ? - L’école s’effondre : PISA 2022, la France est dans la moyenne (474 en maths), en baisse nette depuis 10 ans. Singapour est à 575. La Suisse largement devant. - La justice n’a plus de moyen",
+          "link": "https://nitter.net/brivael/status/2079137388727566819#m",
+          "date_utc": "2026-07-20T09:32:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Human NPC to AI NPC No diff. Andréa Bensaid (@AndreaBensaid) L’IA a pris possession de LinkedIn, je répète, l’IA a pris possession de LinkedIn ! — https://nitter.net/AndreaBensaid/status/2078936626051387582#m",
+          "link": "https://nitter.net/brivael/status/2079136085662203961#m",
+          "date_utc": "2026-07-20T09:27:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Courage, courage, Nicolas. Ce que tu décris n’est pas un accident pédagogique. C’est le résultat logique d’un logiciel qui tourne depuis des décennies. L’Éducation nationale n’est plus un système de transmission. C’est une structure morale socialiste qui a besoin de produire des gens moyens. Pas parce que les profs sont méchants. Parce qu’ils baignent depuis toujours dans une idéologie qui ne comprend rien à la création de valeur, rien à l’économie réelle, rien au monde du travail. Ils donnent donc des conseils qui correspondent parfaitement à leur carte du monde… et qui sont catastrophiques p",
+          "link": "https://nitter.net/brivael/status/2079121197628027389#m",
+          "date_utc": "2026-07-20T08:28:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHMKFNM9XAAAmVPP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’ai pris aucune pilule. Je me pose juste des questions. Ces réflexions restent de la métaphysique, de la philosophie, éventuellement de l’ésotérisme. Rien de plus. Le vrai sujet, c’est qu’on n’a aucune preuve péremptoire que la conscience émerge purement de la complexité matérielle. Si c’est le cas, et qu’il n’existe aucun phénomène autre que matériel, alors le libre-arbitre n’existe pas. Nous ne sommes que les spectateurs d’un automate géant. Tu as l’impression de vivre, de choisir, de décider. Mais tes choix ne sont que le produit d’interactions chimiques et physiques. Un matérialisme coinc",
+          "link": "https://nitter.net/brivael/status/2079117577364681089#m",
+          "date_utc": "2026-07-20T08:13:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😂😂😂😂 Regan MARKLE (@TheReganAngle) Et hop, c'est l'heure de nourrir les journalistes de France télévision Video — https://nitter.net/TheReganAngle/status/2078484001929478178#m",
+          "link": "https://nitter.net/brivael/status/2079111795613008320#m",
+          "date_utc": "2026-07-20T07:50:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F1923535269820514304%2Fpu%2Fimg%2F60ODwG0aSwfCBoLK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’étais assez sceptique sur l’Everything App d’Elon. J’avais cette naïveté de croire que ce n’était pas possible en Occident. Trop d’inertie, trop de jugements, trop de freins culturels. Plus j’observe X, plus cette conviction s’effrite. Parce que Grok est en train de construire exactement ce qui manquait : une plateforme qui colle à l’esprit occidental. La liberté individuelle. La capacité de créer sans être jugé. La capacité d’exprimer des idées sans être immédiatement assigné à une case. Si Elon arrive à y brancher proprement le banking, la consommation de culture (cinéma, séries, musique…)",
+          "link": "https://nitter.net/brivael/status/2079109471058477373#m",
+          "date_utc": "2026-07-20T07:41:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Dans les mois qui viennent, vous allez entendre parler d’ingérence, d’extrême droite et de manipulation des algorithmes. Ils vont pointer X du doigt. Sauf qu’il y a un détail gênant : aujourd’hui, l’algorithme de recommandation est open source. Bientôt, c’est l’intégralité du code de X qui le sera, avec vérification tierce que ce qui tourne en production est bien celui qui est publié. Autrement dit : la seule plateforme au monde où l’accusation de manipulation est vérifiable (et donc réfutable) est celle qu’on accuse le plus fort. Les autres restent des boîtes noires. Celle-là met les plans au",
+          "link": "https://nitter.net/brivael/status/2079108706420076588#m",
+          "date_utc": "2026-07-20T07:38:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNnhAzcWEAAyUE9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les deux personnages les plus clivants de France réunis dans un même podcast 😃 Sans Permission l’a fait. @dr_l_alexandre et @daedalium On a parlé d’intelligence artificielle, du futur qui se construit sous nos yeux, et de ce que ça change vraiment. Video",
+          "link": "https://nitter.net/brivael/status/2079108125051772978#m",
+          "date_utc": "2026-07-20T07:36:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079106081343655936%2Fimg%2FTNhswbBpFJtu0Cdr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’école et l’éducation nationale détruit le potentiel des enfants français oui. NO-NAME (@WHY_NOT_MARS) Ma fille en est une preuve de plus : ecole a domicile. A 14 ans elle travaillait pour Steven Spielberg et James Cameron. L'ecole socialiste est un frein a l'expansion individuelle, un formatage voulu par le systeme. Aucune liberte individuelle, aucun choix. — https://nitter.net/WHY_NOT_MARS/status/2079033999125848205#m",
+          "link": "https://nitter.net/brivael/status/2079104709315432624#m",
+          "date_utc": "2026-07-20T07:22:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "À lire ce matin : Brivael Le Pogam (@brivael) La prochaine fois que ta tante gauchiste te sort : « X c’est un réseau d’extrême droite manipulé par Elon Musk », fais du judo. Dis-lui calmement : X est la seule grande plateforme qui a publié son code source. Tout le monde peut le lire. Tout le monde peut vérifier. Les autres (Meta, YouTube, TikTok…) restent des boîtes noires. Et pendant des années, elles ont discrètement réduit la portée du contenu de droite. Sans que personne ne puisse le prouver, puisqu’on n’avait pas le code. Si l’Europe veut vraiment « protéger nos démocraties », elle devrai",
+          "link": "https://nitter.net/brivael/status/2079103716926308620#m",
+          "date_utc": "2026-07-20T07:18:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "yes Yero (@Yerocode0) 🚨Elon Musk lo dejó claro: “Tan pronto como desbloquees el humano digital, tendrás acceso a billones de dólares en ingresos. Las empresas más valiosas del mundo ya no fabrican productos, solo envían archivos. - Nvidia no hace chips. Envía archivos de diseño ultra complejos a Taiwán. - Apple no fabrica iPhones. Solo manda los archivos a China. - Meta y Google: su producto es 100% digital. Con un emulador humano, puedes crear una de las compañías más valiosas del planeta de la noche a la mañana. Acceso a billones de dólares. No es poco. El futuro no es fabricar cosas. Es emu",
+          "link": "https://nitter.net/brivael/status/2079102777796554879#m",
+          "date_utc": "2026-07-20T07:15:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079051701844107264%2Fimg%2Fylpb4UWkYwI24lEq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui, Charles Gave a tout compris sur l’économie. Avec un ami comme Milton Friedman en même temps, il est difficile de rester attardé. L’homme Sans Qualité (@GamesUtd) Le véritable nom de @IdLiibertes aka Charles Gave, c'est, tout simplement: le patron. C'est un véritable mal français que de se passer de ses véritables atouts. Ce type est exceptionnel. — https://nitter.net/GamesUtd/status/2078889535857910030#m",
+          "link": "https://nitter.net/brivael/status/2079097280892670256#m",
+          "date_utc": "2026-07-20T06:53:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Matou 🐿 💸 (@MatouEcureuil) Effectivement. A un moment donné, tout le monde devrait ouvrir les yeux et constater que la “crise”, le chômage de masse… ne sont que la conséquence des politiques mises en œuvre en France. C’est le socialisme qui étouffe l’économie et c’est voulu. It’s not a bug, it’s a feature — https://nitter.net/MatouEcureuil/status/2078895885161746727#m",
+          "link": "https://nitter.net/brivael/status/2079096719636042009#m",
+          "date_utc": "2026-07-20T06:51:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les gauchistes doivent comprendre ça très vite et arrêter de mentir et de corrompre. C’est plus nécessaire. Peter H. Diamandis, MD (@PeterDiamandis) The faster we reach better intelligence, the faster we reach abundance, and the faster we stop having to fight over anything at all. — https://nitter.net/PeterDiamandis/status/2078845834331054221#m",
+          "link": "https://nitter.net/brivael/status/2079096596113797533#m",
+          "date_utc": "2026-07-20T06:50:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🔥🔥🔥 The Conservative Alternative (@OldeWorldOrder) Masculinity has become rightwing. This is how we win. — https://nitter.net/OldeWorldOrder/status/2079013559296487519#m",
+          "link": "https://nitter.net/brivael/status/2079092218485223910#m",
+          "date_utc": "2026-07-20T06:33:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Marxism / Socialism = Terrorism Arthur MacWaters (@ArthurMacwaters) Socialists under Stalin killed 20,000,000 people. Under Mao 65,000,000 The National Socialist Party was **Socialist** All told, socialists are responsible for 100,000,000+ deaths in the last century. Think about that. They will gladly take 100 million more if given the chance. Because they think they are justified. Socialism is the worst ideology ever conceived by man. It is a form of religious extremism where the god is envy and worship is cruelty, justified by greed. It has never \"worked\" and never will. When idiots like Has",
+          "link": "https://nitter.net/brivael/status/2079085308943937566#m",
+          "date_utc": "2026-07-20T06:05:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNpX_tIbQAAyYmP.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Name of my film directed in 2020: OJAI….. OJ-AI. Orange Juice AI…. Heavy Pulp = humorously named subtly orange juice themed AI art account created last year The signs were always there",
+          "link": "https://nitter.net/heavypulp/status/2079066016823308354#m",
+          "date_utc": "2026-07-20T04:49:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Image",
+          "link": "https://nitter.net/magicsilicon/status/2079093117689430165#m",
+          "date_utc": "2026-07-20T06:36:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNpsHqdWcAALxnK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Fix It For Argentina 🤔",
+          "link": "https://nitter.net/magicsilicon/status/2079069622767140914#m",
+          "date_utc": "2026-07-20T05:03:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "Complete mastery is when you are able to turn your work into art Video",
+          "link": "https://nitter.net/magicsilicon/status/2079059691070423364#m",
+          "date_utc": "2026-07-20T04:23:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2078728786611245056%2Fimg%2FjCaS66cslMepg5xc.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "5 in a week? Just wait til the earthquake. Matthew Seedorff (@MattSeedorff) NEW: Five water main breaks in just one week are raising new questions about the state of L.A.’s aging infrastructure. The biggest: a 110-year-old, 36-inch pipe that ruptured in West Hollywood, sending 17 million gallons of water through the Sunset Strip, flooding businesses, apartments and parking garages. LADWP reportedly replaces about 45 miles of pipe each year… less than 1% of its roughly 7,000-mile water system. Video — https://nitter.net/MattSeedorff/status/2079075505593282938#m",
+          "link": "https://nitter.net/spencerpratt/status/2079134934002786802#m",
+          "date_utc": "2026-07-20T09:22:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2079075254388015104%2Fimg%2Fyh3G9swRg0YZS99-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Don’t let communists run your city. CodeThreeNews (@CodeThreeNews) 💦Welp, another broken water main in the #Hollywood area. This one’s reported near 6000 Santa Monica Blvd. No crews in sight, but LADWP went out to put barricades up, that should stop it… 😂 📸Citizen — https://nitter.net/CodeThreeNews/status/2078621793796198842#m",
+          "link": "https://nitter.net/spencerpratt/status/2078906495836524981#m",
+          "date_utc": "2026-07-19T18:15:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNi_gWvb0AANDUN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Hasan Piker dressed as Mao, brainwashing your kids at college. They’re communists. This was always communism.",
+          "link": "https://nitter.net/spencerpratt/status/2078902738822246562#m",
+          "date_utc": "2026-07-19T18:00:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHNm_BiKW0AASbGD.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "theskory",
+      "org": "Meta AI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "theskory",
+          "creator": "@theskory",
+          "text": "Exactly! Toni Kroos (@ToniKroos) Football won — https://nitter.net/ToniKroos/status/2078966606965641685#m",
+          "link": "https://nitter.net/theskory/status/2079115792109416719#m",
+          "date_utc": "2026-07-20T08:06:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
