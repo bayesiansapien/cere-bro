@@ -1,0 +1,11 @@
+## Summary
+
+A thin AI slot. The feed is dominated by geopolitics (MarioNawfal on the Iran conflict, Red Sea shipping, missile stockpiles) and French political commentary (a long brivael thread), none of which is AI signal. The one substantive AI-industry item is a brivael repost of Chamath Palihapitiya arguing Elon should open-source Grok, on the logic that doing so pushes all margin out of the model layer and down into infrastructure (chips, cloud) and up into apps like Cursor, which Musk's stack already owns. Beyond that there are only light curiosities: kilocode's World Cup prediction leaderboard where Qwen3.6-Plus hit 68%, magicsilicon's DEC Alpha and VAX chip-history trivia, and an "AI went superhuman at math" meme. No papers, no launches, no research threads worth drilling into today.
+
+## Posts
+
+- **Chamath: open-source Grok to move margin off the model layer** ([@brivael](https://nitter.net/brivael/status/2079539928082289041#m) · [original](https://nitter.net/chamath/status/2079528790179348929#m)). Chamath argues that if Musk flips Grok to open weights, model-layer margin collapses and value shifts to infrastructure (data centers, chips, CSPs) and apps (Cursor), all of which Musk's stack controls. A clean statement of the "commoditize the model, capture the layers around it" thesis.
+- **Qwen3.6-Plus tops a World Cup prediction leaderboard** ([@kilocode](https://nitter.net/kilocode/status/2079238241564188753#m)). Alibaba's Qwen3.6-Plus hit 68% overall and 72% in knockouts predicting match outcomes, the highest of any model tested. A fun eval curiosity, not a rigorous benchmark.
+- **Chip history: DEC's Alpha and AltaVista, and VAX trivia** ([@magicsilicon](https://nitter.net/magicsilicon/status/2079436671293194656#m)). Notes that DEC built AltaVista in 1995 to showcase its Alpha processors, then failed to capitalize on either the chip or the search engine. Light semiconductor-history color.
+- **"AI went superhuman at math" meme** ([@ns123abc](https://nitter.net/ns123abc/status/2079187762268230023#m)). A joke image riffing on AI beating mathematicians. Vibe, not signal.
+- **xAI engineer wants a /deep-sleep skill** ([@stepango](https://nitter.net/stepango/status/2079539007059619982#m)). Throwaway joke about agent skills. Skip.
