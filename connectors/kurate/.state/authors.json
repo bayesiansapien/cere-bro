@@ -9850,5 +9850,47 @@
     ],
     "first_seen": "2026-W29",
     "last_seen": "2026-W30"
+  },
+  "Andrej Bogdanov": {
+    "appearances": [
+      {
+        "week": "2026-W30",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.09532v1",
+        "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W30",
+    "last_seen": "2026-W30"
+  },
+  "Alon Rosen": {
+    "appearances": [
+      {
+        "week": "2026-W30",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.09532v1",
+        "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W30",
+    "last_seen": "2026-W30"
+  },
+  "Neekon Vafa": {
+    "appearances": [
+      {
+        "week": "2026-W30",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.09532v1",
+        "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+        "ai_rating": 7.8
+      }
+    ],
+    "first_seen": "2026-W30",
+    "last_seen": "2026-W30"
   }
 }
