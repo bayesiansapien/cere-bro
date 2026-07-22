@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 55 (2026-07-21)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>55 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-07-21<br> <strong>Run time:</strong> ~24 min</p>
+
+<p>Four papers today converge on the same seam: the line between reinforcement learning and distillation is dissolving. Distilled RL folds the teacher into the RL objective. TOPL reframes post-training as token-level correctness prediction. GEPO controls entropy per task-group. LLM-as-a-Coach turns the reward model into a feedback channel. Each attacks the same problem from a different angle: a scalar outcome reward is too coarse, and unconditional imitation is too blunt. Meanwhile the Kimi K3 shockwave has turned into a concrete Washington debate about banning Chinese open-source models.</p>
+
+<p><strong>In this episode</strong> - <strong>Distilled RL</strong>: folds teacher supervision into the RL objective so the teacher transfers only the knowledge the student lacks, instead of unconditionally matching logits. Beats both RL and on-policy distillation on pass@1 and pass@k, and works cross-family where vanilla distillation fails. - <strong>TOPL</strong>: reframes post-training as token-level correctness prediction. Train the model to tell good tokens from bad, and it generates good ones, without the pitfalls of directly training on off-policy tokens. Strong out-of-distribution generalization across 11 summarization datasets, transfers to translation. - <strong>GEPO</strong>: entropy control per task-group. Mixed-task RL creates distinct entropy regimes that global or token-level entropy control cannot serve; GEPO shapes advantages by group entropy. Beats GRPO across 13 benchmarks. - <strong>SWE-Pruner Pro</strong>: the coder agent already encodes which context lines matter. A small head reads the agent's own internal representations to prune tool output, saving up to 39% of tokens and even raising SWE-Bench Verified by +3.8% on one backbone. - <strong>FlashRT</strong>: an agent harness that lifts a developer's reference implementation into an optimized multi-GPU deployment. Up to ~70x latency reduction and 2.8-3.6x throughput on B200 / MI355X. - <strong>The open-weights ban debate goes concrete</strong>: the Kimi K3 release has US officials openly discussing banning Chinese open-source AI, per The Information and Axios, exactly the scenario Interconnects flagged on July 12.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-07-21/">2026-07-21</a></p>
+</body>
+</html>
