@@ -140,9 +140,20 @@ If today's papers are isolated from prior wiki state, omit this section.
 
 ## Industry Pulse
 
-What's happening beyond the lab. 3-6 bullets, ONE SHORT SENTENCE per bullet (≤25 words).
+What's happening beyond the lab. An important section, not a throwaway — give it
+thorough coverage. Typically 8-14 bullets (more if the sources carry more real
+signal), ONE SHORT SENTENCE per bullet (≤25 words). Do NOT over-compress.
 
 - **[Company/Event]** — what happened, in one short sentence.
+
+**Funding & startups sub-cluster (mandatory):** scan every source for funding
+rounds (amount, lead investor, valuation, stage), IPO filings, M&A, new company
+launches, notable hires, and large compute deals. Group them under a bold
+`**Funding, valuations, and compute deals**` sub-heading, one bullet each. Never
+drop a funding round or valuation from the raw sources.
+
+**Substantive blog essays** that make a real technical or analytical argument get
+a Deep Dive or a synthesis thread on their claim, not just a one-line mention.
 
 ---
 
