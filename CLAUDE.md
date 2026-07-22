@@ -415,12 +415,37 @@ diagrams — they are banned.
 
 What's happening beyond the lab. Company moves, product launches, funding
 rounds, regulation, policy. Sources: TLDR AI, The Decoder, VentureBeat AI,
-The Information, AI Breakfast, Pragmatic Engineer, SemiAnalysis.
+The Information, AI Breakfast, AI Weekly / Daily Espresso, Last Week in AI
+(the LWiAI podcast summaries in Gmail carry dense business news — read the
+body and extract each distinct item), Pragmatic Engineer, SemiAnalysis and the
+other semiconductor newsletters, Interconnects, Medium Daily Digest.
 
-3-8 bullets. **One short sentence per bullet** (≤25 words). Lead with the
-most consequential. Skip pure PR.
+This is an **important section, not a throwaway** — give it thorough coverage.
+**Typically 8-14 bullets**, more if the raw sources carry more real signal. Do
+NOT over-compress to 3-5 bullets. **One short sentence per bullet** (≤25 words).
+Lead with the most consequential. Skip pure PR.
 
 - **[Company/Product/Event]** — what happened, in one short sentence ([source](URL)).
+
+**Mandatory funding & startup sub-cluster.** The reader tracks funding, startups,
+and M&A as a distinct attention tier. Before finishing the section, scan every
+source specifically for: funding rounds (name amount, lead investor, valuation,
+stage), IPO filings, acquisitions/M&A, new company launches, notable hires, and
+large compute/infrastructure deals. Group them under a bold
+`**Funding, valuations, and compute deals**` sub-heading inside Industry Pulse,
+one bullet each. Never drop a funding round or valuation that appears in the raw
+sources — the dollar figure alone is high-signal to this reader.
+
+**Hardware/semiconductor items always surface** (Tier 1 reader interest):
+SemiAnalysis, the Semiconductor Newsletter, and Fabricated Knowledge items on
+fabs, memory/HBM, packaging, or datacenter economics get a bullet even on a
+quiet day.
+
+**Substantive blog essays get more than a bullet.** A standalone argumentative
+essay (Sebastian Raschka / Ahead of AI, a SemiAnalysis deep-dive, an Interconnects
+analysis, Gary Marcus) that makes a real technical or analytical claim earns a
+Deep Dive or a Global View thread on its actual argument — do not reduce it to a
+one-line Industry Pulse mention.
 
 Inline flag any item that intersects research themes from today's Deep Dives.
 
