@@ -94,6 +94,25 @@ def run(cmd: list[str], check: bool = True) -> str:
 def nlm(*args, capture: bool = True) -> str:
     return run(["nlm", *args])
 
+def extract_id(out: str, *json_keys: str, regex: str = r"ID:\s*([a-f0-9-]+)"):
+    """Pull a UUID from nlm output. nlm >=0.9 emits JSON (e.g. {"notebook_id": ...,
+    "artifact_id": ...}); older 0.3.x emitted plain 'ID: <uuid>' text. Try the JSON
+    keys first, then fall back to the legacy regex so both CLI versions work."""
+    try:
+        data = json.loads(out)
+        if isinstance(data, dict):
+            for k in json_keys:
+                if data.get(k):
+                    return str(data[k])
+            # last resort: any value that looks like a uuid
+            for v in data.values():
+                if isinstance(v, str) and re.fullmatch(r"[a-f0-9-]{16,}", v):
+                    return v
+    except (json.JSONDecodeError, ValueError):
+        pass
+    m = re.search(regex, out)
+    return m.group(1) if m else None
+
 # ── Episode number ─────────────────────────────────────────────────────────────
 
 def compute_episode_number() -> int:
@@ -245,11 +264,10 @@ print("\nCreating notebook...")
 title_suffix = "weekly review" if EPISODE_MODE == "weekly" else date_str
 title = f"{cfg['show_name']} {date_str} ({title_suffix})" if EPISODE_MODE == "weekly" else f"{cfg['show_name']} {date_str}"
 out = nlm("notebook", "create", title)
-m = re.search(r"ID:\s*([a-f0-9-]+)", out)
-if not m:
+NOTEBOOK_ID = extract_id(out, "notebook_id", "id")
+if not NOTEBOOK_ID:
     print(f"ERROR: couldn't parse notebook ID from:\n{out}")
     sys.exit(1)
-NOTEBOOK_ID = m.group(1)
 print(f"  Notebook ID: {NOTEBOOK_ID}")
 
 # ── Add sources ────────────────────────────────────────────────────────────────
@@ -294,11 +312,10 @@ out = nlm("audio", "create", NOTEBOOK_ID,
           "--length", cfg["audio_length"],
           "--focus", focus_prompt,
           "--confirm")
-m = re.search(r"Artifact ID:\s*([a-f0-9-]+)", out)
-if not m:
+ARTIFACT_ID = extract_id(out, "artifact_id", "id", regex=r"Artifact ID:\s*([a-f0-9-]+)")
+if not ARTIFACT_ID:
     print(f"ERROR: couldn't parse artifact ID from:\n{out}")
     sys.exit(1)
-ARTIFACT_ID = m.group(1)
 print(f"  Artifact ID: {ARTIFACT_ID}")
 
 # ── Poll until ready ───────────────────────────────────────────────────────────
