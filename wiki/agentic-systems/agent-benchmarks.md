@@ -2,6 +2,10 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
+## Current State (as of 2026-07-22)
+
+**Agent failure attribution closes the loop from *locate* to *repair*.** [AgentDebugX](2026-07-22-agentdebugx-dataflow-harness-agent-tooling.md) (2607.18754) organizes debugging as Detect → Attribute → Recover → Rerun, with a DeepDebug root-cause module built on the premise the failure-attribution thread keeps naming: the step where an error surfaces is usually not the step that caused it. It posts the best strict (exact agent-and-step) attribution on the "Who and When" benchmark (28.8% on qwen3.5-9b vs 21.7% single-pass) and, crucially, converts diagnosis to repair, fixing 13/73 failed GAIA tasks in one rerun (vs 4-6 for self-correction baselines), lifting 55.8% → 63.6%. This is the recovery half of the OAT / Failure-as-a-Process attribution thread ([2026-07-20 digest](../daily-digest/2026-07/2026-07-20.md)): OAT located *where* a trajectory deviated from a success flow; AgentDebugX adds attribution → repair → a shareable Error Hub (scrubbed diagnosis-repair bundles as debugging memory). Absolute attribution is still low (28.8% exact), which is the honest ceiling. Its same-day companion DataFlow-Harness (2607.16617) extends the harness-as-artifact theme (07-16 Harness Handbook) to data engineering: constrain the agent to typed, live-grounded DAG mutations instead of free-form scripts and get 72.5% lower cost than Vanilla Claude Code at comparable reliability.
+
 ## Current State (as of 2026-06-18)
 
 **Two same-day benchmarks confirm frontier models fail at sustained and stateful tasks, and an active-perception agent shows the escape route.** The page's running thread, that short-horizon accuracy does not predict long-horizon robustness, gets its strongest evidence yet on the same day from two opposite axes.
