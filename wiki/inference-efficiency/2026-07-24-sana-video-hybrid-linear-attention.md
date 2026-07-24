@@ -4,7 +4,7 @@
 
 ```mermaid
 flowchart LR
-    T[Video tokens] --> GLA[Gated linear attn<br/>O(N) mixing]
+    T[Video tokens] --> GLA["Gated linear attn<br/>O(N) mixing"]
     GLA --> ANCH{Every 4th layer?}
     ANCH -->|yes| SM[Gated-softmax anchor<br/>full-rank interactions]
     ANCH -->|no| GLA2[More linear layers]
