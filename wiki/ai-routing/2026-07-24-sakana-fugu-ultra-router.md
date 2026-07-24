@@ -10,7 +10,7 @@ Fugu Ultra is a commercial LLM router: given a query, it picks (or blends across
 
 This lands squarely on the wiki's routing thread and Sakana's own prior work. [Conductor (05-11)](2026-05-11-conductor-sakana-orchestrating-frontier-models.md) was Sakana's RL orchestrator that treated routing as a learned policy over frontier models; Fugu Ultra is the productized descendant. The "beat the frontier model without including it" claim is the strongest public version of the [routing-as-substitute thesis](llm-routing.md): that a good router over commodity models can substitute for a single expensive one. It should be read against the [07-20 "When is routing meaningful"](2026-07-20-when-is-routing-meaningful.md) skepticism, which argued routing only pays off when the model pool is genuinely diverse in cost and capability. Sakana's claim is exactly the kind of assertion that thesis says to check, and the absence of independent verification is the caveat.
 
-The Claude-Code-compatible endpoint is the more concrete signal: it means Fugu is positioning as a drop-in backend for agentic coding, competing with the flash-model price war ([Ling 3.0 Flash](../llms-foundation-models/), Grok 4.5) on economics rather than raw capability.
+The Claude-Code-compatible endpoint is the more concrete signal: it means Fugu is positioning as a drop-in backend for agentic coding, competing with the flash-model price war (Ling 3.0 Flash, Grok 4.5) on economics rather than raw capability.
 
 **Caveats.** Vendor benchmark, self-reported, no independent verification, EU-unavailable. The "7.9 points" and "beats Fable 5" figures are Sakana's own; treat as a claim to track, not a result.
 
