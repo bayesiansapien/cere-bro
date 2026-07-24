@@ -38,6 +38,6 @@ RIPO is part of a July cluster of papers that all reopen the *optimizer* layer o
 
 **Gaps.** The 60% headline is one benchmark (AIME24); "up to" leaves the average lift unstated. Isometric updates add per-step geometric computation whose overhead versus GRPO is not quantified here. Manifold theory is derived for softmax policies; extension to other output structures is unaddressed.
 
-- Source: [arXiv 2607.10169](https://arxiv.org/abs/2607.10169) · [HuggingFace](https://huggingface.co/papers/2607.16190)
+- Source: [arXiv 2607.10169](https://arxiv.org/abs/2607.10169) · [HuggingFace](https://huggingface.co/papers/2607.10169)
 - Raw: `raw/huggingface/2026-07-23-beyond-euclidean-clipping-overcoming-exploration-collapse-in.md`
 - Related: [ISO](2026-07-22-iso-rlvr-native-optimization.md) · [SAT](2026-07-22-sat-staleness-adaptive-trust-regions.md) · [Predictive Divergence Masks](2026-07-24-predictive-divergence-masks.md) · [rl-for-llms](../llms-foundation-models/rl-for-llms.md)
