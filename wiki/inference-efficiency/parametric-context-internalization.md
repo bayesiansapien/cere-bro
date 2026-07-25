@@ -27,6 +27,16 @@ Two independent groups shipping the same mechanism (predict-an-adapter-from-cont
 
 This axis is the deployment face of the wiki's parametric-memory thread. [How LoRA Remembers](2026-05-29-how-lora-remembers-parametric-memory-law.md) (05-29) characterized *how much* a low-rank adapter can store and at what rank. Parametric internalization is the operational question that follows: if a rank-`r` adapter can hold this context, **generate that adapter cheaply and keep it current**. The composition-in-rank-space result from Video2LoRA also touches the additive-adapter / merge line (MergePipe), suggesting internalized chunks can be summed.
 
+## The tool-call-history modality arrives (2026-07-25)
+
+The open questions below asked, after doc, code, and video: "Audio, tabular, **tool-call histories** next?" [Experience Distillation](../agentic-systems/2026-07-25-experience-distillation-sample-efficient-agent-learning.md) (2607.21051, Monash + ByteDance Seed) is tool-call histories, arriving by a different mechanism but on the identical cost model.
+
+The mechanism differs in a way worth naming. Code2LoRA and Video2LoRA *predict* an adapter from context in one hypernetwork pass. Experience Distillation *trains* a student to reproduce the behavior of a teacher that read the context, which is classic context distillation. What makes it belong on this axis is the cost model, which flips exactly the same way: pay once to move the context into weights, then pay zero context tokens per query forever. Its specific contribution is that the distillation phase touches the environment **zero times**, unlike prior in-context-learning-plus-context-distillation attempts for agents, which re-ran the experience-conditioned teacher inside the environment and thereby spent the very resource the exercise was conserving.
+
+The number that matters for this page is the gap between distillation and naive internalization: **64.8% of the in-context gain retained versus 3.8% for supervised fine-tuning on the same transcripts.** That is a strong argument that *what* you internalize matters more than *how*. Fine-tuning internalizes the record (mostly failure); distillation internalizes the behavior of a model that has read the record. Whether the hypernetwork branch has a comparable failure mode, predicting an adapter that encodes the document rather than the competence the document confers, is not something Code2LoRA or Video2LoRA tested, and this result suggests it should be.
+
+It also supplies a partial answer to the **break-even query count** question below. Experience Distillation matches classical RL baselines at 9.6x fewer environment samples, so the break-even is not measured in queries against one item but in avoided environment interactions, which for agents is the expensive unit.
+
 ## Open questions
 
 - **Break-even query count.** For each modality, how many queries against one item before the hypernetwork pass pays for itself versus just feeding the context once?
