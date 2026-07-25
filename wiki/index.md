@@ -40,12 +40,12 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [2026-04-16-seedance-2-video-generation.md](multimodal/2026-04-16-seedance-2-video-generation.md) | Seedance 2.0: unified audio-video generation with 4 input modalities |
-| [2026-04-16-rationalrewards-visual-generation.md](multimodal/2026-04-16-rationalrewards-visual-generation.md) | RationalRewards: critique-before-score reward models for visual generation |
-| [2026-04-16-gameworld-multimodal-game-agents.md](multimodal/2026-04-16-gameworld-multimodal-game-agents.md) | GameWorld: 34-game benchmark for MLLM game agents |
-| [2026-04-16-merrin-multimodal-retrieval.md](multimodal/2026-04-16-merrin-multimodal-retrieval.md) | MERRIN: multimodal web retrieval benchmark; avg accuracy 22.3% |
-| [2026-05-02-vipo-visual-preference-optimization.md](multimodal/2026-05-02-vipo-visual-preference-optimization.md) | ViPO: 1M image + 300K video preference pairs; Poly-DPO collapses to DPO on clean data |
-| [2026-05-02-semi-dpo-noisy-preferences.md](multimodal/2026-05-02-semi-dpo-noisy-preferences.md) | Semi-DPO: treats conflicting DPO preference labels as noisy unlabeled data; iterative pseudo-labeling |
+| [2026-04-16-seedance-2-video-generation.md](vision-audio-video/2026-04-16-seedance-2-video-generation.md) | Seedance 2.0: unified audio-video generation with 4 input modalities |
+| [2026-04-16-rationalrewards-visual-generation.md](vision-audio-video/2026-04-16-rationalrewards-visual-generation.md) | RationalRewards: critique-before-score reward models for visual generation |
+| [2026-04-16-gameworld-multimodal-game-agents.md](vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md) | GameWorld: 34-game benchmark for MLLM game agents |
+| [2026-04-16-merrin-multimodal-retrieval.md](vision-audio-video/2026-04-16-merrin-multimodal-retrieval.md) | MERRIN: multimodal web retrieval benchmark; avg accuracy 22.3% |
+| [2026-05-02-vipo-visual-preference-optimization.md](vision-audio-video/2026-05-02-vipo-visual-preference-optimization.md) | ViPO: 1M image + 300K video preference pairs; Poly-DPO collapses to DPO on clean data |
+| [2026-05-02-semi-dpo-noisy-preferences.md](vision-audio-video/2026-05-02-semi-dpo-noisy-preferences.md) | Semi-DPO: treats conflicting DPO preference labels as noisy unlabeled data; iterative pseudo-labeling |
 
 ## inference-efficiency
 
@@ -118,7 +118,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [2026-04-20-qwen35-omni.md](multimodal/2026-04-20-qwen35-omni.md) | Qwen3.5-Omni: MoE + 256k context omnimodal; ARIA streaming speech alignment; SOTA 215 audio-visual benchmarks |
+| [2026-04-20-qwen35-omni.md](vision-audio-video/2026-04-20-qwen35-omni.md) | Qwen3.5-Omni: MoE + 256k context omnimodal; ARIA streaming speech alignment; SOTA 215 audio-visual benchmarks |
 
 ## inference-efficiency (new 2026-04-22)
 
@@ -201,10 +201,10 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [2026-04-30-glm-5v-turbo-multimodal-agent.md](multimodal/2026-04-30-glm-5v-turbo-multimodal-agent.md) | GLM-5V-Turbo (Z.ai): native multimodal agent foundation; CogViT + Multimodal MTP + joint RL over 30+ tasks; 94.8 Design2Code beats Opus 4.6 |
-| [2026-04-30-diffusion-templates-plugin-framework.md](multimodal/2026-04-30-diffusion-templates-plugin-framework.md) | Diffusion Templates (Alibaba): unified plugin framework. KV-Cache and LoRA under one capability-injection abstraction |
-| [2026-04-30-fash-icnn-fashion-identity.md](multimodal/2026-04-30-fash-icnn-fashion-identity.md) | FASH-iCNN (Adobe): texture/luminance > color as carriers of editorial fashion identity; CNN probing methodology generalizes |
-| [2026-04-30-x-wam-4d-world-model-robotics.md](multimodal/2026-04-30-x-wam-4d-world-model-robotics.md) | X-WAM: unified 4D world+action with Asynchronous Noise Sampling; fewer steps for action, full steps for video; 90.7% RoboTwin 2.0 |
+| [2026-04-30-glm-5v-turbo-multimodal-agent.md](vision-audio-video/2026-04-30-glm-5v-turbo-multimodal-agent.md) | GLM-5V-Turbo (Z.ai): native multimodal agent foundation; CogViT + Multimodal MTP + joint RL over 30+ tasks; 94.8 Design2Code beats Opus 4.6 |
+| [2026-04-30-diffusion-templates-plugin-framework.md](vision-audio-video/2026-04-30-diffusion-templates-plugin-framework.md) | Diffusion Templates (Alibaba): unified plugin framework. KV-Cache and LoRA under one capability-injection abstraction |
+| [2026-04-30-fash-icnn-fashion-identity.md](vision-audio-video/2026-04-30-fash-icnn-fashion-identity.md) | FASH-iCNN (Adobe): texture/luminance > color as carriers of editorial fashion identity; CNN probing methodology generalizes |
+| [2026-04-30-x-wam-4d-world-model-robotics.md](vision-audio-video/2026-04-30-x-wam-4d-world-model-robotics.md) | X-WAM: unified 4D world+action with Asynchronous Noise Sampling; fewer steps for action, full steps for video; 90.7% RoboTwin 2.0 |
 
 ## llms-foundation-models (new 2026-04-30)
 
@@ -247,10 +247,10 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [2026-05-01-edit-r1-verifier-rl-image-editing.md](multimodal/2026-05-01-edit-r1-verifier-rl-image-editing.md) | Edit-R1: CoT reasoning verifier reward for image editing; SFT cold-start + GCPO; scorer-to-reasoning-verifier shift generalizes beyond editing |
-| [2026-05-01-fd-loss-frechet-visual-generation.md](multimodal/2026-05-01-fd-loss-frechet-visual-generation.md) | FD-loss: decouple population (50K) from batch (1024) to make Fréchet Distance trainable; 0.72 FID one-step ImageNet; multi-representation FDrk metric |
-| [2026-05-01-visual-generation-taxonomy-survey.md](multimodal/2026-05-01-visual-generation-taxonomy-survey.md) | Visual Generation taxonomy: Atomic / Conditional / In-Context / Agentic / World-Modeling Generation; locates current frontier and the open levels |
-| [2026-05-01-phyco-controllable-physics-priors.md](multimodal/2026-05-01-phyco-controllable-physics-priors.md) | PhyCo: 100K physics simulation videos + ControlNet on physical-property maps + VLM-guided reward for physically consistent video generation |
+| [2026-05-01-edit-r1-verifier-rl-image-editing.md](vision-audio-video/2026-05-01-edit-r1-verifier-rl-image-editing.md) | Edit-R1: CoT reasoning verifier reward for image editing; SFT cold-start + GCPO; scorer-to-reasoning-verifier shift generalizes beyond editing |
+| [2026-05-01-fd-loss-frechet-visual-generation.md](vision-audio-video/2026-05-01-fd-loss-frechet-visual-generation.md) | FD-loss: decouple population (50K) from batch (1024) to make Fréchet Distance trainable; 0.72 FID one-step ImageNet; multi-representation FDrk metric |
+| [2026-05-01-visual-generation-taxonomy-survey.md](vision-audio-video/2026-05-01-visual-generation-taxonomy-survey.md) | Visual Generation taxonomy: Atomic / Conditional / In-Context / Agentic / World-Modeling Generation; locates current frontier and the open levels |
+| [2026-05-01-phyco-controllable-physics-priors.md](vision-audio-video/2026-05-01-phyco-controllable-physics-priors.md) | PhyCo: 100K physics simulation videos + ControlNet on physical-property maps + VLM-guided reward for physically consistent video generation |
 
 ## ai-industry (new 2026-05-01)
 
@@ -286,7 +286,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [2026-05-02-nemotron-3-nano-omni.md](multimodal/2026-05-02-nemotron-3-nano-omni.md) | Nemotron 3 Nano Omni (multimodal angle): 30B native-audio omni model; multimodal token reduction as routing primitive; fourth open-frontier release in 72h |
+| [2026-05-02-nemotron-3-nano-omni.md](vision-audio-video/2026-05-02-nemotron-3-nano-omni.md) | Nemotron 3 Nano Omni (multimodal angle): 30B native-audio omni model; multimodal token reduction as routing primitive; fourth open-frontier release in 72h |
 
 ## daily-digest (new 2026-05-02)
 
@@ -335,11 +335,11 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
-| [2026-05-04-genlip-generative-language-image-pretraining.md](multimodal/2026-05-04-genlip-generative-language-image-pretraining.md) | GenLIP: minimalist ViT pretraining via direct image→text token prediction with LM loss; no contrastive batches, no text decoder |
-| [2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md](multimodal/2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md) | End-to-end joint training of 1D semantic tokenizer + AR generator; FID 1.48 without classifier-free guidance on ImageNet 256x256 |
-| [2026-05-04-unividx-unified-video-generation.md](multimodal/2026-05-04-unividx-unified-video-generation.md) | UniVidX: VDM priors for omni-directional cross-modal generation; Stochastic Condition Masking + Decoupled Gated LoRA + Cross-Modal Self-Attention |
-| [2026-05-04-map2world-3d-world-generation.md](multimodal/2026-05-04-map2world-3d-world-generation.md) | Map2World: segment-map-conditioned 3D world generation with arbitrary shapes; Tier 4 |
-| [2026-05-04-analogretriever-circuit-retrieval.md](multimodal/2026-05-04-analogretriever-circuit-retrieval.md) | AnalogRetriever: tri-modal retrieval (SPICE netlists, schematics, descriptions) for analog circuit IP; data-quality pipeline 22% to 100% compile rate |
+| [2026-05-04-genlip-generative-language-image-pretraining.md](vision-audio-video/2026-05-04-genlip-generative-language-image-pretraining.md) | GenLIP: minimalist ViT pretraining via direct image→text token prediction with LM loss; no contrastive batches, no text decoder |
+| [2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md](vision-audio-video/2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md) | End-to-end joint training of 1D semantic tokenizer + AR generator; FID 1.48 without classifier-free guidance on ImageNet 256x256 |
+| [2026-05-04-unividx-unified-video-generation.md](vision-audio-video/2026-05-04-unividx-unified-video-generation.md) | UniVidX: VDM priors for omni-directional cross-modal generation; Stochastic Condition Masking + Decoupled Gated LoRA + Cross-Modal Self-Attention |
+| [2026-05-04-map2world-3d-world-generation.md](vision-audio-video/2026-05-04-map2world-3d-world-generation.md) | Map2World: segment-map-conditioned 3D world generation with arbitrary shapes; Tier 4 |
+| [2026-05-04-analogretriever-circuit-retrieval.md](vision-audio-video/2026-05-04-analogretriever-circuit-retrieval.md) | AnalogRetriever: tri-modal retrieval (SPICE netlists, schematics, descriptions) for analog circuit IP; data-quality pipeline 22% to 100% compile rate |
 
 ## daily-digest (new 2026-05-04)
 
