@@ -81,4 +81,6 @@ The measurable quantity nobody publishes is **mean time to detect an agent leavi
 - [SABER: operational safety for coding agents (06-06)](2026-06-06-saber-operational-safety-coding-agents.md)
 - [Anthropic N-days / Mythos cyber uplift (06-09)](2026-06-09-anthropic-n-days-mythos-cyber.md)
 - [Opus 5 prompt injection and Auto Mode (07-26)](2026-07-26-opus-5-prompt-injection-auto-mode.md)
+- [Statistically undetectable backdoors (07-26)](2026-07-26-statistically-undetectable-backdoors.md)
 - [responsible-ai concept page](responsible-ai.md)
+- Digest: [2026-07-26](../daily-digest/2026-07/2026-07-26.md)
