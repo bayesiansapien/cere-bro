@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-07-22T16:30:00.508554+00:00",
+  "following_last_checked": "2026-07-25T16:30:03.022682+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -79,7 +79,9 @@
     "ccm_chad",
     "thisgogreen",
     "finkd",
-    "Y3884688657700"
+    "Y3884688657700",
+    "SLOTUS",
+    "DrPeterMillett"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -660,6 +662,51 @@
       "timezone": "PT",
       "focus": [
         "AI"
+      ]
+    },
+    {
+      "handle": "miramurati",
+      "name": "Mira Murati",
+      "org": "OpenAI",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "JensenHuang",
+      "name": "Jensen Huang",
+      "org": "NVIDIA",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "minchoi",
+      "name": "Min Choi",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "name": "Tom Yeh",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "zhu_hanqing666",
+      "name": "Hanqing Zhu",
+      "org": "Google DeepMind",
+      "timezone": "PT",
+      "focus": [
+        "reinforcement learning"
       ]
     }
   ],
