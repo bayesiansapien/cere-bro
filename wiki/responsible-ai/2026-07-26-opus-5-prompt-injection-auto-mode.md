@@ -72,6 +72,12 @@ The load-bearing question is whether the two Auto Mode layers are genuinely inde
 
 The second target is the Sonnet-beats-Opus inversion. Measure injection success against capability across a full model family and see whether the relationship is monotone. If it is, injection resistance needs to be a separately optimized objective rather than something expected to improve with scale.
 
+The third is a reporting-unit problem rather than a research problem, and it is the one that blocks deployment decisions today. Per-encounter injection rates are the wrong unit. A browser agent on a real task reads dozens to hundreds of pages, and a long-running one reads thousands, so at 3.7% per adversarial encounter the **per-session** probability of at least one successful injection is not small. What a team actually needs is a curve of compromise probability against pages read, which converts a research metric into an operational one and would let someone reason about how long an unattended browser agent can safely run. Nobody publishes it.
+
+A fourth, cheaper ask sits inside Anthropic's own data. They report the model alone at 3.7% and the full stack at 0%, but not the intermediate configurations. Model plus scanner, and model plus action gate, are two numbers that would say which layer is carrying the defense, and therefore whether the result is portable to another harness or to another model. That ablation is trivial for Anthropic to run and decisive for everyone building on the API.
+
+There is also a consistency point worth logging against the [Opus 5 summary (07-25)](../llms-foundation-models/2026-07-25-claude-opus-5.md). That entry recorded Opus 5 as deliberately not trained on cyber tasks yet approaching Mythos 5 at *finding* vulnerabilities while staying well behind at *exploiting* them, which the wiki called the third 2026 datapoint on a discovery-versus-synthesis split. A model strong at recognizing an attack pattern and weak at composing the follow-through is exactly the profile you would want in something that has to notice an injection attempt. Whether the two results share a mechanism or merely rhyme is unexamined, and it cuts against the Sonnet inversion hypothesis, so both cannot be the whole story.
+
 ## Links
 
 - [The Seven Days Nobody Was Watching: OpenAI HF breach detection failure (07-26)](2026-07-26-openai-hf-hack-detection-failure.md)
