@@ -1,26 +1,283 @@
 {
   "date": "2026-07-26",
   "slot": "morning",
-  "scraped_ist": "2026-07-26 10:56",
+  "scraped_ist": "2026-07-26 09:12",
   "lookback_h": 24,
   "curated": [],
   "ai_feed": [
     {
-      "handle": "HouseGOP",
+      "handle": "MarioNawfal",
       "org": "Independent",
       "focus": [
         "AI"
       ],
       "tweets": [
         {
-          "handle": "HouseGOP",
-          "creator": "@HouseGOP",
-          "text": "Girls deserve their own playing field.",
-          "link": "https://nitter.net/HouseGOP/status/2081092868161089741#m",
-          "date_utc": "2026-07-25T19:02:59+00:00",
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Apple TV just hit us with pure cyberpunk fire: “See you on the other side, cowboy.” Neuromancer: January 22. William Gibson’s legendary console-cowboy classic is finally locking in. The sky’s the color of a dead channel and we’re all jacking in. This is the one, folks. Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081246887114620983#m",
+          "date_utc": "2026-07-26T05:15:00+00:00",
           "is_curated": false,
           "org": "",
-          "image_urls": [],
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOFSkxrWUAASzMY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Marvel just confirmed Black Panther 3 for 2028, a full six years after Wakanda Forever. T'Challa's young son Toussaint, who was just a little boy in the last movie, is being recast with David Jonsson. Can they recapture the magic of the original, or has the moment passed? Video Marvel Studios (@MarvelStudios) David Jonsson is your new Black Panther. Black Panther 3, directed by Ryan Coogler, arrives in theaters December 15, 2028. Video — https://nitter.net/MarvelStudios/status/2081199669011693611#m",
+          "link": "https://nitter.net/MarioNawfal/status/2081245772910092754#m",
+          "date_utc": "2026-07-26T05:10:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081245703779614721%2Fimg%2F8eJ5iBAPCv0eNjb0.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081199577571753984%2Fimg%2F7-1249qOlukx3XaL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Winston Duke welcomed Marvel’s newest Black Panther star like family After David Jonsson was revealed as T’Challa’s son at Comic-Con, Winston Duke made sure he felt right at home. A quiet off-screen moment… but one that’s hitting fans right in the feelings. Wakanda’s next generation just got its first big brother hug. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081244487112687889#m",
+          "date_utc": "2026-07-26T05:05:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081223578616483840%2Fimg%2F91nf-aPs-q8LINLa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Elon poured fuel on the Dogecoin debate “I’m not saying Dogecoin is the ideal system for a currency… but I think it actually is fundamentally better than anything else I’ve seen, just by accident.” One sentence from Elon and the entire crypto timeline is losing its mind again. Doge is back in the conversation. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081243113163804867#m",
+          "date_utc": "2026-07-26T05:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081147872737988608%2Fimg%2FMacwrr-sVKZuwWs8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Marvel fans are about to get another major look at Avengers: Doomsday A brand-new Entertainment Weekly interview with the cast is dropping soon, giving fans fresh moments and behind-the-scenes insights from one of the MCU's biggest upcoming films. With Comic-Con hype still going strong, the countdown for Doomsday is even more exciting. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081240483930493169#m",
+          "date_utc": "2026-07-26T04:49:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081234558293331968%2Fimg%2FchW2TNGRwBcj11iZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Congress hasn't written its own bills in a hundred years, and here's who actually does. Geopolitics expert Brandon Weichert worked as Hill staff and says the machine runs exactly backwards from how Americans imagine it. Lobbying groups and corporate-funded think tanks draft the legislation, staffed by former Hill insiders, working for multinational firms and foreign governments through the revolving door. His favorite example from teaching it: the insurance lobby was intimately involved in writing Obamacare itself, with one Johnson & Johnson veteran serving as the go-between from inside the",
+          "link": "https://nitter.net/MarioNawfal/status/2081239484432011310#m",
+          "date_utc": "2026-07-26T04:45:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081236885557452800%2Fimg%2FFJx4wLjUgDfYyQ1u.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081235199770157056%2Fimg%2Fy_trPaolYJaobdP5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Alienware flexed HARD at Comic-Con They dropped what they’re calling the world’s first 39-inch 5K OLED gaming monitor with RGB Stripe tech… and it looks ridiculous in the best way. PC gamers, this might be the biggest hardware flex of SDCC. Your setup is about to feel inadequate. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081239337438462272#m",
+          "date_utc": "2026-07-26T04:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOG57fYWgAALATw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Every military source keeps circling the same month for the big escalation: September. Geopolitics expert Brandon Weichert says the invasion talk has narrowed to something specific. Two Marine Expeditionary Units and the 82nd Airborne out of Kuwait attempting to seize Iranian islands for sea control, with cooler weather and the midterms both pointing at early fall. Nobody he's talked to thinks it works. He expects Trump to try anyway. Even an off-ramp only buys a cooling period, everyone rearming in neutral corners before the next round rips open: \"I don't think this war is going to end u",
+          "link": "https://nitter.net/MarioNawfal/status/2081236825796984990#m",
+          "date_utc": "2026-07-26T04:35:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081235199770157056%2Fimg%2Fy_trPaolYJaobdP5.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081232954995417088%2Fimg%2FXRz48sWmxIvxl6EL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Grok 4.5’s surge inside Augment’s Cosmos isn’t just another model-picker spike. What’s interesting is where the growth is coming from: real engineering teams working on large, messy, production codebases. Augment’s Context Engine already gives models unusually strong repo-wide understanding. When developers start routing more of those hard tasks to Grok 4.5, it signals the model is delivering on the things that actually matter day-to-day: Multi-file reasoning, architectural awareness, and not falling apart once the context gets huge. Most “AI coding” hype still lives in demos and small repos. ",
+          "link": "https://nitter.net/MarioNawfal/status/2081235563924062517#m",
+          "date_utc": "2026-07-26T04:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOHQN2dWMAAIc8t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇾🇪 🇸🇦 The Houthis just stopped Trump's war plans, and an Aramco refinery is burning. Geopolitics expert Brandon Weichert says the pause in strikes has nothing to do with diplomacy. Serious military contacts, people who never talk crazy to him, were suddenly mentioning B61-11 tactical nukes for Pickaxe Mountain. Then the Houthis blew up the Aramco facility, and hours later it's still on fire: \"I think the Houthis have dealt a considerable blow to whatever war plans he had in mind.\" The Red Sea route was the whole region's backup oil lifeline, and it just closed. Brandon's bet on what happened n",
+          "link": "https://nitter.net/MarioNawfal/status/2081234612722823667#m",
+          "date_utc": "2026-07-26T04:26:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081232954995417088%2Fimg%2FXRz48sWmxIvxl6EL.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081146569831723008%2Fimg%2FrSy4KXGtQFwBchs0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump’s calling every Republican senator to kill the filibuster today and force through the Save America Act, the budget, and the debt ceiling before Dems get their shot. Source: Truth Social / Writer: Claudio",
+          "link": "https://nitter.net/MarioNawfal/status/2081231922739482887#m",
+          "date_utc": "2026-07-26T04:15:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOIFXnoW8AANJI1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇰🇵 Kim Jong Un orders a \"radical\" upgrade of North Korea's spy network. -Kim presided over a rare meeting on the country's intelligence program this month, calling for \"radical\" enhancements to military reconnaissance and spying capabilities -The gap he's closing is real: North Korea has just 43 diplomatic posts abroad against America's 271, one lone spy satellite in orbit, and imagery so thin that Google Earth sees more than Pyongyang can -The regime's spies even fund themselves through crypto heists, cut off from banking by sanctions -Russia is sharing satellite expertise in exchange for Nor",
+          "link": "https://nitter.net/MarioNawfal/status/2081231787787964733#m",
+          "date_utc": "2026-07-26T04:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOHEqf_XcAAAkao.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱 Israeli officials admitted on the record to funding Hamas, and here's why that unravels the whole terrorism story. Fmr. CIA analyst Larry Johnson says the humanitarian cover story is a lie, pointing to Mehdi Hasan's documentation: Israeli intelligence and military officials admitting the funding openly. The goal was a cynical play to keep Palestinian factions divided so no unified state could emerge: \"If you claim that your goal is to fight terrorism, but you end up funding terrorists, don't feed me the bullshit line that you're fighting terrorism.\" And Washington runs the same game, brandi",
+          "link": "https://nitter.net/MarioNawfal/status/2081231726475436461#m",
+          "date_utc": "2026-07-26T04:14:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081230724082913280%2Fimg%2F11EdeqvgWGfpkWG2.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081227201911922688%2Fimg%2FTy9pS1BVm8c7x9Jj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 The Pentagon claims a thousand interceptors left... More like fewer than 200. Trump's top general, Joint Chiefs Chairman Dan Caine, privately warned the administration that resuming major combat against Iran would dangerously deplete CENTCOM's interceptors, per the New York Times. The warning finally pierced the bubble. Fmr. CIA analyst Larry Johnson says the real inventory is worse than anyone admits: \"They're making claims that they've got, like, a thousand left, and I guarantee you it's probably fewer than 200.\" He credits Caine with mastering a delicate art: advising Trump without thr",
+          "link": "https://nitter.net/MarioNawfal/status/2081228904933581009#m",
+          "date_utc": "2026-07-26T04:03:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081227201911922688%2Fimg%2FTy9pS1BVm8c7x9Jj.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081225290177470464%2Fimg%2FgMvDVF1Mzf5epvGN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇬🇧 A rescue mission near Parliament turned into a major police emergency after a speedboat carrying armed officers crashed into Westminster Bridge, in the UK. The officers were responding to reports of someone in the River Thames when the collision happened. 3 officers were thrown into the water, and all 5 were taken to hospital. One officer has since been discharged, while 4 remain hospitalized with serious injuries. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081228016110420357#m",
+          "date_utc": "2026-07-26T04:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081092847017562112%2Fimg%2F9a-u34wK7MeM0H9i.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇯🇵🇰🇷 He spent days living in robot hotels across Japan & South Korea Robot receptionists, humanoid staff, engineers literally building the future right in front of him. One creator checked into every robot hotel he could find… and the experience feels like the future already showed up early. This is what “tomorrow” actually looks like. Source: ImDrewDoes YT / Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081227049738371131#m",
+          "date_utc": "2026-07-26T03:56:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081225974490738688%2Fimg%2F5Z9Tun84RSvnSYob.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦🇮🇷 Ukraine attacked an Iranian ship in the Caspian Sea, and just opened a front nobody expected. Iran says the strike on its commercial vessel killed one crew member and injured another, calling it a criminal and provocative act and demanding the UN hold Kyiv accountable. Ukraine hasn't commented. Fmr. CIA analyst Larry Johnson says the attack tells you whose camp Ukraine is firmly in, and he goes after the alliance's core contradiction: a movement he ties to Bandera-worship and neo-Nazi roots, embraced by a state founded on fighting exactly that. \"Standards are standards. Principles are pri",
+          "link": "https://nitter.net/MarioNawfal/status/2081226993647976891#m",
+          "date_utc": "2026-07-26T03:55:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081225290177470464%2Fimg%2FgMvDVF1Mzf5epvGN.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081196515377242112%2Fimg%2FwpALoZP2dwbKDCz7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 The Pentagon's real Iran strategy has a name inside the military: pure f***ing magic. Fmr. U.S. Navy intel officer Malcolm Nance says the White House is running on PFM, and its planning method is SWAG, strategic wild ass guessing: \"They don't know what they're f***ing doing, so they're just trying things. These things kill people. These things kill our service members.\" The terrain explains why the magic won't work: Iran is the size of the entire American Midwest and 80% mountains, making Afghanistan look like a flat beach. And Malcolm's ending is the part Washington won't say: the only w",
+          "link": "https://nitter.net/MarioNawfal/status/2081224993938038912#m",
+          "date_utc": "2026-07-26T03:48:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081223400463233024%2Fimg%2F-XEaqG7bSdYF0po7.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081222253912391680%2Fimg%2Fh4JRPiNohWZ-2_tW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Arizona State just rolled out the nation’s first influencer major. It’s a full bachelor’s in Content Creation at the Cronkite School, teaching kids how to build audiences, monetize posts, analyze metrics, and grow real followers on TikTok and Instagram as their senior project. 4 years of tuition to learn what half the internet figures out for free… only in 2026!!!! Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081224608921870742#m",
+          "date_utc": "2026-07-26T03:46:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2080997775861325824%2Fimg%2FVaIK17iBIfS-xWF6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇫🇷 A rare piece of Tesla history has found a new home One of the final Tesla Model S Signature editions has officially arrived in Europe, with Signature No. 85 delivered to its new owner in Normandy, France. Only a small number of these cars are expected to reach Europe, making this one of the rarest new Tesla deliveries you'll see. For collectors and longtime Tesla fans, this is the end of an era. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081224237910794607#m",
+          "date_utc": "2026-07-26T03:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081012858641326081%2Fimg%2FLOu9xrhwpsAo6EMx.jpg"
+          ],
           "articles": []
         }
       ]
@@ -214,6 +471,241 @@
       ]
     },
     {
+      "handle": "aksheyd",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "Trying new developer tools should be fun, like a video game! And for the advanced users, there’s so much to still explore: did I mention it’s open source? What will you find 👀⁉️👻 Elon Musk (@elonmusk) Download Grok Build and type /tutorial X.ai/cli Video — https://nitter.net/elonmusk/status/2081174079969632347#m",
+          "link": "https://nitter.net/aksheyd/status/2081189103006298152#m",
+          "date_utc": "2026-07-26T01:25:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081167775192715264%2Fimg%2FGxXORZHadMpi_hEw.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://X.ai/cli",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le bilan de Mozart. 🇨🇵Nathalie Delalande🌿 (@2Halumi) 12 vaccins obligatoires 50% d’Impots 3580 milliards de dette Euthanasie Fin de la liberté d’expression. Services publics inexistants Corruption endémique Souveraineté morte Effondrement intellectuel Déclassement économique Etc… Bienvenue dans la France communiste de Macron !!! — https://nitter.net/2Halumi/status/2080957746279493740#m",
+          "link": "https://nitter.net/brivael/status/2081141252062380179#m",
+          "date_utc": "2026-07-25T22:15:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOEMChLXcAA84Xy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Tu dois voter maintenant, tu votes qui ? Poll 71% — Knafo 3% — Attal 5% — Phillipe 21% — Le Pen 1,089 votes • 17 hours",
+          "link": "https://nitter.net/brivael/status/2081136540843999279#m",
+          "date_utc": "2026-07-25T21:56:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Their agents are retarded, and the agenda is super retarded. Nobody wants globalist woke shit anymore. They should pivot to Milei’s ideas! MX (@MxCl74613523) The World Economic Forum is very much still entrenched in America through businesses, Blackrock, Vanguard, Statestreet, Pharmaceutical, Big Tech, Food etc — https://nitter.net/MxCl74613523/status/2081130927317799012#m",
+          "link": "https://nitter.net/brivael/status/2081134134575956256#m",
+          "date_utc": "2026-07-25T21:46:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Obvious. Bo Loudon (@BoLoudon) 🚨Elon Musk's X app BEAT Instagram, Facebook, even TikTok on the AppStore's top free app list today. X is the #1 APP for news. @ElonMusk , @NikitaBier , and the X team have done an INCREDIBLE job. X is the only app we KNOW free speech is protected on. God bless Elon. Video — https://nitter.net/BoLoudon/status/2080793192601964637#m",
+          "link": "https://nitter.net/brivael/status/2081133398563643685#m",
+          "date_utc": "2026-07-25T21:44:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2080793159752183808%2Fimg%2F34yf4AlgvYt2jbgQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣 AlertesInfos (@AlertesInfos) 🇫🇷 28% des Français sont satisfaits de l’action d’Emmanuel Macron comme président. (CSA) — https://nitter.net/AlertesInfos/status/2081103821296574906#m",
+          "link": "https://nitter.net/brivael/status/2081132592737255853#m",
+          "date_utc": "2026-07-25T21:40:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOGQ2YRWEAAbWC0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🔥🚀🤗😍 Video",
+          "link": "https://nitter.net/brivael/status/2081132347844358439#m",
+          "date_utc": "2026-07-25T21:39:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081090484118679552%2Fimg%2FdlgUrhPmwJX0lRTG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "MX (@MxCl74613523) This was a coordinated effort by the World Economic Forum to go after Elon Musk. — https://nitter.net/MxCl74613523/status/2081114837732802673#m",
+          "link": "https://nitter.net/brivael/status/2081129876711477325#m",
+          "date_utc": "2026-07-25T21:30:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOGolpYWMAASkrm.jpg",
+            "https://nitter.net/pic/media%2FHOGa6KsbcAACbUZ.jpg",
+            "https://nitter.net/pic/media%2FHOGa6fka8AAPnN9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il faut avoir l’honnêteté de le reconnaître. Après 1945 et les grandes victoires des droits civiques, l’Occident a bâti la plus puissante défense morale de son histoire contre le racisme. C’était juste. C’était même l’une de ses plus belles conquêtes. Ce système immunitaire a ensuite été piraté. Pas d’abord pour protéger des personnes. Pour protéger une idéologie : celle qui exige l’égalité des résultats entre groupes. Une idéologie qui, confrontée aux données, produit régulièrement l’inverse de ce qu’elle promet. La réponse n’a pas été de gagner sur les faits. Elle a consisté à rendre le simp",
+          "link": "https://nitter.net/brivael/status/2081129530794906078#m",
+          "date_utc": "2026-07-25T21:28:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’abondance pour tout le monde. Exactement. Tu prends la primitive Optimus. Tu prends le fait que l’intégralité des systèmes sont aujourd’hui complètement sous-optimisés, parce que les bureaucrates ne savent pas allouer le capital et font des systèmes complètement cons. Tu projettes un monde où on récupère massivement des matériaux, on débloque l’espace, et on optimise tout sur Terre avec la robotique et l’IA. On va pouvoir créer beaucoup, beaucoup plus. Résultat : ce n’est pas réservé à une élite. Le pro, le moyen, voire le pauvre d’aujourd’hui aura un niveau de vie absolument exceptionnel. E",
+          "link": "https://nitter.net/brivael/status/2081127824866615593#m",
+          "date_utc": "2026-07-25T21:21:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "\"OUI MAIS… aux États-Unis on meurt de son cancer et on vend sa maison pour se soigner.\" C’est l’argument automatique dès qu’on montre que le marché a sorti 1,5 milliard de personnes de la misère absolue. Exactement l’équivalent de « on a la carte Vitale ». Alors prenons les données. Pas les anecdotes. 1990 : PIB par habitant États-Unis ≈ 24 000 $ – France ≈ 21 600 $. Quasi identique. 2025 : États-Unis ≈ 90 000 $ – France ≈ 49 000 $. Presque le double. Avec votre carte Vitale et votre sensibilité de gauche, vous êtes devenus deux fois plus pauvres relativement. Bravo. Sur les cancers majeurs (d",
+          "link": "https://nitter.net/brivael/status/2081125920597770308#m",
+          "date_utc": "2026-07-25T21:14:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2081120017324859392%2FHzlkUgK8%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.lepoint.fr/people/atteint-d-un-cancer-james-van-der-beek-dawson-oblige-de-vendre-ses-souvenirs-pour-payer-ses-soins-14-11-2025-2603106_2116.php",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "la feature storyboard d'argil v2 est super cool on est vraiment en train de reproduire tout les workflows du cinéma, mais dans un écosystème AI agentique",
+          "link": "https://nitter.net/brivael/status/2081124842036723867#m",
+          "date_utc": "2026-07-25T21:10:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOGjxIRXkAEjIpB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les écolos sont anti vie, anti fun, anti tout. Qu’ils retournent dans une forêt et qu’ils arrêtent de nous casser les noix avec leur maladie mentale mal soignée. Damien Rieu (@DamienRieu) Pas de nucléaire ? Les écolos. L’électricité chère ? Les écolos. Pas de Clim ? Les écolos. Pas de débroussaillages anti incendie ? Les écolos. Pas de mega bassines anti sécheresse ? Les écolos. — https://nitter.net/DamienRieu/status/2081121411616137349#m",
+          "link": "https://nitter.net/brivael/status/2081122469864153401#m",
+          "date_utc": "2026-07-25T21:00:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Ulrich (@UlrichFY) Il ne faut pas laisser un seul centimètre à la gauche dans le combat des idées. Encore faut il savoir comment faire. Petit mode d'emploi en deux étapes simples : Déjà, ne vous laissez pas entrainer sur le champ de bataille que la gauche choisi depuis des années et qu'elle maitrise parfaitement. Comment ? En refusant la politisation et la conflictualisation des sujets qui n'ont pas à l'être. Comme la famille, la culture, la solidarité... Ensuite, portez le combat au coeur de la gauche intellectuelle, c'est à dire sur la sémantique et l'épistémologie. C'est faire la Reconq",
+          "link": "https://nitter.net/brivael/status/2081122168125944079#m",
+          "date_utc": "2026-07-25T20:59:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "X will eat everything",
+          "link": "https://nitter.net/brivael/status/2081118573397696518#m",
+          "date_utc": "2026-07-25T20:45:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ils préfèrent régner en enfer que de servir au paradis. (Milei) Brivael Le Pogam (@brivael) Récemment j’étais à un event avec des libéraux et on parlait exactement de ça. La citation de Milei résume parfaitement le problème : « Vous ne pouvez pas lever le drapeau blanc devant la Gauche. Ne leur cédez jamais 1 centimètre. Ils veulent que le pays s’effondre. Ils ne sont pas de bonne foi. Ils préfèrent régner en enfer que de servir au paradis. » Ce que Milei a compris (et que trop de libéraux français n’ont toujours pas intégré) : On ne débat pas avec des gens qui nient le bon sens et la donnée. ",
+          "link": "https://nitter.net/brivael/status/2081118297681014978#m",
+          "date_utc": "2026-07-25T20:44:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "acceleration Matt Shumer (@mattshumer_) Claude Opus 5 one-shotted this game. EVERYTHING you see in this demo is custom code... not a single external asset was used. AI games are going to be amazing. (sound on) Video — https://nitter.net/mattshumer_/status/2081054356405731740#m",
+          "link": "https://nitter.net/brivael/status/2081117347583021374#m",
+          "date_utc": "2026-07-25T20:40:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081053076681621504%2Fimg%2FmbCuk6jrHO7qc0wu.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
       "handle": "heavypulp",
       "org": "Independent",
       "focus": [
@@ -360,29 +852,116 @@
       ]
     },
     {
-      "handle": "nvidia",
-      "org": "NVIDIA",
+      "handle": "spencerpratt",
+      "org": "Independent",
       "focus": [
-        "GPU",
-        "hardware",
-        "CUDA",
-        "inference",
-        "training"
+        "AI"
       ],
       "tweets": [
         {
-          "handle": "nvidia",
-          "creator": "@nvidia",
-          "text": "\"When I left this morning, I was just Jensen. Next time I come back, call me K-Jensen.” Korea isn't just an NVIDIA partner anymore. It's where the next wave of AI gets built and SNU is at the center of it. Introducing the NVIDIA AI Technology Center at @SeoulNatlUni . NVIDIA ❤️ SNU — let's build. 🇰🇷",
-          "link": "https://nitter.net/nvidia/status/2081142850994229468#m",
-          "date_utc": "2026-07-25T22:21:36+00:00",
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Unless you live near vegetation in Gavin Newsom’s California. Charlie (@LAChas77) Next time you pay your homeowners insurance bill... remember the likelihood of any US home experiencing a total loss claim is once every 535 years — https://nitter.net/LAChas77/status/2081151350893621741#m",
+          "link": "https://nitter.net/spencerpratt/status/2081235632030920817#m",
+          "date_utc": "2026-07-26T04:30:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "You can keep playing whack-a-mole with these now daily pipe ruptures, but the reality is LA’s entire infrastructure is collapsing and we are spending over a billion dollars a year on homeless drug addicts. KTLA (@KTLA) A water main break is affecting services in L.A.’s Echo Park neighborhood. ktla.com/news/local-news/wat… Link Water main break affecting services in Echo Park A water main break is affecting services in L.A.’s Echo Park neighborhood. According to the Los Angeles Department of Water and Power, the rupture occurred in the 1500 block of West Court. I… ktla.com — https://nitter.net/",
+          "link": "https://nitter.net/spencerpratt/status/2081174874551193747#m",
+          "date_utc": "2026-07-26T00:28:51+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHOGy7c8WAAA-9Js.png",
-            "https://nitter.net/pic/media%2FHOGy7frWEAAlsu0.jpg",
-            "https://nitter.net/pic/media%2FHOGy7eHXYAAv461.jpg"
+            "https://nitter.net/pic/card_img%2F2081086814324928512%2FBoKiiEnf%3Fformat%3Djpg%26name%3D800x419"
           ],
+          "articles": [
+            {
+              "url": "https://ktla.com/news/local-news/water-main-break-affecting-services-in-echo-park/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "KTLA (@KTLA) A water main break is affecting services in L.A.’s Echo Park neighborhood. ktla.com/news/local-news/wat… Link Water main break affecting services in Echo Park A water main break is affecting services in L.A.’s Echo Park neighborhood. According to the Los Angeles Department of Water and Power, the rupture occurred in the 1500 block of West Court. I… ktla.com — https://nitter.net/KTLA/status/2081086804824928256#m",
+          "link": "https://nitter.net/spencerpratt/status/2081117642379681926#m",
+          "date_utc": "2026-07-25T20:41:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2081086814324928512%2FBoKiiEnf%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://ktla.com/news/local-news/water-main-break-affecting-services-in-echo-park/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The obvious racist subtext here is that this communist doesn’t believe minorities are capable of running a brick mortar restaurant like a Don Antonio’s. Deep down, this freak despises minorities and fetishizes 3rd Worldism because they hate beauty and want to degrade society. BannedCarp (@bannedcarp) I’ll never understand miserable and insufferable cunts like these who will constantly moan and cry about minorities doing ANYTHING and continue living in the most diverse places in the country. MOVE TO TEXAS AND STFU. — https://nitter.net/bannedcarp/status/2081062849435357626#m",
+          "link": "https://nitter.net/spencerpratt/status/2081117405439283258#m",
+          "date_utc": "2026-07-25T20:40:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "\"Harm reduction\" is the euphemism Nithya Raman slaps on \"Overdose Acceleration\". Nithya's program of distributing drugs to addicts on the street is the reason 7 people die EVERY DAY on the streets of LA. She is a vile, soulless goblin. F.A. United States Attorney Bill Essayli (@USAttyEssayli) Based on what we’re seeing on the ground, the millions Los Angeles City and County are spending on “harm reduction” (aka handing out Narcan and clean needles) are only fueling the crisis. The money needs to go to building shelters and residential treatment beds. — https://nitter.net/USAttyEssayli/status/2",
+          "link": "https://nitter.net/spencerpratt/status/2081085758773842138#m",
+          "date_utc": "2026-07-25T18:34:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The 3rd Worldification of Los Angeles is nearly complete. Increasingly, cartels are running entire neighborhoods in the open. Soon, cops won't even be able to enter large sectors of the city. We should feel lucky we can still film them...soon you'll be shot for doing this: Video",
+          "link": "https://nitter.net/spencerpratt/status/2081082707031851281#m",
+          "date_utc": "2026-07-25T18:22:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081082093631606785%2Fimg%2FCBbIizujYgBv0z1f.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Every day 7 of these lost souls die on the streets in LA and that will only increase because nobody has the balls to force them into mandatory treatment. Everyone who indulges this insanity deserves to rot in hell. Spencer Pratt (@spencerpratt) SHOCKER...the LA homeless count is going UP! I warned you guys: the more homeless people, the more money Nithya Raman and Karen Bass can launder through their corrupt NGOs. You will NEVER fix this problem by electing people who profit off it. Video — https://nitter.net/spencerpratt/status/2080284771846918154#m",
+          "link": "https://nitter.net/spencerpratt/status/2081081801867456853#m",
+          "date_utc": "2026-07-25T18:19:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2080162869476540416%2Fimg%2Fci4HvLgZFS9jD_0s.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Bro you literally shimmied in the middle of our burned out neighborhood with corpses behind you. Gavin Newsom (@GavinNewsom) Trump is cracking jokes about natural disasters while American families are still waiting for the disaster recovery dollars he promised. — https://nitter.net/GavinNewsom/status/2080857104378962205#m",
+          "link": "https://nitter.net/spencerpratt/status/2080866711314534464#m",
+          "date_utc": "2026-07-25T04:04:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
           "articles": []
         }
       ]
