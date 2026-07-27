@@ -1,0 +1,651 @@
+{
+  "date": "2026-07-27",
+  "slot": "morning",
+  "scraped_ist": "2026-07-27 09:10",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Infowars' Jamie White was shot in his Austin apartment parking lot on March 9, 2025, after he walked up on a group breaking into his car. He bled out and died 23 minutes later. Detectives spent weeks tracking the stolen Kia. Fortunately, police were able to activate license plate reader cameras to tag its plates, and those scans gave police locations and times to triangulate. That let them narrow in on the four suspects, all of whom were in custody by May 29. A few weeks after that, following a year of lobbying from Soros/DSA groups and immigrant advocacy orgs, city council ended Austin's lice",
+          "link": "https://nitter.net/AustinJustice/status/2081498864167628821#m",
+          "date_utc": "2026-07-26T21:56:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOLG1A2XgAAZ9Uh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Austin Justice (@AustinJustice) These are the organizations that successfully pressured Austin city council to turn off Flock, just weeks after license plate reader cameras helped catch the fugitive gang that murdered Infowars' Jamie White. — https://nitter.net/AustinJustice/status/2081571283460903200#m",
+          "link": "https://nitter.net/AustinJustice/status/2081571651552989354#m",
+          "date_utc": "2026-07-27T02:45:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOM5hRsWsAI1eNn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "These are the organizations that successfully pressured Austin city council to turn off Flock, just weeks after license plate reader cameras helped catch the fugitive gang that murdered Infowars' Jamie White. Austin Justice (@AustinJustice) Infowars' Jamie White was shot in his Austin apartment parking lot on March 9, 2025, after he walked up on a group breaking into his car. He bled out and died 23 minutes later. Detectives spent weeks tracking the stolen Kia. Fortunately, police were able to activate license plate reader cameras to tag its plates, and those scans gave police locations and ti",
+          "link": "https://nitter.net/AustinJustice/status/2081571283460903200#m",
+          "date_utc": "2026-07-27T02:44:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOM5hRsWsAI1eNn.jpg",
+            "https://nitter.net/pic/media%2FHOLG1A2XgAAZ9Uh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Love, sacrifice, and endless belief — the true job description of a parent. Happy National Parents’ Day!",
+          "link": "https://nitter.net/HouseGOP/status/2081415843758399720#m",
+          "date_utc": "2026-07-26T16:26:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOKsre-W4AAEvaQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "org": "xAI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "It’s crazy how this has been true all along, we just found a way to quantify the cost. Ben Vinegar (@bentlegen) Unless you hate money you should give it a read modem.dev/blog/how-coding-ag… Link How coding agents read your code (and how to write for them) Modem s codebase is roughly 99.9% written by AI agents. Here s what that taught us about how agents actually navigate a repo, and the three levers you control: the names you choose, the types you... modem.dev — https://nitter.net/bentlegen/status/2080662244296171954#m",
+          "link": "https://nitter.net/JonasBadalic/status/2081422636576641420#m",
+          "date_utc": "2026-07-26T16:53:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2079209107219689472%2F2L9SbDOY%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://modem.dev/blog/how-coding-agents-read-your-code",
+              "content": "How coding agents read your code (and how to write for them) | Modem Blog Loading... Product Integrations Pricing Docs Blog Sign In Sign Up Book Demo Get Started Open menu Back arrow All posts How coding agents read your code (and how to write for them) Ben Vinegar • July 20, 2026 • 27 min read Part 1 of Writing Code for Agents : how agents navigate your repo by string search, and how to write code they can actually find, parse, and trust. When we founded Modem in early 2025, we believed that AI coding was real, that it would rapidly accelerate software development, and that legacy product processes would become the new bottleneck for execution. To commit to that future, we built Modem with AI codegen tools from day one - back when Sonnet 3.7 was the leading coding model. A year later, Mod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "There are people who look at benchmarks and people who use the models and I feel like those two groups will never understand each other",
+          "link": "https://nitter.net/MillionInt/status/2081589040395251975#m",
+          "date_utc": "2026-07-27T03:54:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "She’s still woke? “Everybody needs to be woke. The workers, the workers, we have to stay woke !!” Gnananananananananaaa Polymarket (@Polymarket) JUST IN: Andrew Yang reveals he has heard Kamala Harris is preparing to run for president again in 2028. — https://nitter.net/Polymarket/status/2081462469474521513#m",
+          "link": "https://nitter.net/brivael/status/2081497654781980992#m",
+          "date_utc": "2026-07-26T21:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOL3FdRXwAAPHVI.jpg",
+            "https://nitter.net/pic/media%2FHOLXFaKWAAAv0G1.jpg",
+            "https://nitter.net/pic/media%2FHOLXFaLW0AABWQj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il n'existe que deux choses infinies, l'univers et la bêtise humaine... mais pour l'univers, je n'ai pas de certitude absolue. Einstein. Olivier Rimmel 🕊️ (@OlivierRimmel) J’aime pas beaucoup ce gars là, il parle de plus en plus mal, il pue l’extrême-droite sioniste à plein nez et il est monté en sauce par tous les larbins de l’extrême-droite nationale sioniste israélienne et/ou pro-Bibi du microcosme francophone qui tapine sur Twitter X pour un peu d’oseille, surtout les plus hypocrites d’entre-eux. Ça commence à bien se voir. L’analyse de son audience ne laisse aucun doute. Pas de morale. Pa",
+          "link": "https://nitter.net/brivael/status/2081496715517935705#m",
+          "date_utc": "2026-07-26T21:47:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui France Éternelle (@CoqDeFeu) C’est un cauchemar pour ceux qui sont pris au piège (ex: crédit à rembourser, famille à nourrir, keep the wifey happy, etc.) et qui n’ont d’autre choix que de jouer le jeu pour garder leur taf. J’ai vu trop d’execs faire parfaitement le numéro en board meeting… puis, une fois au pub, avouer que c’était de la merde pure et une perte de temps totale. Certains se sont fait virer juste parce qu’on les avait entendus ou filmés. C’est fou. — https://nitter.net/CoqDeFeu/status/2081485621017858440#m",
+          "link": "https://nitter.net/brivael/status/2081494374790103454#m",
+          "date_utc": "2026-07-26T21:38:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep Chris Maconi (@chrismaconi) This is why Cursor / SpaceXAI will win. — https://nitter.net/chrismaconi/status/2081401505697939711#m",
+          "link": "https://nitter.net/brivael/status/2081492866694558018#m",
+          "date_utc": "2026-07-26T21:32:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOKfo8xWYAArrtg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣 Oui oui, le mec qui a fait PayPal, qui connaît parfaitement les théories de Milton Friedman et qui fait reposer des fusées sur terre, est inculte. Le niveau d’arrogance de certains est sans commune mesure 🤣 Arthur Homines (@arthurhomines) À force d'entendre Musk parler d'économie, je me dis que le doute n'est plus permis : il est lui aussi largement inculte à cet endroit. Il s'imagine que l'économie pourrait être \"résolue\" par la technologie une bonne fois pour toutes, à l'instar d'un problème mathématique. Voilà ce qu'il faut comprendre : - Même si l'IA produit de la nourriture, des voitu",
+          "link": "https://nitter.net/brivael/status/2081492527799017863#m",
+          "date_utc": "2026-07-26T21:31:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣 On a fermé la porte nous et a double tour avec un dragon 🐉 qui garde la porte AlertesInfos (@AlertesInfos) 🇫🇷 FLASH | Bruno Le Maire ne ferme pas la porte à une candidature à l’élection présidentielle de 2027. (RTL) — https://nitter.net/AlertesInfos/status/2081340500028604487#m",
+          "link": "https://nitter.net/brivael/status/2081490774986756282#m",
+          "date_utc": "2026-07-26T21:24:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOJoE67WAAAtLZ2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Krzysztof Szczawinski 🇵🇱 (@Kristof_Poland) “Fascist.” “Nazi.” “Far-right.” You think that reflex is yours. It isn’t. Stalin built it. Everyone calling their opponents \"fascist\" thinks they're being brave. They're being obedient. This tactic wasn't born on Twitter. It wasn't born in 2016. It wasn't born with Trump. It was engineered by Stalin. Comintern doctrine, 1928: brand every political enemy a \"fascist\" – socialists, liberals, conservatives, anyone who disagreed. No debate needed. No argument required. Just the label. The label does the killing. It worked so well that the entire Wester",
+          "link": "https://nitter.net/brivael/status/2081490537291321571#m",
+          "date_utc": "2026-07-26T21:23:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯 Elon Musk (@elonmusk) They are only allowed to hate straight, White men, so they do like dumb robots. This is their programming, like NPCs in a video game. — https://nitter.net/elonmusk/status/2081484494263955518#m",
+          "link": "https://nitter.net/brivael/status/2081490231128207392#m",
+          "date_utc": "2026-07-26T21:21:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Europe is betting against Musk. It’s good 🤣 They will get rekt. James E. Thorne (@DrJStrategy) Old rule: don’t bet against Elon. $SPCX — https://nitter.net/DrJStrategy/status/2081353197717762170#m",
+          "link": "https://nitter.net/brivael/status/2081489200600187237#m",
+          "date_utc": "2026-07-26T21:17:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOJzs_OWUAAaFJi.jpg",
+            "https://nitter.net/pic/media%2FHOJzs_OWcAAcIBJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Enough is enough Visegrád 24 (@visegrad24) BREAKING: Outrage in Spain after a video of an Algerian migrant repeatedly head-stomping a 46-year-old Spanish man goes viral. Arturo is fighting for his life in hospital after the attack that took place near Valencia. Video — https://nitter.net/visegrad24/status/2081486268861428003#m",
+          "link": "https://nitter.net/brivael/status/2081487780052373701#m",
+          "date_utc": "2026-07-26T21:12:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081486133813264384%2Fimg%2FKUr8KFMtn_kT_hmr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes. Mars University (@MarsUniversityX) Elon Musk on \"Age of Abundance\": \"With AI and robotics, this is the path to abundance for all We’re talking about an economic explosion that redefines what it means to have a high standard of living If you want to solve global poverty or give everyone a very high standard of living, the only way to do that is AI and robotics That doesn’t mean it’s without risk. We have to be very careful... we don’t want to end up in a Terminator movie\" — https://nitter.net/MarsUniversityX/status/2081482447288418375#m",
+          "link": "https://nitter.net/brivael/status/2081487608064979041#m",
+          "date_utc": "2026-07-26T21:11:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOLpQKgXEAA5Jqh.jpg",
+            "https://nitter.net/pic/media%2FHOLpQU0XYAA-YgG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Hey @grok based on my posts, which vegetable would I be?",
+          "link": "https://nitter.net/brivael/status/2081485679893090793#m",
+          "date_utc": "2026-07-26T21:03:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "@tunguz 🤣🤣🤣",
+          "link": "https://nitter.net/brivael/status/2081487049056538992#m",
+          "date_utc": "2026-07-26T21:09:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "« Commencez par ne pas respirer la moquette. » Classique. La réponse typique de celui qui a intégré le software BFM / décroissance / « le monde est fini » jusqu’à en faire une personnalité. Celui qui croit vraiment que les ressources sont un gâteau fixe, que l’économie est un jeu à somme nulle, et que l’horizon s’arrête à la frontière de son département. On est à 0,0001 % de l’histoire de l’humanité. La Lune va avoir des bases avant que beaucoup d’entre nous ne meurent. On est en train de construire les premières briques de ce qui deviendra des sphères de Dyson, des moteurs à antimatière, et d",
+          "link": "https://nitter.net/brivael/status/2081483705013416441#m",
+          "date_utc": "2026-07-26T20:56:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081483103147630592%2Fimg%2F3DvIBY4y92HXZOXL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Et seulement une fois qu’on aura fait ça, une fois que la galaxie commencera à respirer grâce à nous… alors on pourra enfin jouer à Star Wars. Le paradoxe n’est pas une question. C’est la mission. Brivael Le Pogam (@brivael) Si on est dans une simulation, le paradoxe de Fermi n’est pas un bug. C’est le design. Le fait qu’on n’entende personne, qu’on ne voie personne, que l’univers entier semble désespérément vide… ce n’est pas un mystère. C’est la règle de départ. Le but du jeu, c’est exactement ça : partir. Coloniser. Inséminer les exoplanètes. Prendre des rochers morts et leur donner de la v",
+          "link": "https://nitter.net/brivael/status/2081482488652657135#m",
+          "date_utc": "2026-07-26T20:51:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "on release demain si tout vas bien argil v2 new chapter",
+          "link": "https://nitter.net/brivael/status/2081481732012822784#m",
+          "date_utc": "2026-07-26T20:48:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOLoi6jW8AAhTZe.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣🤣🤣 Retard Finder (@IfindRetards) Retard sold her song catalog for $225 million and is now angry people are using her songs. Fuck off, retard. — https://nitter.net/IfindRetards/status/2081146784550932830#m",
+          "link": "https://nitter.net/brivael/status/2081479312859885644#m",
+          "date_utc": "2026-07-26T20:38:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOG396YasAA5EWP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯 Karoline Gosling (@KarolineGosling) Feminism is just a fancy name for hating men and being celebrated for it — https://nitter.net/KarolineGosling/status/2081167615419138393#m",
+          "link": "https://nitter.net/brivael/status/2081479227048649209#m",
+          "date_utc": "2026-07-26T20:38:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "very interesting convo between a current and ex researcher at anthropic also TIL kimi K3 might be mythos tier in terms of cyber. it's not reasoning efficient enough so it doesn't show on UK AISIS's eval which is limited to 100M TOTAL tokens, which is kinda crazy imo, seems very low if you include input/cache hit. in current cyber evals ( @NoahLebovic has his own eval where it's performing between opus 4.8 and 5.6 sol) lot of other stuff in the thread (anthropic prereq high spend to get cyber capable model, current bad actor still using cc/codex, good actor does less, current model (open or clo",
+          "link": "https://nitter.net/eliebakouch/status/2081545744276664559#m",
+          "date_utc": "2026-07-27T01:02:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "should have cited this tweet btw, this view makes a lot of sense imo and thanks to BOTH of the researchers, super important to have this kind of things being discussed in public Noah Lebovic (@NoahLebovic) Gotcha. I largely agree, but I don't think the \"model access for defenders\" policy problem is trending towards being solved with closed models, which is why I lean towards open models – even at the Mythos level – being preferable here if the capabilities exist in the first place. (I'd prefer they didn't.) As an aside, I think we're almost at Mythos-level open cyber models; Kimi K3 is pretty ",
+          "link": "https://nitter.net/eliebakouch/status/2081547486578012315#m",
+          "date_utc": "2026-07-27T01:09:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i would 100% press the magic button as well, but i also 100% think there is no way this is feasible in the real world and i think safety people lobbying/arguing for that should stop as 1. this gives a misleading idea of how AI development works today 2. imo the motivating factor for some is that they can say they tried if things go wrong roon (@tszzl) if we could coordinate a global capabilities slowdown today i would likely press that magic button — https://nitter.net/tszzl/status/2081122092096065771#m",
+          "link": "https://nitter.net/eliebakouch/status/2081450160727396587#m",
+          "date_utc": "2026-07-26T18:42:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "@tszzl and this post is not saying that btw, was just my thought when reading some of the comment/qrt)",
+          "link": "https://nitter.net/eliebakouch/status/2081451280317255890#m",
+          "date_utc": "2026-07-26T18:47:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "lobbying slowdown/stop of AI capabilities for 1 country makes more sense since it's feasible, but then i would 100% not press",
+          "link": "https://nitter.net/eliebakouch/status/2081450575707709795#m",
+          "date_utc": "2026-07-26T18:44:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2081584715669078067#m",
+          "date_utc": "2026-07-27T03:37:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHONGQfxWYAAFM94.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2081544342758387874#m",
+          "date_utc": "2026-07-27T00:56:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOMhi7GWEAAVuCG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Reminder: Heavy Pulp (@heavypulp) Everything is Computer, but Computer isn't Everything! Video — https://nitter.net/heavypulp/status/2031716527901225372#m",
+          "link": "https://nitter.net/heavypulp/status/2081391686660288547#m",
+          "date_utc": "2026-07-26T14:50:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2031715641531748352%2Fimg%2FRG3vgOY6GMG9k2CY.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“i want a new kind of computer” Sam Altman (@sama) agreed feels big, i want a new kind of computer — https://nitter.net/sama/status/2081513071135346814#m",
+          "link": "https://nitter.net/ns123abc/status/2081515021993955401#m",
+          "date_utc": "2026-07-26T23:00:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOMG4YjXgAA5OVN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok 4.5 is literally the best value per dollar + super heavy subscription is 2x cheaper ($100) with nearly DOUBLE the rate limits than both codex and claude 20x max plans Tim Sweeney (@TimSweeneyEpic) Grok 4.5 is very good for vibe math in the field of Programming Language Theory. It's keeping up with Sol 5.6 and is way more fun to use than Fable/Opus 5 which love to spend hours creating superfluous documents (Claude code) or constantly nags me to \"Continue\" (web). — https://nitter.net/TimSweeneyEpic/status/2081449972201922735#m",
+          "link": "https://nitter.net/ns123abc/status/2081491428610367659#m",
+          "date_utc": "2026-07-26T21:26:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOLxKV4WoAA__VN.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "There's a reason his handlers coached him to wear that caricature smile at all times...it hides those evil commie eyes. Fox News (@FoxNews) \"I think the bedrocks of our city is protest.\" Zohran Mamdani says New Yorkers should take to the streets when Israeli Prime Minister Benjamin Netanyahu visits for the U.N. General Assembly this September. Jewish leaders are pushing back, warning the mayor is \"willing to risk inciting further violence based on misinformation,\" while others say the remarks show \"his true colors.\" — https://nitter.net/FoxNews/status/2081119229219151924#m",
+          "link": "https://nitter.net/spencerpratt/status/2081544521100206235#m",
+          "date_utc": "2026-07-27T00:57:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOGe6TkWkAAFKVM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Another one? You don’t say. The entire system is collapsing. Don’t let communists run your cities…this is what happens every single time. Video",
+          "link": "https://nitter.net/spencerpratt/status/2081530398660551139#m",
+          "date_utc": "2026-07-27T00:01:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081487785060610048%2Fimg%2FXEFvVZ5biwYLZYAT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "And another. And another. And another. The entire LA system is breaking apart. A lot of people are saying this is sabotage. Nope. It's just communists. Which is, I suppose, indistinguishable from sabotage. Don't let communists run your city, folks. KTLA (@KTLA) Another L.A. neighborhood woke up to a water main break Sunday morning. ktla.com/news/local-news/ano… — https://nitter.net/KTLA/status/2081387034145440135#m",
+          "link": "https://nitter.net/spencerpratt/status/2081425870095331518#m",
+          "date_utc": "2026-07-26T17:06:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOKSehfXQAA7Hkj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://ktla.com/news/local-news/another-water-main-break-reported-in-los-angeles-neighborhood/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "KTLA (@KTLA) Another L.A. neighborhood woke up to a water main break Sunday morning. ktla.com/news/local-news/ano… — https://nitter.net/KTLA/status/2081387034145440135#m",
+          "link": "https://nitter.net/spencerpratt/status/2081425273312935944#m",
+          "date_utc": "2026-07-26T17:03:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOKSehfXQAA7Hkj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://ktla.com/news/local-news/another-water-main-break-reported-in-los-angeles-neighborhood/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "When you're running for Mayor, they say \"you can't do any of that as mayor, it's not NYC...LA is a City Council-run town.\" When their preferred Mayoral candidate is a city council member in charge of homelessness, suddenly the city council is purely performative and has ZERO power. So...Nithya has NO power over money...except when she's literally handing out 6 figure checks to her corrupt NGOs? With these dirty commies, it's not hypocrisy, it's hierarchy. They just want power and they'll say anything they must, at any given moment, in order to take power. Search this guy's account for the word",
+          "link": "https://nitter.net/spencerpratt/status/2081423889838592140#m",
+          "date_utc": "2026-07-26T16:58:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOKzeYOWQAAsG5b.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Good article in WSJ, but I don't care about vindication as much as I care about pulling my city out of the death spiral that communists like Nithya Raman have condemned it to. Nithya will make all our problems worse. Hope you're all listening now. wsj.com/opinion/vindication-… Link Opinion | Vindication for Spencer Pratt L.A.’s homelessness problem is worse than advertised. wsj.com James Freeman (@FreemanWSJ) Vindication for Spencer Pratt wsj.com/opinion/vindication-… via @WSJopinion Link Opinion | Vindication for Spencer Pratt L.A.’s homelessness problem is worse than advertised. wsj.com — ht",
+          "link": "https://nitter.net/spencerpratt/status/2081377313304789150#m",
+          "date_utc": "2026-07-26T13:53:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2080456123656658944%2F7WggpEex%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.wsj.com/opinion/vindication-for-spencer-pratt-4f3b25e6",
+              "content": ""
+            },
+            {
+              "url": "https://www.wsj.com/opinion/vindication-for-spencer-pratt-4f3b25e6?st=hdFExe",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Unless you live near vegetation in Gavin Newsom’s California. Charlie (@LAChas77) Next time you pay your homeowners insurance bill... remember the likelihood of any US home experiencing a total loss claim is once every 535 years — https://nitter.net/LAChas77/status/2081151350893621741#m",
+          "link": "https://nitter.net/spencerpratt/status/2081235632030920817#m",
+          "date_utc": "2026-07-26T04:30:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "I'm scared 😮 Captain Insight (@CaptainInsightX) Your friend has been spending a little too much time talking to AI. 😂 Video — https://nitter.net/CaptainInsightX/status/2081355060886544623#m",
+          "link": "https://nitter.net/stepango/status/2081558509058248962#m",
+          "date_utc": "2026-07-27T01:53:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2071631922044792832%2Fimg%2FpbS1ukC00nYqsO73.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
