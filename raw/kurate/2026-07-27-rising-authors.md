@@ -1,5 +1,5 @@
 # Kurate Rising Authors
-> 2026-07-27 13:13 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
+> 2026-07-27 13:16 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
 
 ## Guy Lutsker  ·  score 31.9  ·  4 appearances
 *First seen 2026-W19, last seen 2026-W31*
