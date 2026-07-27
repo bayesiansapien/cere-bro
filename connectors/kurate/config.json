@@ -3,7 +3,7 @@
     {"id": "cs.AI", "label": "Artificial Intelligence", "tier_default": 2},
     {"id": "cs.LG", "label": "Machine Learning",        "tier_default": 2}
   ],
-  "period": "weekly",
+  "period": "week",
   "top_n": 20,
   "tier_keywords": {
     "1": ["routing", "router", "kv cache", "kv-cache", "quantization", "distillation", "pruning", "speculative decoding", "flashattention", "gpu", "cuda", "kernel", "blackwell", "hopper", "h100", "b200", "tpu", "throughput", "latency", "training efficiency", "inference efficiency", "moe", "mixture of experts"],
