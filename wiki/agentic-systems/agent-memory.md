@@ -80,3 +80,27 @@ The 2026-05-15 cluster makes the structural axes explicit:
 - [KV Cache](../inference-efficiency/kv-cache.md) — the short-term, attention-internal sibling
 - [Agent Benchmarks](agent-benchmarks.md) — STALE/MemEye/MemLens are agent-memory benchmarks
 - [LLM Routing](../ai-routing/llm-routing.md) — memory staleness as a potential routing signal
+
+## The compression assumption gets its first serious challenge (2026-07-27)
+
+Every memory paper on this page above shares an unexamined premise: the history must be compressed, and the research problem is compressing it well. Two papers landed the same day taking opposite sides, and the disagreement is now the most important open question in agent memory.
+
+**[PRO-LONG (07-27)](2026-07-27-pro-long-programmatic-memory.md)** says the premise is wrong. Keep the complete structured interaction log, discard nothing, and let the agent search it on demand with ordinary coding-agent tooling. No bespoke memory harness at all. On the full ARC-AGI-3 public game set it beats a base coding agent by **18.0 points** on average across frontier models, reaches up to **76.1% pass@1**, matches or exceeds specialised state-of-the-art harnesses, and does it with **4.2 to 5.8x fewer tokens**. The token result is the counterintuitive one and the mechanism is simple: the log is stored, not resident, so the agent pays for the slice it retrieves instead of carrying a summary of everything through context every turn. Cross-source confirmed, appearing on both Kurate's weekly cs.AI leaderboard and DAIR.AI's weekly roundup.
+
+**[Agentic Context Management (07-27)](2026-07-27-agentic-context-management.md)** defends the premise and formalises it. Context management is a lifecycle, not a store, spanning what to remember, extract, scope, consolidate, forget, and compact to a budget, across an organisational scope hierarchy rather than a single user. Its economic argument: naive accumulation costs **quadratic** in conversation length, crude summarisation buys linear cost at the price of an accuracy cliff, and only *validated* compaction gets linear cost with fidelity preserved. Reference implementation reports 92% on LongMemEval, 93.2% on LoCoMo.
+
+**Reading the disagreement.** They are probably right about different workloads, and the split follows access predictability:
+
+| | PRO-LONG | ACM |
+|---|---|---|
+| Evidence | ARC-AGI-3 (exploratory games) | LongMemEval, LoCoMo (conversational recall) |
+| Access pattern | Sparse, unpredictable | Dense, anticipatable |
+| Winning primitive | Search | Anticipation |
+
+Neither tests on the other's benchmark. That experiment settles it and nobody has run it.
+
+**What this does to the rest of the page.** The learned-compression line, [MemTrain (06-04)](2026-06-04-memtrain-self-supervised-context-memory.md), [EvolveMem (05-15)](2026-05-15-agent-memory-cluster-stale-preping-evolvemem.md), [MemForest (05-26)](2026-05-26-memforest-hierarchical-temporal-agent-memory.md), [Echo-Infinity (06-04)](../inference-efficiency/2026-06-04-echo-infinity-evolving-memory-video.md), is not refuted, but it now owes a baseline it never ran: a complete searchable log. That is the cheap control condition, and PRO-LONG suggests it is strong.
+
+One thing PRO-LONG gets for free is the staleness problem. [STALE (05-15)](2026-05-15-agent-memory-cluster-stale-preping-evolvemem.md) put the best frontier model at 55.2% on detecting implicit conflicts between stored memories, with the difficulty in propagation rather than retrieval. An append-only log has no consolidation step, so nothing can go stale, though contradictory observations then coexist and must be resolved at read time. Whether that is easier is untested, and it is Open Problem 1 on this page restated in a new form.
+
+**Open problem added:** *what is a "validated" compaction?* ACM's entire result rests on the distinction between validated and crude compaction and does not specify what the validator checks. If it is an LLM judge reading a candidate summary, it is exactly the configuration [More Convincing, Not More Correct (07-26)](../llms-foundation-models/2026-07-26-self-play-reward-hacking-llm-judges.md) showed produces a false-positive basin, scoring plausibility over correctness at a 0.719 false-positive rate.
