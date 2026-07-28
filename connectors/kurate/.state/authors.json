@@ -10528,6 +10528,14 @@
         "arxiv_id": "2607.11883v1",
         "title": "Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data",
         "ai_rating": 8.5
+      },
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.19866v1",
+        "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
+        "ai_rating": 6.8
       }
     ],
     "first_seen": "2026-W29",
@@ -11758,6 +11766,510 @@
         "arxiv_id": "2607.18074v1",
         "title": "Sobek: Streaming Equivariant Tensor Product Convolutions",
         "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jiaqi Shao": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.22368v1",
+        "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hanck Chen": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.22368v1",
+        "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Wei Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.22368v1",
+        "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Maxm Pan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.22368v1",
+        "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Bing Luo": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.22368v1",
+        "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Bandana Kaur": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.21735v1",
+        "title": "What AI Red-Team Evaluations Can and Cannot Prove",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Lulu Guo": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23045v1",
+        "title": "Stress-testing large language model agents in a robotic chemistry laboratory",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yingkai Sun": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23045v1",
+        "title": "Stress-testing large language model agents in a robotic chemistry laboratory",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiaobo Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23045v1",
+        "title": "Stress-testing large language model agents in a robotic chemistry laboratory",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Luyao Ge": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23045v1",
+        "title": "Stress-testing large language model agents in a robotic chemistry laboratory",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ziming Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23045v1",
+        "title": "Stress-testing large language model agents in a robotic chemistry laboratory",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Haitao Zheng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23045v1",
+        "title": "Stress-testing large language model agents in a robotic chemistry laboratory",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xi Chen": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23290v1",
+        "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hongru Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23290v1",
+        "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Shiyu Feng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23290v1",
+        "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hanyu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23290v1",
+        "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Huahui Yi": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23290v1",
+        "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Rongsheng Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23290v1",
+        "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zhen Lin": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.21686v1",
+        "title": "Persistent Computational State: A Session-Centric Runtime for Generative World Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Shawn Ray": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.22868v1",
+        "title": "What Can Be Enforced? A Theory of Certified Runtime Safety for Tool-Using Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Shuqi Lu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.21461v2",
+        "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Chaofan Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.21461v2",
+        "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Kun Luo": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.21461v2",
+        "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zhang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.21461v2",
+        "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hui Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.21461v2",
+        "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hongwang Xiao": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.21461v2",
+        "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Rajiv Shailesh Chitale": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.21453v1",
+        "title": "Test-Time Scaling via Error Localization",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Rahul Madhavan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.21453v1",
+        "title": "Test-Time Scaling via Error Localization",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Taneesh Gupta": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.21453v1",
+        "title": "Test-Time Scaling via Error Localization",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Deepanway Ghosal": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.21453v1",
+        "title": "Test-Time Scaling via Error Localization",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Aravindan Raghuveer": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.21453v1",
+        "title": "Test-Time Scaling via Error Localization",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zheng Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.19866v1",
+        "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.19866v1",
+        "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ruxin Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.19866v1",
+        "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ruichu Cai": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.19866v1",
+        "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Feng Xie": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.19866v1",
+        "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
+        "ai_rating": 6.8
       }
     ],
     "first_seen": "2026-W31",
