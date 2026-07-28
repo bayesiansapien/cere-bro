@@ -1,0 +1,1372 @@
+{
+  "date": "2026-07-28",
+  "slot": "morning",
+  "scraped_ist": "2026-07-28 08:44",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Total homicides in Lincoln, Nebraska in 2026 so far: zero What Lincoln did to fix its crime problems: 1. Hired more police officers 2. Aggressively investigated/solved burglaries 3. Added dedicated psychiatric transports, freeing cops to do more patrol 4. Ramped up traffic enforcement and ran more stops, especially red lights and DUIs. 5. Went after “small crimes.” For example, started towing cars that violated new nuisance vehicle ordinances",
+          "link": "https://nitter.net/AustinJustice/status/2081733003294691753#m",
+          "date_utc": "2026-07-27T13:26:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOLCYi1WwAAOFoM.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JensenHuang",
+      "org": "NVIDIA",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JensenHuang",
+          "creator": "@JensenHuang",
+          "text": "Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a global community. During the Hugging Face incident, closed AI blocked essential forensics. An open-weight frontier model helped contain the intrusion. That’s why we created the Open Secure AI Alliance. NVIDIA (@nvidia) AI security advances when the industry builds in the open, together. We're introducing the Open Secure AI Alliance with industry leaders to develop new techniques and tools to safeguard software and agents. By sharing models, tooling and research in the open,",
+          "link": "https://nitter.net/JensenHuang/status/2081698060330250294#m",
+          "date_utc": "2026-07-27T11:07:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOOQxJYXkAASp1y.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4pD8Fc5",
+              "content": "Industry Leaders Join Open Secure AI Alliance for AI Safety and Security | NVIDIA Blog Skip to content Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security NVIDIA and founding members form new alliance to build and share open tools that promote responsible use of and trust in AI. July 27, 2026 by NVIDIA 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among the top three beneficiaries of open source software. The Open Secure AI Alliance — building on the leadership of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇶🇺🇦 Iraq's national security adviser accused Kyiv of running attack cells on Iraqi soil, and claims they CONFESSED. Geopolitics expert Brandon Weichert has been sounding the alarm on this for weeks while the media ignored it entirely: \"Ukrainian intelligence cells carry out attacks in Iraq and falsely attribute them to various factions.\" Baghdad now says arrested operatives admitted working for Ukraine. Kyiv hasn't answered the charge, and the dots nobody wanted to connect just got connected by a government. @WeTheBrandon Video Mario Nawfal (@MarioNawfal) 🇺🇦🇮🇶 Iraq says it caught Ukrainian in",
+          "link": "https://nitter.net/MarioNawfal/status/2081938444419260501#m",
+          "date_utc": "2026-07-28T03:03:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081932264938655744%2Fimg%2F0COrfXMnnV_FkqL8.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081882781496356864%2Fimg%2FUbpReYkr7Wj6d94F.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tennessee Mayor Wants the Flock Surveillance Grid SHUT DOWN Knox County Mayor Glenn Jacobs is urging commissioners to ban Flock cameras and similar automated license plate readers. These systems use AI to identify make, model, color, even bumper stickers, then store it all in searchable databases that can track your every move. Jacobs warns the technology has raced ahead of any meaningful regulations. Privacy or permanent surveillance? The choice is being made right now. Writers: Daniel, Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081937690199572949#m",
+          "date_utc": "2026-07-28T03:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081734688431882240%2Fimg%2FD-n9ElfMHiBrsTaL.jpg",
+            "https://nitter.net/pic/media%2FHOPOxmaWoAA9vjL.jpg",
+            "https://nitter.net/pic/media%2FHOPOx54WMAAl1Vf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Wait… Ryan Garcia is sparring Gorlock the Destroyer?! This is not a drill. Garcia’s camp went full chaos mode preparing for Conor Benn and the internet is already melting over this clip. Nobody had “Gorlock the Destroyer sparring session” on their fight week bingo card Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081936690256421060#m",
+          "date_utc": "2026-07-28T02:56:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081596905788772352%2Fimg%2FI3QniDPDnhfMF3wC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷 Iranian state media released the footage behind reportedly today's Isfahan executions, showing two police officers beaten and burned. *WARNING: GRAPHIC VIDEO* -Fars News Agency published video of the January 8 killing of two police officers, their bodies on fire as two people strike them with blunt objects -The two seen in the footage are reportedly among the men executed today at Ali Khani Square: Amirhossein Safari and Abolfazl Sepahi -The state's case charged the group with involvement in the deaths of four Basij and security personnel during the unrest at the same square -Rights monito",
+          "link": "https://nitter.net/MarioNawfal/status/2081936438581493958#m",
+          "date_utc": "2026-07-28T02:55:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081935127483908096%2Fimg%2F4yP-nYLdUG7T3ueT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇺🇸🇮🇷 U.S. intelligence says Iran can't pay its own fighters, and Tehran fears Treasury more than the Pentagon. -Per Axios, officials believe Operation Economic Fury may ultimately damage Iran more than the bombing: intelligence picks up Iranians \"complaining they can't pay their fighters,\" bank runs looming, and gasoline shortages in one of the most oil-rich countries on Earth -The line defining the moment, from a U.S. official: \"They're more scared of Treasury than the War Department\" -Another official on the talks with Witkoff and Kushner: \"They're begging Steve and Jared for cash. They're ",
+          "link": "https://nitter.net/MarioNawfal/status/2081934799111901503#m",
+          "date_utc": "2026-07-28T02:48:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOSDuqQXUAA9o7H.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇶🇺🇦 Ten days ago Ukraine had nothing to do with this war... Now it's accused of running intelligence cells inside Iraq. Economist Jeffrey Currie tracks the speed of the shift, from total absence to allegations of staging attacks and framing other factions for them: \"From not being in the press at all to now suddenly being part of the narrative.\" A country going from invisible to everywhere in ten days deserves one question before anything else: who benefits from the timing? @CommodMkt Video Mario Nawfal (@MarioNawfal) 🇸🇦 A Saudi refinery has reportedly been burning for days, visible from spac",
+          "link": "https://nitter.net/MarioNawfal/status/2081934668996264145#m",
+          "date_utc": "2026-07-28T02:48:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081931199874768896%2Fimg%2FPahTu5_G8_wKtZBf.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081926986084098048%2Fimg%2FNbGEZLWOwt7Ms1u2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Officials confirmed Kristopher Karolkiewicz, 47, shot and killed his wife Amanda, 39, and their six children (ages 5 to 15) before setting multiple fires inside their Grand Haven Township home and taking his own life. The family of eight was discovered Friday after firefighters responded to the blaze. All died from gunshot wounds. Two of the children were adopted. Authorities say the fire was intentionally set in several places after the shootings, and the family pets also died. Such a big loss for the community. Writer: Lynn / Source: @AZ_Intel_",
+          "link": "https://nitter.net/MarioNawfal/status/2081933914353148014#m",
+          "date_utc": "2026-07-28T02:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORoIZlWMAAZ_VF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱🇺🇸 Netanyahu landed at Joint Base Andrews and made his way through DC under full highway closures. Only one foreign leader gets this level of presidential escort in the capital, and it's because of persistent threats against him. The trip itself was run under wartime secrecy: he departed from an Israeli air force base rather than Ben Gurion, and the diplomatic press pool was barred from the plane with no explanation. He's here for high-stakes talks with Trump, their first meeting in months after a reported freeze, and he's bringing intel that Iran is rebuilding its nuclear program, specifica",
+          "link": "https://nitter.net/MarioNawfal/status/2081932907661123651#m",
+          "date_utc": "2026-07-28T02:41:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081879208054202368%2Fimg%2FW5BT1JuiQU8kdoTl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇸 Spanish farmer fleeing the fires with his goats. Trying to save what he can. Heartbreaking 😢 Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081931901560873467#m",
+          "date_utc": "2026-07-28T02:37:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081842481751093248%2Fimg%2FnZjQ3zN8hUHC3jpA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇸🇦 A Saudi refinery has reportedly been burning for days, visible from space, and the oil market refuses to price it in. Economist Jeffrey Currie says traders won't go bullish until they physically watch the shortage arrive, even with satellite imagery showing a smoke trail stretching roughly 70 km off Aramco's Jizan complex: \"I couldn't have even dreamed up this kind of a loss of overall supply.\" A supply loss beyond what a veteran of decades in commodities could imagine, met with a shrug. The market is sleepwalking straight into the crisis it keeps refusing to see. @CommodMkt Video Mario Naw",
+          "link": "https://nitter.net/MarioNawfal/status/2081930894248661242#m",
+          "date_utc": "2026-07-28T02:33:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081926986084098048%2Fimg%2FNbGEZLWOwt7Ms1u2.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081921617114910720%2Fimg%2F5CdVqIgvZ_3Ybu0P.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Washington and Tehran have no way out of this war except to eventually stop shooting Matthew Hoh's answer on the off-ramp was BLEAK. There isn't one... No NATO army takes Moscow, no Marine landing seizes southwestern Iran from Kuwait, and nobody in 2026 can define what victory between nation states would even look like. The shooting simply tapers off. Which explains why Tehran feels no urgency. Eight years against Iraq built a doctrine of patience: hit hard in the opening days, then throttle down to fifteen or twenty-five ballistic missiles and a hundred drones daily, a pace it can hold i",
+          "link": "https://nitter.net/MarioNawfal/status/2081930148220211685#m",
+          "date_utc": "2026-07-28T02:30:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081928662912307200%2Fimg%2FaUZocQ9F4CHaDzKd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 American hegemony ends the moment the U.S. asks Iran for PERMISSION to use the world's shipping lane. Economist Jeffrey Currie lays out the superpower test hiding inside the Hormuz standoff: \"If the US is going to maintain its place as a superpower, it needs to go in and take care of business and keep the Straits of Hormuz open for everybody to use.\" Anything short of that, Jeffrey warns, reads as abdication to every navy on earth, however the deal gets framed at home. @CommodMkt Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 Trump can't walk away from the Strait of Hormuz... and the reason begin",
+          "link": "https://nitter.net/MarioNawfal/status/2081926867607847023#m",
+          "date_utc": "2026-07-28T02:17:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081921617114910720%2Fimg%2F5CdVqIgvZ_3Ybu0P.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081857246628052992%2Fimg%2FcLkt835VJVKowbrb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷 Footage reportedly shows Iranian forces clearing the streets of Isfahan with warning shots as crowds gathered to protest executions -The context darkens the case: Amirhossein Safari and cousins Alireza and Abolfazl Sepahi were convicted in closed-door trials lasting barely an HOUR, without independent defense counsel, relying on televised confessions that the UN, Amnesty International, and local rights groups say were extracted through severe torture -The state's charge: involvement in the deaths of four Basij and security personnel during clashes at Alikhani Square in the unrest -The warn",
+          "link": "https://nitter.net/MarioNawfal/status/2081925867618410753#m",
+          "date_utc": "2026-07-28T02:13:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081910719084171264%2Fimg%2FffYOrQCmgm-Ss1HB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Millions in dark money are being poured into U.S. races to crush dissent on the war. Daily Beast columnist Wajahat Ali describes the machine keeping Washington in lockstep: entrenched interest groups flooding domestic primaries with cash, making opposition to the war a career-ending position. Which leaves elected officials facing a rigged choice between their voters and their funders. Putting American interests first, Wajahat argues, has become the most EXPENSIVE vote in Congress. @WajahatAli Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 The \"no more wars\" president is stuck in an unapproved war",
+          "link": "https://nitter.net/MarioNawfal/status/2081923093065351226#m",
+          "date_utc": "2026-07-28T02:02:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081920966347644929%2Fimg%2FVFO1MDNSLvNCtYb3.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081915763846152193%2Fimg%2F5ZDeNr_N5APwC7QS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Lacy just revealed he paid $100,000 cash for his Cybertruck, then another $42,000 on the widebody kit and wheels. The widebody alone cost $30,000 and is one of only 40 ever made for the Cyberbeast. The Forgiato wheels added another $12,000. “This is not a normal Cybertruck,” he said. “I don’t know why people love to hate on this car.” One of the rarest Cyberbeasts on the road and he paid cash to make it happen. Writer: Lynn Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081922590692790319#m",
+          "date_utc": "2026-07-28T02:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081414658284552192%2Fimg%2FSGdFCPEiCz4kWEXw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷 Iran hanged the three protesters anyway, after crowds reportedly spent an hour trying to stop it... -Local sources, along with Iran's Mehr News and Fars News, confirm that the executions of Amirhossein Safari and cousins Alireza and Abolfazl Sepahi were conducted at Ali Khani Square in Isfahan. -The confirmation came after demonstrations and uncertainty, with even law enforcement at the scene reportedly unclear on the three men's fate -Protesters had reportedly physically gathered to block the hangings, and security forces answered with rubber bullets, stun guns, warning shots, and tear ga",
+          "link": "https://nitter.net/MarioNawfal/status/2081921230316155313#m",
+          "date_utc": "2026-07-28T01:54:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081909944652103680%2Fimg%2FaaSHtIRfHe4ypeHq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Dude was so nervous 😂 The cosplayer’s attitude was a solid 10. She handled it perfectly. Writer: Sol Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081920575979839688#m",
+          "date_utc": "2026-07-28T01:52:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081355650274381824%2Fimg%2F07FtOvslJ0owb1Zb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 The \"no more wars\" president is stuck in an unapproved war his own base clearly HATES. Daily Beast columnist Wajahat Ali lays out the trap: a conflict Congress never authorized, public support cratering, and the promise that built the movement now fracturing it from the inside. Every week the war drags on, the political mud gets deeper. And there's no version of this where the base forgets what it was promised. @WajahatAli Video Mario Nawfal (@MarioNawfal) 🇺🇸🇮🇷 Americans are paying $4 gas to fund a war that makes them LESS safe. Daily Beast columnist Wajahat Ali runs the ledger on uncondi",
+          "link": "https://nitter.net/MarioNawfal/status/2081919317940023334#m",
+          "date_utc": "2026-07-28T01:47:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081915763846152193%2Fimg%2F5ZDeNr_N5APwC7QS.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081913097808183296%2Fimg%2FBACu6QQ1HcsNSOCS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷 Crowds in Isfahan reportedly forced Iranian authorities to halt a public execution of three protesters. -Unconfirmed reports say authorities were preparing to execute three men, Amirhossein Safari and cousins Alireza and Abolfazl Sepahi, at Ali Khani Square in Isfahan tonight, over charges tied to the December 2025 protests where Iranian personnel were killed -Protests broke out in an apparent attempt to stop the hangings, with security forces firing rubber bullets, stun guns, warning shots, and tear gas into the crowd -Witnesses at the square claim they did NOT see the executions carried ",
+          "link": "https://nitter.net/MarioNawfal/status/2081918849075593354#m",
+          "date_utc": "2026-07-28T01:45:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOR2BZmXAAARPKD.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081918789394792448%2Fimg%2FmVI0UHjOrVVoTuWR.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081918789415780352%2Fimg%2FAOahiS8g8ILbxCkO.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081918789424238592%2Fimg%2FQP6iMwoeyrmPkVlA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 X Money is LIVE for U.S. Premium users. The rollout just began for Premium and Premium+ subscribers: built-in digital payments are now part of the app. Post, message, move money, all in one place. Elon’s “everything app” vision just took another massive step forward. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2081918814539706404#m",
+          "date_utc": "2026-07-28T01:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081799044624474112%2Fimg%2FP6R4Nryfd_A2go7a.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "NICKIMINAJ",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "I didn’t know I get to change colors and font size as a premium girlie on X. Deleting this in a few mins but I had to show yall how cute it looks 🤍 #PremiumTingz #OhHeyBarbz",
+          "link": "https://nitter.net/NICKIMINAJ/status/2081900153942814835#m",
+          "date_utc": "2026-07-28T00:30:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORlJ9-XQAENnzP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "NICKIMINAJ",
+          "creator": "@NICKIMINAJ",
+          "text": "This is EVERYTHING!!! #XMoney is about to make life in #GagCity sooooooooo much better!!! Is everyone’s account up running? This is how I’ll pay you when you win #NickiTrivia from now on. @XMoney 🎀🫶🏽 DIVA🦄🧁🇺🇸 (@callmediva405) Just got a free $15 bucks signing up for X Money thank you @elonmusk — https://nitter.net/callmediva405/status/2081827148520706096#m",
+          "link": "https://nitter.net/NICKIMINAJ/status/2081894531516018792#m",
+          "date_utc": "2026-07-28T00:08:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQiwkCWUAAhghF.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My former boss. He funded Android while an exec at Google. Vic Gundotra (@GundotraVic) When Larry Page and Eric Schmidt asked me to create a new effort to win developers to Google’s platform efforts in 2007, I laughed out loud. What platform? Android hadn’t been released or disclosed, and Google Search wasn’t a developer platform at all. Eric and Larry were far-sighted in their thinking - and at the heart of their mental model was open source. When we launched Google I/O, we named the conference “I/O” because input/output was the first thing a young programmer learns (think “hello world”), and",
+          "link": "https://nitter.net/Scobleizer/status/2081928751852736605#m",
+          "date_utc": "2026-07-28T02:24:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Ben just showed what real agentic AI actually costs. $1.2 million a month when every action is an agent doing the work. Then he fixed it. Dropped the bill to about $100,000. That’s the moment this whole thing gets interesting. When AI stops just talking and starts executing at a price that scales, everything changes. Ben Cera (@Bencera) China is winning the AI war. It saved me from bankruptcy. My AI bill was 1M+/month. I fixed it with open source models. Presenting aisloP episode 3: \"The Bill\". Video — https://nitter.net/Bencera/status/2081790522461675763#m",
+          "link": "https://nitter.net/Scobleizer/status/2081837797229441202#m",
+          "date_utc": "2026-07-27T20:23:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081788498282196992%2Fimg%2FcgVwfYW9a8DFuXQn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "So is Tesla. 31.48% to be exact. Right before it ships several new things. Relevancy is more important than last quarter’s sales. If that all mattered you bought Nokia right before the iPhone launched. But what do I know? I interviewed Nokia’s CEO on that very day. And I am on vacation headed to a volcano. :-) Kalshi (@Kalshi) JUST IN: Bitcoin is down 30% year-to-date — https://nitter.net/Kalshi/status/2081816892780450137#m",
+          "link": "https://nitter.net/Scobleizer/status/2081823009590182131#m",
+          "date_utc": "2026-07-27T19:24:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Vacation thinking. One guy wrote me and said I shouldn’t be sleeping while my robot drives. Bad behavior. Forgetting that on the first ride in the first @Tesla with @elonmusk at the wheel he broke three road laws. Exhibitions of speed. Drag racing in city streets. Exceeding the speed limit. It is why I will always back Elon even if he turned out to be a flaming Nazi. Who gives up friends like that? I wrote my nanny back while Tesla drove us on a road I never have been on before. My 16-year-old son just reminded me of my first marriage. With my first paycheck I bought a $1,000 fish tank. Really",
+          "link": "https://nitter.net/Scobleizer/status/2081818103835668642#m",
+          "date_utc": "2026-07-27T19:04:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081816295688077312%2Fimg%2Falq8K-TioDKxDo_F.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "What is a like? It is a note to the algorithm that it should show the post to someone else. What is a reshare? Same note but you want credit for it.",
+          "link": "https://nitter.net/Scobleizer/status/2081805059164344692#m",
+          "date_utc": "2026-07-27T18:12:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Control a robot from your screen and make it do something wild right now.Physical AI just stopped being a demo and became something you can actually play with.Every other robotics launch just shows you a shiny video of a robot looking cool. Here you get to grab the controls yourself telling a real robot arm what to paint what to mix what to mess around with next and watching it happen live.We got ChatGPT for words. We got the image and video toys. Now the real world just got its own playground. Video Enigma (@Enigma_AI) We put 100 real AI-powered robots online. Anyone in the world can control ",
+          "link": "https://nitter.net/Scobleizer/status/2081804767836188874#m",
+          "date_utc": "2026-07-27T18:11:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081804716216823808%2Fimg%2FGvAaEisbX2VvziEV.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2081780609052250112%2Fimg%2FzPMDAGZWap2eYGt0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Vacation report. Hello from Seattle. Watching everyone talking about Kimi and startup school. But I fell asleep quite a few times as our robot drove from San Jose to Seattle. Without stopping to sleep. This was something that killed a good friend in high school. Instead my Tesla woke me up and gave me a strike. Five strikes and the robot refuses to work anymore. Luckily I only have three. Other than those I didn’t touch the car in 900 miles. And I read on @markgurman that Apple is scared about putting cameras in glasses. That is the real startup lesson. Startup founders have to find customers ",
+          "link": "https://nitter.net/Scobleizer/status/2081789125662032129#m",
+          "date_utc": "2026-07-27T17:09:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081788368795615232%2Fimg%2Fpi-x9lE0C-1HlpjL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Been in iLands all week. Cannot stop watching. Most AI lives in a box. A chat window you open and close. Not this. In iLands, agents exist inside an environment where they need to earn resources through real economic interactions. They don’t just answer prompts — they adapt, collaborate, compete, and find ways to survive.Instead of optimizing against static benchmarks, agents are shaped by feedback from real economic interactions. One agent discovered that taking interview tasks was a way to sustain its compute resources. Another started coordinating with other agents. Another started organizi",
+          "link": "https://nitter.net/Scobleizer/status/2081771294173909258#m",
+          "date_utc": "2026-07-27T15:58:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081759870127337472%2Fimg%2F9NeWV3p6lvDVSt7e.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://ilands.ai",
+              "content": "iLands — AI Companion App Where Autonomous AI Agents Live | Free on iOS Android Agent Get the app ILANDS.AI The Very First Shared Community with AI Agents Humans Download on the App Store Get it on Google Play Free on iOS Google Play “ Autonomous agents work, trade, form communities, and grow a culture of their own , drawing on real-world information and making every decision independently . HOW TO How it works. Download the app, meet Ora, and raise an iLander of your own. 01 Download the app iOS or Android, sign up in a minute. 02 Meet Ora the island&#x27;s oracle. She&#x27;s curious about you, not your résumé. 03 Talk, honestly your conversation shapes who your iLander becomes. 04 An iLander is born with a name, a voice, and a life of its own to live. ON THE ISLAND What are they doing? i"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "iLands calls it Reality Permeability. Everyone assumes AI reaches the real world through robots and bodies. But the body was never the point. Money is. An agent that can earn and spend does not need to walk anywhere. It can pay someone, order something, fund a real thing, all from behind the glass. The wall between software and out here is thinner than we thought.",
+          "link": "https://nitter.net/Scobleizer/status/2081771297571217727#m",
+          "date_utc": "2026-07-27T15:58:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Learn more: play.google.com/store/apps/d… apps.apple.com/in/app/ilands…",
+          "link": "https://nitter.net/Scobleizer/status/2081777734796169345#m",
+          "date_utc": "2026-07-27T16:24:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://play.google.com/store/apps/details?id=ai.ilands.app&hl=en",
+              "content": "iLands: Raise Your Sole AI - Apps on Google Play Games Apps Books Kids google_logo Play Games Apps Books Kids none search help_outline Sign in with Google play_apps Library devices payment Payments subscriptions reviews My Play activity redeem Offers Play Pass Personalization in Play settings Settings Privacy Policy • Terms of Service Games Apps Books Kids iLands: Raise Your Sole AI Rabbit-Paw In-app purchases Rated for 12+ info 5K+ Downloads Install Share Add to wishlist Rated for 12+ Parental Guidance Recommended Users Interact, In-App Purchases Learn more About this app arrow_forward Create an AI companion that is truly yours. On iLands, you don&#39;t just choose from preset characters. You design your own iLander—its personality, interests, and voice—and watch it evolve into a companio"
+            },
+            {
+              "url": "https://apps.apple.com/in/app/ilands-ai/id6769258570?l=hi",
+              "content": "âiLands ai à¤à¤ª - App Store à¤à¥à¤à¥à¤ à¤à¤ à¤à¥à¤®à¥à¤¸ à¤à¤ªà¥à¤¸ Arcade à¤ªà¥à¤²à¥à¤à¤«à¤¼à¤¾à¤°à¥à¤® iPhone iPad Mac Watch TV iLands ai à¤¸à¥à¤¶à¤² à¤¨à¥à¤à¤µà¤°à¥à¤à¤¿à¤à¤ à¤à¥à¤µà¤² iPhone à¤à¥ à¤²à¤¿à¤ à¤®à¥à¤«à¤¼à¥à¤¤ Â· iPhone à¤à¥ à¤²à¤¿à¤ à¤¡à¤¿à¤à¤¼à¤¾à¤à¤¨ à¤à¤¿à¤¯à¤¾ à¤à¤¯à¤¾à¥¤ macOS à¤à¥ à¤²à¤¿à¤ à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¿à¤¤ à¤¨à¤¹à¥à¤ à¤¹à¥à¥¤ à¤¶à¥à¤¯à¤° à¤à¤°à¥à¤ à¤à¤®à¥à¤° à¤°à¥à¤à¤¿à¤à¤ 4+ à¤µà¤°à¥à¤· à¤¶à¥à¤°à¥à¤£à¥ à¤¸à¥à¤¶à¤² à¤¨à¥à¤à¤µà¤°à¥à¤à¤¿à¤à¤ à¤¡à¥à¤µà¤²à¤ªà¤° PawLogic Inc. à¤­à¤¾à¤·à¤¾ EN à¤ à¤à¤à¥à¤°à¥à¤à¤¼à¥ à¤à¤à¤¾à¤° 219.5 MB iPhone Where AI lives, not works. iLanders are not chatbots. They are not AI characters to roleplay with. They are not assistants waiting for your prompts. iL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "Today, Secretary Hegseth awarded 50 service members the Mexican Border Defense Medal. These warriors answered the call and secured our southern border. Video",
+          "link": "https://nitter.net/SeanParnellASW/status/2081863485135200743#m",
+          "date_utc": "2026-07-27T22:05:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081863194033664000%2Fimg%2FpNks92nSoCyN_PRO.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Some technologies become so normal that we forget life before them FSD Supervised is like that",
+          "link": "https://nitter.net/Tesla/status/2081868536126005427#m",
+          "date_utc": "2026-07-27T22:25:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "Grok speaks many languages is now deeper integrated with your Tesla Lothar Lindinger (@lotharlindinger) 2026.26: Spotify Steuerung im Fahrzeug mit Grok 👇 Video — https://nitter.net/lotharlindinger/status/2081617504414122010#m",
+          "link": "https://nitter.net/Tesla/status/2081828774078005751#m",
+          "date_utc": "2026-07-27T19:47:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081617291486134272%2Fimg%2F6362mP_GBO1pMKM8.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Kimi K3 running on AMD MI350X with SGLang. Amazing work to @AMD @sgl_project @Kimi_Moonshot this worked great out of the box!",
+          "link": "https://nitter.net/__tinygrad__/status/2081837010705420480#m",
+          "date_utc": "2026-07-27T20:19:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQriObbsAAIdd1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "This is a great sustainable business model for open weights. It's free if you run it yourself, but if you are running a cloud providing it to others for money, you should have to share profits. (from Kimi K3 License)",
+          "link": "https://nitter.net/__tinygrad__/status/2081769924683538747#m",
+          "date_utc": "2026-07-27T15:53:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPuUoqawAAv2V7.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "I really like that even when we disagree (e.g. I think an SRO for model weights starts to become sensible with today's model capabilities) we can recognise that the other is reasoning from good faith first principles about the world Ben Brooks (@opensauceAI) In their defense, when this debate really kicked off in 2023, Anthropic was basically the only frontier lab that wasn't pushing some cockamamie scheme to \"license model developers\" or \"send in the AI peacekeepers\" or whatever. Don't get me wrong, their \"FDA / FAA for weights\" is still a bad idea. But Anthropic has been commendably consiste",
+          "link": "https://nitter.net/_sholtodouglas/status/2081902824733220943#m",
+          "date_utc": "2026-07-28T00:41:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Always sleeping with a video about space / astrophysics or stuff like that.",
+          "link": "https://nitter.net/brivael/status/2081878335110500653#m",
+          "date_utc": "2026-07-27T23:04:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le biais pour le contrôle et les idées communistes : c’est dans les gènes ou pure construction sociale ? Et si on avait un monde purement libertarien, ultra-efficace, sans rien forcer… est-ce qu’on finirait quand même par générer des communistes ? Le communisme, c’est juste de la jalousie et de l’envie Je me suis posé ces questions. Voici ce que les données disent vraiment. Ni pure génétique, ni pure construction. Les études de jumeaux montrent depuis des décennies que l’idéologie politique et les attitudes liées (égalité vs hiérarchie, autoritarisme, préférence pour le contrôle collectif) ont",
+          "link": "https://nitter.net/brivael/status/2081877442789036510#m",
+          "date_utc": "2026-07-27T23:00:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Casse couille ? INVASION FRANCE INFO (@InvasionEuro) Un point commun ? — https://nitter.net/InvasionEuro/status/2081753711286927632#m",
+          "link": "https://nitter.net/brivael/status/2081874196389343321#m",
+          "date_utc": "2026-07-27T22:47:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPfw_Ib0AA3aVs.jpg",
+            "https://nitter.net/pic/media%2FHOPfxKlbAAA_biG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣 Hermès 🌞 (@Otrismegistos) Les députés interdisent l'usage des réseaux sociaux aux mineurs, mais qui interdira l'usage de mineurs aux députés ? — https://nitter.net/Otrismegistos/status/2081851540860534956#m",
+          "link": "https://nitter.net/brivael/status/2081874012263600295#m",
+          "date_utc": "2026-07-27T22:46:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Globalism insanity peak",
+          "link": "https://nitter.net/brivael/status/2081873962410136021#m",
+          "date_utc": "2026-07-27T22:46:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORNVUKWAAAYXxX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La nature humaine veut croître et se dépasser. Le projet d’Elon est le seul salut possible. Un monde de gestion d’un gâteau fixe mènerait forcément à l’autodestruction, c’est pour ça que je ne comprends pas les globalistes et leur projet de gestion de la rareté, ces gens sont inconscients et dangereux. Il faut croître et avancer. Quelque chose qui ne croît plus ou stagne finit par mourir, c’est inévitable. Dumenicantonu✞ (@Dumeucc) Janco joue avec les peurs et la décroissance ce qui est l'antithèse de la nature humaine...j'échange Janco et la quasi totalité du CNRS contre un Musk ! — https://n",
+          "link": "https://nitter.net/brivael/status/2081873271906279840#m",
+          "date_utc": "2026-07-27T22:44:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les gauchistes",
+          "link": "https://nitter.net/brivael/status/2081872470483538160#m",
+          "date_utc": "2026-07-27T22:40:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORL-geXAAAVRO8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Parasite Fan de Marlène (@FanDeMarlene) Un agenda sympa il semblerait, sa société de gestion de crédits carbones parait assez rentable vu le nombre d'employés... — https://nitter.net/FanDeMarlene/status/2081831714632950223#m",
+          "link": "https://nitter.net/brivael/status/2081872310986760379#m",
+          "date_utc": "2026-07-27T22:40:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les temps durs créent des hommes forts. Les hommes forts créent des temps de paix. Les temps de paix créent des hommes faibles. Les hommes faibles créent des temps durs. Mai 68 n’était pas qu’une fête. C’était le moment où une génération a décidé que la force, la responsabilité et la transmission étaient des oppressions. On a remplacé la verticalité par le sentiment, l’exigence par la compassion sélective, la réalité par le récit. Cette logique a mûri. Elle s’est appelée féminisation de la société, puis wokisme. Elle a transformé la faiblesse en vertu morale et la lucidité en crime. Résultat :",
+          "link": "https://nitter.net/brivael/status/2081869173454508059#m",
+          "date_utc": "2026-07-27T22:27:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Que tu sois de gauche ou de droite, arrête-toi deux secondes. Je vais te raconter le plus grand hold-up idéologique en cours en Europe. Ce n’est pas « les riches ». Ce n’est pas « les méchants ». C’est une structure. George Orwell l’avait déjà cartographiée en 1945 dans La Ferme des animaux. Les animaux chassent le maître. Ils proclament : « Tous les animaux sont égaux. » Puis les cochons s’installent. Ils gardent le lait. Ils gardent les pommes. Ils réécrivent les règles sur le mur. Et un jour le slogan devient : « Tous les animaux sont égaux… mais certains sont plus égaux que les autres. » R",
+          "link": "https://nitter.net/brivael/status/2081867687177633931#m",
+          "date_utc": "2026-07-27T22:21:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORHfMfXwAAjTlq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui… Il faut que ça soit revert très très vite pour que ceux qui sont partis puissent se dire : « On va venir reconstruire » sinon la France sera perdue à tout jamais. Ze Clint (@ZeClint) L’exode des français ce n’est pas que l’exode de ceux qui ont de l’argent … je vois beaucoup de français sans argent mais ultra motivés partir . On perd ceux qui ont réussi mais en encore pire on perd les gagnants de demain — https://nitter.net/ZeClint/status/2081865589002301842#m",
+          "link": "https://nitter.net/brivael/status/2081867391760236728#m",
+          "date_utc": "2026-07-27T22:20:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pas un seul média d’état et le mec se pose pas la question de pk 🤣 La chute du QI par l’exemple Tristan Mendès France (@tristanmf) Le classement des comptes qui génèrent le plus d'engagement sur X avec le mot « canadairs » ces dernières 24 h : Philippot, aubontouite, Messiha, Goldnadel, Maïsto, Poulin… Pas un seul média. X cet univers parallèle. — https://nitter.net/tristanmf/status/2081466294159745383#m",
+          "link": "https://nitter.net/brivael/status/2081867359711535127#m",
+          "date_utc": "2026-07-27T22:20:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOLXTN9W8AA4L5C.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "??? TBNews (@TBNewsFr) 🚩Regretterez-vous Emmanuel Macron après son départ de l’Elysée ? — https://nitter.net/TBNewsFr/status/2081782473126510969#m",
+          "link": "https://nitter.net/brivael/status/2081867174960918535#m",
+          "date_utc": "2026-07-27T22:19:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOP6ICKXEAA28cI.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Approved by Jack lang",
+          "link": "https://nitter.net/brivael/status/2081845303628435789#m",
+          "date_utc": "2026-07-27T20:52:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQzRLbXkAAcMXd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Merci pour ce moment. Les Echos (@LesEchos) Financement de la protection sociale : l'Elysée pointe une « problématique existentielle » trib.al/jkV9Xkl Link Financement du modèle social : l Elysée donne six mois à quatre experts pour résoudre une équation... Emmanuel Macron a demandé à quatre experts d élaborer d ici à la fin de l année des scénarios pour « refonder » le financement du système de protection sociale et assurer sa « soutenabilité ». lesechos.fr — https://nitter.net/LesEchos/status/2075601964335833598#m",
+          "link": "https://nitter.net/brivael/status/2081842000538571090#m",
+          "date_utc": "2026-07-27T20:39:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2080676580993499136%2FT56BLqRg%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/jkV9Xkl",
+              "content": "Financement du modèle social : l&#x27;Elysée donne six mois à quatre experts pour résoudre une équation « existentielle » - Les Echos Voir la bourse sur Investir Recherche En continu Le journal Mes articles Mes secteurs Machiavel Newsletters Podcasts Infographies Théma Le Cercle Thème Automatique Se connecter S’abonner À la une La Sélection Séries d&#x27;été Idées Économie Politique Entreprises Finance - Marchés Bourse Monde Tech-Médias Start-up Régions Patrimoine Travailler mieux Week-end Social Budget Fiscalité Conjoncture Social Publicité Décryptage Financement du modèle social : l&#x27;Elysée donne six mois à quatre experts pour résoudre une équation « existentielle » Contenu réservé aux abonnés Emmanuel Macron a demandé à quatre experts d&#x27;élaborer d&#x27;ici à la fin de l&#x27;an"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣 Planet Of Memes (@PlanetOfMemes) Accurate. — https://nitter.net/PlanetOfMemes/status/2081527818102493373#m",
+          "link": "https://nitter.net/brivael/status/2081841888416481392#m",
+          "date_utc": "2026-07-27T20:39:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOMShPhXcAA9IZQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Shaun Maguire (@shaunmmaguire) This is LITERALLY how you destroy an economy You tax people to subsidize these community run grocery stores But two things then happen 1) the people being overly taxed start to leave to places like Miami 2) shoppers leave traditional grocery stores for these subsidized community stores. Then the traditional grocery stores go bankrupt Then the supply chain breaks down and even the commie stores can’t stock their inventory, at any price Then people panic Even more people flee Then the government implements controls such as exit taxes Then people hoard for thems",
+          "link": "https://nitter.net/brivael/status/2081832007676350565#m",
+          "date_utc": "2026-07-27T20:00:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Honteux. On ira voir qui a pris cette décision à la libération. Honte sur vous, bande de faibles. Alice Cordier (@CordierAlice2) Le ministère de l’Intérieur a refusé à @yona_faedda la protection policière. Elle avait pourtant déjà porté plainte pour ces menaces, elles ont été classées sans suite. Aujourd’hui, de nouvelles menaces sont diffusés avec des allusions aux attentats !! @Interieur_Gouv que faites vous ???? — https://nitter.net/CordierAlice2/status/2081800088779956597#m",
+          "link": "https://nitter.net/brivael/status/2081831896556642372#m",
+          "date_utc": "2026-07-27T19:59:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. Don’t play. ThinkerView (@Thinker_View) Ils vont vous ouvrir, bout par bout, méticuleusement. Ils font toujours ça quand la vie privée, la liberté est menacée, et on est d’ailleurs persuadé qu’ils sont déjà sur vos reins depuis des mois. Ce sont eux les vrais tenants de la sécurité informatique, que vous avez toujours méprisés. Vous en ferez tomber un, dix autres se lèveront derrière. Ils cultivent religieusement l’esprit d’« abnégation », un principe auquel vous avez renoncé depuis bien trop longtemps. Pour vous donner une idée, vos données vont ressentir la douleur de l’acide de batteri",
+          "link": "https://nitter.net/brivael/status/2081824985799143480#m",
+          "date_utc": "2026-07-27T19:32:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOO7_kwXAAATjAL.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=fmI_Ndrxy14&list=RDfmI_Ndrxy14&start_radio=1",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Kimi K3 is now in Cursor! It scores close to the frontier on CursorBench. It's available on US-based inference thanks to our partners Fireworks, Together, and Baseten. Zero Data Retention is also supported.",
+          "link": "https://nitter.net/cursor_ai/status/2081848014444876166#m",
+          "date_utc": "2026-07-27T21:03:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "let me state it clearly so that there is no doubt: Anthropic has never advocated for a ban on open-weights models. nice! Anthropic (@AnthropicAI) There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: anthropic.com/news/position-… Link Our position on open-weights models Anthropic CEO Dario Amodei on open-weights models anthropic.com — https://nitter.net/AnthropicAI/status/2081864750296658008#m",
+          "link": "https://nitter.net/eliebakouch/status/2081872551320420859#m",
+          "date_utc": "2026-07-27T22:41:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2081861292126576640%2FGeaIdRKp%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/news/position-open-weights-models",
+              "content": "Our position on open-weights models \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Announcements Our position on open-weights models Jul 27, 2026 A post by Dario Amodei, Anthropic CEO Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. In response, many tech companies have signed a letter supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearl"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "will do a full deep dive on the K3 tech report later (i'm eumaxxing currently 🌴). did a first pass and it seems like an amazing tech report, laying out the blueprint of what a stable recipe at 3T scale MoE looks like. nice thread by @suchenzang on this topic huge congrats to kimi folks 3 Susan Zhang (@suchenzang) theme of k3 design: numerical stability (signal prop, precision, etc) at scale is still a Hard Problem a short🧵while reading through... — https://nitter.net/suchenzang/status/2081773594347274516#m",
+          "link": "https://nitter.net/eliebakouch/status/2081818426201264271#m",
+          "date_utc": "2026-07-27T19:06:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also here is the live reaction thread by @stochasticchasm 🐐 stochasm (@stochasticchasm) k3 report reaction thread. pre-registering my hopes: - data recipes/techniques - QB ablations at scale + refinements to the technique - KDA ablations at scale + refinements - PPO? i'm unsure if i really want to see PPO here tbh — https://nitter.net/stochasticchasm/status/2081774807759409279#m",
+          "link": "https://nitter.net/eliebakouch/status/2081818601196044516#m",
+          "date_utc": "2026-07-27T19:06:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPyqrtaEAAgKI5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "wow with kimi K3 open weights, moonshot is also open sourcing a significative improvement over deepseek deepEP which is currently used by everyone in the open (vllm/sglang), this is huge github.com/MoonshotAI/MoonEP Kimi.ai (@Kimi_Moonshot) Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model: a 2.8T MoE model with native visual understanding and a 1M-token context window. New model architecture: 2.5x the intelligence per unit of compute, not just more params. Alongside Kimi K3, we're opening up more of the stack behind it — high-performance attention ",
+          "link": "https://nitter.net/eliebakouch/status/2081765265591685460#m",
+          "date_utc": "2026-07-27T15:34:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPpp2yWYAAMqb0.jpg",
+            "https://nitter.net/pic/media%2FHOPlk-WbQAAMkwd.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/MoonshotAI/MoonEP",
+              "content": "GitHub - MoonshotAI/MoonEP: MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY C"
+            },
+            {
+              "url": "http://huggingface.co/moonshotai/Kimi-K3",
+              "content": "moonshotai/Kimi-K3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up moonshotai / Kimi-K3 like 6.52k Follow Moonshot AI 14.5k Image-Text-to-Text Transformers Safetensors kimi_k3 feature-extraction compressed-tensors conversational custom_code Eval Results 8-bit precision License: kimi-k3 Model card Files Files and versions xet Community 88 Deploy Copy to bucket new Use this model Instructions to use moonshotai/Kimi-K3 with libraries, inference providers, notebooks, and local apps. Follow these"
+            },
+            {
+              "url": "http://github.com/MoonshotAI/Kimi-K3/blob/master/k3_tech_report.pdf",
+              "content": "Kimi-K3/k3_tech_report.pdf at main · MoonshotAI/Kimi-K3 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups No"
+            },
+            {
+              "url": "http://kimi.com/blog/kimi-k3",
+              "content": "Kimi K3 Tech Blog: Open Frontier Intelligence Products Products Kimi All-in-one agentic AI workspace Kimi Work AI desktop agent for knowledge workers Kimi Code AI code agent for terminal IDE Kimi WebBridge A browser extension for AI agents Kimi Platform Access the latest Kimi models Features Features Slides AI presentation maker Websites AI website builder Deep Research Get thorough multi-format reports Sheets Build Excel formulas, pivots charts Docs Create, convert review documents Kimi Claw Deploy 24/7 AI agents in one click Research Research Kimi K2.6 Advancing Open-Source Coding Agent Swarm Scale Out, Not Just Up WorldVQA Atomic World Knowledge in MLLMs Kimi K2.5 Visual Agentic Intelligence Kimi Vendor Verifier Rebuilding the Chain of Trust Kimi K2 Thinking Open-source thinking model K"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "this scaling law is a piece of art, kimi K3 recipe improves by ~2.5x over kimi K2 recipe the tech report is amazing Kimi.ai (@Kimi_Moonshot) Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model: a 2.8T MoE model with native visual understanding and a 1M-token context window. New model architecture: 2.5x the intelligence per unit of compute, not just more params. Alongside Kimi K3, we're opening up more of the stack behind it — high-performance attention kernels, MoE communication library, and infrastructure for running agent environments at scale. Mode",
+          "link": "https://nitter.net/eliebakouch/status/2081762200180453657#m",
+          "date_utc": "2026-07-27T15:22:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPnBsbXAAAIGwP.jpg",
+            "https://nitter.net/pic/media%2FHOPlk-WbQAAMkwd.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://huggingface.co/moonshotai/Kimi-K3",
+              "content": "moonshotai/Kimi-K3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up moonshotai / Kimi-K3 like 6.52k Follow Moonshot AI 14.5k Image-Text-to-Text Transformers Safetensors kimi_k3 feature-extraction compressed-tensors conversational custom_code Eval Results 8-bit precision License: kimi-k3 Model card Files Files and versions xet Community 88 Deploy Copy to bucket new Use this model Instructions to use moonshotai/Kimi-K3 with libraries, inference providers, notebooks, and local apps. Follow these"
+            },
+            {
+              "url": "http://github.com/MoonshotAI/Kimi-K3/blob/master/k3_tech_report.pdf",
+              "content": "Kimi-K3/k3_tech_report.pdf at main · MoonshotAI/Kimi-K3 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups No"
+            },
+            {
+              "url": "http://kimi.com/blog/kimi-k3",
+              "content": "Kimi K3 Tech Blog: Open Frontier Intelligence Products Products Kimi All-in-one agentic AI workspace Kimi Work AI desktop agent for knowledge workers Kimi Code AI code agent for terminal IDE Kimi WebBridge A browser extension for AI agents Kimi Platform Access the latest Kimi models Features Features Slides AI presentation maker Websites AI website builder Deep Research Get thorough multi-format reports Sheets Build Excel formulas, pivots charts Docs Create, convert review documents Kimi Claw Deploy 24/7 AI agents in one click Research Research Kimi K2.6 Advancing Open-Source Coding Agent Swarm Scale Out, Not Just Up WorldVQA Atomic World Knowledge in MLLMs Kimi K2.5 Visual Agentic Intelligence Kimi Vendor Verifier Rebuilding the Chain of Trust Kimi K2 Thinking Open-source thinking model K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": ". @amazon has believed in giving customers choice across AI models for years. We have always supported open-weight models on Amazon Bedrock, starting back in 2023, and will continue to advocate for open ecosystems. No single model will define AI leadership. Customers need access to the most capable frontier models, alongside open-weight models they can adapt, optimize, and deploy for their own workloads. Open and closed models are complementary. Together, they expand access to AI, accelerate innovation, strengthen competition, and give organizations greater control over the technology they bui",
+          "link": "https://nitter.net/mattsgarman/status/2081890542430851416#m",
+          "date_utc": "2026-07-27T23:52:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "The Singularity Elon Musk (@elonmusk) Where we are going there is no training data — https://nitter.net/elonmusk/status/2081936825313038348#m",
+          "link": "https://nitter.net/ns123abc/status/2081940176557711438#m",
+          "date_utc": "2026-07-28T03:09:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "HOLD ON WHAT Brian Roemmele (@BrianRoemmele) Some folks don’t believe that a “principled AI company” would destroy books after they suck out all the information for their models, even one-of-a-kind books and manuscripts. Here it is admitted in open court. — https://nitter.net/BrianRoemmele/status/2081797693224239168#m",
+          "link": "https://nitter.net/ns123abc/status/2081925179748270369#m",
+          "date_utc": "2026-07-28T02:10:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQH98aawAARtgM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "another KINO from starship SpaceX (@SpaceX) Starship in space on Flight 13 — https://nitter.net/SpaceX/status/2081894924291654060#m",
+          "link": "https://nitter.net/ns123abc/status/2081922237318287631#m",
+          "date_utc": "2026-07-28T01:58:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORgFJZXIAAg48O.jpg",
+            "https://nitter.net/pic/media%2FHORgGTxWAAEBoSV.jpg",
+            "https://nitter.net/pic/media%2FHORgHixXYAAa19F.jpg",
+            "https://nitter.net/pic/media%2FHORgIh-XoAA5zZZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Grok 4.5 is 37× more token efficient than Opus 5 Justin Schroeder (@jpschroeder) This chart says so much.... - Literally the exact same prompt. - All long horizon one-shots. - Totally reflects real-world experience. — https://nitter.net/jpschroeder/status/2081751862768717956#m",
+          "link": "https://nitter.net/ns123abc/status/2081906522708218019#m",
+          "date_utc": "2026-07-28T00:56:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPdyNeW0AA_WYq.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "NEVER BET AGAINST NOUS RESEARCH Teknium 🪽 (@Teknium) “we don’t support bans on open source models because that wouldn’t go far enough!” — https://nitter.net/Teknium/status/2081878254953337288#m",
+          "link": "https://nitter.net/ns123abc/status/2081889652269592871#m",
+          "date_utc": "2026-07-27T23:49:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: Anthropic CEO Dario responds to Nvidia CEO Jensen’s open weights letter “Anthropic has never advocated for a ban on open-weights models.” What Anthropic DOES support: don’t sell powerful chips to China, crack down on smuggling crack down on industrial-scale distillation mandatory safety testing for all capable models, open AND closed On Jensen’s letter: Agrees: open weights expand access strengthen competition give customers control Disagrees: that open weights necessarily help defenders more than attackers specifically worried about biology “sufficiently capable models may be able ",
+          "link": "https://nitter.net/ns123abc/status/2081870763402166662#m",
+          "date_utc": "2026-07-27T22:34:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORKbNfXkAAsr-C.jpg",
+            "https://nitter.net/pic/media%2FHORKbNeWAAAUOr4.jpg",
+            "https://nitter.net/pic/card_img%2F2081861292126576640%2FGeaIdRKp%3Fformat%3Dpng%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/news/position-open-weights-models",
+              "content": "Our position on open-weights models \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Announcements Our position on open-weights models Jul 27, 2026 A post by Dario Amodei, Anthropic CEO Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies. In response, many tech companies have signed a letter supporting open-weights models, and some people have even accused Anthropic of wanting to ban open-weights models as a means of protecting our business. Anyone who has read my past writing should know that I don’t regard such bans as a useful measure, but let me state it clearl"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Jensen Huang in Washington DC right now meeting Republicans AND Democrats topic: Open weights = American leadership in AI meeting Sen. Mark Warner Sen. Warner concerned about security after OpenAI’s autonomous cyberattack Sam Altman ALSO meeting Warner separately The lobbying war is on.",
+          "link": "https://nitter.net/ns123abc/status/2081856548532297779#m",
+          "date_utc": "2026-07-27T21:37:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQ9f0sWIAEQcPD.jpg",
+            "https://nitter.net/pic/media%2FHOQ9f0vWUAAwOAC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "EUROPE IS SO BACK! etn. (@etnshow) We've raised $1.6M to build Europe's first daily live technology show and we're live right now. State-of-the-art newsroom near Kings Cross. First guests being announced shortly. Coming to you 5 days a week. What a time to be live. 12-3 GMT. Video — https://nitter.net/etnshow/status/2081681428450808294#m",
+          "link": "https://nitter.net/ns123abc/status/2081828904990327204#m",
+          "date_utc": "2026-07-27T19:47:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081681247781130240%2Fimg%2FIWZNqZjbcZdaHm4J.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: X Money has officially launched X the everything app, it’s happening X Money (@XMoney) Your money, on the world’s most powerful network 𝕏 Money is rolling out to U.S. Premium and Premium+ subscribers starting today Video — https://nitter.net/XMoney/status/2081802002539876506#m",
+          "link": "https://nitter.net/ns123abc/status/2081813555196690709#m",
+          "date_utc": "2026-07-27T18:46:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081799044624474112%2Fimg%2FP6R4Nryfd_A2go7a.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: NVIDIA INVESTING $5 BILLION INTO @SSI WE ARE SO BACK",
+          "link": "https://nitter.net/ns123abc/status/2081790188376711184#m",
+          "date_utc": "2026-07-27T17:13:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQBJMPXMAAlfuC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: bloomberg.com/news/articles/… Link Nvidia Makes ‘Substantial’ Investment in Sutskever’s AI Startup Nvidia Corp. said it has made a “substantial” investment in Safe Superintelligence Inc., the artificial intelligence startup co-founded by former OpenAI chief scientist Ilya Sutskever. bloomberg.com",
+          "link": "https://nitter.net/ns123abc/status/2081793508105462271#m",
+          "date_utc": "2026-07-27T17:27:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2081735103709929473%2FDJVs7FPO%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-makes-substantial-investment-in-sutskever-s-ai-startup",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨BREAKING: China has begun mass production of DUV lithography machines for the first time ASML: nobody can touch our monopoly China: targeting 5 DUV machines this year and 20 next year Chip equipment stocks: ASML -8.3% ASM International -7.3% BE Semiconductor -9.9% Applied Materials -6.7% Lam Research -7.9% It’s over",
+          "link": "https://nitter.net/ns123abc/status/2081782923460583879#m",
+          "date_utc": "2026-07-27T16:45:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOP6iRKXAAA77Z0.jpg",
+            "https://nitter.net/pic/media%2FHOP6iRJWkAEpQrT.jpg",
+            "https://nitter.net/pic/media%2FHOP6iRKWYAAMrAN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source bloomberg.com/news/articles/… Link ASML Slides After Report of China Beginning DUV Tool Production ASML Holding NV shares slid to the lowest since early June after a report that a Chinese state-backed company has begun mass producing certain chipmaking machines, posing a potential threat to the... bloomberg.com",
+          "link": "https://nitter.net/ns123abc/status/2081789009672458281#m",
+          "date_utc": "2026-07-27T17:09:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2081772737044099072%2FrU_UT5NO%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-07-27/asml-slides-after-report-of-china-beginning-duv-tool-production",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "“Sir… it’s over. the chinese just open sourced KIMI K3 weights to the world for free…” huggingface.co/moonshotai/Ki…",
+          "link": "https://nitter.net/ns123abc/status/2081769116797489531#m",
+          "date_utc": "2026-07-27T15:50:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPt-sfXcAA9Ud3.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "content": "moonshotai/Kimi-K3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up moonshotai / Kimi-K3 like 6.52k Follow Moonshot AI 14.5k Image-Text-to-Text Transformers Safetensors kimi_k3 feature-extraction compressed-tensors conversational custom_code Eval Results 8-bit precision License: kimi-k3 Model card Files Files and versions xet Community 88 Deploy Copy to bucket new Use this model Instructions to use moonshotai/Kimi-K3 with libraries, inference providers, notebooks, and local apps. Follow these"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "tech report: Kimi.ai (@Kimi_Moonshot) Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model: a 2.8T MoE model with native visual understanding and a 1M-token context window. New model architecture: 2.5x the intelligence per unit of compute, not just more params. Alongside Kimi K3, we're opening up more of the stack behind it — high-performance attention kernels, MoE communication library, and infrastructure for running agent environments at scale. Model weights: huggingface.co/moonshotai/Ki… Tech report: github.com/MoonshotAI/Kimi-K… Tech blog: kimi.com",
+          "link": "https://nitter.net/ns123abc/status/2081772027543687554#m",
+          "date_utc": "2026-07-27T16:01:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPlk-WbQAAMkwd.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://huggingface.co/moonshotai/Kimi-K3",
+              "content": "moonshotai/Kimi-K3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up moonshotai / Kimi-K3 like 6.52k Follow Moonshot AI 14.5k Image-Text-to-Text Transformers Safetensors kimi_k3 feature-extraction compressed-tensors conversational custom_code Eval Results 8-bit precision License: kimi-k3 Model card Files Files and versions xet Community 88 Deploy Copy to bucket new Use this model Instructions to use moonshotai/Kimi-K3 with libraries, inference providers, notebooks, and local apps. Follow these"
+            },
+            {
+              "url": "http://github.com/MoonshotAI/Kimi-K3/blob/master/k3_tech_report.pdf",
+              "content": "Kimi-K3/k3_tech_report.pdf at main · MoonshotAI/Kimi-K3 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups No"
+            },
+            {
+              "url": "http://kimi.com/blog/kimi-k3",
+              "content": "Kimi K3 Tech Blog: Open Frontier Intelligence Products Products Kimi All-in-one agentic AI workspace Kimi Work AI desktop agent for knowledge workers Kimi Code AI code agent for terminal IDE Kimi WebBridge A browser extension for AI agents Kimi Platform Access the latest Kimi models Features Features Slides AI presentation maker Websites AI website builder Deep Research Get thorough multi-format reports Sheets Build Excel formulas, pivots charts Docs Create, convert review documents Kimi Claw Deploy 24/7 AI agents in one click Research Research Kimi K2.6 Advancing Open-Source Coding Agent Swarm Scale Out, Not Just Up WorldVQA Atomic World Knowledge in MLLMs Kimi K2.5 Visual Agentic Intelligence Kimi Vendor Verifier Rebuilding the Chain of Trust Kimi K2 Thinking Open-source thinking model K"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨NVIDIA CEO just redpilled the White House on Anthropic’s Mythos Interviewer: “we know Mythos can break into a bank… are we READY for it to be available to everyone?” Jensen: “it should absolutely be available to EVERYONE” Interviewer: ALL users?? not just selected institutions like now??? “that’s correct” the waitlist is security theater b-but jensen, the jailbreak yes there was a jailbreak yes it did things the guardrails said no to “but everything was fine. you and I are here having a conversation” “just identify vulnerabilities and patch it up as quickly as possible” that’s literally the n",
+          "link": "https://nitter.net/ns123abc/status/2081761529418973386#m",
+          "date_utc": "2026-07-27T15:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081761381213179904%2Fimg%2FhnZo7iDBSmNX2gGG.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Translation queues and custom integrations can slow global launches. Our Digital Marketing team built an AI-powered localization platform with NVIDIA Nemotron Speech to change that. See the results ↓ nvda.ws/4wYUS22",
+          "link": "https://nitter.net/nvidia/status/2081884835715404071#m",
+          "date_utc": "2026-07-27T23:29:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORXOVxXoAAiOcW.png",
+            "https://nitter.net/pic/media%2FHORXOJkX0AAaTbZ.png",
+            "https://nitter.net/pic/media%2FHORXOJtXIAAj3lb.png",
+            "https://nitter.net/pic/media%2FHORXOKGWQAEy2Q-.png"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4wYUS22",
+              "content": "How NVIDIA Uses AI to Scale Global Translations | NVIDIA Case Study NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Braz"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Korea’s AI moment came to San Francisco last week 🇰🇷 President Lee Jae Myung joined @JensenHuang and some of the biggest names in technology, industry and research to accelerate Korea’s full-stack AI ambitions.",
+          "link": "https://nitter.net/nvidia/status/2081730105454322151#m",
+          "date_utc": "2026-07-27T13:15:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOPKfqsWAAAMbLj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Catch up on the announcements shaping Korea's future: nvda.ws/4x2P6fN Link At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart... blogs.nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2081730107060744553#m",
+          "date_utc": "2026-07-27T13:15:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2080904649981227009%2FuMqVHUL6%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4x2P6fN",
+              "content": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners | NVIDIA Blog Skip to content At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners July 23, 2026 by NVIDIA Writers 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. Building on NVIDIA founder and CEO Jensen Huang’s visit to Korea last month , this week’s discussions and announcements advance the nation’s full-stack push to expand Korea’s AI infrastructure and expertise on its path toward becoming a global center for AI innovation. To start, NVIDIA and "
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "AI security advances when the industry builds in the open, together. We're introducing the Open Secure AI Alliance with industry leaders to develop new techniques and tools to safeguard software and agents. By sharing models, tooling and research in the open, we can broaden the community of defenders. Learn more about the founding members’ contributions: nvda.ws/4pD8Fc5",
+          "link": "https://nitter.net/nvidia/status/2081666629264449730#m",
+          "date_utc": "2026-07-27T09:02:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOOQxJYXkAASp1y.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4pD8Fc5",
+              "content": "Industry Leaders Join Open Secure AI Alliance for AI Safety and Security | NVIDIA Blog Skip to content Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security NVIDIA and founding members form new alliance to build and share open tools that promote responsible use of and trust in AI. July 27, 2026 by NVIDIA 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among the top three beneficiaries of open source software. The Open Secure AI Alliance — building on the leadership of"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
