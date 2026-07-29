@@ -12274,5 +12274,229 @@
     ],
     "first_seen": "2026-W31",
     "last_seen": "2026-W31"
+  },
+  "Xinhong Xu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23258v1",
+        "title": "CAPT: A Multi-task Continuous Autoregressive Transformer enabling Cross-dataset and Cross-species Transfer for Calcium Population Dynamics",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yimeng Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23258v1",
+        "title": "CAPT: A Multi-task Continuous Autoregressive Transformer enabling Cross-dataset and Cross-species Transfer for Calcium Population Dynamics",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yuanlong Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23258v1",
+        "title": "CAPT: A Multi-task Continuous Autoregressive Transformer enabling Cross-dataset and Cross-species Transfer for Calcium Population Dynamics",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Taeyoung Kim": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.23967v1",
+        "title": "Grokking on the Weight-Decay Clock: A Rate Hierarchy from Softly Broken Symmetries",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Junsung Hwang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.24555v1",
+        "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Alexander Kozachinskiy": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.22361v1",
+        "title": "Indexing: the Beginning and the End",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Vicente Opazo": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.22361v1",
+        "title": "Indexing: the Beginning and the End",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Felipe Urrutia": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.22361v1",
+        "title": "Indexing: the Beginning and the End",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Kaizhen Tan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.21351v1",
+        "title": "How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Heqing Du": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.21351v1",
+        "title": "How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yang Feng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.21351v1",
+        "title": "How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiangteng Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.22430v1",
+        "title": "On the Identifiability of Controlled World Models",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yang Guan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.22430v1",
+        "title": "On the Identifiability of Controlled World Models",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Bo Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.22430v1",
+        "title": "On the Identifiability of Controlled World Models",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ya-Qin Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.22430v1",
+        "title": "On the Identifiability of Controlled World Models",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Shengbo Eben Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.22430v1",
+        "title": "On the Identifiability of Controlled World Models",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
   }
 }
