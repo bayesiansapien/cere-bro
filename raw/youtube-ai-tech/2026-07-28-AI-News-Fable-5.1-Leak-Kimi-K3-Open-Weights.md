@@ -1,0 +1,47 @@
+# Fable 5.1 Leak, New GPT Checkpoints, Anthropic vs China AI, Gemini 4 (AI News Roundup)
+
+**Channel:** WorldofAI
+**Published:** 2026-07-28
+**Source:** https://www.youtube.com/watch?v=XMpGJXm2_Ts
+
+## TL;DR
+Weekly AI news roundup, mostly rumour with two genuinely load-bearing facts underneath. The confirmed items: **Kimi K3 open weights and technical report shipped**, a 2.8T-parameter MoE claiming 2.5x intelligence per unit of compute, and **Anthropic published a formal position statement on open-weight models** walking back the interpretation that it wants them banned. Everything else is leak-tier: Fable 5.1 appearing in Anthropic's red-team portal (August launch inferred), two unidentified OpenAI checkpoints named Zinc and Magnesium in Design Arena, a mystery Gemini checkpoint that may be Gemini 3.5 Pro or an early Gemini 4, Grok 4.6 in two weeks and 4.7 in four, and an unverified secondhand description of a next-generation OpenAI model. Sort the two from the ten before acting on any of it.
+
+## Key Takeaways
+**Confirmed and checkable:**
+- **Kimi K3 weights and technical report are out.** The architectural claim is the interesting part, not the parameter count: roughly 2.5x more intelligence per unit of compute versus K2. Moonshot also open-sourced much of the training and serving infrastructure.
+- **Anthropic's open-weights position paper.** Amodei's stated line: models without dangerous capabilities are a public good, Anthropic has never sought a ban, but both open and closed models above a capability threshold should face mandatory pre-release safety testing. The actual asks are chip export controls to authoritarian regimes and a crackdown on industrial-scale distillation of American models.
+- **The host's criticism of that position is worth keeping.** He calls it contradictory: not banning open source while wanting restrictions specifically on the most powerful open models, which happen to be Chinese. He also notes Anthropic distils and faces its own training-data lawsuits. Blunt, but it lands.
+
+**Rumour tier, flagged as such:**
+- Fable 5.1 deployed to Anthropic's red-team portal. Historical pattern suggests roughly two weeks to release; Polymarket favours August.
+- OpenAI checkpoints "Zinc" and "Magnesium" in Design Arena, not testable, presumed GPT-5.6 Sol and Terra updates responding to Opus 5.
+- Altman to Washington midweek to preview OpenAI's newest model to Treasury, Commerce, and senators. Expected to also face questions on OpenAI's recent security incident.
+- An unverified secondhand claim of a model roughly 2x the scale of GPT-5.6 Sol with improved memory and multi-agent coordination, August announcement, possible government-review delay. **The host explicitly says he has not tested or verified this.** Treat accordingly.
+- Grok 4.6 in ~2 weeks, 4.7 in ~4, reportedly 10T parameters.
+- A mystery Gemini checkpoint in Arena outperforming Gemini 3.6 Flash High on a Three.js Mars rover suspension simulation. Google has confirmed starting its most ambitious pretraining run yet for Gemini 4.
+- An anecdotal benchmark from "Atomic Chat" where K3 beat GPT-5.6 Sol, Grok 4.5, and GLM 5.2 on three browser-based destruction physics scenes, notably **running locally on 8x B300 GPUs at zero API cost**.
+- Uni Ubi AI's Lingmau quadruped at WAIC 2026 Shanghai, claimed first continuous 720° backflip, on NVIDIA Orin. The host cannot name a use case and says so.
+
+## Architecture & Optimization Mechanics
+The only item here with real technical substance is Kimi K3, and the video badly underdescribes it. The headline is not 2.8T parameters, it is **Kimi Delta Attention (KDA), a hybrid linear attention mechanism, combined with Attention Residuals**, plus a native quantization system, delivering a 1M-token context and native visual understanding. The claimed ~2.5x scaling efficiency over K2 is an architecture result, not a scale result, and that is precisely the axis Amit works on.
+
+Two specific things to pull from the technical report. First, hybrid linear attention is the live frontier answer to quadratic attention cost at long context, and a production 1M-context model built on it is a much stronger existence proof than the usual research-scale demonstrations. Second, **native quantization** built into the architecture rather than bolted on post-training is the more interesting item for compression work. Post-training quantization always fights an architecture that was trained in a different numeric regime. Training with the quantization scheme in the loop removes that mismatch, and a frontier-scale model doing this with published weights is a rare artifact.
+
+The 8x B300 local-inference data point is worth more than the destruction-physics benchmark it is attached to. A 2.8T MoE serving usefully on eight GPUs implies aggressive expert sparsity and effective quantization. If that holds, the deployment economics of frontier open weights shift materially.
+
+## Grounded Context (Web Enrichment)
+**Kimi K3 checks out and is larger news than the video conveys.** Moonshot released weights publicly on **26 July 2026**, a day ahead of its stated target, publishing to Hugging Face with the technical report on GitHub. At **2.8 trillion parameters** it is the largest open-weight model ever released. It scores a leading 57 on the Intelligence Index, approaching closed models such as GPT-5.6 Sol, and Tom's Hardware reports it beating Claude Fable 5 on the Frontend Code Arena benchmark. The architecture is confirmed as KDA hybrid linear attention plus Attention Residuals with native quantization, and the 2.5x scaling efficiency figure over K2 is from the report. The framing in trade coverage is explicitly geopolitical: China delivering the largest open-weight model ever while working around US compute limits, which is exactly the situation Amodei's policy paper is responding to.
+
+**The Anthropic position paper is real and the video's summary is accurate, including its criticism.** Amodei published "Our position on open-weights models" on 27 July 2026, covered by Bloomberg, TechCrunch, CNBC, Axios, and TNW. Direct quotes: "Anthropic has never advocated for a ban on open-weights models" and "Open-weights models that don't have dangerous capabilities are a public good." His stated concern is authoritarian governments fielding models more powerful than US ones. Notably, **he argues a ban on Chinese open models would not help**, because "bad actors are unlikely to be legitimate US businesses." That is a more coherent position than the video credits him with. His three asks are chip export controls, a crackdown on industrial-scale distillation, and capability-gated mandatory safety testing regardless of openness. Context the video omits: Axios reported the same week that NVIDIA has pulled OpenAI and Anthropic into a broader open-model policy fight, so this statement is a move in an active lobbying contest, not a philosophical essay.
+
+**Everything else remains unverified as of this writing.** Red-team portal sightings, Design Arena codenames, and Arena checkpoints are all inference from indirect signals. The historical base rate for "model in red-team portal means release in two weeks" is not established, and the video treats a Polymarket price as corroboration when it is just aggregated opinion drawn from the same rumours. The secondhand next-gen OpenAI description is the weakest item in the video and the one most likely to be repeated as fact.
+
+Two transcript corrections: the model names are mangled throughout ASR ("Enthropic," "Grock," "Kim K3," "GBT," "Quen," "3GS" for Three.js), and "SpaceX AI" should be xAI.
+
+## Real-World Application / Actionable Step
+1. **Read the Kimi K3 technical report this week.** This is the single actionable item in the video. KDA hybrid linear attention, Attention Residuals, and especially the native quantization scheme are directly relevant to Amit's compression and inference work, and the report is public. The 2.5x intelligence-per-FLOP claim is either a real architectural result worth replicating or an accounting artifact worth debunking, and only reading the report settles it.
+2. **Benchmark K3 on his own routing workload before believing any leaderboard.** If a 2.8T open-weight model genuinely approaches GPT-5.6 Sol at self-hosted cost, that changes the top tier of a routing table. The 8x B300 claim is worth attempting to reproduce, because self-hosted frontier capability with no per-token cost is a different economic object from an API tier.
+3. **Do not plan around the rumours.** Fable 5.1, Zinc, Magnesium, Gemini 4, and Grok 4.7 are all unshipped. The correct posture is the one from [[2026-07-27-Boris-Cherny-Building-Claude-Code]]: keep your evals, re-run them when a model actually ships, and delete scaffolding then. Speculating about release dates has no effect on any decision he can make today.
+4. **Track the export-control and distillation policy thread seriously.** Amodei's specific ask, a crackdown on industrial-scale distillation, would directly constrain a technique central to model compression work. If that becomes regulation rather than rhetoric, it changes what is legally viable in distillation pipelines that use frontier-model outputs. This is the item in the video with the longest tail for Amit's actual field.
+5. **Ignore the backflipping quadruped.** The host could not name a use case, and neither can this entry.
