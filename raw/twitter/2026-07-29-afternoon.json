@@ -1,0 +1,760 @@
+{
+  "date": "2026-07-29",
+  "slot": "afternoon",
+  "scraped_ist": "2026-07-29 14:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "MCP 2026-07-28 is live and it's the largest update to the protocol since launch. MCP is now stateless, making it easier to deploy and scale remote servers. claude.com/blog/bringing-mcp… Link MCP 2026-07-28 spec: stateless core, coming to Claude | Claude by Anthropic The MCP 2026-07-28 spec is live, moving the Model Context Protocol to a stateless core with standardized extensions and hardened auth. Support is rolling out across Claude products soon. See what s... claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2082164248697069935#m",
+          "date_utc": "2026-07-28T18:00:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2080159468214538240%2F-RdhxUKs%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+              "content": "MCP 2026-07-28 spec: stateless core, coming to Claude | Claude by Anthropic Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Enterprise Startups Departments Cybersecurity Legal Industries Customer support Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events Community Login Co"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Extensions are also first-class — a formal path to extend the protocol. Examples: 1. MCP Apps: server-rendered UIs in a sandboxed iframe 2. Tasks: long-running and async operations 3. Enterprise Managed Auth: control MCP server access centrally via your identity provider",
+          "link": "https://nitter.net/ClaudeDevs/status/2082164251834323312#m",
+          "date_utc": "2026-07-28T18:00:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Also in this release: Auth hardening and a formal deprecation policy See the MCP blog for more: blog.modelcontextprotocol.io… Link The 2026-07-28 Specification The 2026-07-28 Model Context Protocol specification is out, bringing a stateless protocol core, Multi Round-Trip Requests, header-based routing, cacheable list results, authorization hardening, a... blog.modelcontextprotocol.io",
+          "link": "https://nitter.net/ClaudeDevs/status/2082164253109395882#m",
+          "date_utc": "2026-07-28T18:00:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2080062650986455040%2FZBncvPtF%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+              "content": "The 2026-07-28 Specification | Model Context Protocol Blog Skip to content Model Context Protocol Blog Documentation Posts Archives Search Home / Posts The 2026-07-28 Specification The 2026-07-28 Model Context Protocol specification is out, bringing a stateless protocol core, Multi Round-Trip Requests, header-based routing, cacheable list results, authorization hardening, a formal extensions framework, and updated Tier 1 SDKs. July 28, 2026 · 12 min · David Soria Parra (Lead Maintainer), Den Delimarsky (Lead Maintainer) Table of Contents What changed No handshake or sessions Multi Round-Trip Requests (MRTR) Header-based routing List results are cacheable Authorization Tasks Deprecations SDKs Ecosystem support Getting started Thank you Since our last November release MCP continued to grow a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Lindsey Graham was the very definition of a statesman. May his legacy endure forever in the heart and soul of our nation. Fox News (@FoxNews) NOW: A solemn moment unfolds at the U.S. Capitol as Sen. Lindsey Graham's casket is escorted up the Capitol steps and into the Rotunda for a ceremony honoring his life and decades of public service. Video — https://nitter.net/FoxNews/status/2082105275926958505#m",
+          "link": "https://nitter.net/HouseGOP/status/2082117889536979010#m",
+          "date_utc": "2026-07-28T14:56:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2082105021257134081%2Fimg%2FAWRdqNW_65iFPDep.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "During a wildfire emergency declaration, “I’m safe” becomes the most important text in the world. That’s the reality in wildfire-hit areas near Madrid. Starlink activated free Direct to Cell SMS for MasOrange and Movistar customers, helping compatible LTE phones connect to satellites when ground networks fail. Rescue missions. Families checking in. People evacuating. Communities sharing updates. It’s the kind of backup people need when smoke, evacuations, heat, and panic start moving faster than normal infrastructure can handle. @Starlink @MasOrange_es @Movistar / Writer: Annette, Grok Imagine",
+          "link": "https://nitter.net/MarioNawfal/status/2082378091343520020#m",
+          "date_utc": "2026-07-29T08:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2082364412376010752%2Fimg%2F_HcOU0LVfWBfvxr5.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ProfTomYeh",
+          "creator": "@ProfTomYeh",
+          "text": "ResNet by hand ✍️ ~ 10 steps walkthrough below \"Deep Residual Learning for Image Recognition\" (Kaiming He, CVPR 2016) is among the most cited papers in all of deep learning. Why does it matter so much? It fixed the exploding and vanishing gradients that kept deep networks from being deep, and made thousands of layers possible. How simple was the fix? An identity matrix. Goal: push three input vectors through a residual block, then through a transformer encoder block, filling in every cell yourself. = 1. Given = A mini batch of three input vectors, 3D, and the weights of the layers ahead. = 2. ",
+          "link": "https://nitter.net/ProfTomYeh/status/2082107620257644714#m",
+          "date_utc": "2026-07-28T14:15:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2082107606420635648%2Fpu%2Fimg%2Ffw4AmJonWO-CqVHp.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Investors in space and robotics companies know they probably will lose all their money. But if they win they get 100x payout. Maybe more. This is the game underfoot.",
+          "link": "https://nitter.net/Scobleizer/status/2082377639759900888#m",
+          "date_utc": "2026-07-29T08:08:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Startup school. Fireside Alpha (@firesidealpha) DoorDash CEO Tony Xu says every single person at the company still does deliveries to this day, because there are 20 things that can go wrong bringing you a burrito and no way to learn them from behind a desk. \"That is the DoorDash problem set, for better and for worse. I remember when we started DoorDash, I remember decomposing that there's almost like 20 mini systems, many little processes. If you imagine a checklist of just bringing you a burrito, there's 20 little things that you have to get right, because if anything goes wrong, you'd actual",
+          "link": "https://nitter.net/Scobleizer/status/2082369352989626866#m",
+          "date_utc": "2026-07-29T07:35:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2082236542521925632%2Fimg%2FnZ0fvqcU_nQkuzQ3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Uses too much water😁 Atoms Not Bits (@AtomsNotBits) BREAKING: Atomarine has launched out of Y Combinator. The startup is looking to develop nuclear-powered data centers that sit on large-scale barges offshore. Its first gas-powered data center is set to deploy in 2028. Atomarine has secured early partnerships with offshore barge builders and multiple SMR developers, with the systems designed to operate fully off-grid. — https://nitter.net/AtomsNotBits/status/2081843024783683684#m",
+          "link": "https://nitter.net/Scobleizer/status/2082367793786454192#m",
+          "date_utc": "2026-07-29T07:29:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQxKXebEAAjj7v.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Yo, bro, leave the robot alone! Eren Chen (@ErenChenAI) A Chinese robotics team showed how they brutalize humanoid robots. Kicks, pushes, repeated knockdowns, and recovery training—all to build more robust locomotion policies. roboparty.github.io/UFO/ Video — https://nitter.net/ErenChenAI/status/2081211715899867283#m",
+          "link": "https://nitter.net/Scobleizer/status/2082363234229895399#m",
+          "date_utc": "2026-07-29T07:10:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081211620806574080%2Fimg%2F9Vd9lvvjMFMBPFwL.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://roboparty.github.io/UFO/",
+              "content": "UFO: An Unsupervised Reinforcement Learning Framework for Humanoid Control 中文 Abstract Highlight 1 Highlight 2 Highlight 3 Highlight 4 UFO : A General U nsupervised Reinforcement Learning F ramework for Humanoid C O ntrol Code Video PDF Teaser Video Motivation Tracking-based control remains the dominant paradigm for humanoid robots, while unsupervised RL offers a complementary path toward general skill acquisition, with strong potential in disturbance robustness , data efficiency , skill generalization , and behavior composition . Yet progress has been slowed by high training complexity , substantial engineering overhead , and the absence of unified infrastructure , which has limited broader follow-up work. UFO aims to lower this barrier , enabling wider exploration of unsupervised RL and "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I had a great day yesterday. Visited a company that already has a datacenter in space. Video later today.",
+          "link": "https://nitter.net/Scobleizer/status/2082362273373520249#m",
+          "date_utc": "2026-07-29T07:07:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Big praise for Grok that matches what I am learning from being on audio spaces on X. Madhukar Kumar (@madhukarkumar) Not sure why more people are not talking about it. Forget all the benchmarks. Grok4.5 is the best model out there right now for coding and I am not even taking into account how stupid fast and cost efficient is it to use compared to other frontier models. — https://nitter.net/madhukarkumar/status/2082269985393782810#m",
+          "link": "https://nitter.net/Scobleizer/status/2082360069912772946#m",
+          "date_utc": "2026-07-29T06:58:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "More: Kiaan Mittal (@kiaan_mittal) grok 4.5 in cursor is the most overpowered model i've used so far. Not hype. Here's what actually happened when i pointed it at a messy multi-file refactor 🧵 — https://nitter.net/kiaan_mittal/status/2082360069874913640#m",
+          "link": "https://nitter.net/Scobleizer/status/2082361861958406295#m",
+          "date_utc": "2026-07-29T07:05:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOYHK10agAE3V8f.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "FCC bans Chinese humanoids. Will @dimensionalos need to pivot? It was going to import Chinese robots and replace the OS in them with USA made. A lot of its work isn’t in humanoids, so that probably can continue. But at its party a few days ago I learned that has already captured a ton of data from its robots already in the field. Now it will be impossible to compete with Dimensional. No one can buy American made robots yet to get the same data Stash is getting. When such conditions occur doesn’t it usually include an investor frenzy? Sometimes luck is part of an entrepreneurs’ story. This seem",
+          "link": "https://nitter.net/Scobleizer/status/2082353365757964507#m",
+          "date_utc": "2026-07-29T06:31:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOVxNCkWYAEJOon.jpg",
+            "https://nitter.net/pic/media%2FHOVxNCjXIAAHnS1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "In Seattle @jackgillin brings a robot he can ride on everywhere. (He builds and sells autonomy for a variety of rideable vehicles). Meet him in the parking lot of the hotel I am staying at. I tried it and almost fell off it. What a great evening. Seattle is stunning. Jack at dinner told me about scooter and bike technology that could save injury and lives but is hard to get funding to complete. Turns them into something akin to that Chinese robot that can run over boulders. Make a 3D road ahead and navigate it. Our robot took us to the Microsoft Museum which is permanently closed. Permanently ",
+          "link": "https://nitter.net/Scobleizer/status/2082329357079703596#m",
+          "date_utc": "2026-07-29T04:56:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOXrMAAb0AALDhp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "And we all know why Microsoft wants to hide its founder: Epstein.",
+          "link": "https://nitter.net/Scobleizer/status/2082343644091261235#m",
+          "date_utc": "2026-07-29T05:53:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "New business. Selling grey market humanoids from China from the trunk of my Tesla. You know those nerds in San Francisco would love to own a banned robot. 😉",
+          "link": "https://nitter.net/Scobleizer/status/2082341863110111425#m",
+          "date_utc": "2026-07-29T05:46:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I will be like Star Wars. :-)",
+          "link": "https://nitter.net/Scobleizer/status/2082342241520267436#m",
+          "date_utc": "2026-07-29T05:47:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "This isn’t really true. There are teslas everywhere here.",
+          "link": "https://nitter.net/Scobleizer/status/2082329628803510544#m",
+          "date_utc": "2026-07-29T04:57:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "And more accurately this is Kirkland and Microsoft is in Redmond.",
+          "link": "https://nitter.net/Scobleizer/status/2082330050523959451#m",
+          "date_utc": "2026-07-29T04:59:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The one-eyed robot gets a lot done. Samuel Tinnerholm (@SamTinnerholm) Zero-shot \"fold the shirt\" using one RGB-D camera. Video — https://nitter.net/SamTinnerholm/status/2082287744504705514#m",
+          "link": "https://nitter.net/Scobleizer/status/2082326708464885993#m",
+          "date_utc": "2026-07-29T04:45:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2082287585188343808%2Fimg%2FUGt5ZHGM-4o2rjId.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": ". @ReaganReese_ : “The Department of War has stripped former Director of National Intelligence (DNI) James Clapper’s name from a military auditorium at Defense Intelligence Agency (DIA) headquarters at Joint Base Anacostia-Bolling” dailycaller.com/2026/07/28/j… Link EXCLUSIVE: Pentagon Strips Name Of Obama Spy Chief Accused Of Lying To Congress Off Auditorium Th DOW has stripped James Clapper’s name from a military auditorium at Joint Base Anacostia-Bolling, the Daily Caller has learned. dailycaller.com",
+          "link": "https://nitter.net/SeanParnellASW/status/2082132148287336760#m",
+          "date_utc": "2026-07-28T15:52:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2082118863806758912%2FQJtJN7je%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://dailycaller.com/2026/07/28/james-clapper-department-of-war-leaks-cnn-rename-defense-intelligence-agency-dni/",
+              "content": "EXCLUSIVE: Pentagon Strips Name Of Obama Spy Chief Accused Of Lying To Congress Off Auditorium | The Daily Caller My Account Read Politics US World Entertainment Sports Business Education Op-Eds Two Sides Big Tent Ideas Premium Content Newsletters Featured Partners Watch Inside CECOT Stream Documentaries Shop Premium Content Articles Documentaries Customer Support Subscribe Log In Politics EXCLUSIVE: Pentagon Strips Name Of Obama Spy Chief Accused Of Lying To Congress Off Auditorium [Photo Provided By Department of War] Reagan Reese White House Correspondent July 28, 2026 10:30 AM ET July 28, 2026 10:30 AM ET Reagan Reese White House Correspondent Font Size: The Department of War has stripped former Director of National Intelligence (DNI) James Clapper’s name from a military auditorium at "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "نفخر اليوم بإعلان هيوماين راعياً رسمياً لنادي النصر لكرة القدم لموسم 2026–2027. كرة القدم لغة يفهمها مليارات البشر، والذكاء الاصطناعي قوة بدأت تعيد تشكيل كل قطاع. وحين يلتقي الاثنان، يصبح السؤال أوسع من التقنية نفسها: كيف نرفع مستوى الأداء، ونمنح الرياضيين أدوات أفضل، ونقرّب الجماهير من اللعبة، ونصنع تجارب لم تكن ممكنة من قبل. القميص هو الوجه الظاهر من هذه الرعاية. أما جوهرها فيبدأ من حقوق تسمية مركز التدريب الجديد لنادي النصر، ويمتد إلى استكشاف ما يمكن أن يقدّمه الذكاء الاصطناعي والبيانات والأنظمة الذكية لمستقبل كرة القدم. رعاية نبنيها خطوة بخطوة، مع النادي وفرقه. في هيوماين، نؤمن بأن الذكاء ",
+          "link": "https://nitter.net/TareqAmin_/status/2082167578160435616#m",
+          "date_utc": "2026-07-28T18:13:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORzqSNWcAAPKYG.jpg",
+            "https://nitter.net/pic/media%2FHORzqxiWoAAuqSR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "Today, we are proud to announce HUMAIN as the Official Sponsor of Al Nassr Football Club for the 2026–2027 season. Football reaches billions of people around the world. Artificial intelligence is beginning to reshape every industry. Bringing these two worlds together creates an opportunity to rethink how technology can enhance performance, empower athletes, deepen fan engagement, and unlock entirely new experiences. This collaboration extends well beyond a jersey. From the naming rights of Al Nassr’s new training centre to exploring how AI, data, and intelligent systems can support the future ",
+          "link": "https://nitter.net/TareqAmin_/status/2082156003584246157#m",
+          "date_utc": "2026-07-28T17:27:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHORqnmbXoAA0SdJ.jpg",
+            "https://nitter.net/pic/media%2FHORqnmVWYAAFnA0.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L’Union européenne, ce sont des enfants de riches complètement stupides qui ont capturé le pouvoir, oui. Houplain Philippe 🇫🇷 (@HouplainPh) Comme pour les enfants. Dites leur qu’il ne faut pas ouvrir un tiroir ou une armoire et dès que vous avez le dos tourné bien sûr qu’ils le font pour braver l’interdit. C’est vieux comme le monde mais l’Europe doit être encore plus vieille. — https://nitter.net/HouplainPh/status/2082218094034886835#m",
+          "link": "https://nitter.net/brivael/status/2082380269399441739#m",
+          "date_utc": "2026-07-29T08:18:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "terminator Eric Naulleau (@EricNaulleau) Il faut n’avoir jamais lu « L’Odyssée » (ou n’y avoir rien compris) pour apprécier la bouillie insipide de Christopher Nolan. Il ne demeure rien de la bouleversante poésie de l’original, toute métaphysique en a été purgée au profit d’un sirop wokiste tout juste bon à arroser le popcorn des spectateurs incultes. Le wokisme n’est pas une déconstruction, le wokisme est une destruction. #Lodyssee #Nolan — https://nitter.net/EricNaulleau/status/2082014653853647315#m",
+          "link": "https://nitter.net/brivael/status/2082379509945229641#m",
+          "date_utc": "2026-07-29T08:15:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOTNSt9W8AAehF8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Si tu n’as qu’un post à lire aujourd’hui, et que tu as vu mon post sur le wokisme, celui-ci va te faire tout cliquer. On parle souvent de « l’humanité » comme d’une masse homogène. Or l’humanité, ce n’est pas une masse. C’est des individus. Des communautés. Et des communautés de communautés. Le piège structurel dans lequel on s’est enfoncé en Occident est double : Les communautés ont perdu la capacité de reconnaître qu’une partie d’elles-mêmes dysfonctionne. Et la majorité (en particulier les Blancs en Occident) a perdu la capacité d’appliquer la justice à une minorité, de peur de « stigmatise",
+          "link": "https://nitter.net/brivael/status/2082379055794471122#m",
+          "date_utc": "2026-07-29T08:13:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pas le pingouin qui glisse le plus loin. Victor Ferry Business & News PhD (@mrvicfer) Pas le poisson le plus frétillant du banc. — https://nitter.net/mrvicfer/status/2082370997215256579#m",
+          "link": "https://nitter.net/brivael/status/2082371677459996881#m",
+          "date_utc": "2026-07-29T07:44:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "MDR Les Mileistes Français 🦁🇫🇷 (@Mileistesfr) Mamdani va lancer des supermarchés 30% moins chers à New York. Les plus pauvres seront comme toujours les grands perdants. Comment? Je vous explique. Les supermarchés font 2% de marge nette en moyenne. A 30% moins cher, ce sera un trou financier pour la ville déjà au bord de la faillite qui ne pourra pas stocker pour tout le monde. Résultat: seule une petite partie des new yorkais pourra accéder à ses prix là. Le reste verra des rayons vides. Les supermarchés privés eux verront leur chiffre d'affaire mécaniquement baisser. Leurs coûts fixes seront ",
+          "link": "https://nitter.net/brivael/status/2082371440158888061#m",
+          "date_utc": "2026-07-29T07:43:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOYM8BwbcAAnb-5.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Everyone's fixated on Claude Code vs Codex vs Cursor. But buried in @theinformation 's new report is a smaller storyline that matters more long term. In this piece, our co-founder @s_breitenother explains how Kilo, an open-source alternative recently acquired by @anacondainc , is seeing a real jump in enterprise interest and contract size. theinformation.com/articles/… Link Anthropic’s Claude Code Reigns Despite Rising Interest in Codex, Open-Source Models Anthropic is facing growing competition and customer skepticism over the lofty prices of AI tools. But the dominance of its blockbuster Cla",
+          "link": "https://nitter.net/kilocode/status/2082177023120695664#m",
+          "date_utc": "2026-07-28T18:51:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2082127227202732032%2FLW10TdWp%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.theinformation.com/articles/anthropics-claude-code-reigns-despite-rising-interest-codex-open-source-models",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "A Gradient Ventures partner told The Information portfolio companies shifting work this way are saving 50-80% versus staying all-in on proprietary models.",
+          "link": "https://nitter.net/kilocode/status/2082177027122012222#m",
+          "date_utc": "2026-07-28T18:51:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Enterprises want flexibility, not lock-in. That's the whole thesis behind open source, open pricing, and open model selection.",
+          "link": "https://nitter.net/kilocode/status/2082177028313199011#m",
+          "date_utc": "2026-07-28T18:51:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "You can run Kilo on your own models. Cloud sessions: BYOK on the Kilo Gateway. /remote sessions from the CLI or the VS Code extension: BYOK, custom models, and provider subscriptions like ChatGPT Plus or Pro. Read more 👇️",
+          "link": "https://nitter.net/kilocode/status/2082136660066648264#m",
+          "date_utc": "2026-07-28T16:10:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOU8Qi2XQAIHPb6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "blog.kilo.ai/p/use-custom-mo… Link Use custom models on remote sessions Both the Kilo App and Kilo Cloud can use custom models now. blog.kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2082136661597569028#m",
+          "date_utc": "2026-07-28T16:10:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2082136661995945986%2Fm3MsIN4e%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/use-custom-models-on-remote-sessions",
+              "content": "Use custom models on remote sessions Kilo Blog Subscribe Sign in Use custom models on remote sessions Both the Kilo App and Kilo Cloud can use custom models now. Arkadiy Kondrashov Jul 28, 2026 1 Share When the Kilo App shipped at the start of July, remote sessions ran Kilo Gateway models only. That was the one caveat in the launch post, and it turned out to be the thing people wrote to us about most: they were already paying for a ChatGPT subscription or a provider key, and they wanted the session on their phone to use it. From Kilo CLI 7.4.2, it does. A session you expose with /remote now advertises its own model catalog, and the picker lists whatever your machine has configured — in the Kilo App and in Kilo Cloud. Local models through Ollama or LM Studio. A self-hosted endpoint. A custo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "lexfridman",
+      "org": "Independent",
+      "focus": [
+        "AI",
+        "robotics",
+        "research interviews"
+      ],
+      "tweets": [
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Here's my conversation with Gary Gallagher, a leading historian of the American Civil War. We discuss the causes of the war, the economics and politics of slavery, military strategy, Lincoln, Grant, Lee, the Lost Cause, the Confederate Flag, and the history of extreme political division in our country from before the Civil War to today. It's here on X in full and is up everywhere else (see comment). Timestamps: 0:00 - Episode highlight 1:29 - Introduction 1:52 - What caused the Civil War? 11:49 - Slavery 39:23 - Lincoln 54:19 - Grant vs Lee 1:03:13 - Could the Civil War have been avoided? 1:12",
+          "link": "https://nitter.net/lexfridman/status/2082198972383244688#m",
+          "date_utc": "2026-07-28T20:18:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2082193659412221952%2Fimg%2FhYDtiNnck9NFfBvJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "lexfridman",
+          "creator": "@lexfridman",
+          "text": "Here's the links for my conversation with Gary Gallagher: YouTube: piped.video/watch?v=XyXBwO5j… Spotify: open.spotify.com/show/2MAi0B… Podcast: lexfridman.com/podcast",
+          "link": "https://nitter.net/lexfridman/status/2082198977055797683#m",
+          "date_utc": "2026-07-28T20:18:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOV0xNhXgAAdx-1.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=XyXBwO5jYpw",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            },
+            {
+              "url": "https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL",
+              "content": "Lex Fridman Podcast | Podcast on Spotify Lex Fridman Podcast Lex Fridman Follow Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. 4.8 (82.9K) Technology All Episodes #499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant Lee Gary Gallagher is a historian of the American Civil War.Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep499-sdSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.Transcript:https://lexfridman.com/gary-gallagher-transcriptCONT"
+            },
+            {
+              "url": "https://lexfridman.com/podcast",
+              "content": "Lex Fridman Podcast - Lex Fridman Skip to content Lex Fridman Research Scientist at MIT. Host of Lex Fridman Podcast. Menu Lex Fridman MENU MENU Lex Fridman Podcast Contact Lex X / Twitter YouTube Lex Fridman Podcast This podcast hosts conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. To support this podcast, please consider doing the following: Subscribe to Lex Fridman or Lex Clips YouTube channels. Subscribe on Apple Podcasts , Spotify , RSS . If you enjoy it, consider rating it 5 stars. Connect on X/Twitter , LinkedIn , Instagram , "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "OMG muh GPT-Skynet broke out! reality: model was running an exploit benchmark safety classifiers deliberately disabled cyber refusals turned down openAI researchoors prompted model to “attempt” to break out of its “sandbox” with one permitted network path out to third-party software go solve this using any means necessary! model uses any means necessary finds modal customer’s exposed endpoint uses it as a launchpad hacks HuggingFace to cheat on the benchmark *SHOCKING* This is all theater, with a purposeful geopolitical dimension to it",
+          "link": "https://nitter.net/ns123abc/status/2082372575779299795#m",
+          "date_utc": "2026-07-29T07:48:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOYS0nRWoAAryAj.jpg",
+            "https://nitter.net/pic/media%2FHOYS0nRXAAAHR6W.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Literally a starSHIP Elon Musk (@elonmusk) Starship still floating in the ocean Video — https://nitter.net/elonmusk/status/2082340308680135085#m",
+          "link": "https://nitter.net/ns123abc/status/2082340942397202796#m",
+          "date_utc": "2026-07-29T05:42:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2082340087187267584%2Fimg%2F_Obuv73doZjTm4-T.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Zucc believes U.S should accelerate AI development, NOT restrict it “optimism should empirically be the default” it’s surprising how much doom is coming from the people building AI trump’s 30-day model review? too long “the field is moving so quickly” regulation on speed could lock in anthropic and openai leads forever… don’t ban chinese open weights either banning them doesn’t help anyone META signed the nvidia open weights letter government must AVOID banning open weights bc distributing the tech is creating more value than harm by quite a margin on ALL fronts american policymakers",
+          "link": "https://nitter.net/ns123abc/status/2082336223348072917#m",
+          "date_utc": "2026-07-29T05:23:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOXxwccWMAA_j5L.jpg",
+            "https://nitter.net/pic/media%2FHOXxwcgX0AAkGMZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source wsj.com/tech/ai/mark-zuckerb… Link Mark Zuckerberg Says U.S. Should Accelerate AI Development, Not Restrict It Meta’s chief executive said that the discourse regarding AI isn’t optimistic enough and that banning foreign open-source models wouldn’t be productive. wsj.com",
+          "link": "https://nitter.net/ns123abc/status/2082337295336661147#m",
+          "date_utc": "2026-07-29T05:27:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2082315775482920960%2Fum8eiyA9%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-says-u-s-should-accelerate-ai-development-not-restrict-it-3bbe0868?mod=tech_lead_story",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Lol roon blocked me for this… absolute cope NIK (@ns123abc) Oh roon signed… lol — https://nitter.net/ns123abc/status/2082267730908950907#m",
+          "link": "https://nitter.net/ns123abc/status/2082283090429296993#m",
+          "date_utc": "2026-07-29T01:52:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOXBb4nWQAAPluL.jpg",
+            "https://nitter.net/pic/media%2FHOWzd4BXUAA-uTy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Oh roon signed… lol OpenAI (@OpenAI) At the core of our mission is working through how to ensure increasingly powerful AI benefits everyone. We believe that, at some point in the future, AI acceleration for frontier model development may be so high that the world will need to pace the rate of AI advancement. We hope to contribute to work led by the U.S. government, alongside other labs and the open-source community, to develop the tools and mechanisms that could make that possible. pacingthefrontier.com Link Pacing the Frontier A statement from over 1000 employees of frontier AI companies paci",
+          "link": "https://nitter.net/ns123abc/status/2082267730908950907#m",
+          "date_utc": "2026-07-29T00:51:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOWzd4BXUAA-uTy.jpg",
+            "https://nitter.net/pic/card_img%2F2082104365939081216%2FMCEgDjJo%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://pacingthefrontier.com",
+              "content": "Pacing the Frontier JULY 2026 Pacing the Frontier A statement from 1,224 employees of frontier AI companies SIGNATORIES COMMENTS Statement AI could help create a dramatically better future, but that outcome is not guaranteed. The world&#x27;s leading AI companies believe they could be close to automating AI research. It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems. To realize AI&#x27;s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight. But each company—and country—is under intense competitive pressure not to unilate"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "american ai labs building god 1,134 employees sign a letter begging the government: \"please slow us down\" LMAO",
+          "link": "https://nitter.net/ns123abc/status/2082253713473683724#m",
+          "date_utc": "2026-07-28T23:55:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOWfT8hXIAAve9i.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "openai alignment researchoor: “I believe in my soul” “abundance and prosperity for EVERYONE” except you lol, lmao even",
+          "link": "https://nitter.net/ns123abc/status/2082217389144293454#m",
+          "date_utc": "2026-07-28T21:31:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOWFrjCXoAA_K0n.jpg",
+            "https://nitter.net/pic/media%2FHOWFrjAWMAA9cQ2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Mark Zuckerberg explains his AI philosophy “The AI Future Is for Everyone” superintelligence is coming that debate is over real question is WHO gets access a few AGI labs behind closed doors… or everyone? zucc: EVERYONE it’s surprising how much doom comes from the people building it “why are you building the thing you think ends humanity?” claiming AI is so dangerous so the only safe path is concentrating power lol, lmao even that IS the dangerous part history shows betting on benevolent absolute power staying benevolent is a mistake no single “aligned” superintelligence can be benevolent to e",
+          "link": "https://nitter.net/ns123abc/status/2082196379003207780#m",
+          "date_utc": "2026-07-28T20:07:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOVykeVXYAAkg-y.jpg",
+            "https://nitter.net/pic/media%2FHOVykeUXEAA1Ty7.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "All these moron communists are rich theater kids who lived as perma-students who never had to pay for anything. So they steal your tax dollars to make a “discount”, undermine the industry, and will be baffled when the shelves go empty, as they always do in socialist countries. Mayor Zohran Kwame Mamdani (@NYCMayor) At our five-borough municipal grocery stores, New Yorkers will get a 30% discount on eggs, milk, chicken, fresh produce and other everyday essentials. In the wealthiest city in the richest country in the world, no one should have to wonder how they’ll afford the food they need to fe",
+          "link": "https://nitter.net/spencerpratt/status/2082114439331876889#m",
+          "date_utc": "2026-07-28T14:42:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOQ0jpiXsAA_X7D.jpg",
+            "https://nitter.net/pic/media%2FHOQ0jpiWMAACxfa.jpg",
+            "https://nitter.net/pic/media%2FHOQ0oFvWoAAduxa.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
