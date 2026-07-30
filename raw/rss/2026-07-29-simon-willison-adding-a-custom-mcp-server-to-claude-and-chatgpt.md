@@ -1,0 +1,16 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-07-30T07:09:19.525771+00:00
+title: Adding a custom MCP server to Claude and ChatGPT
+url: https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything
+published: 2026-07-29
+---
+
+# Adding a custom MCP server to Claude and ChatGPT
+
+<p><strong>TIL:</strong> <a href="https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt">Adding a custom MCP server to Claude and ChatGPT</a></p>
+        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/chatgpt">chatgpt</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/model-context-protocol">model-context-protocol</a></p>
