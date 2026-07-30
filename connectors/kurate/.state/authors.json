@@ -12498,5 +12498,131 @@
     ],
     "first_seen": "2026-W31",
     "last_seen": "2026-W31"
+  },
+  "Adhyyan Narang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.23394v1",
+        "title": "Inference-Time Consensus for Mitigating Hidden Behaviors from LLM Fine-Tuning",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Artin Tajdini": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.23394v1",
+        "title": "Inference-Time Consensus for Mitigating Hidden Behaviors from LLM Fine-Tuning",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Claire Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.23394v1",
+        "title": "Inference-Time Consensus for Mitigating Hidden Behaviors from LLM Fine-Tuning",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jamie Morgenstern": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.23394v1",
+        "title": "Inference-Time Consensus for Mitigating Hidden Behaviors from LLM Fine-Tuning",
+        "ai_rating": 6.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Shuo Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Fang Xi": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Wenyuan Huang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Qing Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Junming Su": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
   }
 }
