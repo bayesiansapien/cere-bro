@@ -37,6 +37,20 @@ The number that matters for this page is the gap between distillation and naive 
 
 It also supplies a partial answer to the **break-even query count** question below. Experience Distillation matches classical RL baselines at 9.6x fewer environment samples, so the break-even is not measured in queries against one item but in avoided environment interactions, which for agents is the expensive unit.
 
+## The corpus scale arrives, and it is a parameter-allocation argument (2026-07-31)
+
+Everything above internalizes **one item at a time**: a document, a repo, a video, a set of tool-call transcripts. [Memory Decoder at Scale](2026-07-31-memory-decoder-at-scale.md) (2607.27919) internalizes a **corpus**, and it does so as a separate model rather than an adapter on the base one. A memory model of up to 6.9B parameters is pretrained on 300B tokens to predict the next-token distribution a kNN retriever would have produced, then run alongside a frozen base model with the two output distributions interpolated. No index and no retrieved documents at query time.
+
+The cost model is this page's cost model, run at a different granularity. Pay once, up front, to move context into weights; pay zero context tokens per query afterwards. What changes is the unit of amortization. Code2LoRA and Video2LoRA amortize a hypernetwork pass over queries against **one item**, which is why this page's first open question below asks for a break-even query count. Memory Decoder amortizes a pretraining run over queries against **an entire domain**, which makes break-even a non-question and replaces it with a different one: is the memory worth its parameters compared to spending them on the base model?
+
+**The answer is yes, and it is the reason this entry matters.** A 6.9B general memory paired with Pythia-410M averages **37.34 across 17 benchmarks against Pythia-12B's 37.24, at 39% fewer total parameters**, lifting the base model's own 29.86 by roughly 7.5 points. More striking, a **1.7B domain memory adds more than 9 points to the three-domain average at every Qwen3 Base size from 0.6B to 14B**. If memory and reasoning were substitutes you would expect a 14B base to need less external memory than a 0.6B one, and it does not.
+
+**This is a partial answer to the frontier-scale transfer question below.** That question asked whether predicted-adapter results on small backbones survive when the base model is large. Memory Decoder tests a neighbouring version, whether the *value* of internalized context survives base-model scaling, and finds it does across a 23-fold range. It does not answer the hypernetwork branch's version, since Memory Decoder pretrains its memory rather than predicting it, and the two mechanisms could scale differently.
+
+**Two caveats worth carrying.** Every base model reported is Pythia or Qwen3 Base, so nothing instruction-tuned appears, and interpolating a memory distribution into a model whose post-training shaped its output distribution deliberately is a different proposition. And this axis now costs **two forward passes per token**, which the parameter count hides and which is the opposite of the serving-cost story that made adapter prediction attractive.
+
+**The sibling paper is on a different branch.** [Metis](../agentic-systems/2026-07-31-metis-memory-foundation-model.md), same day, also deletes the external store but keeps memory as an **activation state inside the backbone** updated gradient-free by a forward pass. That is closer to this page's spirit (no second model, no second forward pass) and further from its mechanism (no adapter at all). Whether "internalized context" should be parameters, adapters, or persistent activations is now a live three-way question rather than the two-way one this page was set up to track.
+
 ## Open questions
 
 - **Break-even query count.** For each modality, how many queries against one item before the hypernetwork pass pays for itself versus just feeding the context once?
