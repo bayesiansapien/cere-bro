@@ -62,6 +62,6 @@ Anyone running a lossy speculative-decoding variant in production is currently r
 ## Related
 
 - [speculative-decoding.md](speculative-decoding.md)
-- [VIA-SD: intra-model routing for graded verification](2026-06-12-via-sd-intra-model-routing-speculative-decoding.md)
+- [VIA-SD: intra-model routing for graded verification](../ai-routing/2026-06-12-via-sd-intra-model-routing-speculative-decoding.md)
 - [Bebop: MTP acceptance and entropy](2026-06-11-bebop-mtp-rejection-sampling-rl.md)
 - [Draft-OPD: on-policy distillation for drafters](2026-06-02-draft-opd-speculative-draft-distillation.md)
