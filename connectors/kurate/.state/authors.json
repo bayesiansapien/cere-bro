@@ -12624,5 +12624,677 @@
     ],
     "first_seen": "2026-W31",
     "last_seen": "2026-W31"
+  },
+  "Elad David": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.24425v1",
+        "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
+        "ai_rating": 6.6
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Max Fomin": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.24425v1",
+        "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
+        "ai_rating": 6.6
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Guoze Sun": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Rui Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jiankai Tang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Mengtao Yan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Runze Mao": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zhi X. Chen": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Peng Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.24274v1",
+        "title": "Physics-Guided Generative AI for Property-Targeted 3D Porous Media Design",
+        "ai_rating": 4.3
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Md Ashikur Rahman": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Md Arifur Rahman": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Niamul Hassan Samin": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Khandaker Rifah Tasnia": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Sifat Rahman Ahona": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Juena Ahmed Noshin": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Phu Gia Hoang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Anwoy Chatterjee": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Tanmoy Chakraborty": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Iryna Gurevych": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Subhabrata Dutta": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Tinghui Jin": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Kedu Jin": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ying Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Guanghui Ren": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jingzhi Xue": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Shiyu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Paul Simpson": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23386v1",
+        "title": "Confidently Wrong: Exception Chain Collapse in Frontier LLM Rule Evaluation",
+        "ai_rating": 4.7
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "John Kozak": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23386v1",
+        "title": "Confidently Wrong: Exception Chain Collapse in Frontier LLM Rule Evaluation",
+        "ai_rating": 4.7
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Lisa Doake": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.23386v1",
+        "title": "Confidently Wrong: Exception Chain Collapse in Frontier LLM Rule Evaluation",
+        "ai_rating": 4.7
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiaoyang Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23929v1",
+        "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yiqi Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23929v1",
+        "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Haohui Lu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23929v1",
+        "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zhi Chen": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23929v1",
+        "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Mo Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23929v1",
+        "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Pingan Song": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23929v1",
+        "title": "MemTX: Transactional Belief Commit for Stateful Agent Memory",
+        "ai_rating": 6.8
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ziheng Peng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23496v1",
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Huiqi Deng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23496v1",
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Haoran Jing": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23496v1",
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xuankun Rong": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23496v1",
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jiahui Han": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23496v1",
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiting Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.23496v1",
+        "title": "Do LLMs Know Their Vulnerable Scenarios?",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Haiqian Yang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24647v1",
+        "title": "Efficiency Matters in Autonomous Research",
+        "ai_rating": 5.7
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yuan Cao": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24647v1",
+        "title": "Efficiency Matters in Autonomous Research",
+        "ai_rating": 5.7
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jiali Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.23970v1",
+        "title": "Understanding Machine Unlearning Through the Lens of Mode Connectivity",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Hadi Amiri": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.23970v1",
+        "title": "Understanding Machine Unlearning Through the Lens of Mode Connectivity",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ivo Verhoeven": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24484v1",
+        "title": "What do Reward Models Memorize?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Pushkar Mishra": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24484v1",
+        "title": "What do Reward Models Memorize?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ekaterina Shutova": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24484v1",
+        "title": "What do Reward Models Memorize?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
   }
 }
