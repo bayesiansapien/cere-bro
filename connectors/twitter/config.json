@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-07-29T03:34:19.188178+00:00",
+  "following_last_checked": "2026-08-01T11:35:12.391002+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -713,6 +713,15 @@
     {
       "handle": "dhh",
       "name": "DHH",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "deepseek_ai",
+      "name": "DeepSeek",
       "org": "Independent",
       "timezone": "PT",
       "focus": [
