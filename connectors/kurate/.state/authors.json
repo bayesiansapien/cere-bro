@@ -13296,5 +13296,397 @@
     ],
     "first_seen": "2026-W31",
     "last_seen": "2026-W31"
+  },
+  "Zefeng Cai": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23693v1",
+        "title": "Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zerui Cai": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.23693v1",
+        "title": "Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zhaoxi Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.23586v1",
+        "title": "Are You Still the Agent I Authorized? Earned Authority under a Fixed Ceiling for Evolving Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiaomei Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.23586v1",
+        "title": "Are You Still the Agent I Authorized? Earned Authority under a Fixed Ceiling for Evolving Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Wenxuan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.23605v1",
+        "title": "Hybrid Advantage Estimation with Unified Critic for VLM Agentic Reinforcement Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yuhui Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.23605v1",
+        "title": "Hybrid Advantage Estimation with Unified Critic for VLM Agentic Reinforcement Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Donggang Jia": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.23605v1",
+        "title": "Hybrid Advantage Estimation with Unified Critic for VLM Agentic Reinforcement Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiaoqian Shen": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.23605v1",
+        "title": "Hybrid Advantage Estimation with Unified Critic for VLM Agentic Reinforcement Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jian Ding": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.23605v1",
+        "title": "Hybrid Advantage Estimation with Unified Critic for VLM Agentic Reinforcement Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Ivan Viola": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.23605v1",
+        "title": "Hybrid Advantage Estimation with Unified Critic for VLM Agentic Reinforcement Learning",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Xiangyan Liu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Kaixin Li": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Haonan Wang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Biao Wu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Meng Fang": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Longxu Dou": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Saurabh Ranjan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23927v1",
+        "title": "Reality Monitoring in Large Language Models: Self-Knowledge That Transforms with Conversation Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Konstantina Sokratous": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23927v1",
+        "title": "Reality Monitoring in Large Language Models: Self-Knowledge That Transforms with Conversation Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Brian Odegaard": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.23927v1",
+        "title": "Reality Monitoring in Large Language Models: Self-Knowledge That Transforms with Conversation Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Liwei Dong": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24459v1",
+        "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jiahao Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24459v1",
+        "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Nan Xu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24459v1",
+        "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Jinliang Deng": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yiming Niu": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yibo Pan": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Zhiqi Shao": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Qin Luo": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
+  },
+  "Yongxin Tong": {
+    "appearances": [
+      {
+        "week": "2026-W31",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W31",
+    "last_seen": "2026-W31"
   }
 }
