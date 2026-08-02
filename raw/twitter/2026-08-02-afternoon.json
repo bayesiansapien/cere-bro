@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-02",
+  "slot": "afternoon",
+  "scraped_ist": "2026-08-02 12:55",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦🇷🇺 Whatever Zelensky says about Wildberries distribution centers being dual-use, it's clear from the scale of this campaign that Kyiv is striking them to put pressure on ordinary Russians At least 14 of the warehouses have been hit so far, and this morning saw another in Novosemeykino go up in smoke. Wildberries is Russia's largest e-commerce business, and mostly ships clothing, cosmetics, electronics, home goods, etc. The kind of stuff you'd expect to see on Amazon. Zelensky is justifying the strikes by saying that the logistics centers were used to supply the Russian military with sanction",
+          "link": "https://nitter.net/MarioNawfal/status/2083815059625804048#m",
+          "date_utc": "2026-08-02T07:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2083783015910539264%2Fimg%2FnQwygNunWnRu8ahg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇰🇷 South Korea just lived through the worst month in its stock market history, and the bond market is screaming. David Lin says retail investors were wiped out, and the Fed is walking into the wreckage without seeing it: \"If the Federal Reserve doesn't act soon, the bond market's telling us there's going to be financial World War III.\" This may be where the AI trade starts coming apart. @davidlin_TV Video Mario Nawfal (@MarioNawfal) 🇺🇸 The world's emergency reserves would run dry long before American oil could fill a Gulf shutdown. David Lin breaks down why there's no switch Washington can fli",
+          "link": "https://nitter.net/MarioNawfal/status/2083814304369815648#m",
+          "date_utc": "2026-08-02T07:17:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2083811047350431744%2Fimg%2FFzN59cPEXuZ4yT4w.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2083808716990869504%2Fimg%2F9PRFu7JD7Ev99uQZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Slow start, but boy, does that escalate quickly Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2083812542661455910#m",
+          "date_utc": "2026-08-02T07:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F1938698138627276800%2Fimg%2FXo_AQDLIvCmC1gji.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "“Then I heard the voice of the Lord saying, ‘Whom shall I send? And who will go for us?’ And I said, ‘Here am I. Send me.’” — Isaiah 6:8",
+          "link": "https://nitter.net/SeanParnellASW/status/2083612984467743227#m",
+          "date_utc": "2026-08-01T17:57:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOp6958XwAApODn.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "zhu_hanqing666",
+      "org": "Google DeepMind",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "zhu_hanqing666",
+          "creator": "@zhu_hanqing666",
+          "text": "🫡full speed ➡️🔎 Noam Brown (@polynoamial) An internal version of Astra, @OpenAI ’s next major model family, solved 10 major open problems in mathematics, quantum complexity, and theoretical computer science. We believe it will be a major step for scientific reasoning. openai.com/index/ten-advance… — https://nitter.net/polynoamial/status/2083467194663571701#m",
+          "link": "https://nitter.net/zhu_hanqing666/status/2083612097645310135#m",
+          "date_utc": "2026-08-01T17:53:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOn2XyYasAA_rAp.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://openai.com/index/ten-advances-in-mathematics/",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
