@@ -1,4 +1,4 @@
-# KAP: Knowledge Access Planning — the retriever already told you what mattered, and the prompt format threw it away
+# KAP: Knowledge Access Planning, or how the prompt format throws away everything the retriever knew
 
 **arxiv:** [2607.24260](https://arxiv.org/abs/2607.24260)
 **Authors:** Shuo Wang, Fang Xi, Wenyuan Huang, Qing Wang, Junming Su
