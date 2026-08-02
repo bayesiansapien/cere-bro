@@ -87,6 +87,26 @@ FEEDS = {
 }
 ```
 
+4b. **Fetch with a browser User-Agent, then parse locally. Do not call `feedparser.parse(url)` directly.**
+   Several publishers (notably `the-information` and `venturebeat-ai`) return HTTP 403 to feedparser's
+   default HTTP client and parse as `bozo=True` with **zero entries and no error raised**, so the feed
+   looks empty rather than broken and its items are silently dropped. Download first, then parse the
+   local file:
+
+   ```bash
+   curl -sL -A 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 \
+     (KHTML, like Gecko) Chrome/140.0 Safari/537.36' "$FEED_URL" -o "/tmp/feeds/$KEY.xml"
+   ```
+
+   ```python
+   d = feedparser.parse(f"/tmp/feeds/{key}.xml")   # local path, not URL
+   ```
+
+   After parsing, **log any feed that returned zero entries** so a silent 403 is visible in the run
+   output instead of being mistaken for a quiet news day. A feed that yields zero entries on several
+   consecutive runs is a candidate for the NOT ADDED list, but only after the browser-User-Agent
+   fetch has been confirmed to fail too.
+
 5. **For each entry newer than the floor date**, write one file to `raw/rss/YYYY-MM-DD-<source>-<slug>.md`:
    - Slug: kebab-case from title, max 55 chars
    - Frontmatter:
