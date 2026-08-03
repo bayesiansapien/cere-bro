@@ -47,7 +47,7 @@ The step-decaying schedule is a blunt instrument for this, and the paper says so
 
 **Composes with [MAPD (08-02)](2026-08-02-mapd-multi-agent-protocol-distillation.md) almost too neatly.** MAPD's teacher is an offline multi-agent pipeline with a repair loop that compiles exploration traces into a protocol, and the wiki flagged that its unpriced component is running that pipeline per query before training starts. ReOPD's whole point is that pre-collected teacher trajectories are a **reusable** asset amortized across many student updates. Run MAPD's pipeline once, replay its trajectories as ReOPD prefixes, and MAPD's biggest cost objection weakens considerably. Neither paper cites the other.
 
-**Confirms the direction [TIP (04-16)](2026-04-16-tip-token-importance-distillation.md) opened**, which found that most teacher-generated tokens carry no learning signal and roughly 10% is enough. TIP cut waste on the token axis. ReOPD cuts it on the environment axis, and reports the same shape of result: the expensive thing was mostly not necessary.
+**Confirms the direction [TIP (04-16)](2026-04-16-tip-token-importance-on-policy-distillation.md) opened**, which found that most teacher-generated tokens carry no learning signal and roughly 10% is enough. TIP cut waste on the token axis. ReOPD cuts it on the environment axis, and reports the same shape of result: the expensive thing was mostly not necessary.
 
 ## Gaps
 
