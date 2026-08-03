@@ -12340,10 +12340,18 @@
         "arxiv_id": "2607.24555v1",
         "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
         "ai_rating": 6.3
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2607.24555v1",
+        "title": "LOCKS: Page-Local Compact Key Summaries for Efficient Long-Context Decoding",
+        "ai_rating": 6.3
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Alexander Kozachinskiy": {
     "appearances": [
@@ -12564,10 +12572,18 @@
         "arxiv_id": "2607.24260v1",
         "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Fang Xi": {
     "appearances": [
@@ -12578,10 +12594,18 @@
         "arxiv_id": "2607.24260v1",
         "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Wenyuan Huang": {
     "appearances": [
@@ -12592,10 +12616,18 @@
         "arxiv_id": "2607.24260v1",
         "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Qing Wang": {
     "appearances": [
@@ -12606,10 +12638,18 @@
         "arxiv_id": "2607.24260v1",
         "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Junming Su": {
     "appearances": [
@@ -12620,10 +12660,18 @@
         "arxiv_id": "2607.24260v1",
         "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.24260v1",
+        "title": "KAP: Bridging the Knowledge Selection-Runtime Consumption Gap in LLM Systems",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Elad David": {
     "appearances": [
@@ -12634,10 +12682,18 @@
         "arxiv_id": "2607.24425v1",
         "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
         "ai_rating": 6.6
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2607.24425v1",
+        "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
+        "ai_rating": 6.6
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Max Fomin": {
     "appearances": [
@@ -12648,10 +12704,18 @@
         "arxiv_id": "2607.24425v1",
         "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
         "ai_rating": 6.6
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2607.24425v1",
+        "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
+        "ai_rating": 6.6
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Guoze Sun": {
     "appearances": [
@@ -12662,10 +12726,18 @@
         "arxiv_id": "2607.24513v1",
         "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Rui Zhang": {
     "appearances": [
@@ -12676,10 +12748,18 @@
         "arxiv_id": "2607.24513v1",
         "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Jiankai Tang": {
     "appearances": [
@@ -12690,10 +12770,18 @@
         "arxiv_id": "2607.24513v1",
         "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Mengtao Yan": {
     "appearances": [
@@ -12704,10 +12792,18 @@
         "arxiv_id": "2607.24513v1",
         "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Runze Mao": {
     "appearances": [
@@ -12718,10 +12814,18 @@
         "arxiv_id": "2607.24513v1",
         "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Zhi X. Chen": {
     "appearances": [
@@ -12732,10 +12836,18 @@
         "arxiv_id": "2607.24513v1",
         "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.24513v1",
+        "title": "Physics Transformer: Tailoring Transformer for General PDE Prediction",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Peng Wang": {
     "appearances": [
@@ -12746,10 +12858,18 @@
         "arxiv_id": "2607.24274v1",
         "title": "Physics-Guided Generative AI for Property-Targeted 3D Porous Media Design",
         "ai_rating": 4.3
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.24274v1",
+        "title": "Physics-Guided Generative AI for Property-Targeted 3D Porous Media Design",
+        "ai_rating": 4.3
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Md Ashikur Rahman": {
     "appearances": [
@@ -12760,10 +12880,18 @@
         "arxiv_id": "2607.24343v1",
         "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Md Arifur Rahman": {
     "appearances": [
@@ -12774,10 +12902,18 @@
         "arxiv_id": "2607.24343v1",
         "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Niamul Hassan Samin": {
     "appearances": [
@@ -12788,10 +12924,18 @@
         "arxiv_id": "2607.24343v1",
         "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Khandaker Rifah Tasnia": {
     "appearances": [
@@ -12802,10 +12946,18 @@
         "arxiv_id": "2607.24343v1",
         "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Sifat Rahman Ahona": {
     "appearances": [
@@ -12816,10 +12968,18 @@
         "arxiv_id": "2607.24343v1",
         "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Juena Ahmed Noshin": {
     "appearances": [
@@ -12830,10 +12990,18 @@
         "arxiv_id": "2607.24343v1",
         "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.24343v1",
+        "title": "Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Phu Gia Hoang": {
     "appearances": [
@@ -12844,10 +13012,18 @@
         "arxiv_id": "2607.24645v1",
         "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Anwoy Chatterjee": {
     "appearances": [
@@ -12858,10 +13034,18 @@
         "arxiv_id": "2607.24645v1",
         "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Tanmoy Chakraborty": {
     "appearances": [
@@ -12872,10 +13056,18 @@
         "arxiv_id": "2607.24645v1",
         "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Iryna Gurevych": {
     "appearances": [
@@ -12886,10 +13078,18 @@
         "arxiv_id": "2607.24645v1",
         "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Subhabrata Dutta": {
     "appearances": [
@@ -12900,10 +13100,18 @@
         "arxiv_id": "2607.24645v1",
         "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.24645v1",
+        "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Tinghui Jin": {
     "appearances": [
@@ -12914,10 +13122,18 @@
         "arxiv_id": "2607.24314v1",
         "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Kedu Jin": {
     "appearances": [
@@ -12928,10 +13144,18 @@
         "arxiv_id": "2607.24314v1",
         "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Ying Li": {
     "appearances": [
@@ -12942,10 +13166,18 @@
         "arxiv_id": "2607.24314v1",
         "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Guanghui Ren": {
     "appearances": [
@@ -12956,10 +13188,18 @@
         "arxiv_id": "2607.24314v1",
         "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Jingzhi Xue": {
     "appearances": [
@@ -12970,10 +13210,18 @@
         "arxiv_id": "2607.24314v1",
         "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Shiyu Zhou": {
     "appearances": [
@@ -12984,10 +13232,18 @@
         "arxiv_id": "2607.24314v1",
         "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.24314v1",
+        "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Paul Simpson": {
     "appearances": [
@@ -13208,10 +13464,18 @@
         "arxiv_id": "2607.24647v1",
         "title": "Efficiency Matters in Autonomous Research",
         "ai_rating": 5.7
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.24647v1",
+        "title": "Efficiency Matters in Autonomous Research",
+        "ai_rating": 5.7
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Yuan Cao": {
     "appearances": [
@@ -13222,10 +13486,18 @@
         "arxiv_id": "2607.24647v1",
         "title": "Efficiency Matters in Autonomous Research",
         "ai_rating": 5.7
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.24647v1",
+        "title": "Efficiency Matters in Autonomous Research",
+        "ai_rating": 5.7
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Jiali Cheng": {
     "appearances": [
@@ -13264,10 +13536,18 @@
         "arxiv_id": "2607.24484v1",
         "title": "What do Reward Models Memorize?",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24484v1",
+        "title": "What do Reward Models Memorize?",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Pushkar Mishra": {
     "appearances": [
@@ -13278,10 +13558,18 @@
         "arxiv_id": "2607.24484v1",
         "title": "What do Reward Models Memorize?",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24484v1",
+        "title": "What do Reward Models Memorize?",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Ekaterina Shutova": {
     "appearances": [
@@ -13292,10 +13580,18 @@
         "arxiv_id": "2607.24484v1",
         "title": "What do Reward Models Memorize?",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.24484v1",
+        "title": "What do Reward Models Memorize?",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Zefeng Cai": {
     "appearances": [
@@ -13446,10 +13742,18 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Kaixin Li": {
     "appearances": [
@@ -13460,10 +13764,18 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Haonan Wang": {
     "appearances": [
@@ -13474,10 +13786,18 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Biao Wu": {
     "appearances": [
@@ -13488,10 +13808,18 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Meng Fang": {
     "appearances": [
@@ -13502,10 +13830,18 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Longxu Dou": {
     "appearances": [
@@ -13516,10 +13852,18 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.24112v1",
+        "title": "Scaling GUI Agents with Visual State Transitions",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Saurabh Ranjan": {
     "appearances": [
@@ -13572,10 +13916,18 @@
         "arxiv_id": "2607.24459v1",
         "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2607.24459v1",
+        "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Jiahao Zhao": {
     "appearances": [
@@ -13586,10 +13938,18 @@
         "arxiv_id": "2607.24459v1",
         "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2607.24459v1",
+        "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Nan Xu": {
     "appearances": [
@@ -13600,10 +13960,18 @@
         "arxiv_id": "2607.24459v1",
         "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2607.24459v1",
+        "title": "From Execution to Capability: Scientific Experience Consolidation via Procedural Knowledge Synthesis",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Jinliang Deng": {
     "appearances": [
@@ -13614,10 +13982,18 @@
         "arxiv_id": "2607.24419v1",
         "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Yiming Niu": {
     "appearances": [
@@ -13628,10 +14004,18 @@
         "arxiv_id": "2607.24419v1",
         "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Yibo Pan": {
     "appearances": [
@@ -13642,10 +14026,18 @@
         "arxiv_id": "2607.24419v1",
         "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Zhiqi Shao": {
     "appearances": [
@@ -13656,10 +14048,18 @@
         "arxiv_id": "2607.24419v1",
         "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Qin Luo": {
     "appearances": [
@@ -13670,10 +14070,18 @@
         "arxiv_id": "2607.24419v1",
         "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Yongxin Tong": {
     "appearances": [
@@ -13684,9 +14092,437 @@
         "arxiv_id": "2607.24419v1",
         "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.24419v1",
+        "title": "Failures Reveal What Metrics Miss: An Evidence-Driven Agent for Recursive Refinement of ECG Classifiers",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
+  },
+  "Junlin Liu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.24280v1",
+        "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jiangwang Chen": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.24280v1",
+        "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zixin Song": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.24280v1",
+        "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Shuaiyu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.24280v1",
+        "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Chunji Lv": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.24280v1",
+        "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Hank Wu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.24280v1",
+        "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dushyant Sharma": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.24339v1",
+        "title": "Gubernaut: A Deterministic Homeostatic Controller for Affect-Regulated LLM Agents, Validated Across Independent Model Families",
+        "ai_rating": 4.2
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Hang Ni": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24588v1",
+        "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Weijia Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24588v1",
+        "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Fan Liu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24588v1",
+        "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Mengqian Lu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24588v1",
+        "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Hao Liu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.24588v1",
+        "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Haoyue Liu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.24354v1",
+        "title": "Are Prompt Optimizers Blind? Cross-Modal Visual Feedback for Automatic Prompt Optimization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xiaoyu Ma": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.24354v1",
+        "title": "Are Prompt Optimizers Blind? Cross-Modal Visual Feedback for Automatic Prompt Optimization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Ye Chen": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.24354v1",
+        "title": "Are Prompt Optimizers Blind? Cross-Modal Visual Feedback for Automatic Prompt Optimization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yuexian Zou": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.24354v1",
+        "title": "Are Prompt Optimizers Blind? Cross-Modal Visual Feedback for Automatic Prompt Optimization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xiaoying Tang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.24354v1",
+        "title": "Are Prompt Optimizers Blind? Cross-Modal Visual Feedback for Automatic Prompt Optimization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Murilo Salem": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24562v1",
+        "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+        "ai_rating": 4.2
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Luísa Böhm": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24562v1",
+        "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+        "ai_rating": 4.2
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Daniel Pontes": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24562v1",
+        "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+        "ai_rating": 4.2
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Anderson Ferrugem": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.24562v1",
+        "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+        "ai_rating": 4.2
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yiwen Ma": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24097v1",
+        "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Songjun Tu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24097v1",
+        "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Qichao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24097v1",
+        "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dong Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24097v1",
+        "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Linjing Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24097v1",
+        "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dongbin Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.24097v1",
+        "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
+        "ai_rating": 5.8
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Justin Sirignano": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24726v1",
+        "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Konstantinos Spiliopoulos": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24726v1",
+        "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Samuel Cohen": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.24726v1",
+        "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
   }
 }
