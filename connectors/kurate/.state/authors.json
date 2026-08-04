@@ -12228,10 +12228,18 @@
         "arxiv_id": "2607.19866v1",
         "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
         "ai_rating": 6.8
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.29440v1",
+        "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W32"
   },
   "Ruxin Wang": {
     "appearances": [
@@ -13772,6 +13780,14 @@
         "arxiv_id": "2607.24112v1",
         "title": "Scaling GUI Agents with Visual State Transitions",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.28399v1",
+        "title": "Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W31",
@@ -14113,6 +14129,22 @@
         "rank": 5,
         "arxiv_id": "2607.24280v1",
         "title": "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.28026v1",
+        "title": "Contrastive Reinforced Policy Optimization via Privileged Self-Distillation",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.28037v1",
+        "title": "ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents",
         "ai_rating": 5.5
       }
     ],
@@ -14520,6 +14552,1068 @@
         "arxiv_id": "2607.24726v1",
         "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
         "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Hanzhang Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.28227v1",
+        "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Panrong Tong": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.28227v1",
+        "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xu Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.28227v1",
+        "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Quyu Kong": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.28227v1",
+        "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Chenglin Cai": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.28227v1",
+        "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Tianyu Xia": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2607.28227v1",
+        "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Hussain Hussain": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.29553v1",
+        "title": "COntExt: Towards Context-Aware Ontology Extension from Operational Metrics",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Stefan Schöberl": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.29553v1",
+        "title": "COntExt: Towards Context-Aware Ontology Extension from Operational Metrics",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Angelika Schneider": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.29553v1",
+        "title": "COntExt: Towards Context-Aware Ontology Extension from Operational Metrics",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Verena Geist": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2607.29553v1",
+        "title": "COntExt: Towards Context-Aware Ontology Extension from Operational Metrics",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Haya Halimeh": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2607.25726v1",
+        "title": "Nudging Sustainable Choices through LLM-Generated Recommendation Explanations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dietmar Jannach": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2607.25726v1",
+        "title": "Nudging Sustainable Choices through LLM-Generated Recommendation Explanations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Oliver Müller": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2607.25726v1",
+        "title": "Nudging Sustainable Choices through LLM-Generated Recommendation Explanations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zhoujin Tian": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.29440v1",
+        "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yao Tian": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.29440v1",
+        "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Cheng Chen": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.29440v1",
+        "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yakun Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.29440v1",
+        "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Lei Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2607.29440v1",
+        "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Chenghan Wu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.28432v1",
+        "title": "A foundation model of numerical intelligence with cross-disciplinary generalization",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zongmin Yu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.28432v1",
+        "title": "A foundation model of numerical intelligence with cross-disciplinary generalization",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Liu Yang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2607.28432v1",
+        "title": "A foundation model of numerical intelligence with cross-disciplinary generalization",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zixuan Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.28175v1",
+        "title": "AgenticASR: Refining Speech Recognition in Real-World Scenarios via an Agentic Approach",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Binghao Qiang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.28175v1",
+        "title": "AgenticASR: Refining Speech Recognition in Real-World Scenarios via an Agentic Approach",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jiaying Chi": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.28175v1",
+        "title": "AgenticASR: Refining Speech Recognition in Real-World Scenarios via an Agentic Approach",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yanqiao Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.28175v1",
+        "title": "AgenticASR: Refining Speech Recognition in Real-World Scenarios via an Agentic Approach",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Kai Yu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.28175v1",
+        "title": "AgenticASR: Refining Speech Recognition in Real-World Scenarios via an Agentic Approach",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xie Chen": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2607.28175v1",
+        "title": "AgenticASR: Refining Speech Recognition in Real-World Scenarios via an Agentic Approach",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jens Lehmann": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.28287v1",
+        "title": "Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Andrei Aioanei": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.28287v1",
+        "title": "Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Sahar Vahdati": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2607.28287v1",
+        "title": "Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Shaopeng Wei": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.26588v1",
+        "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yufei Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.26588v1",
+        "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Wenxi Sun": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.26588v1",
+        "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yepeng Ding": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.26588v1",
+        "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yu Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.26588v1",
+        "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Gang Kou": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2607.26588v1",
+        "title": "Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Elnaser Abdelwahab": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2607.25605v1",
+        "title": "Computational Extraction of Legal Causes via al-Sabr wa al-Taqsim: A Set-Theoretic Formalization for Closed Fiqh Chapters",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jiacheng Tao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.28580v1",
+        "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Qingyun Sun": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.28580v1",
+        "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Haonan Yuan": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.28580v1",
+        "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Ziwei Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.28580v1",
+        "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jianxin Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2607.28580v1",
+        "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Huiyuan Tian": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2607.28308v1",
+        "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Bonan Xu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2607.28308v1",
+        "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Shijian Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2607.28308v1",
+        "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xingjian Wu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.28026v1",
+        "title": "Contrastive Reinforced Policy Optimization via Privileged Self-Distillation",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.28037v1",
+        "title": "ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xingchen Liu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.28026v1",
+        "title": "Contrastive Reinforced Policy Optimization via Privileged Self-Distillation",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.28037v1",
+        "title": "ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xuhang Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.28026v1",
+        "title": "Contrastive Reinforced Policy Optimization via Privileged Self-Distillation",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.28037v1",
+        "title": "ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jianing Wang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.28026v1",
+        "title": "Contrastive Reinforced Policy Optimization via Privileged Self-Distillation",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.28037v1",
+        "title": "ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Linsen Guo": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2607.28026v1",
+        "title": "Contrastive Reinforced Policy Optimization via Privileged Self-Distillation",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2607.28037v1",
+        "title": "ClawTrack: Towards Trace-Level Evaluation and Improvement of Real-World Autonomous Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yicheng Feng": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2607.27083v1",
+        "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2607.27083v1",
+        "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yan Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2607.27083v1",
+        "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Wei Qi": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2607.27083v1",
+        "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Florian Fervers": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.27987v1",
+        "title": "It's All Just Vectorization: einx, a Universal Notation for Tensor Operations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Sebastian Bullinger": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.27987v1",
+        "title": "It's All Just Vectorization: einx, a Universal Notation for Tensor Operations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Christoph Bodensteiner": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.27987v1",
+        "title": "It's All Just Vectorization: einx, a Universal Notation for Tensor Operations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Michael Arens": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2607.27987v1",
+        "title": "It's All Just Vectorization: einx, a Universal Notation for Tensor Operations",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zihan Dong": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.28399v1",
+        "title": "Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Rui Qian": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.28399v1",
+        "title": "Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Qishi Zhan": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.28399v1",
+        "title": "Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dongshen Peng": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.28399v1",
+        "title": "Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yu Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2607.28399v1",
+        "title": "Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "James Chapman": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2607.27027v1",
+        "title": "TreeCCA: Canonical Correlation Analysis via Gradient-Boosted Trees",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Idan Roth": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.29659v1",
+        "title": "GQ-FSL: Green Quantized Federated Split Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Lutz Lampe": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2607.29659v1",
+        "title": "GQ-FSL: Green Quantized Federated Split Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Ashish Prajapati": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.26922v1",
+        "title": "Two Calls Beat Five Agents: Evaluating Multi-Agent Pipelines Against Self-Refinement for Local Language Models",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Om Mohite": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2607.26922v1",
+        "title": "Two Calls Beat Five Agents: Evaluating Multi-Agent Pipelines Against Self-Refinement for Local Language Models",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Jiawei Xu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.28582v1",
+        "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Minghui Liu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.28582v1",
+        "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Juzheng Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.28582v1",
+        "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Tom Goldstein": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.28582v1",
+        "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Furong Huang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2607.28582v1",
+        "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W32",
