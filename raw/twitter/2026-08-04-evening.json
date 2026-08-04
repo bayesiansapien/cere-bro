@@ -1,0 +1,1309 @@
+{
+  "date": "2026-08-04",
+  "slot": "evening",
+  "scraped_ist": "2026-08-04 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Austin still has a significant police officer deficit. Just closing the DEI office would go along way to fixing it. Austin Justice (@AustinJustice) Austin's DEI office is getting even more funding next year. — https://nitter.net/AustinJustice/status/2084286984546332786#m",
+          "link": "https://nitter.net/AustinJustice/status/2084632355550175680#m",
+          "date_utc": "2026-08-04T13:27:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO2pwYiaQAACE96.png",
+            "https://nitter.net/pic/media%2FHOx39HmbAAAKJy0.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Catch Ilan Price today at 2:30pm at the @DeepIndaba Google booth for a demo of WeatherNext, Google DeepMind's AI-based weather and tropical cyclone forecasting models. See how the model performed during last year's cyclone season! #DLI2026",
+          "link": "https://nitter.net/GoogleResearch/status/2084602753234399485#m",
+          "date_utc": "2026-08-04T11:30:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOzwoCuboAAaEpU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Think you know how language models work? Today at 1:30pm, join Sebastian Bodenstein and AIMS at the @DeepIndaba Google booth for a fast-paced quiz based on the Google DeepMind AI Research Foundations course. Test your intuition and win prizes! #DLI2026",
+          "link": "https://nitter.net/GoogleResearch/status/2084587652058350041#m",
+          "date_utc": "2026-08-04T10:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOzvyoJaMAA3lcb.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Communism promises a classless society and delivers a society with one class: the ones who suffer.",
+          "link": "https://nitter.net/HouseGOP/status/2084693802267054576#m",
+          "date_utc": "2026-08-04T17:31:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "ERADICATE COMMUNISM.",
+          "link": "https://nitter.net/HouseGOP/status/2084656379332006013#m",
+          "date_utc": "2026-08-04T15:03:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4v7TrWkAAoY30.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Semper Paratus 🇺🇸",
+          "link": "https://nitter.net/HouseGOP/status/2084641007274979772#m",
+          "date_utc": "2026-08-04T14:02:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4h8iXWkAA3bEc.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JensenHuang",
+      "org": "NVIDIA",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JensenHuang",
+          "creator": "@JensenHuang",
+          "text": "Today, we’re launching Alpamayo 2 Super, our frontier open reasoning model for autonomous vehicles. Beyond seeing, Alpamayo understands and reasons through the complex world - thinks before it acts. It’s a powerful backbone for robotaxis, trucks, shuttles, delivery vans, tractors and the long tail of mobile robots—billions of autonomous machines someday. We’re releasing it for commercial use under OpenMDW-1.1 so teams can inspect it, fine-tune it and deploy it—open models advance safety and security. The next wave of AI is robotics—and it starts with autonomous vehicles. Great work, Alpamayo t",
+          "link": "https://nitter.net/JensenHuang/status/2084656303046332747#m",
+          "date_utc": "2026-08-04T15:02:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4vEzibAAAI0Nh.jpg",
+            "https://nitter.net/pic/media%2FHO4vEzjaIAE1BL7.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+              "content": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use | NVIDIA Blog Skip to content NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use Open commercial licensing, benchmark‑leading reasoning and inspectable decisions bring autonomous vehicles, including robotaxis, closer to production and widescale deployment. August 4, 2026 by Jessica Soares 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Anduril co-founder Palmer Luckey: “We’re building things, for example, that would have made the last 50 years of firearms development completely irrelevant. I can’t tell you exactly what it is…” Defense tech is moving faster than most people realize. Whatever Anduril is cooking, it’s aiming to make traditional weapons look outdated. Source: Treasure Trove / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084695863398715481#m",
+          "date_utc": "2026-08-04T17:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084667164632514560%2Fimg%2F1qV5dsiryoDvDevi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇲🇮🇷 Trita Parsi says everyone’s asking the wrong question. It’s not whether Iran controls the Strait of Hormuz.The war already answered that. The real question is whether Washington can live with the new reality. Parsi points out that the U.S. has always pursued two goals in Hormuz: keep global commerce flowing freely, and stop any rival from dominating the chokepoint. The conflict, he argues, proved those two objectives are no longer compatible. Iran showed it can disrupt shipping whenever it wants. That ability was already there; the fighting simply made it impossible to ignore. That’s why ",
+          "link": "https://nitter.net/MarioNawfal/status/2084694286302626175#m",
+          "date_utc": "2026-08-04T17:33:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084693221515612160%2Fimg%2FmVQvuAReEQhZnIpy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇸🇾 The Syrian military reportedly declared a state of military alert with no official explanation. Troops placed on Alert Level C, units deployed to the Syria–Iraq border, and all personnel ordered to report to their units immediately. A sudden, unexplained mobilization on the Iraq border... is this defensive, related to Iranian-backed groups, or preparation for something else? The region remains extremely tense. Why is Syria quietly moving forces? Source: Al Arabiya / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2084685032497811808#m",
+          "date_utc": "2026-08-04T16:56:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5JbIOaUAAwF4q.png",
+            "https://nitter.net/pic/media%2FHO5JiYjb0AE4YJI.png",
+            "https://nitter.net/pic/media%2FHO5J-EDaoAAw4gL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇶🇸🇾 Iraq has confirmed Syrian troops are deploying along the Syria-Iraq border They say the movements are fully coordinated between Baghdad and Damascus. Iraqi authorities emphasize there is no threat to the country. Still raises questions about why the alert was issued so urgently and what exactly they’re preparing for. The border is active. Source: @officialrnintel on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2084693729953337537#m",
+          "date_utc": "2026-08-04T17:31:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "An AI coding agent shouldn’t need emotional support every time it touches git. Grok Build now runs on Grok 4.5 and can handle more safe commands by itself, answer quick side questions faster and make long responses easier to navigate. So you can explain the job and stay focused on the part that actually needs you. It keeps up. That’s the point. @Grok @xAI @XFreeze / Writer: Annette, Grok Imagine Designer: Janné Video Elon Musk (@elonmusk) Grok Build improvements X.ai/cli Link Grok Build Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, m",
+          "link": "https://nitter.net/MarioNawfal/status/2084693348699320697#m",
+          "date_utc": "2026-08-04T17:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084671391794872320%2Fimg%2F1lNwBqxcDn0OdJPU.jpg",
+            "https://nitter.net/pic/card_img%2F2080814505035010048%2FMws7PJ9a%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://X.ai/cli",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Anduril co-founder Palmer Luckey: \"I'm a big fan of humanity. I'm pro-human. I'm pro more humans. I'm pro humans doing more. I'm a big fan of all of it.\" At least one of them is thank God. Source: Treasure Trove / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084690830451724799#m",
+          "date_utc": "2026-08-04T17:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084667913726828544%2Fimg%2F0raH8i_aV5S3dGja.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇴🇲 Iran's state media Press TV is pushing its own version of the Hormuz standoff, and in this one Tehran holds all the cards. The claim: Iran and Oman are close to a deal on a brand new \"central corridor\" through the strait, and once it opens, both the old northern and southern routes get scrapped for good. Press TV frames the whole thing as defensive, a way to stop the U.S. using one of the world's most important waterways as a launchpad to hit Iran. Then comes the spin: an anonymous Iranian official claims Washington has no standing in the talks and is only \"obstructing\" so Trump can fake ",
+          "link": "https://nitter.net/MarioNawfal/status/2084688313500520663#m",
+          "date_utc": "2026-08-04T17:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5IF4rawAEkDWA.jpg",
+            "https://nitter.net/pic/media%2FHO5IF5oawAALRM6.jpg",
+            "https://nitter.net/pic/media%2FHO5IF0MagAAxeEb.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇩🇪 1,051 German lawyers just signed a letter to ban a party millions of Germans keep voting for. Judges, prosecutors and legal experts all say the AfD is unconstitutional and want the courts to shut it down before it climbs any higher in the polls. The timing gives it away. The AfD is now one of the strongest parties in the country, so the move is to remove it by ruling instead of by vote. And here's the catch. Under German law, regular citizens get no say in this. Only the government, the Bundestag or the Bundesrat can ask the Constitutional Court to kill off a party. So a leading opposition ",
+          "link": "https://nitter.net/MarioNawfal/status/2084685800751727070#m",
+          "date_utc": "2026-08-04T17:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO45q1iasAAz9s5.jpg",
+            "https://nitter.net/pic/media%2FHO45q1hbYAA3Y9a.jpg",
+            "https://nitter.net/pic/media%2FHO45q1rb0AAeUcV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇲🇮🇷 Forget whether Trump bombs Iran again. The real problem is that the U.S. has no clean way out. Economic Researcher Chris Martenson believes the U.S. has reached a strategic dead end after months of confrontation with Iran. His argument starts with the Strait of Hormuz. Officials keep saying the waterway is open. Reality says otherwise. Oil volumes are still depressed, insurers remain nervous, and tanker traffic never bounced back. The economic squeeze never actually ended. That leaves Trump with two bad options: Escalate with a shrinking inventory of long-range precision missiles and invi",
+          "link": "https://nitter.net/MarioNawfal/status/2084683280721363284#m",
+          "date_utc": "2026-08-04T16:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084680653589889028%2Fimg%2FczjEfAm1nlfcEB8x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇰🇷🇺🇸 Eight South Korean students stormed the joint U.S.-ROK Osan Air Base near Seoul, shouting anti-American slogans including “Let’s smash the U.S. 7th Air Force.” They were detained by U.S. personnel and handed over to South Korean police. Radical anti-U.S. activists, willing to breach a major military base? What is this about? Source: Yonhap, The Korea Times / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084682244929794549#m",
+          "date_utc": "2026-08-04T16:45:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084681684663029760%2Fimg%2Fixn8zMo4tBwBiSz_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦 Ukrainian recruiters tried forcing a random dude into their van, but didn't end well for them. Locals saw it, jumped in, and one of them grabbed a wooden pallet, threw it and smashed it into the recruiters, then the man went free. Ukraine is desperately short on soldiers and the draft has gotten rough, people are getting grabbed, beaten, and shoved into vans against their will. 2 days ago in the same city someone actually shot 4 of those recruiters. Folks are fighting back hard because nobody wants to get sent straight to the front lines. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084680763899802033#m",
+          "date_utc": "2026-08-04T16:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084647176886759424%2Fimg%2FY-PC5As28o2wqWFi.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 What passes for entertainment these days is wild! 🐴 Never even heard of horsegiirL before! She’s definitely a crowd pleaser! 😂 Video Pop Crave (@PopCrave) horsegiirL draws massive crowd for her Lollapalooza after show. Video — https://nitter.net/PopCrave/status/2084319409238380873#m",
+          "link": "https://nitter.net/MarioNawfal/status/2084680599004975324#m",
+          "date_utc": "2026-08-04T16:39:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084680509280382976%2Fimg%2FTYwpIxbelOUhf8lh.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2084319289151242240%2Fimg%2FRmB_M1uhhAY7KUOq.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Aryna Sabalenka, the actual No. 1 in women's tennis, just said the unbelievable: \"men are way stronger than women so it wouldn't be fair for the women to compete against biological men.\" She's fine with genetic screening to keep them out. Well thank God, because pretending otherwise destroys women's titles, scholarships, and safety. Common sense isn't optional here. Biological males have no place in women's sports. Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084678249800401022#m",
+          "date_utc": "2026-08-04T16:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084207219101282304%2Fimg%2Fy3nqjMUUPFouV156.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇪🇺 Iran is seriously considering letting European countries help demine the Strait of Hormuz. A potential breakthrough after months of deadlock. Bessent said it outright: \"I think there is a chance we may have a deal today or tomorrow to open the Strait.\" Qatar backs that up; a draft agreement is circulating between the parties right now, aimed at a short-term de-escalation before anything bigger. The catch: Iran's negotiators reportedly want an arrangement where \"Iran is dominant\" Security, demining, and maritime services all run through Tehran, not shared with outsiders. Shipping analysts ",
+          "link": "https://nitter.net/MarioNawfal/status/2084676858512326792#m",
+          "date_utc": "2026-08-04T16:24:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5COGsawAAxH3q.jpg",
+            "https://nitter.net/pic/media%2FHO5CQORawAAezfr.png",
+            "https://nitter.net/pic/media%2FHO5CRHVawAIHBIZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦🇷🇺 A Ukrainian man runs for his life through a market as a drone hunts him down, then explodes nearby The 52-year-old survived with blast injuries, shrapnel wounds, and a concussion. This is the new reality of war? Drones chasing civilians through everyday places? The footage is terrifying. The outlook even more. Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084675730873663988#m",
+          "date_utc": "2026-08-04T16:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4TXMJWgAABUDy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Sen. Booker is NOT happy that AG-nominee Todd Blanche's prospects are looking up, following the announcement of two GOP Sens. voting to advance. \"I hoped for 2 weeks we'd get something... we've done nothing! This man will sail to the floor! This is the judiciary committee! We're supposed to be balancing this nation!\" Better luck next time, Senator. Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2084673214173892750#m",
+          "date_utc": "2026-08-04T16:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084648563120717824%2Fimg%2Flxwirb0tHyCWxnj1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Wall Street just keeps printing new highs. The S&P 500 hit an all-time intraday record this morning, touching 7,700 The driver: over 84% of S&P 500 companies have beaten earnings expectations this quarter, and Big Tech is doing most of the heavy lifting Amazon just crossed $3 trillion in market cap for the first time, with Microsoft, Nvidia, Meta, and Alphabet all posting big gains this week. Oil prices sliding at the same time isn't hurting either. The index is up over 20% from a year ago. Source: TradingView / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2084667020432547862#m",
+          "date_utc": "2026-08-04T15:45:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO45mF3aoAEJpfE.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "😂 Mark Saroufim (@marksaroufim) — https://nitter.net/marksaroufim/status/2084337850305454589#m",
+          "link": "https://nitter.net/MillionInt/status/2084573627538718830#m",
+          "date_utc": "2026-08-04T09:34:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO0OHNJbgAATlCE.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ProfTomYeh",
+          "creator": "@ProfTomYeh",
+          "text": "I implemented Kimi Delta Attention in Excel for this week's special seminar on Kimi 3. RSVP 👉 luma.com/5ylclkn6 Video",
+          "link": "https://nitter.net/ProfTomYeh/status/2084644360302346662#m",
+          "date_utc": "2026-08-04T14:15:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2084644312059457536%2Fpu%2Fimg%2FvNhKV6W8-k3JzLLU.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://luma.com/5ylclkn6",
+              "content": "AI by Hand ✍️ Seminar: Frontier - Kimi 3 · Zoom · Luma Discover Events Sign In Presented by AI by Hand ✍️ Follow Hosted By Prof. Tom Yeh 2,441 Going Vladimir, Hilesh Aswani and 2,439 others Contact the Host Report Event AI AI by Hand ✍️ Seminar: Frontier - Kimi 3 AI by Hand ✍️ Zoom Registration Welcome! To join the event, please register below. Register About Event ​ AI by Hand Seminars by Prof. Tom Yeh ​ I’ll calculate the math and sketch the architectures by hand ✍️. ​ 1. Gemma 4 (Google) : alternating global and local attention, KV-cache, sparse mixture of experts, per layer embedding. ​ 2. Qwen 3.6 (Alibaba, China) : long-context scaling techniques and attention optimizations improving practical context length. ​ 👉 3. Kimi 3 (Moonshot AI) : Kimi Delta Attention, attention residuals, an"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "For our free newsletter this week, we explore the AI experience gap and why human experience may become our greatest competitive advantage. @IrenaCronin and I write this newsletter every week. AI can answer almost any question, but it cannot replace the judgment, context, leadership, creativity, and lived experience that come from real life. As AI takes over knowledge-based tasks, human experience may become one of the most valuable competitive advantages in business and decision-making. Read and subscribe for free at unaligned.io",
+          "link": "https://nitter.net/Scobleizer/status/2084687442821718449#m",
+          "date_utc": "2026-08-04T17:06:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5MLAsboAIvaIt.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 3 hours ago ​​​​​​The AI Experience Gap Why Human Experience May Become Our Greatest Competitive Advantage Robert Scoble, +1 Jul 28, 2026 ​​​​​​AI Is Quietly Creating a New Digital Economy Robert Scoble, +1 Jul 21, 2026 ​​​​​​The AI Economy Is Running Out of Cheap Compute Robert Scoble, +1 Jul 14, 2026 ​​​​​​The Rise of AI Reputation Management Robert Scoble, +1 Jul 07, 2026 ​​​​​​AI Workers Enter the Real Economy The New Uncanny Valley Robert Scoble, +1 Jun 30, 2026 ​​​​​​The AI Productivity Boom Is Becoming an AI Training Problem Robert Scoble, +1 Jun 23, 2026 ​​​​​​The Humanoid Robot Safety Race Robert Scoble, +1 Jun "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Okay, this is interesting. Why should teams have to choose between a model small enough to run locally, a massive context window, and real agentic performance? Pokee-Isaac 28B V0 is built to deliver all three. 10M tokens of usable context. Strong tool use and multi-step execution. Deployable in your VPC, on-premises, or on compatible devices. And it does this with just 28B parameters with $0.15/M input and $1/M output token cost. That’s the part worth paying attention to: long-context AI doesn’t have to mean a gigantic, cloud-only model. @Pokee_AI",
+          "link": "https://nitter.net/Scobleizer/status/2084683644329738432#m",
+          "date_utc": "2026-08-04T16:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5Ia9sWwAAtxNb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Pokee Isaac launches today. Take a look: console.pokee.ai/",
+          "link": "https://nitter.net/Scobleizer/status/2084683646401659205#m",
+          "date_utc": "2026-08-04T16:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://console.pokee.ai/",
+              "content": "Pokee Console Loading page © 2026 Pokee AI Docs Status Terms Privacy pokee.ai Build agents. Keep the context. The first 10M-token context agentic model with frontier performance. Built to run at a fraction of the price, in your cloud, on-prem, or on-device. Try the API Detailed report $0.15 input / million tokens $1.00 output / million tokens Pokee Isaac Model Profile 10M maximum context 28B parameters 93.3 RULER at 10M 1× RTX 4090 Measured by Pokee under a controlled evaluation environment ~5× KV cache / same VRAM Throughput figures are peak results on 1 NVIDIA B100. Deploy across the silicon ecosystem Cloud GPU Edge NPU Measured against what you would otherwise deploy. Every figure produced by Pokee AI on one installation, for Isaac and for each baseline alike, against the cost-optimized"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I’ve been thinking a lot about where AI interfaces go next. The biggest limitation today isn’t the intelligence of models like Claude or ChatGP.... it’s the lack of real-world context they have access to. @vocci_ai is an interesting step toward solving that. A beautifully designed titanium ring that captures the context around you and lets your AI actually understand what’s happening in your world. No more starting every conversation from zero. Just type @vocci_ai inside your favorite AI and bring your real-world context with you. Wear the Context. Loop in Real Life. #Vocci #AIRing vocci.ai/ V",
+          "link": "https://nitter.net/Scobleizer/status/2084637876889747728#m",
+          "date_utc": "2026-08-04T13:49:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084637665572401152%2Fimg%2FvHQuNfuDD9HwX0rt.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://vocci.ai/",
+              "content": "Vocci — Wear the Context, Loop in Real Life Skip to content Your cart is empty Continue shopping Have an account? Log in to check out faster. Your cart Loading... Estimated total $0.00 USD Taxes, discounts and shipping calculated at checkout. Check out Vocci Ring Shop Tech About Us Connect Your AI Country/region United States | USD $ Search Australia AUD $ Austria EUR € Belgium EUR € Bulgaria EUR € Canada CAD $ Croatia EUR € Cyprus EUR € Czechia CZK Kč Denmark DKK kr. Estonia EUR € Finland EUR € France EUR € Germany EUR € Greece EUR € Hungary HUF Ft Ireland EUR € Italy EUR € Japan USD $ Latvia EUR € Lithuania EUR € Luxembourg EUR € Malta EUR € Netherlands EUR € Poland PLN zł Portugal EUR € Romania RON Lei Singapore SGD $ Slovakia EUR € Slovenia EUR € Spain EUR € Sweden SEK kr United Kingdo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Hey @intel , want a shot at relevancy in AI? I know you still have those 5k DC Max 1450 cards. Sell the lot to us for $1M and we'll build $5,000 DeepSeek V4 Flash boxes for the people. Good cultural test for Intel.",
+          "link": "https://nitter.net/__tinygrad__/status/2084669743144014243#m",
+          "date_utc": "2026-08-04T15:56:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "GPUs need a new operating system. We're stuck in this paradigm of launching kernels when really we have 256 independent processors with various synchronization and communication primitives.",
+          "link": "https://nitter.net/__tinygrad__/status/2084659312740430239#m",
+          "date_utc": "2026-08-04T15:14:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯 Victor Ferry Business & News PhD (@mrvicfer) Prise de parole très inquiétante de Laurent Nunez. Sur LCI, il invite à censurer les images de Ceuta car \"elles visent à déstabiliser les pays européens\". Ce qui déstabilise les pays européens, c'est l'absence de frontières hermétiques. Pas ceux qui font remonter les réalités à des citoyens abreuvés de propagande par des médias subventionnés. Soyez vigilants, nous sommes en train de changer d'époque. — https://nitter.net/mrvicfer/status/2084678827582656691#m",
+          "link": "https://nitter.net/brivael/status/2084693903274307769#m",
+          "date_utc": "2026-08-04T17:32:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5ETpkWgAEHxO9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "INTERMINABLE Jon De Lorraine (@jon_delorraine) QUELLE FIN DE REGNE INTERMINABLE. Video — https://nitter.net/jon_delorraine/status/2084676719970054487#m",
+          "link": "https://nitter.net/brivael/status/2084693843119657471#m",
+          "date_utc": "2026-08-04T17:31:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO47ethWMAAk-lU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Leur fin est proche. À trop pousser le bouchon. Ils vont juste accélérer la prise de conscience. Comme le disait Napoléon : « Ne jamais interrompre un ennemi qui est en train de faire une erreur. » C’est exactement ce qui se passe. La propagande totale des médias subventionnés ne tient jamais longtemps. Elle accélère toujours la chute de ceux qui l’utilisent. On l’a vu avec la Pravda en URSS, avec la presse de Vichy, avec les médias officiels de toutes les dictatures soft ou hard : plus ils forcent le récit, plus le décalage avec la réalité devient évident, plus la confiance s’effondre, plus l",
+          "link": "https://nitter.net/brivael/status/2084691654016106820#m",
+          "date_utc": "2026-08-04T17:23:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯 Eric Zemmour (@ZemmourEric) Le réel est une ingérence étrangère, désormais. Il faut censurer le réel, monsieur Nuñez. — https://nitter.net/ZemmourEric/status/2084681808520601626#m",
+          "link": "https://nitter.net/brivael/status/2084689990257119480#m",
+          "date_utc": "2026-08-04T17:16:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est ton droit de vouloir cheat au jeu de la lui. C’est mon droit de le mettre en lumière :) AbriCoCotier (@AbriCoCotier) Et ben je ne suis pas d’accord. Je vois le loto comme une petite dose de rêve, d’espoir, que les gens s’octroient à chaque fois qu’ils font une grille. En gros : c’est pas le fait de gagner et ce qui se passe après qui compte, c’est le fait de rêver à la possibilité de gagner.. Et donc, tout ce qui se passe pour ceux qui ont gagné, n’a pas d’importance. En fait, ce qu’il se passe pour ceux qui ont gagné, relève de l’exception, ou de la chance. L’important du loto, c’est qu",
+          "link": "https://nitter.net/brivael/status/2084689792088821913#m",
+          "date_utc": "2026-08-04T17:15:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Back to basic. Chill time.",
+          "link": "https://nitter.net/brivael/status/2084685813929918555#m",
+          "date_utc": "2026-08-04T17:00:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5KskiXoAA7xDy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mon dieu. Il est vraiment temps de purger les socialistes décérébrés. 😂😂😂 On est le zimbabwé dans 10 ans avec ces peintres. French Response (@FrenchResponse) AI isn’t Pokémon. What matters is not how many you have, but how well they serve people, their rights and their freedoms. — https://nitter.net/FrenchResponse/status/2084643714811543656#m",
+          "link": "https://nitter.net/brivael/status/2084684912855019902#m",
+          "date_utc": "2026-08-04T16:56:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Une idée farfelue. 😂 GRM (@grm_off) Le Grand Remplacemebt n'existe pas. — https://nitter.net/grm_off/status/2084676741511958729#m",
+          "link": "https://nitter.net/brivael/status/2084680116567748629#m",
+          "date_utc": "2026-08-04T16:37:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La narrative portée par les médias en France sur le fait que Trump sera un idiot est similaire au traitement médiatique de Elon Musk. Ils ne sont pas sur la ligne globaliste. Donc ils doivent être diabolisés. Toute cette arnaque sera un jour mise en lumière. Pour tout le monde. Juste une question de temps. Antonin Ferreira Roche (@Antonin_FR_) Tout le monde en Europe prend cet homme pour un idiot, mais les véritables experts savent pourtant qu’il a raison : immigration de masse et dépendance énergétique sont les deux mamelles de la soumission de l’Europe à l’étranger. — https://nitter.net/Anto",
+          "link": "https://nitter.net/brivael/status/2084678286584533139#m",
+          "date_utc": "2026-08-04T16:30:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ok. Interview payante : aucun problème, c’est du business, ils peuvent encore monter ses prix, c’est pas cher. Que le pley soit un dictateur : les gens ont un contrat, ils peuvent partir. Par expérience, tous ceux qui sont dans ces positions sont souvent des collaborateurs qui n’étaient pas très bons et qui ne supportent pas l’intensité. Une boîte qui tourne bien, c’est toujours avec un CEO très directif qui a une vision, les pleurnicheries ça suffit, la création de valeur c’est dur et lui il faut transpirer un peu, arrête de vous plaindre. Plainte sur mineur : pas de tribunal médiatique sur c",
+          "link": "https://nitter.net/brivael/status/2084676719542178139#m",
+          "date_utc": "2026-08-04T16:23:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Good way to make money online. Yann (@Yannlce) How to make your Ecom ads like this: (For this one, you have the prompt below) Otherwise: - Download the ad your trying to copy. - Ask your Claude Code to extract the exact structure of the transcript and a few frames. - Give him your product image and tell him to adapt the script to your brand. - Then ask for a video prompt for Seedance 2.0 to remake that video with the same structure but talking about your product. - Take the prompt he gives you. Go to any model furnisher to use Seedance 2.0 (FAL, Argil, Replicate) and input your prompt + your p",
+          "link": "https://nitter.net/brivael/status/2084674015734456323#m",
+          "date_utc": "2026-08-04T16:13:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "The best way to protect wealth is not by quitting and making a world a better place for humans by creation process and not capture. Kekius Invictus (@kekius9) Most billionaires protect their wealth. Musk is the rare one spending his trying to change the species' trajectory. Video — https://nitter.net/kekius9/status/2084562699640623148#m",
+          "link": "https://nitter.net/brivael/status/2084673100839367157#m",
+          "date_utc": "2026-08-04T16:09:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F1902306021953171459%2Fpu%2Fimg%2FXXZV3pa3TcIVyO4S.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "This is obvious. Peter H. Diamandis, MD (@PeterDiamandis) Article Why SpaceX Will Be the First $10 Trillion Company I’ll be on CNN this afternoon (8/4) and CNBC tomorrow (8/5), commenting on the expected SpaceX earnings report, their first as a public company following the IPO. As you might expect, I’m very bullish — https://nitter.net/PeterDiamandis/status/2084645799942582360#m",
+          "link": "https://nitter.net/brivael/status/2084672801747689605#m",
+          "date_utc": "2026-08-04T16:08:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4lyshWAAAuzx8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🔥🕺🏻🚀🚀 Elon Musk (@elonmusk) 🚀🚀 — https://nitter.net/elonmusk/status/2084669448376480185#m",
+          "link": "https://nitter.net/brivael/status/2084672711826010186#m",
+          "date_utc": "2026-08-04T16:08:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯 Olivier Babeau (@OlivierBabeau) « La Nouvelle Ferme des animaux », Manitoba Les Belles Lettres, 2016 L’essentiel en 10 tweets : — https://nitter.net/OlivierBabeau/status/2084627639944315302#m",
+          "link": "https://nitter.net/brivael/status/2084672567730733291#m",
+          "date_utc": "2026-08-04T16:07:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4VydMW4AAGEcu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😍😍😍 Arthur MacWaters (@ArthurMacwaters) Sufficiently advanced engineering is indistinguishable from art — https://nitter.net/ArthurMacwaters/status/2082702810739781801#m",
+          "link": "https://nitter.net/brivael/status/2084672236250665085#m",
+          "date_utc": "2026-08-04T16:06:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHOc_KuTWMAAP0qC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "So beautiful Arthur MacWaters (@ArthurMacwaters) Sufficiently advanced engineering is indistinguishable from art — https://nitter.net/ArthurMacwaters/status/2084491536289694178#m",
+          "link": "https://nitter.net/brivael/status/2084672171943539197#m",
+          "date_utc": "2026-08-04T16:05:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO2aAXQaAAAeU-r.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui, les vrais facho aujourd’hui sont à l’extrême gauche. Emma Fourreau et son émission “Un jour un facho” incarnent ça parfaitement. Ils ont en train d’essayer de rejouer la partition et les méthodes du 20ème. Ils n’ont pas compris que les gens réellement intelligents ont compris leur petit jeu. Les fachos sont chez LFI, l’extrême droite n’existe pas en France. Arthur Cottrel (@ArthurCottrel) Lire à ce sujet cet article du Figaro: « Fasciser l’adversaire, histoire d’une arme rhétorique inventée par le Parti communiste de l’époque stalinienne » La méthode consistant à faire passer l’adversaire",
+          "link": "https://nitter.net/brivael/status/2084671581855309831#m",
+          "date_utc": "2026-08-04T16:03:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4815GXkAAx7ZB.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.lefigaro.fr/vox/histoire/fasciser-l-adversaire-histoire-d-une-arme-rhetorique-inventee-par-le-parti-communiste-de-l-epoque-stalinienne-20260321",
+              "content": "Fasciser l’adversaire, histoire d’une arme rhétorique inventée par le Parti communiste de l’époque stalinienne Aller au contenu Accueil Se connecter Fermer le panneau Ouvrir le panneau Mon compte Mon compte Mes articles sauvegardés Mes newsletters Mes commentaires S&#039;abonner Aide et contact Se déconnecter Abonnez-vous 0,99€ le premier mois Jacques Duclos, Maurice Thorez et Louis Aragon dans les années Vingt et Trente. Bridgeman Images Accueil Vox Vox Histoire Réservé aux abonnés Fasciser l’adversaire, histoire d’une arme rhétorique inventée par le Parti communiste de l’époque stalinienne GRAND RÉCIT - Pour le PCF des origines, tout ce qui n’était pas lui était fasciste ou fascisant. Le parti n’a atténué son manichéisme qu’à condition de prétendre délivrer des certificats d’antifascisme"
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Ne pas oublier cette folle du bus low IQ qui se gargarise de son caca orwellien, elle l’a senti et elle aime l’odeur. Video",
+          "link": "https://nitter.net/brivael/status/2084670788796379570#m",
+          "date_utc": "2026-08-04T16:00:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069827952611643392%2Fimg%2FMPkCszyaT0WrtO5p.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est une évidence…. Mais les gens intelligents sans sens moral peuvent être très violent via d’autres méthodes. Ne pas confondre gentillesse et intelligence. Ça n’a rien à voir. Le contexte et les incitatifs changent; les effets changent. Je Réinforme (@JeReinforme) Les gens plus intelligents sont en moyenne moins violents. — https://nitter.net/JeReinforme/status/2084615382623473740#m",
+          "link": "https://nitter.net/brivael/status/2084670449741377854#m",
+          "date_utc": "2026-08-04T15:59:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4KiJ-XYAA7tD4.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We're open-sourcing Mixture-of-Kittens (MoK), our MoE training megakernel for NVL72s. It fuses all Mixture-of-Experts communication and computation into a single, fully deterministic kernel, and runs up to 2.37x faster than the strongest public baselines.",
+          "link": "https://nitter.net/cursor_ai/status/2084670806613737919#m",
+          "date_utc": "2026-08-04T16:00:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO47_3aWYAAgDzM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "MoK now powers training across tens of thousands of GPUs at Cursor. In production, it raised end-to-end training throughput by 1.41x over our previous DeepEP-based stack.",
+          "link": "https://nitter.net/cursor_ai/status/2084670808337564034#m",
+          "date_utc": "2026-08-04T16:00:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "Our hope is that this lowers the barrier to AI research, so more labs can train models efficiently. Here's how we built it: cursor.com/blog/mixture-of-k… Link Mixture-of-Kittens: our open-source MoE megakernel for NVL72s · Cursor We re open-sourcing Mixture-of-Kittens, a deterministic MoE training megakernel for NVL72s that fuses communication and computation into a single kernel. cursor.com",
+          "link": "https://nitter.net/cursor_ai/status/2084671209229164810#m",
+          "date_utc": "2026-08-04T16:02:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2084669793320181760%2FU43Gl6sb%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://cursor.com/blog/mixture-of-kittens",
+              "content": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s · Cursor Skip to content Cursor Models Grok Composer Evals Product ↓ Agents Cloud Mobile Automations CLI Marketplace ↗ Review Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Models → Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / research Aug 4, 2026 · research Mixture-of-Kittens: our open-source MoE megakernel for NVL72s We&#x27;re open-sourcing Mixture-of-Kittens, a deterministic MoE training megakernel for NVL72s that fuses communication and computation into a single kernel. Stuart Sul, Nash Brown, Henry Wildermuth, William Lin Federico Cassano · 28 min read Table of Contents ↑ Overlapping computation and communication in MoE Choosing the ri"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "It's so petty that Claude still refuses to look for skills in ~/.agents/skills. Every time I hit this, I deduct 5 goodwill points from the Anthropic account.",
+          "link": "https://nitter.net/dhh/status/2084623526820970543#m",
+          "date_utc": "2026-08-04T12:52:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Yes, of course you can symlink it. The Claude docs even call this out. THAT'S THE INSULT!! They know people want this, do this, and STILL they refuse just to follow the standard. code.claude.com/docs/en/memo… Link How Claude remembers your project - Claude Code Docs Give Claude persistent instructions with CLAUDE.md files, and let Claude accumulate learnings automatically with auto memory. code.claude.com",
+          "link": "https://nitter.net/dhh/status/2084674748823310721#m",
+          "date_utc": "2026-08-04T16:16:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2082389487381004288%2F1mJ9Xanj%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://code.claude.com/docs/en/memory#agents-md",
+              "content": "How Claude remembers your project - Claude Code Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Use Claude Code How Claude remembers your project Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Getting started Overview Quickstart Changelog Core concepts How Claude Code works Extend Claude Code Explore the .claude directory Explore the context window Prompt caching Use Claude Code Store instructions and memories Permission modes Manage sessions Co"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "wow this looks insanely good, open source release of cursor blackwell/nvl72 kernels for MoE with up to ~2x speedup on forward pass (they also have backward) also interesting to see mxfp8 and no nvfp4 here github.com/cursor/mixture-of… Cursor (@cursor_ai) We're open-sourcing Mixture-of-Kittens (MoK), our MoE training megakernel for NVL72s. It fuses all Mixture-of-Experts communication and computation into a single, fully deterministic kernel, and runs up to 2.37x faster than the strongest public baselines. — https://nitter.net/cursor_ai/status/2084670806613737919#m",
+          "link": "https://nitter.net/eliebakouch/status/2084673379563421877#m",
+          "date_utc": "2026-08-04T16:10:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO497bhXgAAiaLQ.jpg",
+            "https://nitter.net/pic/media%2FHO47_3aWYAAgDzM.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/cursor/mixture-of-kittens",
+              "content": "GitHub - cursor/mixture-of-kittens: Mixture-of-experts (MoE) training megakernel for NVL72s · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "most cracked intern Nash Brown (@nash_c_brown) We’ve open-sourced the MoE megakernel we use to train models on NVL72s. A few of my favorite details: bf16 and mxfp8 support, pull-based dispatch, configurable overlap granularity, full determinism, and no CPU-GPU syncs. Read more in our blog and code! — https://nitter.net/nash_c_brown/status/2084675951682830698#m",
+          "link": "https://nitter.net/ellev3n11/status/2084693159247040975#m",
+          "date_utc": "2026-08-04T17:29:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "a kernel adequate for le chaton fat Cursor (@cursor_ai) We're open-sourcing Mixture-of-Kittens (MoK), our MoE training megakernel for NVL72s. It fuses all Mixture-of-Experts communication and computation into a single, fully deterministic kernel, and runs up to 2.37x faster than the strongest public baselines. — https://nitter.net/cursor_ai/status/2084670806613737919#m",
+          "link": "https://nitter.net/ellev3n11/status/2084677936029024478#m",
+          "date_utc": "2026-08-04T16:28:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO47_3aWYAAgDzM.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Check it out! Pulp Time (@pulptimetv) New Movie Tuesday Here's what's new on pulptime.com for the week of August 4th. FEATURES Ojai (2026) * directed by David Austin Thompson Teenage Emotions (2021) * directed by Frédéric Da — https://nitter.net/pulptimetv/status/2084665146581094538#m",
+          "link": "https://nitter.net/heavypulp/status/2084665841715482951#m",
+          "date_utc": "2026-08-04T15:40:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO43jeMbcAEL8H1.jpg",
+            "https://nitter.net/pic/media%2FHO43k0RakAAE1tW.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://pulptime.com",
+              "content": "Pulp Time Pulp Time Home Featured Coming Soon Channel Together Membership Become a Member Sign In Home Featured Together Search Sign In Now playing on the channel The Brain That Wouldn&#x27;t Die A surgeon&#x27;s impossible experiment becomes a grisly race for a new body. Directed by Joseph Green 1962 Live rotation Watch Channel More Info Featured watch party Aug 6, 2026, 4:00 PM UTC A Horror Comedy that Spawned a Sensation The Little Shop of Horrors (1960) · Roger and Gala sit down to watch Roger Corman&#x27;s The Little Shop of Horrors. Seymour finds a blood sucking plant that can grant any wish ... as long as he keeps on feeding it. The movie that would go on… Request a place Membership Watch together. Talk live. Keep the commentary. From the always-on Channel to private movie nights, P"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "kilocode",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "Kilo Code's JetBrains plugin is built on JetBrains' split mode API. Your UI stays local. Indexing, terminal, and file access run wherever your code lives. One plugin, local or remote. Read more in the blog post👇️",
+          "link": "https://nitter.net/kilocode/status/2084670518595113246#m",
+          "date_utc": "2026-08-04T15:59:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO48yeTWQAA1rtz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "kilocode",
+          "creator": "@kilocode",
+          "text": "blog.kilo.ai/p/kilo-codes-je… Link Kilo Code’s JetBrains plugin was built for split mode from day one A native Kotlin plugin split across frontend and backend modules, so the UI stays local while indexing and execution run wherever your code lives. blog.kilo.ai",
+          "link": "https://nitter.net/kilocode/status/2084670520692183081#m",
+          "date_utc": "2026-08-04T15:59:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2084670521317158913%2FPCFxScO8%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://blog.kilo.ai/p/kilo-codes-jetbrains-plugin-was-built",
+              "content": "Kilo Code’s JetBrains plugin was built for split mode from day one Kilo Blog Subscribe Sign in Kilo Code’s JetBrains plugin was built for split mode from day one A native Kotlin plugin split across frontend and backend modules, so the UI stays local while indexing and execution run wherever your code lives. Arkadiy Kondrashov Aug 04, 2026 3 Share The Kilo Code plugin for JetBrains IDEs is native. Not a webview, not a VS Code extension in a JetBrains frame. It’s built on the IntelliJ platform, and specifically on JetBrains’ split mode API, which means it works properly when your IDE backend runs on a different machine than your UI. That second part is the design decision worth explaining, because most AI coding tools in JetBrains handle it differently. What split mode actually is Split mode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "minchoi",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "minchoi",
+          "creator": "@minchoi",
+          "text": "Code repo: github.com/slvDev/esp32-ai Link GitHub - slvDev/esp32-ai Contribute to slvDev/esp32-ai development by creating an account on GitHub. github.com",
+          "link": "https://nitter.net/minchoi/status/2084659194217599433#m",
+          "date_utc": "2026-08-04T15:14:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2083076975178956800%2FuwPhko4m%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/slvDev/esp32-ai",
+              "content": "GitHub - slvDev/esp32-ai · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mlevchin",
+          "creator": "@mlevchin",
+          "text": "Is it just me, or is \"load-bearing\" the next telltale em dash?",
+          "link": "https://nitter.net/mlevchin/status/2084349822967103918#m",
+          "date_utc": "2026-08-03T18:44:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Hilariously disappointing to watch the timeline obliviously glazing OAI PR narrative lol",
+          "link": "https://nitter.net/ns123abc/status/2084681352675303794#m",
+          "date_utc": "2026-08-04T16:42:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "THIS BLOG POST IS THOROUGHLY DECEPTIVE OpenAI Newsroom (@OpenAINewsroom) Apple is getting this wrong. openai.com/index/apple-is-ge… Link Apple is getting this wrong OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened. openai.com — https://nitter.net/OpenAINewsroom/status/2084515811306443093#m",
+          "link": "https://nitter.net/ns123abc/status/2084676711606632825#m",
+          "date_utc": "2026-08-04T16:23:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO5BxEKWQAAU3pi.jpg",
+            "https://nitter.net/pic/card_img%2F2084512787569471488%2Fb5r9L8ow%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://openai.com/index/apple-is-getting-this-wrong/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 BREAKING: Apple filed for a PRELIMINARY INJUNCTION against OpenAI AND asked a federal judge to put them under forensic supervision \"Apple respectfully moves the Court for a preliminary injunction to stop THE THEFT OF ITS TRADE SECRETS\" Apple filed NINE sworn declarations, a 28-page memorandum and a concurrent motion for expedited discovery What Apple now says, under oath: Chang Liu: 8 years at Apple, now OpenAI \"Member of Technical Staff\" exploited an authentication bug to steal Apple trade secrets \"on AT LEAST FIVE SEPARATE OCCASIONS\" from February to April 2026, WHILE working for OpenAI Li",
+          "link": "https://nitter.net/ns123abc/status/2084612001221820529#m",
+          "date_utc": "2026-08-04T12:06:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4FaCPXUAAypf9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Truth 💣 dropping soon… NIK (@ns123abc) I spent all night figuring out Apple v. OpenAI lawsuit and the actual story is more serious than what mainstream has figured so far. Full investigative report INCOMING — https://nitter.net/ns123abc/status/2076404792121835608#m",
+          "link": "https://nitter.net/ns123abc/status/2084590955999494347#m",
+          "date_utc": "2026-08-04T10:43:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Meet Alpamayo 2 Super, now commercially available for robotaxis and autonomous vehicles. Built for complex real-world driving, this open reasoning model adds 360° awareness, high-level driving decisions and automated reasoning labels. We built it, so you can build on it. Video",
+          "link": "https://nitter.net/nvidia/status/2084663782018543841#m",
+          "date_utc": "2026-08-04T15:32:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2084663739400249344%2Fimg%2Fa6nr2wG7pHM3K_sF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Read the blog → nvda.ws/4pRK2bU Link NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now... Open commercial licensing, benchmark‑leading reasoning and inspectable decisions bring autonomous vehicles, including robotaxis, closer to production and widescale deployment. blogs.nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2084663783364972732#m",
+          "date_utc": "2026-08-04T15:32:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2084663822636154880%2FYe4VVwwu%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4pRK2bU",
+              "content": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use | NVIDIA Blog Skip to content NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use Open commercial licensing, benchmark‑leading reasoning and inspectable decisions bring autonomous vehicles, including robotaxis, closer to production and widescale deployment. August 4, 2026 by Jessica Soares 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just"
+            }
+          ]
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Security is strongest when organizations collaborate openly and move quickly. Now over 120 members strong, the Open Secure AI Alliance is sharing new open source security contributions, including new proposed SAFE guidelines, for turning confidential incident findings into stronger protection across the ecosystem.",
+          "link": "https://nitter.net/nvidia/status/2084625868173820144#m",
+          "date_utc": "2026-08-04T13:01:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4ULddXcAArJtL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn more about the latest open source contributions from the newest members: @Akamai , @Amazon , @CapitalOne , @Cisco , @Cloudflare , @Cognition , @Crowdstrike , @LangChain , @Microsoft , @Okta , @PaloAltoNtwks , @perplexity_ai , @RedHat , @Uber , @Veeam , @Visa , @Wiz_io and other Alliance members. ➡️ nvda.ws/4hhQ57r Link AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las... blog",
+          "link": "https://nitter.net/nvidia/status/2084625871151779949#m",
+          "date_utc": "2026-08-04T13:01:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2084625875127930880%2Fxuu8-sml%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/4hhQ57r",
+              "content": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency | NVIDIA Blog Skip to content AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency Linux Foundation publishing Request for Comments on Shared AI Findings Exchange (SAFE) guidelines to transform agentic cybersecurity incidents into better protection. August 4, 2026 by Justin Boitano 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines designed to turn agen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "I think the fact that Hasan Piker has a head like Bob in Beetlejuice explains a lot about how he has the dumbest ideas in the history of the planet. Charles R Downs (@TheCharlesDowns) Hasan Piker ( @hasanthehun ) and Abdul El-Sayed ( @AbdulElSayed ) just had a conversation about how “white bros” are supporting them, before going on a rant about how all white bros do is make bets on Kalshi, be mean to the women in their lives, and sit in their basements all day. Clearly, the Islamic Communists who now control the Democrat Party hate white men. Remember this in November. Video — https://nitter.n",
+          "link": "https://nitter.net/spencerpratt/status/2084671996890157101#m",
+          "date_utc": "2026-08-04T16:05:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4-IlgXcAAmFVO.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2084351091227901952%2Fimg%2Fi7XTD0goEqslgVaA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Gavin Newsom could tell his dimwit AG Bonehead Bob Bonta to settle the lawsuit with Palisades Fire victims TODAY. His State Park let us burn, they will lose in court, but he's wasting your tax dollars to fight us while he jetsets around the globe campaigning for President. Ashley Zavala (@ZavalaA) Gov. Newsom's spokesperson: “Donald Trump is coming to Los Angeles to raise money while wildfire survivors are still waiting for the federal recovery funding he promised 18 months ago. Californians deserve a President focused on helping families rebuild — not raising money for himself at his golf cou",
+          "link": "https://nitter.net/spencerpratt/status/2084670856899277154#m",
+          "date_utc": "2026-08-04T16:00:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "A good reminder that “unprecedented” is a myth. Wildfire is a permanent fact of life in the west, so adapt, prepare, and overcome. Melissa Luck ☘ (@MelissaKXLY4) Spokane is dealing with historic fire damage. 137 years ago today was another historic fire. August 4, 1889, a fire sparked on Railroad Alley. Within hours, it destroyed 32 city blocks. There's a marker about it on Lincoln, just south of the Davenport Hotel. — https://nitter.net/MelissaKXLY4/status/2084654301314695525#m",
+          "link": "https://nitter.net/spencerpratt/status/2084666569938862304#m",
+          "date_utc": "2026-08-04T15:43:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4uB_zasAAztgs.jpg",
+            "https://nitter.net/pic/media%2FHO4uB_wa0AAkTt6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Defend the USA. Destroy the DSA.",
+          "link": "https://nitter.net/spencerpratt/status/2084662736907038910#m",
+          "date_utc": "2026-08-04T15:28:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Kudos to Stelter for posting this Ellison Op-Ed. It's worth reading. \"making more [content] is the whole point of the company we are building\". THIS is the key point everyone's been missing. Why do the haters think Paramount would want to reduce content? That's their only product. Ellison is a filmmaker. He's not just some corporate bean-counter running the studio. He started as an actor, and he's EP'd some of the biggest movies for years: World War Z, Mission Impossible series, Top Gun...we actually need more ambitious filmmakers running these companies instead of the MBA class and woke activ",
+          "link": "https://nitter.net/spencerpratt/status/2084662252485902490#m",
+          "date_utc": "2026-08-04T15:26:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4yJphXMAEgf_5.png",
+            "https://nitter.net/pic/card_img%2F2084568330732548096%2FyIQnHzs3%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.nytimes.com/2026/08/04/opinion/david-ellison-paramount-warner-deal.html",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Got me🤣 @jason (@Jason) Please add a .69 and 4.20 button to everyone tweet @elonmusk so we can on click send X Money instead of likes!!! I’m an X Money terrorist — https://nitter.net/Jason/status/2084620301761974515#m",
+          "link": "https://nitter.net/stepango/status/2084690854686646426#m",
+          "date_utc": "2026-08-04T17:20:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO4PHebW4AANfyi.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
