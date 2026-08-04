@@ -1,0 +1,21 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-08-04T03:36:28.756170+00:00
+title: Don't be a meat proxy
+url: https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything
+published: 2026-08-03
+---
+
+# Don't be a meat proxy
+
+<p><strong><a href="https://gruhn.me/blog/2026-08-03/">Don&#x27;t be a meat proxy</a></strong></p>
+Niklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p>
+<blockquote>
+<p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.</p>
+</blockquote>
+
+    <p><small></small>Via <a href="https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls">Lobste.rs</a></small></p>
+
+
+    <p>Tags: <a href="https://simonwillison.net/tags/definitions">definitions</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai-misuse">ai-misuse</a></p>
