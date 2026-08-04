@@ -2,7 +2,7 @@
 
 **Source:** Kurate weekly cs.LG leaderboard #2, ai_rating 6.0/10 · [arXiv 2607.28026](https://arxiv.org/abs/2607.28026) · published 2026-07-30 · raw: [`raw/kurate/2026-08-04-cs-lg.md`](../../raw/kurate/2026-08-04-cs-lg.md)
 
-**Authors:** Xingjian Wu, Junlin Liu, Xingchen Liu, Xuhang Zhu, Jianing Wang, Linsen Guo (corresponding), Xiaoyu Li, Xuezhi Cao, Xunliang Cai — all **Meituan**
+**Authors:** Xingjian Wu, Junlin Liu, Xingchen Liu, Xuhang Zhu, Jianing Wang, Linsen Guo (corresponding), Xiaoyu Li, Xuezhi Cao, Xunliang Cai, all **Meituan**
 
 **Not on HuggingFace Daily Papers.**
 
