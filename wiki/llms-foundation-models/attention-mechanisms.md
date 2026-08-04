@@ -92,12 +92,17 @@ Cross-cutting — optimizer is not separable from architecture:
 
 ## Open problems
 
-- **Does the local-linear advantage survive scale and long-context retrieval?** Parallax tops out at 1.7B and reports no needle-in-haystack / RULER numbers; in-context retrieval is exactly where linear-attention substitutes historically collapse.
+- **Does the local-linear advantage survive scale and long-context retrieval?** Parallax tops out at 1.7B and reports no needle-in-haystack / RULER numbers; in-context retrieval is exactly where linear-attention substitutes historically collapse. **Raven (08-04) is the first paper to attack this as its primary target**, arguing the collapse is a write-policy artifact, but it too reports no RULER numbers and no scale.
 - **Why does Muon unlock these architectures?** The codesign effect is empirical; no mechanistic account links Muon's update geometry to the local-linear estimator or to rare-token rank.
 - **Do recurrent-rule (MDN) and estimator-order (Parallax) gains compose?** Nobody has combined a momentum delta-rule with a local-linear read.
+- **Do write-sparsity (Raven) and recurrent-rule (MDN) gains compose?** Raven decides *which* slots to write, MDN decides *how* a write moves. Second uncombined pair on this page, added 08-04.
+- **Does a slot-structured state solve the prefix-caching problem?** KDA's monolithic dense state has to be checkpointed on a fixed 32K schedule because it is not addressable. Raven's slots are addressable and mostly untouched per step, which makes differential checkpointing conceivable. Nobody has connected the two papers.
+- **Does sparse write help or hurt Large-Window Laziness in hybrids?** The 06-17 mechanism study found retrieval lives in the full-attention layers and a *bigger* cheap window delays retrieval-head formation because the cheap layers cover for them. If an efficient layer can itself carry high recall, does retrieval work shift back into it, and does that reintroduce laziness?
 
 ## Related pages
 
 - [KV cache](../inference-efficiency/kv-cache.md)
 - [MoE-muP scale-stable parameterization](../ai-routing/2026-05-17-moe-mup-maximally-scale-stable-parameterization.md)
 - [RL for LLMs](rl-for-llms.md)
+- [Raven: sparse memory routing](2026-08-04-raven-sparse-memory-routing.md)
+- [SemiAnalysis Kimi K3 architecture primer](2026-08-04-semianalysis-kimi-k3-architecture-primer.md)
