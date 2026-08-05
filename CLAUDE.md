@@ -700,8 +700,8 @@ Omit any section that has nothing substantive that day. Empty sections are worse
 
 ### Cluster rules
 
-- **Cross-source preferred.** A "cluster" is at least 2 items, ideally from different sources (tweet + video + Reddit). Solo items can go in a cluster if they're substantive; otherwise they belong in Industry & Business as a one-liner or are dropped.
-- **Bullets, never prose paragraphs.** 3-5 bullets per cluster, ≤15 words each. The reader should consume a cluster in 10-15 seconds of scroll, not read a paragraph.
+- **Cross-source preferred.** A "cluster" is at least 2 items, ideally from different sources (saved X post + its linked paper/repo + video + Reddit). Solo items can go in a cluster if they're substantive; otherwise they belong in Industry & Business as a compact item or are dropped.
+- **Compact-explanatory bullets, not bare pointers and not prose paragraphs.** 3-5 bullets per cluster, each a short sentence or two (~20-40 words) that explains the item and names its optimization angle. Lighter than the wiki digest, heavier than a one-liner. The reader should finish a cluster understanding what it is and why it matters, in ~30 seconds.
 - **YouTube thumbnails wrapped in `<div class="mz-thumbs">`.** This centers them on the page. Use `[![alt](https://i.ytimg.com/vi/<id>/hqdefault.jpg)](https://youtube.com/watch?v=<id>)` inside the wrapper.
 - **Link rows wrapped in `<div class="mz-links">`.** Centers the link strip below the thumbnail. Use `·` separators.
 - **Tweet links go to x.com,** not nitter (convert nitter→x.com in the link).
