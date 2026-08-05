@@ -655,11 +655,11 @@ The Media Zone synthesis is written by the morning cron in the same Claude call 
 
 ### [Cluster name — what unifies the items]
 
-- Crisp bullet: the key claim of the cluster (≤15 words)
-- Crisp bullet: a specific number, quote, or detail
-- Crisp bullet: cross-source confirmation or pushback
-- (optional) Crisp bullet: a practical gotcha or open question
-- 3-5 bullets max per cluster.
+- Compact bullet (~20-40 words): the key claim of the cluster PLUS its optimization angle (cost / influence / token) and one line of why-it-matters.
+- Compact bullet: a specific number, quote, or detail from the saved post or its linked reference.
+- Compact bullet: cross-source confirmation or pushback.
+- (optional) Compact bullet: a practical gotcha or open question.
+- 3-5 bullets max per cluster. Brief explanation, not a headline; still lighter than the wiki.
 
 <div class="mz-thumbs">
 
