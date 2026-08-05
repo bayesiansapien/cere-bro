@@ -1210,3 +1210,18 @@ Second session on 2026-07-30, run against a digest, social-stream synthesis and 
 
 
 ---
+## [2026-08-05] ingest | 25 HuggingFace papers, 26 RSS items, Gmail starred, Twitter morning slot, Kurate cs.AI + cs.LG + rising authors | multi-source
+
+**Sources read.** All six directories checked. HuggingFace farmed 25 papers. RSS came back nearly empty on the first pass and 25 files on a second synchronous run, all published 2026-08-04, heavy on The Information and The Decoder. Gmail carried six starred emails of which three were brokerage notifications and one, AISN #78, was the day's biggest safety story. Twitter morning slot had **zero curated retweets** and 71 AI-feed tweets across 17 handles. Kurate cs.AI and cs.LG leaderboards read in full.
+
+**Reddit farmed empty for the second consecutive day.** All eight subreddit files for both 2026-08-05 and 2026-08-04 contain only their three-line header with no posts. That is 16 consecutive empty files across two days, which is not a quiet-window pattern, it is a connector fault. Worth investigating before the practitioner-signal gap compounds further, since Reddit is the only source in the pipeline that reports what actually runs on consumer hardware.
+
+**No HuggingFace-Kurate overlap today.** Computed programmatically: 25 HF arXiv IDs against 40 Kurate IDs across both boards, intersection empty. So no cross-source-confirmed paper, and the mandatory high-conviction slot goes unfilled. Kurate's boards this week are also heavily weighted to papers published 07-29 through 08-04, while HF's are almost all 08-03 onward, which partly explains the miss.
+
+**Rising authors: no new crossings.** The threshold list is byte-identical to 2026-08-04 (verified by diff on the heading lines), still 46 authors dominated by the biomedical foundation-model cluster. But the 08-04 prediction about **Junlin Liu** resolved affirmative in one day rather than by its 2026-10-01 deadline: PCSD, published today, is his fourth distillation-for-agents paper after CRPO, ClawTrack and MAPD, with the same Meituan group. Logged in Looking Ahead with a narrower follow-up test.
+
+**Written.** Daily digest with nine Deep Dives. Twelve new summary pages across inference-efficiency (5), llms-foundation-models (2), agentic-systems (2), responsible-ai (2), ai-routing (1). Concept pages updated: `knowledge-distillation.md` (privileged-teacher cluster now seven papers with four filtering axes and one dissent; neutral-exchange-channel pattern at eight entries) and `llm-routing.md` (VI-MoLE, and the pairing with Coherent Overlap indicting both the prune signal and the activate signal). Social-stream morning synthesis and Media Zone both written.
+
+**One arXiv ID error caught and fixed.** AURORA-LM was written as 2608.03350 from memory and is actually 2608.02602, corrected before commit after verifying every ID against the farmed frontmatter rather than trusting recall. The general lesson matches the 08-04 note about hand-copied tweet status IDs: any identifier transcribed rather than programmatically extracted needs a verification pass.
+
+---
