@@ -1,6 +1,6 @@
 # AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling
 
-**Source:** HuggingFace Daily Papers · [arXiv 2608.03350](https://arxiv.org/abs/2608.03350) · raw: [`raw/huggingface/2026-08-05-aurora-lm-autoencoding-unified-representation-for-continuous.md`](../../raw/huggingface/2026-08-05-aurora-lm-autoencoding-unified-representation-for-continuous.md)
+**Source:** HuggingFace Daily Papers · [arXiv 2608.02602](https://arxiv.org/abs/2608.02602) · raw: [`raw/huggingface/2026-08-05-aurora-lm-autoencoding-unified-representation-for-continuous.md`](../../raw/huggingface/2026-08-05-aurora-lm-autoencoding-unified-representation-for-continuous.md)
 
 ## TL;DR
 
