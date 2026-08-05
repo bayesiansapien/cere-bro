@@ -15618,5 +15618,705 @@
     ],
     "first_seen": "2026-W32",
     "last_seen": "2026-W32"
+  },
+  "Chunyang Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.03733v1",
+        "title": "Failure-Informed Image Self-Augmentation for Multimodal Large Language Model Self-Improvement",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Pingping Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.03733v1",
+        "title": "Failure-Informed Image Self-Augmentation for Multimodal Large Language Model Self-Improvement",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yuzhi Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.03733v1",
+        "title": "Failure-Informed Image Self-Augmentation for Multimodal Large Language Model Self-Improvement",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Wenao Ma": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.03733v1",
+        "title": "Failure-Informed Image Self-Augmentation for Multimodal Large Language Model Self-Improvement",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zhijian Hou": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.03733v1",
+        "title": "Failure-Informed Image Self-Augmentation for Multimodal Large Language Model Self-Improvement",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Mengyang Wu": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.03733v1",
+        "title": "Failure-Informed Image Self-Augmentation for Multimodal Large Language Model Self-Improvement",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Shuai Shao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.02276v1",
+        "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Kangning Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.02276v1",
+        "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Qingyao Li": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.02276v1",
+        "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Shijian Wang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.02276v1",
+        "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Hao Wang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.02276v1",
+        "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Wenxiang Jiao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.02276v1",
+        "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Gupta Lovi Raj": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.03531v1",
+        "title": "Behaviorally Adaptive Visual Diversion for Inclusive and Resilient Digital Assessment Delivery",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "kaur Kamalpreet": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.03531v1",
+        "title": "Behaviorally Adaptive Visual Diversion for Inclusive and Resilient Digital Assessment Delivery",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dama Sriram": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.03531v1",
+        "title": "Behaviorally Adaptive Visual Diversion for Inclusive and Resilient Digital Assessment Delivery",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Parali Prajithaa": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.03531v1",
+        "title": "Behaviorally Adaptive Visual Diversion for Inclusive and Resilient Digital Assessment Delivery",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Nicole Mitchell": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.02491v1",
+        "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dhruv Agarwal": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.02491v1",
+        "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Maty Bohacek": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.02491v1",
+        "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Remi Denton": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.02491v1",
+        "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Roma Patel": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.02491v1",
+        "title": "Long-term Measurements: Towards a Longitudinal Understanding of Human-AI Interactions",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Sebastián Andrés Cajas Ordóñez": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.03744v1",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Agastya Munnangi": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.03744v1",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Aldo Marzullo": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.03744v1",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Felipe Ocampo Osorio": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.03744v1",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Quang Bui": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.03744v1",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Mohammad Shahin": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.03744v1",
+        "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Mobina Kashaniyan": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.03961v1",
+        "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Ali Jannesari": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.03961v1",
+        "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yinuo Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.03632v1",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Yongjie Ye": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.03632v1",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Zhou Tao": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.03632v1",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Xiang Zhuang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.03632v1",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Qiang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.03632v1",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Huajun Chen": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.03632v1",
+        "title": "When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Tom Saliencro": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.02528v1",
+        "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Rohan Desai": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.02528v1",
+        "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Priya Nair": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.02528v1",
+        "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Maya Lindqvist": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.02528v1",
+        "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Daniel Whitmore": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.02528v1",
+        "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Amin Farajzadeh": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.03852v1",
+        "title": "FedCritic-MIMO: Communication-Efficient Serverless Federated Critic Learning for Massive-MIMO Resource Control in Open and Disaggregated 6G RANs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Melike Erol-Kantarci": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.03852v1",
+        "title": "FedCritic-MIMO: Communication-Efficient Serverless Federated Critic Learning for Massive-MIMO Resource Control in Open and Disaggregated 6G RANs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Junhao Cai": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.02058v1",
+        "title": "SCOPE: Entanglement Frontier Escape for Source-Free Class Unlearning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dohun Kim": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.02058v1",
+        "title": "SCOPE: Entanglement Frontier Escape for Source-Free Class Unlearning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Sung Il Choi": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.02058v1",
+        "title": "SCOPE: Entanglement Frontier Escape for Source-Free Class Unlearning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Juhyun Park": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.02058v1",
+        "title": "SCOPE: Entanglement Frontier Escape for Source-Free Class Unlearning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Chengjun Jin": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.02058v1",
+        "title": "SCOPE: Entanglement Frontier Escape for Source-Free Class Unlearning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Dowon Kim": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.02058v1",
+        "title": "SCOPE: Entanglement Frontier Escape for Source-Free Class Unlearning",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Abdelghani Ghanem": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.02034v1",
+        "title": "Upper-Expectile Multi-Step Q-Learning for Off-Policy Reinforcement Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Mounir Ghogho": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.02034v1",
+        "title": "Upper-Expectile Multi-Step Q-Learning for Off-Policy Reinforcement Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
   }
 }
