@@ -604,11 +604,33 @@ When an arxiv ID appears in BOTH a Twitter retweet AND today's HuggingFace top, 
 
 ## Media Zone
 
-The Media Zone is the daily synthesis of social and video signal — Twitter, YouTube AI/tech, and substantive Reddit threads — rendered as a curated digest, NOT a raw feed of cards. It is the second daily output the morning cron writes alongside the Daily Digest. Locked-in format as of 2026-06-03.
+The Media Zone is the daily synthesis of social and video signal — Twitter, YouTube AI/tech, and substantive Reddit threads — rendered as a curated digest, NOT a raw feed of cards. It is the second daily output the morning cron writes alongside the Daily Digest. Locked-in format as of 2026-06-03. **Sourcing + framing updated 2026-08-05** (X saved posts, optimization lens, compact-explanatory voice).
+
+### Primary X source: the reader's SAVED / BOOKMARKED posts (updated 2026-08-05)
+
+The Media Zone's X content is sourced first and foremost from **Amit's saved (bookmarked) posts on X**, not just the public timeline of AI handles. Amit reads his X feed and saves posts worth keeping; those bookmarks are the curated signal, treated with the same weight as starred Gmail. Rules:
+
+- **Read the saved post AND every link it references.** A bookmark is rarely self-contained: it points to a paper, a repo, a blog, a thread. Follow those links and pull the actual claim, the same way the Twitter farmer already captures up to 10K chars of article content per link. The bookmark is the pointer; the referenced content is the substance.
+- **Saved posts are curated intent.** Amit bookmarked it for a reason. Infer that reason (usually a cost / efficiency / routing / optimization angle per the Reader Profile) and lead the item with it.
+- **Bookmarks supplement, not replace, the existing scrape.** The `@bayesiansapien` curated retweets and the AI-handle feed still feed the Media Zone; saved posts are the new top-priority layer above them.
+
+**Capability note (must respect):** the Twitter farmer currently scrapes Nitter RSS (retweets + AI-handle feed) and can fetch `x.com/i/article/` bodies only when authenticated X session cookies exist at `~/.config/cere-bro/x-cookies.json` (gitignored, chmod 600, user-supplied). Reading the private **bookmarks timeline** likewise requires those cookies (the `/i/bookmarks` endpoint is auth-gated). Until a bookmarks-capture path is wired into `connectors/twitter/farmer.py`, use whatever saved-post content is available (any bookmark URLs Amit drops into the pipeline, cookie-fetched article bodies, curated retweets as the closest proxy) and note in the day's Media Zone if the bookmark feed could not be reached. Do not silently pretend bookmarks were read when they were not.
+
+### The optimization lens (updated 2026-08-05)
+
+Amit is an AI researcher working on **optimization**. Every Media Zone item — and the daily digest's synthesis — should be read and framed through three optimization axes, named explicitly where they apply:
+
+1. **Cost optimization** — how does this reduce resource usage (compute, memory, tokens, dollars, energy, serving cost)? This is the dominant axis; most Tier 1 items have a cost angle.
+2. **Influence optimization** — how does this amplify impact or leverage (a technique that changes many downstream systems, a result that shifts the field, a distribution/adoption play)?
+3. **Token optimization** — keep the narrative itself concise. Say more with fewer tokens; the Media Zone is the lighter, token-efficient read next to the wiki digest.
+
+Lead each cluster or item with the optimization angle that fits. Not every item is all three — name the one(s) that apply. If an item has no optimization angle at all, it probably belongs in the daily digest's Industry Pulse, not the Media Zone.
+
+**Signature line.** Every Media Zone (and the daily digest's opening framing) carries the line **"Some attention to your tears."** as a fixed marker that the read was done through the optimization lens. Place it in the `> ` framing quote at the top.
 
 ### Why this exists
 
-Without synthesis, the Media Zone collapses into a dumping ground of thumbnails and tweet cards. The reader scrolls, gets fatigued, and skips. With synthesis, the reader gets one paragraph naming what mattered on social today, then topic clusters that fuse a tweet, a video, and a Reddit thread into one coherent picture per topic.
+Without synthesis, the Media Zone collapses into a dumping ground of thumbnails and tweet cards. The reader scrolls, gets fatigued, and skips. With synthesis, the reader gets one paragraph naming what mattered on social today, then topic clusters that fuse a saved post, its linked paper/repo, a video, and a Reddit thread into one coherent picture per topic — each framed by its optimization angle.
 
 ### Format: `wiki/media-zone/YYYY-MM/YYYY-MM-DD.md`
 
