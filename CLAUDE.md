@@ -636,7 +636,7 @@ Without synthesis, the Media Zone collapses into a dumping ground of thumbnails 
 
 The Media Zone synthesis is written by the morning cron in the same Claude call as the daily digest. It is a separate file so the Astro site can render it under its own tab.
 
-**Format rule — bullets, not paragraphs.** Media Zone is a feed-style read, not a research-paper read. Each cluster is **3-5 short bullets** (max ~15 words each), NOT a prose paragraph. Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
+**Format rule — compact, but explained (updated 2026-08-05).** Media Zone is a feed-style read, lighter than the wiki digest, but NO LONGER bare one-line pointers. Each cluster is **3-5 compact bullets**, each a short sentence or two (roughly 20-40 words) that briefly explains the item and its optimization angle, so the reader gets context without opening the wiki. Still not full prose paragraphs, and still much lighter than a Deep Dive — think "a knowledgeable friend's two-line note on why this matters," not "a headline." Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
 
 ```markdown
 # Media Zone | YYYY-MM-DD
