@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-08-01T11:35:12.391002+00:00",
+  "following_last_checked": "2026-08-04T16:30:00.762005+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -82,7 +82,9 @@
     "Y3884688657700",
     "SLOTUS",
     "DrPeterMillett",
-    "BernardArnault"
+    "BernardArnault",
+    "umdeclaration",
+    "WNDRCO_JK"
   ],
   "bio_ai_keywords": [
     "AI",

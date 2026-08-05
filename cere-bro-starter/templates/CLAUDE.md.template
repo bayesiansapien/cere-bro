@@ -597,15 +597,25 @@ When an arxiv ID appears in BOTH a Twitter retweet AND today's HuggingFace top, 
 
 The Media Zone is the daily synthesis of social and video signal — Twitter, YouTube AI/tech, and substantive Reddit threads — rendered as a curated digest, NOT a raw feed of cards. It is the second daily output the morning cron writes alongside the Daily Digest. Locked-in format as of 2026-06-03.
 
+### Primary X source: the reader's SAVED / BOOKMARKED posts
+
+Source the Media Zone's X content first from the reader's **saved (bookmarked) posts on X**, treated as curated intent (like starred email), not just the public timeline of followed accounts. Read each saved post AND every link it references (paper/repo/blog/thread) and pull the actual claim from the reference, not just the tweet text.
+
+Capability note: reading the private bookmarks timeline requires authenticated X session cookies at `~/.config/{{WIKI_NAME}}/x-cookies.json` (gitignored, chmod 600, user-supplied); the `/i/bookmarks` endpoint is auth-gated. Until a bookmarks-capture path is wired into the Twitter farmer, use the best available proxy and note in the day's Media Zone if the bookmark feed could not be reached. Never pretend bookmarks were read when they were not.
+
+### Framing lens (customize to your focus)
+
+Frame Media Zone items through the lens of your research focus so the read reflects what you actually work on. Name the angle explicitly on each item. (Example, for an efficiency-focused reader: cost / influence / token optimization.) Optionally add a fixed signature line in the top framing quote to mark that the read was done through your lens.
+
 ### Why this exists
 
-Without synthesis, the Media Zone collapses into a dumping ground of thumbnails and tweet cards. The reader scrolls, gets fatigued, and skips. With synthesis, the reader gets one paragraph naming what mattered on social today, then topic clusters that fuse a tweet, a video, and a Reddit thread into one coherent picture per topic.
+Without synthesis, the Media Zone collapses into a dumping ground of thumbnails and tweet cards. The reader scrolls, gets fatigued, and skips. With synthesis, the reader gets one paragraph naming what mattered on social today, then topic clusters that fuse a saved post, its linked reference, a video, and a Reddit thread into one coherent picture per topic.
 
 ### Format: `wiki/media-zone/YYYY-MM/YYYY-MM-DD.md`
 
 The Media Zone synthesis is written by the morning cron in the same Claude call as the daily digest. It is a separate file so the Astro site can render it under its own tab.
 
-**Format rule — bullets, not paragraphs.** Media Zone is a feed-style read, not a research-paper read. Each cluster is **3-5 short bullets** (max ~15 words each), NOT a prose paragraph. Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
+**Format rule — compact, but explained.** Media Zone is a feed-style read, lighter than the wiki digest, but NOT bare one-line pointers. Each cluster is **3-5 compact bullets**, each a short sentence or two (~20-40 words) that briefly explains the item and its framing angle so the reader gets context without opening the wiki. Not full prose paragraphs, and still much lighter than a Deep Dive. Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
 
 ```markdown
 # Media Zone | YYYY-MM-DD
