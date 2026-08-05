@@ -717,10 +717,11 @@ Omit any section that has nothing substantive that day. Empty sections are worse
 
 ### Voice & length
 
-- 3-5 short bullets per cluster (≤15 words each). Cognitively light. Reader scrolls, skims headers, only stops on clusters they care about.
+- 3-5 compact-explanatory bullets per cluster (~20-40 words each). Lighter than the wiki digest, but with enough context that the reader understands the item without clicking through. Reader scrolls, skims headers, stops on clusters they care about and gets a real (if brief) explanation there.
+- Every item leads with or names its **optimization angle** (cost / influence / token) per the optimization-lens section above.
 - Same clarity rule as the daily digest: every paper or technical term gets a one-clause gloss on first mention.
 - No em dashes (writing rule #1 applies).
-- Total read time target: **2-3 minutes** for the full Media Zone. If it takes longer, the bullets are too long.
+- Total read time target: **3-4 minutes** for the full Media Zone (up from 2-3, given the added brief explanations). Still a lighter read than the wiki digest. If it runs longer than the digest, the bullets have overgrown — trim back toward compact.
 
 ### Cadence
 
