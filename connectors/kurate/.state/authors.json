@@ -16318,5 +16318,103 @@
     ],
     "first_seen": "2026-W32",
     "last_seen": "2026-W32"
+  },
+  "Agatha Duzan": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.04735v1",
+        "title": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Asa Cooper Stickland": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.04735v1",
+        "title": "Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Konrad J. Mueller": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.04832v1",
+        "title": "Robust Control under Stationary Ambiguity",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Amira Akkari": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.04832v1",
+        "title": "Robust Control under Stationary Ambiguity",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Ben Wood": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.04832v1",
+        "title": "Robust Control under Stationary Ambiguity",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Lukas Gonon": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.04832v1",
+        "title": "Robust Control under Stationary Ambiguity",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
+  },
+  "Devender Singh": {
+    "appearances": [
+      {
+        "week": "2026-W32",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.05136v1",
+        "title": "The Loss Does Not See the Basis, but Adam Does",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W32",
+    "last_seen": "2026-W32"
   }
 }
