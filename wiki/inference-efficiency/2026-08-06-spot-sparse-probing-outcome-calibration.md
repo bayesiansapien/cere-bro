@@ -1,7 +1,7 @@
 # SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation
 
 **Source:** [arxiv 2608.04419](https://arxiv.org/abs/2608.04419)
-**Kurate cs.LG #16** (ai_rating 5.5/10, tier 1, published 2026-08-05). **Absent from today's HuggingFace board** — LLM-rated, community-unrated.
+**Kurate cs.LG #16** (ai_rating 5.5/10, tier 1, published 2026-08-05). **Absent from today's HuggingFace board**, so LLM-rated and community-unrated.
 
 ## TL;DR
 

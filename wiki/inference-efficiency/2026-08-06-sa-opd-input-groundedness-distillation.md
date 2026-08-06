@@ -1,7 +1,7 @@
 # SA-OPD: Spurious-Signal-Aware On-Policy Distillation
 
 **Source:** [arxiv 2608.03632](https://arxiv.org/abs/2608.03632) · [HuggingFace](https://huggingface.co/papers/2608.03632) · [raw](../../raw/huggingface/2026-08-06-when-teachers-mislead-spurious-signal-aware-on-policy-distil.md)
-**Also:** Kurate cs.AI #11 (ai_rating 5.5/10, tier 1) — **cross-source confirmed (HF + Kurate)**
+**Also:** Kurate cs.AI #11 (ai_rating 5.5/10, tier 1). **Cross-source confirmed (HF + Kurate)**
 **Authors:** Yinuo Jiang, Yongjie Ye, Zhou Tao, Xiang Zhuang, Qiang Zhang, Huajun Chen, Tiankai Li (Zhejiang University, ByteDance, Shanghai AI Lab)
 
 ## TL;DR

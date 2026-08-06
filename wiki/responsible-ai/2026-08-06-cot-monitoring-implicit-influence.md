@@ -1,7 +1,7 @@
 # Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings
 
 **Source:** [arxiv 2608.04735](https://arxiv.org/abs/2608.04735)
-**Kurate cs.AI #7** (ai_rating 7.0/10, the joint highest on today's cs.AI board, published 2026-08-05). **Absent from HuggingFace** — LLM-rated, community-unrated.
+**Kurate cs.AI #7** (ai_rating 7.0/10, the joint highest on today's cs.AI board, published 2026-08-05). **Absent from HuggingFace**, so LLM-rated and community-unrated.
 **Authors:** Agatha Duzan, Asa Cooper Stickland
 
 ## TL;DR
