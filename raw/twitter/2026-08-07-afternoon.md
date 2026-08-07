@@ -1,5 +1,5 @@
 # Twitter/X Digest | 2026-08-07 | AFTERNOON
-> Scraped 2026-08-07 14:22 IST | Lookback: 24h | 25 tweets | 4 articles
+> Scraped 2026-08-07 15:12 IST | Lookback: 24h | 45 tweets | 4 articles
 
 ---
 
@@ -17,6 +17,161 @@
 > AUSTIN MAN with 15 priors pulled a gun on someone in March, sat on an active warrant, got indicted last week, and is still walking around Austin. He also picked up two police chases while on felony probation. Davon Quinta Justice (no relation) was let go over and over by the prosecutors who dismissed or declined his cases. He’s now wanted by APD.
 
 [View tweet](https://nitter.net/AustinJustice/status/2085367792585560243#m)
+
+---
+
+### @MarioNawfal (Independent)
+*19 AI-relevant tweets*
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 11:00 UTC
+
+> 🇵🇰🇸🇦 Pakistani PM and Army Chief meeting Saudi Crown Prince MBS earlier, ahead of Mecca Pact signing. The talks are part of a multi-day official visit, focused on strengthening strategic ties, economic partnership, and especially defensive cooperation. The Pakistani delegation also performed Umrah during the visit. Umrah is a Islamic pilgrimage to Mecca, often called the “lesser pilgrimage” because, unlike the Hajj, it is not obligatory and can be performed at any time of the year. Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085682367654674694#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:55 UTC
+
+> 🚨🇨🇴 Delegations arrive in Colombia for inauguration of pro-U.S. president-elect Abelardo de la Espriella, replacing a thorn in Trump's side, Gustavo Petro. Among the participating countries: 🇺🇸 U.S. 🇮🇱 Israel 🇦🇷 Argentina 🇵🇾 Paraguay 🇨🇱 Chile 🇧🇷 Brazil Source: Tabz (TG) / Writer: Samuel Video Video Video Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085681343468302776#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:50 UTC
+
+> 🚨🇹🇷🇸🇦🇵🇰 BREAKING: Turkey, Saudi Arabia, and Pakistan are signing their new trilateral defense pact, known as the Mecca Agreement. Its central provision is a collective defense clause. ANY armed attack against one of the three states shall be treated as an attack against them all. The geopolitical ramifications of the Iran war continue, with more and more defense cooperation between U.S. allies no longer willing to fully rely on the U.S. A new era in the Middle East... Source: Reuters / Writer: Michael
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085679919493730469#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:40 UTC
+
+> 🇷🇺🇺🇦 Russian FAB-3000M-54 with UMPK guidance kit hits a crossing in the Zaporizhzhia area of Ukraine. The FAB-3000 is a Soviet-era high-explosive bomb that restarted mass production in Russia in 2024. The UMPK guidance kit turns these 'dumb' bombs into 'smart' (guided) glide bombs, allowing them to be released from a safer distance with improved accuracy. Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085677330387886383#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:37 UTC
+
+> 🇺🇸 Trump says he’s fine putting business in a blind trust, because his kids already run things anyway. A proposed bill, he says, would treat him differently from everyone else on ethics rules. He claims to NEVER discuss government with them, and that their conversations are limited to telling them, "I love you, kids." Trump, Jr. literally has a political podcast, but he doesn't talk to Trump, Sr. about politics/government? 🤔 Writers: Sol, Michael Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085676759828005327#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:30 UTC
+
+> 🚨🇺🇸 Trump says he should be polling at 150% on the economy, not "just" 100%: "We are LITERALLY in the golden age of America." I wonder if most Americans feel it is the "golden age" when they check out at the grocery store... Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085674830880243894#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:24 UTC
+
+> 🇺🇸🇨🇳 Trump says "some people" believe pushback on data centers is being funded by Beijing... He also says any smart governor should be DESPERATE for more data centers. He sees them as a massive new source of income for states, meaning taxes can go way down. "We can't let China beat us at this." Writers: Sol, Michael Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085673435494015289#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:22 UTC
+
+> 🇺🇸🇮🇷 Trump on Iran: "They want to make a deal. Look, it's obvious they don't want to be hit. They want to make a deal. So, we'll see." If everyone wants this deal so much, what's taking so long? Iranian media keeps pushing back on Trump's statements day after day. Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085672800723853596#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:20 UTC
+
+> 🇬🇧🏳️‍⚧️ MP Samantha Niblett, while on vacation, BASHED new UK guidelines mandating single-sex spaces be organized on the basis of biological sex. She called them "clear as mud" and said August 5th was a "sh*t day" (while sitting poolside, presumably). The UK Supreme Court ruled last year that sex-specific spaces CANNOT be organized on the basis of one's "identity," one of the precious few examples of common sense in Britain these days... She also suggested it's part of something patriarchal, and that they are coming "for you, for us" next. Writers: Mhedi, Michael Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085672297491570850#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:17 UTC
+
+> 🚨🇺🇸 Trump asks a CRUCIAL question about his base... Recent polls look strong for him, but he wonders out loud whether these voters will still show up if the name TRUMP is not on the ballot. He says a lot of them are very angry. Not at him, but at "other Republicans." He plans to ask them to vote anyway, but the turnout of that angry base is one thing he cannot control. Writers: Sol, Michael Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085671612729249856#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:12 UTC
+
+> 🚨🇺🇸 Trump says 2028 is EXISTENTIAL for GOP: "If the Democrats get in, I may be the LAST Republican president. If the Senate doesn't get smart, I may be the last Republican president." Trump’s warning: Senate Republicans must scrap the filibuster NOW or risk never winning the White House again. RINOs continue to stand in the way... Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085670525515211091#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:10 UTC
+
+> 🇺🇸 Trump thinks Texas pushing back on data centers is a big mistake... Communities that welcome them get a massive economic boost, and the buildings themselves can be impressive rather than eyesores. He believes the industry is crucial for technology and could eventually outgrow oil in importance for the state. “Data centers could be bigger than oil.” Writer: Sol Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085669781148234126#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:07 UTC
+
+> 🇺🇸🇨🇳 Trump: "We don't want to see China take over crypto. I don't want to see China win with AI. Crypto is a BIG deal. I mean I see it more and more where people are paying with Bitcoin and you know they don't even know about cash anymore. That takes a lot of pressure off our dollar. It's a good thing for our country." China controlling the crypto ecosystem would significantly impact U.S. financial dominance and technology leadership. Trump is VERY smart to be concerned here... Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085669139700392154#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:01 UTC
+
+> 🇺🇸🇨🇳 Trump says AI not just big... it's "YUGE": "Whoever wins AI just WINS... It's that big. It's bigger than the internet by many times. It's going to be bigger than anybody ever thought possible. Not even imaginable how big." How much of this thing with Iran is REALLY about cutting off China's access to the energy it needs to compete in the AI race? 🤔 Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085667560507257341#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 10:00 UTC
+
+> 🇺🇸 Trump's latest business brainwave gets the AI treatment "Truth API: it's not insider trading when the insider sells you the feed." 🤣 Writers: Mhedi, Ian Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085667269460562387#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 09:50 UTC
+
+> 🇪🇺 Imagine the amount of skill you'd develop by driving across 19 European countries for decades. Tesla says that's effectively what FSD Supervised has already done, logging 2.2 million km, and handling some of the most challenging situations with ease. Come on EU, roll out FSD everywhere, not just the Netherlands, Lithuania, Estonia, Denmark, and Belgium. Writer: Ian Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085664747895083506#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 09:40 UTC
+
+> 🇨🇳🇹🇼 Taiwanese troops are running new drills to prepare for a potential Chinese invasion of Taipei, using barriers, barbed wire, and sandbags to simulate close-quarters urban combat. The exercises reflect a growing expectation that any future conflict could be fought street by street rather than just at sea or in the air. Not long ago, preparations like these may have seemed excessive. But after the war with Iran, Taiwan's not counting on the U.S to save it if China invades Writer: Mhedi Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085662230969012254#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 09:39 UTC
+
+> 🇨🇴🇮🇱 Israeli FM Gideon Sa'ar meets with Colombian President-elect Abelardo "El Tigre" de la Espriella at his office in Bogota, ahead of his inauguration. Sa'ar: "The golden era in relations between Colombia and Israel begins today." South America's rightward shift is not just a boon for America, but for Israel as well... Writer: Michael Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085662200492953729#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-07 09:30 UTC
+
+> 🇳🇿 The mayor told Councillor Jo Galer that her laundry could be seen in the city council Zoom call in Dunedin, New Zealand. Jo Galer didn't GAF: "Can you see me? You can see me. You can see my washing. It's no problem." Someone make this woman Prime Minister. 🤣 Writer: Mhedi Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2085659716861214971#m)
 
 ---
 
@@ -83,7 +238,71 @@ Dirty Jobs 2026: The Physical AI Summit. September 23, San Francisco "> ABOUT SP
 ---
 
 ### @brivael (Independent)
-*14 AI-relevant tweets*
+*15 AI-relevant tweets*
+
+**@brivael** (@brivael) · 2026-08-07 10:54 UTC
+
+> Les gauchistes sont tellement déconnectés des réalités que le second degré et leur égo ont quitté la terre depuis longtemps. Ils devront aller sur Mars pour retrouver leur âme 🤣 Bleu Blanc Rouge ! 🇫🇷 (@LBleuBlancRouge) Il a cru que le post d’Elon Musk visant Tondelier était du premier degré 🤣🤣 T’es vraiment toujours à côté de la plaque Corbière. C’est fascinant. @alexiscorbiere — https://nitter.net/LBleuBlancRouge/status/2085676488712466889#m
+
+[View tweet](https://nitter.net/brivael/status/2085680914437206048#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 10:51 UTC
+
+> Oui Le ₿unker 🪖 (@LeBunkerBtc) Les millénials qui crachent sur les boomers ne font que reproduire le logiciel des soixante-huitards : mépriser leurs aînés pour justifier leurs propres échecs. Si t’es un loser, c’est pas la faute des boomers. — https://nitter.net/LeBunkerBtc/status/2085677714665619660#m
+
+[View tweet](https://nitter.net/brivael/status/2085680307190075519#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 10:46 UTC
+
+> 🎯🎯🎯 Video
+
+[View tweet](https://nitter.net/brivael/status/2085678894795927647#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 10:13 UTC
+
+> Cognitive dissonance for socialists 🤣 Elon Musk (@elonmusk) 3000 jobs is just for phase 1 of 10 btw — https://nitter.net/elonmusk/status/2085485172787429783#m
+
+[View tweet](https://nitter.net/brivael/status/2085670767765676372#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 10:11 UTC
+
+> Désolé j'ai oublié thomas guénolé. Brivael Le Pogam (@brivael) Les vrais génies de l'histoire. 108 milliards d'humains ont vécu sur Terre. La liste ci-dessous en contient ~100. Soit environ 1 sur 1 milliard. C'est ça, le « autre chose » que les gens cherchent quand ils refusent d'admettre que Jobs ou Einstein étaient hors-norme. Une conjonction rarissime de cognition + obsession + timing + courage cognitif + santé mentale juste-assez-stable. Critère retenu : saut non-substituable. Sans cet individu précis, la chose n'arrive pas, ou arrive 30 ans plus tard sous une forme dégradée. J'exclus les 
+
+[View tweet](https://nitter.net/brivael/status/2085670070244475148#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 10:10 UTC
+
+> Les vrais génies de l'histoire. 108 milliards d'humains ont vécu sur Terre. La liste ci-dessous en contient ~100. Soit environ 1 sur 1 milliard. Brivael Le Pogam (@brivael) Les vrais génies de l'histoire. 108 milliards d'humains ont vécu sur Terre. La liste ci-dessous en contient ~100. Soit environ 1 sur 1 milliard. C'est ça, le « autre chose » que les gens cherchent quand ils refusent d'admettre que Jobs ou Einstein étaient hors-norme. Une conjonction rarissime de cognition + obsession + timing + courage cognitif + santé mentale juste-assez-stable. Critère retenu : saut non-substituable. Sans
+
+[View tweet](https://nitter.net/brivael/status/2085669927021658430#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 10:09 UTC
+
+> Très important à comprendre : On est dans une société profondément socialiste qui nie l’individu et l’individu exceptionnel. On doit créer une société qui met l’individu au centre de tout. Qui maximise le potentiel exceptionnel de chaque personne. Qui célèbre et respecte le fait que certains vont s’épanouir et s’élever bien plus haut que d’autres. C’est comme ça qu’on crée une société saine. Steve Jobs le disait déjà en 1984, en direct sur France 2 en citant les "champion" qu'on doit prendre comme exemple. C’est majoritairement lié au socialisme intellectuel. Celui qui veut un individu moyen. 
+
+[View tweet](https://nitter.net/brivael/status/2085669766333599780#m)
+
+---
+
+**@brivael** (@brivael) · 2026-08-07 09:06 UTC
+
+> 21 likes. Plus personne ne vous croit !!!! Vous pouvez rendre les armes. Bisous.
+
+[View tweet](https://nitter.net/brivael/status/2085653897373184172#m)
+
+---
 
 **@brivael** (@brivael) · 2026-08-07 08:51 UTC
 
@@ -103,7 +322,7 @@ Dirty Jobs 2026: The Physical AI Summit. September 23, San Francisco "> ABOUT SP
 
 **@brivael** (@brivael) · 2026-08-07 08:44 UTC
 
-> 87% L’ingérence n’existe pas et est un mythe. MANU, PHILLIPE, ATTAL, GLUCKSMANN On vous a vu. On sait, tout le monde sait. Arrêtez vos tentatives de néophyte sous Red Bull. Brivael Le Pogam (@brivael) Est-ce que tu crois vraiment qu’en France il y a la moindre menace d’ingérence russe ? Au vu de l’incompétence structurelle de nos politiques, on n’a même pas besoin d’ennemis extérieurs non ? Le vrai risque est-il Moscou ? Poll 87% — L’ingérence n existe pas. 13% — Poutine est une menace. 360 votes • 21 hours — https://nitter.net/brivael/status/2085608689654739201#m
+> 87% L’ingérence n’existe pas et est un mythe. MANU, PHILLIPE, ATTAL, GLUCKSMANN On vous a vu. On sait, tout le monde sait. Arrêtez vos tentatives de néophyte sous Red Bull. Brivael Le Pogam (@brivael) Est-ce que tu crois vraiment qu’en France il y a la moindre menace d’ingérence russe ? Au vu de l’incompétence structurelle de nos politiques, on n’a même pas besoin d’ennemis extérieurs non ? Le vrai risque est-il Moscou ? Poll 86% — L’ingérence n existe pas. 14% — Poutine est une menace. 498 votes • 19 hours — https://nitter.net/brivael/status/2085608689654739201#m
 
 [View tweet](https://nitter.net/brivael/status/2085648214791786519#m)
 
@@ -140,62 +359,6 @@ Dirty Jobs 2026: The Physical AI Summit. September 23, San Francisco "> ABOUT SP
 > Oui sam altman est un voleur, ses méthodes sont sales. Philippe Prigent (@philippejeanpr1) La façon dont S. Altman et ses complices se sont appropriés OpenAI donc ChatGPT alors qu’E. Musk l’avait financée pour en faire une société ouverte à but non lucratif est un cas d’école de prise de contrôle par des astuces juridiques au détriment des créateurs de valeur. Du point de vue de la technique juridique, c’est indéniablement astucieux et bien exécuté (bien que peut-être pénalement répréhensible), mais il est triste de voir le droit employé à de telles manœuvres. — https://nitter.net/philippejean
 
 [View tweet](https://nitter.net/brivael/status/2085637999186845745#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 07:48 UTC
-
-> 🎯 ThinkerView (@Thinker_View) Il y a un truc qui nous horripile bien plus que la typo : c’est l’injustice. On aurait fait exactement la même chose pour n’importe quel autre candidat, de n’importe quel parti. — https://nitter.net/Thinker_View/status/2085632174334542161#m
-
-[View tweet](https://nitter.net/brivael/status/2085634096881918347#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 07:25 UTC
-
-> 👇 Sarah Knafo (@knafo_sarah) Tiens ! Une belle boule puante à la veille d’une élection présidentielle. Marianne publie un article qui ne repose sur aucune preuve, seulement sur des « on-dit » anonymes venus, de l’aveu même du journaliste, de mes concurrents politiques. J’ai saisi mon avocat pour qu’une plainte soit déposée. Les faits sont simples. Je n’ai jamais fait pression sur Charles Alloncle, que je connais et apprécie depuis nos études, il y a dix ans. Je n’ai jamais été informée de la moindre action le visant, et n’y ai évidemment pris aucune part. Mieux : nous nous sommes vus avant la 
-
-[View tweet](https://nitter.net/brivael/status/2085628492624826504#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 07:21 UTC
-
-> Globalism is the new communism, and they use radical Islam for divide and conquer. Suicidal strategy. Arthur MacWaters (@ArthurMacwaters) Mao killed so many people that it literally dipped the global life expectancy — https://nitter.net/ArthurMacwaters/status/2085240864209871024#m
-
-[View tweet](https://nitter.net/brivael/status/2085627400029700230#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 06:46 UTC
-
-> That's a good start. Elon Musk (@elonmusk) Terafab will be 50 times the size of the Pentagon when complete — https://nitter.net/elonmusk/status/2085530890759749760#m
-
-[View tweet](https://nitter.net/brivael/status/2085618520490930645#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 06:45 UTC
-
-> Champion mon frère. Bleu Blanc Rouge ! 🇫🇷 (@LBleuBlancRouge) 🔴 Le taux de chômage en France atteint 8,3% au 2ème trimestre, son plus haut niveau depuis 2020. — https://nitter.net/LBleuBlancRouge/status/2085610134936457427#m
-
-[View tweet](https://nitter.net/brivael/status/2085618410432414141#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 06:40 UTC
-
-> Pourquoi un gouvernement qui a menti sur tout ? Serait-il sincère sur ces histoires d’ingérence russe ? Surtout quand ça lui donne un argument pour venir contester des résultats qui n’iraient pas dans son sens ? Fan de Marlène (@FanDeMarlene) Ils ont bien fait des fakes news sur tout, nos médias, sur le covid, sur le réchauffement climatique, sur le racisme... Pourquoi n'en feraient-ils pas sur l'ingérence étrangère et intérieure ? — https://nitter.net/FanDeMarlene/status/2085616620299330006#m
-
-[View tweet](https://nitter.net/brivael/status/2085617119937384873#m)
-
----
-
-**@brivael** (@brivael) · 2026-08-07 06:26 UTC
-
-> 🎯🎯🎯 ThinkerView (@Thinker_View) On souhaite bien du courage au département juridique de Marianne ^^ — https://nitter.net/Thinker_View/status/2085528603349930196#m
-
-[View tweet](https://nitter.net/brivael/status/2085613577071632886#m)
 
 ---
 
@@ -244,4 +407,4 @@ Dirty Jobs 2026: The Physical AI Summit. September 23, San Francisco "> ABOUT SP
 
 
 ---
-*Twitter farmer | 2026-08-07 AFTERNOON | 25 tweets | 4 articles*
+*Twitter farmer | 2026-08-07 AFTERNOON | 45 tweets | 4 articles*
