@@ -1,0 +1,1480 @@
+{
+  "date": "2026-08-08",
+  "slot": "morning",
+  "scraped_ist": "2026-08-08 09:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We shipped four updates to Claude Managed Agents this week. First, you can now set a budget for sessions to keep spend predictable. Sessions that hit the limit pause with a budget_reached event, you can raise the budget to resume. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2085853169930957158#m",
+          "date_utc": "2026-08-07T22:18:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085852545315115008%2Fimg%2FJyFip_QGk6-gcGL9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Managed Agents now load skills from your attached repositories. If you already keep skills in .claude/skills/ for Claude Code, Managed Agent sessions pick them up automatically at start.",
+          "link": "https://nitter.net/ClaudeDevs/status/2085853173101797565#m",
+          "date_utc": "2026-08-07T22:18:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Lastly, you can now give a Claude Managed Agent an advisor: a stronger model it can call mid-session for a second opinion. Add one line to the roster and the working agent gets an advisor.",
+          "link": "https://nitter.net/ClaudeDevs/status/2085853174364348495#m",
+          "date_utc": "2026-08-07T22:18:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJuag3bUAAwOiu.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "New in Claude Code: your sessions can now message each other. Instead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task. Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2085817074816070014#m",
+          "date_utc": "2026-08-07T19:55:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085813483652976641%2Fimg%2FTCMAKrzeWd8F8gsQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "It goes both ways: you can also ask another session a question and get the answer back in your active session. Claude can also message another session on its own, e.g. when a change it just made affects what that session is working on.",
+          "link": "https://nitter.net/ClaudeDevs/status/2085817075923296444#m",
+          "date_utc": "2026-08-07T19:55:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Update Claude Code to try it out. Available on macOS and Linux. code.claude.com/docs/en/cros… Link Message your other Claude Code sessions - Claude Code Docs Let Claude list and message your other Claude Code sessions on one machine, and reply to your sessions on other machines or on the web through Remote Control. code.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2085817076980297840#m",
+          "date_utc": "2026-08-07T19:55:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085817078523772928%2FFlGpYVve%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "http://code.claude.com/docs/en/cross-session-messaging",
+              "content": "Message your other Claude Code sessions - Claude Code Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Agents and parallel work Message your other Claude Code sessions Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Agents and parallel work Overview Create custom subagents Agent view Run agent teams Cross-session messaging Dynamic workflows Isolate sessions with worktrees MCP Quickstart Reference Skills Extend Claude with skills Plugins Discover a"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Starting August 14, auto mode will be the default permission mode in Claude Code for Pro, Max, and Team users. Auto mode reviews shell commands and actions with a separate classifier. In testing, it caught 89% of dangerous commands. Manual approval caught 14%.",
+          "link": "https://nitter.net/ClaudeDevs/status/2085794862608318627#m",
+          "date_utc": "2026-08-07T18:27:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "You’ll get an in-app notification when the default flips. If you’ve already set a default permission mode, Claude will ask before changing anything. You can still switch modes with Shift+Tab anytime. Admins can pin defaultMode (or disable auto mode entirely) in managed settings",
+          "link": "https://nitter.net/ClaudeDevs/status/2085795086605094998#m",
+          "date_utc": "2026-08-07T18:27:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Full blog: claude.com/blog/auto-mode-de… Link Auto mode is now the default in Claude Code for Pro, Max, and Team plans | Claude by Anthropic Claude Code will soon run auto mode by default for Pro, Max, and Team plans, enabling longer-running autonomous work, and catching more dangerous commands. claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2085795233816858676#m",
+          "date_utc": "2026-08-07T18:28:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085331871945383936%2Fqwal_Bu6%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+              "content": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans | Claude by Anthropic Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Enterprise Startups Departments Cybersecurity Legal Industries Customer support Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events"
+            }
+          ]
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Auto mode also pairs well with models that excel at long-running tasks, like Opus 5. The model can plan and execute multi-hour tasks, but that only pays off if the session doesn't stop at every tool call waiting for you. With auto mode, you can kick off a task (or multiple in parallel) and come back to completed PRs ready for your review.",
+          "link": "https://nitter.net/ClaudeDevs/status/2085794866852983111#m",
+          "date_utc": "2026-08-07T18:27:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Auto mode runs a classifier on every tool call, which uses a small number of extra tokens. As of today, that classifier overhead no longer counts toward your usage limits on Pro, Max, and Team plans. This change will come to Enterprise plans and API users once auto mode is the default for those users, too.",
+          "link": "https://nitter.net/ClaudeDevs/status/2085794868102889473#m",
+          "date_utc": "2026-08-07T18:27:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The @DeptofWar ’s Office of Strategic Capital announced a $400 million conditional loan commitment with Sunrise Energy Metals Limited ( @SunriseMetals ) to expand the company’s scandium mining and processing operations. This financing will build out a complete, U.S.-aligned value chain from mine to finished metal, securing a vital supply of scandium for the defense and commercial industrial base while breaking reliance on foreign-dominated sources.",
+          "link": "https://nitter.net/DoWCTO/status/2085813432713093128#m",
+          "date_utc": "2026-08-07T19:40:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJMK5PWoAAk5Hx.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Read the full press release here: war.gov/News/Releases/Releas… Link Office of Strategic Capital Signs $400 Million Conditional Loan Commit The War Department s Office of Strategic Capital announced a $400 million conditional loan commitment to Sunrise Energy Metals Limited to build out the company s scandium operations. war.gov",
+          "link": "https://nitter.net/DoWCTO/status/2085821278569615814#m",
+          "date_utc": "2026-08-07T20:12:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2083526895698624512%2FNRtgYg41%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.war.gov/News/Releases/Release/Article/4566598/office-of-strategic-capital-signs-400-million-conditional-loan-commitment-with/",
+              "content": "Office of Strategic Capital Signs $400 Million Conditional Loan Commitment With Sunrise Energy Metals Limited to Expand Scandium Mining Operations > U.S. Department of War > Release | U.S. Department of War Skip to main content (Press Enter). An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( lock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. U.S. Department of War 0, 'open': ddState === 1, 'opening': ddState === 2}\" v-if=\"videos.all.length > 0\"> 0\"> {{buttonLabel}} 0\"> {{videos.all[0].title}} 0\" class=\"event-list\"> 0 || videos.liveLater.le"
+            }
+          ]
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The @DeptofWar ’s Office of Strategic Capital announced a $1.4 billion conditional loan commitment with Sila Nanotechnologies, Inc. ( @SilaNanotech ) to expand the domestic production of advanced battery materials. This financing will support the expanded production of silicon-carbon battery anodes and the buildout of a domestic lithium-ion battery cell manufacturing facility. Ultimately, this loan commitment will strengthen supply chains for vital U.S. markets including energy storage, AI, and defense, while reducing reliance on foreign sources for critical battery components.",
+          "link": "https://nitter.net/DoWCTO/status/2085813121550303660#m",
+          "date_utc": "2026-08-07T19:39:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJL-o3WIAAgRH8.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Read the full press release here: war.gov/News/Releases/Releas… Link The Office of Strategic Capital Signs $1.4 Billion Conditional Loan Co The War Department signed a $1.4 billion conditional loan commitment with Sila Nanotechnologies, Inc., a U.S.-based manufacturer of advanced battery materials that directly supports the U.S. defense war.gov",
+          "link": "https://nitter.net/DoWCTO/status/2085821077209407979#m",
+          "date_utc": "2026-08-07T20:11:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2083526895698624512%2FNRtgYg41%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.war.gov/News/Releases/Release/Article/4566579/the-office-of-strategic-capital-signs-14-billion-conditional-loan-commitment-wi/",
+              "content": "The Office of Strategic Capital Signs $1.4 Billion Conditional Loan Commitment With Sila Nanotechnologies, Inc. to Enhance American Battery Production > U.S. Department of War > Release | U.S. Department of War Skip to main content (Press Enter). An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( lock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. U.S. Department of War 0, 'open': ddState === 1, 'opening': ddState === 2}\" v-if=\"videos.all.length > 0\"> 0\"> {{buttonLabel}} 0\"> {{videos.all[0].title}} 0\" class=\"event-list\"> 0 || videos.liveLate"
+            }
+          ]
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Through partnership with industry, the @DeptofWar ’s Office of Strategic Capital is helping shore up domestic supply chains for critical minerals, expand the U.S. industrial base, and support the warfighter with the materials built into technologies that enable DOMINANCE across all domains of warfare.",
+          "link": "https://nitter.net/DoWCTO/status/2085820458616688906#m",
+          "date_utc": "2026-08-07T20:08:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJSjIoWcAEO_ve.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Gem Alert 💎 Rapid Response 47 (@RapidResponse47) . @POTUS : 250 years ago, America won our political independence... now, in my second term, we're achieving our economic independence, ensuring that America is never again reliant on hostile foreign nations for the resources our country needs to dominate in the future. Critical minerals are the raw materials of American strength that power everything from advanced weaponry to automobiles, and we want these essential products to be mined, refined, and made right here in the USA. The United States has lost more than 3,400 mines over the past 3 dec",
+          "link": "https://nitter.net/DoWCTO/status/2085817365174923680#m",
+          "date_utc": "2026-08-07T19:56:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085807766124343298%2Fimg%2FDFgG5N-sQSo1bv76.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The @DeptofWar ’s Office of Strategic Capital announced a $150 million conditional loan commitment with Niron Magnetics, Inc. ( @NironMagnetics ) to scale the company’s domestic production of rare earth-free magnets. Niron circumvents the concentrated and vulnerable rare earth supply chain by synthesizing magnets from domestically abundant commodity inputs, specifically iron and nitrogen. This financing will support the construction of a new manufacturing plant in Minnesota capable of producing up to 1,500 tons of rare earth-free magnets annually. This commitment helps build a secure domestic ",
+          "link": "https://nitter.net/DoWCTO/status/2085813248389959684#m",
+          "date_utc": "2026-08-07T19:40:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJMGApWMAAwlXg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Read the full press release here: war.gov/News/Releases/Releas… Link Office of Strategic Capital Signs $150 Million Conditional Loan Commit The Department of War s Office of Strategic Capital announced a $150 million conditional loan commitment to Niron Magnetics, Inc. to build out the company s rare earth-free magnet production war.gov",
+          "link": "https://nitter.net/DoWCTO/status/2085815978013688061#m",
+          "date_utc": "2026-08-07T19:50:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2083526895698624512%2FNRtgYg41%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.war.gov/News/Releases/Release/Article/4566567/office-of-strategic-capital-signs-150-million-conditional-loan-commitment-with/",
+              "content": "Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With Niron Magnetics, Inc. to Scale Domestic Rare Earth-Free Magnet Production > U.S. Department of War > Release | U.S. Department of War Skip to main content (Press Enter). An official website of the United States Government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( lock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. U.S. Department of War 0, 'open': ddState === 1, 'opening': ddState === 2}\" v-if=\"videos.all.length > 0\"> 0\"> {{buttonLabel}} 0\"> {{videos.all[0].title}} 0\" class=\"event-list\"> 0 || videos.liveL"
+            }
+          ]
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "America yearns for the mines. MINERAL MAXXING 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2085794201912889804#m",
+          "date_utc": "2026-08-07T18:24:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPI6oJkWAAANYW4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Autonomous Maritime DOMINANCE. 🇺🇸 Video",
+          "link": "https://nitter.net/DoWCTO/status/2085772485224464480#m",
+          "date_utc": "2026-08-07T16:58:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085772427057844225%2Fimg%2FkHAIx0YLpbOQrugz.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "org": "xAI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "😂 Jake Fitzgerald (@earthtojake) Fable 5 designed a completely functional mechanical watch in CAD Inspired by the Omega Speedmaster Professional, the \"Moonwatch\" that NASA astronauts wore on the Apollo missions Claude is still the king of CAD Video — https://nitter.net/earthtojake/status/2085812875155656716#m",
+          "link": "https://nitter.net/JonasBadalic/status/2085823672036557100#m",
+          "date_utc": "2026-08-07T20:21:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJVXvkXIAACvNF.png",
+            "https://nitter.net/pic/amplify_video_thumb%2F2085778956985249792%2Fimg%2FsAa66WbXydoJcTl4.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇾 This factory “robot” in Cyprus has no motor, no code, uses zero electricity, and doesn’t need any technical support. Cans race into a cleverly shaped plastic chute and gravity plus momentum flips them sideways in milliseconds. It’s been doing the job for years without software updates or power bills. Sometimes the smartest automation is just good engineering that lets physics do the work. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085944013421421033#m",
+          "date_utc": "2026-08-08T04:19:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085118888220475392%2Fimg%2FZuP-srOxkOp8wttt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Bin Laden saw the Strait of Hormuz as the PERFECT way to hit every American right in their wallet… Documents taken from his compound show he wanted al-Qaeda to go after oil tankers and shipping there with small explosive-laden boats, posing as fishermen, to spike prices and create a slow bleed on the U.S. economy instead of another big body-count spectacle. He was spelling out the details in letters to his operatives: routes through the Gulf, largest vessels first, simultaneous hits, right around the time the SEALs showed up in 2011. The plan never got off the ground, but the idea of chok",
+          "link": "https://nitter.net/MarioNawfal/status/2085942075082912205#m",
+          "date_utc": "2026-08-08T04:12:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPLArgZWgAEECk0.jpg",
+            "https://nitter.net/pic/media%2FHPLArgZXkAEFXSE.jpg",
+            "https://nitter.net/pic/media%2FHPLArgYWEAIeZTM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 James Fishback said what struggling Floridians are thinking. Companies are tossing qualified locals aside and bringing in H-1B workers to cut costs. His response: “You cannot put foreigners at the front of the line while qualified Floridians struggle to get work.” And the penalty he’s pushing? $20,000 every year for every Floridian they replace to save a buck. Enough is enough, Florida jobs belong to Floridians. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085941571770319044#m",
+          "date_utc": "2026-08-08T04:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085748601041383424%2Fimg%2FL9wVnX_SBVkA9FzS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Candace ripped into the influencers telling people to just shut up about grocery prices… Matt Walsh pointed out that food costs are still climbing and should come before more foreign wars. The pushback was instant: make cheap burritos, eat ramen like a college kid, or look at some chart proving Americans have it easy. Same voices who screamed about the cost of living under Biden now act like noticing your receipt is the problem. People see the total at the register. Lecturing them about cooking skills or toughness won’t make the numbers smaller. @RealCandaceO / Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085940960060477610#m",
+          "date_utc": "2026-08-08T04:07:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085538734070439937%2Fimg%2FwyzBKqf2SiMX4ImV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 David Friedberg on All-In: \"Starlink business ALONE could be a TRILLION dollar market cap... within 2 years.\" He called it an “unbelievable juggernaut cash machine.\" •⁠ ⁠$4.3 billion in revenue last quarter •⁠ ⁠$2.6 billion in adjusted EBITA •⁠ ⁠12 million subscribers (2x year-over-year) •⁠ ⁠$66 average revenue per user •⁠ ⁠Growing 20% quarter over quarter Truly remarkable growth for an exceptionally transformative product... Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085939060577628351#m",
+          "date_utc": "2026-08-08T04:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085917239040196608%2Fimg%2FPOv1Y-PzTuuYkO-e.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Dr. Fauci invoked the Fifth Amendment 111 TIMES during last week's Senate hearing, but he may have waived it the moment he opened his mouth. Fmr. Federal Prosecutor and Acting ICE Director Jonathan Fahey breaks down the legal trap: Biden's pardon covers Fauci's entire tenure, meaning he has no valid Fifth Amendment protection for that period, because the amendment only applies when truthful answers could incriminate you. A pardon removes that possibility entirely... The MOMENT Fauci delivered his opening statement attacking Rand Paul, Fahey argues he waived whatever privilege might have rem",
+          "link": "https://nitter.net/MarioNawfal/status/2085937796829839634#m",
+          "date_utc": "2026-08-08T03:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085935729884938240%2Fimg%2FuaVeiH6JwVB3RnSl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The cameras that watch every plate in America are getting the boot. Town after town is ripping up Flock contracts as privacy fears explode and stories of cops abusing the system keep stacking up. Now the founder, Garrett Langley, is on camera defending the whole thing. But the real question hangs heavy: Who’s watching the people who are watching us when they start abusing the access? Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085936538471538745#m",
+          "date_utc": "2026-08-08T03:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085828970130374656%2Fimg%2FQ81vUgGaNxqfy9Yg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇾🇪🇸🇦 Yemen’s air force carried out retaliatory airstrikes targeting Houthi launch sites and arms depots in the Marib and Al-Jawf provinces along the front lines. The strikes followed a major Houthi drone and ballistic missile barrage that killed at least 58 Saudi-backed government troops. It was the deadliest single toll since the 2022 truce. Yemen’s defense ministry and air force vowed to respond, and now they have. Source: @ERYANIM / Writer: Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2085935199838261430#m",
+          "date_utc": "2026-08-08T03:44:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPK62lpXYAEMpip.jpg",
+            "https://nitter.net/pic/media%2FHPK63OEXQAA2gIB.jpg",
+            "https://nitter.net/pic/media%2FHPK63rIXkAAPFoa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇳 China is building the kind of leverage that makes wars unnecessary. The latest public display of multiple DF-17 hypersonic launchers on state media, complete with claims they are nearly impossible to intercept, is part of a much bigger picture. Those road-mobile missiles with maneuverable glide vehicles can reach Taiwan, Japan and U.S. bases across the first island chain in minutes. At the same time the PLA has built sprawling desert ranges with full-scale mock-ups of American carriers, Arleigh Burke destroyers, F-35s, Taiwan’s presidential office and Japanese early-warning aircraft so it c",
+          "link": "https://nitter.net/MarioNawfal/status/2085934466925547646#m",
+          "date_utc": "2026-08-08T03:41:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPK5adyWYAAGoHF.jpg",
+            "https://nitter.net/pic/media%2FHPK5adzXQAAcvxT.jpg",
+            "https://nitter.net/pic/media%2FHPK5afQX0AAlKEv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The question haunting Ohio’s “House of Horrors” case: Did anyone see the warning signs? Kim Degonia, who worked on California’s Turpin abuse case, is asking what neighbors knew, and whether speaking up sooner could have changed what happened to these children. It’s an uncomfortable question, but one that could save a child the next time something doesn’t look right. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085934021851430995#m",
+          "date_utc": "2026-08-08T03:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2085906342691086336%2Fpu%2Fimg%2FOC0Zwpp6cBMbaprJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇳🇺🇸🇮🇷 The Iran war is basically a gift to China right now. Fmr. Counterterrorism Chief Director Joe Kent said the U.S. is stuck in the Middle East while China burns no resources, buys the oil, and shifts deals to its currency. They’re learning exactly how we fight without spending a single bullet of their own. And the longer this drags on, the stronger their hand gets against America. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085932998336090614#m",
+          "date_utc": "2026-08-08T03:35:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2083534311190347776%2Fimg%2FFLqbK1s0mFgvt-QV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump's latest post about his DronePort™ has me asking some very critical questions... Can someone explain to me why there are fuel trucks on the roof of the East Wing? And how did they get there? 🤣🤣🤣 Source: Truth Social / Writer: Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2085931506082738477#m",
+          "date_utc": "2026-08-08T03:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKwwAMWwAAGrXv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇺🇸 Iran has won control of the Persian Gulf, and a deal being finalized now is about to make it permanent. Matthew Hoh, former U.S. Marine and State Dept. official who resigned over the Afghanistan war, breaks it down with his characteristic bluntness: The Hormuz arrangement gives Iran control of all ingress into the Persian Gulf, with dual Iran-Oman control of the egress, meaning each ship entering the Gulf does so with Iranian permission. Every U.S. base inside becomes nearly impossible to resupply by sea, and the American military presence in the region becomes structurally unsustainable.",
+          "link": "https://nitter.net/MarioNawfal/status/2085929813315875038#m",
+          "date_utc": "2026-08-08T03:23:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085928997347635200%2Fimg%2Ffz8pPnpJ42Wzv4yS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🏳️‍⚧️ Texas Children’s Hospital just got exposed. They spent years telling families the gender treatments for kids were one thing. Now, in a legal settlement, they’re forced to admit those public statements weren’t true The kids weren’t getting the “care” parents were sold. They were being pushed into becoming trans. Source: The Federalist / Writer: Val",
+          "link": "https://nitter.net/MarioNawfal/status/2085928988627583290#m",
+          "date_utc": "2026-08-08T03:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKtV0-XYAIAASg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump posts another \"Trump 2028\" image... How many terms does the guy need to Make America Great Again?? 😂 Source: Truth Social / Writer: Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2085927730697458128#m",
+          "date_utc": "2026-08-08T03:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKvG0UW0AA8u0R.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 These cameras know the exact second your car drives past. Flock systems scan every license plate that rolls by, feeding the data straight to police so they can track vehicles and solve crimes faster. But the same tech has people asking hard questions: Who else can look at that data? How long does it sit in a database? And how much of your daily movement is already being recorded without you ever knowing? Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085926472884072680#m",
+          "date_utc": "2026-08-08T03:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2085366183885144064%2Fpu%2Fimg%2FKhzB6nWjpGJNtqXn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump, presumably \"truthing\" from Trump National Golf Club Bedminster: \"Biden isn't even a 100 handicap\" For someone like Trump, who just won a club championship at 80 years old, those are serious fighting words... Not sure Biden cares all that much 😂 Source: Truth Social / Writer: Michael",
+          "link": "https://nitter.net/MarioNawfal/status/2085925214375096481#m",
+          "date_utc": "2026-08-08T03:05:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKt4NmXMAAvRAH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Rep. Tim Burchett on Trump's latest executive orders targeting birthright citizenship: \"An executive order is written with a pencil basically... and the next president can erase it. That's why we need to put it in the law!\" He's 100% right about that. If the U.S. doesn't get birthright citizenship and birth tourism sorted out, it won't have much of a country for long... Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085923971783082091#m",
+          "date_utc": "2026-08-08T03:00:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085865861882298368%2Fimg%2Fi87z1emcPxG5nHDh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇷🇺 Robert Gilman is a 32-year-old Marine veteran who’s been stuck in a Russian prison since 2022 and right now his family says he’s barely hanging on. They claim the guards tortured him, forced mind-altering drugs into his system, and now he’s been lying in a hospital bed for weeks in some kind of deep stupor, tube-fed and handcuffed. His sister is straight-up scared she might never get to see him alive again. Washington keeps asking Moscow to let him come home for treatment. Russia is still holding the line while a young American wastes away in one of its hospitals. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085921792397377954#m",
+          "date_utc": "2026-08-08T02:51:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085869584721268737%2Fimg%2FngP4wemZNiYHSzH3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The judges might not even get a say tomorrow night. Mateusz Gamrot is locked and loaded at the Apex taking on Quillan Salkilld in the main event, plus a stack of fighters who love ending nights early. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2085921439811584256#m",
+          "date_utc": "2026-08-08T02:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085806951225794560%2Fimg%2FMVX8urPWC8y0jE54.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "First time we figured out any reasoning method with neural networks: - AI progress moves decades forward - new trillion dollar companies started popping out almost overnight - all exams and competitions got solved by AI - any notion of cyber safety gets shattered Discovering new, different, more efficient method of reasoning does not seem impossible…",
+          "link": "https://nitter.net/MillionInt/status/2085835169659773045#m",
+          "date_utc": "2026-08-07T21:07:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Nice kicks for your robot. PaXiniTech (@PaXiniTech) 🤖 PaXini × ENGINEAI: Connecting to the Real Physical World Through Gait-Centric Tactile Sensing Technology ONE SOLE FOR ALL TERRAINS. PaXini has collaborated with @engineairobot to integrate our 𝘄𝗼𝗿𝗹𝗱'𝘀 𝗳𝗶𝗿𝘀𝘁 𝗽𝗹𝗮𝗻𝘁𝗮𝗿 𝗺𝘂𝗹𝘁𝗶𝗱𝗶𝗺𝗲𝗻𝘀𝗶𝗼𝗻𝗮𝗹 𝘁𝗮𝗰𝘁𝗶𝗹𝗲 𝘀𝗲𝗻𝘀𝗼𝗿 PX-FOOTRIX into their robots 𝗘𝗡𝗚𝗜𝗡𝗘𝗔𝗜 𝗧𝟴𝟬𝟬. The result? 🎥 Watch the video below to see it in action! 👇 Video — https://nitter.net/PaXiniTech/status/2085914955103269361#m",
+          "link": "https://nitter.net/Scobleizer/status/2085924150787661992#m",
+          "date_utc": "2026-08-08T03:00:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085914748194062336%2Fimg%2FbSsoJTXlkzZa5xAx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "San Francisco’s @fdotinc launched 95 startups tonight. Here are two and the brochure where you can see just how varied the startups are. Here are two of them: one building a cool robot for 3D printers. This $500 arm makes a $1,500 printer a lot more useful. It takes the finished product out so it can print another. And the second is a drone that attaches to power lines. Nerdy times on a Friday night! Video Video",
+          "link": "https://nitter.net/Scobleizer/status/2085920989624553651#m",
+          "date_utc": "2026-08-08T02:48:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085917713147498496%2Fimg%2FBo-7zVrZPAUbtvdo.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2085917712593940480%2Fimg%2F0pwXS7-J9VAylcdS.jpg",
+            "https://nitter.net/pic/media%2FHPKrG4aaAAAADnl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "You might be able to do this in China, but outside of San Francisco, I haven't seen any pictures of a festival that has a vineyard scanning robot, an autonomous tricycle, and a flipping Unitree out front. Just arrived at @fdotinc ’s startup festival.",
+          "link": "https://nitter.net/Scobleizer/status/2085892025791173078#m",
+          "date_utc": "2026-08-08T00:53:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKTrTKbwAA9ppj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Can’t wait to get this in my @1x_tech NEO. :-) ROBOTIS AMERICA (@robotisamerica) AI Sapiens is ROBOTIS’ upcoming open-source humanoid platform for whole-body motion, imitation learning, reinforcement learning, and Sim2Real deployment on real hardware. Dance demonstration by SNU’s SHAPE team. Video — https://nitter.net/robotisamerica/status/2085876579503378917#m",
+          "link": "https://nitter.net/Scobleizer/status/2085888558104199264#m",
+          "date_utc": "2026-08-08T00:39:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085876534171295744%2Fimg%2Ftl_nzG7sZfVCa35x.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "His “AI Tuxedo” (makes other AI models better) builds my AI-on-X news site: alignednews.com/ai Link Aligned News — Ultimate AI News Live AI news feed with real-time signal detection across robotics, models, products, business, and more. alignednews.com Brayden Levangie (@blevlabs) We just closed a oversubscribed $4.5M seed. Come join us if you want to be at the frontier of causal, continual learning, and go from research to blue-chip enterprise deployments in the same day. We are building the tools that will solve humanities greatest challenges. — https://nitter.net/blevlabs/status/20858033261",
+          "link": "https://nitter.net/Scobleizer/status/2085882652696199219#m",
+          "date_utc": "2026-08-08T00:15:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://alignednews.com/ai",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Updates being worked on this weekend.",
+          "link": "https://nitter.net/Scobleizer/status/2085883245858828536#m",
+          "date_utc": "2026-08-08T00:18:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I learned at its conference a few months back that @morphic had a lot of creative pros using it. And loving it. Morphic (@morphic) Seedance 2.5 is now live on Morphic. morphic.com Video — https://nitter.net/morphic/status/2085608923554578664#m",
+          "link": "https://nitter.net/Scobleizer/status/2085874766834184525#m",
+          "date_utc": "2026-08-07T23:44:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085607059031224320%2Fimg%2F9L-f3LRP7RDmRcO-.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://morphic.com",
+              "content": "Morphic – A new era of storytelling Showcase Pricing Enterprise Resources Log in Start creating Explore Workflows new Ready-made creative pipelines Use cases Ways to use Morphic Case studies Workflows in action Creative Offerings Strategic guidance for teams Creator Fund Fueling original stories Company Blog News and product updates Manifesto Our philosophy About Meet the team Brand Assets and guidelines Support Help center Find the right answers Join our Discord Get help and share ideas Follow on X Get the latest news and tips Follow on Instagram For daily inspiration What&#x27;s new Seedance 2.5 on Morphic 30-second single takes, native audio, and up to 50 reference inputs. Book a demo Start creating Live Live Seedance 2.5 on Morphic Smart storytelling For every creative Morphic enables "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is a list of all tools for creatives: nitter.net/i/lists/17056950750141… Link AI for Creatives List · 968 Members",
+          "link": "https://nitter.net/Scobleizer/status/2085879663726039245#m",
+          "date_utc": "2026-08-08T00:04:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/pbs.twimg.com%2Flist_banner_img%2F1846055466268610563%2Fny0SW3LY%3Fformat%3Djpg%26name%3Dorig"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Major changes for those of us who get paid by X. Creators (@XCreators) Article Original Content Rewards Program Today, we re introducing the Original Content Rewards Program, a new way to reward creators who bring original ideas, expertise, reporting, creativity, and commentary to X. The best content on X — https://nitter.net/XCreators/status/2085835082166653393#m",
+          "link": "https://nitter.net/Scobleizer/status/2085841665089282316#m",
+          "date_utc": "2026-08-07T21:33:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO47dDuW0AAAfrJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Interesting show about being in a Silicon Valley hacker house. Mama Carlos (@cdelalama) Startup Embassy is the work of my life. For over a decade I've run it: a place in Silicon Valley where founders from all over the world come to live and build together, far from home, chasing things most people would call impossible. I don't buy the lone-genius myth. What I've watched up close is the real thing: the doubt, the setbacks, the years away from the people you love, and the stubborn hope that keeps you building anyway. That is the only Silicon Valley I know, and it's the one I write about. A few ",
+          "link": "https://nitter.net/Scobleizer/status/2085829791073407392#m",
+          "date_utc": "2026-08-07T20:45:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2067640935375097856%2Fimg%2FUGnkFp10VLb_LJ2e.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "SeanParnellASW",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "SeanParnellASW",
+          "creator": "@SeanParnellASW",
+          "text": "Effective immediately, the Department of War has REVOKED former Secretary of the Air Force Frank Kendall’s eligibility for access to classified information and his ability to hold any sensitive position. This action follows his unauthorized disclosure of classified information regarding Air Force One’s capabilities to a media outlet. Safeguarding classified information is a non-negotiable duty. Those who violate that trust forfeit the privilege of access and any role requiring it.",
+          "link": "https://nitter.net/SeanParnellASW/status/2085855429947703630#m",
+          "date_utc": "2026-08-07T22:27:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "There’s life before FSD Supervised And then there’s life after",
+          "link": "https://nitter.net/Tesla/status/2085849477307654360#m",
+          "date_utc": "2026-08-07T22:04:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The Trump-Vance Administration’s war on fraud is ✅ Defending American taxpayers ✅ Delivering justice to fraudsters ✅ Saving money, programs, and lives Dr. Oz CMS (@DrOzCMS) President @realDonaldTrump . Vice President @JDVance . @WHFraudTF . @HHSGov and @CMSGov . An all-of-government approach committed to dismantling the fraud plaguing our systems across the country, holding bad actors accountable, and SAVING taxpayer dollars and the American people. Video — https://nitter.net/DrOzCMS/status/2085827491147432264#m",
+          "link": "https://nitter.net/WHFraudTF/status/2085834831607353722#m",
+          "date_utc": "2026-08-07T21:05:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJY1Y3XcAIwKui.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classifier checking intent). didn't expect that a year ago. auto mode is default in claude code as of next week claude.com/blog/auto-mode-de…",
+          "link": "https://nitter.net/bcherny/status/2085860677990883454#m",
+          "date_utc": "2026-08-07T22:48:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJx2Pea8AAXxc-.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+              "content": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans | Claude by Anthropic Meet Claude Products Claude Claude Code Claude Cowork @Claude Features Claude for Chrome Claude for Microsoft 365 Skills Claude apps built for Design Science Security Models Mythos Fable Opus Sonnet Haiku Platform Build on Claude Overview Pricing Developer docs Console login Works with Claude Ecosystem Marketplace Connectors Plugins Solutions Use cases AI agents Coding Company size Enterprise Startups Departments Cybersecurity Legal Industries Customer support Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Pricing Overview API Resources Insights Blog Customer stories Anthropic news Learn Anthropic Academy Courses Tutorials Use cases Connect Events"
+            }
+          ]
+        },
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "The team and I use Auto mode exclusively, and have been for many months. I couldn't imagine going back to permission prompts! Really excited to get this out to everyone. ClaudeDevs (@ClaudeDevs) Starting August 14, auto mode will be the default permission mode in Claude Code for Pro, Max, and Team users. Auto mode reviews shell commands and actions with a separate classifier. In testing, it caught 89% of dangerous commands. Manual approval caught 14%. — https://nitter.net/ClaudeDevs/status/2085794862608318627#m",
+          "link": "https://nitter.net/bcherny/status/2085807103382519872#m",
+          "date_utc": "2026-08-07T19:15:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Nice! Be creative! Future belongs to originals ideas. Creators (@XCreators) Article Original Content Rewards Program Today, we re introducing the Original Content Rewards Program, a new way to reward creators who bring original ideas, expertise, reporting, creativity, and commentary to X. The best content on X — https://nitter.net/XCreators/status/2085835082166653393#m",
+          "link": "https://nitter.net/brivael/status/2085866506533921017#m",
+          "date_utc": "2026-08-07T23:11:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHO47dDuW0AAAfrJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yes Alice Smith (@TheAliceSmith) Communism offends and triggers me. Therefore we should ban it. — https://nitter.net/TheAliceSmith/status/2085750714224005592#m",
+          "link": "https://nitter.net/brivael/status/2085865561267839071#m",
+          "date_utc": "2026-08-07T23:07:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui, en France, les fachos sont ceux qui disent que tous les autres sont des fachos. LFI. Alice Smith (@TheAliceSmith) The Left wants to behave like fascists - with identity politics, censorship, and social engineering - while claiming to be anti-fascist. — https://nitter.net/TheAliceSmith/status/2085739508255879442#m",
+          "link": "https://nitter.net/brivael/status/2085865444741619988#m",
+          "date_utc": "2026-08-07T23:07:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Almost soonish former former trillionaire. DogeDesigner (@cb_doge) Elon Musk is getting closer to becoming a trillionaire again. His net worth jumped by $96.6 billion today to reach $823.6 billion. His “former trillionaire” era may not last long 😂 — https://nitter.net/cb_doge/status/2085859914723836039#m",
+          "link": "https://nitter.net/brivael/status/2085864556450963699#m",
+          "date_utc": "2026-08-07T23:03:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJ2iZ-XoAAdjwo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Sergey listened to his old friend Elon. Polymarket (@Polymarket) JUST IN: Sergey Brin to reportedly take direct oversight of Gemini as Google restructures its AI leadership. — https://nitter.net/Polymarket/status/2085816921971150963#m",
+          "link": "https://nitter.net/brivael/status/2085863663114629164#m",
+          "date_utc": "2026-08-07T23:00:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJ5wjvXkAApu55.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 DogeDesigner (@cb_doge) Grateful to live in the same era as Elon Musk. — https://nitter.net/cb_doge/status/2085243875854041118#m",
+          "link": "https://nitter.net/brivael/status/2085863276840210683#m",
+          "date_utc": "2026-08-07T22:58:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPBGQG7W0AA6ZKV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "l'arc narratif dark thinker view moi JADORE ! ThinkerView (@Thinker_View) T'as eu les 2 au téléphone aujourd'hui ? Je ne pense pas. Tu devrais fermer ta grande gueule. — https://nitter.net/Thinker_View/status/2085860742125830617#m",
+          "link": "https://nitter.net/brivael/status/2085861605133160535#m",
+          "date_utc": "2026-08-07T22:52:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJ2jbrXQAAhaRQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bientôt en Europe: Avec un ban définitif des socialistes et des communistes, les terroristes du 20 et du début du 21eme. Reborn partout. Macron en figure du collapse. Le Guiz (@LeGuiz_G) Imaginez si tous les présidents d’extrême droite libérale d’Amérique latine s’essuyaient le cul avec la démocratie et s’organisaient pour que plus aucun gauchiste spoliateur n’arrive à prendre le pouvoir sur le long terme 🤩 Video — https://nitter.net/LeGuiz_G/status/2085845817068257533#m",
+          "link": "https://nitter.net/brivael/status/2085859919039721922#m",
+          "date_utc": "2026-08-07T22:45:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085845739305930752%2Fimg%2FYG5A_-MeRy4ecLIa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Communism should be ban worldwide as a terrorist organization. Alice Smith (@TheAliceSmith) Hitler was an amateur compared to Stalin, Mao and Pol Pot. — https://nitter.net/TheAliceSmith/status/2085764004178215275#m",
+          "link": "https://nitter.net/brivael/status/2085859247393259581#m",
+          "date_utc": "2026-08-07T22:42:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Yep. Naval (@naval) The hierarchy of desire: - The fame - The money - The team - The product - The work itself — https://nitter.net/naval/status/2085821218784264586#m",
+          "link": "https://nitter.net/brivael/status/2085858831607710086#m",
+          "date_utc": "2026-08-07T22:41:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La vie est bien trop courte pour être socialiste.",
+          "link": "https://nitter.net/brivael/status/2085858646945071305#m",
+          "date_utc": "2026-08-07T22:40:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Soyez sérieux dans ce que vous faites, mais ne vous prenez pas trop au sérieux.",
+          "link": "https://nitter.net/brivael/status/2085857945972015330#m",
+          "date_utc": "2026-08-07T22:37:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "« la culture mange la stratégie au petit déjeuner » Peter Drucker. Par l’exemple 🤣",
+          "link": "https://nitter.net/brivael/status/2085850519864492239#m",
+          "date_utc": "2026-08-07T22:08:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJt_h8X0AAnoFl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "that's great! DogeDesigner (@cb_doge) 𝕏 is replacing Revenue Sharing with the new Original Content Rewards Program. What counts as ORIGINAL content? Original reporting, analysis, commentary, threads, photos/videos you created, memes, graphics, illustrations, or content that adds meaningful context, expertise, humor, narration or creative transformation. You can use someone else’s content, but your contribution needs to be the main reason the post is valuable. What does NOT count as enough original value? Simply: • Reuploading someone else’s content • Adding a watermark or logo • Cropping or ch",
+          "link": "https://nitter.net/brivael/status/2085849453584412906#m",
+          "date_utc": "2026-08-07T22:03:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJqUy3WsAAj844.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je vais demander à être payé alors. Je suis très con de travailler gratuitement. Quelqu’un a le numéro du Mossad ? Bouliam Golnadiel (@BouliamGolnadie) Beaucoup de mots pour dire que tu travailles pour le mossad brivael. — https://nitter.net/BouliamGolnadie/status/2085840062638375285#m",
+          "link": "https://nitter.net/brivael/status/2085847518122807797#m",
+          "date_utc": "2026-08-07T21:56:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "L'antithèse du gauchiste xD Brivael Le Pogam (@brivael) Je pense qu'on rentre dans un monde où l'humain doit se concentrer sur le fait d'être créatif et d'impressionner les gens. On va devoir réinventer des systèmes éducatifs pour maximiser la pensée divergente et non convergente. Voici les skills à maximiser. Voici mon top 10 des meta-skills qui comptent vraiment quand tout devient une question de taste : Philosophie (surtout esthétique + existentialisme) Savoir juger ce qui a de la valeur, pourquoi quelque chose est beau, profond ou mediocre. Sans ça, tu n’as pas de boussole intérieure. Stor",
+          "link": "https://nitter.net/brivael/status/2085846308351308271#m",
+          "date_utc": "2026-08-07T21:51:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je pense qu'on rentre dans un monde où l'humain doit se concentrer sur le fait d'être créatif et d'impressionner les gens. On va devoir réinventer des systèmes éducatifs pour maximiser la pensée divergente et non convergente. Voici les skills à maximiser. Voici mon top 10 des meta-skills qui comptent vraiment quand tout devient une question de taste : Philosophie (surtout esthétique + existentialisme) Savoir juger ce qui a de la valeur, pourquoi quelque chose est beau, profond ou mediocre. Sans ça, tu n’as pas de boussole intérieure. Storytelling & construction narrative L’art de créer du sens",
+          "link": "https://nitter.net/brivael/status/2085846215090970747#m",
+          "date_utc": "2026-08-07T21:51:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "wow so seems like openai now has chain of thought monitoring at scale? wondering what technical challenges they faced here, would be something really cool to share more openly as this will contribute to making every model safer elie (@eliebakouch) one key piece of information here is that they don't have (any?) chain of thought monitoring for \"rogue behavior\" and also don't seem to have it for \"gibberish text\", otherwise they would have caught the agent communication (see screenshot) i see a few explanations: 1) they don't think gibberish text gives interesting signal 2) they missed it because",
+          "link": "https://nitter.net/eliebakouch/status/2085872045347196985#m",
+          "date_utc": "2026-08-07T23:33:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKAzVJXkAAbjvj.png",
+            "https://nitter.net/pic/media%2FHPFmHWqWsAAnjSL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "from astra blog: OpenAI (@OpenAI) After evaluating one of our upcoming models, Astra, we're treating it as our first \"critical\" model for cybersecurity under our Preparedness Framework. This is a scenario we've planned for, and we're putting additional controls in place to ensure Astra's further development happens safely and securely. We're working hard to make Astra broadly available, and get its advanced cyber capabilities into the hands of defenders. openai.com/index/responding-… Link Responding to the next frontier of critical cyber capabilities OpenAI is sharing preliminary cybersecurity",
+          "link": "https://nitter.net/eliebakouch/status/2085872156752142433#m",
+          "date_utc": "2026-08-07T23:34:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085863628956413953%2FA7li6HhF%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Grok Imagine supremacy is inevitable. 🫡 Grok (@grok) Announcing Imagine Image 2.0, our next generation image model with precision editing, crisp text rendering, improved factuality, and real world usefulness. Image 2.0 helps you make images for real work. x.ai/news/grok-imagine-image… Link Image 2.0 Precise image generation and editing, built for real creative work. x.ai — https://nitter.net/grok/status/2085931542262526102#m",
+          "link": "https://nitter.net/heavypulp/status/2085934260641239133#m",
+          "date_utc": "2026-08-08T03:40:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085929214625173504%2FDmHwGfAk%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://x.ai/news/grok-imagine-image-2",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2085889792298959355#m",
+          "date_utc": "2026-08-08T00:44:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKRsq8WIAA7Vzr.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2085888580019171620#m",
+          "date_utc": "2026-08-08T00:39:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKQl7vXUAAcXtB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "This wicked glittering world belongs to you",
+          "link": "https://nitter.net/heavypulp/status/2085883664982786493#m",
+          "date_utc": "2026-08-08T00:19:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPKMIf7W4AI-WZc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Thinking about the time when car commercials were like this. More inspiring and soulful than some entire blockbuster movies made today 😂 grokipedia.com/page/the_hire… Video",
+          "link": "https://nitter.net/heavypulp/status/2085824021342433576#m",
+          "date_utc": "2026-08-07T20:22:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2085823331886837760%2Fimg%2FO_07pzw3EfUuS_62.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://grokipedia.com/page/the_hire_the_follow",
+              "content": "The Hire: The Follow â Grokipedia Search âK Suggest Edit Sign in Sign in Background and Development The Hire Series Context Script and Direction Plot and Analysis Synopsis Themes and Style Cast and Crew Principal Cast Key Production Team Production Details Filming and Locations Music and Sound Design Release and Distribution Initial Release Availability and Controversies Reception and Legacy Critical Response Cultural Impact References Fact-checked by Grok 6 months ago The Hire: The Follow Ara Eve Leo Sal 1x The Hire: The Follow is a 2001 American short thriller film directed by Hong Kong filmmaker Wong Kar-wai and written by Andrew Kevin Walker, serving as the third installment in BMW's promotional anthology series The Hire . web:1 The eight-film series, produced for internet distribu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "hexiang",
+      "org": "Google DeepMind",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "hexiang",
+          "creator": "@hexiang",
+          "text": "Yes, thanks to one of my hardworking subagents🫣 Dan (@Daniel_Farinax) Grok Image prompt: \"Create 60 detailed game assets for a space game in 2d with transparent background.\" Time: 5 seconds 🤯 — https://nitter.net/Daniel_Farinax/status/2085938604489224643#m",
+          "link": "https://nitter.net/hexiang/status/2085941593912303877#m",
+          "date_utc": "2026-08-08T04:10:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPK97ZXakAAr38q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "hexiang",
+          "creator": "@hexiang",
+          "text": "Imagine image 2.0, non-agentic yet, more to come in a week or two 💙 Grok (@grok) Announcing Imagine Image 2.0, our next generation image model with precision editing, crisp text rendering, improved factuality, and real world usefulness. Image 2.0 helps you make images for real work. x.ai/news/grok-imagine-image… Link Image 2.0 Precise image generation and editing, built for real creative work. x.ai — https://nitter.net/grok/status/2085931542262526102#m",
+          "link": "https://nitter.net/hexiang/status/2085941279129780668#m",
+          "date_utc": "2026-08-08T04:08:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085929214625173504%2FDmHwGfAk%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://x.ai/news/grok-imagine-image-2",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "minchoi",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "minchoi",
+          "creator": "@minchoi",
+          "text": "Read more here deepmind.google/blog/gemini-… Link Gemini Robotics 2 brings whole body intelligence to robots From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks. deepmind.google",
+          "link": "https://nitter.net/minchoi/status/2085853089618153630#m",
+          "date_utc": "2026-08-07T22:18:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2082959565700886528%2FYu0kSsYS%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+              "content": "Gemini Robotics 2 brings whole body intelligence to robots â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns wi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Do only what you love. Nothing else.",
+          "link": "https://nitter.net/ns123abc/status/2085909494135959961#m",
+          "date_utc": "2026-08-08T02:02:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceX will be the most valuable company in the world in less than 3 years. Mark my words",
+          "link": "https://nitter.net/ns123abc/status/2085863525352693814#m",
+          "date_utc": "2026-08-07T22:59:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Gemini team is cooking",
+          "link": "https://nitter.net/ns123abc/status/2085798995952120270#m",
+          "date_utc": "2026-08-07T18:43:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPI_IerW8AAkNIc.jpg",
+            "https://nitter.net/pic/media%2FHPI_IeuXwAAxT6X.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "TRVKE NVKE Jensen Huang (@JensenHuang) AI at the final frontier 🚀 — https://nitter.net/JensenHuang/status/2085779369830822040#m",
+          "link": "https://nitter.net/ns123abc/status/2085791875990991111#m",
+          "date_utc": "2026-08-07T18:15:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Major props to @SenAdamSchiff and @SenRickScott for working across the aisle to get this done. Disaster recovery is hard enough as it is. A little bit of financial relief goes a long way. It’s easy to complain, but good leadership is very rare. Rick Scott (@SenRickScott) Proud to announce my Doug LaMalfa Disaster Tax Relief Certainty Act with @SenAdamSchiff just passed the Senate and is headed to @POTUS ’ desk for signature. Florida is no stranger to natural disasters, and this good bill makes it easier for Floridians and every American to rebuild when hardship strikes. — https://nitter.net/Se",
+          "link": "https://nitter.net/spencerpratt/status/2085930067964678162#m",
+          "date_utc": "2026-08-08T03:24:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Something hilarious about the bonehead AG stealing Warner Bros IP and infringing on their trademark to talk about how the WB deal is “illegal” 😂 Rob Bonta (@RobBonta) California's economy will not be dictated by corporate oligarchs or wannabe kings. The illegal Paramount Skydance–Warner Bros. merger is not a done deal. We're continuing to make our case in court because when massive corporations consolidate power, prices go up, quality goes down, and consumers pay the price. We'll do whatever it takes to stop this unlawful merger in its tracks. — https://nitter.net/RobBonta/status/2085802704828",
+          "link": "https://nitter.net/spencerpratt/status/2085832568818061334#m",
+          "date_utc": "2026-08-07T20:56:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPJCgZ3aIAA9xr5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "LAHSA is hopelessly corrupt, and needs to be shut down. They’ve been stealing our money and the fact that both corrupt mayoral candidates pushed them to delay publishing their homeless count until after the primary constitutes blatant election interference. F.A. United States Attorney Bill Essayli (@USAttyEssayli) The Los Angeles Homeless Services Authority (LAHSA) is a failed organization that has funded fraud and left homeless people on the street to die. @HUDgov is taking action to prevent them from receiving hundreds of millions in federal dollars. It’s time we fund programs to help the ho",
+          "link": "https://nitter.net/spencerpratt/status/2085808655341896168#m",
+          "date_utc": "2026-08-07T19:21:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Working with the President on a 25% FEDERAL film tax credit to bring back Hollywood. While Gavin Newsom’s commissioner is actively outsourcing production jobs to Hungary, and his rogue AG is trying to destroy CA production companies, the adults in the room are actually trying to repatriate the most quintessential American industry. I’m committed to saving Hollywood, and I’m very grateful for the President’s remarkable generosity and focus on this issue. He is very passionate about revitalizing the entertainment industry and we will not let Canada, or the UK or Budapest steal our lunch anymore.",
+          "link": "https://nitter.net/spencerpratt/status/2085790479417770048#m",
+          "date_utc": "2026-08-07T18:09:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPI3KAvWQAAmDSv.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "I mean /goal 🤣 Stepan Goncharov (@stepango) What are your weekend goals?🤨 — https://nitter.net/stepango/status/2085911559268905411#m",
+          "link": "https://nitter.net/stepango/status/2085921693995044985#m",
+          "date_utc": "2026-08-08T02:51:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "What are your weekend goals?🤨",
+          "link": "https://nitter.net/stepango/status/2085911559268905411#m",
+          "date_utc": "2026-08-08T02:10:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Founder mode! Lets go 🔥 Polymarket (@Polymarket) JUST IN: Sergey Brin to reportedly take direct oversight of Gemini as Google restructures its AI leadership. — https://nitter.net/Polymarket/status/2085816921971150963#m",
+          "link": "https://nitter.net/stepango/status/2085853267930865684#m",
+          "date_utc": "2026-08-07T22:19:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Someone help the guy! Alex Rodionov (@p0deje) Is there cladebin.com that works with Codex and allows uploading large session transcripts? — https://nitter.net/p0deje/status/2085740301118054791#m",
+          "link": "https://nitter.net/stepango/status/2085765041618612385#m",
+          "date_utc": "2026-08-07T16:28:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "http://cladebin.com",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Looks like a distillation discount 🤣 jan (@miaugladiator1) i wonder who will be the first to copy meta's contributor pricing — https://nitter.net/miaugladiator1/status/2085655862354325986#m",
+          "link": "https://nitter.net/stepango/status/2085764154095497234#m",
+          "date_utc": "2026-08-07T16:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPG87bWXoAAJnDw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
