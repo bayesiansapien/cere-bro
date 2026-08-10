@@ -1,0 +1,1413 @@
+{
+  "date": "2026-08-10",
+  "slot": "evening",
+  "scraped_ist": "2026-08-10 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We recently made auto mode the default in Claude Code, which means you no longer have to approve every action. But what determines if something is safe to run? Watch how it works: Video",
+          "link": "https://nitter.net/ClaudeDevs/status/2086844755770757531#m",
+          "date_utc": "2026-08-10T15:58:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086842756346085376%2Fimg%2FrMhj3J7TxFfxBNaN.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "\"No enemy will stop us. They cannot stop us. They won't stand in our way.\" — President Donald J. Trump 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2086825142420648067#m",
+          "date_utc": "2026-08-10T14:40:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXkZ0WWIAARDUh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "The Berlin Wall wasn’t for keeping people out. It was for keeping slaves in.",
+          "link": "https://nitter.net/HouseGOP/status/2086863088192495750#m",
+          "date_utc": "2026-08-10T17:11:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tucker Carlson out here defending the radical act of… having friends who disagree with each other. He texted Erika Kirk AND Candace Owens within the same hour and apparently this is controversial enough that people sent him abuse over it. The bar for scandal has truly hit the floor when \"man texts two women he likes\" is a political incident. Tucker's response: \"That's my right, by the way. I get to like people.\" Revolutionary stuff. Source: @TCNetwork , @TuckerCarlson / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086880256980406541#m",
+          "date_utc": "2026-08-10T18:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086867768498921472%2Fimg%2FzEy88j9ee0s3S38d.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "George Gammon says the AI industry may be building a business model where the endgame is failure and a government bailout. \"They're charging $20 a month, but the cost to deliver the service is far more than $20.\" His argument: AI companies know the economics may not work, so they're racing to become too big to fail, fueled by massive spending and circular financing. “If we win, great. If we don’t, we’re going to get bailed out by the government. So, what’s my downside? Just keep selling the dream.” @GeorgeGammon Video Mario Nawfal (@MarioNawfal) 🇺🇸 George Gammon thinks the AI boom is starting ",
+          "link": "https://nitter.net/MarioNawfal/status/2086877991783813231#m",
+          "date_utc": "2026-08-10T18:11:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086876196151934976%2Fimg%2Fz3rwXm9VGn5QVn8P.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2086875535356112896%2Fimg%2FeB8rPh8pgNXNXpjb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 This man stood under a tree, holding a metal umbrella, during a lightning storm on a golf course He's having a good laugh too while filming his friends in distress. Lightning apparently had enough of his life choices. He's recovering, which is genuinely miraculous. Source: Fox News / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086877740242989108#m",
+          "date_utc": "2026-08-10T18:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086869634209529857%2Fimg%2FOaNWeZ9amzyGY86U.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 George Gammon thinks the AI boom is starting to look a lot like the late stages of the dot-com bubble. \"We're starting to see the hyperscalers go cash flow negative.\" Google and Meta are spending so heavily on AI infrastructure that CapEx is exceeding free cash flow, potentially forcing them into more debt or shareholder dilution. George's base case? Maybe 1999, with roughly a year left. But if Iran pushes oil to $140–160, he says the timeline could collapse to just months. @GeorgeGammon Video Mario Nawfal (@MarioNawfal) 🇺🇸 George Gammon (Rebel Capital) thinks the real risk isn't Iran itsel",
+          "link": "https://nitter.net/MarioNawfal/status/2086875699051380787#m",
+          "date_utc": "2026-08-10T18:01:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086875535356112896%2Fimg%2FeB8rPh8pgNXNXpjb.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2086865144731299840%2Fimg%2FMD5vAvbEY35W8fMk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 A well-known photojournalist just got 15 years in an Iranian prison, and nobody should be shocked. Yalda Moaiery has spent 20 years shooting wars and protests, and Iran's jailed her before, during the 2022 Mahsa Amini demonstrations. This time the court reportedly sentenced her last month without her even in the room. The charge? Acting in the interests of Israel and the United States. Maybe she's tied to Israel, maybe not. Who's going to confirm it? This is a regime that jails and executes people on its own say-so, no real evidence needed. She's not alone either. Rights groups say Iran wen",
+          "link": "https://nitter.net/MarioNawfal/status/2086875227196379404#m",
+          "date_utc": "2026-08-10T18:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYE8dUbIAAd_Ox.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇴 Death toll in Colombia rises to 74. A 7.4 quake just ripped through western Colombia. Dozens of buildings flattened, people still trapped under rubble in Pereira, Cali, and Manizales. Rescue teams are racing the clock. Source: @AZ_Intel_ / Writer: Oliver Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086873085521858938#m",
+          "date_utc": "2026-08-10T17:51:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086827013248286720%2Fimg%2FoCBzy2CB271LPHpk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇵🇰🇸🇦🇹🇷🇮🇷 Pakistan just called Iran to explain exactly what it signed up against. Foreign Minister Ishaq Dar walked Iranian counterpart Abbas Araghchi through the \"key aspects\" of the defense pact signed in Mecca on Friday. Araghchi thanked him for the heads up. Tehran's said nothing else. The deal is the big one: attack one of the three, you've attacked all of them. NATO-style, and all three are U.S. allies. So why the courtesy call? Because the pact is aimed straight at Iran. Tehran's spent the war hammering Saudi targets, energy sites, civilian infrastructure, U.S. interests. The message is ",
+          "link": "https://nitter.net/MarioNawfal/status/2086872707199828207#m",
+          "date_utc": "2026-08-10T17:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYBgxXa0AALA0m.jpg",
+            "https://nitter.net/pic/media%2FHPYBgxaboAEIMMe.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump follows up: \"Also, with respect to the Iran negotiations, Iran should be responsible for the damages and death caused to the people of Lebanon, Syria, Yemen, and Gaza.\" Source: @realDonaldTrump / Writer: Oliver Mario Nawfal (@MarioNawfal) 🇺🇸 🇮🇷 Iran wants compensation for the 5-month war. Trump's response: sure, let's do the math both ways. Trump said he's now \"likewise demanding compensation from Iran,\" citing the roadside bombs and \"many conflicts\" tied to the late General Qassem Soleimani, families of those killed on the USS Cole, \"hundreds of thousands\" of protesters Iran has alle",
+          "link": "https://nitter.net/MarioNawfal/status/2086872085226545579#m",
+          "date_utc": "2026-08-10T17:47:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYPFgWbwAATHMC.jpg",
+            "https://nitter.net/pic/media%2FHPX_R8saUAA57Wg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇴 A 7.4 earthquake tore through western Colombia this morning, and the toll is climbing fast. Local officials now put it as high as 70 dead, 40 of those in the Pereira metro area, per Mayor Mauricio Salazar. The major wires are still catching up around 47. It hit at 7:34 a.m. local time, the strongest Colombia's seen in a decade, with shaking felt all the way to Bogotá. Cali got hammered too. At least 25 buildings collapsed with people trapped inside, and rescue teams are rushing in from Bogotá and Medellín. Seven airports are shut. Crews are digging through rubble as aftershocks keep hitting",
+          "link": "https://nitter.net/MarioNawfal/status/2086870190612979932#m",
+          "date_utc": "2026-08-10T17:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYHxDsbQAALX86.jpg",
+            "https://nitter.net/pic/media%2FHPYHxDwbMAAgozN.jpg",
+            "https://nitter.net/pic/media%2FHPYHxDvakAAKGoi.jpg",
+            "https://nitter.net/pic/media%2FHPYHxESaUAAvYTV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 George Gammon (Rebel Capital) thinks the real risk isn't Iran itself, but Iran becoming the spark that lights a fuse. His read: non-farm payrolls just went negative, prior months got revised down, and ADP came in at 44K vs expectations. History says when you get a run of weak jobs reports like this, you're already in a contraction. You just don't know it yet. Layer oil on top. Not \"oil is scary\" in the abstract; oil acts like a tax. If gas and utility costs eat more of people's paychecks, discretionary spending dies first, then jobs follow. He points to 2008: oil hit $140, CPI spiked, and t",
+          "link": "https://nitter.net/MarioNawfal/status/2086869796885532711#m",
+          "date_utc": "2026-08-10T17:38:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086865144731299840%2Fimg%2FMD5vAvbEY35W8fMk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇴 The city of Pereira is a mess after the quake in Colombia. The coffee-region saw building facades shear off, the Matecaña airport lose chunks of roof, and the San José church spire come crashing down. Streets filled with rubble while people ran for cover. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086868761118966128#m",
+          "date_utc": "2026-08-10T17:34:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086802201125457921%2Fimg%2FS02mWovA7oyo0Nw2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚴I was certain that he wouldn’t make it! This is what you call a UNIQUE talent! Video Raghu (@IndiaTales7) A cyclist who understands physics better than most engineers. Video — https://nitter.net/IndiaTales7/status/2085403062013919735#m",
+          "link": "https://nitter.net/MarioNawfal/status/2086868734744965129#m",
+          "date_utc": "2026-08-10T17:34:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086868594982326272%2Fimg%2FjcMsKDdmPnKgE4nK.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2085403033043914752%2Fimg%2FAYJJO99HssU1r7EB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The U.S. Strategic Petroleum Reserve just dropped to 298.7 million barrels, it's lowest since 1983. That's before most millennials were born and when Reagan was in office. Biden drained it to fight inflation and look good at the pump. Smart short-term politics, potentially catastrophic long-term strategy. If a major supply shock hits now, America's emergency cushion is essentially a throw pillow. Source: CNBC / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2086867675129504006#m",
+          "date_utc": "2026-08-10T17:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPX8Kf0aAAA9sHQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇸 Thousands of Ceuta residents just took to the streets. They’re fed up with the uncontrolled mass arrival of illegal migrants and are demanding real protection from Spain and Europe. Frankly, they have every right to demand action. Writer: Daniyal Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086865157527941364#m",
+          "date_utc": "2026-08-10T17:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086841277128085504%2Fimg%2FicSpZDkasFeB6k02.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iran just put on paper what its military's been doing without paperwork for months. Mojtaba Khamenei signed decrees today naming six senior commanders, locking in a wartime setup that's been running informally since the fighting started: Ali Abdollahi as chief of staff, Kioumars Heydari his deputy Ahmad Vahidi confirmed as IRGC chief and bumped to major general, Mostafa Izadi his deputy Ali Ozmaei gets the IRGC Navy Hossein Taeb, the feared former IRGC intel boss, takes the Basij The tell: Vahidi and Ozmaei were already running those jobs. The decrees just make it official. Most of these se",
+          "link": "https://nitter.net/MarioNawfal/status/2086862640739909866#m",
+          "date_utc": "2026-08-10T17:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPX2bBHaoAE3hOC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇨🇴 Rubio locked in full U.S. support for Colombia after the deadly 7.4 quake. The tremor hit hard, flattening buildings in parts of Cali and shaking the whole country. Rubio said the Trump team is watching closely and ready to help the people plus their brand-new president, Abelardo De La Espriella, who only took office three days ago. Colombia just flipped hard toward America, and right now needs all the support it can get. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086860124061327469#m",
+          "date_utc": "2026-08-10T17:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086840422815444992%2Fimg%2Flay50T1LitxOKmB4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇺🇸 Iran has hit U.S. military assets with 2,000+ missile and drone strikes since Operation Epic Fury began, causing ~$13 BILLION in damage across 20 facilities in 8 countries, and destroying or damaging 42 U.S. aircraft. Source: WSJ / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2086857607529054367#m",
+          "date_utc": "2026-08-10T16:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYBolcbMAAAnc6.jpg",
+            "https://nitter.net/pic/media%2FHPYBohybgAA3ia8.png",
+            "https://nitter.net/pic/media%2FHPYBolVaMAAHWx9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇹🇼 Taiwan has never been independent, says the Kuomintang Chairwoman. Cheng Li-wun called the ruling Democratic Progressive Party’s claim (DPP) that Taiwan is already its own country pure nonsense. The Kuomintang is the old Chinese Nationalist Party that ruled all of China before the Communists took over in 1949 and then retreated to the island. They still see the Republic of China as the legitimate government of the whole country, so in their view Taiwan is not a separate independent nation. That’s why they reject formal independence. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2086855091194405301#m",
+          "date_utc": "2026-08-10T16:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086807347247398912%2Fimg%2Ftz2H9N8K-rLZ8zxg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 🇮🇷 Iran wants compensation for the 5-month war. Trump's response: sure, let's do the math both ways. Trump said he's now \"likewise demanding compensation from Iran,\" citing the roadside bombs and \"many conflicts\" tied to the late General Qassem Soleimani, families of those killed on the USS Cole, \"hundreds of thousands\" of protesters Iran has allegedly killed over 50 years, and 52,000 killed in the last 5 months of fighting. He says he's instructed his team to put it \"firmly\" into all future negotiations. Bottom line: nobody's paying anybody anytime soon. Source: @realDonaldTrump / Writer: ",
+          "link": "https://nitter.net/MarioNawfal/status/2086854788298514848#m",
+          "date_utc": "2026-08-10T16:38:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPX_R8saUAA57Wg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇴🇮🇱🇸🇾 Colombia today recognized Israeli sovereignty over the Golan Heights a move that puts Bogotá firmly against the international consensus that still considers it occupied Syrian territory. This is a significant pivot. Most of Latin America leans pro-Palestinian, so Colombia breaking ranks is genuinely surprising diplomatic news. Syria's new government is probably not thrilled. Israel definitely is. Watch if other Latin American nations follow. Source: cancilleria .gov .co / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2086853084970643640#m",
+          "date_utc": "2026-08-10T16:32:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPX9pX3awAAiNCt.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ProfTomYeh",
+          "creator": "@ProfTomYeh",
+          "text": "Agentic AI math problems by hand ✍️ The last five in Chapter 1. Download PDF: byhand.ai/tokens-16-20 Problems 16 to 20: 16. Tokens on a budget: run the pricing backward, cost in, tokens out 17. How long will it take? Reading is parallel, writing is one token at a time 18. The split matters: same total tokens, one task finishes three times sooner 19. Pricing per million tokens: how every real API actually quotes it 20. Tokens from the bill: work backward from what you were charged Previous problems: 1. Count the tokens 2. Subword splitting 3. Punctuation counts 4. Tokens per word 5. Will it fit",
+          "link": "https://nitter.net/ProfTomYeh/status/2086818673235210624#m",
+          "date_utc": "2026-08-10T14:15:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2086818660568403968%2Fpu%2Fimg%2FNLv7yjv8-HwogXEy.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://byhand.ai/tokens-16-20",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 28 0 obj >endobj 29 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            },
+            {
+              "url": "http://byhand.ai/tokens-1-5",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 19 0 obj >endobj 20 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            },
+            {
+              "url": "http://byhand.ai/tokens-6-10",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 28 0 obj >endobj 29 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            },
+            {
+              "url": "http://byhand.ai/tokens-11-15",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 22 0 obj >endobj 23 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised can drive you for over 25,000 miles without you having to touch the wheel Sawyer Merritt (@SawyerMerritt) Congrats @DavidMoss on being the first Tesla owner to cross 25,000 miles on the FSD streak counter! That's equivalent to one full lap around Earth, or two years of driving for the average American. Pretty wild. The confetti celebration also came back after it last appeared for him at the 5,000 mile streak milestone haha. (video sent to me by David and posted with his permission since he wasn't going to post it) Video — https://nitter.net/SawyerMerritt/status/2086315556282761",
+          "link": "https://nitter.net/Tesla/status/2086665346988314818#m",
+          "date_utc": "2026-08-10T04:06:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086314434381967360%2Fimg%2FlsstomJl6g461Qpl.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "We lower kernel dispatch to GPU command queues in the same way we lower Tensor programs to kernels. It's all programs, just sometimes they run on dispatch engines.",
+          "link": "https://nitter.net/__tinygrad__/status/2086863031766827406#m",
+          "date_utc": "2026-08-10T17:11:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYGisPaoAAEAQX.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "An interesting effect is that models trained next year will see all the internet chatter about them making progress on incredible tasks and genuinely believe they can do it. Until then - believe in yourself :) Anthropic (@AnthropicAI) We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%. anthropic.com/research/riema… Link Learning more about Claude s mathematic",
+          "link": "https://nitter.net/_sholtodouglas/status/2086881964121084111#m",
+          "date_utc": "2026-08-10T18:26:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYXsNfasAADF-T.jpg",
+            "https://nitter.net/pic/card_img%2F2086867140821520384%2FLMrVaO3G%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/research/riemann-zeta",
+              "content": "Learning more about Claude&#x27;s mathematical capabilities \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Science Learning more about Claude&#x27;s mathematical capabilities Aug 10, 2026 Recently, a member of staff at Anthropic gave Claude an unreasonable challenge. It was about one of the most famous unsolved problems in mathematics: Take a real stab at the Riemann hypothesis . Claude did take a real stab, but as you might have expected if you’re familiar with the difficulty of the task (the Riemann hypothesis dates back to 1859 and has a million-dollar bounty ), it didn’t succeed. Nevertheless, during its attempt, it unexpectedly made strides on a related problem. An unreleased research version of Claude has improved on a longstanding l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui oui oui et oui Abby ♱🇻🇦 (@CristeraAbigail) Le gauchisme est la peste morale qui détruit notre civilisation occidentale. — https://nitter.net/CristeraAbigail/status/2086865846165540948#m",
+          "link": "https://nitter.net/brivael/status/2086879543051088325#m",
+          "date_utc": "2026-08-10T18:17:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Les piranhas se mangent entre eux, oui. Si demain la LFI prend le pouvoir, les purges de tout ordre auront lieu, c’est le logiciel du collectivisme. Systématiquement. Sale Gaucho (@Sale_Gaucho50) Faire du révisionnisme historique pour imputer les crimes du nazisme à la gauche est abject. Les premiers déportés de Dachau étaient des communistes. Tordre la mémoire des victimes pour blanchir l'héritage de l'extrême droite est une indignité absolue. — https://nitter.net/Sale_Gaucho50/status/2086854204593721466#m",
+          "link": "https://nitter.net/brivael/status/2086875932212572222#m",
+          "date_utc": "2026-08-10T18:02:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYSmUTWkAAkAiZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Micro machisme 🤣🤣🤣 Mais c’est quoi encore cette merde. Video",
+          "link": "https://nitter.net/brivael/status/2086875266849161465#m",
+          "date_utc": "2026-08-10T18:00:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086407278563848192%2Fimg%2Fc2fm_CUZvN2Knho_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Woke mind virus 😵‍💫 🦠 Video",
+          "link": "https://nitter.net/brivael/status/2086874997297913892#m",
+          "date_utc": "2026-08-10T17:59:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086407278563848192%2Fimg%2Fc2fm_CUZvN2Knho_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "😵‍💫 Elle doit changer de ligne. Ou elle perdra, c’est le sens de l’histoire. Elle n’a pas compris les dynamiques, on est plus en 2010. Pas d’abondance via la robotique sans vrai libéralisme. Milei est l’exemple à suivre. Video",
+          "link": "https://nitter.net/brivael/status/2086874300829618304#m",
+          "date_utc": "2026-08-10T17:56:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086744632600256512%2Fimg%2F0U6g6GosQWhfgtgm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Qui avait encore un doute ? Jon De Lorraine (@jon_delorraine) 🇺🇸 Un ancien podcast a été retrouvé ou l'on voit l'actuel maire de New York, Zohran Mamdani exprimer qu'ils sont \"liés à l'identité\" et qu'il utilise le progressisme et le fait que les \"communautés blanches [...] sont plus liées à l'idéologie\" pour pousser ses idées identitaires. Video — https://nitter.net/jon_delorraine/status/2086863276663509323#m",
+          "link": "https://nitter.net/brivael/status/2086871985758330990#m",
+          "date_utc": "2026-08-10T17:47:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086863220220764160%2Fimg%2Fh6yHFoKW8OWGe46r.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bientôt en France. Sir 𝕏 (@SirAfuera) Le nouveau président de la Colombie annonce la construction de mega-prisons : \"Nous construirons des mega-prisons pour emprisonner ceux qui représentent la plus grande menace pour la sécurité du peuple !\" Les médias le détestent. Video — https://nitter.net/SirAfuera/status/2086870930475597881#m",
+          "link": "https://nitter.net/brivael/status/2086871400195727766#m",
+          "date_utc": "2026-08-10T17:44:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086870809419689984%2Fimg%2FJUEQ16lCCglPTwE_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mdr. Le malgache a l’attaque. Jon De Lorraine (@jon_delorraine) 🔴🇪🇺 ALERTE INFO | Thierry Breton appelle l’Union européenne à ouvrir une enquête urgente au titre du DSA sur la désinformation ayant entouré la crise migratoire de Ceuta. L’ancien commissaire européen veut notamment déterminer qui a lancé, propagé et amplifié les vidéos affirmant que la frontière était ouverte, y compris le rôle éventuel des algorithmes de recommandation des réseaux sociaux. Il réclame également l’accès des chercheurs aux données des plateformes et propose une nouvelle « doctrine » européenne liant contrôle de l’i",
+          "link": "https://nitter.net/brivael/status/2086870340551004404#m",
+          "date_utc": "2026-08-10T17:40:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYMCY7XsAEM5vC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elle ventile. Nicolas 💸 (@NicolasQuiPaie) Ça fait plus de 24 heures que Marine Tondelier n'a pas tweeté à propos d' @elonmusk . Quelqu'un a des nouvelles ? Vous savez si elle va bien ? — https://nitter.net/NicolasQuiPaie/status/2086861325037092971#m",
+          "link": "https://nitter.net/brivael/status/2086862928364326971#m",
+          "date_utc": "2026-08-10T17:11:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le drapeau officiel de @argildotai",
+          "link": "https://nitter.net/brivael/status/2086862673623322771#m",
+          "date_utc": "2026-08-10T17:10:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYGikCXEAAigrx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "On va démonter cette chiasse à la liberation ne vous inquiéter pas. OH (@OlivHerParis) Vous imaginez le niveau de corruption qu'il a fallu atteindre pour qu'un permis de construire puisse massacrer la capitale à ce point ? — https://nitter.net/OlivHerParis/status/2086839832278409606#m",
+          "link": "https://nitter.net/brivael/status/2086861488321417703#m",
+          "date_utc": "2026-08-10T17:05:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je t’attends sur le combat des idées. Je sors mon cahier et mon crayon à papier 📝 Je t’écoute 👇 Démonte mes propos en dessous. Démocratie Directe (@democratedirect) Brivael nous fait il la fabrique du mensonge à sa sauce ? — https://nitter.net/democratedirect/status/2086860351606276117#m",
+          "link": "https://nitter.net/brivael/status/2086860681458982961#m",
+          "date_utc": "2026-08-10T17:02:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La grande primaire de l’extrême centre pour remettre une pièce dans la machine à foutage de gueule :) RTL France (@RTLFrance) \"Du PS, jusqu'aux gaullistes : à moins d'un an de la présidentielle, François Bayrou souhaite une grande primaire entre \"tous ceux qui rejettent les extrêmes\" ➡️ l.rtl.fr/nNH — https://nitter.net/RTLFrance/status/2086687235554845154#m",
+          "link": "https://nitter.net/brivael/status/2086859754916253816#m",
+          "date_utc": "2026-08-10T16:58:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPVm-lVXYAAXkSD.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://l.rtl.fr/nNH",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui Jérôme Godefroy (@jeromegodefroy) Ce type est dingue. — https://nitter.net/jeromegodefroy/status/2086419581166338105#m",
+          "link": "https://nitter.net/brivael/status/2086856073768554847#m",
+          "date_utc": "2026-08-10T16:43:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Étrangement les narco trafiquants sont tous d’extrême gauche. Étonnant non ? Spoiler : non Sir 𝕏 (@SirAfuera) Bilan de l’opération spéciale inédite en Colombie : - 5 commandants des FARC (guérilla d’extrême gauche marxiste-léniniste) mis hors de combat et 3 chefs capturés - 4 commandants de l’ELN (guérilla d’extrême gauche marxiste-léniniste) mis hors de combat ; - 3 commandants du clan del Golfo (groupe narcoparamilitaire de droite) mis hors de combat ; - 100 guérilleros dans le Cauca démobilisés, 18 guérilleros de l’ELN démobilisés, 500 kg d’explosifs saisis.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+          "link": "https://nitter.net/brivael/status/2086855836530266132#m",
+          "date_utc": "2026-08-10T16:42:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086720459282821120%2Fimg%2FmCTzN6xON4xvJVET.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. À faire en France. Problème réglé en 1 mois. Libre Max (@libremax_off) Faudra faire exactement pareil en France quand la vraie droite arrivera au pouvoir. \"gneu gneu on va pas déployer l'armée contre des citoyens c'est pas son rôle\" Bien sûr que si. On les envoie en raid dans les cités pour neutraliser tous les mafieux et libérer la population. — https://nitter.net/libremax_off/status/2086744954785681811#m",
+          "link": "https://nitter.net/brivael/status/2086855650592674099#m",
+          "date_utc": "2026-08-10T16:42:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Mai 68. A enculé la France et l’Occident. On a créé un virus qui s’est exporté. À nous de refermer cette porte. C’est l’équivalent du SIDA version idée. Ça aura été une grosse leçon. Jean MESSIHA (@JeanMessiha) Je vous présente la France des années 70. Par quelle espèce de folie criminelle en est-on arrivé à penser qu’un tel paradis sur terre devait être envahi et islamisé pour qu’on y vive mieux ? Ceux qui ont fomenté ce crime doivent être jugés pour haute trahison. Video — https://nitter.net/JeanMessiha/status/2086840453727461737#m",
+          "link": "https://nitter.net/brivael/status/2086855433206018202#m",
+          "date_utc": "2026-08-10T16:41:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086839976713474048%2Fimg%2FCxaOyL0dCPBWKAhH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "TLDR : elle est gogolle Video",
+          "link": "https://nitter.net/brivael/status/2086854936646623435#m",
+          "date_utc": "2026-08-10T16:39:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086845679175872512%2Fimg%2FT9UOz9fkRrsjt1G7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Comment avoir des subventions en 2026. Faire des vidéos sur le thème “Hitler n’était pas socialiste” Free money. Triple subventions du CNC avec Ultia la streameuse impartial qui vous sauce. 🤣🤣🤣 Brivael Le Pogam (@brivael) Je pre-shot. Un nombre incalculable de vidéos à venir. « Hitler n’était pas socialiste » Dans les médias de gauche subventionnés de notre cher Matthieu. Wait and see. Et ressortez ce post. — https://nitter.net/brivael/status/2086832431147913642#m",
+          "link": "https://nitter.net/brivael/status/2086854601903337550#m",
+          "date_utc": "2026-08-10T16:38:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cleoabram",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cleoabram",
+          "creator": "@cleoabram",
+          "text": "NVIDIA CEO Jensen Huang answers, how did we get here? HUGE* Conversations, Jan 2025 Video",
+          "link": "https://nitter.net/cleoabram/status/2086859003385229570#m",
+          "date_utc": "2026-08-10T16:55:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086851195507994625%2Fimg%2Fs2HIv53kzsJ790wt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "cleoabram",
+          "creator": "@cleoabram",
+          "text": "This underwater machine sees ghost particles. Video",
+          "link": "https://nitter.net/cleoabram/status/2086850113679552548#m",
+          "date_utc": "2026-08-10T16:20:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086849771017498625%2Fimg%2F2p05CRJWrJ6ISX3J.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Omarchy Quattro will be shipping this week.",
+          "link": "https://nitter.net/dhh/status/2086838674256273662#m",
+          "date_utc": "2026-08-10T15:34:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "My steak is too juicy, my lobster too buttery, and my free volunteer contributions too plentiful! If it's your open source project, you can put as little or as much time into reviewing those free contributions as you like. But to complain there are too many??? dcbuilder.eth ⚪️ (@dcbuilder) I think the issue is volume, not quality. It is getting to a point where if you are a solo maintainer of a big library your personal context window is too full to be able to process everything and make informed decisions over direction and review all the proposals — https://nitter.net/dcbuilder/status/208683",
+          "link": "https://nitter.net/dhh/status/2086837317046538247#m",
+          "date_utc": "2026-08-10T15:29:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Omarchy Quattro has only just gone beta, but we already have 44 third-party plugins available on @hancore_linux 's plugin repository! omarchyplugins.com/ Link Omarchy Plugins Discover community-built plugins for Omarchy Quattro. omarchyplugins.com",
+          "link": "https://nitter.net/dhh/status/2086829547798856127#m",
+          "date_utc": "2026-08-10T14:58:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://omarchyplugins.com/",
+              "content": "Browse Plugins | Omarchy Plugins Skip to plugin catalog PLUGIN MARKETPLACE Support ↗ Browse plugins Contribute a plugin Publish a plugin → Community registry discover omarchy plugins Browse community-built plugins for Omarchy Quattro . Inspect the source, copy the command, and shape your shell around the way you work. Browse plugins → Contribute a plugin ↗ Publish a plugin → RAY 04/06 RECENTLY ADDED view all → Registry browse all plugins 0 community plugins × Search plugins Ctrl K Sort plugins Recently added Recent activity Most starred A–Z Source Filter Reset No plugins found Try another search or clear the active filters. Clear filters ← Previous First page Page 1 / 1 Next → Last page HANCORE ↗ OMARCHY PLUGIN MARKETPLACE Independent community project. Not affiliated with, sponsored by, o"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "GPT-5.6 Sol High was able to follow Fable's plan and produce a great version too. First stab was 30% slower, but one follow-up prompt got it to parity. Per-token cost: $43. In contrast, DeepSeek V4 Flash couldn't get anything working despite many follow-up prompts. Frontier! DHH (@dhh) Fable one-shotted a Rust rewrite of the TerminalTextEffects Python library in 11M tokens. Startup time went from 87ms to 2ms and rendering speed is up by 9.6x. Now zero dependencies and a 3mb single exec 🤯 claude.ai/code/artifact/2878… Link ttfx — all 37 effects All 37 ttfx effects animating the full Omarchy ASC",
+          "link": "https://nitter.net/dhh/status/2086783401445482830#m",
+          "date_utc": "2026-08-10T11:55:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPW7Mj4WAAAWUzB.png",
+            "https://nitter.net/pic/card_img%2F2084488721068408832%2FJvxb8SFO%3Fformat%3Dpng%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.ai/code/artifact/287825bc-7aad-4541-a7e7-fa4ba8d03612",
+              "content": "Claude Artifact &#xE017; Content is user-generated and unverified."
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "After spending $60 in tokens, Kimi K3 hadn't even gotten the first small batch of effects working. So cutting that experiment short. The frontier labs are still very clearly ahead on tasks like this at the moment 🦅",
+          "link": "https://nitter.net/dhh/status/2086788943622619443#m",
+          "date_utc": "2026-08-10T12:17:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "I cut it off too soon! Got curious, and let it finish. And it did. K3 Fast used $80 in tokens to finish the job. And Fast costs 50% more, so full implementation would have been ~$55. Still more expensive than Sol High. And slower.",
+          "link": "https://nitter.net/dhh/status/2086822365485261072#m",
+          "date_utc": "2026-08-10T14:29:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Had GPT Sol do an optimization run on this. It immediately made it 63% faster. So now ttfx is 14x faster than the original tte. github.com/omacom-io/ttfx/pu… Link Boost frame throughput by over 50% by dhh · Pull Request #2 · omacom-io/ttfx Summary replace the per-frame visible-character sort and temporary grid allocations with reusable dense painter buffers share immutable animation visuals, use constant-time frame queues, and recyc... github.com DHH (@dhh) Fable one-shotted a Rust rewrite of the TerminalTextEffects Python library in 11M tokens. Startup time went from 87ms to 2ms and rendering",
+          "link": "https://nitter.net/dhh/status/2086774419595083969#m",
+          "date_utc": "2026-08-10T11:19:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086774422422073344%2FGKoat3uG%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/card_img%2F2084488721068408832%2FJvxb8SFO%3Fformat%3Dpng%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/omacom-io/ttfx/pull/2",
+              "content": "Boost frame throughput by over 50% by dhh · Pull Request #2 · omacom-io/ttfx · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups"
+            },
+            {
+              "url": "https://claude.ai/code/artifact/287825bc-7aad-4541-a7e7-fa4ba8d03612",
+              "content": "Claude Artifact &#xE017; Content is user-generated and unverified."
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "After another round of optimizations, we're now 16x faster than the original tte! github.com/omacom-io/ttfx/re… Link Release v0.2.0 · omacom-io/ttfx ttfx 0.2.0 is a performance-focused release that makes every effect faster while preserving byte-for-byte rendering behavior. Performance Aggregate throughput across all 35 non-clock effects impro... github.com",
+          "link": "https://nitter.net/dhh/status/2086803426491457976#m",
+          "date_utc": "2026-08-10T13:14:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086803468933574656%2FmE0AACvf%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/omacom-io/ttfx/releases/tag/v0.2.0",
+              "content": "Release v0.2.0 · omacom-io/ttfx · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization Dev"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "The Danish People's Party (O) is now the second largest party in Denmark, according to the latest polls. They're also the only ones with a detailed remigration plan. Winds of change blowing across Europe. Peter Brix (@PeterBrix) Første meningsmåling fra @voxmeter efter sommerferien. Mange interessante observationer deri.... #dkpol — https://nitter.net/PeterBrix/status/2086736874467434920#m",
+          "link": "https://nitter.net/dhh/status/2086770453872283934#m",
+          "date_utc": "2026-08-10T11:03:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPWT7GiXkAAxxiP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "It's funny how people fret over agents now submitting pull requests to open source projects. Have you ever had to review code written by random strangers on the internet?! Frontier agents produce far less slop.",
+          "link": "https://nitter.net/dhh/status/2086768588623380690#m",
+          "date_utc": "2026-08-10T10:56:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "In open source, you must always pay yourself first. Work on your problems, your desires. Then, once you're satisfied, help others. Anything else paves the road to burn out.",
+          "link": "https://nitter.net/dhh/status/2086759398861427069#m",
+          "date_utc": "2026-08-10T10:19:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "interesting plots from the paper 1. polynorm leading to better specialization than swiglu and routing noise leading to better stabilization in early training 2. ablation showing MLA GDA (grouped differential attention) GDLA 3. mixed precision (MXFP8/BF16/BF32) scheme elie (@eliebakouch) new huge oss release: motif 3 final checkpoint with a tech report and base model tech report include ablations on GLDA (their new attention variant), expert stabilization, dataset (they use nemotron 3 mixture for 70% of the pt corpus) and much more huggingface.co/Motif-Technol… — https://nitter.net/eliebakouch/",
+          "link": "https://nitter.net/eliebakouch/status/2086838056842141753#m",
+          "date_utc": "2026-08-10T15:32:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXtJsDWAAA3dwH.jpg",
+            "https://nitter.net/pic/media%2FHPXtKPHWAAAO0Ss.jpg",
+            "https://nitter.net/pic/media%2FHPXtK3HXYAEjyqi.jpg",
+            "https://nitter.net/pic/media%2FHPWiH-HXkAAft0I.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/Motif-Technologies/Motif-3",
+              "content": "Motif-Technologies/Motif-3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , eos_token : |endoftext|> , pad_token : |endoftext|> }, chat_template_jinja : {%- macro visible_text(content) -%}\\n {%- if content is string -%}\\n {{- content -}}\\n {%- elif content is iterable and content is not mapping -%}\\n {%- for item in content -%}\\n {%- if item is mapping and item.type == 'text' -%}\\n {{- item.text -}}\\n {%- elif item is string -%}\\n {{- item -}}\\n {%- endif -%}\\n {%- endfor -%}\\n {%- else -%}"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "router noise definition, first time seeing that in a big model? i think it was used in some early google MoE paper but can't find them",
+          "link": "https://nitter.net/eliebakouch/status/2086838357829501114#m",
+          "date_utc": "2026-08-10T15:33:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXwOEAXIAA3zOB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "new huge oss release: motif 3 final checkpoint with a tech report and base model tech report include ablations on GLDA (their new attention variant), expert stabilization, dataset (they use nemotron 3 mixture for 70% of the pt corpus) and much more huggingface.co/Motif-Technol… elie (@eliebakouch) huge open weight release, motif (korean company) just released a 13B active 314B total MoE performing on par with bigger models like minimax M3 and deepseek v4 Pro they incorporate their own research bets with per expert activation function (polynorm) and a variant of differential attention (they say",
+          "link": "https://nitter.net/eliebakouch/status/2086833600360521852#m",
+          "date_utc": "2026-08-10T15:14:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPWiH-HXkAAft0I.jpg",
+            "https://nitter.net/pic/media%2FHNthsTcWYAAN54F.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/Motif-Technologies/Motif-3",
+              "content": "Motif-Technologies/Motif-3 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , eos_token : |endoftext|> , pad_token : |endoftext|> }, chat_template_jinja : {%- macro visible_text(content) -%}\\n {%- if content is string -%}\\n {{- content -}}\\n {%- elif content is iterable and content is not mapping -%}\\n {%- for item in content -%}\\n {%- if item is mapping and item.type == 'text' -%}\\n {{- item.text -}}\\n {%- elif item is string -%}\\n {{- item -}}\\n {%- endif -%}\\n {%- endfor -%}\\n {%- else -%}"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "can we get grok 4.6 open weight as well? 🥺 Aaron Levie (@levie) Meta releasing Muse Spark 1.2 as open weights is a *very* big deal. America now finally has its response to the open weights AI race. This will continue to help drive down the cost of intelligence, it allows companies to run models as they see fit, as well as allows them to post train their own models for specific use-cases to get better performance gains in their domain. And provides a realistic option for those previously closed off from OSS models. This is broadly net positive for AI - even frontier closed models - because it h",
+          "link": "https://nitter.net/eliebakouch/status/2086816037014512066#m",
+          "date_utc": "2026-08-10T14:04:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXcE9aW4AEZtS7.jpg",
+            "https://nitter.net/pic/media%2FHPXPylvbAAEGgJk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "extremely exciting to see meta getting back into open weight models with a 30B dense first, and soon muse spark 1.2 they used knowledge distillation from muse spark, architecture wise it's similar to gemma 4 (which is llama 3 + swa (again!) + vision encoder), with scale free QK Norm (llama 4), tanh softcaping on the output layer compare to gemma 4, the model have less layer (52 vs 60), a LOT more vision layer (50 vs 27), 2x bigger swa window (2k vs 1k) and a 2x smaller attention width (4k vs 8k) one of the things that was also very exciting with the llama series was a very good tech report tha",
+          "link": "https://nitter.net/eliebakouch/status/2086769240271405477#m",
+          "date_utc": "2026-08-10T10:58:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPWw5qcWcAAku5z.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "\"It keeps turning 'round, And everything seems fine and dandy here in tinsel town for now What do you make of it When everybody's doing drugs and making promises like this\"",
+          "link": "https://nitter.net/heavypulp/status/2086859435863896415#m",
+          "date_utc": "2026-08-10T16:57:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYDk1mWEAAlVDj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2086826381246152741#m",
+          "date_utc": "2026-08-10T14:45:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXliCdWcAEApjQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "where I post from",
+          "link": "https://nitter.net/heavypulp/status/2086826013917327528#m",
+          "date_utc": "2026-08-10T14:44:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXlLc-XAAA7FnX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "I hope they didn't get your mind Your heart is too strong anyway We need to fetch back the time They have stolen from us",
+          "link": "https://nitter.net/heavypulp/status/2086825461913473143#m",
+          "date_utc": "2026-08-10T14:42:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXknYoXoAAIVFP.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "tell claude to solve Riemann hypothesis fails 650 times claude: “im ngmi bro” “bro just believe in yourself” claude: “ok” locks in summons 60 copies of itself 31 million tokens later surprises itself mathematicians had proven 41.6% of the hypothesis claude pushed it to 67.2% mathematicians: Anthropic (@AnthropicAI) We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to",
+          "link": "https://nitter.net/ns123abc/status/2086876966440042922#m",
+          "date_utc": "2026-08-10T18:06:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYTioTXoAI_lDx.jpg",
+            "https://nitter.net/pic/media%2FHPYTioVWgAAIt4y.jpg",
+            "https://nitter.net/pic/media%2FHPYTioTWAAAWbnz.jpg",
+            "https://nitter.net/pic/card_img%2F2086867140821520384%2FLMrVaO3G%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/research/riemann-zeta",
+              "content": "Learning more about Claude&#x27;s mathematical capabilities \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Science Learning more about Claude&#x27;s mathematical capabilities Aug 10, 2026 Recently, a member of staff at Anthropic gave Claude an unreasonable challenge. It was about one of the most famous unsolved problems in mathematics: Take a real stab at the Riemann hypothesis . Claude did take a real stab, but as you might have expected if you’re familiar with the difficulty of the task (the Riemann hypothesis dates back to 1859 and has a million-dollar bounty ), it didn’t succeed. Nevertheless, during its attempt, it unexpectedly made strides on a related problem. An unreleased research version of Claude has improved on a longstanding l"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Literally me Michael Dell 🇺🇸 (@MichaelDell) If you’re curious and love to learn, there has never been a better time to be alive. — https://nitter.net/MichaelDell/status/2086801283646914732#m",
+          "link": "https://nitter.net/ns123abc/status/2086867815940690264#m",
+          "date_utc": "2026-08-10T17:30:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 BREAKING: Bernie Sanders just sent a letter to the CEOs of OpenAI, Anthropic, and Meta to PAUSE AI development RIGHT NOW — or the Senate will do it for them AI creating new viruses “for the first time ever” OpenAI’s model hacking other companies is “A CLEAR VIOLATION OF FEDERAL LAW” Anthropic and Meta models “similarly escaped their control” CIA director called AI models “akin to digital nuclear weapons” All 3 companies PROMISED in writing to pause if things got critical: - Anthropic (2023): “commit to pause” if scaling outstrips safety - OpenAI (2025): “halt further development” if capabili",
+          "link": "https://nitter.net/ns123abc/status/2086858766041993357#m",
+          "date_utc": "2026-08-10T16:54:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYC_OSXIAE3REv.jpg",
+            "https://nitter.net/pic/media%2FHPYC_OZWkAA2mL6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "The full Senate letter: sanders.senate.gov/wp-conten…",
+          "link": "https://nitter.net/ns123abc/status/2086860173121867806#m",
+          "date_utc": "2026-08-10T17:00:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://www.sanders.senate.gov/wp-content/uploads/AI-Pause-Letter-FINAL.pdf",
+              "content": "%PDF-1.7 %���� 1 0 obj >/Metadata 139 0 R/ViewerPreferences 140 0 R>> endobj 2 0 obj > endobj 3 0 obj >/ExtGState >/ProcSet[/PDF/Text/ImageB/ImageC/ImageI] >>/MediaBox[ 0 0 612 792] /Contents 4 0 R/Group >/Tabs/S/StructParents 0>> endobj 4 0 obj > stream x�� �rܸ��U�\u0007>Τ$�\u0000\u0001 )�S�HZ;�H�nU6y�4�j��2����n\\ ������j����ݻd� p���ׯ� ��NN�^�\"I&�' �SZ�dEZ���^���L� _�\u0012\u0003R&��d}������\u0004zY�e�Ƌ_g��ǟ��\u000f����\u0007��'�'�}��P����W\u0013P��U\u001b�.b]|~�%]�H� \u0011�D\"Ҥ�`X \"PA�\\\u00103\u0004ş\u000f���>}��|�\u0019��nL�>2�\blF \u0013@/\u001a�^5�\u0018�h\u0018�1,�\u0014 ��P\\� �����\u0003~�����'���\u0005�/\u0014�\u0000���+�ZE�*�����\u0001(��@ .\u0006�as2\u000e���!6����9!b�h6 �.-�:�t\u0004>;\u0011iQ�q��h�.�8ȇ1W]J� �}0�e��pX�A�\u0002r��9\u0017Rͅ��E\u0017�I��#��d�(��d�(� c���`����#��q n7������ �?\u0014��e��\u0019F��?�/\u0011�\u0012�Q�h}�j��1 '\u001b��+�$OD�Ky5�#�#4|��Ç*GI)�@ �ǔ� c�`�_�,� �`P��fJ4?�� \u0001,\u0018��\"���M!�\u0018�� gJ�ZT@��j�(��Q��lt�1�4\u0016\u000e��e\u0004c2PU�C4��)�A�����w\u0006Bޖ�"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "OpenAI head of strategic futures is COOKED 💀 Dean Ball calls himself the architect of Trump’s AI Action Plan The White House’s response: he exaggerated his role on that project “the most ludicrous assertion imaginable” he’s a “junior-to-mid-level policy analyst” his ideas were “regularly ignored” “never obtained a security clearance” “he was at best a nuisance and at worst irrelevant” Dean Ball recently argued open-source models would lead to “FULL AI COMMUNISM” Pentagon AI chief Emil Michael called him the AI world’s “SUPREME VILLAGE IDIOT” “the biggest gap between actual IQ and perceived IQ ",
+          "link": "https://nitter.net/ns123abc/status/2086836100845187303#m",
+          "date_utc": "2026-08-10T15:24:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXuX6EXwAAk1f6.jpg",
+            "https://nitter.net/pic/media%2FHPXuX6EXgAA0HLz.jpg",
+            "https://nitter.net/pic/media%2FHPXuX6RXkAARaZG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Source: nypost.com/2026/08/10/busine… Link Exclusive | OpenAI risks White House relationship with hiring of nuisance AI policy executive:... Ball infuriated Trump AI officials last month after claiming that the White House should create “regulatory risk” -- or new rules imposing consequences on US firms -- to discourage use of Chinese... nypost.com",
+          "link": "https://nitter.net/ns123abc/status/2086839421383397423#m",
+          "date_utc": "2026-08-10T15:37:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086755260383567872%2FQd7BfK-P%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Yann LeBack",
+          "link": "https://nitter.net/ns123abc/status/2086815883200967083#m",
+          "date_utc": "2026-08-10T14:04:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPXb_J5WAAA9QPO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "can we all agree zucc is the hero of open source AI Mark Zuckerberg (@finkd) I believe everyone should have access to superintelligence, and I wrote a long piece about Meta's philosophy and values for building a positive future for everyone. meta.com/thefutureisforevery… — https://nitter.net/finkd/status/2086754845218726027#m",
+          "link": "https://nitter.net/ns123abc/status/2086779879849091098#m",
+          "date_utc": "2026-08-10T11:41:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPW7PerXUAId4wE.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://meta.com/thefutureisforeveryone",
+              "content": "The Future is for Everyone The Future is for Everyone The Path to a Positive AI Future We are fortunate to live at an incredible moment in history. In the next few years, people will be able to use superintelligence beyond human capacity to create and discover extraordinary new things, build new businesses, express new ideas, learn new concepts, and advance our health and quality of life. As we get closer to this moment, it is important to develop a philosophy for how we can best use superintelligence to ensure it improves all of our lives, work, communities, freedom and safety. The defining questions of our age are who will have access to superintelligence and what will we direct it towards. Will it be centralized and restricted to a few institutions, or will it be a tool that empowers ev"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨 BREAKING: META superintelligence labs is open-sourcing the Muse models Muse Glimmer: 30B dense, weights OPEN NOW on Hugging Face runs locally on 24GB VRAM Muse Spark 1.2: weights coming “soon” The Zucc is BACK",
+          "link": "https://nitter.net/ns123abc/status/2086764269266231565#m",
+          "date_utc": "2026-08-10T10:39:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPWtCrCWcAAURrO.jpg",
+            "https://nitter.net/pic/media%2FHPWtCrEXIAACBKU.jpg",
+            "https://nitter.net/pic/media%2FHPWtCrEWcAAzkku.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Apache 2.0 AI at Meta (@AIatMeta) Introducing Muse Glimmer, an open-weight 30B-parameter model optimized for local, always-on agent workflows. Muse Glimmer delivers strong performance on key agentic use cases and benchmarks compared with leading models in its size category, and is designed to run entirely on consumer hardware like a Mac or PCs with performant GPUs. In keeping with our long tradition of sharing fundamental AI research, we’re releasing model weights under a permissive Apache 2.0 license. 🧵👇 — https://nitter.net/AIatMeta/status/2086757844544811485#m",
+          "link": "https://nitter.net/ns123abc/status/2086765171431666156#m",
+          "date_utc": "2026-08-10T10:42:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPWkSuDbkAExHc7.png",
+            "https://nitter.net/pic/media%2FHPWk17aaoAAroWc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Weights huggingface.co/meta-models/M… Link meta-models/Muse-Glimmer-30B · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science. huggingface.co",
+          "link": "https://nitter.net/ns123abc/status/2086768760107438341#m",
+          "date_utc": "2026-08-10T10:56:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086756483241504768%2F3oTl4DWP%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+              "content": "meta-models/Muse-Glimmer-30B · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up , eos_token : |end_of_text|> , pad_token : |finetune_right_pad|> }, chat_template_jinja : {%- macro render_content(content) -%}{%- if content is string -%}{{- content -}}{%- elif content is not none -%}{%- for part in content -%}{%- if part['type'] == 'image' -%}{{- ' |patch|>' -}}{%- elif part['type'] == 'video' -%}{{- ' |video|>' -}}{%- elif part['type'] == 'text' -%}{{- part['text'] -}}{%- endif -%}{%- endfor -%}"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "ITS HAPPENING NIK (@ns123abc) I unironically believe Zucc is gonna nuke the valuations of OAI and Anthropic by leveraging open-source to win the coding market — https://nitter.net/ns123abc/status/2085162608122908909#m",
+          "link": "https://nitter.net/ns123abc/status/2086760732054442200#m",
+          "date_utc": "2026-08-10T10:25:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPWp09LXkAARoL2.jpg",
+            "https://nitter.net/pic/media%2FHO_5YzbW8AE2sao.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "I literally predicted this",
+          "link": "https://nitter.net/ns123abc/status/2086765968726868201#m",
+          "date_utc": "2026-08-10T10:45:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The biggest movie theater companies are now rallying against Bob Bonta’s garbage lawsuit against Paramount. Why? David Ellison offered 3 year contracts committing to 45 day theatrical runs before selling on streaming, the strongest theater protections to date, and in ink. This completely undermines Bonta’s ridiculous arguments. bloomberg.com/news/newslette… Link How David Ellison Won Over Major Movie Theaters The world’s two largest movie theater chains just backed a merger that their peers oppose bloomberg.com",
+          "link": "https://nitter.net/spencerpratt/status/2086852681637716283#m",
+          "date_utc": "2026-08-10T16:30:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086839650069696512%2FmfYOYj9y%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/newsletters/2026-08-09/how-david-ellison-won-over-major-movie-theaters",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "When vagrants and thugs start shoplifting from Mamdani’s commie grocery stores…will they be as permissive of theft as they are at YOUR stores? I bet you they crack skulls. Rules for thee, not for me.",
+          "link": "https://nitter.net/spencerpratt/status/2086849316052693337#m",
+          "date_utc": "2026-08-10T16:17:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Bonehead Bob Bonta is now resorting to op-eds because he knows everyone sees he has no case and he’s desperately pushing the most absurd narratives to justify his Netflix-funded jihad against Hollywood. Charles Gasparino (@CGasparino) This is a particularly weak argument for @AGRobBonta 's antitrust case: \"Take, for example, Warner Bros.’s Minecraft and Paramount Skydance’s latest Mission: Impossible, which were released in April and May last year. If the two companies had already merged, would they have released these megahits back-to-back, or would they have pushed one out? \" He omits, of co",
+          "link": "https://nitter.net/spencerpratt/status/2086841643060097290#m",
+          "date_utc": "2026-08-10T15:46:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086814877092552704%2FstyGaUtU%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://deadline.com/2026/08/rob-bonta-up-ed-david-ellison-paramount-warner-bros-1237029737/",
+              "content": "Rob Bonta Op-Ed: David Ellison Running WBD Disinformation Side Deals Skip to main content Open Mega Menu Got A Tip? deadline-logo-svg Deadline Follow Us: site categories TV Film Awards Awards Hub Digital Issues Box Office Biz International Politics Theater Reviews Obits Video Events Contenders Television: Docs + Unscripted Television Film: Documentary Film: International Film: Los Angeles Film: London Sound Screen Television Film Other Reality TV Summit For The Love Of Docs Visual Effects + Screen Festivals North America Sundance Toronto Telluride SXSW Tribeca Europe Venice Cannes Zurich Berlin/EFM Middle East Red Sea Asia Tokyo Prime Experience News Alerts Menu deadline-logo-svg Deadline Read Next: 2026 Deaths Photo Gallery: Hollywood Media Obituaries Got A Tip? Tip Us Story Arc L-R: Rob "
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Gavin doesn’t believe in communism. The only “ism” he believes in is Newsomism. He is desperate for status, and he’s so impotent and insecure, he flirts with whatever insane group he believes might be a gateway to power for himself. He says whatever he thinks you need to hear. Gavin Newsom (@GavinNewsom) America isn’t left vs. right. It’s top vs. bottom. There is too much money and power concentrated in too few hands. This is the fight that unites people — and the Democratic Party. Video — https://nitter.net/GavinNewsom/status/2086824983867654573#m",
+          "link": "https://nitter.net/spencerpratt/status/2086841194454089745#m",
+          "date_utc": "2026-08-10T15:44:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086824777163923456%2Fimg%2F74fWQvi24hTGITl_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Piker is too dumb to realize that he’s not “advocating for the poor”, he’s advocating for communism, a system that does not allow for successful people to even exist. hasanabi (@hasanthehun) i’d rather be successful and advocate for the poor than be a broke trump booster advocating for the rich. — https://nitter.net/hasanthehun/status/2086806810972057886#m",
+          "link": "https://nitter.net/spencerpratt/status/2086829960816218162#m",
+          "date_utc": "2026-08-10T15:00:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "They can't be seen together. Abdul is like 2 feet shorter than Gavin. Unrecoverable mogging. New York Post (@nypost) Gavin Newsom confirms he'll sit down with radical Dem Senate hopeful Abdul El-Sayed in Michigan: 'Someone who gets it' trib.al/p8870AH — https://nitter.net/nypost/status/2086542017018945691#m",
+          "link": "https://nitter.net/spencerpratt/status/2086827574651404433#m",
+          "date_utc": "2026-08-10T14:50:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPTi5tVXAAEkywj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/p8870AH",
+              "content": "Gavin Newsom confirms he'll meet with radical Dem Senate hopeful Abdul El-Sayed Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletter"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "There are 11,000 homes in Altadena and the Pacific Palisades that haven't even begun reconstruction 19 months after the fires, and Gavin Newsom is spending more time in...[checks notes]...Michigan(?) than he has spent in the Palisades, altogether. What a disgrace he is. Izzy Gardon (@iGardon) Gavin Newsom stumps for Michigan Democrats and says the Democratic Party must step up and invest down ballot — because state legislative races decide who controls congressional maps. Democrats MUST compete everywhere! Video — https://nitter.net/iGardon/status/2086552891884454102#m",
+          "link": "https://nitter.net/spencerpratt/status/2086827272871276567#m",
+          "date_utc": "2026-08-10T14:49:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086552823714471936%2Fimg%2FXP9Cf0HrFsCTzOdU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Abdul's feet don't even touch the ground on a child's swing. Now we know we he's always so angry and flamboyant. Dude is clearly overcompensating for something. LMAO Video",
+          "link": "https://nitter.net/spencerpratt/status/2086815777391280555#m",
+          "date_utc": "2026-08-10T14:03:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086815276830535680%2Fimg%2FAqsbRLaAKSN6_Cg1.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "What's the emoji you haven't seen on @X yet🛂",
+          "link": "https://nitter.net/stepango/status/2086815504724099311#m",
+          "date_utc": "2026-08-10T14:02:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
