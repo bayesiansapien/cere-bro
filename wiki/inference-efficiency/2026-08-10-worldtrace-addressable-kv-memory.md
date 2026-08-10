@@ -47,7 +47,7 @@ flowchart LR
 
 **Confirms the measurement-validity thread the page has been running.** [Eviction as Estimation (08-03)](2026-08-03-eviction-as-estimation-rmm.md) found that KV-eviction ablations do not measure the quantity they are trusted for. WorldTrace is the same shape one level down: compression-ratio results computed in RoPE-rotated space are measuring a corrupted object, so the reported ratio is not the ratio.
 
-**Fills a gap that [Raven (08-04)](../ai-routing/2026-08-04-raven-sparse-memory-routing.md) opened.** Raven keeps a fixed set of memory slots and routes which subset to write, and held recall at 16x its training context length. Raven's slots are learned; WorldTrace's slots are assigned. Both are arguing that memory positions should be *allocated* rather than inherited from the token stream, from opposite directions (architecture versus serving-time patch). Neither cites the other.
+**Fills a gap that [Raven (08-04)](../llms-foundation-models/2026-08-04-raven-sparse-memory-routing.md) opened.** Raven keeps a fixed set of memory slots and routes which subset to write, and held recall at 16x its training context length. Raven's slots are learned; WorldTrace's slots are assigned. Both are arguing that memory positions should be *allocated* rather than inherited from the token stream, from opposite directions (architecture versus serving-time patch). Neither cites the other.
 
 **Contradicts the convenient assumption in sliding-window and streaming caches.** Those methods evict by position on the belief that position ordering is what attention uses. WorldTrace shows position is also the *lookup key*, so evicting by position destroys the index at the same time it frees the memory.
 
@@ -57,11 +57,11 @@ Reported on video world models only. Whether text long-context models show the s
 
 ## Industrial implication
 
-If the addressability claim generalizes to text, every production long-context serving stack that compresses or offloads KV after rotation is silently corrupting the compressed tier, and the fix is a few lines of position bookkeeping rather than a new architecture. That is unusually cheap for a Tier-1 efficiency result. For video and world-model products specifically, this is the difference between a demo that holds for a minute and a session that holds for an hour, at unchanged memory budget.
+If the addressability claim generalizes to text, every production long-context serving stack that compresses or offloads KV after rotation is silently corrupting the compressed tier, and the fix is a few lines of position bookkeeping rather than a new architecture. That is unusually cheap for an efficiency result of this size. For video and world-model products specifically, this is the difference between a demo that holds for a minute and a session that holds for an hour, at unchanged memory budget.
 
 ## Links
 
 - [KV Cache concept page](kv-cache.md)
-- [Raven: sparse memory routing (08-04)](../ai-routing/2026-08-04-raven-sparse-memory-routing.md)
+- [Raven: sparse memory routing (08-04)](../llms-foundation-models/2026-08-04-raven-sparse-memory-routing.md)
 - [Eviction as Estimation (08-03)](2026-08-03-eviction-as-estimation-rmm.md)
 - [Daily digest 2026-08-10](../daily-digest/2026-08/2026-08-10.md)

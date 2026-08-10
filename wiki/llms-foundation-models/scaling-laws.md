@@ -29,5 +29,5 @@ Two consequences worth stating plainly. First, **the compute-optimal token-to-pa
 
 - [Skaling: Chinchilla's exponents meet Kaplan's coupling (08-10)](2026-08-10-skaling-scaling-law-coupling.md)
 - [LLaDA MoE v2: scaling MoE diffusion LMs (08-05)](2026-08-05-llada-moe-v2-scaling-moe-diffusion-lms.md)
-- [SemiAnalysis on Kimi K3 (08-04)](2026-08-04-semianalysis-kimi-k3-architecture-primer.md) — derives the MoE communication-to-computation ratio, which constrains which N and D configurations are even servable
-- [Interconnects: Lessons from the hacks (08-09)](../responsible-ai/2026-08-10-interconnects-lessons-from-the-hacks.md) — the missing inference-side scaling law
+- [SemiAnalysis on Kimi K3 (08-04)](2026-08-04-semianalysis-kimi-k3-architecture-primer.md), which derives the MoE communication-to-computation ratio, which constrains which N and D configurations are even servable
+- [Interconnects: Lessons from the hacks (08-09)](../responsible-ai/2026-08-10-interconnects-lessons-from-the-hacks.md), the missing inference-side scaling law

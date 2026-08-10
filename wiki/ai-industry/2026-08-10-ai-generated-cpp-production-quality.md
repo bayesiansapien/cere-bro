@@ -39,7 +39,7 @@ flowchart LR
 
 ## How this relates to prior wiki pages
 
-**It is the production-side confirmation of a claim the wiki has so far only had in vendor form.** [Anthropic's "When AI builds itself"](../ai-industry/2026-04-21-anthropic-when-ai-builds-itself.md)-style reporting, and the broader velocity narrative, measure throughput: code shipped per engineer per quarter. This paper measures the other side of the ledger, and finds that the velocity gain carries a compute bill and a review bill. **Neither number appears in any vendor's accounting.**
+**It is the production-side confirmation of a claim the wiki has so far only had in vendor form.** [Anthropic's own engineering-practices reporting (07-29)](2026-07-29-anthropic-engineering-practices.md), and the broader velocity narrative, measure throughput: code shipped per engineer per quarter. This paper measures the other side of the ledger, and finds that the velocity gain carries a compute bill and a review bill. **Neither number appears in any vendor's accounting.**
 
 **It closes a gap the wiki flagged in the AI-coding-quality thread: nobody was pricing the runtime.** Prior results on AI-generated code have been about correctness, security, or reviewer disagreement, including [Kilo's 10,643-model code-review dataset (08-04)](../ai-routing/2026-08-04-kilo-open-weight-code-review-routing.md), which found models agree on *what* is wrong far more than on *how bad* it is. This paper's contribution is orthogonal and blunter: independent of whether reviewers agree, the shipped code burns 5 to 8% more compute.
 
