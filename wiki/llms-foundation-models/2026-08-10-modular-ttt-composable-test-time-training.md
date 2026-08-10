@@ -48,7 +48,7 @@ flowchart LR
 
 **It is the intervention the wiki should want for the on-policy-distillation cluster too.** [knowledge-distillation.md](../inference-efficiency/knowledge-distillation.md) has been documenting seven distillation filtering axes that never evaluate against each other. Modular TTT shows the alternative: build the shared scaffold first, then ablate. That the ablation mostly *deflates* the variants is exactly the reason the distillation cluster has not done it.
 
-**It complements [Raven (08-04)](../ai-routing/2026-08-04-raven-sparse-memory-routing.md) from the other side.** Raven is a linear-time model with a routed sparse write into a fixed set of memory slots, and holds recall at 16x training context. Both are asking what the right inner-state update rule is. Raven answers with sparsity in *which slots* get written; Modular TTT answers that the *depth and normalization* of the update network should be minimal. Neither contradicts the other, and a Raven-shaped write rule inside the Modular TTT harness is an obvious untried experiment.
+**It complements [Raven (08-04)](2026-08-04-raven-sparse-memory-routing.md) from the other side.** Raven is a linear-time model with a routed sparse write into a fixed set of memory slots, and holds recall at 16x training context. Both are asking what the right inner-state update rule is. Raven answers with sparsity in *which slots* get written; Modular TTT answers that the *depth and normalization* of the update network should be minimal. Neither contradicts the other, and a Raven-shaped write rule inside the Modular TTT harness is an obvious untried experiment.
 
 ## Gaps
 
@@ -61,5 +61,5 @@ Little immediate production effect: TTT is not in serving stacks. The near-term 
 ## Links
 
 - [Attention Mechanisms concept page](attention-mechanisms.md)
-- [Raven: sparse memory routing (08-04)](../ai-routing/2026-08-04-raven-sparse-memory-routing.md)
+- [Raven: sparse memory routing (08-04)](2026-08-04-raven-sparse-memory-routing.md)
 - [Daily digest 2026-08-10](../daily-digest/2026-08/2026-08-10.md)
