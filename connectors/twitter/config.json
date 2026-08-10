@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-08-04T16:30:00.762005+00:00",
+  "following_last_checked": "2026-08-07T16:30:00.919390+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -84,7 +84,8 @@
     "DrPeterMillett",
     "BernardArnault",
     "umdeclaration",
-    "WNDRCO_JK"
+    "WNDRCO_JK",
+    "demonflyingfox"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -724,6 +725,24 @@
     {
       "handle": "deepseek_ai",
       "name": "DeepSeek",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "ionyad",
+      "name": "Ion Yadigaroglu",
+      "org": "Tesla",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "cleoabram",
+      "name": "Cleo Abram",
       "org": "Independent",
       "timezone": "PT",
       "focus": [
