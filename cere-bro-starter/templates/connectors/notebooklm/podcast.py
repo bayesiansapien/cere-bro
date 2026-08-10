@@ -94,6 +94,25 @@ def run(cmd: list[str], check: bool = True) -> str:
 def nlm(*args, capture: bool = True) -> str:
     return run(["nlm", *args])
 
+def extract_id(out: str, *json_keys: str, regex: str = r"ID:\s*([a-f0-9-]+)"):
+    """Pull a UUID from nlm output. nlm >=0.9 emits JSON (e.g. {"notebook_id": ...,
+    "artifact_id": ...}); older 0.3.x emitted plain 'ID: <uuid>' text. Try the JSON
+    keys first, then fall back to the legacy regex so both CLI versions work."""
+    try:
+        data = json.loads(out)
+        if isinstance(data, dict):
+            for k in json_keys:
+                if data.get(k):
+                    return str(data[k])
+            # last resort: any value that looks like a uuid
+            for v in data.values():
+                if isinstance(v, str) and re.fullmatch(r"[a-f0-9-]{16,}", v):
+                    return v
+    except (json.JSONDecodeError, ValueError):
+        pass
+    m = re.search(regex, out)
+    return m.group(1) if m else None
+
 # ── Episode number ─────────────────────────────────────────────────────────────
 
 def compute_episode_number() -> int:
@@ -221,12 +240,27 @@ if cfg.get("include_media_live_files", True):
 # dedup
 social_stream_paths = sorted(set(social_stream_paths))
 
+# Media Zone synthesis files (wiki/media-zone/YYYY-MM/YYYY-MM-DD.md). These carry
+# the curated social + video + industry synthesis (saved-post/bookmark articles,
+# YouTube signal, the optimization-lens framing) that the daily digest's Industry
+# Pulse does not fully capture. Including them makes the podcast comprehensive
+# across media, video, and industry, not just papers. One file per digest date.
+media_zone_paths: list[Path] = []
+if cfg.get("include_media_zone_files", True):
+    for d in digest_dates:
+        mz = REPO_ROOT / "wiki" / "media-zone" / d[:7] / f"{d}.md"
+        if mz.exists():
+            media_zone_paths.append(mz)
+media_zone_paths = sorted(set(media_zone_paths))
+
 print(f"\nSources discovered:")
 print(f"  Digests:          {len(digest_paths)}")
 print(f"  Wiki summaries:   {len(wiki_summary_paths)}")
 print(f"  Social-stream:    {len(social_stream_paths)}")
+print(f"  Media Zone:       {len(media_zone_paths)}")
 print(f"  External URLs:    {len(deep_dive_urls)}")
-TOTAL = len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths) + len(deep_dive_urls)
+TOTAL = (len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths)
+         + len(media_zone_paths) + len(deep_dive_urls))
 print(f"  TOTAL:            {TOTAL}")
 
 if TOTAL > cfg["max_sources_per_notebook"]:
@@ -245,11 +279,10 @@ print("\nCreating notebook...")
 title_suffix = "weekly review" if EPISODE_MODE == "weekly" else date_str
 title = f"{cfg['show_name']} {date_str} ({title_suffix})" if EPISODE_MODE == "weekly" else f"{cfg['show_name']} {date_str}"
 out = nlm("notebook", "create", title)
-m = re.search(r"ID:\s*([a-f0-9-]+)", out)
-if not m:
+NOTEBOOK_ID = extract_id(out, "notebook_id", "id")
+if not NOTEBOOK_ID:
     print(f"ERROR: couldn't parse notebook ID from:\n{out}")
     sys.exit(1)
-NOTEBOOK_ID = m.group(1)
 print(f"  Notebook ID: {NOTEBOOK_ID}")
 
 # ── Add sources ────────────────────────────────────────────────────────────────
@@ -273,6 +306,8 @@ def add_url_sources(urls: list[str]):
 print("\nAdding sources:")
 for p in digest_paths:
     add_file_source(p, title_hint=f"Daily digest {p.stem}")
+for p in media_zone_paths:
+    add_file_source(p, title_hint=f"Media Zone {p.stem} (social + video + industry synthesis)")
 for p in social_stream_paths:
     add_file_source(p)
 for p in wiki_summary_paths:
@@ -294,11 +329,10 @@ out = nlm("audio", "create", NOTEBOOK_ID,
           "--length", cfg["audio_length"],
           "--focus", focus_prompt,
           "--confirm")
-m = re.search(r"Artifact ID:\s*([a-f0-9-]+)", out)
-if not m:
+ARTIFACT_ID = extract_id(out, "artifact_id", "id", regex=r"Artifact ID:\s*([a-f0-9-]+)")
+if not ARTIFACT_ID:
     print(f"ERROR: couldn't parse artifact ID from:\n{out}")
     sys.exit(1)
-ARTIFACT_ID = m.group(1)
 print(f"  Artifact ID: {ARTIFACT_ID}")
 
 # ── Poll until ready ───────────────────────────────────────────────────────────
@@ -394,7 +428,7 @@ if tldr_bullets:
     note.append("")
 note.append("---")
 note.append("")
-note.append("🎧 Audio attached. Full digest: [" + date_str + "](https://{{GITHUB_USERNAME}}.github.io/{{WIKI_NAME}}/digests/" + date_str + "/)")
+note.append(f"🎧 Audio attached. Full digest: [{date_str}](https://{{GITHUB_USER}}.github.io/{{REPO_NAME}}/digests/{date_str}/)")
 note.append("")
 
 note_md = "\n".join(note)
@@ -539,7 +573,7 @@ def upload_audio_with_retry(release_tag: str, audio_path: Path,
     on the release after upload. Retries with exponential backoff. Calls
     notify.py on persistent failure."""
     asset_name = audio_path.name
-    repo_slug = _gh_repo_slug() or "{{GITHUB_USERNAME}}/{{GITHUB_REPO}}"
+    repo_slug = _gh_repo_slug() or "{{GITHUB_USER}}/{{REPO_NAME}}"
     public_url = f"https://github.com/{repo_slug}/releases/download/{release_tag}/{asset_name}"
 
     # Ensure the release tag exists (idempotent).

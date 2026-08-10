@@ -240,12 +240,27 @@ if cfg.get("include_media_live_files", True):
 # dedup
 social_stream_paths = sorted(set(social_stream_paths))
 
+# Media Zone synthesis files (wiki/media-zone/YYYY-MM/YYYY-MM-DD.md). These carry
+# the curated social + video + industry synthesis (saved-post/bookmark articles,
+# YouTube signal, the optimization-lens framing) that the daily digest's Industry
+# Pulse does not fully capture. Including them makes the podcast comprehensive
+# across media, video, and industry, not just papers. One file per digest date.
+media_zone_paths: list[Path] = []
+if cfg.get("include_media_zone_files", True):
+    for d in digest_dates:
+        mz = REPO_ROOT / "wiki" / "media-zone" / d[:7] / f"{d}.md"
+        if mz.exists():
+            media_zone_paths.append(mz)
+media_zone_paths = sorted(set(media_zone_paths))
+
 print(f"\nSources discovered:")
 print(f"  Digests:          {len(digest_paths)}")
 print(f"  Wiki summaries:   {len(wiki_summary_paths)}")
 print(f"  Social-stream:    {len(social_stream_paths)}")
+print(f"  Media Zone:       {len(media_zone_paths)}")
 print(f"  External URLs:    {len(deep_dive_urls)}")
-TOTAL = len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths) + len(deep_dive_urls)
+TOTAL = (len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths)
+         + len(media_zone_paths) + len(deep_dive_urls))
 print(f"  TOTAL:            {TOTAL}")
 
 if TOTAL > cfg["max_sources_per_notebook"]:
@@ -291,6 +306,8 @@ def add_url_sources(urls: list[str]):
 print("\nAdding sources:")
 for p in digest_paths:
     add_file_source(p, title_hint=f"Daily digest {p.stem}")
+for p in media_zone_paths:
+    add_file_source(p, title_hint=f"Media Zone {p.stem} (social + video + industry synthesis)")
 for p in social_stream_paths:
     add_file_source(p)
 for p in wiki_summary_paths:
