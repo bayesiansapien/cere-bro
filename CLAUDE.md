@@ -626,7 +626,7 @@ Amit is an AI researcher working on **optimization**. Every Media Zone item — 
 
 Lead each cluster or item with the optimization angle that fits. Not every item is all three — name the one(s) that apply. If an item has no optimization angle at all, it probably belongs in the daily digest's Industry Pulse, not the Media Zone.
 
-**Signature line.** Every Media Zone (and the daily digest's opening framing) carries the line **"Some attention to your tears."** as a fixed marker that the read was done through the optimization lens. Place it in the `> ` framing quote at the top.
+**No signature line.** Do NOT open the Media Zone or the daily digest with a fixed signature phrase. (An earlier directive added "Some attention to your tears." as a marker; that was removed 2026-08-10 — Amit disliked it.) Keep the optimization framing in the opening quote, just without any canned signature sentence.
 
 ### Why this exists
 
