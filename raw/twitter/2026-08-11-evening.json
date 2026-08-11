@@ -1,0 +1,1165 @@
+{
+  "date": "2026-08-11",
+  "slot": "evening",
+  "scraped_ist": "2026-08-11 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Scaling up. Moving faster. Ripping through bureaucracy. Rebuilding the ARSENAL OF FREEDOM 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2087181149604823045#m",
+          "date_utc": "2026-08-11T14:15:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcoMOuW4AAmeu-.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Proud to be an American. Always have. Always will.",
+          "link": "https://nitter.net/HouseGOP/status/2087207010995458507#m",
+          "date_utc": "2026-08-11T15:58:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc_t1mXkAAe1uI.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JensenHuang",
+      "org": "NVIDIA",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JensenHuang",
+          "creator": "@JensenHuang",
+          "text": "Lightning strikes for continuous and long-run agents! Nemotron 3.5 Lightning is smart, fast, efficient and open. NVIDIA AI (@NVIDIAAI) Introducing NVIDIA Nemotron 3.5 Lightning⚡ An open 30B MoE model with 3B active parameters, built for always-on agents to complete high-volume, specialized tasks faster. It delivers up to 4x the output speed of similar-sized models. — https://nitter.net/NVIDIAAI/status/2087162151995629926#m",
+          "link": "https://nitter.net/JensenHuang/status/2087184542050496763#m",
+          "date_utc": "2026-08-11T14:29:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcUautWQAA6vS0.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "org": "xAI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "🐐 Benji Taylor (@benjitaylor) Had a lot of fun animating our new Grok Bot icon. It's entirely made in code, with every state, shape and expression able to morph smoothly into the other. And of course, I made it with Grok Build. Video — https://nitter.net/benjitaylor/status/2087227155076046995#m",
+          "link": "https://nitter.net/JonasBadalic/status/2087229351016153444#m",
+          "date_utc": "2026-08-11T17:27:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087226908824236032%2Fimg%2F2lluEMaw1rVeCdDL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "Grok gets a little baby bot❤️ Grok Bot (@bot) Introducing Grok Bot, now in early beta. Bots are AI teammates that do real work for you. They sign in to your tools, use them just like you do, and come back with finished work. Video — https://nitter.net/bot/status/2087224798078517251#m",
+          "link": "https://nitter.net/JonasBadalic/status/2087228293749608506#m",
+          "date_utc": "2026-08-11T17:22:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087221157787525120%2Fimg%2Fn9OrR6nUrxVZL4oY.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tornado warning slammed downtown Chicago. Sirens screamed across the metro as a wall of severe storms tore in with damaging winds, pounding rain, and clear rotation spinning on radar. Whole chunks of the city and suburbs sat under the threat until late morning. Another brutal hit in what has already turned into one of the wildest severe weather summers the Midwest has ever seen. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087229488925163730#m",
+          "date_utc": "2026-08-11T17:27:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087203503806595072%2Fimg%2FH2iBmhvYMSviI060.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Does the Strait of Hormuz traffic return to normal by year's end? Polymarket gives a flat 50/50 at the moment for that one. Nobody knows. $7.75M bet on this question means real money; energy traders, shipping firms, and macro funds are all sweating the same thing: Can Iran tensions actually resolve by 2027? Flip a coin. That's where we are. Source: @Polymarket / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2087227278300508543#m",
+          "date_utc": "2026-08-11T17:18:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdSBEhakAAYOyX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱🇮🇷 Mossad agents reportedly walked through Iran's most fortified nuclear site, Fordow, \"many times.\" Former Mossad chief Yossi Cohen just casually dropped that bombshell publicly. He called the 2025 U.S. bombing of Fordow \"the realization of all my dreams\" and noted Iran's 60% enriched uranium is still \"far from a nuclear bomb.\" If Mossad was inside Fordow, Iran's most secure facility was never actually secure. Source: / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2087225455187464507#m",
+          "date_utc": "2026-08-11T17:11:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdQPC3awAAydSB.jpg",
+            "https://nitter.net/pic/media%2FHPdQZhmbUAAfEB4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇷🇺 HE’S FINALLY GOING HOME! Fmr Marine Robert Gilman is free after more than 4 years in a Russian prison. Locked up in 2022 on disputed charges, his health had collapsed into a near-catatonic state. After direct talks with Putin, Russia released him on pure humanitarian grounds with no exchange demanded. He’s already on a plane with his mother, landing on U.S. soil tonight. Sometimes the simplest wins are the ones that matter most. Source: Truth Social / Writer: Lucas",
+          "link": "https://nitter.net/MarioNawfal/status/2087224181289349264#m",
+          "date_utc": "2026-08-11T17:06:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdPUCDaUAAQEtg.jpg",
+            "https://nitter.net/pic/media%2FHPdPUb-bsAEpEsQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 This Wisconsin hot dog vendor is done with the DSA crowd. Asked who he’s backing for governor, he skips the polite answer and goes straight at Francesca Hong: “I know who I don’t support: Viet Kong.” He’s watching a democratic socialist with ties to a group that wants to scrap ICE, phase out prisons, and overhaul the presidency, and he’s not having it. One working guy at a food cart put the whole primary mood on blast. The man is next level of pissed off about communists. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087222513310867557#m",
+          "date_utc": "2026-08-11T17:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086958676087099392%2Fimg%2FkwS8YUsQRikxv-Hj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 What happens when a war starts putting pressure on systems far beyond the battlefield? I sat down with Chris Martenson to make sense of a situation that is becoming increasingly difficult to understand through individual headlines. We started with oil. Despite attacks on shipping, disruptions across multiple regions and the growing importance of the Strait of Hormuz, oil markets have remained surprisingly calm. Chris argues that the futures market may be increasingly disconnected from the physical reality of the energy system, and that the real crisis could come when that gap finally clos",
+          "link": "https://nitter.net/MarioNawfal/status/2087221851177300249#m",
+          "date_utc": "2026-08-11T16:57:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087219852759138308%2Fimg%2FwX8BQQX_4TN7fZoa.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇦 Ukraine paid out over $1 billion for weapons that never showed up on the frontline. Its main procurement agency logged 45.8 billion UAH ($1.07 billion) in overdue receivables as of January 1, 2026. The state paid, and the shells, drones, and armored vehicles never reached the units fighting for them. Some of it was real damage, since Russian strikes last summer hit two big defense plants and froze billions in production. But watchdogs say the agency made it worse by burying the problem, publishing lower figures and cutting off access to the data, which protected contractors who weren't deli",
+          "link": "https://nitter.net/MarioNawfal/status/2087219995612770428#m",
+          "date_utc": "2026-08-11T16:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc65IRbUAA7mOl.jpg",
+            "https://nitter.net/pic/media%2FHPc65IUaAAABWY7.jpg",
+            "https://nitter.net/pic/media%2FHPc65IQacAA6NSP.jpg",
+            "https://nitter.net/pic/media%2FHPc65OaasAAPbA-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The U.S. jobs market has been lying to your face. Statistically speaking. Jobs data has been revised DOWN in 21 of the last 30 months, erasing 1.05 MILLION jobs from the record. May revised to +63K. June revised to +20K. Combined -103,000 jobs. That's the biggest 2-month downward revision since July 2025. Every headline number you celebrated was probably too high. Source: @KobeissiLetter / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2087217478887698710#m",
+          "date_utc": "2026-08-11T16:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc2M13a0AA4J5E.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇷🇺 Trump just got a American freed from Russian custody, and Putin asked for nothing in return. Former U.S. Marine Robert Gilman is expected to land in Washington D.C. tonight after Trump secured his release through direct talks with Putin. No prisoner swap. No deal. Just a phone call that's it. Love or hate Trump's Russia diplomacy, an American is coming home, and that's a win. Source: @WalterBloomberg / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2087215584660631908#m",
+          "date_utc": "2026-08-11T16:32:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdHfHhaAAEcEvz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇪🇸 African migrant jumps onto the tracks at a Barcelona metro station, yelling at people and officers. Traffic paralyzed. Detained after causing a full disruption. This is what “diversity” looks like on the ground... Writer: Samuel Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087214963471548675#m",
+          "date_utc": "2026-08-11T16:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087187246248013824%2Fimg%2FbCORVfU1xkIOMr6m.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Professor Robert Pape just laid out why this war doesn't end anytime soon. His case: Iran's demands haven't grown randomly, they've tracked the Strategic Petroleum Reserve almost exactly. As the 400-million-barrel SPR release program drains, Iran's leverage rises in lockstep. Pape's point: America ran the reserve down for domestic political reasons under Biden instead of keeping it near its 700M-barrel ceiling, and we're paying for that decision now. Here's what most people missed. Back in April, Scott Bessent and corporate boardrooms started quietly planning pipelines to bypass Hormuz enti",
+          "link": "https://nitter.net/MarioNawfal/status/2087214629252628511#m",
+          "date_utc": "2026-08-11T16:28:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087211257208381440%2Fimg%2F3ctqSGeN6Vv4Mht6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "I’m struggling with this one. It just seems weird and wrong. Some experiences should wait until adulthood. Video Felipe R Lahiteau🌈 (@felipelahiteau) Tenemos que poner un límite Video — https://nitter.net/felipelahiteau/status/2086584088362688717#m",
+          "link": "https://nitter.net/MarioNawfal/status/2087213918816964995#m",
+          "date_utc": "2026-08-11T16:25:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087213786922942465%2Fimg%2F-hAMrxBkLctFXQzr.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2086584056800579584%2Fimg%2FCbJHjDzBUCXoArYM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇬🇱🇩🇰 Trump-linked oil company \"Greenland Energy\" just dumped drilling equipment on Greenland's coast WITHOUT permission. Greenland's Department of Industry and Minerals issued a \"strong warning\" in response. The U.S. needs new oil sources as Middle Eastern barrels dry up, and apparently asking nicely isn't part of the plan. If that move doesn't tell you that Trump doesn't respect Greenland's sovereignty I don't know what does. Source: The Cradle / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2087212446352097338#m",
+          "date_utc": "2026-08-11T16:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc-8DsbwAApfPS.png",
+            "https://nitter.net/pic/media%2FHPc-8uHaQAAESGQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Tehran hit send on the same Hormuz demands one more time. Security chief Mohsen Rezaei says the strait stays closed until the U.S. \"changes its behavior.\" Here we go again. What he wants: — End the war — Hand back Iran's frozen money — Stop everything across the region, including Lebanon and Gaza — Plus a few more things passed along through middlemen If any of that sounds familiar, it's because they said all of it last month too. Same strait, same list, same threat to sit on the world's oil until Washington caves. The only thing that ever changes is who's reading the statement out loud. Ev",
+          "link": "https://nitter.net/MarioNawfal/status/2087211207728169064#m",
+          "date_utc": "2026-08-11T16:15:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdDhv8bwAAI6eC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump called out NYC’s second-home tax as a slowmotion DISASTER. The new surcharge is expected to pull in a few hundred million at best, while high earners keep packing for Florida and Texas and taking billions in tax revenue with them. Manhattan alone lost nearly $1B in adjusted income in one recent cycle. Layer on congestion pricing and the numbers look even worse for the city’s longterm base. When the people who actually pay the bills leave, the math stops working. Source: Truth Social / Writer: Lucas",
+          "link": "https://nitter.net/MarioNawfal/status/2087209929287364805#m",
+          "date_utc": "2026-08-11T16:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdCCEHa8AEhnoW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇩🇪 🇺🇦 🇱🇹 A secret antenna found near Leipzig/Halle Airport was used to guide an explosive drone toward Ukrainian cargo planes. German investigators say the antenna boosted control signals during the suspected sabotage attempt on August 4. The drone had been specially modified with an extra battery, camera, 5G router and dual SIM cards. It flew dark, no navigation lights, and was steered over the cellular network, raising the possibility it was operated from another country entirely. DNA recovered from both the drone and 600 grams of unexploded Semtex has pointed investigators toward Lithuania.",
+          "link": "https://nitter.net/MarioNawfal/status/2087207415666073943#m",
+          "date_utc": "2026-08-11T16:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc1H-pagAAFOJ9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Americans TREASURE their 2nd Amendment rights, so why does Michigan Sen. candidate Abdul El-Sayed want to take them away? Apparently, he advocated for REPLACING the 2nd Amendment with a \"constitutional right to healthcare.\" And wamted to stop Americans from using FIREWORKS on the 4th of July... what's next? No tree at Christmas? Maybe some of this would play in other countries, but from where most Americans stand on these issues, this guy is an absolute lunatic. \"Come and Take It\" yard signs incoming... 😂 Writer: Michael Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087204896097652956#m",
+          "date_utc": "2026-08-11T15:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087184230744788992%2Fimg%2FPlhe58z7Io-7Vf4O.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇹🇷🇮🇱 Pravin Sawhney argues that a direct Turkey-Israel conflict could expose a fundamental weakness in NATO: collective defense may not mean much if Washington refuses to act. He says Erdogan understands that West Asia is changing, while China and Russia are pushing a different model based on negotiation, sovereignty and “collective security.” And then comes the provocative part: “America... will not participate in a NATO attack to support Turkey against Israel.” Hypothetical, he stresses. But the implications are enormous. @PravinSawhney Video Mario Nawfal (@MarioNawfal) 🇨🇳🇷🇺 Pravin Sawhney: ",
+          "link": "https://nitter.net/MarioNawfal/status/2087203558492197179#m",
+          "date_utc": "2026-08-11T15:44:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087202535824310272%2Fimg%2FPUqQc5x6WzvgUx8h.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2087198323333799937%2Fimg%2FX2pohMGktlWqO6JS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱🇹🇷 Israel and Turkey both keep troops on foreign soil while trading accusations. Turkey’s moves draw on a neoOttoman vision that blends Islamic leadership claims with control over former imperial lands, justifying bases in Syria, Iraq and Cyprus as both security buffers and a return to regional centrality. Israel’s expansions lean on biblical Greater Israel language from the Nile to the Euphrates in its maximal form that far right coalition voices treat as divine entitlement, turning post2023 buffer zones in Syria, Lebanon and Gaza into facts on the ground. One side invokes the caliphate’s s",
+          "link": "https://nitter.net/MarioNawfal/status/2087202882890432664#m",
+          "date_utc": "2026-08-11T15:42:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc4sNzakAAphl2.jpg",
+            "https://nitter.net/pic/media%2FHPc4sNkbQAA3Aaw.jpg",
+            "https://nitter.net/pic/media%2FHPc4sNwa0AAbqoj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The U.S. State Department just put out a 5-min video on the Monroe Doctrine, and it's a fascinating watch. It calls Trump's presidency \"it's next chapter.\" The Monroe Doctrine was a foreign policy statement issued by President Monroe way back in 1823. It warned European nations to stay OUT of the Western Hemisphere and stated that, in exchange, the U.S. would not interfere in European conflicts. Roosevelt (TR) in 1904 used it to claim the U.S. had police-like authority in Latin America. Fast forward to later in the 20th century, and the concern was not Europe, so much as the Soviet Union. I",
+          "link": "https://nitter.net/MarioNawfal/status/2087202379339092219#m",
+          "date_utc": "2026-08-11T15:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087171869568847873%2Fimg%2FpW7VOPCnANGUhMA6.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "When working on RL with llms you start realizing that you’re rediscovering a lot of human nature and social constructs from first principles. Words of encouragement actually matter! “paula” (@paularambles) human in the loop the loop: “you’re doing amazing sweetie” — https://nitter.net/paularambles/status/2086878639354958222#m",
+          "link": "https://nitter.net/MillionInt/status/2087091609301028953#m",
+          "date_utc": "2026-08-11T08:19:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPYU36Va4AAuhpU.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ProfTomYeh",
+          "creator": "@ProfTomYeh",
+          "text": "New chapter! Context problems. Who can solve these by hand ✍️? Download PDF: byhand.ai/context-1-5 The first five: 1. Mark the context: the window as cells you can count 2. What fills the window: the system prompt, the user, the model's reply 3. Turn by turn: every turn is the same block, and most of it is the reply 4. Will it fit? Number a new message into what's left, and see it run out 5. Turns until full: how many rounds before there is no room Previously, I shared Chapter 1: Token Problems 1 ~ 20 byhand.ai/tokens-1-5 byhand.ai/tokens-6-10 byhand.ai/tokens-11-15 byhand.ai/tokens-16-20 Why ",
+          "link": "https://nitter.net/ProfTomYeh/status/2087181038262841359#m",
+          "date_utc": "2026-08-11T14:15:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2087181016561483776%2Fpu%2Fimg%2FVk8yJfKqzeHyDaTB.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://byhand.ai/context-1-5",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 28 0 obj >endobj 29 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 0\u0006=\u0001=\u000e{c��\u0001�5պN� ��}\u0005?B�u=7� �Z��}��''�G'�\u000f�z\u0000�(��\u0000(��_�A��Kwr�b�d��@=�\u0002�\u0015��{� \u0016N�\u0000c���\u0003��H�29'��[o\u0005�Q��\u0007�'��('�\u0018�\u0007gEr~ �5��W��Kw�Qs��}�L�� κ�\u0000(��\u0000(��\u0000(��_��閍ut�!R\u0001`��8�(\u0002�\u0015\u0015��Wv��Bۢ�C)�2 K@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014��T��\u0006MS�u[=^\u0006��S\"+m$�\\ g�ր.�ECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h"
+            },
+            {
+              "url": "http://byhand.ai/tokens-1-5",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 19 0 obj >endobj 20 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            },
+            {
+              "url": "http://byhand.ai/tokens-6-10",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 28 0 obj >endobj 29 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            },
+            {
+              "url": "http://byhand.ai/tokens-11-15",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 22 0 obj >endobj 23 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            },
+            {
+              "url": "http://byhand.ai/tokens-16-20",
+              "content": "%PDF-1.4 % created by Pillow PDF driver 28 0 obj >endobj 29 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 �w?ʀ:�+���� �-nh�n|�%���\u000f¡���'��ڭo���O̍���I ��C@\u0005#�ƌ��UFK\u0013�\u0007�-P��\u0000�\u0001��\u0000׬�� � p� �~d\u0012���nF ?1RW5�O�\u0016S���t�\u0000QE\u0014\u0000QE\u0014\u0000QE\u0014\u0000QECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h�|j���\u000e+μe��vЉ�� �[ �f�8�\u0018�.����\u0016��3\u0007��\u0004���d�5?�o�[��\u0017 Mj䪞� ��;�@\u0004��:���\"��}H���D̟A�\u000f��\u001a�|a�gh\u0012�lKq���z��?��"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "In 50 years someone could let someone else into their brain. If you do that aren’t you best friends or worst enemies forever? Headed to San Francisco. My robot is driving. It is like going to the future. But I bet if I could let you all into my brain you would want to open the Las Vegas memories first.",
+          "link": "https://nitter.net/Scobleizer/status/2087220693549396036#m",
+          "date_utc": "2026-08-11T16:52:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Maryam and I got engaged on the Venetian bridge there. Lots of salaciousness in Vegas. :-)",
+          "link": "https://nitter.net/Scobleizer/status/2087222743838384383#m",
+          "date_utc": "2026-08-11T17:00:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Like I also got married to Dr. Ruth in a Vegas casino by an Elvis impersonator",
+          "link": "https://nitter.net/Scobleizer/status/2087223059317240095#m",
+          "date_utc": "2026-08-11T17:02:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "For our free newsletter this week, we cover how AI is making timing more valuable than intelligence. @IrenaCronin and I write this newsletter every week. AI is making advanced intelligence widely accessible, shifting competitive advantage from having the best information to acting on it the fastest. As real-time analytics, AI agents, and automation accelerate decision-making, the organizations that execute first may outperform those that simply have the smartest AI. Read and subscribe for free: unaligned.io",
+          "link": "https://nitter.net/Scobleizer/status/2087204994789646719#m",
+          "date_utc": "2026-08-11T15:50:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc9zhPaUAA0BBj.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://unaligned.io",
+              "content": "Unaligned Newsletter Unaligned Newsletter Login Subscribe Unaligned Newsletter Industry-wide analysis of the hottest companies and people in AI / Spatial Computing Archive 3 hours ago AI Is Making Timing More Valuable Than Intelligence Robert Scoble, +1 Aug 04, 2026 ​​​​​​The AI Experience Gap Why Human Experience May Become Our Greatest Competitive Advantage Robert Scoble, +1 Jul 28, 2026 ​​​​​​AI Is Quietly Creating a New Digital Economy Robert Scoble, +1 Jul 21, 2026 ​​​​​​The AI Economy Is Running Out of Cheap Compute Robert Scoble, +1 Jul 14, 2026 ​​​​​​The Rise of AI Reputation Management Robert Scoble, +1 Jul 07, 2026 ​​​​​​AI Workers Enter the Real Economy The New Uncanny Valley Robert Scoble, +1 Jun 30, 2026 ​​​​​​The AI Productivity Boom Is Becoming an AI Training Problem Robert "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Oh, my. Tencent Hy (@TencentHunyuan) Introducing Hy3D WorldClaw——an agentic workflow that generates large scale 3D open worlds from text prompts.🚀🚀🚀 Not video, Not Gaussian Splatting, Every scene generated by WorldClaw is freely explorable and built entirely from editable, game-ready 3D assets with high-quality geometry and textures. Project Page: tencent-hunyuan.github.io/Hu… Video — https://nitter.net/TencentHunyuan/status/2087068591296536755#m",
+          "link": "https://nitter.net/Scobleizer/status/2087111247707979894#m",
+          "date_utc": "2026-08-11T09:37:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087068087426441216%2Fimg%2FhCdix5E-q-7wyGnX.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+              "content": "WorldClaw — Agentic 3D Open-World Generation at Scale"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "#LEAP will be a very personal moment for me, but more importantly, I believe it will be a defining moment for everyone at @HUMAIN . From the outside, I know it can be difficult to fully understand the journey we have been on. The speed. The late nights. The difficult decisions. The sacrifices. And the sheer amount of technology that our teams have been quietly building. At @LEAPandInnovate much of that finally comes into the light. And what makes me most proud is that I won’t be standing on that stage alone. I will be joined by our product owners, the builders themselves. They won’t be there t",
+          "link": "https://nitter.net/TareqAmin_/status/2087141503881576590#m",
+          "date_utc": "2026-08-11T11:38:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcEFqXW8AAOw9U.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "TobyPhln",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "DeepMind",
+        "foundation models"
+      ],
+      "tweets": [
+        {
+          "handle": "TobyPhln",
+          "creator": "@TobyPhln",
+          "text": "Congrats! Igor Babuschkin (@ibab) We've raised $1.1B to build AI that is owned and shaped by each of us. Check out the article published by the The New York Times that explains River AI's mission and where we're going next. Our first product is the River API which allows anyone to build custom agents and LLMs based on open weight models: river.ai/api Congrats to the team and thank you to all of our supporters. Stay tuned for more updates soon. Link River API — Train models that are yours LoRA-based fine-tuning and RL on open-source models from 35B to 1T parameters — train, sample, and serve wi",
+          "link": "https://nitter.net/TobyPhln/status/2087155070399832128#m",
+          "date_utc": "2026-08-11T12:32:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085040851877584896%2Fh25dfFaU%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://river.ai/api",
+              "content": "API — River API Blog Careers API · v0.1 preview An API to train models that are yours . LoRA-based fine-tuning RL on open-source models, from 35B to 1T parameters. Train, sample, and serve with one small Python client. Sign up → See an example → Training Kimi K2.6 Sample Reward Update Your model, getting better 0.94 reward step 184 / 200 01 / What it does Stop prompting. Start training . Prompting steers a model you don't own and can't improve. River lets you train open models into ones that are truly yours — and serve them like any other endpoint. Prompting few-shot the model stays generic You nudge behavior with context — the weights never change Quality plateaus; the hardest tasks stay out of reach Long prompts and big models tax every single call You rent behavior you can't keep, versi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "The Trump-Vance Administration's War on Fraud is exposing the criminals stealing from hardworking American taxpayers and endangering our most vulnerable neighbors. This fraudster billed Medicare for more than $500,000 of services that were never provided, even after patients had died. She will now face justice. Dr. Oz CMS (@DrOzCMS) She billed Medicare for therapy that never happened… even after patients had died. That's not just fraud. It's exploitation of some of our most vulnerable Americans. If you steal from Medicare, we're coming after you. Every dollar recovered protects patients, taxpa",
+          "link": "https://nitter.net/WHFraudTF/status/2087200724664938657#m",
+          "date_utc": "2026-08-11T15:33:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc2TwOXgAAcvGb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "SNAP fraudsters steal from American taxpayers and rob a program intended to feed families in need. @VP Vance's Fraud Task Force and our partners are exposing schemes and the criminals bleeding programs dry. Fraudsters beware. Secretary Brooke Rollins (@SecRollins) 🚨 TUESDAY TAKEDOWN 🚨 A $1.5 MILLION SNAP fraud scheme has been busted in Albany, New York. Our @USDA investigators found Top 10 Deli & Grocery allegedly: 💳 Used stolen SNAP account numbers from recipients across state lines 🚬 Allowed benefits to purchase alcohol and cigarettes—and exchanged benefits for cash 📈 Redeemed 600% more SNAP",
+          "link": "https://nitter.net/WHFraudTF/status/2087177580663214096#m",
+          "date_utc": "2026-08-11T14:01:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPccT21bsAAYJOK.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "amanrsanger",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "amanrsanger",
+          "creator": "@amanrsanger",
+          "text": "Each wave of ai product birthed the dominant player of that era. There was OpenAI and chat, then Anthropic and coding. Welcome SpaceXAI and general knowledge work. Grok Bot (@bot) Introducing Grok Bot, now in early beta. Bots are AI teammates that do real work for you. They sign in to your tools, use them just like you do, and come back with finished work. Video — https://nitter.net/bot/status/2087224798078517251#m",
+          "link": "https://nitter.net/amanrsanger/status/2087230405426683993#m",
+          "date_utc": "2026-08-11T17:31:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087221157787525120%2Fimg%2Fn9OrR6nUrxVZL4oY.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cleoabram",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cleoabram",
+          "creator": "@cleoabram",
+          "text": "This tiny transformer robot was built for the moon… Video",
+          "link": "https://nitter.net/cleoabram/status/2087175830124593508#m",
+          "date_utc": "2026-08-11T13:54:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087175623043362816%2Fimg%2F-dcR4lstFZZjh8ub.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "WiFi 7 is crazy!",
+          "link": "https://nitter.net/dhh/status/2087197024936407167#m",
+          "date_utc": "2026-08-11T15:18:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc2obBXEAEwxni.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "We're recording round two of this on Monday! While the calendar says it's only been a year, it feels more like twenty since we've entered the age of agents. Lex Fridman (@lexfridman) Here's my 6 hour conversation with @dhh , a legendary programmer, creator of Ruby on Rails, author, and race car driver. This was a fun and inspiring conversation on everything from the future of programming & AI to the nature of happiness & productivity to the value of family, getting married and having kids. X limits video length to 6 hours. So this full convo doesn't fit (by a few minutes). So, the first 6 hour",
+          "link": "https://nitter.net/dhh/status/2087186849714393254#m",
+          "date_utc": "2026-08-11T14:38:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F1944082789587914752%2Fimg%2FF40lC0kwqoRGAxhm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "IT'LL BE WHAT IT'LL BE!",
+          "link": "https://nitter.net/dhh/status/2087190564840059286#m",
+          "date_utc": "2026-08-11T14:53:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcwppPXMAAiWe6.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Three months of work. A (literal) thousand PRs. One incredible Quattro! Almost there. github.com/basecamp/omarchy/…",
+          "link": "https://nitter.net/dhh/status/2087156526058230092#m",
+          "date_utc": "2026-08-11T12:37:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcQbSyWEAA1DED.png"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/basecamp/omarchy/pull/6231",
+              "content": "Quattro by dhh · Pull Request #6231 · basecamp/omarchy · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CAS"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Control your Apple TV directly from Omarchy Quattro with this cool new community plugin. omarchyplugins.com/plugin.ht…",
+          "link": "https://nitter.net/dhh/status/2087131373698003438#m",
+          "date_utc": "2026-08-11T10:57:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPb61o3X0AAgC1N.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://omarchyplugins.com/plugin.html?id=io.github.teevans.apple-tv-remote",
+              "content": "Plugin Details | Omarchy Plugins Skip to plugin details PLUGIN MARKETPLACE Marketplace Omarchy plugins Discover Browse plugins Publish a plugin GitHub repository ↗ Omarchy / Plugins / Loading… Browse Plugin not found This plugin does not exist in the current catalog. Back to marketplace On this page Overview Install Trust & source Metadata Status — Version — License — Owner — Browse Plugin Install Publish Command copied"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "How about a Quattro theme for your Omarchy Quattro? Featuring the Queen of Speed: Mouton! github.com/AlexZeitler/omarc…",
+          "link": "https://nitter.net/dhh/status/2087128539099259236#m",
+          "date_utc": "2026-08-11T10:46:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPb4Q2oXsAAv-Mv.jpg",
+            "https://nitter.net/pic/media%2FHPb4R-cXwAA-bFh.jpg",
+            "https://nitter.net/pic/media%2FHPb4TjkXUAA9MK4.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/AlexZeitler/omarchy-quattro-theme",
+              "content": "GitHub - AlexZeitler/omarchy-quattro-theme: An Omarchy theme based on the Audi Sport quattro rally livery · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Sm"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Every wish, every whim. The agent genie complies 🧞 tobi lutke (@tobi) Better annotating screenshot tool coming to Omarchy Quattro. github.com/tobi/omasnap Video — https://nitter.net/tobi/status/2086997507855331434#m",
+          "link": "https://nitter.net/dhh/status/2087123570728046781#m",
+          "date_utc": "2026-08-11T10:26:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086997447075581952%2Fimg%2FRJhbVr2kxrKXPQWH.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/tobi/omasnap",
+              "content": "GitHub - tobi/omasnap: Native Wayland screenshot and annotation editor for Omarchy and Hyprland · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and me"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Can you spot my agent acceleration lift off 😂?",
+          "link": "https://nitter.net/dhh/status/2087105245071409432#m",
+          "date_utc": "2026-08-11T09:14:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPbjEOQWYAAYQzQ.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "Gemini 3.5 Flash vs GPT 5.6 Sol vs Opus 4.8 reasoning on AIME 2025 Problem 14 gemini looks like deepseek R1 era, gpt traces are very dense, opus already memorized the answer Alexander Panfilov (@kotekjedi_ml) We can finally talk about it: We found a way to extract hidden reasoning of frontier models using a vulnerability in the APIs of every frontier AI company. We verified that our reasoning token count matches billed API thinking tokens 1:1 for most of the prompts we queried. — https://nitter.net/kotekjedi_ml/status/2087147042888114428#m",
+          "link": "https://nitter.net/eliebakouch/status/2087196518339997718#m",
+          "date_utc": "2026-08-11T15:16:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc1NJTX0AAj-Sz.jpg",
+            "https://nitter.net/pic/media%2FHPcJLMtagAAx07t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "gemini have much more structure than R1 tho but it's very different than sol and opus right? this is what deepseek R1 looked like (the let and wait everywhere remind me of that) huggingface.co/datasets/open…",
+          "link": "https://nitter.net/eliebakouch/status/2087198572722680076#m",
+          "date_utc": "2026-08-11T15:24:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc4BuzWUAA5NYg.png"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/datasets/open-r1/OpenR1-Math-220k/viewer/default/train",
+              "content": "open-r1/OpenR1-Math-220k · Datasets at Hugging Face \\nOkay, so I need to find the speed of the ship in still water and the speed of the river. Let me start by recalling that when a ship is moving upstream, its effective speed is the speed of the ship minus the speed of the river. Conversely, when moving downstream, its effective speed is the ship's speed plus the river's speed. \\n\\nLet me denote the speed of the ship in still water as \\\\( v \\\\) (in km/h) and the speed of the river as \\\\( r \\\\) (also in km/h). Then, the upstream speed would be \\\\( v - r \\\\), and the downstream speed would be \\\\( v + r \\\\).\\n\\nThe problem mentions three different journeys:\\n\\n1. 24 km upstream and 28 km downstream, taking half an hour less than the second journey.\\n2. 30 km upstream and 21 km downstream, whi"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "insane paper, they extracted reasoning from frontier models by asking less safeguarded models (luna, haiku, ...) to decrypt and output the decoded version of the encrypted reasoning block. while reading this post or the paper, keep in mind this is a somewhat \"lossy\" decryption, but they have experiments to test it and it seems pretty accurate some stuff i found really interesting (much more in the paper and especially the appendix): - they were able to extract tokens and personal information from publicly available traces with this method - gpt models are trying to be very efficient in reasoni",
+          "link": "https://nitter.net/eliebakouch/status/2087179305474298162#m",
+          "date_utc": "2026-08-11T14:08:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPclUkvXkAAaAqG.jpg",
+            "https://nitter.net/pic/media%2FHPcJLMtagAAx07t.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "paper by @kotekjedi_ml @DavidSchmotz @iliaishacked @JSchaeff3r @lbeurerkellner @AmyPrb @jonasgeiping @maksym_andr very clever and impressive work, you should instant follow them",
+          "link": "https://nitter.net/eliebakouch/status/2087187211577897363#m",
+          "date_utc": "2026-08-11T14:39:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "about why no fable 5 they explain it here btw",
+          "link": "https://nitter.net/eliebakouch/status/2087181425082593456#m",
+          "date_utc": "2026-08-11T14:16:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcoZAfWwAAZbrB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "cc @kotekjedi_ml @maksym_andr if you have more insight here 🙏",
+          "link": "https://nitter.net/eliebakouch/status/2087181299828039969#m",
+          "date_utc": "2026-08-11T14:16:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "minchoi",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "minchoi",
+          "creator": "@minchoi",
+          "text": "X's new creator program starts Sept 8. Original creators: why won't you qualify? 500 followers? 500K impressions? Something else? Tell me what's holding you back.",
+          "link": "https://nitter.net/minchoi/status/2086958130219364406#m",
+          "date_utc": "2026-08-10T23:29:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPZdVGEXEAAVfXf.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "time to build",
+          "link": "https://nitter.net/ns123abc/status/2087212119968141732#m",
+          "date_utc": "2026-08-11T16:18:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPdEXGNWsAA1LEm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "let’s see naval ravikant’s proprietary model Naval (@naval) People who are serious about software train their own models. — https://nitter.net/naval/status/2086987724037185547#m",
+          "link": "https://nitter.net/ns123abc/status/2087165941142442046#m",
+          "date_utc": "2026-08-11T13:15:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcaXPdWkAAjCU3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Are you READY for Grok 4.6?!?!?!",
+          "link": "https://nitter.net/ns123abc/status/2087134273576821208#m",
+          "date_utc": "2026-08-11T11:09:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPb9j2jXEAAVmwS.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Today, NVIDIA announced NVIDIA Nemotron 3.5 Lightning, a customizable model for high-volume, specialized work, and NVIDIA NeMo Switchyard, which helps agents route each workflow step across the models they choose. ⚡ Article NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud. Source: NVIDIA Blog By Kari",
+          "link": "https://nitter.net/nvidia/status/2087172614896988545#m",
+          "date_utc": "2026-08-11T13:41:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPZnRzIaAAAqVYD.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "How did this guy ever get a law degree? Bonta is so dumb he doesn't even know what \"blackmail\" means. Which is ironic, given his past... Rob Bonta (@AGRobBonta) In a span of weeks, Paramount agreed to halt the merger until a court decision or until June 2027, asked for a November trial, and is now back with another attempt to blackmail the state into letting an illegal deal through. Paramount has lost the plot as it continues to lose in court. It didn't work the first time — on the eve of our July lawsuit — and it won't work this time. — https://nitter.net/AGRobBonta/status/2087207116767711437",
+          "link": "https://nitter.net/spencerpratt/status/2087218926602133566#m",
+          "date_utc": "2026-08-11T16:45:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Bonehead Bob Bonta is literally creating the very problem he’s pretending to be fighting. This would destroy so many film jobs in CA. Bonta is a legit jihadi on a suicide mission. Matthew Belloni (@MattBelloni) David Ellison just told his staff that Paramount will move out of California if he can't settle the state lawsuit over the Warner Bros. merger. And he set a very specific (and very soon!) deadline. Tons of new details ⬇️⬇️ puck.news/david-ellison-has-… Link David Ellison Has Gamed Out His California Exit It’s hard to gauge the seriousness of the Paramount chief’s threat to leave the sta",
+          "link": "https://nitter.net/spencerpratt/status/2087214249563013379#m",
+          "date_utc": "2026-08-11T16:27:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087054580547026944%2FkrP2GO8t%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://puck.news/david-ellison-has-gamed-out-a-california-exit-plan/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "In all her years in charge of the Homelessness committee in LA, Nithya Raman hasn't done a SINGLE thing to help these poor animals. Good on the feds for intervening to fight this nightmare of animal abuse on Skid Row. F.A. United States Attorney Bill Essayli (@USAttyEssayli) We are announcing a $5,000 reward for tips leading to the successful prosecution of defendants who have violated the federal Preventing Animal Cruelty and Torture (PACT) Act. This law criminalizes animal abuse in or affecting interstate or foreign commerce and making “animal crush” videos that depict obscene animal abuse. ",
+          "link": "https://nitter.net/spencerpratt/status/2087207637720907884#m",
+          "date_utc": "2026-08-11T16:00:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2045264312412102656%2Fimg%2F3mC3s89wuFZOHdpU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya Raman's partner at DSA LA says their goal is to completely abolish police prisons. When asked what happens if a girl gets raped? Her answer? \"I want to talk about street lights.\" These communists are insane. Crazy slovenly malcontents. Video",
+          "link": "https://nitter.net/spencerpratt/status/2087201547784470606#m",
+          "date_utc": "2026-08-11T15:36:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086619279630139392%2Fimg%2FbWqCchsyDz9z6cm7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "You all have no idea the amount of corruption and money that’s changed hands with Nithya running the homeless industrial complex these last few years. 100% demands a federal investigation… JoeyTuccio (@joey_tuccio) I’ll go one step further with Nithya getting fired from the homelessness committee. She should also be investigated to see her involvement with every single scandal around the homeless industrial complex over the last three years. — https://nitter.net/joey_tuccio/status/2087191398156230886#m",
+          "link": "https://nitter.net/spencerpratt/status/2087200103924650040#m",
+          "date_utc": "2026-08-11T15:30:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc5bu9XoAEleFh.jpg",
+            "https://nitter.net/pic/media%2FHPc5bu7W4AAmh41.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Good morning from Nithya Raman’s district! No wonder that incompetent communist got axed from her role in charge of homelessness in LA. Good riddance.",
+          "link": "https://nitter.net/spencerpratt/status/2087198849894945055#m",
+          "date_utc": "2026-08-11T15:25:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPc4SrsW4AA2nfh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Stupid-smart guy Galloway strikes again! AOC = All Out Communist Western Lensman (@WesternLensman) Jessica Tarlov claims AOC now is a \"Moderate Dem\" as compared to the \"core DSA wing.\" Scott Galloway agrees that this is a \"fair point.\" AOC is a member of NYC DSA. The gaslighting levels coming in an attempt to rebrand AOC for 2028 are going to be stratospheric. Video — https://nitter.net/WesternLensman/status/2086824285457256824#m",
+          "link": "https://nitter.net/spencerpratt/status/2087192372589318411#m",
+          "date_utc": "2026-08-11T15:00:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2086822376386244608%2Fimg%2FFc9oDKnec9RmXhwm.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "What's origin?🤨 Mark Yi (@himarkyi) origin — https://nitter.net/himarkyi/status/2087104757119029260#m",
+          "link": "https://nitter.net/stepango/status/2087204589825306683#m",
+          "date_utc": "2026-08-11T15:48:47+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Say it! lauren (@poteto) it’s a good day to ship — https://nitter.net/poteto/status/2087053494570361136#m",
+          "link": "https://nitter.net/stepango/status/2087201240786796555#m",
+          "date_utc": "2026-08-11T15:35:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "This guys knows smth I don't 🤔",
+          "link": "https://nitter.net/stepango/status/2087193496805617697#m",
+          "date_utc": "2026-08-11T15:04:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPczbKkboAA4Oi2.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "theskory",
+      "org": "Meta AI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "theskory",
+          "creator": "@theskory",
+          "text": "They must stay. Just stop using raw git for them. Grok Build already handles worktrees properly for agent swarms: shared base, no disk bloat, no SSD thrashing, concurrent same-branch checkouts, and fast spin-up/reset. We’re also working on much lighter primitives. swyx (@swyx) worktrees must die this is 20GB of repeated node_modules lol — https://nitter.net/swyx/status/2086962980235939920#m",
+          "link": "https://nitter.net/theskory/status/2087126307163320617#m",
+          "date_utc": "2026-08-11T10:37:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPZhNpXbsAAn_-G.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
