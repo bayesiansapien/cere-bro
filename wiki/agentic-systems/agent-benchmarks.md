@@ -2,7 +2,23 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
-## Current State (as of 2026-08-10)
+## Current State (as of 2026-08-11)
+
+**Measurement validity is no longer a caveat on this page. It is the page's central problem, and three papers on one board said so.**
+
+*The audit.* [SWE-Bench ProMax (08-11)](2026-08-11-swe-bench-promax.md) (2608.09802) cites a finding that should reset how every SWE-bench number in this wiki is read: **nearly 60% of unsolved SWE-bench Verified instances contain flawed tests**, either overly narrow tests that reject correct solutions or overly broad tests that check unstated requirements, and frontier models can **verbatim reproduce gold patches from training data**. Its replacement moves to **behavior-preserving multilingual refactoring**, a task type that resists both failure modes because correctness has a sharp definition and there is no canonical patch to recall: 170 expert-curated instances across seven languages, averaging **11.4 modified files and 261.6 lines** per instance, with issue descriptions rewritten from scratch and test suites manually reviewed. Best frontier model under two agent scaffolds: **41.2%**.
+
+*The metric critique.* [A²E (08-11)](2026-08-11-harness-evolution-cluster.md) (2608.07346) argues correctness alone is too coarse for comparing agent harnesses, and adds **execution efficiency, tool use, task planning and error recovery** as separate dimensions via an Agent Task Protocol and an automatically instrumented Monitor producing standardized traces. Its finding is a negative one with teeth: **model-harness combinations vary substantially by task type and no single combination consistently wins**, which means every single-harness leaderboard number is a joint measurement being reported as a model property.
+
+*The construction critique.* [Evo-Bench (08-11)](2026-08-11-harness-evolution-cluster.md) (2608.09096) builds explicit machinery, auxiliary-task evolution plus sensitivity-aware stratified splitting, to **isolate harness-improving capability from base model strength and prevent task-specific overfitting**, because no existing evaluation does.
+
+*Put those beside yesterday's entry and the pattern is established.* [StreamArena (08-10)](2026-08-10-streamarena-streammind.md) found that on existing streaming-video benchmarks a baseline reading **only the last four frames** matches complex streaming models. **Four papers in two days, across coding agents, agent harnesses and streaming video, all reporting that a widely trusted benchmark was substantially measuring an artifact of its own construction.** That crosses this wiki's three-paper threshold twice over.
+
+**The number to carry forward is the spread, not any single score.** On one board: Ouroboros at **86.74% on Terminal-Bench 2.1** and **90.69% on OSWorld-Verified**, both best-known, against **41.2% on ProMax refactoring**. Near-saturation on interactive terminal and OS tasks; under half on coordinated multi-file behavior-preserving change. **Agent capability is benchmark-shaped, and the shape is that agents add code well and restructure it badly**, which is the direction that accumulates cost, consistent with the [08-10 finding that AI-written C++ consumes 5 to 8% more compute in production](../ai-industry/2026-08-10-ai-generated-cpp-production-quality.md) across 3.52 million changes.
+
+*Two limits on ProMax itself.* 170 hand-curated instances is small for a successor to a saturating standard, and manual curation is both the quality guarantee and the reason it cannot be refreshed at scale. Two agent scaffolds is a narrow harness sample, and A²E's same-day finding is precisely that the harness matters, so **41.2% may be a scaffold ceiling rather than a model ceiling**.
+
+## Prior State (as of 2026-08-10)
 
 **A trivial recency baseline beats streaming video models, which makes this the fourth protocol failure on this page in one week.** [StreamArena (08-10)](2026-08-10-streamarena-streammind.md) reports that on existing streaming-video benchmarks, a minimal method reading **only the last four frames** matches or surpasses complex streaming models, and that multiple-choice answer options separately expose language shortcuts. Its replacement is 243 videos averaging 88.8 minutes with 3,646 **open-ended** question-answer pairs, and the open-ended format is load-bearing rather than stylistic: with options present, the benchmark was measuring language priors instead of perception.
 
