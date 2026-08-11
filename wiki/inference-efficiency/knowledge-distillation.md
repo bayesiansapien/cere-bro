@@ -295,3 +295,17 @@ On-policy distillation has become the dominant approach for reasoning model comp
 - [../llms-foundation-models/rl-for-llms.md](../llms-foundation-models/rl-for-llms.md)
 - [../llms-foundation-models/2026-04-16-prerl-rl-in-pretrain-space.md](../llms-foundation-models/2026-04-16-prerl-rl-in-pretrain-space.md)
 - [kv-cache.md](kv-cache.md)
+
+## The anti-distillation defense is architecturally broken (2026-08-11)
+
+**[Stealing Reasoning Traces from Proprietary LLM APIs (08-11)](../responsible-ai/2026-08-11-stealing-reasoning-traces.md)** changes the standing state of knowledge on this page in a way no method paper has. Every entry above concerns how to distill well. This one concerns whether distillation can be *prevented*, and the answer is no.
+
+The mechanism matters because it explains why the defense fails. Frontier providers hide chain-of-thought by encrypting it and returning the ciphertext to the client, which replays it on each subsequent request. The encryption binds nothing: the blocks are **fully interchangeable across sessions, users, and models within one provider's ecosystem**. So an adversary injects a strong model's encrypted trace into a weaker, less-safeguarded sibling model from the same provider, and that model decodes and emits the trace verbatim in plaintext. The protected model is never jailbroken, so its safety training is irrelevant to the attack. Demonstrated across **Anthropic, OpenAI, and Google**, which makes it a design-pattern failure rather than one vendor's bug.
+
+Three consequences for this page:
+
+1. **Hidden reasoning is not a moat.** Any lab relying on concealed CoT to stop competitors training on its reasoning has been relying on nothing. The recoverable artifact is exactly the trace that on-policy distillation wants.
+2. **The policy argument shifts ground.** [The Distillation Panic (05-04)](2026-05-04-distillation-panic-lambert.md) argued that legislative framing conflates legitimate post-training distillation with API jailbreaking. This attack is neither: it does not jailbreak the protected model at all, so a regime that polices jailbreaking does not reach it. The distinction the policy debate rests on is not the distinction that governs the technique.
+3. **Provenance moves from prevention to detection.** Anthropic shipped in-text invisible watermarking on 08-10, carried in the text rather than metadata so it survives copy-paste. Hugging Face's Elie Bakouch asked publicly whether watermarking is really an instrument for *proving* a competitor trained on Claude output. If prevention has failed, watermark-based forensics is the remaining lever, and it is a fundamentally weaker one: it establishes that copying happened after the fact rather than stopping it.
+
+**Open question this raises for the selective-supervision thread.** Every method on this page assumes a cooperative teacher whose distribution you are licensed to query. A recovered trace gives you the teacher's *text* but not its per-token distribution, so the extraction attack supplies SFT-grade data, not the dense token-level signal that on-policy distillation depends on. Whether trace-level theft is actually competitive with licensed dense supervision is unmeasured, and it is the number that decides how much the broken defense really costs. The paper does not report it.
