@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-08-07T16:30:00.919390+00:00",
+  "following_last_checked": "2026-08-11T03:30:07.289428+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -85,7 +85,10 @@
     "BernardArnault",
     "umdeclaration",
     "WNDRCO_JK",
-    "demonflyingfox"
+    "demonflyingfox",
+    "Peal8888",
+    "signulll",
+    "allegrajacchia"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -744,6 +747,15 @@
       "handle": "cleoabram",
       "name": "Cleo Abram",
       "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "ClementDelangue",
+      "name": "clem 🤗",
+      "org": "Hugging Face",
       "timezone": "PT",
       "focus": [
         "AI"
