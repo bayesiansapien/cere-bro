@@ -1318,3 +1318,19 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 **Cross-source convergence named in the Media Zone.** tinygrad's "we lower kernel dispatch to GPU command queues in the same way we lower Tensor programs to kernels" is the same conclusion TileRT reached commercially, that dispatch belongs inside the compiled graph. An open framework and a closed runtime arriving there independently within a day is stronger evidence for the launch-overhead thesis than either alone.
 
 **Sources with nothing to contribute today, recorded so the absence is not mistaken for coverage.** All eight Reddit subs returned zero posts for a third consecutive day. RSS had published only three items dated 2026-08-11 by early afternoon, so the RSS layer is mostly 08-10 files; a re-run later in the day is warranted. Newest YouTube capture is 2026-08-09. alphaxiv returned empty for both 2608.09867 and 2608.09819, so both Deep Dives were written from abstracts, and the Macaron gaps section reflects what the abstract does not say rather than what the full paper omits.
+
+## [2026-08-12] ingest | SkillZip: evaluation-free skill compression for self-evolving agents | huggingface
+## [2026-08-12] ingest | ALTK-Evolve: selective context delivery (IBM Research) | rss/huggingface-blog
+## [2026-08-12] ingest | Mendel Gödel Machine: recursive self-improvement via comparative evolution | huggingface
+## [2026-08-12] ingest | DSAgentBench, SPIEval, VibeLifeBench: three agent benchmarks | huggingface
+## [2026-08-12] ingest | Co-Evolution in Agentic Systems (survey) | huggingface
+## [2026-08-12] ingest | From Sweep to Seam: interleaved cross-block post-training quantization | kurate
+## [2026-08-12] ingest | Semiconductor Newsletter week 32 2026 | gmail
+## [2026-08-12] ingest | Continual learning is arriving in pieces (Gradient Flow) | rss
+## [2026-08-12] digest | cere-bro 2026-08-12 | daily-digest
+## [2026-08-12] media-live | morning slot synthesis | social-stream
+## [2026-08-12] media-zone | 2026-08-12 synthesis | media-zone
+
+**Coverage gaps recorded 2026-08-12.** All eight `raw/reddit/2026-08-12-r-*.md` files returned zero posts passing filters, the **fourth consecutive empty day** across every sub including r/LocalLLaMA, r/CUDA and r/HPC. Four days of uniform silence is not a quiet week and the Reddit farmer should be investigated rather than the silence believed. Twitter captured 86 tweets with zero @bayesiansapien retweets for a third day, and over half the volume was off-topic political content from six handles. Kurate's weekly tournament had not run at scrape time, all 40 entries across cs.AI and cs.LG sitting at the 1200 TrueSkill baseline with 0% win rate, so this week's rankings carry no quality signal and From Sweep to Seam was selected on topic rather than rank. Only two RSS items were dated 2026-08-12; the farmer additionally backfilled 31 items dated 2026-08-11 that were unavailable when the 08-11 digest was written, and the ALTK-Evolve, continual-learning, Nemotron 3.5 Lightning, Anthropic IPO and Riot Platforms items come from that backfill. alphaxiv returned partial overviews for 2608.07645 and 2608.09595 only; 2608.11079 and 2608.10299 have none and were written from abstracts. No X session cookies at `~/.config/cere-bro/x-cookies.json`, so the bookmarks layer was unavailable for the Media Zone.
+## [2026-08-12] ingest | JigShape: visual-geometric reasoning cliff in VLMs | huggingface
+## [2026-08-12] ingest | Frontier AI Risk Monitor Q2 2026 (Concordia AI) | rss
