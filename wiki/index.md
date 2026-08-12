@@ -8,6 +8,7 @@ Catalog of all pages. Updated on every ingest.
 
 | Page | Summary |
 |------|---------|
+| [agent-harness-engineering.md](agentic-systems/agent-harness-engineering.md) | Concept: the harness/loop/graph layer around the model. Unifies research (code-as-harness, scaling-the-harness, LongHorizon, omarsar0's 5-30x cost benchmark) with the 2026-08 practitioner loop-engineering wave. Harness is the primary cost/design surface, not the model. |
 | [gui-agents.md](agentic-systems/gui-agents.md) | Concept: MLLM-based GUI agents, long-horizon challenges, key papers |
 | [agent-benchmarks.md](agentic-systems/agent-benchmarks.md) | Concept: benchmarks for agentic AI. OccuBench, GameWorld, MERRIN, explore/exploit |
 | [2026-04-16-ui-copilot.md](agentic-systems/2026-04-16-ui-copilot.md) | UI-Copilot: memory decoupling + TIPO for long-horizon GUI tasks |
