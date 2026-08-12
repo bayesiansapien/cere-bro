@@ -623,6 +623,8 @@ The Media Zone synthesis is written by the morning cron in the same Claude call 
 
 **Format rule — two treatments by source.** (A) **Saved posts / bookmarks (the knowledge backbone): digest-like but compressed.** For each saved article, read its enriched content and write a compressed Deep Dive — what the work is, the problem it solves, the core idea, why it matters — shorter than a full daily-digest Deep Dive but genuinely explanatory, so a reader learns the idea without opening the paper. (B) **Everything else (general scrape, YouTube, Reddit): compact-explanatory.** Each cluster is 3-5 compact bullets (~20-40 words) that briefly explain the item and name a framing angle where it fits. Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
 
+**Visual card feed.** The Media Zone renders as a scrollable card feed, not a plain list. Render substantive items with a visual as HTML cards inside `<div class="mz-feed">…</div>` grids: `<div class="mz-card">` (add class `video` for videos) → `<a class="mz-card-thumb"><img referrerpolicy="no-referrer" loading="lazy"></a>` → `<div class="mz-card-body">` with `<span class="mz-card-badge">`, `<h4>` title, a 3-5 sentence high-level blurb `<p>` (what it is + why it matters, not a one-liner), and `<div class="mz-card-foot"><a>link</a></div>`. Card CSS lives in `site/src/styles/global.css`. Thumbnails come from the bookmark data: X articles carry a cover image (`article.cover_media.media_info.original_img_url`), native X videos carry a poster (`extended_entities.media[].media_url_https`); both hotlink from `pbs.twimg.com`. Add a mermaid diagram (landscape, colored classDef) for the dominant cluster's anchor concept.
+
 ```markdown
 # Media Zone | YYYY-MM-DD
 
