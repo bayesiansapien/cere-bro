@@ -1677,3 +1677,47 @@ th {
 @media (max-width: 520px) {
   .mz-feed { grid-template-columns: 1fr; gap: 14px; }
 }
+
+/* ============================================================
+   "Today's 3 for you" — the priority triage block. Sits at the
+   top of the digest / media zone; the 30-second attention layer.
+   ============================================================ */
+.today3 {
+  background: linear-gradient(180deg, rgba(245, 158, 11, .10), rgba(245, 158, 11, .03));
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  padding: 15px 20px 14px;
+  margin: 18px 0 30px;
+}
+.today3-head {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: .95rem;
+  color: var(--accent);
+  letter-spacing: .01em;
+  margin-bottom: 10px;
+}
+.today3 ol { margin: 0; padding-left: 1.35rem; }
+.today3 li {
+  margin-bottom: 10px;
+  line-height: 1.55;
+  font-size: .92rem;
+  color: var(--fg-dim);
+}
+.today3 li:last-child { margin-bottom: 0; }
+.today3 li strong { color: var(--fg); }
+.today3 .verb {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 1px 7px;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.today3 .verb.read { background: rgba(16,185,129,.16); color: #34d399; }
+.today3 .verb.skim { background: rgba(245,158,11,.16); color: var(--accent-2); }
+.today3 .verb.track { background: rgba(59,130,246,.16); color: #60a5fa; }
