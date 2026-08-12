@@ -1,1 +1,4 @@
 requests>=2.31.0
+# Optional: auto-reads X session cookies from your local browser so you never
+# export a cookie file. The farmer falls back to x-cookies.json without it.
+browser_cookie3>=0.19.0

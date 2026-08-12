@@ -450,6 +450,8 @@
   "article_fetch_timeout": 10,
   "article_max_chars": 10000,
   "x_cookies_path": "~/.config/{{WIKI_NAME}}/x-cookies.json",
+  "browser_cookies": true,
+  "browser_cookie_timeout": 20,
   "download_images": true,
   "image_download_timeout": 8,
   "bookmarks": {
