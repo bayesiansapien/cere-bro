@@ -63,7 +63,7 @@ DOWNLOAD_IMAGES   = cfg.get("download_images", True)
 IMG_TIMEOUT       = cfg.get("image_download_timeout", 8)
 # Auto-read X cookies from the local browser (no manual export). See _cookies_from_browser.
 BROWSER_COOKIES        = cfg.get("browser_cookies", True)
-BROWSER_COOKIE_TIMEOUT = cfg.get("browser_cookie_timeout", 20)
+BROWSER_COOKIE_TIMEOUT = cfg.get("browser_cookie_timeout", 45)
 
 # Bookmarks (saved posts) capture — auth-gated, needs auth_token + ct0 cookies.
 BM_CFG            = cfg.get("bookmarks", {}) or {}
@@ -88,16 +88,36 @@ def _cookies_from_browser(timeout: int = 20) -> dict:
     ("Always Allow"), every later run reads instantly with no prompt.
     """
     import subprocess
+    # Enumerate EVERY Chromium profile's cookie DB (users often keep X in a
+    # non-default profile like "Profile 4"), then fall back to each browser's
+    # default profile, then Firefox/Safari. First store with auth_token+ct0 wins.
     helper = (
-        "import sys, json\n"
+        "import sys, json, os, glob\n"
         "try:\n"
         "    import browser_cookie3 as bc3\n"
         "except Exception:\n"
         "    print('{}'); sys.exit(0)\n"
-        "for fn in (bc3.chrome, bc3.brave, bc3.edge, bc3.firefox, bc3.safari):\n"
+        "home = os.path.expanduser('~')\n"
+        "roots = {\n"
+        "    'chrome': 'Library/Application Support/Google/Chrome',\n"
+        "    'brave':  'Library/Application Support/BraveSoftware/Brave-Browser',\n"
+        "    'edge':   'Library/Application Support/Microsoft Edge',\n"
+        "}\n"
+        "cands = []\n"
+        "for name, root in roots.items():\n"
+        "    fn = getattr(bc3, name, None)\n"
+        "    if not fn: continue\n"
+        "    base = os.path.join(home, root)\n"
+        "    for db in sorted(glob.glob(os.path.join(base, '*', 'Cookies'))):\n"
+        "        if 'Guest Profile' in db or 'System Profile' in db: continue\n"
+        "        cands.append((fn, {'cookie_file': db, 'domain_name': 'x.com'}))\n"
+        "    cands.append((fn, {'domain_name': 'x.com'}))\n"
+        "for nm in ('firefox', 'safari'):\n"
+        "    fn = getattr(bc3, nm, None)\n"
+        "    if fn: cands.append((fn, {'domain_name': 'x.com'}))\n"
+        "for fn, kw in cands:\n"
         "    try:\n"
-        "        jar = fn(domain_name='x.com')\n"
-        "        c = {ck.name: ck.value for ck in jar if ck.value}\n"
+        "        c = {ck.name: ck.value for ck in fn(**kw) if ck.value}\n"
         "        if c.get('auth_token') and c.get('ct0'):\n"
         "            print(json.dumps(c)); sys.exit(0)\n"
         "    except Exception:\n"
