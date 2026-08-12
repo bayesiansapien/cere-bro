@@ -644,7 +644,12 @@ Without synthesis, the Media Zone collapses into a dumping ground of thumbnails 
 
 The Media Zone synthesis is written by the morning cron in the same Claude call as the daily digest. It is a separate file so the Astro site can render it under its own tab.
 
-**Format rule — compact, but explained (updated 2026-08-05).** Media Zone is a feed-style read, lighter than the wiki digest, but NO LONGER bare one-line pointers. Each cluster is **3-5 compact bullets**, each a short sentence or two (roughly 20-40 words) that briefly explains the item and its optimization angle, so the reader gets context without opening the wiki. Still not full prose paragraphs, and still much lighter than a Deep Dive — think "a knowledgeable friend's two-line note on why this matters," not "a headline." Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
+**Format rule — two treatments (updated 2026-08-12).** The Media Zone now has two depths, by source:
+
+- **Saved posts / bookmarks (the knowledge backbone): digest-like but compressed.** For each saved article, read its enriched content and write a compressed Deep Dive — what the work is, the problem it solves, the core idea, why it matters, in plain language. Shorter and faster than a full daily-digest Deep Dive (no rigid 6-heading template, no mandatory diagram), but genuinely explanatory: a reader should *learn the idea* from it without opening the paper. This is the point of the section. Optimization angle only where it fits.
+- **Everything else (general scrape, YouTube, Reddit): compact-explanatory.** Each cluster is **3-5 compact bullets**, a short sentence or two (~20-40 words) that explains the item and, where relevant, its optimization angle. Think "a knowledgeable friend's two-line note on why this matters," not a headline.
+
+Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
 
 ```markdown
 # Media Zone | YYYY-MM-DD
