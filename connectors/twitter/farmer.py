@@ -689,6 +689,28 @@ def _unwrap_tweet(result):
     if note.get("text"):
         full_text = note["text"]
 
+    # X native long-form ARTICLES (x.com/i/article/...) keep their content in a
+    # separate `article` object; the tweet text is only a ~23-char teaser. Capture
+    # the article title + preview so these (often the most substantive saves) are
+    # not dropped. Full article body needs a dedicated GraphQL call; title+preview
+    # is the reliable in-response signal.
+    article = ((result.get("article") or {}).get("article_results") or {}).get("result") or {}
+    article_url = ""
+    if article:
+        art_title = (article.get("title") or "").strip()
+        art_preview = (article.get("preview_text") or "").strip()
+        art_id = article.get("rest_id") or ""
+        if art_id:
+            article_url = f"https://x.com/i/article/{art_id}"
+        header = []
+        if art_title:
+            header.append(f"[X Article] {art_title}")
+        if art_preview:
+            header.append(art_preview)
+        if header:
+            teaser = full_text if (full_text and full_text != art_title) else ""
+            full_text = (" — ".join(header) + ((" — " + teaser) if teaser else "")).strip()
+
     user = (((result.get("core") or {}).get("user_results") or {}).get("result") or {})
     screen_name = (user.get("legacy") or {}).get("screen_name") or (user.get("core") or {}).get("screen_name") or "unknown"
 
@@ -733,6 +755,7 @@ def _unwrap_tweet(result):
         "urls":       list(dict.fromkeys(urls)),
         "image_urls": list(dict.fromkeys(image_urls)),
         "tweet_id":   tweet_id,
+        "article_url": article_url,
     }
 
 
