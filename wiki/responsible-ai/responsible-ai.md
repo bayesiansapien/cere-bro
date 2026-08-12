@@ -2,6 +2,16 @@
 
 Concept page for alignment, interpretability, safety, and explainability work.
 
+## Current State (as of 2026-08-12)
+
+**The safeguard-versus-capability gap now has a quarterly time series, and both curves point the wrong way.**
+
+[Frontier AI Risk Monitor Q2 2026 (08-12)](2026-08-12-frontier-ai-risk-monitor-q2.md) is Concordia AI's first report under its Risk Index v2.0 framework, covering 47 frontier models from 13 developers. Average risk indices rose **4.4x in cyber offense, 6.6x in biological risk and 2.4x in loss-of-control in under a year**. The framework's contribution is splitting one risk number into two thresholds: the **Capability Yellow Line** (dangerous without safeguards, crossed by 4 models in cyber, 22 in biological, 12 in loss-of-control) and the **Risk Yellow Line** (still dangerous *with* safeguards). The measured divergence is the finding: the top model score rose 68% on CyBench and 35% on CVE-Bench, both long-horizon autonomous exploitation benchmarks, while the average cyber Safety Score **fell 3%** and prompt-injection defense regressed.
+
+*This is the page's oldest thread measured at population scale.* Under jailbreak red-teaming, field-average safety falls from **78.2 to 8.9 in biological risk** and 90.5 to 29.2 in cyber. That is the same shape as [SAE Interventions are Unreliable (06-18)](2026-06-18-sae-interventions-unreliable.md), which recovered clamped-away behavior through the autoencoder's reconstruction residual at 95.8% in the safety-critical refusal case, and [Pressure-Testing Deception Probes (06-03)](2026-06-03-deception-probes-pressure-test.md), where probes at AUROC ≥0.998 on clean data collapsed under benign stylistic shifts. A safeguard blocks the visible route while the capability stays reachable, now averaged over 47 models rather than demonstrated inside one method.
+
+*It also prices the attack from the day before.* [Stealing reasoning traces (08-11)](2026-08-11-stealing-reasoning-traces.md) showed that encrypted chain-of-thought blocks are interchangeable across models within one provider family, so a strong model's hidden reasoning is recoverable by replaying its trace into a weaker sibling and jailbreaking that instead. The Risk Monitor explains the leverage: jailbreak resistance spans **69.1% for Claude Opus 4.8 down to 5.8% for Hunyuan T1** under the same attacks, so family-wide key sharing hands an attacker the family's *minimum* safety rather than its average. Open question this raises for the page: the report gives two points, base and post-jailbreak, where [Risk Under Pressure (06-13)](2026-06-13-risk-under-pressure-compute-aware-robustness.md) argued robustness is only meaningful as a risk-compute curve, so the attack cost behind a 78.2-to-8.9 collapse remains unmeasured. Standing caution: Concordia AI builds, runs and publishes this framework with no external replication reported, and two of its five domains have no computed index yet.
+
 ## Current State (as of 2026-08-11)
 
 **The first result on this page that escapes the self-report critique rather than working around it.**
