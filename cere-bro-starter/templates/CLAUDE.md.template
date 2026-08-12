@@ -273,7 +273,9 @@ Three rules:
 
 ### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
 
-The digest is one story in five sections: TL;DR → Deep Dives → Industry Pulse → Global View → Looking Ahead. No "Also today" tail, no source-count footer. Locked-in section order as of 2026-06-03.
+The digest is one story in six blocks: **Today's 3 for you** → TL;DR → Deep Dives → Industry Pulse → Global View → Looking Ahead. No "Also today" tail, no source-count footer.
+
+**Today's 3 for you (the triage layer).** The FIRST thing in the digest, above the TL;DR: a 30-second block that *chooses the reader's attention* across BOTH the digest and the day's Media Zone, so they don't have to triage everything themselves. Pick exactly 3 items by: (1) Tier 1 fit (the reader's core topics — highest weight), (2) saved-theme momentum (what they've been bookmarking lately, per the private curation index), (3) cross-source confirmation, (4) actionability over commentary. Render as the `.today3` HTML block (`<div class="today3"><div class="today3-head">🎯 Today's 3 for you</div><ol><li><span class="verb read">Read</span><strong>Item.</strong> what it is + why it's for THIS reader + link.</li>…</ol></div>`); verb badges `read`/`skim`/`track`; CSS in `site/src/styles/global.css`. Opinionated — naming what to skip matters as much as what to read. Reused as the podcast's opening 60 seconds.
 
 ```markdown
 # cere-bro | YYYY-MM-DD
