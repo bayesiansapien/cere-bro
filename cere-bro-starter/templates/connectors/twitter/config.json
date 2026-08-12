@@ -451,5 +451,14 @@
   "article_max_chars": 10000,
   "x_cookies_path": "~/.config/{{WIKI_NAME}}/x-cookies.json",
   "download_images": true,
-  "image_download_timeout": 8
+  "image_download_timeout": 8,
+  "bookmarks": {
+    "enabled": true,
+    "max_pages": 5,
+    "count_per_page": 100,
+    "only_new": true,
+    "fetch_linked_articles": true,
+    "graphql_query_id": "iblrFnKr6PZUR-dWpfXG6g",
+    "note": "Captures your PRIVATE X bookmarks (saved posts) as top-priority Media Zone signal. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates when X ships a new web build: if bookmark fetches return 404, refresh it — open x.com/i/bookmarks logged-in, DevTools > Network, filter 'Bookmarks', copy the hash from the request URL (.../graphql/<THIS_PART>/Bookmarks). Bookmarks are written to the gitignored raw/twitter/bookmarks/ folder so your private saves never enter a public repo."
+  }
 }

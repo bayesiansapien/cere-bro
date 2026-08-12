@@ -58,6 +58,15 @@ X_COOKIES_PATH    = Path(cfg.get("x_cookies_path", "~/.config/cere-bro/x-cookies
 DOWNLOAD_IMAGES   = cfg.get("download_images", True)
 IMG_TIMEOUT       = cfg.get("image_download_timeout", 8)
 
+# Bookmarks (saved posts) capture — auth-gated, needs auth_token + ct0 cookies.
+BM_CFG            = cfg.get("bookmarks", {}) or {}
+BM_ENABLED        = BM_CFG.get("enabled", False)
+BM_MAX_PAGES      = BM_CFG.get("max_pages", 5)
+BM_COUNT          = BM_CFG.get("count_per_page", 100)
+BM_ONLY_NEW       = BM_CFG.get("only_new", True)
+BM_FETCH_LINKS    = BM_CFG.get("fetch_linked_articles", True)
+BM_QUERY_ID       = BM_CFG.get("graphql_query_id", "")
+
 # Load X session cookies for x.com/i/article/ fetches (gitignored, user-supplied)
 X_COOKIES = {}
 if X_COOKIES_PATH.exists():
@@ -483,6 +492,251 @@ def enrich(tweet: dict) -> dict:
         tweet["image_paths"] = []
     return tweet
 
+# ── Bookmarks (saved posts) via X GraphQL ──────────────────────────────────────
+#
+# The reader's SAVED / BOOKMARKED posts are the top-priority curated X signal for
+# the Media Zone (see CLAUDE.md). Bookmarks are private and auth-gated: the
+# /i/bookmarks timeline is only readable by a logged-in session, so this path
+# needs the auth_token + ct0 cookies already loaded into X_COOKIES from
+# ~/.config/cere-bro/x-cookies.json (gitignored, chmod 600, user-supplied).
+#
+# We call X's internal GraphQL "Bookmarks" operation directly with the public web
+# bearer token (this token ships in X's public JS bundle — it is NOT a user
+# credential and is safe to hardcode). Auth is carried entirely by the session
+# cookies + the ct0-derived CSRF header.
+
+# Public web-app bearer token (shipped in x.com's JS; not a secret).
+X_WEB_BEARER = (
+    "AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs"
+    "%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
+)
+
+# Feature flags required by the Bookmarks GraphQL operation. X rejects the call
+# with 400 if required flags are missing or unknown. This set is copied verbatim
+# from a live x.com/i/bookmarks request (captured 2026-08-12). If X changes its
+# required flags, refresh both this dict and graphql_query_id from a fresh request
+# (DevTools > Network > 'Bookmarks' > copy the request URL).
+BM_FEATURES = {
+    "rweb_video_screen_enabled": False,
+    "rweb_cashtags_enabled": True,
+    "profile_label_improvements_pcf_label_in_post_enabled": True,
+    "responsive_web_profile_redirect_enabled": True,
+    "rweb_tipjar_consumption_enabled": False,
+    "verified_phone_label_enabled": True,
+    "creator_subscriptions_tweet_preview_api_enabled": True,
+    "responsive_web_graphql_timeline_navigation_enabled": True,
+    "premium_content_api_read_enabled": False,
+    "communities_web_enable_tweet_community_results_fetch": True,
+    "c9s_tweet_anatomy_moderator_badge_enabled": True,
+    "responsive_web_grok_analyze_button_fetch_trends_enabled": False,
+    "responsive_web_grok_analyze_post_followups_enabled": True,
+    "rweb_cashtags_composer_attachment_enabled": True,
+    "responsive_web_jetfuel_frame": True,
+    "responsive_web_grok_share_attachment_enabled": True,
+    "responsive_web_grok_annotations_enabled": True,
+    "articles_preview_enabled": True,
+    "responsive_web_edit_tweet_api_enabled": True,
+    "rweb_conversational_replies_downvote_enabled": False,
+    "graphql_is_translatable_rweb_tweet_is_translatable_enabled": True,
+    "view_counts_everywhere_api_enabled": True,
+    "longform_notetweets_consumption_enabled": True,
+    "responsive_web_twitter_article_tweet_consumption_enabled": True,
+    "content_disclosure_indicator_enabled": True,
+    "content_disclosure_ai_generated_indicator_enabled": True,
+    "responsive_web_grok_show_grok_translated_post": True,
+    "responsive_web_grok_analysis_button_from_backend": True,
+    "post_ctas_fetch_enabled": False,
+    "freedom_of_speech_not_reach_fetch_enabled": True,
+    "standardized_nudges_misinfo": True,
+    "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": True,
+    "longform_notetweets_rich_text_read_enabled": True,
+    "longform_notetweets_inline_media_enabled": False,
+    "responsive_web_grok_image_annotation_enabled": True,
+    "responsive_web_grok_imagine_annotation_enabled": True,
+    "responsive_web_grok_community_note_auto_translation_is_enabled": True,
+    "responsive_web_enhance_cards_enabled": False,
+}
+
+
+def _bm_headers() -> dict:
+    """Auth headers for the GraphQL Bookmarks call. CSRF token == ct0 cookie."""
+    ct0 = X_COOKIES.get("ct0", "")
+    return {
+        "authorization": f"Bearer {X_WEB_BEARER}",
+        "x-csrf-token": ct0,
+        "x-twitter-auth-type": "OAuth2Session",
+        "x-twitter-active-user": "yes",
+        "x-twitter-client-language": "en",
+        "content-type": "application/json",
+        "User-Agent": UA,
+        "Referer": "https://x.com/i/bookmarks",
+    }
+
+
+def _unwrap_tweet(result):
+    """Normalize a GraphQL tweet_results.result into a farmer-shaped tweet dict.
+
+    Returns the tweet dict, or None for entries that aren't tweets.
+
+
+    Handles both 'Tweet' and 'TweetWithVisibilityResults' envelopes. Returns None
+    for entries that aren't tweets (ads, tombstones, etc.).
+    """
+    if not isinstance(result, dict):
+        return None
+    if result.get("__typename") == "TweetWithVisibilityResults":
+        result = result.get("tweet", {})
+    legacy = result.get("legacy") or {}
+    if not legacy:
+        return None
+
+    tweet_id = legacy.get("id_str") or result.get("rest_id") or ""
+    full_text = legacy.get("full_text") or ""
+
+    # Long-form (note) tweets carry the real body separately.
+    note = (result.get("note_tweet") or {}).get("note_tweet_results", {}).get("result", {})
+    if note.get("text"):
+        full_text = note["text"]
+
+    user = (((result.get("core") or {}).get("user_results") or {}).get("result") or {})
+    screen_name = (user.get("legacy") or {}).get("screen_name") or (user.get("core") or {}).get("screen_name") or "unknown"
+
+    # Expanded URLs (skip t.co, self x.com links via SKIP_DOMAINS).
+    entities = legacy.get("entities") or {}
+    url_entities = entities.get("urls") or []
+    # Note tweets keep their URLs under note_tweet results too.
+    if note:
+        note_ent = (note.get("entity_set") or {}).get("urls") or []
+        url_entities = url_entities + note_ent
+    urls = []
+    for u in url_entities:
+        exp = u.get("expanded_url") or u.get("url") or ""
+        if exp and not any(d in exp for d in SKIP_DOMAINS):
+            urls.append(exp)
+
+    # Media image URLs (public CDN).
+    media = (entities.get("media") or [])
+    ext_media = ((legacy.get("extended_entities") or {}).get("media") or [])
+    image_urls = []
+    for m in (media + ext_media):
+        mu = m.get("media_url_https") or ""
+        if mu and m.get("type") == "photo":
+            image_urls.append(mu)
+
+    dt = None
+    created = legacy.get("created_at")
+    if created:
+        try:
+            dt = parsedate_to_datetime(created).astimezone(timezone.utc)
+        except Exception:
+            pass
+
+    return {
+        "handle":     screen_name,
+        "creator":    f"@{screen_name}",
+        "text":       re.sub(r"\s+", " ", full_text).strip(),
+        "title":      "",
+        "link":       f"https://x.com/{screen_name}/status/{tweet_id}" if tweet_id else "",
+        "date":       dt,
+        "date_raw":   created or "",
+        "urls":       list(dict.fromkeys(urls)),
+        "image_urls": list(dict.fromkeys(image_urls)),
+        "tweet_id":   tweet_id,
+    }
+
+
+def _bm_parse_page(payload: dict) -> tuple[list[dict], str]:
+    """Extract (tweets, next_cursor) from one Bookmarks GraphQL response page."""
+    tweets, cursor = [], ""
+    try:
+        timeline = (((payload.get("data") or {}).get("bookmark_timeline_v2") or {})
+                    .get("timeline") or {})
+        for instr in timeline.get("instructions", []):
+            if instr.get("type") != "TimelineAddEntries":
+                continue
+            for entry in instr.get("entries", []):
+                eid = entry.get("entryId", "")
+                content = entry.get("content") or {}
+                if eid.startswith("tweet-"):
+                    result = (((content.get("itemContent") or {}).get("tweet_results") or {})
+                              .get("result") or {})
+                    t = _unwrap_tweet(result)
+                    if t and t["tweet_id"]:
+                        tweets.append(t)
+                elif eid.startswith("cursor-bottom-"):
+                    cursor = content.get("value", "")
+    except Exception as e:
+        print(f"  Bookmarks parse error: {e}")
+    return tweets, cursor
+
+
+def fetch_bookmarks() -> list[dict]:
+    """Fetch the reader's saved posts from X, newest first, with pagination.
+
+    Returns a list of farmer-shaped tweet dicts (not yet enriched). Degrades
+    gracefully to [] on any auth/endpoint failure so it never breaks the run.
+    """
+    if not BM_ENABLED:
+        print("  Bookmarks disabled in config — skipping.")
+        return []
+    if not X_COOKIES.get("auth_token") or not X_COOKIES.get("ct0"):
+        print("  Bookmarks: no auth_token/ct0 in X cookies — cannot read the "
+              "auth-gated bookmarks timeline. Export cookies to "
+              f"{X_COOKIES_PATH} to enable. Skipping (not pretending it ran).")
+        return []
+    if not BM_QUERY_ID:
+        print("  Bookmarks: no graphql_query_id in config — skipping.")
+        return []
+
+    endpoint = f"https://x.com/i/api/graphql/{BM_QUERY_ID}/Bookmarks"
+    all_tweets: list[dict] = []
+    cursor = ""
+    for page in range(BM_MAX_PAGES):
+        variables = {"count": BM_COUNT, "includePromotedContent": False}
+        if cursor:
+            variables["cursor"] = cursor
+        params = {
+            "variables": json.dumps(variables, separators=(",", ":")),
+            "features": json.dumps(BM_FEATURES, separators=(",", ":")),
+        }
+        try:
+            r = requests.get(endpoint, headers=_bm_headers(), cookies=X_COOKIES,
+                             params=params, timeout=FETCH_TIMEOUT)
+        except Exception as e:
+            print(f"  Bookmarks: request error on page {page+1}: {e}")
+            break
+
+        if r.status_code == 404:
+            print(f"  Bookmarks: 404 — graphql_query_id '{BM_QUERY_ID}' is stale. "
+                  "Refresh it per the config 'note' field (DevTools > Network > "
+                  "'Bookmarks'). Skipping.")
+            break
+        if r.status_code in (401, 403):
+            print(f"  Bookmarks: {r.status_code} — X session cookies expired or "
+                  f"insufficient. Re-export to {X_COOKIES_PATH}. Skipping.")
+            break
+        if r.status_code != 200:
+            print(f"  Bookmarks: HTTP {r.status_code} on page {page+1}: {r.text[:200]}")
+            break
+
+        try:
+            payload = r.json()
+        except Exception as e:
+            print(f"  Bookmarks: bad JSON on page {page+1}: {e}")
+            break
+
+        page_tweets, cursor = _bm_parse_page(payload)
+        if not page_tweets:
+            break
+        all_tweets.extend(page_tweets)
+        print(f"  Bookmarks page {page+1}: +{len(page_tweets)} (total {len(all_tweets)})")
+        if not cursor:
+            break
+        time.sleep(1.5)  # be gentle with the endpoint
+
+    return all_tweets
+
+
 # ── Scraping ────────────────────────────────────────────────────────────────────
 
 try:
@@ -506,7 +760,7 @@ if SEEN_PATH.exists():
     except Exception:
         seen_links = set()
 
-print(f"\n[1/2] @{OWN_HANDLE} (retweets as curated signal)...")
+print(f"\n[1/3] @{OWN_HANDLE} (retweets as curated signal)...")
 own_all     = fetch_rss(OWN_HANDLE, nitter_base)
 own_reposts = [t for t in own_all if is_retweet(t) or is_quote_tweet(t)]
 own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
@@ -531,7 +785,7 @@ if SEEN_AI_PATH.exists():
     except Exception:
         seen_ai_links = set()
 
-print(f"\n[2/2] Scraping {len(AI_HANDLES)} AI handles...")
+print(f"\n[2/3] Scraping {len(AI_HANDLES)} AI handles...")
 ai_results: dict[str, list] = {}
 new_ai_links: list[str] = []
 for h in AI_HANDLES:
@@ -556,13 +810,46 @@ if new_ai_links:
     seen_ai_links = set(combined[-1000:])
     SEEN_AI_PATH.write_text(json.dumps(sorted(seen_ai_links), indent=2))
 
-# 3. Fetch article content
+# 3. Bookmarks (saved posts) — top-priority curated signal for the Media Zone.
+#    Auth-gated: only runs when auth_token + ct0 cookies exist. Deduped by tweet
+#    id via seen_bookmarks.json so each run surfaces only newly-saved posts
+#    (set bookmarks.only_new=false in config to re-capture everything each run).
+print(f"\n[3/3] Bookmarks (saved posts)...")
+SEEN_BM_PATH = STATE_DIR / "seen_bookmarks.json"
+seen_bm_ids = set()
+if SEEN_BM_PATH.exists():
+    try:
+        seen_bm_ids = set(json.loads(SEEN_BM_PATH.read_text()))
+    except Exception:
+        seen_bm_ids = set()
+
+bookmarks_all = fetch_bookmarks()
+if BM_ONLY_NEW:
+    bookmarks = [t for t in bookmarks_all if t["tweet_id"] not in seen_bm_ids]
+else:
+    bookmarks = bookmarks_all
+print(f"  {len(bookmarks_all)} bookmarks fetched | {len(bookmarks)} new (unseen)")
+
+# Persist captured bookmark ids, capped at 2000 entries.
+if bookmarks:
+    combined_bm = list(seen_bm_ids) + [t["tweet_id"] for t in bookmarks_all if t.get("tweet_id")]
+    seen_bm_ids = set(combined_bm[-2000:])
+    SEEN_BM_PATH.write_text(json.dumps(sorted(seen_bm_ids), indent=2))
+
+# 4. Fetch article content
 print("\nFetching article content...")
 for t in own_curated:
     enrich(t)
 for tweets in ai_results.values():
     for t in tweets:
         enrich(t)
+if BM_FETCH_LINKS:
+    for t in bookmarks:
+        enrich(t)
+else:
+    for t in bookmarks:
+        t["articles"] = []
+        t["image_paths"] = []
 
 # ── Format output ───────────────────────────────────────────────────────────────
 
@@ -586,6 +873,10 @@ total_tweets   = len(own_curated) + sum(len(v) for v in ai_results.values())
 total_articles = sum(len(t.get("articles", [])) for t in own_curated) + \
                  sum(len(t.get("articles", [])) for v in ai_results.values() for t in v)
 
+# NOTE: bookmarks are intentionally NOT written into this shared file. This file
+# and its .json sidecar are git-tracked in a PUBLIC repo; bookmarks are the
+# reader's PRIVATE X saves. They are written separately to raw/twitter/bookmarks/
+# (gitignored) at the end of this script. See the "Bookmarks sidecar" block below.
 out = [
     f"# Twitter/X Digest | {date_str} | {slot.upper()}",
     f"> Scraped {now_ist.strftime('%Y-%m-%d %H:%M IST')} | Lookback: {HOURS_BACK}h | {total_tweets} tweets | {total_articles} articles",
@@ -621,7 +912,7 @@ out += ["", "---", f"*Twitter farmer | {date_str} {slot.upper()} | {total_tweets
 
 out_path.write_text("\n".join(out), encoding="utf-8")
 print(f"\nWrote {out_path}")
-print(f"Summary: {len(own_curated)} curated retweets | {sum(len(v) for v in ai_results.values())} AI tweets | {total_articles} articles")
+print(f"Summary: {len(bookmarks)} saved posts | {len(own_curated)} curated retweets | {sum(len(v) for v in ai_results.values())} AI tweets | {total_articles} articles")
 
 # ── JSON sidecar (machine-readable for Media-Live site tab) ────────────────────
 
@@ -662,3 +953,65 @@ json_payload = {
 
 json_path.write_text(json.dumps(json_payload, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"Wrote {json_path}")
+
+# ── Bookmarks sidecar (PRIVATE — gitignored, never enters the public repo) ──────
+#
+# Bookmarks are the reader's private X saves. This repo is public and both the
+# shared -slot.md and -slot.json above are git-tracked (the .json also feeds the
+# public site tab), so bookmarks are written HERE instead, under
+# raw/twitter/bookmarks/ which is gitignored. Only the local Media Zone synthesis
+# (morning cron) reads these files; they never leave the machine via git.
+#
+# Article content is stored in FULL here (not truncated to 800 like the public
+# sidecar) because the Media Zone treats each bookmark as a knowledge/learning
+# item and synthesizes a compressed Deep Dive from the linked article's body.
+BM_DIR = RAW_DIR / "bookmarks"
+BM_DIR.mkdir(parents=True, exist_ok=True)
+bm_md_path   = BM_DIR / f"{date_str}-{slot}.md"
+bm_json_path = BM_DIR / f"{date_str}-{slot}.json"
+
+bm_md = [
+    f"# Saved Posts (Bookmarks) | {date_str} | {slot.upper()}",
+    f"> {len(bookmarks)} newly-saved posts | PRIVATE — gitignored, local only",
+    "",
+    "> Each bookmark is curated intent (treat like starred Gmail). Knowledge and "
+    "learning first: read the post AND its enriched linked article, then synthesize "
+    "the idea for the Media Zone (digest-like but compressed).",
+    "",
+    "---",
+    "",
+]
+if bookmarks:
+    for t in bookmarks:
+        bm_md += [fmt_tweet(t, context="saved to bookmarks on X"), "", "---", ""]
+else:
+    bm_md.append(
+        "*No new saved posts this run. If you have bookmarks but see 0, the X "
+        "cookies or bookmarks.graphql_query_id may need refreshing (see console log).*"
+    )
+bm_md_path.write_text("\n".join(bm_md), encoding="utf-8")
+
+bm_json = {
+    "date":        date_str,
+    "slot":        slot,
+    "scraped_ist": now_ist.strftime("%Y-%m-%d %H:%M"),
+    "private":     True,
+    "bookmarks": [
+        {
+            "handle":     t["handle"],
+            "creator":    t["creator"],
+            "text":       t["text"],
+            "link":       t["link"],
+            "date_utc":   t["date"].isoformat() if t.get("date") else None,
+            "image_urls": t.get("image_urls", []),
+            # FULL enriched article bodies for knowledge synthesis (no truncation).
+            "articles":   [
+                {"url": a["url"], "content": a["content"]}
+                for a in t.get("articles", []) if a.get("url")
+            ],
+        }
+        for t in bookmarks
+    ],
+}
+bm_json_path.write_text(json.dumps(bm_json, indent=2, ensure_ascii=False), encoding="utf-8")
+print(f"Wrote {bm_md_path} + sidecar ({len(bookmarks)} bookmarks, PRIVATE/gitignored)")
