@@ -61,6 +61,9 @@ ARTICLE_CHARS = cfg["article_max_chars"]
 X_COOKIES_PATH    = Path(cfg.get("x_cookies_path", "~/.config/cere-bro/x-cookies.json")).expanduser()
 DOWNLOAD_IMAGES   = cfg.get("download_images", True)
 IMG_TIMEOUT       = cfg.get("image_download_timeout", 8)
+# Auto-read X cookies from the local browser (no manual export). See _cookies_from_browser.
+BROWSER_COOKIES        = cfg.get("browser_cookies", True)
+BROWSER_COOKIE_TIMEOUT = cfg.get("browser_cookie_timeout", 20)
 
 # Bookmarks (saved posts) capture — auth-gated, needs auth_token + ct0 cookies.
 BM_CFG            = cfg.get("bookmarks", {}) or {}
@@ -71,25 +74,92 @@ BM_ONLY_NEW       = BM_CFG.get("only_new", True)
 BM_FETCH_LINKS    = BM_CFG.get("fetch_linked_articles", True)
 BM_QUERY_ID       = BM_CFG.get("graphql_query_id", "")
 
-# Load X session cookies for x.com/i/article/ fetches (gitignored, user-supplied)
-X_COOKIES = {}
-if X_COOKIES_PATH.exists():
+def _cookies_from_browser(timeout: int = 20) -> dict:
+    """Read X session cookies (auth_token, ct0, ...) from the local browser store
+    via browser_cookie3, so the user never has to export a cookie file.
+
+    Runs in a KILLABLE subprocess with a hard timeout: on macOS the first access
+    to Chrome's Keychain-encrypted cookie DB shows a GUI permission prompt, and
+    if it isn't approved the read would block forever. The subprocess timeout
+    guarantees it can never hang the farmer (esp. the unattended cron) — it just
+    falls back to the file. Everything stays local; nothing leaves the machine.
+
+    Returns {} on any failure. The first time you approve the Keychain dialog
+    ("Always Allow"), every later run reads instantly with no prompt.
+    """
+    import subprocess
+    helper = (
+        "import sys, json\n"
+        "try:\n"
+        "    import browser_cookie3 as bc3\n"
+        "except Exception:\n"
+        "    print('{}'); sys.exit(0)\n"
+        "for fn in (bc3.chrome, bc3.brave, bc3.edge, bc3.firefox, bc3.safari):\n"
+        "    try:\n"
+        "        jar = fn(domain_name='x.com')\n"
+        "        c = {ck.name: ck.value for ck in jar if ck.value}\n"
+        "        if c.get('auth_token') and c.get('ct0'):\n"
+        "            print(json.dumps(c)); sys.exit(0)\n"
+        "    except Exception:\n"
+        "        continue\n"
+        "print('{}')\n"
+    )
+    try:
+        out = subprocess.run([sys.executable, "-c", helper],
+                             capture_output=True, text=True, timeout=timeout)
+        data = json.loads((out.stdout or "{}").strip().splitlines()[-1] if out.stdout.strip() else "{}")
+        return data if isinstance(data, dict) else {}
+    except subprocess.TimeoutExpired:
+        print(f"INFO: browser cookie read timed out after {timeout}s (Keychain prompt "
+              "not approved?) — falling back to cookie file.")
+        return {}
+    except Exception:
+        return {}
+
+
+def _load_x_cookies_from_file() -> dict:
+    """Fallback: read X cookies from the gitignored x-cookies.json file."""
+    if not X_COOKIES_PATH.exists():
+        return {}
     try:
         raw = json.loads(X_COOKIES_PATH.read_text())
         # Support two common export formats:
         #   1. {"name": "value", ...}                (flat dict from manual export)
         #   2. [{"name": "...", "value": "...", ...}, ...]  (Chrome extension export)
         if isinstance(raw, dict):
-            X_COOKIES = {k: v for k, v in raw.items() if isinstance(v, str)}
-        elif isinstance(raw, list):
-            X_COOKIES = {c["name"]: c["value"] for c in raw
-                         if isinstance(c, dict) and "name" in c and "value" in c
-                         and (c.get("domain", "").endswith("x.com") or c.get("domain", "").endswith("twitter.com"))}
-        print(f"Loaded {len(X_COOKIES)} X session cookies from {X_COOKIES_PATH}")
+            return {k: v for k, v in raw.items() if isinstance(v, str)}
+        if isinstance(raw, list):
+            return {c["name"]: c["value"] for c in raw
+                    if isinstance(c, dict) and "name" in c and "value" in c
+                    and (c.get("domain", "").endswith("x.com") or c.get("domain", "").endswith("twitter.com"))}
     except Exception as e:
         print(f"WARN: failed to parse X cookies at {X_COOKIES_PATH}: {e}")
-else:
-    print(f"INFO: no X cookies at {X_COOKIES_PATH} — x.com/i/article/ URLs will fall back to URL-only capture.")
+    return {}
+
+
+# Load X session cookies: browser store first (auto-fresh, no manual step), then
+# the gitignored file as fallback. On a successful browser read we also refresh
+# the file so the unattended cron still works if its Keychain is locked.
+X_COOKIES = {}
+if BROWSER_COOKIES:
+    _bc = _cookies_from_browser(BROWSER_COOKIE_TIMEOUT)
+    if _bc.get("auth_token") and _bc.get("ct0"):
+        X_COOKIES = _bc
+        print(f"Loaded {len(X_COOKIES)} X session cookies from browser (auto)")
+        try:
+            X_COOKIES_PATH.parent.mkdir(parents=True, exist_ok=True)
+            X_COOKIES_PATH.write_text(json.dumps({"auth_token": _bc["auth_token"], "ct0": _bc["ct0"]}))
+            os.chmod(X_COOKIES_PATH, 0o600)  # refresh fallback for locked-Keychain cron
+        except Exception:
+            pass
+
+if not X_COOKIES:
+    X_COOKIES = _load_x_cookies_from_file()
+    if X_COOKIES:
+        print(f"Loaded {len(X_COOKIES)} X session cookies from {X_COOKIES_PATH}")
+    else:
+        print(f"INFO: no X cookies (browser + {X_COOKIES_PATH}) — x.com/i/article/ "
+              "and bookmarks will be skipped, other scraping continues.")
 
 # Image storage location (gitignored)
 IMG_DIR = REPO_ROOT / "raw" / "twitter" / "images"
