@@ -730,11 +730,12 @@ Omit any section that has nothing substantive that day. Empty sections are worse
 
 ### Voice & length
 
-- 3-5 compact-explanatory bullets per cluster (~20-40 words each). Lighter than the wiki digest, but with enough context that the reader understands the item without clicking through. Reader scrolls, skims headers, stops on clusters they care about and gets a real (if brief) explanation there.
-- Every item leads with or names its **optimization angle** (cost / influence / token) per the optimization-lens section above.
+- **Saved-posts / bookmarks section:** digest-like but compressed (see the two-treatments format rule above). Read the enriched article content and explain the idea so the reader learns it. This is the heaviest, most substantive part of the Media Zone.
+- **All other clusters:** 3-5 compact-explanatory bullets (~20-40 words each), enough context to understand without clicking through.
+- **Optimization angle is a lens, not a mandatory lead.** Name it where a cost / influence / token angle genuinely illuminates the item (per the optimization-lens section). Do not open every item with it, and never force it onto a saved article whose value is knowledge/learning rather than efficiency.
 - Same clarity rule as the daily digest: every paper or technical term gets a one-clause gloss on first mention.
 - No em dashes (writing rule #1 applies).
-- Total read time target: **3-4 minutes** for the full Media Zone (up from 2-3, given the added brief explanations). Still a lighter read than the wiki digest. If it runs longer than the digest, the bullets have overgrown — trim back toward compact.
+- Read time: the bookmarks-driven knowledge section can run close to the digest in substance (just tighter); the rest stays a light, scrollable feed. Depth of the saved content sets the length, not a fixed clock — but keep the non-bookmark clusters compact.
 
 ### Cadence
 
