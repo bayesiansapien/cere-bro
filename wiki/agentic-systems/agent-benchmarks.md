@@ -2,7 +2,25 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
-## Current State (as of 2026-08-11)
+## Current State (as of 2026-08-12)
+
+**The measurement crisis entered its constructive phase, and the three benchmarks that arrived agree on a diagnosis rather than just a score.**
+
+The 08-10 and 08-11 boards produced four benchmark-*validity* failures in two days: papers saying the instruments are broken. Today's three are papers **building instruments that are hard to break**, and the design choices are the interesting part. See the [combined summary (08-12)](2026-08-12-agent-benchmark-cluster.md).
+
+*The scores, first, because they set the frame.* **DSAgentBench** (2608.10366) runs end-to-end data-science workflows in real computer environments across notebooks, IDEs, terminals, browsers and databases, 275 tasks, each with a **deterministic evaluator checking analytical correctness, visual outputs and model performance** rather than code-only execution. Fifteen models: **Claude-4.6-Sonnet best at 56.70%, every open-source agent below 1%**, failing at tool orchestration, OS grounding and multi-step reasoning. **SPIEval** (2608.10692) tests mobile-assistant work over personal information scattered across apps, 250 human-curated tasks, 4,335 records, 10 apps, 21 tools, structured around reasoning, disambiguation, integration, preference inference and multi-intent decomposition: **GPT-5.5 (xhigh) at 57.3%, weakest at 16.4%**. **VibeLifeBench** (2608.10875) is 200 multi-week scripted timelines across ten everyday-life domains in a simulated world of 22 mock services where **the world advances on its own clock and many changes are silent**, graded on end state, timeliness and unstated constraints by reading only what the agent left behind. All seven frontier models score low.
+
+**The diagnosis is shared and it is the most useful thing on this page today.** SPIEval measures it directly: **79% of failures are inaccurate information localization**, because models "commit to plausible but incorrect information instead of continuing retrieval for verification," and **fewer than 2% of retrieval actions use any advanced search method**. DSAgentBench's requirement to ground decisions in intermediate outputs is the same failure from another angle, and VibeLifeBench's silent world changes turn it into the whole task design. **It is not that agents search badly. They mostly do not search, then commit.**
+
+*That is the cheapest published measurement of a faculty this wiki named in June and again on 08-06.* The [self-evolving-agents page](self-evolving-agents.md) recorded that three of four negative results converged on one missing capability, **deciding what to do with a resource you already have**: [Shadow evaluations (08-06)](2026-08-06-shadow-evaluations-open-ended-research.md) with agents ending research runs under 50% of budget spent despite being told to spend down, and [InMind (07-29)](2026-07-29-inmind-implicit-association-blind-spot.md) with retrieval memory surfacing a fact only when it resembles the query, six systems at at most 14.4% on indirect queries against 84.0% for the same memory simply placed in context. SPIEval's under-2% figure is that faculty, priced.
+
+**VibeLifeBench supplies the horizon this page has been unable to test.** The standing complaint across the agent-memory and self-evolution literature is that everything is validated on episodes of dozens of steps rather than days, so drift never appears. A multi-week timeline with a self-advancing clock, silent changes, and grading that reads only durable artifacts is that horizon in a simulator, and it is the natural target for [RoMeRL (08-11)](2026-08-11-romerl-reduced-order-memory.md)'s bounded memory states and [SkillZip (08-12)](2026-08-12-skillzip-skill-compression.md)'s compressed skills. Neither has been run on it.
+
+**Apply this page's own methodological rule to DSAgentBench's floor.** The rule stated on 08-10 is: before believing any agent-capability number, find the cheapest baseline that could produce it. A **sub-1% result uniform across every open-source model** is not the shape of a capability gradient, it is the shape of an interface failure, and the paper's own attribution to "tool orchestration, OS grounding" is consistent with that. [A²E (08-11)](2026-08-11-harness-evolution-cluster.md) found harness choice swings outcomes as much as the model does, which makes the harness the obvious confound. Whether a better scaffold lifts open models substantially is unreported and is the single most informative missing ablation on today's board.
+
+*The spread widened again.* Ouroboros at **86.74% on Terminal-Bench 2.1**, ProMax refactoring at **41.2%**, DSAgentBench at **56.70%**, and all of it published within two days. **Agent capability remains benchmark-shaped**, and none of the three new benchmarks reports token or dollar cost, which for a multi-week benchmark that rewards repeatedly re-inspecting the world is part of the result rather than an appendix.
+
+## Prior State (as of 2026-08-11)
 
 **Measurement validity is no longer a caveat on this page. It is the page's central problem, and three papers on one board said so.**
 
