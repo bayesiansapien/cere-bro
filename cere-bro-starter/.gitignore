@@ -28,3 +28,11 @@ wiki/daily-digest/**/podcasts/**/*.m4a
 
 # Twitter image downloads (used at synthesis time for vision-grounded bullets)
 raw/twitter/images/
+
+# Private X bookmarks (your private saved posts). If your wiki repo is public,
+# bookmarks must never be committed — they are read locally by the Media Zone
+# synthesis only. See connectors/twitter/farmer.py "Bookmarks sidecar" block.
+raw/twitter/bookmarks/
+# Bookmark dedup state = tweet IDs of private saves; resolvable back to the
+# tweets, so it leaks the list too. Keep local.
+connectors/twitter/.state/seen_bookmarks.json

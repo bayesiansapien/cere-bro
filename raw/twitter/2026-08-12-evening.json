@@ -1,113 +1,29 @@
 {
   "date": "2026-08-12",
   "slot": "evening",
-  "scraped_ist": "2026-08-12 22:00",
+  "scraped_ist": "2026-08-12 22:20",
   "lookback_h": 24,
-  "bookmarks": [],
   "curated": [],
   "ai_feed": [
     {
-      "handle": "ClementDelangue",
-      "org": "Hugging Face",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "ClementDelangue",
-          "creator": "@ClementDelangue",
-          "text": "Let's go! huggingface.co/Qwen/Qwen3.8-…",
-          "link": "https://nitter.net/ClementDelangue/status/2087562019788697818#m",
-          "date_utc": "2026-08-12T15:29:05+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiCkWlbwAA822M.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-              "content": "Qwen/Qwen3.8-2.4T-A95B · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up system\\\\n' }}\\n {%- if reasoning_instructions %}\\n {{- reasoning_instructions + '\\\\n\\\\n' }}\\n {%- endif %}\\n {{- \\ # Tools\\\\n\\\\nYou have access to the following functions:\\\\n\\\\n tools>\\ }}\\n {%- for tool in tools %}\\n {{- \\ \\\\n\\ }}\\n {{- tool | tojson }}\\n {%- endfor %}\\n {{- \\ \\\\n /tools>\\ }}\\n {{- '\\\\n\\\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\\\n\\\\n tool_call>\\\\n function=exam"
-            }
-          ]
-        },
-        {
-          "handle": "ClementDelangue",
-          "creator": "@ClementDelangue",
-          "text": "Local AI is exploding! Transformers.js, that we've been building @huggingface for the past three years has now become the most popular open-source library to run AI models directly in your browser and crossed 10 million (!!) monthly downloads, close to 10x from just six months ago. More generally, I'm excited to see a meaningful percentage of AI workloads move to local because it's free & fully private! At a time of compute shortage & increased cyber-attack risks, we need it more than ever. Let's go!",
-          "link": "https://nitter.net/ClementDelangue/status/2087518483718545533#m",
-          "date_utc": "2026-08-12T12:36:05+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPha5OlaYAEdmXC.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "DoWCTO",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "DoWCTO",
-          "creator": "@DoWCTO",
-          "text": "The @DeptofWar 's Accelerate the Procurement and Fielding of Innovative Technologies (APFIT) program is built to transition technology from the lab to the warfighter RAPIDLY. To date, APFIT has transitioned 100+ technologies to operational use, with $2+ billion awarded to small businesses and non-traditional innovators, reaching companies in 30+ states. At the recent APFIT on the Hill event, we put the program's impact on full display, proving to leaders that the Department is actively delivering the tools our warfighters need to dominate. Video",
-          "link": "https://nitter.net/DoWCTO/status/2087552691073348015#m",
-          "date_utc": "2026-08-12T14:52:01+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087551997104783360%2Fimg%2FBF9E_gx9XwW2L9Lj.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "JasonBud",
+      "handle": "JonasBadalic",
       "org": "xAI",
       "focus": [
-        "xAI",
-        "Cursor",
-        "coding agents"
+        "AI"
       ],
       "tweets": [
         {
-          "handle": "JasonBud",
-          "creator": "@JasonBud",
-          "text": "give 4.6 a try and let us know how it goes. your feedback is a big part of why the model gets better with each iteration. Artificial Analysis (@ArtificialAnlys) SpaceXAI's Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index, joining the frontier in line with GPT-5.6 Sol, with standout agentic performance at lower cost Grok 4.6 gains 5 points over Grok 4.5 on the Intelligence Index just over one month after its release, or +23 points compared to Grok 4.3. This brings SpaceXAI back to the intelligence frontier alongside OpenAI, behind only Anthropic. Key takeaways: ➤ Grok 4.6 joins ",
-          "link": "https://nitter.net/JasonBud/status/2087567786302374322#m",
-          "date_utc": "2026-08-12T15:52:00+00:00",
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "🐐 Benji Taylor (@benjitaylor) Had a lot of fun animating our new Grok Bot icon. It's entirely made in code, with every state, shape and expression able to morph smoothly into the other. And of course, I made it with Grok Build. Video — https://nitter.net/benjitaylor/status/2087227155076046995#m",
+          "link": "https://nitter.net/JonasBadalic/status/2087229351016153444#m",
+          "date_utc": "2026-08-11T17:27:10+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHPiEg4XaEAAJ4LX.jpg"
+            "https://nitter.net/pic/amplify_video_thumb%2F2087226908824236032%2Fimg%2F2lluEMaw1rVeCdDL.jpg"
           ],
           "articles": []
-        },
-        {
-          "handle": "JasonBud",
-          "creator": "@JasonBud",
-          "text": "4.6 excels on your hardest, longest-running tasks while being fast and inexpensive. if you already enjoy using Grok 4.5, it should be a noticeable improvement. as one example, its much better at frontend (check out the x.ai/bot landing page which was built with 4.6). Link Grok Bot: A new kind of colleague Grok Bot is your team of always-on AI agents that finish the work. They have their own computer, use it like you do, and never log off. x.ai SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https:/",
-          "link": "https://nitter.net/JasonBud/status/2087565758931116137#m",
-          "date_utc": "2026-08-12T15:43:56+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2087275652781420544%2FrE2e5rlq%3Fformat%3Djpg%26name%3D800x419",
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": [
-            {
-              "url": "https://x.ai/bot",
-              "content": ""
-            }
-          ]
         }
       ]
     },
@@ -121,383 +37,13 @@
         {
           "handle": "MarioNawfal",
           "creator": "@MarioNawfal",
-          "text": "🇺🇸 Tyler Robinson’s defense is throwing every single procedural Hail Mary they can find... Now, they're claiming prosecutors never proved he deliberately put anyone else at risk besides Charlie Kirk. The state already stacked the table with video, DNA, and ballistics. Court comes back September 1 and the judge makes the call after that. Desperate doesn’t even begin to cover it. Writer: Claudio Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087574833991155768#m",
-          "date_utc": "2026-08-12T16:20:00+00:00",
+          "text": "🇷🇺🇺🇦 A state of emergency has been declared in Novorossiysk, following a Ukrainian drone strike. Two water mains ruptured, the city’s water supply is damaged, and delivery to residents is restricted. Thick smoke is covering the port area right now... Writer: Claudio Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087577351999701058#m",
+          "date_utc": "2026-08-12T16:30:00+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087554452207063040%2Fimg%2F3VeA4xao7lsnIG3B.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🚨🇦🇷 Lionel Messi is questioning how much longer he can keep playing following the death of his father... Jorge Messi, who was both his dad and longtime agent, died in Argentina last weekend after a prolonged illness. He revealed Jorge had pushed him to compete in the recent World Cup despite failing health, hoping to watch one last tournament. Now, the 8-time Ballon d’Or winner admits he has given some thought to hanging it up... damn. Source: TMZ / Writer: Samuel",
-          "link": "https://nitter.net/MarioNawfal/status/2087574239977058622#m",
-          "date_utc": "2026-08-12T16:17:38+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiMzrZXQAA3N78.jpg",
-            "https://nitter.net/pic/media%2FHPiMxbHWEAAMMLc.jpg",
-            "https://nitter.net/pic/media%2FHPiMyXFWYAE6toA.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇹🇷🇮🇱🇵🇸 Erdogan on Gaza: \"Despite the constructive attitude of our Palestinian brothers, the current Israeli government continues its uncompromising and aggressive stance. This process shows who favors continued conflict and who favors peace.\" Writer: Claudio Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087573575641292815#m",
-          "date_utc": "2026-08-12T16:15:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087556502852640768%2Fimg%2Fq146OgwzawowDDmC.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇺🇸 University of Michigan is about to stop giving actual failing grades to its freshmen. Next year first-year students will only get a pass or “no credit.” No F’s. They say it’s because of a \"mental health crisis;\" failing a class is apparently too traumatic, now... Real life doesn't grade on a feelings curve. Writer: Sol Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087572316922511370#m",
-          "date_utc": "2026-08-12T16:10:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087555603476480000%2Fimg%2Fh5ChDObOgPhe6TFI.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇹🇷🇮🇱🇵🇸 Erdogan BLASTED Netanyahu's government for what he called ongoing “genocidal” actions. He says unlawful measures in the West Bank and Jerusalem are happening in plain sight of the world. And that policies of occupation, forced displacement, and annexation are only getting worse... Writer: Samuel Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087571059558015469#m",
-          "date_utc": "2026-08-12T16:05:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087559597192093696%2Fimg%2F4Mw4mo6tX9T_B_uV.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇱🇧 Lebanese President Joseph Aoun oversaw a live-fire exercise on the Brital Plain, in eastern Lebanon. After the drill, he inspected the regiment’s command, opened a new operations room fitted with modern monitoring equipment, and inaugurated a memorial to the unit’s fallen. Aoun praised the troops’ professionalism and high morale, saying they give hope to the entire country. His message was clear: the army will not abandon its duty to defend every inch of Lebanese territory and protect internal stability. Writer: Samuel Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087569802458284198#m",
-          "date_utc": "2026-08-12T16:00:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087545588380250112%2Fimg%2FMgjC-UePX_zol4uO.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇺🇸 A CA judge released an illegal immigrant with a criminal record... 24 hrs later, he murdered a U.S. citizen. Judge Nichelle Holmes let Marcos Iriarte-Valdez walk, a decision that would cost a 37-year-old man his life. Now people are demanding SHE be held accountable. Like seriously, how many more have to die because judges keep putting KILLERS back on the street?!?! Writers: Sol, Michael Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087567283975823771#m",
-          "date_utc": "2026-08-12T15:50:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087534766195081216%2Fimg%2Fgeq5e8YBNLXqWBnb.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇹🇷🇮🇱🇵🇸 Erdogan accused the Netanyahu government of FUELING CHAOS to erase the Palestinian cause... He claims Israel’s goal is to create new conflicts across the region and push Palestine off the world’s agenda. Erdogan insists this strategy will fail... He says the more they try to destroy it, the stronger the Palestinian cause grows in people’s hearts. Writer: Samuel Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087566949169426714#m",
-          "date_utc": "2026-08-12T15:48:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087556109099831296%2Fimg%2FC4LIECNSWqCAdnRk.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🕌 I thought the whole point of wearing a burqa was for modesty, and to hide a woman’s beauty. Maybe this is her form of rebellion and self expression given the lack of options? Either way… it’s primitive and oppressive towards women, unless it’s their choice. Video Lara🏝️ (@larayapmaaq) Tesettürlü kadınlar neden bu kadar makyaj yapıyor. Zaten kapanmaktaki amaç dikkat çekmemek değil mi? Video — https://nitter.net/larayapmaaq/status/2087205020613616062#m",
-          "link": "https://nitter.net/MarioNawfal/status/2087566617953673626#m",
-          "date_utc": "2026-08-12T15:47:21+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087566451213275136%2Fimg%2F3yK0Ne0RNn4o-5OV.jpg",
-            "https://nitter.net/pic/amplify_video_thumb%2F2087204816833372160%2Fimg%2FH_kOyVrEio5ECaqu.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇵🇸🇹🇷 Palestinian President Mahmoud Abbas: \"We want Palestine’s legitimate sovereignty restored in Gaza as soon as possible. Gaza is an INSEPARABLE part of the State of Palestine.\" Abbas wants to rally powerful allies (like Turkey) to help enforce PA sovereignty and block unilateral Israeli plans for Gaza's future. But Netanyahu's not likely to be moved by this... Writer: Michael Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087566026259214632#m",
-          "date_utc": "2026-08-12T15:45:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087557787551178752%2Fimg%2FLvnxnlryBVV0z9Jf.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇹🇷🇵🇸🇮🇱 Erdogan sends a clear message to Netanyahu: \"The existence of a sovereign Palestinian state is being undermined. We cannot ignore this or remain indifferent.\" Tensions between Israel and Turkey have grown into a DEEP strategic rivalry: hostile rhetoric, cut-off trade, overlapping footprints in Syria... A growing number of analysts are concerned that war between these two powerful militaries is a REAL risk. Writer: Michael Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087566016607928358#m",
-          "date_utc": "2026-08-12T15:44:58+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087559816076054528%2Fimg%2FsDJCASF9HTBx9IEv.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇱🇧🇮🇱 The Lebanese Army is calling out recent Israeli strikes, which hit a municipality building, a public school, a clinic, a daycare, and multiple homes. The Army says this is a clear pattern of violating agreements and international law, designed to inflict maximum damage on southern towns and block ANY chance of stability. Meanwhile, their forces are trying to deploy and get residents back home, but these constant attacks are making it nearly impossible. The south is still getting hit while people wait to return to their homes... Source: @LebarmyOfficial / Writer: Claudio",
-          "link": "https://nitter.net/MarioNawfal/status/2087564767686721604#m",
-          "date_utc": "2026-08-12T15:40:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPh9BX8WUAEt--V.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇮🇷🇧🇷 Brazil’s former president, Dilma Rousseff, is meeting Iran’s central bank boss on the sidelines of BRICS, representing the New Development Bank. She told them Iran is important and has \"real potential\" for regional and international cooperation. Both sides agreed to keep talking about Iran joining the NDB and tapping its financial facilities. Lula somehow parked her at the head of this bank after her own presidency left Brazil in economic freefall and ended in impeachment. Now she’s the face of BRICS development finance, sitting down with Iranian officials to discuss membership and fundin",
-          "link": "https://nitter.net/MarioNawfal/status/2087563509383172237#m",
-          "date_utc": "2026-08-12T15:35:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPh-pbgWoAAE_TL.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇮🇱🇱🇧 Israel just wrapped up a 50-day operation near the Golan Heights in northern Israel. The IDF says it destroyed more than 300 Hezbollah sites, including tunnels, weapons depots, observation posts and rocket launchers. They established operational control in the Hula Valley area (near Lebanon's border) and are now rotating troops for a \"much-needed rest.\" Writer: Sol Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087562252102582346#m",
-          "date_utc": "2026-08-12T15:30:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087545206375616512%2Fimg%2FShBeK_xQBMYn7Xpa.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇵🇸🇹🇷 Palestinian President Mahmoud Abbas: \"On joint defense, as you know, an agreement was reached between Saudi, Turkey, and Pakistan. This agreement is VERY important... We hope it will be a beginning for ensuring stability and security in the region and defending the interests of the Islamic ummah.\" The agreement is \"purely defensive,\" but Abbas is hoping this newfound alliance will serve as a formidable counterweight to Israeli and Western pressures. We'll have to see how it looks when it's put to the test. Writer: Michael Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087561802838057359#m",
-          "date_utc": "2026-08-12T15:28:13+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087557380288483328%2Fimg%2FXeCqDhSzf56D8laH.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇮🇷🇺🇸 An Iranian commander just accused the Trump Admin of fighting for personal profit, NOT for America. IRGC adviser Mohammad Reza Naqdi claimed U.S. leaders time military moves around the stock market. “As soon as the stock market closes, they start hostilities, and when the stock market opens, they send positive messages to raise stock prices. All the while they are buying and selling the stocks themselves.” Naqdi insisted Trump and those around him only look out for their own financial interests... Think he has a point? Writer: Samuel Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087560992745992449#m",
-          "date_utc": "2026-08-12T15:25:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087537028963409920%2Fimg%2FPR2LGbxwQYoVGVbq.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🚨🇺🇸 Sec. Rubio is spearheading a Birth Tourism Prevention Task Force. The unit will target networks that \"coach\" foreign nationals to exploit U.S. birthright citizenship rules, arrange travel and housing, and even forge documents. Rubio said the State Department will use EVERY available tool to dismantle these rings and protect the integrity of U.S. citizenship. About time! Writer: Samuel Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087559734350274597#m",
-          "date_utc": "2026-08-12T15:20:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087543175665582080%2Fimg%2F0zJGVIQfLp9OkiJ2.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇷🇺 WATCH: Russian citizens saw police cars and knew Putin's motorcade was coming. What they didn't realize is that he would stop and get out right in front of them. He greeted them and spoke with them, even appeared to take a few pictures. One person even grabbed him by the arm! I wouldn't recommend doing that again... 😂😂 Writers: Sol, Michael Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087558476171985297#m",
-          "date_utc": "2026-08-12T15:15:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087437072286031872%2Fimg%2FCnLDl4Hg8KbhYxYW.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇺🇸🏳️‍⚧️ Trump just made it official: NO MORE federal money for GENDER SURGERIES on kids. “We are not going to pay for our innocent children to undergo these barbaric surgeries. Dozens of U.S. hospitals have already ended this so-called 'gender affirming care,' and we expect many more to follow.\" Writer: Claudio Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087557217863995692#m",
-          "date_utc": "2026-08-12T15:10:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087528802645692417%2Fimg%2FNGfl_g1JSU2vGHiE.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "MarioNawfal",
-          "creator": "@MarioNawfal",
-          "text": "🇮🇷 Why has Mojtaba Khamenei stayed completely out of public view during the war? IRGC Commander Naqdi was asked directly. He said the strategy belongs to him and that the enemy “is criminal and doesn’t abide by any law.” Pressed on whether it was purely for security, Naqdi answered: “Naturally it is due to security. Certainly there is no other reason.” When asked if he himself had seen Mojtaba, he shut the question down: “Let’s leave this matter alone.” 👀 Writer: Samuel Video",
-          "link": "https://nitter.net/MarioNawfal/status/2087555959778615527#m",
-          "date_utc": "2026-08-12T15:05:00+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087535516128288769%2Fimg%2FAGt7E9jvF0D2gWE_.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "ProfTomYeh",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "ProfTomYeh",
-          "creator": "@ProfTomYeh",
-          "text": "I created five more \"context problems\" for agentic AI by hand ✍️. Download PDF: byhand.ai/context-6-10 6. The retrieved document: one document, and most of the window is gone 7. Turns after retrieval: retrieve every turn, and the turns run out fast 8. Three rounds of search: two searches find nothing, the third costs more than both 9. Sizing the window: work backwards, then pick a window you can actually buy 10. Dropping the oldest: cross out early turns until the new message fits Why am I designing these math problems? AI is making people (including me) think less. It's just too easy to ask A",
-          "link": "https://nitter.net/ProfTomYeh/status/2087543459020247414#m",
-          "date_utc": "2026-08-12T14:15:19+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/ext_tw_video_thumb%2F2087543413864312832%2Fpu%2Fimg%2FFhgTxY2P0OW7gRCq.jpg"
-          ],
-          "articles": [
-            {
-              "url": "http://byhand.ai/context-6-10",
-              "content": "%PDF-1.4 % created by Pillow PDF driver 34 0 obj >endobj 35 0 obj >endobj 1 0 obj >stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0006\u0007\u0006\u0005\b\u0007\u0007\u0007 \b \u0014 \u0019\u0012\u0013\u000f\u0014 \u001a \u001a $.' \",# (7),01444 '9=82 0\u0006=\u0001=\u000e{c��\u0001�5պN� ��}\u0005?B�u=7� �Z��}��''�G'�\u000f�z\u0000�(��\u0000(��_�A��Kwr�b�d��@=�\u0002�\u0015��{� \u0016N�\u0000c���\u0003��H�29'��[o\u0005�Q��\u0007�'��('�\u0018�\u0007gEr~ �5��W��Kw�Qs��}�L�� κ�\u0000(��\u0000(��\u0000(��_��閍ut�!R\u0001`��8�(\u0002�\u0015\u0015��Wv��Bۢ�C)�2 K@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014��T��\u0006MS�u[=^\u0006��S\"+m$�\\ g�ր.�ECv̖S��2��\u0011��&���A����I.\"�&�$�0�� � ���{\u001a��>e?�G\u0004U�\u0000(��\u0000)�I 1����/%��\u000fƝX�)�\u0000�b�\u0000���\u0000Q@\u001a�K �\"�$F��r\u000f�O�?\u0007ȩc�� �r� �.�䝡I�iS�\"�,�QR�\u0017��B�?��\u0000�K@ �\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014Q@\u0005\u0014V~������]�nE�\u0003ݏ\u0003��\u000e'Ħ��^ ���������#�~9��+��~����� �5��� \u000f���O\u0002��o�I}0&k�ݓ�h����ʳt��\u0000\bߎf�?-�������V�;�(�2k��X��K�Ke��-�\"?=�8$z�=��\u000e��$� Xt�9\u0004�� w��\u0007�ǩ��I|=�W�N����3�\u0002�3���P\u0007cEs \u001a׮�/g�5U {\u0000ᱍ�u�l� �F \u0000jx�]: �W\u0002�O�M�w��\u0004���h"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "handle": "SeanParnellASW",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "SeanParnellASW",
-          "creator": "@SeanParnellASW",
-          "text": "SEND ME.",
-          "link": "https://nitter.net/SeanParnellASW/status/2087531181466132542#m",
-          "date_utc": "2026-08-12T13:26:32+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhmi2pWsAAdDyS.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "TobyPhln",
-      "org": "xAI",
-      "focus": [
-        "xAI",
-        "DeepMind",
-        "foundation models"
-      ],
-      "tweets": [
-        {
-          "handle": "TobyPhln",
-          "creator": "@TobyPhln",
-          "text": "The pace of progress is more important than any single release and Grok is improving quickly. Well done, @SpaceXAI . Elon Musk (@elonmusk) Grok 4.6 is now out 🚀🚀🚀 Smart, fast amazing bang for buck! — https://nitter.net/elonmusk/status/2087565020158992709#m",
-          "link": "https://nitter.net/TobyPhln/status/2087572833840898361#m",
-          "date_utc": "2026-08-12T16:12:03+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "WHFraudTF",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "WHFraudTF",
-          "creator": "@WHFraudTF",
-          "text": "“The days of funding corrupt failure are over … The Trump administration will not fund a homeless industrial complex any longer.” - @SecretaryTurner New York Post (@nypost) Trump admin threatens LA homeless funding, says 'days of funding corrupt failure are over' trib.al/v2GNZqj — https://nitter.net/nypost/status/2087362743879782612#m",
-          "link": "https://nitter.net/WHFraudTF/status/2087521667413164225#m",
-          "date_utc": "2026-08-12T12:48:44+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPfNWVmXkAA9-BL.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://trib.al/v2GNZqj",
-              "content": "Trump officials target LAHSA and pitch faith-based homeless strategy Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official "
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "handle": "amanrsanger",
-      "org": "Cursor",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "amanrsanger",
-          "creator": "@amanrsanger",
-          "text": "The 1.5T that could! Bigger and even better models on the horizon. SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/amanrsanger/status/2087567861040750810#m",
-          "date_utc": "2026-08-12T15:52:17+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
+            "https://nitter.net/pic/amplify_video_thumb%2F2087560144347402240%2Fimg%2FbkywKDNEXpu8pZ20.jpg"
           ],
           "articles": []
         }
@@ -513,22 +59,9 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Et après on vient me qualifier de pro-russe quand je dis que j’ai ABSOLUMENT aucune confiance en l’UE pour gérer ce conflit, ou que je dis que la macronie est en train d’essayer de nous enfler les élections. BIG LOL Jon De Lorraine (@jon_delorraine) 🔴🇺🇸 RÉVÉLATIONS - ÉTATS-UNIS De nouveaux documents déclassifiés par la Maison-Blanche éclairent ce qui s’est passé autour des affaires Biden pendant l’élection de 2020. Pour comprendre simplement : à l’époque, le FBI disposait de plusieurs sources internes lui transmettant des informations potentiellement compromettantes sur les affaires de Joe Bid",
-          "link": "https://nitter.net/brivael/status/2087574438292205636#m",
-          "date_utc": "2026-08-12T16:18:26+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiJh0oXgAAiIWw.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "Oui Billy Mericano ✨ (@BillyMericano) Il faut douter des gens qui n'ont pas de doutes. Janco ne doute plus depuis un bon moment. Les gauchistes non plus. — https://nitter.net/BillyMericano/status/2087565141239824765#m",
-          "link": "https://nitter.net/brivael/status/2087574149396832417#m",
-          "date_utc": "2026-08-12T16:17:17+00:00",
+          "text": "🤣🤣 nicolas (@Nicolas_MVD) Grok depuis l'acquisition de Cursor — https://nitter.net/Nicolas_MVD/status/2087580709456130239#m",
+          "link": "https://nitter.net/brivael/status/2087582163940127000#m",
+          "date_utc": "2026-08-12T16:49:07+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
@@ -537,20 +70,9 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "il faut un union des droites libéral, pro-border, pro-west Chris Wolf (@ChrisnWolf) Les allemands ont compris : ils avancent comme un seul homme derrière l'AFD. 🫡 En France, au moins dix partis de droite qui avancent dans le désorde, la division et les insultes... 🤡 Je n'en peux plus de cette puérilité française. 😤 — https://nitter.net/ChrisnWolf/status/2087571467395342612#m",
-          "link": "https://nitter.net/brivael/status/2087573993737843189#m",
-          "date_utc": "2026-08-12T16:16:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "on s'en ballec loser Bleu Blanc Rouge ! 🇫🇷 (@LBleuBlancRouge) 🔴😳 Raphaël Glucksmann annonce avoir porté plainte, accusant la Russie de tenter de déstabiliser sa campagne présidentielle : « J’ai porté plainte, et il est fondamental de dire cette chose simple : nous ne pouvons pas laisser la Russie de Vladimir Poutine manipuler l’élection existentielle pour le peuple français qu’est l’élection présidentielle de 2027. Il y aura des ingérences, elles seront massives. Nous devons nous préparer et lutter contre elles. » Votre réaction les amis ? 😅 — https://nitter.net/LBleuBlancRouge/status/20875685",
-          "link": "https://nitter.net/brivael/status/2087573707174584762#m",
-          "date_utc": "2026-08-12T16:15:31+00:00",
+          "text": "J'ai un gauchiste qui a mis un commentaire négatif en dessous d'un de mes post. J'ai été porté plainte pour ingérence russe avec Raphi. Bleu Blanc Rouge ! 🇫🇷 (@LBleuBlancRouge) 🔴😳 Raphaël Glucksmann annonce avoir porté plainte, accusant la Russie de tenter de déstabiliser sa campagne présidentielle : « J’ai porté plainte, et il est fondamental de dire cette chose simple : nous ne pouvons pas laisser la Russie de Vladimir Poutine manipuler l’élection existentielle pour le peuple français qu’est l’élection présidentielle de 2027. Il y aura des ingérences, elles seront massives. Nous devons nous ",
+          "link": "https://nitter.net/brivael/status/2087579509914579320#m",
+          "date_utc": "2026-08-12T16:38:35+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
@@ -561,535 +83,26 @@
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "Check mate. Not surprised. Again. Don’t bet against Elon.",
-          "link": "https://nitter.net/brivael/status/2087569826956922984#m",
-          "date_utc": "2026-08-12T16:00:06+00:00",
+          "text": "He is alive. X Freeze (@XFreeze) wft google?? — https://nitter.net/XFreeze/status/2087520140233482250#m",
+          "link": "https://nitter.net/brivael/status/2087579011098566938#m",
+          "date_utc": "2026-08-12T16:36:36+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHPiJsXSXAAAukle.jpg"
+            "https://nitter.net/pic/media%2FHPiSDA7WQAALsmw.jpg",
+            "https://nitter.net/pic/media%2FHPhcPwJWMAA54yp.jpg"
           ],
           "articles": []
         },
         {
           "handle": "brivael",
           "creator": "@brivael",
-          "text": "LFG!!! DogeDesigner (@cb_doge) BREAKING: Grok 4.6 takes the #1 spot on the GDPVal-AA benchmark 🏆 • Grok 4.6 — 1,753 Elo • Fable 5 Max — 1,741 • GPT-5.6 Sol Max — 1,728 • Grok 4.5 High — 1,526 — https://nitter.net/cb_doge/status/2087563935688151175#m",
-          "link": "https://nitter.net/brivael/status/2087569627626824091#m",
-          "date_utc": "2026-08-12T15:59:19+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiER8MbsAAO7OJ.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "🚀🚀🚀🚀 Elon Musk (@elonmusk) Grok 4.6 is a banger — https://nitter.net/elonmusk/status/2087566406921617534#m",
-          "link": "https://nitter.net/brivael/status/2087569487679606931#m",
-          "date_utc": "2026-08-12T15:58:45+00:00",
+          "text": "Oui. Libre sur tout et surtout libre (@LIVESTRONG0210) Les artistes de l'époque savaient ce qu'ils valaient ailleurs si ça ne plaisait pas Ca rend plus libre de penser différemment — https://nitter.net/LIVESTRONG0210/status/2087577788135981504#m",
+          "link": "https://nitter.net/brivael/status/2087578050334433649#m",
+          "date_utc": "2026-08-12T16:32:47+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "NEVER. Arthur MacWaters (@ArthurMacwaters) Never bet against Elon Grok 4.6 beats Sol 5.6 and Fable on multiple benchmarks, for a fraction of the price Insanely bullish — https://nitter.net/ArthurMacwaters/status/2087567577476468888#m",
-          "link": "https://nitter.net/brivael/status/2087569214781485296#m",
-          "date_utc": "2026-08-12T15:57:40+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiHpgUaUAApB46.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "how? first principle thinking, not woke, alien 🤣 vittorio (@IterIntellectus) so they just... caught up? in three years?! grok is now frontier how does he do it?! — https://nitter.net/IterIntellectus/status/2087566420108333168#m",
-          "link": "https://nitter.net/brivael/status/2087569057717317907#m",
-          "date_utc": "2026-08-12T15:57:03+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "incroyable X Freeze (@XFreeze) Grok 4.6 just released and it’s already a massive jump It outperformed Fable 5 Max and GPT-5.6 Sol Max on GDPVal-AA v2 benchmark — https://nitter.net/XFreeze/status/2087564871588307436#m",
-          "link": "https://nitter.net/brivael/status/2087568904520376322#m",
-          "date_utc": "2026-08-12T15:56:26+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiFLmebwAAlQPs.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "Elon ship à une vitesse qui n’a plus de sens. Grok 4.6 sort aujourd’hui. Pas une itération cosmétique. Un modèle qui tient des trajectoires longues, qui construit des projets complets, qui s’améliore en boucle. Et il arrive pile après 4.5. Ce n’est plus de la compétition classique. C’est de l’intégration verticale poussée à l’extrême. Il possède le silicium (via Tesla et SpacexAI), les data centers, le modèle, l’infra d’entraînement, le produit final, et maintenant même les outils de développement (Cursor + Grok Build). Toute la stack. Du bout du câble jusqu’à l’interface utilisateur. Les autr",
-          "link": "https://nitter.net/brivael/status/2087568516295614633#m",
-          "date_utc": "2026-08-12T15:54:54+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2087561838158344192%2FTV_52QJA%3Fformat%3Djpg%26name%3D800x419"
-          ],
-          "articles": [
-            {
-              "url": "https://x.ai/news/grok-4-6",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "LFG!!!!!! Elon Musk (@elonmusk) Grok 4.6 is now out 🚀🚀🚀 Smart, fast amazing bang for buck! — https://nitter.net/elonmusk/status/2087565020158992709#m",
-          "link": "https://nitter.net/brivael/status/2087567253784982006#m",
-          "date_utc": "2026-08-12T15:49:53+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "la république des fuites Seb (@seblatombe) 🚨 ALERTE – Fuite de données Le piratage de la DGFiP (Impôts), touchant plus de 678 000 personnes, est revendiqué. Le pirate affirme détenir des identifiants fiscaux, revenus fiscaux, taux de prélèvement à la source, adresses, téléphones et e-mails. — https://nitter.net/seblatombe/status/2087540821130174859#m",
-          "link": "https://nitter.net/brivael/status/2087564845973467512#m",
-          "date_utc": "2026-08-12T15:40:19+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhvQRxX0AASx7Y.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "Oui, Jancovici est un terroriste intellectuel. Un néocommuniste qui vend un monde où l’individu devra choisir son unique voyage en avion dans sa vie. Pendant que lui prendra l’avion pour aller donner sa conférence, payer des dizaines de K. Car le rationnement, c’est que pour vous, les gueux. Video",
-          "link": "https://nitter.net/brivael/status/2087564583762366708#m",
-          "date_utc": "2026-08-12T15:39:16+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087553921308901376%2Fimg%2FAnMBQaUGb8hjDvSY.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "🎯🎯🎯🎯 Rien de Personnel (@RadarTalents75) MLP développerait un programme économique plus libéral qu’elle toucherait rapidement un électorat plus élargi — https://nitter.net/RadarTalents75/status/2087508064773574816#m",
-          "link": "https://nitter.net/brivael/status/2087549568904782265#m",
-          "date_utc": "2026-08-12T14:39:36+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "brivael",
-          "creator": "@brivael",
-          "text": "Yes Nate Esparza (@Nate_Esparza) The future is being written in real time here. — https://nitter.net/Nate_Esparza/status/2087383279066579403#m",
-          "link": "https://nitter.net/brivael/status/2087549432203989225#m",
-          "date_utc": "2026-08-12T14:39:04+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "cleoabram",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "cleoabram",
-          "creator": "@cleoabram",
-          "text": "How big are other planets really? Video",
-          "link": "https://nitter.net/cleoabram/status/2087552704277250141#m",
-          "date_utc": "2026-08-12T14:52:04+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087552498584502273%2Fimg%2FGQ0yPxLazm2CIT3m.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "dhh",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "dhh",
-          "creator": "@dhh",
-          "text": "Fair warning: Omarchy is leaning fully into the future and the age of agents. This is how we truly democratize Linux, bring the malleable OS to all, and capture as much of this newfound intelligence as possible. If that's not your jam, there's a lot of anti-AI distro options ✌️",
-          "link": "https://nitter.net/dhh/status/2087538364580835804#m",
-          "date_utc": "2026-08-12T13:55:05+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "dhh",
-          "creator": "@dhh",
-          "text": "Agents are just like humans. They'll only skim the top of the instructions (head -40!), then just jump right into the action.",
-          "link": "https://nitter.net/dhh/status/2087530644381319496#m",
-          "date_utc": "2026-08-12T13:24:24+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhl78VXkAAlbqW.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "dhh",
-          "creator": "@dhh",
-          "text": "Claude pulls no punches on Spotify: \"For a music player, ~1.25 GB resident is steep, and it's all Chromium overhead: the renderer and GPU process together are 720 MB, more than half the total, for what is essentially a list of songs.\"",
-          "link": "https://nitter.net/dhh/status/2087524829545075053#m",
-          "date_utc": "2026-08-12T13:01:18+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhgkrmWsAAG_FJ.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "dhh",
-          "creator": "@dhh",
-          "text": "Meanwhile...",
-          "link": "https://nitter.net/dhh/status/2087525333310337056#m",
-          "date_utc": "2026-08-12T13:03:18+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhhK0wXUAE4VAe.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "dhh",
-          "creator": "@dhh",
-          "text": "Omarchy Quattro ships with a crash watcher that'll offer to diagnose any issue with an agent equipped with a special skill for tracing problems and reporting verified issues upstream.",
-          "link": "https://nitter.net/dhh/status/2087513928808976438#m",
-          "date_utc": "2026-08-12T12:17:59+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhWqymWwAExgDv.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "dhh",
-          "creator": "@dhh",
-          "text": "You can choose any agent to play this role under Setup Defaults Agent.",
-          "link": "https://nitter.net/dhh/status/2087514190701273123#m",
-          "date_utc": "2026-08-12T12:19:01+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhXFXKXcAAghHU.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "eliebakouch",
-      "org": "Hugging Face",
-      "focus": [
-        "LLMs",
-        "training"
-      ],
-      "tweets": [
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "grok 4.6 has a very impressive test time curve on cursorbench, in a league of its own they did more mid/pre-training on the grok 4.5 checkpoint and newer SFT stages with grok 4.5 traces and model base filtering. once again shows how important a good SFT ckpt is SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/eliebakouch/status/2087567163783614976#m",
-          "date_utc": "2026-08-12T15:49:31+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiGYQuWMAAA6Q1.jpg",
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "btw i can't see anymore the mention of grok 4.5 being accidentaly trained on cursorbench eval data, i'm assuming it's because cursorbench 3.2 remove this data, but would love a confirmation here @leerob @srush_nlp @ellev3n11",
-          "link": "https://nitter.net/eliebakouch/status/2087568017148223645#m",
-          "date_utc": "2026-08-12T15:52:55+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "eliebakouch",
-          "creator": "@eliebakouch",
-          "text": "btw looked again at this again and i think the text is wrong cc @jonasgeiping as well",
-          "link": "https://nitter.net/eliebakouch/status/2087535066800930896#m",
-          "date_utc": "2026-08-12T13:41:59+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "haozhu_wang",
-      "org": "xAI",
-      "focus": [
-        "agents"
-      ],
-      "tweets": [
-        {
-          "handle": "haozhu_wang",
-          "creator": "@haozhu_wang",
-          "text": "🫡 Elon Musk (@elonmusk) Grok 4.6 is a banger — https://nitter.net/elonmusk/status/2087566406921617534#m",
-          "link": "https://nitter.net/haozhu_wang/status/2087569873169989738#m",
-          "date_utc": "2026-08-12T16:00:17+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "haozhu_wang",
-          "creator": "@haozhu_wang",
-          "text": "Grok 4.6 trained on improved data and recipe across midtraining, SFT, and RL. Our model factory is accelerating. SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/haozhu_wang/status/2087567430382190648#m",
-          "date_utc": "2026-08-12T15:50:35+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "heavypulp",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "heavypulp",
-          "creator": "@heavypulp",
-          "text": "PAYOLA - a feature film. Coming when it's ready. Video",
-          "link": "https://nitter.net/heavypulp/status/2087557531954556991#m",
-          "date_utc": "2026-08-12T15:11:15+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087557185030995968%2Fimg%2FWml-T2zrFHA3xoJT.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "hexiang",
-      "org": "Google DeepMind",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "hexiang",
-          "creator": "@hexiang",
-          "text": "Grok 4.6 SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/hexiang/status/2087565081832051053#m",
-          "date_utc": "2026-08-12T15:41:15+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "lexfridman",
-      "org": "Independent",
-      "focus": [
-        "AI",
-        "robotics",
-        "research interviews"
-      ],
-      "tweets": [
-        {
-          "handle": "lexfridman",
-          "creator": "@lexfridman",
-          "text": "Here's my conversation with Khabib Nurmagomedov ( @TeamKhabib ), one of the greatest fighters of all time. It was truly an honor to get to train with him, to have this deep conversation, and to get to know him over the past few months. We did this conversation entirely in Russian. It's translated and dubbed into English. Both language audio tracks and subtitles are available on YouTube. Here on X, I'm posting the English & Russian language versions as seperate videos. The translation & dubbing was a huge amount of work (which I deeply care about) with humans & AI collaborating. Thanks to the a",
-          "link": "https://nitter.net/lexfridman/status/2087532784877265234#m",
-          "date_utc": "2026-08-12T13:32:55+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087493136490569728%2Fimg%2Fld7q-pAuCNN9EIpo.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "lexfridman",
-          "creator": "@lexfridman",
-          "text": "Here's the Russian language version: Video",
-          "link": "https://nitter.net/lexfridman/status/2087532792070459560#m",
-          "date_utc": "2026-08-12T13:32:56+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087493307651735552%2Fimg%2F30KoaMhXm7DkFsbn.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "lexfridman",
-          "creator": "@lexfridman",
-          "text": "Here's the links for my conversation with Khabib Nurmagomedov ( @TeamKhabib ): YouTube: piped.video/watch?v=l6USUAIK… Spotify: open.spotify.com/show/2MAi0B… Podcast: lexfridman.com/podcast",
-          "link": "https://nitter.net/lexfridman/status/2087532796961059062#m",
-          "date_utc": "2026-08-12T13:32:57+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhnzV0XwAAx5Ih.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://piped.video/watch?v=l6USUAIKJls",
-              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
-            },
-            {
-              "url": "https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL",
-              "content": "Lex Fridman Podcast | Podcast on Spotify Lex Fridman Podcast Lex Fridman Follow Conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. 4.8 (83K) Technology All Episodes #500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor Football Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. It&#x27;s translated and dubbed into English. Both language audio tracks (and subtitles) are available on YouTube. Here, only"
-            },
-            {
-              "url": "https://lexfridman.com/podcast",
-              "content": "Lex Fridman Podcast - Lex Fridman Skip to content Lex Fridman Research Scientist at MIT. Host of Lex Fridman Podcast. Menu Lex Fridman MENU MENU Lex Fridman Podcast Contact Lex X / Twitter YouTube Lex Fridman Podcast This podcast hosts conversations that explore technology, history, philosophy, physics, mathematics, biology, chemistry, engineering, AI, robotics, programming, music, film, art, sports, psychology, neuroscience, geopolitics, business, economics, religion, astronomy, and the human condition with people from all walks of life. To support this podcast, please consider doing the following: Subscribe to Lex Fridman or Lex Clips YouTube channels. Subscribe on Apple Podcasts , Spotify , RSS . If you enjoy it, consider rating it 5 stars. Connect on X/Twitter , LinkedIn , Instagram , "
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "handle": "milichab",
-      "org": "xAI",
-      "focus": [
-        "xAI",
-        "SpaceX",
-        "Cursor"
-      ],
-      "tweets": [
-        {
-          "handle": "milichab",
-          "creator": "@milichab",
-          "text": "Grok 4.6 is a leap in intelligence and persistence. From completing debugging tasks to building apps from scratch, Grok 4.6 is a fast, dependable, and smart companion. Try it now in Grok Build, Cursor, Grok Bot, and the SpaceXAI API! SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/milichab/status/2087563876749775002#m",
-          "date_utc": "2026-08-12T15:36:27+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "minchoi",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "minchoi",
-          "creator": "@minchoi",
-          "text": "We are getting flying cars... Elon Musk (@elonmusk) You will get flying cars — https://nitter.net/elonmusk/status/2087410488854622704#m",
-          "link": "https://nitter.net/minchoi/status/2087507022623162813#m",
-          "date_utc": "2026-08-12T11:50:32+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhQfMBWwAASXuy.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "mlevchin",
-      "org": "Independent",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "mlevchin",
-          "creator": "@mlevchin",
-          "text": "Years ago I asked @pmarca for advice on successful M A (having screwed up my unfair share of those). His advice was “make their chiefs your chiefs!” We are lucky to have Wayne at the top here - Affirm CAN and our Revenue org’s many victories have a lot to do with his excellence! Tank Talks (@TankTalkPodcast) Rower at @Harvard . A PhD at @Cambridge. Six years in private equity. He then took a 5-person division to a $340M exit, and now runs revenue at @Affirm : 13:09 — how he sold Canada's first BNPL product before writing a line of code 21:24 — the inbound that told him it was time to sell, not",
-          "link": "https://nitter.net/mlevchin/status/2087269100326178905#m",
-          "date_utc": "2026-08-11T20:05:07+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "mntruell",
-      "org": "Cursor AI",
-      "focus": [
-        "coding agents",
-        "AI tooling",
-        "Cursor"
-      ],
-      "tweets": [
-        {
-          "handle": "mntruell",
-          "creator": "@mntruell",
-          "text": "Excited to release Grok 4.6. With each release, Grok is becoming a more capable digital colleague. 4.6 is significantly better at difficult tasks and knowledge work. It combines Opus-class intelligence and polish with very low cost and high speed. SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/mntruell/status/2087565040677454327#m",
-          "date_utc": "2026-08-12T15:41:05+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
           "articles": []
         }
       ]
@@ -1108,159 +121,30 @@
         {
           "handle": "ns123abc",
           "creator": "@ns123abc",
-          "text": "ChatGPT work is boomer coded Claude co-work millennial coded Grok bot is Gen Z coded",
-          "link": "https://nitter.net/ns123abc/status/2087543980669992975#m",
-          "date_utc": "2026-08-12T14:17:24+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "ns123abc",
-          "creator": "@ns123abc",
-          "text": "this observation is based on pure vibes (aesthetics) not capabilities",
-          "link": "https://nitter.net/ns123abc/status/2087559344262897773#m",
-          "date_utc": "2026-08-12T15:18:27+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "ns123abc",
-          "creator": "@ns123abc",
-          "text": "what?? 💀",
-          "link": "https://nitter.net/ns123abc/status/2087524108930089259#m",
-          "date_utc": "2026-08-12T12:58:26+00:00",
+          "text": "🚨BREAKING: SPACEXAI JUST DROPPED GROK 4.6 A frontier model built for long-running agents complex multi-step work beats GPT-5.6 Sol Max on knowledge work ties Fable 5 Max on performance $2/M input $6/M output 85% CHEAPER Elon mogging everyone with his compute",
+          "link": "https://nitter.net/ns123abc/status/2087577907925336423#m",
+          "date_utc": "2026-08-12T16:32:13+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHPhgHQ4W8AABiKH.jpg"
+            "https://nitter.net/pic/media%2FHPiRCtNW0AAbImx.jpg",
+            "https://nitter.net/pic/media%2FHPiRCtSX0AAt6Dp.jpg",
+            "https://nitter.net/pic/media%2FHPiRCtPXoAAVbBb.jpg"
           ],
           "articles": []
         },
         {
           "handle": "ns123abc",
           "creator": "@ns123abc",
-          "text": "wikipedia cannot be trusted",
-          "link": "https://nitter.net/ns123abc/status/2087534622838059091#m",
-          "date_utc": "2026-08-12T13:40:13+00:00",
+          "text": "NIK (@ns123abc) Cursor team cooked Video — https://nitter.net/ns123abc/status/2087253407870459907#m",
+          "link": "https://nitter.net/ns123abc/status/2087258917973762216#m",
+          "date_utc": "2026-08-11T19:24:40+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHPhprUpWMAAjVjC.jpg"
+            "https://nitter.net/pic/amplify_video_thumb%2F2087253222016663552%2Fimg%2FMdDIPIjV2itkH-5R.jpg"
           ],
           "articles": []
-        },
-        {
-          "handle": "ns123abc",
-          "creator": "@ns123abc",
-          "text": "😂 NIK (@ns123abc) sam altman arriving at the office this morning after google declared him dead Video — https://nitter.net/ns123abc/status/2087553035992014996#m",
-          "link": "https://nitter.net/ns123abc/status/2087557726087823620#m",
-          "date_utc": "2026-08-12T15:12:01+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087552998553661442%2Fimg%2FxBAhJHG9SfqTnEkP.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ns123abc",
-          "creator": "@ns123abc",
-          "text": "sam altman arriving at the office this morning after google declared him dead Video",
-          "link": "https://nitter.net/ns123abc/status/2087553035992014996#m",
-          "date_utc": "2026-08-12T14:53:23+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087552998553661442%2Fimg%2FxBAhJHG9SfqTnEkP.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ns123abc",
-          "creator": "@ns123abc",
-          "text": "OpenAI will drop a “pay-to-reset” weekly quota The days of free resets are essentially over…",
-          "link": "https://nitter.net/ns123abc/status/2087520652475462085#m",
-          "date_utc": "2026-08-12T12:44:42+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhc-GHW8AAY66g.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "ns123abc",
-          "creator": "@ns123abc",
-          "text": "Any minute now, trust the plan NIK (@ns123abc) Are you READY for Grok 4.6?!?!?! — https://nitter.net/ns123abc/status/2087134273576821208#m",
-          "link": "https://nitter.net/ns123abc/status/2087514766864421205#m",
-          "date_utc": "2026-08-12T12:21:19+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPb9j2jXEAAVmwS.jpg"
-          ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "nvidia",
-      "org": "NVIDIA",
-      "focus": [
-        "GPU",
-        "hardware",
-        "CUDA",
-        "inference",
-        "training"
-      ],
-      "tweets": [
-        {
-          "handle": "nvidia",
-          "creator": "@nvidia",
-          "text": "Congrats to the @SpaceXAI team on the release of Grok 4.6. Grok 4.6 brings frontier intelligence, running and trained on NVIDIA GB300 NVL72 with NVLink to deliver exceptional performance, reliability and lowest token cost. SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/nvidia/status/2087576824159297605#m",
-          "date_utc": "2026-08-12T16:27:54+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "nvidia",
-          "creator": "@nvidia",
-          "text": "We’re honored that Glassdoor has named our founder and CEO, @JensenHuang , No. 1 on its 2026 Best CEOs list. 🎉 A very meaningful recognition, grounded in feedback from the people who make NVIDIA what it is.",
-          "link": "https://nitter.net/nvidia/status/2087549663289422297#m",
-          "date_utc": "2026-08-12T14:39:59+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPh3UgVa8AASIIr.png"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "nvidia",
-          "creator": "@nvidia",
-          "text": "Read the story: nvda.ws/4gt2Ta0 Link NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the... blogs.nvidia.com",
-          "link": "https://nitter.net/nvidia/status/2087549780209914136#m",
-          "date_utc": "2026-08-12T14:40:27+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2087544461005914112%2FUTCw3ua2%3Fformat%3Djpg%26name%3D800x419"
-          ],
-          "articles": [
-            {
-              "url": "https://nvda.ws/4gt2Ta0",
-              "content": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs | NVIDIA Blog Skip to content NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs August 12, 2026 by Febe Punsalan 0 Comments Share Share This Article X Facebook LinkedIn Copy link Link copied! NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the best — employees. Huang topped the list, with 99% of employees approving of the job he does. “As AI and shifting expectations redefine the modern workplace, exceptional leadership has never been more vital,” Glassdoor noted. “The top 50 CEOs do more than manage day-to-day operations — they empower their people and drive authentic culture.” Glassdoor reint"
-            }
-          ]
         }
       ]
     },
@@ -1274,238 +158,37 @@
         {
           "handle": "spencerpratt",
           "creator": "@spencerpratt",
-          "text": "All by design... T Wolf 🌁 (@Twolfrecovery) LA is so cooked. They created a choice between a mayor who has overseen massive corruption and failure at @LAHomeless or the person who was placed in charge of homeless committee in LA who also oversaw the homeless corruption. What a choice. @spencerpratt — https://nitter.net/Twolfrecovery/status/2087552228416774526#m",
-          "link": "https://nitter.net/spencerpratt/status/2087570475656396964#m",
-          "date_utc": "2026-08-12T16:02:41+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "It's all too predictable. Don't let communists run your city, folks. It's the easiest advice to live by. They're just scammers. New York Post (@nypost) Manhattan rents reach all-time high of $6,655/month amid Mamdani's rent freeze and pied-a-terre tax threat trib.al/HhTDzRS — https://nitter.net/nypost/status/2087502056957378855#m",
-          "link": "https://nitter.net/spencerpratt/status/2087561877064692200#m",
-          "date_utc": "2026-08-12T15:28:31+00:00",
+          "text": "Video Nathan J Robinson (@NathanJRobinson) Totally inexcusable that Bernie and AOC failed to back Hong. If she loses narrowly it will be a major setback for the socialist movement that they will bear major responsibility for. — https://nitter.net/NathanJRobinson/status/2087377654659928092#m",
+          "link": "https://nitter.net/spencerpratt/status/2087508113897259510#m",
+          "date_utc": "2026-08-12T11:54:53+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
-            "https://nitter.net/pic/media%2FHPhMDTuWUAApXpR.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://trib.al/HhTDzRS",
-              "content": "Exclusive | Manhattan rents reach all-time high of $6,655 per month Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official S"
-            }
-          ]
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "It's not even wokeness, it's just mafia-style weaponization of the AG's office. If production houses already have no problem operating in other COUNTRIES, do you think they'll even blink over moving to Tennessee? Bonta's jihad is going to wreck the film industry in CA. California Post (@californiapost) Today's cover: Paramount to woke California AG Rob Bonta: Block the merger and we leave! trib.al/F6fvQsT Subscribe for home delivery: trib.al/IToGriz — https://nitter.net/californiapost/status/2087548687878705579#m",
-          "link": "https://nitter.net/spencerpratt/status/2087558904246940101#m",
-          "date_utc": "2026-08-12T15:16:42+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPh2dOCWkAAFAUD.jpg"
-          ],
-          "articles": [
-            {
-              "url": "https://trib.al/F6fvQsT",
-              "content": "David Ellison plans to move Paramount from LA to Texas, Georgia Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official Store"
-            },
-            {
-              "url": "https://trib.al/IToGriz",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "What the worthless corporate media continues to get wrong about the Palisades Village surviving the fire...it wasn't just that Caruso had private firefighters, it's that they had WATER to fight with. He had private water tenders. LADWP left the rest of us high and dry. Video",
-          "link": "https://nitter.net/spencerpratt/status/2087557043196428315#m",
-          "date_utc": "2026-08-12T15:09:18+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087556924208214017%2Fimg%2FAv1l4gn-rfDAQkcY.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Emperor Mao has no clothes. Crush the socialists. Sweep the leg. No mercy. POLITICO (@politico) Francesca Hong’s stunning primary loss to moderate, establishment-backed David Crowley revealed limits to the far left’s power — and is undercutting the narrative of an emerging insurgency. politico.com/news/2026/08/12… Link The far left hits a wall politico.com — https://nitter.net/politico/status/2087536757822701601#m",
-          "link": "https://nitter.net/spencerpratt/status/2087547804361130167#m",
-          "date_utc": "2026-08-12T14:32:35+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/card_img%2F2087448821986893824%2FwH45xAsV%3Fformat%3Djpg%26name%3D800x419"
-          ],
-          "articles": [
-            {
-              "url": "https://www.politico.com/news/2026/08/12/dsa-progressive-francesca-hong-wisconsin-01035101",
-              "content": ""
-            }
-          ]
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "Beetlejuice Bob isn’t take the Hong loss well. The DSA are freaking out that everyone is realizing Emperor Mao here has no clothes. Video",
-          "link": "https://nitter.net/spencerpratt/status/2087520043596673174#m",
-          "date_utc": "2026-08-12T12:42:17+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087436187107549186%2Fimg%2FjIQNILfZKHRmiZ3L.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "This is how all DSA people speak in private. Every single one. Communists want to destroy your entire way of life, and they will lie to you and pretend like they're not violent psychopaths. Don't let socialists anywhere near power. Video",
-          "link": "https://nitter.net/spencerpratt/status/2087509699365061092#m",
-          "date_utc": "2026-08-12T12:01:11+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087362603496402945%2Fimg%2F0KPxlf1xj97sx3y3.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "The language of the communist is the lie. Polls are a weapon of propaganda. They game them, constantly, specifically to manipulate you with a false impression of perceived acceptance. The KGB called this \"normalization\", and it's the end phase of the communist revolution. Nate Silver (@NateSilver538) Hong might come back, but wtf is up with these primary polls? — https://nitter.net/NateSilver538/status/2087351422056591582#m",
-          "link": "https://nitter.net/spencerpratt/status/2087494986921087125#m",
-          "date_utc": "2026-08-12T11:02:43+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPfCwGBXsAAmJRG.jpg",
-            "https://nitter.net/pic/media%2FHPfC72zXEAAKl7d.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "They use fake polls, they use 3rd world bots on their X accounts, they cheat wherever they can to give this false impression of popularity & inevitability of the socialist virus, because the language of the communist is the lie. These psychos aren't popular, they're just scammers. VOTE! Don't let commies run anything. Not even dog-catcher. You've seen how the DSA people treat dogs, anyway.",
-          "link": "https://nitter.net/spencerpratt/status/2087493610375667926#m",
-          "date_utc": "2026-08-12T10:57:15+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPhDHQWW0AAFM9s.jpg",
-            "https://nitter.net/pic/media%2FHPhDIwrXsAAtQiN.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "spencerpratt",
-          "creator": "@spencerpratt",
-          "text": "You guys getting tired of this yet? Bo Loudon (@BoLoudon) 🚨Even NBC News was just STUNNED by a late-night ballot drop that helped bring Socialist Francesa Hong to the winning position. \"Wow. What the heck... That was huge for her.\" Democrats continue to get more radical... Video — https://nitter.net/BoLoudon/status/2087375536276320632#m",
-          "link": "https://nitter.net/spencerpratt/status/2087484234743099555#m",
-          "date_utc": "2026-08-12T10:19:59+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/amplify_video_thumb%2F2087370112516947969%2Fimg%2F4sRO1VraX_9Zj5YM.jpg"
+            "https://nitter.net/pic/amplify_video_thumb%2F2087507958456352768%2Fimg%2F6AmyN10fJtn0QocD.jpg",
+            "https://nitter.net/pic/media%2FHPfax3wXYAA5syc.jpg"
           ],
           "articles": []
         }
       ]
     },
     {
-      "handle": "sualehasif996",
-      "org": "Cursor",
+      "handle": "stepango",
+      "org": "xAI",
       "focus": [
-        "AI"
+        "agents"
       ],
       "tweets": [
         {
-          "handle": "sualehasif996",
-          "creator": "@sualehasif996",
-          "text": "Grok 4.6 is a fun daily driver model! SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/sualehasif996/status/2087568190633324683#m",
-          "date_utc": "2026-08-12T15:53:36+00:00",
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "We are so back🚀 SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
+          "link": "https://nitter.net/stepango/status/2087579228036550999#m",
+          "date_utc": "2026-08-12T16:37:27+00:00",
           "is_curated": false,
           "org": "",
           "image_urls": [
             "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
           ],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "theskory",
-      "org": "Meta AI",
-      "focus": [
-        "AI"
-      ],
-      "tweets": [
-        {
-          "handle": "theskory",
-          "creator": "@theskory",
-          "text": "Grok 4.6 is an excellent model. I’ve been using it heavily for the past couple of weeks and it handles everything from simple coding & code review all the way to designing and debugging complex systems with ease. What stands out even more is how strong it is outside of coding - deep research, long-form reasoning, planning, writing, and agentic workflows all feel noticeably sharper. Artificial Analysis (@ArtificialAnlys) SpaceXAI's Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index, joining the frontier in line with GPT-5.6 Sol, with standout agentic performance at lower cost Grok",
-          "link": "https://nitter.net/theskory/status/2087569089027817485#m",
-          "date_utc": "2026-08-12T15:57:10+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiEg4XaEAAJ4LX.jpg"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "theskory",
-          "creator": "@theskory",
-          "text": "Meet Grok 4.6 - much higher capabilities and intelligence, at the same price and speed as 4.5! Try it out in Grok Build and Cursor. SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
-          "link": "https://nitter.net/theskory/status/2087563045438460329#m",
-          "date_utc": "2026-08-12T15:33:09+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [
-            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
-          ],
-          "articles": []
-        },
-        {
-          "handle": "theskory",
-          "creator": "@theskory",
-          "text": "I feel that today is a good day!",
-          "link": "https://nitter.net/theskory/status/2087504402412167244#m",
-          "date_utc": "2026-08-12T11:40:08+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
-          "articles": []
-        }
-      ]
-    },
-    {
-      "handle": "zhu_hanqing666",
-      "org": "Google DeepMind",
-      "focus": [
-        "reinforcement learning"
-      ],
-      "tweets": [
-        {
-          "handle": "zhu_hanqing666",
-          "creator": "@zhu_hanqing666",
-          "text": "My account got hacked today 😢 Please don’t click or trust any links from me 🤣 An exciting week looking ahead 🚀",
-          "link": "https://nitter.net/zhu_hanqing666/status/2087317680496021813#m",
-          "date_utc": "2026-08-11T23:18:10+00:00",
-          "is_curated": false,
-          "org": "",
-          "image_urls": [],
           "articles": []
         }
       ]

@@ -823,5 +823,14 @@
   "article_max_chars": 10000,
   "x_cookies_path": "~/.config/cere-bro/x-cookies.json",
   "download_images": true,
-  "image_download_timeout": 8
+  "image_download_timeout": 8,
+  "bookmarks": {
+    "enabled": true,
+    "max_pages": 5,
+    "count_per_page": 100,
+    "only_new": true,
+    "fetch_linked_articles": true,
+    "graphql_query_id": "iblrFnKr6PZUR-dWpfXG6g",
+    "note": "graphql_query_id rotates when X ships a new web build. If bookmark fetches start returning 404, refresh it: open x.com/i/bookmarks in a logged-in browser, DevTools > Network, filter 'Bookmarks', copy the hash segment from the request URL (.../graphql/<THIS_PART>/Bookmarks) into this field. The auth_token + ct0 cookies come from x-cookies.json."
+  }
 }
