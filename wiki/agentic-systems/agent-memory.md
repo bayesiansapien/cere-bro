@@ -2,7 +2,25 @@
 
 Agent memory is the long-term, cross-session store an agent uses to preserve facts, preferences, traces, and state between interactions. It is structurally distinct from the KV cache (which is per-context, short-term, attention-internal) and from the prompt window (which is per-request).
 
-## Current State (as of 2026-08-11)
+## Current State (as of 2026-08-12)
+
+**The bill arrived. Two results dated the same day treat accumulated procedural memory as a cost line to be minimized rather than a store to be improved, and they split on how.**
+
+*Shrink the artifact.* [SkillZip (08-12)](2026-08-12-skillzip-skill-compression.md) (2608.11079) compresses an agent's skill file by finding its **shortest faithful structural explanation** under a typed minimum-description-length objective over a contract and a residual, with a hard coverage constraint on every extracted trigger, workflow edge, tool requirement, obligation and output field. The intuition is *explain once, reference many*. It is **evaluation-free**: no rollouts, so no dependence on whichever tasks were in the compression-time evaluation set, and rare unique rules survive by construction rather than by hoping a sampled task activates them. Zip-on-Write folds each new patch in without replaying history.
+
+*Shrink the delivery.* IBM Research's [ALTK-Evolve (08-12)](2026-08-12-altk-evolve-selective-context-delivery.md) leaves the store large and makes **how much of it ships per step** an adjustable parameter: a small always-on core of high-confidence guidelines plus a per-task retrieved subset, or everything when the model has capacity. Guidelines are typed (strategy, recovery, optimization), merged when similar, and **keep their support counts** so provenance survives the merge. On AppWorld against ACE (Agentic Context Engineering, which injects one comprehensive playbook every step): **DeepSeek-V3.2 at 89.3% task-goal completion and 263K tokens per task against 80.4% and 634K**; **GPT-oss-120b at 56.0% and 116K against 54.8% and 777K**.
+
+**The DeepSeek row is the load-bearing number on this page today: 8.9 points more accuracy at 41% of the token cost.** Both axes moving the right way at once means the baseline was paying for context that was *actively harmful*, not merely redundant. This page has been treating memory volume as a storage-and-retrieval problem; that result says volume is also an interference problem.
+
+**And it explains a finding this page has carried unexplained since 08-05.** [SkillBench and PastBench (08-05)](2026-08-05-do-agents-learn-from-experience-skillbench-pastbench.md) found explicit skill maintenance merely matches plain in-context learning **on average**, with weaker models accumulating more fragments. ALTK-Evolve's per-model calibration is the mechanism: weaker models are hurt by volume, stronger ones absorb it, so a fixed delivery policy averages to nothing across a model mix. **Delivery volume is a per-model parameter, and no memory system on this page treats it as one.**
+
+**Compression versus selection is now a real design fork here, and it is composable.** Neither result cites the other and nobody has run compress-the-store-then-deliver-a-subset. Against them, the two 08-11 papers below both bound memory by **allocating a fixed budget**: RoMeRL's fixed-dimensional per-task state (store down 84.4%) and AMD's teacher-built store. So the page now holds three positions on the same problem, allocated, deduplicated and selectively delivered, and there is no comparison between any two of them.
+
+**One caution, and it is specific to today's methods rather than general.** ALTK-Evolve's per-task selection is cosine similarity or LLM choice, which is exactly the mechanism [InMind (07-29)](2026-07-29-inmind-implicit-association-blind-spot.md) indicts: retrieval surfaces a fact only when the fact resembles the query, six systems at at most 14.4% on indirect queries against **84.0% for the same memory simply placed in context**. AppWorld states tasks fairly directly, so the blind spot plausibly did not bite. The falsifiable version: **ALTK-Evolve's margin over ACE should shrink or invert on a benchmark with indirect task statements.** SkillZip does not have this exposure, because it compresses rather than retrieves.
+
+**The security caution is shared and gets worse with both.** A compressed or merged skill is still prose, so it stays on the wrong side of the [copyable-context trilemma (08-03)](../responsible-ai/2026-08-03-copyable-context-safety-trilemma.md), and [SkillJack (08-05)](../responsible-ai/2026-08-05-skilljack-persistent-skill-backdoors.md) measured detection collapsing from 98.5% on a poisoned trajectory to **11.4%** on the skill extracted from it, with **80% of attacks surviving deletion of the source records**. Both of today's methods add another abstraction step, and merging rules across branches is precisely the operation that laundres a poisoned rule into a shared procedure many branches then reference. Neither discusses adversarial input.
+
+## Prior State (as of 2026-08-11)
 
 **Two papers on one board, attacking the same starvation from opposite ends: one fixes the data, one fixes the estimator.**
 
