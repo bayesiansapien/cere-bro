@@ -657,7 +657,26 @@ The Media Zone synthesis is written by the morning cron in the same Claude call 
 - **Saved posts / bookmarks (the knowledge backbone): digest-like but compressed.** For each saved article, read its enriched content and write a compressed Deep Dive — what the work is, the problem it solves, the core idea, why it matters, in plain language. Shorter and faster than a full daily-digest Deep Dive (no rigid 6-heading template, no mandatory diagram), but genuinely explanatory: a reader should *learn the idea* from it without opening the paper. This is the point of the section. Optimization angle only where it fits.
 - **Everything else (general scrape, YouTube, Reddit): compact-explanatory.** Each cluster is **3-5 compact bullets**, a short sentence or two (~20-40 words) that explains the item and, where relevant, its optimization angle. Think "a knowledgeable friend's two-line note on why this matters," not a headline.
 
-Thumbnails and link rows are centered via HTML wrappers so the page reads like a scrollable feed.
+**Visual card feed (locked 2026-08-13).** The Media Zone renders as a scrollable card feed, NOT a plain list. For substantive items with a visual, emit an HTML card inside a `<div class="mz-feed">…</div>` grid:
+
+```html
+<div class="mz-card">                      <!-- add class "video" for videos: <div class="mz-card video"> -->
+<a class="mz-card-thumb" href="LINK"><img src="THUMB" alt="" loading="lazy" referrerpolicy="no-referrer"/></a>
+<div class="mz-card-body">
+<span class="mz-card-badge">X Article · one-phrase role</span>   <!-- badge classes: (default), .paper, .video -->
+<h4>Short title</h4>
+<p>3-5 sentence blurb: what it is, at a high level, and why it matters, so the reader can decide whether to open it.</p>
+<div class="mz-card-foot"><a href="LINK">Read the article →</a></div>
+</div>
+</div>
+```
+
+Card CSS (`.mz-feed`, `.mz-card`, thumb/badge/body/foot, video play-badge) lives in `site/src/styles/global.css`. Rules:
+- **Thumbnails come from the bookmark data.** X articles carry a cover image (`article.cover_media.media_info.original_img_url`); native X videos carry a poster (`extended_entities.media[].media_url_https`). Both hotlink from `pbs.twimg.com` (use `referrerpolicy="no-referrer"`). Video cards get `class="mz-card video"` for the play badge.
+- **Blurbs are expanded, not one-liners.** Each card's `<p>` is a real 3-5 sentence high-level explanation. The reader should understand what the thing is about without opening it. This overrides the "compact bullet" length for carded items.
+- **Add a diagram for the anchor concept** of a section: a ```mermaid block (landscape, colored classDef per the digest palette) or an embedded figure. At least the dominant cluster gets one.
+- Items without a usable thumbnail still get a card (no `.mz-card-thumb`, just badge + title + blurb) or a short prose line. Bare link rows use `<div class="mz-links">`.
+- Thumbnails/link rows are centered via these HTML wrappers so the page reads like a scrollable feed.
 
 ```markdown
 # Media Zone | YYYY-MM-DD
