@@ -16,15 +16,35 @@ const url = (p: string) => `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content={description} />
     <title>{title}</title>
+
+    <!-- PWA: installable app (icon + full-screen + offline). -->
+    <link rel="manifest" href={url('manifest.webmanifest')} />
+    <meta name="theme-color" content="#0a0a0f" />
+    <link rel="icon" type="image/png" href={url('icon-192.png')} />
+    <link rel="apple-touch-icon" href={url('apple-touch-icon.png')} />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Cerebro" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
     />
+
+    <!-- Register the service worker (network-first: fresh when online, cached offline). -->
+    <script is:inline define:vars={{ swUrl: url('sw.js') }}>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register(swUrl).catch(function () {});
+        });
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
