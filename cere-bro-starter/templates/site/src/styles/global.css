@@ -1381,7 +1381,7 @@ th {
 }
 .mz-tw-link:hover { text-decoration: underline; }
 
-/* ── Cerebro Radio ─────────────────────────────────────────────────────── */
+/* ── Radio ─────────────────────────────────────────────────────────────── */
 .listen-row {
   display: flex;
   gap: 12px;
@@ -1521,4 +1521,69 @@ th {
 .episode-player::-webkit-media-controls-time-remaining-display,
 .episode-player::-webkit-media-controls-overflow-button {
   filter: invert(1);
+}
+
+/* ============================================================
+   Mobile app-shell — bottom tab bar + app-like feel on phones.
+   Desktop (>=769px) is untouched: .tabbar stays display:none and
+   the existing top nav/header/footer render exactly as before.
+   ============================================================ */
+.tabbar { display: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root) { animation: cb-vt-out 0.16s ease both; }
+  ::view-transition-new(root) { animation: cb-vt-in 0.22s ease both; }
+}
+@keyframes cb-vt-out { to { opacity: 0; transform: translateY(-4px); } }
+@keyframes cb-vt-in { from { opacity: 0; transform: translateY(6px); } }
+
+@media (max-width: 768px) {
+  html { -webkit-text-size-adjust: 100%; }
+  body { overscroll-behavior-y: contain; -webkit-tap-highlight-color: transparent; }
+
+  /* Bottom tab bar — fixed, thumb-reachable, respects the iOS home indicator. */
+  .tabbar {
+    display: flex;
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 100;
+    background: rgba(10, 10, 15, 0.92);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .tabbar .tab {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 8px 0 7px;
+    color: var(--fg-muted);
+    border: none;
+    font-family: var(--sans);
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    -webkit-tap-highlight-color: transparent;
+    transition: color 0.15s;
+  }
+  .tabbar .tab svg { width: 23px; height: 23px; display: block; }
+  .tabbar .tab.active { color: var(--accent); }
+  .tabbar .tab:active { opacity: 0.55; }
+
+  /* Slim the top header to a centered title bar; tabs handle navigation. */
+  .site-header .nav { display: none; }
+  .site-header-inner { justify-content: center; padding: 9px 0; }
+
+  /* Clear the fixed tab bar; drop the desktop footer for a cleaner app view. */
+  .app-main { padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px)); }
+  .footer { display: none; }
+
+  /* Reading comfort on phones. */
+  main { font-size: 1.02rem; }
+  main p, main li { line-height: 1.72; }
+  .recent-item { padding: 13px 14px; }
 }
