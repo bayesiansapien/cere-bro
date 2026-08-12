@@ -273,12 +273,39 @@ Three rules:
 
 ### Format: `wiki/daily-digest/YYYY-MM/YYYY-MM-DD.md`
 
-The digest is one story in five sections: TL;DR → Deep Dives → Industry Pulse → Global View → Looking Ahead. No "Also today" tail, no source-count footer. Locked-in section order as of 2026-06-03.
+The digest is one story in six blocks: **Today's 3 for you** → TL;DR → Deep Dives → Industry Pulse → Global View → Looking Ahead. No "Also today" tail, no source-count footer. Section order locked 2026-06-03; "Today's 3 for you" added 2026-08-13.
+
+### Today's 3 for you (the triage layer — locked 2026-08-13)
+
+The FIRST thing in the digest, above the TL;DR. The 30-second attention layer that *chooses for the reader* what deserves their focus, so they don't have to triage the whole dense digest + Media Zone themselves. It draws from BOTH the digest's Deep Dives AND the day's Media Zone (the whole day's signal, not just papers).
+
+**Ranking logic — score every candidate item and pick the top 3:**
+1. **Tier 1 fit (highest weight).** Routing, KV cache, compression/quantization/distillation/pruning, GPU optimization, GPU hardware, semiconductor. A Tier 1 item almost always makes the 3.
+2. **Saved-theme momentum.** Does it match what the reader has been bookmarking lately? Check the running theme tally in `raw/twitter/bookmarks/CURATION-INDEX.md`. A hot personal theme (e.g. harness/loop engineering in 2026-08) earns a slot even if it's Tier 2.
+3. **Cross-source confirmation.** Appears in multiple sources (HF+Kurate, social+HF, or research+practitioner convergence). Confirmed signal outranks a single-source mention.
+4. **Actionability/novelty.** A concrete result or a decision-relevant claim beats commentary.
+
+**Format:** exactly 3 items, each ≤2 lines, rendered as the `.today3` HTML block:
+
+```html
+<div class="today3">
+<div class="today3-head">🎯 Today's 3 for you</div>
+<ol>
+<li><span class="verb read">Read</span><strong>Item.</strong> One clause on what it is + the personalized reason it's for YOU (name the Tier-1 topic or the saved theme it matches), then the concrete pointer/link.</li>
+<li><span class="verb skim">Skim</span><strong>...</strong> ...</li>
+<li><span class="verb track">Track</span><strong>...</strong> ...</li>
+</ol>
+</div>
+```
+
+Verb badges: `read` (worth full attention), `skim` (get the gist), `track` (watch, may matter soon). CSS (`.today3`) is in `site/src/styles/global.css`. This same block is reused as the **podcast's opening 60 seconds** ("if you remember three things today…") and, when push notifications ship, the **notification body**. Keep it opinionated: naming what to skip is as valuable as what to read.
 
 ```markdown
 # cere-bro | YYYY-MM-DD
 
 > One-sentence framing of today's sharpest tension, surprise, or theme.
+
+[Today's 3 for you — the .today3 HTML block above]
 
 ---
 
