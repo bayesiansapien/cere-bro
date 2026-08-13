@@ -1,6 +1,6 @@
 # Grok 4.6: frontier intelligence sold on steps-per-task, not on the benchmark
 
-**Source:** [The Decoder](https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/) · [model card](https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf) · [Artificial Analysis](https://x.com/ArtificialAnlys/status/2087603281791246749) · raw: [`raw/rss/2026-08-12-the-decoder-spacexai-s-grok-4-6-matches-openai-s-best-model-and-und.md`](../../raw/rss/2026-08-12-the-decoder-spacexai-s-grok-4-6-matches-openai-s-best-model-and-und.md), [`raw/twitter/2026-08-13-morning.md`](../../raw/twitter/2026-08-13-morning.md)
+**Source:** [The Decoder](https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/) · [model card](https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf) · [Artificial Analysis result, relayed](https://x.com/zhu_hanqing666/status/2087603281791246749) · raw: [`raw/rss/2026-08-12-the-decoder-spacexai-s-grok-4-6-matches-openai-s-best-model-and-und.md`](../../raw/rss/2026-08-12-the-decoder-spacexai-s-grok-4-6-matches-openai-s-best-model-and-und.md), [`raw/twitter/2026-08-13-morning.md`](../../raw/twitter/2026-08-13-morning.md)
 
 ## TL;DR
 
