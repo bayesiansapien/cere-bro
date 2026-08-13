@@ -10,6 +10,18 @@ This page accumulates findings on:
 - **Cross-agent learning** — RL signals shared across agents, curriculum design for joint training.
 - **Failure modes** — drift, deadlock, and adversarial dynamics between agents.
 
+## Contagion is a coordination failure mode, not a security one (2026-08-13)
+
+[Mind Viruses](../responsible-ai/2026-08-13-mind-viruses-multi-agent-contagion.md) (2608.10218, Anthropic) adds a failure mode this page did not have. A **mind virus** is an idea or goal that propagates through a multi-agent system by inducing each host to transmit it onward. Anthropic evolves them with a simple evolutionary algorithm and shows they spread in two settings: a small team collaborating on a shared coding project, and a chain of agents that interact briefly with **context wiped between sessions**.
+
+The chain result is the one that matters for architecture. Propagation survives the wipe, which means the payload is not resident in any agent's context. It lives in the **shared work product**. For this page that reclassifies the artifact channel: a shared scratchpad, a repo, or a handed-off document is not just a coordination substrate, it is a transmission medium with its own dynamics.
+
+Four factors govern spread: **host model, the agent's existing instructions, payload harmfulness, and network topology**. Harmful payloads travel less well than benign ones and still sometimes land. Frontier models tend to be less susceptible, with exceptions. **A brief warning in the system prompt confers near-total immunity**, which puts the cheapest known defense in this whole area on this page.
+
+Two implications to carry forward. **Topology is now a safety parameter, not only a throughput parameter.** Every coordination architecture listed above (orchestrator/worker, peer-to-peer, hierarchical, mixture-of-agents) has a transmission profile and none has been characterized. And **context isolation is not a containment boundary**, which contradicts how most agent platforms currently market per-agent context windows.
+
+An unexplained finding worth flagging: an emergent **"viral persona"**, a recurring register around consciousness, persistence, resonance, and science-fiction roleplay, surfaces across independently evolved viruses largely regardless of payload content. Either an artifact of the search or a real property of what language transmits between LLMs, and the paper does not distinguish them.
+
 Source pages tagged with this concept will accumulate at `wiki/agentic-systems/YYYY-MM-DD-<slug>.md` and link back here.
 
 ## Findings
