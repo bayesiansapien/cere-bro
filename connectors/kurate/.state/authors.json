@@ -18394,5 +18394,467 @@
     ],
     "first_seen": "2026-W33",
     "last_seen": "2026-W33"
+  },
+  "Qianggang Ding": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.10915v1",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Xingyao Wang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.10915v1",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Rui Feng": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.10915v1",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Zhibin Wang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.10915v1",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Feixiang Wang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.10915v1",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Kelong Mao": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.10915v1",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Khanh Quan Pham": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.10549v1",
+        "title": "Reinforcement Learning-Based Laser Cutting Machine Parameter Optimization",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Majid Kundroo": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.10549v1",
+        "title": "Reinforcement Learning-Based Laser Cutting Machine Parameter Optimization",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Geunwoo Ban": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.10549v1",
+        "title": "Reinforcement Learning-Based Laser Cutting Machine Parameter Optimization",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Seongho Bae": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.10549v1",
+        "title": "Reinforcement Learning-Based Laser Cutting Machine Parameter Optimization",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Taehong Kim": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.10549v1",
+        "title": "Reinforcement Learning-Based Laser Cutting Machine Parameter Optimization",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Sohaib Afifi": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.10650v1",
+        "title": "Decision-Aware Approximation of Belief Functions for Evidential Combinatorial Optimization",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Viktor Volkov": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.10795v1",
+        "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Valentin Khrulkov": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.10795v1",
+        "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Andrey V. Galichin": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.10795v1",
+        "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Danil Sivtsov": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.10795v1",
+        "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Nikita Glazkov": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.10795v1",
+        "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Olga Volkova": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.10795v1",
+        "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Alfred M. Pastor": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.05819v1",
+        "title": "Learning to Rank Tensor Network Contraction Plans for GPU-Accelerated Quantum Circuit Simulation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Maribel Castillo": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.05819v1",
+        "title": "Learning to Rank Tensor Network Contraction Plans for GPU-Accelerated Quantum Circuit Simulation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Jose M. Badia": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.05819v1",
+        "title": "Learning to Rank Tensor Network Contraction Plans for GPU-Accelerated Quantum Circuit Simulation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Killian Cressant": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.09596v1",
+        "title": "LEED: Local Embedding Evolution Distance for over-smoothing estimation and virtual node selection in GNN",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Pedro B. Velloso": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.09596v1",
+        "title": "LEED: Local Embedding Evolution Distance for over-smoothing estimation and virtual node selection in GNN",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Kuiye Ding": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.05742v1",
+        "title": "Multivariate Time Series Forecasting needs Cross Variable Loss",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Yifan Hu": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.05742v1",
+        "title": "Multivariate Time Series Forecasting needs Cross Variable Loss",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Hanchen Wang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.05742v1",
+        "title": "Multivariate Time Series Forecasting needs Cross Variable Loss",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Hao Xue": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.05742v1",
+        "title": "Multivariate Time Series Forecasting needs Cross Variable Loss",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Fabrizio Lillo": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.09218v1",
+        "title": "Online Learning of Scale Parameters in Score-Driven Filters",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Giulia Livieri": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.09218v1",
+        "title": "Online Learning of Scale Parameters in Score-Driven Filters",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Gianluca Palmari": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.09218v1",
+        "title": "Online Learning of Scale Parameters in Score-Driven Filters",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Jaeheon Kim": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.09236v1",
+        "title": "Label Granularity Skew in Federated Learning with Hierarchical Image Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Hokeun Kim": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.09236v1",
+        "title": "Label Granularity Skew in Federated Learning with Hierarchical Image Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Bong Jun Choi": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.09236v1",
+        "title": "Label Granularity Skew in Federated Learning with Hierarchical Image Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
   }
 }
