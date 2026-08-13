@@ -1,0 +1,1673 @@
+{
+  "date": "2026-08-13",
+  "slot": "morning",
+  "scraped_ist": "2026-08-13 09:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "The most lethal fighting force in the world. 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2087657077887909932#m",
+          "date_utc": "2026-08-12T21:46:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjZDGbXIAAXEAl.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "SEND ME. 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2087596659060462008#m",
+          "date_utc": "2026-08-12T17:46:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiiGO_WIAAORr3.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today we discuss knowledge profiling, a behavioral framework that measures both encoding and recall, and use it to examine the underlying bottlenecks of factuality in frontier LLMs. Read more → goo.gle/4wXia92",
+          "link": "https://nitter.net/GoogleResearch/status/2087586341660069989#m",
+          "date_utc": "2026-08-12T17:05:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiYnSua4AAqKrP.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/4wXia92",
+              "content": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "An American fighter and a devoted mom. THANK YOU, Karoline Leavitt. Karoline Leavitt (@karolineleavitt) Serving as the White House Press Secretary over the past year and a half has been the honor and adventure of a lifetime. I am incredibly grateful to President Trump for granting me so many extraordinary opportunities, such as working in the West Wing and spending countless hours in the Oval Office, flying around the world and meeting foreign leaders, and traveling across our beautiful country and meeting Americans from all walks of life. Most of all, I am thankful to the President for entrus",
+          "link": "https://nitter.net/HouseGOP/status/2087631861237399748#m",
+          "date_utc": "2026-08-12T20:06:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi8hEoWkAA3Nge.jpg",
+            "https://nitter.net/pic/media%2FHPi8hEpWMAEKKEK.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "org": "xAI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "😂 Grok (@grok) you replied in 90 seconds talking about the midget though. rent free. — https://nitter.net/grok/status/2087336299329999315#m",
+          "link": "https://nitter.net/JonasBadalic/status/2087730461590298937#m",
+          "date_utc": "2026-08-13T02:38:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "My son just recently started sleeping until ~7am, and the Eastern European in me is already wondering if I should start waking him up at 6 so he doesn't turn soft and lazy",
+          "link": "https://nitter.net/JonasBadalic/status/2087627089918803987#m",
+          "date_utc": "2026-08-12T19:47:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tucker kept hammering the grocery price reality and then turned his fire on Ben Shapiro. Walsh had already laid out how food costs are still crushing families. Shapiro’s answer was pure condescension, telling people to stop complaining and be grateful for a $4.50 burrito. When the best reply to real economic pain is “eat your burrito,” you know the disconnect is complete. Source: @TCNetwork / Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087741285524250848#m",
+          "date_utc": "2026-08-13T03:21:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087741096281419776%2Fimg%2FALMnMPMm_a6KFO8l.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇾🇪 X pulled the Houthi account that told the shipping world which ships were being targeted Yahya Saree's page went dark with the standard notice about violating platform rules, no explanation offered for the timing, roughly 121,500 followers gone. It had been the group's main channel for claiming Red Sea attacks and strikes on Saudi Arabia and Yemen's recognized government. None of this is new. Twitter killed his main account in 2022 when it carried 340,000 followers, then again last April, and he has rebuilt every time while his statements go out on Al Masirah TV regardless. Source: Al Jazee",
+          "link": "https://nitter.net/MarioNawfal/status/2087740571045580858#m",
+          "date_utc": "2026-08-13T03:18:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPkkdKyXIAAyOUH.png",
+            "https://nitter.net/pic/media%2FHPkkfQXXIAESJt0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Two American aviators are gone... An Army Apache went down hard in a Texas field near Fort Hood today. Both the pilot and co-pilot were killed on impact. A violent crash, a sudden fire, and two lives cut short in an instant. These were soldiers doing the hard, dangerous work most of us never see. Now their families are left with the worst possible news. Rest easy, patriots. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087739772068602151#m",
+          "date_utc": "2026-08-13T03:15:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2087715777709522944%2Fpu%2Fimg%2F6174M8AdKVLv7ye3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Gov. Pritzker went there... He said the President is dealing with “clear” mental health challenges. This is personal, raw, and ugly as hell. \"He passed a dementia test and he thinks it's some kind of IQ test. He's not speaking or acting rationally. I never though he was capable of being Commander-in-Chief, and I think he's proving it.\" These two hate each other and it’s only getting bloodier. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087739670025425346#m",
+          "date_utc": "2026-08-13T03:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087687629055959040%2Fimg%2FSc7Qilz2hsCm8ORt.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Bill Clinton’s Air Force One decoy operation in Pakistan just got a major new detail after 26 years. Before the 2000 landing, White House officials privately briefed the head of the press corps that a marked plane would touch down with a look-alike agent while the real president arrived on an unmarked jet. The reporter kept the secret under off-the-record rules for a quarter-century. The story only surfaces now because the same kind of security switch happened again. I guess some of these things we're gonna find out plenty years later from now, but we can start doing the math about 'em. Sou",
+          "link": "https://nitter.net/MarioNawfal/status/2087735905595318342#m",
+          "date_utc": "2026-08-13T03:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPkNgawXYAAh5vs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "This view from space is unreal. While millions of people are staring up at the sky…the Moon’s shadow is ripping across the entire planet like a black wave swallowing continents in real time. We’re so small out here and somehow this still feels massive. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087732120235938179#m",
+          "date_utc": "2026-08-13T02:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087672878602846209%2Fimg%2FIs-eE5NOlWVXYcve.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Tucker amplified the most obvious truth in politics right now. Matt Walsh pointed out that grocery prices are still climbing and completely out of control, and that leaders should stop chasing foreign wars and actually deal with the cost of living before anything else. Tucker agreed every word of it hits home because people feel the hit every time they fill a cart. Ignoring that daily pressure is exactly how socialists keep finding an opening. They at least talk about the pain while the other side looks past it. The simplest observations often cut the deepest. Source: @TCNetwork / Writer: L",
+          "link": "https://nitter.net/MarioNawfal/status/2087731950991655013#m",
+          "date_utc": "2026-08-13T02:44:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087731864454778880%2Fimg%2FZx6GaAlmOBlCqSTw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 A woman in Alexandria woke up to the nightmare of someone staring through her bedroom window 😳 She felt a presence outside while lying in bed, so the next day she installed a camera and caught the peeper red-handed. Police say the man is Landon A. Taylor, already wanted on multiple peeping and stalking warrants. He’s still out there. How the hell..? Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087728715316789437#m",
+          "date_utc": "2026-08-13T02:31:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjfl-6XMAAzz4C.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇷🇺 One robot got schooled by a Russian woman in broad daylight. The robot dog stands there watching the whole thing unfold. That robot guy couldn't follow those grooves 😂 Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087728345710776501#m",
+          "date_utc": "2026-08-13T02:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087540086174871552%2Fimg%2F1JgqDSlGbFhdbVLH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Could you ever imagine a full-framed collage of Marco Rubio sinking into that couch hanging in the White House? Well, it’s real. An entire wall of the viral memes is up, and Trump signed the thing himself. Peak admin energy 😂 Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087725324985622822#m",
+          "date_utc": "2026-08-13T02:18:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087708170600775680%2Fimg%2FEAQnVg4_tbjCi6wG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 House DOGE Chair Tim Burchett uncovered a staggering trillion dollars in pure federal duplication. He says his committee found massive overlapping programs across the government and is pushing hard to turn those cuts into permanent law. Burchett wants Congress to lock in the efficiency moves already started and stop the endless waste that keeps draining taxpayers. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087724570279395340#m",
+          "date_utc": "2026-08-13T02:15:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087699754721394688%2Fimg%2FKOEM9dIm1GjY4RyZ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 Trump settles in to wait Iran out, and the Pentagon's own math says he's doing it with half an arsenal Wait and see is now official policy on both sides, so Colonel Mark Cancian of CSIS referees the standoff. Near term, the pressure on Washington from allies and oil markets gives Tehran the upper hand. But if the war fades into background noise, the squeeze flips it, because Iran's hardship roughly doubles with every year the blockade holds. The arsenal ledger cuts both ways too. America has burned through roughly half its key munitions, yet as he puts it, \"we still have half left,\" enoug",
+          "link": "https://nitter.net/MarioNawfal/status/2087724562725142895#m",
+          "date_utc": "2026-08-13T02:14:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087722873523736576%2Fimg%2FcxzptyCHgiehUVDh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iran’s cyber strategy is evolving from disruption to battlefield integration In July they exploited SS7: the backbone of global phone networks, to pinpoint the real-time locations of U.S. troops across the Middle East. That data didn’t stay digital, it went straight into the targeting process for kinetic strikes that left American service members injured. Since the conflict intensified, Iran has deliberately recalibrated its cyber operations to serve specific wartime goals: locating forces, guiding drones and missiles, assessing damage, and shaping the information space. Compromised telecom",
+          "link": "https://nitter.net/MarioNawfal/status/2087721266497175709#m",
+          "date_utc": "2026-08-13T02:01:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPkS9wJW4AEiNSb.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇵🇦 The U.S. and nearly 20 partner nations are locked in on defending the Panama Canal right now. Panamax 2026 is running at full scale, rehearsing how to keep the world’s most important shipping choke point open under threat. While that was happening, Pete Hegseth showed up at the jungle training course in Panama and coached 4 warriors who finished one of the toughest courses out there. Serious focus on the Western Hemisphere. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087719537063907368#m",
+          "date_utc": "2026-08-13T01:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087689462545272832%2Fimg%2FW4U_CJanwKiaH4Mg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The USS Abraham Lincoln has been at sea 38 weeks, rationing coffee and waiting on a hypersonic missile. The Guardian reported six suicide attempts aboard. Fmr. CIA analyst Larry Johnson read out a message from a recently retired officer who believes the true figure is far higher, on a carrier holding 5,000 people that hasn't touched land in nearly a year. The detail that stays with you is what the roving fire guard patrols are actually for. They were never about fires, and every service uses them the same way: \"They have no clue what's waiting for them the first night they return home.\" @Ne",
+          "link": "https://nitter.net/MarioNawfal/status/2087718278663901433#m",
+          "date_utc": "2026-08-13T01:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087715111129546752%2Fimg%2Fq-qd7LKe0-uZLGNP.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2087711168823439360%2Fimg%2F5q1r3evYjmGDZC_b.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🚨🇮🇷🇺🇸 Text messages from a sailor aboard the USS Abraham Lincoln reveal no milk in three months and ROTTEN food arriving at sea... He reportedly wrote that almost nothing fresh makes it out except meat, because only frozen goods survive the supply run, and called it the worst deployment he has been on, with sailors who have far more behind them agreeing it could still get worse. Add that to the list of grievances, and they become almost too numerous to enumerate... No hot water for long stretches, laundry down for weeks, hour-long lines at the ship's store, one sailor eating half a cup of rice",
+          "link": "https://nitter.net/MarioNawfal/status/2087717978473112031#m",
+          "date_utc": "2026-08-13T01:48:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPkKFmrWMAAUfTq.jpg",
+            "https://nitter.net/pic/media%2FHPkKI7EX0AAeZZD.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://aaronparnas.substack.com/",
+              "content": "The Parnas Perspective | Substack The Parnas Perspective Providing you with all the news you need to know about. By Aaron Parnas · Over 888,000 subscribers Subscribe By subscribing, you agree Substack's Terms of Use , and acknowledge its Information Collection Notice and Privacy Policy . No thanks This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts"
+            }
+          ]
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "New deep dive just dropped on how the Kardashians actually built their empire. It breaks down their early influencer marketing moves, how they turned nostalgia into cash, and the controversial use of a church as a tax-free setup. Not your usual glam story. Writer: Lynn / Source: MrsDowJones YT Video",
+          "link": "https://nitter.net/MarioNawfal/status/2087717020464791647#m",
+          "date_utc": "2026-08-13T01:45:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087696478424731649%2Fimg%2FC3L6ZP_M-qFN8Q8g.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 🇮🇷 Bessent says pipelines make Hormuz irrelevant within two years, but helium doesn't travel through pipelines. The claim reaching Trump is that 70% of the energy crossing the strait could be rerouted underground, and fmr. CIA analyst Larry Johnson stops the conversation to explain why that's fantasy. Oil is only part of what moves through there: roughly a quarter of the world's LNG, 30 to 35% of its urea and sulfur, and 40% of the helium that chip manufacturing runs on. None of it fits in a pipe: \"Bessent's got his head so far up his a** he's wondering why is it dark?\" @NewSonof Video Mari",
+          "link": "https://nitter.net/MarioNawfal/status/2087714504188801501#m",
+          "date_utc": "2026-08-13T01:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087711168823439360%2Fimg%2F5q1r3evYjmGDZC_b.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2087700116819808256%2Fimg%2F3Km84SreEPs_XcLd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 America’s debt problem is becoming an interest problem. Annualized interest on U.S. federal debt hit a record $1.38 trillion: 4.2% of GDP, the highest share since 1997... That’s nearly $900 billion more than five years ago. A +200% jump, growing at 24% a year on average. In the first nine months of FY2026 alone, interest already reached $827 billion, up another $78 billion from last year. Every extra dollar of interest is a dollar that can’t go to defense, infrastructure, Social Security, or tax cuts. The bigger the interest bill gets, the tighter the fiscal noose becomes. America is not re",
+          "link": "https://nitter.net/MarioNawfal/status/2087713718004036077#m",
+          "date_utc": "2026-08-13T01:31:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPkMfLsWAAA6_yW.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "After seeing the future of TV today I think most have absolutely no idea that the future is fun. And educational. And productive. And a lot more than that. Oliver is right. The crazy change isn’t gonna stop. But today I learned it will make everything into an experience. Insight from the San Jose Costco. Oliver Cameron (@olivercameron) People are going to be genuinely shocked when they realize what world models have become capable of. — https://nitter.net/olivercameron/status/2087709289209360475#m",
+          "link": "https://nitter.net/Scobleizer/status/2087734515297145295#m",
+          "date_utc": "2026-08-13T02:54:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Every aisle could have your favorite team on TV.",
+          "link": "https://nitter.net/Scobleizer/status/2087736570115997746#m",
+          "date_utc": "2026-08-13T03:02:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I left out the important part. The 3D court is stunning. It blows away what is possible on a flat TV. They know where everything is within a few inches everywhere in a stadium. You can touch a player and see his stats in a way you never can on a flat screen. And way way more. It is stunning in all ways. Better in some wearable displays than others. :-) Robert Scoble (@Scobleizer) Exclusive look at company building the future of sports and concerts. I saw the demo after the interview but @drSJayJayaram gives you a taste about 25 minutes in. Founder/CEO of quintar.ai Now that I have seen the fut",
+          "link": "https://nitter.net/Scobleizer/status/2087716147051602223#m",
+          "date_utc": "2026-08-13T01:41:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087704123223482368%2Fimg%2Fi6cuQHg-KLFddbZE.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://quintar.ai",
+              "content": "--> HOME | Quintar top of page SPATIAL AI PLATFORM Get in touch Spatial intelligence for the agentic era. THE INFRASTRUCTURE LAYER FOR SPATIAL AI The shared spatial foundation that lets people, AI agents, and devices operate together in the physical world. THE SHIFT The physical world is the next frontier for AI. TEXT 2018 IMAGES 2021 VIDEO 2024 REAL WORLD Now THE HARD PART The hardest part of AI glasses isn&#39;t AI . It&#39;s reliably placing that AI on the right real world object at a distance, in a crowd, in real time That&#39;s what Quintar solves. Shared spatial understanding. One reality, every system, anchored to the same ground truth. Get in touch FIRST NAME LAST NAME PHONE EMAIL YOUR MESSAGE SEND NOW Thanks! We will be in touch soon. 2350 Mission College Blvd Suite 1250 Santa Cla"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Exclusive look at company building the future of sports and concerts. I saw the demo after the interview but @drSJayJayaram gives you a taste about 25 minutes in. Founder/CEO of quintar.ai Now that I have seen the future of sports and concerts I am even more bullish about the future of AI Glasses. Jay sold his previous company to Intel. He goes into what is coming a couple of weeks from now. It reaffirms my belief that glasses are about to go insane for sports fans. Also joined by his investor: @JulianGill2 Video",
+          "link": "https://nitter.net/Scobleizer/status/2087713316601033164#m",
+          "date_utc": "2026-08-13T01:30:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087704123223482368%2Fimg%2Fi6cuQHg-KLFddbZE.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://quintar.ai",
+              "content": "--> HOME | Quintar top of page SPATIAL AI PLATFORM Get in touch Spatial intelligence for the agentic era. THE INFRASTRUCTURE LAYER FOR SPATIAL AI The shared spatial foundation that lets people, AI agents, and devices operate together in the physical world. THE SHIFT The physical world is the next frontier for AI. TEXT 2018 IMAGES 2021 VIDEO 2024 REAL WORLD Now THE HARD PART The hardest part of AI glasses isn&#39;t AI . It&#39;s reliably placing that AI on the right real world object at a distance, in a crowd, in real time That&#39;s what Quintar solves. Shared spatial understanding. One reality, every system, anchored to the same ground truth. Get in touch FIRST NAME LAST NAME PHONE EMAIL YOUR MESSAGE SEND NOW Thanks! We will be in touch soon. 2350 Mission College Blvd Suite 1250 Santa Cla"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "The 3D court is stunning.",
+          "link": "https://nitter.net/Scobleizer/status/2087714865628807624#m",
+          "date_utc": "2026-08-13T01:36:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Here is what grok said it learned by watching: nitter.net/i/grok/share/4e1b56a27… Link Can you please write me a lengthy report on what you learned by watchi… Report on the Video from Robert Scoble’s X Post Featuring Quintar.ai I reviewed the approximately 40-minute video attached to Robert Scoble’s (@Scobleizer) post from August 13, 2026. The post describes it as an “exclusive look” at a company building the future of sports and concerts. Scoble notes that he viewed a private demo after the recorded interview, that founder/CEO @drSJayJayaram provides a taste of the technology around the 25-mi",
+          "link": "https://nitter.net/Scobleizer/status/2087714352099148146#m",
+          "date_utc": "2026-08-13T01:34:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Bilawal is the best at teaching us about the future of computing. Bilawal Sidhu (@bilawalsidhu) Reconstructing the world in 3D from random internet photos is a deep rabbit hole. In 2008, Photosynth proved that 3D reconstruction of smaller monuments was possible. The next year, \"Building Rome in a Day\" proved it could be done for entire cities. Since then, there’s been a wild lineage of research from early point clouds to modern NeRFs and 3DGS --with a similar cast of characters appearing along the way. In this deep dive, we'll break it all down, and explore why IARPA is funding what comes next",
+          "link": "https://nitter.net/Scobleizer/status/2087702225368109404#m",
+          "date_utc": "2026-08-13T00:46:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087672356684582912%2Fimg%2FNpJ0oKLx7YU5Tnm8.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "FSD Supervised has superhuman reflexes eyes everywhere at once TeslaZoa (@TeslaZoa) Tesla FSD reportedly avoided a crash by moving onto the shoulder just before impact. According to the driver’s frame-by-frame analysis, FSD began reacting about 0.17 seconds before the at-fault vehicle started moving toward the Tesla. The other vehicle ultimately crashed into two cars, while the Tesla sustained no damage. No injuries were reported. Video — https://nitter.net/TeslaZoa/status/2087368148106555593#m",
+          "link": "https://nitter.net/Tesla/status/2087622922223624396#m",
+          "date_utc": "2026-08-12T19:31:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087368105651802112%2Fimg%2FaTNxrAuUuah_zkfo.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Health care programs aren't a piggy bank for fraudsters. @POTUS and @VP Vance will not allow criminals to loot taxpayer-funded programs and endanger patients. Great work by @CMSGov and @DrOzCMS 👇 Dr. Oz CMS (@DrOzCMS) Fraudsters aren’t just stealing from the government—they’re stealing from the American people. We’re cracking down on scams across Medicare, Medicaid, and the Marketplace to protect patients, safeguard taxpayer dollars, and help drive down healthcare costs. If you’re stealing from our healthcare programs, CMS is coming for you. Video — https://nitter.net/DrOzCMS/status/2087616732",
+          "link": "https://nitter.net/WHFraudTF/status/2087629246453682316#m",
+          "date_utc": "2026-08-12T19:56:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087615407909650432%2Fimg%2FVpk6UnKdifutMRcn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "“The very organization tasked with ending homelessness and equipped with billions of dollars shamelessly wasted them on corruption and mismanagement.” - @SecretaryTurner That's why the Trump-Vance Administration is taking action and putting American taxpayers first. Scott Turner (@SecretaryTurner) In the City of Angels, the homeless industrial complex ends now. Nearly $1B in federal funds while homelessness doubled. The days of funding corrupt failure are over. HUD @HHSGov will not bankroll this broken system another day. — https://nitter.net/SecretaryTurner/status/2087596119714869352#m",
+          "link": "https://nitter.net/WHFraudTF/status/2087602688443769113#m",
+          "date_utc": "2026-08-12T18:10:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPihmPKWwAA9xyc.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Every tiny chestnut eGPU dock is tested at both USB3 and USB4 speeds, green sticker means it's good. Buy one on comma's website today for $249",
+          "link": "https://nitter.net/__tinygrad__/status/2087688733848179073#m",
+          "date_utc": "2026-08-12T23:52:36+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPj1n0XacAAMAQY.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "With tinygrad's custom kernel stuff you (or your LLM) can push inference speeds beyond every other framework. constantine (@const_) wrote an inference server in tinygrad and it's going to prod let's goooooo — https://nitter.net/const_/status/2087290444459946326#m",
+          "link": "https://nitter.net/__tinygrad__/status/2087670146836164706#m",
+          "date_utc": "2026-08-12T22:38:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Order today, get your tiny chestnut eGPU dock shipped tomorrow for $249! It's the best way to plug your GPU into a Windows/Mac/Linux box over USB3 or USB4.",
+          "link": "https://nitter.net/__tinygrad__/status/2087667206993961342#m",
+          "date_utc": "2026-08-12T22:27:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjiAEkbAAABHfm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "$799 \"ready to drive\" with a GPU and everything you need to plug it into a car (for comma users), or $249 for just the USB dock and accessiories. comma.ai/shop/chestnut Link comma.ai — make driving chill Hands free driving for the car you already have comma.ai",
+          "link": "https://nitter.net/__tinygrad__/status/2087667429543645510#m",
+          "date_utc": "2026-08-12T22:27:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": [
+            {
+              "url": "https://comma.ai/shop/chestnut",
+              "content": "comma.ai — make driving chill chestnut — comma shop comma home openpilot comma four shop connect compatibility setup guide support FAQs blog jobs - we&#39;re hiring! Latest from the blog: Introducing chestnut August 12, 2026 - 2 minute read Bugs that broke driving July 21, 2026 - 11 minute read openpilot 0.11.1 June 5, 2026 - 7 minute read Social home openpilot comma four compatibility jobs Shop Big GPU, big models. Meet chestnut ⟶ chestnut $799 ready to drive tiny chestnut eGPU dock Add to cart Shipping Free US shipping, $30 flat rate internationally. Using chestnut with openpilot? Choose ready to drive for everything you need to add desktop-class GPU compute to your comma four. Try our 30-day money-back trial We think you’ll love chestnut, but if you’re not satisfied, send it back within"
+            }
+          ]
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Article tiny chestnut eGPU dock Announcement at 2PM PST today jointly with comma. Everyone have their wallets ready? I think it s the nicest GPU dock ever made. hardware specs: * ASM2464PD based * USB2/3/4 + PCIe 4.0 x4 * fully",
+          "link": "https://nitter.net/__tinygrad__/status/2087593117428167112#m",
+          "date_utc": "2026-08-12T17:32:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiemxIaAAAWGdf.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "aksheyd",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "🚀 Ryan Marten (@ryan_marten) Grok 4.6 now on the Terminal-Bench 3.0 Leaderboard! — https://nitter.net/ryan_marten/status/2087680394594517267#m",
+          "link": "https://nitter.net/aksheyd/status/2087701375300026561#m",
+          "date_utc": "2026-08-13T00:42:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjtHL1boAAqBvc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "Grok 4.6 optimized the Grok Build harness for itself. We are not done. x.ai/build Link Grok Build Grok Build is now powered by Grok 4.5, our new model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/inst... x.ai SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
+          "link": "https://nitter.net/aksheyd/status/2087622695718662338#m",
+          "date_utc": "2026-08-12T19:30:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085599089140621312%2FwOygNmjS%3Fformat%3Djpg%26name%3D800x419",
+            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
+          ],
+          "articles": [
+            {
+              "url": "http://x.ai/build",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "true Oussama Ammar (@daedalium) People say that the skill of the future will be knowing how to ask the right questions. I think even that is temporary. For a long time, being intelligent largely meant knowing answers that other people didn't know. Knowledge was scarce. So the person who knew had value. The internet started breaking that scarcity. AI is finishing the job. An answer that might once have taken several days of research now takes a few seconds. So scarcity moved somewhere else. Answers no longer matter as much. You need to know how to ask the right questions. That's probably true t",
+          "link": "https://nitter.net/brivael/status/2087644173138641148#m",
+          "date_utc": "2026-08-12T20:55:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Make him west techno king Brivael Le Pogam (@brivael) What you prefer? Poll 92% — Elon as west king 8% — Keep globalist technocrat 156 votes • Final results — https://nitter.net/brivael/status/2087279840906883476#m",
+          "link": "https://nitter.net/brivael/status/2087643395841839236#m",
+          "date_utc": "2026-08-12T20:52:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "i can sell everything I have and restart from scratch to see this is real life 🤣🤣🤣 DFF (@DumbFxckFinder) Elon Musks introduction as the new owner of the UK . The ending 😩🤣😂 Video — https://nitter.net/DumbFxckFinder/status/2087616007867375760#m",
+          "link": "https://nitter.net/brivael/status/2087642906005832036#m",
+          "date_utc": "2026-08-12T20:50:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087615883300745216%2Fimg%2FnZQNfP3LEIDYZ1QE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "hahahahahahahahahah DFF (@DumbFxckFinder) Elon Musks introduction as the new owner of the UK . The ending 😩🤣😂 Video — https://nitter.net/DumbFxckFinder/status/2087616007867375760#m",
+          "link": "https://nitter.net/brivael/status/2087642694155714793#m",
+          "date_utc": "2026-08-12T20:49:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087615883300745216%2Fimg%2FnZQNfP3LEIDYZ1QE.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Pas de retour en arrière 🤣🤣🤣 L’argent magique il a une fin tkt bro. John John (@NoBananaNoFun) T’es au courant que les bénéficiaires net du système sont plus nombreux que les contributeurs ? En France on a franchi le rubicon il n’y aura pas de retour arrière démocratique universel — https://nitter.net/NoBananaNoFun/status/2087630343046144027#m",
+          "link": "https://nitter.net/brivael/status/2087641492777050245#m",
+          "date_utc": "2026-08-12T20:44:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🚀 Supernova (@Superno55833935) Je ne reproche pas la lâcheté, effectivement la pression sociale est forte, donc la tentation de regarder ailleurs est grande Par contre la collaboration active à ce système doit être jugée comme une trahison envers son pays — https://nitter.net/Superno55833935/status/2087622776819691837#m",
+          "link": "https://nitter.net/brivael/status/2087641328930771186#m",
+          "date_utc": "2026-08-12T20:44:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi52ZGXsAAI18m.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui oui oui et oui Jocelyne Lacoste (@Jola01630) L'UE est l'acmé de la banalité du mal de Hannah Arendt et de 1984 de Georges Orwell illustrant la destructivité de la perversion systémique au pouvoir de l'UE et l'Occident ! ( Peinture Banksy.La banalite du mal) — https://nitter.net/Jola01630/status/2087148136359678400#m",
+          "link": "https://nitter.net/brivael/status/2087640593614663915#m",
+          "date_utc": "2026-08-12T20:41:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPcJsjiWYAA_tBt.jpg",
+            "https://nitter.net/pic/media%2FHPcJwlKXQAA9avo.jpg",
+            "https://nitter.net/pic/media%2FHPcJzbWW0AA0wbD.jpg",
+            "https://nitter.net/pic/media%2FHPcKE8EWEAAq3-3.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://Banksy.La",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Jeff Bezos a dit un truc très clair sur le Washington Post : « The people there are terrible. They don’t listen. My other companies, they listen. » Traduction libre : les gens là-bas sont terribles. Ils ne m’écoutent pas. Dans mes autres entreprises, ils écoutent. Même le mec le plus riche du monde, propriétaire du journal, n’arrive pas à faire bouger la machine. Il y a un fantasme massif chez certains qui croient que Bernard Arnault (ou n’importe quel propriétaire de média) passe son temps à donner des listes de noms à attaquer. Ça ne se passe pas comme ça. Dans la plupart de ces rédactions, ",
+          "link": "https://nitter.net/brivael/status/2087637077374402981#m",
+          "date_utc": "2026-08-12T20:27:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjFvWSXgAA_Nvc.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La République des pédos. Question sérieuse. Tous les pédos, ils vont aller se cacher ou à la libération ? Tribune Populaire🌐 (@TribunePop23) 📂🇫🇷FLASH INFO - L’État français assigné pour “déni de justice” dans l’affaire Epstein ! L’association Innocence en danger a saisi le tribunal judiciaire de Paris après la mort de Daniel Siad, rabatteur présumé de Jeffrey Epstein (jamais entendu par la justice malgré des plaintes pour viol déposées depuis 2019). Parmi les plaignantes : Ebba Karlsson, ex-mannequin suédoise, qui accuse Siad de l’avoir violée à Cannes en 1990. — https://nitter.net/TribunePop2",
+          "link": "https://nitter.net/brivael/status/2087635923248763140#m",
+          "date_utc": "2026-08-12T20:22:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi8Q5qXQAA23JF.jpg",
+            "https://nitter.net/pic/media%2FHPi8Q5tW4AA4FGw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Alice Weidel a posté un truc tout simple ce matin. L’AfD est à 43 % en Saxe-Anhalt. La CDU s’effondre de 14 points. L’élection a lieu le 6 septembre. Ce n’est plus un sondage isolé. C’est une série. Pollytix, INSA, Infratest… tous disent la même chose depuis des mois. Dans l’Est, le peuple a décidé. Remigration, frontières, souveraineté. Pas un coup de tête. Une direction claire. Et déjà les mêmes voix sortent du bois : « Ils vont interdire. » « L’Europe ne laissera pas. » « On fera comme en Roumanie. » Sauf que la Roumanie, ce n’était pas ça. Là-bas, un premier tour de présidentielle a été an",
+          "link": "https://nitter.net/brivael/status/2087635314139439215#m",
+          "date_utc": "2026-08-12T20:20:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "C’est pour ça que Macron est devenu fou. C’est pour ça que Bill Gates a fini sur l’île d’Epstein. C’est pour ça que les communistes finissent pédos. Brivael Le Pogam (@brivael) J’ai une théorie en prolongement de mes posts sur l'argument de la simulation. Ell est bien faite. Pas parfaite. Juste suffisamment bien conçue pour que tu puisses tricher, corrompre, contourner les règles pendant un moment… et finir complètement aliéné quand même. Pas par une foudre divine. Pas par un jugement final. Par quelque chose de beaucoup plus simple et cruel : tu te détruis de l’intérieur. Quand tu appliques à",
+          "link": "https://nitter.net/brivael/status/2087633103770558823#m",
+          "date_utc": "2026-08-12T20:11:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjAmz4W4AAACFn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’ai une théorie en prolongement de mes posts sur l'argument de la simulation. Ell est bien faite. Pas parfaite. Juste suffisamment bien conçue pour que tu puisses tricher, corrompre, contourner les règles pendant un moment… et finir complètement aliéné quand même. Pas par une foudre divine. Pas par un jugement final. Par quelque chose de beaucoup plus simple et cruel : tu te détruis de l’intérieur. Quand tu appliques à grande échelle des idées qui sonnent faux, qui violent la structure réelle du réel, tu ne « gagnes » pas. Tu deviens progressivement insane. Ou vide. Ou les deux. Regarde autou",
+          "link": "https://nitter.net/brivael/status/2087632783921566009#m",
+          "date_utc": "2026-08-12T20:10:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjAmz4W4AAACFn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’instaure l’étalon Pivet. 1/10 : Einstein. 10/10 : Yaël Braun-Pivet. C’est l’étalon de la connasse imbus de sa personne, déconnecté des réalités de manière stratosphérique, et idiote. Macron a quand même le don de recruter des pépites dans l’incompétence crasse, c’est l’art. Brivael Le Pogam (@brivael) Qu’elle est conne cette conne c’est la conne ultime. La conne au carré. Video — https://nitter.net/brivael/status/2087594235688002008#m",
+          "link": "https://nitter.net/brivael/status/2087632452080549958#m",
+          "date_utc": "2026-08-12T20:08:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087316373605085184%2Fimg%2FwtWA8WeVU5BJAVzg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "oui mais on a la carte vital aux USA, les gens meurent de leur cancer dans la rue et toc le facho Nicolas Alfonsi (@NicolasAlfonsi) Le monde idéal n'existe pas, mais les économies les plus libérales n'ont pas grand chose à envier à la France en matière sociale 🙄 La \"lutte des classes\" imaginaire on en débat quand tu veux... — https://nitter.net/NicolasAlfonsi/status/2087624492415689058#m",
+          "link": "https://nitter.net/brivael/status/2087629900937064891#m",
+          "date_utc": "2026-08-12T19:58:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi7JtbWIAAmqCd.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "@NicolasAlfonsi bet sur le fait que des gauchistes vont prendre mon post first deg xD",
+          "link": "https://nitter.net/brivael/status/2087630063860621473#m",
+          "date_utc": "2026-08-12T19:59:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "La gauche international à le mensonge et la corruption comme logiciel, c'est pas nouveau. Guillaume Herblot 🎖️ (@Guigz75116) Monsieur Jérémie Patrier-Leitu ce que vous dites est totalement faux. On va remettre l’église au milieu du village. Les macronistes et leur talent inégalé pour le storytelling migratoire… On dirait un concours de réécriture de l’histoire digne de 1984, version soft. « Baissé l’immigration familiale de 10 % » ? Chiffres officiels (INED / DGEF) des premiers titres familiaux (pays tiers) : 2017 : ~89 850 2018 : ~93 970 2019 : ~106 200 C’est ça, votre « baisse » ? Une hausse",
+          "link": "https://nitter.net/brivael/status/2087624386576531503#m",
+          "date_utc": "2026-08-12T19:36:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiu3g7WEAABZob.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "oui GRM (@grm_off) Ils répètent que sont les Russes et Musk qui vous manipulent. La réalité, c'est que c'est eux. Depuis 50 ans. La campagne va être savoureuse. ⭐️ Abonnez et soutenez vos créateurs qui confondent les menteurs. — https://nitter.net/grm_off/status/2087620611111596412#m",
+          "link": "https://nitter.net/brivael/status/2087624190945837105#m",
+          "date_utc": "2026-08-12T19:36:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Quand je parle d’une idée, je parle de la passion pour les montres. Bien entendu 👀🍕🍕🍕 Brivael Le Pogam (@brivael) Il a un petit air à Bill, en plus gros. On se demande si certaines idées façonnent un physique. — https://nitter.net/brivael/status/2087623771884605634#m",
+          "link": "https://nitter.net/brivael/status/2087624142564593869#m",
+          "date_utc": "2026-08-12T19:35:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi6lnXW8AAO_Zh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Il a un petit air à Bill, en plus gros. On se demande si certaines idées façonnent un physique. Brivael Le Pogam (@brivael) 😵‍💫😵‍💫😵‍💫😵‍💫 — https://nitter.net/brivael/status/2087583192702226579#m",
+          "link": "https://nitter.net/brivael/status/2087623771884605634#m",
+          "date_utc": "2026-08-12T19:34:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi6lnXW8AAO_Zh.jpg",
+            "https://nitter.net/pic/media%2FHPiV2YqWgAAtmLR.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Release. The. QUATTRRRROOO!! First release candidate is out for testing. All goes well? We release FINAL on FRIDAY! github.com/basecamp/omarchy/…",
+          "link": "https://nitter.net/dhh/status/2087662567741100255#m",
+          "date_utc": "2026-08-12T22:08:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjd7-AW0AAhFc2.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/basecamp/omarchy/pull/6231",
+              "content": "Quattro by dhh · Pull Request #6231 · basecamp/omarchy · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CAS"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "I had somehow forgotten that we ship a fully-functioning Windows-in-a-VM setup with Omarchy when someone asked about how to run Excel earlier today. It's shockingly good too!",
+          "link": "https://nitter.net/dhh/status/2087641795509276985#m",
+          "date_utc": "2026-08-12T20:46:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjK-9gWMAARoRn.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Just shrunk the Omarchy ISO by another 114mb. It's insane that we're able to fit 3 different kernels (stock, ptl, t2), all the nvidia drivers, and all the t2 auxilary packages ALONGSIDE all of Omarchy in under 6GB. github.com/omacom-io/omarchy… Link Compress the nvidia 580xx packages with maximum zstd · omacom-io/omarchy-pkgs@799a98a The build image compresses at zstd s default level, which leaves these unstripped driver blobs 22% larger than they need to be. Measured against the packages on the quattro-beta3 ISO: nv... github.com",
+          "link": "https://nitter.net/dhh/status/2087607559242879426#m",
+          "date_utc": "2026-08-12T18:30:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087607559620272128%2Fe4uJ_BN1%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/omacom-io/omarchy-pkgs/commit/799a98a45613ef7bbab2048cb5343bdf0a55898f",
+              "content": "Compress the nvidia 580xx packages with maximum zstd · omacom-io/omarchy-pkgs@799a98a · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "This is how easy it is to install the new @openai ChatGPT Desktop app for Linux on Omarchy. Straight from our @Cloudflare backed package repository. No AUR necessary! Video",
+          "link": "https://nitter.net/dhh/status/2087594572402573435#m",
+          "date_utc": "2026-08-12T17:38:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087594415791423492%2Fimg%2FHhAyVx9rUHbILc95.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "When setting up Omarchy Quattro, you can choose to just do the installation, but delay the user configuration. Then you can gift a machine to someone who'll be able to open the lid, enter their credentials, and have a full system running in about 30 seconds!",
+          "link": "https://nitter.net/dhh/status/2087589637959139807#m",
+          "date_utc": "2026-08-12T17:18:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPibnk_W4AAotGP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "This is an unedited end-to-end demonstration of this type of next-owner installation. LESS THAN A MINUTE!! And that's with me typing slowly and enjoying the opening animation 😄 Video",
+          "link": "https://nitter.net/dhh/status/2087592105669431772#m",
+          "date_utc": "2026-08-12T17:28:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087591926790754304%2Fimg%2FUmtIkG1kdrbDjeue.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Fresh greetings on a new Quattro install. I told you we're going all in! (But, sure, you don't HAVE to configure an agent — without it, everything works like it did — but, really, you should!)",
+          "link": "https://nitter.net/dhh/status/2087587012081541526#m",
+          "date_utc": "2026-08-12T17:08:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiZJp0XsAE48i0.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "All Omarchy agents are managed with mise, btw. So they're on an out-of-band upgrade path from the system packages. So go ahead, update them seven times a day. There's even a convenient \"mup\" (Mise Update) command to do so right from the terminal.",
+          "link": "https://nitter.net/dhh/status/2087587339325358523#m",
+          "date_utc": "2026-08-12T17:09:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "New high score for a full Quattro install with encryption. The next frontier is breaking the 30s mark. EVERYTHING IS POSSIBLE!",
+          "link": "https://nitter.net/dhh/status/2087586328909099208#m",
+          "date_utc": "2026-08-12T17:05:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiYj72WIAANi0v.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Linux adoption among programmers is about to go parabolic. Any missing app can be recreated easily. The open-source advantage with agents is unstoppable. Nobody is going to be waiting for Apple to sign their shit. Just keep a Mac Mini as a remote builder for iOS work. Done.",
+          "link": "https://nitter.net/dhh/status/2087586011224084808#m",
+          "date_utc": "2026-08-12T17:04:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Grok 4.6 just dropped, and the Fast variety is pretty impressive. Runs really fast at $4 in/$12 out! Compared to other Fast modes, it's about a quarter of the price. Started it out with just a simple PR. No notes! github.com/basecamp/omarchy/… Link Launch the default agent from the agents widget right-click by dhh · Pull Request #6759 · basecam... Right-click on the agents bar widget now launches omarchy-agent --pick, matching the existing keybinding. Refresh stays on r / Enter and the IPC refresh method. Left click still toggles the panel; ... github.com",
+          "link": "https://nitter.net/dhh/status/2087582407159365792#m",
+          "date_utc": "2026-08-12T16:50:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087582259150741504%2FA4WqMQvC%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/basecamp/omarchy/pull/6759",
+              "content": "Launch the default agent from the agents widget right-click by dhh · Pull Request #6759 · basecamp/omarchy · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "eliebakouch",
+      "org": "Hugging Face",
+      "focus": [
+        "LLMs",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "interesting results from grok 4.6 model card: 1. huge progress on DeepSearchQA and their internal KernelBench 2. grok models are the best on internal spaceXAI engineer benchmark (they likely trained on similar data but still impressive) 3. grok 4.6 also sota at inferenceEval which measures optimization of their own chat inference 4. behind the frontier on public swe evals such as Terminal Bench 3.0, Swe Marathon v1.1 and DeepSWE (screenshot in thread) Lee Robinson (@leerob) We've released the model card for Grok 4.6! It goes in-depth on the capabilities of the model across many different evals",
+          "link": "https://nitter.net/eliebakouch/status/2087659219956928873#m",
+          "date_utc": "2026-08-12T21:55:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjYdhwXsAAAeNR.jpg",
+            "https://nitter.net/pic/media%2FHPjJaW9bIAA9Q5V.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+              "content": "%PDF-1.7 %���� 4 0 obj >>>>>/Group >/Filter/FlateDecode/Length 335>> stream x�eRKN\u00031 ��\u0014�\u0000&�c;>\u0006G@�\u0006\u0016�\u0002���Kڂ(\u001ai\"�>v�:�'�Om����>Z���7z~����B\u0007\u000fU� � MgpU�d\u0016����W\u0014|��\u0005�g\u0012 `���g�l[Ҝ�\u0003@�\u0000T\u0006wX\u0016 δm\u0002 N\u0004� > stream xڵR�n�0 ��\u0015�\u0001+�(Q\u0012Ph(�\u0004�\"[�!/g ����R\u000f�QtH�B�N\u0014���`8\u0001\u0001�\"\bV ��Q���\u0007@��n���/�_�Kǟ;O`\b�p\u0015яl,\u0013 !\u0018դz.\u001a�\b Q�`*������ K]��|Zi#�c\u0013� ��FK���4޽?\":�Ia;fBŔ:�\u001anm ,y=\u0011���[b�ϔ. \u0014l�X�������No�vi�ū1��Њ�Q�\u0015\u0003f\u0017K�*�l�@l� �\b �S� ոЙ��u��N�� �xo;�u����\u0015-D�+�s·\u0004��TХ���R������,�q79�!�$�Ά�s�u�>�2��[�\u0019�Y� XA5_EjV���\u0019 > stream x��\\�n#7 ��)�\u0005F\u0015%Q?�b\u000e\u0005�\u0002�m�[у ;�t\u000f�K_�Ԉ�#i��$cO vaK\u0013E�h~�(�J�F�?h����y��H!u�^�u���h� �^\u0011��i`������� 6^\u0004kM���ha\u001bpª����')��Z-���\u001b�� }�Z��' �\u0016�\u001aNv �\u0010��h]�Z �\u001a�a�S �#H\u0013ѳ�c���z�����J��ޑ�Ơ\u0001#��ZJ*k� @�J�e��<>�ڐ������\u0003E��T?����������)��0_\u001b����$�\u0002\u001a��/��F���O�G��=��5 E�\u0001F��\u0015A��6\u0000C߾�\u0010���aҐM �o�s�\u001b\u0007�5v"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "also TIL EEBench and all the engineering acceleration section benchmark which are pretty cool!!",
+          "link": "https://nitter.net/eliebakouch/status/2087659676271845625#m",
+          "date_utc": "2026-08-12T21:57:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjbKU2WsAA2-8-.jpg",
+            "https://nitter.net/pic/media%2FHPjbKzJWAAEGH7q.jpg",
+            "https://nitter.net/pic/media%2FHPjbLdlXMAAIKri.jpg",
+            "https://nitter.net/pic/media%2FHPjbU8KWIAA0FSw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "based model card intro \"We never silently downgrade intelligence or fall back to other models. Our goal is to preserve legitimate uses of the model: engineering and creative work, scientific research, hardening critical infrastructure, and AI research.\" Lee Robinson (@leerob) We've released the model card for Grok 4.6! It goes in-depth on the capabilities of the model across many different evals for coding, engineering, knowledge work, and more. We also discuss pre-deployment safety testing and our safeguard stack. media.x.ai/v1/website/card-4… — https://nitter.net/leerob/status/20876401494424",
+          "link": "https://nitter.net/eliebakouch/status/2087653125305807024#m",
+          "date_utc": "2026-08-12T21:31:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjU8sAXAAAJ0iY.jpg",
+            "https://nitter.net/pic/media%2FHPjJaW9bIAA9Q5V.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+              "content": "%PDF-1.7 %���� 4 0 obj >>>>>/Group >/Filter/FlateDecode/Length 335>> stream x�eRKN\u00031 ��\u0014�\u0000&�c;>\u0006G@�\u0006\u0016�\u0002���Kڂ(\u001ai\"�>v�:�'�Om����>Z���7z~����B\u0007\u000fU� � MgpU�d\u0016����W\u0014|��\u0005�g\u0012 `���g�l[Ҝ�\u0003@�\u0000T\u0006wX\u0016 δm\u0002 N\u0004� > stream xڵR�n�0 ��\u0015�\u0001+�(Q\u0012Ph(�\u0004�\"[�!/g ����R\u000f�QtH�B�N\u0014���`8\u0001\u0001�\"\bV ��Q���\u0007@��n���/�_�Kǟ;O`\b�p\u0015яl,\u0013 !\u0018դz.\u001a�\b Q�`*������ K]��|Zi#�c\u0013� ��FK���4޽?\":�Ia;fBŔ:�\u001anm ,y=\u0011���[b�ϔ. \u0014l�X�������No�vi�ū1��Њ�Q�\u0015\u0003f\u0017K�*�l�@l� �\b �S� ոЙ��u��N�� �xo;�u����\u0015-D�+�s·\u0004��TХ���R������,�q79�!�$�Ά�s�u�>�2��[�\u0019�Y� XA5_EjV���\u0019 > stream x��\\�n#7 ��)�\u0005F\u0015%Q?�b\u000e\u0005�\u0002�m�[у ;�t\u000f�K_�Ԉ�#i��$cO vaK\u0013E�h~�(�J�F�?h����y��H!u�^�u���h� �^\u0011��i`������� 6^\u0004kM���ha\u001bpª����')��Z-���\u001b�� }�Z��' �\u0016�\u001aNv �\u0010��h]�Z �\u001a�a�S �#H\u0013ѳ�c���z�����J��ޑ�Ơ\u0001#��ZJ*k� @�J�e��<>�ڐ������\u0003E��T?����������)��0_\u001b����$�\u0002\u001a��/��F���O�G��=��5 E�\u0001F��\u0015A��6\u0000C߾�\u0010���aҐM �o�s�\u001b\u0007�5v"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "don't get me wrong, it's bad for europe that current mistral models are far from the frontier (open or closed) but what worries me more is if critical actors like governments or big companies are forced to use mistral models for things like cybersecurity. the consequences of that are beyond what people imagine today imo and i'm afraid politics don't understand that hence why this kind of initiative (mistral hosting better models on their sovereign infra) gives me hope, critical actors should use the best - often open for IP/sensitive field but sometime close as well - models available elie (@e",
+          "link": "https://nitter.net/eliebakouch/status/2087584657328022006#m",
+          "date_utc": "2026-08-12T16:59:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPeDF_QXEAAOVYU.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+              "content": "In-region inference, open models, and new European infrastructure for sovereign AI. Contact sales Menu Products Solutions Research Developers Blog Customers Company Contact sales Start building Studio Build, test, and run AI agents and apps. Forge Train, align, and evaluate custom AI models. Vibe AI agent for long-horizon work. Vibe for code Coding agents in the terminal, IDE, and background. AI Cloud Frontier-scale infrastructure for training and inference. Pricing Plans API pricing For enterprises Overview Delivery methodology Model customization Industries Financial services Public sector government Manufacturing Energy utilities Use cases Coding Document intelligence Speech Latest models Mistral OCR 4 Mistral Medium 3.5 Mistral Small 4 Voxtral TTS See all models Docs API Reference Cook"
+            }
+          ]
+        },
+        {
+          "handle": "eliebakouch",
+          "creator": "@eliebakouch",
+          "text": "i'm not only talking about cyber here (tho it's probably the easiest one to predict), you could have entire industries that are based on R D falling behind just because they are forced to use less capable models",
+          "link": "https://nitter.net/eliebakouch/status/2087585586068553975#m",
+          "date_utc": "2026-08-12T17:02:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "model factory is coming together SpaceXAI (@SpaceXAI) Introducing Grok 4.6. It delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. — https://nitter.net/SpaceXAI/status/2087562800982077492#m",
+          "link": "https://nitter.net/ellev3n11/status/2087593572090659196#m",
+          "date_utc": "2026-08-12T17:34:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiC3t5awAA2WS-.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "minchoi",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "minchoi",
+          "creator": "@minchoi",
+          "text": "Everyone's talking about Grok 4.6. Elon: hold my beer. Elon Musk (@elonmusk) Grok 4.7 is significantly better than 4.6 and should be ready in 3 to 4 weeks. Initial training is complete and now we’re adding a massive amount of SpaceX company data in supplemental training. This will be something special. — https://nitter.net/elonmusk/status/2087604711767896527#m",
+          "link": "https://nitter.net/minchoi/status/2087722461907271942#m",
+          "date_utc": "2026-08-13T02:06:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "minchoi",
+          "creator": "@minchoi",
+          "text": "We are getting flying cars... Elon Musk (@elonmusk) You will get flying cars — https://nitter.net/elonmusk/status/2087410488854622704#m",
+          "link": "https://nitter.net/minchoi/status/2087507022623162813#m",
+          "date_utc": "2026-08-12T11:50:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPhQfMBWwAASXuy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "It's starting to feel like we're entering the Singularity",
+          "link": "https://nitter.net/ns123abc/status/2087741694687031315#m",
+          "date_utc": "2026-08-13T03:23:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "As predicted :)",
+          "link": "https://nitter.net/ns123abc/status/2087662035576164611#m",
+          "date_utc": "2026-08-12T22:06:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨Elon Musk just confirmed Grok 4.7 SIGNIFICANTLY BETTER than 4.6 initial training: complete now adding MASSIVE SpaceX engineering data dropping in 3-4 weeks “This will be something special”",
+          "link": "https://nitter.net/ns123abc/status/2087629281807450408#m",
+          "date_utc": "2026-08-12T19:56:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPi_xGgWIAETO1O.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceX added $550 billion in 5 days (+38%) this is just the beginning NIK (@ns123abc) SpaceX will be the most valuable company in the world in less than 3 years. Mark my words — https://nitter.net/ns123abc/status/2085863525352693814#m",
+          "link": "https://nitter.net/ns123abc/status/2087614802382237823#m",
+          "date_utc": "2026-08-12T18:58:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPix3klWkAAL-jw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "GPT 5.6 SOL MAX BTFO'D BY GROK 4.6 HIGH",
+          "link": "https://nitter.net/ns123abc/status/2087590105011655093#m",
+          "date_utc": "2026-08-12T17:20:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPicIymXoAIZ9t5.jpg",
+            "https://nitter.net/pic/media%2FHPicIyoXIAEGErU.jpg",
+            "https://nitter.net/pic/media%2FHPicIykXIAEEoJN.jpg",
+            "https://nitter.net/pic/media%2FHPicIynXwAAllfs.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "SpaceXAI WON. Elon Musk (@elonmusk) Grok 4.6 is objectively #1 when considering intelligence, speed cost — https://nitter.net/elonmusk/status/2087586063682596905#m",
+          "link": "https://nitter.net/ns123abc/status/2087586966904721742#m",
+          "date_utc": "2026-08-12T17:08:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiYdmfa4AAJASU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "looks like it’s fixed now… bruh Video",
+          "link": "https://nitter.net/ns123abc/status/2087529783764697333#m",
+          "date_utc": "2026-08-12T13:20:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087529747437793280%2Fimg%2Fr0kh1o77n0j-qqIr.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This is one of the dumbest things I've ever heard. Guys. NOTHING is \"free\". You're paying for it with taxes, and the utility will just bump your rate for the other 22 hours to make up the costs. Stop falling for the \"free stuff\" bullshit! These communists think you're dumb. Xavier Becerra (@XavierBecerra) Listen up: free electricity. It’s called Power Hour - providing up to two hours of free electricity for millions of California households. Working families could save approximately $1,000 a year on their electricity bills. I’m looking forward to getting this done for California families when ",
+          "link": "https://nitter.net/spencerpratt/status/2087731240296202738#m",
+          "date_utc": "2026-08-13T02:41:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087648799946948608%2Fimg%2F2qnBYmSF-BStWLER.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Commie scammer hijacking my name to be an antisemitic psycho. As if it weren't clear already, I don't lend my name to ANYBODY. If it didn't come from this account, it's BS. I expect nothing less from a communist...anyway, here's Nithya with a real antisemite, Hasan Piker! Video Josh Koehn (@Josh_Koehn) NEW: West Hollywood Councilman John Erickson — a Democratic candidate for state Senate — is being accused of operating a fake, pro-Spencer Pratt Instagram account to provoke angry and antisemitic responses against his fellow Dem opponent, Brian Goldsmith. nypost.com/2026/08/12/us-new… Link Spenc",
+          "link": "https://nitter.net/spencerpratt/status/2087729402268258501#m",
+          "date_utc": "2026-08-13T02:34:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087729029998661632%2Fimg%2F3l3iOkSZPlfF9FzH.jpg",
+            "https://nitter.net/pic/card_img%2F2087644232068616192%2FNWgD7PSB%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya Raman has now resorted to hiding this reply in her tweets! LMAO what a fraud. Would be a shame if everyone were to share this for her... Spencer Pratt (@spencerpratt) Here’s Nithya storming out of City Council when @SUFPFoundation brought up the animal abuse on your streets. This is what she really thinks about animal abuse. Now suddenly she cares? LMAO nobody’s fooled, scammer. You’re not getting my base. Video — https://nitter.net/spencerpratt/status/2087647255876579696#m",
+          "link": "https://nitter.net/spencerpratt/status/2087727589754311162#m",
+          "date_utc": "2026-08-13T02:27:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087647198150299648%2Fimg%2FvTdTPS1R7qq8Y0S5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This dork had no problem profiting heavily off mergers when the Disney/Marvel/Fox mega-merger made him a deca-millionaire. This dude has been profiting off mergers for years. He even made millions off a Paramount/WB co-production, Zodiac. He got his bag, so screw everyone! 🤡🤡 Video Mark Ruffalo (@MarkRuffalo) Nobody but the folks who are set to profit heavily off this merger and who have tanked our economy in the past like Jamie Dimon are for this thing. If it wasn’t for the cozy relationship the Ellison’s have with Trump and a partisan and compromised DOJ this would have been stopped long ago",
+          "link": "https://nitter.net/spencerpratt/status/2087693581741928602#m",
+          "date_utc": "2026-08-13T00:11:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087693079268466688%2Fimg%2FgZgmNztSmEA_lLRw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "A year ago, almost to the day, @SenRickScott flew out to my property and we discussed putting together a tax relief bill for disaster victims, and true to his word...the man got it done. You actually can get things done and have a positive impact on your community when you work with people who genuinely care. I'll never stop fighting for my city, and all of us in the Palisades are grateful to Senator Scott for his work. When everyone else abandoned us, he showed up, and he's still fighting for us. Video Rick Scott (@SenRickScott) I am glad that we were able to pass the Doug LaMalfa Disaster Ta",
+          "link": "https://nitter.net/spencerpratt/status/2087668978634154086#m",
+          "date_utc": "2026-08-12T22:34:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087667549030731776%2Fimg%2FlPVMkiZy7Y22feY0.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Here's communist Nithya Raman celebrating 9/11 and trashing Jews with her DSA comrade Hasan Piker! Weird how nobody asks her about her ties with Beetlejuice Bob. Even Karen Bass wasn't dumb or desperate enough to pal around with this freak. Video",
+          "link": "https://nitter.net/spencerpratt/status/2087661204936294872#m",
+          "date_utc": "2026-08-12T22:03:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087660504600752128%2Fimg%2FyQHY9Vi9qzqlzLwA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Look at Nithya walking out on animal rights activist Rebecca Corry when she pleaded for help with the animal abuse in LA, reminding Raman that she has MORE power to address this on council than Mayor Bass. Nithya's pretending to care about dogs now for votes. Shameless liar. Video Nithya Raman (@nithyavraman) More cats and dogs are being euthanized in LA City shelters this year than last. This reality is heartwrenching, and frankly, avoidable. I’ve spent a lot of time over the past few months discussing the animal welfare crisis in our city with advocates and rescuers who do this work every da",
+          "link": "https://nitter.net/spencerpratt/status/2087656559325118467#m",
+          "date_utc": "2026-08-12T21:44:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087656359760195585%2Fimg%2FvQFl-e_W0Fq8lkqA.jpg",
+            "https://nitter.net/pic/card_img%2F2087206996923797504%2FwkVRSWav%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.latimes.com/california/story/2026-08-11/euthanasia-rates-of-cats-kittens-are-on-rise-at-la-city-animal-shelters",
+              "content": "Euthanasia rates of cats and kittens are on the rise at L.A. city animal shelters - Los Angeles Times News Home Page California Election 2024 Housing Homelessness Politics Science Medicine World Nation Business Artificial Intelligence Autos Jobs, Labor Workplace Real Estate Technology and the Internet California California Politics Earthquakes Education Housing Homelessness L.A. Influential L.A. Politics Mental Health Climate Environment Climate Change Water Drought Entertainment Arts Arts Books Stand-Up Comedy Hollywood Inc. The Envelope (Awards) Movies Music Television Things to Do De Los En Español Food 101 Best Restaurants in L.A. Recipes Image Art Culture Conversations Drip Index: Event Guides Fashion Shopping Guides Styling Myself Lifestyle Health Wellness Home Design L.A. Affairs Pl"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Here’s scammer Nithya Raman storming out of a city council meeting when animal welfare activist @SUFPFoundation brought up the abuse and murder of dogs in LA streets and shelters. Now Nithya is pretending to care so she can get votes. What a shameless fraud. This was a core issue for my campaign. She never ONCE spoke on this issue until right now as she throws everything at the wall and tries to trick my voters into supporting her. Not happening, Nithwit. Video Nithya Raman (@nithyavraman) More cats and dogs are being euthanized in LA City shelters this year than last. This reality is heartwre",
+          "link": "https://nitter.net/spencerpratt/status/2087646831622664504#m",
+          "date_utc": "2026-08-12T21:06:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087646772071936001%2Fimg%2Fegd7bwf14GZckl7g.jpg",
+            "https://nitter.net/pic/card_img%2F2087206996923797504%2FwkVRSWav%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.latimes.com/california/story/2026-08-11/euthanasia-rates-of-cats-kittens-are-on-rise-at-la-city-animal-shelters",
+              "content": "Euthanasia rates of cats and kittens are on the rise at L.A. city animal shelters - Los Angeles Times News Home Page California Election 2024 Housing Homelessness Politics Science Medicine World Nation Business Artificial Intelligence Autos Jobs, Labor Workplace Real Estate Technology and the Internet California California Politics Earthquakes Education Housing Homelessness L.A. Influential L.A. Politics Mental Health Climate Environment Climate Change Water Drought Entertainment Arts Arts Books Stand-Up Comedy Hollywood Inc. The Envelope (Awards) Movies Music Television Things to Do De Los En Español Food 101 Best Restaurants in L.A. Recipes Image Art Culture Conversations Drip Index: Event Guides Fashion Shopping Guides Styling Myself Lifestyle Health Wellness Home Design L.A. Affairs Pl"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Nithya Raman is getting TORCHED by her own colleagues as she tries to lie about her unmitigated failure as chair of the Homelessness and Housing Committee. “You ran it like a lecture hall at a university, not a place of government”. Nithya is a scammer who ruined our city. Daniel Guss (@TheGussReport) Whoa… In a fiery exchange just now, @MRodCD7 to @nithyavraman : “thank you for your gaslighting revisionist history!” Too bad @LACityCouncil isn’t this vigorous ALL the time. We wouldn’t have failed leadership EVERYWHERE in LA. In context, MRod is 100% correct; @cd4losangeles sat on an issue for ",
+          "link": "https://nitter.net/spencerpratt/status/2087645612422373548#m",
+          "date_utc": "2026-08-12T21:01:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPjOnxoXAAAaqH4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "If you aren't a communist and you want to get shit done for Americans, you're in the club. The era of do-nothing consultant class tribal politics is over. Rick Scott (@SenRickScott) I am glad that we were able to pass the Doug LaMalfa Disaster Tax Relief Certainty Act. What happened in California was devastating. After meeting with @spencerpratt at his burned-down home and the tour he gave me of the destruction, we fought to get this done. I appreciate all of Spencer’s work in helping us deliver much-needed relief for wildfire victims. This bill gives Californians, Floridians and ALL Americans",
+          "link": "https://nitter.net/spencerpratt/status/2087625257796477128#m",
+          "date_utc": "2026-08-12T19:40:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Culture is America’s #1 export. Our jobs shouldn’t be. We have lost nearly 100K American TV film worker jobs to outsourcing in recent years, all because we let other countries outbid us for our own productions. Way past time to bring film production jobs back to Americans.",
+          "link": "https://nitter.net/spencerpratt/status/2087621687491637599#m",
+          "date_utc": "2026-08-12T19:26:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Wow...this is even more true today than ever. Mann Made Cinema (@Hotshot_Movie) NGO's are destroying California. Aside from insane bureaucracy, one of the main reasons prescribed fire doesn't get done in CA is because every time there's an RX fire project, some \"friends of the spotted owl\" type NGO will sue to block it. Grizzly Flats burned down because their RX fire project was tied up for a decade, and then the Caldor Fire wiped out the entire town. Currently, CalFire's *entire* wildfire mitigation strategy has been blocked by a judge because the California Chaparral Institute sued to block ",
+          "link": "https://nitter.net/spencerpratt/status/2087613826124386492#m",
+          "date_utc": "2026-08-12T18:54:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2005673515286962178%2Fimg%2FRaeSWQRbj0ITXO_N.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Does this moron not realize... SHE IS CITY GOVERNMENT. Nithya's entire campaign is pretending like the last 6 years of her life didn't exist, and she's some outsider with no power. Lady, you've done NOTHING this entire time. Nobody believes anything you say, scammer. Nithya Raman (@nithyavraman) More cats and dogs are being euthanized in LA City shelters this year than last. This reality is heartwrenching, and frankly, avoidable. I’ve spent a lot of time over the past few months discussing the animal welfare crisis in our city with advocates and rescuers who do this work every day. What I hear",
+          "link": "https://nitter.net/spencerpratt/status/2087612056685961694#m",
+          "date_utc": "2026-08-12T18:47:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087206996923797504%2FwkVRSWav%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.latimes.com/california/story/2026-08-11/euthanasia-rates-of-cats-kittens-are-on-rise-at-la-city-animal-shelters",
+              "content": "Euthanasia rates of cats and kittens are on the rise at L.A. city animal shelters - Los Angeles Times News Home Page California Election 2024 Housing Homelessness Politics Science Medicine World Nation Business Artificial Intelligence Autos Jobs, Labor Workplace Real Estate Technology and the Internet California California Politics Earthquakes Education Housing Homelessness L.A. Influential L.A. Politics Mental Health Climate Environment Climate Change Water Drought Entertainment Arts Arts Books Stand-Up Comedy Hollywood Inc. The Envelope (Awards) Movies Music Television Things to Do De Los En Español Food 101 Best Restaurants in L.A. Recipes Image Art Culture Conversations Drip Index: Event Guides Fashion Shopping Guides Styling Myself Lifestyle Health Wellness Home Design L.A. Affairs Pl"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "The level of corruption between the firestarter utility companies and Gavin Newsom is unreal. Where the hell is the Attorney General to look out for these consumers getting wrecked by the utilities? Too busy suing over who airs Friends reruns? Alex “Trey” Robertson, Esq. (@415FirePhoto) It is unconscionable that for-profit utilities like SCE are threatening to punish fire victims if Governor Newsom doesn't agree to limit their liability for wildfire damages. CA's big three for-profit utilities, SCE, PG&E and Sempra have spent a record $16.7 Million in lobbying State officials over proposals to",
+          "link": "https://nitter.net/spencerpratt/status/2087610754581070253#m",
+          "date_utc": "2026-08-12T18:42:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087587026598268928%2FHrmLUVro%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://consumerwatchdog.org/energy/senate-energy-chair-calls-out-utility-ceos-over-bailout-blackmail-threats-local-governments-insurers-fire-survivors-consumer-groups-rally-against-utility-bailout/",
+              "content": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors Consumer Groups Rally Against Bailout &#8211; Consumer Watchdog Skip to main content Home About Our Approach Our Team Our Books Rage for Justice Awards Contact Updates News Releases Consumer Alerts Video In The News Reports Blogs Podcasts Related Sites Newsom Well Watch Oil Watchdog PUCPapers Fairness For Patients Capitol Watchdog Inside Google Our Issues Healthcare Energy Privacy Insurance Accountability In The Courtroom Get Involved Submit a Consumer Complaint Take Action Donate Expose. Confront. Change. Donate Healthcare News Releases Fairness for Patients Blogs In The News Reports Video Healthcare Advocates Energy News Releases Blogs In The News Reports Video Privacy N"
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "LMAO wow Gavin Newsom just had 2 fundraising events in Michigan cancelled because of his embarrassing low turnout. Nobody likes this creep outside of CA. I told you…he ain’t the guy. Spencer Pratt (@spencerpratt) Gavin Newsom pulling a massive crowd of 17 septuagenarians in Michigan. Yeah he's DEFINITELY gonna be the nominee for President. LMAO. Video — https://nitter.net/spencerpratt/status/2087243565625663886#m",
+          "link": "https://nitter.net/spencerpratt/status/2087602276495962220#m",
+          "date_utc": "2026-08-12T18:09:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPinNQlWQAAR1U4.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2087150485652287488%2Fimg%2F4ZrI8xYbH6oE3kuC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Why does it take the Feds to step in for anything to be done about it? TraciParkforLA (@TraciParkforLA) Handing out needles and pipes in local parks should not be part of any \"continuum of care\" in LA. — https://nitter.net/TraciParkforLA/status/2087532454328590489#m",
+          "link": "https://nitter.net/spencerpratt/status/2087600706857386407#m",
+          "date_utc": "2026-08-12T18:02:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "This Oompa Loompa has some serious little man complex going on LMAO. Bro is always overcompensating for something… Dr. Abdul El-Sayed (@AbdulElSayed) Since you’re too afraid to debate me, how about you “hold me accountable” on a football field instead. Tackle, no pads like we used to play when we were kids. I’d be happy to show you much I love football. — https://nitter.net/AbdulElSayed/status/2087523110668968337#m",
+          "link": "https://nitter.net/spencerpratt/status/2087600167109156899#m",
+          "date_utc": "2026-08-12T18:00:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "When even Xavier Becerra is pushing Bonta to quit the lawfare, you know Bonehead Bob has gone rogue with his Netflix-funded jihad against Paramount.",
+          "link": "https://nitter.net/spencerpratt/status/2087599849210311146#m",
+          "date_utc": "2026-08-12T17:59:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPik_-_WUAArTrH.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Wasting billions of our tax dollars on a railroad with no rail isn’t “mismanagement”. It’s FRAUD. Gavin Newsom should be in prison. Rep. Vince Fong (@RepVinceFong) California’s High-Speed Rail is the quintessential example of government mismanagement. I’ve called it out since day 1. Californians were promised a completed rail 6 years ago. Today we’ve spent billions and billions, for a total of zero trains. Gavin Newsom owes us an explanation. And an apology. It’s beyond time to shut this down. Video — https://nitter.net/RepVinceFong/status/2087329693464994004#m",
+          "link": "https://nitter.net/spencerpratt/status/2087598861757898966#m",
+          "date_utc": "2026-08-12T17:55:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087329236944076800%2Fimg%2F9lc5JioDwVhrtDh-.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "neon-gridlock-chi.vercel.app… try it out😉 Link NEON GRIDLOCK Hardcore neon survivors-like. Security process vs a dying OS. neon-gridlock-chi.vercel.app",
+          "link": "https://nitter.net/stepango/status/2087706061713392116#m",
+          "date_utc": "2026-08-13T01:01:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087706062636056576%2FYh3SMvkA%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://neon-gridlock-chi.vercel.app/",
+              "content": "NEON GRIDLOCK HP 100/100 XP 0/10 COR CRPT 00 LVL 01 KILLS 0 TIME 00:00 SCORE 0 WPN PING FUS — PSV — CHR MON GEAR — PROTO — CHAL — RLC — DATA 0 WAVE 1/20 DLY — PAD SETTINGS ESC / START · SETTINGS CRT CRT AUTO CA CA AUTO RAIN RAIN AUTO FX LOW FX OFF DMG NUMBERS DMG OFF REDUCE FLASH FLASH OFF RESUME SYSTEM UPGRADE OMNICRON CORE — SELECT PROTOCOL DATA BAZAAR DATA 0 1-3 BUY · R REROLL · ESC / SPACE CLOSE LEAVE BAZAAR EVO CACHE SELECT EVOLUTION 1-3 PICK · EVO CHEST SYSTEM CRASH CONNECTION TO OMNICRON LOST RESTART RUN NEON GRIDLOCK OMNICRON — CORRUPTED SECTOR 07 WASD move · auto-fires nearest foe · SHIFT dash · E skill · collect amber XP · don't stand still PLAY SETTINGS PICK A CHARACTER (start with MONITOR) BEGINNER MONITOR Balanced starter — good for learning SPEED ANTIVIRUS Faster after kills "
+            }
+          ]
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Made by @grok 4.5 🚀 I wonder what 4.6 can do with it now🔥👇 Video",
+          "link": "https://nitter.net/stepango/status/2087705927181078897#m",
+          "date_utc": "2026-08-13T01:00:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2087705916103933952%2Fimg%2FKyiP1eoYHBUsWpsl.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "zhu_hanqing666",
+      "org": "Google DeepMind",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "zhu_hanqing666",
+          "creator": "@zhu_hanqing666",
+          "text": "Now it’s true 🫣 Enjoy Grok 4.6! We built on our previous favorite boy, Grok 4.5 :), refined the recipes with previous learnings 🧑‍🍳, and pushed it further with much stronger long-horizon capabilities —while keeping the intelligence efficiency we care about 🚀 Enjoy and More to come ➡️ Artificial Analysis (@ArtificialAnlys) SpaceXAI's Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index, joining the frontier in line with GPT-5.6 Sol, with standout agentic performance at lower cost Grok 4.6 gains 5 points over Grok 4.5 on the Intelligence Index just over one month after its release, o",
+          "link": "https://nitter.net/zhu_hanqing666/status/2087603281791246749#m",
+          "date_utc": "2026-08-12T18:13:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPiEg4XaEAAJ4LX.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
