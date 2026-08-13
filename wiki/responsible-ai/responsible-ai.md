@@ -2,6 +2,20 @@
 
 Concept page for alignment, interpretability, safety, and explainability work.
 
+## The unit of safety is moving from the model to the trajectory (2026-08-13)
+
+**Two papers on one board make the same argument from opposite ends, and together they say the page's dominant frame is the wrong one for agents.**
+
+[Agent Safety Should Be a Runtime Contract](../agentic-systems/2026-08-13-agent-safety-runtime-contract.md) (2608.11274) is the position statement: training-time alignment via RLHF, DPO, or Constitutional AI is **structurally insufficient** for systems that execute code, mutate files, and write to databases, so safety should be a runtime contract enforced by the harness. It has a preventive face (sandboxes, permission gates, output filters, trajectory monitors) and an **evidential face** that is the novel half: gate task submission on verifiable proof the good action happened, via test runs, log captures, file diffs, citation grounding. Four evidence lines back it, including a survey of **52 documented agent and LLM safety incidents** and a title-level audit of **all 28,560 NeurIPS/ICML/ICLR papers 2023–2025 showing a pooled 8x–12x imbalance between training-time and deployment-time safety publication**. Thesis: the right unit of safety is the trajectory-with-checkable-evidence, not the model.
+
+**That audit is the number this page has needed.** Every entry above documents a training-time safety property failing at deployment: [SAE interventions recovering clamped-away behavior at 95.8%](2026-06-18-sae-interventions-unreliable.md), [deception probes at AUROC ≥0.998 collapsing under benign stylistic shift](2026-06-03-deception-probes-pressure-test.md), and [the Q2 Risk Monitor's field-average biological safety falling 78.2 → 8.9 under red-teaming](2026-08-12-frontier-ai-risk-monitor-q2.md). The page had a pile of instances and no account of *why* the field keeps producing them. An 8x–12x publication imbalance is that account: the work is being done where the papers are, and the papers are at training time.
+
+[Mind Viruses](2026-08-13-mind-viruses-multi-agent-contagion.md) (2608.10218, Anthropic) attacks the same frame from the threat side and finds the case the runtime contract does **not** cover. Ideas evolved to propagate through a multi-agent system spread in two settings, including a chain of agents whose **context is wiped between sessions**, because the payload rides the **shared work product** rather than any agent's memory. A mind virus takes no forbidden action and produces genuine evidence, so both faces of the runtime contract pass it. The defense that works is almost embarrassingly cheap: **a brief warning in the system prompt confers near-total immunity**, though it has not been tested against payloads evolved with knowledge of it.
+
+**The composite threat this page should now carry.** Three results describe one complete cycle nobody has studied end to end: a payload enters through a shared artifact ([Mind Viruses](2026-08-13-mind-viruses-multi-agent-contagion.md)), survives abstraction into a reusable skill ([SkillJack (08-05)](2026-08-05-skilljack-persistent-skill-backdoors.md), detection collapsing from **98.5% on the source trajectory to 11.4% on the extracted skill**, 80% of attacks surviving deletion of the source records), and is propagated to every branch by compression ([SkillZip (08-12)](../agentic-systems/2026-08-12-skillzip-skill-compression.md), which merges repeated rules into shared procedures). Each step is measured. The cycle is not.
+
+**Standing caution to add:** context isolation is widely sold as a containment boundary and this is the first direct evidence it is not one when agents share artifacts, which they always do.
+
 ## Current State (as of 2026-08-12)
 
 **The safeguard-versus-capability gap now has a quarterly time series, and both curves point the wrong way.**
