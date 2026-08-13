@@ -76,6 +76,25 @@ The market signal moved from salaries to product this week. **xAI shipped Grok 4
 
 That is the industrial instance of the research claim, and it lands the same week AI4AI measures strong-to-weak harness transfer and AutoWorldModel-Bench measures agents improving an external artifact under an unspecified objective in [63 of 64 sessions](2026-08-13-autoworldmodel-bench.md). The gap worth watching: xAI reports a self-optimized harness as a capability headline and publishes no cost-per-success number, which is precisely the measurement omarsar0's benchmark made the field's spine.
 
+### The first public model-by-harness cost table (Terminal-Bench 3.0, 2026-08-13)
+
+Terminal-Bench 3.0's leaderboard is the closest public artifact to the measurement this page keeps asking for, because **every row is a model-harness pair reported with token count and dollar cost alongside accuracy** ([screenshot](https://x.com/aksheyd/status/2087701375300026561)):
+
+| Rank | Model | Agent harness | Resolution rate | Tokens | Cost | Cost / point |
+|---|---|---|---|---|---|---|
+| 1 | Opus 5 (max) | mini-SWE-agent | 42.7% ± 1.6% | 7.3B | $5.8k | ~$136 |
+| 2 | GPT-5.6 Sol (max) | Codex | 34.6% ± 1.6% | 5.8B | $4.0k | ~$116 |
+| 3 | Fable 5 (max) | Claude Code | 34.1% ± 1.7% | 3.6B | $6.5k | ~$191 |
+| 4 | Grok 4.6 (high) | Grok Build | 26.5% ± 1.5% | 2.9B | $2.1k | ~$79 |
+| 5 | Opus 4.8 (max) | Claude Code | 21.1% ± 1.6% | 5.2B | $5.2k | ~$246 |
+| 6 | GPT-5.6 Terra (max) | Codex | 20.8% ± 1.4% | 7.0B | $2.5k | ~$120 |
+| 7 | Grok 4.5 (xhigh) | Cursor CLI | 15.7% ± 1.5% | 1.2B | $766 | ~$49 |
+| 8 | Sonnet 5 (max) | Claude Code | 14.6% ± 1.5% | 17.9B | $6.9k | ~$473 |
+| 9 | GPT-5.6 Luna (max) | Codex | 14.3% ± 1.3% | 11.9B | $1.6k | ~$112 |
+| 10 | GLM 5.2 (max) | Claude Code | 4.6% ± 1.0% | 3.3B | $3.4k | ~$739 |
+
+Three readings. **Token spend does not track accuracy**: Sonnet 5 in Claude Code burns 17.9B tokens for 14.6% while Fable 5 in the *same* harness reaches 34.1% on 3.6B, a 5x token difference in the opposite direction from the score. **Ranking by cost-per-point reorders the table**, moving Grok 4.6 from fourth to second and dropping Fable 5 from third to seventh, which is the argument for reporting dollars-per-completed-task as the primary agentic metric. And **the grid is still not an ablation**: no model appears under two harnesses in the top ten, so the leaderboard shows harness variation is present without isolating it. Holding one model fixed across mini-SWE-agent, Codex, Claude Code, Grok Build and Cursor CLI remains the missing experiment, and it is now cheap enough that somebody should just run it.
+
 ---
 
 ## Open problems (research angle)
