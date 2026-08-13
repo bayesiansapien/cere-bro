@@ -89,6 +89,6 @@ That is the industrial instance of the research claim, and it lands the same wee
 
 ## Sources
 
-**Research (digest):** [Code as Agent Harness](2026-05-23-code-as-agent-harness.md) · [Scaling the Harness](2026-05-27-scaling-the-harness.md) · omarsar0 harness benchmark ([arXiv 2608.01347](https://arxiv.org/abs/2608.01347)) · LongHorizon-Harness ([arXiv 2608.01964](https://arxiv.org/abs/2608.01964)) · HarnessOpt-Bench (08-08 weekly)
+**Research (digest):** [Code as Agent Harness](2026-05-23-code-as-agent-harness.md) · [Scaling the Harness](2026-05-27-scaling-the-harness.md) · omarsar0 harness benchmark ([arXiv 2608.01347](https://arxiv.org/abs/2608.01347)) · LongHorizon-Harness ([arXiv 2608.01964](https://arxiv.org/abs/2608.01964)) · HarnessOpt-Bench (08-08 weekly) · [AI4AI at Test-Time](../inference-efficiency/2026-08-13-ai4ai-test-time-harness-transfer.md) ([arXiv 2608.12307](https://arxiv.org/abs/2608.12307)) · [Agent Safety Should Be a Runtime Contract](2026-08-13-agent-safety-runtime-contract.md) ([arXiv 2608.11274](https://arxiv.org/abs/2608.11274)) · [Spark-to-Paper](2026-08-13-spark-to-paper-composable-research-skills.md) ([arXiv 2608.11924](https://arxiv.org/abs/2608.11924))
 
 **Practitioner cluster (surfaced via saved reading, 2026-08):** ~11 articles on loop/harness/graph engineering; synthesized in the [2026-08-13 Media Zone](../media-zone/2026-08/2026-08-13.md). Enumerated saves live in the private curation index.
