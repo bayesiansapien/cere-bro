@@ -35,8 +35,16 @@ The same paper found a subtler result: prompt wording changes *where* effort goe
 3. **HarnessOpt-Bench** (08-07, per the [08-08 weekly](../daily-digest/2026-08/2026-08-08.md)) — made "can a model optimize its own harness" measurable. The benchmark for the self-improving-harness idea.
 4. **The cost measurement** (omarsar0, arXiv 2608.01347, 08-13) — put the 5x–30x number on harness choice. Turned a design intuition into an efficiency fact.
 5. **LongHorizon-Harness** (arXiv 2608.01964, Alibaba, 08-13) — the state-management mechanism: a Manage-Execute-Audit (MEA) loop keeps task state *outside* the execution context and updates it only on environment-verified facts, so wrong self-assessments stop propagating across long tasks. The rigorous answer to "how do you engineer the loop."
+6. **The capability measurement** ([AI4AI at Test-Time](../inference-efficiency/2026-08-13-ai4ai-test-time-harness-transfer.md), arXiv 2608.12307, 08-13) — the twin of item 4. A strong *builder* model writes an inference-time harness for a weaker *target* model, refining it against a 5% validation split, and average target performance on four Theory-of-Mind benchmarks goes **0.49 → 0.91 with the target's weights never touched**. Harness choice moves accuracy by roughly 2x on a fixed model, the way it moves cost by 5x–30x.
+7. **The safety statement** ([Agent Safety Should Be a Runtime Contract](2026-08-13-agent-safety-runtime-contract.md), arXiv 2608.11274, 08-13) — the harness is also where safety belongs, as a preventive face (sandboxes, permission gates, trajectory monitors) plus an **evidential face** (no task-complete claim without checkable proof: test runs, log captures, file diffs, citation grounding). Backed by a title-level audit of all 28,560 NeurIPS/ICML/ICLR 2023–2025 papers showing an **8x–12x imbalance between training-time and deployment-time safety publication**.
 
-Running through all five: **capability lives in the harness, not just the weights**, and the harness deserves to be designed, benchmarked, and cost-optimized as a first-class object.
+Running through all seven: **capability lives in the harness, not just the weights**, and the harness deserves to be designed, benchmarked, cost-optimized, and *governed* as a first-class object.
+
+### What AI4AI adds to the mechanism story
+
+The most useful part is not the headline number but the mechanism analysis, because it says what a harness is actually *for*. The gains do **not** come from the target reasoning more or sampling more widely, which is what a better prompt would produce. They come from three moves: **offloading unstable reasoning steps into deterministic code**, **routing per question type**, and **strict answer-format enforcement**. All three remove model discretion rather than adding model effort.
+
+That is the same conclusion [Spark-to-Paper (08-13)](2026-08-13-spark-to-paper-composable-research-skills.md) reached independently in a different subfield: its first design principle is separating model-based judgment from deterministic operations that can be executed and checked, and its ablation shows fabrication detection rising from **14% for a single-pass draft to 92% with the full integrity stack**. Two papers, same board, different tasks, one conclusion: **the harness wins by taking decisions away from the model.** That is a sharper statement of the concept than "scaffolding helps," and it is falsifiable: a harness that improves results purely by giving the model more room should not show this signature.
 
 ---
 
