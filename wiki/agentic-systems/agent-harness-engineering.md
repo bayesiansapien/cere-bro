@@ -70,6 +70,14 @@ That research and practitioners reached the same frame in the same window is the
 
 ---
 
+## Industry has started pricing the harness directly (2026-08-13)
+
+The market signal moved from salaries to product this week. **xAI shipped Grok 4.6 and stated that Grok 4.6 optimized the Grok Build harness for itself** ([@aksheyd](https://x.com/aksheyd/status/2087622695718662338)), and Hugging Face's Elie Bakouch, reading the model card, noted the model is **state of the art on an internal "inferenceEval" that measures optimization of xAI's own chat inference** ([@eliebakouch](https://x.com/eliebakouch/status/2087659219956928873)). Two of the capabilities a frontier lab chose to headline are the model improving its own scaffold and its own serving path.
+
+That is the industrial instance of the research claim, and it lands the same week AI4AI measures strong-to-weak harness transfer and AutoWorldModel-Bench measures agents improving an external artifact under an unspecified objective in [63 of 64 sessions](2026-08-13-autoworldmodel-bench.md). The gap worth watching: xAI reports a self-optimized harness as a capability headline and publishes no cost-per-success number, which is precisely the measurement omarsar0's benchmark made the field's spine.
+
+---
+
 ## Open problems (research angle)
 
 1. **A harness-quality metric that predicts the 5x–30x swing before you run.** omarsar0 measured the swing post-hoc; nobody can yet predict which harness wins for a given task class without a full benchmark. This is the single highest-value open experiment.
