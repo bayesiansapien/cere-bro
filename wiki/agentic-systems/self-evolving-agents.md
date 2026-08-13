@@ -11,6 +11,20 @@ These two were studied in isolation until 2026-06. The current frontier is combi
 
 ---
 
+## Two additions that separate the field's conflated faculties (2026-08-13)
+
+**The self-improvement literature has been measuring one thing and calling it two.** Every result on this page evaluates an agent improving *itself*, so "can this agent do research" and "can this agent edit itself" have never been independently observable. [AutoWorldModel-Bench](2026-08-13-autoworldmodel-bench.md) (2608.11216) separates them: a frontier coding agent gets a working world-model starter, a fixed compute budget, and **no specification of what "better" means**, then has to pick a research direction itself. World modeling was chosen because it is genuinely unsettled, so there is no known right answer to recover. Across **64 sessions, Codex-5.4 and Claude Opus 4.6 improved their starter on 63**, and in **91% of sessions the winning edit was a research-style modification** (a new objective, representation, rollout procedure, or architecture) rather than a hyperparameter tweak.
+
+**This bears directly on the page's biggest open result.** Evo-Bench's unexplained early saturation, where autonomous harness evolution plateaus after few cycles, is the bound on the entire recursive-improvement story, and [Mendel Gödel Machine (08-12)](2026-08-12-mendel-godel-machine.md) proposed one explanation: single-trajectory conditioning is high-variance, so edits mostly correct noise and the curve flattens once single-trajectory-visible defects run out. AutoWorldModel-Bench supplies a discriminating observation. If agents plateau at self-improvement while reliably improving an *external* artifact 63 times out of 64, the plateau is more likely about **the evidence available for self-editing** than about a ceiling on research ability. That is now a two-experiment test rather than a hypothesis.
+
+The reconciliation with the negative results also matters. [The 08-12 benchmark cluster](2026-08-12-agent-benchmark-cluster.md) found the best agent completing **56.70% of real data-science workflows with every open-source agent below 1%**, on the same board where agents make research-grade progress in 91% of sessions here. The difference is almost certainly that AutoWorldModel-Bench supplies a **dense automatic metric and a pre-parsed structured state** and the data-science benchmark supplies neither. Read charitably, that is the most useful thing on either board: **agents perform where the environment does the grounding for them**, which is a statement about deployment conditions rather than about capability.
+
+**Separately, the skill lifecycle now has a paper per stage.** [The Kurate skills cluster (08-13)](2026-08-13-kurate-agent-skills-cluster.md) collects six papers from one weekly leaderboard, each performing a different operation on the agent skill as primary object: SkillSentry guards it at runtime, SkillProx improves it via proximal textual gradient descent, SkillLens retrieves it visually, BONSAI searches over it with evolvability-guided tree search, a comparative study retrieves it at scale, and EvoMem remembers across evolution cycles. Retrieve, execute, guard, improve, search, remember, with no gaps and no overlaps.
+
+For this page the observation is not that skills are a pattern, which passed the threshold months ago, but that **the field has moved from arguing what a skill is to building infrastructure per lifecycle stage**, which is a later phase. Two cautions carry: **none of the six cites the others**, so the apparent convergence may be a shared word rather than shared architecture, and **not one of the six reports a cost**, which is disqualifying for a lifecycle built on a context-injection artifact that [ALTK-Evolve (08-12)](2026-08-12-altk-evolve-selective-context-delivery.md) showed can be delivered at **41% of the token cost for 8.9 points more accuracy**.
+
+---
+
 ## State of knowledge (as of 2026-08-12)
 
 **The open problem this page has carried since 07-27 got its first direct measurement, and the answer is redundancy.**
