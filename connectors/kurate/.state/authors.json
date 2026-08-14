@@ -18856,5 +18856,313 @@
     ],
     "first_seen": "2026-W33",
     "last_seen": "2026-W33"
+  },
+  "Utkarsh Bahuguna": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.11403v1",
+        "title": "When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Lang Cao": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.11705v1",
+        "title": "Making Your LLMs More Objective: Stabilizing LLM Safety Behavior Across Traits with Trait-Invariant Safety Tuning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Linqiang Guo": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Li Gu": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Zihuan Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Zhixiang Chi": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Siobhan Reid": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Ziqiang Wang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Junyi Ye": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.12259v1",
+        "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Ivy Gateri Wanjiku": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.12259v1",
+        "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Yang Sun": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Lichao Ma": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Houyuan Qin": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Yuxin Liu": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Hanyang Lu": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Yao Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Nikolai Bolik": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.11197v1",
+        "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Lennart Stöpler": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.11197v1",
+        "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Artur Andrzejak": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.11197v1",
+        "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Patryk Marszałek": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.09348v1",
+        "title": "In-Context Density Estimation for Tabular Data",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Jacek Tabor": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.09348v1",
+        "title": "In-Context Density Estimation for Tabular Data",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Marek Śmieja": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.09348v1",
+        "title": "In-Context Density Estimation for Tabular Data",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
   }
 }
