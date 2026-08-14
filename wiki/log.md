@@ -1356,3 +1356,18 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-08-13] lint | index.md: added missing daily-digest entries for 2026-08-11, 08-12, 08-13 | index
 
 **Session addendum 2026-08-13.** This session completed the daily digest, the morning social-stream synthesis, and four summary pages the parallel ingest job had not covered (NeuPAT, ToolHazard, Grok 4.6, Interconnects), and gap-filled rather than re-authored the Media Zone the parallel job had already written over the 44-save first bookmark batch. Two findings worth recording. First, the **Terminal-Bench 3.0 leaderboard screenshot** attached to `raw/twitter/images/2026-08-13/2087701375300026561-0.jpg` turned out to carry the day's hardest data: every row is a model-harness pair reported with token count and dollar cost alongside resolution rate, which is the closest public artifact to the model-versus-harness ablation `agent-harness-engineering.md` has been asking for since 05-27. It was transcribed into that concept page, the digest and the social-stream synthesis. This is an argument for reading captured image attachments rather than treating them as decoration. Second, **RSS was genuinely quiet rather than broken**: only two items carried a 2026-08-13 date, both from The Information, and roughly 30 configured feeds returned HTTP 200 with real content but nothing newer than the 08-12 floor. `venturebeat-ai` is the one exception worth a check, returning only stale January-to-May 2026 entries. No paper appeared in both today's HuggingFace board and the Kurate top-20, so there was no cross-source-confirmed item.
+
+## [2026-08-14] ingest | LLMRouter: unified infrastructure for LLM routers | huggingface
+## [2026-08-14] ingest | Massive activations in hybrid linear attention LLMs | huggingface
+## [2026-08-14] ingest | Full-bandwidth transformer: latent feedback between decoding steps | huggingface
+## [2026-08-14] ingest | LycheeMemory V2: semantic segment-level memory consolidation | huggingface
+## [2026-08-14] ingest | DarwinX: evolving agent harnesses through natural selection | huggingface
+## [2026-08-14] ingest | AutoDesign: meta-harness optimization for long-horizon agentic design | huggingface
+## [2026-08-14] ingest | How can rhetoric reward-hack AI reviewers | huggingface
+## [2026-08-14] ingest | Token price is not task cost: the AlphaSense study | rss (the-information)
+## [2026-08-14] ingest | DeepSeek Harness v0.1 and six-fold cache-hit repricing | rss+twitter
+## [2026-08-14] concept | llm-routing.md, kv-cache.md, agent-harness-engineering.md updated to 2026-08-14 state | concept
+## [2026-08-14] note | Kurate cs.AI and cs.LG leaderboards show score=1200 / win_rate=0.0% across all 20 entries, so the 3-LLM tournament did not run this week. No HF-Kurate cross-source confirmations were possible. | source-quality
+## [2026-08-14] note | All eight tracked subreddits returned zero posts past filters in the 24h window. No practitioner ground truth today. | source-quality
+## [2026-08-14] note | Twitter bookmarks feed captured 0 new saves; Media Zone built from the AI-handle scrape instead. Cookies or bookmarks.graphql_query_id may need refreshing. | source-quality
+## [2026-08-14] dedupe | Removed wiki/ai-industry/2026-08-14-deepseek-harness-v01-cache-repricing.md in favour of the parallel job's better-sourced wiki/inference-efficiency/2026-08-14-deepseek-harness-kv-cache-economics.md; repointed inbound links. | lint
