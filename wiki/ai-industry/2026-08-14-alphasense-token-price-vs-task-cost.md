@@ -69,4 +69,4 @@ Any organization currently choosing models on a per-token price comparison is po
 - [LLMRouter (08-14)](../ai-routing/2026-08-14-llmrouter-unified-routing-infrastructure.md)
 - [Grok 4.6 step efficiency (08-13)](2026-08-13-grok-4-6-step-efficiency.md)
 - [OpenRouter / Stripe router frenzy (08-11)](2026-08-11-openrouter-stripe-router-frenzy.md)
-- [DeepSeek Harness v0.1 and cache repricing (08-14)](2026-08-14-deepseek-harness-v01-cache-repricing.md)
+- [DeepSeek Harness v0.1 and the price of a cache hit (08-14)](../inference-efficiency/2026-08-14-deepseek-harness-kv-cache-economics.md)
