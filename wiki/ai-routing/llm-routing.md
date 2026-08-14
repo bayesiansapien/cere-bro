@@ -2,7 +2,25 @@
 
 Routing in LLM systems means deciding which model (or no model) should handle a given query — with the goal of minimizing cost while meeting quality requirements.
 
-## Current State (as of 2026-08-11)
+## Current State (as of 2026-08-14)
+
+**The field got its first unified formulation and its first honest cost metric on the same day, and they disagree with each other.**
+
+[LLMRouter (08-14)](2026-08-14-llmrouter-unified-routing-infrastructure.md) does the consolidation work this page has needed since April. It formulates routing as a **sequential decision process with five components** (context encoders, model encoders, scoring functions, decision rules, learning signals) and shows single-turn, multi-turn, and personalized routing are all instances of it. That is the first frame that makes this page's scattered axes commensurable: [MISA (05-11)](../inference-efficiency/2026-05-11-misa-mixture-of-indexer-sparse-attention.md) routing on attention heads, [CaRE (05-11)](2026-05-11-care-bi-level-routing-moe-continual-learning.md) on tasks, [Conductor (05-11)](2026-05-11-conductor-sakana-orchestrating-frontier-models.md) as an RL orchestration policy, and [VI-MoLE (08-05)](2026-08-05-vi-mole-value-of-information-routing.md) on expected value of information are now all different *scoring functions* over different *context encoders*, rather than merely adjacent ideas. It ships **xRouteBench** (generic, memory-augmented, vision, time-series, personalized) plus 16+ routers under one interface, with cost-aware evaluation and automated supervision construction so a new candidate pool does not require restarting.
+
+*Three results move this page.* Learned routers beat **the strongest fixed-model baseline by 14.6% relative**, which is the honest comparison most routing papers avoid. **Lightweight routers get more competitive as the cost constraint tightens**, because a heavy router's own cost eats the savings it produces. That is a genuine regime boundary this page had not named, and it sharpens [When Is Routing Meaningful? (07-20)](2026-07-20-when-is-routing-meaningful.md) from "does routing pay" to "which router pays at which budget." And **user-conditioned routing consistently improves personalization**, making identity a real routing feature.
+
+**The disagreement is about the cost axis itself, and it is not a small one.** LLMRouter scores cost in per-token API pricing. On the same day, [the AlphaSense study (08-14)](../ai-industry/2026-08-14-alphasense-token-price-vs-task-cost.md) found that metric ranks models *backwards*: across 246 financial-analysis tasks, GPT-5.6 Sol cost ~13% less than Kimi K3 with ~20% higher quality, and Opus 4.8 cost about **half** of Kimi K3 with 13% higher quality, despite both carrying higher sticker prices per token. The mechanism is that more capable models use fewer tokens, and the token-count difference swamps the unit-price difference. A routing benchmark scoring cost per *token* rather than per *completed task* will therefore rank routers differently from a production system, and possibly wrongly. Note this is contested: Artificial Analysis ranks the same Chinese models as significantly cheaper on its own task set, so the answer is workload-dependent.
+
+**Industry has already shipped the architecture the research just formalized.** AlphaSense's production system uses its own **harness containing a router** that splits a single query: an expensive model to **plan** how the question should be answered, a cheap model to **execute** that plan. That is LLMRouter's multi-turn cost-aware formulation running in production, reported the same day the formalism was published, by a company with no stake in routing research. The plan-versus-execute split is now the most concretely reproducible routing pattern on this page and it required no routing algorithm at all.
+
+*What this does to the $10B question below.* The Stripe/OpenRouter framing was "developers want cheaper models." AlphaSense reframes it: developers want the **cheapest completion**, which is a harder problem, requires measurement infrastructure to solve, and is therefore worth considerably more as a product than a price-comparison table would be.
+
+**Still unaddressed, and now with a third instance.** No production router routes over **harnesses**, though [A²E (08-11)](../agentic-systems/2026-08-11-harness-evolution-cluster.md) showed the routable unit is the model-harness pair, and today [DarwinX (08-14)](../agentic-systems/2026-08-14-darwinx-harness-population-evolution.md) demonstrated harnesses transfer unchanged across benchmarks and base models while [AutoDesign (08-14)](../agentic-systems/2026-08-14-autodesign-meta-harness-optimization.md) showed one harness lifting seven different model-agent configurations. Harnesses are now demonstrably portable, transferable, optimizable artifacts. Routing over them remains proposed by nobody.
+
+---
+
+## Prior state (as of 2026-08-11)
 
 **The market repriced this page's entire subject matter in about two weeks, and the price is $10 billion.**
 
