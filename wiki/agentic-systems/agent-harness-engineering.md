@@ -119,6 +119,25 @@ That is this page's Tier 1 efficiency claim arriving from the provider side. The
 
 ---
 
+## The harness became an optimizable, transferable artifact (2026-08-14)
+
+**Three papers in two days crossed this page's pattern threshold, and they establish something stronger than "the harness matters."** They establish that **the harness is a portable artifact whose value is largely independent of the model it wraps.**
+
+[AI4AI (08-13)](../inference-efficiency/2026-08-13-ai4ai-test-time-harness-transfer.md) showed a strong builder writing a harness for a weak target, moving Theory-of-Mind accuracy 0.49 → 0.91 with the target's weights frozen, via deterministic-code offloading, per-question-type routing, and format enforcement. Today adds the two that generalize it:
+
+- **[DarwinX (08-14)](2026-08-14-darwinx-harness-population-evolution.md)** replaces single-lineage self-improvement with a **population under selection, model frozen**. A **preserve-and-extend contract** admits a variant only if it extends coverage without regressing anything already solved (attacking cross-task interference), an **archive keeps alternative lineages** for recombination (attacking path dependence), and fitness comes from each benchmark's own verifier with no gold solutions. One loop adds ~17 points on average: Terminal-Bench 2.1 +7.7 to **83.2%** on a matched base and **84.7%** on a stronger one, TerminalWorld held-out **68.3%**, WebArena-Infinity pass@1 **43.5% → 93.0%**. The load-bearing result is that **a Terminal-Bench harness transfers unchanged to SWE-bench Verified**.
+- **[AutoDesign (08-14)](2026-08-14-autodesign-meta-harness-optimization.md)** runs a **meta-harness optimizer** guiding a code agent to recursively rewrite one harness, aligned to human design priors rather than score alone. It beats the commercial Claude Design by 7.45 points on PosterBench, and its learned DesignHarness lifts **seven different code-agent-model configurations** from 54.99 to 67.39 average. A full autonomous run is 253 tool calls and 11 edit turns in 40 minutes for **under $3**.
+
+**Two independent groups converged on harness-as-optimization-target on the same day, and both proved the point by transfer rather than by score.** DarwinX transfers across benchmarks; AutoDesign transfers across model configurations.
+
+**DarwinX also partially settles the missing experiment named directly above.** The Terminal-Bench 3.0 table shows harness variation without isolating it, because no model appears under two harnesses in the top ten. DarwinX runs that isolation on Terminal-Bench 2.1: **+7.7 points on a matched base from scaffold changes alone**, roughly a third of the remaining error. The confound in every model-versus-model leaderboard is now measured rather than hypothesized.
+
+**Industry shipped the same thesis the same week.** [DeepSeek open-sourced Harness v0.1 under MIT (08-14)](../inference-efficiency/2026-08-14-deepseek-harness-kv-cache-economics.md), built on a meta-framework where models, tools, skills, sessions, sandboxes, loops, orchestration and UI are all swappable plugins, and raised **cache-hit token prices roughly six-fold** at the same time. Its central engineering commitment is append-only history so the KV cache prefix is never invalidated. Read together: give away the harness because it is becoming standard infrastructure, and charge for the resource it consumes. Ken Huang's [Harness Engineering book (08-13, Gmail)](2026-08-14-ken-huang-harness-engineering-patterns.md) makes the same argument as a design-pattern language, organizing secure agentic AI around ten pattern families and stating the thesis directly: the third wave "treats the harness as the product boundary."
+
+*The open problem this creates.* If harnesses are portable, optimizable artifacts that lift arbitrary models, then the routable unit is the **model-harness pair**, as [A²E (08-11)](2026-08-11-harness-evolution-cluster.md) argued. [LLM Routing](../ai-routing/llm-routing.md) now records this as a standing gap with three supporting results and zero proposals: **no production router routes over harnesses, and no paper proposes it.**
+
+---
+
 ## Open problems (research angle)
 
 0. **Harness optimization versus fine-tuning at matched cost.** Still unrun, and now more glaring: AutoDesign publishes $3 per rollout, DarwinX publishes no evolution budget, and no distillation paper publishes a comparable per-point cost. The first paper to put the two on one axis settles where a team should spend.
