@@ -254,8 +254,24 @@ KV caching is standard in all production LLM serving. Active research is focused
 
 The Ken Huang memory survey ([Memory Technology for Agentic AI Workloads](../hardware/2026-06-07-agentic-ai-memory-hierarchy.md)) names the hardware fact under this whole page: as context grows, the dominant memory traffic shifts **from weights to KV cache**, so KV-cache management is the binding hardware constraint, not just a software optimization. This is why every eviction/quantization/offload technique above matters economically in a structurally memory-short market (HBM allocation-driven into 2030). Concrete hardware moves: Micron SOCAMM2 (LPDDR) claims >2.3x time-to-first-token when used for KV-cache offload at 1/3 the power of RDIMM; NVIDIA CMX/BlueField-4 turns SSD into an AI-native ephemeral-KV context tier with KV-aware placement. The open systems direction is **KV-aware tiering**: deciding per-request which KV blocks live in HBM vs LPDDR/CXL/SSD — the hardware dual of [CLEAR](2026-06-05-clear-shadow-price-reasoning-budget.md)'s per-query compute rationing. See [memory-hierarchy](../hardware/memory-hierarchy.md).
 
+## The cache becomes a billing surface (2026-08-14)
+
+Everything above treats the KV cache as a technical resource: something to compress, quantize, evict, offload, tier, or ship between models. On 2026-08-13 a provider repriced it, and that adds a category this page did not have.
+
+**DeepSeek raised API prices with cache-hit tokens repriced to roughly 6x their prior cost**, alongside a new peak/off-peak split where off-peak rates run 50% below peak (effective 16:00 UTC, 2026-08-16). A cache hit is what you pay when a request's prompt prefix is already resident, so the workload that pays most is the agent loop, which re-sends a growing prefix every turn. The Decoder called it the biggest increase in the transition and named the affected pattern precisely: agent workflows that repeatedly read the same files. → [summary](2026-08-14-deepseek-harness-kv-cache-economics.md)
+
+**The same release ships the mitigation.** DeepSeek open-sourced Harness v0.1 under MIT the same day, and per Hugging Face's Elie Bakouch reading the code, its organizing commitment is **first-class KV-cache-aware design: previously written history is never altered.** When something in the conversation must change, the harness appends a statement describing the modification rather than editing the prefix, because an in-place edit invalidates every cached token downstream and forces a full recompute. Bakouch expects other harnesses to adopt the same convention.
+
+**Why this is a new entry rather than a footnote.** Every technique above optimizes cache *behaviour* under a fixed price. This is the first time the wiki has seen the price move against a specific access pattern, which flips the direction of the optimization: instead of "how do I use less cache," the question becomes "how do I avoid invalidating the cache I already have." Prefix stability was previously a latency property owned by a systems engineer. It is now a line item owned by whoever signs the invoice, and **append-only history is the cheapest available mechanism for protecting it**.
+
+Two consequences worth tracking. The append-only discipline has an unpriced accuracy cost: corrections accumulate at the tail, context grows monotonically, and contradictory statements coexist for the model to reconcile. That is a plausible quality tax paid to preserve a cache hit, and the counterfactual methodology from [the Illusion of Visual Tool-Use (08-13)](../agentic-systems/2026-08-13-illusion-of-visual-tool-use.md), which corrupts a tool return and checks whether the answer moves, would test it directly. And peak/off-peak pricing introduces a scheduling dimension that no routing formulation on the [LLM routing page](../ai-routing/llm-routing.md) currently models: not which model, but which hour.
+
+This also connects the cache directly to [compute economics](../hardware/compute-economics.md), where Blackwell-generation capacity cleared 15% above record in Nebius's first auction the same week. Cache-hit repricing at the API layer and spot repricing at the silicon layer are the same scarcity showing up two levels apart.
+
 ## Related Pages
 
+- [Compute economics (GPU pricing, utilization, durability)](../hardware/compute-economics.md)
+- [Agent harness engineering](../agentic-systems/agent-harness-engineering.md)
 - [Memory Hierarchy for AI](../hardware/memory-hierarchy.md)
 - [Knowledge Distillation](knowledge-distillation.md)
 - [LLM Routing](../ai-routing/llm-routing.md)
