@@ -1371,3 +1371,11 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-08-14] note | All eight tracked subreddits returned zero posts past filters in the 24h window. No practitioner ground truth today. | source-quality
 ## [2026-08-14] note | Twitter bookmarks feed captured 0 new saves; Media Zone built from the AI-handle scrape instead. Cookies or bookmarks.graphql_query_id may need refreshing. | source-quality
 ## [2026-08-14] dedupe | Removed wiki/ai-industry/2026-08-14-deepseek-harness-v01-cache-repricing.md in favour of the parallel job's better-sourced wiki/inference-efficiency/2026-08-14-deepseek-harness-kv-cache-economics.md; repointed inbound links. | lint
+## [2026-08-14] ingest | Ken Huang: Harness Engineering as a design-pattern language | gmail-starred + rss (agentic-ai)
+## [2026-08-14] concept | hardware/compute-economics.md created (Nebius auction +15%, neolabs squeeze, CUDA fungibility to 9-year financeable fleet life) | concept
+## [2026-08-14] concept | agent-memory.md updated with LycheeMemory V2 consolidation-granularity lever; attention-mechanisms.md updated with hybrid massive-activation morphology and the full-bandwidth vertical channel | concept
+## [2026-08-14] synthesis | daily digest wiki/daily-digest/2026-08/2026-08-14.md written (10 Deep Dives, 23 Industry Pulse bullets, 3 Global View threads, 6 Looking Ahead) | digest
+## [2026-08-14] synthesis | social-stream morning slot wiki/social-stream/2026-08/2026-08-14-morning.md | social
+## [2026-08-14] synthesis | Media Zone wiki/media-zone/2026-08/2026-08-14.md (bookmarks empty, built from general scrape + YouTube pile) | media-zone
+## [2026-08-14] dedupe | Merged duplicate DarwinX pages: removed 2026-08-14-darwinx-harness-population-selection.md, folded its 08-13 Looking-Ahead resolution thread into 2026-08-14-darwinx-harness-population-evolution.md | lint
+## [2026-08-14] lint | Merged duplicate 2026-08-14 sections in agent-harness-engineering.md written by parallel jobs into one | lint
