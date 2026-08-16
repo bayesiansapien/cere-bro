@@ -1,0 +1,913 @@
+{
+  "date": "2026-08-15",
+  "slot": "evening",
+  "scraped_ist": "2026-08-15 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Auto mode is rolling out today as the default permission mode in Claude Code for Pro, Max, and Team. If you've already set a default mode, Claude will ask before changing anything. You can still switch modes any time with Shift+Tab, or pin one with \"defaultMode\" in settings. ClaudeDevs (@ClaudeDevs) Starting August 14, auto mode will be the default permission mode in Claude Code for Pro, Max, and Team users. Auto mode reviews shell commands and actions with a separate classifier. In testing, it caught 89% of dangerous commands. Manual approval caught 14%. — https://nitter.net/ClaudeDevs/status",
+          "link": "https://nitter.net/ClaudeDevs/status/2088332927189049738#m",
+          "date_utc": "2026-08-14T18:32:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "To configure auto mode for your environment, run /auto-mode-setup. Claude looks through your repo and suggests trusted repos and domains for you to review. The more the classifier knows about your setup, the clearer the line on what's safe to run. code.claude.com/docs/en/auto… Link Configure auto mode - Claude Code Docs Tell the auto mode classifier which repos, buckets, and domains your organization trusts. Set environment context, override the default block and allow rules, and inspect your effective config with... code.claude.com",
+          "link": "https://nitter.net/ClaudeDevs/status/2088332928514420830#m",
+          "date_utc": "2026-08-14T18:32:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2085674399416410112%2FwH-DB8pq%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://code.claude.com/docs/en/auto-mode-config#configure-auto-mode",
+              "content": "Configure auto mode - Claude Code Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Claude Code Docs home page English Search... ⌘ K Ask Assistant Claude Developer Platform Claude Code on the Web Claude Code on the Web Search... Navigation Setup and access Configure auto mode Getting started Build with Claude Code Administration Configuration Reference Agent SDK What&#x27;s New Resources Setup and access Administration overview Advanced setup Authentication Server-managed settings Managed MCP configuration Auto mode Deployment Overview Feature availability Amazon Bedrock Claude Platform on AWS Google Cloud&#x27;s Agent Platform Microsoft Foundry Network configuratio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "While the Left pushes for more government control, Republicans will always stand for freedom. Communist governments concentrate power in the hands of the state.America was founded on putting power in the hands of the people. Communism has no place in the United States of America.",
+          "link": "https://nitter.net/HouseGOP/status/2088717494525546932#m",
+          "date_utc": "2026-08-15T20:00:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "This is what Democrats did to the World War II Memorial in DC. They’re spitting in the faces of the heroes who fought and died for our freedom. Disgusting.",
+          "link": "https://nitter.net/HouseGOP/status/2088434187468488771#m",
+          "date_utc": "2026-08-15T01:14:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPub03qXoAIt3Qy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JensenHuang",
+      "org": "NVIDIA",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JensenHuang",
+          "creator": "@JensenHuang",
+          "text": "NVIDIA interns. This is an incredible time to be in technology. Loved having you for the summer. Come back and do your life’s work at @NVIDIA . NVIDIA (@nvidia) This summer, NVIDIA interns brought their curiosity, creativity and energy to teams across the company - learning, building and helping shape what’s next. To our 2026 interns: thank you for spending your summer with us. 💚 Video — https://nitter.net/nvidia/status/2088346841469379033#m",
+          "link": "https://nitter.net/JensenHuang/status/2088350155758313875#m",
+          "date_utc": "2026-08-14T19:40:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088346794967109632%2Fimg%2Fy0SE84zGj8ckxVm9.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇨🇳 The longest war isn't being fought with Chinese weapons, it's being fought with American exhaustion. Director of Middle East Studies Joshua Landis explains how Beijing and Moscow are quietly winning by letting Washington bleed. \"China sees the Iran quagmire as the easiest way to weaken the United States... they're going to do what they can in order to prolong this confrontation and make sure that America is bled white.\" You don't have to fire a single shot if your enemy is doing the damage for you. @joshua_landis Video Mario Nawfal (@MarioNawfal) 🇺🇸 🇮🇷 The decision to bomb Iran was made n",
+          "link": "https://nitter.net/MarioNawfal/status/2088718620515852373#m",
+          "date_utc": "2026-08-15T20:05:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088716903875555328%2Fimg%2FMAn4vuCJsGzznnV4.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088713078716448768%2Fimg%2FOdCYgqiEVlCcxiFh.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇵🇸🇮🇱 Settler pressure in Qusra has been building for months, with Palestinian families reporting shootings, stone throwing, “death to Arabs” graffiti, and attempts to force them out. One man says a settler killed his nephew, and at least two families have already fled. UN data shows more than 2,200 Palestinians displaced by settler violence and access restrictions in 2026. The U.S. is pressing Netanyahu to condemn the latest siege of homes, while rights groups accuse the Israeli government of giving settlers wide latitude as settlement expansion continues. Security forces come and go. Statemen",
+          "link": "https://nitter.net/MarioNawfal/status/2088717362157822260#m",
+          "date_utc": "2026-08-15T20:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPyVPdhaIAEz0-c.jpg",
+            "https://nitter.net/pic/media%2FHPyVPdUasAA3UIo.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 🇮🇷 The decision to bomb Iran was made not this year, but back in 2015. Director of Middle East Studies Joshua Landis traces the logic straight to a Netanyahu back-channel with Trump. \"For Iran to become wealthy by being able to export its oil and having sanctions lifted would be a greater danger to Israel than to scrap the deal and to keep it under sanctions.\" Embarrassment is just the surface. The architecture of this war was built a decade ago. @joshua_landis Video Mario Nawfal (@MarioNawfal) 🇺🇲🇮🇷 Is Trump staying in this war because he thinks he can win it, or because he can't stand to l",
+          "link": "https://nitter.net/MarioNawfal/status/2088716103669469504#m",
+          "date_utc": "2026-08-15T19:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088713078716448768%2Fimg%2FOdCYgqiEVlCcxiFh.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088698499470876672%2Fimg%2FdBifDuk1-85TaocN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇳🇬 Patriotic Liberation Front (FPL) rebels blasted Nigerian army positions in Séguédine, and the desert is on fire this morning. The assault hit the northeast as group leader Mahmoud Salah called for mobilization to topple General Tiani, restore democracy, and free ousted President Mohamed Bazoum. After years of lower activity, the FPL is back on the offensive, and the border just got a lot hotter. The Sahel may be staring at another full escalation. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2088714845432492063#m",
+          "date_utc": "2026-08-15T19:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2080819871697313792%2Fimg%2FJIw5TtneGivnOOoX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇾🇪🇸🇦 Artillery is lighting up the Yemen frontlines once more. Saudi-backed government troops are hitting Houthi positions hard in places like Taiz, Marib, and al Dhalea after the Houthis launched missile and drone strikes on government camps that killed dozens of soldiers earlier this month. The long pause has broken recently, and it seems it’s not slowing down. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2088712972181062143#m",
+          "date_utc": "2026-08-15T19:42:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088704487640756224%2Fimg%2F6wWscTdv87ca-t7y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇧🇷🇺🇸 Lula is delaying Trump’s new ambassador until after Brazil’s election and warning Washington to stay out. He wants to speak directly with Trump about non interference. Flávio Bolsonaro is Lula’s main right wing challenger. Across Latin America, Argentina, Chile, Ecuador, Bolivia, Colombia, and Peru have all shifted right in recent years. Brazil remains a major left wing holdout, making Lula’s move a defensive play as the region shifts right. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2088712328854290815#m",
+          "date_utc": "2026-08-15T19:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088672146570485760%2Fimg%2FQIu8yG81Mqc3ET09.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump says he will control the Strait of Hormuz, but that word \"will\" says everything about who actually holds it right now. Military & Political Analyst Elijah Magnier says it plainly: \"Without the coordination with Iran, no ships will cross.\" Emirati tankers are getting hit back to back, only 4 to 5 million of 20 million barrels are moving, and CENTCOM already told commanders this strategy is going nowhere. @ejmalrai Video Mario Nawfal (@MarioNawfal) 🇮🇷🇮🇱 The retaliation is already decided. The only question is when it hurts most. Military & Political Analyst Elijah Magnier lays out the I",
+          "link": "https://nitter.net/MarioNawfal/status/2088711201366897027#m",
+          "date_utc": "2026-08-15T19:35:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088711069112123392%2Fimg%2FbdFoWV2ExObIA80O.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088706303858544640%2Fimg%2FuPufHzAJCUz-N6PR.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Former Arizona Sen. Kyrsten Sinema admitted under oath to an affair with her married security guard. Sinema says it started around Memorial Day 2024 at an Airbnb in Napa. From there, the two hooked up again in New York, Washington, Aspen and Phoenix. And yes, she knew Matthew Ammel was married and had three kids. His ex-wife, Heather Ammel, says she found out after seeing messages between them. One had Sinema telling him she missed waking up and reaching over for his arms. Now Heather is suing Sinema, saying the affair helped wreck their 14-year marriage. Sinema wants the case thrown out, a",
+          "link": "https://nitter.net/MarioNawfal/status/2088709812133511240#m",
+          "date_utc": "2026-08-15T19:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPyD3vpaoAArSwB.jpg",
+            "https://nitter.net/pic/media%2FHPyD4S0agAADhw_.jpg",
+            "https://nitter.net/pic/media%2FHPyD4stbcAAascQ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇮🇱 The retaliation is already decided. The only question is when it hurts most. Military & Political Analyst Elijah Magnier lays out the Iranian calculation in cold detail. \"The Iranians will effectively intervene unwittingly in both elections with the Americans and with the Israelis, to make sure that Trump is going to lose, while the Republicans will lose the midterms and that Benjamin Netanyahu will not be reelected.\" Tehran is not rushing anything. It's just watching the calendar. @ejmalrai Video Mario Nawfal (@MarioNawfal) 🇮🇷🇶🇦 One chokepoint could erase 15 million barrels of oil per da",
+          "link": "https://nitter.net/MarioNawfal/status/2088708553792172270#m",
+          "date_utc": "2026-08-15T19:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088706303858544640%2Fimg%2FuPufHzAJCUz-N6PR.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088705628978163713%2Fimg%2FQgLba_sapQ0dwWVz.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 State Department is hammering birth tourism hard. Hundreds of visas have already been yanked from foreigners who traveled to the U.S. mainly to deliver babies and lock in citizenship for their kids. Organized rings coaching people, arranging housing, even faking papers, the task force is shutting that pipeline down. These operations have been running strong for at least 15 to 20 years. Another batch has gone in the last few days, and the numbers keep climbing. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2088707295794401412#m",
+          "date_utc": "2026-08-15T19:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088636681888919553%2Fimg%2FI3ZssQNyheSOuSEp.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇶🇦 One chokepoint could erase 15 million barrels of oil per day and over 20% of the world's gas supply simultaneously. Military & Political Analyst Elijah Magnier just laid it all out. \"Iran is not looking for concessions. Iran is imposing conditions, which is a big difference.\" The Strait of Hormuz is more than just a bargaining chip. It's a loaded gun pointed at the global economy. @ejmalrai Video Mario Nawfal (@MarioNawfal) 🇺🇲🇮🇷 Is the U.S.-Iran war actually over, or just paused until the numbers stop working? That's the question hanging over the next 48 hours, according to analyst Elijah",
+          "link": "https://nitter.net/MarioNawfal/status/2088705869118877996#m",
+          "date_utc": "2026-08-15T19:14:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088705628978163713%2Fimg%2FQgLba_sapQ0dwWVz.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088685553122529280%2Fimg%2F-rhCur0ZJTMmBeJK.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇴 Colombia’s army wiped out a major ELN cocaine lab in Cauca. Troops hit a processing site in Mercaderes and pulled out 1,836 kilos of cocaine along with the chemicals and gear used to make it. President de la Espriella called it another blow against the illegal money that keeps the violence running. This comes right as the new government locks in closer cooperation with the U.S., including planned security assistance and joint operations against the groups that live off the drug trade. One more lab down, no more negotiating with cartels. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2088705282406838364#m",
+          "date_utc": "2026-08-15T19:12:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088661975492415488%2Fimg%2F33Upn_SUFNJS8ZPB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇩🇪🇺🇦 Germany just told its citizens in Ukraine to stay off the trains. The embassy in Kyiv flagged a higher risk of Russian strikes on transport hubs and energy sites heading into Independence Day on August 24. That date always makes Ukraine nervous. Big national holidays have a habit of drawing Russian missiles. Rail is the warning here because it's how most people move around the country, and the network's been a repeat target all war. Source: German Embassy in Kyiv / Writer: Daniyal",
+          "link": "https://nitter.net/MarioNawfal/status/2088704779006443722#m",
+          "date_utc": "2026-08-15T19:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxWgbVaEAA3XUw.jpg",
+            "https://nitter.net/pic/media%2FHPxWgbebgAAWh2i.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Immigration really is enriching the culture of Europe, isn't it Writers: Mhedi, Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2088702263757873605#m",
+          "date_utc": "2026-08-15T19:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2028171302859616256%2Fimg%2FWp8zAuQqkvxyNJx-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱 Israeli National Security Minister Itamar Ben-Gvir enjoys the idea of SUFFERING security prisoners held in Israeli facilities. “They suffer. It’s hard for them. It’s bad for them. I’m happy that it’s bad for them. And yes, they receive the minimum of the minimum of the minimum of the minimum. But you’re righ. In the end, it’s only the death penalty.” Writer: Oliver Video Mario Nawfal (@MarioNawfal) 🇮🇱 Israeli National Security Minister Itamar Ben-Gvir is calling for systematic nightly “targeted eliminations” in Gaza \"I think targeted eliminations should be carried out in Gaza every night. T",
+          "link": "https://nitter.net/MarioNawfal/status/2088701682259800211#m",
+          "date_utc": "2026-08-15T18:57:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088688638615830528%2Fimg%2F6GaXKlhLmX1eoBRR.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088689340981342208%2Fimg%2FcsgqGb8h6O7eE243.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 Iran just put up another billboard threatening U.S. forces in Tehran. The massive display shows the skeleton of a U.S. soldier lying on the rocky shore of the Strait of Hormuz, while an Iranian ship sails through the water behind him. And this isn’t some random spot. It’s sitting right over Revolution Square, where Iran has already displayed billboards showing Trump in a coffin and another depicting him being strangled. The message comes as tensions are heating up again, with the monthlong U.S.-Iran ceasefire reportedly set to expire Monday and no agreement yet to extend it. Iranian officia",
+          "link": "https://nitter.net/MarioNawfal/status/2088700249179128072#m",
+          "date_utc": "2026-08-15T18:52:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPyKZw7a4AA_jDj.jpg",
+            "https://nitter.net/pic/media%2FHPyKZw7b0AExiFg.jpg",
+            "https://nitter.net/pic/media%2FHPyKZw5bEAAany9.jpg",
+            "https://nitter.net/pic/media%2FHPyKZxEbQAAgnbS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱 Israeli National Security Minister Itamar Ben-Gvir: “Inshallah, as quickly as possible we will enter all of Gaza, settle all of Gaza, and demographic emigration.” Using Arabic for “God willing” while stating the goal of permanent settlement and demographic replacement. The extremist vision for Gaza, stated plainly. Writer: Oliver Video Mario Nawfal (@MarioNawfal) 🇮🇱 Ben-Gvir just admitted the secret to Middle East politics: pure, uncut INSANITY “They say, 'This guy is crazy.' Yes, you have to be insane in the Middle East. We are in the Middle East.” The last thing the Middle East needs are ",
+          "link": "https://nitter.net/MarioNawfal/status/2088700162101403891#m",
+          "date_utc": "2026-08-15T18:51:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088693399188656128%2Fimg%2FICZvmkXKIJTwhVEf.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088691050617458688%2Fimg%2Fhyq_KISO2wAY7bwS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump shared a podcast featuring fmr trade adviser and China hawk Peter Navarro, connecting the dots on China’s quiet push into America and a justice system shaped by political favoritism. Navarro and John Solomon (reporter) break down a decade-long marriage-fraud ring that arranged more than a thousand sham weddings so Chinese nationals could get green cards, some paying up to $100,000 each while U.S. citizens got paid to play along. The DOJ charged 11 people in that exact scheme days ago. They also dig into how government agencies were used as weapons against Trump allies, plus the push f",
+          "link": "https://nitter.net/MarioNawfal/status/2088699745908973870#m",
+          "date_utc": "2026-08-15T18:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxTqCcbgAAUGQ1.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ProfTomYeh",
+          "creator": "@ProfTomYeh",
+          "text": "Self-Attention by hand ✍️ interactive diagram. Open byhand.ai/self-attention Here's some T/F questions to test your knowledge: [ ] X's width is the sequence length [ ] Q, K and V must all have the same number of rows [ ] A grows quadratically as the key dimension grows [ ] A grows quadratically as Q's width grows [ ] V's width is the same as X's width Check your answers by dragging the diagram. ~ Prof. Tom Yeh Answers: T, F, F, T, T Video",
+          "link": "https://nitter.net/ProfTomYeh/status/2088647922208387322#m",
+          "date_utc": "2026-08-15T15:24:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2088647911370276864%2Fpu%2Fimg%2FsD-U4PB3U9Ep8u9J.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://byhand.ai/self-attention",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“We are unlocking human brain cells for compute.” Sean Cole (@vytalow) Introducing Parasma. Previously, we trained human brain cells to play Doom. Now, we trained them to predict words in a sentence. We are unlocking human brain cells for compute. Learn more here: parasma.com/news/human-brain… @ParasmaAI Link Human brain cells do next-token prediction | Parasma Parasma launches to train brain cells for compute parasma.com — https://nitter.net/vytalow/status/2087980922805350786#m",
+          "link": "https://nitter.net/Scobleizer/status/2088667223649116644#m",
+          "date_utc": "2026-08-15T16:40:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087968828466851840%2FSLuU-jnW%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://parasma.com/news/human-brain-cells-do-next-token-prediction",
+              "content": "Human brain cells do next-token prediction | Parasma We&#x27;re now backed by Y Combinator. Read the note â Research R News N About A â News News 13 Aug 2026 Human brain cells do next-token prediction Parasma launches to train brain cells for compute SAN FRANCISCO â August 13, 2026 â Parasma today announced its public launch. The company is developing the algorithms and infrastructure for compute powered by human brain cells as an energy efficient alternative to GPUs. The work behind Parasma first entered public view earlier this year. In a project unveiled in late February, founder Sean Cole collaborated with Cortical Labs to train a culture of human neurons to play Doom . Token prediction The architecture converts context words into electrical stimulation delivered to the cells. "
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "If VR stays a niche for at least next two years, which I believe will be the case until AI can really generate mind-blowing content for VR, then raising funding from the few customers is smart. This niche has millions of headset owners. Biggs (@Biggsism) This is my favorite team in VR. I've been in the industry for this long by staying consistent in saying exactly what I see from my perspective, for better or worse... Crowdfunded investment right as AI undercuts your top skillset of modding games into VR is certainly a strategy to take. Sometimes the best answer is to scale down when the moat ",
+          "link": "https://nitter.net/Scobleizer/status/2088546370663878685#m",
+          "date_utc": "2026-08-15T08:40:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "An avalanche happens after trillions of snowflakes fall. Here is another. Dan (@Daniel_Farinax) Some people are wondering how I gave @bot access to an entire MacOS device and have same access as humans. Simple: the VM it runs on can run pretty much anything. You just install a remote desktop app, then tell the bot to treat that new remote environment as its workspace and forget about the small sandbox it was using before. You are welcome, this will get very wild. — https://nitter.net/Daniel_Farinax/status/2088483401074344181#m",
+          "link": "https://nitter.net/Scobleizer/status/2088543486375244001#m",
+          "date_utc": "2026-08-15T08:29:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPvHlkAXoAAlj0F.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "A machine is watching you that you can’t even see. :-) Joe Morrison (@mouthofmorrison) Everyone else in 2008: this year is a HUGE milestone...we're launching 50cm resolution optical satellites and they'll be UNCLASSIFIED! Germany: We have captured ze Space Station with our synthetic aperture radar… just for ze fun of it commons.wikimedia.org/wiki/F… — https://nitter.net/mouthofmorrison/status/2088277663299285065#m",
+          "link": "https://nitter.net/Scobleizer/status/2088541075791302736#m",
+          "date_utc": "2026-08-15T08:19:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPsNFQDXAAAnPDL.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:ISS_viewed_by_TerraSAR-X.jpg",
+              "content": "File:ISS viewed by TerraSAR-X.jpg - Wikimedia Commons Jump to content Main menu Main menu move to sidebar hide Navigate Main page Welcome Community portal Village pump Help center Participate Upload file Recent changes Latest files Random file Contact us Special pages Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 File 2 Summary 3 Licensing 4 File history 5 File usage on Commons 6 Metadata Toggle the table of contents File : ISS viewed by TerraSAR-X.jpg File Discussion English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Permanent link Page information Cite this page Get shortened URL Concept URI Print/export "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "tinygrad + Qwen3.8-27B + pi made this when asked to advertise itself",
+          "link": "https://nitter.net/__tinygrad__/status/2088511307037438353#m",
+          "date_utc": "2026-08-15T06:21:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPvh9j8a4AAY5YQ.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cleoabram",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cleoabram",
+          "creator": "@cleoabram",
+          "text": "Looked out a plane window and wondered…what if I could just bounce on a fluffy cloud? Video",
+          "link": "https://nitter.net/cleoabram/status/2088721372126306612#m",
+          "date_utc": "2026-08-15T20:15:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088653809841250304%2Fimg%2FpIA7TL7-Do0MK1sS.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "If you can think of it, Omarchy can make it happen. The infinitely malleable computer is finally here! Jankees (@jankeesvw) And kaboom! There is another custom Omarchy menu bar item. This is Google calendar, so easy. it has week and day view. Took me five minutes. — https://nitter.net/jankeesvw/status/2088565328678670338#m",
+          "link": "https://nitter.net/dhh/status/2088728148854604027#m",
+          "date_utc": "2026-08-15T20:42:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPwShPvWAAAyn71.jpg",
+            "https://nitter.net/pic/media%2FHPwSjYEXEAASM6H.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Exponential growth of Omarchy Quattro plugins! We went from 25- 50- 100 and now 200(!!) community plugins over the last four days. By this rate, there'll be a million in two weeks! 📈😜 omarchyplugins.com/",
+          "link": "https://nitter.net/dhh/status/2088723130961314083#m",
+          "date_utc": "2026-08-15T20:22:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPying8WEAIYwGU.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://omarchyplugins.com/",
+              "content": "Browse Plugins | Omarchy Plugins Skip to plugin catalog PLUGIN MARKETPLACE Support ↗ Browse plugins Develop a plugin Contribute a plugin Publish a plugin → Community registry discover omarchy plugins Browse community-built plugins for Omarchy Quattro . Inspect the source, copy the command, and shape your shell around the way you work. Browse plugins → Develop a plugin → Publish a plugin → RAY 04/06 RECENTLY ADDED view all → Registry browse all plugins 0 community plugins × Search plugins Ctrl K Sort plugins Recently added Recent activity Most starred A–Z Source Filter Reset No plugins found Try another search or clear the active filters. Clear filters ← Previous First page Page 1 / 1 Next → Last page Browse all plugins ↓ Showing all plugins Show 9 per page ↑ HANCORE ↗ OMARCHY PLUGIN MARKET"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "One million views on the Omarchy Quattro launch video in just a day! X really is an incredible platform for distribution 🤘 DHH (@dhh) Omarchy Quattro is out!! This is one of the greatest software releases in my professional career. I hope you enjoy using it just as much as I did building it ✌️ omarchy.org/ Video — https://nitter.net/dhh/status/2088304854603047019#m",
+          "link": "https://nitter.net/dhh/status/2088721924029346287#m",
+          "date_utc": "2026-08-15T20:18:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088304205198970880%2Fimg%2F9Z8UkISj2rt9xnzd.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://omarchy.org/",
+              "content": "Omarchy — Beautiful, Modern Opinionated Linux by DHH Omarchy Quattro has been released! ▄▄▄ ▄█████▄ ▄███████████▄ ▄███████ ▄███████ ▄███████ ▄█ █▄ ▄█ █▄ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ █▀ ███ ███ ███ ███ ███ ███ ███ ███ ███ ▄███▄▄▄███ ▄███▄▄▄██▀ ███ ▄███▄▄▄███▄ ███▄▄▄███ ███ ███ ███ ███ ███ ▀███▀▀▀███ ▀███▀▀▀▀ ███ ▀▀███▀▀▀███ ▀▀▀▀▀▀███ ███ ███ ███ ███ ███ ███ ███ ██████████ ███ █▄ ███ ███ ▄██ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ▀█████▀ ▀█ ███ █▀ ███ █▀ ███ ███ ███████▀ ███ █▀ ▀█████▀ ███ █▀ Beautiful, Modern Opinionated Linux by DHH Manual ISO GitHub Discord Workstations Merch Brought to you by 37signals Sponsored hosting by"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "DeepSeek Pro V4 Max just completed the challenge too! It took much longer, at 2:30h, but the total token spend was just $23! This is compared to ~$550 for Fable (45m), $55 for Grok 4.6 (1.5h), $43 for GPT Sol (?). Failed to complete: DSV4 Flash and GPT Luna. DHH (@dhh) Fable one-shotted a Rust rewrite of the TerminalTextEffects Python library in 11M tokens. Startup time went from 87ms to 2ms and rendering speed is up by 9.6x. Now zero dependencies and a 3mb single exec 🤯 claude.ai/code/artifact/2878… Link ttfx — all 37 effects All 37 ttfx effects animating the full Omarchy ASCII logo, rendered",
+          "link": "https://nitter.net/dhh/status/2088657836586807687#m",
+          "date_utc": "2026-08-15T16:03:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2084488721068408832%2F9tLGCWUs%3Fformat%3Dpng%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.ai/code/artifact/287825bc-7aad-4541-a7e7-fa4ba8d03612",
+              "content": "Claude Artifact &#xE017; Content is user-generated and unverified."
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Again, remember, all these implementations are running off the plan that Fable wrote. github.com/omacom-io/ttfx/bl… Link ttfx/plan.md at master · omacom-io/ttfx Terminal text effects as a single static binary — a parity-exact Rust port of terminaltexteffects - omacom-io/ttfx github.com",
+          "link": "https://nitter.net/dhh/status/2088657996968583443#m",
+          "date_utc": "2026-08-15T16:04:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086818041367502848%2FDRe5fogX%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/omacom-io/ttfx/blob/master/plan.md",
+              "content": "ttfx/plan.md at master · omacom-io/ttfx · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Moderniza"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ellev3n11",
+      "org": "Cursor",
+      "focus": [
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "Compute is the bottleneck Jonas Nelle (@jonas_nelle) People don’t understand how much compute the world will need — https://nitter.net/jonas_nelle/status/2088314314587517375#m",
+          "link": "https://nitter.net/ellev3n11/status/2088450934364049842#m",
+          "date_utc": "2026-08-15T02:21:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ellev3n11",
+          "creator": "@ellev3n11",
+          "text": "would be cool to visit mars sometime Cursor (@cursor_ai) Cursor is now part of @SpaceX . Today, we have officially closed our acquisition. We will join the @SpaceXAI team to help make Grok the world's most useful AI and improve Grok Build, Grok Bot, Grok API, Cursor, and more. SpaceX has built some of the most inspiring and impressive technology in the world, and we’re grateful for the opportunity to become part of such a special company. Onwards. — https://nitter.net/cursor_ai/status/2088249881718919393#m",
+          "link": "https://nitter.net/ellev3n11/status/2088322425012584609#m",
+          "date_utc": "2026-08-14T17:50:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "It was me. I drank Laurnold Palmer. Not a paid promotion. In fact @sportdrink pays me to NOT promote their product. Given the high quality nature of my work like the attached image, I can’t imagine why. But regardless, I won’t be receiving my quarterly “please stop posting about us” stipend this time around I guess. I do it all for the love of the game.",
+          "link": "https://nitter.net/heavypulp/status/2088708007773323568#m",
+          "date_utc": "2026-08-15T19:22:50+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPyU3FdXsAAGs8I.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Remember: There is no fun allowed on the internet. You must take everything very seriously all the time and allow the screen to control you. What you see outside your window is a mere illusion and has no bearing on your life. The truth lies here, inside the Internet. This place that can fully disappear in an instant if the wrong series of AWS outages take place. That is your true home.",
+          "link": "https://nitter.net/heavypulp/status/2088702153913458784#m",
+          "date_utc": "2026-08-15T18:59:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2088670865156125008#m",
+          "date_utc": "2026-08-15T16:55:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxzFL0WMAAhh5c.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Image",
+          "link": "https://nitter.net/heavypulp/status/2088670805722878203#m",
+          "date_utc": "2026-08-15T16:55:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxzBzJWIAAE3UX.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "\"The queen of diamonds let you down, she was just an empty fable The queen of hearts you say you never met Your twisted fate has found you out and it's finally turned the tables Stole your dreams and paid you with regret\"",
+          "link": "https://nitter.net/heavypulp/status/2088670670402040081#m",
+          "date_utc": "2026-08-15T16:54:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxy5vKWMAAef1l.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "imagine",
+      "org": "xAI",
+      "focus": [
+        "Grok",
+        "image generation",
+        "xAI"
+      ],
+      "tweets": [
+        {
+          "handle": "imagine",
+          "creator": "@imagine",
+          "text": "Never miss a photo op again with Imagine Video",
+          "link": "https://nitter.net/imagine/status/2088420027447808252#m",
+          "date_utc": "2026-08-15T00:18:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2069451474073989121%2Fimg%2FH8z5DJl97BF31Puh.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "magicsilicon",
+      "org": "Independent",
+      "focus": [
+        "semiconductors",
+        "chip architecture",
+        "AI hardware"
+      ],
+      "tweets": [
+        {
+          "handle": "magicsilicon",
+          "creator": "@magicsilicon",
+          "text": "The 8088 architecture (8-bit with 16-bit internals) that powered the first IBM PC - and provided the basis for all subsequent PCs - 45 years ago this month.",
+          "link": "https://nitter.net/magicsilicon/status/2088381170186956815#m",
+          "date_utc": "2026-08-14T21:44:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPtmRkEaUAAWXlO.jpg",
+            "https://nitter.net/pic/media%2FHPtmg0AasAAVgtw.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattshumer_",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "Teaching Grok Bot to build games in Unity. Updates soon! Matt Shumer (@mattshumer_) Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video — https://nitter.net/mattshumer_/status/2088303001299529981#m",
+          "link": "https://nitter.net/mattshumer_/status/2088666207108948281#m",
+          "date_utc": "2026-08-15T16:36:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxu1VUWMAAiUB1.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088302961239752704%2Fimg%2F1JOlqsXlp8NaAh-W.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "It’s still going! Should I let it run for another day? Guide to Gauntlet Looping: somethingbig.ai/gauntlet-loo… Matt Shumer (@mattshumer_) Grok 4.6 worked non-stop for 48 hours to build this shooter. Turns out Grok is powerful enough to run Gauntlet Loops. Let the game-making begin! Video — https://nitter.net/mattshumer_/status/2088303001299529981#m",
+          "link": "https://nitter.net/mattshumer_/status/2088643473402413059#m",
+          "date_utc": "2026-08-15T15:06:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPxaKzCXsAAmRpN.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2088302961239752704%2Fimg%2F1JOlqsXlp8NaAh-W.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://somethingbig.ai/gauntlet-loop",
+              "content": "How to Run a Gauntlet Loop: The Prompting Method Behind Claude of Duty Something Big Is Happening . Advertise Subscribe All writing How-to Method Agents How to Run a Gauntlet Loop The prompting method behind Claude of Duty. Give the agent a bar it can t talk its way around, let it split the work, and never let the builder grade itself. Matt Shumer Jul 27, 2026 8 min read @mattshumer_ Get the next one before everyone else. Every new AI reviewed and every method I actually use, in plain English. Free, once a week. Subscribe A few days ago, I posted a Call of Duty-style game built by Claude Opus 5 from a single prompt. To be precise, I gave Claude Code one prompt , then left it alone. It spent many hours working, spawned a massive fleet of subagents, wrote roughly 55,000 lines of code, and ge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Socialism is sedition.",
+          "link": "https://nitter.net/spencerpratt/status/2088685200805085190#m",
+          "date_utc": "2026-08-15T17:52:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Communism is a religion of bitter malcontents. We have to destroy this mind virus, or we will be destroyed by it. Couldn’t be more clear. New York Post (@nypost) Luigi Mangione supporter calls murder of CEO a 'revolutionary act of protest' Video — https://nitter.net/nypost/status/2088321397424541794#m",
+          "link": "https://nitter.net/spencerpratt/status/2088675375433818217#m",
+          "date_utc": "2026-08-15T17:13:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2088321285667389441%2Fpu%2Fimg%2F8lxAtqoW4o7j9DSj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Abdul El-Sayed ran a \"slaughterhouse\" that killed 4,000+ kittens and dogs. Sounds familiar, LA? This is just what communists do. I don’t trust ANYONE who hates dogs. #1 tell of a psychopath is abusing animals. Video",
+          "link": "https://nitter.net/spencerpratt/status/2088668075440652759#m",
+          "date_utc": "2026-08-15T16:44:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088287246906474496%2Fimg%2FbBGD_g-MZ0_YsOTT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "These “protestors” are being paid by Gavin Newsom because he knows who the machine favors for the nomination... Video",
+          "link": "https://nitter.net/spencerpratt/status/2088664416417906748#m",
+          "date_utc": "2026-08-15T16:29:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088406841978171392%2Fimg%2F1RQCdGo3kujXnDHf.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Only 0.5% of homes destroyed in the Palisades Fire have been rebuilt, 19 months later. 80% of homes still don’t even have a permit to begin rebuilding. California Post (@californiapost) The Pacific Palisades are slowly recovering after the devastating Palisades Fire 18 months ago, but California Post Opinion Editor @joelpollak explains how local government is getting in the way of the rebuilding efforts. trib.al/RSRSZZF?utm_source=t… Video — https://nitter.net/californiapost/status/2088415495204827591#m",
+          "link": "https://nitter.net/spencerpratt/status/2088628520268259655#m",
+          "date_utc": "2026-08-15T14:06:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2088415440175611904%2Fpu%2Fimg%2FNyfgECfjG1fY95rw.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://trib.al/RSRSZZF?utm_source=twitter&utm_medium=social&utm_campaign=capost",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "If you’re stealing a car, it’s ok because you need a place to live. If you’re robbing a bodega, it’s ok because you need money. You’re watching your country commit suicide in realtime. Video",
+          "link": "https://nitter.net/spencerpratt/status/2088564397610324313#m",
+          "date_utc": "2026-08-15T09:52:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088298221848186880%2Fimg%2F_OJDrkBA5WWKJ2he.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "🤔 Stocktwits (@Stocktwits) Every investor’s biggest weakness 😅 — https://nitter.net/Stocktwits/status/2088277891918237712#m",
+          "link": "https://nitter.net/stepango/status/2088388205137825949#m",
+          "date_utc": "2026-08-14T22:12:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPsNmUPXYAAtnri.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "FSD is underrated 🤌",
+          "link": "https://nitter.net/stepango/status/2088346258704617851#m",
+          "date_utc": "2026-08-14T19:25:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPtL2txbEAApGWY.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
