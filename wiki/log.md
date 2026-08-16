@@ -1401,3 +1401,27 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-08-16] synthesis | daily digest wiki/daily-digest/2026-08/2026-08-16.md written (8 Deep Dives, 17 Industry Pulse bullets incl. funding sub-cluster, 3 Global View threads, 6 Looking Ahead) | digest
 ## [2026-08-16] synthesis | social-stream morning slot wiki/social-stream/2026-08/2026-08-16-morning.md | social
 ## [2026-08-16] synthesis | Media Zone wiki/media-zone/2026-08/2026-08-16.md (bookmarks empty, built from general scrape) | media-zone
+
+## [2026-08-16] farm | HuggingFace 15 net-new papers (HF has not published an 08-15 or 08-16 daily page; delta farmed off the 08-14 page) | huggingface
+## [2026-08-16] farm | RSS 27 files across 08-14 to 08-16 (The Decoder, The Information, Interconnects, Ahead of AI, TLDR AI, Simon Willison, HF blog, Pragmatic Engineer) | rss
+## [2026-08-16] ingest | AutoPrune: an AI4AI framework for visual token pruning (2608.07193) | huggingface
+## [2026-08-16] ingest | Maglev: sliding recurrent memory (2608.02870) | huggingface
+## [2026-08-16] ingest | Gambit: thought-level beam search for reasoning (2608.08020) | huggingface
+## [2026-08-16] ingest | CaRL: knowing when to quit, aborting futile reasoning (2607.29211) | huggingface
+## [2026-08-16] ingest | Teacher-student alignment cluster: HPSE, CMD, REOPD, ReOrder-OPD | huggingface + kurate
+## [2026-08-16] ingest | SKILLER: language-level RL for reusable skills in small models (2608.10538) | huggingface
+## [2026-08-16] ingest | Specification-first convergence, 717k-line refactor, $2,430 (2608.12440) | huggingface
+## [2026-08-16] ingest | Are You Sure You're Sure: instruction tuning, confidence, rationale diversity (2608.13430) | huggingface
+## [2026-08-16] ingest | GLM-5.3 and release latency as a training resource (Nathan Lambert) | rss (interconnects)
+## [2026-08-16] ingest | Optima: Artificial Analysis ships cost-and-time-per-task benchmarking | rss (the-decoder)
+## [2026-08-16] ingest | Measuring Autonomous AI Research: 153 runs, 18 models (Prime Intellect) | twitter
+## [2026-08-16] ingest | Hinting: self-distillation without a golden answer (Applied Compute, Denton) | youtube (backfill from 08-12)
+## [2026-08-16] ingest | The slow death of scaling, data inside the loop (Sara Hooker, Adaption) | youtube (backfill from 08-12)
+## [2026-08-16] concept | test-time-compute-allocation.md created; kv-cache.md, knowledge-distillation.md, agent-harness-engineering.md, llm-routing.md updated | concept
+## [2026-08-16] concept | knowledge-distillation.md gains the hinting entry: no-golden-answer self-distillation as a structural answer to Privileged-but-Biased, plus the cluster's first head-to-head | concept
+## [2026-08-16] concept | compute-economics.md updated: Nvidia vendor financing (guarantee moved $250B to under $120B in 48h, $3B into SB Energy), the 24x same-task dollar spread, the 34.5% tokenizer gap, and Optima shipping the cost-per-task instrument | concept
+## [2026-08-16] synthesis | daily digest wiki/daily-digest/2026-08/2026-08-16.md (8 Deep Dives, 17 Industry Pulse bullets incl. funding cluster, 3 Global View threads, 6 Looking Ahead) | digest
+## [2026-08-16] synthesis | social-stream morning slot wiki/social-stream/2026-08/2026-08-16-morning.md | social
+## [2026-08-16] synthesis | Media Zone wiki/media-zone/2026-08/2026-08-16.md (bookmarks empty both runs, Reddit empty 8th day, built from general scrape + two unread 08-12 talks) | media-zone
+## [2026-08-16] dedupe | Removed duplicate 2026-08-16-specification-first-convergence-717k-loc.md written in parallel; folded its harness-staleness-and-adaptive-stopping-rule argument into 2026-08-16-specification-first-convergence.md | lint
+## [2026-08-16] gap | Gmail starred empty, all 8 Reddit subs empty (8th consecutive day), bookmarks feed empty both runs, no HF/Kurate cross-source confirmation, Kurate tournament stale for a 5th week | gap
