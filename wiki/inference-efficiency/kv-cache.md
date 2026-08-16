@@ -2,7 +2,19 @@
 
 The KV cache (Key-Value cache) stores the key and value tensors from the attention mechanism for tokens already processed. This means those tokens don't need to be recomputed on every new generation step — critical for making autoregressive decoding fast.
 
-## Current State (as of 2026-08-14)
+## Current State (as of 2026-08-16)
+
+**Two results this week attack the cache from directions this page has almost no evidence on: the architecture that produces it, and the batch that competes for it.**
+
+[Maglev (08-16)](2026-08-16-maglev-sliding-recurrent-memory.md) changes the *shape* of what gets cached rather than the policy over it. Almost every method on this page is a policy applied to an existing growing cache: what to evict, what to quantize, what to share across heads or layers. Maglev bounds the cache by construction with a fixed-size recurrent memory that still updates every token through the model's full nonlinear depth. It trains two coupled models, a prefiller Q with full history that emits memory targets and a decoder P with only sliding-window attention plus recurrent K/V injection, aligns them with a memory consistency loss, and then **serves P alone**. It beats both sliding-window and latent recurrent transformer baselines on validation loss and downstream pretraining benchmarks, and parameter sharing between P and Q keeps most of the gain while cutting parameter memory. This is a pretraining-time change, so it is the slowest thing here to reach production, and it is the only one that removes the eviction decision entirely rather than making it smarter.
+
+[Gambit (08-16)](2026-08-16-gambit-thought-level-beam-search.md) introduces an eviction unit this page has never had: **the whole sequence**. In batched reasoning inference the binding constraint is not FLOPs but the KV cache held by N concurrent long traces, and Gambit kills weak traces to fund new branches off strong prefixes, keeping utilisation high while cutting total token consumption by up to 68.5% and more than doubling completion throughput. Every eviction policy on this page assumes one sequence and asks which tokens to drop; Gambit assumes many and asks which sequences to drop. Those compose and nobody has stacked them.
+
+*The economics below still stand, and Maglev complicates them in an interesting direction.* If a served model carries a bounded recurrent state rather than a growing prefix, then prefix stability, which DeepSeek's repricing just turned into a billing line, protects less value because there is less cached prefix to protect. Maglev does not discuss serving economics at all. The two results point at each other anyway.
+
+---
+
+## Prior State (as of 2026-08-14)
 
 **The cache stopped being an implementation detail and became a line item on a customer invoice.** [DeepSeek raised cache-hit token prices roughly six-fold (08-14)](2026-08-14-deepseek-harness-kv-cache-economics.md) while simultaneously open-sourcing Harness v0.1 under MIT, a harness whose central engineering commitment is **never altering previously written history**: when something in the conversation changes it appends a correction at the tail rather than editing the prefix, because editing invalidates every cached token after the edit point. DeepSeek raised the price of exactly the thing its own harness is engineered never to lose.
 
