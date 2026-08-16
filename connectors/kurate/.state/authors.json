@@ -15916,6 +15916,14 @@
         "arxiv_id": "2608.03531v1",
         "title": "Behaviorally Adaptive Visual Diversion for Inclusive and Resilient Digital Assessment Delivery",
         "ai_rating": 3.0
+      },
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W32",
@@ -19159,6 +19167,440 @@
         "rank": 10,
         "arxiv_id": "2608.09348v1",
         "title": "In-Context Density Estimation for Tabular Data",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Sanjeev Manivannan": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.13046v1",
+        "title": "BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Alison R. Panisson": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Maria Eduarda W. M. Vianna": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Italo Firmino da Silva": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Heitor Henrique da Silva": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Rafaela Fernandes Savaris": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Bernardo Pandolfi Costa": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Aimilios Hadjiliasi": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.13420v1",
+        "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Louis Nisiotis": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.13420v1",
+        "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Kaur Kamalpreet": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Dama Sri Ram": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Parani Prajithaa": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Sabin Roman": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.13504v1",
+        "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Ljupco Todorovski": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.13504v1",
+        "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Saso Dzeroski": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.13504v1",
+        "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Ziqi Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Jialin Lu": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Junjie Shan": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Junyuan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Shuya Yang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Ka-Ho Chow": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Jinhyung Bae": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.13087v1",
+        "title": "Sampling Luck Masquerades as Allocation Gain: Auditing Test-Time Budget Allocation for Neural Combinatorial Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Zixuan Lan": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.13426v1",
+        "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Yanhong Li": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.13426v1",
+        "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Jiawei Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.13426v1",
+        "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Tianyi Li": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.13524v1",
+        "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Yaxin Luo": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.13524v1",
+        "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Xinyi Shang": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.13524v1",
+        "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Zhiqiang Shen": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.13524v1",
+        "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Van Khoa Nguyen": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.13457v1",
+        "title": "Symmetry-Breaking De Novo Crystal Generation via Markovian Jump Diffusion",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W33",
+    "last_seen": "2026-W33"
+  },
+  "Alexandros Kalousis": {
+    "appearances": [
+      {
+        "week": "2026-W33",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.13457v1",
+        "title": "Symmetry-Breaking De Novo Crystal Generation via Markovian Jump Diffusion",
         "ai_rating": 6.5
       }
     ],
