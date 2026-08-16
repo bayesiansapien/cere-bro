@@ -1,0 +1,253 @@
+{
+  "date": "2026-08-16",
+  "slot": "afternoon",
+  "scraped_ist": "2026-08-16 13:36",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "The more time I spend looking at early stage companies the more deeply I realize what you’re working on doesn’t matter. Talent and and the drive of people does. @mntruell and @amanrsanger are 1/100 million kind of founders, someone for the rest of us to learn from. Ankit (@ankitkr0) you are 1 pivot away from being a billionaire — https://nitter.net/ankitkr0/status/2088550255872844119#m",
+          "link": "https://nitter.net/MillionInt/status/2088691518353637393#m",
+          "date_utc": "2026-08-15T18:17:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "_sholtodouglas",
+      "org": "Anthropic",
+      "focus": [
+        "reinforcement learning"
+      ],
+      "tweets": [
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "Will is right. It might just be the highest leverage time ever to be an artist. Will Bryk (@WilliamBryk) Calling all filmmakers/artists/idealists, if you want a say in the future, then step up right now. There is historic alpha in being the first person to depict an AI future that's exciting. We have enough essays, we need a visual depiction of a post-AGI world that's happy. No drama needed, no romance, just some realistic future to look forward to. POV from a jetpack, a day in the life of 2060, anything. This is the easiest / most impactful work someone could be doing right now. — https://nit",
+          "link": "https://nitter.net/_sholtodouglas/status/2088771124033372524#m",
+          "date_utc": "2026-08-15T23:33:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPzMhlBbEAAMDI2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "_sholtodouglas",
+          "creator": "@_sholtodouglas",
+          "text": "This post is a good example of how Dario responds to people in slack - candor and substance. Recommended reading! Dario Amodei (@DarioAmodei) 1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a chosen few companies and politicians via regulation or distribute it widely” is a false choice. I know that there’s a sort of Silicon Valley shorthand where regulation = regulatory ",
+          "link": "https://nitter.net/_sholtodouglas/status/2088762852333281775#m",
+          "date_utc": "2026-08-15T23:00:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Je pense que Macron va bientôt recruter des chèvres en ministres, ça sera plus efficace en vrai. Laurent MILTGEN-DELINCHAMP (@kubernan) Anne Le Hénanff, ministre déléguée chargée de l’Intelligence artificielle et du Numérique. Regardez-la bien. Née le 22 juillet 1969 à Vannes. Diplômée de l’EM Normandie. Commerciale chez Bacardi. Puis Produit en Bretagne. Puis directrice chez Saupiquet, le roi de la conserve. Ensuite, en 2003, elle ouvre une galerie d’art, « Des arts et des hommes », avec le slogan « L’art pour tous », installée en zone commerciale pour que les gens qui achètent leurs meubles ",
+          "link": "https://nitter.net/brivael/status/2088899152486805667#m",
+          "date_utc": "2026-08-16T08:02:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPyus4eW4AAivwJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "la gauche est le camp du fascisme Video",
+          "link": "https://nitter.net/brivael/status/2088897650758209704#m",
+          "date_utc": "2026-08-16T07:56:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088894200423096320%2Fimg%2F3AOdLsjKAOj7MOth.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "DeepSeek Pro V4 Max just completed the challenge too! It took much longer, at 2:30h, but the total token spend was just $23! This is compared to ~$550 for Fable (45m), $55 for Grok 4.6 (1.5h), $43 for GPT Sol (?). Failed to complete: DSV4 Flash and GPT Luna. DHH (@dhh) Fable one-shotted a Rust rewrite of the TerminalTextEffects Python library in 11M tokens. Startup time went from 87ms to 2ms and rendering speed is up by 9.6x. Now zero dependencies and a 3mb single exec 🤯 claude.ai/code/artifact/2878… Link ttfx — all 37 effects All 37 ttfx effects animating the full Omarchy ASCII logo, rendered",
+          "link": "https://nitter.net/dhh/status/2088657836586807687#m",
+          "date_utc": "2026-08-15T16:03:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2084488721068408832%2F9tLGCWUs%3Fformat%3Dpng%26name%3D420x420_2"
+          ],
+          "articles": [
+            {
+              "url": "https://claude.ai/code/artifact/287825bc-7aad-4541-a7e7-fa4ba8d03612",
+              "content": "Claude Artifact &#xE017; Content is user-generated and unverified."
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "This is not a Windows™️ key, it's a TILING KEY. Get it right.",
+          "link": "https://nitter.net/dhh/status/2088543202319999126#m",
+          "date_utc": "2026-08-15T08:27:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPv-979XoAAQFBU.jpg",
+            "https://nitter.net/pic/media%2FHPv--QoXgAAg-Kn.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "milichab",
+      "org": "xAI",
+      "focus": [
+        "xAI",
+        "SpaceX",
+        "Cursor"
+      ],
+      "tweets": [
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "All the assets were image gen; in Aug 2026, all of them are procedurally generated",
+          "link": "https://nitter.net/milichab/status/2088706233360580883#m",
+          "date_utc": "2026-08-15T19:15:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPyTHUXbwAAe_5p.jpg",
+            "https://nitter.net/pic/media%2FHPyTPbaaEAAEqgy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "The frontier of AI in city-building games over 9 months: Nov 2025 - iso-city.com (left) - Composer 1 + cloud agents Aug 2026 - metropolis-ten-gamma.vercel.… (right) - Grok 4.6 + /loop Full 3D and AAA graphics are within reach. Video",
+          "link": "https://nitter.net/milichab/status/2088704783750398121#m",
+          "date_utc": "2026-08-15T19:10:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2088703526553968640%2Fimg%2FA4i_xEQxbl_asnwX.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://iso-city.com",
+              "content": "ISOCITY — Metropolis Builder Loading..."
+            },
+            {
+              "url": "https://metropolis-ten-gamma.vercel.app",
+              "content": "Metropolis Metropolis City Simulator initialising"
+            }
+          ]
+        },
+        {
+          "handle": "milichab",
+          "creator": "@milichab",
+          "text": "IsoCity took about 10x as long, ~40-50 hours, and is full open-source github.com/amilich/isometric… Link GitHub - amilich/isometric-city: IsoCity: City building simulation game. IsoCity: City building simulation game. Contribute to amilich/isometric-city development by creating an account on GitHub. github.com",
+          "link": "https://nitter.net/milichab/status/2088705925976920467#m",
+          "date_utc": "2026-08-15T19:14:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2086537566203920385%2FQ6t7RfvW%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/amilich/isometric-city",
+              "content": "GitHub - amilich/isometric-city: IsoCity: City building simulation game. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Non"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "TRVKE NVKE Michael Tsai (@thedataroom) Theo GG is a fraud and shill being compensated under the table — https://nitter.net/thedataroom/status/2051441525683572899#m",
+          "link": "https://nitter.net/ns123abc/status/2088895767012348166#m",
+          "date_utc": "2026-08-16T07:48:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "spencerpratt",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "spencerpratt",
+          "creator": "@spencerpratt",
+          "text": "Communism is a religion of bitter malcontents. We have to destroy this mind virus, or we will be destroyed by it. Couldn’t be more clear. New York Post (@nypost) Luigi Mangione supporter calls murder of CEO a 'revolutionary act of protest' Video — https://nitter.net/nypost/status/2088321397424541794#m",
+          "link": "https://nitter.net/spencerpratt/status/2088675375433818217#m",
+          "date_utc": "2026-08-15T17:13:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2088321285667389441%2Fpu%2Fimg%2F8lxAtqoW4o7j9DSj.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
