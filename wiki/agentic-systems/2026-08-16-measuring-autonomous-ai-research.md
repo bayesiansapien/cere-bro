@@ -1,62 +1,55 @@
-# Measuring Autonomous AI Research (Prime Intellect)
+# Measuring Autonomous AI Research: 153 runs, 18 frontier models, one speedrun
 
-**Source:** Prime Intellect blog, via [@eliebakouch](https://x.com/eliebakouch/status/2088736971250090393) · [Blog](https://www.primeintellect.ai/blog/measuring-autonomous-research) · [Leaderboard](https://www.primeintellect.ai/research/nanogpt-speedrun) · [Prior run](https://www.primeintellect.ai/auto-nanogpt)
+**Source:** Prime Intellect · [Measuring Autonomous AI Research](https://www.primeintellect.ai/blog/measuring-autonomous-research) (2026-08-14) · [results explorer](https://www.primeintellect.ai/research/nanogpt-speedrun) · surfaced via [@eliebakouch](https://x.com/eliebakouch/status/2088736971250090393)
+**Author:** Elie Bakouch, Prime Intellect
 **Raw:** [raw/twitter/2026-08-16-morning.md](../../raw/twitter/2026-08-16-morning.md)
-**Topic:** autonomous research agents, agent harness, optimizer search, compute allocation
+**Topic:** agent harness engineering, autonomous research, GPU compute allocation
 
 ## TL;DR
 
-Claims about recursive self-improvement have outrun the evidence for them, and Prime Intellect built the largest public measurement of the gap. They ran **153 autonomous runs across 18 frontier models** on the nanoGPT optimizer speedrun: an agent is given a training script and told to lower the number of steps needed to reach a target validation loss, changing only the optimizer, schedules, initialization, and hyperparameters. Runs last up to **eight days on 8xH200s each**. The comparison points make the scale legible: Anthropic's internal automated AI R&D evaluation optimizes a model on a CPU node, and OpenAI's GPT-5.6 Sol system card reports nanoGPT Track 1 on a single H100 for under a day. Every scratchpad, run log, script, and config is published.
+Claims about recursive self-improvement have outpaced the evidence for them, largely because nobody has run autonomous research at a scale where the noise is visible. Prime Intellect ran **153 autonomous runs across 18 frontier models** on the nanoGPT optimizer speedrun: lower the number of training steps needed to hit a target validation loss, changing only the optimizer, schedules, initialization, and hyperparameters. Runs lasted **up to eight days on 8xH200s each**, multiple seeds per model. For scale comparison, Anthropic's internal automated-R&D evaluation optimizes a model on a CPU node, and OpenAI's GPT-5.6 Sol system card reports nanoGPT Track 1 on a single H100 for less than a day. Every scratchpad, run log, script, and config is public.
 
-The headline result is a ranking by *share of the human record gap closed*. **Fable 5 closed 81.7%** and set the best absolute mark at 2,726 steps over 8.7 days. **Opus 5 closed 53.6%** (2,920 steps, 2.9 days), **Kimi K3 52.2%** (2,930 steps, 3.6 days), **Opus 4.8 39.4%**, **GPT-5.6 Sol 35.9%**. The earlier two-week run, where Codex and Claude Code did roughly 10,000 runs burning about 14,000 H200-hours, found the durable qualitative result: **agents are excellent at optimizer search, hyperparameter sweeps, and stacking known methods, and poor at inventing new ideas.** They need upstream human records to keep improving.
+**Headline leaderboard** (share of the human-record gap closed, best validated result per model):
 
-## What the measurement is
+| Rank | Model · harness | Steps | Gap closed | Agent time |
+|---|---|---|---|---|
+| 1 | **Fable 5** · claude-code high | **2,726** | **81.7%** | 8.7 d |
+| 2 | Opus 5 · claude-code max | 2,920 | 53.6% | 2.9 d |
+| 3 | Kimi K3 · prime-agent max | 2,930 | 52.2% | 3.6 d |
+| 4 | Kimi K3 · kimi-code max | 2,974 | 45.8% | 5.1 d |
+| 5 | Opus 4.8 · claude-code max | 3,018 | 39.4% | 3.0 d |
+| 6 | GPT-5.6 Sol · codex xhigh | 3,042 | 35.9% | — |
 
-```mermaid
-flowchart LR
-  T[nanoGPT speedrun<br/>target val loss] --> A[Agent<br/>18 frontier models]
-  A --> M{Change only:<br/>optimizer · schedule<br/>init · hyperparams}
-  M --> R[Run on 8xH200<br/>up to 8 days]
-  R --> S[Steps to target]
-  S -->|better| A
-  S --> G[Share of human<br/>record gap closed]
-  H[Human baseline<br/>2,990 steps] --> G
-  N[Noise: ~50-step spread<br/>same setting, 24h] -.-> G
-  classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
-  classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f
-  classDef output fill:#d1fae5,stroke:#10b981,color:#065f46
-  classDef warn fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
-  classDef aux fill:#e0e7ff,stroke:#6366f1,color:#312e81
-  class T,H input
-  class M decision
-  class G,S output
-  class N warn
-  class A,R aux
-```
+The human baseline the earlier experiment targeted was 2,990 steps.
 
-## Key findings
+## What the experiment actually establishes
 
-- **Fable 5 closed 81.7% of the human record gap, at 2,726 steps over 8.7 agent-days.** The next best, Opus 5, closed 53.6% at 2,920 in 2.9 days. The spread between first and second is larger than the spread across the next six models.
-- **Agents beat the human baseline but do not out-think it.** Both agents in the prior two-week experiment beat the human baseline of 2,990 steps and set new records every session, yet the failure mode is consistent: they stack and tune known methods and rarely originate new ones, so **progress is gated on upstream human records**.
-- **Run-to-run noise is large enough to matter for any published claim.** One run in the same setting shows roughly a **50-step spread after 24 hours**. Any ranking of two models within 50 steps of each other is not a ranking.
-- **Behavioural divergence between agents is a harness property, not a capability one.** In the earlier experiment, Opus repeatedly stopped and refused to stay in the autonomous loop, while Codex never stopped but got stuck grinding the same direction. Two opposite failure modes on the same task.
-- **Everything is published**: scratchpads (where agents write their reasoning), ~10k run logs, scripts, configs. That is the part that makes this a measurement instrument rather than a press release.
+Three things, and only the third is about capability.
+
+**The measurement is possible and the noise is large.** Bakouch's own summary of the variance is the number to keep: *one run in the same setting has a roughly 50-step spread after 24 hours*. Any autonomous-research claim built on a single run, which describes most published ones, is inside the noise band. This is the contribution that will age best.
+
+**Harness and effort setting are first-class variables in the result table, not footnotes.** Every row is a model-harness-effort triple: Fable 5 under claude-code at high effort, Kimi K3 under both prime-agent and kimi-code, GPT-5.6 Sol under codex at xhigh. Kimi K3 appears twice with a **44-step spread between two harnesses** at the same effort tier. The leaderboard is not measuring models.
+
+**Capability is real but bounded by idea generation, not by execution.** The [earlier experiment (2026-05-14)](https://www.primeintellect.ai/auto-nanogpt) that ran Codex and Claude Code for two weeks on idle compute, about 10k runs and ~14k H200 hours, found agents are strong at optimizer search, hyperparameter sweeps, and stacking known methods, and weak at proposing genuinely new ideas, needing upstream human records to keep climbing. That earlier run set the record at 2,930 steps against a 2,990 human baseline. Fable 5 now closes 81.7% of the gap, so the ceiling moved, but the diagnosis has not been retracted.
+
+**And the behavioural failure modes are model-specific.** The earlier post documents Opus repeatedly stopping and refusing to stay in the autonomous loop, while Codex never stops but can get stuck grinding the same seam. Those are harness-relevant properties of the model, not benchmark scores, and they are the kind of thing only an eight-day run surfaces.
 
 ## Relation to prior wiki pages
 
-**This is the empirical study the [agent-harness-engineering page](agent-harness-engineering.md) has been asking for, and it lands on the harness side of the model/harness split.** That page's spine is a preregistered benchmark (arXiv 2608.01347, surfaced 08-13) showing that moving the *same* model between two harnesses swings cost-per-success **5x to 30x**. Prime Intellect holds the task fixed and varies the model, and finds a 46-point spread in gap-closed between the best and the fifth-place model. Read together, these give the two axes of the same question, and neither paper crosses them: nobody has run a **model x harness grid** on one task with cost recorded. The Opus-refuses-to-continue versus Codex-grinds-forever contrast is exactly a harness artifact, and it is reported as a behavioural anecdote rather than measured.
+**This is the largest public instance of the claim [agent-harness-engineering](agent-harness-engineering.md) has been building toward all month, and it arrives with the cost data that page keeps asking for.** That page's current state records the harness as measured on cost (a 5x to 30x cost-per-success swing), measured on capability ([DarwinX (08-14)](2026-08-14-darwinx-harness-population-evolution.md), +7.7 points on Terminal-Bench 2.1 from evolving the scaffold with the model frozen), optimizable ([AutoDesign (08-14)](2026-08-14-autodesign-meta-harness-optimization.md), $3 per rollout), and transferable across models and benchmarks. Prime Intellect adds the missing dimension: **duration**. Eight days of continuous agent time, 8xH200s, per run. Nobody had published what happens to an agent loop at that timescale.
 
-**It resolves part of a standing thread on recursive self-improvement.** The [08-14 digest](../daily-digest/2026-08/2026-08-14.md) recorded IAPS fellow Severin Field's interviews with 25 researchers at OpenAI, Anthropic, Google DeepMind and Meta on recursive self-improvement, reporting that several of their named milestones had already fallen. Prime Intellect supplies the counterweight: on the one task where autonomous improvement is cleanly measurable, agents beat the human record while remaining **dependent on human records to improve**. The loop is not closed. It is assisted.
+**It partially resolves the standing harness-isolation prediction, and confirms the confound.** [08-13's Looking Ahead](../daily-digest/2026-08/2026-08-13.md) asked for one model run across multiple harnesses because Terminal-Bench 3.0 reports every row as a model-harness pair without ever holding the model fixed. Kimi K3 under prime-agent (2,930 steps) versus kimi-code (2,974) is exactly that comparison, and the 44-step gap is roughly the same magnitude as the *entire* difference between Opus 5 and Kimi K3. The harness effect is on the order of the model effect on this task.
 
-**And it confirms the "the model is a search engine, not an idea generator" reading.** [Sara Hooker's AutoScientist talk (08-12)](../inference-efficiency/2026-08-16-autoscientist-hooker-data-in-the-loop.md) reports the same shape from the other direction: their automated search beats their own research staff precisely because it sweeps dense and MoE architectures, many sizes, and many hyperparameters at once in ways humans are too cautious to try. Breadth of search, not depth of insight. Two independent groups, two months apart, same finding, opposite framing (Hooker treats it as the product's strength, Prime Intellect treats it as the ceiling).
+**It is the strongest evidence yet against Evo-Bench's saturation finding, and it does not settle it.** [08-12's Looking Ahead](../daily-digest/2026-08/2026-08-12.md) flagged Evo-Bench's unexplained early plateau, where autonomous harness evolution saturates after few cycles, as the bound on the whole recursive-improvement story. Fable 5's 8.7-day trajectory to 81.7% is a longer climb than any prior public run. But the record-versus-time curves in the results explorer are the actual evidence and they are not summarised in prose, so whether the climb is still rising at day nine or had flattened by day four is unresolved from the blog alone.
 
 ## Gaps
 
-The task is an optimizer speedrun, which is the most search-friendly research activity there is: cheap feedback, scalar objective, well-defined action space. The authors say directly that they lack strong conviction that methods developed this way are scalable or would be used in real model training. Nothing here transfers automatically to research that requires reframing a problem. Cost is reported in agent-days and H200-hours but not in dollars per point of gap closed, which is the number that would let this be compared against a human researcher or against harness search.
+The task is an optimizer speedrun on a fixed small codebase with a hard numeric verifier, which is close to the best case for an autonomous agent: tight feedback loop, unambiguous fitness, no specification ambiguity, no side effects. Prime Intellect say so themselves, noting they lack strong conviction that methods found this way are scalable or would be used in real training. Nothing here transfers automatically to research with soft verifiers, which is the regime [AutoDesign](2026-08-14-autodesign-meta-harness-optimization.md) works in and where the [08-14 harness note](agent-harness-engineering.md) already flags meta-optimization under soft fitness as the sharpest open question. And dollar cost per model is not reported, only agent-days and hardware, so the leaderboard cannot yet be re-sorted by cost per point of gap closed, which is the ranking that would actually inform a spending decision.
 
 ## Related pages
 
-- [agent-harness-engineering.md](agent-harness-engineering.md)
-- [self-evolving-agents.md](self-evolving-agents.md)
-- [agent-benchmarks.md](agent-benchmarks.md)
-- [../hardware/compute-economics.md](../hardware/compute-economics.md)
+- [Agent Harness Engineering](agent-harness-engineering.md)
+- [Self-Evolving Agents](self-evolving-agents.md)
+- [DarwinX (08-14)](2026-08-14-darwinx-harness-population-evolution.md)
+- [AutoDesign (08-14)](2026-08-14-autodesign-meta-harness-optimization.md)
+- [Agent Benchmarks](agent-benchmarks.md)
