@@ -6,6 +6,26 @@ The one-line state of knowledge as of 2026-08-14: **compute has moved from a cap
 
 ---
 
+## The vendor became the lender, and the number moved twice in two days (2026-08-16)
+
+**Nvidia is now financing the demand for its own hardware at a scale that is difficult to distinguish from vendor-financed revenue, and the size of that commitment is visibly unstable.** Within 48 hours the reported figure for OpenAI's planned Ohio datacenter campus moved from **$250 billion down to just under $120 billion** after investor pushback on the risk ([The Decoder, 08-15](https://the-decoder.com/investor-pressure-forces-nvidia-to-shrink-its-openai-bet-just-as-anthropics-numbers-defy-bubble-warnings/)), while The Information reported Nvidia **close to a deal guaranteeing around $100 billion** in credit covering roughly half the project across a two-year first phase, with a second phase of similar magnitude to follow ([08-15](https://www.theinformation.com/articles/nvidia-nears-deal-guarantee-100-billion-financing-massive-data-center)). Separately Nvidia is in talks to invest **up to $3 billion in SB Energy**, the SoftBank-backed developer of that same campus ([The Information, 08-15](https://www.theinformation.com/articles/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal)).
+
+*Why this belongs on this page rather than in an industry log.* Everything above about the auction regime describes prices set by scarcity between independent buyers and sellers. Credit support at this scale is a supplier removing the buyer's financing constraint so the buyer can keep bidding, which is the opposite mechanism. It also cuts directly against the incidence finding recorded above: **a rising spot price squeezes neolabs precisely because nobody guarantees their credit, and the largest buyer in the market just had $100 billion of its credit guaranteed by the seller.** The concentration effect the price regime produces is being amplified by the financing structure rather than offset by it.
+
+*The counterweight, which is real.* Anthropic's quarterly revenue went from $787 million a year ago to **$4.73 billion in Q1 and $11.5 billion in Q2** ([The Information, 08-14](https://www.theinformation.com/briefings/anthropic-revenue-jumped-14-times-second-quarter)), which is the strongest available argument that the demand being financed is not imaginary. Both things are true at once: revenue is compounding at a rate that justifies aggressive buildout, and the buildout's financing is increasingly circular.
+
+## The unit of cost is finally being measured, and it is not the token (2026-08-16)
+
+Three items landed the same day and together they invalidate the metric this page and most of the wiki has been using.
+
+- **A 24x dollar spread on one identical completed task.** DHH ran the same Rust rewrite of the TerminalTextEffects library across five frontier models, all working from a plan Fable 5 wrote: **$550 on Fable in 45 minutes, $55 on Grok 4.6 in 1.5 hours, $43 on GPT Sol, $23 on DeepSeek Pro V4 Max in 2.5 hours**, with DeepSeek V4 Flash and GPT Luna failing to complete ([@dhh](https://x.com/dhh/status/2088657836586807687)). The trade it exposes is time for money, and at any realistic engineer hourly rate the $527 premium does not buy back the 1.75 hours saved, so the expensive tier is rational only when a human is blocked on the result.
+- **A token is not a token across vendors.** Anthropic's Tibo Sottiaux publicly put OpenAI's tokenizer at roughly **30% more efficient** per unit of text, with a circulated comparison putting the total at **34.5%** across 493 words and **53.2% on multilingual prose** ([post](https://x.com/thsottiaux/status/2088856449959276836)). Because API and usage plans bill per token, two vendors quoting the same dollars per million tokens are not quoting the same price. **Every cost comparison on this page and in the routing literature is denominated in a unit that differs by up to a third between providers, and nobody normalises for it.**
+- **The instrument shipped.** Artificial Analysis launched [Optima](../ai-industry/2026-08-16-optima-cost-per-task-benchmarking.md), which benchmarks models on the user's own data by quality, **cost, and time per task** rather than by token price. The [08-14 Looking Ahead](../daily-digest/2026-08/2026-08-14.md) predicted a major leaderboard would make dollars-per-completed-task its primary metric within 60 days. It took two.
+
+**The synthesis worth carrying forward.** A 34.5% tokenizer penalty is the same order of magnitude as the headline savings from this month's best efficiency research: Gambit's 68.5% token reduction, AutoPrune's 9.9x FLOP cut. That means a serving stack can adopt a state-of-the-art token-reduction technique and have most of the gain erased by a vendor choice that appears in none of those papers. **Cost-per-task is the only unit in which those two effects are commensurable, and until this week nobody was publishing it.**
+
+---
+
 ## The current price regime (2026-08)
 
 Three data points from the same week, which line up unusually cleanly:
