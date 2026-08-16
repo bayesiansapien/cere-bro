@@ -2,7 +2,21 @@
 
 Routing in LLM systems means deciding which model (or no model) should handle a given query — with the goal of minimizing cost while meeting quality requirements.
 
-## Current State (as of 2026-08-14)
+## Current State (as of 2026-08-16)
+
+**The cost-metric problem this page named on 08-14 got a product two days later, and two new routing axes opened without anyone calling them routing.**
+
+**[Optima (08-16)](../ai-industry/2026-08-16-optima-cost-per-task-benchmarking.md) resolves the standing prediction, early and by the named actor.** Artificial Analysis shipped a platform where you build a benchmark from your own data and workflow and compare models on **quality, cost, and time per task** rather than a public score. [08-14's Looking Ahead](../daily-digest/2026-08/2026-08-14.md) predicted a major leaderboard would make dollars-per-completed-task its headline metric within 60 days and named Artificial Analysis as one of three possible parties. It took 48 hours. This matters here because most routing results on this page, xRouteBench included, score cost in per-token API pricing, and the [AlphaSense study (08-14)](../ai-industry/2026-08-14-alphasense-token-price-vs-task-cost.md) showed that metric ranks models backwards on real workloads because a stronger model finishes in fewer tokens. Optima's answer to a workload-dependent disagreement is to stop arguing about the representative workload and measure yours. **The regime boundary this page recorded, that lightweight routers get more competitive as the cost constraint tightens, is now checkable in the right currency for the first time.**
+
+**Two same-day datapoints show how wide the error bar on the wrong currency is.** DHH ran one identical Rust-rewrite task across five models: **$550 for Fable (45 min), $55 for Grok 4.6 (1.5 h), $43 for GPT Sol, $23 for DeepSeek Pro V4 Max (2.5 h)**, with two models failing to complete at all. A **24x dollar spread, a 3.3x wall-clock spread, and a completion-rate axis** on a single task, which is exactly the tri-objective Optima measures and no price table expresses. Separately, Anthropic's Tibo Sottiaux stated publicly that OpenAI's tokenizer is roughly 30% more efficient, with a circulated table putting 493 words at **766 tokens under o200k, 900 under legacy Claude, ~1,170 under a Claude Opus 5 estimate**, a 34.5% overall gap and 53.2% on multilingual prose. **Two providers quoting the same dollars per million tokens are not quoting the same price, and no router on this page normalises for tokenizer.**
+
+**Two new routable axes appeared today, neither claimed as routing.** [Gambit (08-16)](../inference-efficiency/2026-08-16-gambit-thought-level-beam-search.md) scores partial reasoning trajectories mid-flight, kills the weak ones, and re-branches from strong prefixes, cutting tokens up to 68.5% at more than 2x throughput. Under [LLMRouter's five-component formulation](2026-08-14-llmrouter-unified-routing-infrastructure.md) that is a router whose candidate set is partial trajectories of a single model. [CaRL (08-16)](../inference-efficiency/2026-08-16-carl-knowing-when-to-quit.md) detects **capability overreach**, that a query lies beyond what this model can do, and trains the model to refuse rather than emit an expensive specious derivation. A refusal is the degenerate case of an escalation: the detector that fires is precisely a routing signal, and routing up to a stronger model strictly dominates quitting for any user willing to pay. **Nobody has proposed either.**
+
+**Standing gap, unchanged and now a full month old:** nothing in production routes over **harnesses**. Today added evidence, not proposals. [Prime Intellect's 153-run study (08-16)](../agentic-systems/2026-08-16-measuring-autonomous-ai-research.md) reports every leaderboard row as a model-harness-effort triple and shows Kimi K3 differing by 44 steps between two harnesses, roughly the size of the whole Opus-5-versus-Kimi-K3 gap. The routable unit keeps being demonstrated and the routers keep routing over models.
+
+---
+
+## Prior State (as of 2026-08-14)
 
 **The field got its first unified formulation and its first honest cost metric on the same day, and they disagree with each other.**
 
