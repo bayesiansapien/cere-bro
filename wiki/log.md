@@ -1379,3 +1379,25 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-08-14] synthesis | Media Zone wiki/media-zone/2026-08/2026-08-14.md (bookmarks empty, built from general scrape + YouTube pile) | media-zone
 ## [2026-08-14] dedupe | Merged duplicate DarwinX pages: removed 2026-08-14-darwinx-harness-population-selection.md, folded its 08-13 Looking-Ahead resolution thread into 2026-08-14-darwinx-harness-population-evolution.md | lint
 ## [2026-08-14] lint | Merged duplicate 2026-08-14 sections in agent-harness-engineering.md written by parallel jobs into one | lint
+## [2026-08-16] ingest | Gambit: Thought-Level Beam Search for Reasoning (arXiv 2608.08020) | huggingface
+## [2026-08-16] ingest | An AI4AI Framework for Visual Token Pruning / AutoPrune (arXiv 2608.07193) | huggingface
+## [2026-08-16] ingest | Maglev: Sliding Recurrent Memory (arXiv 2608.02870) | huggingface
+## [2026-08-16] ingest | CaRL: Knowing When to Quit (arXiv 2607.29211) | huggingface
+## [2026-08-16] ingest | HPSE + CMD + REOPD + ReOrder-OPD teacher-student alignment cluster (2608.11660, 2608.13391, 2608.11698, 2608.10905) | huggingface + kurate
+## [2026-08-16] ingest | SKILLER: language-level RL for reusable skills in small models (arXiv 2608.10538) | huggingface
+## [2026-08-16] ingest | Specification-first convergence with an AI coding agent (arXiv 2608.12440) | huggingface
+## [2026-08-16] ingest | Are You Sure You're Sure? Instruction tuning, confidence and rationale diversity (arXiv 2608.13430) | huggingface
+## [2026-08-16] ingest | Measuring Autonomous AI Research, 153 runs across 18 models (Prime Intellect) | twitter-as-source
+## [2026-08-16] ingest | Optima: Artificial Analysis ships cost-and-time-per-task benchmarking | rss (the-decoder)
+## [2026-08-16] concept | inference-efficiency/test-time-compute-allocation.md created (five allocation decisions, constraint taxonomy, sampling-luck objection) | concept
+## [2026-08-16] concept | kv-cache.md updated (Maglev bounds by architecture; Gambit introduces whole-sequence eviction); knowledge-distillation.md updated (the field split into repair-the-gradient and skip-the-gradient halves that do not cite each other); llm-routing.md updated (Optima resolves the cost-metric prediction; two unclaimed routing axes); agent-harness-engineering.md updated (duration axis, three-order-of-magnitude cost range, small-model skill manufacture) | concept
+## [2026-08-16] note | Kurate cs.AI and cs.LG show score=1200 / win_rate=0.0% across all 40 entries for the fifth consecutive week, so the 3-LLM tournament did not run and rank carries no quality signal. No HF-Kurate cross-source confirmations possible, fifth consecutive day. | source-quality
+## [2026-08-16] note | All eight tracked subreddits returned zero posts past filters for an eighth consecutive day. Farmer filters should be checked rather than the silence believed. | source-quality
+## [2026-08-16] note | raw/gmail/2026-08-16-starred.md reports 0 starred emails; Gmail source layer absent today. | source-quality
+## [2026-08-16] note | Twitter bookmarks feed captured 0 new saves in both morning and afternoon runs; Media Zone built from the general scrape. Cookies or bookmarks.graphql_query_id may need refreshing. | source-quality
+## [2026-08-16] note | HuggingFace returned identical payloads for 08-14, 08-15 and 08-16; 17 of 32 arXiv IDs were already farmed under 08-14 and only the 15 new IDs were filed under today's date. | source-quality
+## [2026-08-16] note | Kurate rising authors: Gupta Lovi Raj crossed threshold for the first time in six weeks, on two online-assessment papers rated 3.0 and 3.5 out of 10. A prolific low-rated author crossing a quality threshold is a finding about the threshold. | source-quality
+## [2026-08-16] note | No daily digest exists for 2026-08-15 from this session or the parallel ingest job; 08-15 RSS and Twitter material folded into the 08-16 digest rather than backfilled. | coverage-gap
+## [2026-08-16] synthesis | daily digest wiki/daily-digest/2026-08/2026-08-16.md written (8 Deep Dives, 17 Industry Pulse bullets incl. funding sub-cluster, 3 Global View threads, 6 Looking Ahead) | digest
+## [2026-08-16] synthesis | social-stream morning slot wiki/social-stream/2026-08/2026-08-16-morning.md | social
+## [2026-08-16] synthesis | Media Zone wiki/media-zone/2026-08/2026-08-16.md (bookmarks empty, built from general scrape) | media-zone
