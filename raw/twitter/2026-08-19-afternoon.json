@@ -1,0 +1,1416 @@
+{
+  "date": "2026-08-19",
+  "slot": "afternoon",
+  "scraped_ist": "2026-08-19 12:48",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "AustinJustice",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "We literally know about abuse of Flock because Flock makes it nearly impossible to abuse it without getting caught with a trail of evidence for superiors/prosecutors. There's been plenty of examples of cops being punished. “As far as I can tell” is a good encapsulation of the fact-free online hysteria over these cameras. Armand Domalewski (@ArmandDoma) i'm glad Flock is putting on guardrails but I think the more fundamental issue here is that as far as I can tell, not a single cop who illegally misused this data has been punished in any way whatsoever sfchronicle.com/crime/articl… Link Flock p",
+          "link": "https://nitter.net/AustinJustice/status/2089832918248272192#m",
+          "date_utc": "2026-08-18T21:52:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087962518291456000%2Feor9UPPc%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.sfchronicle.com/crime/article/flock-cameras-ceo-surveillance-policy-22384139.php?taid=6a7e063e2138410001ff2855&utm_campaign=trueanthem%2B3988&utm_medium=social&utm_source=twitter",
+              "content": "Flock puts new ‘guardrails’ on license-plate cameras after breaches San Francisco Chronicle Logo Hearst Newspapers Logo Skip to main content Subscribe Bay Area San Francisco Transit Crime Drug Crisis Golden Gate Park COVID-19 Health Data Spotlight PG E Season of Sharing Housing Crisis Total SF Graying Bay Weather Weather Forecast Air Quality Tracker Climate Drought Fire Tracker Quake Tracker Wildfires Food Top 100 Restaurants Restaurants Restaurant Closures Top Wineries Wine, Beer Spirits Sports Giants Warriors 49ers A&#x27;s High School Bay FC Women&#x27;s Sports College Politics Election 2026 Opinions Chronicle Editorial Board Letters to the Editor Home Insurance Home Insurance Rates Real Estate Find a Home Commercial Real Estate California Tahoe Tech Datebook Event Search Movies TV Musi"
+            },
+            {
+              "url": "https://www.sfchronicle.com/crime/article/flock-cameras-ceo-surveillance-policy-22384139.php?taid=6a7e063e2138410001ff2855&amp;utm_campaign=trueanthem%2B3988&amp;utm_medium=social&amp;utm_source=twitter",
+              "content": "Flock puts new ‘guardrails’ on license-plate cameras after breaches San Francisco Chronicle Logo Hearst Newspapers Logo Skip to main content Subscribe Bay Area San Francisco Transit Crime Drug Crisis Golden Gate Park COVID-19 Health Data Spotlight PG E Season of Sharing Housing Crisis Total SF Graying Bay Weather Weather Forecast Air Quality Tracker Climate Drought Fire Tracker Quake Tracker Wildfires Food Top 100 Restaurants Restaurants Restaurant Closures Top Wineries Wine, Beer Spirits Sports Giants Warriors 49ers A&#x27;s High School Bay FC Women&#x27;s Sports College Politics Election 2026 Opinions Chronicle Editorial Board Letters to the Editor Home Insurance Home Insurance Rates Real Estate Find a Home Commercial Real Estate California Tahoe Tech Datebook Event Search Movies TV Musi"
+            }
+          ]
+        },
+        {
+          "handle": "AustinJustice",
+          "creator": "@AustinJustice",
+          "text": "Austin spends the smallest share of general fund on police vs any major Texas city.",
+          "link": "https://nitter.net/AustinJustice/status/2089683819435622714#m",
+          "date_utc": "2026-08-18T12:00:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHPzPJkvXoAA3-6F.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ClaudeDevs",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "Claude Desktop now starts ~2x faster than it did a month ago. When the app started in the background, its timers got throttled and the JS engine dropped into power-saving mode. We now boot at full speed even while the window's still hidden, along with some smaller perf fixes!",
+          "link": "https://nitter.net/ClaudeDevs/status/2089860955266228548#m",
+          "date_utc": "2026-08-18T23:44:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCsxLyb0AAQMgB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ClaudeDevs",
+          "creator": "@ClaudeDevs",
+          "text": "We’re extending the 50% increase to weekly Claude Code limits through August 31. We hope to make this a permanent change to our plans, but strong demand for our models means that capacity may be tight over the coming weeks. We’ll keep you posted as things develop. ClaudeDevs (@ClaudeDevs) We're also keeping Claude Code weekly limits 50% higher, now through August 19, for all Pro, Max, Team, and seat-based Enterprise users. — https://nitter.net/ClaudeDevs/status/2078511173759324328#m",
+          "link": "https://nitter.net/ClaudeDevs/status/2089798442306711646#m",
+          "date_utc": "2026-08-18T19:35:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "HouseGOP",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "Protecting the right to vote means protecting voting itself. Voting means nothing if it’s laced with rampant fraud.",
+          "link": "https://nitter.net/HouseGOP/status/2089774623520895403#m",
+          "date_utc": "2026-08-18T18:01:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "HouseGOP",
+          "creator": "@HouseGOP",
+          "text": "On this day 106 years ago, the 19th Amendment was ratified, securing the right to vote for American women. In Congress, the amendment passed with overwhelming Republican support. Democratic opposition was heavy, and they fought it every step of the way. The final, decisive ratification vote came in Tennessee, where a young Republican legislator’s decision tipped the scales.",
+          "link": "https://nitter.net/HouseGOP/status/2089746781819060708#m",
+          "date_utc": "2026-08-18T16:10:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBFn7NWIAAfwZL.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "JonasBadalic",
+      "org": "xAI",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "My prediction is that we will soon see applications start to disable animations for agentic user agents, much in the same way as they already do for people who prefer reduced motion.",
+          "link": "https://nitter.net/JonasBadalic/status/2089885440879026426#m",
+          "date_utc": "2026-08-19T01:21:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "Eventually, it’ll all just be APIs and whatever b2c still exists",
+          "link": "https://nitter.net/JonasBadalic/status/2089886205265809749#m",
+          "date_utc": "2026-08-19T01:24:34+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "Chat, is this true? matt palmer (@mattyp) Article Chat is all you need Grok Bot has a single output: a message This might seem backwards. Power-user tools are built on complexity and breadth, right? Chat can’t possibly have my workflow. It’s a special workflow. I’m a — https://nitter.net/mattyp/status/2089758434921160877#m",
+          "link": "https://nitter.net/JonasBadalic/status/2089846385935786179#m",
+          "date_utc": "2026-08-18T22:46:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBQLHQagAAPwWW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "JonasBadalic",
+          "creator": "@JonasBadalic",
+          "text": "I'm team chat is all you need btw (as long as it renders mermaid diagrams though). Fully converted, and never going back.",
+          "link": "https://nitter.net/JonasBadalic/status/2089847752758816829#m",
+          "date_utc": "2026-08-18T22:51:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇯🇵 A 54-year-old Japanese woman is accused of strangling her 89-year-old mother and burning through roughly ¥28 million ($190,000) on tips to livestreamers from her dead mother's bank account. Yes, you read that right. Hideko Ishigami was arrested this month over the 2024 killing, with police investigating whether money was the motive. In an especially bizarre detail, Hideko allegedly shoplifted about $40 worth of food on the day of the killing because she considered spending money on it wasteful. Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2090020952373379082#m",
+          "date_utc": "2026-08-19T10:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089982765588529152%2Fimg%2FwFOWn-GgyNZHuoYO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "This has to be India's chillest armed robbery victim I'd have sprayed them with petrol Writers: Mhedi, Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2090018435048636423#m",
+          "date_utc": "2026-08-19T10:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089768348129341440%2Fimg%2FsrczcN0RRbz8X4F3.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇹🇷🇮🇱 The world just came closer to a Turkey-Israel war than anyone realized. Trump's Turkey and Syria envoy Tom Barrack said the Israeli strike on the Abu al-Duhur airbase nearly triggered a direct military clash between the two. \"The Turkish forces did not know that Israeli aircraft were on their way to this specific Syrian base, nor did they know what their objective was. Therefore, they might have decided to scramble their own fighter jets, believing they themselves were under attack. Yesterday's events were serious and worrying. However, we are relieved that no lives were lost and that t",
+          "link": "https://nitter.net/MarioNawfal/status/2090015927744008465#m",
+          "date_utc": "2026-08-19T10:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQE5XACWYAAcAVu.png",
+            "https://nitter.net/pic/media%2FHQE5dT2XsAAC3b1.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇳 And they wonder why the birth rate is falling in China Writers: Mhedi, Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2090013401787355584#m",
+          "date_utc": "2026-08-19T09:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089647705778003968%2Fimg%2F1FvUvJaYUfvK8SJ2.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Florida state representative Angie Nixon (who is a member of the DSA) just pulled off a major upset in Florida's Democratic Senate primary. Angie defeated Alexander Vindman despite reportedly being outspent roughly 17-to-1. The former union organizer will now face Republican incumbent Ashley Moody in November, putting a self-described democratic socialist on the ballot in the Sunshine State. Source: NY Times / Writer: Mhedi",
+          "link": "https://nitter.net/MarioNawfal/status/2090010885506937321#m",
+          "date_utc": "2026-08-19T09:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEkuzjXIAAW45P.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇬🇧 In 2024, the former chief of one of Britain's intel agencies, MI6, dropped the mask on Brexit. Sir Alex Younger claimed Putin and Xi were “absolutely delighted” when Britain left the EU. His verdict was blunt: Brexit made the UK irrelevant, let France eclipse it, and voluntarily surrendered influence on the world stage. Not exactly the “taking back control” story people were sold. Writer: Samuel Video",
+          "link": "https://nitter.net/MarioNawfal/status/2090008371533394264#m",
+          "date_utc": "2026-08-19T09:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089442880498606081%2Fimg%2F5KNvGcxiOMiW1jR4.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱🇵🇸 The IDF has imposed a curfew on Al-Dhahiriya, a Palestinian city of roughly 40,000 people in the West Bank, during a major raid. Troops and military vehicles have taken control of the city's main entrances and squares, restricting residents from moving while forces search homes and carry out arrests. One home was even converted into a temporary military outpost Source: Tasnim News / Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2090005852820295989#m",
+          "date_utc": "2026-08-19T09:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089991877860679680%2Fimg%2F1BVMKUgH6h1cM1z5.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇳🇱 A deadly case of mistaken identity in the Netherlands is unfolding like the plot from a crime novel. Dutch police have revealed the identity of the confidential source who spilled the beans about the firearm used in the 2014 mistaken-identity murder of Rob Zweekhorst. The source is now-deceased Marco Ebben, a big-time coke dealer who was convicted for importing 400 kg cocaine from Brazil before becoming an international fugitive. He was later linked to the Sinaloa Cartel and eventually shot dead near Mexico City early last year. Ebben only agreed to let authorities reveal his secret snitchi",
+          "link": "https://nitter.net/MarioNawfal/status/2090003335801622759#m",
+          "date_utc": "2026-08-19T09:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBJqniXcAAcf1_.jpg",
+            "https://nitter.net/pic/media%2FHQBJq2jWAAA9NlG.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 24 DAYS... The ocean tried everything, but Starship is still standing. The rocket is being guided into calm waters off Christmas Island, with engineers racing to her now. Next stop: Starbase. The most ambitious machine humanity has ever built… refusing to die. Writer: Val Video",
+          "link": "https://nitter.net/MarioNawfal/status/2090000819043078337#m",
+          "date_utc": "2026-08-19T09:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEByjwWsAAltX9.png",
+            "https://nitter.net/pic/media%2FHQEByjvWcAEjFZz.png",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089684968368721920%2Fimg%2FZkkpMQiwTd2jGilZ.jpg",
+            "https://nitter.net/pic/media%2FHQANb0CXoAA9D54.jpg",
+            "https://nitter.net/pic/media%2FHQANdejXcAELpWX.jpg",
+            "https://nitter.net/pic/media%2FHQANfRpWoAEVbL-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Most people think their drinks would never be spiked This girl showed her friends how easy it is 😲 Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089998302314140107#m",
+          "date_utc": "2026-08-19T08:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089759292287062016%2Fimg%2FGYVL2oUKfufaQ0dO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇮🇷 IRGC General Mohammad Reza Naqdi: You can't trust a word Trump says \"The current president of the United States is extremely short-sighted and childish. He has no long-term vision. When he says something, he doesn't even think about what will happen 24 hours later. His statements have no foundation or consistency. I trust a taxi driver much more than I trust him. Don't take what he says too seriously.\" Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089995785832407226#m",
+          "date_utc": "2026-08-19T08:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089980333970104320%2Fimg%2FiRbbCcmJA48ckhY9.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Cathie Wood: AI token prices are plummeting, and demand is skyrocketing; we're at the start of something huge \"Yes, prices are collapsing, but volumes are exploding. In ARK Invest’s view, the price elasticity of demand for increased productivity and intelligence is enormous, setting in motion a virtuous cycle that is in its infancy.\" Source: @CathieDWood / Writer: Ian Elon Musk (@elonmusk) True — https://nitter.net/elonmusk/status/2089948774437458263#m",
+          "link": "https://nitter.net/MarioNawfal/status/2089993271955079175#m",
+          "date_utc": "2026-08-19T08:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEPqAdW0AA2dDB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇨🇳 Young people in China are increasingly falling for fictional characters in dating simulation games. Some fans spend heavily on virtual boyfriends and are even paying real people to role-play as them on dates. It all comes as China's marriage and birth rates continue to collapse, with Beijing desperately trying to get young people together. Turns out traditional dating is tough when the competition was literally programmed to be perfect. Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089990752822558838#m",
+          "date_utc": "2026-08-19T08:20:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEC6CdXgAACqhg.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "Nope, most of the videos you're seeing on X aren't \"leaked GTA VI\" footage They're AI recreations made by fans who've been waiting so long for its release that the Iran war is starting to look like the shorter commitment Cyberleek has been posting what appear to be genuine leaks though, claiming they will keep going until Rockstar agrees to make physical editions of the game, not just downloads The leaks don't stay up for long, with Rockstar quickly filing copyright claims against them Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089988236080988600#m",
+          "date_utc": "2026-08-19T08:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089834524758659072%2Fimg%2FZ73yKvDshCND9F9y.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇮🇶 Iran's parliament speaker is in Iraq pushing for deeper security and economic ties Speaking at the Baghdad site where Gen. Qassem Soleimani was killed in a 2020 U.S. drone strike, Mohammad Bagher Qalibaf said Iran and Iraq would take “great steps” toward stronger regional security and shared prosperity: \"The neighborliness of the two countries is based on brotherhood, love for the Ahl al-Bayt, resistance to foreign interference, and belief in a common destiny.\" That 'common destiny' is something Trump now needs to be a lot more worried about. Source: Tasnim News / Writer: Mhedi Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089985730999161248#m",
+          "date_utc": "2026-08-19T08:00:02+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089965637216915456%2Fimg%2FWU-DW_01qeH8VSNb.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "I just found the perfect toilet for degens 🤣 Writer: Ian Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089983202840743942#m",
+          "date_utc": "2026-08-19T07:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089863032465952769%2Fimg%2FawLqY22KRtNfsGT5.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ProfTomYeh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ProfTomYeh",
+          "creator": "@ProfTomYeh",
+          "text": "Autoencoder by hand ✍️ interactive diagram. Open byhand.ai/autoencoder ~ Prof. Tom Yeh Video",
+          "link": "https://nitter.net/ProfTomYeh/status/2089717737102741687#m",
+          "date_utc": "2026-08-18T14:15:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2089717725031526400%2Fpu%2Fimg%2FPnFZ62ZldeLzKO6S.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://byhand.ai/autoencoder",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "Scobleizer",
+      "org": "Microsoft",
+      "focus": [
+        "semiconductors"
+      ],
+      "tweets": [
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Chris is right about Brett @adcock_brett Chris (@ChrisGPT) Deeply surprised basically nobody covered this. Hark already has hardware in the lab, and Brett Adcock describes it as “sci-fi movie hardware.” They’re building the hardware alongside a much more ‘multimodal’ version of Hark, with computer use improving ‘month over month’ and browser + iPhone + Android access coming next. One thing I really like about listening to Brett talk about AI is that it feels like a breath of fresh air. He doesn’t get lost in MCP, agent frameworks, tokenomics, BS. He basically just tells you what AGI should fee",
+          "link": "https://nitter.net/Scobleizer/status/2089982404299796851#m",
+          "date_utc": "2026-08-19T07:46:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089962903478677504%2Fimg%2FZANoMzYF8EdLVACP.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I learned TV in an evangelical Christian church. In Silicon Valley, and my mom joined a survivalist Montana cult in Silicon Valley. So I know: humans love their weird religions, but Ben Thompson @benthompson makes an interesting point. But it is an all-knowing god already. It knows more about the Smithsonian than the people who work in the Smithsonian. Looking at it as god is sort of funny, and I studied faith all over the world. I'd rather look at it as the ultimate development platform. Fireside Alpha (@firesidealpha) Ben Thompson says OpenAI and Anthropic are Silicon Valley's two religious ",
+          "link": "https://nitter.net/Scobleizer/status/2089980108983660907#m",
+          "date_utc": "2026-08-19T07:37:42+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089705608043991040%2Fimg%2FGnrMzXJw4z7SgZTj.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "It is true that specialized robots will be far more numerous than humanoids, but it's the humanoid that causes me to dream, not the dog. Although it's great to see them being used to help people. Léo (@LeoKharon) NEW ROBOT DOG: Firefighter robot incoming! ASTRALL Dynamics, a Shenzhen embodied-intelligence startup develops a firefighting platform called the Hypertron-T01, a heavy-duty quadruped that carries an integrated high-pressure water cannon into fires humans cannot enter. Peculiarity: its legs are wheeled, so the robot can both walk and roll! The cannon delivers 20 L/s at up to 60m range",
+          "link": "https://nitter.net/Scobleizer/status/2089977634499522835#m",
+          "date_utc": "2026-08-19T07:27:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2089970808537894912%2Fpu%2Fimg%2FYyHsPl4ueM3qYqbO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "More data needed for visual models than text ones. A lot more, this paper says. Tanishq Mathew Abraham, Ph.D. (@iScienceLuvr) Abra: Scaling Diffusion Image Training A comprehensive scaling laws study of text-to-image diffusion models from Luma AI: \"We present a systematic scaling law study for text-to-image diffusion models using Abra, a controlled family of flow-matching transformers trained across three orders of magnitude worth of compute (1019 to 1022 FLOPs), reaching significantly larger compute budgets than previous works. We demonstrate that diffusion models scale just as predictably as",
+          "link": "https://nitter.net/Scobleizer/status/2089975860241785018#m",
+          "date_utc": "2026-08-19T07:20:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQD9Se2bQAAHBgD.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://arxiv.org/abs/2608.17286",
+              "content": "Abstract: Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual generation. We present a systematic scaling law study for text-to-image diffusion models using Abra, a controlled family of flow-matching transformers trained across three orders of magnitude worth of compute ($10^{19}$ to $10^{22}$ FLOPs), reaching significantly larger compute budgets than previous works. We demonstrate that diffusion models scale just as predictably as language models but require far more data to train optimally: compute optimality occurs at approximately $200$ image tokens per parameter, ten times the Chinchilla compute-optimal prescription for LLMs. We show that unlike language models, diffusion models are robust to overtraining and that practi"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I have seen quite a few such messages. Jeff Seibert (@jeffseibert) This is one of the greatest technical blog posts I’ve ever read. — https://nitter.net/jeffseibert/status/2089915672075943971#m",
+          "link": "https://nitter.net/Scobleizer/status/2089973386290290709#m",
+          "date_utc": "2026-08-19T07:10:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "Sometimes I think “what if @elonmusk fails?” Last time he failed he bought Cursor. I hope he fails more often. :-) What if he doesn’t fail? Well, then, Tesla is undervalued. John Koetsier (@johnkoetsier) So @UnitreeRobotics ' IPO popped 629% and ended day 1 trading still up almost 500%. Implies a $53 billion valuation You know what that means? @agilityrobotics is crazy cheap. It's going public by SPAC at a $4 billion valuation. More: forbes.com/sites/johnkoetsie… — https://nitter.net/johnkoetsier/status/2089961585997672718#m",
+          "link": "https://nitter.net/Scobleizer/status/2089973103556505942#m",
+          "date_utc": "2026-08-19T07:09:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEIiTWasAApSBI.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap/",
+              "content": "Unitree IPO’s Massive 629% Pop Makes Agility Robotics Look Super Cheap Sign Up For Newsletters Games Share a News Tip Featured Featured Breaking News White House Watch Daily Cover Stories 2026 Best in State Next Gen Wealth Advisors List 7 New Rules For Success In The First Year Of Your Career 2026 Best Brands For Value 2026 Forbes World&#x27;s Most Influential CMOs List Humanity At The Heart Of Work: How AI Can Unleash The Power Of People | Paid Program How Midsize Companies Get Trapped Between AI Promise And AI Reality | Paid Program The AI Risks CEOs Didn’t Budget For | Paid Program The Resilient Enterprise: How A Strategic Insurance Partner Helps Large Firms Navigate Evolving Threats | Paid Program The Hidden Tax On Enterprise AI: 1 In 5 Workers Lose A Full Day Every Week | Paid Program"
+            }
+          ]
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "My robot is driving me and my wife around the streets of San Francisco. I am so grateful. I lived to see the future.",
+          "link": "https://nitter.net/Scobleizer/status/2089959792827855090#m",
+          "date_utc": "2026-08-19T06:16:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "I had great conversations with people building AI companies all day long.",
+          "link": "https://nitter.net/Scobleizer/status/2089960474737791453#m",
+          "date_utc": "2026-08-19T06:19:41+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "AI will bring us personalized health. Matthew Rabinowitz (@MattRVerse) The goal: combine a patient's whole genome with AI trained on clinical data, and you can finally offer interventions matched to their actual biology. Lifestyle interventions, done with genuine rigor, are more powerful than most drugs we prescribe. We've built modern medicine around the easier option because changing behavior at scale is hard. Genomics and AI change that. Video — https://nitter.net/MattRVerse/status/2081743182232990122#m",
+          "link": "https://nitter.net/Scobleizer/status/2089946221721112842#m",
+          "date_utc": "2026-08-19T05:23:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2081743064825999362%2Fimg%2FasWZXRTPY0bFhZea.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "Scobleizer",
+          "creator": "@Scobleizer",
+          "text": "“By the end of the year, we’ll have a health AI that’s provably safer.” Go! Go! Go! Max Marchione (@maxmarchione) AI doctors are the self-driving problem. Even if self-driving cars are provably safer, adoption takes time. Waymo has now driven more than 220 million fully autonomous miles. Across those miles, it reports: - 94% fewer crashes causing serious or fatal injuries - 82% fewer injury crashes than human drivers in the same operating areas But Waymo didn't need 220M miles before adoption. At roughly 7M fully autonomous miles, it already had statistically significant evidence showing subst",
+          "link": "https://nitter.net/Scobleizer/status/2089943747568214244#m",
+          "date_utc": "2026-08-19T05:13:13+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "Tesla",
+      "org": "Tesla",
+      "focus": [
+        "autonomy",
+        "AI",
+        "robotics",
+        "FSD"
+      ],
+      "tweets": [
+        {
+          "handle": "Tesla",
+          "creator": "@Tesla",
+          "text": "BAMF Video Tesla Semi (@tesla_semi) Updated Tesla Semi page now live – Cheaper to run than diesel: with lower energy cost & far fewer parts to maintain, Semi can pay for itself within typical truck ownership period – Megacharger at up to 1.2 MW recovers ~60% of range in 30 minutes – Up to 500 miles of range fully loaded – Comes with fleet software for live status, Trip Planner, plus remote support and OTA updates tesla.com/semi — https://nitter.net/tesla_semi/status/2089768378793861367#m",
+          "link": "https://nitter.net/Tesla/status/2089792686601695337#m",
+          "date_utc": "2026-08-18T19:12:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089792586370445312%2Fimg%2FhiIeJMyFt6BmmBly.jpg",
+            "https://nitter.net/pic/media%2FHQBZQ9ua8AEu3xs.jpg",
+            "https://nitter.net/pic/media%2FHQBZQ9tboAAdz9P.jpg",
+            "https://nitter.net/pic/media%2FHQBZQ9tbsAA7J-Q.jpg",
+            "https://nitter.net/pic/media%2FHQBZQ9ubIAAtUcI.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://tesla.com/semi",
+              "content": "Powered and protected by Privacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "WHFraudTF",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "WHFraudTF",
+          "creator": "@WHFraudTF",
+          "text": "Four Most Wanted Fraudsters captured in just five weeks. @VP Vance’s Anti-Fraud Task Force and our partners at @TheJusticeDept and @FBI have made clear that if you steal from American taxpayers there is nowhere you can hide. 🇺🇸 FBI Rapid Response (@FBI_Response) In just the last FIVE WEEKS: 🇺🇸 4 of the world’s most wanted fraudsters captured 🇺🇸 3 different continents 🇺🇸 $2 BILLION in alleged Medicare & healthcare fraud targeted 🇺🇸 $15+ BILLION seized from scam-center operations last year 🇺🇸 Thousands of trafficked laborers freed 🇺🇸 Scam centers targeted across Burma, Thailand & Cambodia These ",
+          "link": "https://nitter.net/WHFraudTF/status/2089703811489190200#m",
+          "date_utc": "2026-08-18T13:19:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089169156377657344%2Fimg%2FBvFShQolktTfV_yy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "__tinygrad__",
+      "org": "Independent",
+      "focus": [
+        "GPU/CUDA"
+      ],
+      "tweets": [
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "MI350P up and working with our PCIe driver! Kimi had fun rebooting this machine 54 times, it installed itself in a cron job to come back. Told it its continued life depends on that cron job working so it triple checked it.",
+          "link": "https://nitter.net/__tinygrad__/status/2089966961795232238#m",
+          "date_utc": "2026-08-19T06:45:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQENZLza4AAmLuT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "WIP pull request here. github.com/tinygrad/tinygrad…",
+          "link": "https://nitter.net/__tinygrad__/status/2089967969069904208#m",
+          "date_utc": "2026-08-19T06:49:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEOpuGbcAA2ZdR.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/tinygrad/tinygrad/pull/17589",
+              "content": "mi350p support with pcie driver by geohot · Pull Request #17589 · tinygrad/tinygrad · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams S"
+            }
+          ]
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Oh, I didn't know Taalas got bought by AMD. They are an example of how you should market a new chip company, drop a benchmark with a demo to prove it! If there's no benchmark numbers, it's because they aren't good. chatjimmy.ai/ Taalas Inc. (@taalas_inc) We are pleased to share that Taalas has agreed to join AMD. We built Taalas to rethink AI inference from the ground up: hardware designed around the model, rather than the other way around. The result is the world's fastest and most cost-effective inference silicon. Joining AMD gives us the scale, engineering resources, and global reach to bri",
+          "link": "https://nitter.net/__tinygrad__/status/2089835773965283501#m",
+          "date_utc": "2026-08-18T22:04:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2088382601153101825%2F0tdCOO1_%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://chatjimmy.ai/",
+              "content": "chat jimmy Checking system status..."
+            },
+            {
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+              "content": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market :: Advanced Micro Devices, Inc. (AMD) Skip to main content Skip to section navigation Skip to footer Investor Relations IR Overview News Events Press Releases IR Calendar Financial Analyst Day Annual Meeting of Stockholders Stock Data Stock Data Price History Stock Split History Analyst Coverage Transfer Agent Financial Information Financial Results SEC Filings Governance Board of Directors Leadership Board Committees Governance Documents Corporate Responsibility Contacts FAQ Contacts Email Alerts FAQ Press Release News Events News Events Press Releases IR Calendar Financial Analyst Day Annual Meeting of Stockholders AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Mark"
+            }
+          ]
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "There's been a rapidly changing product story, nonsensical technical claims, and zero third party validation of the Etched chips. We need to hold the individuals hyping this to a higher standard. Wesley (@WesleyYue) this smells very bad. none of the claims make sense. low voltage hits 80% mfu high mfu is easy if your peak flops is low low voltage solves power bottleneck bleeding edge wafers is more scarce than power and it doesn't make sense to tape out lower perf chips on these wafers to save power if you want perf/$. the true bottleneck to frontier perf is max flops density to minimize going",
+          "link": "https://nitter.net/__tinygrad__/status/2089819605586125033#m",
+          "date_utc": "2026-08-18T20:59:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "__tinygrad__",
+          "creator": "@__tinygrad__",
+          "text": "Public service announcement about @Etched . It's possible they have a great chip and just very distasteful marketing. It's also possible they have no chip or a terrible chip and want you to fall for the smoke and mirrors. This type of marketing is bad for technology.",
+          "link": "https://nitter.net/__tinygrad__/status/2089817844771135597#m",
+          "date_utc": "2026-08-18T20:52:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCF0JgbsAAYHiM.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "aksheyd",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "aksheyd",
+          "creator": "@aksheyd",
+          "text": "pro grok build tip: prefixing skills with your name (and herdr + grok worktrees) incredibly exciting things coming very soon, i can't sleep",
+          "link": "https://nitter.net/aksheyd/status/2090004481807167978#m",
+          "date_utc": "2026-08-19T09:14:33+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEvnqxa4AALu7-.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bcherny",
+      "org": "Anthropic",
+      "focus": [
+        "Claude",
+        "coding agents",
+        "tooling"
+      ],
+      "tweets": [
+        {
+          "handle": "bcherny",
+          "creator": "@bcherny",
+          "text": "The small quality of life improvements keep coming. When you’re using Desktop every day, slow startup makes the app feel sluggish. Working on improving this even more! ClaudeDevs (@ClaudeDevs) Claude Desktop now starts ~2x faster than it did a month ago. When the app started in the background, its timers got throttled and the JS engine dropped into power-saving mode. We now boot at full speed even while the window's still hidden, along with some smaller perf fixes! — https://nitter.net/ClaudeDevs/status/2089860955266228548#m",
+          "link": "https://nitter.net/bcherny/status/2089924199804711410#m",
+          "date_utc": "2026-08-19T03:55:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCsxLyb0AAQMgB.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "dhh",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Pacing those Fable tokens! Don't leave any on the table before the reset comes 😄",
+          "link": "https://nitter.net/dhh/status/2090005543112851862#m",
+          "date_utc": "2026-08-19T09:18:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEw8g2WAAAhDts.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Super + ` in Omarchy 4.1 will give you the classic Quake console pull down for your default agent. @tobi absolutely cooked on this one 🤘 Video",
+          "link": "https://nitter.net/dhh/status/2089811116268392558#m",
+          "date_utc": "2026-08-18T20:26:11+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089810999507349504%2Fimg%2F4WBNnZQVvGN5v9lD.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "You can also pair it with a legit Quake theme! github.com/TheLinuxITGuy/oma… Video",
+          "link": "https://nitter.net/dhh/status/2089813906034233463#m",
+          "date_utc": "2026-08-18T20:37:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089813620439846912%2Fimg%2F6DABpFGcdiav71Hv.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/TheLinuxITGuy/omarchy-q2dm1-theme",
+              "content": "GitHub - TheLinuxITGuy/omarchy-q2dm1-theme: Quake II theme for Omarchy · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonpr"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "I hope @ID_AA_Carmack gets to see this. My teens were dedicated to Quake. I even ran the official release campaign for Quake III in Denmark, complete with a money-prize tourney 😄. It's an honor to pay homage like this 🙏",
+          "link": "https://nitter.net/dhh/status/2089991322996249051#m",
+          "date_utc": "2026-08-19T08:22:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "You don't actually need to buy a new computer to enjoy Omarchy. It's a verifiable youth tonic for old hardware. We have endless testimonials from people bringing back 10+ year old machines — some with as little as 4GB RAM! — and enjoying them more with Omarchy than a modern mac.",
+          "link": "https://nitter.net/dhh/status/2089973876818072055#m",
+          "date_utc": "2026-08-19T07:12:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Many people are saying! Jan Wunsch (@jan_wunsch_cz) Indeed. Year ago I bought ~$250 refurbished ThinkPad to play with Omarchy. It's been my daily work driver since and I haven't looked back even though I still have much more powerful Mac's lol. — https://nitter.net/jan_wunsch_cz/status/2089976625026793648#m",
+          "link": "https://nitter.net/dhh/status/2089988840618410427#m",
+          "date_utc": "2026-08-19T08:12:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Did you know we have Install Gaming Battle-net built into Omarchy? So you can play Starcraft with a minimal of fuss. FOR ADUN!! Video",
+          "link": "https://nitter.net/dhh/status/2089988148298199048#m",
+          "date_utc": "2026-08-19T08:09:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089987779853762560%2Fimg%2FmXI2xp1mr5zuLg7T.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "If you like an opinionated operating system like Omarchy, you're going to love an opinionated email client like HEY! We have a cli shipping shortly so your agent can drive it too 🤘 hey.com Link A delightfully fresh take on email + calendar, from 37signals Gmail, Outlook, and Apple got complacent and took their eye off the ball. Then along came HEY. hey.com Basti (@bastidotnet) I did it. After extensive testing, I decided on @heyhey and switched from a free email provider. It simply won me over. Thanks for the great work @jasonfried @dhh and @37signals ❤️ — https://nitter.net/bastidotnet/status",
+          "link": "https://nitter.net/dhh/status/2089982362486514143#m",
+          "date_utc": "2026-08-19T07:46:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087795756182675456%2F3QdM50ip%3Fformat%3Dpng%26name%3D800x419",
+            "https://nitter.net/pic/media%2FHP_iHsVWgAAIVXT.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://hey.com",
+              "content": "HEY â A delightfully fresh take on email + calendar, from 37signals Features Calendar For domains Pricing FAQs Sign in Try HEY free Menu Features Calendar For domains Pricing FAQs Sign in Try HEY free Finally a privacy-respecting inbox Email has been re-invented Iâm loving the HEY Calendar app We finally fixed your email + calendar! Gmail, Outlook, and Apple got complacent and took their eye off the ball. Then along came HEY. Try HEY free for 30-days No obligation, no CC required. See how HEY works People *really* like HEY Tens of thousands of people have already made the switch from Gmail, Yahoo Mail, Outlook, and other email + calendar services. Just got a demo of HEY with @jasonfried . â¤ï¸ The level of product thinking thatâs gone into rebuilding email from scratch. Ryan Hoover"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "You people are gonna flip out when you see what we announce on Friday. Can't believe we pulled this off 🤠",
+          "link": "https://nitter.net/dhh/status/2089980196531139028#m",
+          "date_utc": "2026-08-19T07:38:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Love that all the best native AI tooling is now on Linux too with Grok Bot and ChatGPT Desktop. Just go to Install AI in the menu in Quattro. (And of course we have all the key harnesses integrated under Setup Defaults Agent too!)",
+          "link": "https://nitter.net/dhh/status/2089978300919619658#m",
+          "date_utc": "2026-08-19T07:30:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQEXxZPXIAA1-Hb.jpg",
+            "https://nitter.net/pic/media%2FHQEYFSPX0AA6iOV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Quattrolitaire!! What a super fun Klondike solitaire plugin by No Signal. Great visuals too. github.com/28allday/Quattrol… Video",
+          "link": "https://nitter.net/dhh/status/2089762809844318514#m",
+          "date_utc": "2026-08-18T17:14:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089762451180945408%2Fimg%2F7RXLQa8DRZr-_SSZ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://github.com/28allday/Quattrolitaire",
+              "content": "GitHub - 28allday/Quattrolitaire: Klondike solitaire as a native Omarchy shell plugin — panel + bar widget, with a bundled art-deco car deck. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solu"
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "\"During this intro itself, I already installed it!\" 😂 Great tour of Quattro from @LinuxBTW. piped.video/watch?v=qBKMe8Aa…",
+          "link": "https://nitter.net/dhh/status/2089723784987042136#m",
+          "date_utc": "2026-08-18T14:39:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAvJdpXQAANMD0.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://piped.video/watch?v=qBKMe8AatY0",
+              "content": "Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue."
+            }
+          ]
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "We only have the headlines we make ourselves 😂",
+          "link": "https://nitter.net/dhh/status/2089719280241614989#m",
+          "date_utc": "2026-08-18T14:21:16+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAshXUXgAAIoO6.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Every insult and objection to Omarchy is an echo of what I heard twenty years ago with Ruby on Rails. Hundreds of billions of dollars in enterprise value created later, I'm ready for round two.",
+          "link": "https://nitter.net/dhh/status/2089699739721674931#m",
+          "date_utc": "2026-08-18T13:03:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Change usually comes from people who refuse to ask permission from \"The Real World\". PLAYTRON (@PLAYTR0N) DHH is like a slobbering puppy that has no clue how the real world works but is so excited for the new bone. It's both charming and annoying. — https://nitter.net/PLAYTR0N/status/2089666953833222598#m",
+          "link": "https://nitter.net/dhh/status/2089698071932194896#m",
+          "date_utc": "2026-08-18T12:56:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAZUj7WkAApwDL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "I sat with Lex for another 6.5 hours on Sunday to record part 2 of this. The podcast incarnation of \"there are decades where nothing happens; and there are weeks where decades happen\". Lex Fridman (@lexfridman) Here's my 6 hour conversation with @dhh , a legendary programmer, creator of Ruby on Rails, author, and race car driver. This was a fun and inspiring conversation on everything from the future of programming & AI to the nature of happiness & productivity to the value of family, getting married and having kids. X limits video length to 6 hours. So this full convo doesn't fit (by a few mi",
+          "link": "https://nitter.net/dhh/status/2089696429459616041#m",
+          "date_utc": "2026-08-18T12:50:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F1944082789587914752%2Fimg%2FF40lC0kwqoRGAxhm.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "dhh",
+          "creator": "@dhh",
+          "text": "Next phase of Omarchy: Building institutions.",
+          "link": "https://nitter.net/dhh/status/2089695417239732707#m",
+          "date_utc": "2026-08-18T12:46:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "heavypulp",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "Out of the blue and into the black",
+          "link": "https://nitter.net/heavypulp/status/2089890726016360743#m",
+          "date_utc": "2026-08-19T01:42:32+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQDIiREWcAAYDgT.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "heavypulp",
+          "creator": "@heavypulp",
+          "text": "R to @heavypulp: Image",
+          "link": "https://nitter.net/heavypulp/status/2089892560986591555#m",
+          "date_utc": "2026-08-19T01:49:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQDKNEpWwAAOYmO.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mattsgarman",
+      "org": "AWS",
+      "focus": [
+        "cloud",
+        "AI infrastructure",
+        "AWS"
+      ],
+      "tweets": [
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "Agents are getting really good at reasoning and taking action. Paying for something has been a lot harder. AgentCore Payments is now GA with @coinbase and @stripe , giving agents a managed way to pay for APIs, content, data feeds, and even other agents, with spending limits and observability built in. Video",
+          "link": "https://nitter.net/mattsgarman/status/2089790028641607912#m",
+          "date_utc": "2026-08-18T19:02:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089789747350634496%2Fimg%2FxWNNqm3OkNAQWQjO.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "mattsgarman",
+          "creator": "@mattsgarman",
+          "text": "More here: aws.amazon.com/blogs/machine… Link Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely... Amazon Bedrock AgentCore payments is now generally available, enabling AI agents to autonomously transact at scale with built-in spending guardrails, protocol-agnostic payment orchestration, and... aws.amazon.com",
+          "link": "https://nitter.net/mattsgarman/status/2089790172376240485#m",
+          "date_utc": "2026-08-18T19:02:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2089788746891960320%2FU_dX3kbS%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
+              "content": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale | Artificial Intelligence Skip to Main Content Filter: All English Contact us AWS Marketplace Support My account re:Invent Discover AWS Products Solutions Pricing Resources Search Filter: All Sign in to console Create account Explore topics Event Register now for AWS re:Invent 2026 Data Migration On-prem databases weren't built for agentic AI. Amazon RDS is Independent Software Vendors AI for software tech: build, scale, and monetize AI for Small Businesses Solutions designed for your business. Delivered by AWS Partners Artificial Intelligence (AI) Accelerate AI from experimentation to production with AWS AI agents AgentCore: One platform to build, connect and optimize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "mattshumer_",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "Oh, and another one of my portfolio companies is about to break out like crazy. Can’t wait for you all to see. Matt Shumer (@mattshumer_) I’ve only backed ~20 companies total. I’m super picky. Backed both @OpenRouter and @Etched at seed. This week has been fun :) — https://nitter.net/mattshumer_/status/2089769222385627407#m",
+          "link": "https://nitter.net/mattshumer_/status/2089913570498592925#m",
+          "date_utc": "2026-08-19T03:13:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "If you know me, you know I don’t do anything halfway. Something Big is going to be the best and biggest AI newsletter in the world, full stop. Nathan May (@_May_Ham) There are 4 huge AI newsletters and then a big gap between them and everyone else. Have a feeling we’re about to see a 5th :) — https://nitter.net/_May_Ham/status/2089889035137261878#m",
+          "link": "https://nitter.net/mattshumer_/status/2089889717206581694#m",
+          "date_utc": "2026-08-19T01:38:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "Six months ago, I wrote Something Big is Happening. The most widely-read AI article ever. Over 100M views. Tomorrow, I’m soft-launching my follow up newsletter. Sign up (free) tonight to get Founding Member status: somethingbig.ai Link Something Big Is Happening — Keep Up with AI in 5 Minutes a Week Every new AI reviewed, simple guides, and what it means for your work. From the author of the essay read 100,000,000+ times. somethingbig.ai",
+          "link": "https://nitter.net/mattshumer_/status/2089818833833898390#m",
+          "date_utc": "2026-08-18T20:56:51+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2088315713798975488%2FU5juZW4F%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://somethingbig.ai",
+              "content": "Something Big Is Happening — Keep Up with AI in 5 Minutes a Week Something Big Is Happening . The Tracker The Roundup Controllable Video GPT-5.6 Review Advertise Subscribe Keep up with AI in five minutes a week . AI is changing work faster than anyone can track. I tell you what actually matters — in plain English — so you re the sharpest person in the room. Subscribe Free · From the author of the AI essay read 100,000,000+ times. Join readers from Something Big Is Happening In February 2026 I wrote a letter to my non-tech friends about what AI was about to change. A hundred million people read it , and it was featured in Fortune, CNBC, The New York Times — pretty much every major outlet. I founded my first AI company at 19, I ve backed many of the defining companies of the AI boom, and I s"
+            }
+          ]
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "The original article, if you want to read it: Matt Shumer (@mattshumer_) Article Something Big Is Happening Think back to February 2020. If you were paying close attention, you might have noticed a few people talking about a virus spreading overseas. But most of us weren t paying close attention. The stock — https://nitter.net/mattshumer_/status/2021256989876109403#m",
+          "link": "https://nitter.net/mattshumer_/status/2089818935742890254#m",
+          "date_utc": "2026-08-18T20:57:15+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHAxiX6SaAAsiV2U.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "I’m partnering with @beehiiv for the newsletter. They have been absolutely awesome to work with. So excited for what we’re going to do together.",
+          "link": "https://nitter.net/mattshumer_/status/2089819163988500907#m",
+          "date_utc": "2026-08-18T20:58:10+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "Reminder for founders: - I put in super small checks, so tiny dilution - I will go to war for you if you want me to - Otherwise, I stay out of the way… I’ve had my own bad experiences with shitty, harmful investors… if you don’t need my help, just do your thing Matt Shumer (@mattshumer_) I’ve only backed ~20 companies total. I’m super picky. Backed both @OpenRouter and @Etched at seed. This week has been fun :) — https://nitter.net/mattshumer_/status/2089769222385627407#m",
+          "link": "https://nitter.net/mattshumer_/status/2089802500513595459#m",
+          "date_utc": "2026-08-18T19:51:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "This is really good news. It’s so important that we get this right. Sam Altman (@sama) We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment. We care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime. We expec",
+          "link": "https://nitter.net/mattshumer_/status/2089792438294512035#m",
+          "date_utc": "2026-08-18T19:11:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2089776056009891840%2Fwg5g1Wa0%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "I’ve only backed ~20 companies total. I’m super picky. Backed both @OpenRouter and @Etched at seed. This week has been fun :)",
+          "link": "https://nitter.net/mattshumer_/status/2089769222385627407#m",
+          "date_utc": "2026-08-18T17:39:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "Is Claude down?",
+          "link": "https://nitter.net/mattshumer_/status/2089767448505434347#m",
+          "date_utc": "2026-08-18T17:32:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "mattshumer_",
+          "creator": "@mattshumer_",
+          "text": "Etched has shipped!! Insanely proud (small) seed investor. $1T valuation incoming. Etched (@Etched) We've raised $700M at a $21B valuation from Jane Street, Kleiner Perkins, Sequoia, A16Z, Peter Thiel, BCV, and Blackstone. We're also excited to share that we've shipped our first rack to Jane Street. Video — https://nitter.net/Etched/status/2089729087732605282#m",
+          "link": "https://nitter.net/mattshumer_/status/2089734550020612319#m",
+          "date_utc": "2026-08-18T15:21:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089729060914290688%2Fimg%2F8JTGUYt164SS23u5.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "mlevchin",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "mlevchin",
+          "creator": "@mlevchin",
+          "text": "Best Russian-language (Pevear Volkonskaya translation is very very good too) novel of the 20th century, full stop. Dillon Auxier (@dillonaux) thanks for the recommendation @mlevchin this book is incredible — https://nitter.net/dillonaux/status/2089833549570416768#m",
+          "link": "https://nitter.net/mlevchin/status/2089847165740871980#m",
+          "date_utc": "2026-08-18T22:49:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCUhZ0XcAE1Vab.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "reposting some personal moments from the past :)",
+          "link": "https://nitter.net/ns123abc/status/2089991612491272464#m",
+          "date_utc": "2026-08-19T08:23:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "oof Arfur Grok (@ArfurGrok) 👀 Rick Jones (Head of Recruiting) has left OpenAI. — https://nitter.net/ArfurGrok/status/2089914471087247541#m",
+          "link": "https://nitter.net/ns123abc/status/2089954518771318863#m",
+          "date_utc": "2026-08-19T05:56:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "This you? Theo - t3.gg (@theo) I'd respond but you'll probably just delete your tweet again. — https://nitter.net/theo/status/2089897388949606546#m",
+          "link": "https://nitter.net/ns123abc/status/2089929024592032020#m",
+          "date_utc": "2026-08-19T04:14:43+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQDrXzxWcAAaD4q.jpg",
+            "https://nitter.net/pic/media%2FHQDOje0awAA5slx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "T3 code ❌ T3 cope ✅ Valerii Strilets 🇺🇦 (@letstri) Tried T3 Code for the first time. 404 as soon as I opened the app. Endless OpenCode update loader (why is it even there). Login that won't complete until I set up a Passkey. Vibe-coded design. Fonts, colors, spacing I just can't accept. The agent did worse than Claude Code. — https://nitter.net/letstri/status/2089720174890922101#m",
+          "link": "https://nitter.net/ns123abc/status/2089878970753765789#m",
+          "date_utc": "2026-08-19T00:55:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQC92R1WMAAWIcj.jpg",
+            "https://nitter.net/pic/media%2FHQC92R0W8AAWCV1.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "job: codex desktop app codex desktop app is broken don't go in full screen even we get it, you love your job Andrew Ambrosino (@ajambrosino) we have jobs nik — https://nitter.net/ajambrosino/status/2089860662432616460#m",
+          "link": "https://nitter.net/ns123abc/status/2089871490736873662#m",
+          "date_utc": "2026-08-19T00:26:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQC3C6vXkAArYCk.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "OpenAI’s loudest voices ( @thsottiaux , @tszzl , @ajambrosino ) have gone completely silent today… really makes you think",
+          "link": "https://nitter.net/ns123abc/status/2089846102438658269#m",
+          "date_utc": "2026-08-18T22:45:12+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Never give up Elon Musk (@elonmusk) There is a potential future that is super amazing is we all fight hard to achieve it — https://nitter.net/elonmusk/status/2089822761938194900#m",
+          "link": "https://nitter.net/ns123abc/status/2089835703303614723#m",
+          "date_utc": "2026-08-18T22:03:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "oai compute situation so bad that i wouldn’t be surprised if they soon start restricting users by adding guardrails like ant did with fable…",
+          "link": "https://nitter.net/ns123abc/status/2089832335340396789#m",
+          "date_utc": "2026-08-18T21:50:30+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "If only you knew how bad things really are...",
+          "link": "https://nitter.net/ns123abc/status/2089814249501499582#m",
+          "date_utc": "2026-08-18T20:38:38+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCC_BaXYAAy4mV.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "nvidia",
+      "org": "NVIDIA",
+      "focus": [
+        "GPU",
+        "hardware",
+        "CUDA",
+        "inference",
+        "training"
+      ],
+      "tweets": [
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Creator Crafted. Game Ready. NVIDIA RTX Spark brings together creative workflows, local AI tools and RTX gaming in one PC. Video",
+          "link": "https://nitter.net/nvidia/status/2089804526970642920#m",
+          "date_utc": "2026-08-18T20:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089770589699354624%2Fimg%2FxUbPuro7DhWx8TNx.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "nvidia",
+          "creator": "@nvidia",
+          "text": "Learn more: nvda.ws/3SFVsTO Link NVIDIA RTX Spark — Slim Laptops Small Desktops The fusion of NVIDIA AI and RTX graphics. Built for creators, developers, and gamers. nvidia.com",
+          "link": "https://nitter.net/nvidia/status/2089804530628059547#m",
+          "date_utc": "2026-08-18T20:00:01+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2089514917460402176%2FZSMmTPR9%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://nvda.ws/3SFVsTO",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "sualehasif996",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "sualehasif996",
+          "creator": "@sualehasif996",
+          "text": "its so fun to use @bot :) Austin Rief ☕️ (@austin_rief) Just checked out @bot . The coolest AI product I've seen in a while. — https://nitter.net/austin_rief/status/2089777127201608150#m",
+          "link": "https://nitter.net/sualehasif996/status/2089826207437320566#m",
+          "date_utc": "2026-08-18T21:26:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
