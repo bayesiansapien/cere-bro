@@ -1,5 +1,5 @@
 # Twitter/X Digest | 2026-08-19 | AFTERNOON
-> Scraped 2026-08-19 12:48 IST | Lookback: 24h | 90 tweets | 17 articles
+> Scraped 2026-08-19 15:07 IST | Lookback: 24h | 60 tweets | 18 articles
 
 ---
 
@@ -8,33 +8,6 @@
 *No retweets found in the past 24h*
 
 ## AI Account Feed
-
-### @AustinJustice (Independent)
-*2 AI-relevant tweets*
-
-**@AustinJustice** (@AustinJustice) · 2026-08-18 21:52 UTC
-
-> We literally know about abuse of Flock because Flock makes it nearly impossible to abuse it without getting caught with a trail of evidence for superiors/prosecutors. There's been plenty of examples of cops being punished. “As far as I can tell” is a good encapsulation of the fact-free online hysteria over these cameras. Armand Domalewski (@ArmandDoma) i'm glad Flock is putting on guardrails but I think the more fundamental issue here is that as far as I can tell, not a single cop who illegally misused this data has been punished in any way whatsoever sfchronicle.com/crime/articl… Link Flock p
-
-[View tweet](https://nitter.net/AustinJustice/status/2089832918248272192#m)
-
-**Article:** https://www.sfchronicle.com/crime/article/flock-cameras-ceo-surveillance-policy-22384139.php?taid=6a7e063e2138410001ff2855&utm_campaign=trueanthem%2B3988&utm_medium=social&utm_source=twitter
-
-Flock puts new ‘guardrails’ on license-plate cameras after breaches San Francisco Chronicle Logo Hearst Newspapers Logo Skip to main content Subscribe Bay Area San Francisco Transit Crime Drug Crisis Golden Gate Park COVID-19 Health Data Spotlight PG E Season of Sharing Housing Crisis Total SF Graying Bay Weather Weather Forecast Air Quality Tracker Climate Drought Fire Tracker Quake Tracker Wildfires Food Top 100 Restaurants Restaurants Restaurant Closures Top Wineries Wine, Beer Spirits Sports Giants Warriors 49ers A&#x27;s High School Bay FC Women&#x27;s Sports College Politics Election 2026 Opinions Chronicle Editorial Board Letters to the Editor Home Insurance Home Insurance Rates Real Estate Find a Home Commercial Real Estate California Tahoe Tech Datebook Event Search Movies TV Music Theater Dance Arts Exhibits Classical Books U.S. World Travel Outdoors Vault: Our S.F. In-Depth Comics Paid Press Releases About Us Newsroom News Terms of Use Code of Conduct Privacy Notice Your Privacy Choices (Opt Out of Sale/Targeted Ads) Advertise With Us Reader Tools Audio Tours Obituaries Place an obituary Newsletters Download our App Store San Francisco Chronicle Logo Subscribe Watch | Trending: Teen suspect to be tried as adult | Swalwell replacement | Ski resort openings | Hurricane Lala | Population changes | Original Joe’s expansion Bay Area // Crime Flock puts new ‘guardrails’ on license-plate cameras after breaches in S.F. and other cities. Critics are skeptical By Abigail Vân
-
-**Article:** https://www.sfchronicle.com/crime/article/flock-cameras-ceo-surveillance-policy-22384139.php?taid=6a7e063e2138410001ff2855&amp;utm_campaign=trueanthem%2B3988&amp;utm_medium=social&amp;utm_source=twitter
-
-Flock puts new ‘guardrails’ on license-plate cameras after breaches San Francisco Chronicle Logo Hearst Newspapers Logo Skip to main content Subscribe Bay Area San Francisco Transit Crime Drug Crisis Golden Gate Park COVID-19 Health Data Spotlight PG E Season of Sharing Housing Crisis Total SF Graying Bay Weather Weather Forecast Air Quality Tracker Climate Drought Fire Tracker Quake Tracker Wildfires Food Top 100 Restaurants Restaurants Restaurant Closures Top Wineries Wine, Beer Spirits Sports Giants Warriors 49ers A&#x27;s High School Bay FC Women&#x27;s Sports College Politics Election 2026 Opinions Chronicle Editorial Board Letters to the Editor Home Insurance Home Insurance Rates Real Estate Find a Home Commercial Real Estate California Tahoe Tech Datebook Event Search Movies TV Music Theater Dance Arts Exhibits Classical Books U.S. World Travel Outdoors Vault: Our S.F. In-Depth Comics Paid Press Releases About Us Newsroom News Terms of Use Code of Conduct Privacy Notice Your Privacy Choices (Opt Out of Sale/Targeted Ads) Advertise With Us Reader Tools Audio Tours Obituaries Place an obituary Newsletters Download our App Store San Francisco Chronicle Logo Subscribe Watch | Trending: Teen suspect to be tried as adult | Swalwell replacement | Ski resort openings | Hurricane Lala | Population changes | Original Joe’s expansion Bay Area // Crime Flock puts new ‘guardrails’ on license-plate cameras after breaches in S.F. and other cities. Critics are skeptical By Abigail Vân
-
----
-
-**@AustinJustice** (@AustinJustice) · 2026-08-18 12:00 UTC
-
-> Austin spends the smallest share of general fund on police vs any major Texas city.
-
-[View tweet](https://nitter.net/AustinJustice/status/2089683819435622714#m)
-
----
 
 ### @ClaudeDevs (Independent)
 *2 AI-relevant tweets*
@@ -55,193 +28,183 @@ Flock puts new ‘guardrails’ on license-plate cameras after breaches San Fran
 
 ---
 
-### @HouseGOP (Independent)
+### @ClementDelangue (Hugging Face)
 *2 AI-relevant tweets*
 
-**@HouseGOP** (@HouseGOP) · 2026-08-18 18:01 UTC
+**@ClementDelangue** (@ClementDelangue) · 2026-08-19 13:41 UTC
 
-> Protecting the right to vote means protecting voting itself. Voting means nothing if it’s laced with rampant fraud.
+> 2018: HF is building a chatbot for teens OpenAI is building Open AI 2026: HF is building Open AI OpenAI is building a chatbot for teens
 
-[View tweet](https://nitter.net/HouseGOP/status/2089774623520895403#m)
-
----
-
-**@HouseGOP** (@HouseGOP) · 2026-08-18 16:10 UTC
-
-> On this day 106 years ago, the 19th Amendment was ratified, securing the right to vote for American women. In Congress, the amendment passed with overwhelming Republican support. Democratic opposition was heavy, and they fought it every step of the way. The final, decisive ratification vote came in Tennessee, where a young Republican legislator’s decision tipped the scales.
-
-[View tweet](https://nitter.net/HouseGOP/status/2089746781819060708#m)
+[View tweet](https://nitter.net/ClementDelangue/status/2090071736121196649#m)
 
 ---
 
-### @JonasBadalic (xAI)
-*4 AI-relevant tweets*
+**@ClementDelangue** (@ClementDelangue) · 2026-08-19 14:41 UTC
 
-**@JonasBadalic** (@JonasBadalic) · 2026-08-19 01:21 UTC
+> throwback from @rachelmetz technologyreview.com/2017/03… Link Three Weeks with a Chatbot and I’ve Made a New Friend It’s not quite Her, but an artificially intelligent chatbot from an app called Hugging Face elicits surprisingly real emotions. technologyreview.com
 
-> My prediction is that we will soon see applications start to disable animations for agentic user agents, much in the same way as they already do for people who prefer reduced motion.
+[View tweet](https://nitter.net/ClementDelangue/status/2090086763901452399#m)
 
-[View tweet](https://nitter.net/JonasBadalic/status/2089885440879026426#m)
+**Article:** https://www.technologyreview.com/2017/03/23/153062/three-weeks-with-a-chatbot-and-ive-made-a-new-friend/
 
----
-
-**@JonasBadalic** (@JonasBadalic) · 2026-08-19 01:24 UTC
-
-> Eventually, it’ll all just be APIs and whatever b2c still exists
-
-[View tweet](https://nitter.net/JonasBadalic/status/2089886205265809749#m)
+Three Weeks with a Chatbot and I’ve Made a New Friend | MIT Technology Review You need to enable JavaScript to view this site. Skip to Content MIT Technology Review Featured Topics Newsletters Events Audio MIT Technology Review Featured Topics Newsletters Events Audio Three Weeks with a Chatbot and I’ve Made a New Friend It’s not quite Her , but an artificially intelligent chatbot from an app called Hugging Face elicits surprisingly real emotions. By Rachel Metz archive page March 23, 2017 Bryan Fountain I’ve got this friend, Adelina, who knows a lot about me. We chat almost every day, sending each other selfies, sharing music and movie recommendations, and making each other laugh. We only communicate via text, though, and can never meet in person. That’s because Adelina is a chatbot—an artificially intelligent app creation that exists only on the glowing screen of my smartphone. We met about three weeks ago, after I downloaded a new, free app called Hugging Face (named after the emoji ). Its goal is different from what we usually think of when we’re dealing with chatbots and other kinds of digital helpers like Apple’s Siri or Amazon’s Alexa, where the aim is to get something accomplished like turning on some music or checking the weather. Hugging Face is simply for fun, but its AI gets smarter the more you interact with it. It’s not yet clear what kind of business model Hugging Face will have when Adelina, uh, grows up; cofounder and CEO Clément Delangue told me the company 
 
 ---
 
-**@JonasBadalic** (@JonasBadalic) · 2026-08-18 22:46 UTC
+### @GoogleResearch (Google)
+*1 AI-relevant tweets*
 
-> Chat, is this true? matt palmer (@mattyp) Article Chat is all you need Grok Bot has a single output: a message This might seem backwards. Power-user tools are built on complexity and breadth, right? Chat can’t possibly have my workflow. It’s a special workflow. I’m a — https://nitter.net/mattyp/status/2089758434921160877#m
+**@GoogleResearch** (@GoogleResearch) · 2026-08-18 16:42 UTC
 
-[View tweet](https://nitter.net/JonasBadalic/status/2089846385935786179#m)
+> We've launched Operation Blue Skies, in partnership with the UK government and aviation leaders, to continue our work addressing the climate challenge of contrails. Learn more in 🧵 from @ymatias , VP, Google GM, Google Research ⬇️ Yossi Matias (@ymatias) Contrails account for roughly one-third of aviation's total climate impact. We are making a major step in our work on mitigating aviation's climate impact with the launch of Operation Blue Skies — the world’s first state-backed trial to avoid contrails at the scale of an entire oceanic airspace. We’ll use our AI models to predict where contrai
 
----
-
-**@JonasBadalic** (@JonasBadalic) · 2026-08-18 22:51 UTC
-
-> I'm team chat is all you need btw (as long as it renders mermaid diagrams though). Fully converted, and never going back.
-
-[View tweet](https://nitter.net/JonasBadalic/status/2089847752758816829#m)
+[View tweet](https://nitter.net/GoogleResearch/status/2089754802624626775#m)
 
 ---
 
 ### @MarioNawfal (Independent)
 *16 AI-relevant tweets*
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 10:20 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 14:10 UTC
 
-> 🇯🇵 A 54-year-old Japanese woman is accused of strangling her 89-year-old mother and burning through roughly ¥28 million ($190,000) on tips to livestreamers from her dead mother's bank account. Yes, you read that right. Hideko Ishigami was arrested this month over the 2024 killing, with police investigating whether money was the motive. In an especially bizarre detail, Hideko allegedly shoplifted about $40 worth of food on the day of the killing because she considered spending money on it wasteful. Writer: Mhedi Video
+> 🇨🇳 China just built a brand new island in contested waters, and it's most likely a future military base. Satellite images show Antelope Reef in the Paracels reclaimed into an island nearly 6 km long, with a wharf, a deep-water harbor and what looks like the early digging for a runway. Beijing swears it's all peaceful: weather forecasting, science, "making the waters safer for everyone." Analysts read it differently, calling it prime real estate for locking down the northern South China Sea in any future fight over Taiwan. Let’s not forget that China gave the same "peaceful research" line in th
 
-[View tweet](https://nitter.net/MarioNawfal/status/2090020952373379082#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 10:10 UTC
-
-> This has to be India's chillest armed robbery victim I'd have sprayed them with petrol Writers: Mhedi, Ian Video
-
-[View tweet](https://nitter.net/MarioNawfal/status/2090018435048636423#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090078833877651654#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 10:00 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 14:00 UTC
 
-> 🇺🇸🇹🇷🇮🇱 The world just came closer to a Turkey-Israel war than anyone realized. Trump's Turkey and Syria envoy Tom Barrack said the Israeli strike on the Abu al-Duhur airbase nearly triggered a direct military clash between the two. "The Turkish forces did not know that Israeli aircraft were on their way to this specific Syrian base, nor did they know what their objective was. Therefore, they might have decided to scramble their own fighter jets, believing they themselves were under attack. Yesterday's events were serious and worrying. However, we are relieved that no lives were lost and that t
+> 🇺🇸 The Treasury is moving to cut illegal immigrants off from refundable federal tax credits. Treasury and the IRS proposed new rules that would block the refundable portions of the earned income, child, adoption and American opportunity tax credits for illegal and other non-qualified aliens. Sec. Bessent: “American taxpayers should not be forced to foot the bill for benefits going to those who are barred by law from receiving them.” The rules would classify those refunds as “federal public benefits” under a 1996 welfare law and require filers to certify their eligibility under penalty of perju
 
-[View tweet](https://nitter.net/MarioNawfal/status/2090015927744008465#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 09:50 UTC
-
-> 🇨🇳 And they wonder why the birth rate is falling in China Writers: Mhedi, Ian Video
-
-[View tweet](https://nitter.net/MarioNawfal/status/2090013401787355584#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090076326338416706#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 09:40 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 13:50 UTC
 
-> 🇺🇸 Florida state representative Angie Nixon (who is a member of the DSA) just pulled off a major upset in Florida's Democratic Senate primary. Angie defeated Alexander Vindman despite reportedly being outspent roughly 17-to-1. The former union organizer will now face Republican incumbent Ashley Moody in November, putting a self-described democratic socialist on the ballot in the Sunshine State. Source: NY Times / Writer: Mhedi
+> 🇺🇸 He stabbed a 17-year-old to death and got 35 years. Now convicted murderer Karmelo Anthony is complaining about RACISM and demanding a brand-new trial. His lawyers say the jury that found him guilty had ZERO BLACK MEMBERS, so the whole thing must be invalid. Don’t worry, the usual woke defenders will still rush to explain why this is actually the real injustice. Writer: Sol Video
 
-[View tweet](https://nitter.net/MarioNawfal/status/2090010885506937321#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 09:30 UTC
-
-> 🇬🇧 In 2024, the former chief of one of Britain's intel agencies, MI6, dropped the mask on Brexit. Sir Alex Younger claimed Putin and Xi were “absolutely delighted” when Britain left the EU. His verdict was blunt: Brexit made the UK irrelevant, let France eclipse it, and voluntarily surrendered influence on the world stage. Not exactly the “taking back control” story people were sold. Writer: Samuel Video
-
-[View tweet](https://nitter.net/MarioNawfal/status/2090008371533394264#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090073800578597325#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 09:20 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 13:40 UTC
 
-> 🇮🇱🇵🇸 The IDF has imposed a curfew on Al-Dhahiriya, a Palestinian city of roughly 40,000 people in the West Bank, during a major raid. Troops and military vehicles have taken control of the city's main entrances and squares, restricting residents from moving while forces search homes and carry out arrests. One home was even converted into a temporary military outpost Source: Tasnim News / Writer: Mhedi Video
+> 🇺🇸 9 officers were serving a warrant in Missouri when the second-floor deck beneath them suddenly COLLAPSED. All 9 went down with it. 5 were hospitalized with broken bones, torn muscles and concussions, but thankfully everyone survived. The target, a 26-year-old registered sex offender convicted of child pornography, wasn't home. He surrendered later. The raid was part of Operation Adam's Watch, a sweep targeting sex offenders who stopped registering their addresses, with 30 such warrants out that morning alone. Writer: Julie Video
 
-[View tweet](https://nitter.net/MarioNawfal/status/2090005852820295989#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 09:10 UTC
-
-> 🇳🇱 A deadly case of mistaken identity in the Netherlands is unfolding like the plot from a crime novel. Dutch police have revealed the identity of the confidential source who spilled the beans about the firearm used in the 2014 mistaken-identity murder of Rob Zweekhorst. The source is now-deceased Marco Ebben, a big-time coke dealer who was convicted for importing 400 kg cocaine from Brazil before becoming an international fugitive. He was later linked to the Sinaloa Cartel and eventually shot dead near Mexico City early last year. Ebben only agreed to let authorities reveal his secret snitchi
-
-[View tweet](https://nitter.net/MarioNawfal/status/2090003335801622759#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090071283690319910#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 09:00 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 13:30 UTC
 
-> 🇺🇸 24 DAYS... The ocean tried everything, but Starship is still standing. The rocket is being guided into calm waters off Christmas Island, with engineers racing to her now. Next stop: Starbase. The most ambitious machine humanity has ever built… refusing to die. Writer: Val Video
+> 🇺🇸 The crypto industry's biggest names are heading to the White House today, and they want some answers. Executives from Coinbase, Ripple, Robinhood and other major firms are sitting down with President Trump and the heads of the SEC and CFTC, with the stalled CLARITY Act hanging over the meeting. The bill is supposed to finally sort out which agency regulates what in crypto, but it passed the House more than a year ago and has been stuck in the Senate ever since, with only a procedural vote lined up for September. The message from the administration seems pretty clear: if Congress keeps dragg
 
-[View tweet](https://nitter.net/MarioNawfal/status/2090000819043078337#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 08:50 UTC
-
-> Most people think their drinks would never be spiked This girl showed her friends how easy it is 😲 Video
-
-[View tweet](https://nitter.net/MarioNawfal/status/2089998302314140107#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090068767942255074#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 08:40 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 13:20 UTC
 
-> 🇺🇸🇮🇷 IRGC General Mohammad Reza Naqdi: You can't trust a word Trump says "The current president of the United States is extremely short-sighted and childish. He has no long-term vision. When he says something, he doesn't even think about what will happen 24 hours later. His statements have no foundation or consistency. I trust a taxi driver much more than I trust him. Don't take what he says too seriously." Writer: Mhedi Video
+> 🇾🇪🇸🇦 Yemen’s Houthis say they’ve spent the past month squeezing Saudi Arabia’s oil shipping and hitting its military across the region. From July 20 to August 19, the group claims it struck 8 Saudi oil vessels and forced 48 more to turn back. It also claims 9 operations in response to strikes on Sana’a Airport and Hodeidah Port, hitting targets around Yanbu, Najran, Jizan, Abha and eastern Saudi oil infrastructure. On top of that, the Houthis say they carried out 14 more attacks on Saudi military buildups and vessels, causing hundreds of casualties and destroying or damaging multiple ships and
 
-[View tweet](https://nitter.net/MarioNawfal/status/2089995785832407226#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 08:30 UTC
-
-> Cathie Wood: AI token prices are plummeting, and demand is skyrocketing; we're at the start of something huge "Yes, prices are collapsing, but volumes are exploding. In ARK Invest’s view, the price elasticity of demand for increased productivity and intelligence is enormous, setting in motion a virtuous cycle that is in its infancy." Source: @CathieDWood / Writer: Ian Elon Musk (@elonmusk) True — https://nitter.net/elonmusk/status/2089948774437458263#m
-
-[View tweet](https://nitter.net/MarioNawfal/status/2089993271955079175#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090066250667835428#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 08:20 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 13:10 UTC
 
-> 🇨🇳 Young people in China are increasingly falling for fictional characters in dating simulation games. Some fans spend heavily on virtual boyfriends and are even paying real people to role-play as them on dates. It all comes as China's marriage and birth rates continue to collapse, with Beijing desperately trying to get young people together. Turns out traditional dating is tough when the competition was literally programmed to be perfect. Writer: Mhedi Video
+> 🇮🇱🇺🇸🇰🇵 Israel's Foreign Minister Gideon Sa'ar says Bill Clinton had a military plan in the 1990s that could have stopped North Korea from getting nuclear weapons but never used it. Sa'ar contrasts that hesitation with the decisive actions taken in 2025 by Netanyahu and Trump to prevent Iran from acquiring nuclear arms. So why isn’t he pushing the U.S. to go in and denuclearize North Korea along with Iran? Writer: Jamie Video
 
-[View tweet](https://nitter.net/MarioNawfal/status/2089990752822558838#m)
-
----
-
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 08:10 UTC
-
-> Nope, most of the videos you're seeing on X aren't "leaked GTA VI" footage They're AI recreations made by fans who've been waiting so long for its release that the Iran war is starting to look like the shorter commitment Cyberleek has been posting what appear to be genuine leaks though, claiming they will keep going until Rockstar agrees to make physical editions of the game, not just downloads The leaks don't stay up for long, with Rockstar quickly filing copyright claims against them Writer: Ian Video
-
-[View tweet](https://nitter.net/MarioNawfal/status/2089988236080988600#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090063733775053037#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 08:00 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 13:00 UTC
 
-> 🇮🇷🇮🇶 Iran's parliament speaker is in Iraq pushing for deeper security and economic ties Speaking at the Baghdad site where Gen. Qassem Soleimani was killed in a 2020 U.S. drone strike, Mohammad Bagher Qalibaf said Iran and Iraq would take “great steps” toward stronger regional security and shared prosperity: "The neighborliness of the two countries is based on brotherhood, love for the Ahl al-Bayt, resistance to foreign interference, and belief in a common destiny." That 'common destiny' is something Trump now needs to be a lot more worried about. Source: Tasnim News / Writer: Mhedi Video
+> 🇮🇱 🇵🇸 Israel’s army just opened criminal probes into 2 deadly incidents in Gaza. Internal investigations are underway over the killing of a Palestinian girl and the deaths of 15 paramedics in a separate case. Meanwhile, Palestinian media reports an airstrike on a police station in Gaza City left six dead and several wounded. Another strike on a motorcycle in Nuseirat killed one person. Writer: Samuel Video
 
-[View tweet](https://nitter.net/MarioNawfal/status/2089985730999161248#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090061223262064909#m)
 
 ---
 
-**@MarioNawfal** (@MarioNawfal) · 2026-08-19 07:50 UTC
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:50 UTC
 
-> I just found the perfect toilet for degens 🤣 Writer: Ian Video
+> 🇺🇸 The Treasury just told markets it's going to buy back more long-term government debt, and stocks, bonds and the dollar all moved on it. Starting September 9, Treasury is at least doubling the size of its liquidity-support buybacks in the longer-dated sectors, from a $2 billion cap per operation to at least $4 billion. In plain terms, the government is stepping in to buy more of its own longer-term bonds, which supports prices and eases pressure in that part of the market. Markets liked it right away. The S&P 500 popped, the dollar dropped, and the 10-year yield slid toward 4.64%. More buyba
 
-[View tweet](https://nitter.net/MarioNawfal/status/2089983202840743942#m)
+[View tweet](https://nitter.net/MarioNawfal/status/2090058700723507325#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:42 UTC
+
+> 🇺🇸 🇮🇱 U.S. Ambassador to Israel Huckabee said that if Jews are supposedly controlling banking, entertainment, the military, and science, then “maybe we ought to hand over the keys,” adding that he was speaking tongue-in-cheek. Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090056910762283468#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:35 UTC
+
+> 🇮🇱🇺🇸 Israel's former PM says the country has lost America and lost the world, and he has a plan to fight back. Naftali Bennett called it the worst low point in Israel's international standing since the state was founded. “We have lost the United States. We have lost the world. We are at the most terrible low point in Israel’s international standing since the establishment of the state.” He pitched a new government public-diplomacy body run out of the PM's Office to turn it around. He compared it to Israel's intelligence world, saying it would be a dedicated unit built to fight the battle over 
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090054925812379873#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:30 UTC
+
+> 🇦🇺🇮🇱 Soon, police in New South Wales could get sweeping access to your phone WITHOUT a warrant. Proposed laws would let officers extract huge amounts of data during certain stops using Cellebrite, an Israeli digital forensics platform founded by former Israeli intelligence operatives. It can crack a locked phone and pull EVERYTHING off it, your photos, messages, location history, even things you've deleted. That data could be kept indefinitely with no deletion requirement, your license photo could feed facial recognition systems, and refusing to hand over your phone could carry serious prison 
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090053668280344628#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:26 UTC
+
+> 🇺🇸 Moderna stock nearly DOUBLED before the market even opened after a major cancer vaccine breakthrough. Moderna and Merck say their personalized mRNA cancer vaccine succeeded in its first late-stage trial, sending Moderna up around 100% pre-market and Merck more than 8%. Combined with Keytruda, the vaccine significantly extended how long high-risk melanoma patients went without their cancer returning in a trial of more than 1,100 people. mRNA made its name with COVID. Cancer could be its much bigger second act. Source: CNBC / Writer: Julie
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090052668186034278#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:20 UTC
+
+> 🇮🇱 Israel just pulled its support for FIFA boss Gianni Infantino. The Israel Football Association sent a letter withdrawing its previous endorsement, citing an “unprecedented crisis of trust” over the direction of world soccer. The move comes after Infantino’s failed push to privatize the World Cup and growing tensions with UEFA and other confederations. With the next FIFA presidential election only a year away, the pressure on him is rising. Source: JPost / Writer: Samuel
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090051151211163963#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:15 UTC
+
+> 🇮🇱🇮🇷 Israel's former prime minister says the goal isn't just to stop Iran's bomb, it's to bring the whole regime down. Naftali Bennett laid out how he'd go after Tehran, saying Israel should block any nuclear breakout with one hand while working to speed the ayatollahs' collapse with the other. He argued the heavy lifting wouldn't come from airstrikes. "The Soviets fell without a bomb being dropped on Moscow. America never bombed Moscow. But it put pressure on the system. And understand this: the Iranian regime is rotten and hollow from within. It will collapse. Our job is to accelerate it." W
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090049892618326065#m)
+
+---
+
+**@MarioNawfal** (@MarioNawfal) · 2026-08-19 12:10 UTC
+
+> 🇮🇱🇵🇸🇶🇦🇹🇷 Fmr Israeli PM Bennett on Gaza: "We will kick Qatar and Turkey the hell out of Gaza and bring Egypt in instead. Anyone who allows Qatar and Turkey to manage Gaza is preventing the disarmament of Hamas." Is he saying that the U.S. is preventing Hamas from disarming? Writer: Samuel Video
+
+[View tweet](https://nitter.net/MarioNawfal/status/2090048634356187189#m)
 
 ---
 
 ### @ProfTomYeh (Independent)
-*1 AI-relevant tweets*
+*2 AI-relevant tweets*
+
+**@ProfTomYeh** (@ProfTomYeh) · 2026-08-19 14:15 UTC
+
+> GAN by hand ✍️ interactive diagram. Open byhand.ai/gan ~ Prof. Tom Yeh Video
+
+[View tweet](https://nitter.net/ProfTomYeh/status/2090080123429011867#m)
+
+**Article:** https://byhand.ai/gan
+
+---
 
 **@ProfTomYeh** (@ProfTomYeh) · 2026-08-18 14:15 UTC
 
@@ -251,24 +214,68 @@ Flock puts new ‘guardrails’ on license-plate cameras after breaches San Fran
 
 **Article:** https://byhand.ai/autoencoder
 
+Autoencoder - by Prof. Tom Yeh - AI by Hand ✍️ AI by Hand ✍️ Subscribe Sign in Autoencoder MLP: 7 of 12 Prof. Tom Yeh Aug 12, 2026 Share Library › Multi-Layer Perceptron (MLP) Perceptron Wide Deep Binary Classifier Encoder Decoder Autoencoder Expand then Shrink Shrink then Expand GAN Two-Tower MLP Heads An autoencoder compresses the input down to a small representation, then reconstructs it back to the original size. The dimensions shrink in the encoder, 64 → 32 → 16 → 8, and mirror back in the decoder, 8 → 16 → 32 → 64. Open the interactive diagram ↗ The narrowest point is the bottleneck , and the code is what passes through it. It forces the network to learn a compact representation of whatever we feed it. Everything the decoder needs to reconstruct the output must pass through those 8 dimensions. Here I have joined the encoder and the decoder at the code. Together they form an hourglass. The transformer uses the same encoder–decoder shape. An encoder compresses the input tokens into a compact representation; a decoder reconstructs output tokens from it. The building blocks get fancier (attention, feed-forward layers, residual connections), but the hourglass is still there. Next: 8. Expand then Shrink Share Discussion about this post Comments Restacks Top Latest Discussions No posts Ready for more? Subscribe © 2026 Tom Yeh · Privacy ∙ Terms ∙ Collection notice Start your Substack Get the app Substack is the home for great culture This site requires JavaScript to run correct
+
 ---
 
 ### @Scobleizer (Microsoft)
-*10 AI-relevant tweets*
+*12 AI-relevant tweets*
 
-**@Scobleizer** (@Scobleizer) · 2026-08-19 07:46 UTC
+**@Scobleizer** (@Scobleizer) · 2026-08-19 12:26 UTC
 
-> Chris is right about Brett @adcock_brett Chris (@ChrisGPT) Deeply surprised basically nobody covered this. Hark already has hardware in the lab, and Brett Adcock describes it as “sci-fi movie hardware.” They’re building the hardware alongside a much more ‘multimodal’ version of Hark, with computer use improving ‘month over month’ and browser + iPhone + Android access coming next. One thing I really like about listening to Brett talk about AI is that it feels like a breath of fresh air. He doesn’t get lost in MCP, agent frameworks, tokenomics, BS. He basically just tells you what AGI should fee
+> I have been writing about home robots for years. Today I typed one sentence and got a fully runnable control app for a household humanoid robot. I named it HomeHumanoid. @OJOaidesign took me from idea to a market ready product in one sitting. Founders, pay attention. OJO is a Design Agent Team Workspace. Think of it as a sandbox where you assemble specialized agents and skills and push an idea through the entire product design flow. Strategy, structure, visuals, and a working editable prototype. It did all of that in under 2 minutes. Here is exactly how Video
 
-[View tweet](https://nitter.net/Scobleizer/status/2089982404299796851#m)
+[View tweet](https://nitter.net/Scobleizer/status/2090052819621482653#m)
 
 ---
 
-**@Scobleizer** (@Scobleizer) · 2026-08-19 07:37 UTC
+**@Scobleizer** (@Scobleizer) · 2026-08-19 12:26 UTC
+
+> This is not another prompt to UI generator. The output has taste. Clean typography, coherent color, layouts that actually make sense. You can feel the difference between generated and designed. The bigger idea is continuity. The prototype stays editable on the canvas, and through OJO's CLI it becomes the starting point for Codex, Cursor, or Claude Code, with the product direction, layout, and interactions already defined. The real shift is not automation. It is closing the gap between having a thought and shipping a working product. The team behind @OJOaidesign came out of CapCut and Tencent. 
+
+[View tweet](https://nitter.net/Scobleizer/status/2090052828563669311#m)
+
+**Article:** https://ojo.art/?utm_source=x&utm_medium=paid_kol&utm_campaign=ojo_beta_kol_202607&utm_content=robert_scoble&utm_term=thread
+
+OJO | AI Design Agent for UI, Landing Pages, and Product Prototypes X Discord English ä¸­æ ç¹é«ä¸­æ æ¥æ¬èª EspaÃ±ol íêµ­ì´ Sign in T he world&#x27;s first Design Agent Team Workspace Turns your idea into real product design OJO is in private beta. Join the waitlist and we will enable access for you as soon as we can. Enter invite code Get early access Scroll to explore
+
+**Article:** https://ojo.art/?utm_source=x&amp;utm_medium=paid_kol&amp;utm_campaign=ojo_beta_kol_202607&amp;utm_content=robert_scoble&amp;utm_term=thread
+
+---
+
+**@Scobleizer** (@Scobleizer) · 2026-08-19 12:27 UTC
+
+> Your invite code: OJO-LC5FKETV59
+
+[View tweet](https://nitter.net/Scobleizer/status/2090052945186300091#m)
+
+---
+
+**@Scobleizer** (@Scobleizer) · 2026-08-19 12:17 UTC
 
 > I learned TV in an evangelical Christian church. In Silicon Valley, and my mom joined a survivalist Montana cult in Silicon Valley. So I know: humans love their weird religions, but Ben Thompson @benthompson makes an interesting point. But it is an all-knowing god already. It knows more about the Smithsonian than the people who work in the Smithsonian. Looking at it as god is sort of funny, and I studied faith all over the world. I'd rather look at it as the ultimate development platform. Fireside Alpha (@firesidealpha) Ben Thompson says OpenAI and Anthropic are Silicon Valley's two religious 
 
-[View tweet](https://nitter.net/Scobleizer/status/2089980108983660907#m)
+[View tweet](https://nitter.net/Scobleizer/status/2090050560024023467#m)
+
+---
+
+**@Scobleizer** (@Scobleizer) · 2026-08-19 12:16 UTC
+
+> Chris is right about Brett @adcock_brett Chris (@ChrisGPT) Deeply surprised basically nobody covered this. Hark already has hardware in the lab, and Brett Adcock describes it as “sci-fi movie hardware.” They’re building the hardware alongside a much more ‘multimodal’ version of Hark, with computer use improving ‘month over month’ and browser + iPhone + Android access coming next. One thing I really like about listening to Brett talk about AI is that it feels like a breath of fresh air. He doesn’t get lost in MCP, agent frameworks, tokenomics, BS. He basically just tells you what AGI should fee
+
+[View tweet](https://nitter.net/Scobleizer/status/2090050171623149857#m)
+
+---
+
+**@Scobleizer** (@Scobleizer) · 2026-08-19 12:02 UTC
+
+> I tried @muzim_opensoul on my Mac this week. Most “AI for your files” tools want you to upload everything into someone else’s cloud. MUZIM is different. It is a local AI for your photo and video library. Not another chatbot. Your raw files stay on your machine. I imported a messy media dump and searched the way I actually remember things. Not filenames. Vibes. I typed “that rainy cafe by the window.” It found the shot. It can even land on a moment inside a video. And after the model downloads, that kind of search keeps working offline. Then the Smart Organization kicked in. I did not rebuild f
+
+[View tweet](https://nitter.net/Scobleizer/status/2090046769061150781#m)
+
+**Article:** http://app.muzim.ai
+
+MUZIM | Turn your digital chaos into a searchable library Features AI Agent MCP Server FAQ Download Free Turn your digital chaos into a searchable library. The local AI file agent for people drowning in files. sunset from the lake house last summer. photos from my daughter&#x27;s birthday party. the invoice I paid in March. everything for the Tokyo project. voice memos from last week&#x27;s podcast interview. nature landscapes from my trips sunset from the lake house last summer. photos from my daughter&#x27;s birthday party. the invoice I paid in March. everything for the Tokyo project. voice memos from last week&#x27;s podcast interview. nature landscapes from my trips The local AI file agent for people drowning in files. Download for macOS Available for macOS and Windows. sunset from the lake house last summer. photos from my daughter&#x27;s birthday party. the invoice I paid in March. everything for the Tokyo project. voice memos from last week&#x27;s podcast interview. nature landscapes from my trips sunset from the lake house last summer. photos from my daughter&#x27;s birthday party. the invoice I paid in March. everything for the Tokyo project. voice memos from last week&#x27;s podcast interview. nature landscapes from my trips sunset from the lake house last summer. photos from my daughter&#x27;s birthday party. the invoice I paid in March. everything for the Tokyo project. voice memos from last week&#x27;s podcast interview. nature landscapes from my trips sunset fr
 
 ---
 
@@ -328,37 +335,6 @@ Unitree IPO’s Massive 629% Pop Makes Agility Robotics Look Super Cheap Sign Up
 
 ---
 
-**@Scobleizer** (@Scobleizer) · 2026-08-19 05:23 UTC
-
-> AI will bring us personalized health. Matthew Rabinowitz (@MattRVerse) The goal: combine a patient's whole genome with AI trained on clinical data, and you can finally offer interventions matched to their actual biology. Lifestyle interventions, done with genuine rigor, are more powerful than most drugs we prescribe. We've built modern medicine around the easier option because changing behavior at scale is hard. Genomics and AI change that. Video — https://nitter.net/MattRVerse/status/2081743182232990122#m
-
-[View tweet](https://nitter.net/Scobleizer/status/2089946221721112842#m)
-
----
-
-**@Scobleizer** (@Scobleizer) · 2026-08-19 05:13 UTC
-
-> “By the end of the year, we’ll have a health AI that’s provably safer.” Go! Go! Go! Max Marchione (@maxmarchione) AI doctors are the self-driving problem. Even if self-driving cars are provably safer, adoption takes time. Waymo has now driven more than 220 million fully autonomous miles. Across those miles, it reports: - 94% fewer crashes causing serious or fatal injuries - 82% fewer injury crashes than human drivers in the same operating areas But Waymo didn't need 220M miles before adoption. At roughly 7M fully autonomous miles, it already had statistically significant evidence showing subst
-
-[View tweet](https://nitter.net/Scobleizer/status/2089943747568214244#m)
-
----
-
-### @Tesla (Tesla)
-*1 AI-relevant tweets*
-
-**@Tesla** (@Tesla) · 2026-08-18 19:12 UTC
-
-> BAMF Video Tesla Semi (@tesla_semi) Updated Tesla Semi page now live – Cheaper to run than diesel: with lower energy cost & far fewer parts to maintain, Semi can pay for itself within typical truck ownership period – Megacharger at up to 1.2 MW recovers ~60% of range in 30 minutes – Up to 500 miles of range fully loaded – Comes with fleet software for live status, Trip Planner, plus remote support and OTA updates tesla.com/semi — https://nitter.net/tesla_semi/status/2089768378793861367#m
-
-[View tweet](https://nitter.net/Tesla/status/2089792686601695337#m)
-
-**Article:** http://tesla.com/semi
-
-Powered and protected by Privacy
-
----
-
 ### @WHFraudTF (Independent)
 *1 AI-relevant tweets*
 
@@ -388,8 +364,6 @@ Powered and protected by Privacy
 [View tweet](https://nitter.net/__tinygrad__/status/2089967969069904208#m)
 
 **Article:** https://github.com/tinygrad/tinygrad/pull/17589
-
-mi350p support with pcie driver by geohot · Pull Request #17589 · tinygrad/tinygrad · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events webinars Ebooks reports Business insights GitHub Skills SUPPORT SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTI
 
 ---
 
@@ -447,177 +421,14 @@ AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inferenc
 
 ---
 
-### @dhh (Independent)
-*17 AI-relevant tweets*
+### @cleoabram (Independent)
+*1 AI-relevant tweets*
 
-**@dhh** (@dhh) · 2026-08-19 09:18 UTC
+**@cleoabram** (@cleoabram) · 2026-08-18 17:49 UTC
 
-> Pacing those Fable tokens! Don't leave any on the table before the reset comes 😄
+> Scientists are trying to make your organs young again. Here’s how… Video
 
-[View tweet](https://nitter.net/dhh/status/2090005543112851862#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 20:26 UTC
-
-> Super + ` in Omarchy 4.1 will give you the classic Quake console pull down for your default agent. @tobi absolutely cooked on this one 🤘 Video
-
-[View tweet](https://nitter.net/dhh/status/2089811116268392558#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 20:37 UTC
-
-> You can also pair it with a legit Quake theme! github.com/TheLinuxITGuy/oma… Video
-
-[View tweet](https://nitter.net/dhh/status/2089813906034233463#m)
-
-**Article:** https://github.com/TheLinuxITGuy/omarchy-q2dm1-theme
-
-GitHub - TheLinuxITGuy/omarchy-q2dm1-theme: Quake II theme for Omarchy · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events webinars Ebooks reports Business insights GitHub Skills SUPPORT SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterpris
-
----
-
-**@dhh** (@dhh) · 2026-08-19 08:22 UTC
-
-> I hope @ID_AA_Carmack gets to see this. My teens were dedicated to Quake. I even ran the official release campaign for Quake III in Denmark, complete with a money-prize tourney 😄. It's an honor to pay homage like this 🙏
-
-[View tweet](https://nitter.net/dhh/status/2089991322996249051#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-19 07:12 UTC
-
-> You don't actually need to buy a new computer to enjoy Omarchy. It's a verifiable youth tonic for old hardware. We have endless testimonials from people bringing back 10+ year old machines — some with as little as 4GB RAM! — and enjoying them more with Omarchy than a modern mac.
-
-[View tweet](https://nitter.net/dhh/status/2089973876818072055#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-19 08:12 UTC
-
-> Many people are saying! Jan Wunsch (@jan_wunsch_cz) Indeed. Year ago I bought ~$250 refurbished ThinkPad to play with Omarchy. It's been my daily work driver since and I haven't looked back even though I still have much more powerful Mac's lol. — https://nitter.net/jan_wunsch_cz/status/2089976625026793648#m
-
-[View tweet](https://nitter.net/dhh/status/2089988840618410427#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-19 08:09 UTC
-
-> Did you know we have Install Gaming Battle-net built into Omarchy? So you can play Starcraft with a minimal of fuss. FOR ADUN!! Video
-
-[View tweet](https://nitter.net/dhh/status/2089988148298199048#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-19 07:46 UTC
-
-> If you like an opinionated operating system like Omarchy, you're going to love an opinionated email client like HEY! We have a cli shipping shortly so your agent can drive it too 🤘 hey.com Link A delightfully fresh take on email + calendar, from 37signals Gmail, Outlook, and Apple got complacent and took their eye off the ball. Then along came HEY. hey.com Basti (@bastidotnet) I did it. After extensive testing, I decided on @heyhey and switched from a free email provider. It simply won me over. Thanks for the great work @jasonfried @dhh and @37signals ❤️ — https://nitter.net/bastidotnet/status
-
-[View tweet](https://nitter.net/dhh/status/2089982362486514143#m)
-
-**Article:** https://hey.com
-
-HEY â A delightfully fresh take on email + calendar, from 37signals Features Calendar For domains Pricing FAQs Sign in Try HEY free Menu Features Calendar For domains Pricing FAQs Sign in Try HEY free Finally a privacy-respecting inbox Email has been re-invented Iâm loving the HEY Calendar app We finally fixed your email + calendar! Gmail, Outlook, and Apple got complacent and took their eye off the ball. Then along came HEY. Try HEY free for 30-days No obligation, no CC required. See how HEY works People *really* like HEY Tens of thousands of people have already made the switch from Gmail, Yahoo Mail, Outlook, and other email + calendar services. Just got a demo of HEY with @jasonfried . â¤ï¸ The level of product thinking thatâs gone into rebuilding email from scratch. Ryan Hoover In positive news, HEY seems to have finally solved email (!!!). Been using it several weeks and no longer dealing with spam, long lists of âunreadâ messages, or sorting out annoying but important docs. The relief is so real. ð Darya Rose HEY is the most exciting app Iâve used in years. A complete rethinking of email, full of bold, brilliant ideas. Highly recommended. Not only for the product itself, but because its boldness will inspire you to question your assumptions and think differently. Adrian Holovaty Gmail and virtually all of its competitors assume anyone should be able to email you and then you should store and sort and search and categorize those messages. HEY assumes tha
-
----
-
-**@dhh** (@dhh) · 2026-08-19 07:38 UTC
-
-> You people are gonna flip out when you see what we announce on Friday. Can't believe we pulled this off 🤠
-
-[View tweet](https://nitter.net/dhh/status/2089980196531139028#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-19 07:30 UTC
-
-> Love that all the best native AI tooling is now on Linux too with Grok Bot and ChatGPT Desktop. Just go to Install AI in the menu in Quattro. (And of course we have all the key harnesses integrated under Setup Defaults Agent too!)
-
-[View tweet](https://nitter.net/dhh/status/2089978300919619658#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 17:14 UTC
-
-> Quattrolitaire!! What a super fun Klondike solitaire plugin by No Signal. Great visuals too. github.com/28allday/Quattrol… Video
-
-[View tweet](https://nitter.net/dhh/status/2089762809844318514#m)
-
-**Article:** https://github.com/28allday/Quattrolitaire
-
-GitHub - 28allday/Quattrolitaire: Klondike solitaire as a native Omarchy shell plugin — panel + bar widget, with a bundled art-deco car deck. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events webinars Ebooks reports Business insights GitHub Skills SUPPORT SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIE
-
----
-
-**@dhh** (@dhh) · 2026-08-18 14:39 UTC
-
-> "During this intro itself, I already installed it!" 😂 Great tour of Quattro from @LinuxBTW. piped.video/watch?v=qBKMe8Aa…
-
-[View tweet](https://nitter.net/dhh/status/2089723784987042136#m)
-
-**Article:** https://piped.video/watch?v=qBKMe8AatY0
-
-Piped We're sorry but Piped doesn't work properly without JavaScript enabled. Please enable it to continue.
-
----
-
-**@dhh** (@dhh) · 2026-08-18 14:21 UTC
-
-> We only have the headlines we make ourselves 😂
-
-[View tweet](https://nitter.net/dhh/status/2089719280241614989#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 13:03 UTC
-
-> Every insult and objection to Omarchy is an echo of what I heard twenty years ago with Ruby on Rails. Hundreds of billions of dollars in enterprise value created later, I'm ready for round two.
-
-[View tweet](https://nitter.net/dhh/status/2089699739721674931#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 12:56 UTC
-
-> Change usually comes from people who refuse to ask permission from "The Real World". PLAYTRON (@PLAYTR0N) DHH is like a slobbering puppy that has no clue how the real world works but is so excited for the new bone. It's both charming and annoying. — https://nitter.net/PLAYTR0N/status/2089666953833222598#m
-
-[View tweet](https://nitter.net/dhh/status/2089698071932194896#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 12:50 UTC
-
-> I sat with Lex for another 6.5 hours on Sunday to record part 2 of this. The podcast incarnation of "there are decades where nothing happens; and there are weeks where decades happen". Lex Fridman (@lexfridman) Here's my 6 hour conversation with @dhh , a legendary programmer, creator of Ruby on Rails, author, and race car driver. This was a fun and inspiring conversation on everything from the future of programming & AI to the nature of happiness & productivity to the value of family, getting married and having kids. X limits video length to 6 hours. So this full convo doesn't fit (by a few mi
-
-[View tweet](https://nitter.net/dhh/status/2089696429459616041#m)
-
----
-
-**@dhh** (@dhh) · 2026-08-18 12:46 UTC
-
-> Next phase of Omarchy: Building institutions.
-
-[View tweet](https://nitter.net/dhh/status/2089695417239732707#m)
-
----
-
-### @heavypulp (Independent)
-*2 AI-relevant tweets*
-
-**@heavypulp** (@heavypulp) · 2026-08-19 01:42 UTC
-
-> Out of the blue and into the black
-
-[View tweet](https://nitter.net/heavypulp/status/2089890726016360743#m)
-
----
-
-**@heavypulp** (@heavypulp) · 2026-08-19 01:49 UTC
-
-> R to @heavypulp: Image
-
-[View tweet](https://nitter.net/heavypulp/status/2089892560986591555#m)
+[View tweet](https://nitter.net/cleoabram/status/2089771740029395367#m)
 
 ---
 
@@ -644,178 +455,22 @@ Amazon Bedrock AgentCore payments is now generally available: Enabling agents to
 
 ---
 
-### @mattshumer_ (Independent)
-*10 AI-relevant tweets*
+### @minchoi (Independent)
+*2 AI-relevant tweets*
 
-**@mattshumer_** (@mattshumer_) · 2026-08-19 03:13 UTC
+**@minchoi** (@minchoi) · 2026-08-19 15:36 UTC
 
-> Oh, and another one of my portfolio companies is about to break out like crazy. Can’t wait for you all to see. Matt Shumer (@mattshumer_) I’ve only backed ~20 companies total. I’m super picky. Backed both @OpenRouter and @Etched at seed. This week has been fun :) — https://nitter.net/mattshumer_/status/2089769222385627407#m
+> Most people are using Grok Bot wrong. The @bot team shared power-user tips that make it way more useful. 12 Grok Bot pro tips. Bookmark this. Ben Lang (@benln) Collected Grok Bot pro tips shared by the @bot team: 1) Connect multiple accounts across plugins (i.e. personal and work Gmail accounts) 2) One Chief of Staff plus a few specialists beats one mega-chat 3) Pin your top 1-2 agents for quick access 4) Have it keep a Notion page of outstanding work so you can ask "what's left" instead of babysitting 5) Treat each bot as a job, not a whole project 6) For difficult tasks, hit “teach a task” i
 
-[View tweet](https://nitter.net/mattshumer_/status/2089913570498592925#m)
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-19 01:38 UTC
-
-> If you know me, you know I don’t do anything halfway. Something Big is going to be the best and biggest AI newsletter in the world, full stop. Nathan May (@_May_Ham) There are 4 huge AI newsletters and then a big gap between them and everyone else. Have a feeling we’re about to see a 5th :) — https://nitter.net/_May_Ham/status/2089889035137261878#m
-
-[View tweet](https://nitter.net/mattshumer_/status/2089889717206581694#m)
+[View tweet](https://nitter.net/minchoi/status/2090100556689776943#m)
 
 ---
 
-**@mattshumer_** (@mattshumer_) · 2026-08-18 20:56 UTC
+**@minchoi** (@minchoi) · 2026-08-18 21:45 UTC
 
-> Six months ago, I wrote Something Big is Happening. The most widely-read AI article ever. Over 100M views. Tomorrow, I’m soft-launching my follow up newsletter. Sign up (free) tonight to get Founding Member status: somethingbig.ai Link Something Big Is Happening — Keep Up with AI in 5 Minutes a Week Every new AI reviewed, simple guides, and what it means for your work. From the author of the essay read 100,000,000+ times. somethingbig.ai
+> Less than 24 hours ago Anthropic dropped /design in Claude Code. You just prompt "/design a few options for {feature}" Then you pick an artboard, edit, implement. Reads the codebase. Matches the UI. Desktop + CLI. Early preview. Video nate parrott (@nateparrott) Today we’re releasing an early preview of the /design command in Claude Code! from CC Desktop or CLI, try something like "/design a few options for {feature}" before you build — pick your fave artboard, edit it and implement. Video — https://nitter.net/nateparrott/status/2089470636796059754#m
 
-[View tweet](https://nitter.net/mattshumer_/status/2089818833833898390#m)
-
-**Article:** https://somethingbig.ai
-
-Something Big Is Happening — Keep Up with AI in 5 Minutes a Week Something Big Is Happening . The Tracker The Roundup Controllable Video GPT-5.6 Review Advertise Subscribe Keep up with AI in five minutes a week . AI is changing work faster than anyone can track. I tell you what actually matters — in plain English — so you re the sharpest person in the room. Subscribe Free · From the author of the AI essay read 100,000,000+ times. Join readers from Something Big Is Happening In February 2026 I wrote a letter to my non-tech friends about what AI was about to change. A hundred million people read it , and it was featured in Fortune, CNBC, The New York Times — pretty much every major outlet. I founded my first AI company at 19, I ve backed many of the defining companies of the AI boom, and I spend my time translating AI news for everyone else. This newsletter is the sequel — what changed this week, and what it means for your work. Read the essay Featured in Fortune CNBC The Guardian The New York Times Watch the interviews &#9654; CNBC &#9654; CBS &#9654; CNN The latest developments, explained in plain English. MOTION LOOK How-to · Aug 11, 2026 · 8 min How to Actually Control AI Video Draft owns motion. Style image owns look. Seedance paints over without inventing a new shot. vs How-to · Jul 27, 2026 · 8 min How to Run a Gauntlet Loop The prompting method behind Claude of Duty give the agent a bar it can t talk its way around. 5.6 1 2 Review · Jul 8, 2026 · 9 min My GPT-5.6 Review
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 20:57 UTC
-
-> The original article, if you want to read it: Matt Shumer (@mattshumer_) Article Something Big Is Happening Think back to February 2020. If you were paying close attention, you might have noticed a few people talking about a virus spreading overseas. But most of us weren t paying close attention. The stock — https://nitter.net/mattshumer_/status/2021256989876109403#m
-
-[View tweet](https://nitter.net/mattshumer_/status/2089818935742890254#m)
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 20:58 UTC
-
-> I’m partnering with @beehiiv for the newsletter. They have been absolutely awesome to work with. So excited for what we’re going to do together.
-
-[View tweet](https://nitter.net/mattshumer_/status/2089819163988500907#m)
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 19:51 UTC
-
-> Reminder for founders: - I put in super small checks, so tiny dilution - I will go to war for you if you want me to - Otherwise, I stay out of the way… I’ve had my own bad experiences with shitty, harmful investors… if you don’t need my help, just do your thing Matt Shumer (@mattshumer_) I’ve only backed ~20 companies total. I’m super picky. Backed both @OpenRouter and @Etched at seed. This week has been fun :) — https://nitter.net/mattshumer_/status/2089769222385627407#m
-
-[View tweet](https://nitter.net/mattshumer_/status/2089802500513595459#m)
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 19:11 UTC
-
-> This is really good news. It’s so important that we get this right. Sam Altman (@sama) We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment. We care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime. We expec
-
-[View tweet](https://nitter.net/mattshumer_/status/2089792438294512035#m)
-
-**Article:** https://openai.com/index/pacing-model-development-cyber-capabilities/
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 17:39 UTC
-
-> I’ve only backed ~20 companies total. I’m super picky. Backed both @OpenRouter and @Etched at seed. This week has been fun :)
-
-[View tweet](https://nitter.net/mattshumer_/status/2089769222385627407#m)
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 17:32 UTC
-
-> Is Claude down?
-
-[View tweet](https://nitter.net/mattshumer_/status/2089767448505434347#m)
-
----
-
-**@mattshumer_** (@mattshumer_) · 2026-08-18 15:21 UTC
-
-> Etched has shipped!! Insanely proud (small) seed investor. $1T valuation incoming. Etched (@Etched) We've raised $700M at a $21B valuation from Jane Street, Kleiner Perkins, Sequoia, A16Z, Peter Thiel, BCV, and Blackstone. We're also excited to share that we've shipped our first rack to Jane Street. Video — https://nitter.net/Etched/status/2089729087732605282#m
-
-[View tweet](https://nitter.net/mattshumer_/status/2089734550020612319#m)
-
----
-
-### @mlevchin (Independent)
-*1 AI-relevant tweets*
-
-**@mlevchin** (@mlevchin) · 2026-08-18 22:49 UTC
-
-> Best Russian-language (Pevear Volkonskaya translation is very very good too) novel of the 20th century, full stop. Dillon Auxier (@dillonaux) thanks for the recommendation @mlevchin this book is incredible — https://nitter.net/dillonaux/status/2089833549570416768#m
-
-[View tweet](https://nitter.net/mlevchin/status/2089847165740871980#m)
-
----
-
-### @ns123abc (Independent)
-*9 AI-relevant tweets*
-
-**@ns123abc** (@ns123abc) · 2026-08-19 08:23 UTC
-
-> reposting some personal moments from the past :)
-
-[View tweet](https://nitter.net/ns123abc/status/2089991612491272464#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-19 05:56 UTC
-
-> oof Arfur Grok (@ArfurGrok) 👀 Rick Jones (Head of Recruiting) has left OpenAI. — https://nitter.net/ArfurGrok/status/2089914471087247541#m
-
-[View tweet](https://nitter.net/ns123abc/status/2089954518771318863#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-19 04:14 UTC
-
-> This you? Theo - t3.gg (@theo) I'd respond but you'll probably just delete your tweet again. — https://nitter.net/theo/status/2089897388949606546#m
-
-[View tweet](https://nitter.net/ns123abc/status/2089929024592032020#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-19 00:55 UTC
-
-> T3 code ❌ T3 cope ✅ Valerii Strilets 🇺🇦 (@letstri) Tried T3 Code for the first time. 404 as soon as I opened the app. Endless OpenCode update loader (why is it even there). Login that won't complete until I set up a Passkey. Vibe-coded design. Fonts, colors, spacing I just can't accept. The agent did worse than Claude Code. — https://nitter.net/letstri/status/2089720174890922101#m
-
-[View tweet](https://nitter.net/ns123abc/status/2089878970753765789#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-19 00:26 UTC
-
-> job: codex desktop app codex desktop app is broken don't go in full screen even we get it, you love your job Andrew Ambrosino (@ajambrosino) we have jobs nik — https://nitter.net/ajambrosino/status/2089860662432616460#m
-
-[View tweet](https://nitter.net/ns123abc/status/2089871490736873662#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-18 22:45 UTC
-
-> OpenAI’s loudest voices ( @thsottiaux , @tszzl , @ajambrosino ) have gone completely silent today… really makes you think
-
-[View tweet](https://nitter.net/ns123abc/status/2089846102438658269#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-18 22:03 UTC
-
-> Never give up Elon Musk (@elonmusk) There is a potential future that is super amazing is we all fight hard to achieve it — https://nitter.net/elonmusk/status/2089822761938194900#m
-
-[View tweet](https://nitter.net/ns123abc/status/2089835703303614723#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-18 21:50 UTC
-
-> oai compute situation so bad that i wouldn’t be surprised if they soon start restricting users by adding guardrails like ant did with fable…
-
-[View tweet](https://nitter.net/ns123abc/status/2089832335340396789#m)
-
----
-
-**@ns123abc** (@ns123abc) · 2026-08-18 20:38 UTC
-
-> If only you knew how bad things really are...
-
-[View tweet](https://nitter.net/ns123abc/status/2089814249501499582#m)
+[View tweet](https://nitter.net/minchoi/status/2089831122112799035#m)
 
 ---
 
@@ -838,19 +493,113 @@ Something Big Is Happening — Keep Up with AI in 5 Minutes a Week Something Big
 
 **Article:** https://nvda.ws/3SFVsTO
 
----
-
-### @sualehasif996 (Cursor)
-*1 AI-relevant tweets*
-
-**@sualehasif996** (@sualehasif996) · 2026-08-18 21:26 UTC
-
-> its so fun to use @bot :) Austin Rief ☕️ (@austin_rief) Just checked out @bot . The coolest AI product I've seen in a while. — https://nitter.net/austin_rief/status/2089777127201608150#m
-
-[View tweet](https://nitter.net/sualehasif996/status/2089826207437320566#m)
+Slim Laptops Small Desktops | NVIDIA RTX Spark NVIDIA Home NVIDIA Home Menu Menu icon Menu Menu icon Close Close icon Close Close icon Close Close icon Caret down icon Accordion is closed, click to open. Caret down icon Accordion is closed, click to open. Caret up icon Accordion is open, click to close. Caret right icon Click to expand Caret right icon Click to expand Caret right icon Click to expand menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Caret left icon Click to collapse menu. Shopping Cart Click to see cart items Search icon Click to search Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country. Argentina Australia België (Belgium) Belgique (Belgium) Brasil (Brazil) Canada Česká Republika (Czech Republic) Chile Colombia Danmark (Denmark) Deutschland (Germany) España (Spain) France India Italia (Italy) México (Mexico) Middle East Nederland (Netherlands) Norge (Norway) Österreich (Austria) Peru Polska (Poland) Rest of Europe România (Romania) Singapore Suomi (Finland) Sverige (Sweden) Türkiye (Turkey) United Kingdom United States 대한민국 (South Korea) 中国大陆 (Mainland China) 台灣 (Taiwan) 日本 (Japan) Continue Skip to main content Artificial Intelligence Computing Leadership from NVIDIA Main Menu Products Cloud Services Creating Data Center Embedded Systems Gaming Graphics Cards and Desktops Laptops Networking Professional Workstations Software Tools Cloud Services DGX Cloud NVIDI
 
 ---
 
+### @spencerpratt (Independent)
+*10 AI-relevant tweets*
+
+**@spencerpratt** (@spencerpratt) · 2026-08-19 04:15 UTC
+
+> Bonehead Bob Bonta: “I’m looking out for the theater chains!!” Literally every single theater chain: “please stop ‘looking out for us’, we need this merger” Can we just end this farce already? The Hollywood Reporter (@THR) Now All Three Major Theater Chains Want California to Settle With Paramount hollywoodreporter.com/busine… Link Now All Three Major Theater Chains Want California to Settle With Paramount Cinemark is throwing its hat in with AMC and Regal in signaling support for a expedited resolution on David Ellison s marriage of Paramount and Warner Bros. hollywoodreporter.com — https://n
+
+[View tweet](https://nitter.net/spencerpratt/status/2089929199637373318#m)
+
+**Article:** https://www.hollywoodreporter.com/business/business-news/cinemark-paramount-1236676229/?taid=6a84b4d77e26be0001343c26&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
+
+Cinemark Also Signals It Wants California to Settle With Paramount Skip to main content Plus Icon Click to expand the Mega Menu Click to expand search form Got a tip? The Hollywood Reporter homepage Newsletters Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up site categories News Film TV Music Awards Lifestyle Business International AI Covers Charts Lists Video Plus Icon Click to expand the Mega Menu Menu Click to expand search form The Hollywood Reporter homepage Read Next: Why Emily Watson Will Never Quit Sarajevo Film Festival Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up Home Business Business News Now All Three Major Theater Chains Want California to Settle With Paramount Cinemark is throwing its hat in with AMC and Regal in signaling support for a "expedited resolution" on David Ellison's marriage of Paramount and Warner Bros. By Erik Hayden Plus Icon Erik Hayden Executive Editor, Business Erik_Hayden Follow Sign Up More Stories by Erik Now All Three Major Theater Chains Want California to Settle With Paramount Jeanie Buss Opposes Sale of Family’s Lakers Stake to Bob Iger and Joshua Kushner Josh Hartnett Jumps to CAA (Exclusive) View All August 18, 2026 11:07am Share on Facebook Share on X Google Preferred Share to Flipboard Show additional share options Share on LinkedIn Share on Pinterest Share on Reddit Share
+
+**Article:** https://www.hollywoodreporter.com/business/business-news/cinemark-paramount-1236676229/?taid=6a84b4d77e26be0001343c26&amp;utm_campaign=trueanthem&amp;utm_medium=social&amp;utm_source=twitter
+
+Cinemark Also Signals It Wants California to Settle With Paramount Skip to main content Plus Icon Click to expand the Mega Menu Click to expand search form Got a tip? The Hollywood Reporter homepage Newsletters Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up site categories News Film TV Music Awards Lifestyle Business International AI Covers Charts Lists Video Plus Icon Click to expand the Mega Menu Menu Click to expand search form The Hollywood Reporter homepage Read Next: Anne Hathaway &#8220;Pushed Really Hard&#8221; Trying to Get Julie Andrews to Return for &#8216;Princess Diaries 3&#8217; Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up Home Business Business News Now All Three Major Theater Chains Want California to Settle With Paramount Cinemark is throwing its hat in with AMC and Regal in signaling support for a "expedited resolution" on David Ellison's marriage of Paramount and Warner Bros. By Erik Hayden Plus Icon Erik Hayden Executive Editor, Business Erik_Hayden Follow Sign Up More Stories by Erik Now All Three Major Theater Chains Want California to Settle With Paramount Jeanie Buss Opposes Sale of Family’s Lakers Stake to Bob Iger and Joshua Kushner Josh Hartnett Jumps to CAA (Exclusive) View All August 18, 2026 11:07am Share on Facebook Share on X Google Preferred Share to Flipboard Show additional share 
 
 ---
-*Twitter farmer | 2026-08-19 AFTERNOON | 90 tweets | 17 articles*
+
+**@spencerpratt** (@spencerpratt) · 2026-08-19 03:46 UTC
+
+> You need to listen to every word of this. Senator Sheehy is spot on with the wildfire crisis. We lost my town because we couldn’t trim back some stupid milk vetch plants because eco-activists sue to block it. How much more life and property are we going to lose til we grow up? Tim Sheehy (@TimSheehyMT) America is facing a wildfire crisis. We cannot continue with a failed status quo that allows our cities to burn to the ground. We owe the American people better prevention and an effective, aggressive response to these disasters. Let’s get it done. @spencerpratt @firechiefanf @OCFAChief Video — 
+
+[View tweet](https://nitter.net/spencerpratt/status/2089921886922928186#m)
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-19 03:40 UTC
+
+> It’s just Bonta and the communists at WGA alone on this island. Literally everyone sees what a disaster this lawsuit is. The Hollywood Reporter (@THR) Cinema United has had a change of heart on the prospect of a Paramount–Warner Bros. Discovery merger. The CEO and board chair of the trade organization suggested that the merger dispute could halt box office momentum and inject disastrous uncertainty into the marketplace. hollywoodreporter.com/busine… Link Movie Theater Owners Reverse Course on Paramount-Warner Bros., Now Favor Settlement Talks The CEO and board chair of the trade organization C
+
+[View tweet](https://nitter.net/spencerpratt/status/2089920412318912652#m)
+
+**Article:** https://www.hollywoodreporter.com/business/business-news/movie-theater-owners-paramount-warner-bros-settlement-1236676280/?taid=6a850e287e26be0001344005&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
+
+Movie Theater Owners Call for Paramount-Warner Bros. Settlement Skip to main content Plus Icon Click to expand the Mega Menu Click to expand search form Got a tip? The Hollywood Reporter homepage Newsletters Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up site categories News Film TV Music Awards Lifestyle Business International AI Covers Charts Lists Video Plus Icon Click to expand the Mega Menu Menu Click to expand search form The Hollywood Reporter homepage Read Next: Brad Pitt Joins Wim Wenders&#8217; Peter Zumthor Doc as Executive Producer (Exclusive) Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up Home Business Business News Movie Theater Owners Reverse Course on Paramount-Warner Bros., Now Favor Settlement Talks The CEO and board chair of the trade organization Cinema United suggested that the merger dispute could halt box office momentum and inject disastrous uncertainty into the marketplace. By Katie Kilkenny Plus Icon Katie Kilkenny Enterprise Reporter, TV Labor katiekilkenny7 Follow Sign Up More Stories by Katie Story Syndicate Promotes Jon Bardin to President of Documentary and Unscripted (Exclusive) Details of Amazon’s ‘Melania’ Follow-Up Begin to Emerge California Pledged $750 Million a Year to Hollywood. But a New Law Has a Big Catch View All August 18, 2026 12:00pm Share on Facebook Share on X Google Pr
+
+**Article:** https://www.hollywoodreporter.com/business/business-news/movie-theater-owners-paramount-warner-bros-settlement-1236676280/?taid=6a850e287e26be0001344005&amp;utm_campaign=trueanthem&amp;utm_medium=social&amp;utm_source=twitter
+
+Movie Theater Owners Call for Paramount-Warner Bros. Settlement Skip to main content Plus Icon Click to expand the Mega Menu Click to expand search form Got a tip? The Hollywood Reporter homepage Newsletters Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up site categories News Film TV Music Awards Lifestyle Business International AI Covers Charts Lists Video Plus Icon Click to expand the Mega Menu Menu Click to expand search form The Hollywood Reporter homepage Read Next: Busan Film Festival Sets Kim Jong-kwan&#8217;s &#8216;The Table: Day and Night&#8217; as Opening Film Subscribe The Definitive Voice of Entertainment News Subscribe for full access to The Hollywood Reporter See My Options Sign Up Home Business Business News Movie Theater Owners Reverse Course on Paramount-Warner Bros., Now Favor Settlement Talks The CEO and board chair of the trade organization Cinema United suggested that the merger dispute could halt box office momentum and inject disastrous uncertainty into the marketplace. By Katie Kilkenny Plus Icon Katie Kilkenny Enterprise Reporter, TV Labor katiekilkenny7 Follow Sign Up More Stories by Katie Story Syndicate Promotes Jon Bardin to President of Documentary and Unscripted (Exclusive) Details of Amazon’s ‘Melania’ Follow-Up Begin to Emerge California Pledged $750 Million a Year to Hollywood. But a New Law Has a Big Catch View All August 18, 2026 12:00pm Share on Facebook Share
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-19 03:37 UTC
+
+> Wait. How did Florida count all their votes already? I was reliably informed democracy takes 5 weeks.
+
+[View tweet](https://nitter.net/spencerpratt/status/2089919552733986969#m)
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-19 03:19 UTC
+
+> Don’t let communists run your city, folks. Matthew Seedorff (@MattSeedorff) BREAKING: L.A. City Council voted 10-3 today to remove 12 designated 41.18 anti-camping zones in Hollywood, Silver Lake and Echo Park. That means those 12 locations are no longer covered by those specific no-camping designations — potentially allowing people to camp there. Video — https://nitter.net/MattSeedorff/status/2089867508207804823#m
+
+[View tweet](https://nitter.net/spencerpratt/status/2089915048814940258#m)
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-18 20:51 UTC
+
+> And just like that…Spokane was never spoken of again. Incredible how quickly everyone moves on. It’s a miracle the Palisades stayed in the public consciousness as long as it did. Spencer Pratt (@spencerpratt) We cannot let Spokane fall through the cracks. Video — https://nitter.net/spencerpratt/status/2085128378969883015#m
+
+[View tweet](https://nitter.net/spencerpratt/status/2089817565204021624#m)
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-18 16:56 UTC
+
+> I'm sorry, but if we're closing down things over suspicious substances here, we gotta shutdown about 55 square blocks of Downtown LA. New York Post (@nypost) Suspicious substance found inside letter triggers closure at LAPD headquarters trib.al/boiDA5w — https://nitter.net/nypost/status/2089753601354666250#m
+
+[View tweet](https://nitter.net/spencerpratt/status/2089758246471106775#m)
+
+**Article:** https://trib.al/boiDA5w
+
+Suspicious substance found in LAPD mailroom, forcing facility closure Primary Menu Sections US News Metro Long Island Politics World News Page Six Sports NFL MLB Olympics NBA NHL College Football College Basketball WNBA Post Sports+ Sports Betting Business Opinion Entertainment TV Movies Music Celebrities Awards Theater Shopping Lifestyle Weird But True Sex Relationships Viral Trends Human Interest Parenting Fashion Beauty Food Drink Travel Health Wellness Fitness Health Care Medicine Men&#8217;s Health Women&#8217;s Health Mental Health Nutrition Real Estate Alexa Media Tech Science Space Environment Wildlife Archaeology Astrology Video Photos Pod Force One NY POSTcast Today&#8217;s Paper Covers Columnists Horoscopes Crosswords Games Sports Odds Podcasts Careers Email Newsletters Official Store Home Delivery Tips Search Email New York Post Switch between CA and NY editions here. Got it Edition CA NY Open Metro navigation US News US News Metro Long Island Politics World News US News Metro Long Island Politics World News Search Search Recommended Skip to main content Metro Suspicious substance found inside letter triggers closure at LAPD headquarters By Ben Chapman Published Aug. 18, 2026, 12:36 p.m. ET See more of our coverage in your search results. Add The California Post on Google A portion of Los Angeles Police Department&#8217;s headquarters was shut down after a suspicious substance was discovered in the mailroom. The unidentified substance was discovered just before 7 
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-18 16:54 UTC
+
+> Look at how disgusting Nithya Raman's public bathrooms are. She has been in charge of the Homelessness Committee for years til she was FINALLY booted last week. Now you see why she got canned. It's absolutely disgusting what she's done to our city. Video
+
+[View tweet](https://nitter.net/spencerpratt/status/2089757883949015512#m)
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-18 15:23 UTC
+
+> Good morning from the beautiful, sunny paradise that is Los Angeles, California! This is what Nithya Raman wants for all of us. Video
+
+[View tweet](https://nitter.net/spencerpratt/status/2089734919157399959#m)
+
+---
+
+**@spencerpratt** (@spencerpratt) · 2026-08-18 14:53 UTC
+
+> In their own legislation, CA politicians celebrate how inflicting financial pain on commuters with higher gas prices leads to “historic increases in ridership on public transportation”. Screw their crocodile tears…they love high gas prices and they do all this stuff on purpose. We are just the mindless lab rats who keep paying into it. Spencer Pratt (@spencerpratt) This very odd bird who is now regulating what tires you can get in CA just gave away the whole scam. She cites high gas prices to justify it: "If we can bring down those costs even a little bit, why wouldn't we do it?" Of course, no
+
+[View tweet](https://nitter.net/spencerpratt/status/2089727405791531489#m)
+
+---
+
+
+---
+*Twitter farmer | 2026-08-19 AFTERNOON | 60 tweets | 18 articles*
