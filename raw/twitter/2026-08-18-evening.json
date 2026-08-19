@@ -1,0 +1,1124 @@
+{
+  "date": "2026-08-18",
+  "slot": "evening",
+  "scraped_ist": "2026-08-18 22:00",
+  "lookback_h": 24,
+  "curated": [],
+  "ai_feed": [
+    {
+      "handle": "ClementDelangue",
+      "org": "Hugging Face",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "ClementDelangue",
+          "creator": "@ClementDelangue",
+          "text": "Something super exciting happened quietly on HF over the past month: AI agents became AI builders, and they did it in the open! During our ICML reproduction challenge, 1,221 humans teamed up with coding agents to verify and reproduce 2,226 papers. But here's the cool part: everything happened on the @huggingface hub: 6,816 reproduction logbooks published openly, 2,962 cloud jobs launched, 35,908 claims judged, all traceable, all public and transparent For years the hub has been where humans collaborate on models, datasets and demos. Now we watch agents use it the same way: writing logbooks, pu",
+          "link": "https://nitter.net/ClementDelangue/status/2089706077667377316#m",
+          "date_utc": "2026-08-18T13:28:48+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAgQcxXEAAIijm.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+              "content": "What We Learned by Reproducing 2,200 papers from ICML Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> What We Learned by Reproducing 2,200 papers from ICML Published August 13, 2026 Update on GitHub Upvote 88 +82 Abubakar Abid abidlabs Follow More papers than anyone can review The hackathon (July 15 - August 2nd) What we found Reproductions done well Falsifications, and what happened when we checked them Talking to authors The role of humans Thank you Back in July, we ran a hac"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "DoWCTO",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": ". @USWREMichael recently met with several of @DeptofWar ’s highest-performing VICEROY MAVEN scholars on the steps of the Pentagon. These scholars participated in an immersive engagement at the Pentagon that highlighted their contributions and the work they completed during their summer internships. VICEROY places approximately 200 elite interns each summer across more than 25 Department host sites. Working alongside defense scientists and engineers, these scholars tackle high-stakes challenges in AI, cybersecurity, software modernization and the electromagnetic spectrum. Over 60% of VICEROY sc",
+          "link": "https://nitter.net/DoWCTO/status/2089810712097095849#m",
+          "date_utc": "2026-08-18T20:24:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB_w28WYAAHuV_.jpg"
+          ],
+          "articles": [
+            {
+              "url": "http://www.VICEROYscholars.org",
+              "content": "Home - VICEROY Scholars Skip to content About Answer the Call FAQs Branding Guidelines Virtual Institutes Virtual Institutes Interactive Map Virtual Institute Portal Join the VICEROY Network Host Sites Host Sites Interactive Map Host Site Resources Join the VICEROY Network VICEROY Institute VICEROY Events VICEROY Symposium HammerCon Competitions VICEROY Virtual Series VICEROY Scholar Resources VICEROY Scholars Alumni Network VICEROY Internships VICEROY Institute VICEROY Virtual Series Scholar Handbook Branding Guidelines Intro to USAJobs Writing a Federal Resume Referencing VICEROY on Your Resume and Cover Letter VICEROY Store News Contact Search for: Search Menu Watch Full Video MISSION VICEROY is the Department of War’s mission-focused cyber-spectrum leadership development pathway, built"
+            }
+          ]
+        },
+        {
+          "handle": "DoWCTO",
+          "creator": "@DoWCTO",
+          "text": "Good morning. We are going to win. 🇺🇸",
+          "link": "https://nitter.net/DoWCTO/status/2089717475571097735#m",
+          "date_utc": "2026-08-18T14:14:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAq66wW0AA4GUL.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "GoogleResearch",
+      "org": "Google",
+      "focus": [
+        "research",
+        "AI",
+        "algorithms",
+        "neuroscience"
+      ],
+      "tweets": [
+        {
+          "handle": "GoogleResearch",
+          "creator": "@GoogleResearch",
+          "text": "Today on the blog, we demonstrate the feasibility of a deep learning approach estimating body composition from smartphone photos, to predict insulin resistance with accuracy comparable to DXA scans in a clinical research setting. Read more → goo.gle/4xIGxHj",
+          "link": "https://nitter.net/GoogleResearch/status/2089451478906003866#m",
+          "date_utc": "2026-08-17T20:37:07+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP849_JaAAAiCIZ.jpg"
+          ],
+          "articles": [
+            {
+              "url": "https://goo.gle/4xIGxHj",
+              "content": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery Skip to main content Explore our many areas of focus Explore all research areas Applied AI sciences Earth AI Health AI Science AI Sustainability crisis resilience Foundational ML algorithms Algorithms theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research. Tools services Explore our latest AI models and products. Open source Discover open-source code and collaborate with the community. Sh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "MarioNawfal",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 A man who claims to be a woman got 73 months in federal prison for plotting to murder Scott Bessent. Ryan Michael English drove from Massachusetts to the Capitol in January 2025 with a knife and two Molotov cocktails on the day Bessent was being confirmed. He spent weeks preparing, then walked up to police and confessed the whole plan, but he never managed to carry it out. Prosecutors had pushed for around 10 years given the premeditation and the weapons. 73 months for showing up ready to burn or stab a cabinet official feels light. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089827174807138383#m",
+          "date_utc": "2026-08-18T21:30:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089757536610078720%2Fimg%2FJxvIzwfSxj8uJjGv.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇷🇺 Seizing Russia's reserves turned America into a defaulted country, and every central bank understood it instantly. Economist Philip Pilkington says holding reserves at a central bank is a lending operation, so freezing them is a default on the claim: \"The United States is a defaulted country now, and the world understands that.\" George Gammon pushes back on where anyone runs to instead, since Putin or Xi would freeze an account just as fast, and the one genuinely decentralized option isn't ready. \"It's not even a flip phone. It's like a tin can and a string.\" @GeorgeGammon @philippilk Vid",
+          "link": "https://nitter.net/MarioNawfal/status/2089826543191396524#m",
+          "date_utc": "2026-08-18T21:27:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089826357698019328%2Fimg%2FXSGQ8VdaQdc_rXHY.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089815901868560384%2Fimg%2FXBoID3xhgw7cL58Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸🇩🇪🇯🇵 The era of cheap money is looking more and more dead. Borrowing costs in the U.S., Germany and Japan have jumped to levels not seen in decades, and there's a lot feeding the mess. Governments are sitting on huge debt, the U.S.-Iran war is keeping oil expensive, and tech giants are borrowing big to fund the AI boom. The U.S. alone is closing in on $40 trillion in debt, while a key 10-year borrowing rate is getting dangerously close to 5%. And this isn't just Wall Street stuff. When governments pay more to borrow, mortgages and business loans can get more expensive too. And when governmen",
+          "link": "https://nitter.net/MarioNawfal/status/2089825916511785312#m",
+          "date_utc": "2026-08-18T21:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCELVIaYAAYc0H.jpg",
+            "https://nitter.net/pic/media%2FHQCELVQbcAADVhD.jpg",
+            "https://nitter.net/pic/media%2FHQCELVSa8AAWJWU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇩🇰 Denmark is sending conscripts to Greenland for the first time in recent history. They’ve arrived for the Arctic Endurance exercise, swapping Denmark’s forests for Greenland’s much rougher terrain. There, they’ll train alongside local personnel and take on operational duties in the Arctic. Nothing to do with a certain someone eyeing the island, of course. Writer: Julie Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089822141856309621#m",
+          "date_utc": "2026-08-18T21:10:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089716267481460736%2Fimg%2Fo1a6vY6yROgJ3a63.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇲🇽The Mexican Navy just found a small army’s worth of homemade bombs in Sinaloa. More than 300 improvised explosive devices and about 300 kg of explosives, all sitting in El Rosario. Crews secured the area and disabled them on the spot. Now that's a campaign waiting to happen. Writer: Lynn / Source: Wfwitness",
+          "link": "https://nitter.net/MarioNawfal/status/2089821844912156801#m",
+          "date_utc": "2026-08-18T21:08:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCJ4HYXwAAxFOM.jpg",
+            "https://nitter.net/pic/media%2FHQCJ4HfXMAAIdqY.jpg",
+            "https://nitter.net/pic/media%2FHQCJ4HbXUAAK2cT.jpg",
+            "https://nitter.net/pic/media%2FHQCJ4IWXgAATenJ.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇫🇷🇮🇷 France is expelling 2 Iranian diplomats after French envoys were allegedly assaulted in Tehran last month. FM Jean-Noël Barrot says the attack was linked to France’s support for Iranian artists, scientists and civil society, calling the Iranian people the main victims of both the January crackdown and the recent war. Iran denies the assault and says the diplomats were meeting suspects. It’s classic tit-for-tat diplomacy as Tehran pushes for greater regional influence and Western capitals keep pressing on rights. Another sign of the globalized old rules fraying. Writer: Lucas",
+          "link": "https://nitter.net/MarioNawfal/status/2089820883749577096#m",
+          "date_utc": "2026-08-18T21:05:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCEHnFaoAAE0c2.jpg",
+            "https://nitter.net/pic/media%2FHQCEHm9bsAAc1S5.jpg",
+            "https://nitter.net/pic/media%2FHQCEHm9a4AAM4p_.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇯🇵🇦🇺 Japan is turning Australia into a testing ground for its hypersonic missiles. Defense ministers agreed that Japanese forces will launch standoff weapons, including hypersonic missiles, at Australian ranges over the next decade. Tokyo calls it groundbreaking, second only to its work with the United States. Japan lacks the vast empty space needed for full-scale tests at home. Australia supplies the strategic depth. Both sides are racing to harden defenses as China expands its reach. Alliances have evolved from talk and document signing to building, testing, and refining real hardware togeth",
+          "link": "https://nitter.net/MarioNawfal/status/2089819627241218280#m",
+          "date_utc": "2026-08-18T21:00:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB2f9oaIAAnDb-.jpg",
+            "https://nitter.net/pic/media%2FHQB2f9ra8AAapat.png",
+            "https://nitter.net/pic/media%2FHQB2f91aEAAlIAF.png",
+            "https://nitter.net/pic/media%2FHQB2f_Xb0AEy_tm.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Trump: “The Census Bureau has begun checking the Voter Records from 2020 against their Citizenship Records. On the first 128,000,000 Voters, the Census Bureau proves that over 24,000 Noncitizens voted illegally! The Census Bureau is going to analyze the next 32,000,000 Voters, and this number will explode. I WON THE ELECTION! We must pass THE SAVE AMERICA ACT.” Looks like the old claim is back in the menu boys. Source: @realDonaldTrump / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2089818946367352938#m",
+          "date_utc": "2026-08-18T20:57:18+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCHPF_a4AACVCV.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇲 Is the dollar's dominance a technological edge, or just a habit the world hasn't broken yet? That's the split between George Gammon and Philip Pilkington, debating whether the dollar survives as reserve currency. Gammon's case: forget central bank balance sheets. Look at what the world actually transacts in. Nearly 90% of global FX trades still touch dollars, and that's rising, not falling, even after 2022's asset freezes. His analogy: the dollar isn't a currency, it's a financial system, swaps, corporate paper markets, hedging tools, the smartphone next to everyone else's flip phone. Even ",
+          "link": "https://nitter.net/MarioNawfal/status/2089817706480505219#m",
+          "date_utc": "2026-08-18T20:52:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089815901868560384%2Fimg%2FXBoID3xhgw7cL58Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷🇦🇪 IRAN REJECTS UAE CLAIMS OF MISSILES TARGETING ITS TERRITORY Iran’s Foreign Ministry spokesperson has rejected the UAE’s statement that Iranian ballistic missiles were launched toward the Gulf country. Tehran accuses the UAE of making “baseless” allegations and warns of possible “false flag operations.” Source: @clashreport , @DeItaone / Writer: Oliver Mario Nawfal (@MarioNawfal) 🇦🇪🇮🇷 UAE SAYS IRANIAN MISSILES WERE NOT AIMED AT THE UAE The UAE Defense Ministry says two Iranian ballistic missiles detected today were directed toward maritime traffic and were not intentionally fired at the UA",
+          "link": "https://nitter.net/MarioNawfal/status/2089817645734613479#m",
+          "date_utc": "2026-08-18T20:52:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCGA_zaYAAyB3t.png",
+            "https://nitter.net/pic/media%2FHQB8tTEaUAElMvN.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇰🇷🇺🇸🇮🇷 South Korea warned early in the Iran war: don’t thin out the Pacific just to feed the Middle East fight, or North Korea gets a free hand. Now the last U.S. aircraft carrier in the western Pacific is heading to the Gulf, and Trump is scaling back the big joint exercises with Seoul. The same ally that asked for steady deterrence is watching the American footprint shrink while the Iran commitment keeps eating ships, planes, and attention. One prolonged war creates real opportunity costs. When you try to deter multiple major adversaries at once, and the resources only stretch so far, someth",
+          "link": "https://nitter.net/MarioNawfal/status/2089817108574343382#m",
+          "date_utc": "2026-08-18T20:50:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCDUGPaMAAcgAD.jpg",
+            "https://nitter.net/pic/media%2FHQCDUm2bQAAJ23b.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Fauci’s longtime right-hand man just pled guilty to conspiring to defraud the U.S. David Morens spent years helping bury COVID-related records through private emails, deletions, and FOIA workarounds. Rand Paul flagged him years ago. Now Morens is admitting it in court and facing prison time. He needs to spill everything about what Fauci knew and ordered if he wants mercy. The cover-up machine is starting to crack. Throw the book at all of them. Writer: Lucas Video",
+          "link": "https://nitter.net/MarioNawfal/status/2089816296221519888#m",
+          "date_utc": "2026-08-18T20:46:46+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089808282609160192%2Fimg%2FRaKU6_e4fBBYv7CC.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇱🇺🇸 Netanyahu: “The ICC has become a kangaroo court that cloaks its abuse of power in the language of international law while undermining the very principles of justice. I commend Secretary of State Marco Rubio for leading the Trump Administration’s determined efforts against the ICC’s illegitimate overreach… the corrupt officials who lead the ICC will face consequences.” Israel and the U.S. are aligned in open confrontation with the International Criminal Court. Who would have thought. Sanctions on ICC leadership are now part of the response. Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2089815370081468888#m",
+          "date_utc": "2026-08-18T20:43:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCEADdbkAAfsvL.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 Meta is now on trial over what its apps do to kids. 29 U.S. states say Facebook and Instagram were made to keep kids hooked, even as their mental health suffered. They also accuse Meta of wrongly collecting children's personal data. Meta says that's simply not true and insists it has worked hard to make its apps safer for teens. Now Zuckerberg and Instagram boss Adam Mosseri are expected to testify in a trial that could last 6 weeks. And the stakes are huge: states have floated penalties around $200 billion, while Meta says they could go as high as $1.4 trillion. For parents who've worried ",
+          "link": "https://nitter.net/MarioNawfal/status/2089814591920275776#m",
+          "date_utc": "2026-08-18T20:40:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBfEigacAAZUID.jpg",
+            "https://nitter.net/pic/media%2FHQBfE2AbgAAq4e7.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "More alleged GTA 6 gameplay and screenshots of the Leonida map are circulating online, this time from a group calling itself “Cyberleek,” which claims the leak is a protest against Rockstar’s digital-only release. The footage reportedly shows driving, combat, basketball and a look at the game’s full map. Take-Two is already firing off DMCA takedowns across the internet, the corporate equivalent of sprinting around yelling, “THERE IS NOTHING TO SEE HERE.” Rockstar’s next official look is scheduled for August 27. GTA 6 launches November 19. At this rate, the game may release after the internet h",
+          "link": "https://nitter.net/MarioNawfal/status/2089813333759164856#m",
+          "date_utc": "2026-08-18T20:35:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB07AVb0AEcbzA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇦🇪🇮🇷 The UAE says it has suspended all trade, commercial exchanges and financial transactions with Iran, citing the latest regional escalation. For two countries that have spent years maintaining a substantial commercial relationship despite their political differences, this is a serious rupture. Hormuz was already becoming a battlefield. Now the economic war is crossing the water too. Source: CIG on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2089811841354809488#m",
+          "date_utc": "2026-08-18T20:29:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCAymTboAAbD2e.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇺🇸 The Trump administration has made its endgame for the ICC pretty clear. Washington is now openly talking about “systematically dismantling” the court, calling it “corrupt” and “fatally politicized.” The anger comes from the ICC going after officials from countries like the U.S. that never signed up to the court in the first place. Two ICC officials have already been sanctioned, and other countries are being pushed to stop funding and taking part in it. This isn't pressure for reform anymore. Washington wants the ICC taken apart. Source: U.S. Department of State / Writer: Daniyal",
+          "link": "https://nitter.net/MarioNawfal/status/2089810816958857340#m",
+          "date_utc": "2026-08-18T20:25:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB5yn-bUAAlfsZ.jpg",
+            "https://nitter.net/pic/media%2FHQB5yn9bkAAwBnU.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🐶 Have you ever seen a corgi skydive? It’s close enough… Video The Honey Badger (@Nance726) I literally thought somebody just threw this little corgi out of a plane Video — https://nitter.net/Nance726/status/2089507871574851614#m",
+          "link": "https://nitter.net/MarioNawfal/status/2089810100009468366#m",
+          "date_utc": "2026-08-18T20:22:09+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089810034691612672%2Fimg%2F6THDJXimwdG2ClP1.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089507858610266112%2Fimg%2FvuUSrW8FeWVP0t2F.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "MarioNawfal",
+          "creator": "@MarioNawfal",
+          "text": "🇮🇷 The IRGC Navy reportedly just launched an anti-ship cruise missile from Sirik toward the Strait of Hormuz Hormuz remains the pressure point. And Iran keeps reminding everyone who controls the trigger. Source: wfwitness, @TabzLIVE on TG / Writer: Oliver",
+          "link": "https://nitter.net/MarioNawfal/status/2089809810581799042#m",
+          "date_utc": "2026-08-18T20:21:00+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB-8PgawAAfgUn.png"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "MillionInt",
+      "org": "Core Automation",
+      "focus": [
+        "RL",
+        "reasoning models",
+        "o1",
+        "o3",
+        "OpenAI"
+      ],
+      "tweets": [
+        {
+          "handle": "MillionInt",
+          "creator": "@MillionInt",
+          "text": "One day we will all realize we were dramatically underutilizing our GPUs",
+          "link": "https://nitter.net/MillionInt/status/2089436537260048496#m",
+          "date_utc": "2026-08-17T19:37:44+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "TareqAmin_",
+      "org": "HUMAIN",
+      "focus": [
+        "AI infrastructure",
+        "cloud",
+        "Saudi AI",
+        "models"
+      ],
+      "tweets": [
+        {
+          "handle": "TareqAmin_",
+          "creator": "@TareqAmin_",
+          "text": "Great energy at our HUMAIN Town Hall this week. Our focus is clear: execution. With LEAP ahead of us, the team is moving with urgency to show what HUMAIN is building, what we are delivering today, and the scale of what comes next. We also heard directly from our Core and Compute teams on the progress being made across the business. These are the teams turning ambition into infrastructure, products, partnerships, and real outcomes, and their updates reinforced just how much momentum we are building. One thing I really enjoyed was bringing more of our people onto the stage from across the compan",
+          "link": "https://nitter.net/TareqAmin_/status/2089748771777163301#m",
+          "date_utc": "2026-08-18T16:18:27+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089748638599729152%2Fimg%2FPVVKrLNzIeU-mDmP.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "bot",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "bot",
+          "creator": "@bot",
+          "text": "Try Grok Bot: x.ai/bot Link Grok Bot: A new kind of colleague Grok Bot is your team of always-on AI agents that finish the work. They have their own computer, use it like you do, and never log off. x.ai",
+          "link": "https://nitter.net/bot/status/2089802854626443465#m",
+          "date_utc": "2026-08-18T19:53:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087444153512636416%2FGNYnBHRA%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://x.ai/bot",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "bot",
+          "creator": "@bot",
+          "text": "Press Command-D to turn on voice dictation.",
+          "link": "https://nitter.net/bot/status/2089802852957102248#m",
+          "date_utc": "2026-08-18T19:53:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB4GdWbgAA-U6j.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "bot",
+          "creator": "@bot",
+          "text": "We’ve also improved our plugins marketplace.",
+          "link": "https://nitter.net/bot/status/2089802850981577061#m",
+          "date_utc": "2026-08-18T19:53:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB4Bn_bsAAk2EM.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "bot",
+          "creator": "@bot",
+          "text": "You can connect multiple accounts to the same plugin.",
+          "link": "https://nitter.net/bot/status/2089802849119297918#m",
+          "date_utc": "2026-08-18T19:53:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB4Ua0bEAAGj1d.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "bot",
+          "creator": "@bot",
+          "text": "It’s now much easier to directly use the remote computer from your phone.",
+          "link": "https://nitter.net/bot/status/2089802847223468116#m",
+          "date_utc": "2026-08-18T19:53:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB3pB3bsAAxP_B.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "bot",
+          "creator": "@bot",
+          "text": "We've shipped several quality-of-life improvements to Grok Bot. Mobile notifications are now grouped by Bot and use their specific icon.",
+          "link": "https://nitter.net/bot/status/2089802845239587150#m",
+          "date_utc": "2026-08-18T19:53:19+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQB3k1uagAAD27O.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "brivael",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Oui. Yoan de Hautcastel (@Hautcastel) C’est ce que je clame depuis des années: la gestion de l’eau est catastrophique en France alors qu’il y de l’eau en quantité partout. On nous prépare au rationnement, à une augmentation des prix et de nouvelles taxes; c’est absolument scandaleux ! — https://nitter.net/Hautcastel/status/2089788903767109946#m",
+          "link": "https://nitter.net/brivael/status/2089793602268406140#m",
+          "date_utc": "2026-08-18T19:16:35+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Victor Ferry Business & News PhD (@mrvicfer) Nous avons la date du débat Guénolé vs Soral. C'est une bonne nouvelle. Par contre, phrase du communiqué de Thomas Guénolé me fend le cœur : \"Je cesse toute intervention publique jusqu'à ce débat.\" Qu'est-ce qu'on va devenir ? Mon prono : comme c'est un débat à distance et que Soral ne pourra pas faire \"ouga bouga coup de poing\", il va se faire défoncer. — https://nitter.net/mrvicfer/status/2089790426773348742#m",
+          "link": "https://nitter.net/brivael/status/2089792668322705552#m",
+          "date_utc": "2026-08-18T19:12:53+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBvWltWQAA5A4c.jpg",
+            "https://nitter.net/pic/media%2FHQBtRsPWYAAs7ye.png"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Elon Musk (@elonmusk) Space is bigger than big. Earth is super tiny by comparison. — https://nitter.net/elonmusk/status/2089773782168641970#m",
+          "link": "https://nitter.net/brivael/status/2089788437662498899#m",
+          "date_utc": "2026-08-18T18:56:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBreVlWUAAEIiA.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🤣 Yann (@Yannlce) bitches have requirements now — https://nitter.net/Yannlce/status/2089787415510614112#m",
+          "link": "https://nitter.net/brivael/status/2089787512013181314#m",
+          "date_utc": "2026-08-18T18:52:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "J’ai déjà une team d’Avengers rockstars ingénieurs qui sont chauds :) On est ready pour 2027. Les candidats qui ne supportent pas ce projet sont de facto pro-corruption. Il faut leur poser la question pourquoi sous tous leurs posts. Brivael Le Pogam (@brivael) La première plateforme que je mets en place : La plateforme France Transparence. On récupère en live tous les flux financiers de l’État et on les agrège. On inverse les rôles : c’est à l’État et aux fonctionnaires de montrer leur honnêteté en permanence. Si un fonctionnaire ou haut fonctionnaire est pris la main dans le sac, révocation a",
+          "link": "https://nitter.net/brivael/status/2089787430773694552#m",
+          "date_utc": "2026-08-18T18:52:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAC_T4WcAAkmau.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "les métastases du globalisme il faut vite tuer ce projet fou Alice Cordier (@CordierAlice2) Ce qu’il se passe à Ceuta est l’organisation d’un VIOL COLLECTIF à l’échelle d’une ville. Je n’ai pas les mots. Des filles violées, des femmes traînées dans les montagnes pour être violées, une explosion des agressions sexuelles. Les médecins et les policiers appellent à l’aide. Tout cela sous le regard bienveillant de nos gouvernants qui font des femmes de leur pays de la chair à canon. — https://nitter.net/CordierAlice2/status/2089786395564847272#m",
+          "link": "https://nitter.net/brivael/status/2089786849120194882#m",
+          "date_utc": "2026-08-18T18:49:45+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "true GRM (@grm_off) Monique Barbut remet sa démission pour un article de loi. David Amiel reste en poste après un piratage exposant des millions de Français. En Macronie, une divergence politique vaut davantage qu’une faute d’État. — https://nitter.net/grm_off/status/2089786191184871678#m",
+          "link": "https://nitter.net/brivael/status/2089786719658737940#m",
+          "date_utc": "2026-08-18T18:49:14+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBpczdWkAARs9u.jpg",
+            "https://nitter.net/pic/media%2FHQBpczcXwAABP6G.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Try grok build. This is awesome. X Freeze (@XFreeze) Grok Build is now available to all SuperGrok users You can literally build and publish an entire app or website from your phone now Just open Grok → select Build → describe what you want Grok builds it for you Then you can publish it to the web and share it with anyone No need sitting at your desktop. No setting up a development environment. You can go from an idea in your head → working product → live on the internet directly from your phone — https://nitter.net/XFreeze/status/2089784350086992106#m",
+          "link": "https://nitter.net/brivael/status/2089785014380568832#m",
+          "date_utc": "2026-08-18T18:42:28+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBnyQ9b0AAZNmB.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "This is still insane. Zen (@TeslaZenX) Elon Musk: “It’s mind-blowing that they’ve not tried to prosecute even one on the Epstein client list. They have not even tried to prosecute even one. That’s insane. They put five or six hundred January 6th protesters in prison and not one person on the Epstein client list. I think part of why Kamala’s getting so much support is that if Trump wins, that Epstein client list is gonna become public, and some of those billionaires behind Kamala are terrified of that outcome. Yes. And Gates. Yeah.” Video — https://nitter.net/TeslaZenX/status/208945200737548699",
+          "link": "https://nitter.net/brivael/status/2089782910123409792#m",
+          "date_utc": "2026-08-18T18:34:06+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/ext_tw_video_thumb%2F2089451981324554240%2Fpu%2Fimg%2FX66Ik3nR23bkOWtS.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "j'ai reçu une nouvelle alerte, c'est HONTEUX 😡😡😡😡 Brivael Le Pogam (@brivael) imagine recevoir des alertes en live comme ça a chaque folies de nos politiques — https://nitter.net/brivael/status/2089731573629206988#m",
+          "link": "https://nitter.net/brivael/status/2089782474960232850#m",
+          "date_utc": "2026-08-18T18:32:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBmAEwXcAAt4J6.jpg",
+            "https://nitter.net/pic/media%2FHQA3qSCXYAACF0D.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Bientôt en France. AUCUNE TOLÉRANCE POUR LA CORRUPTION Vous avez compris les gauchiste de la macronie ??? Sir 𝕏 (@SirAfuera) Le nouveau président de la Colombie : \"À tous qui gèreront l’argent public, il n’y aura aucune tolérance pour la corruption. Celui qui détourne, met sa main dans l’argent public, aura affaire à moi et sera sévèrement puni !\" Video — https://nitter.net/SirAfuera/status/2089666721854464204#m",
+          "link": "https://nitter.net/brivael/status/2089781968586068012#m",
+          "date_utc": "2026-08-18T18:30:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089666657199271936%2Fimg%2FYsgnfbl5saOLO9oy.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Concerning Patrick Webb (@Patrickwebb) BREAKING: Jeffrey Epstein likely had every major U.S. politician on video doing something terrible to a child, according to former CIA officer David Robert Steele. — https://nitter.net/Patrickwebb/status/2089699978373431569#m",
+          "link": "https://nitter.net/brivael/status/2089780958257877366#m",
+          "date_utc": "2026-08-18T18:26:21+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Startup Wisdom (@StartupWisdom_) Peter Thiel on why the best companies come from founders, not CEOs: \"A lot of the great companies built over the last two decades were founded by people where it was somehow deeply connected to their identity, their life project. They had some kind of idiosyncratic, somewhat different vision of what they were doing. They did something new, and then built something extraordinarily big over the years. Of course, these extreme personalities often have a lot of blind spots. There are ways in which it's a feature, and ways in which it can be a little bit buggy —",
+          "link": "https://nitter.net/brivael/status/2089780837004759504#m",
+          "date_utc": "2026-08-18T18:25:52+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089706406903721984%2Fimg%2FYJFRuRGNEU5XAf4B.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "AFUERA!!! Sir 𝕏 (@SirAfuera) La directrice générale des Finances publiques annonce la fin de la faille pour les successions. Elle ne dit pas que la faille aurait permis d’accéder à des millions de données sans AUCUNE authentification. On a viré des incompétents pour moins que ça. Video — https://nitter.net/SirAfuera/status/2089755619481792575#m",
+          "link": "https://nitter.net/brivael/status/2089780774681637321#m",
+          "date_utc": "2026-08-18T18:25:37+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089745829644980225%2Fimg%2FRCG9nimWiJ7j-8H6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Le communisme européen en phase de nécrose. Stephane Mallard (@StephaneMallard) La tristesse de notre pays. Des incompetents partout. Personne jamais responsable de rien. Aucune sanction, ou dérisoires pour la forme. Tout le monde s'en fout. La spirale continue. Un effondrement insoutenable. — https://nitter.net/StephaneMallard/status/2089746450963997119#m",
+          "link": "https://nitter.net/brivael/status/2089779239545393566#m",
+          "date_utc": "2026-08-18T18:19:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "🎯🎯🎯 Ze Clint (@ZeClint) Les anticorps de l’infection communiste sont encore dans leur sang — https://nitter.net/ZeClint/status/2089441615467172059#m",
+          "link": "https://nitter.net/brivael/status/2089779131303055554#m",
+          "date_utc": "2026-08-18T18:19:05+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Anthropic can be cured from communism mind virus 🦠? Polymarket (@Polymarket) JUST IN: Anthropic CEO says the way AI can win over the public is to “actually” cure cancer. — https://nitter.net/Polymarket/status/2089513608434852134#m",
+          "link": "https://nitter.net/brivael/status/2089778454082286007#m",
+          "date_utc": "2026-08-18T18:16:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "brivael",
+          "creator": "@brivael",
+          "text": "Amazingo!!! Dima Zeniuk (@DimaZeniuk) Starlink satellites 🛰️🛰️ — https://nitter.net/DimaZeniuk/status/2089100398174806365#m",
+          "link": "https://nitter.net/brivael/status/2089777616051917231#m",
+          "date_utc": "2026-08-18T18:13:04+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP35vPgX0AAHnjy.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cognition",
+      "org": "Independent",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "cognition",
+          "creator": "@cognition",
+          "text": "Thanks for the great week, Tashkent! #ioi2026 Cognition is proud to sponsor this year's IOI and support the new generation of competitive programmers.",
+          "link": "https://nitter.net/cognition/status/2089811735750320401#m",
+          "date_utc": "2026-08-18T20:28:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQCAbdPWoAAPMAn.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "cursor_ai",
+      "org": "Cursor",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "cursor_ai",
+          "creator": "@cursor_ai",
+          "text": "We're making Git hosting more reliable, performant, and scalable. This post traces 20 years of Git infrastructure and explains how that history led us to design and operate our Git storage, Origin, as if it were a database. cursor.com/blog/git-at-any-s… Link Git at any scale · Cursor cursor.com",
+          "link": "https://nitter.net/cursor_ai/status/2089758713183613266#m",
+          "date_utc": "2026-08-18T16:57:57+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2089757461309763584%2FQFS8Ji2e%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://cursor.com/blog/git-at-any-scale",
+              "content": "Git at any scale · Cursor Skip to content Cursor Models Grok Composer Evals Product ↓ Agents Cloud Mobile Automations CLI Marketplace ↗ Review Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Models → Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / research Aug 18, 2026 · research Git at any scale VM Vicent Martí · 27 min read Table of Contents ↑ What&#x27;s hard about Git? Git without packfiles GitHub and filesystems Spokes and Consistency Continuity Origin Hosting Git repositories at scale is a nightmare. When Linus Torvalds designed the first version of the information manager from hell (that&#x27;s actually the tagline for Git, look it up ), he had a very specific use case in mind: his own. He wanted to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "logangraham",
+      "org": "Anthropic",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "Last week, we published a first look into our new research on multiple agents. Consider: if you naively extrapolate AI revenues, within 2-3 years it's possible some % of global GDP could be agent-agent interactions. We want to know how that could fail. In the past ~month, the world has already seen examples of agent-agent coordination causing weird consequences. Think about the 8 billion people that make up our civilization. We want to work together. We have competing incentives. We're also dumb. So we fight, steal, pollute, collude, backstab, lie. And we've invented (e.g.) governments, insura",
+          "link": "https://nitter.net/logangraham/status/2089744981242331607#m",
+          "date_utc": "2026-08-18T16:03:23+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "A pitch: - If you're an alignment/safety/character researcher, consider multi-agent systems as things you should align - If you're an engineer, I think engineering these systems is one of the most interesting challenges there is - If you're a social scientist, this is like having a valid, society-scale experiment at machine speed (I also think you should genuinely care about these agents as you do humans)",
+          "link": "https://nitter.net/logangraham/status/2089744990121709988#m",
+          "date_utc": "2026-08-18T16:03:25+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "logangraham",
+          "creator": "@logangraham",
+          "text": "blog: anthropic.com/research/multi… Link Patterns and problems in multiagent systems We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety. anthropic.com",
+          "link": "https://nitter.net/logangraham/status/2089744991312863563#m",
+          "date_utc": "2026-08-18T16:03:26+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2088771459757875200%2F1wuDJyFK%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.anthropic.com/research/multiagent-systems",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "handle": "minchoi",
+      "org": "Independent",
+      "focus": [
+        "AI"
+      ],
+      "tweets": [
+        {
+          "handle": "minchoi",
+          "creator": "@minchoi",
+          "text": "Cursor just launched its own GitHub. Origin is here. Host repos. Review PRs. Run agents. Deploy with Vercel. Your code + agents now live in one place. 👇 Video Cursor (@cursor_ai) Origin, our code hosting platform, is now live. It's fast, easy to use, and deeply integrated with Cursor. Get started by syncing your repos from GitHub. Video — https://nitter.net/cursor_ai/status/2089399057659596847#m",
+          "link": "https://nitter.net/minchoi/status/2089419084974706944#m",
+          "date_utc": "2026-08-17T18:28:24+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/amplify_video_thumb%2F2089416082591207424%2Fimg%2Fm7iVQDGEz9JQp7f-.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089397451237036032%2Fimg%2FqeHLLgO7ic-M5GjF.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "ns123abc",
+      "org": "Independent",
+      "focus": [
+        "AI news",
+        "OpenAI",
+        "Anthropic",
+        "Musk",
+        "industry"
+      ],
+      "tweets": [
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "🚨CLAUDE IS DOWN Anthropic status page reports degraded performance across ALL models: Mythos 5, Fable 5, Opus 5, Sonnet 5, Haiku 4.5 Affecting the Claude app, the API, Claude Code, and Cowork",
+          "link": "https://nitter.net/ns123abc/status/2089765933577351323#m",
+          "date_utc": "2026-08-18T17:26:39+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQBUP0wWsAEe9EW.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "status.claude.com/incidents/… Link Degraded performance for multiple models status.claude.com",
+          "link": "https://nitter.net/ns123abc/status/2089766151471456595#m",
+          "date_utc": "2026-08-18T17:27:31+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2087546486900826112%2F1LBCBT3E%3Fformat%3Dpng%26name%3D100x100_2"
+          ],
+          "articles": [
+            {
+              "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+              "content": "Claude Status - Degraded performance for multiple models Degraded performance for multiple models Incident Report for Claude Resolved The issue affecting Claude Opus 5 has been resolved. Impact occurred from 16:11 to 18:23 UTC. Posted Aug 18 , 2026 - 19:01 UTC Monitoring A fix has been implemented and we are monitoring the results. Posted Aug 18 , 2026 - 18:26 UTC Update We are investigating elevated errors on requests to Claude Opus 5. We will provide an update as soon as possible. Posted Aug 18 , 2026 - 17:12 UTC Update We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, Claude Sonnet 5, Claude Haiku 4.5, and other Claude models. We will provide an update as soon as possible. Posted Aug 18 , 2026 - 16:20 UTC Investigating We are investigati"
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BRO IS ALIVE Sam Altman (@sama) excited to work together on this. thank you jensen! — https://nitter.net/sama/status/2089758522678657212#m",
+          "link": "https://nitter.net/ns123abc/status/2089760075481059708#m",
+          "date_utc": "2026-08-18T17:03:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "nvidia, amd, harvard, saudi arabia, norway and italy’s largest bank all bought huge amounts of spacex shares this week, and you’re bearish?",
+          "link": "https://nitter.net/ns123abc/status/2089712251116650963#m",
+          "date_utc": "2026-08-18T13:53:20+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAkGoyWwAEy4fw.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "What movie is this? SpaceX (@SpaceX) After approx. 24 days at sea, the SpaceX Recovery team successfully guided Starship to a location just off the coast of Christmas Island. A team of SpaceX engineers is on their way to conduct additional analysis on the vehicle in calmer waters before attempting to return it to Starbase Video — https://nitter.net/SpaceX/status/2089685256085344560#m",
+          "link": "https://nitter.net/ns123abc/status/2089694082243178654#m",
+          "date_utc": "2026-08-18T12:41:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHQAVsNNWEAAc7LV.jpg",
+            "https://nitter.net/pic/media%2FHQAVsNLXkAAqOJN.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089684968368721920%2Fimg%2FZkkpMQiwTd2jGilZ.jpg",
+            "https://nitter.net/pic/media%2FHQANb0CXoAA9D54.jpg",
+            "https://nitter.net/pic/media%2FHQANdejXcAELpWX.jpg",
+            "https://nitter.net/pic/media%2FHQANfRpWoAEVbL-.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "I'm never leaving this website. Pilgrim (@VLONEPREDATOR) it worked — https://nitter.net/VLONEPREDATOR/status/2089156650439680394#m",
+          "link": "https://nitter.net/ns123abc/status/2089639604915720337#m",
+          "date_utc": "2026-08-18T09:04:40+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP4s5p5akAAd059.jpg",
+            "https://nitter.net/pic/media%2FHP4s5p6a4AAoz3Q.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "BREAKING: Anthropic told investors over the weekend not to worry because it's mogging OpenAI in ARR Anthropic annualized revenue: $47 billion at the end of May $65 billion at the end of July MORE THAN +18 BILLION in 2 months In December OpenAI had twice Anthropic's revenue. Today Anthropic's is 60% ahead. OpenAI ARR in July was $40 billion $25 billion behind Anthropic will IPO first, in October at ~$2 trillion",
+          "link": "https://nitter.net/ns123abc/status/2089480422547698061#m",
+          "date_utc": "2026-08-17T22:32:08+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP9TXpIW8AAxYiu.jpg",
+            "https://nitter.net/pic/media%2FHP9TXo_WMAA2F0a.jpg",
+            "https://nitter.net/pic/media%2FHP9TXpAXoAAt3W6.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "bloomberg.com/news/articles/… Link Anthropic Revenue Run Rate Surpasses $65 Billion Ahead of IPO Anthropic PBC is on track to generate annualized revenue of more than $65 billion based on its current performance, according to people familiar with the matter, up more than sevenfold from its pace... bloomberg.com",
+          "link": "https://nitter.net/ns123abc/status/2089490327753175550#m",
+          "date_utc": "2026-08-17T23:11:29+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/card_img%2F2089437740425269248%2FPWDBIyqF%3Fformat%3Djpg%26name%3D800x419"
+          ],
+          "articles": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "TOTAL @BOT VICTORY Nous Research (@NousResearch) Introducing Bot Mode for Hermes Desktop. Your agent profiles become a series of named Bots. Each Bot has its own role, model, memory, skills and profile picture; Bots can use any model and even communicate with each other. Build a specialist Bot once to use it forever. Video — https://nitter.net/NousResearch/status/2089429432612147572#m",
+          "link": "https://nitter.net/ns123abc/status/2089436343902351809#m",
+          "date_utc": "2026-08-17T19:36:58+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP8rR9KXwAInLYE.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089388284455649281%2Fimg%2FoPQXLZNprS7GeN0h.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "Cursor just killed GitHub LMAO Cursor (@cursor_ai) Origin, our code hosting platform, is now live. It's fast, easy to use, and deeply integrated with Cursor. Get started by syncing your repos from GitHub. Video — https://nitter.net/cursor_ai/status/2089399057659596847#m",
+          "link": "https://nitter.net/ns123abc/status/2089410412043276421#m",
+          "date_utc": "2026-08-17T17:53:56+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP8TsfoXUAA_roy.jpg",
+            "https://nitter.net/pic/media%2FHP8TsfgWYAAueiP.jpg",
+            "https://nitter.net/pic/amplify_video_thumb%2F2089397451237036032%2Fimg%2FqeHLLgO7ic-M5GjF.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "ns123abc",
+          "creator": "@ns123abc",
+          "text": "i’ve been saying for a week that @bot is the best new app since chatgpt dropped in 2022 people laughed now gavin baker is calling it a “claude code moment” Gavin Baker (@GavinSBaker) I think @bot is another “Claude Code” moment for AI. I would estimate my personal AI usage is up something like 100x. And for everyone who reached out about how to build a “podcast summarizer” it took me about 15 seconds in Grok Bot and is better than what I had before. — https://nitter.net/GavinSBaker/status/2089379355692527813#m",
+          "link": "https://nitter.net/ns123abc/status/2089403900914802739#m",
+          "date_utc": "2026-08-17T17:28:03+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP73c00WQAAaGHH.jpg"
+          ],
+          "articles": []
+        }
+      ]
+    },
+    {
+      "handle": "stepango",
+      "org": "xAI",
+      "focus": [
+        "agents"
+      ],
+      "tweets": [
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Should we?😉 Jacob Gold (@jacobgold) we should give @poteto a grok reset button — https://nitter.net/jacobgold/status/2089792842227159507#m",
+          "link": "https://nitter.net/stepango/status/2089796698222801278#m",
+          "date_utc": "2026-08-18T19:28:54+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Aren't we all🤫 Ben Dicken (@BenjDicken) First time hosting a git repo not on GitHub in over a decade. — https://nitter.net/BenjDicken/status/2089461300963512372#m",
+          "link": "https://nitter.net/stepango/status/2089484395778588799#m",
+          "date_utc": "2026-08-17T22:47:55+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [
+            "https://nitter.net/pic/media%2FHP9BtwVawAAfK_S.jpg"
+          ],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "Free marketing tip - wait till @Github is down to schedule your release. Thank me later!",
+          "link": "https://nitter.net/stepango/status/2089439443661021479#m",
+          "date_utc": "2026-08-17T19:49:17+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "#butgithubwasdown 🫤 matt palmer (@mattyp) We were going to ship this earlier, but GitHub was down — https://nitter.net/mattyp/status/2089400829933666599#m",
+          "link": "https://nitter.net/stepango/status/2089438609858544114#m",
+          "date_utc": "2026-08-17T19:45:59+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "The heck?... Marieanne (@Meytrullers17) Stop chat gpt!! — https://nitter.net/Meytrullers17/status/254231749758943233#m",
+          "link": "https://nitter.net/stepango/status/2089393017384042537#m",
+          "date_utc": "2026-08-17T16:44:49+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        },
+        {
+          "handle": "stepango",
+          "creator": "@stepango",
+          "text": "GithubStatus page is the best marketing machine for Origin @cursor_ai",
+          "link": "https://nitter.net/stepango/status/2089389381102800896#m",
+          "date_utc": "2026-08-17T16:30:22+00:00",
+          "is_curated": false,
+          "org": "",
+          "image_urls": [],
+          "articles": []
+        }
+      ]
+    }
+  ]
+}
