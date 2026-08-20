@@ -1,5 +1,5 @@
 # Kurate Rising Authors
-> 2026-08-20 18:52 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
+> 2026-08-20 22:51 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
 
 ## Gupta Lovi Raj  ·  score 15.3  ·  4 appearances
 *First seen 2026-W32, last seen 2026-W34*
