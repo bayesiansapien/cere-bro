@@ -13446,10 +13446,18 @@
         "arxiv_id": "2607.23496v1",
         "title": "Do LLMs Know Their Vulnerable Scenarios?",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.21100v1",
+        "title": "ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W35"
   },
   "Jiahui Han": {
     "appearances": [
@@ -15924,10 +15932,18 @@
         "arxiv_id": "2608.13100v1",
         "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "kaur Kamalpreet": {
     "appearances": [
@@ -16518,10 +16534,18 @@
         "arxiv_id": "2608.02528v1",
         "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.21307v1",
+        "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W35"
   },
   "Amin Farajzadeh": {
     "appearances": [
@@ -18244,10 +18268,18 @@
         "arxiv_id": "2608.11052v1",
         "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.11052v1",
+        "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Anna Barabanova": {
     "appearances": [
@@ -18258,10 +18290,18 @@
         "arxiv_id": "2608.11052v1",
         "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.11052v1",
+        "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Uliana Gagarina": {
     "appearances": [
@@ -18272,10 +18312,18 @@
         "arxiv_id": "2608.11052v1",
         "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.11052v1",
+        "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Karina Ivanova": {
     "appearances": [
@@ -18286,10 +18334,18 @@
         "arxiv_id": "2608.11052v1",
         "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.11052v1",
+        "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Sofiia Kasaeva": {
     "appearances": [
@@ -18300,10 +18356,18 @@
         "arxiv_id": "2608.11052v1",
         "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.11052v1",
+        "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Ilya Levin": {
     "appearances": [
@@ -18314,10 +18378,18 @@
         "arxiv_id": "2608.11052v1",
         "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.11052v1",
+        "title": "Efficient Hypergradient Descent for Inverse Reinforcement Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Kai Dahms": {
     "appearances": [
@@ -18874,10 +18946,18 @@
         "arxiv_id": "2608.11403v1",
         "title": "When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.11403v1",
+        "title": "When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Lang Cao": {
     "appearances": [
@@ -18888,10 +18968,18 @@
         "arxiv_id": "2608.11705v1",
         "title": "Making Your LLMs More Objective: Stabilizing LLM Safety Behavior Across Traits with Trait-Invariant Safety Tuning",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.11705v1",
+        "title": "Making Your LLMs More Objective: Stabilizing LLM Safety Behavior Across Traits with Trait-Invariant Safety Tuning",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Linqiang Guo": {
     "appearances": [
@@ -18902,10 +18990,18 @@
         "arxiv_id": "2608.11588v1",
         "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Li Gu": {
     "appearances": [
@@ -18916,10 +19012,18 @@
         "arxiv_id": "2608.11588v1",
         "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Zihuan Jiang": {
     "appearances": [
@@ -18930,10 +19034,18 @@
         "arxiv_id": "2608.11588v1",
         "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Zhixiang Chi": {
     "appearances": [
@@ -18944,10 +19056,18 @@
         "arxiv_id": "2608.11588v1",
         "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Siobhan Reid": {
     "appearances": [
@@ -18958,10 +19078,18 @@
         "arxiv_id": "2608.11588v1",
         "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Ziqiang Wang": {
     "appearances": [
@@ -18972,10 +19100,18 @@
         "arxiv_id": "2608.11588v1",
         "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.11588v1",
+        "title": "CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Junyi Ye": {
     "appearances": [
@@ -18986,10 +19122,18 @@
         "arxiv_id": "2608.12259v1",
         "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12259v1",
+        "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Ivy Gateri Wanjiku": {
     "appearances": [
@@ -19000,10 +19144,18 @@
         "arxiv_id": "2608.12259v1",
         "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.12259v1",
+        "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Yang Sun": {
     "appearances": [
@@ -19014,10 +19166,18 @@
         "arxiv_id": "2608.11698v1",
         "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Lichao Ma": {
     "appearances": [
@@ -19028,10 +19188,18 @@
         "arxiv_id": "2608.11698v1",
         "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Houyuan Qin": {
     "appearances": [
@@ -19042,10 +19210,18 @@
         "arxiv_id": "2608.11698v1",
         "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Yuxin Liu": {
     "appearances": [
@@ -19056,10 +19232,18 @@
         "arxiv_id": "2608.11698v1",
         "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Hanyang Lu": {
     "appearances": [
@@ -19070,10 +19254,18 @@
         "arxiv_id": "2608.11698v1",
         "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Yao Zhu": {
     "appearances": [
@@ -19084,10 +19276,18 @@
         "arxiv_id": "2608.11698v1",
         "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.11698v1",
+        "title": "REOPD: Reliability-Adaptive Reward Extrapolation for On-Policy Distillation",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Nikolai Bolik": {
     "appearances": [
@@ -19182,10 +19382,18 @@
         "arxiv_id": "2608.13046v1",
         "title": "BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.13046v1",
+        "title": "BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Alison R. Panisson": {
     "appearances": [
@@ -19196,10 +19404,18 @@
         "arxiv_id": "2608.13447v1",
         "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
         "ai_rating": 2.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Maria Eduarda W. M. Vianna": {
     "appearances": [
@@ -19210,10 +19426,18 @@
         "arxiv_id": "2608.13447v1",
         "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
         "ai_rating": 2.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Italo Firmino da Silva": {
     "appearances": [
@@ -19224,10 +19448,18 @@
         "arxiv_id": "2608.13447v1",
         "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
         "ai_rating": 2.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Heitor Henrique da Silva": {
     "appearances": [
@@ -19238,10 +19470,18 @@
         "arxiv_id": "2608.13447v1",
         "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
         "ai_rating": 2.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Rafaela Fernandes Savaris": {
     "appearances": [
@@ -19252,10 +19492,18 @@
         "arxiv_id": "2608.13447v1",
         "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
         "ai_rating": 2.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Bernardo Pandolfi Costa": {
     "appearances": [
@@ -19266,10 +19514,18 @@
         "arxiv_id": "2608.13447v1",
         "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
         "ai_rating": 2.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.13447v1",
+        "title": "Academic League of Artificial Intelligence - An Integrative Perspective of Teaching, Research, and Extension",
+        "ai_rating": 2.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Aimilios Hadjiliasi": {
     "appearances": [
@@ -19280,10 +19536,18 @@
         "arxiv_id": "2608.13420v1",
         "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
         "ai_rating": 3.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.13420v1",
+        "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
+        "ai_rating": 3.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Louis Nisiotis": {
     "appearances": [
@@ -19294,10 +19558,18 @@
         "arxiv_id": "2608.13420v1",
         "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
         "ai_rating": 3.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.13420v1",
+        "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
+        "ai_rating": 3.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Kaur Kamalpreet": {
     "appearances": [
@@ -19308,10 +19580,18 @@
         "arxiv_id": "2608.13100v1",
         "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Dama Sri Ram": {
     "appearances": [
@@ -19322,10 +19602,18 @@
         "arxiv_id": "2608.13100v1",
         "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Parani Prajithaa": {
     "appearances": [
@@ -19336,10 +19624,18 @@
         "arxiv_id": "2608.13100v1",
         "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.13100v1",
+        "title": "Multi-Layer Context Camouflaging: A Semantic Superposition and Contextual Lamination Framework for Malpractice-Resilient Online Assessment",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Sabin Roman": {
     "appearances": [
@@ -19350,10 +19646,18 @@
         "arxiv_id": "2608.13504v1",
         "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.13504v1",
+        "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Ljupco Todorovski": {
     "appearances": [
@@ -19364,10 +19668,18 @@
         "arxiv_id": "2608.13504v1",
         "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.13504v1",
+        "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Saso Dzeroski": {
     "appearances": [
@@ -19378,10 +19690,18 @@
         "arxiv_id": "2608.13504v1",
         "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.13504v1",
+        "title": "Sparse Orthogonal Regression Technique: A Spectral Framework for Equation Discovery, Approximation, and Integration",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Ziqi Zhao": {
     "appearances": [
@@ -19392,10 +19712,18 @@
         "arxiv_id": "2608.12962v1",
         "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Jialin Lu": {
     "appearances": [
@@ -19406,10 +19734,18 @@
         "arxiv_id": "2608.12962v1",
         "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Junjie Shan": {
     "appearances": [
@@ -19420,10 +19756,18 @@
         "arxiv_id": "2608.12962v1",
         "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Junyuan Zhang": {
     "appearances": [
@@ -19434,10 +19778,18 @@
         "arxiv_id": "2608.12962v1",
         "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Shuya Yang": {
     "appearances": [
@@ -19448,10 +19800,18 @@
         "arxiv_id": "2608.12962v1",
         "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Ka-Ho Chow": {
     "appearances": [
@@ -19462,10 +19822,18 @@
         "arxiv_id": "2608.12962v1",
         "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.12962v1",
+        "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Jinhyung Bae": {
     "appearances": [
@@ -19476,10 +19844,18 @@
         "arxiv_id": "2608.13087v1",
         "title": "Sampling Luck Masquerades as Allocation Gain: Auditing Test-Time Budget Allocation for Neural Combinatorial Optimization",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.13087v1",
+        "title": "Sampling Luck Masquerades as Allocation Gain: Auditing Test-Time Budget Allocation for Neural Combinatorial Optimization",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Zixuan Lan": {
     "appearances": [
@@ -19490,10 +19866,18 @@
         "arxiv_id": "2608.13426v1",
         "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.13426v1",
+        "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Yanhong Li": {
     "appearances": [
@@ -19504,10 +19888,18 @@
         "arxiv_id": "2608.13426v1",
         "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.13426v1",
+        "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Jiawei Zhou": {
     "appearances": [
@@ -19518,10 +19910,18 @@
         "arxiv_id": "2608.13426v1",
         "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.13426v1",
+        "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W33",
-    "last_seen": "2026-W33"
+    "last_seen": "2026-W34"
   },
   "Tianyi Li": {
     "appearances": [
@@ -19606,5 +20006,2383 @@
     ],
     "first_seen": "2026-W33",
     "last_seen": "2026-W33"
+  },
+  "Andrew Soroka": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.14156v1",
+        "title": "Deep Reinforcement Learning solution for pickup and delivery routing problems with time window and capacity constraints",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Alex Meshcheryakov": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.14156v1",
+        "title": "Deep Reinforcement Learning solution for pickup and delivery routing problems with time window and capacity constraints",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Sergey Gerasimov": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.14156v1",
+        "title": "Deep Reinforcement Learning solution for pickup and delivery routing problems with time window and capacity constraints",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Benjamín Schindler": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.13866v1",
+        "title": "Geometric Filtering of LLM-Generated Samples for Few-Shot Text Classification",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Gonzalo A. Ruz": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.13866v1",
+        "title": "Geometric Filtering of LLM-Generated Samples for Few-Shot Text Classification",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Dat Nguyen-Cong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.14067v1",
+        "title": "When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Luong Tran": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.14067v1",
+        "title": "When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Tung Kieu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.14067v1",
+        "title": "When Denoising Hurts: Rethinking the Terminal Step of Diffusion Time Series Forecasters -- Extended Version",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Panjing He": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.14452v1",
+        "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Mingyue Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.14452v1",
+        "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yucong Luo": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.14452v1",
+        "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Li Li": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.14452v1",
+        "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Xiaohan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.14452v1",
+        "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Xiaoyu Wen": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.16465v1",
+        "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Jiajia Li": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.16465v1",
+        "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Zhida He": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.16465v1",
+        "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Peng Yu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.16465v1",
+        "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Chenxu Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.16465v1",
+        "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Han Qi": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.16465v1",
+        "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Varuni H K": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.14246v1",
+        "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Soham Sarkar": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.14246v1",
+        "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Jay Kumar": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.14246v1",
+        "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Goutham Krishnan": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.14246v1",
+        "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Tanvi Johari": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.14246v1",
+        "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Avinash Bharadwaj": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.14246v1",
+        "title": "Polaris : Multi Agentic System for Conversational Enterprise Analytics",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Xiaodi Huang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.14125v1",
+        "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Ziyi Ding": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.14125v1",
+        "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Jingtian Wan": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.14125v1",
+        "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yuchen Liu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.14125v1",
+        "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yuan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.14125v1",
+        "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Xiao-Ping Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.14125v1",
+        "title": "Traj-LeWM: Path-Aware World-Model Planning via Latent Trajectory Cost",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Chunyang Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.16212v1",
+        "title": "Quantifying the Gap Between Laboratory Battery Test Patterns and Field Duty Profiles",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Chresten Træholt": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.16212v1",
+        "title": "Quantifying the Gap Between Laboratory Battery Test Patterns and Field Duty Profiles",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Sheng Hong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.14152v1",
+        "title": "Towards Efficient Multimodal and Multilingual Opinion Extraction for STI: A QLoRA-Based Fine-Tuning Approach",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Xuanqi Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.14152v1",
+        "title": "Towards Efficient Multimodal and Multilingual Opinion Extraction for STI: A QLoRA-Based Fine-Tuning Approach",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Jiacheng Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.14152v1",
+        "title": "Towards Efficient Multimodal and Multilingual Opinion Extraction for STI: A QLoRA-Based Fine-Tuning Approach",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yuwei Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.14152v1",
+        "title": "Towards Efficient Multimodal and Multilingual Opinion Extraction for STI: A QLoRA-Based Fine-Tuning Approach",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Qingren Yao": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14270v1",
+        "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yaxuan Kong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14270v1",
+        "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yuqi Nie": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14270v1",
+        "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yichen Li": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14270v1",
+        "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Stefan Zohren": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14270v1",
+        "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Anna Vettoruzzo": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14270v1",
+        "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Wei Wei": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.17849v1",
+        "title": "Efficient Resource Optimization for Split Federated Learning",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.17849v1",
+        "title": "Efficient Resource Optimization for Split Federated Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Xianhao Chen": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.17849v1",
+        "title": "Efficient Resource Optimization for Split Federated Learning",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.17849v1",
+        "title": "Efficient Resource Optimization for Split Federated Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Yixuan Sun": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.18004v1",
+        "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.18004v1",
+        "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Anirban Samaddar": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.18004v1",
+        "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.18004v1",
+        "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Sandeep Madireddy": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.18004v1",
+        "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.18004v1",
+        "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Marvin Castro Castro": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.17914v1",
+        "title": "Hybrid ML for Lightweight Pre-Route Delay Estimation in Open-Source IC Design",
+        "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.17914v1",
+        "title": "Hybrid ML for Lightweight Pre-Route Delay Estimation in Open-Source IC Design",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Erick Carvajal Barboza": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.17914v1",
+        "title": "Hybrid ML for Lightweight Pre-Route Delay Estimation in Open-Source IC Design",
+        "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.17914v1",
+        "title": "Hybrid ML for Lightweight Pre-Route Delay Estimation in Open-Source IC Design",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Vivek Batra": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Kristin Chen": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Sanjiv Das": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Samuel Judge": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Harshad Khadilkar": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Sukrit Mittal": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.18911v1",
+        "title": "Converting Expert Deliberation into Financial Signals Through A Context-Aware NLP Pipeline",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Daniel Wendelken": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Brian Ervin": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Ravindra Arya": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Ali A. Minai": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.18887v1",
+        "title": "Graph-Based Approaches to Learning Epileptogenic Zone Localization Using Stereo-EEG Recordings",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Behnaz Kavoosighafi": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Maria Eidenskog": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Wiktoria Glad": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Katerina Vrotsou": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.18675v1",
+        "title": "An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Haoran Bu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Zejian Chen": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Litian Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Xi Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.17665v1",
+        "title": "GraphWake: Group Polarization via Memory-Mediated Polarization Cascade in LLM-Agent Communities",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Hadi Hosseini": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.18631v1",
+        "title": "Preference Reasoning under Indeterminacy in Large Language Models",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.18631v1",
+        "title": "Preference Reasoning under Indeterminacy in Large Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Samarth Khanna": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.18631v1",
+        "title": "Preference Reasoning under Indeterminacy in Large Language Models",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.18631v1",
+        "title": "Preference Reasoning under Indeterminacy in Large Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Xiyuan Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.18631v1",
+        "title": "Preference Reasoning under Indeterminacy in Large Language Models",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2608.18631v1",
+        "title": "Preference Reasoning under Indeterminacy in Large Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Beatrice Alessandra Motetti": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14446v1",
+        "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Emilien Guandalino": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14446v1",
+        "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Daniele Jahier Pagliari": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14446v1",
+        "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Alessio Burrello": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14446v1",
+        "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Lorenz K. Müller": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14446v1",
+        "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Konstantin Berestizshevsky": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.14446v1",
+        "title": "Wyvern: An Agentic Framework for Generating Grounded Multimodal Reports",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Rocky Liu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.16164v1",
+        "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Tengyu Liu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.16164v1",
+        "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Baoxiong Jia": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.16164v1",
+        "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Fangwei Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.16164v1",
+        "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Xinyi Tong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.16164v1",
+        "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Hongzhao Xie": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.16164v1",
+        "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Samarasimha Reddy Chittamuru": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.16833v1",
+        "title": "Time-Aware Validation of Machine Learning Fuel Consumption Models: Evidence from 1\\,Hz Operational Data, CCGS \\textit{Sir Wilfrid Laurier}",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Ayhan Akinturk": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.16833v1",
+        "title": "Time-Aware Validation of Machine Learning Fuel Consumption Models: Evidence from 1\\,Hz Operational Data, CCGS \\textit{Sir Wilfrid Laurier}",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Allison Kennedy": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.16833v1",
+        "title": "Time-Aware Validation of Machine Learning Fuel Consumption Models: Evidence from 1\\,Hz Operational Data, CCGS \\textit{Sir Wilfrid Laurier}",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Joshua Barnes": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.16833v1",
+        "title": "Time-Aware Validation of Machine Learning Fuel Consumption Models: Evidence from 1\\,Hz Operational Data, CCGS \\textit{Sir Wilfrid Laurier}",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Matthew Hamilton": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.16833v1",
+        "title": "Time-Aware Validation of Machine Learning Fuel Consumption Models: Evidence from 1\\,Hz Operational Data, CCGS \\textit{Sir Wilfrid Laurier}",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Samuel J. Vincent": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Daniel Calloway": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Fangyi Yu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Andrew M. Bean": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Nabeel Seedat": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2608.20220v1",
+        "title": "InsufficiencyBench: Evaluating LLM legal advice on underspecified user queries",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Narcis Marincat": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.20054v1",
+        "title": "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.20054v1",
+        "title": "What You Can't See Is What You Learn: Restricted Evidence Visibility Favors Compositional Generalization in Shared-Genome Language-Model Societies",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Jesus Salas": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.18324v1",
+        "title": "Governance Records as Supervision: Verifier-Selected Self-Training for Structured Workflow Repair",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.18324v1",
+        "title": "Governance Records as Supervision: Verifier-Selected Self-Training for Structured Workflow Repair",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Guanlin Li": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Chengrui Gao": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Chenguang Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Haopu Shang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Zherong Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Ke Xue": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.19953v1",
+        "title": "Learning Early-to-Final Solution Consistency for MILP Acceleration",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Zhihui Chen": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.16626v1",
+        "title": "A Shop Floor Production Scheduling Case based on RFID-supported Smart Factory",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yize Sun": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.16626v1",
+        "title": "A Shop Floor Production Scheduling Case based on RFID-supported Smart Factory",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Yuhao Dong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.16626v1",
+        "title": "A Shop Floor Production Scheduling Case based on RFID-supported Smart Factory",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Zeyu Xiao": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.16626v1",
+        "title": "A Shop Floor Production Scheduling Case based on RFID-supported Smart Factory",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Ray Y. Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.16626v1",
+        "title": "A Shop Floor Production Scheduling Case based on RFID-supported Smart Factory",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Matej Gazda": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.19932v1",
+        "title": "A Strong Linear Baseline for Whole-Heart Cardiac Shape Completion on CT, with an Open Eleven-Structure Statistical Shape Model",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Jakub Gazda": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.19932v1",
+        "title": "A Strong Linear Baseline for Whole-Heart Cardiac Shape Completion on CT, with an Open Eleven-Structure Statistical Shape Model",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Juraj Gazda": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.19932v1",
+        "title": "A Strong Linear Baseline for Whole-Heart Cardiac Shape Completion on CT, with an Open Eleven-Structure Statistical Shape Model",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Peter Drotar": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.19932v1",
+        "title": "A Strong Linear Baseline for Whole-Heart Cardiac Shape Completion on CT, with an Open Eleven-Structure Statistical Shape Model",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W34"
+  },
+  "Josias Moukpe": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.19653v1",
+        "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.19653v1",
+        "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Priyanka Aryal": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.19653v1",
+        "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.19653v1",
+        "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Matthew Kenney": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.19653v1",
+        "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.19653v1",
+        "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Bin Li": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.17965v1",
+        "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.17965v1",
+        "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Dongdong Wang": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.17965v1",
+        "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.17965v1",
+        "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Siyang Lu": {
+    "appearances": [
+      {
+        "week": "2026-W34",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.17965v1",
+        "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.17965v1",
+        "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W34",
+    "last_seen": "2026-W35"
+  },
+  "Xin Sun": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.21097v1",
+        "title": "When Trust Meets Truth: Trust-Truth Separability in LLM-as-Judge",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Di Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.21097v1",
+        "title": "When Trust Meets Truth: Trust-Truth Separability in LLM-as-Judge",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yuchen Guo": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.21097v1",
+        "title": "When Trust Meets Truth: Trust-Truth Separability in LLM-as-Judge",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jiahuan Pei": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.21097v1",
+        "title": "When Trust Meets Truth: Trust-Truth Separability in LLM-as-Judge",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Isao Echizen": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.21097v1",
+        "title": "When Trust Meets Truth: Trust-Truth Separability in LLM-as-Judge",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Abdallah El Ali": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2608.21097v1",
+        "title": "When Trust Meets Truth: Trust-Truth Separability in LLM-as-Judge",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Wenzheng Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.21100v1",
+        "title": "ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yuanzhao Zhai": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.21100v1",
+        "title": "ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Dawei Feng": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.21100v1",
+        "title": "ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Huaimin Wang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.21100v1",
+        "title": "ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Boris Kriuk": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.21059v1",
+        "title": "The Cost of a Physics Prior Is Bounded by the Ablation Gap",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Elaine Lau": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.21357v1",
+        "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Thanuka Udumulla": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.21357v1",
+        "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Lee Izhaki-Tavor": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.21357v1",
+        "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Francisco Guzmán": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.21357v1",
+        "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Nicholas Magazine": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.21357v1",
+        "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jonas Mueller": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.21357v1",
+        "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Suk Hoon Choi": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.20758v1",
+        "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Damdae Park": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.20758v1",
+        "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Junhyuk Choi": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.20758v1",
+        "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Hyein Jung": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.20758v1",
+        "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Changsoo Kim": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.20758v1",
+        "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Ung Lee": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.20758v1",
+        "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "James Hartley": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.21307v1",
+        "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zeropy Surio": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.21307v1",
+        "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Hannah Clarke": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.21307v1",
+        "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Thomas Reed": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.21307v1",
+        "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
   }
 }

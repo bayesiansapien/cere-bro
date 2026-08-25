@@ -56,7 +56,7 @@ What this buys, concretely:
 
 **It directly explains an empirical finding the wiki already recorded.** [LLMRouter (08-14)](2026-08-14-llmrouter-unified-routing-infrastructure.md), which unified routing as a sequential decision process with five components and shipped xRouteBench, found that **lightweight routers become more competitive as the cost constraint tightens, because a heavy router's own cost eats the savings it produces**. That is Pandora's thesis as an experimental observation, published five days earlier by a different group without the theory. Pandora gives the closed form that predicts it. This is a clean theory-meets-measurement pairing, and it is worth naming: the empirical result came first.
 
-**It is the second value-of-information routing paper on this board.** See [VoI routing for Mixtures of LoRA Experts (08-25)](2026-08-25-voi-routing-mixture-of-lora-experts.md), which applies the same principle *inside* one model, choosing which LoRA adapters to query. Two independent groups formalizing routing as value-of-information allocation, at two different levels of the stack, surfacing on the same leaderboard week.
+**It is the second value-of-information routing paper on this board.** See [VoI routing for Mixtures of LoRA Experts (08-25)](2026-08-05-vi-mole-value-of-information-routing.md), which applies the same principle *inside* one model, choosing which LoRA adapters to query. Two independent groups formalizing routing as value-of-information allocation, at two different levels of the stack, surfacing on the same leaderboard week.
 
 ## Gaps
 
@@ -73,7 +73,7 @@ The concrete unpublished experiment: a Pandora-style policy where the boxes are 
 ## Related pages
 
 - [LLM Routing](llm-routing.md)
-- [VoI routing for Mixtures of LoRA Experts (08-25)](2026-08-25-voi-routing-mixture-of-lora-experts.md)
+- [VoI routing for Mixtures of LoRA Experts (08-25)](2026-08-05-vi-mole-value-of-information-routing.md)
 - [LLMRouter (08-14)](2026-08-14-llmrouter-unified-routing-infrastructure.md)
 - [Token price is not task cost, AlphaSense (08-14)](../ai-industry/2026-08-14-alphasense-token-price-vs-task-cost.md)
 - [Agent harness engineering](../agentic-systems/agent-harness-engineering.md)

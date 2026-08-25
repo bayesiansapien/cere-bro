@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-08-14T05:44:49.484035+00:00",
+  "following_last_checked": "2026-08-24T16:30:00.720793+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -88,7 +88,9 @@
     "demonflyingfox",
     "Peal8888",
     "signulll",
-    "allegrajacchia"
+    "allegrajacchia",
+    "XOpenSource",
+    "Sonderling47"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -783,6 +785,42 @@
       "handle": "bot",
       "name": "Grok Bot",
       "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "bp22",
+      "name": "Bill Perkins (Guy)",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "mattyp",
+      "name": "matt palmer",
+      "org": "Cursor",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "BuchananBen",
+      "name": "Ben Buchanan",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "poteto",
+      "name": "lauren",
+      "org": "Meta AI",
       "timezone": "PT",
       "focus": [
         "AI"
