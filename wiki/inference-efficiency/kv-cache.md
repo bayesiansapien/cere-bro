@@ -280,6 +280,18 @@ Two consequences worth tracking. The append-only discipline has an unpriced accu
 
 This also connects the cache directly to [compute economics](../hardware/compute-economics.md), where Blackwell-generation capacity cleared 15% above record in Nebius's first auction the same week. Cache-hit repricing at the API layer and spot repricing at the silicon layer are the same scarcity showing up two levels apart.
 
+## 2026-08-25: precision becomes a spatial decision, and INT8 KV caches stop costing quality
+
+**[TileMix (08-25)](2026-08-25-tilemix-tile-centric-mixed-precision-attention.md) is the first entry on this page where precision is routed rather than set.** Every quantization result above picks a format and applies it uniformly to a tensor or a layer. TileMix partitions the query-key score matrix into hardware-aligned tiles and dispatches each tile *group* through either an FP16 or an INT8 score path, with both paths updating one shared online-softmax state so the output stays a single dense attention result. It routes all legal tile groups, so unlike sparse attention it preserves dense token connectivity. Training-free, and it supports grouped-query attention, variable-length batches, and INT8 key/value caches.
+
+**The direct consequence for this page: the INT8-KV-cache quality tax is not fixed.** This page has recorded INT8 KV quantization as a memory play whose cost is long-context quality. TileMix recovers exactly that lost quality on LongEval and LV-Eval while improving prefill throughput over FP16 on A100, and it explicitly composes with INT8 KV caches rather than competing with them. So the two stack: you keep the memory saving and buy back the accuracy in the kernel. That is a different relationship than this page has recorded between any two compression techniques, which have generally traded off.
+
+**One routing bit governs several adjacent key tiles**, and that detail is what makes it a long-context method rather than a demo. Per-tile bits would make the bitmask itself grow with sequence length; scalable grouping keeps the metadata compact where it matters.
+
+**Where the honest uncertainty is.** The result is prefill-only, on A100 only, and the routing policy is a heuristic whose own overhead is asserted compact rather than deeply ablated. Decode-phase behaviour and end-to-end latency under realistic continuous batching are unmeasured, and those are the numbers that decide whether this reaches production. The Hopper and Blackwell story is also genuinely open, because FP8 gives those parts a third precision point and the tile-geometry argument is hardware-specific by construction. A two-bit mask over FP16/FP8/INT8 is the obvious extension and nobody has published it.
+
+**And it reframes the relationship between this page and routing.** [LLM Routing](../ai-routing/llm-routing.md) catalogues six axes, all of which route work to a component. TileMix routes a numerical format to a region of a matrix, which is a routing decision below anything that page recorded. On the same day, [Pandora's Router](../ai-routing/2026-08-25-pandoras-router-costly-value-estimation.md) priced value estimation across models and [VoI-MoLE](../ai-routing/2026-08-25-voi-routing-mixture-of-lora-experts.md) priced expert acquisition inside one model. Three levels of the stack, one decision structure, one day. The unasked question is whether a serving stack should be making these three decisions jointly under a single cost budget instead of independently, which is how every deployed system does it today.
+
 ## Related Pages
 
 - [Compute economics (GPU pricing, utilization, durability)](../hardware/compute-economics.md)
