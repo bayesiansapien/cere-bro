@@ -1,6 +1,6 @@
 # Thinkingbox: One Success Isn't Reliability
 
-**Source:** HuggingFace Daily Papers (5 upvotes) · [arXiv 2608.22171](https://huggingface.co/papers) · [code](https://github.com/microsoft/thinkingbox) · raw: [`raw/huggingface/2026-08-25-one-success-isn-t-reliability-thinkingbox-a-sandbox-and-benc.md`](../../raw/huggingface/2026-08-25-one-success-isn-t-reliability-thinkingbox-a-sandbox-and-benc.md)
+**Source:** HuggingFace Daily Papers (5 upvotes) · [arXiv 2608.19741](https://arxiv.org/abs/2608.19741) · [code](https://github.com/microsoft/thinkingbox) · raw: [`raw/huggingface/2026-08-25-one-success-isn-t-reliability-thinkingbox-a-sandbox-and-benc.md`](../../raw/huggingface/2026-08-25-one-success-isn-t-reliability-thinkingbox-a-sandbox-and-benc.md)
 
 **Authors:** Zhuochun Li, Youngmin Ko, Ali Keramati, Nicola Ferri, Susana Palmaz Lopez Pelaez, Liang-Chun Tsai, Calvin Wang, Mirco Milletari, Tuhin Kundu, Vadim Smolyakov, Kjartan Olafsson, Tommy Guy (Microsoft)
 
