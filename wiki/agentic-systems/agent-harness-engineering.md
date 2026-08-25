@@ -176,6 +176,8 @@ This moves one side of open problem 0 by a large constant factor. AutoDesign pub
 ## Open problems (research angle)
 
 0. **Harness optimization versus fine-tuning at matched cost.** Still unrun, and now more glaring: AutoDesign publishes $3 per rollout, DarwinX publishes no evolution budget, and no distillation paper publishes a comparable per-point cost. The first paper to put the two on one axis settles where a team should spend.
+0b. **A pass^k curve for a harness-optimized agent.** Every harness result on this page reports a best-of or single-attempt number. Thinkingbox (08-25) shows a 40-point drop from pass@1 to pass^20 on stateful work, and Fragility (08-25) plus Bakouch's ~50-step single-setting spread (08-16) say the variance is large. Whether a better harness narrows the pass@1-to-pass^k gap or merely lifts both is unknown, and it is the difference between harness engineering being a capability story and a reliability story. Cheap to run, and nobody has.
+
 1. **A harness-quality metric that predicts the 5x–30x swing before you run.** omarsar0 measured the swing post-hoc; nobody can yet predict which harness wins for a given task class without a full benchmark. This is the single highest-value open experiment.
 2. **Composing the pieces.** LongHorizon's state-outside-context, HarnessOpt's self-optimization, and graph-based memory are separate advances. A harness that manages state externally *and* self-optimizes *and* routes through a memory graph has not been built or benchmarked end-to-end.
 3. **Where self-simulation of the loop diverges from reality** — the same self-judgment failure mode the reward-hacking thread keeps flagging. A confidently-wrong auditor breaks the MEA loop.
