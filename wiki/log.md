@@ -1456,3 +1456,6 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-08-25] synthesis | social-stream morning slot wiki/social-stream/2026-08/2026-08-25-morning.md (no morning file written by farmer; afternoon slot returned 0 tweets / 0 articles — recorded as a pipeline condition, not a quiet news day) | social
 ## [2026-08-25] synthesis | Media Zone wiki/media-zone/2026-08/2026-08-25.md (1 bookmark: Meta-Harness, carried as the knowledge backbone; general scrape empty, Reddit empty 10th day, no new YouTube since 08-14) | media-zone
 ## [2026-08-25] curation | CURATION-INDEX.md: +1 save under Loop/Harness/Graph Engineering (now 13, still dominant). Meta-Harness save corroborated same-day by Task-CoEvolve's related work | curation
+## [2026-08-25] fix | Reddit farmer: added OAuth (oauth.reddit.com) — unauth *.json now 403-blocked since 2026; needs one-time Reddit script-app creds in ~/.config/cere-bro/reddit.json. Pipeline unblock. | ops
+## [2026-08-25] fix | Podcast Release upload: gh resolved via shutil.which + Homebrew fallback; cron wrapper exports Homebrew PATH. Backfilled 4 stuck May episodes (05-20..05-23) to Releases → Spotify. | ops
+## [2026-08-25] fix | 9-day digest outage root cause = expired claude CLI auth (every digest call exited 1); resolved by /login. | ops
