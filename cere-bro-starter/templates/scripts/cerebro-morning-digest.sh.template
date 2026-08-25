@@ -3,6 +3,12 @@
 # Replace {{REPO_PATH}} and {{CLAUDE_BIN}} with your local paths during install.
 # Bootstrap can do this for you, or copy and edit manually.
 
+# launchd/cron runs with a minimal PATH that omits Homebrew, so `gh` (podcast
+# Release upload), `gtimeout`/coreutils, and other brew tools aren't found and
+# their steps fail. Prepend the Homebrew bins so the pipeline sees the same
+# tools an interactive shell does.
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH"
+
 REPO="{{REPO_PATH}}"
 CLAUDE="{{CLAUDE_BIN}}"
 LOG="$REPO/.claude/logs/morning-digest.log"
