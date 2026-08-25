@@ -1,92 +1,87 @@
-# R2-OPD: Filtering On-Policy Distillation by Reasoning Progress
+# Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress (R2-OPD)
 
-**Source:** HuggingFace Daily Papers (5 upvotes) · [arXiv 2608.19408](https://arxiv.org/abs/2608.19408) · raw: [`raw/huggingface/2026-08-25-beyond-imitation-filtering-on-policy-distillation-by-reasoni.md`](../../raw/huggingface/2026-08-25-beyond-imitation-filtering-on-policy-distillation-by-reasoni.md)
-
-**Authors:** Chen Yang (HKUST Guangzhou), Haiyuan Wan (Tsinghua), Rengrong Xiong (Zhejiang), Yize Chen (Alberta), Danny H. K. Tsang (HKUST Guangzhou)
+**Date:** 2026-08-25
+**Source:** [HuggingFace Daily Papers](https://huggingface.co/papers/2608.19408) (5 upvotes) · [arXiv 2608.19408](https://arxiv.org/abs/2608.19408)
+**Authors:** Chen Yang, Haiyuan Wan, Rengrong Xiong, Yize Chen, Danny H. K. Tsang
+**Raw:** [raw/huggingface/2026-08-25-beyond-imitation-filtering-on-policy-distillation-by-reasoni.md](../../raw/huggingface/2026-08-25-beyond-imitation-filtering-on-policy-distillation-by-reasoni.md)
 
 ## TL;DR
 
-On-policy distillation (OPD) trains a small student by letting the student generate its own reasoning attempts and having a large teacher score every token of them. Letting the student generate is the point: it fixes exposure bias, the mismatch where a model trained only on teacher text has never practiced recovering from its own mistakes.
-
-R2-OPD identifies the assumption underneath OPD that nobody had questioned. OPD treats the teacher's token-level reward as a proxy for **reasoning progress**. But the teacher's reward measures one thing only: how close the student's token is to what the teacher would have said. A student step that genuinely advances toward the correct answer, by a route the teacher would not have taken, gets a **low** reward for the crime of being different. OPD then penalizes it. The framework is systematically suppressing correct alternative reasoning paths.
-
-The fix is a **disagreement filter**, not a new reward. R2-OPD builds two rankings of the reasoning spans within a single trajectory: one ordered by teacher-derived distillation reward, one ordered by an independently estimated **progress reward** (how much closer to a solution this state is, judged without reference to the teacher's output). Where the two rankings agree, the teacher's supervision is trusted and kept. Where they disagree, the distillation reward is **selectively suppressed**. Teacher guidance survives; teacher-similarity-masquerading-as-progress does not.
-
----
+On-policy distillation (OPD) post-trains a student by having it generate its own trajectories and scoring every token with dense supervision from a teacher. The hidden assumption is that **teacher-derived reward is a good proxy for reasoning progress**. R2-OPD shows it often is not: a reasoning step that clearly advances the solution can receive a *low* distillation reward purely because it worded things differently from the teacher. The student is then pushed to imitate surface form at the expense of substance. The fix is a disagreement filter. Build two rankings of the reasoning spans within a trajectory, one from teacher-derived reward and one from an independently estimated progress reward, then **suppress the distillation reward wherever the two rankings disagree**. Consistent gains over standard OPD, concentrated on reasoning benchmarks.
 
 ```mermaid
 flowchart LR
-  S[Student generates<br/>on-policy trajectory] --> SPANS[Reasoning spans]
-  SPANS --> T[Teacher-derived<br/>distillation reward]
-  SPANS --> P[Independent<br/>progress reward:<br/>closer to a solution?]
-  T --> RT[Within-trajectory<br/>ranking A]
-  P --> RP[Within-trajectory<br/>ranking B]
-  RT --> CMP{Rankings<br/>agree?}
-  RP --> CMP
-  CMP -->|agree| KEEP[Keep teacher<br/>supervision]
-  CMP -->|disagree| SUP[Suppress reward:<br/>teacher penalizing<br/>real progress]
-  KEEP --> UPD[Policy update]
-  SUP -.excluded.-> UPD
-  UPD --> S
+  S[Student generates<br/>own trajectory] --> SPAN[Segment into<br/>reasoning spans]
+  SPAN --> T[Rank spans by<br/>teacher-derived reward]
+  SPAN --> P[Rank spans by<br/>independent progress<br/>reward]
+  T --> CMP{Do the two<br/>rankings agree<br/>on this span?}
+  P --> CMP
+  CMP -->|agree| KEEP[Keep distillation reward<br/>teacher guidance is real]
+  CMP -->|disagree| SUP[Suppress reward<br/>signal fights progress]
+  KEEP --> OPT[Policy optimization]
+  SUP --> OPT
   classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
   classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f
   classDef output fill:#d1fae5,stroke:#10b981,color:#065f46
   classDef warn fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
-  classDef aux fill:#e0e7ff,stroke:#6366f1,color:#312e81
-  class S,SPANS input
+  class S,SPAN input
   class CMP decision
-  class KEEP,UPD output
+  class T,P,KEEP,OPT output
   class SUP warn
-  class T,P,RT,RP aux
 ```
 
----
+## What breaks in standard OPD
 
-## Why rank disagreement rather than reward arithmetic
+OPD's appeal is signal density. Unlike outcome-reward RL, which gives one scalar at the end of a long trajectory, OPD gives a reward at every token, and it does so on the student's *own* distribution rather than the teacher's, which avoids the exposure-mismatch problem of pure SFT.
 
-The obvious alternative designs are worse in instructive ways.
+The failure mode R2-OPD identifies is a **proxy failure, not a noise problem**. Teacher-derived reward measures agreement with the teacher's output distribution. Reasoning progress measures whether the solution actually advanced. These correlate, which is why OPD works at all, but they come apart in a specific and consequential way: when the student finds a *different valid path*, teacher agreement drops while progress is fine. OPD then penalizes exactly the behaviour you most want, independent correct reasoning.
 
-*Optimize the progress reward directly* and you have abandoned distillation for process-reward RL, losing the dense per-token signal that made OPD attractive and inheriting every reward-hacking failure mode of process reward models.
+Note that this is a sharper claim than "the reward is noisy." Noise averages out. A systematic penalty on divergence-from-teacher does not average out; it biases the student toward mimicry.
 
-*Blend the two rewards* (a weighted sum) and you need the two to be on a common scale. They are not. Teacher log-probabilities and a learned progress estimate have no shared units, and the weight becomes a hyperparameter that has to be retuned per domain.
+## Core novelty
 
-Using **within-trajectory rankings** sidesteps calibration entirely. Rankings are scale-free, and comparing them only inside one trajectory avoids cross-trajectory difficulty confounds. Disagreement then becomes a clean binary signal: these two views of this span point different directions, so do not trust the teacher here. The filter is conservative by construction. It only ever removes supervision, never adds a new objective, so it cannot introduce a new thing to hack.
+The mechanism is deliberately cheap. R2-OPD does not build a better reward model. It builds a *second* one, cheaply, and uses only the **disagreement** between the two as its signal:
 
-## Relation to prior wiki state
+1. Segment the student trajectory into reasoning spans.
+2. Rank spans by teacher-derived reward.
+3. Rank spans independently by an estimated progress reward.
+4. Where the rankings disagree, suppress the distillation reward on that span.
 
-**This is the sixth paper in three weeks on the same bug.** The [08-16 digest](../daily-digest/2026-08/2026-08-16.md) named the pattern outright: five papers that week all found the same flaw in on-policy distillation, that **the teacher scores the student using information the student never had**. The wiki has a [teacher-student alignment cluster page (08-16)](2026-08-16-teacher-student-alignment-cluster.md) for exactly this. The prior members attacked different facets:
+Working with **within-trajectory rankings rather than absolute values** is the right call: the two reward sources are not on a shared scale, so comparing their orderings is the only well-posed comparison. It also means the filter is a bolt-on to existing OPD pipelines rather than a replacement.
 
-- [SA-OPD (08-06)](2026-08-06-sa-opd-input-groundedness-distillation.md) — the teacher is scoring against inputs the student was not grounded in.
-- [Privileged but Biased (08-10)](2026-08-10-privileged-but-biased-self-distillation.md) — privileged teacher information biases the self-distillation signal.
-- [Counterfactual Recoverability (08-11)](2026-08-11-counterfactual-recoverability-opd.md) — whether the student could have recovered from a given state at all.
-- [Hinting Self-Distillation (08-16)](2026-08-16-hinting-self-distillation-applied-compute.md) — matching applied compute between teacher and student.
-- [TurnSight (08-05)](2026-08-05-turnsight-turn-level-hindsight-distillation.md) — turn-level hindsight rather than token-level.
+## Where this sits against prior wiki knowledge
 
-R2-OPD adds the **semantic** facet, and it is the sharpest statement of the family so far. The others say the teacher's reward is miscalibrated for the student's *situation*. R2-OPD says it is miscalibrated for the *task*: teacher-similarity and reasoning-progress are simply different quantities, and OPD conflated them. Six papers, one claim, three weeks. Under the wiki's own threshold of three, this stopped being a trend and became the field's current consensus correction.
+**This is the third distinct result the wiki has logged where disagreement between two signals is itself the useful signal.** Name the prior two:
 
-**It confirms the TIP result from a new angle.** TIP (04-16) found that most teacher-generated tokens carry no learning signal and you only need about 10% of them. R2-OPD reaches a stronger version: some teacher supervision is not merely uninformative, it is **actively wrong**, pushing the student off correct paths. Skipping useless tokens saves compute; suppressing harmful ones changes the outcome.
+- The **08-08 weekly cluster** (Requential Coding and OPD²) established that a single teacher signal is not trustworthy at token granularity.
+- **AgentOPSD (08-07)** located *pivotal turns* in agent trajectories by disagreement, rather than by absolute reward.
 
-## Key takeaways
+Three papers making the same architectural choice crosses this wiki's stated threshold for declaring a pattern. The design principle: **do not trust a single supervision signal, and treat the conflict between two independent signals as the highest-information location in the trajectory.**
 
-- Teacher-derived reward and genuine reasoning progress **routinely disagree** within a single trajectory. The paper's contribution is measuring this rather than assuming it away.
-- Filtering by **rank disagreement** avoids the calibration problem that blending two rewards would create, and is scale-free.
-- Consistent improvement over standard OPD, concentrated on reasoning benchmarks, which is where alternative valid solution paths are most common.
-- The method is **subtractive**: it only removes supervision. That makes it composable with the other five OPD corrections rather than competing with them.
+**Today it appears twice in different subfields, which is the more interesting observation.** [Task-CoEvolve (08-25)](../agentic-systems/2026-08-25-task-coevolve-adaptive-validation-selection.md) uses variance-weighted sampling to concentrate harness evaluation on validation tasks where *candidate harnesses disagree*, cutting evaluation count 80%. R2-OPD uses ranking disagreement to decide which *tokens to trust*. One is harness evaluation, one is distillation. Same statistical idea, same day, no shared authors. The underlying principle is standard active-learning theory (information is maximal where models disagree), and its independent rediscovery in two subfields on one day suggests the field is converging on it without naming it as a shared tool.
+
+**Against the distillation page's prior state.** [Knowledge distillation](knowledge-distillation.md) has tracked a run of papers arguing that most teacher tokens carry no signal and should be dropped or reweighted. R2-OPD refines that from "most tokens are uninformative" to "some tokens are actively harmful," which is a different and stronger claim. Downweighting a useless token costs you nothing. Downweighting a *misleading* token recovers something.
+
+## Key results
+
+- Consistent improvement over standard OPD, with gains concentrated on reasoning benchmarks (which is where the proxy failure predicts they should be).
+- The mechanism is a filter, not a new reward model, so it composes with existing OPD infrastructure.
 
 ## Gaps
 
-"Consistent improvement" without headline numbers in the abstract is a weak way to report a result, and it suggests the gains are real but modest. The bigger unaddressed question is where the progress reward comes from. If it is a learned process reward model, then the method has imported that model's failure modes and its training cost, and the honest comparison is against spending the same budget on a better teacher. If it is a cheap heuristic, that should be stated because it changes the cost story completely.
+- **The independently estimated progress reward is itself a model, and its quality is the load-bearing assumption.** The sensitivity ablation is the paper's key missing experiment. If the progress estimator is systematically wrong in the same places as the teacher, the filter silently does nothing; if it is wrong in different places, the filter suppresses good supervision.
+- **No cost accounting.** Running a second reward estimator over every span is not free, and the paper does not put its overhead against its gain.
+- **Span segmentation is a design choice with no ablation.** How reasoning spans are delimited plausibly matters as much as the filter.
 
-No ablation is described isolating the ranking construction from the suppression rule, and no analysis of **how often** the two rankings disagree. That frequency is the most diagnostic number in the paper: if disagreement is rare, the effect size is capped; if it is common, standard OPD is broken more badly than anyone assumed and the result deserves far more attention than five upvotes.
+## Research angle
 
-None of the six papers in this family have been combined. Whether the corrections are redundant (all detecting one underlying problem through different lenses) or additive is unknown, and it is the obvious next experiment.
+The composition experiment the [08-08 weekly](../daily-digest/2026-08/2026-08-08.md) left open now has both its parts available. **AgentOPSD (08-07)** finds pivotal *turns* by disagreement; R2-OPD finds untrustworthy *tokens* by disagreement. Filtering the pivotal tokens of the pivotal turns is a two-level version of the same principle, and R2-OPD is the concrete building block that was missing.
 
-## Industrial implication
+Second, unexplored: nothing here uses disagreement *magnitude*. The filter is binary (agree/disagree). Weighting by how strongly the two rankings conflict is the obvious refinement, and it is what Task-CoEvolve does on its side of the analogy with variance-weighted sampling.
 
-Distillation is how frontier capability reaches deployable model sizes, so a correction that makes the student's reasoning better at no inference cost is free margin. The practical read for anyone running an OPD pipeline today is that the teacher's disagreement with the student is not automatically the student's error, and pipelines that treat it that way are training out correct behaviour. The cheapest version of this insight, worth trying before implementing the paper, is simply to log how often teacher reward and any available progress signal disagree.
+## Related pages
 
-## Related
-
-- [Knowledge distillation](knowledge-distillation.md) — concept page
-- [Teacher-student alignment cluster](2026-08-16-teacher-student-alignment-cluster.md) — the family this joins
-- [SA-OPD](2026-08-06-sa-opd-input-groundedness-distillation.md) · [Counterfactual recoverability](2026-08-11-counterfactual-recoverability-opd.md) · [Privileged but biased](2026-08-10-privileged-but-biased-self-distillation.md) · [Hinting self-distillation](2026-08-16-hinting-self-distillation-applied-compute.md)
+- [Knowledge distillation](knowledge-distillation.md)
+- [Task-CoEvolve (08-25)](../agentic-systems/2026-08-25-task-coevolve-adaptive-validation-selection.md) — the same disagreement principle in harness evaluation, same day
+- [VoI routing for MoLE (08-25)](../ai-routing/2026-08-25-voi-routing-mixture-of-lora-experts.md) — also depends on an unvalidated learned estimator
+- [Daily digest 2026-08-25](../daily-digest/2026-08/2026-08-25.md)
