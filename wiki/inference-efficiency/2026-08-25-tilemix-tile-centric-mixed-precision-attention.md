@@ -52,6 +52,8 @@ Three engineering details carry the result:
 
 **Training-free is the deployment argument.** Most of the compression work this wiki has logged needs calibration, fine-tuning, or a distillation pass. TileMix needs none, which is exactly the property that gets a kernel merged into a serving framework rather than published and forgotten.
 
+**The workload data published the same week says this is the right target.** SemiAnalysis's AgentX release (08-24) measured production agentic coding sessions at input-sequence-length p50 88k, p90 272k, p95 404k, and p99 675k tokens, against output lengths with a p50 of 413. At that ratio prefill dominates time-to-first-token, and TTFT is one of the three numbers frontier labs actually optimize alongside performance-per-dollar and end-to-end task completion. A training-free prefill kernel that avoids uniform INT8's quality loss is aimed squarely at the workload that now dominates production traffic, which is a much stronger adoption argument than the A100 microbenchmarks in the paper.
+
 ## Key results
 
 - Recovers long-context quality lost under uniform INT8 on LongEval and LV-Eval.
