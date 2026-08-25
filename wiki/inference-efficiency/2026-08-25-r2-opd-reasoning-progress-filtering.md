@@ -83,5 +83,5 @@ Second, unexplored: nothing here uses disagreement *magnitude*. The filter is bi
 
 - [Knowledge distillation](knowledge-distillation.md)
 - [Task-CoEvolve (08-25)](../agentic-systems/2026-08-25-task-coevolve-adaptive-validation-selection.md) — the same disagreement principle in harness evaluation, same day
-- [VoI routing for MoLE (08-25)](../ai-routing/2026-08-25-voi-routing-mixture-of-lora-experts.md) — also depends on an unvalidated learned estimator
+- [VoI routing for MoLE (08-25)](../ai-routing/2026-08-05-vi-mole-value-of-information-routing.md) — also depends on an unvalidated learned estimator
 - [Daily digest 2026-08-25](../daily-digest/2026-08/2026-08-25.md)
