@@ -18,6 +18,7 @@ Force:      python3 connectors/reddit/farmer.py --force
 """
 
 import json
+import os
 import sys
 import time
 import requests
@@ -39,10 +40,77 @@ RAW_DIR.mkdir(parents=True, exist_ok=True)
 cfg            = json.loads(CONFIG_PATH.read_text())
 SUBREDDITS     = cfg["subreddits"]
 LOOKBACK_HOURS = cfg.get("lookback_hours", 24)
-UA             = cfg.get("user_agent", "cere-bro-reddit-farmer/1.0")
+UA             = cfg.get("user_agent", "macos:cere-bro-reddit-farmer:v2.0 (by /u/anonymous)")
 
 FORCE          = "--force" in sys.argv
 SEEN_CAP       = 5000  # cap state file size
+
+# ── Reddit OAuth ────────────────────────────────────────────────────────────────
+#
+# As of 2026 Reddit returns HTTP 403 for ALL unauthenticated *.json requests
+# (it serves an HTML block page), so the old www.reddit.com/*.json path yields
+# nothing. Reading now requires OAuth. Credentials are read from env vars or a
+# gitignored config file (secrets policy: never commit them):
+#   env:  REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, [REDDIT_USERNAME, REDDIT_PASSWORD]
+#   file: ~/.config/cere-bro/reddit.json  {"client_id","client_secret",["username","password"]}
+# Create a Reddit app at https://www.reddit.com/prefs/apps (type "script") to get
+# client_id + secret. With a username+password a `password` grant is used (higher
+# rate limit); otherwise a read-only `client_credentials` (app-only) grant.
+
+REDDIT_CRED_PATH = Path(os.path.expanduser("~/.config/cere-bro/reddit.json"))
+
+
+def _load_reddit_creds() -> dict:
+    creds = {
+        "client_id":     os.environ.get("REDDIT_CLIENT_ID", ""),
+        "client_secret": os.environ.get("REDDIT_CLIENT_SECRET", ""),
+        "username":      os.environ.get("REDDIT_USERNAME", ""),
+        "password":      os.environ.get("REDDIT_PASSWORD", ""),
+    }
+    if not (creds["client_id"] and creds["client_secret"]) and REDDIT_CRED_PATH.exists():
+        try:
+            f = json.loads(REDDIT_CRED_PATH.read_text())
+            for k in creds:
+                creds[k] = creds[k] or f.get(k, "")
+        except Exception as e:
+            print(f"  WARN: could not parse {REDDIT_CRED_PATH}: {e}")
+    return creds
+
+
+def get_reddit_token() -> str:
+    """Return an OAuth bearer token, or '' if no credentials are configured."""
+    c = _load_reddit_creds()
+    if not (c["client_id"] and c["client_secret"]):
+        return ""
+    if c["username"] and c["password"]:
+        data = {"grant_type": "password", "username": c["username"], "password": c["password"]}
+    else:
+        # App-only read access (no user context). Works for public listings.
+        data = {"grant_type": "client_credentials"}
+    try:
+        r = requests.post(
+            "https://www.reddit.com/api/v1/access_token",
+            data=data,
+            auth=(c["client_id"], c["client_secret"]),
+            headers={"User-Agent": UA},
+            timeout=20,
+        )
+        if r.status_code != 200:
+            print(f"  WARN: Reddit OAuth token request failed HTTP {r.status_code}: {r.text[:160]}")
+            return ""
+        return r.json().get("access_token", "")
+    except Exception as e:
+        print(f"  WARN: Reddit OAuth token request errored: {e}")
+        return ""
+
+
+REDDIT_TOKEN = get_reddit_token()
+if REDDIT_TOKEN:
+    print("Reddit: authenticated via OAuth (oauth.reddit.com).")
+else:
+    print("Reddit: NO OAuth credentials — unauthenticated *.json is blocked (HTTP 403) "
+          "since 2026, so all subs will return empty. Add credentials to "
+          f"{REDDIT_CRED_PATH} or REDDIT_CLIENT_ID/SECRET env vars. See farmer.py header.")
 
 # ── Timing ─────────────────────────────────────────────────────────────────────
 
@@ -73,15 +141,27 @@ def fetch_subreddit(sub: dict) -> list[dict]:
     name  = sub["name"]
     sort  = sub.get("sort", "new")
     limit = sub.get("limit", 25)
+
+    # Authenticated path: oauth.reddit.com with a bearer token (the only path
+    # that still returns JSON). Falls back to the legacy www path (now 403) so
+    # the failure mode is explicit rather than silent.
+    if REDDIT_TOKEN:
+        base = "https://oauth.reddit.com"
+        headers = {"User-Agent": UA, "Authorization": f"bearer {REDDIT_TOKEN}"}
+    else:
+        base = "https://www.reddit.com"
+        headers = {"User-Agent": UA}
+
     if sort == "top":
         t = sub.get("time", "day")
-        url = f"https://www.reddit.com/r/{name}/top.json?limit={limit}&t={t}"
+        url = f"{base}/r/{name}/top?limit={limit}&t={t}&raw_json=1"
     else:
-        url = f"https://www.reddit.com/r/{name}/{sort}.json?limit={limit}"
+        url = f"{base}/r/{name}/{sort}?limit={limit}&raw_json=1"
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+        r = requests.get(url, headers=headers, timeout=20)
         if r.status_code != 200:
-            print(f"  ERROR fetching r/{name}: HTTP {r.status_code}")
+            hint = " (unauthenticated Reddit is blocked; add OAuth creds)" if not REDDIT_TOKEN else ""
+            print(f"  ERROR fetching r/{name}: HTTP {r.status_code}{hint}")
             return []
         data = r.json()
         return [c["data"] for c in data.get("data", {}).get("children", []) if c.get("kind") == "t3"]

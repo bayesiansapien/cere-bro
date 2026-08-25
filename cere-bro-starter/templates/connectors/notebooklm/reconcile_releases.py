@@ -21,9 +21,19 @@ Run:  python3 connectors/notebooklm/reconcile_releases.py
       python3 connectors/notebooklm/reconcile_releases.py --dry-run
 """
 
+import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
+
+# Resolve `gh` to an absolute path. Under launchd/cron the Homebrew bin dir is
+# not on PATH, so a bare "gh" raises FileNotFoundError and every Release upload
+# silently fails (podcasts generate but never reach the feed). Find it on PATH,
+# then fall back to the common Homebrew locations.
+GH = (shutil.which("gh")
+      or next((p for p in ("/opt/homebrew/bin/gh", "/usr/local/bin/gh")
+               if os.path.exists(p)), None))
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DIGEST_ROOT = REPO_ROOT / "wiki" / "daily-digest"
@@ -31,6 +41,14 @@ DRY_RUN = "--dry-run" in sys.argv
 
 
 def run(cmd, check=False):
+    # Rewrite a leading bare "gh" to the resolved absolute path (see GH above).
+    if cmd and cmd[0] == "gh":
+        if not GH:
+            print("ERROR: `gh` (GitHub CLI) not found on PATH or in Homebrew "
+                  "bins. Install it (brew install gh); podcast Release uploads "
+                  "cannot run without it.", file=sys.stderr)
+            return subprocess.CompletedProcess(cmd, 127, "", "gh not found")
+        cmd = [GH] + cmd[1:]
     r = subprocess.run(cmd, capture_output=True, text=True)
     if check and r.returncode != 0:
         print(f"ERROR: {' '.join(cmd)}\n{r.stderr}", file=sys.stderr)
