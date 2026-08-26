@@ -1,5 +1,5 @@
-# r/MLScaling | 2026-08-25 IST | sort=new
-> Scraped 2026-08-25 14:52 IST | lookback=24h | tier_default=1
+# r/MLScaling | 2026-08-26 IST | sort=new
+> Scraped 2026-08-26 09:48 IST | lookback=24h | tier_default=1
 > Gwern-flavored sub on scaling laws + frontier evals. Low volume but extremely high signal. Take everything.
 
 *No posts passed filters in this window.*
