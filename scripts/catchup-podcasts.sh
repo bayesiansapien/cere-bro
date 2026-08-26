@@ -25,4 +25,8 @@ done
 
 echo "=== reconciling all episodes to GitHub Releases (Spotify) ==="
 python3 connectors/notebooklm/reconcile_releases.py
+
+echo "=== cleaning up leftover NotebookLM notebooks ==="
+python3 connectors/notebooklm/cleanup_notebooks.py || echo "  (cleanup skipped — non-fatal)"
+
 echo "=== done. New episodes should appear on Spotify after the next feed poll. ==="
