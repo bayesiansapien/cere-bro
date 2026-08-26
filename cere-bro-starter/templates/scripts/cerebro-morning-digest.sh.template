@@ -25,6 +25,23 @@ notify() {
   python3 "$REPO/connectors/notify/notify.py" "$subject" "$body" >> "$LOG" 2>&1 || true
 }
 
+# Single-instance mutex. A run can take up to ~3h (Claude retries + farmers),
+# longer than the watchdog cooldown, so without a lock the scheduled cron and the
+# watchdog can run overlapping routines and stampede the Claude calls. `mkdir` is
+# atomic (race-free); a stale lock (holder PID gone) is reclaimed.
+LOCKDIR="$REPO/.claude/logs/morning-routine.lock"
+if ! mkdir "$LOCKDIR" 2>/dev/null; then
+  HOLDER=$(cat "$LOCKDIR/pid" 2>/dev/null || echo "")
+  if [ -n "$HOLDER" ] && kill -0 "$HOLDER" 2>/dev/null; then
+    echo "[$TODAY $(date +%H:%M:%S)] Morning routine already running (PID $HOLDER) — skipping." >> "$LOG"
+    exit 0
+  fi
+  echo "[$TODAY $(date +%H:%M:%S)] Reclaiming stale lock (holder '$HOLDER' gone)." >> "$LOG"
+  rm -rf "$LOCKDIR"; mkdir "$LOCKDIR" 2>/dev/null || exit 0
+fi
+echo "$$" > "$LOCKDIR/pid"
+trap 'rm -rf "$LOCKDIR"' EXIT INT TERM
+
 echo "[$TODAY $(date +%H:%M:%S)] Starting morning routine..." >> "$LOG"
 
 cd "$REPO" || exit 1

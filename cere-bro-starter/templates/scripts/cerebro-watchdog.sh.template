@@ -33,15 +33,17 @@ if ! /usr/bin/curl -s -m 2 -o /dev/null https://1.1.1.1; then
   exit 0
 fi
 
-# Cooldown: don't re-trigger more than once per hour to avoid stampeding the
-# morning routine while it's in-progress on a previous wake event.
+# Cooldown: don't re-trigger while a routine could still be in-flight. A run can
+# take up to ~3h (Claude retries + farmers), so 3h matches the max routine
+# duration. (The morning script also holds a hard single-instance mutex, so an
+# early re-fire just no-ops — this cooldown mainly avoids redundant work.)
 LOCKFILE="$REPO/.claude/logs/watchdog.lock"
 if [ -f "$LOCKFILE" ]; then
   LAST=$(stat -f %m "$LOCKFILE" 2>/dev/null || echo 0)
   NOW=$(date +%s)
   AGE=$((NOW - LAST))
-  if [ "$AGE" -lt 3600 ]; then
-    # Last trigger less than 1 hour ago — wait it out.
+  if [ "$AGE" -lt 10800 ]; then
+    # Last trigger less than 3 hours ago — wait it out.
     exit 0
   fi
 fi
