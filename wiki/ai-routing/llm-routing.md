@@ -2,6 +2,18 @@
 
 Routing in LLM systems means deciding which model (or no model) should handle a given query — with the goal of minimizing cost while meeting quality requirements.
 
+## 2026-08-26: a fourth demonstration that the routable unit is the model-harness pair, and still no proposal
+
+**[Recuris (08-26)](../agentic-systems/2026-08-26-recuris-experiential-working-memory.md) supplies the cleanest supporting evidence this page has, because the spread is *within* one paper.** One memory-evolution harness applied to ten models lifts them by materially different amounts: **+17.8 on GPT-5.6 Sol, +15.6 on Claude Opus 5, +16.6 on Qwen3.6-27B, +13.5 on Qwen3.6-35B**, and the advantage widens with task horizon, reaching +32.2 on the longest tasks. Different models gain differently from the same scaffold, and the gain depends on the task's length. That is exactly the condition under which routing over **model-harness pairs** dominates routing over models, and it adds a task-dependent term (horizon length) that no formulation on this page carries.
+
+Prior evidence, for the record: A²E (08-11) found no model-harness combination wins across all task types; Evo-Bench (08-11) found synthesized harnesses transfer as reusable reasoning structures across policy models; DarwinX and AutoDesign (08-14) showed harnesses transferring across benchmarks, base models and agent frameworks; Prime Intellect's 153-run study (08-16) reported Kimi K3 differing by 44 steps between two harnesses, roughly the size of the whole Opus-5-versus-Kimi-K3 gap. Today adds a fifth demonstration, from a within-paper ten-model spread.
+
+**And a new independent measurement of the swing, from practitioners.** [Gradient Flow's nine rules (08-26)](../agentic-systems/2026-08-26-nine-rules-for-agents.md) reports that the same open model showed an **18 percentage point spread between its best and worst harness configuration**, and instructs teams to evaluate the model and harness as one system, re-running the evaluation whenever either half changes. That is this page's premise stated as production advice.
+
+**Standing gap, unchanged and now nearly two months old: nothing in production routes over harnesses, and no paper proposes it.** The demonstrations keep accumulating from every direction — measurement, transfer, evolution, autonomous research, and now a ten-model within-paper spread — and the routers keep routing over models. The concrete unwritten paper remains the one this page named on 08-16: a Pandora-style expensive-inspection policy whose boxes are model-harness pairs and whose inspection cost is a partial rollout.
+
+---
+
 ## Current State (as of 2026-08-16)
 
 **The cost-metric problem this page named on 08-14 got a product two days later, and two new routing axes opened without anyone calling them routing.**
