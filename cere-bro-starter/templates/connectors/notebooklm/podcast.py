@@ -653,10 +653,19 @@ except Exception as e:
 if cfg.get("delete_notebook_after_download", True):
     print("\nDeleting NotebookLM notebook (cleanup)...")
     try:
-        subprocess.run(["nlm", "notebook", "delete", NOTEBOOK_ID, "--confirm"],
-                       capture_output=True, text=True, check=False)
-    except Exception:
-        pass
+        d = subprocess.run(["nlm", "notebook", "delete", NOTEBOOK_ID, "--confirm"],
+                           capture_output=True, text=True, check=False)
+        # Log the outcome instead of swallowing it — a silent failure here is how
+        # orphaned notebooks accumulate. A periodic sweep (cleanup_notebooks.py)
+        # catches any that a crashed run leaves behind before this line runs.
+        if d.returncode == 0:
+            print(f"  ✓ deleted notebook {NOTEBOOK_ID}")
+        else:
+            print(f"  ✗ notebook delete failed (rc={d.returncode}): "
+                  f"{(d.stderr or d.stdout or '').strip()[:120]} "
+                  f"— cleanup_notebooks.py will sweep it later.")
+    except Exception as e:
+        print(f"  ✗ notebook delete errored: {e} — cleanup_notebooks.py will sweep it later.")
 
 print(f"\n✓ Done. Episode #{EPISODE_NUMBER} ready at {EP_DIR}/")
 print(f"  • Audio: {AUDIO_PATH.name}")

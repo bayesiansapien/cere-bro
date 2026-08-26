@@ -141,6 +141,12 @@ if [ -d "$REPO/connectors/notebooklm" ]; then
     git diff --cached --quiet || git commit -m "podcast: episode $D" >> "$LOG" 2>&1
     git push origin main >> "$LOG" 2>&1 || true
   done
+
+  # Housekeeping: delete leftover NotebookLM notebooks (orphans from any crashed
+  # run). ONLY touches notebooks titled with the show name; never yours.
+  echo "[$TODAY $(date +%H:%M:%S)] Cleaning up NotebookLM notebooks..." >> "$LOG"
+  python3 "$REPO/connectors/notebooklm/cleanup_notebooks.py" >> "$LOG" 2>&1 || \
+    echo "[$TODAY $(date +%H:%M:%S)] Notebook cleanup skipped/failed — non-fatal." >> "$LOG"
 fi
 
 echo "[$TODAY $(date +%H:%M:%S)] Done." >> "$LOG"
