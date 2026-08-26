@@ -2,6 +2,20 @@
 
 Agent memory is the long-term, cross-session store an agent uses to preserve facts, preferences, traces, and state between interactions. It is structurally distinct from the KV cache (which is per-context, short-term, attention-internal) and from the prompt window (which is per-request).
 
+## 2026-08-26: splitting working memory from experiential memory, and verifying the former
+
+**[Recuris](2026-08-26-recuris-experiential-working-memory.md) (arXiv 2608.24876) makes an architectural distinction this page has been treating as one thing, and the split is the contribution.** Its diagnosis of prior memory systems is specific enough to be worth recording as a critique of the field rather than only as motivation for one paper. **Experiential memory** methods retrieve reusable skills keyed on either the initial instruction or the full interaction history, and both keys degrade as a task runs: the instruction goes stale as the task evolves, and the full history grows until it obscures the state it is supposed to describe. So retrieval starts returning irrelevant or outdated skills exactly when the task is hardest. **Working memory** methods do track state, but their updates are either rule-fixed or **self-reported by the model**, with no external verification, which makes them vulnerable to omission and hallucination.
+
+Recuris keeps both and couples them: Working Memory holds *verified* task progress, and it is Working Memory rather than the transcript that selects skills from Experiential Memory. That grounds skill invocation in current need. The second-order payoff is the more interesting one for this page. Because state is checked against the environment, an execution failure **localizes to a specific memory component**, and that attribution is what lets a fixed Meta-Agent write a validation-gated *local* patch to Skill Memory rather than a global rewrite. Verified state is thus not only a reliability mechanism, it is the credit-assignment substrate.
+
+Results: improvement in **35 of 37 completed model-benchmark pairs** across four long-horizon benchmarks and ten models; **+17.8 to GPT-5.6 Sol and +15.6 to Claude Opus 5 on tau-bench, taking Opus 5 to 87.9%**; +16.6 and +13.5 on Qwen3.6-27B/35B on SkillFlow; **+32.2 on the longest tasks**; common long-horizon failures down up to 80%. The widening-with-horizon shape is what makes the mechanism claim credible rather than a general scaffolding benefit.
+
+**Relation to what this page already held.** The external-verification requirement confirms LongHorizon-Harness (arXiv 2608.01964, Alibaba, 08-13), whose Manage-Execute-Audit loop keeps task state outside the execution context and updates it only on environment-verified facts so that wrong self-assessments stop propagating. Recuris is the same commitment extended: not just state outside context, but state as the *retrieval key*. It also cuts against the strong form of the "memory should be native to the model" turn surfaced on 08-13 — if verified externality is what makes state trustworthy and failures attributable, then folding memory into the weights gives up the property that made it work here. Both directions are live and this page should keep them in tension rather than pick.
+
+**The unpriced part.** Maintaining verified working state and running validation gates are per-step overheads, largest on exactly the longest tasks where the gains are largest, and no token or dollar cost is reported. Two of 37 pairs did not complete and the paper does not say which. Full treatment in the [summary](2026-08-26-recuris-experiential-working-memory.md) and in [agent-harness-engineering](agent-harness-engineering.md), where Recuris mostly resolves that page's open problem 2 on composing state management, self-optimization and memory routing end-to-end.
+
+---
+
 ## Current State (as of 2026-08-12)
 
 **The bill arrived. Two results dated the same day treat accumulated procedural memory as a cost line to be minimized rather than a store to be improved, and they split on how.**
