@@ -22384,5 +22384,383 @@
     ],
     "first_seen": "2026-W35",
     "last_seen": "2026-W35"
+  },
+  "Wenxuan Ye": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.23031v1",
+        "title": "FedCC: Towards Addressing Label Distribution Skews in Distillation-Based Federated Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Onur Ayan": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.23031v1",
+        "title": "FedCC: Towards Addressing Label Distribution Skews in Distillation-Based Federated Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xueli An": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.23031v1",
+        "title": "FedCC: Towards Addressing Label Distribution Skews in Distillation-Based Federated Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Georg Carle": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2608.23031v1",
+        "title": "FedCC: Towards Addressing Label Distribution Skews in Distillation-Based Federated Learning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yinze Hu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.22994v1",
+        "title": "A Physical Response-and-Memory Model for Muon Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Hongjun Xiang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.22994v1",
+        "title": "A Physical Response-and-Memory Model for Muon Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xingao Gong": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.22994v1",
+        "title": "A Physical Response-and-Memory Model for Muon Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Hongyu Yu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2608.22994v1",
+        "title": "A Physical Response-and-Memory Model for Muon Optimization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Dongyue Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.22858v1",
+        "title": "Mapping the Concept Landscape: Structural Perception of Global Distributions for Transparent Data Pruning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Tao Ma": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.22858v1",
+        "title": "Mapping the Concept Landscape: Structural Perception of Global Distributions for Transparent Data Pruning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Philip Konz": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.19801v1",
+        "title": "Unsupervised Anomaly Detection Using Flow Matching on Tabular Data",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Tejaswini Medi": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.19801v1",
+        "title": "Unsupervised Anomaly Detection Using Flow Matching on Tabular Data",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Margret Keuper": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.19801v1",
+        "title": "Unsupervised Anomaly Detection Using Flow Matching on Tabular Data",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zhi-Kai Chen": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.24509v1",
+        "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xu-Xiang Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.24509v1",
+        "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Song-Yan Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.24509v1",
+        "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "De-Chuan Zhan": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.24509v1",
+        "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Han-Jia Ye": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.24509v1",
+        "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Cédric Colas": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.24545v1",
+        "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jérémy Perez": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.24545v1",
+        "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Eleni Nisioti": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.24545v1",
+        "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Akhilesh Mocherla": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.24545v1",
+        "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Pierre-Yves Oudeyer": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.24545v1",
+        "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Clément Moulin-Frier": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.24545v1",
+        "title": "Discovering Adaptive Transmission Programs for Collective Innovation",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Bhushan Kashinath Joshi": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.24691v1",
+        "title": "Confident at the moment of action: belief miscalibration in LLM play under hidden information",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Kate Gwimm": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.22830v1",
+        "title": "Beyond the Harness: End-to-End Optimization of Context Artifacts for Enterprise Text-to-SQL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Carson Eisenach": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.22830v1",
+        "title": "Beyond the Harness: End-to-End Optimization of Context Artifacts for Enterprise Text-to-SQL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
   }
 }
