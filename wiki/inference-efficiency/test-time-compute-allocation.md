@@ -52,3 +52,17 @@ Worth naming because papers say "compute budget" and mean different things.
 - [LLM Routing](../ai-routing/llm-routing.md)
 - [Knowledge Distillation](knowledge-distillation.md)
 - [Speculative Decoding](speculative-decoding.md)
+
+---
+
+## 2026-08-28: a new category, spending test-time compute on the weights
+
+Everything else on this page allocates **inference** compute: how many samples to draw, how long to think, how to ration a fixed budget across a batch of queries. [TTPO](2026-08-28-ttpo-test-time-policy-optimization.md) (arXiv 2608.27448) spends test-time compute on **gradient updates to the model**, which this page has no prior entry for.
+
+The mechanism in brief: sample rollouts on unlabeled test questions, take a majority-vote pseudo-label, then treat the two branches asymmetrically because **rollouts that disagree with the vote are usually wrong regardless of whether the vote was right.** Agreeing rollouts get dense on-policy self-distillation; disagreeing ones get a grouped RL penalty restricted to *confident* errors. Without labels it matches label-supervised on-policy self-distillation on five competition benchmarks and takes Qwen3-1.7B from 38.0% to 45.2%.
+
+**The result that belongs on this page specifically is +25.2% to +36.4% "without thinking."** That is a direct substitution between two test-time budgets the field has treated as unrelated: TTPO recovers a large share of chain-of-thought's benefit by moving the spend out of generated reasoning tokens and into a weight update. If it holds, "how much test-time compute" stops being one dial and becomes an allocation problem between **reasoning tokens** and **adaptation steps**, which is the same shape as this page's existing batch-rationing results but across a boundary nobody was pricing.
+
+**The comparison the paper owes and does not give.** Test-time training means N rollouts plus optimizer steps per test distribution. The honest baseline is spending that identical compute on more samples plus majority voting at inference, which needs no gradients, no optimizer state and no infrastructure. Until that number exists, TTPO is a capability claim at an unknown price. Note also that adapting weights at test time breaks reproducibility and complicates rollback and audit, which is why this will likely appear first in batch and offline scoring, where the adapted checkpoint can be pinned, rather than in interactive serving.
+
+**Related on the same day:** [Evolution Strategies vs GRPO](../llms-foundation-models/2026-08-28-evolution-strategies-vs-grpo.md) is the other half of the Pass@K story. It finds GRPO exhibits entropy collapse, lifting Pass@1 while flattening Pass@K, where Evolution Strategies lifts both. That matters here because every best-of-K and agentic-sampling pipeline on this page is paid for in Pass@K, and the finding says the standard post-training recipe has been destroying the property those pipelines depend on. It also partly reframes the **AIMO 3 result (04-17)** that prompt diversity is a dead end for inference-time scaling: the narrowness AIMO 3 could not fix from the prompting side may have been created by the training algorithm. Whether an ES-trained model makes inference-time diversity methods work again is untested and cheap to test.
