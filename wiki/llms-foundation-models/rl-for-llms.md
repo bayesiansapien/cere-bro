@@ -145,3 +145,23 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 - [Knowledge Distillation](../inference-efficiency/knowledge-distillation.md)
 - [Open vs Closed Models Mid-2026](2026-04-16-open-vs-closed-models-mid-2026.md)
+
+---
+
+## 2026-08-28: Evolution Strategies is not the budget version of GRPO
+
+[Understanding Evolution Strategies for LLM Reasoning](2026-08-28-evolution-strategies-vs-grpo.md) (arXiv 2608.27351) argues the field has mispriced ES. Evolution Strategies is gradient-free: perturb the whole parameter vector many times, score each perturbation, move toward the winners. Because it stores no activations for a backward pass it is memory-efficient, which is why it appeared for LLM post-training, and it has been treated as a weaker substitute for **GRPO** (group relative policy optimization, the standard recipe that scores a group of sampled answers and pushes the policy toward the better ones). The paper's claim is that ES has a **different advantage profile, not a worse one.**
+
+**Three findings.**
+
+1. **Broader reasoning coverage, with a theory.** Verifier-projected **Jensen-Shannon diversity across the ES population** is shown to help Pass@K, and empirically ES lifts Pass@1 while also attaining higher Pass@K, where **GRPO exhibits entropy collapse**. The framing that follows is the useful one: ES better *exploits reasoning capability the pretrained model already has* rather than sharpening one path. The practical output is a **sequential GRPO-then-ES recipe** taking Pass@1 from the first stage and Pass@K from the second.
+2. **Functional sparsity.** ES produces substantial whole-vector parameter drift, and the task gains come from **only a sparse subset of larger-magnitude updates**, with held-out evaluations showing no catastrophic forgetting. Stated plainly: **large parameter movement need not imply widespread functional change.** This dissolves the main intuitive objection to gradient-free post-training, and it is a mild embarrassment for measuring how much a fine-tune "changed" a model by weight-space distance.
+3. **Population size scales inversely with model size.** ES needs a *smaller* population for a larger LLM, which is economically significant: per-step cost is population times a forward pass, so ES gets relatively cheaper exactly where memory pressure is worst.
+
+**How it changes prior wiki state.** The **AIMO 3 result (04-17)** argued prompt diversity is a dead end for inference-time scaling because it cannot close the Pass@20 gap. This paper says part of that gap is an artifact of the *training* algorithm rather than a property of the model: GRPO created the narrowness and a different optimizer does not. Those are compatible claims and jointly stronger than either. **The unrun experiment: does an ES-trained model make inference-time diversity methods work again?**
+
+**It is also the fifth "the schedule beats the operator" instance the wiki holds**, after ICBQ block order (08-12), ReOrder-OPD prompt order (08-13), LycheeMemory V2 segment consolidation (08-14) and [Task-CoEvolve (08-25)](../agentic-systems/2026-08-25-task-coevolve-adaptive-validation-selection.md), which left its operator untouched and got an 80% evaluation saving purely from changing what gets measured when. Sequential GRPO-then-ES is that pattern at the level of the whole post-training pipeline. **Rule to carry forward: before designing a better operator, check whether the existing operators are being run in the wrong order.**
+
+**Two gaps.** No wall-clock or dollar comparison against GRPO at matched final quality, and "memory-efficient" is not "compute-efficient" when each step costs a population of forward passes. And the sequential recipe is presented as a strategy rather than a swept schedule, so how much GRPO before switching, and whether the order can be interleaved or reversed, is the ablation that was owed by a paper whose main practical output is an ordering.
+
+**Cross-page interaction nobody has tested.** Functional sparsity means ES gains live in a small set of high-magnitude weights. Magnitude-based pruning removes small-magnitude weights, so ES gains might survive compression better than GRPO's, except that [When Pruning Meets Interpretability (08-28)](../responsible-ai/2026-08-28-pruning-sae-robustness.md) shows pruning shifts *representations* enough to silently invalidate sparse autoencoders trained on the dense model. Whether ES-trained models are more or less stable under compression than gradient-trained ones is unasked, cheap to test, and directly relevant to anyone combining memory-efficient post-training with a shipping quantization pass.
