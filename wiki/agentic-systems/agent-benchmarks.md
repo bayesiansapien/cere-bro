@@ -2,7 +2,19 @@
 
 A growing ecosystem of benchmarks specifically designed for agentic AI — measuring not just accuracy but exploration/exploitation, long-horizon task completion, tool use, robustness, and professional domain coverage.
 
-## Current State (as of 2026-08-12)
+## Current State (as of 2026-08-29)
+
+**The measurement crisis gets its formal floor, and the number is 110 out of 124.** [What Does an Evaluation License? (08-29)](../responsible-ai/2026-08-29-evaluation-license-claim-replay-census.md) (2608.19269) separates two things this page has been treating as one: an eval artifact specifies a *computation* (task, scorer, metric), but it does not automatically **license** the *claim* attached to that metric, because replaying the claim needs historical evidence and semantic grounding the artifact usually does not ship. The authors formalize the missing layer (a frozen substrate D, a grounded family F of admissible readings, a claim query q, and the resulting identified set), then census **all 124 mechanically eligible Inspect Evals units at a pinned commit**. **110 stop before deterministic inference is possible.** The output is deliberately not a robust/not-robust label: it is **typed stops, instability witnesses, and stable substructure**, so each failure carries a machine-readable reason.
+
+**This reframes what the crisis on this page actually is.** The 08-11 entry below recorded four papers in two days each finding a widely trusted benchmark was substantially measuring an artifact of its own construction, and the 08-12 entry recorded the constructive response: build better benchmarks. This paper says the deficiency is largely not in benchmark *design* but in what evaluation artifacts **carry**. A well-designed eval that does not ship the substrate and grounding needed to replay a claim produces an unlicensed claim exactly as reliably as a badly designed one. **Building better benchmarks does not fix this. Shipping more alongside them does.**
+
+**The claim-resolution split is the practically useful part.** The census separates exact values, winners, complete orderings and pairwise relations, and they do not degrade together: an eval can be too unstable to license "model A scored 62.3" while cleanly licensing "model A beat model B." Almost every claim in this wiki's digests is a winner or pairwise claim, which is the more survivable kind.
+
+**It also supplies the vocabulary for this page's longest-running open prediction.** The 08-26 and 08-28 Looking Ahead sections both predicted a harness paper would publish a pass^k curve within 60 days, because Microsoft's Thinkingbox (08-25) measured a top model collapsing from 65.36% pass@1 to 25.25% pass^20 on a stateful benchmark. In this paper's terms: **a pass@1 number on a stochastic stateful task has a wide identified set, and reporting it as a point estimate is an unlicensed claim resolution.** Five consecutive harness papers have made that move.
+
+*Limits.* One suite, one commit, and "mechanically eligible" is doing unmeasured work; the obvious next census is lm-evaluation-harness or HELM. And the paper says what is missing without estimating what it would cost an eval author to close a typed stop, which is the number that decides whether this becomes practice or stays a diagnosis.
+
+## Prior State (as of 2026-08-12)
 
 **The measurement crisis entered its constructive phase, and the three benchmarks that arrived agree on a diagnosis rather than just a score.**
 
