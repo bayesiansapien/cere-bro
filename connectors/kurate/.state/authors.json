@@ -14506,10 +14506,18 @@
         "arxiv_id": "2607.24097v1",
         "title": "MemChain: Learning Interpretable Memory Traces for Memory-Augmented LLM Agents",
         "ai_rating": 5.8
+      },
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.26983v1",
+        "title": "GraphMemix: Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W32"
+    "last_seen": "2026-W35"
   },
   "Linjing Li": {
     "appearances": [
@@ -22758,6 +22766,958 @@
         "arxiv_id": "2608.22830v1",
         "title": "Beyond the Harness: End-to-End Optimization of Context Artifacts for Enterprise Text-to-SQL",
         "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yiwei Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.25358v1",
+        "title": "Where vs What: Decomposing Structural and Content Failures in LLM-Generated Structured Outputs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Chengke Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.25358v1",
+        "title": "Where vs What: Decomposing Structural and Content Failures in LLM-Generated Structured Outputs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Li Wang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.25358v1",
+        "title": "Where vs What: Decomposing Structural and Content Failures in LLM-Generated Structured Outputs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jianqiang Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.25358v1",
+        "title": "Where vs What: Decomposing Structural and Content Failures in LLM-Generated Structured Outputs",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Siyuan Chen": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.25570v1",
+        "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Runlin Hou": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.25570v1",
+        "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Shenxiu Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.25570v1",
+        "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yansong Sun": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.25570v1",
+        "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Junming Cao": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.25570v1",
+        "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yiyu Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2608.25570v1",
+        "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xiaodong Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.25990v1",
+        "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Wenyi Yu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.25990v1",
+        "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Chao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.25990v1",
+        "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Philip Woodland": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.25990v1",
+        "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yarin Bar": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.19748v1",
+        "title": "Truncate Bad, Upweight Good: BoN-Style Distillation via Rank-Based Classification",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yaniv Romano": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.19748v1",
+        "title": "Truncate Bad, Upweight Good: BoN-Style Distillation via Rank-Based Classification",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yulong Dou": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.24597v1",
+        "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Han Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.24597v1",
+        "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Guo Chen": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.24597v1",
+        "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Fangmao Ju": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.24597v1",
+        "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zhiming Cui": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.24597v1",
+        "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Dinggang Shen": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.24597v1",
+        "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yiheng Sun": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.24569v1",
+        "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Huifei Wang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.24569v1",
+        "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yancheng Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.24569v1",
+        "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zhenyu Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.24569v1",
+        "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zebin Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.24569v1",
+        "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yifan Yuan": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.24569v1",
+        "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Chenghao Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.20818v1",
+        "title": "Scaling Muon for Diffusion Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xiao Han": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.20818v1",
+        "title": "Scaling Muon for Diffusion Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xinxin Huang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.20818v1",
+        "title": "Scaling Muon for Diffusion Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Wei Liu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.20818v1",
+        "title": "Scaling Muon for Diffusion Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Boyang Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.20818v1",
+        "title": "Scaling Muon for Diffusion Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Bing Xiao": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.20818v1",
+        "title": "Scaling Muon for Diffusion Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Suchit Gupte": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25941v1",
+        "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xueru Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25941v1",
+        "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Mohammad Mahdi Khalili": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25941v1",
+        "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Nikol Figalová": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.26885v1",
+        "title": "Evaluating human and LLM screening workflows in a conceptually complex scoping review: Recall--workload trade-offs and run-to-run consistency",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Lynn Huestegge": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.26885v1",
+        "title": "Evaluating human and LLM screening workflows in a conceptually complex scoping review: Recall--workload trade-offs and run-to-run consistency",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Anne Böckler-Raettig": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2608.26885v1",
+        "title": "Evaluating human and LLM screening workflows in a conceptually complex scoping review: Recall--workload trade-offs and run-to-run consistency",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Nguyen Xuan-Vu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.27429v1",
+        "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Octavian Susanu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.27429v1",
+        "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Daniel Armstrong": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.27429v1",
+        "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Philippe Schwaller": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2608.27429v1",
+        "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jiten Oswal": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.26696v1",
+        "title": "Five Primitives for Governing Autonomous AI Agents at Runtime",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "John Cadeddu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.26696v1",
+        "title": "Five Primitives for Governing Autonomous AI Agents at Runtime",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xingshan Zeng": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.27260v1",
+        "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zishan Xu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.27260v1",
+        "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Boju Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.27260v1",
+        "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yuzhou Wu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.27260v1",
+        "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Lingzhi Wang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.27260v1",
+        "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jianghao Lin": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2608.27260v1",
+        "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Geng Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.26983v1",
+        "title": "GraphMemix: Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yuhao Wang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.26983v1",
+        "title": "GraphMemix: Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Jianye Hao": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.26983v1",
+        "title": "GraphMemix: Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Yuxin Peng": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.26983v1",
+        "title": "GraphMemix: Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Dezheng Han": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.27070v1",
+        "title": "Unifying Detection and Adaptation in Task-Free Continual Learning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Anbang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.27070v1",
+        "title": "Unifying Detection and Adaptation in Task-Free Continual Learning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zhihao Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.27070v1",
+        "title": "Unifying Detection and Adaptation in Task-Free Continual Learning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Shuaishuai Guo": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2608.27070v1",
+        "title": "Unifying Detection and Adaptation in Task-Free Continual Learning",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Ha Dinh": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.23048v1",
+        "title": "Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Xuan Duy Ta": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.23048v1",
+        "title": "Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Khoat Than": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.23048v1",
+        "title": "Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Khac-Hoai Nam Bui": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2608.23048v1",
+        "title": "Reservoir of Importance: Learning Semi-Structured Sparsity with Differentiable Subset Sampling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Longzhu He": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25727v1",
+        "title": "Are LLM-Enhanced GNNs Privacy-Safe?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Zelang Wen": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25727v1",
+        "title": "Are LLM-Enhanced GNNs Privacy-Safe?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Chaozhuo Li": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25727v1",
+        "title": "Are LLM-Enhanced GNNs Privacy-Safe?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W35",
+    "last_seen": "2026-W35"
+  },
+  "Sen Su": {
+    "appearances": [
+      {
+        "week": "2026-W35",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25727v1",
+        "title": "Are LLM-Enhanced GNNs Privacy-Safe?",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W35",
