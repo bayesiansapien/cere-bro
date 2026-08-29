@@ -1,5 +1,5 @@
 # Kurate Rising Authors
-> 2026-08-29 09:02 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
+> 2026-08-29 11:12 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
 
 ## Daniel Whitmore  ·  score 16.7  ·  3 appearances
 *First seen 2026-W32, last seen 2026-W35*
