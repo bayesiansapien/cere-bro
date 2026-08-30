@@ -846,12 +846,17 @@ def fetch_bookmarks() -> list:
 
 # ── Scraping ────────────────────────────────────────────────────────────────────
 
+# Nitter powers the public scrape (own retweets + AI handles) only. Bookmarks come
+# from X's GraphQL API with session cookies and are completely independent of it.
+# A Nitter outage must therefore DEGRADE the run, not kill it — otherwise an
+# unrelated instance failure silently costs you the saved posts, which are the
+# Media Zone's primary source. Fail safe: skip the scrape, still fetch bookmarks.
 try:
     nitter_base = get_nitter_base()
     print(f"Using Nitter: {nitter_base}")
 except RuntimeError as e:
-    print(f"FATAL: {e}")
-    sys.exit(1)
+    nitter_base = None
+    print(f"WARNING: {e} — skipping public scrape, continuing to bookmarks.")
 
 # 1. Own handle — retweets/quotes as curated signal.
 #    Nitter RSS reports the ORIGINAL tweet's date for reposts, not the repost
@@ -868,10 +873,14 @@ if SEEN_PATH.exists():
         seen_links = set()
 
 print(f"\n[1/2] @{OWN_HANDLE} (retweets as curated signal)...")
-own_all     = fetch_rss(OWN_HANDLE, nitter_base)
-own_reposts = [t for t in own_all if is_retweet(t) or is_quote_tweet(t)]
-own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
-print(f"  {len(own_all)} feed items | {len(own_reposts)} reposts | {len(own_curated)} new (unseen)")
+if nitter_base:
+    own_all     = fetch_rss(OWN_HANDLE, nitter_base)
+    own_reposts = [t for t in own_all if is_retweet(t) or is_quote_tweet(t)]
+    own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
+    print(f"  {len(own_all)} feed items | {len(own_reposts)} reposts | {len(own_curated)} new (unseen)")
+else:
+    own_all, own_reposts, own_curated = [], [], []
+    print("  skipped — no Nitter instance reachable")
 
 # Persist newly captured links to the seen set, but cap the file at 500 entries
 # so it doesn't grow forever. We keep the most recent N by appending.
@@ -893,9 +902,11 @@ if SEEN_AI_PATH.exists():
         seen_ai_links = set()
 
 print(f"\n[2/2] Scraping {len(AI_HANDLES)} AI handles...")
+if not nitter_base:
+    print("  skipped — no Nitter instance reachable")
 ai_results: dict[str, list] = {}
 new_ai_links: list[str] = []
-for h in AI_HANDLES:
+for h in (AI_HANDLES if nitter_base else []):
     handle = h["handle"]
     tweets = fetch_rss(handle, nitter_base)
     # Keep all non-retweet originals from this handle, within the lookback window.
