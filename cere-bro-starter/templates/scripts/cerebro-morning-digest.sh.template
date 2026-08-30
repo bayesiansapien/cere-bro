@@ -46,6 +46,14 @@ echo "[$TODAY $(date +%H:%M:%S)] Starting morning routine..." >> "$LOG"
 
 cd "$REPO" || exit 1
 
+# Make git abort a stalled network transfer instead of hanging forever. A push or
+# pull that stalls with no timeout can wedge the routine for hours, holding the
+# single-instance lock and blocking the whole pipeline. lowSpeedTime=30 → if
+# throughput drops below lowSpeedLimit=1000 B/s for 30s, git gives up (the `|| true`
+# then continues). Idempotent; safe every run.
+git config http.lowSpeedLimit 1000 2>/dev/null || true
+git config http.lowSpeedTime 30 2>/dev/null || true
+
 git pull --rebase origin main >> "$LOG" 2>&1 || true
 
 # Farmers always run — they're idempotent and have their own dedup guards.
