@@ -2,6 +2,25 @@
 
 How AI computations are mapped to the specific instruction sets and memory hierarchies of GPU and accelerator hardware. Kernel optimization determines how efficiently a model actually runs — the gap between theoretical peak FLOPS and real throughput.
 
+## 2026-08-31: the fourth kernel-agent result varies memory, which is the axis that reprices the moat
+
+**This page has recorded three kernel-agent results and each varied a different thing. [Beyond Scaling (08-31)](2026-08-31-self-evolving-kernel-optimization-agents.md) (Kurate cs.LG #4) varies the one none of them touched: what survives between runs.**
+
+| Result | What it varied | Headline |
+|---|---|---|
+| [AccelOpt (04-20)](../inference-efficiency/2026-04-20-accelopt-gpu-kernel-optimization.md) | The cost of the agent | Trainium peak-throughput utilization 49% → 61%, matching Claude Sonnet 4 at 26x lower cost |
+| [JAXBench (08-03)](2026-08-03-jaxbench-tpu-kernel-optimization.md) | The context | Curated TPU docs took Gemini 3 Flash from 5.8% → 37.3% per-sample correctness |
+| [Jalapeño (08-26)](2026-08-26-openai-jalapeno-inference-asic.md) | The target | Three models up on a brand-new ISA in three months, Codex writing MLA kernels unaided |
+| **Beyond Scaling (08-31)** | **Cross-task memory** | An experience graph over past attempts, measured outcomes and structural context beats more rollouts |
+
+The mechanism is an experience graph: optimization attempts, their profiled results, and the structural context they applied to, retrieved when a new kernel presents a matching structure. **This page's reading of JAXBench left the door open for exactly this.** That 6.4x correctness jump was judged here to be *a retrieval result, not a capability result*. An experience graph is the same insight pushed one step further, retrieving from what the agent measured rather than from what a vendor documented, and it should be worth more, because the docs never contained the answers in the first place.
+
+**Kernel work is the friendliest possible domain for experiential memory, and this is worth stating because the agent-memory literature had to fight for it elsewhere.** [Recuris (08-26)](../agentic-systems/2026-08-26-recuris-experiential-working-memory.md) found that skill retrieval keyed on either the initial instruction or the full history degrades exactly as a task gets hard, and fixed it by keying retrieval on **externally verified** state, since self-reported state is vulnerable to omission and hallucination. In kernel optimization the state is verified for free: a profiler measurement is not a self-report. The obvious next design, which this paper does not appear to do, is to key experience retrieval on **measured hardware counters** rather than on source-text similarity.
+
+**The commercial consequence is a change in the shape of the moat, not its size.** Every argument this page and [compute-economics](compute-economics.md) have recorded, from the [07-25 SemiAnalysis CUDA-moat analysis](2026-07-25-semianalysis-amd-cuda-moat.md) through Jalapeño, prices the moat as *the cost of generating kernels for a new target*, and all of them treat that as a level to be lowered. An experience graph makes it a **decaying** cost instead: the first target costs what it always did, every subsequent one is cheaper, because structural knowledge about tiling, occupancy and memory access ports better than any individual kernel does. A decaying moat is a worse position for an incumbent than a merely smaller one.
+
+**Two caveats, and the second is the one that decides the paragraph above.** This entered via Kurate rather than HuggingFace, and all 40 entries on both Kurate boards still show `score=1200` and `win_rate=0.0%` for a fourth week, so the tournament has not run and the ranking is recency, not quality. Treat the mechanism as the contribution and the magnitude as unverified. And **cross-target transfer is unreported**. Within-target experience reuse is a useful engineering result; cross-target transfer is what turns the moat into a decaying cost, and it is much harder to demonstrate. Open problem for this page: any paper reporting kernel-agent performance on target B after accumulating experience on target A, with a from-scratch control.
+
 ## 2026-08-26: a model wrote the kernels for a new ISA in three months
 
 **[OpenAI's Jalapeño](2026-08-26-openai-jalapeno-inference-asic.md) is the industrial escalation of this page's agent-written-kernel thread, and it is a much larger instance than anything here so far.** AccelOpt (04-20) had an LLM agent optimizing AWS Trainium kernels on a mature stack, raising peak throughput utilization from 49% to 61% while matching Claude Sonnet 4 at 26x lower cost. Jalapeño is the version where the model creates the stack: OpenAI brought up DeepSeek R1, Kimi K2.5 and GPT-OSS on a brand-new ISA within three months of first silicon, starting from zero on software, and **Codex wrote the working MLA kernels with no intervention from the kernel engineering team** (OpenAI had no MLA implementation at all until it benchmarked DeepSeek). AI-assisted design also cut SIMD area 8% and matrix-engine area 10%.
