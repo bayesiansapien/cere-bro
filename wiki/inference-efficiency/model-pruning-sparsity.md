@@ -6,6 +6,26 @@
 
 ---
 
+## 2026-08-31: a third currency, and nobody on this page reports it
+
+**Every method on this page is answerable on two axes. There is now a third, and it is the one that becomes load-bearing exactly as compression succeeds.** [When Pruning Meets Interpretability (08-31)](2026-08-31-pruning-meets-interpretability-sae.md) (COLM 2026, Ohio State) finds that standard one-shot weight pruning (SparseGPT, Wanda, magnitude) degrades the faithfulness of **sparse autoencoders**, the overcomplete sparse dictionaries fit to a layer's activations that mechanistic interpretability uses to pull apart superposition. Every SAE workflow, circuit identification, spurious-correlation erasure, causal hypothesis testing, assumes the SAE faithfully decomposes the activations it was fit to. Pruning weakens that assumption, and the damage is **not predicted by the metrics this page already tracks**.
+
+| Axis | What it asks | Reported by |
+|---|---|---|
+| Quality per removal | Does the model still behave the same | Every paper here |
+| Schedulability | Can the hardware execute the surviving pattern | Most papers here |
+| **Interpretability preservation** | Is the model still *legible* the same | **Nothing on this page** |
+
+**Why this stops being an academic point this week.** [LMSM (08-31)](../responsible-ai/2026-08-31-lmsm-llm-security-modules.md), on HuggingFace the same day, makes SAEs and transcoders **pluggable security backends inside the vLLM serving path**, exposing calibrated evidence to a runtime policy that gates output release, taking HarmBench attack success from 39.20% to 3.32% while retaining **98.14% of unmonitored throughput**. That converts an SAE from a research artifact into a production reliability dependency. And the model that gets served is always the compressed one.
+
+So the two papers jointly define a question neither team asked, and it is one experiment: **how much of LMSM's 3.32% survives when its SAE backend runs on a 50%-pruned model?** Neither paper cites the other. This is the most valuable unrun experiment this page currently holds, and the direction of industry pressure makes it more urgent rather than less: outcome-based AI pricing (OpenAI and Salesforce, both this week) means the vendor eats the cost of every failed task, which pushes serving cost down, which pushes compression up, which is exactly the direction that degrades the audit surface.
+
+**The structural echo with [MCL (08-30)](2026-08-30-mcl-concept-landscape-data-pruning.md) is exact and worth naming.** MCL's objection to embedding-space data pruning was mechanical: an embedding is a lossy summary produced by a model trained to discard detail, and that detail is precisely the rare concepts pruning was supposed to preserve, so it built an explicit entity-event-attribute graph and selected by counted coverage instead. Today's paper says the same thing one layer up: do not trust a learned representation *of a model you just modified* to tell you what that model is doing. **Both are arguments for auditability over convenience, one at the data layer and one at the analysis layer**, and together they are the clearest statement of what this page has been circling: the field keeps buying cheapness with legibility and only prices one side.
+
+**What a reader should want next, and it is not in the paper.** The practitioner question is a curve, not a comparison: what pruning ratio can I afford before the SAE stops being usable. And the cheapest candidate fix is untested, namely refitting the SAE on the pruned model from scratch rather than transferring one from the base. If refitting recovers faithfulness, this is a workflow bug rather than a property of pruning, and that distinction changes everything about how seriously to take it.
+
+---
+
 ## The four layers, and why they get confused
 
 "Pruning" names four different operations at four points in the stack. They have different economics and are routinely compared as if they were interchangeable.
