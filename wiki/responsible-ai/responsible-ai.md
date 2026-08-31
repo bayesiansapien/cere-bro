@@ -2,6 +2,28 @@
 
 Concept page for alignment, interpretability, safety, and explainability work.
 
+## 2026-08-31: deployment-time safety arrives as two systems with throughput numbers attached
+
+**The 08-13 audit said the field publishes 8x to 12x more training-time than deployment-time safety work. Two papers landed today that are entirely deployment-time, and both report a cost, which is the part this page has never been able to get.**
+
+[LMSM](2026-08-31-lmsm-llm-security-modules.md) (NUS) adapts the Linux Security Modules design to LLM serving: fixed mediation hooks, a pluggable security backend exposing calibrated evidence from interpretability artifacts (sparse autoencoders, transcoders, dense probes), a versioned policy over trusted per-request context, and a separate gate authorizing release of buffered output. On Qwen3-4B, **HarmBench attack success falls 39.20% to 3.32%, XSTest false refusals rise 2.40% to 4.40%, and it retains 98.14% of the throughput** of a matched no-monitoring path at 32 active sequences.
+
+[StepGuard](2026-08-31-stepguard-step-level-guardrails.md) (Shanghai AI Lab) puts the equivalent gate in front of **tool execution** rather than output release, auditing a proposed action before it runs. Mean attack success on AgentDojo and AgentDyn falls **77.3%** relative to no guard, with mean utility down **2.8 points**, and it is the strongest open-weight guard model reported.
+
+**Three things this page should take from the pair.**
+
+*The separation LMSM draws is the reusable idea, not the numbers.* It splits **mediation correctness** (does every security-relevant release actually pass through the monitor, and does request 7's decision stay attached to request 7 under continuous batching, where vLLM interleaves many sequences through one forward pass and the active set changes every step) from **policy effectiveness** (do the rules catch the right things). The first is a systems problem, it is either right or wrong, and it is written once. The second is never finished and should be swappable. Every guard deployment this page has recorded fuses them, which is why every new interpretability artifact produces a new parallel stack instead of strengthening a shared one.
+
+*98.14% changes the argument, not just the number.* When monitoring means running a guard model in front of your model, safety competes with capacity for GPUs and loses in most budget meetings. Riding inside a forward pass that is already happening makes it a rounding error. This page has spent months documenting safety properties that were technically available and economically unshipped; this is the first result that removes the economic objection outright.
+
+*The false-refusal cost is stated honestly and should not be waved away.* 2.40% to 4.40% is a near-doubling. Roughly one benign request in fifty that previously went through now gets refused. LMSM's versioned-policy design is at least the right shape for tuning that after deployment rather than at training time, which is more than most of this page's entries can say.
+
+**The collision with compression is the open problem, and it is one experiment.** LMSM makes SAE quality a serving-path reliability property. [When Pruning Meets Interpretability (08-31)](../inference-efficiency/2026-08-31-pruning-meets-interpretability-sae.md) finds standard weight pruning degrades SAE faithfulness on the pruned model. The served model is the compressed one. **Nobody has measured how much of the 3.32% survives on a pruned backend**, and neither paper cites the other. Full treatment on [model-pruning-sparsity](../inference-efficiency/model-pruning-sparsity.md).
+
+**Also today, a failure mode that abstention cannot catch.** [ElephantBench](2026-08-31-elephantbench-epistemic-myopia.md) probes what models do when the world genuinely holds two credible conflicting accounts of a long-tail fact. Across 32 models, the strongest recovers both accounts on only **52.4%** of questions and on nearly all the rest produces one fluent account and silently omits the other; scaling and inference-time reasoning improve recall without eliminating the incompleteness, and corpus analysis attributes it to pretraining exposure imbalance. This matters here because **it is not hallucination and it is not a knowledge gap**, so it carries no uncertainty signal and confidence-based abstention has nothing to fire on. Set against the 08-30 abstention convergence, where three papers replaced a forced dense decision with a sparse one plus an explicit way to decline, the boundary is now clear: abstention helps when the model knows it does not know, and epistemic myopia is the case where the model has no internal signal that anything is missing. **Different failures, different instruments, and conflating them ships a calibration story that does not cover the actual gap.**
+
+---
+
 ## The unit of safety is moving from the model to the trajectory (2026-08-13)
 
 **Two papers on one board make the same argument from opposite ends, and together they say the page's dominant frame is the wrong one for agents.**
