@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-08-27T16:30:00.825274+00:00",
+  "following_last_checked": "2026-08-31T03:39:04.522048+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -93,7 +93,9 @@
     "Sonderling47",
     "profstonge",
     "LAGovJeffLandry",
-    "jeffreykWNDR"
+    "jeffreykWNDR",
+    "JMGreerWriter",
+    "fi56622380"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -833,6 +835,24 @@
       "handle": "NVIDIAAIInfra",
       "name": "NVIDIA AI Infrastructure",
       "org": "NVIDIA",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "romanugarte_",
+      "name": "Roman Ugarte",
+      "org": "Cursor",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "trbrashears",
+      "name": "Travis Brashears",
+      "org": "Independent",
       "timezone": "PT",
       "focus": [
         "AI"
