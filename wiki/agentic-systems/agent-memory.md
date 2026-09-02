@@ -2,6 +2,28 @@
 
 Agent memory is the long-term, cross-session store an agent uses to preserve facts, preferences, traces, and state between interactions. It is structurally distinct from the KV cache (which is per-context, short-term, attention-internal) and from the prompt window (which is per-request).
 
+## 2026-09-02: two papers, one day, same conclusion. Anchor memory when you write it, not when you read it
+
+**The convergence is the finding, and the two papers sit on opposite sides of the model boundary.** [EM²Mem (09-02)](2026-09-02-em2mem-event-centric-multimodal-memory.md) (arxiv 2609.00551) builds event anchors **in the harness**, at memory-construction time. [Safin-1 (09-02)](../ai-routing/2026-09-02-safin-1-march-memory-anchor-routing.md) (arxiv 2609.00092) maintains memory anchors **in the architecture**, retrieved by content-conditioned routing. Same word, same instinct, two layers, published the same day, neither citing the other.
+
+**EM²Mem supplies the distinction this page has needed: searchable is not generation-ready.** Existing multimodal memory retrieves captions, frames, transcripts, summaries and graph facts as isolated fragments. Those fragments are findable, but the language model must then reconstruct cross-modal and temporal alignments **at inference time**, exactly when context is tightest and attribution hardest. EM²Mem binds heterogeneous evidence to **event anchors** during construction, so each event-indexed cell aligns multimodal records, temporal context, graph-linked relations, semantic facts and provenance around one grounded event. The reported effect:
+
+- **+2.0, +2.4 and +3.7** average accuracy points over the strongest memory baseline across three long-video QA benchmarks.
+- **+7.0 points** on strict event-level Top-5 evidence recall.
+- **4.67x lower per-query latency** and **63.66% fewer total inference tokens.**
+
+**The accuracy gain and the cost gain come from the same mechanism, which is rare on this page.** Most memory work trades retrieval quality against context budget. Moving alignment from read time to write time improves both, because the read-time reconstruction was consuming tokens *and* producing worse groundings.
+
+**It is the fourth arrival at "move the expensive decision out of the loop," and the first to publish both halves of the ledger.** The [08-29 digest](../daily-digest/2026-08/2026-08-29.md) named that split: CritICL (08-29) moved reasoning supervision into an offline critique repository so inference does one generation; the [ACE lens (08-28)](2026-08-28-ace-lens-agentic-data-generation.md) argued agentic data generation is a continual allocation problem decided before training; Ken Huang's multi-agent guide capped fan-out at a constant chosen offline. All three moved work out of the loop and reported the capability side only. EM²Mem reports the capability gain **and** the token saving, which makes the tradeoff checkable rather than merely plausible.
+
+**What it does not do, stated precisely because the numbers invite over-reading.** [InMind (07-29)](2026-07-29-inmind-implicit-association-blind-spot.md) measured the implicit-association blind spot: retrieval only surfaces a fact when the fact resembles the query, so a stored tree-nut allergy never fires on a macaron request, and six vector, graph and agentic systems reached **at most 14.4%** on indirect queries against **84.0%** when the memory was simply placed in context. EM²Mem improves how well retrieved evidence is **packaged**; it does not change whether the right evidence is **found**. Its 7.0-point gain is on event-level Top-5 recall, not on indirect association. **The roughly 70-point InMind headroom is untouched.**
+
+**Safin-1's contribution to this page is the lifetime of the stored object.** [Raven (08-04)](../llms-foundation-models/2026-08-04-raven-sparse-memory-routing.md) routes a write into a fixed set of memory slots per incoming token, but those slots are working state within one sequence. Safin-1's **persistent capability states** are adapted at test time and survive across queries, without repeatedly modifying the backbone. That is a memory tier this page has not had: neither per-context like the KV cache nor per-session like an agent store, but a durable, separately-maintained piece of model state. The safety framing it ships with has no numbers in the abstract, so treat the architecture as the contribution and the safety result as unverified.
+
+**Open item for this page.** Event anchoring is demonstrated only where a natural temporal event structure exists. Text-only agent sessions, codebases and document corpora have no obvious equivalent, and EM²Mem does not propose one. Nor is the construction cost reported, so the break-even number of queries per video is unknown, and write-time work only pays when writes amortize over many reads.
+
+---
+
 ## 2026-08-31: two groups independently reject irreversible eviction, and the "delivery volume" question gets a rival answer
 
 **The convergence first, because it is the cleanest signal on this page in weeks. Two systems released in the same week both concluded that eviction must be reversible, and neither cites the other.**
