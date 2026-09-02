@@ -2,7 +2,19 @@
 
 A scaling law is a fitted functional form predicting model loss from model size (N), training tokens (D), and compute (C). Its practical job is to let a lab decide how to spend a pretraining budget from a small sweep, without running the large job first.
 
-## Current State (as of 2026-08-10)
+## Current State (as of 2026-09-02)
+
+**A third way the received law fails, and this one is not a misspecification or a transfer failure. It is a claim that architecture belongs inside the law.** [SMELT (09-02)](2026-09-02-smelt-moe-looped-transformers.md) (arxiv 2609.01343) fits a **separate Chinchilla-style scaling law for each architecture**, looped and unlooped, across four sizes up to 54B non-embedding parameters, and only then can it report that the looped variant's loss falls faster with compute, saving **6.8 to 18.0% of training FLOPs on the compute-optimal frontier**. A single law fitted across both architectures would have averaged that effect into the residual. The methodological point is the contribution: the frontier gap between two architectures is not recoverable from one law with an architecture covariate, it requires two fits.
+
+**What makes the comparison trustworthy is the budget discipline, and it is stricter than anything else on this page.** SMELT matches **three budgets simultaneously**: per-token FLOPs, total non-embedding parameters, and KV cache size. MoE is what makes that possible, since it decouples total parameters from per-token FLOPs, so the hidden dimension can be narrowed to hold FLOPs fixed while expert count recovers capacity. The KV constraint is the one nobody else imposes and it is not about cost: KV size bounds the longest servable context, so a model that wins on loss while needing a larger cache is not a substitute for the baseline at serving time. Prior looped-model scaling analyses either fixed effective depth (finding diminishing returns) or fixed unique parameters while letting FLOPs and KV grow, and both confound the architecture effect with spend.
+
+**This bears directly on the page's open question about sparse-model laws.** The page has asked whether MoE laws need a third interaction term for active-versus-total parameters, prompted by LLaDA MoE v2's (08-05) finding that larger expert pools win at fixed activated capacity. SMELT is evidence the N axis is not one-dimensional for MoE in a second, independent way: **effective depth via layer reuse is a distinct axis from both active and total parameters**, and it is one the Chinchilla form has no slot for at all. Note also that SMELT's advantage *grows* with sequence length and with in-context example count, which means the effect is not a constant offset and therefore cannot be absorbed into the irreducible-loss term.
+
+**Where it leaves the deployment-side gap unchanged, and slightly worse.** This page's sharpest standing complaint is that there is no accepted functional form relating **inference compute to solved-problem rate**, which is the quantity agentic deployment actually cares about, and that nothing in the wiki fills that slot. SMELT reports its saving in **training FLOPs**. Because looping serializes computation, matched FLOPs is not matched wall-clock, and concurrent MoE-looping work matched wall-clock time instead. So the field now has two looping literatures optimizing different objectives with no head-to-head, and neither is denominated in the currency the deployment question needs.
+
+---
+
+## Prior State (as of 2026-08-10)
 
 **The received scaling law is now known to be wrong in two independent ways, and both were established within six days.** This page exists because that count crossed the threshold.
 
