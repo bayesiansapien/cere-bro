@@ -10982,10 +10982,18 @@
         "arxiv_id": "2607.18100v1",
         "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
         "ai_rating": 4.3
+      },
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.29063v1",
+        "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W36"
   },
   "Tong Yu": {
     "appearances": [
@@ -10996,10 +11004,18 @@
         "arxiv_id": "2607.18100v1",
         "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
         "ai_rating": 4.3
+      },
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.29063v1",
+        "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W36"
   },
   "Xunyi Jiang": {
     "appearances": [
@@ -11052,10 +11068,18 @@
         "arxiv_id": "2607.18100v1",
         "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
         "ai_rating": 4.3
+      },
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.29063v1",
+        "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W36"
   },
   "Koyar Afrasyab": {
     "appearances": [
@@ -24353,6 +24377,720 @@
       }
     ],
     "first_seen": "2026-W35",
+    "last_seen": "2026-W36"
+  },
+  "Vincenzo Collura": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.28229v1",
+        "title": "Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Karim Tit": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.28229v1",
+        "title": "Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Eleonora Giunchiglia": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.28229v1",
+        "title": "Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Mike Papadakis": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.28229v1",
+        "title": "Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Maxime Cordy": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.28229v1",
+        "title": "Stay Within Your Bounds: Distance-Guided Decoding for Guaranteed Context-Free Grammar Compliance",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Runsheng Li": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.29352v1",
+        "title": "Cross-Relational Preference Learning for Better LLM Instruction Following",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Kai Sun": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.29352v1",
+        "title": "Cross-Relational Preference Learning for Better LLM Instruction Following",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Bin Shi": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.29352v1",
+        "title": "Cross-Relational Preference Learning for Better LLM Instruction Following",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Bo Dong": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.29352v1",
+        "title": "Cross-Relational Preference Learning for Better LLM Instruction Following",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Rui Wang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.29063v1",
+        "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Doga Dogan": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.29063v1",
+        "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Junda Wu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2608.29063v1",
+        "title": "Agent2UCB: Agentic System for Generative Engine Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Sjoerd van Straten": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.28236v1",
+        "title": "D-TAIA: Domain-Aware LLM Adaptation for Multi-Task Predictive Process Monitoring",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Christine Jacob": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.28236v1",
+        "title": "D-TAIA: Domain-Aware LLM Adaptation for Multi-Task Predictive Process Monitoring",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Marwan Hassani": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2608.28236v1",
+        "title": "D-TAIA: Domain-Aware LLM Adaptation for Multi-Task Predictive Process Monitoring",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jun Bai": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.27856v1",
+        "title": "FedEHR-Agents: Federated Agentic Optimization for Automated EHR Modeling",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Ruilin Wang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.27856v1",
+        "title": "FedEHR-Agents: Federated Agentic Optimization for Automated EHR Modeling",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yue Li": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2608.27856v1",
+        "title": "FedEHR-Agents: Federated Agentic Optimization for Automated EHR Modeling",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Shuchen Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.28442v1",
+        "title": "Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yuxin Fang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.28442v1",
+        "title": "Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Mingze Wang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.28442v1",
+        "title": "Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Kun Yuan": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2608.28442v1",
+        "title": "Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Junjie Meng": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25871v1",
+        "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Ranxu Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25871v1",
+        "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zi-an Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25871v1",
+        "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Shujun Liu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25871v1",
+        "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Xiaoning Qi": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25871v1",
+        "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Xiaozhou Xu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.25871v1",
+        "title": "CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yihang Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.30234v1",
+        "title": "CoLa-ICD: A Knowledge-Enhanced Framework for Long-Tail Automated Medical Coding",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Veronica Liesaputra": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.30234v1",
+        "title": "CoLa-ICD: A Knowledge-Enhanced Framework for Long-Tail Automated Medical Coding",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Andrew Trotman": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2608.30234v1",
+        "title": "CoLa-ICD: A Knowledge-Enhanced Framework for Long-Tail Automated Medical Coding",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Farzan Haddadi": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.00885v1",
+        "title": "Denoising Diffusion Generative Models Secretly Calculate Attentions",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Leila Monfared": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.00885v1",
+        "title": "Denoising Diffusion Generative Models Secretly Calculate Attentions",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Ebrahim Rezaii": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.00885v1",
+        "title": "Denoising Diffusion Generative Models Secretly Calculate Attentions",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Mohammadreza Malek-Mohammadi": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.00885v1",
+        "title": "Denoising Diffusion Generative Models Secretly Calculate Attentions",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Pejman Zakalvand": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.00885v1",
+        "title": "Denoising Diffusion Generative Models Secretly Calculate Attentions",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Narges Mokhtari": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.00885v1",
+        "title": "Denoising Diffusion Generative Models Secretly Calculate Attentions",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Hangyeul Lee": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.01198v1",
+        "title": "FinLifeBench: Exhaustive Life-Event History and Financial-State Reconstruction from Longitudinal Banking Dialogue",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Juyoung Oh": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.01198v1",
+        "title": "FinLifeBench: Exhaustive Life-Event History and Financial-State Reconstruction from Longitudinal Banking Dialogue",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jaeyong Ko": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.01198v1",
+        "title": "FinLifeBench: Exhaustive Life-Event History and Financial-State Reconstruction from Longitudinal Banking Dialogue",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Sunmin Kim": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.01198v1",
+        "title": "FinLifeBench: Exhaustive Life-Event History and Financial-State Reconstruction from Longitudinal Banking Dialogue",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jaeik Park": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.01198v1",
+        "title": "FinLifeBench: Exhaustive Life-Event History and Financial-State Reconstruction from Longitudinal Banking Dialogue",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Hyunkyu Kim": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.01198v1",
+        "title": "FinLifeBench: Exhaustive Life-Event History and Financial-State Reconstruction from Longitudinal Banking Dialogue",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Hamed Babaei Giglou": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.31118v1",
+        "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Sören Auer": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.31118v1",
+        "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jennifer D'Souza": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2608.31118v1",
+        "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Maria Matveev": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30741v1",
+        "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Pascal Esser": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30741v1",
+        "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Ayush Bharadwaj": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30741v1",
+        "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Lucius Bushnaq": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30741v1",
+        "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Gitta Kutyniok": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30741v1",
+        "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
     "last_seen": "2026-W36"
   }
 }
