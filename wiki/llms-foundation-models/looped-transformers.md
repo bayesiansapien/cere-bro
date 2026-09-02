@@ -2,7 +2,24 @@
 
 Looped (or "universal") transformers add computation by applying the *same* shared block repeatedly, rather than stacking many distinct layers. The promise is parameter efficiency (one block, reused) and adaptive depth (loop more on hard inputs). The recurring cost is that naive sequential looping inflates latency and KV cache linearly with loop count, and that more loops do not monotonically help.
 
-## Current state (as of 2026-06-17)
+## Current state (as of 2026-09-02)
+
+**The loop-count question is settled to two, by a second paper that got there independently and brought a mechanism.** [SMELT (09-02)](2026-09-02-smelt-moe-looped-transformers.md) (arxiv 2609.01343, Tsinghua / ByteDance Seed / M-A-P / TokenWave.AI) is the first study to compare looped against unlooped models while matching **three budgets simultaneously**: per-token FLOPs, total non-embedding parameters, and KV cache. MoE is what makes that feasible, because it decouples total parameters from per-token FLOPs, so you can narrow the hidden dimension to hold FLOPs fixed and then raise the expert count to recover capacity. The surviving recipe is **loop the middle half of the layers twice**, leaving early and late layers single-pass. Scaled across four sizes to 54B non-embedding parameters with a separate Chinchilla-style law fit per architecture, it saves **6.8 to 18.0% of training FLOPs on the compute-optimal frontier**, with the advantage largest on Code and *growing* with sequence length and in-context example count.
+
+**Why this is the important entry on this page.** The page's headline finding since 06-17 has been LoopCoder-v2's empirical result that **two loops is optimal and three-plus regress**, with a diagnosis (later loops give oscillatory low-diversity updates while the positional-mismatch cost keeps accruing) but no account of why the *second* loop is productive. SMELT supplies one: the second visit **reduces the attention sink**, the pile-up of attention mass onto a few early or delimiter tokens carrying almost no information, and redirects that mass toward content-relevant tokens. Two papers, two and a half months apart, different scales, dense versus MoE, loose versus strict budget control, same loop count, and now one mechanism. **This crosses from "an empirical ceiling somebody found" to "a property of the architecture."** It also explains the shape of the gains: attention sinks cost most when there is a lot of context to discriminate among, which is why the advantage grows with sample length and in-context examples rather than being a fixed offset.
+
+**Two of this page's three open tensions move.**
+
+- **"Saturation vs adaptivity" is now half-resolved and better posed.** SMELT lands hard on the fixed-depth side and adds a dimension the tension did not have: loop depth should vary by **layer position**, not by input. LoopWM's claim for *adaptive per-step* depth is untouched but now looks like the minority position. The sharpened open question: nobody has ablated adaptive-per-input against fixed-middle-half looping on the same task under matched budgets, and until someone does, "loop the middle twice" is the default and adaptivity is the burden of proof.
+- **"KV cost is the gating constraint" is superseded by a stronger framing.** The page recorded that looping was only practical because LoopCoder-v2 shared KV across loops via gated sliding-window attention. SMELT does not need a KV-sharing trick, because it treats KV cache as a **budget to hold constant** rather than a cost to mitigate. That reframing matters beyond looping: KV size bounds the longest servable context, so a looped model that quietly needs a larger cache is not a drop-in replacement at serving time regardless of its loss curve. **Matching KV is a precondition for the loop's benefit being a well-defined quantity at all.**
+
+**The unresolved axis is now latency, not loss.** Looping serializes computation, so matched FLOPs is not matched wall-clock, and SMELT reports the frontier saving in training FLOPs without addressing serving latency. Concurrent MoE-looping work (MoEUT, LoopMoE) matched **wall-clock time** instead. Those two literatures are optimizing different objectives and no head-to-head exists, which is the cleanest experiment anyone could run on this page right now.
+
+**It also puts a claim on [scaling-laws.md](scaling-laws.md).** SMELT's frontier saving is only legible because it fits a *separate* law per architecture; one law across both would average the effect away. That is a third kind of failure of the received law, distinct from Skaling's misspecified additive form (08-10) and LLaDA's cross-objective transfer failure (08-05): a claim that **architecture belongs inside the law**.
+
+---
+
+## Prior state (as of 2026-06-17)
 
 **The loop became a first-class scaling axis this week — three papers, three domains, one shared claim: iterative latent depth is orthogonal to width and data.**
 
