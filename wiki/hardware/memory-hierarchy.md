@@ -2,7 +2,28 @@
 
 The tiered memory system that modern AI — and especially agentic AI — runs on. The 2026 thesis: the binding constraint on AI infrastructure has shifted from compute (FLOPS) to memory (where state lives and how fast it moves). This page synthesizes what the wiki knows about each tier and how the research it tracks maps onto the hardware.
 
-## Current State (as of 2026-07-30)
+## Current State (as of 2026-09-02)
+
+**This page's founding thesis, that the binding constraint moved from compute to memory, now has its cleanest derivation and a trend claim that makes it worse over time.** [The Physics of LLM Inference, Chapter 1 (09-02)](2026-09-02-physics-of-llm-inference-roofline.md) (Ken Huang, via starred Gmail) works the roofline model through language-model serving. Attainable throughput is `min(P_peak, I × BW_mem)` where operational intensity `I` is total arithmetic divided by bytes moved across the memory bus, and the **ridge point** `I_ridge = P_peak / BW_mem` is where the compute and bandwidth ceilings meet.
+
+**The numbers this page should carry.**
+
+- **H100 SXM5 in FP8:** 1,979 TFLOPS peak against 3.35 TB/s HBM3 puts the ridge at roughly **591 FLOP/byte**. Single-stream decode sits at about **1.5 FLOP/byte**, so it delivers **under 0.3% of peak Tensor Core throughput**. Not a software defect, the arithmetic of matrix-vector work at scale.
+- **The 70B decode proof, one line:** 70 GB of FP8 weights stream in **20.9 ms**; the roughly 140 GFLOPs they enable take **0.07 ms**. **Memory is 99.66% of step time.**
+- **The two phases sit on opposite sides of the ridge.** Prefill is matrix-matrix at 150 to 450 FLOP/byte and can saturate Tensor Cores, governing time-to-first-token. Decode is matrix-vector at 1 to 2 and streams every weight per token, governing inter-token latency. A fleet sized for the average of the two is wrong for both.
+- **Batching is the only escape and it is capped by this page's own subject matter.** Intensity scales as `I(B) ≈ (2 / S_weight) × B`, so reaching the H100 ridge in FP8 would need about **B = 296** concurrent decode streams. Production never runs that hot because **KV cache memory and latency SLOs bind first.**
+
+**The trend claim is the important one, and it is an argument this page has not made.** Compute has scaled faster than HBM bandwidth across every accelerator generation, which pushes the ridge point **rightward**. So the batch size required to escape memory-bound decode **rises with each new GPU**. That inverts the intuition that better hardware makes serving optimization a transitional concern: **each generation makes KV-cache capacity work more valuable, not less**, because KV memory is precisely what prevents reaching the batch size the new silicon demands. That is the strongest available argument for why the scarce resource in 2027 is the same one it is today, and it belongs next to the HBM-allocation and packaging threads below.
+
+**It also supplies a criterion for grading everything on the efficiency side of the wiki.** Any optimization that does not reduce **bytes moved per token** is fighting a 99.66% ratio uphill. Quantization, batching, speculative decoding with acceptance, and KV compression pass. FLOP-only reductions do not. Read that way, today's [cross-model KV sharing (09-02)](../inference-efficiency/2026-09-02-cross-model-kv-sharing.md), which cuts a Llama-70B-to-Qwen-7B handoff from 899ms to 138ms, is a different and better class of saving than it appears: it eliminates work in the **compute-bound** phase, the one place the accelerator runs near its ceiling, without touching the memory-bound phase that dominates steady state.
+
+**And a precision collision worth recording, which neither source notes.** The compute-outpacing-bandwidth trend is the main reason the field keeps pushing to lower-precision training and serving. Lower precision means **fewer exponent bits**. [TrainSDC (09-02)](2026-09-02-trainsdc-silent-data-corruption.md) finds that backward-pass vulnerability to silent data corruption is governed by **gradient exponent distributions** rather than by computation location, at a mitigation cost of 1.65 to 6.76% runtime overhead. **The hardware trend that makes quantization attractive is the same one that makes gradient-exponent corruption more dangerous**, and no source in this wiki has priced that tradeoff jointly.
+
+**Caveat on sourcing:** the free tier of this chapter covers the roofline, the prefill/decode split and the latency taxonomy. VRAM accounting, chunked prefill, continuous batching and PagedAttention, interconnect costs and cluster sizing are paywalled, so the ridge-point table for Blackwell-class parts cannot be verified against measured numbers from the public text.
+
+---
+
+## Prior State (as of 2026-07-30)
 
 **A constraint that binds earlier than memory: the building.** This page has argued since June that the binding constraint on AI infrastructure moved from compute to memory. [SemiAnalysis's modular-construction analysis (07-30)](2026-07-30-semianalysis-lego-datacenters-modular.md) adds a constraint that binds *before* either, and it has nothing to do with semiconductors. Trade labor cannot be produced on a two-year cycle. Electricians alone are **30 to 40% of total construction man-hours** on a datacenter project, and SemiAnalysis's new Labor Model projects a shortage emerging in **2027**, concentrated exactly where the buildout concentrates, in Texas and Ohio. The evidence that it already binds is a price rather than a forecast: Crusoe raised wages **30%** to staff Abilene, which peaked above **9,000 workers**. The analytically important move is treating reachable labor supply as a **pool shared across states**, so a project in one state reduces the labor available to its neighbors and site capacity stops being additive. That is a different failure mode from HBM allocation, which is a queue: labor is a substitution game between simultaneous projects.
 
