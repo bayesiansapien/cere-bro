@@ -44,7 +44,7 @@ And the negative half is the actionable half. If coverage saturates at 16 querie
 
 **This reframes the entire selective-supervision thread on [knowledge-distillation.md](knowledge-distillation.md), which is one of the longest-running threads in the wiki.** That thread has five axes, and every one of them is a filter that discards supervision:
 
-- **which tokens** — [TIP (04-16)](2026-04-16-tip-token-importance-distillation.md) found most teacher-generated tokens carry no learning signal and roughly 10% suffice, extended through TA-OPD, TrOPD, FiRe-OPD, SG-OPD to [R2-OPD (08-25)](2026-08-25-r2-opd-reasoning-progress-filtering.md)
+- **which tokens** — TIP (04-16) found most teacher-generated tokens carry no learning signal and roughly 10% suffice, extended through TA-OPD, TrOPD, FiRe-OPD, SG-OPD to [R2-OPD (08-25)](2026-08-25-r2-opd-reasoning-progress-filtering.md)
 - **which layer** — OPRD (06-05), match teacher hidden states instead of output tokens
 - **which trajectories** — [OPDVR (08-26)](2026-08-26-opdvr-distillation-verifiable-reward.md), gate on verified correctness
 - **which teacher** — [QAH (08-26)](2026-08-26-quantization-aware-healing.md), distill from the original pre-compression model
