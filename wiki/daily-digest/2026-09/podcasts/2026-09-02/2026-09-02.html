@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 83 (2026-09-02)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>84 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-09-02<br> <strong>Run time:</strong> ~54 min</p>
+
+<p>Today is about work you never have to do again. A KV-sharing paper says a second model can inherit the first model's processed context instead of re-reading the prompt, which deletes a prefill rather than speeding one up. SMELT says the same thing about depth: reuse the middle layers twice instead of buying more of them, and save 6.8 to 18 percent of training FLOPs with the parameter, FLOP and KV budgets all held fixed. A memory paper moves cross-modal alignment from read time to write time and takes 63.66 percent of inference tokens out. And Ken Huang's inference-physics chapter supplies the number that makes all three the same story: on a 70B model, 99.66 percent of every decode step is spent moving bytes, so the only savings that count are the ones that move fewer bytes or skip the trip entirely. On the industry side, Anthropic cut Fable 5.1 pricing about 25 percent and Dell raised its year by 25 billion dollars on AI server demand, which is the same optimization pressure arriving as a price and as a purchase order.</p>
+
+<p><strong>In this episode</strong> - <strong>Cross-model KV sharing</strong>: translate one model's processed context into another's format. Llama-70B to Qwen-7B cuts latency 899ms to 138ms for 1.7 accuracy points. - <strong>SMELT</strong>: loop the middle half of an MoE twice, with FLOPs, parameters and KV all matched. Saves 6.8 to 18% of training compute. - <strong>EM²Mem</strong>: bind evidence to event anchors when writing memory, not when reading it. 63.66% fewer inference tokens, 4.67x lower latency. - <strong>Ken Huang's inference physics</strong>: on a 70B model, memory movement is 99.66% of every decode step. Only byte-reducing optimizations matter. - <strong>Harness-of-Harness</strong>: constrain what the output must satisfy, not how the agent works. 52.25% average gain over three standalone harnesses. - <strong>Anthropic cut Fable 5.1 prices about 25%</strong> while Dell raised its annual outlook by $25 billion on AI server demand.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-09-02/">2026-09-02</a></p>
+</body>
+</html>

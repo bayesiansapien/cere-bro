@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 85 (2026-09-03)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>85 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-09-03<br> <strong>Run time:</strong> ~19 min</p>
+
+<p>Two papers make attention sparsity a decision the model makes for itself, not a cost you pay by default, and industry shipped the same idea the same day: the way to cut inference cost this week is smarter routing of compute, not a bigger model.</p>
+
+<p><strong>In this episode</strong> - <strong>CRISP</strong>: read the sparse-attention routing decision off a structural proxy of the attention map (no extra matmul/KL); 5.30x attention speedup at 512k, matches dense on retrieval. - <strong>Declarative Attention</strong>: the model tags where to attend (&lt;global&gt;/&lt;focus&gt;/&lt;local&gt;) and the engine skips the rest of the KV read; ~52% fewer attended tokens zero-shot, ~1pp loss. - <strong>IDA-OPD</strong>: on-policy distillation loses diversity (pass@k plateaus); protect entropy-expanding updates using sampled-token log-probs only. Cheaper, better pass@k. - <strong>Cliff</strong>: process rewards that mark the first mistake in a rollout; +15% over on-policy distillation, +7% over GRPO, with cheap teachers. - <strong>Harness cluster (HarnessDev, Aspire, S3Gym, Repo-To-Skill)</strong>: agents building/evolving their own scaffolding — gains are unstable and depend on the runtime model, not the harness alone. - <strong>Industry echoes the papers</strong>: Anthropic Fable 5.1 cuts cache-read cost 75% to $0.25/M; Google Gemini agentic video cuts video tokens 88%; OpenAI's "Astra" uses recurrent depth to cut compute.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-09-03/">2026-09-03</a></p>
+</body>
+</html>
