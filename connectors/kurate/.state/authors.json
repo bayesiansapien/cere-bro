@@ -10408,10 +10408,18 @@
         "arxiv_id": "2607.05904v1",
         "title": "More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free LLM Judges",
         "ai_rating": 7.8
+      },
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30946v1",
+        "title": "Reproducible macroscopic dynamics in a closed-loop human-AI learning system",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W28",
-    "last_seen": "2026-W29"
+    "last_seen": "2026-W36"
   },
   "Shikai Qiu": {
     "appearances": [
@@ -25088,6 +25096,762 @@
         "arxiv_id": "2608.30741v1",
         "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
         "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yiran Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.02092v1",
+        "title": "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Lu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.02092v1",
+        "title": "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Liming Fang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.02092v1",
+        "title": "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yufei Chen": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.02092v1",
+        "title": "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jiafei Wu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.02092v1",
+        "title": "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zhe Liu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.02092v1",
+        "title": "Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Dasol Yoon": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.02126v1",
+        "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Poompol Buathong": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.02126v1",
+        "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Chia-Hao Lee": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.02126v1",
+        "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yujia Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.02126v1",
+        "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "David A. Muller": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.02126v1",
+        "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Peter I. Frazier": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.02126v1",
+        "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Rishabh Arora": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.02194v1",
+        "title": "Learning the Constitutive Behavior of Materials via Neural Operators and Causal Attention: Case Studies in Plasticity and Damage",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Lisa Scheunemann": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.02194v1",
+        "title": "Learning the Constitutive Behavior of Materials via Neural Operators and Causal Attention: Case Studies in Plasticity and Damage",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Tim Brepols": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.02194v1",
+        "title": "Learning the Constitutive Behavior of Materials via Neural Operators and Causal Attention: Case Studies in Plasticity and Damage",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Shahed Rezaei": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.02194v1",
+        "title": "Learning the Constitutive Behavior of Materials via Neural Operators and Causal Attention: Case Studies in Plasticity and Damage",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Xianyi Wu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2608.27985v1",
+        "title": "Is Monte Carlo Tree Search Just Every-Visit Monte Carlo Control?",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Ryota Ushio": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.02304v1",
+        "title": "Bayes-Optimal BER and AUC: Estimation and Evaluation of Estimators",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Takashi Ishida": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.02304v1",
+        "title": "Bayes-Optimal BER and AUC: Estimation and Evaluation of Estimators",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Masashi Sugiyama": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.02304v1",
+        "title": "Bayes-Optimal BER and AUC: Estimation and Evaluation of Estimators",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Minlin Wu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30946v1",
+        "title": "Reproducible macroscopic dynamics in a closed-loop human-AI learning system",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Xu Fang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30946v1",
+        "title": "Reproducible macroscopic dynamics in a closed-loop human-AI learning system",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yicheng Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30946v1",
+        "title": "Reproducible macroscopic dynamics in a closed-loop human-AI learning system",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zhiyi Liu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30946v1",
+        "title": "Reproducible macroscopic dynamics in a closed-loop human-AI learning system",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Boyang Mu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.30672v1",
+        "title": "HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zhiwei Wei": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.30672v1",
+        "title": "HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Mugen Peng": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.30672v1",
+        "title": "HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Wenjia Xu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2608.30672v1",
+        "title": "HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Til Jordan": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.02707v1",
+        "title": "Door-in-the-Face Requests and Refusal Behaviour in Large Language Models",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jundong Hu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.02083v1",
+        "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Shekar Ramachandran": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.02083v1",
+        "title": "XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yue Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30699v1",
+        "title": "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jiajun Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30699v1",
+        "title": "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Xiaohui Gao": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30699v1",
+        "title": "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Weiwei Xing": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30699v1",
+        "title": "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zhanxing Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2608.30699v1",
+        "title": "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yuchen He": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.03937v1",
+        "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yueyang Cang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.03937v1",
+        "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zhiyuan Ning": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.03937v1",
+        "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Ningyu Wang": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.03937v1",
+        "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Li Shi": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.03937v1",
+        "title": "RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Omar Abbadi": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.04113v1",
+        "title": "Constant regret in general games via higher-order optimism",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Rida Laraki": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.04113v1",
+        "title": "Constant regret in general games via higher-order optimism",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Panayotis Mertikopoulos": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.04113v1",
+        "title": "Constant regret in general games via higher-order optimism",
+        "ai_rating": 8.0
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yizhou Xu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.03858v1",
+        "title": "High-Dimensional Learning Dynamics of Attention-Indexed Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Margarita Sagitova": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.03858v1",
+        "title": "High-Dimensional Learning Dynamics of Attention-Indexed Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Lenka Zdeborová": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.03858v1",
+        "title": "High-Dimensional Learning Dynamics of Attention-Indexed Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Florent Krzakala": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.03858v1",
+        "title": "High-Dimensional Learning Dynamics of Attention-Indexed Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Zhiyuan Fan": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.04128v1",
+        "title": "Environment Evolution for Terminal Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Tinghao Yu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.04128v1",
+        "title": "Environment Evolution for Terminal Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Yuanjun Cai": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.04128v1",
+        "title": "Environment Evolution for Terminal Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jiang Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.04128v1",
+        "title": "Environment Evolution for Terminal Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jiangtao Guan": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.04128v1",
+        "title": "Environment Evolution for Terminal Agents",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W36",
+    "last_seen": "2026-W36"
+  },
+  "Jincheng Liu": {
+    "appearances": [
+      {
+        "week": "2026-W36",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.04128v1",
+        "title": "Environment Evolution for Terminal Agents",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W36",
