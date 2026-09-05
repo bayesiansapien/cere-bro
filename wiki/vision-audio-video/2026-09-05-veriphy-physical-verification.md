@@ -10,6 +10,31 @@ VeriPhy replaces the score with an evidence trail. A **text-only planner** reads
 
 The evaluation is anchored in a **1,500-clip corpus of human-annotated flaw records** that localise real generation failures in prompt reference, space and time. On a 149-clip core carrying **304 such records, VeriPhy accounts for 228**, against **164** for a published question-decomposition evaluator given the same clips and claims. The honest part of the paper is the third number: prompting the same backbone monolithically reaches **222**, so recall alone does not separate the architecture from a well-prompted single call. **What separates them is that each VeriPhy decision retains its evidence record and provenance**, making the traces auditable one verdict at a time and usable as an interface through which a critic verdict could be written back into generation.
 
+## Mechanism
+
+```mermaid
+flowchart LR
+  PR[Text prompt] --> PLAN[Text-only planner<br/>compiles typed<br/>physical obligations]
+  PLAN --> VAL{Static validation<br/>of execution plan}
+  VAL -->|valid| EXEC[Execute against video]
+  EXEC --> EXP[Frozen experts:<br/>tracking, counting,<br/>11 typed measurements,<br/>depth, OCR, audio]
+  EXP --> REC[Evidence records<br/>with provenance]
+  REC --> RES[Typed resolvers<br/>fixed composition]
+  RES --> V1[Supported<br/>plausible]
+  RES --> V2[Contradicted<br/>implausible]
+  RES --> V3[Unknown<br/>abstain]
+  classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
+  classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f
+  classDef output fill:#d1fae5,stroke:#10b981,color:#065f46
+  classDef warn fill:#fee2e2,stroke:#ef4444,color:#7f1d1d
+  classDef aux fill:#e0e7ff,stroke:#6366f1,color:#312e81
+  class PR input
+  class VAL,RES decision
+  class V1 output
+  class V2 warn
+  class V3,PLAN,EXEC,EXP,REC aux
+```
+
 ## Key findings
 
 - **228 of 304 human-annotated flaw records accounted for**, against 164 for the published question-decomposition baseline on identical clips and claims.
