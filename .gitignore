@@ -46,3 +46,6 @@ connectors/twitter/.state/seen_home_timeline.json
 # Private LinkedIn home feed (social-media agent). Read locally by the synthesis;
 # never committed (public repo).
 raw/linkedin/
+# YouTube subscription video list (reveals the reader's personal subscriptions,
+# incl. non-AI). Read locally by the synthesis; the digest links public videos.
+raw/youtube/
