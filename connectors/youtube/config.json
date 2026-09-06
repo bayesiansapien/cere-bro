@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "lookback_days": 3,
+  "max_videos_per_channel": 4,
+  "request_timeout": 8,
+  "channels_file": "channels.json",
+  "note": "YouTube signal for the social-media agent. Reads the curated channel list (channels.json, seeded from the reader's subscriptions) and fetches each channel's RSS feed (youtube.com/feeds/videos.xml) — stable, no auth, no yt-dlp. Captures recent videos + views + rating + description for the ranker/synthesis. Robust: RSS is a stable interface; failures per-channel are skipped. Output raw/youtube/ (public — channel content, not a personal algorithmic feed)."
+}
