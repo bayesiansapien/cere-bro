@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-09-03T03:43:36.794037+00:00",
+  "following_last_checked": "2026-09-06T16:30:03.221028+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -96,7 +96,9 @@
     "jeffreykWNDR",
     "JMGreerWriter",
     "fi56622380",
-    "johnternus"
+    "johnternus",
+    "TheJadeWarwick",
+    "PhilippeTabarot"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -867,6 +869,24 @@
       "focus": [
         "AI"
       ]
+    },
+    {
+      "handle": "michaelo",
+      "name": "Michael O'Herlihy",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "alignment/safety"
+      ]
+    },
+    {
+      "handle": "huggingface",
+      "name": "Hugging Face",
+      "org": "Hugging Face",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
     }
   ],
   "ai_keywords": [
@@ -941,5 +961,15 @@
     "fetch_linked_articles": true,
     "graphql_query_id": "iblrFnKr6PZUR-dWpfXG6g",
     "note": "graphql_query_id rotates when X ships a new web build. If bookmark fetches start returning 404, refresh it: open x.com/i/bookmarks in a logged-in browser, DevTools > Network, filter 'Bookmarks', copy the hash segment from the request URL (.../graphql/<THIS_PART>/Bookmarks) into this field. The auth_token + ct0 cookies come from x-cookies.json."
+  },
+  "home_timeline": {
+    "enabled": true,
+    "max_pages": 3,
+    "count_per_page": 40,
+    "only_new": true,
+    "fetch_linked_articles": true,
+    "skip_promoted": true,
+    "graphql_query_id": "wp06oo3fRGU4P1sK8rECqQ",
+    "note": "The reader's X home Following feed, captured for the social-media agent (engagement-aware synthesis). PRIVATE: written to gitignored raw/twitter/feed/. graphql_query_id rotates on new X web builds; if HomeTimeline fetches 404, refresh: x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from .../graphql/<THIS>/HomeTimeline. Auth via x-cookies.json (auth_token + ct0)."
   }
 }

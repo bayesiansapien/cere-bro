@@ -38,3 +38,8 @@ raw/twitter/bookmarks/
 # tweets, so it leaks the list too. Keep local. (seen_reposts/seen_ai_tweets are
 # public actions and stay tracked.)
 connectors/twitter/.state/seen_bookmarks.json
+# Private X home feed (the reader's Following timeline). Read locally by the
+# social-media agent's Media Zone synthesis; never committed (public repo).
+raw/twitter/feed/
+# Feed dedup state = tweet IDs the reader has seen; keep local.
+connectors/twitter/.state/seen_home_timeline.json
