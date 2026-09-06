@@ -462,5 +462,15 @@
     "fetch_linked_articles": true,
     "graphql_query_id": "iblrFnKr6PZUR-dWpfXG6g",
     "note": "Captures your PRIVATE X bookmarks (saved posts) as top-priority Media Zone signal. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates when X ships a new web build: if bookmark fetches return 404, refresh it — open x.com/i/bookmarks logged-in, DevTools > Network, filter 'Bookmarks', copy the hash from the request URL (.../graphql/<THIS_PART>/Bookmarks). Bookmarks are written to the gitignored raw/twitter/bookmarks/ folder so your private saves never enter a public repo."
+  },
+  "home_timeline": {
+    "enabled": true,
+    "max_pages": 3,
+    "count_per_page": 40,
+    "only_new": true,
+    "fetch_linked_articles": true,
+    "skip_promoted": true,
+    "graphql_query_id": "wp06oo3fRGU4P1sK8rECqQ",
+    "note": "Your X home Following feed, captured for the social-media agent (engagement-aware Media Zone synthesis). PRIVATE: written to gitignored raw/twitter/feed/. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates on new X web builds: if HomeTimeline fetches 404, refresh it — open x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from the request URL (.../graphql/<THIS_PART>/HomeTimeline)."
   }
 }
