@@ -70,6 +70,17 @@ BM_ONLY_NEW       = BM_CFG.get("only_new", True)
 BM_FETCH_LINKS    = BM_CFG.get("fetch_linked_articles", True)
 BM_QUERY_ID       = BM_CFG.get("graphql_query_id", "")
 
+# Home timeline (Following feed) capture for the social-media agent. Same auth as
+# bookmarks. Writes engagement-annotated posts to gitignored raw/twitter/feed/.
+HT_CFG            = cfg.get("home_timeline", {}) or {}
+HT_ENABLED        = HT_CFG.get("enabled", False)
+HT_MAX_PAGES      = HT_CFG.get("max_pages", 3)
+HT_COUNT          = HT_CFG.get("count_per_page", 40)
+HT_ONLY_NEW       = HT_CFG.get("only_new", True)
+HT_FETCH_LINKS    = HT_CFG.get("fetch_linked_articles", True)
+HT_SKIP_PROMOTED  = HT_CFG.get("skip_promoted", True)
+HT_QUERY_ID       = HT_CFG.get("graphql_query_id", "")
+
 def _cookies_from_browser(timeout: int = 20) -> dict:
     """Read X session cookies (auth_token, ct0, ...) from the local browser store
     via browser_cookie3, so the user never has to export a cookie file.
@@ -851,6 +862,155 @@ def fetch_bookmarks() -> list[dict]:
     return all_tweets
 
 
+# ── Home timeline (Following feed) for the social-media agent ────────────────────
+#
+# Captures the reader's X home Following feed with per-post ENGAGEMENT signals
+# (likes, retweets, replies, quotes, views) and the author's follower count, so
+# the downstream synthesis can rank by author-normalized engagement + velocity +
+# who's-engaging, not raw counts. Native X videos and linked articles are noted;
+# links get enriched the same way bookmarks are. PRIVATE: the reader's feed is
+# what they see, so raw output is gitignored (only the synthesis publishes).
+
+# Extra feature flags HomeTimeline needs on top of the shared bookmarks set.
+HT_EXTRA_FEATURES = {
+    "rweb_lists_timeline_redesign_enabled": True,
+    "responsive_web_home_pinned_timelines_enabled": True,
+}
+
+
+def _unwrap_home_tweet(result):
+    """Normalize a HomeTimeline tweet_results.result, keeping engagement fields."""
+    t = _unwrap_tweet(result)
+    if not t:
+        return None
+    res = result
+    if res.get("__typename") == "TweetWithVisibilityResults":
+        res = res.get("tweet", {})
+    legacy = res.get("legacy") or {}
+    core = (((res.get("core") or {}).get("user_results") or {}).get("result") or {})
+    core_legacy = core.get("legacy") or {}
+
+    # Engagement + author reach (the signal the synthesis ranks on).
+    t["likes"]     = legacy.get("favorite_count", 0)
+    t["retweets"]  = legacy.get("retweet_count", 0)
+    t["replies"]   = legacy.get("reply_count", 0)
+    t["quotes"]    = legacy.get("quote_count", 0)
+    t["bookmarks_ct"] = legacy.get("bookmark_count", 0)
+    try:
+        t["views"] = int(((res.get("views") or {}).get("count")) or 0)
+    except (TypeError, ValueError):
+        t["views"] = 0
+    t["author_followers"] = core_legacy.get("followers_count", 0)
+    t["author_verified"]  = bool(core_legacy.get("verified") or (core.get("is_blue_verified")))
+    t["is_promoted"]      = bool(res.get("promoted_metadata"))
+    t["is_retweet_flag"]  = bool(legacy.get("retweeted_status_result"))
+    return t
+
+
+def _ht_parse_page(payload: dict):
+    """Extract (tweets, next_cursor) from one HomeTimeline response page."""
+    tweets, cursor = [], ""
+    try:
+        instrs = (((payload.get("data") or {}).get("home") or {})
+                  .get("home_timeline_urt") or {}).get("instructions", [])
+        for instr in instrs:
+            if instr.get("type") != "TimelineAddEntries":
+                continue
+            for entry in instr.get("entries", []):
+                c = entry.get("content") or {}
+                eid = entry.get("entryId", "")
+                # bottom cursor for pagination
+                if c.get("entryType") == "TimelineTimelineCursor" and c.get("cursorType") == "Bottom":
+                    cursor = c.get("value", "")
+                    continue
+                # single item, or a module of items (conversation)
+                item_contents = []
+                if c.get("entryType") == "TimelineTimelineItem":
+                    item_contents = [c.get("itemContent") or {}]
+                elif c.get("items"):
+                    item_contents = [it.get("item", {}).get("itemContent", {}) for it in c["items"]]
+                for ic in item_contents:
+                    if ic.get("itemType") not in (None, "TimelineTweet"):
+                        continue
+                    result = ((ic.get("tweet_results") or {}).get("result") or {})
+                    t = _unwrap_home_tweet(result)
+                    if t and t.get("tweet_id"):
+                        tweets.append(t)
+    except Exception as e:
+        print(f"  HomeTimeline parse error: {e}")
+    return tweets, cursor
+
+
+def fetch_home_timeline() -> list:
+    """Fetch the reader's X home Following feed with engagement signals.
+
+    Degrades gracefully to [] on any auth/endpoint failure so it never breaks the
+    run. POST (HomeTimeline is a mutation-style op), unlike the GET Bookmarks.
+    """
+    if not HT_ENABLED:
+        print("  Home timeline disabled in config — skipping.")
+        return []
+    if not X_COOKIES.get("auth_token") or not X_COOKIES.get("ct0"):
+        print("  Home timeline: no auth_token/ct0 — skipping (not pretending it ran).")
+        return []
+    if not HT_QUERY_ID:
+        print("  Home timeline: no graphql_query_id in config — skipping.")
+        return []
+
+    features = dict(BM_FEATURES)
+    features.update(HT_EXTRA_FEATURES)
+    endpoint = f"https://x.com/i/api/graphql/{HT_QUERY_ID}/HomeTimeline"
+    all_tweets, cursor, seen_ids = [], "", set()
+    for page in range(HT_MAX_PAGES):
+        variables = {
+            "count": HT_COUNT,
+            "includePromotedContent": False,
+            "latestControlAvailable": True,
+            "requestContext": "launch",
+            "withCommunity": True,
+            "seenTweetIds": [],
+        }
+        if cursor:
+            variables["cursor"] = cursor
+        body = {"variables": variables, "features": features, "queryId": HT_QUERY_ID}
+        try:
+            r = requests.post(endpoint, headers=_bm_headers(), cookies=X_COOKIES,
+                              data=json.dumps(body), timeout=FETCH_TIMEOUT)
+        except Exception as e:
+            print(f"  Home timeline: request error on page {page+1}: {e}")
+            break
+        if r.status_code == 404:
+            print(f"  Home timeline: 404 — graphql_query_id '{HT_QUERY_ID}' is stale. "
+                  "Refresh it per the config 'note' field. Skipping.")
+            break
+        if r.status_code in (401, 403):
+            print(f"  Home timeline: {r.status_code} — X cookies expired. Re-auth. Skipping.")
+            break
+        if r.status_code != 200:
+            print(f"  Home timeline: HTTP {r.status_code} on page {page+1}: {r.text[:160]}")
+            break
+        try:
+            payload = r.json()
+        except Exception as e:
+            print(f"  Home timeline: bad JSON on page {page+1}: {e}")
+            break
+        page_tweets, cursor = _ht_parse_page(payload)
+        fresh = 0
+        for t in page_tweets:
+            if HT_SKIP_PROMOTED and t.get("is_promoted"):
+                continue
+            if t["tweet_id"] in seen_ids:
+                continue
+            seen_ids.add(t["tweet_id"])
+            all_tweets.append(t)
+            fresh += 1
+        print(f"  HomeTimeline page {page+1}: +{fresh} (total {len(all_tweets)})")
+        if not cursor or fresh == 0:
+            break
+        time.sleep(1.5)
+    return all_tweets
+
+
 # ── Scraping ────────────────────────────────────────────────────────────────────
 
 # Nitter powers the public scrape (own retweets + AI handles) only. Bookmarks come
@@ -961,6 +1121,29 @@ if bookmarks:
     seen_bm_ids = set(combined_bm[-2000:])
     SEEN_BM_PATH.write_text(json.dumps(sorted(seen_bm_ids), indent=2))
 
+# 3b. Home timeline (Following feed) for the social-media agent. Deduped by tweet
+#     id across runs so each run surfaces only newly-seen feed posts.
+print(f"\n[feed] X home timeline (Following)...")
+SEEN_HT_PATH = STATE_DIR / "seen_home_timeline.json"
+seen_ht_ids = set()
+if SEEN_HT_PATH.exists():
+    try:
+        seen_ht_ids = set(json.loads(SEEN_HT_PATH.read_text()))
+    except Exception:
+        seen_ht_ids = set()
+
+home_all = fetch_home_timeline()
+if HT_ONLY_NEW:
+    home_feed = [t for t in home_all if t["tweet_id"] not in seen_ht_ids]
+else:
+    home_feed = home_all
+print(f"  {len(home_all)} feed posts fetched | {len(home_feed)} new (unseen)")
+
+if home_feed:
+    combined_ht = list(seen_ht_ids) + [t["tweet_id"] for t in home_all if t.get("tweet_id")]
+    seen_ht_ids = set(combined_ht[-4000:])
+    SEEN_HT_PATH.write_text(json.dumps(sorted(seen_ht_ids), indent=2))
+
 # 4. Fetch article content
 print("\nFetching article content...")
 for t in own_curated:
@@ -973,6 +1156,20 @@ if BM_FETCH_LINKS:
         enrich(t)
 else:
     for t in bookmarks:
+        t["articles"] = []
+        t["image_paths"] = []
+# Enrich only the feed posts likely to matter (have a link OR real engagement),
+# so we don't burn fetches on 300 low-signal one-liners. Threshold is generous;
+# the synthesis does the real ranking.
+if HT_FETCH_LINKS:
+    for t in home_feed:
+        if t.get("urls") or (t.get("likes", 0) + t.get("retweets", 0) >= 10):
+            enrich(t)
+        else:
+            t["articles"] = []
+            t["image_paths"] = []
+else:
+    for t in home_feed:
         t["articles"] = []
         t["image_paths"] = []
 
@@ -1140,3 +1337,77 @@ bm_json = {
 }
 bm_json_path.write_text(json.dumps(bm_json, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"Wrote {bm_md_path} + sidecar ({len(bookmarks)} bookmarks, PRIVATE/gitignored)")
+
+# ── Home-feed sidecar (PRIVATE — gitignored) ────────────────────────────────────
+#
+# The reader's home Following feed with per-post engagement, for the social-media
+# agent's engagement-aware synthesis. PRIVATE (it's what the reader sees), so it
+# lives under gitignored raw/twitter/feed/ and never enters the public repo. The
+# JSON carries the raw engagement numbers; the synthesis converts them into
+# author-normalized signal, so nothing is pre-judged here.
+FEED_DIR = RAW_DIR / "feed"
+FEED_DIR.mkdir(parents=True, exist_ok=True)
+feed_json_path = FEED_DIR / f"{date_str}-{slot}.json"
+feed_md_path   = FEED_DIR / f"{date_str}-{slot}.md"
+
+feed_json = {
+    "date":        date_str,
+    "slot":        slot,
+    "scraped_ist": now_ist.strftime("%Y-%m-%d %H:%M"),
+    "private":     True,
+    "source":      "x_home_timeline_following",
+    "posts": [
+        {
+            "handle":     t["handle"],
+            "text":       t["text"],
+            "link":       t["link"],
+            "date_utc":   t["date"].isoformat() if t.get("date") else None,
+            "is_retweet": t.get("is_retweet_flag", False),
+            "engagement": {
+                "likes":     t.get("likes", 0),
+                "retweets":  t.get("retweets", 0),
+                "replies":   t.get("replies", 0),
+                "quotes":    t.get("quotes", 0),
+                "bookmarks": t.get("bookmarks_ct", 0),
+                "views":     t.get("views", 0),
+            },
+            "author_followers": t.get("author_followers", 0),
+            "author_verified":  t.get("author_verified", False),
+            "urls":       t.get("urls", []),
+            "image_urls": t.get("image_urls", []),
+            "articles":   [
+                {"url": a["url"], "content": a["content"]}
+                for a in t.get("articles", []) if a.get("url")
+            ],
+        }
+        for t in home_feed
+    ],
+}
+feed_json_path.write_text(json.dumps(feed_json, indent=2, ensure_ascii=False), encoding="utf-8")
+
+# Human-readable companion (engagement shown inline for quick scanning).
+fm = [
+    f"# X Home Feed (Following) | {date_str} | {slot.upper()}",
+    f"> {len(home_feed)} new posts | PRIVATE — gitignored, local only. "
+    "Engagement is raw here; the social-media synthesis ranks by author-normalized signal.",
+    "",
+    "---",
+    "",
+]
+for t in home_feed:
+    fol = f"{t.get('author_followers',0)//1000}k" if t.get('author_followers') else "?"
+    eng = (f"♥{t.get('likes',0)} ↻{t.get('retweets',0)} 💬{t.get('replies',0)} "
+           f"❝{t.get('quotes',0)} 👁{t.get('views',0)}")
+    rt = " [RT]" if t.get("is_retweet_flag") else ""
+    fm.append(f"**@{t['handle']}**{rt} · followers {fol} · {eng}")
+    fm.append(f"> {t['text'][:500]}")
+    if t.get("link"):
+        fm.append(f"[post]({t['link']})")
+    for a in t.get("articles", []):
+        if a.get("url"):
+            fm.append(f"**link:** {a['url']}")
+            if a.get("content"):
+                fm.append(a["content"][:1200])
+    fm += ["", "---", ""]
+feed_md_path.write_text("\n".join(fm), encoding="utf-8")
+print(f"Wrote {feed_md_path} + sidecar ({len(home_feed)} feed posts, PRIVATE/gitignored)")
