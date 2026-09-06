@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "max_pagination_pages": 2,
+  "count_per_page": 10,
+  "fetch_linked_articles": true,
+  "skip_sponsored": true,
+  "pacing_min_seconds": 3,
+  "pacing_max_seconds": 7,
+  "li_cookies_path": "~/.config/{{WIKI_NAME}}/linkedin-cookies.json",
+  "article_max_chars": 8000,
+  "note": "Reads the reader's LinkedIn home feed for the social-media agent. MILD by design (1 GET + up to 2 POSTs/day, human-paced) to avoid bot detection. LinkedIn moved the feed to RSC server-actions: the farmer GETs /feed/foryou for a FRESH pagination token + initial posts, then POSTs the pagination action for more. Extracts author + post-URL(topic slug) + text; drops sponsored. Engagement counts are NOT in the feed response (loaded per-post), so LinkedIn contributes content/author/topic, not engagement (that stays X-primary). PRIVATE: writes gitignored raw/linkedin/. Cookies (li_at + JSESSIONID) auto-read from the browser; falls back to li_cookies_path. Fragile by nature (RSC format changes) - fails safe with loud logs, never fakes."
+}

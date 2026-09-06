@@ -36,3 +36,7 @@ raw/twitter/bookmarks/
 # Bookmark dedup state = tweet IDs of private saves; resolvable back to the
 # tweets, so it leaks the list too. Keep local.
 connectors/twitter/.state/seen_bookmarks.json
+raw/twitter/feed/
+connectors/twitter/.state/seen_home_timeline.json
+raw/linkedin/
+raw/youtube/

@@ -77,6 +77,18 @@ python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || { \
   echo "[$TODAY $(date +%H:%M:%S)] Reddit farmer failed or skipped — continuing." >> "$LOG"; \
   notify "Reddit farmer failed ($TODAY)" "The Reddit farmer failed this morning. Check $LOG."; }
 
+# Social-media agent farmers (X home feed is captured by the Twitter farmer).
+# All best-effort: failure never blocks the digest.
+echo "[$TODAY $(date +%H:%M:%S)] Running YouTube farmer..." >> "$LOG"
+python3 "$REPO/connectors/youtube/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] YouTube farmer skipped — continuing." >> "$LOG"
+echo "[$TODAY $(date +%H:%M:%S)] Running LinkedIn farmer (mild)..." >> "$LOG"
+python3 "$REPO/connectors/linkedin/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] LinkedIn farmer skipped — continuing." >> "$LOG"
+echo "[$TODAY $(date +%H:%M:%S)] Ranking X feed..." >> "$LOG"
+python3 "$REPO/connectors/twitter/rank_feed.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Feed ranker skipped — continuing." >> "$LOG"
+
 # Optional: sync a sibling YouTube knowledge wiki's AI/tech folder into
 # raw/youtube-ai-tech/ so the Media Zone page picks up YouTube video
 # summaries on the next site deploy. Set YOUTUBE_KNOWLEDGE_WIKI_PATH to
