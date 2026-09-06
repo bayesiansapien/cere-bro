@@ -363,7 +363,24 @@ while True:
 # ── Download ───────────────────────────────────────────────────────────────────
 
 print(f"\nDownloading audio to {AUDIO_PATH}...")
-nlm("download", "audio", NOTEBOOK_ID, "--id", ARTIFACT_ID, "-o", str(AUDIO_PATH))
+# NotebookLM often reports the audio "complete" before its download URL has
+# finished propagating (returns 404 briefly). nlm has its own short internal
+# retry, but for the big weekly episodes it can exhaust before the file settles.
+# Wrap the download in an outer retry that backs off well past nlm's ceiling so
+# a slow propagation never fails the run and forces a manual re-generate.
+_dl_delays = [0, 30, 60, 90, 120, 180]  # seconds before each attempt
+for _i, _delay in enumerate(_dl_delays):
+    if _delay:
+        print(f"  download not ready yet — waiting {_delay}s before retry {_i}/{len(_dl_delays)-1}...")
+        time.sleep(_delay)
+    _r = run(["nlm", "download", "audio", NOTEBOOK_ID, "--id", ARTIFACT_ID,
+              "-o", str(AUDIO_PATH)], check=False)
+    if AUDIO_PATH.exists() and AUDIO_PATH.stat().st_size > 1024 * 1024:
+        break
+else:
+    print(f"ERROR: audio download never propagated after {len(_dl_delays)} attempts. "
+          f"The audio exists on NotebookLM; re-run `podcast.py {date_str} --force` shortly.")
+    sys.exit(1)
 print(f"  ✓ {AUDIO_PATH.stat().st_size // (1024 * 1024)} MB")
 
 # ── Write Substack note ───────────────────────────────────────────────────────
