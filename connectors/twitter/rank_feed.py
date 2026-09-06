@@ -29,7 +29,7 @@ Run:  python3 connectors/twitter/rank_feed.py [YYYY-MM-DD] [--slot night]
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 FEED_DIR = Path(__file__).resolve().parents[2] / "raw" / "twitter" / "feed"
@@ -138,22 +138,8 @@ def score_post(p):
     }
 
 
-def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    slot = None
-    if "--slot" in sys.argv:
-        slot = sys.argv[sys.argv.index("--slot") + 1]
-    if args:
-        date = args[0]
-        cands = sorted(FEED_DIR.glob(f"{date}-*.json"))
-        path = ([c for c in cands if slot and slot in c.name] or cands or [None])[-1]
-    else:
-        files = sorted(FEED_DIR.glob("*.json"))
-        path = files[-1] if files else None
-    if not path or not path.exists():
-        print("No feed file found in", FEED_DIR)
-        return 1
-
+def _rank_one(path: Path) -> int:
+    """Rank a single feed file → its <name>-ranked.json. Returns candidate count."""
     data = json.loads(path.read_text())
     posts = data.get("posts", [])
     scored = [score_post(p) for p in posts]
@@ -168,14 +154,33 @@ def main():
     out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False))
 
     print(f"Ranked {len(scored)} posts from {path.name}")
-    print(f"  candidates (surface): {len(candidates)} | long-tail (capture): {len(long_tail)}")
-    print(f"  dropped off-topic/grift: {sum(1 for s in scored if s['offtopic'])}")
-    print(f"  wrote {out_path.name}\n")
-    print("  TOP 12 CANDIDATES (score | tier | signals | text):")
-    for s in candidates[:12]:
-        e = s["eng"]
-        print(f"   {s['score']:5.1f} T{s['tier']} [{','.join(s['reasons'])[:38]:38}] "
-              f"@{s['handle'][:14]:14} {s['text'][:52]}")
+    print(f"  candidates (surface): {len(candidates)} | long-tail (capture): {len(long_tail)} "
+          f"| dropped off-topic/grift: {sum(1 for s in scored if s['offtopic'])}")
+    print(f"  wrote {out_path.name}")
+    return len(candidates)
+
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if args:
+        date = args[0]
+    else:
+        date = (datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)).strftime("%Y-%m-%d")
+    # Rank EVERY today feed file (each slot run + each feed-only capture), so the
+    # Media Zone synthesis can union all of the day's captures. Idempotent: a file
+    # is re-ranked if it changed, and its -ranked.json is (re)written each run.
+    feed_files = [p for p in sorted(FEED_DIR.glob(f"{date}-*.json"))
+                  if not p.stem.endswith("-ranked")]
+    if not feed_files:
+        print("No feed file found for", date, "in", FEED_DIR)
+        return 1
+    total_c = 0
+    for path in feed_files:
+        try:
+            total_c += _rank_one(path)
+        except Exception as e:
+            print(f"  rank error on {path.name}: {e}")
+    print(f"\nRanked {len(feed_files)} feed file(s) for {date} | {total_c} total candidates.")
     return 0
 
 

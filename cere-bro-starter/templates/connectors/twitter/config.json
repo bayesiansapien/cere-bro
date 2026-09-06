@@ -465,8 +465,8 @@
   },
   "home_timeline": {
     "enabled": true,
-    "max_pages": 3,
-    "count_per_page": 40,
+    "max_pages": 6,
+    "count_per_page": 50,
     "only_new": true,
     "fetch_linked_articles": true,
     "skip_promoted": true,

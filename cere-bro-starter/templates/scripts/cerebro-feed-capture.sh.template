@@ -1,0 +1,51 @@
+#!/bin/bash
+# cere-bro — lightweight X feed capture (no LLM).
+#
+# Runs the cheap data-collection half of the pipeline several times a day so the
+# X home feed is scanned comprehensively (every ~3h), NOT just once at 9 AM. It
+# captures + ranks and commits raw; it does NOT rebuild the Media Zone page (that
+# is the expensive LLM step, done by cerebro-mediazone-refresh.sh). Because the
+# Twitter farmer dedups against its seen-state, each run only adds NEW posts, so
+# the union across the day is a full scan of the feed with no re-surfacing.
+#
+# Scheduled via com.cerebro.feed-capture.plist at the gap hours (12:00, 18:00).
+# LinkedIn is intentionally NOT run here — it stays one mild pass/day in the
+# morning routine to avoid bot detection.
+
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH"
+
+REPO="{{REPO_PATH}}"
+LOG="$REPO/.claude/logs/feed-capture.log"
+TODAY=$(date +%Y-%m-%d)
+mkdir -p "$REPO/.claude/logs"
+cd "$REPO" || exit 1
+
+# Don't collide with a heavy Claude run (morning digest / MZ refresh). If the
+# shared heavy-Claude lock is held, still capture (it's cheap and independent) —
+# capture never touches the wiki, only raw/. So no lock needed; just run.
+
+git config http.lowSpeedLimit 1000 2>/dev/null || true
+git config http.lowSpeedTime 30 2>/dev/null || true
+
+echo "[$TODAY $(date +%H:%M:%S)] Feed capture starting..." >> "$LOG"
+
+# Twitter farmer: captures the X home feed (deduped), public scrape, + bookmarks.
+python3 "$REPO/connectors/twitter/farmer.py" --feed-only >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Twitter farmer failed — continuing." >> "$LOG"
+
+# YouTube RSS (cheap, no auth) so midday videos are available to the next rebuild.
+python3 "$REPO/connectors/youtube/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] YouTube farmer failed — continuing." >> "$LOG"
+
+# Rank the freshly-captured X feed (engagement-normalized, grift-filtered).
+python3 "$REPO/connectors/twitter/rank_feed.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Feed ranker failed — continuing." >> "$LOG"
+
+# Commit the PUBLIC raw scrape (the private feed/ + bookmarks/ folders are
+# gitignored and never staged). Keeps the repo's raw history current between
+# the heavier morning/afternoon/evening runs.
+git add raw/ >> "$LOG" 2>&1
+git diff --cached --quiet || git commit -m "raw: feed capture $TODAY $(date +%H:%M)" >> "$LOG" 2>&1
+git push origin main >> "$LOG" 2>&1 || true
+
+echo "[$TODAY $(date +%H:%M:%S)] Feed capture done." >> "$LOG"

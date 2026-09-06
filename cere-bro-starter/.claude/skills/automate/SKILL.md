@@ -183,6 +183,17 @@ For systemd-based Linux (if cron is not available), offer to generate a `.servic
 
 ---
 
+### Step 5b (optional): social-media agent cadence
+
+The daily job above rebuilds everything once a morning. If you want the **Media Zone** (the social feed) to stay current through the day, install the two extra agents that ship as templates. They are cheap-capture vs expensive-rebuild, split on purpose:
+
+- **`templates/scripts/cerebro-feed-capture.sh.template`** — captures the X home feed (`farmer.py --feed-only`, deduped so each run only adds new posts) + YouTube, then ranks. No LLM, so it can run often. Recommended schedule: the gap hours between your heavier runs (e.g. 12:00 and 18:00). Install via `templates/launchagents/com.cerebro.feed-capture.plist.template`.
+- **`templates/scripts/cerebro-mediazone-refresh.sh.template`** — the expensive step: captures fresh, then invokes Claude to rewrite ONLY today's Media Zone page (not the daily digest), commits, and pushes. Recommended: 2× a day (e.g. 15:30 + 21:00), with the morning job as the day's first rebuild = 3× total. It shares the morning job's mutex so two Claude calls never overlap. Install via `templates/launchagents/com.cerebro.mediazone-refresh.plist.template`.
+
+Because `--feed-only` writes a uniquely-named file per capture and the ranker ranks every one, the Media Zone synthesis unions all of the day's captures (deduped by tweet id) — the feed is scanned comprehensively, nothing is dropped. Fill the same `{{REPO_PATH}}`/`{{HOME}}`/`{{CLAUDE_BIN}}` placeholders, `chmod +x`, copy the plists to `~/Library/LaunchAgents/`, and `launchctl bootstrap gui/$(id -u) <plist>`. LinkedIn deliberately stays one mild pass/day (in the morning job) to avoid bot detection — do not add it to the frequent capture.
+
+---
+
 ### Step 6: Verify and confirm
 
 Run a dry-run check:

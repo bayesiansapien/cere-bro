@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cerebro.mediazone-refresh</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>{{HOME}}/.local/bin/cerebro-mediazone-refresh.sh</string>
+    </array>
+
+    <!-- Rebuild the Media Zone page 2× more per day (afternoon + evening); the
+         9 AM morning routine is the first of the three daily rebuilds.
+         15:30 (after the 15:00 farmer) and 21:00 local (IST). -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>15</integer>
+            <key>Minute</key>
+            <integer>30</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>21</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>{{REPO_PATH}}/.claude/logs/mediazone-refresh-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>{{REPO_PATH}}/.claude/logs/mediazone-refresh-stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/opt/homebrew/sbin:{{HOME}}/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>{{HOME}}</string>
+    </dict>
+</dict>
+</plist>
