@@ -1,0 +1,110 @@
+#!/bin/bash
+# cere-bro — Media Zone refresh (LLM synthesis).
+#
+# Rebuilds ONLY today's Media Zone page from the latest social captures, so the
+# readable feed refreshes through the day (afternoon + evening) instead of only
+# at 9 AM. The daily digest is NOT touched here — that stays a once-a-morning
+# artifact. Scheduled via com.cerebro.mediazone-refresh.plist at 15:30 and 21:00
+# (the 9 AM morning routine is the third, first rebuild of the day).
+#
+# Flow: capture the freshest X feed + YouTube -> re-rank -> Claude rewrites the
+# Media Zone -> Claude commits/pushes (site redeploys via CI). Shares the heavy-
+# Claude mutex with the morning routine so two expensive Claude calls never run
+# at once.
+
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH"
+
+REPO="{{REPO_PATH}}"
+CLAUDE="{{CLAUDE_BIN}}"
+LOG="$REPO/.claude/logs/mediazone-refresh.log"
+TODAY=$(date +%Y-%m-%d)
+MONTH=$(date +%Y-%m)
+MZ_PATH="$REPO/wiki/media-zone/$MONTH/$TODAY.md"
+mkdir -p "$REPO/.claude/logs"
+
+notify() {
+  python3 "$REPO/connectors/notify/notify.py" "$1" "$2" >> "$LOG" 2>&1 || true
+}
+
+cd "$REPO" || exit 1
+
+# Shared heavy-Claude mutex (same lock the morning routine uses) so we never run
+# two expensive Claude calls concurrently. Reclaim if the holder PID is dead.
+LOCKDIR="$REPO/.claude/logs/morning-routine.lock"
+if ! mkdir "$LOCKDIR" 2>/dev/null; then
+  HOLDER=$(cat "$LOCKDIR/pid" 2>/dev/null || echo "")
+  if [ -n "$HOLDER" ] && kill -0 "$HOLDER" 2>/dev/null; then
+    echo "[$TODAY $(date +%H:%M:%S)] A heavy Claude run holds the lock (PID $HOLDER) — skipping this refresh." >> "$LOG"
+    exit 0
+  fi
+  echo "[$TODAY $(date +%H:%M:%S)] Reclaiming stale lock (holder PID '$HOLDER' gone)." >> "$LOG"
+  rm -rf "$LOCKDIR"; mkdir "$LOCKDIR" 2>/dev/null || { echo "lock race — skipping" >> "$LOG"; exit 0; }
+fi
+echo "$$" > "$LOCKDIR/pid"
+trap 'rm -rf "$LOCKDIR"' EXIT INT TERM
+
+echo "[$TODAY $(date +%H:%M:%S)] Media Zone refresh starting..." >> "$LOG"
+
+git config http.lowSpeedLimit 1000 2>/dev/null || true
+git config http.lowSpeedTime 30 2>/dev/null || true
+git pull --rebase origin main >> "$LOG" 2>&1 || true
+
+# 1. Capture the freshest signal (cheap, deduped). LinkedIn is deliberately NOT
+#    re-run here — it stays one mild pass/day (morning) to avoid bot detection;
+#    today's morning LinkedIn raw is reused by the synthesis below.
+python3 "$REPO/connectors/twitter/farmer.py" --feed-only >> "$LOG" 2>&1 || echo "  twitter farmer failed — continuing." >> "$LOG"
+python3 "$REPO/connectors/youtube/farmer.py"    >> "$LOG" 2>&1 || echo "  youtube farmer failed — continuing." >> "$LOG"
+python3 "$REPO/connectors/twitter/rank_feed.py" >> "$LOG" 2>&1 || echo "  ranker failed — continuing." >> "$LOG"
+
+# 2. Claude rewrites ONLY the Media Zone from the latest captures.
+read -r -d '' PROMPT <<'EOF' || true
+You are refreshing ONLY today's Media Zone page for the cere-bro wiki. Today is __TODAY__.
+
+Do NOT touch the daily digest, concept pages, index, or log — this is a Media-Zone-only refresh that runs several times a day so the social feed stays current. Your single deliverable is a rewritten wiki/media-zone/__MONTH__/__TODAY__.md.
+
+Re-read the "Media Zone" section of CLAUDE.md in full (including the "Social-media agent — multi-source, engagement-aware" subsection) and follow it exactly. Then:
+
+1. Read the LATEST captures for today:
+   - X home feed: read ALL of today's ranked files raw/twitter/feed/__TODAY__-*-ranked.json (there are several — one per capture across the day; UNION their candidates[] and dedup by tweet_id, since each capture holds only its newly-seen posts). candidates[] are pre-scored by reach-NORMALIZED engagement + topic-tier with grift/off-topic filtered; long_tail[] is captured-not-foregrounded. Use the ranking as EVIDENCE, then apply your own skeptical, artifact-centric judgment. NEVER rank by raw likes.
+   - Bookmarks: raw/twitter/bookmarks/__TODAY__-*.json (guaranteed inclusion when present; read the enriched linked-article content and explain the idea).
+   - YouTube: raw/youtube/__TODAY__.json (filter to AI/tech by TITLE).
+   - LinkedIn: raw/linkedin/__TODAY__.json (content/author/topic; if empty AND the farmer logged a cookie/challenge issue, note LinkedIn was unavailable — do not fake).
+2. DEDUP across sources by underlying artifact (arxiv id / URL / video id / same claim); cross-source presence is a conviction boost, one card. Engagement as QUALITATIVE cue, never raw numbers.
+3. Rewrite the whole Media Zone file per the locked format: "Today's signal" pulse -> topic-clustered card feed (mz-feed/mz-card) in attention-tier order (routing/KV/compression/GPU first) -> "Also crossed your feeds" one-line tail so nothing is lost. Light-but-complete. No em-dashes.
+4. This is a same-day refresh: fold in anything NEW since the morning build; keep what still matters. The file should read as the current state of the day's feed, not an append log.
+5. Commit and push (git add wiki/media-zone/__MONTH__/__TODAY__.md, commit "media-zone: refresh __TODAY__ HH:MM", push origin main). The site redeploys via CI on push.
+
+Do not stop until the Media Zone file is rewritten, committed, and pushed.
+EOF
+PROMPT="${PROMPT//__TODAY__/$TODAY}"
+PROMPT="${PROMPT//__MONTH__/$MONTH}"
+
+TIMEOUT_BIN=$(command -v gtimeout || command -v timeout || true)
+BEFORE=$(stat -f '%m' "$MZ_PATH" 2>/dev/null || echo 0)
+
+ATTEMPT=0
+MAX_ATTEMPTS=2
+while [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ]; do
+  ATTEMPT=$((ATTEMPT + 1))
+  echo "[$TODAY $(date +%H:%M:%S)] Claude MZ-refresh attempt $ATTEMPT of $MAX_ATTEMPTS..." >> "$LOG"
+  if [ -n "$TIMEOUT_BIN" ]; then
+    "$TIMEOUT_BIN" 30m "$CLAUDE" --dangerously-skip-permissions -p "$PROMPT" >> "$LOG" 2>&1
+  else
+    "$CLAUDE" --dangerously-skip-permissions -p "$PROMPT" >> "$LOG" 2>&1
+  fi
+  AFTER=$(stat -f '%m' "$MZ_PATH" 2>/dev/null || echo 0)
+  # Success = the MZ file's mtime advanced (it was rewritten this run).
+  if [ "$AFTER" != "$BEFORE" ] && [ "$AFTER" != "0" ]; then
+    echo "[$TODAY $(date +%H:%M:%S)] Media Zone refreshed on attempt $ATTEMPT." >> "$LOG"
+    break
+  fi
+  [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ] && { echo "[$TODAY $(date +%H:%M:%S)] MZ unchanged — retrying in 30s." >> "$LOG"; sleep 30; }
+done
+
+AFTER=$(stat -f '%m' "$MZ_PATH" 2>/dev/null || echo 0)
+if [ "$AFTER" = "$BEFORE" ] || [ "$AFTER" = "0" ]; then
+  echo "[$TODAY $(date +%H:%M:%S)] WARNING: Media Zone was not refreshed after $MAX_ATTEMPTS attempts." >> "$LOG"
+  notify "Media Zone refresh failed ($TODAY)" "The Media Zone refresh Claude call did not rewrite $MZ_PATH. Morning build (if any) is still live. Check $LOG; likely Claude auth/rate limit."
+fi
+
+echo "[$TODAY $(date +%H:%M:%S)] Media Zone refresh done." >> "$LOG"

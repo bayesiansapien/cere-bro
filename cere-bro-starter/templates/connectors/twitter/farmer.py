@@ -205,6 +205,11 @@ NITTER_INSTANCES = [
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 FORCE = "--force" in sys.argv
+# --feed-only: capture ONLY the X home feed (Following) for the social-media
+# agent, bypassing the slot guard + the public/AI/bookmarks scrape. Used by the
+# frequent feed-capture / media-zone-refresh runs so the home feed is scanned
+# every ~3h without re-scraping the public timeline or clobbering slot files.
+FEED_ONLY = "--feed-only" in sys.argv
 
 # ── Timing ─────────────────────────────────────────────────────────────────────
 
@@ -217,7 +222,7 @@ out_path = RAW_DIR / f"{date_str}-{slot}.md"
 json_path = RAW_DIR / f"{date_str}-{slot}.json"
 cutoff   = now_utc - timedelta(hours=HOURS_BACK)
 
-if out_path.exists() and not FORCE:
+if out_path.exists() and not FORCE and not FEED_ONLY:
     print(f"Already ran today ({slot}): {out_path}. Use --force to re-run.")
     sys.exit(0)
 
@@ -1019,6 +1024,71 @@ except RuntimeError as e:
 #    we maintain a state file of seen repost links and capture anything new.
 STATE_DIR  = Path(__file__).parent / ".state"
 STATE_DIR.mkdir(exist_ok=True)
+
+# ── --feed-only fast path ───────────────────────────────────────────────────────
+# Capture ONLY the X home feed and exit, bypassing the public/AI/bookmarks scrape.
+# Writes a UNIQUELY-named per-run file ({date}-{slot}-{HHMMSS}.json) so frequent
+# captures never overwrite each other or the slot runs' files — the ranker ranks
+# every one, and the Media Zone synthesis unions them (deduped by tweet id), so
+# nothing captured across the day is lost. PRIVATE — gitignored.
+if FEED_ONLY:
+    print(f"Twitter farmer | {date_str} | FEED-ONLY capture ({slot})")
+    SEEN_HT_PATH = STATE_DIR / "seen_home_timeline.json"
+    seen_ht_ids = set()
+    if SEEN_HT_PATH.exists():
+        try:
+            seen_ht_ids = set(json.loads(SEEN_HT_PATH.read_text()))
+        except Exception:
+            seen_ht_ids = set()
+    home_all = fetch_home_timeline()
+    home_feed = [t for t in home_all if t["tweet_id"] not in seen_ht_ids] if HT_ONLY_NEW else home_all
+    print(f"  {len(home_all)} feed posts fetched | {len(home_feed)} new (unseen)")
+    if home_feed:
+        combined_ht = list(seen_ht_ids) + [t["tweet_id"] for t in home_all if t.get("tweet_id")]
+        seen_ht_ids = set(combined_ht[-4000:])
+        SEEN_HT_PATH.write_text(json.dumps(sorted(seen_ht_ids), indent=2))
+    # Enrich only feed posts likely to matter (link OR real engagement).
+    if HT_FETCH_LINKS:
+        for t in home_feed:
+            if t.get("urls") or (t.get("likes", 0) + t.get("retweets", 0) >= 10):
+                enrich(t)
+            else:
+                t["articles"] = []; t["image_paths"] = []
+    else:
+        for t in home_feed:
+            t["articles"] = []; t["image_paths"] = []
+    FEED_DIR = RAW_DIR / "feed"
+    FEED_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = now_ist.strftime("%H%M%S")
+    fo_json = FEED_DIR / f"{date_str}-{slot}-{stamp}.json"
+    payload = {
+        "date": date_str, "slot": slot, "captured_ist": now_ist.strftime("%Y-%m-%d %H:%M"),
+        "private": True, "source": "x_home_timeline_following", "mode": "feed-only",
+        "posts": [
+            {
+                "tweet_id": t.get("tweet_id"),
+                "handle": t["handle"], "text": t["text"], "link": t["link"],
+                "date_utc": t["date"].isoformat() if t.get("date") else None,
+                "is_retweet": t.get("is_retweet_flag", False),
+                "engagement": {
+                    "likes": t.get("likes", 0), "retweets": t.get("retweets", 0),
+                    "replies": t.get("replies", 0), "quotes": t.get("quotes", 0),
+                    "bookmarks": t.get("bookmarks_ct", 0), "views": t.get("views", 0),
+                },
+                "author_followers": t.get("author_followers", 0),
+                "author_verified": t.get("author_verified", False),
+                "urls": t.get("urls", []), "image_urls": t.get("image_urls", []),
+                "articles": [{"url": a["url"], "content": a["content"]}
+                             for a in t.get("articles", []) if a.get("url")],
+            }
+            for t in home_feed
+        ],
+    }
+    fo_json.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Wrote {fo_json.name} ({len(home_feed)} feed posts, PRIVATE/gitignored, FEED-ONLY)")
+    sys.exit(0)
+
+# 1. Own handle — retweets/quotes as curated signal.
 SEEN_PATH  = STATE_DIR / "seen_reposts.json"
 seen_links = set()
 if SEEN_PATH.exists():
