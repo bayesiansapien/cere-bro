@@ -471,6 +471,8 @@
     "fetch_linked_articles": true,
     "skip_promoted": true,
     "graphql_query_id": "wp06oo3fRGU4P1sK8rECqQ",
-    "note": "Your X home Following feed, captured for the social-media agent (engagement-aware Media Zone synthesis). PRIVATE: written to gitignored raw/twitter/feed/. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates on new X web builds: if HomeTimeline fetches 404, refresh it — open x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from the request URL (.../graphql/<THIS_PART>/HomeTimeline)."
+    "note": "Your X home Following feed, captured for the social-media agent (engagement-aware Media Zone synthesis). PRIVATE: written to gitignored raw/twitter/feed/. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates on new X web builds: if HomeTimeline fetches 404, refresh it — open x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from the request URL (.../graphql/<THIS_PART>/HomeTimeline).",
+    "max_pages_cap": 20,
+    "catchup_hours_cap": 24
   }
 }

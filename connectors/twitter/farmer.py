@@ -16,6 +16,7 @@ Force:      python3 connectors/twitter/farmer.py --force
 import os
 import sys
 import json
+import math
 import re
 import time
 import requests
@@ -80,6 +81,12 @@ HT_ONLY_NEW       = HT_CFG.get("only_new", True)
 HT_FETCH_LINKS    = HT_CFG.get("fetch_linked_articles", True)
 HT_SKIP_PROMOTED  = HT_CFG.get("skip_promoted", True)
 HT_QUERY_ID       = HT_CFG.get("graphql_query_id", "")
+# Catch-up: when the machine has been asleep/off, one wake-run must scan deeper to
+# cover the gap. Scale pages by hours since the last capture, up to a hard cap so a
+# long outage never triggers an unbounded backfill (we take the most recent
+# ~catchup_hours_cap worth and log that older feed was intentionally skipped).
+HT_MAX_PAGES_CAP  = HT_CFG.get("max_pages_cap", 20)      # ≈1000 posts ≈ a full day of feed
+HT_CATCHUP_HRS    = HT_CFG.get("catchup_hours_cap", 24)  # never backfill more than this
 
 def _cookies_from_browser(timeout: int = 20) -> dict:
     """Read X session cookies (auth_token, ct0, ...) from the local browser store
@@ -962,11 +969,39 @@ def fetch_home_timeline() -> list:
         print("  Home timeline: no graphql_query_id in config — skipping.")
         return []
 
+    # ── Catch-up: scale scan depth to the gap since the last capture ────────────
+    # Normal cadence is ~every 3h → base depth. If the Mac was asleep/off, one
+    # wake-run sees a large gap and pages deeper to cover it, capped at
+    # HT_MAX_PAGES_CAP (≈ HT_CATCHUP_HRS of feed) so a multi-day outage never
+    # backfills unbounded — we take the most recent day and log the rest skipped.
+    _last_path = STATE_DIR / "home_feed_last_capture.json"
+    gap_hours = None
+    if _last_path.exists():
+        try:
+            _last = datetime.fromisoformat(json.loads(_last_path.read_text())["ts"])
+            gap_hours = (now_utc - _last).total_seconds() / 3600.0
+        except Exception:
+            gap_hours = None
+    eff_pages = HT_MAX_PAGES
+    if gap_hours is not None and gap_hours > 3:
+        # +2 pages per extra 3h block beyond the normal cadence, capped.
+        capped_gap = min(gap_hours, HT_CATCHUP_HRS)
+        eff_pages = min(HT_MAX_PAGES + 2 * math.ceil((capped_gap - 3) / 3), HT_MAX_PAGES_CAP)
+        if gap_hours > HT_CATCHUP_HRS:
+            print(f"  Home timeline: last capture {gap_hours:.0f}h ago (> {HT_CATCHUP_HRS}h cap). "
+                  f"Catching up the most recent ~{HT_CATCHUP_HRS}h ({eff_pages} pages); older feed skipped.")
+        else:
+            print(f"  Home timeline: last capture {gap_hours:.0f}h ago — catching up with {eff_pages} pages "
+                  f"(base {HT_MAX_PAGES}).")
+    else:
+        print(f"  Home timeline: scanning {eff_pages} pages "
+              f"({'first run' if gap_hours is None else f'{gap_hours:.1f}h since last'}).")
+
     features = dict(BM_FEATURES)
     features.update(HT_EXTRA_FEATURES)
     endpoint = f"https://x.com/i/api/graphql/{HT_QUERY_ID}/HomeTimeline"
     all_tweets, cursor, seen_ids = [], "", set()
-    for page in range(HT_MAX_PAGES):
+    for page in range(eff_pages):
         variables = {
             "count": HT_COUNT,
             "includePromotedContent": False,
@@ -1013,6 +1048,11 @@ def fetch_home_timeline() -> list:
         if not cursor or fresh == 0:
             break
         time.sleep(1.5)
+    # Stamp the capture time so the next run can size its catch-up to the gap.
+    try:
+        _last_path.write_text(json.dumps({"ts": now_utc.isoformat()}))
+    except Exception:
+        pass
     return all_tweets
 
 

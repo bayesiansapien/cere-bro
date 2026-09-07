@@ -970,6 +970,8 @@
     "fetch_linked_articles": true,
     "skip_promoted": true,
     "graphql_query_id": "wp06oo3fRGU4P1sK8rECqQ",
-    "note": "The reader's X home Following feed, captured for the social-media agent (engagement-aware synthesis). PRIVATE: written to gitignored raw/twitter/feed/. graphql_query_id rotates on new X web builds; if HomeTimeline fetches 404, refresh: x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from .../graphql/<THIS>/HomeTimeline. Auth via x-cookies.json (auth_token + ct0)."
+    "note": "The reader's X home Following feed, captured for the social-media agent (engagement-aware synthesis). PRIVATE: written to gitignored raw/twitter/feed/. graphql_query_id rotates on new X web builds; if HomeTimeline fetches 404, refresh: x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from .../graphql/<THIS>/HomeTimeline. Auth via x-cookies.json (auth_token + ct0).",
+    "max_pages_cap": 20,
+    "catchup_hours_cap": 24
   }
 }
