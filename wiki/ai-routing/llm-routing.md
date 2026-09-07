@@ -2,6 +2,33 @@
 
 Routing in LLM systems means deciding which model (or no model) should handle a given query — with the goal of minimizing cost while meeting quality requirements.
 
+## 2026-09-07: the mid-session switch gets measured, and the answer is that the context policy has to flip with the direction
+
+**[The Handoff Tax (09-07)](2026-09-07-handoff-tax-model-switching.md)**, from AWS Agentic AI, is the largest routing measurement this page holds: **58,000 agent runs, 2 million API calls, 36 billion tokens on SWE-bench Verified**, across Claude (Haiku to Opus) and GPT families. It measures the thing everybody does and nobody prices, which is switching models in the middle of a running agent.
+
+**Escalation, the default move, is close to the worst available.** Passing the full chat history when you go from the cheap model to the frontier model recovers **less than half the quality gap**: 47% for Claude, 36% for GPT. For Claude it **costs more than twice what starting on the expensive model from scratch would have cost**. And the sunk-cost intuition is backwards: even after paying for the cheap model's work, **abandoning the run and restarting fresh on the expensive model is both cheaper and more accurate than continuing.**
+
+**The design rule is the finding, and it is that the optimal interface reverses with direction.**
+
+| Direction | What to pass | Result |
+|---|---|---|
+| Escalate (cheap to frontier) | **Drop the trajectory**, keep only code edits on disk | Recovery 47% to **64%** (Claude), 36% to **84%** (GPT) |
+| Downshift (frontier to cheap) | **Keep the trajectory** as a blueprint | Claude keeps ~80% of the cheap model's cost advantage with solid quality gain; deleting it costs **1.6 to 2x more steps** |
+
+In one line: **strong-model trajectories guide weak receivers; weak-model trajectories burden strong receivers. Context is not universally good, it is directional.** The escalation cost compounds rather than adds, because the inherited context makes every remaining frontier step **1.6 to 2.2x** more expensive at premium input rates.
+
+**This closes the wiki's most concrete unpriced item and makes it bigger than expected.** The [KV cache](../inference-efficiency/kv-cache.md) page recorded on 08-29 that provider cache entries are keyed to a model, so a mid-session route pays a full cold prefill on the accumulated history, and on the 140K-token median agentic prefix that plausibly exceeds the per-token saving the route was chosen for. **The prefill was only one of three terms.** There is also a quality penalty and a per-step inflation multiplier, and neither was in this page's model.
+
+**It puts [cross-model KV sharing (09-02)](../inference-efficiency/2026-09-02-cross-model-kv-sharing.md) in an awkward position, and the reconciliation is the sharpest carry-off from both.** That translation layer converts one model's KV state into a form another model can consume, and this wiki called it the first mechanism to *remove* the switch penalty rather than price it. The Handoff Tax says the dominant penalty is not transport, it is that **carrying the weak model's reasoning into the strong model is what does the damage.** So the mechanism that makes trajectory transport cheap is optimizing the direction in which you should be throwing the trajectory away. Not a contradiction, a directional split: **portable KV state is worth a lot on downshift and worth little or negative on escalation.** Neither paper cites the other.
+
+**It also adds a third requirement to this page's standing per-step-router gap.** Since 08-06 the missing piece here has been a router at per-step rather than per-query granularity, and the framing has been that it needs two things: a cheap switch (candidate mechanism: portable KV state, 09-02) and a schedule saying when to switch (candidate: [TCR (09-04)](2026-09-04-tcr-temporal-context-routing.md)'s demonstration that a plan's timeline can be compiled into a routing schedule up front). **The third requirement is a switch-direction-dependent context policy.** A per-step router that switches cheaply on a good schedule and passes full history every time still pays this tax on every escalation.
+
+**Industry shipped the enforcement half the same weekend, and its finding is about mechanism not policy.** Spotify's engineering team reports cutting Claude Code token usage **90%** with a two-model routing layer called Portal: two cheaper assistant models handle file opening, boilerplate and repetitive code, the frontier model touches only novel reasoning, and **files over 350 lines are hard-blocked** from the expensive model rather than discouraged. Their stated lesson is that they tried rules-as-instructions first and it did not hold, because both engineers and the model routed around soft guidance. **This page has catalogued routing policies for five months and has almost nothing on routing enforcement.** Spotify's claim is that at production scale the policy is the easy part.
+
+**A practitioner counterweight worth recording, because it is the honest version of the routing pitch.** An X article circulating the same day, "LLM Routing Can Cost More Than Not Routing," argues that the canonical setup (a classifier reads the request, cheap model handles easy ones, frontier handles the rest) is exactly the version that breaks in production. Together with the Handoff Tax the message is consistent: **the naive per-query classifier router is the configuration with the worst evidence behind it, and the two configurations with real numbers are hard architectural blocks and planned downshift.**
+
+---
+
 ## 2026-09-04: the routing key becomes *when*, and this page's taxonomy gains a coordinate
 
 **[TCR (09-04)](2026-09-04-tcr-temporal-context-routing.md)** (arxiv 2609.02367, PKU with Qwen Applications, HKUST, CUHK, SJTU) is filed here for the routed object, not the application. Its domain is script-driven audio-video generation, where joint generators keep audio and video synchronized **with each other** while both drift off the script's stated timeline. The diagnosis is exact: the timing written in a structured prompt exists only in the prompt's **text** representation, which is not aligned to either modality's temporal coordinates, so the failure is invisible to every audio-visual synchronization metric. **Temporal Context Routing** maps script timing onto the shared temporal axis the generator already uses, then routes each prompt's guidance to the matching positions in both modalities. **Shot Boundary MAE falls 96%, from 1.11s to 0.042s. Dialogue Accuracy at 0.5s tolerance rises from 28.3% to 84.1%.** Quality and audio-visual sync stay comparable, and a user study prefers it on all five dimensions.
