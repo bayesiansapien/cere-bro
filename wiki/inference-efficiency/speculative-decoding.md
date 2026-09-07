@@ -2,7 +2,27 @@
 
 A class of lossless acceleration techniques: a cheap "draft" produces candidate tokens (or blocks), an expensive "target" verifies them via exact rejection sampling, and the verified prefix is committed. The target's output distribution is preserved — quality is unchanged.
 
-## Current State (as of 2026-08-03)
+## Current State (as of 2026-09-07): two groups delete the draft model on the same day, and one of them says the speedup survives large batch
+
+**This page has spent the year on how to make drafters cheaper. Today two independent results say the drafter is optional, and they get there by opposite routes.**
+
+**[Uno (09-07)](2026-09-07-uno-discrete-diffusion-lossless-speedup.md)** (arxiv 2609.04010, Institute of Foundation Models with UIUC, Cornell Tech, Harvard and Cerebras) splits the parameters in two. The **autoregressive weights define the model's distribution** and train under ordinary next-token prediction. A **lightweight set of diffusion weights, added by a short distillation phase**, draws several tokens in parallel *from that same autoregressive distribution*. Because the object being sampled is the autoregressive distribution itself, the speedup is **lossless without a verification pass**, and an existing open-weight model can be upgraded rather than retrained. Reported: **beats leading speculative-decoding methods at every evaluated batch size including the largest the device supports, up to 3x over the base model**, with the 8B Uno outperforming the 26B DiffusionGemma and the proprietary Mercury 2 on agentic tool use, coding and long-context reasoning.
+
+**[Don't Drop Dropout (09-07)](2026-09-07-dont-drop-dropout-layer-sparsity.md)** (arxiv 2609.05275) arrives at self-speculative decoding from the training side. Pre-training with layer dropout on a tuned schedule produces a model that is robust to having layers removed, so **the model's own shallow prefix becomes the drafter** with no separate network at all. It reports **up to 1.5x inference speedup at negligible accuracy loss** from early exit, intermediate-layer skipping and self-speculative decoding combined, alongside up to 25% fewer training FLOPs.
+
+**The batch-size claim is the one that should change how this page reads its own numbers.** Every acceleration result recorded below is quoted at low batch, where the accelerator has idle capacity and free parallelism exists. Production agentic serving runs at whatever batch the memory allows, and that is exactly where speculative decoding's advantage gets eaten by verification contention. Uno claiming a win **at the largest batch the device supports** is the first entry here to assert that its speedup survives the regime that matters, and it is the claim a follow-up should attack first.
+
+**Two distinctions worth holding, because "lossless" now means two different things on this page.** A speculative decoder is lossless *because it checks*: exact rejection sampling verifies every draft token at runtime. Uno is lossless *because it was trained to be*: the diffusion sampler is trained to draw from the autoregressive distribution, and nothing at runtime confirms that it did. Those are different reliability guarantees, and they come apart precisely under distribution shift, which is where a serving system is least able to notice.
+
+**Against [DraftExpert (08-03)](2026-08-03-draftexpert-moe-self-speculative-decoding.md), Uno sharpens rather than contradicts.** DraftExpert's durable structural claim was that once MoE weights are paged, **speculation and memory prefetch are the same computation**, because a drafter trained to agree with the target's router is a prefetch oracle you were already paying for. That argument requires a drafter with a router opinion. **Uno has none, so on a paged on-device MoE it supplies parallelism without supplying a prefetch signal**, and whether that is a net loss on memory-constrained hardware is untested and is the obvious composition experiment.
+
+**The two of today's results are themselves composable and nobody has said so.** Layer-dropout pre-training and an Uno diffusion sampler operate on different axes (depth and sequence position), so an autoregressive model pre-trained for depth robustness and then upgraded with parallel diffusion sampling has two orthogonal parallelism sources. **Cerebras authors appear on both papers**, which makes the non-composition slightly more conspicuous rather than less.
+
+**Practitioner context, same day.** An interactive NeurIPS Education Track tutorial on speculative decoding ("how it evolved, when it stays lossless, and what's next") circulated as the day's highest-scoring inference item on the reader's X feed, framing the technique as running under nearly every hosted LLM. That is the adoption baseline both of today's results are trying to displace.
+
+---
+
+## Prior State (as of 2026-08-03)
 
 **The first number from the regime where the weights do not fit, and it is much smaller than the datacenter numbers below.** [DraftExpert (08-03)](2026-08-03-draftexpert-moe-self-speculative-decoding.md) (2607.24434, Kurate cs.LG #20) targets end-device MoE inference where routed expert weights exceed accelerator memory and are staged on demand from CPU RAM to a GPU or from Flash to a mobile NPU. Under that constraint the two assumptions this page has always relied on both break. **Growing the draft expert set improves accuracy but triggers extra expert loading**, so a better drafter is a slower one. And **verifying a k-token block activates the union of the experts those k tokens route to**, so verification is no longer close to one target step. The paper calls the second effect *expansion* and builds around bounding it.
 
