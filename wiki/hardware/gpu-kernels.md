@@ -2,6 +2,30 @@
 
 How AI computations are mapped to the specific instruction sets and memory hierarchies of GPU and accelerator hardware. Kernel optimization determines how efficiently a model actually runs — the gap between theoretical peak FLOPS and real throughput.
 
+## 2026-09-07: the fifth result varies autonomy itself, and it is the first one that could answer the question the other four assumed
+
+**[MaxKernel (09-07)](2026-09-07-maxkernel-agentic-tpu-kernels.md)** (arxiv 2609.04523, Google with one DeepMind author, [open-sourced](https://github.com/AI-Hypercomputer/accelerator-agents/tree/main/MaxKernel)) builds **three operating points over one shared sub-agent pool**: a human-in-the-loop agent for step-by-step design, a fully autonomous metric-and-trace-driven optimization loop, and a graph-based autonomous search that scales the autonomous agent into global exploration of the design space. Underneath all three sit the same specialists for planning, implementation, self-debugging, testing and hardware profiling. Evaluated on **JaxBench, 50 diverse TPU kernel tasks in JAX/Pallas**, plus real workloads from state-of-the-art open models, it reports matching expert hand-tuned baselines.
+
+| Result | What it varied | Headline |
+|---|---|---|
+| [AccelOpt (04-20)](../inference-efficiency/2026-04-20-accelopt-gpu-kernel-optimization.md) | The cost of the agent | Trainium peak-throughput utilization 49% to 61%, matching Claude Sonnet 4 at 26x lower cost |
+| [JAXBench (08-03)](2026-08-03-jaxbench-tpu-kernel-optimization.md) | The context | Curated TPU docs took Gemini 3 Flash from 5.8% to 37.3% per-sample correctness |
+| [Jalapeño (08-26)](2026-08-26-openai-jalapeno-inference-asic.md) | The target | Three models up on a brand-new ISA in three months, Codex writing MLA kernels unaided |
+| [Beyond Scaling (08-31)](2026-08-31-self-evolving-kernel-optimization-agents.md) | Cross-task memory | An experience graph over past attempts beats more rollouts |
+| **MaxKernel (09-07)** | **Autonomy level, pool held fixed** | **Three operating points, one sub-agent pool, matching hand-tuned baselines on 50 TPU tasks** |
+
+**Why the fifth axis is the one the page needed.** Each of the first four argues that its chosen degree of automation is right. MaxKernel is the first setup in which "how much autonomy does kernel optimization actually want" is answerable rather than assumed, because the machinery underneath is held constant across the three modes. **The disappointment is that the paper does not appear to publish the answer**: three paradigms are presented as complements with no stated decision rule between them, which is the single finding the design was uniquely positioned to produce.
+
+**It is also the second system evaluated on JaxBench, which this page needed for a different reason.** When JAXBench arrived on 08-03 this page read its 6.4x correctness jump as **a retrieval result, not a capability result**: curated documentation, not a better agent. A second entrant turns the benchmark from a single-paper artifact into a comparison point. The caveat is exactly the variable JAXBench identified as decisive: **MaxKernel is Google, on Google's accelerator, in Google's kernel DSL, with Google's profiler access**, which is the maximal-documentation condition.
+
+**The open-sourcing is the item with the largest downstream consequence, and it cuts against a moat argument tracked on [compute economics](compute-economics.md).** That thread has treated the CUDA software ecosystem as the durable part of NVIDIA's position, on the reasoning that alternative accelerators lose on kernel availability rather than on silicon. **Four of the five results in the table are on non-NVIDIA targets**: Trainium, TPU, TPU, and a brand-new inference ASIC. If an openly available agentic system produces hand-tuned-quality Pallas kernels on demand, the cost of standing up a competitive kernel library on a new accelerator falls from a multi-year staffing problem to a compute bill. **That is now five consecutive kernel-agent results and the trend line is one-directional.**
+
+**One number the abstract does not give.** For a performance paper, "matches expert hand-tuned baselines and delivers significant performance" with no figure in the abstract is a conspicuous omission, and no agent cost is reported, which is the axis AccelOpt made central and which decides whether graph-based global search is affordable outside Google.
+
+**Adjacent practitioner signal the same day.** Hugging Face published that it shipped **207 WebGPU kernels for browser AI**, which is the same kernel-availability problem at the opposite end of the hardware range: the browser is the newest accelerator target with the emptiest kernel library, and the response there was a bulk human effort rather than an agent. **Whether the next 200 WebGPU kernels are written by a MaxKernel-shaped system is a clean falsifiable test of the argument above.**
+
+---
+
 ## 2026-08-31: the fourth kernel-agent result varies memory, which is the axis that reprices the moat
 
 **This page has recorded three kernel-agent results and each varied a different thing. [Beyond Scaling (08-31)](2026-08-31-self-evolving-kernel-optimization-agents.md) (Kurate cs.LG #4) varies the one none of them touched: what survives between runs.**
