@@ -43,6 +43,7 @@ connectors/twitter/.state/seen_bookmarks.json
 raw/twitter/feed/
 # Feed dedup state = tweet IDs the reader has seen; keep local.
 connectors/twitter/.state/seen_home_timeline.json
+connectors/twitter/.state/home_feed_last_capture.json
 # Private LinkedIn home feed (social-media agent). Read locally by the synthesis;
 # never committed (public repo).
 raw/linkedin/

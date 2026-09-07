@@ -38,5 +38,6 @@ raw/twitter/bookmarks/
 connectors/twitter/.state/seen_bookmarks.json
 raw/twitter/feed/
 connectors/twitter/.state/seen_home_timeline.json
+connectors/twitter/.state/home_feed_last_capture.json
 raw/linkedin/
 raw/youtube/
