@@ -6,6 +6,20 @@ The one-line state of knowledge as of 2026-08-14: **compute has moved from a cap
 
 ---
 
+## 2026-09-08: Anthropic's $517B and the cost-per-token reason to be on TPUs
+
+**Two items today, and read together they answer a question this page raised on 09-04.** That entry recorded that Anthropic's IPO investors are asking for **revenue per gigawatt of compute and margin per processed token**, which this page flagged as the first time the memory wall showed up as a disclosure request.
+
+**The commitment.** The Decoder reports Anthropic has signed [compute contracts worth up to **$517 billion in eleven months**](https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/), still behind OpenAI's roughly **$750 billion** plan through 2030. The framing is the interesting part: in early 2026 Dario Amodei publicly warned against investing too fast, and Anthropic is now racing to catch up, while Sam Altman warns about "unsustainable silliness" in the buildout, particularly from neo-cloud providers. **Both CEOs are now on record calling the buildout excessive while participating in it, which is the clearest statement yet that these commitments are defensive rather than demand-driven.**
+
+**The unit economics that make it coherent.** [TPU inference externalization (09-08)](../hardware/2026-09-08-tpu-ironwood-inference-externalization.md) gives the first third-party TPU inference numbers: **TPUv7 Ironwood at $0.181 per million tokens against $0.222 for B200 and $0.276 for B300** on apples-to-apples FP8 aggregated serving, a 19% and 34% cost advantage, reaching **50.4% and 96.0% more tokens per dollar** at concurrency 256 (76.7% and 130.2% on Google's internal $1.03/chip-hour TCO). SemiAnalysis notes **Anthropic is the largest TPU user and is projected to surpass DeepMind's own usage by 2029**, with over a million TPUs committed, roughly 400k purchased outright plus 600k rented through GCP. **A 19-34% cost-per-token advantage on the majority of your fleet is how you answer an investor asking for margin per processed token, and it is a strategic reason to be on TPUs that has nothing to do with GPU supply constraints.**
+
+**The caveats matter for anyone using these numbers.** The advantage is TCO-driven, not performance-driven: TPU loses across most of the raw-performance curve, the concurrency-256 datapoint carries a **5.41s TTFT against B300's 2.40s**, **GB200/GB300 NVL72 still leads in disagg-vs-disagg** because the external TPU stack has no optimized disaggregation path yet, and **Ironwood has no native FP4** so NVIDIA leads there outright. Also, SemiAnalysis is not a neutral party: it benchmarks from its own fork, thanks the Google team by name, and sells the TCO model the dollar figures depend on.
+
+**One more compute-cost datapoint, from inside a lab.** AI Breakfast reports OpenAI's own research-acceleration disclosure: by mid-August **the median OpenAI researcher was burning more than $600 a day in inference and the 90th percentile more than $7,000**, with the org deploying **3.1 agent-workdays per human workday**, having passed human labor in June. The detail worth keeping is the elasticity one: after the July 20 security incident, **Astra-class GPU allocation dropped 59.2% the following week while allocation to other models rose 17.2%, offsetting roughly 85% of the cut.** The safety brake was pulled and the compute moved next door. **That is a measurement of how fungible frontier compute actually is inside a lab, and it is the first number this page has on that question.**
+
+---
+
 ## 2026-08-31: the counterparty bill for a scarcity market, and a metering rung nobody can audit
 
 **This page has recorded, approvingly, a market moving from capacity to scarcity: Nebius clearing Blackwell-generation capacity 15% above its previous record price, contract durations collapsing, neolabs priced out, buyers pushed toward more vendors on shorter commitments. [SemiAnalysis on neocloud security (08-31)](2026-08-31-semianalysis-neocloud-security.md) prices that on a dimension the page has not carried at all.**
