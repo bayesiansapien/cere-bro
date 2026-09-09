@@ -2194,10 +2194,18 @@
         "arxiv_id": "2604.27297v1",
         "title": "Machine Collective Intelligence for Explainable Scientific Discovery",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.02093v1",
+        "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W19",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W37"
   },
   "Martiño Ríos-García": {
     "appearances": [
@@ -26952,6 +26960,272 @@
         "arxiv_id": "2609.04910v1",
         "title": "Fast Gauss Sums via Flash Attention",
         "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Maria Mahbub": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.05289v1",
+        "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ashley Rice": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.05289v1",
+        "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Michael R. Munroe": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.05289v1",
+        "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Amidu Kamara": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.05289v1",
+        "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Amir Sadovnik": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.05289v1",
+        "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Alexander Neubauer": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.05314v1",
+        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Tianzhen Hong": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.05314v1",
+        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Han Li": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.05314v1",
+        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Mengbo Yu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.05314v1",
+        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Amin Darbandi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.05314v1",
+        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yannick Fürst": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.05314v1",
+        "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Daan R. Henselmans": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.05088v1",
+        "title": "Measuring AI Accountability Through Argumentation Analysis: Can Model Reasoning Withstand Scrutiny?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Derck W. E. Prinzhorn": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.05088v1",
+        "title": "Measuring AI Accountability Through Argumentation Analysis: Can Model Reasoning Withstand Scrutiny?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Arno Libert": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.05088v1",
+        "title": "Measuring AI Accountability Through Argumentation Analysis: Can Model Reasoning Withstand Scrutiny?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Matthieu Queloz": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.04962v1",
+        "title": "Why We Care About Understanding: Competence through Predictive Compression",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Pierre Beckmann": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.04962v1",
+        "title": "Why We Care About Understanding: Competence through Predictive Compression",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Seungyoon Choi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.02093v1",
+        "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Hyunchul Kim": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.02093v1",
+        "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jae-Gil Lee": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.02093v1",
+        "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W37",
