@@ -27230,5 +27230,607 @@
     ],
     "first_seen": "2026-W37",
     "last_seen": "2026-W37"
+  },
+  "Runsong Jia": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.08267v1",
+        "title": "Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Zhen Fang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.08267v1",
+        "title": "Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Mengjia Wu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.08267v1",
+        "title": "Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jie Lu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.08267v1",
+        "title": "Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yi Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.08267v1",
+        "title": "Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Wilmer Leal": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.09056v1",
+        "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Benjamin Merlin Bumpus": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.09056v1",
+        "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jana K. Nickel": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.09056v1",
+        "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Johan García": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.09056v1",
+        "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "James Fairbanks": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.09056v1",
+        "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Warren Dixon": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.09056v1",
+        "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Muchen Li": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.09728v1",
+        "title": "EEGBind: Detecting Source-Level Interictal Epileptiform Discharges via EEG-Centric Multimodal Binding",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Anglin Liu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.09728v1",
+        "title": "EEGBind: Detecting Source-Level Interictal Epileptiform Discharges via EEG-Centric Multimodal Binding",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Xuetian Gao": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.09728v1",
+        "title": "EEGBind: Detecting Source-Level Interictal Epileptiform Discharges via EEG-Centric Multimodal Binding",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ruijian Xu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.09728v1",
+        "title": "EEGBind: Detecting Source-Level Interictal Epileptiform Discharges via EEG-Centric Multimodal Binding",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jintai Chen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.09728v1",
+        "title": "EEGBind: Detecting Source-Level Interictal Epileptiform Discharges via EEG-Centric Multimodal Binding",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Quang-Duy Tran": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.08354v1",
+        "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Trung Le": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.08354v1",
+        "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Bao Duong": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.08354v1",
+        "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Phuoc Nguyen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.08354v1",
+        "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Thin Nguyen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.08354v1",
+        "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yuansheng Liu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.09891v1",
+        "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yufei Ye": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.09891v1",
+        "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Tao Tang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.09891v1",
+        "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jiawei Luo": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.09891v1",
+        "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Wen Tao": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.09891v1",
+        "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Xiao Luo": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.09891v1",
+        "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Heng Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.10112v1",
+        "title": "Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ye Liu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.10112v1",
+        "title": "Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Kun Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.10112v1",
+        "title": "Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Feifei Song": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.10112v1",
+        "title": "Storage-Scalable Progressive Semantic Communication via Knowledge-Base Reuse",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Georg Zetzsche": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.08851v1",
+        "title": "Length Generalization for Transformers via Compression",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Hongjian Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.08851v1",
+        "title": "Length Generalization for Transformers via Compression",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Andy Yang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.08851v1",
+        "title": "Length Generalization for Transformers via Compression",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Pascal Bergsträßer": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.08851v1",
+        "title": "Length Generalization for Transformers via Compression",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Marco Sälzer": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.08851v1",
+        "title": "Length Generalization for Transformers via Compression",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "David Chiang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.08851v1",
+        "title": "Length Generalization for Transformers via Compression",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Fumihiko Tachibana": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.09768v1",
+        "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Daisuke Miyashita": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.09768v1",
+        "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jun Deguchi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.09768v1",
+        "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Vincent-Daniel Yun": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.09883v1",
+        "title": "Forward-Free LLM Depth Pruning via Weight Redundancy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Woosang Lim": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.09883v1",
+        "title": "Forward-Free LLM Depth Pruning via Weight Redundancy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Lyes Saad Saoud": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.09682v1",
+        "title": "Settling: Equilibrium Inference for Non-Convex Validity Sets",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
   }
 }

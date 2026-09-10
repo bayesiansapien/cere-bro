@@ -1,0 +1,31 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-09-10T09:17:29.537196+00:00
+title: .blend URL Viewer
+url: https://simonwillison.net/2026/Sep/9/blender-viewer/
+published: 2026-09-09
+author: 
+---
+
+# .blend URL Viewer
+
+<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/blender-viewer">.blend URL Viewer</a></p>
+        <p>I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see <a href="https://til.simonwillison.net/llms/blender-coding-agents-macos">my TIL</a>).</p>
+<p>As a big fan of the <a href="https://en.wikipedia.org/wiki/Faberg%C3%A9_egg">Imperial Fabergé Easter eggs</a>, I've always thought it would be fun to make some new ones that celebrate popular culture.</p>
+<p>Yesterday I decided to try out the new <a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">ChatGPT Images 2.5</a> by <a href="https://chatgpt.com/share/6aa1f6d2-a7d8-83ea-92ec-0daeb8422617">running this prompt</a>:</p>
+<blockquote>
+<p><code>Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first</code></p>
+</blockquote>
+<p>It gave me this - honestly not bad for a first attempt!</p>
+<p><img alt="It's a yellow Fabergé egg, half open. Inside you can clearly see Carol in her black outfit facing off against a choir of creepy white-faced joined humans. There are cacti and it has an Albuquerque New Mexico feel to it. The egg stand has a Pluribus plaque." src="https://static.simonwillison.net/static/2026/pluribus-egg.jpg" /></p>
+<p>Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted:</p>
+<blockquote>
+<p><code>Use your blender local skill to create a blender model of this faverge egg</code></p>
+</blockquote>
+<p>(Here's <a href="https://github.com/simonw/gpt-6-astra-blender-pelican-bicycle/blob/main/outputs/blender-local/SKILL.md">the skill file</a>, which I created <a href="https://til.simonwillison.net/llms/blender-coding-agents-macos#creating-a-skill">like this</a>.)</p>
+<p>It churned away for 17m51s and built me <a href="https://github.com/simonw/vibe-coded-blender-projects/tree/main/pluribus-faberge-egg/deliverables">several <code>.blend</code> files</a>. I already had this vibe-coded Blender viewing experiment lying around, so I added that to my <a href="https://tools.simonwillison.net/">tools collection</a> and now you can use it to <a href="https://tools.simonwillison.net/blender-viewer?url=https%3A%2F%2Fgithub.com%2Fsimonw%2Fvibe-coded-blender-projects%2Fblob%2Fmain%2Fpluribus-faberge-egg%2Fdeliverables%2FPluribus_Jeweled_Egg_v1.blend">see my Pluribus blender model in your browser</a>:</p>
+<p><img alt="Screenshot of a web-based 3D Blender file viewer showing a rendered gold Fabergé-style jeweled egg. The top of the egg is lifted open, revealing a miniature desert diorama inside with green cacti, brown rocks, and a small black-suited figure standing in the center. The egg's shell is decorated with green gems, pearls, ornate scrollwork, a ring of smiling white egg-shaped faces, and oval medallions painted with a cactus and desert scene. The egg stands on four gold legs over a black marbled base with a gold plaque reading PLURIBUS. The URL bar reads https://github.com/simonw/vibe-coded-blender-projects/blob/main/pluribus-faberge-egg/deliverables/Pluribus_Jeweled_Egg_v1.blend with a View button; top-right buttons read Fit, Wireframe, Clear. A bottom-left info panel reads: Loaded Blender 05.01 · 7.2 MB / 387 meshes · 1099 curves · 1 text · 783,764 vertices · 1,446,560 triangles · 17 materials / Preview: approximate materials and text; unapplied modifiers are omitted. / GitHub URL resolved through jsDelivr" src="https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/3d">3d</a>, <a href="https://simonwillison.net/tags/javascript">javascript</a>, <a href="https://simonwillison.net/tags/tools">tools</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/blender">blender</a>, <a href="https://simonwillison.net/tags/coding-agents">coding-agents</a>, <a href="https://simonwillison.net/tags/codex">codex</a>, <a href="https://simonwillison.net/tags/gpt-6-astra">gpt-6-astra</a></p>
