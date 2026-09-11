@@ -4072,10 +4072,18 @@
         "arxiv_id": "2604.27636v1",
         "title": "Generative structure search for efficient and diverse discovery of molecular and crystal structures",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.11234v1",
+        "title": "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W19",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W37"
   },
   "Ziheng Lu": {
     "appearances": [
@@ -8212,10 +8220,18 @@
         "arxiv_id": "2604.09258v1",
         "title": "Nexus: Same Pretraining Loss, Better Downstream Generalization via Common Minima",
         "ai_rating": 7.5
+      },
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.11716v1",
+        "title": "Why Does Post-Training Quantization Work?",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W19",
-    "last_seen": "2026-W22"
+    "last_seen": "2026-W37"
   },
   "Lukas Helff": {
     "appearances": [
@@ -27828,6 +27844,818 @@
         "arxiv_id": "2609.09682v1",
         "title": "Settling: Equilibrium Inference for Non-Convex Validity Sets",
         "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Niranjan Srinivas": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.09413v1",
+        "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Debajyoti Ray": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.09413v1",
+        "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Elias Nakouzi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.09413v1",
+        "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Bincheng Gu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.11393v1",
+        "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Min Gao": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.11393v1",
+        "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Zongwei Wang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.11393v1",
+        "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yibing Bai": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.11393v1",
+        "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yulan He": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.11393v1",
+        "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Junliang Yu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.11393v1",
+        "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Guoqiang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.11234v1",
+        "title": "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Kexin Tan": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.11234v1",
+        "title": "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Li Ju": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.11234v1",
+        "title": "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Wenqing Jing": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.11234v1",
+        "title": "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Zhonghan Yue": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.11234v1",
+        "title": "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jie Song": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.10055v1",
+        "title": "OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Zhichuan Xu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.10055v1",
+        "title": "OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ziyu Lu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.10055v1",
+        "title": "OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Meng Xiao": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.10055v1",
+        "title": "OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Cheng Bi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.10055v1",
+        "title": "OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yuxin Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.10055v1",
+        "title": "OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Rui Sun": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.10315v1",
+        "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Zhan Shi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.10315v1",
+        "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Bing He": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.10315v1",
+        "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ken Chen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.11709v1",
+        "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Wei Wang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.11709v1",
+        "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Sachith Seneviratne": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.11709v1",
+        "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Hansani Weeratunge": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.11709v1",
+        "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Saman Halgamuge": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.11709v1",
+        "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Philip Colangelo": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.11542v1",
+        "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Charles Dawson": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.11542v1",
+        "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Shayan Sengupta": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.11542v1",
+        "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ayse Coskun": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.11542v1",
+        "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Varun Sivaram": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.11542v1",
+        "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Weichen Dai": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.10335v1",
+        "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Rafael Medeiros Cabral": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.10335v1",
+        "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ziyi Shou": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.10335v1",
+        "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yan Cao": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.10335v1",
+        "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Xin Shen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.10335v1",
+        "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Dongcai Lu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.10335v1",
+        "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Atsutoshi Kumagai": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.10928v1",
+        "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Tomoharu Iwata": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.10928v1",
+        "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Hiroshi Takahashi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.10928v1",
+        "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Taishi Nishiyama": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.10928v1",
+        "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Kazuki Adachi": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.10928v1",
+        "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yasuhiro Fujiwara": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.10928v1",
+        "title": "AUC Maximization from Biased Positive-unlabeled Data with Confidence",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Lucas Yang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.10961v1",
+        "title": "When More Is Not Better: Component Anti-Synergy in a P300 Speller",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Rui Liu": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.10961v1",
+        "title": "When More Is Not Better: Component Anti-Synergy in a P300 Speller",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Fusheng Wang": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.10961v1",
+        "title": "When More Is Not Better: Component Anti-Synergy in a P300 Speller",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Laura Lucia Dominguez Barrios": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.10826v1",
+        "title": "Processing and classifying bird songs using wavelet techniques and supervised learning",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Fidel Aniano Causil Barrios": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.10826v1",
+        "title": "Processing and classifying bird songs using wavelet techniques and supervised learning",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Alex Rodrigo dos Santos Sousa": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.10826v1",
+        "title": "Processing and classifying bird songs using wavelet techniques and supervised learning",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Mariana Rodrigues Motta": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.10826v1",
+        "title": "Processing and classifying bird songs using wavelet techniques and supervised learning",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Ramiro Valdes Jara": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.11648v1",
+        "title": "RDDMPI: Residual Denoising Diffusion Model for Probabilistic Multivariate Time Series Imputation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "David Chapman": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.11648v1",
+        "title": "RDDMPI: Residual Denoising Diffusion Model for Probabilistic Multivariate Time Series Imputation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Adam Meyers": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.11648v1",
+        "title": "RDDMPI: Residual Denoising Diffusion Model for Probabilistic Multivariate Time Series Imputation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Yuxiang Chen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.11716v1",
+        "title": "Why Does Post-Training Quantization Work?",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Michael Beyer": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.11716v1",
+        "title": "Why Does Post-Training Quantization Work?",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W37",
+    "last_seen": "2026-W37"
+  },
+  "Jianfei Chen": {
+    "appearances": [
+      {
+        "week": "2026-W37",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.11716v1",
+        "title": "Why Does Post-Training Quantization Work?",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W37",
