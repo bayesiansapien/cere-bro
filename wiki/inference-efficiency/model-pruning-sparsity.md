@@ -191,3 +191,17 @@ Three papers landed on one Kurate cs.LG board making the same structural move at
 - [Test-time compute allocation](test-time-compute-allocation.md)
 - [GPU kernels](../hardware/gpu-kernels.md)
 - [Compute economics](../hardware/compute-economics.md)
+
+## 2026-09-10: depth redundancy is now a three-way pattern, and you can find it without data
+
+[WRP (09-10)](2026-09-10-wrp-forward-free-depth-pruning.md) prunes whole transformer blocks using **only the checkpoint weights**: it compares attention output projections and MLP down-projections across layers, folds in relative projection scale, and builds an all-pairs similarity matrix that drives layer grouping and block selection. No calibration data, no forward pass. It beats prior forward-free magnitude pruning and approaches activation-based methods across pruning ratios, families and downstream tasks.
+
+**The contribution is pairwise-over-pointwise.** Existing forward-free methods score each block in isolation, which cannot see the thing that actually licenses deletion: two adjacent blocks doing nearly the same job. Redundancy is a relation.
+
+**Two consequences for this page.**
+
+First, **it is the delete-branch of a decision [XMerge (09-08)](2026-09-08-xmerge-depth-compression.md) took the merge-branch of.** Both start from adjacent-layer similarity; XMerge fuses the pair and pays a fitting step, WRP drops one for free. The head-to-head at matched compression ratio has not been run and is the most useful missing experiment on this page.
+
+Second, and mildly deflationary: **if weight-space similarity alone nearly matches activation-space measurement, the activation signal may have been largely recovering structure already visible in the weights.** That would apply to a large slice of the activation-based pruning literature. It also rhymes with [Don't Drop Dropout (09-07)](2026-09-07-dont-drop-dropout-layer-sparsity.md), which found layer-level sparsity behaves differently from what unit-level intuitions predict, and with [Random Attention (09-04)](2026-09-04-random-attention-kv-eviction.md), which deleted the KV importance scorer entirely and evicted uniformly at random inside each head while matching the best prior evictor at 32-43% higher throughput. **Three results in a week where an expensive importance signal turned out to be replaceable by something nearly free.** The pattern to watch: importance scoring is repeatedly failing to justify its cost.
+
+**Composability.** Depth pruning is orthogonal to the numerics work in [Chapter 4 on extreme quantization (09-10)](2026-09-10-extreme-quantization-blackwell-fp4-native-fp8.md), so the practical recipe for fitting a fine-tuned open weight set into constrained hardware is now: prune the depth data-free, then serve the remainder at 4-bit. Neither step needs a calibration corpus.
