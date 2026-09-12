@@ -1,11 +1,11 @@
-# A Severe Misalignment of AI in Mathematics: 25 Fields Medalists sign a declaration
+# A Severe Misalignment of AI in Mathematics: Two dozen Fields Medalists sign a declaration
 
 **Source:** [mathandai.org declaration](https://mathandai.org/) · circulated widely on X 2026-09-12
 **Raw:** [X feed capture](../../raw/twitter/feed/2026-09-12-morning.md)
 
 ## TL;DR
 
-Twenty-five Fields Medalists, led by Terence Tao, signed a public declaration arguing that the way AI labs are pursuing mathematics is damaging mathematics. The argument is precise and worth reading carefully, because the social-media framing of it (both the "mathematicians are angry AI beat them" version and the "gatekeepers defending their turf" version) gets it wrong in both directions. **The signatories do not dispute that AI can solve hard problems. They dispute that solving problems is the goal.**
+Two dozen Fields Medalists, led by Terence Tao, signed a public declaration arguing that the way AI labs are pursuing mathematics is damaging mathematics. The argument is precise and worth reading carefully, because the social-media framing of it (both the "mathematicians are angry AI beat them" version and the "gatekeepers defending their turf" version) gets it wrong in both directions. **The signatories do not dispute that AI can solve hard problems. They dispute that solving problems is the goal.**
 
 ## The actual argument
 
@@ -19,6 +19,8 @@ Their claim is that treating problems as a **benchmark** inverts this. In their 
 4. **The transmission chain itself.** Without willing mathematicians to develop and integrate ideas into the canon, AI-conceived ideas "would never become fully alive," and the human-to-human chain is lost.
 
 They explicitly generalize: they see this "as part of broader alignment issues impacting other scientific and creative professions, as well as the whole of society."
+
+*Count note: the aggregator accounts circulating this said 25 Fields Medalists; [Steven Strogatz](https://x.com/stevenstrogatz/status/2098485046998954311), a mathematician, says 24. The declaration page lists endorsers separately from the text and the total moves as signatures arrive, so this page says "two dozen" rather than pick a number.*
 
 ## Why this belongs in responsible-ai and not in the industry section
 
