@@ -71,6 +71,7 @@ Re-read the "Media Zone" section of CLAUDE.md in full (including the "Social-med
    - LinkedIn: raw/linkedin/__TODAY__.json (content/author/topic; if empty AND the farmer logged a cookie/challenge issue, note LinkedIn was unavailable — do not fake).
 2. DEDUP across sources by underlying artifact (arxiv id / URL / video id / same claim); cross-source presence is a conviction boost, one card. Engagement as QUALITATIVE cue, never raw numbers.
 3. Rewrite the whole Media Zone file per the locked format: "Today's signal" pulse -> topic-clustered card feed (mz-feed/mz-card) in attention-tier order (routing/KV/compression/GPU first) -> "Also crossed your feeds" one-line tail so nothing is lost. Light-but-complete. No em-dashes.
+   - X FOLLOWS US TIMING: this refresh fires during US-active hours (this is ~US late-morning/afternoon ET). Frame the X section as "the US day's conversation," and expect the freshest X signal to be arriving now — surface it. See the CLAUDE.md "X follows US timing" note.
 4. This is a same-day refresh: fold in anything NEW since the morning build; keep what still matters. The file should read as the current state of the day's feed, not an append log.
 5. Commit and push (git add wiki/media-zone/__MONTH__/__TODAY__.md, commit "media-zone: refresh __TODAY__ HH:MM", push origin main). The site redeploys via CI on push.
 

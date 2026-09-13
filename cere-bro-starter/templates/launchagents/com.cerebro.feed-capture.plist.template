@@ -11,19 +11,22 @@
         <string>{{HOME}}/.local/bin/cerebro-feed-capture.sh</string>
     </array>
 
-    <!-- Cheap X-feed capture at the gaps between the heavier runs (09/15/22),
-         giving ~every-3h coverage: 12:00 and 18:00 local (IST). -->
+    <!-- US-timed X capture: X activity peaks during US hours, so captures cluster
+         in the IST evening/night (= US morning→afternoon). 18:00 IST ≈ 8:30am ET
+         (US day starts) and 23:00 IST ≈ 1:30pm ET (US afternoon). The 09:00 morning
+         run wraps the US day; its catch-up deep-scan covers the IST-overnight
+         (US evening) the Mac slept through. -->
     <key>StartCalendarInterval</key>
     <array>
         <dict>
             <key>Hour</key>
-            <integer>12</integer>
+            <integer>18</integer>
             <key>Minute</key>
             <integer>0</integer>
         </dict>
         <dict>
             <key>Hour</key>
-            <integer>18</integer>
+            <integer>23</integer>
             <key>Minute</key>
             <integer>0</integer>
         </dict>
