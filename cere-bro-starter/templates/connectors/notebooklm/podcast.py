@@ -82,14 +82,36 @@ if FORCE and AUDIO_PATH.exists():
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
-def run(cmd: list[str], check: bool = True) -> str:
-    """Run a subprocess and return stdout."""
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if check and result.returncode != 0:
+def run(cmd: list[str], check: bool = True, auth_retries: int = 5) -> str:
+    """Run a subprocess and return stdout.
+
+    nlm's OAuth access token refresh is FLAKY: the first call after an idle gap
+    can fail with "Authentication expired" (or a bare "401 Unauthorized" on the
+    resumable upload endpoint) and then self-heal on the next call once the
+    background refresh completes. Since a weekly run makes dozens of nlm calls
+    over 10-20 min, any of them can hit this, so on an auth-expiry error we retry
+    a few times with a short backoff instead of dying. A PERSISTENT failure means
+    the token is truly dead and the user must re-run `nlm login`.
+    """
+    last = None
+    for attempt in range(max(1, auth_retries)):
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        last = result
+        if result.returncode == 0:
+            return result.stdout
+        combined = (result.stdout or "") + (result.stderr or "")
+        transient = ("xpired" in combined or "refresh_auth" in combined
+                     or "uthentication" in combined or "401" in combined
+                     or "nauthorized" in combined)
+        if transient and attempt < auth_retries - 1:
+            time.sleep(3)
+            continue
+        break
+    if check and (last is None or last.returncode != 0):
         print(f"ERROR: {' '.join(cmd)}")
-        print(result.stderr)
+        print((last.stderr or last.stdout) if last else "no result")
         sys.exit(1)
-    return result.stdout
+    return last.stdout if last else ""
 
 def nlm(*args, capture: bool = True) -> str:
     return run(["nlm", *args])
