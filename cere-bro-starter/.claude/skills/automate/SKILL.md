@@ -192,6 +192,8 @@ The daily job above rebuilds everything once a morning. If you want the **Media 
 
 Because `--feed-only` writes a uniquely-named file per capture and the ranker ranks every one, the Media Zone synthesis unions all of the day's captures (deduped by tweet id) — the feed is scanned comprehensively, nothing is dropped. Fill the same `{{REPO_PATH}}`/`{{HOME}}`/`{{CLAUDE_BIN}}` placeholders, `chmod +x`, copy the plists to `~/Library/LaunchAgents/`, and `launchctl bootstrap gui/$(id -u) <plist>`. LinkedIn deliberately stays one mild pass/day (in the morning job) to avoid bot detection — do not add it to the frequent capture.
 
+**Schedule these on US time, not your local calendar.** The AI conversation on X runs on a US clock (peaks US midday-to-evening ET). So set the capture + Media-Zone-refresh times to cover US-active hours (~8am–midnight ET) converted to your timezone — the shipped plist templates target IST (18:00/23:00 capture, 21:00/23:30 refresh ≈ US morning→afternoon ET); adjust the `Hour` values to your own offset. Let your once-a-morning run wrap the full prior US day (its gap-aware catch-up recovers whatever the machine slept through overnight). See the CLAUDE.md "X follows US timing" note.
+
 ---
 
 ### Step 6: Verify and confirm
