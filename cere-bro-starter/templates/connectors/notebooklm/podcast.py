@@ -82,7 +82,7 @@ if FORCE and AUDIO_PATH.exists():
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
-def run(cmd: list[str], check: bool = True, auth_retries: int = 5) -> str:
+def run(cmd: list[str], check: bool = True, auth_retries: int = 8) -> str:
     """Run a subprocess and return stdout.
 
     nlm's OAuth access token refresh is FLAKY: the first call after an idle gap
@@ -100,10 +100,21 @@ def run(cmd: list[str], check: bool = True, auth_retries: int = 5) -> str:
         if result.returncode == 0:
             return result.stdout
         combined = (result.stdout or "") + (result.stderr or "")
+        # Two classes of transient failure, both retryable:
+        #  - auth: "Authentication expired" on API calls, "401 Unauthorized" /
+        #    "Client error" on the resumable upload endpoint (source add).
+        #  - network: "read operation timed out" / connection resets on an upload.
         transient = ("xpired" in combined or "refresh_auth" in combined
                      or "uthentication" in combined or "401" in combined
-                     or "nauthorized" in combined)
+                     or "nauthorized" in combined or "Client error" in combined
+                     or "imed out" in combined or "imeout" in combined
+                     or "onnection" in combined or "emporarily" in combined)
         if transient and attempt < auth_retries - 1:
+            # CRITICAL: the upload endpoint does NOT self-refresh the token, but a
+            # lightweight `nlm notebook list` DOES trigger the refresh. Interleave
+            # one so the retry of `cmd` picks up the freshened token.
+            if not (len(cmd) >= 3 and cmd[1] == "notebook" and cmd[2] == "list"):
+                subprocess.run(["nlm", "notebook", "list"], capture_output=True, text=True)
             time.sleep(3)
             continue
         break
@@ -309,25 +320,43 @@ print(f"  Notebook ID: {NOTEBOOK_ID}")
 
 # ── Add sources ────────────────────────────────────────────────────────────────
 
-def add_file_source(path: Path, title_hint=None):
-    args = ["source", "add", NOTEBOOK_ID, "--file", str(path)]
+# Source adds are NON-FATAL: run() already retries transient auth/network errors,
+# but if a single source still fails after retries we log and skip rather than
+# killing a 20-minute run. A weekly notebook has ~100 sources and does not need
+# every one; the digests are what matter. We only abort if NO digest landed.
+_added = {"ok": 0, "skip": 0}
+
+def _source_ok(out: str) -> bool:
+    return ("Added source" in out) or ("Source ID" in out) or ("source_id" in out)
+
+def add_file_source(path: Path, title_hint=None) -> bool:
+    args = ["nlm", "source", "add", NOTEBOOK_ID, "--file", str(path)]
     if title_hint:
         args += ["--title", title_hint]
-    print(f"  + {path.name}")
-    nlm(*args)
+    out = run(args, check=False)
+    if _source_ok(out):
+        print(f"  + {path.name}")
+        _added["ok"] += 1
+        return True
+    print(f"  ! skipped {path.name} (add failed after retries)")
+    _added["skip"] += 1
+    return False
 
 def add_url_sources(urls: list[str]):
-    if not urls:
-        return
-    args = ["source", "add", NOTEBOOK_ID]
     for u in urls:
-        args += ["--url", u]
-    print(f"  + {len(urls)} URL(s)")
-    nlm(*args)
+        out = run(["nlm", "source", "add", NOTEBOOK_ID, "--url", u], check=False)
+        if _source_ok(out):
+            _added["ok"] += 1
+        else:
+            _added["skip"] += 1
+    if urls:
+        print(f"  + URLs: {len(urls)} attempted")
 
 print("\nAdding sources:")
+digest_ok = 0
 for p in digest_paths:
-    add_file_source(p, title_hint=f"Daily digest {p.stem}")
+    if add_file_source(p, title_hint=f"Daily digest {p.stem}"):
+        digest_ok += 1
 for p in media_zone_paths:
     add_file_source(p, title_hint=f"Media Zone {p.stem} (social + video + industry synthesis)")
 for p in social_stream_paths:
@@ -335,6 +364,10 @@ for p in social_stream_paths:
 for p in wiki_summary_paths:
     add_file_source(p)
 add_url_sources(deep_dive_urls)
+print(f"\nSources: {_added['ok']} added, {_added['skip']} skipped ({digest_ok}/{len(digest_paths)} digests).")
+if digest_ok == 0:
+    print("ERROR: no digest source landed — aborting (audio would have no substance).")
+    sys.exit(1)
 
 # ── Generate audio ─────────────────────────────────────────────────────────────
 

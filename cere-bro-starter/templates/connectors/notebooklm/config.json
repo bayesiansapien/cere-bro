@@ -3,7 +3,7 @@
   "show_name": "Cerebro Radio",
   "audio_format": "deep_dive",
   "audio_length": "long",
-  "max_sources_per_notebook": 100,
+  "max_sources_per_notebook": 40,
   "poll_interval_seconds": 30,
   "poll_timeout_minutes": 30,
   "include_external_urls_from_deep_dives": true,
