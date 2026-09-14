@@ -248,3 +248,31 @@ Standard LLM benchmarks underserve agents. The field has been building agent-spe
 - [GUI Agents](gui-agents.md)
 - [Multi-Agent Systems](multi-agent-systems.md)
 - [Self-Evolving Agents](self-evolving-agents.md)
+
+---
+
+## 2026-09-13: a process metric that needs no learned judge
+
+**[MT-INFOSEEK (09-13)](2026-09-13-mt-infoseek-information-seeking.md)** (Harvard + Google DeepMind) contributes an instrument this page should adopt independently of its findings. It formalizes multi-turn information seeking as a **k-underspecified constraint satisfaction problem**, where k is the number of variables jointly required to determine the target, which turns "how much is missing" into a dial rather than a property of an anecdote. The suite is 5,251 problems and 9,006 task instances across mathematics, logic, biology, medicine and general knowledge.
+
+**The instrument is final sufficiency**: whether the information the model acquired determines the target, recorded **independent of answer generation**. This page has repeatedly recorded that outcome-only scoring hides process failures, and has repeatedly had to reach for a learned judge to fix it. Final sufficiency is domain-general, cheap, and needs no judge, which puts it in the same category as execution-based verification. Its motivating observation is the sharp one: **a correct answer can hide bad information gathering**, because the model may have guessed or drawn on prior knowledge.
+
+**The findings, with the directional bias as the headline.** Performance degrades across models and domains as underspecification rises. Models recognize that more information is needed but **underestimate how much, under-predicting the degree of missing information roughly four times as often as they over-predict it** at k = 2 on logical problems. They fail to identify a minimal sufficient query set and improve only marginally when handed the true k, so the failure is in constructing the queries rather than in estimating the budget. They often stop before acquiring enough. And on tasks with ordered dependencies, **an incorrect query order lowers final accuracy even when the model eventually acquires everything it needs.**
+
+**That last finding is an independent arrival at the day's routing result.** [The Menu Is an Execution Prior (09-13)](../ai-routing/2026-09-13-state-path-tool-menus.md) shows that ranking a tool menu by request relevance surfaces the final action while omitting or delaying the tools that produce its inputs, and that routing on a dependency-aware state path lifts ToolBench online success from 0.737 to 0.898 **with the agent unchanged**. One paper measures the model failing to sequence prerequisites; the other moves the sequencing out of the model and into the retrieval layer. **Two groups, same day, same claim.** The composition, evaluating state-path menus on MT-INFOSEEK's ordered-dependency tasks, is the cheapest useful experiment either enables and neither ran it.
+
+**Practical reading for deployment.** Under-asking and over-asking are not symmetric costs. Over-asking burns tokens; under-asking produces a confidently wrong answer whose repair path is a full retry. The four-to-one directional bias says production agents sit systematically on the expensive side, and their evaluations cannot see it because they score the final answer.
+
+**Caveat.** Read from the abstract only, so no model list and no absolute numbers beyond the k = 2 ratio. The constraint-satisfaction framing is clean but narrow: it cannot represent questions where the right response is to propose an interpretation rather than to ask. Whether a harness-level query-planning step closes the gap is untested.
+
+## 2026-09-14: the scoreboard gets an index, and the verification gap gets named twice in one day
+
+This page's recurring complaint is that agentic evaluation numbers are not comparable across papers, sharpest in [Raschka's 09-10 observation](../llms-foundation-models/2026-09-10-raschka-looped-transformers-recurrent-depth.md) that models are tuned against one primary harness so cross-model agent scores measure harness fit as much as capability.
+
+**[Benchmark Radar (09-14)](2026-09-14-benchmark-radar.md) (arXiv 2609.11115) does not fix that, but it makes the conditions inspectable.** It is a continuously-updated searchable catalog of AI benchmarks that also tracks where each was used and what was scored: daily discovery across **37 sources** (13 direct connectors, 24 first-party research and engineering feeds), a catalog of **1,283 source records from 4 benchmark catalogs and 12,916 numeric observations across 790 records**, plus mentions in model cards and technical reports and per-benchmark score histories, with source identity and citation retained so a reader can inspect the evidence behind a number. Shipped: a dashboard with a leaderboard, a **Pareto view of score against measured use**, saturation and trend views, daily feeds, downloadable evidence and a CLI.
+
+**The Pareto-of-score-against-usage view is the primitive this page has wanted**, because it separates benchmarks that are hard from benchmarks that are merely obscure, and because benchmark saturation and adoption are things the field asserts constantly and measures almost never.
+
+**The convergence worth naming.** The same day, [the route-by-task analysis (09-14)](../ai-routing/2026-09-14-route-by-task-open-vs-frontier.md) cited an August 2026 Morph study finding that essentially all open-model benchmark scores are **vendor self-reported**, with none of the tracked SWE-bench Verified entries independently verified, and concluded that any "we beat GPT-5.x" release claim should be treated as a hypothesis to test on your own data. **A benchmark index and an independent-verification gap surfacing on the same day from unrelated sources is the field noticing that its scoreboard is unaudited.** Benchmark Radar is the instrument that claim calls for; whether anyone uses it that way is the open question.
+
+**Gaps.** Coverage is a function of the 37 sources and no recall figure against an independent benchmark list is reported. 12,916 observations across 790 records averages about 16 scores per benchmark, thin for per-benchmark trend analysis. And a living database's value depends entirely on staying live, which no paper can establish.
