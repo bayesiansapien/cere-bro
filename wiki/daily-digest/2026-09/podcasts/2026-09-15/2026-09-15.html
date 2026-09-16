@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 95 (2026-09-15)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>95 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-09-15<br> <strong>Run time:</strong> ~43 min</p>
+
+<p>Today's throughline is cost optimization asked as an allocation question rather than a savings question, and it shows up at four layers at once. At the token layer, a paper finally measures the point where an agent's next token is worth less than a fresh independent sample, and re-slicing the same budget across parallel sessions buys +264 Elo for free. At the rack layer, SemiAnalysis publishes verified Vera Rubin agentic-inference numbers and defines the workload as one whose cached-input ratio tends toward 1, which is a memory-and-fabric problem rather than a FLOPs problem. At the serving layer, a chapter on disaggregated architectures argues the standard mitigation everyone ships is a compromise that misconfigures one phase by construction. And at the search layer, Google's Dream-RSI stops optimizing the kernel and starts optimizing the strategy for searching kernel space, replaying history so candidate policies cost nothing to evaluate. Four results, one shape: <strong>the resource was never scarce in the way people were budgeting it, and the win came from moving it rather than buying more.</strong></p>
+
+<p><strong>In this episode</strong> - <strong>Elo-per-token</strong>: agents convert tokens into quality faster than random sampling at first, then worse. Split the budget across parallel sessions instead. - <strong>Vera Rubin NVL72</strong>: 1.4x to 3x more tokens per dollar than GB300 at realistic speeds. The 67x headline is a frontier-edge number. - <strong>Disaggregated serving</strong>: splitting prefill and decode onto separate clusters. Chunked prefill costs 35% to 50% of tensor-core utilization. - <strong>Dream-RSI</strong>: replay a finished search as a simulator, so testing new search strategies costs no model calls. Works on GPU kernel engineering. - <strong>Three recursive-self-improvement papers land in one morning</strong>, two days after the wiki logged a survey whose bar none of them clear. - <strong>Amodei asks the industry to slow down</strong>, and memory stocks drop while enterprise software rallies. Both governments call it a hoax.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-09-15/">2026-09-15</a></p>
+</body>
+</html>

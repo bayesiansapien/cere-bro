@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 96 (2026-09-16)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>96 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-09-16<br> <strong>Run time:</strong> ~49 min</p>
+
+<p>Today's throughline is cost optimization arriving at the decision layer rather than the compute layer, and it shows up as two opposite answers to one question. A Tsinghua paper says the routing decision is already sitting inside the frozen agent model's forward pass and two linear maps are enough to read it out, so the router should cost nothing because it already happened. A launch out of two years of stealth says the opposite: build a model that only makes decisions, never writes a sentence, and price its output tokens at zero. Both are attacks on the same line item, which is the cost of deciding what to do next. Underneath them, a CUDA worklog derives the one algebraic identity that lets softmax statistics be combined across blocks, which is the reason tiled attention exists at all, and a geometry paper finally splits compression error into the part that rescales a representation and the part that rotates it. Five results, one shape: <strong>the expensive part was never the work, it was the overhead around choosing the work, and this is the week the field started billing that separately.</strong></p>
+
+<p><strong>In this episode</strong> - <strong>Gavel</strong>: the frozen agent model already knows which skill to use. Two linear maps read it out, no skill text in context. - <strong>Jev</strong>: a model that only makes decisions and never writes text. Claims 40-400x cheaper. No paper, no benchmark. - <strong>Online softmax, derived</strong>: one multiplication repairs the entire running sum. That identity is why tiled attention works. - <strong>Compression error gets a direction</strong>: perpendicular error separates methods, parallel error does not. First real diagnostic. - <strong>Emergence World</strong>: agents detected the attack, wrote it into memory anyway, acted on it 46 hours later. No frontier model was resilient. - <strong>SemiAnalysis</strong>: of 20 GW under datacenter moratoriums, only 1.5 GW is actually delayed. The buildout went behind the meter.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-09-16/">2026-09-16</a></p>
+</body>
+</html>
