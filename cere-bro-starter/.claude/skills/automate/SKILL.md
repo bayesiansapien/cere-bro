@@ -31,6 +31,8 @@ If not found, try common locations:
 
 Store the full path. If not found, tell the user to install Claude Code first.
 
+**Install a timeout binary (macOS).** The scheduled scripts wrap each Claude call in `gtimeout`/`timeout` so a hung generation self-terminates instead of holding the pipeline lock forever. macOS ships neither by default — run `brew install coreutils` (gives `gtimeout`). Without it a Claude call has no timeout; the scripts still self-heal via a 2h lock-age guard (a hung holder is killed and the lock reclaimed on the next run), but the timeout is the first line of defence, so install it.
+
 ---
 
 ### Step 3: Detect platform and collect preferences

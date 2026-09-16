@@ -31,13 +31,25 @@ cd "$REPO" || exit 1
 # Shared heavy-Claude mutex (same lock the morning routine uses) so we never run
 # two expensive Claude calls concurrently. Reclaim if the holder PID is dead.
 LOCKDIR="$REPO/.claude/logs/morning-routine.lock"
+LOCK_MAX_AGE=7200   # 2h. Any legit run finishes well under this; older ⇒ hung holder.
 if ! mkdir "$LOCKDIR" 2>/dev/null; then
   HOLDER=$(cat "$LOCKDIR/pid" 2>/dev/null || echo "")
+  LOCK_AGE=$(( $(date +%s) - $(stat -f %m "$LOCKDIR" 2>/dev/null || date +%s) ))
   if [ -n "$HOLDER" ] && kill -0 "$HOLDER" 2>/dev/null; then
-    echo "[$TODAY $(date +%H:%M:%S)] A heavy Claude run holds the lock (PID $HOLDER) — skipping this refresh." >> "$LOG"
-    exit 0
+    if [ "$LOCK_AGE" -lt "$LOCK_MAX_AGE" ]; then
+      echo "[$TODAY $(date +%H:%M:%S)] A heavy Claude run holds the lock (PID $HOLDER, ${LOCK_AGE}s) — skipping this refresh." >> "$LOG"
+      exit 0
+    fi
+    if ps -p "$HOLDER" -o command= 2>/dev/null | grep -q cerebro; then
+      echo "[$TODAY $(date +%H:%M:%S)] Lock ${LOCK_AGE}s old (> ${LOCK_MAX_AGE}s) — holder PID $HOLDER is a hung cerebro run; killing + reclaiming." >> "$LOG"
+      pkill -KILL -P "$HOLDER" 2>/dev/null; kill -KILL "$HOLDER" 2>/dev/null; sleep 2
+      notify "Cerebro: reclaimed hung lock" "Killed hung PID $HOLDER (lock ${LOCK_AGE}s old) from the Media Zone refresh and reclaimed the lock. Check $LOG."
+    else
+      echo "[$TODAY $(date +%H:%M:%S)] Lock ${LOCK_AGE}s old but holder PID $HOLDER is not a cerebro process (PID reuse) — reclaiming." >> "$LOG"
+    fi
+  else
+    echo "[$TODAY $(date +%H:%M:%S)] Reclaiming stale lock (holder PID '$HOLDER' gone)." >> "$LOG"
   fi
-  echo "[$TODAY $(date +%H:%M:%S)] Reclaiming stale lock (holder PID '$HOLDER' gone)." >> "$LOG"
   rm -rf "$LOCKDIR"; mkdir "$LOCKDIR" 2>/dev/null || { echo "lock race — skipping" >> "$LOG"; exit 0; }
 fi
 echo "$$" > "$LOCKDIR/pid"

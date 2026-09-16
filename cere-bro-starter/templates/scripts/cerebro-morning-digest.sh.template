@@ -30,13 +30,27 @@ notify() {
 # watchdog can run overlapping routines and stampede the Claude calls. `mkdir` is
 # atomic (race-free); a stale lock (holder PID gone) is reclaimed.
 LOCKDIR="$REPO/.claude/logs/morning-routine.lock"
+LOCK_MAX_AGE=7200   # 2h. Any legit run finishes well under this; older ⇒ hung holder.
 if ! mkdir "$LOCKDIR" 2>/dev/null; then
   HOLDER=$(cat "$LOCKDIR/pid" 2>/dev/null || echo "")
+  LOCK_AGE=$(( $(date +%s) - $(stat -f %m "$LOCKDIR" 2>/dev/null || date +%s) ))
   if [ -n "$HOLDER" ] && kill -0 "$HOLDER" 2>/dev/null; then
-    echo "[$TODAY $(date +%H:%M:%S)] Morning routine already running (PID $HOLDER) — skipping." >> "$LOG"
-    exit 0
+    if [ "$LOCK_AGE" -lt "$LOCK_MAX_AGE" ]; then
+      echo "[$TODAY $(date +%H:%M:%S)] Morning routine already running (PID $HOLDER, ${LOCK_AGE}s) — skipping." >> "$LOG"
+      exit 0
+    fi
+    # Holder alive but lock older than any legit run ⇒ it is hung (e.g. a Claude
+    # call whose timeout binary was missing). Kill it ONLY if it is a cerebro
+    # process (guards PID reuse), then reclaim so the pipeline is not blocked.
+    if ps -p "$HOLDER" -o command= 2>/dev/null | grep -q cerebro; then
+      echo "[$TODAY $(date +%H:%M:%S)] Lock ${LOCK_AGE}s old (> ${LOCK_MAX_AGE}s) — holder PID $HOLDER is a hung cerebro run; killing + reclaiming." >> "$LOG"
+      pkill -KILL -P "$HOLDER" 2>/dev/null; kill -KILL "$HOLDER" 2>/dev/null; sleep 2
+    else
+      echo "[$TODAY $(date +%H:%M:%S)] Lock ${LOCK_AGE}s old but holder PID $HOLDER is not a cerebro process (PID reuse) — reclaiming." >> "$LOG"
+    fi
+  else
+    echo "[$TODAY $(date +%H:%M:%S)] Reclaiming stale lock (holder '$HOLDER' gone)." >> "$LOG"
   fi
-  echo "[$TODAY $(date +%H:%M:%S)] Reclaiming stale lock (holder '$HOLDER' gone)." >> "$LOG"
   rm -rf "$LOCKDIR"; mkdir "$LOCKDIR" 2>/dev/null || exit 0
 fi
 echo "$$" > "$LOCKDIR/pid"
