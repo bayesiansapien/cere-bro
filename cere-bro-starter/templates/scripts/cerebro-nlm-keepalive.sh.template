@@ -1,0 +1,22 @@
+#!/bin/bash
+# cere-bro — NotebookLM (nlm) auth keep-alive.
+#
+# A single authenticated nlm call triggers nlm's built-in Google-cookie rotation,
+# which refreshes the session so it does NOT lapse between the once-a-morning
+# podcast runs. The token was expiring every day or two because nlm was only
+# touched once daily; a light touch every ~3h keeps it warm so podcast generation
+# stays automated after a single `nlm login`.
+#
+# refresh_auth.py does the check (a cheap `nlm notebook list`) and, if the session
+# is already dead, makes a best-effort re-seed from the browser's Google cookies.
+# Silent by design — the morning routine sends the one daily "nlm login needed"
+# alert if the session is truly dead and un-healable. Scheduled every 3h.
+
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:{{HOME}}/.local/bin:/usr/local/bin:$PATH"
+REPO="{{REPO_PATH}}"
+LOG="$REPO/.claude/logs/nlm-keepalive.log"
+mkdir -p "$REPO/.claude/logs"
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] keepalive touch..." >> "$LOG"
+python3 "$REPO/connectors/notebooklm/refresh_auth.py" >> "$LOG" 2>&1
+# Keep the log from growing unbounded (last ~500 lines is plenty).
+tail -n 500 "$LOG" > "$LOG.tmp" 2>/dev/null && mv "$LOG.tmp" "$LOG" 2>/dev/null || true

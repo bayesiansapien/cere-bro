@@ -167,7 +167,18 @@ fi
 # the chain breaks. This sweeps any recent gap auto-recovers without needing
 # manual intervention. Serial loop so concurrent nlm uploads don't trip 400.
 if [ -d "$REPO/connectors/notebooklm" ]; then
+  # Keep NotebookLM (nlm) auth warm / self-heal before generating podcasts so the
+  # podcast leg stays automated. refresh_auth.py: exit 0 = auth valid (or re-seeded
+  # from the browser), exit 1 = dead and un-healable (needs a one-time `nlm login`).
+  if python3 "$REPO/connectors/notebooklm/refresh_auth.py" >> "$LOG" 2>&1; then
+    NLM_OK=1
+  else
+    NLM_OK=0
+    echo "[$TODAY $(date +%H:%M:%S)] nlm auth is dead and could not self-heal — skipping podcasts." >> "$LOG"
+    notify "nlm login needed" "NotebookLM auth expired and could not auto-refresh from the browser. Podcasts are paused until you run 'nlm login' once. The digest, Media Zone, and farming all ran normally."
+  fi
   for OFFSET in 1 2 3 4 5 6 7; do
+    [ "${NLM_OK:-0}" = "1" ] || break
     D=$(date -v-${OFFSET}d +%Y-%m-%d 2>/dev/null || date -d "${OFFSET} days ago" +%Y-%m-%d)
     DM=$(date -v-${OFFSET}d +%Y-%m 2>/dev/null || date -d "${OFFSET} days ago" +%Y-%m)
     D_DIGEST="$REPO/wiki/daily-digest/$DM/$D.md"
