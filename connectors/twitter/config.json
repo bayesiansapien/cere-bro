@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-09-10T04:31:58.053943+00:00",
+  "following_last_checked": "2026-09-16T07:38:05.696157+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -100,7 +100,9 @@
     "TheJadeWarwick",
     "PhilippeTabarot",
     "lintao0915",
-    "FenrisCreations"
+    "FenrisCreations",
+    "DavidZaslav",
+    "rishabhgy"
   ],
   "bio_ai_keywords": [
     "AI",
