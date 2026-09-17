@@ -14904,10 +14904,18 @@
         "arxiv_id": "2607.29440v1",
         "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15695v1",
+        "title": "NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W32"
+    "last_seen": "2026-W38"
   },
   "Yakun Li": {
     "appearances": [
@@ -29650,6 +29658,14 @@
         "arxiv_id": "2609.12489v1",
         "title": "Confidence-Gated Transductive Test Generation for Code Reranking",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
@@ -29748,6 +29764,734 @@
         "arxiv_id": "2609.12785v1",
         "title": "Convergence of Stochastic Gradient Methods under Heavy-Tailed Noise and Hölder Smoothness",
         "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Meiduo Chong": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Shaolei Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Ju Fan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Xiaoyong Du": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Shuhan Xue": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Jianyuan Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Ziyuan Nan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Wenbin Li": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Zhaochen Yu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Jinchao Ding": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Fengrui Liu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Ningxin Shen": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Yi Li": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Yiwei Fu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Feng Liu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Jiangmeng Li": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Sibo Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Shicheng Fan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Xinyue Wang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Wenyi Wu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Kun Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Biwei Huang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Mingzhou Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.15296v1",
+        "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Peixi Wu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.15296v1",
+        "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Hang Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.15296v1",
+        "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Yunhao Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.15296v1",
+        "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Biao Yang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.15296v1",
+        "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Wei Yuan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.15296v1",
+        "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Haonan Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15695v1",
+        "title": "NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Guojian Zhan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15695v1",
+        "title": "NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Jiancong Xie": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15695v1",
+        "title": "NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Shijun Wan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15695v1",
+        "title": "NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Dongiia Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15695v1",
+        "title": "NoteVQA: Benchmarking VLMs on Real-Life Questions from Human Communities",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Lionel Salesses": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.17160v1",
+        "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Caroline Sainvitu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.17160v1",
+        "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Tariq Benamara": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.17160v1",
+        "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Md Rayhanul Masud": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.16754v1",
+        "title": "TAME: Token Attribution and Masking for Emergent misalignment",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Md Rizwan Parvez": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.16754v1",
+        "title": "TAME: Token Attribution and Masking for Emergent misalignment",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Fangke Chen": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Sirry Chen": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Zhongyu Wei": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Koffi Ognandon Ayena": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Frédéric Holweck": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Serge Iovleff": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Amah S d'Almeida": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "John Donaghy": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Brian Wilcox": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Oğuzhan Ersoy": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Shikhar Rastogi": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Adam St Arnaud": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Alexey Titov": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Yean Hoon Ong": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.15555v1",
+        "title": "Bayesian Optimisation Using Product-of-Experts Gaussian Process Models with Uncertainty Calibration",
+        "ai_rating": 3.0
       }
     ],
     "first_seen": "2026-W38",

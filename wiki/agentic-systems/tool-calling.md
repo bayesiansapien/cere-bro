@@ -2,6 +2,20 @@
 
 Concept page for how agents invoke external tools, APIs, and code from inside an LLM-driven loop.
 
+## 2026-09-17: a tool you never call still costs you up to 76 points of answer rate
+
+**[When Tools Get in the Way (09-17)](2026-09-17-unnecessary-tool-availability.md)** (arxiv 2609.14157, Spark AI Research) measures something this page has assumed to be zero. The benchmark is **500 query pairs across 10 domains**, each pair holding one query that needs the domain tool and one closed-domain query the model can answer from its own knowledge, with a tool-unavailable control for every closed-domain query. Across six models the pooled answer rate on the closed-domain queries **falls from 98.2% to 63.5% when the tool is merely available**. The pinning case: **Gemini 2.5 Flash-Lite falls from 99.4% to 23.4% while calling the tool in only 7.8% of trials.** A 76-point drop at a 7.8% call rate cannot be caused by the tool returning anything, so **presence in the context is the cause, not invocation.**
+
+**Two secondary findings matter for harness design.** Prior tool interaction in the conversation cuts both ways, recovering **410 of 1,056 lost answers** while causing **232 new losses**, with the sign differing by model, so there is no general rule about whether history helps. And the fix is a **one-sentence scope-aware system instruction** saying what the tool is for, which recovers **up to 45.6 percentage points** at some cost to genuine tool use.
+
+**This is the measurement behind [state-path tool menus (09-13)](../ai-routing/2026-09-13-state-path-tool-menus.md)'s architectural argument** that which tools are visible at a point in the trajectory is a routing decision. That argument was made on context-cost grounds. The real cost turns out to be behavioural and an order of magnitude larger than context cost.
+
+**It also supplies [Gavel (09-16)](../ai-routing/2026-09-16-gavel-native-skill-routing-frozen-llm.md) a justification Gavel does not claim for itself.** Gavel scores an entire skill library from a frozen model's intermediate activations with **zero skill text in the context**, beating progressive disclosure (the Claude Code and Codex pattern of revealing tool descriptions as the trajectory unfolds) by up to 13.4 points. Gavel sells this as context economy and selection accuracy. On this evidence, **keeping tool descriptions out of context is worth something even when the context window is not the binding constraint**, because every description in context suppresses answers outside its scope. That converts activation-based routing from a compression technique into a behavioural-hygiene technique.
+
+**The direct implication for tool registries, and it runs against how they are marketed.** An assistant with fifty registered tools is paying a suppression tax on every query outside all fifty scopes, and no MCP-style registry measures that. **The right default is a scope sentence per tool, and the right architecture is a menu that is narrow at every point rather than complete.**
+
+---
+
 This page accumulates findings on:
 
 - **Function-call interfaces** — JSON schemas, structured-output constraints, decoder-side enforcement.

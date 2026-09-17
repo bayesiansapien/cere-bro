@@ -6,6 +6,22 @@
 
 ---
 
+## 2026-09-17: the quality axis turns out to be flat, which tells this page what the harness is actually for
+
+**[A seven-model, three-harness comparison (09-17)](2026-09-17-harness-choice-costs-not-success.md)**, surfaced through the X home feed from Melissa Pan and amplified by Matei Zaharia, is the factorial measurement this page has been missing. Seven models run through **Claude Code, Codex and Pi**, with success and cost reported separately. Three findings: **harness choice has little effect on task success rate and can significantly affect cost**; **a simple harness can be competitive**; and **the native harness is not always the best** for its own model.
+
+**The separation is the finding, and it is more useful than "harnesses matter."** If success rate is roughly harness-invariant across a reasonable set of engineered harnesses, then harness engineering is a **pure cost-reduction exercise at a fixed quality bar**, which is a far easier optimization problem than the joint one this page has implicitly been posing. It also means the right output of harness research is a cost curve, not a leaderboard.
+
+**"The native harness is not always the best" promotes a contested single result to a finding.** [SoL-Pi (09-11)](2026-09-11-sol-pi-harness-auto-research.md), which auto-searched harness configurations and cut tokens 45-49% while holding about 94% of task score, beat GPT-5.6 Sol's own native Codex harness on EdgeBench. One result is an anomaly. An automated search and an independent seven-model sweep agreeing is a finding: **vendor-native harnesses are not tuned to the frontier of their own model's capability.** The commercial reading matters more than the technical one. [OpenAI's software-factory account (09-16)](2026-09-16-openai-agentic-software-factory.md) describes total dependence on one harness with the model fixed, wired so deeply into internal systems that a minor outage is noticed by colleagues before alerting catches it. **That moat is switching cost, not harness quality**, and this is the evidence.
+
+**"A simple harness can be competitive" is the awkward one, because it runs against the direction of this page's own recent literature.** [HarnessDev (09-03)](2026-09-03-harnessdev-harness-creation-evolution.md), [Ecdysis (09-12)](2026-09-12-ecdysis-harness-training.md) and [COBRA-Skills (09-13)](2026-09-13-cobra-skills-robustsgpo-harness-search.md) all spend search or training budget to produce a **better** harness. If the quality axis is flat, what that budget buys is the cost reduction, which is exactly consistent with SoL-Pi's own numbers and not at all how the work is usually framed. **Stated plainly: harness search is a compiler optimization, not a capability unlock.** That is a reframe this page should carry forward and apply to every future harness-search result.
+
+**It also closes the standing model-harness-pair gap on the [routing page](../ai-routing/llm-routing.md).** Since 08-26 that page has recorded that the routable unit is the model-harness pair, with no proposal attached, because nobody had priced the pair's two coordinates separately. **If success is harness-flat and cost is harness-sensitive, the decision factorizes: choose the model for quality, choose the harness for cost, and the interaction term is small.** That is the first concrete answer to what a model-harness router should optimize.
+
+**What is missing, and it is the same thing missing everywhere on this page.** No cost-per-**success** number, which [PILOT in the Loop (08-28)](2026-08-28-pilot-live-self-improvement.md) argued is the only quantity that composes. No reported variance, so "little effect on average" could be hiding per-model reversals, which is precisely the structure a router needs. And coding benchmarks are the domain where harness design is most mature and therefore most likely to have converged, so flatness there is the weakest place to observe it. **The productive next artifact is the second public model-by-harness cost matrix, after Terminal-Bench 3.0's on 08-13. This study has the data.**
+
+---
+
 ## 2026-09-15: the harness becomes org infrastructure, and the executive case for owning the loop arrives from Microsoft
 
 **Three industry signals, no new research, and together they move this page's commercial argument further than any paper this month.**

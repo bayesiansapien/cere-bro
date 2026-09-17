@@ -10,6 +10,15 @@ This page accumulates findings on:
 - **Cross-agent learning** — RL signals shared across agents, curriculum design for joint training.
 - **Failure modes** — drift, deadlock, and adversarial dynamics between agents.
 
+## Adding a model to the pool can make the system worse than its best member (2026-09-17)
+
+[Mo' Models, Mo' Problems](../ai-routing/2026-09-17-model-pool-selection-multi-agent.md) (arxiv 2609.17306, NVIDIA) tests the diversity intuition that sits under most of this page and finds it does not hold where it is most often invoked. Eight model-selection strategies (size, accuracy, answer diversity, error diversity, combinations) across routing, majority vote and LLM-as-judge on hard scientific benchmarks: **larger heterogeneous pools raise the oracle ceiling and lower achieved accuracy, often below the best single model in the pool.** The winning strategy is **candidate selection within a single model family**, and majority vote over multiple samples of the best single model lifted Humanity's Last Exam from **29.4% to 32.2%** while nearly every mixed group declined. The authors frame the cause as **instability**: an arbitrary added model injects variance the aggregators have no mechanism to discount.
+
+**Two things this page should carry.** First, the asset-versus-liability split: **heterogeneity pays when a router decides and costs when a vote decides**, because a correct route never invokes the weak member while a vote always counts it. Most production systems calling themselves multi-agent are doing aggregation, so the default architecture is the one the evidence is worst for. Second, this is now the **second result in two days** saying that mixing model families changes behaviour in ways no member's own evaluation predicts: [Emergence World (09-16)](2026-09-16-emergence-world-multiagent-stress-test.md) found the same model-persona pairing behaving differently in mixed versus homogeneous populations and concluded that model-level alignment is not compositional. Capability is not compositional either. **Neither cites the other, and a third instance would make composition-by-default indefensible.**
+
+**The caveat, and it is real.** The benchmarks are verifiable scientific QA, exactly the regime where majority vote is strongest and where a homogeneous pool's correlated errors are least punished. On open-ended long-horizon work, correlated error is the thing diversity is supposed to fix, and that case is untested. The routing arm is also only as good as its router, and the paper does not report how close it came to the oracle.
+
+
 ## The production topology catalog arrives, and two of its three headline failures are cost failures (2026-08-29)
 
 [Multi-Agent Design Patterns](2026-08-29-multi-agent-design-patterns-production-hardening.md) (Ken Huang, Agentic AI) catalogs seven coordination topologies and, more usefully, attaches failure modes to each. The framing claim is that early multi-agent systems fail because coordination is implicit rather than because the agents are weak, and the three named failures are **compounding error loops, exhausted token budgets, and unauthorized mutations**.
