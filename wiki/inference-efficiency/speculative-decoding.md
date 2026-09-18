@@ -134,3 +134,15 @@ The pattern is now: **wherever a generator has a slow target and a credible chea
 - [KV Cache](kv-cache.md) — speculation populates the target's KV cache cheaply
 - [Knowledge Distillation](knowledge-distillation.md) — drafts can be distilled, MTP heads can be co-trained
 - [RL for LLMs](../llms-foundation-models/rl-for-llms.md) — rollout cost dominates, speculation is the answer
+
+## 2026-09-18: the draft model becomes optional
+
+**[Uno (09-18)](2026-09-18-uno-diffusion-augmented-lossless-speedup.md) (arXiv 2609.04010) keeps this page's defining guarantee and deletes its defining cost.** Every technique catalogued here improves the draft, the verification, or the acceptance rate, and all of them presuppose a separate draft model that must be trained against the target, kept in sync when the target updates, and held resident alongside it. **That operational burden, not the acceptance rate, is what has kept speculative decoding out of many serving stacks.**
+
+Uno **decouples parameters into autoregressive weights trained with ordinary next-token prediction and lightweight diffusion weights** learned in a short distillation phase. The diffusion pathway proposes several tokens in parallel, and a sampler family called **Ψ-Spec** accepts them in a way that provably reproduces the autoregressive model's own distribution. **Same losslessness guarantee this page has always required, no second network.** The released checkpoint is an Apache-2.0 LoRA adapter over an existing 7B base, so adoption is an adapter load rather than a migration, and the paper states Uno can be trained from scratch or retrofitted onto existing open-weight autoregressive models.
+
+**The claim that deserves the most scrutiny is the one the abstract underplays: higher throughput than leading speculative-decoding methods at EVERY evaluated batch size, including the largest the device supports, with up to 3x over the base model.** Most decode-acceleration on this page loses its advantage as batching improves GPU utilization, because the spare capacity speculation exploits disappears. A method that holds its gain at maximum batch is behaving differently from everything else here, and that is either the most important result in the paper or a measurement artifact. **It is the first thing to check in a reproduction.**
+
+**Evidence quality: a vendor announcement plus an abstract, reaching the wiki through the X home feed as the day's top-ranked post.** No independent reproduction. Note also a discrepancy worth carrying: the announcement quotes up to 2.2x and the abstract up to 3x, against different baselines (diffusion methods versus the base autoregressive model), so neither number should be cited without saying which.
+
+**Composition nobody has tried.** Uno reduces the number of sequential decode steps; [DeepSeek-V4.1-Flash (09-18)](2026-09-18-deepseek-v41-flash-kv-cache-compression.md) reduced the bytes per step to 890 per token by compressing precision, tokens and layers at once. **Orthogonal axes, and they should multiply.**
