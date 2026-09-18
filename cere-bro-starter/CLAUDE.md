@@ -11,6 +11,7 @@ Bootstrap will ask for your research focus, topics, and GitHub details, then gen
 ## Skills available
 
 - `/bootstrap` — one-time setup; run this first
+- `/automate` — schedule the daily pipeline (farmers + digest + site) on your machine
 - `/ingest` — process raw source files into wiki pages
 - `/digest` — write the daily digest from available sources
 - `/publish` — deploy the Astro site to GitHub Pages

@@ -4,63 +4,8 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-05-15T09:30:04.781302+00:00",
-  "known_non_ai_handles": [
-    "jordanbpeterson",
-    "DonaldJTrumpJr",
-    "hodgetwins",
-    "TheBabylonBee",
-    "dbongino",
-    "laurenboebert",
-    "DineshDSouza",
-    "FmrRepMTG",
-    "benshapiro",
-    "RandPaul",
-    "tedcruz",
-    "mattgaetz",
-    "TulsiGabbard",
-    "SpeakerMcCarthy",
-    "realDailyWire",
-    "RepBoebert",
-    "seanhannity",
-    "adamcarolla",
-    "hutdesigns",
-    "crazybuster",
-    "SusieWiles47",
-    "RonanFarrow",
-    "herandrews",
-    "AdaLluch",
-    "PeterM31890",
-    "MarkwayneMullin",
-    "jondotvio",
-    "DAGToddBlanche",
-    "DmitryMartyanov",
-    "shawngold",
-    "PatrickHeizer",
-    "mysteriouskat",
-    "NicoleNosek417",
-    "CallSignCourage",
-    "LukeNosek",
-    "AndrThie",
-    "25Guns_Tesla",
-    "tesla_korea",
-    "xenocosmography",
-    "Math_files",
-    "europa",
-    "aaronburnett",
-    "roshanthomas",
-    "natecavanaugh",
-    "yurimilner",
-    "MKBHD",
-    "atmoio",
-    "danWpriestley",
-    "SpaceX",
-    "benjitaylor",
-    "kevinnbass",
-    "ARK_Funds",
-    "ChrisWillx",
-    "StatlerLasVegas"
-  ],
+  "following_last_checked": "",
+  "known_non_ai_handles": [],
   "bio_ai_keywords": [
     "AI",
     "ML",
@@ -117,37 +62,36 @@
   ],
   "ai_handles": [
     {
-      "handle": "jekbradbury",
-      "name": "James Bradbury",
-      "org": "Anthropic",
-      "timezone": "PT",
-      "focus": [
-        "compute",
-        "LLMs",
-        "TPUs",
-        "kernels"
-      ]
-    },
-    {
-      "handle": "nottombrown",
-      "name": "Tom Brown",
-      "org": "Anthropic",
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "org": "OpenAI",
       "timezone": "PT",
       "focus": [
         "LLMs",
-        "foundation models",
-        "GPT"
+        "research",
+        "products"
       ]
     },
     {
-      "handle": "bcherny",
-      "name": "Boris Cherny",
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
       "org": "Anthropic",
       "timezone": "PT",
       "focus": [
         "Claude",
-        "coding agents",
-        "tooling"
+        "safety",
+        "LLMs"
+      ]
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "org": "Google",
+      "timezone": "PT",
+      "focus": [
+        "research",
+        "RL",
+        "foundation models"
       ]
     },
     {
@@ -158,8 +102,18 @@
       "focus": [
         "research",
         "AI",
-        "algorithms",
-        "neuroscience"
+        "algorithms"
+      ]
+    },
+    {
+      "handle": "MetaAI",
+      "name": "Meta AI",
+      "org": "Meta",
+      "timezone": "PT",
+      "focus": [
+        "open models",
+        "LLaMA",
+        "research"
       ]
     },
     {
@@ -171,213 +125,102 @@
         "GPU",
         "hardware",
         "CUDA",
-        "inference",
-        "training"
+        "inference"
       ]
     },
     {
-      "handle": "dchaplot",
-      "name": "Devendra Chaplot",
-      "org": "xAI",
-      "timezone": "PT",
+      "handle": "MistralAI",
+      "name": "Mistral AI",
+      "org": "Mistral",
+      "timezone": "CET",
       "focus": [
-        "superintelligence",
-        "reinforcement learning",
-        "agents"
+        "open models",
+        "LLMs"
       ]
     },
     {
-      "handle": "TobyPhln",
-      "name": "Toby Pohlen",
-      "org": "xAI",
-      "timezone": "PT",
+      "handle": "huggingface",
+      "name": "Hugging Face",
+      "org": "Hugging Face",
+      "timezone": "ET",
       "focus": [
-        "xAI",
-        "DeepMind",
-        "foundation models"
+        "open models",
+        "datasets",
+        "tooling"
       ]
     },
     {
-      "handle": "JasonBud",
-      "name": "Jason Ginsberg",
-      "org": "xAI",
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "org": "",
       "timezone": "PT",
       "focus": [
-        "xAI",
-        "Cursor",
-        "coding agents"
+        "LLMs",
+        "training",
+        "education"
       ]
     },
     {
-      "handle": "milichab",
-      "name": "Andrew Milich",
-      "org": "xAI",
-      "timezone": "PT",
+      "handle": "ylecun",
+      "name": "Yann LeCun",
+      "org": "Meta",
+      "timezone": "ET",
       "focus": [
-        "xAI",
-        "SpaceX",
-        "Cursor"
+        "deep learning",
+        "research"
       ]
     },
     {
-      "handle": "lolpython",
-      "name": "Jake",
-      "org": "xAI",
+      "handle": "JeffDean",
+      "name": "Jeff Dean",
+      "org": "Google",
       "timezone": "PT",
       "focus": [
-        "xAI",
+        "systems",
         "infrastructure",
-        "systems"
+        "research"
       ]
     },
     {
-      "handle": "MillionInt",
-      "name": "Jerry Tworek",
-      "org": "Core Automation",
+      "handle": "drjimfan",
+      "name": "Jim Fan",
+      "org": "NVIDIA",
       "timezone": "PT",
       "focus": [
-        "RL",
-        "reasoning models",
-        "o1",
-        "o3",
-        "OpenAI"
+        "robotics",
+        "agents",
+        "RL"
       ]
     },
     {
-      "handle": "mntruell",
-      "name": "Michael Truell",
-      "org": "Cursor AI",
-      "timezone": "PT",
+      "handle": "_akhaliq",
+      "name": "AK",
+      "org": "Hugging Face",
+      "timezone": "ET",
       "focus": [
-        "coding agents",
-        "AI tooling",
-        "Cursor"
-      ]
-    },
-    {
-      "handle": "imagine",
-      "name": "Grok Imagine",
-      "org": "xAI",
-      "timezone": "PT",
-      "focus": [
-        "Grok",
-        "image generation",
-        "xAI"
-      ]
-    },
-    {
-      "handle": "TareqAmin_",
-      "name": "Tareq Amin",
-      "org": "HUMAIN",
-      "timezone": "AST",
-      "focus": [
-        "AI infrastructure",
-        "cloud",
-        "Saudi AI",
-        "models"
+        "papers",
+        "research surfacing"
       ]
     },
     {
       "handle": "lexfridman",
       "name": "Lex Fridman",
-      "org": "Independent",
+      "org": "",
       "timezone": "ET",
       "focus": [
         "AI",
-        "robotics",
-        "research interviews"
+        "interviews"
       ]
     },
     {
-      "handle": "mattsgarman",
-      "name": "Matt Garman",
-      "org": "AWS",
-      "timezone": "PT",
-      "focus": [
-        "cloud",
-        "AI infrastructure",
-        "AWS"
-      ]
-    },
-    {
-      "handle": "magicsilicon",
-      "name": "Pushkar Ranade",
-      "org": "Independent",
-      "timezone": "PT",
-      "focus": [
-        "semiconductors",
-        "chip architecture",
-        "AI hardware"
-      ]
-    },
-    {
-      "handle": "Tesla",
-      "name": "Tesla",
-      "org": "Tesla",
-      "timezone": "PT",
-      "focus": [
-        "autonomy",
-        "AI",
-        "robotics",
-        "FSD"
-      ]
-    },
-    {
-      "handle": "ns123abc",
-      "name": "NIK",
-      "org": "Independent",
+      "handle": "srush_nlp",
+      "name": "Sasha Rush",
+      "org": "",
       "timezone": "ET",
       "focus": [
-        "AI news",
-        "OpenAI",
-        "Anthropic",
-        "Musk",
-        "industry"
-      ]
-    },
-    {
-      "handle": "_sholtodouglas",
-      "name": "Sholto Douglas",
-      "org": "Anthropic",
-      "timezone": "PT",
-      "focus": [
-        "reinforcement learning"
-      ]
-    },
-    {
-      "handle": "BrettRatner",
-      "name": "Brett Ratner",
-      "org": "Independent",
-      "timezone": "PT",
-      "focus": [
-        "AI"
-      ]
-    },
-    {
-      "handle": "logangraham",
-      "name": "Logan Graham",
-      "org": "Anthropic",
-      "timezone": "PT",
-      "focus": [
-        "AI"
-      ]
-    },
-    {
-      "handle": "ClaudeDevs",
-      "name": "ClaudeDevs",
-      "org": "Independent",
-      "timezone": "PT",
-      "focus": [
-        "AI"
-      ]
-    },
-    {
-      "handle": "WHFraudTF",
-      "name": "White House Task Force to Eliminate Fraud",
-      "org": "Independent",
-      "timezone": "PT",
-      "focus": [
-        "AI"
+        "NLP",
+        "LLMs",
+        "research"
       ]
     },
     {
@@ -386,7 +229,8 @@
       "org": "Cursor",
       "timezone": "PT",
       "focus": [
-        "AI"
+        "coding agents",
+        "AI tooling"
       ]
     }
   ],
