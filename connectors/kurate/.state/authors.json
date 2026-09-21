@@ -14940,10 +14940,26 @@
         "arxiv_id": "2607.29440v1",
         "title": "Beyond Retrieval: Analytic Memory for Multimodal Agents",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W32"
+    "last_seen": "2026-W39"
   },
   "Chenghan Wu": {
     "appearances": [
@@ -26546,10 +26562,26 @@
         "arxiv_id": "2609.00892v1",
         "title": "CARE: Contrastive Anchor-based Rubric Evolution for Large Language Model Post-Training",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W39"
   },
   "Xinxin Song": {
     "appearances": [
@@ -26568,10 +26600,26 @@
         "arxiv_id": "2609.00892v1",
         "title": "CARE: Contrastive Anchor-based Rubric Evolution for Large Language Model Post-Training",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W39"
   },
   "Chen Ruinian": {
     "appearances": [
@@ -26634,10 +26682,26 @@
         "arxiv_id": "2609.00892v1",
         "title": "CARE: Contrastive Anchor-based Rubric Evolution for Large Language Model Post-Training",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W39"
   },
   "Yangen Hu": {
     "appearances": [
@@ -29666,10 +29730,18 @@
         "arxiv_id": "2609.16804v1",
         "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Jungseul Ok": {
     "appearances": [
@@ -29778,10 +29850,18 @@
         "arxiv_id": "2609.15779v1",
         "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Shaolei Zhang": {
     "appearances": [
@@ -29792,10 +29872,18 @@
         "arxiv_id": "2609.15779v1",
         "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Ju Fan": {
     "appearances": [
@@ -29806,10 +29894,18 @@
         "arxiv_id": "2609.15779v1",
         "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Xiaoyong Du": {
     "appearances": [
@@ -29820,10 +29916,18 @@
         "arxiv_id": "2609.15779v1",
         "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.15779v1",
+        "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Shuhan Xue": {
     "appearances": [
@@ -29834,10 +29938,18 @@
         "arxiv_id": "2609.17523v1",
         "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Jianyuan Zhong": {
     "appearances": [
@@ -29848,10 +29960,18 @@
         "arxiv_id": "2609.17523v1",
         "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Ziyuan Nan": {
     "appearances": [
@@ -29862,10 +29982,18 @@
         "arxiv_id": "2609.17523v1",
         "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Wenbin Li": {
     "appearances": [
@@ -29876,10 +30004,18 @@
         "arxiv_id": "2609.17523v1",
         "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Zhaochen Yu": {
     "appearances": [
@@ -29890,10 +30026,18 @@
         "arxiv_id": "2609.17523v1",
         "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Jinchao Ding": {
     "appearances": [
@@ -29904,10 +30048,18 @@
         "arxiv_id": "2609.17523v1",
         "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2609.17523v1",
+        "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Fengrui Liu": {
     "appearances": [
@@ -29918,10 +30070,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Ningxin Shen": {
     "appearances": [
@@ -29932,10 +30092,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Yi Li": {
     "appearances": [
@@ -29946,10 +30114,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Yiwei Fu": {
     "appearances": [
@@ -29960,10 +30136,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Feng Liu": {
     "appearances": [
@@ -29974,10 +30158,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Jiangmeng Li": {
     "appearances": [
@@ -29988,10 +30180,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.17076v1",
+        "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Sibo Zhu": {
     "appearances": [
@@ -30002,10 +30202,18 @@
         "arxiv_id": "2609.15364v1",
         "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Shicheng Fan": {
     "appearances": [
@@ -30016,10 +30224,18 @@
         "arxiv_id": "2609.15364v1",
         "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Xinyue Wang": {
     "appearances": [
@@ -30030,10 +30246,18 @@
         "arxiv_id": "2609.15364v1",
         "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Wenyi Wu": {
     "appearances": [
@@ -30044,10 +30268,18 @@
         "arxiv_id": "2609.15364v1",
         "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Kun Zhou": {
     "appearances": [
@@ -30058,10 +30290,18 @@
         "arxiv_id": "2609.15364v1",
         "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Biwei Huang": {
     "appearances": [
@@ -30072,10 +30312,18 @@
         "arxiv_id": "2609.15364v1",
         "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.15364v1",
+        "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Mingzhou Jiang": {
     "appearances": [
@@ -30240,10 +30488,18 @@
         "arxiv_id": "2609.17160v1",
         "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.17160v1",
+        "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Caroline Sainvitu": {
     "appearances": [
@@ -30254,10 +30510,18 @@
         "arxiv_id": "2609.17160v1",
         "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.17160v1",
+        "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Tariq Benamara": {
     "appearances": [
@@ -30268,10 +30532,18 @@
         "arxiv_id": "2609.17160v1",
         "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2609.17160v1",
+        "title": "Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution to the ONERA CRM Wall Distribution 2025 Challenge",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Md Rayhanul Masud": {
     "appearances": [
@@ -30282,10 +30554,18 @@
         "arxiv_id": "2609.16754v1",
         "title": "TAME: Token Attribution and Masking for Emergent misalignment",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.16754v1",
+        "title": "TAME: Token Attribution and Masking for Emergent misalignment",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Md Rizwan Parvez": {
     "appearances": [
@@ -30296,10 +30576,18 @@
         "arxiv_id": "2609.16754v1",
         "title": "TAME: Token Attribution and Masking for Emergent misalignment",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.16754v1",
+        "title": "TAME: Token Attribution and Masking for Emergent misalignment",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Fangke Chen": {
     "appearances": [
@@ -30310,10 +30598,18 @@
         "arxiv_id": "2609.16804v1",
         "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Sirry Chen": {
     "appearances": [
@@ -30324,10 +30620,18 @@
         "arxiv_id": "2609.16804v1",
         "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Zhongyu Wei": {
     "appearances": [
@@ -30338,10 +30642,18 @@
         "arxiv_id": "2609.16804v1",
         "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.16804v1",
+        "title": "SOTER: A Generative Time-Series Foundation Model for Wearable Human Physiological Signals",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Koffi Ognandon Ayena": {
     "appearances": [
@@ -30352,10 +30664,18 @@
         "arxiv_id": "2609.17358v1",
         "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Frédéric Holweck": {
     "appearances": [
@@ -30366,10 +30686,18 @@
         "arxiv_id": "2609.17358v1",
         "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Serge Iovleff": {
     "appearances": [
@@ -30380,10 +30708,18 @@
         "arxiv_id": "2609.17358v1",
         "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Amah S d'Almeida": {
     "appearances": [
@@ -30394,10 +30730,18 @@
         "arxiv_id": "2609.17358v1",
         "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.17358v1",
+        "title": "Hybrid Variational Quantum Circuits for Multivariate Regression and High-Dimensional Data Reconstruction",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "John Donaghy": {
     "appearances": [
@@ -30408,10 +30752,18 @@
         "arxiv_id": "2609.17380v1",
         "title": "OPEN-1B: A Fully Auditable Training Run",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Brian Wilcox": {
     "appearances": [
@@ -30422,10 +30774,18 @@
         "arxiv_id": "2609.17380v1",
         "title": "OPEN-1B: A Fully Auditable Training Run",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Oğuzhan Ersoy": {
     "appearances": [
@@ -30436,10 +30796,18 @@
         "arxiv_id": "2609.17380v1",
         "title": "OPEN-1B: A Fully Auditable Training Run",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Shikhar Rastogi": {
     "appearances": [
@@ -30450,10 +30818,18 @@
         "arxiv_id": "2609.17380v1",
         "title": "OPEN-1B: A Fully Auditable Training Run",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Adam St Arnaud": {
     "appearances": [
@@ -30464,10 +30840,18 @@
         "arxiv_id": "2609.17380v1",
         "title": "OPEN-1B: A Fully Auditable Training Run",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Alexey Titov": {
     "appearances": [
@@ -30478,10 +30862,18 @@
         "arxiv_id": "2609.17380v1",
         "title": "OPEN-1B: A Fully Auditable Training Run",
         "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.17380v1",
+        "title": "OPEN-1B: A Fully Auditable Training Run",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W39"
   },
   "Yean Hoon Ong": {
     "appearances": [
@@ -30492,9 +30884,777 @@
         "arxiv_id": "2609.15555v1",
         "title": "Bayesian Optimisation Using Product-of-Experts Gaussian Process Models with Uncertainty Calibration",
         "ai_rating": 3.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.15555v1",
+        "title": "Bayesian Optimisation Using Product-of-Experts Gaussian Process Models with Uncertainty Calibration",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Jinli Suo": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.18057v1",
+        "title": "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Zofia Smoleń": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.20732v1",
+        "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
+        "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.20732v1",
+        "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Yuzhong Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Haoyang Ma": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Chao Peng": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Lionel Briand": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Boxi Yu": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Jialun Cao": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.18099v1",
+        "title": "When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Ziqiao Shang": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.20455v1",
+        "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.20455v1",
+        "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Ling-Yue Ge": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.20455v1",
+        "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.20455v1",
+        "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Lan-Zhe Guo": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.20455v1",
+        "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+        "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2609.20455v1",
+        "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Lefebvre Renard Clément": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.18278v1",
+        "title": "Building Trust in Artificial Intelligence: A Necessity for Railway Applications",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W38",
     "last_seen": "2026-W38"
+  },
+  "Lébé Vincent": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.18278v1",
+        "title": "Building Trust in Artificial Intelligence: A Necessity for Railway Applications",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Da Silva Ribeiro Pereira Ricardo": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.18278v1",
+        "title": "Building Trust in Artificial Intelligence: A Necessity for Railway Applications",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Sundell Johan": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.18278v1",
+        "title": "Building Trust in Artificial Intelligence: A Necessity for Railway Applications",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Jaoul Arnaud Saiah Kenza": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.18278v1",
+        "title": "Building Trust in Artificial Intelligence: A Necessity for Railway Applications",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Mijatovíc Nenad": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.18278v1",
+        "title": "Building Trust in Artificial Intelligence: A Necessity for Railway Applications",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W38"
+  },
+  "Tung Tran": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Viet Bao Mai": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Hoang Ta": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Tuan Dam": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.19956v1",
+        "title": "Graph-Based Stochastic Power-UCT: Monte-Carlo Graph Search with Power Mean Estimation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Matteo Marchi": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "João Pedro Silvestre": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Bahman Gharesifard": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Paulo Tabuada": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.18878v1",
+        "title": "Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Junda Ying": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Zhiwei Zeng": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Peijie Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.20008v1",
+        "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Shabir Ahmad Sofi": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.18219v1",
+        "title": "APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.18219v1",
+        "title": "APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Bisma Majid": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.18219v1",
+        "title": "APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.18219v1",
+        "title": "APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Mir Mohammad Yousuf": {
+    "appearances": [
+      {
+        "week": "2026-W38",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.18219v1",
+        "title": "APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study",
+        "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.18219v1",
+        "title": "APGEM: Adaptive Policy-Guided Error Mitigation for Quantum Reinforcement Learning on a Real-World CVRP Case Study",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W38",
+    "last_seen": "2026-W39"
+  },
+  "Bowen Ye": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.22068v1",
+        "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Lei Li": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.22068v1",
+        "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Shicheng Li": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.22068v1",
+        "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Zihao Yue": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.22068v1",
+        "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Linghao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.22068v1",
+        "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Hanglong Lv": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.22068v1",
+        "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Jinning Liang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.21755v1",
+        "title": "ECG Mirage: Revealing and Mitigating the Underutilisation of ECGs in Vision-Language Models for Clinical Prediction",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Mingcheng Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.21755v1",
+        "title": "ECG Mirage: Revealing and Mitigating the Underutilisation of ECGs in Vision-Language Models for Clinical Prediction",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Tingting Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.21755v1",
+        "title": "ECG Mirage: Revealing and Mitigating the Underutilisation of ECGs in Vision-Language Models for Clinical Prediction",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
   }
 }

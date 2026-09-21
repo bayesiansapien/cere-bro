@@ -263,3 +263,23 @@ Four states acted in under two months and 300+ localities have voted to halt dat
 **And it contradicts the market.** [Wall Street's verdict on the proposed AI slowdown (09-15)](../ai-industry/2026-09-15-pacing-the-frontier-debate.md) had neocloud and chip stocks falling several percent while enterprise software rallied (ServiceNow +7%, Salesforce +5%), pricing in reduced buildout. SemiAnalysis's forecast **has not moved in twelve months** despite bi-weekly updates, because construction keeps accelerating. **Equity markets are pricing a slowdown the satellite imagery does not show**, and only one of those two signals is made of concrete.
 
 **A detail worth recording exactly as stated.** SemiAnalysis says they augmented their analyst team with "an army of state-of-the-art research agents" to do the parcel-matching, and in the same essay name "uninformed claude-coded forecasts" as the source of the earlier bad narrative about cancelled capacity. **Agents produced both the misinformation and the debunking**, and the difference was the ground-truth layer (property records, permits, satellite imagery) sitting underneath one of them.
+
+---
+
+## 2026-09-20: the volume business and the revenue business separate
+
+**Vercel AI Gateway data, reported today, is the clearest cross-vendor traffic picture this page has, and it shows the two sides of the market coming apart.** Full write-up: [the open-weight token share inversion (09-20)](../ai-industry/2026-09-20-open-weight-token-share-inversion.md).
+
+By token volume: **open-weight 78.4%, closed 21.6%**, against roughly 40% open in June, so the open share nearly doubled in a quarter. **DeepSeek V4.1 Flash alone is 59.3% of all tokens** crossing the gateway; Claude Opus 4.8 and Claude Sonnet 5 are 1.7% each.
+
+By spend the ordering inverts: **Opus 4.8 takes 13.7% of dollars on 1.7% of tokens**, Anthropic's five listed models take **36.9% of total spending**, and DeepSeek V4.1 Flash moves most of the tokens for **5.1% of spending**. The closed tier is charging roughly an order of magnitude more per token for the work buyers will not delegate downward.
+
+**The read for this page: these are no longer the same business, and the frontier labs' remaining one is higher-margin and smaller.** A revenue base concentrated in a narrow band of hard tasks is more exposed to a one-notch improvement in open models than a volume base would be. That is the mechanism behind [Nathan Lambert's worry (09-20)](../agentic-systems/2026-09-20-scientisttwo-recursive-self-improvement.md) that labs cannot hold a constant share of compute on internal R&D as volume grows, particularly under IPO scrutiny, and it sits alongside **OpenAI's reported forecast of nearly $278 billion in cash burn through 2030**, above its earlier guidance to investors.
+
+**Caveats that matter.** One gateway is one population, and Vercel's skews toward cost-sensitive web and agent developers, so 78.4% is an upper bound on the general market rather than an estimate of it. Token volume also flatters whichever models think longest, since reasoning models emit large numbers of internal tokens per unit of delivered output, and [today's decode-inversion entry](../inference-efficiency/2026-09-20-test-time-compute-decode-inversion.md) puts that at 16,000 to 128,000 thinking tokens per request on frontier reasoning systems. A share measured in tokens is not a share measured in work.
+
+**One vendor at 59.3% is a concentration finding in its own right.** The case for open weights is portability: self-host, fine-tune, change clouds. That case is about the licence. It is not a claim about a diversified supplier base, and the gateway does not currently have one.
+
+### The fab side: this quarter's process wins are margin, not nodes
+
+[The semiconductor process weekly (09-20)](2026-09-20-semiconductor-process-weekly-m3d.md) carries nine screened results, and the notable thing for this page is that three are cost and uptime results rather than capability results: low-GWP etch gases approaching CHF₃ performance at roughly 1/14,600th the global warming potential, EUV source debris separation for source lifetime, and nitrogen-plasma activation for the wafer bonding that HBM stacking depends on. The capability item is **wafer-scale monolithic 3D integration of ALD oxide semiconductors on 200mm wafers**, with over 100,000 devices, 0.04 V threshold-voltage standard deviation, and a four-tier compute-in-memory accelerator delivering modeled **1.4 to 2.9x** speed gains over 2D baselines. Yield compounding across tiers is the unsolved economics: a three-tier process at 99% per-tier yield is a 97% process, and the arithmetic stops being friendly well before eight tiers.

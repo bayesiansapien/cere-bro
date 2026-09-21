@@ -2,6 +2,22 @@
 
 Agent memory is the long-term, cross-session store an agent uses to preserve facts, preferences, traces, and state between interactions. It is structurally distinct from the KV cache (which is per-context, short-term, attention-internal) and from the prompt window (which is per-request).
 
+## 2026-09-19: agent state is bloated at three layers at once, and three unrelated groups attacked all three in a fortnight
+
+**State the pattern, because it crossed the threshold today.** Everything on this page so far treats agent memory as a *retrieval* problem: what to store, how to index it, how to read it back. Three results in fourteen days reframe it as a *footprint* problem, and they do it at three different layers of the stack with no shared authors and no cross-citation:
+
+- **The prompt.** [SKILL.state (09-19)](2026-09-19-skill-state-mutable-agent-state.md) replaces the append-only transcript with a mutable state object, so the model sees the skill spec, the latest observation, and a structured state it updates explicitly. **Cumulative tokens down 16x at 100 turns**, prompt footprint constant rather than growing.
+- **The loop.** **[SoL-Pi (09-18)](2026-09-18-sol-pi-recursive-harness-research-loops.md)** halved token traffic in a recursive auto-research harness, and the digest that day made the compounding point: halving traffic does not only save money, it **doubles how many self-improvement iterations fit in the same budget**.
+- **The host.** [AgentZip (09-19)](2026-09-19-agentzip-sibling-sandbox-memory.md) compresses sibling agent sandboxes against their shared template and against each other, during the window when the agent is blocked waiting on an LLM response. **Sandbox-owned memory falls up to 8.7x, against 2.1x for stock Linux**, and restore prefetching holds the resulting slowdown to 1.40x instead of 3.1x.
+
+**The unifying claim, which none of the three states: an agent's "memory" is mostly a record of how it got here, and almost none of that is load-bearing for what it does next.** Append-only history, a repeated base image, and an unpruned research loop are three encodings of the same redundancy. The fix in all three cases is to separate *state* from *history* and pay only for state.
+
+**This composes with the parallelism argument rather than competing with it.** [Elo-per-token (09-15)](../inference-efficiency/2026-09-15-elo-per-token-agent-test-time-scaling.md), which converts within-task quality at each token budget into a cross-task Elo and locates the budget where a marginal token stops beating an independent sample, showed that re-slicing a fixed 100M-token budget into parallel sessions at that cap buys **+264 Elo over one long session**. That argues for width. AgentZip prices the thing width costs, and finds nearly nine tenths of it is redundant. **Width is both better on quality per token and cheaper on infrastructure than a naive accounting suggests.**
+
+**The open question this creates.** SKILL.state reports tokens; it does not report task success at matched budget. Constant-size prompts should cost accuracy on problems that genuinely need full history, and the number that matters is the saving **at equal success rate**, not the saving. Until someone reports it, the 16x is an upper bound on a trade whose price is unmeasured.
+
+---
+
 ## 2026-09-04: the store-and-retrieve architecture is now under attack from three sides, and the gap none of them touches got promoted to a safety problem
 
 **The pattern crossed this wiki's three-paper threshold today, so state it.** Three results in three days all move work **out of the read path** and into a representation the model consumes directly, rather than improving retrieval itself:
