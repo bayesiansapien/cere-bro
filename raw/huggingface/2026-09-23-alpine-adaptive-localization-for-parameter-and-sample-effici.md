@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-09-23T05:53:04.588715+00:00
+arxiv_id: 2609.22323
+url: https://huggingface.co/papers/2609.22323
+arxiv_url: https://arxiv.org/abs/2609.22323
+date: 2026-09-23
+---
+
+# ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning
+
+Few-shot learning research is predominantly evaluated on accuracy alone, with limited attention to the parameter and training-sample budgets required to reach that accuracy - a real constraint for practitioners without large-scale compute. We present an ultra-lightweight (22,249-34,917 parameter) spatial-relational architecture for few-shot image classification that combines fixed Gabor edge-energy guidance with a windowed, content-adaptive patch locator. Under a strictly matched, iso-episode-budget protocol (250 meta-training episodes, 5 canonical seeds, 600 evaluation episodes per seed), our architecture achieves 5-shot accuracy gains, consistent across all five seeds, over Prototypical Networks, Relation Networks, and MAML on both CIFAR-FS and MiniImageNet, while using 27-53% fewer parameters than any baseline. It also converges in fewer training episodes, generalizes better to an unseen fine-grained domain (CUB-200-2011 birds, zero retraining), and is more robust to 50% occlusion and 25% spatial translation than all three baselines. A series of falsification ablations - zeroing relational tokens at inference and retraining without them entirely - shows that the architecture's pairwise relational computation, while present, is not the primary driver of its performance; the content-adaptive patch locator is. We report this honestly, together with a capacity sweep showing a genuine accuracy plateau near 22-35k parameters, and release full seed-level results and checkpoint hashes for reproducibility.
