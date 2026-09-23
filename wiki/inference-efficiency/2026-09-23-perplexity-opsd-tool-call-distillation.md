@@ -43,7 +43,7 @@ flowchart LR
 
 **It supplies a deployed instance of a pattern that has been accumulating on the distillation page as papers.** The wiki has repeatedly recorded that the useful signal in distillation is sparse and selective rather than uniform: [IER-OPD (09-22)](2026-09-22-ier-one-percent-tokens-opd.md) matched full on-policy distillation using 0.1% of tokens by picking them for gradient reliability rather than teacher disagreement, and [TIP](knowledge-distillation.md) earlier found most teacher-generated tokens carry no learning signal. **OPSD is the same selectivity applied at the trajectory level instead of the token level: train on the steps that went wrong, and only on those.**
 
-**It is the second result today using a hindsight-informed teacher to fix a policy that lacks hindsight.** [Taste-Bench (09-23)](../agentic-systems/2026-09-23-taste-bench-long-horizon-decisions.md) distils the judgement of a teacher that has seen the outcome of a decision fork into a student that has not, and reports better fork choices and higher end-to-end SWE-bench Pro success. Two independent groups, one day, the same trick at two different granularities. **Hindsight is becoming a first-class distillation source, and this wiki has no page for it yet.**
+**It is the second result today using a hindsight-informed teacher to fix a policy that lacks hindsight.** [Taste-Bench (09-23)](../agentic-systems/2026-09-23-taste-bench-tasteful-agent.md) distils the judgement of a teacher that has seen the outcome of a decision fork into a student that has not, and reports better fork choices and higher end-to-end SWE-bench Pro success. Two independent groups, one day, the same trick at two different granularities. **Hindsight is becoming a first-class distillation source, and this wiki has no page for it yet.**
 
 **It is also the industry half of a research claim the wiki has been tracking from the other side.** [The 09-22 Salesforce finding](../agentic-systems/2026-09-22-harnesstax-cost-success-frontier.md) was that transplanting a stronger model's harness configuration onto a weaker model degrades it, and that fixing the weaker model's own observed failures works better. OPSD is exactly that policy, automated and shipped: do not copy a better system's behaviour, correct your own observed errors. **Research said fitted beats transplanted; a production system just reported 21% on the fitted route.**
 
@@ -54,5 +54,5 @@ This is a company blog post, not a paper. No ablation separates RFT's contributi
 ## Related pages
 
 - [knowledge-distillation](knowledge-distillation.md) · [tool-calling](../agentic-systems/tool-calling.md) · [self-evolving-agents](../agentic-systems/self-evolving-agents.md)
-- [IER-OPD (09-22)](2026-09-22-ier-one-percent-tokens-opd.md) · [Taste-Bench (09-23)](../agentic-systems/2026-09-23-taste-bench-long-horizon-decisions.md)
+- [IER-OPD (09-22)](2026-09-22-ier-one-percent-tokens-opd.md) · [Taste-Bench (09-23)](../agentic-systems/2026-09-23-taste-bench-tasteful-agent.md)
 - [Daily digest 2026-09-23](../daily-digest/2026-09/2026-09-23.md)
