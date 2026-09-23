@@ -50,7 +50,7 @@ The same allocator extends to joint K+V compression rather than treating keys an
 
 **It confirms the [quantization](quantization.md) page's outlier thesis from a new angle.** The Hadamard rotation is the same trick weight-quantization work has used for two years to tame activation outliers. Its appearance here is evidence that KV quantization and weight quantization are converging on a shared toolkit rather than remaining separate literatures.
 
-**It pairs with Colla-Q, also on this week's Kurate board.** [Colla-Q](2026-09-23-colla-q-moe-quantization.md) allocates bit-width across mixture-of-experts experts by activation entropy. KV-COBRA allocates bit-width across attention heads by distortion. **Two papers on the same board, same week, making the same architectural argument in different parts of the transformer: uniform precision is a bug, and the fix is a per-component allocator.** That is a pattern worth naming.
+**It pairs with Colla-Q, also on this week's Kurate board.** [Colla-Q](2026-09-19-colla-q-moe-quantization-minimax.md) allocates bit-width across mixture-of-experts experts by activation entropy. KV-COBRA allocates bit-width across attention heads by distortion. **Two papers on the same board, same week, making the same architectural argument in different parts of the transformer: uniform precision is a bug, and the fix is a per-component allocator.** That is a pattern worth naming.
 
 **It is complementary, not competitive, with [Flash-dLLM](2026-09-23-flash-dllm-io-aware-kv-cache.md), today's HuggingFace KV-cache entry.** Flash-dLLM leaves the cache size alone and cuts how often the bytes move. KV-COBRA cuts how many bytes exist. Nobody has run them together.
 
@@ -65,4 +65,4 @@ The immediate action is unglamorous and cheap: if you run a quantized KV cache t
 ## Related pages
 
 - [kv-cache](kv-cache.md) · [quantization](quantization.md) · [memory-hierarchy](../hardware/memory-hierarchy.md)
-- [Colla-Q](2026-09-23-colla-q-moe-quantization.md) · [Flash-dLLM](2026-09-23-flash-dllm-io-aware-kv-cache.md) · [ARM](../ai-routing/2026-09-23-arm-routed-memory-attention.md)
+- [Colla-Q](2026-09-19-colla-q-moe-quantization-minimax.md) · [Flash-dLLM](2026-09-23-flash-dllm-io-aware-kv-cache.md) · [ARM](../ai-routing/2026-09-23-arm-routed-memory-attention.md)
