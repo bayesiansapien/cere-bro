@@ -68,3 +68,9 @@ Two HuggingFace arrivals on the same day take opposite positions on how real the
 **The unresolved question is the divergence between the learned reward and the executed verifier**, and neither paper measures it. T1's correctness rests on the environment being real; WMRL's economics rest on it being simulated. That measurement is the most valuable missing experiment on this page.
 
 **This also extends [Terminal Universe (09-04)](2026-09-04-terminal-universe-trajectories-to-environments.md), which argued that reconstructing executable workspaces from recorded runs beats imitating those runs, since a workspace can be re-solved with new tasks while a recording can only be copied.** The progression across two weeks is trajectory → reconstructed environment → learned environment, each step trading fidelity for throughput. **And [The Pulse #191 (09-10)](../hardware/2026-09-10-cpu-shortage-agentic-tool-use.md), which reports a CPU shortage caused by agents running tools, supplies the procurement reading: WMRL's 3-4x speedup is a CPU-shortage mitigation, not only an algorithmic one.**
+
+
+## 2026-09-25: environments have a CPU bill
+
+- **Skill2Env** (NVIDIA, surfaced on the X feed via alphaxiv): 3.4K public Agent Skills turned into about 8K executable terminal environments with programmatic tests and behavioral rubrics. 300 RL steps lift Qwen3.8-27B by 4.7 on Terminal-Bench 2.1. Community-written skills as a task distribution closer to real use.
+- **The hardware cost of this whole page:** the [CPU shortage essay](../hardware/2026-09-25-cpu-shortage-agents-and-rl.md) names RL environments as a main reason cloud CPUs are scarce. Every environment-scaling result (CodeMidas on this week's Kurate board, Skill2Env) is also a CPU-demand result.

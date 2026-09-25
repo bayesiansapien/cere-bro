@@ -710,3 +710,15 @@ On 09-21 this page recorded that **price was never the binding constraint, calib
 - **Cost floor:** Together's Jev-like tev1-4B trained for $17, served at $0.042/M input and free output. distil labs found Jev perfect on inbox sorting but 0.79 on pay/don't-pay, where a 4B reason-first fine-tune hit 0.98: the category's boundary is decisions that need no reasoning.
 - **Capital:** The Information reports TypeSafe in early talks for $1B+ at $10B+, against about $200M a week earlier.
 - **A ceiling on routing:** [Self-Organizing Agent Teams](../agentic-systems/2026-09-24-self-organizing-agent-teams.md) beat a *perfect* router over members' independent answers (66.7% vs 59.0% average; +13.4 on AIME 2026). Routing is bounded by the best member's answer; collaboration is not, and the gain tracks demonstrability (ρ = 0.90). This is the first result on this page that bounds the oracle-router upper bound every routing paper reports against.
+
+
+---
+
+## 2026-09-25: the cascade gets a held-out number, and the gate's blind spot
+
+- **[JEV-as-a-Judge](2026-09-25-jev-as-a-judge-confidence-cascade.md)** (CMU, 2609.26550) is the first held-out test of the cheap-first-pass cascade this page has argued for since 09-21. Jev's max label probability q gates: accept at q ≥ 0.9, else escalate to GPT-6 Astra. On 510 held-out preference pairs it accepts 53.7%, scores **92.5% vs 93.1%**, and pays **56.8% of the fee**. Pairwise items are judged in both orders and averaged before gating, which also cancels position bias.
+- **The blind spot is style.** On RM-Bench hard pairs (the rejected answer is more elaborately written) Jev scores 74.8% vs 94.6%, and its confidence stops identifying errors. A calibration-based router fails exactly on well-written wrong answers. That refines the 09-21 claim: calibration is the binding constraint, and aggregate calibration (S1 Bench's ECE 0.076) hides a failure region.
+- **Thresholds are per-workload.** A GPT-5.6-fallback policy frozen at τ = 0.7 accepts 81% but loses 2.35 points.
+- **The same model helps or hurts depending on the escalation path.** As an ungated best-of-N selector (CLM-8B's chart, 09-24) Jev scored below pass@1. As a gated first-pass judge it keeps 99% of frontier accuracy. The router's value is the fallback, not the first model.
+- **Same-day corroboration:** [Just Ask Jev](../responsible-ai/2026-09-25-just-ask-jev-alignment-detector.md) screens ten alignment-failure types at median AUROC 0.886 for 63x less than LLM judges. Open tier: GLiNER2.5-Decide (340M encoder, 167 ms on CPU), an open decider-4b topping JevBench, a 150K-example open decision dataset, and AnyJev's three-tier calibration ladder (L1 temperature scaling on 100 to 500 labels).
+- **Pricing side:** Microsoft moved Copilot Autopilot and Code to usage-based billing the same day. Metered billing is the unit that makes a cascade's saving visible to the buyer.

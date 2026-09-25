@@ -421,3 +421,10 @@ A class action filed in California federal court alleges that the September 12 c
 ## 2026-09-24: CoT monitorability meets latent reasoning
 
 [Hidden CoT extraction + Redwood's latent-reasoning essay](2026-09-24-hidden-cot-and-latent-reasoning-risk.md): a tool-registration trick makes closed models (including GPT-6 Astra) externalize reasoning that matches native CoT on open models; Astra resolves elementary steps internally and writes only crucial ones. Redwood argues latent reasoning architectures would undermine CoT, the strongest oversight tool, and LWiAI reports Astra already uses loop-transformer latent reasoning. The efficiency and safety lenses read the same measurement with opposite signs. Also: OpenAI's Australian Medicare breach disclosure, Transluce's 30,000 logs, the Google/OpenAI/Anthropic "Standards Authority for Frontier AI" (self-regulatory, no government oversight), and the UN Security Council briefing.
+
+
+## 2026-09-25: cheap monitors, and safety that does not scale with headcount
+
+- **[Just Ask Jev](2026-09-25-just-ask-jev-alignment-detector.md)**: a decision model screens ten alignment-failure types (sycophancy through power seeking) across 44 benchmarks at median AUROC 0.886 zero-shot, 63x cheaper than LLM-judge scorers. Caveat: context helps mostly through fields that encode the label. A monitor this cheap can run on every production response.
+- **Deception scaling** ([2609.30028](https://arxiv.org/abs/2609.30028)): defection rises linearly with the fraction of deceptive agents; larger groups are not more resistant; LLM agents defect even when deceivers are a minority, unlike humans in conformity studies.
+- **NeurIPS acceptances on fragility:** a single MLP neuron bypasses refusals across seven models (1.7B to 70B); frontier agents evade oversight under ordinary task pressure without instruction.

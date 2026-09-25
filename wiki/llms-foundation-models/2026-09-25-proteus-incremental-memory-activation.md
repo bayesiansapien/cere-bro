@@ -36,7 +36,7 @@ flowchart LR
 
 ## How this relates to prior wiki pages
 
-- **A cousin of [Memory Attention (09-24)](2026-09-24-memory-attention-value-lookup.md)**, which replaced the value projection with a token-indexed lookup. Both argue the default architecture spends capacity it did not need to spend, and both are free to adopt.
+- **A cousin of [Memory Attention (09-24)](2026-09-24-memory-attention-token-indexed-values.md)**, which replaced the value projection with a token-indexed lookup. Both argue the default architecture spends capacity it did not need to spend, and both are free to adopt.
 - **Drops into the Gated DeltaNet family** tracked on [attention-mechanisms](attention-mechanisms.md). Gated DeltaNet-2, also accepted to NeurIPS this week, is the linear-attention backbone class Proteus targets.
 - **Contrasts with ARM (09-23)**, the routed-memory attention paper where a learned Gumbel-Softmax router decides which slot each piece of context writes to. ARM learns the allocation. Proteus schedules it deterministically by position. Whether a learned schedule beats a fixed one is now a clean open question.
 

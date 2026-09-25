@@ -161,3 +161,8 @@ The cache is where quantization pays best because it grows with context and conc
 This extends the page's organizing claim, "precision should be allocated, not set," from spatial axes (per head, per expert, per layer, per token) to a temporal one. It lands the day after [KV-COBRA](2026-09-23-kv-cobra-bit-rank-allocation.md) and [Colla-Q](2026-09-19-colla-q-moe-quantization-minimax.md) made the same allocation argument across heads and experts. Still no published system composes two allocation axes.
 
 Practitioner side, same day: Mirai's codec puts **Qwen3.8-27B at 2.4 bits per weight in 8.45 GB**, running on stock vLLM with a plugin (86-141 tok/s on an RTX 3090) and on Apple silicon ([model card](https://huggingface.co/trymirai/Qwen3.8-27B-S-experimental)).
+
+
+## 2026-09-25: the quantization pass itself gets 15x to 30x cheaper
+
+[LLM Compressor v0.14.0](2026-09-25-llm-compressor-v0-14-triton-gptq.md) ships a Triton GPTQ kernel (about 15x end to end), batches same-shape layers (up to 30x on MoE), drops Hessian offloading, and widens the MSE/iMatrix observer grid search, which finds better NVFP4 scales and beats GPTQ for NVFP4 on internal benchmarks. Model-free PTQ adds KV-cache quantization. Red Hat's GLM-5.3-NVFP4 recovers 95%+ and is served with an 8-token speculator on Blackwell, so a bandwidth saving and a sequential-step saving stack. **Why it matters for this page:** [Disaggregated Quantization (09-24)](2026-09-24-disaggregated-quantization-prefill-decode.md) needs a separate prefill checkpoint per model. Cheap requantization removes most of the cost of that idea, and makes per-workload checkpoints an operational choice rather than a research project.

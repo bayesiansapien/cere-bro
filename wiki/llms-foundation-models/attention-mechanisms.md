@@ -170,3 +170,9 @@ Every trainable sparse-attention method this page has tracked shares one archite
 
 - **[Memory Attention](2026-09-24-memory-attention-token-indexed-values.md)**: V = K + Norm(E[token]); no value projection, offloadable per-layer token tables. Perplexity 31.55 to 28.64 at 10B tokens, but at 3x the parameters (1,135M vs 373M), so capacity and architecture are confounded.
 - **[HySparse2](../inference-efficiency/2026-09-24-hysparse2-two-level-kv-sharing.md)**: YOCO-style KV bridging plus token-level sparse KV reuse; the architecture @eliebakouch places alongside DeepSeek V4.1 Flash (YOCO) against Qwen 3.8 Next Flash and GLM 5.3 Flash (3:1 sparse/linear with GDN or KDA).
+
+
+## 2026-09-25: scheduling a fixed memory
+
+- **[Proteus](2026-09-25-proteus-incremental-memory-activation.md)** (NeurIPS 2026): linear-attention memory states are exposed in full from token one, so early tokens sprawl and later ones overwrite. Proteus partitions the state into 16 blocks and unlocks one every N/16 tokens, gating reads and writes. No parameters, no compute, drops into Titans, Comba, SWLA and Hope-Attention; up to +8.4 NIAH at 2x training length. A deterministic counterpart to ARM's learned slot router (09-23). Gated DeltaNet-2, the backbone class it targets, was also accepted to NeurIPS this week.
+- **[Superposition linearity](2026-09-25-superposition-linearity-two-thoughts.md)**: averaged embeddings of two prompts produce roughly the average of the two next-token distributions; the property weakens over pretraining and is restored by light fine-tuning; a guided decoder separates two continuations from one pass. Untested: whether two streams can share one KV cache.

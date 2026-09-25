@@ -1891,3 +1891,15 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-09-24] digest | daily digest, social-stream morning synthesis, Media Zone written; 12 concept pages updated (kv-cache, quantization, model-pruning-sparsity, llm-routing, agent-memory, agent-benchmarks, multi-agent-systems, memory-hierarchy, compute-economics, responsible-ai, rl-for-llms, attention-mechanisms)
 ## [2026-09-24] gap | All eight Reddit subreddits empty; public X scrape 0 tweets (morning, afternoon, evening, and prior-day slots); bookmarks 0 new saves; LinkedIn 4 posts, 1 relevant. Social signal from the ranked X home feed (211 unique posts across six captures). venturebeat-ai RSS now serves a JS bot challenge and returns nothing.
 ## [2026-09-24] note | Kurate three-LLM tournament failed for a NINTH consecutive week (all 40 entries score=1200). No HF and Kurate overlap. Rising authors unchanged (Siyuan Li, Xinxin Song, Tingxiong Xiao; two held-over papers). alphaxiv enrichment returned content only for 2609.26368 and 2609.28399; all others fell back to abstracts.
+
+## [2026-09-25] ingest | JEV-as-a-Judge confidence cascade (2609.26550) | x-feed paper
+## [2026-09-25] ingest | Neural Spectral Capacity (2609.23087) | huggingface
+## [2026-09-25] ingest | LLM Compressor v0.14.0 + GLM-5.3-NVFP4 | x-feed release
+## [2026-09-25] ingest | Pragmatic Engineer: CPU shortages | gmail
+## [2026-09-25] ingest | SemiAnalysis China Datacenter Model | rss
+## [2026-09-25] ingest | Proteus: incremental memory activation (2608.16844) | x-feed paper
+## [2026-09-25] ingest | Superposition linearity in LLMs (2609.29845) | huggingface
+## [2026-09-25] ingest | Just Ask Jev: alignment-failure detector (2609.29429) | huggingface
+## [2026-09-25] digest | BACKFILL: daily digest and social-stream morning synthesis written; Media Zone already written by the 22:25 refresh (covers all five non-empty feed captures) and kept as is; 8 concept pages updated (llm-routing, model-pruning-sparsity, quantization, compute-economics, memory-hierarchy, attention-mechanisms, responsible-ai, agent-training-environments)
+## [2026-09-25] gap | HF and RSS farmed after the fact (scheduled run rate-limited). All eight Reddit subreddits empty; public X scrape 0 tweets (all 09-25 slots and 09-24 afternoon/evening); bookmarks 0 new saves for a third day; LinkedIn 0 posts. Social signal from the ranked X home feed (246 unique posts across six captures). venturebeat-ai RSS still blocked by a bot challenge.
+## [2026-09-25] note | Kurate three-LLM tournament failed for a TENTH consecutive week (all 40 entries score=1200). No HF and Kurate overlap. Rising authors unchanged (Siyuan Li, Xinxin Song, Tingxiong Xiao). alphaxiv enrichment returned content for 2609.26550, 2609.29845, 2608.16844; others fell back to abstracts.

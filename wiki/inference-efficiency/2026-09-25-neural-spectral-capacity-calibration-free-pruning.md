@@ -36,7 +36,7 @@ flowchart LR
 ## How this relates to prior wiki pages
 
 - **Fills a gap on [model-pruning-sparsity](model-pruning-sparsity.md).** Structured pruning on this wiki has almost always needed calibration data or activation statistics to decide what to cut. NSC decides from shape alone. That is a different family from activation-aware pruning, and it only decides *how much* to keep per layer, not *which* weights.
-- **Pairs with GeoPair (09-24)**, the cross-layer factorization paper that compresses by sharing structure across layers. Both treat compression as capacity allocation under a budget. GeoPair uses trained weights, NSC uses none.
+- **Pairs with [GeoPair (09-24)](2026-09-24-geopair-cross-layer-factorization.md)**, the cross-layer factorization paper that compresses by sharing structure across layers. Both treat compression as capacity allocation under a budget. GeoPair uses trained weights, NSC uses none.
 - **Rhymes with LLM Compressor v0.14's REAP expert pruning** ([same day](2026-09-25-llm-compressor-v0-14-triton-gptq.md)), which prunes MoE experts using routing statistics. NSC would be the budget-setting step upstream of a pass like that.
 
 ## Gaps

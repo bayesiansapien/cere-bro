@@ -208,3 +208,8 @@ This page's model of the memory shortage has been demand-side throughout. Buyers
 ## 2026-09-24: flash becomes an inference tier
 
 Three results in one day move inference bytes below DRAM on purpose: **[LM-CXD](2026-09-24-lm-cxd-cxl-ssd-prefix-cache.md)** holds prefix KV caches on a chunk-aware CXL-SSD within 1.5x of DRAM (a stock CXL-SSD is no faster than NVMe; the block interface is the bottleneck), **[Disaggregated Quantization](../inference-efficiency/2026-09-24-disaggregated-quantization-prefill-decode.md)** streams prefill weights from SSD (1.78x TTFT at 8K), and **[Memory Attention](../llms-foundation-models/2026-09-24-memory-attention-token-indexed-values.md)** makes value construction an offloadable token-indexed table. A Google paper the same day found model loading is 55-70% of cold-start latency for small quantized models on serverless CPUs. Context: SemiAnalysis's [ClusterMAX 3.0](2026-09-24-semianalysis-clustermax-3.md) opens with "GPU supply has gone to zero," and memory passed 50% of semiconductor revenue last quarter ([09-23](2026-09-23-semiconductor-week-38-hbf-pim-tiered-kv.md)).
+
+
+## 2026-09-25: host DRAM is not a free tier
+
+The [CPU shortage essay](2026-09-25-cpu-shortage-agents-and-rl.md) adds a constraint to the offload results of 09-24 (Memory Attention's CPU-resident value tables, LM-CXD's CXL-flash prefix cache). CPU servers need DRAM, and DRAM wafers are being reallocated to HBM, so host memory is getting scarcer and pricier at the same time papers treat it as the cheap tier. Offload designs should be costed against current DRAM prices, not historical ones.

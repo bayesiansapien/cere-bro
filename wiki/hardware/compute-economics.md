@@ -304,3 +304,10 @@ By spend the ordering inverts: **Opus 4.8 takes 13.7% of dollars on 1.7% of toke
 ## 2026-09-24: ClusterMAX 3.0 and the financing layer
 
 [SemiAnalysis ClusterMAX 3.0](2026-09-24-semianalysis-clustermax-3.md): 77 providers tested, 19 medallions, Nebius joins CoreWeave in Platinum, "GPU supply has gone to zero." GB300 NVL72 is the most-demanded system and often the best perf per dollar, but failed nodes can't be hot-swapped (SLAs shaped "NVL64+"). Financing has a Matthew effect: frontier labs lock cheap capacity, smaller labs pay fat prepays. Agentic coding is compressing managed-cluster margins as customers self-manage bare metal. Same day: CoreWeave's largest $8.5B DDTL is roughly half floating-rate into a Fed hike (The Information); Oracle invoked force majeure on OpenAI's New Mexico data center; Firmus $10B and QumulusAI $500M GPU debt facilities.
+
+
+## 2026-09-25: the CPU shortage gets a mechanism, and China gets measured
+
+- **[CPU shortage](2026-09-25-cpu-shortage-agents-and-rl.md)** (Pragmatic Engineer): cloud CPU spot pricing has effectively vanished, server orders take about six months at 10% to 20% higher prices, and the datacenter CPU-to-GPU ratio moved from 1:8 to about 1:4 (possibly 1:1). Demand comes from RL environments and cloud-hosted agents running tools. Supply is squeezed by TSMC favoring GPUs and DRAM fabs favoring HBM. This gives the 09-10 CPU note its mechanism.
+- **[SemiAnalysis China Datacenter Model](2026-09-25-semianalysis-china-datacenter-model.md):** China 24GW+ (vs US 56GW, EMEA ~14GW), ~50GW more in pipeline and announcements. BAT capex $20B in 2Q26, more than doubled, with negative free cash flow at all three for the first time. The opposite bottleneck to the West: buildings and power are abundant, chips are constrained.
+- **Deals:** Anthropic and Akamai, seven years, $11.6B, with a warrant for up to 5% of Akamai; Anthropic's compute deals reach $517B in 11 months. DensityAI (ex-Tesla Dojo) nears a $10B valuation with a conditional AWS purchase agreement.
