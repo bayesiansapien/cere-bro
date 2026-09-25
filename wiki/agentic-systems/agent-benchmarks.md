@@ -298,3 +298,10 @@ This page's recurring complaint is that agentic evaluation numbers are not compa
 **It is also the untaken test for [AIDE² (09-23)](2026-09-23-aide2-recursive-self-improvement.md).** That system's first discovered self-improvement was a new search policy, and a search policy is a fork-choosing policy. Whether AIDE²'s eight-day run improved its taste or only its throughput is exactly what this benchmark would say, and neither paper ran the other's test. **Cheapest high-value follow-up on either page.**
 
 **Limits on both.** Scale's training-exposure conclusion is an inference from elimination rather than a positive demonstration of memorization, and a private split is a depleting asset that degrades the first time anyone publishes error analysis on it. Taste-Bench inherits the mistake distribution of whatever agents generated its source trajectories, reports no human baseline, and labels a branch "better" by its outcome in one run, which conflates a good decision with a lucky one on any task with real variance.
+
+
+---
+
+## 2026-09-24: the contamination gap gets a mechanism
+
+**[SchrodingerRepo](2026-09-24-schrodinger-repo-swe-bench-memorization.md)** instantiates the SWE-bench repository fresh at evaluation time, eroding familiar cues (problem statement, namespaces, layout, code) while preserving behaviour. Success falls and interaction cost rises across models, mostly from harder exploration and localization. This locates the 17.8-point public/private gap [SWE-Bench Pro V2 (09-23)](2026-09-23-swe-bench-pro-v2-contamination-gap.md) measured: agents partly find files from memory. Consequence for [HarnessTax (09-22)](2026-09-22-harnesstax-cost-success-frontier.md)-style comparisons: public-split *cost* is contaminated too. Also same day: Meta's production-agent study found IRT adaptive testing reproduces a full benchmark within 1.03 points using 38.5% of questions, but shipped simpler difficulty-stratified subsets ([arXiv 2609.21267](https://arxiv.org/abs/2609.21267)).

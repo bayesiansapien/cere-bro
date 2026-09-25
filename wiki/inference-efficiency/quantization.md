@@ -150,3 +150,14 @@ The cache is where quantization pays best because it grows with context and conc
 **Why these belong together.** The averaging objective that both papers reject is the right objective for a dense network, where every parameter contributes to every forward pass. It is wrong for any architecture with routed or heterogeneous components, for two reasons: a rarely-used component contributes little to the average and catastrophically to the inputs it does serve, and degrading components unevenly silently changes the effective routing distribution, because the router was trained against full-precision components and nothing in the loss notices. **Precision is becoming a routed resource allocated per component, not a global hyperparameter.** That claim now has support from the cache side and the weight side simultaneously, and it extends the 09-11 kv-cache entry ("precision becomes the second thing you route inside the cache") out of the cache and into the weights.
 
 **Tooling caught up on the same day.** HuggingFace shipped [Transformers running llama.cpp quants](https://huggingface.co/blog/transformers-llama-cpp-quants) directly, which collapses the long-standing split between the research quantization stack and the practitioner GGUF stack. If per-component allocation lands anywhere, it lands as an allocation pass inside toolchains like this rather than as a new file format.
+
+
+---
+
+## 2026-09-24: allocation by inference phase
+
+**[Disaggregated Quantization](2026-09-24-disaggregated-quantization-prefill-decode.md) (Panferov, Alistarh et al.) adds a new allocation axis: the inference phase.** Prefill is compute-bound and wants low-precision arithmetic (NVFP4 weights and activations); decode is bandwidth-bound and wants compact weights with unquantized activations. Separate checkpoints per phase: removing activation quantization on decode alone improves decode-heavy accuracy at no cost, and an NVFP4 prefiller lifts a **1-bit** Qwen3.8-27B GGUF decoder by **32.5 points on MMLU-Pro and 35.3 on MMMU-Pro**. The prefiller streams from SSD (ODP) for **1.78x TTFT** at 8K prompts in llama.cpp; shared-weight format disaggregation is validated up to 2.8T parameters.
+
+This extends the page's organizing claim, "precision should be allocated, not set," from spatial axes (per head, per expert, per layer, per token) to a temporal one. It lands the day after [KV-COBRA](2026-09-23-kv-cobra-bit-rank-allocation.md) and [Colla-Q](2026-09-19-colla-q-moe-quantization-minimax.md) made the same allocation argument across heads and experts. Still no published system composes two allocation axes.
+
+Practitioner side, same day: Mirai's codec puts **Qwen3.8-27B at 2.4 bits per weight in 8.45 GB**, running on stock vLLM with a plugin (86-141 tok/s on an RTX 3090) and on Apple silicon ([model card](https://huggingface.co/trymirai/Qwen3.8-27B-S-experimental)).

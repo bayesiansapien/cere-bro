@@ -1,0 +1,20 @@
+---
+source: farmer/huggingface
+farmed: 2026-09-25T17:06:04.306887+00:00
+arxiv_id: 2609.26780
+url: https://huggingface.co/papers/2609.26780
+arxiv_url: https://arxiv.org/abs/2609.26780
+date: 2026-09-24
+upvotes: 82
+authors: ["Haobo Zheng", "Tan Tang", "Yan Chen", "Weijie Wang", "Yingcai Wu"]
+---
+
+# SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue
+
+**Authors:** Haobo Zheng, Tan Tang, Yan Chen, Weijie Wang, Yingcai Wu
+
+**Upvotes:** 82
+
+**Links:** [HuggingFace](https://huggingface.co/papers/2609.26780) · [arXiv](https://arxiv.org/abs/2609.26780)
+
+Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed across members, groups, and time. Together, these issues reveal two core bottlenecks: message attribution and relational understanding in multi-party dialogue, and state reconstruction from interleaved histories. To address both, we propose SpeakerMem-R1: its dual-track memory stores speaker-labeled verbatim messages and derived states organized into person-level and group-level views, then combines evidence from both tracks by entity, event, and time at query time. To reduce attribution and update errors during structured memory construction while enabling local deployment, we train Writer-R1 with SpeakerLevenshtein and speaker-conditioned GRPO. On GroupMemBench, SocialMemBench, and EverMemBench, SpeakerMem-R1 achieves binary accuracies of 47.9%, 69.2%, and 61.9%, respectively. On the publicly reported EverMemBench leaderboard from EverMind-AI, we achieves 62.33%, the best reported result among the latest state-of-the-art frameworks. It also achieves 70.85% on all 1,986 LoCoMo questions, which we use as a two-person long-term conversation boundary test. In a controlled evaluation of 305 questions, RL raises the SFT Writer's mean accuracy from 57.38% to 68.20%. We report both binary accuracy and token-F1, and ablations show that the verbatim and structured tracks, as well as person-level and group-level views, are complementary under the standardized evaluation interface.

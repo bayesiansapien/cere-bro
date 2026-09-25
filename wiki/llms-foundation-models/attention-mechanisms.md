@@ -162,3 +162,11 @@ Every trainable sparse-attention method this page has tracked shares one archite
 **The measurable quantity nobody has published.** SAS's thesis implies a rank correlation between dense-attention weight and budget-conditional marginal contribution, as a function of K. If it is high at large K and collapses at small K, that single curve explains SAS's result and tells every eviction, compression and precision-allocation method on this page and the [KV cache page](../inference-efficiency/kv-cache.md) where its importance heuristic stops being trustworthy. It runs on an existing checkpoint.
 
 **And it is the third instance of a pattern that now deserves naming: the sparsity idea is never the hard part, the kernel is.** [MISA (05-11)](../inference-efficiency/2026-05-11-misa-mixture-of-indexer-sparse-attention.md) turned an expensive 64-head indexer into a mixture-of-experts routed to eight heads per query and the result that mattered was a TileLang kernel at 3.82x the original. [Sparser, Faster, Lighter (09-13)](../inference-efficiency/2026-09-13-sparser-faster-lighter-transformers.md) got over 99% feedforward sparsity from plain L1 regularization and its actual contribution was a sparse packing format plus CUDA kernels. SAS's actual contribution is a one-line training change plus the Triton kernel that makes it affordable. **A sparse-attention or sparse-weight paper without its own kernel should be read as a hypothesis, not a result.**
+
+
+---
+
+## 2026-09-24: values from a table, prefill that exits early
+
+- **[Memory Attention](2026-09-24-memory-attention-token-indexed-values.md)**: V = K + Norm(E[token]); no value projection, offloadable per-layer token tables. Perplexity 31.55 to 28.64 at 10B tokens, but at 3x the parameters (1,135M vs 373M), so capacity and architecture are confounded.
+- **[HySparse2](../inference-efficiency/2026-09-24-hysparse2-two-level-kv-sharing.md)**: YOCO-style KV bridging plus token-level sparse KV reuse; the architecture @eliebakouch places alongside DeepSeek V4.1 Flash (YOCO) against Qwen 3.8 Next Flash and GLM 5.3 Flash (3:1 sparse/linear with GDN or KDA).

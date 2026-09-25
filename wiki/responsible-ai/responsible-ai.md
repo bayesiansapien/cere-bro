@@ -414,3 +414,10 @@ A class action filed in California federal court alleges that the September 12 c
 **One more item for the accountability thread.** The Opus 5.5 system card discloses that **METR's assessment of AI R&D acceleration at Anthropic relied partly on undisclosed information, including conclusions from a separate METR team with elevated access that other METR staff could not inspect.** [The 09-19 entry](#2026-09-19-a-steerable-internal-state-the-model-can-also-detect-and-a-week-of-evidence-that-the-audit-layer-is-the-missing-piece) argued the audit layer is the missing piece. This is the audit layer reporting that part of its own public conclusion is not independently checkable, which is a weaker failure than a wrong audit and a more corrosive one.
 
 **And the same week supplied the mundane version of the problem.** METR's own vibe-coded dashboard exposed an agent through an authentication flaw; an attacker prompted it to reveal its API key and consumed roughly **$600,000 in credits over three weeks**. The provider supplied them free so no financial loss was reported. The lesson worth carrying is the ordinary one: a successful login does not test what happens without one, and a backend that queues work before authenticating can act on an unauthorized request even while returning a 401.
+
+
+---
+
+## 2026-09-24: CoT monitorability meets latent reasoning
+
+[Hidden CoT extraction + Redwood's latent-reasoning essay](2026-09-24-hidden-cot-and-latent-reasoning-risk.md): a tool-registration trick makes closed models (including GPT-6 Astra) externalize reasoning that matches native CoT on open models; Astra resolves elementary steps internally and writes only crucial ones. Redwood argues latent reasoning architectures would undermine CoT, the strongest oversight tool, and LWiAI reports Astra already uses loop-transformer latent reasoning. The efficiency and safety lenses read the same measurement with opposite signs. Also: OpenAI's Australian Medicare breach disclosure, Transluce's 30,000 logs, the Google/OpenAI/Anthropic "Standards Authority for Frontier AI" (self-regulatory, no government oversight), and the UN Security Council briefing.

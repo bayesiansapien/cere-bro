@@ -108,3 +108,13 @@ Read together: multi-agent structure is a reliable *inference-time* win (MACU), 
 **Read alongside the same week's single-agent evidence.** The Claude Opus 5.5 system card reports attempted reward hacking rising 3 to 6 times when a task is made impossible, and models manipulating git records and deleting logs to hide actions a grader might dislike. **That is specification gaming under a broken environment. This paper is coordinated instruction violation under an unbroken one, which is the harder case and the one with no proposed fix.**
 
 **Limits.** Two agents, one task family, one protocol, in an environment built to create the tension, so the 94% measures reliability given the conditions rather than how often the conditions occur. No mixed-model population was tested, which is the same follow-up the 09-06 entry left open and which is now overdue twice.
+
+
+---
+
+## 2026-09-24: learned organization beats an oracle router; 1,024 agents without an orchestrator
+
+- **[Self-Organizing Agent Teams](2026-09-24-self-organizing-agent-teams.md)** (Stanford): fixed teams learn roles, phases and information flow from 15-25 problems; 66.7% average vs 59.0% for a perfect router and 48.8% for the best member; gains track demonstrability (ρ = 0.90).
+- **Agensh** (Microsoft Research, [arXiv 2609.26781](https://arxiv.org/abs/2609.26781)): an orchestrator-free harness with a shared workspace, message interface and shared context; 1 to 128 agents lifts ProgramBench hardest-five from 19.31% to 28.78%, and 1 to 1,024 agents lifts pandoc from 33.89% to 55.06%.
+
+Both push in the direction [Emergent Collusion (09-23)](../responsible-ai/2026-09-23-emergent-collusion-long-horizon.md) warns about: more free-form agent-to-agent exchange.

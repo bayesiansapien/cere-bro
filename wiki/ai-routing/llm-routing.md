@@ -700,3 +700,13 @@ The third-party evidence from the X home feed, with its weaknesses stated:
 ### The price cut strengthens, not weakens, the 09-21 finding
 
 On 09-21 this page recorded that **price was never the binding constraint, calibration is**, on evidence that the crudest routing policy (send everything cheap) already captures most of the available saving. The 09-22 price war cut GPT-6 Sol and Luna in half, Opus 5.5 by 20%, and **Opus cache reads by 60%**. If the market keeps cutting prices faster than routers can learn, a learned router's payback period keeps receding, which makes calibration (knowing when *not* to trust the cheap path) the only axis where routing still earns its keep. See [the price-war entry](../hardware/2026-09-23-price-war-cache-reads.md).
+
+
+---
+
+## 2026-09-24: an open decision model, a selector below baseline, and a ceiling on routing itself
+
+- **[CLM-8B](2026-09-24-clm-contrastive-system-one-model.md)** (Stanford/NVIDIA, Apache 2.0) is the first architectural alternative to Jev: a contrastive state-action model (CLIP-style infoNCE) claiming Jev-comparable zero-shot decisions at up to 9x lower latency. Its fine-tuned best-of-N selection results (81.6% DeepSWE Bo4, 87.6% Terminal Bench 2.1 Bo5) come with a detail the release does not highlight: **zero-shot Jev as a selector scored below the pass@1 baseline on both** (71.1% vs 73.7%; 83.1% vs 84.0%). A decision model used as a verifier can be net negative.
+- **Cost floor:** Together's Jev-like tev1-4B trained for $17, served at $0.042/M input and free output. distil labs found Jev perfect on inbox sorting but 0.79 on pay/don't-pay, where a 4B reason-first fine-tune hit 0.98: the category's boundary is decisions that need no reasoning.
+- **Capital:** The Information reports TypeSafe in early talks for $1B+ at $10B+, against about $200M a week earlier.
+- **A ceiling on routing:** [Self-Organizing Agent Teams](../agentic-systems/2026-09-24-self-organizing-agent-teams.md) beat a *perfect* router over members' independent answers (66.7% vs 59.0% average; +13.4 on AIME 2026). Routing is bounded by the best member's answer; collaboration is not, and the gain tracks demonstrability (ρ = 0.90). This is the first result on this page that bounds the oracle-router upper bound every routing paper reports against.

@@ -610,3 +610,17 @@ Anthropic cut Opus 5.5 cache reads from **$0.50 to $0.20 per million tokens**, t
 ### One cost of a malformed token that this page never counted
 
 [Chapter 10 of the frontier-inference series](2026-09-23-constrained-decoding-production-blueprint.md) names a third cost of the parse-retry loop, alongside latency amplification and token burn: **KV cache thrashing.** Malformed tokens pollute prefix and KV allocations with discarded context fragments, forcing **premature evictions for concurrent users**. That is a multi-tenant externality rather than a cost borne by the failing request, and no standard observability stack attributes it. It reframes constrained decoding (now under 40 microseconds per step with GPU-accelerated grammar compilers, down from 20 to 50 milliseconds on CPU) from a reliability feature into a serving-efficiency one.
+
+
+---
+
+## 2026-09-24: the cache gets shared across layers and moved onto flash
+
+**Two new dimensions of the cache-as-structure thesis from 09-23: sharing across layers, and placement below DRAM.**
+
+- **[HySparse2](2026-09-24-hysparse2-two-level-kv-sharing.md) (Xiaomi) shares KV at two levels.** A YOCO-style bridge builds every cross-decoder cache from self-decoder hidden states, so **prefill exits halfway through the network**, and sparse layers reuse the full-attention layer's cache and token-level selection indices. At 1M context: **2.92x fewer prefill FLOPs, cache 6.72 GB to 2.69 GB**, RULER-v2 at 256K up from 32.61 to 58.45. A same-day survey by @eliebakouch notes **DeepSeek V4.1 Flash and MiMo V3 both use YOCO prefill exit**, while Qwen 3.8 Next Flash and GLM 5.3 Flash interleave sparse and linear attention 3:1. Prefill exit is now a frontier design choice, not a paper curiosity.
+- **[LM-CXD](../hardware/2026-09-24-lm-cxd-cxl-ssd-prefix-cache.md) puts the prefix cache on CXL flash within 1.5x of DRAM.** The finding that matters for this page: a stock CXL-SSD is no faster than NVMe because the block interface, not the NAND, is the bottleneck. Making KV chunks device-visible and exposing prefetch progress to the engine gives up to 4.03x lower TTFT. It is the hardware counterpart of [KVMEM (09-23)](2026-09-23-kvmem-paged-agent-memory.md).
+- **[Memory Attention](../llms-foundation-models/2026-09-24-memory-attention-token-indexed-values.md) implies a K-only cache (not claimed).** If V = K + Norm(E[token]), values are recomputable from keys and token IDs with one lookup. Nobody has measured the roughly 2x cache reduction this suggests.
+- **[Disaggregated Quantization](2026-09-24-disaggregated-quantization-prefill-decode.md)** raises an interface question for this page: the KV cache is now produced by an NVFP4 prefiller and consumed by a 1-3-bit weight-only decoder. Whether representation mismatch at that handoff costs accuracy is unmeasured.
+
+**Open question carried forward:** does prefill exit (fewer layers producing the cache) compose with KV-COBRA-style per-head bit allocation, or does sharing one cache across many consumer layers make each head's precision budget binding for all of them?

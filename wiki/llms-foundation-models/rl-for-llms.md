@@ -240,3 +240,10 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 **Two gaps.** No wall-clock or dollar comparison against GRPO at matched final quality, and "memory-efficient" is not "compute-efficient" when each step costs a population of forward passes. And the sequential recipe is presented as a strategy rather than a swept schedule, so how much GRPO before switching, and whether the order can be interleaved or reversed, is the ablation that was owed by a paper whose main practical output is an ordering.
 
 **Cross-page interaction nobody has tested.** Functional sparsity means ES gains live in a small set of high-magnitude weights. Magnitude-based pruning removes small-magnitude weights, so ES gains might survive compression better than GRPO's, except that [When Pruning Meets Interpretability (08-28)](../responsible-ai/2026-08-28-pruning-sae-robustness.md) shows pruning shifts *representations* enough to silently invalidate sparse autoencoders trained on the dense model. Whether ES-trained models are more or less stable under compression than gradient-trained ones is unasked, cheap to test, and directly relevant to anyone combining memory-efficient post-training with a shipping quantization pass.
+
+
+---
+
+## 2026-09-24: a definition of token credit
+
+[PACT](2026-09-24-pact-token-credit-critic-alignment.md) proves three axioms (Completeness, Prefix Consistency, Neutrality) uniquely determine token-level credit; an ideal OPD teacher is an implicit critic, RLOO matches token credit in expectation, credit is approximately sparse under bounded rewards (a derivation for [IER's 1%-of-tokens result, 09-22](../inference-efficiency/2026-09-22-ier-one-percent-tokens-opd.md)), and GAE critic error can rival the credit. Actor-then-critic with IS correction: 72.87% agentic math (+8.80 over GRPO), 67.4% SWE-bench Verified (read with [SchrodingerRepo](../agentic-systems/2026-09-24-schrodinger-repo-swe-bench-memorization.md)).
