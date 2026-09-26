@@ -185,6 +185,8 @@ For systemd-based Linux (if cron is not available), offer to generate a `.servic
 
 ---
 
+**Collection-window clock (required).** Ask the user for their timezone and set `connectors/window/config.json`: `local_utc_offset_minutes` (e.g. 330 IST, 60 CET, -300 EST) and `cutoff_local` = a time just after US-Eastern midnight in their timezone, so the whole US day is captured before the digest is written (e.g. IST 10:30, CET 06:30, US-Eastern 00:30). Fill `{{DIGEST_CUTOFF_HOUR}}` / `{{DIGEST_CUTOFF_MINUTE}}` in `com.cerebro.morning-digest.plist.template` with that cutoff. The morning and watchdog scripts read the cutoff from this config and never write a digest earlier. See CLAUDE.md "Collection windows".
+
 ### Step 5b (optional): social-media agent cadence
 
 The daily job above rebuilds everything once a morning. If you want the **Media Zone** (the social feed) to stay current through the day, install the two extra agents that ship as templates. They are cheap-capture vs expensive-rebuild, split on purpose:

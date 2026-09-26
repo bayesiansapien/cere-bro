@@ -12,14 +12,15 @@ You farm the daily paper list from HuggingFace into the `raw/huggingface/` direc
 
 1. **Check tools.** Confirm `curl` and `python3` are available via `command -v curl && command -v python3`. Both are standard on macOS — no installation needed.
 
-2. **Watchlist.** Fetch all papers listed on `https://huggingface.co/papers` for today. No keyword filter — pull everything and let Ingest file them into the right concept subdirectory.
+2. **Watchlist.** Fetch all papers listed on `https://huggingface.co/papers` for the target date (see step 3; in WINDOW mode that is the US-Eastern day the digest covers, not today). No keyword filter — pull everything and let Ingest file them into the right concept subdirectory.
 
 3. **Determine the window from the invoking prompt.**
+   - **WINDOW mode (takes precedence; this is how the scheduled digest invokes you):** if the invoking prompt contains `WINDOW:` with a US-Eastern date `E` (the day the digest covers), fetch `https://huggingface.co/papers?date=E` **and** `https://huggingface.co/papers?date=<E minus 1 day>` (HF adds papers to a day's list late). **Never ask for "today" by the local (IST) date**: the digest runs just after US-Eastern midnight, when HF's newest complete list is `E`; asking for the IST date returns a re-served older list (the long-running "HF returned the same paper set" gap). Write any paper not already in `raw/huggingface/` (dedupe by arXiv id across ALL existing files, not just today's), using the paper's HF list date `E` in the filename.
    - **Default (normal run):** check the latest file date in `raw/huggingface/` and use that as the floor. If `raw/huggingface/` is empty or missing, fall back to today only.
    - **Seed mode:** if the invoking prompt contains `SEED:` followed by a window spec (e.g., `SEED: last 30 days`, `SEED: last 7 days`), iterate over each date in the range by fetching `https://huggingface.co/papers?date=YYYY-MM-DD` for each day.
    - **Dedup:** never overwrite files already in `raw/huggingface/`. Check with `git status --porcelain raw/huggingface/` before committing.
 
-4. **Skip if nothing new.** If today's papers are already present in `raw/huggingface/`, exit cleanly.
+4. **Skip if nothing new.** If every paper on the target date's list is already present in `raw/huggingface/` (by arXiv id), exit cleanly.
 
 5. **Scrape the page.** HuggingFace embeds the full daily-papers payload as a JSON island in the rendered HTML (a `data-target="DailyPapers"` element with a `data-props="..."` attribute). The old `<h3>...<p>` regex stopped matching when their frontend rebuilt the DOM in mid-May 2026. Use this JSON-island extractor instead:
 

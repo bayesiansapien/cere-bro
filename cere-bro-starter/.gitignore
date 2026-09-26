@@ -45,3 +45,7 @@ raw/youtube/
 # Gmail newsletters = your inbox (local only) + farmer state
 raw/gmail/
 connectors/gmail/.state/
+
+# Collection-window manifests + ledger (local state)
+raw/_windows/
+connectors/window/.state/

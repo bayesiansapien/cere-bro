@@ -22,7 +22,9 @@ fi
 # Only trigger between 9 AM and 11:30 PM IST. Before 9 AM we wait for the
 # natural cron; after 11:30 PM we're approaching midnight and the day is
 # effectively lost (the rollup runs at 23:55).
-if [ "$HOUR" -lt 9 ] || [ "$HOUR" -gt 23 ]; then
+NOW_MIN=$((10#$(date +%H) * 60 + 10#$(date +%M)))
+CUTOFF_MIN=$(python3 -c "import json;h,m=json.load(open('$REPO/connectors/window/config.json'))['cutoff_local'].split(':');print(int(h)*60+int(m))" 2>/dev/null || echo 630)
+if [ "$NOW_MIN" -lt "$CUTOFF_MIN" ] || [ "$HOUR" -gt 23 ]; then   # never before the digest cutoff
   exit 0
 fi
 

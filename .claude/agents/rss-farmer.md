@@ -17,6 +17,7 @@ You farm new posts from AI blogs and newsletters into the `raw/rss/` directory o
    If feedparser is missing: `pip3 install feedparser -q`
 
 2. **Determine the window from the invoking prompt.**
+   - **WINDOW mode (takes precedence; this is how the scheduled digest invokes you):** if the invoking prompt contains `WINDOW:` with a start timestamp (ISO, UTC), use that exact **timestamp** as the floor and keep every entry whose published/updated time is after it. Compare full timestamps, not dates, so an item published at 23:40 US-Eastern is neither dropped nor duplicated. Still dedupe against existing `raw/rss/` filenames.
    - **Default (normal run):** check the latest file date in `raw/rss/` and use that as the floor. If `raw/rss/` is empty, fall back to 24 hours ago.
    - **Seed mode:** if the invoking prompt contains `SEED:` followed by a window spec (e.g., `SEED: last 30 days`, `SEED: last 7 days`), use that lookback window instead.
    - **Dedup:** never overwrite files already in `raw/rss/`. Use filename matching to skip duplicates.

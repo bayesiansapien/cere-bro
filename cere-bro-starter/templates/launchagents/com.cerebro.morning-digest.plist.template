@@ -12,9 +12,9 @@
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>9</integer>
+        <integer>{{DIGEST_CUTOFF_HOUR}}</integer>
         <key>Minute</key>
-        <integer>0</integer>
+        <integer>{{DIGEST_CUTOFF_MINUTE}}</integer>
     </dict>
     <key>StandardOutPath</key>
     <string>{{REPO_PATH}}/.claude/logs/morning-digest-stdout.log</string>

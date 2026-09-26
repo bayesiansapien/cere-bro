@@ -18,8 +18,15 @@ REPO="{{REPO_PATH}}"
 CLAUDE="{{CLAUDE_BIN}}"
 LOG="$REPO/.claude/logs/mediazone-refresh.log"
 TODAY=$(date +%Y-%m-%d)
-MONTH=$(date +%Y-%m)
-MZ_PATH="$REPO/wiki/media-zone/$MONTH/$TODAY.md"
+# Live-draft model: evening refreshes build the NEXT digest's Media Zone (the open
+# collection window). If today's digest is already written, that is tomorrow.
+if [ -f "$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md" ]; then
+  TARGET=$(date -v+1d +%Y-%m-%d)
+else
+  TARGET=$TODAY
+fi
+MONTH=${TARGET:0:7}
+MZ_PATH="$REPO/wiki/media-zone/$MONTH/$TARGET.md"
 mkdir -p "$REPO/.claude/logs"
 
 notify() {
@@ -67,12 +74,16 @@ git pull --rebase origin main >> "$LOG" 2>&1 || true
 python3 "$REPO/connectors/twitter/farmer.py" --feed-only >> "$LOG" 2>&1 || echo "  twitter farmer failed — continuing." >> "$LOG"
 python3 "$REPO/connectors/youtube/farmer.py"    >> "$LOG" 2>&1 || echo "  youtube farmer failed — continuing." >> "$LOG"
 python3 "$REPO/connectors/twitter/rank_feed.py" >> "$LOG" 2>&1 || echo "  ranker failed — continuing." >> "$LOG"
+python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || echo "  gmail farmer failed — continuing." >> "$LOG"
+python3 "$REPO/connectors/window/build_window.py" --digest-date "$TARGET" >> "$LOG" 2>&1
 
 # 2. Claude rewrites ONLY the Media Zone from the latest captures.
 read -r -d '' PROMPT <<'EOF' || true
-You are refreshing ONLY today's Media Zone page for the cere-bro wiki. Today is __TODAY__.
+You are refreshing the LIVE DRAFT of the Media Zone page for the upcoming __TARGET__ digest (the collection window that is still open). Wall-clock today is __TODAY__.
 
-Do NOT touch the daily digest, concept pages, index, or log — this is a Media-Zone-only refresh that runs several times a day so the social feed stays current. Your single deliverable is a rewritten wiki/media-zone/__MONTH__/__TODAY__.md.
+INPUTS: the authoritative list is raw/_windows/__TARGET__.md (+ .json): every raw file first captured since the previous digest's cutoff. Read EXACTLY those files; where the steps below name '__TODAY__' files, use the manifest's files instead (X feed ranked captures, bookmarks, YouTube, LinkedIn, Gmail's __TARGET__-newsletters.md). Write to wiki/media-zone/__MONTH__/__TARGET__.md and put this line directly under the title: '> *Live draft: this window is still open. It is finalized with the __TARGET__ digest at the 10:30 IST cutoff.*'
+
+Do NOT touch the daily digest, concept pages, index, or log — this is a Media-Zone-only refresh that runs several times a day so the social feed stays current. Your single deliverable is the rewritten draft wiki/media-zone/__MONTH__/__TARGET__.md.
 
 Re-read the "Media Zone" section of CLAUDE.md in full (including the "Social-media agent — multi-source, engagement-aware" subsection) and follow it exactly. Then:
 
@@ -85,10 +96,11 @@ Re-read the "Media Zone" section of CLAUDE.md in full (including the "Social-med
 3. Rewrite the whole Media Zone file per the locked format: "Today's signal" pulse -> topic-clustered card feed (mz-feed/mz-card) in attention-tier order (routing/KV/compression/GPU first) -> "Also crossed your feeds" one-line tail so nothing is lost. Light-but-complete. No em-dashes.
    - X FOLLOWS US TIMING: this refresh fires during US-active hours (this is ~US late-morning/afternoon ET). Frame the X section as "the US day's conversation," and expect the freshest X signal to be arriving now — surface it. See the CLAUDE.md "X follows US timing" note.
 4. This is a same-day refresh: fold in anything NEW since the morning build; keep what still matters. The file should read as the current state of the day's feed, not an append log.
-5. Commit and push (git add wiki/media-zone/__MONTH__/__TODAY__.md, commit "media-zone: refresh __TODAY__ HH:MM", push origin main). The site redeploys via CI on push.
+5. Commit and push (git add wiki/media-zone/__MONTH__/__TARGET__.md, commit "media-zone: live draft __TARGET__ HH:MM", push origin main). The site redeploys via CI on push.
 
 Do not stop until the Media Zone file is rewritten, committed, and pushed.
 EOF
+PROMPT="${PROMPT//__TARGET__/$TARGET}"
 PROMPT="${PROMPT//__TODAY__/$TODAY}"
 PROMPT="${PROMPT//__MONTH__/$MONTH}"
 

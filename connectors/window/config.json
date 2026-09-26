@@ -1,0 +1,5 @@
+{
+  "_comment": "Daily collection-window clock. cutoff_local is when the morning digest runs and the window closes; choose a time just after US-Eastern midnight in your local timezone so the whole US day is in (IST: 10:30 covers both EDT and EST).",
+  "local_utc_offset_minutes": 330,
+  "cutoff_local": "10:30"
+}
