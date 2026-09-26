@@ -50,3 +50,7 @@ raw/linkedin/
 # YouTube subscription video list (reveals the reader's personal subscriptions,
 # incl. non-AI). Read locally by the synthesis; the digest links public videos.
 raw/youtube/
+# Gmail newsletters are the reader's own inbox (some are paid) — local only;
+# only the digest synthesis is published. Farmer state (seen ids, last run) too.
+raw/gmail/
+connectors/gmail/.state/

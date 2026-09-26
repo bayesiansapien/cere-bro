@@ -29,6 +29,11 @@ git config http.lowSpeedTime 30 2>/dev/null || true
 
 echo "[$TODAY $(date +%H:%M:%S)] Feed capture starting..." >> "$LOG"
 
+# Gmail newsletters: auto-pull AI newsletters that arrived since the last run
+# (rolling timestamp window, deduped, routed to the next unwritten digest).
+python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Gmail farmer failed — continuing." >> "$LOG"
+
 # Twitter farmer: captures the X home feed (deduped), public scrape, + bookmarks.
 python3 "$REPO/connectors/twitter/farmer.py" --feed-only >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] Twitter farmer failed — continuing." >> "$LOG"

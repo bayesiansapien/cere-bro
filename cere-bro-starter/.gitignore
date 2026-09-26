@@ -41,3 +41,7 @@ connectors/twitter/.state/seen_home_timeline.json
 connectors/twitter/.state/home_feed_last_capture.json
 raw/linkedin/
 raw/youtube/
+
+# Gmail newsletters = your inbox (local only) + farmer state
+raw/gmail/
+connectors/gmail/.state/
