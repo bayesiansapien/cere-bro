@@ -1,4 +1,4 @@
-# The Dark Arts of Skill Engineering — Paul Bakaus, Renaissance Geek (Impeccable)
+# The Dark Arts of Skill Engineering: Paul Bakaus, Renaissance Geek (Impeccable)
 
 **Channel:** AI Engineer
 **Published:** 2026-09-21
