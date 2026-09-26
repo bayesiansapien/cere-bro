@@ -136,7 +136,25 @@ _NOISE = re.compile(r"(unsubscribe|manage (your )?(preferences|subscription)|vie
                     r"update your preferences|you are receiving this|forward(ed)? to a friend)", re.I)
 
 
+_SEP = re.compile(r"(?:-{6,}|—{6,}|_{6,}|={6,})")
+_AD = re.compile(r"(sponsored|presented by|brought to you by|in partnership with|together with|advertisement|"
+                 r"claim (my|your) spot|book a demo|register (now|free|here)|sign up (now|free|today)|"
+                 r"get started (free|now)|start (your )?free trial|limited[- ]time|promo code|ad credits|"
+                 r"eligible startups|reserve your (seat|spot)|save your seat)", re.I)
+
+
+def strip_ads(text: str) -> str:
+    """Drop short sponsor/ad sections. Newsletters split sections with rule lines;
+    a section is an ad if it is short (<1500 chars) and carries a sponsor marker or
+    an ad call-to-action. Long editorial sections are never touched."""
+    parts = _SEP.split(text)
+    textlen = lambda p: len(re.sub(r"https?://\S+", "", p))   # judge by text, not URL bloat
+    kept = [p for p in parts if not (textlen(p) < 1500 and _AD.search(p))]
+    return "\n\n".join(x.strip() for x in kept if x.strip())
+
+
 def clean_body(text: str, max_chars: int) -> str:
+    text = strip_ads(text)
     text = re.sub(r"https?://\S{120,}", "[link]", text)        # tracking redirects
     text = re.sub(r"(?m)^#{1,3}\s", "#### ", text)              # keep newsletter headings below our sections
     text = re.sub(r"\[\s*\]|\(\s*\)", "", text)
