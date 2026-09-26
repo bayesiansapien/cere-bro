@@ -39,7 +39,7 @@ flowchart LR
 ## How this relates to prior wiki pages
 
 - **Joins the self-improvement cluster** on [self-evolving-agents](self-evolving-agents.md), and specifically the harness-plus-model co-design line in [agent-harness-engineering](agent-harness-engineering.md).
-- **CARE is a training-time version of test-time compute allocation** (spend reasoning where it is needed), the theme of [test-time-compute-allocation](../inference-efficiency/test-time-compute-allocation.md). It is also a relative of [Rufus-Air (09-25)](../llms-foundation-models/2026-09-25-rufus-air-open-post-training-recipe.md)'s stage-ordering recipe if that page exists; see the HF list for 09-25.
+- **CARE is a training-time version of test-time compute allocation** (spend reasoning where it is needed), the theme of [test-time-compute-allocation](../inference-efficiency/test-time-compute-allocation.md). It shares the 09-25 HF list with Rufus-Air (an open eight-stage post-training recipe on GLM-4.5-Air), and both treat the pipeline's structure, not only the model, as the thing being engineered.
 
 ## Links
 
