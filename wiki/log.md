@@ -1903,3 +1903,14 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-09-25] digest | BACKFILL: daily digest and social-stream morning synthesis written; Media Zone already written by the 22:25 refresh (covers all five non-empty feed captures) and kept as is; 8 concept pages updated (llm-routing, model-pruning-sparsity, quantization, compute-economics, memory-hierarchy, attention-mechanisms, responsible-ai, agent-training-environments)
 ## [2026-09-25] gap | HF and RSS farmed after the fact (scheduled run rate-limited). All eight Reddit subreddits empty; public X scrape 0 tweets (all 09-25 slots and 09-24 afternoon/evening); bookmarks 0 new saves for a third day; LinkedIn 0 posts. Social signal from the ranked X home feed (246 unique posts across six captures). venturebeat-ai RSS still blocked by a bot challenge.
 ## [2026-09-25] note | Kurate three-LLM tournament failed for a TENTH consecutive week (all 40 entries score=1200). No HF and Kurate overlap. Rising authors unchanged (Siyuan Li, Xinxin Song, Tingxiong Xiao). alphaxiv enrichment returned content for 2609.26550, 2609.29845, 2608.16844; others fell back to abstracts.
+## [2026-09-26] ingest | Alignment collapse under KV cache quantization (2606.09864) | x-feed paper
+## [2026-09-26] ingest | Quail: query-aware inference for AI-SQL | x-feed blog
+## [2026-09-26] ingest | Jev vs. LLM rubric judges: correlated errors (2609.29769) | x-feed paper
+## [2026-09-26] ingest | Drex diffusion decision model | x-feed launch
+## [2026-09-26] ingest | Monty v1 Python sandbox | x-feed release
+## [2026-09-26] ingest | Qwen-Planner-Agent (2609.29892) | huggingface + kurate
+## [2026-09-26] ingest | Reward hacking by autonomous research agents | x-feed paper (image abstract)
+## [2026-09-26] ingest | Learning to Discover Interesting Mathematics (2609.28603) | huggingface + x-feed
+## [2026-09-26] digest | Daily digest, social-stream morning synthesis and Media Zone written; 5 concept pages updated (llm-routing, kv-cache, quantization, agent-harness-engineering, responsible-ai)
+## [2026-09-26] gap | HF published no new Saturday list (09-25 list re-served; 2 new papers farmed). huggingface-farmer and rss-farmer subagents stalled; both fetches run directly (7 new RSS items). All eight Reddit subs empty; public X scrape skipped (no reachable Nitter); bookmarks fetched OK with 0 new saves; LinkedIn 0 posts; YouTube had no AI research videos. venturebeat-ai RSS still returns zero entries.
+## [2026-09-26] note | Kurate three-LLM tournament failed for an ELEVENTH consecutive week (all entries score=1200). HF and Kurate overlap: Qwen-Planner-Agent (#20) and Just Ask Jev (#13, covered 09-25). Rising authors unchanged. alphaxiv returned no overview for 2606.09864, 2609.29769, 2609.28603; abstracts and paper HTML used.

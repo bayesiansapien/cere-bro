@@ -166,3 +166,10 @@ Practitioner side, same day: Mirai's codec puts **Qwen3.8-27B at 2.4 bits per we
 ## 2026-09-25: the quantization pass itself gets 15x to 30x cheaper
 
 [LLM Compressor v0.14.0](2026-09-25-llm-compressor-v0-14-triton-gptq.md) ships a Triton GPTQ kernel (about 15x end to end), batches same-shape layers (up to 30x on MoE), drops Hessian offloading, and widens the MSE/iMatrix observer grid search, which finds better NVFP4 scales and beats GPTQ for NVFP4 on internal benchmarks. Model-free PTQ adds KV-cache quantization. Red Hat's GLM-5.3-NVFP4 recovers 95%+ and is served with an 8-token speculator on Blackwell, so a bandwidth saving and a sequential-step saving stack. **Why it matters for this page:** [Disaggregated Quantization (09-24)](2026-09-24-disaggregated-quantization-prefill-decode.md) needs a separate prefill checkpoint per model. Cheap requantization removes most of the cost of that idea, and makes per-workload checkpoints an operational choice rather than a research project.
+
+
+---
+
+## 2026-09-26: perplexity is not a safety metric
+
+[Alignment Collapse Under KV Cache Quantization](2026-09-26-kv-quantization-alignment-collapse.md) (NeurIPS 2026) shows low-bit KV quantization can strip refusals with near-unchanged perplexity (Mistral-7B: 15.2% of refusals lost at 1.03x perplexity), with model-specific phase transitions and no universal safe bit-width. The mechanism is outlier-driven scale factors crushing the non-outlier channels where safety lives, or safety overlapping the outliers themselves, or safety diluted across layers. The fix differs per mode, and a 20-prompt probe (PCR) predicts which. **For this page: the 09-25 LLM Compressor release made re-quantizing cheap; this paper says each re-quantization now needs a refusal check next to perplexity.** Whether weight quantization (NVFP4, GPTQ) has the same fragility is untested here.

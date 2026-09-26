@@ -648,3 +648,12 @@ The four findings, and what each does to this page:
 ### The harness tax just got 60% cheaper without anyone touching a harness
 
 [HarnessTax (09-22)](2026-09-22-harnesstax-cost-success-frontier.md) traced a 2x cost spread across 21 model-harness combinations to **standing context**: longer instructions and larger tool definitions ride along on every call, so a heavy harness pays its fixed overhead once per turn. Standing context is precisely what a cached prefix is. On 09-22 **Anthropic cut Opus 5.5 cache reads from $0.50 to $0.20 per million**, and in longer agentic conversations 90%+ of input tokens bill at cached prices. **So the dominant economic argument for lean harnesses weakened by 60% on the same day three papers landed arguing for automated token reduction.** Those optimizations still buy latency and context-window headroom; they buy much less money than they did last week. See [the price-war entry](../hardware/2026-09-23-price-war-cache-reads.md).
+
+
+---
+
+## 2026-09-26: the execution layer gets cheap, and co-evolution gets a recipe
+
+- **[Monty v1](2026-09-26-monty-python-sandbox-for-agent-code.md)** (Pydantic) is a Rust-built Python-subset sandbox for code-mode agents: a new sandbox plus ten REPL commands in 1.2 ms against about 900 ms for Docker and 1,900 ms for a sandboxing service, 2 MB per worker, snapshot-and-resume at any tool call, tools run on the host with no filesystem or network inside. Code mode (the agent writes a program that calls its tools) already cut tokens; Monty cuts the execution overhead code mode introduced. **It is also the first harness component on this page that is priced against the 09-25 CPU shortage**, where agent tool execution was named as the new CPU demand.
+- **[Qwen-Planner-Agent](2026-09-26-qwen-planner-agent-ai-for-ai.md)** (HF + Kurate) trains model and harness together: agents build the training data, online agentic RL uses a competence-aware reward (CARE) that penalizes reasoning and tool cost once a task is mastered, and runtime failure traces flow back to both the model and the harness's memory, skills and tools.
+- **Supermemory open-sourced its "company brain"** multi-player Slack harness, and Hindsight (an agent memory system organizing world facts, experiences, observations and mental models) passed 22K GitHub stars. Both surfaced on the X feed without independent evaluation.
