@@ -114,7 +114,7 @@ Farmers pull from these daily:
 
 Every source runs on one clock, so nothing is missed and nothing is counted twice.
 
-- **Digest D covers the US-Eastern day D-1.** It is written at the **10:30 IST cutoff** (`com.cerebro.morning-digest`), just after US-Eastern midnight all year round (EDT midnight = 09:30 IST, EST midnight = 10:30 IST). The day it covers has fully ended, including the US 7pm to midnight posts and newsletters. A one-line note under the digest title states the window.
+- **Digest D covers the US-Eastern day D-1.** It is written at the **10:30 IST cutoff** (`com.cerebro.morning-digest`), just after US-Eastern midnight all year round (EDT midnight = 09:30 IST, EST midnight = 10:30 IST). The day it covers has fully ended, including the US 7pm to midnight posts and newsletters. The digest carries no coverage/window metadata line.
 - **Windows are defined by capture time, not by filename dates.** `connectors/window/build_window.py` keeps a ledger of when each raw file was first seen and a watermark per closed window. Digest D's inputs are exactly the files first captured between the previous digest's cutoff and D's cutoff, listed in `raw/_windows/D.md` (+ `.json`, gitignored). The digest reads that manifest, not "today's" files.
 - **Late items are never lost.** A farmer that failed, a Mac that slept, or HF adding papers late: the item is captured afterwards and lands in the next window, flagged *late*. Every file belongs to exactly one window; a closed window re-runs identically.
 - **Completeness check.** Before writing, the morning routine builds the manifest, retries any stale source once (Gmail, X, Reddit, YouTube), and rebuilds it. Sources still stale are named as gaps in the digest; their items arrive in the next window.
