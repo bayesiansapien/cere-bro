@@ -32292,5 +32292,887 @@
     ],
     "first_seen": "2026-W39",
     "last_seen": "2026-W39"
+  },
+  "Yihan Wang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.25620v1",
+        "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Qiandi Gao": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.25620v1",
+        "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Yihui Zhuang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.25620v1",
+        "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Liangjun Ge": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.25620v1",
+        "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Heqian Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.25620v1",
+        "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Jiaquan Huang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.25620v1",
+        "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Adem Kikaj": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.25766v1",
+        "title": "Neurosymbolic Action Model Learning under Partial Observability",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Lennert De Smet": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.25766v1",
+        "title": "Neurosymbolic Action Model Learning under Partial Observability",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Giuseppe Marra": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.25766v1",
+        "title": "Neurosymbolic Action Model Learning under Partial Observability",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Luc De Raedt": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.25766v1",
+        "title": "Neurosymbolic Action Model Learning under Partial Observability",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Adewumi Augustine Adepitan": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.21945v1",
+        "title": "Learning to Move Cities: Deep Meta-Models and Reinforcement Policies for Calibration and Control in Urban Networks",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Christopher J. Haruna": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.21945v1",
+        "title": "Learning to Move Cities: Deep Meta-Models and Reinforcement Policies for Calibration and Control in Urban Networks",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Oluwasegun Adegoke": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.21945v1",
+        "title": "Learning to Move Cities: Deep Meta-Models and Reinforcement Policies for Calibration and Control in Urban Networks",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Ayooluwatomiwa Ajiboye": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.21945v1",
+        "title": "Learning to Move Cities: Deep Meta-Models and Reinforcement Policies for Calibration and Control in Urban Networks",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Oluwatobi Oluwasakin": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.21945v1",
+        "title": "Learning to Move Cities: Deep Meta-Models and Reinforcement Policies for Calibration and Control in Urban Networks",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Yuxuan Li": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.27273v1",
+        "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Will Epperson": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.27273v1",
+        "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Wesley Deng": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.27273v1",
+        "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Zezhou Huang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.27273v1",
+        "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Hongyang Du": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.22086v1",
+        "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Lan Yan": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.22086v1",
+        "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Christian Flores": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.22086v1",
+        "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Asim Kadav": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.22086v1",
+        "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Sungheon Jeong": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.24744v1",
+        "title": "World State Generator",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Sanggeon Yun": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.24744v1",
+        "title": "World State Generator",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Ryozo Masukawa": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.24744v1",
+        "title": "World State Generator",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Haleh Alimohamadi": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.24744v1",
+        "title": "World State Generator",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Mahdi Imani": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.24744v1",
+        "title": "World State Generator",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Mohsen Imani": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.24744v1",
+        "title": "World State Generator",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Karolina Drabik": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.28438v1",
+        "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Ben Lewis": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.28438v1",
+        "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Antoni Puch": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.28438v1",
+        "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Etienne Boursier": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.28438v1",
+        "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Piotr Hofman": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.28438v1",
+        "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Matthias Englert": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.28438v1",
+        "title": "Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Kevin Lee": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.28022v1",
+        "title": "PISCES: Physics-Informed Solar-wind Convolutional autoEncoder for Space-weather Anomaly Detection and Early Warning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Alison J. March": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.28022v1",
+        "title": "PISCES: Physics-Informed Solar-wind Convolutional autoEncoder for Space-weather Anomaly Detection and Early Warning",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Yizhao Fan": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.27658v1",
+        "title": "Private Decentralized Optimization with Noise Reduction and Bias Correction",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Wenjian Luo": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.27658v1",
+        "title": "Private Decentralized Optimization with Noise Reduction and Bias Correction",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Jiaojiao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2609.27658v1",
+        "title": "Private Decentralized Optimization with Noise Reduction and Bias Correction",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Gabriele Gianuzzo": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.28116v1",
+        "title": "Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Stefan Dasbach": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.28116v1",
+        "title": "Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Fleur Hendriks": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.28116v1",
+        "title": "Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Sven Wiesen": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.28116v1",
+        "title": "Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Vlado Menkovski": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2609.28116v1",
+        "title": "Probabilistic and Geometry Aware Neural Surrogate of Scrape Off Layer Plasma Simulations",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Edesio Alcoba": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.30137v1",
+        "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Kevin Rossell": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.30137v1",
+        "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Aman Gupta": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.30137v1",
+        "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Shao Tang": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.30137v1",
+        "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Jiwoo Hong": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.30137v1",
+        "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Pabel Carrillo-Mendoza": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.30137v1",
+        "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Anne M. Tumlin": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.30050v1",
+        "title": "NNV3: Expanding Neural Network Verification to New Architectures and Domains",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Samuel Sasaki": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.30050v1",
+        "title": "NNV3: Expanding Neural Network Verification to New Architectures and Domains",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Ben Wooding": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.30050v1",
+        "title": "NNV3: Expanding Neural Network Verification to New Architectures and Domains",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Diego Manzanas Lopez": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.30050v1",
+        "title": "NNV3: Expanding Neural Network Verification to New Architectures and Domains",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Muhammad Usama Zubair": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.30050v1",
+        "title": "NNV3: Expanding Neural Network Verification to New Architectures and Domains",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Navid Hashemi": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.30050v1",
+        "title": "NNV3: Expanding Neural Network Verification to New Architectures and Domains",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Christine Park": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30027v1",
+        "title": "Synthetic Hospital: An Open, Verifiable, Physician-Validated Longitudinal EHR Benchmark",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Valerie Chen": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30027v1",
+        "title": "Synthetic Hospital: An Open, Verifiable, Physician-Validated Longitudinal EHR Benchmark",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Tim Dettmers": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30027v1",
+        "title": "Synthetic Hospital: An Open, Verifiable, Physician-Validated Longitudinal EHR Benchmark",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Akash Samanta": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.27593v1",
+        "title": "Hidden not Deleted: How Networks Suppress Entangled Features",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Manish Pratap Singh": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.27593v1",
+        "title": "Hidden not Deleted: How Networks Suppress Entangled Features",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
+  },
+  "Debasis Chaudhuri": {
+    "appearances": [
+      {
+        "week": "2026-W39",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.27593v1",
+        "title": "Hidden not Deleted: How Networks Suppress Entangled Features",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W39",
+    "last_seen": "2026-W39"
   }
 }

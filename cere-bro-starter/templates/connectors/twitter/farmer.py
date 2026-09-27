@@ -2,13 +2,11 @@
 """
 Twitter/X farmer for cere-bro wiki.
 
-Uses Nitter RSS to scrape tweets for the unauthenticated cases.
-  - Own handle (configured in config.json:own_handle): retweets/quote-tweets as curated signal
-  - AI-relevant handles: original tweets from key AI accounts, filtered by keywords
-
-For x.com/i/article/... URLs (X's native long-form articles), the farmer attaches
-user-supplied session cookies from ~/.config/<wiki-name>/x-cookies.json when present.
-See README.md for one-time cookie extraction setup.
+Reads X directly through the reader's logged-in session (GraphQL): the Following
+timeline (+ a thin For You slice), the reader's own reposts, and bookmarks. Operation ids
+and feature flags are auto-discovered (discover_ids.py); Nitter was retired 2026-09-27.
+  - Your own handle (config.json:own_handle): retweets/quote-tweets as curated signal
+  - AI-relevant handles       : original tweets from key AI accounts, filtered by keywords
 
 Writes: raw/twitter/YYYY-MM-DD-am.md  (before 3pm IST)
         raw/twitter/YYYY-MM-DD-pm.md  (at/after 3pm IST)
@@ -22,6 +20,7 @@ import sys
 import json
 import math
 import re
+import subprocess
 import time
 import requests
 import xml.etree.ElementTree as ET
@@ -59,7 +58,7 @@ AI_KEYWORDS   = [k.lower() for k in cfg["ai_keywords"]]
 SKIP_DOMAINS  = cfg["skip_domains"]
 FETCH_TIMEOUT = cfg["article_fetch_timeout"]
 ARTICLE_CHARS = cfg["article_max_chars"]
-X_COOKIES_PATH    = Path(cfg.get("x_cookies_path", "~/.config/cere-bro/x-cookies.json")).expanduser()
+X_COOKIES_PATH    = Path(cfg.get("x_cookies_path", "~/.config/{{WIKI_NAME}}/x-cookies.json")).expanduser()
 DOWNLOAD_IMAGES   = cfg.get("download_images", True)
 IMG_TIMEOUT       = cfg.get("image_download_timeout", 8)
 # Auto-read X cookies from the local browser (no manual export). See _cookies_from_browser.
@@ -102,8 +101,9 @@ def _cookies_from_browser(timeout: int = 20) -> dict:
     guarantees it can never hang the farmer (esp. the unattended cron) — it just
     falls back to the file. Everything stays local; nothing leaves the machine.
 
-    Returns {} on any failure. The first time you approve the Keychain dialog
-    ("Always Allow"), every later run reads instantly with no prompt.
+    Returns {} on any failure (library missing, no browser, prompt not approved,
+    timeout). The first time you approve the Keychain dialog ("Always Allow"),
+    every later run reads instantly with no prompt.
     """
     import subprocess
     # Enumerate EVERY Chromium profile's cookie DB (users often keep X in a
@@ -203,12 +203,6 @@ if not X_COOKIES:
 IMG_DIR = REPO_ROOT / "raw" / "twitter" / "images"
 if DOWNLOAD_IMAGES:
     IMG_DIR.mkdir(parents=True, exist_ok=True)
-
-# Nitter instance — fallback list in order of preference
-NITTER_INSTANCES = [
-    "https://nitter.net",
-    "https://nitter.poast.org",
-]
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 FORCE = "--force" in sys.argv
@@ -411,79 +405,10 @@ def refresh_following_list():
 
 refresh_following_list()
 
-# ── Nitter RSS helpers ─────────────────────────────────────────────────────────
+# ── Tweet text/URL helpers ─────────────────────────────────────────────────────────
 
-def get_nitter_base() -> str:
-    for base in NITTER_INSTANCES:
-        try:
-            r = requests.get(f"{base}/nvidia/rss", headers={"User-Agent": UA}, timeout=8)
-            if r.status_code == 200 and "<rss" in r.text:
-                return base
-        except Exception:
-            continue
-    raise RuntimeError("No reachable Nitter instance found")
 
-def fetch_rss(handle: str, nitter_base: str) -> list[dict]:
-    """Fetch Nitter RSS for a handle, return list of tweet dicts."""
-    url = f"{nitter_base}/{handle}/rss"
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=15)
-        if r.status_code != 200:
-            return []
-        return parse_rss(r.text, handle)
-    except Exception as e:
-        print(f"  ERROR fetching @{handle}: {e}")
-        return []
 
-def parse_rss(xml_text: str, handle: str) -> list[dict]:
-    """Parse Nitter RSS XML into tweet dicts."""
-    tweets = []
-    try:
-        root = ET.fromstring(xml_text)
-        ns = {"dc": "http://purl.org/dc/elements/1.1/"}
-        for item in root.findall(".//item"):
-            title   = (item.findtext("title") or "").strip()
-            desc    = (item.findtext("description") or "").strip()
-            pub     = item.findtext("pubDate") or ""
-            link    = (item.findtext("link") or "").strip()
-            creator = (item.findtext("dc:creator", namespaces=ns) or f"@{handle}").strip()
-
-            # Clean HTML from description
-            text = re.sub(r"<[^>]+>", " ", desc)
-            text = re.sub(r"&[a-z]+;", " ", text)
-            text = re.sub(r"\s+", " ", text).strip()
-            if not text:
-                text = title
-
-            # Parse date
-            dt = None
-            if pub:
-                try:
-                    dt = parsedate_to_datetime(pub).astimezone(timezone.utc)
-                except Exception:
-                    pass
-
-            # Extract URLs from description (href= links)
-            urls = re.findall(r'href="(https?://[^"]+)"', desc)
-            urls = [u for u in urls if not any(d in u for d in SKIP_DOMAINS + ["nitter."])]
-
-            # Extract image URLs from <img src="..."> tags in description
-            image_urls = extract_image_urls(desc)
-
-            tweets.append({
-                "handle":     handle,
-                "creator":    creator,
-                "text":       text,
-                "title":      title,
-                "link":       link,
-                "date":       dt,
-                "date_raw":   pub,
-                "urls":       list(dict.fromkeys(urls)),
-                "image_urls": list(dict.fromkeys(image_urls)),
-            })
-    except Exception as e:
-        print(f"  RSS parse error for @{handle}: {e}")
-    return tweets
 
 def is_recent(tweet: dict) -> bool:
     return tweet["date"] is not None and tweet["date"] >= cutoff
@@ -612,12 +537,15 @@ def enrich(tweet: dict) -> dict:
 # ── Bookmarks (saved posts) via X GraphQL ──────────────────────────────────────
 #
 # The reader's SAVED / BOOKMARKED posts are the top-priority curated X signal for
-# the Media Zone. Bookmarks are private and auth-gated: the /i/bookmarks timeline
-# is only readable by a logged-in session, so this path needs the auth_token +
-# ct0 cookies already loaded into X_COOKIES from x-cookies.json (gitignored,
-# chmod 600, user-supplied). We call X's internal GraphQL "Bookmarks" operation
-# with the public web bearer token (ships in x.com's JS; NOT a user credential).
-# Auth is carried by the session cookies + the ct0-derived CSRF header.
+# the Media Zone (see CLAUDE.md). Bookmarks are private and auth-gated: the
+# /i/bookmarks timeline is only readable by a logged-in session, so this path
+# needs the auth_token + ct0 cookies already loaded into X_COOKIES from
+# ~/.config/{{WIKI_NAME}}/x-cookies.json (gitignored, chmod 600, user-supplied).
+#
+# We call X's internal GraphQL "Bookmarks" operation directly with the public web
+# bearer token (this token ships in X's public JS bundle — it is NOT a user
+# credential and is safe to hardcode). Auth is carried entirely by the session
+# cookies + the ct0-derived CSRF header.
 
 # Public web-app bearer token (shipped in x.com's JS; not a secret).
 X_WEB_BEARER = (
@@ -626,10 +554,10 @@ X_WEB_BEARER = (
 )
 
 # Feature flags required by the Bookmarks GraphQL operation. X rejects the call
-# with 400 if required flags are missing or unknown. This set is copied from a
-# live x.com/i/bookmarks request. If X changes its required flags, refresh both
-# this dict and graphql_query_id from a fresh request (DevTools > Network >
-# 'Bookmarks' > copy the request URL).
+# with 400 if required flags are missing or unknown. This set is copied verbatim
+# from a live x.com/i/bookmarks request (captured 2026-08-12). If X changes its
+# required flags, refresh both this dict and graphql_query_id from a fresh request
+# (DevTools > Network > 'Bookmarks' > copy the request URL).
 BM_FEATURES = {
     "rweb_video_screen_enabled": False,
     "rweb_cashtags_enabled": True,
@@ -687,11 +615,88 @@ def _bm_headers() -> dict:
     }
 
 
+# ── Self-healing GraphQL calls ─────────────────────────────────────────────────
+# X rotates every operation's queryId and required `features` on each web build.
+# connectors/twitter/discover_ids.py records exactly what the live web client
+# sends (id, method, features, fieldToggles) into .state/graphql_ids.json. Every
+# call goes through gql_call(): it uses the cached spec, and on a 400/404 (stale
+# id or feature set) re-runs discovery once and retries. No more hand-copying
+# ids out of DevTools.
+GQL_CACHE = Path(__file__).parent / ".state" / "graphql_ids.json"
+_GQL_REFRESHED = False
+
+
+def _gql_specs() -> dict:
+    try:
+        return json.loads(GQL_CACHE.read_text()).get("ops", {})
+    except Exception:
+        return {}
+
+
+def refresh_gql_ids() -> bool:
+    """Re-run discovery (headless browser with the reader's session). Once per run."""
+    global _GQL_REFRESHED
+    if _GQL_REFRESHED:
+        return False
+    _GQL_REFRESHED = True
+    print("  GraphQL spec stale or missing — rediscovering from the live X web app...")
+    try:
+        r = subprocess.run([sys.executable, str(Path(__file__).parent / "discover_ids.py")],
+                           capture_output=True, text=True, timeout=240)
+        print("   " + (r.stdout.strip().replace("\n", "\n   ") or r.stderr.strip()[:200]))
+        return r.returncode == 0
+    except Exception as e:
+        print(f"   discovery failed: {e}")
+        return False
+
+
+def gql_call(op: str, variables: dict, fallback_id: str = "", fallback_method: str = "GET",
+             fallback_features=None, referer: str = "https://x.com/home"):
+    """Call an X GraphQL operation with the live spec. Returns (status_code, json|None)."""
+    for attempt in (1, 2):
+        spec = _gql_specs().get(op) or {}
+        qid = spec.get("id") or fallback_id
+        method = spec.get("method") or fallback_method
+        feats = spec.get("features") or (fallback_features if fallback_features is not None else BM_FEATURES)
+        toggles = spec.get("fieldToggles")
+        if not qid:
+            if attempt == 1 and refresh_gql_ids():
+                continue
+            return 0, None
+        url = f"https://x.com/i/api/graphql/{qid}/{op}"
+        headers = dict(_bm_headers()); headers["Referer"] = referer
+        try:
+            if method == "POST":
+                body = {"variables": variables, "features": feats, "queryId": qid}
+                if toggles:
+                    body["fieldToggles"] = toggles
+                r = requests.post(url, headers=headers, cookies=X_COOKIES, data=json.dumps(body), timeout=FETCH_TIMEOUT)
+            else:
+                params = {"variables": json.dumps(variables, separators=(",", ":")),
+                          "features": json.dumps(feats, separators=(",", ":"))}
+                if toggles:
+                    params["fieldToggles"] = json.dumps(toggles, separators=(",", ":"))
+                r = requests.get(url, headers=headers, cookies=X_COOKIES, params=params, timeout=FETCH_TIMEOUT)
+        except Exception as e:
+            print(f"  {op}: request error: {e}")
+            return 0, None
+        if r.status_code in (400, 404, 422) and attempt == 1 and refresh_gql_ids():
+            continue
+        try:
+            return r.status_code, (r.json() if r.status_code == 200 else None)
+        except Exception:
+            return r.status_code, None
+    return 0, None
+
+
 def _unwrap_tweet(result):
     """Normalize a GraphQL tweet_results.result into a farmer-shaped tweet dict.
 
-    Returns the tweet dict, or None for entries that aren't tweets. Handles both
-    'Tweet' and 'TweetWithVisibilityResults' envelopes.
+    Returns the tweet dict, or None for entries that aren't tweets.
+
+
+    Handles both 'Tweet' and 'TweetWithVisibilityResults' envelopes. Returns None
+    for entries that aren't tweets (ads, tombstones, etc.).
     """
     if not isinstance(result, dict):
         return None
@@ -704,6 +709,7 @@ def _unwrap_tweet(result):
     tweet_id = legacy.get("id_str") or result.get("rest_id") or ""
     full_text = legacy.get("full_text") or ""
 
+    # Long-form (note) tweets carry the real body separately.
     note = (result.get("note_tweet") or {}).get("note_tweet_results", {}).get("result", {})
     if note.get("text"):
         full_text = note["text"]
@@ -733,8 +739,10 @@ def _unwrap_tweet(result):
     user = (((result.get("core") or {}).get("user_results") or {}).get("result") or {})
     screen_name = (user.get("legacy") or {}).get("screen_name") or (user.get("core") or {}).get("screen_name") or "unknown"
 
+    # Expanded URLs (skip t.co, self x.com links via SKIP_DOMAINS).
     entities = legacy.get("entities") or {}
     url_entities = entities.get("urls") or []
+    # Note tweets keep their URLs under note_tweet results too.
     if note:
         note_ent = (note.get("entity_set") or {}).get("urls") or []
         url_entities = url_entities + note_ent
@@ -744,6 +752,7 @@ def _unwrap_tweet(result):
         if exp and not any(d in exp for d in SKIP_DOMAINS):
             urls.append(exp)
 
+    # Media image URLs (public CDN).
     media = (entities.get("media") or [])
     ext_media = ((legacy.get("extended_entities") or {}).get("media") or [])
     image_urls = []
@@ -775,7 +784,7 @@ def _unwrap_tweet(result):
     }
 
 
-def _bm_parse_page(payload: dict) -> tuple:
+def _bm_parse_page(payload: dict) -> tuple[list[dict], str]:
     """Extract (tweets, next_cursor) from one Bookmarks GraphQL response page."""
     tweets, cursor = [], ""
     try:
@@ -800,7 +809,7 @@ def _bm_parse_page(payload: dict) -> tuple:
     return tweets, cursor
 
 
-def fetch_bookmarks() -> list:
+def fetch_bookmarks() -> list[dict]:
     """Fetch the reader's saved posts from X, newest first, with pagination.
 
     Returns a list of farmer-shaped tweet dicts (not yet enriched). Degrades
@@ -819,22 +828,21 @@ def fetch_bookmarks() -> list:
         return []
 
     endpoint = f"https://x.com/i/api/graphql/{BM_QUERY_ID}/Bookmarks"
-    all_tweets = []
+    all_tweets: list[dict] = []
     cursor = ""
     for page in range(BM_MAX_PAGES):
         variables = {"count": BM_COUNT, "includePromotedContent": False}
         if cursor:
             variables["cursor"] = cursor
-        params = {
-            "variables": json.dumps(variables, separators=(",", ":")),
-            "features": json.dumps(BM_FEATURES, separators=(",", ":")),
-        }
-        try:
-            r = requests.get(endpoint, headers=_bm_headers(), cookies=X_COOKIES,
-                             params=params, timeout=FETCH_TIMEOUT)
-        except Exception as e:
-            print(f"  Bookmarks: request error on page {page+1}: {e}")
-            break
+        code, payload = gql_call("Bookmarks", variables, fallback_id=BM_QUERY_ID,
+                                 fallback_method="GET", referer="https://x.com/i/bookmarks")
+
+        class _R:  # keep the status handling below unchanged
+            status_code = code
+            text = ""
+            def json(self):
+                return payload
+        r = _R()
 
         if r.status_code == 404:
             print(f"  Bookmarks: 404 — graphql_query_id '{BM_QUERY_ID}' is stale. "
@@ -867,9 +875,13 @@ def fetch_bookmarks() -> list:
     return all_tweets
 
 
-# ── Home timeline (Following feed) — social-media agent ─────────────────────────
+# ── Home timeline (Following feed) for the social-media agent ────────────────────
 #
-# The reader's own home feed with per-post engagement. PRIVATE — it's literally
+# Captures the reader's X home Following feed with per-post ENGAGEMENT signals
+# (likes, retweets, replies, quotes, views) and the author's follower count, so
+# the downstream synthesis can rank by author-normalized engagement + velocity +
+# who's-engaging, not raw counts. Native X videos and linked articles are noted;
+# links get enriched the same way bookmarks are. PRIVATE: the reader's feed is
 # what they see, so raw output is gitignored (only the synthesis publishes).
 
 # Extra feature flags HomeTimeline needs on top of the shared bookmarks set.
@@ -919,6 +931,7 @@ def _ht_parse_page(payload: dict):
                 continue
             for entry in instr.get("entries", []):
                 c = entry.get("content") or {}
+                eid = entry.get("entryId", "")
                 # bottom cursor for pagination
                 if c.get("entryType") == "TimelineTimelineCursor" and c.get("cursorType") == "Bottom":
                     cursor = c.get("value", "")
@@ -941,7 +954,7 @@ def _ht_parse_page(payload: dict):
     return tweets, cursor
 
 
-def fetch_home_timeline() -> list:
+def fetch_home_timeline(op: str = "HomeLatestTimeline", pages=None, stamp: bool = True) -> list:
     """Fetch the reader's X home Following feed with engagement signals.
 
     Degrades gracefully to [] on any auth/endpoint failure so it never breaks the
@@ -987,8 +1000,10 @@ def fetch_home_timeline() -> list:
 
     features = dict(BM_FEATURES)
     features.update(HT_EXTRA_FEATURES)
-    endpoint = f"https://x.com/i/api/graphql/{HT_QUERY_ID}/HomeTimeline"
     all_tweets, cursor, seen_ids = [], "", set()
+    if pages is not None:
+        eff_pages = pages
+    label = "Following" if op == "HomeLatestTimeline" else "For You"
     for page in range(eff_pages):
         variables = {
             "count": HT_COUNT,
@@ -1000,27 +1015,15 @@ def fetch_home_timeline() -> list:
         }
         if cursor:
             variables["cursor"] = cursor
-        body = {"variables": variables, "features": features, "queryId": HT_QUERY_ID}
-        try:
-            r = requests.post(endpoint, headers=_bm_headers(), cookies=X_COOKIES,
-                              data=json.dumps(body), timeout=FETCH_TIMEOUT)
-        except Exception as e:
-            print(f"  Home timeline: request error on page {page+1}: {e}")
+        code, payload = gql_call(op, variables,
+                                 fallback_id=(HT_QUERY_ID if op == "HomeTimeline" else ""),
+                                 fallback_method=("GET" if op == "HomeTimeline" else "POST"),
+                                 fallback_features=features)
+        if code in (401, 403):
+            print(f"  {label}: {code} — X session cookies expired. Re-auth needed. Skipping.")
             break
-        if r.status_code == 404:
-            print(f"  Home timeline: 404 — graphql_query_id '{HT_QUERY_ID}' is stale. "
-                  "Refresh it per the config 'note' field. Skipping.")
-            break
-        if r.status_code in (401, 403):
-            print(f"  Home timeline: {r.status_code} — X cookies expired. Re-auth. Skipping.")
-            break
-        if r.status_code != 200:
-            print(f"  Home timeline: HTTP {r.status_code} on page {page+1}: {r.text[:160]}")
-            break
-        try:
-            payload = r.json()
-        except Exception as e:
-            print(f"  Home timeline: bad JSON on page {page+1}: {e}")
+        if code != 200 or payload is None:
+            print(f"  {label}: HTTP {code} on page {page+1} (after rediscovery). Skipping.")
             break
         page_tweets, cursor = _ht_parse_page(payload)
         fresh = 0
@@ -1032,32 +1035,88 @@ def fetch_home_timeline() -> list:
             seen_ids.add(t["tweet_id"])
             all_tweets.append(t)
             fresh += 1
-        print(f"  HomeTimeline page {page+1}: +{fresh} (total {len(all_tweets)})")
+        for t in page_tweets:
+            t.setdefault("feed_source", "following" if op == "HomeLatestTimeline" else "for_you")
+        print(f"  {label} page {page+1}: +{fresh} (total {len(all_tweets)})")
         if not cursor or fresh == 0:
             break
         time.sleep(1.5)
     # Stamp the capture time so the next run can size its catch-up to the gap.
     try:
-        _last_path.write_text(json.dumps({"ts": now_utc.isoformat()}))
+        if stamp:
+            _last_path.write_text(json.dumps({"ts": now_utc.isoformat()}))
     except Exception:
         pass
     return all_tweets
 
 
+def capture_home() -> list:
+    """Following timeline (chronological, accounts the reader follows) at full
+    catch-up depth, plus a thin slice of For You for out-of-network signal.
+    Deduped by tweet id; each post tagged feed_source=following|for_you."""
+    following = fetch_home_timeline("HomeLatestTimeline")
+    for_you = fetch_home_timeline("HomeTimeline", pages=HT_CFG.get("for_you_pages", 1), stamp=False)
+    seen, out = set(), []
+    for t in following + for_you:
+        if t.get("tweet_id") and t["tweet_id"] not in seen:
+            seen.add(t["tweet_id"]); out.append(t)
+    print(f"  home capture: {len(following)} Following + {len(for_you)} For You -> {len(out)} unique")
+    return out
+
+
+def fetch_own_reposts(limit_pages: int = 2) -> list:
+    """The reader's own retweets and quote-posts (curated signal), read from their
+    profile timeline via the session. Returns the ORIGINAL posts being reposted."""
+    if not OWN_HANDLE or OWN_HANDLE.startswith("your_"):
+        return []
+    code, u = gql_call("UserByScreenName", {"screen_name": OWN_HANDLE, "withSafetyModeUserFields": True},
+                       referer=f"https://x.com/{OWN_HANDLE}")
+    uid = (((u or {}).get("data") or {}).get("user") or {}).get("result", {}).get("rest_id")
+    if not uid:
+        print(f"  own reposts: could not resolve @{OWN_HANDLE} (HTTP {code})")
+        return []
+    out, cursor = [], ""
+    for _ in range(limit_pages):
+        v = {"userId": uid, "count": 40, "includePromotedContent": False,
+             "withQuickPromoteEligibilityTweetFields": False, "withVoice": True}
+        if cursor:
+            v["cursor"] = cursor
+        code, d = gql_call("UserTweets", v, referer=f"https://x.com/{OWN_HANDLE}")
+        if code != 200 or not d:
+            print(f"  own reposts: UserTweets HTTP {code}")
+            break
+        res = ((d.get("data") or {}).get("user") or {}).get("result") or {}
+        tl = (res.get("timeline_v2") or res.get("timeline") or {}).get("timeline") or {}
+        cursor = ""
+        for ins in tl.get("instructions", []):
+            for e in ins.get("entries", []) or ([ins["entry"]] if ins.get("entry") else []):
+                c = e.get("content") or {}
+                if c.get("cursorType") == "Bottom":
+                    cursor = c.get("value", "")
+                ic = c.get("itemContent") or {}
+                r = ((ic.get("tweet_results") or {}).get("result")) or {}
+                if r.get("__typename") == "TweetWithVisibilityResults":
+                    r = r.get("tweet", {})
+                leg = r.get("legacy") or {}
+                inner = (leg.get("retweeted_status_result") or {}).get("result")
+                quoted = (r.get("quoted_status_result") or {}).get("result")
+                src = inner or (quoted if leg.get("is_quote_status") else None)
+                if src:
+                    t = _unwrap_tweet(src)
+                    if t and t.get("link"):
+                        t["repost_kind"] = "retweet" if inner else "quote"
+                        out.append(t)
+        if not cursor:
+            break
+        time.sleep(1.0)
+    return out
+
+
 # ── Scraping ────────────────────────────────────────────────────────────────────
-
-# Nitter powers the public scrape (own retweets + AI handles) only. Bookmarks come
-# from X's GraphQL API with session cookies and are completely independent of it.
-# A Nitter outage must therefore DEGRADE the run, not kill it — otherwise an
-# unrelated instance failure silently costs you the saved posts, which are the
-# Media Zone's primary source. Fail safe: skip the scrape, still fetch bookmarks.
-try:
-    nitter_base = get_nitter_base()
-    print(f"Using Nitter: {nitter_base}")
-except RuntimeError as e:
-    nitter_base = None
-    print(f"WARNING: {e} — skipping public scrape, continuing to bookmarks.")
-
+# Everything comes from X directly through the reader's logged-in session (the
+# Nitter mirrors were retired 2026-09-27: every public instance is dead or behind
+# a bot wall). If the session expires, every X call reports 401/403 clearly and
+# the collection window flags X as a stale source in the next digest.
 # 1. Own handle — retweets/quotes as curated signal.
 #    Nitter RSS reports the ORIGINAL tweet's date for reposts, not the repost
 #    timestamp. So we can't rely on pubDate to detect "new" reposts. Instead
@@ -1080,7 +1139,7 @@ if FEED_ONLY:
             seen_ht_ids = set(json.loads(SEEN_HT_PATH.read_text()))
         except Exception:
             seen_ht_ids = set()
-    home_all = fetch_home_timeline()
+    home_all = capture_home()
     home_feed = [t for t in home_all if t["tweet_id"] not in seen_ht_ids] if HT_ONLY_NEW else home_all
     print(f"  {len(home_all)} feed posts fetched | {len(home_feed)} new (unseen)")
     if home_feed:
@@ -1137,15 +1196,11 @@ if SEEN_PATH.exists():
     except Exception:
         seen_links = set()
 
-print(f"\n[1/2] @{OWN_HANDLE} (retweets as curated signal)...")
-if nitter_base:
-    own_all     = fetch_rss(OWN_HANDLE, nitter_base)
-    own_reposts = [t for t in own_all if is_retweet(t) or is_quote_tweet(t)]
-    own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
-    print(f"  {len(own_all)} feed items | {len(own_reposts)} reposts | {len(own_curated)} new (unseen)")
-else:
-    own_all, own_reposts, own_curated = [], [], []
-    print("  skipped — no Nitter instance reachable")
+print(f"\n[1/3] @{OWN_HANDLE} (retweets as curated signal)...")
+own_reposts = fetch_own_reposts()
+own_all     = own_reposts
+own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
+print(f"  {len(own_reposts)} reposts on your profile | {len(own_curated)} new (unseen)")
 
 # Persist newly captured links to the seen set, but cap the file at 500 entries
 # so it doesn't grow forever. We keep the most recent N by appending.
@@ -1166,27 +1221,9 @@ if SEEN_AI_PATH.exists():
     except Exception:
         seen_ai_links = set()
 
-print(f"\n[2/2] Scraping {len(AI_HANDLES)} AI handles...")
-if not nitter_base:
-    print("  skipped — no Nitter instance reachable")
+print("\n[2/3] Curated AI handles: covered by the Following timeline (Nitter retired).")
 ai_results: dict[str, list] = {}
 new_ai_links: list[str] = []
-for h in (AI_HANDLES if nitter_base else []):
-    handle = h["handle"]
-    tweets = fetch_rss(handle, nitter_base)
-    # Keep all non-retweet originals from this handle, within the lookback window.
-    # No AI-keyword filter — the handle being curated is sufficient signal.
-    # Dedup across slots via SEEN_AI_PATH so wider lookback doesn't double-count.
-    recent  = [t for t in tweets if is_recent(t)]
-    originals = [t for t in recent if not is_retweet(t)]
-    fresh = [t for t in originals if t.get("link") and t["link"] not in seen_ai_links]
-    if fresh:
-        ai_results[handle] = fresh
-        new_ai_links.extend(t["link"] for t in fresh if t.get("link"))
-        print(f"  @{handle}: {len(fresh)} new tweets (of {len(originals)} originals in {HOURS_BACK}h)")
-    else:
-        print(f"  @{handle}: 0 new (of {len(originals)} originals in {HOURS_BACK}h, all already seen)")
-
 # Persist newly captured AI-handle tweet links, capped at 1000 entries
 if new_ai_links:
     combined = list(seen_ai_links) + new_ai_links
@@ -1195,8 +1232,9 @@ if new_ai_links:
 
 # 3. Bookmarks (saved posts) — top-priority curated signal for the Media Zone.
 #    Auth-gated: only runs when auth_token + ct0 cookies exist. Deduped by tweet
-#    id via seen_bookmarks.json so each run surfaces only newly-saved posts.
-print(f"\n[bookmarks] Saved posts...")
+#    id via seen_bookmarks.json so each run surfaces only newly-saved posts
+#    (set bookmarks.only_new=false in config to re-capture everything each run).
+print(f"\n[3/3] Bookmarks (saved posts)...")
 SEEN_BM_PATH = STATE_DIR / "seen_bookmarks.json"
 seen_bm_ids = set()
 if SEEN_BM_PATH.exists():
@@ -1212,6 +1250,7 @@ else:
     bookmarks = bookmarks_all
 print(f"  {len(bookmarks_all)} bookmarks fetched | {len(bookmarks)} new (unseen)")
 
+# Persist captured bookmark ids, capped at 2000 entries.
 if bookmarks:
     combined_bm = list(seen_bm_ids) + [t["tweet_id"] for t in bookmarks_all if t.get("tweet_id")]
     seen_bm_ids = set(combined_bm[-2000:])
@@ -1228,7 +1267,7 @@ if SEEN_HT_PATH.exists():
     except Exception:
         seen_ht_ids = set()
 
-home_all = fetch_home_timeline()
+home_all = capture_home()
 if HT_ONLY_NEW:
     home_feed = [t for t in home_all if t["tweet_id"] not in seen_ht_ids]
 else:
@@ -1291,6 +1330,10 @@ total_tweets   = len(own_curated) + sum(len(v) for v in ai_results.values())
 total_articles = sum(len(t.get("articles", [])) for t in own_curated) + \
                  sum(len(t.get("articles", [])) for v in ai_results.values() for t in v)
 
+# NOTE: bookmarks are intentionally NOT written into this shared file. This file
+# and its .json sidecar are git-tracked in a PUBLIC repo; bookmarks are the
+# reader's PRIVATE X saves. They are written separately to raw/twitter/bookmarks/
+# (gitignored) at the end of this script. See the "Bookmarks sidecar" block below.
 out = [
     f"# Twitter/X Digest | {date_str} | {slot.upper()}",
     f"> Scraped {now_ist.strftime('%Y-%m-%d %H:%M IST')} | Lookback: {HOURS_BACK}h | {total_tweets} tweets | {total_articles} articles",
@@ -1326,7 +1369,7 @@ out += ["", "---", f"*Twitter farmer | {date_str} {slot.upper()} | {total_tweets
 
 out_path.write_text("\n".join(out), encoding="utf-8")
 print(f"\nWrote {out_path}")
-print(f"Summary: {len(own_curated)} curated retweets | {sum(len(v) for v in ai_results.values())} AI tweets | {total_articles} articles")
+print(f"Summary: {len(bookmarks)} saved posts | {len(own_curated)} curated retweets | {sum(len(v) for v in ai_results.values())} AI tweets | {total_articles} articles")
 
 # ── JSON sidecar (machine-readable for Media-Live site tab) ────────────────────
 
@@ -1339,6 +1382,9 @@ def _tweet_to_dict(t: dict, is_curated: bool = False, handle_org: str = "") -> d
         "date_utc":   t["date"].isoformat() if t["date"] else None,
         "is_curated": is_curated,
         "org":        handle_org,
+        # Twitter CDN image URLs (pic.twimg.com / nitter.net) — public, load
+        # directly in browsers without auth. Used by the Media Zone feed.
+        "image_urls": t.get("image_urls", []),
         "articles":   [
             {"url": a["url"], "content": a["content"][:800]}
             for a in t.get("articles", []) if a.get("url")
@@ -1365,15 +1411,17 @@ json_payload = {
 json_path.write_text(json.dumps(json_payload, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"Wrote {json_path}")
 
-# ── Bookmarks sidecar (PRIVATE — gitignored, never enters the repo) ─────────────
+# ── Bookmarks sidecar (PRIVATE — gitignored, never enters the public repo) ──────
 #
-# Bookmarks are the reader's private X saves. If your wiki repo is public, both
-# the shared -slot.md and -slot.json above are git-tracked (the .json also feeds
-# the site tab), so bookmarks are written HERE instead, under
+# Bookmarks are the reader's private X saves. This repo is public and both the
+# shared -slot.md and -slot.json above are git-tracked (the .json also feeds the
+# public site tab), so bookmarks are written HERE instead, under
 # raw/twitter/bookmarks/ which is gitignored. Only the local Media Zone synthesis
-# reads these files; they never leave the machine via git. Article content is
-# stored in FULL (not truncated) because the Media Zone treats each bookmark as a
-# knowledge/learning item and synthesizes a compressed Deep Dive from the body.
+# (morning cron) reads these files; they never leave the machine via git.
+#
+# Article content is stored in FULL here (not truncated to 800 like the public
+# sidecar) because the Media Zone treats each bookmark as a knowledge/learning
+# item and synthesizes a compressed Deep Dive from the linked article's body.
 BM_DIR = RAW_DIR / "bookmarks"
 BM_DIR.mkdir(parents=True, exist_ok=True)
 bm_md_path   = BM_DIR / f"{date_str}-{slot}.md"
@@ -1413,6 +1461,7 @@ bm_json = {
             "link":       t["link"],
             "date_utc":   t["date"].isoformat() if t.get("date") else None,
             "image_urls": t.get("image_urls", []),
+            # FULL enriched article bodies for knowledge synthesis (no truncation).
             "articles":   [
                 {"url": a["url"], "content": a["content"]}
                 for a in t.get("articles", []) if a.get("url")

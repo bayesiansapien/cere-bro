@@ -305,7 +305,7 @@
     "only_new": true,
     "fetch_linked_articles": true,
     "graphql_query_id": "iblrFnKr6PZUR-dWpfXG6g",
-    "note": "Captures your PRIVATE X bookmarks (saved posts) as top-priority Media Zone signal. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates when X ships a new web build: if bookmark fetches return 404, refresh it — open x.com/i/bookmarks logged-in, DevTools > Network, filter 'Bookmarks', copy the hash from the request URL (.../graphql/<THIS_PART>/Bookmarks). Bookmarks are written to the gitignored raw/twitter/bookmarks/ folder so your private saves never enter a public repo."
+    "note": "Private X bookmarks as top-priority Media Zone signal. Id/features auto-discovered (discover_ids.py); graphql_query_id is a fallback only. Written to gitignored raw/twitter/bookmarks/."
   },
   "home_timeline": {
     "enabled": true,
@@ -315,8 +315,9 @@
     "fetch_linked_articles": true,
     "skip_promoted": true,
     "graphql_query_id": "wp06oo3fRGU4P1sK8rECqQ",
-    "note": "Your X home Following feed, captured for the social-media agent (engagement-aware Media Zone synthesis). PRIVATE: written to gitignored raw/twitter/feed/. Needs auth_token + ct0 in x-cookies.json. graphql_query_id rotates on new X web builds: if HomeTimeline fetches 404, refresh it — open x.com/home logged-in, DevTools > Network, filter 'HomeTimeline', copy the hash from the request URL (.../graphql/<THIS_PART>/HomeTimeline).",
+    "note": "The reader's X home feed for the social-media agent: the Following timeline (HomeLatestTimeline, chronological, everyone you follow) at catch-up depth plus for_you_pages of For You. PRIVATE: gitignored raw/twitter/feed/. GraphQL ids and feature flags are AUTO-DISCOVERED by connectors/twitter/discover_ids.py (cached in .state/graphql_ids.json, refreshed automatically on 400/404); graphql_query_id here is only a last-resort fallback. Auth: auth_token + ct0 session cookies.",
     "max_pages_cap": 20,
-    "catchup_hours_cap": 24
+    "catchup_hours_cap": 24,
+    "for_you_pages": 1
   }
 }

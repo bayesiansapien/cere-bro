@@ -2,7 +2,9 @@
 """
 Twitter/X farmer for cere-bro wiki.
 
-Uses Nitter RSS to scrape tweets — no auth, no cookies, free.
+Reads X directly through the reader's logged-in session (GraphQL): the Following
+timeline (+ a thin For You slice), the reader's own reposts, and bookmarks. Operation ids
+and feature flags are auto-discovered (discover_ids.py); Nitter was retired 2026-09-27.
   - @bayesiansapien's feed   : retweets/quote-tweets as curated signal
   - AI-relevant handles       : original tweets from key AI accounts, filtered by keywords
 
@@ -18,6 +20,7 @@ import sys
 import json
 import math
 import re
+import subprocess
 import time
 import requests
 import xml.etree.ElementTree as ET
@@ -200,12 +203,6 @@ if not X_COOKIES:
 IMG_DIR = REPO_ROOT / "raw" / "twitter" / "images"
 if DOWNLOAD_IMAGES:
     IMG_DIR.mkdir(parents=True, exist_ok=True)
-
-# Nitter instance — fallback list in order of preference
-NITTER_INSTANCES = [
-    "https://nitter.net",
-    "https://nitter.poast.org",
-]
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 FORCE = "--force" in sys.argv
@@ -408,79 +405,10 @@ def refresh_following_list():
 
 refresh_following_list()
 
-# ── Nitter RSS helpers ─────────────────────────────────────────────────────────
+# ── Tweet text/URL helpers ─────────────────────────────────────────────────────────
 
-def get_nitter_base() -> str:
-    for base in NITTER_INSTANCES:
-        try:
-            r = requests.get(f"{base}/nvidia/rss", headers={"User-Agent": UA}, timeout=8)
-            if r.status_code == 200 and "<rss" in r.text:
-                return base
-        except Exception:
-            continue
-    raise RuntimeError("No reachable Nitter instance found")
 
-def fetch_rss(handle: str, nitter_base: str) -> list[dict]:
-    """Fetch Nitter RSS for a handle, return list of tweet dicts."""
-    url = f"{nitter_base}/{handle}/rss"
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=15)
-        if r.status_code != 200:
-            return []
-        return parse_rss(r.text, handle)
-    except Exception as e:
-        print(f"  ERROR fetching @{handle}: {e}")
-        return []
 
-def parse_rss(xml_text: str, handle: str) -> list[dict]:
-    """Parse Nitter RSS XML into tweet dicts."""
-    tweets = []
-    try:
-        root = ET.fromstring(xml_text)
-        ns = {"dc": "http://purl.org/dc/elements/1.1/"}
-        for item in root.findall(".//item"):
-            title   = (item.findtext("title") or "").strip()
-            desc    = (item.findtext("description") or "").strip()
-            pub     = item.findtext("pubDate") or ""
-            link    = (item.findtext("link") or "").strip()
-            creator = (item.findtext("dc:creator", namespaces=ns) or f"@{handle}").strip()
-
-            # Clean HTML from description
-            text = re.sub(r"<[^>]+>", " ", desc)
-            text = re.sub(r"&[a-z]+;", " ", text)
-            text = re.sub(r"\s+", " ", text).strip()
-            if not text:
-                text = title
-
-            # Parse date
-            dt = None
-            if pub:
-                try:
-                    dt = parsedate_to_datetime(pub).astimezone(timezone.utc)
-                except Exception:
-                    pass
-
-            # Extract URLs from description (href= links)
-            urls = re.findall(r'href="(https?://[^"]+)"', desc)
-            urls = [u for u in urls if not any(d in u for d in SKIP_DOMAINS + ["nitter."])]
-
-            # Extract image URLs from <img src="..."> tags in description
-            image_urls = extract_image_urls(desc)
-
-            tweets.append({
-                "handle":     handle,
-                "creator":    creator,
-                "text":       text,
-                "title":      title,
-                "link":       link,
-                "date":       dt,
-                "date_raw":   pub,
-                "urls":       list(dict.fromkeys(urls)),
-                "image_urls": list(dict.fromkeys(image_urls)),
-            })
-    except Exception as e:
-        print(f"  RSS parse error for @{handle}: {e}")
-    return tweets
 
 def is_recent(tweet: dict) -> bool:
     return tweet["date"] is not None and tweet["date"] >= cutoff
@@ -687,6 +615,80 @@ def _bm_headers() -> dict:
     }
 
 
+# ── Self-healing GraphQL calls ─────────────────────────────────────────────────
+# X rotates every operation's queryId and required `features` on each web build.
+# connectors/twitter/discover_ids.py records exactly what the live web client
+# sends (id, method, features, fieldToggles) into .state/graphql_ids.json. Every
+# call goes through gql_call(): it uses the cached spec, and on a 400/404 (stale
+# id or feature set) re-runs discovery once and retries. No more hand-copying
+# ids out of DevTools.
+GQL_CACHE = Path(__file__).parent / ".state" / "graphql_ids.json"
+_GQL_REFRESHED = False
+
+
+def _gql_specs() -> dict:
+    try:
+        return json.loads(GQL_CACHE.read_text()).get("ops", {})
+    except Exception:
+        return {}
+
+
+def refresh_gql_ids() -> bool:
+    """Re-run discovery (headless browser with the reader's session). Once per run."""
+    global _GQL_REFRESHED
+    if _GQL_REFRESHED:
+        return False
+    _GQL_REFRESHED = True
+    print("  GraphQL spec stale or missing — rediscovering from the live X web app...")
+    try:
+        r = subprocess.run([sys.executable, str(Path(__file__).parent / "discover_ids.py")],
+                           capture_output=True, text=True, timeout=240)
+        print("   " + (r.stdout.strip().replace("\n", "\n   ") or r.stderr.strip()[:200]))
+        return r.returncode == 0
+    except Exception as e:
+        print(f"   discovery failed: {e}")
+        return False
+
+
+def gql_call(op: str, variables: dict, fallback_id: str = "", fallback_method: str = "GET",
+             fallback_features=None, referer: str = "https://x.com/home"):
+    """Call an X GraphQL operation with the live spec. Returns (status_code, json|None)."""
+    for attempt in (1, 2):
+        spec = _gql_specs().get(op) or {}
+        qid = spec.get("id") or fallback_id
+        method = spec.get("method") or fallback_method
+        feats = spec.get("features") or (fallback_features if fallback_features is not None else BM_FEATURES)
+        toggles = spec.get("fieldToggles")
+        if not qid:
+            if attempt == 1 and refresh_gql_ids():
+                continue
+            return 0, None
+        url = f"https://x.com/i/api/graphql/{qid}/{op}"
+        headers = dict(_bm_headers()); headers["Referer"] = referer
+        try:
+            if method == "POST":
+                body = {"variables": variables, "features": feats, "queryId": qid}
+                if toggles:
+                    body["fieldToggles"] = toggles
+                r = requests.post(url, headers=headers, cookies=X_COOKIES, data=json.dumps(body), timeout=FETCH_TIMEOUT)
+            else:
+                params = {"variables": json.dumps(variables, separators=(",", ":")),
+                          "features": json.dumps(feats, separators=(",", ":"))}
+                if toggles:
+                    params["fieldToggles"] = json.dumps(toggles, separators=(",", ":"))
+                r = requests.get(url, headers=headers, cookies=X_COOKIES, params=params, timeout=FETCH_TIMEOUT)
+        except Exception as e:
+            print(f"  {op}: request error: {e}")
+            return 0, None
+        if r.status_code in (400, 404, 422) and attempt == 1 and refresh_gql_ids():
+            continue
+        try:
+            return r.status_code, (r.json() if r.status_code == 200 else None)
+        except Exception:
+            return r.status_code, None
+    return 0, None
+
+
 def _unwrap_tweet(result):
     """Normalize a GraphQL tweet_results.result into a farmer-shaped tweet dict.
 
@@ -832,16 +834,15 @@ def fetch_bookmarks() -> list[dict]:
         variables = {"count": BM_COUNT, "includePromotedContent": False}
         if cursor:
             variables["cursor"] = cursor
-        params = {
-            "variables": json.dumps(variables, separators=(",", ":")),
-            "features": json.dumps(BM_FEATURES, separators=(",", ":")),
-        }
-        try:
-            r = requests.get(endpoint, headers=_bm_headers(), cookies=X_COOKIES,
-                             params=params, timeout=FETCH_TIMEOUT)
-        except Exception as e:
-            print(f"  Bookmarks: request error on page {page+1}: {e}")
-            break
+        code, payload = gql_call("Bookmarks", variables, fallback_id=BM_QUERY_ID,
+                                 fallback_method="GET", referer="https://x.com/i/bookmarks")
+
+        class _R:  # keep the status handling below unchanged
+            status_code = code
+            text = ""
+            def json(self):
+                return payload
+        r = _R()
 
         if r.status_code == 404:
             print(f"  Bookmarks: 404 — graphql_query_id '{BM_QUERY_ID}' is stale. "
@@ -953,7 +954,7 @@ def _ht_parse_page(payload: dict):
     return tweets, cursor
 
 
-def fetch_home_timeline() -> list:
+def fetch_home_timeline(op: str = "HomeLatestTimeline", pages=None, stamp: bool = True) -> list:
     """Fetch the reader's X home Following feed with engagement signals.
 
     Degrades gracefully to [] on any auth/endpoint failure so it never breaks the
@@ -999,8 +1000,10 @@ def fetch_home_timeline() -> list:
 
     features = dict(BM_FEATURES)
     features.update(HT_EXTRA_FEATURES)
-    endpoint = f"https://x.com/i/api/graphql/{HT_QUERY_ID}/HomeTimeline"
     all_tweets, cursor, seen_ids = [], "", set()
+    if pages is not None:
+        eff_pages = pages
+    label = "Following" if op == "HomeLatestTimeline" else "For You"
     for page in range(eff_pages):
         variables = {
             "count": HT_COUNT,
@@ -1012,27 +1015,15 @@ def fetch_home_timeline() -> list:
         }
         if cursor:
             variables["cursor"] = cursor
-        body = {"variables": variables, "features": features, "queryId": HT_QUERY_ID}
-        try:
-            r = requests.post(endpoint, headers=_bm_headers(), cookies=X_COOKIES,
-                              data=json.dumps(body), timeout=FETCH_TIMEOUT)
-        except Exception as e:
-            print(f"  Home timeline: request error on page {page+1}: {e}")
+        code, payload = gql_call(op, variables,
+                                 fallback_id=(HT_QUERY_ID if op == "HomeTimeline" else ""),
+                                 fallback_method=("GET" if op == "HomeTimeline" else "POST"),
+                                 fallback_features=features)
+        if code in (401, 403):
+            print(f"  {label}: {code} — X session cookies expired. Re-auth needed. Skipping.")
             break
-        if r.status_code == 404:
-            print(f"  Home timeline: 404 — graphql_query_id '{HT_QUERY_ID}' is stale. "
-                  "Refresh it per the config 'note' field. Skipping.")
-            break
-        if r.status_code in (401, 403):
-            print(f"  Home timeline: {r.status_code} — X cookies expired. Re-auth. Skipping.")
-            break
-        if r.status_code != 200:
-            print(f"  Home timeline: HTTP {r.status_code} on page {page+1}: {r.text[:160]}")
-            break
-        try:
-            payload = r.json()
-        except Exception as e:
-            print(f"  Home timeline: bad JSON on page {page+1}: {e}")
+        if code != 200 or payload is None:
+            print(f"  {label}: HTTP {code} on page {page+1} (after rediscovery). Skipping.")
             break
         page_tweets, cursor = _ht_parse_page(payload)
         fresh = 0
@@ -1044,32 +1035,88 @@ def fetch_home_timeline() -> list:
             seen_ids.add(t["tweet_id"])
             all_tweets.append(t)
             fresh += 1
-        print(f"  HomeTimeline page {page+1}: +{fresh} (total {len(all_tweets)})")
+        for t in page_tweets:
+            t.setdefault("feed_source", "following" if op == "HomeLatestTimeline" else "for_you")
+        print(f"  {label} page {page+1}: +{fresh} (total {len(all_tweets)})")
         if not cursor or fresh == 0:
             break
         time.sleep(1.5)
     # Stamp the capture time so the next run can size its catch-up to the gap.
     try:
-        _last_path.write_text(json.dumps({"ts": now_utc.isoformat()}))
+        if stamp:
+            _last_path.write_text(json.dumps({"ts": now_utc.isoformat()}))
     except Exception:
         pass
     return all_tweets
 
 
+def capture_home() -> list:
+    """Following timeline (chronological, accounts the reader follows) at full
+    catch-up depth, plus a thin slice of For You for out-of-network signal.
+    Deduped by tweet id; each post tagged feed_source=following|for_you."""
+    following = fetch_home_timeline("HomeLatestTimeline")
+    for_you = fetch_home_timeline("HomeTimeline", pages=HT_CFG.get("for_you_pages", 1), stamp=False)
+    seen, out = set(), []
+    for t in following + for_you:
+        if t.get("tweet_id") and t["tweet_id"] not in seen:
+            seen.add(t["tweet_id"]); out.append(t)
+    print(f"  home capture: {len(following)} Following + {len(for_you)} For You -> {len(out)} unique")
+    return out
+
+
+def fetch_own_reposts(limit_pages: int = 2) -> list:
+    """The reader's own retweets and quote-posts (curated signal), read from their
+    profile timeline via the session. Returns the ORIGINAL posts being reposted."""
+    if not OWN_HANDLE or OWN_HANDLE.startswith("your_"):
+        return []
+    code, u = gql_call("UserByScreenName", {"screen_name": OWN_HANDLE, "withSafetyModeUserFields": True},
+                       referer=f"https://x.com/{OWN_HANDLE}")
+    uid = (((u or {}).get("data") or {}).get("user") or {}).get("result", {}).get("rest_id")
+    if not uid:
+        print(f"  own reposts: could not resolve @{OWN_HANDLE} (HTTP {code})")
+        return []
+    out, cursor = [], ""
+    for _ in range(limit_pages):
+        v = {"userId": uid, "count": 40, "includePromotedContent": False,
+             "withQuickPromoteEligibilityTweetFields": False, "withVoice": True}
+        if cursor:
+            v["cursor"] = cursor
+        code, d = gql_call("UserTweets", v, referer=f"https://x.com/{OWN_HANDLE}")
+        if code != 200 or not d:
+            print(f"  own reposts: UserTweets HTTP {code}")
+            break
+        res = ((d.get("data") or {}).get("user") or {}).get("result") or {}
+        tl = (res.get("timeline_v2") or res.get("timeline") or {}).get("timeline") or {}
+        cursor = ""
+        for ins in tl.get("instructions", []):
+            for e in ins.get("entries", []) or ([ins["entry"]] if ins.get("entry") else []):
+                c = e.get("content") or {}
+                if c.get("cursorType") == "Bottom":
+                    cursor = c.get("value", "")
+                ic = c.get("itemContent") or {}
+                r = ((ic.get("tweet_results") or {}).get("result")) or {}
+                if r.get("__typename") == "TweetWithVisibilityResults":
+                    r = r.get("tweet", {})
+                leg = r.get("legacy") or {}
+                inner = (leg.get("retweeted_status_result") or {}).get("result")
+                quoted = (r.get("quoted_status_result") or {}).get("result")
+                src = inner or (quoted if leg.get("is_quote_status") else None)
+                if src:
+                    t = _unwrap_tweet(src)
+                    if t and t.get("link"):
+                        t["repost_kind"] = "retweet" if inner else "quote"
+                        out.append(t)
+        if not cursor:
+            break
+        time.sleep(1.0)
+    return out
+
+
 # ── Scraping ────────────────────────────────────────────────────────────────────
-
-# Nitter powers the public scrape (own retweets + AI handles) only. Bookmarks come
-# from X's GraphQL API with session cookies and are completely independent of it.
-# A Nitter outage must therefore DEGRADE the run, not kill it — otherwise an
-# unrelated instance failure silently costs us the reader's saved posts, which are
-# the Media Zone's primary source. Fail safe: skip the scrape, still fetch bookmarks.
-try:
-    nitter_base = get_nitter_base()
-    print(f"Using Nitter: {nitter_base}")
-except RuntimeError as e:
-    nitter_base = None
-    print(f"WARNING: {e} — skipping public scrape, continuing to bookmarks.")
-
+# Everything comes from X directly through the reader's logged-in session (the
+# Nitter mirrors were retired 2026-09-27: every public instance is dead or behind
+# a bot wall). If the session expires, every X call reports 401/403 clearly and
+# the collection window flags X as a stale source in the next digest.
 # 1. Own handle — retweets/quotes as curated signal.
 #    Nitter RSS reports the ORIGINAL tweet's date for reposts, not the repost
 #    timestamp. So we can't rely on pubDate to detect "new" reposts. Instead
@@ -1092,7 +1139,7 @@ if FEED_ONLY:
             seen_ht_ids = set(json.loads(SEEN_HT_PATH.read_text()))
         except Exception:
             seen_ht_ids = set()
-    home_all = fetch_home_timeline()
+    home_all = capture_home()
     home_feed = [t for t in home_all if t["tweet_id"] not in seen_ht_ids] if HT_ONLY_NEW else home_all
     print(f"  {len(home_all)} feed posts fetched | {len(home_feed)} new (unseen)")
     if home_feed:
@@ -1150,14 +1197,10 @@ if SEEN_PATH.exists():
         seen_links = set()
 
 print(f"\n[1/3] @{OWN_HANDLE} (retweets as curated signal)...")
-if nitter_base:
-    own_all     = fetch_rss(OWN_HANDLE, nitter_base)
-    own_reposts = [t for t in own_all if is_retweet(t) or is_quote_tweet(t)]
-    own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
-    print(f"  {len(own_all)} feed items | {len(own_reposts)} reposts | {len(own_curated)} new (unseen)")
-else:
-    own_all, own_reposts, own_curated = [], [], []
-    print("  skipped — no Nitter instance reachable")
+own_reposts = fetch_own_reposts()
+own_all     = own_reposts
+own_curated = [t for t in own_reposts if t.get("link") and t["link"] not in seen_links]
+print(f"  {len(own_reposts)} reposts on your profile | {len(own_curated)} new (unseen)")
 
 # Persist newly captured links to the seen set, but cap the file at 500 entries
 # so it doesn't grow forever. We keep the most recent N by appending.
@@ -1178,32 +1221,14 @@ if SEEN_AI_PATH.exists():
     except Exception:
         seen_ai_links = set()
 
-print(f"\n[2/3] Scraping {len(AI_HANDLES)} AI handles...")
+print("\n[2/3] Curated AI handles: covered by the Following timeline (Nitter retired).")
 ai_results: dict[str, list] = {}
 new_ai_links: list[str] = []
-for h in (AI_HANDLES if nitter_base else []):
-    handle = h["handle"]
-    tweets = fetch_rss(handle, nitter_base)
-    # Keep all non-retweet originals from this handle, within the lookback window.
-    # No AI-keyword filter — the handle being curated is sufficient signal.
-    # Dedup across slots via SEEN_AI_PATH so wider lookback doesn't double-count.
-    recent  = [t for t in tweets if is_recent(t)]
-    originals = [t for t in recent if not is_retweet(t)]
-    fresh = [t for t in originals if t.get("link") and t["link"] not in seen_ai_links]
-    if fresh:
-        ai_results[handle] = fresh
-        new_ai_links.extend(t["link"] for t in fresh if t.get("link"))
-        print(f"  @{handle}: {len(fresh)} new tweets (of {len(originals)} originals in {HOURS_BACK}h)")
-    else:
-        print(f"  @{handle}: 0 new (of {len(originals)} originals in {HOURS_BACK}h, all already seen)")
-
 # Persist newly captured AI-handle tweet links, capped at 1000 entries
 if new_ai_links:
     combined = list(seen_ai_links) + new_ai_links
     seen_ai_links = set(combined[-1000:])
     SEEN_AI_PATH.write_text(json.dumps(sorted(seen_ai_links), indent=2))
-if not nitter_base:
-    print("  skipped — no Nitter instance reachable")
 
 # 3. Bookmarks (saved posts) — top-priority curated signal for the Media Zone.
 #    Auth-gated: only runs when auth_token + ct0 cookies exist. Deduped by tweet
@@ -1242,7 +1267,7 @@ if SEEN_HT_PATH.exists():
     except Exception:
         seen_ht_ids = set()
 
-home_all = fetch_home_timeline()
+home_all = capture_home()
 if HT_ONLY_NEW:
     home_feed = [t for t in home_all if t["tweet_id"] not in seen_ht_ids]
 else:
@@ -1322,7 +1347,7 @@ out = [
 if own_curated:
     out.append(f"*{len(own_curated)} retweets/quote-tweets from the past {HOURS_BACK}h*\n")
     for t in own_curated:
-        out += [fmt_tweet(t, context="bayesiansapien retweeted/quoted"), "", "---", ""]
+        out += [fmt_tweet(t, context=f"{OWN_HANDLE} retweeted/quoted"), "", "---", ""]
 else:
     out.append(f"*No retweets found in the past {HOURS_BACK}h*\n")
 

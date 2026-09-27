@@ -49,3 +49,5 @@ connectors/gmail/.state/
 # Collection-window manifests + ledger (local state)
 raw/_windows/
 connectors/window/.state/
+
+connectors/twitter/.state/graphql_ids.json

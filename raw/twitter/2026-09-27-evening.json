@@ -1,0 +1,548 @@
+{
+  "date": "2026-09-27",
+  "slot": "evening",
+  "scraped_ist": "2026-09-27 21:09",
+  "lookback_h": 24,
+  "curated": [
+    {
+      "handle": "kevinnbass",
+      "creator": "@kevinnbass",
+      "text": "I have conducted an audit of Anthropic's finances. What I have found is so shocking that I am calling for a Congressional investigation. Anthropic is not just seeking regulatory capture. It has built a regulatory capture machine that cannot be turned off. Structural financial incentives make it impossible for Anthropic -- I call it the Anthropic Network -- to turn off its own AI doom cycle. It starts with METR. Dario Amodei proposes \"third-party evaluators\" to assess the risk of Anthropic's models. He proposes METR for this purpose. But METR is financially dependent on the Anthropic's success ",
+      "link": "https://x.com/kevinnbass/status/2099621874279817638",
+      "date_utc": "2026-09-14T22:10:38+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "_avichawla",
+      "creator": "@_avichawla",
+      "text": "[X Article] KV Cache Engineering for LLM Serving, clearly explained — Everything you need to understand why the KV cache grows, the 12 ways models and serving engines reduce it, what each technique actually saves, and the trade-offs that decide which one fits your — https://t.co/VNzdmXnXrO",
+      "link": "https://x.com/_avichawla/status/2096491130489872479",
+      "date_utc": "2026-09-06T06:50:11+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "HowToPrompt__",
+      "creator": "@HowToPrompt__",
+      "text": "Meta just published a paper that might end the current LLM era. they proved byte-level models can be SMALLER and STRONGER than the tokenized giants everyone's been building for 7 years. they call it the “Byte Latent Transformer” and it is going to fundamentally change how every frontier model is built. here is exactly why this is a massive paradigm shift: - the death of the fixed vocabulary: tokenization comes with known downsides. it causes sensitivity to input noise, poor handling of multilingual text, and weak character-level understanding. it is also fragile on structured inputs like code ",
+      "link": "https://x.com/HowToPrompt__/status/2099537110332231770",
+      "date_utc": "2026-09-14T16:33:49+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HSMNmBGaUAQxuXw.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "HowToPrompt__",
+      "creator": "@HowToPrompt__",
+      "text": "Chinese researchers just published a paper with a apocalyptic title: \"The Last AI Built by Humans.\" Shanghai Jiao Tong, Tsinghua, ByteDance, and Shanghai AI Lab dropped a 75-page paper on genuine recursive self-improvement. it maps out 5 levels of AI autonomy, ending with a model that redesigns the process that improves itself. We’ve spent the last three years obsessing over scaling laws. Throwing more compute and more data at the same basic models. But a massive new 33-author paper just revealed a hard truth. Existing LLMs are stalling out. The researchers developed a metric called the \"Headr",
+      "link": "https://x.com/HowToPrompt__/status/2099315553878123006",
+      "date_utc": "2026-09-14T01:53:26+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HSJENsHbsAA1Ity.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "Harness-of-Harness beat repeated coding-agent runs by carrying code, QA evidence, and plans forward. Says long-horizon coding is not just about giving an agent more time; it needs persistent project state, independent testing, and replanning from real failures. The problem: over a long project, coding agents can forget earlier decisions, repeat work, break working features, and miss unfinished requirements. Harness-of-Harness, or HoH, fixes this by carrying the current software, test evidence, known problems, and an updated plan into the next coding run. It improved all 3 tested agent setups a",
+      "link": "https://x.com/rohanpaul_ai/status/2096298866631221511",
+      "date_utc": "2026-09-05T18:06:11+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HReMMgqaMAA0iG6.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "VaibhavSisinty",
+      "creator": "@VaibhavSisinty",
+      "text": "Microsoft's AI revenue looks incredible until you realize 70% of it is coming from a company they put $130 billion into. They're not selling AI. They're billing their own bet. Microsoft disclosed $24.1 billion in sales from OpenAI last fiscal year. Their total AI business is roughly $34 billion. One partner is carrying the entire story. Here's how it works. OpenAI runs every model on Azure. Every ChatGPT query, every API call, every training run, all on Microsoft's servers. Then OpenAI shares a cut of its own revenue with Microsoft on top of that. So Microsoft funds OpenAI. OpenAI uses that mo",
+      "link": "https://x.com/VaibhavSisinty/status/2085287606791848056",
+      "date_utc": "2026-08-06T08:51:22+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HPBuBvZaQAALgh5.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "_avichawla",
+      "creator": "@_avichawla",
+      "text": "[X Article] How top AI labs are building RL agents in 2026 (using Karpathy's system prompt learning idea) — How Anthropic, OpenAI, and DeepSeek are converging on a single idea of using the system prompt as the reward function. A full breakdown of the RL evolution from RLHF to RULER, with code. — https://t.co/PhKSmQtZRd",
+      "link": "https://x.com/_avichawla/status/2049037299334472015",
+      "date_utc": "2026-04-28T08:05:36+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "rasbt",
+      "creator": "@rasbt",
+      "text": "How can an LLM switch between low-, medium-, and high-effort reasoning? And how does an LLM learn to reason more or less? I put together a “little” article explaining how these effort levels are implemented at inference time and during training. https://t.co/mc4qiCnq0C",
+      "link": "https://x.com/rasbt/status/2078471977237450829",
+      "date_utc": "2026-07-18T13:28:30+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HNg26xDW8AAf62U.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "Beautiful paper from Google DeepMind. Explains the pathways from AGI to ASI, and why that jump could happen through several routes. The authors frame the AGI-to-ASI transition around 4 technical pathways: - continued scaling of compute, model size, data, and test-time inference; - algorithmic paradigm shifts beyond today’s transformer-based foundation-model stack; - recursive self-improvement, where AI accelerates AI R&D and improves future systems; and - multi-agent collective intelligence, where large populations of specialized agents coordinate into a superhuman group agent. Scaling may wor",
+      "link": "https://x.com/rohanpaul_ai/status/2073896201876017487",
+      "date_utc": "2026-07-05T22:26:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMfhLoIaYAAnW7h.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "0x_kaize",
+      "creator": "@0x_kaize",
+      "text": "[X Article] Loop Engineering - From Prompting to Looping — I’ve decided to dedicate this article to how to create your own programmable agent that will do the work for you, so you won’t have to turn on your computer every morning and give it commands over and — https://t.co/8PUvfLawTX",
+      "link": "https://x.com/0x_kaize/status/2073438517775003671",
+      "date_utc": "2026-07-04T16:07:19+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "Hi_Mrinal",
+      "creator": "@Hi_Mrinal",
+      "text": "this was the best read on KV cache which was intuitively soo good to read about https://t.co/fRWHUELkJ2 https://t.co/0zE06UAcFE",
+      "link": "https://x.com/Hi_Mrinal/status/2073706279206637958",
+      "date_utc": "2026-07-05T09:51:19+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMdI12kbQAA-lBO.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://medium.com/@saad.ahmed1926q/kv-cache-explained-intuitively-2b425a36dfc7",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "asmah2107",
+      "creator": "@asmah2107",
+      "text": "Compression techniques I’d study if I wanted small but smart LLMs. 1.Quantization 2.Distillation 3.Low-Rank Adaptation 4.Weight Sharing 5.Sparse Matrices 6.Layer Dropping 7.Knowledge Transfer 8.Embedding Compression 9.Mixed Sparsity 10. Progressive Shrinking 11.Structured Pruning 12.AutoML Compression Follow @asmah2107 to update your game on LLM optimisations.",
+      "link": "https://x.com/asmah2107/status/2074012053870944740",
+      "date_utc": "2026-07-06T06:06:21+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMhe-CSbUAAljya.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "A warning for anyone using autonomous agents Google DeepMind’s paper. Gives the first clear taxonomy of 6 attack types where harmful websites can detect AI agents and show them hidden content humans never see, like - Instructions buried in HTML comments or white-on-white text - Steganography in image pixels - Override commands in PDFs, metadata, or even speaker notes - Memory poisoning that persists across sessions - Goal hijacking and cross-agent cascades in multi-agent setups The real security problem for AI agents is not just the model, but the environment it reads. The web itself can be we",
+      "link": "https://x.com/rohanpaul_ai/status/2074006931509842082",
+      "date_utc": "2026-07-06T05:46:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMhMgrMa4AAsl9e.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "creator": "@AlphaSignalAI",
+      "text": "[X Article] Agentic AI 101 Survey Research Paper: The Stack Between a Model and a System — What separates an agent from a workflow, one layer at a time In ~10 mins: the agent loop, the model-to-agentic-system ladder, the full stack from model to UI, a workflow-vs-agent-vs-multi-agent — https://t.co/hEH8sdzAd4",
+      "link": "https://x.com/AlphaSignalAI/status/2072786187962425817",
+      "date_utc": "2026-07-02T20:55:12+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "dair_ai",
+      "creator": "@dair_ai",
+      "text": "// HASTE: tiered skills for ML engineering agents // Why do ML engineering agents keep rediscovering the same techniques on every new task? Because each competition is a cold start. New research introduces HASTE, a hierarchical multi-agent system that organizes accumulated skills into three scope tiers, global, domain, and competition-specific, each bound to a matching agent level. An orchestrator coordinates domain specialists and promotes learning upward through LLM-driven abstraction. The ablation is the headline. Holding a 159-skill inventory fixed across 8 competitions, tiered loading rea",
+      "link": "https://x.com/dair_ai/status/2073859479737933991",
+      "date_utc": "2026-07-05T20:00:05+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMfUNKjbQAAM-bB.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2606.30911",
+          "content": "Abstract: ML engineering agents waste compute rediscovering known techniques because every competition is a cold start. We present HASTE, a hierarchical multi-agent system that organizes cross-competition knowledge into three scope tiers (global, domain, and competition-specific), each coupled to a matching agent level. An orchestrator coordinates domain specialists and promotes learning between tiers via LLM-driven abstraction. A controlled ablation provides evidence for scoped loading: holding a 159-skill inventory constant across 8 competitions, tiered loading achieves a 100% medal rate while flat loading reaches only 62.5%, the same medal rate as loading no skills, and consumes 2x the output tokens. On the full MLE-Bench Lite benchmark (22 Kaggle competitions), HASTE reaches a medal ra"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy — Learn AI by Building 🚀 NEW LAB — Getting Started with Claude Agents Start lab DAIR.AI Academy Courses Labs Events AI Papers Pricing Blog Toggle theme Master AI Skills Build Join 24,000+ builders learning to build AI agents and agent harnesses. Become a top AI-native builder - even if you are just getting started. Start Learning Try a free lab Trusted by the world&#x27;s biggest companies 24,000+ Learners 30+ Expert-led courses 140+ Hands-on labs 1,800+ Certificates issued Why DAIR.AI Academy Everything you need to learn AI by building Learn the concepts in expert-led courses, practice them in hands-on labs, and ship real projects with your favorite AI tools. Expert-Led Courses Learn from comprehensive courses on AI agents, RAG, LLMs, and cutting-edge AI technologies. Hand"
+        }
+      ]
+    },
+    {
+      "handle": "CompleteSkeptic",
+      "creator": "@CompleteSkeptic",
+      "text": "[X Article] Scaling Laws, Honestly — TL;DR: The original scaling laws were wrong due to a bug Originally posted at: https://www.completeskeptic.com/p/scaling-laws-honestly Background Scaling laws were one of OpenAI’s most important results, both technically and — https://t.co/lkDM4VXS4e",
+      "link": "https://x.com/CompleteSkeptic/status/2073442518117884197",
+      "date_utc": "2026-07-04T16:23:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "shmidtqq",
+      "creator": "@shmidtqq",
+      "text": "[X Article] Loop Engineering: How One Loop Ships 259 PRs a Month — Last December, one engineer shipped 259 finished code changes in a single month (in the jargon they are called PRs, pull requests). His AI wrote every one. He says he never opened a code editor. Peter — https://t.co/wXfbMqws2J",
+      "link": "https://x.com/shmidtqq/status/2068704187492221405",
+      "date_utc": "2026-06-21T14:34:47+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "shmidtqq",
+      "creator": "@shmidtqq",
+      "text": "THE CLAUDE CODE TEAM JUST KILLED PROMPT ENGINEERING They stopped typing prompts and put the agent inside loops that run, verify and stop on their own while they sleep. Runs on 4 loop types. No hand-holding. No next prompt. Everything you used to do by hand, you now hand off: - The check → a SKILL.md the agent verifies its own work against - The stop → /goal, stops when the goal is hit or the tries run out - The trigger → /loop, fires on an interval and reacts to what changed - The prompt itself → a schedule that starts the work without you Most people prompt harder and get a chatbot. This one ",
+      "link": "https://x.com/shmidtqq/status/2073859460288954424",
+      "date_utc": "2026-07-05T20:00:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "trq212",
+      "creator": "@trq212",
+      "text": "[X Article] A Field Guide to Fable: Finding Your Unknowns — Working with Claude Fable 5 keeps re-teaching me an old lesson: the map is not the territory. The map, a representation of the work to be done, is my prompts and skills and context, it’s what I give — https://t.co/hPiZr1kG7r",
+      "link": "https://x.com/trq212/status/2073100352921215386",
+      "date_utc": "2026-07-03T17:43:35+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "omarsar0",
+      "creator": "@omarsar0",
+      "text": "Great overview of always-on agents. (bookmark it) It's a new 130+ pages survey on always-on agents. Simply put it, always-on agents are systems whose future behavior depends on durable state built up across earlier interactions. It treats that state as more than memory. Task ledgers, permissions, credentials, commitments, provenance, triggers, and externally committed effects all count. The survey scores each state item on six axes, authority, scope, mutability, provenance, recoverability, and actionability, across a lifecycle that runs from write and retrieve through forget, audit, and rollba",
+      "link": "https://x.com/omarsar0/status/2073850909684293780",
+      "date_utc": "2026-07-05T19:26:01+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMfMaWDbUAAaSml.png"
+      ],
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2606.30306",
+          "content": "Abstract: Always-on agents are systems whose future behavior depends on durable state accumulated across earlier interactions. We treat them as persistent-state systems: the operative system includes retrievable memories, but also task ledgers, permissions, credentials, commitments, provenance and audit records, shared state, trigger conditions, and externally committed effects linked to those records. The survey reads the literature through six diagnostic axes for each state item, authority, scope, mutability, provenance, recoverability, and actionability, and through a lifecycle in which state is written, validated, organized, retrieved, acted upon, updated, forgotten, audited, and sometimes rolled back. Across a 435-work coded corpus, treated as a scoped map rather than an exhaustive ce"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy — Learn AI by Building 🚀 NEW LAB — Getting Started with Claude Agents Start lab DAIR.AI Academy Courses Labs Events AI Papers Pricing Blog Toggle theme Master AI Skills Build Join 24,000+ builders learning to build AI agents and agent harnesses. Become a top AI-native builder - even if you are just getting started. Start Learning Try a free lab Trusted by the world&#x27;s biggest companies 24,000+ Learners 30+ Expert-led courses 140+ Hands-on labs 1,800+ Certificates issued Why DAIR.AI Academy Everything you need to learn AI by building Learn the concepts in expert-led courses, practice them in hands-on labs, and ship real projects with your favorite AI tools. Expert-Led Courses Learn from comprehensive courses on AI agents, RAG, LLMs, and cutting-edge AI technologies. Hand"
+        }
+      ]
+    },
+    {
+      "handle": "0xCodez",
+      "creator": "@0xCodez",
+      "text": "[X Article] Build self-improving agent system with Fable 5 in 14 steps : loops, dynamic workflows, routines — Most people are using Claude Fable 5 like Sonnet 4.6 with a bigger context window. They prompt it. It works for 5 minutes. They close the tab. 9 out of 10 users have never run an agent system that — https://t.co/hmpJtXuXCq",
+      "link": "https://x.com/0xCodez/status/2065089060104720776",
+      "date_utc": "2026-06-11T15:09:34+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "IntuitMachine",
+      "creator": "@IntuitMachine",
+      "text": "Stop asking your LLM to \"judge this on a scale of 1-5.\" New research shows why that's been broken all along—and the dead-simple fix that's beating GPT-5. A thread on evaluation that actually works 🧶👇 The problem: You ask GPT-5 to rate a summary. It gives you \"3.5/5.\" Cool. But WHY 3.5? Was it factually wrong? Missing key points? Just badly written? You have no idea. You're flying blind. The insight: Humans don't actually judge in one holistic step. We check specific things: ✓ Is this fact correct? ✓ Is the tone appropriate? ✓ Did it answer the question? Then we synthesize. Why should AI be dif",
+      "link": "https://x.com/IntuitMachine/status/2073712446108205275",
+      "date_utc": "2026-07-05T10:15:49+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMdOdiTXgAA8Yie.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "A paper on open model adoption and finds Chinese models, led by Qwen, now dominate. China passed the U.S. in open model downloads in summer 2025. By March 2026, Chinese models had 1.15B tracked downloads, while U.S. models had 723M. Most of that shift comes from Qwen, which became the default base family for many builders. Qwen’s lead is not just about 1 famous model; it comes from having many useful models across many sizes, especially small ones that people can run cheaply and reuse often. DeepSeek matters in a different way: it does not dominate the whole open model ecosystem like Qwen, but",
+      "link": "https://x.com/rohanpaul_ai/status/2073433833748459617",
+      "date_utc": "2026-07-04T15:48:43+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMZOTvKbwAAlDUl.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "0xMoysei",
+      "creator": "@0xMoysei",
+      "text": "Andrej Karpathy quietly published 9 rules for building AI agents. Rule 1: stop writing prompts. \"If you find yourself iterating on a single message at 3 in the morning, you are still in the prompting era.\" A friend who runs agent infra at a trading firm read it once and deleted half the harness his team built last quarter. The whole paper argues most agents die from a weak harness, not a weak model. Everything you added to compensate for the model becomes dead weight the moment the model improves. The rule near the middle, about letting the loop delete its own work and start over, is the part ",
+      "link": "https://x.com/0xMoysei/status/2073892031240294726",
+      "date_utc": "2026-07-05T22:09:25+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HMfxzGzW8AAYNHh.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rewind02",
+      "creator": "@rewind02",
+      "text": "Google CEO Sundar Pichai: \"You're effectively in an agentic workflow. Once you get a taste of that and the superpower that comes with it... people will use them.\" in 30 minutes, Pichai breaks down exactly how agents are about to reshape coding, browsing, and everyday chores - why Google rolled agents into Gmail and Calendar first - and what that says about earning trust - the \"chore vs. delightful\" rule Google uses to decide what gets automated - why he trusts a Waymo more than a human driver, and what that means for agent adoption - his actual threshold for when a model is too powerful to rel",
+      "link": "https://x.com/rewind02/status/2068353568210317601",
+      "date_utc": "2026-06-20T15:21:33+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "oliviscusAI",
+      "creator": "@oliviscusAI",
+      "text": "Link: https://t.co/sBYjK5AVdX Follow me for more. And if you want more free resources like this daily, join: https://t.co/pFJ6vK3kcc",
+      "link": "https://x.com/oliviscusAI/status/2068152840103608734",
+      "date_utc": "2026-06-20T02:03:56+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": [
+        {
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "content": "GitHub - Imbad0202/academic-research-skills: Academic Research Skills for Claude Code: research → write → review → revise → finalize · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY "
+        },
+        {
+          "url": "http://simplifyingai.co",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "omarsar0",
+      "creator": "@omarsar0",
+      "text": "[X Article] From Prompting Agents to Loop Engineering — A claim has been circulating in AI coding circles: stop prompting your coding agents and start designing loops that prompt them for you. As with everything new, this stuff gets repeated often and — https://t.co/d8LgEwfVH6",
+      "link": "https://x.com/omarsar0/status/2068008743153832264",
+      "date_utc": "2026-06-19T16:31:20+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "AlphaSignalAI",
+      "creator": "@AlphaSignalAI",
+      "text": "[X Article] 10 Layers of Self-Improving Harness Stack — 28 research papers say what should developers build around the model (Harness) In ~10 mins: the 10-layer stack, the static-harness problem, the evidence behind each layer, and the one caveat that — https://t.co/GaUKIrTYcH",
+      "link": "https://x.com/AlphaSignalAI/status/2066928605691523210",
+      "date_utc": "2026-06-16T16:59:15+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "0xwhrrari",
+      "creator": "@0xwhrrari",
+      "text": "[X Article] Loop Engineering: The AI skill every builder needs in 2026 — Most people are still prompting agents manually. They type one task. Wait for one answer. Review it themselves. Fix the mistakes themselves. Then prompt again. That means the human is still the loop. — https://t.co/MI0iMdcW5o",
+      "link": "https://x.com/0xwhrrari/status/2065539680146182270",
+      "date_utc": "2026-06-12T21:00:10+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "HowToPrompt__",
+      "creator": "@HowToPrompt__",
+      "text": "Carnegie Mellon proved that \"vibe coding\" is a massive security disaster. And the best AI models in the world are the ones building the trap. They built \"SusVibes”, a benchmark of 200 real-world software engineering tasks pulled from open-source projects. They handed these complex, repository-level tasks to the most advanced coding agents on the market, including SWE-Agent powered by Claude 4 Sonnet. The AI did exactly what it was asked to do. It wrote code that worked. 61% of the time, the AI perfectly passed the functional tests. But here is the terrifying part. Over 80% of that perfectly fu",
+      "link": "https://x.com/HowToPrompt__/status/2064952595056332808",
+      "date_utc": "2026-06-11T06:07:18+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKgvUOjaAAAouhU.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "This paper shows an AI improving itself better when it rewrites its setup and updates its model. The problem is that most AI progress still depends on people changing prompts, tools, code, training data, and model weights by hand. The paper’s idea is SIA, a loop where one AI watches how a task agent performs, then either changes the agent’s outer setup or trains the model itself. The outer setup means things like prompts, tools, retry rules, and output parsing, while weight updates mean changing the model’s learned behavior through task feedback. The loop works like this: the task agent tries ",
+      "link": "https://x.com/rohanpaul_ai/status/2065184296927699217",
+      "date_utc": "2026-06-11T21:28:00+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKj6_ZmaAAAGaoI.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "Anthropic finally released Claude Fable 5, a public Mythos-class model. Fable 5 and Mythos 5 share one underlying model, but Fable adds classifier gates for everyone while Mythos lifts some gates for vetted cyber and infrastructure partners. i.e. the public version is wrapped in classifier gates that detect sensitive cyber, biology, chemistry, and model-copying requests. When those gates trigger, the user does not get a normal refusal; the request is handed to Opus 4.8, which means Anthropic is using model fallback as a control system. Anthropic says the leap is longer-range autonomy: a 50M-li",
+      "link": "https://x.com/rohanpaul_ai/status/2064402455375516043",
+      "date_utc": "2026-06-09T17:41:14+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKY50kgasAAq_ds.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "sheriyuo",
+      "creator": "@sheriyuo",
+      "text": "The RL-Kernel project has just been open sourced on GitHub. RL-Kernel is a low level kernel library designed for RLHF training of LLMs, with a particular focus on algorithms such as GRPO and PPO. It is deeply integrated with FlashInfer, with future plans to support CUTLASS and FlyDSL. The project includes custom implementations of sampling, prefix shared attention, TMA, and other performance critical kernels. According to the authors, some high frequency training components achieve up to 163× speedups while also reducing memory usage. The team is currently looking for collaborators with access",
+      "link": "https://x.com/sheriyuo/status/2063554266325819575",
+      "date_utc": "2026-06-07T09:30:50+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKM3qTHaAAA5qLv.jpg"
+      ],
+      "articles": [
+        {
+          "url": "http://github.com/RL-Align/RL-Kernel",
+          "content": "GitHub - RL-Align/RL-Kernel: High-performance RL post-training infrastructure. Designed to achieve bitwise operator-level train-inference consistency across heterogeneous engines and extreme memory efficiency for GRPO, PPO, etc. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they s"
+        },
+        {
+          "url": "https://zhuanlan.zhihu.com/p/2045985049229760399",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "handle": "sheriyuo",
+      "creator": "@sheriyuo",
+      "text": "[X Article] RL Interview Questions 2026 — After seeing several people receive PhD offers and then immediately land highly paid industry positions during spring recruiting, I started wondering whether going straight into industry might — https://t.co/aJEXibSlmN",
+      "link": "https://x.com/sheriyuo/status/2063295181131247674",
+      "date_utc": "2026-06-06T16:21:20+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "HowToPrompt__",
+      "creator": "@HowToPrompt__",
+      "text": "Google has published a paper that might end the transformer era. For the last 7 years, every major AI, ChatGPT, Claude, Gemini, has been built on the exact same architecture: The Transformer. But Transformers have a fatal flaw. To remember context, they have to process every single word against every other word. It’s called quadratic complexity. As your prompt gets longer, the compute cost explodes. The alternative is the old-school RNN (Recurrent Neural Network). RNNs are incredibly cheap and fast, but they have a fixed memory size. If you give them a long document, they get amnesia. Until to",
+      "link": "https://x.com/HowToPrompt__/status/2063249102067118353",
+      "date_utc": "2026-06-06T13:18:13+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKIiGBlaIAA15gk.jpg"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "Vtrivedy10",
+      "creator": "@Vtrivedy10",
+      "text": "[X Article] The Anatomy of an Agent Harness — TLDR: Agent = Model + Harness. Harness engineering is how we build systems around models to turn them into work engines. The model contains the intelligence and the harness makes that intelligence — https://t.co/Lb2gtM9SNs",
+      "link": "https://x.com/Vtrivedy10/status/2031408954517971368",
+      "date_utc": "2026-03-10T16:36:51+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    },
+    {
+      "handle": "omarsar0",
+      "creator": "@omarsar0",
+      "text": "This was one of the standout AI papers of the week. (bookmark it) It tackles a question most self-improving AI agents ignore: is the agent actually discovering anything, or just remixing what it already knows? How can you tell whether the agent is doing real discovery or just confident retrieval? The authors give three clean buckets: - Retrieval is looking something up in a notebook you already have. - Search is combining tools you already own in new ways. - Discovery is inventing a new concept that wasn't in your toolkit before. The issue is that most agents stop at the first two. The math be",
+      "link": "https://x.com/omarsar0/status/2063668567447597273",
+      "date_utc": "2026-06-07T17:05:02+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKOfn65bAAAhRYc.jpg"
+      ],
+      "articles": [
+        {
+          "url": "https://arxiv.org/abs/2606.01444",
+          "content": "Abstract: Scientific discovery is not only answer generation but revision of the representational regime in which evidence, artifacts, operations, and verifiers are typed. We develop a category-theoretic account of agentic discovery for materials science. In a fixed regime b with schema category S_b, the system state is a copresheaf I_t: S_b -&gt; Set, and provenance is the category of elements \\int_{S_b} I_t. Fixed-regime operation is an update on such states, endofunctorial only when provenance-preserving refinements are specified and preserved. Discovery is instead a verified regime transition u: S_b -&gt; S_b&#39;: old artifacts are preserved, transported by the left Kan extension Lan_u I_t, and compared with the post-transition state to identify residual content beyond functorial tran"
+        },
+        {
+          "url": "https://academy.dair.ai/",
+          "content": "DAIR.AI Academy — Learn AI by Building 🚀 NEW LAB — Getting Started with Claude Agents Start lab DAIR.AI Academy Courses Labs Events AI Papers Pricing Blog Toggle theme Master AI Skills Build Join 24,000+ builders learning to build AI agents and agent harnesses. Become a top AI-native builder - even if you are just getting started. Start Learning Try a free lab Trusted by the world&#x27;s biggest companies 24,000+ Learners 30+ Expert-led courses 140+ Hands-on labs 1,800+ Certificates issued Why DAIR.AI Academy Everything you need to learn AI by building Learn the concepts in expert-led courses, practice them in hands-on labs, and ship real projects with your favorite AI tools. Expert-Led Courses Learn from comprehensive courses on AI agents, RAG, LLMs, and cutting-edge AI technologies. Hand"
+        }
+      ]
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "creator": "@rohanpaul_ai",
+      "text": "GitHub released Spec Kit, an open-source toolkit to fix vibe coding’s biggest weakness: the AI often starts coding before the product rules are clear. 109K+ stars ⭐️ It turns vibe coding from “ask the AI to build it” into “write the product spec first, then make the AI build from that spec.” Most AI coding today starts with a loose prompt, then jumps straight into code, which often produces working demos but weak requirements, missing edge cases, and messy rework. Spec Kit pushes the process the other way: first define what the product must do, then clarify gaps, then create a technical plan, ",
+      "link": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+      "date_utc": "2026-06-06T13:07:16+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [
+        "https://pbs.twimg.com/media/HKIfDz8bIAEgQb-.png"
+      ],
+      "articles": []
+    },
+    {
+      "handle": "_avichawla",
+      "creator": "@_avichawla",
+      "text": "I have been fine-tuning LLMs for over 2 years now! Here are the top 15 techniques I'd learn if I were to fine-tune them: Bookmark this. 1. LoRA > Freezes the base weights and trains two low-rank matrices as the update, resulting in ~95-99% fewer params to fine-tune. 2. QLoRA > LoRA on top of a 4-bit quantized base model. 3. Prefix tuning > Prepends trainable vectors to keys and values at every layer, weights frozen. 4. Adapter tuning > Inserts small trainable modules between transformer layers. 5. Instruction tuning > Supervised tuning on (instruction, response) pairs so the model follows dire",
+      "link": "https://x.com/_avichawla/status/2063210446686146750",
+      "date_utc": "2026-06-06T10:44:37+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": [
+        {
+          "url": "https://github.com/OpenPipe/ART",
+          "content": "GitHub - OpenPipe/ART: Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more! · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why Git"
+        }
+      ]
+    },
+    {
+      "handle": "shmidtqq",
+      "creator": "@shmidtqq",
+      "text": "[X Article] Nemotron 3 Ultra: what it is and how to make money with it — Nemotron 3 Ultra. Open, free, a million tokens of context. Below isn't about benchmarks, it's about what this model does easier, simpler, and cheaper than the others, and how to earn from it. Okay, — https://t.co/oTElGPPX96",
+      "link": "https://x.com/shmidtqq/status/2063278059327766696",
+      "date_utc": "2026-06-06T15:13:17+00:00",
+      "is_curated": true,
+      "org": "",
+      "image_urls": [],
+      "articles": []
+    }
+  ],
+  "ai_feed": []
+}

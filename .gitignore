@@ -58,3 +58,6 @@ connectors/gmail/.state/
 # Collection-window manifests + ledger (local state)
 raw/_windows/
 connectors/window/.state/
+
+# X GraphQL id/feature cache (auto-discovered, regenerated as needed)
+connectors/twitter/.state/graphql_ids.json

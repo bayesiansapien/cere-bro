@@ -102,7 +102,7 @@ Farmers pull from these daily:
 | **Research blogs** | RSS | Lilian Weng, Karpathy, Sebastian Raschka, Interconnects AI, SemiAnalysis, Import AI, etc. |
 | **Semiconductor newsletters** | Gmail + RSS | The Semiconductor Newsletter (Substack, weekly — fab builds, chip industry, memory, advanced packaging), SemiAnalysis (GPU/datacenter economics, chip deep dives), Fabricated Knowledge (semiconductor analysis, memory/HBM supply chain). These feed directly into `wiki/hardware/`. |
 | **Critical / opinion** | RSS | AI Snake Oil, Marcus on AI, Algorithmic Bridge |
-| Twitter | Web | AI researchers and labs the user follows, via Nitter RSS. The farmer captures: tweet text, handle, post link, all URLs in the post body, up to **10,000 chars of article content** from each linked URL (arxiv abstracts extracted specifically; generic URLs get HTML-stripped plain text), and any image attachments downloaded to `raw/twitter/images/` (gitignored). For `x.com/i/article/...` URLs, the farmer attaches X session cookies from `~/.config/cere-bro/x-cookies.json` (gitignored, chmod 600, user-supplied via one-time browser export) so X's native long-form articles fetch successfully. When cookies are absent or expired, the farmer logs a warning and falls back to URL-only capture. Image content is read directly by Claude during the Media Live synthesis step via the Read tool (no OCR layer needed). Not captured: video transcripts, thread replies beyond the top tweet, pinned tweets re-shown. |
+| Twitter / X | X GraphQL via your session | Read directly from X through the reader's logged-in session (`auth_token` + `ct0` cookies; Nitter was retired 2026-09-27, every public mirror is dead or bot-walled). Three streams: (1) the **Following** timeline (`HomeLatestTimeline`: chronological posts from every account you follow; one 6-page capture reaches back ~11 days, so each run sees the whole feed) plus a thin **For You** slice for out-of-network signal; (2) **your own reposts and quote-posts** from your profile (`UserTweets`), treated as curated signal; (3) **bookmarks**. GraphQL operation ids and feature flags are **auto-discovered** by `connectors/twitter/discover_ids.py` (headless browser with your session, plus a main-bundle scan) and cached in `.state/graphql_ids.json`; any 400/404 triggers rediscovery automatically, so X web-build changes no longer break capture. Linked articles are enriched (up to 10,000 chars), images downloaded to `raw/twitter/images/` (gitignored). If the session expires, every X call reports 401/403 and the collection window flags X as stale in the next digest. Accounts you want covered should be followed on X. |
 | AI Breakfast / Ben's Bites | — | Blocked by Cloudflare — not available via RSS |
 | **Gmail AI newsletters** | Gmail API (read-only) | `raw/gmail/YYYY-MM-DD-newsletters.md` (+ `.json`) — the reader's AI newsletters, **auto-pulled** by `connectors/gmail/farmer.py` several times a day (09:00 morning run + the 18:00/23:00 feed captures) on a rolling timestamp window since the last run, deduped by message id. **No starring needed.** Kept if the sender is on `connectors/gmail/config.json:allow_senders` (curated: Hugging Face daily papers, AI digests, research blogs, vendor updates), OR it is a newsletter (List-Unsubscribe/List-Id header) from a non-blocked domain whose subject+snippet hits ≥2 AI keywords (auto-discovers new subscriptions), OR you starred it. Finance/shopping/jobs domains are on `block_domains`. Routed to the **next unwritten digest's** file, so mail arriving after today's digest lands in tomorrow's. Grouped: paper digests / AI news digests / research blogs / starred / vendor updates. **Private: `raw/gmail/` is gitignored** (the reader's inbox, some paid newsletters); only the synthesis publishes. |
 | **Reddit AI subreddits** | JSON API | `raw/reddit/YYYY-MM-DD-r-<sub>.md` — curated high-signal AI subreddits (LocalLLaMA, MachineLearning [R]/[P], MLScaling, CUDA, LLMDevs, ControlProblem, HPC, reinforcementlearning), farmed via `connectors/reddit/farmer.py`. Community-curated practitioner signal: what actually runs on consumer GPUs, real deployment patterns, scaling-law observations. Per-sub score gates + flair whitelists suppress noise. |
@@ -149,7 +149,7 @@ All four are mandatory. All are idempotent — running them twice is safe. If an
 
 **Step 4 — Read HuggingFace papers (always).** Read all `raw/huggingface/YYYY-MM-DD-*.md` files for the target date range.
 
-**Step 5 — Read Twitter/X (always).** Find the most recent `raw/twitter/YYYY-MM-DD-*.md` file(s). Read them. The file has two sections: (a) @bayesiansapien's retweets — treat these like starred Gmail, every retweet is a curated signal worth reading; (b) AI handle feed — original tweets from Anthropic, xAI, Google Research, NVIDIA, Cursor, and others, pre-filtered by AI keywords. For retweets with article content attached, the article content is the primary source.
+**Step 5 — Read Twitter/X (always).** Read the X files in the collection-window manifest: the slot files `raw/twitter/YYYY-MM-DD-<slot>.md` (section (a) is the reader's own reposts and quote-posts, read from their profile: treat every repost like starred email, curated signal; the linked article content is the primary source) and the ranked Following-feed captures `raw/twitter/feed/*-ranked.json` (posts from everyone the reader follows, engagement-ranked). The old per-handle AI feed (Nitter) is retired; followed accounts arrive through the Following timeline.
 
 **Step 6 — Read Kurate leaderboards (always).** Find `raw/kurate/YYYY-MM-DD-cs-ai.md` and `raw/kurate/YYYY-MM-DD-cs-lg.md` for the target date. These are weekly arXiv leaderboards ranked by 3-LLM tournaments — quality signal, not popularity. **Cross-source rule (mandatory):** any paper appearing in BOTH today's HuggingFace top AND the current week's Kurate top-20 is HIGH CONVICTION. Surface it as Tier 1 in Deep Dives regardless of topic, and label the entry "cross-source confirmed (HF + Kurate)". Papers that are top-5 on Kurate but missing from HF are "LLM-rated underrated" — flag in Looking Ahead with the ai_rating, kurate score, and a one-line reason to track. Use the inferred `tier=N` line in each Kurate entry to weight space allocation: Tier 1 entries earn Deep Dive coverage; Tier 4 skip. Also read `raw/kurate/YYYY-MM-DD-rising-authors.md` — if any authors crossed threshold, add a "Rising authors from Kurate" sub-section to Looking Ahead naming each author with one of their top papers, and suggest in prose whether to add them to `connectors/twitter/config.json:ai_handles` (you'll need to find the handle manually).
 
@@ -402,48 +402,61 @@ production stacks, in a quarter / six months / a year? Be opinionated; this is
 the section where stance is welcome.
 
 **Diagram (mandatory for any paper with architecture / pipeline / multi-component
-system).** Two acceptable options. Pick one. NEVER use ASCII / text-art
-diagrams — they are banned.
+system).** NEVER use ASCII / text-art diagrams; they are banned.
 
-  *Option A (preferred)*: download the paper's actual figure (usually Fig 1,
-  the system overview) to `raw/assets/YYYY-MM-DD-<slug>-fig1.png` and embed:
-  `![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)`
+  *Default: a hand-drawn house-style diagram (updated 2026-09-27).* Every
+  diagram follows the Excalidraw look of the reference "What a harness actually
+  is" figure: handwriting font (Virgil), rough pastel boxes, coloured arrows, a
+  title and one-line subtitle above, a short caption inside each box, and a
+  one-line colour legend below. The site renders every ```mermaid block in this
+  hand-drawn look automatically (`look: 'handDrawn'`, Virgil font); you write
+  the structure and follow these rules:
 
-  *Option B (fallback when no usable figure exists in the paper)*: write a
-  Mermaid block. Mermaid renders as a real labeled diagram both on GitHub
-  (native server-side rendering) and on the Astro site (client-side lazy
-  loader). Three rules:
-
-  - **Use `flowchart LR` (landscape) by default.** Portrait (`TB`) makes the
-    reader scroll vertically on the digest page. Reserve `TB` for diagrams
-    with genuine multi-branch fan-out + merge that compresses badly horizontally
-    (e.g. split-then-merge pipelines with 3+ parallel branches).
-  - **Apply `classDef` colors per semantic node type** so the reader can read
-    structure at a glance. Standard palette:
-    - `classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a` — sources, inputs, queries
-    - `classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f` — gates, routers, conditionals
-    - `classDef output fill:#d1fae5,stroke:#10b981,color:#065f46` — results, outputs, protected items
-    - `classDef warn fill:#fee2e2,stroke:#ef4444,color:#7f1d1d` — failure modes, evicted items, clipped paths
-    - `classDef aux fill:#e0e7ff,stroke:#6366f1,color:#312e81` — secondary processes, side channels
-  - **Keep node labels short.** Multi-line via `<br/>`. Aim for 2-4 words per
-    line, max 3 lines per node.
+  - **Frame it.** Directly above the block: `<div class="dg-title">Claim-style title</div>`
+    and `<div class="dg-sub">One line saying what to notice.</div>`. Directly
+    below: `<div class="dg-legend">One line saying what the colours mean.</div>`.
+    The title states the point ("The model is the third box, not the whole
+    machine"), not a label ("Architecture").
+  - **Box = name + caption.** Label each node `"Name<br/><small>what it does, 3-6 words</small>"`.
+    Names 1-3 words. Max 7-8 boxes; if it needs more, it is two diagrams.
+  - **Colour by role (Excalidraw palette)**, and colour the important arrows
+    with `linkStyle` to match (green = exit path, amber = loop, red = error path):
+    - `classDef input fill:#d0ebff,stroke:#1971c2,color:#1b1b1b,stroke-width:2px` — inputs, context, data (blue)
+    - `classDef core fill:#e5dbff,stroke:#6741d9,color:#1b1b1b,stroke-width:2px` — the model / core mechanism (purple)
+    - `classDef loop fill:#fff3bf,stroke:#f08c00,color:#1b1b1b,stroke-width:2px` — decisions, gates, routers, loops (amber)
+    - `classDef exit fill:#d3f9d8,stroke:#2f9e44,color:#1b1b1b,stroke-width:2px` — setup, results, outputs, kept items (green)
+    - `classDef err fill:#ffe3e3,stroke:#e03131,color:#1b1b1b,stroke-width:2px` — failures, evicted/clipped items, costs (red)
+  - **Arrow labels: one line, 1-3 words** (`-->|if easy|`). No `<br/>` in arrow labels; the hand-drawn renderer clips them.
+  - **`flowchart LR` (landscape) by default**; `TB` only for genuine fan-out +
+    merge that compresses badly sideways.
 
   Example:
 
+      <div class="dg-title">Easy queries never reach the big model</div>
+      <div class="dg-sub">The router is the only new box; everything else already existed.</div>
+
       ```mermaid
       flowchart LR
-        Q[Query] --> R{Router}
-        R -->|easy| S[Small LM]
-        R -->|hard| L[Frontier LM]
-        S --> O[Output]
+        Q["Query<br/><small>incoming request</small>"] --> R["Router<br/><small>scores difficulty</small>"]
+        R -->|easy| S["Small LM<br/><small>cheap, fast</small>"]
+        R -->|hard| L["Frontier LM<br/><small>expensive, strong</small>"]
+        S --> O["Answer<br/><small>returned to user</small>"]
         L --> O
-        classDef input fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
-        classDef decision fill:#fef3c7,stroke:#f59e0b,color:#78350f
-        classDef output fill:#d1fae5,stroke:#10b981,color:#065f46
+        classDef input fill:#d0ebff,stroke:#1971c2,color:#1b1b1b,stroke-width:2px
+        classDef loop fill:#fff3bf,stroke:#f08c00,color:#1b1b1b,stroke-width:2px
+        classDef core fill:#e5dbff,stroke:#6741d9,color:#1b1b1b,stroke-width:2px
+        classDef exit fill:#d3f9d8,stroke:#2f9e44,color:#1b1b1b,stroke-width:2px
         class Q input
-        class R decision
-        class S,L,O output
+        class R loop
+        class S,L core
+        class O exit
       ```
+
+      <div class="dg-legend">Blue is input, amber is the routing decision, purple is a model, green is the result.</div>
+
+  *Optional extra:* if the paper has a genuinely useful figure, you may ALSO
+  embed it (`raw/assets/YYYY-MM-DD-<slug>-fig1.png`) below the house diagram.
+  The house diagram always comes first.
 
   If the paper genuinely has no architecture (a benchmark, a survey, a pure
   empirical study), the diagram block can be skipped entirely. The bar for
@@ -578,30 +591,9 @@ Every Deep Dive about a paper that has architecture, a routing flow, a training 
 
 Two acceptable diagram sources, in priority order:
 
-(a) **Embed the paper's actual figure.** If the source paper or blog has an architecture/system diagram, download it to `raw/assets/YYYY-MM-DD-<slug>-fig1.png` (or fig2, etc.) and embed it: `![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)`. For arxiv papers, the figures are usually accessible from the abstract page or the full PDF. Pull the most informative one (typically Figure 1 — the overview / system diagram).
+(a) **The house-style hand-drawn diagram is the default** (see (b)); a paper's own figure may be added below it. **Embed the paper's actual figure** as an extra when useful. If the source paper or blog has an architecture/system diagram, download it to `raw/assets/YYYY-MM-DD-<slug>-fig1.png` (or fig2, etc.) and embed it: `![Architecture](../../../raw/assets/YYYY-MM-DD-<slug>-fig1.png)`. For arxiv papers, the figures are usually accessible from the abstract page or the full PDF. Pull the most informative one (typically Figure 1 — the overview / system diagram).
 
-(b) **Draw a text-based HLD when no figure is available, or the paper's figure is too dense.** Use box-and-arrow notation with `┌┐└┘─│` and arrows `►◄↑↓→←`. Keep it under 10 lines. Label every box and every arrow. Examples:
-
-```
-┌─────────────┐    query       ┌──────────────┐
-│  Router     │ ─────────────► │  Model Pool  │
-│  (cheap LM) │ ◄───────────── │  A / B / C   │
-└─────────────┘    confidence  └──────────────┘
-```
-
-```
-KV cache layout:
-  Layer  1-4  : shared across all heads  (compressed)
-  Layer  5-12 : per-head static          (memorize)
-  Layer 13-32 : per-head dynamic         (rolling window)
-```
-
-```
-Three-paper convergence on routing-as-policy:
-  Conductor (RL orchestrator) ─┐
-  CaRE (task-axis router)      ├─► routing IS the policy
-  MISA (head-axis router)      ─┘
-```
+(b) Otherwise **draw the hand-drawn house-style diagram** (Mermaid, framed by title/subtitle/legend, Excalidraw palette) exactly as specified in the Deep Dive format above. Text-art box diagrams are banned.
 
 The diagram is the first thing the reader sees in the Deep Dive body. Then the 6-section prose (What is it about? / What problem...) explains the diagram.
 
@@ -642,6 +634,13 @@ The Twitter farmer captures up to 10K characters of article content for each lin
 
 When an arxiv ID appears in BOTH a Twitter retweet AND today's HuggingFace top, label it "cross-source confirmed via social" in the Deep Dive header. That is a stronger signal than HuggingFace + Kurate alone (which is paper-quality cross-check; social is human-curator cross-check).
 
+
+**12. The digest is the complete squeeze: fold in the Media Zone (added 2026-09-27).**
+The digest is the one place the reader looks for everything that mattered in the window. After writing the Media Zone, go through it and lift every substantive item that is not already in the digest into the digest where it belongs: a paper or technical post becomes a Deep Dive (or a short item in the relevant Deep Dive), an industry/funding/product item becomes an Industry Pulse bullet, and a cross-source pattern goes into Global View. Keep the Media Zone as the social lens; the digest must never be missing substance that only the Media Zone has. Skip only pure chatter, hype and engagement bait.
+
+**13. Deep Dives: slightly simpler language (added 2026-09-27).**
+Deep Dives were reading denser than they need to. Keep every technical term and number, but: prefer short sentences (one idea each), explain the mechanism in plain words before naming it, drop stacked qualifiers and nested clauses, and cut jargon that a smart reader outside the subfield would have to look up twice. Target: a tech-literate reader follows each Deep Dive on the first read without re-reading a sentence. This is a small shift in tone, not a dumbing down.
+
 ---
 
 ## Media Zone
@@ -652,7 +651,7 @@ The Media Zone is the daily synthesis of social and video signal — Twitter, Yo
 
 The Media Zone is now a **social-media agent**: it reads the reader's actual *feeds* (not just bookmarks) and curates FOR them, offloading the scroll. Three feed sources, all PRIVATE (raw gitignored; only the synthesis publishes, linking public artifacts):
 
-- **X home Following feed** — captured by the Twitter farmer (`fetch_home_timeline`) into gitignored `raw/twitter/feed/`, with per-post engagement (likes/RTs/replies/quotes/views + author followers). `connectors/twitter/rank_feed.py` pre-scores it by **reach-normalized engagement** (eng/views, so a small account's high-rate post beats a big account's baseline-viral one) + velocity + topic-tier, with hard grift/off-topic penalties → `…-ranked.json` (candidates + long_tail). The ranking is EVIDENCE; the synthesis applies expert judgment on top.
+- **X home Following feed** — captured by the Twitter farmer (`capture_home`: the chronological Following timeline plus a thin For You slice) into gitignored `raw/twitter/feed/`, with per-post engagement (likes/RTs/replies/quotes/views + author followers). `connectors/twitter/rank_feed.py` pre-scores it by **reach-normalized engagement** (eng/views, so a small account's high-rate post beats a big account's baseline-viral one) + velocity + topic-tier, with hard grift/off-topic penalties → `…-ranked.json` (candidates + long_tail). The ranking is EVIDENCE; the synthesis applies expert judgment on top.
   - **Cadence (updated 2026-09-07):** the feed is scanned every ~3h, not once/day. The Twitter farmer's deep scan is 6 pages × 50 ≈ 300 posts/run. The heavy slot runs (morning/afternoon/pm) capture it in full mode; the gap-hour **`cerebro-feed-capture.sh`** (12:00, 18:00) and each **`cerebro-mediazone-refresh.sh`** (15:30, 21:00) capture it via **`farmer.py --feed-only`** — a fast path that grabs ONLY the home feed (bypassing the public/AI/bookmarks scrape + the slot guard) and writes a **uniquely-named** `{date}-{slot}-{HHMMSS}.json` so captures never clobber each other. `rank_feed.py` ranks EVERY today feed file. **The Media Zone synthesis must read ALL of today's `{date}-*-ranked.json` files and UNION their candidates, deduped by tweet_id** — each capture holds only its newly-seen posts (deduped via `.state/seen_home_timeline.json`), so the union is the whole day's feed with nothing lost.
   - **Catch-up after a logoff (updated 2026-09-07):** the Mac sleeps/logs off, and launchd fires only ONE coalesced run on wake for all missed times. So `fetch_home_timeline` is **gap-aware**: it stamps `.state/home_feed_last_capture.json` each run and, on the next run, scales the scan depth to the hours elapsed (base 6 pages at the normal ~3h cadence, +2 pages per extra 3h). It is **hard-capped at `max_pages_cap`=20 pages (≈1000 posts ≈ a day) / `catchup_hours_cap`=24h**: after an outage longer than a day it captures the most recent ~24h of feed and logs that older posts were intentionally skipped (no unbounded multi-day backfill). The other farmers are already gap-tolerant by construction — X public scrape (24h lookback), YouTube (3-day lookback), Reddit/bookmarks (state-deduped).
 - **LinkedIn home feed** — `connectors/linkedin/farmer.py`, robust **Playwright** headless scrape (LinkedIn moved the feed to RSC server-actions; let the real client fetch, intercept responses, anchor on the stable `postSlugUrl`). MILD (one load + a few paced scrolls, once daily). Contributes **content/author/topic**, NOT engagement (LinkedIn loads counts per-post — hammering = detection risk). li_at is memory-only in a running Chrome, so the farmer combines cached li_at + live JSESSIONID and self-heals. Gitignored `raw/linkedin/`.

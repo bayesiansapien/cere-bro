@@ -888,8 +888,17 @@ th {
 /* Mermaid edge labels — ensure white-bg pill stays visible on the cream panel */
 .mermaid-diagram .edgeLabel {
   background-color: #ffffff !important;
-  padding: 2px 6px;
   border-radius: 4px;
+}
+/* Labels live in a fixed-size foreignObject: kill inherited theme margins/colors
+   or the text renders off-box (dark-theme text on the white pill = invisible). */
+.mermaid-diagram foreignObject p,
+.mermaid-diagram foreignObject div,
+.mermaid-diagram foreignObject span {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #343a40 !important;
+  line-height: 1.5;
 }
 
 /* ── Media Zone — synthesis layout (today + past-day accordions) ──────── */
@@ -1721,3 +1730,17 @@ th {
 .today3 .verb.read { background: rgba(16,185,129,.16); color: #34d399; }
 .today3 .verb.skim { background: rgba(245,158,11,.16); color: var(--accent-2); }
 .today3 .verb.track { background: rgba(59,130,246,.16); color: #60a5fa; }
+
+/* ── Hand-drawn diagrams (Excalidraw style) ─────────────────────────────────
+   Virgil is Excalidraw's handwriting font; Mermaid renders with look:'handDrawn'.
+   A diagram is framed by an optional title/subtitle above and a legend below:
+   <div class="dg-title">…</div><div class="dg-sub">…</div> ```mermaid``` <div class="dg-legend">…</div> */
+@font-face {
+  font-family: 'Virgil';
+  src: url('https://cdn.jsdelivr.net/npm/@excalidraw/excalidraw@0.17.6/dist/excalidraw-assets/Virgil.woff2') format('woff2');
+  font-display: swap;
+}
+.dg-title { font-family: 'Virgil', sans-serif; font-size: 1.6rem; text-align: center; margin: 1.6rem 0 0.1rem; line-height: 1.2; }
+.dg-sub { font-family: 'Virgil', sans-serif; font-size: 1.05rem; text-align: center; opacity: 0.85; margin: 0 0 0.4rem; }
+.dg-legend { font-family: 'Virgil', sans-serif; font-size: 0.98rem; text-align: center; opacity: 0.85; margin: 0.2rem 0 1.4rem; }
+.mermaid-diagram small { font-size: 0.82em; opacity: 0.85; }
