@@ -49,6 +49,36 @@ def nlm_auth_ok(timeout: int = 45) -> bool:
         return False
 
 
+def _nlm_python():
+    """The Python inside nlm's own venv (read from the `nlm` launcher's shebang)."""
+    import shutil
+    exe = shutil.which("nlm")
+    if exe:
+        try:
+            first = open(exe).readline().strip()
+            if first.startswith("#!") and "python" in first:
+                return first[2:].strip().split()[0]
+        except Exception:
+            pass
+    return os.path.expanduser("~/.local/share/uv/tools/notebooklm-mcp-cli/bin/python")
+
+
+def headless_reauth(timeout: int = 90) -> bool:
+    """PRIMARY self-heal: nlm's built-in headless re-auth. nlm keeps its own Chrome
+    profile (~/.notebooklm-mcp-cli/chrome-profiles) holding the long-lived Google
+    sign-in; run_headless_auth launches it headless, extracts fresh tokens, saves
+    them and quits. No user interaction. Only fails if that profile's Google
+    sign-in itself has been revoked (then a one-time `nlm login` is needed)."""
+    code = ("from notebooklm_tools.utils.cdp import run_headless_auth, has_chrome_profile\n"
+            "import sys\n"
+            "sys.exit(0 if has_chrome_profile('default') and run_headless_auth(timeout=60) else 1)\n")
+    try:
+        r = subprocess.run([_nlm_python(), "-c", code], capture_output=True, text=True, timeout=timeout)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
 def extract_google_cookies() -> list:
     """Pull the wanted Google cookies from the local browser. Returns a list of
     {name, value, domain} Chrome-format dicts. Values stay in memory only."""
@@ -76,7 +106,11 @@ def main() -> int:
         print("nlm auth OK — no re-seed needed.")
         return 0
 
-    print("nlm auth expired — re-seeding from the local Chrome Google session...")
+    print("nlm auth expired — trying nlm's headless re-auth (its own Chrome profile)...")
+    if headless_reauth() and nlm_auth_ok():
+        print("  ✓ headless re-auth succeeded — no interaction needed.")
+        return 0
+    print("  headless re-auth failed; falling back to re-seeding from the everyday Chrome session...")
 
     # 2. Extract cookies from the browser.
     try:
