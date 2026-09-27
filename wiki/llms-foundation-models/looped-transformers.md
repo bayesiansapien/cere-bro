@@ -56,3 +56,13 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 **Cross-page note.** A carried fixed-size recurrent state instead of a growing per-token cache is the same structural bet as the KDA layers in [kimi-k3-in-c (09-12)](../inference-efficiency/2026-09-12-kimi-k3-in-c-nvme-expert-streaming.md), where 69 of 93 layers carry a fixed-size recurrent state and that is what kept a 2.78T-parameter model inside 8.24 GB. **Two unrelated projects in two days concluded that the way to make long contexts cheap is to stop storing per-token state.**
 
 **The caveat is the whole evaluation section.** There are no experiments. No loss curve, no benchmark, no ablation, no wall-clock number, no matched-budget baseline. The report says so. There is also an unaddressed risk: a state carried across every token with no reset can drift, and nothing in the transition is a contraction.
+
+---
+
+## 2026-09-27: the latency gap gets its first answer, and a second vote for sparse loops
+
+**[FlashLoop (09-27)](2026-09-27-flashloop-lazy-updates.md)** (arXiv 2609.29812, ELLIS Tübingen / MPI-IS) is the first entry on this page that attacks **serving** cost directly. The 09-02 entry named latency as the unresolved axis because SMELT reported only training-FLOP savings. FlashLoop finds three "lazy update" patterns across loops (few tokens change, attention changes sit in a small stable set of key columns, adjacent-loop KV residuals quantize well) and exploits them training-free: **up to 1.64x end-to-end speedup and 6x less KV memory, lossless** on the paper's benchmarks. The motivating number is the page's strongest evidence yet that parameter efficiency is not serving efficiency: Ouro-2.6B with four loops needs 48 GiB of KV and 27 s of prefill at 32K, against 4 GiB and 3 s for Llama-3.1-8B.
+
+**[Sparse Layers are Critical to Scaling Looped LMs (09-27)](2026-09-27-sparse-layers-looped-moe.md)** (arXiv 2605.09165, NeurIPS 2026) independently confirms SMELT's MoE result: dense looped models scale worse than standard transformers, Looped-MoE models scale better, because **different experts fire on each pass** through the shared layers. It adds that loop boundaries are better early-exit points than arbitrary layers.
+
+**Updated state.** Two independent papers now say looping needs sparse layers to scale, and one shows the serving overhead is mostly redundant and removable. The open tension is their interaction: FlashLoop was tested on dense looped checkpoints, and token-sparse updates may conflict with per-pass expert routing in a Looped-MoE model. The vision-side twin is [TWT (09-27)](../inference-efficiency/2026-09-27-twt-smaller-transformer.md), which fuses redundant ViT layer phases at half depth.
