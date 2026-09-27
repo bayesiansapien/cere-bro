@@ -1,0 +1,67 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-09-27T12:01:40.175231+00:00
+title: 'Kākāpō Party'
+url: https://simonwillison.net/2026/Sep/26/kakapo-party/
+published: 2026-09-26
+author: ''
+---
+
+# Kākāpō Party
+
+<p><strong>Tool:</strong> <a href="https://tools.simonwillison.net/kakapo-party">Kākāpō Party</a></p>
+        <p>I presented a closing keynote for the <a href="https://www.wearedevelopers.com/world-congress-north-america">WeAreDevelopers World Congress North America</a> yesterday. As <a href="https://simonwillison.net/2019/Dec/10/better-presentations/">a STAR moment</a> I decided to weave in references to the record breaking <a href="https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/">kākāpō breeding season</a> we had in 2026.</p>
+<p>For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt:</p>
+<blockquote>
+<p><code>Here are some photos of kakapo parrots just to remind you what they look like</code></p>
+<p><code>I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them</code></p>
+</blockquote>
+<p>Here's <a href="https://claude.ai/share/43bec0be-a0a3-4737-bfac-34894af34ddc">the transcript</a>, and this is the <a href="https://tools.simonwillison.net/kakapo-party">resulting page</a>. It's pretty great!</p>
+<p>I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session:</p>
+<blockquote>
+<p><code>Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long</code></p>
+<p><code>don't start clicking until 3s in</code></p>
+<p><code>make sure several clicks are spread around the clickable area</code></p>
+</blockquote>
+<p>Claude Code used Playwright (<a href="https://gisthost.github.io/?368b481fba654c4fb84d90188da77581/page-001.html">transcript here</a>) and produced this video, which was exactly what I needed for my final slide:</p>
+<p><video controls="controls" height="720" poster="https://static.simonwillison.net/static/2026/kakapo-party-first-frame.webp" preload="none" style="display: block; width: 100%; height: auto;" width="1280">
+    <source src="https://static.simonwillison.net/static/2026/kakapo-party-small.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+</p>
+
+<p>Here's the full Playwright script it used, which was pleasingly short:</p>
+<pre><span class="pl-c"># /// script</span>
+<span class="pl-c"># dependencies = ["playwright"]</span>
+<span class="pl-c"># ///</span>
+<span class="pl-k">import</span> <span class="pl-s1">time</span>
+<span class="pl-k">from</span> <span class="pl-s1">playwright</span>.<span class="pl-s1">sync_api</span> <span class="pl-k">import</span> <span class="pl-s1">sync_playwright</span>
+<span class="pl-c1">W</span>, <span class="pl-c1">H</span> <span class="pl-c1">=</span> <span class="pl-c1">1280</span>, <span class="pl-c1">720</span>
+<span class="pl-c"># Canvas fills the viewport; spread clicks across corners, edges and centre</span>
+<span class="pl-s1">clicks</span> <span class="pl-c1">=</span> [
+    (<span class="pl-c1">3.0</span>, <span class="pl-c1">640</span>, <span class="pl-c1">360</span>),   <span class="pl-c"># centre</span>
+    (<span class="pl-c1">4.2</span>, <span class="pl-c1">160</span>, <span class="pl-c1">120</span>),   <span class="pl-c"># top-left</span>
+    (<span class="pl-c1">5.4</span>, <span class="pl-c1">1120</span>, <span class="pl-c1">120</span>),  <span class="pl-c"># top-right</span>
+    (<span class="pl-c1">6.6</span>, <span class="pl-c1">180</span>, <span class="pl-c1">600</span>),   <span class="pl-c"># bottom-left</span>
+    (<span class="pl-c1">7.8</span>, <span class="pl-c1">1100</span>, <span class="pl-c1">600</span>),  <span class="pl-c"># bottom-right</span>
+    (<span class="pl-c1">9.0</span>, <span class="pl-c1">640</span>, <span class="pl-c1">100</span>),   <span class="pl-c"># top-centre</span>
+    (<span class="pl-c1">10.0</span>, <span class="pl-c1">380</span>, <span class="pl-c1">380</span>),  <span class="pl-c"># mid-left</span>
+    (<span class="pl-c1">11.0</span>, <span class="pl-c1">900</span>, <span class="pl-c1">380</span>),  <span class="pl-c"># mid-right</span>
+    (<span class="pl-c1">12.2</span>, <span class="pl-c1">640</span>, <span class="pl-c1">620</span>),  <span class="pl-c"># bottom-centre</span>
+    (<span class="pl-c1">13.2</span>, <span class="pl-c1">640</span>, <span class="pl-c1">300</span>),  <span class="pl-c"># finale centre</span>
+]
+<span class="pl-k">with</span> <span class="pl-en">sync_playwright</span>() <span class="pl-k">as</span> <span class="pl-s1">p</span>:
+    <span class="pl-s1">b</span> <span class="pl-c1">=</span> <span class="pl-s1">p</span>.<span class="pl-c1">chromium</span>.<span class="pl-c1">launch</span>()
+    <span class="pl-s1">ctx</span> <span class="pl-c1">=</span> <span class="pl-s1">b</span>.<span class="pl-c1">new_context</span>(<span class="pl-s1">viewport</span><span class="pl-c1">=</span>{<span class="pl-s">"width"</span>:<span class="pl-c1">W</span>,<span class="pl-s">"height"</span>:<span class="pl-c1">H</span>}, <span class="pl-s1">record_video_dir</span><span class="pl-c1">=</span><span class="pl-s">"vids"</span>, <span class="pl-s1">record_video_size</span><span class="pl-c1">=</span>{<span class="pl-s">"width"</span>:<span class="pl-c1">W</span>,<span class="pl-s">"height"</span>:<span class="pl-c1">H</span>})
+    <span class="pl-s1">page</span> <span class="pl-c1">=</span> <span class="pl-s1">ctx</span>.<span class="pl-c1">new_page</span>()
+    <span class="pl-s1">t0</span> <span class="pl-c1">=</span> <span class="pl-s1">time</span>.<span class="pl-c1">time</span>()
+    <span class="pl-s1">page</span>.<span class="pl-c1">goto</span>(<span class="pl-s">"file:///Users/simon/Downloads/kakapo-party.html"</span>)
+    <span class="pl-k">for</span> <span class="pl-s1">t</span>,<span class="pl-s1">x</span>,<span class="pl-s1">y</span> <span class="pl-c1">in</span> <span class="pl-s1">clicks</span>:
+        <span class="pl-s1">time</span>.<span class="pl-c1">sleep</span>(<span class="pl-en">max</span>(<span class="pl-c1">0</span>, <span class="pl-s1">t</span><span class="pl-c1">-</span>(<span class="pl-s1">time</span>.<span class="pl-c1">time</span>()<span class="pl-c1">-</span><span class="pl-s1">t0</span>)))
+        <span class="pl-s1">page</span>.<span class="pl-c1">mouse</span>.<span class="pl-c1">click</span>(<span class="pl-s1">x</span>,<span class="pl-s1">y</span>)
+    <span class="pl-s1">time</span>.<span class="pl-c1">sleep</span>(<span class="pl-en">max</span>(<span class="pl-c1">0</span>, <span class="pl-c1">16.0</span><span class="pl-c1">-</span>(<span class="pl-s1">time</span>.<span class="pl-c1">time</span>()<span class="pl-c1">-</span><span class="pl-s1">t0</span>)))
+    <span class="pl-s1">ctx</span>.<span class="pl-c1">close</span>(); <span class="pl-s1">b</span>.<span class="pl-c1">close</span>()</pre>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/animation">animation</a>, <a href="https://simonwillison.net/tags/speaking">speaking</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/kakapo">kakapo</a>, <a href="https://simonwillison.net/tags/playwright">playwright</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/anthropic">anthropic</a>, <a href="https://simonwillison.net/tags/claude">claude</a>, <a href="https://simonwillison.net/tags/claude-code">claude-code</a></p>
