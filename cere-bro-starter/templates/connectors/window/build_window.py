@@ -118,6 +118,13 @@ def build(digest_date: str, close: bool, now: datetime) -> dict:
         last = wm.get("last_cutoff_utc")
         start = datetime.fromisoformat(last) if last else default_start(digest_date)
         end = now
+        # Closing freezes the window at the end of the LAST manifest the digest
+        # actually read, not at close time: anything captured while the digest was
+        # being written was never read, so it must fall into the next window.
+        if close:
+            prev = _load(OUT / f"{digest_date}.json", {})
+            if prev.get("status") == "open" and prev.get("window_end_utc"):
+                end = min(end, datetime.fromisoformat(prev["window_end_utc"]))
 
     nominal_prev = (datetime.strptime(digest_date, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
     files, fresh = {}, {}
