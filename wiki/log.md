@@ -1924,3 +1924,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-09-27] digest | Daily digest, social-stream morning synthesis and Media Zone (finalized from live draft) written; 6 concept pages updated (looped-transformers, model-pruning-sparsity, kv-cache, llm-routing, compute-economics, self-evolving-agents)
 ## [2026-09-27] gap | HF published no Saturday (US-Eastern 09-26) list; huggingface-farmer found 0 new. rss-farmer subagent stalled, fetch run directly (17 new items; venturebeat-ai still zero entries). All eight Reddit subs empty; public X scrape and curated retweets empty; 0 new bookmarks; LinkedIn 3 posts with no text. Kurate tournament failed a twelfth week (all score=1200). Harness-design paper 2609.20804 resurfaced on X but was already covered 09-18. alphaxiv overviews truncated at 4K chars; abstracts used.
 ## [2026-09-27] regenerate | 2026-09-27 digest | house-style diagrams, Media Zone fold-in
+
+## [2026-09-28] ingest | FreeToken (2608.16157) | x-feed paper
+## [2026-09-28] ingest | LoopFormer (2602.11451) | x-feed paper
+## [2026-09-28] ingest | N-gram Embedding notes (Purshow) | x-feed notes
+## [2026-09-28] ingest | Agensh (2609.26781) | x-feed paper
+## [2026-09-28] ingest | JAZ: harness as a language (2609.26891) | x-feed paper
+## [2026-09-28] ingest | SkillGym (2609.27717) | x-feed paper
+## [2026-09-28] ingest | LLM agents tamper with their own traces (2609.30266) | x-feed paper
+## [2026-09-28] ingest | CHIVE counterfactual explanations (2608.16747) | x-feed paper
+## [2026-09-28] ingest | AI buildout financing risk cluster | x-feed + rss
+## [2026-09-28] digest | Daily digest, social-stream morning synthesis and Media Zone (finalized from live draft, banner removed) written; Media Zone folded into digest (decision-model Deep Dive from the DiamantAI explainer, extra Industry Pulse items); 10 concept pages updated (looped-transformers, conditional-memory-embeddings, memory-hierarchy, compute-economics, agent-harness-engineering, multi-agent-systems, agent-memory, agent-training-environments, responsible-ai, llm-routing).
+## [2026-09-28] gap | HF dated archive for 09-26 and 09-27 still redirects to 09-25; huggingface-farmer wrote nothing (an undated in-progress list exists, e.g. Block Sparse Attention with Log-Linear Complexity 2609.31093, left for a later window). rss-farmer: 8 new items, venturebeat-ai blocked (429). All eight Reddit subs empty; morning X slot 0 tweets; evening slot re-surfaced 40 older reposts (June to mid-September) already in the wiki; 0 new bookmarks; LinkedIn 3 posts with no text; YouTube 1 AI-relevant upload (MLST).
+## [2026-09-28] note | Kurate three-LLM tournament failed for a THIRTEENTH consecutive week (all entries score=1200). No HF list, so no HF and Kurate overlap. KV-COBRA (cs.LG #7, covered 09-23) still the only KV-cache entry. Rising authors unchanged (Siyuan Li, Xinxin Song, Tingxiong Xiao).

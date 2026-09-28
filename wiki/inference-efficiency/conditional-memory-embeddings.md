@@ -63,3 +63,7 @@ The tidy story would be "memory stores facts, experts reason." The ablations say
 - Can anyone build the **pre-retrieval usefulness predictor** SemiAnalysis identified as the missing piece? It would let a serving stack skip reads entirely, which is worth more than any addressing scheme.
 - If learned memory fills up with licences and API boilerplate, what does aggressive deduplication of the pretraining corpus do to the optimal table size?
 - Is there a middle addressing scheme, gated on something cheap and early (the previous layer's hidden state, say) that keeps a usable prefetch window while capturing some context sensitivity?
+
+## 2026-09-28: the systems case is argued in the open, and the same move appears for experts
+
+[Purshow's N-gram Embedding notes](2026-09-28-ngram-embedding-notes.md) (practitioner synthesis, no new experiments) argue that frontier teams will adopt token-ID-addressed lookups, and put the weight on the systems half: because the address is known before any layer runs, the CPU can fetch rows while the GPU computes. That is an argument for the Engram side of this page's open disagreement (token-ID addressing) over MoME's hidden-state addressing, which cannot prefetch. The same day, [FreeToken](2026-09-28-freetoken-edge-moe-serving.md) applied the analogous move to MoE experts on consumer GPUs. Two different parameter types, one principle: parameters that are rarely touched belong in cheap memory, as long as the runtime can predict or cheaply serve the touch.

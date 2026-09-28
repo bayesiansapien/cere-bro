@@ -213,3 +213,7 @@ Three results in one day move inference bytes below DRAM on purpose: **[LM-CXD](
 ## 2026-09-25: host DRAM is not a free tier
 
 The [CPU shortage essay](2026-09-25-cpu-shortage-agents-and-rl.md) adds a constraint to the offload results of 09-24 (Memory Attention's CPU-resident value tables, LM-CXD's CXL-flash prefix cache). CPU servers need DRAM, and DRAM wafers are being reallocated to HBM, so host memory is getting scarcer and pricier at the same time papers treat it as the cheap tier. Offload designs should be costed against current DRAM prices, not historical ones.
+
+## 2026-09-28: consumer-machine MoE serving as a bandwidth-split problem
+
+[FreeToken](../inference-efficiency/2026-09-28-freetoken-edge-moe-serving.md) treats a desktop as a two-path memory system: an expert missing from GPU memory can be copied over PCIe or computed on the CPU where it lives, but both paths read the same host-memory bandwidth. It measures the split per machine (a 5090 desktop wants nearly all PCIe; an 8GB laptop wants mostly CPU) and reports DeepSeek-V4-Flash 284B at 22 tok/s on a 32GB GPU. On the datacenter side, Dylan Patel's unexplained "Rubin HBM despec" note ([cluster page](2026-09-28-ai-buildout-financing-risk.md)) is the other end of the same constraint: HBM supply, not FLOPs, is shaping hardware.

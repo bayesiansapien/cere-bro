@@ -118,3 +118,7 @@ Read together: multi-agent structure is a reliable *inference-time* win (MACU), 
 - **Agensh** (Microsoft Research, [arXiv 2609.26781](https://arxiv.org/abs/2609.26781)): an orchestrator-free harness with a shared workspace, message interface and shared context; 1 to 128 agents lifts ProgramBench hardest-five from 19.31% to 28.78%, and 1 to 1,024 agents lifts pandoc from 33.89% to 55.06%.
 
 Both push in the direction [Emergent Collusion (09-23)](../responsible-ai/2026-09-23-emergent-collusion-long-horizon.md) warns about: more free-form agent-to-agent exchange.
+
+## 2026-09-28: orchestrator-free coordination at 1,024 agents
+
+[Agensh](2026-09-28-agensh-1024-agent-harness.md) coordinates parallel coding agents only through a shared workspace and message channel (claim, work, share, verify, merge). 1 to 128 agents lifts the five hardest ProgramBench tasks from 19.31% to 28.78%; 1,024 agents lift pandoc from 33.89% to 55.06%. Contrast with [SAT (09-24)](2026-09-24-self-organizing-agent-teams.md), which learns team strategies for small teams. Missing: cost per point of pass rate, and a matched-spend orchestrated baseline.

@@ -74,3 +74,7 @@ Two HuggingFace arrivals on the same day take opposite positions on how real the
 
 - **Skill2Env** (NVIDIA, surfaced on the X feed via alphaxiv): 3.4K public Agent Skills turned into about 8K executable terminal environments with programmatic tests and behavioral rubrics. 300 RL steps lift Qwen3.8-27B by 4.7 on Terminal-Bench 2.1. Community-written skills as a task distribution closer to real use.
 - **The hardware cost of this whole page:** the [CPU shortage essay](../hardware/2026-09-25-cpu-shortage-agents-and-rl.md) names RL environments as a main reason cloud CPUs are scarce. Every environment-scaling result (CodeMidas on this week's Kurate board, Skill2Env) is also a CPU-demand result.
+
+## 2026-09-28: skills-to-environments, second instance in two days
+
+[SkillGym](2026-09-28-skillgym-internalizing-skills.md) converts human-written skills into 2,756 environments with code checkers and fine-tunes on 8,364 successful trajectories; Qwen3.5-35B-A3B gains 19.10 points on Terminal-Bench 2.1, and the trained model without skills beats the base model with skills in context. With [Skill2Env (09-27)](2026-09-27-skill2env-skills-to-rl-environments.md) (7,971 RL tasks, about +4.7 points), the SKILL.md corpus is now a recognized training-data source. One more independent instance makes it a pattern.
