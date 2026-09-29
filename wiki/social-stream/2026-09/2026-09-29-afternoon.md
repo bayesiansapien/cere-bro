@@ -1,0 +1,7 @@
+## Summary
+
+This afternoon slot is empty. It has no curated reposts, no tweets from the tracked AI accounts, and no linked papers or articles, so there is no cluster and no standout item. It is Tuesday afternoon in IST, which is early morning in the US, so a quiet slot is expected. Skip it. Today's real signal is in the [2026-09-29 daily digest](../../daily-digest/2026-09/2026-09-29.md): SemiAnalysis on why sparse attention saves HBM bandwidth but not capacity, Continuous Depth Batching for looped models, and PISA block-sparse attention. The wider social conversation is in the [2026-09-29 Media Zone](../../media-zone/2026-09/2026-09-29.md).
+
+## Posts
+
+- **No posts in this slot.** There are no reposts, AI-account tweets, papers, articles or images to summarize.
