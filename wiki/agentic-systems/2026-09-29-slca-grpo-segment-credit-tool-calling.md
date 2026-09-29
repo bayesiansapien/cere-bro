@@ -42,7 +42,7 @@ flowchart LR
 ## How this relates to prior wiki pages
 
 - **A new instance of the token-credit thread on [rl-for-llms](../llms-foundation-models/rl-for-llms.md).** [PACT (09-24)](../llms-foundation-models/2026-09-24-pact-token-credit-critic-alignment.md) derived axioms for token-level credit and showed credit is roughly sparse; [DELTA (05-23)](../llms-foundation-models/2026-05-23-delta-discriminative-token-credit-rlvr.md) reweighted tokens by how much they discriminate good from bad rollouts. SLCA uses structure rather than learned weights: the output grammar itself tells you which reward belongs to which tokens.
-- **Same move as [RCCA (08-31)](../llms-foundation-models/2026-08-31-rubric-to-code-credit-assignment.md)**, which mapped rubric items to the code spans they grade. Both route a specific reward to the specific span it measures.
+- **Same move as [RCCA (08-31)](../llms-foundation-models/2026-08-31-rcca-rubric-to-code-credit-assignment.md)**, which mapped rubric items to the code spans they grade. Both route a specific reward to the specific span it measures.
 - **On [tool-calling](tool-calling.md):** the reduction in redundant calls matters next to [unnecessary tool availability (09-17)](2026-09-17-unnecessary-tool-availability.md), which found merely having an unneeded tool costs up to 76 points of answer rate. Training that separates the "should I call" decision from the prose is one route to fewer spurious calls.
 - **Simulated APIs** carry the same risk flagged on [agent-training-environments](agent-training-environments.md): gains measured against an LLM simulator may not match real endpoints. The τ²-Bench jump is the evidence that some of it transfers.
 

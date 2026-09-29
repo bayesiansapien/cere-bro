@@ -34028,5 +34028,481 @@
     ],
     "first_seen": "2026-W40",
     "last_seen": "2026-W40"
+  },
+  "Zhenhao Fu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.30940v1",
+        "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Ruipeng Xu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.30940v1",
+        "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Qibing Ren": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2609.30940v1",
+        "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Dan Barry": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.31354v1",
+        "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Andrew Hines": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2609.31354v1",
+        "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Lorenzo Molfetta": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.30936v1",
+        "title": "Self-Play Search Distillation for Large Language Model Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Wai-Chung Kwan": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.30936v1",
+        "title": "Self-Play Search Distillation for Large Language Model Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Giacomo Frisoni": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.30936v1",
+        "title": "Self-Play Search Distillation for Large Language Model Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Luca Ragazzi": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.30936v1",
+        "title": "Self-Play Search Distillation for Large Language Model Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Gianluca Moro": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.30936v1",
+        "title": "Self-Play Search Distillation for Large Language Model Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Pavlos Vougiouklis": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.30936v1",
+        "title": "Self-Play Search Distillation for Large Language Model Reasoning",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "De Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30939v1",
+        "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Shuo Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30939v1",
+        "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Weiwei Liao": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30939v1",
+        "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Jianying Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30939v1",
+        "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Chuanhui Yu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30939v1",
+        "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Hongen Liao": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2609.30939v1",
+        "title": "MACBT: A Multi-Agent Cognitive Behavioral Therapy Decision Support System with Longitudinal Memory",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Justus Westerhoff": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.31360v1",
+        "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Stephan Olbrich": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.31360v1",
+        "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Hatem Oraby": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.31360v1",
+        "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Matthew Evan Larkum": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.31360v1",
+        "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Felix Alexander Gers": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2609.31360v1",
+        "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Wanqi Yang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.32831v1",
+        "title": "UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Yuexiao Ma": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.32831v1",
+        "title": "UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Mei Xie": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.32831v1",
+        "title": "UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Xiawu Zheng": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.32831v1",
+        "title": "UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Shiwei Liu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.32831v1",
+        "title": "UniCache: Task- and Type-Aware KV Cache Compression for Unified Multimodal Models",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Md Kawsher Mahbub": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.32672v1",
+        "title": "STAMP: Predicting Out-of-Distribution Generalization without Target Data",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Milon Biswas": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.32672v1",
+        "title": "STAMP: Predicting Out-of-Distribution Generalization without Target Data",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Shuang Liu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.32720v1",
+        "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Yongliang Miao": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.32720v1",
+        "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Yanguang Liu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.32720v1",
+        "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Haoyi Xiong": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.32720v1",
+        "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Mengnan Du": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.32720v1",
+        "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
   }
 }

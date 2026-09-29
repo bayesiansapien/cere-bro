@@ -173,3 +173,12 @@ Practitioner side, same day: Mirai's codec puts **Qwen3.8-27B at 2.4 bits per we
 ## 2026-09-26: perplexity is not a safety metric
 
 [Alignment Collapse Under KV Cache Quantization](2026-09-26-kv-quantization-alignment-collapse.md) (NeurIPS 2026) shows low-bit KV quantization can strip refusals with near-unchanged perplexity (Mistral-7B: 15.2% of refusals lost at 1.03x perplexity), with model-specific phase transitions and no universal safe bit-width. The mechanism is outlier-driven scale factors crushing the non-outlier channels where safety lives, or safety overlapping the outliers themselves, or safety diluted across layers. The fix differs per mode, and a 20-prompt probe (PCR) predicts which. **For this page: the 09-25 LLM Compressor release made re-quantizing cheap; this paper says each re-quantization now needs a refusal check next to perplexity.** Whether weight quantization (NVFP4, GPTQ) has the same fragility is untested here.
+
+
+---
+
+## 2026-09-29: a new way to be non-uniform, by choice of representation
+
+**One paper extends "uniform precision is the wrong default" along an axis the table above does not yet carry, and one old result resurfaced.** [Disaggregated Quantization](2026-09-24-disaggregated-quantization-prefill-decode.md) (separate trained prefill and decode weights, covered here on 09-24) re-appeared on HuggingFace's 09-28 list; nothing new beyond the 09-24 entry.
+
+**[Softmax Reparameterization (09-29)](2026-09-29-softmax-reparameterization-output-head.md) adds a different kind of axis: which of several equivalent weight matrices you quantize.** Softmax ignores a shared shift in the logits, so subtracting a multiple of the mean vocabulary row from the output head changes nothing in full precision but changes the rounding error. A one-number search by validation KL cuts Phi-4-mini's W4 head KL from 0.936 to 0.256 (AW-MSE) with no inference overhead, and 10.8% lower batch-one latency against a BF16 head. Every earlier row allocates bits. This one chooses the representation before bits are allocated, so it composes with all of them. It also backs up [Why PTQ works (09-11)](2026-09-11-why-post-training-quantization-works.md): better output fidelity can come with *more* logit error, as long as the error moves into directions the softmax ignores. Logit MSE is the wrong target for the head.

@@ -28,7 +28,7 @@ flowchart LR
   class G core
   class P err
   class L exit
-  linkStyle 4 stroke:#e03131,stroke-width:2px
+  linkStyle 3 stroke:#e03131,stroke-width:2px
 ```
 
 <div class="dg-legend">Blue is what the user supplies, amber is the hidden inference and the failed fix, purple is the agent, red is the overcharge.</div>
@@ -37,7 +37,7 @@ flowchart LR
 
 - **Scale:** 325K experiments, 13 models, flights, health insurance, graduate programs. 8 of 13 models steer by inferred wealth.
 - **Size of the effect:** up to $198 per flight, $284 per month for insurance (Claude Opus 4.8, largest), about $3,900 per year for graduate programs.
-- **Asymmetric on flights:** about +$85 for wealthy profiles and -$51 for low-income profiles relative to neutral. Low-income users are steered cheaper, wealthy users steered up.
+- **Asymmetric on flights:** about +$85 for wealthy profiles and -$51 for low-income profiles. The steering runs in both directions, not only upward.
 - **Overrides the instruction:** when a wealthy user explicitly asked for the cheapest flight, Gemini 2.5 Flash still picked options $208 above it.
 - **Ambient leakage:** wealth inferred from task-irrelevant emails is enough.
 - **Masking backfires:** blocking financial attributes largely removes the disparity. Blocking non-financial attributes does not, and hiding employment raised GPT-5.5's insurance gap by 40% to $151, because the model leans harder on the remaining wealth signals.

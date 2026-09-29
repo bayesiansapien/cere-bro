@@ -1,11 +1,11 @@
 # How GLM-5.3 Sparse Attention Affects HBM Memory Usage (SemiAnalysis)
 
-**Source:** SemiAnalysis (Kimbo Chen), 2026-09-28. [Post](https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53) · Raw: `raw/rss/2026-09-28-semianalysis-how-glm5-3-sparse-attention-affects-hbm-memory-usage.md`. Companion X thread on HBM stack height by [@not_ellington](https://x.com/not_ellington/status/2104744202290536695) (raw: `raw/twitter/feed/2026-09-29-morning-ranked.json`).
+**Source:** SemiAnalysis (Kimbo Chen), 2026-09-28. [Post](https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53) · Raw: `raw/rss/2026-09-28-semianalysis-how-glm5-3-sparse-attention-affects-hbm-memory-usage.md`. Companion X thread on HBM stack height by [@not_ellington](https://x.com/not_ellington/status/2104744202290536695) with an attached SemiAnalysis chart, "Stack height buys capacity, not bandwidth" (raw: `raw/twitter/feed/2026-09-29-morning-ranked.json`, image `raw/twitter/images/2026-09-29/2104744202290536695-0.jpg`).
 **Date:** 2026-09-29 (published 09-28)
 
 ## TL;DR
 
-Sparse attention (each query attends only to the top-k most relevant past tokens) cuts how many KV-cache bytes each decode step reads. It does not cut how many bytes must be stored, because the selector that picks the top-k needs the whole context resident in HBM (high-bandwidth memory, the GPU's stacked DRAM). So sparse attention saves bandwidth, not capacity. SemiAnalysis walks through how GLM-5.3 (Z.ai, 744B total / 40B active MoE) is built and served around that fact: DeepSeek Sparse Attention (DSA) with a lightning indexer, IndexShare to amortize the indexer, and serving engines that spill KV to host DRAM. SGLang's HiSparse treats HBM as an LRU cache over host DRAM. On B200, as concurrency doubles from 8 to 16, prompt-cache reuse from GPU memory falls from 90.3% to 54.8% while reuse from host memory rises from 6.0% to 40.3%, and the overall hit rate stays above 95%. On cost, GB200 is about 12% cheaper than MI355X (ATOM engine) at 150 tok/s, but ATOM wins at 100 tok/s and wins again once a 2-second time-to-first-token cap is applied. The X thread makes the matching hardware point: decode is bandwidth-bound, HBM bandwidth does not grow with stack height, so Nvidia moved Rubin from 12-Hi to 8-Hi stacks.
+Sparse attention (each query attends only to the top-k most relevant past tokens) cuts how many KV-cache bytes each decode step reads. It does not cut how many bytes must be stored, because the selector that picks the top-k needs the whole context resident in HBM (high-bandwidth memory, the GPU's stacked DRAM). So sparse attention saves bandwidth, not capacity. SemiAnalysis walks through how GLM-5.3 (Z.ai, 744B total / 40B active MoE) is built and served around that fact: DeepSeek Sparse Attention (DSA) with a lightning indexer, IndexShare to amortize the indexer, and serving engines that spill KV to host DRAM. SGLang's HiSparse treats HBM as an LRU cache over host DRAM. On B200, as concurrency doubles from 8 to 16, prompt-cache reuse from GPU memory falls from 90.3% to 54.8% while reuse from host memory rises from 6.0% to 40.3%, and the overall hit rate stays above 95%. On cost, GB200 is about 12% cheaper than MI355X (ATOM engine) at 150 tok/s, but ATOM wins at 100 tok/s and wins again once a 2-second time-to-first-token cap is applied. An X thread with a SemiAnalysis chart makes the matching hardware point: decode is bandwidth-bound and HBM bandwidth does not grow with stack height, which is why Rubin Ultra moves from Rubin's 12-Hi stacks to 8-Hi.
 
 <div class="dg-title">Sparse attention reads less, but still has to keep everything</div>
 <div class="dg-sub">The indexer scans the full context, so capacity pressure moves to a host-DRAM tier instead of disappearing.</div>
@@ -60,15 +60,16 @@ flowchart LR
 - **IndexShare (IndexCache).** One indexer serves every 4 DSA layers, trained to match the averaged attention distribution of the shared layers; inference caches the top-k indices. Indexer cache and FLOPs drop 75%, throughput rises 1.5x to 1.8x.
 - Post-training notes: SFT, then reasoning, agentic and general RL, then on-policy cross-stage distillation (GLM-5.2 moved to parallel MOPD, merging 10+ experts in about two days); SAO replaces GRPO's group advantage with single-rollout GAE for long-horizon RL; slime's rollout orchestrator handles 1,000 concurrent rollouts; teacher weights are swapped from pinned CPU memory.
 
-**HBM stack height (X thread)**
+**HBM stack height (X thread and SemiAnalysis chart)**
+- The chart: Rubin uses 12-Hi HBM4 (36 GB per stack, 288 GB per GPU); Rubin Ultra uses 8-Hi (24 GB per stack, 192 GB per GPU). Same 2,048-bit interface and pin speed, 33% fewer DRAM dies per stack, bandwidth unchanged (it ticks up slightly on Rubin Ultra), so bandwidth per GB rises 50%.
 - HBM-to-SRAM bandwidth is set by I/O lanes, base die and signaling rate, not by how many DRAM dies are stacked.
-- 8-Hi HBM3e: 24 GB at about 1.2 TB/s, about 50 GB/s per GB. 12-Hi: 36 GB at the same 1.2 TB/s, about 33 GB/s per GB.
-- Decode is bandwidth-bound, and DDR offload is viable for less latency-sensitive state, so taller stacks add BOM cost without adding speed. The thread's explanation for Nvidia moving Rubin to 8-Hi.
+- The poster's own illustration with HBM3e: 8-Hi is 24 GB at about 1.2 TB/s, about 50 GB/s per GB; 12-Hi is 36 GB at the same 1.2 TB/s, about 33 GB/s per GB.
+- Decode is bandwidth-bound, and DDR offload is viable for less latency-sensitive state, so taller stacks add BOM cost without adding speed. The thread's explanation for Rubin Ultra's move to 8-Hi instead of the 12/16-Hi once planned.
 
 ## How this relates to prior wiki pages
 
 - **Confirms and extends [4-hi HBM wins (09-14)](2026-09-14-semianalysis-4hi-hbm-bandwidth-over-capacity.md)**, which argued inference wants bandwidth per GB over capacity and that Rubin Ultra's drop to 8-hi is a waypoint. Today the model side says the same thing: sparse attention reduces the bandwidth bill but leaves capacity to a cheaper tier.
-- **Explains the "Rubin HBM despec" note** recorded in the [buildout financing cluster (09-28)](2026-09-28-ai-buildout-financing-risk.md), which flagged Dylan Patel's unexplained remark. The stack-height argument is a plausible mechanism.
+- **Explains the "Rubin HBM despec" note** recorded in the [buildout financing cluster (09-28)](2026-09-28-ai-buildout-financing-risk.md), which flagged Dylan Patel's unexplained remark. The stack-height chart (Rubin Ultra at 8-Hi, 192 GB) is a plausible mechanism.
 - **Host DRAM as a KV tier** continues [Engram DRAM/SSD offloading (09-18)](2026-09-18-semianalysis-engram-dram-ssd-offloading.md) and [FreeToken (09-28)](../inference-efficiency/2026-09-28-freetoken-edge-moe-serving.md), which splits expert cache misses between PCIe copy and CPU compute. The [CPU shortage essay (09-25)](2026-09-25-cpu-shortage-agents-and-rl.md) is the caveat: host DRAM is getting scarcer as DRAM wafers go to HBM.
 - **MLA MHA/MQA mode trade-off** was first laid out in the [Kimi K3 architecture primer (08-04)](../llms-foundation-models/2026-08-04-semianalysis-kimi-k3-architecture-primer.md). **Indexer-based sparse attention** has earlier wiki history in [MISA (05-11)](../inference-efficiency/2026-05-11-misa-mixture-of-indexer-sparse-attention.md), which mixed several indexers.
 - **AgentX cost framing** follows [Vera Rubin NVL72 agentic inference (09-15)](2026-09-15-semianalysis-vera-rubin-agentic-inference.md), which introduced tokens per dollar of TCO on replayed agent traffic.
@@ -79,4 +80,4 @@ flowchart LR
 - The cost numbers are read off fitted curves, not tests at exactly 150 tok/s.
 - The Moore Threads inference is SemiAnalysis's hypothesis from arithmetic intensity, not a Z.ai statement.
 - HiSparse throughput gains are shown without the miss-rate to latency curve at very long contexts.
-- The stack-height numbers are a practitioner thread; per-stack bandwidth varies by HBM3e vendor and speed bin.
+- The HBM3e per-GB example is the poster's illustration; per-stack bandwidth varies by vendor and speed bin.

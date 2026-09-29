@@ -26,7 +26,7 @@ flowchart LR
   class R,Q core
   class S loop
   class H,O exit
-  linkStyle 4 stroke:#f08c00,stroke-width:2px
+  linkStyle 3 stroke:#f08c00,stroke-width:2px
 ```
 
 <div class="dg-legend">Blue is the trained head, purple is the transform and quantizer, amber is the one-dimensional search, green is the result.</div>
@@ -54,6 +54,6 @@ flowchart LR
 
 ## Related
 
-- [quantization.md](quantization.md) · [Why PTQ works (09-11)](2026-09-11-why-post-training-quantization-works.md) · [KV-COBRA (09-23)](2026-09-23-kv-cobra-bit-rank-allocation.md) · [Disaggregated Quantization (09-29)](2026-09-29-disaggregated-quantization.md)
+- [quantization.md](quantization.md) · [Why PTQ works (09-11)](2026-09-11-why-post-training-quantization-works.md) · [KV-COBRA (09-23)](2026-09-23-kv-cobra-bit-rank-allocation.md) · [Disaggregated Quantization (09-29)](2026-09-24-disaggregated-quantization-prefill-decode.md)
 
 **Source:** [arXiv 2609.31291](https://arxiv.org/abs/2609.31291) · [raw file](../../raw/huggingface/2026-09-28-softmax-reparameterization-for-output-head-quantization.md)

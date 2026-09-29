@@ -1937,3 +1937,19 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-09-28] digest | Daily digest, social-stream morning synthesis and Media Zone (finalized from live draft, banner removed) written; Media Zone folded into digest (decision-model Deep Dive from the DiamantAI explainer, extra Industry Pulse items); 10 concept pages updated (looped-transformers, conditional-memory-embeddings, memory-hierarchy, compute-economics, agent-harness-engineering, multi-agent-systems, agent-memory, agent-training-environments, responsible-ai, llm-routing).
 ## [2026-09-28] gap | HF dated archive for 09-26 and 09-27 still redirects to 09-25; huggingface-farmer wrote nothing (an undated in-progress list exists, e.g. Block Sparse Attention with Log-Linear Complexity 2609.31093, left for a later window). rss-farmer: 8 new items, venturebeat-ai blocked (429). All eight Reddit subs empty; morning X slot 0 tweets; evening slot re-surfaced 40 older reposts (June to mid-September) already in the wiki; 0 new bookmarks; LinkedIn 3 posts with no text; YouTube 1 AI-relevant upload (MLST).
 ## [2026-09-28] note | Kurate three-LLM tournament failed for a THIRTEENTH consecutive week (all entries score=1200). No HF list, so no HF and Kurate overlap. KV-COBRA (cs.LG #7, covered 09-23) still the only KV-cache entry. Rising authors unchanged (Siyuan Li, Xinxin Song, Tingxiong Xiao).
+
+## [2026-09-29] ingest | SemiAnalysis: How GLM-5.3 sparse attention affects HBM memory usage | rss + x-feed
+## [2026-09-29] ingest | OpenAI misalignment reports and Nvidia OASP agent containment | rss + gmail + x-feed
+## [2026-09-29] ingest | Et Tu, Brute? Economic misalignment in personal AI agents (2609.24927) | x-feed paper
+## [2026-09-29] ingest | AutoGym (2609.22592) | x-feed paper
+## [2026-09-29] ingest | Zhipu Infra Agent and the outer RSI loop | rss
+## [2026-09-29] ingest | SLCA-GRPO (2609.29050) | huggingface
+## [2026-09-29] ingest | Diffusion Reward Models (2609.33803) | x-feed paper
+## [2026-09-29] ingest | PISA: log-linear block-sparse attention (2609.31093) | huggingface
+## [2026-09-29] ingest | Softmax reparameterization of the output head (2609.31291) | huggingface
+## [2026-09-29] ingest | Continuous depth batching for looped LMs (2608.09444) | huggingface
+## [2026-09-29] ingest | MOPD-Router: token-level teacher routing (2609.30837) | huggingface
+## [2026-09-29] ingest | LastOPD: latent on-policy distillation collapse (2609.28845) | huggingface
+## [2026-09-29] ingest | DCE-SRCL: co-evolving self-distillation (2609.30652) | x-feed paper
+## [2026-09-29] digest | cere-bro 2026-09-29 | daily-digest
+## [2026-09-29] media-zone | Media Zone 2026-09-29 | media-zone
