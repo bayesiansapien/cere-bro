@@ -322,3 +322,10 @@ By spend the ordering inverts: **Opus 4.8 takes 13.7% of dollars on 1.7% of toke
 ## 2026-09-28: the buildout gets priced as credit risk
 
 A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-risk.md)): Brookings puts planned US AI infrastructure at $10.3T for 2025 to 2032 (about 3.6% of GDP a year, over $1.3T of debt committed); Columbia says 182.7 GW needs about $5.5 of mature revenue per installed GPU-hour; lenders charge BBB GPU loans about 1.2 points over ordinary loans while BB+ data-center loans pay only about 0.2, because shells outlive chips. Goldman's 18x total-token growth against 8 to 9x frontier-token growth says the marginal token is served by cheaper models. **Shift from prior state:** this page previously tracked capex as a demand signal; it now has to track it as a financing-structure risk, where hardware choice (NVIDIA vs alternatives) changes the interest bill.
+
+## 2026-09-30: inference goes multi-vendor, and financing reaches the GPU itself
+
+- **[General Compute (09-30)](2026-09-30-general-compute-prefill-decode-chip-split.md):** a $400M-debt-funded Cerebras fleet beside Nvidia GPUs, with GPUs on prefill and SRAM-based Cerebras on decode. Disaggregation by vendor.
+- **Nvidia and insurers** (reported): protect lenders to small clouds, pricing GPU residual value into loans. **On-site power:** Blackstone-led $5.3B for 49% of Williams gas projects; Brookfield-Bloom fuel-cell financing up to $25B; investors want 10-15-year commitments against GPUs that age in years.
+- **Anthropic's filing:** up to $84.5B of SpaceX (Nvidia-based) compute through 2029, mostly cancellable on 90 days' notice, inside $518B of decade commitments that are about 80% non-cancellable. 2025 revenue $4.6B (12x), operating loss $8.06B.
+- **Nscale:** nearly all of its $103B backlog relies on unbuilt data centers; The Information says its $35B IPO target is more than twice fair value. Oura postponed its IPO citing market uncertainty, following Holtec and Amaero.

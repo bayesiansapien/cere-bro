@@ -1953,3 +1953,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-09-29] ingest | DCE-SRCL: co-evolving self-distillation (2609.30652) | x-feed paper
 ## [2026-09-29] digest | cere-bro 2026-09-29 | daily-digest
 ## [2026-09-29] media-zone | Media Zone 2026-09-29 | media-zone
+## [2026-09-30] ingest | MassAlloc and CoWindow attention (2609.32712, 2609.32704) | huggingface
+## [2026-09-30] ingest | Rowmax-H15 softmax approximation (2609.33586) | huggingface
+## [2026-09-30] ingest | KVCMAS and PReCache multi-agent KV sharing (2609.34060, 2609.34054) | huggingface
+## [2026-09-30] ingest | DN-MOPD and same-day distillation papers (2609.35347) | huggingface
+## [2026-09-30] ingest | Distillation defenses break after RL (2609.35699) | huggingface + kurate
+## [2026-09-30] ingest | Behavioral shadows / ATD (2609.29233) | huggingface
+## [2026-09-30] ingest | WaveFront Decoding and TaH2 (2609.23033, 2609.35748) | huggingface
+## [2026-09-30] ingest | Raschka: language models for text classification and Jev | rss + x-feed
+## [2026-09-30] ingest | General Compute prefill/decode split, HBM5, GPU insurance | x-feed + rss
+## [2026-09-30] ingest | OpenAI DevDay 2026 | rss + gmail + x-feed
+## [2026-09-30] social-stream | 2026-09-30 morning | social-stream
+## [2026-09-30] digest | cere-bro 2026-09-30 | daily-digest
+## [2026-09-30] media-zone | Media Zone 2026-09-30 | media-zone

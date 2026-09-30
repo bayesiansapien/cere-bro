@@ -1,7 +1,7 @@
 # WaveFront Decoding and TaH2: Looped Models Get Faster Decoding and a Learned Per-Token Loop Count
 
 **Source:** HuggingFace Daily Papers, listed 2026-09-29 · [WaveFront Decoding, arXiv 2609.23033](https://arxiv.org/abs/2609.23033) · [TaH2, arXiv 2609.35748](https://arxiv.org/abs/2609.35748) (46 upvotes, alphaxiv overview available)
-**Raw:** [WFD](../../raw/huggingface/2026-09-29-wavefront-decoding-parallelized-self-speculative-decoding-fo.md) · [TaH2](../../raw/huggingface/2026-09-29-improving-test-time-scaling-with-adaptive-looped-transformers.md)
+**Raw:** [WFD](../../raw/huggingface/2026-09-29-wavefront-decoding-parallelized-self-speculative-decoding-fo.md) · [TaH2](../../raw/huggingface/2026-09-29-improving-test-time-scaling-with-adaptive-looped-transformer.md)
 
 ## TL;DR
 

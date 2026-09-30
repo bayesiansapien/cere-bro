@@ -23144,10 +23144,18 @@
         "arxiv_id": "2608.25358v1",
         "title": "Where vs What: Decomposing Structural and Content Failures in LLM-Generated Structured Outputs",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.36601v1",
+        "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W35",
-    "last_seen": "2026-W36"
+    "last_seen": "2026-W40"
   },
   "Jianqiang Li": {
     "appearances": [
@@ -34500,6 +34508,566 @@
         "arxiv_id": "2609.32720v1",
         "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
         "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Ziyu Liu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.36626v1",
+        "title": "Semantic Projection for Continual Self-Evolution of Language Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Jun Chen": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.36626v1",
+        "title": "Semantic Projection for Continual Self-Evolution of Language Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Lixu Wang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2609.36626v1",
+        "title": "Semantic Projection for Continual Self-Evolution of Language Agents",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Michael Lee": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.36576v1",
+        "title": "Divide and Inject: Can Agents Reconstruct an Indirect Prompt Injection from Fragments?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Zhipeng Wei": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.36576v1",
+        "title": "Divide and Inject: Can Agents Reconstruct an Indirect Prompt Injection from Fragments?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Yue Dong": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.36576v1",
+        "title": "Divide and Inject: Can Agents Reconstruct an Indirect Prompt Injection from Fragments?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "N. Benjamin Erichson": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2609.36576v1",
+        "title": "Divide and Inject: Can Agents Reconstruct an Indirect Prompt Injection from Fragments?",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Miteto Wei": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.36601v1",
+        "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Xiaohan Wang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.36601v1",
+        "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Zehao Chen": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.36601v1",
+        "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Jiajun Chai": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.36601v1",
+        "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Sichao Liu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2609.36601v1",
+        "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Pauline Bourigault": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.38096v1",
+        "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Xiaotong Ji": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.38096v1",
+        "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Matthieu Zimmer": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.38096v1",
+        "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Rasul Tutunov": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.38096v1",
+        "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Haitham Bou-Ammar": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2609.38096v1",
+        "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Basile Morel": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.35634v1",
+        "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Samuel Ruiperez-Campillo": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.35634v1",
+        "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Andreas P. Streich": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.35634v1",
+        "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Julia E. Vogt": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.35634v1",
+        "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Thomas Hofmann": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2609.35634v1",
+        "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Marco Veneriano": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.37941v1",
+        "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Ani Gjergji": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.37941v1",
+        "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Sebastiano Bellani": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.37941v1",
+        "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Andrea Riva": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.37941v1",
+        "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Vito Paolo Pastore": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.37941v1",
+        "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Matteo Santacesaria": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2609.37941v1",
+        "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Panagiotis Theodoropoulos": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.38104v1",
+        "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Nan Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.38104v1",
+        "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Xintong Duan": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.38104v1",
+        "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Ali Hasan": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.38104v1",
+        "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Yuriy Nevmyvaka": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.38104v1",
+        "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Evangelos A. Theodorou": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2609.38104v1",
+        "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+        "ai_rating": null
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Artin Sermaxhaj": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.35707v1",
+        "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Nastaran Alipour": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.35707v1",
+        "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Donat Sinani": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.35707v1",
+        "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Johannes Hog": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.35707v1",
+        "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Neeratyoy Mallik": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.35707v1",
+        "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Jenia Jitsev": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2609.35707v1",
+        "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W40",

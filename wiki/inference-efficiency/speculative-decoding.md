@@ -146,3 +146,7 @@ Uno **decouples parameters into autoregressive weights trained with ordinary nex
 **Evidence quality: a vendor announcement plus an abstract, reaching the wiki through the X home feed as the day's top-ranked post.** No independent reproduction. Note also a discrepancy worth carrying: the announcement quotes up to 2.2x and the abstract up to 3x, against different baselines (diffusion methods versus the base autoregressive model), so neither number should be cited without saying which.
 
 **Composition nobody has tried.** Uno reduces the number of sequential decode steps; [DeepSeek-V4.1-Flash (09-18)](2026-09-18-deepseek-v41-flash-kv-cache-compression.md) reduced the bytes per step to 890 per token by compressing precision, tokens and layers at once. **Orthogonal axes, and they should multiply.**
+
+## 2026-09-30: the draft model is the model's own early loops
+
+[WaveFront Decoding (09-30)](../llms-foundation-models/2026-09-30-wavefront-decoding-tah2-looped.md) is training-free self-speculative decoding for looped LMs. Intermediate loop outputs are the drafts; weight sharing lets drafts at shallow depth and verification at full depth run in one batched recurrent call along a diagonal wavefront, so drafting and verification overlap instead of alternating. 2.42x on Ouro-2.6B, 3.54x on Huginn-3.5B, 4.81x with cross-recurrence KV sharing, across six Spec-Bench categories. The looped architecture gives speculative decoding a free draft model and a free batching trick.
