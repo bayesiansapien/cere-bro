@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 104 (2026-09-29)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>104 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-09-29<br> <strong>Run time:</strong> ~28 min</p>
+
+<p>The day's cost lesson is that memory bandwidth, not memory size, is what you are paying for. SemiAnalysis shows sparse attention saves reads but not capacity, and its chart of Rubin Ultra's shorter HBM stacks says the same in silicon. Continuous Depth Batching lets each token pick its own loop count without breaking the batch. MOPD-Router picks a different teacher for each token. The influence story is safety turning into hardware: OpenAI's best models stay paused, and Nvidia now sells containment as a chip.</p>
+
+<p><strong>In this episode</strong> - <strong>Sparse attention, priced</strong>: SemiAnalysis finds it cuts memory reads but not memory size. Offloading the KV cache to host DRAM fills the gap. - <strong>Continuous Depth Batching</strong>: looped models finally batch well when each token loops a different number of times. Up to 99% of the ideal speedup. - <strong>Distillation fixes the teacher</strong>: MOPD-Router picks a teacher per token. LastOPD stops hidden-state matching before it collapses. DCE lets the self-teacher learn. - <strong>Softmax reparameterization</strong>: pick a mathematically identical LM head before quantizing it. 4-bit output-head error drops by 73% on Phi-4-mini. - <strong>Agent containment becomes a product</strong>: OpenAI keeps its best models paused and shelves GPT-6.1 Astra. Nvidia launches a hardware watchdog for agents. - <strong>Claude Sonnet 5.5 ships</strong>: about 30% cheaper per task, near Opus 5.5 on benchmarks, and now the free tier on claude.ai.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-09-29/">2026-09-29</a></p>
+</body>
+</html>
