@@ -1,6 +1,6 @@
 # NotebookLM podcast generator
 
-Generates a one-hour daily podcast from your wiki's daily digest using Google NotebookLM's Audio Overview feature. The script is driven by a single `focus_prompt` in `config.json` — that's what makes the podcast sound like your show instead of generic AI summary content.
+Generates two podcasts a week (Wednesday midweek over the Mon-Wed digests, Sunday weekly wrap over Thu-Sun with a call-back to Wednesday) from your wiki's daily digests using Google NotebookLM's Audio Overview feature. The script is driven by a single `focus_prompt` in `config.json` — that's what makes the podcast sound like your show instead of generic AI summary content.
 
 ## How it works
 

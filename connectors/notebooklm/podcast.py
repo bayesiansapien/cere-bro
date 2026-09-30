@@ -48,19 +48,28 @@ AUDIO_PATH  = EP_DIR / f"{date_str}.m4a"
 HTML_PATH   = EP_DIR / f"{date_str}.html"
 
 # ── Day-of-week routing ────────────────────────────────────────────────────────
-# Mon-Fri (weekday 0-4) → daily 50min episode using focus_prompt_daily.
-# Sat (weekday 5)       → weekly review 65min episode using focus_prompt_weekly + 7-day source set.
-# Sun (weekday 6)       → no podcast; exit cleanly so the cron sweep moves on.
+# Two episodes a week (2026-09-30). The digest still runs daily; the podcast does not.
+# Wed (weekday 2) → MIDWEEK episode: the Mon+Tue+Wed digests (= US Sun-Tue news),
+#                   focus_prompt_midweek, midweek_lookback_days (2).
+# Sun (weekday 6) → WEEKLY WRAP: Thu-Sun digests are the new material (= US Wed-Sat);
+#                   Mon-Wed are included as call-back context for Wednesday's episode.
+#                   focus_prompt_weekly, weekly_lookback_days (6).
+# Every other day → no podcast; exit cleanly so the cron sweep moves on.
 weekday = datetime.strptime(date_str, "%Y-%m-%d").weekday()
-schedule = cfg.get("weekday_schedule", {"daily_days": [0,1,2,3,4], "weekly_days": [5], "skip_days": [6]})
+schedule = cfg.get("weekday_schedule", {"midweek_days": [2], "weekly_days": [6], "daily_days": []})
 FORCE = "--force" in sys.argv
+DOW = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][weekday]
 
-if weekday in schedule.get("skip_days", []):
-    print(f"{date_str} is a {['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][weekday]} — no podcast on Sundays per editorial schedule.")
+if weekday in schedule.get("weekly_days", []):
+    EPISODE_MODE = "weekly"
+elif weekday in schedule.get("midweek_days", []):
+    EPISODE_MODE = "midweek"
+elif weekday in schedule.get("daily_days", []):
+    EPISODE_MODE = "daily"
+else:
+    print(f"{date_str} is a {DOW}: no podcast (episodes run Wed midweek + Sun weekly).")
     sys.exit(0)
-
-EPISODE_MODE = "weekly" if weekday in schedule.get("weekly_days", []) else "daily"
-print(f"Podcast generator | {date_str} ({['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][weekday]} → {EPISODE_MODE})")
+print(f"Podcast generator | {date_str} ({DOW} → {EPISODE_MODE})")
 print(f"Digest: {DIGEST_PATH}")
 print(f"Output: {EP_DIR}/")
 
@@ -197,8 +206,8 @@ def parse_digest(digest_path: Path) -> tuple[list[Path], list[str]]:
     return summaries, urls
 
 # Build the list of digest dates to ingest.
-if EPISODE_MODE == "weekly":
-    lookback = cfg.get("weekly_lookback_days", 6)
+if EPISODE_MODE in ("weekly", "midweek"):
+    lookback = cfg.get(f"{EPISODE_MODE}_lookback_days", 6 if EPISODE_MODE == "weekly" else 2)
     digest_dates = []
     for offset in range(lookback, -1, -1):  # oldest first
         d = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=offset)).strftime("%Y-%m-%d")
@@ -206,7 +215,7 @@ if EPISODE_MODE == "weekly":
         p = REPO_ROOT / "wiki" / "daily-digest" / ym / f"{d}.md"
         if p.exists():
             digest_dates.append(d)
-    print(f"Weekly source set: {len(digest_dates)} digest(s) — {digest_dates[0]} → {digest_dates[-1]}")
+    print(f"{EPISODE_MODE.title()} source set: {len(digest_dates)} digest(s) — {digest_dates[0]} → {digest_dates[-1]}")
 else:
     digest_dates = [date_str]
     # Catch-forward rule: if the immediately prior calendar day was a skip-day
@@ -310,8 +319,8 @@ if TOTAL > cfg["max_sources_per_notebook"]:
 # ── Create notebook ───────────────────────────────────────────────────────────
 
 print("\nCreating notebook...")
-title_suffix = "weekly review" if EPISODE_MODE == "weekly" else date_str
-title = f"{cfg['show_name']} {date_str} ({title_suffix})" if EPISODE_MODE == "weekly" else f"{cfg['show_name']} {date_str}"
+title_suffix = {"weekly": "weekly wrap", "midweek": "midweek"}.get(EPISODE_MODE)
+title = f"{cfg['show_name']} {date_str} ({title_suffix})" if title_suffix else f"{cfg['show_name']} {date_str}"
 out = nlm("notebook", "create", title)
 NOTEBOOK_ID = extract_id(out, "notebook_id", "id")
 if not NOTEBOOK_ID:
@@ -374,7 +383,7 @@ if digest_ok == 0:
 # ── Generate audio ─────────────────────────────────────────────────────────────
 
 # Pick the right focus prompt for this episode mode.
-focus_key = "focus_prompt_weekly" if EPISODE_MODE == "weekly" else "focus_prompt_daily"
+focus_key = f"focus_prompt_{EPISODE_MODE}"
 focus_prompt = cfg.get(focus_key) or cfg.get("focus_prompt")  # fallback to legacy field
 if not focus_prompt:
     print(f"ERROR: no focus prompt found in config (looked for '{focus_key}' and 'focus_prompt').")
