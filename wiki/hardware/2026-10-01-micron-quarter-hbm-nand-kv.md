@@ -1,7 +1,7 @@
 # Micron's Quarter: Revenue Up Nearly 5x, HBM Locked for 2027, and NAND Rides the KV Cache
 
 **Sources:** [The Information](https://www.theinformation.com/briefings/revenue-quintupled-ai-memory-maker-micron) · [@StockSavvyShay on HBM](https://x.com/StockSavvyShay/status/2105417538767343651) · [@StockSavvyShay on NAND](https://x.com/StockSavvyShay/status/2105427171464683791)
-**Raw:** [raw/rss/2026-09-30-the-information-revenue-quintupled-at-ai-memory-maker-micron.md](../../raw/rss/) and the 2026-10-01 X feed capture
+**Raw:** [raw/rss/2026-09-30-the-information-revenue-quintupled-at-ai-memory-maker-micron.md](../../raw/rss/2026-09-30-the-information-revenue-quintupled-at-ai-memory-maker-micron.md) and the 2026-10-01 X feed capture
 
 ## TL;DR
 

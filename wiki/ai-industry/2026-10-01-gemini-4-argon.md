@@ -1,7 +1,7 @@
 # Gemini 4 Argon: Google's First Frontier Model in Seven Months
 
 **Sources:** [The Decoder](https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/) · [The Information](https://www.theinformation.com/briefings/google-unveils-gemini-4-argon-pricing-well-rivals) · [@sundarpichai](https://x.com/sundarpichai/status/2105387952478277979) · [@GoogleDeepMind](https://x.com/GoogleDeepMind/status/2105388087367127256) · [@arena](https://x.com/arena/status/2105411271525052418) · [@demishassabis repost](https://x.com/demishassabis/status/2105472587354780010)
-**Raw:** [raw/rss/2026-09-30-the-decoder-*](../../raw/rss/) and the 2026-10-01 X feed captures
+**Raw:** [The Decoder raw](../../raw/rss/2026-09-30-the-decoder-google-gemini-4-argon-closes-the-gap-with-openai-and-an.md) · [The Information raw](../../raw/rss/2026-09-30-the-information-google-unveils-gemini-4-argon-pricing-it-well-below-riv.md) and the 2026-10-01 X feed captures
 
 ## TL;DR
 

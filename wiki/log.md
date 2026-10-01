@@ -1966,3 +1966,17 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-09-30] social-stream | 2026-09-30 morning | social-stream
 ## [2026-09-30] digest | cere-bro 2026-09-30 | daily-digest
 ## [2026-09-30] media-zone | Media Zone 2026-09-30 | media-zone
+
+## [2026-10-01] ingest | OPD scaling laws, SAKI, KL-free OPD and 5 more | huggingface + kurate
+## [2026-10-01] ingest | Periodic Weak Spots: chunked KV phase sensitivity | huggingface
+## [2026-10-01] ingest | SaveRouter: routing should pay for itself | huggingface
+## [2026-10-01] ingest | PrismQuant and quantized-softmax pretraining | huggingface
+## [2026-10-01] ingest | Context Language Models | huggingface + x-feed
+## [2026-10-01] ingest | TAPS, recurrence design, REST (looped models) | huggingface
+## [2026-10-01] ingest | Raven: harness of harnesses | huggingface
+## [2026-10-01] ingest | Insecure reporters, AgentTell, Same Bytes | huggingface + x-feed
+## [2026-10-01] ingest | Gemini 4 Argon | rss + x-feed
+## [2026-10-01] ingest | Micron quarter: HBM, NAND, KV | rss + x-feed
+## [2026-10-01] social-stream | 2026-10-01 morning | social-stream
+## [2026-10-01] digest | cere-bro 2026-10-01 | daily-digest
+## [2026-10-01] media-zone | Media Zone 2026-10-01 (finalized) | media-zone

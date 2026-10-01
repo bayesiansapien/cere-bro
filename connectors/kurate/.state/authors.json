@@ -35072,5 +35072,173 @@
     ],
     "first_seen": "2026-W40",
     "last_seen": "2026-W40"
+  },
+  "Youling Huang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.37898v1",
+        "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Tiankuo Xu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.37898v1",
+        "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Jiaji Liu": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.37898v1",
+        "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Tong Zheng": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.37898v1",
+        "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Shuo Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.37898v1",
+        "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Shaotong Qi": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2609.37898v1",
+        "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Justin Deschenaux": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.35553v1",
+        "title": "Simplex Diffusion Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Alexandre Galashov": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.35553v1",
+        "title": "Simplex Diffusion Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Andrew Campbell": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.35553v1",
+        "title": "Simplex Diffusion Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Li Kevin Wenliang": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.35553v1",
+        "title": "Simplex Diffusion Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "James Thornton": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.35553v1",
+        "title": "Simplex Diffusion Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
+  },
+  "Arnaud Doucet": {
+    "appearances": [
+      {
+        "week": "2026-W40",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2609.35553v1",
+        "title": "Simplex Diffusion Models",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W40",
+    "last_seen": "2026-W40"
   }
 }
