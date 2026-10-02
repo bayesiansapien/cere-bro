@@ -308,3 +308,12 @@ To get bitwise reproducibility across heterogeneous commodity hardware, the pape
 - **[Rowmax-H15 (09-30)](2026-09-30-rowmax-softmax-approximation-blackwell.md):** on B200, tensor cores outrun the exponential unit by more than 100x, so softmax's `exp()` shows up in FlashAttention-4. Across ten frozen models (0.5B to 72B), precision near each row's maximum matters and uniform weighting is damaging. A power-of-two weight grid anchored at the row max makes FP8 attention forward 12.4% (causal 8K) to 25.8% (non-causal) faster, cuts board energy 8.4% at causal 16K, at +0.09% to 0.49% perplexity. Third clean instance of this page's law: remove one bottleneck and the next is whatever stayed on the general-purpose path.
 - **[KernelZero, arXiv 2609.33074](https://arxiv.org/abs/2609.33074):** a proposer model writes Torch modules aimed at the coder model's current weaknesses, and correctness-aware GRPO optimizes speed only once correctness is reliable. KernelZero-7B: KernelBench L1/L2 CUDA pass@1 75.8%/69.6%, Triton 77.2%/72.5%, claimed above Claude-4.5-Sonnet on CUDA.
 - **[Nereus, arXiv 2609.34645](https://arxiv.org/abs/2609.34645):** re-plans TP/PP layouts mid-run for RL post-training; 27.7% lower step latency, six transitions cost 0.079% of a 1,024-GPU run, 2.14-7.27x over OpenRLHF on 8B PPO.
+
+---
+
+## 2026-10-02: Triton-level kernels pass FA4 on jagged shapes; models write production kernels
+
+- **[Jagged Flash Attention in TLX (10-02)](2026-10-02-jagged-flash-attention-tlx-blackwell.md).** Meta's GEM attention kernel in TLX (Triton Low-level Extensions) is about 3.2K lines vs roughly 10K for FA4's CuteDSL, and beats FA4 by about 13% forward and 50% backward on GEM's variable-length batches on B200.
+- **GPT-6 Astra Ultrafast** runs up to 8x faster than Astra Standard on Blackwell; OpenAI says its own models optimized the inference kernels. First explicit vendor statement that model-written kernels serve a paid frontier product.
+- **TorchTPU**: Google and Meta run upstream vLLM and SGLang on a PyTorch-native TPU backend, keeping schedulers, batching and KV layout logic shared with GPU (PyTorch Conference talk, 10-20/21).
+- **CoreWeave RL Rollouts** with NVIDIA Dynamo's ModelExpress: 15x faster weight reloads to inference workers between RL steps, attacking the idle-GPU gap in RL post-training.

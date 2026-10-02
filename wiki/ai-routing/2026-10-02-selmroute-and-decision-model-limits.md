@@ -42,7 +42,7 @@ flowchart LR
 
 ## How it relates to prior wiki pages
 
-- **Answers part of the 10-01 SaveRouter question.** [SaveRouter (10-01)](2026-10-01-saverouter-cost-aware-routing.md) argued a router must pay back its own labeling bill. SeLMRoute's semantic state is candidate-independent, so adding a new model needs only performance labels for that model, not a new encoder. That shortens payback, though the paper does not count the decision model's own inference cost.
+- **Answers part of the 10-01 SaveRouter question.** [SaveRouter (10-01)](2026-10-01-saverouter-sparse-supervision-routing.md) argued a router must pay back its own labeling bill. SeLMRoute's semantic state is candidate-independent, so adding a new model needs only performance labels for that model, not a new encoder. That shortens payback, though the paper does not count the decision model's own inference cost.
 - **The decision-model wave keeps growing.** The 10-01 Media Zone counted OpenAI, Ollama, Databricks and Cloudflare (clef) shipping decision endpoints in a week. GLiDE is the fifth. The ordinal-bias paper is the first systematic reliability check on the category, and it lands squarely on routing: a router that asks "how hard is this query, 1 to 10?" gets a squashed answer.
 - **Connects to the cost-per-task thread.** Quail's speed-of-light analysis is the batch analogue of the 10-01 digest's point that per-call price hides the real bill: per-row API calls throw away KV reuse across rows (shared prompt prefix) and query planning (filter ordering).
 

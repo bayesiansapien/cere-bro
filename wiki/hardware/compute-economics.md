@@ -329,3 +329,12 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 - **Nvidia and insurers** (reported): protect lenders to small clouds, pricing GPU residual value into loans. **On-site power:** Blackstone-led $5.3B for 49% of Williams gas projects; Brookfield-Bloom fuel-cell financing up to $25B; investors want 10-15-year commitments against GPUs that age in years.
 - **Anthropic's filing:** up to $84.5B of SpaceX (Nvidia-based) compute through 2029, mostly cancellable on 90 days' notice, inside $518B of decade commitments that are about 80% non-cancellable. 2025 revenue $4.6B (12x), operating loss $8.06B.
 - **Nscale:** nearly all of its $103B backlog relies on unbuilt data centers; The Information says its $35B IPO target is more than twice fair value. Oura postponed its IPO citing market uncertainty, following Holtec and Amaero.
+
+---
+
+## 2026-10-02: memory gets tighter, money keeps flowing, token spend concentrates
+
+- **Micron guides 2027 and 2028 as possibly more constrained than 2026**, even after this cycle's price rise (X feed). Volantis raised **$88M** (backers include Jeff Dean, Sam Altman, John Doerr) for optical chips that feed AI accelerators memory over light, targeting 10,000 tokens/s/user on 10T+ models.
+- **Nvidia and SoftBank** paid the final $10B each of their $30B pledges to OpenAI's last round, which closed at an $852B valuation; a further ~$30B raise near $1.4T is reportedly targeted ([The Information](https://www.theinformation.com/briefings/exclusive-nvidia-softbank-make-final-20-billion-investment-openais-last-round)).
+- **Debt-financed GPUs keep spreading:** Sharon AI's $356M GPU-backed loan; Accelevation fell after a $540M IPO; SpaceX's AI unit sells billions per month in compute commitments to Anthropic and Google and talked to Microsoft ([The Information](https://www.theinformation.com/articles/spacexs-ai-unit-turned-ai-cloud-firm)).
+- **Token spend is power-law:** per a practitioner reading of Anthropic's S-1, two customers are about 25% of revenue; Cursor/xAI report 10% of users drive ~70% of token spend. Agents, not people, drive the tail. Pricing and routing should be designed for the heavy tail.

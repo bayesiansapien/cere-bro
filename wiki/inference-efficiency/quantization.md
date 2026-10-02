@@ -190,3 +190,11 @@ Practitioner side, same day: Mirai's codec puts **Qwen3.8-27B at 2.4 bits per we
 - **[PrismQuant (10-01)](2026-10-01-prismquant-quantized-softmax.md)** is the second "choose the representation before allocating bits" result after Softmax Reparameterization (09-29). Asymmetric grouped INT4's per-group offset represents any group-constant value for free, so PrismQuant rotates the top activation eigenspace into that subspace with a closed-form Householder rotation (no gradient training). W4A4KV4: Llama-3.1-70B at 3.85 PPL, 0.22 points below full precision; 8B gets 1.51x prefill and 1.22x decode over FP16 with 56% less decode peak memory. **The claim to keep:** outlier size is the wrong target; alignment with the quantizer's geometry is the right one.
 - **[Quantized softmax in pretraining (10-01)](2026-10-01-prismquant-quantized-softmax.md):** approximating exp with K+1 grid points during training changes gradients; a post-normalization straight-through surrogate with fixed-window calibration gets the loss gap to +0.019 nats at K=4 (124M, 2.5B tokens). Training-time companion to Rowmax-H15 (09-30, inference-time power-of-two softmax on B200).
 - **Practitioner adoption:** Runpod's Fall 2026 State of AI Compute says **40% of 70B+ models on its platform now run quantized**, and Qwen is on 74.2% of text endpoints (10-01 Gmail).
+
+---
+
+## 2026-10-02: data-adaptive rotations reach 2-bit KV
+
+[WUSH-KV (10-02)](2026-10-02-wush-kv-kv-quantization.md) replaces fixed Hadamard-style rotations with a transform built from calibration covariances, proven near-optimal with the QuEST INT clipped quantizer, and runs 2-bit KV in SGLang at or above OSCAR. With PrismQuant (10-01, quantizer-aware rotation, W4A4KV4 within 0.22 points on 70B), rotations are now being fitted to the quantizer and to the data, not chosen generically. Open check: neither reports per-position retrieval, the failure mode Periodic Weak Spots (10-01) showed averages hide.
+
+Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs/2609.18587) adapts only about 100K bias parameters with majority-vote rewards (76,000x fewer than full test-time RL) and reaches 76.67% on MATH-500 with Qwen2.5-7B.

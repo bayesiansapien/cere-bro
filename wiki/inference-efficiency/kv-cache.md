@@ -664,3 +664,11 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **KV4 at near-full precision.** [PrismQuant (10-01)](2026-10-01-prismquant-quantized-softmax.md) runs W4A4KV4 on Llama-3.1-70B 0.22 points below full precision; on 8B, 56% less decode peak memory.
 - **Demand-side signal:** Micron's NAND revenue rose about 8x to $14B in 18 months, data-center SSDs about 71% of it ([10-01](../hardware/2026-10-01-micron-quarter-hbm-nand-kv.md)). SSD-tier KV and context stores are being bought at scale.
 - **Practitioner:** CAG (cache-augmented generation, precompute and store the KV for static documents) explained as "pay the prefill once"; a 70B BF16 model needs about 300 KB per token (10-01 Media Zone).
+
+---
+
+## 2026-10-02: stateful serving, and 2-bit KV with a learned rotation
+
+- **[Galahad (10-02)](2026-10-02-galahad-stateful-kv-reuse.md).** 98.7% of prompt tokens across seven real datasets are text the model already read. Galahad saves KV per byte-matched block and reloads it across requests on vLLM, SGLang and llama.cpp; with a section picker it answers 100/100 on a 97K-token recall test at about 0.6 s and 200 J per question vs 10/100 and 2,754 J without. Restore is bit-identical and fails closed. This moves the "pay the prefill once" idea (CAG, 10-01) from a trick to a serving layer, and keys reuse by bytes rather than only by prefix, a partial answer to the edit-aware caching gap raised by Context Language Models (10-01).
+- **[WUSH-KV (10-02)](2026-10-02-wush-kv-kv-quantization.md).** A calibration-derived rotation (from second-order statistics of both matmul factors) before quantizing keys and values; the value transform folds into weights. At 2 bits in SGLang it matches or beats OSCAR. Second rotation-based low-bit KV result in two days after PrismQuant (10-01).
+- **Effective attention set.** [Retrieval Capacity of Self-Attention Under Competition](https://arxiv.org/abs/2609.37879) keeps only the top-attended tokens per head and query and measures how many are needed to stay within a loss tolerance. The needed set grows with context but shrinks as a fraction of it, and renormalizing the kept weights cuts it further, a direct input to top-k sparse attention budgets.

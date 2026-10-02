@@ -761,3 +761,12 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **A fifth routing target, the harness.** [Raven (10-01)](../agentic-systems/2026-10-01-raven-harness-of-harnesses.md)'s Host Agent routes subtasks to model-plus-harness units. After model, reasoning effort, loop depth (09-28) and speed tier (09-30), the option set now includes the scaffolding itself.
 - **Routing ships as a product default.** GitHub's HydraFusion (in VS Code and the Copilot app's model picker) picks Single, Cascade or cross-family Critique per task; Ollama 0.35 serves Jev-style decision models locally through `/v1/systemone` (10-01 Media Zone). **Token cost vs per-token price:** Gemini 4 Argon's low price with 2x tokens per task ([10-01](../ai-industry/2026-10-01-gemini-4-argon.md)) is another case where per-task cost reverses the per-token ranking.
 - **Distillation-side routing:** [SAKI (10-01)](../inference-efficiency/2026-10-01-opd-scaling-laws-saki-kl-free.md) routes each student token to one of two loss types by a maximal-coupling accept/correct event, a routing decision whose rate equals the total-variation distance.
+
+---
+
+## 2026-10-02: describe the query, then route; and decision models get audited
+
+- **[SeLMRoute (10-02)](2026-10-02-selmroute-and-decision-model-limits.md)** extracts a probability vector over readable query properties with a decision model, predicts each candidate's performance with a light router, then applies the objective (accuracy or cost). 72.08% on LLMRouterBench vs 69.23% for the best single model; the representation is candidate-independent, which shortens the payback window SaveRouter (10-01) said routers must count.
+- **Ordinal-scale bias** in Jev 1.13 and KEV models: ordinal decisions use only 67 to 76% of the real label spread (26 to 75% at 14 points), with heavy middle-label overuse. Fixable with targeted LoRA (47% to 86%). Any router asking a decision model for a 1-to-N difficulty score inherits this.
+- **Batch economics:** Quail's speed-of-light model puts one AI filter over 5K rows on Qwen3-4B/H100 at about 6.6 s, far below per-row API practice; filter ordering and KV reuse across rows are the levers. GLiDE (Fastino) adds uncertainty-gated reasoning to a decision model, the fifth decision endpoint in a week.
+- **Practitioner:** a builder reported a model router inside a coding agent's harness cut median cost per task 64% with no measurable quality loss (10-02 Media Zone).

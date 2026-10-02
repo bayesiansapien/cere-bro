@@ -1980,3 +1980,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-01] social-stream | 2026-10-01 morning | social-stream
 ## [2026-10-01] digest | cere-bro 2026-10-01 | daily-digest
 ## [2026-10-01] media-zone | Media Zone 2026-10-01 (finalized) | media-zone
+## [2026-10-02] ingest | Galahad: stateful byte-exact KV reuse | huggingface
+## [2026-10-02] ingest | WUSH-KV: 2-bit KV quantization | huggingface
+## [2026-10-02] ingest | OPD day two: RIDE, LSD, OASIS, S2D-OPD, DuoOPD, PivotOPD, AdviSD | huggingface
+## [2026-10-02] ingest | SeLMRoute and decision-model limits | huggingface + x-feed
+## [2026-10-02] ingest | Loop Scaling Laws for looped MoE | huggingface
+## [2026-10-02] ingest | Jagged Flash Attention in TLX; GPT-6 Astra Ultrafast | x-feed
+## [2026-10-02] ingest | SlideDP | huggingface
+## [2026-10-02] ingest | Mid-Harness, MILO, Meta-Skills, AgentWorld, False Frontiers | huggingface + x-feed
+## [2026-10-02] ingest | BiasReducer (HF + Kurate) | huggingface + kurate
+## [2026-10-02] ingest | Agents in the wild: leaks and worms | x-feed + rss
+## [2026-10-02] social-stream | 2026-10-02 morning | social-stream
+## [2026-10-02] digest | cere-bro 2026-10-02 | daily-digest
+## [2026-10-02] media-zone | Media Zone 2026-10-02 (finalized) | media-zone
