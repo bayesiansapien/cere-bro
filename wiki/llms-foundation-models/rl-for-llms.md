@@ -247,3 +247,9 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## 2026-09-24: a definition of token credit
 
 [PACT](2026-09-24-pact-token-credit-critic-alignment.md) proves three axioms (Completeness, Prefix Consistency, Neutrality) uniquely determine token-level credit; an ideal OPD teacher is an implicit critic, RLOO matches token credit in expectation, credit is approximately sparse under bounded rewards (a derivation for [IER's 1%-of-tokens result, 09-22](../inference-efficiency/2026-09-22-ier-one-percent-tokens-opd.md)), and GAE critic error can rival the credit. Actor-then-critic with IS correction: 72.87% agentic math (+8.80 over GRPO), 67.4% SWE-bench Verified (read with [SchrodingerRepo](../agentic-systems/2026-09-24-schrodinger-repo-swe-bench-memorization.md)).
+
+---
+
+## 2026-10-03: RL as sharpening, and sampling as the substitute
+
+[PPT and Sharpening Tax (10-03)](2026-10-03-sampling-vs-rl-ppt-sharpening-tax.md). **Sharpening Tax**: base models with a light harness often beat their post-trained versions at pass@K on agentic tasks; RL pushes tasks to always-solved or never-solved, buying consistency at the cost of coverage (present in most of 42 cases). **PPT** (HF + Kurate cross-source) recovers sharpening at inference with parallel-tempered power sampling and reports beating RL-post-trained models. With Finetuning with Sampling ([10-03](../inference-efficiency/2026-10-03-distillation-dynamics-and-sampling.md)), three entries in one week treat RL's main effect as distribution sharpening that sampling can reproduce or reshape. Counterpoint: RIDE (10-02) treats the RL residual as new signal worth extrapolating.

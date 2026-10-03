@@ -663,3 +663,14 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 [Seven OPD papers (10-02)](2026-10-02-opd-wave-ride-lsd-oasis.md) follow the eight from 10-01. **RIDE** extrapolates the RL-induced hidden-state residual (teacher minus its pre-RL base) at every layer and is the only method whose mean meets or beats the RL teacher on all four pairs; output-space extrapolation is noisy because the LM head damps most hidden-state change. **S²D-OPD** keeps only the top 10% of states by teacher-reference divergence and wins 7 of 8 settings. **LSD** routes already-solved prompts to self-distillation against an EMA copy, cutting the length-scaling tax from 19.0% to -3.7%. **OASIS** fixes self-distillation's collapse with scale (OPSD gain 3.05 at 1.7B, 0.14 at 8B) by supervising verified rollouts. **DuoOPD**, **PivotOPD** and **AdviSD** extend OPD to multi-task, agent recovery and frozen-executor advice.
 
 **Pattern established (≥3 papers):** the crosscoder study (10-01: OPD reweights existing features), KL-free OPD (10-01: only direction on high-disagreement tokens matters), RIDE and S²D-OPD (10-02) all say the transferable signal is a sparse direction. Implications: smaller or self teachers suffice, and API-level anti-distillation defenses protect a far larger surface than the attack needs (see OpenAI's Moonshot disclosure and the Azure gap, 10-01/10-02).
+
+---
+
+## 2026-10-03: rollout policy matters less than KL direction and learning rate
+
+[Distillation dynamics and sampling (10-03)](2026-10-03-distillation-dynamics-and-sampling.md). A controlled study across Llama3 and Qwen2.5 finds rollout policy (student vs teacher-written) is not the main driver. **KL direction** shapes accuracy and coverage (forward KL robust to rollout source, reverse KL prefers student rollouts); **learning rate** governs forgetting and update sparsity. On-policy data helps on harder Countdown variants, but that edge does not reliably survive later RLVR.
+
+- **Tension with 10-02:** the "signal is a sparse direction" pattern (crosscoder, KL-free OPD, RIDE, S²D-OPD) may partly reflect learning-rate effects on sparsity. Unresolved.
+- **Finetuning with Sampling** (Harvard, X feed): MCMC reshapes expert traces toward the model's own distribution; SFT then rivals RL and OPD while forgetting less.
+- **Neighborhood OPSD:** a pool of perturbed frozen teachers, routed per state, adds +1.67 to +2.75 Average@12 on AIME/HMMT over OPSD (Qwen3 1.7B to 8B).
+- **Smaller Models, Better Rejects:** rejects from smaller frozen models train stronger 7B to 72B students in preference distillation than self-generated rejects; lower-likelihood rejects win for every source.

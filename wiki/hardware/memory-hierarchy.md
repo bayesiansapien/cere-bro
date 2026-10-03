@@ -227,3 +227,12 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 ## 2026-10-01: Micron's quarter, and NAND as the KV tier
 
 [Micron (10-01)](2026-10-01-micron-quarter-hbm-nand-kv.md): revenue $54.2B, nearly 5x, gross margin 86.8%; 2027 HBM mostly locked at higher prices; NVHBM, a custom HBM4E for Nvidia. NAND revenue rose about 8x to $14B in 18 months, data-center SSDs about 71%, credited to agent context and KV demand. This is the demand-side echo of the 09-29 HiSparse entry (KV spilling to host DRAM). Same day: CoreWeave put Vera Rubin NVL72 in production, Cognition reporting 3.8x output tokens per rack vs GB200 NVL72.
+
+---
+
+## 2026-10-03: memory sets the price of compute
+
+- **JPMorgan sees HBM industry revenue up ~2.5x in 2027** from ~63% bit growth and ~54% higher prices; HBM rises from 19% to 31% of DRAM capacity by 2028, pulling supply from conventional DRAM. Micron closed FY2026 at $133.19B revenue and guided Q1 to $61.5B (SEC filing via AI Breakfast).
+- **Tesla cut AI5 RAM to 72GB of LPDDR5 and AI6 to 144GB** to secure Optimus volume, arguing bandwidth, not capacity, limits inference. A practitioner estimate of 200GB per humanoid times billions of robots exceeds annual DRAM output many times over.
+- **Nvidia's 64GB DGX Spark at $4,999** is half the memory of the original for 25% more money.
+- **Volantis ($88M)** claims optical interconnect that attaches 220 memory chips to one GPU against eight today; the memory-wall answer moving into photonics.

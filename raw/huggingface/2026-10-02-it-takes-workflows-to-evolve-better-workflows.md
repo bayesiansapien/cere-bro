@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-03T05:03:51.822701+00:00
+arxiv_id: 2610.01026
+url: https://huggingface.co/papers/2610.01026
+arxiv_url: https://arxiv.org/abs/2610.01026
+date: 2026-10-02
+---
+
+# It Takes Workflows to Evolve Better Workflows
+
+Tackling complex real-world tasks can exceed the capabilities of a single large language model (LLM), motivating the use of multi-agent workflows that coordinate specialized agents to work together on these tasks. Recent methods train LLMs to construct better workflows from execution outcomes, but they optimize only the workflow generator, while the other agents that build or execute each workflow remain fixed even though every outcome depends on all of them. However, extending training beyond the generator is challenging: the agents are coupled, and a workflow's outcome is a single sparse score that cannot tell which agent causes a failure. We propose FloWright, which leverages the workflow as a harness to optimize workflows. By introducing a hierarchical, structure-aware reward paradigm, FloWright enables one role to self-evolve and two or more roles to co-evolve, with no additional models, labels, or executions. Considering the limitation that workflows are commonly trained and evaluated on data that a single agent can already handle, we further propose DataWright, an adaptive data hardening approach that converts existing datasets into workflow-level tasks with increased difficulty. Across document, slide, chart, code, math, and finance tasks, small open models trained with FloWright achieve improved performance by up to +7.41%, with co-evolving (+5.03%) more roles gaining more than optimizing one of them alone (+2.83%). Our project page: https://xhguo7.github.io/FloWright/.

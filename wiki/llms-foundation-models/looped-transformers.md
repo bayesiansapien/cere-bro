@@ -88,3 +88,9 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 ## 2026-10-02: a joint scaling law for loops and experts
 
 [Loop Scaling Laws (10-02)](2026-10-02-loop-scaling-laws-looped-moe.md) fit recurrence and sparsity together with size and data, via a bounded, sparsity-conditional mapping from loops to effective parameters. Sparsity gives about 3x active-parameter efficiency, recurrence about 2x total-parameter efficiency on reasoning, and at trillion-token scale a law-tuned looped MoE matches a non-looped MoE about twice its size at matched training compute. This formalizes the 09-27 "sparse layers are critical" result and partly answers the 09-30 prediction about matched-compute wins (reasoning, not yet code or agents). Looped models now have training laws, batching (CDB), exit policies (TaH2) and step control (TAPS); still no released production model.
+
+---
+
+## 2026-10-03: early loops as a free contrastive signal
+
+[LoopCD (10-03)](2026-10-03-loopcd-looped-contrastive-decoding.md) contrasts the final loop's prediction with an earlier loop's, a training-free contrastive decoding that needs no second model. Ouro-2.6B-Thinking AIME 2024 pass@1 61.88% to 73.33%; halving loops still matches unguided full depth, cutting forward FLOPs 22.5% to 48.2%. With WaveFront (09-30, early loops as drafts), the second result treating recurrence as a source of free weak predictions.

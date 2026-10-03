@@ -317,3 +317,11 @@ To get bitwise reproducibility across heterogeneous commodity hardware, the pape
 - **GPT-6 Astra Ultrafast** runs up to 8x faster than Astra Standard on Blackwell; OpenAI says its own models optimized the inference kernels. First explicit vendor statement that model-written kernels serve a paid frontier product.
 - **TorchTPU**: Google and Meta run upstream vLLM and SGLang on a PyTorch-native TPU backend, keeping schedulers, batching and KV layout logic shared with GPU (PyTorch Conference talk, 10-20/21).
 - **CoreWeave RL Rollouts** with NVIDIA Dynamo's ModelExpress: 15x faster weight reloads to inference workers between RL steps, attacking the idle-GPU gap in RL post-training.
+
+---
+
+## 2026-10-03: one autotuned GEMM source beats the vendor libraries in vLLM
+
+- **[Helion in vLLM (10-03)](2026-10-03-helion-vllm-linear-backend.md).** One Helion GEMM expresses standard, Split-K and Swap-AB variants; an ahead-of-time autotuner picks the variant and config per shape; hybrid dispatch keeps library kernels where they still win. On Hopper it beats vLLM's default CUTLASS and DeepGEMM backends across evaluated models, 10%+ throughput on some workloads. Third DSL-plus-search result in two days after JFA in TLX and TorchTPU (10-02).
+- **FlyDSL (AMD):** an MLIR-native Python kernel DSL integrated as a TorchInductor GEMM backend, compared against Triton on Instinct GPUs (PyTorch Conference, 10-20/21).
+- **Cerebras pitch, for the record:** Andrew Feldman frames wafer-scale speed as a decode-bandwidth argument (weights in on-chip SRAM); Sam Altman calls Cerebras "a close partner" amid speculation about the relationship.

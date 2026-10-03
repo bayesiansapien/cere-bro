@@ -338,3 +338,13 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 - **Nvidia and SoftBank** paid the final $10B each of their $30B pledges to OpenAI's last round, which closed at an $852B valuation; a further ~$30B raise near $1.4T is reportedly targeted ([The Information](https://www.theinformation.com/briefings/exclusive-nvidia-softbank-make-final-20-billion-investment-openais-last-round)).
 - **Debt-financed GPUs keep spreading:** Sharon AI's $356M GPU-backed loan; Accelevation fell after a $540M IPO; SpaceX's AI unit sells billions per month in compute commitments to Anthropic and Google and talked to Microsoft ([The Information](https://www.theinformation.com/articles/spacexs-ai-unit-turned-ai-cloud-firm)).
 - **Token spend is power-law:** per a practitioner reading of Anthropic's S-1, two customers are about 25% of revenue; Cursor/xAI report 10% of users drive ~70% of token spend. Agents, not people, drive the tail. Pricing and routing should be designed for the heavy tail.
+
+---
+
+## 2026-10-03: compute becomes project finance
+
+- **Broadcom will lend Anthropic up to $42B** in convertible notes against a $125.2B, five-year TPU commitment that Broadcom co-designs and leases; a payment default could accelerate lease obligations and cut off the facility at the same time (Anthropic prospectus via Reuters, AI Breakfast).
+- **Amazon may move ~$8B of deployed Grace Blackwell chips into an outside-backed SPV** and lease them back (FT).
+- **Lambda's first delayed-draw term loan**: over $1B at 6.78% fixed for 30,000+ Nvidia GPUs (The Information).
+- **AI data-center debt is its own asset class**: at least 20 high-yield project bonds in 12 months, often via obscure SPVs leased to CoreWeave, Fluidstack (Google-backed, building for Anthropic) or Nvidia itself; spreads and concessions are widening (The Information). Bank of England flags ~$450B of AI-related debt issuance by early September.
+- **Counter-view:** Ed Zitron argues AI's GDP contribution is almost entirely GPU sales and construction, with flat ICT share of nominal GDP; Ramp's AI Index shows businesses using more AI and paying less for it.

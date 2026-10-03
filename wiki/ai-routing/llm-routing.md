@@ -770,3 +770,15 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Ordinal-scale bias** in Jev 1.13 and KEV models: ordinal decisions use only 67 to 76% of the real label spread (26 to 75% at 14 points), with heavy middle-label overuse. Fixable with targeted LoRA (47% to 86%). Any router asking a decision model for a 1-to-N difficulty score inherits this.
 - **Batch economics:** Quail's speed-of-light model puts one AI filter over 5K rows on Qwen3-4B/H100 at about 6.6 s, far below per-row API practice; filter ordering and KV reuse across rows are the levers. GLiDE (Fastino) adds uncertainty-gated reasoning to a decision model, the fifth decision endpoint in a week.
 - **Practitioner:** a builder reported a model router inside a coding agent's harness cut median cost per task 64% with no measurable quality loss (10-02 Media Zone).
+
+---
+
+## 2026-10-03: route to a portfolio, pretrain the router, and the gate gets nearly free
+
+[FlexRouter, RouteFM and the decision-model wave (10-03)](2026-10-03-flexrouter-routefm-decision-model-wave.md).
+
+- **FlexRouter** optimizes coverage (the chance at least one chosen model is right) with a DPP over quality and redundancy, and sizes the subset per query by greedy log-det gain. Fits best-of-N plus verifier pipelines, where picking correlated models wastes the budget.
+- **RouteFM** pretrains a router across many routing environments to characterize anonymous models from behavior, then adapts by context: +2.23 quality points on held-out MMR-Bench with eight observations per candidate. Answers the router training-bill problem raised by SaveRouter (10-01) by amortization.
+- **Jev at the edge** (academic study): 22.7% to 64.5% lower median decision latency than the fastest hosted LLM, 59.7% to 80.9% lower fees per correct decision on four-field contracts; wide contracts are where substitution stops. Caching gives LLMs nearly the same latency on repeated inputs, so the win is on fresh decisions.
+- **Price floor:** Perplexity pplx-decider-27b open-sourced at 4 cents per million input tokens, free output; Amazon Strands Decider 2B open (106 ms on an RTX 3090); Cloudflare Clef-flash about 39 ms. Five vendors now ship decision endpoints.
+- **Practitioner:** Red Hat, a ~200M classifier within 0.3 points of a 35B model on prompt injection at 6x lower latency; JevBench switched its headline score from composite to capability because speed and cost "are too easy to influence."

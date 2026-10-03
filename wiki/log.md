@@ -1993,3 +1993,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-02] social-stream | 2026-10-02 morning | social-stream
 ## [2026-10-02] digest | cere-bro 2026-10-02 | daily-digest
 ## [2026-10-02] media-zone | Media Zone 2026-10-02 (finalized) | media-zone
+
+## [2026-10-03] ingest | HeteroFold: cross-family KV transfer | huggingface
+## [2026-10-03] ingest | KV-streams and FOCUS | x-feed
+## [2026-10-03] ingest | AgSpec | huggingface
+## [2026-10-03] ingest | Distillation dynamics, N-OPSD, preference rejects, Finetuning with Sampling | huggingface + x-feed
+## [2026-10-03] ingest | Helion in vLLM | x-feed
+## [2026-10-03] ingest | FlexRouter, RouteFM, Jev edge, JevSpawn | huggingface + rss + gmail + x-feed
+## [2026-10-03] ingest | PPT and Sharpening Tax (HF + Kurate) | huggingface + kurate
+## [2026-10-03] ingest | LoopCD | huggingface
+## [2026-10-03] ingest | Multi-harness RL, ActiveSaddler, ProVer | huggingface + x-feed
+## [2026-10-03] social-stream | 2026-10-03 morning | social-stream
+## [2026-10-03] digest | cere-bro 2026-10-03 | daily-digest
+## [2026-10-03] media-zone | Media Zone 2026-10-03 (finalized) | media-zone
