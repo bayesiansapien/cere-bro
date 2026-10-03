@@ -1,0 +1,37 @@
+# Stop Rationing Tokens: Let the Harness Pick the Model (Kimchi by Cast AI)
+
+**Channel:** AI Engineer
+**Published:** 2026-10-02
+**Source:** https://www.youtube.com/watch?v=48YUYDjwfYY
+
+## TL;DR
+Cast AI's answer to runaway Claude Code bills is not per-seat caps but an open-source coding harness (Kimchi) that routes each subtask to the cheapest model that clears a quality bar, leaning on open-weight models and reserving proprietary ones for edge cases. Internally (about 200 developers, three months) they claim 2.5x lower spend at the same outcome while token volume kept rising. Around the router they ship "Ferment" (multi-hour autonomous runs with milestone scoring), "Teleport" (move a live session to a cloud sandbox) and "Studio" (a team kanban over agent sessions). The routing thesis is sound. The numbers are self-reported marketing.
+
+## Key Takeaways
+- **Rationing is the wrong lever.** Caps make agents feel like a laptop you can charge once a day. The manager's job is to drive cost per outcome down so usage can stay effectively unlimited.
+- **Price per token is not price per task.** Their slide (from an unnamed university study): Gemini 3 Flash at about $3.5/M tokens blended cost about $75 for the task; MiniMax 2.7 at $1.5/M cost $148. Cheaper tokens can mean a pricier task once you count verbosity and retries.
+- **Outcome-driven routing.** The harness picks the model per task based on scored output quality and cost. Kimchi uses five roles (orchestrator, planner, builder, reviewer, explorer) on separate models.
+- **Automatic model churn.** Their routing mix flipped on June 12: Kimi 2.6 dominated early June, MiniMax 3 by June 21. No human team would re-evaluate and switch that fast. A cost-obsessed router does it unprompted.
+- **Ferment.** Asks clarifying questions, breaks work into milestones, runs 2+ hours autonomously through build, break, fix, rebuild, and only completes when a higher-order grader scores the artifact at least B (ask for another pass to chase an A). Deploys stop at staging by design.
+- **Teleport.** Syncs the local environment into a GKE container so the session survives a closed laptop. Cast claims 62% of its engineers code only through Teleport now.
+- **Studio.** Browser kanban (backlog, in progress, in review) over Teleport sessions so PMs and peers can review plans and answer agent questions. Reviewing intent and spec beats reading 2,000-line agent diffs.
+- **Harness is built on the Pi SDK** and is MIT-licensed. Teleport and Studio need a Google Cloud account.
+
+## Architecture & Optimization Mechanics
+- **This is LLM routing with a verifier in the loop.** Classic routers (RouteLLM style) predict quality before the call. Kimchi closes the loop: generate with a cheap model, grade with a stronger one, escalate or retry on failure. Cost per task = price per token x tokens per attempt x attempts per success. The grader makes the third term observable, which is what lets a router optimize it.
+- **The grader is the real cost risk.** If the reviewer is a frontier model scoring every milestone, its tokens can eat the savings. The design only pays off when grading is much cheaper than generation (short rubric, diff-only context) or when cheap models pass on the first try most of the time.
+- **Role-split routing is coarse MoE at the system level.** Planner, builder and reviewer are "experts" with a learned gate. The June 12 flip is the gate re-weighting after a new expert (MiniMax 3) appeared. The open question is whether the gate is learned from outcomes or hand-tuned, which the talk does not answer.
+- **The confusing stats.** The slides say tokens rose 1.5x and cost "decreased 1.5x" while headline savings are 2.5x. Read it as roughly 2.5x lower cost per token-equivalent of work, not a clean A/B. There is no control group and "same outcome" is asserted, not measured.
+
+## Grounded Context (Web Enrichment)
+The pain they cite is real, with one correction. Uber CTO Praveen Neppalli Naga did say Uber burned its full 2026 AI budget in four months after Claude Code adoption jumped from 32% to 84% of its 5,000 engineers. Uber responded with exactly the rationing Cast argues against: a $1,500 per employee per month per tool cap. The "$500M in one month" story is also real (Axios, May 2026), but the company was never named as Indian. It was an anonymous enterprise that gave out uncapped licenses. The speakers got that detail wrong.
+
+Kimchi Coding reached general availability in 2026 with the same "frontier quality at 2.5x lower cost" claim and a data-sovereignty pitch (inference inside the customer's cloud account). The code is on GitHub (`getkimchi/kimchi`) under MIT, with recent work on backend-routed virtual models. The cost-per-task framing is now mainstream: Artificial Analysis plots intelligence against cost per task, and Gemini 3.8 Flash shows the trap directly, using about 30% more output tokens than 3.7 Flash so its per-task cost rose despite flat token prices. The specific Gemini 3 Flash vs MiniMax 2.7 numbers could not be traced to a named study, so treat them as illustrative. Related routing notes: [Legora's eval-driven routing](2026-08-25-Junestrand-Legora-Eval-Driven-Routing-Model-Agnosticism.md), [ClinePass on renting vs owning open-weight coders](2026-08-25-ClinePass-Open-Weight-Coding-Models-Rent-vs-Own.md), [Twilio on LLM gateways](2026-08-28-Productionizing-LLM-Gateways-Kanish-Manuja-Twilio.md), and the deterministic pre-filter pattern in [Reddit's flag-cleanup agent](2026-09-27-Reddit-Scale-the-Judgment-Not-the-Model-Andrew-Orobator.md).
+
+Sources: [Cast AI: Kimchi GA press release](https://cast.ai/press-release/kimchi-coding-hits-general-availability/), [Techzine: Kimchi GA](https://www.techzine.eu/news/devops/142903/cast-ais-kimchi-coding-agent-reaches-general-availability/), [Kimchi blog: harness vs model](https://kimchi.dev/blog/coding-agents-vs-harnesses), [getkimchi/kimchi PR #1253](https://github.com/getkimchi/kimchi/pull/1253), [TechCrunch: Uber caps AI spending](https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/), [Cybernews: $500M Claude bill](https://cybernews.com/ai-news/claude-bills-client-500m-one-month-ai/), [Trilogy AI: Gemini Flash real cost](https://trilogyai.substack.com/p/gemini-36-flash-pricing-the-real), [Artificial Analysis: Gemini 3.8 Flash cost per task](https://x.com/ArtificialAnlys/status/2095177419489739063)
+
+## Real-World Application / Actionable Step
+- **Switch your router's objective to cost per successful task.** Log price x tokens x attempts per success for each candidate model on your own coding and eval workloads. Rank by that, not by list price.
+- **Add a cheap grader and measure its share of spend.** If the grader is over about 20% of total tokens, shrink its input (diff plus rubric only) or distill it into a small classifier. That distillation target is squarely in your compression wheelhouse.
+- **Test auto-churn safety.** A router that swaps the default model overnight needs a regression gate. Freeze a 50-task canary set and require any newly promoted model to match the incumbent's pass rate before it takes traffic.
+- **Try Kimchi on a quantization-sweep repo.** It is MIT, so clone it, point it at your open-weight models served on vLLM, and compare cost per merged change against plain Claude Code over a week. The MCP-side context savings in [MCP Doesn't Suck](2026-10-02-Apify-MCP-Doesnt-Suck-Your-Agent-Does-Jan-Curn.md) stack with this.
