@@ -782,3 +782,11 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Jev at the edge** (academic study): 22.7% to 64.5% lower median decision latency than the fastest hosted LLM, 59.7% to 80.9% lower fees per correct decision on four-field contracts; wide contracts are where substitution stops. Caching gives LLMs nearly the same latency on repeated inputs, so the win is on fresh decisions.
 - **Price floor:** Perplexity pplx-decider-27b open-sourced at 4 cents per million input tokens, free output; Amazon Strands Decider 2B open (106 ms on an RTX 3090); Cloudflare Clef-flash about 39 ms. Five vendors now ship decision endpoints.
 - **Practitioner:** Red Hat, a ~200M classifier within 0.3 points of a 35B model on prompt injection at 6x lower latency; JevBench switched its headline score from composite to capability because speed and cost "are too easy to influence."
+
+---
+
+## 2026-10-04: routing by moment and routing between programs
+
+- **[Claude Code advisor (10-04)](2026-10-04-claude-code-advisor-routing-by-moment.md):** escalation triggered by session state (plan boundary, repeated error, completion claim), not query difficulty. Practitioner stack: Jev for mechanical forks, Sonnet 5.5 workers, Opus 5.5 planner, Fable 5.1 advisor. No published cost or lift numbers; prompt-cache impact flagged in the docs.
+- **[Mixture of Self-Improving Branches (10-04)](../agentic-systems/2026-10-04-harness-learning-and-branch-routing.md):** a router picks one specialized harness per input (+34.8% relative on Olympiad math over Meta-Harness). Routing targets now include models, moments and programs.
+- **Decision models keep landing locally:** Cloudflare Clef (27B) and Clef Flash (9B) on Ollama v0.35.1; Foil (10-04) adds a modeling note, that router confidence is a better health signal than load balance inside MoE.

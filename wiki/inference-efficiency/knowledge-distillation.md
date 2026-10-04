@@ -674,3 +674,9 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 - **Finetuning with Sampling** (Harvard, X feed): MCMC reshapes expert traces toward the model's own distribution; SFT then rivals RL and OPD while forgetting less.
 - **Neighborhood OPSD:** a pool of perturbed frozen teachers, routed per state, adds +1.67 to +2.75 Average@12 on AIME/HMMT over OPSD (Qwen3 1.7B to 8B).
 - **Smaller Models, Better Rejects:** rejects from smaller frozen models train stronger 7B to 72B students in preference distillation than self-generated rejects; lower-likelihood rejects win for every source.
+
+---
+
+## 2026-10-04: weight teacher corrections by the student's verified outcome
+
+[R²-OPD (10-04)](2026-10-04-r2-opd-reward-aligned-reweighting.md), Kurate cs.LG. Uniform per-token OPD treats teacher preference as correction utility; R²-OPD reallocates supervision by outcome agreement and teacher-student disagreement, keeping dense feedback. Beats standard OPD on all seven math benchmarks (+3.5 at 1.7B, +2.4 at 4B; +1.6 on code). Fourth token-weighting answer after TIP (04-16), MOPD-Router (09-29) and SAKI (10-01), and the first tied to RLVR rewards. Tension with 10-03's finding that learning rate drives update sparsity remains open.

@@ -368,3 +368,7 @@ Two papers landed together and they are in direct tension. Neither cites the oth
 ## 2026-10-01: memory written by the model needs an audit
 
 [Context Language Models (10-01)](2026-10-01-context-language-models.md) let the model rewrite its live context freely, the most aggressive write-time curation on this page. The same day, **Memory Is a Derivation** ([arXiv 2609.36130](https://arxiv.org/abs/2609.36130)) audited compressed agent memories: broader pre-write history recovers support for nearly 60% of memories that looked unsupported from their citations, but 17-21% remain unsupported, and composed memories can assert relations the history never established. Mem0 argued on X that recall-style memory benchmarks are saturating because real agents must surface facts unprompted. **Open:** no CLM-style system reports a derivation audit of its own edits.
+
+## 2026-10-04: compaction timing becomes a learned action
+
+[AutoCompact (10-04)](2026-10-04-autocompact-learned-compaction.md) adds `compact()` to the coding agent's action space and trains timing, summary content and resumption together (judge-corrected trajectories, SFT, then RL). +9.2 SWE-bench Verified, +5.0 SWE-PolyBench; gains hold with a 256K window that never overflows, so stale history hurts even when it fits. Open cost question: each compaction invalidates the prefix cache.

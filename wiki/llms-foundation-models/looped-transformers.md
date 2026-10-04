@@ -94,3 +94,9 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 ## 2026-10-03: early loops as a free contrastive signal
 
 [LoopCD (10-03)](2026-10-03-loopcd-looped-contrastive-decoding.md) contrasts the final loop's prediction with an earlier loop's, a training-free contrastive decoding that needs no second model. Ouro-2.6B-Thinking AIME 2024 pass@1 61.88% to 73.33%; halving loops still matches unguided full depth, cutting forward FLOPs 22.5% to 48.2%. With WaveFront (09-30, early loops as drafts), the second result treating recurrence as a source of free weak predictions.
+
+---
+
+## 2026-10-04: how to shape a looped MoE
+
+[Foil (10-04)](2026-10-04-foil-how-to-loop-moe.md), Kurate cs.LG. At fixed stored experts, expert compute and effective depth, flatten (E, D, L) to (2E, D/2, 2L) so every routing decision sees a bigger pool, and untie attention per pass while experts and routers stay shared. Loss improves monotonically with flattening at 100B tokens (most flattened: -0.012 nat). Routing confidence tracks healthy expert use better than load balance. Third loop paper in three days after Loop Scaling Laws (10-02) and LoopCD (10-03); open question is latency, since a 1-layer 16-pass model is sequential by construction.

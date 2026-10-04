@@ -2006,3 +2006,14 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-03] social-stream | 2026-10-03 morning | social-stream
 ## [2026-10-03] digest | cere-bro 2026-10-03 | daily-digest
 ## [2026-10-03] media-zone | Media Zone 2026-10-03 (finalized) | media-zone
+## [2026-10-04] ingest | Harness Learning + Mixture of Self-Improving Branches | x-feed
+## [2026-10-04] ingest | AutoCompact | x-feed
+## [2026-10-04] ingest | Kepler + RankEvolve | x-feed
+## [2026-10-04] ingest | ScholarCatalyst | x-feed
+## [2026-10-04] ingest | Claude Code advisor tool | docs + x-feed
+## [2026-10-04] ingest | Foil (How to Loop MoE) | kurate
+## [2026-10-04] ingest | R²-OPD | kurate
+## [2026-10-04] ingest | Supply chokepoints (Cerebras, Broadcom, memory) | x-feed
+## [2026-10-04] social-stream | 2026-10-04 morning | social-stream
+## [2026-10-04] digest | cere-bro 2026-10-04 | daily-digest
+## [2026-10-04] media-zone | Media Zone 2026-10-04 (finalized) | media-zone

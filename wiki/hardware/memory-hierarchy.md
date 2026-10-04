@@ -236,3 +236,6 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 - **Tesla cut AI5 RAM to 72GB of LPDDR5 and AI6 to 144GB** to secure Optimus volume, arguing bandwidth, not capacity, limits inference. A practitioner estimate of 200GB per humanoid times billions of robots exceeds annual DRAM output many times over.
 - **Nvidia's 64GB DGX Spark at $4,999** is half the memory of the original for 25% more money.
 - **Volantis ($88M)** claims optical interconnect that attaches 220 memory chips to one GPU against eight today; the memory-wall answer moving into photonics.
+
+- **2026-10-04:** a forecast puts memory revenue near $1.5T in 2027 and only ~$1.6T in 2028 while Micron says supply tightens through 2028; Cerebras argues on-wafer SRAM is a supply strategy, not just a bandwidth one ([page](2026-10-04-supply-chokepoints-cerebras-broadcom-memory.md)).
+- **2026-10-04:** Ken Huang's essay frames inference memory as six markets with different cycles: HBM structurally needed but capex- and packaging-exposed, DRAM and NAND growing but cyclical, SRAM tied to logic design, CXL derived demand, processing-in-memory not yet a substitute. Decode's bandwidth bound plus KV placement policy decides which tier captures value ([page](2026-10-04-inference-memory-tiers-and-cycles.md)).

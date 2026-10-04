@@ -348,3 +348,7 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 - **Lambda's first delayed-draw term loan**: over $1B at 6.78% fixed for 30,000+ Nvidia GPUs (The Information).
 - **AI data-center debt is its own asset class**: at least 20 high-yield project bonds in 12 months, often via obscure SPVs leased to CoreWeave, Fluidstack (Google-backed, building for Anthropic) or Nvidia itself; spreads and concessions are widening (The Information). Bank of England flags ~$450B of AI-related debt issuance by early September.
 - **Counter-view:** Ed Zitron argues AI's GDP contribution is almost entirely GPU sales and construction, with flat ICT share of nominal GDP; Ramp's AI Index shows businesses using more AI and paying less for it.
+
+## 2026-10-04: supply gates and custom silicon
+
+[Three chokepoints (10-04)](2026-10-04-supply-chokepoints-cerebras-broadcom-memory.md). Cerebras' Feldman: HBM, CoWoS and TSMC 3nm cap accelerator shipments; wafer-scale sidesteps all three (SRAM, no interposer, 5nm). Analyst view: Broadcom ~75% of AI ASICs, Anthropic its largest custom-chip client in FY27, units ~10M in 2027 and ~24M by 2030 at rising ASPs. TSMC reportedly weighing a Texas fab for Musk's Terafab. Kepler (10-04) gives a rare full agent-benchmark bill: $777.72 for 858M tokens, 97.37% cache reads. Supabase raised $150M at $10.65B (10-03); a new analysis says 55.2% of money AI companies raise comes from other AI companies.
