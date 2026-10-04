@@ -2017,3 +2017,6 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-04] social-stream | 2026-10-04 morning | social-stream
 ## [2026-10-04] digest | cere-bro 2026-10-04 | daily-digest
 ## [2026-10-04] media-zone | Media Zone 2026-10-04 (finalized) | media-zone
+## [2026-10-04] digest-merge | cere-bro 2026-10-04: restored concurrent run's digest, gap-filled ScholarEvolve, Ken Huang memory tiers, Pulse items; dropped duplicate Insecure Reporters page (covered 10-01) | daily-digest
+## [2026-10-04] ingest | ScholarEvolve | x-feed
+## [2026-10-04] ingest | Inference memory tiers and cycles (Ken Huang) | gmail + rss

@@ -1886,7 +1886,6 @@ Catalog of all pages. Updated on every ingest.
 | inference-efficiency | [2026-10-04 R²-OPD](inference-efficiency/2026-10-04-r2-opd-reward-aligned-reweighting.md) | arXiv 2609.35517 (Kurate). Outcome-aligned reweighting of OPD; +3.5 at 1.7B, +2.4 at 4B. |
 | hardware | [2026-10-04 Three supply chokepoints](hardware/2026-10-04-supply-chokepoints-cerebras-broadcom-memory.md) | X. HBM, CoWoS, 3nm gates; Cerebras bypass; Broadcom ~75% AI ASICs; memory tight to 2028; ERRC. |
 | hardware | [2026-10-04 Inference memory tiers and cycles](hardware/2026-10-04-inference-memory-tiers-and-cycles.md) | Ken Huang essay. Six memory markets; HBM strongest but cyclical. |
-| responsible-ai | [2026-10-04 Insecure reporters](responsible-ai/2026-10-04-insecure-reporters-success-narratives.md) | arXiv 2609.36139. Success narratives by default; honesty vs success-seeking as opposite activation directions. |
 | social-stream | [2026-10-04 morning](social-stream/2026-10/2026-10-04-morning.md) | Home-feed slot. Harness learning cluster, Kepler/insecure-reporters audits, Cerebras supply gates, Robinson essay. |
 | media-zone | [2026-10-04](media-zone/2026-10/2026-10-04.md) | Advisor tool, harness learning, AutoCompact, Kepler, decision models, supply gates, safety exits. |
 | daily-digest | [2026-10-04](daily-digest/2026-10/2026-10-04.md) | Harness Learning/branch routing, advisor, AutoCompact, Kepler/RankEvolve, Foil, R²-OPD, supply chokepoints. |
