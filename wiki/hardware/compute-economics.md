@@ -352,3 +352,10 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 ## 2026-10-04: supply gates and custom silicon
 
 [Three chokepoints (10-04)](2026-10-04-supply-chokepoints-cerebras-broadcom-memory.md). Cerebras' Feldman: HBM, CoWoS and TSMC 3nm cap accelerator shipments; wafer-scale sidesteps all three (SRAM, no interposer, 5nm). Analyst view: Broadcom ~75% of AI ASICs, Anthropic its largest custom-chip client in FY27, units ~10M in 2027 and ~24M by 2030 at rising ASPs. TSMC reportedly weighing a Texas fab for Musk's Terafab. Kepler (10-04) gives a rare full agent-benchmark bill: $777.72 for 858M tokens, 97.37% cache reads. Supabase raised $150M at $10.65B (10-03); a new analysis says 55.2% of money AI companies raise comes from other AI companies.
+
+
+---
+
+## 2026-10-05: the price of a committed B300 hour
+
+[Process monitor and GPU-hour pricing (10-05)](2026-10-05-process-monitor-and-gpu-hour-pricing.md). DeepInfra DeepCluster: dedicated B300 clusters (256 to 5,000 GPUs) at $2.99/GPU-hr on 3 years and $1.98 on 5 years vs a $6.50 public-cloud reference; Batch API and Flex tiers at 20% off for latency-tolerant work. UBS: AI rack capacity ~104.5 GW/yr by 2030, Nvidia ~48% share, ASICs ~43%. SoftBank completed its final $10B tranche into OpenAI (total ~$64.6B, ~13% stake). Reflection (Nvidia-backed) reportedly committed $7B+ to compute through 2029 for an open-weight model. Commitment length is now the main lever on GPU price.

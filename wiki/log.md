@@ -2020,3 +2020,13 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-04] digest-merge | cere-bro 2026-10-04: restored concurrent run's digest, gap-filled ScholarEvolve, Ken Huang memory tiers, Pulse items; dropped duplicate Insecure Reporters page (covered 10-01) | daily-digest
 ## [2026-10-04] ingest | ScholarEvolve | x-feed
 ## [2026-10-04] ingest | Inference memory tiers and cycles (Ken Huang) | gmail + rss
+## [2026-10-05] ingest | Beyond Token Savings: context compression in LLM agents | x-feed
+## [2026-10-05] ingest | Hardware-Aware Features for CUTLASS Kernel Selection | kurate
+## [2026-10-05] ingest | Decision 2.0, Jev builds, turn-priced routing | x-feed
+## [2026-10-05] ingest | Diverse self-training + Distillation Defenses Break After RL | x-feed + kurate
+## [2026-10-05] ingest | VeriHarness + CheatBench | x-feed
+## [2026-10-05] ingest | GitHarness + Harness Evolution as Learning | x-feed
+## [2026-10-05] ingest | Semiconductor process monitor + DeepInfra B300 pricing | gmail + x-feed
+## [2026-10-05] social-stream | 2026-10-05 morning | social-stream
+## [2026-10-05] media-zone | Media Zone 2026-10-05 (finalized) | media-zone
+## [2026-10-05] digest | cere-bro 2026-10-05 | daily-digest

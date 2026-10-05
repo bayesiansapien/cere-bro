@@ -681,3 +681,10 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[KV-streams (10-03)](2026-10-03-kv-streams-and-focus-context-compaction.md).** Agentic RL compaction normally rebuilds the cache (re-prefill). KV-streams, a vLLM 0.19 fork, evicts whole 16-token blocks from the live cache, tracks logical RoPE position apart from physical slot, and claims about 2x faster agent RL training. Training-side twin of CLMs' Suffix Cache Reuse (10-01). Repo plus X explainer only.
 - **FOCUS (Microsoft, 10-03 same page).** Training-free selection of the history units future decisions depend on: up to 48% less peak context and +8.9 points task success.
 - **Open question:** HeteroFold's mapping is fitted per model pair. How fast it goes stale after a model update decides whether cross-family caching is a product or a demo.
+
+
+---
+
+## 2026-10-05: fewer tokens is not a cheaper agent
+
+[Beyond Token Savings (10-05)](2026-10-05-context-compression-beyond-token-savings.md), UT Austin, ~35,000 agent runs. Splits compaction into how / when / how much. On Terminal-Bench with Qwen, policies using a third of the tokens ran 20-80% longer; step-triggered policies need 10-27% more calls; threshold-triggered ones cut tokens 22-55% at near-baseline call counts; policies do not transfer across models (OTRC: Qwen 51.3%, Devstral 38.7%). Copilot trace: compaction sessions are 44.2% of tokens served, median compaction removes 72.8%. Implication for this page: text-level compaction invalidates the prefix cache and adds prefill and summarizer calls, so KV-level dropping (KV-streams, 10-03) may be the only compaction that is free on latency. Open: does a learned trigger (AutoCompact, 10-04) win on wall-clock, not just accuracy?

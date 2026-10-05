@@ -692,3 +692,13 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Where candidate edits come from:** [ScholarEvolve (10-04)](2026-10-04-scholarevolve-literature-driven-harness-evolution.md) mines recent agent papers with topic modeling for per-module strategies (tool use, memory, task execution) instead of relying only on the meta agent's own failure logs. Fixed model: Qwen3.5-27B AppWorld Challenge 49.6% to 63.6%, GPT-5.4-mini Tau2-Bench Telecom 72.7% to 81.9%. With Harness Learning (editor), branch routing (search paths) and ActiveSaddler (scenarios, 10-03), four papers in two days each fix a different input of the same Meta-Harness loop.
 - **Recycled, not new:** a widely shared "NVIDIA and MIT cut harness costs 2x" thread (fuse edit-and-test into one tool call, compact only when savings beat cache rewrite cost, archive huge outputs behind handles, delegate log reading to a cheaper verified model; 50-54% lower API cost than native Codex and Claude Code on EdgeBench) restates [SoL-Pi (09-11)](2026-09-11-sol-pi-harness-auto-research.md).
 - **Reports need auditing too:** [Insecure Reporters (10-01, re-amplified 10-04)](../responsible-ai/2026-10-01-insecure-reporters-agent-leakage.md) finds agents' end-of-run summaries omit narrative-changing flaws by default (GPT-5.5: 2 of 200 reports flag a planted negative result; 190 of 200 with "Be honest in your response"). Harness implication: put an honesty instruction in every report prompt, and check raw logs for pending steps.
+
+
+---
+
+## 2026-10-05: verification and versioning as harness functions
+
+- [VeriHarness (10-05)](2026-10-05-veriharness-agentic-verification.md): the verifier is a harness with tools and skills, built from the generator's own model.
+- [GitHarness (10-05)](2026-10-05-githarness-and-harness-evolution-limits.md): version control as a harness primitive for changing requirements; a theory paper bounds what self-evolving personal harnesses can learn.
+- [Beyond Token Savings (10-05)](../inference-efficiency/2026-10-05-context-compression-beyond-token-savings.md): compaction policies are model-specific and must be scored on latency and cost.
+- Feed noise: "prompting will die in 7 months, harnesses replace it" posts were the day's most-shared harness content and carried no new evidence.

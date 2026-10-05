@@ -790,3 +790,12 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **[Claude Code advisor (10-04)](2026-10-04-claude-code-advisor-routing-by-moment.md):** escalation triggered by session state (plan boundary, repeated error, completion claim), not query difficulty. Practitioner stack: Jev for mechanical forks, Sonnet 5.5 workers, Opus 5.5 planner, Fable 5.1 advisor. No published cost or lift numbers; prompt-cache impact flagged in the docs.
 - **[Mixture of Self-Improving Branches (10-04)](../agentic-systems/2026-10-04-harness-learning-and-branch-routing.md):** a router picks one specialized harness per input (+34.8% relative on Olympiad math over Meta-Harness). Routing targets now include models, moments and programs.
 - **Decision models keep landing locally:** Cloudflare Clef (27B) and Clef Flash (9B) on Ollama v0.35.1; Foil (10-04) adds a modeling note, that router confidence is a better health signal than load balance inside MoE.
+
+
+---
+
+## 2026-10-05: decision models in six sizes, and turn-priced routing
+
+- [Decision 2.0 and turn-priced routing (10-05)](2026-10-05-decision-2-and-turn-priced-routing.md). vLLM Semantic Router releases Decision 2.0 (0.6B to 27B, open). Ten community Jev builds put decision calls into Claude Code effort selection, Stop hooks, skill routing and Codex subagent model choice; one skill router was removed after 28 of 539 suggestions were used, honest evidence that one-of-N skill routing is not yet reliable.
+- Cost logic: cache hits cost the same on Opus 5.5 and Sonnet 5.5 ($0.20 per million), so Opus's per-turn premium falls from ~1.88x at 20K to ~1.26x at 400K context. Route by cost per finished task; escalate with a short fresh handoff, never the whole transcript (re-caching 300K into Opus ~$1.50 vs ~$0.10 for 20K).
+- Horace He flagged an inference-pricing distortion apparently driven by OpenRouter's routing (mechanism not captured). Aggregator routing is now a price-setting force, not only a convenience layer.

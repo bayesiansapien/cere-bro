@@ -372,3 +372,10 @@ Two papers landed together and they are in direct tension. Neither cites the oth
 ## 2026-10-04: compaction timing becomes a learned action
 
 [AutoCompact (10-04)](2026-10-04-autocompact-learned-compaction.md) adds `compact()` to the coding agent's action space and trains timing, summary content and resumption together (judge-corrected trajectories, SFT, then RL). +9.2 SWE-bench Verified, +5.0 SWE-PolyBench; gains hold with a 256K window that never overflows, so stale history hurts even when it fits. Open cost question: each compaction invalidates the prefix cache.
+
+
+---
+
+## 2026-10-05: versioned memory and the memory sweet spot
+
+[GitHarness and harness-evolution limits (10-05)](2026-10-05-githarness-and-harness-evolution-limits.md). GitHarness stores requirement states with their work as Git-style commits and branches from the last compatible version; beat plain continuation in 30/30 settings, 73.6% fewer tokens in one coding setup. Harness Evolution as Learning: memory notes help to ~10 lines (Haiku 4.5 violations 77% to 20%) then hurt (~25%); stated rules fail on stateful tracking (44%) where code succeeds (0%); complaint-driven rewrites stall near 48% vs 7.1% when told every preference. Shift: memory should be short and stateful facts should live in code.

@@ -194,3 +194,11 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 **The *when* decision, opened on [08-29](#2026-08-29-a-sixth-decision-when-to-spend-it), is now shipped in three production systems at once and the page should stop treating it as an open research question.** Zhipu's GLM-5.3 exposes `reasoning_effort` as an explicit API tier (low, high, max) against up to 128,000 output tokens. Moonshot's Kimi K3 and Qwen 3.8 pair token watchdogs with **entropy-driven dynamic thinking budgets that terminate when confidence stops improving** rather than at a fixed cap. Both join the difficulty-aware length-control line of work measured on 09-18. **Three independent vendors shipping an explicit stop-early control in the same quarter is the industrial answer to a question the literature has not settled**, and the interesting gap is now the reverse of the usual one: industry is ahead, and no paper has evaluated whether an entropy threshold or a learned difficulty predictor makes the better stopping rule.
 
 **A third failure mode joins the two this page tracks.** Beyond over-spending and under-spending, Chapter 8 names **execution stochasticity**: long reasoning trajectories can enter recursive backtracking loops and consume tokens without terminating. That is not a budget-allocation failure, it is a termination failure, and every budget policy on this page implicitly assumes termination. A watchdog is not an allocation mechanism; it is an admission that the allocation mechanism has no lower bound on progress per token.
+
+
+---
+
+## 2026-10-05: spend on the checker, measure in seconds and dollars
+
+- [VeriHarness (10-05)](../agentic-systems/2026-10-05-veriharness-agentic-verification.md): consensus across rollouts hides shared errors; a resolver checks disagreements against workspace evidence and a challenger attacks agreements. +6.2 (Gemini 3.5 Flash) and +6.4 (Opus 4.8) points over one rollout. Second verifier-first result after Mid-Harness (10-02). Majority voting assumes independent errors; same-model rollouts violate that.
+- [Beyond Token Savings (10-05)](2026-10-05-context-compression-beyond-token-savings.md): compression that cuts tokens can add 20-80% latency. Allocation should be scored on wall-clock and cost per solved task, not tokens.

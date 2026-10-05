@@ -325,3 +325,12 @@ To get bitwise reproducibility across heterogeneous commodity hardware, the pape
 - **[Helion in vLLM (10-03)](2026-10-03-helion-vllm-linear-backend.md).** One Helion GEMM expresses standard, Split-K and Swap-AB variants; an ahead-of-time autotuner picks the variant and config per shape; hybrid dispatch keeps library kernels where they still win. On Hopper it beats vLLM's default CUTLASS and DeepGEMM backends across evaluated models, 10%+ throughput on some workloads. Third DSL-plus-search result in two days after JFA in TLX and TorchTPU (10-02).
 - **FlyDSL (AMD):** an MLIR-native Python kernel DSL integrated as a TorchInductor GEMM backend, compared against Triton on Instinct GPUs (PyTorch Conference, 10-20/21).
 - **Cerebras pitch, for the record:** Andrew Feldman frames wafer-scale speed as a decode-bandwidth argument (weights in on-chip SRAM); Sam Altman calls Cerebras "a close partner" amid speculation about the relationship.
+
+
+---
+
+## 2026-10-05: learned kernel selection with hardware features
+
+- [Hardware-aware CUTLASS selection (10-05)](2026-10-05-hardware-aware-cutlass-kernel-selection.md), Kurate cs.LG. Adds static estimates of each candidate's hardware behavior to config features; 4.9M-kernel dataset; learning-to-rank cuts selection regret up to 40% vs structural features and 64.2% vs NVIDIA's GEMM heuristics, with data-efficient transfer across precision and epilogue fusion. Third selection-cost result after Helion's AOT autotuner (10-03) and TLX JFA (10-02): the field is converging on "choosing among equivalent kernels" as the expensive step.
+- DeepGEMM resurfaced on the feed (JIT-compiled FP8 GEMM for Hopper and Blackwell, MoE grouped GEMM, up to 1350+ FP8 TFLOPS claimed); not new, but still the practitioner reference point.
+- Stanford MS&E 319 "Efficient Generative Language Models" (Autumn 2026) posted its first lecture notes: MoE, sparse attention, quantization, speculative decoding.

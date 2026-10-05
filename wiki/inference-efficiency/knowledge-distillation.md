@@ -680,3 +680,10 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-04: weight teacher corrections by the student's verified outcome
 
 [R²-OPD (10-04)](2026-10-04-r2-opd-reward-aligned-reweighting.md), Kurate cs.LG. Uniform per-token OPD treats teacher preference as correction utility; R²-OPD reallocates supervision by outcome agreement and teacher-student disagreement, keeping dense feedback. Beats standard OPD on all seven math benchmarks (+3.5 at 1.7B, +2.4 at 4B; +1.6 on code). Fourth token-weighting answer after TIP (04-16), MOPD-Router (09-29) and SAKI (10-01), and the first tied to RLVR rewards. Tension with 10-03's finding that learning rate drives update sparsity remains open.
+
+
+---
+
+## 2026-10-05: diversity beats the teacher; defenses fail after RL
+
+[Diverse self-training and distillation defenses (10-05)](2026-10-05-diverse-self-training-and-distillation-defenses.md). (1) Gurung et al.: elicit distinct approaches first (GROOT tree, Verbalized Sampling list), then solve once per approach. GROOT at 4 samples beats IID at 64 (pass@64 15.5 vs 7.9); training only on incorrect diverse samples still beats RFT; a 4B model's diverse self-samples beat IID distillation from a 235B teacher (22.8 vs 13.4). (2) Distillation Defenses Easily Break After RL (2609.35699, Kurate): defenses that hold at the distillation checkpoint fail once the attacker adds RL; API-available signals suffice. Shift: the value of distillation data lies in strategy coverage, and output-level anti-distillation is likely a dead end.
