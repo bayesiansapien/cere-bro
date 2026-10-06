@@ -100,3 +100,10 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 ## 2026-10-04: how to shape a looped MoE
 
 [Foil (10-04)](2026-10-04-foil-how-to-loop-moe.md), Kurate cs.LG. At fixed stored experts, expert compute and effective depth, flatten (E, D, L) to (2E, D/2, 2L) so every routing decision sees a bigger pool, and untie attention per pass while experts and routers stay shared. Loss improves monotonically with flattening at 100B tokens (most flattened: -0.012 nat). Routing confidence tracks healthy expert use better than load balance. Third loop paper in three days after Loop Scaling Laws (10-02) and LoopCD (10-03); open question is latency, since a 1-layer 16-pass model is sequential by construction.
+
+
+---
+
+## 2026-10-06: per-loop routers, and 9 to 12 stable loops
+
+[LOOM (10-06)](2026-10-06-loom-looped-moe-beyond-twice.md). Looped MoE stalls at two loops because hidden-state variance grows each pass and routers keep picking the same experts. Fixes: scaled residual updates, input re-injection each loop, per-loop routers, and a looping residual. Stable to 9-12 loops at 100M-1.7B; 700M near-iso-FLOP best at 5 loops (PPL 18.36 to 16.54); 1.7B peaks at 9 loops (zero-shot 42.4% to 47.7%, not FLOP-matched). **Contradiction with Foil (10-04)**, which shares routers across passes and flattens the expert pool instead: LOOM says shared routers collapse. Possibly reconciled by Foil's larger pool; unresolved. Fourth looped-MoE paper in five days; still no latency numbers.

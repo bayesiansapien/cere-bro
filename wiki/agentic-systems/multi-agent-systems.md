@@ -122,3 +122,12 @@ Both push in the direction [Emergent Collusion (09-23)](../responsible-ai/2026-0
 ## 2026-09-28: orchestrator-free coordination at 1,024 agents
 
 [Agensh](2026-09-28-agensh-1024-agent-harness.md) coordinates parallel coding agents only through a shared workspace and message channel (claim, work, share, verify, merge). 1 to 128 agents lifts the five hardest ProgramBench tasks from 19.31% to 28.78%; 1,024 agents lift pandoc from 33.89% to 55.06%. Contrast with [SAT (09-24)](2026-09-24-self-organizing-agent-teams.md), which learns team strategies for small teams. Missing: cost per point of pass rate, and a matched-spend orchestrated baseline.
+
+
+---
+
+## 2026-10-06: swarms buy speed, and the communication tax gets a KV-level fix
+
+- **[Swarm scaling (10-06)](2026-10-06-swarm-scaling-speed-not-capability.md).** Toby Ord: a 4-agent swarm needs ~2x the tokens for the same result but finishes in about half the time; 10x agents give 10^λ (3-5x) the gain of 10x tokens on one agent, λ = 0.5-0.7 for GPT-5.6 Sol swarms, like human teams. Opus 5.5 system card: most gain from 1 to 10 agents. Noam Brown: under 10% of the Navier-Stokes credit goes to the 10,000-agent swarm. Counterpoint: a Microsoft-Berkeley paper (09-17) where teams solved a task no solo agent could. This finally prices the 09-28 Agensh scaling result, which reported no cost per point.
+- **[CacheBack (10-06)](../inference-efficiency/2026-10-06-cacheback-receiver-conditioned-kv-communication.md)** cuts inter-agent communication by sending only the KV slice the receiver asks for (75% less state, 3.2x faster than text).
+- **[FrugalEvo (10-06)](2026-10-06-frugalevo-cost-aware-program-evolution.md)** matched or beat ~$50 multi-agent search systems (CORAL, SwarmResearch) on circle packing for $0.55-$1.68 with one strong planner and one cheap implementer.

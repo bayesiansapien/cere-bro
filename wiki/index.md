@@ -1899,3 +1899,16 @@ Catalog of all pages. Updated on every ingest.
 | social-stream | [2026-10-05 morning](social-stream/2026-10/2026-10-05-morning.md) | Compression-slows-agents study, distillation economics cluster, verification/audit cluster, GitHarness. |
 | media-zone | [2026-10-05](media-zone/2026-10/2026-10-05.md) | Turn-priced routing, compression study, verifier-first test-time compute, diverse self-training, power economics. |
 | daily-digest | [2026-10-05](daily-digest/2026-10/2026-10-05.md) | Compression latency, CUTLASS selection, Decision 2.0, diverse self-training, VeriHarness, GitHarness, B300 pricing. |
+| inference-efficiency | [2026-10-06 CacheBack](inference-efficiency/2026-10-06-cacheback-receiver-conditioned-kv-communication.md) | Receiver states its need; sender ships 25% of its KV. +14.7 acc, 3.2x faster than text messages. |
+| llms-foundation-models | [2026-10-06 The Extender](llms-foundation-models/2026-10-06-extender-log-structured-transformer.md) | K/V read a thin 32-dim append-only log; 104x smaller attention memory than MHA at 924M. |
+| inference-efficiency | [2026-10-06 QuantWM](inference-efficiency/2026-10-06-quantwm-2bit-kv-world-models.md) | 2-bit KV for world models; Key errors shift attention selection. Query-weighted INT2 + low-rank fix, 6.2x. |
+| inference-efficiency | [2026-10-06 Multi-teacher OPD](inference-efficiency/2026-10-06-multi-teacher-opd-latent-mopd-and-diagnostics.md) | Latent-MOPD hidden-state + token supervision; BF16 hides most updates (97% vs 7-11%). |
+| llms-foundation-models | [2026-10-06 LOOM looped MoE](llms-foundation-models/2026-10-06-loom-looped-moe-beyond-twice.md) | Per-loop routers + bounded residuals scale to 9-12 loops; contradicts Foil on router tying. |
+| agentic-systems | [2026-10-06 FrugalEvo](agentic-systems/2026-10-06-frugalevo-cost-aware-program-evolution.md) | Strong planner, cheap implementer, prefix caching; BA-AUC; circle packing SOTA for $0.55-$1.68. |
+| agentic-systems | [2026-10-06 Swarm scaling](agentic-systems/2026-10-06-swarm-scaling-speed-not-capability.md) | Ord's lambda 0.5-0.7; 10x agents gives 3-5x the gain of 10x tokens. Swarms buy speed. |
+| agentic-systems | [2026-10-06 Harness and agentic search papers](agentic-systems/2026-10-06-harness-search-and-agentic-search-papers.md) | X feed. SelfSearch $4.03 Codex-level harness; CorpusMap -34-57% tokens; simpler interfaces; 7-part harness. |
+| ai-industry | [2026-10-06 Subscription economics](ai-industry/2026-10-06-subscription-economics-and-claude-pullback.md) | SemiAnalysis plan-meter pricing (subs 40% compute, 10% revenue); Microsoft/Meta ration Claude. |
+| inference-efficiency | [2026-10-06 Efficiency shorts](inference-efficiency/2026-10-06-efficiency-shorts.md) | Triadic linear attention, CoT length vs faithfulness, OPSFT, Pivot-SD, KeyRec, GTR, Tail-Influence Sampling. |
+| social-stream | [2026-10-06 morning](social-stream/2026-10/2026-10-06-morning.md) | Chunked prefill explainer, Leviathan indexer, measure-the-agent cluster, JEV invariance notes. |
+| media-zone | [2026-10-06](media-zone/2026-10/2026-10-06.md) | Expert-only FP4, context as cost line, decision models, harness search, NYC hearing, swarms. |
+| daily-digest | [2026-10-06](daily-digest/2026-10/2026-10-06.md) | CacheBack, Extender, QuantWM, multi-teacher OPD, LOOM, subscription economics, swarm scaling, FrugalEvo. |

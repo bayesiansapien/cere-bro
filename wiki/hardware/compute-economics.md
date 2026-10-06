@@ -359,3 +359,10 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 ## 2026-10-05: the price of a committed B300 hour
 
 [Process monitor and GPU-hour pricing (10-05)](2026-10-05-process-monitor-and-gpu-hour-pricing.md). DeepInfra DeepCluster: dedicated B300 clusters (256 to 5,000 GPUs) at $2.99/GPU-hr on 3 years and $1.98 on 5 years vs a $6.50 public-cloud reference; Batch API and Flex tiers at 20% off for latency-tolerant work. UBS: AI rack capacity ~104.5 GW/yr by 2030, Nvidia ~48% share, ASICs ~43%. SoftBank completed its final $10B tranche into OpenAI (total ~$64.6B, ~13% stake). Reflection (Nvidia-backed) reportedly committed $7B+ to compute through 2029 for an open-weight model. Commitment length is now the main lever on GPU price.
+
+
+---
+
+## 2026-10-06: subscriptions eat compute, and big customers ration
+
+[Subscription economics (10-06)](../ai-industry/2026-10-06-subscription-economics-and-claude-pullback.md). SemiAnalysis: at Anthropic subscriptions are ~10% of revenue but can use 40%+ of inference compute, cutting blended revenue per MW by ~$36M; Anthropic's $200 plan is ~5x OpenAI's in API-equivalent value at the mid tier; OpenAI halved its $200 allowance and the new $500 tier adds only 21% more Astra. Microsoft cut projected internal Claude spend ($1B+) by over a third; Meta halved Claude Code seats to 30,000. Also: Nvidia is rethinking its AI Compute Partnership (credit support to GPU clouds for a revenue cut); US hyperscalers still rely on Chinese suppliers for batteries, cooling and optical transceivers because of lead times; DayOne Data Centers filed for a Nasdaq IPO; Firmus reserved half its A$5.5B ASX IPO for existing holders; the 128GB DGX Spark rose from $3,999 to $6,950 (memory pricing reaching desktops); Toshiba will spend ~¥60B to double datacenter HDD output by FY2027.

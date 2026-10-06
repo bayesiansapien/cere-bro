@@ -2030,3 +2030,17 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-05] social-stream | 2026-10-05 morning | social-stream
 ## [2026-10-05] media-zone | Media Zone 2026-10-05 (finalized) | media-zone
 ## [2026-10-05] digest | cere-bro 2026-10-05 | daily-digest
+
+## [2026-10-06] ingest | CacheBack receiver-conditioned KV communication | huggingface
+## [2026-10-06] ingest | The Extender log-structured Transformer | huggingface
+## [2026-10-06] ingest | QuantWM 2-bit KV for world models | huggingface
+## [2026-10-06] ingest | Latent-MOPD + multi-teacher OPD diagnostics | huggingface
+## [2026-10-06] ingest | LOOM looped MoE | huggingface
+## [2026-10-06] ingest | FrugalEvo cost-aware program evolution | huggingface
+## [2026-10-06] ingest | Efficiency shorts (triadic LA, efficient CoT, OPSFT, Pivot-SD, KeyRec, GTR, TIS) | huggingface + kurate
+## [2026-10-06] ingest | Swarm scaling (Ord, Understanding AI, Import AI 475) | gmail + rss
+## [2026-10-06] ingest | Subscription economics + Microsoft/Meta Claude pullback | gmail + rss
+## [2026-10-06] ingest | SelfSearch, CorpusMap, Engineering Simplicity, Wavestone harness survey | x-feed
+## [2026-10-06] social-stream | 2026-10-06 morning | social-stream
+## [2026-10-06] media-zone | Media Zone 2026-10-06 (finalized) | media-zone
+## [2026-10-06] digest | cere-bro 2026-10-06 | daily-digest

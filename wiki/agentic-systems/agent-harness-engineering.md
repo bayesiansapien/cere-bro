@@ -702,3 +702,12 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - [GitHarness (10-05)](2026-10-05-githarness-and-harness-evolution-limits.md): version control as a harness primitive for changing requirements; a theory paper bounds what self-evolving personal harnesses can learn.
 - [Beyond Token Savings (10-05)](../inference-efficiency/2026-10-05-context-compression-beyond-token-savings.md): compaction policies are model-specific and must be scored on latency and cost.
 - Feed noise: "prompting will die in 7 months, harnesses replace it" posts were the day's most-shared harness content and carried no new evidence.
+
+
+---
+
+## 2026-10-06: harness search goes cheap, and cost becomes the metric
+
+- **[SelfSearch, CorpusMap, Engineering Simplicity, Wavestone survey (10-06)](2026-10-06-harness-search-and-agentic-search-papers.md).** Reward-free self-editing found a Codex-level harness for $4.03 (82.0% Terminal-Bench 2.1 with DeepSeek V4 Flash). CorpusMap's entity pages raise answer quality 6.4-11.7 points with 34-57% fewer input tokens. "Plan ahead" prompts worsen strategic play; simpler interfaces fix it. All 11 dissected coding agents share one seven-part harness.
+- **[FrugalEvo (10-06)](2026-10-06-frugalevo-cost-aware-program-evolution.md)** scores evolutionary search by BA-AUC (score per dollar) and lays out prompts for prefix-cache reuse.
+- **Social:** Hugging Face turned Claude Code, Codex, Hermes, Pi and opencode into RL environments; Garry Tan argued lab harnesses are incentivized to burn tokens. Shift: harnesses are now searched, trained and priced, not just hand-built.

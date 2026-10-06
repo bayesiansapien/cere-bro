@@ -186,3 +186,10 @@ Every trainable sparse-attention method this page has tracked shares one archite
 ## 2026-09-30: cut after scoring, or cut before
 
 [MassAlloc and CoWindow (09-30)](2026-09-30-massalloc-cowindow-attention.md), apparently one group's two papers, split full attention's waste two ways. **MALA** keeps every QK score and skips post-score value work for tiles with negligible normalized mass, using the online-softmax normalizer already in the kernel (1.6x faster decoding at 128K; matched-work omitted mass 0.0188% vs an oracle's 0.0182%). **CoWA** is position-defined: shared local and sink windows for all heads, complementary long-range windows per head, so full causal coverage is a property of the ensemble. No indexer to pay for (compare PISA, 09-29, which made the indexer O(N log N)). 3.0x faster decoding, 7.6x lower per-rank decode memory at 128K; duplicated windows of equal size do much worse, so coverage, not window size, is the variable. Both track full attention from 0.6B to 14B. Kernel-side twin: [Rowmax-H15 (09-30)](../hardware/2026-09-30-rowmax-softmax-approximation-blackwell.md) approximates the softmax exponent near the row max inside FlashAttention-4.
+
+---
+
+## 2026-10-06: a thin KV channel, and a 3D recurrent state
+
+- **[The Extender](2026-10-06-extender-log-structured-transformer.md):** every layer appends a 32-dim extension to a shared log that alone feeds the K and V projections; persistent attention memory is 104x smaller than MHA at 924M and RULER accuracy is higher. Exact attention with a tiny per-token footprint, a different route from MLA's per-layer latent.
+- **Triadic linear attention** ([shorts](../inference-efficiency/2026-10-06-efficiency-shorts.md)): writes key x second-key x value into a 3D state, giving E-fold more state for two extra projections; improves long-context recall for Gated DeltaNet. Joins Proteus (09-25) and ARM (09-23) on fixed-state capacity.

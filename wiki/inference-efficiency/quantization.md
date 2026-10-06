@@ -198,3 +198,11 @@ Practitioner side, same day: Mirai's codec puts **Qwen3.8-27B at 2.4 bits per we
 [WUSH-KV (10-02)](2026-10-02-wush-kv-kv-quantization.md) replaces fixed Hadamard-style rotations with a transform built from calibration covariances, proven near-optimal with the QuEST INT clipped quantizer, and runs 2-bit KV in SGLang at or above OSCAR. With PrismQuant (10-01, quantizer-aware rotation, W4A4KV4 within 0.22 points on 70B), rotations are now being fitted to the quantizer and to the data, not chosen generically. Open check: neither reports per-position retrieval, the failure mode Periodic Weak Spots (10-01) showed averages hide.
 
 Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs/2609.18587) adapts only about 100K bias parameters with majority-vote rewards (76,000x fewer than full test-time RL) and reaches 76.67% on MATH-500 with Qwen2.5-7B.
+
+
+---
+
+## 2026-10-06: protect attention selection at 2 bits, and quantize only the experts
+
+- **[QuantWM (10-06)](2026-10-06-quantwm-2bit-kv-world-models.md):** in video world models, 2-bit Keys flip which past tokens a query selects. Query-sensitivity-aware clustering (QSAC) plus principal-subspace attention compensation (PSAC) keep selection stable; up to 6.2x KV compression. The third 2-bit KV recipe this week, and the first to target selection rather than reconstruction error.
+- **Practitioner:** Red Hat AI released an NVFP4 checkpoint of the 125B MoE Qwen3.8-Flash-Next with only experts in FP4 and attention, embeddings and router in BF16, ready for vLLM. The open-source Strata engine claims the same model runs on a 12GB GPU with 32GB RAM by offloading experts to host memory (100-140 tok/s on an RTX 3090, unverified). Expert-only precision allocation is now the default shipping recipe, matching the 09-23 entry's per-component allocation thesis.
