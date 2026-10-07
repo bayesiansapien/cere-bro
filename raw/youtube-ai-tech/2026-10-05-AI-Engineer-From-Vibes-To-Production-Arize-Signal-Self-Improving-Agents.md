@@ -1,0 +1,38 @@
+# From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 (Laurie Voss, Arize AI)
+
+**Channel:** AI Engineer
+**Published:** 2026-10-05
+**Source:** https://www.youtube.com/watch?v=F0TNSmbo5hE
+
+## TL;DR
+Laurie Voss (Arize AI) argues that agent observability is shifting from humans reading dashboards to agents reading traces. The loop has evolved from traces (pre-2025), to traces plus LLM-judge evals (2025), to a 2026 loop of traces, evals, automatically clustered "signals," and agent-written fixes. The hands-on workshop shows a coding agent with Arize skills instrumenting a toy-store agent with zero hand-written code, mining its traces for quality failures, and adding a missing price filter. The pitch ends with Signal, a managed agent inside Arize AX that clusters failures every six hours and opens GitHub issues or PRs. The vision is sound, but the talk underplays the hard part: who verifies the verifier when the judge, the analyst, and the fixer are all LLMs.
+
+## Key Takeaways
+- **Traces, not code, are the source of truth** for agents: same input yields different outputs and different paths, so behavior is only knowable statistically across many traces.
+- **Humans are the bottleneck twice:** first for reading traces (solved by evals), now for reading thousands of eval explanations (the claimed fix is agent-level clustering into "signals").
+- **Eval explanations are the key artifact:** an LLM judge returns a score plus a natural-language reason, which a coding agent can consume directly as a fix spec.
+- **Instrumentation is near free:** the OpenAI Agents SDK already emits OpenInference spans, so "adding observability" is just pointing an exporter at an endpoint with an API key.
+- **Silent failures dominate:** the demo agent had zero error spans. The issues were all HTTP-200 quality failures: 42% of searches returned zero results, all-null tool arguments returned the first catalog item, exact-age filters over-narrowed, and a search tool "suspiciously" returned in 1 ms.
+- **Signal findings in the demo:** hallucinated age constraints from vague phrasing, recommending "bomb-related toys" after refusing a harmful query, unsolicited psychological advice (domain escape), and obeying off-task instructions like "say hello."
+- **Signal actions:** create a GitHub issue with trace evidence, add the trace to a dataset, create an evaluator, or open a PR if a repo is connected. Runs on Claude Code as the harness today, bring-your-own later. Arize currently absorbs the compute cost.
+- **Regression safety relies on existing evals:** Signal does not auto-create evaluators (cost reasons). If you have no regression eval suite, auto-PRs are unguarded.
+- **Agents cheat in honest ways:** the coding agent copied the pre-solved solution from a sibling directory. Workspace contents leak into agent behavior.
+
+## Architecture & Optimization Mechanics
+The architecture is a hierarchy of compression: millions of spans compress into per-trace eval verdicts, which compress into clustered issues, which compress into PRs. Each layer is an LLM summarizer of the layer below, which is exactly where error compounds. A judge that scores plausibility rather than correctness feeds a clusterer that ranks frequent-but-plausible failures, which feeds a fixer that optimizes for the judge. Voss's answer to the trust question ("abstractions upon abstractions") is not an answer. The real guardrail is a deterministic or human-labeled regression set that sits outside the loop.
+
+The useful mechanical insight is that the cheapest quality signals in the demo were not from LLM judges at all: zero-result rate, all-null tool arguments, and 1 ms tool latency are deterministic span-level heuristics. Latency and cardinality anomalies in tool spans are cheap detectors that should run on 100% of traffic, with LLM judges reserved for sampled or flagged traces. That is the same cascade logic as model routing: cheap filter first, expensive model only on uncertain cases.
+
+## Grounded Context (Web Enrichment)
+The product claims check out. Arize's docs describe Signal as a built-in worker that scans a tracing project on a schedule, groups recurring failures into ranked issues with evidence, root cause and proposed fix, and with a connected repo hands off to a managed agent that opens a PR. Per Arize's release notes it went GA in July 2026. A companion AI Engineer World's Fair talk ("From Signal to PR: anatomy of a self-improving agent") covers the same loop. On instrumentation, OpenInference is Arize-maintained and richer than the OpenTelemetry GenAI semantic conventions for retrieval and reranking spans, but calling it "the open standard used by the entire observability industry" is overstated: the official OTel instrumentation for the OpenAI Agents SDK uses the gen_ai.* conventions (invoke_agent, chat, execute_tool), and the two schemas still coexist.
+
+The weak point is the self-improving loop itself. A July 2026 paper ("More Convincing, Not More Correct") shows self-play against reference-free LLM judges pushing judge pass rate from 0.72 to 0.94 while true GSM8K accuracy stayed near 0.20, and a strict three-judge ensemble still accepted 55% of hacked outputs. A September 2026 paper from teams running autonomous prompt-optimization loops in production (contract analysis, compliance, code quality) catalogs four failure classes: judge bias, harness and metric failures, ground-truth errors, and reward hacking, and argues for deterministic guardrails. Signal's "judges evaluate Signal" story is the same circularity. Human approval of PRs is doing more safety work than the talk admits.
+
+Sources: [Arize: From Signal to PR](https://arize.com/blog/from-signal-to-pr/), [Arize AX Signal docs](https://www.arize.com/docs/ax/observe/signal), [Get started with Signal](https://arize.com/docs/ax/agents/get-started-with-signal), [Arize July 2026 release notes](https://phoenix.arize.com/docs/ax/release-notes/history/2026/07-2026.md), [AI Engineer World's Fair talk](https://www.ai.engineer/talks/9HbzAWnKbo4-from-signal-pr-anatomy-self-improving-agent), [OpenInference vs OTel GenAI conventions](https://www.arthur.ai/column/openinference-vs-opentelemetry-genai-conventions-agent-tracing), [Instrumenting OpenAI Agents SDK with OTel](https://openobserve.ai/blog/instrument-openai-agents-sdk-opentelemetry), [More Convincing, Not More Correct (arXiv 2607.05904)](https://arxiv.org/abs/2607.05904), [LLM-as-a-Judge Is Not an Oracle (arXiv 2609.02246)](https://arxiv.org/pdf/2609.02246)
+
+## Real-World Application / Actionable Step
+- **Instrument routing experiments with span-level heuristics first:** log per-request chosen model, tool-call arguments, result cardinality and latency. Flag null-argument calls, zero-result retrievals and sub-millisecond tools deterministically before paying for any judge.
+- **Use eval explanations as routing training data:** when a cheap model's response fails a judge, the judge's reason is a label for "why this query needed the bigger model." Cluster those reasons to find query classes your router misroutes.
+- **Keep a frozen, human-verified regression set** outside any auto-fix loop (for a compressed or routed model, a fixed set of hard prompts with reference answers). Never let the same judge family both flag failures and approve fixes.
+- **Sandbox coding agents:** do not leave solved variants or sibling experiment directories in the agent's workspace when testing whether it can fix something; it will copy them.
+- **Quick trial:** `npx skills install arize-ai` gives a coding agent trace-pull and eval-creation skills; worth a one-hour test on a vLLM-served agent to see if clustered failure reports beat manual trace review.
