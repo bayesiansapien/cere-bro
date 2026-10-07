@@ -253,3 +253,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## 2026-10-03: RL as sharpening, and sampling as the substitute
 
 [PPT and Sharpening Tax (10-03)](2026-10-03-sampling-vs-rl-ppt-sharpening-tax.md). **Sharpening Tax**: base models with a light harness often beat their post-trained versions at pass@K on agentic tasks; RL pushes tasks to always-solved or never-solved, buying consistency at the cost of coverage (present in most of 42 cases). **PPT** (HF + Kurate cross-source) recovers sharpening at inference with parallel-tempered power sampling and reports beating RL-post-trained models. With Finetuning with Sampling ([10-03](../inference-efficiency/2026-10-03-distillation-dynamics-and-sampling.md)), three entries in one week treat RL's main effect as distribution sharpening that sampling can reproduce or reshape. Counterpoint: RIDE (10-02) treats the RL residual as new signal worth extrapolating.
+
+## 2026-10-07: sharpening, amortized; RL memory and compute as the bottleneck
+
+- [OPPD and base-model cues (10-07)](../inference-efficiency/2026-10-07-oppd-power-distillation-and-base-model-cues.md). OPPD distils power sampling into one generation and beats GRPO without reference answers. Forcing ".\n\nOkay" lifts Olmo-3-7B MATH-500 from 42% to 78%; RL mostly raises the probability of such cues. Third paper in five days reading RL as sharpening of latent behaviour.
+- [LoGRA (10-07)](2026-10-07-logra-low-rank-gradient-rl.md): random-projection gradient sketches cut RL memory up to 45.7%; 27B RL on one 8-GPU node. [RL-Kernel](../hardware/2026-10-07-fbtriton-tbe-rl-kernel-coco.md) attacks the kernel layer. Reflection's Beam spent 10,500 GB300s on RL, more than pretraining.

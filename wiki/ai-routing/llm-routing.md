@@ -808,3 +808,13 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Planner/executor split in search:** [FrugalEvo](../agentic-systems/2026-10-06-frugalevo-cost-aware-program-evolution.md) uses a strong model to propose and a cheap one to implement, beating ~$50 systems for under $2.
 - **Routing for a value objective:** Collective Bias Mitigation routes and organizes several LLMs into debate or committee topologies to cut bias (age-bias score 0.25 to 0.10), trading against inference cost ([shorts](../inference-efficiency/2026-10-06-efficiency-shorts.md)).
 - **Decision models keep spreading:** llm-d's Semantic Classifier (a lightweight routing classifier, explicitly not a guardrail) was presented at vLLM Office Hours #58; a practitioner write-up on training choice-order invariance into JEV-style System One models circulated on X. The biomedical SBERT2S1 paper ([arXiv 2610.02486](https://arxiv.org/abs/2610.02486)) finds the open RLCD recipe for System One models trails cross-entropy by 2.5-3.0 points because its reward normalization inflates gradient noise 3.6-15x.
+
+---
+
+## 2026-10-07: a frontier lab ships the decision primitive, and the audits arrive
+
+- **[OpenAI Decisions API + five decision-model papers (10-07)](2026-10-07-openai-decisions-api-and-decision-model-audits.md).** OpenAI's endpoint returns yes/no probabilities, category picks or ratings ~10x faster than the Responses API at $0.10/M input. The interface this page has tracked since Jev (09-16) is now first-party at the largest API vendor.
+- **Works:** SearchJev gates search-agent decisions (5.2x faster, 41-74% lower calibration error, BrowseComp-Plus 45% to 54%); LLM-as-Jev shows a stock 4B LLM read through option-ID logits matches dedicated clones with no training.
+- **New failure axis:** *option-label bias*. Probabilities follow the option's label, not the rule written in its definition (definitions deleted, accuracy unchanged; one prompt-format line flips it). Routing tables whose route names hint at the answer are affected.
+- **Evidence gap:** a SoK of 139 decision-engine paper families finds 50 claim a time budget and 4 measure it. In Open RAN, Jev meets a 1 s budget on 99.8% of calls vs 17.9% and 0% for two hosted LLMs.
+- **Shift:** the question moves from "is a decision model cheaper?" (settled) to "is it specified and evaluated correctly?". SHIFT (10-07) adds per-query harness routing with an explicit execution-cost term ([harness internalization](../agentic-systems/2026-10-07-harness-internalization-had-rsr-ascent.md)).

@@ -2044,3 +2044,13 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-06] social-stream | 2026-10-06 morning | social-stream
 ## [2026-10-06] media-zone | Media Zone 2026-10-06 (finalized) | media-zone
 ## [2026-10-06] digest | cere-bro 2026-10-06 | daily-digest
+## [2026-10-07] ingest | OpenAI Decisions API + five decision-model papers | rss + huggingface
+## [2026-10-07] ingest | Periscope, Looped Models Done Right II / ALoDLM / LiFT, LoGRA | huggingface
+## [2026-10-07] ingest | OPPD + base-model reasoning cues | huggingface + x-feed
+## [2026-10-07] ingest | HAD, RSR, ASCENT, self-feedback TTT, SHIFT, PluginRSI | x-feed + huggingface
+## [2026-10-07] ingest | FBTriton TBE, RL-Kernel, Coco | x-feed + repost
+## [2026-10-07] ingest | Open MoE release day, cost switching, OpenAI math manuscripts | rss + gmail
+## [2026-10-07] ingest | Efficiency shorts (HLA-WM, Prism, CANOPY, agentic retrieval cost, PAIR) | huggingface
+## [2026-10-07] social-stream | 2026-10-07 morning | social-stream
+## [2026-10-07] media-zone | Media Zone 2026-10-07 (finalized) | media-zone
+## [2026-10-07] digest | cere-bro 2026-10-07 | daily-digest

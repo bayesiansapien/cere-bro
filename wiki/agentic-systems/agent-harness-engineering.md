@@ -711,3 +711,10 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **[SelfSearch, CorpusMap, Engineering Simplicity, Wavestone survey (10-06)](2026-10-06-harness-search-and-agentic-search-papers.md).** Reward-free self-editing found a Codex-level harness for $4.03 (82.0% Terminal-Bench 2.1 with DeepSeek V4 Flash). CorpusMap's entity pages raise answer quality 6.4-11.7 points with 34-57% fewer input tokens. "Plan ahead" prompts worsen strategic play; simpler interfaces fix it. All 11 dissected coding agents share one seven-part harness.
 - **[FrugalEvo (10-06)](2026-10-06-frugalevo-cost-aware-program-evolution.md)** scores evolutionary search by BA-AUC (score per dollar) and lays out prompts for prefix-cache reuse.
 - **Social:** Hugging Face turned Claude Code, Codex, Hermes, Pi and opencode into RL environments; Garry Tan argued lab harnesses are incentivized to burn tokens. Shift: harnesses are now searched, trained and priced, not just hand-built.
+
+## 2026-10-07: the harness goes back into the weights
+
+- **[HAD, RSR, ASCENT (10-07)](2026-10-07-harness-internalization-had-rsr-ascent.md).** Three papers consolidate harness or deployment experience into weights through a filtered teacher signal. RSR rewrites wins from three harnesses into 11,094 general-harness trajectories (Terminal-Bench 2 pass@3 57.0% to 74.2%; raw-trajectory SFT 53.4%). HAD trains a small student on only what the harness cannot supply. ASCENT learns online from verified runs.
+- **Counter-signal:** self-generated feedback destabilizes test-time training (worse on real text at 125M-3B); a frozen generator removes 98% of the damage. Every working recipe above has a frozen or filtered check.
+- **Search:** SHIFT builds a harness per query with a learned value function (accuracy minus execution cost), +7.2 points over 17 baselines, cheap mode at -32% tokens. PluginRSI evolves reusable plugins that transfer across solver models.
+- **Shift:** open problem 0 ("does the harness or the model own the capability?") now has a third answer: the harness discovers, the model keeps.

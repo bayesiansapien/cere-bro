@@ -334,3 +334,8 @@ To get bitwise reproducibility across heterogeneous commodity hardware, the pape
 - [Hardware-aware CUTLASS selection (10-05)](2026-10-05-hardware-aware-cutlass-kernel-selection.md), Kurate cs.LG. Adds static estimates of each candidate's hardware behavior to config features; 4.9M-kernel dataset; learning-to-rank cuts selection regret up to 40% vs structural features and 64.2% vs NVIDIA's GEMM heuristics, with data-efficient transfer across precision and epilogue fusion. Third selection-cost result after Helion's AOT autotuner (10-03) and TLX JFA (10-02): the field is converging on "choosing among equivalent kernels" as the expensive step.
 - DeepGEMM resurfaced on the feed (JIT-compiled FP8 GEMM for Hopper and Blackwell, MoE grouped GEMM, up to 1350+ FP8 TFLOPS claimed); not new, but still the practitioner reference point.
 - Stanford MS&E 319 "Efficient Generative Language Models" (Autumn 2026) posted its first lecture notes: MoE, sparse attention, quantization, speculative decoding.
+
+## 2026-10-07: Triton beats hand-CUDA in production rec-sys, and RL gets its own kernels
+
+- [FBTriton TBE, RL-Kernel, Coco (10-07)](2026-10-07-fbtriton-tbe-rl-kernel-coco.md). Meta's FBTriton Table-Batched Embedding kernels beat legacy CUDA (1.28x forward, 2x backward). RL-Kernel (FlashInfer-based; sampling, prefix-shared attention, TMA kernels) targets bitwise train-inference consistency for GRPO/PPO, claiming up to 163x on hot ops. Google's Coco grounds TPU co-design agents in SQL over simulator sweeps.
+- OpenAI's math drop claims a matrix-multiplication exponent of ~2.25 (from AlphaEvolve's ~2.3712); a galactic bound, no practical GEMM impact.

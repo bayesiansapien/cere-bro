@@ -107,3 +107,7 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 ## 2026-10-06: per-loop routers, and 9 to 12 stable loops
 
 [LOOM (10-06)](2026-10-06-loom-looped-moe-beyond-twice.md). Looped MoE stalls at two loops because hidden-state variance grows each pass and routers keep picking the same experts. Fixes: scaled residual updates, input re-injection each loop, per-loop routers, and a looping residual. Stable to 9-12 loops at 100M-1.7B; 700M near-iso-FLOP best at 5 loops (PPL 18.36 to 16.54); 1.7B peaks at 9 loops (zero-shot 42.4% to 47.7%, not FLOP-matched). **Contradiction with Foil (10-04)**, which shares routers across passes and flattens the expert pool instead: LOOM says shared routers collapse. Possibly reconciled by Foil's larger pool; unresolved. Fourth looped-MoE paper in five days; still no latency numbers.
+
+## 2026-10-07: fixed points make loops cheap everywhere
+
+[Looped Models Done Right II, ALoDLM, LiFT (10-07)](2026-10-07-looped-fixed-points-alodlm-lift.md). Train loops to converge to fixed points (learned depth prior + orthogonal input injection) and four costs drop: truncated backprop, terminal KV sharing (3x smaller cache at equal quality, 1.6B), a 1.79x faster-prefill student, and 2x faster RL gradients from saved states. ALoDLM gives diffusion LMs per-token loop counts and beats matched AR baselines at 1.7B and 8B; LiFT loops a DiT core for images (-3.34 FID vs DiT-XL/2 with ~60% fewer params). Foil (10-04) re-listed on HF. The LOOM-vs-Foil router contradiction (10-06) is still untested head-to-head.
