@@ -111,3 +111,8 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 ## 2026-10-07: fixed points make loops cheap everywhere
 
 [Looped Models Done Right II, ALoDLM, LiFT (10-07)](2026-10-07-looped-fixed-points-alodlm-lift.md). Train loops to converge to fixed points (learned depth prior + orthogonal input injection) and four costs drop: truncated backprop, terminal KV sharing (3x smaller cache at equal quality, 1.6B), a 1.79x faster-prefill student, and 2x faster RL gradients from saved states. ALoDLM gives diffusion LMs per-token loop counts and beats matched AR baselines at 1.7B and 8B; LiFT loops a DiT core for images (-3.34 FID vs DiT-XL/2 with ~60% fewer params). Foil (10-04) re-listed on HF. The LOOM-vs-Foil router contradiction (10-06) is still untested head-to-head.
+
+
+## 2026-10-08: a field guide to "looped"
+
+AlphaSignal's explainer ([efficiency shorts](../inference-efficiency/2026-10-08-efficiency-shorts.md)) separates depth, time and flow loops. Nanbeige4.2-3B (Apache 2.0, 22 layers x 2 passes) costs ~2x block compute and 2x KV cache for a 4B file at ~75% of standard token efficiency; an independent 140M test of the Recurrent Looped Transformer lost to a plain transformer at ~20x the GPU-hours. Pachocki (OpenAI): Astra's computation-graph depth is within 2x of GPT-4. Practical rule: budget a looped model's memory by applications, not parameters, and pair it with terminal KV sharing (10-07) or Hybrid Latent Attention (10-07).

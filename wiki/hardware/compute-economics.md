@@ -370,3 +370,8 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 ## 2026-10-07: switching on cost, and RL as the new sink
 
 [Open MoE release day and cost switching (10-07)](../ai-industry/2026-10-07-open-moe-release-day-and-cost-switching.md). Harvey's margin went from ~50% to -50% on 20x token growth and recovered after moving to a Kimi K3-based model; open models run 40% of AT&T's AI workloads; Anthropic ends ~15% discounts past contracted volume. Beam's RL used 10,500 GB300s vs 6,144 for pretraining. SpaceX seeks $40B (Apollo-led) for Nvidia chips; Nvidia signed $140B+ of deals in two months.
+
+
+## 2026-10-08: the cheap tier reprices and routing moves on-device
+
+[Cheap-tier reprice (10-08)](../ai-industry/2026-10-08-cheap-tier-reprice-and-math-drop-grading.md). Claude Haiku 5.5 at $0.10/$0.50 per M (to 100K; 5x above), matching GPT-6 Luna, with ~1.25x more tokens per prompt from a new tokenizer; Sonnet 5.5 cache reads halved; monthly API credits for Max/Team. Microsoft moves routine Copilot work to a 3-bit on-device model on Nvidia RTX Spark PCs (128GB unified memory), shifting inference cost onto customer hardware. Rosenblatt: Nebius has ~250 MW active of 3.5 GW contracted. Arena: a cross-vendor router cost 38% more than one cheap model at equal quality ([routing page](../ai-routing/2026-10-08-routing-graded-jev-router-local-routing.md)).

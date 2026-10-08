@@ -718,3 +718,10 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Counter-signal:** self-generated feedback destabilizes test-time training (worse on real text at 125M-3B); a frozen generator removes 98% of the damage. Every working recipe above has a frozen or filtered check.
 - **Search:** SHIFT builds a harness per query with a learned value function (accuracy minus execution cost), +7.2 points over 17 baselines, cheap mode at -32% tokens. PluginRSI evolves reusable plugins that transfer across solver models.
 - **Shift:** open problem 0 ("does the harness or the model own the capability?") now has a third answer: the harness discovers, the model keeps.
+
+
+## 2026-10-08: the harness sets the bill, not the score
+
+- **[What a harness buys (10-08)](2026-10-08-harness-buys-tokens-and-stopping-rules.md).** Same model, three production harnesses, reruns for noise: pass rates within 5 points on 447 tasks; harness swaps flip as many hard tasks (13%) as reruns. Cost per task differs up to 3x, set by the preamble resent every step times step count. 447 tasks resolve ~5 points, coarser than many claimed harness gains, so single-run gains from 10-06 (SelfSearch, SHIFT) should be read as unconfirmed.
+- **Where harnesses do matter:** an enforced stop rule makes agents stop on evidence where prompts fail (Judged Useless, Queried Anyway); JAZ passes prompt and history as variables and beats Letta and ACE at under half the cost; HERMES Dev-Primitives cut Terminal-Bench 4.0 cost 26.2%; GUI-HARVEST evolves GUI harnesses (+12.3 OSWorld-Verified).
+- **Training side:** Salesforce's CLIFT ([arXiv 2610.06829](https://arxiv.org/abs/2610.06829)) turns frontier-judge feedback into a reusable bank of self-verification questions; a 31B Gemma-4 web agent hits 74.6% on WebArena Infinity with no judge at deployment. Scale AI open-sourced AgentEnv, its RL environment framework.

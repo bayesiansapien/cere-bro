@@ -249,3 +249,9 @@ Second, and mildly deflationary: **if weight-space similarity alone nearly match
 ## 2026-09-27: depth pruning by distillation
 
 **[TWT (09-27)](2026-09-27-twt-smaller-transformer.md)** (arXiv 2609.20100) prunes depth without deleting layers: it detects contiguous "phases" of near-identical ViT layers and trains one surrogate layer per phase to map the phase's input to its output. About half the depth on DINOv2 with close-to-original accuracy, and parity or better on several histopathology tasks. It is the structured-pruning counterpart to [FlashLoop (09-27)](../llms-foundation-models/2026-09-27-flashloop-lazy-updates.md), which removes redundant computation across the loops of a looped LM at inference time. Open: whether decoder LLMs have phases as clean as ViTs, and whether phases should be input-dependent.
+
+
+## 2026-10-08: prune for decode only, and learn the cut globally
+
+- **[SlimWise (10-08)](2026-10-08-slimwise-phase-decoupled-expert-pruning.md).** Full MoE for prefill, 50%-expert-pruned MoE for decode reading the same KV cache; 1.81x decode throughput on Qwen3.6-35B-A3B in vLLM. Accuracy can hide pruning-induced length changes. Stepped MoE offers 1-4B active from one file; agentic RL with operation-aligned expert routing gains 10+ points.
+- **[LSP (10-08)](2026-10-08-lsp-learnable-subspace-projections.md).** Low-rank projectors trained jointly against output KL, not per-layer rules. Llama-2-7B at -70%: 10.9 PPL vs 13.3 for the best baseline; tied Q/K/V factors give a shared KV latent (13.5x less weight+KV memory at 128K). Fills the wall-clock gap flagged for XMerge and ACE: 1.6x faster decode at small batch.

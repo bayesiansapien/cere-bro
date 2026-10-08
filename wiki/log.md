@@ -2054,3 +2054,15 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-07] social-stream | 2026-10-07 morning | social-stream
 ## [2026-10-07] media-zone | Media Zone 2026-10-07 (finalized) | media-zone
 ## [2026-10-07] digest | cere-bro 2026-10-07 | daily-digest
+## [2026-10-08] ingest | TRACE, TRIAGE, NeMo-DCR (FP4 RL and delta refits) | huggingface
+## [2026-10-08] ingest | Routing graded: Arena Jev Router eval, Copilot local routing, Haiku 5.5 | x-feed + rss
+## [2026-10-08] ingest | SlimWise, Stepped MoE, agentic expert selection | huggingface
+## [2026-10-08] ingest | LSP learnable subspace projections | huggingface
+## [2026-10-08] ingest | OPD reliability: cross-tokenizer OPD, DiffGate, PivotOPD, OPD before RL | huggingface + x-feed
+## [2026-10-08] ingest | Efficiency shorts (UNREAL, HLA, DeCoPrune, speculative tools, looped guide) | huggingface + kurate + x-feed
+## [2026-10-08] ingest | What a harness buys, Judged Useless, JAZ, HERMES, GUI-HARVEST, EVISKILL | x-feed + huggingface
+## [2026-10-08] ingest | Tools erode refusals, SafeActBench, agent brand bias | x-feed + huggingface
+## [2026-10-08] ingest | Cheap-tier reprice and math-drop grading | rss + gmail + x-feed
+## [2026-10-08] social-stream | 2026-10-08 morning | social-stream
+## [2026-10-08] media-zone | Media Zone 2026-10-08 (finalized) | media-zone
+## [2026-10-08] digest | cere-bro 2026-10-08 | daily-digest

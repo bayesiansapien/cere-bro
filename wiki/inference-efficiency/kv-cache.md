@@ -705,3 +705,12 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[Looped models at fixed points (10-07)](../llms-foundation-models/2026-10-07-looped-fixed-points-alodlm-lift.md).** Terminal KV sharing: store K/V from the last loop only. At 1.6B a learned depth prior with a 3x smaller cache matches fixed-depth with the full cache.
 - **[HLA-WM (efficiency shorts)](2026-10-07-efficiency-shorts.md).** Retrieval-addressable linear-attention state: 12x less history memory than full KV at 60 s of video, <=1.6% throughput loss.
 - **Industry:** NVIDIA pitched Dynamo's cluster-wide KV lookup as a way to skip recomputation; Uber credits caching pushed down to sub-agents for flat token costs.
+
+
+## 2026-10-08: the cache in RL rollout, in latent form, and in storage
+
+- **FP4 KV cache inside RL rollout:** [TRACE (10-08)](2026-10-08-fp4-rl-trace-triage-nemo-dcr.md) runs rollout with FP4 KV and matches BF16 RL quality.
+- **Shared latent from weight compression:** [LSP (10-08)](2026-10-08-lsp-learnable-subspace-projections.md) ties Q/K/V projectors so the cache stores one narrow latent; 13.5x less weight+KV memory at 128K.
+- **Cache handoff across model variants:** [SlimWise (10-08)](2026-10-08-slimwise-phase-decoupled-expert-pruning.md) lets a pruned decoder read the full model's prefill cache with no conversion.
+- **Shorts:** DeCoPrune prunes 85% of video-diffusion KV (4x faster); Nanbeige4.2's two-pass loop doubles the KV cache ([efficiency shorts](2026-10-08-efficiency-shorts.md)).
+- **Economics:** prefix caching is why routing can cost more than not routing ([routing page](../ai-routing/2026-10-08-routing-graded-jev-router-local-routing.md)); Anthropic halved Sonnet 5.5 cache reads; an investor note projects SanDisk data-center revenue ~30x by 2028 on agent KV cache moving to enterprise SSDs (forecast, not guidance).

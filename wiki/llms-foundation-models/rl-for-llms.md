@@ -258,3 +258,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 
 - [OPPD and base-model cues (10-07)](../inference-efficiency/2026-10-07-oppd-power-distillation-and-base-model-cues.md). OPPD distils power sampling into one generation and beats GRPO without reference answers. Forcing ".\n\nOkay" lifts Olmo-3-7B MATH-500 from 42% to 78%; RL mostly raises the probability of such cues. Third paper in five days reading RL as sharpening of latent behaviour.
 - [LoGRA (10-07)](2026-10-07-logra-low-rank-gradient-rl.md): random-projection gradient sketches cut RL memory up to 45.7%; 27B RL on one 8-GPU node. [RL-Kernel](../hardware/2026-10-07-fbtriton-tbe-rl-kernel-coco.md) attacks the kernel layer. Reflection's Beam spent 10,500 GB300s on RL, more than pretraining.
+
+
+## 2026-10-08: the RL bill gets cut at three stages
+
+[FP4 RL and delta refits (10-08)](../inference-efficiency/2026-10-08-fp4-rl-trace-triage-nemo-dcr.md): TRACE (rollout-guided FP4 QAT, up to 5.4x rollout), TRIAGE (direction-aware NVFP4 stabilization, 2.3x), NeMo-DCR (bit-exact XOR delta refits: 1T cross-region refit 87.5 min to 150 s, since ~1% of weights change per step). Continues 10-07 (Beam's RL used more GPUs than pretraining; LoGRA cut RL memory 45.7%). Also: [DiffGate and PivotOPD (10-08)](../inference-efficiency/2026-10-08-opd-supervision-reliability-cluster.md) gate teacher guidance inside RL by outcome and by pivotal mistake; Rationale-Guided Policy Optimization ([arXiv 2610.07342](https://arxiv.org/abs/2610.07342)) is the one paper on both HF and this week's (unscored) Kurate list; HuatuoGPT-3 ([arXiv 2610.05966](https://arxiv.org/abs/2610.05966)) does domain adaptation with RL only, from base models.
