@@ -1,0 +1,101 @@
+{
+  "_comment": "AI lab watcher. Three mechanisms: (1) official RSS/Atom feeds, (2) page watch for labs without a feed (link diff against state; 'browser': true renders JS/bot-walled pages with headless Chromium), (3) Hugging Face Hub org watch for new open-weight model repos (model card captured). Add a lab by adding an entry; no code change needed.",
+  "lookback_hours": 72,
+  "max_article_chars": 10000,
+  "max_new_per_source": 15,
+  "feeds": {
+    "OpenAI": "https://openai.com/news/rss.xml",
+    "Google DeepMind": "https://deepmind.google/blog/rss.xml",
+    "Google Research": "https://research.google/blog/rss/",
+    "Google AI (Keyword)": "https://blog.google/technology/ai/rss/",
+    "Google Developers": "https://developers.googleblog.com/feeds/posts/default",
+    "Meta Engineering": "https://engineering.fb.com/feed/",
+    "Microsoft Research": "https://www.microsoft.com/en-us/research/feed/",
+    "NVIDIA Blog": "https://blogs.nvidia.com/feed/",
+    "NVIDIA Developer": "https://developer.nvidia.com/blog/feed/",
+    "Apple ML Research": "https://machinelearning.apple.com/rss.xml",
+    "AWS Machine Learning": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "Amazon Science": "https://www.amazon.science/index.rss",
+    "Mistral AI": "https://mistral.ai/news/rss",
+    "Qwen": "https://qwenlm.github.io/blog/index.xml",
+    "Ai2": "https://allenai.org/rss.xml",
+    "Together AI": "https://www.together.ai/blog/rss.xml",
+    "IBM Research": "https://research.ibm.com/rss",
+    "Salesforce AI Research": "https://www.salesforce.com/blog/category/ai-research/feed/",
+    "Thinking Machines": "https://thinkingmachines.ai/blog/index.xml"
+  },
+  "pages": {
+    "Anthropic News": {
+      "url": "https://www.anthropic.com/news",
+      "link_regex": "^/news/[a-z0-9-]+$"
+    },
+    "Anthropic Research": {
+      "url": "https://www.anthropic.com/research",
+      "link_regex": "^/research/(?!team/)[a-z0-9-]+$"
+    },
+    "Anthropic System Cards": {
+      "url": "https://www.anthropic.com/system-cards",
+      "link_regex": "^https://www-cdn\\.anthropic\\.com/.+\\.pdf$",
+      "kind": "system_card"
+    },
+    "Claude Blog": {
+      "url": "https://claude.com/blog",
+      "link_regex": "^https://claude\\.(dev|com)/blog/(?!category/)[a-z0-9-]+/?$"
+    },
+    "xAI News": {
+      "url": "https://x.ai/news",
+      "link_regex": "^https://x\\.ai/news/[a-z0-9-]+$",
+      "browser": true
+    },
+    "Meta AI Blog": {
+      "url": "https://ai.meta.com/blog/",
+      "link_regex": "^https://ai\\.meta\\.com/blog/[a-z0-9-]+/?$",
+      "browser": true
+    },
+    "Google DeepMind Model Cards": {
+      "url": "https://deepmind.google/models/model-cards/",
+      "link_regex": "(model-cards/[a-z0-9-]+|storage\\.googleapis\\.com/.+\\.pdf)",
+      "browser": true,
+      "kind": "system_card"
+    },
+    "DeepSeek News": {
+      "url": "https://api-docs.deepseek.com/news/news",
+      "link_regex": "^/news/news\\d+$"
+    },
+    "Cohere Blog": {
+      "url": "https://cohere.com/blog",
+      "link_regex": "^/blog/(?!tag/)[a-z0-9-]+$"
+    },
+    "Stability AI News": {
+      "url": "https://stability.ai/news-updates",
+      "link_regex": "^/news-updates/[a-z0-9-]+$"
+    }
+  },
+  "hf_orgs": [
+    "deepseek-ai",
+    "Qwen",
+    "meta-llama",
+    "facebook",
+    "mistralai",
+    "google",
+    "microsoft",
+    "nvidia",
+    "openai",
+    "xai-org",
+    "moonshotai",
+    "zai-org",
+    "MiniMaxAI",
+    "allenai",
+    "ibm-granite",
+    "CohereLabs",
+    "tencent",
+    "baidu",
+    "stepfun-ai",
+    "LiquidAI",
+    "ByteDance-Seed",
+    "apple",
+    "HuggingFaceTB",
+    "inclusionAI",
+    "XiaomiMiMo"
+  ]
+}

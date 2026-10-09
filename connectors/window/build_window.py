@@ -56,6 +56,7 @@ SOURCES = {
     "bookmarks":   ("twitter/bookmarks", r"\.md$", 48),
     "kurate":      ("kurate", r"\.md$", 200),       # weekly leaderboards
     "dair":        ("dair", r"\.md$", 200),         # DAIR Academy papers via MCP (weekly)
+    "labs":        ("labs", r"-labs\.md$", 30),     # AI lab feeds/pages/system cards/HF repos
     "reddit":      ("reddit", r"\.md$", 30),
     "youtube":     ("youtube", r"\.json$", 30),
     "linkedin":    ("linkedin", r"\.json$", 48),

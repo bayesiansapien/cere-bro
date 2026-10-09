@@ -42,6 +42,10 @@ python3 "$REPO/connectors/twitter/farmer.py" --feed-only >> "$LOG" 2>&1 || \
 python3 "$REPO/connectors/youtube/farmer.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] YouTube farmer failed — continuing." >> "$LOG"
 
+# AI lab releases (feeds, lab pages, system cards, new HF model repos).
+python3 "$REPO/connectors/labs/farmer.py" >> "$LOG" 2>&1 || \
+  echo "[$TODAY $(date +%H:%M:%S)] Labs watcher failed — continuing." >> "$LOG"
+
 # Rank the freshly-captured X feed (engagement-normalized, grift-filtered).
 python3 "$REPO/connectors/twitter/rank_feed.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] Feed ranker failed — continuing." >> "$LOG"
