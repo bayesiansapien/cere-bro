@@ -55,6 +55,7 @@ SOURCES = {
     "x_feed":      ("twitter/feed", r"-ranked\.json$", 20),
     "bookmarks":   ("twitter/bookmarks", r"\.md$", 48),
     "kurate":      ("kurate", r"\.md$", 200),       # weekly leaderboards
+    "dair":        ("dair", r"\.md$", 200),         # DAIR Academy papers via MCP (weekly)
     "reddit":      ("reddit", r"\.md$", 30),
     "youtube":     ("youtube", r"\.json$", 30),
     "linkedin":    ("linkedin", r"\.json$", 48),
