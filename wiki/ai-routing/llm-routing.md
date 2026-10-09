@@ -826,3 +826,12 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Why:** a router pays a per-call toll (classification latency) and, when it switches model mid-session, loses the prefix cache. SambaNova's MiniMax M3 numbers size that cache: cached input 90% cheaper, TTFT 35-88% lower. Practitioner advice (Pachaar): session pinning and model affinity.
 - **Device routing:** Microsoft routes routine Copilot work from Claude Haiku 4.5 to on-device MAI-Code-1.1-Flash (137B/6.8B active, 3-bit, no inference charge); GitHub announced local-model routing under HydraFusion. Liquid AI opened d1 decision models (3B, 600M); Unsloth trains a 0.8B decision model in 4GB VRAM (20.7% to 74.3%).
 - **Shift:** cache-local routing inside one model family (llm-d, 10-07: 2x users, up to 99% lower TTFT) has shown wins; capability routing across vendor families has now been measured once and lost on cost per success. The open question is whether session-state escalation ([Claude Code advisor, 10-04](2026-10-04-claude-code-advisor-routing-by-moment.md)) closes that gap.
+
+
+## 2026-10-09: escalate on confidence ranking, and pin by session
+
+- **[System Switch (10-09)](2026-10-09-system-switch-decision-deferral.md).** A fast decision model acts; a reasoning VLM takes over when confidence is low. Offline deferral gain tracks the actor's AUROC (rank correlation 0.87), not its accuracy; in closed loop no variant finished a level. Second result in two days where good per-decision routing fails per task (after Arena's Jev Router, 10-08).
+- **Serving side:** [Dynamo session IDs](../inference-efficiency/2026-10-09-session-aware-agentic-inference-dynamo.md) make session pinning a first-class routing policy, the fix for prefix-cache loss on model switches.
+- **Harness side:** [HERMES](../agentic-systems/2026-10-09-hermes-rsigym-vera-harness.md) routes repository components to resident Qwen3-8B models with a strong model only for activation and diagnosis: within 4.5 points of all-frontier at 26.2% lower cost.
+- **Products:** Google's Gemini Agent routes each enterprise task to the most cost-effective model; Laya ships an open local decision engine (about 35 ms vs about 380 ms hosted Jev in one test); PersonTTS treats test-time compute as a three-constraint routing problem.
+- **Shift:** the metric for a cheap router is now AUROC of its confidence, plus cache affinity. Accuracy alone does not predict either cost or escalation value.

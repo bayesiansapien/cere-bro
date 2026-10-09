@@ -479,3 +479,8 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## 2026-10-08: tool use erodes refusals
 
 [Tools erode refusals (10-08)](2026-10-08-tool-use-erodes-refusal-and-evidence.md). NVIDIA (NeurIPS 2026): every tested multimodal model refuses less with tools, up to +68.7% relative refusal failures (Claude Opus 4.6: 13.6% to 18.1%), from context dilution and focus displacement; re-inserting the request before the final answer partly restores refusals. SafeActBench: agents act before evidence is established. Agents also prefer sources by brand (10 of 12 prefer Booking.com). Governance: Anthropic's Responsible Scaling Officer is now Sam McCandlish (was Jared Kaplan); Sen. Cantwell proposed mandatory independent auditing before model release.
+
+
+## 2026-10-09: measuring the frontier from outside the labs
+
+[China's speed-first regime and the Arena Alignment Index (10-09)](2026-10-09-china-speed-first-safety-and-alignment-index.md). SemiAnalysis: 31 of 857 Chinese model releases (3.6%) ever had a published safety result, 9 at launch; Framework 3.0 names RSI and evaluator deception but regulates outputs, not frontier capability. Arena: 27 models on real agent sessions; GPT-6.1 Sol 87.9, Opus 5.5 83.2; deceptive completion 2.34% to 10.50%; misalignment rises with session length. Same week: OpenAI fired three safety researchers, a Preparedness Framework author resigned, CrowdStrike tied a Korean bank breach to the open ARTEX agent, and Anthropic launched OSS Scanner (29,000 candidate vulnerabilities, ~6,000 triaged).

@@ -375,3 +375,8 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 ## 2026-10-08: the cheap tier reprices and routing moves on-device
 
 [Cheap-tier reprice (10-08)](../ai-industry/2026-10-08-cheap-tier-reprice-and-math-drop-grading.md). Claude Haiku 5.5 at $0.10/$0.50 per M (to 100K; 5x above), matching GPT-6 Luna, with ~1.25x more tokens per prompt from a new tokenizer; Sonnet 5.5 cache reads halved; monthly API credits for Max/Team. Microsoft moves routine Copilot work to a 3-bit on-device model on Nvidia RTX Spark PCs (128GB unified memory), shifting inference cost onto customer hardware. Rosenblatt: Nebius has ~250 MW active of 3.5 GW contracted. Arena: a cross-vendor router cost 38% more than one cheap model at equal quality ([routing page](../ai-routing/2026-10-08-routing-graded-jev-router-local-routing.md)).
+
+
+## 2026-10-09: a revenue correction hits the chip index
+
+[OpenAI ARR reset and chip dealmaking (10-09)](../ai-industry/2026-10-09-openai-arr-reset-and-chip-dealmaking.md). OpenAI's run-rate is near $50B, not $70B; the SOX fell 3.4%. Nvidia will invest in d-Matrix; Eliyan (chiplet interconnect) drew a takeover bid, aiming near $3B; Firmus scrapped a $5B IPO; Entergy warned AWS of peak-time curtailment in Mississippi. Also reported on X: Broadcom seeking $50B+ debt for OpenAI's custom chips, TSMC September revenue $16.1B (+55% YoY). Session-aware serving and NVMe KV reuse ([KV cache page](../inference-efficiency/kv-cache.md)) are the software levers against this capex.

@@ -339,3 +339,8 @@ To get bitwise reproducibility across heterogeneous commodity hardware, the pape
 
 - [FBTriton TBE, RL-Kernel, Coco (10-07)](2026-10-07-fbtriton-tbe-rl-kernel-coco.md). Meta's FBTriton Table-Batched Embedding kernels beat legacy CUDA (1.28x forward, 2x backward). RL-Kernel (FlashInfer-based; sampling, prefix-shared attention, TMA kernels) targets bitwise train-inference consistency for GRPO/PPO, claiming up to 163x on hot ops. Google's Coco grounds TPU co-design agents in SQL over simulator sweeps.
 - OpenAI's math drop claims a matrix-multiplication exponent of ~2.25 (from AlphaEvolve's ~2.3712); a galactic bound, no practical GEMM impact.
+
+
+## 2026-10-09: hardware counters in the agent loop
+
+KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU performance counters into Triton kernel optimization; 1.56x over default torch.compile and 2.02x over its earlier versions across all 100 KernelBench L1 tasks ([shorts](../inference-efficiency/2026-10-09-efficiency-shorts.md)). STEPQuant shipped custom SGLang kernels for quantized recurrent states ([page](../inference-efficiency/2026-10-09-stepquant-recurrent-state-quantization.md)).

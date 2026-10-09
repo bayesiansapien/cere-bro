@@ -156,3 +156,9 @@ Uno **decouples parameters into autoregressive weights trained with ordinary nex
 ## 2026-10-03: the draft is the agent's own history
 
 [AgSpec (10-03)](2026-10-03-agspec-retrieval-speculative-decoding.md) is retrieval-based speculative decoding tuned for coding agents: drafts are copied from the session trajectory, workspace files indexed in the agent's output format, and a global corpus; draft length is capped per agent offline and adapted online. Up to 4.37x throughput at batch 1 and 4.76x at batch 16 over autoregressive decoding, beating EAGLE-3 in most settings. Third draft-model-free route in three weeks (09-18 optional draft, 09-30 WaveFront early loops, now retrieval from the agent's own text).
+
+---
+
+## 2026-10-09: skip verifications while the draft is confident
+
+[DLoop (10-09)](2026-10-09-dloop-looped-speculative-decoding.md), NAVER. Run several drafting stages before one verification while the drafter stays confident; loop-aware training lets parallel drafters condition on their own hidden states for unverified tokens. +5-41% wall-clock across EAGLE-3, DFlash, Domino, DSpark and MTP modules, lossless. **Partial answer to this page's "content-adaptive k" open question**, and the first adaptive-depth method for parallel drafters. Open: does the gain hold at high batch?

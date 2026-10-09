@@ -116,3 +116,8 @@ This crosses the wiki's ≥3-papers threshold for declaring a pattern.
 ## 2026-10-08: a field guide to "looped"
 
 AlphaSignal's explainer ([efficiency shorts](../inference-efficiency/2026-10-08-efficiency-shorts.md)) separates depth, time and flow loops. Nanbeige4.2-3B (Apache 2.0, 22 layers x 2 passes) costs ~2x block compute and 2x KV cache for a 4B file at ~75% of standard token efficiency; an independent 140M test of the Recurrent Looped Transformer lost to a plain transformer at ~20x the GPU-hours. Pachocki (OpenAI): Astra's computation-graph depth is within 2x of GPT-4. Practical rule: budget a looped model's memory by applications, not parameters, and pair it with terminal KV sharing (10-07) or Hybrid Latent Attention (10-07).
+
+
+## 2026-10-09: the RLT paper itself, and a contradiction
+
+[Recurrent Looped Transformer (10-09)](2026-10-09-hybrid-mechanics-rlt-cmm.md). Parallel encoder plus recurrent decoder fed by the previous token's final state: parity from 40 to 256 bits at 100%, S5 tracking 97% at 8x length. **Contradicts in spirit** the independent 140M test on 10-08 where RLT lost to a plain Transformer at ~20x GPU-hours; the paper's wins are algorithmic, the test was language modeling. Chunked feedback (every 4 tokens) restores parallelism for parity but drops S5 from 100% to 20%. Berkeley also posted a looped-transformer paper on implicit reasoning (X, details not captured).

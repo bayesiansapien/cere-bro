@@ -2066,3 +2066,17 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-08] social-stream | 2026-10-08 morning | social-stream
 ## [2026-10-08] media-zone | Media Zone 2026-10-08 (finalized) | media-zone
 ## [2026-10-08] digest | cere-bro 2026-10-08 | daily-digest
+## [2026-10-09] ingest | STEPQuant recurrent-state quantization | huggingface
+## [2026-10-09] ingest | Session-aware agentic inference with Dynamo | x-feed
+## [2026-10-09] ingest | galahad-kv 50M-token NVMe KV memory | huggingface
+## [2026-10-09] ingest | DLoop looped speculative decoding | huggingface
+## [2026-10-09] ingest | Hybrid mechanics, RLT, Continuous Memory Machine | huggingface + x-feed
+## [2026-10-09] ingest | OPD teacher-as-reward cluster | huggingface
+## [2026-10-09] ingest | System Switch, PersonTTS, Laya | huggingface + x-feed + gmail
+## [2026-10-09] ingest | HERMES, RSIGym, VERA, Recursive Game Creator | x-feed + huggingface + kurate
+## [2026-10-09] ingest | China speed-first safety regime, Arena Alignment Index | rss + gmail + x-feed
+## [2026-10-09] ingest | OpenAI ARR reset and chip dealmaking | rss + gmail + x-feed
+## [2026-10-09] ingest | Efficiency shorts | x-feed + rss + gmail
+## [2026-10-09] social-stream | 2026-10-09 morning | social-stream
+## [2026-10-09] media-zone | Media Zone 2026-10-09 (finalized) | media-zone
+## [2026-10-09] digest | cere-bro 2026-10-09 | daily-digest

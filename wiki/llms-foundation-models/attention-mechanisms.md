@@ -193,3 +193,8 @@ Every trainable sparse-attention method this page has tracked shares one archite
 
 - **[The Extender](2026-10-06-extender-log-structured-transformer.md):** every layer appends a 32-dim extension to a shared log that alone feeds the K and V projections; persistent attention memory is 104x smaller than MHA at 924M and RULER accuracy is higher. Exact attention with a tiny per-token footprint, a different route from MLA's per-layer latent.
 - **Triadic linear attention** ([shorts](../inference-efficiency/2026-10-06-efficiency-shorts.md)): writes key x second-key x value into a 3D state, giving E-fold more state for two extra projections; improves long-context recall for Gated DeltaNet. Joins Proteus (09-25) and ARM (09-23) on fixed-state capacity.
+
+
+## 2026-10-09: which hybrid, and what its state costs
+
+[Hybrid Mechanics 1.1, RLT, CMM (10-09)](2026-10-09-hybrid-mechanics-rlt-cmm.md). A seesaw between hybrid types: linear-attention hybrids gain more from long-context continual pretraining, SWA hybrids extrapolate better without it; Sliding-Window Linear Attention gives 16x training-free extrapolation at 100% NIAH (64K). Sakana's Continuous Memory Machine splits recurrent memory into short- and long-term matrices, joining Proteus (09-25) and triadic states (10-06) on fixed-state capacity. Serving cost of the winning LA hybrid: [STEPQuant](../inference-efficiency/2026-10-09-stepquant-recurrent-state-quantization.md) quantizes its state 5x.
