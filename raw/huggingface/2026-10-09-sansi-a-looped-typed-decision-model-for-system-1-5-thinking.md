@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-10T05:09:51.414483+00:00
+arxiv_id: 2610.07730
+url: https://huggingface.co/papers/2610.07730
+arxiv_url: https://arxiv.org/abs/2610.07730
+date: 2026-10-09
+---
+
+# SanSi: A Looped Typed Decision Model for System 1.5 Thinking
+
+Typed decision models answer a declared question without generating text: a decision head returns a probability for each of the declared options in a single forward pass. A single pass is fast, intuitive System 1 thinking. We study what lies between one pass and generated reasoning: looping, in which the same layers are recursively applied several times before one typed readout. Each loop lets the model revise its hidden state before it commits to an answer, without generating a token; we call this System 1.5 thinking. We propose SanSi, which turns a pre-trained looped language model into a typed decision model. The option probabilities are read after every loop, and every loop is trained with a proper scoring rule, so that one model serves every budget from one loop to eight in a single run. On 10,027 test decisions from 59 sources, SanSi reaches 72.0% accuracy: 13.5 points above a non-looped model of the same shape trained with the same recipe, 5.3 points above a newer non-looped model of its size, and 1.8 points below one with three times the parameters. On two depth-controlled tasks, loops extend the solvable depth beyond the depths seen in training, where the larger single-pass model fails. Used as the judge for policy optimization with reinforcement learning, without gold answers, SanSi raises the generator's F1 by 7.7 points.
