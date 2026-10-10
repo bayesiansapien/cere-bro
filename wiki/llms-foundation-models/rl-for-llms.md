@@ -263,3 +263,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## 2026-10-08: the RL bill gets cut at three stages
 
 [FP4 RL and delta refits (10-08)](../inference-efficiency/2026-10-08-fp4-rl-trace-triage-nemo-dcr.md): TRACE (rollout-guided FP4 QAT, up to 5.4x rollout), TRIAGE (direction-aware NVFP4 stabilization, 2.3x), NeMo-DCR (bit-exact XOR delta refits: 1T cross-region refit 87.5 min to 150 s, since ~1% of weights change per step). Continues 10-07 (Beam's RL used more GPUs than pretraining; LoGRA cut RL memory 45.7%). Also: [DiffGate and PivotOPD (10-08)](../inference-efficiency/2026-10-08-opd-supervision-reliability-cluster.md) gate teacher guidance inside RL by outcome and by pivotal mistake; Rationale-Guided Policy Optimization ([arXiv 2610.07342](https://arxiv.org/abs/2610.07342)) is the one paper on both HF and this week's (unscored) Kurate list; HuatuoGPT-3 ([arXiv 2610.05966](https://arxiv.org/abs/2610.05966)) does domain adaptation with RL only, from base models.
+
+
+## 2026-10-10: grading compute becomes a scaling axis
+
+[MiMo-V2.6 (10-10)](2026-10-10-mimo-v2-6-scaled-agentic-rl.md): 1.02T/42B-active Pro, async RL at 1,568 samples and 2.7-3.7B tokens per step up to 1M context, frozen MoE router, and a groupwise agentic grader that shifts reward among passing patches toward clean fixes. DeepSWE 58.4 to 72.6 over about $2.6M of RL, still climbing. Agent Lightning v1.0 (Microsoft) trains the deployed harness unchanged (Qwen3.5-9B SWE-bench Verified 41.8% to 56.4% from ~6,000 samples). ReSPO replaces clipping with a two-branch kernel to stop gradient starvation of under-generated positive responses in off-policy RLVR.

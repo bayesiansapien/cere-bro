@@ -255,3 +255,10 @@ Second, and mildly deflationary: **if weight-space similarity alone nearly match
 
 - **[SlimWise (10-08)](2026-10-08-slimwise-phase-decoupled-expert-pruning.md).** Full MoE for prefill, 50%-expert-pruned MoE for decode reading the same KV cache; 1.81x decode throughput on Qwen3.6-35B-A3B in vLLM. Accuracy can hide pruning-induced length changes. Stepped MoE offers 1-4B active from one file; agentic RL with operation-aligned expert routing gains 10+ points.
 - **[LSP (10-08)](2026-10-08-lsp-learnable-subspace-projections.md).** Low-rank projectors trained jointly against output KL, not per-layer rules. Llama-2-7B at -70%: 10.9 PPL vs 13.3 for the best baseline; tied Q/K/V factors give a shared KV latent (13.5x less weight+KV memory at 128K). Fills the wall-clock gap flagged for XMerge and ACE: 1.6x faster decode at small batch.
+
+
+## 2026-10-10: decode-calibrated pruning with a decode-shaped kernel
+
+- **[SparseDecoding (10-10)](2026-10-10-sparsedecoding-decode-aware-pruning.md).** Calibrate SparseGPT/Wanda on the dense model's own *decode-position* activations (prefill dropped) instead of teacher-forced C4. Qwen3-14B 2:4 WritingBench 1.85 to 4.18 (dense 5.97); Qwen3-32B 2:4 ClassEval 9% to 24%. A Triton N:M SpMV kernel (bitmask indexing, fixed-length unrolled loop) gives 1.34-1.48x batch-1 decode on A100, where cuSPARSELt 2:4 ran at 0.85x of dense.
+- **Pattern (n=2, 10-08 and 10-10): prefill and decode get compressed differently.** SlimWise prunes experts only for decode; SparseDecoding calibrates only on decode. Both fill the wall-clock gap flagged since 2025 that weight sparsity rarely sped up batch-1 decode.
+- **Open:** batch-1 only; whether decode calibration should use *agent* traces for agent deployments.

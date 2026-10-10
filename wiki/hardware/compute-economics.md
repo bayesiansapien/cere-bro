@@ -380,3 +380,8 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 ## 2026-10-09: a revenue correction hits the chip index
 
 [OpenAI ARR reset and chip dealmaking (10-09)](../ai-industry/2026-10-09-openai-arr-reset-and-chip-dealmaking.md). OpenAI's run-rate is near $50B, not $70B; the SOX fell 3.4%. Nvidia will invest in d-Matrix; Eliyan (chiplet interconnect) drew a takeover bid, aiming near $3B; Firmus scrapped a $5B IPO; Entergy warned AWS of peak-time curtailment in Mississippi. Also reported on X: Broadcom seeking $50B+ debt for OpenAI's custom chips, TSMC September revenue $16.1B (+55% YoY). Session-aware serving and NVMe KV reuse ([KV cache page](../inference-efficiency/kv-cache.md)) are the software levers against this capex.
+
+
+## 2026-10-10: cost of intelligence, demand side
+
+Nathan Lambert predicts near-exponential decline in the effective cost of intelligence as agents optimize verifiable serving metrics, with Jevons-style demand growth ([industry, 10-10](../ai-industry/2026-10-10-engineering-acceleration-and-agent-platforms.md)). Same week: OpenAI seeks $30B+ at $1.4T on ~$50B ARR; SoftBank seeks up to $100B from Gulf investors; AMD chases HBM4 supply in Korea for MI450 (432 GB/GPU); Ai2 runs 2-3x oversubscribed H100/B200/B300 clusters and moved to GPU-time budgets.

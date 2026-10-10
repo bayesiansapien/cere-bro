@@ -121,3 +121,8 @@ AlphaSignal's explainer ([efficiency shorts](../inference-efficiency/2026-10-08-
 ## 2026-10-09: the RLT paper itself, and a contradiction
 
 [Recurrent Looped Transformer (10-09)](2026-10-09-hybrid-mechanics-rlt-cmm.md). Parallel encoder plus recurrent decoder fed by the previous token's final state: parity from 40 to 256 bits at 100%, S5 tracking 97% at 8x length. **Contradicts in spirit** the independent 140M test on 10-08 where RLT lost to a plain Transformer at ~20x GPU-hours; the paper's wins are algorithmic, the test was language modeling. Chunked feedback (every 4 tokens) restores parallelism for parity but drops S5 from 100% to 20%. Berkeley also posted a looped-transformer paper on implicit reasoning (X, details not captured).
+
+
+## 2026-10-10: loops as a residual-guarded budget knob
+
+InfiLoop adds a loop-native residual (content weighting plus temporal decay, constant memory) so a 7M looped model keeps improving past 20,000 effective steps (Sudoku-Extreme 97.9%, ARC-AGI-2 pass@2 13.6%). SanSi turns a looped LM into a typed decision model readable after every loop (1-8), "System 1.5": 13.5 points over a non-looped twin. Both in [efficiency shorts (10-10)](../inference-efficiency/2026-10-10-efficiency-shorts.md).

@@ -2080,3 +2080,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-09] social-stream | 2026-10-09 morning | social-stream
 ## [2026-10-09] media-zone | Media Zone 2026-10-09 (finalized) | media-zone
 ## [2026-10-09] digest | cere-bro 2026-10-09 | daily-digest
+## [2026-10-10] ingest | TokenRouter token-level routing serving | huggingface + x-feed
+## [2026-10-10] ingest | SparseDecoding decode-aware pruning | huggingface
+## [2026-10-10] ingest | SparseEngine sparse-first inference | huggingface
+## [2026-10-10] ingest | OPD skills not knowledge, SGUID | huggingface + x-feed
+## [2026-10-10] ingest | Efficiency shorts | huggingface + labs + x-feed
+## [2026-10-10] ingest | REMORY, Incremental-OEDR, Prime Intellect swarm essay | huggingface + x-feed
+## [2026-10-10] ingest | Agent shorts | huggingface + labs
+## [2026-10-10] ingest | MiMo-V2.6 scaled agentic RL | huggingface + x-feed
+## [2026-10-10] ingest | Anthropic unintended model actions, eval integrity | labs + rss + gmail + x-feed
+## [2026-10-10] ingest | Engineering acceleration and agent platforms | rss + gmail + labs + x-feed
+## [2026-10-10] social-stream | 2026-10-10 morning | social-stream
+## [2026-10-10] media-zone | Media Zone 2026-10-10 (finalized) | media-zone
+## [2026-10-10] digest | cere-bro 2026-10-10 | daily-digest

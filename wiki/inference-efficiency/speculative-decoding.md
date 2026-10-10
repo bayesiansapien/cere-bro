@@ -162,3 +162,8 @@ Uno **decouples parameters into autoregressive weights trained with ordinary nex
 ## 2026-10-09: skip verifications while the draft is confident
 
 [DLoop (10-09)](2026-10-09-dloop-looped-speculative-decoding.md), NAVER. Run several drafting stages before one verification while the drafter stays confident; loop-aware training lets parallel drafters condition on their own hidden states for unverified tokens. +5-41% wall-clock across EAGLE-3, DFlash, Domino, DSpark and MTP modules, lossless. **Partial answer to this page's "content-adaptive k" open question**, and the first adaptive-depth method for parallel drafters. Open: does the gain hold at high batch?
+
+
+## 2026-10-10: speculation in diffusion LMs, and token routing as its general case
+
+SpecFold reuses parent computation across near-identical draft branches in diffusion-LLM multi-branch verification (up to 1.99x over vanilla) ([shorts](2026-10-10-efficiency-shorts.md)). [TokenRouter (10-10)](../ai-routing/2026-10-10-tokenrouter-token-level-routing-serving.md) serves token-level routing, where the small model's tokens are kept rather than only verified; its parked-KV design is what a speculative engine would need to let draft and target swap roles.

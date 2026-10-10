@@ -723,3 +723,12 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[STEPQuant (10-09)](2026-10-09-stepquant-recurrent-state-quantization.md).** The KV-quantization playbook applied to the fixed recurrent state of linear-attention hybrids: 6-bit state near FP32 accuracy, >5x state compression, up to 68.7% less serving memory in SGLang.
 - **Data:** a public agentic inference trace set (206B tokens, 12,002 sessions, 1.19M requests) gives eviction and routing research real agent workloads.
 - **Shift:** this page's unit of reuse has moved from prefix (2025) to block (09-30 KVCMAS) to session (today). The next open question is policy: who decides what a session keeps, the harness or the engine? KvHint says both.
+
+
+## 2026-10-10: the cache that survives a hop, a turn, and a compaction
+
+- **Across model hops:** [TokenRouter (10-10)](../ai-routing/2026-10-10-tokenrouter-token-level-routing-serving.md) parks a routed request as *pending* with its KV kept, so a switch to the other model is a token append; in the standard baseline, radix-cache update and prefix matching ate 53% of each small-model step.
+- **Across turns, after eviction:** [SparseEngine (10-10)](2026-10-10-sparseengine-sparse-first-inference.md) runs 15 sparse/eviction/compression/quantization methods under one lifecycle contract; Chain Cache resumes an evicted cache next turn and Prefix-Cache Pruning drops chosen history while keeping the prefix matchable. >10x throughput with eviction, >2.5x decode vs vLLM.
+- **Across compaction:** [REMORY (10-10)](../agentic-systems/2026-10-10-context-compaction-remory-and-the-swarm.md) appends learned soft tokens to the text summary, near full-context quality at 5.2% of input positions.
+- **Hardware/vendor:** Huawei's OceanStor M900 Context Memory Storage pitches shared KV capacity as a storage product ([shorts](2026-10-10-efficiency-shorts.md)).
+- **Shift:** yesterday's question was who decides what a session keeps. Today adds two answers: the sparse method itself (Chain Cache) and a learned compressor (REMORY). The common rule across all three papers: never discard state the next step will rebuild.
