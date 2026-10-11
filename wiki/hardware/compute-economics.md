@@ -385,3 +385,11 @@ A one-day cluster of finance posts ([summary](2026-09-28-ai-buildout-financing-r
 ## 2026-10-10: cost of intelligence, demand side
 
 Nathan Lambert predicts near-exponential decline in the effective cost of intelligence as agents optimize verifiable serving metrics, with Jevons-style demand growth ([industry, 10-10](../ai-industry/2026-10-10-engineering-acceleration-and-agent-platforms.md)). Same week: OpenAI seeks $30B+ at $1.4T on ~$50B ARR; SoftBank seeks up to $100B from Gulf investors; AMD chases HBM4 supply in Korea for MI450 (432 GB/GPU); Ai2 runs 2-3x oversubscribed H100/B200/B300 clusters and moved to GPU-time budgets.
+
+
+## 2026-10-11: where inference dollars actually go
+
+- **[Token spend and process research (10-11)](2026-10-11-hyper-na-kilolayer-nand-and-token-spend.md).** OpenRouter's public stats convert to ~$1.5B annualized (~1% of inference by dollars): Anthropic 36% of spend, OpenAI 18%, open weights 26%. SemiAnalysis estimates Anthropic's inference at ~88% blended post-compute margin with subscriptions near 50%, so subscribers get ~4x the compute per dollar of API buyers. A circulating (unsourced) claim says average token prices fell 50%+ since May mostly through mix shift to open models.
+- **Supply book:** Anthropic's reported ~$585B of compute across 14 suppliers; Google's TPU deal runs ~$40B/yr vs Amazon's ~$10B/yr.
+- **Vertical move:** [Nvidia in talks to acquire or fund Reflection AI](../ai-industry/2026-10-11-arxiv-cap-nvidia-reflection-and-the-revenue-gauge.md) ($25B), a second chip-vendor step into the model layer after Groq.
+- **Shift:** the falling cost of intelligence that Lambert predicted (10-10) is arriving through routing and mix, not list prices.

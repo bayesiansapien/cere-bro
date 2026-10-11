@@ -383,3 +383,8 @@ Two papers landed together and they are in direct tension. Neither cites the oth
 ## 2026-10-10: compaction gets a residual
 
 [REMORY and the swarm essay (10-10)](2026-10-10-context-compaction-remory-and-the-swarm.md). REMORY supplements the compaction summary with a bounded set of learned soft tokens trained to reproduce the full-history continuation of a frozen LLM: near full-context SummHay at 5.2% of positions, fewer repeated tool calls and errors on BrowseComp and Terminal-Bench 2.1. Prime Intellect's essay frames every compaction as a bet made before the future is known and argues inference scaling therefore ends in swarms. Learn2Play Bench (same day) finds keeping full action records beats summarizing into rules, the third result against blind compression after Just-in-Time Memory (09-24) and AutoCompact (10-04). Incremental-OEDR keeps a research report as structured state (33% fewer tokens, 61% fewer searches).
+
+
+## 2026-10-11: memory needs a router
+
+- **[MemoType (NeurIPS 2026)](2026-10-11-harness-ceiling-and-trained-orchestration.md)** proves any single retrieval strategy has an upper bound on expected precision when a store mixes memory types. A trained router labels memories and queries by type (TriMEM dataset) and applies a type-specific strategy: up to +16.18% Recall@1. Complements REMORY (10-10, learned memory tokens after compaction): one fixes what is kept, the other how it is fetched.

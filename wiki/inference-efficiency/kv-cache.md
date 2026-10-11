@@ -732,3 +732,8 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **Across compaction:** [REMORY (10-10)](../agentic-systems/2026-10-10-context-compaction-remory-and-the-swarm.md) appends learned soft tokens to the text summary, near full-context quality at 5.2% of input positions.
 - **Hardware/vendor:** Huawei's OceanStor M900 Context Memory Storage pitches shared KV capacity as a storage product ([shorts](2026-10-10-efficiency-shorts.md)).
 - **Shift:** yesterday's question was who decides what a session keeps. Today adds two answers: the sparse method itself (Chain Cache) and a learned compressor (REMORY). The common rule across all three papers: never discard state the next step will rebuild.
+
+
+## 2026-10-11: moving the cache across the network
+
+- **[Serving shorts (10-11)](2026-10-11-serving-shorts.md).** AMD's MoRI + vLLM work moves KV between disaggregated prefill and decode pods over RDMA, the network-layer version of the 10-09/10-10 "keep the state" results. The kilolayer-NAND perspective ([hardware, 10-11](../hardware/2026-10-11-hyper-na-kilolayer-nand-and-token-spend.md)) warns the flash tier under offloaded caches gets noisier per layer.

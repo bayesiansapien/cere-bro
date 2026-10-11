@@ -730,3 +730,10 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 ## 2026-10-09: a structurally different harness moves the score
 
 [HERMES, RSIGym, VERA, Recursive Game Creator (10-09)](2026-10-09-hermes-rsigym-vera-harness.md). HERMES (a resident LLM per repo component, dependency-aware activation, failure-to-component diagnosis) lifts GPT-5.6 Sol from 6.5% to 31.0% on whole-repo migration with the same model; Qwen3-8B components get within 4.5 points of all-frontier at 26.2% lower Terminal-Bench cost. VERA: training-only or harness-only leaves about half the gain (9B agent 43.3 / 56.1 / 69.1 for training / skills / both). RSIGym: heavier training lost to harness fixes in 8 of 10 small tests. **Reconciles with 10-08**: swapping among similar mainstream harnesses changes cost, not score; a different harness structure changes both. Practitioner side: Claude Code advisor setups (Opus plans, Sonnet works, a decision model takes mechanical forks), Autoharness self-edited skills, Voyager as a creative-work harness.
+
+
+## 2026-10-11: the harness has a ceiling, and the failure label tells you where it is
+
+- **[Harness Evolution Hits a Ceiling (Stanford)](2026-10-11-harness-ceiling-and-trained-orchestration.md).** Label each failed run by its first failure signal. Process failures (loops, blocked calls, exhausted step budgets) are fixed by evolving the harness; content failures (a delivered but poor plan) only by training weights. On DeepPlanning the evolved harness lifts Qwen3.5-4B 0.16 to 0.30 and 9B 0.32 to 0.44 but never lowers the poor-plan share; a LoRA on evolved-harness runs cuts 9B content failures from ~25% to ~5%.
+- **Pattern (n=4 in a week): harness discovers, weights keep.** HAD/RSR/ASCENT (10-07), VERA (10-09), MASS (10-11, a model fine-tuned on its own multi-agent traces) and the ceiling paper. The ceiling paper is the first to give a switch rule.
+- **Production:** Uber's legal redlining agent reached 91% decision accuracy with retrieval over past decisions plus one self-check call, no fine-tuning.

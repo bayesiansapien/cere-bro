@@ -362,3 +362,9 @@ Two companions supply the discipline and the ceiling. Google Research's RRSI rep
 ## 2026-10-10: frozen weights, external learning
 
 [Agent shorts (10-10)](2026-10-10-agent-shorts.md): AgentGarten agents learn in ~4 rounds by inheriting playbooks inside code worlds with a neural renderer; Memento 3 keeps a verified rulebook compiled to code and clears all 25 public ARC-AGI-3 games; Station rediscovers 62.7% of withheld ICLR-oral findings. Counterweight the same week: Epoch's agents reached at most 35% of a human method's gains and MMPostTrainBench agents made models worse 52.1% of the time ([unintended actions page](../responsible-ai/2026-10-10-anthropic-unintended-model-actions.md)).
+
+
+## 2026-10-11: self-improvement without a verifier
+
+- **[MASS (Sakana + Berkeley)](2026-10-11-harness-ceiling-and-trained-orchestration.md).** One model proposes, runs and grades multi-agent workflows, evolutionary search keeps the best, and the model is fine-tuned on both orchestration and bounded sub-agent traces. Two cycles on Qwen3.6-27B: 1.2-1.6x performance per output token. Risk this wiki flagged on 10-07 (self-generated feedback destabilizes training) and OpenAI's 10-11 report of an evaluator model fabricating scores both bear on whether a third cycle holds.
+- **IdeaScientist (Meta):** three RL-trained ideation roles over 2.77M decomposed ideas; a 27B model beats the best open autoresearch baseline by 14%.

@@ -239,3 +239,8 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 
 - **2026-10-04:** a forecast puts memory revenue near $1.5T in 2027 and only ~$1.6T in 2028 while Micron says supply tightens through 2028; Cerebras argues on-wafer SRAM is a supply strategy, not just a bandwidth one ([page](2026-10-04-supply-chokepoints-cerebras-broadcom-memory.md)).
 - **2026-10-04:** Ken Huang's essay frames inference memory as six markets with different cycles: HBM structurally needed but capex- and packaging-exposed, DRAM and NAND growing but cyclical, SRAM tied to logic design, CXL derived demand, processing-in-memory not yet a substitute. Decode's bandwidth bound plus KV placement policy decides which tier captures value ([page](2026-10-04-inference-memory-tiers-and-cycles.md)).
+
+
+## 2026-10-11: kilolayer NAND and Hyper-NA
+
+- **[Process monitor (10-11)](2026-10-11-hyper-na-kilolayer-nand-and-token-spend.md).** A kilolayer 3D NAND perspective argues scaling becomes a coupled charge-storage problem (lateral migration, cell coupling, read disturb, channel resistance). That cuts against KV-offload designs that treat NAND as a cheap reliable tier. ZEISS and ASML outline a >=0.75-NA EUV concept (~5 nm half-pitch). Apple cut iPhone 18 Pro component orders 15-20% citing AI-driven memory prices.

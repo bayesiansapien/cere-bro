@@ -10592,10 +10592,18 @@
         "arxiv_id": "2607.19866v1",
         "title": "Local Causal Structure Learning in the Presence of Latent Variables and Selection Bias",
         "ai_rating": 6.8
+      },
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.07340v1",
+        "title": "CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W29",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W41"
   },
   "Andrew Gordon Wilson": {
     "appearances": [
@@ -28428,10 +28436,18 @@
         "arxiv_id": "2609.11393v1",
         "title": "Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03356v1",
+        "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W37",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W41"
   },
   "Junliang Yu": {
     "appearances": [
@@ -28802,10 +28818,18 @@
         "arxiv_id": "2609.11709v1",
         "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.05371v1",
+        "title": "Robust Ensemble Guidance for Scientific Inverse Problems",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W37",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W41"
   },
   "Sachith Seneviratne": {
     "appearances": [
@@ -29682,10 +29706,18 @@
         "arxiv_id": "2609.12489v1",
         "title": "Confidence-Gated Transductive Test Generation for Code Reranking",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.02951v1",
+        "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W41"
   },
   "Youngsik Yoon": {
     "appearances": [
@@ -29768,10 +29800,18 @@
         "arxiv_id": "2609.12489v1",
         "title": "Confidence-Gated Transductive Test Generation for Code Reranking",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.02951v1",
+        "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W38"
+    "last_seen": "2026-W41"
   },
   "Junhao Zhao": {
     "appearances": [
@@ -36543,6 +36583,2162 @@
       }
     ],
     "first_seen": "2026-W40",
+    "last_seen": "2026-W41"
+  },
+  "Arijit Sehanobish": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.03524v1",
+        "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Bruno Gomes Coelho": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.03524v1",
+        "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Guillaume Michel": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.03524v1",
+        "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Sophia Zhi": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.03524v1",
+        "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Valerie Faucon-Morin": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.03524v1",
+        "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Kristen Howell": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.03524v1",
+        "title": "From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yifei Tao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.03020v1",
+        "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Xinyu Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.03020v1",
+        "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Henry Hengyuan Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.03020v1",
+        "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Fanyi Wang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.03020v1",
+        "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Tengda Guo": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.03020v1",
+        "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Wentao Qiu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.03020v1",
+        "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yuyang Dai": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.03430v1",
+        "title": "Jumping the Line: Exploiting Length Predictions in LLM Scheduling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Rana Shahout": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.03430v1",
+        "title": "Jumping the Line: Exploiting Length Predictions in LLM Scheduling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mahmood Sharif": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.03430v1",
+        "title": "Jumping the Line: Exploiting Length Predictions in LLM Scheduling",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Devin Wild Thomas": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.03312v1",
+        "title": "Optimal Planning in a Dynamic World",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Solomon Eyal Shimony": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.03312v1",
+        "title": "Optimal Planning in a Dynamic World",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Wheeler Ruml": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.03312v1",
+        "title": "Optimal Planning in a Dynamic World",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Erez Karpas": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.03312v1",
+        "title": "Optimal Planning in a Dynamic World",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Shahaf S. Shperberg": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.03312v1",
+        "title": "Optimal Planning in a Dynamic World",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Andrew Coles": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.03312v1",
+        "title": "Optimal Planning in a Dynamic World",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Chaoqun Yang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.03128v1",
+        "title": "Trading Strategy Optimization via Textual Gradient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Qian Wang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.03128v1",
+        "title": "Trading Strategy Optimization via Textual Gradient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Fengbin Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.03128v1",
+        "title": "Trading Strategy Optimization via Textual Gradient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Xinyu Lin": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.03128v1",
+        "title": "Trading Strategy Optimization via Textual Gradient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Bingsheng He": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.03128v1",
+        "title": "Trading Strategy Optimization via Textual Gradient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Roger Zimmermann": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.03128v1",
+        "title": "Trading Strategy Optimization via Textual Gradient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Luis Medrano-Navarro": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.03363v1",
+        "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Giacomo Baldan": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.03363v1",
+        "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Qiang Liu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.03363v1",
+        "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Benjamin Holzschuh": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.03363v1",
+        "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jan Hagnberger": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.03363v1",
+        "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mathias Niepert": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.03363v1",
+        "title": "Geometry Meets Physics: Data-Efficient Pre-Training for Unstructured Neural PDE Solvers",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Hainiu Xu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03356v1",
+        "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Vítor N. Lourenço": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03356v1",
+        "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mohnish Dubey": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03356v1",
+        "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yunfei Bai": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03356v1",
+        "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Caroline Catmur": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03356v1",
+        "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Shunya Nagashima": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.02611v1",
+        "title": "Scale-Recursive Rectified Flows for Few-Step Precipitation Ensembles",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Takumi Bannai": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.02611v1",
+        "title": "Scale-Recursive Rectified Flows for Few-Step Precipitation Ensembles",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jack Butler": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.03951v1",
+        "title": "Evolving LLM-Generated Features for Interpretable Classification",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Zainab Afolabi": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.03951v1",
+        "title": "Evolving LLM-Generated Features for Interpretable Classification",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Nikita Kozodoi": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.03951v1",
+        "title": "Evolving LLM-Generated Features for Interpretable Classification",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jabin Koo": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.02951v1",
+        "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Soheil Abbasloo": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.02951v1",
+        "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Han Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.40147v1",
+        "title": "Policy Iteration Is Not Strongly Polynomial for Deterministic Markov Decision Processes: The Price of Algorithmic Anarchy",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yinyu Ye": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2609.40147v1",
+        "title": "Policy Iteration Is Not Strongly Polynomial for Deterministic Markov Decision Processes: The Price of Algorithmic Anarchy",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yue Liu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.04273v1",
+        "title": "Integrated Imputation-Classification for Supervised Learning with Missing Data",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Ben Liang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.04273v1",
+        "title": "Integrated Imputation-Classification for Supervised Learning with Missing Data",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Ali Tizghadam": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.04273v1",
+        "title": "Integrated Imputation-Classification for Supervised Learning with Missing Data",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Ilijc Albanese": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.04273v1",
+        "title": "Integrated Imputation-Classification for Supervised Learning with Missing Data",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Qi Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.07787v1",
+        "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Shengyu Chen": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.07787v1",
+        "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Wei Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.07787v1",
+        "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yiqun Xie": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.07787v1",
+        "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Xiaowei Jia": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.07787v1",
+        "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Haoyu Wang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.07787v1",
+        "title": "OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Shixin Peng": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.08250v1",
+        "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Kun Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.08250v1",
+        "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jiaxing Zheng": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.08250v1",
+        "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Qihao Yang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.08250v1",
+        "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jingying Chen": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.08250v1",
+        "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jiajun Chen": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.08621v1",
+        "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Haoyu Wu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.08621v1",
+        "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mingda Jia": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.08621v1",
+        "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Xihui Liu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.08621v1",
+        "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yikai Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03894v1",
+        "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Saurabh Pandey": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03894v1",
+        "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Pradeep Kumar Misra": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.03894v1",
+        "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Naoki Nishikawa": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.08561v1",
+        "title": "Reinforcement Learning for Hierarchical Reasoning Rewards: Minimax-Optimal Rates with Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Taiji Suzuki": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.08561v1",
+        "title": "Reinforcement Learning for Hierarchical Reasoning Rewards: Minimax-Optimal Rates with Transformers",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Aryan Sood": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.05488v1",
+        "title": "Underscoring the Problem: Why Softpick Fails at Initialization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jaikaran Singh": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.05488v1",
+        "title": "Underscoring the Problem: Why Softpick Fails at Initialization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Ishaan Bansal": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.05488v1",
+        "title": "Underscoring the Problem: Why Softpick Fails at Initialization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Felix Oury": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.05051v1",
+        "title": "LogSig-SSM: Time-Series Modelling with Multi-Scale Log-Signature Compression for State-Space Models",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Nicolas Calvo Peiro": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.05051v1",
+        "title": "LogSig-SSM: Time-Series Modelling with Multi-Scale Log-Signature Compression for State-Space Models",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Reiko J. Tanaka": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.05051v1",
+        "title": "LogSig-SSM: Time-Series Modelling with Multi-Scale Log-Signature Compression for State-Space Models",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Loka Li": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.07340v1",
+        "title": "CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jin Tian": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.07340v1",
+        "title": "CausalBind: Causal Modeling and Learning for Protein-Molecule Virtual Screening",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Zixiang Li": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.05371v1",
+        "title": "Robust Ensemble Guidance for Scientific Inverse Problems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yunchao Wei": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.05371v1",
+        "title": "Robust Ensemble Guidance for Scientific Inverse Problems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yao Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.05371v1",
+        "title": "Robust Ensemble Guidance for Scientific Inverse Problems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yue Song": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.05371v1",
+        "title": "Robust Ensemble Guidance for Scientific Inverse Problems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Matteo Fregonara": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.05902v1",
+        "title": "On Hyperparameter Tuning on the Test Set",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Tom Viering": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.05902v1",
+        "title": "On Hyperparameter Tuning on the Test Set",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jan van Gemert": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.05902v1",
+        "title": "On Hyperparameter Tuning on the Test Set",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Leonardo F. Toso": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.07540v1",
+        "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yann LeCun": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.07540v1",
+        "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "James Anderson": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.07540v1",
+        "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Oumayma Bounou": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.07540v1",
+        "title": "Preserving Unstable Modes Through Inverse Dynamics in JEPA World Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Paweł Skierś": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.09876v1",
+        "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Małgorzata Grzanka": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.09876v1",
+        "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Wojciech Masarczyk": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.09876v1",
+        "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jan-Willem van de Meent": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.09876v1",
+        "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Kamil Deja": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.09876v1",
+        "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yatai Ji": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.09335v1",
+        "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Zhengqiu Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.09335v1",
+        "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yong Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.09335v1",
+        "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yue Hu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.09335v1",
+        "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Fanglong Yao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.09335v1",
+        "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Chen Gao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.09335v1",
+        "title": "SearchWorld: Spatial Value-Grounded Imagination for UAV Object Search via World Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yinan Huang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.10440v1",
+        "title": "Seq-Flow: Efficient Probabilistic Forecasting with Self-Rollout Error Control",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Shitij Govil": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.10440v1",
+        "title": "Seq-Flow: Efficient Probabilistic Forecasting with Self-Rollout Error Control",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Bo Dai": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.10440v1",
+        "title": "Seq-Flow: Efficient Probabilistic Forecasting with Self-Rollout Error Control",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Pan Li": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.10440v1",
+        "title": "Seq-Flow: Efficient Probabilistic Forecasting with Self-Rollout Error Control",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mojtaba Nafez": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.09109v1",
+        "title": "Breaking Adversarial Transferability in Fine-Tuned Speech Recognition",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Aref Mousavi": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.09109v1",
+        "title": "Breaking Adversarial Transferability in Fine-Tuned Speech Recognition",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mohammad Ebrahim Mahdavi": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.09109v1",
+        "title": "Breaking Adversarial Transferability in Fine-Tuned Speech Recognition",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mobina Poulaei": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.09109v1",
+        "title": "Breaking Adversarial Transferability in Fine-Tuned Speech Recognition",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Kiarash Kiani Feriz": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.09109v1",
+        "title": "Breaking Adversarial Transferability in Fine-Tuned Speech Recognition",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mohammad Hossein Rohban": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.09109v1",
+        "title": "Breaking Adversarial Transferability in Fine-Tuned Speech Recognition",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Xinsong Feng": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.09311v1",
+        "title": "Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Peng Du": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.09311v1",
+        "title": "Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Zhizhuo Yang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.09311v1",
+        "title": "Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Daniel M. Bikel": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.09311v1",
+        "title": "Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jiayun Wang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.09311v1",
+        "title": "Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Haipeng Chen": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.09311v1",
+        "title": "Denoising Blocks, Not Tokens: Efficient Compressed Continuous Diffusion with Branching Token Realization",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Guoxiong Long": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.10222v1",
+        "title": "Evaluating Sequence Assembly Strategies for Differentially Private Synthetic Time-Series Forecasting",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Huizhen Huang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.10222v1",
+        "title": "Evaluating Sequence Assembly Strategies for Differentially Private Synthetic Time-Series Forecasting",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Qikun Cai": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.10222v1",
+        "title": "Evaluating Sequence Assembly Strategies for Differentially Private Synthetic Time-Series Forecasting",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Tao Huang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.10222v1",
+        "title": "Evaluating Sequence Assembly Strategies for Differentially Private Synthetic Time-Series Forecasting",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Chen Hou": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.10222v1",
+        "title": "Evaluating Sequence Assembly Strategies for Differentially Private Synthetic Time-Series Forecasting",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Prakhar Ganesh": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.09824v1",
+        "title": "Homogenization in Multi-Agent Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Kyra Wilson": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.09824v1",
+        "title": "Homogenization in Multi-Agent Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Luca Zappella": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.09824v1",
+        "title": "Homogenization in Multi-Agent Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Barry-John Theobald": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.09824v1",
+        "title": "Homogenization in Multi-Agent Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Nicholas Apostoloff": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.09824v1",
+        "title": "Homogenization in Multi-Agent Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Lucas Monteiro Paes": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.09824v1",
+        "title": "Homogenization in Multi-Agent Systems",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yao Fu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.09025v1",
+        "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Cyrus Chang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.09025v1",
+        "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Ritchie Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.09025v1",
+        "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Bryce Long": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.09025v1",
+        "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yueying Li": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.09025v1",
+        "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Mahdi Kamani": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.09025v1",
+        "title": "SPIN: Shadow Predictive Indexer for Sparse Attention",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Minhao Fan": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.11231v1",
+        "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Yinyi Liu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.11231v1",
+        "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Jiayu Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.11231v1",
+        "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Zihan Teng": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.11231v1",
+        "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Song Chen": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.11231v1",
+        "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Weichen Liu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.11231v1",
+        "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Daniel Robert Kling Alexander": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.10506v1",
+        "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Catherine Louise Kling": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.10506v1",
+        "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Zehuan Chen": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.11294v1",
+        "title": "ORDO: Operation-level Round-aware Dynamic Ordering for MIP Presolve",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Chunhe Song": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.11294v1",
+        "title": "ORDO: Operation-level Round-aware Dynamic Ordering for MIP Presolve",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Ryan Swift": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.10854v1",
+        "title": "KDFP: A first-principles approach to knowledge distillation in large language models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Konstantinos Psounis": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.10854v1",
+        "title": "KDFP: A first-principles approach to knowledge distillation in large language models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Christopher M. Stewart": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.12409v1",
+        "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Preston Botter": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.12409v1",
+        "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Natalie Sarabosing": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.12409v1",
+        "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Muye Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.12409v1",
+        "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Rachel Phinnemore": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.12409v1",
+        "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Shalini Ghosh": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.12409v1",
+        "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Wenpeng Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.06578v1",
+        "title": "DGA-Muon: Decoupled Geometry-Aligned Adaptive Scaling for Muon",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
+    "last_seen": "2026-W41"
+  },
+  "Runsheng Yu": {
+    "appearances": [
+      {
+        "week": "2026-W41",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.06578v1",
+        "title": "DGA-Muon: Decoupled Geometry-Aligned Adaptive Scaling for Muon",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W41",
     "last_seen": "2026-W41"
   }
 }
