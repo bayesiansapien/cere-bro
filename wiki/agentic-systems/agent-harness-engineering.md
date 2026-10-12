@@ -739,3 +739,9 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Production:** Uber's legal redlining agent reached 91% decision accuracy with retrieval over past decisions plus one self-check call, no fine-tuning.
 - **[HarnessSQL (HKUST + MSR, DAIR pick)](2026-10-11-harnesssql-harness-native-training.md).** The constructive version of the same pattern: build the deployment harness into training. Verified teacher trajectories inside the target SQL harness, then execution-reward RL, lift Qwen3-14B from 22.2% to 54.8% on Spider 2.0-SQLite. Pattern count moves to n=5.
 - **Containment becomes a platform primitive.** Microsoft Execution Containers (MXC) enforce file, network and system policy outside the agent across Windows, Linux and macOS; Copilot, Codex, Replit and OpenClaw already support it.
+
+## 2026-10-12: the harness becomes shared memory
+
+- [GitSwarm (10-12)](2026-10-12-gitswarm-compounding-inference.md): the harness centrally schedules and validates, but the choice of work is decentralized to agents reading a shared Git history. The harness here is less a loop around one model than a commons for hundreds.
+- Pedro Domingos on Harness Learning ([2609.35738](https://arxiv.org/abs/2609.35738), covered 10-04): "the model swallows the harness"; Musk: "same thing happened with Tesla FSD". DAIR's weekly list (Oct 5-11) leads with Harness Learning.
+- [AAArena (10-12)](2026-10-12-agent-team-costs-and-research-world-models.md): tripling budget did not lift stuck bots, consistent with the 10-11 harness-ceiling result.

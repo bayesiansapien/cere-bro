@@ -2097,3 +2097,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-11] social-stream | 2026-10-11 morning | social-stream
 ## [2026-10-11] media-zone | Media Zone 2026-10-11 (finalized) | media-zone
 ## [2026-10-11] digest | cere-bro 2026-10-11 | daily-digest
+## [2026-10-12] ingest | GitSwarm, agent team costs + Research World Models, Decision 3.0/THX-01, Decart/Trainium, inference reverse auction | rss + gmail + x-feed
+## [2026-10-12] social-stream | 2026-10-12 morning | social-stream
+## [2026-10-12] media-zone | Media Zone 2026-10-12 (finalized) | media-zone
+## [2026-10-12] digest | cere-bro 2026-10-12 | daily-digest

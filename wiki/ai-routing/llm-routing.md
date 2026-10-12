@@ -851,3 +851,9 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Still missing:** none of the launches reports AUROC or calibration error, the two metrics System Switch (10-09) showed actually predict escalation value. Microsoft's latency is also contested (one tester: 200-600 ms in practice).
 - **Memory routing:** [MemoType](../agentic-systems/2026-10-11-harness-ceiling-and-trained-orchestration.md) proves a single retrieval strategy has a precision ceiling on mixed memory and routes each query to a type-specific strategy (+16.18% Recall@1). Same classify-then-dispatch primitive, applied to agent memory.
 - **Shift:** the cheap gate is now a commodity product with four vendors; the differentiator is calibration, not accuracy.
+
+## 2026-10-12: the gate goes multimodal and reports calibration
+
+- **[Decision 3.0, THX-01, JEV-27B-VL (10-12)](2026-10-12-decision-3-multimodal-and-calibrated-gates.md).** vllm-sr's Decision 3.0 adds image/screen input in six sizes (0.6B-26B). HAL-X's THX-01 (322M encoder, proper-scoring-rule RL) reports ECE 0.003, the first calibration number from a launch in the category. AutoTrust's JEV-27B-VL passes 1.54M downloads. Two vendors claim the same vision-board lead.
+- **Pricing link:** swarms route narrow child jobs to the cheapest model that passes, which is why per-seat pricing gives way to metering ([industry, 10-12](../ai-industry/2026-10-12-inference-reverse-auction-and-capability-funnel.md)).
+- **Open:** still no AUROC from any launch, and no independent calibration audit.

@@ -202,3 +202,9 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 
 - [VeriHarness (10-05)](../agentic-systems/2026-10-05-veriharness-agentic-verification.md): consensus across rollouts hides shared errors; a resolver checks disagreements against workspace evidence and a challenger attacks agreements. +6.2 (Gemini 3.5 Flash) and +6.4 (Opus 4.8) points over one rollout. Second verifier-first result after Mid-Harness (10-02). Majority voting assumes independent errors; same-model rollouts violate that.
 - [Beyond Token Savings (10-05)](2026-10-05-context-compression-beyond-token-savings.md): compression that cuts tokens can add 20-80% latency. Allocation should be scored on wall-clock and cost per solved task, not tokens.
+
+## 2026-10-12: make past compute reusable
+
+- [GitSwarm (10-12)](../agentic-systems/2026-10-12-gitswarm-compounding-inference.md) names **compounding inference**: test-time compute organized so intermediate work, including failures, persists and is reused. 70.1% of failed research commits were cited by later accepted work.
+- [Research World Models (10-12)](../agentic-systems/2026-10-12-agent-team-costs-and-research-world-models.md): an LLM forecasts an experiment's gain from logged history before it runs. Records plus low reasoning effort (0.892 rank correlation) beat max effort without records (0.648). History is a cheaper input than more thinking.
+- [Vals AI (10-12)](../agentic-systems/2026-10-12-agent-team-costs-and-research-world-models.md): teams add little once the solo agent runs at max effort. Team size and reasoning effort are substitutes, not complements.

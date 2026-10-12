@@ -393,3 +393,10 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Supply book:** Anthropic's reported ~$585B of compute across 14 suppliers; Google's TPU deal runs ~$40B/yr vs Amazon's ~$10B/yr.
 - **Vertical move:** [Nvidia in talks to acquire or fund Reflection AI](../ai-industry/2026-10-11-arxiv-cap-nvidia-reflection-and-the-revenue-gauge.md) ($25B), a second chip-vendor step into the model layer after Groq.
 - **Shift:** the falling cost of intelligence that Lambert predicted (10-10) is arriving through routing and mix, not list prices.
+
+## 2026-10-12: utilization as the asset, and a reverse auction on top
+
+- **[Amazon-Decart talks, ~$7B (10-12)](2026-10-12-decart-trainium-and-agent-cpu-demand.md).** Decart's stack moved real-time video from 26 fps on GPUs to ~101 fps on Trainium; Amazon is buying the software that fills its own silicon. Third chip-side buy of a model/software team in two weeks (AMD-World Labs, Nvidia-Reflection talks).
+- **CPU side:** Vera projected at ~$60B by 2028 on agent orchestration demand; Nuvacore raising at $2.5B for data-center CPUs.
+- **[Inference reverse auction (10-12)](../ai-industry/2026-10-12-inference-reverse-auction-and-capability-funnel.md):** easy capital, neolab spare compute and one-line switching keep pushing hosted-inference prices down; swarms route narrow jobs to the cheapest passing model and force metered pricing.
+- **Shift:** price per token falls from three directions at once: mix (10-11), utilization software (Decart), and provider competition.
