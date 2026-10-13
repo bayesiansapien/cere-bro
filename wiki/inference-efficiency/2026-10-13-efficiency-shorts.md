@@ -1,0 +1,29 @@
+# Efficiency shorts, 2026-10-13
+
+**Sources:** HuggingFace Daily Papers 2026-10-12, X Following feed (DAIR picks), lab watcher (Meta Engineering, IBM Research, Apple ML Research). Raw: `raw/huggingface/2026-10-12-*.md`, `raw/twitter/feed/2026-10-13-morning-ranked.json`, `raw/labs/2026-10-13-*.md`.
+
+## Compression and quantization
+
+- **SoloQ: calibration-free quantization for diffusion LLMs** ([arXiv 2610.07121](https://arxiv.org/abs/2610.07121), USC). Diffusion LMs change their activation distribution with every masking state and denoising step, so a calibration set is never representative. SoloQ rotates weights and activations into a basis with a predictable marginal distribution (structured K-RPBH rotation plus a light rescale), so quantizers can be designed without data, including hardware-native NVFP4. For block-diffusion models it quantizes the KV cache at commit time, never touching the block being denoised. 4-bit holds accuracy on LLaDA, Dream, Fast-dLLM v2 and Nemotron-Labs-Diffusion; NVFP4 gives up to 2.61x less peak memory and 2.24x faster end-to-end. Fourth "fit the rotation to the job" paper in two weeks (see [QuantMLA](2026-10-13-quantmla-low-bit-mla-kv-cache.md)).
+- **The life cycle of a massive activation** ([arXiv 2610.00423](https://arxiv.org/abs/2610.00423)). Massive activations (a few residual channels far larger than the rest, tied to attention sinks, and the main reason activation quantization needs outlier handling) are born stochastically, then grown by AdamW and checked by weight decay. Peak magnitude scales roughly as λ^-1/2 in the decay coefficient, and removing decay near the peak lets them keep growing. Weight decay is a training-time lever on how quantizable the model will be. Extends the 08-14 massive-activations page.
+- **LatentGRM: judges that reason in latent space** ([arXiv 2610.09788](https://arxiv.org/abs/2610.09788)). A generative reward model compresses its rubric-guided evaluation into short continuous trajectories instead of writing text. 8.9-9.2x shorter trajectories and 6.1-7.0x less judge inference time at vote@5, competitive preference accuracy with SFT judges at 4B and 8B. Reward-model inference is a real share of RL cost; this is token compression applied to the grader.
+
+## Training memory and MoE
+
+- **LoGRA: full-weight RL with less memory than LoRA** ([arXiv 2610.06647](https://arxiv.org/abs/2610.06647), NVIDIA; DAIR Academy pick, surfaced via the X feed). Each selected weight gradient is accumulated as a rank-256 random-projection sketch (redrawn every step), so the full gradient buffer never exists; the update is rebuilt from two small matrices, which also makes syncing weights to rollout workers cheaper. A predicted-KL controller scales each step to a KL budget instead of annealing the learning rate. 1.5B: 7.2 GiB vs 13.2 GiB for rank-256 LoRA, Pass@4 81.8 vs 81.4. 7B: 31.8 to 17.3 GiB average memory per GPU, Pass@1 72.3 vs 72.5 dense Adam. Trains 27B for 1,100+ steps on one 8-GPU node where dense Adam OOMs.
+- **DRMoET: train MoE routing for robustness, not just balance** ([arXiv 2610.07207](https://arxiv.org/abs/2610.07207)). Load-balancing makes experts equally busy, not equally competent, so misrouted tokens land on undertrained experts. DRMoET reweights experts toward high-loss routing outcomes with an entropy-regularized softmax over EMA-smoothed expert losses. At 10.3B total / 67B tokens: seven-task average 0.6625 to 0.6767 (aux-loss-free balancing: 0.6431); 4.3% lower excess loss under forced misrouting.
+- **QwenGyre** (Alibaba, arXiv 2609.33848, via the X feed). Agentic RL rollouts run for hours at 700K+ tokens while GPUs wait on tools. An elastic scheduler lends idle GPUs to other training work and reclaims them; shared trajectory prefixes are not recomputed; partial progress after a timeout is scored. Up to 1.85x faster than colocated training; on a Qwen 3.8 2.4T run, NL2RepoBench 52.5% to 58.5% in 48 steps with 44% less time than async.
+
+## Kernels
+
+- **MetaKernelBench** ([arXiv 2610.05014](https://arxiv.org/abs/2610.05014)). Do kernel-agent "skills" transfer across DSLs? 74 fused-subgraph problems posed in CuTe DSL and TIRx. An agent distils a natural-language skill from one attempt and reuses it in the other DSL. Lift ranges -19% to +29%; regressions on 16-45% of problems for every model. Transfer helps when the source attempt beat the target's solo attempt (71% improve) and hurts when it was worse (54% regress). Skill libraries need a quality gate.
+
+## Serving at fleet scale (lab posts)
+
+- **Meta: opportunistic inference capacity for ads** ([Meta Engineering](https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/)). Fleets are "globally constrained but locally idle" (peak provisioning, delivery-vs-launch timing, CPU/accelerator ratio and accelerator-type mismatch). Two elastic levers soak up idle pockets: Rank More Ads (more candidates per ranking stage) and Serve Better Models (route a larger share of requests to a bigger model), with value-aware load shedding when capacity is reclaimed. A production case of routing share as a function of spare capacity.
+- **IBM: llm-d explainer** ([IBM Research](https://research.ibm.com/blog/distributed-inference)). Six mechanisms above vLLM/SGLang: prefix-cache-aware routing, KV offloading, flow control, batch filling of spare capacity, prefill/decode disaggregation, wide expert parallelism.
+- **Apple Minions** ([Apple ML Research](https://machinelearning.apple.com/research/distributed-gpu-cloud)). A virtual GPU cloud for inference built from idle Apple-silicon Macs, with fault tolerance. Same "idle capacity" theme as Meta's post, on the client side.
+
+## Related
+
+[quantization](quantization.md) · [kv-cache](kv-cache.md) · [rl-for-llms](../llms-foundation-models/rl-for-llms.md) · [gpu-kernels](../hardware/gpu-kernels.md) · [llm-routing](../ai-routing/llm-routing.md)
