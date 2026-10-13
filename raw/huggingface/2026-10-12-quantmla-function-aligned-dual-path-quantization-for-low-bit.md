@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-13T10:40:18.223365+05:30
+arxiv_id: 2609.36760
+url: https://huggingface.co/papers/2609.36760
+arxiv_url: https://arxiv.org/abs/2609.36760
+date: 2026-10-12
+---
+
+# QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching
+
+Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decoupled RoPE paths, yet cache memory still scales linearly with context length and batch size. In this work, we establish a systematic model of MLA's dual-path quantization errors, characterizing their distinct effects on attention-output distortion and explaining the pronounced amplification of RoPE-path errors. Guided by this analysis, we introduce QuantMLA, a function-aligned framework for low-bit dual-path quantization. We derive path-specific transformation spaces that preserve full-precision computation while remaining fully fusible into model parameters offline, eliminating online transformation overhead. Within these spaces, QuantMLA learns path-specific transformations with function-aligned objectives: attention-output reconstruction captures the content path's coupled matching and aggregation errors, while positional QK reconstruction preserves the RoPE-induced component of the attention logits and admits a theoretical bound on output distortion. Across four MLA model families, QuantMLA enables, to our knowledge, the first reported joint INT4 caching of the content and RoPE caches with minimal accuracy degradation. Further compressing the content cache to INT2 while retaining the RoPE key cache at INT4 maintains competitive performance on challenging reasoning and code benchmarks. We develop a native low-bit MLA attention kernel that integrates unpacking and dequantization directly into attention computation. The physical cache layout provides 3.59x compression at 128K context, while a cache-pressure serving workload achieves 5.168x higher whole-job output throughput than BF16. The code will be released upon acceptance.
