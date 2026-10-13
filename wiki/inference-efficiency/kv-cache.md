@@ -737,3 +737,12 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 ## 2026-10-11: moving the cache across the network
 
 - **[Serving shorts (10-11)](2026-10-11-serving-shorts.md).** AMD's MoRI + vLLM work moves KV between disaggregated prefill and decode pods over RDMA, the network-layer version of the 10-09/10-10 "keep the state" results. The kilolayer-NAND perspective ([hardware, 10-11](../hardware/2026-10-11-hyper-na-kilolayer-nand-and-token-spend.md)) warns the flash tier under offloaded caches gets noisier per layer.
+
+
+## 2026-10-13: both halves of the MLA cache, and the SSM state's write traffic
+
+- **[QuantMLA (10-13)](2026-10-13-quantmla-low-bit-mla-kv-cache.md).** MLA's latent cache has two paths with different error sensitivity: RoPE-path error is amplified, content-path error is not. Path-specific, offline-fusible transforms give the first joint INT4 of both; INT2 content + INT4 RoPE stays competitive; 3.59x physical compression at 128K, 5.17x whole-job throughput vs BF16 under cache pressure.
+- **[ReplaySSM (10-13)](2026-10-13-replayssm-cache-inputs-not-state.md), NVIDIA + Dao AI Lab.** In hybrids the SSM state, not the KV cache, is the decode bottleneck at batch 256 up to ~100K tokens (one Mamba-2 layer's FP32 state = an FP8 KV cache at ~8K tokens). Store checkpoint + recent inputs, write the state once per 16 tokens: kernel 1.46-1.80x, speculative throughput 1.85-2.10x on 120B-class. In production in GLM-5.3-Flash and Kimi-K3.
+- **[Priming (10-13)](../llms-foundation-models/2026-10-13-priming-hybrid-ssm-from-transformers.md), Amazon.** Convert local attention layers to SSMs for <0.5% of pretraining tokens; a 32B hybrid decodes up to 2x faster at 128K. SSMs beat sliding-window attention even at 2x its memory budget.
+- **[ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md).** Looped models keep only the last loop's KV, holding cache at the one-loop level.
+- **Shift:** the cache question has split in two. For attention, it is now about *which bits* of a latent are fragile (position). For hybrids, it is about *write traffic* of a fixed-size state. Both papers find the sensitive component and protect only that.

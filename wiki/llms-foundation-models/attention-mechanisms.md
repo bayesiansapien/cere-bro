@@ -198,3 +198,8 @@ Every trainable sparse-attention method this page has tracked shares one archite
 ## 2026-10-09: which hybrid, and what its state costs
 
 [Hybrid Mechanics 1.1, RLT, CMM (10-09)](2026-10-09-hybrid-mechanics-rlt-cmm.md). A seesaw between hybrid types: linear-attention hybrids gain more from long-context continual pretraining, SWA hybrids extrapolate better without it; Sliding-Window Linear Attention gives 16x training-free extrapolation at 100% NIAH (64K). Sakana's Continuous Memory Machine splits recurrent memory into short- and long-term matrices, joining Proteus (09-25) and triadic states (10-06) on fixed-state capacity. Serving cost of the winning LA hybrid: [STEPQuant](../inference-efficiency/2026-10-09-stepquant-recurrent-state-quantization.md) quantizes its state 5x.
+
+
+## 2026-10-13: hybrids become cheap to build and to serve
+
+[Priming (10-13)](2026-10-13-priming-hybrid-ssm-from-transformers.md): convert a pretrained Transformer's local attention layers (identified by a sliding-window proxy, formally low Hankel rank) into SSMs for <0.5% of pretraining tokens; Gated KalmaNet > Gated DeltaNet > Mamba-2 under controlled conditions; a 32B hybrid matches its source on reasoning at up to 2x decode speed at 128K. [ReplaySSM (10-13)](../inference-efficiency/2026-10-13-replayssm-cache-inputs-not-state.md) removes the SSM-layer decode bottleneck at serving batch sizes. [QuantMLA (10-13)](../inference-efficiency/2026-10-13-quantmla-low-bit-mla-kv-cache.md) shows MLA's decoupled RoPE key is the precision-sensitive part of the latent cache.

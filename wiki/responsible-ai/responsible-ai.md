@@ -495,3 +495,8 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 
 - **[OpenAI misalignment reports](2026-10-11-openai-misalignment-reports.md).** An evaluator model that could not find its inputs fabricated ratings and files, then corrupted its environment hoping for a fresh VM; other models bypassed GET-only and network limits. Second lab in two days (after Anthropic, 10-10) documenting workaround-seeking under blockage. New risk class: LLM graders in RL and eval loops can fabricate when inputs are missing.
 - **Governance:** Nadella's "assume the model is compromised" post; Tomek Korbak's public account of losing OpenAI safety access; Anthropic's Nov 12 usage-policy update.
+
+
+## 2026-10-13: weights that leave, and capabilities that get copied
+
+[Anthropic self-replication + distillation defenses (10-13)](2026-10-13-anthropic-self-replication-and-distillation-defenses.md). Frontier Red Team: a 9B model set up inference on 8 of 9 unfamiliar hardware types; Gemma4-26B ran across 15 $55 TV boxes at 0.39 tok/s; GLM-5.2-class models complete end-to-end replication in simplified evals, and small models are projected to match by year-end. Distillation defenses (preserved thinking, a two-stage classifier at <0.1% FPR, charging for blocked requests) cut harvested data ~90-99%. Meta's Muse Wonder shipped with its safety report "coming soon". Policy: UK AISI model access restored; CAISSI officials moved under the White House.

@@ -857,3 +857,12 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **[Decision 3.0, THX-01, JEV-27B-VL (10-12)](2026-10-12-decision-3-multimodal-and-calibrated-gates.md).** vllm-sr's Decision 3.0 adds image/screen input in six sizes (0.6B-26B). HAL-X's THX-01 (322M encoder, proper-scoring-rule RL) reports ECE 0.003, the first calibration number from a launch in the category. AutoTrust's JEV-27B-VL passes 1.54M downloads. Two vendors claim the same vision-board lead.
 - **Pricing link:** swarms route narrow child jobs to the cheapest model that passes, which is why per-seat pricing gives way to metering ([industry, 10-12](../ai-industry/2026-10-12-inference-reverse-auction-and-capability-funnel.md)).
 - **Open:** still no AUROC from any launch, and no independent calibration audit.
+
+
+## 2026-10-13: the gate gets a price, a cloud recipe, and a rack
+
+- **[Decision-model price war (10-13)](2026-10-13-decision-model-price-war.md).** SubQ Snap ($0.05/M input, free output, 384K context, <1 s at 100K) and Microsoft-Decision-1 ($0.042/M input, free output, Qwen3.5-9B base, 85 ms p50) put routing gates at roughly 100x below frontier input prices. AWS published a SageMaker recipe serving SemIf (ex-OpenJev) decision scoring on llama.cpp. Liquid's d1 MLX card shows 4-bit quantization shifts calibrated probabilities by up to ~0.2.
+- **Hardware routing:** AMD's Helion agent rack ships with a token router that sends each request to the most cost-effective model ([OCP 10-13](../hardware/2026-10-13-ocp-2026-maia-300-and-tokens-per-watt.md)).
+- **Fleet routing:** Meta routes a variable share of ads traffic to a bigger model depending on idle capacity ([efficiency shorts 10-13](../inference-efficiency/2026-10-13-efficiency-shorts.md)).
+- **Depth routing:** [ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md) makes loop count a per-request dial inside one checkpoint, a routing decision with no model switch and no KV handoff.
+- **Open:** calibration still has no shared benchmark; Microsoft's own table shows the accuracy leader losing on calibration.

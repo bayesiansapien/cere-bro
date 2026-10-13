@@ -126,3 +126,8 @@ AlphaSignal's explainer ([efficiency shorts](../inference-efficiency/2026-10-08-
 ## 2026-10-10: loops as a residual-guarded budget knob
 
 InfiLoop adds a loop-native residual (content weighting plus temporal decay, constant memory) so a 7M looped model keeps improving past 20,000 effective steps (Sudoku-Extreme 97.9%, ARC-AGI-2 pass@2 13.6%). SanSi turns a looped LM into a typed decision model readable after every loop (1-8), "System 1.5": 13.5 points over a non-looped twin. Both in [efficiency shorts (10-10)](../inference-efficiency/2026-10-10-efficiency-shorts.md).
+
+
+## 2026-10-13: no one-loop tax
+
+[Elastic Latent Recurrence (10-13)](2026-10-13-elastic-latent-recurrence-koi.md). Gated state update with learned step size, mixed loop counts per optimizer update, and loop-index/budget conditioning: at one loop a 4B dense / 30B-A3B MoE hybrid is -0.52 / +1.04 vs matched baselines; four loops add +7.25 / +4.75. Only the last loop's KV is kept, so cache stays at one-loop size. Reusing first-loop MoE routes on later loops cuts mixed-depth update time 11.7%. Revises the 10-08 practical rule (budget ~2x KV and ~75% token efficiency): if ELR reproduces, neither cost applies. Koi-4B released.

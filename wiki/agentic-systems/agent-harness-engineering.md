@@ -745,3 +745,8 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - [GitSwarm (10-12)](2026-10-12-gitswarm-compounding-inference.md): the harness centrally schedules and validates, but the choice of work is decentralized to agents reading a shared Git history. The harness here is less a loop around one model than a commons for hundreds.
 - Pedro Domingos on Harness Learning ([2609.35738](https://arxiv.org/abs/2609.35738), covered 10-04): "the model swallows the harness"; Musk: "same thing happened with Tesla FSD". DAIR's weekly list (Oct 5-11) leads with Harness Learning.
 - [AAArena (10-12)](2026-10-12-agent-team-costs-and-research-world-models.md): tripling budget did not lift stuck bots, consistent with the 10-11 harness-ceiling result.
+
+
+## 2026-10-13: state in the harness, not the transcript
+
+[Stateless agents, SelfCompact, Fork-and-Flush, ReHarness (10-13)](2026-10-13-stateless-agents-self-compaction-and-idea-basins.md). SLA: the harness owns research state and builds a fresh role-specific context per call; best final result on every task at up to 1B tokens, 84% fewer tokens to match the best kernel baseline. SelfCompact (Apple): a compaction tool plus a when-to-fire rubric, 30-70% cheaper. Fork-and-Flush (Microsoft): fork copies with empty chat history over the same workspace to escape "idea basins", up to 66% better at equal compute. ReHarness: revise past reflections backward from new trajectories. DUET: co-evolve solver and grader. **Pattern (n=4 this week, with GitSwarm 10-12):** durable state moves out of the conversation into the harness or workspace.

@@ -216,3 +216,13 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 ## 2026-10-09: the recurrent state is the next thing to quantize
 
 [STEPQuant (10-09)](2026-10-09-stepquant-recurrent-state-quantization.md), the day's top HF paper. Delta-rule recurrent states (Gated DeltaNet, Kimi-Linear) are rewritten every token, so uniform low-bit error compounds. STEPQuant allocates bits by error lifetime (gate decay) and key-row impact on the output, with joint key-row and value-column scales. 6 bits matches FP32 state on Qwen3.8-27B and Kimi-Linear-48B-A3B; 4 bits beats uniform INT8; >5x state compression and up to 68.7% less serving memory in SGLang. **Same principle as QuantWM (10-06): allocate by impact on the readout, not by reconstruction error.** Also: Red Hat shipped more MXFP4 checkpoints for AMD GPUs ([shorts](2026-10-09-efficiency-shorts.md)).
+
+
+## 2026-10-13: function-aligned transforms reach MLA caches and diffusion LMs
+
+- **[QuantMLA (10-13)](2026-10-13-quantmla-low-bit-mla-kv-cache.md):** separate learned transforms for MLA's content and RoPE caches, folded into weights offline; joint INT4, INT2 content.
+- **SoloQ ([efficiency shorts 10-13](2026-10-13-efficiency-shorts.md)):** calibration-free W/A quantization for diffusion LMs via rotation to a predictable distribution; NVFP4 gives 2.61x less memory, 2.24x faster; commit-time KV quantization for block diffusion.
+- **Massive activations (same page):** weight decay causally sets their peak (≈λ^-1/2), a training-time lever on later quantizability.
+- **ReplaySSM:** keep a high-precision checkpoint for the recurrence and read a low-precision copy, so state rounding never compounds (complements STEPQuant, 10-09).
+- **Calibration under quantization:** Liquid's d1 card shows 4-bit moves decision probabilities by up to ~0.2 vs ~0.015 at 8-bit ([decision models 10-13](../ai-routing/2026-10-13-decision-model-price-war.md)). For calibrated-output models, accuracy is the wrong metric to validate a quant.
+- **Pattern (n=4 in two weeks):** PrismQuant (10-01), WUSH-KV (10-02), QuantMLA and SoloQ all fit the rotation/transform to the function or distribution the tensor serves, not to generic outlier removal.

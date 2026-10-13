@@ -2101,3 +2101,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-12] social-stream | 2026-10-12 morning | social-stream
 ## [2026-10-12] media-zone | Media Zone 2026-10-12 (finalized) | media-zone
 ## [2026-10-12] digest | cere-bro 2026-10-12 | daily-digest
+## [2026-10-13] ingest | QuantMLA, ReplaySSM, Priming, Semi-OPD cluster, DCOCO/PreSTO, ELR, efficiency shorts, decision-model prices, OCP/Maia 300, Anthropic self-replication + distillation, stateless agents, Muse Wonder, industry roundup | huggingface + labs + rss + gmail + x-feed
+## [2026-10-13] social-stream | 2026-10-13 morning | social-stream
+## [2026-10-13] media-zone | Media Zone 2026-10-13 (finalized) | media-zone
+## [2026-10-13] digest | cere-bro 2026-10-13 | daily-digest

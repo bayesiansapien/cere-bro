@@ -388,3 +388,8 @@ Two papers landed together and they are in direct tension. Neither cites the oth
 ## 2026-10-11: memory needs a router
 
 - **[MemoType (NeurIPS 2026)](2026-10-11-harness-ceiling-and-trained-orchestration.md)** proves any single retrieval strategy has an upper bound on expected precision when a store mixes memory types. A trained router labels memories and queries by type (TriMEM dataset) and applies a type-specific strategy: up to +16.18% Recall@1. Complements REMORY (10-10, learned memory tokens after compaction): one fixes what is kept, the other how it is fetched.
+
+
+## 2026-10-13: memory as product vs memory as measured
+
+Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llms-foundation-models/2026-10-13-meta-muse-wonder.md)), and Zuckerberg names "memory and persistence" as next priorities. The same day, a UCLA-led study ([arXiv 2610.07782](https://arxiv.org/abs/2610.07782), in [10-13 agents page](2026-10-13-stateless-agents-self-compaction-and-idea-basins.md)) found a persistent reasoning-trace tier adds +0.368 MiB of KV per query for +0.015 accuracy (CI crosses zero) on single-question benchmarks. TencentDB Agent Memory (open source, SQLite, layered L0-L3 markdown memory) claims 61% fewer tokens and PersonaMem 48% to 76% (vendor). No benchmark yet measures multi-session personal-assistant memory.

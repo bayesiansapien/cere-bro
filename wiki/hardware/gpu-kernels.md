@@ -344,3 +344,8 @@ To get bitwise reproducibility across heterogeneous commodity hardware, the pape
 ## 2026-10-09: hardware counters in the agent loop
 
 KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU performance counters into Triton kernel optimization; 1.56x over default torch.compile and 2.02x over its earlier versions across all 100 KernelBench L1 tasks ([shorts](../inference-efficiency/2026-10-09-efficiency-shorts.md)). STEPQuant shipped custom SGLang kernels for quantized recurrent states ([page](../inference-efficiency/2026-10-09-stepquant-recurrent-state-quantization.md)).
+
+
+## 2026-10-13: SSM decode kernels, low-bit MLA attention, kernel-skill transfer
+
+[ReplaySSM (10-13)](../inference-efficiency/2026-10-13-replayssm-cache-inputs-not-state.md): SSM decode is HBM-bound; caching inputs and writing state once per window gives 1.46-1.80x kernel speedups at batch 256 on B300; in TensorRT-LLM, vLLM, FlashInfer. [QuantMLA (10-13)](../inference-efficiency/2026-10-13-quantmla-low-bit-mla-kv-cache.md) ships a native low-bit MLA kernel that dequantizes inside attention. MetaKernelBench ([shorts](../inference-efficiency/2026-10-13-efficiency-shorts.md)): agent-distilled kernel skills transfer between CuTe DSL and TIRx with -19% to +29% lift and regressions on 16-45% of problems. [SLA (10-13)](../agentic-systems/2026-10-13-stateless-agents-self-compaction-and-idea-basins.md) reached the best kernel baseline with 84% fewer tokens.

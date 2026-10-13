@@ -368,3 +368,8 @@ Two companions supply the discipline and the ceiling. Google Research's RRSI rep
 
 - **[MASS (Sakana + Berkeley)](2026-10-11-harness-ceiling-and-trained-orchestration.md).** One model proposes, runs and grades multi-agent workflows, evolutionary search keeps the best, and the model is fine-tuned on both orchestration and bounded sub-agent traces. Two cycles on Qwen3.6-27B: 1.2-1.6x performance per output token. Risk this wiki flagged on 10-07 (self-generated feedback destabilizes training) and OpenAI's 10-11 report of an evaluator model fabricating scores both bear on whether a third cycle holds.
 - **IdeaScientist (Meta):** three RL-trained ideation roles over 2.77M decomposed ideas; a 27B model beats the best open autoresearch baseline by 14%.
+
+
+## 2026-10-13: graders that evolve, and research taste on a curve
+
+DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPval grader agreement 68.4% to 78.5%); training the grader alone barely helps. Double Ratchet (AWS + HSBC) evolves a rule-based grader selected only for agreement with 10 labels. RSI-Anything gates policy updates with world-model compatibility checks. Import AI reports P-Zero's TasteVal: experimental research taste doubling every 3.0 months since Dec 2025, Opus 5.5 above a 24-expert baseline at 1/30 cost ([industry 10-13](../ai-industry/2026-10-13-industry-roundup-reflection-taste-and-capital.md)). Anthropic's Memento harness shows replicating agents improve across generations via notes ([10-13](../responsible-ai/2026-10-13-anthropic-self-replication-and-distillation-defenses.md)).

@@ -400,3 +400,11 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **CPU side:** Vera projected at ~$60B by 2028 on agent orchestration demand; Nuvacore raising at $2.5B for data-center CPUs.
 - **[Inference reverse auction (10-12)](../ai-industry/2026-10-12-inference-reverse-auction-and-capability-funnel.md):** easy capital, neolab spare compute and one-line switching keep pushing hosted-inference prices down; swarms route narrow jobs to the cheapest passing model and force metered pricing.
 - **Shift:** price per token falls from three directions at once: mix (10-11), utilization software (Decart), and provider competition.
+
+
+## 2026-10-13: tokens per watt at OCP, and the capital wall
+
+- **[OCP 2026 / Maia 300 (10-13)](2026-10-13-ocp-2026-maia-300-and-tokens-per-watt.md):** Microsoft makes Maia its primary inference silicon from 2027 (claimed 40% more tokens per MW than GPUs; 96 chips, 167 kW, 27.6 TB HBM per rack); NVIDIA opens Vera Rubin rack designs (MGX 1.2, 250 kW racks); Meta's 102.4T IcePack network; AMD Helion CPU-first agent rack with a token router; Navitas 800V-to-12V boards (~15 MW per GW from 1.5 points of efficiency).
+- **Capital, not power:** Eric Schmidt ($50B per GW) and Broadcom's Hock Tan both say financing is the next limit; Bain's Bridge Data Centres upsizes a loan to ~$6.6B; a16z and General Catalyst buy compute for portfolio companies ([industry 10-13](../ai-industry/2026-10-13-industry-roundup-reflection-taste-and-capital.md)).
+- **GPU lifetime:** Zuckerberg says an H100 is worth more now than a year ago, supporting longer depreciation for neoclouds.
+- **Shift:** the efficiency metric quoted by vendors moved from FLOPs and HBM capacity to tokens per watt, measured at rack level. No independent cross-vendor benchmark exists yet.

@@ -268,3 +268,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## 2026-10-10: grading compute becomes a scaling axis
 
 [MiMo-V2.6 (10-10)](2026-10-10-mimo-v2-6-scaled-agentic-rl.md): 1.02T/42B-active Pro, async RL at 1,568 samples and 2.7-3.7B tokens per step up to 1M context, frozen MoE router, and a groupwise agentic grader that shifts reward among passing patches toward clean fixes. DeepSWE 58.4 to 72.6 over about $2.6M of RL, still climbing. Agent Lightning v1.0 (Microsoft) trains the deployed harness unchanged (Qwen3.5-9B SWE-bench Verified 41.8% to 56.4% from ~6,000 samples). ReSPO replaces clipping with a two-branch kernel to stop gradient starvation of under-generated positive responses in off-policy RLVR.
+
+
+## 2026-10-13: RL memory and idle rollout GPUs
+
+[LoGRA (efficiency shorts 10-13)](../inference-efficiency/2026-10-13-efficiency-shorts.md), NVIDIA: low-rank random gradient sketches plus predicted-KL step control; full-weight RL with less memory than rank-256 LoRA (7.2 vs 13.2 GiB at 1.5B), 45.7% less at 7B, 27B on one 8-GPU node. QwenGyre (Alibaba): lend idle GPUs during hours-long agent rollouts to other training, share trajectory prefixes, score partial progress; up to 1.85x faster. LatentGRM: a latent-space reward judge, 6-7x less judge inference time. Semi-OPD ([10-13](../inference-efficiency/2026-10-13-semi-opd-and-when-on-policy-distillation-fails.md)) shows fresh rollouts are not always worth their cost.

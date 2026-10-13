@@ -167,3 +167,8 @@ Uno **decouples parameters into autoregressive weights trained with ordinary nex
 ## 2026-10-10: speculation in diffusion LMs, and token routing as its general case
 
 SpecFold reuses parent computation across near-identical draft branches in diffusion-LLM multi-branch verification (up to 1.99x over vanilla) ([shorts](2026-10-10-efficiency-shorts.md)). [TokenRouter (10-10)](../ai-routing/2026-10-10-tokenrouter-token-level-routing-serving.md) serves token-level routing, where the small model's tokens are kept rather than only verified; its parked-KV design is what a speculative engine would need to let draft and target swap roles.
+
+
+## 2026-10-13: repairing parallel drafts, prefetching samplers, and rollback for SSMs
+
+[Speculation shorts (10-13)](2026-10-13-dcoco-presto-speculation-shorts.md). **DCOCO** keeps top-k candidates per slot of a diffusion drafter's block and scores neighbour compatibility in parallel: up to 6.6x over vanilla, +6-23% over the best rival at 4-32 concurrent requests. **PreSTO** applies speculation to power sampling's Metropolis-Hastings chain (1.71-2.33x median, distribution provably unchanged). **Entropy/CKA layer selection** beats EAGLE-3's default target layers. **[ReplaySSM (10-13)](2026-10-13-replayssm-cache-inputs-not-state.md)** closes this page's hybrid-model gap: SSM rollback becomes a buffer truncation, 1.85-2.10x speculative throughput on 120B-class hybrids. Open: does DCOCO's gain stack with DLoop's (10-09) verification skipping?

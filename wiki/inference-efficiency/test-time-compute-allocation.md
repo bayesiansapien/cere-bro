@@ -208,3 +208,8 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 - [GitSwarm (10-12)](../agentic-systems/2026-10-12-gitswarm-compounding-inference.md) names **compounding inference**: test-time compute organized so intermediate work, including failures, persists and is reused. 70.1% of failed research commits were cited by later accepted work.
 - [Research World Models (10-12)](../agentic-systems/2026-10-12-agent-team-costs-and-research-world-models.md): an LLM forecasts an experiment's gain from logged history before it runs. Records plus low reasoning effort (0.892 rank correlation) beat max effort without records (0.648). History is a cheaper input than more thinking.
 - [Vals AI (10-12)](../agentic-systems/2026-10-12-agent-team-costs-and-research-world-models.md): teams add little once the solo agent runs at max effort. Team size and reasoning effort are substitutes, not complements.
+
+
+## 2026-10-13: compute dials inside one checkpoint
+
+[ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md) makes loop count a per-request compute knob with no one-loop tax (+7.25 points at four loops on 4B). [PreSTO (10-13)](2026-10-13-dcoco-presto-speculation-shorts.md) makes power sampling 1.7-2.3x cheaper without changing its distribution. [SelfCompact (10-13)](../agentic-systems/2026-10-13-stateless-agents-self-compaction-and-idea-basins.md) lets the model decide when to spend tokens summarizing, 30-70% cheaper per question.
