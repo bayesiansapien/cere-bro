@@ -1,0 +1,121 @@
+{
+ "captured": "2026-10-14T12:29:28.874337",
+ "errors": [
+  "Meta AI Blog: page render failed",
+  "HF microsoft: ConnectionError",
+  "HF google: ConnectionError",
+  "HF deepseek-ai: ConnectionError",
+  "HF meta-llama: ConnectionError",
+  "HF mistralai: ConnectionError",
+  "HF facebook: ConnectionError",
+  "HF Qwen: ConnectionError",
+  "HF nvidia: ConnectionError",
+  "HF openai: ConnectionError",
+  "HF zai-org: ConnectionError",
+  "HF xai-org: ConnectionError",
+  "HF moonshotai: ConnectionError",
+  "HF MiniMaxAI: ConnectionError",
+  "HF ibm-granite: ConnectionError",
+  "HF CohereLabs: ConnectionError",
+  "HF allenai: ConnectionError",
+  "HF LiquidAI: ConnectionError",
+  "HF tencent: ConnectionError",
+  "HF inclusionAI: ConnectionError",
+  "HF ByteDance-Seed: ConnectionError",
+  "HF stepfun-ai: ConnectionError",
+  "HF baidu: ConnectionError",
+  "HF HuggingFaceTB: ConnectionError",
+  "HF XiaomiMiMo: ConnectionError",
+  "HF apple: ConnectionError"
+ ],
+ "items": [
+  {
+   "lab": "Ai2",
+   "source": "feed",
+   "title": "How Molmo 2\u2019s open release helped an MIT researcher rethink fish tracking",
+   "url": "https://allenai.org/blog/molmo2fish",
+   "published": "2026-10-13T08:00:00+00:00",
+   "uid": "feed:https://allenai.org/blog/molmo2fish",
+   "summary": "Molmo 2\u2019s open release helped MIT researcher Kai Van Brunt develop Molmo2Fish, an experimental model that tracks salmon in sonar footage and corrects some tracking errors using everyday language.",
+   "content": "",
+   "kind": "model_release"
+  },
+  {
+   "lab": "Google DeepMind",
+   "source": "feed",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "published": "2026-10-13T19:43:07+00:00",
+   "uid": "feed:https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "summary": "",
+   "content": "",
+   "kind": "model_release"
+  },
+  {
+   "lab": "AWS Machine Learning",
+   "source": "feed",
+   "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+   "published": "2026-10-13T20:10:33+00:00",
+   "uid": "feed:https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+   "summary": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet credentials to the agent runtime.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Google DeepMind",
+   "source": "feed",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "published": "2026-10-14T02:00:14+00:00",
+   "uid": "feed:https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "NVIDIA Blog",
+   "source": "feed",
+   "title": "From Enterprise to Earthshot: UK\u2019s Ecosystem Moves From Ambition to Application With NVIDIA",
+   "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+   "published": "2026-10-14T06:04:15+00:00",
+   "uid": "feed:https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+   "summary": "Across industries, the U.K. is putting the full stack to work \u2014 and the scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet\u2019s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.\u2019s agentic safety [\u2026]",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "NVIDIA Blog",
+   "source": "feed",
+   "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+   "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+   "published": "2026-10-14T06:00:28+00:00",
+   "uid": "feed:https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+   "summary": "Keeping a city running means making decisions that affect residents every day \u2014 from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make [\u2026]",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "NVIDIA Developer",
+   "source": "feed",
+   "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+   "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
+   "published": "2026-10-13T21:33:21+00:00",
+   "uid": "feed:https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
+   "summary": "Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex...",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "Higgsfield takes AI video from 1 minute to over 10",
+   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "published": "2026-10-13T12:00:00+00:00",
+   "uid": "feed:https://openai.com/index/higgsfield-longer-videos-voice",
+   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+   "content": "",
+   "kind": "post"
+  }
+ ]
+}

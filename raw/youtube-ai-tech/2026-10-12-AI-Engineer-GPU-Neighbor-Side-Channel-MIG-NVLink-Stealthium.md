@@ -1,0 +1,38 @@
+# Your GPU Neighbor Can Hear Your Model (Branislav Brzak, Stealthium)
+
+**Channel:** AI Engineer
+**Published:** 2026-10-12
+**Source:** https://www.youtube.com/watch?v=SacJfmp33vM
+
+*Note: transcript was an untranslated Arabic auto-dub. Some model names were garbled ("Quantri" is read here as Qwen3). Numbers are as stated.*
+
+## TL;DR
+A co-tenant on a shared NVIDIA H100, with no root and no exploit, can fingerprint your LLM purely by timing its own memory loads. MIG partitions SMs, VRAM, bandwidth, and L2, but memory barriers (membars) issued in one MIG instance touch every L2 partition on the die, so the victim's kernel launches add about 3 µs of latency to the attacker's loads. From that, Stealthium recovers decode speed (99.3%), layer count and architecture (97%), and, with speculative decoding on, the type of text being generated (prose, code, JSON, retrieval). A variant over NVLink on an 8xH100 box, without sharing a die, still identifies the model at 79%. Prompts and outputs do not leak. The underlying primitive is the USENIX Security 2026 "Behind Bars" paper; Stealthium's contribution is the LLM-specific signal processing and a detection pitch.
+
+## Key Takeaways
+- **Attack primitive:** load from a small private buffer, time the load, repeat every 5 µs. The attacker never touches victim memory. The only unisolated resource is timing via GPU-wide membars.
+- **Signal:** each decoded token is one burst. The latency spectrum shows a fundamental (about 881 Hz in the demo) plus harmonics. One token trace showed 39 spikes: layer calls plus inter-layer ops.
+- **Decode rate alone is not a fingerprint.** Qwen3-8B and Llama-3-8B differ by only 1.6% in tokens/sec.
+- **Layer count is.** Folding and averaging per model yields near-integer spike counts (mean distance from an integer 0.028 across 22 traces), equal to layers + 1 to 3 extra peaks. A sub-30-line best-fit search over depths 16 to 48, with no trained classifier, picks 36 layers for a ~4B model with a 4.5x margin. Because it is best-fit, not lookup, it works on unseen and proprietary models.
+- **Fine-tunes and distills are separable:** Llama 3 8B, Llama 3.1 8B, and DeepSeek-R1-Distill-Llama-8B share a 32-layer backbone and differ by about 1.6 ns per layer, yet the classifier still distinguishes them.
+- **Workload type leaks through speculative decoding:** text predictability changes how many draft tokens are accepted per step, which changes step time. Four classes, verdict every 0.5 s on a 5 s window: 31/40 correct, 4/4 full responses correct by majority vote. Tested on 11 configs (dense and MoE, BF16 and FP8). Effect size varied hugely: 70.2% spread on gpt-oss-20b versus 0.9% on a GLM model. Requires spec decoding, which is opt-in in vLLM.
+- **NVLink variant (no shared die):** victim runs tensor parallel on GPUs 0 and 1, attacker on GPU 2 chases pointers in GPU 0 memory via NVSwitch peer access (a feature, not a bug). Idle hop about 890 ns, rising to about 300 µs under victim load. Tokens are countable by eye. Layer bits are lost in noise, so identification drops to 79.2% (vs 20% chance over five models), failing on same-size 8B models decoding within 3 Hz of each other.
+- **Detection signature:** one kernel relaunched ~3000 times hitting the same 40 KB, sending only ~1 KB to the CPU (the timing is the payload). Stealthium flagged it in under 600 ms, before a 50-token reply finished.
+
+## Architecture & Optimization Mechanics
+- **Every inference optimization is a timing channel.** Kernel launch cadence encodes layer count. Decode rate encodes model size and quantization. Speculative decoding acceptance encodes output entropy. MoE routing and continuous batching likely add more signal (not tested here). The faster and more input-dependent your serving path, the more it leaks.
+- **MIG vs TP is a forced tradeoff:** MIG disables peer-to-peer, so no tensor parallelism inside MIG. TP across full GPUs puts you on a shared NVLink fabric. MIG leaks more (layer counts); NVLink leaks less (timing only) but needs no die co-location.
+- **Multi-tenant vLLM implications:** what leaks is architecture, depth, throughput, load periods, token counts, response lengths, and coarse content type. For a provider serving a proprietary model, depth plus decode rate on known hardware is a strong prior on parameter count and quantization. That is model IP, even without weights. Response length and timing already enable known traffic-analysis attacks on content.
+- **Spec decoding is the biggest new leak.** Draft acceptance is directly a function of the generated text, so it bridges from "what model" to "what it is saying."
+
+## Grounded Context (Web Enrichment)
+The core claim holds. "Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers" (Gu et al., Rochester, UCSC, Clemson, Microsoft) is in USENIX Security 2026. It shows membars from one MIG instance propagate across L2 partitions and alter load timing in other instances, and that kernel launches trigger them, explicitly flagging LLM inference. AMD's bulletin AMD-SB-6026 says its MI3xx XCD partitioning does not exhibit the cross-partition effect, so this is NVIDIA-specific for now. MIG has a prior isolation hole too: a 2023 CCS paper showed the last-level TLB is not partitioned. I found no public NVIDIA fix; a membar leak is architectural and unlikely to be patched in firmware for H100.
+
+The NVLink half is less novel than presented. "Spy in the GPU-box" (2022), "Beyond the Bridge" (2024), and NVBleed (2025, over 70 kbps covert channel, visible across cloud VMs) already established NVLink contention as a cross-GPU side channel; Stealthium applies it to LLM fingerprinting. Speculative decoding leakage is also documented: "When Speculation Spills Secrets" (arXiv 2411.01076) fingerprinted user queries at roughly 90% on vLLM via per-iteration token counts, a stronger, network-observable version of the same mechanism, and "Remote Timing Attacks on Efficient Language Model Inference" (arXiv 2410.17175) did it remotely. Treat Stealthium's numbers as vendor results from small samples (22 traces, 40 verdicts, 5 models); the "97%" and "99.3%" figures were not tied to stated test-set sizes, and the detection claim doubles as a product pitch.
+
+## Real-World Application / Actionable Step
+- **Placement:** never colocate untrusted MIG tenants with a proprietary or sensitive model. If you rent MIG slices for unreleased compressed or pruned checkpoints, assume depth and decode rate are visible to neighbors. Prefer whole-GPU or dedicated-node allocations for unreleased work.
+- **Pruning research angle:** depth pruning and layer dropping are exactly what this channel measures. A competitor sharing hardware could read your pruned layer count. Conversely, this is a free, zero-instrumentation profiler: membar-timing traces give per-layer kernel timing from outside the process, useful for black-box comparison of serving stacks.
+- **Speculative decoding in multi-tenant serving:** if you serve sensitive traffic with EAGLE or n-gram drafts on shared infrastructure, pad step timing or aggregate tokens per iteration (the mitigations from 2411.01076). Measure the throughput cost; it is the price of the leak.
+- **Routing angle:** if an LLM router runs on shared GPUs, the timing channel exposes which backend model each query is routed to, which reveals routing policy and query difficulty distribution. Keep router and backends on dedicated hardware or add constant-time padding to the routed path.
+- **Detection is cheap:** alert on kernels relaunched thousands of times over the same small buffer with negligible device-to-host traffic. This can be done with CUPTI or DCGM-level kernel tracing without buying a product.
