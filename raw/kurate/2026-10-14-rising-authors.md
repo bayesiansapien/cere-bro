@@ -1,4 +1,4 @@
 # Kurate Rising Authors
-> 2026-10-14 16:51 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
+> 2026-10-14 23:07 IST | Authors crossing threshold (≥3 top-10 appearances in past 4 weeks, score ≥15)
 
 *No authors crossed the threshold this run.*
