@@ -746,3 +746,11 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[Priming (10-13)](../llms-foundation-models/2026-10-13-priming-hybrid-ssm-from-transformers.md), Amazon.** Convert local attention layers to SSMs for <0.5% of pretraining tokens; a 32B hybrid decodes up to 2x faster at 128K. SSMs beat sliding-window attention even at 2x its memory budget.
 - **[ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md).** Looped models keep only the last loop's KV, holding cache at the one-loop level.
 - **Shift:** the cache question has split in two. For attention, it is now about *which bits* of a latent are fragile (position). For hybrids, it is about *write traffic* of a fixed-size state. Both papers find the sensitive component and protect only that.
+
+
+## 2026-10-14: cache the loop, price the reread
+
+- **ResidualQuant** (via X, [2610.10381](https://huggingface.co/papers/2610.10381)): per-loop KV caches in looped models are nearly redundant; a shared 4-bit anchor plus 2-bit residuals keeps BF16-level MATH500 on Ouro-1.4B at 80.7% less KV, 3.27x peak decode throughput ([shorts](2026-10-14-efficiency-shorts.md)).
+- **FlexBudget** (AMD): fixes kernel and budget, swaps only the eviction importance signal; a fair benchmark for eviction methods.
+- **Pricing:** Gemini 4 Argon's cached input is 95% off ([Argon](../llms-foundation-models/2026-10-14-gemini-4-argon.md)); IBM's agent factory hit ~98% prefix reuse. Prefix-cache hit rate is now a first-order cost variable for agents.
+- **Hybrids:** LFM2.5 and Ling-3.1-flash keep 75-88% of layers off the KV cache ([page](2026-10-14-lfm25-24b-a2b-and-ling-31-flash.md)).

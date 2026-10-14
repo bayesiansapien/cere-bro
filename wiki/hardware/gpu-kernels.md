@@ -349,3 +349,8 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## 2026-10-13: SSM decode kernels, low-bit MLA attention, kernel-skill transfer
 
 [ReplaySSM (10-13)](../inference-efficiency/2026-10-13-replayssm-cache-inputs-not-state.md): SSM decode is HBM-bound; caching inputs and writing state once per window gives 1.46-1.80x kernel speedups at batch 256 on B300; in TensorRT-LLM, vLLM, FlashInfer. [QuantMLA (10-13)](../inference-efficiency/2026-10-13-quantmla-low-bit-mla-kv-cache.md) ships a native low-bit MLA kernel that dequantizes inside attention. MetaKernelBench ([shorts](../inference-efficiency/2026-10-13-efficiency-shorts.md)): agent-distilled kernel skills transfer between CuTe DSL and TIRx with -19% to +29% lift and regressions on 16-45% of problems. [SLA (10-13)](../agentic-systems/2026-10-13-stateless-agents-self-compaction-and-idea-basins.md) reached the best kernel baseline with 84% fewer tokens.
+
+
+## 2026-10-14: fill the Hopper tile at decode, pin kernels for bit-exactness
+
+[Fused MoE on Hopper and batch invariance (10-14)](2026-10-14-fused-moe-hopper-and-batch-invariance.md). AWS: WGMMA fixes operand A's rows at 64, so MoE decode (M<64) starves tensor cores; Swap-AB computes Bᵀ·Aᵀ so the expert dimension fills the tile. Routing FP8 MoE to Triton over FlashInfer+CUTLASS gave +10% on H200; removing Triton integer specialization stopped JIT recompiles inflating TTFT. vLLM PR #60074: pinned Inductor configs give 48/48 bit-identical decodes across processes (0/48 default). FLAT: linear attention, Mamba-2, GLA training kernels on TPU at ~90% of HBM peak. Third data point for Triton winning on skinny, irregular shapes (after 10-05, 10-07).

@@ -40,7 +40,7 @@ flowchart LR
 
 ## How it relates to prior wiki pages
 
-- **New branch of [parametric context internalization](parametric-context-internalization.md):** that page tracks hypernetworks that turn a document (Code2LoRA, Video2LoRA) or a spec (Compile by Training, 09-04) into weights. HyperThink is the first entry that internalizes the model's *own reasoning*, per query. Kurate's cs.AI #15 this week, **Internalizer** (portable context-to-parameter mapping for very large models, [arXiv 2610.15123 listing](https://arxiv.org/abs/2610.15123)), is the same family at larger scale.
+- **New branch of [parametric context internalization](parametric-context-internalization.md):** that page tracks hypernetworks that turn a document (Code2LoRA, Video2LoRA) or a spec (Compile by Training, 09-04) into weights. HyperThink is the first entry that internalizes the model's *own reasoning*, per query. Kurate's cs.AI #15 this week, **Internalizer** (portable context-to-parameter mapping for very large models, [arXiv 2610.11715](https://arxiv.org/abs/2610.11715)), is the same family at larger scale.
 - **Complements [ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md)**, which makes loop count a per-request compute dial without growing the KV cache. Both move query-dependent computation out of output tokens: ELR into extra depth, HyperThink into a weight delta.
 - **Pairs with Thinking Inertia (10-13, same HF list)**, which finds that models keep emitting visible inference even when told not to think. HyperThink trains the no-trace behavior in rather than prompting for it.
 

@@ -408,3 +408,10 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Capital, not power:** Eric Schmidt ($50B per GW) and Broadcom's Hock Tan both say financing is the next limit; Bain's Bridge Data Centres upsizes a loan to ~$6.6B; a16z and General Catalyst buy compute for portfolio companies ([industry 10-13](../ai-industry/2026-10-13-industry-roundup-reflection-taste-and-capital.md)).
 - **GPU lifetime:** Zuckerberg says an H100 is worth more now than a year ago, supporting longer depreciation for neoclouds.
 - **Shift:** the efficiency metric quoted by vendors moved from FLOPs and HBM capacity to tokens per watt, measured at rack level. No independent cross-vendor benchmark exists yet.
+
+
+## 2026-10-14: capacity for state, EUV sold out, the reread priced
+
+- ASML Q3: record €11.7B, guidance €44-45B (raised a third time), 2029-2030 slot requests, short through 2028 after a 30% EUV increase, memory about half of system sales ([industry](../ai-industry/2026-10-14-industry-roundup-argon-asml-and-agent-security.md)).
+- Intel D270 (480GB LPDDR5X, 1.5 TB/s) and Credo/AMD Weaver bet on capacity over bandwidth; the disaggregation thread argues linear-attention layers belong on cheap silicon ([shorts](../inference-efficiency/2026-10-14-efficiency-shorts.md)).
+- IBM's open agent factory cost $26 vs $299 because of a 98% prefix-cache hit at ~$0.11/M; Argon prices cached input at $0.10/M. Microsoft asks Azure for 20% cost cuts; CoreWeave -15%.

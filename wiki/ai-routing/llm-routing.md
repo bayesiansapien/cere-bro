@@ -866,3 +866,11 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Fleet routing:** Meta routes a variable share of ads traffic to a bigger model depending on idle capacity ([efficiency shorts 10-13](../inference-efficiency/2026-10-13-efficiency-shorts.md)).
 - **Depth routing:** [ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md) makes loop count a per-request dial inside one checkpoint, a routing decision with no model switch and no KV handoff.
 - **Open:** calibration still has no shared benchmark; Microsoft's own table shows the accuracy leader losing on calibration.
+
+
+## 2026-10-14: routing moves from the prompt to the session and the role
+
+- **[Session routing (10-14)](2026-10-14-session-routing-arena-max-cohere-teams.md).** Arena's Max router, trained on 2.5M real Agent Arena sessions, picks a model per multi-turn task: +14.7% net improvement at a median $3.27/task, matching Fable 5.1 (Max) at 37% lower cost. Cohere's controlled agent-team study on ProgramBench: a strong lead with 16 cheap planning workers scores 61.8% vs 63.2% all-strong at $155 vs $510; delegating only exploration and planning matches full delegation at half the cost. IBM's agent factory: all-open models at ~$26 vs $299 proprietary, driven by a ~98% prefix-cache hit rate under llm-d cache-aware routing.
+- **Looking Ahead status:** the 10-08 call that cross-vendor routing would again fail to beat the best single model on cost per success is partially refuted by Max, on Arena's own data. Independent replication still open.
+- **Tension:** Vals AI (10-12) found teams add little once a solo agent runs at max effort; Cohere finds +10 points. Cohere's gain comes from placing the strong model at the bottleneck, i.e., role routing.
+- **Shift:** with gates at ~$0.04/M (10-13), the interesting routing decision is now which role in a session gets the expensive model. Calibration of that decision is still unreported.

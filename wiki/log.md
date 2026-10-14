@@ -2105,3 +2105,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-13] social-stream | 2026-10-13 morning | social-stream
 ## [2026-10-13] media-zone | Media Zone 2026-10-13 (finalized) | media-zone
 ## [2026-10-13] digest | cere-bro 2026-10-13 | daily-digest
+## [2026-10-14] ingest | Gemini 4 Argon, LFM2.5-24B-A2B + Ling-3.1-flash, session routing (Arena Max, Cohere teams, IBM), fused MoE on Hopper + vLLM batch invariance, HyperThink, selective distillation trio, efficiency shorts, harness cluster, industry roundup | huggingface + labs + rss + gmail + kurate + x-feed + youtube
+## [2026-10-14] social-stream | 2026-10-14 morning | social-stream
+## [2026-10-14] media-zone | Media Zone 2026-10-14 (finalized) | media-zone
+## [2026-10-14] digest | cere-bro 2026-10-14 | daily-digest

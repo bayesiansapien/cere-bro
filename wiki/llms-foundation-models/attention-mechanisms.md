@@ -203,3 +203,9 @@ Every trainable sparse-attention method this page has tracked shares one archite
 ## 2026-10-13: hybrids become cheap to build and to serve
 
 [Priming (10-13)](2026-10-13-priming-hybrid-ssm-from-transformers.md): convert a pretrained Transformer's local attention layers (identified by a sliding-window proxy, formally low Hankel rank) into SSMs for <0.5% of pretraining tokens; Gated KalmaNet > Gated DeltaNet > Mamba-2 under controlled conditions; a 32B hybrid matches its source on reasoning at up to 2x decode speed at 128K. [ReplaySSM (10-13)](../inference-efficiency/2026-10-13-replayssm-cache-inputs-not-state.md) removes the SSM-layer decode bottleneck at serving batch sizes. [QuantMLA (10-13)](../inference-efficiency/2026-10-13-quantmla-low-bit-mla-kv-cache.md) shows MLA's decoupled RoPE key is the precision-sensitive part of the latent cache.
+
+
+## 2026-10-14: hybrids ship, and depth gets multi-head attention
+
+- [LFM2.5-24B-A2B and Ling-3.1-flash (10-14)](../inference-efficiency/2026-10-14-lfm25-24b-a2b-and-ling-31-flash.md): open production hybrids at 3:1 (short conv to GQA) and 7:1 (KDA to gated MLA). The ratios Priming and ReplaySSM (10-13) assumed are now shipped. No full-window recall numbers yet.
+- [MSAR (10-14)](../inference-efficiency/2026-10-14-efficiency-shorts.md): multi-head attention over depth via multi-scale causal convolutions; 1.58x iso-loss compute speedup over standard residuals at 18B/28B MoE (AttnRes 1.35x, mHC 1.30x).

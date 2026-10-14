@@ -213,3 +213,9 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 ## 2026-10-13: compute dials inside one checkpoint
 
 [ELR (10-13)](../llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md) makes loop count a per-request compute knob with no one-loop tax (+7.25 points at four loops on 4B). [PreSTO (10-13)](2026-10-13-dcoco-presto-speculation-shorts.md) makes power sampling 1.7-2.3x cheaper without changing its distribution. [SelfCompact (10-13)](../agentic-systems/2026-10-13-stateless-agents-self-compaction-and-idea-basins.md) lets the model decide when to spend tokens summarizing, 30-70% cheaper per question.
+
+
+## 2026-10-14: move reasoning off the token stream, and measure "no-think"
+
+- [HyperThink (10-14)](2026-10-14-hyperthink-text-to-parameter-reasoning.md): one hypernetwork pass replaces the thinking trace with a per-query weight update. Hybrid Reasoning Agents switch between latent thoughts and text tool calls (35.5-54.7% fewer tokens). Thinking Inertia: no-think prompts do not stop visible reasoning, so a "thinking off" mode is not a token budget ([shorts](2026-10-14-efficiency-shorts.md)).
+- Cohere's agent teams ([routing](../ai-routing/2026-10-14-session-routing-arena-max-cohere-teams.md)) treat teams as a new inference-time scaling axis, best spent at the planning bottleneck.

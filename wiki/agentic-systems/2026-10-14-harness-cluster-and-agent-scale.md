@@ -47,7 +47,7 @@ flowchart LR
 
 - **Confirms the harness-ceiling thread** on [agent harness engineering](agent-harness-engineering.md): [HarnessSQL (10-11)](2026-10-11-harnesssql-harness-native-training.md) doubled a score by training inside the harness; [stateless agents (10-13)](2026-10-13-stateless-agents-self-compaction-and-idea-basins.md) showed the transcript itself is the cost. LongHarness is the same lesson for retrieval: make state explicit instead of letting it pile up in the chat.
 - **Initialization vs idea basins:** the 10-13 "idea basins" result found agents converge to a few attractor solutions; today's Initialization paper names the same mode collapse and finds the fix is a wide start, not mid-run diversity pressure.
-- **AgentSWE and CRBugBench extend the measurement worry** from [SWE-TaskFlow (10-13)](2026-10-13-stateless-agents-self-compaction-and-idea-basins.md): visible-case success overstates delivered quality.
+- **AgentSWE and CRBugBench extend the measurement worry** from SWE-TaskFlow (10-13 digest), which found real coding-agent requests look nothing like SWE-Bench: visible-case success overstates delivered quality.
 
 ## Related
 

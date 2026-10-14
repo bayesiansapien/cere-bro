@@ -87,3 +87,8 @@ The cost model is this page's cost model, run at a different granularity. Pay on
 - [2026-05-29-how-lora-remembers-parametric-memory-law.md](2026-05-29-how-lora-remembers-parametric-memory-law.md)
 - [2026-05-14-mint-million-scale-lora-serving.md](2026-05-14-mint-million-scale-lora-serving.md)
 - [kv-cache.md](kv-cache.md) · [knowledge-distillation.md](knowledge-distillation.md)
+
+
+## 2026-10-14: internalizing the model's own reasoning
+
+[HyperThink (10-14)](2026-10-14-hyperthink-text-to-parameter-reasoning.md) predicts a per-query bias update with a VQ-constrained hypernetwork, trained so the no-trace model matches the model that read its own thinking trace. First entry on this page that internalizes reasoning rather than a document or spec; strongest gains at low latency. Kurate's Internalizer ([2610.11715](https://arxiv.org/abs/2610.11715)) is the same family for very large models. The break-even question flips: the hypernetwork runs per query, so its cost is not amortized.
