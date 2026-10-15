@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-15T09:08:24.505050+00:00
+arxiv_id: 2610.15915
+url: https://huggingface.co/papers/2610.15915
+arxiv_url: https://arxiv.org/abs/2610.15915
+date: 2026-10-14
+---
+
+# VIEWCRAFT: Evolving What Multimodal Agents See and How They Read It
+
+Reusable skills improve multimodal agents without updating model weights, but their effectiveness depends on both the evidence presented and the procedure used to read it. We introduce ViewCraft, which jointly evolves an executable evidence interface and its reading procedure. The interface selects, transforms, and organizes observations; the reader interprets the resulting views. Failure traces guide revisions, replay and paired evaluation retain useful changes, and interface projection recovers visual edits from eligible rejected joint proposals. Across eight benchmarks, ViewCraft improves over direct execution by an average of 6.1 points in task score, with gains on every benchmark. The advantage persists at a matched input-token budget. On all five multi-source tasks, the learned interface uses 8%-15% fewer input tokens than Initial skill. The learned skills also transfer across executors and outperform direct execution in every evaluated transfer, supporting evidence construction and reading as a coupled, reusable skill.

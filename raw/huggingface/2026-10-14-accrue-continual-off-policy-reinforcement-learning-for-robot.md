@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-15T09:08:24.506766+00:00
+arxiv_id: 2610.18596
+url: https://huggingface.co/papers/2610.18596
+arxiv_url: https://arxiv.org/abs/2610.18596
+date: 2026-10-14
+---
+
+# ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models
+
+Reinforcement learning (RL) post-training improves robot foundation models (RFMs) beyond their demonstrations, but real-world deployment demands more: learning new tasks efficiently while retaining previously acquired behaviors. Existing continual RL methods on top of VLAs mitigate forgetting but rely on on-policy updates with limited forward transfer, whereas off-policy methods improve single-task sample efficiency without addressing learner persistence across tasks. We propose ACCRUE, a continual off-policy RL framework that carries lightweight actor and critic networks across tasks, allowing each stage to reuse behavioral and value knowledge acquired through prior RL. The inherited critic adapts only on current-task transitions and guides current-task actor learning, while prior behavior is preserved by distilling the actor toward cached targets on a small number of retained episodes. Fixed visual features keep the inherited learner and its replay compatible with base-policy updates. Across contact-rich assembly sequences in simulation and on real-robot hardware, ACCRUE accelerates subsequent-task learning with near-zero forgetting and significantly reduces real-robot training time by 31.0\% to 68.5\%.

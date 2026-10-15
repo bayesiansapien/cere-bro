@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-15T09:08:24.514030+00:00
+arxiv_id: 2610.18352
+url: https://huggingface.co/papers/2610.18352
+arxiv_url: https://arxiv.org/abs/2610.18352
+date: 2026-10-14
+---
+
+# Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation
+
+A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes. It must also maintain awareness of task progress and determine when to advance. To address these challenges, we introduce Orchestra, an agent harness that separates task planning and execution management from action generation. Orchestra decomposes a complete multimodal instruction into ordered subtasks, tracks completed steps, and updates the locations of relevant objects and destinations during execution. It maintains a shared context containing the active subtask, spatial grounding, and recent observations. An action policy uses this context to generate actions, while a separately trained progress evaluator estimates when to advance to the next subtask. To evaluate whether robots trained on atomic instructions and short trajectories can execute longer subtask sequences, we introduce a benchmark named RMBench-Compose. Orchestra achieves a mean success rate of 68.22% across nine RMBench tasks, outperforming Mem-0 by 26.22 percentage points. On RMBench-Compose, it achieves an Average Success Length (ASL) of 7.35 subtasks, 2.46 times that of HarnessVLA. Across four real-world multi-step tasks, it improves mean ASL by 25.0% over Orchestra using the base π_{0.5} policy. These results show that Orchestra helps robots carry out longer sequences of subtasks while preserving the requested subtask order and acting on the specified objects. Our code and project page are available at https://youpengwen.github.io/Orchestra.
