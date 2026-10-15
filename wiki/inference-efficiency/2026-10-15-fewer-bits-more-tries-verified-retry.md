@@ -1,6 +1,6 @@
 # Fewer Bits, More Tries: a compressed model plus verified retries can match a bigger one
 
-**Date:** 2026-10-15 · **Source:** Kurate cs.AI weekly top-20 (#9, ai_rating 6.5) · not on HuggingFace · **Paper:** [arXiv 2610.15372](https://arxiv.org/abs/2610.15372) (Galanti, Susskind, Malach; Apple)
+**Date:** 2026-10-15 · **Source:** Kurate cs.AI weekly top-20 (#9, ai_rating 6.5) · not on HuggingFace · **Paper:** [arXiv 2610.15372](https://arxiv.org/abs/2610.15372) (Galanti, Susskind, Malach)
 **Raw:** `raw/kurate/2026-10-15-cs-ai.md`
 
 ## TL;DR

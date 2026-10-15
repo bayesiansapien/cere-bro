@@ -226,3 +226,10 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 - **ReplaySSM:** keep a high-precision checkpoint for the recurrence and read a low-precision copy, so state rounding never compounds (complements STEPQuant, 10-09).
 - **Calibration under quantization:** Liquid's d1 card shows 4-bit moves decision probabilities by up to ~0.2 vs ~0.015 at 8-bit ([decision models 10-13](../ai-routing/2026-10-13-decision-model-price-war.md)). For calibrated-output models, accuracy is the wrong metric to validate a quant.
 - **Pattern (n=4 in two weeks):** PrismQuant (10-01), WUSH-KV (10-02), QuantMLA and SoloQ all fit the rotation/transform to the function or distribution the tensor serves, not to generic outlier removal.
+
+## 2026-10-15: buy back lost bits with verified retries
+
+- **[Fewer Bits, More Tries (10-15)](2026-10-15-fewer-bits-more-tries-verified-retry.md)** (Kurate cs.AI #9): single-user decode leaves the GPU idle, so batching eight candidates is near-free. Qwen 7B with eight verified attempts matches 32B on MBPP+ and beats it on three other code benchmarks at ~4x less memory, up to 6x faster, lower energy. **Shift:** the right quantization metric for verifiable tasks is accuracy at a fixed memory budget with retries allowed, not single-shot accuracy.
+- **GSQ-RCO** (GPU MODE talk, ISTA DASLab): Gumbel-Softmax quantization plus Riemannian bit allocation under a size budget, released as non-uniform GGUF.
+- **StepFun Step-5-Preview** adds an NVFP4 checkpoint (600B / 27B active); FP8 serves on one 4-GPU B300 node ([shorts](2026-10-15-efficiency-shorts.md)).
+- **Ares** (RLVR gradients collapse into a shrinking low-rank subspace) suggests RL updates are compressible, the optimizer-side cousin of low-rank adapters.

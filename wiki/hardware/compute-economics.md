@@ -415,3 +415,7 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - ASML Q3: record €11.7B, guidance €44-45B (raised a third time), 2029-2030 slot requests, short through 2028 after a 30% EUV increase, memory about half of system sales ([industry](../ai-industry/2026-10-14-industry-roundup-argon-asml-and-agent-security.md)).
 - Intel D270 (480GB LPDDR5X, 1.5 TB/s) and Credo/AMD Weaver bet on capacity over bandwidth; the disaggregation thread argues linear-attention layers belong on cheap silicon ([shorts](../inference-efficiency/2026-10-14-efficiency-shorts.md)).
 - IBM's open agent factory cost $26 vs $299 because of a 98% prefix-cache hit at ~$0.11/M; Argon prices cached input at $0.10/M. Microsoft asks Azure for 20% cost cuts; CoreWeave -15%.
+
+## 2026-10-15: foundry margin up, lessor credit down
+
+[TSMC Q3 and neocloud credit (10-15)](2026-10-15-tsmc-q3-and-neocloud-credit-stress.md). TSMC: $46.7B revenue (+41%), Q4 guide $53.3B, 58% operating margin, 79% of wafer revenue at 7nm and below, new Tainan 3nm fab for 1H 2028. CoreWeave: 2032 bonds below 85 cents (~15% yield), Q2 interest $640M vs loss $626M; stock -15.5%; Gartner quoted at "80% of neoclouds fold." Anthropic: $1.70 revenue per $1 compute (compute ~59% of revenue), Q3 $16.8B. **Shift:** rent accrues to the scarce layer (wafers, EUV); leverage sits with the commodity layer (rented GPUs).

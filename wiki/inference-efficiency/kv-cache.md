@@ -754,3 +754,9 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **FlexBudget** (AMD): fixes kernel and budget, swaps only the eviction importance signal; a fair benchmark for eviction methods.
 - **Pricing:** Gemini 4 Argon's cached input is 95% off ([Argon](../llms-foundation-models/2026-10-14-gemini-4-argon.md)); IBM's agent factory hit ~98% prefix reuse. Prefix-cache hit rate is now a first-order cost variable for agents.
 - **Hybrids:** LFM2.5 and Ling-3.1-flash keep 75-88% of layers off the KV cache ([page](2026-10-14-lfm25-24b-a2b-and-ling-31-flash.md)).
+
+## 2026-10-15: the indexer is the new cost center
+
+- **[DoSA (10-15)](2026-10-15-dosa-dots-sparse-attention.md):** in indexer-based sparse attention (DeepSeek-V3.2, GLM-5.2), the indexer still scores every key. DoSA certifies keys out with an upper bound against a seed-set lower bound on the top-K threshold, so only eligible keys get full scores. Lossless (identical selection). Indexer up to 2.74x over SGLang and 1.69x over LiteTopK; TTFT up to 1.94x (GLM-5.2) / 1.50x (DeepSeek-V3.2).
+- **Pattern:** FlashMemory (06-09) cut what the cache stores, SAS (09-14) and CompactAttention (05-19) cut selection error; DoSA cuts selection *work*. Decode-time speedup is the missing number.
+- **Long video:** FramePack-U packs any-length video into a fixed visual token budget at constant memory ([shorts](2026-10-15-efficiency-shorts.md)).

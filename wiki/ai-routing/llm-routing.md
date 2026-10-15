@@ -874,3 +874,12 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Looking Ahead status:** the 10-08 call that cross-vendor routing would again fail to beat the best single model on cost per success is partially refuted by Max, on Arena's own data. Independent replication still open.
 - **Tension:** Vals AI (10-12) found teams add little once a solo agent runs at max effort; Cohere finds +10 points. Cohere's gain comes from placing the strong model at the bottleneck, i.e., role routing.
 - **Shift:** with gates at ~$0.04/M (10-13), the interesting routing decision is now which role in a session gets the expensive model. Calibration of that decision is still unreported.
+
+## 2026-10-15: the decision model gets a first-principles architecture
+
+- **[Jeva (10-15)](2026-10-15-jeva-system-one-models-first-principles.md)**, cross-source confirmed (HF #1 + Kurate cs.AI #3). Names four requirements serialized-text decision models violate: null-aware (tell "none fit" from "unsure"), permutation-invariant, option-scalable, cacheable. Separate encoding of request and options, an immutable cached option memory, symmetric aggregation and a coverage head. Reported: near-perfect null detection, zero permutation flips, thousands of candidates, large latency cuts from cross-request reuse. Authors' numbers.
+- **Shift:** the clone wave (09-19) converged on "stop sampling, read the logits." Jeva argues that is a dead end for routing because a sequence backbone is order-sensitive and cannot cache options. The option-order bias the 10-07 audits found is removed by construction rather than corrected (AnyJev L0, 10-11).
+- **Coverage head = abstain signal.** For a router, "no cheap option covers this request" is the escalate decision. Jeva makes it an explicit output instead of a flat softmax.
+- **Reading Right, Acting Wrong** (same day): across 17 fast decision systems, most wrong next actions follow a correct reading of the state; errors cluster on the same states across systems. That is where an escalation gate should fire.
+- **Companions:** VideoJev (decision heads on video MLLMs, 2.8-3.1x faster via cached and joint inference), JevGPT (System One judges under a System Two research planner). Also [Fewer Bits, More Tries (10-15)](../inference-efficiency/2026-10-15-fewer-bits-more-tries-verified-retry.md): on verifiable tasks, retrying a small model eight times can replace routing up to a bigger one.
+- **Still open:** Gavel vs Jev head-to-head (asked since 09-16); calibration of the coverage head under quantization.

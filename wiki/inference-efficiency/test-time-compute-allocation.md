@@ -219,3 +219,10 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 
 - [HyperThink (10-14)](2026-10-14-hyperthink-text-to-parameter-reasoning.md): one hypernetwork pass replaces the thinking trace with a per-query weight update. Hybrid Reasoning Agents switch between latent thoughts and text tool calls (35.5-54.7% fewer tokens). Thinking Inertia: no-think prompts do not stop visible reasoning, so a "thinking off" mode is not a token budget ([shorts](2026-10-14-efficiency-shorts.md)).
 - Cohere's agent teams ([routing](../ai-routing/2026-10-14-session-routing-arena-max-cohere-teams.md)) treat teams as a new inference-time scaling axis, best spent at the planning bottleneck.
+
+## 2026-10-15: trim the re-checking, retry the small model, nest the sizes
+
+- **[DoubtLess (10-15)](2026-10-15-doubtless-contrastive-cot-compression.md):** a small model read under "be brief" and "be verbose" prompts gives a logit difference that steers the big model; Qwen3-32B CoT 31% shorter at equal accuracy, agent thinking tokens -20%, training-free, stacks on brevity-trained models. Savings concentrate after the answer first appears. Second training-free contrastive steering method in two weeks (LoopCD, 10-03).
+- **[Fewer Bits, More Tries (10-15)](2026-10-15-fewer-bits-more-tries-verified-retry.md):** spend idle parallel compute on verified retries of a compressed model instead of loading a bigger one.
+- **ShellElastic and TacitVLA** ([shorts](2026-10-15-efficiency-shorts.md), both HF + Kurate): one pretraining run yields exact nested model sizes at the cost of the widest; reasoning supervision helps actions that never wait for the reasoning (3.4x lower latency). Both are "train with it, serve without it."
+- **Tension:** the [monitorability essay (10-15)](../responsible-ai/2026-10-15-monitorability-firings-and-safety-governance.md) argues every method that moves reasoning off the token stream trades away legibility.

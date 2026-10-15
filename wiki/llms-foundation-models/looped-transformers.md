@@ -131,3 +131,7 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 ## 2026-10-13: no one-loop tax
 
 [Elastic Latent Recurrence (10-13)](2026-10-13-elastic-latent-recurrence-koi.md). Gated state update with learned step size, mixed loop counts per optimizer update, and loop-index/budget conditioning: at one loop a 4B dense / 30B-A3B MoE hybrid is -0.52 / +1.04 vs matched baselines; four loops add +7.25 / +4.75. Only the last loop's KV is kept, so cache stays at one-loop size. Reusing first-loop MoE routes on later loops cuts mixed-depth update time 11.7%. Revises the 10-08 practical rule (budget ~2x KV and ~75% token efficiency): if ELR reproduces, neither cost applies. Koi-4B released.
+
+## 2026-10-15: the safety cost of the loop, stated plainly
+
+[Monitorability essay (10-15)](../responsible-ai/2026-10-15-monitorability-firings-and-safety-governance.md). Understanding AI lays out the trade: looping layers lets a 100-layer model approach a 200-layer one with less memory, and also lets it think without writing. Astra's system card reports a substantial drop in CoT monitorability; an independent test gives it 8.6x better odds than Fable 5.1 of solving a reasoning task with no CoT. Pachocki's counter: Astra's computation-graph depth is within 2x of GPT-4. OpenAI's next flagship is reported to loop too. The 10-10/10-13 "loops as a budget knob" results are the efficiency side of the same dial.
