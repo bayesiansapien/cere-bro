@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-16T11:32:11.232586+05:30
+arxiv_id: 2610.18638
+url: https://huggingface.co/papers/2610.18638
+arxiv_url: https://arxiv.org/abs/2610.18638
+date: 2026-10-15
+---
+
+# To Align or Not To Align: Check Your COMPASS Before You Train
+
+Combining pretrained models is a common strategy for building AI systems, whether by aligning a vision encoder with a language model or merging fine-tuned checkpoints. However, finding compatible pairs typically requires costly empirical search, as compatibility is known only after alignment or merging. We propose COMPASS (COMPatibility ASsessment Score), a theoretically motivated diagnostic that estimates whether a model pair will be compatible prior to alignment or merging. Building on the observation that representational convergence is most robust at the level of local neighborhoods, COMPASS decomposes model compatibility into two cheap-to-compute axes: a pair-specific ease, defined as the k-NN overlap between the two encoders, and a paradigm-level ceiling, capturing the maximum overlap their training paradigms allow. Together, these two axes provide a ranking of candidate model pairs and prescribe how to act on each pair: (i) prioritize pairs that already agree and whose paradigms are compatible, (ii) invest additional compute on pairs with compatible paradigms but low initial agreement, (iii) switch the pretraining paradigm when it cannot support sufficient agreement, or (iv) deprioritize pairs that score poorly on both axes. We apply COMPASS to 72 cross-modal alignment experiments and 392 task-arithmetic model merges and show that compatibility estimates by COMPASS strongly correlate with downstream success, achieving average Pearson correlation of 0.91 on cross-modal alignment tasks and 0.70 on model merging.
