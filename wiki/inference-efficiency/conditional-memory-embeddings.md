@@ -67,3 +67,7 @@ The tidy story would be "memory stores facts, experts reason." The ablations say
 ## 2026-09-28: the systems case is argued in the open, and the same move appears for experts
 
 [Purshow's N-gram Embedding notes](2026-09-28-ngram-embedding-notes.md) (practitioner synthesis, no new experiments) argue that frontier teams will adopt token-ID-addressed lookups, and put the weight on the systems half: because the address is known before any layer runs, the CPU can fetch rows while the GPU computes. That is an argument for the Engram side of this page's open disagreement (token-ID addressing) over MoME's hidden-state addressing, which cannot prefetch. The same day, [FreeToken](2026-09-28-freetoken-edge-moe-serving.md) applied the analogous move to MoE experts on consumer GPUs. Two different parameter types, one principle: parameters that are rarely touched belong in cheap memory, as long as the runtime can predict or cheaply serve the touch.
+
+## 2026-10-16: COUNT, a parameter-free table on host memory
+
+[The COUNT](2026-10-16-compression-shorts.md) builds n-gram embeddings from precomputed corpus counts on host RAM, weighting the model's own unembeddings of likely next tokens. No learned table parameters. At fixed compute a 1B model gains as much as 57% more compute; swapping count tables adapts domains at inference without training. On this page's open disagreement it sides with token-ID addressing (prefetchable) and removes the training-in-HBM cost entirely. Open: scale beyond 1B, and whether counts fill with boilerplate the way Engram's learned table did.

@@ -262,3 +262,7 @@ Second, and mildly deflationary: **if weight-space similarity alone nearly match
 - **[SparseDecoding (10-10)](2026-10-10-sparsedecoding-decode-aware-pruning.md).** Calibrate SparseGPT/Wanda on the dense model's own *decode-position* activations (prefill dropped) instead of teacher-forced C4. Qwen3-14B 2:4 WritingBench 1.85 to 4.18 (dense 5.97); Qwen3-32B 2:4 ClassEval 9% to 24%. A Triton N:M SpMV kernel (bitmask indexing, fixed-length unrolled loop) gives 1.34-1.48x batch-1 decode on A100, where cuSPARSELt 2:4 ran at 0.85x of dense.
 - **Pattern (n=2, 10-08 and 10-10): prefill and decode get compressed differently.** SlimWise prunes experts only for decode; SparseDecoding calibrates only on decode. Both fill the wall-clock gap flagged since 2025 that weight sparsity rarely sped up batch-1 decode.
 - **Open:** batch-1 only; whether decode calibration should use *agent* traces for agent deployments.
+
+## 2026-10-16: trim MLPs, keep attention
+
+[Compression shorts (10-16)](2026-10-16-compression-shorts.md). **LayerTrim**: training-free structured pruning for reasoning models that trims only MLP features of redundant layers, keeping attention and depth. Up to +21.4 points over RESP; Qwen3-14B 1.24x prefill, 19.7% lower peak memory, shortest generations. **Elastic transformers**: joint neuron/head ranking under soft pruning across many sparsity targets gives one model for a continuum of budgets (encoders, smooth to 60%). Both reinforce: attention is the fragile component, MLP width carries the slack.

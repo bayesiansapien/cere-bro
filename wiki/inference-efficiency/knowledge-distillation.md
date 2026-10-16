@@ -727,3 +727,8 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-14: supervise only the uncertain decisions
 
 [BranchOPD, PR-OPD, progressive contraction (10-14)](2026-10-14-opd-branching-representations-and-contraction.md). BranchOPD branches student rollouts at uncertain, teacher-disagreeing tokens and reuses prefixes (19-31% fewer student tokens than 7 rollouts, +18.55 avg@16 math over vanilla OPD). PR-OPD finds a skill hint moves under a quarter of token probabilities but over 80% of hidden states, so it aligns hidden states at every layer (+14.0 WebShop over GRPO). Progressive contraction trains on as little as 0.22% of full SFT optimization. UltraBERT ([shorts](2026-10-14-efficiency-shorts.md)) distills only on 5%-masked sequences. **Pattern (n=4 with Semi-OPD, 10-13 to 10-14):** selective supervision beats uniform supervision. **Contradiction to track:** PR-OPD says logit-only losses under-read the teacher.
+
+
+## 2026-10-16: four fixes and a reality check
+
+[OPD guarding, critique, action (10-16)](2026-10-16-opd-guarding-critique-action.md). **Road MOPD** uses non-routed teachers as critics and projects conflicting gradients (+5 points in the disadvantaged domain under high conflict). **CriticOPD** restores teacher "recoverability" on wrong prefixes with a critique-and-rewrite step, a concrete mechanism for the 10-09 Gains-and-Collapse failure. **ActionOPD** distils semantic actions from a black-box teacher (+3.3 to +6.9 OOD tool-use points, no shared tokenizer). **Reality check:** 10 self-distillation methods vs GRPO over 132 runs / 12,124 H800 GPU-hours: none consistently better, final scores hide instability, more cost ≠ more performance.

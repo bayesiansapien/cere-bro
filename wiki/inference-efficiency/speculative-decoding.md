@@ -172,3 +172,7 @@ SpecFold reuses parent computation across near-identical draft branches in diffu
 ## 2026-10-13: repairing parallel drafts, prefetching samplers, and rollback for SSMs
 
 [Speculation shorts (10-13)](2026-10-13-dcoco-presto-speculation-shorts.md). **DCOCO** keeps top-k candidates per slot of a diffusion drafter's block and scores neighbour compatibility in parallel: up to 6.6x over vanilla, +6-23% over the best rival at 4-32 concurrent requests. **PreSTO** applies speculation to power sampling's Metropolis-Hastings chain (1.71-2.33x median, distribution provably unchanged). **Entropy/CKA layer selection** beats EAGLE-3's default target layers. **[ReplaySSM (10-13)](2026-10-13-replayssm-cache-inputs-not-state.md)** closes this page's hybrid-model gap: SSM rollback becomes a buffer truncation, 1.85-2.10x speculative throughput on 120B-class hybrids. Open: does DCOCO's gain stack with DLoop's (10-09) verification skipping?
+
+## 2026-10-16: DFlash2 ships with Muse Spark Open
+
+[Muse Spark Open](../llms-foundation-models/2026-10-16-muse-spark-open-and-nemotron-35.md): NVIDIA's DFlash2 drafts a 7-token block in one non-causal pass with a pairwise path selector over top-k candidates. Acceptance length 3.73 greedy / 3.01 at t=1 on MT-Bench, 3.30 / 2.78 at 32K input, 2.16 on high-entropy prompts. Confirms the recurring finding that acceptance drops on long, high-entropy agent contexts. [Next-Concept Modeling](2026-10-16-compression-shorts.md) is a non-autoregressive alternative (10-31x faster than diffusion LMs at small scale).

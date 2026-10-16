@@ -760,3 +760,11 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[DoSA (10-15)](2026-10-15-dosa-dots-sparse-attention.md):** in indexer-based sparse attention (DeepSeek-V3.2, GLM-5.2), the indexer still scores every key. DoSA certifies keys out with an upper bound against a seed-set lower bound on the top-K threshold, so only eligible keys get full scores. Lossless (identical selection). Indexer up to 2.74x over SGLang and 1.69x over LiteTopK; TTFT up to 1.94x (GLM-5.2) / 1.50x (DeepSeek-V3.2).
 - **Pattern:** FlashMemory (06-09) cut what the cache stores, SAS (09-14) and CompactAttention (05-19) cut selection error; DoSA cuts selection *work*. Decode-time speedup is the missing number.
 - **Long video:** FramePack-U packs any-length video into a fixed visual token budget at constant memory ([shorts](2026-10-15-efficiency-shorts.md)).
+
+## 2026-10-16: protect the fragile slice, read fewer tokens, train a smaller cache
+
+- **[KV4-RL (10-16)](2026-10-16-kv4-rl-int4-kv-rollouts.md):** in async RLVR, high concurrency makes rollouts KV-read bound, so KV quantization beats weight quantization at matched workload. INT4 KV with sinks + recent window kept at INT8: 1.80x rollout, 1.27x end-to-end, within 0.5 points on Qwen3-4B/8B. Naive INT4 KV breaks learning even with TIS.
+- **[JSSA (10-16)](2026-10-16-jssa-and-latent-compaction.md):** training-free token-level sparse attention. Closed-form shared query-key subspace for scoring plus a gather-free per-KV-head kernel under GQA. Up to 6.43x decode throughput at 128K on B200; matches DSA on reasoning without training. Answers the 10-15 "decode-time speedup is missing" note for non-DSA models.
+- **[Latent Compaction (10-16)](2026-10-16-jssa-and-latent-compaction.md):** per-document test-time-trained cache, weights frozen, no access to questions. 96.7% RULER at 32x vs 40.0% for KVZip+.
+- **Pattern (n=3 in four days):** QuantMLA (RoPE path), ReplaySSM (state writes), KV4-RL (sinks + recent) each find a small structurally identified fragile slice and compress the rest.
+- **Tension:** vLLM bitwise-consistent RL (10-14) removes sampler/trainer drift; KV4-RL introduces bounded drift for speed.

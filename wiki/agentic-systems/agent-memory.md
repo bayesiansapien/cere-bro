@@ -393,3 +393,7 @@ Two papers landed together and they are in direct tension. Neither cites the oth
 ## 2026-10-13: memory as product vs memory as measured
 
 Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llms-foundation-models/2026-10-13-meta-muse-wonder.md)), and Zuckerberg names "memory and persistence" as next priorities. The same day, a UCLA-led study ([arXiv 2610.07782](https://arxiv.org/abs/2610.07782), in [10-13 agents page](2026-10-13-stateless-agents-self-compaction-and-idea-basins.md)) found a persistent reasoning-trace tier adds +0.368 MiB of KV per query for +0.015 accuracy (CI crosses zero) on single-question benchmarks. TencentDB Agent Memory (open source, SQLite, layered L0-L3 markdown memory) claims 61% fewer tokens and PersonaMem 48% to 76% (vendor). No benchmark yet measures multi-session personal-assistant memory.
+
+## 2026-10-16: forget, index, or consolidate
+
+[Agent context page (10-16)](2026-10-16-forgetting-trees-and-cited-stores.md). **Forgetting** (Berkeley): periodic wipe of sessions and candidate history, restart from the best candidate, +15% over parallel and +39% over single agents. **TreeFlex** (tree nodes with summaries, learned navigation) and **ScaleMAS** (citable message store, bounded top-k reads, 128 agents). **Cortex**: consolidate context into mergeable LoRA/FFN updates (88.9% gain kept, 99.8% retention after 50 edits). Four papers in two days replace the flat shared context with a bounded read.

@@ -233,3 +233,8 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 - **GSQ-RCO** (GPU MODE talk, ISTA DASLab): Gumbel-Softmax quantization plus Riemannian bit allocation under a size budget, released as non-uniform GGUF.
 - **StepFun Step-5-Preview** adds an NVFP4 checkpoint (600B / 27B active); FP8 serves on one 4-GPU B300 node ([shorts](2026-10-15-efficiency-shorts.md)).
 - **Ares** (RLVR gradients collapse into a shrinking low-rank subspace) suggests RL updates are compressible, the optimizer-side cousin of low-rank adapters.
+
+## 2026-10-16: KV over weights for RL; vendor-made 4-bit at release
+
+- [KV4-RL](2026-10-16-kv4-rl-int4-kv-rollouts.md): at matched workload, KV quantization speeds async RL rollouts more than weight or weight-activation quantization; INT4 with protected INT8 sinks/recent.
+- [Muse Spark Open](../llms-foundation-models/2026-10-16-muse-spark-open-and-nemotron-35.md): Meta itself produced the NVFP4 checkpoint (~700GB for 816B). With Nemotron 3.5 (QAD NVFP4) and Step-5 NVFP4, the 4-bit checkpoint is now part of the release, not a community afterthought.

@@ -2113,3 +2113,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-15] social-stream | 2026-10-15 morning | social-stream
 ## [2026-10-15] media-zone | Media Zone 2026-10-15 (finalized) | media-zone
 ## [2026-10-15] digest | cere-bro 2026-10-15 | daily-digest
+## [2026-10-16] ingest | KV4-RL, JSSA + Latent Compaction, compression shorts (LayerTrim, COUNT, LatentLoop, Elastic, Next-Concept), OPD fixes, Whose Turn routing + agentic auctions, Muse Spark Open + Nemotron 3.5, forgetting/TreeFlex/ScaleMAS, GRAFT + governance, ASML hybrid bonding, industry roundup | huggingface + kurate + labs + rss + gmail + x-feed + youtube
+## [2026-10-16] social-stream | 2026-10-16 morning | social-stream
+## [2026-10-16] media-zone | Media Zone 2026-10-16 (finalized) | media-zone
+## [2026-10-16] digest | cere-bro 2026-10-16 | daily-digest

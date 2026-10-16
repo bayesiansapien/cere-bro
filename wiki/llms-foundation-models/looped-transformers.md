@@ -135,3 +135,7 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 ## 2026-10-15: the safety cost of the loop, stated plainly
 
 [Monitorability essay (10-15)](../responsible-ai/2026-10-15-monitorability-firings-and-safety-governance.md). Understanding AI lays out the trade: looping layers lets a 100-layer model approach a 200-layer one with less memory, and also lets it think without writing. Astra's system card reports a substantial drop in CoT monitorability; an independent test gives it 8.6x better odds than Fable 5.1 of solving a reasoning task with no CoT. Pachocki's counter: Astra's computation-graph depth is within 2x of GPT-4. OpenAI's next flagship is reported to loop too. The 10-10/10-13 "loops as a budget knob" results are the efficiency side of the same dial.
+
+## 2026-10-16: LatentLoop
+
+[LatentLoop](../inference-efficiency/2026-10-16-compression-shorts.md): in a twice-applied shared MoE block the first visit matters less; compress its sequence, keep full resolution on the second, spend savings on width. 19.0% predicted compute savings vs vanilla MoE, 7.9% vs looped baseline, across 15 configs up to 10^21 FLOPs.

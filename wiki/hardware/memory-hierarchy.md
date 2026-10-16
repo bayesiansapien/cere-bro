@@ -244,3 +244,7 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 ## 2026-10-11: kilolayer NAND and Hyper-NA
 
 - **[Process monitor (10-11)](2026-10-11-hyper-na-kilolayer-nand-and-token-spend.md).** A kilolayer 3D NAND perspective argues scaling becomes a coupled charge-storage problem (lateral migration, cell coupling, read disturb, channel resistance). That cuts against KV-offload designs that treat NAND as a cheap reliable tier. ZEISS and ASML outline a >=0.75-NA EUV concept (~5 nm half-pitch). Apple cut iPhone 18 Pro component orders 15-20% citing AI-driven memory prices.
+
+## 2026-10-16: HBM hybrid bonding pushed to 2029+
+
+[SemiAnalysis on ASML's D2W bonder](2026-10-16-asml-hybrid-bonding-tool.md): ASML patents describe a track-based die-to-wafer hybrid bonder (independent die holders, stations move to the die, ORION-style alignment). Logic adopts first; SemiAnalysis expects HBM not to adopt D2W hybrid bonding before 2029, if at all. Same day, COUNT (host-RAM n-gram tables) and KV4-RL/JSSA (fewer HBM reads) push the software side of the HBM squeeze.

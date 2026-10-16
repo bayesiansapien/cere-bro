@@ -883,3 +883,10 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Reading Right, Acting Wrong** (same day): across 17 fast decision systems, most wrong next actions follow a correct reading of the state; errors cluster on the same states across systems. That is where an escalation gate should fire.
 - **Companions:** VideoJev (decision heads on video MLLMs, 2.8-3.1x faster via cached and joint inference), JevGPT (System One judges under a System Two research planner). Also [Fewer Bits, More Tries (10-15)](../inference-efficiency/2026-10-15-fewer-bits-more-tries-verified-retry.md): on verifiable tasks, retrying a small model eight times can replace routing up to a bigger one.
 - **Still open:** Gavel vs Jev head-to-head (asked since 09-16); calibration of the coverage head under quantization.
+
+## 2026-10-16: the cache enters the routing objective
+
+- **[Whose Turn Is It? (10-16)](2026-10-16-whose-turn-routing-and-agent-auctions.md), Microsoft.** Zero-shot per-turn routing for stateful spreadsheet agents. History-aware routers pass +3.3 points at matched offloading, within 1 point of always-expensive. Cheap model's per-task edge shrinks 6.8x to 3.2x on long sessions. Closed-form cache analysis: down-switches recover cache cost within two calls, up-switches never broke even.
+- **[Agentic auctions (10-16)](2026-10-16-whose-turn-routing-and-agent-auctions.md), Google DeepMind.** First-price auctions among bidding agents: competitive floor (distilled near-peers) drives price of anarchy toward zero; near-independence gives ~1 - 1/e² efficiency. Validated on EmbedLLM.
+- **Granularity ladder now complete:** request (classic routers) → session (Arena Max, 10-14) → role (Cohere, 10-14) → turn (Whose Turn, 10-16).
+- **Shift:** prompt-cache pricing (Argon's 95% cached discount, 10-14) makes switch direction a cost variable. Open: no trained router with an asymmetric switching penalty yet.

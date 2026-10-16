@@ -373,3 +373,7 @@ Two companions supply the discipline and the ceiling. Google Research's RRSI rep
 ## 2026-10-13: graders that evolve, and research taste on a curve
 
 DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPval grader agreement 68.4% to 78.5%); training the grader alone barely helps. Double Ratchet (AWS + HSBC) evolves a rule-based grader selected only for agreement with 10 labels. RSI-Anything gates policy updates with world-model compatibility checks. Import AI reports P-Zero's TasteVal: experimental research taste doubling every 3.0 months since Dec 2025, Opus 5.5 above a 24-expert baseline at 1/30 cost ([industry 10-13](../ai-industry/2026-10-13-industry-roundup-reflection-taste-and-capital.md)). Anthropic's Memento harness shows replicating agents improve across generations via notes ([10-13](../responsible-ai/2026-10-13-anthropic-self-replication-and-distillation-defenses.md)).
+
+## 2026-10-16: tension, history helps editing but stalls discovery
+
+[Scaling Discovery Requires Forgetting](2026-10-16-forgetting-trees-and-cited-stores.md) finds research agents anchor on accumulated attempts and plateau; wiping history beats keeping it. Harness² and Evo² (10-14/15) improve by keeping edit history. Possibly compatible (method vs attempts), untested on a shared task.
