@@ -377,3 +377,9 @@ DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPv
 ## 2026-10-16: tension, history helps editing but stalls discovery
 
 [Scaling Discovery Requires Forgetting](2026-10-16-forgetting-trees-and-cited-stores.md) finds research agents anchor on accumulated attempts and plateau; wiping history beats keeping it. Harness² and Evo² (10-14/15) improve by keeping edit history. Possibly compatible (method vs attempts), untested on a shared task.
+
+## 2026-10-17: measurable self-improvement, under frozen evaluators
+
+- **[Athanor, Terminal-RSI, Harness RSI, Minecraft (10-17)](2026-10-17-agents-improving-agents-athanor-terminal-rsi.md).** Four Opus 5.5 agents post-train Qwen3-4B-Base past the official instruct model in 104 h (held-out 48.2 vs 47.9) by recombining SFT, RL, merges and self-distillation. Terminal-RSI: five alternating rewrite/refine stages to 86.52% on Terminal-Bench 2.1. Harness RSI: a PAC-style admission rule for harness edits using fresh validation. Gemini 4 Argon team beats Minecraft in 27h14m with no roles. AutoSFT: a single agent loses context mid-search; a meta-agent separating execution from analysis adds +6.5 IFEval. RSI-Anything (via X, [2610.13912](https://arxiv.org/abs/2610.13912)) adds a world-model "rehearse before acting" step.
+- **[Quantum circuits (10-17)](2026-10-17-claude-quantum-circuits-and-ecdsa-seeds.md):** evaluator-guided search with Claude Mythos 5 beats best-known circuits on 7 of 8 tasks.
+- **Pattern:** every credible result here has a frozen, hidden, or mechanical evaluator. The design question has moved from "can the agent improve" to "what can the agent not see."

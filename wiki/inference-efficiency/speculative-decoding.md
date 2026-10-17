@@ -176,3 +176,9 @@ SpecFold reuses parent computation across near-identical draft branches in diffu
 ## 2026-10-16: DFlash2 ships with Muse Spark Open
 
 [Muse Spark Open](../llms-foundation-models/2026-10-16-muse-spark-open-and-nemotron-35.md): NVIDIA's DFlash2 drafts a 7-token block in one non-causal pass with a pairwise path selector over top-k candidates. Acceptance length 3.73 greedy / 3.01 at t=1 on MT-Bench, 3.30 / 2.78 at 32K input, 2.16 on high-entropy prompts. Confirms the recurring finding that acceptance drops on long, high-entropy agent contexts. [Next-Concept Modeling](2026-10-16-compression-shorts.md) is a non-autoregressive alternative (10-31x faster than diffusion LMs at small scale).
+
+## 2026-10-17: depth-conditioned parallel drafting, and speculation over agent steps
+
+- **DSpine** (Tencent, [page](2026-10-17-dory-looped-lm-and-dspine.md)): parallel drafter where each position receives its predecessor's predicted feature at every draft layer, so causality unfolds through depth. Qwen3-8B average acceptance 7.83 vs 7.55 (DFlash2) and 7.44 (DSpark) at T=0; 6.98 vs 6.53 at T=1. Acceptance only, no wall-clock under batching.
+- **SpecAgent** ([page](../ai-routing/2026-10-17-weak-drafts-strong-review-specagent-edgewise-leash.md)): the draft-then-verify pattern lifted to tool-calling steps. Weak model drafts grounded steps, strong model verifies the segment in one prefill. The verifier decodes only verdicts.
+- **Still open from 10-16:** acceptance on long agentic traces.

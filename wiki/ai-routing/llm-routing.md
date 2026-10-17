@@ -890,3 +890,11 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **[Agentic auctions (10-16)](2026-10-16-whose-turn-routing-and-agent-auctions.md), Google DeepMind.** First-price auctions among bidding agents: competitive floor (distilled near-peers) drives price of anarchy toward zero; near-independence gives ~1 - 1/e² efficiency. Validated on EmbedLLM.
 - **Granularity ladder now complete:** request (classic routers) → session (Arena Max, 10-14) → role (Cohere, 10-14) → turn (Whose Turn, 10-16).
 - **Shift:** prompt-cache pricing (Argon's 95% cached discount, 10-14) makes switch direction a cost variable. Open: no trained router with an asymmetric switching penalty yet.
+
+## 2026-10-17: the weak model drafts, the strong model reviews
+
+- **[SpecAgent, EdgeWise, LEASH (10-17)](2026-10-17-weak-drafts-strong-review-specagent-edgewise-leash.md).** Three step-level escalation designs on one HF day. SpecAgent: weak model drafts grounded read-only steps, strong model verifies the segment in one prefill and repairs the first bad step; within 1 point of strong-only on τ²-Bench at ~half the memory traffic and wall time. EdgeWise: step-level RL teaches the on-device SLM when to delegate; up to 62% cheaper on SWE-Rebench, 34% on Terminal-Bench 2.1, matching pure-LLM. LEASH (cross-source confirmed HF + Kurate cs.AI #18): training-free, hidden-state similarity to past failures triggers escalation, plus a shadow observer after handoff; Qwen3.5-35B-A3B + LEASH 73.66% at $0.41/task vs always-on Opus 5 72.90%, 19.2% cheaper.
+- **Granularity ladder extends:** request → session (10-14) → role (10-14) → turn (10-16) → step and verified segment (today).
+- **Three triggers, one pattern (n=3):** reviewer verdict, learned delegation policy, latent uncertainty. Practitioner echo: Intern-Decision's confidence handoff (10-16 HF) lifts 73.9% to 87.4% by routing 42 of 111 items up.
+- **Industry echo:** HarnessRouter's UHP routes a task to a *harness*, not a model, and reports up to 2.1x cost difference from the harness alone.
+- **Open:** no shared benchmark compares the three triggers; LEASH's failure memory needs in-domain labeled trajectories.

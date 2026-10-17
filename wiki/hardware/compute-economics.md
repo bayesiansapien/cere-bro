@@ -419,3 +419,9 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 ## 2026-10-15: foundry margin up, lessor credit down
 
 [TSMC Q3 and neocloud credit (10-15)](2026-10-15-tsmc-q3-and-neocloud-credit-stress.md). TSMC: $46.7B revenue (+41%), Q4 guide $53.3B, 58% operating margin, 79% of wafer revenue at 7nm and below, new Tainan 3nm fab for 1H 2028. CoreWeave: 2032 bonds below 85 cents (~15% yield), Q2 interest $640M vs loss $626M; stock -15.5%; Gartner quoted at "80% of neoclouds fold." Anthropic: $1.70 revenue per $1 compute (compute ~59% of revenue), Q3 $16.8B. **Shift:** rent accrues to the scarce layer (wafers, EUV); leverage sits with the commodity layer (rented GPUs).
+
+## 2026-10-17: a public MFU number, and the remote cache's break-even
+
+- **MAI-Base-2** ([page](../llms-foundation-models/2026-10-17-mai-base-2-reflection-beam-glimpse.md)): 2.8T-A80B, 16,000 GB200 for 38 days at 21% average MFU and 89% goodput. Efficiency vs DeepSeek-V4-Pro-Base (4.2-12.3x) is fitted, not measured.
+- **Remote KV tier** ([page](../inference-efficiency/2026-10-17-remote-kv-tier-slower-than-gpu.md)): on B300 a cache hit must beat 2.53 GB/s and ~17K tokens to beat recompute. Faster GPUs make cache tiers harder to justify.
+- **Memory supply:** Elon Musk says the memory shortage worsens in 2027 and HBM is "a tougher hill to climb" for China; HBM projected at ~30% of DRAM wafer capacity next year (via X). Taiwan to fund up to $4B Texas park for Nvidia/TSMC/Foxconn suppliers. Nscale's ~$35B IPO hit by a six-month Norway build delay (6.4 of 30 MW live).

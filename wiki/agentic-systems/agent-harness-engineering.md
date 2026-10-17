@@ -763,3 +763,11 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 ## 2026-10-16: a benchmark for building the harness
 
 [Doc2Harness](2026-10-16-forgetting-trees-and-cited-stores.md) (HF #4): models build a harness from a spec consolidating 12 frontier harnesses, then a scripted mock model drives it through 328 tests. Best (GPT-6 Astra) 53.05%, worst 27.44%; failures cluster on cross-cutting features split across modules. Same window: Gemini 4 Argon scores 97.5% on ARC-AGI-3 with a provider harness vs 49.8% standard, the clearest harness-gap number yet. Practitioner talks: swyx "The Highest Loop", Google Cloud harness crash course.
+
+## 2026-10-17: the harness gets a protocol and a router
+
+- **HarnessRouter / UHP** (via X, [repo](https://github.com/HarnessRouter/harnessrouter)): a Unified Harness Protocol and Apache-2.0 server that runs Codex, Claude Code, Hermes and others behind one API. Its first benchmark: changing only the harness changed cost by up to 2.1x on the same model. Alibaba's Qoder adopted UHP.
+- **OpenGCUA** (HF 10-16): "harness-to-model decision transfer" moves observation and task-state choices from fixed harness rules to the model; +19.6 mean partial score and 53% fewer steps on OSWorld-v2 across eight models.
+- **Claude Code code review** ([claude.dev](https://claude.dev/blog/solving-code-review-at-anthropic/)): review runs continuously like spellcheck; the team optimizes for the minimum human review time that does not raise reverts or incidents.
+- **Google AX** (via X, [repo](https://github.com/google/ax)): open agent orchestration runtime with suspend/resume of stateful agents on Kubernetes.
+- Self-improvement results: see [self-evolving-agents](self-evolving-agents.md) 10-17.

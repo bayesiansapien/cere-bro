@@ -2117,3 +2117,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-16] social-stream | 2026-10-16 morning | social-stream
 ## [2026-10-16] media-zone | Media Zone 2026-10-16 (finalized) | media-zone
 ## [2026-10-16] digest | cere-bro 2026-10-16 | daily-digest
+## [2026-10-17] ingest | SpecAgent/EdgeWise/LEASH step routing, remote KV tier break-even, VHA + PN-Mix, FlashMask-3, Dory1.0-4B + DSpine, Waypoint-OPD, Athanor/Terminal-RSI/Harness RSI/Minecraft, MAI-Base-2 + Beam + Glimpse, Claude quantum circuits + ECDSA seeds | huggingface + kurate + labs + rss + gmail + x-feed + youtube
+## [2026-10-17] social-stream | 2026-10-17 morning | social-stream
+## [2026-10-17] media-zone | Media Zone 2026-10-17 (finalized) | media-zone
+## [2026-10-17] digest | cere-bro 2026-10-17 | daily-digest

@@ -768,3 +768,11 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[Latent Compaction (10-16)](2026-10-16-jssa-and-latent-compaction.md):** per-document test-time-trained cache, weights frozen, no access to questions. 96.7% RULER at 32x vs 40.0% for KVZip+.
 - **Pattern (n=3 in four days):** QuantMLA (RoPE path), ReplaySSM (state writes), KV4-RL (sinks + recent) each find a small structurally identified fragile slice and compress the rest.
 - **Tension:** vLLM bitwise-consistent RL (10-14) removes sampler/trainer drift; KV4-RL introduces bounded drift for speed.
+
+## 2026-10-17: the remote tier has a break-even line, and the cache shrinks at the head
+
+- **[Remote KV tier (10-17)](2026-10-17-remote-kv-tier-slower-than-gpu.md):** GLM-5.3 on 8xB300 with PCP8. A remote hit took 0.88 s vs 0.31 s to recompute. Hits pay only above B* = sR (2.53 GB/s) and above ~17K tokens (fixed per-hit cost 0.33 s). Rank-sharded store + per-rank servers (GET 6.3x to 10.76 GB/s) + async load: hit-heavy p99 from 83.32 s to 0.67 s, prefill +14% (+34% with kernel fix). Upstreamed to LMCache.
+- **Contradiction, hardware-relative:** galahad-kv (10-09) found NVMe reload 2.8-4.3x faster than recompute on H100. Faster GPUs raise the bandwidth a tier must beat; storage-tier wins do not transfer automatically to Blackwell.
+- **[VHA + PN-Mix (10-17)](2026-10-17-virtual-head-attention-and-pn-mix.md):** VHA serves as plain GQA-2 (2-4x less KV than GQA-8/GQA-4) yet beats GQA and MLA on quality at 30B-A3B; RULER 84.4 vs 73.0. PN-Mix: 2.26-bit keys by RoPE pair-norm saliency, graceful to 1.5 bits.
+- **Pattern now n=4 (fragile slice):** QuantMLA (RoPE path), ReplaySSM (state writes), KV4-RL (sinks + recent), PN-Mix (high pair-norm RoPE pairs). RoPE error amplification appears in two of the four.
+- **Shipped:** NVIDIA Dory1.0-4B ships last-loop KV caching for looped models ([page](2026-10-17-dory-looped-lm-and-dspine.md)), the ELR (10-13) proposal in a product.

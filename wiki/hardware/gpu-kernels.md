@@ -354,3 +354,7 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## 2026-10-14: fill the Hopper tile at decode, pin kernels for bit-exactness
 
 [Fused MoE on Hopper and batch invariance (10-14)](2026-10-14-fused-moe-hopper-and-batch-invariance.md). AWS: WGMMA fixes operand A's rows at 64, so MoE decode (M<64) starves tensor cores; Swap-AB computes Bᵀ·Aᵀ so the expert dimension fills the tile. Routing FP8 MoE to Triton over FlashInfer+CUTLASS gave +10% on H200; removing Triton integer specialization stopped JIT recompiles inflating TTFT. vLLM PR #60074: pinned Inductor configs give 48/48 bit-identical decodes across processes (0/48 default). FLAT: linear attention, Mamba-2, GLA training kernels on TPU at ~90% of HBM peak. Third data point for Triton winning on skinny, irregular shapes (after 10-05, 10-07).
+
+## 2026-10-17: mask-aware, distributed attention on Hopper
+
+[FlashMask-3](../inference-efficiency/2026-10-17-flashmask-3.md): FlashAttention-3-based Hopper kernel with three-role warp specialization, zero-communication per-rank mask localization, sparsity-aware load balancing and mask-driven communication pruning. +45-141% TFLOPs over FlashMask, +34-71% over FlexAttention on H100; 1.80-3.71x over Megatron-Core ring CP; +7.3-11.0% end-to-end on a 118B-A14B MoE at 128K on 128 H100s. Also today: PyTorch's Zephon makes TorchTitan data loading bit-identical across GPU counts (8 to 64), removing GPU count as a hidden variable in agent-run ablations.

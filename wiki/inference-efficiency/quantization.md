@@ -238,3 +238,9 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 
 - [KV4-RL](2026-10-16-kv4-rl-int4-kv-rollouts.md): at matched workload, KV quantization speeds async RL rollouts more than weight or weight-activation quantization; INT4 with protected INT8 sinks/recent.
 - [Muse Spark Open](../llms-foundation-models/2026-10-16-muse-spark-open-and-nemotron-35.md): Meta itself produced the NVFP4 checkpoint (~700GB for 816B). With Nemotron 3.5 (QAD NVFP4) and Step-5 NVFP4, the 4-bit checkpoint is now part of the release, not a community afterthought.
+
+## 2026-10-17: key bits by pair norm, and a model pre-trained in NVFP4
+
+- **PN-Mix** ([page](2026-10-17-virtual-head-attention-and-pn-mix.md)): mixed-precision key cache where saliency is the query-key pair-norm product per RoPE pair, picked once at prefill. 2.26 bits matches 2.32-2.39-bit baselines; graceful down to 1.5 bits.
+- **NVIDIA Dory1.0-4B** ([page](2026-10-17-dory-looped-lm-and-dspine.md)): pre-trained natively in NVFP4 on an nGPT backbone, then BF16; ships BF16 / MXFP8 / NVFP4 / Q5_K_M.
+- **Release norm:** Reflection Beam (501B-A23B) ships BF16 / FP8 / NVFP4 at launch, following Muse Spark Open (10-16). NVFP4 is now a launch-day format.

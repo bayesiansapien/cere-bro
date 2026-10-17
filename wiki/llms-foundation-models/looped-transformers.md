@@ -139,3 +139,8 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 ## 2026-10-16: LatentLoop
 
 [LatentLoop](../inference-efficiency/2026-10-16-compression-shorts.md): in a twice-applied shared MoE block the first visit matters less; compress its sequence, keep full resolution on the second, spend savings on width. 19.0% predicted compute savings vs vanilla MoE, 7.9% vs looped baseline, across 15 configs up to 10^21 FLOPs.
+
+## 2026-10-17: a looped model ships
+
+- **NVIDIA Nemotron-Labs Dory1.0-4B** ([page](../inference-efficiency/2026-10-17-dory-looped-lm-and-dspine.md)): 8 input + 20 shared recurrent + 8 output layers, input re-injected each loop, 1/2/4 loops from one checkpoint, last-loop KV caching (no cache overhead at any loop count), native NVFP4 pretraining, 256K context. SWE-bench Verified 50.3 / 59.5 / 61.8 at 1 / 2 / 4 loops vs 61.0 for Qwen3.5-9B. Gains flatten from 2 to 4 loops.
+- **Research-to-release in days:** ELR (10-13, last-loop KV), ResidualQuant (10-14, per-loop caches are redundant), LatentLoop and Elastic (10-16). Elorian Glimpse applies latent recurrence to visual representations ([page](2026-10-17-mai-base-2-reflection-beam-glimpse.md)). X notes "a hot week for looped Transformers" (Princeton/UPenn work, not ingested).
