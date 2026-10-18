@@ -273,3 +273,11 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## 2026-10-13: RL memory and idle rollout GPUs
 
 [LoGRA (efficiency shorts 10-13)](../inference-efficiency/2026-10-13-efficiency-shorts.md), NVIDIA: low-rank random gradient sketches plus predicted-KL step control; full-weight RL with less memory than rank-256 LoRA (7.2 vs 13.2 GiB at 1.5B), 45.7% less at 7B, 27B on one 8-GPU node. QwenGyre (Alibaba): lend idle GPUs during hours-long agent rollouts to other training, share trajectory prefixes, score partial progress; up to 1.85x faster. LatentGRM: a latent-space reward judge, 6-7x less judge inference time. Semi-OPD ([10-13](../inference-efficiency/2026-10-13-semi-opd-and-when-on-policy-distillation-fails.md)) shows fresh rollouts are not always worth their cost.
+
+## 2026-10-18: denser credit without a reward model, and midtraining before SFT
+
+- **[CoPE (10-18)](../agentic-systems/2026-10-18-agent-rl-recipes-midtraining-cope-ideation.md)**: on successful rollouts only, train the policy to forecast its next K actions alongside GRPO. Up to 2.0x sample efficiency (ScienceWorld), +12.5 points on WebShop, zero inference cost.
+- **NVIDIA agentic midtraining (2610.22019)**: 500B SWE tokens at 256K context between pretraining and SFT; SWE-bench Multilingual 55.8 → 62.8 on Nemotron 3.5 Lightning. Base-model proxies did not predict post-training results.
+- **Set-level reward (Salesforce, 2610.22324)**: each idea scored by quality × distance from earlier ideas; an 8B beats Opus 4.8 on creative utility.
+- **AgentDecision-4B** (in [JevAgentHarness](../ai-routing/2026-10-18-jevagentharness-decision-model-delegation.md)) runs GRPO inside the agent loop on post-mistake states.
+- **DeepSeek-V4.1-Flash-1017**: RL with self-feedback on whole-project builds raised Terminal-Bench 4.0 from 31.2 to 42.3 while shortening outputs.

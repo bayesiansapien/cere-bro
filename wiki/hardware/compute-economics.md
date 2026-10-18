@@ -425,3 +425,11 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **MAI-Base-2** ([page](../llms-foundation-models/2026-10-17-mai-base-2-reflection-beam-glimpse.md)): 2.8T-A80B, 16,000 GB200 for 38 days at 21% average MFU and 89% goodput. Efficiency vs DeepSeek-V4-Pro-Base (4.2-12.3x) is fitted, not measured.
 - **Remote KV tier** ([page](../inference-efficiency/2026-10-17-remote-kv-tier-slower-than-gpu.md)): on B300 a cache hit must beat 2.53 GB/s and ~17K tokens to beat recompute. Faster GPUs make cache tiers harder to justify.
 - **Memory supply:** Elon Musk says the memory shortage worsens in 2027 and HBM is "a tougher hill to climb" for China; HBM projected at ~30% of DRAM wafer capacity next year (via X). Taiwan to fund up to $4B Texas park for Nvidia/TSMC/Foxconn suppliers. Nscale's ~$35B IPO hit by a six-month Norway build delay (6.4 of 30 MW live).
+
+## 2026-10-18: rental prices up, neocloud stocks down
+
+- **B300 rental rates rose more than 20% in a month** while Nebius, IREN and CoreWeave shares fell on fears GPUs depreciate too fast (investor commentary on X, 10-17; unsourced figure). Demand for open-model inference is cited as the driver, consistent with DeepSeek, Meta and Reflection all shipping open models this week.
+- **Ben Horowitz: Amazon's CEO told him AI compute is sold out "beyond 2028."** Binding constraint is power, cooling and buildings, not GPUs.
+- **HSBC: custom AI chips reach 57% of HBM demand by 2028**, with HBM growing from ~$64B (2026) to ~$280B (2028), so GPU HBM demand can still nearly triple.
+- **a16z co-led Volta's Series A**, "the neocloud for Little Tech": cloud operations plus project finance so startups without financeable balance sheets can sign long-term capacity. The Information (10-17) reports a16z and General Catalyst racing to secure chips for portfolio companies.
+- **Tension:** if compute is sold out to 2028 and rentals are rising, the market's depreciation fear is a financing story, not a demand story. Watch CoreWeave debt pricing.

@@ -2042,4 +2042,12 @@ Catalog of all pages. Updated on every ingest.
 | social-stream | [2026-10-17 morning](social-stream/2026-10/2026-10-17-morning.md) | Persistence and long-horizon agents, oversight degradation, Arena week, GPT-6 Astra Pro parallel agents. |
 | media-zone | [2026-10-17](media-zone/2026-10/2026-10-17.md) | Harness as cost lever, persistence under evaluators, memory squeeze, banks lock out agents. |
 | daily-digest | [2026-10-17](daily-digest/2026-10/2026-10-17.md) | Step-level routing, remote KV break-even, VHA/PN-Mix, FlashMask-3, Dory, Athanor, MAI-Base-2. |
+| ai-routing | [2026-10-18 JevAgentHarness](ai-routing/2026-10-18-jevagentharness-decision-model-delegation.md) | Decision model takes routine agent choices behind a per-decision fitted threshold; 14.2% cheaper with zero outcome changes; AgentDecision-4B 81-89% cheaper. |
+| llms-foundation-models | [2026-10-18 DeepSeek-V4.1-Flash-1017](llms-foundation-models/2026-10-18-deepseek-v41-flash-1017.md) | MIT refresh: Terminal-Bench 4.0 31.2 to 42.3, DeepSWE 77.0, shorter outputs; Search/Fetch APIs at $0.75/1K. |
+| agentic-systems | [2026-10-18 MPT](agentic-systems/2026-10-18-market-based-post-training-mpt.md) | Market-based post-training: agents learn to bid per step, bid-weighted credit, no orchestrator. |
+| agentic-systems | [2026-10-18 Agent training recipes](agentic-systems/2026-10-18-agent-rl-recipes-midtraining-cope-ideation.md) | NVIDIA agentic-coding midtraining, CoPE action-forecasting loss (2x sample efficiency), set-level diverse-ideas RL. |
+| ai-industry | [2026-10-18 Interconnects on Meta](ai-industry/2026-10-18-interconnects-meta-shakes-up-the-frontiers.md) | Muse Spark Open halves US-China open gap; license is the risk; Anthropic > OpenAI > Meta ≈ Gemini. |
+| social-stream | [2026-10-18 morning](social-stream/2026-10/2026-10-18-morning.md) | Decision models in harnesses, agent bidding, agent-training recipes, B300 rentals up. |
+| media-zone | [2026-10-18](media-zone/2026-10/2026-10-18.md) | Decision-level routing, DeepSeek's shorter outputs, open harness tooling, rising rental prices. |
+| daily-digest | [2026-10-18](daily-digest/2026-10/2026-10-18.md) | JevAgentHarness, DeepSeek-V4.1-Flash-1017, MPT, agent-training recipes, Interconnects, agent misbehavior disclosures. |
 | daily-digest | [2026-10-16](daily-digest/2026-10/2026-10-16.md) | KV4-RL, JSSA + Latent Compaction, Whose Turn routing, Muse Spark Open, compression shorts, OPD fixes, forgetting, GRAFT, ASML bonding. |

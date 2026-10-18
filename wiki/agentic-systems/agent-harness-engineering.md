@@ -771,3 +771,10 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Claude Code code review** ([claude.dev](https://claude.dev/blog/solving-code-review-at-anthropic/)): review runs continuously like spellcheck; the team optimizes for the minimum human review time that does not raise reverts or incidents.
 - **Google AX** (via X, [repo](https://github.com/google/ax)): open agent orchestration runtime with suspend/resume of stateful agents on Kubernetes.
 - Self-improvement results: see [self-evolving-agents](self-evolving-agents.md) 10-17.
+
+## 2026-10-18: the harness learns where cheap compute is safe
+
+- **[JevAgentHarness (10-18)](../ai-routing/2026-10-18-jevagentharness-decision-model-delegation.md)** makes delegation a harness feature: each decision point gets its own fitted confidence threshold, and the LLM handles only what falls below. 14.2% cheaper with zero outcome changes on 500 tasks; per-agent 4B decision models 81-89% cheaper. The harness, not the model, owns the cost dial.
+- **Practitioner echo (X feed, 10-17):** Claude Code's dynamic-workflows docs describe a script that holds the loop, a big model that plans and signs off, and cheap models that fan out ([docs](https://code.claude.com/docs/en/workflows)). Google Research open-sourced Harness² (recursive harness refinement, 8 components) and Walking Labs published a 14-lecture harness-engineering course. A widely shared "End of Harness Engineering" thread argued a 4B model can rewrite the harness against a held-out scoring set, so the human's job becomes writing the exam. No paper link was given; treat as claim.
+- **DeepSeek-V4.1-Flash-1017** is "optimized for DeepSeek Harness" and reports Terminal-Bench under the Claude Code harness: labs now ship model + harness pairs.
+- **Market-based orchestration:** [MPT (10-18)](2026-10-18-market-based-post-training-mpt.md) removes the orchestrator entirely; agents bid for each step.

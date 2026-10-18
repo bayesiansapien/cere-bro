@@ -898,3 +898,13 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Three triggers, one pattern (n=3):** reviewer verdict, learned delegation policy, latent uncertainty. Practitioner echo: Intern-Decision's confidence handoff (10-16 HF) lifts 73.9% to 87.4% by routing 42 of 111 items up.
 - **Industry echo:** HarnessRouter's UHP routes a task to a *harness*, not a model, and reports up to 2.1x cost difference from the harness alone.
 - **Open:** no shared benchmark compares the three triggers; LEASH's failure memory needs in-domain labeled trajectories.
+
+## 2026-10-18: routing reaches the single decision, and the threshold is the product
+
+- **[JevAgentHarness (10-18)](2026-10-18-jevagentharness-decision-model-delegation.md)**, UIUC, surfaced via DAIR.AI on X. A harness sends each routine fork (tool, argument, stop) to a decision model and takes its answer only above a confidence threshold **fitted per decision point on the agent's own trajectories**. With Gemini 3.5 Flash as the agent: Jev made 27.2% of tool and 20.8% of argument choices, 14.2% cheaper, zero outcome changes across 500 tasks. Fixed 0.5 threshold: -21.5 points; Jev on every tool choice: -19.0.
+- **Answers the calibration question open since 10-13.** Raw decision-model confidence is not usable as-is; a fitted per-point threshold is. Isolated accuracy misranks decision models (5.1-point spread in accuracy vs 57.5-point spread in task success).
+- **AgentDecision-4B**: SFT then GRPO on post-mistake agent states with Jev labels. 91.5% vs 82.0% (Jev) on shifted tasks; per-agent 4B models 81-89% cheaper, up to 2.5x faster, within 3 points. Transfer not shown (tau-bench refit lost 8.1).
+- **Granularity ladder:** request → session (10-14) → role (10-14) → turn (10-16) → step (10-17) → **decision** (today).
+- **Decentralized variant:** [MPT (10-18)](../agentic-systems/2026-10-18-market-based-post-training-mpt.md) trains each agent to emit a bid per step; the highest bidder acts. A learned version of DeepMind's agentic auctions (10-16).
+- **Industry echo:** DeepSeek-V4.1-Flash-1017 reports benchmarks per harness and frames its release as a cost-per-task Pareto move ([10-18](../llms-foundation-models/2026-10-18-deepseek-v41-flash-1017.md)).
+- **Open:** does a fitted threshold survive a model upgrade of the agent itself? No paper refits after swapping the LLM.

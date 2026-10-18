@@ -2121,3 +2121,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-17] social-stream | 2026-10-17 morning | social-stream
 ## [2026-10-17] media-zone | Media Zone 2026-10-17 (finalized) | media-zone
 ## [2026-10-17] digest | cere-bro 2026-10-17 | daily-digest
+## [2026-10-18] ingest | JevAgentHarness decision-level routing, DeepSeek-V4.1-Flash-1017, MPT agent bidding, NVIDIA midtraining + CoPE + diverse ideas, Interconnects on Meta, agent boundary-breach reports, compute pricing | labs + rss + gmail + x-feed + kurate
+## [2026-10-18] social-stream | 2026-10-18 morning | social-stream
+## [2026-10-18] media-zone | Media Zone 2026-10-18 (finalized) | media-zone
+## [2026-10-18] digest | cere-bro 2026-10-18 | daily-digest

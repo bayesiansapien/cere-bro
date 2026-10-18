@@ -38,7 +38,7 @@ flowchart LR
 - One midtraining stage between pretraining and post-training: **256K context, 500B tokens** of natural software-engineering data (packed repositories, pull requests, commit histories, build logs) plus a small share of agent traces. SFT held identical.
 - Nemotron 3.5 Lightning: SWE-bench Multilingual 55.8 → 62.8, Verified 60.7 → 64.5, Pro 32.0 → 35.5. Nemotron 3.5 Super: DeepSWE 11.7 → 15.7.
 - **Base-model proxy metrics did not predict post-training results**, so every data choice was scored with short fixed SFT runs. Recipe and ablations are public.
-- Relation: the [10-15 MoE-midtraining and KD-during-midtraining results](../inference-efficiency/knowledge-distillation.md) argued midtraining is where reasoning gets set; this is the agentic-coding instance.
+- Relation: same lesson as [JevAgentHarness (10-18)](../ai-routing/2026-10-18-jevagentharness-decision-model-delegation.md), where isolated accuracy misranked decision models by up to 57.5 points of task success. Offline proxies keep failing to predict behavior inside an agent loop.
 
 ## CoPE: co-evolving acting and forecasting (2610.20597)
 
@@ -50,7 +50,7 @@ flowchart LR
 
 - 8B model writes K idea cards in one generation; each idea's quality is weighted by its distance from earlier ideas in the set.
 - Higher "creative utility" (quality × diversity) than Claude Opus 4.8 and GPT-6 Astra on a contamination-free benchmark; a four-expert pilot rated sets as promising as Opus 4.8's; proof-of-concept success@k comparable.
-- Relation: the diversity counterpart to [Scaling Discovery Requires Forgetting (10-16)](self-evolving-agents.md), which found research agents plateau because they anchor on their own history.
+- Relation: the diversity counterpart to [Scaling Discovery Requires Forgetting (10-16)](2026-10-16-forgetting-trees-and-cited-stores.md), which found research agents plateau because they anchor on their own history.
 
 ## Gaps
 

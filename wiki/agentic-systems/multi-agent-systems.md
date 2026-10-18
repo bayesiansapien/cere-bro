@@ -138,3 +138,7 @@ Both push in the direction [Emergent Collusion (09-23)](../responsible-ai/2026-0
 - **[Vals AI on Vibe Code Bench (10-12)](2026-10-12-agent-team-costs-and-research-world-models.md).** Teams of GPT-6 Sol or Opus 5.5 cost 1.8-5.1x more than solo agents; one of four comparisons significant (+7.3, Sol at medium effort); no gain at max effort. Opus 5.5 system card: gains flatten past 10 agents.
 - **Pattern (n=3): Git as agent memory.** Agora (09-17, append-only Git DAG for autoresearch), GitHarness (10-05, versioned personal-agent harness), GitSwarm (10-12). Version control is becoming the default substrate for multi-agent state.
 - **Shift / tension:** the 10-06 entry concluded swarms mostly buy wall-clock time. GitSwarm's scaling past 100 workers says the communication substrate matters: message-passing teams hit a coordination tax, artifact-sharing swarms keep compounding. Unresolved until someone runs both on the same task with a dollar budget.
+
+## 2026-10-18: self-orchestration by auction
+
+- **[MPT (10-18)](2026-10-18-market-based-post-training-mpt.md)** (Harvard/MIT): each agent learns an action policy and a bidding policy; highest bid acts; credit is bid-weighted so overbidding failures hurt most. Beats monolithic post-training and fixed coordination; swarms trained at 3 agents improve with more agents at inference and degrade less under dropout. Compare DeepMind's analytical agentic auctions (10-16). Still untested against one strong solo agent, the comparison where Vals AI (10-12) found teams add little.
