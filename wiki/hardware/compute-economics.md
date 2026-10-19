@@ -433,3 +433,10 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **HSBC: custom AI chips reach 57% of HBM demand by 2028**, with HBM growing from ~$64B (2026) to ~$280B (2028), so GPU HBM demand can still nearly triple.
 - **a16z co-led Volta's Series A**, "the neocloud for Little Tech": cloud operations plus project finance so startups without financeable balance sheets can sign long-term capacity. The Information (10-17) reports a16z and General Catalyst racing to secure chips for portfolio companies.
 - **Tension:** if compute is sold out to 2028 and rentals are rising, the market's depreciation fear is a financing story, not a demand story. Watch CoreWeave debt pricing.
+
+## 2026-10-19: +50GW funded, neoclouds wobble
+
+- **SemiAnalysis forecasts +43 to +50GW of 2027 datacenter capacity** on about $1T of binding 2026 leases and parabolic hyperscaler self-build starts; >24GW is in advanced construction at the top 40 campuses alone. Modular builds (AWS Project Houdini, DayOne ~9 months) and behind-the-meter power shorten timelines. Altimeter's Gerstner guessed 25GW ([summary](2026-10-19-semianalysis-datacenters-2027.md)).
+- **Neocloud stress continues:** Microsoft exits Nscale's UK site over power delays; Firmus pulled its IPO; CoreWeave and peers fell ~20% in a week; Nebius has 5 GW contracted but ~0.6 GW live ([industry](../ai-industry/2026-10-19-industry-roundup-benefit-fund-neocloud-shakeout.md)). Musk says SpaceX cannot rent inference compute.
+- **Meta's AMD co-design (1.5x over a direct port)** makes multi-vendor training credible ([summary](2026-10-19-meta-amd-mi350x-codesign.md)).
+- **Shift:** the shortage now splits by builder. Hyperscaler self-builds are on schedule; debt-funded neoclouds absorb power and timing risk. SemiAnalysis hints memory and logic become the 2027-28 constraint.

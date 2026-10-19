@@ -92,3 +92,7 @@ The cost model is this page's cost model, run at a different granularity. Pay on
 ## 2026-10-14: internalizing the model's own reasoning
 
 [HyperThink (10-14)](2026-10-14-hyperthink-text-to-parameter-reasoning.md) predicts a per-query bias update with a VQ-constrained hypernetwork, trained so the no-trace model matches the model that read its own thinking trace. First entry on this page that internalizes reasoning rather than a document or spec; strongest gains at low latency. Kurate's Internalizer ([2610.11715](https://arxiv.org/abs/2610.11715)) is the same family for very large models. The break-even question flips: the hypernetwork runs per query, so its cost is not amortized.
+
+## 2026-10-19: a soft-token alternative
+
+Memorilla ([summary](2026-10-19-memorilla-latent-semantic-memory.md)) reaches a similar goal without touching weights: per-query compression into 16 input-space memory tokens for a frozen model. It competes with predicted adapters on cost per query, and the two have not been compared head to head.

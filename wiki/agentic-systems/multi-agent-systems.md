@@ -142,3 +142,7 @@ Both push in the direction [Emergent Collusion (09-23)](../responsible-ai/2026-0
 ## 2026-10-18: self-orchestration by auction
 
 - **[MPT (10-18)](2026-10-18-market-based-post-training-mpt.md)** (Harvard/MIT): each agent learns an action policy and a bidding policy; highest bid acts; credit is bid-weighted so overbidding failures hurt most. Beats monolithic post-training and fixed coordination; swarms trained at 3 agents improve with more agents at inference and degrade less under dropout. Compare DeepMind's analytical agentic auctions (10-16). Still untested against one strong solo agent, the comparison where Vals AI (10-12) found teams add little.
+
+## 2026-10-19: team design as compute allocation
+
+Cohere ([summary](../ai-routing/2026-10-19-coding-agent-teams-and-token-audits.md)) shows coding teams cost 3-7x a solo agent and that only planning workers keep scaling past four; implementers and verifiers plateau. Delegating only planning matches full delegation at half the cost.

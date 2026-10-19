@@ -397,3 +397,9 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## 2026-10-16: forget, index, or consolidate
 
 [Agent context page (10-16)](2026-10-16-forgetting-trees-and-cited-stores.md). **Forgetting** (Berkeley): periodic wipe of sessions and candidate history, restart from the best candidate, +15% over parallel and +39% over single agents. **TreeFlex** (tree nodes with summaries, learned navigation) and **ScaleMAS** (citable message store, bounded top-k reads, 128 agents). **Cortex**: consolidate context into mergeable LoRA/FFN updates (88.9% gain kept, 99.8% retention after 50 edits). Four papers in two days replace the flat shared context with a bounded read.
+
+## 2026-10-19: compress it, then audit it
+
+- **Memorilla** ([summary](../inference-efficiency/2026-10-19-memorilla-latent-semantic-memory.md)): a learned writer turns a document collection, or an agent's own history, into 16 memory tokens for a frozen LLM. FactKG 84.33% vs 80.43% full context at 108x fewer tokens; TextWorld success 18.6% to 24.2%.
+- **FEB-30** (Amazon, [summary](2026-10-19-agent-shorts-memory-audit-data-world.md)): QA scores and stored-state scores differ by 16.8 points on average and disagree on 21% of histories; a Mem0-style system picks the right memory operation only 20.1% of the time.
+- **Tension:** this page's results, Memorilla included, are mostly QA-scored. FEB-30 says that can hide a broken store.

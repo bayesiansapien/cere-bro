@@ -776,3 +776,7 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[VHA + PN-Mix (10-17)](2026-10-17-virtual-head-attention-and-pn-mix.md):** VHA serves as plain GQA-2 (2-4x less KV than GQA-8/GQA-4) yet beats GQA and MLA on quality at 30B-A3B; RULER 84.4 vs 73.0. PN-Mix: 2.26-bit keys by RoPE pair-norm saliency, graceful to 1.5 bits.
 - **Pattern now n=4 (fragile slice):** QuantMLA (RoPE path), ReplaySSM (state writes), KV4-RL (sinks + recent), PN-Mix (high pair-norm RoPE pairs). RoPE error amplification appears in two of the four.
 - **Shipped:** NVIDIA Dory1.0-4B ships last-loop KV caching for looped models ([page](2026-10-17-dory-looped-lm-and-dspine.md)), the ELR (10-13) proposal in a product.
+
+## 2026-10-19: 16 tokens instead of the cache
+
+[Memorilla](2026-10-19-memorilla-latent-semantic-memory.md) skips the long cache entirely: documents are encoded once, and a learned writer emits 16 query-specific memory tokens into a frozen LLM's input. The whole collection costs 16 KV positions, and FactKG accuracy rises over full context. Untested on exact recall, where soft-prompt compression usually fails.

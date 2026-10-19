@@ -358,3 +358,7 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## 2026-10-17: mask-aware, distributed attention on Hopper
 
 [FlashMask-3](../inference-efficiency/2026-10-17-flashmask-3.md): FlashAttention-3-based Hopper kernel with three-role warp specialization, zero-communication per-rank mask localization, sparsity-aware load balancing and mask-driven communication pruning. +45-141% TFLOPs over FlashMask, +34-71% over FlexAttention on H100; 1.80-3.71x over Megatron-Core ring CP; +7.3-11.0% end-to-end on a 118B-A14B MoE at 128K on 128 H100s. Also today: PyTorch's Zephon makes TorchTitan data loading bit-identical across GPU counts (8 to 64), removing GPU count as a hidden variable in agent-run ablations.
+
+## 2026-10-19: agentic porting inside a hyperscaler
+
+[Meta on AMD MI350X](2026-10-19-meta-amd-mi350x-codesign.md) (arXiv 2610.22230) reports agentic CUDA-to-ROCm workflows as a routine production tool, extended to microarchitecture-aware kernels and custom shims, alongside an analytical model that picks kernels with zero warm-up. Combined with model co-design it gives up to 1.5x over a direct port. Unlike MaxKernel (09-07) or AccelOpt (04-20), the agents are not the headline result, which makes it the first report in this thread from a team with no incentive to sell agentic kernel work.

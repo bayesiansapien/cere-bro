@@ -908,3 +908,7 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Decentralized variant:** [MPT (10-18)](../agentic-systems/2026-10-18-market-based-post-training-mpt.md) trains each agent to emit a bid per step; the highest bidder acts. A learned version of DeepMind's agentic auctions (10-16).
 - **Industry echo:** DeepSeek-V4.1-Flash-1017 reports benchmarks per harness and frames its release as a cost-per-task Pareto move ([10-18](../llms-foundation-models/2026-10-18-deepseek-v41-flash-1017.md)).
 - **Open:** does a fitted threshold survive a model upgrade of the agent itself? No paper refits after swapping the LLM.
+
+## 2026-10-19: routing by role inside the agent team
+
+[Cohere's coding-agent teams](2026-10-19-coding-agent-teams-and-token-audits.md) (arXiv 2610.17471) route by job: cheap models are safe as planners, not implementers. A GPT-5.6 Sol lead with 16 Luna planners lands within 1.4 points of an all-Sol team at 70% lower cost; cheap planners recover 47.5% of the gain for 13.9% of the extra cost. Third design in three days after weak-draft/strong-review (10-17) and per-decision thresholds (JevAgentHarness, 10-18). Companion token audit: security agents spend 60.4% of tokens on comprehension; targeted reuse (AVRI) saves 18-24% where generic tricks rarely do. Market side: DeepSeek V4.1-Flash-1017 at $0.3/$1.2 per M tokens is #1 open on Code Arena WebDev. Counterweight: Anthropic's Project Deal shows cheap agents losing money unnoticed when no strong model checks them.

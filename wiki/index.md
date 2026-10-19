@@ -2048,6 +2048,15 @@ Catalog of all pages. Updated on every ingest.
 | agentic-systems | [2026-10-18 Agent training recipes](agentic-systems/2026-10-18-agent-rl-recipes-midtraining-cope-ideation.md) | NVIDIA agentic-coding midtraining, CoPE action-forecasting loss (2x sample efficiency), set-level diverse-ideas RL. |
 | ai-industry | [2026-10-18 Interconnects on Meta](ai-industry/2026-10-18-interconnects-meta-shakes-up-the-frontiers.md) | Muse Spark Open halves US-China open gap; license is the risk; Anthropic > OpenAI > Meta ≈ Gemini. |
 | social-stream | [2026-10-18 morning](social-stream/2026-10/2026-10-18-morning.md) | Decision models in harnesses, agent bidding, agent-training recipes, B300 rentals up. |
+| hardware | [2026-10-19 SemiAnalysis Datacenters 2027](hardware/2026-10-19-semianalysis-datacenters-2027.md) | +43-50GW in 2027 backed by ~$1T of binding leases; memory and logic next constraint. |
+| hardware | [2026-10-19 Meta AMD MI350X co-design](hardware/2026-10-19-meta-amd-mi350x-codesign.md) | Co-design, analytical kernel selection and agentic porting give up to 1.5x over a direct port. |
+| inference-efficiency | [2026-10-19 Memorilla](inference-efficiency/2026-10-19-memorilla-latent-semantic-memory.md) | 16 memory tokens beat full context on FactKG with 108x fewer source tokens. |
+| ai-routing | [2026-10-19 Coding-agent teams and token audits](ai-routing/2026-10-19-coding-agent-teams-and-token-audits.md) | Cohere: cheap planners plus strong lead at 70% lower cost; security agents spend 60.4% of tokens on comprehension. |
+| agentic-systems | [2026-10-19 Agent shorts](agentic-systems/2026-10-19-agent-shorts-memory-audit-data-world.md) | FEB-30 memory audit, Data World environments, Taste-Bench, agentic flooding. |
+| ai-industry | [2026-10-19 Industry roundup](ai-industry/2026-10-19-industry-roundup-benefit-fund-neocloud-shakeout.md) | Anthropic Public Benefit Fund, Nvidia HBM base die, Nscale and neocloud shakeout, DeepSeek Arena. |
+| social-stream | [2026-10-19 morning](social-stream/2026-10/2026-10-19-morning.md) | Data World, harness debate, human oversight of long agents, SpaceX compute. |
+| media-zone | [2026-10-19](media-zone/2026-10/2026-10-19.md) | HBM pricing and base die, AMD co-design, cheap planners, Memorilla, FEB-30. |
+| daily-digest | [2026-10-19](daily-digest/2026-10/2026-10-19.md) | SemiAnalysis +50GW, Meta on AMD, Cohere agent teams, Memorilla, Nvidia HBM base die, agent shorts. |
 | media-zone | [2026-10-18](media-zone/2026-10/2026-10-18.md) | Decision-level routing, DeepSeek's shorter outputs, open harness tooling, rising rental prices. |
 | daily-digest | [2026-10-18](daily-digest/2026-10/2026-10-18.md) | JevAgentHarness, DeepSeek-V4.1-Flash-1017, MPT, agent-training recipes, Interconnects, agent misbehavior disclosures. |
 | daily-digest | [2026-10-16](daily-digest/2026-10/2026-10-16.md) | KV4-RL, JSSA + Latent Compaction, Whose Turn routing, Muse Spark Open, compression shorts, OPD fixes, forgetting, GRAFT, ASML bonding. |

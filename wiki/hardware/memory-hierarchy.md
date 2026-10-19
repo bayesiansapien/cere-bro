@@ -248,3 +248,9 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 ## 2026-10-16: HBM hybrid bonding pushed to 2029+
 
 [SemiAnalysis on ASML's D2W bonder](2026-10-16-asml-hybrid-bonding-tool.md): ASML patents describe a track-based die-to-wafer hybrid bonder (independent die holders, stations move to the die, ORION-style alignment). Logic adopts first; SemiAnalysis expects HBM not to adopt D2W hybrid bonding before 2029, if at all. Same day, COUNT (host-RAM n-gram tables) and KV4-RL/JSSA (fewer HBM reads) push the software side of the HBM squeeze.
+
+## 2026-10-19: Nvidia standardizes the HBM base die
+
+- **Nvidia reportedly asked Samsung, SK hynix and Micron to build the base die of its next custom HBM on TSMC 3nm** (The Information via Seoul Economic Daily). A common logic layer makes the DRAM stack the swappable part and TSMC wins every order ([industry](../ai-industry/2026-10-19-industry-roundup-benefit-fund-neocloud-shakeout.md)).
+- **HBM pricing:** an investor forecast puts HBM near $35/GB by 2030, more than double today, with HBM4/4E at 48% of demand by 2027. Unconfirmed by primary sources.
+- **Capacity as a design lever:** Meta's MI350X work reshapes models to use 1.6x the HBM of B200 for up to 1.5x training throughput ([summary](2026-10-19-meta-amd-mi350x-codesign.md)).
