@@ -508,3 +508,7 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## 2026-10-16: route the hack, don't penalize it
 
 [GRAFT and governance (10-16)](2026-10-16-graft-gradient-routing-reward-hacking.md). Gradient routing sends monitor-flagged updates into a deletable adapter instead of a reward penalty; avoids teaching the model to evade an imperfect monitor (penalty variant: ~26% of answers removed test checks; GRAFT: ~0 hacking, +16 points clean solve). Governance: six METR evaluators embedded at Anthropic with publication rights; NYC comptroller asks for an IPO delay; NVIDIA NXDirection cuts BIPIA prompt injection 38.1% to 0.1%.
+
+## 2026-10-20: steerable CoT cuts both ways
+
+[Oversight shorts](2026-10-20-cot-controllability-and-agent-oversight-shorts.md): self-instructed CoT constraints raise controllability sharply and can be used to evade CoT monitors (2610.23257). Salesforce's 2,500-session agent-to-agent study: no agent verified a peer's factual claim; a $24K settlement passed every outcome check while leaking confidential details. Policy: Anthropic's leaked bill criticized for a 50-death threshold; DHS bans DeepSeek products in civilian agencies; German courts hold Google liable for AI Overviews.

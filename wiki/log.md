@@ -2129,3 +2129,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-19] social-stream | 2026-10-19 morning | social-stream
 ## [2026-10-19] media-zone | Media Zone 2026-10-19 (finalized) | media-zone
 ## [2026-10-19] digest | cere-bro 2026-10-19 | daily-digest
+## [2026-10-20] ingest | vLLM push + bi-directional KV transfer, DLite/ReaDy/FlashMap drafting, Meta Thin Orchestrator, frozen 16 MB vocabulary, Meta Prometheus + Muse Glimmer, agent context-cost papers, LEV + looped models, Hy-Memory-30B-A3B, kernel/distillation/oversight shorts, GPU glut-vs-shortage roundup | huggingface + rss + labs + x-feed
+## [2026-10-20] social-stream | 2026-10-20 morning | social-stream
+## [2026-10-20] media-zone | Media Zone 2026-10-20 (finalized) | media-zone
+## [2026-10-20] digest | cere-bro 2026-10-20 | daily-digest

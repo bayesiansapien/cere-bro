@@ -244,3 +244,7 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 - **PN-Mix** ([page](2026-10-17-virtual-head-attention-and-pn-mix.md)): mixed-precision key cache where saliency is the query-key pair-norm product per RoPE pair, picked once at prefill. 2.26 bits matches 2.32-2.39-bit baselines; graceful down to 1.5 bits.
 - **NVIDIA Dory1.0-4B** ([page](2026-10-17-dory-looped-lm-and-dspine.md)): pre-trained natively in NVFP4 on an nGPT backbone, then BF16; ships BF16 / MXFP8 / NVFP4 / Q5_K_M.
 - **Release norm:** Reflection Beam (501B-A23B) ships BF16 / FP8 / NVFP4 at launch, following Muse Spark Open (10-16). NVFP4 is now a launch-day format.
+
+## 2026-10-20: the embedding was the unquantized part
+
+[Frozen 16 MB vocabulary](2026-10-20-frozen-16mb-vocabulary-ternary.md): replace a small model's learned embedding (168M of 268M params in Gemma 3 270M, kept at 16 bits by quantizers) with a frozen 512-bit sign code per token. With a BitNet b1.58 body the full model is 46 MB, ties float on LAMBADA/PIQA, and runs 615-740 tok/s on a laptop CPU in 62 MB (5-6x an 8-bit GGUF). Also: [Hy-Memory-30B-A3B GGUF](../agentic-systems/2026-10-20-hy-memory-30b-a3b-memory-writer.md) loses ~2 points from Q6_K to Q4_K_M on LoCoMo; Muse Glimmer 30B targets 4-bit on one consumer GPU.

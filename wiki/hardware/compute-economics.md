@@ -440,3 +440,12 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Neocloud stress continues:** Microsoft exits Nscale's UK site over power delays; Firmus pulled its IPO; CoreWeave and peers fell ~20% in a week; Nebius has 5 GW contracted but ~0.6 GW live ([industry](../ai-industry/2026-10-19-industry-roundup-benefit-fund-neocloud-shakeout.md)). Musk says SpaceX cannot rent inference compute.
 - **Meta's AMD co-design (1.5x over a direct port)** makes multi-vendor training credible ([summary](2026-10-19-meta-amd-mi350x-codesign.md)).
 - **Shift:** the shortage now splits by builder. Hyperscaler self-builds are on schedule; debt-funded neoclouds absorb power and timing risk. SemiAnalysis hints memory and logic become the 2027-28 constraint.
+
+## 2026-10-20: glut and shortage at once
+
+- **Glut:** Business Insider: Amazon has warehouses of uninstalled GPUs and an "early rack receipt" program taking ~$3B a month ([roundup](../ai-industry/2026-10-20-industry-roundup-gpu-glut-or-shortage.md)).
+- **Shortage:** Nebius B200 spot reportedly >3x in a week; IREN says 2026 is sold out and contracts are >2x last year; Anthropic reportedly seeks another 460 MW at Nscale Monarch after a $45B 6-year deal.
+- **Reconciled:** the constraint is powered floor space. Chips pile up where buildings lag; powered GPUs get scarce. Consistent with SemiAnalysis (10-19).
+- **Forecasts:** Morgan Stanley $1.58T 2027 spend incl. leases (Nvidia ~$690B, 44%); Gartner $6T 2027-30 with >$3.5T at write-down risk; Goldman: CoreWeave ~15% unlevered IRR even at zero GPU residual.
+- **Utilization side:** [Meta Prometheus](2026-10-20-meta-prometheus-supercluster.md) reports >85% pre-training goodput and 47-54K GPU-hour MTBI; GB300 only 5-10% faster than GB200 on Meta's mix.
+- **Memory decoupling:** Marvell's photonic modules place HBM/DDR up to 50 m from the GPU at hundreds of ns.

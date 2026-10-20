@@ -12542,10 +12542,18 @@
         "arxiv_id": "2607.22430v1",
         "title": "On the Identifiability of Controlled World Models",
         "ai_rating": 6.3
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.22825v1",
+        "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W43"
   },
   "Yang Guan": {
     "appearances": [
@@ -12556,10 +12564,18 @@
         "arxiv_id": "2607.22430v1",
         "title": "On the Identifiability of Controlled World Models",
         "ai_rating": 6.3
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.22825v1",
+        "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W31",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W43"
   },
   "Bo Zhang": {
     "appearances": [
@@ -39616,10 +39632,18 @@
         "arxiv_id": "2610.18773v1",
         "title": "Jeva: System One Models from First Principles",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.18773v1",
+        "title": "Jeva: System One Models from First Principles",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Xinchao Wang": {
     "appearances": [
@@ -39630,10 +39654,18 @@
         "arxiv_id": "2610.18773v1",
         "title": "Jeva: System One Models from First Principles",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.18773v1",
+        "title": "Jeva: System One Models from First Principles",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Xiaoliang Wang": {
     "appearances": [
@@ -39644,10 +39676,18 @@
         "arxiv_id": "2610.17718v1",
         "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.17718v1",
+        "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Zhuo Chen": {
     "appearances": [
@@ -39658,10 +39698,18 @@
         "arxiv_id": "2610.17718v1",
         "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.17718v1",
+        "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Chuanyang Zheng": {
     "appearances": [
@@ -39672,10 +39720,18 @@
         "arxiv_id": "2610.17718v1",
         "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.17718v1",
+        "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Jiangwei Lao": {
     "appearances": [
@@ -39686,10 +39742,18 @@
         "arxiv_id": "2610.17718v1",
         "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.17718v1",
+        "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Quanbin Wang": {
     "appearances": [
@@ -39700,10 +39764,18 @@
         "arxiv_id": "2610.17718v1",
         "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.17718v1",
+        "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Honglin Lin": {
     "appearances": [
@@ -39714,10 +39786,18 @@
         "arxiv_id": "2610.17718v1",
         "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2610.17718v1",
+        "title": "ECG-RSI: Recursive Self-Improvement through Targeted Electrocardiogram Waveform Evolution",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Lachlan Tychsen-Smith": {
     "appearances": [
@@ -39728,10 +39808,18 @@
         "arxiv_id": "2610.17762v1",
         "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
         "ai_rating": null
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.17762v1",
+        "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
+        "ai_rating": null
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Mark Cox": {
     "appearances": [
@@ -39742,10 +39830,18 @@
         "arxiv_id": "2610.17762v1",
         "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
         "ai_rating": null
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.17762v1",
+        "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
+        "ai_rating": null
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Brett Wood": {
     "appearances": [
@@ -39756,10 +39852,18 @@
         "arxiv_id": "2610.17762v1",
         "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
         "ai_rating": null
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.17762v1",
+        "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
+        "ai_rating": null
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "David Haddon": {
     "appearances": [
@@ -39770,10 +39874,18 @@
         "arxiv_id": "2610.17762v1",
         "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
         "ai_rating": null
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.17762v1",
+        "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
+        "ai_rating": null
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Kenrick Anderson": {
     "appearances": [
@@ -39784,10 +39896,18 @@
         "arxiv_id": "2610.17762v1",
         "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
         "ai_rating": null
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.17762v1",
+        "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
+        "ai_rating": null
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Benjamin Duck": {
     "appearances": [
@@ -39798,10 +39918,18 @@
         "arxiv_id": "2610.17762v1",
         "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
         "ai_rating": null
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.17762v1",
+        "title": "Autonomous 3D Visual-Thermal Inspection for Utility-Scale Solar Farms",
+        "ai_rating": null
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Jack Lu": {
     "appearances": [
@@ -39812,10 +39940,18 @@
         "arxiv_id": "2610.17540v1",
         "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.17540v1",
+        "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yurong You": {
     "appearances": [
@@ -39826,10 +39962,18 @@
         "arxiv_id": "2610.17540v1",
         "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.17540v1",
+        "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Boyi Li": {
     "appearances": [
@@ -39840,10 +39984,18 @@
         "arxiv_id": "2610.17540v1",
         "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.17540v1",
+        "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yulong Cao": {
     "appearances": [
@@ -39862,10 +40014,18 @@
         "arxiv_id": "2610.17370v1",
         "title": "HarnessTTT: Learn to Optimize Harness at Test-Time for Scientific Discovery",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.17540v1",
+        "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Thomas Tian": {
     "appearances": [
@@ -39876,10 +40036,18 @@
         "arxiv_id": "2610.17540v1",
         "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.17540v1",
+        "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Chaowei Xiao": {
     "appearances": [
@@ -39890,10 +40058,18 @@
         "arxiv_id": "2610.17540v1",
         "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.17540v1",
+        "title": "TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Tomas Karella": {
     "appearances": [
@@ -39904,10 +40080,18 @@
         "arxiv_id": "2610.17424v1",
         "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.17424v1",
+        "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Emily Shinkle": {
     "appearances": [
@@ -39918,10 +40102,18 @@
         "arxiv_id": "2610.17424v1",
         "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.17424v1",
+        "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Alice Elisabeth Anastasia Allen": {
     "appearances": [
@@ -39932,10 +40124,18 @@
         "arxiv_id": "2610.17424v1",
         "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.17424v1",
+        "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Pieter J. Swart": {
     "appearances": [
@@ -39946,10 +40146,18 @@
         "arxiv_id": "2610.17424v1",
         "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.17424v1",
+        "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Nicholas Lubbers": {
     "appearances": [
@@ -39960,10 +40168,18 @@
         "arxiv_id": "2610.17424v1",
         "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.17424v1",
+        "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Roxana Bujack": {
     "appearances": [
@@ -39974,10 +40190,18 @@
         "arxiv_id": "2610.17424v1",
         "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.17424v1",
+        "title": "On Making $\\mathrm{SE}(2)$-Invariant Networks Optimal",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Can Jin": {
     "appearances": [
@@ -40072,10 +40296,18 @@
         "arxiv_id": "2610.18057v1",
         "title": "From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.18057v1",
+        "title": "From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yajie Zhao": {
     "appearances": [
@@ -40086,10 +40318,18 @@
         "arxiv_id": "2610.18057v1",
         "title": "From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.18057v1",
+        "title": "From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Fang Kong": {
     "appearances": [
@@ -40100,10 +40340,18 @@
         "arxiv_id": "2610.18057v1",
         "title": "From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.18057v1",
+        "title": "From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yingzi Ma": {
     "appearances": [
@@ -40324,10 +40572,18 @@
         "arxiv_id": "2610.18927v1",
         "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.18927v1",
+        "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Huahao Wang": {
     "appearances": [
@@ -40338,10 +40594,18 @@
         "arxiv_id": "2610.18927v1",
         "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.18927v1",
+        "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Jingyi Fang": {
     "appearances": [
@@ -40352,10 +40616,18 @@
         "arxiv_id": "2610.18927v1",
         "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.18927v1",
+        "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yutao Hu": {
     "appearances": [
@@ -40366,10 +40638,18 @@
         "arxiv_id": "2610.18927v1",
         "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.18927v1",
+        "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yueming Wu": {
     "appearances": [
@@ -40380,10 +40660,18 @@
         "arxiv_id": "2610.18927v1",
         "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.18927v1",
+        "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Deqing Zou": {
     "appearances": [
@@ -40394,10 +40682,18 @@
         "arxiv_id": "2610.18927v1",
         "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2610.18927v1",
+        "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Dengjia Zhang": {
     "appearances": [
@@ -40548,10 +40844,18 @@
         "arxiv_id": "2610.20075v1",
         "title": "A Large-Dimensional Analysis of Least-Squares Federated Learning via Generalized Total Variation Minimization",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.20075v1",
+        "title": "A Large-Dimensional Analysis of Least-Squares Federated Learning via Generalized Total Variation Minimization",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Malik Tiomoko": {
     "appearances": [
@@ -40562,10 +40866,18 @@
         "arxiv_id": "2610.20075v1",
         "title": "A Large-Dimensional Analysis of Least-Squares Federated Learning via Generalized Total Variation Minimization",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.20075v1",
+        "title": "A Large-Dimensional Analysis of Least-Squares Federated Learning via Generalized Total Variation Minimization",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Alexander Jung": {
     "appearances": [
@@ -40576,10 +40888,18 @@
         "arxiv_id": "2610.20075v1",
         "title": "A Large-Dimensional Analysis of Least-Squares Federated Learning via Generalized Total Variation Minimization",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2610.20075v1",
+        "title": "A Large-Dimensional Analysis of Least-Squares Federated Learning via Generalized Total Variation Minimization",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Luka Todorovic": {
     "appearances": [
@@ -40590,10 +40910,18 @@
         "arxiv_id": "2610.20525v1",
         "title": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.20525v1",
+        "title": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Kaushal Gianchandani": {
     "appearances": [
@@ -40604,10 +40932,18 @@
         "arxiv_id": "2610.20525v1",
         "title": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.20525v1",
+        "title": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Sai Ravela": {
     "appearances": [
@@ -40618,10 +40954,18 @@
         "arxiv_id": "2610.20525v1",
         "title": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2610.20525v1",
+        "title": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yaozhi Wen": {
     "appearances": [
@@ -40772,10 +41116,18 @@
         "arxiv_id": "2610.21348v1",
         "title": "FedSkillGit: Federated Skill Evolution via Version Control",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.21348v1",
+        "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Jiamei Li": {
     "appearances": [
@@ -40786,10 +41138,18 @@
         "arxiv_id": "2610.21348v1",
         "title": "FedSkillGit: Federated Skill Evolution via Version Control",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.21348v1",
+        "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Weijian Li": {
     "appearances": [
@@ -40800,10 +41160,18 @@
         "arxiv_id": "2610.21348v1",
         "title": "FedSkillGit: Federated Skill Evolution via Version Control",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.21348v1",
+        "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Chengyu Yang": {
     "appearances": [
@@ -40814,10 +41182,18 @@
         "arxiv_id": "2610.21348v1",
         "title": "FedSkillGit: Federated Skill Evolution via Version Control",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.21348v1",
+        "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Zhuang Qi": {
     "appearances": [
@@ -40828,10 +41204,18 @@
         "arxiv_id": "2610.21348v1",
         "title": "FedSkillGit: Federated Skill Evolution via Version Control",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.21348v1",
+        "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Chengcheng Wan": {
     "appearances": [
@@ -40842,10 +41226,18 @@
         "arxiv_id": "2610.21348v1",
         "title": "FedSkillGit: Federated Skill Evolution via Version Control",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.21348v1",
+        "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Weida Liang": {
     "appearances": [
@@ -40856,10 +41248,18 @@
         "arxiv_id": "2610.20836v1",
         "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.20836v1",
+        "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Kenji Kawaguchi": {
     "appearances": [
@@ -40870,10 +41270,18 @@
         "arxiv_id": "2610.20836v1",
         "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2610.20836v1",
+        "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Gaocheng Yang": {
     "appearances": [
@@ -40884,10 +41292,18 @@
         "arxiv_id": "2610.21167v1",
         "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.21167v1",
+        "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Ruijie Tao": {
     "appearances": [
@@ -40898,10 +41314,18 @@
         "arxiv_id": "2610.21167v1",
         "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.21167v1",
+        "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Kai Ye": {
     "appearances": [
@@ -40912,10 +41336,18 @@
         "arxiv_id": "2610.21167v1",
         "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.21167v1",
+        "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Senhua Zhang": {
     "appearances": [
@@ -40926,10 +41358,18 @@
         "arxiv_id": "2610.21167v1",
         "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.21167v1",
+        "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Zhengqin Zhu": {
     "appearances": [
@@ -40940,10 +41380,18 @@
         "arxiv_id": "2610.21167v1",
         "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.21167v1",
+        "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Ziyang Li": {
     "appearances": [
@@ -40954,10 +41402,18 @@
         "arxiv_id": "2610.21167v1",
         "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.21167v1",
+        "title": "GRADS: Graph-Regulated Agentic Data Synthesis with Controllable Difficulty",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Adria Binte Habib": {
     "appearances": [
@@ -40968,10 +41424,18 @@
         "arxiv_id": "2610.20773v1",
         "title": "Selection-Safe Conformal Early Exit: Distribution-Free Coverage under Adaptive Depth",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.20773v1",
+        "title": "Selection-Safe Conformal Early Exit: Distribution-Free Coverage under Adaptive Depth",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Ibne Farabi Shihab": {
     "appearances": [
@@ -40982,10 +41446,18 @@
         "arxiv_id": "2610.20773v1",
         "title": "Selection-Safe Conformal Early Exit: Distribution-Free Coverage under Adaptive Depth",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.20773v1",
+        "title": "Selection-Safe Conformal Early Exit: Distribution-Free Coverage under Adaptive Depth",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Gregory Verghese": {
     "appearances": [
@@ -40996,10 +41468,18 @@
         "arxiv_id": "2610.21750v1",
         "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21750v1",
+        "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Christopher J. Soelistyo": {
     "appearances": [
@@ -41010,10 +41490,18 @@
         "arxiv_id": "2610.21750v1",
         "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21750v1",
+        "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Mateo Espinosa Zarlenga": {
     "appearances": [
@@ -41024,10 +41512,18 @@
         "arxiv_id": "2610.21750v1",
         "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21750v1",
+        "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Alessandro Barp": {
     "appearances": [
@@ -41038,10 +41534,18 @@
         "arxiv_id": "2610.21750v1",
         "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21750v1",
+        "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Christopher R. S. Banerji": {
     "appearances": [
@@ -41052,10 +41556,18 @@
         "arxiv_id": "2610.21750v1",
         "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21750v1",
+        "title": "Harmful Partial Interventions and Benign Leakage in Concept-based Models",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Ya-Shi Zhang": {
     "appearances": [
@@ -41122,10 +41634,18 @@
         "arxiv_id": "2610.22130v1",
         "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2610.22130v1",
+        "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Selcuk Gurses": {
     "appearances": [
@@ -41136,10 +41656,18 @@
         "arxiv_id": "2610.22130v1",
         "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2610.22130v1",
+        "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Yanxia Deng": {
     "appearances": [
@@ -41150,10 +41678,18 @@
         "arxiv_id": "2610.22130v1",
         "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2610.22130v1",
+        "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Naigang Wang": {
     "appearances": [
@@ -41164,10 +41700,18 @@
         "arxiv_id": "2610.22130v1",
         "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2610.22130v1",
+        "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Chi-Chun Liu": {
     "appearances": [
@@ -41178,10 +41722,18 @@
         "arxiv_id": "2610.22130v1",
         "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2610.22130v1",
+        "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
-    "last_seen": "2026-W42"
+    "last_seen": "2026-W43"
   },
   "Davis Wertheimer": {
     "appearances": [
@@ -41192,9 +41744,269 @@
         "arxiv_id": "2610.22130v1",
         "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2610.22130v1",
+        "title": "DropKV: Decoupling Residual-Output Perturbation for Near-Optimal KV-Cache Eviction",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W42",
+    "last_seen": "2026-W43"
+  },
+  "Qi Wang": {
+    "appearances": [
+      {
+        "week": "2026-W42",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21049v1",
+        "title": "SALTO: Solver-Anchored Lifted Transfer Operators for Nonlinear Event Inference",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W42",
     "last_seen": "2026-W42"
+  },
+  "Rylie Foster": {
+    "appearances": [
+      {
+        "week": "2026-W42",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.21049v1",
+        "title": "SALTO: Solver-Anchored Lifted Transfer Operators for Nonlinear Event Inference",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W42",
+    "last_seen": "2026-W42"
+  },
+  "Haoyuan Liu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.22825v1",
+        "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Jingliang Duan": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.22825v1",
+        "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Yao Lyu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.22825v1",
+        "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Tao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.22825v1",
+        "title": "World Action Critic (WAC) Model: Joint Foresight and Criticism for Policy Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Ran Tu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.22630v1",
+        "title": "Network-Wide Freeway Speed Nowcasting and Forecasting from Sparse Fixed Sensors with a Probe-Supervised Graph Convolutional Recurrent Network",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zihao Li": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.22630v1",
+        "title": "Network-Wide Freeway Speed Nowcasting and Forecasting from Sparse Fixed Sensors with a Probe-Supervised Graph Convolutional Recurrent Network",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Arash Mirzaei": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2610.22630v1",
+        "title": "Network-Wide Freeway Speed Nowcasting and Forecasting from Sparse Fixed Sensors with a Probe-Supervised Graph Convolutional Recurrent Network",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Aviraj Newatia": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.23173v1",
+        "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Shengan Yang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.23173v1",
+        "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Hantao Zhong": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.23173v1",
+        "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Rika Antonova": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2610.23173v1",
+        "title": "Structural Affinity: An Algorithm for Coherent Cage-Based Shape Design",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Xianghao Wang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.22925v1",
+        "title": "Scalable Levenberg-Marquardt Training Framework for Deep Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Johan Barthélemy": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.22925v1",
+        "title": "Scalable Levenberg-Marquardt Training Framework for Deep Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "John Taylor": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.22925v1",
+        "title": "Scalable Levenberg-Marquardt Training Framework for Deep Learning",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Alvaro Peiro": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2610.22436v1",
+        "title": "Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Marios Impraimakis": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2610.22436v1",
+        "title": "Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
   }
 }

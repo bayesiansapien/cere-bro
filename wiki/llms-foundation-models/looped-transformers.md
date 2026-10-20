@@ -144,3 +144,10 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 
 - **NVIDIA Nemotron-Labs Dory1.0-4B** ([page](../inference-efficiency/2026-10-17-dory-looped-lm-and-dspine.md)): 8 input + 20 shared recurrent + 8 output layers, input re-injected each loop, 1/2/4 loops from one checkpoint, last-loop KV caching (no cache overhead at any loop count), native NVFP4 pretraining, 256K context. SWE-bench Verified 50.3 / 59.5 / 61.8 at 1 / 2 / 4 loops vs 61.0 for Qwen3.5-9B. Gains flatten from 2 to 4 loops.
 - **Research-to-release in days:** ELR (10-13, last-loop KV), ResidualQuant (10-14, per-loop caches are redundant), LatentLoop and Elastic (10-16). Elorian Glimpse applies latent recurrence to visual representations ([page](2026-10-17-mai-base-2-reflection-beam-glimpse.md)). X notes "a hot week for looped Transformers" (Princeton/UPenn work, not ingested).
+
+## 2026-10-20: the sandwich wins, and depth goes on demand
+
+[LEV + Looped Models Done Right](2026-10-20-lev-and-looped-models-done-right.md).
+- **Looped Models Done Right (Part I):** controlled comparison of recurrence placement, input injection and state design. Huginn-style prelude/recurrent/coda with input injection beats Ouro on all ten benchmarks at 730M/336B tokens, and the lead transfers to MoE (8B-A0.8B, 500B tokens) with more balanced expert routing. 75% fewer resident parameters than a 112-layer feedforward MoE at matched FLOPs. Controlled evidence for the design Dory1.0-4B (10-17) shipped.
+- **LEV:** looped decision model, one checkpoint answers at any depth; 2.6B goes 63.2% to 76.2% from depth 1 to 4 on JevBench; per-question stopper saves 15-24% compute for <1 point.
+- **Social:** TheTuringPost's "10 looped-transformer papers" was among the most-shared AI posts this window.

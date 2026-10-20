@@ -403,3 +403,7 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 - **Memorilla** ([summary](../inference-efficiency/2026-10-19-memorilla-latent-semantic-memory.md)): a learned writer turns a document collection, or an agent's own history, into 16 memory tokens for a frozen LLM. FactKG 84.33% vs 80.43% full context at 108x fewer tokens; TextWorld success 18.6% to 24.2%.
 - **FEB-30** (Amazon, [summary](2026-10-19-agent-shorts-memory-audit-data-world.md)): QA scores and stored-state scores differ by 16.8 points on average and disagree on 21% of histories; a Mem0-style system picks the right memory operation only 20.1% of the time.
 - **Tension:** this page's results, Memorilla included, are mostly QA-scored. FEB-30 says that can hide a broken store.
+
+## 2026-10-20: a specialist writer
+
+[Hy-Memory-30B-A3B](2026-10-20-hy-memory-30b-a3b-memory-writer.md): Tencent trains a 3B-active MoE only for the memory write path, inside Mem0/MemOS/Hy-Memory harnesses (OPD then RL with chunk credit). Holding reader and judge fixed, it averages 55.49 vs Opus 5's 54.62 across four harnesses, including held-out EverMemOS. Amazon's audit (surfaced on X) warns QA scores alone hide what got stored; ProPerAgent shows the filter between memory and model matters (removing it: 37.3% to 24.0%). [CarryOn](2026-10-20-agent-context-cost-shorts.md) replaces history with task objects.

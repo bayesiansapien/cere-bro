@@ -362,3 +362,7 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## 2026-10-19: agentic porting inside a hyperscaler
 
 [Meta on AMD MI350X](2026-10-19-meta-amd-mi350x-codesign.md) (arXiv 2610.22230) reports agentic CUDA-to-ROCm workflows as a routine production tool, extended to microarchitecture-aware kernels and custom shims, alongside an analytical model that picks kernels with zero warm-up. Combined with model co-design it gives up to 1.5x over a direct port. Unlike MaxKernel (09-07) or AccelOpt (04-20), the agents are not the headline result, which makes it the first report in this thread from a team with no incentive to sell agentic kernel work.
+
+## 2026-10-20: tile DSLs, compiler knobs, agentic tuning
+
+[Kernel shorts](2026-10-20-kernel-shorts-mamba2-cutile-compileiq-trainium.md). Jane Street + NVIDIA write Mamba-2's forward pass in cuTile as three kernels (log-space cumsum, Tensor Core state jump, fused masked output in registers). CompileIQ exposes ptxas register/scheduling choices to Helion's autotuner as a joint search space. AWS ports Deepgram Nova-3 to Trainium2 with TorchNeuron + NKI kernels + an agentic tuning toolkit: 11-70% more audio per dollar. Agent-assisted kernel work now appears in AMD (Meta, 10-19) and AWS vendor tooling.

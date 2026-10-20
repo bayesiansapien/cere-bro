@@ -780,3 +780,10 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 ## 2026-10-19: 16 tokens instead of the cache
 
 [Memorilla](2026-10-19-memorilla-latent-semantic-memory.md) skips the long cache entirely: documents are encoded once, and a learned writer emits 16 query-specific memory tokens into a frozen LLM's input. The whole collection costs 16 KV positions, and FactKG accuracy rises over full context. Untested on exact recall, where soft-prompt compression usually fails.
+
+## 2026-10-20: the cache learns to travel both ways
+
+- **[vLLM push + bi-directional KV transfer (AWS, 10-20)](2026-10-20-vllm-push-and-bidirectional-kv-transfer.md):** in prefill-decode disaggregation, push mode pre-registers decode blocks during prefill and writes KV over NIXL/EFA RDMA from a background thread: up to 3x TTFT and 30% TPOT at 8 QPS / 16K (Qwen3-32B, 1,744 to ~540 ms). Bi-directional mode keeps the decode node's KV (prompt + answer) for 480 s and returns it to prefill next turn: TTFT 1.6x lower (Qwen3-32B) and 3.3x (GLM-5-FP8) at 20-24K. Upstreamed, accelerator-agnostic.
+- **Break-even is tier-relative, now n=3:** galahad-kv (10-09, NVMe reload beats recompute on H100), remote store on B300 (10-17, only above ~17K tokens), and peer-GPU RDMA here (above 64 tokens). The closer and faster the tier, the lower the line.
+- **Multi-turn agents are the design target** for both serving (this) and drafting ([DLite](2026-10-20-speculative-drafting-dlite-ready-flashmap.md), which drops the drafter's own KV history).
+- **Open:** fixed TTL pins HBM for idle sessions; no results with prefix caching on.

@@ -182,3 +182,12 @@ SpecFold reuses parent computation across near-identical draft branches in diffu
 - **DSpine** (Tencent, [page](2026-10-17-dory-looped-lm-and-dspine.md)): parallel drafter where each position receives its predecessor's predicted feature at every draft layer, so causality unfolds through depth. Qwen3-8B average acceptance 7.83 vs 7.55 (DFlash2) and 7.44 (DSpark) at T=0; 6.98 vs 6.53 at T=1. Acceptance only, no wall-clock under batching.
 - **SpecAgent** ([page](../ai-routing/2026-10-17-weak-drafts-strong-review-specagent-edgewise-leash.md)): the draft-then-verify pattern lifted to tool-calling steps. Weak model drafts grounded steps, strong model verifies the segment in one prefill. The verifier decodes only verdicts.
 - **Still open from 10-16:** acceptance on long agentic traces.
+
+## 2026-10-20: the drafter's context, three ways
+
+[DLite, ReaDy, FlashMap, Speculators v0.9](2026-10-20-speculative-drafting-dlite-ready-flashmap.md).
+- **DLite** answers the 10-16/10-17 open question: drafters lose up to 80% of acceptance length on long agentic contexts; dropping drafter history (reuse target hidden states, local prediction, light sequential head) gives acceptance 2-6, up to 70% over DSpark.
+- **ReaDy** reads hybrid-linear-attention recurrent states per draft position: 3.16x over AR on Qwen3.8-27B on one B200, +8.5% acceptance over DSpark.
+- **FlashMap** (X, 2610.24365): flow-map drafter generates the block in one pass while modelling inter-token dependence; up to 6.1x lossless on Qwen3-8B, +7% average over matched DFlash.
+- **Tension:** DLite removes history, ReaDy adds (compact) history. Reconciled if the cost is the drafter keeping its own KV, not context access.
+- **Tooling:** vLLM Speculators v0.9: fused loss kernel up to 2x faster drafter training forward; FP8 hidden-state storage halves disk.

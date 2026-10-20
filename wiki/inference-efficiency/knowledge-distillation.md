@@ -736,3 +736,7 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-17: gate the policy shift by its history
 
 [Waypoint-OPD (10-17)](2026-10-17-waypoint-opd.md), top HF paper. Distill the teacher's RL-induced log-prob shift only where the early shift (start → mid checkpoint) and late shift (mid → end) agree in direction. One extra frozen-teacher pass. Best domain average in all six settings (Qwen3-4B RL teachers; 8B, 14B, 30B-A3B students; math and code). The fifth OPD refinement in two days and the first to read the teacher's training trajectory. Also today: Hy-Memory-30B-A3B (Tencent) trains a memory writer by Memory OPD then RL and beats Claude Opus 5 as the writer inside Mem0/MemOS (55.49 vs 54.62 average across four harnesses); SCOPED distills capability-specific VLM experts into one student.
+
+## 2026-10-20: disaggregated teachers, mechanism supervision
+
+[Distillation shorts](2026-10-20-distillation-shorts-disaggkd-opmd-treeopsd.md). **DisaggKD** moves teachers to their own nodes and computes an exact sharded KD loss without full-vocabulary logits; trains pairs that OOM colocated. **OPMD** distills teacher intermediate computation through a student-compatible mapping on on-policy rollouts. **TreeOPSD** turns tree-backed-up rewards into bounded closed-form teacher distributions for agentic RL. Hy-Memory-30B-A3B uses on-policy distillation then RL inside the deployed harness.

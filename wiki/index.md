@@ -2057,6 +2057,21 @@ Catalog of all pages. Updated on every ingest.
 | social-stream | [2026-10-19 morning](social-stream/2026-10/2026-10-19-morning.md) | Data World, harness debate, human oversight of long agents, SpaceX compute. |
 | media-zone | [2026-10-19](media-zone/2026-10/2026-10-19.md) | HBM pricing and base die, AMD co-design, cheap planners, Memorilla, FEB-30. |
 | daily-digest | [2026-10-19](daily-digest/2026-10/2026-10-19.md) | SemiAnalysis +50GW, Meta on AMD, Cohere agent teams, Memorilla, Nvidia HBM base die, agent shorts. |
+| inference-efficiency | [2026-10-20 vLLM push + bi-directional KV transfer](inference-efficiency/2026-10-20-vllm-push-and-bidirectional-kv-transfer.md) | AWS: push-mode NIXL transfer up to 3x TTFT; returning decode KV to prefill cuts multi-turn TTFT 1.6-3.3x. |
+| inference-efficiency | [2026-10-20 Speculative drafting: DLite, ReaDy, FlashMap](inference-efficiency/2026-10-20-speculative-drafting-dlite-ready-flashmap.md) | Drafters lose up to 80% acceptance on agent contexts; history-free, recurrent-state and flow-map drafters reach 3-6x. |
+| ai-routing | [2026-10-20 Meta Thin Orchestrator](ai-routing/2026-10-20-meta-thin-orchestrator.md) | Deterministic 1,300-line router + 14 isolated specialists; onboarding from days to under an hour. |
+| inference-efficiency | [2026-10-20 Frozen 16 MB vocabulary](inference-efficiency/2026-10-20-frozen-16mb-vocabulary-ternary.md) | Frozen 1-bit embedding codes; 46 MB ternary model, 5-6x faster than 8-bit GGUF on CPU. |
+| hardware | [2026-10-20 Meta Prometheus supercluster](hardware/2026-10-20-meta-prometheus-supercluster.md) | >85% goodput, 47-54K GPU-hr MTBI, GB300 only 5-10% over GB200; Muse Glimmer 30B open weights. |
+| agentic-systems | [2026-10-20 Agent context-cost shorts](agentic-systems/2026-10-20-agent-context-cost-shorts.md) | TokenEconomizer, CQ2-CARE, CarryOn, Librarian Agents: selection beats compression. |
+| llms-foundation-models | [2026-10-20 LEV + Looped Models Done Right](llms-foundation-models/2026-10-20-lev-and-looped-models-done-right.md) | Depth-on-demand looped decision model; Huginn sandwich wins, 75% fewer resident params in MoE. |
+| hardware | [2026-10-20 Kernel shorts](hardware/2026-10-20-kernel-shorts-mamba2-cutile-compileiq-trainium.md) | Mamba-2 in cuTile, CompileIQ + Helion, Deepgram on Trainium2 (11-70% more audio per dollar). |
+| agentic-systems | [2026-10-20 Hy-Memory-30B-A3B](agentic-systems/2026-10-20-hy-memory-30b-a3b-memory-writer.md) | 3B-active memory writer matches Opus 5 across four memory harnesses. |
+| inference-efficiency | [2026-10-20 Distillation shorts](inference-efficiency/2026-10-20-distillation-shorts-disaggkd-opmd-treeopsd.md) | DisaggKD (teacher on own nodes, exact sharded loss), OPMD, TreeOPSD. |
+| responsible-ai | [2026-10-20 Oversight shorts](responsible-ai/2026-10-20-cot-controllability-and-agent-oversight-shorts.md) | CoT self-instruction controllability and monitor evasion; agent-to-agent failures; Busy Beaver; agent eval trends. |
+| ai-industry | [2026-10-20 Industry roundup: GPU glut or shortage](ai-industry/2026-10-20-industry-roundup-gpu-glut-or-shortage.md) | Amazon warehoused GPUs vs B200 spot 3x; Gartner, Morgan Stanley, Goldman; Greptile $50M. |
+| social-stream | [2026-10-20 morning](social-stream/2026-10/2026-10-20-morning.md) | GPU glut debate, Meta infra day, FlashMap, Busy Beaver agent, CoT controllability, Greptile. |
+| media-zone | [2026-10-20](media-zone/2026-10/2026-10-20.md) | Inference placement wins, Prometheus, photonic memory, discovery agents, GPU glut vs shortage. |
+| daily-digest | [2026-10-20](daily-digest/2026-10/2026-10-20.md) | vLLM KV transfer, agent-aware drafters, Thin Orchestrator, frozen vocabulary, Prometheus, context-cost papers. |
 | media-zone | [2026-10-18](media-zone/2026-10/2026-10-18.md) | Decision-level routing, DeepSeek's shorter outputs, open harness tooling, rising rental prices. |
 | daily-digest | [2026-10-18](daily-digest/2026-10/2026-10-18.md) | JevAgentHarness, DeepSeek-V4.1-Flash-1017, MPT, agent-training recipes, Interconnects, agent misbehavior disclosures. |
 | daily-digest | [2026-10-16](daily-digest/2026-10/2026-10-16.md) | KV4-RL, JSSA + Latent Compaction, Whose Turn routing, Muse Spark Open, compression shorts, OPD fixes, forgetting, GRAFT, ASML bonding. |
