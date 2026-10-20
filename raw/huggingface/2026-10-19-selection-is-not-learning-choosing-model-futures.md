@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-20T15:03:41+05:30
+arxiv_id: 2610.22029
+url: https://huggingface.co/papers/2610.22029
+arxiv_url: https://arxiv.org/abs/2610.22029
+date: 2026-10-19
+---
+
+# Selection Is Not Learning: Choosing Model Futures
+
+Self-evolving language models train on tasks they generate, so every round must decide which updated model the next round inherits. Current loops such as R-Zero, Agent0, and Skill Self-Play make this decision through the task, admitting tasks that look learnable and inheriting every resulting update. We identify a selection-to-update gap in these loops, where a task that looks learnable need not produce a useful update. Most updates on verified tasks fail to make correct answers more likely, yet these loops inherit them all. HeirCommit freezes the updated model and uses fresh evaluation questions to decide whether to inherit it or retain the current model. EvoHeir separates parameter inheritance from experience inheritance, using current and archived experience to repair failures and preserve successes before final confirmation. Our analysis characterizes selection-induced optimism and decomposes regret into selection, absorption, and confirmation errors. HeirCommit cuts the harmful share of accepted updates by 68-83% relative to random inheritance at the same acceptance rate. Across four backbones, EvoHeir achieves the best mathematics and general-reasoning averages, raising the math average by 5.3% relative to the strongest baseline, Agent0. The framework lets useful experience persist even when the model that produced it is not inherited.

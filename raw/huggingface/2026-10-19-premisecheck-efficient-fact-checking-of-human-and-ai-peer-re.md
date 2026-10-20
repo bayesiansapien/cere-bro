@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-20T15:03:41+05:30
+arxiv_id: 2610.21046
+url: https://huggingface.co/papers/2610.21046
+arxiv_url: https://arxiv.org/abs/2610.21046
+date: 2026-10-19
+---
+
+# PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews
+
+Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate what a paper says. We introduce ReviewFact, a benchmark that labels such factual errors in review comments under one definition across NLP, machine learning, and the natural sciences, and that measures cost and latency alongside accuracy. A frontier LLM checks comments well but must read the whole paper for each check, while cheap decision models, which score whether a statement holds in a text, fall far short on whole comments that mix several implicit assertions. PremiseCheck is a framework that combines the two. An LLM rewrites each comment as explicit premises without reading the paper, and a decision model checks each premise against the paper. When each comment is checked on its own, PremiseCheck reaches accuracy comparable to GPT-5.5 across all three fields at about half its cost, and on NLP reviews at a quarter of its cost and less than half its latency.

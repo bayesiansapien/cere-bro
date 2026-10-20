@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-20T15:03:41+05:30
+arxiv_id: 2610.16763
+url: https://huggingface.co/papers/2610.16763
+arxiv_url: https://arxiv.org/abs/2610.16763
+date: 2026-10-19
+---
+
+# Relational Learning as World Modeling
+
+Relational learning typically predicts from a database state, but decision making asks a different question: how will that state change under an action? In operational systems, the answer depends on system-specific dynamics that may not be visible in the database itself. We view each such system as a relational "world" and ask whether a model can infer how it behaves from observed executions. We introduce TabWM (Tabular World Model) and WorldRel, a generator of executable relational worlds for pretraining. Given executions from an unseen world, TabWM uses them as context to predict the sparse structured edits caused by a new action without parameter updates. Across 512 held-out worlds, complete-edit F1 rises from 0.016 with no observed executions to 0.685 with 64, where a correct edit must match its operation, relational location, and value. Because these predictions are explicit relational edits, they can be applied recursively to imagine candidate futures and compare actions before they are taken. Broader search over these predicted futures improves the realized return of selected action sequences. Together, these results suggest that relational dynamics can be learned in context, broadening relational learning from modeling system state to modeling how that state changes under action.

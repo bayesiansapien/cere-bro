@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-20T15:03:41+05:30
+arxiv_id: 2610.22343
+url: https://huggingface.co/papers/2610.22343
+arxiv_url: https://arxiv.org/abs/2610.22343
+date: 2026-10-19
+---
+
+# GeoState: Learning View-Decoupled Geometry States for 3D World Modeling
+
+Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically, a scene tokenizer aggregates multi-view GFM features into a view-decoupled scene state, which a geometry decoder queries using camera rays. An autoregressive world model then predicts future scene states, while camera motion is modeled separately. The predicted states can therefore be decoded under either predicted or externally specified cameras, while retaining a single context-derived scale throughout the rollout without per-frame scale alignment. Experiments show that GeoState outperforms prior 3D world models on Waymo, supports geometrically consistent cross-view querying, and generalizes zero-shot to KITTI and nuScenes. Project page: https://hongchang-liu.github.io/GeoState-project-page/
