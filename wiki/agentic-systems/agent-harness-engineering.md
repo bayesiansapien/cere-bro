@@ -786,3 +786,11 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Pattern n=5:** deciding what enters context dominates shrinking it (Memorilla 10-19, Thin Orchestrator, CQ2-CARE, CarryOn, Librarian).
 - **HexaShell** (HF, 288 upvotes): a thin harness lets a coding agent (Codex + GPT-6-Astra) drive a two-arm robot by writing its own triangulation tools; 39.7% on all 42 RoboDojo tasks, a new best. Limit is contact (insertion 8.3%), not reasoning.
 - **Social:** Google's open-sourced Harness² (agents tune their own prompts, skills and memory) circulated widely; Meta's ProPerAgent harness (via DAIR.AI) lifts proactive-assistant accuracy from ≤15% to 38% without weight changes, mostly from a memory-filtering LLM call.
+
+
+## 2026-10-22: eleven harness-evolution papers and the first audit
+
+- **[Harness-evolution wave](2026-10-22-harness-evolution-wave.md):** Harness-Delta Attribution finds overfitting explains 54% and extra compute 14% of significant search-set gains (21 settings, 11 models, 3 frameworks); validation does not prevent it. HarnessPro returns lite/medium/heavy Pareto harnesses (+2.0 points, -26.1% cost vs RHO). Agent S4 evolves interfaces: open 27B at 21.3% OSWorld V2, above Opus 4.8 at ~1.5% of cost. Co-evolution with weights: Self-HPO, HarnessAdapt-RL (removing evolved tools costs 7.7 points), CoEvo-RSI, HarnessRL. OO-Harness (via X) routes among evolved harness subclasses.
+- **Cost layer:** [Cache Engineering for Agents](../inference-efficiency/2026-10-22-cache-engineering-for-agents-akv.md) gives the harness KV-cache operations (drop, repos): 27.7% cheaper than summarization. [Decision-model controllers](../ai-routing/2026-10-22-decision-models-good-judgment-bad-advice.md) can raise cost 19% when uncalibrated.
+- **Kernel harnesses:** [LEKA](../hardware/2026-10-22-edgekernelbench-leka.md) beats Claude Code on edge kernels 43.5% vs 26.1% Fast@1.0 with the same model.
+- **Industry:** NVIDIA's GTC Berlin framed agents as model + harness + sandbox + knowledge + tools; Ken Huang's n=1 Harness² red-team replication saw the loop reject its own edits and keep the base.

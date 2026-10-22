@@ -920,3 +920,14 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Depth as a routing target:** [LEV](../llms-foundation-models/2026-10-20-lev-and-looped-models-done-right.md) uses a stopper with a threshold fitted on unlabeled traffic to choose loop depth per question: 15-24% compute saved for under 1 point.
 - **Role specialists:** [Hy-Memory-30B-A3B](../agentic-systems/2026-10-20-hy-memory-30b-a3b-memory-writer.md) (3B active) matches Opus 5 as the memory writer across four harnesses.
 - **Serving-side:** llm-d's Semantic Classifier (Red Hat) classifies request difficulty at the gateway; vLLM's KV-aware router keys on conversation_id for cache locality ([AWS](../inference-efficiency/2026-10-20-vllm-push-and-bidirectional-kv-transfer.md)).
+
+
+## 2026-10-22: the decision-model audit
+
+[Decision models under audit](2026-10-22-decision-models-good-judgment-bad-advice.md).
+- **Negative result:** a Jev controller at fixed decision points in a Sonnet 5.5 terminal agent raised cost 19% at an identical 73.0% pass rate (pre-registered, 315 trials). Good offline ranking (AUROC 0.78) but miscalibrated (P(complete)=0.50 when 87% passed), so it kept ordering extra verification.
+- **Positive result, same family:** JEV-as-a-Judge (via X) with a threshold frozen in advance beats GPT-6 by 0.9 points at 41% of its fee.
+- **Reconciliation:** the variable is the fitted threshold, as in JevAgentHarness (10-18). Unfitted learned routing can cost more than no routing.
+- **DecisionPivot:** two 27B decision models 2.6 points apart on aggregate differ by 70.1% vs 44.2% on contrast groups; ranking ≠ deciding.
+- **Harness routing:** OO-Harness routes each task to an evolved harness subclass or keeps the base; edge-cloud routing benchmark EC2-Bench (2610.17816) finds stronger edge models shift the best strategy toward edge-controlled cloud calls.
+- **Market:** Cloudflare released clef, an open decision model; Strot compiles a frozen 144M decision artifact; an IPO filer discloses "no model-routing layer" as a risk.

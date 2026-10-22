@@ -2133,3 +2133,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-20] social-stream | 2026-10-20 morning | social-stream
 ## [2026-10-20] media-zone | Media Zone 2026-10-20 (finalized) | media-zone
 ## [2026-10-20] digest | cere-bro 2026-10-20 | daily-digest
+## [2026-10-22] ingest | Cache Engineering for Agents, DeepInfer + SemiAnalysis Huawei-DeepSeek, N-Gram Memories at Two Bits, TokenGate, Specter/DScout/ECHO/Lafa + drafters under load, decision-model audit, harness-evolution wave + HDA, ATEST + implicit budgeting, EdgeKernelBench, hybrids/KronLSTM, memory worth, distillation + safety shorts, TRACE, industry roundup | huggingface + rss + gmail + labs + x-feed + kurate + youtube
+## [2026-10-22] social-stream | 2026-10-22 morning | social-stream
+## [2026-10-22] media-zone | Media Zone 2026-10-22 (finalized from the 10-21 live draft) | media-zone
+## [2026-10-22] digest | cere-bro 2026-10-22 | daily-digest

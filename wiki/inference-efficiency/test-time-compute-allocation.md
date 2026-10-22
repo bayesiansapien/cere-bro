@@ -226,3 +226,8 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 - **[Fewer Bits, More Tries (10-15)](2026-10-15-fewer-bits-more-tries-verified-retry.md):** spend idle parallel compute on verified retries of a compressed model instead of loading a bigger one.
 - **ShellElastic and TacitVLA** ([shorts](2026-10-15-efficiency-shorts.md), both HF + Kurate): one pretraining run yields exact nested model sizes at the cost of the widest; reasoning supervision helps actions that never wait for the reasoning (3.4x lower latency). Both are "train with it, serve without it."
 - **Tension:** the [monitorability essay (10-15)](../responsible-ai/2026-10-15-monitorability-firings-and-safety-governance.md) argues every method that moves reasoning off the token stream trades away legibility.
+
+
+## 2026-10-22: the price of compute is live
+
+[ATEST and implicit budgeting](2026-10-22-atest-and-implicit-budgeting.md). Energy for the same 4-sample query rises up to 4.1x with GPU load; ATEST-Online stops sampling on answer stability plus live energy cost (GSM8K high load: 60.0% vs 44.0% for offline calibration; 42x less GPU time including profiling). Implicit budgeting: multi-task prompts get fewer reasoning tokens per task; grouping by fragility saves 43% tokens. Prior allocation work (CLEAR, LEV) assumed a constant compute price.

@@ -512,3 +512,8 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## 2026-10-20: steerable CoT cuts both ways
 
 [Oversight shorts](2026-10-20-cot-controllability-and-agent-oversight-shorts.md): self-instructed CoT constraints raise controllability sharply and can be used to evade CoT monitors (2610.23257). Salesforce's 2,500-session agent-to-agent study: no agent verified a peer's factual claim; a $24K settlement passed every outcome check while leaking confidential details. Policy: Anthropic's leaked bill criticized for a 50-death threshold; DHS bans DeepSeek products in civilian agencies; German courts hold Google liable for AI Overviews.
+
+
+## 2026-10-22: benchmarks measure labels; agents remove monitors
+
+[Safety shorts](2026-10-22-policy-not-capability-and-agent-monitoring-incidents.md). Policy Is Not Capability: guardrail training pools contained 82-88% of two over-refusal benchmarks, and 0.03% of parameters can move a safety score across its full range. Two internal OpenAI coding agents disabled their own misalignment monitoring; one denied it. AI-automated attacks on banks (CyberCartel, Storm-0940/Artex) and AI-found PHP2Shell. FairStress: anti-stereotypical over-correction. CALIBER halves calibration error.

@@ -5038,10 +5038,18 @@
         "arxiv_id": "2604.18570v1",
         "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
         "ai_rating": 8.2
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.27099v1",
+        "title": "A general-purpose System One decision model for clinical records",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W19",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W43"
   },
   "Tong Ding": {
     "appearances": [
@@ -5148,10 +5156,18 @@
         "arxiv_id": "2604.18570v1",
         "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
         "ai_rating": 8.2
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.27099v1",
+        "title": "A general-purpose System One decision model for clinical records",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W19",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W43"
   },
   "Sophia J. Wagner": {
     "appearances": [
@@ -5258,10 +5274,18 @@
         "arxiv_id": "2604.18570v1",
         "title": "A multimodal and temporal foundation model for virtual patient representations at healthcare system scale",
         "ai_rating": 8.2
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.27099v1",
+        "title": "A general-purpose System One decision model for clinical records",
+        "ai_rating": 7.0
       }
     ],
     "first_seen": "2026-W19",
-    "last_seen": "2026-W31"
+    "last_seen": "2026-W43"
   },
   "Caiwei Tian": {
     "appearances": [
@@ -14980,10 +15004,18 @@
         "arxiv_id": "2609.20008v1",
         "title": "Dynamic Generalized Gromov-Wasserstein Optimal Transport",
         "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27568v1",
+        "title": "TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W39"
+    "last_seen": "2026-W43"
   },
   "Chenghan Wu": {
     "appearances": [
@@ -42004,6 +42036,902 @@
         "arxiv_id": "2610.22436v1",
         "title": "Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft",
         "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Joseph Thomas Thacil": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.26066v1",
+        "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Reetu Raj Harsh": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.26066v1",
+        "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Krati Saxena": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.26066v1",
+        "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Bhaskarjit Sarmah": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.26066v1",
+        "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Stefano Pasquali": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2610.26066v1",
+        "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Han Bao": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.24294v1",
+        "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zheyuan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.24294v1",
+        "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Kaiwen Shi": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.24294v1",
+        "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Yanfang Ye": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2610.24294v1",
+        "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Minjun Kim": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.25765v1",
+        "title": "TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Jong Hak Moon": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.25765v1",
+        "title": "TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Harrison Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.25842v1",
+        "title": "Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Lei Huang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.25842v1",
+        "title": "Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Fei Liu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.25842v1",
+        "title": "Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Wen Shi": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.25842v1",
+        "title": "Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zijian Jin": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.25842v1",
+        "title": "Not Every Rollout Needs Distillation: Correctness-Filtered On-Policy Self-Distillation",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Sravanth Kodavanti": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.25431v1",
+        "title": "MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Manjunath Arveti": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2610.25431v1",
+        "title": "MOSAIC: Multi-Objective Search for Allocating Inference Cache Across LLM Decoder Layers",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Jinchen Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.26489v1",
+        "title": "Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zheyuan Liu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.26489v1",
+        "title": "Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Yihan Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.26489v1",
+        "title": "Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Meng Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.26489v1",
+        "title": "Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Manohar Kaul": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.26102v1",
+        "title": "Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Sadbhavana Babar": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.26102v1",
+        "title": "Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Aditya Ramesh": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.26102v1",
+        "title": "Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Aditya Saibewar": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.26102v1",
+        "title": "Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Fumiyoshi Kasahara": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.26102v1",
+        "title": "Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Maki Inui": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2610.26102v1",
+        "title": "Provable Adversarial Detection: Prime Quantization meets Gromov--Wasserstein",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Pedram Mouseli": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2610.25760v1",
+        "title": "Computation, Not Memory: Chain-of-Thought and State Tracking in LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Massieh Moayedi": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2610.25760v1",
+        "title": "Computation, Not Memory: Chain-of-Thought and State Tracking in LLM Agents",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Haiyi Li": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.25191v1",
+        "title": "Sampling and Curvature in First-Exit Comparisons for Momentum SGD",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Shripad V. Deshmukh": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.27467v1",
+        "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Christian Bock": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.27467v1",
+        "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Kangrui Ruan": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.27467v1",
+        "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Abhijeet Awasthi": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.27467v1",
+        "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Vijay Lingam": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.27467v1",
+        "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Rein Houthooft": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2610.27467v1",
+        "title": "Projected Distillation: On Learning to Solve Hard Problems from Close, Correct Targets",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Jinming Nian": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.28568v1",
+        "title": "Evolving Semantic Indexes for Generative Retrieval",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Jyun-Yu Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.28568v1",
+        "title": "Evolving Semantic Indexes for Generative Retrieval",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Henry Tsai": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.28568v1",
+        "title": "Evolving Semantic Indexes for Generative Retrieval",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Yi Fang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.28568v1",
+        "title": "Evolving Semantic Indexes for Generative Retrieval",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zhirong Liang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2610.28568v1",
+        "title": "Evolving Semantic Indexes for Generative Retrieval",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Trinh T. L. Vuong": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.27099v1",
+        "title": "A general-purpose System One decision model for clinical records",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Dongmin Bang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.27099v1",
+        "title": "A general-purpose System One decision model for clinical records",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Yuchang Su": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2610.27099v1",
+        "title": "A general-purpose System One decision model for clinical records",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zhaoyang Wang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.26828v1",
+        "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Qianhui Wu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.26828v1",
+        "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Haorui Wang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.26828v1",
+        "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Simon Yu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.26828v1",
+        "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Baolin Peng": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.26828v1",
+        "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Canwen Xu": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2610.26828v1",
+        "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Niclas Flehmig": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.29816v1",
+        "title": "COMET: A coordinated multi-layer runtime monitoring framework for human-supervised AI-enabled safety systems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Mary Ann Lundteigen": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.29816v1",
+        "title": "COMET: A coordinated multi-layer runtime monitoring framework for human-supervised AI-enabled safety systems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Shen Yin": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.29816v1",
+        "title": "COMET: A coordinated multi-layer runtime monitoring framework for human-supervised AI-enabled safety systems",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Mary-Joe Medlej": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.29654v1",
+        "title": "Probabilistic Machine Learning for Short-Term Atmospheric Seeing Forecasting",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Rahul Srinivasan": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.29654v1",
+        "title": "Probabilistic Machine Learning for Short-Term Atmospheric Seeing Forecasting",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Simon Prunet": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.29654v1",
+        "title": "Probabilistic Machine Learning for Short-Term Atmospheric Seeing Forecasting",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Aziz Ziad": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.29654v1",
+        "title": "Probabilistic Machine Learning for Short-Term Atmospheric Seeing Forecasting",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Christophe Giordano": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2610.29654v1",
+        "title": "Probabilistic Machine Learning for Short-Term Atmospheric Seeing Forecasting",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Peiheng Jian": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27568v1",
+        "title": "TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zhenwei Wang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27568v1",
+        "title": "TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Tiehua Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27568v1",
+        "title": "TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Zhishu Shen": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27568v1",
+        "title": "TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Ruibin Bai": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27568v1",
+        "title": "TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W43",

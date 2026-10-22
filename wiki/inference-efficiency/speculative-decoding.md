@@ -191,3 +191,16 @@ SpecFold reuses parent computation across near-identical draft branches in diffu
 - **FlashMap** (X, 2610.24365): flow-map drafter generates the block in one pass while modelling inter-token dependence; up to 6.1x lossless on Qwen3-8B, +7% average over matched DFlash.
 - **Tension:** DLite removes history, ReaDy adds (compact) history. Reconciled if the cost is the drafter keeping its own KV, not context access.
 - **Tooling:** vLLM Speculators v0.9: fused loss kernel up to 2x faster drafter training forward; FP8 hidden-state storage halves disk.
+
+
+## 2026-10-22: drafters under load, and drafts as a prefetch oracle
+
+[Specter, DScout, ECHO, Lafa](2026-10-22-specter-dscout-echo-lafa-speculation.md) and [drafters under load](2026-10-22-drafters-under-load-eagle4-dspark-ubtree.md).
+- **Crossover number:** EAGLE-4's table (via X): DSpark and DFlash 2 at 2.6-2.8x at batch 1 fall below vanilla at 512 requests on 4x B300 (14.2K/16.6K vs 21.2K tok/s). EAGLE-4's load-adaptive tree: 3.59x low load, 1.34x high. Liquid's DSpark drafter: 2.38x / 2.69x / 1.71x at concurrency 1 / 32 / 256.
+- **Specter:** a quantized on-GPU draft predicts future expert IDs so offloaded MoE experts are fetched ahead; 1.50x (up to 1.88x) TPOT, single GPU.
+- **DScout:** throughput = accepted tokens / per-round latency; acceptance-weighted diffusion-drafter training, 3.84x/4.14x on Qwen3-4B/8B.
+- **ECHO:** backbone's own last layer predicts every horizon; model is its own drafter, holds alignment on high-entropy text (answers the 10-16 open question from the training side).
+- **Lafa:** 8B blockwise flow LM from AR checkpoints with <30B tokens; self-speculative 2.54x.
+- **UBTree** (Ling-3 drafter, lab watcher): bigram-selected draft trees beat DSpark by ~0.3-0.7x end-to-end.
+- **Production:** DeepInfer defaults to DSpark with draft length 5; Google's TPU engines ship five drafter types; Red Hat's suffix-decay curve (87.5% to 39.5% acceptance by token 6).
+- **Open:** a load-aware draft controller as a routing problem.

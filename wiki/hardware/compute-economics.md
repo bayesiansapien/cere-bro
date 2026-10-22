@@ -449,3 +449,8 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Forecasts:** Morgan Stanley $1.58T 2027 spend incl. leases (Nvidia ~$690B, 44%); Gartner $6T 2027-30 with >$3.5T at write-down risk; Goldman: CoreWeave ~15% unlevered IRR even at zero GPU residual.
 - **Utilization side:** [Meta Prometheus](2026-10-20-meta-prometheus-supercluster.md) reports >85% pre-training goodput and 47-54K GPU-hour MTBI; GB300 only 5-10% faster than GB200 on Meta's mix.
 - **Memory decoupling:** Marvell's photonic modules place HBM/DDR up to 50 m from the GPU at hundreds of ns.
+
+
+## 2026-10-22: prices up at the GPU, down at the market
+
+[Industry roundup](../ai-industry/2026-10-22-industry-roundup-anthropic-s1-chip-selloff.md). DeepInfra raises GPU-hour prices from Nov 9 (A100 +67%, B200 +33%); Nebius B200 spot +55% in a day; AWS takes GB300 racks before it has power; SpaceX's compute-leasing segment hits $7.56B/quarter. Meanwhile SOX loses ~$2T over 8 sessions and CoreWeave falls 25% in a week. Anthropic's prospectus shows ~$9B H1 compute and $600B+ in commitments. SemiAnalysis: Ascend 950 ~A100-to-MI300X class; DSv4.1-Flash step gains only 1.32x from 2x compute. NVIDIA DSX POD: 6 months to 14 days onsite; Nscale MaxLPS +37% GPUs per power budget.

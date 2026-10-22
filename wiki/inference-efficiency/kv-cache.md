@@ -787,3 +787,14 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **Break-even is tier-relative, now n=3:** galahad-kv (10-09, NVMe reload beats recompute on H100), remote store on B300 (10-17, only above ~17K tokens), and peer-GPU RDMA here (above 64 tokens). The closer and faster the tier, the lower the line.
 - **Multi-turn agents are the design target** for both serving (this) and drafting ([DLite](2026-10-20-speculative-drafting-dlite-ready-flashmap.md), which drops the drafter's own KV history).
 - **Open:** fixed TTL pins HBM for idle sessions; no results with prefix caching on.
+
+
+## 2026-10-22: the agent edits its own cache; the prompt fades by a power law
+
+- **[Cache Engineering for Agents (via X, 2610.28577)](2026-10-22-cache-engineering-for-agents-akv.md):** `drop` (exclude entries from attention) and `repos` (shift remaining keys' positions) replace summarization, so no re-prefill. Rolling drop of old tool responses: +1.7 points, 27.7% cheaper; AKV engine up to 1.2x throughput, 1.5x P95. Cache states now depend on operation history, so prefix matching is no longer a correct cache key.
+- **[TokenGate (2610.26754)](2026-10-22-tokengate-learned-prefill-pruning.md):** learned token pruning at prefill; 1.4-11.3x TTFT, 1.5-3.4x lower peak memory, no accuracy loss. Decides what never enters the cache.
+- **[MemT-1.0](../agentic-systems/2026-10-22-memory-native-models-and-memory-worth.md):** memory inside the model (Gated DeltaNet-2 + Mixture-of-Storage); 66x less persistent storage than full-context KV at 128K, 1.86x end-to-end.
+- **Serving side:** llm-d 1.0's prefix-aware router captures 97% of available cache reuse on agentic coding; Google's TPU engines add KV offload to host DRAM/Lustre via TPU Sync; DeepSeek's FlashMLA stores quantized KV next to its scales on Ascend ([DeepInfer/Huawei](../hardware/2026-10-22-deepinfer-and-huawei-deepseek-symbiosis.md)). AWS's Laplace 3B replaces the cache with a fixed 29.5 MB linear-attention state.
+- **Theory:** the [conditional no-hair theorem](../llms-foundation-models/2026-10-22-competing-learning-hybrids-kronlstm.md) shows prompt influence on hidden states decays ~t^-0.6 in trained models.
+- **Kurate underrated:** DropKV (residual-output perturbation for near-optimal eviction, cs.AI #1), MOSAIC (multi-objective cache allocation across layers, cs.LG #1), TideKV (delayed eviction via layer-wise chunked prefill).
+- **Pattern n=6 on selection beats compression:** cache engineering is the first instance below the harness.

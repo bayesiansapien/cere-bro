@@ -740,3 +740,8 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-20: disaggregated teachers, mechanism supervision
 
 [Distillation shorts](2026-10-20-distillation-shorts-disaggkd-opmd-treeopsd.md). **DisaggKD** moves teachers to their own nodes and computes an exact sharded KD loss without full-vocabulary logits; trains pairs that OOM colocated. **OPMD** distills teacher intermediate computation through a student-compatible mapping on on-policy rollouts. **TreeOPSD** turns tree-backed-up rewards into bounded closed-form teacher distributions for agentic RL. Hy-Memory-30B-A3B uses on-policy distillation then RL inside the deployed harness.
+
+
+## 2026-10-22: selecting the prompt, the rollout, the privileged information
+
+[Distillation shorts](2026-10-22-distillation-shorts-ask-to-distill.md). Ask-to-Distill trains a question synthesizer on teacher-student disagreement (no answers needed) and matches real-question OPD banks. A KL-contrast metric predicts which privileged information helps self-distillation. ProD penalizes loop "stagnation" in distilled 0.6-8B agents. Kurate: Projected Distillation; correctness-filtered self-distillation. Signal-selection now at three levels: token (TIP, 04-16), rollout, prompt.

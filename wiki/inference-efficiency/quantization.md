@@ -248,3 +248,8 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 ## 2026-10-20: the embedding was the unquantized part
 
 [Frozen 16 MB vocabulary](2026-10-20-frozen-16mb-vocabulary-ternary.md): replace a small model's learned embedding (168M of 268M params in Gemma 3 270M, kept at 16 bits by quantizers) with a frozen 512-bit sign code per token. With a BitNet b1.58 body the full model is 46 MB, ties float on LAMBADA/PIQA, and runs 615-740 tok/s on a laptop CPU in 62 MB (5-6x an 8-bit GGUF). Also: [Hy-Memory-30B-A3B GGUF](../agentic-systems/2026-10-20-hy-memory-30b-a3b-memory-writer.md) loses ~2 points from Q6_K to Q4_K_M on LoCoMo; Muse Glimmer 30B targets 4-bit on one consumer GPU.
+
+
+## 2026-10-22: quantizing lookup tables
+
+[Conditional Program](2026-10-22-conditional-program-ngram-two-bits.md) brings 2-bit quantization to Engram-style n-gram tables (shared trellis decoder, independently decodable rows): 41-63% lower KL than 2-bit RTN, 203 GB to 51 GB. Also this window: Specter's quantized draft model doubles as an expert-usage predictor; Kurate's LIRQuant (locally isolated rotation quantization); prism-ml's ternary Qwen3.8-27B for on-device. Practitioner caution (DiamantAI): pruning 8 of 32 layers of a 4-bit 7B model kept MCQ accuracy near 61% but broke free-form generation immediately; test long outputs, not leaderboards.

@@ -209,3 +209,8 @@ Every trainable sparse-attention method this page has tracked shares one archite
 
 - [LFM2.5-24B-A2B and Ling-3.1-flash (10-14)](../inference-efficiency/2026-10-14-lfm25-24b-a2b-and-ling-31-flash.md): open production hybrids at 3:1 (short conv to GQA) and 7:1 (KDA to gated MLA). The ratios Priming and ReplaySSM (10-13) assumed are now shipped. No full-window recall numbers yet.
 - [MSAR (10-14)](../inference-efficiency/2026-10-14-efficiency-shorts.md): multi-head attention over depth via multi-scale causal convolutions; 1.58x iso-loss compute speedup over standard residuals at 18B/28B MoE (AttnRes 1.35x, mHC 1.30x).
+
+
+## 2026-10-22: in hybrids, recurrence starves attention
+
+[Competing Learning, KronLSTM, no-hair theorem](2026-10-22-competing-learning-hybrids-kronlstm.md). In recurrence+attention hybrids the recurrence learns retrieval first and suppresses attention's learning signal; freezing recurrence mid-training lets attention learn retrieval (up to 1B). KronLSTM's Kronecker Delta Rule edits memory along one matrix direction, bounded norm without normalization, beats Gated DeltaNet on long context. Lafa (8B flow LM) and DRLM (draft refinement) push non-AR generation.

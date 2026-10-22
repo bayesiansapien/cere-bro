@@ -407,3 +407,8 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## 2026-10-20: a specialist writer
 
 [Hy-Memory-30B-A3B](2026-10-20-hy-memory-30b-a3b-memory-writer.md): Tencent trains a 3B-active MoE only for the memory write path, inside Mem0/MemOS/Hy-Memory harnesses (OPD then RL with chunk credit). Holding reader and judge fixed, it averages 55.49 vs Opus 5's 54.62 across four harnesses, including held-out EverMemOS. Amazon's audit (surfaced on X) warns QA scores alone hide what got stored; ProPerAgent shows the filter between memory and model matters (removing it: 37.3% to 24.0%). [CarryOn](2026-10-20-agent-context-cost-shorts.md) replaces history with task objects.
+
+
+## 2026-10-22: memory has a price
+
+[MemT-1.0, TokenWorth, Anti-Persistence, continual learners](2026-10-22-memory-native-models-and-memory-worth.md). Under tight budgets, sophisticated lifelong memory does no better than simple retrieval; TokenWorth learns query-dependent memory worth from execution feedback. Storing abstractions lets errors reproduce; rebuilding guidance on demand avoids it. MemT puts memory in the weights' state (66x less storage than a 128K KV cache).

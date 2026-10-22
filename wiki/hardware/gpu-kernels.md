@@ -366,3 +366,11 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## 2026-10-20: tile DSLs, compiler knobs, agentic tuning
 
 [Kernel shorts](2026-10-20-kernel-shorts-mamba2-cutile-compileiq-trainium.md). Jane Street + NVIDIA write Mamba-2's forward pass in cuTile as three kernels (log-space cumsum, Tensor Core state jump, fused masked output in registers). CompileIQ exposes ptxas register/scheduling choices to Helion's autotuner as a joint search space. AWS ports Deepgram Nova-3 to Trainium2 with TorchNeuron + NKI kernels + an agentic tuning toolkit: 11-70% more audio per dollar. Agent-assisted kernel work now appears in AMD (Meta, 10-19) and AWS vendor tooling.
+
+
+## 2026-10-22: the kernel layer goes portable
+
+- **[DeepInfer + SemiAnalysis on Ascend](2026-10-22-deepinfer-and-huawei-deepseek-symbiosis.md):** DeepSeek's kernel stack (FlashMLA, DeepGEMM, DeepEP, TileKernels, DeepSelect) targets both SM100 and Ascend 950 via TileLang; stock Ascend matmul at 99.7% of ceiling on compute-bound BF16 GEMMs, 41.5% vs H100's 46.8% below the ridge; fused MC² compute+communication kernels.
+- **TorchTPU** (native PyTorch on TPU; TorchTitan Qwen3-8B at 51-52% MFU, Pallas megakernel for Kimi K3's full decode step at 700+ tok/s/user), **FlyDSL** on AMD MI350 (up to 1.68x GEMM, 3.01x end-to-end vLLM), AWS Laplace 3B linear-attention kernels rewritten in native PyTorch for Trainium2.
+- **[EdgeKernelBench / LEKA](2026-10-22-edgekernelbench-leka.md):** best single-shot model 64.5% correct but 25.5% faster; a layered-IR agent reaches 43.5% Fast@1.0.
+- **Megakernel thread (X):** "FlashAttention was a megakernel" (Dylan Patel); claims of trillion-parameter pretraining in a single megakernel. Isoquant's Inference Engineering Benchmark: Gemini 4 Argon 4.38x mean speedup across 9 GPU tasks.

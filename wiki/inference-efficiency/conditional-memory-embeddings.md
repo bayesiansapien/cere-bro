@@ -71,3 +71,10 @@ The tidy story would be "memory stores facts, experts reason." The ablations say
 ## 2026-10-16: COUNT, a parameter-free table on host memory
 
 [The COUNT](2026-10-16-compression-shorts.md) builds n-gram embeddings from precomputed corpus counts on host RAM, weighting the model's own unembeddings of likely next tokens. No learned table parameters. At fixed compute a 1B model gains as much as 57% more compute; swapping count tables adapts domains at inference without training. On this page's open disagreement it sides with token-ID addressing (prefetchable) and removes the training-in-HBM cost entirely. Open: scale beyond 1B, and whether counts fill with boilerplate the way Engram's learned table did.
+
+
+## 2026-10-22: Engram goes to production, and gets a 2-bit codec
+
+- **Production:** SemiAnalysis's DSv4.1-Flash profile on Ascend 950DT shows DeepSeek's first use of Engram. Token-ID-keyed fetches overlap layer 0, so DRAM offload costs nothing vs HBM; PCIe SSD offload does degrade ([DeepInfer/Huawei](../hardware/2026-10-22-deepinfer-and-huawei-deepseek-symbiosis.md)). This settles the prefetchability argument for token-ID addressing in practice. Practitioner estimate (X): Engram cuts parameters ~30%.
+- **[Conditional Program (2610.21810)](2026-10-22-conditional-program-ngram-two-bits.md):** 2-bit row codes + shared Gaussian trellis; 41-63% lower output KL than 2-bit RTN; DeepSeek's table 203 GB to 51 GB, small enough for HBM.
+- **Two routes now:** keep the full table in cheap memory and prefetch (DeepSeek, COUNT 10-16) or compress it into HBM (CP). Specter applies the prefetch logic to MoE experts using draft tokens.
