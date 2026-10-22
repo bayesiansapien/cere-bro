@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-22T12:58:52.645419
+arxiv_id: 2606.31002
+url: https://huggingface.co/papers/2606.31002
+arxiv_url: https://arxiv.org/abs/2606.31002
+date: 2026-10-21
+---
+
+# Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization
+
+Lean verifies that a generated declaration is well typed, but cannot check whether it states what the user intended. We measure how far compilation overstates faithfulness in statement autoformalization without canonical Lean targets. Our criterion requires Lean compilation and agreement of two LLM judges from different model families. On an independent random audit, it agrees with the human majority on 91.5% of cases; it rarely accepts an unfaithful output but rejects some faithful ones. Across eight systems on 227 university-level statements, the gap between compiling and accepted outputs ranges from 1.3 to 29.5 percentage points: our tool-augmented agent compiles 87.2% of the statements, but only 57.7% are accepted. Human review of all the agent's rejections confirms that 23.8 of its 29.5 points are real translation errors. For the gaps of the seven one-shot systems, a two-stage review by Claude Opus 5.5 with Lean and GPT-6.1 Sol, validated on these human labels, finds that 78-100% are real translation errors for six of them. When GPT-5.2, one of the two judges, grades the translations of two models released after it, GPT-6 Astra and Claude Opus 5.5, it accepts 83% of the statements for each, against 21% for one-shot GPT-5.2. For these two models, the same review classifies only 4 of their 54 rejections (7%) as translation errors, so most of their measured gap is judge errors rather than translation errors. This is consistent with these systems erring less while the judge does not: the fewer errors a system makes, the smaller the share of its rejections that are translation errors. Finally, a 2^3 tool ablation of the agent shows that Lean feedback drives most of its compilation gain, and that nearly half of this gain fails the semantic criterion. Code and data are available at https://github.com/grenadeComing/beyond-compilation.

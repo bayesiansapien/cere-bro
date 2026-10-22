@@ -1,0 +1,172 @@
+{
+ "captured": "2026-10-22T00:53:24.995620",
+ "errors": [
+  "Mistral AI: ConnectionError",
+  "Amazon Science: ChunkedEncodingError",
+  "Qwen: ConnectionError",
+  "Microsoft Research: ReadTimeout",
+  "NVIDIA Developer: ReadTimeout",
+  "AWS Machine Learning: ReadTimeout",
+  "Salesforce AI Research: ReadTimeout",
+  "xAI News: page render failed",
+  "Meta AI Blog: page render failed",
+  "Google DeepMind Model Cards: page render failed",
+  "HF tencent: ConnectionError",
+  "HF HuggingFaceTB: ConnectionError",
+  "HF stepfun-ai: ConnectionError",
+  "HF apple: ConnectionError",
+  "HF LiquidAI: ConnectionError",
+  "HF baidu: ConnectionError",
+  "HF ByteDance-Seed: ConnectionError",
+  "HF inclusionAI: ConnectionError"
+ ],
+ "items": [
+  {
+   "lab": "Anthropic News",
+   "source": "page",
+   "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+   "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "published": null,
+   "uid": "page:https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "content": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic\u2019s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.\n \u201cI am honored to join Anthropic\u2019s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,\u201d said Stubbs. \u201cI use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.\u201d\n Stubbs is the Samuel C. Moncher Professor of Physics and of Astronomy at Harvard, where he served as Dean of Science from 2018 to 2024. In 1998, as a member of the High-Z Supernova Search Team, he helped discover the accelerating expansion of the universe, work that later earned the team the Breakthrough Prize in Fundamental Physics. He was also the inaugural project scientist for what is now the Vera C. Rubin Observatory, which started a 10-year survey of the southern sky in June. One of its aims is to study the accelerating expansion he helped discover.\n More recently, he\u2019s written about how to keep AI-assisted research reproducible when models can give different answers to the same question. He\u2019s a member of JASON, an independent group of scientists who have advised the US government on defense and technology since 1960.\n \u201cWhen Chris found evidence that the universe was expanding at a rate no one expected, he and his team followed the data even when it went against the prevailing wisdom of the field. As AI starts to transform how science itself is done, Chris\u2019s intellectual honesty, rigor, and commitment to the truth are the values we want shaping the future of this technology, and I\u2019m grateful he\u2019s bringing his deep expertise to the Trust,\u201d said Daniela Amodei, Co-founder and President of Anthropic.\n Anthropic is a Public Benefit Corporation, which means we\u2019re structured to balance commercial growth with our public benefit purpose. The Trust exists to help us hold that balance over the long term. It has the authority to appoint a majority of Anthropic\u2019s board, and Trustees advise the board and our leadership on critical decisions, particularly those involving risks and societal impacts of AI.\n \u201cHelping the world build powerful AI safely and making sure it meaningfully improves people\u2019s lives both depend on a deep understanding of science and on leading with integrity,\u201d added Neil Buddy Shah, Chair of the Long-Term Benefit Trust. \u201cNot only has Chris worked on some of the hardest problems in science, but he has consistently been a high-integrity leader of large, complex, collaborative scientific endeavors across academia, government, and the national laboratories. That will be of great value to the Trust as we support Anthropic in developing AI for the long-term benefit of humanity.\u201d\n Stubbs, the Trust\u2019s first physicist, joins Shah, national security expert Richard Fontaine, and former Federal Reserve Chair Ben Bernanke. Trustees are independent of the company\u2019s management and investors.",
+   "kind": "post"
+  },
+  {
+   "lab": "Anthropic Research",
+   "source": "page",
+   "title": "Automated researchers can reliably mitigate alignment failures",
+   "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+   "published": null,
+   "uid": "page:https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Anthropic Research",
+   "source": "page",
+   "title": "Enabling independent research on how people use Claude",
+   "url": "https://www.anthropic.com/research/enabling-independent-research",
+   "published": null,
+   "uid": "page:https://www.anthropic.com/research/enabling-independent-research",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Anthropic Research",
+   "source": "page",
+   "title": "Patterns and problems in emerging multiagent systems",
+   "url": "https://www.anthropic.com/research/multiagent-systems",
+   "published": null,
+   "uid": "page:https://www.anthropic.com/research/multiagent-systems",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Anthropic Research",
+   "source": "page",
+   "title": "Reviewing the evidence on worker retraining programs",
+   "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+   "published": null,
+   "uid": "page:https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Anthropic Research",
+   "source": "page",
+   "title": "Learning more about Claude's mathematical capabilities",
+   "url": "https://www.anthropic.com/research/riemann-zeta",
+   "published": null,
+   "uid": "page:https://www.anthropic.com/research/riemann-zeta",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Cohere Blog",
+   "source": "page",
+   "title": "rerank 5",
+   "url": "https://cohere.com/blog/rerank-5",
+   "published": null,
+   "uid": "page:https://cohere.com/blog/rerank-5",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "Google AI (Keyword)",
+   "source": "feed",
+   "title": "Southeast Asia\u2019s digital economy to hit $368 billion",
+   "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+   "published": "2026-10-21T04:00:00+00:00",
+   "uid": "feed:https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+   "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "IBM Research",
+   "source": "feed",
+   "title": "A new plugin can enable fast runtime monitoring and control",
+   "url": "https://research.ibm.com/blog/fast-interpretability-plugin-vllm?utm_medium=rss&utm_source=rss",
+   "published": "2026-10-21T12:00:00+00:00",
+   "uid": "feed:https://research.ibm.com/blog/fast-interpretability-plugin-vllm?utm_medium=rss&utm_source=rss",
+   "summary": "IBM's vLLM-Hook MIA lets developers inspect and edit the AI generation process with hardly any delay.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "published": "2026-10-21T12:00:00+00:00",
+   "uid": "feed:https://openai.com/index/openai-models-google-cloud",
+   "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini\u2019s Model Garden, available through Google Cloud Marketplace.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "published": "2026-10-21T07:00:00+00:00",
+   "uid": "feed:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "published": "2026-10-21T13:00:00+00:00",
+   "uid": "feed:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "published": "2026-10-21T04:50:00+00:00",
+   "uid": "feed:https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "How we built ChatGPT\u2019s novel ad stack for user trust and relevance",
+   "url": "https://openai.com/index/building-chatgpt-ad-stack",
+   "published": "2026-10-21T07:00:00+00:00",
+   "uid": "feed:https://openai.com/index/building-chatgpt-ad-stack",
+   "summary": "Learn how OpenAI built ChatGPT\u2019s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+   "content": "",
+   "kind": "post"
+  }
+ ]
+}
