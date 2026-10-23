@@ -214,3 +214,10 @@ Every trainable sparse-attention method this page has tracked shares one archite
 ## 2026-10-22: in hybrids, recurrence starves attention
 
 [Competing Learning, KronLSTM, no-hair theorem](2026-10-22-competing-learning-hybrids-kronlstm.md). In recurrence+attention hybrids the recurrence learns retrieval first and suppresses attention's learning signal; freezing recurrence mid-training lets attention learn retrieval (up to 1B). KronLSTM's Kronecker Delta Rule edits memory along one matrix direction, bounded norm without normalization, beats Gated DeltaNet on long context. Lafa (8B flow LM) and DRLM (draft refinement) push non-AR generation.
+
+## 2026-10-23
+
+- [Stratified Sparse Attention](../inference-efficiency/2026-10-23-stratified-sparse-attention.md): unbiased estimate of residual attention mass at extreme sparsity.
+- [PACE](../inference-efficiency/2026-10-23-pace-four-bit-recurrent-states.md): 4-bit gated-delta recurrent state.
+- [AI research team discovers a linear-attention architecture](../agentic-systems/2026-10-23-automated-research-measured.md) beating GDN2 at 1.3B.
+- [ALLOT](2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md): block-sparse density allocated per (layer, step) by measured output error in video DiTs.

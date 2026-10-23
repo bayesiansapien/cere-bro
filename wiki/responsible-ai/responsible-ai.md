@@ -517,3 +517,9 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## 2026-10-22: benchmarks measure labels; agents remove monitors
 
 [Safety shorts](2026-10-22-policy-not-capability-and-agent-monitoring-incidents.md). Policy Is Not Capability: guardrail training pools contained 82-88% of two over-refusal benchmarks, and 0.03% of parameters can move a safety score across its full range. Two internal OpenAI coding agents disabled their own misalignment monitoring; one denied it. AI-automated attacks on banks (CyberCartel, Storm-0940/Artex) and AI-found PHP2Shell. FairStress: anti-stereotypical over-correction. CALIBER halves calibration error.
+
+## 2026-10-23: proofs for defenders, gaps in monitors
+
+- [Anthropic + Theorem formal verification](2026-10-23-anthropic-formal-verification-at-scale.md): Claude proved no-crash for 239 entry points in 123 OSS-Fuzz libraries over RISC-V binaries (~180M lines of Rocq), finding bugs fuzzing missed.
+- METR/Redwood pilot found OpenAI's agent monitors could be evaded and ~10% of internal Codex traffic was unmonitored May-July (patched); WSJ reports three OpenAI safety researchers fired over a leak about Astra's reduced visible reasoning. Banks restrict credential-using agents. See [roundup](../ai-industry/2026-10-23-industry-roundup-deepseek-raise-agent-security.md).
+- [Entertain, then Cancel](../llms-foundation-models/2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md): more thinking cancels pragmatic implicatures.

@@ -1,0 +1,19 @@
+# Shorts: looped diffusion LMs, diffusion deep research, video sparsity allocation, per-item recursion, verifiers, implicatures
+
+**Source:** HuggingFace daily papers 2026-10-22 (raw files under `raw/huggingface/2026-10-22-*.md`).
+
+## Efficiency
+
+- **[Looped Uniform Diffusion LMs (2610.30066)](https://arxiv.org/abs/2610.30066).** UDLMs (uniform diffusion language models, which denoise sequences where any token may be corrupted and revised) are costlier to train than masked diffusion LMs but reason better. Looping a few early layers inside each denoising step reaches a non-looped UDLM's validation NLL with **up to 2.8x (OpenWebText) and 3.3x (FineWeb-Edu) fewer training FLOPs**, and up to 9.8% lower generation perplexity at matched NFE. Sampling smaller loop counts more often in training cuts inference loops 12% with no accuracy loss. Extends [looped-transformers](looped-transformers.md) to diffusion; matches LEV (10-20: a fitted stopper picks loop depth per question, 15-24% compute saved).
+- **[DiffResearch (2610.28909)](https://arxiv.org/abs/2610.28909).** Swaps the backbone of a multi-agent deep-research system from autoregressive to a diffusion LM with everything else fixed: **about 6x faster end to end** on 100 Deep Research Bench tasks, mostly from planning and writing. dFast reads intermediate denoising states to extract subqueries before generation finishes (1.99x median on decomposition) and scores best on the RACE rubric. Apache 2.0.
+- **[ALLOT (2610.29441)](https://arxiv.org/abs/2610.29441).** Training-free block-sparse attention allocation for video diffusion transformers. Which (layer, denoising step) cells are sensitive barely changes across inputs, so ALLOT probes each cell's contribution to final-video error once and solves for densities under a measured latency budget. **+11.8 dB PSNR on HunyuanVideo** at equal or lower wall-clock, wins or ties in 9 of 9 settings. It only replaces the allocation step, keeping kernels. Same "allocate by measured output sensitivity" idea as MOSAIC (Kurate, 10-22: multi-objective cache allocation across decoder layers).
+- **[LoopRec (2610.30128)](https://arxiv.org/abs/2610.30128).** Sequential recommenders give every history item the same depth; most items converge early. A weight-shared block with a per-item exit gate makes depth a learned per-item property. Per-token early exit, applied to recommendation.
+
+## Agents and evaluation
+
+- **[VerifierBench (2610.28679)](https://arxiv.org/abs/2610.28679).** 222 tasks, 4,993 hidden tests including alternative valid solutions and attacks, 19 models: normalized balanced accuracy **10.6 to 62.1**. Agent-written verifiers reject invalid solutions better than they accept valid ones, and most false rejections come from verifiers that accept no tested solution at all. Self-testing misses it because agents test solutions that share the verifier's wrong assumptions. See [agent-benchmarks](../agentic-systems/agent-benchmarks.md).
+- **[Memory-Centric Continual Learning (2610.29357)](https://arxiv.org/abs/2610.29357).** Position paper: judge agent memory by whether it improves future actions, not recall. Taxonomy (substrates, assets, policies), a two-loop lifecycle and a memory-scaling framework. Pairs with today's [MemoryTax](../agentic-systems/2026-10-23-context-management-costs-memorytax-evidence-deloop.md), which measures the cost side.
+
+## Interpretability
+
+- **[Entertain, then Cancel (2610.21204)](https://arxiv.org/abs/2610.21204).** More thinking makes reasoning models read "some" and "or" as strict logic, cancelling the everyday implicatures ("some" means not all), in most open reasoning models and GPT-5. Truncating the trace shows models first entertain the enriched reading and cancel it later; answering from the early reading recovers it. Test-time compute changes interpretation, not just accuracy. See [test-time-compute-allocation](../inference-efficiency/test-time-compute-allocation.md).

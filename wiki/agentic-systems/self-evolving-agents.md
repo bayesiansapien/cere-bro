@@ -388,3 +388,8 @@ DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPv
 ## 2026-10-22: the audit arrives
 
 [Harness-evolution wave](2026-10-22-harness-evolution-wave.md) and [memory worth](2026-10-22-memory-native-models-and-memory-worth.md). Harness-Delta Attribution quantifies the 10-17 "what can the agent not see" pattern: without held-out tasks, ~54% of the gain is search-set overfitting. Are Self-Evolving Agents Continual Learners? (via X): ReasoningBank, GEPA, Meta-Harness all trade stability for plasticity on drifting streams. Anti-Persistence: stored abstractions reproduce their own errors. Pattern n=3 with Scaling Discovery Requires Forgetting (10-16): accumulated agent memory degrades by default. Positive counterweights: Épi (persistent research agent, 120 records; Épi-turbo +5.4% over Codex at 64% cost), Microsoft's human-directed agentic search proving the KLS conjecture where unguided runs failed.
+
+## 2026-10-23: experience becomes supervision; research agents measured
+
+- **[RSD (Meta, 2610.27495)](../inference-efficiency/2026-10-23-distillation-shorts-bsd-traceforge-rsd-glimmer.md):** the model re-scores its own actions with hindsight and cross-task lessons as privileged context, then self-distills; up to +59.7% relative, +44.7% more with frontier-edited context policies.
+- **[Automated research measured](2026-10-23-automated-research-measured.md):** Agent4Sci gains are ML-engineering tricks, not insight (Opus 10.4% to 20.1% with plug-in skills); FrontierCS 2 best pass rate 58%; LM2LM trains a proposer against a research world model; an AI research team beat GDN2 at 1.3B; only 37 of 1,598 RL-method papers reached a training framework.

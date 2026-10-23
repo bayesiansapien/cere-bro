@@ -310,3 +310,7 @@ This page's recurring complaint is that agentic evaluation numbers are not compa
 
 - **[Kepler (10-04)](2026-10-04-kepler-rankevolve-agent-audit-cost.md):** 48 of 50 game-model cells on ARC-AGI-3's public set reach 100, so public score no longer discriminates. One perfect run came from reading the game's 2,172-line source (clean rerun: 46.91). The authors ask for first-attempt, cost-conditioned, verification-aware reporting.
 - **[ScholarCatalyst (10-04)](2026-10-04-scholarcatalyst-research-taste-retrieval.md):** 184 authors label which prior papers advanced their projects. Agentic search 0.42 R@20 vs 0.48 for the bare retriever it calls; Fable 5.1 agent 0.51. Second benchmark after Taste-Bench (09-23) placing the auto-research bottleneck in judgment, not tools.
+
+## 2026-10-23
+
+VerifierBench (agent-written verifiers: balanced accuracy 10.6-62.1, over-rejection dominates), FrontierCS 2 (best agent passes 58%), Agent4Sci (gains are engineering tricks), WildAWM (341 synthetic long-horizon tasks, GPT-6 Astra 60%). See [automated research measured](2026-10-23-automated-research-measured.md), [Harness Scaling and WildAWM](2026-10-23-harness-scaling-and-wildawm.md), [shorts](../llms-foundation-models/2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md).

@@ -931,3 +931,11 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **DecisionPivot:** two 27B decision models 2.6 points apart on aggregate differ by 70.1% vs 44.2% on contrast groups; ranking ≠ deciding.
 - **Harness routing:** OO-Harness routes each task to an evolved harness subclass or keeps the base; edge-cloud routing benchmark EC2-Bench (2610.17816) finds stronger edge models shift the best strategy toward edge-controlled cloud calls.
 - **Market:** Cloudflare released clef, an open decision model; Strot compiles a frozen 144M decision artifact; an IPO filer discloses "no model-routing layer" as a risk.
+
+## 2026-10-23: routing ships in the box, and markets get numbers
+
+- **[NeMo Switchyard on eight DGX Sparks](../hardware/2026-10-23-dgx-spark-eight-node-rocenante-switchyard.md):** a lightweight classifier routes each request or session to a small-model or large-model pool on one cluster; Qwen-only quality on a tool-use benchmark, up to 3x aggregate throughput when traffic shifts small. The simplest rung of this month's ladder, now an NVIDIA product.
+- **Auction routing resurfaced with simulation numbers** (DeepMind, 2610.20587, first covered [10-16](2026-10-16-whose-turn-routing-and-agent-auctions.md)): 110 models bidding on 30,000+ EmbedLLM prompts reach 99.2% of optimal value vs 89.4% for routing each prompt cluster to its best model; on the worst cluster the auction keeps 96.0% while the single best model keeps 6.0%. Theory: welfare loss shrinks toward a 1-1/e² bound when several cheap distilled models value a prompt highly.
+- **Model tier as routing:** Claude Code's per-agent model setting (Opus plans, Haiku subagents read) circulated with a $0.23 vs $1.13 example run; the design rule is that the planner never reads raw worker output.
+- **Reasoning effort as a routing knob:** MiniMax disclosed 80% to 68% coding accuracy from max to high effort ([summary](../inference-efficiency/2026-10-23-serving-operator-gap-semianalysis-minimax.md)).
+- **Routing costs cache:** TDS ("The Hidden Cost of LLM Routing") argues mid-session model switches discard prefix cache; OpenAI launched a Decisions API for low-cost per-decision calls.

@@ -253,3 +253,9 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 ## 2026-10-22: quantizing lookup tables
 
 [Conditional Program](2026-10-22-conditional-program-ngram-two-bits.md) brings 2-bit quantization to Engram-style n-gram tables (shared trellis decoder, independently decodable rows): 41-63% lower KL than 2-bit RTN, 203 GB to 51 GB. Also this window: Specter's quantized draft model doubles as an expert-usage predictor; Kurate's LIRQuant (locally isolated rotation quantization); prism-ml's ternary Qwen3.8-27B for on-device. Practitioner caution (DiamantAI): pruning 8 of 32 layers of a 4-bit 7B model kept MCQ accuracy near 61% but broke free-form generation immediately; test long outputs, not leaderboards.
+
+## 2026-10-23: state, KV and experts at 4 bits
+
+- **[PACE](2026-10-23-pace-four-bit-recurrent-states.md):** post-hoc 4-bit recurrent state for linear-attention hybrids. Periodic rounding cuts compounded error; large gated-delta state entries cluster in columns, so scales are shared per column. Mixed 4/8-bit matches 8-bit DAMP at ~2/3 memory; all-4-bit beats Q-Mamba at equal memory. Agrees with STEPQuant (10-09) that error lifetime is the quantity to control.
+- **[MiniMax M3.1 Flash](2026-10-23-serving-operator-gap-semianalysis-minimax.md):** W4A4 routed experts with the shared expert left at higher precision; scale/rescale placement in the fused GEMM is where correctness bugs hide. KV4 hid a 6.6-point sub-task drop.
+- **[Muse Glimmer 30B](2026-10-23-distillation-shorts-bsd-traceforge-rsd-glimmer.md):** distilled + ~4-bit agent model under 20 GB on one RTX 5090.

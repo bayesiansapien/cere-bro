@@ -204,3 +204,7 @@ SpecFold reuses parent computation across near-identical draft branches in diffu
 - **UBTree** (Ling-3 drafter, lab watcher): bigram-selected draft trees beat DSpark by ~0.3-0.7x end-to-end.
 - **Production:** DeepInfer defaults to DSpark with draft length 5; Google's TPU engines ship five drafter types; Red Hat's suffix-decay curve (87.5% to 39.5% acceptance by token 6).
 - **Open:** a load-aware draft controller as a routing problem.
+
+## 2026-10-23: acceptance length decides whether drafting survives load
+
+Red Hat's DFlash2 drafter for Gemma 4 31B (5-layer Qwen3 backbone, trained with Speculators) drafts up to 7 tokens and has 4-7 accepted on average, keeping about 1.4x throughput at high concurrency on coding/math ([model card](https://huggingface.co/RedHatAI/gemma-4-31B-it-speculator.dflash2)). Against the 10-22 EAGLE-4 table (DSpark and DFlash 2 slower than plain decoding at 512 requests), the reconciliation is acceptance length: long accepted runs amortize verification under batching, short ones do not. MiniMax's M3.1 Flash talk adds the accounting rule: count draft, verify and rejection cost, then retries and tool calls ([summary](2026-10-23-serving-operator-gap-semianalysis-minimax.md)).

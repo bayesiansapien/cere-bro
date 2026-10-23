@@ -151,3 +151,7 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 - **Looped Models Done Right (Part I):** controlled comparison of recurrence placement, input injection and state design. Huginn-style prelude/recurrent/coda with input injection beats Ouro on all ten benchmarks at 730M/336B tokens, and the lead transfers to MoE (8B-A0.8B, 500B tokens) with more balanced expert routing. 75% fewer resident parameters than a 112-layer feedforward MoE at matched FLOPs. Controlled evidence for the design Dory1.0-4B (10-17) shipped.
 - **LEV:** looped decision model, one checkpoint answers at any depth; 2.6B goes 63.2% to 76.2% from depth 1 to 4 on JevBench; per-question stopper saves 15-24% compute for <1 point.
 - **Social:** TheTuringPost's "10 looped-transformer papers" was among the most-shared AI posts this window.
+
+## 2026-10-23: loops in diffusion LMs and recommenders
+
+[Looped UDLMs](2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md): looping early layers per denoising step reaches baseline NLL with 2.8-3.3x fewer training FLOPs; sampling small loop counts more often cuts inference loops 12%. LoopRec adds per-item exit gates in sequential recommendation. Both match LEV (10-20) in making depth a learned, per-input quantity.

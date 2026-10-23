@@ -454,3 +454,9 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 ## 2026-10-22: prices up at the GPU, down at the market
 
 [Industry roundup](../ai-industry/2026-10-22-industry-roundup-anthropic-s1-chip-selloff.md). DeepInfra raises GPU-hour prices from Nov 9 (A100 +67%, B200 +33%); Nebius B200 spot +55% in a day; AWS takes GB300 racks before it has power; SpaceX's compute-leasing segment hits $7.56B/quarter. Meanwhile SOX loses ~$2T over 8 sessions and CoreWeave falls 25% in a week. Anthropic's prospectus shows ~$9B H1 compute and $600B+ in commitments. SemiAnalysis: Ascend 950 ~A100-to-MI300X class; DSv4.1-Flash step gains only 1.32x from 2x compute. NVIDIA DSX POD: 6 months to 14 days onsite; Nscale MaxLPS +37% GPUs per power budget.
+
+## 2026-10-23: the operator is the cost curve; capital gets pricier
+
+- **[SemiAnalysis operator talk](../inference-efficiency/2026-10-23-serving-operator-gap-semianalysis-minimax.md):** ~50% output gap on identical B200s from stack choices alone; cost per accepted task is the metric; compute futures price GPU-hours, not delivered work.
+- **Capital:** DeepSeek raised $15.9B; OpenAI closing $30B at up to $1.25T; Nebius $3.5B Citi facility at SOFR + 2.75%; SB Energy may push its IPO to 2027; SK Hynix paused Solidigm's IPO; Blackstone argues power scarcity raises existing-capacity value ([roundup](../ai-industry/2026-10-23-industry-roundup-deepseek-raise-agent-security.md)).
+- **Power:** a Goldman Sachs figure circulating on X puts token demand up 24x 2026-2030 against roughly 2x available power; Google/Voltus 1 GW virtual power plant.

@@ -798,3 +798,10 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **Theory:** the [conditional no-hair theorem](../llms-foundation-models/2026-10-22-competing-learning-hybrids-kronlstm.md) shows prompt influence on hidden states decays ~t^-0.6 in trained models.
 - **Kurate underrated:** DropKV (residual-output perturbation for near-optimal eviction, cs.AI #1), MOSAIC (multi-objective cache allocation across layers, cs.LG #1), TideKV (delayed eviction via layer-wise chunked prefill).
 - **Pattern n=6 on selection beats compression:** cache engineering is the first instance below the harness.
+
+## 2026-10-23: estimate the tail, quantize the state, disclose the regressions
+
+- **[Stratified Sparse Attention (2610.28441)](2026-10-23-stratified-sparse-attention.md):** top-k for high-score tokens, score-guided sampling with inclusion-probability reweighting for the rest. At 50x sparsity on RULER-HARD (Ministral-3-8B): 81.8% to 84.2% at 32K, 63.8% to 69.3% at 128K (94%/85% of dense). Up to 2.96x decode over FlashInfer at 1M. First paper to treat discarded attention mass as something to estimate rather than drop; composes with DoSA (10-15, exact top-K with less scoring).
+- **[PACE (2610.29545)](2026-10-23-pace-four-bit-recurrent-states.md):** for hybrids the recurrent state is the cache. Round once per few tokens, column-shared scales, 8-bit for long-memory heads; matches 8-bit DAMP at ~2/3 memory. Third low-bit-state paper after STEPQuant (10-09).
+- **Production disclosure ([MiniMax M3.1 Flash talk](2026-10-23-serving-operator-gap-semianalysis-minimax.md)):** Q8/KV4 kept the average flat but cut one sub-score 6.6 points. First public evidence that 4-bit KV regressions hide inside averages; argues for per-slice evals whenever KV is quantized.
+- **Routing x cache:** TDS's "hidden cost of LLM routing" argues switching models mid-session throws away the prefix cache. Combined with Cache Engineering (10-22), the cache is now a cost term in routing decisions.

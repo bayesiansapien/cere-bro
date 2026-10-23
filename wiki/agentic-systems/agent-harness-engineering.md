@@ -794,3 +794,9 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Cost layer:** [Cache Engineering for Agents](../inference-efficiency/2026-10-22-cache-engineering-for-agents-akv.md) gives the harness KV-cache operations (drop, repos): 27.7% cheaper than summarization. [Decision-model controllers](../ai-routing/2026-10-22-decision-models-good-judgment-bad-advice.md) can raise cost 19% when uncalibrated.
 - **Kernel harnesses:** [LEKA](../hardware/2026-10-22-edgekernelbench-leka.md) beats Claude Code on edge kernels 43.5% vs 26.1% Fast@1.0 with the same model.
 - **Industry:** NVIDIA's GTC Berlin framed agents as model + harness + sandbox + knowledge + tools; Ken Huang's n=1 Harness² red-team replication saw the loop reject its own edits and keep the base.
+
+## 2026-10-23: train across harnesses; audit what context tricks cost
+
+- **[Harness Scaling (2610.29458)](2026-10-23-harness-scaling-and-wildawm.md)** (HF + DAIR pick via X): RL across a factorized, factorial-sampled harness space transfers to unseen black-box harnesses better than training through one complex harness. Training-time counterpart to the 10-22 HDA audit (~54% of harness-evolution gains are overfitting).
+- **[Context-management costs](2026-10-23-context-management-costs-memorytax-evidence-deloop.md):** offloading tool output costs GPT models 8-11 points through evidence substitution (not Claude); compression makes agents loop (57% of Qwen3-8B tasks), fixed by DPO on self-generated loop pairs (DeLoop). Harness choices are model-dependent.
+- **Practice:** Ramp's Laminar harness (model-agnostic, sandbox-as-a-tool, durable execution) amplified by @omarsar0; Google's agents-cli shows durable pause/resume without replaying retrieval; Ken Huang's Harness² skill passed all 25 tests and still had 11 flaws, including a spend-cap bypass.

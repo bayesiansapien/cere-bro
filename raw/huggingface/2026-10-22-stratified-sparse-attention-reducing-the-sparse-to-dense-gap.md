@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-23T08:19:34.197173+00:00
+arxiv_id: 2610.28441
+url: https://huggingface.co/papers/2610.28441
+arxiv_url: https://arxiv.org/abs/2610.28441
+date: 2026-10-22
+---
+
+# Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity
+
+Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic retrieval, which captures high-scoring tokens but discards residual attention mass, and sampling, which improves coverage at the cost of higher variance. Hybrid methods combine top-k retrieval with uniform sampling, yet still exhibit a substantial gap from dense attention at aggressive sparsity. We introduce Stratified Sparse Attention (SSA), a unified framework combining deterministic retrieval with score-guided sampling. SSA deterministically attends to high-scoring tokens while sampling the residual using proxy attention scores and correcting for their inclusion probabilities, thereby recovering attention mass beyond the retrieval set. SSA encompasses top-k, top-p, and hybrid top-k+sampling as special cases. Across RULER, LongBench, LOFT, and AIME, and five models ranging from 3B to 27B parameters, SSA consistently improves over the baselines at matched sparsity. On RULER-HARD with Ministral-3-8B, SSA improves accuracy over the strongest practical baseline from 81.8\% to 84.2\% at 32K and from 63.8\% to 69.3\% at 128K under 50times attention sparsity, recovering 94\% and 85\% of dense-attention performance, respectively. With optimized CUDA kernels, SSA achieves up to 2.96times decode speedup over FlashInfer at 1M context, demonstrating that its accuracy gains translate into practical long-context inference acceleration. We open-source our code at https://github.com/skylight-org/SSA-Paper-Code.

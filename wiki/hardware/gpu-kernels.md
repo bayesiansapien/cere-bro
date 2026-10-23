@@ -374,3 +374,9 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 - **TorchTPU** (native PyTorch on TPU; TorchTitan Qwen3-8B at 51-52% MFU, Pallas megakernel for Kimi K3's full decode step at 700+ tok/s/user), **FlyDSL** on AMD MI350 (up to 1.68x GEMM, 3.01x end-to-end vLLM), AWS Laplace 3B linear-attention kernels rewritten in native PyTorch for Trainium2.
 - **[EdgeKernelBench / LEKA](2026-10-22-edgekernelbench-leka.md):** best single-shot model 64.5% correct but 25.5% faster; a layered-IR agent reaches 43.5% Fast@1.0.
 - **Megakernel thread (X):** "FlashAttention was a megakernel" (Dylan Patel); claims of trillion-parameter pretraining in a single megakernel. Isoquant's Inference Engineering Benchmark: Gemini 4 Argon 4.38x mean speedup across 9 GPU tasks.
+
+## 2026-10-23: decode-era collectives and backends
+
+- **RoCEnante** ([DGX Spark summary](2026-10-23-dgx-spark-eight-node-rocenante-switchyard.md)): one-shot all-to-all plus local reduction in a single kernel beats ring all-reduce for small-message tensor-parallel decode (4.43x vs 3.05x decode scaling at eight nodes); merged into FlashInfer, falls back to NCCL.
+- **[TorchNeuron](2026-10-23-torchneuron-trainium-backend.md):** adaptive eager mode overlaps subgraph compilation with execution; shared compilation cuts time to first step ~1/3; tested on 841 agent-selected representative models. Third PyTorch backend in a week after TorchTPU and FlyDSL.
+- **SSA kernels:** stratified sparse attention reports 2.96x decode over FlashInfer at 1M ([summary](../inference-efficiency/2026-10-23-stratified-sparse-attention.md)).

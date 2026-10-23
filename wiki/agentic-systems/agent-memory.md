@@ -412,3 +412,7 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## 2026-10-22: memory has a price
 
 [MemT-1.0, TokenWorth, Anti-Persistence, continual learners](2026-10-22-memory-native-models-and-memory-worth.md). Under tight budgets, sophisticated lifelong memory does no better than simple retrieval; TokenWorth learns query-dependent memory worth from execution feedback. Storing abstractions lets errors reproduce; rebuilding guidance on demand avoids it. MemT puts memory in the weights' state (66x less storage than a 128K KV cache).
+
+## 2026-10-23: designed memory is a weak-model patch
+
+[MemoryTax, evidence substitution, DeLoop](2026-10-23-context-management-costs-memorytax-evidence-deloop.md). Mem0 beats full context only on GPT-4o-mini; on GPT-6 Luna it loses 80% vs 92%, on Opus 5.5 it ties at 95%, and building its store costs more than a full-context rollout. The writer sets a ceiling a stronger reader cannot recover. Pi (raw history + model-driven search) reaches 99% on Opus 5.5 at under half full-context cost. One conversation, one run per cell. Retrieval of offloaded tool output costs GPT-5.1/5.2 8-11 points through evidence substitution while Claude 4.6 models lose nothing. Tension with Hy-Memory (10-20): a strong trained writer might lift the ceiling; untested.
