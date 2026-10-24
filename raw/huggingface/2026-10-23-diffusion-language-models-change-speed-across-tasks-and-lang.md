@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-24T12:49:20.886788+00:00
+arxiv_id: 2610.25835
+url: https://huggingface.co/papers/2610.25835
+arxiv_url: https://arxiv.org/abs/2610.25835
+date: 2026-10-23
+---
+
+# Diffusion Language Models Change Speed Across Tasks and Languages
+
+Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find that the number of forward passes per token depends heavily on the task. Text copied or lightly edited from the input is cheap, while open-ended writing is costly. In DiffusionGemma, generating a token for story writing requires more than three times as many forward passes as for grammar correction. Two output properties explain much of this gap: how much of it is new relative to the input, and how rare its words are within the task. The same holds within a single response when thinking is involved. The final answer is cheap when it repeats the model's reasoning trace and costly when it adds something new. In multilingual generation, we find that highly tokenized languages also require more passes per token, adding to the cost they already pay with more tokens. Finally, cost tracks correctness: on the same math problem, wrong answers take more passes per token than correct ones, and weighting candidate answers by decoding speed beats majority voting by up to 4.2 points at no extra cost. Taken together, our results show that diffusion's computational advantage depends on how much of the output is already determined, while its decoding effort offers a practical signal for making inference more efficient and reliable.

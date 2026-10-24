@@ -2141,3 +2141,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-23] social-stream | 2026-10-23 morning | social-stream
 ## [2026-10-23] media-zone | Media Zone 2026-10-23 (finalized from the live draft) | media-zone
 ## [2026-10-23] digest | cere-bro 2026-10-23 | daily-digest
+## [2026-10-24] ingest | Kimi K3.1 Pro, Meta Expert (HF + Kurate), SemiAnalysis Trainium3, RouteWeaver + small tool selectors + Shopify, softmax/CE fix, H200 rent + Micron roadmap, compression shorts (TTR, T²Quant, DLM cost, TensorRT tuner), containment week (Anthropic AISI, OpenAI offline world), naive RAG + harness cost, research shorts, industry roundup | huggingface + rss + gmail + labs + x-feed + kurate + youtube
+## [2026-10-24] social-stream | 2026-10-24 morning | social-stream
+## [2026-10-24] media-zone | Media Zone 2026-10-24 (finalized from the live draft) | media-zone
+## [2026-10-24] digest | cere-bro 2026-10-24 | daily-digest

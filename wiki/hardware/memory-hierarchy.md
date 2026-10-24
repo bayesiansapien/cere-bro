@@ -254,3 +254,9 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 - **Nvidia reportedly asked Samsung, SK hynix and Micron to build the base die of its next custom HBM on TSMC 3nm** (The Information via Seoul Economic Daily). A common logic layer makes the DRAM stack the swappable part and TSMC wins every order ([industry](../ai-industry/2026-10-19-industry-roundup-benefit-fund-neocloud-shakeout.md)).
 - **HBM pricing:** an investor forecast puts HBM near $35/GB by 2030, more than double today, with HBM4/4E at 48% of demand by 2027. Unconfirmed by primary sources.
 - **Capacity as a design lever:** Meta's MI350X work reshapes models to use 1.6x the HBM of B200 for up to 1.5x training throughput ([summary](2026-10-19-meta-amd-mi350x-codesign.md)).
+
+## 2026-10-24: the H200 premium and Micron's split
+
+- **[Memory sets the rent](2026-10-24-memory-premium-h200-micron-roadmap.md):** H200 (141 GB) rental up ~160% this year vs H100 (80 GB) ~40% on the same compute die (secondhand index). Clean evidence for the 10-03 thesis.
+- **Micron roadmap:** HBM4 2.8 TB/s per stack; vertical HBM on top of the GPU by 2028 (target); 4F² DRAM abandoned for 3D DRAM, diverging from SK hynix and Samsung; G11 NAND 400+ layers in H2 2027; "AI-class NAND" for weights and KV at 25M-100M IOPS.
+- **3D DRAM review** (Nature Reviews EE): cell-stacked 3D DRAM inherits 3D NAND's HAR etch and conformal deposition problems with much tighter leakage and retention limits.

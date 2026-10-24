@@ -380,3 +380,8 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 - **RoCEnante** ([DGX Spark summary](2026-10-23-dgx-spark-eight-node-rocenante-switchyard.md)): one-shot all-to-all plus local reduction in a single kernel beats ring all-reduce for small-message tensor-parallel decode (4.43x vs 3.05x decode scaling at eight nodes); merged into FlashInfer, falls back to NCCL.
 - **[TorchNeuron](2026-10-23-torchneuron-trainium-backend.md):** adaptive eager mode overlaps subgraph compilation with execution; shared compilation cuts time to first step ~1/3; tested on 841 agent-selected representative models. Third PyTorch backend in a week after TorchTPU and FlyDSL.
 - **SSA kernels:** stratified sparse attention reports 2.96x decode over FlashInfer at 1M ([summary](../inference-efficiency/2026-10-23-stratified-sparse-attention.md)).
+
+## 2026-10-24: profilers and compiler-route search
+
+- **[Trainium3 for research training (SemiAnalysis)](2026-10-24-semianalysis-trainium3-training.md):** Neuron Explorer shows per-engine timelines with dependency highlighting, which Nsight Compute lacks inside a kernel (closest GPU analog: QuACK's in-kernel tracer). First-step compile 184.6-255.7 s for Qwen3-32B, 27 min for gpt-oss; FlexAttention 89/96 pass; MoE dispatch not yet on TokenSwitch.
+- **TensorRT 11.1 Global Performance Tuner:** 200+ compiler knobs exposed as build routes, accuracy as a filter and speed as the ranking; 1.14-1.63x over the default route ([compression shorts](../inference-efficiency/2026-10-24-compression-shorts-ttr-t2quant-diffusion-cost.md)).

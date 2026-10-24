@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-24T12:49:20.885995+00:00
+arxiv_id: 2610.31576
+url: https://huggingface.co/papers/2610.31576
+arxiv_url: https://arxiv.org/abs/2610.31576
+date: 2026-10-23
+---
+
+# What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models
+
+Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how much the number of function evaluations (NFE) must decrease to offset policy overhead. We find that labeling predictions matching the final output is overly permissive at low NFE, and hidden states are weak alone but can complement confidence. About a 10% NFE reduction suffices to offset policy overhead for policies up to 7.5M parameters across tested settings. We therefore train a policy on trajectory-contraction targets, which accept only commitments staying on a reference trajectory, using confidence and hidden states. On LLaDA-8B-Instruct, the resulting 856K-parameter policy achieves the best accuracy--NFE frontier and highest throughput on GSM8K, is competitive at moderate targets on MATH-500 and HumanEval, and largely transfers to Dream-7B-Instruct.

@@ -43160,5 +43160,89 @@
     ],
     "first_seen": "2026-W43",
     "last_seen": "2026-W43"
+  },
+  "Yuyang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27265v1",
+        "title": "Solving the Ho--Nguyen Conjecture for Gaussian Mixtures: Applications to Mixtures of Experts",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Qihuang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2610.27265v1",
+        "title": "Solving the Ho--Nguyen Conjecture for Gaussian Mixtures: Applications to Mixtures of Experts",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Akash Gokul": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.27290v1",
+        "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Srijan Bansal": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.27290v1",
+        "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Yingbo Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.27290v1",
+        "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
+  },
+  "Semih Yavuz": {
+    "appearances": [
+      {
+        "week": "2026-W43",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2610.27290v1",
+        "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W43",
+    "last_seen": "2026-W43"
   }
 }

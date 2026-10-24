@@ -15,7 +15,7 @@ tags: [agent-memory, rag, harness, multi-agent, cost]
 
 # Simple beats elaborate (agent memory and harnesses)
 
-## Naive RAG is stronger than we thought (2610.30755) — cross-source confirmed (HF + DAIR)
+## Naive RAG is stronger than we thought (2610.30755), cross-source confirmed (HF + DAIR)
 
 Raw-RAG is dense retrieval plus reranking over the raw conversation history, feeding a reader LLM. Across LoCoMo, LongMemEval, MEME and MemoryAgentBench it ranks first in six of seven benchmark-model settings, beating the strongest agentic memory system (Mem0, MemOS, Memora and others) by 0.13 to 5.53 points. Ingestion on BEAM-1M takes 0.3 hours vs 3.2 to 27 hours for the memory systems. Why: raw history keeps more of the needed evidence, including the relations and dependency paths behind an answer. Rewriting history into memory entries drops those. Even with full access to the transformed memory stores, readers answer worse than with raw evidence.
 

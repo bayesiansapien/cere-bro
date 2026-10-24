@@ -259,3 +259,9 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 - **[PACE](2026-10-23-pace-four-bit-recurrent-states.md):** post-hoc 4-bit recurrent state for linear-attention hybrids. Periodic rounding cuts compounded error; large gated-delta state entries cluster in columns, so scales are shared per column. Mixed 4/8-bit matches 8-bit DAMP at ~2/3 memory; all-4-bit beats Q-Mamba at equal memory. Agrees with STEPQuant (10-09) that error lifetime is the quantity to control.
 - **[MiniMax M3.1 Flash](2026-10-23-serving-operator-gap-semianalysis-minimax.md):** W4A4 routed experts with the shared expert left at higher precision; scale/rescale placement in the fused GEMM is where correctness bugs hide. KV4 hid a 6.6-point sub-task drop.
 - **[Muse Glimmer 30B](2026-10-23-distillation-shorts-bsd-traceforge-rsd-glimmer.md):** distilled + ~4-bit agent model under 20 GB on one RTX 5090.
+
+## 2026-10-24: precision per denoising step, and a bf16 cliff
+
+- **T²Quant (2610.31198):** diffusion-LM quantization sensitivity depends on task and denoising step; label-free allocation of activation precision across steps gives up to +6.7 points at fixed budget ([compression shorts](2026-10-24-compression-shorts-ttr-t2quant-diffusion-cost.md)).
+- **Softmax Collapse** happens at a logit margin of ~5.5 in bf16 (16.6 fp32): relevant to low-precision training stability ([summary](2026-10-24-softmax-cross-entropy-fix.md)).
+- **Practitioner:** NVFP4 W4A4 + FP8 KV + MTP on Qwen3.8-27B reports 367.9 tok/s aggregate in ~20 GB (secondhand).

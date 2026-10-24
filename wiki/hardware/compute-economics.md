@@ -460,3 +460,11 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **[SemiAnalysis operator talk](../inference-efficiency/2026-10-23-serving-operator-gap-semianalysis-minimax.md):** ~50% output gap on identical B200s from stack choices alone; cost per accepted task is the metric; compute futures price GPU-hours, not delivered work.
 - **Capital:** DeepSeek raised $15.9B; OpenAI closing $30B at up to $1.25T; Nebius $3.5B Citi facility at SOFR + 2.75%; SB Energy may push its IPO to 2027; SK Hynix paused Solidigm's IPO; Blackstone argues power scarcity raises existing-capacity value ([roundup](../ai-industry/2026-10-23-industry-roundup-deepseek-raise-agent-security.md)).
 - **Power:** a Goldman Sachs figure circulating on X puts token demand up 24x 2026-2030 against roughly 2x available power; Google/Voltus 1 GW virtual power plant.
+
+## 2026-10-24: sold out to 2028, memory carries the premium
+
+- **AWS** sold out for 2026, mostly 2027, partly 2028 (Jassy), while calling inference "an order of magnitude too expensive"; **Nebius** could sell all 2027 capacity at current prices.
+- **H200 vs H100 rent** (+160% vs +40%) prices memory, not FLOPs ([summary](2026-10-24-memory-premium-h200-micron-roadmap.md)).
+- **Kimi K3.1 Pro** at $2/$10 per M tokens on 104B active of 2.8T, half of Opus 5.5 ([summary](../llms-foundation-models/2026-10-24-kimi-k3-1-pro.md)).
+- **Trainium3** beats GB300 matmul MFU in the 1-100 GFLOP band ([summary](2026-10-24-semianalysis-trainium3-training.md)); the decode regime is where custom silicon competes.
+- **Capital:** OpenAI lowered its valuation target for a $30B round; Instacart exploring a sale; VCs use LP side pools and warehouse loans for mega-rounds ([roundup](../ai-industry/2026-10-24-industry-roundup.md)).

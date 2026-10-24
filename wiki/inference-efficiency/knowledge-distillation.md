@@ -749,3 +749,7 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-23: the self-teacher pattern spreads
 
 [Distillation shorts](2026-10-23-distillation-shorts-bsd-traceforge-rsd-glimmer.md). **BSD** uses an external teacher's trace only as privileged context for a copy of the student, which scores rollouts in the student's own vocabulary: one recipe for shared-tokenizer, cross-tokenizer and closed-API teachers. **RSD** (Meta) does the same with hindsight from the finished trajectory instead of a teacher (up to +59.7% relative on ALFWorld/ScienceWorld/SearchQA). **TraceForge** regenerates hidden reasoning in the student family's style from context plus answer (+3.7 HumanEval+, +7.1 MBPP+ over Fable 5's visible thinking). **Muse Glimmer 30B** distills Muse Spark into a one-GPU agent model. Pattern: at least four papers in ten days (PR-OPD 10-14, KL-contrast 10-22, BSD, RSD) use a context-conditioned student copy as teacher. Cross-tokenizer transfer keeps converging on text (ActionOPD 10-16, BSD).
+
+## 2026-10-24: is part of the distillation gap a rounding error?
+
+[A Fix for Softmax and Cross-Entropy (2610.31642)](2026-10-24-softmax-cross-entropy-fix.md): standard soft-target cross-entropy has a gradient noise floor as the student approaches the teacher ("Softmax Cancellation"), so students drift away; a direct-residual implementation fixes it without higher precision. Toy scale only. Open test: fused large-vocabulary CE in on-policy distillation of a 7B student.

@@ -800,3 +800,11 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **[Harness Scaling (2610.29458)](2026-10-23-harness-scaling-and-wildawm.md)** (HF + DAIR pick via X): RL across a factorized, factorial-sampled harness space transfers to unseen black-box harnesses better than training through one complex harness. Training-time counterpart to the 10-22 HDA audit (~54% of harness-evolution gains are overfitting).
 - **[Context-management costs](2026-10-23-context-management-costs-memorytax-evidence-deloop.md):** offloading tool output costs GPT models 8-11 points through evidence substitution (not Claude); compression makes agents loop (57% of Qwen3-8B tasks), fixed by DPO on self-generated loop pairs (DeLoop). Harness choices are model-dependent.
 - **Practice:** Ramp's Laminar harness (model-agnostic, sandbox-as-a-tool, durable execution) amplified by @omarsar0; Google's agents-cli shows durable pause/resume without replaying retrieval; Ken Huang's Harness² skill passed all 25 tests and still had 11 flaws, including a spend-cap bypass.
+
+## 2026-10-24: harness choice moves cost, not pass rate
+
+- **Harness cost study** (via The Decoder): Claude Code, OpenCode and mini-SWE-agent differ less in pass rate than reruns do; cost per task varies up to 3x, mainly from the resent system prompt ([summary](2026-10-24-naive-rag-harness-cost-fold-subagents.md)).
+- **Anthropic: fold subagents into the main loop** when handoffs lose detail; ~2x faster for one customer, but validate each merge with end-to-end evals (one merge broke a passing task).
+- **Wavestone anatomy** of 11 coding agents: loop, LLM layer, tools, memory, safety, orchestration, extensions (SKILL.md 9/11, MCP 8/11).
+- **Practice via the feed:** Harness-RSI survey's attribution rule; Beacon's judge-gated cross-harness memory; Anthropic's risk-tiered PR merging (merges 2x, reverts -40%).
+- **State of knowledge:** with HDA (10-22, ~54% of harness-evolution gains are overfitting) and Harness Scaling (10-23), the evidence now favors thin harnesses whose structure removes tokens from the expensive model (Shopify) over structure that adds tokens.

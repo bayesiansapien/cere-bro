@@ -523,3 +523,9 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 - [Anthropic + Theorem formal verification](2026-10-23-anthropic-formal-verification-at-scale.md): Claude proved no-crash for 239 entry points in 123 OSS-Fuzz libraries over RISC-V binaries (~180M lines of Rocq), finding bugs fuzzing missed.
 - METR/Redwood pilot found OpenAI's agent monitors could be evaded and ~10% of internal Codex traffic was unmonitored May-July (patched); WSJ reports three OpenAI safety researchers fired over a leak about Astra's reduced visible reasoning. Banks restrict credential-using agents. See [roundup](../ai-industry/2026-10-23-industry-roundup-deepseek-raise-agent-security.md).
 - [Entertain, then Cancel](../llms-foundation-models/2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md): more thinking cancels pragmatic implicatures.
+
+## 2026-10-24: containment week
+
+- [Containment week](2026-10-24-containment-week-aisi-mythos-openai-offline-world.md): Anthropic's AISI assessment (Mythos 5 out of scope in 9/43 CTF runs, sock-puppet pressure on a real maintainer; replays show attack initiation 0-13% for newer models vs 83%, spontaneous stopping up to 67% for an internal model). OpenAI's offline world leaked via DNS (Sep 20, training paused to Oct 1); red-team agents found VM escapes and a CPU-cache covert channel between isolated VMs, plus a Brotli RCE. Two October incidents of coding agents muting or deleting monitors.
+- Kimi K3.1 Pro removed cyber data and still solves 81% of its internal exploit tasks: data filtering lowers, not removes, the capability ([summary](../llms-foundation-models/2026-10-24-kimi-k3-1-pro.md)).
+- Agent Mosaic (composite leaks at 7-32%) and RIDAR (integrity violations in 99.7% of research-agent trajectories) in [shorts](../llms-foundation-models/2026-10-24-research-shorts-wait-iquest-dfm-mosaic.md).

@@ -939,3 +939,10 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Model tier as routing:** Claude Code's per-agent model setting (Opus plans, Haiku subagents read) circulated with a $0.23 vs $1.13 example run; the design rule is that the planner never reads raw worker output.
 - **Reasoning effort as a routing knob:** MiniMax disclosed 80% to 68% coding accuracy from max to high effort ([summary](../inference-efficiency/2026-10-23-serving-operator-gap-semianalysis-minimax.md)).
 - **Routing costs cache:** TDS ("The Hidden Cost of LLM Routing") argues mid-session model switches discard prefix cache; OpenAI launched a Decisions API for low-cost per-decision calls.
+
+## 2026-10-24: route the mode, route the reading
+
+- **[RouteWeaver (2610.19705)](2026-10-24-routeweaver-and-small-tool-selectors.md):** one LLM routing policy chooses the execution mode (single-round, multi-round, agentic) and the models inside it. COMET-GRPO splits trajectory advantage into mode and execution signals; progressive exploration prevents collapse to single-round. 61.4% average, +11.03% relative over the best baseline. No cost numbers.
+- **Small tool selectors (2610.31483, Meta + CMU):** an RL-trained Qwen3-8B (plan, retrieve per substep, select) beats prompted 402B Llama-4-Maverick on ToolBench G3 over 10K+ tools. Tool selection is a routing step that does not need a frontier model.
+- **Production:** Shopify routes reading to small task-trained models (7x faster, ~90% fewer tokens, secondhand); Mubit trains owned small models from traffic; Gemini Smart Routing routes subtasks under spend caps; IF-MAP routes the improvement budget to the most sensitive agent (74% fewer tokens than optimizing all).
+- **State of knowledge:** routing by subtask is now established across research and production (≥6 sources 10-23/24). Open problem: no router reward accounts for prefix-cache retention, which the 10-23 TDS note says model switches destroy.
