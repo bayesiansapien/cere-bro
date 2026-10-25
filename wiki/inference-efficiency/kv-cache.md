@@ -805,3 +805,9 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[PACE (2610.29545)](2026-10-23-pace-four-bit-recurrent-states.md):** for hybrids the recurrent state is the cache. Round once per few tokens, column-shared scales, 8-bit for long-memory heads; matches 8-bit DAMP at ~2/3 memory. Third low-bit-state paper after STEPQuant (10-09).
 - **Production disclosure ([MiniMax M3.1 Flash talk](2026-10-23-serving-operator-gap-semianalysis-minimax.md)):** Q8/KV4 kept the average flat but cut one sub-score 6.6 points. First public evidence that 4-bit KV regressions hide inside averages; argues for per-slice evals whenever KV is quantized.
 - **Routing x cache:** TDS's "hidden cost of LLM routing" argues switching models mid-session throws away the prefix cache. Combined with Cache Engineering (10-22), the cache is now a cost term in routing decisions.
+
+## 2026-10-25: search the layer budget, not just the token set
+
+- **[MOSAIC (2610.25431)](2026-10-25-mosaic-per-layer-kv-budgets.md)** (Kurate cs.LG #1, second week flagged; not on HF): a multi-objective search learns per-layer budgets for any eviction method. Beats uniform allocation in 146/154 settings (up to +48 RULER, +11.9 LongBench LCC) and matches uniform quality with up to 4x less cache on Llama-3-8B and Mistral-7B. One search transfers across budgets; middle layers get the slots.
+- **[LIRQuant](2026-10-25-lirquant-selective-rotation.md):** W4A4KV4 with learnable rotations only on sensitive channels; 3.5x memory saving over FP16.
+- **State of knowledge:** selection now runs on three axes (which tokens, which layers, which bits). Nobody has searched them jointly; MOSAIC's profile under 4-bit KV is the obvious next test.

@@ -2145,3 +2145,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-24] social-stream | 2026-10-24 morning | social-stream
 ## [2026-10-24] media-zone | Media Zone 2026-10-24 (finalized from the live draft) | media-zone
 ## [2026-10-24] digest | cere-bro 2026-10-24 | daily-digest
+## [2026-10-25] ingest | MOSAIC per-layer KV budgets, LIRQuant, AsyncOPSD, Adaptive Skill Granularity + context-price cliff, self-improving harness on ARC-AGI-3, token arbitrage + neocloud squeeze, monitoring shorts (CoT state tracking, portable probes, behavior maps), industry roundup | kurate + rss + gmail + x-feed + youtube
+## [2026-10-25] social-stream | 2026-10-25 morning | social-stream
+## [2026-10-25] media-zone | Media Zone 2026-10-25 (finalized from the live draft) | media-zone
+## [2026-10-25] digest | cere-bro 2026-10-25 | daily-digest

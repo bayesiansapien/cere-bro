@@ -753,3 +753,7 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-24: is part of the distillation gap a rounding error?
 
 [A Fix for Softmax and Cross-Entropy (2610.31642)](2026-10-24-softmax-cross-entropy-fix.md): standard soft-target cross-entropy has a gradient noise floor as the student approaches the teacher ("Softmax Cancellation"), so students drift away; a direct-residual implementation fixes it without higher precision. Toy scale only. Open test: fused large-vocabulary CE in on-policy distillation of a 7B student.
+
+## 2026-10-25: the self-teacher gets an async trainer
+
+[AsyncOPSD (2610.25880)](2026-10-25-async-opsd.md): decouples rollouts from learner updates in on-policy self-distillation; shared weights avoid multi-model sync, staleness-aware policy control plus token-entropy weighting handle old rollouts. 1.96-2.25x throughput over synchronous OPSD with slightly higher math accuracy. Systems complement to BSD/RSD (10-23). Kurate also re-lists Projected Distillation (cs.LG #2) and correctness-filtered OPSD (cs.AI #4), both first noted 10-22.

@@ -808,3 +808,9 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Wavestone anatomy** of 11 coding agents: loop, LLM layer, tools, memory, safety, orchestration, extensions (SKILL.md 9/11, MCP 8/11).
 - **Practice via the feed:** Harness-RSI survey's attribution rule; Beacon's judge-gated cross-harness memory; Anthropic's risk-tiered PR merging (merges 2x, reverts -40%).
 - **State of knowledge:** with HDA (10-22, ~54% of harness-evolution gains are overfitting) and Harness Scaling (10-23), the evidence now favors thin harnesses whose structure removes tokens from the expensive model (Shopify) over structure that adds tokens.
+
+## 2026-10-25: models cannot yet improve their own harness
+
+- **[Can LLMs improve their own harness? (2610.30499)](2026-10-25-llms-improve-own-harness-arc-agi-3.md)** (DAIR pick via X): 27 lineages on ARC-AGI-3; two full rewrites add +2.80 held-out RHAE (95% CI -1.44 to 7.35). Dev gains overstate held-out gains; self-made cost cuts lower scores. Second clean held-out result after HDA (10-22, ~54% of harness-evolution gains are overfitting). Open-loop self-revision fails where search with held-out selection (Google Cloud's specialized harnesses) or RL across harnesses (Harness Scaling, 10-23) works.
+- **[Adaptive Skill Granularity](../ai-routing/2026-10-25-adaptive-skill-granularity-and-context-cliffs.md):** skills as recoverable execution policies, the unit that replaces folded subagents.
+- **Practice via the feed:** a Claude Duet harness checklist (brief, context, tools, observations, verification, repair, delivery; mark missing evidence UNVERIFIED); AI Engineer NYC "harness is dead, long live the harness" debate.

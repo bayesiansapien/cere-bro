@@ -946,3 +946,10 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Small tool selectors (2610.31483, Meta + CMU):** an RL-trained Qwen3-8B (plan, retrieve per substep, select) beats prompted 402B Llama-4-Maverick on ToolBench G3 over 10K+ tools. Tool selection is a routing step that does not need a frontier model.
 - **Production:** Shopify routes reading to small task-trained models (7x faster, ~90% fewer tokens, secondhand); Mubit trains owned small models from traffic; Gemini Smart Routing routes subtasks under spend caps; IF-MAP routes the improvement budget to the most sensitive agent (74% fewer tokens than optimizing all).
 - **State of knowledge:** routing by subtask is now established across research and production (≥6 sources 10-23/24). Open problem: no router reward accounts for prefix-cache retention, which the 10-23 TDS note says model switches destroy.
+
+## 2026-10-25: route the step size and the context size
+
+- **[Adaptive Skill Granularity (2610.31461)](2026-10-25-adaptive-skill-granularity-and-context-cliffs.md)** (Kurate cs.AI #20 + DAIR pick): a controller picks primitive tools, a macro skill, or macro-then-micro fallback per task from task structure, execution state and prior macro failures; a finite-state executor makes recovery explicit. Learned router 100% on a 12-task study where a heuristic fails. One level below RouteWeaver (10-24).
+- **Context-price cliff (practitioner, unverified):** fork cheap-model workers before a context threshold where per-token price reportedly jumps 5x; claimed $6.15 single agent vs $0.85 for nine split workers. Adds a per-worker size constraint to the 10-23 "Opus plans, Haiku reads" pattern.
+- **Pre-screening:** [Agent Behavior Maps](../responsible-ai/2026-10-25-cot-state-probes-behavior-maps.md) place 100 LLM-harness pairs by action log-likelihoods without rollouts; a candidate cheap feature for routers.
+- **Still open:** fork-or-route decisions that price the prefix cache they discard.

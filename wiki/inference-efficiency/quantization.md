@@ -265,3 +265,7 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 - **T²Quant (2610.31198):** diffusion-LM quantization sensitivity depends on task and denoising step; label-free allocation of activation precision across steps gives up to +6.7 points at fixed budget ([compression shorts](2026-10-24-compression-shorts-ttr-t2quant-diffusion-cost.md)).
 - **Softmax Collapse** happens at a logit margin of ~5.5 in bf16 (16.6 fp32): relevant to low-precision training stability ([summary](2026-10-24-softmax-cross-entropy-fix.md)).
 - **Practitioner:** NVFP4 W4A4 + FP8 KV + MTP on Qwen3.8-27B reports 367.9 tok/s aggregate in ~20 GB (secondhand).
+
+## 2026-10-25: rotate only the fragile channels
+
+- **[LIRQuant (2610.25675)](2026-10-25-lirquant-selective-rotation.md):** noise-weighted channel sensitivity picks a small block for learnable rotation; the rest get a fixed rotation. SOTA W4A4KV4 on LLaMA-2/3, Mistral, Qwen3, Mixtral; 25-minute calibration at 20.3 GB for LLaMA-3-8B; fused kernels 2.3x prefill, 3.5x memory vs FP16. Third "protect the fragile slice" result this month (after PACE and the MiniMax W4A4-with-shared-expert disclosure, both 10-23). Averages only; the 10-23 KV4 sub-score warning still applies.
