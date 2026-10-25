@@ -1,0 +1,9 @@
+{
+  "_comment": "DAIR.AI Academy public papers. max_pages bounds the self-backfill (10 papers per page, newest first; ~1 page per weekly issue).",
+  "max_pages": 4,
+  "max_chars": 4000,
+  "collections": {
+    "Harness Engineering": "/papers/collections/harness-engineering",
+    "Self-Improving Agents": "/papers/collections/self-improving-agents"
+  }
+}
