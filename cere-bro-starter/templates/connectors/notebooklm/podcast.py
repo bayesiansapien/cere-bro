@@ -387,65 +387,102 @@ if not focus_prompt:
     print(f"ERROR: no focus prompt found in config (looked for '{focus_key}' and 'focus_prompt').")
     sys.exit(1)
 
-print(f"\nKicking off audio generation ({EPISODE_MODE} mode)...")
-out = nlm("audio", "create", NOTEBOOK_ID,
-          "--format", cfg["audio_format"],
-          "--length", cfg["audio_length"],
-          "--focus", focus_prompt,
-          "--confirm")
-ARTIFACT_ID = extract_id(out, "artifact_id", "id", regex=r"Artifact ID:\s*([a-f0-9-]+)")
-if not ARTIFACT_ID:
-    print(f"ERROR: couldn't parse artifact ID from:\n{out}")
-    sys.exit(1)
-print(f"  Artifact ID: {ARTIFACT_ID}")
-
-# ── Poll until ready ───────────────────────────────────────────────────────────
-
-print("\nPolling for completion...")
-start = time.time()
-poll_interval = cfg["poll_interval_seconds"]
-timeout = cfg["poll_timeout_minutes"] * 60
-while True:
-    out = nlm("studio", "status", NOTEBOOK_ID)
+def _audio_minutes(path):
     try:
-        artifacts = json.loads(out)
-    except json.JSONDecodeError:
-        artifacts = []
-    status = next((a["status"] for a in artifacts if a.get("id") == ARTIFACT_ID), "unknown")
-    elapsed = int(time.time() - start)
-    print(f"  [+{elapsed}s] status={status}")
-    if status in ("completed", "complete", "ready", "done"):
-        break
-    if status in ("failed", "error"):
-        print("Generation failed.")
-        sys.exit(1)
-    if elapsed > timeout:
-        print(f"Timeout after {cfg['poll_timeout_minutes']} min.")
-        sys.exit(1)
-    time.sleep(poll_interval)
+        p = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                            "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
+                           capture_output=True, text=True, check=True)
+        return float(p.stdout.strip()) / 60
+    except Exception:
+        return None
 
-# ── Download ───────────────────────────────────────────────────────────────────
 
-print(f"\nDownloading audio to {AUDIO_PATH}...")
-# NotebookLM often reports the audio "complete" before its download URL has
-# finished propagating (returns 404 briefly). nlm has its own short internal
-# retry, but for the big weekly episodes it can exhaust before the file settles.
-# Wrap the download in an outer retry that backs off well past nlm's ceiling so
-# a slow propagation never fails the run and forces a manual re-generate.
-_dl_delays = [0, 30, 60, 90, 120, 180]  # seconds before each attempt
-for _i, _delay in enumerate(_dl_delays):
-    if _delay:
-        print(f"  download not ready yet — waiting {_delay}s before retry {_i}/{len(_dl_delays)-1}...")
-        time.sleep(_delay)
-    _r = run(["nlm", "download", "audio", NOTEBOOK_ID, "--id", ARTIFACT_ID,
-              "-o", str(AUDIO_PATH)], check=False)
-    if AUDIO_PATH.exists() and AUDIO_PATH.stat().st_size > 1024 * 1024:
+def generate_once(attempt_path):
+    """Create one audio overview, poll it, download it to attempt_path. Returns minutes or None."""
+    print(f"\nKicking off audio generation ({EPISODE_MODE} mode)...")
+    out = nlm("audio", "create", NOTEBOOK_ID,
+              "--format", cfg["audio_format"],
+              "--length", cfg["audio_length"],
+              "--focus", focus_prompt,
+              "--confirm")
+    artifact_id = extract_id(out, "artifact_id", "id", regex=r"Artifact ID:\s*([a-f0-9-]+)")
+    if not artifact_id:
+        print(f"ERROR: couldn't parse artifact ID from:\n{out}")
+        return None
+    print(f"  Artifact ID: {artifact_id}")
+
+    print("\nPolling for completion...")
+    start = time.time()
+    poll_interval = cfg["poll_interval_seconds"]
+    timeout = cfg["poll_timeout_minutes"] * 60
+    while True:
+        out = nlm("studio", "status", NOTEBOOK_ID)
+        try:
+            artifacts = json.loads(out)
+        except json.JSONDecodeError:
+            artifacts = []
+        status = next((a["status"] for a in artifacts if a.get("id") == artifact_id), "unknown")
+        elapsed = int(time.time() - start)
+        print(f"  [+{elapsed}s] status={status}")
+        if status in ("completed", "complete", "ready", "done"):
+            break
+        if status in ("failed", "error"):
+            print("Generation failed.")
+            return None
+        if elapsed > timeout:
+            print(f"Timeout after {cfg['poll_timeout_minutes']} min.")
+            return None
+        time.sleep(poll_interval)
+
+    print(f"\nDownloading audio to {attempt_path}...")
+    # NotebookLM often reports "complete" before its download URL propagates (brief 404s);
+    # an outer back-off retry keeps a slow propagation from failing the run.
+    for i, delay in enumerate([0, 30, 60, 90, 120, 180]):
+        if delay:
+            print(f"  download not ready yet — waiting {delay}s before retry {i}...")
+            time.sleep(delay)
+        run(["nlm", "download", "audio", NOTEBOOK_ID, "--id", artifact_id,
+             "-o", str(attempt_path)], check=False)
+        if attempt_path.exists() and attempt_path.stat().st_size > 1024 * 1024:
+            break
+    else:
+        print("ERROR: audio download never propagated.")
+        return None
+    mins = _audio_minutes(attempt_path)
+    print(f"  ✓ {attempt_path.stat().st_size // (1024 * 1024)} MB, "
+          f"{'?' if mins is None else round(mins)} min")
+    return mins
+
+
+# NotebookLM picks the final length itself, even at --length long, and it varies a lot
+# (16-71 min observed). Regenerate short episodes up to max_length_retries times and keep
+# the longest take. min_episode_minutes / max_length_retries live in config.json.
+min_minutes = cfg.get("min_episode_minutes", {}).get(EPISODE_MODE, 0) if isinstance(cfg.get("min_episode_minutes"), dict) else cfg.get("min_episode_minutes", 0)
+retries = cfg.get("max_length_retries", 2)
+best_path, best_min = None, -1.0
+for attempt in range(retries + 1):
+    attempt_path = AUDIO_PATH.with_name(f"{AUDIO_PATH.stem}.take{attempt}.m4a")
+    mins = generate_once(attempt_path)
+    if mins is None and not attempt_path.exists():
+        continue
+    m = mins or 0.0
+    if m > best_min:
+        if best_path and best_path.exists():
+            best_path.unlink()
+        best_path, best_min = attempt_path, m
+    elif attempt_path.exists():
+        attempt_path.unlink()
+    if best_min >= min_minutes:
         break
-else:
-    print(f"ERROR: audio download never propagated after {len(_dl_delays)} attempts. "
-          f"The audio exists on NotebookLM; re-run `podcast.py {date_str} --force` shortly.")
+    if attempt < retries:
+        print(f"  Episode is {round(best_min)} min, under the {min_minutes}-min floor — regenerating "
+              f"({attempt + 1}/{retries})...")
+if best_path is None:
+    print(f"ERROR: no audio produced. Re-run `podcast.py {date_str} --force`.")
     sys.exit(1)
-print(f"  ✓ {AUDIO_PATH.stat().st_size // (1024 * 1024)} MB")
+best_path.replace(AUDIO_PATH)
+if best_min < min_minutes:
+    print(f"  WARNING: kept the longest take ({round(best_min)} min); still under the {min_minutes}-min floor.")
 
 # ── Write Substack note ───────────────────────────────────────────────────────
 
