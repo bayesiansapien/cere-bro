@@ -953,3 +953,8 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 - **Context-price cliff (practitioner, unverified):** fork cheap-model workers before a context threshold where per-token price reportedly jumps 5x; claimed $6.15 single agent vs $0.85 for nine split workers. Adds a per-worker size constraint to the 10-23 "Opus plans, Haiku reads" pattern.
 - **Pre-screening:** [Agent Behavior Maps](../responsible-ai/2026-10-25-cot-state-probes-behavior-maps.md) place 100 LLM-harness pairs by action log-likelihoods without rollouts; a candidate cheap feature for routers.
 - **Still open:** fork-or-route decisions that price the prefix cache they discard.
+
+
+## 2026-10-26: routing retry resources, not just models
+
+[Stuck-agent resources (10-26)](../inference-efficiency/2026-10-26-stuck-agent-resources-and-budget-rewards.md): frontier coding agents choose test feedback on 95-100% of retries and do worse than random; specs are what help. SWE-Verifier (4B) decides which steps get extra sampling (<4% of steps). Claude Code's advisor tool (first covered 10-04) recirculated as a harness-level cascade. The allocation decision is a natural small-router job.

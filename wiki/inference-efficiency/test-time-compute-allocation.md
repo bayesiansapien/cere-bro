@@ -231,3 +231,8 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 ## 2026-10-22: the price of compute is live
 
 [ATEST and implicit budgeting](2026-10-22-atest-and-implicit-budgeting.md). Energy for the same 4-sample query rises up to 4.1x with GPU load; ATEST-Online stops sampling on answer stability plus live energy cost (GSM8K high load: 60.0% vs 44.0% for offline calibration; 42x less GPU time including profiling). Implicit budgeting: multi-task prompts get fewer reasoning tokens per task; grouping by fragility saves 43% tokens. Prior allocation work (CLEAR, LEV) assumed a constant compute price.
+
+
+## 2026-10-26: the resource type matters more than the amount
+
+[Stuck-agent resources and budget rewards (10-26)](2026-10-26-stuck-agent-resources-and-budget-rewards.md). Banzhaf Resource Attribution toggles compute, information and feedback on fixed coding failures: specs help, test feedback a little, retrieved code not at all; compute's value falls with model capability. Frontier models pick feedback 95-100% of the time and lose to random. Oxford/Apple teach Qwen3.5 agents to spend stated budgets via overspend penalties, generalizing to unseen budgets. SWE-Verifier (same DAIR week) verifies <4% of steps for ~+2 points at 1.09-1.13x cost. **Shift:** CLEAR (06-05) and ATEST (10-22) priced tokens; allocation is now a routing problem over resource channels.

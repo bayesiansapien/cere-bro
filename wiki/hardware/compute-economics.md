@@ -468,3 +468,11 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Kimi K3.1 Pro** at $2/$10 per M tokens on 104B active of 2.8T, half of Opus 5.5 ([summary](../llms-foundation-models/2026-10-24-kimi-k3-1-pro.md)).
 - **Trainium3** beats GB300 matmul MFU in the 1-100 GFLOP band ([summary](2026-10-24-semianalysis-trainium3-training.md)); the decode regime is where custom silicon competes.
 - **Capital:** OpenAI lowered its valuation target for a $30B round; Instacart exploring a sale; VCs use LP side pools and warehouse loans for mega-rounds ([roundup](../ai-industry/2026-10-24-industry-roundup.md)).
+
+
+## 2026-10-26: rent rises on old cards; credit closes on neoclouds
+
+- **DeepInfra from Nov 9:** A100 $0.89 to $1.49 (+67%), H100 $2.90, H200 $3.49, B200 $4.89, B300 $5.89; serverless token prices flat ([summary](2026-10-26-gpu-unlock-and-rising-gpu-rents.md)).
+- **Penalties and supply:** data center late fees $5M+/day; Nscale ~25K active of 461K contracted GPUs; transformers 160+ weeks; DRAM/SSD/ABF 2-5x normal lead times.
+- **Credit:** Nvidia's AI-cloud exposure $171.5B; CoreWeave CDS ~1,082 bps; Musk says debt markets are "almost entirely shut off" for AI-only neoclouds.
+- **Price war:** OpenAI discounts up to 90% to win Anthropic accounts ([roundup](../ai-industry/2026-10-26-industry-roundup.md)). Tokens are getting cheaper while GPU-hours get dearer, squeezing resellers.

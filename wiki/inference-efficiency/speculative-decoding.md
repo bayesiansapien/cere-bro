@@ -212,3 +212,8 @@ Red Hat's DFlash2 drafter for Gemma 4 31B (5-layer Qwen3 backbone, trained with 
 ## 2026-10-25: flow-map LMs as drafters (social signal)
 
 Sander Dieleman (DeepMind) highlighted flow-map language models as speculative drafters: they capture token dependencies in 1-2 passes, so one pass drafts a coherent block. He also flagged another 8B blockwise continuous diffusion LM adapted from an AR checkpoint with flow-map distillation and self-speculative decoding (same recipe as Lafa, 10-22). Inception's Mercury 2.5 diffusion LLM is now on OpenRouter. No paper links captured; track for numbers under load.
+
+
+## 2026-10-26: protect acceptance length as context grows
+
+[RIFT (10-26)](2026-10-26-rift-draft-model-kv-compression.md): compressed drafter KV caches go stale over long outputs; refresh plus compressibility training keeps >98% acceptance length at an 8K budget on 32K inputs. Opposite design choice to DLite (10-20), which drops the drafter's own history. No head-to-head yet.

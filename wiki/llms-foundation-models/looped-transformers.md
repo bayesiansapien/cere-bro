@@ -155,3 +155,8 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 ## 2026-10-23: loops in diffusion LMs and recommenders
 
 [Looped UDLMs](2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md): looping early layers per denoising step reaches baseline NLL with 2.8-3.3x fewer training FLOPs; sampling small loop counts more often cuts inference loops 12%. LoopRec adds per-item exit gates in sequential recommendation. Both match LEV (10-20) in making depth a learned, per-input quantity.
+
+
+## 2026-10-26: reuse biases models toward context
+
+[Looped and depth-grown ICL (10-26)](2026-10-26-looped-depth-grown-icl.md): at 3B, looped and grown models use later context more than a same-depth dense model, acquire ICL earlier, and keep it when memorization is possible; copying layers copies early induction heads. First capability (not compute) result on this page. Not compared at matched FLOPs.

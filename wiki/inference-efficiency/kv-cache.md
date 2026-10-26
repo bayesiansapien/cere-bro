@@ -811,3 +811,8 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 - **[MOSAIC (2610.25431)](2026-10-25-mosaic-per-layer-kv-budgets.md)** (Kurate cs.LG #1, second week flagged; not on HF): a multi-objective search learns per-layer budgets for any eviction method. Beats uniform allocation in 146/154 settings (up to +48 RULER, +11.9 LongBench LCC) and matches uniform quality with up to 4x less cache on Llama-3-8B and Mistral-7B. One search transfers across budgets; middle layers get the slots.
 - **[LIRQuant](2026-10-25-lirquant-selective-rotation.md):** W4A4KV4 with learnable rotations only on sensitive channels; 3.5x memory saving over FP16.
 - **State of knowledge:** selection now runs on three axes (which tokens, which layers, which bits). Nobody has searched them jointly; MOSAIC's profile under 4-bit KV is the obvious next test.
+
+
+## 2026-10-26: prefill-time eviction goes stale over long outputs
+
+[RIFT (10-26)](2026-10-26-rift-draft-model-kv-compression.md), NVIDIA, DAIR pick. Selection-based KV compression for draft models loses relevance as outputs grow ("decode staleness"); refreshing the selection during decode (prompt + recent tokens, adaptive schedule) plus sparse-mask drafter training keeps Qwen3.5-4B at >98% of full-cache acceptance for Qwen3.5-122B (32K in, 4K out, 8K budget). The time axis to MOSAIC's (10-25) per-layer axis: static, uniform eviction leaves quality on the table in both directions. Open: does decode staleness hit the target model's eviction too?

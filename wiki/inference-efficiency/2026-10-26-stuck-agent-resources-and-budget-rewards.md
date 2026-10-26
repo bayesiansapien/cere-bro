@@ -50,7 +50,7 @@ flowchart LR
 
 - **Extends the [test-time compute allocation](test-time-compute-allocation.md) thread.** CLEAR (06-05) rationed compute across a batch with one shadow price, and ATEST (10-22) priced it live by GPU energy. Both assumed the resource is more tokens. BRA shows the resource type matters more than the amount, which makes this a routing problem over resource channels.
 - **Confirms Vals AI (10-12)**: teams add little once a solo agent runs at max effort, so more compute is a substitute, not a complement. BRA gives the same shape at the single-retry level.
-- **Pairs with SWE-Verifier (10-24, a 4B model chooses which coding steps get extra sampling, under 4% of steps).** Both say a small learned allocator beats the frontier model's own instinct about where to spend.
+- **Pairs with [SWE-Verifier (2610.30284)](https://arxiv.org/abs/2610.30284)**, a same-week DAIR pick where a 4B model chooses which coding-agent steps get extra candidate sampling (under 4% of steps, about +2 points resolution at 1.09-1.13x cost, matching all-step verification). Both say a small learned allocator beats the frontier model's own instinct about where to spend.
 - **Connects to the agent-memory reading tax (10-24 routing digest)** and Naive RAG (10-23): retrieved code helping little is the same lesson as "complex memory is often not needed."
 
 ## Research angle

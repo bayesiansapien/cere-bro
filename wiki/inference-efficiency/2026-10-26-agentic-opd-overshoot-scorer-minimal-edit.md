@@ -58,7 +58,7 @@ flowchart LR
 
 - **Confirms the selective-supervision pattern.** The [knowledge-distillation concept page](knowledge-distillation.md) has tracked "selective supervision beats uniform supervision" since TIP (04-16, most teacher tokens carry no signal) through Semi-OPD and BranchOPD (10-13/10-14). Minimal-edit OPD is the purest version yet: the loss touches only tokens the teacher would change.
 - **Extends Gains and Collapse (10-09)**, which reframed OPD as RL with the teacher's log-probs as an implicit reward that can misalign. R2S names the specific misalignment in agents (no penalty for stalling) and repairs the reward itself, rather than masking bad responses.
-- **Explains a 09-30 scaling result.** Scaling Properties of Same-Family OPD found that in every weak-to-strong pair the student's *peak* beats its teacher. SPOD gives the mechanism (repair minus erosion) and a way to keep the peak.
+- **Explains a 10-01 scaling result.** Scaling Properties of Same-Family OPD ([10-01](2026-10-01-opd-scaling-laws-saki-kl-free.md)) found that in every weak-to-strong pair the student's *peak* beats its teacher. SPOD gives the mechanism (repair minus erosion) and a way to keep the peak.
 - **Contradicts the compounding-error framing** behind PivotOPD (10-08, fix one early turn) and CriticOPD (10-16, restore teacher recoverability on wrong prefixes). R2S shows the teacher is still reliable from the student's worst states; the problem is the score, not the state distribution. Whether these are complementary or competing is open.
 - **Compression angle:** minimal-edit OPD with a same-size frozen teacher means a small model can be improved without a bigger teacher, which removes the dominant cost of distillation.
 

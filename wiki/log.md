@@ -2149,3 +2149,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-25] social-stream | 2026-10-25 morning | social-stream
 ## [2026-10-25] media-zone | Media Zone 2026-10-25 (finalized from the live draft) | media-zone
 ## [2026-10-25] digest | cere-bro 2026-10-25 | daily-digest
+## [2026-10-26] ingest | Agentic OPD trio (SPOD, R2S, minimal-edit), RIFT drafter KV compression, stuck-agent resource attribution + budget rewards, gpu-unlock + DeepInfra rent hike, harness state/separations/SSR/Agensh, looped ICL, safety shorts, industry roundup | dair + rss + gmail + x-feed + kurate + youtube
+## [2026-10-26] social-stream | 2026-10-26 morning | social-stream
+## [2026-10-26] media-zone | Media Zone 2026-10-26 (finalized from the live draft) | media-zone
+## [2026-10-26] digest | cere-bro 2026-10-26 | daily-digest

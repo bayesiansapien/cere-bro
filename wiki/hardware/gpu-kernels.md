@@ -385,3 +385,8 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 
 - **[Trainium3 for research training (SemiAnalysis)](2026-10-24-semianalysis-trainium3-training.md):** Neuron Explorer shows per-engine timelines with dependency highlighting, which Nsight Compute lacks inside a kernel (closest GPU analog: QuACK's in-kernel tracer). First-step compile 184.6-255.7 s for Qwen3-32B, 27 min for gpt-oss; FlexAttention 89/96 pass; MoE dispatch not yet on TokenSwitch.
 - **TensorRT 11.1 Global Performance Tuner:** 200+ compiler knobs exposed as build routes, accuracy as a filter and speed as the ranking; 1.14-1.63x over the default route ([compression shorts](../inference-efficiency/2026-10-24-compression-shorts-ttr-t2quant-diffusion-cost.md)).
+
+
+## 2026-10-26: half of a 3090's BF16 rate was a firmware setting
+
+[gpu-unlock](2026-10-26-gpu-unlock-and-rising-gpu-rents.md): a pre-driver kernel module writes Ampere GeForce speed-selector registers, doubling FP16/BF16-into-FP32 tensor issue rate (3090 Ti BF16 GEMM 87.5 to 157.4 TFLOPS). Prefill +14-36%; decode and INT8 unchanged because they are bandwidth- or format-bound. Roofline reminder: unlocking FLOPs does not move memory-bound decode.

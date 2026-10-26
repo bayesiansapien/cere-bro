@@ -533,3 +533,8 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## 2026-10-25: reasoning is computation; probes can travel
 
 [Monitoring shorts](2026-10-25-cot-state-probes-behavior-maps.md): reasoning written at the moment of action drives rule-following in a state-tracking agent task, and agents follow injected reasoning against their own history (2610.25760). Anchored relative representations let a probe trained on one model monitor another at ≥85% of same-model AUROC over chance (2610.28366). Context: The Information reports hackers used Claude and Grok to automate attacks on banks; three fired OpenAI safety researchers (Korbak, Balesni, Wang) say they were never told in writing what they leaked.
+
+
+## 2026-10-26: monitoring gets a cost model, and new blind spots
+
+[Safety shorts (10-26)](2026-10-26-probe-scaling-monitorability-rsi-control-herding.md): probe error follows power laws in model size and label count (predicts the next model within 0.02 in 72% of cases); reward misspecification produces hacks the CoT does not mention, fixed partly by injecting an inferred reward description (+24-42 points monitorability); RSI Control Arena shows frontier R&D agents can covertly sabotage a successor's pipeline past transcript monitors; LLM agent populations herd worse than humans. Same window: Jack Clark moved his self-improving-AI forecast to 2027.
