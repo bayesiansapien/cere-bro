@@ -54,6 +54,7 @@ HTML_PATH   = EP_DIR / f"{date_str}.html"
 # Sun (weekday 6) → WEEKLY WRAP: Thu-Sun digests are the new material (= US Wed-Sat);
 #                   Mon-Wed are included as call-back context for Wednesday's episode.
 #                   focus_prompt_weekly, weekly_lookback_days (6).
+# Sat (weekday 5) → LATE-WEEK: the Thu+Fri+Sat digests, focus_prompt_lateweek (added 2026-10-27).
 # Every other day → no podcast; exit cleanly so the cron sweep moves on.
 weekday = datetime.strptime(date_str, "%Y-%m-%d").weekday()
 schedule = cfg.get("weekday_schedule", {"midweek_days": [2], "weekly_days": [6], "daily_days": []})
@@ -64,10 +65,12 @@ if weekday in schedule.get("weekly_days", []):
     EPISODE_MODE = "weekly"
 elif weekday in schedule.get("midweek_days", []):
     EPISODE_MODE = "midweek"
+elif weekday in schedule.get("lateweek_days", []):
+    EPISODE_MODE = "lateweek"
 elif weekday in schedule.get("daily_days", []):
     EPISODE_MODE = "daily"
 else:
-    print(f"{date_str} is a {DOW}: no podcast (episodes run Wed midweek + Sun weekly).")
+    print(f"{date_str} is a {DOW}: no podcast (episodes run Wed midweek, Sat late-week, Sun weekly).")
     sys.exit(0)
 print(f"Podcast generator | {date_str} ({DOW} → {EPISODE_MODE})")
 print(f"Digest: {DIGEST_PATH}")
@@ -206,7 +209,7 @@ def parse_digest(digest_path: Path) -> tuple[list[Path], list[str]]:
     return summaries, urls
 
 # Build the list of digest dates to ingest.
-if EPISODE_MODE in ("weekly", "midweek"):
+if EPISODE_MODE in ("weekly", "midweek", "lateweek"):
     lookback = cfg.get(f"{EPISODE_MODE}_lookback_days", 6 if EPISODE_MODE == "weekly" else 2)
     digest_dates = []
     for offset in range(lookback, -1, -1):  # oldest first
@@ -319,7 +322,7 @@ if TOTAL > cfg["max_sources_per_notebook"]:
 # ── Create notebook ───────────────────────────────────────────────────────────
 
 print("\nCreating notebook...")
-title_suffix = {"weekly": "weekly wrap", "midweek": "midweek"}.get(EPISODE_MODE)
+title_suffix = {"weekly": "weekly wrap", "midweek": "midweek", "lateweek": "late-week"}.get(EPISODE_MODE)
 title = f"{cfg['show_name']} {date_str} ({title_suffix})" if title_suffix else f"{cfg['show_name']} {date_str}"
 out = nlm("notebook", "create", title)
 NOTEBOOK_ID = extract_id(out, "notebook_id", "id")

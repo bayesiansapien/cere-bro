@@ -226,12 +226,12 @@ if [ -d "$REPO/connectors/notebooklm" ]; then
     DM=$(date -v-${OFFSET}d +%Y-%m 2>/dev/null || date -d "${OFFSET} days ago" +%Y-%m)
     D_DIGEST="$REPO/wiki/daily-digest/$DM/$D.md"
     D_AUDIO="$REPO/wiki/daily-digest/$DM/podcasts/$D/$D.m4a"
-    # Two episodes a week (2026-09-30): Wednesday midweek + Sunday weekly wrap.
+    # Three episodes a week (2026-10-27): Wed midweek, Sat late-week, Sun weekly wrap.
     # Every other date is skipped; the loop still backfills a missed Wed/Sun
     # episode from the last 7 days (e.g. the Mac was asleep that morning).
     # %u: 1=Mon ... 7=Sun (BSD date).
     DOW=$(date -j -f "%Y-%m-%d" "$D" +%u 2>/dev/null || echo 0)
-    if [ "$DOW" != "3" ] && [ "$DOW" != "7" ]; then
+    if [ "$DOW" != "3" ] && [ "$DOW" != "6" ] && [ "$DOW" != "7" ]; then
       continue
     fi
     if [ ! -f "$D_DIGEST" ]; then continue; fi
