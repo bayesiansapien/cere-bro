@@ -2153,3 +2153,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-26] social-stream | 2026-10-26 morning | social-stream
 ## [2026-10-26] media-zone | Media Zone 2026-10-26 (finalized from the live draft) | media-zone
 ## [2026-10-26] digest | cere-bro 2026-10-26 | daily-digest
+## [2026-10-27] ingest | HarnessMM decision reuse + MCP-Injector, TWIG, speculative diffusion + Unlimited-OCR 2, power-meter training detection + HBM4/CoWoS, Cohere Qwen probe + monitor shorts, reward-model and verified-optimization shorts, Anthropic S-1 + GPT-6.1 Terra + capital week | huggingface + dair + labs + rss + gmail + x-feed + kurate + youtube
+## [2026-10-27] social-stream | 2026-10-27 morning | social-stream
+## [2026-10-27] media-zone | Media Zone 2026-10-27 (finalized from the live draft) | media-zone
+## [2026-10-27] digest | cere-bro 2026-10-27 | daily-digest

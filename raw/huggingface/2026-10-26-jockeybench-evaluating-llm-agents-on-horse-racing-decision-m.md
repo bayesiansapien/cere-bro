@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-27T05:06:31.800826+00:00
+arxiv_id: 2610.19589
+url: https://huggingface.co/papers/2610.19589
+arxiv_url: https://arxiv.org/abs/2610.19589
+date: 2026-10-26
+---
+
+# JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making
+
+Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions. We introduce JockeyBench, a benchmark and evaluation protocol that studies this problem through historical Japanese horse racing. The protocol combines time-gated evidence, priced tools, paired frozen-program controls, and two workflows: executing an LLM-written predictor or acquiring evidence for a fresh per-race LLM forecast. Evaluation separates forecast quality, benchmark-specific net utility, and retrospective betting returns and risk under fixed decision rules. Across 28 model--scaffold configurations on 324 races, paired tests identify seven revision gains and two declines after multiple-testing correction. Yet every configuration has negative mean profit under capped-Kelly settlement. In a four-model comparison, the reusable-program workflow has higher mean betting profit and lower research fees, although both workflows lose on average. Further diagnostics reveal that mean probability bias reverses on selected bets and that profitable individual runs can depend on concentrated returns. These findings motivate evaluating predictive competence, adaptation, resource use, and decision value separately when assessing agents for repeated event forecasting.

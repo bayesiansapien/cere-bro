@@ -217,3 +217,7 @@ Sander Dieleman (DeepMind) highlighted flow-map language models as speculative d
 ## 2026-10-26: protect acceptance length as context grows
 
 [RIFT (10-26)](2026-10-26-rift-draft-model-kv-compression.md): compressed drafter KV caches go stale over long outputs; refresh plus compressibility training keeps >98% acceptance length at an 8K budget on 32K inputs. Opposite design choice to DLite (10-20), which drops the drafter's own history. No head-to-head yet.
+
+## 2026-10-27: leniency is a second dial
+
+[Speculative diffusion (2610.31819)](2026-10-27-speculative-diffusion-two-tradeoffs.md): jointly tuning diffusion-drafter effort and verifier acceptance leniency extends the speed-quality Pareto frontier past single-step diffusion drafting. Contrasts with RIFT and EAGLE-4, which keep verification lossless. No numbers under load yet.

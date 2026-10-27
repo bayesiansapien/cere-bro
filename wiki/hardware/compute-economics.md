@@ -476,3 +476,10 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Penalties and supply:** data center late fees $5M+/day; Nscale ~25K active of 461K contracted GPUs; transformers 160+ weeks; DRAM/SSD/ABF 2-5x normal lead times.
 - **Credit:** Nvidia's AI-cloud exposure $171.5B; CoreWeave CDS ~1,082 bps; Musk says debt markets are "almost entirely shut off" for AI-only neoclouds.
 - **Price war:** OpenAI discounts up to 90% to win Anthropic accounts ([roundup](../ai-industry/2026-10-26-industry-roundup.md)). Tokens are getting cheaper while GPU-hours get dearer, squeezing resellers.
+
+## 2026-10-27: the first audited frontier-lab P&L
+
+- **[Anthropic S-1](../ai-industry/2026-10-27-anthropic-s1-terra-capital-week.md):** H1 2026 revenue $16.3B, compute spend $8.9B (~1.8x revenue per compute dollar), adjusted operating income $1.6B, $450B+ cloud spending planned, ~$800B long-term commitments (The Decoder). Reported ~$121B SpaceX and ~$115B Google TPU commitments.
+- **Token price down again:** GPT-6.1 Terra at $1/$5 per M tokens, about half its predecessor, matching Astra on Agents' Last Exam at one-tenth the per-token price.
+- **Capital concentrates:** Meta up to $95B equity, SpaceX ~$40B Apollo GPU lease (off balance sheet), Anthropic up to $100B IPO, while Musk says debt is shut to AI-only neoclouds.
+- **Governance meets the meter:** facility power data detects synchronous training at 96% / 1% FA ([summary](2026-10-27-power-metering-hbm4-cowos-networks.md)).

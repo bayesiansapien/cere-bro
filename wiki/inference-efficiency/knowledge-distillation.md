@@ -762,3 +762,7 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-26: the teacher's token score is the weak link in agentic OPD
 
 [Agentic OPD trio (10-26)](2026-10-26-agentic-opd-overshoot-scorer-minimal-edit.md), DAIR picks. **SPOD**: a weak student first beats its teacher, then regresses, because OPD erodes successful student choices the teacher disfavors; masking those plus a soft probability floor gives up to +15.2 over OPD and +20.0 over the teacher, beating OPD's best intermediate checkpoint in 6/6. **R2S** (NVIDIA): the teacher's takeovers succeed from the student's worst states, but token scores let stalling through ("rollout-scorer gap"); repairing the scorer with takeover outcomes, no task reward, wins 12/12 cells by +12.8. **Minimal-edit OPD** (Meta): score only teacher-disfavored tokens of wrong rollouts with training-only privileged descriptions; a frozen same-size teacher works. **Shift:** contradicts the compounding-error framing behind PivotOPD (10-08) and CriticOPD (10-16); gives a mechanism for the 10-01 finding that a student's peak beats its teacher. Selective-supervision pattern now n≥8 since TIP (04-16).
+
+## 2026-10-27: on-policy distillation for teams and from nothing
+
+MultiAgent-OPD gives subagents token-level teacher supervision while the leader learns from team success (+2.61 over a trained cascaded system); On-Policy Self-Training self-distills from a self-written curriculum with no external data ([shorts](../llms-foundation-models/2026-10-27-reward-models-verified-optimization-shorts.md)).

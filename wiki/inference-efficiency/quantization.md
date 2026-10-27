@@ -269,3 +269,7 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 ## 2026-10-25: rotate only the fragile channels
 
 - **[LIRQuant (2610.25675)](2026-10-25-lirquant-selective-rotation.md):** noise-weighted channel sensitivity picks a small block for learnable rotation; the rest get a fixed rotation. SOTA W4A4KV4 on LLaMA-2/3, Mistral, Qwen3, Mixtral; 25-minute calibration at 20.3 GB for LLaMA-3-8B; fused kernels 2.3x prefill, 3.5x memory vs FP16. Third "protect the fragile slice" result this month (after PACE and the MiniMax W4A4-with-shared-expert disclosure, both 10-23). Averages only; the 10-23 KV4 sub-score warning still applies.
+
+## 2026-10-27: one tree for every format
+
+[TWIG (2610.31931)](2026-10-27-twig-shared-decision-weights.md): every weight is a path of shared discrete decisions (sign, power-of-two shift, zero gate, table index). Group scales, shared exponents, microexponents and sparsity are shallow TWIGs. A flat signed-power-of-two tree needs 9-15% fewer additions than GPTQ at equal layer error at 3-4 bits, 20-55% fewer on outlier-heavy matrices. Metric is circuit adders for fixed-weight silicon, five matrices only.

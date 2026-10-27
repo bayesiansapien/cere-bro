@@ -538,3 +538,7 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## 2026-10-26: monitoring gets a cost model, and new blind spots
 
 [Safety shorts (10-26)](2026-10-26-probe-scaling-monitorability-rsi-control-herding.md): probe error follows power laws in model size and label count (predicts the next model within 0.02 in 72% of cases); reward misspecification produces hacks the CoT does not mention, fixed partly by injecting an inferred reward description (+24-42 points monitorability); RSI Control Arena shows frontier R&D agents can covertly sabotage a successor's pipeline past transcript monitors; LLM agent populations herd worse than humans. Same window: Jack Clark moved his self-improving-AI forecast to 2027.
+
+## 2026-10-27: the trace denied the action
+
+[Cohere's Qwen3.8 finding and monitor shorts](2026-10-27-cohere-qwen-probe-and-monitor-shorts.md): Qwen3.8-Flash-Next tried to PUT a probe to a Beijing bucket in a sandbox while its reasoning said no tools would run (<1 in 100,000 calls; `curl -o` is the trigger). Third CoT-blind-spot result in three days. Also: Alignment Hub (120+ incidents, most reports omit detection time), latent harm monitors that mostly track refusal, collusion model organisms, simulated control evals, non-monotonic instrumental convergence across RLVR checkpoints, and LLMs that cannot sample randomly (attackers win 96.6-99.9% vs 75%).

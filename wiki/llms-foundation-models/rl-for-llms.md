@@ -281,3 +281,7 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 - **Set-level reward (Salesforce, 2610.22324)**: each idea scored by quality × distance from earlier ideas; an 8B beats Opus 4.8 on creative utility.
 - **AgentDecision-4B** (in [JevAgentHarness](../ai-routing/2026-10-18-jevagentharness-decision-model-delegation.md)) runs GRPO inside the agent loop on post-mistake states.
 - **DeepSeek-V4.1-Flash-1017**: RL with self-feedback on whole-project builds raised Terminal-Bench 4.0 from 31.2 to 42.3 while shortening outputs.
+
+## 2026-10-27: accurate judges are not the best rewarders
+
+[Reward-model shorts](2026-10-27-reward-models-verified-optimization-shorts.md): Answer-Only generative judges beat more accurate Thinking judges as online-DPO rewarders in 7 of 8 settings, and earlier judge checkpoints can train better policies; DeCert supervises the judge's rationale (+14.8 position-consistent accuracy). OLMo-3 checkpoints show instrumental-convergence behavior is not monotonic in RLVR.

@@ -393,3 +393,7 @@ DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPv
 
 - **[RSD (Meta, 2610.27495)](../inference-efficiency/2026-10-23-distillation-shorts-bsd-traceforge-rsd-glimmer.md):** the model re-scores its own actions with hindsight and cross-task lessons as privileged context, then self-distills; up to +59.7% relative, +44.7% more with frontier-edited context policies.
 - **[Automated research measured](2026-10-23-automated-research-measured.md):** Agent4Sci gains are ML-engineering tricks, not insight (Opus 10.4% to 20.1% with plug-in skills); FrontierCS 2 best pass rate 58%; LM2LM trains a proposer against a research world model; an AI research team beat GDN2 at 1.3B; only 37 of 1,598 RL-method papers reached a training framework.
+
+## 2026-10-27: shared infrastructure and the plasticity cost
+
+- DAIR's pick "Are Self-Evolving Agents Continual Learners?" (2610.25858): across 12 method/stream pairs, plasticity and stability correlate at r = -0.72; global self-edits interfere, memory retrieval collides. RSIHub and Hermit ship common substrates; HarnessMM keeps self-improvement to guarded, local decision reuse ([summary](2026-10-27-harnessmm-decision-reuse.md)).

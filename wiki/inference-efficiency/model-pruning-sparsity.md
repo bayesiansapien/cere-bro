@@ -266,3 +266,7 @@ Second, and mildly deflationary: **if weight-space similarity alone nearly match
 ## 2026-10-16: trim MLPs, keep attention
 
 [Compression shorts (10-16)](2026-10-16-compression-shorts.md). **LayerTrim**: training-free structured pruning for reasoning models that trims only MLP features of redundant layers, keeping attention and depth. Up to +21.4 points over RESP; Qwen3-14B 1.24x prefill, 19.7% lower peak memory, shortest generations. **Elastic transformers**: joint neuron/head ranking under soft pruning across many sparsity targets gives one model for a continuum of budgets (encoders, smooth to 60%). Both reinforce: attention is the fragile component, MLP width carries the slack.
+
+## 2026-10-27: pruning as a branch of one weight tree
+
+[TWIG](2026-10-27-twig-shared-decision-weights.md) makes pruning a zero gate inside the same decision tree as quantization, low-rank and codebooks, so one solver can trade among them. Proposed, not yet demonstrated end to end.

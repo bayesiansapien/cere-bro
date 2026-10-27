@@ -260,3 +260,7 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 - **[Memory sets the rent](2026-10-24-memory-premium-h200-micron-roadmap.md):** H200 (141 GB) rental up ~160% this year vs H100 (80 GB) ~40% on the same compute die (secondhand index). Clean evidence for the 10-03 thesis.
 - **Micron roadmap:** HBM4 2.8 TB/s per stack; vertical HBM on top of the GPU by 2028 (target); 4F² DRAM abandoned for 3D DRAM, diverging from SK hynix and Samsung; G11 NAND 400+ layers in H2 2027; "AI-class NAND" for weights and KV at 25M-100M IOPS.
 - **3D DRAM review** (Nature Reviews EE): cell-stacked 3D DRAM inherits 3D NAND's HAR etch and conformal deposition problems with much tighter leakage and retention limits.
+
+## 2026-10-27: yield beats height
+
+[8-high HBM4 for Rubin Ultra; CoWoS up to +20%](2026-10-27-power-metering-hbm4-cowos-networks.md): SK hynix and Samsung reportedly ship 8-layer HBM4 for Rubin Ultra by Q2 2027 because 12-high stacks struggle with heat and yield. TSMC CoWoS prices reportedly rise 10-20% as tool lead times stretch to 6-8 months and packages grow toward 9-14x reticle. Memory and packaging now set the schedule, not only the price.

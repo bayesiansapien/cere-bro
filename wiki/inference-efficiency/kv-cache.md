@@ -816,3 +816,7 @@ Attention-side entries the same day bear on capacity: [CoWindow Attention](../ll
 ## 2026-10-26: prefill-time eviction goes stale over long outputs
 
 [RIFT (10-26)](2026-10-26-rift-draft-model-kv-compression.md), NVIDIA, DAIR pick. Selection-based KV compression for draft models loses relevance as outputs grow ("decode staleness"); refreshing the selection during decode (prompt + recent tokens, adaptive schedule) plus sparse-mask drafter training keeps Qwen3.5-4B at >98% of full-cache acceptance for Qwen3.5-122B (32K in, 4K out, 8K budget). The time axis to MOSAIC's (10-25) per-layer axis: static, uniform eviction leaves quality on the table in both directions. Open: does decode staleness hit the target model's eviction too?
+
+## 2026-10-27: fixed-size working sets ship
+
+Baidu's Unlimited-OCR 2 bounds text-visual attention with SR-SWA (a fixed set of ~512 working reference tokens), keeping decode latency and memory nearly flat over hundred-page documents; the SGLang path reuses the previous page window's KV tail ([summary](2026-10-27-speculative-diffusion-two-tradeoffs.md)). Agent-side, HarnessMM caches decisions above the prompt cache, and AWS documented prefix-caching patterns for agents ([summary](../agentic-systems/2026-10-27-harnessmm-decision-reuse.md)).
