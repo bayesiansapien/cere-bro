@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cerebro Radio — episode 114 (2026-10-28)</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          max-width: 680px; margin: 2rem auto; padding: 0 1rem;
+          line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 1.5rem 0; }
+  a  { color: #0066cc; }
+  p  { margin: 0.75rem 0; }
+</style>
+</head>
+<body>
+<h1>114 — Cerebro Radio</h1>
+
+<p><strong>Date:</strong> 2026-10-28<br> <strong>Run time:</strong> ~48 min</p>
+
+<p>The bit is the cheapest thing left to cut. Two-bit weights that still solve 95% of MATH-500, a 2.5-bit cache for DeepSeek-style attention and 4-bit RL that runs faster than BF16 all landed on the same day that Google started selling TPUs to its rivals and SK hynix said memory is sold out to 2028. The cost lever is moving from buying more hardware to wasting less of each byte you already have.</p>
+
+<p><strong>In this episode</strong> - <strong>ThinkBit</strong>: 2-bit weights picked by a reasoning test, not perplexity. A 14B model shrinks to 3.74 GB and keeps 94.8 on MATH-500. - <strong>RAQ-MLA</strong>: quantize the DeepSeek-style attention cache by what each tensor does. 2.5 bits per element, 6.5x more cache, no training. - <strong>miniTE</strong>: 4-bit RL breaks because sampler and learner run the math differently. Aligning them makes NVFP4 RL 1.39x faster than BF16. - <strong>OPTIC</strong>: per-layer embedding tables compress 100x and keep 97.8% of Gemma 4 E4B's quality, cutting GPU memory 29.7%. - <strong>Google sells TPUs</strong>: Oracle will host them and OpenAI plans to buy them. SK hynix has pre-sold over half its 2027-28 memory. - <strong>Harness verification</strong>: a separate critic at the end beats gates and reminders on accuracy per dollar across seven coding models.</p>
+
+<hr>
+
+<p>🎧 Audio attached. Full digest: <a href="https://bayesiansapien.github.io/cere-bro/digests/2026-10-28/">2026-10-28</a></p>
+</body>
+</html>
