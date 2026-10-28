@@ -2157,3 +2157,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-27] social-stream | 2026-10-27 morning | social-stream
 ## [2026-10-27] media-zone | Media Zone 2026-10-27 (finalized from the live draft) | media-zone
 ## [2026-10-27] digest | cere-bro 2026-10-27 | daily-digest
+## [2026-10-28] ingest | ThinkBit, RAQ-MLA, miniTE, OPTIC, Nestor, local decode (uzu/LFM3/Ling-3.1/DGX Spark), small decision routers, harness verification + TraceTrial + MANDATE, Trajectory2Gym + DynaFlow, memory tax, TPUs leave Google + SK hynix, KV leak + Qwen egress, agent-swarm math, industry roundup | huggingface + kurate + labs + rss + gmail + x-feed
+## [2026-10-28] social-stream | 2026-10-28 morning | social-stream
+## [2026-10-28] media-zone | Media Zone 2026-10-28 (finalized from the live draft) | media-zone
+## [2026-10-28] digest | cere-bro 2026-10-28 | daily-digest

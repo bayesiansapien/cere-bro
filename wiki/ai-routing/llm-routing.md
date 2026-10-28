@@ -958,3 +958,7 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 ## 2026-10-26: routing retry resources, not just models
 
 [Stuck-agent resources (10-26)](../inference-efficiency/2026-10-26-stuck-agent-resources-and-budget-rewards.md): frontier coding agents choose test feedback on 95-100% of retries and do worse than random; specs are what help. SWE-Verifier (4B) decides which steps get extra sampling (<4% of steps). Claude Code's advisor tool (first covered 10-04) recirculated as a harness-level cascade. The allocation decision is a natural small-router job.
+
+## 2026-10-28: routers under 100M parameters, and gates that tie a coin flip
+
+[Small decision models as routers](2026-10-28-small-decision-models-as-routers.md): per-option scoring beats joint by 5.8 skill points at 32M (needs reranker init, 5-13x passes); released 68M/150M joint encoders beat a 435M DeBERTa zero-shot classifier, 14 ms vs 728 ms on CPU; joint encoders flip 12-23% of answers under reordering. Reranker fine-tunes beat decision fine-tunes up to 9B (2610.32318). Jev-as-a-Judge: 187x cheaper, within 0.6 points of Astra, but 23.2% vs 14.1% false approvals, and its confidence cascade saved no more than random routing. Production: Jev Router (10,000+ tools behind one MCP server), Google A2UI layout decisions via Jev (up to 80x lower latency). Still open: a router reward that prices discarded prefix cache.

@@ -420,3 +420,7 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## 2026-10-24: raw history wins
 
 [Naive RAG is stronger than we thought (2610.30755)](2026-10-24-naive-rag-harness-cost-fold-subagents.md), cross-source confirmed (HF + DAIR): dense retrieval plus reranking over raw history ranks first in 6 of 7 settings across LoCoMo, LongMemEval, MEME and MemoryAgentBench, ingesting in 0.3 h vs 3.2-27 h. Rewritten memory loses relations and dependency paths. With MemoryTax (10-23), two results in two days say designed memory is mostly a cost line. Counterpoint: Deep Fusion Memory (2610.25100, [shorts](../llms-foundation-models/2026-10-24-research-shorts-wait-iquest-dfm-mosaic.md)) compiles chunk memory into hidden states with no inference-time retrieval and gains 11-13% on QA; nobody has tested it against Raw-RAG.
+
+## 2026-10-28: the memory tax
+
+[The memory tax (2610.34073)](2026-10-28-memory-tax-and-cheap-checks.md): net value = memory benefit minus memory tax (facts lost by rewriting history). Many memory systems score below raw-history RAG on LongMemEval, PersonaMem, MINT-Eval; retrieving raw history alongside memory and reranking cuts the tax. Second such result in two days after Raw-RAG (10-27).

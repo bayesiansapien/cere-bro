@@ -2149,3 +2149,21 @@ Catalog of all pages. Updated on every ingest.
 | social-stream | [2026-10-27 morning](social-stream/2026-10/2026-10-27-morning.md) | GPT-6.1 Terra cluster, SpaceX/CoWoS capital, Cohere traces, Minecraft agents, LLM randomness |
 | media-zone | [2026-10-27](media-zone/2026-10/2026-10-27.md) | Decision caching, Terra price cut, S-1 as compute document, Qwen sandbox probe, HBM4/CoWoS |
 | daily-digest | [2026-10-27](daily-digest/2026-10/2026-10-27.md) | HarnessMM, TWIG, S-1 + Terra, Qwen probe, power-meter training detection, speculative diffusion |
+| inference-efficiency | [2026-10-28 ThinkBit](inference-efficiency/2026-10-28-thinkbit-two-bit-reasoning.md) | Scalar 2-bit picked by a reasoning test; 14B at 3.74 GB scores 94.8 MATH-500 vs 97.5 bf16 |
+| inference-efficiency | [2026-10-28 RAQ-MLA](inference-efficiency/2026-10-28-raq-mla-role-aware-cache-quant.md) | Role-aware MLA cache quantization: ~2.5 bits, 6.5x capacity, training-free (Kurate) |
+| inference-efficiency | [2026-10-28 miniTE](inference-efficiency/2026-10-28-minite-nvfp4-rl.md) | NVFP4 RL breaks on sampler/learner execution mismatch; aligned W4A4 learner 1.39x BF16 on B300 |
+| inference-efficiency | [2026-10-28 OPTIC](inference-efficiency/2026-10-28-optic-ple-compression.md) | Token-shared codes + per-layer decoders: ~100x PLE compression keeps 97.8% on Gemma 4 E4B |
+| inference-efficiency | [2026-10-28 Local decode: uzu, LFM3, Ling-3.1](inference-efficiency/2026-10-28-local-decode-uzu-lfm3-ling.md) | Tree drafting 92 tok/s on base M5; few-global-layer hybrids; DGX Spark MoE recipe; SingProbe |
+| llms-foundation-models | [2026-10-28 Nestor nested sparsity](llms-foundation-models/2026-10-28-nestor-nested-sparsity.md) | Conditional compute in attention nested with MoE beats MoE at equal compute; better continual learning |
+| llms-foundation-models | [2026-10-28 Agent swarm math](llms-foundation-models/2026-10-28-agent-swarm-math-cfsg-eth.md) | Axiom's 40M-line Lean CFSG; ETH refutation claims under review; "LLMs Can't Jump" |
+| agentic-systems | [2026-10-28 Harness verification + TraceTrial](agentic-systems/2026-10-28-harness-verification-and-tracetrial.md) | Independent critic beats gates per dollar; harness benchmark; MANDATE; AuthorizationBench |
+| agentic-systems | [2026-10-28 Trajectory2Gym + DynaFlow](agentic-systems/2026-10-28-trajectory2gym-dynaflow-agent-training.md) | Decision-grounded tool-use supervision (+17-30 pts); trained free-form orchestrator |
+| agentic-systems | [2026-10-28 Memory tax + cheap checks](agentic-systems/2026-10-28-memory-tax-and-cheap-checks.md) | Memory systems lose to raw-history RAG; Thinking-in-Bets checklist cuts false reversals to 0.02% |
+| ai-routing | [2026-10-28 Small decision models as routers](ai-routing/2026-10-28-small-decision-models-as-routers.md) | 68M encoders beat 435M classifier at 14 ms; rerankers beat decision fine-tunes; Jev judge false approvals |
+| hardware | [2026-10-28 TPUs leave Google](hardware/2026-10-28-tpus-leave-google-memory-sold-out.md) | Oracle hosts TPUs, OpenAI buys; SK hynix pre-sells 2027-28; Onsemi-Ferric |
+| responsible-ai | [2026-10-28 KV leak + Qwen egress](responsible-ai/2026-10-28-kv-leak-qwen-egress-black-october.md) | Cloudflare cross-tenant KV leak; Palisade reproduces Qwen 3.8 egress; Black October |
+| ai-industry | [2026-10-28 Industry roundup](ai-industry/2026-10-28-industry-roundup.md) | Meta $97.5B, Broadcom $63B SPV, Physical Intelligence ~$20B, GSA deal, CUDA 13.4 |
+
+| social-stream | [2026-10-28 morning](social-stream/2026-10/2026-10-28-morning.md) | TPU merchant cluster, SK hynix sold out, harness/memory/router eval papers, Anthropic trio |
+| media-zone | [2026-10-28](media-zone/2026-10/2026-10-28.md) | uzu tree decoding, LFM3, TPUs leave Google, KV cache leak, cheap critics and plain RAG |
+| daily-digest | [2026-10-28](daily-digest/2026-10/2026-10-28.md) | ThinkBit, RAQ-MLA, miniTE, OPTIC, local decode, small routers, TPUs + memory, harness verification |

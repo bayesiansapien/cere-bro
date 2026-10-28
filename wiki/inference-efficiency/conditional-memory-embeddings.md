@@ -78,3 +78,7 @@ The tidy story would be "memory stores facts, experts reason." The ablations say
 - **Production:** SemiAnalysis's DSv4.1-Flash profile on Ascend 950DT shows DeepSeek's first use of Engram. Token-ID-keyed fetches overlap layer 0, so DRAM offload costs nothing vs HBM; PCIe SSD offload does degrade ([DeepInfer/Huawei](../hardware/2026-10-22-deepinfer-and-huawei-deepseek-symbiosis.md)). This settles the prefetchability argument for token-ID addressing in practice. Practitioner estimate (X): Engram cuts parameters ~30%.
 - **[Conditional Program (2610.21810)](2026-10-22-conditional-program-ngram-two-bits.md):** 2-bit row codes + shared Gaussian trellis; 41-63% lower output KL than 2-bit RTN; DeepSeek's table 203 GB to 51 GB, small enough for HBM.
 - **Two routes now:** keep the full table in cheap memory and prefetch (DeepSeek, COUNT 10-16) or compress it into HBM (CP). Specter applies the prefetch logic to MoE experts using draft tokens.
+
+## 2026-10-28: cross-layer sharing compresses PLE 100x
+
+[OPTIC (2610.31309)](2026-10-28-optic-ple-compression.md): one code tuple per token, decoded per layer by a small affine map, fitted to the PLE output path. ~100x on Gemma 4 E4B keeps 97.8% (594x: 90.5%, 1,002x: 84.1%), 29.7% less GPU memory, ≤0.40% slower. Strengthens the "compress into HBM" route against DeepSeek's prefetch route; open whether Engram-scale tables share as much cross-layer structure.

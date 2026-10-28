@@ -826,3 +826,10 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **[HarnessMM (2610.32813)](2026-10-27-harnessmm-decision-reuse.md)** (via X, @omarsar0 and @dair_ai): settled actions go into an Executable Decision Graph and are re-run when a guard holds, skipping the model call. DeepSeek harness: 96.28k to 11.62k tokens per task (-88%) with success 71% to 86%; Codex on HumanEval holds 90.82% at -29.5% tokens. Decision caching stacks on prompt caching (AWS's same-day Bedrock patterns). Strongest evidence yet for the 10-24 "thin harness that removes tokens" thesis; still no held-out harness test.
 - **MCP-Injector (2610.32555):** realistic MCP faults cut task score 60%; 120B no more resilient than 20B; agent stack matters more than model size.
 - **Tooling:** RSIHub (shared substrate for AHE, Hyperagents, A-Evolve, GEPA; gains do not always transfer to held-out tasks) and Hermit (adapter-based harness evolution) open-sourced.
+
+## 2026-10-28: where the checker goes
+
+- **[Rethinking Verification (2610.34577)](2026-10-28-harness-verification-and-tracetrial.md)** (HF + DAIR/omarsar0 on X): 17 designs, 7 coding models. Instructions/reminders modest; gates larger but costly; independent critic best trade (+5.9-9.5 TB at 1.13-1.25x, +3.9-6.6 SWE at 1.00-1.04x); extra rounds +3.5.
+- **Trial by Trace (2610.32285):** harness benchmark, 7 components, 3,420 runs; harness scores 59.8-72.0%; 31.1% of runs succeed while failing a harness criterion. With AuthorizationBench (19.2% out-of-scope) and MANDATE (23 delegation-failure categories), task success is shown to hide process failure.
+- **Practice:** Axiom credits harness + infra co-design for its 40M-line Lean CFSG formalization ([summary](../llms-foundation-models/2026-10-28-agent-swarm-math-cfsg-eth.md)).
+- **State of knowledge:** the thin-harness case now has a verification corollary: spend tokens once, at the end, on an independent reviewer.

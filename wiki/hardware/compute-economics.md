@@ -483,3 +483,10 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Token price down again:** GPT-6.1 Terra at $1/$5 per M tokens, about half its predecessor, matching Astra on Agents' Last Exam at one-tenth the per-token price.
 - **Capital concentrates:** Meta up to $95B equity, SpaceX ~$40B Apollo GPU lease (off balance sheet), Anthropic up to $100B IPO, while Musk says debt is shut to AI-only neoclouds.
 - **Governance meets the meter:** facility power data detects synchronous training at 96% / 1% FA ([summary](2026-10-27-power-metering-hbm4-cowos-networks.md)).
+
+## 2026-10-28: the TPU goes merchant, memory pre-sold
+
+- **[TPUs leave Google](2026-10-28-tpus-leave-google-memory-sold-out.md):** Oracle hosts TPUs from 2027; OpenAI plans to buy; Anthropic S-1: $114.5B Google Cloud, $125-150B more on TPUs, $161.2B TPU compute via Broadcom. Google claims up to 80% better perf/$ for low-latency serving and a no-rewrite TorchTPU stack.
+- **Memory:** SK hynix 86% gross margin, DRAM ASP +28% QoQ, 5-year LTAs with 14 customers covering >50% of 2027-28; Chinese hyperscalers seek 10-year DDR5 deals.
+- **Margins:** Anthropic reports 85% gross margin on serving existing models, $3.5B H1 FCF.
+- **Capital:** Meta $97.5B equity (Nvidia $3B, AMD $1B); Broadcom $63B SPV for Anthropic; Physical Intelligence ~$20B; Onsemi-Ferric ~$1B ([roundup](../ai-industry/2026-10-28-industry-roundup.md)).

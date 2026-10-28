@@ -273,3 +273,11 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 ## 2026-10-27: one tree for every format
 
 [TWIG (2610.31931)](2026-10-27-twig-shared-decision-weights.md): every weight is a path of shared discrete decisions (sign, power-of-two shift, zero gate, table index). Group scales, shared exponents, microexponents and sparsity are shallow TWIGs. A flat signed-power-of-two tree needs 9-15% fewer additions than GPTQ at equal layer error at 3-4 bits, 20-55% fewer on outlier-heavy matrices. Metric is circuit adders for fixed-weight silicon, five matrices only.
+
+## 2026-10-28: fit the error where it lands
+
+- **[ThinkBit (2610.34886)](2026-10-28-thinkbit-two-bit-reasoning.md):** strictly scalar 2-bit (per-layer ternary/2/3-bit tiers, Gumbel-softmax codeword search, scale recalibration with codes frozen, short QAT, checkpoint picked by a paired reasoning test). Qwen3-1.7B 46.7 vs 30.0 (EfficientQAT) on MATH-500 after recalibration, 73.0 after QAT at 0.52 GB; 14B at 3.74 GB scores 94.8 vs 97.5 bf16. Fourth "protect the fragile slice" result (after PACE, LIRQuant), now at layer granularity.
+- **[RAQ-MLA (2610.33625)](2026-10-28-raq-mla-role-aware-cache-quant.md):** MLA cache at ~2.5 bits, role-specific fits (value error for the latent, score error for the positional key).
+- **[miniTE (2610.23928)](2026-10-28-minite-nvfp4-rl.md):** native NVFP4 RL fails from sampler/learner execution mismatch, not weights; aligned W4A4 learner 1.39x BF16 on a B300 node.
+- **[OPTIC (2610.31309)](2026-10-28-optic-ple-compression.md):** ~100x per-layer-embedding compression keeps 97.8% (PQ 66.3%).
+- **State of knowledge:** four papers in one day fit quantizers against downstream damage (reasoning accuracy, attention output, PLE output path, cross-engine policy drift) rather than tensor reconstruction error. That is now the field's default frame.
