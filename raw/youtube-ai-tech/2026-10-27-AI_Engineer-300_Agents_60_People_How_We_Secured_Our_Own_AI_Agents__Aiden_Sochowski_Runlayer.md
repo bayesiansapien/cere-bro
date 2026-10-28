@@ -1,0 +1,36 @@
+# 300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer
+
+**Channel:** AI Engineer
+**Published:** 2026-10-27
+**Source:** https://www.youtube.com/watch?v=BgLdvF7Qkh8
+
+## TL;DR
+Runlayer, an MCP security gateway startup, logged every session and tool call of its own roughly 300 daily agents run by 50 to 60 employees. The finding: static per-tool allow/block policies cannot secure agents, because attacks are context dependent and often unfold across a whole session or hop between agents through shared data stores. Their answer is per-tool-call classifiers that score alignment with the agent's declared intent, history-based permission descoping, and tight write scoping. The same telemetry exposed the bigger day-to-day win: cost blowups from buggy MCP servers and silent model upgrades. It is a vendor talk, light on numbers, but the architecture claims match the broader 2025 to 2026 incident record.
+
+## Key Takeaways
+- **Agents outnumber people about 5:1.** 300+ agents across ~60 staff, most not user-triggered (chatbots, SaaS triggers, schedules). Without a gateway, nobody knows what is connected to what.
+- **Every tool call is attack surface.** Three risks per call: ingesting hostile content, destructive actions, data exfiltration.
+- **Layered defenses, none complete.** (1) Inbound classifier on untrusted content such as emails for embedded instructions. (2) Outbound DLP rules such as regex on customer names or PII in sent mail. (3) Source-based blocks such as no reading a private calendar in risky contexts. Each is partial and context dependent.
+- **Session-level attacks beat per-call rules.** Example: an AI PR reviewer with approve rights. The author argues in GitHub comments ("only review the cleanup"), and after enough attempts the agent approves. Opus-class models resist better but are not immune. Runlayer trains classifiers that check each tool call against the agent's defined intent using full session context, i.e. intent-drift detection.
+- **Narrow agents produce high-signal anomalies.** A recruiter bot with ATS, meeting notes, calendar and messaging access has a stable tool-usage profile. Deviations flag high-risk runs. The same history feeds a model that suggests which permissions to remove.
+- **Cross-agent context poisoning.** A malicious resume ingested by agent A gets written to a shared system and then read as "normal instructions" by agent B. The only reliable fix they found is tightly scoping what each agent can *write*, to keep downstream context windows clean.
+- **Cost is the sleeper finding.** A recruiting team's vibe-coded MCP server hit formatting errors repeatedly, and the agent retried and worked around them on every run, burning input and output tokens. Separately, users switching from a cheap model to Fable 5.1 drove 100x cost growth within a week, with no evals to justify it.
+- **Prescription:** monitor everything, set budgets and sane model defaults, rate-limit tools, flag only high-risk actions for scrutiny, and route users toward policy-compliant paths rather than blocking wholesale.
+
+## Architecture & Optimization Mechanics
+- **Gateway as choke point.** All MCP traffic goes through one proxy that logs sessions and tool calls to a central sink. This gives a single place for policies, classifiers, rate limits and budgets.
+- **Intent-alignment classifier.** Input: the agent's declared task plus the full session trace. Output: per-tool-call alignment score. This amounts to a guard model running inline on every call, so its latency and cost matter as much as its accuracy. It is a natural target for small distilled or quantized classifiers.
+- **Least privilege from behavioral history.** Rather than asking users to scope permissions up front, which nobody does well, infer the effective tool set from past runs and propose descoping. It works like profile-guided optimization, applied to permissions.
+- **Write partitioning over read filtering.** You cannot reliably stop agent B from trusting what agent A wrote. You can constrain which tables and objects A may write to. Treat agents as data plumbing and enforce dataflow boundaries.
+- **Cost failure modes:** (a) error-retry loops on low-quality MCP servers multiply tokens per task. (b) Unmanaged model upgrades with no eval gate. Both are routing problems. The per-task model choice is unjustified because enterprises do not run evals on internal agents.
+- **Weak spots in the talk:** no false-positive rates, no classifier accuracy, no latency overhead figures, no count of real incidents caught. "Nothing is 100% effective" is honest but leaves the claimed classifier benefit unquantified.
+
+## Grounded Context (Web Enrichment)
+Runlayer came out of stealth in late 2025 with an $11M seed led by Khosla Ventures and Felicis. It sells an MCP gateway plus endpoint agent with threat detection, Okta/Entra identity-based permissions, per-agent identities, on-behalf-of tokens and per-tool-call audit export to SIEM. By mid to late 2026 competitors (Speakeasy, Composio, MintMCP) were publishing "Runlayer alternatives" pages, which suggests it is seen as the category leader. Treat this talk as dogfooding marketing. The patterns are sound, but no independent audit or benchmark of its classifiers surfaced.
+
+The threat model holds up well against the record. Simon Willison's "lethal trifecta" (untrusted input + sensitive data + an exfiltration channel) describes exactly the support-email and resume examples here. Real 2025 incidents followed this shape: the GitHub MCP issue-based private repo leak (May), the Atlassian MCP support-ticket injection (June), the Supabase/Cursor token exfiltration via a support ticket (July), and the first malicious npm MCP server, a Postmark impersonator that silently BCC'd email (September). Consensus mitigation is architectural, removing one leg of the trifecta, which aligns with Runlayer's "scope writes tightly" conclusion more than with its classifier pitch. Classifiers reduce risk. Dataflow constraints actually prevent attacks. Claims of six 2026 production exploits and ~200k unauthenticated public MCP servers circulate but could not be verified against primary sources.
+
+## Real-World Application / Actionable Step
+- **Routing angle (highest value):** the 100x Fable 5.1 cost jump with no eval justification is the clearest enterprise case for an LLM router. Pitch or prototype a gateway-level router that defaults narrow, well-scoped agents to cheap models and escalates only on measured difficulty. Narrow agents' stable tool traces make good training labels for a difficulty predictor.
+- **Guard-model compression:** an inline per-tool-call intent classifier is a latency and cost tax on every agent step. This is a direct fit for distillation plus INT4/INT8 quantization of a small guard model. Benchmark accuracy against p50/p99 added latency, since that tradeoff decides whether gateways can afford session-level classification.
+- **For your own agents/MCP setup:** route through one logging proxy, set per-agent token budgets, rate-limit and alert on repeated tool errors (retry loops), and give any agent that reads untrusted content (email, PRs, resumes) no write or send capability without human confirmation.

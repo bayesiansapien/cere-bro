@@ -1,0 +1,46 @@
+# How to Build an AI Code Review Agent (Daksh Gupta, Greptile)
+
+**Channel:** AI Engineer
+**Published:** 2026-10-26
+**Source:** https://www.youtube.com/watch?v=4UtrRVtUN_g
+
+## TL;DR
+Greptile's co-founder lays out the playbook his team gives companies that want to build their own PR review agent. A naive setup (sandbox, open-source harness, PR webhook, "review this" prompt) works on day one, but it misses bugs, lacks context, nitpicks, finds new things on every rerun, and costs $3 to $25 per PR. The fixes come in six layers: a bug-catalog prompt with an explicit nitpick ban, an eval set of historical incident PRs, model inversion (review with a different model family than the one that wrote the code), a precomputed codebase knowledge base in place of brute-force grep, autonomous end-to-end testing in sandboxes with vision models, and per-subtask model routing (about 20% frontier tokens, the long tail on small models). The routing and model-inversion sections are the parts that matter for Amit.
+
+## Key Takeaways
+- **The naive baseline fails in five ways:** missed bugs, missing context (multi-repo microservice sprawl is the worst case), $3 to $25 per PR in agent tokens, nitpicks, and nondeterminism, since every rerun surfaces "new" bugs.
+- **Nitpicks do real damage.** Coding agents resolve every review comment without judgment, so pedantic reviews turn into overly defensive code. Signal-to-noise is a correctness problem, not only a UX one.
+- **Prompt design:** mine your own incident history for the bug types you most often produce, list them as a catalog in the prompt, and define in plain terms what a nitpick is (for example "why no third layer of defense" or "slightly sloppy error handling") so the agent skips them. Small prompt edits cause large swings in comment volume.
+- **The real eval problem is rare positives.** Greptile's data puts catastrophic bugs at roughly 1 per 1,000 PRs (or lines). A regressed agent can ship and go unnoticed for months. Fix: replay a dataset of PRs that historically caused incidents and measure catch rate per agent version. The dataset has to stay current because bug distributions shift: 80 to 90% of bugs repeat known patterns, but agents increasingly fail in new ways.
+- **Model inversion:** Claude and GPT models fail differently. He cites Claude as about 3x more likely to produce off-by-one errors and GPT as notably more likely to produce auth bypasses, and attributes both to post-training. Reviewing with the model family that did not write the code gives about **10% higher catch rate**. To detect which agent wrote a PR, use fingerprints (Codex `codex/` branch prefixes, Claude "Co-Authored-By" trailers), which work about 80% of the time. The remaining 20% needs heuristics or dev-machine telemetry.
+- **Grep is not solved context.** It is imprecise and token-hungry. Coding-agent traces are dominated by grep, file read, and cache write. Greptile precomputes a knowledge base of subsystems (for example: auth, its flows, a diagram, every file involved) so the agent only reads files it needs. Auth-bypass detection is the example that requires it, because the agent has to know whether a code path runs in an authenticated context.
+- **Intent beats correctness.** With one-line Slack-style prompts, code can be correct and still wrong. Docs and tickets (Jira/Linear, Confluence/Notion) are the highest-value extra context. Greptile merges all of it, plus prod telemetry and logs, into a "living wiki" world model of the company.
+- **Autonomous testing:** reading a React diff cannot reveal a button hidden on iPhone. Spin up the PR branch in a dependency-complete VM, document the app's flows, and let vision-capable frontier models click through. He claims end-to-end QA is "nearly solved." The bottleneck is a simple build script and a flow map, not the model.
+- **Inference allocation:** about 20% of tokens go to frontier models (bug analysis, applying the review, final submission). Context finding goes to small models and flow testing to a light computer-use model. Production runs about 20 subtasks, each with its own tuned model choice. A simple version of this split gets 70 to 80% of the savings. A cheap reranker that decides what enters the frontier model's cache handles over-eager file reads.
+
+## Architecture & Optimization Mechanics
+This is a production LLM routing system with a clear cost structure. The frontier model's context and cache are the scarce resource, and everything upstream of them (retrieval, file triage, UI clicking) is high-volume, low-difficulty work. The 20/80 split matches what routing research predicts: most tokens are exploratory and do not need frontier capability. The rare-positive point is also correct and underrated. When the expensive failure mode occurs about once per 1,000 samples, aggregate quality metrics hide regressions, so any routing downgrade has to be validated against a curated hard-positive set, not average agreement. This is the same trap as judging a pruned or quantized model on perplexity when it fails on tail tasks.
+
+Model inversion amounts to **decorrelated ensembling for verification**. Generator and verifier from the same post-training lineage share blind spots, so their errors correlate and verification adds little. A different family gives a more independent error distribution, which helps most on rare, high-cost misses. The weak point is evidence. The 3x off-by-one and auth-bypass asymmetry and the 10% catch-rate gain are Greptile-internal numbers with no methodology shown. Also, "catch rate" without a false-positive rate is half a metric for a talk that argues nitpicks are harmful.
+
+Two claims are overstated. "1% of all GitHub PRs" is a self-reported marketing figure. "Single-digit percentage points of GDP growth last year were inference, mostly grep" is a rhetorical stretch. AI capex drove a large share of 2025 US GDP growth, but that was data-center construction and hardware, not inference tokens spent on grep.
+
+## Grounded Context (Web Enrichment)
+Greptile raised a $25M Series A led by Benchmark in September 2025 alongside v3, which it claimed catches 3x more critical bugs than v2. It has since shipped a sandboxed test-generation agent (TREX, June 2026) that reportedly catches about 20% more bugs by running code instead of reading diffs. That is the "autonomous testing" layer in this talk, sold as a product. Customer counts vary widely across aggregators (9,000 to 22,000 teams), so treat the scale claims as marketing. The advice to "build your own, we'll help for free" is also a funnel: every hard layer (cross-company PR corpus, forward-deployed engineers for sandboxes, a research team re-tuning 20 subtask routes) is presented as something an in-house team cannot match.
+
+Model inversion is now standard practitioner advice. Cursor Bugbot, MindStudio, and others recommend reviewing Claude Code PRs with a different vendor's model, and a widely cited March 2026 result reports self-preference bias in LLM judges (AUROC falling from 0.99 to 0.89 when judging another model's output). However, there is still no peer-reviewed controlled benchmark of same-family versus cross-family code review. The evidence is consistent but vendor-sourced. Greptile's 10% figure fits the pattern but cannot be verified independently.
+
+## Real-World Application / Actionable Step
+- **Add generator-verifier decorrelation to routing work.** When a router sends a query to a cheap model and a verifier decides whether to escalate, pick the verifier from a different model family or post-training lineage. Measure the escalation recall gain against a same-family verifier. This is a direct, testable extension of the inversion result.
+- **Build a hard-positive regression set before downgrading any route.** For each subtask you move to a smaller or compressed model, keep a curated set of rare, high-cost failure cases and gate releases on recall over that set, not on average win rate. The same applies to pruning and quantization releases.
+- **Treat frontier KV/prompt cache as the budgeted resource.** Put a cheap reranker in front of the expensive model to decide which retrieved chunks are admitted, and measure cost per correct outcome, not cost per token.
+- **If you run agent PR review on your own repos:** use a different model family than the one that wrote the code, add an explicit nitpick definition to the prompt, and seed the bug catalog from your own past incidents.
+
+Sources:
+- [Greptile $25M Series A and v3 (Pulse2)](https://pulse2.com/greptile-25-million-series-a-raised-and-v3-launched/)
+- [Greptile profile (Sacra)](https://sacra.com/c/greptile)
+- [Cross-Model Adversarial Review (Daniel Vaughan)](https://codex.danielvaughan.com/2026/03/28/cross-model-adversarial-review/)
+- [Cursor Bugbot reviewing Claude Code PRs (WorkOS)](https://workos.com/blog/cursor-bugbot-autoreview-claude-code-prs)
+- [Cross-vendor agent review (MindStudio)](https://www.mindstudio.ai/blog/cross-vendor-ai-agent-review-claude-codex/)
+- [AI reviewing AI blind spots (Tenki)](https://tenki.cloud/blog/ai-reviewing-ai-blind-spots)
+- [Scan-time review and self-preference bias (Hyrax)](https://hyrax.dev/blog/vs-code-rubber-duck-and-scan-time-review)
