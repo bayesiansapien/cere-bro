@@ -390,3 +390,8 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## 2026-10-26: half of a 3090's BF16 rate was a firmware setting
 
 [gpu-unlock](2026-10-26-gpu-unlock-and-rising-gpu-rents.md): a pre-driver kernel module writes Ampere GeForce speed-selector registers, doubling FP16/BF16-into-FP32 tensor issue rate (3090 Ti BF16 GEMM 87.5 to 157.4 TFLOPS). Prefill +14-36%; decode and INT8 unchanged because they are bandwidth- or format-bound. Roofline reminder: unlocking FLOPs does not move memory-bound decode.
+
+
+## Update 2026-10-29
+
+Meta Andromeda ([summary](2026-10-29-meta-andromeda-fused-retrieval-kernel.md)) fuses model and system work for ads retrieval into one kernel that never writes intermediates to HBM: 10B+ ads/s per GH200, 1B+ ads/s end to end. PyTorch 2.15 makes the rewritten NCCL backend default, adds NIXL one-sided transports, faster NVFP4 decode on Blackwell via fewer, better-overlapped NVGEMM launches, and a 1.32-1.34x MoE decode fast path on Apple Silicon. Dimitris Papailiopoulos reports Opus 5.5 beats GPT-6 Astra at custom kernels.

@@ -285,3 +285,8 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## 2026-10-27: accurate judges are not the best rewarders
 
 [Reward-model shorts](2026-10-27-reward-models-verified-optimization-shorts.md): Answer-Only generative judges beat more accurate Thinking judges as online-DPO rewarders in 7 of 8 settings, and earlier judge checkpoints can train better policies; DeCert supervises the judge's rationale (+14.8 position-consistent accuracy). OLMo-3 checkpoints show instrumental-convergence behavior is not monotonic in RLVR.
+
+
+## Update 2026-10-29
+
+What Outcome RL Buys (2610.34894): across 20 RL models, gains are finishing (82% under tight budgets) and reliability; reach adds at most 2.1 points. MPO anchors credit assignment at turns for long-horizon agents ([summary](2026-10-29-looped-truncation-and-what-outcome-rl-buys.md)).

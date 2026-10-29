@@ -236,3 +236,8 @@ This has a direct consequence for the breadth-versus-depth question [the 09-08 e
 ## 2026-10-26: the resource type matters more than the amount
 
 [Stuck-agent resources and budget rewards (10-26)](2026-10-26-stuck-agent-resources-and-budget-rewards.md). Banzhaf Resource Attribution toggles compute, information and feedback on fixed coding failures: specs help, test feedback a little, retrieved code not at all; compute's value falls with model capability. Frontier models pick feedback 95-100% of the time and lose to random. Oxford/Apple teach Qwen3.5 agents to spend stated budgets via overspend penalties, generalizing to unseen budgets. SWE-Verifier (same DAIR week) verifies <4% of steps for ~+2 points at 1.09-1.13x cost. **Shift:** CLEAR (06-05) and ATEST (10-22) priced tokens; allocation is now a routing problem over resource channels.
+
+
+## Update 2026-10-29
+
+Effort economics ([summary](../ai-routing/2026-10-29-effort-escalation-and-copilot-fusion.md)): higher reasoning effort is not monotone per instance (it fails tasks lower effort solved), costs up to 42x on easy tasks, and changes behaviour (more self-verification and search). Start-low-and-escalate-on-verified-failure matches or beats fixed max effort on every model tested. TTME (2610.32046) shows test-time memory evolution beats test-time training at ~83% fewer FLOPs.

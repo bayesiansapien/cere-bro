@@ -2161,3 +2161,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-28] social-stream | 2026-10-28 morning | social-stream
 ## [2026-10-28] media-zone | Media Zone 2026-10-28 (finalized from the live draft) | media-zone
 ## [2026-10-28] digest | cere-bro 2026-10-28 | daily-digest
+## [2026-10-29] ingest | MoE channel selection, SPOT, DeepInfer + AKV KV cache, effort economics + Copilot Fusion, Meta Andromeda, compute repricing (Q3 cloud earnings, GB300 rents, CoWoS), Gemini 4 Carbon + GPT-6.1 Terra, policy-is-a-harness + Trinity/EMMA/HaMo, looped truncation + outcome RL, agent security essay | huggingface + kurate + labs + rss + gmail + x-feed + youtube
+## [2026-10-29] social-stream | 2026-10-29 morning | social-stream
+## [2026-10-29] media-zone | Media Zone 2026-10-29 (finalized from the live draft) | media-zone
+## [2026-10-29] digest | cere-bro 2026-10-29 | daily-digest

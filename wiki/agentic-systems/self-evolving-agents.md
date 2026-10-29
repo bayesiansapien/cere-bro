@@ -397,3 +397,8 @@ DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPv
 ## 2026-10-27: shared infrastructure and the plasticity cost
 
 - DAIR's pick "Are Self-Evolving Agents Continual Learners?" (2610.25858): across 12 method/stream pairs, plasticity and stability correlate at r = -0.72; global self-edits interfere, memory retrieval collides. RSIHub and Hermit ship common substrates; HarnessMM keeps self-improvement to guarded, local decision reuse ([summary](2026-10-27-harnessmm-decision-reuse.md)).
+
+
+## Update 2026-10-29
+
+2026-10-29: EMMA (Amazon) scopes each self-edit to one owner (routing memory, prompt or skill) and beats GEPA/ACE/ADAS by up to 32.5% with fewer executions. HaMo combines experience cards with parametric training. Contradiction: a continual-learning study finds ReasoningBank, GEPA and Meta-Harness trade stability for plasticity under drift, because global prompt edits overwrite earlier knowledge ([summary](2026-10-29-policy-is-a-harness-and-self-evolving-harnesses.md)).

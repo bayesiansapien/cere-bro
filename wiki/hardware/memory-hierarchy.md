@@ -264,3 +264,8 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 ## 2026-10-27: yield beats height
 
 [8-high HBM4 for Rubin Ultra; CoWoS up to +20%](2026-10-27-power-metering-hbm4-cowos-networks.md): SK hynix and Samsung reportedly ship 8-layer HBM4 for Rubin Ultra by Q2 2027 because 12-high stacks struggle with heat and yield. TSMC CoWoS prices reportedly rise 10-20% as tool lead times stretch to 6-8 months and packages grow toward 9-14x reticle. Memory and packaging now set the schedule, not only the price.
+
+
+## Update 2026-10-29
+
+Two memory-hierarchy wins on 10-28: Meta Andromeda keeps per-ad intermediates in registers and shared memory (memory bandwidth, not FLOPs, was the bottleneck at billions of ads/s), and DeepSeek DeepInfer serves KV cache from SSD because MLA made each token's cache small enough. CXMT's HBM3E yields (20-30% vs ~70% at SK hynix) mean no quick second source for HBM.

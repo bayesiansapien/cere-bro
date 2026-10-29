@@ -962,3 +962,8 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 ## 2026-10-28: routers under 100M parameters, and gates that tie a coin flip
 
 [Small decision models as routers](2026-10-28-small-decision-models-as-routers.md): per-option scoring beats joint by 5.8 skill points at 32M (needs reranker init, 5-13x passes); released 68M/150M joint encoders beat a 435M DeBERTa zero-shot classifier, 14 ms vs 728 ms on CPU; joint encoders flip 12-23% of answers under reordering. Reranker fine-tunes beat decision fine-tunes up to 9B (2610.32318). Jev-as-a-Judge: 187x cheaper, within 0.6 points of Astra, but 23.2% vs 14.1% false approvals, and its confidence cascade saved no more than random routing. Production: Jev Router (10,000+ tools behind one MCP server), Google A2UI layout decisions via Jev (up to 80x lower latency). Still open: a router reward that prices discarded prefix cache.
+
+
+## Update 2026-10-29
+
+2026-10-29: routing moved into products and harnesses. GitHub Copilot Fusion routes coding work between Claude and GPT models: 60 vs 62 for Claude Code on AA's Coding Agent Index at half the cost per task ($5.59 vs $11.42). The effort-economics paper turns effort levels into a router ladder (escalate on verified failure). Trinity adds a capability-aware harness router; EMMA treats controller routing memory as editable episodic memory. Risk note: LiteLLM, a popular router library, was compromised this week ([summary](2026-10-29-effort-escalation-and-copilot-fusion.md)).

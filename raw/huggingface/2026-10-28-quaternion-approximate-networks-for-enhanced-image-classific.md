@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-10-29T10:37:09.996418+05:30
+arxiv_id: 2509.05512
+url: https://huggingface.co/papers/2509.05512
+arxiv_url: https://arxiv.org/abs/2509.05512
+date: 2026-10-28
+---
+
+# Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection
+
+This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, QUAN approximates quaternion convolution through Hamilton product decomposition using real-valued operations. This approach preserves geometric properties while enabling efficient implementation with custom CUDA kernels. We introduce Independent Quaternion Batch Normalization (IQBN) for training stability and extend quaternion operations to spatial attention mechanisms. QUAN is evaluated on image classification (CIFAR-10/100, ImageNet), object detection (COCO, DOTA), and robotic perception tasks. In classification tasks, QUAN achieves higher accuracy with fewer parameters and faster convergence compared to existing convolution and quaternion-based models. For objection detection, QUAN demonstrates improved parameter efficiency and rotation handling over standard Convolutional Neural Networks (CNNs) while establishing the SOTA for quaternion CNNs in this downstream task. These results highlight its potential for deployment in resource-constrained robotic systems requiring rotation-aware perception and application in other domains. Code: https://cwru-aism.github.io/ QUANpaper/

@@ -160,3 +160,8 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 ## 2026-10-26: reuse biases models toward context
 
 [Looped and depth-grown ICL (10-26)](2026-10-26-looped-depth-grown-icl.md): at 3B, looped and grown models use later context more than a same-depth dense model, acquire ICL earlier, and keep it when memorization is possible; copying layers copies early induction heads. First capability (not compute) result on this page. Not compared at matched FLOPs.
+
+
+## Update 2026-10-29
+
+Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-outcome-rl-buys.md)): across ~600 runs, full BPTT beats truncated BPTT at matched compute; two fully trained loops beat the compute-optimal non-looped model with ~27% fewer non-embedding parameters for 8% more compute.

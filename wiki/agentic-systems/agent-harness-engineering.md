@@ -833,3 +833,8 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 - **Trial by Trace (2610.32285):** harness benchmark, 7 components, 3,420 runs; harness scores 59.8-72.0%; 31.1% of runs succeed while failing a harness criterion. With AuthorizationBench (19.2% out-of-scope) and MANDATE (23 delegation-failure categories), task success is shown to hide process failure.
 - **Practice:** Axiom credits harness + infra co-design for its 40M-line Lean CFSG formalization ([summary](../llms-foundation-models/2026-10-28-agent-swarm-math-cfsg-eth.md)).
 - **State of knowledge:** the thin-harness case now has a verification corollary: spend tokens once, at the end, on an independent reviewer.
+
+
+## Update 2026-10-29
+
+2026-10-29: 'Your Policy Is Secretly a Harness' formalises deployed return as harness ceiling minus policy mismatch; reordering observation fields drops a trained agent from 85.0% to 19.2%, so fixed-model harness comparisons mislead. Trinity evolves a tree of harness modules with a capability router (+34 train, +26 unseen). h1 shows a simple loop with an efficient Lean interface beats specialised theorem-proving workflows. DeepLearning.AI and LangChain launched a 'loop engineering' course (agent, verification, event-driven and hill-climbing loops), and Google published hill-climbing agent quality with Agents CLI evals ([summary](2026-10-29-policy-is-a-harness-and-self-evolving-harnesses.md)).

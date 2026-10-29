@@ -424,3 +424,8 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## 2026-10-28: the memory tax
 
 [The memory tax (2610.34073)](2026-10-28-memory-tax-and-cheap-checks.md): net value = memory benefit minus memory tax (facts lost by rewriting history). Many memory systems score below raw-history RAG on LongMemEval, PersonaMem, MINT-Eval; retrieving raw history alongside memory and reranking cuts the tax. Second such result in two days after Raw-RAG (10-27).
+
+
+## Update 2026-10-29
+
+2026-10-29: AKV's cache engineering keeps the full text and edits only attention visibility, sidestepping the memory-tax failure (history rewriting drops facts) reported 10-28. HABIT-Bench and 'Rare, Relevant, and Still Wrong' add evidence that memory retrieval fails on weak or rare evidence.

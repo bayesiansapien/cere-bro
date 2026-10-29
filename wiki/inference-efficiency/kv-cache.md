@@ -826,3 +826,8 @@ Baidu's Unlimited-OCR 2 bounds text-visual attention with SR-SWA (a fixed set of
 - **[RAQ-MLA (2610.33625)](2026-10-28-raq-mla-role-aware-cache-quant.md)** (Kurate cs.AI #8, not on HF): in MLA the latent mainly supplies values while the positional key dominates scores; per-tensor invertible transforms fitted to their own output error give ~2.5 bits/element, 6.5x capacity, training-free, near lossless on reasoning/coding across four MLA models. Supplies the bits axis for the 10-25 "tokens x layers x bits" open question on MLA.
 - **Security:** Cloudflare's SGLang tenant-isolation bug leaked other users' data in 155 GLM-5.3 responses, all on prompts >681K tokens ([summary](../responsible-ai/2026-10-28-kv-leak-qwen-egress-black-october.md)). Cross-tenant prefix sharing is now a security surface, not only a cost lever.
 - **Hybrids:** LFM3 (6 of 24 layers global attention) and Ling-3.1 (9 MLA to 63 linear layers) ([summary](2026-10-28-local-decode-uzu-lfm3-ling.md)).
+
+
+## Update 2026-10-29
+
+DeepSeek open-sourced DeepInfer, its disk-tier prefix cache: MLA's ~93% smaller cache plus 3FS parallel SSD reads make loading cheaper than recompute (128K prompt TTFT 500 ms vs 13 s; hits priced 50x below misses; 3-day retention for agents). AKV (Tsinghua/CUHK) adds `drop` and `repos` cache operations so agents trim context without recompute: -27.7% cost, +1.7 points, 1.51x better P95 ([summary](2026-10-29-kv-cache-on-disk-and-cache-engineering.md)). Shift: the KV cache is now a storage-tier and agent-API object, not just HBM state.

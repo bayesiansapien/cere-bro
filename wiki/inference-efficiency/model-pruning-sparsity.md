@@ -270,3 +270,8 @@ Second, and mildly deflationary: **if weight-space similarity alone nearly match
 ## 2026-10-27: pruning as a branch of one weight tree
 
 [TWIG](2026-10-27-twig-shared-decision-weights.md) makes pruning a zero gate inside the same decision tree as quantization, low-rank and codebooks, so one solver can trade among them. Proposed, not yet demonstrated end to end.
+
+
+## Update 2026-10-29
+
+Channel selection for MoE decoding needs no calibration data ([summary](2026-10-29-moe-channel-selection-no-calibration.md)): calibrated thresholds neither fix the read budget (18% calibrated reads 12.9%) nor beat per-token top-k (top-k wins or ties 40 of 43). A weight-only reader (ternary sketch + low-rank recovery) keeps 98.1% accuracy at 17.8% of routed-expert reads, 1.60-1.90x faster MoE blocks than vLLM at batch 1. Shift: activation sparsity inside experts no longer needs calibration data.

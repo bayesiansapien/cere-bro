@@ -225,3 +225,8 @@ Sander Dieleman (DeepMind) highlighted flow-map language models as speculative d
 ## 2026-10-28: tree drafting at batch 1
 
 [uzu](2026-10-28-local-decode-uzu-lfm3-ling.md): DFlash drafter (16 positions) + 56.7M Weaver tree adapter, ~7.5 accepted tokens per verifier pass; Qwen3.5 9B at 92 tok/s on a base M5 vs 22 (llama.cpp). NVIDIA's DGX Spark recipe: built-in MTP accepts 3.90 tokens/round on Ling-3.0-flash. At batch 1 the deepest tree wins, the opposite of the 10-22 load-aware finding for servers.
+
+
+## Update 2026-10-29
+
+SPOT ([summary](2026-10-29-spot-diffusion-lm-speculative-decoding.md)) brings lossless speculative decoding to diffusion LMs: a 0.62M drafter predicts the commit *order* (tokens are already right at 90%+ of positions), the target verifies a tree in one pass, and coupled Gumbel noise keeps it exact at any temperature. Up to 6.8x fewer passes, 3.4x throughput on SDAR-8B. Practitioner note the same day: CUDA Graph padding makes verify cost a staircase (121 tokens pay for 128), so verify batch sizes should land on captured graph sizes ([summary](2026-10-29-kv-cache-on-disk-and-cache-engineering.md)).

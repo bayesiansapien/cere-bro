@@ -490,3 +490,8 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 - **Memory:** SK hynix 86% gross margin, DRAM ASP +28% QoQ, 5-year LTAs with 14 customers covering >50% of 2027-28; Chinese hyperscalers seek 10-year DDR5 deals.
 - **Margins:** Anthropic reports 85% gross margin on serving existing models, $3.5B H1 FCF.
 - **Capital:** Meta $97.5B equity (Nvidia $3B, AMD $1B); Broadcom $63B SPV for Anthropic; Physical Intelligence ~$20B; Onsemi-Ferric ~$1B ([roundup](../ai-industry/2026-10-28-industry-roundup.md)).
+
+
+## Update 2026-10-29
+
+Q3 earnings week ([summary](2026-10-29-cloud-earnings-gb300-rents-packaging-prices.md)): Google Cloud +103% to $30.7B with ~32B API tokens/minute; AWS sold out through 2027; Oracle calls FY28-29 peak capex; Deutsche Bank puts GB300 rents at ~$14/h vs $3.50 for H100; TSMC weighs a 10-20% CoWoS hike for 2027; CXMT HBM3E at 20-30% yields. Every layer is pre-sold or repricing upward, which raises the value of software efficiency (Jensen: 2x speed = 2x revenue while demand outruns supply).
