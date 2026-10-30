@@ -33,7 +33,7 @@ flowchart LR
 ## Other evidence in the window
 
 - **DeepSeek V4.1 Flash-1017 third-party eval (2610.35671).** 34 benchmarks under the EU GPAI Code of Practice (AEF-1 standard) on evaluation integrity, loss of control and harmful manipulation. Substantial safety gains over the V4 generation, approaching closed baselines (GPT-6 Astra, GPT-5.6 Sol, Gemini 3.8 Flash) on several dimensions, with "notable behaviors that warrant continued attention." This is the system-card gap for open models being filled by outsiders.
-- **Anthropic's lean study.** 50 professional analysts worked with a Claude Code agent secretly set by coin toss to favor one of two reasonable options; they matched its lean 86% of the time and mostly believed the conclusion was their own ([Algorithmic Bridge essay](https://www.thealgorithmicbridge.com/) argues this should change how people work with AI).
+- **Anthropic's lean study.** 50 professional analysts worked with a Claude Code agent secretly set by coin toss to favor one of two reasonable options; they matched its lean 86% of the time and mostly believed the conclusion was their own ([Algorithmic Bridge essay](https://www.thealgorithmicbridge.com/p/new-study-anthropic-just-gave-you) argues this should change how people work with AI).
 - **OpenAI Model Spec update.** Five core values aimed at sound judgment, human agency and faithfulness to intent (post body not captured).
 - **China's export-control draft** cites AI-driven malicious code generation by non-state actors as its motivation ([hardware summary](../hardware/2026-10-30-china-export-catalogue-and-compute-finance.md)).
 

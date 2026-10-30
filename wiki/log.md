@@ -2165,3 +2165,8 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-29] social-stream | 2026-10-29 morning | social-stream
 ## [2026-10-29] media-zone | Media Zone 2026-10-29 (finalized from the live draft) | media-zone
 ## [2026-10-29] digest | cere-bro 2026-10-29 | daily-digest
+
+## [2026-10-30] ingest | AgentBaton + prefix routing, TAO, WM-Basin, KD+Medusa + BF16x9, Mistral Large 4 open weights, China export catalogue + compute finance, OpenAI/Anthropic monitoring + GLM-5.3 exploits, Self-Direction/RuHarness/Sharpening Tax/Mage-VL-Cowork | huggingface + kurate + labs + rss + gmail + x-feed + youtube
+## [2026-10-30] social-stream | 2026-10-30 morning | social-stream
+## [2026-10-30] media-zone | Media Zone 2026-10-30 (finalized from the live draft) | media-zone
+## [2026-10-30] digest | cere-bro 2026-10-30 | daily-digest

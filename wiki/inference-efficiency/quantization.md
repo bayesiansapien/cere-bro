@@ -281,3 +281,8 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 - **[miniTE (2610.23928)](2026-10-28-minite-nvfp4-rl.md):** native NVFP4 RL fails from sampler/learner execution mismatch, not weights; aligned W4A4 learner 1.39x BF16 on a B300 node.
 - **[OPTIC (2610.31309)](2026-10-28-optic-ple-compression.md):** ~100x per-layer-embedding compression keeps 97.8% (PQ 66.3%).
 - **State of knowledge:** four papers in one day fit quantizers against downstream damage (reasoning accuracy, attention output, PLE output path, cross-engine policy drift) rather than tensor reconstruction error. That is now the field's default frame.
+
+## 2026-10-30: ternary at 27B, per-layer GGUF, and emulating FP32 upward
+
+- PrismML's Bonsai 2 (ternary) reports Qwen3.8-27B at 5.9 GB from 55.6 GB with 98.2% aggregate retention over 20 benchmarks (self-reported). Nanbeige4.3-33B per-layer mixed GGUF: 11.6 GB at +3.8% perplexity vs +14% for uniform IQ2_S. Mistral Large 4 shipped day-zero in NVFP4 ([summary](../llms-foundation-models/2026-10-30-mistral-large-4-open-weights.md)).
+- NVIDIA BF16x9 / TF32x3 run FP32-accurate GEMMs on Tensor Cores (2.2-2.5x on large GEMMs) with no retraining ([summary](2026-10-30-kd-medusa-and-tensor-core-fp32.md)). Precision is now chosen per layer in both directions.

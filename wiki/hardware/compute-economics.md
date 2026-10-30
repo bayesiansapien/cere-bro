@@ -495,3 +495,7 @@ Nathan Lambert predicts near-exponential decline in the effective cost of intell
 ## Update 2026-10-29
 
 Q3 earnings week ([summary](2026-10-29-cloud-earnings-gb300-rents-packaging-prices.md)): Google Cloud +103% to $30.7B with ~32B API tokens/minute; AWS sold out through 2027; Oracle calls FY28-29 peak capex; Deutsche Bank puts GB300 rents at ~$14/h vs $3.50 for H100; TSMC weighs a 10-20% CoWoS hike for 2027; CXMT HBM3E at 20-30% yields. Every layer is pre-sold or repricing upward, which raises the value of software efficiency (Jensen: 2x speed = 2x revenue while demand outruns supply).
+
+## Update 2026-10-30
+
+Vendor credit and memory margins ([summary](2026-10-30-china-export-catalogue-and-compute-finance.md)): Nvidia in talks to guarantee billions of Nscale debt for a 460 MW site backing a $45B Anthropic contract; Anthropic was 34.5% of SpaceX's Q3 revenue (up to $120.5B to 2029, but a terminable maximum, unlike hyperscaler minimums); Samsung Q3 operating profit ~$80.5B (+783%), HBM4 60% of HBM sales; DOE $5B loan for a 1.1 GW nuclear uprate pre-sold to Google/Meta/Amazon; Intel -20% after hours as its CEO says agents moved CPU:GPU from 1:8 to 1:4; China drafts licensing for exports of models, agents and chip designs. Mistral Large 4's API price halved; Agent Arena prices models per task.

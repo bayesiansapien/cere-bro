@@ -766,3 +766,8 @@ Same-day entries: **LSPD** (OPD's reverse KL is KL-regularized policy optimizati
 ## 2026-10-27: on-policy distillation for teams and from nothing
 
 MultiAgent-OPD gives subagents token-level teacher supervision while the leader learns from team success (+2.61 over a trained cascaded system); On-Policy Self-Training self-distills from a self-written curriculum with no external data ([shorts](../llms-foundation-models/2026-10-27-reward-models-verified-optimization-shorts.md)).
+
+## 2026-10-30: distillation gets a detector, and a production recipe
+
+- **WM-Basin (Meta FAIR, 2610.37266):** watermarked teacher traces leave a key-specific direction in the student's weights, orthogonal to task fine-tuning. A black-box detector (text to probe-model gradients, project out task directions, test against the key) flags 79% of distilled students at 0.1% FPR vs 29% token-level; survives quantization, pruning, RL ([summary](2026-10-30-watermark-basins-distillation-detection.md)). Same day: Reuters/The Information report Kimi K3.1 Pro and DeepSeek V4.1-Flash 1017 were built partly by distilling GPT-6 Astra.
+- **KD + Medusa-2 at Booking.com (AWS):** 70B teacher to 1.1B student closes >90% of the gap, Medusa heads add 2-3.6x, net 10-20x faster at teacher quality ([summary](2026-10-30-kd-medusa-and-tensor-core-fp32.md)). Off-policy KD still wins on narrow tasks.

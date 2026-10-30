@@ -967,3 +967,7 @@ Routers have so far chosen a model or a reasoning-effort setting. [LoopFormer](.
 ## Update 2026-10-29
 
 2026-10-29: routing moved into products and harnesses. GitHub Copilot Fusion routes coding work between Claude and GPT models: 60 vs 62 for Claude Code on AA's Coding Agent Index at half the cost per task ($5.59 vs $11.42). The effort-economics paper turns effort levels into a router ladder (escalate on verified failure). Trinity adds a capability-aware harness router; EMMA treats controller routing memory as editable episodic memory. Risk note: LiteLLM, a popular router library, was compromised this week ([summary](2026-10-29-effort-escalation-and-copilot-fusion.md)).
+
+## Update 2026-10-30
+
+2026-10-30: routing inside a single agent trajectory. NVIDIA's AgentBaton finds handoff direction decides everything: cheap-to-capable saves little or nothing, capable-to-cheap at the right stage keeps accuracy, and one switch is enough. A 338 ms detector picks the moment; -65.9% API cost across 11 model pairs ([summary](2026-10-30-agentbaton-capable-to-cheap-handoff.md)). Open tension with the 10-29 effort-escalation result (start low, escalate on failure): model handoff wants strong-first, effort wants cheap-first. Practitioner side: prefix-aware routing (route to the GPU holding the longest cached prefix) brought p90 TTFT to 0.54 s vs 92.5 s random on 16 H100s; Agent Arena splits cost per task into price x tokens (Sol vs Opus: fewer tokens; Sol vs Astra: lower price). Mage-VL-Cowork internalizes turn-level GUI-vs-shell routing in one 4B policy.

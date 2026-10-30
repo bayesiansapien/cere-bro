@@ -838,3 +838,7 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 ## Update 2026-10-29
 
 2026-10-29: 'Your Policy Is Secretly a Harness' formalises deployed return as harness ceiling minus policy mismatch; reordering observation fields drops a trained agent from 85.0% to 19.2%, so fixed-model harness comparisons mislead. Trinity evolves a tree of harness modules with a capability router (+34 train, +26 unseen). h1 shows a simple loop with an efficient Lean interface beats specialised theorem-proving workflows. DeepLearning.AI and LangChain launched a 'loop engineering' course (agent, verification, event-driven and hill-climbing loops), and Google published hill-climbing agent quality with Agents CLI evals ([summary](2026-10-29-policy-is-a-harness-and-self-evolving-harnesses.md)).
+
+## Update 2026-10-30
+
+Harness evolution meets its critic problem: RuHarness evolves the rubric with the harness so supervision tracks current weaknesses (+4.5 held-out). Mage-VL-Cowork shows evolving the *teacher's* harness before distillation (prune overlapping tools, preinstall libraries) gives +12.5 points to a 4B student and 29.2% fewer teacher steps. AgentBaton puts a capable-to-cheap model handoff inside the loop. Spawn (Simon Willison write-up) runs a Fable agent swarm that ships hourly and treats an hour without a ship as SEV-0 ([summary](2026-10-30-agents-that-keep-their-lessons.md)).

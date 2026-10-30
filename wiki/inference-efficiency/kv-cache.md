@@ -831,3 +831,7 @@ Baidu's Unlimited-OCR 2 bounds text-visual attention with SR-SWA (a fixed set of
 ## Update 2026-10-29
 
 DeepSeek open-sourced DeepInfer, its disk-tier prefix cache: MLA's ~93% smaller cache plus 3FS parallel SSD reads make loading cheaper than recompute (128K prompt TTFT 500 ms vs 13 s; hits priced 50x below misses; 3-day retention for agents). AKV (Tsinghua/CUHK) adds `drop` and `repos` cache operations so agents trim context without recompute: -27.7% cost, +1.7 points, 1.51x better P95 ([summary](2026-10-29-kv-cache-on-disk-and-cache-engineering.md)). Shift: the KV cache is now a storage-tier and agent-API object, not just HBM state.
+
+## Update 2026-10-30
+
+The KV cache became a scheduling and routing signal. TAO (2610.37230) scores waiting agent sessions on tool readiness plus node-specific cache credit with time decay, then places them with a dynamic program: up to -36.3% TTFT, +29.5% decode throughput ([summary](2026-10-30-tao-tool-aware-agentic-serving.md)). Prefix-aware routing sends requests to the worker holding the longest cached prefix (p90 TTFT 0.54 s vs 92.5 s random). Anthropic's self-assessment safety check is cheap because the conversation is already in the KV cache ([summary](../responsible-ai/2026-10-30-frontier-monitoring-self-assessment-open-cyber.md)).

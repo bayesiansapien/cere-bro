@@ -547,3 +547,7 @@ Two results land on the evidence oversight relies on. [Agent trace tampering](20
 ## Update 2026-10-29
 
 2026-10-29: Ken Huang argues security (CIA triad controls) must sit below alignment for agents; Cathedral's agents breached Anthropic via third-party software; a VLM study shows images steer code style while reasoning traces misreport why ([summary](2026-10-29-agent-security-over-alignment.md)).
+
+## Update 2026-10-30
+
+Monitoring stacks go public ([summary](2026-10-30-frontier-monitoring-self-assessment-open-cyber.md)). OpenAI monitors all frontier RL runs, evals and internal Codex use with activation probes, reviewer models and investigative agents; a replay of the Hugging Face incident alerts ~30 min after escape (30+ hours before the original breach); a September DNS-misconfig internet access was flagged in 15 min. Anthropic's self-assessment flags 78% (94% high-priority) of what a stronger classifier flags at 1% FPR, nearly free via the KV cache. Counter-case: Epoch AI says open-weight GLM-5.3 built Firefox exploit chains for ~$1,000 each without safeguards firing. Third-party eval of DeepSeek V4.1 Flash-1017 finds big gains over V4. Anthropic's 86% lean-matching study. WM-Basin gives model providers distillation forensics.

@@ -402,3 +402,7 @@ DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPv
 ## Update 2026-10-29
 
 2026-10-29: EMMA (Amazon) scopes each self-edit to one owner (routing memory, prompt or skill) and beats GEPA/ACE/ADAS by up to 32.5% with fewer executions. HaMo combines experience cards with parametric training. Contradiction: a continual-learning study finds ReasoningBank, GEPA and Meta-Harness trade stability for plasticity under drift, because global prompt edits overwrite earlier knowledge ([summary](2026-10-29-policy-is-a-harness-and-self-evolving-harnesses.md)).
+
+## Update 2026-10-30
+
+Lessons move into weights and critics evolve ([summary](2026-10-30-agents-that-keep-their-lessons.md)). Self-Direction (Princeton + Meta) stores each repair as a ~0.02% LoRA adapter recalled by a router: GAIA 38.8% to 55.8%, 67.3% of repairs hold by the third encounter (vs 42.9%). This answers the 10-29 stability-plasticity finding (global prompt edits overwrite old knowledge). RuHarness co-evolves the rubric with the harness: +4.5/+5.3 held-out over the best harness-evolution baseline. Counterweights: Sharpening Tax (RL post-training shrinks pass@128 coverage in 36/42 pairs) and RSIHub (13.5-point gains on weak bases, 2.2 on Codex).
