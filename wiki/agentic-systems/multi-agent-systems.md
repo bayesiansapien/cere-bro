@@ -146,3 +146,7 @@ Both push in the direction [Emergent Collusion (09-23)](../responsible-ai/2026-0
 ## 2026-10-19: team design as compute allocation
 
 Cohere ([summary](../ai-routing/2026-10-19-coding-agent-teams-and-token-audits.md)) shows coding teams cost 3-7x a solo agent and that only planning workers keep scaling past four; implementers and verifiers plateau. Delegating only planning matches full delegation at half the cost.
+
+## Update 2026-10-31
+
+rTaste: agent teams cost more than single research agents with no clear gain in experiment-proposal quality; agents' rankings barely beat taking the first idea ([summary](2026-10-31-rtaste-and-agent-judgment-influence.md)).

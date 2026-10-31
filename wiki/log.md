@@ -2170,3 +2170,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-30] social-stream | 2026-10-30 morning | social-stream
 ## [2026-10-30] media-zone | Media Zone 2026-10-30 (finalized from the live draft) | media-zone
 ## [2026-10-30] digest | cere-bro 2026-10-30 | daily-digest
+## [2026-10-31] ingest | Broken on Arrival, Soft-MTP, WISD, AB-Attention, Glance + Arena cache economics, LOWN, Nemotron 3.5 + NVFP4 DeepSeek, MICA/DART, agentic backdoors, rTaste + Anthropic judgment study, cyber wave + Interconnects | huggingface + kurate + labs + rss + gmail + x-feed + youtube
+## [2026-10-31] social-stream | 2026-10-31 morning | social-stream
+## [2026-10-31] media-zone | Media Zone 2026-10-31 (finalized from the live draft) | media-zone
+## [2026-10-31] digest | cere-bro 2026-10-31 | daily-digest

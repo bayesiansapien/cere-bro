@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-10-23T17:30:21.197596+00:00",
+  "following_last_checked": "2026-10-30T12:56:17.654246+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -113,7 +113,10 @@
     "TheFP",
     "nataliegwinters",
     "harleyf",
-    "andrewrbell"
+    "andrewrbell",
+    "dandees2",
+    "m_goes_distance",
+    "asha_shar"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -978,6 +981,24 @@
     {
       "handle": "TheFigen_",
       "name": "The Figen",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "petersellis",
+      "name": "Peter Sellis",
+      "org": "Microsoft",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "shivon",
+      "name": "Shivon Zilis",
       "org": "Independent",
       "timezone": "PT",
       "focus": [

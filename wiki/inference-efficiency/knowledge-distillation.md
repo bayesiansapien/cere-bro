@@ -771,3 +771,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 
 - **WM-Basin (Meta FAIR, 2610.37266):** watermarked teacher traces leave a key-specific direction in the student's weights, orthogonal to task fine-tuning. A black-box detector (text to probe-model gradients, project out task directions, test against the key) flags 79% of distilled students at 0.1% FPR vs 29% token-level; survives quantization, pruning, RL ([summary](2026-10-30-watermark-basins-distillation-detection.md)). Same day: Reuters/The Information report Kimi K3.1 Pro and DeepSeek V4.1-Flash 1017 were built partly by distilling GPT-6 Astra.
 - **KD + Medusa-2 at Booking.com (AWS):** 70B teacher to 1.1B student closes >90% of the gap, Medusa heads add 2-3.6x, net 10-20x faster at teacher quality ([summary](2026-10-30-kd-medusa-and-tensor-core-fp32.md)). Off-policy KD still wins on narrow tasks.
+
+## 2026-10-31: weaker self-teachers and KL inside MTP
+
+- **WISD (2610.38681):** construct a *weaker* copy by quantization or pruning and distill on the contrast, on-policy, with unlabeled prompts only. +4.0 (quant) / +5.5 (prune) average; Qwen3.5-4B HMMT 57.7 to 70.5 ([summary](2026-10-31-wisd-weakening-self-distillation.md)). First wiki entry where the teacher is worse than the student.
+- **Soft-MTP (2610.38331):** MTP training already contains a KL self-distillation gradient; isolating it is a free improvement ([summary](2026-10-31-soft-mtp-kl-gradient-recovery.md)). Nemotron 3.5 Super uses multi-teacher on-policy distillation (MOPD) in production post-training ([summary](../llms-foundation-models/2026-10-31-nemotron-35-report-and-4bit-serving.md)).

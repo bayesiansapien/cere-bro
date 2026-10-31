@@ -286,3 +286,9 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 
 - PrismML's Bonsai 2 (ternary) reports Qwen3.8-27B at 5.9 GB from 55.6 GB with 98.2% aggregate retention over 20 benchmarks (self-reported). Nanbeige4.3-33B per-layer mixed GGUF: 11.6 GB at +3.8% perplexity vs +14% for uniform IQ2_S. Mistral Large 4 shipped day-zero in NVFP4 ([summary](../llms-foundation-models/2026-10-30-mistral-large-4-open-weights.md)).
 - NVIDIA BF16x9 / TF32x3 run FP32-accurate GEMMs on Tensor Cores (2.2-2.5x on large GEMMs) with no retraining ([summary](2026-10-30-kd-medusa-and-tensor-core-fp32.md)). Precision is now chosen per layer in both directions.
+
+## 2026-10-31: functional testing becomes the missing step
+
+- Broken on Arrival ([summary](2026-10-31-broken-on-arrival-quantized-artifacts.md)): 7 of 305 official code-capable Ollama GGUF tags (2.3%) solve ≤6 of 164 HumanEval+ tasks; all are low-bit ≤4B models; registry files match clean rebuilds tensor for tensor, and imatrix calibration lifts Qwen2.5-Coder-3B from 0 to 76-113. Reproducibility is not function.
+- NVIDIA's DeepSeek-V4.1-Flash-1017 NVFP4 card: lossless MXFP4-to-NVFP4 expert conversion, lossy Engram to MXFP4, ~400 GiB, evals within noise of source, with the explicit caveat that lossless weights do not imply unchanged behavior ([summary](../llms-foundation-models/2026-10-31-nemotron-35-report-and-4bit-serving.md)). Nemotron 3.5 NVFP4: 99.62% median recovery.
+- WISD inverts the frame: a quantized or pruned copy of the model becomes a self-distillation teacher (+4.0 / +5.5 points) ([summary](2026-10-31-wisd-weakening-self-distillation.md)).

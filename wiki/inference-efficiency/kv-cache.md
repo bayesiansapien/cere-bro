@@ -835,3 +835,7 @@ DeepSeek open-sourced DeepInfer, its disk-tier prefix cache: MLA's ~93% smaller 
 ## Update 2026-10-30
 
 The KV cache became a scheduling and routing signal. TAO (2610.37230) scores waiting agent sessions on tool readiness plus node-specific cache credit with time decay, then places them with a dynamic program: up to -36.3% TTFT, +29.5% decode throughput ([summary](2026-10-30-tao-tool-aware-agentic-serving.md)). Prefix-aware routing sends requests to the worker holding the longest cached prefix (p90 TTFT 0.54 s vs 92.5 s random). Anthropic's self-assessment safety check is cheap because the conversation is already in the KV cache ([summary](../responsible-ai/2026-10-30-frontier-monitoring-self-assessment-open-cyber.md)).
+
+## Update 2026-10-31
+
+The cache as a price and a decision substrate ([summary](2026-10-31-glance-reranker-and-cache-economics.md)). Arena's 26K-session analysis: without prompt caching a top-10 agent task would cost 3.6x; a Claude Fable 5.1 task $7.44 vs ~$27; one cache expiry adds ~5%. Glance (2610.40454) prefills all RAG candidates once and branches relevance probes off the shared cache, so one 9B backbone reranks (beats bge-reranker-v2-m3) and generates; quality keeps rising to 200 candidates (43K tokens) from one prefill. LOWN reuses certified predictions across denoising steps and runs under KV caching ([summary](../ai-routing/2026-10-31-lown-certificate-guided-visual-routing.md)).

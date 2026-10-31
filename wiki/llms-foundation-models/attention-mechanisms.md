@@ -227,3 +227,7 @@ Every trainable sparse-attention method this page has tracked shares one archite
 - **MiTA (2602.01219, resurfaced on X):** attention as an N-wide fast-weight MLP; efficient attention either routes (top-k, MoE attention, DSA) or compresses (linear attention) it.
 - **TTR-Compressor (2610.31574):** block summaries as closed-form regression coefficients; better block selection for block-sparse attention on RULER, 55.6% fewer visual tokens ([compression shorts](../inference-efficiency/2026-10-24-compression-shorts-ttr-t2quant-diffusion-cost.md)).
 - **Kimi K3.1 Pro** keeps K3's 69 KDA (fixed-state linear attention) + 24 MLA layer hybrid at 1M context ([summary](2026-10-24-kimi-k3-1-pro.md)).
+
+## Update 2026-10-31
+
+AB-Attention turns dynamic block-sparse attention into importance sampling with inverse-probability weights, fixing the softmax bias of dropping blocks ([summary](../inference-efficiency/2026-10-31-ab-attention-block-sparse-video.md)).

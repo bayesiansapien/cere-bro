@@ -230,3 +230,7 @@ Sander Dieleman (DeepMind) highlighted flow-map language models as speculative d
 ## Update 2026-10-29
 
 SPOT ([summary](2026-10-29-spot-diffusion-lm-speculative-decoding.md)) brings lossless speculative decoding to diffusion LMs: a 0.62M drafter predicts the commit *order* (tokens are already right at 90%+ of positions), the target verifies a tree in one pass, and coupled Gumbel noise keeps it exact at any temperature. Up to 6.8x fewer passes, 3.4x throughput on SDAR-8B. Practitioner note the same day: CUDA Graph padding makes verify cost a staircase (121 tokens pay for 128), so verify batch sizes should land on captured graph sizes ([summary](2026-10-29-kv-cache-on-disk-and-cache-engineering.md)).
+
+## Update 2026-10-31
+
+Drafter quality moves into pretraining. Soft-MTP ([summary](2026-10-31-soft-mtp-kl-gradient-recovery.md)) shows the MTP cross-entropy gradient is exactly a KL self-distillation term (MTP head toward the model's own next-token distribution, which is what acceptance rate needs) plus a low-SNR residual that grows more harmful with scale; a one-line straight-through trick keeps only the KL part with fused CE kernels intact. Better perplexity and faster speculative decoding at every scale from 167M to 1.2B. Nemotron 3.5's post-training MTP boosting (+21.8% acceptance length) chases the same target after the fact ([summary](../llms-foundation-models/2026-10-31-nemotron-35-report-and-4bit-serving.md)). Open: does Soft-MTP's advantage grow at 100B+ as predicted?

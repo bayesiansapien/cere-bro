@@ -395,3 +395,7 @@ KernelAgent (Meta, PyTorchCon talk): a multi-agent harness that feeds GPU perfor
 ## Update 2026-10-29
 
 Meta Andromeda ([summary](2026-10-29-meta-andromeda-fused-retrieval-kernel.md)) fuses model and system work for ads retrieval into one kernel that never writes intermediates to HBM: 10B+ ads/s per GH200, 1B+ ads/s end to end. PyTorch 2.15 makes the rewritten NCCL backend default, adds NIXL one-sided transports, faster NVFP4 decode on Blackwell via fewer, better-overlapped NVGEMM launches, and a 1.32-1.34x MoE decode fast path on Apple Silicon. Dimitris Papailiopoulos reports Opus 5.5 beats GPT-6 Astra at custom kernels.
+
+## Update 2026-10-31
+
+AB-Attention ([summary](../inference-efficiency/2026-10-31-ab-attention-block-sparse-video.md)): block-sparse attention for video DiTs that samples KV blocks by estimated importance and reweights by inverse inclusion probability (an unbiased estimate of dense attention, not a truncation), with a kernel that packs sub-tile blocks into full tensor-core tiles. Skips 89-92% of attention, +4.4 dB PSNR over the best baseline, 2.23x end to end on Wan2.1 / HunyuanVideo.
