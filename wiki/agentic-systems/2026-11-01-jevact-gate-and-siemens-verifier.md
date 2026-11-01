@@ -1,6 +1,6 @@
 # JevAct and Siemens' NeMo Gym verifier: the check, not the model, fixes the agent
 
-**Date:** 2026-11-01 · **Sources:** [JevAct, arXiv 2610.38620](https://arxiv.org/abs/2610.38620) (IBM; DAIR Academy pick Oct 31, surfaced by [@omarsar0](https://x.com/omarsar0/status/2116547247018229999)); [NVIDIA tech blog on Siemens Fuse EDA agent](https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/) (surfaced by [@NVIDIAAI](https://x.com/NVIDIAAI/status/2116236342653026706)) · **Raw:** X Following-feed captures 2026-10-31 evening
+**Date:** 2026-11-01 · **Sources:** [JevAct, arXiv 2610.38620](https://arxiv.org/abs/2610.38620) (IBM; DAIR Academy pick Oct 31, surfaced by [@omarsar0](https://x.com/omarsar0/status/2116547247018229999)); [NVIDIA tech blog on Siemens Fuse EDA agent](https://nvda.ws/4Beujcb) (surfaced by [@NVIDIAAI](https://x.com/NVIDIAAI/status/2116236342653026706)) · **Raw:** X Following-feed captures 2026-10-31 evening
 
 ## TL;DR
 

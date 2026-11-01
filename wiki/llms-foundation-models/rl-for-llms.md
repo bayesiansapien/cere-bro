@@ -290,3 +290,7 @@ The RL era for LLMs is firmly established. RLVR (RL with verifiable rewards) is 
 ## Update 2026-10-29
 
 What Outcome RL Buys (2610.34894): across 20 RL models, gains are finishing (82% under tight budgets) and reliability; reach adds at most 2.1 points. MPO anchors credit assignment at turns for long-horizon agents ([summary](2026-10-29-looped-truncation-and-what-outcome-rl-buys.md)).
+
+## Update 2026-11-01
+
+[Unified training (CMU, 2610.40564)](2026-11-01-air-schedule-unified-training-benchmark-measure.md): RL objectives recast as likelihood on the model's own correct answers put pretraining, SFT and RL in one trainer; blending 5% midtraining data into math RL gave 32.69% vs 29.81% MBPP+ after later coding RL (0.76B). Staging becomes a data-mixing schedule. DeepMind's psychiatric-intake RL (2610.40476) cut missed acute-risk escalations from 30.5% to 12.9% using simulated patients.

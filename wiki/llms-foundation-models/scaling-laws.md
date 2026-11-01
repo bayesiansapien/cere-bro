@@ -43,3 +43,7 @@ Two consequences worth stating plainly. First, **the compute-optimal token-to-pa
 - [LLaDA MoE v2: scaling MoE diffusion LMs (08-05)](2026-08-05-llada-moe-v2-scaling-moe-diffusion-lms.md)
 - [SemiAnalysis on Kimi K3 (08-04)](2026-08-04-semianalysis-kimi-k3-architecture-primer.md), which derives the MoE communication-to-computation ratio, which constrains which N and D configurations are even servable
 - [Interconnects: Lessons from the hacks (08-09)](../responsible-ai/2026-08-10-interconnects-lessons-from-the-hacks.md), the missing inference-side scaling law
+
+## Update 2026-11-01
+
+[AIR (2610.40362)](2026-11-01-air-schedule-unified-training-benchmark-measure.md): weight-normalization gains are mostly the effective-LR trajectory it induces; matching effective LR collapses WN and WD dynamics. AIR (affine inverse-sqrt decay) beats cosine by ~0.01 terminal loss on 128B-token MoE pretraining with better hyperparameter robustness. Schedule the effective LR, not the nominal one.

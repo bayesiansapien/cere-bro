@@ -839,3 +839,7 @@ The KV cache became a scheduling and routing signal. TAO (2610.37230) scores wai
 ## Update 2026-10-31
 
 The cache as a price and a decision substrate ([summary](2026-10-31-glance-reranker-and-cache-economics.md)). Arena's 26K-session analysis: without prompt caching a top-10 agent task would cost 3.6x; a Claude Fable 5.1 task $7.44 vs ~$27; one cache expiry adds ~5%. Glance (2610.40454) prefills all RAG candidates once and branches relevance probes off the shared cache, so one 9B backbone reranks (beats bge-reranker-v2-m3) and generates; quality keeps rising to 200 candidates (43K tokens) from one prefill. LOWN reuses certified predictions across denoising steps and runs under KV caching ([summary](../ai-routing/2026-10-31-lown-certificate-guided-visual-routing.md)).
+
+## Update 2026-11-01
+
+[MLLM retrieval heads (2610.32411)](2026-11-01-efficiency-shorts.md): heads that copy evidence from long context are under 2% of all heads, shared across text, vision and audio-visual input, and inherited by omni models from their backbones. Supports head-level KV policies that protect a small, identifiable set. Any-order AR adaptation (2610.39293) keeps KV-cache and vLLM compatibility that discrete diffusion gives up.

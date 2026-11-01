@@ -314,3 +314,7 @@ This page's recurring complaint is that agentic evaluation numbers are not compa
 ## 2026-10-23
 
 VerifierBench (agent-written verifiers: balanced accuracy 10.6-62.1, over-rejection dominates), FrontierCS 2 (best agent passes 58%), Agent4Sci (gains are engineering tricks), WildAWM (341 synthetic long-horizon tasks, GPT-6 Astra 60%). See [automated research measured](2026-10-23-automated-research-measured.md), [Harness Scaling and WildAWM](2026-10-23-harness-scaling-and-wildawm.md), [shorts](../llms-foundation-models/2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md).
+
+## Update 2026-11-01
+
+[Your Benchmark Is an Empirical Measure Over Difficulty (2610.29927)](../llms-foundation-models/2026-11-01-air-schedule-unified-training-benchmark-measure.md): 25 benchmarks in 7 domains show measure mismatch (overweighting some difficulty bands) or coverage gaps (no items where progress happens); BenchFill rewrites items to fill gaps. Read leaderboards per difficulty band.

@@ -429,3 +429,7 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## Update 2026-10-29
 
 2026-10-29: AKV's cache engineering keeps the full text and edits only attention visibility, sidestepping the memory-tax failure (history rewriting drops facts) reported 10-28. HABIT-Bench and 'Rare, Relevant, and Still Wrong' add evidence that memory retrieval fails on weak or rare evidence.
+
+## Update 2026-11-01
+
+[Routed CL (2610.38796)](2026-11-01-routed-continual-learning.md): one global in-context history gains only +0.015 over no memory once tasks interleave; partitioning experience into routed clusters, each with its own memory system, adds 15-30% of max reward and cuts API cost 65-72%. Refines the 10-24/10-28 "raw history wins" result: keep raw detail, but partition it. Untested: retrieval-over-raw-history as a baseline on the same mixed stream, and parallel writers per cluster.

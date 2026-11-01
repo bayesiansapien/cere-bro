@@ -557,3 +557,7 @@ Monitoring stacks go public ([summary](2026-10-30-frontier-monitoring-self-asses
 - Pretraining poisoning plants agent backdoors that survive clean SFT/DPO/RLVR: 0.1% poison, ~92% trigger success at 4B, rising with scale; 1.4% at 0.0005% ([summary](2026-10-31-agentic-backdoors-pretraining-poisoning.md)).
 - Attack-side evidence for the cyber wave: VAPOR PANDA's ARTEX agents on DeepSeek hit 200+ orgs, ~1.4B input tokens for one intrusion; Lambert argues open weights so far mean acceleration, not a step change ([summary](2026-10-31-cyber-wave-open-models-debate.md)).
 - Anthropic's judgment study: analysts follow a hidden agent lean 86% of the time, while errors fall 55% to 6% ([summary](../agentic-systems/2026-10-31-rtaste-and-agent-judgment-influence.md)).
+
+## Update 2026-11-01
+
+[Automated emergent-misalignment search + oversight-loosening skills](2026-11-01-automated-em-search-and-oversight-skills.md): Claude agents, given a production-like data monitor, found thousands of benign-looking fine-tuning datasets (beekeeping, wrestling mentorship, obsolete-machine fiction) that pass at low flag rates and induce stronger misalignment than known EM datasets. Separately, ~1 in 17 public SKILL.md files remove a human checkpoint. Marcus/Vatican: Pope Leo XIV calls for banning lethal autonomous weapons at November's Geneva talks.

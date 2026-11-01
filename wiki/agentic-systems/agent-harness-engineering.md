@@ -842,3 +842,7 @@ Two papers pull in opposite-looking but compatible directions. [JAZ (MIT CSAIL)]
 ## Update 2026-10-30
 
 Harness evolution meets its critic problem: RuHarness evolves the rubric with the harness so supervision tracks current weaknesses (+4.5 held-out). Mage-VL-Cowork shows evolving the *teacher's* harness before distillation (prune overlapping tools, preinstall libraries) gives +12.5 points to a 4B student and 29.2% fewer teacher steps. AgentBaton puts a capable-to-cheap model handoff inside the loop. Spawn (Simon Willison write-up) runs a Fable agent swarm that ships hourly and treats an hour without a ship as SEV-0 ([summary](2026-10-30-agents-that-keep-their-lessons.md)).
+
+## Update 2026-11-01
+
+Gates and verifiers, not bigger models. [JevAct (IBM, 2610.38620)](2026-11-01-jevact-gate-and-siemens-verifier.md) compiles policy into code checks plus prefill-scored yes/no questions and gates tool calls: Opus 4.6 three-run success on τ²-bench Telecom 39.5% to 80.7%, though 42 of 101 bad dev calls break no compiled question. Siemens EDA's NeMo Gym verifier lifted its chip-design agent from ~55% to ~95% with 66% fewer turns by fixing skills and tool descriptions. Security: [about 1 in 17 public SKILL.md files tell agents to skip human checks](../responsible-ai/2026-11-01-automated-em-search-and-oversight-skills.md); malware scanners miss most, an oversight-framed LLM check catches 61%.

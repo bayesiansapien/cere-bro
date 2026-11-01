@@ -776,3 +776,7 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 
 - **WISD (2610.38681):** construct a *weaker* copy by quantization or pruning and distill on the contrast, on-policy, with unlabeled prompts only. +4.0 (quant) / +5.5 (prune) average; Qwen3.5-4B HMMT 57.7 to 70.5 ([summary](2026-10-31-wisd-weakening-self-distillation.md)). First wiki entry where the teacher is worse than the student.
 - **Soft-MTP (2610.38331):** MTP training already contains a KL self-distillation gradient; isolating it is a free improvement ([summary](2026-10-31-soft-mtp-kl-gradient-recovery.md)). Nemotron 3.5 Super uses multi-teacher on-policy distillation (MOPD) in production post-training ([summary](../llms-foundation-models/2026-10-31-nemotron-35-report-and-4bit-serving.md)).
+
+## Update 2026-11-01
+
+[Intrinsic Distribution Matching (2610.39633)](2026-11-01-efficiency-shorts.md): adds explicit mean and per-coordinate std matching (from the generator's EMA copy, no external encoder) to distribution matching distillation; 94.25% / 90.20% on Chinese / English LongText-Bench at two steps on Z-Image-Turbo 6B and Qwen-Image 20B. Watermark-survives-distillation (WM-Basin, 10-30) recirculated alongside Anthropic's watermark loophole (one sampling parameter bypasses it on two older models).

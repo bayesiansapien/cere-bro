@@ -399,3 +399,7 @@ Meta Andromeda ([summary](2026-10-29-meta-andromeda-fused-retrieval-kernel.md)) 
 ## Update 2026-10-31
 
 AB-Attention ([summary](../inference-efficiency/2026-10-31-ab-attention-block-sparse-video.md)): block-sparse attention for video DiTs that samples KV blocks by estimated importance and reweights by inverse inclusion probability (an unbiased estimate of dense attention, not a truncation), with a kernel that packs sub-tile blocks into full tensor-core tiles. Skips 89-92% of attention, +4.4 dB PSNR over the best baseline, 2.23x end to end on Wan2.1 / HunyuanVideo.
+
+## Update 2026-11-01
+
+Batch invariance gets a price tag ([efficiency shorts](../inference-efficiency/2026-11-01-efficiency-shorts.md)): kernels choose reduction splits by batch size, so concurrent traffic changes logits; fixed-order flags now exist in vLLM (beta), SGLang (25-45% slower) and DeepInfer. Follows the 10-14 bit-exact vLLM work.

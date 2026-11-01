@@ -499,3 +499,8 @@ Q3 earnings week ([summary](2026-10-29-cloud-earnings-gb300-rents-packaging-pric
 ## Update 2026-10-30
 
 Vendor credit and memory margins ([summary](2026-10-30-china-export-catalogue-and-compute-finance.md)): Nvidia in talks to guarantee billions of Nscale debt for a 460 MW site backing a $45B Anthropic contract; Anthropic was 34.5% of SpaceX's Q3 revenue (up to $120.5B to 2029, but a terminable maximum, unlike hyperscaler minimums); Samsung Q3 operating profit ~$80.5B (+783%), HBM4 60% of HBM sales; DOE $5B loan for a 1.1 GW nuclear uprate pre-sold to Google/Meta/Amazon; Intel -20% after hours as its CEO says agents moved CPU:GPU from 1:8 to 1:4; China drafts licensing for exports of models, agents and chip designs. Mistral Large 4's API price halved; Agent Arena prices models per task.
+
+
+## Update 2026-11-01
+
+Physical scarcity vs capital wariness ([summary](2026-11-01-gpu-rents-up-neoclouds-down.md)): B300 rents +52% since May while neocloud stocks fell 46-75%; revenue per MW varies 3x; hyperscalers hold $3T+ in data-center commitments ($1.3T leases); Meta modeled at 26GW by 2030 with $171B annual depreciation (S&P outlook negative); Baseten raising ~$2B at up to $30B; OpenAI closed ~$11B of $30B.

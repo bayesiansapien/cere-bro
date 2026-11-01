@@ -2174,3 +2174,8 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-10-31] social-stream | 2026-10-31 morning | social-stream
 ## [2026-10-31] media-zone | Media Zone 2026-10-31 (finalized from the live draft) | media-zone
 ## [2026-10-31] digest | cere-bro 2026-10-31 | daily-digest
+## [2026-11-01] ingest | Routed CL, JevAct + Siemens NeMo Gym, batch invariance + CoSTA/IDM/any-order AR/retrieval heads, AIR + unified training + benchmark measure, Anthropic automated EM search + oversight skills + watermark loophole | huggingface (late 10-30 list) + rss + gmail + x-feed
+## [2026-11-01] social-stream | 2026-11-01 morning | social-stream
+## [2026-11-01] media-zone | Media Zone 2026-11-01 (finalized from the live draft) | media-zone
+## [2026-11-01] digest | cere-bro 2026-11-01 | daily-digest
+## [2026-11-01] ingest | GPU rents vs neocloud finance; WorkFactory/WebAnything/EasyProver/Platonic shorts; digest gap-fill from Media Zone (batch invariance, Kalshi, PAMO, PlanAssist) | x-feed + rss + huggingface
