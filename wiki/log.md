@@ -2179,3 +2179,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-01] media-zone | Media Zone 2026-11-01 (finalized from the live draft) | media-zone
 ## [2026-11-01] digest | cere-bro 2026-11-01 | daily-digest
 ## [2026-11-01] ingest | GPU rents vs neocloud finance; WorkFactory/WebAnything/EasyProver/Platonic shorts; digest gap-fill from Media Zone (batch invariance, Kalshi, PAMO, PlanAssist) | x-feed + rss + huggingface
+## [2026-11-02] ingest | NVIDIA KV compression infra, PyTorch column-major MoE kernels, SemiAnalysis datacenter backlash + GDPx, DeepSeek Super-agent + fresh-context reviewers, safety-training spillover | rss + gmail + x-feed + youtube (HF stale: no new papers)
+## [2026-11-02] social-stream | 2026-11-02 morning | social-stream
+## [2026-11-02] media-zone | Media Zone 2026-11-02 (finalized from the live draft) | media-zone
+## [2026-11-02] digest | cere-bro 2026-11-02 | daily-digest

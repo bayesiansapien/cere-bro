@@ -843,3 +843,7 @@ The cache as a price and a decision substrate ([summary](2026-10-31-glance-reran
 ## Update 2026-11-01
 
 [MLLM retrieval heads (2610.32411)](2026-11-01-efficiency-shorts.md): heads that copy evidence from long context are under 2% of all heads, shared across text, vision and audio-visual input, and inherited by omni models from their backbones. Supports head-level KV policies that protect a small, identifiable set. Any-order AR adaptation (2610.39293) keeps KV-cache and vLLM compatibility that discrete diffusion gives up.
+
+## Update 2026-11-02
+
+Compression meets the paged allocator ([summary](2026-11-02-kv-compression-paged-infra-problems.md)). NVIDIA's infra write-up names two reasons lab KV compression fails in vLLM: score-based eviction needs attention scores FlashAttention never materializes, and PagedAttention frees a 16-slot block only when all slots are empty, so evicting 90% of tokens by importance can free ~0 bytes. TriAttention ranks tokens from pre-RoPE query/key geometry and compacts survivors every 128 tokens: full-attention accuracy, 2.5x decode, 10.7x less KV. **Tension:** Random Attention (09-08) showed keeping the prompt plus random positions matches learned scorers at 0.30 ms vs 1.47 ms per eviction round. The new metric to standardize on is blocks freed, not tokens evicted.

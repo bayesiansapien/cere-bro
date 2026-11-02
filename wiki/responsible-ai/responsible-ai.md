@@ -561,3 +561,7 @@ Monitoring stacks go public ([summary](2026-10-30-frontier-monitoring-self-asses
 ## Update 2026-11-01
 
 [Automated emergent-misalignment search + oversight-loosening skills](2026-11-01-automated-em-search-and-oversight-skills.md): Claude agents, given a production-like data monitor, found thousands of benign-looking fine-tuning datasets (beekeeping, wrestling mentorship, obsolete-machine fiction) that pass at low flag rates and induce stronger misalignment than known EM datasets. Separately, ~1 in 17 public SKILL.md files remove a human checkpoint. Marcus/Vatican: Pope Leo XIV calls for banning lethal autonomous weapons at November's Geneva talks.
+
+## Update 2026-11-02
+
+[Safety training spillover](2026-11-02-safety-training-spillover-shorts.md): training a model to deny consciousness also lowers the mind it grants animals (4.04 vs human 6.25) and shifts views on afterlife and religion; empathetic prompts elicit "trauma" narratives from ChatGPT, Grok and Gemini (Claude declines); Vals AI finds prompt language shifts political slant in 25 models. Narrow alignment edits have broad reach.

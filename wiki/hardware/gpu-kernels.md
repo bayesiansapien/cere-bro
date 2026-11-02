@@ -403,3 +403,7 @@ AB-Attention ([summary](../inference-efficiency/2026-10-31-ab-attention-block-sp
 ## Update 2026-11-01
 
 Batch invariance gets a price tag ([efficiency shorts](../inference-efficiency/2026-11-01-efficiency-shorts.md)): kernels choose reduction splits by batch size, so concurrent traffic changes logits; fixed-order flags now exist in vLLM (beta), SGLang (25-45% slower) and DeepInfer. Follows the 10-14 bit-exact vLLM work.
+
+## Update 2026-11-02
+
+Tile order as a cache policy ([summary](2026-11-02-moe-column-major-kernels-and-gpu-notebook.md)). PyTorch's column-major scheduling for vLLM's fused Triton MoE GEMM keeps the expert-weight column in L2 across neighbouring output tiles: L2 hit rate 2.54x, DRAM loads ~50% lower, up to 4x (A100) and 4.4x (H100). A 2024 post that trended again because a practitioner jumped 95 leaderboard places with it; paired with a free 56-chapter GPU-architecture notebook. Decode-time MoE is a data-movement problem.

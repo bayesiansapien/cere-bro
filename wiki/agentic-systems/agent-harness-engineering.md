@@ -846,3 +846,7 @@ Harness evolution meets its critic problem: RuHarness evolves the rubric with th
 ## Update 2026-11-01
 
 Gates and verifiers, not bigger models. [JevAct (IBM, 2610.38620)](2026-11-01-jevact-gate-and-siemens-verifier.md) compiles policy into code checks plus prefill-scored yes/no questions and gates tool calls: Opus 4.6 three-run success on τ²-bench Telecom 39.5% to 80.7%, though 42 of 101 bad dev calls break no compiled question. Siemens EDA's NeMo Gym verifier lifted its chip-design agent from ~55% to ~95% with 66% fewer turns by fixing skills and tool descriptions. Security: [about 1 in 17 public SKILL.md files tell agents to skip human checks](../responsible-ai/2026-11-01-automated-em-search-and-oversight-skills.md); malware scanners miss most, an oversight-framed LLM check catches 61%.
+
+## Update 2026-11-02
+
+Coordinator plus fresh-context workers ([summary](2026-11-02-deepseek-super-agent-and-fresh-context-reviewers.md)). Three designs in one weekend share one shape: DeepSeek's Super-agent (chat-only Router, isolated parallel Workers, watchdog; p95 29.5 to 15.7 min), Google's Elephant-Goldfish (long session writes the spec, context-free subagents explain and attack it) and the Claude Code team's fresh-context reviewer plus voting bug hunters. The bet: isolation, not model size, catches errors, and short reviewer contexts are cheap. HarnessMM (10-27) resurfaced with DeepSeek Harness at 87.93% fewer tokens.

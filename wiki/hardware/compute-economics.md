@@ -504,3 +504,7 @@ Vendor credit and memory margins ([summary](2026-10-30-china-export-catalogue-an
 ## Update 2026-11-01
 
 Physical scarcity vs capital wariness ([summary](2026-11-01-gpu-rents-up-neoclouds-down.md)): B300 rents +52% since May while neocloud stocks fell 46-75%; revenue per MW varies 3x; hyperscalers hold $3T+ in data-center commitments ($1.3T leases); Meta modeled at 26GW by 2030 with $171B annual depreciation (S&P outlook negative); Baseten raising ~$2B at up to $30B; OpenAI closed ~$11B of $30B.
+
+## Update 2026-11-02
+
+Politics as a supply shock ([summary](2026-11-02-datacenter-backlash-midterms-2028-buildout.md)). SemiAnalysis: ~3/4 of 2027's 33.8 GW (top 20 states) already under construction; the 2028 fight is over 62.2 GW of US net additions, 70% in 13 states, 10 electing governors on Nov 3. Exposure ranges from ~5.7 GW (conditions-only winners) to ~30 GW (pause winners). Texas (~30% of 2028 GW) has frozen TCEQ permits since Sept 21. The Information counts pause backers in 21 of 36 races. Google's data-center energy head puts orbital DCs at up to 100x terrestrial cost.
