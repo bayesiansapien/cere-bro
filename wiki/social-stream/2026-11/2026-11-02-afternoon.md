@@ -20,7 +20,7 @@ No new curated reposts this afternoon, so the slot is the US Sunday-evening Foll
 
 - **Meta and NYU: a simple Lean loop matches hand-built provers** ([@rohanpaul_ai](https://x.com/rohanpaul_ai/status/2117165769956130895)). A plain loop with good Lean tools and more compute matches or beats specialized theorem-proving systems. Another "the harness beats the bespoke system" data point. Click through to read.
 
-- **CMU on how foundation models get trained** ([@omarsar0 via dair_ai](https://x.com/dair_ai/status/2116630061595984077)). Omar Saravia recommends a paper asking whether pretraining and post-training should be separate stages. Likely the "Unified Training" entry on DAIR's weekly list. Click through to read.
+- **CMU on how foundation models get trained** ([@omarsar0 via dair_ai](https://x.com/dair_ai/status/2116630061595984077)). Elvis Saravia recommends a paper asking whether pretraining and post-training should be separate stages. Likely the "Unified Training" entry on DAIR's weekly list. Click through to read.
 
 - **Open-weight exploit models (cluster of 2).** Jun Song refused a black-hat group's offer to post-train open weights on exploit data. His point: you can patch a bug but not a downloadable capability ([@VaibhavSisinty](https://x.com/VaibhavSisinty/status/2117153032731558153)). The same day, a vendor advertises Hinoki Offensive One, trained on 150K CVE exploits with "zero refusals" ([@wang_johnny](https://x.com/wang_johnny/status/2117059801440264209)). The worry is already a product.
 
