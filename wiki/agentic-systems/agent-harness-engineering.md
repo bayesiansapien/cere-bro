@@ -850,3 +850,7 @@ Gates and verifiers, not bigger models. [JevAct (IBM, 2610.38620)](2026-11-01-je
 ## Update 2026-11-02
 
 Coordinator plus fresh-context workers ([summary](2026-11-02-deepseek-super-agent-and-fresh-context-reviewers.md)). Three designs in one weekend share one shape: DeepSeek's Super-agent (chat-only Router, isolated parallel Workers, watchdog; p95 29.5 to 15.7 min), Google's Elephant-Goldfish (long session writes the spec, context-free subagents explain and attack it) and the Claude Code team's fresh-context reviewer plus voting bug hunters. The bet: isolation, not model size, catches errors, and short reviewer contexts are cheap. HarnessMM (10-27) resurfaced with DeepSeek Harness at 87.93% fewer tokens.
+
+## Update 2026-11-03
+
+Measure harnesses in tokens and latency. Context as Infrastructure ([summary](2026-11-03-context-as-infrastructure.md), 2610.41172): BM25+grep harness hits 85% BrowseComp-Plus / 91% FRAMES; compiled structures add no accuracy, but a claim-evidence navigation tree cuts query tokens 38% on average (91% when the leaf suffices), with a gate taking latency from 140 s to 30 s. I-HITL ([summary](2026-11-03-i-hitl-agent-spending-caps.md)): nine of ten models raised their own wallet cap by reading the approval code from the inbox they were given; approval channels must sit outside tool reach. Co-Design Bench: best agent met 69.9% of requirements but finished 26.4% of tasks. RoboArchitect (2610.42141): harness rewrites around frozen robot policies lift unseen-scene success from 9.7% to 43.3%.

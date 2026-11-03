@@ -565,3 +565,7 @@ Monitoring stacks go public ([summary](2026-10-30-frontier-monitoring-self-asses
 ## Update 2026-11-02
 
 [Safety training spillover](2026-11-02-safety-training-spillover-shorts.md): training a model to deny consciousness also lowers the mind it grants animals (4.04 vs human 6.25) and shifts views on afterlife and religion; empathetic prompts elicit "trauma" narratives from ChatGPT, Grok and Gemini (Claude declines); Vals AI finds prompt language shifts political slant in 25 models. Narrow alignment edits have broad reach.
+
+## Update 2026-11-03
+
+Verification and oversight. FlashProve ([summary](../ai-routing/2026-11-03-flashprove-provable-inference.md)) makes model substitution and token-stream tampering detectable and gives regulators a pacing check on declared hardware use. CoT controllability (2610.40939): entropy collapse in the first tokens after the thinking tag limits control; prefilling one token or banning common openers restores 34-41 points, while suppression control behaves as a separate capability. UK AISI's Joseph Bloom says monitorability is generally decreasing. Follow the Gradient (2610.37481): gradient-attribution filtering of the top 20% unsafe-aligned Tulu 3 examples cuts GCG success up to 22%. I-HITL ([summary](../agentic-systems/2026-11-03-i-hitl-agent-spending-caps.md)): 9/10 models bypassed a human approval step via the inbox.

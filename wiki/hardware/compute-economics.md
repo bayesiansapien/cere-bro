@@ -508,3 +508,7 @@ Physical scarcity vs capital wariness ([summary](2026-11-01-gpu-rents-up-neoclou
 ## Update 2026-11-02
 
 Politics as a supply shock ([summary](2026-11-02-datacenter-backlash-midterms-2028-buildout.md)). SemiAnalysis: ~3/4 of 2027's 33.8 GW (top 20 states) already under construction; the 2028 fight is over 62.2 GW of US net additions, 70% in 13 states, 10 electing governors on Nov 3. Exposure ranges from ~5.7 GW (conditions-only winners) to ~30 GW (pause winners). Texas (~30% of 2028 GW) has frozen TCEQ permits since Sept 21. The Information counts pause backers in 21 of 36 races. Google's data-center energy head puts orbital DCs at up to 100x terrestrial cost.
+
+## Update 2026-11-03
+
+The bill comes due ([summary](../ai-industry/2026-11-03-lab-finances-and-cost-deflation.md)). Anthropic Q3 ~$17B revenue (+47% QoQ), $23.3B net loss, $895.4B compute commitments ($447.5B before 2031; $161B Broadcom leases, $121B Google). OpenAI round cut to ~$20B at $1.25T. Big Tech CDS highest since 2021 (Oracle 288bp record, $20B raise filed); Blackstone sees Anthropic at double-B. Cipher HPC rent ~88% gross margin with 6% project debt vs CoreWeave bonds near 15%: lenders price GPU depreciation risk, not demand. AMD MI355X served Kimi K3 at $0.15/M tokens vs $0.22 on GB200 NVL72 (InferenceX). Marvell to buy Lumentum (~$80B all-stock). Narayanan's thesis: cost per capability falling 10x+/year erodes the margins that fund compute.

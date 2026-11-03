@@ -2183,3 +2183,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-02] social-stream | 2026-11-02 morning | social-stream
 ## [2026-11-02] media-zone | Media Zone 2026-11-02 (finalized from the live draft) | media-zone
 ## [2026-11-02] digest | cere-bro 2026-11-02 | daily-digest
+## [2026-11-03] ingest | FlashProve provable inference, training-inference mismatch (DLC), memory squeeze (HBM/lead times/smuggling), System-1 routing economics + REA, Context as Infrastructure, I-HITL, lab finances + Narayanan cost-deflation essay | labs + huggingface + rss + gmail + dair + kurate + x-feed + youtube (Reddit/LinkedIn empty)
+## [2026-11-03] social-stream | 2026-11-03 morning | social-stream
+## [2026-11-03] media-zone | Media Zone 2026-11-03 (finalized from the live draft) | media-zone
+## [2026-11-03] digest | cere-bro 2026-11-03 | daily-digest

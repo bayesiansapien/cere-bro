@@ -294,3 +294,7 @@ What Outcome RL Buys (2610.34894): across 20 RL models, gains are finishing (82%
 ## Update 2026-11-01
 
 [Unified training (CMU, 2610.40564)](2026-11-01-air-schedule-unified-training-benchmark-measure.md): RL objectives recast as likelihood on the model's own correct answers put pretraining, SFT and RL in one trainer; blending 5% midtraining data into math RL gave 32.69% vs 29.81% MBPP+ after later coding RL (0.76B). Staging becomes a data-mixing schedule. DeepMind's psychiatric-intake RL (2610.40476) cut missed acute-risk escalations from 30.5% to 12.9% using simulated patients.
+
+## Update 2026-11-03
+
+Two results on RL's hidden costs. Training-inference mismatch ([summary](2026-11-03-training-inference-mismatch-dlc.md), 2610.40945): engine numerics give a near-constant bias (remove by centering per prefix); async policy lag is a feedback loop that importance weighting controls only until the ratio's ESS drops below 0.5; DLC resyncs at that point. No Free Lunch in RLVR (2610.39295, DAIR pick): under exclusive specialization every pass@1 gain lowers some prompt's success; the pass@k crossover is a computable price, and removing it costs the whole pass@1 gain.

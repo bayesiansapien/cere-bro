@@ -269,3 +269,7 @@ The capacity that leaves HBM lands in **host DRAM, which is now a working KV tie
 ## Update 2026-10-29
 
 Two memory-hierarchy wins on 10-28: Meta Andromeda keeps per-ad intermediates in registers and shared memory (memory bandwidth, not FLOPs, was the bottleneck at billions of ads/s), and DeepSeek DeepInfer serves KV cache from SSD because MLA made each token's cache small enough. CXMT's HBM3E yields (20-30% vs ~70% at SK hynix) mean no quick second source for HBM.
+
+## Update 2026-11-03
+
+Memory squeeze, quantified ([summary](2026-11-03-memory-squeeze-hbm-lead-times.md)). SK hynix Q3: 80% operating margin, HBM4 to pass HBM3E in Q4 mix, LTAs on over half of 2027-28 output. Stack yield is y^n: 8 dies at 95% die yield = 66% all-good before screening, at 98% = 85%. TrendForce: GPU lead times 45 weeks, DRAM 19 weeks, 32/64GB RDIMMs severely tight. UBS: ~89 EB DRAM by 2030 vs ~282 EB for a full agentic buildout (AI CPUs carry ~3x memory). HBM reaches China packaged with sub-threshold CPUs. FlashProve fits a 400B prover on one 80 GB GPU by streaming layers from ~290 GB host RAM.
