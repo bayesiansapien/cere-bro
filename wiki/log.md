@@ -2188,3 +2188,4 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-03] media-zone | Media Zone 2026-11-03 (finalized from the live draft) | media-zone
 ## [2026-11-03] digest | cere-bro 2026-11-03 | daily-digest
 ## [2026-11-03] ingest | gap-fill from the late afternoon X capture: Cohere speculative decoding on fine-grained MoE, LLM Compressor v0.15, PyTorch 2.15, Prime Inference cache hits | x-feed
+## [2026-11-03] gap-fill | 2026-11-03 digest: OPAL, Metis-1.6, R2Orch, AWS SeqKD, Agent Arena 93:1, Revolut GLM | x-feed, hf, labs
