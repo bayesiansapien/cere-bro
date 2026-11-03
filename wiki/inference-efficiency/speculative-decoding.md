@@ -234,3 +234,7 @@ SPOT ([summary](2026-10-29-spot-diffusion-lm-speculative-decoding.md)) brings lo
 ## Update 2026-10-31
 
 Drafter quality moves into pretraining. Soft-MTP ([summary](2026-10-31-soft-mtp-kl-gradient-recovery.md)) shows the MTP cross-entropy gradient is exactly a KL self-distillation term (MTP head toward the model's own next-token distribution, which is what acceptance rate needs) plus a low-SNR residual that grows more harmful with scale; a one-line straight-through trick keeps only the KL part with fused CE kernels intact. Better perplexity and faster speculative decoding at every scale from 167M to 1.2B. Nemotron 3.5's post-training MTP boosting (+21.8% acceptance length) chases the same target after the fact ([summary](../llms-foundation-models/2026-10-31-nemotron-35-report-and-4bit-serving.md)). Open: does Soft-MTP's advantage grow at 100B+ as predicted?
+
+## Update 2026-11-03
+
+MoE no longer kills low-batch speculation ([summary](2026-11-03-speculative-decoding-fine-grained-moe.md), Cohere, 2610.38981). Across 10 MoEs (30B-1T, 8-512 experts) on H100, fine-grained models get their best speedup at low batch: adjacent tokens share 20-45% of experts (vs 4-12% independent), and L2 absorbs repeated expert reads. Qwen3-235B FP8 verify pass at 89% of decode-step speed vs 52% predicted. NVIDIA Cosmos NIM ships speculative decoding with KV-cache-aware routing for ~2-3x on H200.
