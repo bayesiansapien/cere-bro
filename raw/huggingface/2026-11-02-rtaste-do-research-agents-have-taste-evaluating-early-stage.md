@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-03T14:58:56.502058+05:30
+arxiv_id: 2610.40488
+url: https://huggingface.co/papers/2610.40488
+arxiv_url: https://arxiv.org/abs/2610.40488
+date: 2026-11-02
+---
+
+# rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment
+
+Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known? We give six frontier models seven recent NLP papers. Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will pass a threshold it sets and ranks them. A separate executor then attempts every MVE, including those ranked last, and three model auditors judge the results. Of 415 MVEs, 194 are judged sound, valuable and new, but fewer than half of these (73) are also judged beyond the seed paper and non obvious. The agents' first choices match the auditors' most valued experiment more often than a random pick, but are not shown to improve on choosing the experiment written first. Their forecasts beat a base rate but are not measurably more accurate than those of a fresh instance of the same model given only the paper and registrations. Teams cost more without a clear overall improvement in proposal quality. The agents produce many worthwhile experiments, but the evidence that their rankings improve the choice of which to run remains limited. The evaluation harness and a dataset of all 415 MVEs, with their forecasts and audited outcomes, are available at https://github.com/ArtKanke/rTaste.
