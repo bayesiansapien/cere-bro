@@ -238,3 +238,8 @@ Drafter quality moves into pretraining. Soft-MTP ([summary](2026-10-31-soft-mtp-
 ## Update 2026-11-03
 
 MoE no longer kills low-batch speculation ([summary](2026-11-03-speculative-decoding-fine-grained-moe.md), Cohere, 2610.38981). Across 10 MoEs (30B-1T, 8-512 experts) on H100, fine-grained models get their best speedup at low batch: adjacent tokens share 20-45% of experts (vs 4-12% independent), and L2 absorbs repeated expert reads. Qwen3-235B FP8 verify pass at 89% of decode-step speed vs 52% predicted. NVIDIA Cosmos NIM ships speculative decoding with KV-cache-aware routing for ~2-3x on H200.
+
+
+## Update 2026-11-04
+
+Roles reversed ([ProVe](2026-11-04-prove-proposer-verifier-decoding.md), 2610.27815). The *target* is fine-tuned to propose a 16-token block in one pass, and a second pass verifies it, either with itself (lossless, 2.5x on a 32B) or with a 3B AR model (2.7x, -2.6 points). Average AR-matching prefix is 6.6 tokens on GSM8K. Extends the self-drafting line (MTP heads, Soft-MTP 10-31) with no draft head at all. Untested on MoE, where the 11-03 Cohere expert-locality result is the relevant check.

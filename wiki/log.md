@@ -2189,3 +2189,12 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-03] digest | cere-bro 2026-11-03 | daily-digest
 ## [2026-11-03] ingest | gap-fill from the late afternoon X capture: Cohere speculative decoding on fine-grained MoE, LLM Compressor v0.15, PyTorch 2.15, Prime Inference cache hits | x-feed
 ## [2026-11-03] gap-fill | 2026-11-03 digest: OPAL, Metis-1.6, R2Orch, AWS SeqKD, Agent Arena 93:1, Revolut GLM | x-feed, hf, labs
+
+## [2026-11-04] ingest | FLAMIA, ProVe, O3PD/TESD/DecisionRank, LEMS, StateBench/DAMI/LoL/BYOD, continual harness evolution, LeanGuard | huggingface
+## [2026-11-04] ingest | Skill++, XLA:TPU agent swarms, SPAR, HarnessRouter/UHP, OpenVLHarness, SN50, SK hynix-Penguin | x-feed
+## [2026-11-04] ingest | SemiAnalysis SpaceX AI cloud; HBM smuggling; Nvidia China cloud rule; Anthropic chip design; LinkedIn model swap | rss
+## [2026-11-04] ingest | Ai2 StateBench, Cohere Model Vault, Kimi K3 Bedrock India, Meta F3 Lightning, NVIDIA AI fab | labs
+## [2026-11-04] ingest | Ken Huang DeepSeek-V4.1-Flash 1-bit on DGX Spark | gmail
+## [2026-11-04] social-stream | 2026-11-04 morning | social-stream
+## [2026-11-04] media-zone | Media Zone 2026-11-04 | media-zone
+## [2026-11-04] digest | cere-bro 2026-11-04 | daily-digest

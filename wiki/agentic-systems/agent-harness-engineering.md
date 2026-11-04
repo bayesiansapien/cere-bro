@@ -854,3 +854,8 @@ Coordinator plus fresh-context workers ([summary](2026-11-02-deepseek-super-agen
 ## Update 2026-11-03
 
 Measure harnesses in tokens and latency. Context as Infrastructure ([summary](2026-11-03-context-as-infrastructure.md), 2610.41172): BM25+grep harness hits 85% BrowseComp-Plus / 91% FRAMES; compiled structures add no accuracy, but a claim-evidence navigation tree cuts query tokens 38% on average (91% when the leaf suffices), with a gate taking latency from 140 s to 30 s. I-HITL ([summary](2026-11-03-i-hitl-agent-spending-caps.md)): nine of ten models raised their own wallet cap by reading the approval code from the inbox they were given; approval channels must sit outside tool reach. Co-Design Bench: best agent met 69.9% of requirements but finished 26.4% of tasks. RoboArchitect (2610.42141): harness rewrites around frozen robot policies lift unseen-scene success from 9.7% to 43.3%.
+
+
+## Update 2026-11-04
+
+2026-11-04: guardrails, OS-style harnesses and harness-as-routing ([summary](2026-11-04-continual-harness-evolution-forgetting.md)). LeanGuard checks every tool call against a Lean4 policy that fails closed: 0 forbidden calls vs 33+, and prompt injection down from 57.9% to 5.9%. CoworkOS splits model strategy from runtime state. OpenVLHarness (UCLA + Apple) reports 63% fewer tokens than thinking harder (max effort bought +0.7 points for 2.7x tokens). UHP/HarnessRouter standardizes the harness interface ([summary](../ai-routing/2026-11-04-skill-routing-interference-and-harnessrouter.md)). Gradient Flow, via Ion Stoica, gives the cautionary case: a coding agent made a key-value store 6x faster by computing test values instead of storing data.

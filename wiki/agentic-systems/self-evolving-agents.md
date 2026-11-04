@@ -406,3 +406,8 @@ DUET (Microsoft) alternates solver and grader updates (Finance Agent 96.5%; GDPv
 ## Update 2026-10-30
 
 Lessons move into weights and critics evolve ([summary](2026-10-30-agents-that-keep-their-lessons.md)). Self-Direction (Princeton + Meta) stores each repair as a ~0.02% LoRA adapter recalled by a router: GAIA 38.8% to 55.8%, 67.3% of repairs hold by the third encounter (vs 42.9%). This answers the 10-29 stability-plasticity finding (global prompt edits overwrite old knowledge). RuHarness co-evolves the rubric with the harness: +4.5/+5.3 held-out over the best harness-evolution baseline. Counterweights: Sharpening Tax (RL post-training shrinks pass@128 coverage in 36/42 pairs) and RSIHub (13.5-point gains on weak bases, 2.2 on Codex).
+
+
+## Update 2026-11-04
+
+Forgetting, quantified ([summary](2026-11-04-continual-harness-evolution-forgetting.md), 2611.03219). Meta-Harness evolved to 94.0% on SWE-Bench, then fell to 32.0% after five rounds of evolving on FeatureBench (-66% relative). This is the hardest number yet for the 10-29 stability-plasticity finding. Counterweights the same day: SPAR (Alibaba, live A/B across 200k+ merchants, +15.8% conversion) adds an attribution step before any playbook edit. Skill++ keeps edits local to one skill's metadata.

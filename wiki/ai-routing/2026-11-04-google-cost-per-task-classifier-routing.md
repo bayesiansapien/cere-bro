@@ -32,7 +32,7 @@ flowchart LR
 
 ## Key points
 
-- **Metric:** cost per successful task, not cost per token. This is the same reframing as [OPTIMA's cost-per-task benchmarking (08-16)](../agentic-systems/2026-08-16-optima-cost-per-task-benchmarking.md), now stated by a hyperscaler for its own model family.
+- **Metric:** cost per successful task, not cost per token. This is the same reframing as [OPTIMA's cost-per-task benchmarking (08-16)](../ai-industry/2026-08-16-optima-cost-per-task-benchmarking.md), now stated by a hyperscaler for its own model family.
 - **Router design rule:** decompose the routing question into one atomic, checkable predicate. Broad meta-judgments collapse to the majority class.
 - **Overfit heuristics:** a rule set tuned on its own development tasks loses ~23 points on unseen agent traffic, because real "easy" prompts are long (YAML, diffs, tracebacks) and real "hard" prompts can be short (Python dict key hashing, C short-circuit evaluation).
 - **Thinking budget:** the cheap path must change the model or the thinking level. A token ceiling does not shorten reasoning on easy prompts and truncates reasoning on hard ones.

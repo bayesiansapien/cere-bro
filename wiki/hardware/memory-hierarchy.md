@@ -273,3 +273,8 @@ Two memory-hierarchy wins on 10-28: Meta Andromeda keeps per-ad intermediates in
 ## Update 2026-11-03
 
 Memory squeeze, quantified ([summary](2026-11-03-memory-squeeze-hbm-lead-times.md)). SK hynix Q3: 80% operating margin, HBM4 to pass HBM3E in Q4 mix, LTAs on over half of 2027-28 output. Stack yield is y^n: 8 dies at 95% die yield = 66% all-good before screening, at 98% = 85%. TrendForce: GPU lead times 45 weeks, DRAM 19 weeks, 32/64GB RDIMMs severely tight. UBS: ~89 EB DRAM by 2030 vs ~282 EB for a full agentic buildout (AI CPUs carry ~3x memory). HBM reaches China packaged with sub-threshold CPUs. FlashProve fits a 400B prover on one 80 GB GPU by streaming layers from ~290 GB host RAM.
+
+
+## Update 2026-11-04
+
+Grey-market HBM gets a mechanism: US rules rate a package by its processor, so HBM ships mounted next to sub-threshold CPUs and is separated in China. Huawei now tells customers to source HBM themselves. SK hynix bought 9% of Penguin Solutions (CXL and SSD KV-cache offload) for $377M, the memory vendor buying into the KV-offload tier. Practitioner datapoint: DeepSeek-V4.1-Flash at 1-bit (552B MoE + 196B Engram table) fits one 128 GB GB10 at 18.1 tok/s with a 4-bit MLA KV cache; LAN tensor parallelism to a Mac drops it below 4 tok/s ([shorts](../inference-efficiency/2026-11-04-efficiency-shorts.md)).

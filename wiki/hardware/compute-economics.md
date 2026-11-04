@@ -512,3 +512,8 @@ Politics as a supply shock ([summary](2026-11-02-datacenter-backlash-midterms-20
 ## Update 2026-11-03
 
 The bill comes due ([summary](../ai-industry/2026-11-03-lab-finances-and-cost-deflation.md)). Anthropic Q3 ~$17B revenue (+47% QoQ), $23.3B net loss, $895.4B compute commitments ($447.5B before 2031; $161B Broadcom leases, $121B Google). OpenAI round cut to ~$20B at $1.25T. Big Tech CDS highest since 2021 (Oracle 288bp record, $20B raise filed); Blackstone sees Anthropic at double-B. Cipher HPC rent ~88% gross margin with 6% project debt vs CoreWeave bonds near 15%: lenders price GPU depreciation risk, not demand. AMD MI355X served Kimi K3 at $0.15/M tokens vs $0.22 on GB200 NVL72 (InferenceX). Marvell to buy Lumentum (~$80B all-stock). Narayanan's thesis: cost per capability falling 10x+/year erodes the margins that fund compute.
+
+
+## Update 2026-11-04
+
+SpaceX as the largest AI cloud ([summary](2026-11-04-spacex-ai-cloud-and-china-memory-loophole.md)). SemiAnalysis: the 2027 target is ~13GW (up from 10GW), with 3.6GW under construction and >9GW identified. Retrofit times went 122 to 91 days, a greenfield site targets ~4 months, and >8GW is behind the meter. Around it: Nvidia tells clouds to limit China exposure (reportedly 51%+ non-Chinese), SambaNova SN50 decode RDUs ship in Supermicro disaggregated racks (10,000 chips; B first close at B), and AMD guides +66% YoY this quarter and >80% next year. Anthropic tells IPO investors (at a valuation of about .5T) that a 15-person chip team designs with Claude; Synopsys and Cadence fell up to 4% on the report.

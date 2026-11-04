@@ -47020,5 +47020,229 @@
     ],
     "first_seen": "2026-W45",
     "last_seen": "2026-W45"
+  },
+  "Smit Kadvani": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.04380v1",
+        "title": "Twice as Fast, Until It Isn't: Quantized Serving of Mid-Size Open LLMs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Kriti Faujdar": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.04380v1",
+        "title": "Twice as Fast, Until It Isn't: Quantized Serving of Mid-Size Open LLMs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Spurthi Tallam": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.04380v1",
+        "title": "Twice as Fast, Until It Isn't: Quantized Serving of Mid-Size Open LLMs",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Eric Benhamou": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.03384v1",
+        "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Jean-Jacques Ohana": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.03384v1",
+        "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Beatrice Guez": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.03384v1",
+        "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Ethan Setrouk": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.03384v1",
+        "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Chamyl Saadi": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.03384v1",
+        "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Thomas Jacquot": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.03384v1",
+        "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Maryam Rahimimovassagh": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.03968v1",
+        "title": "One Mistake, Three Layers: Persistence Rules Under Depth Correlation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Michael Brown": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.03968v1",
+        "title": "One Mistake, Three Layers: Persistence Rules Under Depth Correlation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Sanjeda Sara Jennifer": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.03968v1",
+        "title": "One Mistake, Three Layers: Persistence Rules Under Depth Correlation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Niloofar Yousefi": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.03968v1",
+        "title": "One Mistake, Three Layers: Persistence Rules Under Depth Correlation",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Hagay Michaeli": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.05041v1",
+        "title": "Positional Encoding is All You Need for Scalable Equivariance Constraint Relaxation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Haggai Maron": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.05041v1",
+        "title": "Positional Encoding is All You Need for Scalable Equivariance Constraint Relaxation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Daniel Soudry": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.05041v1",
+        "title": "Positional Encoding is All You Need for Scalable Equivariance Constraint Relaxation",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
   }
 }

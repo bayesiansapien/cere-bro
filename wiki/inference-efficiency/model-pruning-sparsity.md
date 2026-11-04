@@ -275,3 +275,8 @@ Second, and mildly deflationary: **if weight-space similarity alone nearly match
 ## Update 2026-10-29
 
 Channel selection for MoE decoding needs no calibration data ([summary](2026-10-29-moe-channel-selection-no-calibration.md)): calibrated thresholds neither fix the read budget (18% calibrated reads 12.9%) nor beat per-token top-k (top-k wins or ties 40 of 43). A weight-only reader (ternary sketch + low-rank recovery) keeps 98.1% accuracy at 17.8% of routed-expert reads, 1.60-1.90x faster MoE blocks than vLLM at batch 1. Shift: activation sparsity inside experts no longer needs calibration data.
+
+
+## Update 2026-11-04
+
+LEMS + KFAC-SVD ([shorts](2026-11-04-efficiency-shorts.md), 2610.32878): an ILP over a layer-wise error surrogate (local + global importance + propagation bias) allocates SVD ranks globally. Token-wise KFAC statistics fix Fisher-SVD rank collapse. Up to +4.8 points zero-shot, holding to 70B; 15% better perplexity. Allocation keeps beating decomposition as the lever.

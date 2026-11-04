@@ -780,3 +780,13 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-01
 
 [Intrinsic Distribution Matching (2610.39633)](2026-11-01-efficiency-shorts.md): adds explicit mean and per-coordinate std matching (from the generator's EMA copy, no external encoder) to distribution matching distillation; 94.25% / 90.20% on Chinese / English LongText-Bench at two steps on Z-Image-Turbo 6B and Qwen-Image 20B. Watermark-survives-distillation (WM-Basin, 10-30) recirculated alongside Anthropic's watermark loophole (one sampling parameter bypasses it on two older models).
+
+
+## Update 2026-11-04
+
+## 2026-11-04: distill the ranking, not the confidence
+
+- **O³PD (2611.02112):** on-policy distillation that matches only the *order* of the teacher's top-K tokens. Temperature-invariant, beats OPD in all six teacher-student pairs (up to +2.9 avg, +5.6 AIME25). The student moves further from the teacher's probabilities but closer to its ranking ([summary](2026-11-04-order-only-on-policy-distillation.md)).
+- **TESD (2610.38637):** on-policy self-distillation stalls because the self-teacher is unreliable on some samples. Train the teacher with correctness rewards and down-weight unreliable guidance.
+- **DecisionRank (2610.42128):** item-space OPD into a single-pass reranker. 1.7B beats its 27B generative teacher on TREC DL; 8B runs 24.5x faster than a generative listwise reranker.
+- Pattern: since 10-31 (WISD, Soft-MTP), four papers change *what* the student imitates rather than *how much*.

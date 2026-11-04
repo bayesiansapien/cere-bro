@@ -407,3 +407,8 @@ Batch invariance gets a price tag ([efficiency shorts](../inference-efficiency/2
 ## Update 2026-11-02
 
 Tile order as a cache policy ([summary](2026-11-02-moe-column-major-kernels-and-gpu-notebook.md)). PyTorch's column-major scheduling for vLLM's fused Triton MoE GEMM keeps the expert-weight column in L2 across neighbouring output tiles: L2 hit rate 2.54x, DRAM loads ~50% lower, up to 4x (A100) and 4.4x (H100). A 2024 post that trended again because a practitioner jumped 95 leaderboard places with it; paired with a free 56-chapter GPU-architecture notebook. Decode-time MoE is a data-movement problem.
+
+
+## Update 2026-11-04
+
+Low-bit attention reaches *training* on Blackwell ([FLAMIA](2026-11-04-flamia-microscaling-attention-blackwell.md), 2611.03344). MXFP8 and NVFP4/FP8 attention kernels that quantize each token block once and reuse it for both matrix orientations. Scales are scoped so they cannot leak future tokens through a shared exponent, forward and backward numerics match, and packed documents run without repacking. 1.10-1.40x (B200) and 1.06-1.42x (B300) on the full fwd+bwd call, quantization included. Correctness tax of fusion, measured: Google's XLA:TPU verification ([summary](2026-11-04-xla-tpu-compiler-correctness-agent-swarms.md), 2611.00624) fuzzes synthetic and production graphs, bisects to one op inside a fused kernel, and lets agent swarms patch silent miscompilations. 142+ fixed, 103 under review, with reviewer load as the bottleneck.

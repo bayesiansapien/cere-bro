@@ -22,7 +22,7 @@ A practitioner ran the same one-line game-build prompt in their own harness. Lon
 
 - **MAServeBench ([2610.40293](https://arxiv.org/abs/2610.40293)).** Multi-agent systems make serving workloads with dependencies. Calls become ready at different times and carry growing shared context. The benchmark makes the collaboration pattern a configurable workload dimension and records it as replayable traces. Its key finding: serving efficiency (tokens/s) does not always translate into faster task completion.
 - **"Twice as Fast, Until It Isn't" ([2611.04380](https://arxiv.org/abs/2611.04380), Kurate cs.AI list).** Quantized serving of mid-size open LLMs, where the speedup erodes under some conditions. Listed in Kurate's week-opening cs.AI set before ranking began.
-- **MatMoE ([Kurate cs.LG #2](https://kurate.org)).** Matryoshka MoE with dynamic mixed-precision quantization for inference. Same caveat: listed before the week's tournament had scored anything.
+- **MatMoE ([2611.01704](https://arxiv.org/abs/2611.01704), Kurate cs.LG list).** Matryoshka MoE with dynamic mixed-precision quantization for inference. Same caveat: listed before the week's tournament had scored anything.
 - **Multi-Agent Relay Thinking ([2610.35219](https://arxiv.org/abs/2610.35219)).** Reasoning ownership passes between agents by confidence bidding. It matches multi-agent baselines at 6.0x lower token overhead on HallusionBench and MMStar.
 
 ## Hardware-side signals
