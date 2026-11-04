@@ -2195,6 +2195,7 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-04] ingest | SemiAnalysis SpaceX AI cloud; HBM smuggling; Nvidia China cloud rule; Anthropic chip design; LinkedIn model swap | rss
 ## [2026-11-04] ingest | Ai2 StateBench, Cohere Model Vault, Kimi K3 Bedrock India, Meta F3 Lightning, NVIDIA AI fab | labs
 ## [2026-11-04] ingest | Ken Huang DeepSeek-V4.1-Flash 1-bit on DGX Spark | gmail
+## [2026-11-04] ingest | Google cost-per-task routing (gap-fill, late lab capture), Latent Sparse Attention 2610.42147, ParetoSaddler, Menlo enterprise report | labs+x-feed
 ## [2026-11-04] social-stream | 2026-11-04 morning | social-stream
 ## [2026-11-04] media-zone | Media Zone 2026-11-04 | media-zone
 ## [2026-11-04] digest | cere-bro 2026-11-04 | daily-digest

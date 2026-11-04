@@ -847,3 +847,7 @@ The cache as a price and a decision substrate ([summary](2026-10-31-glance-reran
 ## Update 2026-11-02
 
 Compression meets the paged allocator ([summary](2026-11-02-kv-compression-paged-infra-problems.md)). NVIDIA's infra write-up names two reasons lab KV compression fails in vLLM: score-based eviction needs attention scores FlashAttention never materializes, and PagedAttention frees a 16-slot block only when all slots are empty, so evicting 90% of tokens by importance can free ~0 bytes. TriAttention ranks tokens from pre-RoPE query/key geometry and compacts survivors every 128 tokens: full-attention accuracy, 2.5x decode, 10.7x less KV. **Tension:** Random Attention (09-08) showed keeping the prompt plus random positions matches learned scorers at 0.30 ms vs 1.47 ms per eviction round. The new metric to standardize on is blocks freed, not tokens evicted.
+
+## Update 2026-11-04
+
+LSA ([summary](2026-11-04-latent-sparse-attention-10m-context.md)) makes 10M-token attention fast to *select* (tree search over key clusters, 42.5x decode per layer vs full attention) but does not shrink the cache itself. Google's cost-per-task post ([summary](../ai-routing/2026-11-04-google-cost-per-task-classifier-routing.md)) adds a serving-side constraint: prompt caches are per-model, so model routing and cache reuse conflict.

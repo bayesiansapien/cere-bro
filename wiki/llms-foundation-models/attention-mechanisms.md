@@ -231,3 +231,7 @@ Every trainable sparse-attention method this page has tracked shares one archite
 ## Update 2026-10-31
 
 AB-Attention turns dynamic block-sparse attention into importance sampling with inverse-probability weights, fixing the softmax bias of dropping blocks ([summary](../inference-efficiency/2026-10-31-ab-attention-block-sparse-video.md)).
+
+## Update 2026-11-04
+
+Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-sparse-attention-10m-context.md), 2610.42147): at 10M tokens the sparse-attention *indexer* is the quadratic term. LSA clusters keys hierarchically in a learned latent space and descends through centroids; a distilled indexer on frozen Qwen3.8-27B gives 72.4x prefill / 42.5x decode per layer over full attention at similar accuracy. Routing-style efficient attention, with the router made hierarchical.
