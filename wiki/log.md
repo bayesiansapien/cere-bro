@@ -2199,3 +2199,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-04] social-stream | 2026-11-04 morning | social-stream
 ## [2026-11-04] media-zone | Media Zone 2026-11-04 | media-zone
 ## [2026-11-04] digest | cere-bro 2026-11-04 | daily-digest
+
+## [2026-11-05] ingest | Route Anything 2611.05275 | huggingface
+## [2026-11-05] ingest | You don't need long context 2611.05306 + Length Is Cheap 2611.04169 | huggingface+dair+x-feed
+## [2026-11-05] ingest | Together Compiler / Polymorphic Inference + SpecPilot 2611.02501 + Adversarial Speculative Reasoning 2611.05345 | labs+huggingface
+## [2026-11-05] ingest | Kimi K3.1 Pro open weights | labs+x-feed+gmail
+## [2026-11-05] ingest | LoCo, Dory1.0-4B, Muon MoE, expert pruning, near-zero embeddings, MTA-OPSD; Kurate MatMoE/Concise-9B/Twice as Fast | huggingface+kurate
+## [2026-11-05] ingest | GPT-6 Astra sandbagging + OpenAI Linux kernel pipeline + Anthropic S-1 RSP language | rss+labs+gmail+x-feed
+## [2026-11-05] ingest | CUDA 13.5 Vera Rubin GA + midterm data-center shock | labs+rss+x-feed
+## [2026-11-05] ingest | Agent environments and harness shorts (ToolSpace, DEPTH, Switch-SWE, Caper, Axion, Recursa) | huggingface+gmail
+## [2026-11-05] ingest | Anthropic S-1, OpenAI-Pierre, Meta-Conductor, funding round-up | rss+gmail
+## [2026-11-05] social-stream | 2026-11-05 morning | social-stream
+## [2026-11-05] media-zone | Media Zone 2026-11-05 (finalized) | media-zone
+## [2026-11-05] digest | cere-bro 2026-11-05 | daily-digest

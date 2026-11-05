@@ -992,3 +992,8 @@ Routing over a growing skill library, and over harnesses ([summary](2026-11-04-s
 ## Update 2026-11-04 (b): a hyperscaler measures cost per task
 
 Google Cloud AI's own routing study ([summary](2026-11-04-google-cost-per-task-classifier-routing.md)): one atomic classifier question routed a coding-agent suite between Flash-Lite and Gemini 3.8 Flash-low, solving 50/50 at lower cost and latency than the best no-router setup. A regex/length heuristic fell from 93.8% on its own dev set to 70.6% on held-out tasks. Two rules for this page: an output-token cap does not reduce thinking spend, so the cheap path must change model or thinking level; and per-turn model switching forfeits prompt-cache discounts (75-90%), so route side-calls and keep the long loop on one cached model.
+
+
+## Update 2026-11-05: the headroom is measured
+
+Route Anything ([summary](2026-11-05-route-anything-omni-modal-routing.md), 2611.05275) builds a 374,401-run trajectory matrix over 452 candidates and 25 benchmarks across text, image, video, speech, agents and robot policies. Oracle per-input routing beats the best fixed candidate by 5.4 points; learned routers by only 0.3 (2.1 on video generation, 1.1 on robot manipulation with 24% less policy time), at 8.82x average efficiency. Shift in state of knowledge: routing's cost side is solved well enough; its quality side is limited by what the router can see. Agent Arena's per-hour cost data ($10.51 to $31.08 per agent-hour, 3x spread) and Weave Router ($13.5M Series A) are the industry face. Inside harnesses, DeepSeek's super-agent puts the orchestrator on a lighter model that never runs tools.

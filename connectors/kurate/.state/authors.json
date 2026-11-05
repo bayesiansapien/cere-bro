@@ -47244,5 +47244,103 @@
     ],
     "first_seen": "2026-W45",
     "last_seen": "2026-W45"
+  },
+  "Chan Park": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.01713v1",
+        "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Sunwoo Hong": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.01713v1",
+        "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Kirak Kim": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.01713v1",
+        "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Yoonjeong Park": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.01713v1",
+        "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Alexander W. Olson": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.01713v1",
+        "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Ali Pesaranghader": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.01713v1",
+        "title": "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
+  },
+  "Manvendra Modgil": {
+    "appearances": [
+      {
+        "week": "2026-W45",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.05577v1",
+        "title": "Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W45",
+    "last_seen": "2026-W45"
   }
 }

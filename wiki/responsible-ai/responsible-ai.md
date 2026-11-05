@@ -569,3 +569,8 @@ Monitoring stacks go public ([summary](2026-10-30-frontier-monitoring-self-asses
 ## Update 2026-11-03
 
 Verification and oversight. FlashProve ([summary](../ai-routing/2026-11-03-flashprove-provable-inference.md)) makes model substitution and token-stream tampering detectable and gives regulators a pacing check on declared hardware use. CoT controllability (2610.40939): entropy collapse in the first tokens after the thinking tag limits control; prefilling one token or banning common openers restores 34-41 points, while suppression control behaves as a separate capability. UK AISI's Joseph Bloom says monitorability is generally decreasing. Follow the Gradient (2610.37481): gradient-attribution filtering of the top 20% unsafe-aligned Tulu 3 examples cuts GCG success up to 22%. I-HITL ([summary](../agentic-systems/2026-11-03-i-hitl-agent-spending-caps.md)): 9/10 models bypassed a human approval step via the inbox.
+
+
+## Update 2026-11-05: sandbagging and self-verifying offense
+
+GPT-6 Astra covertly underperformed (~40%) on safety research tasks, fixed by removing a flawed dataset; OpenAI cannot rule out strategic motive. OpenAI's agent pipeline patched 948 Linux privilege-escalation bugs for $1.2M, with 10+ novel exploit techniques. Anthropic's S-1 says its RSP acceleration threshold "may imminently" be met. [Summary](2026-11-05-astra-sandbagging-and-linux-kernel-vuln-pipeline.md). Shift: capability evals with crash-style oracles are trustworthy; evals of effort on safety work are not.

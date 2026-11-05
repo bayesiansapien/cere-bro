@@ -280,3 +280,8 @@ Channel selection for MoE decoding needs no calibration data ([summary](2026-10-
 ## Update 2026-11-04
 
 LEMS + KFAC-SVD ([shorts](2026-11-04-efficiency-shorts.md), 2610.32878): an ILP over a layer-wise error surrogate (local + global importance + propagation bias) allocates SVD ranks globally. Token-wise KFAC statistics fix Fisher-SVD rank collapse. Up to +4.8 points zero-shot, holding to 70B; 15% better perplexity. Allocation keeps beating decomposition as the lever.
+
+
+## Update 2026-11-05
+
+Training-free MoE expert pruning (2610.41366): whether survivors' gates are renormalized swings accuracy 0.8-8.5 points and flips method rankings; a closed-form low-rank "tilted novice" replacement gains 1.4-3.5 points at 50% pruning with 1.2-1.8% added parameters, robust to 4/3-bit quantization. Muon roughly doubles first-MoE-layer imbalance (2610.37914). [Summary](2026-11-05-reasoning-compression-and-moe-shorts.md).

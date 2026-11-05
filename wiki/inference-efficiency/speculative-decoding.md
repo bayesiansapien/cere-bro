@@ -243,3 +243,8 @@ MoE no longer kills low-batch speculation ([summary](2026-11-03-speculative-deco
 ## Update 2026-11-04
 
 Roles reversed ([ProVe](2026-11-04-prove-proposer-verifier-decoding.md), 2610.27815). The *target* is fine-tuned to propose a 16-token block in one pass, and a second pass verifies it, either with itself (lossless, 2.5x on a 32B) or with a 3B AR model (2.7x, -2.6 points). Average AR-matching prefix is 6.6 tokens on GSM8K. Extends the self-drafting line (MTP heads, Soft-MTP 10-31) with no draft head at all. Untested on MoE, where the 11-03 Cohere expert-locality result is the relevant check.
+
+
+## Update 2026-11-05
+
+SpecPilot (2611.02501): an agent loop with a cost model and token-forcing anti-hack check lifts parallel-drafter speedup from the stock 4.46x to 10.87x at batch 1 and 1.94x to 3.93x batched, finding a lossless 12-bit weight format and tree verification for hybrid recurrent targets. Released systems reach under half their attainable speedup. Adversarial Speculative Reasoning (2611.05345): speculative decoding is not behavior-neutral over long agent traces (verification-window noise shifts outputs after ~30 steps); training the drafter to be rejected at critical points improves agent success. Together plans per-request "shape-shifting" speculative decoding. [Summary](2026-11-05-agents-optimize-inference-together-compiler-specpilot.md).

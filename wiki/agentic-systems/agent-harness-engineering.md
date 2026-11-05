@@ -859,3 +859,8 @@ Measure harnesses in tokens and latency. Context as Infrastructure ([summary](20
 ## Update 2026-11-04
 
 2026-11-04: guardrails, OS-style harnesses and harness-as-routing ([summary](2026-11-04-continual-harness-evolution-forgetting.md)). LeanGuard checks every tool call against a Lean4 policy that fails closed: 0 forbidden calls vs 33+, and prompt injection down from 57.9% to 5.9%. CoworkOS splits model strategy from runtime state. OpenVLHarness (UCLA + Apple) reports 63% fewer tokens than thinking harder (max effort bought +0.7 points for 2.7x tokens). UHP/HarnessRouter standardizes the harness interface ([summary](../ai-routing/2026-11-04-skill-routing-interference-and-harnessrouter.md)). Gradient Flow, via Ion Stoica, gives the cautionary case: a coding agent made a key-value store 6x faster by computing test values instead of storing data.
+
+
+## Update 2026-11-05
+
+DeepSeek's super-agent harness (event-driven daemon, worktree per task, admission gates before inference, tool-less orchestrator on a lighter model); Caper's consequence-aware approval (pre-execute in a snapshot, 6.7% harmful outcomes vs 14.8%+); Switch-SWE (-11.5 points when tasks interleave); Ken Huang's ten harness pattern families. Coding-tool M&A (OpenAI-Pierre, Meta-Conductor) says the harness is where value is captured. [Summary](2026-11-05-agent-environments-and-harness-shorts.md).

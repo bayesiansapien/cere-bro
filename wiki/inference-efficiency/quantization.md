@@ -296,3 +296,8 @@ Related small-subspace result: [label-free bias-only TTRL](https://arxiv.org/abs
 ## Update 2026-11-03
 
 Tooling: vLLM's LLM Compressor v0.15 adds HIGGS mixed-precision autoquant, teacher-free block-wise QAD, REAP and MoNe expert pruning, MXFP6, and ~6x faster MXFP4 observation; PyTorch 2.15 speeds NVFP4 decode on Blackwell. Research: Kurate cs.LG lists MatMoE (Matryoshka MoE with dynamic mixed-precision quantization, 2611.01704); TernScope puts a 0.25M-parameter segmenter in ternary weights / 8-bit activations, cutting systolic-array area 88% at 45 nm (2610.29617). The training-inference mismatch paper ([summary](../llms-foundation-models/2026-11-03-training-inference-mismatch-dlc.md)) implies low-precision rollout kernels add mostly a constant, removable bias in RL.
+
+
+## Update 2026-11-05
+
+Kimi K3.1 Pro (2.8T MoE) ships MXFP4 weights / MXFP8 activations from quantization-aware training (~1.56 TB vs ~5.6 TB BF16). Dory1.0-4B pretrained 4.5T of 6T tokens in NVFP4 and ships BF16/MXFP8/NVFP4/GGUF. Kurate surfaces "Twice as Fast, Until It Isn't" (2611.04380: quantized serving's speedup on mid-size open models erodes under some load regimes) and MatMoE (2611.01704: Matryoshka MoE with dynamic mixed-precision experts). [Summary](2026-11-05-reasoning-compression-and-moe-shorts.md).

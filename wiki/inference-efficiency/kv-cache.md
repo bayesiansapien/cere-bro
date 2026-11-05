@@ -851,3 +851,8 @@ Compression meets the paged allocator ([summary](2026-11-02-kv-compression-paged
 ## Update 2026-11-04
 
 LSA ([summary](2026-11-04-latent-sparse-attention-10m-context.md)) makes 10M-token attention fast to *select* (tree search over key clusters, 42.5x decode per layer vs full attention) but does not shrink the cache itself. Google's cost-per-task post ([summary](../ai-routing/2026-11-04-google-cost-per-task-classifier-routing.md)) adds a serving-side constraint: prompt caches are per-model, so model routing and cache reuse conflict.
+
+
+## Update 2026-11-05: curate the context instead of growing the cache
+
+NVIDIA's "You don't need long context" (2611.05306) shows frequent compaction costs frontier agents little accuracy (Opus 4.5: 70.2 vs 70.0 SWE-bench Verified with one action per context; peak context 32K to 8K) while late tokens cost up to 7x more to generate. UCSD (2611.04169) shows context rot in retrieval is attention competition from look-alike statements, not length. [Summary](2026-11-05-context-budget-compaction-and-context-rot.md). Counter-trend the same day: Kimi K3.1 Pro removes its last full-attention layers (69 KDA + 24 Gated DSA, top-2,048), making 1M context cheaper rather than unnecessary ([summary](../llms-foundation-models/2026-11-05-kimi-k3-1-pro-open-weights.md)). Dory1.0-4B caches KV only from its last loop, so looping adds no KV memory. Red Hat reports KV offloading cut TTFT 60s to 10s and lifted throughput up to 5.8x only when working set and storage tier line up. Open: compaction rewrites the prefix and kills prompt-cache hits; the crossover against cached-input pricing is unmeasured.

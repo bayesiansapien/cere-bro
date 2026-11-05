@@ -322,3 +322,8 @@ VerifierBench (agent-written verifiers: balanced accuracy 10.6-62.1, over-reject
 ## Update 2026-11-02
 
 [GDPx (SemiAnalysis)](2026-11-02-semianalysis-gdpx-benchmark.md): 11 revenue-weighted domains (chip design, cyber, bio, finance, legal, quant, RSI, hardware, materials, alignment, SWE) built with 14 RL-environment startups, every task inside a realistic environment (4,000-file deal room, live zero-days, Siemens NX, AWS FPGAs). Best model 12%. Opus 5.5 best overall (wins chip/hardware design, quant), Gemini 4 Carbon wins bio and SWE, GPT-6 Astra wins RSI and materials; finance and legal ~0 for all. Safety classifiers sandbag cyber/bio/alignment scores. Positions itself as GDPval's successor.
+
+
+## Update 2026-11-05
+
+DEPTH (2611.01927): 94% of solved synthetic terminal tasks pass within three turns; depth, not turn count, predicts difficulty. ToolSpace Pro versions drop frontier models up to 38.2 points. [Summary](2026-11-05-agent-environments-and-harness-shorts.md).

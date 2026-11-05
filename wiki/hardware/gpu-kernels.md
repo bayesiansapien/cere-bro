@@ -412,3 +412,8 @@ Tile order as a cache policy ([summary](2026-11-02-moe-column-major-kernels-and-
 ## Update 2026-11-04
 
 Low-bit attention reaches *training* on Blackwell ([FLAMIA](2026-11-04-flamia-microscaling-attention-blackwell.md), 2611.03344). MXFP8 and NVFP4/FP8 attention kernels that quantize each token block once and reuse it for both matrix orientations. Scales are scoped so they cannot leak future tokens through a shared exponent, forward and backward numerics match, and packed documents run without repacking. 1.10-1.40x (B200) and 1.06-1.42x (B300) on the full fwd+bwd call, quantization included. Correctness tax of fusion, measured: Google's XLA:TPU verification ([summary](2026-11-04-xla-tpu-compiler-correctness-agent-swarms.md), 2611.00624) fuzzes synthetic and production graphs, bisects to one op inside a fused kernel, and lets agent swarms patch silent miscompilations. 142+ fixed, 103 under review, with reviewer load as the bottleneck.
+
+
+## Update 2026-11-05: agents tune the kernels in production
+
+Together Compiler (persistent hot-reload engine, 9 s vs 467 s per candidate, real-traffic measurement, cost-model parallelism) reports up to 2.6x TPS across Kimi K3, GLM 5.3, MiniMax M3.1-Flash and DeepSeek v4.1-Flash and 1.7x over hand-built megakernels; Together says megakernel fusion is the wrong target for polymorphic traffic ([summary](../inference-efficiency/2026-11-05-agents-optimize-inference-together-compiler-specpilot.md)). CUDA 13.5 (Vera Rubin GA) adds Tile multi-GPU pointers, Tile-to-SIMT library calls, MPS v3 SM lending and CCCL batched Top-K in FlashInfer ([summary](2026-11-05-cuda-13-5-rubin-and-midterm-compute-shock.md)). Third straight week of agents writing production systems code (after XLA:TPU swarms on 11-04).

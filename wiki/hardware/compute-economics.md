@@ -517,3 +517,8 @@ The bill comes due ([summary](../ai-industry/2026-11-03-lab-finances-and-cost-de
 ## Update 2026-11-04
 
 SpaceX as the largest AI cloud ([summary](2026-11-04-spacex-ai-cloud-and-china-memory-loophole.md)). SemiAnalysis: the 2027 target is ~13GW (up from 10GW), with 3.6GW under construction and >9GW identified. Retrofit times went 122 to 91 days, a greenfield site targets ~4 months, and >8GW is behind the meter. Around it: Nvidia tells clouds to limit China exposure (reportedly 51%+ non-Chinese), SambaNova SN50 decode RDUs ship in Supermicro disaggregated racks (10,000 chips; B first close at B), and AMD guides +66% YoY this quarter and >80% next year. Anthropic tells IPO investors (at a valuation of about .5T) that a 15-person chip team designs with Claude; Synopsys and Cadence fell up to 4% on the report.
+
+
+## Update 2026-11-05: power becomes political
+
+Midterms: in 12 states the winning or leading governor candidate backs a data-center pause; voters rejected new data centers in 40 of 41 local measures; CoreWeave -9.9%, Nebius -6.7% while hyperscalers rose. Apollo finances the SpaceX Vera Rubin lease ($40B); Microsoft underspent capex ~$5B on late rented capacity; Anthropic's S-1 shows ~$895B of commitments. [Summary](2026-11-05-cuda-13-5-rubin-and-midterm-compute-shock.md) · [Industry](../ai-industry/2026-11-05-anthropic-s1-coding-tool-m-and-a-midterms.md).
