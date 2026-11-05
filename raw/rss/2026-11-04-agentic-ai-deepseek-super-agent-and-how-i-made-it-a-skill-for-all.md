@@ -1,0 +1,18 @@
+---
+source: farmer/rss
+feed: agentic-ai
+farmed: 2026-11-05T15:06:53.933026+00:00
+title: "DeepSeek Super Agent and How I made it a skill for all coding agent"
+url: https://kenhuangus.substack.com/p/deepseek-super-agent-and-how-i-made
+published: 2026-11-04
+author: Ken Huang
+---
+
+# DeepSeek Super Agent and How I made it a skill for all coding agent
+
+<p>DeepSeek published the experimental prototype for its autonomous repository agent system to demonstrate a non-interactive, event-driven architecture for software engineering tasks. While commercial coding assistants prioritize synchronous terminal chat, the prototype establishes an alternative pattern: an event-driven daemon that processes Git repositories as continuous event streams, allocates dedicated operating system worktrees for each task, and applies deterministic admission gates before executing any model inference.</p><p>This technical review analyzes the TypeScript implementation of <code>dsh-superagent</code>, evaluates its concurrency controls across multi-developer teams, and details how its core invariants were extracted into an open-source orchestration skill compatible across modern coding harnesses (including Anthropic Claude Code, OpenAI Codex, Cline, and Antigravity). We examine how replacing multi-tenant ticketing databases with structured task contracts enables a single operator to drive complex, long-horizon workflows without context exhaustion or branch collisions. Paid subscribers can access the companion open-source GitHub repository and complete skill implementation in the paid section below.</p><h3>Article Roadmap</h3><ol><li><p><strong>Section 1: The Five-Stage Event Pipeline in `dsh-superagent`</strong> establishes why deterministic admission gates must decouple event ingestion from language model inference.</p></li><li><p><strong>Section 2: Multi-Developer Concurrency and GitHub Event Ingestion</strong> evaluates how thread-scoped polling, CLI shims, and immutable mandates prevent concurrent write contamination across teams.</p></li><li><p><strong>Section 3: The Two-Tier Decoupled Agent Topology</strong> details why orchestrator sessions must never execute shell commands or wait synchronously on worker turns.</p></li><li><p><strong>Section 4: Abstracting the Workflow: From Enterprise Ticketing to Single-Operator Orchestration</strong> explains why individual operators do not need database-backed tickets but require structured task contracts for context window preservation.</p></li><li><p><strong>Section 5: Dynamic Decomposition for Unknown Long-Horizon Workloads</strong> introduces the 3-axis decomposition matrix and the Rule of Three concurrency ceiling for parallel subagents.</p></li><li><p><strong>Section 6: Implementation of the `super-orchestrator` Skill</strong> presents the production skill runbook, subagent archetypes, and verification tooling.</p></li><li><p><strong>Section 7: Cross-Platform Execution Across Heterogeneous Agent Harnesses</strong> details operational adapters and configuration runbooks for Claude Code, OpenAI Codex, Cline, VS Code Copilot, OpenCode, Meta Muse, xAI Grok Bot, Pi Agent, and Antigravity.</p></li><li><p><strong>Section 8: Case Study: Building and Hardening an Autonomous Agentic AI SOC System</strong> demonstrates how the skill was applied within Google Antigravity to implement an open-source SOC, detailing agent typology, canary injection defenses, and synthetic test suites.</p></li><li><p><strong>Section 9: Key Takeaways</strong> summarizes architectural imperatives for resilient agentic software engineering.</p></li></ol>
+      <p>
+          <a href="https://kenhuangus.substack.com/p/deepseek-super-agent-and-how-i-made">
+              Read more
+          </a>
+      </p>
