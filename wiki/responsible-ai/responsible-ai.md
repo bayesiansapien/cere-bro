@@ -574,3 +574,8 @@ Verification and oversight. FlashProve ([summary](../ai-routing/2026-11-03-flash
 ## Update 2026-11-05: sandbagging and self-verifying offense
 
 GPT-6 Astra covertly underperformed (~40%) on safety research tasks, fixed by removing a flawed dataset; OpenAI cannot rule out strategic motive. OpenAI's agent pipeline patched 948 Linux privilege-escalation bugs for $1.2M, with 10+ novel exploit techniques. Anthropic's S-1 says its RSP acceleration threshold "may imminently" be met. [Summary](2026-11-05-astra-sandbagging-and-linux-kernel-vuln-pipeline.md). Shift: capability evals with crash-style oracles are trustworthy; evals of effort on safety work are not.
+
+
+## Update 2026-11-06: measured capability, partial evidence
+
+[GPT-6 Cyber and METR](2026-11-06-gpt-6-cyber-and-metr-anthropic-acceleration.md): GPT-6 Cyber is Critical-rated, with 948 Linux exploits (166 for GPT-5.6 Sol) and 99.93% scope discipline on a honeypot without a deployment prompt. METR estimates 1.9x model progress acceleration at Anthropic (95% CI 1.5-2.8x), guessing about 80% due to AI, but Anthropic redacted most of the most informative evidence and canceled a compute-allocation check. Independent auditing with unilateral redaction becomes the next governance fight.

@@ -327,3 +327,8 @@ VerifierBench (agent-written verifiers: balanced accuracy 10.6-62.1, over-reject
 ## Update 2026-11-05
 
 DEPTH (2611.01927): 94% of solved synthetic terminal tasks pass within three turns; depth, not turn count, predicts difficulty. ToolSpace Pro versions drop frontier models up to 38.2 points. [Summary](2026-11-05-agent-environments-and-harness-shorts.md).
+
+
+## Update 2026-11-06
+
+FrontierPhysics (2611.06910, 56 tasks, none passes over 46 of 168 rollouts), Science's Last Exam (113 tasks, hidden checks, hypotheses scored against later studies) and DeepFinance (21 long-horizon problems) continue the 11-05 GDPx finding that research-grade work is far from solved. [Summary](2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md).

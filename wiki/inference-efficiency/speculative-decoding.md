@@ -248,3 +248,8 @@ Roles reversed ([ProVe](2026-11-04-prove-proposer-verifier-decoding.md), 2610.27
 ## Update 2026-11-05
 
 SpecPilot (2611.02501): an agent loop with a cost model and token-forcing anti-hack check lifts parallel-drafter speedup from the stock 4.46x to 10.87x at batch 1 and 1.94x to 3.93x batched, finding a lossless 12-bit weight format and tree verification for hybrid recurrent targets. Released systems reach under half their attainable speedup. Adversarial Speculative Reasoning (2611.05345): speculative decoding is not behavior-neutral over long agent traces (verification-window noise shifts outputs after ~30 steps); training the drafter to be rejected at critical points improves agent success. Together plans per-request "shape-shifting" speculative decoding. [Summary](2026-11-05-agents-optimize-inference-together-compiler-specpilot.md).
+
+
+## Update 2026-11-06
+
+[D3D and SpecOPD](2026-11-06-speculative-decoding-specopd-d3d.md) remove the remaining sequential steps. D3D (2611.06425), a diffusion drafter with no target hidden states, drafts during verification: 5.00x and 5.71x on Qwen3-8B and 32B against DFlash's 4.03x and 3.67x, with 5 of 36 layers prunable at over 99% acceptance. SpecOPD (2611.02846) collects on-policy supervision from independent branches packed into trees: up to 41.45% longer acceptance and 16.09x supervised-token throughput across full, linear and sparse targets. Part of SpecPilot's (11-05) "stock systems reach under half" gap now has an algorithmic explanation. Behavior on long agent traces remains untested.

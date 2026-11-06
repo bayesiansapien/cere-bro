@@ -522,3 +522,8 @@ SpaceX as the largest AI cloud ([summary](2026-11-04-spacex-ai-cloud-and-china-m
 ## Update 2026-11-05: power becomes political
 
 Midterms: in 12 states the winning or leading governor candidate backs a data-center pause; voters rejected new data centers in 40 of 41 local measures; CoreWeave -9.9%, Nebius -6.7% while hyperscalers rose. Apollo finances the SpaceX Vera Rubin lease ($40B); Microsoft underspent capex ~$5B on late rented capacity; Anthropic's S-1 shows ~$895B of commitments. [Summary](2026-11-05-cuda-13-5-rubin-and-midterm-compute-shock.md) · [Industry](../ai-industry/2026-11-05-anthropic-s1-coding-tool-m-and-a-midterms.md).
+
+
+## Update 2026-11-06: a second source for agent serving, and the rout
+
+[TPUv7 on AgentX](2026-11-06-tpu-ironwood-agentx-semianalysis.md): FP8 is 1.67x GB300 FP4 per dollar on Qwen3.5-397B and 1.2-2.7x B200/B300/MI355X on GLM-5.2, while native FP4 keeps GB300 ahead by up to 3.6x; Rubin previews are 4.3-5.6x TPUv7 on Kimi K3. [The rout](2026-11-06-halley-optical-control-plane-and-chip-rout.md): SOX -12.3%, Nvidia -9.3%, with Goldman estimating moratoria could touch about 45% of planned capacity. The Information notes 2027 facilities mostly have approvals, so the hit lands in 2028+. IREN's new contract has 90% GPU prepayment. Halley recovers 3.3-14.7% of capacity in simulation. [SIMPLE](../inference-efficiency/2026-11-06-simple-law-energy-cost-inference.md) adds the energy side: agentic requests cost 13.0x.

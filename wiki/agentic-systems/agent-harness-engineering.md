@@ -864,3 +864,8 @@ Measure harnesses in tokens and latency. Context as Infrastructure ([summary](20
 ## Update 2026-11-05
 
 DeepSeek's super-agent harness (event-driven daemon, worktree per task, admission gates before inference, tool-less orchestrator on a lighter model); Caper's consequence-aware approval (pre-execute in a snapshot, 6.7% harmful outcomes vs 14.8%+); Switch-SWE (-11.5 points when tasks interleave); Ken Huang's ten harness pattern families. Coding-tool M&A (OpenAI-Pierre, Meta-Conductor) says the harness is where value is captured. [Summary](2026-11-05-agent-environments-and-harness-shorts.md).
+
+
+## Update 2026-11-06
+
+Two directions: [KernelSeek](../hardware/2026-11-06-kernelseek-question-driven-kernel-optimization.md) strips the harness to a verifiable goal plus questions, while [HarnessGrad](2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md) treats the harness as the learner across 8 harnesses, 19 methods and 56 benchmarks. Restart monitors need decision value, not accuracy (fixed 90% accuracy swings -5 to +35 points). Claude Code's status-line fix shows how much harness overhead hides in background agents.

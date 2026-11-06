@@ -301,3 +301,8 @@ Tooling: vLLM's LLM Compressor v0.15 adds HIGGS mixed-precision autoquant, teach
 ## Update 2026-11-05
 
 Kimi K3.1 Pro (2.8T MoE) ships MXFP4 weights / MXFP8 activations from quantization-aware training (~1.56 TB vs ~5.6 TB BF16). Dory1.0-4B pretrained 4.5T of 6T tokens in NVFP4 and ships BF16/MXFP8/NVFP4/GGUF. Kurate surfaces "Twice as Fast, Until It Isn't" (2611.04380: quantized serving's speedup on mid-size open models erodes under some load regimes) and MatMoE (2611.01704: Matryoshka MoE with dynamic mixed-precision experts). [Summary](2026-11-05-reasoning-compression-and-moe-shorts.md).
+
+
+## Update 2026-11-06
+
+Native low precision is now the default at both ends of the size range: [Inkling 2 Small](../llms-foundation-models/2026-11-06-inkling-2-small-and-open-moe-wave.md) trained every stage in NVFP4, after Kimi K3.1 Pro's MXFP4 QAT (11-05). [SemiAnalysis](../hardware/2026-11-06-tpu-ironwood-agentx-semianalysis.md) shows why it matters commercially: FP4 halves bytes per weight, small-batch decode is memory-bound, and GB300 FP4 reaches 3.6x TPUv7 FP8 per dollar on GLM-5.2 at 100 tok/s/user, with a small accuracy loss when the model was not trained for it. KV side: [LoopVQ](2026-11-06-loopvq-and-multi-layer-indexer.md) reaches 0.5 bits per element, and 0.25 with TaSQ.

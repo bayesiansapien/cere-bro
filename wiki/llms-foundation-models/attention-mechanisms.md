@@ -235,3 +235,8 @@ AB-Attention turns dynamic block-sparse attention into importance sampling with 
 ## Update 2026-11-04
 
 Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-sparse-attention-10m-context.md), 2610.42147): at 10M tokens the sparse-attention *indexer* is the quadratic term. LSA clusters keys hierarchically in a learned latent space and descends through centroids; a distilled indexer on frozen Qwen3.8-27B gives 72.4x prefill / 42.5x decode per layer over full attention at similar accuracy. Routing-style efficient attention, with the router made hierarchical.
+
+
+## Update 2026-11-06: the sparse indexer is a systems problem
+
+[Multi-layer Indexer](../inference-efficiency/2026-11-06-loopvq-and-multi-layer-indexer.md) (2611.03768): at long context the DSA indexer scan, not sparse attention, dominates decode. Since adjacent layers select nearly the same tokens, a layer can attend the previous selection and run its indexer concurrently. It composes with IndexCache: 1.32x decode at 128K and 1/4 retention, no new weights. Three attacks in a week: CUDA 13.5's batched Top-K (library), TPUv7 SparseCores (silicon), MLI (scheduling). [SemiAnalysis](../hardware/2026-11-06-tpu-ironwood-agentx-semianalysis.md) adds a hardware fit constraint: head dim 64 pads 25% of a TPU systolic array, and matrix-core GPUs barely notice.

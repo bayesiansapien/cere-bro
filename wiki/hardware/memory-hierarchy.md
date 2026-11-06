@@ -278,3 +278,8 @@ Memory squeeze, quantified ([summary](2026-11-03-memory-squeeze-hbm-lead-times.m
 ## Update 2026-11-04
 
 Grey-market HBM gets a mechanism: US rules rate a package by its processor, so HBM ships mounted next to sub-threshold CPUs and is separated in China. Huawei now tells customers to source HBM themselves. SK hynix bought 9% of Penguin Solutions (CXL and SSD KV-cache offload) for $377M, the memory vendor buying into the KV-offload tier. Practitioner datapoint: DeepSeek-V4.1-Flash at 1-bit (552B MoE + 196B Engram table) fits one 128 GB GB10 at 18.1 tok/s with a 4-bit MLA KV cache; LAN tensor parallelism to a Mac drops it below 4 tok/s ([shorts](../inference-efficiency/2026-11-04-efficiency-shorts.md)).
+
+
+## Update 2026-11-06
+
+GLM-5.3 AgentX requests are over 90% cached at up to 1M tokens, so KV capacity sets user count ([summary](2026-11-06-tpu-ironwood-agentx-semianalysis.md)). TPU Sync spills KV and linear state to host DRAM. A one-byte overflow (129 bytes into a 128-wide row) had rounded indexer entries up to 256; a rotated layout uses 132. The SIMPLE Law gives the energy form of the memory wall: [the KV term survives prefix caching](../inference-efficiency/2026-11-06-simple-law-energy-cost-inference.md). Marcus and others expect DRAM price relief if the buildout slows.

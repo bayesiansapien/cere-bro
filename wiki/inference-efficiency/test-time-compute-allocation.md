@@ -246,3 +246,8 @@ Effort economics ([summary](../ai-routing/2026-10-29-effort-escalation-and-copil
 ## Update 2026-11-05
 
 LoCo (2611.04814) trains the local stop decision with DPO on state-conditioned pairs: -41.7 to -45.4% length on math, -23.4 to -36.3% on code at equal or better accuracy. Dory1.0-4B moves extra compute into latent loops (1.3-2.5x fewer tokens on agentic tasks at 4 loops). [Summary](2026-11-05-reasoning-compression-and-moe-shorts.md).
+
+
+## Update 2026-11-06
+
+The SIMPLE Law finds an energy optimum for reasoning: Intelligence per Joule peaks at a middle budget and falls by up to 3.14x across a 4.0x budget range ([summary](2026-11-06-simple-law-energy-cost-inference.md)). Rewriting prior reasoning into compact records shortens later reasoning with no retraining, and TAC-CoT swaps reasoning text for latent segments at up to 6.8x fewer passes ([summary](../agentic-systems/2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md)). Multi-turn RL gains depend on sufficient turn budgets.

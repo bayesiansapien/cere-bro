@@ -790,3 +790,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 - **TESD (2610.38637):** on-policy self-distillation stalls because the self-teacher is unreliable on some samples. Train the teacher with correctness rewards and down-weight unreliable guidance.
 - **DecisionRank (2610.42128):** item-space OPD into a single-pass reranker. 1.7B beats its 27B generative teacher on TREC DL; 8B runs 24.5x faster than a generative listwise reranker.
 - Pattern: since 10-31 (WISD, Soft-MTP), four papers change *what* the student imitates rather than *how much*.
+
+
+## Update 2026-11-06: the out-of-distribution blind spot
+
+[2611.05609](2026-11-06-distillation-limits-muon-rt-and-realtime-avatar.md): OPD and multi-teacher OPD reach 96.04-102.73% of teachers in distribution, yet fall 2.45-16.25% below the base model out of distribution, and 18.19-24.34% below the best teacher on composed tasks. Teacher capability and data coverage are the bottlenecks. This qualifies the 10-31 to 11-05 run of papers changing what the student copies, which mostly report in-distribution wins. Muon-RT (2610.41104) replaces Muon's momentum buffer with the EMA teacher's displacement: +2.6 points over AdamW with 42% less persistent memory. In production, Meta's Muse Realtime Avatar distills 120 passes to 2 per video chunk.

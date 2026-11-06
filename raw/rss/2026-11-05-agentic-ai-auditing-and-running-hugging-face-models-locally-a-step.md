@@ -1,0 +1,18 @@
+---
+source: farmer/rss
+feed: agentic-ai
+farmed: 2026-11-06T05:50:48.367083+00:00
+title: Auditing and Running Hugging Face Models Locally: A Step-by-Step Security Verification and Pre-Tool-Call PII Sanitization Harness
+url: https://kenhuangus.substack.com/p/auditing-and-running-hugging-face
+published: 2026-11-05
+author: Ken Huang
+---
+
+# Auditing and Running Hugging Face Models Locally: A Step-by-Step Security Verification and Pre-Tool-Call PII Sanitization Harness
+
+<p>Downloading an open-weights model checkpoint from Hugging Face is an import of executable architecture, serialization containers, and chat templates, not an import of passive numerical arrays. A model repository containing PyTorch pickle weights (<code>.bin</code>, <code>.pt</code>, <code>.pkl</code>) allows an adversary to execute arbitrary system commands during deserialization through Python <code>__reduce__</code> opcode execution. A repository containing custom Python code (<code>modeling_*.py</code>, <code>configuration_*.py</code>) executes arbitrary Python runtime logic whenever a consumer sets <code>trust_remote_code=True</code> in standard loader harnesses. In this technical evaluation, I audit the security profile of <a href="https://huggingface.co/kapitsaprime/Clover-35B-A3B-Preview-MLX-4bit">kapitsaprime/Clover-35B-A3B-Preview-MLX-4bit</a> against its upstream unquantized base model <a href="https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview">Diffuspace/Clover-35B-A3B-Preview</a>. This guide can apply to any models. I provide concrete attack and vulnerability code examples demonstrating how adversaries exploit unpickling, auto-mapping, and template evaluation. I verify the removal of untrusted execution hooks in the quantized release, deploy the 20.6 GB checkpoint to an Apple Silicon Mac mini M4 Pro with 64 GB unified memory, record its empirical decoding throughput, and implement a pre-execution tool-call inspection harness that strips Personally Identifiable Information (PII) before any model-generated function invocation executes.</p><h2>Investigation Roadmap &amp; Structural Stakes</h2><ol><li><p><strong>Deserialization Architecture and Pickle Elimination:</strong> Verifying the absence of Python pickle payloads and confirming pure <code>safetensors</code> memory-mapping to eliminate arbitrary bytecode execution during model loading.</p></li><li><p><strong>Custom Runtime Code Elimination:</strong> Auditing <code>config.json</code> to verify the removal of <code>auto_map</code> directives, ensuring the model loads without <code>trust_remote_code=True</code>.</p></li><li><p><strong>Chat Template Static Analysis:</strong> Inspecting <code>chat_template.jinja</code> to verify that Jinja2 environment rendering does not expose Server-Side Template Injection (SSTI) or unauthorized Python object traversal.</p></li><li><p><strong>Cryptographic Proof of Conversion:</strong> Validating <code>conversion.json</code> SHA-256 hashes directly against Git LFS commit tree OIDs before downloading model weight shards.</p></li><li><p><strong>Zero-Trust Local Execution on Apple Silicon:</strong> Orchestrating unified memory allocation, terminating resident background model services to claim 37 GB of memory headroom, and deploying via native Metal inference.</p></li><li><p><strong>Pre-Tool-Call PII Sanitization Harness:</strong> Building a production-grade interceptor harness that validates XML tool-call schemas and scrubs PII from parameter strings prior to system execution.</p></li></ol>
+      <p>
+          <a href="https://kenhuangus.substack.com/p/auditing-and-running-hugging-face">
+              Read more
+          </a>
+      </p>

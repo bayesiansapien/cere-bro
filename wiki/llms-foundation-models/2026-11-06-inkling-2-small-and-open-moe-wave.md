@@ -33,14 +33,13 @@ flowchart LR
 - **Base-model comparison:** per @eliebakouch, its base model's perplexity loss on internal code is lower than Kimi K3.1's after "base-recovering" K3.1 for a fair test.
 - **Customizability:** reaches the old Inkling Small's final performance in 75 training steps on a financial summarization task. In a demo it fine-tuned Qwen3.5-4B for forecasting for 4.5 hours and $426, more than doubling its score.
 - **Safety:** internal misbehavior rate 14.9 (old Inkling 66.8, GPT-6.1 Sol 0.8). Thinking Machines says it still trails closed models on alignment evals.
-- Not on the lab watcher: Thinking Machines' news page post arrived via the X feed, so this page cites it directly.
 
 ## Other open-model items
 
 - **ERNIE 5.5 Flash Base (Baidu):** 280B total, 14B active, 33.5T pretraining tokens, 128K training context with up to 1M designed for fine-tuning and inference. Shipped deliberately unpost-trained in FP8 and BF16. A post-trained version is promised.
 - **Mochi 535B-A23B (Marin / Open Athena):** finished an 18T-token pretrain on 11-05, with long-context stretch this weekend and checkpoints hoped for next week. Its public tracker is an unusually open record of a frontier-scale run, including the gradient spike traced to one token whose expert choice was nearly tied, and the numerical error in attention gradients.
 - **TwIL-8B (webAI):** 8.8B on IBM's Granite 4.2, 4.98 GiB quantized. Claims 81.6% on LiveCodeBench and 38% fewer tokens than Qwen3.5-9B on AIME 2026.
-- **The Ultimate MoE Training Handbook (Hugging Face):** 800K GPU hours of experiments, about 70K words. Thom Wolf reports 18 of the 20 best open models are MoEs. Recommendations visible so far: keep the router in fp32 always, start aux loss near 1e-3, and note that loss-free bias gave MaxVio 0.04 versus 0.72 for aux loss 1e-3 at similar perplexity, while the bias update rate may be too coarse above 128 experts (at 1,024 experts the busiest reached about 50x the mean). I read the first portion only.
+- **The Ultimate MoE Training Handbook (Hugging Face):** 800K GPU hours of experiments, about 70K words. Thom Wolf reports 18 of the 20 best open models are MoEs. Recommendations visible so far: keep the router in fp32 always, start aux loss near 1e-3, and note that loss-free bias gave MaxVio 0.04 versus 0.72 for aux loss 1e-3 at similar perplexity, while the bias update rate may be too coarse above 128 experts (at 1,024 experts the busiest reached about 50x the mean). This page covers only the Handbook's opening sections so far.
 
 ## How this relates to prior wiki pages
 

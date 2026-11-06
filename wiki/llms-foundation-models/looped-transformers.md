@@ -165,3 +165,8 @@ InfiLoop adds a loop-native residual (content weighting plus temporal decay, con
 ## Update 2026-10-29
 
 Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-outcome-rl-buys.md)): across ~600 runs, full BPTT beats truncated BPTT at matched compute; two fully trained loops beat the compute-optimal non-looped model with ~27% fewer non-embedding parameters for 8% more compute.
+
+
+## Update 2026-11-06
+
+[LoopVQ](../inference-efficiency/2026-11-06-loopvq-and-multi-layer-indexer.md) (2611.05304) attacks the looped model's memory problem directly: KV is redundant along the loop axis and loop steps differ in sensitivity, so joint coding reaches 0.5 bits per element. In SGLang it nearly halves decode latency at 32K. This competes with Dory's last-loop-only KV (11-05). Solv3R (2611.02857) applies the looped solver idea to multi-view geometry.

@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-06T05:50:41.301340+00:00
+arxiv_id: 2611.01926
+url: https://huggingface.co/papers/2611.01926
+arxiv_url: https://arxiv.org/abs/2611.01926
+date: 2026-11-05
+---
+
+# TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens
+
+LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation overhead, while implicit CoT, which replaces textual rationales with compact continuous tokens, does not naturally support the explicit communication interface required for agentic tool-use. We propose TAC-CoT, a tool-empowered adaptive implicit CoT framework that replaces explicit reasoning traces with compact latent reasoning segments while retaining textual tokens only for tool calls, observations, and final answers. This interleaved design enables agentic tool-use without verbalizing every intermediate reasoning step. Experiments on agentic math and QA benchmarks show that TAC-CoT improves accuracy by up to 8.8 points while reducing model forward passes by up to 6.8x. Furthermore, analyses show that TAC-CoT improves tool-use quality in both single- and multi-tool settings.

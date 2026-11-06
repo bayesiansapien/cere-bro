@@ -14,7 +14,7 @@
 - **SleuthVLM (2611.06083).** A vision agent over transcribed speech beats omni models that hear audio: 75.0% on four benchmarks, 2.6 points above Gemini 3.8 Flash. "Hearing is not the bottleneck, agentic ability is."
 - **FrontierPhysics (2611.06910).** 56 tasks from 42 physicists. No configuration passes more than 46 of 168 rollouts. Weakness is rigor and expert intuition, not knowledge.
 - **Science's Last Exam ([@omarsar0](https://x.com/omarsar0/status/2118392657651057140), [@rohanpaul_ai](https://x.com/rohanpaul_ai/status/2118419224616128901)).** 113 tasks in 9 disciplines, graded by hidden checks and against studies published after training cutoff. DeepSeek V4.1 Flash led hypothesis generation at 21.28%.
-- **DeepFinance ([@ycombinator](https://x.com/ycombinator/status/2118539585433284626)).** A long-horizon benchmark of 21 high-finance problems. Noam Brown praised its methodology.
+- **DeepFinance ([@ycombinator](https://x.com/ycombinator/status/2118539585433284626)).** A long-horizon benchmark of 21 high-finance problems.
 - **HarnessGrad (ZJU).** A platform crossing 8 harnesses, 19 self-improvement methods and 56 benchmarks, with the model held fixed so only the harness learns.
 - **Claude Code status-line fix ([@b1rkh0ff](https://x.com/b1rkh0ff/status/2118091433538166951)).** Background subagents were re-reading the entire conversation every 30 seconds to update a status line. The fix cuts that cost about 99%, or roughly 5% of total limit use.
 

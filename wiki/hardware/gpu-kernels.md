@@ -417,3 +417,8 @@ Low-bit attention reaches *training* on Blackwell ([FLAMIA](2026-11-04-flamia-mi
 ## Update 2026-11-05: agents tune the kernels in production
 
 Together Compiler (persistent hot-reload engine, 9 s vs 467 s per candidate, real-traffic measurement, cost-model parallelism) reports up to 2.6x TPS across Kimi K3, GLM 5.3, MiniMax M3.1-Flash and DeepSeek v4.1-Flash and 1.7x over hand-built megakernels; Together says megakernel fusion is the wrong target for polymorphic traffic ([summary](../inference-efficiency/2026-11-05-agents-optimize-inference-together-compiler-specpilot.md)). CUDA 13.5 (Vera Rubin GA) adds Tile multi-GPU pointers, Tile-to-SIMT library calls, MPS v3 SM lending and CCCL batched Top-K in FlashInfer ([summary](2026-11-05-cuda-13-5-rubin-and-midterm-compute-shock.md)). Third straight week of agents writing production systems code (after XLA:TPU swarms on 11-04).
+
+
+## Update 2026-11-06: direction beats equipment, and megakernels spread
+
+[KernelSeek](2026-11-06-kernelseek-question-driven-kernel-optimization.md) (2611.03517): a minimal harness plus questions reached 1.13x FlashAttention-3 where a tool-rich agent stalled at 0.50x, then wrote dependency-free kernels at 1.16x FA3 and 1.46x FA4. Inkling's launch tables put kernel skill on model cards: PMPP-Hard GPT-6 Astra 63/69, Kimi K3.1 Pro 60.5, Opus 5.5 60. [SemiAnalysis AgentX](2026-11-06-tpu-ironwood-agentx-semianalysis.md): megakernels now run on TPU, AMD (MonoKernel: 2,459 launches to 210, 2.31x at batch 1) and NVIDIA, in tension with Together's 11-05 claim that maximal fusion is the wrong goal for shifting traffic.

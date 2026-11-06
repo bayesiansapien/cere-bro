@@ -2212,3 +2212,16 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-05] social-stream | 2026-11-05 morning | social-stream
 ## [2026-11-05] media-zone | Media Zone 2026-11-05 (finalized) | media-zone
 ## [2026-11-05] digest | cere-bro 2026-11-05 | daily-digest
+## [2026-11-06] ingest | SemiAnalysis: TPUv7 on AgentX | rss+gmail
+## [2026-11-06] ingest | SIMPLE Law for inference energy | huggingface
+## [2026-11-06] ingest | LoopVQ and Multi-layer Indexer | huggingface
+## [2026-11-06] ingest | KernelSeek and kernel leaderboards | huggingface+x-feed
+## [2026-11-06] ingest | SpecOPD and D3D | huggingface
+## [2026-11-06] ingest | Inkling 2 Small, ERNIE 5.5 Flash Base, Mochi, MoE Handbook | x-feed+rss
+## [2026-11-06] ingest | GPT-6 Cyber and METR on Anthropic | labs+rss+x-feed
+## [2026-11-06] ingest | Distillation limits, Muon-RT, Muse Realtime Avatar | huggingface+x-feed
+## [2026-11-06] ingest | Agent evals, restart monitors, reasoning compaction | huggingface+x-feed
+## [2026-11-06] ingest | Halley and the chip rout | huggingface+rss+x-feed
+## [2026-11-06] social-stream | 2026-11-06 morning | social-stream
+## [2026-11-06] media-zone | Media Zone 2026-11-06 (finalized) | media-zone
+## [2026-11-06] digest | cere-bro 2026-11-06 | daily-digest
