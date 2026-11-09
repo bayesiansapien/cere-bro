@@ -1,0 +1,13 @@
+---
+source: farmer/rss
+feed: the-information
+farmed: 2026-11-09T14:17:49.617285+00:00
+title: "Nvidia Inquiry, Anthropic, CoreWeave and Unity News Promise Big Week"
+url: https://www.theinformation.com/articles/nvidia-inquiry-anthropic-coreweave-unity-news-promise-big-week
+published: 2026-11-08
+author: Martin Peers
+---
+
+# Nvidia Inquiry, Anthropic, CoreWeave and Unity News Promise Big Week
+
+<p>If you were hoping for a quiet week after the turmoil of the past few days, take a vacation. This week is promising to be nearly as busy as the last one was. Nvidia's <a href="https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors">announcement</a>&nbsp;this afternoon that its board is “initiating an independent investigation” about reports that CEO Jensen Huang “has been the target of a foreign intelligence effort” casts a shadow over the future of one of the most important people in AI.</p><p>Nvidia <a href="https://www.theinformation.com/briefings/nvidia-board-launching-investigation-reporting-ceo-targeted-chinese-informant?rc=ndc4g0">added</a> that the “board has no reason to believe that either national security or Nvidia secrets were compromised.” Still, once an inquiry like this starts, who knows where it will lead? It will coincide with a congressional inquiry into the same subject. Buckle up.</p><p>Meanwhile, Anthropic is next week expected to start its institutional road show to market its IPO, my colleague Valida <a href="https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week?rc=9byxri">reported on Friday.</a> The volatility of the market lately has prompted questions about whether the AI firm might delay the offering, but so far it appears to be on track. What valuation Anthropic will get is a <a href="https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b?mod=tech_feat1_ai_pos1">whole other question</a>, however.&nbsp;</p><p>OpenAI won’t be left out: The AI firm is expected to host a call with investors next week to discuss its third-quarter results, <a href="https://www.theinformation.com/briefings/openai-secured-11-billion-targets-9-billion-fundraising?rc=9byxri">we reported on Friday.</a> Maybe it should include reporters on the call to make life easier for everyone (especially us). While all this is underway, neocloud investors need to brace for another volatile week. CoreWeave, arguably the best known of that bunch of companies, is scheduled to report third-quarter earnings on Tuesday. This will give CEO Michael Intrator an opportunity to try to reassure investors about the company’s ability to weather the tightening AI financing market.&nbsp;</p>
