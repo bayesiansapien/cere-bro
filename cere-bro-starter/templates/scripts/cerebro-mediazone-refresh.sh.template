@@ -38,7 +38,7 @@ cd "$REPO" || exit 1
 # Shared heavy-Claude mutex (same lock the morning routine uses) so we never run
 # two expensive Claude calls concurrently. Reclaim if the holder PID is dead.
 LOCKDIR="$REPO/.claude/logs/morning-routine.lock"
-LOCK_MAX_AGE=7200   # 2h. Any legit run finishes well under this; older ⇒ hung holder.
+LOCK_MAX_AGE=18000  # 5h, matches the morning run (it shares this lock); older ⇒ hung holder.
 if ! mkdir "$LOCKDIR" 2>/dev/null; then
   HOLDER=$(cat "$LOCKDIR/pid" 2>/dev/null || echo "")
   LOCK_AGE=$(( $(date +%s) - $(stat -f %m "$LOCKDIR" 2>/dev/null || date +%s) ))

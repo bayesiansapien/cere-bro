@@ -9,6 +9,20 @@
 # tools an interactive shell does.
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:$PATH"
 
+# Keep the Mac awake for the whole run (2026-11-09). Runs kept stalling for hours
+# wherever the Mac idle-slept mid-run, then the lock guard killed them. caffeinate
+# -is blocks idle/system sleep until this script exits (it cannot stop lid-close).
+if [ -z "$CEREBRO_AWAKE" ] && command -v caffeinate >/dev/null 2>&1; then
+  export CEREBRO_AWAKE=1
+  exec caffeinate -is "$0" "$@"
+fi
+
+# Every farmer gets a hard time limit, so one stalled network call can never
+# wedge the run (a stuck farmer is killed and the run moves on; its items are
+# picked up by the next capture and land in the next window).
+FARM_TIMEOUT_BIN=$(command -v gtimeout || command -v timeout || true)
+farm() { if [ -n "$FARM_TIMEOUT_BIN" ]; then "$FARM_TIMEOUT_BIN" -k 30s 25m "$@"; else "$@"; fi; }
+
 REPO="{{REPO_PATH}}"
 CLAUDE="{{CLAUDE_BIN}}"
 LOG="$REPO/.claude/logs/morning-digest.log"
@@ -30,7 +44,7 @@ notify() {
 # watchdog can run overlapping routines and stampede the Claude calls. `mkdir` is
 # atomic (race-free); a stale lock (holder PID gone) is reclaimed.
 LOCKDIR="$REPO/.claude/logs/morning-routine.lock"
-LOCK_MAX_AGE=7200   # 2h. Any legit run finishes well under this; older ⇒ hung holder.
+LOCK_MAX_AGE=18000  # 5h: farmers (25m cap each) + 3 Claude attempts (60m cap each) fit inside; older ⇒ hung holder.
 if ! mkdir "$LOCKDIR" 2>/dev/null; then
   HOLDER=$(cat "$LOCKDIR/pid" 2>/dev/null || echo "")
   LOCK_AGE=$(( $(date +%s) - $(stat -f %m "$LOCKDIR" 2>/dev/null || date +%s) ))
@@ -72,43 +86,43 @@ git pull --rebase origin main >> "$LOG" 2>&1 || true
 
 # Farmers always run — they're idempotent and have their own dedup guards.
 echo "[$TODAY $(date +%H:%M:%S)] Running Gmail farmer..." >> "$LOG"
-python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || { \
+farm python3 "$REPO/connectors/gmail/farmer.py" >> "$LOG" 2>&1 || { \
   echo "[$TODAY $(date +%H:%M:%S)] Gmail farmer failed or skipped — continuing." >> "$LOG"; \
   notify "Gmail farmer failed ($TODAY)" "The Gmail farmer failed in this morning's run. Check $LOG."; }
 
 echo "[$TODAY $(date +%H:%M:%S)] Running Twitter farmer..." >> "$LOG"
-python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 || { \
+farm python3 "$REPO/connectors/twitter/farmer.py" >> "$LOG" 2>&1 || { \
   echo "[$TODAY $(date +%H:%M:%S)] Twitter farmer failed or skipped — continuing." >> "$LOG"; \
   notify "Twitter farmer failed ($TODAY)" "The Twitter/Nitter farmer failed this morning. Often a Nitter outage. Check $LOG."; }
 
 echo "[$TODAY $(date +%H:%M:%S)] Running Kurate farmer..." >> "$LOG"
-python3 "$REPO/connectors/kurate/farmer.py" >> "$LOG" 2>&1 || { \
+farm python3 "$REPO/connectors/kurate/farmer.py" >> "$LOG" 2>&1 || { \
   echo "[$TODAY $(date +%H:%M:%S)] Kurate farmer failed or skipped — continuing." >> "$LOG"; \
   notify "Kurate farmer failed ($TODAY)" "The Kurate.org farmer failed this morning. Check $LOG."; }
 
 echo "[$TODAY $(date +%H:%M:%S)] Running Reddit farmer..." >> "$LOG"
-python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || { \
+farm python3 "$REPO/connectors/reddit/farmer.py" >> "$LOG" 2>&1 || { \
   echo "[$TODAY $(date +%H:%M:%S)] Reddit farmer failed or skipped — continuing." >> "$LOG"; \
   notify "Reddit farmer failed ($TODAY)" "The Reddit farmer failed this morning. Check $LOG."; }
 
 # Social-media agent farmers (X home feed is captured by the Twitter farmer).
 # All best-effort: failure never blocks the digest.
 echo "[$TODAY $(date +%H:%M:%S)] Running YouTube farmer..." >> "$LOG"
-python3 "$REPO/connectors/youtube/farmer.py" >> "$LOG" 2>&1 || \
+farm python3 "$REPO/connectors/youtube/farmer.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] YouTube farmer skipped — continuing." >> "$LOG"
 
 # AI lab watcher: official feeds, no-feed lab pages (Anthropic, xAI, Meta, DeepSeek...),
 # system/model cards and new Hugging Face model repos. Best-effort, never blocks.
 echo "[$TODAY $(date +%H:%M:%S)] Running AI labs watcher..." >> "$LOG"
-python3 "$REPO/connectors/labs/farmer.py" >> "$LOG" 2>&1 || \
+farm python3 "$REPO/connectors/labs/farmer.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] Labs watcher failed — continuing." >> "$LOG"
 
 # DAIR.AI Academy papers from the public site (no login; self-backfills missed weeks).
 echo "[$TODAY $(date +%H:%M:%S)] Running DAIR Academy farmer..." >> "$LOG"
-python3 "$REPO/connectors/dair/farmer.py" >> "$LOG" 2>&1 || \
+farm python3 "$REPO/connectors/dair/farmer.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] DAIR farmer failed — continuing." >> "$LOG"
 echo "[$TODAY $(date +%H:%M:%S)] Running LinkedIn farmer (mild)..." >> "$LOG"
-python3 "$REPO/connectors/linkedin/farmer.py" >> "$LOG" 2>&1 || \
+farm python3 "$REPO/connectors/linkedin/farmer.py" >> "$LOG" 2>&1 || \
   echo "[$TODAY $(date +%H:%M:%S)] LinkedIn farmer skipped — continuing." >> "$LOG"
 echo "[$TODAY $(date +%H:%M:%S)] Ranking X feed..." >> "$LOG"
 python3 "$REPO/connectors/twitter/rank_feed.py" >> "$LOG" 2>&1 || \
