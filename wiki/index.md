@@ -2285,3 +2285,12 @@ Catalog of all pages. Updated on every ingest.
 | social-stream | [2026-11-07 morning](social-stream/2026-11/2026-11-07-morning.md) | Drex, EnvOpt, weight memory, 3D DRAM, MoE routing, AgentPilot |
 | media-zone | [2026-11-07](media-zone/2026-11/2026-11-07.md) | Agent cost without the model; memory supply; MoE routing (finalized) |
 | daily-digest | [2026-11-07](daily-digest/2026-11/2026-11-07.md) | Drex, EnvOpt, weight memory, TSMC 3D DRAM, PACT, Cola2, MoE routing; post-midterm compute reset |
+| inference-efficiency | [2026-11-08 StepX-OPD](inference-efficiency/2026-11-08-stepx-opd-merged-distillation.md) | One-stage multi-teacher + few-step distillation; 4-step beats 40-step Flow-OPD, ~37% fewer GPU-hours |
+| ai-routing | [2026-11-08 Lead plus cheap workers](ai-routing/2026-11-08-lead-plus-workers-agent-teams.md) | Cohere: frontier lead + cheaper workers nears all-frontier coding team at ~70% lower cost |
+| hardware | [2026-11-08 GPU generation rent gap](hardware/2026-11-08-gpu-generation-rent-gap.md) | GB300 ~$13/hr vs H100 ~$3.50 (DB); Microsoft drops Oracle H100s; memory per NVLink domain sets value |
+| responsible-ai | [2026-11-08 Jailbreaks depend on the pretraining run](responsible-ai/2026-11-08-jailbreaks-depend-on-pretraining-run.md) | Attack transfer across pretraining seeds 27%; 50-prompt fingerprint; Berkeley innocuous poisoned fine-tuning sets |
+| responsible-ai | [2026-11-08 Signed but Steerable](responsible-ai/2026-11-08-signed-but-steerable-rag-vector-integrity.md) | Offline-RAG vector hijack via cosine tolerance; INT8 drift exposes 98-100%; verify quantization codes |
+| agentic-systems | [2026-11-08 Agent benchmarks and research shorts](agentic-systems/2026-11-08-agent-benchmarks-and-research-shorts.md) | Collaborative Intelligence, ReproBridge, OpenFrontiers vs PSI proof, TB-MathModel, DreamFree, HeLM, DUMP tokens |
+| social-stream | [2026-11-08 morning](social-stream/2026-11/2026-11-08-morning.md) | GPU generation premium, agent memory "dreaming", harness-over-model, poisoned fine-tuning data |
+| media-zone | [2026-11-08](media-zone/2026-11/2026-11-08.md) | Expensive compute in one seat: GB300 vs H100 rents, Cohere lead+workers, ReproBridge, memory, safety non-transfer |
+| daily-digest | [2026-11-08](daily-digest/2026-11/2026-11-08.md) | StepX-OPD, lead+workers routing, GPU generation premium, Signed but Steerable, jailbreak seeds, Galaxy wind math |

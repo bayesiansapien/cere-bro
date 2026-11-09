@@ -2249,3 +2249,12 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-07] social-stream | 2026-11-07 morning | social-stream
 ## [2026-11-07] media-zone | Media Zone 2026-11-07 (finalized, backfill) | media-zone
 ## [2026-11-07] digest | cere-bro 2026-11-07 (backfill written 2026-11-09) | daily-digest
+## [2026-11-08] ingest | StepX-OPD merged distillation | huggingface
+## [2026-11-08] ingest | Lead plus cheap workers (Cohere) | youtube
+## [2026-11-08] ingest | GPU generation rent gap | x-feed + rss
+## [2026-11-08] ingest | Jailbreaks depend on pretraining run + Berkeley poisoned fine-tuning | huggingface + x-feed
+## [2026-11-08] ingest | Signed but Steerable | huggingface
+## [2026-11-08] ingest | Agent benchmarks and research shorts | huggingface + x-feed + gmail
+## [2026-11-08] social-stream | 2026-11-08 morning | social-stream
+## [2026-11-08] media-zone | Media Zone 2026-11-08 (finalized, backfill) | media-zone
+## [2026-11-08] digest | cere-bro 2026-11-08 (backfill written 2026-11-09) | daily-digest

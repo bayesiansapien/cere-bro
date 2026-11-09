@@ -537,3 +537,8 @@ Midterms: in 12 states the winning or leading governor candidate backs a data-ce
 ## Update 2026-11-07: the post-midterm reset
 
 [Summary](2026-11-07-tsmc-3d-dram-and-the-rebound.md). Data centers lost 40 of 41 ballot measures in ten states (AI Breakfast count); chips bounced 6-10% the day after the SOX's 12% fall. Microsoft declined to renew its 2023 Oracle server rental and passed on doubling its Nscale Texas deal. The CME delayed GPU rental futures a second time (60 days, at the CFTC's request), so compute price discovery stays off-exchange. Capital still flows to labs: Thinking Machines is closing $5B at a $40B pre-money led by Accel, and OpenAI closed $11B of its round at $1.25T. Anthropic proceeds with its IPO roadshow as investors talk the valuation down from about $2T toward $1-1.5T.
+
+
+## Update 2026-11-08: the generation premium
+
+[Summary](2026-11-08-gpu-generation-rent-gap.md). Deutsche Bank estimates SpaceX exits 2026 at $77B ARR from contracted compute (893K NVIDIA GPUs, 1.6GW, ~$11B/yr from Google) and prices GB300 hours at ~$13 vs ~$3.50 for H100, a ~3.7x generation premium. A Dutch bank is offloading ~$500M of data center loans including Stargate/CyrusOne exposure. Google committed $15B to Malaysia data centers as US local politics turn against builds. Memory per NVLink domain, not FLOPs, explains why H100 capacity reprices down for frontier MoE serving.

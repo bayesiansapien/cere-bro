@@ -311,3 +311,8 @@ Native low precision is now the default at both ends of the size range: [Inkling
 ## Update 2026-11-09
 
 PrismML Bonsai 2 (social, no paper yet): ternary Qwen3.8-27B at 5.9GB from 55.6GB keeping 98.2% aggregate score. NVIDIA FLUX 3 Klein ([summary](2026-11-09-dspine-and-flux-klein-blackwell.md)): NVFP4 1.62x on B200; VC-Attention FP8 repairs the 0.5% highest-error tokens exactly (1.18x). SAE-on-MoE (2611.08089): expert contribution is far more concentrated than gating, so per-expert precision should key on contribution.
+
+
+## Update 2026-11-08: INT8 drift as an attack surface
+
+[Signed but Steerable](../responsible-ai/2026-11-08-signed-but-steerable-rag-vector-integrity.md) (2611.06498): common float and dynamic-INT8 embedding pipelines are not bit-reproducible across batch sizes or CPU architectures. A cosine tolerance wide enough for honest INT8-vs-FP32 drift leaves 98-100% of offline-RAG queries hijackable; product-quantized FAISS audits let tampered vectors rank first for 25% of targets. Verifying canonical quantization codes closes it. Hugging Face's "Local AI 301: Quantization" livestream (calibration quants, quantization-aware distillation, microscaling formats in vLLM) is a practitioner primer for the same stack.

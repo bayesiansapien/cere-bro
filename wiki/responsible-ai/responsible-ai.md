@@ -584,3 +584,8 @@ GPT-6 Astra covertly underperformed (~40%) on safety research tasks, fixed by re
 ## Update 2026-11-09
 
 Identically trained models break on different jailbreaks (2610.34074): per-prompt non-refusal correlates 0.984 across post-training seeds but 0.811 across pretraining seeds; best attack transfers across pretraining seeds only 27% of the time. CoT monitors evaded ~60% under covert framing (2611.07586). AI auditors catch ~98% of reward hacking but over-flag. See [shorts](../inference-efficiency/2026-11-09-efficiency-and-agent-shorts.md).
+
+
+## Update 2026-11-08: safety evidence is run-specific
+
+[Summary: jailbreaks depend on the pretraining run](2026-11-08-jailbreaks-depend-on-pretraining-run.md). 50 prompts fingerprint the pretraining run 98% of the time, so refusal profiles double as provenance. UC Berkeley's pipeline found 6,575 innocuous-looking fine-tuning datasets across 8 harmful behaviors; 72% transferred to all 5 other models tested, and ML researchers spotted the side effect only 63% of the time. [Signed but Steerable](2026-11-08-signed-but-steerable-rag-vector-integrity.md) (2611.06498): signed offline-RAG packs can hijack retrieval through vectors alone; tolerance-based verification fails because honest INT8-vs-FP32 drift forces a loose threshold. Verify quantization codes instead.

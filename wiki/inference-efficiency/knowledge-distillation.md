@@ -800,3 +800,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-09: OPD has a compute bill
 
 [OPD vs GRPO](2026-11-09-opd-vs-grpo-compute-and-weight-memory.md) (2611.08453): with an external teacher OPD loses to GRPO per FLOP; with the student's own GRPO checkpoint it is 50x cheaper; multi-teacher OPD merges domain experts for 5.2-8.0% extra (~42% fewer total FLOPs). StepX-OPD (diffusion) and BCSM (diffusion LMs, 6x fewer steps) in [shorts](2026-11-09-efficiency-and-agent-shorts.md). TRL shipped multi-teacher OPD the same weekend. Emerging default: RL specialists, then OPD merge.
+
+
+## Update 2026-11-08: compress where you deploy
+
+[StepX-OPD](2026-11-08-stepx-opd-merged-distillation.md) (2611.04386): merges multi-teacher capability distillation and few-step distillation into one stage for text-to-image diffusion. Frozen specialist teachers supervise the four-step student on the states its own short rollout visits, with extra velocity regression near the low-noise end. Four-step StepX-OPD beats forty-step Flow-OPD on SD3.5-Medium and FLUX.1-dev with ~37% fewer GPU-hours than the sequential pipeline. Every full-step model tested lost score once step-distilled, so the two-stage recipe leaks quality. Open: the LLM analogue (skill merge plus reasoning-length compression in one stage).

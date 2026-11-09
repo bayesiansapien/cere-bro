@@ -332,3 +332,8 @@ DEPTH (2611.01927): 94% of solved synthetic terminal tasks pass within three tur
 ## Update 2026-11-06
 
 FrontierPhysics (2611.06910, 56 tasks, none passes over 46 of 168 rollouts), Science's Last Exam (113 tasks, hidden checks, hypotheses scored against later studies) and DeepFinance (21 long-horizon problems) continue the 11-05 GDPx finding that research-grade work is far from solved. [Summary](2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md).
+
+
+## Update 2026-11-08
+
+[Summary](2026-11-08-agent-benchmarks-and-research-shorts.md). Collaborative Intelligence Benchmark (2611.02633): best of 18 models 82.2/100; models cave under teammate pressure (best deal 14%). ReproBridge (2611.08452): saved artifacts lift reproduction 76.4% to 92.6%, cut API spend 19.7%, shrink model spread 21.6 to 3.9 points. OpenFrontiers (2610.37739): closed-book agents rediscover at most 7 of 40 recently solved problems, while PSI claims a Lean-verified proof of the Aaronson-Ambainis conjecture from an unreleased Anthropic model. TB-MathModel (2611.08237): 64.58% best, open model 59.81% at ~1/100 the cost.

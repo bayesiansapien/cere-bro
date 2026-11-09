@@ -1007,3 +1007,8 @@ Routing ships as a product feature: GitHub's Copilot Fusion picks Single, Cascad
 ## Update 2026-11-07: decision models go open as a family
 
 [Drex (2611.07854)](2026-11-07-drex-open-decision-model-family.md): Nace AI opens four decision models (8B, 9B, 35B-A3B, 27B Max). Max ties GPT-6 Sol on Decision Bench v4, trails Opus 5.5 by 1.6 points, and answers in 183 ms at about $0.06 per 1K decisions vs $10.17 for Opus. RLAF trains on teacher probabilities adjusted by the verified answer (soft calibrated targets), +2.0 Decision Index points; a consistency loss cuts option-order flips 6.3% to 4.2%. Calibration is now published per domain: 5-9 points over-confident in four of five, so a confidence gate needs per-domain thresholds. Ceiling stays clear: 21% of sampled HLE questions vs 56% for Opus without CoT. Same day, HKU's AgentPilot puts a 9B strategist over a frontier executor in coding loops (no independent benchmark yet). The page's thesis that bounded choices leave the frontier model now has open weights at four sizes.
+
+
+## Update 2026-11-08: routing by role inside the harness
+
+[Lead plus cheap workers](2026-11-08-lead-plus-workers-agent-teams.md) (Cohere, AI Engineer talk): a frontier lead with cheaper planning workers nears an all-frontier coding team at ~70% lower cost on ProgramBench and Commit0, if work is delegated only at the stuck stage and the lead waits for workers. Fourth role-routing example in a week after Claude Code's Haiku status updates, Drex and AgentPilot. OpenRouter rebuilt provider routing to track live endpoint performance instead of defaulting to the cheapest provider, and Hume launched a Decision Model API (audio plus question plus options returns per-option probabilities), the same shape as Drex.
