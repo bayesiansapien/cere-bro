@@ -306,3 +306,8 @@ Kimi K3.1 Pro (2.8T MoE) ships MXFP4 weights / MXFP8 activations from quantizati
 ## Update 2026-11-06
 
 Native low precision is now the default at both ends of the size range: [Inkling 2 Small](../llms-foundation-models/2026-11-06-inkling-2-small-and-open-moe-wave.md) trained every stage in NVFP4, after Kimi K3.1 Pro's MXFP4 QAT (11-05). [SemiAnalysis](../hardware/2026-11-06-tpu-ironwood-agentx-semianalysis.md) shows why it matters commercially: FP4 halves bytes per weight, small-batch decode is memory-bound, and GB300 FP4 reaches 3.6x TPUv7 FP8 per dollar on GLM-5.2 at 100 tok/s/user, with a small accuracy loss when the model was not trained for it. KV side: [LoopVQ](2026-11-06-loopvq-and-multi-layer-indexer.md) reaches 0.5 bits per element, and 0.25 with TaSQ.
+
+
+## Update 2026-11-09
+
+PrismML Bonsai 2 (social, no paper yet): ternary Qwen3.8-27B at 5.9GB from 55.6GB keeping 98.2% aggregate score. NVIDIA FLUX 3 Klein ([summary](2026-11-09-dspine-and-flux-klein-blackwell.md)): NVFP4 1.62x on B200; VC-Attention FP8 repairs the 0.5% highest-error tokens exactly (1.18x). SAE-on-MoE (2611.08089): expert contribution is far more concentrated than gating, so per-expert precision should key on contribution.

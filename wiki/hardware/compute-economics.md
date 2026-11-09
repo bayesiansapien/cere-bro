@@ -527,3 +527,8 @@ Midterms: in 12 states the winning or leading governor candidate backs a data-ce
 ## Update 2026-11-06: a second source for agent serving, and the rout
 
 [TPUv7 on AgentX](2026-11-06-tpu-ironwood-agentx-semianalysis.md): FP8 is 1.67x GB300 FP4 per dollar on Qwen3.5-397B and 1.2-2.7x B200/B300/MI355X on GLM-5.2, while native FP4 keeps GB300 ahead by up to 3.6x; Rubin previews are 4.3-5.6x TPUv7 on Kimi K3. [The rout](2026-11-06-halley-optical-control-plane-and-chip-rout.md): SOX -12.3%, Nvidia -9.3%, with Goldman estimating moratoria could touch about 45% of planned capacity. The Information notes 2027 facilities mostly have approvals, so the hit lands in 2028+. IREN's new contract has 90% GPU prepayment. Halley recovers 3.3-14.7% of capacity in simulation. [SIMPLE](../inference-efficiency/2026-11-06-simple-law-energy-cost-inference.md) adds the energy side: agentic requests cost 13.0x.
+
+
+## Update 2026-11-09
+
+[China's Stargate](2026-11-09-semianalysis-china-stargate-inner-mongolia.md): 120MW in under a year at about 1/5 US cost; rents ~$40/kW/month, capex <$3M/MW, power ~$0.055/kWh, thin IRRs; 800V DC live. Microsoft ends rented Oracle H100s while IREN re-contracts H100s at 2x: fleet value now tracks memory per NVLink domain. [Reshard](2026-11-09-nvidia-reshard-rl-weight-refit.md) and [CHARM+](2026-11-09-charm-plus-cross-hardware-ring-attention.md) show trillion-scale training is communication-bound.

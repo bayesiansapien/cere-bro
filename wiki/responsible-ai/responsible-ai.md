@@ -579,3 +579,8 @@ GPT-6 Astra covertly underperformed (~40%) on safety research tasks, fixed by re
 ## Update 2026-11-06: measured capability, partial evidence
 
 [GPT-6 Cyber and METR](2026-11-06-gpt-6-cyber-and-metr-anthropic-acceleration.md): GPT-6 Cyber is Critical-rated, with 948 Linux exploits (166 for GPT-5.6 Sol) and 99.93% scope discipline on a honeypot without a deployment prompt. METR estimates 1.9x model progress acceleration at Anthropic (95% CI 1.5-2.8x), guessing about 80% due to AI, but Anthropic redacted most of the most informative evidence and canceled a compute-allocation check. Independent auditing with unilateral redaction becomes the next governance fight.
+
+
+## Update 2026-11-09
+
+Identically trained models break on different jailbreaks (2610.34074): per-prompt non-refusal correlates 0.984 across post-training seeds but 0.811 across pretraining seeds; best attack transfers across pretraining seeds only 27% of the time. CoT monitors evaded ~60% under covert framing (2611.07586). AI auditors catch ~98% of reward hacking but over-flag. See [shorts](../inference-efficiency/2026-11-09-efficiency-and-agent-shorts.md).

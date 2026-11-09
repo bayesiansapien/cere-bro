@@ -795,3 +795,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-06: the out-of-distribution blind spot
 
 [2611.05609](2026-11-06-distillation-limits-muon-rt-and-realtime-avatar.md): OPD and multi-teacher OPD reach 96.04-102.73% of teachers in distribution, yet fall 2.45-16.25% below the base model out of distribution, and 18.19-24.34% below the best teacher on composed tasks. Teacher capability and data coverage are the bottlenecks. This qualifies the 10-31 to 11-05 run of papers changing what the student copies, which mostly report in-distribution wins. Muon-RT (2610.41104) replaces Muon's momentum buffer with the EMA teacher's displacement: +2.6 points over AdamW with 42% less persistent memory. In production, Meta's Muse Realtime Avatar distills 120 passes to 2 per video chunk.
+
+
+## Update 2026-11-09: OPD has a compute bill
+
+[OPD vs GRPO](2026-11-09-opd-vs-grpo-compute-and-weight-memory.md) (2611.08453): with an external teacher OPD loses to GRPO per FLOP; with the student's own GRPO checkpoint it is 50x cheaper; multi-teacher OPD merges domain experts for 5.2-8.0% extra (~42% fewer total FLOPs). StepX-OPD (diffusion) and BCSM (diffusion LMs, 6x fewer steps) in [shorts](2026-11-09-efficiency-and-agent-shorts.md). TRL shipped multi-teacher OPD the same weekend. Emerging default: RL specialists, then OPD merge.

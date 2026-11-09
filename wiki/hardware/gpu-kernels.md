@@ -422,3 +422,8 @@ Together Compiler (persistent hot-reload engine, 9 s vs 467 s per candidate, rea
 ## Update 2026-11-06: direction beats equipment, and megakernels spread
 
 [KernelSeek](2026-11-06-kernelseek-question-driven-kernel-optimization.md) (2611.03517): a minimal harness plus questions reached 1.13x FlashAttention-3 where a tool-rich agent stalled at 0.50x, then wrote dependency-free kernels at 1.16x FA3 and 1.46x FA4. Inkling's launch tables put kernel skill on model cards: PMPP-Hard GPT-6 Astra 63/69, Kimi K3.1 Pro 60.5, Opus 5.5 60. [SemiAnalysis AgentX](2026-11-06-tpu-ironwood-agentx-semianalysis.md): megakernels now run on TPU, AMD (MonoKernel: 2,459 launches to 210, 2.31x at batch 1) and NVIDIA, in tension with Together's 11-05 claim that maximal fusion is the wrong goal for shifting traffic.
+
+
+## Update 2026-11-09
+
+[CHARM+](2026-11-09-charm-plus-cross-hardware-ring-attention.md): leveled ring attention with a decoupled cross-node stream, 2.8x/2.9x vs Ring Attention on dual-node NVLink. [NVIDIA Reshard](2026-11-09-nvidia-reshard-rl-weight-refit.md): NCCL M2N collective for RL refit, 2.7-5.7x.

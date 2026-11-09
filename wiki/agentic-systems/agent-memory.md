@@ -433,3 +433,8 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## Update 2026-11-01
 
 [Routed CL (2610.38796)](2026-11-01-routed-continual-learning.md): one global in-context history gains only +0.015 over no memory once tasks interleave; partitioning experience into routed clusters, each with its own memory system, adds 15-30% of max reward and cuts API cost 65-72%. Refines the 10-24/10-28 "raw history wins" result: keep raw detail, but partition it. Untested: retrieval-over-raw-history as a baseline on the same mixed stream, and parallel writers per cluster.
+
+
+## Update 2026-11-09
+
+Anthropic's [components of agent memory](2026-11-09-anthropic-agent-memory-and-google-agent-distraction.md): memory pays when the model stores validated rules; 'dreaming' consolidates logs offline; 'record only failures' erases gains. Route to Remember (2611.05636) stores user facts in weights via on-policy self-distillation (59.9% recall vs 36.9% fine-tuning). Memorilla: 16 learned tokens replace documents (108x fewer). EvoMemState adds relational and reasoning states. [Coca-Cola](2026-11-09-coca-cola-latent-tool-observation-compression.md) compresses tool observations to latents.

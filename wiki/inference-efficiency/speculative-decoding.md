@@ -253,3 +253,8 @@ SpecPilot (2611.02501): an agent loop with a cost model and token-forcing anti-h
 ## Update 2026-11-06
 
 [D3D and SpecOPD](2026-11-06-speculative-decoding-specopd-d3d.md) remove the remaining sequential steps. D3D (2611.06425), a diffusion drafter with no target hidden states, drafts during verification: 5.00x and 5.71x on Qwen3-8B and 32B against DFlash's 4.03x and 3.67x, with 5 of 36 layers prunable at over 99% acceptance. SpecOPD (2611.02846) collects on-policy supervision from independent branches packed into trees: up to 41.45% longer acceptance and 16.09x supervised-token throughput across full, linear and sparse targets. Part of SpecPilot's (11-05) "stock systems reach under half" gap now has an algorithmic explanation. Behavior on long agent traces remains untested.
+
+
+## Update 2026-11-09
+
+DFlash is now the baseline everyone beats. [ChainFlow](2026-11-09-chainflow-speculative-listening.md) (2611.08669): flow-matching drafter conditioned on target hidden states, 1-2 steps, +39% vs EAGLE-3 and +11% vs DFlash in vLLM. [DSpine](2026-11-09-dspine-and-flux-klein-blackwell.md) (Tencent, open): 5-layer parallel drafter, 2.71-3.84x on agents vs DFlash2 2.33-3.17x. Speculative Listening (2611.06982): speculate on *input* in duplex speech, 95.3% of chunks unchanged under a silence guess, 73% lower response delay. Open: ChainFlow (leans on hidden states) vs D3D (ignores them) head to head.

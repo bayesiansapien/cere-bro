@@ -869,3 +869,8 @@ DeepSeek's super-agent harness (event-driven daemon, worktree per task, admissio
 ## Update 2026-11-06
 
 Two directions: [KernelSeek](../hardware/2026-11-06-kernelseek-question-driven-kernel-optimization.md) strips the harness to a verifiable goal plus questions, while [HarnessGrad](2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md) treats the harness as the learner across 8 harnesses, 19 methods and 56 benchmarks. Restart monitors need decision value, not accuracy (fixed 90% accuracy swings -5 to +35 points). Claude Code's status-line fix shows how much harness overhead hides in background agents.
+
+
+## Update 2026-11-09
+
+The environment becomes the third lever: [EnvOpt](2026-11-09-envopt-and-agent-cost-shorts.md) (2611.07372) cuts Haiku 4.5 cost 72.7% (+14.34% pass) by rewriting the shared workspace, and Google's [agent distraction](2026-11-09-anthropic-agent-memory-and-google-agent-distraction.md) data puts stale TODOs at +77% tokens. Harness-S rescues failed RL rollouts with sibling harnesses and transfers the behaviour into weights. Evolver, ReproBridge, HarnessGrad and open harness evals crossed the feed (surfaced via the Following feed).

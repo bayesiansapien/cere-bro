@@ -150,3 +150,8 @@ Cohere ([summary](../ai-routing/2026-10-19-coding-agent-teams-and-token-audits.m
 ## Update 2026-10-31
 
 rTaste: agent teams cost more than single research agents with no clear gain in experiment-proposal quality; agents' rankings barely beat taking the first idea ([summary](2026-10-31-rtaste-and-agent-judgment-influence.md)).
+
+
+## Update 2026-11-09
+
+[SwarmEvolve](2026-11-09-swarmevolve-latent-kv-swarms.md): hundreds of latent-reasoning agents per round, novelty by hidden-state distance, crossover by merging KV caches. PLatour/PACT-Check ([shorts](../inference-efficiency/2026-11-09-efficiency-and-agent-shorts.md)) warns some latent-communication gains are adapter effects.

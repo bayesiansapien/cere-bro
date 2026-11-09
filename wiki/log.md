@@ -2225,3 +2225,18 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-06] social-stream | 2026-11-06 morning | social-stream
 ## [2026-11-06] media-zone | Media Zone 2026-11-06 (finalized) | media-zone
 ## [2026-11-06] digest | cere-bro 2026-11-06 | daily-digest
+## [2026-11-09] ingest | Intent-Aware Caching | kurate
+## [2026-11-09] ingest | Coca-Cola latent tool observations | huggingface+kurate
+## [2026-11-09] ingest | SwarmEvolve | huggingface+kurate
+## [2026-11-09] ingest | ChainFlow and Speculative Listening | kurate+huggingface
+## [2026-11-09] ingest | DSpine and FLUX 3 Klein on Blackwell | labs
+## [2026-11-09] ingest | OPD vs GRPO compute + Route to Remember | x-feed
+## [2026-11-09] ingest | Efficiency and agent shorts | huggingface+kurate
+## [2026-11-09] ingest | CHARM+ | kurate
+## [2026-11-09] ingest | NVIDIA Reshard | labs
+## [2026-11-09] ingest | China's Stargate (SemiAnalysis) | rss+gmail
+## [2026-11-09] ingest | Anthropic agent memory + Google agent distraction | labs
+## [2026-11-09] ingest | EnvOpt and agent-cost shorts | x-feed
+## [2026-11-09] social-stream | 2026-11-09 morning | social-stream
+## [2026-11-09] media-zone | Media Zone 2026-11-09 (finalized) | media-zone
+## [2026-11-09] digest | cere-bro 2026-11-09 | daily-digest
