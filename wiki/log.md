@@ -2258,3 +2258,5 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-08] social-stream | 2026-11-08 morning | social-stream
 ## [2026-11-08] media-zone | Media Zone 2026-11-08 (finalized, backfill) | media-zone
 ## [2026-11-08] digest | cere-bro 2026-11-08 (backfill written 2026-11-09) | daily-digest
+
+## [2026-11-09] digest | cere-bro 2026-11-09 backfill pass: restored, folded qwenFS/MoE-latency/linear-recurrence quant from Media Zone | daily-digest
