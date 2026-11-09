@@ -874,3 +874,8 @@ Two directions: [KernelSeek](../hardware/2026-11-06-kernelseek-question-driven-k
 ## Update 2026-11-09
 
 The environment becomes the third lever: [EnvOpt](2026-11-09-envopt-and-agent-cost-shorts.md) (2611.07372) cuts Haiku 4.5 cost 72.7% (+14.34% pass) by rewriting the shared workspace, and Google's [agent distraction](2026-11-09-anthropic-agent-memory-and-google-agent-distraction.md) data puts stale TODOs at +77% tokens. Harness-S rescues failed RL rollouts with sibling harnesses and transfers the behaviour into weights. Evolver, ReproBridge, HarnessGrad and open harness evals crossed the feed (surfaced via the Following feed).
+
+
+## Update 2026-11-07
+
+Feed-day signals ([Drex and AgentPilot](../ai-routing/2026-11-07-drex-open-decision-model-family.md)): HKU's AgentPilot splits the loop so a 9B model chooses strategy, budget and stopping while a frontier model executes, learning online from trial outcomes. A widely reposted thread argued subagent handoffs are the main harness failure point, because the main agent passes a lossy summary of what it knows. Berkeley posted two harness-optimization works (an agent improving its own harness at deploy time, and evolving the harness alongside the solution); only the openings were captured. EnvOpt, the environment as a third lever, is covered in the 11-09 update above.

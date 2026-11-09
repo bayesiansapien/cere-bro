@@ -866,3 +866,8 @@ NVIDIA's "You don't need long context" (2611.05306) shows frequent compaction co
 ## Update 2026-11-09: choose what to keep, carry less in
 
 [Intent-Aware Caching](2026-11-09-intent-aware-caching.md) (2611.09715) uses request intent to predict next-turn probability and gap: 34.6% prefix-cache hits vs 18.8% prior learned policy and 12.2% LRU, up to 46.1% lower latency (chat traces only). [Coca-Cola](../agentic-systems/2026-11-09-coca-cola-latent-tool-observation-compression.md) shrinks the KV term at the source by feeding tool output as latent tokens (-70-89% agent tokens). [SwarmEvolve](../agentic-systems/2026-11-09-swarmevolve-latent-kv-swarms.md) uses concatenated KV caches as the crossover operator between agents. Open: plan-aware eviction for agents, and joint router-plus-cache policies (caches are per-model).
+
+
+## Update 2026-11-07
+
+[PACT / PLatour (2611.06976)](2026-11-07-pact-prefill-to-autoregressive-transfer.md): a large sender does the prefill, a linear bridge passes its representations to a small receiver that decodes. Gains beat Mostik with a smaller sender, but some are reproduced by uninformative sender signals or receiver-only training, so the bridge can be plain adaptation. PACT-Check measures the share of gain that truly comes from the sender. Treat cross-model prefill transfer results without this control as unproven.

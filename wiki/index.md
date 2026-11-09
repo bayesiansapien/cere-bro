@@ -2277,3 +2277,11 @@ Catalog of all pages. Updated on every ingest.
 | social-stream | [2026-11-09 morning](social-stream/2026-11/2026-11-09-morning.md) | Agent memory + harness evolution, distillation compute, harness evals, Huang affair |
 | media-zone | [2026-11-09](media-zone/2026-11/2026-11-09.md) | Context below text, MoE handbook, distillation bill, H100 repricing, harness/environment evals |
 | daily-digest | [2026-11-09](daily-digest/2026-11/2026-11-09.md) | Intent-Aware Caching, Coca-Cola, speculative drafters, OPD vs GRPO, SwarmEvolve, CHARM+/Reshard, China's Stargate, EnvOpt, Anthropic IPO |
+| ai-routing | [2026-11-07 Drex open decision-model family](ai-routing/2026-11-07-drex-open-decision-model-family.md) | Four open decision models; 27B Max within 1.6 pts of Opus 5.5 at 183 ms; RLAF soft targets; AgentPilot 9B strategist |
+| inference-efficiency | [2026-11-07 PACT prefill-to-AR transfer](inference-efficiency/2026-11-07-pact-prefill-to-autoregressive-transfer.md) | Big model prefills, small model decodes; PACT-Check shows some gains need no sender |
+| inference-efficiency | [2026-11-07 MoE routing strategies for serving](inference-efficiency/2026-11-07-moe-routing-strategies-for-serving.md) | Seven expert-routing schemes; even split does not mean low latency |
+| llms-foundation-models | [2026-11-07 Cola2 continuous-latent LM](llms-foundation-models/2026-11-07-cola2-continuous-latent-lm.md) | Span VAE + 4B latent DiT + token decoder; 60.10 avg on 346B tokens |
+| hardware | [2026-11-07 TSMC 3D DRAM and the rebound](hardware/2026-11-07-tsmc-3d-dram-and-the-rebound.md) | NVIDIA asks TSMC for 3D DRAM; Microsoft drops Oracle; CME delays GPU futures; Modular filing |
+| social-stream | [2026-11-07 morning](social-stream/2026-11/2026-11-07-morning.md) | Drex, EnvOpt, weight memory, 3D DRAM, MoE routing, AgentPilot |
+| media-zone | [2026-11-07](media-zone/2026-11/2026-11-07.md) | Agent cost without the model; memory supply; MoE routing (finalized) |
+| daily-digest | [2026-11-07](daily-digest/2026-11/2026-11-07.md) | Drex, EnvOpt, weight memory, TSMC 3D DRAM, PACT, Cola2, MoE routing; post-midterm compute reset |

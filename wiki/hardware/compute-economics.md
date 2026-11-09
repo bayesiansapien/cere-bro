@@ -532,3 +532,8 @@ Midterms: in 12 states the winning or leading governor candidate backs a data-ce
 ## Update 2026-11-09
 
 [China's Stargate](2026-11-09-semianalysis-china-stargate-inner-mongolia.md): 120MW in under a year at about 1/5 US cost; rents ~$40/kW/month, capex <$3M/MW, power ~$0.055/kWh, thin IRRs; 800V DC live. Microsoft ends rented Oracle H100s while IREN re-contracts H100s at 2x: fleet value now tracks memory per NVLink domain. [Reshard](2026-11-09-nvidia-reshard-rl-weight-refit.md) and [CHARM+](2026-11-09-charm-plus-cross-hardware-ring-attention.md) show trillion-scale training is communication-bound.
+
+
+## Update 2026-11-07: the post-midterm reset
+
+[Summary](2026-11-07-tsmc-3d-dram-and-the-rebound.md). Data centers lost 40 of 41 ballot measures in ten states (AI Breakfast count); chips bounced 6-10% the day after the SOX's 12% fall. Microsoft declined to renew its 2023 Oracle server rental and passed on doubling its Nscale Texas deal. The CME delayed GPU rental futures a second time (60 days, at the CFTC's request), so compute price discovery stays off-exchange. Capital still flows to labs: Thinking Machines is closing $5B at a $40B pre-money led by Accel, and OpenAI closed $11B of its round at $1.25T. Anthropic proceeds with its IPO roadshow as investors talk the valuation down from about $2T toward $1-1.5T.

@@ -283,3 +283,8 @@ Grey-market HBM gets a mechanism: US rules rate a package by its processor, so H
 ## Update 2026-11-06
 
 GLM-5.3 AgentX requests are over 90% cached at up to 1M tokens, so KV capacity sets user count ([summary](2026-11-06-tpu-ironwood-agentx-semianalysis.md)). TPU Sync spills KV and linear state to host DRAM. A one-byte overflow (129 bytes into a 128-wide row) had rounded indexer entries up to 256; a rotated layout uses 132. The SIMPLE Law gives the energy form of the memory wall: [the KV term survives prefix caching](../inference-efficiency/2026-11-06-simple-law-energy-cost-inference.md). Marcus and others expect DRAM price relief if the buildout slows.
+
+
+## Update 2026-11-07
+
+TSMC is drawing up plans for 3D DRAM at NVIDIA's request ([summary](2026-11-07-tsmc-3d-dram-and-the-rebound.md)). With SK hynix sold out under LTAs (11-03) and Micron already pivoting to 3D DRAM (10-24), NVIDIA is trying to create a fourth memory supplier. 3D DRAM is years from scale, so it does nothing for the current HBM shortage; it is a bet on who controls memory pricing late in the decade. TSMC's etch and deposition strength is the reason it is a plausible entrant.

@@ -2240,3 +2240,12 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-09] social-stream | 2026-11-09 morning | social-stream
 ## [2026-11-09] media-zone | Media Zone 2026-11-09 (finalized) | media-zone
 ## [2026-11-09] digest | cere-bro 2026-11-09 | daily-digest
+
+## [2026-11-07] ingest | Drex open decision-model family + AgentPilot | x-feed
+## [2026-11-07] ingest | PACT prefill-to-autoregressive transfer | gmail (HF daily papers)
+## [2026-11-07] ingest | MoE routing strategies for serving | x-feed
+## [2026-11-07] ingest | Cola2 continuous-latent LM | labs
+## [2026-11-07] ingest | TSMC 3D DRAM, Microsoft-Oracle, GPU futures | rss + gmail
+## [2026-11-07] social-stream | 2026-11-07 morning | social-stream
+## [2026-11-07] media-zone | Media Zone 2026-11-07 (finalized, backfill) | media-zone
+## [2026-11-07] digest | cere-bro 2026-11-07 (backfill written 2026-11-09) | daily-digest

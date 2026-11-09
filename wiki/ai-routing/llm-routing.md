@@ -1002,3 +1002,8 @@ Route Anything ([summary](2026-11-05-route-anything-omni-modal-routing.md), 2611
 ## Update 2026-11-06
 
 Routing ships as a product feature: GitHub's Copilot Fusion picks Single, Cascade or Critique from one effort level. Cache-aware routing is a measured lever: llm-d's exact-rank routing raised decode cache hits from 56% to 76% on TPUv7 ([summary](../hardware/2026-11-06-tpu-ironwood-agentx-semianalysis.md)). Apple's learned support functions route RAG queries using the stable query distribution. Reports on X of an Airbnb test favor a fine-tuned Gemma 4 over hosted decision model Jev, at about a fifth of the cost at scale.
+
+
+## Update 2026-11-07: decision models go open as a family
+
+[Drex (2611.07854)](2026-11-07-drex-open-decision-model-family.md): Nace AI opens four decision models (8B, 9B, 35B-A3B, 27B Max). Max ties GPT-6 Sol on Decision Bench v4, trails Opus 5.5 by 1.6 points, and answers in 183 ms at about $0.06 per 1K decisions vs $10.17 for Opus. RLAF trains on teacher probabilities adjusted by the verified answer (soft calibrated targets), +2.0 Decision Index points; a consistency loss cuts option-order flips 6.3% to 4.2%. Calibration is now published per domain: 5-9 points over-confident in four of five, so a confidence gate needs per-domain thresholds. Ceiling stays clear: 21% of sampled HLE questions vs 56% for Opus without CoT. Same day, HKU's AgentPilot puts a 9B strategist over a frontier executor in coding loops (no independent benchmark yet). The page's thesis that bounded choices leave the frontier model now has open weights at four sizes.
