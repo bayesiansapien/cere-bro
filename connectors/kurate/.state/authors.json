@@ -48264,10 +48264,18 @@
         "arxiv_id": "2611.06049v1",
         "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.06049v1",
+        "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W45",
-    "last_seen": "2026-W45"
+    "last_seen": "2026-W46"
   },
   "Jiaduo Lin": {
     "appearances": [
@@ -48278,10 +48286,18 @@
         "arxiv_id": "2611.06049v1",
         "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.06049v1",
+        "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W45",
-    "last_seen": "2026-W45"
+    "last_seen": "2026-W46"
   },
   "Zehong Huang": {
     "appearances": [
@@ -48292,10 +48308,18 @@
         "arxiv_id": "2611.06049v1",
         "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.06049v1",
+        "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W45",
-    "last_seen": "2026-W45"
+    "last_seen": "2026-W46"
   },
   "Wen Liu": {
     "appearances": [
@@ -48306,10 +48330,18 @@
         "arxiv_id": "2611.06049v1",
         "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.06049v1",
+        "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W45",
-    "last_seen": "2026-W45"
+    "last_seen": "2026-W46"
   },
   "Jiacheng Cen": {
     "appearances": [
@@ -48858,6 +48890,160 @@
         "arxiv_id": "2611.09046v1",
         "title": "When Can You Trust Neural Critics? Auditing Mutual Information Estimates of Higher-Order Epistasis in Protein Language Models",
         "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Sungguk Cha": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.05798v1",
+        "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Mintae Kim": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.05798v1",
+        "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Youngsub Han": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.05798v1",
+        "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Byoung-Ki Jeon": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.05798v1",
+        "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Sangyeob Lee": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.05798v1",
+        "title": "Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Laurin Schmid": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.09274v1",
+        "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Suman Navaratnarajah": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.09274v1",
+        "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Koel Dutta Chowdhury": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.09274v1",
+        "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Steffen Eger": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.09274v1",
+        "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Josif Grabocka": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.09274v1",
+        "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Christian Frey": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.09274v1",
+        "title": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",

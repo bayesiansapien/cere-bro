@@ -285,3 +285,7 @@ LEMS + KFAC-SVD ([shorts](2026-11-04-efficiency-shorts.md), 2610.32878): an ILP 
 ## Update 2026-11-05
 
 Training-free MoE expert pruning (2610.41366): whether survivors' gates are renormalized swings accuracy 0.8-8.5 points and flips method rankings; a closed-form low-rank "tilted novice" replacement gains 1.4-3.5 points at 50% pruning with 1.2-1.8% added parameters, robust to 4/3-bit quantization. Muon roughly doubles first-MoE-layer imbalance (2610.37914). [Summary](2026-11-05-reasoning-compression-and-moe-shorts.md).
+
+## Update 2026-11-10: prune to a GPU, not a parameter count
+
+[AutoCompress (2611.08290)](2026-11-10-p2-mopd-autocompress-hires.md) puts serving-engine cost models (validated against measured latency, throughput and memory) into differentiable architecture search, producing heterogeneous per-layer structure. Over Minitron: +6.57 points average accuracy on RTX 5070, +2.35 on RTX 5080, +0.57 on H100. It compressed Nemotron 3.5 Super from 120B to 74B for single-B200 BF16 serving at 128K context at 95% of mean score. Related: Weight-Space Programming (2611.09382, HF + Kurate) edits 1,023 parameters for a 29-point MATH-500 gain, showing how localized useful edits can be.

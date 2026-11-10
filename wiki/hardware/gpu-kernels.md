@@ -427,3 +427,7 @@ Together Compiler (persistent hot-reload engine, 9 s vs 467 s per candidate, rea
 ## Update 2026-11-09
 
 [CHARM+](2026-11-09-charm-plus-cross-hardware-ring-attention.md): leveled ring attention with a decoupled cross-node stream, 2.8x/2.9x vs Ring Attention on dual-node NVLink. [NVIDIA Reshard](2026-11-09-nvidia-reshard-rl-weight-refit.md): NCCL M2N collective for RL refit, 2.7-5.7x.
+
+## Update 2026-11-10: agent teams beat FlashInfer; FlashAttention for relative-position bias
+
+[Evolving Agent Teams and relative-position kernels](2026-11-10-evolving-agent-teams-and-relative-position-kernels.md). A supervisor that restructures a team of coding agents at each plateau, with a persistent lessons file system, wrote an MLA paged-decode kernel at 1.2x production FlashInfer (36 of 47 FlashInfer-Bench workloads), plus KDA prefill at 3.01x over vLLM on MI350X and 3.44x over FlashKDA on B200. Claude Code alone stalled at 0.51x. This confirms the 11-05 agent-written FlashAttention result (1.16x FA3, 1.46x FA4): two agent-beats-expert attention kernels in a week. A separate Triton kernel folds additive relative-position terms into tiled attention (1.8-6.4x forward, 2.0-21x backward, up to 128x less memory at 8K). Tension: practitioners report Anthropic models refusing kernel-optimization tasks, and Anthropic says it curbed Fable 5.2's self-acceleration abilities. Tooling: Meta's vendor-neutral LLDB accelerator plugins debug CPU and GPU as separate processes in one session.

@@ -2260,3 +2260,13 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-08] digest | cere-bro 2026-11-08 (backfill written 2026-11-09) | daily-digest
 
 ## [2026-11-09] digest | cere-bro 2026-11-09 backfill pass: restored, folded qwenFS/MoE-latency/linear-recurrence quant from Media Zone | daily-digest
+## [2026-11-10] ingest | Claude Fable 5.2 and Mythos 5.2 | labs + rss + x-feed
+## [2026-11-10] ingest | LowRAM KV value amortisation | huggingface
+## [2026-11-10] ingest | Evolving Agent Teams + relative-position attention kernels | x-feed + huggingface + labs
+## [2026-11-10] ingest | P²-MOPD, AutoCompress, HiRes, TOPSD | huggingface
+## [2026-11-10] ingest | Muse Ember, AgentBaton, CPU-ARC | x-feed + huggingface + rss
+## [2026-11-10] ingest | BOXBOX, Shepherd, EvoAudit, HEELO | x-feed + huggingface
+## [2026-11-10] ingest | Coding or Cheating, Authorization Drift, Control Room, intrusion heads | huggingface + labs + x-feed
+## [2026-11-10] social-stream | 2026-11-10 morning | social-stream
+## [2026-11-10] media-zone | Media Zone 2026-11-10 (finalized from closed window) | media-zone
+## [2026-11-10] digest | cere-bro 2026-11-10 | daily-digest

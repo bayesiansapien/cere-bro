@@ -542,3 +542,7 @@ Midterms: in 12 states the winning or leading governor candidate backs a data-ce
 ## Update 2026-11-08: the generation premium
 
 [Summary](2026-11-08-gpu-generation-rent-gap.md). Deutsche Bank estimates SpaceX exits 2026 at $77B ARR from contracted compute (893K NVIDIA GPUs, 1.6GW, ~$11B/yr from Google) and prices GB300 hours at ~$13 vs ~$3.50 for H100, a ~3.7x generation premium. A Dutch bank is offloading ~$500M of data center loans including Stargate/CyrusOne exposure. Google committed $15B to Malaysia data centers as US local politics turn against builds. Memory per NVLink domain, not FLOPs, explains why H100 capacity reprices down for frontier MoE serving.
+
+## Update 2026-11-10: demand holds while governance risk hits Nvidia
+
+Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while reported B200 rental rates were up 74% over three months and US computer and chip imports ran at a $1.04T annualized pace. Anthropic took over OnePWR's 1.7GW Caterpillar generator order for $3.4B to buy a two-year queue position, which marks generators as the binding constraint. A new export-control push targets remote GPU access and lithography tooling. On the demand-reduction side, [LowRAM](../inference-efficiency/2026-11-10-lowram-kv-value-amortisation.md) (26.9x composed KV compression) and [AutoCompress](../inference-efficiency/2026-11-10-p2-mopd-autocompress-hires.md) (120B to 74B to fit one B200 at 128K) both cut memory per served session.
