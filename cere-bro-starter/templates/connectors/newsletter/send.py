@@ -72,6 +72,12 @@ def main():
     msg["Subject"], msg["From"], msg["To"] = subject, f"Cerebro <{sender}>", ", ".join(to)
     msg.set_content(f"{subject}\n\nThis is the HTML edition; open it in an HTML-capable mail client.")
     msg.add_alternative(page, subtype="html")
+    # Embed the logo in the message itself (cid:), so it shows on networks that
+    # block GitHub-hosted images and in clients that block remote images.
+    logo = HERE / "logo.png"
+    if logo.exists():
+        msg.get_payload()[1].add_related(logo.read_bytes(), maintype="image", subtype="png",
+                                         cid=f"<{build.LOGO_CID}>", filename="cerebro.png")
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
         s.login(sender, re.sub(r"\s", "", pw))
         s.send_message(msg)

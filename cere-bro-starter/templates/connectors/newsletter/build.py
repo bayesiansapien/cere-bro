@@ -26,6 +26,10 @@ OUT = HERE / "out"
 
 BLOCKED_HOSTS = tuple(CFG.get("blocked_link_hosts", ["github.com", "github.io", "githubusercontent.com"]))
 LINK_RX = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
+# Brand palette, matched to the cere-bro site: near-black header behind the white
+# logo, amber accent, dark-cyan links (the logo's cyan, darkened for white paper).
+DARK, ACCENT, LINK, RULE = "#0a0a0f", "#d97706", "#0e7490", "#f1e4cc"
+LOGO_CID = "cerebro-logo"
 
 
 def ok_url(u):
@@ -41,7 +45,7 @@ def inline(md):
     for m in LINK_RX.finditer(md):
         out.append(html.escape(md[pos:m.start()]))
         text, url = m.group(1), m.group(2)
-        out.append(f'<a href="{html.escape(url)}" style="color:#6741d9">{html.escape(text)}</a>'
+        out.append(f'<a href="{html.escape(url)}" style="color:{LINK}">{html.escape(text)}</a>'
                    if ok_url(url) else html.escape(text))
         pos = m.end()
     out.append(html.escape(md[pos:]))
@@ -58,7 +62,7 @@ def html_li(li):
     verb = (re.search(r'class="verb [a-z]+">([^<]+)<', li) or [None, ""])[1]
     li = re.sub(r'<span class="verb[^"]*">[^<]*</span>', "", li)
     def a(m):
-        return f'<a href="{m.group(1)}" style="color:#6741d9">{m.group(2)}</a>' if ok_url(m.group(1)) else m.group(2)
+        return f'<a href="{m.group(1)}" style="color:{LINK}">{m.group(2)}</a>' if ok_url(m.group(1)) else m.group(2)
     li = re.sub(r'<a href="([^"]+)"[^>]*>(.*?)</a>', a, li)
     li = re.sub(r"<(?!/?(a|strong)\b)[^>]+>", "", li)
     return verb, li.strip()
@@ -115,7 +119,7 @@ def pulse(block, max_general):
     return [(head[0], head[1][:max_general])] + rest if head[1] else rest
 
 
-def build(date):
+def build(date, logo_src=f"cid:{LOGO_CID}"):
     p = REPO / "wiki" / "daily-digest" / date[:7] / f"{date}.md"
     md = p.read_text()
     framing = (re.search(r"(?m)^> (.+)$", md) or [None, ""])[1]
@@ -124,33 +128,36 @@ def build(date):
     dd = deep_dives(sec.get("Deep Dives", ""), CFG.get("takeaways_per_deep_dive", 2))
     pl = pulse(sec.get("Industry Pulse", ""), CFG.get("max_pulse_bullets", 14))
     gv = re.findall(r"(?m)^\*\*(.+?)\*\*", sec.get("Global View", ""))
-    brand, purple = CFG.get("brand", "Cerebro"), "#6741d9"
+    brand, purple = CFG.get("brand", "Cerebro"), ACCENT
 
     H = []
     w = H.append
     w('<div style="max-width:680px;margin:0 auto;font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;'
       'color:#1b1b1b;font-size:15px;line-height:1.55">')
-    w(f'<div style="background:{purple};color:#fff;padding:18px 22px;border-radius:10px 10px 0 0">'
-      f'<div style="font-size:12px;letter-spacing:2px;font-weight:700;opacity:.85">🧠 {brand.upper()} DAILY</div>'
-      f'<div style="font-size:22px;font-weight:700;margin-top:4px">{brand} | {date}</div>'
-      f'<div style="font-size:13px;opacity:.85">{html.escape(CFG.get("tagline", ""))}</div></div>')
-    w('<div style="border:1px solid #e5dbff;border-top:none;padding:18px 22px;border-radius:0 0 10px 10px">')
+    w(f'<div style="background:{DARK};color:#fff;padding:22px 22px 16px;border-radius:10px 10px 0 0;text-align:center">'
+      f'<img src="{logo_src}" alt="{brand}" width="240" style="display:block;margin:0 auto;width:240px;max-width:70%;height:auto;border:0">'
+      f'<div style="font-size:12px;letter-spacing:3px;font-weight:700;color:#fbbf24;margin-top:10px">{brand.upper()} DAILY &middot; {date}</div>'
+      f'<div style="font-size:13px;color:#c9c9d4;margin-top:2px">{html.escape(CFG.get("tagline", ""))}</div></div>')
+    w(f'<div style="border:1px solid {RULE};border-top:none;padding:18px 22px;border-radius:0 0 10px 10px">')
     if framing:
         w(f'<p style="font-style:italic;color:#444;border-left:3px solid {purple};padding-left:12px;margin-top:0">{inline(framing)}</p>')
 
     def h2(t):
-        w(f'<h2 style="font-size:17px;color:{purple};border-bottom:1px solid #e5dbff;padding-bottom:4px;margin:22px 0 10px">{t}</h2>')
+        w(f'<h2 style="font-size:17px;color:{purple};border-bottom:1px solid {RULE};padding-bottom:4px;margin:22px 0 10px">{t}</h2>')
 
     if lis:
         h2("🎯 Today's 5 for you")
-        w('<ol style="padding-left:20px;margin:0">')
+        # A table, not <ol>: mail clients pad list markers unpredictably, which left
+        # a wide gap after "1.". Number, badge and text now sit tight together.
+        w('<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%">')
         colors = {"Read": "#2f9e44", "Skim": "#1971c2", "Track": "#f08c00"}
-        for li in lis:
+        for n, li in enumerate(lis, 1):
             verb, body = html_li(li)
             badge = (f'<span style="background:{colors.get(verb, purple)};color:#fff;font-size:11px;font-weight:700;'
                      f'padding:1px 6px;border-radius:4px;margin-right:6px">{verb.upper()}</span>') if verb else ""
-            w(f'<li style="margin-bottom:8px">{badge}{body}</li>')
-        w("</ol>")
+            w(f'<tr><td style="vertical-align:top;width:18px;padding:0 4px 9px 0;font-weight:700;color:{purple}">{n}.</td>'
+              f'<td style="vertical-align:top;padding:0 0 9px 0">{badge}{body}</td></tr>')
+        w("</table>")
     tl = bullets(sec.get("TL;DR", ""))
     if tl:
         h2("⚡ TL;DR")
@@ -167,7 +174,7 @@ def build(date):
                   + "".join(f"<li>{inline(t)}</li>" for t in d["take"]) + "</ul>")
             if d["links"]:
                 w('<div style="font-size:13px">🔗 ' + " · ".join(
-                    f'<a href="{html.escape(u)}" style="color:{purple}">{html.escape(t)}</a>' for t, u in d["links"]) + "</div>")
+                    f'<a href="{html.escape(u)}" style="color:{LINK}">{html.escape(t)}</a>' for t, u in d["links"]) + "</div>")
             w("</div>")
     if pl:
         h2("🏭 Industry Pulse")
@@ -180,19 +187,19 @@ def build(date):
         h2("🌐 Global View")
         w('<ul style="padding-left:20px;margin:0">' + "".join(f"<li>{inline(g)}</li>" for g in gv) + "</ul>")
     foot = CFG.get("podcast_url")
-    w(f'<div style="margin-top:24px;padding-top:10px;border-top:1px solid #e5dbff;font-size:12.5px;color:#666">'
+    w(f'<div style="margin-top:24px;padding-top:10px;border-top:1px solid {RULE};font-size:12.5px;color:#666">'
       f'<strong style="color:{purple}">{brand}</strong> · {html.escape(CFG.get("footer", ""))}'
-      + (f' · 🎧 <a href="{foot}" style="color:{purple}">{brand} Radio on Spotify</a>' if foot else "")
+      + (f' · 🎧 <a href="{foot}" style="color:{LINK}">{brand} Radio on Spotify</a>' if foot else "")
       + "</div></div></div>")
     page = "\n".join(H)
     leads = [re.sub(r"\*\*|\[|\]\([^)]*\)", "", b).split(":")[0].strip() for b in tl[:3]]
-    subject = f"🧠 {brand} Daily | {date}: " + (", ".join(leads) if leads else "today's digest")
+    subject = f"{brand} Daily | {date}: " + (", ".join(leads) if leads else "today's digest")
     return subject, page
 
 
 if __name__ == "__main__":
     date = sys.argv[1]
-    subject, page = build(date)
+    subject, page = build(date, logo_src="../logo.png")   # local preview; the sent email embeds the logo inline
     OUT.mkdir(exist_ok=True)
     (OUT / f"{date}.html").write_text(page)
     (OUT / f"{date}.subject.txt").write_text(subject)
