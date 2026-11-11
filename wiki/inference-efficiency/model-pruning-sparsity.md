@@ -289,3 +289,8 @@ Training-free MoE expert pruning (2610.41366): whether survivors' gates are reno
 ## Update 2026-11-10: prune to a GPU, not a parameter count
 
 [AutoCompress (2611.08290)](2026-11-10-p2-mopd-autocompress-hires.md) puts serving-engine cost models (validated against measured latency, throughput and memory) into differentiable architecture search, producing heterogeneous per-layer structure. Over Minitron: +6.57 points average accuracy on RTX 5070, +2.35 on RTX 5080, +0.57 on H100. It compressed Nemotron 3.5 Super from 120B to 74B for single-B200 BF16 serving at 128K context at 95% of mean score. Related: Weight-Space Programming (2611.09382, HF + Kurate) edits 1,023 parameters for a 29-point MATH-500 gain, showing how localized useful edits can be.
+
+
+## Update 2026-11-11: modality-aware expert pruning
+
+[MAEP (2611.05927)](2026-11-11-maep-modality-aware-expert-pruning.md) scores MoE experts separately for text and vision tokens with a redistribution-aware output-change metric (ΔH), using text importance to protect and low-attention vision tokens to cut. About 27 GB (47% of memory) removed from 30B-A3B multimodal MoEs, so a ~58 GB model fits one 40 GB GPU, beating modality-agnostic expert pruning on most multimodal benchmarks. Extends REAP-style text-only expert pruning. Open: compare against 4-bit expert quantization at equal memory.

@@ -546,3 +546,8 @@ Midterms: in 12 states the winning or leading governor candidate backs a data-ce
 ## Update 2026-11-10: demand holds while governance risk hits Nvidia
 
 Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while reported B200 rental rates were up 74% over three months and US computer and chip imports ran at a $1.04T annualized pace. Anthropic took over OnePWR's 1.7GW Caterpillar generator order for $3.4B to buy a two-year queue position, which marks generators as the binding constraint. A new export-control push targets remote GPU access and lithography tooling. On the demand-reduction side, [LowRAM](../inference-efficiency/2026-11-10-lowram-kv-value-amortisation.md) (26.9x composed KV compression) and [AutoCompress](../inference-efficiency/2026-11-10-p2-mopd-autocompress-hires.md) (120B to 74B to fit one B200 at 128K) both cut memory per served session.
+
+
+## Update 2026-11-11: older GPUs reprice upward
+
+[CoreWeave Q3](2026-11-11-old-gpus-reprice-coreweave-lambda.md): Ampere and Hopper contract pricing rose 30-50% and now exceeds original rates, while revenue grew 168% to $3.66B and interest expense ($846M) swamped adjusted operating income ($379M). Anthropic's amended S-1 makes a $34.9B Lambda lease cancellable; SoftBank wrote off $3.7B in datacenter advance payments. This cuts against the 11-08 generation-premium reading (H100 spot sliding toward $3.50/hr): long-contract prices are rising on scarcity even as the newest parts command premiums.

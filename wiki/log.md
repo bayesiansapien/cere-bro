@@ -2270,3 +2270,17 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-10] social-stream | 2026-11-10 morning | social-stream
 ## [2026-11-10] media-zone | Media Zone 2026-11-10 (finalized from closed window) | media-zone
 ## [2026-11-10] digest | cere-bro 2026-11-10 | daily-digest
+## [2026-11-11] ingest | RidgeFill late-layer cache fill | huggingface
+## [2026-11-11] ingest | OPD mismatch budget, D²-OPD, OPD learning dynamics | huggingface + dair
+## [2026-11-11] ingest | Flide exact state forking | huggingface
+## [2026-11-11] ingest | Meta TLX, TPU v7 megakernel, cuTile Mamba-2 | labs + x-feed
+## [2026-11-11] ingest | MAEP modality-aware expert pruning | huggingface
+## [2026-11-11] ingest | Gemini 4 Carbon GA + model card | labs + rss + x-feed
+## [2026-11-11] ingest | Agency, agent token waste, Infrathon, InfraRSI, parallel agent teams | x-feed + huggingface + dair
+## [2026-11-11] ingest | AlphaProof Code, Lean-verified quantum programs, lean-zip | labs + gmail + dair
+## [2026-11-11] ingest | Lazarus dormant-neuron backdoor | labs + x-feed
+## [2026-11-11] ingest | Efficiency shorts (e-means, onóna, SD-ViT, PhysioWave-T, Sugar Glider, Snapshot) | huggingface + x-feed + labs
+## [2026-11-11] ingest | CoreWeave Q3, Lambda lease, SoftBank write-off, Semiconductor Week 45 | rss + gmail + x-feed
+## [2026-11-11] social-stream | 2026-11-11 morning | social-stream
+## [2026-11-11] media-zone | Media Zone 2026-11-11 (finalized from closed window) | media-zone
+## [2026-11-11] digest | cere-bro 2026-11-11 | daily-digest

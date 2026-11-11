@@ -49048,5 +49048,509 @@
     ],
     "first_seen": "2026-W46",
     "last_seen": "2026-W46"
+  },
+  "Lenny Aharon": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.10684v1",
+        "title": "Audit Before You Merge: Provenance, Probing, and Continual LoRA Composition",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Neta Glazer": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.10684v1",
+        "title": "Audit Before You Merge: Provenance, Probing, and Continual LoRA Composition",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Lior Aharon": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.10684v1",
+        "title": "Audit Before You Merge: Provenance, Probing, and Continual LoRA Composition",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yaofei Duan": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.10180v1",
+        "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yuhao Huang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.10180v1",
+        "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yuan Gao": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.10180v1",
+        "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Ruixiang Qi": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.10180v1",
+        "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Tianyu Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.10180v1",
+        "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yanlin Geng": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.10180v1",
+        "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Cheng Luo": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Jian Zhu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Zhoujian Sun": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yunyi Qi": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yu Qi": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Wenhui Sun": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Shilong Pan": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.10418v1",
+        "title": "Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Zhiliang Tian": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.10418v1",
+        "title": "Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Weiguo Chen": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.10418v1",
+        "title": "Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Zihan Chen": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.10418v1",
+        "title": "Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "DongSheng Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.10418v1",
+        "title": "Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Justin Shao": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.11068v1",
+        "title": "Discrete Diffusion Playground: A 2D Benchmark for Discrete Generative Models",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Sihyun Park": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.11068v1",
+        "title": "Discrete Diffusion Playground: A 2D Benchmark for Discrete Generative Models",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "David Ryan Koes": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.11068v1",
+        "title": "Discrete Diffusion Playground: A 2D Benchmark for Discrete Generative Models",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Maria Chikina": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.11068v1",
+        "title": "Discrete Diffusion Playground: A 2D Benchmark for Discrete Generative Models",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Kaixi Yang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.11792v1",
+        "title": "APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Linbo Qiao": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.11792v1",
+        "title": "APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Wei Shang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.11792v1",
+        "title": "APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yanqi Shi": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.11792v1",
+        "title": "APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Dongsheng Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.11792v1",
+        "title": "APO2CS: Advantage-Aware Preference Optimization for Two-Level Constructive Search in Combinatorial Optimization",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yingxue Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.10086v1",
+        "title": "Transferring local rib responses to new component geometries in sheet forming with a graph-based Transformer",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Haoran Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.10086v1",
+        "title": "Transferring local rib responses to new component geometries in sheet forming with a graph-based Transformer",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Haosu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.10086v1",
+        "title": "Transferring local rib responses to new component geometries in sheet forming with a graph-based Transformer",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Tobias Pfaff": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.10086v1",
+        "title": "Transferring local rib responses to new component geometries in sheet forming with a graph-based Transformer",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Nan Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.10086v1",
+        "title": "Transferring local rib responses to new component geometries in sheet forming with a graph-based Transformer",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Shenghong Cai": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.11481v1",
+        "title": "One-Shot Hierarchical Federated Clustering for Distributed Non-IID Biomedical Data Analysis",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yiqun Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.11481v1",
+        "title": "One-Shot Hierarchical Federated Clustering for Distributed Non-IID Biomedical Data Analysis",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
   }
 }

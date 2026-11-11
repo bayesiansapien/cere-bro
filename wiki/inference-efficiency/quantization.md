@@ -316,3 +316,8 @@ PrismML Bonsai 2 (social, no paper yet): ternary Qwen3.8-27B at 5.9GB from 55.6G
 ## Update 2026-11-08: INT8 drift as an attack surface
 
 [Signed but Steerable](../responsible-ai/2026-11-08-signed-but-steerable-rag-vector-integrity.md) (2611.06498): common float and dynamic-INT8 embedding pipelines are not bit-reproducible across batch sizes or CPU architectures. A cosine tolerance wide enough for honest INT8-vs-FP32 drift leaves 98-100% of offline-RAG queries hijackable; product-quantized FAISS audits let tampered vectors rank first for 25% of targets. Verifying canonical quantization codes closes it. Hugging Face's "Local AI 301: Quantization" livestream (calibration quants, quantization-aware distillation, microscaling formats in vLLM) is a practitioner primer for the same stack.
+
+
+## Update 2026-11-11: quantized rollouts for distillation
+
+The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the first to price FP8 rollout quantization inside on-policy distillation: model-specific FP8 recipes keep training quality, a few layers carry most of the precision sensitivity, and the KV capacity gain is at least 1.93x over BF16. Separately, Microsoft's Lazarus backdoor ([summary](../responsible-ai/2026-11-11-lazarus-dormant-neuron-backdoor.md)) raises an open question for third-party quants: does requantization preserve or erase a dormant-neuron payload?
