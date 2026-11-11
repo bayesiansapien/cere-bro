@@ -119,10 +119,20 @@ def pulse(block, max_general):
     return [(head[0], head[1][:max_general])] + rest if head[1] else rest
 
 
+NUM_RX = re.compile(r"\$\d[\d.,]*[KMBT]?|\d+(?:\.\d+)?(?:x|%)")
+
+
+def nums(text):
+    """Distinctive figures in a line ($64.4B, 2.6x, 46%), used to spot repeats."""
+    return set(NUM_RX.findall(text))
+
+
+
 def build(date, logo_src=f"cid:{LOGO_CID}"):
     p = REPO / "wiki" / "daily-digest" / date[:7] / f"{date}.md"
     md = p.read_text()
     framing = (re.search(r"(?m)^> (.+)$", md) or [None, ""])[1]
+    framing = re.split(r"(?<=[.!?])\s+", framing.strip())[0]   # the theme only; the items follow below
     lis = re.findall(r"<li>(.*?)</li>", md.split("## TL;DR")[0], re.S)
     sec = sections(md)
     dd = deep_dives(sec.get("Deep Dives", ""), CFG.get("takeaways_per_deep_dive", 2))
@@ -158,24 +168,37 @@ def build(date, logo_src=f"cid:{LOGO_CID}"):
             w(f'<tr><td style="vertical-align:top;width:18px;padding:0 4px 9px 0;font-weight:700;color:{purple}">{n}.</td>'
               f'<td style="vertical-align:top;padding:0 0 9px 0">{badge}{body}</td></tr>')
         w("</table>")
-    tl = bullets(sec.get("TL;DR", ""))
-    if tl:
-        h2("⚡ TL;DR")
-        w('<ul style="padding-left:20px;margin:0">' + "".join(f'<li style="margin-bottom:4px">{inline(b)}</li>' for b in tl) + "</ul>")
+    # The email is pruned for zero repetition (2026-11-11). The digest's TL;DR is
+    # left out: every bullet is already in Today's 5, a Deep Dive, or Industry Pulse.
+    # Deep Dives already in Today's 5 appear as title + source link, no re-summary.
+    top_urls = set(re.findall(r'href="([^"]+)"', " ".join(lis)))
+    tl = bullets(sec.get("TL;DR", ""))   # used only for the subject line
     if dd:
-        h2("🔬 Deep Dives")
+        h2("🔬 All papers and posts")
         for d in dd:
-            w('<div style="margin-bottom:16px">')
-            w(f'<div style="font-weight:700;font-size:15.5px">{inline(d["title"])}</div>')
-            if d["hook"]:
-                w(f'<div style="color:#444;margin:2px 0 4px">{inline(d["hook"])}</div>')
-            if d["take"]:
-                w('<ul style="padding-left:20px;margin:2px 0;font-size:14px;color:#333">'
-                  + "".join(f"<li>{inline(t)}</li>" for t in d["take"]) + "</ul>")
-            if d["links"]:
-                w('<div style="font-size:13px">🔗 ' + " · ".join(
-                    f'<a href="{html.escape(u)}" style="color:{LINK}">{html.escape(t)}</a>' for t, u in d["links"]) + "</div>")
+            urls = [u for _, u in d["links"]]
+            title = inline(d["title"])
+            if urls:
+                title = f'<a href="{html.escape(urls[0])}" style="color:#1b1b1b;text-decoration:none">{title}</a>'
+            more = " · ".join(f'<a href="{html.escape(u)}" style="color:{LINK}">{html.escape(t)}</a>' for t, u in d["links"])
+            w(f'<div style="margin-bottom:10px"><div style="font-weight:700">{title}</div>')
+            if d["hook"] and not set(urls) & top_urls:
+                w(f'<div style="color:#444;font-size:14px">{inline(d["hook"])}</div>')
+            if more:
+                w(f'<div style="font-size:13px">{more}</div>')
             w("</div>")
+    seen_nums, pruned = [], []
+    for name, bs in pl:
+        keep = []
+        for b in bs:
+            n = nums(b)
+            if any(len(n & prev) >= 2 for prev in seen_nums):
+                continue          # same story told twice (e.g. a headline and its funding line)
+            seen_nums.append(n)
+            keep.append(b)
+        if keep:
+            pruned.append((name, keep))
+    pl = pruned
     if pl:
         h2("🏭 Industry Pulse")
         for name, bs in pl:
