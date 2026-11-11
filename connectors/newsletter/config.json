@@ -1,0 +1,10 @@
+{
+  "_comment": "Cerebro Daily email. Recipients and sender live OUTSIDE the repo in ~/.config/cere-bro/newsletter.env (NEWSLETTER_TO, comma-separated; NEWSLETTER_FROM). SMTP password: Keychain item gmail-smtp-password.",
+  "brand": "Cerebro",
+  "tagline": "The day in AI research, compressed",
+  "footer": "compressed from today's daily digest",
+  "podcast_url": "https://open.spotify.com/show/033pFfRZXOPB4gyxbpMOnw",
+  "takeaways_per_deep_dive": 2,
+  "max_pulse_bullets": 14,
+  "blocked_link_hosts": ["github.com", "github.io", "githubusercontent.com"]
+}

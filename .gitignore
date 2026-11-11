@@ -61,3 +61,7 @@ connectors/window/.state/
 
 # X GraphQL id/feature cache (auto-discovered, regenerated as needed)
 connectors/twitter/.state/graphql_ids.json
+
+# Cerebro Daily newsletter: rendered emails + send log (local only)
+connectors/newsletter/out/
+connectors/newsletter/.state/
