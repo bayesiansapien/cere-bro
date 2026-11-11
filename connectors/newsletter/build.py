@@ -27,7 +27,7 @@ OUT = HERE / "out"
 BLOCKED_HOSTS = tuple(CFG.get("blocked_link_hosts", ["github.com", "github.io", "githubusercontent.com"]))
 LINK_RX = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 # Brand palette, matched to the cere-bro site: amber accent, dark-cyan links (the
-# logo's cyan, darkened for white paper). logo.png is the dark-ink logo variant.
+# logo's cyan, darkened for white paper). logo.png is the white logo on its own black band.
 ACCENT, LINK, RULE = "#d97706", "#0e7490", "#f1e4cc"
 LOGO_CID = "cerebro-logo"
 
@@ -144,12 +144,13 @@ def build(date, logo_src=f"cid:{LOGO_CID}"):
     w = H.append
     w('<div style="max-width:680px;margin:0 auto;font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;'
       'color:#1b1b1b;font-size:15px;line-height:1.55">')
-    # Header renders the same with or without background colours (print view and
-    # some mail clients drop them): dark-ink logo on white, amber rule underneath.
-    w(f'<div style="padding:20px 22px 12px;text-align:center;border:1px solid {RULE};border-bottom:3px solid {ACCENT};border-radius:10px 10px 0 0">'
-      f'<img src="{logo_src}" alt="{brand}" width="240" style="display:block;margin:0 auto;width:240px;max-width:70%;height:auto;border:0">'
-      f'<div style="font-size:12px;letter-spacing:3px;font-weight:700;color:{ACCENT};margin-top:10px">{brand.upper()} DAILY &middot; {date}</div>'
-      f'<div style="font-size:13px;color:#666;margin-top:2px">{html.escape(CFG.get("tagline", ""))}</div></div>')
+    # Header: the logo image carries its own black background (baked into the PNG,
+    # so clients that strip CSS backgrounds still show it), then white below.
+    w(f'<div style="border:1px solid {RULE};border-bottom:3px solid {ACCENT};border-radius:10px 10px 0 0;overflow:hidden;text-align:center">'
+      f'<img src="{logo_src}" alt="{brand}" width="680" style="display:block;width:100%;max-width:680px;height:auto;border:0">'
+      f'<div style="padding:10px 22px 12px">'
+      f'<div style="font-size:12px;letter-spacing:3px;font-weight:700;color:{ACCENT}">{brand.upper()} DAILY &middot; {date}</div>'
+      f'<div style="font-size:13px;color:#666;margin-top:2px">{html.escape(CFG.get("tagline", ""))}</div></div></div>')
     w(f'<div style="border:1px solid {RULE};border-top:none;padding:18px 22px;border-radius:0 0 10px 10px">')
     if framing:
         w(f'<p style="font-style:italic;color:#444;border-left:3px solid {purple};padding-left:12px;margin-top:0">{inline(framing)}</p>')
