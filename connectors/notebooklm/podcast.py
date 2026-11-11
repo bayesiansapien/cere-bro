@@ -54,7 +54,7 @@ HTML_PATH   = EP_DIR / f"{date_str}.html"
 # Sun (weekday 6) → WEEKLY WRAP: Thu-Sun digests are the new material (= US Wed-Sat);
 #                   Mon-Wed are included as call-back context for Wednesday's episode.
 #                   focus_prompt_weekly, weekly_lookback_days (6).
-# Sat (weekday 5) → LATE-WEEK: the Thu+Fri+Sat digests, focus_prompt_lateweek (added 2026-10-27).
+# Sat (weekday 5) → LATE-WEEK, opt-in only via lateweek_days (off since 2026-11-11).
 # Every other day → no podcast; exit cleanly so the cron sweep moves on.
 weekday = datetime.strptime(date_str, "%Y-%m-%d").weekday()
 schedule = cfg.get("weekday_schedule", {"midweek_days": [2], "weekly_days": [6], "daily_days": []})
@@ -70,7 +70,7 @@ elif weekday in schedule.get("lateweek_days", []):
 elif weekday in schedule.get("daily_days", []):
     EPISODE_MODE = "daily"
 else:
-    print(f"{date_str} is a {DOW}: no podcast (episodes run Wed midweek, Sat late-week, Sun weekly).")
+    print(f"{date_str} is a {DOW}: no podcast (episodes run Wed midweek + Sun weekly).")
     sys.exit(0)
 print(f"Podcast generator | {date_str} ({DOW} → {EPISODE_MODE})")
 print(f"Digest: {DIGEST_PATH}")
