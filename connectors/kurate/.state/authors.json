@@ -27026,10 +27026,18 @@
         "arxiv_id": "2609.05090v1",
         "title": "Constructing and Evaluating Clinical Reasoning Trajectories for Medical Agent",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W37",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W46"
   },
   "Xuebing Yang": {
     "appearances": [
@@ -32630,10 +32638,18 @@
         "arxiv_id": "2609.25620v1",
         "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W39",
-    "last_seen": "2026-W40"
+    "last_seen": "2026-W46"
   },
   "Qiandi Gao": {
     "appearances": [
@@ -34830,10 +34846,18 @@
         "arxiv_id": "2609.36576v1",
         "title": "Divide and Inject: Can Agents Reconstruct an Indirect Prompt Injection from Fragments?",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W40",
-    "last_seen": "2026-W41"
+    "last_seen": "2026-W46"
   },
   "Miteto Wei": {
     "appearances": [
@@ -49547,6 +49571,356 @@
         "rank": 8,
         "arxiv_id": "2611.11481v1",
         "title": "One-Shot Hierarchical Federated Clustering for Distributed Non-IID Biomedical Data Analysis",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Shenxi Liu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yiwei Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Mingyang Zhao": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yuhang Tian": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Kan Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Akseli Kangaslahti": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Milind Tambe": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Alastair van Heerden": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Cheryl Johnson": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Ekrem Aksoy": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.13232v1",
+        "title": "W-ISA: Transactional Execution of Weight-Space Intervention Programs",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Minyu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yajing Wu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yongqiang Tang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Wang Jia": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Lujun Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Yang Hong": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Tiantian Yang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Alessandro Pereira": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13356v1",
+        "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Keith J Ransom": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13356v1",
+        "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Lewis Mitchell": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13356v1",
+        "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Chaeho Lee": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Junyup Kim": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Wansoo Kim": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Young Min Jung": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Sang Ho Lee": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
       }
     ],

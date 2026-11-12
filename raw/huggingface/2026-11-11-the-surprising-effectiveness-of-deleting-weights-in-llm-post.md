@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-12T12:57:12.900336+05:30
+arxiv_id: 2611.10866
+url: https://huggingface.co/papers/2611.10866
+arxiv_url: https://arxiv.org/abs/2611.10866
+date: 2026-11-11
+---
+
+# The Surprising Effectiveness of Deleting Weights in LLM Post-Training
+
+How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation. Our method, Deletion Tuning, learns a binary mask over the gate projection of transformer blocks. Two practical advantages follow: the trained mask is hundreds to thousands of times smaller than the corresponding FFT checkpoint, and Deletion Tuning forgets far less, which addresses a central challenge in continual learning. Under reinforcement learning, its prior-task accuracy stays near the base level while FFT, LoRA, and random sparse fine-tuning lose up to 5.4 points. To understand why masking alone suffices, we analyze the geometry of the learned weight changes under reinforcement learning using stable rank, spectrum drift, and principal-weight overlap. Compared with LoRA and random sparse fine-tuning, Deletion Tuning is closest to FFT across the three measures.

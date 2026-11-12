@@ -551,3 +551,7 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 ## Update 2026-11-11: older GPUs reprice upward
 
 [CoreWeave Q3](2026-11-11-old-gpus-reprice-coreweave-lambda.md): Ampere and Hopper contract pricing rose 30-50% and now exceeds original rates, while revenue grew 168% to $3.66B and interest expense ($846M) swamped adjusted operating income ($379M). Anthropic's amended S-1 makes a $34.9B Lambda lease cancellable; SoftBank wrote off $3.7B in datacenter advance payments. This cuts against the 11-08 generation-premium reading (H100 spot sliding toward $3.50/hr): long-contract prices are rising on scarcity even as the newest parts command premiums.
+
+## Update 2026-11-12: Nvidia leadership risk, the remote-access rule, chips changing hands
+
+[Nvidia CEO crisis and remote-access rule](2026-11-12-nvidia-ceo-crisis-remote-access-rule.md). Nvidia's board met to consider ousting Huang; the stock is down about 26% in a month, and Nvidia is one of seven anchors in Anthropic's $26B IPO placement. Commerce is finalizing licenses for Blackwell-class exports to seven more countries to stop remote access by Chinese firms. AMD paid $2.9B for Taalas (weights hardwired into silicon). Inference resellers are buying their own chips because leases are short. Ramp's October AI spend grew just 1.65%, so scarcity is on the supply side while enterprise demand growth slows.

@@ -1,0 +1,13 @@
+---
+source: farmer/rss
+feed: the-information
+farmed: 2026-11-12T07:27:21.914303+00:00
+title: Anthropic, Others Warn of AI Acceleration
+url: https://www.theinformation.com/articles/anthropic-others-warn-ai-acceleration
+published: 2026-11-11
+author: Tiffany Li
+---
+
+# Anthropic, Others Warn of AI Acceleration
+
+<p>In recent weeks, my colleagues and I have been trying our hand at being venture capitalists: today, the end result of that process is our <a href="https://www.theinformation.com/projects/the-information-50-2026">annual list of the 50 most promising startups of this year</a>, published today.</p><p>We’ve had a pretty good track record in past years: AI startups we’ve previously highlighted include <a href="https://www.theinformation.com/projects/the-information-50-2025">OpenRouter</a>, when the model-routing startup was valued at $500 million; <a href="https://www.theinformation.com/projects/the-information-50-2024">Cursor</a>, when the coding agent was valued at $400 million; and <a href="https://www.theinformation.com/projects/the-information-50-2023">Perplexity</a>, when the AI-powered search engine was valued at $150 million. <b>OpenRouter</b> was recently acquired by <b>Stripe</b> for more than $7 billion, <b>Cursor</b> in August was acquired by <b>SpaceX</b> for $60 billion, and <b>Perplexity</b> was most recently raising at a more than $30 billion valuation.</p><p>Each year, however, it gets more difficult to pick promising AI startups that fall within our requirements of having raised less than $100 million and being valued less than $1 billion. These days, it feels like the moment any young AI company has a hint of revenue traction, investors are all over them.</p><p>Still, we’ve managed to uncover a number of under-the-radar gems in this year’s list. In fact, we had trouble whittling down the entrants for our AI infrastructure and security categories, which included everything from companies that help developers train their models using multiple cloud providers to those that use AI to protect employees’ devices. Such companies have become even more important as <a href="https://www.theinformation.com/articles/new-fireworks-hack-threatens-1-billion-business">the rate of AI-powered cyberattacks have increased</a>.—<i>Stephanie Palazzolo</i></p><p><i>Now, onto today’s column…</i></p><p>AI researchers that focus on ensuring AI doesn’t harm humans have reason to be a little rattled. Two recent reports suggest AI is advancing even more quickly than previously thought, and that’s increased these safety researchers’ worries that AI will escape human control to wreak havoc.</p>

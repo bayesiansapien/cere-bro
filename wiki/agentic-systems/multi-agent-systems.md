@@ -155,3 +155,7 @@ rTaste: agent teams cost more than single research agents with no clear gain in 
 ## Update 2026-11-09
 
 [SwarmEvolve](2026-11-09-swarmevolve-latent-kv-swarms.md): hundreds of latent-reasoning agents per round, novelty by hidden-state distance, crossover by merging KV caches. PLatour/PACT-Check ([shorts](../inference-efficiency/2026-11-09-efficiency-and-agent-shorts.md)) warns some latent-communication gains are adapter effects.
+
+## Update 2026-11-12: single agent as the efficient default
+
+Amazon's controlled SOP study ([summary](2026-11-12-wikitrace-and-single-agent-default.md), 2611.12953): holding model, tools and tasks fixed across 13 enterprise SOPs, multi-agent and skill-augmented designs spend 1.4-4.7x tokens and 2.6-5.8x latency for gains that are rarely significant; skill quality matters more than topology (73.1% vs 67.4%). Sits in tension with the 11-11 Duke/Princeton result favouring many small parallel teams at equal compute; the difference looks like task shape.

@@ -298,3 +298,7 @@ What Outcome RL Buys (2610.34894): across 20 RL models, gains are finishing (82%
 ## Update 2026-11-03
 
 Two results on RL's hidden costs. Training-inference mismatch ([summary](2026-11-03-training-inference-mismatch-dlc.md), 2610.40945): engine numerics give a near-constant bias (remove by centering per prefix); async policy lag is a feedback loop that importance weighting controls only until the ratio's ESS drops below 0.5; DLC resyncs at that point. No Free Lunch in RLVR (2610.39295, DAIR pick): under exclusive specialization every pass@1 gain lowers some prompt's success; the pass@k crossover is a computable price, and removing it costs the whole pass@1 gain.
+
+## Update 2026-11-12: matched compute reverses dense-reward gains
+
+[Dense rewards vs GRPO](2026-11-12-dense-rewards-matched-compute-grpo.md) (2611.13560): Monte-Carlo process rewards spend 91% of generated tokens on continuations; at matched tokens they end 14.3 points below GRPO on Qwen2.5-1.5B, and no dense variant wins across 1,668 preregistered runs. Selecting prompts near 50% predicted success helps (+0.8 to +1.7), but doubling GRPO's learning rate nearly matches it. Proposes matched-compute validation as the standard. Learned critics (PPO) were not tested; a Scale AI result says PPO wins at small batch.

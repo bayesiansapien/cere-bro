@@ -438,3 +438,7 @@ Meta's Muse Wonder ships **Active Memory** as a headline feature ([10-13](../llm
 ## Update 2026-11-09
 
 Anthropic's [components of agent memory](2026-11-09-anthropic-agent-memory-and-google-agent-distraction.md): memory pays when the model stores validated rules; 'dreaming' consolidates logs offline; 'record only failures' erases gains. Route to Remember (2611.05636) stores user facts in weights via on-policy self-distillation (59.9% recall vs 36.9% fine-tuning). Memorilla: 16 learned tokens replace documents (108x fewer). EvoMemState adds relational and reasoning states. [Coca-Cola](2026-11-09-coca-cola-latent-tool-observation-compression.md) compresses tool observations to latents.
+
+## Update 2026-11-12: memory-induced degradation
+
+[WikiTrace](2026-11-12-wikitrace-and-single-agent-default.md) (KAIST, 2611.14320): agents with memory can fail tasks they would solve without it, because lessons are stored without the trajectories they came from. Linking each insight to a why-it-worked summary and the raw trajectory, and descending those links only when a lesson is incomplete, conflicting or from a failed run, beats prior memory systems on five benchmarks. Read-time validation complements Anthropic's 11-09 write-time rule ("store validated rules").

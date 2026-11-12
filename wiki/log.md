@@ -2284,3 +2284,15 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-11] social-stream | 2026-11-11 morning | social-stream
 ## [2026-11-11] media-zone | Media Zone 2026-11-11 (finalized from closed window) | media-zone
 ## [2026-11-11] digest | cere-bro 2026-11-11 | daily-digest
+## [2026-11-12] ingest | Gemini Decision 1, MetaEncoder, Sing VL S1, Meta Intelligent Delivery | labs + rss + x-feed
+## [2026-11-12] ingest | Deletion Tuning and Tree-Ising | huggingface + x-feed
+## [2026-11-12] ingest | MACaQ and Kimi K3.1 Pro NVFP4 | huggingface + labs
+## [2026-11-12] ingest | DepthGraft and weighted state souping | huggingface + labs
+## [2026-11-12] ingest | Sable bit-exact verifiable inference | huggingface
+## [2026-11-12] ingest | Mythos AMD port, kernel-library failures, AWS SDC | rss + x-feed + labs
+## [2026-11-12] ingest | Nvidia CEO crisis, Commerce remote-access rule, Taalas | rss + gmail + x-feed
+## [2026-11-12] ingest | Dense rewards vs GRPO at matched compute | huggingface
+## [2026-11-12] ingest | WikiTrace, Amazon SOP architectures, CMU/JetBrains token spend | huggingface + x-feed
+## [2026-11-12] social-stream | 2026-11-12 morning | social-stream
+## [2026-11-12] media-zone | Media Zone 2026-11-12 (finalized from closed window) | media-zone
+## [2026-11-12] digest | cere-bro 2026-11-12 | daily-digest
