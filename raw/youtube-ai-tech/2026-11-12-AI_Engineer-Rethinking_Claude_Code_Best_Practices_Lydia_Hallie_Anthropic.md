@@ -1,0 +1,37 @@
+# Rethinking Claude Code Best Practices (Lydia Hallie, Anthropic)
+
+**Channel:** AI Engineer
+**Published:** 2026-11-12
+**Source:** https://www.youtube.com/watch?v=vlfCjWuv4es
+
+## TL;DR
+The early-2026 Claude Code playbook (steer the model mid-session, approve each command, shout in CLAUDE.md, read every diff) no longer matches how the tool is used. With Opus 5.5 and Fable 5.2, every human-in-the-loop job has a new owner. The model handles steering. Auto mode plus deny rules handle approval. Sandboxes and cloud sessions limit what a command can reach. Hooks, tests and CI handle verification. An orchestrator session starts and judges the other sessions. The engineer's job shrinks to starting one session and reviewing at risk-weighted checkpoints.
+
+## Key Takeaways
+- **Trim CLAUDE.md to what the code cannot show.** Capitalized "IMPORTANT/NEVER" instructions now cause over-correction, extra tool calls and worse results. Keep only invisible facts, such as a legacy service that nothing in the code references. A `doctor` prompt-audit command flags instructions the current model no longer needs.
+- **Auto mode is a classifier, not a guarantee.** It checks every action except in-project reads and edits, and you can tune it in plain-English settings (trusted repos, buckets, domains). It only trusts the current repo by default, so pushing to a separate deploy repo puts you back in the loop until you configure it.
+- **Deny rules run before the classifier** and are the only hard guarantee at the harness level. Rule of thumb: if a mistake can be reverted (bad code), leave it to the model. If it can't (reading `.env` into the transcript, discarding uncommitted work, force-pushing), write a rule.
+- **Permissions gate whether a call runs, not what it touches.** `npm test` looks harmless, but a compromised dependency can read `~/.ssh` and exfiltrate it. The OS sandbox enforces file, folder and host limits on child processes too. It does not cover Claude's own files, MCP servers or hooks.
+- **Cloud sessions are the cleanest isolation.** Each one gets a fresh machine and a fresh repo clone, so no `.env`, SSH keys or GitHub token exist there. API keys are injected as network secrets the model never sees, and egress is limited to package registries and GitHub by default. Keep deny rules committed to the repo anyway, because pushes and connector messages leave the disposable machine.
+- **Design for verification checkpoints.** The same prompt can yield three plausible but different outcomes (old API left in, only new logins migrated, everyone logged out). Define "done," split the work into tasks with their own pass/fail checks, and ask for real output.
+- **Hooks enforce what prompts only request.** Lint on every edit, run scoped tests on task completion, run the full suite on Stop. **Exit code 2, not 1.** Exit 1 counts as a non-blocking error and the task is marked complete anyway.
+- **CI is the universal backstop.** Turn on CI autofix and, for low-risk PRs, merge-when-ready. At Anthropic, a fresh-context Claude reviews every PR, with a separate agent group checking each reported bug. Human review is scaled to risk: none for docs or copy, one reviewer for normal product changes, two for risky ones.
+- **Orchestrator plus workers is the end state.** Claude Code "projects" (beta) runs one main session that splits the work, starts thread sessions, verifies their results and sends incomplete work back. Use Fable as the judge and Opus 5.5 for the workers, configured separately. Context compaction is handled automatically.
+
+## Architecture & Optimization Mechanics
+- **This is model routing applied to agents.** The orchestrator/thread split is heterogeneous routing by role. A planner and judge (Fable 5.2, $8/$40 per M tokens) supervises cheaper, high-throughput executors. It is the same cost-quality frontier you work on for query routing, with the unit moved from query to subtask.
+- **Verification is the reward signal.** Every gate (hook, test, CI) gives a binary pass/fail that turns open-ended agent work into a search with a verifier. Cheap, frequent verifiers let you run a weaker executor and still hit the same quality bar, because failed attempts get retried instead of shipped.
+- **Layered defense ordering matters:** deny rule (deterministic, pre-classifier), then classifier (probabilistic, roughly 89% recall on dangerous commands), then OS sandbox (enforces reach), then disposable VM (removes secrets entirely). Each layer covers a known miss of the one before it.
+- **Less prompt scaffolding, better results.** This matches the general finding that stronger instruction-followers overreact to emphatic prompts. Re-tune system prompts each time you upgrade the model.
+
+## Grounded Context (Web Enrichment)
+The numbers hold up, with caveats. Anthropic's auto mode study used 1,053 paid testers. Humans caught 13.6% of dangerous commands and the classifier blocked 89%. Human detection fell from about 17% early in a session to about 5% after 50 or more prompts, and users approve 97% of permission prompts. Auto mode became the default on August 14, 2026. These are Anthropic's own figures. Backslash Security's independent analysis found much weaker recall and a false-positive rate near one-third on the actions it graded, so "one in ten gets through" is a best case. The jump from about 2,500 to over 30,000 merged changes per day (May to September 2026) is reported in coverage of Anthropic's October 13 "Redesigning source control" post, which describes moving off Git. These are company metrics, not an audited productivity study. Anthropic has called its own earlier "8x" figure "almost certainly overstated," and commentators note that review becomes the bottleneck at this volume.
+
+Fable 5.2 launched November 9, 2026, alongside the restricted Mythos 5.2. It has a 1M context window, 128K output, and outputs up to 30% faster than 5.1, and reportedly beats Opus 5.5 on 10 of 11 published benchmarks. That fits the talk's "judge on Fable, workers on Opus" split, though the cost logic only holds if threads use far more tokens than the orchestrator. The exit-code-2 advice is correct for Stop and TaskCompleted hooks. A since-closed bug downgraded exit 2 to non-blocking when stderr contained "no such file," so print clear stderr messages and pin a recent version.
+
+## Real-World Application / Actionable Step
+- **Run the audit tomorrow:** remove stack descriptions, directory maps and every "IMPORTANT!" line from your research repos' CLAUDE.md. Keep only invisible facts (cluster quirks, which checkpoints are canonical, which eval sets are held out).
+- **Add three deny rules:** reading `.env`/HF and W&B tokens, `rm -rf` on checkpoint and dataset dirs, and `git push --force`. Commit them to the repo.
+- **Turn on the sandbox** for anything that runs `pip install` or untrusted eval harnesses. Third-party benchmark code is exactly the "npm test runs code you didn't write" case.
+- **Wire a Stop hook that exits 2** when a quick quantization or pruning regression check fails, such as a perplexity delta over a threshold on a 200-sample slice or a kernel unit test failing. That turns overnight compression sweeps into self-correcting loops.
+- **Test orchestrator routing on your own work:** for one multi-config ablation (for example GPTQ vs AWQ across 4 bit-widths), run Fable as the orchestrator and Opus or a cheaper model on the threads. Log total tokens and pass rate. That gives you a real data point on agent-level routing cost and quality.
