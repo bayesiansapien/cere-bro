@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-13T13:09:18.381404+05:30
+arxiv_id: 2611.10193
+url: https://huggingface.co/papers/2611.10193
+arxiv_url: https://arxiv.org/abs/2611.10193
+date: 2026-11-12
+---
+
+# Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference
+
+Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble routing. At the core of both methods, PISA combines soft cluster memberships with model-specific predictors to estimate individual model capabilities. Building on these estimates, PISA-E jointly selects ensemble composition and cardinality under an explicit cost--quality preference that can be adjusted at inference time without retraining. A tractable ensemble-success surrogate and efficient candidate selection enable this extension without ensemble-specific training. Across four LLM routing benchmarks under in-distribution (ID) and out-of-distribution (OOD) conditions, PISA achieves the highest macro-average cost--performance hypervolume among the evaluated single-model routers in both settings. Meanwhile, PISA-E achieves the highest macro-average task performance among the evaluated ensemble approaches when prioritizing response quality, surpassing the strongest competitors by 2.09 and 2.87 percentage points under ID and OOD conditions, respectively. At selected lower-cost operating points, it also exceeds the strongest ensemble competitors' macro-average task performance while reducing average inference cost by approximately 36% and 25%, respectively. These results demonstrate the effectiveness of prompt-adaptive capability estimation for both single-model routing and selective ensembling.

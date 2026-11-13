@@ -440,3 +440,8 @@ Meta's [TLX](2026-11-11-tlx-and-tpu-v7-megakernel.md) adds explicit warp-group, 
 ## Update 2026-11-12: a production port in three days, and the bugs live around the kernel
 
 [Mythos AMD port and kernel-library failures](2026-11-12-mythos-amd-port-and-kernel-library-failures.md). Anthropic's roadshow says Mythos got Claude running on AMD GPUs in three days, porting or writing almost 100% of kernels with little human help; Claude now runs on Trainium, TPU, NVIDIA and AMD. No parity numbers were given. A Microsoft/Tsinghua study of 300 issues across seven kernel libraries (2611.09280) finds 60.33% of failures in compilers, builds and runtime environments and 25.33% in version incompatibility alone. AWS published in-loop silent-data-corruption checks (ring replay, weight fingerprints). Kernel authorship is commoditizing; the remaining cost is environment and verification.
+
+
+## Update 2026-11-13: tuning and porting costs fall
+
+Helion compile-time heuristics classify kernels (matmul/reduction/pointwise) from IR and pick configs in tens of ms: 1.18x over FLA's handwritten Triton, 1.27x over vLLM CUDA reductions on H100, no autotuning. Agents built SGLang's IBM Spyre plugin (1,500 lines) in under a week at 3.6x reference throughput; AWS SGLang-Neuron runs on Trainium with NKI kernels. SemiAnalysis warns Chinese labs' Blackwell kernel libraries (DeepEP, DeepGEMM, MiniMax MSA, FlashKDA) may stop being open-sourced after Huang's exit. See [Nvidia without Jensen](2026-11-13-nvidia-without-jensen.md).

@@ -2296,3 +2296,14 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-12] social-stream | 2026-11-12 morning | social-stream
 ## [2026-11-12] media-zone | Media Zone 2026-11-12 (finalized from closed window) | media-zone
 ## [2026-11-12] digest | cere-bro 2026-11-12 | daily-digest
+## [2026-11-13] ingest | Nvidia without Jensen (SemiAnalysis + The Information cluster) | rss + gmail
+## [2026-11-13] ingest | Evolving Infra: agent-adaptive serving | huggingface
+## [2026-11-13] ingest | SteerDistill: quantized agents via teacher steering | huggingface
+## [2026-11-13] ingest | Precision on Demand + Bits or Permutations | huggingface
+## [2026-11-13] ingest | PISA-E, PolyRoute, Gemini Orchestrator | huggingface + labs
+## [2026-11-13] ingest | Gemini 4 Hydrogen model card | labs + rss
+## [2026-11-13] ingest | SparseRead | huggingface
+## [2026-11-13] ingest | CoT erosion, FraudBench, ScrapeBench, Worse Together | rss + gmail + huggingface
+## [2026-11-13] social-stream | 2026-11-13 morning | social-stream
+## [2026-11-13] media-zone | Media Zone 2026-11-13 (finalized from closed window) | media-zone
+## [2026-11-13] digest | cere-bro 2026-11-13 | daily-digest

@@ -814,3 +814,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-11: the OPD mismatch budget
 
 [How much training-inference mismatch can OPD tolerate? (2611.11450)](2026-11-11-opd-mismatch-budget.md): OPD stays stable under quantized and asynchronous rollout settings that destabilize RL, up to a measurable, model-specific mismatch budget. FP8 rollouts fit at least 1.93x more KV tokens than BF16 at equal quality; FP8 plus async reaches the same quality 1.62x sooner. Under weight noise the error is prefix drift, which per-token corrections cannot fix. DAIR picks the same week: Learning Dynamics of OPD (2611.08016) shows locally-better updates can raise failing-continuation probability (the same prefix mechanism, seen from optimization), and D²-OPD (2611.07241) bounds how far an extrapolative target may move with a per-prefix KL constraint (47.19 vs 27.57 for OPD on Qwen3-8B to 4B-Base math). With the 05-14 Extrapolation Cliff, OPD now has three measured thresholds: target distance, collapse point, and rollout fidelity.
+
+
+## Update 2026-11-13: distill at the student's failure turns
+
+[SteerDistill](2026-11-13-steerdistill-quantized-agents.md) is the third wiki result locating the useful distillation signal where the student goes wrong (after TIP, most teacher tokens carry no signal, and OPRD, match hidden states): the teacher iteratively steers a quantized agent's failed turn until execution verifies it, and the student learns the steered turn without guidance. Raschka's X summary of CoT-monitorability work adds a caution: RL-acquired control over written reasoning survives distillation.

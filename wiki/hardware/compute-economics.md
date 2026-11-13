@@ -555,3 +555,8 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 ## Update 2026-11-12: Nvidia leadership risk, the remote-access rule, chips changing hands
 
 [Nvidia CEO crisis and remote-access rule](2026-11-12-nvidia-ceo-crisis-remote-access-rule.md). Nvidia's board met to consider ousting Huang; the stock is down about 26% in a month, and Nvidia is one of seven anchors in Anthropic's $26B IPO placement. Commerce is finalizing licenses for Blackwell-class exports to seven more countries to stop remote access by Chinese firms. AMD paid $2.9B for Taalas (weights hardwired into silicon). Inference resellers are buying their own chips because leases are short. Ramp's October AI spend grew just 1.65%, so scarcity is on the supply side while enterprise demand growth slows.
+
+
+## Update 2026-11-13: the Jensen put
+
+[Nvidia without Jensen](2026-11-13-nvidia-without-jensen.md). Huang resigned 11-12; Kress interim. SemiAnalysis: $530B gross off-balance-sheet guarantees (from $184B a quarter earlier), $36B neocloud take-or-pay floors, $99B equity book; supply commitments $119B to $279B in a quarter, mostly memory; estimated 2027 HBM4 $3.0-3.3/Gb for Nvidia vs $3.7-4.1 for others; over 70% of 2028 capacity could be non-Nvidia. Kress had resisted a $250B OpenAI backstop (about $100B granted). Nvidia's $140B two-month deal spree, including $10B for Anthropic's IPO, is now in question. Cerebras added Azure (RPO $26.1B).

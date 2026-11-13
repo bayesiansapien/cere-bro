@@ -2330,3 +2330,14 @@ Catalog of all pages. Updated on every ingest.
 | daily-digest | [2026-11-12](daily-digest/2026-11/2026-11-12.md) | Decision models become an API category; Deletion Tuning; MACaQ; Mythos on AMD; Nvidia board weighs its CEO |
 | social-stream | [2026-11-12 morning](social-stream/2026-11/2026-11-12-morning.md) | Nvidia board + Commerce rule cluster, Gemini Decisions API, Mythos on AMD, Agent Arena cost frontier, kernel-bug study |
 | media-zone | [2026-11-12](media-zone/2026-11/2026-11-12.md) | Decision models become a category; weight edits add skills and backdoors; kernels vs environments; Nvidia leadership (finalized) |
+| hardware | [2026-11-13 Nvidia without Jensen](hardware/2026-11-13-nvidia-without-jensen.md) | Huang resigns; $530B backstop book, HBM4 pricing edge, 70% non-Nvidia 2028 forecast, open-kernel risk |
+| inference-efficiency | [2026-11-13 Evolving Infra](inference-efficiency/2026-11-13-evolving-infra-agent-adaptive-serving.md) | Flexible PD split + agent-aware KV eviction; up to 4.1x latency, 14x P95 TTFT vs Dynamo on 256 GB300 |
+| inference-efficiency | [2026-11-13 SteerDistill](inference-efficiency/2026-11-13-steerdistill-quantized-agents.md) | Teacher steers 4-bit agent at failed turns, then distills; within 1 pt of BF16, 67% fewer GPU hours than QeRL |
+| inference-efficiency | [2026-11-13 Precision on Demand + Bits or Permutations](inference-efficiency/2026-11-13-precision-on-demand-and-bits-or-permutations.md) | Per-token 4-to-8-bit escalation; 6-bit free for small models; byte-budget pricing |
+| ai-routing | [2026-11-13 PISA-E, PolyRoute, Orchestrator](ai-routing/2026-11-13-pisa-ensemble-routing-and-polyroute.md) | Ensemble routing with cost dial; decision encoders lose to TF-IDF off-English; Carbon/Hydrogen role routing saves 24% |
+| llms-foundation-models | [2026-11-13 Gemini 4 Hydrogen](llms-foundation-models/2026-11-13-gemini-4-hydrogen.md) | Execution model, $1.50/$7.50 flat 1M context, AA 51, Orchestrator, CBRN/cyber alert thresholds |
+| agentic-systems | [2026-11-13 SparseRead](agentic-systems/2026-11-13-sparseread-token-efficient-reading.md) | Read gate between agent and sources cuts tokens up to 92.9% |
+| responsible-ai | [2026-11-13 CoT erosion, agent fraud, multi-agent breakdown](responsible-ai/2026-11-13-cot-erosion-agent-fraud-and-multi-agent-breakdown.md) | OpenAI CoT monitorability tradeoff; FraudBench 3% to 21%; ScrapeBench; Worse Together |
+| daily-digest | [2026-11-13](daily-digest/2026-11/2026-11-13.md) | Nvidia without Jensen; agent-aware KV serving; SteerDistill; Hydrogen and role routing; SparseRead |
+| social-stream | [2026-11-13 morning](social-stream/2026-11/2026-11-13-morning.md) | Following-feed synthesis: Huang exit, Hydrogen cost profile, Helion, Spyre port, self-improving agents |
+| media-zone | [2026-11-13](media-zone/2026-11/2026-11-13.md) | Nvidia without Jensen; kernels without autotuning; Hydrogen cost; self-improving agents with brakes (finalized) |

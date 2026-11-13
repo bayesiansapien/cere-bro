@@ -159,3 +159,8 @@ rTaste: agent teams cost more than single research agents with no clear gain in 
 ## Update 2026-11-12: single agent as the efficient default
 
 Amazon's controlled SOP study ([summary](2026-11-12-wikitrace-and-single-agent-default.md), 2611.12953): holding model, tools and tasks fixed across 13 enterprise SOPs, multi-agent and skill-augmented designs spend 1.4-4.7x tokens and 2.6-5.8x latency for gains that are rarely significant; skill quality matters more than topology (73.1% vs 67.4%). Sits in tension with the 11-11 Duke/Princeton result favouring many small parallel teams at equal compute; the difference looks like task shape.
+
+
+## Update 2026-11-13: worse together
+
+Anthropic's "Worse Together" (MAMUBench): across four multi-user multi-agent environments with Anthropic, OpenAI and Alibaba models, group outcomes were worse when each user delegated to their own agent than with one shared agent. Adds an outcome cost to the 11-12 token-cost finding (1.4-4.7x tokens for multi-agent). Google's Orchestrator is the counter-example where a coordinated lead-plus-workers team saves quota. See [safety roundup](../responsible-ai/2026-11-13-cot-erosion-agent-fraud-and-multi-agent-breakdown.md).

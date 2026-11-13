@@ -251,3 +251,8 @@ LoCo (2611.04814) trains the local stop decision with DPO on state-conditioned p
 ## Update 2026-11-06
 
 The SIMPLE Law finds an energy optimum for reasoning: Intelligence per Joule peaks at a middle budget and falls by up to 3.14x across a 4.0x budget range ([summary](2026-11-06-simple-law-energy-cost-inference.md)). Rewriting prior reasoning into compact records shortens later reasoning with no retraining, and TAC-CoT swaps reasoning text for latent segments at up to 6.8x fewer passes ([summary](../agentic-systems/2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md)). Multi-turn RL gains depend on sufficient turn budgets.
+
+
+## Update 2026-11-13: escalate bits, not models
+
+[Precision on Demand](2026-11-13-precision-on-demand-and-bits-or-permutations.md) applies score-then-spend at the bit level: decode with the top 4 bits of an 8-bit model and redo a step at 8 bits when entropy or margin flags uncertainty (16% escalation, 0.87 of all-high bytes, not statistically separated live). AWS Bedrock measured Opus 5 output tokens +59% to +302% from low to max effort, the cost side of effort dials.

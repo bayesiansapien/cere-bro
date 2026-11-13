@@ -884,3 +884,8 @@ NVIDIA's "You don't need long context" (2611.05306) shows frequent compaction co
 ## Update 2026-11-12: cross-layer sharing as a regularizer; cached SSM states
 
 [DepthGraft and Weighted State Souping](2026-11-12-depthgraft-and-weighted-state-souping.md). DepthGraft (2611.03142) rebuilds deep-layer KV from stride-aligned shallow/middle layer pairs, cutting the cache about a third, preserving early prefill exit, and claiming accuracy gains (16B MoE +7.0 MMLU-Pro) because each reuse edge adds a gradient path to the source KV projections. This is the trained counterpart of 11-11 RidgeFill's training-free late-layer fill. Apple's weighted state souping caches per-chunk SSM states (documents, tools, memory records) and mixes them with learned query-dependent weights, with a sparse variant at near-constant encoding cost: prefix caching for recurrent models. Open: DepthGraft's gain needs a matched-compute replication.
+
+
+## Update 2026-11-13: keep the KV the agent will reuse
+
+[Evolving Infra (2611.12304)](2026-11-13-evolving-infra-agent-adaptive-serving.md) decouples compute allocation from KV ownership so nodes switch between prefill and decode, re-sizes the PD split online, and drives eviction/transfer from the agent harness's context-management hints. Up to 4.1x mean latency and 14x P95 TTFT over Dynamo on 256 GB300s (GLM-5.2, Kimi K2.6). Complements RidgeFill/DepthGraft (cheaper entries) with a policy for which entries live. Same day: AWS SGLang-Neuron brings PD disaggregation and KV transfer to Trainium; Gemini 4 Hydrogen prices 1M context flat, absorbing long-context KV cost. Kurate cs.AI #12 Intent-Aware Caching and #4 Safety-Conditioned Cache Routing form a response-reuse sub-thread, still off HuggingFace.

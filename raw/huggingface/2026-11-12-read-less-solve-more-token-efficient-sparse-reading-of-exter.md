@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-13T13:09:18.381160+05:30
+arxiv_id: 2608.22237
+url: https://huggingface.co/papers/2608.22237
+arxiv_url: https://arxiv.org/abs/2608.22237
+date: 2026-11-12
+---
+
+# Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents
+
+Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model. Its Read Intent Protocol tracks evolving needs and source coverage; Adaptive Reader Backends select how evidence is located and exposed; and the Budgeted Read Gate bounds cumulative raw exposure per episode with faithful full-view fallback. A unified Reader interface supports interchangeable evidence acquisition across heterogeneous resources. Across six models, including Claude Opus 5, and five scenarios, SparseRead reduces total tokens by up to 92.9% and wall time by up to 89.0%, preserving or improving task quality in 97% settings. On Web deep-search tasks, it reduces tokens by 31.0--43.0% and task completion time by 23.0--37.0%. Ablations validate the three designs, while integration with three agent frameworks demonstrates portability.

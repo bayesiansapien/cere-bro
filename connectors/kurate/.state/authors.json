@@ -25672,10 +25672,18 @@
         "arxiv_id": "2609.02126v1",
         "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W46"
   },
   "Chia-Hao Lee": {
     "appearances": [
@@ -25760,10 +25768,18 @@
         "arxiv_id": "2609.02126v1",
         "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W46"
   },
   "Rishabh Arora": {
     "appearances": [
@@ -49922,6 +49938,104 @@
         "arxiv_id": "2611.13477v1",
         "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Gerrit Großmann": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.13167v1",
+        "title": "AI Alignment Is Neither Solvable nor Sufficient",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Emna Belguith": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.13361v1",
+        "title": "A Technique to Model Product Information and User Reviews (MPIUR)",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Fajrian Yunus": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.13361v1",
+        "title": "A Technique to Model Product Information and User Reviews (MPIUR)",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Talel Abdessalem": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.13361v1",
+        "title": "A Technique to Model Product Information and User Reviews (MPIUR)",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Ricky Ye": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Sahas Goli": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Muhammad Ali": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
