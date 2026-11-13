@@ -1,0 +1,90 @@
+{
+ "captured": "2026-11-13T18:02:16.292824",
+ "errors": [
+  "Claude Blog: no post links matched (layout change?)"
+ ],
+ "items": [
+  {
+   "lab": "HF inclusionAI",
+   "source": "hf",
+   "title": "inclusionAI/Duo-1.0-distill-quant",
+   "url": "https://huggingface.co/inclusionAI/Duo-1.0-distill-quant",
+   "published": "2026-11-13T08:09:23+00:00",
+   "uid": "hf:inclusionAI/Duo-1.0-distill-quant",
+   "card_url": "https://huggingface.co/inclusionAI/Duo-1.0-distill-quant/raw/main/README.md",
+   "tags": [
+    "duo-world-model",
+    "diffusers",
+    "safetensors",
+    "video-generation",
+    "audio-generation",
+    "world-model",
+    "arxiv:2611.15131",
+    "license:other"
+   ],
+   "content": "<div align=\"center\">\n\n<img src=\"./assets/duo-logo.svg\" width=\"38%\" alt=\"Duo\" />\n\n**Duo-1.0-distill-quant**\n\n**A Reciprocal World Model for Full-Duplex Interaction**\n\n[![arXiv](https://img.shields.io/badge/arXiv-2611.15131-B31B1B?logo=arxiv&logoColor=white&labelColor=555)](https://arxiv.org/abs/2611.15131)\n[![Homepage](https://img.shields.io/badge/-Homepage-0A66C2?logo=googlechrome&logoColor=white&labelColor=555)](https://duo-v1.github.io/)\n[![Models](https://img.shields.io/badge/-Model%20Collection-FFD21E?logo=huggingface&logoColor=white&labelColor=555)](https://huggingface.co/collections/inclusionAI/duo-v1)\n[![Code](https://img.shields.io/badge/-Code-181717?logo=github&logoColor=white&labelColor=555)](https://github.com/inclusionAI/Duo)\n\n</div>\n\n## Model Overview\n\nDuo is a full-duplex multimodal world model for real-time audio-visual interaction. This repository contains the FP8-quantized four-step distilled Realization weights for Duo 1.0.\n\n| Field | Value |\n| --- | --- |\n| Version | Duo 1.0 |\n| Variant | FP8-quantized four-step distilled Realization |\n| Package | Realization overlay |\n| Realization format | ModelOpt FP8, per-channel scaling |\n| Base dependency | `inclusionAI/Duo-1.0-causal-base` |\n| Default sampler | Euler, 4 steps, flow shift 5.0 |\n\n## Usage\n\nDownload the complete Duo 1.0 causal-base bundle, then overlay these Realization weights into the same directory:\n\n```bash\nhf download inclusionAI/Duo-1.0-causal-base --local-dir weights\nhf download inclusionAI/Duo-1.0-distill-quant --local-dir weights\n```\n\nThe shared Intent, codecs, speech models, and Realization backbone are supplied by the causal-base bundle. The consuming runtime must support the packaged ModelOpt FP8 format or an equivalent conversion path.\n\nFor code, configuration, and runtime-specific integration instructions, see [inclusionAI/Duo](https://github.com/inclusionAI/Duo).\n\n## License\n\nThese weights were initialized from MiniMax H3 and subsequently trained by the Duo team. See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for the applicable terms.\n",
+   "kind": "model_release"
+  },
+  {
+   "lab": "HF inclusionAI",
+   "source": "hf",
+   "title": "inclusionAI/Duo-1.0-causal-base",
+   "url": "https://huggingface.co/inclusionAI/Duo-1.0-causal-base",
+   "published": "2026-11-12T06:32:52+00:00",
+   "uid": "hf:inclusionAI/Duo-1.0-causal-base",
+   "card_url": "https://huggingface.co/inclusionAI/Duo-1.0-causal-base/raw/main/README.md",
+   "tags": [
+    "duo-world-model",
+    "diffusers",
+    "safetensors",
+    "video-generation",
+    "audio-generation",
+    "world-model",
+    "arxiv:2611.15131",
+    "license:other"
+   ],
+   "content": "<div align=\"center\">\n\n<img src=\"./assets/duo-logo.svg\" width=\"38%\" alt=\"Duo\" />\n\n\n**Duo-1.0-causal-base**\n\n**A Reciprocal World Model for Full-Duplex Interaction**\n\n[![arXiv](https://img.shields.io/badge/arXiv-2611.15131-B31B1B?logo=arxiv&logoColor=white&labelColor=555)](https://arxiv.org/abs/2611.15131)\n[![Homepage](https://img.shields.io/badge/-Homepage-0A66C2?logo=googlechrome&logoColor=white&labelColor=555)](https://duo-v1.github.io/)\n[![Models](https://img.shields.io/badge/-Model%20Collection-FFD21E?logo=huggingface&logoColor=white&labelColor=555)](https://huggingface.co/collections/inclusionAI/duo-v1)\n[![Code](https://img.shields.io/badge/-Code-181717?logo=github&logoColor=white&labelColor=555)](https://github.com/inclusionAI/Duo)\n\n</div>\n\n## Model Overview\n\nDuo is a full-duplex multimodal world model for real-time audio-visual interaction. This repository contains the Duo 1.0 causal-base model weights.\n\n| Field | Value |\n| --- | --- |\n| Version | Duo 1.0 |\n| Variant | Causal base |\n| Package | Complete model bundle |\n| Realization format | PyTorch Distributed Checkpoint (DCP) |\n| Default sampler | Euler, 50 steps, flow shift 1.0 |\n\n## Package Contents\n\nThe bundle contains the Realization weights and backbone, Intent model and adapter, video and audio codecs, speech recognizer, and forced aligner. Runtime integrations can use `realization/complete.json` to identify the packaged model family and weight format.\n\n## Download\n\n```bash\nhf download inclusionAI/Duo-1.0-causal-base --local-dir weights\n```\n\nFor code, configuration, and runtime-specific integration instructions, see [inclusionAI/Duo](https://github.com/inclusionAI/Duo).\n\n## License\n\nThese weights were initialized from MiniMax H3 and subsequently trained by the Duo team. See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for the applicable terms.\n",
+   "kind": "model_release"
+  },
+  {
+   "lab": "HF inclusionAI",
+   "source": "hf",
+   "title": "inclusionAI/Duo-1.0-distill",
+   "url": "https://huggingface.co/inclusionAI/Duo-1.0-distill",
+   "published": "2026-11-12T06:32:27+00:00",
+   "uid": "hf:inclusionAI/Duo-1.0-distill",
+   "card_url": "https://huggingface.co/inclusionAI/Duo-1.0-distill/raw/main/README.md",
+   "tags": [
+    "duo-world-model",
+    "video-generation",
+    "audio-generation",
+    "world-model",
+    "arxiv:2611.15131",
+    "license:other"
+   ],
+   "content": "<div align=\"center\">\n\n<img src=\"./assets/duo-logo.svg\" width=\"38%\" alt=\"Duo\" />\n\n**Duo-1.0-distill**\n\n**A Reciprocal World Model for Full-Duplex Interaction**\n\n[![arXiv](https://img.shields.io/badge/arXiv-2611.15131-B31B1B?logo=arxiv&logoColor=white&labelColor=555)](https://arxiv.org/abs/2611.15131)\n[![Homepage](https://img.shields.io/badge/-Homepage-0A66C2?logo=googlechrome&logoColor=white&labelColor=555)](https://duo-v1.github.io/)\n[![Models](https://img.shields.io/badge/-Model%20Collection-FFD21E?logo=huggingface&logoColor=white&labelColor=555)](https://huggingface.co/collections/inclusionAI/duo-v1)\n[![Code](https://img.shields.io/badge/-Code-181717?logo=github&logoColor=white&labelColor=555)](https://github.com/inclusionAI/Duo)\n\n</div>\n\n## Model Overview\n\nDuo is a full-duplex multimodal world model for real-time audio-visual interaction. This repository contains the four-step distilled Realization weights for Duo 1.0.\n\n| Field | Value |\n| --- | --- |\n| Version | Duo 1.0 |\n| Variant | Four-step distilled Realization |\n| Package | Realization overlay |\n| Realization format | PyTorch Distributed Checkpoint (DCP) |\n| Base dependency | `inclusionAI/Duo-1.0-causal-base` |\n| Default sampler | Euler, 4 steps, flow shift 5.0 |\n\n## Usage\n\nDownload the complete Duo 1.0 causal-base bundle, then overlay these Realization weights into the same directory:\n\n```bash\nhf download inclusionAI/Duo-1.0-causal-base --local-dir weights\nhf download inclusionAI/Duo-1.0-distill --local-dir weights\n```\n\nThe shared Intent, codecs, speech models, and Realization backbone are supplied by the causal-base bundle. Runtime integrations can use `realization/complete.json` to identify the distilled model family.\n\nFor code, configuration, and runtime-specific integration instructions, see [inclusionAI/Duo](https://github.com/inclusionAI/Duo).\n\n## License\n\nThese weights were initialized from MiniMax H3 and subsequently trained by the Duo team. See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for the applicable terms.\n",
+   "kind": "model_release"
+  },
+  {
+   "lab": "HF inclusionAI",
+   "source": "hf",
+   "title": "inclusionAI/Duo-1.2-causal-base",
+   "url": "https://huggingface.co/inclusionAI/Duo-1.2-causal-base",
+   "published": "2026-11-12T06:30:46+00:00",
+   "uid": "hf:inclusionAI/Duo-1.2-causal-base",
+   "card_url": "https://huggingface.co/inclusionAI/Duo-1.2-causal-base/raw/main/README.md",
+   "tags": [
+    "duo-world-model",
+    "diffusers",
+    "safetensors",
+    "video-generation",
+    "audio-generation",
+    "world-model",
+    "arxiv:2611.15131",
+    "license:other"
+   ],
+   "content": "<div align=\"center\">\n\n<img src=\"./assets/duo-logo.svg\" width=\"38%\" alt=\"Duo\" />\n\n**Duo-1.2-causal-base**\n\n**A Reciprocal World Model for Full-Duplex Interaction**\n\n[![arXiv](https://img.shields.io/badge/arXiv-2611.15131-B31B1B?logo=arxiv&logoColor=white&labelColor=555)](https://arxiv.org/abs/2611.15131)\n[![Homepage](https://img.shields.io/badge/-Homepage-0A66C2?logo=googlechrome&logoColor=white&labelColor=555)](https://duo-v1.github.io/)\n[![Models](https://img.shields.io/badge/-Model%20Collection-FFD21E?logo=huggingface&logoColor=white&labelColor=555)](https://huggingface.co/collections/inclusionAI/duo-v1)\n[![Code](https://img.shields.io/badge/-Code-181717?logo=github&logoColor=white&labelColor=555)](https://github.com/inclusionAI/Duo)\n\n</div>\n\n## Model Overview\n\nDuo is a full-duplex multimodal world model for real-time audio-visual interaction. This repository contains the Duo 1.2 causal-base model weights with improved generation quality.\n\n| Field | Value |\n| --- | --- |\n| Version | Duo 1.2 |\n| Variant | Causal base |\n| Package | Complete model bundle |\n| Realization format | PyTorch Distributed Checkpoint (DCP) |\n| Default sampler | Euler, 50 steps, flow shift 1.0 |\n\n## Package Contents\n\nThe bundle contains the Realization weights and backbone, Intent model and adapter, video and audio codecs, speech recognizer, and forced aligner. Runtime integrations can use `realization/complete.json` to identify the packaged model family and weight format.\n\n## Download\n\n```bash\nhf download inclusionAI/Duo-1.2-causal-base --local-dir weights\n```\n\nFor code, configuration, and runtime-specific integration instructions, see [inclusionAI/Duo](https://github.com/inclusionAI/Duo).\n\n## License\n\nThese weights were initialized from MiniMax H3 and subsequently trained by the Duo team. See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for the applicable terms.\n",
+   "kind": "model_release"
+  }
+ ]
+}
