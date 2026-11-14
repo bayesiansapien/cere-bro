@@ -2,14 +2,18 @@
 """
 Send the Cerebro Daily email for one digest date (default: today).
 
-Builds the HTML with build.py, then sends it over Gmail SMTP.
+Builds the HTML with build.py, then sends it through Gmail.
   - Recipients + sender: ~/.config/cere-bro/newsletter.env (gitignored, outside the repo)
       NEWSLETTER_TO=a@x.com,b@y.com
       NEWSLETTER_FROM=you@gmail.com
-  - Password: macOS Keychain item `gmail-smtp-password` (a Gmail app password).
+  - Transport, first that is set up:
+      1. Gmail API with a send-only OAuth token (credentials/token.json, gitignored).
+         Reuses the Gmail farmer's OAuth client; authorize once with --auth.
+      2. SMTP with a Gmail app password in the Keychain item `gmail-smtp-password`.
 Each date is sent once (connectors/newsletter/.state/sent.json); --force resends.
 
 Run: python3 connectors/newsletter/send.py [YYYY-MM-DD] [--force] [--dry-run]
+     python3 connectors/newsletter/send.py --auth     (one-time browser consent)
 """
 
 import json
@@ -28,6 +32,35 @@ import build  # noqa: E402
 
 ENV_FILE = Path.home() / ".config" / "cere-bro" / "newsletter.env"
 STATE = HERE / ".state" / "sent.json"
+CLIENT_FILE = HERE.parent / "gmail" / "credentials" / "credentials.json"
+TOKEN_FILE = HERE / "credentials" / "token.json"
+SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
+
+
+def authorize():
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    if not CLIENT_FILE.exists():
+        print(f"newsletter: OAuth client missing at {CLIENT_FILE} (set up the Gmail farmer first)")
+        return 1
+    creds = InstalledAppFlow.from_client_secrets_file(str(CLIENT_FILE), SCOPES).run_local_server(port=0)
+    TOKEN_FILE.parent.mkdir(exist_ok=True)
+    TOKEN_FILE.write_text(creds.to_json())
+    os.chmod(TOKEN_FILE, 0o600)
+    print(f"newsletter: send token saved to {TOKEN_FILE}")
+    return 0
+
+
+def api_creds():
+    """Send-only Gmail API credentials, refreshed if needed; None if not authorized."""
+    if not TOKEN_FILE.exists():
+        return None
+    from google.auth.transport.requests import Request
+    from google.oauth2.credentials import Credentials
+    creds = Credentials.from_authorized_user_file(str(TOKEN_FILE), SCOPES)
+    if creds.expired and creds.refresh_token:
+        creds.refresh(Request())
+        TOKEN_FILE.write_text(creds.to_json())
+    return creds if creds.valid else None
 
 
 def env():
@@ -47,6 +80,8 @@ def password(account):
 
 
 def main():
+    if "--auth" in sys.argv:
+        return authorize()
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     date = args[0] if args else datetime.now().strftime("%Y-%m-%d")
     force, dry = "--force" in sys.argv, "--dry-run" in sys.argv
@@ -64,9 +99,10 @@ def main():
     if dry:
         print(f"dry run: would send '{subject}' to {len(to)} recipient(s)")
         return 0
-    pw = password(os.environ.get("USER", ""))
-    if not pw:
-        print("newsletter: Keychain item gmail-smtp-password missing; skipping")
+    creds = api_creds()
+    pw = "" if creds else password(os.environ.get("USER", ""))
+    if not creds and not pw:
+        print("newsletter: no send credentials (run send.py --auth, or add Keychain item gmail-smtp-password); skipping")
         return 1
     msg = EmailMessage()
     msg["Subject"], msg["From"], msg["To"] = subject, f"Cerebro <{sender}>", ", ".join(to)
@@ -78,9 +114,16 @@ def main():
     if logo.exists():
         msg.get_payload()[1].add_related(logo.read_bytes(), maintype="image", subtype="png",
                                          cid=f"<{build.LOGO_CID}>", filename="cerebro.png")
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
-        s.login(sender, re.sub(r"\s", "", pw))
-        s.send_message(msg)
+    if creds:
+        import base64
+        from googleapiclient.discovery import build as gbuild
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        gbuild("gmail", "v1", credentials=creds, cache_discovery=False).users().messages().send(
+            userId="me", body={"raw": raw}).execute()
+    else:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
+            s.login(sender, re.sub(r"\s", "", pw))
+            s.send_message(msg)
     sent[date] = datetime.now().isoformat(timespec="seconds")
     STATE.parent.mkdir(exist_ok=True)
     STATE.write_text(json.dumps(sent, indent=1))

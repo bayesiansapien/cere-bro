@@ -177,7 +177,7 @@ DIGEST_PATH="$REPO/wiki/daily-digest/$(date +%Y-%m)/$TODAY.md"
 if [ -f "$DIGEST_PATH" ]; then
   echo "[$TODAY $(date +%H:%M:%S)] Digest already exists — skipping Claude run." >> "$LOG"
   # Cerebro Daily email (compressed digest). Sends once per date; no-op if
-  # ~/.config/cere-bro/newsletter.env or the Keychain SMTP password is missing.
+  # ~/.config/cere-bro/newsletter.env or no send credentials exist (send.py --auth).
   python3 "$REPO/connectors/newsletter/send.py" "$TODAY" >> "$LOG" 2>&1 || \
     echo "[$TODAY $(date +%H:%M:%S)] Newsletter not sent — continuing." >> "$LOG"
   exit 0
@@ -214,7 +214,7 @@ done
 if [ -f "$DIGEST_PATH" ]; then
   python3 "$WINDOW_PY" --digest-date "$TODAY" --close >> "$LOG" 2>&1
   # Cerebro Daily email (compressed digest). Sends once per date; no-op if
-  # ~/.config/cere-bro/newsletter.env or the Keychain SMTP password is missing.
+  # ~/.config/cere-bro/newsletter.env or no send credentials exist (send.py --auth).
   python3 "$REPO/connectors/newsletter/send.py" "$TODAY" >> "$LOG" 2>&1 || \
     echo "[$TODAY $(date +%H:%M:%S)] Newsletter not sent — continuing." >> "$LOG"
 fi
