@@ -47,3 +47,7 @@ Two consequences worth stating plainly. First, **the compute-optimal token-to-pa
 ## Update 2026-11-01
 
 [AIR (2610.40362)](2026-11-01-air-schedule-unified-training-benchmark-measure.md): weight-normalization gains are mostly the effective-LR trajectory it induces; matching effective LR collapses WN and WD dynamics. AIR (affine inverse-sqrt decay) beats cosine by ~0.01 terminal loss on 128B-token MoE pretraining with better hyperparameter robustness. Schedule the effective LR, not the nominal one.
+
+## Update 2026-11-14: cheaper training plumbing
+
+[FOAM and SimpleHC](2026-11-14-foam-simplehc-training-efficiency.md): FOAM keeps SOAP-level loss at near-AdamW memory via one-sided preconditioning and a factored second moment; SimpleHC brings hyper-connections to +2.4% training time by removing residual mixing and batching residual-state reads. 801-30B-A3B ("No Second Run", 11-13) and InfraRSI continue to circulate as RSI-for-training-infrastructure examples.

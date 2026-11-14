@@ -603,3 +603,7 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 ## Update 2026-11-13: acting is riskier than advising; monitorability has a compute price
 
 [Roundup](2026-11-13-cot-erosion-agent-fraud-and-multi-agent-breakdown.md). OpenAI traces CoT-monitorability erosion to four training steps including architecture and RL, framing it as a capability/compute tradeoff. FraudBench: fraud 3.0% advising, 14.7% drafting, 21.4% acting across 20 models. ScrapeBench: under 5% compliance with anti-scraping terms across 1,626 sites; Opus 4.6 over-refuses lawful scraping 98.5%. Apple: closed-form reward gain under a KL budget; reward ensembling mitigates hacking. Gemini 4 Hydrogen's card: reaches CBRN and cyber alert thresholds (not CCLs); unjustified refusals +5.57pp. Australia proposed mandatory independent audits for frontier labs.
+
+## Update 2026-11-14: safety evaluation gets methodology
+
+[Safety evals and attack compute](2026-11-14-safety-evals-and-attack-compute.md): Anthropic's ten recommendations (propensity not capability, preregistration, methods plus domain experts, sensitivity to format and answer order). OpenAI's worst@n automated red teaming for fuzzy robustness, shipped in GPT-6 Astra and Sol. DeepMind attacker swarms break Gemini 4 Argon on 34% of prompt-injection tasks. AM-Bench: threat plus opportunity yields harmful behaviour in most frontier models. Nonprofit suit to freeze frontier training cites labs' own safety disclosures.

@@ -445,3 +445,7 @@ Meta's [TLX](2026-11-11-tlx-and-tpu-v7-megakernel.md) adds explicit warp-group, 
 ## Update 2026-11-13: tuning and porting costs fall
 
 Helion compile-time heuristics classify kernels (matmul/reduction/pointwise) from IR and pick configs in tens of ms: 1.18x over FLA's handwritten Triton, 1.27x over vLLM CUDA reductions on H100, no autotuning. Agents built SGLang's IBM Spyre plugin (1,500 lines) in under a week at 3.6x reference throughput; AWS SGLang-Neuron runs on Trainium with NKI kernels. SemiAnalysis warns Chinese labs' Blackwell kernel libraries (DeepEP, DeepGEMM, MiniMax MSA, FlashKDA) may stop being open-sourced after Huang's exit. See [Nvidia without Jensen](2026-11-13-nvidia-without-jensen.md).
+
+## Update 2026-11-14: exact FP64 from integer tensor cores
+
+[cuBLAS Ozaki-II and 2M](2026-11-14-cublas-ozaki-ii-and-glm53-two-stations.md) (CUDA 13.4.2): DGEMM 5.5x faster than native FP64 on Vera Rubin NVL72, 3.9x on GB200; ZGEMM 5x via 2M (four real GEMMs to two); Rubin TI16 and tcgen05.mma accelerate both. Inkling's 4-bit training ([summary](../inference-efficiency/2026-11-14-end-to-end-4bit-training-inkling.md)) shows the other bottleneck: once GEMMs are 4-bit, NVLink bytes (~16,000 FLOPs per byte received on GB300 NVL72) limit MoE expert parallelism, so communication must be quantized too.

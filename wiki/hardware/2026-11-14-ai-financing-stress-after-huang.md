@@ -1,7 +1,7 @@
 ---
 title: "AI compute financing under stress: Fed stability report, neocloud losses, Anthropic's $28B Riot lease, the Megaspeed allegations"
 date: 2026-11-14
-source: https://www.federalreserve.gov/publications/financial-stability-report.htm
+source: https://x.com/rohanpaul_ai/status/2121391185499660332
 raw: ../../raw/gmail/2026-11-14-newsletters.md
 tags: [compute-economics, neoclouds, gpu-financing, datacenters, nvidia, export-controls]
 signal: AI Weekly Espresso (CNBC, DCD) + AI Breakfast + Marcus on AI + The Decoder + The Information + X feed (@rohanpaul_ai on the Fed report, @edzitron on Megaspeed, @StockSavvyShay)

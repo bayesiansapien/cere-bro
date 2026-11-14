@@ -2307,3 +2307,15 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-13] social-stream | 2026-11-13 morning | social-stream
 ## [2026-11-13] media-zone | Media Zone 2026-11-13 (finalized from closed window) | media-zone
 ## [2026-11-13] digest | cere-bro 2026-11-13 | daily-digest
+## [2026-11-14] ingest | End-to-End 4-Bit Training (Thinking Machines) | x-feed + lab post
+## [2026-11-14] ingest | Bursts That Outlast Themselves | x-feed
+## [2026-11-14] ingest | RAMPr MoE neuron pruning | x-feed
+## [2026-11-14] ingest | Decision models: SO-Arena, adaptive computation, HDM, Actor/Judge/Teacher, spectra | huggingface + dair + gmail
+## [2026-11-14] ingest | cuBLAS Ozaki-II, GLM-5.3 on two DGX Stations | labs
+## [2026-11-14] ingest | AI financing under stress | gmail + rss + x-feed
+## [2026-11-14] ingest | Switchyard, Claude Code advisor, Singularity-Bench | labs + x-feed
+## [2026-11-14] ingest | Safety evals: Anthropic, OpenAI worst@n, DeepMind swarms | labs + x-feed
+## [2026-11-14] ingest | FOAM, SimpleHC | huggingface
+## [2026-11-14] social-stream | 2026-11-14 morning | social-stream
+## [2026-11-14] media-zone | Media Zone 2026-11-14 (finalized from closed window) | media-zone
+## [2026-11-14] digest | cere-bro 2026-11-14 | daily-digest
