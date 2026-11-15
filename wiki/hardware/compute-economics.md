@@ -564,3 +564,8 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 ## Update 2026-11-14: financing becomes the constraint
 
 [AI financing under stress](2026-11-14-ai-financing-stress-after-huang.md): Fed stability report counts $680B of AI infrastructure debt and $3T+ in leases and guarantees, names GPU-maker guarantees to investees "circular financing". Nvidia's $500B GPU-debt plan with six asset managers has produced no deals. Nscale lost $1.69B on $307.5M Q3 revenue; CoreWeave seeks $9B in prepayments. Counter-move: Anthropic's 15-year, 910 MW, ~$28B Riot lease; IPO ~6x oversubscribed. Early evidence for the 11-13 prediction that the backstop book grows more slowly under Kress; 11-17 earnings is the test.
+
+
+## Update 2026-11-15: open models without a patron; custom silicon's watt-dollar edge
+
+[Open-source AI without Jensen](../ai-industry/2026-11-15-open-source-ai-without-jensen.md): Lambert argues scarce chips keep open models at high serving margins, so closed labs with scale win, and Huang's exit removes the open ecosystem's political protector. Goldman: about $3.8T of Nvidia/Broadcom/AMD-linked AI infrastructure through 2028, Nvidia 63% of dollars but 47% of gigawatts, Broadcom 21% and 31%. JPMorgan: hyperscaler capex above $2T by 2028. Street memory pricing (unverified): DRAM about $25/GB above HBM at about $20/GB. Anthropic compute commitments near $901B pre-IPO.

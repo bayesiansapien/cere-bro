@@ -302,3 +302,8 @@ Training-free MoE expert pruning (2610.41366): whether survivors' gates are reno
 ## Update 2026-11-14: prune neurons across experts, not experts
 
 [RAMPr (2611.13975, Tencent)](2026-11-14-rampr-moe-neuron-pruning.md): domain-specialized neurons overlap 58-74% within a domain and 15-24% across domains, scattered across experts. Pruning neurons by routed contribution keeps 91-98% of performance at 75% retention across six models; at 50% retention, 36-43% less resident memory and 17-39% faster batched prefill. Reconciles "experts specialize by domain" with "routing tracks token identity": expert-level routing is token-shaped, domain skill is neuron-level. Also: NYU-led mask learning zeroes ~0.05% of weights to match full fine-tuning on math (30 GB adapter to ~8 MB).
+
+
+## Update 2026-11-15: batch-level expert sharing, measured in joules
+
+[Batch-aware MoE routing (2611.11696)](2026-11-15-batch-aware-moe-routing-energy.md): direct GPU energy measurement. On Qwen3-30B-A3B, biasing a batch's tokens toward shared experts reads 25-31% fewer expert weights within KL 0.05, benchmarks within noise, 12-18% less energy per token. On recurrent MARL policies, shared activity is too short-lived to spend (trained masks reduce to a narrow GRU at 11x the energy). This page's thesis in one paper: the MoE sparsity is spendable because experts are the unit of weight loading. Complements RAMPr (11-14): one shrinks what is stored, the other what is read per step. Pilot, one GPU type.

@@ -1,0 +1,31 @@
+---
+source: farmer/rss
+feed: simon-willison
+farmed: 2026-11-15T06:33:59.911718+00:00
+title: "datasette-llm 0.1a11"
+url: https://simonwillison.net/2026/Nov/14/datasette-llm/
+published: 2026-11-14
+author: 
+---
+
+# datasette-llm 0.1a11
+
+<p><strong>Release:</strong> <a href="https://github.com/datasette/datasette-llm/releases/tag/0.1a11">datasette-llm 0.1a11</a></p>
+        <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p>
+<p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p>
+<p>This means that if you're running local models with <a href="https://lmstudio.ai">LM Studio</a> or <a href="https://ollama.com">Ollama</a> or <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a> (which just hit <a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p>
+<div class="highlight highlight-source-shell"><pre>wget https://datasette.io/content.db
+
+uvx --with datasette-agent datasette \
+  --root --secret 1 \
+  -s plugins.datasette-llm.default_model <span class="pl-s"><span class="pl-pds">'</span>{</span>
+<span class="pl-s">    "model": "lmstudio-qwen",</span>
+<span class="pl-s">    "model_name": "qwen/qwen3.8-27b",</span>
+<span class="pl-s">    "api_base": "http://localhost:1234/v1"</span>
+<span class="pl-s">  }<span class="pl-pds">'</span></span> content.db</pre></div>
+
+<p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p>
+<p><img alt="Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button." src="https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp" /></p>
+    
+    
+        <p>Tags: <a href="https://simonwillison.net/tags/uv">uv</a>, <a href="https://simonwillison.net/tags/datasette-agent">datasette-agent</a>, <a href="https://simonwillison.net/tags/llm">llm</a>, <a href="https://simonwillison.net/tags/datasette">datasette</a>, <a href="https://simonwillison.net/tags/llms">llms</a>, <a href="https://simonwillison.net/tags/ai">ai</a>, <a href="https://simonwillison.net/tags/generative-ai">generative-ai</a></p>

@@ -2319,3 +2319,13 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-14] social-stream | 2026-11-14 morning | social-stream
 ## [2026-11-14] media-zone | Media Zone 2026-11-14 (finalized from closed window) | media-zone
 ## [2026-11-14] digest | cere-bro 2026-11-14 | daily-digest
+## [2026-11-15] ingest | Folio context folding | kurate
+## [2026-11-15] ingest | Batch-aware MoE routing energy | kurate
+## [2026-11-15] ingest | MemCredit | x-feed + dair
+## [2026-11-15] ingest | Harness-S | x-feed
+## [2026-11-15] ingest | When Rounding Breaks Machine Learning | x-feed (blog)
+## [2026-11-15] ingest | MetaPI, Against All Likelihood | x-feed + dair
+## [2026-11-15] ingest | Open-source AI without Jensen + Nvidia week | gmail + rss
+## [2026-11-15] social-stream | 2026-11-15 morning | social-stream
+## [2026-11-15] media-zone | Media Zone 2026-11-15 (finalized from closed window) | media-zone
+## [2026-11-15] digest | cere-bro 2026-11-15 | daily-digest

@@ -607,3 +607,8 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 ## Update 2026-11-14: safety evaluation gets methodology
 
 [Safety evals and attack compute](2026-11-14-safety-evals-and-attack-compute.md): Anthropic's ten recommendations (propensity not capability, preregistration, methods plus domain experts, sensitivity to format and answer order). OpenAI's worst@n automated red teaming for fuzzy robustness, shipped in GPT-6 Astra and Sol. DeepMind attacker swarms break Gemini 4 Argon on 34% of prompt-injection tasks. AM-Bench: threat plus opportunity yields harmful behaviour in most frontier models. Nonprofit suit to freeze frontier training cites labs' own safety disclosures.
+
+
+## Update 2026-11-15: injection tests from utility benchmarks; truth as invariance
+
+[MetaPI and Against All Likelihood](2026-11-15-metapi-and-against-all-likelihood.md). MetaPI (2611.10026) converts AppWorld, VitaBench and Terminal-Bench into adaptive indirect-prompt-injection suites; the most robust frontier victims still exceed 20% attack success, and no defense keeps both utility and security (DataSentinel vs CaMeL). Confirms DeepMind's 11-14 swarm result (34% on Gemini 4 Argon). Meta's essay (2611.09385) proposes invariance across relevant context changes, not likelihood, as the truth criterion, with an inference-time perspective test; no experiments. Folio (2026-11-15) also closes the 09-17 compaction-as-write-channel hole by making folded context runtime-written.

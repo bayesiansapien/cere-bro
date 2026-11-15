@@ -334,3 +334,8 @@ The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the fir
 ## Update 2026-11-14: native 4-bit pretraining at 594B
 
 [End-to-End 4-Bit Training (Thinking Machines)](2026-11-14-end-to-end-4bit-training-inkling.md): Inkling 2 Small trained with NVFP4 expert forward passes and MXFP8 backward passes from pretraining through RL. Transpose mismatch solved by de-quantize, transpose, re-quantize with stochastic rounding (unbiased in expectation) rather than NVIDIA's 16x16 tile scales (too coarse). Dispatch in NVFP4, combine in Hadamard-rotated S2F6 8-bit. +8% pretraining, +20% RL wall clock over full MXFP8, ~2% CE loss, no post-training calibration. First fully disclosed frontier-scale native-FP4 pretraining recipe in the wiki; the opposite route to SteerDistill (11-13), which repairs a quantized agent after training. Related: KQuant (closed Mac Qwen quants, mixed-bit sensitive layers) and cuBLAS Ozaki-II exact FP64 via integer tensor cores ([summary](../hardware/2026-11-14-cublas-ozaki-ii-and-glm53-two-stations.md)).
+
+
+## Update 2026-11-15: the operators under low-bit recipes are not exact
+
+[When Rounding Breaks Machine Learning (George and Rush)](2026-11-15-rounding-breaks-ml-floatlib.md): FloatLib (Lean) proves roundoff bounds; a sweep of 154 operators across PyTorch, JAX, TensorFlow, NumPy, CuPy, ONNX Runtime and MLX (about 780M outputs, then 526 formats for selected formulas) found bugs in PyTorch, JAX, TFP, diffusers, PyG and xLSTM, several unreported, starting from a float32 softmax whose target gradient rounded to zero. Pairs with Inkling's stochastic rounding (11-14, unbiased on average) and cuBLAS Ozaki-II (11-14, proved exact) as the three stances on precision. Open: the same sweep on NVFP4/MXFP8 attention kernels.

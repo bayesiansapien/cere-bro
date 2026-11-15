@@ -442,3 +442,8 @@ Anthropic's [components of agent memory](2026-11-09-anthropic-agent-memory-and-g
 ## Update 2026-11-12: memory-induced degradation
 
 [WikiTrace](2026-11-12-wikitrace-and-single-agent-default.md) (KAIST, 2611.14320): agents with memory can fail tasks they would solve without it, because lessons are stored without the trajectories they came from. Linking each insight to a why-it-worked summary and the raw trajectory, and descending those links only when a lesson is incomplete, conflicting or from a failed run, beats prior memory systems on five benchmarks. Read-time validation complements Anthropic's 11-09 write-time rule ("store validated rules").
+
+
+## Update 2026-11-15: select by decision utility, fold by resolution
+
+[MemCredit (2611.15600)](2026-11-15-memcredit-decision-utility-memory.md): counterfactual removal shows most retrieved memories have zero effect on the next action and similarity predicts usefulness poorly. A small estimator trained on those credits picks what fits a token budget: 86.57% on ALFWorld at 500 tokens vs 65.67% for BM25, with 74.5% fewer memory tokens, policy unchanged. [Folio (2611.16627)](2026-11-15-folio-context-folding.md): record a model-written turn note, a runtime call manifest and raw outputs as the agent runs, then fold older turns to coarser views in code and recover detail through handles; 66/75 LOCA-bench vs 54 for model-written compaction, 2.4x cheaper. Together they extend AKV (10-29) and the 10-28 memory-tax result: keep the full record, but choose what sits in the window by measured effect and by resolution, not by rewriting. CMU's RIME trains the write side with RL (memories rewarded by later-task gain), surfaced via the X feed.
