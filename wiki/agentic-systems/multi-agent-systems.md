@@ -164,3 +164,7 @@ Amazon's controlled SOP study ([summary](2026-11-12-wikitrace-and-single-agent-d
 ## Update 2026-11-13: worse together
 
 Anthropic's "Worse Together" (MAMUBench): across four multi-user multi-agent environments with Anthropic, OpenAI and Alibaba models, group outcomes were worse when each user delegated to their own agent than with one shared agent. Adds an outcome cost to the 11-12 token-cost finding (1.4-4.7x tokens for multi-agent). Google's Orchestrator is the counter-example where a coordinated lead-plus-workers team saves quota. See [safety roundup](../responsible-ai/2026-11-13-cot-erosion-agent-fraud-and-multi-agent-breakdown.md).
+
+## Update 2026-11-16: delegation pays only after coordinated credit
+
+[LEAD-RL (2611.17041)](2026-11-16-lead-rl-delegation-credit.md): turning on subagents moved an untrained base from 59.0% to 58.0% on BrowseComp; joint training with a per-report utility rubric gating each subagent's team advantage reached 73.5% (+2.49 over shared credit) with 24.5% fewer critical-path steps, no explicit cost reward. Confirms the 11-12 single-agent-default reading: untrained delegation is neutral or harmful. BTTF ([chip verification agents](../hardware/2026-11-16-bttf-agentic-chip-verification.md)) reports the cost side of a split: +17.3% audit quality at 1.96x latency.

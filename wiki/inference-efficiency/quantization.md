@@ -339,3 +339,7 @@ The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the fir
 ## Update 2026-11-15: the operators under low-bit recipes are not exact
 
 [When Rounding Breaks Machine Learning (George and Rush)](2026-11-15-rounding-breaks-ml-floatlib.md): FloatLib (Lean) proves roundoff bounds; a sweep of 154 operators across PyTorch, JAX, TensorFlow, NumPy, CuPy, ONNX Runtime and MLX (about 780M outputs, then 526 formats for selected formulas) found bugs in PyTorch, JAX, TFP, diffusers, PyG and xLSTM, several unreported, starting from a float32 softmax whose target gradient rounded to zero. Pairs with Inkling's stochastic rounding (11-14, unbiased on average) and cuBLAS Ozaki-II (11-14, proved exact) as the three stances on precision. Open: the same sweep on NVFP4/MXFP8 attention kernels.
+
+## Update 2026-11-16: can an agent pick and ship the compression recipe?
+
+[CompressionBench (2611.06858)](2026-11-16-compressionbench.md): CMU turns compression into a terminal task (checkpoint + storage limit + GPU + time budget, ship weights and inference code). 29 of 36 agent submissions pass independent verification; the best design per task averages +3.4% perplexity over BF16 and 77.33% vs 79.56% downstream accuracy. Complete-model feedback reversed 17 of 79 local rankings, and generation tests caught failures perplexity missed. Same lesson as the 11-15 FloatLib result: cheap proxies miss real breakage. Open: latency/throughput targets, long-context and reasoning evals of agent-built quants.

@@ -2329,3 +2329,15 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-15] social-stream | 2026-11-15 morning | social-stream
 ## [2026-11-15] media-zone | Media Zone 2026-11-15 (finalized from closed window) | media-zone
 ## [2026-11-15] digest | cere-bro 2026-11-15 | daily-digest
+## [2026-11-16] ingest | CompressionBench (2611.06858) | dair
+## [2026-11-16] ingest | SkillCache (2611.10022) | dair
+## [2026-11-16] ingest | Cleaning an Agent's History Hurts (2611.14654) | dair
+## [2026-11-16] ingest | DISCERN (2611.15729) + CoReMem (2611.17316) | dair + kurate
+## [2026-11-16] ingest | LEAD-RL (2611.17041) | dair
+## [2026-11-16] ingest | Honesty Is a Race (2611.15779) + Breaking Bad (2611.14996) | dair
+## [2026-11-16] ingest | BTTF agentic chip verification (2610.06790) | twitter
+## [2026-11-16] ingest | Understanding Positional Embeddings in Modern LLMs | rss
+## [2026-11-16] ingest | Training history readable from weights | twitter
+## [2026-11-16] social-stream | 2026-11-16 morning | social-stream
+## [2026-11-16] media-zone | Media Zone 2026-11-16 (finalized from closed window) | media-zone
+## [2026-11-16] digest | cere-bro 2026-11-16 | daily-digest

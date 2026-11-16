@@ -569,3 +569,11 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 ## Update 2026-11-15: open models without a patron; custom silicon's watt-dollar edge
 
 [Open-source AI without Jensen](../ai-industry/2026-11-15-open-source-ai-without-jensen.md): Lambert argues scarce chips keep open models at high serving margins, so closed labs with scale win, and Huang's exit removes the open ecosystem's political protector. Goldman: about $3.8T of Nvidia/Broadcom/AMD-linked AI infrastructure through 2028, Nvidia 63% of dollars but 47% of gigawatts, Broadcom 21% and 31%. JPMorgan: hyperscaler capex above $2T by 2028. Street memory pricing (unverified): DRAM about $25/GB above HBM at about $20/GB. Anthropic compute commitments near $901B pre-IPO.
+
+## Update 2026-11-16: memory margins, lease duration, and non-Nvidia frontier training
+
+- **HBM4 economics (Bernstein via X):** about $6-7/GB to make vs about $20/GB selling price, roughly 65% gross margin. Nearly half a 32GB stack's cost is base die, packaging and test, not DRAM; going 8-high to 16-high doubles capacity and cuts cost/GB about 13%. Packaging and test (TSMC, Teradyne) capture a growing share.
+- **Compute priced by contract length:** five-year leases (IREN, CoreWeave) at about $20-25 per watt-year vs $40-50 for short-term capacity; Nebius's 2026 base near $12. Guaranteed access is priced like the GPU itself. Unverified market commentary, but consistent with the 11-13/11-14 backstop thread.
+- **Meituan LongCat-2.5 (1.6T MoE) trained entirely on Chinese hardware**, sample deployment on 194 Huawei Ascend chips, 88.4 on Terminal Bench ([The Decoder](https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/)). First frontier-adjacent open model with an explicit no-Nvidia training claim.
+- **Power:** Envision Energy runs an 800V DC data-center power system in Ulanqab ahead of Nvidia's next-gen rollout ([The Information](https://www.theinformation.com/articles/chinese-energy-company-outpacing-u-s-ai-power-technology)). Samsung adds $1.9B to its Austin fab for SpaceX Starlink chips.
+- **Nvidia:** Q3 FY earnings on 11-17 with interim CEO Colette Kress; Megaspeed reportedly brokered about $12B of Nvidia orders for China; a petition to reinstate Huang passed 100,000 signatures (5,248 self-identified employees).

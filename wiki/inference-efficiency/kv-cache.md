@@ -893,3 +893,7 @@ NVIDIA's "You don't need long context" (2611.05306) shows frequent compaction co
 ## Update 2026-11-14: prefix-cached agent serving is metastable
 
 [Bursts That Outlast Themselves (2611.13412)](2026-11-14-prefix-cache-metastability-bursts.md): a few minutes of extra arrivals left a vLLM agent server at ~10% hit ratio and half throughput for 70 minutes (9 of 12 paired runs), reproduced on SGLang and SWE-bench traces; absent without prefix caching. Throttling admissions rescued 1 of 7; suspending admitted sessions rescued all; a resident-KV budgeter prevented collapse in every run. Complements Evolving Infra (11-13): eviction hints optimize the healthy regime, admission budgets guard against the unhealthy one. Cache-aware routing that maximizes hit rate can push a server over the cliff.
+
+## Update 2026-11-16: the position scheme does not shrink the cache
+
+[Raschka on positional embeddings](../llms-foundation-models/2026-11-16-raschka-positional-embeddings.md): partial RoPE (MiniMax-M3 rotates 64 of 128 head dims) halves the sine/cosine tables (128 MiB at 1M context in BF16) but the KV cache still stores full keys and values. Key-compression methods interact with which dimensions are rotated; NoPE layers (SmolLM3 skips RoPE every fourth layer) are the other 2026 lever for long context.

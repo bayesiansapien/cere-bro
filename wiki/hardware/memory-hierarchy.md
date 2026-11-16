@@ -288,3 +288,7 @@ GLM-5.3 AgentX requests are over 90% cached at up to 1M tokens, so KV capacity s
 ## Update 2026-11-07
 
 TSMC is drawing up plans for 3D DRAM at NVIDIA's request ([summary](2026-11-07-tsmc-3d-dram-and-the-rebound.md)). With SK hynix sold out under LTAs (11-03) and Micron already pivoting to 3D DRAM (10-24), NVIDIA is trying to create a fourth memory supplier. 3D DRAM is years from scale, so it does nothing for the current HBM shortage; it is a bet on who controls memory pricing late in the decade. TSMC's etch and deposition strength is the reason it is a plausible entrant.
+
+## Update 2026-11-16: HBM4 cost structure
+
+Bernstein (via X): HBM4 at about $6-7/GB manufacturing cost vs about $20/GB price; nearly half of a 32GB stack's cost is the base logic die, advanced packaging and test. Moving from 8 to 16 layers doubles capacity and lowers cost/GB about 13%. Implication: the HBM bill is increasingly a packaging bill. See [compute-economics](compute-economics.md).

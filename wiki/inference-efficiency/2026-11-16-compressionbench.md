@@ -49,7 +49,7 @@ flowchart LR
 
 ## How it relates to prior wiki pages
 
-- **Extends** the agents-as-systems-engineers thread. The 11-14 digest covered an Opus-built serving engine that out-earned SGLang per GPU-hour, and [KernelSeek-style kernel agents](gpu-kernels.md) appear in [gpu-kernels](../hardware/gpu-kernels.md). CompressionBench moves the agent one layer up, from kernels and engines to the weights themselves.
+- **Extends** the agents-as-systems-engineers thread. The 11-14 digest covered an Opus-built serving engine that out-earned SGLang per GPU-hour, and kernel-writing agents appear in [gpu-kernels](../hardware/gpu-kernels.md). CompressionBench moves the agent one layer up, from kernels and engines to the weights themselves.
 - **Confirms** [When Rounding Breaks Machine Learning](2026-11-15-rounding-breaks-ml-floatlib.md) (11-15, which found unreported numerical bugs in PyTorch and JAX operators) from a different side: cheap proxies miss real failures. There it was operator error bounds; here it is perplexity versus generation.
 - **Fills a gap** in [quantization](quantization.md): prior pages track human-designed recipes (NVFP4, MXFP8, Inkling's 4-bit training on 11-14). This is the first benchmark that asks whether an agent can pick and implement the recipe end to end.
 
