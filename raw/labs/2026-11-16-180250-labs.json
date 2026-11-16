@@ -1,0 +1,32 @@
+{
+ "captured": "2026-11-16T18:02:50.876015",
+ "errors": [
+  "Thinking Machines: feed returned no entries (HTTP 404)",
+  "Anthropic System Cards: no post links matched (layout change?)",
+  "Claude Blog: no post links matched (layout change?)"
+ ],
+ "items": [
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "The King\u2019s Trust and OpenAI launch \u00a31m partnership",
+   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "published": "2026-11-16T00:00:00+00:00",
+   "uid": "feed:https://openai.com/index/the-kings-trust-and-openai",
+   "summary": "The King\u2019s Trust and OpenAI launch a \u00a31m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "content": "",
+   "kind": "model_release"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "LVMH\u2019s Media Division announces strategic partnership with OpenAI",
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "published": "2026-11-16T09:00:00+00:00",
+   "uid": "feed:https://openai.com/index/lvmh-media-division-partnership",
+   "summary": "LVMH\u2019s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "content": "",
+   "kind": "post"
+  }
+ ]
+}
