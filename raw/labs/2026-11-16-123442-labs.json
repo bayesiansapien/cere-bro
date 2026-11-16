@@ -1,0 +1,43 @@
+{
+ "captured": "2026-11-16T12:34:42.564683",
+ "errors": [
+  "Thinking Machines: feed returned no entries (HTTP 404)",
+  "Anthropic System Cards: no post links matched (layout change?)",
+  "Claude Blog: no post links matched (layout change?)"
+ ],
+ "items": [
+  {
+   "lab": "NVIDIA Blog",
+   "source": "feed",
+   "title": "AI Day Seoul Brings Together Korea\u2019s Industry Leaders, Startups and Developer Communities",
+   "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "published": "2026-11-16T00:00:28+00:00",
+   "uid": "feed:https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "summary": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea\u2019s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is \u201cpunching above its weight,\u201d with Doosan Robotics, Hyundai [\u2026]",
+   "content": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea\u2019s industry leaders, startups and developer communities advancing physical AI and AI agents. \n\n At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is \u201cpunching above its weight,\u201d with Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group \u2014 as well as startups like Real World and Luda Robotics \u2014 using NVIDIA platforms to bring general-purpose robotics into the real world.\u00a0 \n\n Jonathan Cohen, vice president of applied research at NVIDIA, showed how enterprises can build agents they own and control. Breakout sessions featured speakers from Coupang Intelligent Cloud, Doosan Robotics, LG AI Research, LG Electronics, NAVER Cloud, SK Telecom and Upstage. \n\n \u201cIt was a genuinely enjoyable time to have candid conversations,\u201d said Hyunho Yang, research engineer for omnimodal foundation models at SK Telecom. \u201cSeeing the passion of fellow AI developers was a real source of inspiration for me.\u201d \n\n Community leaders share how they build with open models and tools at AI Day Seoul. \n The Agentic AI 10x Bootcamp Community Day brought together Pseudo Lab, Python Korea, PyTorchKR, HAERAE, Hugging Face KREW, Graph User Group, Womxn Who Code Korea, Dnol (Datayanolja) and other developer communities. Five finalists from the Hangul Day hackathon, co-hosted with Fastcampus, built agents trained on the Korean language and culture with the OpenShell runtime. The winning team, FlyGate, received an NVIDIA DGX Spark system. \n\n More than 500 developers also took part in full-day NVIDIA Deep Learning Institute workshops and NVIDIA Certification exams in Korean. Workshops covered deploying and optimizing AI inference at scale, building end-to-end robotics workflows with the NVIDIA Isaac platform and developing secure AI agents. Certification included the new AI Model and Application Development exam.\u00a0 \n\n The Physical AI Startup Connect event included pitches from 10 NVIDIA Inception startups: AIM Intelligence, Avikus, GoLe Robotics, MOVIN, Neubility, ROAI, ROBROS, TESOLLO, TwelveLabs and XYZ. The AI for Science Forum brought together the Korea Institute of Science and Technology Information, Korean universities and NVIDIA Research. \n\n AI Day Seoul sessions will soon be available on NVIDIA On-Demand . \n\n The Best of GTC Berlin \n\n Deep dive on tech advances.\n\n Watch On Demand \n\n Recent News\n\n AI \n\n How AI Is Helping Care Teams Get Patients the Right Care, Sooner \n\n November 13, 2026 \n\n Gaming \n\n A New Dawn in the Cloud: \u2018Warhammer 40,000: Dawn of War IV\u2019 Is Coming to GeForce NOW \n\n November 12, 2026 \n\n AI \n\n How AI Helps Recyclers Turn Mixed Waste Into Reusable Material \n\n November 10, 2026 \n\n AI Infrastructure \n\n NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure \n\n November 10, 2026 \n\n View All Recent News \n\n Categories:\n\n AI \n\n Tags:\n\n Agentic AI \n AI Days \n Deep Learning Institute \n Events \n Inception \n\n Related News\n\n AI \n\n How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks \n\n Nov 6, 2026 \n\n AI Infrastructure \n\n Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents \n\n Nov 5, 2026 \n\n AI Infrastructure \n\n More Performance From Every Byte: How Full-Stack Codesign Solves AI\u2019s Memory Challenge \n\n Nov 5, 2026 \n\n Networking \n\n Building Trusted AI Infrastructure for Safe and Secure AI \n\n Oct 29, 2026",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "published": "2026-11-15T22:00:01+00:00",
+   "uid": "feed:https://openai.com/index/step-toward-defining-the-standard-model",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "Our new blog for science",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "published": "2026-11-15T22:00:00+00:00",
+   "uid": "feed:https://openai.com/index/our-new-blog-for-science",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "content": "",
+   "kind": "post"
+  }
+ ]
+}
