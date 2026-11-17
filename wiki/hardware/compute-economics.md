@@ -577,3 +577,8 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 - **Meituan LongCat-2.5 (1.6T MoE) trained entirely on Chinese hardware**, sample deployment on 194 Huawei Ascend chips, 88.4 on Terminal Bench ([The Decoder](https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/)). First frontier-adjacent open model with an explicit no-Nvidia training claim.
 - **Power:** Envision Energy runs an 800V DC data-center power system in Ulanqab ahead of Nvidia's next-gen rollout ([The Information](https://www.theinformation.com/articles/chinese-energy-company-outpacing-u-s-ai-power-technology)). Samsung adds $1.9B to its Austin fab for SpaceX Starlink chips.
 - **Nvidia:** Q3 FY earnings on 11-17 with interim CEO Colette Kress; Megaspeed reportedly brokered about $12B of Nvidia orders for China; a petition to reinstate Huang passed 100,000 signatures (5,248 self-identified employees).
+
+## 2026-11-17 update: Rubin's first numbers and the IPO compute bill
+
+- [Vera Rubin MLPerf](2026-11-17-vera-rubin-mlperf-sc26.md): up to 2x per GPU over GB300 in Training v6.1 (DeepSeek-V3 in 4.14 vs 8.03 min at 1,024 GPUs); provisional Endpoints claim of 10x+ throughput per kW rests on very different concurrency points (1,024 vs 48 users).
+- Anthropic's IPO filing lists $900.9B of compute commitments through 2045; Amodei buys "on the low side" and tops up on spot. OpenAI commits 457 MW of AMD MI455X via TensorWave (~8% of its 6 GW AMD deal). Telus exits two Vancouver AI data centers (63,000 GPUs, 163 MW) over local opposition. Morgan Stanley projects inference at 72% of AI infrastructure spend by 2030.

@@ -2341,3 +2341,17 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-16] social-stream | 2026-11-16 morning | social-stream
 ## [2026-11-16] media-zone | Media Zone 2026-11-16 (finalized from closed window) | media-zone
 ## [2026-11-16] digest | cere-bro 2026-11-16 | daily-digest
+## [2026-11-17] ingest | Agent sessions prefix-cache cluster (Together+Ollama, Bedrock, GKE, MLPerf Endpoints) | labs
+## [2026-11-17] ingest | Reducing Batch Makespan (2611.16661) | huggingface + dair/social
+## [2026-11-17] ingest | TokenEconomizer (2610.22732) | labs + twitter
+## [2026-11-17] ingest | Vera Rubin MLPerf + SC26 slate | labs
+## [2026-11-17] ingest | Zero-TIM bitwise RL on TPU | labs
+## [2026-11-17] ingest | LuthorSQL (2611.17780) | huggingface
+## [2026-11-17] ingest | MMFlash (2611.18482) | huggingface
+## [2026-11-17] ingest | Qwen4-Max + Loopback Transformer (2611.07226) | rss + huggingface
+## [2026-11-17] ingest | Efficiency shorts: Together Compiler road, Mobile AI Factory, Parsed Plausible Wrong, eDMD, ReDiverse | labs + kurate + huggingface
+## [2026-11-17] ingest | Agent shorts: MIRIX-2.0, Aligning AI Teams, EGE, AutoRL, RSI Control Arena, FrontierML, iWSP | huggingface + rss + twitter
+## [2026-11-17] ingest | Earnings eve, IPO week, remote-access rule | gmail + rss
+## [2026-11-17] social-stream | 2026-11-17 morning | social-stream
+## [2026-11-17] media-zone | Media Zone 2026-11-17 (finalized from closed window) | media-zone
+## [2026-11-17] digest | cere-bro 2026-11-17 | daily-digest

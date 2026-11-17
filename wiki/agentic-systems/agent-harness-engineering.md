@@ -906,3 +906,10 @@ Feed-day signals ([Drex and AgentPilot](../ai-routing/2026-11-07-drex-open-decis
 ## Update 2026-11-16: compile the repeated work out of the model
 
 [SkillCache (NVIDIA, 2611.10022)](2026-11-16-skillcache-compiled-skills.md): zero-shot skill compilation loses (1.24x tokens, worse on 58 of 84 tasks), but compiling one completed trace into a replayable capsule cuts warm-run tokens 81% (Sonnet 4.6) and 74% (Opus 4.8) in Claude Code at comparable reward, and lifts three open-weight models 12-25 reward points at 72-81% fewer tokens. Practitioner echo the same day: Elvis Saravia (@omarsar0) argues the best agent systems are "lots of boring deterministic steps" with classifiers and verifiers; Lauren Tan's four-question triage turns each agent mistake into a redesign, lint, self-check or rule rather than another AGENTS.md line. [Cleaning an Agent's History](2026-11-16-cleaning-history-world-state.md) adds a constraint for compaction designs like [Folio](2026-11-15-folio-context-folding.md): a fold must agree with the world state, or it misleads the next turn.
+
+## 2026-11-17 update: the harness owns the token bill
+
+- [TokenEconomizer](2026-11-17-tokeneconomizer.md) (MSR/Berkeley): learned micro-skills, tool pruning and failure-loop intervention cut coding-agent cost 18.4-30.9% across Claude Code, Codex and Copilot CLI with the agent unchanged. Second cross-session-learning cost result in two days after SkillCache (11-16, 74-81%).
+- Together + Ollama's [prefix-cache rules](../inference-efficiency/2026-11-17-agent-sessions-prefix-cache-discipline.md) make prompt layout a harness responsibility.
+- Anthropic's Applied AI guide: fold most subagents into one loop with progressively disclosed skills and tools; Claude Code's system prompt shrank over 80%.
+- Self-improving harnesses need an adoption gate ([agent shorts](2026-11-17-agent-shorts-memory-teams-evolution.md)): Beneath the Surface finds every evolved agent loses some previously solved tasks; Evidence-Governed Evolution requires fresh paired audits and non-inferiority tests before a change ships.

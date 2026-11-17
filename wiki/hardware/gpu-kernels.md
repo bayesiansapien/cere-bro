@@ -449,3 +449,8 @@ Helion compile-time heuristics classify kernels (matmul/reduction/pointwise) fro
 ## Update 2026-11-14: exact FP64 from integer tensor cores
 
 [cuBLAS Ozaki-II and 2M](2026-11-14-cublas-ozaki-ii-and-glm53-two-stations.md) (CUDA 13.4.2): DGEMM 5.5x faster than native FP64 on Vera Rubin NVL72, 3.9x on GB200; ZGEMM 5x via 2M (four real GEMMs to two); Rubin TI16 and tcgen05.mma accelerate both. Inkling's 4-bit training ([summary](../inference-efficiency/2026-11-14-end-to-end-4bit-training-inkling.md)) shows the other bottleneck: once GEMMs are 4-bit, NVLink bytes (~16,000 FLOPs per byte received on GB300 NVL72) limit MoE expert parallelism, so communication must be quantized too.
+
+## 2026-11-17 update: the search is the product, and bits must match
+
+- Together's [road to Together Compiler](../inference-efficiency/2026-11-17-efficiency-shorts-compiler-mobile-format.md): CUDA Graphs + PDL over default Inductor kernels recover 98% of megakernel speed on Llama 1B; Inductor's benchmark harness misjudges kernels by 39-58% because it clears L2; agent-searched multi-kernels beat megakernels by 28% on B200 (2,118 vs 1,649 TPS).
+- Google's [Zero-TIM](../inference-efficiency/2026-11-17-zero-tim-bitwise-rl-tpu.md): batch-invariant Pallas kernels with fixed accumulation order, plus explicit cross-shard reduction order, make sampler and trainer logprobs bitwise identical on 64 TPU v5p. Fourth numerics-determinism item in a week (Sable 11-12, FloatLib 11-15, OPD mismatch budget 11-11).

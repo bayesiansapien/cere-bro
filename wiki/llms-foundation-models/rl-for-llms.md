@@ -302,3 +302,9 @@ Two results on RL's hidden costs. Training-inference mismatch ([summary](2026-11
 ## Update 2026-11-12: matched compute reverses dense-reward gains
 
 [Dense rewards vs GRPO](2026-11-12-dense-rewards-matched-compute-grpo.md) (2611.13560): Monte-Carlo process rewards spend 91% of generated tokens on continuations; at matched tokens they end 14.3 points below GRPO on Qwen2.5-1.5B, and no dense variant wins across 1,668 preregistered runs. Selecting prompts near 50% predicted success helps (+0.8 to +1.7), but doubling GRPO's learning rate nearly matches it. Proposes matched-compute validation as the standard. Learned critics (PPO) were not tested; a Scale AI result says PPO wins at small batch.
+
+## 2026-11-17 update
+
+- [Zero-TIM](../inference-efficiency/2026-11-17-zero-tim-bitwise-rl-tpu.md) (Google): bitwise-identical sampler/trainer logprobs remove the hidden off-policy gap in "on-policy" RL. Tension with the OPD mismatch budget (11-11), which tolerates mismatch for distillation.
+- SFT with a rollout-matched, multi-teacher data budget generalizes as well as RL on Qwen2.5/Qwen3 (2611.14912); AutoRL agents supervising a live RL run lift Qwen3 AIME 2024 from 46.67% to 66.67% ([agent shorts](../agentic-systems/2026-11-17-agent-shorts-memory-teams-evolution.md)).
+- MLPerf Training v6.1 adds a Qwen3.5 397B GRPO benchmark; Rubin's 1.4x per GPU there is its smallest gain.

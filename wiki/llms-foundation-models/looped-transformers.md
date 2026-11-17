@@ -170,3 +170,7 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 ## Update 2026-11-06
 
 [LoopVQ](../inference-efficiency/2026-11-06-loopvq-and-multi-layer-indexer.md) (2611.05304) attacks the looped model's memory problem directly: KV is redundant along the loop axis and loop steps differ in sensitivity, so joint coding reaches 0.5 bits per element. In SGLang it nearly halves decode latency at 32K. This competes with Dory's last-loop-only KV (11-05). Solv3R (2611.02857) applies the looped solver idea to multi-view geometry.
+
+## 2026-11-17 update: Loopback Transformer
+
+[Loopback (2611.07226)](2026-11-17-qwen4-max-and-loopback-transformer.md) stores each pass's update separately instead of the full residual output, giving separate controls over input strength, total update weight (geometric decay) and allocation across passes (attention). Lower validation loss than standard Transformers with 40-75% of their non-embedding parameters at 191M-3B, matched tokens and executed depth. Same unresolved axis as SMELT: no serving-latency or activation-memory numbers.

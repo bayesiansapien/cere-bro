@@ -258,3 +258,5 @@ SpecPilot (2611.02501): an agent loop with a cost model and token-forcing anti-h
 ## Update 2026-11-09
 
 DFlash is now the baseline everyone beats. [ChainFlow](2026-11-09-chainflow-speculative-listening.md) (2611.08669): flow-matching drafter conditioned on target hidden states, 1-2 steps, +39% vs EAGLE-3 and +11% vs DFlash in vLLM. [DSpine](2026-11-09-dspine-and-flux-klein-blackwell.md) (Tencent, open): 5-layer parallel drafter, 2.71-3.84x on agents vs DFlash2 2.33-3.17x. Speculative Listening (2611.06982): speculate on *input* in duplex speech, 95.3% of chunks unchanged under a silence guess, 73% lower response delay. Open: ChainFlow (leans on hidden states) vs D3D (ignores them) head to head.
+
+[MMFlash (11-17)](2026-11-17-mmflash-multimodal-speculative-decoding.md) adds a modality axis to content-dependent acceptance: diffusion-drafter acceptance falls from 46% to 22% as a token's dependence on the image rises (KL with vs without the image). Upweighting image-dependent, badly drafted tokens plus sparse attention for long video gives up to 3.58x lossless, +17.1% over DFlash and up to +195.4% over EAGLE-3. Open: batch-size curve and probe cost.

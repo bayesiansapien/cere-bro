@@ -1039,3 +1039,7 @@ Routing ships as a product feature: GitHub's Copilot Fusion picks Single, Cascad
 ## Update 2026-11-15: routers choosing harnesses, and routers in the training loop
 
 [Harness-S](../agentic-systems/2026-11-15-harness-s-sibling-harness-rescue.md) routes failed RL groups to sibling harnesses (behavior profiles plus multi-LLM voting) and reuses the router for Rank-1 inference. [Batch-aware MoE routing](../inference-efficiency/2026-11-15-batch-aware-moe-routing-energy.md) shows the in-model router can trade a KL 0.05 budget for 12-18% less energy per token. Practitioner side (unverified): a Spotify plugin reportedly offloads Claude Code reading to Gemini Flash, enforced by a hook. Turing Post's primer adds the quality-floor caveat: the likeliest winner is not the best expected result.
+
+## 2026-11-17 update: confidence cascades, measured
+
+[LuthorSQL (2611.17780)](2026-11-17-luthorsql-system1-cascade.md): a 7B non-autoregressive text-to-SQL model answers locally when its validator is confident and escalates to an Opus agent otherwise. On 227 post-cutoff questions it handles nearly half locally and cuts API cost 33.3% at equal accuracy. Industry echo the same day: Satya Nadella describes Microsoft's "hybrid intelligence," a router between unmetered local models and paid cloud models. Caution for router evaluation: Opus reproduces 48-92% of public text-to-SQL gold queries verbatim without the schema.
