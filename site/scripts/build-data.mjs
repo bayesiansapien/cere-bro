@@ -835,6 +835,61 @@ function buildFeedItems() {
   };
 }
 
+// ── Research themes (fine-grained, from connectors/themes) ───────────────────
+// taxonomy.json defines ~37 themes; tags.json maps each summary page to 1-3 of
+// them. Industry pages are left out: the Atlas keeps industry separate.
+function buildThemes(pages, weeks) {
+  const dir = path.join(REPO_ROOT, 'connectors', 'themes');
+  const taxFile = path.join(dir, 'taxonomy.json');
+  const tagFile = path.join(dir, 'tags.json');
+  if (!fs.existsSync(taxFile) || !fs.existsSync(tagFile)) return { themes: [], themeEdges: [] };
+  const tax = JSON.parse(fs.readFileSync(taxFile, 'utf8')).themes
+    .filter((t) => t.area !== 'ai-industry');
+  const tags = JSON.parse(fs.readFileSync(tagFile, 'utf8'));
+  const byId = Object.fromEntries(tax.map((t) => [t.id, t]));
+
+  const DAY = 86400000;
+  const now = Date.now();
+  const themes = Object.fromEntries(tax.map((t) => [t.id, {
+    ...t, color: TOPIC_COLORS[t.area] ?? '#94a3b8',
+    count: 0, recent: 0, prior: 0, weekly: Object.fromEntries(weeks.map((w) => [w, 0])), papers: [],
+  }]));
+  const pair = {};
+  for (const p of pages) {
+    if (!p.isSummary) continue;
+    const ids = (tags[p.path] ?? []).filter((id) => byId[id]);
+    const age = p.date ? (now - parseDate(p.date).getTime()) / DAY : Infinity;
+    for (const id of ids) {
+      const t = themes[id];
+      t.count += 1;
+      if (age <= 28) t.recent += 1;
+      else if (age <= 56) t.prior += 1;
+      if (p.date) {
+        const w = weekStartUTC(parseDate(p.date));
+        if (t.weekly[w] !== undefined) t.weekly[w] += 1;
+      }
+      t.papers.push({ id: p.id, title: p.title, date: p.date });
+    }
+    for (let i = 0; i < ids.length; i++) {
+      for (let j = i + 1; j < ids.length; j++) {
+        const k = [ids[i], ids[j]].sort().join('|');
+        pair[k] = (pair[k] ?? 0) + 1;
+      }
+    }
+  }
+  const list = Object.values(themes).map((t) => {
+    t.papers = t.papers.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '')).slice(0, 15);
+    t.weekly = weeks.map((w) => t.weekly[w]);
+    // Growth: last 4 weeks vs the 4 before, smoothed so tiny themes don't spike.
+    t.growth = (t.recent + 1) / (t.prior + 1);
+    return t;
+  });
+  const themeEdges = Object.entries(pair)
+    .filter(([, w]) => w >= 3)
+    .map(([k, w]) => { const [a, b] = k.split('|'); return { a, b, w }; });
+  return { themes: list, themeEdges };
+}
+
 function main() {
   if (!fs.existsSync(WIKI_DIR)) {
     console.error(`Wiki directory not found: ${WIKI_DIR}`);
@@ -1278,6 +1333,7 @@ function main() {
   const podcasts = scanPodcasts();
   const feed = buildFeedItems();
   const mediaZoneSyntheses = scanMediaZoneSyntheses();
+  const themeData = buildThemes(pages, weeks);
 
   const out = {
     generated: new Date().toISOString(),
@@ -1326,6 +1382,9 @@ function main() {
     sourceKeys: SOURCE_KEYS,
     sourceLabels: SOURCE_LABELS,
     tierBySource,
+    // Fine-grained research themes (connectors/themes): map nodes, co-occurrence
+    // edges, weekly counts, and emerging themes.
+    ...themeData,
     // Cerebro Radio podcast episodes
     podcasts,
     // Media Zone: daily synthesis files (one per day) written by the morning

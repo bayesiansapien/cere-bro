@@ -217,6 +217,12 @@ if [ -f "$DIGEST_PATH" ]; then
   # ~/.config/cere-bro/newsletter.env or no send credentials exist (send.py --auth).
   python3 "$REPO/connectors/newsletter/send.py" "$TODAY" >> "$LOG" 2>&1 || \
     echo "[$TODAY $(date +%H:%M:%S)] Newsletter not sent — continuing." >> "$LOG"
+  # Atlas themes: tag today's new summary pages with fine-grained research themes.
+  python3 "$REPO/connectors/themes/tag.py" >> "$LOG" 2>&1 || \
+    echo "[$TODAY $(date +%H:%M:%S)] Theme tagging failed — continuing." >> "$LOG"
+  git add connectors/themes/tags.json >> "$LOG" 2>&1
+  git diff --cached --quiet || git commit -m "atlas: theme tags $TODAY" >> "$LOG" 2>&1
+  git push origin main >> "$LOG" 2>&1 || true
 fi
 
 # Verify the digest actually got written. If still missing after all retries,

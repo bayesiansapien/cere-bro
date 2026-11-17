@@ -30,6 +30,9 @@ const dataJson = JSON.stringify({
   sourceKeys: wiki.sourceKeys,
   sourceLabels: wiki.sourceLabels,
   tierBySource: wiki.tierBySource,
+  themes: wiki.themes,
+  themeEdges: wiki.themeEdges,
+  weeks12: wiki.weeks,
 });
 ---
 
@@ -43,17 +46,41 @@ const dataJson = JSON.stringify({
   </section>
 
   <section class="atlas-section">
-    <div class="section-marker">overview</div>
-    <h2>Topic distribution</h2>
-    <p class="lead">All source summaries in the wiki, by topic. The pie grows as the wiki accumulates.</p>
-    <div class="chart-grid">
-      <div class="chart-card">
-        <canvas id="donut-chart" height="380"></canvas>
-      </div>
-      <div class="chart-card">
-        <div id="topic-list"></div>
+    <div class="section-marker">themes</div>
+    <h2>Theme map</h2>
+    <p class="lead">
+      Every research summary tagged with 1-3 fine-grained themes. Bubble size is how many papers;
+      a line joins themes that keep appearing in the same papers. Click a theme for its recent papers.
+    </p>
+    <div class="theme-map-grid">
+      <div class="chart-card theme-map-card"><div id="theme-map"></div></div>
+      <div class="chart-card theme-panel" id="theme-panel">
+        <p class="card-sub">Click a theme on the map.</p>
       </div>
     </div>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker" style="color:#f59e0b">momentum</div>
+    <h2>Emerging and cooling themes</h2>
+    <p class="lead">Papers in the last 4 weeks against the 4 weeks before.</p>
+    <div class="momentum-grid">
+      <div class="chart-card momentum-card">
+        <div class="momentum-title rising">🔥 Emerging</div>
+        <div id="theme-rising"></div>
+      </div>
+      <div class="chart-card momentum-card">
+        <div class="momentum-title cooling">❄️ Cooling</div>
+        <div id="theme-cooling"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="atlas-section">
+    <div class="section-marker">areas</div>
+    <h2>Themes by area</h2>
+    <p class="lead">Each area broken into its themes, with a 12-week trend line.</p>
+    <div id="theme-areas" class="theme-areas"></div>
   </section>
 
   <section class="atlas-section">

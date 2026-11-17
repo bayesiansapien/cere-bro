@@ -530,3 +530,160 @@ if (sourceKeys && tierBySource && tierKeys) {
     el.innerHTML = `<div class="tier-hm">${header}${rows}</div>`;
   }
 }
+
+// ────────────────────────────────────────────────────────────────────────────
+// RESEARCH THEMES — map, emerging/cooling, area breakdown
+// ────────────────────────────────────────────────────────────────────────────
+const { themes = [], themeEdges = [], weeks12 = [] } = data;
+const themeById = Object.fromEntries(themes.map((t) => [t.id, t]));
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+function sparkline(vals, color, w = 90, h = 22) {
+  const max = Math.max(1, ...vals);
+  const step = vals.length > 1 ? w / (vals.length - 1) : w;
+  const pts = vals.map((v, i) => `${(i * step).toFixed(1)},${(h - 2 - (v / max) * (h - 4)).toFixed(1)}`).join(' ');
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline fill="none" stroke="${color}" stroke-width="1.6" points="${pts}"/></svg>`;
+}
+
+function showTheme(id) {
+  const t = themeById[id];
+  const el = document.getElementById('theme-panel');
+  if (!t || !el) return;
+  const related = themeEdges
+    .filter((e) => e.a === id || e.b === id)
+    .map((e) => ({ other: e.a === id ? e.b : e.a, w: e.w }))
+    .sort((a, b) => b.w - a.w).slice(0, 5)
+    .map((r) => `<button class="theme-chip" data-theme="${r.other}" style="border-color:${themeById[r.other]?.color}">${esc(themeById[r.other]?.label)} · ${r.w}</button>`).join('');
+  el.innerHTML = `
+    <div class="theme-panel-head" style="border-left:4px solid ${t.color}">
+      <h3>${esc(t.label)}</h3>
+      <div class="card-sub">${esc(t.desc)}</div>
+    </div>
+    <div class="theme-stats">
+      <span><strong>${t.count}</strong> papers</span>
+      <span><strong>${t.recent}</strong> in last 4 weeks</span>
+      ${sparkline(t.weekly, t.color, 110, 26)}
+    </div>
+    ${related ? `<div class="theme-sub">Often appears with</div><div class="theme-chips">${related}</div>` : ''}
+    <div class="theme-sub">Recent papers</div>
+    <ul class="theme-papers">${t.papers.map((p) => `<li><a href="${url(p.id)}/">${esc(p.title)}</a><span>${p.date ?? ''}</span></li>`).join('')}</ul>`;
+  el.querySelectorAll('.theme-chip').forEach((b) => b.addEventListener('click', () => selectTheme(b.dataset.theme)));
+}
+
+let selectTheme = showTheme;
+
+// (T1) Theme map: force layout, bubble = paper count, line = co-occurrence
+if (themes.length && document.getElementById('theme-map')) {
+  const d3 = await import('https://esm.sh/d3@7.9.0');
+  const host = document.getElementById('theme-map');
+  const W = host.clientWidth || 700;
+  const H = Math.max(460, Math.min(680, W * 0.82));
+  const nodes = themes.filter((t) => t.count > 0).map((t) => ({ ...t }));
+  const ids = new Set(nodes.map((n) => n.id));
+  const maxW = Math.max(1, ...themeEdges.map((e) => e.w));
+  const links = themeEdges.filter((e) => ids.has(e.a) && ids.has(e.b))
+    .map((e) => ({ source: e.a, target: e.b, w: e.w }));
+  const r = d3.scaleSqrt().domain([0, d3.max(nodes, (n) => n.count)]).range([6, Math.min(46, W / 14)]);
+
+  const svg = d3.select(host).append('svg').attr('viewBox', `0 0 ${W} ${H}`).attr('width', '100%').attr('height', H);
+  const link = svg.append('g').selectAll('line').data(links).join('line')
+    .attr('stroke', '#475569').attr('stroke-opacity', (d) => 0.15 + 0.6 * (d.w / maxW))
+    .attr('stroke-width', (d) => 0.5 + 3 * (d.w / maxW));
+  const node = svg.append('g').selectAll('g').data(nodes).join('g').attr('class', 'theme-node').style('cursor', 'pointer');
+  node.append('circle').attr('r', (d) => r(d.count)).attr('fill', (d) => d.color).attr('fill-opacity', 0.85)
+    .attr('stroke', '#0a0a0f').attr('stroke-width', 1.5);
+  const maxCount = d3.max(nodes, (n) => n.count);
+  node.append('text').text((d) => d.label).attr('text-anchor', 'middle')
+    .attr('dy', (d) => r(d.count) + 11).attr('fill', '#cbd5e1').attr('font-size', 10)
+    .attr('paint-order', 'stroke').attr('stroke', '#16161f').attr('stroke-width', 3)
+    .attr('opacity', (d) => (d.count >= maxCount * 0.18 || d.tier === 1 ? 1 : 0))
+    .attr('pointer-events', 'none');
+  node.on('mouseenter', function () { d3.select(this).select('text').attr('opacity', 1); })
+    .on('mouseleave', function (_, d) { d3.select(this).select('text').attr('opacity', d.count >= maxCount * 0.18 || d.tier === 1 ? 1 : 0); });
+  node.append('title').text((d) => `${d.label}: ${d.count} papers, ${d.recent} in last 4 weeks`);
+
+  selectTheme = (id) => {
+    node.select('circle').attr('stroke', (d) => (d.id === id ? '#fff' : '#0a0a0f')).attr('stroke-width', (d) => (d.id === id ? 3 : 1.5));
+    link.attr('stroke', (d) => (d.source.id === id || d.target.id === id ? '#e2e8f0' : '#475569'));
+    showTheme(id);
+  };
+  node.on('click', (_, d) => selectTheme(d.id));
+
+  // Each area gets an anchor on a ring, so its themes cluster together and
+  // the co-occurrence lines show which areas bleed into each other.
+  const areaList = [...new Set(nodes.map((n) => n.area))];
+  const anchor = Object.fromEntries(areaList.map((a, i) => {
+    const ang = (2 * Math.PI * i) / areaList.length - Math.PI / 2;
+    return [a, { x: W / 2 + Math.cos(ang) * W * 0.3, y: H / 2 + Math.sin(ang) * H * 0.32 }];
+  }));
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id((d) => d.id).distance(110).strength((d) => 0.02 + 0.15 * (d.w / maxW)))
+    .force('charge', d3.forceManyBody().strength(-220))
+    .force('collide', d3.forceCollide().radius((d) => r(d.count) + 18))
+    .force('x', d3.forceX((d) => anchor[d.area].x).strength(0.18))
+    .force('y', d3.forceY((d) => anchor[d.area].y).strength(0.18))
+    .on('tick', () => {
+      nodes.forEach((d) => { d.x = Math.max(r(d.count), Math.min(W - r(d.count), d.x)); d.y = Math.max(r(d.count), Math.min(H - r(d.count) - 14, d.y)); });
+      link.attr('x1', (d) => d.source.x).attr('y1', (d) => d.source.y).attr('x2', (d) => d.target.x).attr('y2', (d) => d.target.y);
+      node.attr('transform', (d) => `translate(${d.x},${d.y})`);
+    });
+  node.call(d3.drag()
+    .on('start', (e, d) => { if (!e.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+    .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on('end', (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+  const top = [...nodes].filter((n) => n.tier === 1).sort((a, b) => b.recent - a.recent)[0];
+  if (top) selectTheme(top.id);
+}
+
+// (T2) Emerging / cooling: last 4 weeks vs the 4 before
+function themeRows(list, up) {
+  return list.map((t) => {
+    const d = t.recent - t.prior;
+    return `<div class="momentum-item theme-row" data-theme="${t.id}">
+      <span class="momentum-swatch" style="background:${t.color}"></span>
+      <span class="momentum-name">${esc(t.label)}</span>
+      ${sparkline(t.weekly, t.color, 70, 18)}
+      <span class="momentum-count">${t.recent} vs ${t.prior}</span>
+      <span class="momentum-delta ${up ? 'up' : 'down'}">${up ? '↑' : '↓'} ${d > 0 ? '+' : ''}${d}</span>
+    </div>`;
+  }).join('') || '<p class="card-sub">Nothing notable.</p>';
+}
+{
+  const live = themes.filter((t) => t.recent + t.prior >= 4);
+  // Score = change scaled by sqrt of the base, so both a big theme moving a lot and a
+  // small theme genuinely taking off rank, but a 4-vs-0 blip does not top the list.
+  const score = (t) => (t.recent - t.prior) / Math.sqrt(t.prior + 4);
+  const rising = live.filter((t) => t.recent > t.prior).sort((a, b) => score(b) - score(a)).slice(0, 8);
+  const cooling = live.filter((t) => t.recent < t.prior).sort((a, b) => score(a) - score(b)).slice(0, 8);
+  const re = document.getElementById('theme-rising');
+  const co = document.getElementById('theme-cooling');
+  if (re) re.innerHTML = themeRows(rising, true);
+  if (co) co.innerHTML = themeRows(cooling, false);
+}
+
+// (T3) Themes grouped by area
+{
+  const el = document.getElementById('theme-areas');
+  if (el && themes.length) {
+    const areas = [...new Set(themes.map((t) => t.area))];
+    el.innerHTML = areas.map((a) => {
+      const ts = themes.filter((t) => t.area === a).sort((x, y) => y.count - x.count);
+      const max = Math.max(1, ...ts.map((t) => t.count));
+      return `<div class="chart-card theme-area">
+        <h3 class="card-title" style="color:${topicColors[a] ?? '#94a3b8'}">${labelOf(a)}</h3>
+        ${ts.map((t) => `<div class="theme-bar-row theme-row" data-theme="${t.id}">
+          <span class="theme-bar-label">${esc(t.label)}</span>
+          <span class="theme-bar"><span style="width:${(100 * t.count / max).toFixed(0)}%;background:${t.color}"></span></span>
+          <span class="momentum-count">${t.count}</span>
+          ${sparkline(t.weekly, t.color, 60, 16)}
+        </div>`).join('')}
+      </div>`;
+    }).join('');
+  }
+}
+
+document.querySelectorAll('.theme-row').forEach((row) => row.addEventListener('click', () => {
+  selectTheme(row.dataset.theme);
+  document.getElementById('theme-map')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}));

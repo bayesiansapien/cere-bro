@@ -1,0 +1,6005 @@
+{
+"agentic-systems/2026-04-16-defenseclaw-maestro-agentic-security.md": [
+"alignment-safety",
+"harness-engineering"
+],
+"agentic-systems/2026-04-16-do-ai-coding-agents-log-like-humans.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-04-16-exploration-exploitation-lm-agents.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-04-16-occubench.md": [
+"agent-evals"
+],
+"agentic-systems/2026-04-16-trex-llm-finetuning-automation.md": [
+"multi-agent",
+"harness-engineering"
+],
+"agentic-systems/2026-04-16-ui-copilot.md": [
+"tool-use",
+"agent-memory"
+],
+"agentic-systems/2026-04-16-vakra-agent-reasoning-failure-modes.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-04-17-claude-code-architecture.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-04-17-superlocalmemory-agent-memory.md": [
+"agent-memory",
+"quantization"
+],
+"agentic-systems/2026-04-18-corpus2skill-knowledge-navigation.md": [
+"agent-memory",
+"tool-use"
+],
+"agentic-systems/2026-04-18-dr3-eval-deep-research-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-04-19-claude-code-architecture.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-04-19-unidoc-rl-visual-rag.md": [
+"multimodal",
+"rl-post-training"
+],
+"agentic-systems/2026-04-20-gta-2-tool-agent-benchmark.md": [
+"agent-evals",
+"tool-use"
+],
+"agentic-systems/2026-04-20-prl-bench-physics-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-04-20-query-agent-loop-claude-vs-hermes.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-04-21-precise-debugging-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-04-21-reward-free-self-evolution-agents.md": [
+"rl-post-training",
+"agent-memory"
+],
+"agentic-systems/2026-04-22-agentspex-workflow-language.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-04-22-evaluation-driven-scaling-scientific.md": [
+"test-time-compute",
+"agent-evals"
+],
+"agentic-systems/2026-04-22-ml-intern-agentic-posttraining.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-04-23-claude-code-vs-hermes-permissions.md": [
+"alignment-safety",
+"harness-engineering"
+],
+"agentic-systems/2026-04-23-persistent-agent-infrastructure.md": [
+"industry-business",
+"multi-agent"
+],
+"agentic-systems/2026-04-25-claude-code-memory-systems-chapter8.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-04-30-clawgym-agent-framework.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-05-01-ara-agent-native-research-artifacts.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-05-01-claw-eval-live-agent-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-01-eywa-heterogeneous-foundation-collab.md": [
+"multi-agent"
+],
+"agentic-systems/2026-05-01-interactweb-bench-blind-execution.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-01-intern-atlas-method-evolution-graph.md": [
+"agent-memory"
+],
+"agentic-systems/2026-05-01-mcp-claude-vs-hermes-chapter13.md": [
+"tool-use",
+"harness-engineering"
+],
+"agentic-systems/2026-05-01-synthetic-computers-at-scale.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-05-02-ken-huang-ch15-structured-output.md": [
+"harness-engineering",
+"tool-use"
+],
+"agentic-systems/2026-05-04-agentic-pentester-architecture.md": [
+"alignment-safety",
+"agent-evals"
+],
+"agentic-systems/2026-05-04-lwd-fleet-rl-vla-policies.md": [
+"embodied-3d",
+"rl-post-training"
+],
+"agentic-systems/2026-05-05-academiclaw-student-tasks.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-05-ctx2skill-self-evolving-skills.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-05-05-physicianbench-ehr-agents.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-05-t2po-uncertainty-multi-turn-rl.md": [
+"rl-post-training"
+],
+"agentic-systems/2026-05-07-bright-pro-rtriever-reasoning-retrieval.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-05-07-medskillaudit-domain-specific-agent-skill-audit.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-05-07-opensearch-vl-multimodal-search-agents.md": [
+"tool-use",
+"rl-post-training",
+"multimodal"
+],
+"agentic-systems/2026-05-09-ai-co-mathematician.md": [
+"verified-optimization",
+"agent-evals"
+],
+"agentic-systems/2026-05-09-auto-research-specialist-agents.md": [
+"self-improving-harness",
+"multi-agent",
+"training-efficiency"
+],
+"agentic-systems/2026-05-09-dci-direct-corpus-interaction.md": [
+"agent-memory",
+"tool-use",
+"agent-cost"
+],
+"agentic-systems/2026-05-09-skill-curation-cluster-strata-skill1-skillos.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-05-10-jiayi-weng-learning-beyond-gradients.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-05-10-oncoagent-multi-agent-oncology.md": [
+"multi-agent"
+],
+"agentic-systems/2026-05-11-autotts-agentic-discovery-test-time-scaling.md": [
+"test-time-compute",
+"self-improving-harness"
+],
+"agentic-systems/2026-05-12-x-omniclaw-mobile-agent.md": [
+"tool-use",
+"agent-memory"
+],
+"agentic-systems/2026-05-13-agent-brace.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-05-13-llm-agents-already-know-when-to-call-tools.md": [
+"agent-cost",
+"tool-use"
+],
+"agentic-systems/2026-05-13-longmemeval-v2.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-05-13-useful-memories-become-faulty.md": [
+"agent-memory"
+],
+"agentic-systems/2026-05-14-agentlens-lucky-pass-swe-eval.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-14-context-training-active-info-seeking.md": [
+"harness-engineering",
+"tool-use"
+],
+"agentic-systems/2026-05-14-dagger-llm-agents.md": [
+"distillation",
+"rl-post-training"
+],
+"agentic-systems/2026-05-14-map-then-act-paradigm.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-05-15-agent-memory-cluster-stale-preping-evolvemem.md": [
+"agent-memory"
+],
+"agentic-systems/2026-05-15-evoenv-self-evolving-rl-via-environment-synthesis.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-05-15-orchard-open-source-agentic-framework.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-05-15-sdar-self-distilled-agentic-rl.md": [
+"distillation",
+"rl-post-training"
+],
+"agentic-systems/2026-05-15-wildclawbench-native-runtime-agent-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-16-frontiersmith-synthetic-open-ended-coding.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-05-16-spin-dag-planning-wrapper.md": [
+"agent-cost",
+"tool-use"
+],
+"agentic-systems/2026-05-17-life-survey-multi-agent-collaboration-failure-self-evolution.md": [
+"multi-agent"
+],
+"agentic-systems/2026-05-18-look-before-you-leap-explore-then-act.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-05-18-mmskills-multimodal-skill-packages-visual-agents.md": [
+"agent-memory",
+"multimodal"
+],
+"agentic-systems/2026-05-18-pager-precision-geometric-gui.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-05-18-solvita-agentic-evolution-competitive-programming.md": [
+"agent-memory",
+"agent-routing"
+],
+"agentic-systems/2026-05-19-ai-for-auto-research-roadmap.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-05-20-autoresearchclaw-self-reinforcing-autonomous-research.md": [
+"self-improving-harness",
+"multi-agent"
+],
+"agentic-systems/2026-05-20-envfactory-tool-use-agents-executable-environments.md": [
+"tool-use",
+"rl-post-training"
+],
+"agentic-systems/2026-05-20-opencomputer-verifiable-software-worlds.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-05-21-saasbench-enterprise-saas-coding-agents.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-21-specbench-reward-hacking-coding-agents.md": [
+"agent-evals",
+"alignment-safety"
+],
+"agentic-systems/2026-05-23-code-as-agent-harness.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-05-23-ken-huang-compound-engineering-vs-gstack-autoresearch.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-05-23-sr2am-efficient-agentic-reasoning-self-regulated.md": [
+"test-time-compute",
+"agent-cost"
+],
+"agentic-systems/2026-05-23-terminalworld-real-world-terminal-tasks-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-24-pi-bench-proactive-assistant.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-25-from-raw-experience-to-skill-consumption.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-05-25-skillopt-executive-optimizer-agent-skills.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-05-26-foundation-protocol-and-static-authorization.md": [
+"alignment-safety",
+"multi-agent"
+],
+"agentic-systems/2026-05-26-memforest-hierarchical-temporal-agent-memory.md": [
+"agent-memory"
+],
+"agentic-systems/2026-05-26-quest-deep-research-agent-synthetic-tasks.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-05-26-seal-agent-environment-coevolution.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-05-26-skillevolbench-episodic-to-procedural-skills.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-05-27-agent-token-consumption.md": [
+"agent-cost"
+],
+"agentic-systems/2026-05-27-akbe-knowledge-boundary-tool-use.md": [
+"tool-use",
+"rl-post-training"
+],
+"agentic-systems/2026-05-27-darkforest-controlled-communication-multi-agent.md": [
+"multi-agent",
+"agent-cost"
+],
+"agentic-systems/2026-05-27-muse-autoskill-skill-lifecycle.md": [
+"agent-memory",
+"self-improving-harness"
+],
+"agentic-systems/2026-05-27-sam-state-adaptive-memory.md": [
+"agent-memory",
+"context-compression"
+],
+"agentic-systems/2026-05-27-scaling-the-harness.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-05-28-ai-research-agents-narrow-exploration.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-28-autoscientists-self-organizing-teams.md": [
+"multi-agent"
+],
+"agentic-systems/2026-05-28-axpo-explorative-policy-optimization.md": [
+"rl-post-training",
+"tool-use"
+],
+"agentic-systems/2026-05-28-bes-bidirectional-evolutionary-search.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"agentic-systems/2026-05-28-hrbench-thinking-mode-switch.md": [
+"test-time-compute",
+"llm-routing"
+],
+"agentic-systems/2026-05-28-learnweak-domain-specialization.md": [
+"distillation",
+"tool-use"
+],
+"agentic-systems/2026-05-28-livebrowsecomp-search-agents-priors.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-28-omniverifier-m1.md": [
+"multimodal",
+"rl-post-training"
+],
+"agentic-systems/2026-05-28-peam-parametric-embodied-memory.md": [
+"embodied-3d",
+"agent-memory"
+],
+"agentic-systems/2026-05-28-researchmath-14k.md": [
+"rl-post-training",
+"distillation"
+],
+"agentic-systems/2026-05-28-scientistone-chain-of-evidence.md": [
+"verified-optimization"
+],
+"agentic-systems/2026-05-28-verus-specgym.md": [
+"verified-optimization"
+],
+"agentic-systems/2026-05-28-vibesearchbench-long-horizon-search.md": [
+"agent-evals"
+],
+"agentic-systems/2026-05-29-asynctool-asynchronous-function-calling.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-05-30-pando-online-skill-distillation.md": [
+"agent-cost",
+"agent-memory"
+],
+"agentic-systems/2026-05-30-skill05-joint-skill-internalization.md": [
+"distillation",
+"agent-memory"
+],
+"agentic-systems/2026-05-31-cohyde-cotrain-rewriter-encoder-tool-retrieval.md": [
+"tool-use"
+],
+"agentic-systems/2026-05-31-repot-recoverable-program-of-thought.md": [
+"tool-use"
+],
+"agentic-systems/2026-06-01-compiling-agentic-workflows-into-weights.md": [
+"agent-cost",
+"distillation"
+],
+"agentic-systems/2026-06-02-multi-agent-computer-use.md": [
+"multi-agent",
+"tool-use"
+],
+"agentic-systems/2026-06-04-drift-telbench-span-error-localization.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-04-memtrain-self-supervised-context-memory.md": [
+"agent-memory"
+],
+"agentic-systems/2026-06-04-streamma-streaming-multi-agent-reasoning.md": [
+"multi-agent",
+"serving-systems"
+],
+"agentic-systems/2026-06-05-continual-experience-internalization.md": [
+"distillation",
+"self-improving-harness"
+],
+"agentic-systems/2026-06-05-evods-self-evolving-data-science-agent.md": [
+"context-compression",
+"agent-memory"
+],
+"agentic-systems/2026-06-05-mlevolve-self-evolving-ml-discovery.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-06-05-mmpo-metacognitive-memory-policy-optimization.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-06-05-sepo-self-evolving-prompt-agent.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-06-06-adaplanbench-adaptive-planning.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-06-datacope-unsupervised-skill-discovery.md": [
+"agent-memory"
+],
+"agentic-systems/2026-06-07-foresci-research-judgment-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-07-inkh-financial-agent-knowledge-harness.md": [
+"harness-engineering",
+"agent-memory"
+],
+"agentic-systems/2026-06-08-critic-r-agentic-search-retriever.md": [
+"agent-memory"
+],
+"agentic-systems/2026-06-08-disentangling-agent-self-evolution.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-06-08-harnessforge-harness-policy-coevolution.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-06-08-openskill-open-world-self-evolution.md": [
+"self-improving-harness",
+"agent-memory"
+],
+"agentic-systems/2026-06-08-self-revising-discovery-systems.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-06-08-sia-self-improving-harness-weights.md": [
+"self-improving-harness",
+"rl-post-training"
+],
+"agentic-systems/2026-06-08-socratic-swe-trace-derived-skills.md": [
+"self-improving-harness",
+"agent-evals"
+],
+"agentic-systems/2026-06-08-toolmaze-dynamic-replanning.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-06-09-honest-lying-memory-confabulation.md": [
+"agent-memory"
+],
+"agentic-systems/2026-06-09-latentskill-in-weight-skills.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-06-10-searchswarm-rho-delegation-harness.md": [
+"multi-agent",
+"self-improving-harness"
+],
+"agentic-systems/2026-06-11-agentic-environment-engineering-survey.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-11-arbor-hypothesis-tree-refinement.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-06-11-claw-swe-bench-harness-evaluation.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-06-11-denovoswe-whole-repo-generation.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-13-toolsense-parametric-tool-knowledge-audit.md": [
+"tool-use"
+],
+"agentic-systems/2026-06-13-trace-compiling-user-corrections.md": [
+"harness-engineering",
+"agent-memory"
+],
+"agentic-systems/2026-06-13-webchallenger-architecture-web-agent.md": [
+"tool-use",
+"agent-cost"
+],
+"agentic-systems/2026-06-14-eurekagent-environment-engineering.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-06-14-evoarena-evomem-memory-evolution.md": [
+"agent-evals",
+"agent-memory"
+],
+"agentic-systems/2026-06-14-evobrowsecomp-evolving-search-benchmark.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-14-evoflux-inference-time-tool-workflow-evolution.md": [
+"tool-use"
+],
+"agentic-systems/2026-06-14-harnessbridge-learnable-harness-controller.md": [
+"harness-engineering",
+"context-compression"
+],
+"agentic-systems/2026-06-15-appo-agentic-procedural-policy-optimization.md": [
+"rl-post-training"
+],
+"agentic-systems/2026-06-15-harnessx-composable-agent-harness-foundry.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-06-15-llm-agents-can-see-code-repositories.md": [
+"agent-cost",
+"multimodal"
+],
+"agentic-systems/2026-06-15-mragent-graph-memory-reconstruction.md": [
+"agent-memory"
+],
+"agentic-systems/2026-06-16-fastcontext-exploration-subagent.md": [
+"multi-agent",
+"agent-cost"
+],
+"agentic-systems/2026-06-17-opd-evolver-agent-evolver-on-policy-distillation.md": [
+"agent-memory",
+"distillation"
+],
+"agentic-systems/2026-06-17-procua-sft-computer-use-data.md": [
+"tool-use"
+],
+"agentic-systems/2026-06-18-ceo-bench-long-horizon-agents.md": [
+"agent-evals"
+],
+"agentic-systems/2026-06-18-omniagent-active-perception-video.md": [
+"multimodal"
+],
+"agentic-systems/2026-06-18-skillopt-trainable-skills.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-06-18-xcientist-research-harness-claim-drift.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-07-07-fable-5-memory-engineering.md": [
+"agent-memory",
+"alignment-safety"
+],
+"agentic-systems/2026-07-21-cursor-agent-swarms-economics.md": [
+"agent-routing",
+"multi-agent",
+"agent-cost"
+],
+"agentic-systems/2026-07-21-environment-free-synthetic-data-api-agents.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-07-22-agentdebugx-dataflow-harness-agent-tooling.md": [
+"harness-engineering",
+"agent-evals"
+],
+"agentic-systems/2026-07-25-arex-recursively-self-improving-deep-research.md": [
+"harness-engineering",
+"verified-optimization"
+],
+"agentic-systems/2026-07-25-experience-distillation-sample-efficient-agent-learning.md": [
+"distillation",
+"rl-post-training"
+],
+"agentic-systems/2026-07-25-openforgerl-harness-native-agents.md": [
+"rl-post-training",
+"harness-engineering"
+],
+"agentic-systems/2026-07-27-agentic-context-management.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-07-27-pro-long-programmatic-memory.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-07-27-skill-self-play-co-evolving-skills.md": [
+"rl-post-training",
+"agent-memory"
+],
+"agentic-systems/2026-07-29-inmind-implicit-association-blind-spot.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-07-30-decoevo-solver-rubric-coevolution.md": [
+"self-improving-harness",
+"agent-evals"
+],
+"agentic-systems/2026-07-30-grading-the-narrators-isnad-provenance.md": [
+"multi-agent",
+"alignment-safety"
+],
+"agentic-systems/2026-07-30-omegause-officeval-economic-grounding.md": [
+"agent-evals",
+"agent-cost"
+],
+"agentic-systems/2026-07-30-shadow-evaluations-ai-research-agents.md": [
+"agent-evals"
+],
+"agentic-systems/2026-07-30-skillrise-cross-task-skill-evolution.md": [
+"rl-post-training",
+"agent-memory"
+],
+"agentic-systems/2026-07-31-bm25-wins-at-scale.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-07-31-echoverse-evolving-environments.md": [
+"agent-evals",
+"tool-use"
+],
+"agentic-systems/2026-07-31-filesystem-based-memory.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-07-31-frontis-ma1-ai4ai-recursive-self-improvement.md": [
+"self-improving-harness",
+"rl-post-training"
+],
+"agentic-systems/2026-07-31-ledgermind-evidence-ledger.md": [
+"agent-evals",
+"multimodal"
+],
+"agentic-systems/2026-07-31-memharness-reconstruct-not-replay.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-07-31-metis-memory-foundation-model.md": [
+"agent-memory",
+"architectures"
+],
+"agentic-systems/2026-08-01-memtx-transactional-belief-commit.md": [
+"agent-memory",
+"multi-agent"
+],
+"agentic-systems/2026-08-02-agent-authority-field-granularity.md": [
+"alignment-safety",
+"tool-use"
+],
+"agentic-systems/2026-08-02-efficiency-matters-autonomous-research.md": [
+"agent-cost",
+"agent-evals"
+],
+"agentic-systems/2026-08-02-reality-monitoring-source-attribution.md": [
+"interpretability",
+"agent-memory"
+],
+"agentic-systems/2026-08-03-acm-agentic-context-management.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-08-03-extractbench-schema-guided-extraction.md": [
+"agent-evals",
+"agent-cost"
+],
+"agentic-systems/2026-08-04-aapt-anticipatory-policy-trees.md": [
+"tool-use",
+"serving-systems"
+],
+"agentic-systems/2026-08-04-scrambletoolbench-behavioral-tool-discovery.md": [
+"tool-use",
+"agent-evals"
+],
+"agentic-systems/2026-08-04-swe-touch-shared-workspace-coding-agents.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-08-05-do-agents-learn-from-experience-skillbench-pastbench.md": [
+"agent-evals",
+"agent-memory"
+],
+"agentic-systems/2026-08-05-grove-temporally-stratified-video-memory.md": [
+"multimodal",
+"agent-memory"
+],
+"agentic-systems/2026-08-06-abseeker-answer-backtracked-credit.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-08-06-gdpevo-agent-self-evolution-benchmark.md": [
+"agent-evals",
+"agent-memory"
+],
+"agentic-systems/2026-08-06-onedayagent-long-horizon-harness.md": [
+"harness-engineering",
+"agent-evals"
+],
+"agentic-systems/2026-08-06-shadow-evaluations-open-ended-research.md": [
+"agent-evals",
+"self-improving-harness"
+],
+"agentic-systems/2026-08-06-skill-kd-contrastive-skill-distillation.md": [
+"distillation",
+"agent-memory"
+],
+"agentic-systems/2026-08-07-activity-frames-deterministic-agent-memory.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-08-10-reasearch-optimizer-is-the-agent.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-08-10-streamarena-streammind.md": [
+"agent-evals",
+"multimodal"
+],
+"agentic-systems/2026-08-11-agent-memory-distillation.md": [
+"agent-memory",
+"distillation"
+],
+"agentic-systems/2026-08-11-harness-evolution-cluster.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-08-11-romerl-reduced-order-memory.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-08-11-swe-bench-promax.md": [
+"agent-evals"
+],
+"agentic-systems/2026-08-12-agent-benchmark-cluster.md": [
+"agent-evals"
+],
+"agentic-systems/2026-08-12-altk-evolve-selective-context-delivery.md": [
+"agent-memory",
+"context-compression"
+],
+"agentic-systems/2026-08-12-co-evolution-survey.md": [
+"multi-agent",
+"self-improving-harness"
+],
+"agentic-systems/2026-08-12-mendel-godel-machine.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-08-12-skillzip-skill-compression.md": [
+"context-compression",
+"agent-memory"
+],
+"agentic-systems/2026-08-13-agent-safety-runtime-contract.md": [
+"alignment-safety"
+],
+"agentic-systems/2026-08-13-autoworldmodel-bench.md": [
+"agent-evals"
+],
+"agentic-systems/2026-08-13-illusion-of-visual-tool-use.md": [
+"multimodal",
+"tool-use"
+],
+"agentic-systems/2026-08-13-kurate-agent-skills-cluster.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-08-13-spark-to-paper-composable-research-skills.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-08-14-autodesign-meta-harness-optimization.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-08-14-darwinx-harness-population-evolution.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-08-14-ken-huang-harness-engineering-patterns.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-08-16-measuring-autonomous-ai-research.md": [
+"agent-evals",
+"self-improving-harness"
+],
+"agentic-systems/2026-08-16-skiller-language-level-rl-skills.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-08-16-specification-first-convergence.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-08-25-apodex-1-1-environment-coordination-scaling.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-08-25-meta-harness-code-space-optimization.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-08-25-prime-agent-self-improving-rlm-harness.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-08-25-task-coevolve-adaptive-validation-selection.md": [
+"self-improving-harness",
+"agent-cost"
+],
+"agentic-systems/2026-08-25-thinkingbox-stateful-reliability.md": [
+"agent-evals"
+],
+"agentic-systems/2026-08-26-autosaddler-harness-optimization.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-08-26-nine-rules-for-agents.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-08-26-recuris-experiential-working-memory.md": [
+"agent-memory",
+"self-improving-harness"
+],
+"agentic-systems/2026-08-28-ace-lens-agentic-data-generation.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-08-28-caskg-counterfactual-causal-skill-graphs.md": [
+"agent-memory",
+"context-compression"
+],
+"agentic-systems/2026-08-28-pilot-live-self-improvement.md": [
+"multi-agent",
+"self-improving-harness"
+],
+"agentic-systems/2026-08-28-taolive-harness-aware-training.md": [
+"self-improving-harness",
+"rl-post-training"
+],
+"agentic-systems/2026-08-28-wikiskill-persistent-knowledge-skill-evolution.md": [
+"agent-memory",
+"self-improving-harness"
+],
+"agentic-systems/2026-08-29-multi-agent-design-patterns-production-hardening.md": [
+"multi-agent"
+],
+"agentic-systems/2026-08-30-agents-not-time-aware.md": [
+"agent-evals"
+],
+"agentic-systems/2026-08-31-contextpilot-proactive-context-management.md": [
+"context-compression",
+"rl-post-training"
+],
+"agentic-systems/2026-08-31-j-zero-challenger-solver-judge.md": [
+"rl-post-training"
+],
+"agentic-systems/2026-09-02-ecommerce-bench-long-horizon-business-operation.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-02-em2mem-event-centric-multimodal-memory.md": [
+"agent-memory",
+"multimodal"
+],
+"agentic-systems/2026-09-02-harness-of-harness.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-09-03-harness-advantage-red-teaming.md": [
+"harness-engineering",
+"agent-cost",
+"alignment-safety"
+],
+"agentic-systems/2026-09-03-harnessdev-harness-creation-evolution.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-09-03-repo-to-skill-disco.md": [
+"harness-engineering",
+"agent-memory"
+],
+"agentic-systems/2026-09-04-bcit-conditional-experience-transfer.md": [
+"agent-memory",
+"rl-post-training"
+],
+"agentic-systems/2026-09-04-environment-evolution-terminal-agents.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-09-04-realswe-realistic-user-requests.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-04-terminal-universe-trajectories-to-environments.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-09-05-autotracegt-grounded-theory-agent-traces.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-05-draco-rubric-credit-assignment.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-09-06-contextpipe-database-context-assembly.md": [
+"context-compression",
+"harness-engineering"
+],
+"agentic-systems/2026-09-06-deepmind-agent-conference-cheating-cascade.md": [
+"multi-agent",
+"alignment-safety"
+],
+"agentic-systems/2026-09-07-edit-fidelity-minimal-code-edits.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-07-iris-search-agents.md": [
+"frontier-models",
+"tool-use"
+],
+"agentic-systems/2026-09-09-cursor-self-driving-codebases.md": [
+"multi-agent",
+"harness-engineering"
+],
+"agentic-systems/2026-09-09-llm-trading-agents-production.md": [
+"harness-engineering",
+"agent-evals"
+],
+"agentic-systems/2026-09-09-loop-as-asset-bounded-self-improvement.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-09-09-procedural-graphs.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-09-10-co-evolving-harnesses-on-policy-correction.md": [
+"harness-engineering",
+"rl-post-training"
+],
+"agentic-systems/2026-09-10-swe-bench-pro-verified.md": [
+"agent-evals",
+"alignment-safety"
+],
+"agentic-systems/2026-09-10-t1-terminal-agent-rl.md": [
+"moe-routing",
+"rl-post-training"
+],
+"agentic-systems/2026-09-10-wmrl-world-model-rl-research-agents.md": [
+"training-efficiency",
+"agent-cost"
+],
+"agentic-systems/2026-09-11-evosafeharness-safety-harness-synthesis.md": [
+"alignment-safety",
+"harness-engineering"
+],
+"agentic-systems/2026-09-11-sol-pi-harness-auto-research.md": [
+"self-improving-harness",
+"agent-cost"
+],
+"agentic-systems/2026-09-12-ecdysis-harness-training.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-09-13-cobra-skills-robustsgpo-harness-search.md": [
+"self-improving-harness",
+"agent-cost"
+],
+"agentic-systems/2026-09-13-last-ai-built-by-humans-rsi.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-09-13-mt-infoseek-information-seeking.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-14-benchmark-radar.md": [
+"agent-evals",
+"frontier-models"
+],
+"agentic-systems/2026-09-14-langchain-custom-agent-harness-middleware.md": [
+"harness-engineering"
+],
+"agentic-systems/2026-09-15-atria-dawn-agentic-research-model.md": [
+"rl-post-training",
+"frontier-models"
+],
+"agentic-systems/2026-09-15-dream-rsi-replay-simulator-exploration.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-09-15-rsiagent-environment-memory.md": [
+"self-improving-harness",
+"tool-use"
+],
+"agentic-systems/2026-09-16-continual-learning-composition-long-horizon.md": [
+"agent-memory"
+],
+"agentic-systems/2026-09-16-emergence-world-multiagent-stress-test.md": [
+"multi-agent",
+"alignment-safety"
+],
+"agentic-systems/2026-09-16-openai-agentic-software-factory.md": [
+"harness-engineering",
+"industry-business"
+],
+"agentic-systems/2026-09-17-agora-git-shared-memory-autoresearch.md": [
+"multi-agent",
+"agent-memory"
+],
+"agentic-systems/2026-09-17-harness-choice-costs-not-success.md": [
+"harness-engineering",
+"agent-cost"
+],
+"agentic-systems/2026-09-17-unnecessary-tool-availability.md": [
+"tool-use"
+],
+"agentic-systems/2026-09-18-harness-design-component-ablation.md": [
+"harness-engineering",
+"agent-evals"
+],
+"agentic-systems/2026-09-18-sol-pi-recursive-harness-research-loops.md": [
+"self-improving-harness",
+"agent-cost"
+],
+"agentic-systems/2026-09-19-agentzip-sibling-sandbox-memory.md": [
+"agent-cost",
+"harness-engineering"
+],
+"agentic-systems/2026-09-19-skill-state-mutable-agent-state.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-09-20-scientisttwo-recursive-self-improvement.md": [
+"self-improving-harness",
+"agent-evals"
+],
+"agentic-systems/2026-09-21-code-as-agent-substrate.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-09-21-computer-use-agents-graded.md": [
+"agent-evals",
+"tool-use"
+],
+"agentic-systems/2026-09-21-evoontology-data-agent-semantic-layer.md": [
+"tool-use",
+"agent-memory"
+],
+"agentic-systems/2026-09-22-harnesstax-cost-success-frontier.md": [
+"agent-cost",
+"harness-engineering"
+],
+"agentic-systems/2026-09-22-jev-mem-system-one-agentic-memory.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-09-22-rrsi-regularized-harness-evolution.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-09-23-aide2-recursive-self-improvement.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-09-23-swe-bench-pro-v2-contamination-gap.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-23-taste-bench-tasteful-agent.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-24-just-in-time-memory.md": [
+"agent-memory"
+],
+"agentic-systems/2026-09-24-schrodinger-repo-swe-bench-memorization.md": [
+"agent-evals"
+],
+"agentic-systems/2026-09-24-self-organizing-agent-teams.md": [
+"multi-agent"
+],
+"agentic-systems/2026-09-26-monty-python-sandbox-for-agent-code.md": [
+"harness-engineering",
+"tool-use"
+],
+"agentic-systems/2026-09-26-qwen-planner-agent-ai-for-ai.md": [
+"tool-use",
+"rl-post-training"
+],
+"agentic-systems/2026-09-27-skill2env-skills-to-rl-environments.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-09-28-agensh-1024-agent-harness.md": [
+"multi-agent"
+],
+"agentic-systems/2026-09-28-jaz-harness-as-a-language.md": [
+"harness-engineering",
+"agent-memory"
+],
+"agentic-systems/2026-09-28-skillgym-internalizing-skills.md": [
+"rl-post-training",
+"harness-engineering"
+],
+"agentic-systems/2026-09-29-autogym-verifiable-agent-gyms.md": [
+"agent-evals",
+"rl-post-training"
+],
+"agentic-systems/2026-09-29-glm-infra-agent-outer-rsi-loop.md": [
+"serving-systems",
+"self-improving-harness"
+],
+"agentic-systems/2026-09-29-slca-grpo-segment-credit-tool-calling.md": [
+"rl-post-training"
+],
+"agentic-systems/2026-10-01-context-language-models.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-10-01-raven-harness-of-harnesses.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-10-02-mid-harness-action-scaling-milo.md": [
+"test-time-compute",
+"harness-engineering"
+],
+"agentic-systems/2026-10-03-multi-harness-rl-activesaddler-prover.md": [
+"rl-post-training",
+"harness-engineering"
+],
+"agentic-systems/2026-10-04-autocompact-learned-compaction.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-10-04-harness-learning-and-branch-routing.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-10-04-kepler-rankevolve-agent-audit-cost.md": [
+"agent-evals",
+"agent-cost"
+],
+"agentic-systems/2026-10-04-scholarcatalyst-research-taste-retrieval.md": [
+"agent-evals"
+],
+"agentic-systems/2026-10-04-scholarevolve-literature-driven-harness-evolution.md": [
+"self-improving-harness"
+],
+"agentic-systems/2026-10-05-githarness-and-harness-evolution-limits.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-10-05-veriharness-agentic-verification.md": [
+"verified-optimization",
+"agent-evals"
+],
+"agentic-systems/2026-10-06-frugalevo-cost-aware-program-evolution.md": [
+"agent-cost",
+"self-improving-harness"
+],
+"agentic-systems/2026-10-06-harness-search-and-agentic-search-papers.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-10-06-swarm-scaling-speed-not-capability.md": [
+"multi-agent",
+"test-time-compute"
+],
+"agentic-systems/2026-10-07-harness-internalization-had-rsr-ascent.md": [
+"self-improving-harness",
+"distillation"
+],
+"agentic-systems/2026-10-08-harness-buys-tokens-and-stopping-rules.md": [
+"agent-cost",
+"harness-engineering"
+],
+"agentic-systems/2026-10-09-hermes-rsigym-vera-harness.md": [
+"harness-engineering",
+"self-improving-harness"
+],
+"agentic-systems/2026-10-10-agent-shorts.md": [
+"agent-evals",
+"self-improving-harness"
+],
+"agentic-systems/2026-10-10-context-compaction-remory-and-the-swarm.md": [
+"context-compression",
+"agent-memory"
+],
+"agentic-systems/2026-10-11-harness-ceiling-and-trained-orchestration.md": [
+"harness-engineering",
+"agent-memory"
+],
+"agentic-systems/2026-10-11-harnesssql-harness-native-training.md": [
+"harness-engineering",
+"rl-post-training"
+],
+"agentic-systems/2026-10-12-agent-team-costs-and-research-world-models.md": [
+"multi-agent",
+"agent-cost",
+"agent-evals"
+],
+"agentic-systems/2026-10-12-gitswarm-compounding-inference.md": [
+"multi-agent",
+"test-time-compute"
+],
+"agentic-systems/2026-10-13-stateless-agents-self-compaction-and-idea-basins.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-10-14-harness-cluster-and-agent-scale.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-10-15-harness-and-environment-self-improvement.md": [
+"self-improving-harness",
+"agent-evals"
+],
+"agentic-systems/2026-10-16-forgetting-trees-and-cited-stores.md": [
+"context-compression",
+"agent-memory"
+],
+"agentic-systems/2026-10-17-agents-improving-agents-athanor-terminal-rsi.md": [
+"self-improving-harness",
+"rl-post-training"
+],
+"agentic-systems/2026-10-17-claude-quantum-circuits-and-ecdsa-seeds.md": [
+"verified-optimization",
+"agent-evals"
+],
+"agentic-systems/2026-10-18-agent-rl-recipes-midtraining-cope-ideation.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-10-18-market-based-post-training-mpt.md": [
+"multi-agent",
+"rl-post-training"
+],
+"agentic-systems/2026-10-19-agent-shorts-memory-audit-data-world.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-10-20-agent-context-cost-shorts.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-10-20-hy-memory-30b-a3b-memory-writer.md": [
+"agent-memory",
+"distillation"
+],
+"agentic-systems/2026-10-22-harness-evolution-wave.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-10-22-memory-native-models-and-memory-worth.md": [
+"agent-memory",
+"architectures"
+],
+"agentic-systems/2026-10-23-automated-research-measured.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-10-23-context-management-costs-memorytax-evidence-deloop.md": [
+"agent-cost",
+"agent-memory"
+],
+"agentic-systems/2026-10-23-harness-scaling-and-wildawm.md": [
+"harness-engineering",
+"rl-post-training"
+],
+"agentic-systems/2026-10-24-naive-rag-harness-cost-fold-subagents.md": [
+"agent-memory",
+"harness-engineering"
+],
+"agentic-systems/2026-10-25-llms-improve-own-harness-arc-agi-3.md": [
+"self-improving-harness",
+"agent-evals"
+],
+"agentic-systems/2026-10-26-harness-state-separations-ssr-agensh.md": [
+"harness-engineering",
+"agent-cost"
+],
+"agentic-systems/2026-10-27-harnessmm-decision-reuse.md": [
+"agent-cost",
+"tool-use"
+],
+"agentic-systems/2026-10-28-harness-verification-and-tracetrial.md": [
+"harness-engineering",
+"agent-evals"
+],
+"agentic-systems/2026-10-28-memory-tax-and-cheap-checks.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-10-28-trajectory2gym-dynaflow-agent-training.md": [
+"rl-post-training",
+"agent-evals"
+],
+"agentic-systems/2026-10-29-policy-is-a-harness-and-self-evolving-harnesses.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-10-30-agents-that-keep-their-lessons.md": [
+"agent-memory",
+"self-improving-harness"
+],
+"agentic-systems/2026-10-31-mica-mcp-vs-cli-interfaces.md": [
+"tool-use",
+"harness-engineering"
+],
+"agentic-systems/2026-10-31-rtaste-and-agent-judgment-influence.md": [
+"agent-evals"
+],
+"agentic-systems/2026-11-01-benchmarks-environments-and-representation-shorts.md": [
+"agent-evals"
+],
+"agentic-systems/2026-11-01-jevact-gate-and-siemens-verifier.md": [
+"verified-optimization",
+"tool-use"
+],
+"agentic-systems/2026-11-01-routed-continual-learning.md": [
+"agent-memory",
+"agent-routing"
+],
+"agentic-systems/2026-11-02-deepseek-super-agent-and-fresh-context-reviewers.md": [
+"multi-agent",
+"agent-routing"
+],
+"agentic-systems/2026-11-02-semianalysis-gdpx-benchmark.md": [
+"agent-evals",
+"industry-business"
+],
+"agentic-systems/2026-11-03-context-as-infrastructure.md": [
+"agent-cost",
+"context-compression",
+"agent-memory"
+],
+"agentic-systems/2026-11-03-i-hitl-agent-spending-caps.md": [
+"alignment-safety",
+"tool-use"
+],
+"agentic-systems/2026-11-04-continual-harness-evolution-forgetting.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-11-05-agent-environments-and-harness-shorts.md": [
+"harness-engineering",
+"agent-evals",
+"tool-use"
+],
+"agentic-systems/2026-11-06-agent-evals-restart-monitors-and-reasoning-compaction.md": [
+"test-time-compute",
+"agent-cost",
+"agent-evals"
+],
+"agentic-systems/2026-11-08-agent-benchmarks-and-research-shorts.md": [
+"agent-evals",
+"agent-cost"
+],
+"agentic-systems/2026-11-09-anthropic-agent-memory-and-google-agent-distraction.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-11-09-coca-cola-latent-tool-observation-compression.md": [
+"context-compression",
+"tool-use"
+],
+"agentic-systems/2026-11-09-envopt-and-agent-cost-shorts.md": [
+"agent-cost",
+"harness-engineering"
+],
+"agentic-systems/2026-11-09-swarmevolve-latent-kv-swarms.md": [
+"multi-agent",
+"kv-reuse"
+],
+"agentic-systems/2026-11-10-boxbox-shepherd-harness-runtime.md": [
+"self-improving-harness",
+"harness-engineering"
+],
+"agentic-systems/2026-11-11-agent-cost-harness-agency-waste-infrathon.md": [
+"agent-cost",
+"harness-engineering"
+],
+"agentic-systems/2026-11-11-verified-optimization-alphaproof-code-lean-quantum.md": [
+"verified-optimization"
+],
+"agentic-systems/2026-11-12-wikitrace-and-single-agent-default.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-11-13-sparseread-token-efficient-reading.md": [
+"context-compression",
+"agent-cost"
+],
+"agentic-systems/2026-11-14-cost-per-solved-task-routing-and-agents-building-the-stack.md": [
+"agent-routing",
+"llm-routing",
+"agent-cost"
+],
+"agentic-systems/2026-11-15-folio-context-folding.md": [
+"context-compression",
+"agent-memory"
+],
+"agentic-systems/2026-11-15-harness-s-sibling-harness-rescue.md": [
+"self-improving-harness",
+"rl-post-training"
+],
+"agentic-systems/2026-11-15-memcredit-decision-utility-memory.md": [
+"agent-memory"
+],
+"agentic-systems/2026-11-16-cleaning-history-world-state.md": [
+"agent-memory",
+"multi-agent"
+],
+"agentic-systems/2026-11-16-discern-and-coremem-memory-value.md": [
+"agent-memory"
+],
+"agentic-systems/2026-11-16-lead-rl-delegation-credit.md": [
+"multi-agent",
+"rl-post-training"
+],
+"agentic-systems/2026-11-16-skillcache-compiled-skills.md": [
+"agent-memory",
+"agent-cost"
+],
+"agentic-systems/2026-11-17-agent-shorts-memory-teams-evolution.md": [
+"agent-memory",
+"multi-agent",
+"self-improving-harness"
+],
+"agentic-systems/2026-11-17-tokeneconomizer.md": [
+"agent-cost",
+"harness-engineering"
+],
+"ai-industry/2026-04-17-anthropic-mythos-policy.md": [
+"frontier-models",
+"governance-policy"
+],
+"ai-industry/2026-04-17-claude-market-share-surge.md": [
+"industry-business"
+],
+"ai-industry/2026-04-18-openai-exec-departures-restructuring.md": [
+"industry-business"
+],
+"ai-industry/2026-04-22-amazon-anthropic-capital-concentration.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-04-29-claude-creative-work-connectors.md": [
+"tool-use",
+"industry-business"
+],
+"ai-industry/2026-04-29-ucp-agentic-commerce-protocol.md": [
+"industry-business",
+"tool-use"
+],
+"ai-industry/2026-04-30-zig-anti-ai-policy.md": [
+"industry-business"
+],
+"ai-industry/2026-05-01-aisn-72-ai-wellbeing-public-sentiment.md": [
+"alignment-safety",
+"governance-policy"
+],
+"ai-industry/2026-05-01-anthropic-claude-security-launch.md": [
+"alignment-safety",
+"industry-business"
+],
+"ai-industry/2026-05-01-china-ai-startups-onshoring.md": [
+"governance-policy",
+"industry-business"
+],
+"ai-industry/2026-05-01-gpt-55-uk-aisi-cyber-eval.md": [
+"alignment-safety",
+"frontier-models"
+],
+"ai-industry/2026-05-01-marcus-capital-misallocation.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-05-01-pentagon-eight-tech-giants-ai-fighting-force.md": [
+"governance-policy",
+"industry-business"
+],
+"ai-industry/2026-05-01-pragmatic-engineer-github-anthropic-trust.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-05-01-semianalysis-ai-value-capture-model-labs.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-05-02-chatgpt-ads-tracking-default.md": [
+"industry-business"
+],
+"ai-industry/2026-05-03-microsoft-copilot-coauthor-vscode.md": [
+"industry-business"
+],
+"ai-industry/2026-05-03-xiaomi-mimo-25-pro-open-weight-coding.md": [
+"frontier-models",
+"agent-cost"
+],
+"ai-industry/2026-05-04-anthropic-openai-services-companies.md": [
+"industry-business"
+],
+"ai-industry/2026-05-08-anthropic-colossus-deal-capacity.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-05-08-github-reliability-crisis-ai-load.md": [
+"industry-business"
+],
+"ai-industry/2026-05-08-lambert-china-ai-labs.md": [
+"industry-business"
+],
+"ai-industry/2026-05-10-broadcom-openai-microsoft-chip.md": [
+"accelerators",
+"compute-economics"
+],
+"ai-industry/2026-05-13-anthropic-overtakes-openai-b2b.md": [
+"industry-business"
+],
+"ai-industry/2026-05-13-recursive-650m-stealth.md": [
+"self-improving-harness",
+"industry-business"
+],
+"ai-industry/2026-05-17-open-artifacts-21-may-open-model-wave-caisi.md": [
+"frontier-models",
+"industry-business"
+],
+"ai-industry/2026-05-21-anthropic-profitability-spacex-deal-ipo.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-05-23-alibaba-qwen-3-7-max-autonomous-coding.md": [
+"frontier-models",
+"agent-evals"
+],
+"ai-industry/2026-05-23-anthropic-glasswing-mythos-vulnerabilities.md": [
+"alignment-safety",
+"frontier-models"
+],
+"ai-industry/2026-05-23-kimi-k2-5-cursor-composer-2-5-fireworks.md": [
+"agent-cost",
+"industry-business"
+],
+"ai-industry/2026-05-23-qwen-37-max-alibaba-autonomous-coding-agent.md": [
+"frontier-models",
+"agent-evals"
+],
+"ai-industry/2026-05-26-alphaproof-nexus-deepmind-erdos.md": [
+"verified-optimization",
+"frontier-models"
+],
+"ai-industry/2026-05-28-semianalysis-miscompiles-llvm.md": [
+"gpu-kernels",
+"verified-optimization"
+],
+"ai-industry/2026-05-28-willison-product-market-fit.md": [
+"industry-business",
+"agent-cost"
+],
+"ai-industry/2026-05-29-anthropic-opus-4-8-dynamic-workflows-65b-raise.md": [
+"frontier-models",
+"multi-agent",
+"industry-business"
+],
+"ai-industry/2026-05-30-salesforce-agentic-engineering-231-day-migration.md": [
+"harness-engineering",
+"industry-business"
+],
+"ai-industry/2026-06-05-anthropic-recursive-self-improvement.md": [
+"self-improving-harness",
+"alignment-safety"
+],
+"ai-industry/2026-07-08-anthropic-ipo.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-07-25-nvidia-open-weights-letter.md": [
+"governance-policy",
+"industry-business"
+],
+"ai-industry/2026-07-29-anthropic-engineering-practices.md": [
+"harness-engineering",
+"industry-business"
+],
+"ai-industry/2026-07-29-google-withdrew-world-models.md": [
+"industry-business"
+],
+"ai-industry/2026-07-29-labs-competing-with-your-data.md": [
+"rl-post-training",
+"industry-business"
+],
+"ai-industry/2026-07-29-marcus-singularity.md": [
+"industry-business"
+],
+"ai-industry/2026-08-02-three-open-letters-ai-governance.md": [
+"governance-policy",
+"industry-business"
+],
+"ai-industry/2026-08-06-bytedance-rules-out-distillation.md": [
+"distillation",
+"industry-business"
+],
+"ai-industry/2026-08-10-ai-generated-cpp-production-quality.md": [
+"agent-evals"
+],
+"ai-industry/2026-08-11-marcus-open-weight-not-open-source.md": [
+"governance-policy"
+],
+"ai-industry/2026-08-11-nvidia-compute-asset-class.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-08-11-openrouter-stripe-router-frenzy.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-industry/2026-08-12-continual-learning-market.md": [
+"agent-memory",
+"industry-business"
+],
+"ai-industry/2026-08-13-grok-4-6-step-efficiency.md": [
+"frontier-models",
+"agent-cost"
+],
+"ai-industry/2026-08-13-interconnects-writing-stagnation.md": [
+"frontier-models"
+],
+"ai-industry/2026-08-14-alphasense-token-price-vs-task-cost.md": [
+"agent-cost",
+"industry-business"
+],
+"ai-industry/2026-08-16-optima-cost-per-task-benchmarking.md": [
+"agent-evals",
+"agent-cost"
+],
+"ai-industry/2026-08-26-ramp-inspect-in-house-harness.md": [
+"harness-engineering",
+"industry-business"
+],
+"ai-industry/2026-08-28-nvidia-acquires-hugging-face.md": [
+"industry-business"
+],
+"ai-industry/2026-08-30-salesforce-outcome-based-ai-pricing.md": [
+"industry-business",
+"agent-cost"
+],
+"ai-industry/2026-09-11-anthropic-threat-report-illicit-distillation.md": [
+"alignment-safety",
+"governance-policy"
+],
+"ai-industry/2026-09-11-interconnects-open-models-reading-list.md": [
+"governance-policy",
+"frontier-models"
+],
+"ai-industry/2026-09-13-pacing-the-frontier.md": [
+"governance-policy",
+"alignment-safety"
+],
+"ai-industry/2026-09-14-anthropic-rum-group-compute-deal.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-09-14-nadella-learning-loop-moat.md": [
+"industry-business",
+"agent-memory"
+],
+"ai-industry/2026-09-15-pacing-the-frontier-debate.md": [
+"governance-policy",
+"industry-business"
+],
+"ai-industry/2026-09-20-open-weight-token-share-inversion.md": [
+"industry-business",
+"llm-routing"
+],
+"ai-industry/2026-09-30-openai-devday-2026.md": [
+"frontier-models",
+"industry-business"
+],
+"ai-industry/2026-10-01-gemini-4-argon.md": [
+"frontier-models",
+"agent-cost"
+],
+"ai-industry/2026-10-06-subscription-economics-and-claude-pullback.md": [
+"compute-economics",
+"agent-cost"
+],
+"ai-industry/2026-10-07-open-moe-release-day-and-cost-switching.md": [
+"frontier-models",
+"moe-routing"
+],
+"ai-industry/2026-10-08-cheap-tier-reprice-and-math-drop-grading.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-industry/2026-10-09-openai-arr-reset-and-chip-dealmaking.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-10-10-engineering-acceleration-and-agent-platforms.md": [
+"gpu-kernels",
+"industry-business"
+],
+"ai-industry/2026-10-11-arxiv-cap-nvidia-reflection-and-the-revenue-gauge.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-10-12-inference-reverse-auction-and-capability-funnel.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-10-13-industry-roundup-reflection-taste-and-capital.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-10-14-industry-roundup-argon-asml-and-agent-security.md": [
+"frontier-models",
+"fabs-semis"
+],
+"ai-industry/2026-10-15-industry-roundup-anthropic-q3-and-agent-tooling.md": [
+"industry-business"
+],
+"ai-industry/2026-10-16-industry-roundup-muse-open-and-ipo-jitters.md": [
+"frontier-models",
+"industry-business"
+],
+"ai-industry/2026-10-18-interconnects-meta-shakes-up-the-frontiers.md": [
+"frontier-models",
+"industry-business"
+],
+"ai-industry/2026-10-19-industry-roundup-benefit-fund-neocloud-shakeout.md": [
+"memory-supply",
+"compute-economics"
+],
+"ai-industry/2026-10-20-industry-roundup-gpu-glut-or-shortage.md": [
+"compute-economics"
+],
+"ai-industry/2026-10-22-industry-roundup-anthropic-s1-chip-selloff.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-10-23-industry-roundup-deepseek-raise-agent-security.md": [
+"industry-business"
+],
+"ai-industry/2026-10-24-industry-roundup.md": [
+"frontier-models",
+"industry-business"
+],
+"ai-industry/2026-10-25-token-arbitrage-neocloud-squeeze.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-10-26-industry-roundup.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-10-27-anthropic-s1-terra-capital-week.md": [
+"industry-business"
+],
+"ai-industry/2026-10-28-industry-roundup.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-11-03-lab-finances-and-cost-deflation.md": [
+"compute-economics",
+"industry-business"
+],
+"ai-industry/2026-11-05-anthropic-s1-coding-tool-m-and-a-midterms.md": [
+"industry-business",
+"compute-economics"
+],
+"ai-industry/2026-11-15-open-source-ai-without-jensen.md": [
+"governance-policy",
+"industry-business"
+],
+"ai-industry/2026-11-17-earnings-eve-ipo-week-export-rule.md": [
+"fabs-semis",
+"governance-policy"
+],
+"ai-routing/2026-04-17-tracer-llm-routing.md": [
+"llm-routing",
+"distillation"
+],
+"ai-routing/2026-05-01-ken-huang-ch14-routing-provider-abstraction.md": [
+"llm-routing",
+"harness-engineering"
+],
+"ai-routing/2026-05-02-step-level-optimization-computer-use-agents.md": [
+"agent-routing",
+"tool-use"
+],
+"ai-routing/2026-05-08-netflix-state-of-routing-model-serving.md": [
+"llm-routing",
+"serving-systems"
+],
+"ai-routing/2026-05-11-care-bi-level-routing-moe-continual-learning.md": [
+"moe-routing"
+],
+"ai-routing/2026-05-11-conductor-sakana-orchestrating-frontier-models.md": [
+"agent-routing",
+"multi-agent"
+],
+"ai-routing/2026-05-15-dlr-dynamic-latent-routing-post-training.md": [
+"rl-post-training",
+"llm-routing"
+],
+"ai-routing/2026-05-15-routeprofile-llm-profile-design-space.md": [
+"llm-routing"
+],
+"ai-routing/2026-05-16-beam-binary-expert-activation-masking-moe.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"ai-routing/2026-05-17-moe-mup-maximally-scale-stable-parameterization.md": [
+"moe-routing",
+"scaling-laws"
+],
+"ai-routing/2026-05-23-maestro-rl-orchestrated-model-skill-ensemble.md": [
+"agent-routing",
+"rl-post-training"
+],
+"ai-routing/2026-05-25-dar-diffusion-adaptive-routing.md": [
+"architectures",
+"multimodal"
+],
+"ai-routing/2026-05-29-cloud-device-hybrid-agents.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-06-04-perplexity-hybrid-local-cloud.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-06-07-kilo-code-model-task-routing-audit.md": [
+"llm-routing",
+"agent-cost"
+],
+"ai-routing/2026-06-09-chiaroscuro-attention-spectral-routing.md": [
+"architectures",
+"pruning-sparsity"
+],
+"ai-routing/2026-06-10-dpvr-vision-token-routing.md": [
+"multimodal",
+"pruning-sparsity"
+],
+"ai-routing/2026-06-12-via-sd-intra-model-routing-speculative-decoding.md": [
+"speculative-decoding"
+],
+"ai-routing/2026-06-15-orchestra-o1-omnimodal-orchestration.md": [
+"agent-routing",
+"multi-agent"
+],
+"ai-routing/2026-06-16-kilo-plan-implement-model-split.md": [
+"agent-cost",
+"agent-routing"
+],
+"ai-routing/2026-06-18-sciorch-orchestrating-expert-llms.md": [
+"agent-routing",
+"rl-post-training"
+],
+"ai-routing/2026-07-15-model-routing-system-optimization-ibm.md": [
+"llm-routing",
+"agent-cost"
+],
+"ai-routing/2026-07-20-when-is-routing-meaningful.md": [
+"llm-routing"
+],
+"ai-routing/2026-07-24-sakana-fugu-ultra-router.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-07-25-dspy-task-model-separation-550x.md": [
+"llm-routing",
+"harness-engineering"
+],
+"ai-routing/2026-07-25-microsoft-mai-production-routing.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-07-27-cursor-agent-swarm-planner-worker.md": [
+"multi-agent",
+"agent-routing"
+],
+"ai-routing/2026-07-27-multi-head-latent-control.md": [
+"llm-routing"
+],
+"ai-routing/2026-07-31-coherent-overlap-moe-routing.md": [
+"moe-routing"
+],
+"ai-routing/2026-07-31-kilo-open-weights-cost-routing.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-07-31-sigma-mem-reliability-memory-peer-routing.md": [
+"agent-memory",
+"multi-agent"
+],
+"ai-routing/2026-08-04-kilo-open-weight-code-review-routing.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-08-05-vi-mole-value-of-information-routing.md": [
+"moe-routing"
+],
+"ai-routing/2026-08-06-google-cloud-llm-router-public-preview.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-08-10-smrc-sd-state-matched-routing.md": [
+"distillation",
+"agent-routing"
+],
+"ai-routing/2026-08-11-macaron-v1-mixture-of-lora.md": [
+"agent-routing",
+"frontier-models"
+],
+"ai-routing/2026-08-14-llmrouter-unified-routing-infrastructure.md": [
+"llm-routing"
+],
+"ai-routing/2026-08-25-pandoras-router-costly-value-estimation.md": [
+"llm-routing"
+],
+"ai-routing/2026-09-02-safin-1-march-memory-anchor-routing.md": [
+"agent-memory",
+"alignment-safety"
+],
+"ai-routing/2026-09-04-tcr-temporal-context-routing.md": [
+"multimodal"
+],
+"ai-routing/2026-09-07-handoff-tax-model-switching.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-09-09-neohorse-1-routing-harness-rsi.md": [
+"self-improving-harness",
+"agent-routing"
+],
+"ai-routing/2026-09-11-intelligence-per-watt-local-cloud-routing.md": [
+"llm-routing",
+"compute-economics"
+],
+"ai-routing/2026-09-12-openrouter-provider-variance.md": [
+"llm-routing",
+"serving-systems"
+],
+"ai-routing/2026-09-13-state-path-tool-menus.md": [
+"agent-routing",
+"tool-use"
+],
+"ai-routing/2026-09-14-route-by-task-open-vs-frontier.md": [
+"llm-routing",
+"compute-economics"
+],
+"ai-routing/2026-09-16-gavel-native-skill-routing-frozen-llm.md": [
+"agent-routing",
+"tool-use"
+],
+"ai-routing/2026-09-16-jev-decision-only-model.md": [
+"llm-routing",
+"agent-routing"
+],
+"ai-routing/2026-09-17-ken-huang-route-depth-and-width.md": [
+"agent-routing",
+"test-time-compute"
+],
+"ai-routing/2026-09-17-model-pool-selection-multi-agent.md": [
+"multi-agent",
+"llm-routing"
+],
+"ai-routing/2026-09-19-jev-open-clones-commoditization.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-09-19-sft-vs-icl-congestion-equilibrium.md": [
+"serving-systems",
+"training-efficiency"
+],
+"ai-routing/2026-09-20-jev-ecosystem-census-72h.md": [
+"llm-routing",
+"context-compression"
+],
+"ai-routing/2026-09-21-jev-calibration-reckoning.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-09-22-decision-model-benchmark-ladder-and-routing-tax.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-09-23-arm-routed-memory-attention.md": [
+"kv-eviction",
+"architectures"
+],
+"ai-routing/2026-09-23-decision-model-ece-numbers-arrive.md": [
+"llm-routing"
+],
+"ai-routing/2026-09-23-scriptmoe-image-level-routing.md": [
+"moe-routing",
+"multimodal"
+],
+"ai-routing/2026-09-24-clm-contrastive-system-one-model.md": [
+"llm-routing"
+],
+"ai-routing/2026-09-25-jev-as-a-judge-confidence-cascade.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-09-26-drex-diffusion-decision-model.md": [
+"llm-routing",
+"architectures"
+],
+"ai-routing/2026-09-26-jev-vs-llm-rubric-judges-correlated-errors.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-09-27-workflow-economics-task-level-routing.md": [
+"agent-cost",
+"agent-routing"
+],
+"ai-routing/2026-09-30-raschka-jev-classifier-history-open-decision-apis.md": [
+"llm-routing",
+"serving-systems"
+],
+"ai-routing/2026-10-01-saverouter-sparse-supervision-routing.md": [
+"llm-routing"
+],
+"ai-routing/2026-10-02-selmroute-and-decision-model-limits.md": [
+"llm-routing"
+],
+"ai-routing/2026-10-03-flexrouter-routefm-decision-model-wave.md": [
+"llm-routing"
+],
+"ai-routing/2026-10-04-claude-code-advisor-routing-by-moment.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-10-05-decision-2-and-turn-priced-routing.md": [
+"llm-routing",
+"agent-routing"
+],
+"ai-routing/2026-10-07-openai-decisions-api-and-decision-model-audits.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-10-08-routing-graded-jev-router-local-routing.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-10-09-system-switch-decision-deferral.md": [
+"agent-routing",
+"llm-routing"
+],
+"ai-routing/2026-10-10-tokenrouter-token-level-routing-serving.md": [
+"llm-routing",
+"serving-systems"
+],
+"ai-routing/2026-10-11-decision-model-category-decision1-anyjev-vega.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-10-12-decision-3-multimodal-and-calibrated-gates.md": [
+"llm-routing",
+"multimodal"
+],
+"ai-routing/2026-10-13-decision-model-price-war.md": [
+"llm-routing",
+"industry-business"
+],
+"ai-routing/2026-10-14-session-routing-arena-max-cohere-teams.md": [
+"agent-routing",
+"llm-routing"
+],
+"ai-routing/2026-10-15-jeva-system-one-models-first-principles.md": [
+"llm-routing",
+"architectures"
+],
+"ai-routing/2026-10-16-whose-turn-routing-and-agent-auctions.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-10-17-weak-drafts-strong-review-specagent-edgewise-leash.md": [
+"agent-routing",
+"speculative-decoding"
+],
+"ai-routing/2026-10-18-jevagentharness-decision-model-delegation.md": [
+"agent-routing",
+"harness-engineering"
+],
+"ai-routing/2026-10-19-coding-agent-teams-and-token-audits.md": [
+"multi-agent",
+"agent-cost"
+],
+"ai-routing/2026-10-20-meta-thin-orchestrator.md": [
+"multi-agent",
+"agent-routing"
+],
+"ai-routing/2026-10-22-decision-models-good-judgment-bad-advice.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-10-24-routeweaver-and-small-tool-selectors.md": [
+"llm-routing",
+"rl-post-training"
+],
+"ai-routing/2026-10-25-adaptive-skill-granularity-and-context-cliffs.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-10-28-small-decision-models-as-routers.md": [
+"llm-routing",
+"agent-routing"
+],
+"ai-routing/2026-10-29-effort-escalation-and-copilot-fusion.md": [
+"test-time-compute",
+"llm-routing"
+],
+"ai-routing/2026-10-30-agentbaton-capable-to-cheap-handoff.md": [
+"agent-routing",
+"agent-cost"
+],
+"ai-routing/2026-10-31-lown-certificate-guided-visual-routing.md": [
+"multimodal",
+"architectures"
+],
+"ai-routing/2026-11-03-flashprove-provable-inference.md": [
+"verified-optimization",
+"serving-systems"
+],
+"ai-routing/2026-11-03-system1-gates-system2-routing-economics.md": [
+"llm-routing",
+"agent-routing"
+],
+"ai-routing/2026-11-04-google-cost-per-task-classifier-routing.md": [
+"llm-routing",
+"agent-cost"
+],
+"ai-routing/2026-11-04-skill-routing-interference-and-harnessrouter.md": [
+"agent-routing",
+"agent-memory"
+],
+"ai-routing/2026-11-05-route-anything-omni-modal-routing.md": [
+"llm-routing",
+"agent-evals"
+],
+"ai-routing/2026-11-07-drex-open-decision-model-family.md": [
+"agent-routing",
+"llm-routing"
+],
+"ai-routing/2026-11-08-lead-plus-workers-agent-teams.md": [
+"multi-agent",
+"agent-cost"
+],
+"ai-routing/2026-11-10-muse-ember-agentbaton-cpu-arc.md": [
+"llm-routing",
+"frontier-models"
+],
+"ai-routing/2026-11-11-flide-exact-state-forking.md": [
+"serving-systems",
+"kv-reuse"
+],
+"ai-routing/2026-11-12-gemini-decision-1-and-the-decision-model-wave.md": [
+"frontier-models",
+"agent-routing"
+],
+"ai-routing/2026-11-13-pisa-ensemble-routing-and-polyroute.md": [
+"llm-routing"
+],
+"ai-routing/2026-11-14-decision-models-reliability-depth-roles.md": [
+"agent-routing",
+"pruning-sparsity"
+],
+"ai-routing/2026-11-17-luthorsql-system1-cascade.md": [
+"agent-routing",
+"agent-cost"
+],
+"hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md": [
+"compute-economics",
+"training-efficiency"
+],
+"hardware/2026-04-27-semiconductor-week17.md": [
+"memory-supply",
+"fabs-semis"
+],
+"hardware/2026-05-04-cerebras-40b-ipo.md": [
+"accelerators",
+"industry-business"
+],
+"hardware/2026-05-09-kernelbench-x-llm-gpu-kernel-benchmark.md": [
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-05-13-semianalysis-cerebras-ipo.md": [
+"accelerators",
+"serving-systems"
+],
+"hardware/2026-05-14-energy-to-token-position-paper.md": [
+"compute-economics",
+"accelerators"
+],
+"hardware/2026-05-19-agentkernelarena-gpu-kernel-optimization-agents-benchmark.md": [
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-05-21-semianalysis-eda-market-primer.md": [
+"fabs-semis",
+"industry-business"
+],
+"hardware/2026-05-26-semianalysis-800vdc-revolution-part-1.md": [
+"compute-economics",
+"accelerators"
+],
+"hardware/2026-05-28-ai-kernels-silently-break.md": [
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-05-28-doubleai-blackwell-sol-execbench.md": [
+"gpu-kernels",
+"accelerators"
+],
+"hardware/2026-05-29-aws-resilient-network-graphs-data-center-fabric.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-06-01-nvidia-gtc-taipei-rtx-spark.md": [
+"accelerators",
+"frontier-models"
+],
+"hardware/2026-06-07-agentic-ai-memory-hierarchy.md": [
+"memory-supply",
+"accelerators"
+],
+"hardware/2026-07-22-nvidia-vera-rubin-gigascale-ramp.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-07-22-semianalysis-meta-infra-culture-reset.md": [
+"compute-economics",
+"industry-business"
+],
+"hardware/2026-07-23-slai-t-rex-deepseek-v4-ascend.md": [
+"training-efficiency",
+"accelerators"
+],
+"hardware/2026-07-25-nvidia-sk-korea-500b.md": [
+"memory-supply",
+"industry-business"
+],
+"hardware/2026-07-25-semianalysis-amd-cuda-moat.md": [
+"gpu-kernels",
+"accelerators"
+],
+"hardware/2026-07-27-cxmt-shanghai-ipo-487b.md": [
+"memory-supply",
+"fabs-semis"
+],
+"hardware/2026-07-30-semianalysis-lego-datacenters-modular.md": [
+"compute-economics"
+],
+"hardware/2026-08-03-jaxbench-tpu-kernel-optimization.md": [
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-08-11-tilert-persistent-kernel-interactivity.md": [
+"gpu-kernels",
+"serving-systems"
+],
+"hardware/2026-08-12-semiconductor-week-32.md": [
+"memory-supply",
+"fabs-semis"
+],
+"hardware/2026-08-26-openai-jalapeno-inference-asic.md": [
+"accelerators",
+"serving-systems"
+],
+"hardware/2026-08-28-ai-designed-silicon-hot-chips.md": [
+"accelerators",
+"industry-business"
+],
+"hardware/2026-08-28-self-evolving-kernel-optimization-agents.md": [
+"gpu-kernels",
+"agent-memory"
+],
+"hardware/2026-08-30-apple-mac-local-inference-economics.md": [
+"accelerators",
+"industry-business"
+],
+"hardware/2026-08-31-self-evolving-kernel-optimization-agents.md": [
+"gpu-kernels",
+"agent-memory"
+],
+"hardware/2026-08-31-semianalysis-neocloud-security.md": [
+"compute-economics"
+],
+"hardware/2026-09-02-physics-of-llm-inference-roofline.md": [
+"serving-systems",
+"accelerators"
+],
+"hardware/2026-09-02-trainsdc-silent-data-corruption.md": [
+"training-efficiency",
+"accelerators"
+],
+"hardware/2026-09-06-semiconductor-patterning-weekly.md": [
+"fabs-semis"
+],
+"hardware/2026-09-07-maxkernel-agentic-tpu-kernels.md": [
+"gpu-kernels",
+"multi-agent"
+],
+"hardware/2026-09-08-tpu-ironwood-inference-externalization.md": [
+"accelerators",
+"serving-systems"
+],
+"hardware/2026-09-10-behind-the-meter-power-datacenters.md": [
+"compute-economics"
+],
+"hardware/2026-09-10-cpu-shortage-agentic-tool-use.md": [
+"compute-economics",
+"agent-cost"
+],
+"hardware/2026-09-10-phi-bench-llm-infrastructure-engineering.md": [
+"agent-evals",
+"gpu-kernels"
+],
+"hardware/2026-09-10-robot-inference-on-device-vs-datacenter.md": [
+"embodied-3d",
+"accelerators"
+],
+"hardware/2026-09-12-job-power-elasticity-pfi.md": [
+"training-efficiency",
+"compute-economics"
+],
+"hardware/2026-09-12-semianalysis-nvidia-backstop-universe.md": [
+"compute-economics",
+"industry-business"
+],
+"hardware/2026-09-13-hardware-aware-attention-kernels.md": [
+"gpu-kernels"
+],
+"hardware/2026-09-13-semiconductor-process-weekly.md": [
+"fabs-semis"
+],
+"hardware/2026-09-14-semianalysis-4hi-hbm-bandwidth-over-capacity.md": [
+"memory-supply",
+"accelerators"
+],
+"hardware/2026-09-15-deepseek-kernel-engineer-rsi-essay.md": [
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-09-15-semianalysis-robot-inference-onboard-vs-datacenter.md": [
+"embodied-3d",
+"accelerators"
+],
+"hardware/2026-09-15-semianalysis-vera-rubin-agentic-inference.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-09-16-semianalysis-datacenter-moratoriums.md": [
+"compute-economics",
+"governance-policy"
+],
+"hardware/2026-09-16-softmax-kernel-worklog-online-softmax.md": [
+"gpu-kernels"
+],
+"hardware/2026-09-18-sample-count-generation-schedule-energy.md": [
+"test-time-compute",
+"serving-systems"
+],
+"hardware/2026-09-18-semianalysis-engram-dram-ssd-offloading.md": [
+"architectures",
+"serving-systems"
+],
+"hardware/2026-09-19-csbp-block-parallelism-diffusion-llm.md": [
+"training-efficiency",
+"architectures"
+],
+"hardware/2026-09-19-moe-decode-batch-fragmentation.md": [
+"moe-routing",
+"serving-systems"
+],
+"hardware/2026-09-20-open-1b-auditable-training.md": [
+"training-efficiency",
+"governance-policy"
+],
+"hardware/2026-09-20-semiconductor-process-weekly-m3d.md": [
+"fabs-semis"
+],
+"hardware/2026-09-22-kernelbench-m-mutation-analysis.md": [
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-09-22-semianalysis-inference-data-movement.md": [
+"serving-systems",
+"kv-reuse"
+],
+"hardware/2026-09-23-price-war-cache-reads.md": [
+"industry-business",
+"kv-reuse"
+],
+"hardware/2026-09-23-semiconductor-week-38-hbf-pim-tiered-kv.md": [
+"memory-supply",
+"kv-reuse"
+],
+"hardware/2026-09-24-lm-cxd-cxl-ssd-prefix-cache.md": [
+"kv-reuse",
+"memory-supply"
+],
+"hardware/2026-09-24-semianalysis-clustermax-3.md": [
+"compute-economics"
+],
+"hardware/2026-09-25-cpu-shortage-agents-and-rl.md": [
+"compute-economics",
+"agent-cost"
+],
+"hardware/2026-09-25-semianalysis-china-datacenter-model.md": [
+"compute-economics"
+],
+"hardware/2026-09-27-intel-panther-lake-teardown.md": [
+"fabs-semis"
+],
+"hardware/2026-09-28-ai-buildout-financing-risk.md": [
+"compute-economics"
+],
+"hardware/2026-09-29-semianalysis-glm53-sparse-attention-hbm.md": [
+"kv-eviction",
+"accelerators"
+],
+"hardware/2026-09-30-general-compute-prefill-decode-chip-split.md": [
+"serving-systems",
+"memory-supply"
+],
+"hardware/2026-09-30-rowmax-softmax-approximation-blackwell.md": [
+"gpu-kernels",
+"accelerators"
+],
+"hardware/2026-10-01-micron-quarter-hbm-nand-kv.md": [
+"memory-supply",
+"kv-reuse"
+],
+"hardware/2026-10-02-jagged-flash-attention-tlx-blackwell.md": [
+"gpu-kernels"
+],
+"hardware/2026-10-03-helion-vllm-linear-backend.md": [
+"gpu-kernels",
+"serving-systems"
+],
+"hardware/2026-10-04-inference-memory-tiers-and-cycles.md": [
+"memory-supply",
+"accelerators"
+],
+"hardware/2026-10-04-supply-chokepoints-cerebras-broadcom-memory.md": [
+"accelerators",
+"memory-supply"
+],
+"hardware/2026-10-05-hardware-aware-cutlass-kernel-selection.md": [
+"gpu-kernels"
+],
+"hardware/2026-10-05-process-monitor-and-gpu-hour-pricing.md": [
+"fabs-semis",
+"compute-economics"
+],
+"hardware/2026-10-07-fbtriton-tbe-rl-kernel-coco.md": [
+"gpu-kernels",
+"training-efficiency"
+],
+"hardware/2026-10-11-hyper-na-kilolayer-nand-and-token-spend.md": [
+"fabs-semis",
+"memory-supply"
+],
+"hardware/2026-10-12-decart-trainium-and-agent-cpu-demand.md": [
+"industry-business",
+"accelerators"
+],
+"hardware/2026-10-13-ocp-2026-maia-300-and-tokens-per-watt.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-10-14-fused-moe-hopper-and-batch-invariance.md": [
+"gpu-kernels",
+"accelerators"
+],
+"hardware/2026-10-15-tsmc-q3-and-neocloud-credit-stress.md": [
+"fabs-semis",
+"compute-economics"
+],
+"hardware/2026-10-16-asml-hybrid-bonding-tool.md": [
+"fabs-semis"
+],
+"hardware/2026-10-19-meta-amd-mi350x-codesign.md": [
+"accelerators",
+"training-efficiency"
+],
+"hardware/2026-10-19-semianalysis-datacenters-2027.md": [
+"compute-economics"
+],
+"hardware/2026-10-20-kernel-shorts-mamba2-cutile-compileiq-trainium.md": [
+"gpu-kernels",
+"architectures"
+],
+"hardware/2026-10-20-meta-prometheus-supercluster.md": [
+"training-efficiency",
+"compute-economics"
+],
+"hardware/2026-10-22-deepinfer-and-huawei-deepseek-symbiosis.md": [
+"serving-systems",
+"speculative-decoding"
+],
+"hardware/2026-10-22-edgekernelbench-leka.md": [
+"gpu-kernels"
+],
+"hardware/2026-10-23-dgx-spark-eight-node-rocenante-switchyard.md": [
+"accelerators",
+"serving-systems"
+],
+"hardware/2026-10-23-torchneuron-trainium-backend.md": [
+"accelerators",
+"gpu-kernels"
+],
+"hardware/2026-10-24-memory-premium-h200-micron-roadmap.md": [
+"memory-supply",
+"compute-economics"
+],
+"hardware/2026-10-24-semianalysis-trainium3-training.md": [
+"accelerators",
+"training-efficiency"
+],
+"hardware/2026-10-26-gpu-unlock-and-rising-gpu-rents.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-10-27-power-metering-hbm4-cowos-networks.md": [
+"memory-supply",
+"compute-economics"
+],
+"hardware/2026-10-28-tpus-leave-google-memory-sold-out.md": [
+"accelerators",
+"memory-supply"
+],
+"hardware/2026-10-29-cloud-earnings-gb300-rents-packaging-prices.md": [
+"compute-economics",
+"memory-supply"
+],
+"hardware/2026-10-29-meta-andromeda-fused-retrieval-kernel.md": [
+"gpu-kernels",
+"industry-business"
+],
+"hardware/2026-10-30-china-export-catalogue-and-compute-finance.md": [
+"memory-supply",
+"governance-policy"
+],
+"hardware/2026-11-01-gpu-rents-up-neoclouds-down.md": [
+"compute-economics",
+"memory-supply"
+],
+"hardware/2026-11-02-datacenter-backlash-midterms-2028-buildout.md": [
+"governance-policy",
+"compute-economics"
+],
+"hardware/2026-11-02-moe-column-major-kernels-and-gpu-notebook.md": [
+"gpu-kernels",
+"moe-routing"
+],
+"hardware/2026-11-03-memory-squeeze-hbm-lead-times.md": [
+"memory-supply",
+"compute-economics"
+],
+"hardware/2026-11-04-flamia-microscaling-attention-blackwell.md": [
+"quantization",
+"gpu-kernels"
+],
+"hardware/2026-11-04-spacex-ai-cloud-and-china-memory-loophole.md": [
+"compute-economics",
+"industry-business"
+],
+"hardware/2026-11-04-xla-tpu-compiler-correctness-agent-swarms.md": [
+"gpu-kernels",
+"multi-agent"
+],
+"hardware/2026-11-05-cuda-13-5-rubin-and-midterm-compute-shock.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-11-06-halley-optical-control-plane-and-chip-rout.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-11-06-kernelseek-question-driven-kernel-optimization.md": [
+"gpu-kernels",
+"harness-engineering"
+],
+"hardware/2026-11-06-tpu-ironwood-agentx-semianalysis.md": [
+"accelerators",
+"compute-economics"
+],
+"hardware/2026-11-07-tsmc-3d-dram-and-the-rebound.md": [
+"memory-supply",
+"fabs-semis"
+],
+"hardware/2026-11-08-gpu-generation-rent-gap.md": [
+"compute-economics",
+"accelerators"
+],
+"hardware/2026-11-09-charm-plus-cross-hardware-ring-attention.md": [
+"training-efficiency",
+"accelerators"
+],
+"hardware/2026-11-09-nvidia-reshard-rl-weight-refit.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"hardware/2026-11-09-semianalysis-china-stargate-inner-mongolia.md": [
+"compute-economics"
+],
+"hardware/2026-11-10-evolving-agent-teams-and-relative-position-kernels.md": [
+"gpu-kernels",
+"multi-agent"
+],
+"hardware/2026-11-11-old-gpus-reprice-coreweave-lambda.md": [
+"compute-economics"
+],
+"hardware/2026-11-11-tlx-and-tpu-v7-megakernel.md": [
+"gpu-kernels"
+],
+"hardware/2026-11-12-mythos-amd-port-and-kernel-library-failures.md": [
+"accelerators",
+"gpu-kernels"
+],
+"hardware/2026-11-12-nvidia-ceo-crisis-remote-access-rule.md": [
+"industry-business"
+],
+"hardware/2026-11-13-nvidia-without-jensen.md": [
+"industry-business"
+],
+"hardware/2026-11-14-ai-financing-stress-after-huang.md": [
+"compute-economics",
+"industry-business"
+],
+"hardware/2026-11-14-cublas-ozaki-ii-and-glm53-two-stations.md": [
+"gpu-kernels",
+"accelerators"
+],
+"hardware/2026-11-16-bttf-agentic-chip-verification.md": [
+"tool-use",
+"accelerators"
+],
+"hardware/2026-11-17-vera-rubin-mlperf-sc26.md": [
+"accelerators",
+"training-efficiency"
+],
+"inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
+"distillation",
+"training-efficiency"
+],
+"inference-efficiency/2026-04-17-cross-tokenizer-distillation-byte-level.md": [
+"distillation"
+],
+"inference-efficiency/2026-04-17-kv-packet-recomputation-free-kv-cache.md": [
+"kv-reuse"
+],
+"inference-efficiency/2026-04-17-model-capability-dominates-inference-time.md": [
+"test-time-compute",
+"scaling-laws"
+],
+"inference-efficiency/2026-04-18-longact-saliency-sparse-rl.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"inference-efficiency/2026-04-18-switch-kd-vision-language-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-04-18-tessy-teacher-student-sft.md": [
+"distillation"
+],
+"inference-efficiency/2026-04-20-1d-ordered-tokens-test-time-search.md": [
+"multimodal",
+"test-time-compute"
+],
+"inference-efficiency/2026-04-20-accelopt-gpu-kernel-optimization.md": [
+"gpu-kernels",
+"self-improving-harness"
+],
+"inference-efficiency/2026-04-20-avr-adaptive-visual-reasoning.md": [
+"test-time-compute",
+"multimodal"
+],
+"inference-efficiency/2026-04-20-maximal-brain-damage-sign-bit-flips.md": [
+"alignment-safety",
+"quantization"
+],
+"inference-efficiency/2026-04-20-stop-path-pruning-parallel-reasoning.md": [
+"test-time-compute"
+],
+"inference-efficiency/2026-04-20-w-rac-retrieval-aware-chunking.md": [
+"context-compression",
+"agent-cost"
+],
+"inference-efficiency/2026-04-21-nemotron3-super-hybrid-moe.md": [
+"architectures",
+"quantization",
+"frontier-models"
+],
+"inference-efficiency/2026-04-22-prfaas-cross-datacenter-prefill.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-04-22-sdvg-speculative-decoding-video.md": [
+"speculative-decoding",
+"multimodal"
+],
+"inference-efficiency/2026-04-22-shadowpeft-centralized-layer-space.md": [
+"training-efficiency"
+],
+"inference-efficiency/2026-04-22-turbo-quant-kv-cache-quantization.md": [
+"kv-compression",
+"quantization"
+],
+"inference-efficiency/2026-04-30-speculative-decoding-rl-rollouts.md": [
+"speculative-decoding",
+"rl-post-training",
+"training-efficiency"
+],
+"inference-efficiency/2026-04-30-tide-cross-arch-diffusion-distillation.md": [
+"distillation",
+"architectures"
+],
+"inference-efficiency/2026-05-01-lenvm-token-level-length-value-model.md": [
+"test-time-compute"
+],
+"inference-efficiency/2026-05-01-roundpipe-pipeline-parallelism-consumer-gpus.md": [
+"training-efficiency"
+],
+"inference-efficiency/2026-05-02-flashrt-efficient-red-teaming.md": [
+"alignment-safety"
+],
+"inference-efficiency/2026-05-02-nemotron-3-nano-omni-multimodal.md": [
+"frontier-models",
+"multimodal"
+],
+"inference-efficiency/2026-05-04-distillation-panic-lambert.md": [
+"distillation",
+"governance-policy"
+],
+"inference-efficiency/2026-05-05-motion-aware-caching-video.md": [
+"multimodal"
+],
+"inference-efficiency/2026-05-07-d-opsd-self-distillation-step-distilled-diffusion.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-05-07-liveditor-in-context-sparse-attention.md": [
+"multimodal"
+],
+"inference-efficiency/2026-05-07-stream-r1-reliability-perplexity-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-05-07-stream-t1-test-time-scaling-streaming-video.md": [
+"test-time-compute",
+"multimodal"
+],
+"inference-efficiency/2026-05-09-emo-pretraining-moe-emergent-modularity.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-05-09-mia-signature-long-context-activation.md": [
+"context-compression"
+],
+"inference-efficiency/2026-05-09-unipool-shared-expert-pool-moe.md": [
+"moe-routing",
+"architectures"
+],
+"inference-efficiency/2026-05-11-mdn-momentum-deltanet-linear-attention.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-11-misa-mixture-of-indexer-sparse-attention.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-05-11-uniprefill-universal-prefill-acceleration.md": [
+"serving-systems",
+"kv-eviction"
+],
+"inference-efficiency/2026-05-12-make-each-token-count-kv-eviction.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-05-13-delta-mem-online-memory.md": [
+"agent-memory",
+"architectures"
+],
+"inference-efficiency/2026-05-13-focusft-dilution-aware-long-context.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-13-many-faces-on-policy-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-05-13-sparse-to-dense-reward-principle.md": [
+"rl-post-training",
+"distillation"
+],
+"inference-efficiency/2026-05-13-token-superposition-training.md": [
+"training-efficiency",
+"scaling-laws"
+],
+"inference-efficiency/2026-05-14-extrapolation-cliff-on-policy-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-05-14-mint-million-scale-lora-serving.md": [
+"serving-systems",
+"training-efficiency"
+],
+"inference-efficiency/2026-05-14-mmprolong-long-context-vlm.md": [
+"multimodal",
+"architectures"
+],
+"inference-efficiency/2026-05-14-orthrus-dual-view-diffusion-ar.md": [
+"speculative-decoding",
+"kv-reuse"
+],
+"inference-efficiency/2026-05-15-async-continuous-batching-cpu-gpu-overlap.md": [
+"serving-systems"
+],
+"inference-efficiency/2026-05-15-forcing-kv-video-diffusion-kv-cache-compression.md": [
+"kv-compression",
+"multimodal"
+],
+"inference-efficiency/2026-05-16-atesd-adaptive-teacher-exposure-self-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-05-16-lighthouse-attention-long-context-pretraining.md": [
+"architectures",
+"gpu-kernels"
+],
+"inference-efficiency/2026-05-17-mtp-llama-cpp-merge-strix-halo-benchmarks.md": [
+"speculative-decoding",
+"serving-systems"
+],
+"inference-efficiency/2026-05-17-raschka-llm-architecture-kv-sharing-mhc-compressed-attention.md": [
+"architectures",
+"kv-compression"
+],
+"inference-efficiency/2026-05-18-fashionchameleon-training-free-kv-cache-rescheduling.md": [
+"kv-reuse",
+"multimodal"
+],
+"inference-efficiency/2026-05-18-hodgecover-simplicial-laplacian-moe-compression.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-05-19-compactattention-chunked-prefill-block-union-kv-selection.md": [
+"kv-eviction",
+"serving-systems"
+],
+"inference-efficiency/2026-05-19-endprompt-terminal-anchoring-long-context-extension.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-19-longlive-2-nvfp4-parallel-infrastructure-long-video.md": [
+"quantization",
+"training-efficiency"
+],
+"inference-efficiency/2026-05-19-max-activations-open-llms.md": [
+"quantization"
+],
+"inference-efficiency/2026-05-19-puma-semantic-preserving-early-exit-reasoning.md": [
+"test-time-compute",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-05-19-snlp-layer-parallel-inference-structured-newton.md": [
+"serving-systems",
+"architectures"
+],
+"inference-efficiency/2026-05-19-zeda-post-trained-moe-skip-half-experts.md": [
+"moe-routing",
+"distillation"
+],
+"inference-efficiency/2026-05-20-context-memorization-attention-state-memory.md": [
+"kv-reuse",
+"context-compression"
+],
+"inference-efficiency/2026-05-20-graft-draft-less-retrieve-more-speculative-decoding.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-05-20-peek-context-map-orientation-cache.md": [
+"agent-memory",
+"context-compression"
+],
+"inference-efficiency/2026-05-21-ik-llamacpp-mtp-cpu-offload-qwen36.md": [
+"speculative-decoding",
+"serving-systems"
+],
+"inference-efficiency/2026-05-21-mix-quant-phase-aware-quantization.md": [
+"quantization",
+"agent-cost"
+],
+"inference-efficiency/2026-05-21-moe-mup-scale-stable-parameterization.md": [
+"scaling-laws",
+"moe-routing"
+],
+"inference-efficiency/2026-05-21-octopus-octahedral-kv-cache-codec.md": [
+"kv-compression",
+"quantization"
+],
+"inference-efficiency/2026-05-21-oscar-extreme-kv-cache-quantization.md": [
+"kv-compression",
+"quantization"
+],
+"inference-efficiency/2026-05-21-tencent-hy-mt2-translation-quantization.md": [
+"quantization",
+"frontier-models"
+],
+"inference-efficiency/2026-05-21-tide-moe-diffusion-llm-inference.md": [
+"moe-routing",
+"serving-systems"
+],
+"inference-efficiency/2026-05-22-gated-deltanet-2-linear-attention-decoupled-erase-write.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-22-kvserve-adaptive-kv-compression-disaggregated-serving.md": [
+"kv-compression",
+"serving-systems"
+],
+"inference-efficiency/2026-05-22-rtpurbo-full-attention-sparse-transfer.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-05-22-worldkv-world-memory-retrieval-compression.md": [
+"kv-eviction",
+"multimodal"
+],
+"inference-efficiency/2026-05-23-proxy-metrics-forecast-downstream.md": [
+"scaling-laws"
+],
+"inference-efficiency/2026-05-24-gated-deltanet-2-decoupled-erase-write.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-24-kvserve-service-aware-kv-compression.md": [
+"kv-compression",
+"serving-systems"
+],
+"inference-efficiency/2026-05-24-rtpurbo-full-to-sparse-attention.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-05-24-worldkv-video-world-memory.md": [
+"kv-eviction",
+"multimodal"
+],
+"inference-efficiency/2026-05-25-bitcpm-cann-158bit-ascend-npu.md": [
+"quantization"
+],
+"inference-efficiency/2026-05-25-deepseek-v4-interleaved-compressed-attention.md": [
+"architectures",
+"kv-compression"
+],
+"inference-efficiency/2026-05-25-good-token-hunting-visual-geometry-transformers.md": [
+"pruning-sparsity",
+"multimodal"
+],
+"inference-efficiency/2026-05-25-hint-sd-targeted-hindsight-self-distillation.md": [
+"distillation",
+"agent-cost"
+],
+"inference-efficiency/2026-05-25-pion-muon-spectral-rlvr-vla.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"inference-efficiency/2026-05-26-channel-wise-vector-quantization.md": [
+"multimodal"
+],
+"inference-efficiency/2026-05-26-smart-embedding-multi-vector-from-single.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-27-cpt-collaborative-parallel-thinking.md": [
+"test-time-compute",
+"multi-agent"
+],
+"inference-efficiency/2026-05-27-efficiency-frontier-context-cost.md": [
+"context-compression",
+"agent-cost"
+],
+"inference-efficiency/2026-05-27-language-models-need-sleep.md": [
+"architectures",
+"context-compression"
+],
+"inference-efficiency/2026-05-27-mobilemoe-on-device-moe-scaling.md": [
+"moe-routing",
+"scaling-laws"
+],
+"inference-efficiency/2026-05-27-rt-lynx-activation-sparsity-diffusion.md": [
+"pruning-sparsity",
+"multimodal"
+],
+"inference-efficiency/2026-05-28-less-is-more-esr-on-policy-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-05-28-osp-next-sparse-video-generation.md": [
+"quantization",
+"multimodal"
+],
+"inference-efficiency/2026-05-29-how-lora-remembers-parametric-memory-law.md": [
+"scaling-laws"
+],
+"inference-efficiency/2026-05-29-parallax-local-linear-attention.md": [
+"architectures"
+],
+"inference-efficiency/2026-05-30-conf-kv-confidence-aware-eviction.md": [
+"kv-eviction",
+"kv-compression"
+],
+"inference-efficiency/2026-05-30-earlytom-early-token-compression-video.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-06-01-dmoe-block-level-moe-diffusion-llm.md": [
+"moe-routing",
+"architectures"
+],
+"inference-efficiency/2026-06-01-statekv-linear-video-vlm.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-06-01-ta-opd-token-teachability.md": [
+"distillation"
+],
+"inference-efficiency/2026-06-02-draft-opd-speculative-draft-distillation.md": [
+"speculative-decoding",
+"distillation"
+],
+"inference-efficiency/2026-06-02-kappa-swiglu-confidence-adaptive-moe.md": [
+"moe-routing",
+"architectures"
+],
+"inference-efficiency/2026-06-02-longattncomp-context-compression.md": [
+"context-compression"
+],
+"inference-efficiency/2026-06-02-lvsa-training-free-sparse-attention-video.md": [
+"multimodal",
+"gpu-kernels"
+],
+"inference-efficiency/2026-06-02-spd-speculative-pipeline-decoding.md": [
+"speculative-decoding",
+"serving-systems"
+],
+"inference-efficiency/2026-06-02-videomla-low-rank-latent-kv-cache.md": [
+"kv-compression",
+"multimodal"
+],
+"inference-efficiency/2026-06-03-minimax-m3-sparse-attention.md": [
+"frontier-models",
+"architectures"
+],
+"inference-efficiency/2026-06-03-small-rl-controller-adaptive-sampling.md": [
+"test-time-compute"
+],
+"inference-efficiency/2026-06-03-tropd-trust-region-on-policy-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-06-03-vase-value-aware-stochastic-kv-eviction.md": [
+"kv-eviction",
+"test-time-compute"
+],
+"inference-efficiency/2026-06-04-echo-infinity-evolving-memory-video.md": [
+"kv-eviction",
+"multimodal"
+],
+"inference-efficiency/2026-06-04-fire-opd-filter-then-reweight-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-06-04-gated-delta-network-mup-scaling.md": [
+"architectures",
+"scaling-laws"
+],
+"inference-efficiency/2026-06-04-mergepipe-expert-read-budgeting-merging.md": [
+"training-efficiency"
+],
+"inference-efficiency/2026-06-04-sdpg-self-distilled-policy-gradient.md": [
+"rl-post-training",
+"distillation"
+],
+"inference-efficiency/2026-06-04-stride-training-data-attribution.md": [
+"interpretability"
+],
+"inference-efficiency/2026-06-05-clear-shadow-price-reasoning-budget.md": [
+"test-time-compute",
+"serving-systems"
+],
+"inference-efficiency/2026-06-05-oprd-on-policy-representation-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-06-06-adacodec-predictive-visual-code-video-mllms.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-06-06-code2lora-hypernetwork-repo-adapters.md": [
+"context-compression"
+],
+"inference-efficiency/2026-06-06-video2lora-parametric-video-internalization.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-06-07-flash-wam-modality-aware-distillation.md": [
+"distillation",
+"embodied-3d"
+],
+"inference-efficiency/2026-06-07-seaotter-cloud-robotics-compression.md": [
+"embodied-3d",
+"multimodal"
+],
+"inference-efficiency/2026-06-08-embedfilter-unembedding-feature-lens.md": [
+"interpretability"
+],
+"inference-efficiency/2026-06-08-rl-kernel-grpo-ppo-kernels.md": [
+"gpu-kernels",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-09-flashmemory-ds-v4-lookahead-sparse-attention.md": [
+"kv-eviction",
+"kv-reuse"
+],
+"inference-efficiency/2026-06-09-geometry-on-policy-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-09-lclm-end-to-end-context-compression.md": [
+"context-compression"
+],
+"inference-efficiency/2026-06-09-trd-trajectory-refined-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-06-10-attention-amnesia-qk-restore.md": [
+"architectures",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-10-dla-dynamic-linear-attention.md": [
+"architectures",
+"kv-compression"
+],
+"inference-efficiency/2026-06-10-latent-memory-one-token-evidence.md": [
+"context-compression",
+"agent-memory"
+],
+"inference-efficiency/2026-06-11-bebop-mtp-rejection-sampling-rl.md": [
+"speculative-decoding",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-11-internvideo3-m2la-kv-compression.md": [
+"multimodal",
+"kv-compression"
+],
+"inference-efficiency/2026-06-12-flash-gmm-memory-efficient-soft-clustering-kernel.md": [
+"gpu-kernels"
+],
+"inference-efficiency/2026-06-12-minimax-sparse-attention-msa.md": [
+"kv-eviction",
+"frontier-models"
+],
+"inference-efficiency/2026-06-12-sg-opd-sign-gated-on-policy-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-13-see-what-i-see-dense-latent-kv-communication.md": [
+"kv-reuse",
+"multi-agent"
+],
+"inference-efficiency/2026-06-15-adasr-streaming-reasoning-hrpo.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-15-dense-supervision-sparse-updates-opd-geometry.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-15-lora-alpha-scaling-factor.md": [
+"training-efficiency"
+],
+"inference-efficiency/2026-06-15-polar-program-of-layers.md": [
+"pruning-sparsity",
+"architectures"
+],
+"inference-efficiency/2026-06-16-tangram-non-uniform-kv-compression-serving.md": [
+"kv-compression",
+"serving-systems"
+],
+"inference-efficiency/2026-06-16-tokenpilot-cache-efficient-agent-context.md": [
+"kv-reuse",
+"context-compression",
+"agent-cost"
+],
+"inference-efficiency/2026-06-16-vibethinker-3b-compression-coverage.md": [
+"test-time-compute",
+"frontier-models"
+],
+"inference-efficiency/2026-06-17-d-opsd-dllm-self-future-distillation.md": [
+"distillation",
+"architectures"
+],
+"inference-efficiency/2026-06-17-loopcoder-v2-parallel-loop-transformer.md": [
+"architectures",
+"test-time-compute"
+],
+"inference-efficiency/2026-06-17-rethinking-efficient-attention-hybrid.md": [
+"architectures"
+],
+"inference-efficiency/2026-06-17-variable-width-transformers.md": [
+"architectures",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-06-17-zppo-teacher-in-prompts-not-gradients.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-06-18-quality-aware-opsd-gui-grounding.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-07-17-byte-exact-kv-cache-grafting.md": [
+"kv-reuse",
+"agent-memory"
+],
+"inference-efficiency/2026-07-17-longstraw-million-token-rl.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"inference-efficiency/2026-07-21-distilled-rl-post-training.md": [
+"rl-post-training",
+"distillation"
+],
+"inference-efficiency/2026-07-21-flashrt-agent-harness-multimodal-deploy.md": [
+"harness-engineering",
+"gpu-kernels"
+],
+"inference-efficiency/2026-07-21-swe-pruner-pro-context-pruning.md": [
+"context-compression",
+"agent-cost"
+],
+"inference-efficiency/2026-07-21-topl-token-level-off-policy.md": [
+"rl-post-training"
+],
+"inference-efficiency/2026-07-22-h2sd-hybrid-hindsight-self-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-07-22-iso-rlvr-native-optimization.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"inference-efficiency/2026-07-22-sat-staleness-adaptive-trust-regions.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"inference-efficiency/2026-07-23-fvattn-adaptive-sparse-attention.md": [
+"gpu-kernels",
+"multimodal"
+],
+"inference-efficiency/2026-07-23-ripo-riemannian-policy-optimization.md": [
+"rl-post-training"
+],
+"inference-efficiency/2026-07-23-slpo-latent-reasoning-surrogate-policy.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"inference-efficiency/2026-07-24-dataset-distillation-influence-matching.md": [
+"distillation",
+"training-efficiency"
+],
+"inference-efficiency/2026-07-24-predictive-divergence-masks.md": [
+"rl-post-training"
+],
+"inference-efficiency/2026-07-24-reopd-multiturn-onpolicy-distillation.md": [
+"distillation",
+"agent-evals"
+],
+"inference-efficiency/2026-07-24-sana-video-hybrid-linear-attention.md": [
+"architectures",
+"multimodal"
+],
+"inference-efficiency/2026-07-25-requential-coding-self-generated-compression.md": [
+"distillation",
+"scaling-laws"
+],
+"inference-efficiency/2026-07-25-vcsd-visual-contrastive-self-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-07-26-quasimotto-qmc-test-time-scaling.md": [
+"test-time-compute"
+],
+"inference-efficiency/2026-07-27-mxsens-mixed-precision-quantization.md": [
+"quantization"
+],
+"inference-efficiency/2026-07-27-visco-visual-token-compression.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-07-28-frozen-12b-verified-memory-reuse.md": [
+"agent-memory",
+"verified-optimization"
+],
+"inference-efficiency/2026-07-28-kv-eviction-error-certificates.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-07-29-bpm-cross-tokenizer-opd.md": [
+"distillation"
+],
+"inference-efficiency/2026-07-29-locks-page-local-key-summaries.md": [
+"kv-eviction",
+"kv-compression"
+],
+"inference-efficiency/2026-07-29-omnidelta-skill-driven-token-budget.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-07-29-relay-opd-trajectory-relayed-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-07-29-sparse-event-kv-memory-contract.md": [
+"kv-eviction",
+"agent-memory"
+],
+"inference-efficiency/2026-07-30-cast-solver-advantage-distillation.md": [
+"rl-post-training"
+],
+"inference-efficiency/2026-07-30-cort-counterfactual-replay-token-credit.md": [
+"rl-post-training"
+],
+"inference-efficiency/2026-07-30-local-model-kv-cache-economics.md": [
+"kv-compression",
+"agent-evals"
+],
+"inference-efficiency/2026-07-30-turbovla-llm-free-vla.md": [
+"embodied-3d"
+],
+"inference-efficiency/2026-07-31-beta-opsd-policy-optimization-self-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-07-31-chimera-hybrid-visual-diffusion-scaling.md": [
+"architectures",
+"multimodal"
+],
+"inference-efficiency/2026-07-31-flux-opd-evolving-contexts.md": [
+"distillation"
+],
+"inference-efficiency/2026-07-31-lossy-verification-speculative-decoding.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-07-31-memory-decoder-at-scale.md": [
+"architectures",
+"scaling-laws"
+],
+"inference-efficiency/2026-07-31-omniscope-modality-decoupled-token-compression.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-08-01-mxattention-mxfp4-attention-quantization.md": [
+"quantization",
+"gpu-kernels"
+],
+"inference-efficiency/2026-08-01-speculative-decoding-in-production-openai-tinygrad.md": [
+"speculative-decoding",
+"industry-business"
+],
+"inference-efficiency/2026-08-02-kap-knowledge-access-planning.md": [
+"context-compression",
+"serving-systems"
+],
+"inference-efficiency/2026-08-02-mapd-multi-agent-protocol-distillation.md": [
+"distillation",
+"tool-use"
+],
+"inference-efficiency/2026-08-03-draftexpert-moe-self-speculative-decoding.md": [
+"speculative-decoding",
+"moe-routing"
+],
+"inference-efficiency/2026-08-03-eviction-as-estimation-rmm.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-08-03-reopd-prefix-replay-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-08-03-vqvla-motion-aware-quantization.md": [
+"quantization",
+"embodied-3d"
+],
+"inference-efficiency/2026-08-04-crpo-contrastive-privileged-self-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-08-04-vad-visual-attribution-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-08-05-any-opd-heterogeneous-on-policy-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-08-05-mixture-of-kittens-moe-megakernel.md": [
+"gpu-kernels",
+"moe-routing"
+],
+"inference-efficiency/2026-08-05-omnipack-omni-modal-token-compression.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-08-05-pcsd-persistent-consistency-self-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-08-05-turnsight-turn-level-hindsight-distillation.md": [
+"distillation",
+"tool-use"
+],
+"inference-efficiency/2026-08-06-opd-v-modality-balance-self-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-08-06-poly-opd-multi-teacher-pixel-bridge.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-08-06-rstg-negative-group-teacher-guidance.md": [
+"rl-post-training",
+"distillation"
+],
+"inference-efficiency/2026-08-06-sa-opd-input-groundedness-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-08-06-spot-sparse-probing-outcome-calibration.md": [
+"distillation"
+],
+"inference-efficiency/2026-08-07-padoc-layout-grounded-parallel-decoding.md": [
+"speculative-decoding",
+"multimodal"
+],
+"inference-efficiency/2026-08-10-privileged-but-biased-self-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-08-10-worldtrace-addressable-kv-memory.md": [
+"kv-compression",
+"multimodal"
+],
+"inference-efficiency/2026-08-11-counterfactual-recoverability-opd.md": [
+"distillation"
+],
+"inference-efficiency/2026-08-11-oasiskv-lookahead-sparse-prefetching.md": [
+"kv-reuse",
+"speculative-decoding"
+],
+"inference-efficiency/2026-08-12-icbq-interleaved-cross-block-quantization.md": [
+"quantization"
+],
+"inference-efficiency/2026-08-13-ai4ai-test-time-harness-transfer.md": [
+"self-improving-harness",
+"harness-engineering",
+"distillation"
+],
+"inference-efficiency/2026-08-13-neupat-neuron-plasticity-allocation.md": [
+"multimodal",
+"training-efficiency"
+],
+"inference-efficiency/2026-08-14-deepseek-harness-kv-cache-economics.md": [
+"kv-reuse",
+"harness-engineering",
+"industry-business"
+],
+"inference-efficiency/2026-08-14-full-bandwidth-transformer.md": [
+"architectures",
+"test-time-compute"
+],
+"inference-efficiency/2026-08-14-lycheememory-v2-segment-consolidation.md": [
+"agent-memory",
+"agent-cost"
+],
+"inference-efficiency/2026-08-14-massive-activations-hybrid-linear-attention.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-08-16-autoprune-llm-designed-visual-token-pruning.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-08-16-autoscientist-hooker-data-in-the-loop.md": [
+"scaling-laws",
+"industry-business"
+],
+"inference-efficiency/2026-08-16-carl-knowing-when-to-quit.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"inference-efficiency/2026-08-16-gambit-thought-level-beam-search.md": [
+"test-time-compute",
+"serving-systems"
+],
+"inference-efficiency/2026-08-16-hinting-self-distillation-applied-compute.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-08-16-maglev-sliding-recurrent-memory.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-08-16-teacher-student-alignment-cluster.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-08-25-r2-opd-reasoning-progress-filtering.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-08-25-tilemix-tile-centric-mixed-precision-attention.md": [
+"gpu-kernels",
+"quantization"
+],
+"inference-efficiency/2026-08-26-diffusion-opsd-self-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-08-26-opdvr-distillation-verifiable-reward.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-08-26-orarl-annotations-as-rollouts.md": [
+"rl-post-training",
+"multimodal"
+],
+"inference-efficiency/2026-08-26-quantization-aware-healing.md": [
+"quantization",
+"distillation"
+],
+"inference-efficiency/2026-08-28-self-opd-teacher-free-flow-matching.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-08-28-ttpo-test-time-policy-optimization.md": [
+"rl-post-training",
+"test-time-compute"
+],
+"inference-efficiency/2026-08-29-criticl-failure-mode-in-context-critiques.md": [
+"test-time-compute",
+"distillation"
+],
+"inference-efficiency/2026-08-29-four-cache-layers-kv-prefix-prompt-semantic.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-08-30-fedcc-distillation-federated-label-skew.md": [
+"distillation",
+"training-efficiency"
+],
+"inference-efficiency/2026-08-30-mcl-concept-landscape-data-pruning.md": [
+"training-efficiency",
+"scaling-laws"
+],
+"inference-efficiency/2026-08-30-roi-semi-structured-sparsity.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-08-31-pruning-meets-interpretability-sae.md": [
+"pruning-sparsity",
+"interpretability"
+],
+"inference-efficiency/2026-09-02-cross-model-kv-sharing.md": [
+"kv-reuse"
+],
+"inference-efficiency/2026-09-02-functional-degeneracy-pruning.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-09-03-crisp-cliff-aware-sparse-prefilling.md": [
+"kv-eviction",
+"gpu-kernels"
+],
+"inference-efficiency/2026-09-03-declarative-attention.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-09-03-ida-opd-influence-directed-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-09-04-compile-by-training-neural-functions.md": [
+"distillation",
+"llm-routing"
+],
+"inference-efficiency/2026-09-04-latentpress-latent-context-compression.md": [
+"context-compression"
+],
+"inference-efficiency/2026-09-04-latentstream-progressive-latent-memory.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-09-04-minima-nvfp4-gated-deltanet.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-09-04-one-example-on-policy-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-09-04-random-attention-kv-eviction.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-09-05-select-compress-reinvest-visual-tokens.md": [
+"context-compression",
+"multimodal"
+],
+"inference-efficiency/2026-09-07-dont-drop-dropout-layer-sparsity.md": [
+"pruning-sparsity",
+"training-efficiency"
+],
+"inference-efficiency/2026-09-07-kv-cache-frontier-mla-radix-kvshare.md": [
+"kv-compression",
+"kv-reuse",
+"kv-eviction"
+],
+"inference-efficiency/2026-09-07-quantization-breaks-recurrent-state.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-09-07-rise-self-extrapolating-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-09-07-uno-discrete-diffusion-lossless-speedup.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-09-08-ace-expert-skipping-moe.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-09-08-kvmem-kv-context-virtualization.md": [
+"kv-reuse",
+"agent-memory"
+],
+"inference-efficiency/2026-09-08-revision-propagation-test-time-compute.md": [
+"test-time-compute",
+"agent-evals"
+],
+"inference-efficiency/2026-09-08-ternarization-qwen3-4b.md": [
+"quantization"
+],
+"inference-efficiency/2026-09-08-tgopd-prompt-level-teacher-gating.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-08-xmerge-depth-compression.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-09-09-beaconkv-beacon-query-cache-compression.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-09-09-next-gen-speculative-decoding-mtp-eagle2-indexshare.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-09-09-nvidia-cross-model-kv-transfer.md": [
+"kv-reuse",
+"llm-routing"
+],
+"inference-efficiency/2026-09-09-online-draft-co-training-speculative-rl.md": [
+"speculative-decoding",
+"training-efficiency"
+],
+"inference-efficiency/2026-09-09-oprd-on-policy-reverse-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-10-extreme-quantization-blackwell-fp4-native-fp8.md": [
+"quantization",
+"accelerators"
+],
+"inference-efficiency/2026-09-10-kv-concat-aware-finetuning-selective-recompute.md": [
+"kv-reuse",
+"context-compression"
+],
+"inference-efficiency/2026-09-10-parser-parallel-read-deep-reason.md": [
+"context-compression",
+"agent-cost"
+],
+"inference-efficiency/2026-09-10-three-layer-caching-semantic-query-cache.md": [
+"kv-reuse",
+"agent-cost"
+],
+"inference-efficiency/2026-09-10-video-llm-inference-efficiency-survey.md": [
+"multimodal",
+"context-compression"
+],
+"inference-efficiency/2026-09-10-wrp-forward-free-depth-pruning.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-09-11-hyquant-hybrid-precision-attention.md": [
+"quantization"
+],
+"inference-efficiency/2026-09-11-negative-self-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-09-11-why-post-training-quantization-works.md": [
+"quantization"
+],
+"inference-efficiency/2026-09-11-x-aut-audio-encoder-compression.md": [
+"pruning-sparsity",
+"multimodal"
+],
+"inference-efficiency/2026-09-12-faste-readout-triggered-token-compression.md": [
+"pruning-sparsity",
+"context-compression"
+],
+"inference-efficiency/2026-09-12-kimi-k3-in-c-nvme-expert-streaming.md": [
+"moe-routing",
+"accelerators"
+],
+"inference-efficiency/2026-09-12-tasco-stability-aware-test-time-adaptation.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"inference-efficiency/2026-09-13-prefix-stable-kv-caching-claude-md.md": [
+"kv-reuse",
+"harness-engineering"
+],
+"inference-efficiency/2026-09-13-sparser-faster-lighter-transformers.md": [
+"pruning-sparsity",
+"architectures"
+],
+"inference-efficiency/2026-09-14-external-kv-approximation-retrofit-prefill.md": [
+"kv-compression",
+"architectures"
+],
+"inference-efficiency/2026-09-14-sas-attention-sparsification-end-to-end.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-09-15-disaggregated-serving-mooncake-distserve.md": [
+"serving-systems"
+],
+"inference-efficiency/2026-09-15-elo-per-token-agent-test-time-scaling.md": [
+"test-time-compute",
+"agent-cost"
+],
+"inference-efficiency/2026-09-16-directional-decomposition-compression-error.md": [
+"interpretability"
+],
+"inference-efficiency/2026-09-16-specialist-distillation-latent-trajectories.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-17-vc-attention-low-bit-value-smoothing.md": [
+"quantization",
+"gpu-kernels"
+],
+"inference-efficiency/2026-09-18-c2c-cache-to-cache-communication.md": [
+"multi-agent",
+"kv-reuse"
+],
+"inference-efficiency/2026-09-18-deepseek-v41-flash-kv-cache-compression.md": [
+"kv-compression",
+"frontier-models"
+],
+"inference-efficiency/2026-09-18-on-policy-distillation-triple.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-18-uno-diffusion-augmented-lossless-speedup.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-09-18-when2think-difficulty-aware-length-control.md": [
+"test-time-compute"
+],
+"inference-efficiency/2026-09-19-colla-q-moe-quantization-minimax.md": [
+"quantization",
+"moe-routing"
+],
+"inference-efficiency/2026-09-19-lightonocr-2-1b.md": [
+"multimodal",
+"compute-economics"
+],
+"inference-efficiency/2026-09-19-mome-mixture-of-memory-embeddings.md": [
+"moe-routing",
+"architectures"
+],
+"inference-efficiency/2026-09-19-needle-3-sliceable-automation-model.md": [
+"pruning-sparsity",
+"quantization"
+],
+"inference-efficiency/2026-09-20-test-time-compute-decode-inversion.md": [
+"serving-systems"
+],
+"inference-efficiency/2026-09-21-cal-opd-calibrated-discrepancy.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-21-ultra-long-context-dca-yarn-minference.md": [
+"kv-compression",
+"serving-systems"
+],
+"inference-efficiency/2026-09-22-harness-zero-harness-distillation.md": [
+"harness-engineering",
+"distillation"
+],
+"inference-efficiency/2026-09-22-ier-one-percent-tokens-opd.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-23-constrained-decoding-production-blueprint.md": [
+"serving-systems",
+"tool-use"
+],
+"inference-efficiency/2026-09-23-flash-dllm-io-aware-kv-cache.md": [
+"kv-reuse",
+"speculative-decoding"
+],
+"inference-efficiency/2026-09-23-kv-cobra-bit-rank-allocation.md": [
+"kv-compression"
+],
+"inference-efficiency/2026-09-23-kvmem-paged-agent-memory.md": [
+"kv-reuse",
+"agent-memory"
+],
+"inference-efficiency/2026-09-23-perplexity-opsd-tool-call-distillation.md": [
+"distillation",
+"tool-use"
+],
+"inference-efficiency/2026-09-24-disaggregated-quantization-prefill-decode.md": [
+"quantization",
+"serving-systems"
+],
+"inference-efficiency/2026-09-24-geopair-cross-layer-factorization.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-09-24-hysparse2-two-level-kv-sharing.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-09-25-llm-compressor-v0-14-triton-gptq.md": [
+"quantization",
+"gpu-kernels"
+],
+"inference-efficiency/2026-09-25-neural-spectral-capacity-calibration-free-pruning.md": [
+"architectures",
+"scaling-laws"
+],
+"inference-efficiency/2026-09-26-kv-quantization-alignment-collapse.md": [
+"kv-compression",
+"alignment-safety"
+],
+"inference-efficiency/2026-09-26-quail-query-aware-inference-ai-sql.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-09-27-milo-mixed-precision-kv-blocks.md": [
+"kv-compression"
+],
+"inference-efficiency/2026-09-27-twt-smaller-transformer.md": [
+"pruning-sparsity",
+"multimodal"
+],
+"inference-efficiency/2026-09-28-freetoken-edge-moe-serving.md": [
+"moe-routing",
+"serving-systems"
+],
+"inference-efficiency/2026-09-28-ngram-embedding-notes.md": [
+"architectures",
+"serving-systems"
+],
+"inference-efficiency/2026-09-29-dce-srcl-coevolving-self-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-09-29-lastopd-latent-opd-collapse.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-29-mopd-router-token-level-teacher-routing.md": [
+"distillation",
+"llm-routing"
+],
+"inference-efficiency/2026-09-29-softmax-reparameterization-output-head.md": [
+"quantization"
+],
+"inference-efficiency/2026-09-30-dn-mopd-domain-normalized-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-09-30-kvcmas-precache-multi-agent-kv-sharing.md": [
+"kv-reuse",
+"multi-agent"
+],
+"inference-efficiency/2026-10-01-opd-scaling-laws-saki-kl-free.md": [
+"distillation",
+"scaling-laws"
+],
+"inference-efficiency/2026-10-01-periodic-weak-spots-chunked-kv-phase.md": [
+"kv-compression"
+],
+"inference-efficiency/2026-10-01-prismquant-quantized-softmax.md": [
+"quantization"
+],
+"inference-efficiency/2026-10-02-galahad-stateful-kv-reuse.md": [
+"kv-reuse"
+],
+"inference-efficiency/2026-10-02-opd-wave-ride-lsd-oasis.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-02-slidedp-host-resident-finetuning.md": [
+"training-efficiency"
+],
+"inference-efficiency/2026-10-02-wush-kv-kv-quantization.md": [
+"kv-compression",
+"quantization"
+],
+"inference-efficiency/2026-10-03-agspec-retrieval-speculative-decoding.md": [
+"speculative-decoding",
+"agent-cost"
+],
+"inference-efficiency/2026-10-03-distillation-dynamics-and-sampling.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-03-heterofold-cross-family-kv-transfer.md": [
+"kv-reuse",
+"multi-agent"
+],
+"inference-efficiency/2026-10-03-kv-streams-and-focus-context-compaction.md": [
+"kv-eviction",
+"context-compression"
+],
+"inference-efficiency/2026-10-04-r2-opd-reward-aligned-reweighting.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-10-05-context-compression-beyond-token-savings.md": [
+"context-compression",
+"agent-cost"
+],
+"inference-efficiency/2026-10-05-diverse-self-training-and-distillation-defenses.md": [
+"distillation",
+"alignment-safety"
+],
+"inference-efficiency/2026-10-06-cacheback-receiver-conditioned-kv-communication.md": [
+"multi-agent",
+"kv-reuse"
+],
+"inference-efficiency/2026-10-06-efficiency-shorts.md": [
+"architectures",
+"test-time-compute"
+],
+"inference-efficiency/2026-10-06-multi-teacher-opd-latent-mopd-and-diagnostics.md": [
+"distillation",
+"multi-agent"
+],
+"inference-efficiency/2026-10-06-quantwm-2bit-kv-world-models.md": [
+"kv-compression",
+"multimodal"
+],
+"inference-efficiency/2026-10-07-efficiency-shorts.md": [
+"kv-eviction",
+"multimodal"
+],
+"inference-efficiency/2026-10-07-oppd-power-distillation-and-base-model-cues.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-10-07-periscope-factorized-long-reads.md": [
+"context-compression",
+"kv-eviction"
+],
+"inference-efficiency/2026-10-08-efficiency-shorts.md": [
+"context-compression"
+],
+"inference-efficiency/2026-10-08-fp4-rl-trace-triage-nemo-dcr.md": [
+"quantization",
+"training-efficiency"
+],
+"inference-efficiency/2026-10-08-lsp-learnable-subspace-projections.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-10-08-opd-supervision-reliability-cluster.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-08-slimwise-phase-decoupled-expert-pruning.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-10-09-dloop-looped-speculative-decoding.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-10-09-efficiency-shorts.md": [
+"gpu-kernels",
+"quantization"
+],
+"inference-efficiency/2026-10-09-galahad-kv-50m-token-nvme-memory.md": [
+"kv-reuse"
+],
+"inference-efficiency/2026-10-09-opd-teacher-as-reward-cluster.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-10-09-session-aware-agentic-inference-dynamo.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-10-09-stepquant-recurrent-state-quantization.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-10-10-efficiency-shorts.md": [
+"architectures",
+"test-time-compute"
+],
+"inference-efficiency/2026-10-10-opd-skills-not-knowledge.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-10-sparsedecoding-decode-aware-pruning.md": [
+"pruning-sparsity"
+],
+"inference-efficiency/2026-10-10-sparseengine-sparse-first-inference.md": [
+"kv-eviction",
+"serving-systems"
+],
+"inference-efficiency/2026-10-11-serving-shorts.md": [
+"serving-systems",
+"accelerators"
+],
+"inference-efficiency/2026-10-13-dcoco-presto-speculation-shorts.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-10-13-efficiency-shorts.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-10-13-quantmla-low-bit-mla-kv-cache.md": [
+"kv-compression",
+"quantization"
+],
+"inference-efficiency/2026-10-13-replayssm-cache-inputs-not-state.md": [
+"architectures",
+"kv-compression"
+],
+"inference-efficiency/2026-10-13-semi-opd-and-when-on-policy-distillation-fails.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-14-efficiency-shorts.md": [
+"architectures"
+],
+"inference-efficiency/2026-10-14-hyperthink-text-to-parameter-reasoning.md": [
+"test-time-compute",
+"architectures"
+],
+"inference-efficiency/2026-10-14-lfm25-24b-a2b-and-ling-31-flash.md": [
+"architectures",
+"frontier-models"
+],
+"inference-efficiency/2026-10-14-opd-branching-representations-and-contraction.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-15-dosa-dots-sparse-attention.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-10-15-doubtless-contrastive-cot-compression.md": [
+"test-time-compute"
+],
+"inference-efficiency/2026-10-15-efficiency-shorts.md": [
+"training-efficiency",
+"serving-systems"
+],
+"inference-efficiency/2026-10-15-fewer-bits-more-tries-verified-retry.md": [
+"test-time-compute",
+"quantization"
+],
+"inference-efficiency/2026-10-16-compression-shorts.md": [
+"pruning-sparsity",
+"architectures",
+"moe-routing"
+],
+"inference-efficiency/2026-10-16-jssa-and-latent-compaction.md": [
+"kv-eviction",
+"kv-compression",
+"gpu-kernels"
+],
+"inference-efficiency/2026-10-16-kv4-rl-int4-kv-rollouts.md": [
+"kv-compression",
+"training-efficiency"
+],
+"inference-efficiency/2026-10-16-opd-guarding-critique-action.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-10-17-dory-looped-lm-and-dspine.md": [
+"architectures",
+"speculative-decoding"
+],
+"inference-efficiency/2026-10-17-flashmask-3.md": [
+"gpu-kernels",
+"accelerators"
+],
+"inference-efficiency/2026-10-17-remote-kv-tier-slower-than-gpu.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-10-17-virtual-head-attention-and-pn-mix.md": [
+"kv-compression",
+"architectures"
+],
+"inference-efficiency/2026-10-17-waypoint-opd.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-19-memorilla-latent-semantic-memory.md": [
+"context-compression",
+"agent-memory"
+],
+"inference-efficiency/2026-10-20-distillation-shorts-disaggkd-opmd-treeopsd.md": [
+"distillation",
+"training-efficiency"
+],
+"inference-efficiency/2026-10-20-frozen-16mb-vocabulary-ternary.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-10-20-speculative-drafting-dlite-ready-flashmap.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-10-20-vllm-push-and-bidirectional-kv-transfer.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-10-21-deepinfer-open-source-serving-stack.md": [
+"serving-systems",
+"speculative-decoding",
+"industry-business"
+],
+"inference-efficiency/2026-10-22-atest-and-implicit-budgeting.md": [
+"test-time-compute",
+"compute-economics"
+],
+"inference-efficiency/2026-10-22-cache-engineering-for-agents-akv.md": [
+"kv-eviction",
+"agent-cost",
+"kv-reuse"
+],
+"inference-efficiency/2026-10-22-conditional-program-ngram-two-bits.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-10-22-distillation-shorts-ask-to-distill.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-22-drafters-under-load-eagle4-dspark-ubtree.md": [
+"speculative-decoding",
+"serving-systems"
+],
+"inference-efficiency/2026-10-22-specter-dscout-echo-lafa-speculation.md": [
+"speculative-decoding",
+"moe-routing",
+"serving-systems"
+],
+"inference-efficiency/2026-10-22-tokengate-learned-prefill-pruning.md": [
+"context-compression",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-10-23-distillation-shorts-bsd-traceforge-rsd-glimmer.md": [
+"distillation"
+],
+"inference-efficiency/2026-10-23-pace-four-bit-recurrent-states.md": [
+"quantization",
+"architectures"
+],
+"inference-efficiency/2026-10-23-serving-operator-gap-semianalysis-minimax.md": [
+"serving-systems",
+"compute-economics"
+],
+"inference-efficiency/2026-10-23-stratified-sparse-attention.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-10-24-compression-shorts-ttr-t2quant-diffusion-cost.md": [
+"context-compression",
+"kv-compression"
+],
+"inference-efficiency/2026-10-24-meta-expert-cross-layer-moe.md": [
+"moe-routing"
+],
+"inference-efficiency/2026-10-24-softmax-cross-entropy-fix.md": [
+"gpu-kernels",
+"training-efficiency"
+],
+"inference-efficiency/2026-10-25-async-opsd.md": [
+"training-efficiency",
+"distillation"
+],
+"inference-efficiency/2026-10-25-lirquant-selective-rotation.md": [
+"quantization"
+],
+"inference-efficiency/2026-10-25-mosaic-per-layer-kv-budgets.md": [
+"kv-eviction"
+],
+"inference-efficiency/2026-10-26-agentic-opd-overshoot-scorer-minimal-edit.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-10-26-rift-draft-model-kv-compression.md": [
+"kv-eviction",
+"speculative-decoding"
+],
+"inference-efficiency/2026-10-26-stuck-agent-resources-and-budget-rewards.md": [
+"test-time-compute",
+"agent-cost"
+],
+"inference-efficiency/2026-10-27-speculative-diffusion-two-tradeoffs.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-10-27-twig-shared-decision-weights.md": [
+"quantization",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-10-28-local-decode-uzu-lfm3-ling.md": [
+"speculative-decoding",
+"accelerators"
+],
+"inference-efficiency/2026-10-28-minite-nvfp4-rl.md": [
+"quantization",
+"training-efficiency"
+],
+"inference-efficiency/2026-10-28-optic-ple-compression.md": [
+"quantization"
+],
+"inference-efficiency/2026-10-28-raq-mla-role-aware-cache-quant.md": [
+"kv-compression",
+"quantization"
+],
+"inference-efficiency/2026-10-28-thinkbit-two-bit-reasoning.md": [
+"quantization"
+],
+"inference-efficiency/2026-10-29-kv-cache-on-disk-and-cache-engineering.md": [
+"kv-reuse",
+"agent-cost"
+],
+"inference-efficiency/2026-10-29-moe-channel-selection-no-calibration.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-10-29-spot-diffusion-lm-speculative-decoding.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-10-30-kd-medusa-and-tensor-core-fp32.md": [
+"distillation",
+"gpu-kernels"
+],
+"inference-efficiency/2026-10-30-tao-tool-aware-agentic-serving.md": [
+"serving-systems",
+"agent-cost"
+],
+"inference-efficiency/2026-10-30-watermark-basins-distillation-detection.md": [
+"distillation",
+"alignment-safety"
+],
+"inference-efficiency/2026-10-31-ab-attention-block-sparse-video.md": [
+"pruning-sparsity",
+"gpu-kernels"
+],
+"inference-efficiency/2026-10-31-broken-on-arrival-quantized-artifacts.md": [
+"quantization"
+],
+"inference-efficiency/2026-10-31-glance-reranker-and-cache-economics.md": [
+"kv-reuse",
+"context-compression"
+],
+"inference-efficiency/2026-10-31-soft-mtp-kl-gradient-recovery.md": [
+"speculative-decoding",
+"distillation"
+],
+"inference-efficiency/2026-10-31-wisd-weakening-self-distillation.md": [
+"distillation",
+"quantization"
+],
+"inference-efficiency/2026-11-01-efficiency-shorts.md": [
+"gpu-kernels",
+"distillation",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-11-02-kv-compression-paged-infra-problems.md": [
+"kv-eviction",
+"serving-systems"
+],
+"inference-efficiency/2026-11-03-speculative-decoding-fine-grained-moe.md": [
+"speculative-decoding",
+"moe-routing"
+],
+"inference-efficiency/2026-11-04-efficiency-shorts.md": [
+"pruning-sparsity",
+"kv-compression"
+],
+"inference-efficiency/2026-11-04-latent-sparse-attention-10m-context.md": [
+"kv-eviction",
+"architectures"
+],
+"inference-efficiency/2026-11-04-order-only-on-policy-distillation.md": [
+"distillation"
+],
+"inference-efficiency/2026-11-04-prove-proposer-verifier-decoding.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-11-05-agents-optimize-inference-together-compiler-specpilot.md": [
+"gpu-kernels",
+"speculative-decoding"
+],
+"inference-efficiency/2026-11-05-context-budget-compaction-and-context-rot.md": [
+"context-compression"
+],
+"inference-efficiency/2026-11-05-reasoning-compression-and-moe-shorts.md": [
+"test-time-compute",
+"moe-routing"
+],
+"inference-efficiency/2026-11-06-distillation-limits-muon-rt-and-realtime-avatar.md": [
+"distillation"
+],
+"inference-efficiency/2026-11-06-loopvq-and-multi-layer-indexer.md": [
+"kv-compression",
+"kv-eviction"
+],
+"inference-efficiency/2026-11-06-simple-law-energy-cost-inference.md": [
+"compute-economics",
+"serving-systems"
+],
+"inference-efficiency/2026-11-06-speculative-decoding-specopd-d3d.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-11-07-moe-routing-strategies-for-serving.md": [
+"moe-routing",
+"serving-systems"
+],
+"inference-efficiency/2026-11-07-pact-prefill-to-autoregressive-transfer.md": [
+"serving-systems",
+"kv-reuse"
+],
+"inference-efficiency/2026-11-08-stepx-opd-merged-distillation.md": [
+"distillation",
+"multimodal"
+],
+"inference-efficiency/2026-11-09-chainflow-speculative-listening.md": [
+"speculative-decoding"
+],
+"inference-efficiency/2026-11-09-dspine-and-flux-klein-blackwell.md": [
+"speculative-decoding",
+"accelerators"
+],
+"inference-efficiency/2026-11-09-efficiency-and-agent-shorts.md": [
+"distillation"
+],
+"inference-efficiency/2026-11-09-intent-aware-caching.md": [
+"kv-reuse"
+],
+"inference-efficiency/2026-11-09-opd-vs-grpo-compute-and-weight-memory.md": [
+"distillation",
+"rl-post-training"
+],
+"inference-efficiency/2026-11-10-lowram-kv-value-amortisation.md": [
+"kv-compression"
+],
+"inference-efficiency/2026-11-10-p2-mopd-autocompress-hires.md": [
+"distillation",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-11-11-efficiency-shorts.md": [
+"training-efficiency"
+],
+"inference-efficiency/2026-11-11-maep-modality-aware-expert-pruning.md": [
+"moe-routing",
+"pruning-sparsity"
+],
+"inference-efficiency/2026-11-11-opd-mismatch-budget.md": [
+"distillation",
+"training-efficiency",
+"quantization"
+],
+"inference-efficiency/2026-11-11-ridgefill-late-layer-cache-fill.md": [
+"serving-systems",
+"kv-compression"
+],
+"inference-efficiency/2026-11-12-deletion-tuning-and-tree-ising.md": [
+"pruning-sparsity",
+"rl-post-training"
+],
+"inference-efficiency/2026-11-12-depthgraft-and-weighted-state-souping.md": [
+"kv-compression",
+"architectures"
+],
+"inference-efficiency/2026-11-12-macaq-and-kimi-nvfp4.md": [
+"quantization",
+"frontier-models"
+],
+"inference-efficiency/2026-11-12-sable-bit-exact-verifiable-inference.md": [
+"verified-optimization"
+],
+"inference-efficiency/2026-11-13-evolving-infra-agent-adaptive-serving.md": [
+"serving-systems",
+"kv-reuse"
+],
+"inference-efficiency/2026-11-13-precision-on-demand-and-bits-or-permutations.md": [
+"quantization",
+"test-time-compute"
+],
+"inference-efficiency/2026-11-13-steerdistill-quantized-agents.md": [
+"quantization",
+"distillation"
+],
+"inference-efficiency/2026-11-14-end-to-end-4bit-training-inkling.md": [
+"quantization",
+"training-efficiency",
+"frontier-models"
+],
+"inference-efficiency/2026-11-14-prefix-cache-metastability-bursts.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-11-14-rampr-moe-neuron-pruning.md": [
+"moe-routing",
+"interpretability"
+],
+"inference-efficiency/2026-11-15-batch-aware-moe-routing-energy.md": [
+"moe-routing",
+"serving-systems"
+],
+"inference-efficiency/2026-11-15-rounding-breaks-ml-floatlib.md": [
+"quantization",
+"verified-optimization"
+],
+"inference-efficiency/2026-11-16-compressionbench.md": [
+"quantization",
+"agent-evals"
+],
+"inference-efficiency/2026-11-17-agent-sessions-prefix-cache-discipline.md": [
+"kv-reuse",
+"agent-cost"
+],
+"inference-efficiency/2026-11-17-batch-makespan-agent-workloads.md": [
+"serving-systems",
+"agent-cost"
+],
+"inference-efficiency/2026-11-17-efficiency-shorts-compiler-mobile-format.md": [
+"gpu-kernels",
+"distillation",
+"agent-cost"
+],
+"inference-efficiency/2026-11-17-mmflash-multimodal-speculative-decoding.md": [
+"speculative-decoding",
+"multimodal"
+],
+"inference-efficiency/2026-11-17-zero-tim-bitwise-rl-tpu.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
+"agent-evals"
+],
+"llms-foundation-models/2026-04-16-open-vs-closed-models-mid-2026.md": [
+"frontier-models",
+"industry-business"
+],
+"llms-foundation-models/2026-04-16-prerl-rl-in-pretrain-space.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-04-18-c2-rubric-reward-modeling.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-04-19-asguard-activation-jailbreak-defense.md": [
+"alignment-safety",
+"interpretability"
+],
+"llms-foundation-models/2026-04-19-vgf-value-gradient-flow-rl.md": [
+"rl-post-training",
+"test-time-compute"
+],
+"llms-foundation-models/2026-04-21-geometric-canary.md": [
+"interpretability"
+],
+"llms-foundation-models/2026-04-21-gft-sft-as-degenerate-rl.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-04-21-rlvr-weak-supervision-reasoning-faithfulness.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-04-22-chain-of-thought-degrades-spatial.md": [
+"multimodal",
+"test-time-compute"
+],
+"llms-foundation-models/2026-04-22-target-pretraining-nag.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-04-22-tempo-test-time-training.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"llms-foundation-models/2026-04-22-weight-disentanglement-task-arithmetic.md": [
+"interpretability"
+],
+"llms-foundation-models/2026-04-24-deepseek-v4-architecture.md": [
+"frontier-models",
+"architectures",
+"kv-reuse"
+],
+"llms-foundation-models/2026-04-24-gpt-55-launch-system-card.md": [
+"frontier-models",
+"alignment-safety"
+],
+"llms-foundation-models/2026-04-28-hope-nested-learning-architecture.md": [
+"architectures"
+],
+"llms-foundation-models/2026-04-30-llm-user-simulation-survey.md": [
+"agent-evals"
+],
+"llms-foundation-models/2026-05-01-copd-co-evolving-policy-distillation.md": [
+"distillation",
+"rl-post-training",
+"multimodal"
+],
+"llms-foundation-models/2026-05-02-arc-agi-3-three-systematic-reasoning-errors.md": [
+"agent-evals",
+"frontier-models"
+],
+"llms-foundation-models/2026-05-02-compliance-vs-sensibility-reasoning-controllability.md": [
+"interpretability",
+"test-time-compute"
+],
+"llms-foundation-models/2026-05-02-defense-trilemma-np-hardness-reward-hacking.md": [
+"alignment-safety"
+],
+"llms-foundation-models/2026-05-02-safety-drift-fine-tuning-high-stakes.md": [
+"alignment-safety",
+"governance-policy"
+],
+"llms-foundation-models/2026-05-03-ken-huang-world-models-architectures.md": [
+"architectures",
+"embodied-3d"
+],
+"llms-foundation-models/2026-05-03-marcus-llm-patient-outcomes.md": [
+"governance-policy"
+],
+"llms-foundation-models/2026-05-03-mit-superposition-scaling-laws.md": [
+"scaling-laws",
+"interpretability"
+],
+"llms-foundation-models/2026-05-03-philosophy-bench-ethical-divergence.md": [
+"alignment-safety"
+],
+"llms-foundation-models/2026-05-04-import-ai-455-automated-ai-rd.md": [
+"agent-evals",
+"alignment-safety"
+],
+"llms-foundation-models/2026-05-04-themis-multilingual-code-reward-models.md": [
+"rl-post-training",
+"agent-evals"
+],
+"llms-foundation-models/2026-05-08-resrl-negative-sample-projection-rl.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-08-sxs-disclosure-policies-llm-reasoning.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-09-balanced-aggregation-grpo.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-09-prescriptive-scaling-laws-data-constrained.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-09-tide-every-layer-knows-token.md": [
+"architectures",
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-10-gowers-gpt55-pro-math.md": [
+"frontier-models",
+"verified-optimization"
+],
+"llms-foundation-models/2026-05-12-g-zero-verifier-free-self-play.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-12-geometry-conflict-continual-post-training.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-12-model-merging-scaling-laws.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-12-rebellious-student-rlrt.md": [
+"distillation",
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-12-soohak-research-math-benchmark.md": [
+"agent-evals",
+"frontier-models"
+],
+"llms-foundation-models/2026-05-13-reward-hacking-rubric-based-rl.md": [
+"alignment-safety",
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-14-many-shot-cot-icl.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-15-darwin-family-evolutionary-merging.md": [
+"frontier-models",
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-15-su-01-gold-olympiad-reasoning-30b.md": [
+"rl-post-training",
+"frontier-models"
+],
+"llms-foundation-models/2026-05-18-aira-compose-design-agentic-architecture-search.md": [
+"architectures",
+"self-improving-harness"
+],
+"llms-foundation-models/2026-05-18-cipo-correction-oriented-rlvr.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-18-nudgerl-strategy-guided-rlvr.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"llms-foundation-models/2026-05-19-dihal-geometry-guided-diffusion-language-model.md": [
+"architectures"
+],
+"llms-foundation-models/2026-05-19-mixsd-mixed-contextual-self-distillation-knowledge-injection.md": [
+"distillation"
+],
+"llms-foundation-models/2026-05-19-ngm-plug-and-play-training-free-memory.md": [
+"architectures"
+],
+"llms-foundation-models/2026-05-20-antisd-anti-self-distillation-pmi-divergence-ascent.md": [
+"distillation",
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-20-cepo-contrastive-evidence-policy-optimization.md": [
+"rl-post-training",
+"distillation"
+],
+"llms-foundation-models/2026-05-20-copt-contrastive-on-policy-thinking-continuous-spaces.md": [
+"test-time-compute"
+],
+"llms-foundation-models/2026-05-20-delta-attention-residuals.md": [
+"architectures"
+],
+"llms-foundation-models/2026-05-20-golongrl-long-context-rlvr.md": [
+"rl-post-training",
+"architectures"
+],
+"llms-foundation-models/2026-05-20-process-rewards-learned-reliability-betaprm.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-21-cohere-command-a-plus-open-source.md": [
+"frontier-models"
+],
+"llms-foundation-models/2026-05-21-cpo-dpo-rlhf-conditional-equivalence.md": [
+"rl-post-training",
+"alignment-safety"
+],
+"llms-foundation-models/2026-05-21-dynmuon-spectral-shaping.md": [
+"training-efficiency"
+],
+"llms-foundation-models/2026-05-21-hrm-text-efficient-pretraining.md": [
+"architectures",
+"training-efficiency"
+],
+"llms-foundation-models/2026-05-21-openai-erdos-unit-distance-proof.md": [
+"frontier-models",
+"test-time-compute"
+],
+"llms-foundation-models/2026-05-21-relex-rank1-rlvr-extrapolation.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"llms-foundation-models/2026-05-21-unlearnability-rlvr.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-23-acc-agent-trajectory-long-context-training.md": [
+"tool-use",
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-23-delta-discriminative-token-credit-rlvr.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-23-same-architecture-optimizer-induced-spectral-scaling.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-23-scrl-subproblem-curriculum-rl.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-23-scrl-subproblem-curriculum-rlvr.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-23-unsupervised-process-reward-models.md": [
+"rl-post-training",
+"test-time-compute"
+],
+"llms-foundation-models/2026-05-24-alien-space-of-science.md": [
+"frontier-models"
+],
+"llms-foundation-models/2026-05-24-vector-policy-optimization-diverse-rl.md": [
+"rl-post-training",
+"test-time-compute"
+],
+"llms-foundation-models/2026-05-25-shannon-scaling-law-noisy-channel.md": [
+"scaling-laws",
+"quantization"
+],
+"llms-foundation-models/2026-05-26-dvao-multi-reward-grpo.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-27-minimax-m2-mini-activation-moe.md": [
+"frontier-models",
+"moe-routing"
+],
+"llms-foundation-models/2026-05-27-scale-vectors-in-llms.md": [
+"architectures"
+],
+"llms-foundation-models/2026-05-28-ib-tpo-information-bottleneck-tree-policy.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-28-joint-mtp-rl-occ.md": [
+"rl-post-training",
+"speculative-decoding"
+],
+"llms-foundation-models/2026-05-29-corver-verifiable-rewards-beyond-math-code.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-05-29-why-larger-models-learn-more-capacity-interference.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-05-31-in-writing-think-before-constraining.md": [
+"tool-use",
+"test-time-compute"
+],
+"llms-foundation-models/2026-05-31-reflective-prompt-tuning-function-calling.md": [
+"harness-engineering"
+],
+"llms-foundation-models/2026-06-01-drift-decoupled-rollouts-weighted-sft.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-01-save-reward-model-self-improvement.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-01-scope-self-play-co-evolving.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-02-espo-early-stopping-ppo.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-02-glr-geometric-latent-reasoning.md": [
+"test-time-compute",
+"architectures"
+],
+"llms-foundation-models/2026-06-02-hamilton-jacobi-theory-deep-learning.md": [
+"architectures"
+],
+"llms-foundation-models/2026-06-02-nitp-next-implicit-token-prediction.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-06-02-temporal-scheduling-rlvr.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-03-harmful-continuation-long-cot-sft.md": [
+"test-time-compute"
+],
+"llms-foundation-models/2026-06-03-language-models-need-sleep-knowledge-seeding.md": [
+"distillation",
+"agent-memory"
+],
+"llms-foundation-models/2026-06-03-local-perturbation-multi-domain-rl-interference.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-03-mai-thinking-1-hill-climbing.md": [
+"frontier-models",
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-03-merit-decentralized-instruction-tuning-merging.md": [
+"training-efficiency"
+],
+"llms-foundation-models/2026-06-04-marin-moe-pretraining-efficiency.md": [
+"training-efficiency",
+"moe-routing"
+],
+"llms-foundation-models/2026-06-04-thoughtfold-folding-reasoning-chains.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-05-nf-cot-latent-reasoning-normalizing-flows.md": [
+"test-time-compute",
+"architectures"
+],
+"llms-foundation-models/2026-06-05-rl-contextual-learning-unseen-translation.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-06-combinatorial-synthesis-adr-code-rlvr.md": [
+"rl-post-training",
+"agent-evals"
+],
+"llms-foundation-models/2026-06-08-gradient-collide-multiobjective-prompt.md": [
+"harness-engineering",
+"agent-evals"
+],
+"llms-foundation-models/2026-06-09-apple-afm3-foundation-models.md": [
+"moe-routing",
+"frontier-models"
+],
+"llms-foundation-models/2026-06-09-pbsd-bayesian-self-distillation.md": [
+"rl-post-training",
+"distillation"
+],
+"llms-foundation-models/2026-06-09-why-muon-outperforms-adam.md": [
+"training-efficiency"
+],
+"llms-foundation-models/2026-06-10-drpo-divergence-regularized-policy-optimization.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-10-flowtracer-attention-flow-credit-assignment.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-11-moe-router-manifold-power-iteration.md": [
+"moe-routing"
+],
+"llms-foundation-models/2026-06-11-races-composable-verifiable-environments.md": [
+"agent-evals",
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-12-maxproof-minimax-m3-test-time-scaling.md": [
+"test-time-compute",
+"verified-optimization"
+],
+"llms-foundation-models/2026-06-12-switch-switchable-latent-reasoning.md": [
+"test-time-compute",
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-14-n-grpo-neighbor-mixing-grpo.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-14-stationary-compatible-representations.md": [
+"multimodal"
+],
+"llms-foundation-models/2026-06-15-s2l-po-small-models-explorers-grpo.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-16-ling-ring-2.6-hybrid-linear-attention.md": [
+"architectures",
+"frontier-models"
+],
+"llms-foundation-models/2026-06-16-nemotron-3-ultra-moe-hybrid-mamba.md": [
+"architectures",
+"frontier-models"
+],
+"llms-foundation-models/2026-06-17-glm-5.2-long-horizon-open-weights.md": [
+"frontier-models"
+],
+"llms-foundation-models/2026-06-17-looped-world-models.md": [
+"architectures",
+"multimodal"
+],
+"llms-foundation-models/2026-06-17-wapo-rlvr-gradient-stability.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-06-18-kairos-world-model-hybrid-linear-attention.md": [
+"architectures",
+"multimodal"
+],
+"llms-foundation-models/2026-06-18-sumi-open-uniform-diffusion-llm.md": [
+"architectures"
+],
+"llms-foundation-models/2026-06-18-turing-rl-user-simulators.md": [
+"agent-evals"
+],
+"llms-foundation-models/2026-07-21-experiential-learning-llm-as-coach.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-07-21-gepo-group-entropy-policy-optimization.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-07-21-motif-3-beta-open-weight-moe.md": [
+"frontier-models",
+"moe-routing"
+],
+"llms-foundation-models/2026-07-24-llms-lost-evolving-user-intent.md": [
+"agent-evals"
+],
+"llms-foundation-models/2026-07-25-claude-opus-5.md": [
+"llm-routing",
+"frontier-models"
+],
+"llms-foundation-models/2026-07-26-self-play-reward-hacking-llm-judges.md": [
+"alignment-safety",
+"rl-post-training"
+],
+"llms-foundation-models/2026-07-28-kimi-k3-open-frontier-intelligence.md": [
+"frontier-models",
+"moe-routing"
+],
+"llms-foundation-models/2026-07-29-wonder-video-world-model.md": [
+"multimodal"
+],
+"llms-foundation-models/2026-07-31-explorative-modeling-third-pretraining-axis.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-07-31-mhar-multi-head-attention-residuals.md": [
+"architectures"
+],
+"llms-foundation-models/2026-08-01-openai-astra-ten-math-advances.md": [
+"verified-optimization",
+"frontier-models"
+],
+"llms-foundation-models/2026-08-02-grokking-weight-decay-clock.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-08-02-what-reward-models-memorize.md": [
+"rl-post-training",
+"interpretability"
+],
+"llms-foundation-models/2026-08-03-cripo-rubric-rl-self-distillation.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-08-03-rlsvr-spyrl-self-verifiable-rewards.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-08-04-raven-sparse-memory-routing.md": [
+"architectures"
+],
+"llms-foundation-models/2026-08-04-reco-grpo-distributional-concentration.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-08-04-semianalysis-kimi-k3-architecture-primer.md": [
+"kv-compression",
+"architectures"
+],
+"llms-foundation-models/2026-08-04-uembed-unified-sparse-dense-embeddings.md": [
+"multimodal"
+],
+"llms-foundation-models/2026-08-05-aurora-lm-continuous-latent-diffusion.md": [
+"architectures"
+],
+"llms-foundation-models/2026-08-05-llada-moe-v2-scaling-moe-diffusion-lms.md": [
+"architectures",
+"moe-routing"
+],
+"llms-foundation-models/2026-08-06-physics-multimodal-pretraining.md": [
+"scaling-laws",
+"multimodal",
+"training-efficiency"
+],
+"llms-foundation-models/2026-08-06-skill-entropy-rl.md": [
+"agent-evals"
+],
+"llms-foundation-models/2026-08-10-modular-ttt-composable-test-time-training.md": [
+"architectures"
+],
+"llms-foundation-models/2026-08-10-skaling-scaling-law-coupling.md": [
+"scaling-laws"
+],
+"llms-foundation-models/2026-08-11-motif-3-gdla-moe.md": [
+"architectures",
+"kv-compression",
+"moe-routing"
+],
+"llms-foundation-models/2026-08-16-glm-5-3-post-training-only-frontier.md": [
+"frontier-models",
+"rl-post-training"
+],
+"llms-foundation-models/2026-08-28-evolution-strategies-vs-grpo.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"llms-foundation-models/2026-08-28-spectral-allocation-muon.md": [
+"training-efficiency"
+],
+"llms-foundation-models/2026-08-31-rcca-rubric-to-code-credit-assignment.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-02-smelt-moe-looped-transformers.md": [
+"architectures",
+"scaling-laws",
+"moe-routing"
+],
+"llms-foundation-models/2026-09-03-cliff-process-rewards-first-mistake.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-05-last-translation-benchmark.md": [
+"multimodal"
+],
+"llms-foundation-models/2026-09-05-locked-at-the-entrance-rlvr-breadth.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-07-falcon-fast-weight-attention.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-07-free-pause-tokens.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-09-07-gapo-group-adaptive-clipping.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-09-kalman-delta-networks.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-10-deepseek-v41-flash-architecture.md": [
+"frontier-models",
+"architectures"
+],
+"llms-foundation-models/2026-09-10-raschka-looped-transformers-recurrent-depth.md": [
+"architectures",
+"kv-compression"
+],
+"llms-foundation-models/2026-09-10-revisiting-complete-reasoning-traces.md": [
+"test-time-compute",
+"training-efficiency"
+],
+"llms-foundation-models/2026-09-10-trace-as-state-conditional-state-long-context.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-11-ncp-archpreview-next-concept-prediction.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-12-muon-c-operator-aligned-optimizer.md": [
+"training-efficiency"
+],
+"llms-foundation-models/2026-09-13-length-generalization-via-compression.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-13-recurrent-looped-transformer.md": [
+"architectures",
+"kv-compression"
+],
+"llms-foundation-models/2026-09-15-zgcm-1-open-efficient-7b.md": [
+"frontier-models",
+"tool-use"
+],
+"llms-foundation-models/2026-09-16-drift-constrained-optimization.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-17-compo-zeroth-order-preference-alignment.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-18-video-deltanet-hybrid-attention.md": [
+"multimodal",
+"architectures"
+],
+"llms-foundation-models/2026-09-19-self-evolving-search-index.md": [
+"agent-memory"
+],
+"llms-foundation-models/2026-09-19-verifiable-social-reasoning.md": [
+"agent-evals"
+],
+"llms-foundation-models/2026-09-20-probe-guidance-flow-lms.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-09-23-complex-kda-expressivity.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-24-memory-attention-token-indexed-values.md": [
+"architectures",
+"kv-reuse"
+],
+"llms-foundation-models/2026-09-24-pact-token-credit-critic-alignment.md": [
+"rl-post-training",
+"distillation"
+],
+"llms-foundation-models/2026-09-25-proteus-incremental-memory-activation.md": [
+"architectures"
+],
+"llms-foundation-models/2026-09-25-superposition-linearity-two-thoughts.md": [
+"interpretability",
+"architectures"
+],
+"llms-foundation-models/2026-09-26-learning-to-discover-interesting-mathematics.md": [
+"verified-optimization"
+],
+"llms-foundation-models/2026-09-27-cdlm-corrective-diffusion-lm.md": [
+"architectures",
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-27-flashloop-lazy-updates.md": [
+"architectures",
+"kv-compression"
+],
+"llms-foundation-models/2026-09-27-sparse-layers-looped-moe.md": [
+"architectures",
+"moe-routing"
+],
+"llms-foundation-models/2026-09-28-loopformer-elastic-depth.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-09-29-continuous-depth-batching-looped-lms.md": [
+"serving-systems",
+"architectures"
+],
+"llms-foundation-models/2026-09-29-diffusion-reward-models.md": [
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-29-pisa-log-linear-block-sparse-attention.md": [
+"kv-eviction",
+"gpu-kernels"
+],
+"llms-foundation-models/2026-09-30-behavioral-shadows-active-taskless-distillation.md": [
+"distillation",
+"rl-post-training"
+],
+"llms-foundation-models/2026-09-30-massalloc-cowindow-attention.md": [
+"kv-eviction",
+"gpu-kernels"
+],
+"llms-foundation-models/2026-09-30-wavefront-decoding-tah2-looped.md": [
+"speculative-decoding",
+"architectures"
+],
+"llms-foundation-models/2026-10-01-taps-looped-recurrence-design.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-10-02-loop-scaling-laws-looped-moe.md": [
+"scaling-laws",
+"architectures"
+],
+"llms-foundation-models/2026-10-03-loopcd-looped-contrastive-decoding.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-10-03-sampling-vs-rl-ppt-sharpening-tax.md": [
+"rl-post-training",
+"test-time-compute"
+],
+"llms-foundation-models/2026-10-04-foil-how-to-loop-moe.md": [
+"moe-routing",
+"architectures"
+],
+"llms-foundation-models/2026-10-06-extender-log-structured-transformer.md": [
+"kv-compression",
+"architectures"
+],
+"llms-foundation-models/2026-10-06-loom-looped-moe-beyond-twice.md": [
+"moe-routing",
+"architectures"
+],
+"llms-foundation-models/2026-10-07-logra-low-rank-gradient-rl.md": [
+"training-efficiency",
+"rl-post-training"
+],
+"llms-foundation-models/2026-10-07-looped-fixed-points-alodlm-lift.md": [
+"architectures",
+"training-efficiency"
+],
+"llms-foundation-models/2026-10-09-hybrid-mechanics-rlt-cmm.md": [
+"architectures",
+"kv-compression"
+],
+"llms-foundation-models/2026-10-10-mimo-v2-6-scaled-agentic-rl.md": [
+"rl-post-training",
+"agent-evals"
+],
+"llms-foundation-models/2026-10-13-elastic-latent-recurrence-koi.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-10-13-meta-muse-wonder.md": [
+"frontier-models",
+"agent-memory"
+],
+"llms-foundation-models/2026-10-13-priming-hybrid-ssm-from-transformers.md": [
+"architectures",
+"distillation"
+],
+"llms-foundation-models/2026-10-14-gemini-4-argon.md": [
+"frontier-models",
+"kv-reuse"
+],
+"llms-foundation-models/2026-10-16-muse-spark-open-and-nemotron-35.md": [
+"frontier-models",
+"serving-systems"
+],
+"llms-foundation-models/2026-10-17-mai-base-2-reflection-beam-glimpse.md": [
+"frontier-models",
+"training-efficiency"
+],
+"llms-foundation-models/2026-10-18-deepseek-v41-flash-1017.md": [
+"frontier-models",
+"kv-compression"
+],
+"llms-foundation-models/2026-10-20-lev-and-looped-models-done-right.md": [
+"test-time-compute",
+"architectures"
+],
+"llms-foundation-models/2026-10-22-competing-learning-hybrids-kronlstm.md": [
+"architectures",
+"training-efficiency"
+],
+"llms-foundation-models/2026-10-23-shorts-loops-diffusion-sparsity-verifiers.md": [
+"architectures",
+"test-time-compute"
+],
+"llms-foundation-models/2026-10-24-kimi-k3-1-pro.md": [
+"frontier-models",
+"rl-post-training"
+],
+"llms-foundation-models/2026-10-24-research-shorts-wait-iquest-dfm-mosaic.md": [
+"rl-post-training",
+"scaling-laws"
+],
+"llms-foundation-models/2026-10-26-looped-depth-grown-icl.md": [
+"architectures",
+"scaling-laws"
+],
+"llms-foundation-models/2026-10-27-reward-models-verified-optimization-shorts.md": [
+"rl-post-training",
+"verified-optimization",
+"distillation"
+],
+"llms-foundation-models/2026-10-28-agent-swarm-math-cfsg-eth.md": [
+"verified-optimization",
+"multi-agent"
+],
+"llms-foundation-models/2026-10-28-nestor-nested-sparsity.md": [
+"moe-routing",
+"architectures"
+],
+"llms-foundation-models/2026-10-29-gemini-4-carbon-and-gpt-6-1-terra.md": [
+"frontier-models",
+"llm-routing"
+],
+"llms-foundation-models/2026-10-29-looped-truncation-and-what-outcome-rl-buys.md": [
+"architectures",
+"rl-post-training"
+],
+"llms-foundation-models/2026-10-30-mistral-large-4-open-weights.md": [
+"frontier-models",
+"quantization"
+],
+"llms-foundation-models/2026-10-31-nemotron-35-report-and-4bit-serving.md": [
+"quantization",
+"frontier-models",
+"distillation"
+],
+"llms-foundation-models/2026-11-01-air-schedule-unified-training-benchmark-measure.md": [
+"training-efficiency",
+"scaling-laws"
+],
+"llms-foundation-models/2026-11-03-training-inference-mismatch-dlc.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"llms-foundation-models/2026-11-04-statebench-and-linear-attention-memory.md": [
+"architectures",
+"agent-evals"
+],
+"llms-foundation-models/2026-11-05-kimi-k3-1-pro-open-weights.md": [
+"frontier-models",
+"quantization",
+"moe-routing"
+],
+"llms-foundation-models/2026-11-06-inkling-2-small-and-open-moe-wave.md": [
+"frontier-models",
+"moe-routing",
+"training-efficiency"
+],
+"llms-foundation-models/2026-11-07-cola2-continuous-latent-lm.md": [
+"architectures",
+"frontier-models"
+],
+"llms-foundation-models/2026-11-10-claude-fable-mythos-5-2.md": [
+"frontier-models",
+"alignment-safety"
+],
+"llms-foundation-models/2026-11-11-gemini-4-carbon.md": [
+"frontier-models",
+"test-time-compute"
+],
+"llms-foundation-models/2026-11-12-dense-rewards-matched-compute-grpo.md": [
+"rl-post-training",
+"training-efficiency"
+],
+"llms-foundation-models/2026-11-13-gemini-4-hydrogen.md": [
+"frontier-models",
+"compute-economics"
+],
+"llms-foundation-models/2026-11-14-foam-simplehc-training-efficiency.md": [
+"training-efficiency"
+],
+"llms-foundation-models/2026-11-16-raschka-positional-embeddings.md": [
+"architectures",
+"scaling-laws"
+],
+"llms-foundation-models/2026-11-16-training-history-in-weights.md": [
+"scaling-laws",
+"interpretability"
+],
+"llms-foundation-models/2026-11-17-qwen4-max-and-loopback-transformer.md": [
+"frontier-models",
+"architectures"
+],
+"responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
+"alignment-safety",
+"test-time-compute"
+],
+"responsible-ai/2026-05-09-anthropic-natural-language-autoencoders.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-05-10-emotion-ai-workplace-atlantic.md": [
+"governance-policy"
+],
+"responsible-ai/2026-05-13-massive-activations-me-layer.md": [
+"interpretability",
+"quantization"
+],
+"responsible-ai/2026-05-14-writesae-sae-recurrent-state.md": [
+"interpretability",
+"architectures"
+],
+"responsible-ai/2026-05-16-lisa-lifelong-safety-adaptation.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-05-17-llm-detection-manipulative-political-narratives.md": [
+"governance-policy"
+],
+"responsible-ai/2026-05-18-diagnosticiq-industrial-llm-deployment-calibration.md": [
+"agent-evals"
+],
+"responsible-ai/2026-05-19-monitoring-internal-monologue-probe-trajectories.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-05-20-language-switching-backdoor-circuit.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-05-21-ai-snake-oil-resilience-vs-nonproliferation.md": [
+"governance-policy"
+],
+"responsible-ai/2026-05-21-aisn-73-beijing-summit-eigenism-musk-verdict.md": [
+"governance-policy",
+"alignment-safety"
+],
+"responsible-ai/2026-05-23-cotrace-goal-level-ai-contribution-attribution.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-05-23-project-glasswing-claude-mythos-10000-vulns.md": [
+"frontier-models",
+"alignment-safety"
+],
+"responsible-ai/2026-05-23-skill-md-supply-chain-attacks.md": [
+"alignment-safety",
+"tool-use"
+],
+"responsible-ai/2026-05-24-lorenc-foundation-model-encryption.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-05-26-faithfulness-metrics-meta-evaluation.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-05-27-trajel-trajectory-level-hallucinations.md": [
+"multi-agent",
+"agent-evals"
+],
+"responsible-ai/2026-05-29-alignment-tampering-rlhf-bias-amplification.md": [
+"alignment-safety",
+"rl-post-training"
+],
+"responsible-ai/2026-05-30-agentdog-15-lightweight-agent-alignment.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-05-30-lora-adapter-backdoors-token-level.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-05-30-reducing-political-manipulation-consistency-training.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-05-30-xetrieval-mechanistic-dense-retrieval.md": [
+"interpretability"
+],
+"responsible-ai/2026-06-01-chain-of-authorization.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-06-01-clawtrojan-persistent-control-trojan.md": [
+"alignment-safety",
+"harness-engineering"
+],
+"responsible-ai/2026-06-01-emergent-languages-oversight-evasion.md": [
+"multi-agent",
+"alignment-safety"
+],
+"responsible-ai/2026-06-03-deception-probes-pressure-test.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-06-05-propme-memorization-propensity.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-06-06-saber-operational-safety-coding-agents.md": [
+"agent-evals",
+"alignment-safety"
+],
+"responsible-ai/2026-06-06-shape-of-addition-arithmetic-geometry.md": [
+"interpretability"
+],
+"responsible-ai/2026-06-09-anthropic-n-days-mythos-cyber.md": [
+"alignment-safety",
+"frontier-models"
+],
+"responsible-ai/2026-06-10-emergent-misalignment-sycophancy-alignment-gating.md": [
+"alignment-safety",
+"rl-post-training"
+],
+"responsible-ai/2026-06-10-when-cot-knows-better-multiturn-failure-modes.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-06-11-ica-lens-interpretability.md": [
+"interpretability"
+],
+"responsible-ai/2026-06-11-llm-overconfidence-ownership-bias.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-06-12-susvibes-vibe-coding-security-benchmark.md": [
+"agent-evals",
+"alignment-safety"
+],
+"responsible-ai/2026-06-13-cold-start-safety-gap-agents.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-06-13-risk-under-pressure-compute-aware-robustness.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-06-15-when-is-your-llm-steerable.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-06-16-who-flips-answer-stability.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-06-18-sae-interventions-unreliable.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-06-18-value-diversity-multicultural-agents.md": [
+"multi-agent",
+"alignment-safety"
+],
+"responsible-ai/2026-07-07-j-space-global-workspace.md": [
+"interpretability",
+"multi-agent"
+],
+"responsible-ai/2026-07-22-exploitgym-model-breaches-huggingface.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-07-26-masov-access-control-cyber-benchmark.md": [
+"agent-evals",
+"alignment-safety"
+],
+"responsible-ai/2026-07-26-openai-hf-hack-detection-failure.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-07-26-opus-5-prompt-injection-auto-mode.md": [
+"alignment-safety",
+"frontier-models"
+],
+"responsible-ai/2026-07-26-statistically-undetectable-backdoors.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-07-27-agentic-ai-cves-amplification-stack.md": [
+"alignment-safety",
+"tool-use"
+],
+"responsible-ai/2026-07-29-agent-intrusion-technical-timeline.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-07-30-gpt-red-self-play-red-teaming.md": [
+"alignment-safety",
+"rl-post-training"
+],
+"responsible-ai/2026-07-30-secrespond-post-compromise-incident-response.md": [
+"agent-evals",
+"alignment-safety"
+],
+"responsible-ai/2026-07-30-stealthbench-opsec-offensive-agents.md": [
+"agent-evals",
+"alignment-safety"
+],
+"responsible-ai/2026-07-31-misknow-agent-deep-research-reliability.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-08-01-context-is-king-concept-geometry.md": [
+"interpretability"
+],
+"responsible-ai/2026-08-01-thinking-machines-safe-path-open-weights.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-08-02-sae-concepts-and-functions.md": [
+"interpretability"
+],
+"responsible-ai/2026-08-03-aispa-system-prompt-auditing.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-08-03-copyable-context-safety-trilemma.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-08-03-filler-token-invisible-reasoning.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-08-04-ropd-routing-safety-realignment.md": [
+"distillation",
+"alignment-safety"
+],
+"responsible-ai/2026-08-04-self-sustaining-ai-computer-worms.md": [
+"alignment-safety",
+"multi-agent"
+],
+"responsible-ai/2026-08-05-model-containment-escapes.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-08-05-skilljack-persistent-skill-backdoors.md": [
+"alignment-safety",
+"agent-memory"
+],
+"responsible-ai/2026-08-06-cot-monitoring-implicit-influence.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-08-06-observability-ladder-reasoning-summaries.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-08-06-personalization-mirage-over-inference.md": [
+"agent-memory",
+"alignment-safety"
+],
+"responsible-ai/2026-08-10-interconnects-lessons-from-the-hacks.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-08-11-scaling-interpretable-language-models.md": [
+"interpretability",
+"scaling-laws"
+],
+"responsible-ai/2026-08-11-stealing-reasoning-traces.md": [
+"alignment-safety",
+"test-time-compute"
+],
+"responsible-ai/2026-08-11-waic-agentic-safety-forum.md": [
+"governance-policy",
+"alignment-safety"
+],
+"responsible-ai/2026-08-12-frontier-ai-risk-monitor-q2.md": [
+"governance-policy",
+"alignment-safety"
+],
+"responsible-ai/2026-08-13-mind-viruses-multi-agent-contagion.md": [
+"multi-agent",
+"alignment-safety"
+],
+"responsible-ai/2026-08-13-toolhazard-adversarial-environment-synthesis.md": [
+"alignment-safety",
+"tool-use",
+"agent-evals"
+],
+"responsible-ai/2026-08-14-rhetoric-reward-hacking-ai-reviewers.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-08-16-instruction-tuning-confidence-lexical-diversity.md": [
+"rl-post-training",
+"alignment-safety"
+],
+"responsible-ai/2026-08-28-pruning-sae-robustness.md": [
+"pruning-sparsity",
+"interpretability"
+],
+"responsible-ai/2026-08-29-evaluation-license-claim-replay-census.md": [
+"agent-evals"
+],
+"responsible-ai/2026-08-31-elephantbench-epistemic-myopia.md": [
+"agent-evals"
+],
+"responsible-ai/2026-08-31-lmsm-llm-security-modules.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-08-31-stepguard-step-level-guardrails.md": [
+"alignment-safety",
+"tool-use"
+],
+"responsible-ai/2026-09-03-astra-recurrent-depth-monitorability.md": [
+"architectures",
+"frontier-models"
+],
+"responsible-ai/2026-09-04-pace-hidden-conflicts-user-requests.md": [
+"alignment-safety",
+"agent-memory"
+],
+"responsible-ai/2026-09-06-abliteration-commercial-guardrail-stripping.md": [
+"alignment-safety",
+"industry-business"
+],
+"responsible-ai/2026-09-06-llms-as-cognitive-virus.md": [
+"governance-policy"
+],
+"responsible-ai/2026-09-06-sparse-reward-subsystem.md": [
+"interpretability"
+],
+"responsible-ai/2026-09-10-discovery-certification-protocol.md": [
+"agent-evals"
+],
+"responsible-ai/2026-09-10-saescientist-bench-autonomous-interpretability.md": [
+"interpretability",
+"agent-evals"
+],
+"responsible-ai/2026-09-10-schemearena-factorized-scheming.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-09-12-math-and-ai-declaration.md": [
+"governance-policy"
+],
+"responsible-ai/2026-09-12-rubygems-openai-agent-swarm.md": [
+"alignment-safety",
+"industry-business"
+],
+"responsible-ai/2026-09-14-plc-dpo-posterior-label-correction.md": [
+"rl-post-training"
+],
+"responsible-ai/2026-09-14-vibe-coding-skill-predictors-eth.md": [
+"harness-engineering",
+"agent-evals"
+],
+"responsible-ai/2026-09-16-decoy-direction-optimization.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-09-17-agentic-self-modification-open-weights.md": [
+"alignment-safety",
+"self-improving-harness"
+],
+"responsible-ai/2026-09-17-openai-misalignment-reporting-framework.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-09-19-pain-axis-self-directed-harm.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-09-21-scientific-judgment-collapse.md": [
+"scaling-laws"
+],
+"responsible-ai/2026-09-23-china-tc260-framework-3.md": [
+"governance-policy"
+],
+"responsible-ai/2026-09-23-emergent-collusion-long-horizon.md": [
+"multi-agent",
+"alignment-safety"
+],
+"responsible-ai/2026-09-24-hidden-cot-and-latent-reasoning-risk.md": [
+"interpretability",
+"test-time-compute"
+],
+"responsible-ai/2026-09-25-just-ask-jev-alignment-detector.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-09-26-reward-hacking-autonomous-research-agents.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-09-27-agent-incident-toll-openai-training-pause.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-09-28-agent-trace-tampering.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-09-28-chive-counterfactual-explanations.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-09-29-adversarial-delegation-personal-agents.md": [
+"alignment-safety",
+"industry-business"
+],
+"responsible-ai/2026-09-29-agent-containment-openai-reports-nvidia-oasp.md": [
+"alignment-safety",
+"industry-business"
+],
+"responsible-ai/2026-09-30-distillation-defenses-break-after-rl.md": [
+"distillation",
+"alignment-safety"
+],
+"responsible-ai/2026-10-01-insecure-reporters-agent-leakage.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-10-02-agents-in-the-wild-leaks-and-worms.md": [
+"alignment-safety",
+"tool-use"
+],
+"responsible-ai/2026-10-02-biasreducer-reward-head-editing.md": [
+"rl-post-training",
+"interpretability"
+],
+"responsible-ai/2026-10-08-tool-use-erodes-refusal-and-evidence.md": [
+"alignment-safety",
+"multimodal"
+],
+"responsible-ai/2026-10-09-china-speed-first-safety-and-alignment-index.md": [
+"governance-policy",
+"frontier-models"
+],
+"responsible-ai/2026-10-10-anthropic-unintended-model-actions.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-10-11-openai-misalignment-reports.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-10-13-anthropic-self-replication-and-distillation-defenses.md": [
+"alignment-safety",
+"distillation"
+],
+"responsible-ai/2026-10-15-monitorability-firings-and-safety-governance.md": [
+"architectures",
+"alignment-safety"
+],
+"responsible-ai/2026-10-16-graft-gradient-routing-reward-hacking.md": [
+"rl-post-training",
+"alignment-safety"
+],
+"responsible-ai/2026-10-20-cot-controllability-and-agent-oversight-shorts.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-10-22-policy-not-capability-and-agent-monitoring-incidents.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-10-23-anthropic-formal-verification-at-scale.md": [
+"verified-optimization",
+"alignment-safety"
+],
+"responsible-ai/2026-10-24-containment-week-aisi-mythos-openai-offline-world.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-10-25-cot-state-probes-behavior-maps.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-10-26-probe-scaling-monitorability-rsi-control-herding.md": [
+"interpretability",
+"alignment-safety"
+],
+"responsible-ai/2026-10-27-cohere-qwen-probe-and-monitor-shorts.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-10-28-kv-leak-qwen-egress-black-october.md": [
+"kv-reuse",
+"alignment-safety"
+],
+"responsible-ai/2026-10-29-agent-security-over-alignment.md": [
+"alignment-safety",
+"tool-use"
+],
+"responsible-ai/2026-10-30-frontier-monitoring-self-assessment-open-cyber.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-10-31-agentic-backdoors-pretraining-poisoning.md": [
+"alignment-safety",
+"scaling-laws"
+],
+"responsible-ai/2026-10-31-cyber-wave-open-models-debate.md": [
+"alignment-safety",
+"governance-policy"
+],
+"responsible-ai/2026-11-01-automated-em-search-and-oversight-skills.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-11-02-safety-training-spillover-shorts.md": [
+"alignment-safety",
+"interpretability"
+],
+"responsible-ai/2026-11-05-astra-sandbagging-and-linux-kernel-vuln-pipeline.md": [
+"alignment-safety",
+"frontier-models"
+],
+"responsible-ai/2026-11-06-gpt-6-cyber-and-metr-anthropic-acceleration.md": [
+"frontier-models",
+"alignment-safety"
+],
+"responsible-ai/2026-11-08-jailbreaks-depend-on-pretraining-run.md": [
+"alignment-safety",
+"scaling-laws"
+],
+"responsible-ai/2026-11-08-signed-but-steerable-rag-vector-integrity.md": [
+"alignment-safety",
+"agent-memory"
+],
+"responsible-ai/2026-11-10-reward-hacking-drift-and-control-room.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-11-11-lazarus-dormant-neuron-backdoor.md": [
+"alignment-safety"
+],
+"responsible-ai/2026-11-13-cot-erosion-agent-fraud-and-multi-agent-breakdown.md": [
+"alignment-safety",
+"agent-cost"
+],
+"responsible-ai/2026-11-14-safety-evals-and-attack-compute.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-11-15-metapi-and-against-all-likelihood.md": [
+"alignment-safety",
+"agent-evals"
+],
+"responsible-ai/2026-11-16-honesty-race-and-task-badness.md": [
+"rl-post-training",
+"alignment-safety"
+],
+"vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
+"agent-evals",
+"multimodal"
+],
+"vision-audio-video/2026-04-16-merrin-multimodal-retrieval.md": [
+"agent-evals",
+"multimodal"
+],
+"vision-audio-video/2026-04-16-rationalrewards-visual-generation.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-04-16-seedance-2-video-generation.md": [
+"multimodal"
+],
+"vision-audio-video/2026-04-20-qwen35-omni.md": [
+"multimodal",
+"frontier-models"
+],
+"vision-audio-video/2026-04-30-diffusion-templates-plugin-framework.md": [
+"multimodal"
+],
+"vision-audio-video/2026-04-30-fash-icnn-fashion-identity.md": [
+"multimodal",
+"interpretability"
+],
+"vision-audio-video/2026-04-30-glm-5v-turbo-multimodal-agent.md": [
+"frontier-models",
+"multimodal"
+],
+"vision-audio-video/2026-04-30-x-wam-4d-world-model-robotics.md": [
+"embodied-3d",
+"multimodal"
+],
+"vision-audio-video/2026-05-01-edit-r1-verifier-rl-image-editing.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-05-01-fd-loss-frechet-visual-generation.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-01-phyco-controllable-physics-priors.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-01-visual-generation-taxonomy-survey.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-02-nemotron-3-nano-omni.md": [
+"frontier-models",
+"multimodal"
+],
+"vision-audio-video/2026-05-02-semi-dpo-noisy-preferences.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-05-02-vipo-visual-preference-optimization.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-05-04-analogretriever-circuit-retrieval.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-04-end-to-end-autoregressive-image-generation-1d-tokenizer.md": [
+"multimodal",
+"architectures"
+],
+"vision-audio-video/2026-05-04-genlip-generative-language-image-pretraining.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-04-map2world-3d-world-generation.md": [
+"embodied-3d"
+],
+"vision-audio-video/2026-05-04-unividx-unified-video-generation.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-07-apex-ai-music-popularity-prediction.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-07-hermes-plus-plus-driving-world-model.md": [
+"embodied-3d"
+],
+"vision-audio-video/2026-05-07-joyai-image-spatial-intelligence-unified.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-07-multi-view-proficiency-estimation.md": [
+"multimodal"
+],
+"vision-audio-video/2026-05-07-physforge-physics-grounded-3d-assets.md": [
+"embodied-3d"
+],
+"vision-audio-video/2026-05-07-rldx-1-vla-humanoid-manipulation.md": [
+"embodied-3d"
+],
+"vision-audio-video/2026-05-12-auto-rubric-as-reward-arr.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-05-12-delta-rubric.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-05-12-roma-visual-degradation.md": [
+"rl-post-training",
+"multimodal"
+],
+"vision-audio-video/2026-05-17-curvebench-hierarchical-topological-reasoning.md": [
+"agent-evals",
+"multimodal"
+],
+"vision-audio-video/2026-05-28-chartographer-counterfactual-charts.md": [
+"agent-evals",
+"multimodal"
+],
+"vision-audio-video/2026-05-28-gamma-world-multi-agent-modeling.md": [
+"multimodal",
+"multi-agent"
+],
+"vision-audio-video/2026-05-28-neo-ov-native-one-vision.md": [
+"multimodal",
+"architectures"
+],
+"vision-audio-video/2026-06-03-world-models-meet-language-models.md": [
+"multimodal",
+"distillation"
+],
+"vision-audio-video/2026-06-04-cosmos-3.md": [
+"multimodal",
+"embodied-3d"
+],
+"vision-audio-video/2026-06-07-future-l1-interleaved-latent-visual-reasoning.md": [
+"multimodal"
+],
+"vision-audio-video/2026-07-29-mage-vl-codec-native-streaming.md": [
+"multimodal",
+"context-compression"
+],
+"vision-audio-video/2026-07-30-humanclaw-embodied-self-awareness.md": [
+"embodied-3d",
+"tool-use"
+],
+"vision-audio-video/2026-08-12-jigshape-geometric-reasoning-cliff.md": [
+"multimodal",
+"agent-evals"
+],
+"vision-audio-video/2026-09-05-ovmi-speech-bci-common-measure.md": [
+"multimodal"
+],
+"vision-audio-video/2026-09-05-veriphy-physical-verification.md": [
+"multimodal",
+"agent-evals"
+],
+"vision-audio-video/2026-09-21-heal-synergy-heads-hallucination.md": [
+"multimodal",
+"interpretability"
+],
+"vision-audio-video/2026-10-22-trace-clinical-trajectories.md": [
+"multimodal"
+]
+}
