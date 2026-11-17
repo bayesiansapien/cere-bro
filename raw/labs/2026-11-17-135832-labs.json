@@ -1,0 +1,32 @@
+{
+ "captured": "2026-11-17T13:58:32.571232",
+ "errors": [
+  "Thinking Machines: feed returned no entries (HTTP 404)",
+  "Anthropic System Cards: no post links matched (layout change?)",
+  "Claude Blog: no post links matched (layout change?)"
+ ],
+ "items": [
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "published": "2026-11-17T00:00:00+00:00",
+   "uid": "feed:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+   "content": "",
+   "kind": "post"
+  },
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "How Revolut raises ambition without lowering the bar",
+   "url": "https://openai.com/business/customer-stories/revolut",
+   "published": "2026-11-16T09:30:00+00:00",
+   "uid": "feed:https://openai.com/business/customer-stories/revolut",
+   "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30\u201360%, scale financial crime investigations, and innovate without compromising security.",
+   "content": "",
+   "kind": "post"
+  }
+ ]
+}
