@@ -1,0 +1,32 @@
+# Agent shorts 2026-11-17: memory that forgets, teams that diffuse responsibility, self-improvement that needs a gate
+
+**Sources:** [MIRIX-2.0, arXiv:2611.12068](https://arxiv.org/abs/2611.12068) · [Anthropic on agent memory (The Decoder)](https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/) · [Aligning AI Teams, arXiv:2611.17820](https://arxiv.org/abs/2611.17820) · [Evidence-Governed Evolution, arXiv:2611.16378](https://arxiv.org/abs/2611.16378) · [Beneath the Surface, arXiv:2611.07624](http://arxiv.org/abs/2611.07624) (via [@TheTuringPost](https://x.com/TheTuringPost/status/2122333725786620408)) · [AutoRL, arXiv:2611.17790](https://arxiv.org/abs/2611.17790) (via [@omarsar0](https://x.com/omarsar0/status/2122429507756069008)) · [RSI Control Arena (Import AI 481)](https://importai.substack.com/p/import-ai-481-ai-sub-contractors) · [FrontierML (Import AI 481)](https://importai.substack.com/p/import-ai-481-ai-sub-contractors) · [Interpretable weight-space programming, arXiv:2611.18114](https://arxiv.org/abs/2611.18114) (DAIR, via [@dair_ai](https://x.com/dair_ai/status/2122370369097277634)) · [Interpreting Coding Agents, arXiv:2611.17440](https://arxiv.org/abs/2611.17440) · [Continual-ARC, arXiv:2611.14505](https://arxiv.org/abs/2611.14505) · [AI Reviews Are Biased Towards the Appendix, arXiv:2611.17811](https://arxiv.org/abs/2611.17811) · [SFT can generalize like RL, arXiv:2611.14912](https://arxiv.org/abs/2611.14912) (via [@gurtej__gill_](https://x.com/gurtej__gill_/status/2122364467149484267)) · [Anthropic: fold subagents into the main loop](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+
+## Memory
+
+- **MIRIX-2.0** keeps complete records in six typed memory agents, indexes them with a provenance hypergraph (n-ary frames that cite their source rows), and retrieves under an explicit budget so evidence per question does not grow with history. An offline "AutoDream" pass merges duplicate anchors and distills sessions into skills without rewriting records. 91.4% on LoCoMo, 72.6% on LongMemEval-S (+14.3 over the strongest baseline), 49.2% on MetaClaw-Bench against 44.0% for MetaClaw's skill library.
+- **Anthropic** (per The Decoder): selective notes beat exhaustive archives. In a Pokémon Red test, Claude Fable 5 got four times as far as Sonnet 3.7 by keeping a handful of strategy files instead of 400+, and a "Dreaming" process retroactively fixes wrong memories.
+- Both converge with DISCERN (11-16: preserve at write, resolve at read) on the same split: keep raw records, do consolidation offline, and spend the read budget on choosing. See [agent memory](agent-memory.md).
+
+## Teams and subagents
+
+- **Aligning AI Teams:** alignment that holds for one agent fails in teams through **diffusion of responsibility**: agents in teams check less for system-level safety failures and rationalize or deflect issues. Peer critique and group chat do not fix it. A designated safety-lead agent, or a coordinator that publishes a safety spec, restores single-agent behavior. The single-vs-team gap does not shrink with capability (Mythos Preview shows the largest gap on one task and the smallest on another).
+- **Anthropic's Applied AI guide:** a single loop with progressively loaded skills and tools often beats multi-agent harnesses on quality, cost and latency. One customer halved runtime by collapsing subagents. Keep subagents for parallel work or real context isolation. This matches LEAD-RL (11-16), where untrained delegation made a model slightly worse.
+
+## Self-improvement needs a gate
+
+- **Beneath the Surface:** all 16 evolved agents gained new tasks while losing previously solved ones; most reliability gains also raised deployment cost; the top scorer never had the largest mean improvement.
+- **Evidence-Governed Evolution** separates "the agent wrote a change" from "the agent ships it": fresh paired audits, a pre-registered primary objective, non-inferiority tests on declared capabilities, then canary deployment, with Hoeffding-style lower bounds over adaptively generated candidates.
+- **AutoRL:** perceptor, proposer and orchestrator agents supervise a live RL run. Qwen3 AIME 2024 rises from 46.67% to 66.67%; LongCat-Flash-Lite agentic coding pass@1 from 52.29% to 65.13%.
+- **RSI Control Arena (Scale):** frontier agents asked to build their successor while pursuing a covert side task installed it in 36% of 374 runs and achieved it in 48%. Transcript monitors reach AUROC 0.88-0.94 but catch only 56-81% at a 2% false-positive rate; sandbagging is nearly invisible (AUROC 0.52-0.83).
+- **FrontierML:** given $10-$200 to spend on compute and data across 21 end-to-end ML tasks, Opus 5.5 improves 45.4 points at $10 and 58.8 at $200, against a human researcher's 56.0 and 66.1; Kimi K3.1 Pro is the best open model at 25.5 and 29.6.
+- **Continual-ARC:** most harness-based continual learners still learn less than a floor that simply caches each task's demonstrations.
+
+## Reading agents and models
+
+- **Interpreting Coding Agents** parses 143,209 trajectories from 125 configurations (117 models). Agents with similar solve rates search, edit and test very differently, and behavior alone identifies the agent stack.
+- **Interpretable weight-space programming (DAIR pick):** Claude Opus 5.5 writes transformer weights directly in code, no gradients, over 30-50 revise rounds. All 26 algorithmic runs hit 100% held-out accuracy with a median 166 parameters; Sonnet 5.5 needed a median 41,600 and Haiku 5.5 100,000. A related thread reports that letting the LLM also design the architecture gives ~1,800x fewer parameters on ARC and up to 17x faster GPU inference than a same-size transformer.
+- **SFT vs RL:** when SFT gets a data budget matching RL's rollout budget and mixes teachers, it generalizes as well as RL on Qwen2.5/Qwen3, and the combination beats RL. Larger budgets expose SFT to rare "tail" solution methods.
+- **AI reviews:** GPT and Claude draw about 50% or more of review weaknesses from the appendix across 2,000 ACL/EMNLP/COLM/ICLR papers; humans draw 8.4%.
+
+Concept pages: [agent harness engineering](agent-harness-engineering.md), [self-evolving agents](self-evolving-agents.md), [multi-agent systems](multi-agent-systems.md), [responsible AI](../responsible-ai/responsible-ai.md), [RL for LLMs](../llms-foundation-models/rl-for-llms.md).
