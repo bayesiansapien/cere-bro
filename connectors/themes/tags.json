@@ -1447,6 +1447,16 @@
 "agent-cost",
 "harness-engineering"
 ],
+"agentic-systems/2026-11-18-efficientskill-and-self-improvement-memory.md": [
+"self-improving-harness",
+"agent-cost",
+"harness-engineering"
+],
+"agentic-systems/2026-11-18-where-agent-compute-goes.md": [
+"agent-cost",
+"kv-reuse",
+"multi-agent"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1792,6 +1802,11 @@
 "ai-industry/2026-11-17-earnings-eve-ipo-week-export-rule.md": [
 "fabs-semis",
 "governance-policy"
+],
+"ai-industry/2026-11-18-nvidia-q3-board-and-anthropic-ipo.md": [
+"industry-business",
+"compute-economics",
+"accelerators"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -2188,6 +2203,11 @@
 "ai-routing/2026-11-17-luthorsql-system1-cascade.md": [
 "agent-routing",
 "agent-cost"
+],
+"ai-routing/2026-11-18-routing-goes-cache-aware-and-open-weight.md": [
+"llm-routing",
+"kv-reuse",
+"serving-systems"
 ],
 "hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md": [
 "compute-economics",
@@ -2662,6 +2682,11 @@
 "hardware/2026-11-17-vera-rubin-mlperf-sc26.md": [
 "accelerators",
 "training-efficiency"
+],
+"hardware/2026-11-18-compoundingkernel-agent-kernel-search.md": [
+"gpu-kernels",
+"self-improving-harness",
+"agent-evals"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
 "distillation",
@@ -4458,6 +4483,26 @@
 "rl-post-training",
 "training-efficiency"
 ],
+"inference-efficiency/2026-11-18-bitdecoding-fp4-kv-cache.md": [
+"kv-compression",
+"quantization",
+"accelerators"
+],
+"inference-efficiency/2026-11-18-looped-and-speculative-decoding-shorts.md": [
+"speculative-decoding",
+"architectures",
+"serving-systems"
+],
+"inference-efficiency/2026-11-18-nvidia-sparse-attention-indexer-codesign.md": [
+"kv-eviction",
+"gpu-kernels",
+"architectures"
+],
+"inference-efficiency/2026-11-18-qwen38-nvfp4-qad-checkpoint.md": [
+"quantization",
+"distillation",
+"pruning-sparsity"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5301,6 +5346,16 @@
 "frontier-models",
 "architectures"
 ],
+"llms-foundation-models/2026-11-18-gpt-6-2-astra-and-sol.md": [
+"frontier-models",
+"compute-economics",
+"industry-business"
+],
+"llms-foundation-models/2026-11-18-hy4-flash-k2-horizon-open-models.md": [
+"frontier-models",
+"moe-routing",
+"architectures"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -5843,6 +5898,11 @@
 "responsible-ai/2026-11-16-honesty-race-and-task-badness.md": [
 "rl-post-training",
 "alignment-safety"
+],
+"responsible-ai/2026-11-18-harness-enforced-agent-safety.md": [
+"alignment-safety",
+"tool-use",
+"harness-engineering"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
