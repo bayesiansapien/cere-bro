@@ -1043,3 +1043,7 @@ Routing ships as a product feature: GitHub's Copilot Fusion picks Single, Cascad
 ## 2026-11-17 update: confidence cascades, measured
 
 [LuthorSQL (2611.17780)](2026-11-17-luthorsql-system1-cascade.md): a 7B non-autoregressive text-to-SQL model answers locally when its validator is confident and escalates to an Opus agent otherwise. On 227 post-cutoff questions it handles nearly half locally and cuts API cost 33.3% at equal accuracy. Industry echo the same day: Satya Nadella describes Microsoft's "hybrid intelligence," a router between unmetered local models and paid cloud models. Caution for router evaluation: Opus reproduces 48-92% of public text-to-SQL gold queries verbatim without the schema.
+
+## Update 2026-11-18: three routing layers ship in one day
+
+[Summary](2026-11-18-routing-goes-cache-aware-and-open-weight.md). Replica: SageMaker `KV_AWARE` routing from container-reported cache events; managed Dynamo on HyperPod. Model: Red Hat's Praxis gateway flipped its engineers from 70/30 frontier to 30/70 open weights over 1T tokens, cutting token spend 40-70%; Microsoft's MAI Code 2 (reported 98% of GPT-6.1 Sol at 40% cost) GA in Copilot, with licensable weights; Copilot Fusion Max claims 71.2% on Terminal-Bench 4.1 at 88% below Fable 5.2. Step: AWS "code for rules, models for judgment"; Karpo-Decision-31B tops a 300-model decision board with zero generated tokens.

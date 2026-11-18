@@ -582,3 +582,7 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 
 - [Vera Rubin MLPerf](2026-11-17-vera-rubin-mlperf-sc26.md): up to 2x per GPU over GB300 in Training v6.1 (DeepSeek-V3 in 4.14 vs 8.03 min at 1,024 GPUs); provisional Endpoints claim of 10x+ throughput per kW rests on very different concurrency points (1,024 vs 48 users).
 - Anthropic's IPO filing lists $900.9B of compute commitments through 2045; Amodei buys "on the low side" and tops up on spot. OpenAI commits 457 MW of AMD MI455X via TensorWave (~8% of its 6 GW AMD deal). Telus exits two Vancouver AI data centers (63,000 GPUs, 163 MW) over local opposition. Morgan Stanley projects inference at 72% of AI infrastructure spend by 2030.
+
+## Update 2026-11-18: old GPUs re-lease at 2x
+
+[Nvidia Q3](../ai-industry/2026-11-18-nvidia-q3-board-and-anthropic-ipo.md): revenue $115.8B (+103%), data center $107.6B, AI clouds/enterprise +195%; Q4 guide $130B ex-China. Kress: Hopper recontracting at ~2x original prices, B300 rates +60%, fleets fully utilized. Strongest evidence yet against the depreciation bear case. Counterweights: reported inference share loss to AMD and TPUs (TorchTPU open-sourced), a $480M ByteDance-Malaysia GPU loan frozen by the remote-access rule, Apple locking 4-5 year DRAM supply at market prices. Anthropic guided toward ~$1.5T at IPO.

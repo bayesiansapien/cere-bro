@@ -168,3 +168,7 @@ Anthropic's "Worse Together" (MAMUBench): across four multi-user multi-agent env
 ## Update 2026-11-16: delegation pays only after coordinated credit
 
 [LEAD-RL (2611.17041)](2026-11-16-lead-rl-delegation-credit.md): turning on subagents moved an untrained base from 59.0% to 58.0% on BrowseComp; joint training with a per-report utility rubric gating each subagent's team advantage reached 73.5% (+2.49 over shared credit) with 24.5% fewer critical-path steps, no explicit cost reward. Confirms the 11-12 single-agent-default reading: untrained delegation is neutral or harmful. BTTF ([chip verification agents](../hardware/2026-11-16-bttf-agentic-chip-verification.md)) reports the cost side of a split: +17.3% audit quality at 1.96x latency.
+
+## Update 2026-11-18: the pooled estimate is negative
+
+[Summary](2026-11-18-where-agent-compute-goes.md). More Agents, More Samples, or More Thinking? (2611.17610): nine studies, 516 configurations; against sample- or budget-matched baselines multi-agent averages -0.042 accuracy and ties or loses in 74% of contrasts. Hugging Face's 1,000-agent swarm: GPUs idle, only 40-60 agents calling the model at once, ~130 tokens read per token written. SWE-CoWork: best models finish under 8% of team assignments. CompoundingKernel is the counterexample where 1,000+ agents pay, because the task is embarrassingly parallel and verification is external.

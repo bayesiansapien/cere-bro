@@ -454,3 +454,9 @@ Helion compile-time heuristics classify kernels (matmul/reduction/pointwise) fro
 
 - Together's [road to Together Compiler](../inference-efficiency/2026-11-17-efficiency-shorts-compiler-mobile-format.md): CUDA Graphs + PDL over default Inductor kernels recover 98% of megakernel speed on Llama 1B; Inductor's benchmark harness misjudges kernels by 39-58% because it clears L2; agent-searched multi-kernels beat megakernels by 28% on B200 (2,118 vs 1,649 TPS).
 - Google's [Zero-TIM](../inference-efficiency/2026-11-17-zero-tim-bitwise-rl-tpu.md): batch-invariant Pallas kernels with fixed accumulation order, plus explicit cross-shard reduction order, make sampler and trainer logprobs bitwise identical on 64 TPU v5p. Fourth numerics-determinism item in a week (Sable 11-12, FloatLib 11-15, OPD mismatch budget 11-11).
+
+## Update 2026-11-18: agents take a kernel leaderboard from zero; NVIDIA publishes indexer rules
+
+- [CompoundingKernel (Amazon, 2611.19230)](2026-11-18-compoundingkernel-agent-kernel-search.md): 1,000+ agents, no reference kernels, #1 on SOL-ExecBench L1/L2/Quantization on B200, 4.40x over reference on 209 problems. The LLM controller beat UCB tree search on 35 of 38 by making 2.4x more correct attempts; evaluation rate, not agent count, limits scale.
+- [NVIDIA sparse-attention co-design](../inference-efficiency/2026-11-18-nvidia-sparse-attention-indexer-codesign.md): indexer intensity scales with G = QH/KH and D+1, not context; KH = 1 with cross-head reduction; fused Top-k with previous-step guess is 2.1-2.4x faster.
+- [BitDecoding-FP4](../inference-efficiency/2026-11-18-bitdecoding-fp4-kv-cache.md) restates the "softmax becomes the critical path" law for FP4 KV and fixes it with a transposed softmax.

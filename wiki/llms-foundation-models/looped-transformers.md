@@ -174,3 +174,7 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 ## 2026-11-17 update: Loopback Transformer
 
 [Loopback (2611.07226)](2026-11-17-qwen4-max-and-loopback-transformer.md) stores each pass's update separately instead of the full residual output, giving separate controls over input strength, total update weight (geometric decay) and allocation across passes (attention). Lower validation loss than standard Transformers with 40-75% of their non-embedding parameters at 191M-3B, matched tokens and executed depth. Same unresolved axis as SMELT: no serving-latency or activation-memory numbers.
+
+## Update 2026-11-18: latency, data and stopping
+
+[Shorts](../inference-efficiency/2026-11-18-looped-and-speculative-decoding-shorts.md): LoopFill gives looped models 5.85x exact speculative decoding (Ouro-2.6B), closing the latency cost this page has tracked since June. Latent feedback (top-layer state fed into the next token) reaches Transformer loss with less compute and less unique data, framed as a substitute for repeated epochs. Energy-Based Reasoners make the loop gradient descent on a learned energy that also signals when to stop.

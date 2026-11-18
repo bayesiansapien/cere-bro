@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-18T05:07:04.116368+00:00
+arxiv_id: 2611.16642
+url: https://huggingface.co/papers/2611.16642
+arxiv_url: https://arxiv.org/abs/2611.16642
+date: 2026-11-17
+---
+
+# Dataset Distillation via Drifting
+
+The task of dataset distillation concerns the learning of a small set of synthetic samples that can serve as an effective replacement for a large real dataset when used for downstream tasks. While many solutions have been proposed since the problem's inception, most of them primarily seek to optimize the distilled data with respect to a classifier. In this work, we propose a new distillation method that learns a set of samples such that they directly approximate the per-class data distribution. Specifically, we "drift" our distilled data in the latent space of a feature extractor such that they move both toward the real data and away from each other without using a classification objective. We find that our drifted data cover the real distribution significantly better than existing methods while still serving as powerful training samples for classification. Furthermore, we showcase our method's use as a visualization tool for better interpreting models and extend it beyond images to other modalities. Our work advances the frontier of dataset distillation, offering a novel synthesis method and proposing distribution-based metrics as a complementary evaluation. More broadly, our findings help address the growing need to understand both data and models by uncovering more about how they interact.

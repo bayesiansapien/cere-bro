@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-18T05:07:04.116575+00:00
+arxiv_id: 2611.21439
+url: https://huggingface.co/papers/2611.21439
+arxiv_url: https://arxiv.org/abs/2611.21439
+date: 2026-11-17
+---
+
+# A Reinforcement Learning Method to Navigate SMEFT Operator Space
+
+In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models. In this context, the Standard Model Effective Field Theory (SMEFT) provides a general framework encompassing a broad class of models. However, exploring the enormous space of possible SMEFT operators rapidly becomes a challenging combinatorial problem: many operators can contribute simultaneously to different observables, their effects are correlated, and distinct operator combinations can provide comparably good descriptions of the data. In this work, we formulate the exploration of the SMEFT operator space as a sequential decision-making problem using reinforcement learning (RL). Our RL agent employs a lightweight actor-critic architecture with approximately 40K trainable parameters in total. Rather than searching for a single best-fit theory, our method is designed to discover a diverse set of high-quality theory hypotheses. We test the method in a complex phenomenological environment comprising 132 observables across several sectors of particle physics, including 24 measurements that deviate from their SM predictions by more than 1.5σ. We show that the learned RL policy efficiently constructs multi-operator theories that substantially improve the global fit. Comparisons with independent random-subset and random-sequential searches demonstrate the ability of the RL policy to navigate this large combinatorial space. Our results establish RL as a systematic framework for exploring diverse patterns of new physics (NP) interactions within SMEFT.

@@ -411,3 +411,7 @@ Lessons move into weights and critics evolve ([summary](2026-10-30-agents-that-k
 ## Update 2026-11-04
 
 Forgetting, quantified ([summary](2026-11-04-continual-harness-evolution-forgetting.md), 2611.03219). Meta-Harness evolved to 94.0% on SWE-Bench, then fell to 32.0% after five rounds of evolving on FeatureBench (-66% relative). This is the hardest number yet for the 10-29 stability-plasticity finding. Counterweights the same day: SPAR (Alibaba, live A/B across 200k+ merchants, +15.8% conversion) adds an attribution step before any playbook edit. Skill++ keeps edits local to one skill's metadata.
+
+## Update 2026-11-18: the optimizer gets a memory, the search gets a leaderboard
+
+[SIM](2026-11-18-efficientskill-and-self-improvement-memory.md) gives the harness optimizer a log of why each edit was made and how it scored, which makes evolved harnesses transfer across models (68.41 to 84.75 on Gemini). [CompoundingKernel](../hardware/2026-11-18-compoundingkernel-agent-kernel-search.md) self-improves from zero to #1 on SOL-ExecBench with correctness decided outside the model. GPT-6.2 Astra is the first released model rated "High" for AI self-improvement ([summary](../llms-foundation-models/2026-11-18-gpt-6-2-astra-and-sol.md)). Counter-signal: TuringPost argues many self-improvement gains are benchmark gains.

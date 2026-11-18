@@ -240,3 +240,7 @@ Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-spa
 ## Update 2026-11-06: the sparse indexer is a systems problem
 
 [Multi-layer Indexer](../inference-efficiency/2026-11-06-loopvq-and-multi-layer-indexer.md) (2611.03768): at long context the DSA indexer scan, not sparse attention, dominates decode. Since adjacent layers select nearly the same tokens, a layer can attend the previous selection and run its indexer concurrently. It composes with IndexCache: 1.32x decode at 128K and 1/4 retention, no new weights. Three attacks in a week: CUDA 13.5's batched Top-K (library), TPUv7 SparseCores (silicon), MLI (scheduling). [SemiAnalysis](../hardware/2026-11-06-tpu-ironwood-agentx-semianalysis.md) adds a hardware fit constraint: head dim 64 pads 25% of a TPU systolic array, and matrix-core GPUs barely notice.
+
+## Update 2026-11-18: the indexer gets design rules
+
+[NVIDIA's co-design primer](../inference-efficiency/2026-11-18-nvidia-sparse-attention-indexer-codesign.md): indexer plus Top-k are 47% of a DeepSeek V3.2 prefill layer at 128K; use KH = 1 with a cross-head reduction (MSA and MoBA lose a factor of G), head dim 128-256, fused Top-k, large blocks. Hy4 flash ([summary](2026-11-18-hy4-flash-k2-horizon-open-models.md)) interleaves sparse IndexPool and 512-token SWA 1:3; K2-Horizon adds Mixture-of-Value Attention and softplus gating.

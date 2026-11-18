@@ -256,3 +256,7 @@ The SIMPLE Law finds an energy optimum for reasoning: Intelligence per Joule pea
 ## Update 2026-11-13: escalate bits, not models
 
 [Precision on Demand](2026-11-13-precision-on-demand-and-bits-or-permutations.md) applies score-then-spend at the bit level: decode with the top 4 bits of an 8-bit model and redo a step at 8 bits when entropy or margin flags uncertainty (16% escalation, 0.87 of all-high bytes, not statistically separated live). AWS Bedrock measured Opus 5 output tokens +59% to +302% from low to max effort, the cost side of effort dials.
+
+## Update 2026-11-18: stop when solved
+
+[Termination Lag (2611.14960)](../agentic-systems/2026-11-18-where-agent-compute-goes.md): 38-82% of successful SWE-bench runs are correct on the first edit, yet 35-60% of steps come after; 1-8% undo the fix. Energy-Based Reasoners use a learned energy as a stop signal (345x less compute on Sudoku-Extreme, [shorts](2026-11-18-looped-and-speculative-decoding-shorts.md)). The budget-matched multi-agent meta-analysis (2611.17610) finds multi-agent averages -0.042 accuracy vs equal-budget baselines.

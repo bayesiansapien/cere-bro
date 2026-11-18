@@ -913,3 +913,10 @@ Feed-day signals ([Drex and AgentPilot](../ai-routing/2026-11-07-drex-open-decis
 - Together + Ollama's [prefix-cache rules](../inference-efficiency/2026-11-17-agent-sessions-prefix-cache-discipline.md) make prompt layout a harness responsibility.
 - Anthropic's Applied AI guide: fold most subagents into one loop with progressively disclosed skills and tools; Claude Code's system prompt shrank over 80%.
 - Self-improving harnesses need an adoption gate ([agent shorts](2026-11-17-agent-shorts-memory-teams-evolution.md)): Beneath the Surface finds every evolved agent loses some previously solved tasks; Evidence-Governed Evolution requires fresh paired audits and non-inferiority tests before a change ships.
+
+## Update 2026-11-18: compress after it works, remember why
+
+- [EfficientSkill + SIM](2026-11-18-efficientskill-and-self-improvement-memory.md) (Google): learn the skill to accuracy A*, then prune under an accuracy guard and move code into zero-token workspace utilities (25-67% lower serving cost, accuracy up on every benchmark). SIM logs each harness edit's rationale, predicted and observed outcome; an Opus-evolved harness on Gemini goes 68.41 to 84.75 vs 73.42 without it; +2.36 points over ten coding runs (p=0.003). Third harness-cost result in three days after SkillCache and TokenEconomizer; all compress only after a working artifact exists.
+- [Where agent compute goes](2026-11-18-where-agent-compute-goes.md): 94.8% cached re-reads; 1,000-agent swarm with only 40-60 calling the model; termination lag; budget-matched multi-agent at -0.042.
+- [Harness-enforced safety](../responsible-ai/2026-11-18-harness-enforced-agent-safety.md): SilentGuard (wrong answers 74.0% to 1.7% by withholding invariant-violating tool results; a warning alone leaves 70.1%) and SPILLWAY (typed-field target admission).
+- [CompoundingKernel](../hardware/2026-11-18-compoundingkernel-agent-kernel-search.md): agents fix the harness at warm restarts; one fix raised evaluation rate 3.6x.

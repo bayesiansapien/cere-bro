@@ -343,3 +343,8 @@ The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the fir
 ## Update 2026-11-16: can an agent pick and ship the compression recipe?
 
 [CompressionBench (2611.06858)](2026-11-16-compressionbench.md): CMU turns compression into a terminal task (checkpoint + storage limit + GPU + time budget, ship weights and inference code). 29 of 36 agent submissions pass independent verification; the best design per task averages +3.4% perplexity over BF16 and 77.33% vs 79.56% downstream accuracy. Complete-model feedback reversed 17 of 79 local rankings, and generation tests caught failures perplexity missed. Same lesson as the 11-15 FloatLib result: cheap proxies miss real breakage. Open: latency/throughput targets, long-context and reasoning evals of agent-built quants.
+
+## Update 2026-11-18: the KV cache goes to FP4, shared experts follow the routed ones
+
+- [BitDecoding-FP4](2026-11-18-bitdecoding-fp4-kv-cache.md): the first accurate native-FP4 KV path (within 0.5 points of BF16 KV with NVFP4), 2.4-3.0x serving throughput on B300.
+- [Qwen3.8-Flash-Next-NVFP4-QAD](2026-11-18-qwen38-nvfp4-qad-checkpoint.md): shared experts in NVFP4 and GDN/QSA projections in MXFP8, repaired by 100 QAD updates; scores within noise of BF16 (Terminal-Bench 612/712 both). The card's honesty (no claimed gain, unvalidated MTP, KV left BF16) is a template.

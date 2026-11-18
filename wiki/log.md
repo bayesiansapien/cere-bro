@@ -2355,3 +2355,18 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-17] social-stream | 2026-11-17 morning | social-stream
 ## [2026-11-17] media-zone | Media Zone 2026-11-17 (finalized from closed window) | media-zone
 ## [2026-11-17] digest | cere-bro 2026-11-17 | daily-digest
+## [2026-11-18] ingest | BitDecoding-FP4 (2611.09825) | huggingface
+## [2026-11-18] ingest | Qwen3.8-Flash-Next-NVFP4-QAD | labs
+## [2026-11-18] ingest | NVIDIA sparse-attention indexer co-design | labs
+## [2026-11-18] ingest | Looped and speculative decoding shorts: LoopFill, Latent Feedback, EBR, Sciforium | huggingface + twitter
+## [2026-11-18] ingest | CompoundingKernel (2611.19230) | twitter + dair + linkedin
+## [2026-11-18] ingest | EfficientSkill + Self-Improvement Memory | twitter + dair
+## [2026-11-18] ingest | Where agent compute goes: Re-Reading, Termination Lag, multi-agent meta-analysis, critics, HF swarm | huggingface + twitter + gmail
+## [2026-11-18] ingest | Routing goes cache-aware and open-weight | labs + rss + twitter
+## [2026-11-18] ingest | GPT-6.2 Astra and Sol | labs + rss + twitter
+## [2026-11-18] ingest | Hy4 flash + K2-Horizon | labs + huggingface + gmail
+## [2026-11-18] ingest | Harness-enforced agent safety: SilentGuard, SPILLWAY | huggingface + rss + gmail
+## [2026-11-18] ingest | Nvidia Q3, board, Anthropic IPO | rss + gmail + twitter
+## [2026-11-18] social-stream | 2026-11-18 morning | social-stream
+## [2026-11-18] media-zone | Media Zone 2026-11-18 (finalized from closed window) | media-zone
+## [2026-11-18] digest | cere-bro 2026-11-18 | daily-digest
