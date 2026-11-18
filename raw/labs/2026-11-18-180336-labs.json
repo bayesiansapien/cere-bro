@@ -1,0 +1,21 @@
+{
+ "captured": "2026-11-18T18:03:36.110418",
+ "errors": [
+  "Thinking Machines: feed returned no entries (HTTP 404)",
+  "Anthropic System Cards: no post links matched (layout change?)",
+  "Claude Blog: no post links matched (layout change?)"
+ ],
+ "items": [
+  {
+   "lab": "OpenAI",
+   "source": "feed",
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "published": "2026-11-18T00:00:00+00:00",
+   "uid": "feed:https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro\u2019s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "content": "",
+   "kind": "post"
+  }
+ ]
+}
