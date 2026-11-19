@@ -1457,6 +1457,15 @@
 "kv-reuse",
 "multi-agent"
 ],
+"agentic-systems/2026-11-19-bridge-minimal-rag-memory.md": [
+"agent-memory",
+"agent-evals"
+],
+"agentic-systems/2026-11-19-gated-self-improving-harnesses.md": [
+"self-improving-harness",
+"agent-cost",
+"harness-engineering"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1807,6 +1816,10 @@
 "industry-business",
 "compute-economics",
 "accelerators"
+],
+"ai-industry/2026-11-19-anthropic-ipo-and-ai-research-acceleration.md": [
+"industry-business",
+"compute-economics"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -2687,6 +2700,16 @@
 "gpu-kernels",
 "self-improving-harness",
 "agent-evals"
+],
+"hardware/2026-11-19-ascendgym-and-xing4-ascend-stack.md": [
+"accelerators",
+"gpu-kernels",
+"agent-evals"
+],
+"hardware/2026-11-19-models-designing-and-tuning-silicon.md": [
+"accelerators",
+"gpu-kernels",
+"fabs-semis"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
 "distillation",
@@ -4503,6 +4526,18 @@
 "distillation",
 "pruning-sparsity"
 ],
+"inference-efficiency/2026-11-19-dneo-parallel-drafter-feature-encoding.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-11-19-efficiency-shorts.md": [
+"training-efficiency",
+"gpu-kernels",
+"multimodal"
+],
+"inference-efficiency/2026-11-19-quantization-noise-floor.md": [
+"quantization"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5356,6 +5391,18 @@
 "moe-routing",
 "architectures"
 ],
+"llms-foundation-models/2026-11-19-gemini-4-neon-and-genie-4.md": [
+"frontier-models",
+"industry-business"
+],
+"llms-foundation-models/2026-11-19-multi-branch-transformer-joint-kv.md": [
+"architectures",
+"kv-compression"
+],
+"llms-foundation-models/2026-11-19-weight-space-programming-field.md": [
+"architectures",
+"agent-evals"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -5903,6 +5950,10 @@
 "alignment-safety",
 "tool-use",
 "harness-engineering"
+],
+"responsible-ai/2026-11-19-cot-controllability-monitorability.md": [
+"alignment-safety",
+"interpretability"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
