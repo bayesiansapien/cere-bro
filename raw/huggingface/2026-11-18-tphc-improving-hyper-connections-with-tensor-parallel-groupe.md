@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-19T11:13:13+05:30
+arxiv_id: 2611.23026
+url: https://huggingface.co/papers/2611.23026
+arxiv_url: https://arxiv.org/abs/2611.23026
+date: 2026-11-18
+---
+
+# TPHC: Improving Hyper-Connections with Tensor-Parallel Grouped Updates
+
+Hyper-Connections (HC) expand the residual stream of a Transformer into N parallel streams, and manifold-constrained HC (mHC) stabilizes them at scale. However, mHC benefits little from more than four streams, partly because each sublayer writes a single output to all streams, limiting how differently they can be updated. In this work, we propose TPHC, which integrates tensor-parallel (TP) shards with HC streams to promote greater independence across streams. Specifically, we route a separate mixture of the residual streams to each TP shard and keep the individual shard outputs separate during write-back, so each stream can receive a different mixture of those outputs. This design makes the residual-stream updates more expressive without adding parameters or FLOPs to the attention or FFN sublayers. With native support for stream sharding under TP, TPHC requires only 9% more training time than mHC on an 8B model when both use four streams. Increasing the number of streams from four to sixteen raises its training time by only 19%. On a 1.1B model trained on 100B tokens, TPHC reduces validation loss by 0.7-1.0% and raises average zero-shot accuracy across six commonsense reasoning benchmarks by 0.3-0.7 percentage points relative to mHC at matched stream counts Nin{4,8,16}. Our code is available at https://github.com/wuyou2002/TPHC.
