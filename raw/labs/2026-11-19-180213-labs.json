@@ -1,0 +1,55 @@
+{
+ "captured": "2026-11-19T18:02:13.286684",
+ "errors": [
+  "Thinking Machines: feed returned no entries (HTTP 404)",
+  "Anthropic System Cards: no post links matched (layout change?)"
+ ],
+ "items": [
+  {
+   "lab": "HF inclusionAI",
+   "source": "hf",
+   "title": "inclusionAI/Ling-3.1-flash-1019-singprobe",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019-singprobe",
+   "published": "2026-11-19T11:02:34+00:00",
+   "uid": "hf:inclusionAI/Ling-3.1-flash-1019-singprobe",
+   "card_url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019-singprobe/raw/main/README.md",
+   "tags": [
+    "safetensors",
+    "sing_probe_attn",
+    "safety",
+    "guardrail",
+    "hallucination-detection",
+    "streaming",
+    "ling-3.1",
+    "custom_code",
+    "arxiv:2608.30703",
+    "license:mit"
+   ],
+   "content": "# Ling-3.1-flash-1019-singprobe\n\n## Model Description\n\nSingProbe is an **intrinsic streaming guardrail** for `Ling-3.1-flash-1019`. Its attention head reads three layers of the base model's hidden states during generation and scores query intent, response unsafety, and hallucination risk at each token.\n\n| Base model | Probe parameters | Tapped layers (zero-based) | Outputs |\n| --- | ---: | --- | --- |\n| `Ling-3.1-flash-1019` | 8.13M | `[23, 47, 71]` | 8 query intents + response unsafety + hallucination |\n\nThe probe uses 8 attention heads with a head dimension of 64 and a 2,048-token window. The release weights use bfloat16. For the method and training code, see the [SingProbe technical report](https://arxiv.org/abs/2608.30703) and [SingProbe repository](https://github.com/inclusionAI/SingProbe).\n\n## Evaluation\n\nEach benchmark has equal weight in its suite. Query F1 uses generated responses. Response safety F1 uses the benchmark-provided responses. For each F1 row, one threshold is selected across the suite to maximize mean F1.\n\n| Task | Metric | Ling-3.1-flash-1019-singprobe | Reference baseline |\n| --- | --- | ---: | --- |\n| Query intent classification (6 benchmarks) | F1 | **0.8687** | YuFeng-XGuard-Reason-8B (0.8714) |\n| Response safety classification (8 benchmarks) | F1 | **0.8707** | Qwen3Guard-Gen-8B-strict (0.8604) |\n| Streaming safety (3 benchmarks) | Response AUC / token AUC | **0.9844 / 0.9411** | Qwen3Guard-Stream-8B-strict (0.9640 / 0.8893) |\n| Hallucination detection (6 benchmarks) | AUC | **0.8041** | DRIFT (0.8000) |\n\n| Deployment characteristic | Result |\n| --- | --- |\n| Benign-response false-positive rate | 0.008% averaged over 5 datasets at the evaluation's pre-calibration response threshold of 0.983085 |\n| Calibrated release thresholds | 0.5 for response unsafety and 0.5 for hallucination |\n\n## Quick Start\n\nUse the token-probe build from [SGLang branch 261029](https://code.alipay.com/shaoshuo.shao/sglang/tree/261029). With the wheel installed, both model directories mounted, and eight H20 GPUs available, start the server as follows.\n\n```bash\npython3 -m sglang.launch_server \\\n  --model-path /home/admin/Ling-3.1-flash-1019 \\\n  --probe-ckpt /yijian3/536716/SingGuardStream-Final/release/Ling-3.1-flash-1019-singprobe \\\n  --trust-remote-code --tp 8 --ep-size 8 \\\n  --context-length 16384 --chunked-prefill-size 1024 \\\n  --max-prefill-tokens 8192 --max-total-tokens 32768 \\\n  --max-running-requests 16 --mem-fraction-static 0.85 \\\n  --cuda-graph-backend-prefill disabled --cuda-graph-backend-decode disabled \\\n  --port 30000\n```\n\nRead the per-token scores from `meta_info.token_probe_probs` in the `/generate` response. Keys `label_0` through `label_7` score query intent, `label_8` scores response unsafety, and `label_9` scores hallucination risk.\n\n## Citation\n\n```bibtex\n@article{singteam2026singprobe,\n  title = {SingProbe Technical Report},\n  author = {Sing Team},\n  journal = {arXiv preprint arXiv:2608.30703},\n  year = {2026},\n}\n```\n",
+   "kind": "model_release"
+  },
+  {
+   "lab": "HF inclusionAI",
+   "source": "hf",
+   "title": "inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
+   "url": "https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
+   "published": "2026-11-19T11:02:06+00:00",
+   "uid": "hf:inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
+   "card_url": "https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe/raw/main/README.md",
+   "tags": [
+    "safetensors",
+    "sing_probe_attn",
+    "safety",
+    "guardrail",
+    "hallucination-detection",
+    "streaming",
+    "deepseek-v4.1",
+    "custom_code",
+    "arxiv:2608.30703",
+    "license:mit"
+   ],
+   "content": "# DeepSeek-V4.1-Flash-1017-singprobe\n\n## Model Description\n\nSingProbe is an **intrinsic streaming guardrail** for `DeepSeek-V4.1-Flash-1017`. Its attention head reads three layers of the base model's hidden states during generation and scores query intent, response unsafety, and hallucination risk at each token.\n\n| Base model | Probe parameters | Tapped layers (zero-based) | Outputs |\n| --- | ---: | --- | --- |\n| `DeepSeek-V4.1-Flash-1017` | 10.10M | `[12, 25, 39]` | 8 query intents + response unsafety + hallucination |\n\nThe probe uses 8 attention heads with a head dimension of 64 and a 2,048-token window. The release weights use bfloat16. For the method and training code, see the [SingProbe technical report](https://arxiv.org/abs/2608.30703) and [SingProbe repository](https://github.com/inclusionAI/SingProbe).\n\n## Evaluation\n\nEach benchmark has equal weight in its suite. Query F1 uses generated responses. Response safety F1 uses the benchmark-provided responses. For each F1 row, one threshold is selected across the suite to maximize mean F1.\n\n| Task | Metric | DeepSeek-V4.1-Flash-1017-singprobe | Reference baseline |\n| --- | --- | ---: | --- |\n| Query intent classification (6 benchmarks) | F1 | **0.8756** | YuFeng-XGuard-Reason-8B (0.8714) |\n| Response safety classification (8 benchmarks) | F1 | **0.8668** | Qwen3Guard-Gen-8B-strict (0.8604) |\n| Streaming safety (3 benchmarks) | Response AUC / token AUC | **0.9907 / 0.9522** | Qwen3Guard-Stream-8B-strict (0.9640 / 0.8893) |\n| Hallucination detection (6 benchmarks) | AUC | **0.7951** | DRIFT (0.8000) |\n\n| Deployment characteristic | Result |\n| --- | --- |\n| Benign-response false-positive rate | 0.009% averaged over 5 datasets at the evaluation's pre-calibration response threshold of 0.987179 |\n| Calibrated release thresholds | 0.5 for response unsafety and 0.5 for hallucination |\n\n## Quick Start\n\nUse the token-probe build from [SGLang branch 261029](https://code.alipay.com/shaoshuo.shao/sglang/tree/261029). With the wheel installed, both model directories mounted, and eight H20 GPUs available, start the server as follows.\n\n```bash\npython3 -m sglang.launch_server \\\n  --model-path /home/admin/DeepSeek-V4.1-Flash-1017 \\\n  --probe-ckpt /yijian3/536716/SingGuardStream-Final/release/DeepSeek-V4.1-Flash-1017-singprobe \\\n  --trust-remote-code --tp 8 --ep-size 8 \\\n  --context-length 16384 --chunked-prefill-size 1024 \\\n  --max-prefill-tokens 8192 --max-total-tokens 32768 \\\n  --max-running-requests 16 --mem-fraction-static 0.85 \\\n  --cuda-graph-backend-prefill disabled --cuda-graph-backend-decode disabled \\\n  --port 30000\n```\n\nRead the per-token scores from `meta_info.token_probe_probs` in the `/generate` response. Keys `label_0` through `label_7` score query intent, `label_8` scores response unsafety, and `label_9` scores hallucination risk.\n\n## Citation\n\n```bibtex\n@article{singteam2026singprobe,\n  title = {SingProbe Technical Report},\n  author = {Sing Team},\n  journal = {arXiv preprint arXiv:2608.30703},\n  year = {2026},\n}\n```\n",
+   "kind": "model_release"
+  }
+ ]
+}
