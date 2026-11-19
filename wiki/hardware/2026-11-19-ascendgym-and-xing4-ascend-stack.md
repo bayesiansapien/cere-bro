@@ -44,7 +44,7 @@ flowchart LR
 
 ## How it relates to prior wiki pages
 
-- **Same lab lineage as [SLAI T-Rex](2026-05-20-slai-t-rex-deepseek-v4-ascend.md)**, which post-trained DeepSeek-V4 end-to-end on an Ascend SuperPOD. SLAI now ships the benchmark for the kernel layer underneath.
+- **Same lab lineage as [SLAI T-Rex](2026-07-23-slai-t-rex-deepseek-v4-ascend.md)**, which post-trained DeepSeek-V4 end-to-end on an Ascend SuperPOD. SLAI now ships the benchmark for the kernel layer underneath.
 - **STS is the Ascend version of the cost-normalized kernel metric** the wiki has been tracking on NVIDIA: [CompoundingKernel (11-18)](2026-11-18-compoundingkernel-agent-kernel-search.md) found that trustworthy timing runs per hour, not model quality, limited a 1,000-agent kernel search. AscendGYM makes the token bill of that search part of the score.
 - **Policy context:** the same day, Tencent's president said the new US remote-access chip rule "sets everyone back in China" and BIS was reported to have rushed H200 export approvals. Xing4 is the counter-signal: a 285B frontier-class training run that needed neither.
 - Concept pages: [gpu-kernels](gpu-kernels.md), [compute-economics](compute-economics.md).

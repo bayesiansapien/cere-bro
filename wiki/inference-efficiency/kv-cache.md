@@ -908,3 +908,10 @@ Four vendors published the same lesson the same day ([summary](2026-11-17-agent-
 - [SageMaker KV-aware routing](../ai-routing/2026-11-18-routing-goes-cache-aware-and-open-weight.md): containers publish store/evict events; a hash index routes each request to the warm instance, fixing prefix-hash routing's blindness to eviction (the [11-14 metastability](2026-11-14-prefix-cache-metastability-bursts.md) mechanism). Managed Dynamo on HyperPod adds disaggregated PD with KV transfer over EFA.
 - [Re-Reading Is Not Free](../agentic-systems/2026-11-18-where-agent-compute-goes.md): 94.8% of a real coding agent's tokens were cached re-reads (260 per generated token); output-based energy estimates undercount by ~25x. GPT-6.2 Astra cut cached input 60% to $0.40/M.
 - Hy4 flash reports KV at 1/24 of Hy3 via 1:3 sparse:SWA hybrid attention ([summary](../llms-foundation-models/2026-11-18-hy4-flash-k2-horizon-open-models.md)).
+
+
+## Update 2026-11-19: share the cache across branches; KV updates dominate video latency
+
+- [Multi-Branch Transformer + Joint-KV (2611.19800)](../llms-foundation-models/2026-11-19-multi-branch-transformer-joint-kv.md): parallel block stacks fused before shared final layers; Joint-KV builds one cache per depth from all branches. Up to 34% less KV storage and 51.4% higher decode throughput on one H200, with up to 1.26x compute-equivalent quality (0.8-2.1B MoE). Branch-sharing is a new axis next to cross-layer sharing (11-12).
+- [FastFrames (2611.23226)](2026-11-19-efficiency-shorts.md): in autoregressive video diffusion, VAE decode plus KV cache updates are over half of end-to-end latency; replacing them yields 36 ms/frame on one B200.
+- vLLM v0.34 turns an extensible KV cache on by default (X, 11-18). Gemini 4 Neon prices cached input at $0.15/M (95% off), after GPT-6.2's $0.40/M: the cache is now the priced unit of agent serving ([Neon](../llms-foundation-models/2026-11-19-gemini-4-neon-and-genie-4.md)).

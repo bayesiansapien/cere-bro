@@ -22,7 +22,7 @@ A real-time world model: 720p video at up to 24 fps with synchronized audio, edi
 
 ## How it relates to prior wiki pages
 
-- **The cached-input line is the agent price.** Yesterday's [GPT-6.2 release](2026-11-18-gpt-6-2-astra-sol.md) cut cached input 60% to $0.40/M after Harvard measured [94.8% of a coding agent's tokens as cached re-reads](../agentic-systems/2026-11-18-where-agent-compute-goes.md). Neon's $0.15 cached rate is the cheapest frontier-tier cached price the wiki has recorded. Two frontier launches in two days priced primarily on cache.
+- **The cached-input line is the agent price.** Yesterday's [GPT-6.2 release](2026-11-18-gpt-6-2-astra-and-sol.md) cut cached input 60% to $0.40/M after Harvard measured [94.8% of a coding agent's tokens as cached re-reads](../agentic-systems/2026-11-18-where-agent-compute-goes.md). Neon's $0.15 cached rate is the cheapest frontier-tier cached price the wiki has recorded. Two frontier launches in two days priced primarily on cache.
 - **Harness dependence, measured by the vendor**: Neon's 12.8% vs 39.0% SWE-sweep gap is the same "the harness is half the model" effect as the [agent harness engineering](../agentic-systems/agent-harness-engineering.md) concept page tracks.
 - **Contrast with OpenAI's system card**: GPT-6.2 Astra was rated High for AI self-improvement and Critical for cyber. Google's MCC route means Neon ships without new dangerous-capability numbers at all, a governance gap worth noting.
 

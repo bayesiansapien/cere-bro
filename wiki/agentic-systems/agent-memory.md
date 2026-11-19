@@ -455,3 +455,8 @@ Three papers in two days measure memory by counterfactual intervention, not simi
 ## 2026-11-17 update: forget at read time, consolidate offline
 
 MIRIX-2.0 (2611.12068) keeps complete typed records, indexes them with a provenance hypergraph, retrieves under a fixed budget and consolidates offline ("AutoDream"): 91.4% LoCoMo, 72.6% LongMemEval-S. Anthropic's memory study (via The Decoder) finds a few strategy files beat 400+ archived notes in a Pokémon Red run, with a "Dreaming" pass correcting bad memories. With DISCERN (11-16), three sources now agree: store raw, consolidate offline, and spend effort on choosing what to read. See [agent shorts](2026-11-17-agent-shorts-memory-teams-evolution.md).
+
+
+## Update 2026-11-19: minimal memory ties the field; the gap is applying what was retrieved
+
+[BRIDGE / RAG in a Trenchcoat (2611.22179)](2026-11-19-bridge-minimal-rag-memory.md): chained notes + BM25/cosine hybrid + chronological rendering, one LLM call per write or query, 5-7K tokens per question, ties SOTA on LongMemEval-S and BEAM and beats the best baseline on EverMemBench by 5.7-6.3. Five adversarial probes show benchmarks score retrieval, not use: LangMem wins rule application, BRIDGE pattern induction, and making the rule prominent closes most gaps. Consistent with the 11-17 "few strategy files beat 400+ notes" result and the 11-15/16 intervention-value framing.

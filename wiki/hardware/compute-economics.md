@@ -586,3 +586,11 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 ## Update 2026-11-18: old GPUs re-lease at 2x
 
 [Nvidia Q3](../ai-industry/2026-11-18-nvidia-q3-board-and-anthropic-ipo.md): revenue $115.8B (+103%), data center $107.6B, AI clouds/enterprise +195%; Q4 guide $130B ex-China. Kress: Hopper recontracting at ~2x original prices, B300 rates +60%, fleets fully utilized. Strongest evidence yet against the depreciation bear case. Counterweights: reported inference share loss to AMD and TPUs (TorchTPU open-sourced), a $480M ByteDance-Malaysia GPU loan frozen by the remote-access rule, Apple locking 4-5 year DRAM supply at market prices. Anthropic guided toward ~$1.5T at IPO.
+
+
+## Update 2026-11-19: $900B of commitments, cache-priced tokens, $2,400/day researchers
+
+- Anthropic priced its IPO at $83 (about $81B raised, ~$1.5T value) against $900.9B of infrastructure commitments and an $81B run rate; Big Tech Q3 capex $230B (+118%), four hyperscalers now above operating cash flow ([summary](../ai-industry/2026-11-19-anthropic-ipo-and-ai-research-acceleration.md)).
+- OpenAI's median researcher uses ~$2,400/day of tokens at list price (top 10% >$23K) for only +68% experiments; CodeRabbit spends ~$150 per PR; Salesforce caps staff at $100-1,000/month. Token spend per unit of output varies by 100x across firms.
+- Training-side utilization: DaisyRose's RL trainer at 37% MFU vs 16% for the open Megatron-based one; textbook FLOP-based fine-tune time estimates score R² 0.31 on 272 production runs ([shorts](../inference-efficiency/2026-11-19-efficiency-shorts.md)).
+- China Telecom trained 285B Xing4 on 8,192 Ascend 910C NPUs, no CUDA, as BIS was reported to have rushed H200 licenses and Tencent said the remote-access rule "sets everyone back" ([summary](2026-11-19-ascendgym-and-xing4-ascend-stack.md)).

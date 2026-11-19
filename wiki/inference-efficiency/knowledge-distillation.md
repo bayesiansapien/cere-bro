@@ -819,3 +819,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-13: distill at the student's failure turns
 
 [SteerDistill](2026-11-13-steerdistill-quantized-agents.md) is the third wiki result locating the useful distillation signal where the student goes wrong (after TIP, most teacher tokens carry no signal, and OPRD, match hidden states): the teacher iteratively steers a quantized agent's failed turn until execution verifies it, and the student learns the steered turn without guidance. Raschka's X summary of CoT-monitorability work adds a caution: RL-acquired control over written reasoning survives distillation.
+
+
+## Update 2026-11-19: OPD's negative transfer is measurable per domain
+
+[Agentic OPD (2611.19244)](2026-11-19-efficiency-shorts.md): general-reasoning OPD cut math tool attempts 70.4% to 14.4% while raising accuracy 16.7% to 38.0%, but ALFWorld OPD crashed τ²-bench 41.5% to 6.6%; selective OPD (top 95% of positions by teacher preference change) recovers to 29.9%. M3OPD-Reasoner (2611.23034) makes multi-teacher OPD then mixed RL on the same prompts the open VLM recipe, with no collapse.

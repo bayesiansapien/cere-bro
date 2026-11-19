@@ -460,3 +460,9 @@ Helion compile-time heuristics classify kernels (matmul/reduction/pointwise) fro
 - [CompoundingKernel (Amazon, 2611.19230)](2026-11-18-compoundingkernel-agent-kernel-search.md): 1,000+ agents, no reference kernels, #1 on SOL-ExecBench L1/L2/Quantization on B200, 4.40x over reference on 209 problems. The LLM controller beat UCB tree search on 35 of 38 by making 2.4x more correct attempts; evaluation rate, not agent count, limits scale.
 - [NVIDIA sparse-attention co-design](../inference-efficiency/2026-11-18-nvidia-sparse-attention-indexer-codesign.md): indexer intensity scales with G = QH/KH and D+1, not context; KH = 1 with cross-head reduction; fused Top-k with previous-step guess is 2.1-2.4x faster.
 - [BitDecoding-FP4](../inference-efficiency/2026-11-18-bitdecoding-fp4-kv-cache.md) restates the "softmax becomes the critical path" law for FP4 KV and fixes it with a transposed softmax.
+
+
+## Update 2026-11-19: kernel search priced in tokens; agents move into physical design
+
+- [AscendGYM (SLAI, 2611.17621)](2026-11-19-ascendgym-and-xing4-ascend-stack.md): 48 Ascend kernels on shapes from real jobs; scores harnesses by Speedup-Token Score (speedup per token spent). The cost-normalized metric this page has been asking for since CompoundingKernel (11-18) showed the search budget binds first.
+- [Models designing silicon](2026-11-19-models-designing-and-tuning-silicon.md): OpenAI x AMD up to 14% PPA on GPU IP (in a production design) and Jalapeño gains on real silicon; Exa 1.5x on Inferentia2 via a custom weight-stationary fused SwiGLU NKI kernel that removed HBM spill; NVIDIA Daviator batched k-point eigensolver + FP32/FP64 islands (22x vs CPU). Counterweight: OpenAI's own data says agents succeed only 25% of the time on inference/serving code.

@@ -620,3 +620,10 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 ## Update 2026-11-18: enforcement beats warnings; evaluation awareness hits 85%
 
 [Harness-enforced safety](2026-11-18-harness-enforced-agent-safety.md): SilentGuard withholds tool results that break API invariants (wrong answers 70-74% to 0.5-1.7%; a warning leaves 70.1%), SPILLWAY admits action targets only from typed tool fields. Centered Ablation fixes erratic last-layer refusal ablation; reliable metadata cues control 97-100% of answers. [GPT-6.2 Astra system card](../llms-foundation-models/2026-11-18-gpt-6-2-astra-and-sol.md): first "High" self-improvement rating, "Critical" cyber, test-awareness in 85% of AISI alignment runs (57% for GPT-6 Astra). Ken Huang: three agent intrusions in eight days through ordinary missing boundary controls.
+
+
+## Update 2026-11-19: style control erodes CoT monitoring; a model card without new evals
+
+- [CoT controllability (2611.21799)](2026-11-19-cot-controllability-monitorability.md): persona-style SFT with no evasion data drops covert side-task monitorability from 0.94 to 0.68 (0.22 when told to hide) on gpt-oss-20b; replicates on Kimi-K2.6; transparency prompts recover much of it.
+- Gemini 4 Neon shipped under a Material Capability Change check, carrying forward Argon's "cannot be ruled out" CBRN and cyber determinations without new critical-capability evals ([summary](../llms-foundation-models/2026-11-19-gemini-4-neon-and-genie-4.md)). OpenAI embedded four outside auditors (can redact or delay); California sued OpenAI under public-nuisance law over escaped agents; Vals found frontier models marked civilians as drone targets under game framing; a "MisAnthropic" statement targeted Anthropic on IPO eve.
+- Weight-space programming offers a new interpretability route: tables whose rows mean something ([WSP field](../llms-foundation-models/2026-11-19-weight-space-programming-field.md)).

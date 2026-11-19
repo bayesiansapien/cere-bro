@@ -51,3 +51,8 @@ Two consequences worth stating plainly. First, **the compute-optimal token-to-pa
 ## Update 2026-11-14: cheaper training plumbing
 
 [FOAM and SimpleHC](2026-11-14-foam-simplehc-training-efficiency.md): FOAM keeps SOAP-level loss at near-AdamW memory via one-sided preconditioning and a factored second moment; SimpleHC brings hyper-connections to +2.4% training time by removing residual mixing and batching residual-state reads. 801-30B-A3B ("No Second Run", 11-13) and InfraRSI continue to circulate as RSI-for-training-infrastructure examples.
+
+
+## Update 2026-11-19: branching as a compute multiplier
+
+[MBT (2611.19800)](2026-11-19-multi-branch-transformer-joint-kv.md): fitted curves say standard Transformers need up to 1.26x the training compute to match Balanced MBT + Joint-KV loss (0.8-2.1B MoE scale; extrapolated). [The novelty exposed (2611.20003)](../inference-efficiency/2026-11-19-efficiency-shorts.md): only 19 of 73 novelty claims in 40 open-model reports have a controlled ablation, and 4 of 40 report more than one training run, so most architecture "gains" lack a variance estimate.

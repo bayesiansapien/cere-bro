@@ -920,3 +920,10 @@ Feed-day signals ([Drex and AgentPilot](../ai-routing/2026-11-07-drex-open-decis
 - [Where agent compute goes](2026-11-18-where-agent-compute-goes.md): 94.8% cached re-reads; 1,000-agent swarm with only 40-60 calling the model; termination lag; budget-matched multi-agent at -0.042.
 - [Harness-enforced safety](../responsible-ai/2026-11-18-harness-enforced-agent-safety.md): SilentGuard (wrong answers 74.0% to 1.7% by withholding invariant-violating tool results; a warning alone leaves 70.1%) and SPILLWAY (typed-field target admission).
 - [CompoundingKernel](../hardware/2026-11-18-compoundingkernel-agent-kernel-search.md): agents fix the harness at warm restarts; one fix raised evaluation rate 3.6x.
+
+
+## Update 2026-11-19: gate the self-edits, price them in tokens
+
+- [Gated self-improving harnesses](2026-11-19-gated-self-improving-harnesses.md): Google (2611.22299) on SWE-bench Lite with frozen Gemini 3.8 Flash: rule file 5.0% to 2.5% (worse), full rewrite 42.5% at 451.6K tokens/task, gated one-module edits 40.0% at 46.7K and better transfer to Gemini 4 Argon (37.5% vs 30.0%). ModHarness-RL learns Compression and Steering programs during RL (+19% CodeSearch). RepoFactory evolves 10,159 repo environments by proxy signals. Hugging Face fits one LoRA per harness (Qwen3.8-27B 39% to 65% SWE-bench Pro). Frozen agents invent their own self-learning loops given only a budget (2611.23219).
+- Vendor-reported harness effect: Gemini 4 Neon 12.8% (mini-SWE) vs 39.0% (Antigravity) on SWE-sweep. Airbnb picks model + reasoning-effort defaults by cost per task on in-house evals.
+- **Tension:** accumulated rule files hurt (Google) vs a few curated strategy files help (Anthropic, 11-17). Kurate rising author Junjie Wang (EvoX, harness as runtime policy) confirms the frame on the quality-ranked leaderboard.

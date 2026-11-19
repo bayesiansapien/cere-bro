@@ -264,3 +264,8 @@ DFlash is now the baseline everyone beats. [ChainFlow](2026-11-09-chainflow-spec
 ## Update 2026-11-18: drafts for loops, drafts tuned on traffic, drafts that are free for the indexer
 
 [Shorts](2026-11-18-looped-and-speculative-decoding-shorts.md): LoopFill (2611.19649) merges suffix drafts with shallow-loop predictions in one tree for looped Transformers, 5.85x over greedy on Ouro-2.6B, training-free and exact. Sciforium's traffic-tuned drafter makes 7-token drafts pay: DeepSeek-V4.1-Flash at 1,129 tok/s P90 on 4 MI355X. NVIDIA's [indexer post](2026-11-18-nvidia-sparse-attention-indexer-codesign.md): D+1 draft rows are nearly free for a sparse-attention indexer until they overflow one Tensor Core tile (~200-256 rows). K2-Horizon ships Uno diffusion adapters (2.2x) and Hy4 flash a built-in 0.85B DFly2 drafter.
+
+
+## Update 2026-11-19: fix the drafter's view of the target
+
+[DNeo (2611.21925)](2026-11-19-dneo-parallel-drafter-feature-encoding.md): parallel diffusion drafters (DFlash, DSpark) condition on target hidden states, but the encoding is lossy ("residual mixing"), memory-less, and samples layers uniformly. Mixture-of-Features Attention with a rejection memory, 2-tap causal convs, prefix-only cross-attention and non-uniform layer choice gives 1.3x over DFlash-2 at the same drafter size. Third drafter-conditioning result in three days (MMFlash 11-17 image dependence; Sciforium traffic-tuned drafts 11-18): acceptance is limited by what the drafter sees, not its size. DSpark is in production (RadixArk recommends SGLang + DSpark for DaisyRose-27B); Red Hat's Speculators maintainers are presenting what moves acceptance rates at vLLM office hours.

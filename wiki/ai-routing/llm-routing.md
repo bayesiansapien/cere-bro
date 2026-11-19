@@ -1047,3 +1047,10 @@ Routing ships as a product feature: GitHub's Copilot Fusion picks Single, Cascad
 ## Update 2026-11-18: three routing layers ship in one day
 
 [Summary](2026-11-18-routing-goes-cache-aware-and-open-weight.md). Replica: SageMaker `KV_AWARE` routing from container-reported cache events; managed Dynamo on HyperPod. Model: Red Hat's Praxis gateway flipped its engineers from 70/30 frontier to 30/70 open weights over 1T tokens, cutting token spend 40-70%; Microsoft's MAI Code 2 (reported 98% of GPT-6.1 Sol at 40% cost) GA in Copilot, with licensable weights; Copilot Fusion Max claims 71.2% on Terminal-Bench 4.1 at 88% below Fable 5.2. Step: AWS "code for rules, models for judgment"; Karpo-Decision-31B tops a 300-model decision board with zero generated tokens.
+
+
+## Update 2026-11-19: routing as plumbing, routing by cost per task
+
+- Hugging Face now routes LLM requests through OpenRouter for cheapest or fastest provider (capacity errors down 46%; BYO keys going away) ([The Decoder](https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/)).
+- Salesforce serves 30+ regions with SageMaker's capacity-aware cross-region inference router, capping cross-region traffic to avoid cascading failures ([AWS](https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/)).
+- Airbnb routes coding agents to model + reasoning-effort defaults chosen by measured cost per task, with effort ceilings, revisited as usage shifts ([AWS](https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/)). Gemini 4 Neon acting as an orchestrator over parallel Hydrogen subagents in Antigravity is the vendor version of model-tier routing ([Neon](../llms-foundation-models/2026-11-19-gemini-4-neon-and-genie-4.md)).

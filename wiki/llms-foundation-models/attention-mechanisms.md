@@ -244,3 +244,9 @@ Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-spa
 ## Update 2026-11-18: the indexer gets design rules
 
 [NVIDIA's co-design primer](../inference-efficiency/2026-11-18-nvidia-sparse-attention-indexer-codesign.md): indexer plus Top-k are 47% of a DeepSeek V3.2 prefill layer at 128K; use KH = 1 with a cross-head reduction (MSA and MoBA lose a factor of G), head dim 128-256, fused Top-k, large blocks. Hy4 flash ([summary](2026-11-18-hy4-flash-k2-horizon-open-models.md)) interleaves sparse IndexPool and 512-token SWA 1:3; K2-Horizon adds Mixture-of-Value Attention and softplus gating.
+
+
+## Update 2026-11-19: branching as a scaling axis; zero-temperature witnesses
+
+- [Multi-Branch Transformer (2611.19800)](2026-11-19-multi-branch-transformer-joint-kv.md): parallel full-block branches with shared KV (Joint-KV); TPHC (2611.23026) maps tensor-parallel shards to separate hyper-connection streams (no extra FLOPs, +19% training time from 4 to 16 streams).
+- [Attention at Absolute Zero (2611.11937)](../inference-efficiency/2026-11-19-efficiency-shorts.md): pair-state attention reading witnesses at zero temperature generalizes exactly to sets 1,000x larger than training, where soft counting falls to 42%.

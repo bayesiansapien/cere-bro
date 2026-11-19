@@ -348,3 +348,10 @@ The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the fir
 
 - [BitDecoding-FP4](2026-11-18-bitdecoding-fp4-kv-cache.md): the first accurate native-FP4 KV path (within 0.5 points of BF16 KV with NVFP4), 2.4-3.0x serving throughput on B300.
 - [Qwen3.8-Flash-Next-NVFP4-QAD](2026-11-18-qwen38-nvfp4-qad-checkpoint.md): shared experts in NVFP4 and GDN/QSA projections in MXFP8, repaired by 100 QAD updates; scores within noise of BF16 (Terminal-Bench 612/712 both). The card's honesty (no claimed gain, unvalidated MTP, KV left BF16) is a template.
+
+
+## Update 2026-11-19: measure the stack's noise before the bits
+
+- [The Noise Floor of a Quantization Comparison (Cloudflare, 2611.15671)](2026-11-19-quantization-noise-floor.md): on 2,400 decisions from 9B and 27B decision models (GB10), non-quantization changes flip 0-0.92% (llama.cpp restarts bit-identical; vLLM restarts flip up to 22 at NVFP4; engine swap 6-16; batch change 8-15; transformers auto-selecting a Gated DeltaNet kernel 10-14). In-engine quantization: Q8_0 0.88-1.04%, FP8 1.62-2.12%, Q4_K_M 3.50-5.79%, NVFP4 5.67-5.79%. FP8 is *not* inside restart noise (pre-registered prediction failed). Net accuracy hides it: Q4_K_M moves net accuracy by 6 of 31,275 questions while 436 decisions get worse.
+- **Shift in the state of knowledge:** "within noise of BF16" claims (BitDecoding-FP4, Qwen3.8 NVFP4-QAD on 11-18) were accuracy comparisons and should now be read as upper bounds on visible damage, not as equivalence. Report decision-flip rate over a measured floor.
+- Microsoft's Aion-1.0-Instruct-2.3B ships an INT4 QAT WebGPU build (block size 32, FP16 KV) at 1.3GB, and DaisyRose-27B ships BF16/FP8/NVFP4 checkpoints ([shorts](2026-11-19-efficiency-shorts.md)).

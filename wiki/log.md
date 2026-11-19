@@ -2370,3 +2370,18 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-18] social-stream | 2026-11-18 morning | social-stream
 ## [2026-11-18] media-zone | Media Zone 2026-11-18 (finalized from closed window) | media-zone
 ## [2026-11-18] digest | cere-bro 2026-11-18 | daily-digest
+## [2026-11-19] ingest | The Noise Floor of a Quantization Comparison | huggingface
+## [2026-11-19] ingest | Multi-Branch Transformer + TPHC | huggingface
+## [2026-11-19] ingest | DNeo parallel drafter | huggingface
+## [2026-11-19] ingest | AscendGYM + TeleChat Xing4 | huggingface + gmail
+## [2026-11-19] ingest | Models designing silicon (OpenAI x AMD, Exa, Meta, NVIDIA) | labs + rss + twitter
+## [2026-11-19] ingest | Gated self-improving harnesses cluster | huggingface + twitter (DAIR picks)
+## [2026-11-19] ingest | BRIDGE minimal RAG memory | twitter (DAIR pick)
+## [2026-11-19] ingest | Gemini 4 Neon + Genie 4 (model release + model card) | labs + rss + twitter
+## [2026-11-19] ingest | Weight-space programming field | huggingface + twitter + kurate
+## [2026-11-19] ingest | CoT controllability vs monitorability | twitter (DAIR pick)
+## [2026-11-19] ingest | Efficiency shorts (FastFrames, FMT, DaisyRose, fine-tune time, OPD, RSC) | huggingface + rss
+## [2026-11-19] ingest | Anthropic IPO + OpenAI research acceleration | rss + gmail + labs + twitter
+## [2026-11-19] social-stream | 2026-11-19 morning | social-stream
+## [2026-11-19] media-zone | Media Zone 2026-11-19 (finalized from closed window) | media-zone
+## [2026-11-19] digest | cere-bro 2026-11-19 | daily-digest
