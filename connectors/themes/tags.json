@@ -1466,6 +1466,11 @@
 "agent-cost",
 "harness-engineering"
 ],
+"agentic-systems/2026-11-20-resolution-hypothesis-and-gated-self-edits.md": [
+"self-improving-harness",
+"agent-evals",
+"harness-engineering"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -2222,6 +2227,10 @@
 "kv-reuse",
 "serving-systems"
 ],
+"ai-routing/2026-11-20-anys1-system1-decision-points.md": [
+"agent-routing",
+"agent-cost"
+],
 "hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md": [
 "compute-economics",
 "training-efficiency"
@@ -2710,6 +2719,10 @@
 "accelerators",
 "gpu-kernels",
 "fabs-semis"
+],
+"hardware/2026-11-20-training-and-serving-plumbing.md": [
+"training-efficiency",
+"serving-systems"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
 "distillation",
@@ -4538,6 +4551,18 @@
 "inference-efficiency/2026-11-19-quantization-noise-floor.md": [
 "quantization"
 ],
+"inference-efficiency/2026-11-20-chorus-shared-ngram-embeddings.md": [
+"architectures",
+"scaling-laws"
+],
+"inference-efficiency/2026-11-20-qda-agent-quantization-design.md": [
+"quantization",
+"harness-engineering"
+],
+"inference-efficiency/2026-11-20-tideway-moe-tiered-memory.md": [
+"moe-routing",
+"serving-systems"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5402,6 +5427,14 @@
 "llms-foundation-models/2026-11-19-weight-space-programming-field.md": [
 "architectures",
 "agent-evals"
+],
+"llms-foundation-models/2026-11-20-late-entry-looped-lms.md": [
+"architectures",
+"pruning-sparsity"
+],
+"llms-foundation-models/2026-11-20-research-shorts.md": [
+"distillation",
+"rl-post-training"
 ],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
