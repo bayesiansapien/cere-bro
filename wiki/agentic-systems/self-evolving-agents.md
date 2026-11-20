@@ -420,3 +420,7 @@ Forgetting, quantified ([summary](2026-11-04-continual-harness-evolution-forgett
 ## Update 2026-11-19: agents that design their own self-improvement
 
 [Do LLM Agents Still Need to Be Told How to Self-Improve? (2611.23219)](2026-11-19-gated-self-improving-harnesses.md): a frozen agent with a compute budget and tools to collect experience and edit text documents, but no imposed loop, builds its own curriculum (practice games, watching a copy play, editing its prompts and skill files), and the artifacts transfer across games and 3D navigation. Paired with Google's gated harness edits (token-capped, held-out-gated) and weight-space self-rewrites ([WSP field](../llms-foundation-models/2026-11-19-weight-space-programming-field.md)), self-improvement now spans context, harness and weights.
+
+## Update 2026-11-20: the judge is the bottleneck
+
+[Resolution Hypothesis + GUARD + stale skills](2026-11-20-resolution-hypothesis-and-gated-self-edits.md). Across 7 methods, 6 models and 10M+ calls, helpful candidates exist but selection is no better than random, and method margins are below run-to-run variance (2611.23068). This reframes the 10-29 and 11-04 contradictions (EMMA vs Meta-Harness, Meta-Harness 94.0% to 32.0%) as partly noise. Fixes in the same window: GUARD's regret gate (80.8%, +6.3 over Meta-Harness, -54.5% tokens), Amazon's selective skill repair (stale skill -11.4 points below none; repair 30.5% to 97.5%), Safe Personal RSI (20 of 21 risky updates rejected), Meta MLE Agents (1,097 experiments, 325 accepted, +0.23% live search volume).

@@ -594,3 +594,7 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 - OpenAI's median researcher uses ~$2,400/day of tokens at list price (top 10% >$23K) for only +68% experiments; CodeRabbit spends ~$150 per PR; Salesforce caps staff at $100-1,000/month. Token spend per unit of output varies by 100x across firms.
 - Training-side utilization: DaisyRose's RL trainer at 37% MFU vs 16% for the open Megatron-based one; textbook FLOP-based fine-tune time estimates score R² 0.31 on 272 production runs ([shorts](../inference-efficiency/2026-11-19-efficiency-shorts.md)).
 - China Telecom trained 285B Xing4 on 8,192 Ascend 910C NPUs, no CUDA, as BIS was reported to have rushed H200 licenses and Tencent said the remote-access rule "sets everyone back" ([summary](2026-11-19-ascendgym-and-xing4-ascend-stack.md)).
+
+## Update 2026-11-20
+
+Ramp: token prices -21% in six weeks while usage hit a record; Anthropic ~59% of business token spend. Hopper GPUs reportedly recontracting at up to 2x original prices. OpenAI's 90th-percentile researcher at ~$23K of tokens/day (+105% since September). Moonshot scrapped a $150M B300 rental in Indonesia under the new remote-access rule. Streaming DiLoCo cuts cross-site training traffic 65x (needs ~1.3 Gbps vs ~85 Gbps for data parallel on Qwen3-32B), the training-side answer to siting limits ([plumbing](2026-11-20-training-and-serving-plumbing.md)). ANT closed day one at $97.17 ($1.76T).

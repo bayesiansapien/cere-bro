@@ -4,7 +4,7 @@
   "hours_lookback": 24,
   "following_actor_id": "UkXi4XmrOvKL6qUaf",
   "following_refresh_days": 3,
-  "following_last_checked": "2026-11-09T14:18:30.834703+00:00",
+  "following_last_checked": "2026-11-19T12:30:03.649743+00:00",
   "known_non_ai_handles": [
     "jordanbpeterson",
     "DonaldJTrumpJr",
@@ -120,7 +120,9 @@
     "TimSweeneyEpic",
     "LudwigNverMises",
     "RichardSSutton",
-    "rglein"
+    "rglein",
+    "svishnevskiy",
+    "skydayton"
   ],
   "bio_ai_keywords": [
     "AI",
@@ -1012,6 +1014,51 @@
     {
       "handle": "DaveARicks",
       "name": "Dave A Ricks",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "EricTopol",
+      "name": "Eric Topol",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "research"
+      ]
+    },
+    {
+      "handle": "TPointUK",
+      "name": "Turning Point UK 🇬🇧",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "Sam_Acqua",
+      "name": "Sam Acquaviva",
+      "org": "Cursor",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "blake__bordelon",
+      "name": "Blake Bordelon ☕️🧪👨‍💻",
+      "org": "Independent",
+      "timezone": "PT",
+      "focus": [
+        "AI"
+      ]
+    },
+    {
+      "handle": "datologyai",
+      "name": "DatologyAI",
       "org": "Independent",
       "timezone": "PT",
       "focus": [

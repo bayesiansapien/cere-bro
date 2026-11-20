@@ -178,3 +178,7 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 ## Update 2026-11-18: latency, data and stopping
 
 [Shorts](../inference-efficiency/2026-11-18-looped-and-speculative-decoding-shorts.md): LoopFill gives looped models 5.85x exact speculative decoding (Ouro-2.6B), closing the latency cost this page has tracked since June. Latent feedback (top-layer state fed into the next token) reaches Transformer loss with less compute and less unique data, framed as a substitute for repeated epochs. Energy-Based Reasoners make the loop gradient descent on a learned energy that also signals when to stop.
+
+## Update 2026-11-20: late entry
+
+[Late Entry (2611.24576)](2026-11-20-late-entry-looped-lms.md): new tokens skip early passes and read a full-depth KV cache; committed tokens finish passes in the background; Wake verification inside the output GEMM, one tolerance tau from exact to lossy. Ouro-2.6B 5.2x exact (+16.9 points over early exit at matched speed); Huginn-3.5B up to 8.4x exact and 12.5x lossy at T = 64. Second fast-decoding path after LoopFill (11-18); it spends KV memory where Dory and LoopVQ save it.

@@ -82,3 +82,7 @@ The tidy story would be "memory stores facts, experts reason." The ablations say
 ## 2026-10-28: cross-layer sharing compresses PLE 100x
 
 [OPTIC (2610.31309)](2026-10-28-optic-ple-compression.md): one code tuple per token, decoded per layer by a small affine map, fitted to the PLE output path. ~100x on Gemma 4 E4B keeps 97.8% (594x: 90.5%, 1,002x: 84.1%), 29.7% less GPU memory, ≤0.40% slower. Strengthens the "compress into HBM" route against DeepSeek's prefetch route; open whether Engram-scale tables share as much cross-layer structure.
+
+## 2026-11-20: a third route, share one table
+
+[Chorus (2611.23386)](2026-11-20-chorus-shared-ngram-embeddings.md): one shared n-gram table read per layer through a hidden-state-dependent rescale plus a layer projection. 1.2B table parameters beat Engram and FactorEngram at 9.6B (87% smaller), across 20M to 9.6B; Ember optimizer cuts table optimizer memory 99.2%. Alongside prefetch (Engram) and compress (CP, OPTIC), Chorus removes per-layer duplication at design time. Token-ID addressing (and so prefetch) is preserved for the raw row.

@@ -15184,10 +15184,18 @@
         "arxiv_id": "2607.28287v1",
         "title": "Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.16981v1",
+        "title": "Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W32",
-    "last_seen": "2026-W32"
+    "last_seen": "2026-W47"
   },
   "Andrei Aioanei": {
     "appearances": [
@@ -25474,10 +25482,18 @@
         "arxiv_id": "2608.30741v1",
         "title": "Functional Degeneracy in Neural Networks: Measurement and Pruning",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.23112v1",
+        "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
+        "ai_rating": 6.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W37"
+    "last_seen": "2026-W47"
   },
   "Gitta Kutyniok": {
     "appearances": [
@@ -25680,10 +25696,18 @@
         "arxiv_id": "2611.13565v1",
         "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Chia-Hao Lee": {
     "appearances": [
@@ -25776,10 +25800,18 @@
         "arxiv_id": "2611.13565v1",
         "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W36",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Rishabh Arora": {
     "appearances": [
@@ -27050,10 +27082,18 @@
         "arxiv_id": "2611.14035v1",
         "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W37",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Xuebing Yang": {
     "appearances": [
@@ -30336,10 +30376,18 @@
         "arxiv_id": "2609.17076v1",
         "title": "Sample-Conditioned Representation Selection for Audio Few-Shot Learning",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.20398v1",
+        "title": "Deploying a Control-Logic LLM Assistant in Air-Gapped Power Plants: Lessons in Source Authority and Bounded Retrieval",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W38",
-    "last_seen": "2026-W39"
+    "last_seen": "2026-W47"
   },
   "Feng Liu": {
     "appearances": [
@@ -32662,10 +32710,18 @@
         "arxiv_id": "2611.13346v1",
         "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W39",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Qiandi Gao": {
     "appearances": [
@@ -34870,10 +34926,18 @@
         "arxiv_id": "2611.13346v1",
         "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W40",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Miteto Wei": {
     "appearances": [
@@ -45392,10 +45456,26 @@
         "arxiv_id": "2610.35130v1",
         "title": "TUON: A Tensor-Aware Optimizer Utilizing Tensor-SVD and Polarization for Large Language Model Pretraining",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W44",
-    "last_seen": "2026-W44"
+    "last_seen": "2026-W47"
   },
   "Zhouchen Lin": {
     "appearances": [
@@ -49224,10 +49304,18 @@
         "arxiv_id": "2611.12291v1",
         "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Jian Zhu": {
     "appearances": [
@@ -49238,10 +49326,18 @@
         "arxiv_id": "2611.12291v1",
         "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Zhoujian Sun": {
     "appearances": [
@@ -49252,10 +49348,18 @@
         "arxiv_id": "2611.12291v1",
         "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yunyi Qi": {
     "appearances": [
@@ -49266,10 +49370,18 @@
         "arxiv_id": "2611.12291v1",
         "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yu Qi": {
     "appearances": [
@@ -49280,10 +49392,18 @@
         "arxiv_id": "2611.12291v1",
         "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Wenhui Sun": {
     "appearances": [
@@ -49294,10 +49414,18 @@
         "arxiv_id": "2611.12291v1",
         "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.12291v1",
+        "title": "Representational Alignment between Deep Neural Networks and Human Brain in Speech Processing under Audiovisual Noise",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Shilong Pan": {
     "appearances": [
@@ -49602,10 +49730,18 @@
         "arxiv_id": "2611.14171v1",
         "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yiwei Li": {
     "appearances": [
@@ -49616,10 +49752,18 @@
         "arxiv_id": "2611.14171v1",
         "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Mingyang Zhao": {
     "appearances": [
@@ -49630,10 +49774,18 @@
         "arxiv_id": "2611.14171v1",
         "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yuhang Tian": {
     "appearances": [
@@ -49644,10 +49796,18 @@
         "arxiv_id": "2611.14171v1",
         "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Kan Li": {
     "appearances": [
@@ -49658,10 +49818,18 @@
         "arxiv_id": "2611.14171v1",
         "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.14171v1",
+        "title": "BARS: Budget-Aware Sequential Sampling with Refusal for Majority Identification under Unknown Distributions",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Akseli Kangaslahti": {
     "appearances": [
@@ -49672,10 +49840,18 @@
         "arxiv_id": "2611.13312v1",
         "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Milind Tambe": {
     "appearances": [
@@ -49686,10 +49862,18 @@
         "arxiv_id": "2611.13312v1",
         "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Alastair van Heerden": {
     "appearances": [
@@ -49700,10 +49884,18 @@
         "arxiv_id": "2611.13312v1",
         "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Cheryl Johnson": {
     "appearances": [
@@ -49714,10 +49906,18 @@
         "arxiv_id": "2611.13312v1",
         "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
         "ai_rating": 6.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.13312v1",
+        "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
+        "ai_rating": 6.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Ekrem Aksoy": {
     "appearances": [
@@ -49728,10 +49928,18 @@
         "arxiv_id": "2611.13232v1",
         "title": "W-ISA: Transactional Execution of Weight-Space Intervention Programs",
         "ai_rating": 3.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.13232v1",
+        "title": "W-ISA: Transactional Execution of Weight-Space Intervention Programs",
+        "ai_rating": 3.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Minyu Zhou": {
     "appearances": [
@@ -49742,10 +49950,18 @@
         "arxiv_id": "2611.14035v1",
         "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yajing Wu": {
     "appearances": [
@@ -49756,10 +49972,18 @@
         "arxiv_id": "2611.14035v1",
         "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yongqiang Tang": {
     "appearances": [
@@ -49770,10 +49994,18 @@
         "arxiv_id": "2611.14035v1",
         "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Wang Jia": {
     "appearances": [
@@ -49784,10 +50016,18 @@
         "arxiv_id": "2611.14035v1",
         "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
         "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.14035v1",
+        "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+        "ai_rating": 5.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Lujun Zhang": {
     "appearances": [
@@ -49798,10 +50038,18 @@
         "arxiv_id": "2611.13346v1",
         "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Yang Hong": {
     "appearances": [
@@ -49812,10 +50060,18 @@
         "arxiv_id": "2611.13346v1",
         "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Tiantian Yang": {
     "appearances": [
@@ -49826,10 +50082,18 @@
         "arxiv_id": "2611.13346v1",
         "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.13346v1",
+        "title": "Advancing Mass-Conserving Deep Learning for Distributed Hydrologic Modeling: A Case Study in a Snow-Dominated Watershed",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Alessandro Pereira": {
     "appearances": [
@@ -49840,10 +50104,18 @@
         "arxiv_id": "2611.13356v1",
         "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2611.13356v1",
+        "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Keith J Ransom": {
     "appearances": [
@@ -49854,10 +50126,18 @@
         "arxiv_id": "2611.13356v1",
         "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2611.13356v1",
+        "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Lewis Mitchell": {
     "appearances": [
@@ -49868,10 +50148,18 @@
         "arxiv_id": "2611.13356v1",
         "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2611.13356v1",
+        "title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Chaeho Lee": {
     "appearances": [
@@ -49882,10 +50170,18 @@
         "arxiv_id": "2611.13477v1",
         "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Junyup Kim": {
     "appearances": [
@@ -49896,10 +50192,18 @@
         "arxiv_id": "2611.13477v1",
         "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Wansoo Kim": {
     "appearances": [
@@ -49910,10 +50214,18 @@
         "arxiv_id": "2611.13477v1",
         "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Young Min Jung": {
     "appearances": [
@@ -49924,10 +50236,18 @@
         "arxiv_id": "2611.13477v1",
         "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Sang Ho Lee": {
     "appearances": [
@@ -49938,10 +50258,18 @@
         "arxiv_id": "2611.13477v1",
         "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
         "ai_rating": 4.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.13477v1",
+        "title": "Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling",
+        "ai_rating": 4.0
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Gerrit Großmann": {
     "appearances": [
@@ -49952,10 +50280,18 @@
         "arxiv_id": "2611.13167v1",
         "title": "AI Alignment Is Neither Solvable nor Sufficient",
         "ai_rating": 5.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.13167v1",
+        "title": "AI Alignment Is Neither Solvable nor Sufficient",
+        "ai_rating": 5.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Emna Belguith": {
     "appearances": [
@@ -50008,10 +50344,18 @@
         "arxiv_id": "2611.13565v1",
         "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Sahas Goli": {
     "appearances": [
@@ -50022,10 +50366,18 @@
         "arxiv_id": "2611.13565v1",
         "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
-    "last_seen": "2026-W46"
+    "last_seen": "2026-W47"
   },
   "Muhammad Ali": {
     "appearances": [
@@ -50036,9 +50388,2313 @@
         "arxiv_id": "2611.13565v1",
         "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
         "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.13565v1",
+        "title": "Investigating Composite Modeling in Multi-Objective Bayesian Optimization for Scientific Design",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Haoyang Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Qumeng Sun": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Xiao Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Xiang Liu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Zhidong Fan": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.15006v1",
+        "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Zimo Xu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.17115v1",
+        "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2611.17115v1",
+        "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Wenzhuo Liu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.17115v1",
+        "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2611.17115v1",
+        "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Hideki Nakayama": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.17115v1",
+        "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 5,
+        "arxiv_id": "2611.17115v1",
+        "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Francesco Di Cursi": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Chiara Boldrini": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Andrea Passarella": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Marco Conti": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 6,
+        "arxiv_id": "2611.16586v1",
+        "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Pengcheng Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Xuanyu Liu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Yanchen Yin": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Tianjie Ju": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Bobo Li": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Shengqiong Wu": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.17267v1",
+        "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Reyna Abhyankar": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Dylan Lim": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Drew Wadsworth": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Venkata Hasith Vattikuti": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "YuTong Julia Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Jung Hwan Heo": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.14681v1",
+        "title": "Together Compiler: Continual Compilation for AI Inference",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Kexuan Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Paolo Frazzetto": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Xiaobei Zou": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Gustau Camps-Valls": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Yang Tang": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.15067v1",
+        "title": "CoLaX: Context-Aware Local Explanations for Time Series Classification",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Carina Moreira Costa": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2611.17143v1",
+        "title": "A Convex-Analytic Reformulation for Poisoning Attacks on Logistic Regression",
+        "ai_rating": 4.5
       }
     ],
     "first_seen": "2026-W46",
     "last_seen": "2026-W46"
+  },
+  "Maria Eduarda Pinheiro": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2611.17143v1",
+        "title": "A Convex-Analytic Reformulation for Poisoning Attacks on Logistic Regression",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Martin Schmidt": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 5,
+        "arxiv_id": "2611.17143v1",
+        "title": "A Convex-Analytic Reformulation for Poisoning Attacks on Logistic Regression",
+        "ai_rating": 4.5
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W46"
+  },
+  "Nina Effenberger": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Florian E. Roemer": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Maybritt Schillinger": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Maxim Samarin": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Erich Fischer": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Reto Knutti": {
+    "appearances": [
+      {
+        "week": "2026-W46",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      },
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.15284v1",
+        "title": "A hybrid machine learning-analog framework for downscaling unprecedented climate extremes",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W46",
+    "last_seen": "2026-W47"
+  },
+  "Wang Ma": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.18453v1",
+        "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Debarun Bhattacharjya": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.18453v1",
+        "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Junkyu Lee": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.18453v1",
+        "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Nhan H Pham": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.18453v1",
+        "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Harsha Kokel": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.18453v1",
+        "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Qiang Ji": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.18453v1",
+        "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Andrew Liu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.17603v1",
+        "title": "Offline KL-Regularized Reinforcement Learning with Stochastic Transitions",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ilyas Varshavskiy": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18190v1",
+        "title": "MarathonTS: a benchmark of long synthetic time series from window assembly and long-series generators",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Sergey Shulgin": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18190v1",
+        "title": "MarathonTS: a benchmark of long synthetic time series from window assembly and long-series generators",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Shuhrat Khalilbekov": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18190v1",
+        "title": "MarathonTS: a benchmark of long synthetic time series from window assembly and long-series generators",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Bonu Boboeva": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18190v1",
+        "title": "MarathonTS: a benchmark of long synthetic time series from window assembly and long-series generators",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Azizjon Azimi": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18190v1",
+        "title": "MarathonTS: a benchmark of long synthetic time series from window assembly and long-series generators",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ishan Khire": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.19016v1",
+        "title": "Match and Correct: A Repeated Computational Motif in Evoformer Layers",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Naren Manikandan": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.19016v1",
+        "title": "Match and Correct: A Repeated Computational Motif in Evoformer Layers",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Tyler Hayes": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.19016v1",
+        "title": "Match and Correct: A Repeated Computational Motif in Evoformer Layers",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Giri Krishnan": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 4,
+        "arxiv_id": "2611.19016v1",
+        "title": "Match and Correct: A Repeated Computational Motif in Evoformer Layers",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Sabrina Tang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.17620v1",
+        "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Nikolai Vo": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.17620v1",
+        "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Carson Murillo": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.17620v1",
+        "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Chira Sukumarnpiti": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.17620v1",
+        "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Sarah Wilson": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.17620v1",
+        "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Haolin Yang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.17797v1",
+        "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Wenshan Wu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.17797v1",
+        "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Jin Jiang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.17797v1",
+        "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Yu Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.17797v1",
+        "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Yan Xia": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.17797v1",
+        "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ting Song": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.17797v1",
+        "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Pengxu Wen": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.19379v1",
+        "title": "$β$-number and Its Applications to Data Science",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ziwei Nie": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.19379v1",
+        "title": "$β$-number and Its Applications to Data Science",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Liwen Zou": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.19379v1",
+        "title": "$β$-number and Its Applications to Data Science",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ying Cao": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.19379v1",
+        "title": "$β$-number and Its Applications to Data Science",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xiaoping Yang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.19379v1",
+        "title": "$β$-number and Its Applications to Data Science",
+        "ai_rating": 3.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ruihan Guo": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.16361v1",
+        "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Chaoran Cheng": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.16361v1",
+        "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Zhanghan Ni": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.16361v1",
+        "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Neil He": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.16361v1",
+        "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Bangji Yang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.16361v1",
+        "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ge Liu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.16361v1",
+        "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Peter Sharpe": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.17141v1",
+        "title": "ISLA: A Coordinate-Free, Measure-Weighted Transformer for Boundary-Driven PDEs",
+        "ai_rating": 7.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Lea L. Kronziel": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18803v1",
+        "title": "Clustering-Based Artificial Tree Ensembles for Random Forest Approximation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Maren S. Wieder": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18803v1",
+        "title": "Clustering-Based Artificial Tree Ensembles for Random Forest Approximation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Silke Szymczak": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18803v1",
+        "title": "Clustering-Based Artificial Tree Ensembles for Random Forest Approximation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Björn-Hergen Laabs": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 10,
+        "arxiv_id": "2611.18803v1",
+        "title": "Clustering-Based Artificial Tree Ensembles for Random Forest Approximation",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Viet K. Nguyen": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.23202v1",
+        "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Mohammad I. Husain": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 1,
+        "arxiv_id": "2611.23202v1",
+        "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Nicholas Gabriel": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 2,
+        "arxiv_id": "2611.20398v1",
+        "title": "Deploying a Control-Logic LLM Assistant in Air-Gapped Power Plants: Lessons in Source Authority and Bounded Retrieval",
+        "ai_rating": 5.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Sara Khosravi": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.22069v1",
+        "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xiaofei Wen": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.22069v1",
+        "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Majid Sarrafzadeh": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.22069v1",
+        "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Muhao Chen": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.22069v1",
+        "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Zhiyu Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.21273v1",
+        "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Tianyou Liu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.21273v1",
+        "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xinping Yang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.21273v1",
+        "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Yiyao Liu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.21273v1",
+        "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Jiayi Dong": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.21273v1",
+        "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Yihan Lin": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 8,
+        "arxiv_id": "2611.21273v1",
+        "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xinyu Tao": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.20124v1",
+        "title": "QA-CMIF:Accurate and Lightweight Cross-Modal Latent Imputation and Fusion for Fault-Tolerant sEMG-Inertial Hand Gesture Recognition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Shuang Huang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.20124v1",
+        "title": "QA-CMIF:Accurate and Lightweight Cross-Modal Latent Imputation and Fusion for Fault-Tolerant sEMG-Inertial Hand Gesture Recognition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Yeyun Cai": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.20124v1",
+        "title": "QA-CMIF:Accurate and Lightweight Cross-Modal Latent Imputation and Fusion for Fault-Tolerant sEMG-Inertial Hand Gesture Recognition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Fang Deng": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.20124v1",
+        "title": "QA-CMIF:Accurate and Lightweight Cross-Modal Latent Imputation and Fusion for Fault-Tolerant sEMG-Inertial Hand Gesture Recognition",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Valery Manokhin": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 6,
+        "arxiv_id": "2611.21267v1",
+        "title": "Conformal Expert Pools: Training-Free Probabilistic Time-Series Forecasting Beyond Seasonality",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Samuel Stanton": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.19812v1",
+        "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Aaron Solomon": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.19812v1",
+        "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Emily Delaney": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.19812v1",
+        "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Melanie Montgomery": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.19812v1",
+        "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Crystal Humphries": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.19812v1",
+        "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Timothy Acker": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.19812v1",
+        "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+        "ai_rating": 7.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Jonathan Lichtle": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.23480v1",
+        "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Aymen Meddeb": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.23480v1",
+        "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Antonin Birot": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.23480v1",
+        "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ibrahima Niang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.23480v1",
+        "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Lisa Gastaud": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.23480v1",
+        "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Riyad Hanafi": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 3,
+        "arxiv_id": "2611.23480v1",
+        "title": "Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Antonio Ferrara": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.22352v1",
+        "title": "Fair Bubble Sort: Provably Optimal Fair Ranking with Continuous Sensitive Attributes",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Fabio Vitale": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.22352v1",
+        "title": "Fair Bubble Sort: Provably Optimal Fair Ranking with Continuous Sensitive Attributes",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Atsushi Miyauchi": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.22352v1",
+        "title": "Fair Bubble Sort: Provably Optimal Fair Ranking with Continuous Sensitive Attributes",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Francesco Bonchi": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 1,
+        "arxiv_id": "2611.22352v1",
+        "title": "Fair Bubble Sort: Provably Optimal Fair Ranking with Continuous Sensitive Attributes",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Igor Shilov": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.23112v1",
+        "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Thomas Fel": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.23112v1",
+        "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Tal Haklay": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.23112v1",
+        "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Owen Lewis": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 3,
+        "arxiv_id": "2611.23112v1",
+        "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Eleftheria Chini": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.22682v1",
+        "title": "CULypso: A Clustered Federated Unlearning paradigm for Vehicular Ad-Hoc Networks",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "George Margaritis": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.22682v1",
+        "title": "CULypso: A Clustered Federated Unlearning paradigm for Vehicular Ad-Hoc Networks",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Dimitrios Katsaros": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 4,
+        "arxiv_id": "2611.22682v1",
+        "title": "CULypso: A Clustered Federated Unlearning paradigm for Vehicular Ad-Hoc Networks",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Mehmet Altan Toksöz": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 7,
+        "arxiv_id": "2611.23205v1",
+        "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Zhirong Su": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.22434v1",
+        "title": "Encoding, Decodability, and Use: A Five-Layer Framework for Benchmark Measurement Audits with Evidence from UAV Intent Recognition",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Tian Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 8,
+        "arxiv_id": "2611.22434v1",
+        "title": "Encoding, Decodability, and Use: A Five-Layer Framework for Benchmark Measurement Audits with Evidence from UAV Intent Recognition",
+        "ai_rating": 4.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "The Dung Bui": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.22043v2",
+        "title": "A Hybrid Exact-Heuristic Solver for the Integrated Passenger and Parcel Transportation Problem",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ha Thu Nguyen": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 7,
+        "arxiv_id": "2611.22043v2",
+        "title": "A Hybrid Exact-Heuristic Solver for the Integrated Passenger and Parcel Transportation Problem",
+        "ai_rating": 2.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Zhuohan Cai": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.22591v1",
+        "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Zhangxuan Gu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.22591v1",
+        "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Runze Li": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.22591v1",
+        "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Beitong Zhou": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.22591v1",
+        "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Ming Wen": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.22591v1",
+        "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Hongbo Yu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 9,
+        "arxiv_id": "2611.22591v1",
+        "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+        "ai_rating": 5.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Jinwei Hu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.21235v1",
+        "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Qisong He": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.21235v1",
+        "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xinmiao Huang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.21235v1",
+        "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Youcheng Sun": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.21235v1",
+        "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Yi Dong": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.21235v1",
+        "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xiaowei Huang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.AI",
+        "rank": 10,
+        "arxiv_id": "2611.21235v1",
+        "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+        "ai_rating": 6.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Xizhuo Zhang": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.25450v1",
+        "title": "Inverse ECG Reconstruction via a Preconditioned Variational Quantum Linear Solver",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Chao Lu": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.25450v1",
+        "title": "Inverse ECG Reconstruction via a Preconditioned Variational Quantum Linear Solver",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Bing Yao": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 2,
+        "arxiv_id": "2611.25450v1",
+        "title": "Inverse ECG Reconstruction via a Preconditioned Variational Quantum Linear Solver",
+        "ai_rating": 3.5
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Shashank Gupta": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.24757v1",
+        "title": "Variance-Optimal Counterfactual Policy Design for Sample-Efficient Online A/B Testing",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
+  },
+  "Subhadeep Maji": {
+    "appearances": [
+      {
+        "week": "2026-W47",
+        "category": "cs.LG",
+        "rank": 9,
+        "arxiv_id": "2611.24757v1",
+        "title": "Variance-Optimal Counterfactual Policy Design for Sample-Efficient Online A/B Testing",
+        "ai_rating": 6.0
+      }
+    ],
+    "first_seen": "2026-W47",
+    "last_seen": "2026-W47"
   }
 }

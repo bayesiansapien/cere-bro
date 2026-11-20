@@ -2385,3 +2385,14 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-19] social-stream | 2026-11-19 morning | social-stream
 ## [2026-11-19] media-zone | Media Zone 2026-11-19 (finalized from closed window) | media-zone
 ## [2026-11-19] digest | cere-bro 2026-11-19 | daily-digest
+## [2026-11-20] ingest | QDA closed-loop quantization design | huggingface + twitter + dair
+## [2026-11-20] ingest | Late Entry in looped LMs | huggingface
+## [2026-11-20] ingest | Tideway + Chorus | huggingface
+## [2026-11-20] ingest | AnyS1 System-1 decision points | huggingface
+## [2026-11-20] ingest | Resolution Hypothesis, GUARD, stale skills, Safe Personal RSI, MLE Agents | huggingface + twitter
+## [2026-11-20] ingest | Streaming DiLoCo, Dynamo RL, Performance Factory, SageMaker, Together TSA | labs + twitter
+## [2026-11-20] ingest | Research shorts + Hy4-base + Marin Mochi | huggingface + labs + twitter
+## [2026-11-20] ingest | Anthropic debut, export-rule fallout, Railway hack, token fraud | rss + gmail + twitter
+## [2026-11-20] social-stream | 2026-11-20 morning | social-stream
+## [2026-11-20] media-zone | Media Zone 2026-11-20 (finalized from closed window) | media-zone
+## [2026-11-20] digest | cere-bro 2026-11-20 | daily-digest

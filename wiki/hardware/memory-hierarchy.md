@@ -292,3 +292,7 @@ TSMC is drawing up plans for 3D DRAM at NVIDIA's request ([summary](2026-11-07-t
 ## Update 2026-11-16: HBM4 cost structure
 
 Bernstein (via X): HBM4 at about $6-7/GB manufacturing cost vs about $20/GB price; nearly half of a 32GB stack's cost is the base logic die, advanced packaging and test. Moving from 8 to 16 layers doubles capacity and lowers cost/GB about 13%. Implication: the HBM bill is increasingly a packaging bill. See [compute-economics](compute-economics.md).
+
+## Update 2026-11-20: tiers on a PC, DRAM in the rack
+
+[Tideway (2611.14848)](../inference-efficiency/2026-11-20-tideway-moe-tiered-memory.md) pools VRAM and host RAM for MoE inference on consumer devices with phase-specific layouts: 1.97x end-to-end, 2.40x TTFT. Parasail will deploy Positron Titan servers (models up to 32T parameters in commodity DRAM, not HBM) at 5MW. Together's Storage Accelerator caches objects on every GPU node (about 20x faster warm reads). See [plumbing](2026-11-20-training-and-serving-plumbing.md).
