@@ -824,3 +824,7 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-19: OPD's negative transfer is measurable per domain
 
 [Agentic OPD (2611.19244)](2026-11-19-efficiency-shorts.md): general-reasoning OPD cut math tool attempts 70.4% to 14.4% while raising accuracy 16.7% to 38.0%, but ALFWorld OPD crashed τ²-bench 41.5% to 6.6%; selective OPD (top 95% of positions by teacher preference change) recovers to 29.9%. M3OPD-Reasoner (2611.23034) makes multi-teacher OPD then mixed RL on the same prompts the open VLM recipe, with no collapse.
+
+## Update 2026-11-21: the defender's view of trace distillation
+- **OpenAI on adversarial distillation** ([summary](../responsible-ai/2026-11-21-openai-adversarial-distillation-defenses.md)): students trained on exact hidden reasoning traces beat summary-trained students after SFT; after RL the gap persists only at the largest inference budget. Hiding and binding traces cut extraction success from 54.0% to 0.2%. Confirms from the other side that the reasoning distribution carries the transferable signal.
+- **Posterior Matching Distillation** and **CSPD** ([shorts](../llms-foundation-models/2026-11-21-research-shorts.md)): mode-covering diffusion distillation via tilted posterior means; RL experts distilled into composable 256-token soft prompts on a frozen base.

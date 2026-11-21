@@ -598,3 +598,6 @@ Nvidia closed down 4.3% on 11-09 as AMD rose 13% and Broadcom 8.8%, while report
 ## Update 2026-11-20
 
 Ramp: token prices -21% in six weeks while usage hit a record; Anthropic ~59% of business token spend. Hopper GPUs reportedly recontracting at up to 2x original prices. OpenAI's 90th-percentile researcher at ~$23K of tokens/day (+105% since September). Moonshot scrapped a $150M B300 rental in Indonesia under the new remote-access rule. Streaming DiLoCo cuts cross-site training traffic 65x (needs ~1.3 Gbps vs ~85 Gbps for data parallel on Qwen3-32B), the training-side answer to siting limits ([plumbing](2026-11-20-training-and-serving-plumbing.md)). ANT closed day one at $97.17 ($1.76T).
+
+## Update 2026-11-21: the market prices the commitment gap
+- Nasdaq -5.28% on 11-20, SMH's worst week in 25 years, Nvidia -13% on a reported SEC accounting inquiry; ANT back near its $83 offer. SpaceX paid 8%+ on $32B of debt backed by about $47.3B of Rubin GPUs. SoftBank explored a ~$1T SK Hynix buyout. OpenAI Q3: ~$10B revenue, $10.9B operating loss. ([summary](../ai-industry/2026-11-21-ai-selloff-nvidia-sec-probe-hynix.md))

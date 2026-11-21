@@ -2396,3 +2396,12 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-20] social-stream | 2026-11-20 morning | social-stream
 ## [2026-11-20] media-zone | Media Zone 2026-11-20 (finalized from closed window) | media-zone
 ## [2026-11-20] digest | cere-bro 2026-11-20 | daily-digest
+
+## [2026-11-21] ingest | LightningMoBA, NarrowSpec/VSpark, FlashMorph2, research shorts | huggingface + kurate
+## [2026-11-21] ingest | Inkling 2 Mini, Riemann Hypothesis Lean proof | twitter + linkedin + gmail + rss
+## [2026-11-21] ingest | AWS KV-cache skill + Global Inference Gateway, OpenAI adversarial distillation | labs
+## [2026-11-21] ingest | Agents doing science shorts | huggingface + twitter
+## [2026-11-21] ingest | AI selloff, Nvidia SEC probe, SoftBank/SK Hynix, SpaceX GPU debt | rss + gmail + twitter
+## [2026-11-21] social-stream | 2026-11-21 morning | social-stream
+## [2026-11-21] media-zone | Media Zone 2026-11-21 (finalized from closed window) | media-zone
+## [2026-11-21] digest | cere-bro 2026-11-21 | daily-digest

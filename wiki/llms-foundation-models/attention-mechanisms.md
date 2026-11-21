@@ -250,3 +250,7 @@ Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-spa
 
 - [Multi-Branch Transformer (2611.19800)](2026-11-19-multi-branch-transformer-joint-kv.md): parallel full-block branches with shared KV (Joint-KV); TPHC (2611.23026) maps tensor-parallel shards to separate hyper-connection streams (no extra FLOPs, +19% training time from 4 to 16 streams).
 - [Attention at Absolute Zero (2611.11937)](../inference-efficiency/2026-11-19-efficiency-shorts.md): pair-state attention reading witnesses at zero temperature generalizes exactly to sets 1,000x larger than training, where soft counting falls to 42%.
+
+## Update 2026-11-21: dynamic block budgets and on-policy hybrid conversion
+- **LightningMoBA** ([summary](../inference-efficiency/2026-11-21-lightningmoba-dynamic-block-attention.md)): variable per-query block counts plus KV-centric scheduling, 1.2-1.6x faster with a small RULER gain.
+- **FlashMorph2** ([summary](2026-11-21-flashmorph2-on-policy-hybrid-attention.md)): choose which layers keep full attention by sampling discrete hybrids and scoring them after joint weight adaptation; +2.42 RULER over FlashMorph at 0.72-3.57 GPU-hours. On-policy evaluation, the distillation lesson, now applied to architecture search.

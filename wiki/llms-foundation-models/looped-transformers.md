@@ -182,3 +182,6 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 ## Update 2026-11-20: late entry
 
 [Late Entry (2611.24576)](2026-11-20-late-entry-looped-lms.md): new tokens skip early passes and read a full-depth KV cache; committed tokens finish passes in the background; Wake verification inside the output GEMM, one tolerance tau from exact to lossy. Ouro-2.6B 5.2x exact (+16.9 points over early exit at matched speed); Huginn-3.5B up to 8.4x exact and 12.5x lossy at T = 64. Second fast-decoding path after LoopFill (11-18); it spends KV memory where Dory and LoopVQ save it.
+
+## Update 2026-11-21: a frontier lab ships a looped model for laptops
+- **Inkling 2 Mini** (Thinking Machines; [summary](2026-11-21-inkling-2-mini-looped-moe.md)): looped MoE, about 26-27B total and 3B active, fits in 32GB; community reports roughly Qwen 3.8 27B quality, ~75 tok/s on DGX Spark and 210 tok/s decode on a 96GB M5. First looped model from a frontier lab aimed at local hardware. Open question: whether its loops are adaptive per token, which decides whether Late Entry (11-20, skip early passes on new tokens) applies.

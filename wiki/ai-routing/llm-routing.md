@@ -1059,3 +1059,8 @@ Routing ships as a product feature: GitHub's Copilot Fusion picks Single, Cascad
 
 - [AnyS1 (2611.23751)](2026-11-20-anys1-system1-decision-points.md): decision points mined from 1,000+ public skill files train one calibrated 4B pointer System-1; low-confidence steps escalate to System-2. Episode cost -75-91%, model-call time -63-92%, threshold transfers zero-shot. Generalizes LuthorSQL's (11-17) per-query cascade to every enumerable step.
 - Same day: Claude Code's advisor mode (Sonnet session, Opus at decision points) and a step-level "Drex Router" circulated on X; NVIDIA Dynamo applied KV-aware routing to RL rollouts ([plumbing](../hardware/2026-11-20-training-and-serving-plumbing.md)); Gemini API shipped Tool Retrieval (tool schemas loaded on demand).
+
+## Update 2026-11-21: routing tiers multiply in infrastructure
+- **AWS HyperPod Global Inference Gateway** ([summary](../inference-efficiency/2026-11-21-aws-distributed-kv-cache-skill-and-global-gateway.md)) adds cluster/Region choice above the per-cluster gateway that routes by KV utilization and queue depth.
+- **Drex Router** (Nace, via X) returns a probability per candidate model plus a reason in 57-87 ms from a 12B Gemma-based model; vendor test: 87.6% on 1,400 exam questions for $0.10 per 1,000 vs Jev Router's 86.4% for $1.09. Vendor numbers only.
+- **System 1 agents** ([summary](../agentic-systems/2026-11-21-agents-doing-science-shorts.md)): compile tool calls into multiple-choice questions for a decision model; 97.0% correct tool-or-decline and zero invented arguments, the closed-set routing pattern from AnyS1 (11-20).

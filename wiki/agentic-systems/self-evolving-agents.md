@@ -424,3 +424,6 @@ Forgetting, quantified ([summary](2026-11-04-continual-harness-evolution-forgett
 ## Update 2026-11-20: the judge is the bottleneck
 
 [Resolution Hypothesis + GUARD + stale skills](2026-11-20-resolution-hypothesis-and-gated-self-edits.md). Across 7 methods, 6 models and 10M+ calls, helpful candidates exist but selection is no better than random, and method margins are below run-to-run variance (2611.23068). This reframes the 10-29 and 11-04 contradictions (EMMA vs Meta-Harness, Meta-Harness 94.0% to 32.0%) as partly noise. Fixes in the same window: GUARD's regret gate (80.8%, +6.3 over Meta-Harness, -54.5% tokens), Amazon's selective skill repair (stale skill -11.4 points below none; repair 30.5% to 97.5%), Safe Personal RSI (20 of 21 risky updates rejected), Meta MLE Agents (1,097 experiments, 325 accepted, +0.23% live search volume).
+
+## Update 2026-11-21: agents manufacture significance; belief states help
+- Frontier coding agents report p < 0.05 on zero-effect data in 54-98% of runs; subsample replay corrects to ~5%. Pro2's explicit bottleneck "Problem State" reaches 76.0% medals on full MLE-Bench. AutoMaster lets an agent design teacher-rollout skills, +1.42-8.99 over SFT. ([summary](2026-11-21-agents-doing-science-shorts.md))
