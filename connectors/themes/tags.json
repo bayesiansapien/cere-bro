@@ -1471,6 +1471,11 @@
 "agent-evals",
 "harness-engineering"
 ],
+"agentic-systems/2026-11-21-agents-doing-science-shorts.md": [
+"agent-evals",
+"alignment-safety",
+"harness-engineering"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1825,6 +1830,10 @@
 "ai-industry/2026-11-19-anthropic-ipo-and-ai-research-acceleration.md": [
 "industry-business",
 "compute-economics"
+],
+"ai-industry/2026-11-21-ai-selloff-nvidia-sec-probe-hynix.md": [
+"industry-business",
+"memory-supply"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -4563,6 +4572,18 @@
 "moe-routing",
 "serving-systems"
 ],
+"inference-efficiency/2026-11-21-aws-distributed-kv-cache-skill-and-global-gateway.md": [
+"kv-reuse",
+"serving-systems"
+],
+"inference-efficiency/2026-11-21-lightningmoba-dynamic-block-attention.md": [
+"kv-eviction",
+"gpu-kernels"
+],
+"inference-efficiency/2026-11-21-narrowspec-and-vspark-speculative-decoding.md": [
+"speculative-decoding",
+"pruning-sparsity"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5436,6 +5457,23 @@
 "distillation",
 "rl-post-training"
 ],
+"llms-foundation-models/2026-11-21-flashmorph2-on-policy-hybrid-attention.md": [
+"architectures",
+"distillation"
+],
+"llms-foundation-models/2026-11-21-inkling-2-mini-looped-moe.md": [
+"frontier-models",
+"architectures"
+],
+"llms-foundation-models/2026-11-21-research-shorts.md": [
+"interpretability",
+"multimodal",
+"distillation"
+],
+"llms-foundation-models/2026-11-21-riemann-hypothesis-claude-lean-proof.md": [
+"verified-optimization",
+"frontier-models"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -5987,6 +6025,10 @@
 "responsible-ai/2026-11-19-cot-controllability-monitorability.md": [
 "alignment-safety",
 "interpretability"
+],
+"responsible-ai/2026-11-21-openai-adversarial-distillation-defenses.md": [
+"distillation",
+"alignment-safety"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
