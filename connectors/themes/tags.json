@@ -1476,6 +1476,14 @@
 "alignment-safety",
 "harness-engineering"
 ],
+"agentic-systems/2026-11-22-autoragbench-agents-build-rag.md": [
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-11-22-claude-code-code-mode-and-agent-token-cost.md": [
+"agent-cost",
+"tool-use"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1834,6 +1842,11 @@
 "ai-industry/2026-11-21-ai-selloff-nvidia-sec-probe-hynix.md": [
 "industry-business",
 "memory-supply"
+],
+"ai-industry/2026-11-22-decart-oracle-together-breach-and-chip-policy.md": [
+"industry-business",
+"compute-economics",
+"accelerators"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -4584,6 +4597,18 @@
 "speculative-decoding",
 "pruning-sparsity"
 ],
+"inference-efficiency/2026-11-22-g-mtp-gemma-4-multi-token-drafter.md": [
+"speculative-decoding",
+"kv-reuse"
+],
+"inference-efficiency/2026-11-22-loopcache-looped-speculative-decoding.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-11-22-qwen4-max-whole-repo-prompt-caching.md": [
+"frontier-models",
+"kv-reuse"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5473,6 +5498,9 @@
 "llms-foundation-models/2026-11-21-riemann-hypothesis-claude-lean-proof.md": [
 "verified-optimization",
 "frontier-models"
+],
+"llms-foundation-models/2026-11-22-alphaproof-nexus-ghz-no-go-and-riemann-day-two.md": [
+"verified-optimization"
 ],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
