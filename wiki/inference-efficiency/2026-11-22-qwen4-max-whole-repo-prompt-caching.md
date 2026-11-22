@@ -36,7 +36,7 @@ flowchart LR
 
 ## How it relates to prior wiki pages
 
-- **Contrasts with** Nvidia's "You Don't Need Long Context" (11-04), which argued periodic summaries and keyword search usually match full-context results at a fraction of the cost. Together's test is the opposite bet: put everything in, then let the prefix cache make repeats cheap. The two only conflict for one-shot queries; for repeated queries over the same corpus, caching changes the math.
+- **Contrasts with** Nvidia's "You Don't Need Long Context" ([11-05 summary](2026-11-05-context-budget-compaction-and-context-rot.md)), which argued periodic summaries and keyword search usually match full-context results at a fraction of the cost. Together's test is the opposite bet: put everything in, then let the prefix cache make repeats cheap. The two only conflict for one-shot queries; for repeated queries over the same corpus, caching changes the math.
 - **Confirms** the practitioner economics on [kv-cache](kv-cache.md): Uber compacting Claude Code sessions at 400K tokens (11-21) and AWS's priced shared KV tier (11-21) both treat reuse of prefill as the cost lever.
 - Earlier coverage of the model: [Qwen4 Max and Loopback Transformer (11-17)](../llms-foundation-models/2026-11-17-qwen4-max-and-loopback-transformer.md).
 

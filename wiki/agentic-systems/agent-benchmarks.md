@@ -337,3 +337,6 @@ FrontierPhysics (2611.06910, 56 tasks, none passes over 46 of 168 rollouts), Sci
 ## Update 2026-11-08
 
 [Summary](2026-11-08-agent-benchmarks-and-research-shorts.md). Collaborative Intelligence Benchmark (2611.02633): best of 18 models 82.2/100; models cave under teammate pressure (best deal 14%). ReproBridge (2611.08452): saved artifacts lift reproduction 76.4% to 92.6%, cut API spend 19.7%, shrink model spread 21.6 to 3.9 points. OpenFrontiers (2610.37739): closed-book agents rediscover at most 7 of 40 recently solved problems, while PSI claims a Lean-verified proof of the Aaronson-Ambainis conjecture from an unreleased Anthropic model. TB-MathModel (2611.08237): 64.58% best, open model 59.81% at ~1/100 the cost.
+
+## Update 2026-11-22: AutoRAGBench
+[Summary](2026-11-22-autoragbench-agents-build-rag.md) (2611.25582, DAIR pick). Nine RAG-building tasks, no starter code, 6 hours on one H800. GPT-6.1 Sol + Codex CLI averages 56.1 against a composite best-published-method baseline of 44.4, and adds 16.6 points when started from a human system. Joins Pro2 (11-21, 76% MLE-Bench medals) in showing experiment-budgeted agents beating published baselines; the 11-21 Michigan null-data study is the caution.

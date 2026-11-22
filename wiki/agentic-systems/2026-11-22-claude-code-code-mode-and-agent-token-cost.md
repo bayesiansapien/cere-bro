@@ -40,7 +40,7 @@ flowchart LR
 
 ## How it relates to prior wiki pages
 
-- **Confirms** Coca-Cola's latent tool-observation compression and the 11-09 agent-cost shorts: tool output, not reasoning, is the dominant token sink.
+- **Confirms** [Coca-Cola (11-09)](2026-11-09-coca-cola-latent-tool-observation-compression.md), which compresses raw tool output into a few latent tokens, and the [11-09 agent-cost shorts](2026-11-09-envopt-and-agent-cost-shorts.md): tool output, not reasoning, is a dominant token sink.
 - **Routing intersection:** Spotify's helper split is model routing done in the harness by task type, the same idea as Drex Router (11-21, a 12B router picking a model in under 90 ms) but enforced by a file-size rule instead of a learned router. See [llm-routing](../ai-routing/llm-routing.md).
 - **Harness thread:** this is the practitioner side of [agent-harness-engineering](agent-harness-engineering.md) and [tool-calling](tool-calling.md): the harness, not the model, decides most of the bill.
 

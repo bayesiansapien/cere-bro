@@ -601,3 +601,6 @@ Ramp: token prices -21% in six weeks while usage hit a record; Anthropic ~59% of
 
 ## Update 2026-11-21: the market prices the commitment gap
 - Nasdaq -5.28% on 11-20, SMH's worst week in 25 years, Nvidia -13% on a reported SEC accounting inquiry; ANT back near its $83 offer. SpaceX paid 8%+ on $32B of debt backed by about $47.3B of Rubin GPUs. SoftBank explored a ~$1T SK Hynix buyout. OpenAI Q3: ~$10B revenue, $10.9B operating loss. ([summary](../ai-industry/2026-11-21-ai-selloff-nvidia-sec-probe-hynix.md))
+
+## Update 2026-11-22: acquisitions priced on tokens per kilowatt
+[Summary](../ai-industry/2026-11-22-decart-oracle-together-breach-and-chip-policy.md). Amazon is nearing a ~$7.5B Decart purchase (about 2x its $4B valuation), reportedly for its ability to get more tokens per kilowatt out of Trainium. Oracle says funding for its OpenAI contract is complete (~$20B equity and debt). François Chollet notes GPU spot prices keep rising and capacity is hard to secure even as chip stocks fell into correction, which supports the 11-21 read that the selloff is about financing risk, not demand.

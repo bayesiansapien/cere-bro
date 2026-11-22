@@ -2405,3 +2405,11 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-21] social-stream | 2026-11-21 morning | social-stream
 ## [2026-11-21] media-zone | Media Zone 2026-11-21 (finalized from closed window) | media-zone
 ## [2026-11-21] digest | cere-bro 2026-11-21 | daily-digest
+
+## [2026-11-22] ingest | LoopCache, G-MTP (DAIR + social), AutoRAGBench (DAIR + social), AlphaProof Nexus GHZ no-go | twitter + dair
+## [2026-11-22] ingest | Qwen4 Max whole-repo caching test, Together AI prompt-leak incident | labs
+## [2026-11-22] ingest | Claude Code Code Mode, Spotify token cut, agent memory re-share | rss + gmail + twitter
+## [2026-11-22] ingest | Decart/Amazon, Oracle OpenAI funding, chip policy, Riemann day two | rss + gmail + twitter
+## [2026-11-22] social-stream | 2026-11-22 morning | social-stream
+## [2026-11-22] media-zone | Media Zone 2026-11-22 (finalized from closed window) | media-zone
+## [2026-11-22] digest | cere-bro 2026-11-22 | daily-digest

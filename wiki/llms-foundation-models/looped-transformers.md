@@ -185,3 +185,6 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 
 ## Update 2026-11-21: a frontier lab ships a looped model for laptops
 - **Inkling 2 Mini** (Thinking Machines; [summary](2026-11-21-inkling-2-mini-looped-moe.md)): looped MoE, about 26-27B total and 3B active, fits in 32GB; community reports roughly Qwen 3.8 27B quality, ~75 tok/s on DGX Spark and 210 tok/s decode on a 96GB M5. First looped model from a frontier lab aimed at local hardware. Open question: whether its loops are adaptive per token, which decides whether Late Entry (11-20, skip early passes on new tokens) applies.
+
+## Update 2026-11-22: the hidden cost of loops is KV traffic
+- **LoopCache** ([summary](../inference-efficiency/2026-11-22-loopcache-looped-speculative-decoding.md), 2611.24301): third fast-decoding path for looped models in five days (after LoopFill 11-18 and Late Entry 11-20), and the first to name the binding cost as memory traffic across per-loop KV caches. Rotating one loop cache per step gives 10-14x over wave baselines. Inkling 2 Mini reached Ollama the same day (32GB+ unified memory), so a looped model now has a release, a local runtime and a serving paper within two days. Open: whether LoopCache composes with LoopVQ's joint loop-axis KV coding (11-06).

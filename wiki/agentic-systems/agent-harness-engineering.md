@@ -931,3 +931,6 @@ Feed-day signals ([Drex and AgentPilot](../ai-routing/2026-11-07-drex-open-decis
 ## Update 2026-11-20: verify the edit, revalidate the skill
 
 GUARD's regret-gated edits, stale-skill maintenance and the Resolution Hypothesis ([summary](2026-11-20-resolution-hypothesis-and-gated-self-edits.md)) push harness work from "better proposer" to "better judge". Industry: Bedrock AgentCore now defaults to the open Strands harness with prompt caching and lifecycle hooks for deterministic checks; OpenAI's Performance Factory (diagnose, refute, fix) gets 70% accurate diagnoses but few fixes shipped unchanged ([plumbing](../hardware/2026-11-20-training-and-serving-plumbing.md)).
+
+## Update 2026-11-22: the harness sets the bill
+[Summary](2026-11-22-claude-code-code-mode-and-agent-token-cost.md). Code Mode (script-chained tool calls), Spotify's reported 90% token cut (file reads and boilerplate routed to cheap helpers, enforced by a hook blocking files over 350 lines because instructions were ignored), and a re-shared Anthropic memory guide (small index, save only what the agent cannot see) all cut what the expensive model reads. Hook-enforced rules beat prompt-level rules, the same lesson as Uber's 400K compaction cap (11-21).
