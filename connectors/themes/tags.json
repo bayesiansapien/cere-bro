@@ -1484,6 +1484,9 @@
 "agent-cost",
 "tool-use"
 ],
+"agentic-systems/2026-11-23-buggymle-bug-injection.md": [
+"agent-evals"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1847,6 +1850,11 @@
 "industry-business",
 "compute-economics",
 "accelerators"
+],
+"ai-industry/2026-11-23-inference-supply-chain-and-market.md": [
+"memory-supply",
+"alignment-safety",
+"industry-business"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -2252,6 +2260,10 @@
 "ai-routing/2026-11-20-anys1-system1-decision-points.md": [
 "agent-routing",
 "agent-cost"
+],
+"ai-routing/2026-11-23-fable-suspension-natural-experiment.md": [
+"llm-routing",
+"frontier-models"
 ],
 "hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md": [
 "compute-economics",
@@ -4609,6 +4621,10 @@
 "frontier-models",
 "kv-reuse"
 ],
+"inference-efficiency/2026-11-23-lingsante-mxfp4-and-int8-edge.md": [
+"quantization",
+"frontier-models"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5502,6 +5518,9 @@
 "llms-foundation-models/2026-11-22-alphaproof-nexus-ghz-no-go-and-riemann-day-two.md": [
 "verified-optimization"
 ],
+"llms-foundation-models/2026-11-23-openai-perplexity-and-intelligence.md": [
+"scaling-laws"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -6057,6 +6076,10 @@
 "responsible-ai/2026-11-21-openai-adversarial-distillation-defenses.md": [
 "distillation",
 "alignment-safety"
+],
+"responsible-ai/2026-11-23-shutdown-sabotage-and-safety-shorts.md": [
+"alignment-safety",
+"multi-agent"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
