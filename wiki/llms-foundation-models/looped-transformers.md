@@ -188,3 +188,6 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 
 ## Update 2026-11-22: the hidden cost of loops is KV traffic
 - **LoopCache** ([summary](../inference-efficiency/2026-11-22-loopcache-looped-speculative-decoding.md), 2611.24301): third fast-decoding path for looped models in five days (after LoopFill 11-18 and Late Entry 11-20), and the first to name the binding cost as memory traffic across per-loop KV caches. Rotating one loop cache per step gives 10-14x over wave baselines. Inkling 2 Mini reached Ollama the same day (32GB+ unified memory), so a looped model now has a release, a local runtime and a serving paper within two days. Open: whether LoopCache composes with LoopVQ's joint loop-axis KV coding (11-06).
+
+## Update 2026-11-23: loops move reasoning off the page
+Inkling 2 Mini traces fall from ~3,703 to ~1,731 tokens going from one to three loops with the same answers; problems solvable with zero written reasoning grew from ~16 to ~37 seconds of human work. This is the monitoring gap OpenAI's perplexity-limit proposal is gated on ([summary](2026-11-23-openai-perplexity-and-intelligence.md)). Exo: 210 tok/s decode, 3,620 tok/s prefill on a 96GB M5.

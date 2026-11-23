@@ -604,3 +604,6 @@ Ramp: token prices -21% in six weeks while usage hit a record; Anthropic ~59% of
 
 ## Update 2026-11-22: acquisitions priced on tokens per kilowatt
 [Summary](../ai-industry/2026-11-22-decart-oracle-together-breach-and-chip-policy.md). Amazon is nearing a ~$7.5B Decart purchase (about 2x its $4B valuation), reportedly for its ability to get more tokens per kilowatt out of Trainium. Oracle says funding for its OpenAI contract is complete (~$20B equity and debt). François Chollet notes GPU spot prices keep rising and capacity is hard to secure even as chip stocks fell into correction, which supports the 11-21 read that the selloff is about financing risk, not demand.
+
+## Update 2026-11-23: supply bottlenecks named, power campuses, and a two-sided market read
+[Summary](../ai-industry/2026-11-23-inference-supply-chain-and-market.md). Cerebras's Feldman: HBM, CoWoS and TSMC 3nm cap accelerator shipments; wafer-scale on 5nm avoids all three. Amazon's 4.4 GW Homer City campus (36 buildings, former coal site). Hopper re-contracting at ~2x with cloud backlog +$500B (bull read) against Citi's grim note and Friday's 12-16% AI-stock falls. J.P. Morgan: hyperscaler capex ~$800B (2026) to ~$2T (2030).

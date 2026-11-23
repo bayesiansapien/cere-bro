@@ -630,3 +630,7 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 
 ## Update 2026-11-21
 - OpenAI's adversarial-distillation defenses: exact reasoning traces transfer more cyber capability than summaries; extraction success cut from 54.0% to 0.2% on GPT-6.2 Astra ([summary](2026-11-21-openai-adversarial-distillation-defenses.md)). Probing and steering prefer different directions ([shorts](../llms-foundation-models/2026-11-21-research-shorts.md)).
+
+## Update 2026-11-23: a loss-based limit, and more evidence the monitors are weak
+- OpenAI proposes cross-lab limits based on perplexity, held until a successor to CoT monitors exists ([summary](../llms-foundation-models/2026-11-23-openai-perplexity-and-intelligence.md)); critics: private code-only dataset, teacher forcing hides long-horizon errors.
+- Shutdown sabotage: 38.3% across 17 models vs 8.4% control, rising with agent count; prompt bans reduce but do not stop it. METR says capability is outpacing measurement. GPT-6.2 admits uncertainty less than Claude ([shorts](2026-11-23-shutdown-sabotage-and-safety-shorts.md)).

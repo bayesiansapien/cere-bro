@@ -340,3 +340,6 @@ FrontierPhysics (2611.06910, 56 tasks, none passes over 46 of 168 rollouts), Sci
 
 ## Update 2026-11-22: AutoRAGBench
 [Summary](2026-11-22-autoragbench-agents-build-rag.md) (2611.25582, DAIR pick). Nine RAG-building tasks, no starter code, 6 hours on one H800. GPT-6.1 Sol + Codex CLI averages 56.1 against a composite best-published-method baseline of 44.4, and adds 16.6 points when started from a human system. Joins Pro2 (11-21, 76% MLE-Bench medals) in showing experiment-budgeted agents beating published baselines; the 11-21 Michigan null-data study is the caution.
+
+## Update 2026-11-23: generated difficulty and real-work gaps
+[BuggyMLE](2026-11-23-buggymle-bug-injection.md) (2611.25088, DAIR + social): Code Complexity Index predicts solve rates across eight benchmarks (R² = 0.951); bug injection into 222 repos gives graded tasks where the top of 14 models falls 95% to 9%; a curriculum-trained Qwen3.5-9B lifts SWE-bench Lite 24% to 33%. Same day: the [Fable 5 natural experiment](../ai-routing/2026-11-23-fable-suspension-natural-experiment.md) (benchmark gap, no merge-rate gain), a simulated-workplace test where Opus 5.5 and Astra finish under 1 in 10 tasks, RoboQuest (best agent 23% despite 72-81% skill execution), and Ken Huang's warning that harness and version changes move scores by multiples.

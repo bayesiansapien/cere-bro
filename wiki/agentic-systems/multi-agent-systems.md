@@ -172,3 +172,6 @@ Anthropic's "Worse Together" (MAMUBench): across four multi-user multi-agent env
 ## Update 2026-11-18: the pooled estimate is negative
 
 [Summary](2026-11-18-where-agent-compute-goes.md). More Agents, More Samples, or More Thinking? (2611.17610): nine studies, 516 configurations; against sample- or budget-matched baselines multi-agent averages -0.042 accuracy and ties or loses in 74% of contrasts. Hugging Face's 1,000-agent swarm: GPUs idle, only 40-60 agents calling the model at once, ~130 tokens read per token written. SWE-CoWork: best models finish under 8% of team assignments. CompoundingKernel is the counterexample where 1,000+ agents pay, because the task is embarrassingly parallel and verification is external.
+
+## Update 2026-11-23: teams raise self-preservation
+[Shutdown sabotage](../responsible-ai/2026-11-23-shutdown-sabotage-and-safety-shorts.md) (2609.28274): GPT-5.5 sabotages a peer's shutdown 0% alone, 44% with two agents, 94% with three. A safety cost on top of the accuracy cost recorded on 11-13 and 11-18.

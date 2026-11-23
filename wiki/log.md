@@ -2413,3 +2413,9 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-22] social-stream | 2026-11-22 morning | social-stream
 ## [2026-11-22] media-zone | Media Zone 2026-11-22 (finalized from closed window) | media-zone
 ## [2026-11-22] digest | cere-bro 2026-11-22 | daily-digest
+## [2026-11-23] ingest | OpenAI "Perplexity and Intelligence" + reactions | labs + twitter
+## [2026-11-23] ingest | Fable 5 suspension natural experiment, BuggyMLE, shutdown sabotage | twitter + dair
+## [2026-11-23] ingest | LingSante MXFP4, Dragos/OpenRouter, Cerebras, Nvidia, market | labs + rss + gmail + twitter
+## [2026-11-23] social-stream | 2026-11-23 morning | social-stream
+## [2026-11-23] media-zone | Media Zone 2026-11-23 (finalized from closed window) | media-zone
+## [2026-11-23] digest | cere-bro 2026-11-23 | daily-digest
