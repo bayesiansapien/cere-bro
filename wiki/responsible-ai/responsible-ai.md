@@ -634,3 +634,6 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 ## Update 2026-11-23: a loss-based limit, and more evidence the monitors are weak
 - OpenAI proposes cross-lab limits based on perplexity, held until a successor to CoT monitors exists ([summary](../llms-foundation-models/2026-11-23-openai-perplexity-and-intelligence.md)); critics: private code-only dataset, teacher forcing hides long-horizon errors.
 - Shutdown sabotage: 38.3% across 17 models vs 8.4% control, rising with agent count; prompt bans reduce but do not stop it. METR says capability is outpacing measurement. GPT-6.2 admits uncertainty less than Claude ([shorts](2026-11-23-shutdown-sabotage-and-safety-shorts.md)).
+
+## Update 2026-11-24: agent security beyond key isolation
+[Summary](2026-11-24-agent-security-contracts-poisoning-shirudo.md). Intent Contracts: tool-less planner + trusted call writer makes actions traceable but leaves 40-49% wrong-target errors. 0.1% pretraining poison survives clean SFT/DPO/RL (92.7% trigger rate at 4B). RL on knowledge tasks memorizes self-generated hallucinations. Industry (Bedrock EFS, Google ACE, Shirudo) converges on keeping secrets out of the agent.

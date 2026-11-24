@@ -307,3 +307,6 @@ Training-free MoE expert pruning (2610.41366): whether survivors' gates are reno
 ## Update 2026-11-15: batch-level expert sharing, measured in joules
 
 [Batch-aware MoE routing (2611.11696)](2026-11-15-batch-aware-moe-routing-energy.md): direct GPU energy measurement. On Qwen3-30B-A3B, biasing a batch's tokens toward shared experts reads 25-31% fewer expert weights within KL 0.05, benchmarks within noise, 12-18% less energy per token. On recurrent MARL policies, shared activity is too short-lived to spend (trained masks reduce to a narrow GRU at 11x the energy). This page's thesis in one paper: the MoE sparsity is spendable because experts are the unit of weight loading. Complements RAMPr (11-14): one shrinks what is stored, the other what is read per step. Pilot, one GPU type.
+
+## Update 2026-11-24: pruning moves into pretraining (Model Carving)
+[Model Carving (2611.27962)](2026-11-24-model-carving-and-efficiency-shorts.md): learnable scalar gates on every attention/MLP sublayer; the loss closes unneeded gates and those sublayers are removed. At equal compute beats dense models trained with up to 1.7x more compute and size-matched pruned or distilled models; up to 34% fewer FLOPs/token, 1.6x faster decode. 140M-2.7B standard, looped to 1.3B. Challenges the prune-then-heal default this page records. Open: MoE, larger scale.

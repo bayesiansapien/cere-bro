@@ -2419,3 +2419,13 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-23] social-stream | 2026-11-23 morning | social-stream
 ## [2026-11-23] media-zone | Media Zone 2026-11-23 (finalized from closed window) | media-zone
 ## [2026-11-23] digest | cere-bro 2026-11-23 | daily-digest
+
+## [2026-11-24] ingest | GLM-5.4 and looped flagships | rss+social
+## [2026-11-24] ingest | ERNIE 5.5 Flash Preview open weights | labs
+## [2026-11-24] ingest | MemOnce | huggingface
+## [2026-11-24] ingest | cmHC + Google DCA blog | huggingface+labs
+## [2026-11-24] ingest | Model Carving + efficiency shorts | social+huggingface
+## [2026-11-24] ingest | Skill decay, CompAct-Bench, GrepMem, budget internalization | huggingface+dair
+## [2026-11-24] ingest | Agent security: Intent Contracts, poisoning, Shirudo, Bedrock | huggingface+social+labs
+## [2026-11-24] ingest | Nvidia reinstatement, Megaspeed, Marlowe | rss+gmail
+## [2026-11-24] digest | daily digest + media zone + social-stream morning | all sources (gaps: reddit empty, venturebeat 429, no new X saves)

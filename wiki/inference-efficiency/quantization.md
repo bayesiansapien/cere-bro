@@ -364,3 +364,6 @@ The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the fir
 
 ## Update 2026-11-23: expert-only MXFP4 with zero calibration
 [LingSante 3.1 flash MXFP4](2026-11-23-lingsante-mxfp4-and-int8-edge.md): ~560B / ~25B-active hybrid-linear MoE; only routed experts to MXFP4 (E2M1, group 32, E8M0 scales) by data-free RTN; attention, shared experts and dense MLPs kept FP8, router/embeddings/norms BF16; 292 GiB on 4 x H20-3e, W4A8 or W4A16 via SGLang Humming kernels. No quantized-checkpoint benchmarks. This is the zero-search baseline that agent-searched recipes (QDA, 11-20) should be scored against. Edge note: Tesla's Reality View runs a ~1B diffusion model on an INT8-only accelerator with softmax emulated in 28 steps.
+
+## Update 2026-11-24: QAT for 4-bit experts ships in an open frontier-class MoE
+[ERNIE 5.5 Flash](2026-11-24-ernie-5-5-flash-open-weights.md) stores routed experts in MXFP4 and runs them W4A8, with quantization-aware training whose fake-quant matches inference granularity, scaling and rounding, so weights deploy with no calibration. Answers the gap left by LingSante MXFP4 (11-23, round-to-nearest, no quantized benchmarks), though ERNIE also publishes no BF16-vs-W4A8 table. FP8 KV and FP4 sparse-attention indexer.

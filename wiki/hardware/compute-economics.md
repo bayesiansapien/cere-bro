@@ -607,3 +607,6 @@ Ramp: token prices -21% in six weeks while usage hit a record; Anthropic ~59% of
 
 ## Update 2026-11-23: supply bottlenecks named, power campuses, and a two-sided market read
 [Summary](../ai-industry/2026-11-23-inference-supply-chain-and-market.md). Cerebras's Feldman: HBM, CoWoS and TSMC 3nm cap accelerator shipments; wafer-scale on 5nm avoids all three. Amazon's 4.4 GW Homer City campus (36 buildings, former coal site). Hopper re-contracting at ~2x with cloud backlog +$500B (bull read) against Citi's grim note and Friday's 12-16% AI-stock falls. J.P. Morgan: hyperscaler capex ~$800B (2026) to ~$2T (2030).
+
+## Update 2026-11-24
+[Nvidia reinstates Huang; Megaspeed on Entity List; Marlowe $277M seed on AMD/Etched inference](2026-11-24-nvidia-reinstates-huang-megaspeed-marlowe.md). NVDA +31% to $164.92 after a 48% drawdown. Money keeps flowing to inference stacks that avoid Nvidia and HBM (Marlowe; Amazon buying Decart's chip software for Trainium). xAI rents compute to Anthropic (~$3.1B/month) and Google (~$800M).

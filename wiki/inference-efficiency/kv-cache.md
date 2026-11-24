@@ -925,3 +925,8 @@ Four vendors published the same lesson the same day ([summary](2026-11-17-agent-
 - **G-MTP** ([summary](2026-11-22-g-mtp-gemma-4-multi-token-drafter.md)): the drafter cross-attends to the target's KV cache in place, so speculative decoding adds no second prefill and little memory.
 - **LoopCache** ([summary](2026-11-22-loopcache-looped-speculative-decoding.md)): looped models keep one KV cache per loop; reading one per step instead of up to R is worth 10-14x over wave decoding.
 - **Prompt caching at 652K tokens** ([summary](2026-11-22-qwen4-max-whole-repo-prompt-caching.md)): Together's whole-repo Qwen4 Max test dropped TTFT from 54 s to 8 s and input cost from 66 to about 3 cents on a cache hit. Cached input is 20x cheaper than fresh. The economic case for "put everything in context" depends on prefix reuse, which contrasts with Nvidia's 11-04 "You Don't Need Long Context" argument for one-shot queries.
+
+## Update 2026-11-24: three ways to stop KV from growing
+- [ERNIE 5.5 Flash open weights](2026-11-24-ernie-5-5-flash-open-weights.md): HCA in 37 of 43 layers stores one KV entry per 128 tokens; 6 DSA layers keep token KV with sparse reads; FP8 KV, FP4 indexer. Long-context AA-LCR 79.0 (below DeepSeek V4.1 Flash 82.7) is the test of that compression.
+- [MemOnce](2026-11-24-memonce-decoded-kv-memory.md): store a few final-layer states and decode them into per-layer KV on demand; sparse indices computed once across layers. 1313x smaller memory state, 6.9x faster prefill at 1M on Qwen3.5-4B. Cross-layer compression rather than per-layer.
+- [GLM-5.4](../llms-foundation-models/2026-11-24-glm-5-4-and-looped-flagships.md): looped extra pass reads a 128-token window only. vLLM v0.34 adds a self-sizing KV cache via GPU virtual memory.

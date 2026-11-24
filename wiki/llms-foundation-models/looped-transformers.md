@@ -191,3 +191,8 @@ Truncate or Not? (2610.26030, [summary](2026-10-29-looped-truncation-and-what-ou
 
 ## Update 2026-11-23: loops move reasoning off the page
 Inkling 2 Mini traces fall from ~3,703 to ~1,731 tokens going from one to three loops with the same answers; problems solvable with zero written reasoning grew from ~16 to ~37 seconds of human work. This is the monitoring gap OpenAI's perplexity-limit proposal is gated on ([summary](2026-11-23-openai-perplexity-and-intelligence.md)). Exo: 210 tok/s decode, 3,620 tok/s prefill on a 96GB M5.
+
+## Update 2026-11-24: a looped frontier flagship, and loop count is task-dependent
+- **GLM-5.4** (Z.ai, ~750B; [summary](2026-11-24-glm-5-4-and-looped-flagships.md)) loops 28 middle layers twice, adapted from the GLM-5 base by continued training. Per-token gates set how much pass 1 writes; the extra pass attends over a **128-token KV window**, not the 1M cache. This is the architectural fix for the per-loop KV traffic LoopCache (11-22) named, and the production version of LoopCoder-v2's shared sliding-window KV (06-17). No weights, no card; benchmarks only on a 30B test model.
+- **SenseNova-Loop-9B**: 32 stored layers, 56 computed; ~4.9GB at 4-bit. Its sweep (code improves to 4 loops, office/data QA peak at 3) complicates the page's "two loops" default: two is optimal at matched budgets (LoopCoder-v2, SMELT), but the unmatched optimum is task-dependent.
+- **Latency still open**: a day-one GLM-5.4 report shows 1.04M reasoning tokens / 431 min on one High task. [Model Carving](../inference-efficiency/2026-11-24-model-carving-and-efficiency-shorts.md) (gated sublayer deletion) was tested on looped models to 1.3B, a possible way to thin each pass.

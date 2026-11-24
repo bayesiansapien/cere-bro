@@ -254,3 +254,6 @@ Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-spa
 ## Update 2026-11-21: dynamic block budgets and on-policy hybrid conversion
 - **LightningMoBA** ([summary](../inference-efficiency/2026-11-21-lightningmoba-dynamic-block-attention.md)): variable per-query block counts plus KV-centric scheduling, 1.2-1.6x faster with a small RULER gain.
 - **FlashMorph2** ([summary](2026-11-21-flashmorph2-on-policy-hybrid-attention.md)): choose which layers keep full attention by sampling discrete hybrids and scoring them after joint weight adaptation; +2.42 RULER over FlashMorph at 0.72-3.57 GPU-hours. On-policy evaluation, the distillation lesson, now applied to architecture search.
+
+## Update 2026-11-24: residual streams as routing
+[cmHC (2611.27193)](2026-11-24-cmhc-and-dca-residual-routing.md) contracts mHC's doubly stochastic mixing toward the polytope interior to avoid both under-mixing (independent streams) and over-mixing (indistinguishable streams); fused Ascend ops -44.8% latency. Google's DCA blog groups DCA, attention residuals, hyper-connections and mHC as one family and says Inkling 2 uses attention residuals plus DCA's split Q/K/V.

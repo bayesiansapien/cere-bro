@@ -4,12 +4,12 @@ date: 2026-11-24
 source: https://arxiv.org/abs/2611.25534
 raw: ../../raw/huggingface/2026-11-23-how-feedback-free-self-evolution-reshapes-agent-skills-a-sys.md
 tags: [agent-skills, self-evolution, context-compaction, agent-memory, rlvr, test-time-compute, harness]
-signal: HuggingFace 11-23 + DAIR AI Papers of the Week (Nov 16-22) — cross-source confirmed (HF + DAIR) for the skills paper
+signal: HuggingFace 11-23 + DAIR AI Papers of the Week (Nov 16-22), cross-source confirmed (HF + DAIR) for the skills paper
 ---
 
 # Harness and RL shorts
 
-## Feedback-free self-evolution erodes skills (2611.25534) — cross-source confirmed (HF + DAIR)
+## Feedback-free self-evolution erodes skills (2611.25534), cross-source confirmed (HF + DAIR)
 
 Agent skills are documents where experts write down procedures (a `SKILL.md`). Models increasingly rewrite them on their own, with no task run and no grader. This study lets models rewrite expert skills round after round with no feedback. Every model tested got **worse** with the rewritten skills on every benchmark, losing **15 points on average on SkillsBench after 30 rounds**. The mechanism: rewriting pulls a skill toward what the model would write from the topic alone (its prior), and the knowledge outside that prior is dropped first. Putting that knowledge back recovers most of the loss. So an expert skill is valuable mainly for what the model would not write itself. **SkillDiff** marks that out-of-prior knowledge in place and lifts SkillsBench by 4.8 points without changing the skill's text.
 

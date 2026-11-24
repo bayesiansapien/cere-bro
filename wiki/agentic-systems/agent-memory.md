@@ -460,3 +460,6 @@ MIRIX-2.0 (2611.12068) keeps complete typed records, indexes them with a provena
 ## Update 2026-11-19: minimal memory ties the field; the gap is applying what was retrieved
 
 [BRIDGE / RAG in a Trenchcoat (2611.22179)](2026-11-19-bridge-minimal-rag-memory.md): chained notes + BM25/cosine hybrid + chronological rendering, one LLM call per write or query, 5-7K tokens per question, ties SOTA on LongMemEval-S and BEAM and beats the best baseline on EverMemBench by 5.7-6.3. Five adversarial probes show benchmarks score retrieval, not use: LangMem wins rule application, BRIDGE pattern induction, and making the rule prominent closes most gaps. Consistent with the 11-17 "few strategy files beat 400+ notes" result and the 11-15/16 intervention-value framing.
+
+## Update 2026-11-24: compaction is lossy; keep everything and grep
+CompAct-Bench (2611.25673): best compactor (Claude Opus 5) keeps 68.5% post-compaction accuracy vs 56.7% average; 25.3% of facts dropped, 5.6% distorted. GrepMem (2611.25123): append-only plain-text log + regex tool, no index; 95-97% on ContextBench vs ≤21% for lossy baselines. HarnessRouter's Harness Memory makes memory user-owned across harnesses. See [summary](2026-11-24-skill-decay-compaction-and-budget-internalization.md).

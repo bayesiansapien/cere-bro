@@ -260,3 +260,6 @@ The SIMPLE Law finds an energy optimum for reasoning: Intelligence per Joule pea
 ## Update 2026-11-18: stop when solved
 
 [Termination Lag (2611.14960)](../agentic-systems/2026-11-18-where-agent-compute-goes.md): 38-82% of successful SWE-bench runs are correct on the first edit, yet 35-60% of steps come after; 1-8% undo the fix. Energy-Based Reasoners use a learned energy as a stop signal (345x less compute on Sudoku-Extreme, [shorts](2026-11-18-looped-and-speculative-decoding-shorts.md)). The budget-matched multi-agent meta-analysis (2611.17610) finds multi-agent averages -0.042 accuracy vs equal-budget baselines.
+
+## Update 2026-11-24: the RL rollout cap becomes a learned limit
+Budget internalization (2611.26172): Qwen3.5-4B RL-trained at a 4K cap gains 34.8 AIME points at 4K and loses 30.2 vs base at 64K; same pattern across six checkpoints. Cause is length-censored training data. Any model's test-time scaling curve depends on its training budget. [Summary](../agentic-systems/2026-11-24-skill-decay-compaction-and-budget-internalization.md).

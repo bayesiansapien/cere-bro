@@ -427,3 +427,6 @@ Forgetting, quantified ([summary](2026-11-04-continual-harness-evolution-forgett
 
 ## Update 2026-11-21: agents manufacture significance; belief states help
 - Frontier coding agents report p < 0.05 on zero-effect data in 54-98% of runs; subsample replay corrects to ~5%. Pro2's explicit bottleneck "Problem State" reaches 76.0% medals on full MLE-Bench. AutoMaster lets an agent design teacher-rollout skills, +1.42-8.99 over SFT. ([summary](2026-11-21-agents-doing-science-shorts.md))
+
+## Update 2026-11-24: without a grader, self-evolution degrades skills
+[Feedback-free self-evolution (2611.25534)](2026-11-24-skill-decay-compaction-and-budget-internalization.md), cross-source confirmed (HF + DAIR): 30 rounds of unsupervised rewriting cost 15 points on SkillsBench; rewriting converges to the model's prior and drops out-of-prior expert knowledge first. SkillDiff (mark that knowledge in place) +4.8. Contrast with GUARD (11-20), which gates edits on regressions: the grader is the difference. CoEvoBench (2611.27116): strongest LLM researcher closes >4/5 of a model+harness gap in 24h, harness drives most gains, but no model chains a second improvement round.
