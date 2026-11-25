@@ -13,8 +13,9 @@ Three papers, all DAIR Academy picks and all amplified on the X feed, measure wh
 
 ## ComputeWise (Salesforce AI Research + Datadog, [2611.31027](https://arxiv.org/abs/2611.31027))
 
-Agents are given GPUs to run their own experiments. Their tokens are cheap next to the GPU hours their experiments burn, so GPU waste is the real bill. ComputeWise builds nine research tasks from recorded GPU runs and a **simulated GPU** that replays those runs to the agent's code, so hundreds of agent experiments run with no real hardware. Score = time to a supported answer divided by the time of a comparison schedule.
+Agents are given GPUs to run their own experiments. Their tokens are cheap next to the GPU hours their experiments burn, so GPU waste is the real bill. ComputeWise builds nine research tasks from recorded GPU runs and a **simulated GPU** that replays those runs to the agent's code, so hundreds of agent experiments run with no real hardware. Score = wall-clock time to a correct answer divided by the time of a careful comparison schedule on the same task and GPUs, so 2.0 means the agent took twice as long. Code: [SalesforceAIResearch/computewise](https://github.com/SalesforceAIResearch/computewise).
 
+- Figure 1's example: choosing among nine candidate optimizers, Claude Opus 5.5 unaided trained all 50 runs to the end and answered correctly in **19.0 hours with GPUs 93% busy**; a careful human schedule that stops the eight visibly failing optimizers in their first half hour takes **4.0 hours**; with the harness Opus answers in **4.7 hours**. That run's tokens cost about $2 and its GPU time about $520 at cloud prices.
 - Pooled over 148 unaided runs: **52% of GPU time went to needed work, 22% to unneeded runs, 26% sat idle.** Median run took 44% longer than the comparison schedule.
 - **Busy is not efficient.** Of 24 runs that kept GPUs at least 90% busy, 16 were still 25%+ slower than the comparison.
 - Hints, "keep every GPU busy" instructions and a job scheduler did not fix it.

@@ -2429,3 +2429,13 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-24] ingest | Agent security: Intent Contracts, poisoning, Shirudo, Bedrock | huggingface+social+labs
 ## [2026-11-24] ingest | Nvidia reinstatement, Megaspeed, Marlowe | rss+gmail
 ## [2026-11-24] digest | daily digest + media zone + social-stream morning | all sources (gaps: reddit empty, venturebeat 429, no new X saves)
+## [2026-11-25] ingest | NoHairCache power-law KV eviction | huggingface
+## [2026-11-25] ingest | LoopRes + Loop-PP | huggingface
+## [2026-11-25] ingest | Feedback Shortcut + Red Hat DFlash2 drafters | huggingface+social
+## [2026-11-25] ingest | ComputeWise, MLEvolver, Tea Leaves | social+dair
+## [2026-11-25] ingest | RLM compositional harnesses, CSPD, harness shorts | social+dair+huggingface
+## [2026-11-25] ingest | KernelShift + tritify | huggingface
+## [2026-11-25] ingest | Siren, neuron basis, latent reasoning, agent-team safety | social+huggingface
+## [2026-11-25] ingest | Sakana Namazu Small, weight-space programming, GPT-6 science | labs+huggingface+social
+## [2026-11-25] ingest | Chip pricing cooldown, Anthropic below IPO, Jevons stall | rss+gmail+social
+## [2026-11-25] digest | daily digest + media zone + social-stream morning | all sources (gaps: reddit empty, linkedin empty, no X reposts or saves)
