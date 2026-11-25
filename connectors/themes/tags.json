@@ -1492,6 +1492,16 @@
 "harness-engineering",
 "agent-evals"
 ],
+"agentic-systems/2026-11-25-research-agents-gpu-waste-computewise-mlevolver.md": [
+"agent-cost",
+"agent-evals",
+"harness-engineering"
+],
+"agentic-systems/2026-11-25-rlm-compositional-harnesses-and-cspd.md": [
+"harness-engineering",
+"context-compression",
+"rl-post-training"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1859,6 +1869,10 @@
 "ai-industry/2026-11-23-inference-supply-chain-and-market.md": [
 "memory-supply",
 "alignment-safety",
+"industry-business"
+],
+"ai-industry/2026-11-25-chip-glut-anthropic-below-ipo-jevons.md": [
+"compute-economics",
 "industry-business"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
@@ -2766,6 +2780,10 @@
 "hardware/2026-11-24-nvidia-reinstates-huang-megaspeed-marlowe.md": [
 "industry-business",
 "governance-policy"
+],
+"hardware/2026-11-25-kernelshift-and-tritify.md": [
+"gpu-kernels",
+"accelerators"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
 "distillation",
@@ -4648,6 +4666,13 @@
 "pruning-sparsity",
 "training-efficiency"
 ],
+"inference-efficiency/2026-11-25-feedback-shortcut-and-dflash2.md": [
+"speculative-decoding",
+"architectures"
+],
+"inference-efficiency/2026-11-25-nohaircache-power-law-kv-eviction.md": [
+"kv-eviction"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5551,6 +5576,16 @@
 "architectures",
 "frontier-models"
 ],
+"llms-foundation-models/2026-11-25-loopres-and-loop-pp.md": [
+"architectures",
+"training-efficiency"
+],
+"llms-foundation-models/2026-11-25-model-shorts-namazu-weight-space.md": [
+"frontier-models"
+],
+"llms-foundation-models/2026-11-25-sakana-namazu-wsp-and-model-shorts.md": [
+"frontier-models"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -6114,6 +6149,10 @@
 "responsible-ai/2026-11-24-agent-security-contracts-poisoning-shirudo.md": [
 "alignment-safety",
 "tool-use"
+],
+"responsible-ai/2026-11-25-siren-neuron-basis-latent-reasoning.md": [
+"alignment-safety",
+"interpretability"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
