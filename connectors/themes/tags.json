@@ -1502,6 +1502,15 @@
 "context-compression",
 "rl-post-training"
 ],
+"agentic-systems/2026-11-26-recap-compaction-cot-proxy-timetravelcontainer.md": [
+"context-compression",
+"distillation",
+"agent-cost"
+],
+"agentic-systems/2026-11-26-where-evals-break-yan-gdpx-owe-bench.md": [
+"agent-evals",
+"frontier-models"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1874,6 +1883,11 @@
 "ai-industry/2026-11-25-chip-glut-anthropic-below-ipo-jevons.md": [
 "compute-economics",
 "industry-business"
+],
+"ai-industry/2026-11-26-nvidia-creditwatch-china-curbs-week47-chips.md": [
+"industry-business",
+"fabs-semis",
+"governance-policy"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -2283,6 +2297,10 @@
 "ai-routing/2026-11-23-fable-suspension-natural-experiment.md": [
 "llm-routing",
 "frontier-models"
+],
+"ai-routing/2026-11-26-delegent-and-in-agent-delegation.md": [
+"agent-routing",
+"agent-cost"
 ],
 "hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md": [
 "compute-economics",
@@ -2783,6 +2801,11 @@
 ],
 "hardware/2026-11-25-kernelshift-and-tritify.md": [
 "gpu-kernels",
+"accelerators"
+],
+"hardware/2026-11-26-nvfp4-attention-register-recycling.md": [
+"gpu-kernels",
+"quantization",
 "accelerators"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
@@ -4673,6 +4696,18 @@
 "inference-efficiency/2026-11-25-nohaircache-power-law-kv-eviction.md": [
 "kv-eviction"
 ],
+"inference-efficiency/2026-11-26-anthropic-messages-api-rust-migration.md": [
+"serving-systems",
+"compute-economics"
+],
+"inference-efficiency/2026-11-26-efficiency-shorts-ternary-bonsai-micromachines.md": [
+"quantization",
+"agent-cost"
+],
+"inference-efficiency/2026-11-26-fca-and-codecopsd-encode-once.md": [
+"kv-reuse",
+"multimodal"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5586,6 +5621,14 @@
 "llms-foundation-models/2026-11-25-sakana-namazu-wsp-and-model-shorts.md": [
 "frontier-models"
 ],
+"llms-foundation-models/2026-11-26-loops-leave-language-loopedwam-loopdvr-dooop.md": [
+"architectures",
+"pruning-sparsity"
+],
+"llms-foundation-models/2026-11-26-non-uniform-depth-ffn-pca-and-loomformer.md": [
+"pruning-sparsity",
+"architectures"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -6153,6 +6196,11 @@
 "responsible-ai/2026-11-25-siren-neuron-basis-latent-reasoning.md": [
 "alignment-safety",
 "interpretability"
+],
+"responsible-ai/2026-11-26-fatcat-rlvb-steerable-instructreplay.md": [
+"alignment-safety",
+"accelerators",
+"rl-post-training"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
