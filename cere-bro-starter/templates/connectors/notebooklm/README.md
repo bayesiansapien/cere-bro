@@ -78,3 +78,15 @@ For fully-automated distribution (no manual upload), use a HuggingFace dataset f
 ## Caveats
 
 NotebookLM uses internal Google APIs. The CLI handles cookie management but the session expires periodically — re-run `nlm login` if `nlm doctor` reports auth issues. The focus prompt is the difference between a generic "list of papers" episode and a real synthesis show; treat it as the most important file in this connector and iterate on it.
+
+## Caveats
+
+NotebookLM uses internal Google APIs. The CLI handles cookie management but the session expires periodically — re-run `nlm login` if `nlm doctor` reports auth issues. The focus prompt is the difference between a generic "list of papers" episode and a real synthesis show; treat it as the most important file in this connector and iterate on it.
+
+## Continuity (2026-11-26)
+
+Each Wed/Sun episode opens with an anchored recap instead of a generic one.
+
+- `transcribe.py DATE`: local transcript of an episode (mlx-whisper, `uv tool install mlx-whisper`), saved to `episodes/DATE/transcript.md`. Runs automatically after each episode.
+- `continuity.py DATE`: runs Claude over `continuity_prompt.md` before generation. Writes `episodes/DATE/continuity_brief.md` (uploaded first), `episode_brief.md` and `notebooklm_instructions.txt` (prepended to the focus prompt), and updates the ledgers in `state/` (`predictions.md`, `threads.md`, `trends.md`, `production_notes.md`). Missing ledgers are bootstrapped from the last three episodes.
+- Config: `continuity_enabled`, `continuity_model` (empty = Claude's default), `continuity_timeout_minutes`, `transcribe_model`.

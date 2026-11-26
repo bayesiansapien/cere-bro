@@ -298,13 +298,30 @@ if cfg.get("include_media_zone_files", True):
             media_zone_paths.append(mz)
 media_zone_paths = sorted(set(media_zone_paths))
 
+# Continuity step (2026-11-26): before NotebookLM sees anything, continuity.py writes a
+# continuity brief (anchored recap of the previous episode, thread deltas, prediction
+# checks), an episode brief organised by thread, and a short instruction for the hosts.
+# The continuity brief is uploaded first and the instruction leads the focus prompt.
+continuity_paths: list[Path] = []
+continuity_instructions = ""
+if cfg.get("continuity_enabled", True) and EPISODE_MODE in ("midweek", "weekly"):
+    rc = subprocess.run([sys.executable, str(Path(__file__).parent / "continuity.py"), date_str]
+                        + (["--force"] if FORCE else [])).returncode
+    cdir = Path(__file__).parent / "episodes" / date_str
+    if rc == 0:
+        continuity_paths = [cdir / "continuity_brief.md", cdir / "episode_brief.md"]
+        continuity_instructions = (cdir / "notebooklm_instructions.txt").read_text().strip()
+    else:
+        print("WARN: continuity step failed; generating without the continuity brief.")
+
 print(f"\nSources discovered:")
+print(f"  Continuity:       {len(continuity_paths)}")
 print(f"  Digests:          {len(digest_paths)}")
 print(f"  Wiki summaries:   {len(wiki_summary_paths)}")
 print(f"  Social-stream:    {len(social_stream_paths)}")
 print(f"  Media Zone:       {len(media_zone_paths)}")
 print(f"  External URLs:    {len(deep_dive_urls)}")
-TOTAL = (len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths)
+TOTAL = (len(continuity_paths) + len(digest_paths) + len(wiki_summary_paths) + len(social_stream_paths)
          + len(media_zone_paths) + len(deep_dive_urls))
 print(f"  TOTAL:            {TOTAL}")
 
@@ -365,6 +382,9 @@ def add_url_sources(urls: list[str]):
         print(f"  + URLs: {len(urls)} attempted")
 
 print("\nAdding sources:")
+for p in continuity_paths:
+    add_file_source(p, title_hint=("Cerebro Continuity Brief" if p.name.startswith("continuity")
+                                   else "Cerebro Episode Brief") + f" {date_str}")
 digest_ok = 0
 for p in digest_paths:
     if add_file_source(p, title_hint=f"Daily digest {p.stem}"):
@@ -389,6 +409,9 @@ focus_prompt = cfg.get(focus_key) or cfg.get("focus_prompt")  # fallback to lega
 if not focus_prompt:
     print(f"ERROR: no focus prompt found in config (looked for '{focus_key}' and 'focus_prompt').")
     sys.exit(1)
+if continuity_instructions:
+    focus_prompt = ("CONTINUITY FIRST (overrides the opening and hook rules below): "
+                    + continuity_instructions + "\n\n" + focus_prompt)
 
 def _audio_minutes(path):
     try:
@@ -787,6 +810,11 @@ if cfg.get("delete_notebook_after_download", True):
                   f"— cleanup_notebooks.py will sweep it later.")
     except Exception as e:
         print(f"  ✗ notebook delete errored: {e} — cleanup_notebooks.py will sweep it later.")
+
+# Transcribe this episode now, so the next episode's continuity step can check what
+# the hosts actually said (predictions as voiced, skipped segments).
+if cfg.get("continuity_enabled", True):
+    subprocess.run([sys.executable, str(Path(__file__).parent / "transcribe.py"), date_str], check=False)
 
 print(f"\n✓ Done. Episode #{EPISODE_NUMBER} ready at {EP_DIR}/")
 print(f"  • Audio: {AUDIO_PATH.name}")

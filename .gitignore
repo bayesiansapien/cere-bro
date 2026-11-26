@@ -65,3 +65,6 @@ connectors/twitter/.state/graphql_ids.json
 # Cerebro Daily newsletter: rendered emails + send log (local only)
 connectors/newsletter/out/
 connectors/newsletter/.state/
+
+# Continuity step run logs (episode briefs and state ledgers are committed)
+connectors/notebooklm/episodes/*/claude.log
