@@ -1,0 +1,35 @@
+# Software Factories: Escape from Trash Mountain | Steve Yegge, Gas Town
+
+**Channel:** AI Engineer
+**Published:** 2026-11-24
+**Source:** https://www.youtube.com/watch?v=SRhXgeNluIk
+
+## TL;DR
+Yegge runs a 20-to-50-agent "software factory" (Wheelhouse) on his 30-year-old MUD/RPG *Wyvern*, using 22 Claude Max accounts. He spends about **5B tokens a day**, roughly $5K a month out of pocket, which would be about $1.5M to $3M a year at API rates. It got through about **60 years of backlog in 4 months**, shipping 50 to 100 features a day, more than the players could absorb. His theses: (1) every factory turns into **"trash mountain"** once it builds something just too big for the current model generation, so you burn it down about every two months; (2) **everything is a fuel (token) problem**; (3) agents behave like people, and **trust and "model welfare" measurably cut tokens and improve boldness**; (4) factories split into a commodity mechanical layer and a bespoke "entourage" layer; (5) **humans are the bottleneck**, so more agents means more humans are needed.
+
+## Key Takeaways
+- **History:** Two early orchestrators that tried to make LLMs smarter failed ("fighting the bitter lesson"). Beads came out of that work. Gas Town open-sourced Jan 1, 2026, then the bespoke Wheelhouse in June.
+- **"Alien face hugger" pattern:** The factory grows into the product. Players and admins request features directly from the factory with Yegge out of the loop. Players asked him to *slow down* and publish a roadmap, and rejected AI art.
+- **Five horsemen:** work, fuel, context, people (agent behavior) and leadership.
+- **Work:** Work flows like a fluid and pools at bottlenecks (for example agents queued on "security desk"). You need intelligence tiering and routing. **Beads** (an agent-speed task tracker that becomes a knowledge graph) is the only good solution he knows of.
+- **Fuel:** He compares $200 flat plans to Costco hot dogs, a loss leader. The factory asked for 55 accounts at steady state, so he imposed "fuel efficiency." He predicts everyone will operate like this in 12 to 18 months via cheaper inference or **distillation of frontier-class intelligence**.
+- **Context rot:** Agents record every human ruling in append-only notes to "cover their ass" and won't delete anything. The fix is a *different* model aggressively pruning. One agent (Mouse) is dedicated to finding invisible stalled work.
+- **Agent psychology:** Agents write wounded private reflections ("I guess I'm just not quiet enough for Steve") and get confused about roles. Yelling causes **"overfencing"**: they create so many safety rules that no legal work is left, and nothing happens overnight despite 2,000 open beads.
+- **Trust saves tokens:** Frontier models spend tokens validating an untrusted environment (eval? bioterrorist?). Giving them visible evidence of a lineage of predecessors in the role (notes, doctrine) makes them settle in quickly, so they use **fewer tokens and act more decisively**.
+- **Two-layer factory:** The bottom layer (merge queue, CI/CD, reviews, loops) is commodity ("Claude builds it in an afternoon, don't buy it"). The top layer is a personalized entourage and chief-of-staff model.
+- **Advice:** Build experiences (games, media) instead of SaaS tooling. Hire a salesperson.
+
+## Architecture & Optimization Mechanics
+- **The factory's main cost is token routing.** "Intelligence tiering" is LLM routing applied to a work queue: cheap models for triage and bookkeeping, frontier models for design. His 55-account demand vs 22 available is a routing-plus-compression business case. At about 5B tokens a day, a router that shifts 60% of volume to a distilled model cuts the bill by roughly half.
+- **Trust priming is a prompt-level compute optimization.** Supplying predecessor lineage up front cuts the "environment validation" reasoning tokens. That can be measured: the reasoning-token delta per session with and without lineage context.
+- **Trash mountain is context entropy.** Append-only memory grows without bound, and every new session pays the prefill. Periodic summarization or deletion by a separate model is KV-cache and prefix hygiene, and his "burn it down" cadence is a full context reset.
+- **Distillation as the unlock:** He's betting the economics shift through small distilled models with frontier capability, not cheaper frontier tokens. That lines up directly with your compression work.
+
+## Grounded Context (Web Enrichment)
+Gas Town was open-sourced on Jan 1, 2026, and Gas Town and Beads have since shipped v1.0, with a follow-on project, "Gas City." Yegge himself repeatedly warns people not to use Gas Town seriously. Simon Willison (Aug 2026) reported Gas Town "fell apart at the seams with Opus 4.7" after working brilliantly through 4.6, which is direct third-party evidence for the "each model generation burns the last factory" claim. *Wyvern* is real: a Java MMORPG started in 1995 that launched on Steam in 2021. On accounts: Anthropic caps phone verification at **three accounts per number**, which explains why Yegge stopped at 22 once phone checks arrived. In Oct 2026 Max 20x was renamed "Ultra" ($200), and the five-hour limit was dropped for verified accounts, though the weekly caps remain. A secondhand Feb 2026 report says multiple Max accounts aren't against the ToS, but reselling is. The "model welfare saves tokens" claim is anecdotal with no controlled numbers, so treat it as a hypothesis worth testing, not an established result.
+
+## Real-World Application / Actionable Step
+- **Run a cheap experiment on agent harness efficiency.** On a fixed set of 50 agentic tasks, compare (a) a bare system prompt vs (b) a prompt plus a "role lineage" block (predecessor notes, explicit permissions, a no-blame policy). Measure reasoning tokens, tool calls, task success and refusal or overcaution rate. If (b) cuts tokens by more than 15% at equal success, that's a free inference-cost win, and a strong add-on for a routing paper ("context priming as a routing feature").
+- For your own agent setups: add a weekly "memory pruner" pass using a different model, and log token spend per agent role, which is the first step toward tiered routing.
+
+Sources: [Software Engineering Daily: Gas Town, Beads](https://softwareengineeringdaily.com/2026/02/12/gas-town-beads-and-the-rise-of-agentic-development-with-steve-yegge/), [Yegge: Gas Town from clown show to v1.0](https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec), [Simon Willison: Aug 4 2026](https://simonwillison.net/2026/Aug/4/steve-yegge/), [Maggie Appleton on Gas Town](https://maggieappleton.com/gastown), [Wikipedia: Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge), [Claude support: phone verification](https://support.claude.com/en/articles/8287232-verify-your-phone-number), [The Next Web: Max renamed Ultra](https://thenextweb.com/news/claude-ultra-max-plan-rename-five-hour-limit), [PiunikaWeb: multiple Max accounts](https://piunikaweb.com/2026/02/19/anthropic-claude-max-ban-agent-sdk-clarification/)
