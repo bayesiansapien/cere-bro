@@ -37,7 +37,7 @@ flowchart LR
 ## Factorized Context Attention ([2611.32423](https://arxiv.org/abs/2611.32423))
 
 - Training-free block-sparse attention. Encodes the input once into the KV cache, reads all local and strided spans as masked sequences in one batched forward, and uses a **stair position schedule** so every span stays inside the model's trained position range (this is what lets it extend reach past the context window).
-- Matches grid probing's accuracy and reach on long video, long-context text and image grounding "at a fraction of its cost", gaining about 10 points over standard full-context reading in the reported settings.
+- Matches grid probing's accuracy and reach on long video, long-context text and image grounding at a fraction of its cost. About **+10 points over a single pass on long video and +9 to +14 on long novels**; finds needles in 1,000+ frame videos and in texts **4x the context window**; a follow-up question on the same input takes as little as **a tenth of grid probing's time**, because the cache is already built.
 
 ## CodecOPSD ([2611.31184](https://arxiv.org/abs/2611.31184))
 
@@ -53,7 +53,7 @@ flowchart LR
 
 ## Gaps
 
-- FCA: exact cost ratio vs grid probing and vs a native long-context baseline is "a fraction" in the abstract.
+- FCA: first-question cost vs grid probing is "a fraction" without a number; the 10x figure is for follow-up questions on a cached input.
 - CodecOPSD's main results are on the authors' own video model.
 
 Raw: [FCA](../../raw/huggingface/2026-11-25-factorized-context-attention-from-emulated-to-native-grid-pr.md) · [CodecOPSD](../../raw/huggingface/2026-11-25-on-policy-codec-distillation-for-efficient-all-in-one-video.md)

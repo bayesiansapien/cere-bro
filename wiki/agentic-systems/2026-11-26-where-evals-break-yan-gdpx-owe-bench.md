@@ -1,7 +1,7 @@
 ---
 title: "Where evals break: Eugene Yan's 12-eval audit, SemiAnalysis GDPx results, OWE-Bench's deployment gap"
 date: 2026-11-26
-source: https://eugeneyan.com/
+source: https://newsletter.semianalysis.com/p/evaluating-recent-model-releases
 raw: ../../raw/gmail/2026-11-26-newsletters.md
 raw2: ../../raw/rss/2026-11-26-semianalysis-evaluating-recent-model-releases-on-gdpx.md
 raw3: ../../raw/huggingface/2026-11-25-owe-bench-a-long-horizon-benchmark-for-measuring-real-world.md
@@ -25,7 +25,7 @@ signal: Eugene Yan newsletter (essay), SemiAnalysis (essay), HuggingFace 11-25 (
 
 - GDPx: 206 tasks built with 14 data partners across 11 frontier-value domains (chip design, hardware design, cyber, bio, finance, legal, quant trading, RSI, materials, alignment, software engineering).
 - Main board: **GPT-6.2 Astra 19.3%, Fable 5.2 16.4%**, best non-OpenAI/Anthropic Gemini 4 Carbon 10.9%, Gemini 4 Neon 10.1%. The cost-performance Pareto frontier is entirely OpenAI, with DeepSeek v4.1 Flash at the low end.
-- Astra leads chip design? No: **Fable 5.2 leads chip design, software engineering and quant trading**; Astra leads RSI, materials science and hardware design, and is first above 0% on legal. Astra scores half of Fable on software engineering, which SemiAnalysis says explains its poor public reception.
+- **Fable 5.2 leads chip design, software engineering and quant trading**; Astra leads RSI, materials science and hardware design, and is first above 0% on legal. Astra scores half of Fable on software engineering, which SemiAnalysis says explains its poor public reception.
 - Safety classifiers sandbag scores in cyber, bio and alignment; an alternate board excludes them.
 - Their read: Neon's popularity is behavior ("a pleasant model to talk to"), not intelligence. Tiers: Anthropic and OpenAI, then Google, then everyone else.
 

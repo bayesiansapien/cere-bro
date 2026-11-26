@@ -2439,3 +2439,15 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-25] ingest | Sakana Namazu Small, weight-space programming, GPT-6 science | labs+huggingface+social
 ## [2026-11-25] ingest | Chip pricing cooldown, Anthropic below IPO, Jevons stall | rss+gmail+social
 ## [2026-11-25] digest | daily digest + media zone + social-stream morning | all sources (gaps: reddit empty, linkedin empty, no X reposts or saves)
+## [2026-11-26] ingest | NVFP4 attention register recycling | labs
+## [2026-11-26] ingest | Anthropic Messages API Rust migration | labs+rss+social
+## [2026-11-26] ingest | Delegent, effort escalation, Nemotron routing | dair+social
+## [2026-11-26] ingest | FCA + CodecOPSD | huggingface
+## [2026-11-26] ingest | FFN intrinsic dimensionality + LoomFormer | huggingface+social
+## [2026-11-26] ingest | LoopedWAM, LoopDVR, Distill to Loop | huggingface
+## [2026-11-26] ingest | RECAP, CoT-Proxy, TimeTravelContainer | huggingface+dair+social
+## [2026-11-26] ingest | Where evals break (Eugene Yan, SemiAnalysis GDPx, OWE-Bench) | gmail+rss+huggingface
+## [2026-11-26] ingest | FATCAT, RLVB, Mancelle, InstructReplay | huggingface
+## [2026-11-26] ingest | Efficiency shorts (Ternary Bonsai 2.5, micromachines, Rocket, retrieval) | rss+social+huggingface+kurate
+## [2026-11-26] ingest | Nvidia CreditWatch, China curbs, Week 47 chips | rss+gmail+social
+## [2026-11-26] digest | daily digest + media zone (finalized) + social-stream morning | all sources (gaps: reddit empty 5th day, linkedin text empty, no X reposts or saves, Kurate tournament unscored)

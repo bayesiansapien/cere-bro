@@ -367,3 +367,7 @@ The OPD mismatch paper ([summary](2026-11-11-opd-mismatch-budget.md)) is the fir
 
 ## Update 2026-11-24: QAT for 4-bit experts ships in an open frontier-class MoE
 [ERNIE 5.5 Flash](2026-11-24-ernie-5-5-flash-open-weights.md) stores routed experts in MXFP4 and runs them W4A8, with quantization-aware training whose fake-quant matches inference granularity, scaling and rounding, so weights deploy with no calibration. Answers the gap left by LingSante MXFP4 (11-23, round-to-nearest, no quantized benchmarks), though ERNIE also publishes no BF16-vs-W4A8 table. FP8 KV and FP4 sparse-attention indexer.
+
+## Update 2026-11-26
+- [NVFP4 attention on RTX Blackwell](../hardware/2026-11-26-nvfp4-attention-register-recycling.md): with FP4 attention accurate (SageAttention3's two-level P scaling), the limit becomes the quantize step it introduced; register recycling overlaps it with the next matmul (up to 1.64x, merged into FlashInfer).
+- [Ternary Bonsai 2.5 27B](2026-11-26-efficiency-shorts-ternary-bonsai-micromachines.md): The Decoder confirms PrismML's 54GB to 5.9GB ternary model, upgrading the 11-25 small-account lead; retention claims still lack a linked eval.

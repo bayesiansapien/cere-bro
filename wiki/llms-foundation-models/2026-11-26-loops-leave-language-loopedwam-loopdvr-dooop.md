@@ -3,7 +3,7 @@ title: "Loops leave language: LoopedWAM, LoopDVR and Distill to Loop bring weigh
 date: 2026-11-26
 source: https://arxiv.org/abs/2611.25595
 raw: ../../raw/huggingface/2026-11-25-loopedwam-looped-world-action-models-for-elastic-inference.md
-raw2: ../../raw/huggingface/2026-11-25-loopdvr-looped-transformer-for-efficient-dense-visual-recog.md
+raw2: ../../raw/huggingface/2026-11-25-loopdvr-looped-transformer-for-efficient-dense-visual-recogn.md
 raw3: ../../raw/huggingface/2026-11-25-distill-to-loop-turning-pretrained-diffusion-transformers-in.md
 tags: [looped-transformers, compression, distillation, elastic-inference, diffusion, robotics, vision]
 signal: HuggingFace 11-25 (three papers)
@@ -55,4 +55,4 @@ flowchart LR
 - LoopDVR's gains are reported as trade-off curves; latency (looping costs compute) is not in the abstract.
 - Dooop tests one teacher (SD3-medium).
 
-Raw: [LoopedWAM](../../raw/huggingface/2026-11-25-loopedwam-looped-world-action-models-for-elastic-inference.md) · [LoopDVR](../../raw/huggingface/2026-11-25-loopdvr-looped-transformer-for-efficient-dense-visual-recog.md) · [Dooop](../../raw/huggingface/2026-11-25-distill-to-loop-turning-pretrained-diffusion-transformers-in.md)
+Raw: [LoopedWAM](../../raw/huggingface/2026-11-25-loopedwam-looped-world-action-models-for-elastic-inference.md) · [LoopDVR](../../raw/huggingface/2026-11-25-loopdvr-looped-transformer-for-efficient-dense-visual-recogn.md) · [Dooop](../../raw/huggingface/2026-11-25-distill-to-loop-turning-pretrained-diffusion-transformers-in.md)

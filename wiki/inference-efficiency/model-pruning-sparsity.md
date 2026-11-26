@@ -310,3 +310,7 @@ Training-free MoE expert pruning (2610.41366): whether survivors' gates are reno
 
 ## Update 2026-11-24: pruning moves into pretraining (Model Carving)
 [Model Carving (2611.27962)](2026-11-24-model-carving-and-efficiency-shorts.md): learnable scalar gates on every attention/MLP sublayer; the loss closes unneeded gates and those sublayers are removed. At equal compute beats dense models trained with up to 1.7x more compute and size-matched pruned or distilled models; up to 34% fewer FLOPs/token, 1.6x faster decode. 140M-2.7B standard, looped to 1.3B. Challenges the prune-then-heal default this page records. Open: MoE, larger scale.
+
+## Update 2026-11-26: allocation, not size
+- [FFN intrinsic dimensionality](../llms-foundation-models/2026-11-26-non-uniform-depth-ffn-pca-and-loomformer.md) (2611.32782): PCA on FFN down-projection inputs across 58 models shows a stable **middle-heavy** profile. PCA-guided width pruning of distilled students beats uniform width by +2.3 (Qwen3-8B) and +2.5 (Qwen2.5-3B); gap predicted by a one-number unevenness score (sigma_99).
+- With Model Carving (11-24) and LoomFormer (same day, matches 3x compute via per-token head rewiring), three results in three days say the uniform stack wastes capacity. Pruning recipes should allocate by measured per-layer demand.

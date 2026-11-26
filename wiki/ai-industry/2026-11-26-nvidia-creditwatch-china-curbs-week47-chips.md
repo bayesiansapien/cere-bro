@@ -33,7 +33,7 @@ signal: The Information (x5), The Decoder (x3), The Semiconductor Newsletter, AI
 
 ## Compute economics signals
 
-- **CoreWeave 2031 bonds yield near 18%** despite contracts with Meta, Microsoft and OpenAI, per a widely shared post pairing it with falling GPU rental prices ([post](https://x.com/StockSavvyShay/status/2125638847069581701)). Gary Marcus's bear list (tapering usage, falling spot GPU prices, rising credit spreads) circulated alongside.
+- **CoreWeave 2031 bonds yield near 18%** despite contracts with Meta, Microsoft and OpenAI, per a widely shared post pairing it with falling GPU rental prices ([post](https://x.com/StockSavvyShay/status/2125619576834843006)). Gary Marcus's bear list (tapering usage, falling spot GPU prices, rising credit spreads) circulated alongside.
 - **Memory paradox** (Turing Post): Samsung made about $80B Q3 operating profit, 99% from chips, and Micron expects tighter memory supply in 2027-28, while viral videos claim Stanford and Together AI's Next-Concept Modeling (coarse-to-fine, parallel-per-scale generation) makes memory chips unnecessary. Turing Post's read: it may change how GPUs use memory, but speed gains over diffusion say nothing about optimized autoregressive LLMs ([post](https://x.com/TheTuringPost/status/2125757355782746592)).
 - Dell: Q3 revenue doubled to **$54.9B**, AI server backlog **$132.3B** after $60.2B new orders, FY27 outlook raised to $202B (AI Weekly Espresso).
 
