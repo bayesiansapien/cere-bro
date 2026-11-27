@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-27T05:29:19.909090+00:00
+arxiv_id: 2611.30334
+url: https://huggingface.co/papers/2611.30334
+arxiv_url: https://arxiv.org/abs/2611.30334
+date: 2026-11-26
+---
+
+# When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift
+
+Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notably, reasoning LLMs have been shown to perform entity disambiguation in a true zero-shot fashion, generalizing across knowledge bases and domains. However, it is unclear whether this capability survives, or remains competitive, with smaller LLMs, where entity disambiguation has typically relied on reranking rather than reasoning. We ask when reasoning is worth its cost at small scale. We compare pointwise, listwise, and reasoning-based candidate-selection components within a classical coarse-to-fine entity disambiguation pipeline, across the classical, few-shot and true zero-shot settings. The reasoning paradigm is trained with distillation and reinforcement learning recipes. The benefit of reasoning grows with domain shift: negligible in-domain, decisive in the true zero-shot setting. We show that two distinct factors are at work: the reranker's uncertainty over the candidates locates where the paradigms disagree, while shift governs which is right when they do.

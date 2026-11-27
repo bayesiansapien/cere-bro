@@ -1,0 +1,12 @@
+---
+source: farmer/huggingface
+farmed: 2026-11-27T05:29:19.910729+00:00
+arxiv_id: 2611.32938
+url: https://huggingface.co/papers/2611.32938
+arxiv_url: https://arxiv.org/abs/2611.32938
+date: 2026-11-26
+---
+
+# Efficient Video Retrieval Augmented Generation via Token Allocation
+
+Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame selection and token compression, but overlook how much each additional token is worth. We introduce Lembas, a plug-and-play framework that formulates video RAG as a token allocation problem over frames and subtitles under a shared budget. Our key insight is that the value of a token diminishes within each item and decreases further as similar evidence receives more tokens. Lembas captures both effects in a single objective and solves it with an efficient iterative water-filling algorithm that has a provable convergence guarantee. For multi-turn conversations, Lembas reuses the tokens processed in earlier turns and refines relevance with the VLM's attention at no extra cost. Our evaluations show that Lembas improves accuracy by up to 7.2 percentage points over state-of-the-art baselines at comparable compute. On multi-turn video understanding, Lembas achieves up to 1.5 percentage points higher accuracy with 1.7-17.3x fewer TFLOPs.
