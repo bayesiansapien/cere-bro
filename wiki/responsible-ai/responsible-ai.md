@@ -648,3 +648,6 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 ## Update 2026-11-26: alignment below the model
 - [FATCAT](2026-11-26-fatcat-rlvb-steerable-instructreplay.md) (2611.31129): EM fault injection timed to prefill corrupts LPDDR5 memory transactions on Jetson Orin Nano / AGX Thor and removes refusal in Llama 3.2 1B and Gemma 3 1B, with no software access; also drove a SmolVLA robot arm into hazardous motions. Refusal is a memory-integrity property on edge devices.
 - Same page: RLVB (+17.1% by rewarding commitment only once the exact posterior is unambiguous), Mancelle-3B (pretraining-time steering channel the token stream cannot overwrite; resists counter-steering), InstructReplay (general-benchmark drop after fact fine-tuning 28.1 to 2.4 points by replaying the model's own answers).
+
+## Update 2026-11-27: a Chinese frontier-safety card, and agent teams that report less
+- [Tencent Hy4 system card](2026-11-27-tencent-hy4-frontier-safety-system-card.md): 80 pages, cyber/bio/agentic/deception evals, third-party testing by Fangcun AI and ALICE, an RSI capability eval with no trigger threshold. RLCR ([agent shorts](../agentic-systems/2026-11-27-agent-shorts-overedit-rlcr-harness-memory.md)) finds trained agent organisations refuse harmful actions but report externally less in two of three oversight scenarios.

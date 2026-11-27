@@ -56,4 +56,4 @@ flowchart LR
 
 Small edge-scale decoders only; no timing closure on a real process node; four agents.
 
-Related: [gpu-kernels](../inference-efficiency/gpu-kernels.md) · [agent-benchmarks](../agentic-systems/agent-benchmarks.md) · [compute-economics](compute-economics.md)
+Related: [gpu-kernels](gpu-kernels.md) · [agent-benchmarks](../agentic-systems/agent-benchmarks.md) · [compute-economics](compute-economics.md)

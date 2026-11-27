@@ -2451,3 +2451,9 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-26] ingest | Efficiency shorts (Ternary Bonsai 2.5, micromachines, Rocket, retrieval) | rss+social+huggingface+kurate
 ## [2026-11-26] ingest | Nvidia CreditWatch, China curbs, Week 47 chips | rss+gmail+social
 ## [2026-11-26] digest | daily digest + media zone (finalized) + social-stream morning | all sources (gaps: reddit empty 5th day, linkedin text empty, no X reposts or saves, Kurate tournament unscored)
+## [2026-11-27] ingest | NVIDIA model-driven context, MoLT/DyLoMo-DiT, AIChipBench | huggingface+dair+social
+## [2026-11-27] ingest | Cache-aware routing and speculative encoding | social
+## [2026-11-27] ingest | Together Lao distillation, CARE-OPD | labs+huggingface
+## [2026-11-27] ingest | RL signal shorts, agent shorts, video efficiency shorts | huggingface+social
+## [2026-11-27] ingest | Tencent Hy4 system card, Nvidia SEA halt, HBM/power forecasts | rss+gmail+social
+## [2026-11-27] digest | daily digest + media zone (finalized) + social-stream morning | all sources (gaps: reddit empty, linkedin text empty, no X reposts or saves over Thanksgiving, Kurate tournament unscored, VentureBeat fetch failed, lab watcher misses on Anthropic system cards/DeepSeek/Thinking Machines)

@@ -836,3 +836,8 @@ MultiAgent-OPD gives subagents token-level teacher supervision while the leader 
 ## Update 2026-11-26
 - [CoT-Proxy](../agentic-systems/2026-11-26-recap-compaction-cot-proxy-timetravelcontainer.md): for long-horizon agents, teacher actions carry most of the policy; distilling with an empty reasoning block transfers to thinking-enabled inference. Contradicts the default that reasoning traces are what transfers.
 - [Distill to Loop](../llms-foundation-models/2026-11-26-loops-leave-language-loopedwam-loopdvr-dooop.md): distillation as fixed-point iteration into a looped student (~37% of SD3-medium's parameters). [CodecOPSD](2026-11-26-fca-and-codecopsd-encode-once.md): on-policy self-distillation to learn codec token pruning.
+
+## Update 2026-11-27: $260 off-policy distillation and replayed on-policy distillation
+- [Together AI and CARE-OPD](2026-11-27-together-lao-distillation-and-care-opd.md). Together distilled Kimi-K3.1-Pro's Lao into Qwen3.8-27B with a LoRA on 3,834 teacher translations: 5.5 to 44.3 chrF++ (93% of teacher) for $260. Off-policy because the tokenizers differ (on-policy needs teacher log-probs on student tokens). Key lesson: Lao-only training collapsed Thai (46.7 to 5.3); mixing ~1,000 Thai teacher rows protected it. More teacher data beat more epochs.
+- CARE-OPD makes on-policy distillation affordable for long-horizon agents: student-seeded teacher completions, confidence gating, hindsight replay of consequential turns. SWE-bench Verified 59.5% with 45% less training time and 44% fewer environment actions than async online OPD.
+- Both confirm the page's selectivity thread (order-only OPD 11-04, StepX 11-08): signal and risk concentrate in a minority of positions or capabilities.

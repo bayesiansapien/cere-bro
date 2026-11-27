@@ -47,7 +47,7 @@ flowchart LR
 ## How it relates to prior wiki pages
 
 - **Extends** the [11-05 context-budget compaction page](../inference-efficiency/2026-11-05-context-budget-compaction-and-context-rot.md), which showed harness-triggered compaction loses facts as context rots. Here the model owns the trigger.
-- **Confirms** the 11-27 autoresearch-harness ablation ([11-25 coverage](../daily-digest/../daily-digest/2026-11/2026-11-25.md)): per-attempt foldable summaries beat rolling summaries. Both papers say memory layout, not model size, sets agent cost.
+- **Confirms** the HKUST and NVIDIA autoresearch-harness ablation ([11-25 digest](../daily-digest/2026-11/2026-11-25.md)): per-attempt foldable summaries beat rolling summaries. Both papers say memory layout, not model size, sets agent cost.
 - **Tension with prefix-cache discipline** ([11-17](../inference-efficiency/2026-11-17-agent-sessions-prefix-cache-discipline.md)): that page argued agents should never edit history, to keep the prefix cache hot. NVIDIA's suffix reuse is the first engine-side answer that lets agents edit and still keep most of the cache.
 - **Open for routing:** cache-aware routers hash prompt prefixes ([11-27 routing page](../ai-routing/2026-11-27-cache-aware-routing-and-speculative-encoding.md)). A mid-session edit breaks those hashes at the edit point. Nobody yet shows a router tracking model-driven edits.
 
