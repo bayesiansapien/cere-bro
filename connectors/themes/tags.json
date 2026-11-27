@@ -1511,6 +1511,16 @@
 "agent-evals",
 "frontier-models"
 ],
+"agentic-systems/2026-11-27-agent-shorts-overedit-rlcr-harness-memory.md": [
+"agent-evals",
+"multi-agent",
+"agent-memory"
+],
+"agentic-systems/2026-11-27-model-driven-context-management.md": [
+"context-compression",
+"kv-reuse",
+"agent-cost"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -2302,6 +2312,11 @@
 "agent-routing",
 "agent-cost"
 ],
+"ai-routing/2026-11-27-cache-aware-routing-and-speculative-encoding.md": [
+"kv-reuse",
+"llm-routing",
+"serving-systems"
+],
 "hardware/2026-04-21-semianalysis-gpu-cluster-goodput.md": [
 "compute-economics",
 "training-efficiency"
@@ -2807,6 +2822,11 @@
 "gpu-kernels",
 "quantization",
 "accelerators"
+],
+"hardware/2026-11-27-aichipbench-stateful-rtl-agents.md": [
+"accelerators",
+"agent-evals",
+"quantization"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
 "distillation",
@@ -4708,6 +4728,10 @@
 "kv-reuse",
 "multimodal"
 ],
+"inference-efficiency/2026-11-27-together-lao-distillation-and-care-opd.md": [
+"distillation",
+"training-efficiency"
+],
 "llms-foundation-models/2026-04-16-infinitesciencegym-benchmark.md": [
 "agent-evals"
 ],
@@ -5629,6 +5653,15 @@
 "pruning-sparsity",
 "architectures"
 ],
+"llms-foundation-models/2026-11-27-mixture-of-loops-molt-dylomo.md": [
+"architectures",
+"kv-eviction"
+],
+"llms-foundation-models/2026-11-27-rl-signal-shorts-nopo-splice-cfsql-critic.md": [
+"rl-post-training",
+"alignment-safety",
+"training-efficiency"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -6202,6 +6235,10 @@
 "accelerators",
 "rl-post-training"
 ],
+"responsible-ai/2026-11-27-tencent-hy4-frontier-safety-system-card.md": [
+"frontier-models",
+"alignment-safety"
+],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
 "multimodal"
@@ -6359,5 +6396,10 @@
 ],
 "vision-audio-video/2026-10-22-trace-clinical-trajectories.md": [
 "multimodal"
+],
+"vision-audio-video/2026-11-27-video-efficiency-livevae-lembas-sparc.md": [
+"multimodal",
+"kv-eviction",
+"pruning-sparsity"
 ]
 }
