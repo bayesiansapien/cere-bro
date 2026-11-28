@@ -2457,3 +2457,11 @@ Second gap-fill pass over the concurrent job's 08-11 output. Four substantive ad
 ## [2026-11-27] ingest | RL signal shorts, agent shorts, video efficiency shorts | huggingface+social
 ## [2026-11-27] ingest | Tencent Hy4 system card, Nvidia SEA halt, HBM/power forecasts | rss+gmail+social
 ## [2026-11-27] digest | daily digest + media zone (finalized) + social-stream morning | all sources (gaps: reddit empty, linkedin text empty, no X reposts or saves over Thanksgiving, Kurate tournament unscored, VentureBeat fetch failed, lab watcher misses on Anthropic system cards/DeepSeek/Thinking Machines)
+## [2026-11-28] ingest | SemiAnalysis Trainium3 inference, Amazon $25B chips | gmail+rss+social
+## [2026-11-28] ingest | Stable Gated DeltaNet-2 | huggingface
+## [2026-11-28] ingest | Agent state abstraction, LLM context engineers, RAW-RAG | huggingface+social
+## [2026-11-28] ingest | Equal-budget ladder, AGL-SKILL, HyperHarness | social
+## [2026-11-28] ingest | Rules files, database damage, RegretBench, DecepEval | huggingface+social
+## [2026-11-28] ingest | OS-Omni, Solve Vision with Code, DRBench Pro | huggingface
+## [2026-11-28] ingest | Industry roundup (Blackwell in Shanghai, SAP, OpenAI v Apple, Athena) | rss+gmail+social
+## [2026-11-28] digest | daily digest + media zone (finalized) + social-stream morning | all sources (gaps: all 8 Reddit subs empty, LinkedIn empty, no X reposts or saves over Thanksgiving, Kurate tournament unscored, VentureBeat feed empty, lab watcher misses on Anthropic system cards/Meta AI/DeepSeek/Thinking Machines/Cohere)
