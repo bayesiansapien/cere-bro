@@ -1521,6 +1521,19 @@
 "kv-reuse",
 "agent-cost"
 ],
+"agentic-systems/2026-11-28-agent-state-abstraction-and-context-engineers.md": [
+"agent-cost",
+"agent-memory"
+],
+"agentic-systems/2026-11-28-equal-budget-ladder-and-harness-optimizers.md": [
+"multi-agent",
+"self-improving-harness",
+"agent-cost"
+],
+"agentic-systems/2026-11-28-os-omni-vision-with-code-drbench-pro.md": [
+"agent-evals",
+"tool-use"
+],
 "ai-industry/2026-04-17-anthropic-mythos-policy.md": [
 "frontier-models",
 "governance-policy"
@@ -1898,6 +1911,11 @@
 "industry-business",
 "fabs-semis",
 "governance-policy"
+],
+"ai-industry/2026-11-28-trainium-bedrock-sap-openai-apple-blackwell-shanghai.md": [
+"fabs-semis",
+"compute-economics",
+"industry-business"
 ],
 "ai-routing/2026-04-17-tracer-llm-routing.md": [
 "llm-routing",
@@ -2827,6 +2845,11 @@
 "accelerators",
 "agent-evals",
 "quantization"
+],
+"hardware/2026-11-28-semianalysis-trainium3-inference.md": [
+"accelerators",
+"compute-economics",
+"serving-systems"
 ],
 "inference-efficiency/2026-04-16-tip-token-importance-on-policy-distillation.md": [
 "distillation",
@@ -5662,6 +5685,9 @@
 "alignment-safety",
 "training-efficiency"
 ],
+"llms-foundation-models/2026-11-28-stable-gated-deltanet-2.md": [
+"architectures"
+],
 "responsible-ai/2026-05-08-first-token-knows-hallucination-detection.md": [
 "alignment-safety",
 "test-time-compute"
@@ -6238,6 +6264,10 @@
 "responsible-ai/2026-11-27-tencent-hy4-frontier-safety-system-card.md": [
 "frontier-models",
 "alignment-safety"
+],
+"responsible-ai/2026-11-28-agent-boundaries-rules-backups-deception.md": [
+"alignment-safety",
+"harness-engineering"
 ],
 "vision-audio-video/2026-04-16-gameworld-multimodal-game-agents.md": [
 "agent-evals",
