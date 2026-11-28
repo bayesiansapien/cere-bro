@@ -347,3 +347,6 @@ FrontierPhysics (2611.06910, 56 tasks, none passes over 46 of 168 rollouts), Sci
 ## Update 2026-11-26: where evals break
 - [Eugene Yan, SemiAnalysis GDPx, OWE-Bench](2026-11-26-where-evals-break-yan-gdpx-owe-bench.md): graders failed correct work in 8 of 12 public evals; models declared success on 72-91% of AutomationBench failures; "cost per task" rewards failing cheaply. GDPx: GPT-6.2 Astra 19.3%, Fable 5.2 16.4% (Fable leads chip design, SWE, quant; Astra hardware design, materials, RSI). OWE-Bench: best 54.6% at 211M tokens/task and an **18-point deployment gap** (hidden vs provided cases). SpecEngineeringBench: tests cover 80% of changed code but expose defects 26% of the time.
 - Confirms the 11-25 SWE-Gym audit from the essay side. Open problem for every cost paper: report repeated-run reliability and hidden-case gaps, not just dollars at equal pass@1.
+
+## Update 2026-11-28: platform spread, code beats pixels
+[OS-Omni, Solve Vision with Code, DRBench Pro](2026-11-28-os-omni-vision-with-code-drbench-pro.md): OS-Omni (67.5 human steps per task; Opus 5.5 68.5% vs 77.3% human; Linux above human, iOS/macOS 25+ points below). Coding agents that render the answer video beat video models by 0.22+ on VBVR-Pro-Bench. DRBench Pro best coverage 57.04%.

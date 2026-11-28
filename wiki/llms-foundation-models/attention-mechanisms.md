@@ -257,3 +257,6 @@ Latent Sparse Attention ([summary](../inference-efficiency/2026-11-04-latent-spa
 
 ## Update 2026-11-24: residual streams as routing
 [cmHC (2611.27193)](2026-11-24-cmhc-and-dca-residual-routing.md) contracts mHC's doubly stochastic mixing toward the polytope interior to avoid both under-mixing (independent streams) and over-mixing (indistinguishable streams); fused Ascend ops -44.8% latency. Google's DCA blog groups DCA, attention residuals, hyper-connections and mHC as one family and says Inkling 2 uses attention residuals plus DCA's split Q/K/V.
+
+## Update 2026-11-28: erase geometry decides whether linear attention trains
+[Stable Gated DeltaNet-2](2026-11-28-stable-gated-deltanet-2.md) (2611.34051): GDN-2's long-context training failures come from an asymmetric (non-normal) erase operator whose gains compound across tokens, so state grows exponentially with no new writes. Symmetric erasure plus decay-regulated residual writing gives an O(T) bound, keeps chunkwise parallelism, +6.80 RULER at 128K (recurrent, ~1.6B). Adds a third axis to the RAVEN write-policy taxonomy: erase geometry.

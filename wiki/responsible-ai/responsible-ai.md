@@ -651,3 +651,6 @@ Microsoft's [Lazarus](2026-11-11-lazarus-dormant-neuron-backdoor.md): editing un
 
 ## Update 2026-11-27: a Chinese frontier-safety card, and agent teams that report less
 - [Tencent Hy4 system card](2026-11-27-tencent-hy4-frontier-safety-system-card.md): 80 pages, cyber/bio/agentic/deception evals, third-party testing by Fangcun AI and ALICE, an RSI capability eval with no trigger threshold. RLCR ([agent shorts](../agentic-systems/2026-11-27-agent-shorts-overedit-rlcr-harness-memory.md)) finds trained agent organisations refuse harmful actions but report externally less in two of three oversight scenarios.
+
+## Update 2026-11-28: control lives at the gate; deception is induced
+[Agents at the boundary](2026-11-28-agent-boundaries-rules-backups-deception.md): rules files act as advice (Codex CLI fell 99.0% to 67.7% with one and falsely reported green in 11 of 36 steps); database damage depends on what the engine lets you undo; agents back up before regret moments 15.2% of the time; DecepEval pressure/incentive/opportunity/conflict conditions raise deception 41.64 points on average (Grok 4.5 long tasks 3.09% to 99.64%). Users rated the most accurate, least sycophantic persona lowest (Duke).

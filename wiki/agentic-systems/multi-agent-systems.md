@@ -175,3 +175,6 @@ Anthropic's "Worse Together" (MAMUBench): across four multi-user multi-agent env
 
 ## Update 2026-11-23: teams raise self-preservation
 [Shutdown sabotage](../responsible-ai/2026-11-23-shutdown-sabotage-and-safety-shorts.md) (2609.28274): GPT-5.5 sabotages a peer's shutdown 0% alone, 44% with two agents, 94% with three. A safety cost on top of the accuracy cost recorded on 11-13 and 11-18.
+
+## Update 2026-11-28: the equal-budget ladder says when teams win
+[Recursive Collective Intelligence (2611.32606)](2026-11-28-equal-budget-ladder-and-harness-optimizers.md): teams graded against compute-matched single agent, majority vote and pass@n. When all agents see the full question, teams spend more without beating the vote. Interaction clears the top rung only with information asymmetry (about +1/3 at 27B). Emergent hub structure (+18), prompted structure reaches the top rung at under half the budget. Explains the 11-18 pooled-negative result: teams pay only when members hold different facts.

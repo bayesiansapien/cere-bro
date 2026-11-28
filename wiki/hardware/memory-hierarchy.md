@@ -296,3 +296,6 @@ Bernstein (via X): HBM4 at about $6-7/GB manufacturing cost vs about $20/GB pric
 ## Update 2026-11-20: tiers on a PC, DRAM in the rack
 
 [Tideway (2611.14848)](../inference-efficiency/2026-11-20-tideway-moe-tiered-memory.md) pools VRAM and host RAM for MoE inference on consumer devices with phase-specific layouts: 1.97x end-to-end, 2.40x TTFT. Parasail will deploy Positron Titan servers (models up to 32T parameters in commodity DRAM, not HBM) at 5MW. Together's Storage Accelerator caches objects on every GPU node (about 20x faster warm reads). See [plumbing](2026-11-20-training-and-serving-plumbing.md).
+
+## Update 2026-11-28: Trainium3 small-message HBM utilization
+[SemiAnalysis Trainium3 microbenchmarks](2026-11-28-semianalysis-trainium3-inference.md): static-descriptor DMA reaches 80-89% HBM utilization at 64 KiB messages (hardware DGE 65-78%), near peak by 256 KiB; PSUM-to-SBUF reads hit 512 B/cycle per engine and run in parallel without loss. Near-memory accumulation in PSUM mirrors Blackwell's TMEM. Small-message bandwidth is what decode needs.
